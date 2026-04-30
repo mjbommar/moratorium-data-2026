@@ -99,6 +99,21 @@ in_force <- df[df$enacted_status %in% c("active", "extended"), ]
 sort(table(in_force$state), decreasing = TRUE)[1:10]
 ```
 
+### Make a map in 30 seconds
+
+Every row has `latitude` and `longitude` columns. Drop the CSV into [Mapbox Studio](https://www.mapbox.com/studio), [kepler.gl](https://kepler.gl/), [Datawrapper](https://www.datawrapper.de/maps/), or [QGIS](https://qgis.org/) and you have an instant point map. Or in 5 lines of Python:
+
+```python
+import pandas as pd
+import folium
+df = pd.read_csv("https://raw.githubusercontent.com/mjbommar/moratorium-data-2026/main/data/moratorium_inventory.csv")
+m = folium.Map(location=[39.5, -98.5], zoom_start=4)
+df.dropna(subset=["latitude","longitude"]).apply(
+    lambda r: folium.CircleMarker([r.latitude, r.longitude], radius=4,
+        popup=f"{r.jurisdiction}, {r.state} ({r.enacted_status})").add_to(m), axis=1)
+m.save("map.html")  # open in browser
+```
+
 ### Just want the numbers
 
 [`data/summary_stats.json`](data/summary_stats.json) is a small JSON file with the headline totals (counts by state, breakdown by enacted-status, etc.) — useful if you want to embed live-updating numbers in your own page.

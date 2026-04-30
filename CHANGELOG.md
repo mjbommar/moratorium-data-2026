@@ -1,5 +1,23 @@
 # Changelog
 
+## v2026.04.2 — 2026-04-30 (geocoding + paper-data alignment)
+
+### Schema additions
+
+- **New `latitude` and `longitude` columns** in the inventory CSV. WGS84 coordinates of each jurisdiction's centroid, geocoded via OSM Nominatim with a Census Geocoder fallback. Six decimal places (~10 cm precision). 220 of 222 rows successfully geocoded; the 2 blanks are aggregate "Other Reported" / "Proposed or Rejected" meta-rows that aren't real geographic points.
+- New `scripts/geocode_inventory.py` lets anyone re-geocode after adding new rows.
+
+### Paper-data alignment fixes
+
+- `Moratorium_Survey_20260430_Draft_004.pdf` (in the private working repo) now matches this dataset exactly. Earlier drafts cited 223 moratoria; that's been corrected to 222 throughout the paper after the v2026.04.1 Harrison dedup. Paper text confidence range updated from `0.40 to 0.95` to `0.40 to 0.98` (the actual JSON max).
+- `appendix-d-methodology.tex` Phase 2 classification table updated to current values: 3,925 PDFs classified (was 2,433); 709 moratorium-related (was 202); 1,123 primary legal sources (was 503). The "98 structured records" stub fixed to 348.
+
+### Public-release sanitization
+
+- Stripped the `source_path` field from all 864 records in `structured_extractions.jsonl`. The field had been leaking the private working repo's filesystem path (`/nas4/data/workspace/personal/...`). The `source_file` basename is preserved; the absolute path is internal-only.
+
+---
+
 ## v2026.04.1 — 2026-04-30 (data-quality patch)
 
 Five fixes after community review of the v2026.04 initial release.

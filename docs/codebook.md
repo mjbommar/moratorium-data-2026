@@ -25,6 +25,8 @@ This document defines every column in every data file. Read this before doing an
 | `activity_level` | The state's overall moratorium-activity classification. **Closed vocabulary: `None`, `Low`, `Medium`, `High`.** | `High` |
 | `enacted_status` | **Closed-vocab status bucket** derived from the free-text fields. One of: `active`, `extended`, `replaced`, `expired`, `rescinded`, `pending`. See breakdown below. | `active` |
 | `moratorium_id` | **Stable identifier** of the form `<state-abbrev>-<jurisdiction-slug>-<year>`, with `-pN` appended for explicitly-numbered phases (e.g., Oliver County) or `-N` appended for repeat instruments at the same jurisdiction in the same year. Use this column as a primary key when joining with future releases. | `mi-pittsfield-township-2025` |
+| `latitude` | WGS84 latitude of the jurisdiction's centroid. Geocoded via OSM Nominatim (with U.S. Census Geocoder fallback). For counties, the centroid is the county; for cities/towns/villages/townships, the centroid is the local government boundary. Six decimal places (~10 cm precision); blank if geocoding failed. | `42.238500` |
+| `longitude` | WGS84 longitude of the jurisdiction's centroid (see `latitude`). Negative for U.S. jurisdictions. | `-83.706800` |
 
 ### `enacted_status` values
 
