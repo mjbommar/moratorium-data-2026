@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Missouri as of April 2026.
 
-**3 instruments** — 0 in force, 1 pending, 2 past. Activity level: **Low**.
+**3 instruments** — 1 in force, 1 pending, 1 past. Activity level: **Low**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

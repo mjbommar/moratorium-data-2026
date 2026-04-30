@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Louisiana as of April 2026.
 
-**2 instruments** — 0 in force, 2 pending, 0 past. Activity level: **Low**.
+**2 instruments** — 1 in force, 1 pending, 0 past. Activity level: **Low**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

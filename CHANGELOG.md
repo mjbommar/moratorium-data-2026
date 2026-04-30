@@ -1,5 +1,59 @@
 # Changelog
 
+## v2026.04.3 — 2026-04-30 (enacted_status reclassification)
+
+### Bug fix: 48 rows were mis-classified
+
+The `enacted_status` column was previously derived by a regex classifier
+that concatenated `current_status`, `outcome`, `date_enacted`, and
+`jurisdiction` into one blob and substring-matched against keyword lists.
+This produced false positives any time hypothetical phrasing
+("Active unless extended"), tangential mentions ("article since removed"),
+or follow-on regulatory work in `outcome` ("Pending. Staff directed to
+prepare UDO amendments...") happened to contain a state-vocab keyword.
+
+We rebuilt the classifier with a Pydantic-typed gpt-5.4-mini call
+(`scripts/classify_enacted_status.py`) that reads the row's narrative
+fields and returns one of `active`, `extended`, `pending`, `replaced`,
+`expired`, `rescinded` with a written justification and a confidence
+score. Every row was reviewed by hand against the LLM's call; one manual
+override was applied (Mason, MI: rescinded → replaced).
+
+### Headline counts revised
+
+|                | Old (v2026.04.2) | New (v2026.04.3) |
+|----------------|------------------|------------------|
+| In force       | 100 (92 + 8)     | **148 (137 + 11)** |
+| Pending        | 71               | **24**           |
+| Replaced       | 26               | **27**           |
+| Expired        | 15               | **18**           |
+| Rescinded      | 10               | **5**            |
+
+The total stays at 222. Many rows that were tagged `pending` because
+their `outcome` field led with "Pending. [follow-on regulatory work]"
+were actually adopted moratoria with `current_status: "Active"`. Those
+flipped to `active`. Several rows whose `current_status` led with
+"Active unless extended/replaced" stayed `active` instead of being
+mis-bucketed as extended/replaced.
+
+### Audit trail
+
+`data/enacted_status_classifications.json` records, for each
+`moratorium_id`, the LLM's chosen status, its written reasoning, its
+self-reported confidence, and any manual override.
+
+### Map and headline updates
+
+- `site/moratoria.geojson` regenerated from the corrected CSV (so the
+  Pages-site dot colors reflect the new classifications).
+- `summary_stats.json` `enacted_status_breakdown` updated.
+- README headline counters and the Pages-site stat cards updated to
+  148 / 24 / 50.
+- The April 2026 working paper draft was rebuilt with corrected
+  in-force/pending/past totals.
+
+---
+
 ## v2026.04.2 — 2026-04-30 (geocoding + paper-data alignment)
 
 ### Schema additions

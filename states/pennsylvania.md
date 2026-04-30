@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Pennsylvania as of April 2026.
 
-**1 instruments** — 1 in force, 0 pending, 0 past. Activity level: **Low**.
+**1 instrument** — 1 in force, 0 pending, 0 past. Activity level: **Low**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

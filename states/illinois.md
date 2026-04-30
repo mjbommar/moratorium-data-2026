@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Illinois as of April 2026.
 
-**5 instruments** — 0 in force, 4 pending, 1 past. Activity level: **Medium**.
+**5 instruments** — 3 in force, 1 pending, 1 past. Activity level: **Medium**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

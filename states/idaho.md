@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Idaho as of April 2026.
 
-**1 instruments** — 0 in force, 0 pending, 1 past. Activity level: **Low**.
+**1 instrument** — 0 in force, 0 pending, 1 past. Activity level: **Low**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

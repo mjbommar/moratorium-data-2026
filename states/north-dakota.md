@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in North Dakota as of April 2026.
 
-**7 instruments** — 2 in force, 3 pending, 2 past. Activity level: **Medium**.
+**7 instruments** — 4 in force, 0 pending, 3 past. Activity level: **Medium**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

@@ -7,7 +7,7 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 > 📄 **Working paper:** [April 2026 updated draft (PDF, 6 MB, 116 pages)](paper/moratorium-nation-2026-04-30.pdf) · [first edition on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6242898). 50-state legal authority survey, 44-clause taxonomy, 13-section model ordinance template.
 
 > **As of April 2026, 222 moratorium instruments tracked across 30 states.**
-> 🟢 **100 currently in force** (active or extended) · 🟡 **71 pending or proposed** (not yet adopted) · ⚪ **51 expired, replaced, or rescinded** (no longer in force)
+> 🟢 **148 currently in force** (active or extended) · 🟡 **24 pending or proposed** (not yet adopted) · ⚪ **50 expired, replaced, or rescinded** (no longer in force)
 >
 > Top states by total instruments: Ohio (35), Michigan (34), Georgia (24), North Carolina (19), Iowa (12), Indiana (11), Washington (11).
 
@@ -60,11 +60,11 @@ For more, see the [FAQ](docs/FAQ.md).
 As of **April 2026**:
 
 - **222 moratorium instruments** tracked in our cleaned inventory
-  - **100 currently in force** (92 active + 8 extended)
-  - **71 pending or proposed** (public hearings scheduled, awaiting adoption)
-  - **26 replaced** by permanent regulations
-  - **15 expired** without a documented replacement
-  - **10 rescinded** before their original expiration
+  - **148 currently in force** (137 active + 11 extended)
+  - **24 pending or proposed** (public hearings scheduled, awaiting adoption)
+  - **27 replaced** by permanent regulations
+  - **18 expired** without a documented replacement
+  - **5 rescinded** before their original expiration
 - **30 states** have at least one moratorium; **20 states** have none we've identified
 - **Top 10 states by instrument count**: Ohio (35), Michigan (34), Georgia (24), North Carolina (19), Iowa (12), Indiana (11), Washington (11), Kansas (8), North Dakota (7), Tennessee (6)
 - **Sectors covered**: most moratoria target **data centers** (~93% mention them); a substantial share also cover **cryptocurrency mining**, with smaller numbers covering **battery storage**, **solar**, and **wind**

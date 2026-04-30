@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Tennessee as of April 2026.
 
-**6 instruments** — 4 in force, 1 pending, 1 past. Activity level: **Medium**.
+**6 instruments** — 4 in force, 0 pending, 2 past. Activity level: **Medium**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

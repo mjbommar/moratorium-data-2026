@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Minnesota as of April 2026.
 
-**4 instruments** — 0 in force, 4 pending, 0 past. Activity level: **Medium**.
+**4 instruments** — 2 in force, 2 pending, 0 past. Activity level: **Medium**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|
