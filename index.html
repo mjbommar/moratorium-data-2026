@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moratorium Nation — U.S. Infrastructure Moratorium Tracker</title>
+<meta name="description" content="Open data on 222 local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States. Updated April 2026.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Moratorium Nation — U.S. Infrastructure Moratorium Tracker">
+<meta property="og:description" content="222 moratoria across 30 states. Open dataset, interactive map.">
+<meta property="og:type" content="website">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+
+    /* Status colors — calm, not alarming */
+    --c-active:    #2d8f4f;
+    --c-extended:  #2d8f4f;
+    --c-replaced:  #6a737d;
+    --c-expired:   #6a737d;
+    --c-rescinded: #cb2431;
+    --c-pending:   #d4a017;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  header.hero {
+    padding: 36px 24px 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  header.hero h1 {
+    font-size: clamp(28px, 4vw, 44px);
+    line-height: 1.15;
+    margin: 0 0 6px;
+    letter-spacing: -0.02em;
+  }
+  header.hero .subtitle {
+    font-size: clamp(16px, 1.4vw, 19px);
+    color: var(--ink-soft);
+    margin: 0 0 22px;
+    max-width: 760px;
+  }
+
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin: 0 auto 14px;
+    max-width: 1200px;
+    padding: 0 24px;
+  }
+  .stat {
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 14px 16px;
+  }
+  .stat .num {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .stat .label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-soft);
+    margin-top: 6px;
+  }
+  .stat.in-force .num    { color: var(--c-active); }
+  .stat.pending .num     { color: var(--c-pending); }
+  .stat.past .num        { color: var(--c-replaced); }
+
+  /* Map */
+  .map-wrap {
+    max-width: 1200px;
+    margin: 18px auto 0;
+    padding: 0 24px;
+  }
+  #map {
+    height: 560px;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+  }
+  .map-controls {
+    margin: 10px 0 22px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+    font-size: 14px;
+    color: var(--ink-soft);
+  }
+  .legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: 8px;
+  }
+  .legend-item .swatch {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.15);
+  }
+  .filter-buttons {
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .filter-buttons button {
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 5px 11px;
+    font-size: 13px;
+    color: var(--ink);
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .filter-buttons button.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: white;
+  }
+
+  /* Body sections */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px 48px;
+  }
+  section {
+    margin-top: 36px;
+  }
+  section h2 {
+    font-size: 22px;
+    margin: 0 0 12px;
+    letter-spacing: -0.01em;
+  }
+  section p {
+    color: var(--ink-soft);
+    max-width: 760px;
+    margin: 6px 0 14px;
+  }
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 18px 20px;
+  }
+  .card h3 {
+    margin: 0 0 6px;
+    font-size: 16px;
+  }
+  .card p {
+    font-size: 14px;
+    color: var(--ink-soft);
+    margin: 0 0 10px;
+  }
+  .card a {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .top-states {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 6px;
+    font-size: 14px;
+  }
+  .top-states .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--line);
+  }
+  .top-states .row a { color: var(--ink); }
+  .top-states .row strong { font-variant-numeric: tabular-nums; }
+
+  footer {
+    border-top: 1px solid var(--line);
+    margin-top: 48px;
+    padding: 28px 24px;
+    color: var(--ink-soft);
+    font-size: 13px;
+    text-align: center;
+  }
+  footer a { color: var(--ink-soft); }
+  footer .repo-link { font-weight: 500; }
+
+  /* Popup */
+  .leaflet-popup-content { font-size: 13px; line-height: 1.45; max-width: 260px; }
+  .leaflet-popup-content h4 { margin: 0 0 4px; font-size: 14px; }
+  .leaflet-popup-content .meta {
+    color: var(--ink-soft);
+    font-size: 12px;
+    margin: 4px 0;
+  }
+  .leaflet-popup-content .status {
+    display: inline-block;
+    padding: 1px 7px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 500;
+    margin-top: 4px;
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>Moratorium Nation</h1>
+  <p class="subtitle">Open data on local-government moratoria targeting <strong>data centers</strong>, <strong>battery storage</strong>, <strong>solar</strong>, <strong>wind</strong>, and <strong>cryptocurrency mining</strong> across the United States. Updated April 2026.</p>
+</header>
+
+<div class="stats-row">
+  <div class="stat">
+    <div class="num" id="stat-total">222</div>
+    <div class="label">Moratorium instruments</div>
+  </div>
+  <div class="stat in-force">
+    <div class="num" id="stat-in-force">100</div>
+    <div class="label">Currently in force</div>
+  </div>
+  <div class="stat pending">
+    <div class="num" id="stat-pending">71</div>
+    <div class="label">Pending or proposed</div>
+  </div>
+  <div class="stat past">
+    <div class="num" id="stat-past">51</div>
+    <div class="label">Replaced, expired, or rescinded</div>
+  </div>
+  <div class="stat">
+    <div class="num">30</div>
+    <div class="label">States with at least one</div>
+  </div>
+</div>
+
+<div class="map-wrap">
+  <div id="map"></div>
+  <div class="map-controls">
+    <span class="legend-item"><span class="swatch" style="background:var(--c-active)"></span>In force (active / extended)</span>
+    <span class="legend-item"><span class="swatch" style="background:var(--c-pending)"></span>Pending / proposed</span>
+    <span class="legend-item"><span class="swatch" style="background:var(--c-replaced)"></span>Replaced / expired</span>
+    <span class="legend-item"><span class="swatch" style="background:var(--c-rescinded)"></span>Rescinded</span>
+    <div class="filter-buttons" id="filter-buttons">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="in-force">In force</button>
+      <button data-filter="pending">Pending</button>
+      <button data-filter="past">Past</button>
+    </div>
+  </div>
+  <p style="font-size: 12px; color: var(--ink-soft); margin: -4px 0 22px;">Map shows 220 of 222 instruments. Two aggregate meta-rows ("Other Reported Local Moratoria, MI" and "Proposed or Rejected Local Pauses, MD") aren't real geographic points. Click any marker for jurisdiction details.</p>
+</div>
+
+<main>
+
+<section>
+  <h2>What is a moratorium?</h2>
+  <p>A moratorium is a temporary pause that a local government — usually a city, county, or township — places on accepting or approving certain kinds of new development. Most run 6 to 12 months and are intended to give the local government time to study impacts and write permanent rules. <a href="docs/FAQ.md">Read the FAQ →</a></p>
+</section>
+
+<section>
+  <h2>Top 13 states by moratorium count</h2>
+  <p>These thirteen states account for more than four-fifths of all identified instruments. Click a state to see every moratorium in plain English.</p>
+  <div class="top-states">
+    <div class="row"><a href="states/ohio.md"><strong>Ohio</strong></a><strong>35</strong></div>
+    <div class="row"><a href="states/michigan.md"><strong>Michigan</strong></a><strong>34</strong></div>
+    <div class="row"><a href="states/georgia.md"><strong>Georgia</strong></a><strong>24</strong></div>
+    <div class="row"><a href="states/north-carolina.md"><strong>North Carolina</strong></a><strong>19</strong></div>
+    <div class="row"><a href="states/iowa.md"><strong>Iowa</strong></a><strong>12</strong></div>
+    <div class="row"><a href="states/indiana.md"><strong>Indiana</strong></a><strong>11</strong></div>
+    <div class="row"><a href="states/washington.md"><strong>Washington</strong></a><strong>11</strong></div>
+    <div class="row"><a href="states/kansas.md"><strong>Kansas</strong></a><strong>8</strong></div>
+    <div class="row"><a href="states/north-dakota.md"><strong>North Dakota</strong></a><strong>7</strong></div>
+    <div class="row"><a href="states/tennessee.md"><strong>Tennessee</strong></a><strong>6</strong></div>
+    <div class="row"><a href="states/illinois.md"><strong>Illinois</strong></a><strong>5</strong></div>
+    <div class="row"><a href="states/massachusetts.md"><strong>Massachusetts</strong></a><strong>5</strong></div>
+    <div class="row"><a href="states/new-york.md"><strong>New York</strong></a><strong>5</strong></div>
+  </div>
+  <p style="margin-top: 12px;"><a href="states/">All 30 states with moratoria →</a></p>
+</section>
+
+<section>
+  <h2>Use the data</h2>
+  <div class="grid-3">
+    <div class="card">
+      <h3>📊 Spreadsheet</h3>
+      <p>The 222-row inventory as a CSV — opens in Excel, Google Sheets, Numbers, or any tool. Includes <code>enacted_status</code>, <code>moratorium_id</code>, and lat/lon for instant mapping.</p>
+      <a href="data/moratorium_inventory.csv">Download CSV →</a>
+    </div>
+    <div class="card">
+      <h3>🐍 Python / R / pandas</h3>
+      <p>Load directly from GitHub raw, no clone required. The <a href="data/README.md">data folder README</a> has working snippets.</p>
+      <a href="data/">Code examples →</a>
+    </div>
+    <div class="card">
+      <h3>📚 Citation</h3>
+      <p>The dataset is published under <a href="LICENSE-data">CC-BY-4.0</a>. Cite the working paper or this dataset directly. <code>CITATION.cff</code> in the repo gives GitHub a "Cite this repository" button.</p>
+      <a href="CITATION.cff">CITATION.cff →</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Methodology</h2>
+  <p>The dataset is built from approximately 4,400 original documents (ordinances, resolutions, board minutes, news articles) collected via AI-assisted research agents across all 50 states. 348 moratorium texts have been read line-by-line and coded against a 44-clause taxonomy. Geocoded coordinates were triple-checked across 89 verifications with zero confirmed errors. <a href="docs/methodology.md">Full methodology →</a></p>
+</section>
+
+<section>
+  <h2>Related projects by Michael Bommarito</h2>
+  <p>This dataset is one of several public resources tracking the U.S. data center buildout and its community impacts.</p>
+  <div class="grid-3">
+    <div class="card">
+      <h3><a href="https://servercountry.org/">servercountry.org</a></h3>
+      <p>An educational resource on the $1 trillion AI data center buildout: 10+ explainer articles, a 604-project database across all 50 states, glossary of 52+ terms, plus the full book <em>This Is Server Country</em> (402 pages).</p>
+      <a href="https://servercountry.org/">Visit →</a>
+    </div>
+    <div class="card">
+      <h3><a href="https://fightadatacenter.com/">fightadatacenter.com</a></h3>
+      <p>A citizen's guide for community members facing a data center proposal: ten-chapter book on local, state, and federal strategies, plus a free abridged online version with checklists and templates.</p>
+      <a href="https://fightadatacenter.com/">Visit →</a>
+    </div>
+    <div class="card">
+      <h3><a href="https://michaelbommarito.com/">michaelbommarito.com</a></h3>
+      <p>Personal site of the dataset's author. Builder, researcher, and educator working at the intersection of food systems, legal technology, AI, and open source. Co-founder of Alea Institute and 273 Ventures.</p>
+      <a href="https://michaelbommarito.com/">Visit →</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Status &amp; contributions</h2>
+  <p>This is <strong>v2026.04.2</strong>. Found a moratorium we missed, or an error to correct? <a href="https://github.com/mjbommar/moratorium-data-2026/issues/new/choose">Open an issue</a> on GitHub. Refreshes are roughly quarterly while the moratorium wave is active.</p>
+</section>
+
+</main>
+
+<footer>
+  <a class="repo-link" href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a> · Data CC-BY-4.0 · Code MIT · Compiled by <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+(function() {
+  var STATUS_COLOR = {
+    active:    getComputedStyle(document.documentElement).getPropertyValue('--c-active').trim(),
+    extended:  getComputedStyle(document.documentElement).getPropertyValue('--c-extended').trim(),
+    replaced:  getComputedStyle(document.documentElement).getPropertyValue('--c-replaced').trim(),
+    expired:   getComputedStyle(document.documentElement).getPropertyValue('--c-expired').trim(),
+    rescinded: getComputedStyle(document.documentElement).getPropertyValue('--c-rescinded').trim(),
+    pending:   getComputedStyle(document.documentElement).getPropertyValue('--c-pending').trim(),
+  };
+  var STATUS_LABEL = {
+    active:    'In force',
+    extended:  'Extended',
+    replaced:  'Replaced',
+    expired:   'Expired',
+    rescinded: 'Rescinded',
+    pending:   'Pending',
+  };
+  var FILTER_GROUPS = {
+    'all':      ['active','extended','replaced','expired','rescinded','pending'],
+    'in-force': ['active','extended'],
+    'pending':  ['pending'],
+    'past':     ['replaced','expired','rescinded'],
+  };
+
+  var map = L.map('map', {
+    center: [39.5, -97.5],
+    zoom: 4,
+    minZoom: 3,
+    maxZoom: 12,
+    scrollWheelZoom: false,  // friendlier; user can shift-scroll
+  });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 18,
+  }).addTo(map);
+
+  var allMarkers = [];
+  var markerLayer = L.layerGroup().addTo(map);
+
+  function makeMarker(feature) {
+    var p = feature.properties;
+    var coords = feature.geometry.coordinates;
+    var color = STATUS_COLOR[p.enacted_status] || STATUS_COLOR.active;
+    var marker = L.circleMarker([coords[1], coords[0]], {
+      radius: 6,
+      color: color,
+      weight: 1.5,
+      fillColor: color,
+      fillOpacity: 0.65,
+    });
+    var statusLabel = STATUS_LABEL[p.enacted_status] || p.enacted_status;
+    var html = '<h4>' + escapeHtml(p.jurisdiction) + ', ' + escapeHtml(p.state) + '</h4>'
+      + '<div class="meta">' + escapeHtml(p.jurisdiction_type || '') + '</div>'
+      + '<div class="meta"><strong>Date:</strong> ' + escapeHtml(p.date_enacted || '—') + '</div>'
+      + '<div class="meta"><strong>Duration:</strong> ' + escapeHtml(p.duration || '—') + '</div>'
+      + '<span class="status" style="background:' + color + '20;color:' + color + ';border:1px solid ' + color + '60">' + statusLabel + '</span>'
+      + (p.trigger ? '<div class="meta" style="margin-top:6px"><em>' + escapeHtml(p.trigger) + '</em></div>' : '')
+      + '<div class="meta" style="margin-top:8px"><a href="states/' + slugifyState(p.state) + '.md">View ' + escapeHtml(p.state) + ' page →</a></div>';
+    marker.bindPopup(html);
+    marker._status = p.enacted_status;
+    return marker;
+  }
+  function escapeHtml(s) { return String(s||'').replace(/[&<>"']/g, function(c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function slugifyState(s) { return String(s||'').toLowerCase().replace(/\s+/g,'-'); }
+
+  function applyFilter(filterKey) {
+    markerLayer.clearLayers();
+    var allow = FILTER_GROUPS[filterKey] || FILTER_GROUPS.all;
+    allMarkers.forEach(function(m) {
+      if (allow.indexOf(m._status) !== -1) {
+        markerLayer.addLayer(m);
+      }
+    });
+  }
+
+  document.querySelectorAll('#filter-buttons button').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('#filter-buttons button').forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      applyFilter(btn.dataset.filter);
+    });
+  });
+
+  fetch('site/moratoria.geojson')
+    .then(function(r) { return r.json(); })
+    .then(function(geo) {
+      geo.features.forEach(function(f) { allMarkers.push(makeMarker(f)); });
+      applyFilter('all');
+    })
+    .catch(function(err) {
+      document.getElementById('map').innerHTML =
+        '<div style="padding:40px;text-align:center;color:#a00">Could not load map data: ' + err + '</div>';
+    });
+})();
+</script>
+</body>
+</html>
