@@ -224,6 +224,26 @@
     text-align: center;
   }
 
+  /* Timeline chart */
+  .timeline-wrap {
+    max-width: 1200px;
+    margin: 8px auto 0;
+    padding: 0 24px 16px;
+  }
+  .timeline-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: white;
+  }
+  .timeline-wrap .caption {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin: 8px 0 24px;
+  }
+
   /* Body sections */
   main {
     max-width: 1200px;
@@ -371,6 +391,11 @@
     </div>
   </div>
   <p style="font-size: 12px; color: var(--ink-soft); margin: -4px 0 22px;">Map shows 220 of 222 instruments. Two aggregate meta-rows ("Other Reported Local Moratoria, MI" and "Proposed or Rejected Local Pauses, MD") aren't real geographic points. Click any marker for jurisdiction details.</p>
+</div>
+
+<div class="timeline-wrap">
+  <img src="site/timeline.svg" alt="Monthly moratorium adoptions, 2018 through April 2026, stacked by primary sector with cumulative-total dashed line." />
+  <p class="caption">A handful of Washington crypto-mining moratoria in 2018; near silence through 2023; then accelerating sharply in 2025 and exploding in early 2026 as data-center campus proposals reach communities without zoning rules for them. Source: <a href="data/moratorium_inventory.csv" download>moratorium_inventory.csv</a>, <code>date_enacted_iso</code> + <code>sectors</code> columns.</p>
 </div>
 
 <main>
