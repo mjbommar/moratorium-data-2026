@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Illinois — moratoria · Moratorium Nation</title>
+<meta name="description" content="Illinois — moratoria — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">States</a></div>
+  <h1 id="illinois-moratoria">Illinois Moratoria</h1>
+<p>Every infrastructure moratorium we have identified in Illinois as of April 2026.</p>
+<p><strong>5 instruments</strong> — 0 in force, 4 pending, 1 past. Activity level: <strong>Medium</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Jurisdiction</th>
+<th>Type</th>
+<th>Date enacted</th>
+<th>Duration</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Champaign County</td>
+<td>County</td>
+<td>2026-04-23</td>
+<td>12 months (Board reverted 9-month ELUC amendment back to 12 months on 2026-04-23</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>City of Aurora</td>
+<td>City</td>
+<td>2025-09-25</td>
+<td>180 days, with one-time 30-day extension invoked before final ordinance adoption</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>City of Collinsville (proposed, not enacted)</td>
+<td>City</td>
+<td>N/A</td>
+<td>Proposed 12 months</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Morgan County</td>
+<td>County</td>
+<td>2026-04-27</td>
+<td>6 months</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Village of Godfrey</td>
+<td>City</td>
+<td>2026-01-20</td>
+<td>Maximum 180 days, or until the Village Board determines sufficient information h</td>
+<td>🟡 Pending</td>
+</tr>
+</tbody>
+</table>
+<h2 id="detailed-entries">Detailed entries</h2>
+<h3 id="champaign-county">Champaign County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-04-23</li>
+<li><strong>Duration:</strong> 12 months (Board reverted 9-month ELUC amendment back to 12 months on 2026-04-23</li>
+<li><strong>Moratorium ID:</strong> <code>il-champaign-county-2026</code></li>
+<li><strong>Legal basis:</strong> Ordinance No. 2026-9 / Zoning Case 196-AT-26</li>
+<li><strong>What prompted it:</strong> County materials cite groundwater quality and safety, Mahomet Aquifer and water use concerns, energy use, and need for standards for large-scale data centers before proposals arrive</li>
+<li><strong>Affected projects:</strong> Data centers with at least 10,000 square feet of processing area. Draft zoning language also discussed "big" data centers rated at 10 MW or greater for related standards. Proposed projects would not be approved, and pending projects would be held in abeyance during the moratorium</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Pending. The County Board created a Data Center Activities Task Force in February 2026 to recommend zoning amendments</li>
+</ul>
+<h3 id="city-of-aurora">City of Aurora</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2025-09-25</li>
+<li><strong>Duration:</strong> 180 days, with one-time 30-day extension invoked before final ordinance adoption</li>
+<li><strong>Moratorium ID:</strong> <code>il-aurora-2025</code></li>
+<li><strong>Legal basis:</strong> Ordinance O25-064</li>
+<li><strong>What prompted it:</strong> Rapid expansion of data centers in northern Illinois; existing code classified data centers as warehouses; city cited neighborhood complaints, noise, emissions, high energy and water use, stormwater, utility demand, infrastructure strain, and fiscal impacts</li>
+<li><strong>Affected projects:</strong> New data center and warehouse developments, subject to carve-outs for previously filed entitlement applications, existing data center remodels, routine maintenance, and public safety facilities. Aurora reported five data centers in city limits and five more in development when it adopted the permane</li>
+<li><strong>Detailed status:</strong> Replaced</li>
+<li><strong>Outcome:</strong> City Council approved new rules on 2026-03-24, described by the city as adopted on 2026-03-25. New data centers are conditional uses requiring public hearing, public notice, City Council approval, development agreement, water study and plan, energy plan, sound study and plan, noise and vibration lim</li>
+</ul>
+<h3 id="city-of-collinsville-proposed-not-enacted">City of Collinsville (proposed, not enacted)</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> N/A</li>
+<li><strong>Duration:</strong> Proposed 12 months</li>
+<li><strong>Moratorium ID:</strong> <code>il-collinsville-undated</code></li>
+<li><strong>Legal basis:</strong> Planning Commission matter 5368-2025 / "Data Center Moratorium" — <em>not enacted</em>: Collinsville Legistar API search (filter on MatterTitle contains "moratorium", fetched 2026-04-29) returned no City Council moratorium matters since the Planning Commission's December 11, 2025 recommendation; the only f</li>
+<li><strong>What prompted it:</strong> Planning Commission discussion focused on researching how data centers and related uses should appear in the land-use table and whether supplementary regulations are needed for design, nuisances, and infrastructure strain</li>
+<li><strong>Affected projects:</strong> No pending applications were reported by local coverage at the time of the Planning Commission recommendation</li>
+<li><strong>Detailed status:</strong> Recommendation only; not enacted. Planning Commission recommended a 12-month moratorium on 2025-12-11; Collinsville Legistar shows no City Council moratorium matter since that date and the Planning Commission moved on to a text-amendment discussion (matter 5501-2025) on 2026-03-12</li>
+<li><strong>Outcome:</strong> City Council never enacted the proposed moratorium; per Collinsville Legistar (2026-04-29) the Planning Commission instead took up matter 5501-2025 "Discussion - Data Center Text Amendment" on 2026-03-12, signaling a shift to direct text-amendment drafting in lieu of a moratorium pause</li>
+</ul>
+<h3 id="morgan-county">Morgan County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-04-27</li>
+<li><strong>Duration:</strong> 6 months</li>
+<li><strong>Moratorium ID:</strong> <code>il-morgan-county-2026</code></li>
+<li><strong>Legal basis:</strong> County resolution drafted by Morgan County State's Attorney Gray Noll, who recommended shortening from 12 to 6 months for legal defensibility (per <em>Jacksonville Journal-Courier</em>, 2026-04-28)</li>
+<li><strong>What prompted it:</strong> County commissioners and residents sought time to study health, financial, resource, farmland, and community impacts and to draft standards before any application is filed</li>
+<li><strong>Affected projects:</strong> New data center applications; no applications or expressed project interest had been received by the county as of the reported vote</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Pending. County officials stated the pause is intended for standards and requirements, with possible adjustment after state action</li>
+</ul>
+<h3 id="village-of-godfrey">Village of Godfrey</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-01-20</li>
+<li><strong>Duration:</strong> Maximum 180 days, or until the Village Board determines sufficient information h</li>
+<li><strong>Moratorium ID:</strong> <code>il-godfrey-2026</code></li>
+<li><strong>Legal basis:</strong> Resolution #2026-01 (confirmed via January 20, 2026 Village Board minutes captured in <code>research/_originals/2026-01-20-village-board-minutes.pdf</code>; minutes record 6-0 unanimous adoption; resolution text appears in the January 2026 Village newsletter without the resolution number, but the January 20 mi</li>
+<li><strong>What prompted it:</strong> The village cited the need to study infrastructure capacity, utilities, energy consumption, water usage, environmental considerations, land-use compatibility, long-term planning, and whether code or zoning amendments are warranted</li>
+<li><strong>Affected projects:</strong> Building and Zoning Department directed not to accept, process, or review applications, petitions, permits, approvals, or requests for establishment, construction, or expansion of data centers in any village zoning district</li>
+<li><strong>Detailed status:</strong> Active as of 2026-04-29; no superseding Village Board action identified in subsequent meeting minutes or village newsletters captured through April 2026. The 180-day cap means the resolution would expire on or about 2026-07-19 absent further action</li>
+<li><strong>Outcome:</strong> Pending. The resolution is expressly a study period for possible Village Code, zoning, or development standard changes</li>
+</ul>
+<hr />
+<p><em>Source: <a href="../data/moratorium_inventory.csv">moratorium_inventory.csv</a> · <a href="../docs/methodology.html">Methodology</a> · <a href="../docs/codebook.html">Codebook</a>.</em></p>
+<p><a href="index.html">← Back to state index</a> · <a href="../index.html">Back to repository</a></p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

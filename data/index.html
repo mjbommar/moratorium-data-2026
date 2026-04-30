@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data files · Moratorium Nation</title>
+<meta name="description" content="Data files — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">← Home</a></div>
+  <h1 id="data">Data</h1>
+<p>The canonical data files for this project.</p>
+<h2 id="files">Files</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>What it is</th>
+<th>Size</th>
+<th>Format</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="moratorium_inventory.csv"><code>moratorium_inventory.csv</code></a></td>
+<td>The 222-row main inventory. <strong>Start here.</strong></td>
+<td>~190 KB</td>
+<td>CSV</td>
+</tr>
+<tr>
+<td><a href="state_legislation.csv"><code>state_legislation.csv</code></a></td>
+<td>413 state bills tracked in 2025–2026</td>
+<td>~150 KB</td>
+<td>CSV</td>
+</tr>
+<tr>
+<td><a href="summary_stats.json"><code>summary_stats.json</code></a></td>
+<td>Top-level aggregates (counts by state, by status, etc.)</td>
+<td>~12 KB</td>
+<td>JSON</td>
+</tr>
+<tr>
+<td><a href="structured_extractions.jsonl"><code>structured_extractions.jsonl</code></a></td>
+<td>864 lines: 526 successful clause extractions + 338 LLM-call errors retained for transparency</td>
+<td>~2 MB</td>
+<td>JSONL</td>
+</tr>
+<tr>
+<td><a href="clause_extraction_analysis.json"><code>clause_extraction_analysis.json</code></a></td>
+<td>Pre-computed clause prevalence statistics for the n=348 cohort (confidence ≥ 0.4)</td>
+<td>~7 KB</td>
+<td>JSON</td>
+</tr>
+<tr>
+<td><a href="moratorium-extraction.json"><code>moratorium-extraction.json</code></a></td>
+<td>JSON Schema describing the 60-field extraction format</td>
+<td>~25 KB</td>
+<td>JSON Schema</td>
+</tr>
+</tbody>
+</table>
+<h2 id="column-definitions">Column definitions</h2>
+<p>See <a href="../docs/codebook.html"><code>docs/codebook.md</code></a> for full definitions of every column in every file.</p>
+<h2 id="three-columns-most-users-want">Three columns most users want</h2>
+<p>The inventory CSV has 19 columns. The three most useful for typical analysis are:</p>
+<ul>
+<li><strong><code>enacted_status</code></strong> — closed-vocab status: <code>active</code>, <code>extended</code>, <code>replaced</code>, <code>expired</code>, <code>rescinded</code>, or <code>pending</code>. Filter to <code>active</code> + <code>extended</code> for "moratoria currently in force"; exclude <code>pending</code> for "ever-enacted moratoria".</li>
+<li><strong><code>moratorium_id</code></strong> — stable identifier (<code>&lt;state&gt;-&lt;jurisdiction&gt;-&lt;year&gt;</code>, with phase suffixes for repeat instruments). Use this as a primary key when joining with future releases of this dataset.</li>
+<li><strong><code>latitude</code> / <code>longitude</code></strong> — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 220 of 222 rows are geocoded (99.1% coverage); the 2 blanks are aggregate meta-rows. Coordinates were triple-checked with zero confirmed errors after manual fixes for 4 within-state ambiguities — see <a href="../docs/known-gaps.html#geocoding-caveats-added-v2026042"><code>docs/known-gaps.md</code></a> for the audit summary.</li>
+</ul>
+<h2 id="quick-examples">Quick examples</h2>
+<p><strong>Count moratoria currently in force, by state (Excel):</strong> Open <code>moratorium_inventory.csv</code>, filter <code>enacted_status</code> to <code>active</code> and <code>extended</code>, then PivotTable on <code>state</code>.</p>
+<p><strong>Same in Python:</strong></p>
+<pre><code class="language-python">import pandas as pd
+df = pd.read_csv(&quot;moratorium_inventory.csv&quot;)
+in_force = df[df[&quot;enacted_status&quot;].isin([&quot;active&quot;, &quot;extended&quot;])]
+print(in_force[&quot;state&quot;].value_counts())
+</code></pre>
+<p><strong>Filter to data-center-only moratoria (Python):</strong></p>
+<pre><code class="language-python">df_dc = df[df[&quot;trigger&quot;].str.contains(&quot;data center&quot;, case=False, na=False)]
+</code></pre>
+<p><strong>Just the headline numbers (any tool):</strong> Read <code>summary_stats.json</code>. It has total counts, top-states list, and per-state aggregate stats including the <code>enacted_status_breakdown</code> field — useful for embedding live values in dashboards or articles.</p>
+<h2 id="a-note-on-structured_extractionsjsonl">A note on <code>structured_extractions.jsonl</code></h2>
+<p>This file has 864 lines. <strong>526</strong> are successful structured extractions; <strong>338</strong> are LLM-call errors retained for transparency (so you can audit what didn't extract cleanly). The <strong>n=348</strong> cohort referenced in the working paper is the subset with <code>extraction.confidence &gt;= 0.4</code>.</p>
+<pre><code class="language-python">import json
+records = []
+with open(&quot;structured_extractions.jsonl&quot;) as f:
+    for line in f:
+        r = json.loads(line)
+        if r.get(&quot;error&quot;) is None and r[&quot;extraction&quot;][&quot;confidence&quot;] &gt;= 0.4:
+            records.append(r)
+assert len(records) == 348
+</code></pre>
+<h2 id="a-note-on-dates">A note on dates</h2>
+<p>Most <code>date_enacted</code> values are ISO format (<code>YYYY-MM-DD</code>). Some are <code>YYYY-MM</code> (day uncertain), <code>YYYY</code> (only year known), or include qualifying notes (<code>reported</code>, <code>[VERIFY]</code>, <code>proposed</code>). When parsing programmatically, expect to handle both clean and messy values. The <a href="../examples/"><code>examples/</code></a> folder has working code.</p>
+<h2 id="updates">Updates</h2>
+<p>This data is current through <strong>April 2026</strong>. Each refresh is tagged as a release on GitHub. The current version is shown in <a href="../CITATION.cff"><code>../CITATION.cff</code></a>.</p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

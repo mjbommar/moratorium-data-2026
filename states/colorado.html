@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Colorado — moratoria · Moratorium Nation</title>
+<meta name="description" content="Colorado — moratoria — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">States</a></div>
+  <h1 id="colorado-moratoria">Colorado Moratoria</h1>
+<p>Every infrastructure moratorium we have identified in Colorado as of April 2026.</p>
+<p><strong>3 instruments</strong> — 1 in force, 1 pending, 1 past. Activity level: <strong>Medium</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Jurisdiction</th>
+<th>Type</th>
+<th>Date enacted</th>
+<th>Duration</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Denver</td>
+<td>City and County</td>
+<td>Not enacted as of 2026-04-29; public hearing scheduled 2026-05-18</td>
+<td>Proposed one year from effective date, with an alternate expiration tied to adop</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Larimer County</td>
+<td>County</td>
+<td>2026-01-27</td>
+<td>Initial 30 days; extended until 2026-08-25</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Logan County</td>
+<td>County</td>
+<td>2025-10-21</td>
+<td>180 days as adopted; replaced by Resolution 2026-5 (effective 2026-02-17) before</td>
+<td>⚪ Replaced</td>
+</tr>
+</tbody>
+</table>
+<h2 id="detailed-entries">Detailed entries</h2>
+<h3 id="denver">Denver</h3>
+<ul>
+<li><strong>Type:</strong> City and County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> Not enacted as of 2026-04-29; public hearing scheduled 2026-05-18</li>
+<li><strong>Duration:</strong> Proposed one year from effective date, with an alternate expiration tied to adop</li>
+<li><strong>Moratorium ID:</strong> <code>co-denver-2026</code></li>
+<li><strong>Legal basis:</strong> Council Bill 26-0431, "A bill for an ordinance authorizing a moratorium on data centers."</li>
+<li><strong>What prompted it:</strong> No data-center-specific zoning regulations; concerns about water, energy, ratepayer cost shifting, noise, air quality, siting, and impacts on vulnerable communities</li>
+<li><strong>Affected projects:</strong> Existing and already permitted projects would not be stopped. CoreSite DE3 phase one at 4900 Race Street is under construction; future phases had not been permitted as of captured reporting</li>
+<li><strong>Detailed status:</strong> Pending. Committee approved filing on 2026-03-31; City Council ordered publication with future public hearing on 2026-04-13; second reading/public hearing set for 2026-05-18</li>
+<li><strong>Outcome:</strong> If enacted, Denver would use the pause for a working group and possible amendments to zoning, building, energy, green/climate, and municipal code provisions</li>
+</ul>
+<h3 id="larimer-county">Larimer County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-01-27</li>
+<li><strong>Duration:</strong> Initial 30 days; extended until 2026-08-25</li>
+<li><strong>Moratorium ID:</strong> <code>co-larimer-county-2026</code></li>
+<li><strong>Legal basis:</strong> Resolution to Establish a Temporary Moratorium on Data Center Facilities in Larimer County, Colorado, adopted 2026-01-27 (initial 30 days), then extended to 2026-08-25 by Board action 2026-02-09 following public hearing. Captured PDFs are image-based; resolution number not extractable from OCR but t</li>
+<li><strong>What prompted it:</strong> Larimer County Land Use Code had no definitions or regulations for data center uses; county cited water consumption, power usage, noise, aesthetics, heat effects, and suitable zoning</li>
+<li><strong>Affected projects:</strong> No site-specific data center applications had been submitted as of the county's 2026-04-23 update</li>
+<li><strong>Detailed status:</strong> Active through 2026-08-25</li>
+<li><strong>Outcome:</strong> County is drafting Land Use Code definitions and standards and opened a public survey through 2026-06-12</li>
+</ul>
+<h3 id="logan-county">Logan County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2025-10-21</li>
+<li><strong>Duration:</strong> 180 days as adopted; replaced by Resolution 2026-5 (effective 2026-02-17) before</li>
+<li><strong>Moratorium ID:</strong> <code>co-logan-county-2025</code></li>
+<li><strong>Legal basis:</strong> Resolution 2025-25</li>
+<li><strong>What prompted it:</strong> County needed time to draft regulations before accepting or processing applications for data center, battery, solar, and wind facilities; meeting records cited grid, infrastructure, agricultural land, and land use compatibility concerns</li>
+<li><strong>Affected projects:</strong> County discussion referenced a possible data center request near the 2 GW scale in northeastern Colorado</li>
+<li><strong>Detailed status:</strong> Replaced by permanent zoning regulations (Resolution 2026-5) effective 2026-02-17 per Logan County Planning page; the data-center component of Resolution 2025-25 was superseded; status of any remaining battery, solar, and wind components of the original moratorium not separately confirmed</li>
+<li><strong>Outcome:</strong> Resolution 2026-5 adopted Data Center Facility regulations. The county planning page lists Resolution 2026-5 among amended regulations effective 2026-02-17 and 2026-04-07</li>
+</ul>
+<hr />
+<p><em>Source: <a href="../data/moratorium_inventory.csv">moratorium_inventory.csv</a> · <a href="../docs/methodology.html">Methodology</a> · <a href="../docs/codebook.html">Codebook</a>.</em></p>
+<p><a href="index.html">← Back to state index</a> · <a href="../index.html">Back to repository</a></p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

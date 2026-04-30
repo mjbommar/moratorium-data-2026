@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tennessee — moratoria · Moratorium Nation</title>
+<meta name="description" content="Tennessee — moratoria — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">States</a></div>
+  <h1 id="tennessee-moratoria">Tennessee Moratoria</h1>
+<p>Every infrastructure moratorium we have identified in Tennessee as of April 2026.</p>
+<p><strong>6 instruments</strong> — 4 in force, 1 pending, 1 past. Activity level: <strong>Medium</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Jurisdiction</th>
+<th>Type</th>
+<th>Date enacted</th>
+<th>Duration</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bristol</td>
+<td>City</td>
+<td>2025-10-24 effective date (confirmed by Bristol Planning Commission staff memo d</td>
+<td>Two years; expires 2027-10-24 unless extended or replaced</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Hawkins County</td>
+<td>County</td>
+<td>2025-09-22</td>
+<td>Indefinite categorical ban, not a temporary moratorium</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Johnson City</td>
+<td>City</td>
+<td>2025-06-05</td>
+<td>12 months; expires 2026-06-05 unless extended</td>
+<td>🟢 Extended</td>
+</tr>
+<tr>
+<td>Jonesborough</td>
+<td>Town</td>
+<td>2025-10-13 (passed on first reading per Nov 3, 2025 BMA agenda packet, which rec</td>
+<td>Two years; proposed expiration 2027-11-03 unless extended</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Sullivan County</td>
+<td>County</td>
+<td>2025-11-20 introduction (Resolution No. 2025-11-07 text recites "Commissioners m</td>
+<td>Four months, with possible extension</td>
+<td>⚪ Expired</td>
+</tr>
+<tr>
+<td>Washington County</td>
+<td>County</td>
+<td>2026-03-23</td>
+<td>Effective immediately through 2027-06-30, with possible extension</td>
+<td>🟢 Active</td>
+</tr>
+</tbody>
+</table>
+<h2 id="detailed-entries">Detailed entries</h2>
+<h3 id="bristol">Bristol</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2025-10-24 effective date (confirmed by Bristol Planning Commission staff memo d</li>
+<li><strong>Duration:</strong> Two years; expires 2027-10-24 unless extended or replaced</li>
+<li><strong>Moratorium ID:</strong> <code>tn-bristol-2025</code></li>
+<li><strong>Legal basis:</strong> Ordinance 25-20, imposing a temporary moratorium on establishment of data centers</li>
+<li><strong>What prompted it:</strong> City planning records state Bristol's zoning ordinance was not equipped to handle data centers, including bitcoin mining and broader data mining; officials cited TVA, utility, water, wastewater, and siting questions</li>
+<li><strong>Affected projects:</strong> Establishment of new data centers within Bristol. The signed Ordinance 25-20 was not directly attached to either the February or March 2026 Planning Commission packets; Planning Commission discussion summaries describe a flat moratorium with no project-specific carve-outs but do not list any "exempt</li>
+<li><strong>Detailed status:</strong> Active as of 2026-03-23 planning packet</li>
+<li><strong>Outcome:</strong> Planning Commission directed a drafting committee with City Council, BTES, water department, and planning staff representation to prepare a data center ordinance by 2026-07-01 for Planning Commission review and City Council approval</li>
+</ul>
+<h3 id="hawkins-county">Hawkins County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2025-09-22</li>
+<li><strong>Duration:</strong> Indefinite categorical ban, not a temporary moratorium</li>
+<li><strong>Moratorium ID:</strong> <code>tn-hawkins-county-2025</code></li>
+<li><strong>Legal basis:</strong> Resolution titled "Prohibit The Operation Of Cryptocurrency Mining And Data Center Facilities In Hawkins County, Tennessee Pursuant To The Authority Granted Under The County Powers Act Adopted By The Hawkins County Commission Via Resolution 2012/08/03"</li>
+<li><strong>What prompted it:</strong> ExoticRidge Crypto Company proposed an off-grid bitcoin mining facility in Bulls Gap; residents and commissioners raised concerns about cryptocurrency mining and data center impacts</li>
+<li><strong>Affected projects:</strong> All data centers and cryptocurrency mining operations in Hawkins County; complaint alleges no variances or exceptions</li>
+<li><strong>Detailed status:</strong> Active but challenged in federal litigation filed 2026-03-31</li>
+<li><strong>Outcome:</strong> ExoticRidge Crypto Company LLC, represented by the Beacon Center of Tennessee, sued Hawkins County in the U.S. District Court for the Eastern District of Tennessee. The complaint alleges the ban is arbitrary, ultra vires, violates Tennessee zoning procedures and open-meetings requirements, and block</li>
+</ul>
+<h3 id="johnson-city">Johnson City</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> 🟢 Extended</li>
+<li><strong>Date enacted:</strong> 2025-06-05</li>
+<li><strong>Duration:</strong> 12 months; expires 2026-06-05 unless extended</li>
+<li><strong>Moratorium ID:</strong> <code>tn-johnson-city-2025</code></li>
+<li><strong>Legal basis:</strong> Resolution instituting a twelve-month moratorium on new industrial land-use applications and new-construction building permits in the I-2 district</li>
+<li><strong>What prompted it:</strong> Proposed data center and cryptocurrency-mining uses exposed a code gap for heavy industrial uses, noise, vibration, pollution, utility, traffic, neighborhood, and public-health impacts</li>
+<li><strong>Affected projects:</strong> New I-2 industrial land-use applications and new-construction permits; applications already approved or officially submitted were exempt</li>
+<li><strong>Detailed status:</strong> Active through 2026-06-05 unless extended</li>
+<li><strong>Outcome:</strong> Same meeting adopted Ordinance 4914-25, adding data centers as a permitted I-2 use with conditions. Standards include enclosed operations, 200-foot residential separation, 60-foot front setback, Type 4 buffer, equipment screening, and review for injurious noise, vibration, smoke, gas, fumes, odors, </li>
+</ul>
+<h3 id="jonesborough">Jonesborough</h3>
+<ul>
+<li><strong>Type:</strong> Town</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2025-10-13 (passed on first reading per Nov 3, 2025 BMA agenda packet, which rec</li>
+<li><strong>Duration:</strong> Two years; proposed expiration 2027-11-03 unless extended</li>
+<li><strong>Moratorium ID:</strong> <code>tn-jonesborough-2025</code></li>
+<li><strong>Legal basis:</strong> Ordinance No. 2025-12, "An Ordinance Imposing a Temporary Moratorium on the Establishment of Data Processing Centers"</li>
+<li><strong>What prompted it:</strong> Need to update land-use controls for emerging technologies, evaluate land-use compatibility, infrastructure demands, environmental and neighborhood impacts, and broader policy considerations</li>
+<li><strong>Affected projects:</strong> Rezoning requests, site plans, development plans, or building permit applications that propose or would allow a data processing center or similar facility within town limits</li>
+<li><strong>Detailed status:</strong> Active. The April 13, 2026 BMA Town Administrator Monthly Report describes work on a successor "Data Center and Cryptocurrency ordinance" being routed to Planning Commission on April 21, 2026 with BMA second reading anticipated for May 2026 — confirming that the moratorium remains in force while the</li>
+<li><strong>Outcome:</strong> Pending. Ordinance directs study by the Planning Commission, Board of Mayor and Aldermen, and staff</li>
+</ul>
+<h3 id="sullivan-county">Sullivan County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Expired</li>
+<li><strong>Date enacted:</strong> 2025-11-20 introduction (Resolution No. 2025-11-07 text recites "Commissioners m</li>
+<li><strong>Duration:</strong> Four months, with possible extension</li>
+<li><strong>Moratorium ID:</strong> <code>tn-sullivan-county-2025</code></li>
+<li><strong>Legal basis:</strong> Resolution No. 2025-11-07, as amended</li>
+<li><strong>What prompted it:</strong> County findings cited extraordinary electrical demand, strain on local utilities, possible residential ratepayer cost increases, continuous cooling-system noise, property value and public-health impacts, limited job creation, fire hazards, lack of community benefit, and increasing private interest i</li>
+<li><strong>Affected projects:</strong> Data-mining centers, cryptocurrency-mining operations, blockchain-computing centers, and similar high-intensity third-party revenue-generating facilities; internal data processing by ordinary commercial or industrial businesses is exempt</li>
+<li><strong>Detailed status:</strong> Active or recently expired depending on exact passage and any extension; county planning records in March 2026 stated the moratorium was in effect. The April 16, 2026 Sullivan County Board of Commissioners agenda (downloaded 2026-04-29) does not include any data center or PMD-3 item, indicating no e</li>
+<li><strong>Outcome:</strong> Sullivan County staff proposed a PMD-3 Planning Manufacturing District / Data and Energy Processing District text amendment for county review in April 2026</li>
+</ul>
+<h3 id="washington-county">Washington County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-03-23</li>
+<li><strong>Duration:</strong> Effective immediately through 2027-06-30, with possible extension</li>
+<li><strong>Moratorium ID:</strong> <code>tn-washington-county-2026</code></li>
+<li><strong>Legal basis:</strong> Resolution No. 26-03-02, "Resolution Approving and Authorizing a Moratorium on Data Centers in Washington County"</li>
+<li><strong>What prompted it:</strong> Regulatory gap for data processing, data mining, and cryptocurrency mining; extraordinary electrical demand; utility strain; potential residential rate impacts; continuous cooling-system noise; property value and public-health impacts; limited jobs; fire hazards; and lack of community benefit</li>
+<li><strong>Affected projects:</strong> Data center facilities, including AI, cryptocurrency-mining operations, and blockchain-computing centers in unincorporated Washington County</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Zoning Office staff and the Washington County Regional Planning Commission were requested to study the uses and recommend zoning text amendments or other regulations</li>
+</ul>
+<hr />
+<p><em>Source: <a href="../data/moratorium_inventory.csv">moratorium_inventory.csv</a> · <a href="../docs/methodology.html">Methodology</a> · <a href="../docs/codebook.html">Codebook</a>.</em></p>
+<p><a href="index.html">← Back to state index</a> · <a href="../index.html">Back to repository</a></p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

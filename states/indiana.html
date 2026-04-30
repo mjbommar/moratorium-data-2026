@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indiana — moratoria · Moratorium Nation</title>
+<meta name="description" content="Indiana — moratoria — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">States</a></div>
+  <h1 id="indiana-moratoria">Indiana Moratoria</h1>
+<p>Every infrastructure moratorium we have identified in Indiana as of April 2026.</p>
+<p><strong>11 instruments</strong> — 6 in force, 3 pending, 2 past. Activity level: <strong>High</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Jurisdiction</th>
+<th>Type</th>
+<th>Date enacted</th>
+<th>Duration</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dearborn County</td>
+<td>County</td>
+<td>2026-02-24</td>
+<td>Up to 1 year</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>DeKalb County</td>
+<td>County</td>
+<td>2026-04-13</td>
+<td>6 months</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Franklin County</td>
+<td>County</td>
+<td>Initial 2-month moratorium ran from 2025-12-24 through noon 2026-02-24; extensio</td>
+<td>Extended 12 months, through 2027-02-24</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Fulton County</td>
+<td>County</td>
+<td>2026-03-02</td>
+<td>1 year</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Huntington County</td>
+<td>County</td>
+<td>2026-02-23</td>
+<td>Indefinite; "until the HCPC has time to develop new regulations" — no fixed suns</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Marshall County</td>
+<td>County</td>
+<td>2025-02-03</td>
+<td>Originally 2 years; replaced before expiration</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>Pulaski County</td>
+<td>County</td>
+<td>2026-01-20 (commissioner voice vote); effective 2026-01-26</td>
+<td>12 months</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Putnam County</td>
+<td>County</td>
+<td>2025-11-17</td>
+<td>1 year, until 2026-11-17</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Shelby County</td>
+<td>County</td>
+<td>2026-02-23</td>
+<td>6 months</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Starke County</td>
+<td>County</td>
+<td>2025-12-15</td>
+<td>Up to 1 year</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>White County</td>
+<td>County</td>
+<td>2025-10-20</td>
+<td>6 months, through 2026-04-20, or until comprehensive plan and zoning updates wer</td>
+<td>⚪ Replaced</td>
+</tr>
+</tbody>
+</table>
+<h2 id="detailed-entries">Detailed entries</h2>
+<h3 id="dearborn-county">Dearborn County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-02-24</li>
+<li><strong>Duration:</strong> Up to 1 year</li>
+<li><strong>Moratorium ID:</strong> <code>in-dearborn-county-2026</code></li>
+<li><strong>Legal basis:</strong> Board of Commissioners action on Plan Commission recommendation, effective 2026-02-25; ordinance or resolution number not captured in publicly accessible Dearborn County records (CivicClerk portal renders client-side) as of 2026-04-29</li>
+<li><strong>What prompted it:</strong> Resident opposition to possible commercial solar projects and need to review zoning rules for commercial solar, battery storage, and data centers</li>
+<li><strong>Affected projects:</strong> No data center application identified; Linea Energy solar proposal in Manchester Township was part of broader context</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> County to collect feedback and consider zoning changes</li>
+</ul>
+<h3 id="dekalb-county">DeKalb County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-04-13</li>
+<li><strong>Duration:</strong> 6 months</li>
+<li><strong>Moratorium ID:</strong> <code>in-dekalb-county-2026</code></li>
+<li><strong>Legal basis:</strong> Zoning ordinance amendment adopted by unanimous Board of Commissioners vote on 2026-04-13, following unanimous Plan Commission favorable recommendation on 2026-04-08; ordinance or resolution number not captured</li>
+<li><strong>What prompted it:</strong> Proactive concern that applicants could vest before rules are adopted; energy use, water consumption, size, and accessory facilities</li>
+<li><strong>Affected projects:</strong> No specific project identified</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> County Zoning Administrator Chris Gaumer leading drafting committee; Gaumer and plan commission member Tyler Lanning attending data center seminar; draft regulations targeted for early fall 2026</li>
+</ul>
+<h3 id="franklin-county">Franklin County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> Initial 2-month moratorium ran from 2025-12-24 through noon 2026-02-24; extensio</li>
+<li><strong>Duration:</strong> Extended 12 months, through 2027-02-24</li>
+<li><strong>Moratorium ID:</strong> <code>in-franklin-county-2025</code></li>
+<li><strong>Legal basis:</strong> Commissioner moratorium extension following 12-month recommendation from Area Plan Commission; signed ordinance or resolution number not captured in available records as of 2026-04-29</li>
+<li><strong>What prompted it:</strong> Existing code ambiguity; need for zoning language covering water, electricity, noise, heat, setbacks, and public safety</li>
+<li><strong>Affected projects:</strong> No specific project identified</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Data Center Moratorium Work Group and APC are drafting permanent data center zoning regulations; draft v3.0 dated 2026-03-30 is captured</li>
+</ul>
+<h3 id="fulton-county">Fulton County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-03-02</li>
+<li><strong>Duration:</strong> 1 year</li>
+<li><strong>Moratorium ID:</strong> <code>in-fulton-county-2026</code></li>
+<li><strong>Legal basis:</strong> Ordinance No. 3022026 per meeting-summary reporting; signed instrument not located on Fulton County agenda center (CivicEngage agenda center returns 404 for the meeting URL slug) as of 2026-04-29</li>
+<li><strong>What prompted it:</strong> Proposed or rumored data center sites near Akron; concern about water, electricity, displacement, and inadequate zoning ordinance</li>
+<li><strong>Affected projects:</strong> Decennial Group's proposed 500 MW data center on a 300-acre site near Akron, confirmed by WNDU and DataCenterDynamics reporting; co-founder David Pavlick stated the end user would be a hyperscale company</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Area Plan Commission expected to appoint a data center committee to study economic and environmental impacts and recommend zoning updates</li>
+</ul>
+<h3 id="huntington-county">Huntington County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-02-23</li>
+<li><strong>Duration:</strong> Indefinite; "until the HCPC has time to develop new regulations" — no fixed suns</li>
+<li><strong>Moratorium ID:</strong> <code>in-huntington-county-2026</code></li>
+<li><strong>Legal basis:</strong> Ordinance No. 2026-04, "An Ordinance for the Adoption of a Text Amendment to the Unified Development Ordinance (UDO) for Huntington County to Place a Moratorium on Data Centers, Battery Energy Storage Systems and Carbon Sequestration Projects"</li>
+<li><strong>What prompted it:</strong> Concern that a developer could apply before the county had standards for data centers, BESS, and carbon sequestration</li>
+<li><strong>Affected projects:</strong> No active applications identified</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Research, public meetings, and local regulations pending</li>
+</ul>
+<h3 id="marshall-county">Marshall County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2025-02-03</li>
+<li><strong>Duration:</strong> Originally 2 years; replaced before expiration</li>
+<li><strong>Moratorium ID:</strong> <code>in-marshall-county-2025</code></li>
+<li><strong>Legal basis:</strong> Ordinance 2025-9, Certified Proposal to Amend the Marshall County Zoning Ordinance Regarding a Moratorium on Data Centers</li>
+<li><strong>What prompted it:</strong> County desire to study data centers, farm-scale solar, utility-scale battery energy storage, and carbon capture before allowing applications; regional pressure from northern Indiana data center proposals</li>
+<li><strong>Affected projects:</strong> No specific Marshall County project identified; regional context includes AWS projects in New Carlisle and northern Indiana</li>
+<li><strong>Detailed status:</strong> Replaced by permanent data center ban approved 2026-04-20</li>
+<li><strong>Outcome:</strong> Commissioners approved a permanent data center prohibition on 2026-04-20; secondary reporting describes it as possibly Indiana's first permanent county data center ban</li>
+</ul>
+<h3 id="pulaski-county">Pulaski County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-01-20 (commissioner voice vote); effective 2026-01-26</li>
+<li><strong>Duration:</strong> 12 months</li>
+<li><strong>Moratorium ID:</strong> <code>in-pulaski-county-2026</code></li>
+<li><strong>Legal basis:</strong> Moratorium adopted by commissioner voice vote on 2026-01-20 after a 5-0 favorable recommendation from the Plan Commission at its 2026-01-26 hearing; signed ordinance or resolution number not captured in publicly available Pulaski County records as of 2026-04-29</li>
+<li><strong>What prompted it:</strong> No data center ordinance in county code; desire to draft language on setbacks, size tiers, lighting, noise, decommissioning, water use, and public safety before applications arrive</li>
+<li><strong>Affected projects:</strong> No active application confirmed; no MW/GW affected</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> APC and county staff expected to prepare UDO amendments</li>
+</ul>
+<h3 id="putnam-county">Putnam County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2025-11-17</li>
+<li><strong>Duration:</strong> 1 year, until 2026-11-17</li>
+<li><strong>Moratorium ID:</strong> <code>in-putnam-county-2025</code></li>
+<li><strong>Legal basis:</strong> Ordinance No. 2025-11-17-1 establishing a moratorium on new small modular reactors, data centers, solar energy conservation systems, and wind energy systems</li>
+<li><strong>What prompted it:</strong> County review of UDO standards after solar project controversy; concern that newer technologies, including data centers, were not adequately addressed</li>
+<li><strong>Affected projects:</strong> Primarily triggered by EnergyRe/4Leaf solar dispute; no named data center project identified</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Pending UDO review; EnergyRe later withdrew a 150 MW solar rezoning application, but no data center replacement rules were identified</li>
+</ul>
+<h3 id="shelby-county">Shelby County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-02-23</li>
+<li><strong>Duration:</strong> 6 months</li>
+<li><strong>Moratorium ID:</strong> <code>in-shelby-county-2026</code></li>
+<li><strong>Legal basis:</strong> Resolution 2026-02</li>
+<li><strong>What prompted it:</strong> County desire to create a local ordinance and advisory group before accepting qualified data center applications</li>
+<li><strong>Affected projects:</strong> County pause on qualified data center applications; separate City of Shelbyville-Prologis project proceeded through city annexation and rezoning</li>
+<li><strong>Detailed status:</strong> Active. The county moratorium covers unincorporated qualified-data-center applications and was unaffected by the City of Shelbyville's separate annexation, rezoning, and EDA for the Prologis project, which proceeded through municipal authority</li>
+<li><strong>Outcome:</strong> County board to include public, commissioner, council, and plan commission representatives and work with outside counsel on ordinance language</li>
+</ul>
+<h3 id="starke-county">Starke County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2025-12-15</li>
+<li><strong>Duration:</strong> Up to 1 year</li>
+<li><strong>Moratorium ID:</strong> <code>in-starke-county-2025</code></li>
+<li><strong>Legal basis:</strong> Ordinance No. 2025-37</li>
+<li><strong>What prompted it:</strong> Zoning ordinances lacked hyperscale data center standards; residents raised light, environmental, and infrastructure concerns</li>
+<li><strong>Affected projects:</strong> Hyperscale data centers of 5,000 square feet or larger; no named project in captured ordinance</li>
+<li><strong>Detailed status:</strong> Active; Plan Commission circulated a draft Resolution No. 2026-PC-XX (Findings of Fact for regulation/restriction of commercial data centers) dated March 2026 but no replacement adopted as of 2026-04-29</li>
+<li><strong>Outcome:</strong> Pending zoning amendment process for hyperscale data center regulation</li>
+</ul>
+<h3 id="white-county">White County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2025-10-20</li>
+<li><strong>Duration:</strong> 6 months, through 2026-04-20, or until comprehensive plan and zoning updates wer</li>
+<li><strong>Moratorium ID:</strong> <code>in-white-county-2025</code></li>
+<li><strong>Legal basis:</strong> Ordinance No. 2025-10-20-02</li>
+<li><strong>What prompted it:</strong> Existing comprehensive plan and zoning ordinance did not adequately address data center impacts; public opposition and uncertainty around a proposed project near Wolcott</li>
+<li><strong>Affected projects:</strong> Proposed White County project near Wolcott; no verified MW total in local ordinance capture</li>
+<li><strong>Detailed status:</strong> Replaced by permanent zoning framework. The captured updated 2008 Zoning Ordinance (through 2026-02-09) includes a dedicated Section 3.20 Data Centers; no separate termination ordinance for Ordinance No. 2025-10-20-02 was located in captured records as of 2026-04-29</li>
+<li><strong>Outcome:</strong> White County zoning now includes a dedicated Section 3.20 Data Centers with application, water, noise, setback, screening, and emergency-response requirements</li>
+</ul>
+<hr />
+<p><em>Source: <a href="../data/moratorium_inventory.csv">moratorium_inventory.csv</a> · <a href="../docs/methodology.html">Methodology</a> · <a href="../docs/codebook.html">Codebook</a>.</em></p>
+<p><a href="index.html">← Back to state index</a> · <a href="../index.html">Back to repository</a></p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

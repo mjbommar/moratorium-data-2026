@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Codebook · Moratorium Nation</title>
+<meta name="description" content="Codebook — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / Docs</div>
+  <h1 id="codebook">Codebook</h1>
+<p>This document defines every column in every data file. Read this before doing analysis.</p>
+<h2 id="datamoratorium_inventorycsv"><code>data/moratorium_inventory.csv</code></h2>
+<p><strong>One row per moratorium instrument.</strong> 222 rows total.</p>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>What it means</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>state</code></td>
+<td>The full state name.</td>
+<td><code>Michigan</code></td>
+</tr>
+<tr>
+<td><code>state_abbrev</code></td>
+<td>The two-letter USPS abbreviation.</td>
+<td><code>MI</code></td>
+</tr>
+<tr>
+<td><code>jurisdiction</code></td>
+<td>The local government that adopted (or proposed) the moratorium. May include disambiguating context.</td>
+<td><code>Pittsfield Township</code></td>
+</tr>
+<tr>
+<td><code>jurisdiction_type</code></td>
+<td>The kind of local government. Closed vocabulary: <code>County</code>, <code>City</code>, <code>Town</code>, <code>Township</code>, <code>Village</code>, <code>Parish</code>, <code>Tribal</code>, <code>Utility-authority</code>, <code>State</code>, <code>Other</code>.</td>
+<td><code>Township</code></td>
+</tr>
+<tr>
+<td><code>date_enacted</code></td>
+<td>When the local board voted to adopt the moratorium. ISO format <code>YYYY-MM-DD</code> when known. May include qualifying notes (<code>reported</code>, <code>proposed</code>, <code>[VERIFY]</code>) when uncertain. For pending instruments, may say <code>Not enacted as of &lt;date&gt;; hearing scheduled &lt;date&gt;</code>.</td>
+<td><code>2025-11-20</code></td>
+</tr>
+<tr>
+<td><code>duration</code></td>
+<td>The originally-scheduled length of the moratorium. Free-text — common values are <code>6 months</code>, <code>180 days</code>, <code>1 year</code>, <code>12 months</code>, <code>Indefinite</code>.</td>
+<td><code>6 months</code></td>
+</tr>
+<tr>
+<td><code>legal_basis</code></td>
+<td>The legal authority cited or implied. Often references the state enabling statute (e.g., <code>N.C.G.S. 160D-107</code>, <code>Iowa Code Chapter 414</code>) and the specific ordinance/resolution number.</td>
+<td><code>Resolution 2025-11-17-1</code></td>
+</tr>
+<tr>
+<td><code>trigger</code></td>
+<td>Short summary of what prompted the moratorium — usually a specific proposal or a regulatory gap.</td>
+<td><code>Proposed Meta-backed hyperscale campus</code></td>
+</tr>
+<tr>
+<td><code>current_status</code></td>
+<td>Free-text description of the current disposition. May be detailed and include <code>[VERIFY]</code> notes for uncertain elements. <strong>The closed-vocab classification is in <code>enacted_status</code> (see below).</strong></td>
+<td><code>Active as of April 2026; extension under consideration</code></td>
+</tr>
+<tr>
+<td><code>affected_projects</code></td>
+<td>Specific named projects the moratorium affected. Empty if none identified.</td>
+<td><code>1977 Saturn Street proposal (~49.9 MW)</code></td>
+</tr>
+<tr>
+<td><code>outcome</code></td>
+<td>The endpoint, if known: replacement ordinance adopted, project withdrawn, etc. May be <code>Pending</code> for moratoria still in effect.</td>
+<td><code>Permanent data center ordinance adopted December 16, 2025</code></td>
+</tr>
+<tr>
+<td><code>has_verify_tags</code></td>
+<td><code>True</code> if any field on this row was flagged for verification.</td>
+<td><code>True</code></td>
+</tr>
+<tr>
+<td><code>verify_count</code></td>
+<td>How many <code>[VERIFY]</code> flags remain on this row.</td>
+<td><code>2</code></td>
+</tr>
+<tr>
+<td><code>cite_count</code></td>
+<td>How many citation markers exist on this row (legacy field, often 0).</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>activity_level</code></td>
+<td>The state's overall moratorium-activity classification. <strong>Closed vocabulary: <code>None</code>, <code>Low</code>, <code>Medium</code>, <code>High</code>.</strong></td>
+<td><code>High</code></td>
+</tr>
+<tr>
+<td><code>enacted_status</code></td>
+<td><strong>Closed-vocab status bucket</strong> derived from the free-text fields. One of: <code>active</code>, <code>extended</code>, <code>replaced</code>, <code>expired</code>, <code>rescinded</code>, <code>pending</code>. See breakdown below.</td>
+<td><code>active</code></td>
+</tr>
+<tr>
+<td><code>moratorium_id</code></td>
+<td><strong>Stable identifier</strong> of the form <code>&lt;state-abbrev&gt;-&lt;jurisdiction-slug&gt;-&lt;year&gt;</code>, with <code>-pN</code> appended for explicitly-numbered phases (e.g., Oliver County) or <code>-N</code> appended for repeat instruments at the same jurisdiction in the same year. Use this column as a primary key when joining with future releases.</td>
+<td><code>mi-pittsfield-township-2025</code></td>
+</tr>
+<tr>
+<td><code>latitude</code></td>
+<td>WGS84 latitude of the jurisdiction's centroid. Geocoded via OSM Nominatim (with U.S. Census Geocoder fallback). For counties, the centroid is the county; for cities/towns/villages/townships, the centroid is the local government boundary. Six decimal places (~10 cm precision); blank if geocoding failed.</td>
+<td><code>42.238500</code></td>
+</tr>
+<tr>
+<td><code>longitude</code></td>
+<td>WGS84 longitude of the jurisdiction's centroid (see <code>latitude</code>). Negative for U.S. jurisdictions.</td>
+<td><code>-83.706800</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="enacted_status-values"><code>enacted_status</code> values</h3>
+<p>This is the column most users want for filtering. The values:</p>
+<ul>
+<li><strong><code>active</code></strong> — moratorium is currently in force (~92 rows)</li>
+<li><strong><code>extended</code></strong> — moratorium was extended past its original sunset and is currently in force (~8 rows)</li>
+<li><strong><code>replaced</code></strong> — moratorium has expired and a permanent ordinance has been adopted in its place (~26 rows)</li>
+<li><strong><code>expired</code></strong> — moratorium has lapsed without a documented replacement (~15 rows)</li>
+<li><strong><code>rescinded</code></strong> — moratorium was affirmatively repealed before its expiration date (~10 rows)</li>
+<li><strong><code>pending</code></strong> — moratorium has been proposed but is not yet in force (~71 rows; e.g., a public hearing is scheduled but the vote hasn't happened)</li>
+</ul>
+<p>To filter to "moratoria currently in force":</p>
+<pre><code class="language-python">in_force = df[df[&quot;enacted_status&quot;].isin([&quot;active&quot;, &quot;extended&quot;])]
+</code></pre>
+<p>To filter to enacted-only (current or past):</p>
+<pre><code class="language-python">enacted = df[~df[&quot;enacted_status&quot;].eq(&quot;pending&quot;)]
+</code></pre>
+<h3 id="notes-on-the-data">Notes on the data</h3>
+<ul>
+<li><strong>Multi-sector instruments</strong> (one ordinance covering data centers + solar + battery storage + wind) are recorded as one row. Sectors are discoverable via the <code>trigger</code>, <code>legal_basis</code>, and <code>outcome</code> text.</li>
+<li><strong>Extensions of the same instrument</strong> (e.g., Resolution X adopts a 6-month moratorium, Resolution X-A extends it 6 more months) are recorded as updates to the original row's <code>current_status</code> and <code>enacted_status</code>, not as new rows.</li>
+<li><strong>Successive new instruments</strong> are recorded as separate rows. If a county adopts a moratorium, lets it lift or expire, and then later adopts a <em>new</em> moratorium, each is a separate row. Oliver County, ND has three such phases — three separate moratoria, three rows, distinguished by <code>(Phase 1)</code> / <code>(Phase 2)</code> / <code>(Phase 3)</code> in the <code>jurisdiction</code> field and by the <code>-p1</code> / <code>-p2</code> / <code>-p3</code> suffix on <code>moratorium_id</code>.</li>
+<li><strong>Pending moratoria</strong> (proposed but not yet adopted) are intentionally included with <code>enacted_status = pending</code> because the public proposal is itself politically meaningful. Filter on <code>enacted_status</code> if you want enacted-only counts.</li>
+<li><strong><code>[VERIFY]</code> flags</strong> mark fields where we couldn't fully confirm the value from primary sources. Most often this is because the local government hasn't posted minutes or signed-ordinance text online yet.</li>
+</ul>
+<h2 id="datastate_legislationcsv"><code>data/state_legislation.csv</code></h2>
+<p><strong>One row per state bill.</strong> 413 rows total.</p>
+<p>This file tracks state-level legislation in 2025–2026 that relates to moratoria — bills authorizing local moratoria, prohibiting them, preempting them, or imposing state-level moratoria of their own. Most are still pending; a small number have been enacted.</p>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>What it means</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>state</code></td>
+<td>Full state name.</td>
+<td><code>Michigan</code></td>
+</tr>
+<tr>
+<td><code>state_abbrev</code></td>
+<td>USPS code.</td>
+<td><code>MI</code></td>
+</tr>
+<tr>
+<td><code>bill</code></td>
+<td>The state's bill identifier (e.g., <code>HB 1012</code>, <code>SB 5982</code>).</td>
+<td><code>HB 4456</code></td>
+</tr>
+<tr>
+<td><code>sponsors</code></td>
+<td>Lead sponsor name(s). May include co-sponsors.</td>
+<td><code>Rep. Wortz (R)</code></td>
+</tr>
+<tr>
+<td><code>party</code></td>
+<td>Sponsor's party affiliation, where known. May say <code>R</code>, <code>D</code>, <code>Bipartisan</code>, or be empty.</td>
+<td><code>R</code></td>
+</tr>
+<tr>
+<td><code>status</code></td>
+<td>Where the bill is in the legislative process. Free-text but usually one of: <code>Introduced</code>, <code>In committee</code>, <code>Passed House</code>, <code>Passed Senate</code>, <code>Enacted</code>, <code>Failed</code>, <code>Vetoed</code>, <code>Pending</code>.</td>
+<td><code>In committee</code></td>
+</tr>
+<tr>
+<td><code>key_provisions</code></td>
+<td>One-sentence description of what the bill would do.</td>
+<td><code>Imposes statewide moratorium on data centers &gt;100 MW</code></td>
+</tr>
+<tr>
+<td><code>activity_level</code></td>
+<td>The state's overall moratorium-activity classification (matches <code>activity_level</code> in the inventory).</td>
+<td><code>High</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="datasummary_statsjson"><code>data/summary_stats.json</code></h2>
+<p>A single JSON object with top-level aggregates. Useful for embedding live counts on a page or programmatic comparison across releases.</p>
+<p>Top-level keys:</p>
+<ul>
+<li><code>total_local_moratoria</code>: 222 — total rows in the inventory</li>
+<li><code>total_state_bills</code>: 413 — total rows in state_legislation.csv</li>
+<li><code>states_with_moratoria</code>: 30</li>
+<li><code>states_without_moratoria</code>: 20</li>
+<li><code>moratoria_with_verify_tags</code>: 62 — rows with at least one <code>[VERIFY]</code> flag remaining</li>
+<li><code>moratoria_without_verify_tags</code>: 160</li>
+<li><code>enacted_status_breakdown</code>: <code>{active, extended, replaced, expired, rescinded, pending}</code> — the breakdown of the 222 rows by <code>enacted_status</code></li>
+<li><code>top_states_by_moratoria</code>: list of <code>[state_name, count]</code> pairs, top 15</li>
+<li><code>top_states_by_bills</code>: list of <code>[state_name, bill_count]</code> pairs, top 15</li>
+<li><code>states_by_activity_level</code>: count of states in each closed-vocab activity bucket</li>
+<li><code>state_details</code>: per-state object with <code>abbreviation</code>, <code>activity_level</code>, <code>local_moratoria_count</code>, <code>state_bills_count</code>, <code>file</code>, and (for special cases like NJ) an <code>activity_notes</code> field that preserves qualifying context</li>
+</ul>
+<h2 id="datastructured_extractionsjsonl"><code>data/structured_extractions.jsonl</code></h2>
+<p><strong>One JSON object per line.</strong> The file contains 864 lines:</p>
+<ul>
+<li>526 lines are successful extractions (records with <code>extraction != null</code> and <code>error == null</code>)</li>
+<li>338 lines are LLM-call errors retained for transparency (records with <code>error != null</code>)</li>
+</ul>
+<p>The <strong>n=348 cohort</strong> referenced in the working paper is the subset of successful extractions with <code>confidence &gt;= 0.4</code>. Use this filter when computing clause-prevalence percentages:</p>
+<pre><code class="language-python">import json
+records = [
+    json.loads(line) for line in open(&quot;data/structured_extractions.jsonl&quot;)
+    if json.loads(line).get(&quot;error&quot;) is None
+    and json.loads(line)[&quot;extraction&quot;][&quot;confidence&quot;] &gt;= 0.4
+]
+assert len(records) == 348
+</code></pre>
+<p>Each record has fields:</p>
+<ul>
+<li><code>source_file</code>: relative path to the original document (in <code>research/_originals/</code> of the private working repository)</li>
+<li><code>url</code>: original URL the document was downloaded from (where known)</li>
+<li><code>extraction</code>: the structured object — jurisdiction, state, instrument form, sectors, durations, findings, definitions, common clauses, sector-specific clauses, confidence, narrative summary</li>
+<li><code>error</code>: null on success; an error message string on failure</li>
+</ul>
+<p>The full schema (60+ fields organized into five tiers) is in <a href="../data/moratorium-extraction.json"><code>data/moratorium-extraction.json</code></a> (JSON Schema format). Records where <code>error</code> is not null should be excluded from analysis.</p>
+<h2 id="dataclause_extraction_analysisjson"><code>data/clause_extraction_analysis.json</code></h2>
+<p>The pre-computed aggregate analysis from <code>structured_extractions.jsonl</code> filtered at <code>confidence &gt;= 0.4</code>. Used to generate the percentage tables in <a href="../tables/"><code>tables/</code></a>.</p>
+<p>Fields:</p>
+<ul>
+<li><code>total_records</code>: 348</li>
+<li><code>min_confidence_filter</code>: 0.4</li>
+<li><code>confidence</code>: <code>{min, max, mean, median, brackets}</code></li>
+<li><code>geographic</code>: state counts, jurisdiction-type counts</li>
+<li><code>temporal</code>: year breakdown of adoption dates</li>
+<li><code>legal</code>: instrument forms, authority types, sector counts</li>
+<li><code>clause_prevalence</code>: detailed breakdowns of every clause type in the 44-clause taxonomy (universal, common, sector-specific, definitional approaches, findings detail levels)</li>
+</ul>
+<h2 id="a-note-on-dates">A note on dates</h2>
+<p>Where possible, dates are ISO-8601 (<code>YYYY-MM-DD</code>). When a day is unknown but month+year are known, we use <code>YYYY-MM</code>. When only the year is known, <code>YYYY</code>. When the date is uncertain (sourced from news rather than minutes), we may write something like <code>2025-12-17 reported</code> or <code>January 2026 [VERIFY]</code>. Spreadsheet tools may need help parsing these; the <a href="../examples/"><code>examples/</code></a> folder shows how.</p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

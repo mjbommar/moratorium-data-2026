@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Georgia — moratoria · Moratorium Nation</title>
+<meta name="description" content="Georgia — moratoria — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">States</a></div>
+  <h1 id="georgia-moratoria">Georgia Moratoria</h1>
+<p>Every infrastructure moratorium we have identified in Georgia as of April 2026.</p>
+<p><strong>24 instruments</strong> — 14 in force, 0 pending, 10 past. Activity level: <strong>High</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Jurisdiction</th>
+<th>Type</th>
+<th>Date enacted</th>
+<th>Duration</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Athens-Clarke County</td>
+<td>County</td>
+<td>2025-12-02</td>
+<td>Initial moratorium through 2026-03-06; extended through 2026-06-05 by Ordinance</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>Brooks County</td>
+<td>County</td>
+<td>2026-02-02</td>
+<td>3 months, expiring 2026-05-02 unless extended</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Bulloch County</td>
+<td>County</td>
+<td>2026-02-17</td>
+<td>90 days, with possible extension after 2026-05-05 public hearing</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Clayton County</td>
+<td>County</td>
+<td>2025-09-03</td>
+<td>120 days, through 2025-12-31; later extended</td>
+<td>🟢 Extended</td>
+</tr>
+<tr>
+<td>Cobb County</td>
+<td>County</td>
+<td>2026-02-24</td>
+<td>Up to 6 months / 180 days</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Covington</td>
+<td>City</td>
+<td>2026-01-05; ratified 2026-01-20</td>
+<td>Until 2026-07-04</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Coweta County</td>
+<td>County</td>
+<td>2025-05 (180-day moratorium)</td>
+<td>180 days, expiring 2025-11-03 (per Coweta County spokesperson statement quoted i</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>Decatur County</td>
+<td>County</td>
+<td>2026-04-14</td>
+<td>Indefinite</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>DeKalb County</td>
+<td>County</td>
+<td>2025-06-25</td>
+<td>Initial 100 days; extended multiple times; current extension to 2026-06-23 adopt</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Douglas County</td>
+<td>County</td>
+<td>2025 (Resolution 25-116)</td>
+<td>Up to 90 days</td>
+<td>⚪ Expired</td>
+</tr>
+<tr>
+<td>Fayetteville</td>
+<td>City</td>
+<td>2026-01-29</td>
+<td>90 days</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>Griffin</td>
+<td>City</td>
+<td>2026-01-13</td>
+<td>180 days</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Hall County</td>
+<td>County</td>
+<td>2026-02-26</td>
+<td>180 days</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Jones County</td>
+<td>County</td>
+<td>2025-09-16 zoning amendments (subsequently rescinded after notice defects); foll</td>
+<td>90 days reported in news coverage</td>
+<td>🔴 Rescinded</td>
+</tr>
+<tr>
+<td>LaGrange</td>
+<td>City</td>
+<td>2025-09-23</td>
+<td>180 days</td>
+<td>⚪ Expired</td>
+</tr>
+<tr>
+<td>Lamar County</td>
+<td>County</td>
+<td>2025-09</td>
+<td>Not confirmed</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Monroe County</td>
+<td>County</td>
+<td>Originally adopted by majority vote at 2025-12-02 regular meeting; documented by</td>
+<td>Through 2026-03-03 (next regular Board of Commissioners meeting in March 2026)</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Newton County</td>
+<td>County</td>
+<td>2026-02-17</td>
+<td>Initial emergency moratorium to 2026-03-18; revised to 2026-04-08; extended to 2</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>Pike County</td>
+<td>County</td>
+<td>2025-09</td>
+<td>Not confirmed</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Polk County</td>
+<td>County</td>
+<td>2026-03-03</td>
+<td>60 days (through about 2026-05-02)</td>
+<td>🟢 Extended</td>
+</tr>
+<tr>
+<td>Roswell</td>
+<td>City</td>
+<td>2026-01-12</td>
+<td>90 days, expiring 2026-04-12</td>
+<td>⚪ Expired</td>
+</tr>
+<tr>
+<td>Social Circle</td>
+<td>City</td>
+<td>2025-09</td>
+<td>Initial 90 days; extended an additional 90 days, then replaced by permanent ordi</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>Thomas County</td>
+<td>County</td>
+<td>2026-01-20</td>
+<td>12 months</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Troup County</td>
+<td>County</td>
+<td>2025-09-16</td>
+<td>90 days; extension hearing noticed (research/_web/Moratorium - Data Centers Publ</td>
+<td>⚪ Expired</td>
+</tr>
+</tbody>
+</table>
+<h2 id="detailed-entries">Detailed entries</h2>
+<h3 id="athens-clarke-county">Athens-Clarke County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2025-12-02</li>
+<li><strong>Duration:</strong> Initial moratorium through 2026-03-06; extended through 2026-06-05 by Ordinance </li>
+<li><strong>Moratorium ID:</strong> <code>ga-athens-clarke-county-2025</code></li>
+<li><strong>Legal basis:</strong> Ordinance 25-12-117 (initial); Ordinance 26-03-19 (extension adopted 2026-03-03 by unanimous vote, "AN ORDINANCE TO IMPOSE, CONTINUE, AND EXTEND A TEMPORARY EMERGENCY MORATORIUM ON THE ESTABLISHMENT OF NEW DATA CENTERS"); replacement text amendment to Title IX held over and adopted 2026-04-07</li>
+<li><strong>What prompted it:</strong> Existing zoning did not specifically address data centers; concerns about utilities, contamination, water, and land use</li>
+<li><strong>Affected projects:</strong> No specific project identified in captured records</li>
+<li><strong>Detailed status:</strong> Replaced</li>
+<li><strong>Outcome:</strong> New rules allow data centers in heavy industrial zones with tighter review and closed-loop cooling requirements</li>
+</ul>
+<h3 id="brooks-county">Brooks County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-02-02</li>
+<li><strong>Duration:</strong> 3 months, expiring 2026-05-02 unless extended</li>
+<li><strong>Moratorium ID:</strong> <code>ga-brooks-county-2026</code></li>
+<li><strong>Legal basis:</strong> Resolution 26-R-01</li>
+<li><strong>What prompted it:</strong> County wanted fact-finding time on safety concerns and regulation of data center facilities</li>
+<li><strong>Affected projects:</strong> No specific project identified in captured records</li>
+<li><strong>Detailed status:</strong> Active as of 2026-04-29; expires 2026-05-02 absent extension</li>
+<li><strong>Outcome:</strong> Study period ongoing</li>
+</ul>
+<h3 id="bulloch-county">Bulloch County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-02-17</li>
+<li><strong>Duration:</strong> 90 days, with possible extension after 2026-05-05 public hearing</li>
+<li><strong>Moratorium ID:</strong> <code>ga-bulloch-county-2026</code></li>
+<li><strong>Legal basis:</strong> Bulloch County Board of Commissioners resolution adopted 2026-02-17</li>
+<li><strong>What prompted it:</strong> Data centers were not listed as permitted or conditional uses; county sought time to decide whether to prohibit or regulate them</li>
+<li><strong>Affected projects:</strong> No imminent deal identified by county chair</li>
+<li><strong>Detailed status:</strong> Active as of 2026-04-29</li>
+<li><strong>Outcome:</strong> County study and potential zoning clarification</li>
+</ul>
+<h3 id="clayton-county">Clayton County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Extended</li>
+<li><strong>Date enacted:</strong> 2025-09-03</li>
+<li><strong>Duration:</strong> 120 days, through 2025-12-31; later extended</li>
+<li><strong>Moratorium ID:</strong> <code>ga-clayton-county-2025</code></li>
+<li><strong>Legal basis:</strong> Resolution 2025-193 (per Clayton County news release referenced in GPB 2025-10-22 reporting)</li>
+<li><strong>What prompted it:</strong> Health, safety, water-supply, and resident concerns after recent approvals</li>
+<li><strong>Affected projects:</strong> Prior approvals included TA Realty Ellenwood (35-acre lot) and Digital Realty Forest Park (97 acres, ~2 million sq ft) facilities</li>
+<li><strong>Detailed status:</strong> Extended. Resolution 2025-193 initially through 2025-12-31; extended to June 29, 2026 per official .gov press release</li>
+<li><strong>Outcome:</strong> Study period; permanent post-expiration framework not confirmed</li>
+</ul>
+<h3 id="cobb-county">Cobb County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-02-24</li>
+<li><strong>Duration:</strong> Up to 6 months / 180 days</li>
+<li><strong>Moratorium ID:</strong> <code>ga-cobb-county-2026</code></li>
+<li><strong>Legal basis:</strong> Board of Commissioners moratorium resolution adopted unanimously 2026-02-24</li>
+<li><strong>What prompted it:</strong> Surge of metro Atlanta data centers and concern over infrastructure impacts</li>
+<li><strong>Affected projects:</strong> New permit applications in unincorporated Cobb County</li>
+<li><strong>Detailed status:</strong> Active as of 2026-04-29</li>
+<li><strong>Outcome:</strong> County review of impacts before further applications are accepted</li>
+</ul>
+<h3 id="covington">Covington</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-01-05; ratified 2026-01-20</li>
+<li><strong>Duration:</strong> Until 2026-07-04</li>
+<li><strong>Moratorium ID:</strong> <code>ga-covington-2026</code></li>
+<li><strong>Legal basis:</strong> Resolution of the Mayor and Council of the City of Covington enacting a limited moratorium until 2026-07-04 on the acceptance of applications for Data Center Development; ratified by motion at 2026-01-20 regular meeting (minutes confirm action; resolution-number not stated in minutes)</li>
+<li><strong>What prompted it:</strong> New annexation and development requests; concern that data centers were treated by-right in industrial zones</li>
+<li><strong>Affected projects:</strong> New requests paused; two annexation matters moved toward rejection</li>
+<li><strong>Detailed status:</strong> Active as of 2026-04-29</li>
+<li><strong>Outcome:</strong> Code rewrite under consideration</li>
+</ul>
+<h3 id="coweta-county">Coweta County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2025-05 (180-day moratorium)</li>
+<li><strong>Duration:</strong> 180 days, expiring 2025-11-03 (per Coweta County spokesperson statement quoted i</li>
+<li><strong>Moratorium ID:</strong> <code>ga-coweta-county-2025</code></li>
+<li><strong>Legal basis:</strong> Board of Commissioners moratorium resolution; replaced by permanent data center ordinance posted at https://www.coweta.ga.us/home/showpublisheddocument/32598/639016609046670000</li>
+<li><strong>What prompted it:</strong> Project Peach, Project Sail, petitions, and need for countywide standards</li>
+<li><strong>Affected projects:</strong> Project Peach, about $1 billion and 320 acres; Project Sail (Atlas Development), 829 acres rezoned 3-2 from Rural Conservation to Industrial on 2026-04-07 with 17 conditions, ~4.34 million square feet, ~900 MW</li>
+<li><strong>Detailed status:</strong> Replaced. 180-day moratorium expired 2025-11-03; permanent data center ordinance adopted December 16, 2025 per official county .gov page</li>
+<li><strong>Outcome:</strong> Permanent data center ordinance adopted December 16, 2025, replacing the expired moratorium</li>
+</ul>
+<h3 id="decatur-county">Decatur County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-04-14</li>
+<li><strong>Duration:</strong> Indefinite</li>
+<li><strong>Moratorium ID:</strong> <code>ga-decatur-county-2026</code></li>
+<li><strong>Legal basis:</strong> Decatur County Board of Commissioners moratorium vote 2026-04-14 (per WALB/WCTV 2026-04-15 reporting); county minutes for that meeting not yet posted online as of 2026-04-29</li>
+<li><strong>What prompted it:</strong> Proactive planning before possible future projects</li>
+<li><strong>Affected projects:</strong> No recent data center approach reported by commissioners</li>
+<li><strong>Detailed status:</strong> Active as of 2026-04-29</li>
+<li><strong>Outcome:</strong> County to develop an approach for future projects</li>
+</ul>
+<h3 id="dekalb-county">DeKalb County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2025-06-25</li>
+<li><strong>Duration:</strong> Initial 100 days; extended multiple times; current extension to 2026-06-23 adopt</li>
+<li><strong>Moratorium ID:</strong> <code>ga-dekalb-county-2025</code></li>
+<li><strong>Legal basis:</strong> DeKalb County moratorium resolutions, including 2025-12-16 extension (originally numbered draft 2025-1694 per agenda referenced in research notes)</li>
+<li><strong>What prompted it:</strong> Public health, diesel emissions, water, stormwater, noise, and ratepayer concerns</li>
+<li><strong>Affected projects:</strong> PCC-DeKalb proposed Ellenwood campus, about 1,000,000 square feet on about 95 acres</li>
+<li><strong>Detailed status:</strong> Active through 2026-06-23</li>
+<li><strong>Outcome:</strong> County hearing 2026-01-27 on Chapter 27 amendments to define and regulate data centers; permanent ordinance still under development</li>
+</ul>
+<h3 id="douglas-county">Douglas County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Expired</li>
+<li><strong>Date enacted:</strong> 2025 (Resolution 25-116)</li>
+<li><strong>Duration:</strong> Up to 90 days</li>
+<li><strong>Moratorium ID:</strong> <code>ga-douglas-county-2025</code></li>
+<li><strong>Legal basis:</strong> Douglas County Resolution 25-116, "Resolution: Moratorium Data Center Accessory" (PDF saved at research/_originals/Douglas-County-Moratorium-25-116-Resolution-Moratorium-Data-Center-Accessory_DouglasCounty.pdf, sourced from WWALS archive)</li>
+<li><strong>What prompted it:</strong> Proposal pipeline and need to update comprehensive plan and unified development code</li>
+<li><strong>Affected projects:</strong> Large computer infrastructure/data processing facilities; Amazon-linked land activity reported locally</li>
+<li><strong>Detailed status:</strong> Expired absent extension</li>
+<li><strong>Outcome:</strong> Comprehensive plan and UDC review</li>
+</ul>
+<h3 id="fayetteville">Fayetteville</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2026-01-29</li>
+<li><strong>Duration:</strong> 90 days</li>
+<li><strong>Moratorium ID:</strong> <code>ga-fayetteville-2026</code></li>
+<li><strong>Legal basis:</strong> Resolution 26-R-07 (90-day moratorium on annexation, rezoning, variance, and conceptual site plans for data centers; adopted unanimously per 2026-01-29 work session minutes)</li>
+<li><strong>What prompted it:</strong> Applications for annexation, rezoning, variances, and conceptual site plans for data centers</li>
+<li><strong>Affected projects:</strong> Crow Holdings Development / CHI Acquisitions, LP data center proposal north of Fayette Pavilion along Highway 85 N — denied at 2026-01-27 P&amp;Z meeting; appeal filed to City Council and withdrawn 2026-03-18</li>
+<li><strong>Detailed status:</strong> Replaced by permanent ordinance on or before 2026-03-05</li>
+<li><strong>Outcome:</strong> Ordinance 26-O-12 amending UDO chapters 200 and 400 prohibits new data centers in every Fayetteville zoning district as of 2026-03-05 (per City of Fayetteville Data Center FAQs)</li>
+</ul>
+<h3 id="griffin">Griffin</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-01-13</li>
+<li><strong>Duration:</strong> 180 days</li>
+<li><strong>Moratorium ID:</strong> <code>ga-griffin-2026</code></li>
+<li><strong>Legal basis:</strong> Griffin City Commission resolution on technological facilities (data centers and crypto mining), 2026-01-13</li>
+<li><strong>What prompted it:</strong> Unified development code did not specifically allow technological facilities, including data centers and crypto mining</li>
+<li><strong>Affected projects:</strong> No confirmed in-city project at vote</li>
+<li><strong>Detailed status:</strong> Active through about 2026-07-12 (180 days from enactment)</li>
+<li><strong>Outcome:</strong> City study of special-use model and power, water, noise, and traffic impacts</li>
+</ul>
+<h3 id="hall-county">Hall County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-02-26</li>
+<li><strong>Duration:</strong> 180 days</li>
+<li><strong>Moratorium ID:</strong> <code>ga-hall-county-2026</code></li>
+<li><strong>Legal basis:</strong> Hall County Board of Commissioners moratorium on detention centers, high-density developments, and data centers, voted 2026-02-26 (per WSB-TV reporting and GPB Georgia Today 2026-02-27); resolution number not posted on Hall County website as of 2026-04-29</li>
+<li><strong>What prompted it:</strong> Infrastructure, sewer, environmental, and development-code concerns after federal detention-facility activity</li>
+<li><strong>Affected projects:</strong> Data centers on certain high-density residential, planned development, or special-use properties</li>
+<li><strong>Detailed status:</strong> Active as of 2026-04-29</li>
+<li><strong>Outcome:</strong> Staff review of development code and potential restrictions</li>
+</ul>
+<h3 id="jones-county">Jones County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🔴 Rescinded</li>
+<li><strong>Date enacted:</strong> 2025-09-16 zoning amendments (subsequently rescinded after notice defects); foll</li>
+<li><strong>Duration:</strong> 90 days reported in news coverage</li>
+<li><strong>Moratorium ID:</strong> <code>ga-jones-county-2025</code></li>
+<li><strong>Legal basis:</strong> Jones County zoning amendments adopted 2025-09-16 (rescinded due to notice defects under Georgia Zoning Procedures Law) and follow-on moratorium</li>
+<li><strong>What prompted it:</strong> Legal notice defects under Georgia zoning procedure law and project-pressure concerns</li>
+<li><strong>Affected projects:</strong> Developer withdrew 600-plus-acre rezoning proposal after public opposition</li>
+<li><strong>Detailed status:</strong> Prior ordinances rescinded; county restarted process</li>
+<li><strong>Outcome:</strong> Reset to re-adopt defensible zoning controls</li>
+</ul>
+<h3 id="lagrange">LaGrange</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> ⚪ Expired</li>
+<li><strong>Date enacted:</strong> 2025-09-23</li>
+<li><strong>Duration:</strong> 180 days</li>
+<li><strong>Moratorium ID:</strong> <code>ga-lagrange-2025</code></li>
+<li><strong>Legal basis:</strong> LaGrange City Council 180-day moratorium resolution, adopted 2025-09-23 (per Ledger-Enquirer reporting cited in GPB 2025-10-22)</li>
+<li><strong>What prompted it:</strong> Need to review zoning, noise, and property-impact rules</li>
+<li><strong>Affected projects:</strong> Existing Pegasus Parkway project excluded</li>
+<li><strong>Detailed status:</strong> Expired about 2026-03-22 unless extended</li>
+<li><strong>Outcome:</strong> Staff-directed code review</li>
+</ul>
+<h3 id="lamar-county">Lamar County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2025-09</li>
+<li><strong>Duration:</strong> Not confirmed</li>
+<li><strong>Moratorium ID:</strong> <code>ga-lamar-county-2025</code></li>
+<li><strong>Legal basis:</strong> Lamar County moratorium action referenced in GPB 2025-10-22 statewide reporting</li>
+<li><strong>What prompted it:</strong> Industrial and commercial zoning needed updating; county learned AWS bought about 985 acres for about $270 million</li>
+<li><strong>Affected projects:</strong> AWS-linked 985-acre development site</li>
+<li><strong>Detailed status:</strong> Unknown</li>
+<li><strong>Outcome:</strong> Code modernization including data-center treatment</li>
+</ul>
+<h3 id="monroe-county">Monroe County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> Originally adopted by majority vote at 2025-12-02 regular meeting; documented by</li>
+<li><strong>Duration:</strong> Through 2026-03-03 (next regular Board of Commissioners meeting in March 2026)</li>
+<li><strong>Moratorium ID:</strong> <code>ga-monroe-county-2025</code></li>
+<li><strong>Legal basis:</strong> Resolution on Data Center Moratorium prepared by Brandon Bowen of Jenkins, Bowen &amp; Walker, P.C., approved 4-1 on 2025-12-16 (resolution number not stated in approved minutes)</li>
+<li><strong>What prompted it:</strong> Community backlash to hyperscale proposals (Forsyth Technology Campus) and prior approvals</li>
+<li><strong>Affected projects:</strong> Forsyth Technology Campus (now annexed into City of Forsyth) concept reportedly involving large acreage and millions of square feet</li>
+<li><strong>Detailed status:</strong> Status after 2026-03-03 unconfirmed</li>
+<li><strong>Outcome:</strong> County working on UDO amendments addressing data centers (noise, water, buffers, etc.) per Chairman Gibbs comments at 2025-12-16 meeting</li>
+</ul>
+<h3 id="newton-county">Newton County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2026-02-17</li>
+<li><strong>Duration:</strong> Initial emergency moratorium to 2026-03-18; revised to 2026-04-08; extended to 2</li>
+<li><strong>Moratorium ID:</strong> <code>ga-newton-county-2026</code></li>
+<li><strong>Legal basis:</strong> Resolution R-040726b</li>
+<li><strong>What prompted it:</strong> Increased interest in data center siting and inadequate existing ordinances</li>
+<li><strong>Affected projects:</strong> Applications for rezonings, special-use permits, conditional-use permits, development permits, site plans, building permits, and land-disturbing approvals for data centers</li>
+<li><strong>Detailed status:</strong> Active through 2026-10-07 unless terminated or replaced</li>
+<li><strong>Outcome:</strong> County study and ordinance drafting</li>
+</ul>
+<h3 id="pike-county">Pike County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2025-09</li>
+<li><strong>Duration:</strong> Not confirmed</li>
+<li><strong>Moratorium ID:</strong> <code>ga-pike-county-2025</code></li>
+<li><strong>Legal basis:</strong> Pike County moratorium action referenced in GPB 2025-10-22 statewide reporting</li>
+<li><strong>What prompted it:</strong> County sought better understanding of how to accommodate data centers</li>
+<li><strong>Affected projects:</strong> Not publicly quantified in captured records</li>
+<li><strong>Detailed status:</strong> Unknown</li>
+<li><strong>Outcome:</strong> Code review reported</li>
+</ul>
+<h3 id="polk-county">Polk County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Extended</li>
+<li><strong>Date enacted:</strong> 2026-03-03</li>
+<li><strong>Duration:</strong> 60 days (through about 2026-05-02)</li>
+<li><strong>Moratorium ID:</strong> <code>ga-polk-county-2026</code></li>
+<li><strong>Legal basis:</strong> Board of Commissioners action item 2 of 2026-03-03 Regular Meeting: "Consider an Ordinance Amendment to add 'Chapter 33 – Data Centers' to the official County Code of Ordinances regulating any future data centers. Approved with the addition of a 60-day moratorium on all data centers in order to bett</li>
+<li><strong>What prompted it:</strong> County wanted to strengthen its zoning ordinance while regulating future data centers</li>
+<li><strong>Affected projects:</strong> Future data centers countywide</li>
+<li><strong>Detailed status:</strong> Active through about 2026-05-02 unless extended</li>
+<li><strong>Outcome:</strong> New data center chapter plus additional zoning work</li>
+</ul>
+<h3 id="roswell">Roswell</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> ⚪ Expired</li>
+<li><strong>Date enacted:</strong> 2026-01-12</li>
+<li><strong>Duration:</strong> 90 days, expiring 2026-04-12</li>
+<li><strong>Moratorium ID:</strong> <code>ga-roswell-2026</code></li>
+<li><strong>Legal basis:</strong> Temporary emergency moratorium adopted unanimously by Roswell Mayor and City Council on 2026-01-12 (per WABE and Atlanta News First reporting)</li>
+<li><strong>What prompted it:</strong> New council concerns about land-use fit, utility demand, environmental effects, and Chattahoochee watershed impacts</li>
+<li><strong>Affected projects:</strong> No specific named in-city project identified</li>
+<li><strong>Detailed status:</strong> Expired unless extended</li>
+<li><strong>Outcome:</strong> UDC and zoning review</li>
+</ul>
+<h3 id="social-circle">Social Circle</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2025-09</li>
+<li><strong>Duration:</strong> Initial 90 days; extended an additional 90 days, then replaced by permanent ordi</li>
+<li><strong>Moratorium ID:</strong> <code>ga-social-circle-2025</code></li>
+<li><strong>Legal basis:</strong> Social Circle City Council moratorium action</li>
+<li><strong>What prompted it:</strong> Surge of annexation, rezoning, and special-use permit requests</li>
+<li><strong>Affected projects:</strong> Multiple Fairplay/Cannon Drive and other proposals reported in regional news</li>
+<li><strong>Detailed status:</strong> Replaced</li>
+<li><strong>Outcome:</strong> New rules require special-use permits even in industrial zones, with lot-size, screening, impact-study, emergency-plan, and noise standards</li>
+</ul>
+<h3 id="thomas-county">Thomas County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-01-20</li>
+<li><strong>Duration:</strong> 12 months</li>
+<li><strong>Moratorium ID:</strong> <code>ga-thomas-county-2026</code></li>
+<li><strong>Legal basis:</strong> Thomas County Board of Commissioners unanimous vote at 2026-01-20 special meeting (per WCTV reporting)</li>
+<li><strong>What prompted it:</strong> Proactive planning; lack of information on electricity, jobs, community effects, and resident utility-bill exposure</li>
+<li><strong>Affected projects:</strong> No data center plans in county at time of vote</li>
+<li><strong>Detailed status:</strong> Active through 2027-01-20</li>
+<li><strong>Outcome:</strong> County collecting information, community input, and possible regulations</li>
+</ul>
+<h3 id="troup-county">Troup County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Expired</li>
+<li><strong>Date enacted:</strong> 2025-09-16</li>
+<li><strong>Duration:</strong> 90 days; extension hearing noticed (research/_web/Moratorium - Data Centers Publ</li>
+<li><strong>Moratorium ID:</strong> <code>ga-troup-county-2025</code></li>
+<li><strong>Legal basis:</strong> Troup County 90-day moratorium with public notice for extension (per Ledger-Enquirer reporting cited in GPB 2025-10-22)</li>
+<li><strong>What prompted it:</strong> Project West and broader power, water, and land-use concerns</li>
+<li><strong>Affected projects:</strong> Project West, reported about $9.7 billion, 513 acres, and nearly 600 MW</li>
+<li><strong>Detailed status:</strong> Expired unless extension adopted</li>
+<li><strong>Outcome:</strong> UDO review and possible extension</li>
+</ul>
+<hr />
+<p><em>Source: <a href="../data/moratorium_inventory.csv">moratorium_inventory.csv</a> · <a href="../docs/methodology.html">Methodology</a> · <a href="../docs/codebook.html">Codebook</a>.</em></p>
+<p><a href="index.html">← Back to state index</a> · <a href="../index.html">Back to repository</a></p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

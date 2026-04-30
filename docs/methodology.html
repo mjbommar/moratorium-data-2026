@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology · Moratorium Nation</title>
+<meta name="description" content="Methodology — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / Docs</div>
+  <h1 id="methodology">Methodology</h1>
+<p>How this dataset was built, in plain English.</p>
+<h2 id="what-we-set-out-to-do">What we set out to do</h2>
+<p>Every U.S. local government has the legal authority to pause new development of certain kinds for a defined period. When a city council, county commission, or township board uses that authority, they typically do it through a public ordinance or resolution that is published online (sometimes), posted in a meeting agenda (often), and recorded in board minutes (almost always, eventually).</p>
+<p>Our goal: <strong>identify every such moratorium adopted in the U.S. that targets data centers, battery storage, solar, wind, or cryptocurrency mining</strong> — and capture enough structured information about each one to support cross-jurisdictional comparison.</p>
+<h2 id="how-we-did-it">How we did it</h2>
+<p>Three phases.</p>
+<h3 id="phase-1-document-collection">Phase 1: Document collection</h3>
+<p>We deployed AI-assisted research agents (built on the OpenAI Codex CLI with web-search enabled) across all 50 states. Each agent operated within a single state's scope and was given a research brief for that state.</p>
+<p>The agents searched:</p>
+<ul>
+<li>Municipal websites</li>
+<li>Agenda portals (Granicus, CivicEngage, Legistar, IQM2, CivicWeb, CivicClerk, etc.)</li>
+<li>County board meeting minutes</li>
+<li>Planning commission and zoning board records</li>
+<li>State legislative databases (LegiScan, official state legislatures)</li>
+<li>News archives (local TV, regional papers, trade press)</li>
+<li>Academic and policy research (UNC SOG, MSU Extension, NREL, EIA)</li>
+<li>Court records (where applicable)</li>
+</ul>
+<p>Each agent was instructed to download original documents — PDFs of ordinances, HTML of agenda pages, Word documents — and save them locally with provenance metadata (source URL, download timestamp, retrieval method).</p>
+<p>We supplemented this with a SerpAPI sweep for <code>"&lt;state&gt;" "data center" moratorium</code> and similar queries, which surfaced documents the per-state agents had missed.</p>
+<p><strong>Output of Phase 1:</strong> approximately 4,400 unique source documents, totaling ~12 GB, archived in their native formats. Each has a <code>.meta</code> sidecar JSON file recording its provenance.</p>
+<h3 id="phase-2-classification">Phase 2: Classification</h3>
+<p>Not every document we collected is a moratorium document. Many are project announcements, EIA reports, news articles unrelated to any specific ordinance. We classified each document with a small language model (gpt-5.4-mini at the OpenAI flex tier) using structured prompts that produced JSON-valid classifications:</p>
+<ul>
+<li><code>document_type</code>: <code>ordinance</code>, <code>resolution</code>, <code>agenda</code>, <code>minutes</code>, <code>news</code>, <code>report</code>, <code>policy_document</code>, etc.</li>
+<li><code>subject_matter</code>: <code>data_center</code>, <code>cryptocurrency</code>, <code>bess</code>, <code>solar</code>, <code>wind</code>, <code>general_zoning</code>, etc.</li>
+<li><code>jurisdiction</code>: name + state of the issuing body</li>
+<li><code>is_primary_legal_source</code>: whether the document is the operative instrument itself (vs. coverage of it)</li>
+<li><code>is_moratorium_related</code>: yes/no</li>
+<li><code>confidence</code>: 0.0 to 1.0</li>
+</ul>
+<p><strong>Output of Phase 2:</strong> 709 documents classified as moratorium-related across the corpus. About 1,123 of the 4,400 are primary legal sources of one kind or another.</p>
+<h3 id="phase-3-structured-extraction">Phase 3: Structured extraction</h3>
+<p>For each moratorium-related document, we used a larger language model (gpt-5.5 at the OpenAI flex tier) with a detailed extraction schema to produce a structured record.</p>
+<p>The extraction schema captures <strong>60+ fields per document</strong>, organized into five tiers that mirror the 44-clause taxonomy used in the working paper:</p>
+<ul>
+<li><strong>Tier 1: Universal clauses (14 coded fields).</strong> Authority statement, findings (regulatory gap, threat enumeration, study intent, emergency declaration), definitions, prohibited actions, geographic scope, duration, exemptions, severability, effective date, repeal language.</li>
+<li><strong>Tier 2: Common clauses (10 boolean fields).</strong> Extension mechanism, conflict-and-repeal, emergency declaration, open-meetings compliance, tolling, waiver provision, appeal process, vested-rights disclaimer, pending-application coverage, severability separately.</li>
+<li><strong>Tier 3: Sector-specific clauses (12 boolean fields).</strong> Water-resource assessment, grid/energy-impact assessment, incentive guardrails, noise/generator provisions, fire-safety requirements, decommissioning bond, hazmat training, safety-incident trigger, farmland preservation, property-value guarantee, physical-hazard assessment, aviation clearance.</li>
+<li><strong>Tier 4: Definitional approach.</strong> Whether the moratorium provides no definition, a functional definition, a bundled definition, or a size-threshold definition of the regulated use.</li>
+<li><strong>Tier 5: Quality metadata.</strong> Confidence score, narrative summary, error flags, structural quality score.</li>
+</ul>
+<p>Each extraction received a confidence score from the language model. We retained extractions with confidence ≥ 0.4 for downstream analysis. The cohort is <strong>n = 348</strong>, with mean confidence 0.72 and range 0.40 to 0.95.</p>
+<p><strong>Output of Phase 3:</strong> the JSONL file at <a href="../data/structured_extractions.jsonl"><code>data/structured_extractions.jsonl</code></a>.</p>
+<h3 id="manual-review-and-cleaning">Manual review and cleaning</h3>
+<p>We manually reviewed every extraction record to:</p>
+<ul>
+<li>Verify jurisdiction names and state codes</li>
+<li>Flag edge cases (regulatory ordinances mischaracterized as moratoria, rejected proposals, withdrawn projects, etc.)</li>
+<li>Resolve <code>[VERIFY]</code> flags by re-checking primary sources via real-Chrome browser sessions</li>
+<li>Add moratoria identified through news coverage but missed by automated extraction</li>
+</ul>
+<p>The final cleaned inventory has <strong>222 entries across 30 states</strong> (<code>data/moratorium_inventory.csv</code>).</p>
+<h3 id="phase-4-geocoding-added-v2026042">Phase 4: Geocoding (added v2026.04.2)</h3>
+<p>Each row in the cleaned inventory was assigned WGS84 latitude and longitude coordinates representing the jurisdiction's centroid. Two-tiered approach:</p>
+<ol>
+<li><strong>Primary geocoder: OSM Nominatim.</strong> Free, open-source, with reasonable U.S. administrative boundary coverage. Rate-limited to 1 request/second per the public API usage policy.</li>
+<li><strong>Fallback: U.S. Census Geocoder.</strong> Used when Nominatim returns no result. The Census Geocoder is authoritative for U.S. jurisdictions but works best for street addresses; for "Jurisdiction, State" queries we found Nominatim more reliable.</li>
+</ol>
+<p>Of 222 rows, 220 (99.1%) were successfully geocoded. The 2 blanks are aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) that aren't real geographic points.</p>
+<p>After geocoding, a triple-check audit ran 89 verifications across three independent methods:</p>
+<ol>
+<li><strong>Random sampling against geographic knowledge</strong> (24 rows): manually verify each coordinate matches a well-known location.</li>
+<li><strong>Wikipedia GeoSearch reverse-lookup</strong> (50 rows): query Wikipedia for pages within 10 km of our coordinates; verify the jurisdiction name appears among them.</li>
+<li><strong>Targeted high-risk subset</strong> (15 rows): the 4 manual within-state-ambiguity fixes plus other generic township names where ambiguity is most likely.</li>
+</ol>
+<p>Across all 89 verifications, <strong>zero confirmed wrong geocodes</strong> (after the 4 manual Ohio corrections in v2026.04.2). The audit caught and corrected:</p>
+<ul>
+<li>Lake Township, OH (geocoder picked Logan County → corrected to Wood County)</li>
+<li>Plain Township, OH (Franklin County → Stark County)</li>
+<li>Spencer Township, OH (Lorain County → Lucas County)</li>
+<li>Waterville Township, OH (Stark County → Lucas County)</li>
+</ul>
+<p>Each correction used article-context disambiguation (<code>legal_basis</code>, <code>trigger</code>, and news-source mentions). Treat the lat/lon column as ≥99% accurate. The script is <code>scripts/geocode_inventory.py</code>; re-run after adding new rows to fill in their coordinates.</p>
+<h2 id="why-the-inventory-n222-is-bigger-than-the-extraction-cohort-n348-wait-thats-smaller">Why the inventory (n=222) is bigger than the extraction cohort (n=348)... wait, that's smaller</h2>
+<p>Right — the numbers can be confusing. Here's the difference:</p>
+<ul>
+<li><strong>Inventory (n=222):</strong> the cleaned, deduplicated count of unique moratorium <strong>instruments</strong> (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.</li>
+<li><strong>Structured-extraction cohort (n=348):</strong> the count of confidence-filtered structured <strong>extractions</strong>. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.</li>
+</ul>
+<p>The two numbers measure different things and don't need to match. The 222 is the headline count of moratoria; the 348 is the size of the line-coded sample used for clause-prevalence percentages.</p>
+<h2 id="what-we-dont-claim">What we don't claim</h2>
+<ul>
+<li><strong>We don't claim to have every moratorium.</strong> Small townships without online minutes are nearly impossible to find systematically. Where we know our coverage is incomplete, we say so in <a href="known-gaps.html"><code>docs/known-gaps.md</code></a>.</li>
+<li><strong>We don't claim our percentages are statistical inferences.</strong> They describe the corpus we have, not a probability sample of all moratoria. The corpus is biased toward jurisdictions that post things online.</li>
+<li><strong>We don't claim to predict outcomes.</strong> This is a descriptive dataset, not a causal one.</li>
+</ul>
+<h2 id="reproducibility">Reproducibility</h2>
+<p>Every step of the pipeline can be re-run. The scripts are in <a href="../scripts/"><code>scripts/</code></a> with a <a href="../scripts/index.html">README</a> explaining each one. To regenerate every table and figure from the source data:</p>
+<pre><code class="language-bash">python -m scripts.generate_tables   # rebuilds all tables/*.tex
+python -m scripts.moratorium_maps all   # rebuilds all figures/
+</code></pre>
+<p>The original document corpus (~12 GB) is not in this repository (it's hosted separately on Zenodo as the supplementary data deposit) but the cleaned inventory + structured extractions are sufficient to reproduce all published statistics.</p>
+<h2 id="tooling-and-models">Tooling and models</h2>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Tool</th>
+<th>Model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Document discovery</td>
+<td>OpenAI Codex CLI with web-search</td>
+<td><code>gpt-5.5</code> at medium reasoning effort</td>
+</tr>
+<tr>
+<td>State-month chronology</td>
+<td>OpenAI Codex CLI with web-search</td>
+<td><code>gpt-5.5</code> at medium reasoning effort</td>
+</tr>
+<tr>
+<td>SerpAPI ordinance search</td>
+<td><code>google-search-results</code> Python package</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>Document download</td>
+<td>Playwright + stealth wrappers</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>OCR (image-based PDFs)</td>
+<td>EasyOCR + Tesseract</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>PDF classification</td>
+<td>pydantic-ai with OpenAI provider</td>
+<td><code>gpt-5.4-mini</code> at flex tier</td>
+</tr>
+<tr>
+<td>Structured extraction</td>
+<td>pydantic-ai with OpenAI provider</td>
+<td><code>gpt-5.5</code> at flex tier</td>
+</tr>
+<tr>
+<td>Real-browser verification</td>
+<td>Playwright + system Chrome (Xvfb) for JS-rendered portals</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>Aggregation, table generation, mapping</td>
+<td>Python (pandas, geopandas, matplotlib, seaborn)</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+<h2 id="updates">Updates</h2>
+<p>Each refresh of the dataset is a tagged GitHub release (<code>v2026.04</code>, <code>v2026.10</code>, ...) with a corresponding <a href="https://doi.org/">Zenodo DOI</a> (planned). Refresh cadence is roughly quarterly while the moratorium wave is active.</p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

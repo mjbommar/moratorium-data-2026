@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>North Carolina — moratoria · Moratorium Nation</title>
+<meta name="description" content="North Carolina — moratoria — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">States</a></div>
+  <h1 id="north-carolina-moratoria">North Carolina Moratoria</h1>
+<p>Every infrastructure moratorium we have identified in North Carolina as of April 2026.</p>
+<p><strong>19 instruments</strong> — 0 in force, 14 pending, 5 past. Activity level: <strong>High</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Jurisdiction</th>
+<th>Type</th>
+<th>Date enacted</th>
+<th>Duration</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Buncombe County</td>
+<td>County</td>
+<td>2023-05-02 effective; extended 2024-05-07 by Ordinance 24-05-09</td>
+<td>Original 1 year; extended to 2025-04-30 or earlier adoption of text amendment</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>Chatham County</td>
+<td>County</td>
+<td>2026-02-11</td>
+<td>12 months, to 2027-02-11, or earlier if new zoning regulations are adopted</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Cherokee County</td>
+<td>County</td>
+<td>2023-10-02 (signed by Chairman Cal Stiles, Cherokee County Board of Commissioner</td>
+<td>1 year from date of adoption, "or until such time as the Cherokee County Board o</td>
+<td>⚪ Expired</td>
+</tr>
+<tr>
+<td>City of Brevard</td>
+<td>City</td>
+<td>2026-03-16 (City Council Regular Meeting per agenda item J(4) "Proposed Moratori</td>
+<td>90 days, City Manager Wilson Hooper presented end date of "running through July</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>City of Kings Mountain</td>
+<td>City</td>
+<td>2026-02-24</td>
+<td>182 days, ending with public hearing on 2026-08-25</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Clay County</td>
+<td>County</td>
+<td>2026-01-08 commercial data center prohibition; related cryptocurrency prohibitio</td>
+<td>Indefinite prohibition, not a temporary moratorium</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Gates County</td>
+<td>County</td>
+<td>2025-12-17 reported by WUNC; ordinance draft text posted on the Gates County sit</td>
+<td>1 year</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Henderson County</td>
+<td>County</td>
+<td>2023-05-01</td>
+<td>60 days</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>Madison County (cryptocurrency mining; data-center-adjacent)</td>
+<td>County</td>
+<td>2023-06-13 (Board of Commissioners adoption per OCR-extracted county press relea</td>
+<td>12 months ("limited moratorium" on data processing facility land uses, including</td>
+<td>⚪ Expired</td>
+</tr>
+<tr>
+<td>McDowell County</td>
+<td>County</td>
+<td>Original moratorium-adoption date not retrievable from public records as of 2026</td>
+<td>Expired by replacement ordinance</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>Orange County</td>
+<td>County</td>
+<td>2026-04-21</td>
+<td>1 year</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Rowan County</td>
+<td>County</td>
+<td>2026-04-20 (Monday). Rowan County's CivicClerk portal (rowancountync.portal.civi</td>
+<td>1 year</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Swain County</td>
+<td>County</td>
+<td>2026-04-21 (commissioners unanimously passed at regular session per BPR; follows</td>
+<td>12 months</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Town of Apex</td>
+<td>City</td>
+<td>2026-04-14 (Town Council unanimous, per IndyWeek; adoption following published p</td>
+<td>12 months, ending 2027-04-27 per IndyWeek; the ordinance is town-wide including</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Town of Boone</td>
+<td>City</td>
+<td>2026-03-23 (Town Council unanimous 5-0 vote, per WataugaOnline and WHQR)</td>
+<td>1 year</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Town of Canton</td>
+<td>City</td>
+<td>2026-02-11 (Board of Aldermen unanimous adoption following public hearing same e</td>
+<td>12 months</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Town of Clyde</td>
+<td>City</td>
+<td>2026-04-16 (public hearing followed by adoption per Smoky Mountain News reportin</td>
+<td>12 months</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Town of Wendell</td>
+<td>City</td>
+<td>2026-04-13 (Wendell Town Board meeting; YouTube livestream title "Wendell Board</td>
+<td>Through 2026-12-31 (per AOL/N&amp;O via Wendell planning director Bryan Coates)</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Watauga County</td>
+<td>County</td>
+<td>2026-04-21 (Tuesday) public hearing held per Watauga County calendar; the March</td>
+<td>1 year as proposed by Planning Director Jason Walker per Watauga Democrat (March</td>
+<td>🟡 Pending</td>
+</tr>
+</tbody>
+</table>
+<h2 id="detailed-entries">Detailed entries</h2>
+<h3 id="buncombe-county-cryptocurrency-mining-data-center-adjacent">Buncombe County (cryptocurrency mining; data-center-adjacent)</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2023-05-02 effective; extended 2024-05-07 by Ordinance 24-05-09</li>
+<li><strong>Duration:</strong> Original 1 year; extended to 2025-04-30 or earlier adoption of text amendment</li>
+<li><strong>Moratorium ID:</strong> <code>nc-buncombe-county-2023</code></li>
+<li><strong>Legal basis:</strong> Ordinance 23-05-05 and extension Ordinance 24-05-09; N.C.G.S. 160D-107</li>
+<li><strong>What prompted it:</strong> Cryptocurrency mining server farms; county cited electricity use, greenhouse gas emissions, pollution, e-waste, noise, and lack of standards</li>
+<li><strong>Affected projects:</strong> Cryptocurrency mining uses in unincorporated Buncombe County; data centers addressed in later planning memo as separate use</li>
+<li><strong>Detailed status:</strong> Expired/replaced — captured staff memo (PH 1 MEMO Crypto/Data Ctr) referenced an Aug. 19, 2024 Planning Board review of proposed text amendments for crypto mining and data centers, with the moratorium running until May 2025. [Evidence ceiling: Buncombe Legistar's MainBody.aspx and Calendar.aspx retu</li>
+<li><strong>Outcome:</strong> County planning memo proposed text amendments for cryptocurrency mining and data centers; final adopted text not retrievable via Buncombe's online portals as of 2026-04-30 (Legistar and CivicEngage both require authenticated JS state)</li>
+</ul>
+<h3 id="chatham-county">Chatham County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-02-11</li>
+<li><strong>Duration:</strong> 12 months, to 2027-02-11, or earlier if new zoning regulations are adopted</li>
+<li><strong>Moratorium ID:</strong> <code>nc-chatham-county-2026</code></li>
+<li><strong>Legal basis:</strong> Ordinance 26-0061; N.C.G.S. 160D-107; hearing under N.C.G.S. 160D-601</li>
+<li><strong>What prompted it:</strong> Potential large-scale data center interest at Triangle Innovation Point West in Moncure; county findings cite water and electricity use, greenhouse gas emissions, pollution, e-waste, noise, and unaddressed zoning categories</li>
+<li><strong>Affected projects:</strong> Triangle Innovation Point West; ordinance covers data centers, data processing facilities, cryptocurrency mining operations, and related uses in unincorporated Chatham County outside municipal ETJs</li>
+<li><strong>Detailed status:</strong> Active; Eco TIP West LLC (associated with Kirk Bradley of Lee-Moore Capital) filed suit in Chatham County Superior Court, reported by chathamnc.com 2026-04-26, seeking declaration that the moratorium is unlawful and that its 750 MW project at Triangle Innovation Point West is exempt; Eco TIP West re</li>
+<li><strong>Outcome:</strong> Pending. Planning staff were directed to study impacts and prepare zoning text amendments during the moratorium</li>
+</ul>
+<h3 id="cherokee-county-high-impact-facilities-cryptocurrency-mining-data-center-adjacent">Cherokee County (high-impact facilities; cryptocurrency mining; data-center-adjacent)</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Expired</li>
+<li><strong>Date enacted:</strong> 2023-10-02 (signed by Chairman Cal Stiles, Cherokee County Board of Commissioner</li>
+<li><strong>Duration:</strong> 1 year from date of adoption, "or until such time as the Cherokee County Board o</li>
+<li><strong>Moratorium ID:</strong> <code>nc-cherokee-county-2023</code></li>
+<li><strong>Legal basis:</strong> High-Impact Facility Moratorium adopted under N.C.G.S. 160D-107(a) and 160D-107(d); ordinance text recites Cherokee County Comprehensive Plan adoption September 18, 2023 and finds at least 3 crypto mining sites in the county; covered uses include asphalt facilities; bulk inflammable, chemical, biolo</li>
+<li><strong>What prompted it:</strong> Existing cryptocurrency mining noise and electricity concerns in the Murphy/Marble area</li>
+<li><strong>Affected projects:</strong> Cryptocurrency mining/high-impact facilities; the Marble facility has converted from crypto to AI workloads</li>
+<li><strong>Detailed status:</strong> Expired — per BPR (2026-04-10), the Cherokee County moratorium "had been expired for a year" by January 2026; Commissioner Ben Adams asked the board to renew the moratorium and add AI data centers, but the board did not act, and Adams is now pursuing planning-board-led ordinance work (per Cherokee S</li>
+<li><strong>Outcome:</strong> No moratorium currently in force; planning board reconvened to develop possible ordinance without zoning</li>
+</ul>
+<h3 id="city-of-brevard">City of Brevard</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-03-16 (City Council Regular Meeting per agenda item J(4) "Proposed Moratori</li>
+<li><strong>Duration:</strong> 90 days, City Manager Wilson Hooper presented end date of "running through July </li>
+<li><strong>Moratorium ID:</strong> <code>nc-brevard-2026</code></li>
+<li><strong>Legal basis:</strong> City Council moratorium on data centers and similar high-intensity land uses adopted under N.C.G.S. 160D-107 (Brevard's land-use authority); March 16, 2026 City Council Regular Meeting agenda packet (cityofbrevard.com AgendaCenter ID _03162026-1793) lists item J(4) as "Proposed Moratorium on Data Ce</li>
+<li><strong>What prompted it:</strong> Past documented data center inquiries; lack of land-use standards for high-resource, noisy, large-format facilities</li>
+<li><strong>Affected projects:</strong> No active project identified by city officials</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Pending. Council is considering land-use ordinance amendments</li>
+</ul>
+<h3 id="city-of-kings-mountain">City of Kings Mountain</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-02-24</li>
+<li><strong>Duration:</strong> 182 days, ending with public hearing on 2026-08-25</li>
+<li><strong>Moratorium ID:</strong> <code>nc-kings-mountain-2026</code></li>
+<li><strong>Legal basis:</strong> Ordinance 26-11, adopted 5-2 on motion by Councilmember Annie Thombs (seconded by Lemmond), enacting 182-day moratorium on permitting new data centers; N.C.G.S. 160D-107(d) findings (problems/conditions, scope, duration, schedule) read into the record by Planning Director Henry Earle (per Feb. 24, 2</li>
+<li><strong>What prompted it:</strong> Numerous inquiries from developers; UDO written in 2021 did not define data centers or set standards for location, buffering, lighting, noise, utility usage, or on-site generation</li>
+<li><strong>Affected projects:</strong> No named project in captured agenda packet</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Pending. Staff planned five Planning and Zoning Board meetings before bringing text amendments to council on 2026-08-25</li>
+</ul>
+<h3 id="clay-county-permanent-restriction-after-earlier-crypto-moratorium">Clay County (permanent restriction after earlier crypto moratorium)</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-01-08 commercial data center prohibition; related cryptocurrency prohibitio</li>
+<li><strong>Duration:</strong> Indefinite prohibition, not a temporary moratorium</li>
+<li><strong>Moratorium ID:</strong> <code>nc-clay-county-2026</code></li>
+<li><strong>Legal basis:</strong> Ordinance No. 01.08.2026 prohibiting commercial data centers; separate ordinance prohibiting commercial cryptocurrency mining facilities</li>
+<li><strong>What prompted it:</strong> Rural character, infrastructure limits, high energy and water demands, noise, and environmental concerns</li>
+<li><strong>Affected projects:</strong> Commercial data centers meeting county definition, including facilities at or above 2 MW peak demand; commercial cryptocurrency mining facilities</li>
+<li><strong>Detailed status:</strong> Active permanent restriction</li>
+<li><strong>Outcome:</strong> County moved from temporary crypto pause to permanent crypto prohibition, then added a standalone data center prohibition in 2026</li>
+</ul>
+<h3 id="gates-county">Gates County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2025-12-17 reported by WUNC; ordinance draft text posted on the Gates County sit</li>
+<li><strong>Duration:</strong> 1 year</li>
+<li><strong>Moratorium ID:</strong> <code>nc-gates-county-2025</code></li>
+<li><strong>Legal basis:</strong> Ordinance imposing temporary moratorium on development approvals for data centers and related high-impact facilities; N.C.G.S. 160D-107</li>
+<li><strong>What prompted it:</strong> Developer inquiries in northeast North Carolina; county findings cite energy use, utility strain, noise, water use, hazardous materials, e-waste, and rural/agricultural land compatibility</li>
+<li><strong>Affected projects:</strong> No named project in captured ordinance draft; WUNC reports the county acted after staff heard developers were exploring northeastern North Carolina</li>
+<li><strong>Detailed status:</strong> Active. Expiration date depends on the final signed effective date, which the county had not published in any captured fetch as of 2026-04-30. Twelve-month duration term means expiration is on or about 2026-12-16, presuming a same-day signature on the 2025-12-17 reported adoption</li>
+<li><strong>Outcome:</strong> Pending. Ordinance sets a 12-month work plan for impact study, draft UDO amendments, public workshops, Planning Board review, and final hearings</li>
+</ul>
+<h3 id="henderson-county-cryptocurrency-mining-data-center-adjacent">Henderson County (cryptocurrency mining; data-center-adjacent)</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2023-05-01</li>
+<li><strong>Duration:</strong> 60 days</li>
+<li><strong>Moratorium ID:</strong> <code>nc-henderson-county-2023</code></li>
+<li><strong>Legal basis:</strong> Board of Commissioners public hearing item 2023.62; temporary moratorium on cryptocurrency mining</li>
+<li><strong>What prompted it:</strong> Noise, energy demand, and community impact concerns; need for code amendments</li>
+<li><strong>Affected projects:</strong> No named project in captured minutes</li>
+<li><strong>Detailed status:</strong> Expired / replaced</li>
+<li><strong>Outcome:</strong> Land Development Code now treats cryptocurrency mining as a Special Use Permit use with SR 10.5 standards, including setbacks, separation, noise, and operating limits</li>
+</ul>
+<h3 id="madison-county-cryptocurrency-mining-data-center-adjacent">Madison County (cryptocurrency mining; data-center-adjacent)</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Expired</li>
+<li><strong>Date enacted:</strong> 2023-06-13 (Board of Commissioners adoption per OCR-extracted county press relea</li>
+<li><strong>Duration:</strong> 12 months ("limited moratorium" on data processing facility land uses, including</li>
+<li><strong>Moratorium ID:</strong> <code>nc-madison-county-2023</code></li>
+<li><strong>Legal basis:</strong> Madison County Limited Moratorium on Data Processing Facilities, adopted June 13, 2023 (per County Manager Rod Honeycutt press release, confirmed by EasyOCR of <code>madison-county-crypto-moratorium-2023.pdf</code>); enacted under N.C.G.S. 160D-107. [Evidence ceiling: county press release is a notice, not the </li>
+<li><strong>What prompted it:</strong> Growing prevalence of data processing/crypto mining facilities; need to study infrastructure, energy, environmental, and economic impacts before regulating</li>
+<li><strong>Affected projects:</strong> Data processing facilities and crypto mining operations countywide</li>
+<li><strong>Detailed status:</strong> Expired by its 12-month term (June 2024) without a captured replacement ordinance. The Madison County Planning and Zoning page, refetched with a real Chrome browser on 2026-04-30, lists exactly five published ordinances — Land Use, Watershed Protection, Mountain Ridge Protection, Noise, and Subdivis</li>
+<li><strong>Outcome:</strong> Pending verification — county planned to study impacts and develop regulations; replacement text not located in captured fetches; the absence of a listed instrument on Madison County's Planning page suggests the moratorium may have lapsed without a replacement, but this cannot be confirmed without a</li>
+</ul>
+<h3 id="mcdowell-county-cryptocurrency-mining-data-center-adjacent">McDowell County (cryptocurrency mining; data-center-adjacent)</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> Original moratorium-adoption date not retrievable from public records as of 2026</li>
+<li><strong>Duration:</strong> Expired by replacement ordinance</li>
+<li><strong>Moratorium ID:</strong> <code>nc-mcdowell-county-2026</code></li>
+<li><strong>Legal basis:</strong> January 8, 2024 Board minutes state the adopted cryptocurrency ordinance ended the moratorium</li>
+<li><strong>What prompted it:</strong> Cryptocurrency mine noise, natural resources, and electric grid concerns</li>
+<li><strong>Affected projects:</strong> Cryptocurrency mines; residential cryptocurrency mining remained allowed under the replacement ordinance, according to minutes</li>
+<li><strong>Detailed status:</strong> Replaced</li>
+<li><strong>Outcome:</strong> Commissioners adopted an ordinance prohibiting establishment of cryptocurrency mines, effective 2024-01-08</li>
+</ul>
+<h3 id="orange-county">Orange County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-04-21</li>
+<li><strong>Duration:</strong> 1 year</li>
+<li><strong>Moratorium ID:</strong> <code>nc-orange-county-2026</code></li>
+<li><strong>Legal basis:</strong> Ordinance establishing one-year moratorium on large-scale data centers; N.C.G.S. 160D-107</li>
+<li><strong>What prompted it:</strong> March 2026 board direction and staff study of electricity demand, water usage, land-use compatibility, environmental impacts, resident utility costs, and water quality</li>
+<li><strong>Affected projects:</strong> Large-scale data centers, AI data centers, cryptocurrency mining facilities, data processing facilities, and similar operations</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Pending. Staff directed to prepare UDO amendments defining and regulating large-scale data centers and related uses</li>
+</ul>
+<h3 id="rowan-county">Rowan County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-04-20 (Monday). Rowan County's CivicClerk portal (rowancountync.portal.civi</li>
+<li><strong>Duration:</strong> 1 year</li>
+<li><strong>Moratorium ID:</strong> <code>nc-rowan-county-2026</code></li>
+<li><strong>Legal basis:</strong> Adopted under N.C.G.S. 160D-107 following Legislative Hearing Notice issued April 6, 2026 by Clerk Sarah Pack; the Notice expressly limits the hearing to 1 hour of public comment and exempts EDC Charlotte LLC parcels. [Evidence ceiling: Rowan County's CivicClerk portal indexes the April 20 meeting a</li>
+<li><strong>What prompted it:</strong> Public concern over data center siting (notably the Long Ferry Road project on land owned by an unnamed data-center developer) and need to study land-use standards</li>
+<li><strong>Affected projects:</strong> Hearing notice expressly exempts projects/properties prohibited from inclusion by N.C.G.S. 160D-107(c), including EDC Charlotte LLC parcels 603-112, 603-113, 603-114, 603-116, 603-118, 603-045, and 603-061. WBTV separately reports the Long Ferry Road site preparation (a power substation, ~400 acres)</li>
+<li><strong>Detailed status:</strong> Active per WBTV; commissioners vote unanimous</li>
+<li><strong>Outcome:</strong> Pending UDO study</li>
+</ul>
+<h3 id="swain-county">Swain County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-04-21 (commissioners unanimously passed at regular session per BPR; follows</li>
+<li><strong>Duration:</strong> 12 months</li>
+<li><strong>Moratorium ID:</strong> <code>nc-swain-county-2026</code></li>
+<li><strong>Legal basis:</strong> County moratorium ordinance on permitting and development approvals for data centers and other high-impact facilities, agenda voting item V(a) for the April 21, 2026 regular session; adopted under N.C.G.S. 160D-107. [Evidence ceiling: Swain County does not maintain a Granicus, Legistar, or CivicCler</li>
+<li><strong>What prompted it:</strong> March 31 public meeting with roughly 140 residents and 34 speakers; concerns included water use, energy use, noise, visual impacts, fisheries, and mountain watershed effects</li>
+<li><strong>Affected projects:</strong> No named project identified in captured reporting</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Pending. Commissioners voted to create two resident ad hoc committees to guide the research and ordinance process</li>
+</ul>
+<h3 id="town-of-apex">Town of Apex</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-04-14 (Town Council unanimous, per IndyWeek; adoption following published p</li>
+<li><strong>Duration:</strong> 12 months, ending 2027-04-27 per IndyWeek; the ordinance is town-wide including </li>
+<li><strong>Moratorium ID:</strong> <code>nc-apex-2026</code></li>
+<li><strong>Legal basis:</strong> Town-wide moratorium noticed under N.C.G.S. 160D-107 and 160D-601; covers acceptance, processing, and approval of development applications for data centers, cryptocurrency mining, data processing, and associated uses. [Evidence ceiling: Apex's CivicEngage AgendaCenter rendered with a real Chrome bro</li>
+<li><strong>What prompted it:</strong> Resident opposition to a proposed data center, followed by developer withdrawal; town cited water consumption, energy demand, backup generation, noise, land-use compatibility, transportation, and lack of UDO standards</li>
+<li><strong>Affected projects:</strong> Prior Natelli Investments/related Apex proposal was withdrawn before the moratorium; no pending project identified in captured notice</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Pending. Town will study and consider UDO and policy amendments</li>
+</ul>
+<h3 id="town-of-boone">Town of Boone</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-03-23 (Town Council unanimous 5-0 vote, per WataugaOnline and WHQR)</li>
+<li><strong>Duration:</strong> 1 year</li>
+<li><strong>Moratorium ID:</strong> <code>nc-boone-2026</code></li>
+<li><strong>Legal basis:</strong> Town ordinance banning development of data centers and cryptocurrency mining operations for one year, adopted after public hearing process under N.C.G.S. 160D-107; Mayor Dalton George brought the issue to council per WHQR; March 23 was a Monday, consistent with WHQR's "Monday night" reporting. [Evid</li>
+<li><strong>What prompted it:</strong> Public concern over infrastructure strain, water resources, environmental effects, and local fit; nearly 100 residents reportedly attended the meeting</li>
+<li><strong>Affected projects:</strong> No named project identified in captured reporting</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Pending. Town planned to study environmental and economic impacts and develop regulations or prohibitions</li>
+</ul>
+<h3 id="town-of-canton">Town of Canton</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-02-11 (Board of Aldermen unanimous adoption following public hearing same e</li>
+<li><strong>Duration:</strong> 12 months</li>
+<li><strong>Moratorium ID:</strong> <code>nc-canton-2026</code></li>
+<li><strong>Legal basis:</strong> Town moratorium ordinance ("A Proposed Moratorium Ordinance Regulation Data Centers, Cryptocurrency Mining Facilities, and Server Farms") taken up at Feb. 11, 2026 Special Called meeting (Canton agenda confirms public-hearing item title); WFAE describes the unanimous adoption as a "resolution"; inst</li>
+<li><strong>What prompted it:</strong> Inquiries about converting the former paper mill site to a data center, cryptocurrency mining facility, or server farm; local and environmental comments cited water, energy, noise, heat, air emissions, few permanent jobs, and future reuse of the mill site</li>
+<li><strong>Affected projects:</strong> Former Canton paper mill site inquiries; no formal application identified in captured town records</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Pending. Town officials said the pause would allow longer-term local ordinance controls</li>
+</ul>
+<h3 id="town-of-clyde">Town of Clyde</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-04-16 (public hearing followed by adoption per Smoky Mountain News reportin</li>
+<li><strong>Duration:</strong> 12 months</li>
+<li><strong>Moratorium ID:</strong> <code>nc-clyde-2026</code></li>
+<li><strong>Legal basis:</strong> Town moratorium under N.C.G.S. 160D-107: "Town shall not accept, process or approve any application for zoning permits, conditional use permits, site plans, building permits or other development approvals for the construction, establishment or expansion of a data center within the town" for 12 month</li>
+<li><strong>What prompted it:</strong> Regional western North Carolina data center concerns; speakers cited water consumption, electrical demand and Duke rate increases, noise, weak local jobs/tax-base benefits; preemption fears specifically referenced by Lay</li>
+<li><strong>Affected projects:</strong> Town Administrator Joy Garland reported no inquiries had been received</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Pending; town will study during 12-month period. Speakers urged longer-term measures, but Lay (an attorney) explained that case law and General Assembly guidance limit moratorium duration to roughly one year</li>
+</ul>
+<h3 id="town-of-wendell">Town of Wendell</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-04-13 (Wendell Town Board meeting; YouTube livestream title "Wendell Board </li>
+<li><strong>Duration:</strong> Through 2026-12-31 (per AOL/N&amp;O via Wendell planning director Bryan Coates)</li>
+<li><strong>Moratorium ID:</strong> <code>nc-wendell-2026</code></li>
+<li><strong>Legal basis:</strong> Town moratorium on acceptance/processing of development applications for data centers, data processing facilities, and cryptocurrency mining; cited authority N.C.G.S. 160D-107; &gt;61-day duration triggered required public hearing. [Evidence ceiling: Wendell's planning-department data-center-moratorium</li>
+<li><strong>What prompted it:</strong> UDO lacked definitions for data centers and cryptocurrency mining; town wanted clearer development standards before applications</li>
+<li><strong>Affected projects:</strong> No applications reported by town officials</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Pending. Town will study impacts and prepare regulations</li>
+</ul>
+<h3 id="watauga-county">Watauga County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-04-21 (Tuesday) public hearing held per Watauga County calendar; the March </li>
+<li><strong>Duration:</strong> 1 year as proposed by Planning Director Jason Walker per Watauga Democrat (March</li>
+<li><strong>Moratorium ID:</strong> <code>nc-watauga-county-2026</code></li>
+<li><strong>Legal basis:</strong> County data center moratorium proposed under N.C.G.S. 160D-107. [Evidence ceiling: Watauga County's BOC agendas/minutes archives at wataugacounty.org/App_Pages/Dept/BOC/{agendas,minutes}.aspx confirmed via real-Chrome fetch on 2026-04-30 to contain zero 2026 records.]</li>
+<li><strong>What prompted it:</strong> Regional data center concern after March 23 Boone action; Director Walker testified small data centers can consume 1–10 MW (700–7,000 homes) and large facilities use 1.5 million gallons of water per day, with Watauga lacking the power capacity to absorb such load</li>
+<li><strong>Affected projects:</strong> None named in Watauga Democrat reporting</li>
+<li><strong>Detailed status:</strong> Pending — BPR's April 10 Cherokee County feature listed Watauga among WNC jurisdictions where moratoriums have been "passed", but this appears to have conflated the County's pending April 21 hearing with the Town of Boone's already-adopted measure. As of 2026-04-30, with Watauga County's BOC agendas</li>
+<li><strong>Outcome:</strong> Pending UDO process; commissioners directed staff to develop comprehensive regulations within the moratorium year</li>
+</ul>
+<hr />
+<p><em>Source: <a href="../data/moratorium_inventory.csv">moratorium_inventory.csv</a> · <a href="../docs/methodology.html">Methodology</a> · <a href="../docs/codebook.html">Codebook</a>.</em></p>
+<p><a href="index.html">← Back to state index</a> · <a href="../index.html">Back to repository</a></p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

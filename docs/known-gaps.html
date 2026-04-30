@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Known gaps and limitations · Moratorium Nation</title>
+<meta name="description" content="Known gaps and limitations — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / Docs</div>
+  <h1 id="known-gaps-and-limitations">Known gaps and limitations</h1>
+<p>We're confident in what's in this dataset, but here's an honest accounting of what we know we're missing.</p>
+<h2 id="what-we-know-we-dont-have">What we know we don't have</h2>
+<h3 id="small-township-records-that-arent-online">Small-township records that aren't online</h3>
+<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. Roughly <strong>63 of the 223 inventory rows</strong> have at least one such evidence-ceiling note.</p>
+<h3 id="records-behind-authentication-or-captcha-gates">Records behind authentication or CAPTCHA gates</h3>
+<p>Some primary sources (notably the NC eCourts portal at <code>portal-nc.tylertech.cloud</code>, several Legistar instances, and certain Granicus-archived meetings) are protected by Akamai-style human-verification challenges that defeat automated retrieval. For affected entries, we use the best secondary source (county press releases, local news) and document the evidence ceiling.</p>
+<h3 id="extension-and-rescission-events-after-the-cutoff">Extension and rescission events after the cutoff</h3>
+<p>Our snapshot is <strong>April 2026</strong>. Any moratorium extended, replaced, or rescinded after that date won't be reflected until the next release. About 130 of the 223 moratoria were enacted in 2025–2026 and are still in their original window — many will be extended or replaced in the next few months.</p>
+<h3 id="non-english-language-jurisdictions">Non-English-language jurisdictions</h3>
+<p>We didn't find any moratoria adopted in languages other than English, but a comprehensive sweep of bilingual border-region jurisdictions or Spanish-language Puerto Rico municipal records was not part of the methodology.</p>
+<h3 id="federal-moratoria-and-tribal-government-moratoria">Federal moratoria and tribal-government moratoria</h3>
+<p>We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, April 2026, on AI data centers on tribal/trust lands). There may be others we missed, particularly on Bureau of Indian Affairs–trust lands. Federal-level moratoria on federal land (BLM, USFS) are out of scope for this dataset, which focuses on local-government land-use authority.</p>
+<h2 id="what-we-tried-and-couldnt-get">What we tried and couldn't get</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Eco TIP West v. Chatham County docket number</td>
+<td>Tyler eCourts portal hit Akamai challenge; case caption confirmed via news but file number not retrievable.</td>
+</tr>
+<tr>
+<td>Watauga County NC April 21, 2026 hearing outcome</td>
+<td>County BOC has posted no 2026 records online; no post-hearing news article identified. Listed as <code>Pending</code>.</td>
+</tr>
+<tr>
+<td>Madison County NC replacement ordinance</td>
+<td>Planning page lists 5 ordinances, none data-center-specific; moratorium most likely lapsed without replacement.</td>
+</tr>
+<tr>
+<td>McDowell County NC original 2023 moratorium adoption date</td>
+<td>County minutes archive only goes back to May 2023; original adoption was earlier.</td>
+</tr>
+<tr>
+<td>Numerous small NC town ordinance numbers (Apex, Wendell, Brevard, Canton, Clyde, Swain, Boone)</td>
+<td>These towns simply don't publish numbered ordinances online as of April 2026.</td>
+</tr>
+<tr>
+<td>Buncombe County NC replacement ordinance status</td>
+<td>Buncombe Legistar requires authenticated JS state; static fetch returns no items.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="geocoding-caveats-added-v2026042">Geocoding caveats (added v2026.04.2)</h2>
+<p>220 of 222 jurisdictions are geocoded to WGS84 lat/lon via OSM Nominatim. The 2 blanks are aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) that aren't real geographic points.</p>
+<p><strong>Within-state name ambiguity.</strong> Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:</p>
+<ul>
+<li>Lake Township, OH (Wood County, not Logan County)</li>
+<li>Plain Township, OH (Stark County, not Franklin County)</li>
+<li>Spencer Township, OH (Lucas County, not Lorain County)</li>
+<li>Waterville Township, OH (Lucas County, not Stark County)</li>
+</ul>
+<p>If you're using the lat/lon for a point map and a township seems oddly placed, check the row's <code>legal_basis</code> and <code>trigger</code> text for county hints. We've also flagged Washington Township, OH (40.11, -83.13) as residually ambiguous — the article context doesn't uniquely identify the county.</p>
+<p><strong>Audit confidence.</strong> Geocoded coordinates were triple-checked across 89 verifications via three independent methods: spot-check against geographic knowledge, Wikipedia GeoSearch reverse-lookup (does the jurisdiction's name appear in nearby Wikipedia pages?), and nearby-page context analysis (when a township has no Wikipedia article, do nearby places confirm the right county?). Across all 89 verifications, <strong>zero confirmed wrong geocodes</strong> (after the 4 manual corrections above). Treat the lat/lon column as ≥99% accurate.</p>
+<p>When new releases add new same-name townships, expect a small number of similar issues until the geocoder catches up.</p>
+<h2 id="what-gets-fixed-in-each-release">What gets fixed in each release</h2>
+<ul>
+<li>New moratoria adopted between releases get added.</li>
+<li><code>[VERIFY]</code> flags get resolved as towns post their post-meeting minutes online.</li>
+<li>Outcomes of pending moratoria (extended/replaced/expired/rescinded) get updated.</li>
+<li>Errors flagged by the community via the issue tracker get corrected.</li>
+</ul>
+<p>If you have access to one of the records above and want to share it, please <a href="https://github.com/mjbommar/moratorium-data-2026/issues">open an issue</a>. We'll add it and credit you in the next release.</p>
+<h2 id="selection-bias">Selection bias</h2>
+<p>This dataset is biased toward jurisdictions that:</p>
+<ol>
+<li>Post agendas and minutes online</li>
+<li>Have local newspapers or trade-press coverage</li>
+<li>Have moratoria of large enough scope to attract attention</li>
+</ol>
+<p>A small township in a rural county that adopts a 90-day data-center moratorium and never tells anyone is statistically very likely to be missing from this dataset. The bias is structural, not avoidable, and we don't try to correct for it. Treat the corpus as a high-confidence lower bound on the true count of moratoria, not as a probability sample.</p>
+<h2 id="confidence-on-individual-entries">Confidence on individual entries</h2>
+<p>The <code>has_verify_tags</code>, <code>verify_count</code>, and <code>verify_notes</code> fields tell you which rows are most certain and which have remaining open questions. When we use a row in the structured-extraction analysis, a confidence score (0.0 to 1.0) is also attached.</p>
+<p>For any specific row you want to use in a publication, <strong>always read the <code>verify_notes</code> first</strong> and cite a primary source rather than just our row.</p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

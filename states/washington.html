@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Washington — moratoria · Moratorium Nation</title>
+<meta name="description" content="Washington — moratoria — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">States</a></div>
+  <h1 id="washington-moratoria">Washington Moratoria</h1>
+<p>Every infrastructure moratorium we have identified in Washington as of April 2026.</p>
+<p><strong>11 instruments</strong> — 0 in force, 1 pending, 10 past. Activity level: <strong>Medium</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Jurisdiction</th>
+<th>Type</th>
+<th>Date enacted</th>
+<th>Duration</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>City of Chelan</td>
+<td>City (non-charter code city)</td>
+<td>2018-04-24</td>
+<td>12 months from passage; automatically expired April 2019 unless extended (Ordina</td>
+<td>⚪ Expired</td>
+</tr>
+<tr>
+<td>City of Cheney</td>
+<td>City (non-charter code city)</td>
+<td>2018-04-21 (passed by City Council; effective immediately as a public-emergency</td>
+<td>Six months, 2018-04-24 to 2018-10-24 (Ordinance X-27, Section on Term)</td>
+<td>⚪ Expired</td>
+</tr>
+<tr>
+<td>City of East Wenatchee</td>
+<td>City (non-charter code city)</td>
+<td>2018-03-27 (Ordinance 2018-06); extension adopted in late 2018 with public heari</td>
+<td>Initial six-month interim control (Ord. 2018-06: 2018-03-27 to 2018-09-27, per r</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>City of Entiat</td>
+<td>City (non-charter code city)</td>
+<td>2018 (Ordinance 779); extension adopted via Ordinance 794 and a further extensio</td>
+<td>Initial interim control (Ord. 779) followed by extension (Ord. 794) and a furthe</td>
+<td>⚪ Expired</td>
+</tr>
+<tr>
+<td>City of Ephrata</td>
+<td>City (non-charter code city)</td>
+<td>2018-10-17 (Spokesman-Review reported the "City Council voted Wednesday" of 2018</td>
+<td>12 months (per Spokesman-Review: "yearlong ban on new cryptocurrency mining")</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>City of Leavenworth</td>
+<td>City</td>
+<td>2018-03-27</td>
+<td>12 months</td>
+<td>🔴 Rescinded</td>
+</tr>
+<tr>
+<td>City of Moses Lake</td>
+<td>City (non-charter code city)</td>
+<td>2018-05 (Columbia Basin Herald reported on 2018-05-28 that Moses Lake "City Coun</td>
+<td>Up to 12 months (per Columbia Basin Herald: "for up to 12 months and will give t</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>City of Seattle</td>
+<td>City (first-class charter city)</td>
+<td>Not enacted as of 2026-04-29</td>
+<td>Proposed/exploratory only</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>City of Wenatchee</td>
+<td>City (non-charter code city)</td>
+<td>2018-02-22; extended 2019-02-14</td>
+<td>Initial six-month interim official control under RCW 35A.63.220 and RCW 36.70A.3</td>
+<td>🔴 Rescinded</td>
+</tr>
+<tr>
+<td>Douglas County</td>
+<td>County (Growth Management Act planning county)</td>
+<td>2018-04 (per MRSC May 2018 report: "this April, the county issued a moratorium o</td>
+<td>Not verified from primary ordinance text; MRSC characterizes the action as a mor</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>Town of Waterville</td>
+<td>Town (non-charter code town)</td>
+<td>2018 (Ordinance 792)</td>
+<td>Not verified from primary text</td>
+<td>⚪ Replaced</td>
+</tr>
+</tbody>
+</table>
+<h2 id="detailed-entries">Detailed entries</h2>
+<h3 id="city-of-chelan">City of Chelan</h3>
+<ul>
+<li><strong>Type:</strong> City (non-charter code city)</li>
+<li><strong>Status:</strong> ⚪ Expired</li>
+<li><strong>Date enacted:</strong> 2018-04-24</li>
+<li><strong>Duration:</strong> 12 months from passage; automatically expired April 2019 unless extended (Ordina</li>
+<li><strong>Moratorium ID:</strong> <code>wa-chelan-2018</code></li>
+<li><strong>Legal basis:</strong> Ordinance 2018-1538; RCW 36.70A.390 and RCW 35A.63.220; Section 5 confirms public hearing held April 10, 2018 (within 60 days)</li>
+<li><strong>What prompted it:</strong> Low-cost hydropower attracted cryptocurrency mining; city findings cite high electricity use, cooling equipment, fire-safety risk, and need to study electricity-distribution impacts</li>
+<li><strong>Affected projects:</strong> Not quantified in ordinance</li>
+<li><strong>Detailed status:</strong> Expired (automatic 12-month expiration April 2019); permanent zoning treatment subsequently incorporated through Comprehensive Plan amendment process</li>
+<li><strong>Outcome:</strong> Interim control prohibited acceptance, conduct, and permitting of new cryptocurrency mining while the city studied code and comprehensive-plan changes</li>
+</ul>
+<h3 id="city-of-cheney">City of Cheney</h3>
+<ul>
+<li><strong>Type:</strong> City (non-charter code city)</li>
+<li><strong>Status:</strong> ⚪ Expired</li>
+<li><strong>Date enacted:</strong> 2018-04-21 (passed by City Council; effective immediately as a public-emergency </li>
+<li><strong>Duration:</strong> Six months, 2018-04-24 to 2018-10-24 (Ordinance X-27, Section on Term)</li>
+<li><strong>Moratorium ID:</strong> <code>wa-cheney-2018</code></li>
+<li><strong>Legal basis:</strong> Ordinance X-27; RCW 35A.63.220 (cited authority for code-city moratoria, including renewal authority)</li>
+<li><strong>What prompted it:</strong> City-operated Light Department faced potential new large single electric loads greater than one MW (CMC 14.08.055); city findings cited fiscal health, capital facilities, utility capacity, and the need to study effects on the electric system</li>
+<li><strong>Affected projects:</strong> Not identified in ordinance</li>
+<li><strong>Detailed status:</strong> Expired (per Ordinance X-27, Section on Term: automatic expiration October 24, 2018, unless extended; no extension ordinance located in captured city documents as of 2026-04-29)</li>
+<li><strong>Outcome:</strong> Ordinance imposed a temporary pause on filing, acceptance, and processing of applications for new or expanded cryptocurrency mining operations; public hearing required within 60 days per ordinance Section on Public Hearing</li>
+</ul>
+<h3 id="city-of-east-wenatchee">City of East Wenatchee</h3>
+<ul>
+<li><strong>Type:</strong> City (non-charter code city)</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2018-03-27 (Ordinance 2018-06); extension adopted in late 2018 with public heari</li>
+<li><strong>Duration:</strong> Initial six-month interim control (Ord. 2018-06: 2018-03-27 to 2018-09-27, per r</li>
+<li><strong>Moratorium ID:</strong> <code>wa-east-wenatchee-2018</code></li>
+<li><strong>Legal basis:</strong> Ordinance 2018-06; Ordinance 2018-21 (twelve-month interim official zoning controls under RCW 35A.63.220 and RCW 36.70A.390); permanent regulations adopted by Ordinance 2019-19, which added EWMC 17.08.142, 17.08.192, 17.08.193, 17.08.194, and 17.72.270 and amended 17.34.010, 17.66.050, and 17.72.150</li>
+<li><strong>What prompted it:</strong> Rapid cryptocurrency mining growth, high continuous electric demand, fire/life-safety risk, and Douglas County PUD electric infrastructure planning concerns identified in Ordinance 2018-21 recitals</li>
+<li><strong>Affected projects:</strong> Not identified in captured city ordinance records; regional reports note moratoria coincided with redirected bitcoin investment in the Wenatchee Valley</li>
+<li><strong>Detailed status:</strong> Replaced</li>
+<li><strong>Outcome:</strong> Ordinance 2019-19 added permanent cryptocurrency mining and data-center provisions in EWMC Title 17, including Douglas County PUD load verification, Department of Labor and Industries electrical permits, and cryptocurrency-mining definitions</li>
+</ul>
+<h3 id="city-of-entiat">City of Entiat</h3>
+<ul>
+<li><strong>Type:</strong> City (non-charter code city)</li>
+<li><strong>Status:</strong> ⚪ Expired</li>
+<li><strong>Date enacted:</strong> 2018 (Ordinance 779); extension adopted via Ordinance 794 and a further extensio</li>
+<li><strong>Duration:</strong> Initial interim control (Ord. 779) followed by extension (Ord. 794) and a furthe</li>
+<li><strong>Moratorium ID:</strong> <code>wa-entiat-2018</code></li>
+<li><strong>Legal basis:</strong> Entiat Ordinances 779, 794, and 799 (interim controls relating to cryptocurrency mining operations); RCW 35A.63.220 and RCW 36.70A.390 (city is non-charter code city)</li>
+<li><strong>What prompted it:</strong> Regional cryptocurrency mining/high-density-load pressure tied to cheap Columbia River hydropower and Chelan County PUD capacity concerns; coordination with Chelan PUD regional response</li>
+<li><strong>Affected projects:</strong> Not identified</li>
+<li><strong>Detailed status:</strong> Expired</li>
+<li><strong>Outcome:</strong> Interim controls expired without permanent zoning amendments captured in current Entiat Municipal Code searches; Entiat ordinance table lists each crypto-mining ordinance as expired</li>
+</ul>
+<h3 id="city-of-ephrata">City of Ephrata</h3>
+<ul>
+<li><strong>Type:</strong> City (non-charter code city)</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2018-10-17 (Spokesman-Review reported the "City Council voted Wednesday" of 2018</li>
+<li><strong>Duration:</strong> 12 months (per Spokesman-Review: "yearlong ban on new cryptocurrency mining")</li>
+<li><strong>Moratorium ID:</strong> <code>wa-ephrata-2018</code></li>
+<li><strong>Legal basis:</strong> Moratorium adopted by resolution-style council action; the captured Ephrata Ordinance 18-14 is unrelated annexation material and should not be cited</li>
+<li><strong>What prompted it:</strong> Grant County PUD power-capacity uncertainty (Grant PUD received 125 service requests totaling &gt;2,000 MW with ~75% from cryptocurrency firms), noise complaints from residents on Nob Hill Drive ("the noise was like an ocean"), and local concern over whether cryptocurrency mining fit the city utility a</li>
+<li><strong>Affected projects:</strong> Four existing cryptocurrency operations were reported (two at the Port of Ephrata, one in a city-zoned industrial area, and one in a residential area being relocated); the moratorium applied to new operations only</li>
+<li><strong>Detailed status:</strong> Expired / replaced</li>
+<li><strong>Outcome:</strong> City code is reported to include cryptocurrency provisions within zoning, but the captured Ephrata Municipal Code does not yet include a verified cryptocurrency mining chapter</li>
+</ul>
+<h3 id="city-of-leavenworth">City of Leavenworth</h3>
+<ul>
+<li><strong>Type:</strong> City</li>
+<li><strong>Status:</strong> 🔴 Rescinded</li>
+<li><strong>Date enacted:</strong> 2018-03-27</li>
+<li><strong>Duration:</strong> 12 months</li>
+<li><strong>Moratorium ID:</strong> <code>wa-leavenworth-2018</code></li>
+<li><strong>Legal basis:</strong> Ordinance 1561; RCW 36.70A.390 and RCW 35A.63.220; repealed by Ordinance 1585</li>
+<li><strong>What prompted it:</strong> Chelan County PUD briefings on high-density-load growth, limited electrical capacity, and fire-safety risk in areas not designed for such loads</li>
+<li><strong>Affected projects:</strong> Not quantified in captured ordinance materials</li>
+<li><strong>Detailed status:</strong> Replaced</li>
+<li><strong>Outcome:</strong> Ordinance table shows interim zoning control for cryptocurrency mining was repealed by Ordinance 1585</li>
+</ul>
+<h3 id="city-of-moses-lake">City of Moses Lake</h3>
+<ul>
+<li><strong>Type:</strong> City (non-charter code city)</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2018-05 (Columbia Basin Herald reported on 2018-05-28 that Moses Lake "City Coun</li>
+<li><strong>Duration:</strong> Up to 12 months (per Columbia Basin Herald: "for up to 12 months and will give t</li>
+<li><strong>Moratorium ID:</strong> <code>wa-moses-lake-2018</code></li>
+<li><strong>Legal basis:</strong> Ordinance 2899 (interim provisions; "Repealed by 2900"); Ordinance 2900 (moratorium on cryptocurrency mining, server farms, and data centers; repealed Ordinance 2899); RCW 35A.63.220 and statutory 60-day public hearing requirement noted by Columbia Basin Herald</li>
+<li><strong>What prompted it:</strong> City received inquiries for cryptocurrency operations; local report cited seven known operations (four unpermitted), a recent fire tied to an unpermitted Central Business District operation, residential-zone complaints, and absence of zoning-code treatment</li>
+<li><strong>Affected projects:</strong> Seven known cryptocurrency operations reported; properly permitted/vested operations were not affected</li>
+<li><strong>Detailed status:</strong> Replaced</li>
+<li><strong>Outcome:</strong> Permanent code now regulates cryptocurrency mining operations, server farms, and data centers under Moses Lake Municipal Code Chapter 15.615</li>
+</ul>
+<h3 id="city-of-seattle">City of Seattle</h3>
+<ul>
+<li><strong>Type:</strong> City (first-class charter city)</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> Not enacted as of 2026-04-29</li>
+<li><strong>Duration:</strong> Proposed/exploratory only</li>
+<li><strong>Moratorium ID:</strong> <code>wa-seattle-2026</code></li>
+<li><strong>Legal basis:</strong> No ordinance captured; Mayor Katie Wilson's 2026-04-18 statement says the city is "exploring a moratorium on siting new centers"; any future ordinance would rely on RCW 36.70A.390 (Seattle plans under the Growth Management Act)</li>
+<li><strong>What prompted it:</strong> Five proposed large-scale data centers reportedly seeking Seattle City Light service, with combined maximum demand of 369 MW (about a third of Seattle's average daily power consumption); public concern over ratepayer, environmental justice, and power-supply impacts</li>
+<li><strong>Affected projects:</strong> Five proposed Seattle data centers, 369 MW combined maximum demand, per Seattle Times report (2026-04-10) and GeekWire follow-up (2026-04-19)</li>
+<li><strong>Detailed status:</strong> Proposed / under consideration; KIRO Newsradio reported one of four developer companies has dropped out, leaving Prologis, Equinix, and Sabey eyeing southern Seattle sites; companies have not yet formally applied for service</li>
+<li><strong>Outcome:</strong> No moratorium enacted as of 2026-04-29; Seattle City Light is rewriting contract terms for large-load customers, planning to require data center operators to secure their own power generation and pay for infrastructure upgrades rather than passing costs to ratepayers (GeekWire, 2026-04-19)</li>
+</ul>
+<h3 id="city-of-wenatchee">City of Wenatchee</h3>
+<ul>
+<li><strong>Type:</strong> City (non-charter code city)</li>
+<li><strong>Status:</strong> 🔴 Rescinded</li>
+<li><strong>Date enacted:</strong> 2018-02-22; extended 2019-02-14</li>
+<li><strong>Duration:</strong> Initial six-month interim official control under RCW 35A.63.220 and RCW 36.70A.3</li>
+<li><strong>Moratorium ID:</strong> <code>wa-wenatchee-2018</code></li>
+<li><strong>Legal basis:</strong> Ordinance 2018-04 (interim official control, "Not codified" per Wenatchee ordinance table); Ordinance 2019-04 (extension; repealed by Ordinance 2019-30); Ordinance 2019-30 (permanent regulations); RCW 35A.63.220 and RCW 36.70A.390</li>
+<li><strong>What prompted it:</strong> Cryptocurrency mining/high-density-load growth, power-distribution concerns, and fire/safety concerns identified during the Chelan PUD-driven regional response</li>
+<li><strong>Affected projects:</strong> Not quantified in primary city code table; regional reports describe delayed or redirected bitcoin data center investment, including a $100 million Salcido Enterprises expansion that was redirected outside Washington (NWPB, 2018-04-09)</li>
+<li><strong>Detailed status:</strong> Replaced</li>
+<li><strong>Outcome:</strong> Ordinance 2019-30 added WMC 10.48.310, amended sections 10.08.050, 10.08.055, and 10.10.020 to regulate cryptocurrency mining and data centers, and repealed Ordinance 2019-04</li>
+</ul>
+<h3 id="douglas-county">Douglas County</h3>
+<ul>
+<li><strong>Type:</strong> County (Growth Management Act planning county)</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2018-04 (per MRSC May 2018 report: "this April, the county issued a moratorium o</li>
+<li><strong>Duration:</strong> Not verified from primary ordinance text; MRSC characterizes the action as a mor</li>
+<li><strong>Moratorium ID:</strong> <code>wa-douglas-county-2018</code></li>
+<li><strong>Legal basis:</strong> County moratorium on use of cargo containers for cryptocurrency mining, reported by MRSC; later code amendments TLS 19-12-31C addressed cargo containers and cryptocurrency mining; RCW 36.70A.390 (county plans under the Growth Management Act)</li>
+<li><strong>What prompted it:</strong> Unincorporated-area cryptocurrency mining in cargo containers and related safety, noise, and land-use concerns; Douglas County PUD reported a 3-month moratorium on its own electric service applications followed by tiered rates</li>
+<li><strong>Affected projects:</strong> Not identified</li>
+<li><strong>Detailed status:</strong> Replaced</li>
+<li><strong>Outcome:</strong> Douglas County code now contains cryptocurrency mining and data center operational standards, including PUD verification and noise/performance controls</li>
+</ul>
+<h3 id="town-of-waterville">Town of Waterville</h3>
+<ul>
+<li><strong>Type:</strong> Town (non-charter code town)</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2018 (Ordinance 792)</li>
+<li><strong>Duration:</strong> Not verified from primary text</li>
+<li><strong>Moratorium ID:</strong> <code>wa-waterville-2018</code></li>
+<li><strong>Legal basis:</strong> Ordinance 792, interim official control on cryptocurrency mining; RCW 35A.63.220 and RCW 36.70A.390 (town is non-charter code town)</li>
+<li><strong>What prompted it:</strong> Douglas County-area cryptocurrency mining applications and utility capacity concerns; MRSC May 2018 report identified Waterville as having imposed a moratorium on accepting applications for mining operations (alongside East Wenatchee)</li>
+<li><strong>Affected projects:</strong> Not identified</li>
+<li><strong>Detailed status:</strong> Expired / replaced</li>
+<li><strong>Outcome:</strong> Town code presumably includes cryptocurrency mining provisions but the eCode360 ordinance table could not be retrieved automatically; primary ordinance text remains uncaptured</li>
+</ul>
+<hr />
+<p><em>Source: <a href="../data/moratorium_inventory.csv">moratorium_inventory.csv</a> · <a href="../docs/methodology.html">Methodology</a> · <a href="../docs/codebook.html">Codebook</a>.</em></p>
+<p><a href="index.html">← Back to state index</a> · <a href="../index.html">Back to repository</a></p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

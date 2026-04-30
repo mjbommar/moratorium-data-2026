@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iowa — moratoria · Moratorium Nation</title>
+<meta name="description" content="Iowa — moratoria — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">States</a></div>
+  <h1 id="iowa-moratoria">Iowa Moratoria</h1>
+<p>Every infrastructure moratorium we have identified in Iowa as of April 2026.</p>
+<p><strong>12 instruments</strong> — 7 in force, 2 pending, 3 past. Activity level: <strong>High</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Jurisdiction</th>
+<th>Type</th>
+<th>Date enacted</th>
+<th>Duration</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adair County</td>
+<td>County</td>
+<td>2026-03-18 (Creston News reported unanimous board vote on this date; the March 1</td>
+<td>Not captured in news report; resolution text not yet obtained</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Clarke County</td>
+<td>County</td>
+<td>2025-06-23</td>
+<td>Temporary; end date not captured</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Clayton County</td>
+<td>County</td>
+<td>2025-02-25</td>
+<td>Originally through 2025-12-31; extended through 2026-12-31</td>
+<td>🟢 Extended</td>
+</tr>
+<tr>
+<td>Franklin County</td>
+<td>County</td>
+<td>2026-03-31</td>
+<td>Temporary; end date not captured</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Jackson County</td>
+<td>County</td>
+<td>Three documented adoptions in the captured record: (1) 2024-09-17 — Resolution #</td>
+<td>First instance (Sept 17, 2024) ran through June 30, 2025 (Resolution #1066-09-17</td>
+<td>🔴 Rescinded</td>
+</tr>
+<tr>
+<td>Johnson County</td>
+<td>County</td>
+<td>2025-11-06</td>
+<td>Through 2026-11-08 at 11:59 p.m. CT unless extended or ended earlier</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Jones County</td>
+<td>County</td>
+<td>2024-10-15 (signed October 15, 2024 BoS minutes record adoption of "Resolution A</td>
+<td>Originally through 2025-04-15 (resolution text), extendable by subsequent resolu</td>
+<td>⚪ Replaced</td>
+</tr>
+<tr>
+<td>Mitchell County</td>
+<td>County</td>
+<td>2025-11-25</td>
+<td>Through 2026-12-31</td>
+<td>🟡 Pending</td>
+</tr>
+<tr>
+<td>Shelby County</td>
+<td>County</td>
+<td>2026-03-17</td>
+<td>Through 2027-07-01</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Story County</td>
+<td>County</td>
+<td>2025-06-17</td>
+<td>Through 2025-12-31, extended through 2026-03-31</td>
+<td>🔴 Rescinded</td>
+</tr>
+<tr>
+<td>Tama County</td>
+<td>County</td>
+<td>2025-11-10 (per Tama County Board of Supervisors agenda packet for 2025-11-10 li</td>
+<td>Not captured (companion BESS Resolution 11-10-2025B was indefinite, sunsetting o</td>
+<td>🟢 Active</td>
+</tr>
+<tr>
+<td>Union County</td>
+<td>County</td>
+<td>2026-03-18 — Board of Supervisors voted unanimously (Hopkins, Friday; Brown abse</td>
+<td>Up to one year (March 18 motion language; specific end date depends on the still</td>
+<td>🟡 Pending</td>
+</tr>
+</tbody>
+</table>
+<h2 id="detailed-entries">Detailed entries</h2>
+<h3 id="adair-county">Adair County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-03-18 (Creston News reported unanimous board vote on this date; the March 1</li>
+<li><strong>Duration:</strong> Not captured in news report; resolution text not yet obtained</li>
+<li><strong>Moratorium ID:</strong> <code>ia-adair-county-2026</code></li>
+<li><strong>Legal basis:</strong> Moratorium on development and operation of data centers and high-density computing facilities; ordinance or resolution number not captured (Adair County does not currently post numbered resolutions to a public index)</li>
+<li><strong>What prompted it:</strong> Proposed 765 kV MISO transmission line, land negotiations in the Hebron area, and concern that data centers require large amounts of electricity and water</li>
+<li><strong>Affected projects:</strong> Applied Digital interest in a 200 MW data center near Adair reported in Clarke County coverage; no Adair County project approval record captured</li>
+<li><strong>Detailed status:</strong> Active per March 25, 2026 Creston News reporting and March 25, 2026 Western Iowa Today coverage that the moratorium does not restrict in-progress projects</li>
+<li><strong>Outcome:</strong> Supervisors continued reviewing a draft data center ordinance after adoption of the moratorium. The draft would require data-center equipment to be housed in permanent structures on foundations, not shipping containers or similar temporary structures (March 25, 2026 Western Iowa Today: "No action wa</li>
+</ul>
+<h3 id="clarke-county">Clarke County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2025-06-23</li>
+<li><strong>Duration:</strong> Temporary; end date not captured</li>
+<li><strong>Moratorium ID:</strong> <code>ia-clarke-county-2025</code></li>
+<li><strong>Legal basis:</strong> Resolution #25-011</li>
+<li><strong>What prompted it:</strong> County lacked data center rules and cited safety, property-right, and road impacts</li>
+<li><strong>Affected projects:</strong> None named; reporting connects the action to Applied Digital interest in a 200 MW data center near Adair</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> No replacement ordinance identified in captured records</li>
+</ul>
+<h3 id="clayton-county">Clayton County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Extended</li>
+<li><strong>Date enacted:</strong> 2025-02-25</li>
+<li><strong>Duration:</strong> Originally through 2025-12-31; extended through 2026-12-31</li>
+<li><strong>Moratorium ID:</strong> <code>ia-clayton-county-2025</code></li>
+<li><strong>Legal basis:</strong> Resolution #8-2025; extension motion on 2025-12-02</li>
+<li><strong>What prompted it:</strong> Infrastructure burden, nearby property impacts, and need to revise zoning approvals for digital asset mining and data centers</li>
+<li><strong>Affected projects:</strong> Board discussed potential data mining projects with Allamakee-Clayton Electric representatives; no MW listed</li>
+<li><strong>Detailed status:</strong> Extended</li>
+<li><strong>Outcome:</strong> Moratorium extended while zoning updates proceed; replacement ordinance not identified</li>
+</ul>
+<h3 id="franklin-county">Franklin County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-03-31</li>
+<li><strong>Duration:</strong> Temporary; end date not captured</li>
+<li><strong>Moratorium ID:</strong> <code>ia-franklin-county-2026</code></li>
+<li><strong>Legal basis:</strong> Ordinance 2026A — "AN ORDINANCE AUTHORIZING A MORATORIUM ON NEW PERMIT APPLICATIONS FOR DEVELOPMENT OF DATA CENTER PROJECTS WITHIN THE UNINCORPORATED AREA OF FRANKLIN COUNTY, IOWA" (public hearing notice published in Hampton Chronicle 2026-03-18; first/second readings waived; third reading approved </li>
+<li><strong>What prompted it:</strong> County evaluation of impacts and planning needs for data center projects in unincorporated areas</li>
+<li><strong>Affected projects:</strong> New permit applications for data center projects in unincorporated Franklin County; no project names or MW listed</li>
+<li><strong>Detailed status:</strong> Active per Citizen Portal coverage of the March 31, 2026 adoption</li>
+<li><strong>Outcome:</strong> No replacement ordinance identified</li>
+</ul>
+<h3 id="jackson-county">Jackson County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🔴 Rescinded</li>
+<li><strong>Date enacted:</strong> Three documented adoptions in the captured record: (1) 2024-09-17 — Resolution #</li>
+<li><strong>Duration:</strong> First instance (Sept 17, 2024) ran through June 30, 2025 (Resolution #1066-09-17</li>
+<li><strong>Moratorium ID:</strong> <code>ia-jackson-county-2024</code></li>
+<li><strong>Legal basis:</strong> Resolution #1066-09-17-2024 (initial); Resolution #1142-09-09-2025 (re-establishment). Both adopted by Supervisors Schwenker, Steines, Flagel. The Citizen Portal article on the March 17, 2025 [sic — likely March 17, 2026] zoning commission meeting recounted that "a previous moratorium on data-mining</li>
+<li><strong>What prompted it:</strong> Resolution text cites lack of current county ordinance and need to protect infrastructure, natural resources, and property rights through adequate setback provisions while the Planning and Zoning Commission gathers information and coordinates with multiple agencies</li>
+<li><strong>Affected projects:</strong> One Aurum Capital Ventures bitcoin/data-mining special-exception application (project sized at about 2.5 megawatts) was the subject of a unanimous March 17, 2026 zoning commission recommendation against the applicant (recommend keep parcel A-1 zoning, deny special exception); applicant John Holberic</li>
+<li><strong>Detailed status:</strong> Rescinded. Initial moratorium (March 2025) was re-established September 2025 but subsequently rescinded before November 2024 per web verification</li>
+<li><strong>Outcome:</strong> County reserved right to terminate early upon adoption of an ordinance ("BE IT FURTHER RESOLVED that the Jackson County Board of Supervisors reserves the right to end the moratorium prior to the approved term…upon completion of a satisfactorily developed Data Mining Facilities Ordinance"). No final </li>
+</ul>
+<h3 id="johnson-county">Johnson County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2025-11-06</li>
+<li><strong>Duration:</strong> Through 2026-11-08 at 11:59 p.m. CT unless extended or ended earlier</li>
+<li><strong>Moratorium ID:</strong> <code>ia-johnson-county-2025</code></li>
+<li><strong>Legal basis:</strong> Resolution No. 11-06-25-01</li>
+<li><strong>What prompted it:</strong> Potential burden on power and water resources, area-character concerns, and need for Unified Development Ordinance amendments</li>
+<li><strong>Affected projects:</strong> Applies to rezoning, subdivision, site plan approvals, and building permits for data centers in unincorporated county; no project MW listed</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> County is drafting permanent UDO standards on siting, noise, water use, and review process</li>
+</ul>
+<h3 id="jones-county">Jones County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> ⚪ Replaced</li>
+<li><strong>Date enacted:</strong> 2024-10-15 (signed October 15, 2024 BoS minutes record adoption of "Resolution A</li>
+<li><strong>Duration:</strong> Originally through 2025-04-15 (resolution text), extendable by subsequent resolu</li>
+<li><strong>Moratorium ID:</strong> <code>ia-jones-county-2024</code></li>
+<li><strong>Legal basis:</strong> Resolution 2024-149 (data mining); companion Resolution 2024-150 (utility-scale battery energy storage)</li>
+<li><strong>What prompted it:</strong> Board cited no current county data mining ordinance and need for planning/zoning work on setbacks and standards (resolution text)</li>
+<li><strong>Affected projects:</strong> Not specified in moratorium or ordinance text</li>
+<li><strong>Detailed status:</strong> Reclassified: initial temporary moratorium (Resolution 2024-149) expired and replaced by permanent regulatory ordinance (2025). Web verification indicates the county's approach was primarily regulatory, not a traditional moratorium</li>
+<li><strong>Outcome:</strong> County adopted comprehensive Cryptocurrency and Data Center Ordinance (2025) with special use permit requirements. Reclassified from moratorium to regulatory action after verification</li>
+</ul>
+<h3 id="mitchell-county">Mitchell County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2025-11-25</li>
+<li><strong>Duration:</strong> Through 2026-12-31</li>
+<li><strong>Moratorium ID:</strong> <code>ia-mitchell-county-2025</code></li>
+<li><strong>Legal basis:</strong> Resolution #1336-25</li>
+<li><strong>What prompted it:</strong> Board discussion referenced the need for county guidelines before approving data center activity</li>
+<li><strong>Affected projects:</strong> No specific applications named in the Mitchell County minutes for the November 25, 2025 adoption. Public comment referenced residents who had toured an existing bitcoin mining facility; "two bitcoin applications" was not supported by the captured November 25, 2025 minutes</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Board approved developing a data center ordinance with NIACOG support, pending planning and zoning process. Vote on Resolution #1336-25 was 4-1 (Frein, Marzen, Hartogh, Wherry ayes; Hendrickson nay)</li>
+</ul>
+<h3 id="shelby-county">Shelby County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2026-03-17</li>
+<li><strong>Duration:</strong> Through 2027-07-01</li>
+<li><strong>Moratorium ID:</strong> <code>ia-shelby-county-2026</code></li>
+<li><strong>Legal basis:</strong> Resolution 2026-16</li>
+<li><strong>What prompted it:</strong> No ordinance governing commercial digital asset mining/data centers; concerns about infrastructure, natural resources, property rights, area character, and public health, safety, and welfare</li>
+<li><strong>Affected projects:</strong> No named data center project or MW listed</li>
+<li><strong>Detailed status:</strong> Active</li>
+<li><strong>Outcome:</strong> Moratorium adopted to allow drafting and adoption of a commercial digital asset mining/data center ordinance</li>
+</ul>
+<h3 id="story-county">Story County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🔴 Rescinded</li>
+<li><strong>Date enacted:</strong> 2025-06-17</li>
+<li><strong>Duration:</strong> Through 2025-12-31, extended through 2026-03-31</li>
+<li><strong>Moratorium ID:</strong> <code>ia-story-county-2025</code></li>
+<li><strong>Legal basis:</strong> Resolution #25-97 (adopted 2025-06-17); one-time extension via Resolution #26-36 (adopted 2025-11-25) (per Story County Planning &amp; Development staff report and storycountyiowa.gov CivicAlerts page; an earlier structured extraction listed "26-39" — that was a transcription error)</li>
+<li><strong>What prompted it:</strong> County regulations were silent on digital asset mining, cryptocurrency operations, data processing centers, and battery/energy storage uses</li>
+<li><strong>Affected projects:</strong> No specific project names or MW listed</li>
+<li><strong>Detailed status:</strong> Expired on 2026-03-31 unless later extended</li>
+<li><strong>Outcome:</strong> Draft regulations were developed. March 2026 records indicate the Board removed the data center section from a draft ordinance and directed staff to pursue further moratorium extension, but no post-2026-03-31 extension was confirmed</li>
+</ul>
+<h3 id="tama-county">Tama County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟢 Active</li>
+<li><strong>Date enacted:</strong> 2025-11-10 (per Tama County Board of Supervisors agenda packet for 2025-11-10 li</li>
+<li><strong>Duration:</strong> Not captured (companion BESS Resolution 11-10-2025B was indefinite, sunsetting o</li>
+<li><strong>Moratorium ID:</strong> <code>ia-tama-county-2025</code></li>
+<li><strong>Legal basis:</strong> Resolution 11-10-2025A, listed on agenda as "Moratorium on Data Mining and Centers in Tama County, IA"</li>
+<li><strong>What prompted it:</strong> Not captured in agenda-only source. (Companion BESS Resolution 11-10-2025B cited fire hazards, safety risks, emergency response preparedness, environmental contamination, setbacks, and visual impacts.)</li>
+<li><strong>Detailed status:</strong> Active per agenda evidence; signed text not captured</li>
+<li><strong>Outcome:</strong> Full resolution text not captured. The Tama County Board adopted a parallel battery storage moratorium (Resolution 11-10-2025B) at the same November 10, 2025 meeting, directing the Zoning Commission to develop a comprehensive ordinance</li>
+</ul>
+<h3 id="union-county">Union County</h3>
+<ul>
+<li><strong>Type:</strong> County</li>
+<li><strong>Status:</strong> 🟡 Pending</li>
+<li><strong>Date enacted:</strong> 2026-03-18 — Board of Supervisors voted unanimously (Hopkins, Friday; Brown abse</li>
+<li><strong>Duration:</strong> Up to one year (March 18 motion language; specific end date depends on the still</li>
+<li><strong>Moratorium ID:</strong> <code>ia-union-county-2026</code></li>
+<li><strong>Legal basis:</strong> Motion to move forward with setting up a moratorium on data centers and high-density computing facilities; numbered resolution still pending</li>
+<li><strong>What prompted it:</strong> County discussion of data centers, local utility and infrastructure concerns, and desire for a research committee</li>
+<li><strong>Affected projects:</strong> Southwest Iowa REC-owned data center discussed in media coverage; per March 23, 2026 Creston News, REC's Phil Kinser said the project is "much smaller compared to the figures presented by the county during the last meeting"; no MW listed. The pending year-long moratorium is expected to allow the Sou</li>
+<li><strong>Detailed status:</strong> Pending formal instrument</li>
+<li><strong>Outcome:</strong> County created a data center committee whose members include: Phil Kinser (Southwest Iowa REC); Dillon Daughenbaugh; Jessica Hagen (Union County Assessor); Roger Vicker (Protect Our Land's Future); Christian Boehmer (Union County Engineer); Jeff Rice (SIRWA — Southern Iowa Rural Water Association)</li>
+</ul>
+<hr />
+<p><em>Source: <a href="../data/moratorium_inventory.csv">moratorium_inventory.csv</a> · <a href="../docs/methodology.html">Methodology</a> · <a href="../docs/codebook.html">Codebook</a>.</em></p>
+<p><a href="index.html">← Back to state index</a> · <a href="../index.html">Back to repository</a></p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>
