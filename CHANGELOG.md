@@ -1,5 +1,54 @@
 # Changelog
 
+## v2026.04.4 — 2026-04-30 (LLM-normalized typed columns)
+
+### Six new typed columns
+
+Free-text fields like `date_enacted` ("2025-11-20 introduction (Resolution
+No. 2025-11-07 text recites 'Commissioners meeting in Regular Session this
+20th day of November 2025'). The December 18, 2025 ... agenda places
+Resolution 2025-11-07 under 'Old Business — Item 2,'...") and `duration`
+("Initial 100 days; extended multiple times to 2026-06-23") are useful
+for provenance but useless for filtering and analysis. We added six new
+typed columns extracted by `scripts/normalize_inventory_fields.py`
+(gpt-5.5 at the OpenAI flex tier with a Pydantic-typed structured output):
+
+| Column | Type | Values |
+|---|---|---|
+| `date_enacted_iso` | string | `YYYY-MM-DD` / `YYYY-MM` / `YYYY` / empty |
+| `date_enacted_uncertainty` | enum | `exact`, `month_only`, `year_only`, `range`, `unverified` |
+| `duration_days` | integer or empty | numeric original duration in days; empty when not a fixed period |
+| `duration_kind` | enum | `fixed_days`, `until_date`, `until_event`, `indefinite`, `unknown` |
+| `sectors` | JSON array | multi-label: `data_center`, `battery_storage`, `solar`, `wind`, `cryptocurrency_mining`, `general` |
+| `trigger_categories` | JSON array | multi-label: `specific_project`, `regulatory_gap`, `infrastructure_capacity`, `environmental`, `noise`, `water`, `grid_energy`, `fire_safety`, `land_use_compatibility`, `property_values`, `legal_or_litigation`, `agricultural_preservation`, `other` |
+
+The original free-text columns (`date_enacted`, `duration`, `trigger`) are
+preserved for provenance.
+
+### Closed-vocab normalizations
+
+The same script also audited `jurisdiction_type` and `activity_level`
+against their closed vocabularies and patched 21 non-conforming
+`jurisdiction_type` values (e.g. `City and County` → `City` for Denver,
+`City (non-charter code city)` → `City` for 8 Washington cities,
+`Tribal Government` → `Tribal`, 5 NC `City` → `Town`, 2 meta-rows from
+empty → `Aggregate meta-row`). Activity level had no violations.
+
+### Headline distribution
+
+- **Sectors**: data_center 201 · cryptocurrency_mining 47 · battery_storage 15 · solar 8 · general 8 · wind 1
+- **Top trigger categories**: regulatory_gap 176 · land_use_compatibility 151 · infrastructure_capacity 93 · grid_energy 89 · specific_project 78 · water 71 · noise 64 · environmental 59
+- **Date confidence**: exact 151 · unverified 68 · month_only 2 · year_only 1 (and 27 empty for pending/undated)
+- **Duration kinds**: fixed_days 160 · until_date 25 · unknown 28 · until_event 6 · indefinite 3
+
+### Audit trail
+
+`data/inventory_normalizations.json` records, for each `moratorium_id`,
+the LLM's per-row picks, reasoning, and confidence — useful for sampling
+the model's calls.
+
+---
+
 ## v2026.04.3 — 2026-04-30 (enacted_status reclassification)
 
 ### Bug fix: 48 rows were mis-classified

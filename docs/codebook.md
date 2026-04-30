@@ -27,17 +27,23 @@ This document defines every column in every data file. Read this before doing an
 | `moratorium_id` | **Stable identifier** of the form `<state-abbrev>-<jurisdiction-slug>-<year>`, with `-pN` appended for explicitly-numbered phases (e.g., Oliver County) or `-N` appended for repeat instruments at the same jurisdiction in the same year. Use this column as a primary key when joining with future releases. | `mi-pittsfield-township-2025` |
 | `latitude` | WGS84 latitude of the jurisdiction's centroid. Geocoded via OSM Nominatim (with U.S. Census Geocoder fallback). For counties, the centroid is the county; for cities/towns/villages/townships, the centroid is the local government boundary. Six decimal places (~10 cm precision); blank if geocoding failed. | `42.238500` |
 | `longitude` | WGS84 longitude of the jurisdiction's centroid (see `latitude`). Negative for U.S. jurisdictions. | `-83.706800` |
+| `date_enacted_iso` | LLM-extracted clean date the moratorium was adopted, in ISO form. `YYYY-MM-DD` when the day is known, `YYYY-MM` when only the month is known, `YYYY` when only the year is known, empty when the moratorium has not been adopted (pending) or the date cannot be determined. For phased moratoria, the initial adoption date of THIS phase. | `2026-04-22` |
+| `date_enacted_uncertainty` | Closed-vocab confidence flag for `date_enacted_iso`: `exact`, `month_only`, `year_only`, `range`, `unverified`. | `exact` |
+| `duration_days` | LLM-extracted numeric duration of the original moratorium in days (NOT including extensions). `30 days` → `30`. `6 months` → `180`. `1 year` / `12 months` → `365`. Empty when the moratorium runs `until permanent regulations adopted`, `indefinite`, or otherwise not a fixed time period — see `duration_kind`. | `365` |
+| `duration_kind` | Closed-vocab categorical: `fixed_days` (a fixed time period), `until_date` (ends on a specific calendar date with no fixed length), `until_event` (ends when permanent regulations are adopted or some other event occurs), `indefinite` (no scheduled end), `unknown`. | `fixed_days` |
+| `sectors` | JSON array of infrastructure sectors covered by this moratorium. Multi-label closed vocabulary: `data_center`, `battery_storage`, `solar`, `wind`, `cryptocurrency_mining`, `general`. | `["data_center"]` |
+| `trigger_categories` | JSON array of WHY the moratorium was adopted. Multi-label closed vocabulary: `specific_project`, `regulatory_gap`, `infrastructure_capacity`, `environmental`, `noise`, `water`, `grid_energy`, `fire_safety`, `land_use_compatibility`, `property_values`, `legal_or_litigation`, `agricultural_preservation`, `other`. | `["regulatory_gap","grid_energy","water"]` |
 
 ### `enacted_status` values
 
 This is the column most users want for filtering. The values:
 
-- **`active`** — moratorium is currently in force (~92 rows)
-- **`extended`** — moratorium was extended past its original sunset and is currently in force (~8 rows)
-- **`replaced`** — moratorium has expired and a permanent ordinance has been adopted in its place (~26 rows)
-- **`expired`** — moratorium has lapsed without a documented replacement (~15 rows)
-- **`rescinded`** — moratorium was affirmatively repealed before its expiration date (~10 rows)
-- **`pending`** — moratorium has been proposed but is not yet in force (~71 rows; e.g., a public hearing is scheduled but the vote hasn't happened)
+- **`active`** — moratorium is currently in force (~137 rows)
+- **`extended`** — moratorium was extended past its original sunset and is currently in force (~11 rows)
+- **`replaced`** — moratorium has expired and a permanent ordinance has been adopted in its place (~27 rows)
+- **`expired`** — moratorium has lapsed without a documented replacement (~18 rows)
+- **`rescinded`** — moratorium was affirmatively repealed before its expiration date (~5 rows)
+- **`pending`** — moratorium has been proposed but is not yet in force (~24 rows; e.g., a public hearing is scheduled but the vote hasn't happened)
 
 To filter to "moratoria currently in force":
 
@@ -53,7 +59,7 @@ enacted = df[~df["enacted_status"].eq("pending")]
 
 ### Notes on the data
 
-- **Multi-sector instruments** (one ordinance covering data centers + solar + battery storage + wind) are recorded as one row. Sectors are discoverable via the `trigger`, `legal_basis`, and `outcome` text.
+- **Multi-sector instruments** (one ordinance covering data centers + solar + battery storage + wind) are recorded as one row. The `sectors` column gives a clean multi-label list; the `trigger`, `legal_basis`, and `outcome` text carry the prose.
 - **Extensions of the same instrument** (e.g., Resolution X adopts a 6-month moratorium, Resolution X-A extends it 6 more months) are recorded as updates to the original row's `current_status` and `enacted_status`, not as new rows.
 - **Successive new instruments** are recorded as separate rows. If a county adopts a moratorium, lets it lift or expire, and then later adopts a *new* moratorium, each is a separate row. Oliver County, ND has three such phases — three separate moratoria, three rows, distinguished by `(Phase 1)` / `(Phase 2)` / `(Phase 3)` in the `jurisdiction` field and by the `-p1` / `-p2` / `-p3` suffix on `moratorium_id`.
 - **Pending moratoria** (proposed but not yet adopted) are intentionally included with `enacted_status = pending` because the public proposal is itself politically meaningful. Filter on `enacted_status` if you want enacted-only counts.
