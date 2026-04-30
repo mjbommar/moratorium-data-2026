@@ -158,7 +158,7 @@ Known gaps and limitations are documented in [`docs/known-gaps.md`](docs/known-g
 
 This dataset was built using AI-assisted research agents to scan municipal websites, agenda portals, board minutes, and legislative trackers across all 50 states, supplemented by manual verification of high-priority entries. The methodology is documented in detail at [`docs/methodology.md`](docs/methodology.md).
 
-Contact: [Michael J. Bommarito](mailto:michael.bommarito@gmail.com).
+Contact: [michaelbommarito.com/contact](https://michaelbommarito.com/contact/).
 
 ---
 
