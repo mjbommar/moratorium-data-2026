@@ -71,16 +71,40 @@ We manually reviewed every extraction record to:
 - Resolve `[VERIFY]` flags by re-checking primary sources via real-Chrome browser sessions
 - Add moratoria identified through news coverage but missed by automated extraction
 
-The final cleaned inventory has **223 entries across 30 states** (`data/moratorium_inventory.csv`).
+The final cleaned inventory has **222 entries across 30 states** (`data/moratorium_inventory.csv`).
 
-## Why the inventory (n=223) is bigger than the extraction cohort (n=348)... wait, that's smaller
+### Phase 4: Geocoding (added v2026.04.2)
+
+Each row in the cleaned inventory was assigned WGS84 latitude and longitude coordinates representing the jurisdiction's centroid. Two-tiered approach:
+
+1. **Primary geocoder: OSM Nominatim.** Free, open-source, with reasonable U.S. administrative boundary coverage. Rate-limited to 1 request/second per the public API usage policy.
+2. **Fallback: U.S. Census Geocoder.** Used when Nominatim returns no result. The Census Geocoder is authoritative for U.S. jurisdictions but works best for street addresses; for "Jurisdiction, State" queries we found Nominatim more reliable.
+
+Of 222 rows, 220 (99.1%) were successfully geocoded. The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
+
+After geocoding, a triple-check audit ran 89 verifications across three independent methods:
+
+1. **Random sampling against geographic knowledge** (24 rows): manually verify each coordinate matches a well-known location.
+2. **Wikipedia GeoSearch reverse-lookup** (50 rows): query Wikipedia for pages within 10 km of our coordinates; verify the jurisdiction name appears among them.
+3. **Targeted high-risk subset** (15 rows): the 4 manual within-state-ambiguity fixes plus other generic township names where ambiguity is most likely.
+
+Across all 89 verifications, **zero confirmed wrong geocodes** (after the 4 manual Ohio corrections in v2026.04.2). The audit caught and corrected:
+
+- Lake Township, OH (geocoder picked Logan County → corrected to Wood County)
+- Plain Township, OH (Franklin County → Stark County)
+- Spencer Township, OH (Lorain County → Lucas County)
+- Waterville Township, OH (Stark County → Lucas County)
+
+Each correction used article-context disambiguation (`legal_basis`, `trigger`, and news-source mentions). Treat the lat/lon column as ≥99% accurate. The script is `scripts/geocode_inventory.py`; re-run after adding new rows to fill in their coordinates.
+
+## Why the inventory (n=222) is bigger than the extraction cohort (n=348)... wait, that's smaller
 
 Right — the numbers can be confusing. Here's the difference:
 
-- **Inventory (n=223):** the cleaned, deduplicated count of unique moratorium **instruments** (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.
+- **Inventory (n=222):** the cleaned, deduplicated count of unique moratorium **instruments** (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.
 - **Structured-extraction cohort (n=348):** the count of confidence-filtered structured **extractions**. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.
 
-The two numbers measure different things and don't need to match. The 223 is the headline count of moratoria; the 348 is the size of the line-coded sample used for clause-prevalence percentages.
+The two numbers measure different things and don't need to match. The 222 is the headline count of moratoria; the 348 is the size of the line-coded sample used for clause-prevalence percentages.
 
 ## What we don't claim
 

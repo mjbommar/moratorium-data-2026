@@ -17,12 +17,13 @@ The canonical data files for this project.
 
 See [`docs/codebook.md`](../docs/codebook.md) for full definitions of every column in every file.
 
-## Two columns most users want
+## Three columns most users want
 
-The inventory CSV has 17 columns. The two most useful for typical analysis are:
+The inventory CSV has 19 columns. The three most useful for typical analysis are:
 
 - **`enacted_status`** — closed-vocab status: `active`, `extended`, `replaced`, `expired`, `rescinded`, or `pending`. Filter to `active` + `extended` for "moratoria currently in force"; exclude `pending` for "ever-enacted moratoria".
 - **`moratorium_id`** — stable identifier (`<state>-<jurisdiction>-<year>`, with phase suffixes for repeat instruments). Use this as a primary key when joining with future releases of this dataset.
+- **`latitude` / `longitude`** — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 220 of 222 rows are geocoded (99.1% coverage); the 2 blanks are aggregate meta-rows. Coordinates were triple-checked with zero confirmed errors after manual fixes for 4 within-state ambiguities — see [`docs/known-gaps.md`](../docs/known-gaps.md#geocoding-caveats-added-v2026042) for the audit summary.
 
 ## Quick examples
 

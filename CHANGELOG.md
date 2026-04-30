@@ -7,6 +7,17 @@
 - **New `latitude` and `longitude` columns** in the inventory CSV. WGS84 coordinates of each jurisdiction's centroid, geocoded via OSM Nominatim with a Census Geocoder fallback. Six decimal places (~10 cm precision). 220 of 222 rows successfully geocoded; the 2 blanks are aggregate "Other Reported" / "Proposed or Rejected" meta-rows that aren't real geographic points.
 - New `scripts/geocode_inventory.py` lets anyone re-geocode after adding new rows.
 
+### Geocoding QA
+
+After the initial geocoding run, a manual triple-check across 89 verifications (random sampling against geographic knowledge, Wikipedia GeoSearch reverse-lookup, and nearby-page context analysis) caught 4 within-state same-name-township ambiguities — all in Ohio, where the geocoder had picked the wrong jurisdiction in the same state:
+
+- Lake Township, OH: relocated from Logan County → Wood County (Tracy/Latcha Rd, Toledo suburb)
+- Plain Township, OH: relocated from Franklin County → Stark County (article context: "Stark County data center concern")
+- Spencer Township, OH: relocated from Lorain County → Lucas County (article context: "Anthony Wayne area")
+- Waterville Township, OH: relocated from Stark County → Lucas County (article context: Toledo Free Press)
+
+After these corrections, **all 89 verifications passed**. Treat the lat/lon column as ≥99% accurate. Washington Township, OH remains residually ambiguous (Franklin County is the most-likely default) and is flagged in [`docs/known-gaps.md`](docs/known-gaps.md).
+
 ### Paper-data alignment fixes
 
 - `Moratorium_Survey_20260430_Draft_004.pdf` (in the private working repo) now matches this dataset exactly. Earlier drafts cited 223 moratoria; that's been corrected to 222 throughout the paper after the v2026.04.1 Harrison dedup. Paper text confidence range updated from `0.40 to 0.95` to `0.40 to 0.98` (the actual JSON max).
