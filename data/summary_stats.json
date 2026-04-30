@@ -1,15 +1,14 @@
 {
   "total_states": 50,
-  "total_local_moratoria": 223,
+  "total_local_moratoria": 222,
   "total_state_bills": 413,
   "states_by_activity_level": {
     "Medium": 19,
-    "None": 8,
+    "None": 9,
     "Low": 14,
-    "High": 8,
-    "None for formal moratoria; High for non-moratorium restrictions.": 1
+    "High": 8
   },
-  "moratoria_with_verify_tags": 63,
+  "moratoria_with_verify_tags": 62,
   "moratoria_without_verify_tags": 160,
   "states_with_moratoria": 30,
   "states_without_moratoria": 20,
@@ -162,7 +161,7 @@
     "Arkansas": {
       "abbreviation": "AR",
       "activity_level": "Low",
-      "local_moratoria_count": 2,
+      "local_moratoria_count": 1,
       "state_bills_count": 7,
       "file": "arkansas.md"
     },
@@ -343,10 +342,11 @@
     },
     "New Jersey": {
       "abbreviation": "NJ",
-      "activity_level": "None for formal moratoria; High for non-moratorium restrictions.",
+      "activity_level": "None",
       "local_moratoria_count": 0,
       "state_bills_count": 11,
-      "file": "new-jersey.md"
+      "file": "new-jersey.md",
+      "activity_notes": "None for formal moratoria; High for non-moratorium restrictions."
     },
     "New Mexico": {
       "abbreviation": "NM",
@@ -488,5 +488,13 @@
       "state_bills_count": 9,
       "file": "wyoming.md"
     }
+  },
+  "enacted_status_breakdown": {
+    "pending": 71,
+    "rescinded": 10,
+    "expired": 15,
+    "extended": 8,
+    "active": 92,
+    "replaced": 26
   }
 }

@@ -2,10 +2,12 @@
 
 **Open data on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.**
 
-This is the open companion dataset for the working paper [*Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States*](#cite-this).
+This is the open companion dataset for the working paper [*Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States*](#how-to-cite).
 
-> **As of April 2026, 223 moratoria across 30 states.**
-> Ohio leads with 35, followed by Michigan (34), Georgia (24), North Carolina (19), and Iowa (12).
+> **As of April 2026, 222 moratorium instruments tracked across 30 states.**
+> 🟢 **100 currently in force** (active or extended) · 🟡 **71 pending or proposed** (not yet adopted) · ⚪ **51 expired, replaced, or rescinded** (no longer in force)
+>
+> Top states by total instruments: Ohio (35), Michigan (34), Georgia (24), North Carolina (19), Iowa (12), Indiana (11), Washington (11).
 
 ![Moratorium counts by state](figures/png/map-moratorium-counts.png)
 
@@ -19,7 +21,7 @@ This is the open companion dataset for the working paper [*Moratorium Nation: A 
 | 📊 **Get the data** | [`data/moratorium_inventory.csv`](data/moratorium_inventory.csv) (Excel-ready) |
 | 📖 **Read the FAQ** | [What is a moratorium? Why does this dataset exist? →](docs/FAQ.md) |
 | 🧪 **Reproduce the analysis** | [`docs/methodology.md`](docs/methodology.md) |
-| 📚 **Cite this dataset** | [How to cite ↓](#cite-this) |
+| 📚 **Cite this dataset** | [How to cite ↓](#how-to-cite) |
 
 ---
 
@@ -32,7 +34,7 @@ This repository contains four kinds of artifacts, each in its own folder:
 | [`states/`](states/) | One human-readable Markdown page per state, listing every moratorium in plain English. | Anyone who wants to know what's happening in a specific state. |
 | [`data/`](data/) | The underlying data — CSV files for spreadsheets, JSON for programmers. | Journalists, analysts, researchers. |
 | [`figures/png/`](figures/png/) | Eight maps as PNG images (with PDF and SVG copies in sibling folders for print). | Anyone making slides, articles, or reports. |
-| [`tables/`](tables/) | LaTeX-formatted tables (already pre-built, drop-in) | Academics writing papers. |
+| [`tables/`](tables/) | LaTeX-formatted tables (already pre-built, drop-in). | Academics writing papers. |
 
 We also include the [scripts](scripts/) and [methodology](docs/methodology.md) so anyone can re-run the analysis and audit our choices.
 
@@ -54,14 +56,21 @@ For more, see the [FAQ](docs/FAQ.md).
 
 As of **April 2026**:
 
-- **223** local moratoria identified in our cleaned inventory
-- **30** states have at least one moratorium; **20** states have none we've identified
-- **Top 10 states**: Ohio (35), Michigan (34), Georgia (24), North Carolina (19), Iowa (12), Indiana (11), Washington (11), Kansas (8), North Dakota (7), Tennessee (6)
+- **222 moratorium instruments** tracked in our cleaned inventory
+  - **100 currently in force** (92 active + 8 extended)
+  - **71 pending or proposed** (public hearings scheduled, awaiting adoption)
+  - **26 replaced** by permanent regulations
+  - **15 expired** without a documented replacement
+  - **10 rescinded** before their original expiration
+- **30 states** have at least one moratorium; **20 states** have none we've identified
+- **Top 10 states by instrument count**: Ohio (35), Michigan (34), Georgia (24), North Carolina (19), Iowa (12), Indiana (11), Washington (11), Kansas (8), North Dakota (7), Tennessee (6)
 - **Sectors covered**: most moratoria target **data centers** (~93% mention them); a substantial share also cover **cryptocurrency mining**, with smaller numbers covering **battery storage**, **solar**, and **wind**
-- **413** state-level bills tracked in 2025–2026 (some proposing moratoria, others authorizing or restricting local moratoria)
-- **348** moratorium texts have been read line-by-line and coded against a 44-clause taxonomy (see [`data/structured_extractions.jsonl`](data/structured_extractions.jsonl))
+- **413 state-level bills** tracked in 2025–2026 (some proposing moratoria, others authorizing or restricting local moratoria)
+- **348 moratorium texts** read line-by-line and coded against a 44-clause taxonomy (the confidence-≥-0.4 subset of the 526 successful structured extractions in [`data/structured_extractions.jsonl`](data/structured_extractions.jsonl))
 
 Full state-by-state breakdown: [**states/README.md**](states/README.md).
+
+A note on the headline number: we count **moratorium instruments** rather than "moratoria currently in force" because the public proposal of a moratorium is itself politically meaningful and often analytically important (cascade studies, comparative state policy, etc.). Use the `enacted_status` column in the inventory CSV to filter to whatever subset you need; codebook explains.
 
 ---
 
@@ -69,32 +78,36 @@ Full state-by-state breakdown: [**states/README.md**](states/README.md).
 
 ### Open in Excel or Google Sheets
 
-Download [`data/moratorium_inventory.csv`](data/moratorium_inventory.csv) and open it in Excel, Google Sheets, Numbers, or any spreadsheet tool. Each row is one moratorium. Column definitions are in [`docs/codebook.md`](docs/codebook.md).
+Download [`data/moratorium_inventory.csv`](data/moratorium_inventory.csv) and open it in Excel, Google Sheets, Numbers, or any spreadsheet tool. Each row is one moratorium instrument. Column definitions are in [`docs/codebook.md`](docs/codebook.md).
+
+To filter to in-force moratoria only, filter the `enacted_status` column to `active` or `extended`.
 
 ### Load with Python (pandas)
 
 ```python
 import pandas as pd
 df = pd.read_csv("https://raw.githubusercontent.com/mjbommar/moratorium-data-2026/main/data/moratorium_inventory.csv")
-df["state"].value_counts().head(10)
+in_force = df[df["enacted_status"].isin(["active", "extended"])]
+print(in_force["state"].value_counts().head(10))
 ```
 
 ### Load with R
 
 ```r
 df <- read.csv("https://raw.githubusercontent.com/mjbommar/moratorium-data-2026/main/data/moratorium_inventory.csv")
-sort(table(df$state), decreasing = TRUE)[1:10]
+in_force <- df[df$enacted_status %in% c("active", "extended"), ]
+sort(table(in_force$state), decreasing = TRUE)[1:10]
 ```
 
 ### Just want the numbers
 
-[`data/summary_stats.json`](data/summary_stats.json) is a small JSON file with the headline totals (counts by state, total bills, etc.) — useful if you want to embed live-updating numbers in your own page.
+[`data/summary_stats.json`](data/summary_stats.json) is a small JSON file with the headline totals (counts by state, breakdown by enacted-status, etc.) — useful if you want to embed live-updating numbers in your own page.
 
 ---
 
 ## How to cite
 
-> Bommarito, Michael J. (2026). *Moratorium Nation: U.S. Infrastructure Moratorium Data* (April 2026 release) [Data set]. Available at https://github.com/mjbommar/moratorium-data-2026.
+> Bommarito, Michael J. (2026). *Moratorium Nation: U.S. Infrastructure Moratorium Data* (April 2026 release) [Data set]. https://github.com/mjbommar/moratorium-data-2026
 
 If you cite the underlying paper:
 
@@ -140,17 +153,17 @@ moratorium-data-2026/
 ├── README.md                      # this page
 ├── states/                        # 50-state index + 30 per-state pages
 ├── data/                          # canonical CSVs and JSON
-│   ├── moratorium_inventory.csv   # the 223-row main table
+│   ├── moratorium_inventory.csv   # the 222-row main table
 │   ├── state_legislation.csv      # 413-row state bill tracker
 │   ├── summary_stats.json         # top-level aggregates
-│   ├── structured_extractions.jsonl  # n=348 line-by-line coded subset
-│   └── clause_extraction_analysis.json  # clause prevalence summary
+│   ├── structured_extractions.jsonl  # 864 lines (526 successful + 338 errors)
+│   └── clause_extraction_analysis.json  # n=348 cohort summary
 ├── figures/                       # PNG (web), PDF (print), SVG (vector)
 ├── tables/                        # pre-rendered LaTeX tables
 ├── docs/                          # FAQ, methodology, codebook, known gaps
 ├── scripts/                       # generators (rebuild tables/maps from data)
-├── notebooks/                     # Jupyter examples
-├── examples/                      # one R / one Python / one Stata example
+├── notebooks/                     # Jupyter examples (planned)
+├── examples/                      # one R / one Python example script
 ├── CITATION.cff                   # citation metadata
 ├── LICENSE-data                   # CC-BY-4.0 for data
 └── LICENSE-code                   # MIT for scripts
