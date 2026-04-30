@@ -4,7 +4,7 @@
 
 This is the open companion dataset for the working paper *Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States*.
 
-> 📄 **[Download the working paper (PDF, 6 MB, 116 pages)](paper/moratorium-nation-2026-04-30.pdf)** — April 2026 draft. 50-state legal authority survey, 44-clause taxonomy, 13-section model ordinance template. Forthcoming on SSRN.
+> 📄 **Working paper:** [April 2026 updated draft (PDF, 6 MB, 116 pages)](paper/moratorium-nation-2026-04-30.pdf) · [first edition on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6242898). 50-state legal authority survey, 44-clause taxonomy, 13-section model ordinance template.
 
 > **As of April 2026, 222 moratorium instruments tracked across 30 states.**
 > 🟢 **100 currently in force** (active or extended) · 🟡 **71 pending or proposed** (not yet adopted) · ⚪ **51 expired, replaced, or rescinded** (no longer in force)
@@ -19,7 +19,7 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 
 |  |  |
 |---|---|
-| 📄 **Read the paper** | [Working paper PDF (April 2026, 116 pages)](paper/moratorium-nation-2026-04-30.pdf) |
+| 📄 **Read the paper** | [April 2026 draft PDF](paper/moratorium-nation-2026-04-30.pdf) · [first edition on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6242898) |
 | 🗺️ **Find your state** | [Browse the 30-state index →](states/README.md) |
 | 📊 **Get the data** | [`data/moratorium_inventory.csv`](data/moratorium_inventory.csv) (Excel-ready) |
 | 📖 **Read the FAQ** | [What is a moratorium? Why does this dataset exist? →](docs/FAQ.md) |
@@ -130,7 +130,7 @@ m.save("map.html")  # open in browser
 
 If you cite the underlying paper:
 
-> Bommarito, Michael J. (2026). *Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States.* Working paper, April 2026 draft. [PDF](paper/moratorium-nation-2026-04-30.pdf). Forthcoming on SSRN.
+> Bommarito, Michael J. (2026). *Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States.* SSRN Working Paper No. 6242898. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6242898 (first edition; April 2026 updated draft available as [PDF in this repo](paper/moratorium-nation-2026-04-30.pdf)).
 
 A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this repository" button automatically.
 
