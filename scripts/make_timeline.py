@@ -104,24 +104,19 @@ def main():
     plot_h = H - pad_t - pad_b
     bar_w = plot_w / len(months)
 
-    # Y scale (left axis: monthly count)
+    # Y scale (single axis: monthly count)
     max_month = max(sum(monthly.get(m, {}).values()) for m in months)
     y_max = ((max_month + 9) // 10) * 10  # round up to nearest 10
     y_max = max(y_max, 10)
     y_step = 10 if y_max <= 50 else 20
 
-    # Right axis (cumulative)
     cum_max = cumulative[-1]
-    cum_top = ((cum_max + 49) // 50) * 50
 
     def x_at(i: int) -> float:
         return pad_l + i * bar_w
 
     def y_at(value: float) -> float:
         return pad_t + plot_h - (value / y_max) * plot_h
-
-    def y_at_cum(value: float) -> float:
-        return pad_t + plot_h - (value / cum_top) * plot_h
 
     parts: list[str] = []
     parts.append(
@@ -140,7 +135,8 @@ def main():
     )
     parts.append(
         f'<text x="{pad_l}" y="48" font-size="13" fill="#4a5460">'
-        f'Stacked by primary sector. Dashed line shows running total ({cum_max} adoptions across {sum(1 for m in months if monthly.get(m))} active months).'
+        f'Each bar is one calendar month, height shows the count of moratoria adopted in that month, color is the primary sector. '
+        f'{cum_max} adoptions across {sum(1 for m in months if monthly.get(m))} months.'
         f'</text>'
     )
 
@@ -159,21 +155,7 @@ def main():
         f'<text x="{pad_l - 44}" y="{pad_t + plot_h / 2:.1f}" '
         f'fill="#4a5460" text-anchor="middle" '
         f'transform="rotate(-90 {pad_l - 44} {pad_t + plot_h / 2:.1f})">'
-        f'Adoptions in month</text>'
-    )
-
-    # Right axis labels (cumulative)
-    parts.append(f'<g fill="#4a5460" text-anchor="start">')
-    for frac in (0, 0.25, 0.5, 0.75, 1.0):
-        v = int(round(cum_top * frac))
-        y = y_at_cum(v)
-        parts.append(f'<text x="{W - pad_r + 4}" y="{y + 4:.1f}">{v}</text>')
-    parts.append('</g>')
-    parts.append(
-        f'<text x="{W - pad_r + 44}" y="{pad_t + plot_h / 2:.1f}" '
-        f'fill="#4a5460" text-anchor="middle" '
-        f'transform="rotate(90 {W - pad_r + 44} {pad_t + plot_h / 2:.1f})">'
-        f'Cumulative total</text>'
+        f'Moratoria adopted (count)</text>'
     )
 
     # Stacked bars
@@ -196,15 +178,6 @@ def main():
                 f'<title>{m}: {count} {sector.replace("_"," ")}</title></rect>'
             )
     parts.append('</g>')
-
-    # Cumulative line
-    pts = []
-    for i in range(len(months)):
-        pts.append(f"{x_at(i) + bar_w / 2:.2f},{y_at_cum(cumulative[i]):.2f}")
-    parts.append(
-        f'<polyline fill="none" stroke="#0f1419" stroke-width="1.6" '
-        f'stroke-dasharray="3,3" points="{ " ".join(pts) }"/>'
-    )
 
     # X-axis labels (year ticks)
     parts.append(f'<g fill="#4a5460" text-anchor="middle">')
@@ -244,15 +217,6 @@ def main():
             f'<text x="{legend_x + 20}" y="{legend_y + 2}" fill="#0f1419">{label}</text>'
         )
         legend_x += 20 + 7 * len(label) + 24
-    # Cumulative legend marker
-    parts.append(
-        f'<line x1="{legend_x}" x2="{legend_x + 28}" '
-        f'y1="{legend_y - 3}" y2="{legend_y - 3}" stroke="#0f1419" '
-        f'stroke-width="1.6" stroke-dasharray="3,3"/>'
-    )
-    parts.append(
-        f'<text x="{legend_x + 34}" y="{legend_y + 2}" fill="#0f1419">Cumulative total</text>'
-    )
     parts.append('</g>')
 
     parts.append('</svg>')
