@@ -2,7 +2,9 @@
 
 **Open data on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.**
 
-This is the open companion dataset for the working paper [*Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States*](#how-to-cite).
+This is the open companion dataset for the working paper *Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States*.
+
+> 📄 **[Download the working paper (PDF, 6 MB, 116 pages)](paper/moratorium-nation-2026-04-30.pdf)** — April 2026 draft. 50-state legal authority survey, 44-clause taxonomy, 13-section model ordinance template. Forthcoming on SSRN.
 
 > **As of April 2026, 222 moratorium instruments tracked across 30 states.**
 > 🟢 **100 currently in force** (active or extended) · 🟡 **71 pending or proposed** (not yet adopted) · ⚪ **51 expired, replaced, or rescinded** (no longer in force)
@@ -17,6 +19,7 @@ This is the open companion dataset for the working paper [*Moratorium Nation: A 
 
 |  |  |
 |---|---|
+| 📄 **Read the paper** | [Working paper PDF (April 2026, 116 pages)](paper/moratorium-nation-2026-04-30.pdf) |
 | 🗺️ **Find your state** | [Browse the 30-state index →](states/README.md) |
 | 📊 **Get the data** | [`data/moratorium_inventory.csv`](data/moratorium_inventory.csv) (Excel-ready) |
 | 📖 **Read the FAQ** | [What is a moratorium? Why does this dataset exist? →](docs/FAQ.md) |
@@ -127,7 +130,7 @@ m.save("map.html")  # open in browser
 
 If you cite the underlying paper:
 
-> Bommarito, Michael J. (2026). *Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States.* Working paper. Available at SSRN.
+> Bommarito, Michael J. (2026). *Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States.* Working paper, April 2026 draft. [PDF](paper/moratorium-nation-2026-04-30.pdf). Forthcoming on SSRN.
 
 A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this repository" button automatically.
 
@@ -167,6 +170,7 @@ Contact: [michaelbommarito.com/contact](https://michaelbommarito.com/contact/).
 ```
 moratorium-data-2026/
 ├── README.md                      # this page
+├── paper/                         # working paper PDF (April 2026 draft)
 ├── states/                        # 50-state index + 30 per-state pages
 ├── data/                          # canonical CSVs and JSON
 │   ├── moratorium_inventory.csv   # the 222-row main table
