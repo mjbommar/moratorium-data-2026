@@ -1,0 +1,50 @@
+% Clause prevalence — from moratorium-analysis.json
+\begin{figure}[htbp]
+\centering
+\caption{Common Clause Prevalence in Moratorium Instruments}
+\label{tab:clause-prevalence}
+\begin{tikzpicture}
+\begin{axis}[
+    xbar,
+    bar width=12pt,
+    width=0.8\textwidth,
+    height=8.5cm,
+    xlabel={Percentage of Instruments},
+    xmin=0,
+    xmax=20,
+    ytick=data,
+    symbolic y coords={
+        Tolling,
+        Pending Applications,
+        No Vested Rights,
+        Appeal Process,
+        Waiver Provision,
+        Open Meetings,
+        Emergency Declaration,
+        Severability,
+        {Conflict/Repeal},
+        Extension Mechanism
+    },
+    nodes near coords={\pgfmathprintnumber\pgfplotspointmeta\%},
+    nodes near coords style={font=\small\bfseries, anchor=west, color=black},
+    every axis plot/.append style={fill=chart-bar, draw=chart-bar-dark},
+    axis lines*=left,
+    xmajorgrids=true,
+    grid style={gray!20},
+    tick label style={font=\small},
+    label style={font=\small},
+    y dir=normal,
+]
+\addplot[fill=chart-bar, draw=chart-bar-dark] coordinates {
+    (1.0,Tolling) (3.1,Pending Applications) (4.1,No Vested Rights)
+    (4.1,Appeal Process) (5.1,Waiver Provision) (8.2,Open Meetings)
+    (9.2,Emergency Declaration) (11.2,Severability) (11.2,{Conflict/Repeal})
+    (14.3,Extension Mechanism)
+};
+\end{axis}
+\end{tikzpicture}
+\begin{flushleft}
+\small\textit{Note:} Based on 98 instruments in the analysis subset.
+Percentages reflect the share of instruments containing each clause type.
+\end{flushleft}
+\end{figure}

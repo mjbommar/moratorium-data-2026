@@ -1,0 +1,857 @@
+{
+  "$defs": {
+    "AuthorityType": {
+      "description": "Source of legal authority for the moratorium (U2).",
+      "enum": [
+        "express_moratorium_statute",
+        "interim_zoning_statute",
+        "general_zoning_enabling",
+        "home_rule_constitutional",
+        "general_police_power",
+        "charter_provision",
+        "other"
+      ],
+      "title": "AuthorityType",
+      "type": "string"
+    },
+    "CommonClauses": {
+      "description": "Presence of common but variable clauses (Tier 2: C2-C12).",
+      "properties": {
+        "has_extension_mechanism": {
+          "description": "Provisions for extending the moratorium",
+          "title": "Has Extension Mechanism",
+          "type": "boolean"
+        },
+        "has_emergency_declaration": {
+          "description": "Emergency declaration enabling immediate effect",
+          "title": "Has Emergency Declaration",
+          "type": "boolean"
+        },
+        "has_conflict_repeal": {
+          "description": "Language overriding conflicting existing code provisions",
+          "title": "Has Conflict Repeal",
+          "type": "boolean"
+        },
+        "has_open_meetings_compliance": {
+          "description": "Explicit open meetings law compliance statement",
+          "title": "Has Open Meetings Compliance",
+          "type": "boolean"
+        },
+        "has_tolling": {
+          "description": "Suspends statutory deadlines for permit processing",
+          "title": "Has Tolling",
+          "type": "boolean"
+        },
+        "has_waiver_provision": {
+          "description": "Board discretion to grant case-by-case exceptions",
+          "title": "Has Waiver Provision",
+          "type": "boolean"
+        },
+        "has_appeal_process": {
+          "description": "Formal appeal mechanism with enumerated criteria",
+          "title": "Has Appeal Process",
+          "type": "boolean"
+        },
+        "has_no_vested_rights": {
+          "description": "Explicit statement that moratorium creates no entitlement",
+          "title": "Has No Vested Rights",
+          "type": "boolean"
+        },
+        "has_pending_application_coverage": {
+          "description": "Moratorium applies to already-submitted but unresolved applications",
+          "title": "Has Pending Application Coverage",
+          "type": "boolean"
+        },
+        "has_severability": {
+          "description": "Standard severability clause",
+          "title": "Has Severability",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "has_extension_mechanism",
+        "has_emergency_declaration",
+        "has_conflict_repeal",
+        "has_open_meetings_compliance",
+        "has_tolling",
+        "has_waiver_provision",
+        "has_appeal_process",
+        "has_no_vested_rights",
+        "has_pending_application_coverage",
+        "has_severability"
+      ],
+      "title": "CommonClauses",
+      "type": "object"
+    },
+    "DefinitionApproach": {
+      "description": "How the moratorium defines the regulated use (Tier 4).",
+      "enum": [
+        "functional",
+        "naics_code",
+        "size_threshold",
+        "bundled",
+        "none"
+      ],
+      "title": "DefinitionApproach",
+      "type": "string"
+    },
+    "DefinitionExtract": {
+      "description": "Extracted definition of the regulated use.",
+      "properties": {
+        "approach": {
+          "$ref": "#/$defs/DefinitionApproach",
+          "description": "Definitional approach used"
+        },
+        "text": {
+          "anyOf": [
+            {
+              "maxLength": 500,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Verbatim definition text from the ordinance (up to 500 chars)",
+          "title": "Text"
+        },
+        "size_threshold": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Size threshold if applicable, e.g. '5,000 sq ft' or '2 MW'",
+          "title": "Size Threshold"
+        },
+        "includes_crypto": {
+          "description": "True if definition explicitly includes cryptocurrency mining",
+          "title": "Includes Crypto",
+          "type": "boolean"
+        },
+        "includes_ai": {
+          "description": "True if definition explicitly mentions AI computing or artificial intelligence",
+          "title": "Includes Ai",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "approach",
+        "includes_crypto",
+        "includes_ai"
+      ],
+      "title": "DefinitionExtract",
+      "type": "object"
+    },
+    "DetailLevel": {
+      "description": "Quality/detail level for findings or work plan.",
+      "enum": [
+        "absent",
+        "minimal",
+        "moderate",
+        "detailed"
+      ],
+      "title": "DetailLevel",
+      "type": "string"
+    },
+    "DurationExtract": {
+      "description": "Extracted duration and sunset details (U6).",
+      "properties": {
+        "duration_type": {
+          "$ref": "#/$defs/DurationType",
+          "description": "How the duration is specified"
+        },
+        "duration_days": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Duration in days if determinable",
+          "title": "Duration Days"
+        },
+        "adoption_date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Date the moratorium was adopted (ISO format YYYY-MM-DD if possible)",
+          "title": "Adoption Date"
+        },
+        "effective_date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Date the moratorium takes effect (ISO format)",
+          "title": "Effective Date"
+        },
+        "expiration_date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Date the moratorium expires (ISO format)",
+          "title": "Expiration Date"
+        },
+        "has_early_termination": {
+          "description": "Moratorium ends automatically when new regulations adopted",
+          "title": "Has Early Termination",
+          "type": "boolean"
+        },
+        "early_termination_text": {
+          "anyOf": [
+            {
+              "maxLength": 200,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Early termination language if present (up to 200 chars)",
+          "title": "Early Termination Text"
+        }
+      },
+      "required": [
+        "duration_type",
+        "has_early_termination"
+      ],
+      "title": "DurationExtract",
+      "type": "object"
+    },
+    "DurationType": {
+      "description": "How the moratorium's duration is specified (U6).",
+      "enum": [
+        "fixed_calendar_date",
+        "fixed_period",
+        "earlier_of",
+        "maximum_ceiling",
+        "open_ended",
+        "other"
+      ],
+      "title": "DurationType",
+      "type": "string"
+    },
+    "ExemptionCategory": {
+      "description": "Exemption types (U7).",
+      "enum": [
+        "pre_filed_applications",
+        "existing_operations",
+        "approved_projects",
+        "size_threshold",
+        "government_facilities",
+        "telecom_broadband",
+        "manufacturing",
+        "jurisdictional_carveout",
+        "residential",
+        "other"
+      ],
+      "title": "ExemptionCategory",
+      "type": "string"
+    },
+    "ExemptionsExtract": {
+      "description": "Extracted exemption and grandfathering details (U7).",
+      "properties": {
+        "has_exemptions": {
+          "description": "True if any exemptions or grandfathering provisions exist",
+          "title": "Has Exemptions",
+          "type": "boolean"
+        },
+        "categories": {
+          "description": "Types of exemptions provided",
+          "items": {
+            "$ref": "#/$defs/ExemptionCategory"
+          },
+          "title": "Categories",
+          "type": "array"
+        },
+        "key_text": {
+          "anyOf": [
+            {
+              "maxLength": 300,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Most significant exemption language verbatim (up to 300 chars)",
+          "title": "Key Text"
+        }
+      },
+      "required": [
+        "has_exemptions"
+      ],
+      "title": "ExemptionsExtract",
+      "type": "object"
+    },
+    "FindingsExtract": {
+      "description": "Extracted findings/recitals analysis (U3).",
+      "properties": {
+        "has_regulatory_gap": {
+          "description": "Finding that existing code does not define or regulate the use",
+          "title": "Has Regulatory Gap",
+          "type": "boolean"
+        },
+        "has_police_power": {
+          "description": "Invocation of health, safety, and welfare standard",
+          "title": "Has Police Power",
+          "type": "boolean"
+        },
+        "has_impact_enumeration": {
+          "description": "Specific impacts enumerated beyond generic health/safety language",
+          "title": "Has Impact Enumeration",
+          "type": "boolean"
+        },
+        "impacts": {
+          "description": "Specific impact categories mentioned in findings",
+          "items": {
+            "$ref": "#/$defs/ImpactCategory"
+          },
+          "title": "Impacts",
+          "type": "array"
+        },
+        "has_study_intent": {
+          "description": "Statement of intent to study the issue and develop regulations",
+          "title": "Has Study Intent",
+          "type": "boolean"
+        },
+        "has_emergency": {
+          "description": "Finding of emergency, urgency, or immediate threat",
+          "title": "Has Emergency",
+          "type": "boolean"
+        },
+        "has_prior_action_ref": {
+          "description": "Reference to a prior moratorium (indicates this is an extension)",
+          "title": "Has Prior Action Ref",
+          "type": "boolean"
+        },
+        "detail_level": {
+          "$ref": "#/$defs/DetailLevel",
+          "description": "Overall quality of findings: minimal (1-2 generic WHEREASes), moderate (3-5 with some specificity), detailed (6+ with data/citations)"
+        },
+        "key_concerns_text": {
+          "anyOf": [
+            {
+              "maxLength": 300,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Most specific concern language from findings (up to 300 chars)",
+          "title": "Key Concerns Text"
+        }
+      },
+      "required": [
+        "has_regulatory_gap",
+        "has_police_power",
+        "has_impact_enumeration",
+        "has_study_intent",
+        "has_emergency",
+        "has_prior_action_ref",
+        "detail_level"
+      ],
+      "title": "FindingsExtract",
+      "type": "object"
+    },
+    "GeographicScope": {
+      "description": "Spatial extent of the moratorium (U5c).",
+      "enum": [
+        "jurisdiction_wide",
+        "unincorporated_only",
+        "specific_zones",
+        "other"
+      ],
+      "title": "GeographicScope",
+      "type": "string"
+    },
+    "ImpactCategory": {
+      "description": "Impact categories enumerated in findings (U3c).",
+      "enum": [
+        "energy_grid",
+        "water",
+        "noise",
+        "land_use_compatibility",
+        "air_quality",
+        "infrastructure",
+        "visual_aesthetic",
+        "property_values",
+        "environmental",
+        "economic_fiscal",
+        "public_safety",
+        "traffic_transportation"
+      ],
+      "title": "ImpactCategory",
+      "type": "string"
+    },
+    "InstrumentForm": {
+      "description": "Legal form of the moratorium instrument (Tier 5).",
+      "enum": [
+        "ordinance",
+        "resolution",
+        "motion",
+        "executive_order",
+        "interim_zoning_control",
+        "other"
+      ],
+      "title": "InstrumentForm",
+      "type": "string"
+    },
+    "ProhibitionExtract": {
+      "description": "Extracted operative prohibition details (U5).",
+      "properties": {
+        "suspended_approvals": {
+          "description": "Types of government approvals suspended",
+          "items": {
+            "$ref": "#/$defs/SuspendedApprovalType"
+          },
+          "title": "Suspended Approvals",
+          "type": "array"
+        },
+        "covers_acceptance": {
+          "description": "Prohibits submitting/accepting new applications",
+          "title": "Covers Acceptance",
+          "type": "boolean"
+        },
+        "covers_processing": {
+          "description": "Prohibits staff processing of applications",
+          "title": "Covers Processing",
+          "type": "boolean"
+        },
+        "covers_granting": {
+          "description": "Prohibits issuing/granting approvals",
+          "title": "Covers Granting",
+          "type": "boolean"
+        },
+        "geographic_scope": {
+          "$ref": "#/$defs/GeographicScope",
+          "description": "Spatial extent of the moratorium"
+        },
+        "geographic_detail": {
+          "anyOf": [
+            {
+              "maxLength": 200,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Specific zones, districts, or areas if not jurisdiction-wide",
+          "title": "Geographic Detail"
+        },
+        "key_text": {
+          "anyOf": [
+            {
+              "maxLength": 300,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Core operative language verbatim (up to 300 chars)",
+          "title": "Key Text"
+        }
+      },
+      "required": [
+        "suspended_approvals",
+        "covers_acceptance",
+        "covers_processing",
+        "covers_granting",
+        "geographic_scope"
+      ],
+      "title": "ProhibitionExtract",
+      "type": "object"
+    },
+    "Sector": {
+      "description": "Infrastructure sector targeted by the moratorium.",
+      "enum": [
+        "data_center",
+        "solar",
+        "wind",
+        "bess",
+        "crypto_mining",
+        "carbon_capture",
+        "general_industrial",
+        "other"
+      ],
+      "title": "Sector",
+      "type": "string"
+    },
+    "SectorSpecificClauses": {
+      "description": "Sector-specific clause presence (Tier 3).",
+      "properties": {
+        "has_noise_generator_provisions": {
+          "default": false,
+          "description": "Noise limits, generator testing restrictions, dBA standards",
+          "title": "Has Noise Generator Provisions",
+          "type": "boolean"
+        },
+        "has_water_assessment": {
+          "default": false,
+          "description": "Water consumption study or impact assessment required",
+          "title": "Has Water Assessment",
+          "type": "boolean"
+        },
+        "has_grid_assessment": {
+          "default": false,
+          "description": "Electrical grid capacity or demand assessment required",
+          "title": "Has Grid Assessment",
+          "type": "boolean"
+        },
+        "has_property_value_guarantee": {
+          "default": false,
+          "description": "Developer required to guarantee or mitigate property value impacts",
+          "title": "Has Property Value Guarantee",
+          "type": "boolean"
+        },
+        "has_incentive_guardrails": {
+          "default": false,
+          "description": "Conditions on economic development incentives (workforce, renewable, PILOT)",
+          "title": "Has Incentive Guardrails",
+          "type": "boolean"
+        },
+        "has_fire_safety": {
+          "default": false,
+          "description": "NFPA 855 or fire safety compliance provisions",
+          "title": "Has Fire Safety",
+          "type": "boolean"
+        },
+        "has_hazmat_training": {
+          "default": false,
+          "description": "Emergency response or hazmat training requirements",
+          "title": "Has Hazmat Training",
+          "type": "boolean"
+        },
+        "has_safety_incident_trigger": {
+          "default": false,
+          "description": "Explicit reference to a safety incident as moratorium trigger",
+          "title": "Has Safety Incident Trigger",
+          "type": "boolean"
+        },
+        "has_farmland_preservation": {
+          "default": false,
+          "description": "Agricultural land preservation requirements or ratios",
+          "title": "Has Farmland Preservation",
+          "type": "boolean"
+        },
+        "has_decommissioning_bond": {
+          "default": false,
+          "description": "Financial assurance for site restoration",
+          "title": "Has Decommissioning Bond",
+          "type": "boolean"
+        },
+        "has_physical_hazard_assessment": {
+          "default": false,
+          "description": "Shadow flicker, blade throw, or ice throw analysis",
+          "title": "Has Physical Hazard Assessment",
+          "type": "boolean"
+        },
+        "has_aviation_clearance": {
+          "default": false,
+          "description": "FAA or aviation obstruction analysis",
+          "title": "Has Aviation Clearance",
+          "type": "boolean"
+        }
+      },
+      "title": "SectorSpecificClauses",
+      "type": "object"
+    },
+    "StudyProcessExtract": {
+      "description": "Extracted study process/work plan details (C1).",
+      "properties": {
+        "has_work_plan": {
+          "description": "True if a study process or work plan is described",
+          "title": "Has Work Plan",
+          "type": "boolean"
+        },
+        "detail_level": {
+          "$ref": "#/$defs/DetailLevel",
+          "description": "absent = no mention; minimal = general intent; moderate = departments/topics identified; detailed = phased schedule with milestones"
+        },
+        "assigned_departments": {
+          "anyOf": [
+            {
+              "maxLength": 200,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Departments or bodies assigned to conduct the study",
+          "title": "Assigned Departments"
+        },
+        "key_text": {
+          "anyOf": [
+            {
+              "maxLength": 300,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Most specific work plan language (up to 300 chars)",
+          "title": "Key Text"
+        }
+      },
+      "required": [
+        "has_work_plan",
+        "detail_level"
+      ],
+      "title": "StudyProcessExtract",
+      "type": "object"
+    },
+    "SuspendedApprovalType": {
+      "description": "Types of government approvals suspended by the moratorium (U5a).",
+      "enum": [
+        "building_permits",
+        "zoning_certificates",
+        "special_use_permits",
+        "rezonings",
+        "text_amendments",
+        "land_disturbance_permits",
+        "site_plan_approvals",
+        "business_licenses",
+        "certificates_of_occupancy",
+        "subdivision_plats",
+        "variances",
+        "all_approvals",
+        "other"
+      ],
+      "title": "SuspendedApprovalType",
+      "type": "string"
+    }
+  },
+  "description": "Complete structured extraction from a moratorium document.\n\nMaps to the Moratorium Clause Taxonomy (Tiers 1-5).\nSee research/synthesis/moratorium-clause-taxonomy.md for full documentation.",
+  "properties": {
+    "jurisdiction": {
+      "description": "Full jurisdiction name, e.g. 'DeKalb County, GA' or 'Village of Godfrey, IL'",
+      "title": "Jurisdiction",
+      "type": "string"
+    },
+    "state": {
+      "description": "Two-letter state abbreviation, e.g. 'GA', 'IL', 'NC'",
+      "title": "State",
+      "type": "string"
+    },
+    "jurisdiction_type": {
+      "description": "Type of jurisdiction",
+      "enum": [
+        "county",
+        "city",
+        "village",
+        "town",
+        "township",
+        "borough",
+        "parish",
+        "state",
+        "other"
+      ],
+      "title": "Jurisdiction Type",
+      "type": "string"
+    },
+    "instrument_form": {
+      "$ref": "#/$defs/InstrumentForm",
+      "description": "Legal form of the instrument (Tier 5)"
+    },
+    "instrument_number": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Official instrument number, e.g. 'Ordinance 108-2025' or 'Resolution 25-1694'",
+      "title": "Instrument Number"
+    },
+    "adopting_body": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Name of the adopting body, e.g. 'Board of Commissioners' or 'City Council'",
+      "title": "Adopting Body"
+    },
+    "sectors": {
+      "description": "Infrastructure sectors covered by this moratorium",
+      "items": {
+        "$ref": "#/$defs/Sector"
+      },
+      "title": "Sectors",
+      "type": "array"
+    },
+    "is_extension": {
+      "description": "True if this document extends a previously adopted moratorium",
+      "title": "Is Extension",
+      "type": "boolean"
+    },
+    "authority_type": {
+      "$ref": "#/$defs/AuthorityType",
+      "description": "Source of legal authority"
+    },
+    "authority_citation": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Specific statutory or constitutional citation, e.g. 'N.C.G.S. 160D-107'",
+      "title": "Authority Citation"
+    },
+    "definition": {
+      "$ref": "#/$defs/DefinitionExtract",
+      "description": "Definition of the regulated use (U4 / Tier 4)"
+    },
+    "findings": {
+      "$ref": "#/$defs/FindingsExtract",
+      "description": "Legislative findings and recitals (U3)"
+    },
+    "prohibition": {
+      "$ref": "#/$defs/ProhibitionExtract",
+      "description": "Operative prohibition details (U5)"
+    },
+    "duration": {
+      "$ref": "#/$defs/DurationExtract",
+      "description": "Duration and sunset clause details (U6)"
+    },
+    "exemptions": {
+      "$ref": "#/$defs/ExemptionsExtract",
+      "description": "Exemption and grandfathering provisions (U7)"
+    },
+    "study_process": {
+      "$ref": "#/$defs/StudyProcessExtract",
+      "description": "Study process and work plan (C1)"
+    },
+    "common_clauses": {
+      "$ref": "#/$defs/CommonClauses",
+      "description": "Common clause presence (Tier 2)"
+    },
+    "sector_specific": {
+      "$ref": "#/$defs/SectorSpecificClauses",
+      "description": "Sector-specific clause presence (Tier 3)"
+    },
+    "vote_result": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Vote tally if stated, e.g. '7-0', '4-1 (Jones dissenting)', 'unanimous'",
+      "title": "Vote Result"
+    },
+    "public_hearing_held": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Whether a public hearing was held before adoption (True/False/None if unknown)",
+      "title": "Public Hearing Held"
+    },
+    "confidence": {
+      "description": "Confidence in extraction accuracy (0.0 = poor text/guessing, 1.0 = clear full text)",
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "summary": {
+      "description": "2-3 sentence summary of the moratorium: who adopted it, what it covers, key features",
+      "maxLength": 500,
+      "title": "Summary",
+      "type": "string"
+    },
+    "notes": {
+      "anyOf": [
+        {
+          "maxLength": 300,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Any notable features, unusual provisions, or extraction caveats",
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "jurisdiction",
+    "state",
+    "jurisdiction_type",
+    "instrument_form",
+    "sectors",
+    "is_extension",
+    "authority_type",
+    "definition",
+    "findings",
+    "prohibition",
+    "duration",
+    "exemptions",
+    "study_process",
+    "common_clauses",
+    "sector_specific",
+    "confidence",
+    "summary"
+  ],
+  "title": "MoratoriumExtraction",
+  "type": "object"
+}

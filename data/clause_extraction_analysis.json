@@ -1,0 +1,363 @@
+{
+  "total_records": 348,
+  "min_confidence_filter": 0.4,
+  "geographic": {
+    "state_counts": {
+      "MI": 33,
+      "NY": 28,
+      "US": 26,
+      "NC": 22,
+      "OH": 20,
+      "MD": 19,
+      "IA": 18,
+      "WI": 18,
+      "IN": 16,
+      "IL": 15,
+      "GA": 15,
+      "MN": 12,
+      "NA": 9,
+      "KS": 9,
+      "LA": 8,
+      "TX": 8,
+      "ND": 7,
+      "TN": 7,
+      "CO": 7,
+      "MO": 6,
+      "CT": 5,
+      "MA": 4,
+      "WA": 4,
+      "SC": 3,
+      "PA": 3,
+      "VT": 3,
+      "OK": 3,
+      "SD": 3,
+      "CA": 2,
+      "AL": 2,
+      "NJ": 2,
+      "AR": 2,
+      "other": 1,
+      "NM": 1,
+      "DE": 1,
+      "NV": 1,
+      "MT": 1,
+      "FL": 1,
+      "KY": 1,
+      "ME": 1,
+      "NE": 1
+    },
+    "jurisdiction_type_counts": {
+      "county": 115,
+      "state": 71,
+      "city": 49,
+      "town": 35,
+      "other": 32,
+      "township": 32,
+      "village": 9,
+      "parish": 4,
+      "borough": 1
+    },
+    "unique_jurisdictions_per_state": {
+      "AL": 1,
+      "AR": 2,
+      "CA": 2,
+      "CO": 4,
+      "CT": 2,
+      "DE": 1,
+      "FL": 1,
+      "GA": 10,
+      "IA": 9,
+      "IL": 11,
+      "IN": 10,
+      "KS": 7,
+      "KY": 1,
+      "LA": 5,
+      "MA": 4,
+      "MD": 7,
+      "ME": 1,
+      "MI": 26,
+      "MN": 7,
+      "MO": 4,
+      "MT": 1,
+      "NA": 9,
+      "NC": 14,
+      "ND": 4,
+      "NE": 1,
+      "NJ": 2,
+      "NM": 1,
+      "NV": 1,
+      "NY": 9,
+      "OH": 15,
+      "OK": 3,
+      "PA": 3,
+      "SC": 3,
+      "SD": 2,
+      "TN": 5,
+      "TX": 2,
+      "US": 6,
+      "VT": 3,
+      "WA": 4,
+      "WI": 7,
+      "other": 1
+    },
+    "total_unique_jurisdictions": 211,
+    "total_states": 41
+  },
+  "temporal": {
+    "adoption_years": {
+      "2000": 1,
+      "2006": 4,
+      "2008": 1,
+      "2010": 1,
+      "2011": 1,
+      "2015": 1,
+      "2018": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 3,
+      "2023": 6,
+      "2024": 6,
+      "2025": 52,
+      "2026": 82
+    },
+    "duration_types": {
+      "other": 123,
+      "fixed_period": 96,
+      "earlier_of": 47,
+      "fixed_calendar_date": 43,
+      "open_ended": 27,
+      "maximum_ceiling": 12
+    },
+    "duration_stats": {
+      "count": 154,
+      "min_days": 49,
+      "max_days": 5671,
+      "median_days": 365,
+      "mean_days": 395.9,
+      "p25_days": 182,
+      "p75_days": 365
+    }
+  },
+  "legal": {
+    "instrument_forms": {
+      "other": 162,
+      "resolution": 85,
+      "ordinance": 74,
+      "motion": 23,
+      "executive_order": 3,
+      "interim_zoning_control": 1
+    },
+    "authority_types": {
+      "other": 198,
+      "general_zoning_enabling": 71,
+      "general_police_power": 35,
+      "express_moratorium_statute": 18,
+      "interim_zoning_statute": 13,
+      "home_rule_constitutional": 11,
+      "charter_provision": 2
+    },
+    "sector_counts": {
+      "data_center": 288,
+      "crypto_mining": 68,
+      "other": 63,
+      "general_industrial": 17,
+      "bess": 17,
+      "wind": 9,
+      "solar": 9,
+      "carbon_capture": 3
+    },
+    "multi_sector_moratoria": 96,
+    "extensions": 20
+  },
+  "clause_prevalence": {
+    "common_clauses": {
+      "has_extension_mechanism": {
+        "count": 60,
+        "pct": 17.2
+      },
+      "has_emergency_declaration": {
+        "count": 27,
+        "pct": 7.8
+      },
+      "has_conflict_repeal": {
+        "count": 30,
+        "pct": 8.6
+      },
+      "has_open_meetings_compliance": {
+        "count": 23,
+        "pct": 6.6
+      },
+      "has_tolling": {
+        "count": 15,
+        "pct": 4.3
+      },
+      "has_waiver_provision": {
+        "count": 21,
+        "pct": 6.0
+      },
+      "has_appeal_process": {
+        "count": 18,
+        "pct": 5.2
+      },
+      "has_no_vested_rights": {
+        "count": 7,
+        "pct": 2.0
+      },
+      "has_pending_application_coverage": {
+        "count": 25,
+        "pct": 7.2
+      },
+      "has_severability": {
+        "count": 43,
+        "pct": 12.4
+      }
+    },
+    "sector_specific_clauses": {
+      "has_noise_generator_provisions": {
+        "count": 20,
+        "pct": 5.7
+      },
+      "has_water_assessment": {
+        "count": 45,
+        "pct": 12.9
+      },
+      "has_grid_assessment": {
+        "count": 32,
+        "pct": 9.2
+      },
+      "has_property_value_guarantee": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "has_incentive_guardrails": {
+        "count": 34,
+        "pct": 9.8
+      },
+      "has_fire_safety": {
+        "count": 12,
+        "pct": 3.4
+      },
+      "has_hazmat_training": {
+        "count": 3,
+        "pct": 0.9
+      },
+      "has_safety_incident_trigger": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "has_farmland_preservation": {
+        "count": 3,
+        "pct": 0.9
+      },
+      "has_decommissioning_bond": {
+        "count": 7,
+        "pct": 2.0
+      },
+      "has_physical_hazard_assessment": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "has_aviation_clearance": {
+        "count": 0,
+        "pct": 0.0
+      }
+    },
+    "findings_detail_levels": {
+      "moderate": 113,
+      "absent": 86,
+      "detailed": 82,
+      "minimal": 67
+    },
+    "impact_categories": {
+      "environmental": 173,
+      "energy_grid": 171,
+      "water": 148,
+      "land_use_compatibility": 146,
+      "infrastructure": 145,
+      "economic_fiscal": 136,
+      "public_safety": 119,
+      "noise": 92,
+      "air_quality": 57,
+      "visual_aesthetic": 34,
+      "traffic_transportation": 33,
+      "property_values": 25
+    },
+    "findings_flags": {
+      "has_regulatory_gap": {
+        "count": 120,
+        "pct": 34.5
+      },
+      "has_emergency": {
+        "count": 37,
+        "pct": 10.6
+      },
+      "has_study_intent": {
+        "count": 226,
+        "pct": 64.9
+      }
+    },
+    "definition_approaches": {
+      "none": 205,
+      "functional": 68,
+      "bundled": 49,
+      "size_threshold": 26
+    },
+    "includes_crypto": {
+      "count": 67,
+      "pct": 19.3
+    },
+    "includes_ai": {
+      "count": 71,
+      "pct": 20.4
+    },
+    "has_exemptions": {
+      "count": 79,
+      "pct": 22.7
+    },
+    "exemption_categories": {
+      "other": 46,
+      "approved_projects": 32,
+      "existing_operations": 20,
+      "pre_filed_applications": 16,
+      "size_threshold": 14,
+      "government_facilities": 7,
+      "residential": 7,
+      "jurisdictional_carveout": 3,
+      "manufacturing": 2,
+      "telecom_broadband": 1
+    },
+    "geographic_scope": {
+      "jurisdiction_wide": 200,
+      "other": 99,
+      "unincorporated_only": 43,
+      "specific_zones": 6
+    },
+    "suspended_approval_types": {
+      "other": 201,
+      "all_approvals": 77,
+      "building_permits": 72,
+      "site_plan_approvals": 40,
+      "special_use_permits": 39,
+      "rezonings": 30,
+      "zoning_certificates": 28,
+      "certificates_of_occupancy": 19,
+      "business_licenses": 17,
+      "variances": 15,
+      "subdivision_plats": 10,
+      "land_disturbance_permits": 9,
+      "text_amendments": 5
+    }
+  },
+  "confidence": {
+    "min": 0.4,
+    "max": 0.98,
+    "mean": 0.721,
+    "median": 0.76,
+    "brackets": {
+      "0.0-0.2": 0,
+      "0.2-0.4": 0,
+      "0.4-0.6": 104,
+      "0.6-0.8": 84,
+      "0.8-1.0": 160
+    }
+  }
+}
