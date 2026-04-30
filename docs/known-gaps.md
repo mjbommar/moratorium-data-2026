@@ -35,6 +35,21 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 | Numerous small NC town ordinance numbers (Apex, Wendell, Brevard, Canton, Clyde, Swain, Boone) | These towns simply don't publish numbered ordinances online as of April 2026. |
 | Buncombe County NC replacement ordinance status | Buncombe Legistar requires authenticated JS state; static fetch returns no items. |
 
+## Geocoding caveats (added v2026.04.2)
+
+220 of 222 jurisdictions are geocoded to WGS84 lat/lon via OSM Nominatim. The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
+
+**Within-state name ambiguity.** Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:
+
+- Lake Township, OH (Wood County, not Logan County)
+- Plain Township, OH (Stark County, not Franklin County)
+- Spencer Township, OH (Lucas County, not Lorain County)
+- Waterville Township, OH (Lucas County, not Stark County)
+
+If you're using the lat/lon for a point map and a township seems oddly placed, check the row's `legal_basis` and `trigger` text for county hints. We've also flagged Washington Township, OH (40.11, -83.13) as residually ambiguous — the article context doesn't uniquely identify the county.
+
+When new releases add new same-name townships, expect a small number of similar issues until the geocoder catches up. Treat the lat/lon column as 99%+ accurate, not 100%.
+
 ## What gets fixed in each release
 
 - New moratoria adopted between releases get added.
