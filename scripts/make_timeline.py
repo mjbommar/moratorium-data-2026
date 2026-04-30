@@ -99,14 +99,15 @@ def main():
 
     # Layout
     W, H = 1100, 420
-    pad_l, pad_r, pad_t, pad_b = 60, 24, 80, 90
+    pad_l, pad_r, pad_t, pad_b = 60, 24, 100, 90
     plot_w = W - pad_l - pad_r
     plot_h = H - pad_t - pad_b
     bar_w = plot_w / len(months)
 
-    # Y scale (single axis: monthly count)
+    # Y scale (single axis: monthly count). Round up to next multiple of 10
+    # AND add headroom so the tallest bar isn't flush with the top axis.
     max_month = max(sum(monthly.get(m, {}).values()) for m in months)
-    y_max = ((max_month + 9) // 10) * 10  # round up to nearest 10
+    y_max = ((max_month + 9) // 10 + 1) * 10
     y_max = max(y_max, 10)
     y_step = 10 if y_max <= 50 else 20
 
@@ -135,8 +136,12 @@ def main():
     )
     parts.append(
         f'<text x="{pad_l}" y="48" font-size="13" fill="#4a5460">'
-        f'Each bar is one calendar month, height shows the count of moratoria adopted in that month, color is the primary sector. '
-        f'{cum_max} adoptions across {sum(1 for m in months if monthly.get(m))} months.'
+        f'Each bar = one calendar month. Height = moratoria adopted that month. Color = primary sector.'
+        f'</text>'
+    )
+    parts.append(
+        f'<text x="{pad_l}" y="68" font-size="13" fill="#4a5460">'
+        f'{cum_max} adoptions across {sum(1 for m in months if monthly.get(m))} months with at least one adoption.'
         f'</text>'
     )
 
@@ -155,7 +160,7 @@ def main():
         f'<text x="{pad_l - 44}" y="{pad_t + plot_h / 2:.1f}" '
         f'fill="#4a5460" text-anchor="middle" '
         f'transform="rotate(-90 {pad_l - 44} {pad_t + plot_h / 2:.1f})">'
-        f'Moratoria adopted (count)</text>'
+        f'Moratoria adopted</text>'
     )
 
     # Stacked bars
