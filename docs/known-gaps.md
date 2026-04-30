@@ -48,7 +48,9 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 If you're using the lat/lon for a point map and a township seems oddly placed, check the row's `legal_basis` and `trigger` text for county hints. We've also flagged Washington Township, OH (40.11, -83.13) as residually ambiguous — the article context doesn't uniquely identify the county.
 
-When new releases add new same-name townships, expect a small number of similar issues until the geocoder catches up. Treat the lat/lon column as 99%+ accurate, not 100%.
+**Audit confidence.** Geocoded coordinates were triple-checked across 89 verifications via three independent methods: spot-check against geographic knowledge, Wikipedia GeoSearch reverse-lookup (does the jurisdiction's name appear in nearby Wikipedia pages?), and nearby-page context analysis (when a township has no Wikipedia article, do nearby places confirm the right county?). Across all 89 verifications, **zero confirmed wrong geocodes** (after the 4 manual corrections above). Treat the lat/lon column as ≥99% accurate.
+
+When new releases add new same-name townships, expect a small number of similar issues until the geocoder catches up.
 
 ## What gets fixed in each release
 
