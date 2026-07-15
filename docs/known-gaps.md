@@ -6,7 +6,7 @@ We're confident in what's in this dataset, but here's an honest accounting of wh
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. Roughly **63 of the 223 inventory rows** have at least one such evidence-ceiling note.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **123 of the 222 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`).
 
 ### Records behind authentication or CAPTCHA gates
 

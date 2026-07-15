@@ -1,5 +1,33 @@
 # Changelog
 
+## Unreleased
+
+### Bug fix: stale `has_verify_tags` / `verify_count` columns recounted
+
+The `has_verify_tags` and `verify_count` columns in
+`data/moratorium_inventory.csv` were stale relative to the row text: only
+10 rows were flagged `True` (30 flags total), while the free-text fields
+actually contained 238 `[VERIFY ...]` markers across 123 rows. Separately,
+`summary_stats.json` reported `moratoria_with_verify_tags: 62` — a number
+that counted only markers in the `current_status` field, not "any field on
+the row" as the codebook defines.
+
+Both columns were recomputed directly from the published row text
+(case-insensitive count of `[VERIFY` occurrences across every field of the
+row). No substantive data changed — statuses, triggers, jurisdictions, and
+all free-text fields are byte-identical.
+
+Corrected numbers, now consistent everywhere:
+
+- `has_verify_tags = True`: 10 → **123** rows (99 rows without)
+- total `verify_count`: 30 → **238** flags
+- `summary_stats.json` `moratoria_with_verify_tags`: 62 → **123**;
+  `moratoria_without_verify_tags`: 160 → **99**
+- codebook and known-gaps pages updated to match (known-gaps previously
+  said "63 of the 223 rows", a pre-v2026.04.1-dedup figure)
+
+---
+
 ## v2026.04.4 — 2026-04-30 (LLM-normalized typed columns)
 
 ### Six new typed columns

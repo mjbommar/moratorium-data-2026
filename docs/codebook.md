@@ -92,8 +92,8 @@ Top-level keys:
 - `total_state_bills`: 413 — total rows in state_legislation.csv
 - `states_with_moratoria`: 30
 - `states_without_moratoria`: 20
-- `moratoria_with_verify_tags`: 62 — rows with at least one `[VERIFY]` flag remaining
-- `moratoria_without_verify_tags`: 160
+- `moratoria_with_verify_tags`: 123 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
+- `moratoria_without_verify_tags`: 99
 - `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 222 rows by `enacted_status`
 - `top_states_by_moratoria`: list of `[state_name, count]` pairs, top 15
 - `top_states_by_bills`: list of `[state_name, bill_count]` pairs, top 15
