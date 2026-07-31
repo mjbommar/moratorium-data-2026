@@ -1,0 +1,179 @@
+{
+  "state_abbrev": "AL",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "al-birmingham-2026",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "changes": {
+        "duration": {
+          "from": "180 days from effective date. Council unanimously adopted the ordinance 2026-03-03; Birmingham ordinances ordinarily take effect upon publication, yielding an approximate expiration window of late August to early September 2026 [VERIFY: exact publication and expiration dates not in captured records as of 2026-04-29]",
+          "to": "180 days from the March 3, 2026 adoption/vote date, expiring August 30, 2026 (March 3 plus 180 days). WBRC and Birmingham Times both confirm the March 3, 2026 vote date and the six-month term; no separate publication-date lag was found or is needed for this calculation.",
+          "reason": "Personally fetched WBRC (published 2026-03-04) and Birmingham Times (published 2026-03-03) coverage of the vote. Date math (March 3, 2026 + 180 days = August 30, 2026) matches the dataset's existing computed_expiry exactly, so no separate publication-date lag applies."
+        },
+        "current_status": {
+          "from": "Active as of 2026-04-29",
+          "to": "Active as of 2026-07-31, still running under its original 180-day term (through 2026-08-30). The City Council separately voted 6-3 on June 9, 2026 to adopt permanent data-center zoning regulations (zoning case ZAC2026-00001); per WBRC, those new regulations \"will take effect when the city's six-month moratorium on data center applications lifts,\" i.e., on or about August 30, 2026. As of 2026-07-31 the moratorium itself remains the operative rule; the permanent ordinance has been adopted but is not yet in effect.",
+          "reason": "Personally fetched WBRC (2026-06-10, two articles), Birmingham Times (2026-06-09 and 2026-06-10), and the city's official birminghamal.gov/datacenters page, all describing the June 9, 2026 vote and its planned effective date."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "duration",
+          "marker": "[VERIFY: exact publication and expiration dates not in captured records as of 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "The March 3, 2026 adoption date is confirmed by WBRC and Birmingham Times (both personally fetched). 180 days from March 3, 2026 computes to August 30, 2026, matching the dataset's existing computed_expiry. No distinct 'publication date' separate from the adoption/vote date was found or is needed; Birmingham appears to run the moratorium's clock from the vote/adoption date."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: formal ordinance number not yet visible in Municode or city ordinance index as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Checked library.municode.com/al/birmingham (403 Forbidden on repeated attempts); guessed Legistar subdomains birmingham.legistar.com, cityofbirmingham.legistar.com, and birmingham-al.legistar.com (all returned 'Invalid parameters', suggesting no public Legistar instance at these addresses); birmingham.novusagenda.com/AgendaWeb (HTTP 500); birminghamal.gov/government/city-council/legislation (ordinance list is populated by client-side JavaScript and returns empty to a static fetch); and the city's own birminghamal.gov/datacenters page (the only numeric identifier present, ZAC2026-00001, is the zoning-amendment case number for the June 2026 permanent ordinance, not a City Council ordinance number, and it is not applied to the March 2026 moratorium anywhere on the page). News coverage (WBRC, Birmingham Times) does not cite a formal ordinance number for either the March moratorium or the June permanent ordinance. Recommend a direct records request to the City Clerk, or a JavaScript-capable browser session against the city council legislation page."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.wbrc.com/2026/03/04/birmingham-city-council-votes-pause-new-data-center-applications-six-months/",
+          "title": "Birmingham City Council Votes to Pause New Data Center Applications for Six Months",
+          "publisher": "WBRC",
+          "document_date": "2026-03-04",
+          "source_type": "news",
+          "supports": "Confirms the March 3, 2026 council vote date, the six-month/180-day term, and the 20 MW threshold with an exemption for applications already filed (Nebius).",
+          "quote": "At least for the next six months, the city of Birmingham is not accepting applications for large data centers... Because the company filed its application before Tuesday's vote, the moratorium does not apply."
+        },
+        {
+          "url": "https://www.wbrc.com/2026/06/10/birmingham-city-council-approves-data-center-zoning-rules-after-nearly-3-hours-public-comment/",
+          "title": "Birmingham City Council Approves Data Center Zoning Rules After Nearly 3 Hours of Public Comment",
+          "publisher": "WBRC",
+          "document_date": "2026-06-10",
+          "source_type": "news",
+          "supports": "Confirms the permanent zoning ordinance passed 6-3 on June 9, 2026, and that it takes effect only once the March 2026 moratorium lifts.",
+          "quote": "The ordinance passed 6-3... Because of the current moratorium, data center developers cannot submit applications to build or expand. The new regulations will take effect when the six-month moratorium is over."
+        },
+        {
+          "url": "https://birminghamal.gov/datacenters",
+          "title": "Data Centers",
+          "publisher": "City of Birmingham, Alabama",
+          "source_type": "other",
+          "supports": "Official city page describing the adopted permanent zoning rules in the past tense and referencing case ZAC2026-00001, but citing no ordinance number for either the moratorium or the permanent ordinance.",
+          "quote": "the strongest ordinance regulating data centers in the Southeast and among the strongest in the nation designed to protect residents and the community"
+        }
+      ],
+      "notes": "No status change to enacted_status: the moratorium remains 'active' as of 2026-07-31, running under its original term through 2026-08-30. A permanent successor ordinance has been adopted (2026-06-09, 6-3) but is not yet operative; recommend a follow-up check after 2026-08-30 to confirm the transition to permanent zoning actually occurs as announced. The formal ordinance number for the March 2026 moratorium could not be located through Municode, Legistar, NovusAgenda, or the city's own web pages."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Alabama",
+      "jurisdiction": "Leeds",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-08, per WBRC reporting of the city council vote",
+      "date_enacted_iso": "2026-06-08",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Leeds City Council ordinance, unanimously adopted, imposing a one-year moratorium on property development approvals and permits for data center campuses",
+      "trigger": "Not detailed beyond general data-center development concerns in captured news coverage",
+      "trigger_categories": [
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Adopted unanimously; not independently re-checked past 2026-06-09 publication",
+      "enacted_status": "active",
+      "affected_projects": "Not identified in captured news coverage",
+      "outcome": "City council unanimously adopted a one-year moratorium on data center campus development approvals and permits",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.wbrc.com/2026/06/09/city-leeds-passes-one-year-moratorium-data-center-development/",
+          "title": "City of Leeds Passes One-Year Moratorium on Data Center Development",
+          "publisher": "WBRC",
+          "document_date": "2026-06-09",
+          "source_type": "news",
+          "supports": "Confirms the Leeds City Council unanimously adopted a one-year moratorium on data center campus development on June 8, 2026.",
+          "quote": "The council voted unanimously on the ordinance Monday night... a one-year moratorium on all property development approvals and permits for data center campuses."
+        }
+      ],
+      "notes": "News-sourced only; no primary ordinance text or number located in this pass. Falls after the 2026-04-28 coverage cutoff."
+    },
+    {
+      "state": "Alabama",
+      "jurisdiction": "Homewood",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-22, per WBRC reporting of the city council vote",
+      "date_enacted_iso": "2026-06-22",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months, with the possibility of an additional six-month extension",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Homewood City Council ordinance, unanimously adopted, temporarily suspending approval of data centers larger than one megawatt",
+      "trigger": "City wants to study how data center facilities could affect the community before further approvals",
+      "trigger_categories": [
+        "regulatory_gap",
+        "infrastructure_capacity"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Adopted unanimously; not independently re-checked past 2026-06-23 publication",
+      "enacted_status": "active",
+      "affected_projects": "Not identified in captured news coverage",
+      "outcome": "City council unanimously adopted a 12-month moratorium on data centers larger than one megawatt",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.wbrc.com/2026/06/23/not-intended-oppose-economic-development-or-technological-investment-homewood-approves-12-month-temporary-moratorium-data-centers/",
+          "title": "Homewood Approves 12-Month Temporary Moratorium on Data Centers",
+          "publisher": "WBRC",
+          "document_date": "2026-06-23",
+          "source_type": "news",
+          "supports": "Confirms the Homewood City Council unanimously adopted a 12-month moratorium, with a possible six-month extension, on data centers larger than one megawatt on June 22, 2026.",
+          "quote": "to temporarily suspend approval for data centers larger than one megawatt while it studies how facilities like that could affect the community"
+        }
+      ],
+      "notes": "News-sourced only; no primary ordinance text or number located in this pass. Falls after the 2026-04-28 coverage cutoff."
+    },
+    {
+      "state": "Alabama",
+      "jurisdiction": "Cullman",
+      "jurisdiction_type": "City",
+      "date_enacted": "On or about 2026-06-25, per WBRC reporting of the city council vote",
+      "date_enacted_iso": "2026-06",
+      "date_enacted_uncertainty": "month_only",
+      "duration": "12 months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Cullman City Council ordinance, unanimously adopted, imposing a temporary 12-month moratorium on data centers",
+      "trigger": "City will examine existing zoning districts and assess potential impacts of data centers on residents' quality of life during the moratorium",
+      "trigger_categories": [
+        "regulatory_gap",
+        "land_use_compatibility"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Adopted unanimously; not independently re-checked past 2026-06-26 publication",
+      "enacted_status": "active",
+      "affected_projects": "Not identified in captured news coverage",
+      "outcome": "City council unanimously adopted a 12-month moratorium on data centers",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.wbrc.com/2026/06/26/cullman-city-council-unanimously-passes-12-month-temporary-moratorium-data-centers/",
+          "title": "Cullman City Council Unanimously Passes 12-Month Temporary Moratorium on Data Centers",
+          "publisher": "WBRC",
+          "document_date": "2026-06-26",
+          "source_type": "news",
+          "supports": "Confirms the Cullman City Council unanimously adopted a 12-month moratorium on data centers, adopted the week of June 25, 2026, joining Birmingham, Homewood, and Leeds.",
+          "quote": "the moratorium lasts for 12 months and is described as temporary... during this one-year period, the city will examine its existing zoning districts and assess potential impacts of data centers on residents' quality of life"
+        }
+      ],
+      "notes": "News-sourced only; exact meeting date not given in the article (reported as 'the week of June 25, 2026'). No primary ordinance text or number located in this pass. Falls after the 2026-04-28 coverage cutoff."
+    }
+  ]
+}

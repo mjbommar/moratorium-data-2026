@@ -8,11 +8,15 @@ from pathlib import Path
 import geopandas as gpd
 import pandas as pd
 
-# Project root (two levels up from this file: src/moratorium_maps/data.py)
+# Repo root (two levels up from this file: scripts/moratorium_maps/data.py)
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-DATA_DIR = PROJECT_ROOT / "research" / "analysis"
-GEO_DIR = PROJECT_ROOT / "data" / "geo"
+DATA_DIR = PROJECT_ROOT / "data"
+GEO_DIR = DATA_DIR / "geo"
 SHAPEFILE = GEO_DIR / "cb_2023_us_state_5m" / "cb_2023_us_state_5m.shp"
+
+# Census cartographic boundary file. Not vendored (it is a 3 MB binary from a
+# stable public source), so fetch it on demand via scripts/fetch_basemap.py.
+SHAPEFILE_URL = "https://www2.census.gov/geo/tiger/GENZ2023/shp/cb_2023_us_state_5m.zip"
 
 # Canonical 50 states + DC
 STATES_50 = {
@@ -49,6 +53,13 @@ def load_states_geo(*, lower48_only: bool = False) -> gpd.GeoDataFrame:
     Returns GeoDataFrame with columns: NAME, STUSPS, STATEFP, geometry
     Filtered to 50 states + DC (no territories).
     """
+    if not SHAPEFILE.exists():
+        raise FileNotFoundError(
+            f"Census state shapefile not found at {SHAPEFILE}.\n"
+            "It is not vendored in this repository. Fetch it with:\n"
+            "    python3 scripts/fetch_basemap.py\n"
+            f"or download {SHAPEFILE_URL} and unzip it into {GEO_DIR}/cb_2023_us_state_5m/."
+        )
     gdf = gpd.read_file(SHAPEFILE)
     # Filter to 50 states + DC
     gdf = gdf[gdf["STUSPS"].isin(STATES_50)].copy()

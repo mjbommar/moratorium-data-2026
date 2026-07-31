@@ -1,63 +1,63 @@
 {
   "total_states": 50,
-  "total_local_moratoria": 222,
-  "total_state_bills": 413,
+  "total_local_moratoria": 416,
+  "total_state_bills": 438,
   "states_by_activity_level": {
-    "Medium": 19,
-    "None": 9,
-    "Low": 14,
-    "High": 8
+    "Low": 18,
+    "Medium": 17,
+    "High": 8,
+    "None": 7
   },
-  "moratoria_with_verify_tags": 123,
-  "moratoria_without_verify_tags": 99,
-  "states_with_moratoria": 30,
-  "states_without_moratoria": 20,
+  "moratoria_with_verify_tags": 140,
+  "moratoria_without_verify_tags": 276,
+  "states_with_moratoria": 35,
+  "states_without_moratoria": 15,
   "top_states_by_moratoria": [
     {
-      "state": "Ohio",
-      "count": 35
+      "state": "Michigan",
+      "count": 63
     },
     {
-      "state": "Michigan",
-      "count": 34
+      "state": "Ohio",
+      "count": 53
     },
     {
       "state": "Georgia",
-      "count": 24
-    },
-    {
-      "state": "North Carolina",
-      "count": 19
+      "count": 47
     },
     {
       "state": "Iowa",
-      "count": 12
+      "count": 30
+    },
+    {
+      "state": "North Carolina",
+      "count": 24
     },
     {
       "state": "Indiana",
-      "count": 11
+      "count": 20
     },
     {
       "state": "Washington",
-      "count": 11
+      "count": 15
     },
     {
-      "state": "Kansas",
-      "count": 8
+      "state": "Florida",
+      "count": 14
     },
     {
-      "state": "North Dakota",
-      "count": 7
+      "state": "Colorado",
+      "count": 13
     },
     {
-      "state": "Tennessee",
-      "count": 6
+      "state": "Illinois",
+      "count": 12
     }
   ],
   "top_states_by_bills": [
     [
       "Pennsylvania",
-      18
+      22
     ],
     [
       "Virginia",
@@ -68,6 +68,10 @@
       18
     ],
     [
+      "New Jersey",
+      16
+    ],
+    [
       "Michigan",
       14
     ],
@@ -76,15 +80,23 @@
       14
     ],
     [
+      "Arizona",
+      13
+    ],
+    [
+      "California",
+      13
+    ],
+    [
       "Maryland",
       13
     ],
     [
-      "Arizona",
+      "Iowa",
       12
     ],
     [
-      "Iowa",
+      "Kansas",
       12
     ],
     [
@@ -100,27 +112,15 @@
       12
     ],
     [
-      "California",
-      11
-    ],
-    [
       "Illinois",
       11
-    ],
-    [
-      "New Jersey",
-      11
-    ],
-    [
-      "Nebraska",
-      10
     ]
   ],
   "state_details": {
     "Alabama": {
       "abbreviation": "AL",
       "activity_level": "Medium",
-      "local_moratoria_count": 1,
+      "local_moratoria_count": 10,
       "state_bills_count": 4,
       "file": "alabama.md"
     },
@@ -135,34 +135,34 @@
       "abbreviation": "AZ",
       "activity_level": "Low",
       "local_moratoria_count": 0,
-      "state_bills_count": 12,
+      "state_bills_count": 13,
       "file": "arizona.md"
     },
     "Arkansas": {
       "abbreviation": "AR",
       "activity_level": "Low",
-      "local_moratoria_count": 1,
+      "local_moratoria_count": 4,
       "state_bills_count": 7,
       "file": "arkansas.md"
     },
     "California": {
       "abbreviation": "CA",
       "activity_level": "Medium",
-      "local_moratoria_count": 4,
-      "state_bills_count": 11,
+      "local_moratoria_count": 11,
+      "state_bills_count": 13,
       "file": "california.md"
     },
     "Colorado": {
       "abbreviation": "CO",
       "activity_level": "Medium",
-      "local_moratoria_count": 3,
+      "local_moratoria_count": 13,
       "state_bills_count": 4,
       "file": "colorado.md"
     },
     "Connecticut": {
       "abbreviation": "CT",
       "activity_level": "Medium",
-      "local_moratoria_count": 2,
+      "local_moratoria_count": 4,
       "state_bills_count": 7,
       "file": "connecticut.md"
     },
@@ -170,20 +170,20 @@
       "abbreviation": "DE",
       "activity_level": "Low",
       "local_moratoria_count": 0,
-      "state_bills_count": 2,
+      "state_bills_count": 3,
       "file": "delaware.md"
     },
     "Florida": {
       "abbreviation": "FL",
-      "activity_level": "None",
-      "local_moratoria_count": 0,
+      "activity_level": "Low",
+      "local_moratoria_count": 14,
       "state_bills_count": 6,
       "file": "florida.md"
     },
     "Georgia": {
       "abbreviation": "GA",
       "activity_level": "High",
-      "local_moratoria_count": 24,
+      "local_moratoria_count": 47,
       "state_bills_count": 9,
       "file": "georgia.md"
     },
@@ -198,41 +198,41 @@
       "abbreviation": "ID",
       "activity_level": "Low",
       "local_moratoria_count": 1,
-      "state_bills_count": 6,
+      "state_bills_count": 9,
       "file": "idaho.md"
     },
     "Illinois": {
       "abbreviation": "IL",
       "activity_level": "Medium",
-      "local_moratoria_count": 5,
+      "local_moratoria_count": 12,
       "state_bills_count": 11,
       "file": "illinois.md"
     },
     "Indiana": {
       "abbreviation": "IN",
       "activity_level": "High",
-      "local_moratoria_count": 11,
-      "state_bills_count": 8,
+      "local_moratoria_count": 20,
+      "state_bills_count": 10,
       "file": "indiana.md"
     },
     "Iowa": {
       "abbreviation": "IA",
       "activity_level": "High",
-      "local_moratoria_count": 12,
+      "local_moratoria_count": 30,
       "state_bills_count": 12,
       "file": "iowa.md"
     },
     "Kansas": {
       "abbreviation": "KS",
       "activity_level": "High",
-      "local_moratoria_count": 8,
-      "state_bills_count": 8,
+      "local_moratoria_count": 11,
+      "state_bills_count": 12,
       "file": "kansas.md"
     },
     "Kentucky": {
       "abbreviation": "KY",
       "activity_level": "Medium",
-      "local_moratoria_count": 4,
+      "local_moratoria_count": 9,
       "state_bills_count": 8,
       "file": "kentucky.md"
     },
@@ -246,35 +246,35 @@
     "Maine": {
       "abbreviation": "ME",
       "activity_level": "Medium",
-      "local_moratoria_count": 1,
+      "local_moratoria_count": 5,
       "state_bills_count": 6,
       "file": "maine.md"
     },
     "Maryland": {
       "abbreviation": "MD",
       "activity_level": "Medium",
-      "local_moratoria_count": 3,
+      "local_moratoria_count": 6,
       "state_bills_count": 13,
       "file": "maryland.md"
     },
     "Massachusetts": {
       "abbreviation": "MA",
       "activity_level": "Medium",
-      "local_moratoria_count": 5,
+      "local_moratoria_count": 6,
       "state_bills_count": 5,
       "file": "massachusetts.md"
     },
     "Michigan": {
       "abbreviation": "MI",
       "activity_level": "High",
-      "local_moratoria_count": 34,
+      "local_moratoria_count": 63,
       "state_bills_count": 14,
       "file": "michigan.md"
     },
     "Minnesota": {
       "abbreviation": "MN",
       "activity_level": "Medium",
-      "local_moratoria_count": 4,
+      "local_moratoria_count": 9,
       "state_bills_count": 12,
       "file": "minnesota.md"
     },
@@ -288,8 +288,8 @@
     "Missouri": {
       "abbreviation": "MO",
       "activity_level": "Medium",
-      "local_moratoria_count": 3,
-      "state_bills_count": 6,
+      "local_moratoria_count": 4,
+      "state_bills_count": 7,
       "file": "missouri.md"
     },
     "Montana": {
@@ -303,13 +303,13 @@
       "abbreviation": "NE",
       "activity_level": "Medium",
       "local_moratoria_count": 3,
-      "state_bills_count": 10,
+      "state_bills_count": 11,
       "file": "nebraska.md"
     },
     "Nevada": {
       "abbreviation": "NV",
       "activity_level": "Low",
-      "local_moratoria_count": 0,
+      "local_moratoria_count": 2,
       "state_bills_count": 7,
       "file": "nevada.md"
     },
@@ -324,49 +324,49 @@
       "abbreviation": "NJ",
       "activity_level": "None",
       "local_moratoria_count": 0,
-      "state_bills_count": 11,
+      "state_bills_count": 16,
       "file": "new-jersey.md",
       "activity_notes": "None for formal moratoria; High for non-moratorium restrictions."
     },
     "New Mexico": {
       "abbreviation": "NM",
-      "activity_level": "None",
-      "local_moratoria_count": 0,
+      "activity_level": "Low",
+      "local_moratoria_count": 1,
       "state_bills_count": 3,
       "file": "new-mexico.md"
     },
     "New York": {
       "abbreviation": "NY",
       "activity_level": "Medium",
-      "local_moratoria_count": 5,
+      "local_moratoria_count": 7,
       "state_bills_count": 10,
       "file": "new-york.md"
     },
     "North Carolina": {
       "abbreviation": "NC",
       "activity_level": "High",
-      "local_moratoria_count": 19,
+      "local_moratoria_count": 24,
       "state_bills_count": 3,
       "file": "north-carolina.md"
     },
     "North Dakota": {
       "abbreviation": "ND",
       "activity_level": "Medium",
-      "local_moratoria_count": 7,
+      "local_moratoria_count": 8,
       "state_bills_count": 2,
       "file": "north-dakota.md"
     },
     "Ohio": {
       "abbreviation": "OH",
       "activity_level": "High",
-      "local_moratoria_count": 35,
+      "local_moratoria_count": 53,
       "state_bills_count": 12,
       "file": "ohio.md"
     },
     "Oklahoma": {
       "abbreviation": "OK",
       "activity_level": "High",
-      "local_moratoria_count": 4,
+      "local_moratoria_count": 5,
       "state_bills_count": 12,
       "file": "oklahoma.md"
     },
@@ -380,8 +380,8 @@
     "Pennsylvania": {
       "abbreviation": "PA",
       "activity_level": "Low",
-      "local_moratoria_count": 1,
-      "state_bills_count": 18,
+      "local_moratoria_count": 2,
+      "state_bills_count": 22,
       "file": "pennsylvania.md"
     },
     "Rhode Island": {
@@ -393,8 +393,8 @@
     },
     "South Carolina": {
       "abbreviation": "SC",
-      "activity_level": "Medium",
-      "local_moratoria_count": 0,
+      "activity_level": "Low",
+      "local_moratoria_count": 1,
       "state_bills_count": 7,
       "file": "south-carolina.md"
     },
@@ -408,14 +408,14 @@
     "Tennessee": {
       "abbreviation": "TN",
       "activity_level": "Medium",
-      "local_moratoria_count": 6,
+      "local_moratoria_count": 8,
       "state_bills_count": 9,
       "file": "tennessee.md"
     },
     "Texas": {
       "abbreviation": "TX",
-      "activity_level": "Medium",
-      "local_moratoria_count": 0,
+      "activity_level": "Low",
+      "local_moratoria_count": 2,
       "state_bills_count": 10,
       "file": "texas.md"
     },
@@ -423,7 +423,7 @@
       "abbreviation": "UT",
       "activity_level": "None",
       "local_moratoria_count": 0,
-      "state_bills_count": 7,
+      "state_bills_count": 8,
       "file": "utah.md"
     },
     "Vermont": {
@@ -443,7 +443,7 @@
     "Washington": {
       "abbreviation": "WA",
       "activity_level": "Medium",
-      "local_moratoria_count": 11,
+      "local_moratoria_count": 15,
       "state_bills_count": 5,
       "file": "washington.md"
     },
@@ -457,7 +457,7 @@
     "Wisconsin": {
       "abbreviation": "WI",
       "activity_level": "Medium",
-      "local_moratoria_count": 2,
+      "local_moratoria_count": 3,
       "state_bills_count": 7,
       "file": "wisconsin.md"
     },
@@ -470,11 +470,44 @@
     }
   },
   "enacted_status_breakdown": {
-    "active": 137,
-    "rescinded": 5,
-    "expired": 18,
-    "replaced": 27,
-    "pending": 24,
-    "extended": 11
+    "active": 285,
+    "extended": 42,
+    "replaced": 37,
+    "pending": 26,
+    "expired": 20,
+    "rescinded": 6
+  },
+  "sweep_coverage": {
+    "window": "2026-05-01/2026-07-31",
+    "swept_state_count": 18,
+    "swept_states": [
+      "AK",
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DE",
+      "FL",
+      "GA",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "MI",
+      "OH"
+    ],
+    "swept_states_with_no_adoptions_in_window": [
+      "AK",
+      "AZ",
+      "DE",
+      "HI",
+      "ID"
+    ],
+    "unswept_state_count": 32,
+    "caveat": "States not listed in swept_states for a window have only opportunistic coverage in that window -- instruments entered the dataset when a researcher working on something else happened to encounter them. Their counts for that window are lower bounds. Cross-state comparison and time-series analysis that includes the window should either be restricted to the swept states or stop at the prior release's cutoff (2026-04-28)."
   }
 }

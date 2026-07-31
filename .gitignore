@@ -4,3 +4,13 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 .env
+data/geo/
+
+# Refresh machinery: derived inputs are regenerable, so they are not tracked.
+# work/schemas/, work/answers/, and work/audit/ ARE tracked -- they are the
+# research contract, the cited evidence, and the provenance log.
+work/packets/
+work/worklist-*.json
+work/chronology/
+work/chronology-candidates.json
+work/sibling-gaps.json

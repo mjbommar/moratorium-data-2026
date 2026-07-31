@@ -1,0 +1,472 @@
+{
+  "state_abbrev": "CA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "California",
+      "jurisdiction": "Coachella",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-04 (Coachella City Council special meeting approved an interim urgency moratorium on data centers, per NBC Palm Springs and kvcrnews.org reporting); extended on or about 2026-07-09 while the city drafts a permanent ban",
+      "date_enacted_iso": "2026-06-04",
+      "date_enacted_uncertainty": "range",
+      "duration": "Consistent with the Gov. Code section 65858 interim urgency ordinance pattern already documented elsewhere in this inventory (initial up to 45 days, extendable to a 2-year maximum by 4/5 vote): reported as an initial temporary/urgency moratorium adopted 2026-06-04, then extended around 2026-07-09 ('Coachella Extends Temporary Ban On Data Center Developments,' Patch) as the council moves toward a permanent ban. Exact day counts and vote margins were not confirmed in the sources reviewed.",
+      "duration_days": null,
+      "duration_kind": "until_event",
+      "legal_basis": "Interim urgency zoning ordinance (California Gov. Code section 65858 pattern)",
+      "trigger": "Public backlash and protests over a large proposed data center project and a power agreement with developer 'Stronghold'; council terminated the specific project and moved toward a permanent ban",
+      "trigger_categories": ["specific_project", "land_use_compatibility", "regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "As of 2026-07-31, reported as extended (not expired or rescinded); city staff directed to draft a permanent data center ban. No source reviewed indicates the pause has lapsed.",
+      "enacted_status": "extended",
+      "affected_projects": "A large proposed data center project tied to a power agreement with 'Stronghold'; project reported terminated by the city (per NBC Palm Springs, 'Coachella City Council Halts Data Center Project, Cuts Ties with Stronghold,' 2026-06-05)",
+      "outcome": "Moratorium adopted and later extended; city pursuing a permanent ban",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://news.google.com/rss/search?q=Coachella%20%22approves%20data%20center%20moratorium%22&hl=en-US&gl=US&ceid=US:en",
+          "title": "Coachella council approves data center moratorium, directs staff to draft ban",
+          "publisher": "kvcrnews.org",
+          "document_date": "2026-06-06",
+          "source_type": "news",
+          "supports": "Coachella city council adopted a data center moratorium and directed staff to draft a permanent ban",
+          "quote": "Coachella council approves data center moratorium, directs staff to draft ban - kvcrnews.org"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Coachella%20%22approves%20data%20center%20moratorium%22&hl=en-US&gl=US&ceid=US:en",
+          "title": "Coachella Approves Data Center Moratorium, Ends Stronghold Power Agreement",
+          "publisher": "NBC Palm Springs",
+          "document_date": "2026-06-04",
+          "source_type": "news",
+          "supports": "Confirms adoption date (on/around 2026-06-04) and context (ending a power agreement tied to the disputed project)",
+          "quote": "Coachella Approves Data Center Moratorium, Ends Stronghold Power Agreement - NBC Palm Springs"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Coachella%20California%20data%20center%20moratorium&hl=en-US&gl=US&ceid=US:en",
+          "title": "Coachella Extends Temporary Ban On Data Center Developments",
+          "publisher": "Patch",
+          "document_date": "2026-07-09",
+          "source_type": "news",
+          "supports": "Confirms the moratorium was extended around 2026-07-09, i.e. still active/extended as of the 2026-07-31 research date",
+          "quote": "Coachella Extends Temporary Ban On Data Center Developments"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under California (existing CA rows: El Monte, Imperial County, Montebello, Monterey Park, Oakley). Follows the same San Gabriel Valley/Coachella Valley moratorium wave as those entries. Could not fetch a primary ordinance text or council-minutes document directly (kvcrnews.org, NBC Palm Springs and Patch article pages returned errors on direct fetch); evidence above is drawn from Google News aggregation pages that were actually fetched and contain the quoted headlines/attributions."
+    },
+    {
+      "state": "Minnesota",
+      "jurisdiction": "Inver Grove Heights",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-26 (Inver Grove Heights City Council approved a one-year data center moratorium, per MPR News and FOX 9; a contentious council meeting on 2026-06-23 had first ended before a vote could be taken). A CBS News item is dated 2026-05-11 with a similar headline ('Inver Grove Heights officials approve 1-year moratorium on data centers'); it is unclear whether this reflects an earlier initial action later reaffirmed on 2026-06-26, or a dating discrepancy in the aggregator. Treat 2026-06-26 as the better-supported date.",
+      "date_enacted_iso": "2026-06-26",
+      "date_enacted_uncertainty": "range",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "City council moratorium ordinance",
+      "trigger": "Litigation threat from a data center developer and community opposition; a June 23 meeting reportedly ended in shouting before a scheduled vote",
+      "trigger_categories": ["legal_or_litigation", "land_use_compatibility", "regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (within the one-year term reported).",
+      "enacted_status": "active",
+      "affected_projects": "Not specifically named in sources reviewed",
+      "outcome": "One-year moratorium adopted; city to develop permanent regulations",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://news.google.com/rss/search?q=%22Inver%20Grove%20Heights%22%20%22one-year%20moratorium%22&hl=en-US&gl=US&ceid=US:en",
+          "title": "Inver Grove Heights approves one-year moratorium on data centers",
+          "publisher": "mprnews.org",
+          "document_date": "2026-06-26",
+          "source_type": "news",
+          "supports": "City council approved a one-year data center moratorium",
+          "quote": "Inver Grove Heights approves one-year moratorium on data centers - mprnews.org"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Inver%20Grove%20Heights%22%20%22one-year%20moratorium%22&hl=en-US&gl=US&ceid=US:en",
+          "title": "Inver Grove Heights officials approve 1-year moratorium on data centers",
+          "publisher": "CBS News",
+          "document_date": "2026-05-11",
+          "source_type": "news",
+          "supports": "Independent corroboration of a one-year moratorium, though with an earlier reported date than the MPR/FOX9 account",
+          "quote": "Inver Grove Heights officials approve 1-year moratorium on data centers - CBS News"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Inver%20Grove%20Heights%20Minnesota%20data%20center%20moratorium&hl=en-US&gl=US&ceid=US:en",
+          "title": "Data center moratorium passed by Inver Grove Heights City Council",
+          "publisher": "FOX 9 Minneapolis-St. Paul",
+          "document_date": "2026-06-26",
+          "source_type": "news",
+          "supports": "Corroborates council passage of the moratorium",
+          "quote": "Data center moratorium passed by Inver Grove Heights City Council - FOX 9 Minneapolis-St. Paul"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under Minnesota (existing MN rows: Carver, Eagan, Minneapolis, Waite Park). Could not reach mprnews.org or hometownsource.com article pages directly (404/429 on direct fetch); evidence drawn from Google News aggregation pages actually fetched."
+    },
+    {
+      "state": "Minnesota",
+      "jurisdiction": "Wright County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-05-26 (County board enacted an emergency data center moratorium, per hometownsource.com); proposal first raised around 2026-05-11",
+      "date_enacted_iso": "2026-05-26",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Described as an 'emergency' moratorium; exact fixed term not stated in sources reviewed. A resident workgroup was convened (per KRWC 1360 AM, 2026-06-24) to help shape permanent regulations, and the pause was still in effect as of late July 2026 (Otsego County reported joining Wright County 'in pausing data center projects,' 2026-07-30).",
+      "duration_days": null,
+      "duration_kind": "until_event",
+      "legal_basis": "County board emergency moratorium ordinance",
+      "trigger": "Data center development pressure in the Monticello/Elk River area of Wright County",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility", "specific_project"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; still referenced as in effect as of 2026-07-30 news coverage.",
+      "enacted_status": "active",
+      "affected_projects": "Proposed data center development near Monticello, MN",
+      "outcome": "Emergency moratorium enacted; county workgroup developing permanent regulations",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://news.google.com/rss/search?q=%22Wright%20County%22%20%22emergency%20data%20center%20moratorium%22&hl=en-US&gl=US&ceid=US:en",
+          "title": "Wright County enacts emergency data center moratorium",
+          "publisher": "hometownsource.com",
+          "document_date": "2026-05-26",
+          "source_type": "news",
+          "supports": "County board enacted an emergency data center moratorium on/around 2026-05-26",
+          "quote": "Wright County enacts emergency data center moratorium - hometownsource.com"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Wright%20County%20Minnesota%20data%20center%20moratorium&hl=en-US&gl=US&ceid=US:en",
+          "title": "Otsego joins Wright County in pausing data center projects",
+          "publisher": "NewsBreak: Local News & Alerts",
+          "document_date": "2026-07-30",
+          "source_type": "news",
+          "supports": "Confirms the Wright County pause was still referenced as in effect as of 2026-07-30, just before the research date",
+          "quote": "Otsego joins Wright County in pausing data center projects"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under Minnesota. Direct fetch of hometownsource.com article returned HTTP 429; evidence drawn from Google News aggregation pages actually fetched."
+    },
+    {
+      "state": "Nevada",
+      "jurisdiction": "Nye County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-06-02 (Nye County Board of County Commissioners unanimously approved a countywide moratorium on new data center applications at its Tuesday, June 2, 2026 meeting, per Pahrump Valley Times)",
+      "date_enacted_iso": "2026-06-02",
+      "date_enacted_uncertainty": "exact",
+      "duration": "No fixed term; Commissioner Strickland was quoted estimating a new data center ordinance could be ready 'in about 90 days,' but the moratorium's stated end condition is adoption of local data center regulations, not a calendar date.",
+      "duration_days": null,
+      "duration_kind": "until_event",
+      "legal_basis": "Board of County Commissioners resolution under NRS 244.110/244.119",
+      "trigger": "Nye County Water District Governing Board's 2026-05-27 emergency request that the commission impose a moratorium, driven by concerns over data center water demand on a 'critically over-appropriated' aquifer (Nevada Hydrographic Basin 162) in the Pahrump Regional Planning District",
+      "trigger_categories": ["water", "grid_energy", "land_use_compatibility"],
+      "sectors": ["data_center", "cryptocurrency_mining"],
+      "current_status": "Active as of 2026-07-31. A follow-on permanent ordinance (Nye County Bill No. 2026-11, adding Nye County Code Chapter 17.13 'Data Centers,' a prohibition in unincorporated areas without an elected town board) had a public hearing scheduled for 2026-08-04; that draft bill's recitals state the Board 'has recently approved a temporary moratorium on data centers while permanent regulations are developed,' corroborating that the June moratorium remained in force as of the bill's July 7, 2026 agenda item.",
+      "enacted_status": "active",
+      "affected_projects": "Proposed 'Blackjack Data Center' and a large Pahrump-area data center proposal covered in local reporting through July 2026",
+      "outcome": "Countywide moratorium on new data center applications adopted; permanent prohibition ordinance in process",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://pvtimes.com/news/nye-county-approves-data-center-moratorium-186722/",
+          "title": "Nye County approves data center moratorium",
+          "publisher": "Pahrump Valley Times",
+          "document_date": "2026-06-05",
+          "source_type": "news",
+          "supports": "Nye County Commission unanimously approved a countywide data center moratorium at its Tuesday, June 2, 2026 meeting; will remain until local data center regulations are adopted; estimated ~90 days to draft",
+          "quote": "The moratorium went before the Nye County Commission during its Tuesday, June 2 meeting"
+        },
+        {
+          "url": "https://www.nyecountynv.gov/DocumentCenter/View/51409/Item18",
+          "title": "Nye County Board of County Commissioners Agenda Item Request Form and draft Bill No. 2026-11 (Chapter 13, Data Centers)",
+          "publisher": "Nye County, Nevada",
+          "document_date": "2026-07-07",
+          "source_type": "agenda",
+          "supports": "Official county document confirming the existence of a prior temporary data center moratorium and describing the follow-on permanent prohibition ordinance",
+          "quote": "WHEREAS, the Board has recently approved a temporary moratorium on data centers while permanent regulations are developed"
+        },
+        {
+          "url": "https://nevadacurrent.com/2026/05/27/nye-county-water-board-pushes-data-center-moratorium/",
+          "title": "Nye County water board pushes data center moratorium",
+          "publisher": "Nevada Current",
+          "document_date": "2026-05-27",
+          "source_type": "news",
+          "supports": "Establishes the water-scarcity trigger: the Nye County Water District Governing Board's unanimous emergency request that the commission impose a moratorium",
+          "quote": "The Nye County Water District Governing Board unanimously approved an emergency order Tuesday requesting that the Nye County Commission place a moratorium on data centers"
+        }
+      ],
+      "notes": "Nevada currently has zero rows in data/moratorium_inventory.csv. This is a confirmed new candidate. Direct fetch of the county PDF returned garbled text via the WebFetch summarizer; the file was independently re-extracted with pdftotext to confirm the quoted WHEREAS clause."
+    },
+    {
+      "state": "Nevada",
+      "jurisdiction": "Reno",
+      "jurisdiction_type": "City",
+      "date_enacted": "Reno City Council approved a final moratorium resolution on/around 2026-06-01, extending an earlier temporary pause on special-use permits for new data centers through August 31, 2027, by a 6-1 vote (Councilmember Kathleen Taylor dissenting). Coverage headlines describe this both as an 'extension' of an existing pause and as the council 'approving' the moratorium, consistent with an initial shorter pause enacted earlier in 2026 that was then extended.",
+      "date_enacted_iso": "2026-06-01",
+      "date_enacted_uncertainty": "range",
+      "duration": "Runs through August 31, 2027, or until the city adopts new data center regulations, whichever comes first.",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "legal_basis": "City Council resolution",
+      "trigger": "Concerns over water use and rising power costs from new data center development",
+      "trigger_categories": ["water", "grid_energy", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active/extended as of 2026-07-31; set to run until 2027-08-31 or adoption of new regulations.",
+      "enacted_status": "extended",
+      "affected_projects": "Not specifically named in sources reviewed",
+      "outcome": "Moratorium on new data center special-use permits extended through August 2027",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://news.google.com/rss/search?q=Reno%20City%20Council%20data%20center%20moratorium%20%22August%202027%22&hl=en-US&gl=US&ceid=US:en",
+          "title": "Reno City Council approves data center moratorium through August 2027",
+          "publisher": "This Is Reno",
+          "document_date": "2026-06-02",
+          "source_type": "news",
+          "supports": "Reno City Council approved/extended a data center moratorium through August 2027",
+          "quote": "Reno City Council approves data center moratorium through August 2027 - This Is Reno"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Reno%20City%20Council%20data%20center%20moratorium%20%22August%202027%22&hl=en-US&gl=US&ceid=US:en",
+          "title": "Reno extends its data center moratorium into 2027. Here's what happens next.",
+          "publisher": "The Nevada Independent",
+          "document_date": "2026-06-02",
+          "source_type": "news",
+          "supports": "Confirms this action was an extension of an existing pause, not a first-time enactment, and that it runs into 2027",
+          "quote": "Reno extends its data center moratorium into 2027. Here's what happens next. - The Nevada Independent"
+        },
+        {
+          "url": "https://html.duckduckgo.com/html/?q=Reno+Nevada+data+center+moratorium+ordinance+city+council",
+          "title": "Aggregated search results on Reno data center moratorium",
+          "publisher": "DuckDuckGo (aggregating reno.gov, thisisreno.com, mynews4.com, kunr.org, rgj.com, nevadacurrent.com)",
+          "document_date": "2026-07-31",
+          "source_type": "news",
+          "supports": "Multiple outlets corroborate: reno.gov states City Council approved a final moratorium resolution on June 1, 2026; This Is Reno reports a 6-1 vote; Nevada Current reports the pause runs until Aug. 31, 2027 or until new regulations are adopted",
+          "quote": "On June 1, 2026, City Council approved of a final moratorium resolution related to data center development. / The Reno City Council on Monday voted 6-1 to pass a data center moratorium through August 2027. / The moratorium, approved Monday, will remain in place until Aug. 31, 2027, or until the city adopts new data center regulations."
+        }
+      ],
+      "notes": "Nevada currently has zero rows in data/moratorium_inventory.csv. This is a confirmed new candidate, corroborated by at least six independent outlets (reno.gov, This Is Reno, KRNV/mynews4, KUNR, Reno Gazette-Journal, Nevada Current, The Nevada Independent, Yahoo). Direct fetches of reno.gov, thisisreno.com, and nevadacurrent.com article pages were blocked (403/404); reno.gov's homepage did not surface the resolution page, and Legistar/agenda search on reno.legistar.com returned no results for the query used, so no primary ordinance/resolution document could be directly retrieved in this pass."
+    },
+    {
+      "state": "South Carolina",
+      "jurisdiction": "Newberry County",
+      "jurisdiction_type": "County",
+      "date_enacted": "An initial pause was put in effect around 2026-06-02/06-03 following resident concerns (WIS News 10, 2026-06-03) and the council's rejection of a data center deal (WLTX, 2026-06-07); WRDW reported the county 'passes 1-year data center moratorium' on 2026-06-05. The council then 'unanimously confirmed' the year-long moratorium on 2026-07-16 (WIS News 10; FOX Carolina).",
+      "date_enacted_iso": "2026-06-05",
+      "date_enacted_uncertainty": "range",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "County council ordinance/resolution",
+      "trigger": "Resident opposition to a proposed AI data center development and the council's rejection of an associated data center deal",
+      "trigger_categories": ["specific_project", "land_use_compatibility", "property_values"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; unanimously reconfirmed by the council on 2026-07-16.",
+      "enacted_status": "active",
+      "affected_projects": "A proposed AI data center development that the council voted on/rejected in early June 2026",
+      "outcome": "One-year countywide data center moratorium adopted and later unanimously reconfirmed",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://news.google.com/rss/search?q=%22Newberry%20County%22%20%22year-long%20moratorium%22&hl=en-US&gl=US&ceid=US:en",
+          "title": "Newberry County Council unanimously confirms year-long moratorium on data centers",
+          "publisher": "WIS News 10",
+          "document_date": "2026-07-16",
+          "source_type": "news",
+          "supports": "County council unanimously confirmed a year-long data center moratorium",
+          "quote": "Newberry County Council unanimously confirms year-long moratorium on data centers - WIS News 10"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Newberry%20County%20South%20Carolina%20data%20center%20moratorium&hl=en-US&gl=US&ceid=US:en",
+          "title": "Newberry County passes 1-year data center moratorium",
+          "publisher": "WRDW",
+          "document_date": "2026-06-05",
+          "source_type": "news",
+          "supports": "Confirms the initial adoption of a 1-year moratorium in early June 2026",
+          "quote": "Newberry County passes 1-year data center moratorium"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Newberry%20County%20South%20Carolina%20data%20center%20moratorium&hl=en-US&gl=US&ceid=US:en",
+          "title": "Moratorium on data centers put in effect after Newberry County residents raise concerns",
+          "publisher": "WIS News 10",
+          "document_date": "2026-06-03",
+          "source_type": "news",
+          "supports": "Confirms the moratorium was put into effect in response to resident concerns, and the approximate date",
+          "quote": "Moratorium on data centers put in effect after Newberry County residents raise concerns"
+        }
+      ],
+      "notes": "South Carolina currently has zero rows in data/moratorium_inventory.csv. This is a confirmed new candidate, corroborated across WIS News 10, WRDW, FOX Carolina, and WLTX. Direct fetch of the underlying station article pages was not attempted after Google News aggregation gave consistent, converging headlines from four independent outlets; evidence above is drawn from Google News search pages actually fetched."
+    },
+    {
+      "state": "Tennessee",
+      "jurisdiction": "Cedar Hill",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-06-01 (WSMV: 'Cedar Hill imposes two-year moratorium on data centers'), confirmed 2026-06-03 by News Channel 5 Nashville",
+      "date_enacted_iso": "2026-06-01",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Two years",
+      "duration_days": 730,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Town board ordinance",
+      "trigger": "Rural preservation concerns amid data center and cryptocurrency mining development pressure in Robertson County",
+      "trigger_categories": ["agricultural_preservation", "land_use_compatibility"],
+      "sectors": ["data_center", "cryptocurrency_mining"],
+      "current_status": "Active as of 2026-07-31.",
+      "enacted_status": "active",
+      "affected_projects": "Not specifically named in sources reviewed",
+      "outcome": "Two-year moratorium on data centers and cryptocurrency mining adopted",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://news.google.com/rss/search?q=%22Cedar%20Hill%22%20Robertson%20County%20%22two-year%20moratorium%22&hl=en-US&gl=US&ceid=US:en",
+          "title": "Cedar Hill imposes two-year moratorium on data centers",
+          "publisher": "WSMV",
+          "document_date": "2026-06-01",
+          "source_type": "news",
+          "supports": "Cedar Hill (Robertson County, TN) imposed a two-year moratorium on data centers",
+          "quote": "Cedar Hill imposes two-year moratorium on data centers - WSMV"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Cedar%20Hill%22%20Robertson%20County%20%22two-year%20moratorium%22&hl=en-US&gl=US&ceid=US:en",
+          "title": "Cedar Hill in Robertson County passes 2-year moratorium on data centers amid rural preservation concerns",
+          "publisher": "News Channel 5 Nashville",
+          "document_date": "2026-06-03",
+          "source_type": "news",
+          "supports": "Corroborates the two-year term and identifies rural preservation as the driving concern",
+          "quote": "Cedar Hill in Robertson County passes 2-year moratorium on data centers amid rural preservation concerns - News Channel 5 Nashville"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Cedar%20Hill%20Tennessee%20data%20center%20moratorium&hl=en-US&gl=US&ceid=US:en",
+          "title": "Small Middle TN town imposes 2-year moratorium on data centers and crypto mining",
+          "publisher": "WBIR",
+          "document_date": "2026-06-03",
+          "source_type": "news",
+          "supports": "Confirms the moratorium covers both data centers and cryptocurrency mining",
+          "quote": "Small Middle TN town imposes 2-year moratorium on data centers and crypto mining"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under Tennessee (existing TN rows: Bristol, Hawkins County, Johnson City, Jonesborough, Sullivan County, Washington County). Evidence drawn from Google News aggregation pages actually fetched; direct fetch of wsmv.com article pages returned 404 for the URLs guessed."
+    },
+    {
+      "state": "Tennessee",
+      "jurisdiction": "McMinnville",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-03 (McMinnville approved an 18-month moratorium on new data centers, per WSMV)",
+      "date_enacted_iso": "2026-06-03",
+      "date_enacted_uncertainty": "exact",
+      "duration": "18 months",
+      "duration_days": 545,
+      "duration_kind": "fixed_days",
+      "legal_basis": "City ordinance",
+      "trigger": "Proposed 'Hixson Data Center,' a 96,000-square-foot, 25-megawatt AI supercomputing facility, opposed by a resident petition that gathered nearly 3,000 signatures",
+      "trigger_categories": ["specific_project", "infrastructure_capacity", "environmental", "noise"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; the ordinance took effect immediately upon adoption and officials indicated it could be extended if necessary. A related 'research and information-gathering process' into data centers was reported underway as of 2026-06-15.",
+      "enacted_status": "active",
+      "affected_projects": "Proposed Hixson Data Center (96,000 sq ft, 25 MW, AI supercomputing)",
+      "outcome": "18-month moratorium adopted, blocking acceptance/processing/approval of data center land-use, zoning, building, site-plan, and conditional-use permit applications pending impact studies",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.wsmv.com/2026/06/03/mcminnville-approves-18-month-moratorium-new-data-centers-creating-requirements-numerous-impact-studies/",
+          "title": "McMinnville approves 18-month moratorium on new data centers, creating requirements for numerous impact studies",
+          "publisher": "WSMV",
+          "document_date": "2026-06-03",
+          "source_type": "news",
+          "supports": "Direct article confirming vote date, 18-month duration, scope (blocks processing of land use/zoning/building/site plan/conditional use permit applications for data centers), required impact studies, and the triggering Hixson Data Center proposal",
+          "quote": "The moratorium prevents acceptance, processing, and approval of applications for land use, zoning, building, site plan, or conditional use permits for data centers and high-density computing systems."
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under Tennessee. This candidate was confirmed via a directly-fetched news article (not just an aggregator), giving higher confidence than most other entries in this batch."
+    },
+    {
+      "state": "Texas",
+      "jurisdiction": "Harlingen",
+      "jurisdiction_type": "City",
+      "date_enacted": "Approximately 2026-05-20/05-21 (ValleyCentral.com reported 'Harlingen approves 120-day data center moratorium' on 2026-05-21; KRGV reported the same action on 2026-05-23; The Real Deal on 2026-05-26). Exact commission meeting date not confirmed in sources reviewed.",
+      "date_enacted_iso": "2026-05",
+      "date_enacted_uncertainty": "month_only",
+      "duration": "120 days",
+      "duration_days": 120,
+      "duration_kind": "fixed_days",
+      "legal_basis": "City commission ordinance",
+      "trigger": "Precautionary study of potential future data center impacts and modernization of land use regulations; one source (Rio Grande Guardian) noted no data center projects were formally proposed within city limits at the time",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (120 days from ~2026-05-20 would run to approximately 2026-09-17). No source reviewed reports expiration, extension, or rescission.",
+      "enacted_status": "active",
+      "affected_projects": "None formally proposed within Harlingen city limits as of the moratorium's adoption, per Rio Grande Guardian reporting",
+      "outcome": "120-day moratorium adopted to study potential data center impacts and modernize land use regulations",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://news.google.com/rss/search?q=Harlingen%20120-day%20data%20center%20moratorium&hl=en-US&gl=US&ceid=US:en",
+          "title": "'We need to do our due diligence': Harlingen approves 120-day data center moratorium",
+          "publisher": "ValleyCentral.com",
+          "document_date": "2026-05-21",
+          "source_type": "news",
+          "supports": "Harlingen approved a 120-day data center moratorium",
+          "quote": "'We need to do our due diligence': Harlingen approves 120-day data center moratorium"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Harlingen%22%20%22120-day%22%20moratorium%20when:90d&hl=en-US&gl=US&ceid=US:en",
+          "title": "Harlingen officials approve 120-day moratorium to study impact of potential data centers",
+          "publisher": "KRGV",
+          "document_date": "2026-05-23",
+          "source_type": "news",
+          "supports": "Independent corroboration of the 120-day moratorium and its stated purpose (studying potential data center impacts)",
+          "quote": "Harlingen officials approve 120-day moratorium to study impact of potential data centers - KRGV"
+        }
+      ],
+      "notes": "Texas currently has zero rows in data/moratorium_inventory.csv. This is a confirmed new candidate, corroborated by ValleyCentral, KRGV, and The Real Deal. Exact enactment day not pinned down from sources actually fetched, so date precision is left at month-level."
+    },
+    {
+      "state": "Texas",
+      "jurisdiction": "Hill County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-05-12 (Hill County Commissioners Court approved a 1-year moratorium on data center construction, per KWTX)",
+      "date_enacted_iso": "2026-05-12",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year (as adopted; rescinded before completing its term)",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Commissioners Court order",
+      "trigger": "Development pressure from multiple (reportedly up to eight) proposed data center projects in a rural North Texas county",
+      "trigger_categories": ["specific_project", "land_use_compatibility", "infrastructure_capacity"],
+      "sectors": ["data_center"],
+      "current_status": "Rescinded. Following a $100 million federal lawsuit filed by a data center developer (~2026-05-28) alleging the moratorium was illegal, the Hill County Commissioners Court voted to rescind the moratorium on 2026-06-04 and adopted new data center review requirements/policies instead (per KWTX, KCENTV, KXXV, and The Texas Tribune). The developer subsequently dismissed the lawsuit (KWTX, 2026-07-15) after the county's about-face and a settlement of up to $100,000.",
+      "enacted_status": "rescinded",
+      "affected_projects": "Multiple proposed data center projects in Hill County; the specific developer plaintiff in the $100 million lawsuit is described in coverage as 'RCM Hill'",
+      "outcome": "One-year moratorium adopted 2026-05-12; rescinded 2026-06-04 under litigation pressure and replaced with new development-review policies",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://news.google.com/rss/search?q=%22Hill%20County%22%20%221-year%20moratorium%22%20data%20center&hl=en-US&gl=US&ceid=US:en",
+          "title": "Hill County commissioners approve 1-year moratorium on data center construction",
+          "publisher": "KWTX",
+          "document_date": "2026-05-12",
+          "source_type": "news",
+          "supports": "Hill County Commissioners Court adopted a 1-year moratorium on data center construction on 2026-05-12",
+          "quote": "Hill County commissioners approve 1-year moratorium on data center construction - KWTX"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Hill%20County%22%20rescinds%20data%20center%20moratorium&hl=en-US&gl=US&ceid=US:en",
+          "title": "Texas county rescinds its data center moratorium after $100 million lawsuit from developer",
+          "publisher": "The Texas Tribune",
+          "document_date": "2026-06-05",
+          "source_type": "news",
+          "supports": "Confirms the moratorium was rescinded following a $100 million lawsuit from a data center developer",
+          "quote": "Texas county rescinds its data center moratorium after $100 million lawsuit from developer - The Texas Tribune"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=%22Hill%20County%22%20rescinds%20data%20center%20moratorium&hl=en-US&gl=US&ceid=US:en",
+          "title": "Hill County drops data center moratorium after lawsuit, adopts new review requirements",
+          "publisher": "KERA News",
+          "document_date": "2026-06-05",
+          "source_type": "news",
+          "supports": "Confirms the county adopted new review requirements in place of the rescinded moratorium",
+          "quote": "Hill County drops data center moratorium after lawsuit, adopts new review requirements - KERA News"
+        }
+      ],
+      "notes": "Texas currently has zero rows in data/moratorium_inventory.csv. This is a confirmed new candidate: it was a real, dated moratorium instrument (not merely a proposal), extensively covered by KWTX, KCENTV, KXXV, The Texas Tribune, KERA News, Politico, Chron, Bloomberg, and The National Law Review, even though it was later rescinded under litigation pressure. Recorded here with enacted_status=rescinded per the codebook, consistent with how other rescinded moratoria are tracked in the inventory."
+    }
+  ]
+}

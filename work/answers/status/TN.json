@@ -1,0 +1,24 @@
+{
+  "state_abbrev": "TN",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "tn-washington-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://postindustrial.com/stories/east-tennessee-cities-are-gearing-up-to-fight-data-center/",
+          "title": "East Tennessee cities are gearing up to fight data centers",
+          "publisher": "Postindustrial (syndicated from Tennessee Lookout)",
+          "source_type": "news",
+          "supports": "Confirms, in an article dated 2026-07-30 (one day before researched_as_of), that Washington County's data center moratorium remains in effect through its recorded end date of 2027-06-30, with no mention of amendment, rescission, or early replacement.",
+          "quote": "Washington County approved a moratorium on data centers through June 30, 2027."
+        }
+      ],
+      "notes": "The recorded end date (2027-06-30) has not passed as of 2026-07-31, so the row's 'active' status is correct as recorded. Attempts to reach a primary source (the county commission's own resolution text or minutes, or the original WJHL report) were blocked: wjhl.com returned a bot-detection captcha wall on repeated fetch attempts, and washingtoncountytn.org's agendas/minutes and commission pages returned 404s during this pass. The Postindustrial/Tennessee Lookout piece is the only source actually retrieved that confirms currency as of a date close to researched_as_of; confidence is capped at moderate because it is a single secondary source, not the underlying resolution."
+    }
+  ],
+  "new_candidates": []
+}

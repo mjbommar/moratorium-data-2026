@@ -1,0 +1,114 @@
+{
+  "state_abbrev": "LA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "Louisiana's 2026 Regular Session convened Monday, 2026-03-09 and adjourned sine die Monday, 2026-06-01, confirmed directly via legis.la.gov's session information. Both 2026 RS bills in this packet (HB1206, HB922) show, on the legislature's own bill-status pages queried after that date, no action beyond their spring 2026 committee considerations and no committee report (favorable or unfavorable) -- with the session now closed, they are treated as died in committee. The 2024 RS and 2025 RS enactments (Act 730, Act 36) are reconfirmed unchanged, since Louisiana does not un-enact laws. The 2025 RS concurrent resolution (HCR61) was adopted by the House but never taken up for Senate concurrence, so it died when the 2025 RS ended.",
+  "decisions": [
+    {
+      "bill_key": "LA:HB1206 (2026 RS)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Died in House Natural Resources and Environment Committee; last action was committee consideration 2026-04-28, no report issued; 2026 RS adjourned sine die 2026-06-01 with no further movement",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-04-28",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26RS&b=HB1206",
+          "title": "HB1206 (2026 Regular Session) - Louisiana State Legislature bill information",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill's current status (queried 2026-07-31, well after the confirmed 2026-06-01 sine die) is still 'Pending House Natural Resources - Considered 4/28/26', with the full action history showing only a 2026-03-31 first reading, 2026-04-01 committee referral, and 2026-04-28 committee consideration -- no committee report, no floor action, and nothing recorded after 4/28.",
+          "quote": "Pending House Natural Resources - Considered 4/28/26"
+        }
+      ],
+      "notes": "Packet's April 2026 snapshot ('Pending... referred 2026-04-01') is superseded by the 2026-04-28 committee-consideration entry, but the bill never advanced past that point; with the regular session now adjourned sine die, it is dead for the 2026 RS. Confidence is not higher because the official page does not print an explicit 'involuntarily deferred'/'failed in committee' phrase -- it only shows no further action, combined with the confirmed adjournment date, as evidence of death in committee per the task's guidance."
+    },
+    {
+      "bill_key": "LA:HB827 (2024 RS), Act 730",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Enacted as Act 730; signed by Governor 2024-06-19; effective 2024-07-01",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2024-06-19",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "url": "https://www.legis.la.gov/legis/BillInfo.aspx?s=24RS&b=HB827",
+          "title": "HB827 (2024 Regular Session) - Louisiana State Legislature bill information, Act 730",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill passed the House 83-4 on 2024-05-15, passed the Senate 35-0 on 2024-05-23, was sent to the Governor 2024-05-31, and was signed into law 2024-06-19 as Act 730, effective 2024-07-01, matching the packet exactly.",
+          "quote": "Final Status: Signed into law as Act No. 730; Effective Date: July 1, 2024"
+        }
+      ],
+      "notes": "Reconfirmed unchanged via legis.la.gov; Louisiana does not un-enact laws, so this remains in force."
+    },
+    {
+      "bill_key": "LA:HB922 (2026 RS)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Died in House Commerce Committee; last action was committee consideration 2026-04-21, no report issued; 2026 RS adjourned sine die 2026-06-01 with no further movement",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-04-21",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26RS&b=HB922",
+          "title": "HB922 (2026 Regular Session) - Louisiana State Legislature bill information",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill's current status (queried 2026-07-31, well after the confirmed 2026-06-01 sine die) is still 'Pending House Commerce - Considered 4/21/26', with the full action history showing only a 2026-02-27 prefiling/provisional referral and a 2026-03-09 formal referral to Commerce, then the 2026-04-21 committee consideration -- no committee report, no floor action, and nothing recorded after 4/21.",
+          "quote": "Pending House Commerce - Considered 4/21/26"
+        }
+      ],
+      "notes": "Packet's April 2026 snapshot ('Pending... referred 2026-03-09') is superseded by the 2026-04-21 committee-consideration entry, but the bill never advanced past that point; with the regular session now adjourned sine die, it is dead for the 2026 RS. Confidence held at 0.75 for the same reason as HB1206 -- no explicit 'failed in committee' text, only an absence of further action combined with the confirmed adjournment date."
+    },
+    {
+      "bill_key": "LA:HCR61 (2025 RS)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Adopted by House 93-0 on 2025-06-08; received by Senate same day but never brought up for concurrence -- returned to Senate calendar subject to call 2025-06-09 and died there when the 2025 RS ended",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-06-09",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.legis.la.gov/legis/BillInfo.aspx?s=25RS&b=HCR61",
+          "title": "HCR61 (2025 Regular Session) - Louisiana State Legislature bill information",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the full action history ends with the Senate reading the resolution by title and returning it to the calendar 'subject to call' on 2025-06-09, after House final adoption 93-0 on 2025-06-08; there is no later entry showing Senate adoption or concurrence, and the page's current status field, queried 2026-07-31, is unchanged from that 2025-06-09 state.",
+          "quote": "Current Status: Subject to call - Senate referral"
+        }
+      ],
+      "notes": "Packet's status text is still verbatim current on legis.la.gov, confirming no change occurred. As a concurrent resolution it required action by both chambers; the Senate never concurred, so it died without final adoption at the close of the 2025 RS. bill_status_category is set to failed_died (rather than left as an ambiguous 'pending' read) because no subsequent session action exists and Louisiana concurrent resolutions do not carry over between regular sessions."
+    },
+    {
+      "bill_key": "LA:SB79 (2025 RS), Act 36",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Enacted as Act 36; signed by Governor 2025-06-04; effective 2025-08-01",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2025-06-04",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "url": "https://www.legis.la.gov/legis/BillInfo.aspx?s=25RS&b=SB79",
+          "title": "SB79 (2025 Regular Session) - Louisiana State Legislature bill information, Act 36",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill passed the Senate 39-0 on 2025-04-29, passed the House 100-0 on 2025-05-28, was sent to the Governor 2025-06-01, and was signed into law 2025-06-04 as Act 36, effective 2025-08-01, matching the packet exactly.",
+          "quote": "Effective Date: August 1, 2025; Final Status: Signed into law as Act No. 36"
+        }
+      ],
+      "notes": "Reconfirmed unchanged via legis.la.gov; Louisiana does not un-enact laws, so this remains in force."
+    }
+  ],
+  "new_bills": []
+}

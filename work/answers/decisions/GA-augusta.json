@@ -1,0 +1,66 @@
+{
+  "state_abbrev": "GA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-opus-5",
+  "decisions": [
+    {
+      "moratorium_id": "ga-augusta-richmond-county-undated",
+      "outcome": "corrected",
+      "confidence": 0.8,
+      "notes": "The row recorded only the 2026-07-21 60-day extension and stated the original adoption date was not established. The Georgia month-by-month chronology sweep captured the underlying adoption: the Augusta Commission approved a 49-day pause on new data center applications on 2026-06-02, after more than two hours of public comment, on a Planning and Development recommendation covering acceptance, review, and approval of new data center applications. Two independent checks support it. First, the source is the official Augusta meeting portal packet rather than news coverage. Second, the arithmetic corroborates: 2026-06-02 plus 49 days is 2026-07-21, exactly the date the Commission voted the 60-day extension, which is what one expects if the extension was taken at the original term's expiry. Uncertainty is left at `unverified` rather than raised to `exact`, because the supporting document is a meeting packet rather than adopted minutes.",
+      "changes": {
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-06-02",
+          "reason": "Original adoption date established from the Augusta Commission packet for the 2026-06-02 meeting; corroborated because 49 days from that date is exactly the 2026-07-21 extension date already recorded."
+        },
+        "date_enacted": {
+          "from": "2026-07-21 (this action is a 60-day extension of an existing moratorium whose original adoption date was not confirmed in this pass)",
+          "to": "2026-06-02 (original adoption: Augusta Commission approved a 49-day pause on new data center applications following extensive public comment); 2026-07-21 (Commission unanimously extended by 60 days and required three community hearings before any vote on permanent rules) [VERIFY original adoption rests on the official meeting packet rather than adopted minutes; 49 days from 2026-06-02 lands exactly on the 2026-07-21 extension date]",
+          "reason": "Record both the original adoption and the extension, with the evidentiary basis and its limit stated inline."
+        },
+        "duration": {
+          "from": "60-day extension (through approximately mid-September 2026) of a pre-existing moratorium",
+          "to": "Initial 49 days from 2026-06-02; extended 60 days on 2026-07-21 (running to approximately 2026-09-19)",
+          "reason": "The original term is now known, so the duration can state the full chain rather than only the extension."
+        },
+        "duration_days": {
+          "from": "60",
+          "to": "49",
+          "reason": "The codebook defines duration_days as the ORIGINAL term excluding extensions. The original term was 49 days; the 60-day extension is recorded in the duration and status text."
+        },
+        "legal_basis": {
+          "from": "Augusta Commission vote extending an existing moratorium on new data centers by 60 days",
+          "to": "Augusta Commission action on a Planning and Development recommendation; 49-day moratorium adopted 2026-06-02, extended 60 days 2026-07-21. Instrument numbers not located.",
+          "reason": "Reflect the adopting action rather than only the extension."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://mccmeetings.blob.core.usgovcloudapi.net/augustaga-pubu/MEET-Packet-ede9bf88121444c1b4fcea35685ca9d8.pdf",
+          "title": "Augusta-Richmond County Public Services Committee meeting packet",
+          "publisher": "Augusta-Richmond County",
+          "document_date": "2026-05-26",
+          "source_type": "agenda",
+          "supports": "The proposed temporary moratorium on new data center applications was before the Public Services Committee on 2026-05-26 and was tabled for more information, with a commissioner stating he would place it on the next full Commission agenda -- establishing the path to the 2026-06-02 Commission vote."
+        },
+        {
+          "url": "https://www.wrdw.com/2026/07/21/augusta-leaders-extend-moratorium-new-data-centers/",
+          "title": "Augusta leaders extend moratorium on new data centers",
+          "publisher": "WRDW",
+          "document_date": "2026-07-21",
+          "source_type": "news",
+          "supports": "The Augusta Commission unanimously extended the data center moratorium by 60 days on 2026-07-21 and required three community hearings before a vote on permanent rules.",
+          "quote": "the Augusta Commission unanimously extended the moratorium on new data centers by 60 days"
+        },
+        {
+          "url": "https://www.augustaga.gov/3460/Draft-Data-Center-Ordinance",
+          "title": "Draft Data Center Ordinance",
+          "publisher": "Augusta-Richmond County",
+          "source_type": "staff_report",
+          "supports": "The permanent data center ordinance remained in draft and under review as of the extension, consistent with the moratorium still being in force."
+        }
+      ]
+    }
+  ]
+}

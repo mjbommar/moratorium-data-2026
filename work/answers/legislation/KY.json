@@ -1,0 +1,205 @@
+{
+  "state_abbrev": "KY",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "Kentucky's 2026 Regular Session convened 2026-01-06 and adjourned sine die 2026-04-15; each Kentucky regular session is an independent annual session (not a two-year carryover biennium like TN/IN), so any bill not passed by sine die is dead for 2026 and does not carry into the 2027 RS.",
+  "decisions": [
+    {
+      "bill_key": "KY:HB 372 (2021 RS)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Vetoed by Governor 2021-04-09; no override recorded",
+        "bill_status_category": "vetoed",
+        "last_action_date_iso": "2021-04-09",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://apps.legislature.ky.gov/record/21rs/hb372.html",
+          "title": "HB 372 (2021 RS) - Kentucky LRC bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms full action history through veto on 2021-04-09 with no subsequent override vote recorded.",
+          "quote": "Vetoed by Governor. Last Action Date: April 9, 2021. No override action is documented on this page, indicating the veto was not overridden."
+        }
+      ],
+      "notes": "Packet's existing record is accurate; no change to disposition."
+    },
+    {
+      "bill_key": "KY:HB 544 (2026 RS)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Died in House committee at 2026 RS sine die (2026-04-15); last recorded action 2026-02-10",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-10",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://apps.legislature.ky.gov/record/26rs/hb544.html",
+          "title": "HB 544 (2026 RS) - Kentucky LRC bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Shows only introduction (2026-02-03) and referral to House Small Business & Information Technology (2026-02-10), with no further action recorded through the 2026-04-15 sine die.",
+          "quote": "02/10/26 Referred to Small Business & Information Technology (H). No further action recorded."
+        }
+      ],
+      "notes": "Packet said 'not enacted' without a definitive category. Since the 2026 RS adjourned sine die on 2026-04-15 with no committee action beyond the 2026-02-10 referral, and Kentucky sessions do not carry bills forward, this bill is now confirmed dead for 2026 rather than merely pending."
+    },
+    {
+      "bill_key": "KY:HB 593 (2026 RS)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Passed House 2026-03-04 (90-8); died in Senate committee at 2026 RS sine die (2026-04-15); last recorded action 2026-03-31",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-03-31",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://apps.legislature.ky.gov/record/26rs/hb593.html",
+          "title": "HB 593 (2026 RS) - Kentucky LRC bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms HB 593 passed the House 90-8 on 2026-03-04 but never received a Senate floor vote; last action is a 2026-03-31 return to Senate Economic Development, Tourism, & Labor committee, with nothing further before sine die.",
+          "quote": "03/04/26 Passed House 90-8 with Committee Substitute (1). ... 03/31/26 taken from Economic Development, Tourism, & Labor (S); 2nd reading; returned to Economic Development, Tourism, & Labor (S)."
+        },
+        {
+          "url": "https://apps.legislature.ky.gov/recorddocuments/bill/26RS/SB197/HCS1.pdf",
+          "title": "SB 197 House Committee Substitute 1 (2026-03-27)",
+          "source_type": "bill_text",
+          "supports": "Shows HB 593-style data center electric-service tariff, $75,000 minimum application fee, and 25 MW dedicated-resource provisions were inserted into SB 197 as a vehicle around the time HB 593 stalled in the Senate.",
+          "quote": "A municipal electric utility shall issue and maintain a tariff... Payment of an initial nonrefundable application fee with a minimum fee of not less than seventy-five thousand dollars ($75,000)..."
+        },
+        {
+          "url": "https://apps.legislature.ky.gov/recorddocuments/bill/26RS/sb197/bill.pdf",
+          "title": "SB 197 final enacted text",
+          "source_type": "bill_text",
+          "supports": "Confirms the data center provisions carried in SB 197 HCS1 do not appear in the final enacted text, i.e. the HB 593 policy language ultimately died for 2026.",
+          "quote": "No occurrences of 'data center' found in the final enacted bill text."
+        }
+      ],
+      "notes": "HB 593 itself never passed the Senate and is dead as a standalone bill (failed_died). Its substantive data center provisions were subsequently inserted into SB 197 (the state government budget vehicle) via House Committee Substitute 1 on 2026-03-27, but were removed in House Committee Substitute 2 (2026-04-15), the version that actually passed both chambers. SB 197 itself was enacted (see KY:SB 197 (2026 RS)), but without any data center policy language, so the HB 593 policy did not become law in 2026."
+    },
+    {
+      "bill_key": "KY:HB 775 (2025 RS)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Became law without Governor's signature 2025-03-27 (Acts Ch. 98)",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2025-03-27",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://apps.legislature.ky.gov/record/25rs/hb775.html",
+          "title": "HB 775 (2025 RS) - Kentucky LRC bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms enactment as Acts Chapter 98 and the 2025-03-27 became-law-without-signature date.",
+          "quote": "Enacted as Acts Chapter 98. Became law without Governor's Signature on 03/27/25."
+        }
+      ],
+      "notes": "Packet's existing record is accurate; no change to disposition."
+    },
+    {
+      "bill_key": "KY:HB 8 (2024 RS)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Enacted as Acts Ch. 166; filed with Secretary of State 2024-04-12 after House ruled Governor's line-item vetoes invalid",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2024-04-12",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://apps.legislature.ky.gov/record/24rs/hb8.html",
+          "title": "HB 8 (2024 RS) - Kentucky LRC bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms enactment as Acts Chapter 166; Governor vetoed 2 line items on 2024-04-09, bill became law without signature 2024-04-10, and the House ruled the line-item vetoes invalid and filed the bill with the Secretary of State on 2024-04-12.",
+          "quote": "04/09/24 Governor vetoed 2 line items. 04/10/24 Became law without governor's signature. 04/12/24 House ruled line item vetoes invalid; filed with Secretary of State. Enacted as Acts Chapter 166."
+        }
+      ],
+      "notes": "Packet's existing record is accurate; no change to disposition. Last action date matches packet (2024-04-12, the final filing date after the House's line-item veto ruling)."
+    },
+    {
+      "bill_key": "KY:SB 197 (2026 RS)",
+      "outcome": "corrected",
+      "fields": {
+        "status": "Enacted as Acts Ch. 202 with Governor line-item vetoes 2026-04-27; data center provisions removed before final passage",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-04-27",
+        "chamber_of_origin": "Senate",
+        "key_provisions": "SB 197 is the state government agencies budget/appropriations vehicle bill ('AN ACT providing funding and establishing conditions for state government agencies and institutions, making an appropriation therefor, and declaring an emergency'), not a standalone data-center policy bill. House Committee Substitute 1 (2026-03-27) inserted HB 593-style data center electric-service provisions for municipal electric utilities: application/tariff process, $75,000 minimum nonrefundable application fee, 25 MW dedicated-resource threshold, prohibition on subsidizing data center customers via non-data-center rates, and curtailment-allocation rules. That language does not appear in House Committee Substitute 2 (2026-04-15), the version that actually passed both chambers, or in the final enacted bill text. SB 197 was enacted as Acts Ch. 202 (with Governor line-item vetoes of unrelated appropriations items) but contains no data center provisions in its final form."
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://apps.legislature.ky.gov/record/26rs/sb197.html",
+          "title": "SB 197 (2026 RS) - Kentucky LRC bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Provides full sponsor list and action history: Senate passage 36-0 (2026-03-06), House passage 82-7 with Committee Substitute (2) (2026-04-15), Senate concurrence 35-1 (2026-04-15), and Governor line-item veto with delivery to Secretary of State as Acts Ch. 202 (2026-04-27). Sponsors are P. Wheeler, S. Madon, S. Funke Frommeyer, R. Mills, R. Webb, not the 'Gex Williams' sponsorship recorded in the prior packet.",
+          "quote": "04/27/26 line items vetoed; delivered to Secretary of State (Acts Ch. 202). Sponsors: P. Wheeler, S. Madon, S. Funke Frommeyer, R. Mills, R. Webb."
+        },
+        {
+          "url": "https://apps.legislature.ky.gov/recorddocuments/bill/26RS/SB197/HCS1.pdf",
+          "title": "SB 197 House Committee Substitute 1 (2026-03-27)",
+          "source_type": "bill_text",
+          "supports": "Shows the data center municipal electric utility provisions that were briefly part of SB 197 mid-session.",
+          "quote": "A municipal electric utility shall only provide electric service to a data center customer through a contract that conforms to the requirements of this section..."
+        },
+        {
+          "url": "https://apps.legislature.ky.gov/recorddocuments/bill/26RS/sb197/bill.pdf",
+          "title": "SB 197 final enacted text",
+          "source_type": "bill_text",
+          "supports": "Confirms no 'data center' language remains in the version that was actually enacted.",
+          "quote": "No occurrences of 'data center' found in the final enacted bill text."
+        }
+      ],
+      "notes": "Corrects the packet's sponsor attribution ('Sen. Gex Williams') to the actual LRC-recorded sponsors (P. Wheeler, S. Madon, S. Funke Frommeyer, R. Mills, R. Webb). Also clarifies that while SB 197's data-center policy language died (stripped in the final House Committee Substitute), SB 197 as a bill vehicle was itself enacted into law as Acts Ch. 202, since it is fundamentally a state government appropriations bill unrelated to data centers apart from the language it briefly carried."
+    },
+    {
+      "bill_key": "KY:SB 319 (2026 RS)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Died in Senate Committee on Committees at 2026 RS sine die (2026-04-15); last recorded action 2026-03-02",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-03-02",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://apps.legislature.ky.gov/record/26rs/sb319.html",
+          "title": "SB 319 (2026 RS) - Kentucky LRC bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Shows only introduction and referral to Senate Committee on Committees on 2026-03-02, with no further action recorded through the 2026-04-15 sine die.",
+          "quote": "03/02/26 Introduced in Senate; referred to Committee on Committees (S). No further legislative action has been recorded beyond the initial introduction and committee referral."
+        }
+      ],
+      "notes": "Packet said 'not enacted' without a definitive category; this is now confirmed dead for 2026 since the session adjourned sine die with no committee action beyond initial referral."
+    },
+    {
+      "bill_key": "KY:SB 330 (2026 RS)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Died in Senate Committee on Committees at 2026 RS sine die (2026-04-15); last recorded action 2026-03-02",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-03-02",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://apps.legislature.ky.gov/record/26rs/sb330.html",
+          "title": "SB 330 (2026 RS) - Kentucky LRC bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Shows only introduction and referral to Senate Committee on Committees on 2026-03-02, with no further action recorded through the 2026-04-15 sine die. Also identifies a second sponsor (G. Neal) not listed in the packet.",
+          "quote": "03/02/26 Introduced in Senate; referred to Committee on Committees (S). Sponsors: K. Herron and G. Neal."
+        }
+      ],
+      "notes": "Packet said 'not enacted' without a definitive category; this is now confirmed dead for 2026 since the session adjourned sine die with no committee action beyond initial referral. Packet listed only K. Herron as sponsor; the LRC page also lists G. Neal as a co-sponsor."
+    }
+  ]
+}

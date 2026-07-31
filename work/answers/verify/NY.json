@@ -1,0 +1,147 @@
+{
+  "state_abbrev": "NY",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ny-dryden-2024",
+      "outcome": "corrected",
+      "confidence": 0.75,
+      "changes": {
+        "affected_projects": {
+          "from": "New York Metro Cloud LLC proposed use at 2186 Dryden Road in Freeville; MW not identified in captured records [VERIFY: NY Metro Cloud LLC project MW not disclosed in federal court filings or Dryden meeting records as captured].",
+          "to": "New York Metro Cloud LLC proposed use (cryptocurrency hosting/mining) at 2186 Dryden Road in Freeville. No MW/power-capacity figure appears in any available record; federal court filings (Bartolini v. Town of Dryden, N.D.N.Y. lead case 3:24-cv-01380, member 3:24-cv-01383, plus related S.D.N.Y. dockets 7:24-cv-07062 and 7:24-cv-05925) describe the site as a 0.24-acre parcel with approximately 3,000 square feet of interior space in a converted Quonset-style building -- consistent with a small hosting operation rather than a utility-scale, megawatt-rated data center, which explains why no MW figure exists rather than it simply being unreported.",
+          "reason": "CourtListener docket search located the federal litigation over this property (Bartolini v. Town of Dryden), and a case-law aggregator's excerpt of the complaint describes the site's small physical footprint."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "duration",
+          "marker": "[VERIFY: signed, filed Local Law No. 1 of 2026 not in captured Dryden Local Laws index as of 2026-04-29; permanent zoning Local Law No. 2 of 2026 was instead adopted 2026-02-19]",
+          "resolution": "still_unverifiable",
+          "note": "townofdrydenny.gov (the town's current domain; dryden.ny.us and townofdryden.org both redirect here) blocks non-browser HTTP fetches (403) on nearly every path, including /media/8911 (which search-engine indexing describes as the town's own \"Notice of Adoption of Local Law\" for a moratorium-extension \"Local Law 1-2026,\" apparently adopted around January 15, 2026) and /media/9491 / /media/9506 (Local Law 2-2026's February 19, 2026 approval). DuckDuckGo-indexed snippets of these town-hosted PDFs suggest Local Law 1-2026 (the extension) WAS in fact adopted as a separate instrument from Local Law 2-2026 -- which would contradict the prior \"not found as signed/filed\" note -- but since every direct fetch of the primary PDF was blocked, this is an indexed-snippet lead, not a verified primary-source reading, and the exact new term (18 vs. 20 months) could not be confirmed. NYS DOS's local-laws-search tool (dos.ny.gov) is JS-rendered and unusable via automated fetch. A browser-based fetch of townofdrydenny.gov/media/8911 is recommended for the next pass."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: NY Metro Cloud LLC project MW not disclosed in federal court filings or Dryden meeting records as captured]",
+          "resolution": "confirmed",
+          "note": "Federal court filings (Bartolini v. Town of Dryden litigation, confirmed via CourtListener's docket search) describe the site as a 0.24-acre parcel with approximately 3,000 sq ft of interior space -- a small hosting operation, which is consistent with no MW figure appearing anywhere in the record because none was ever generated, not because reporting was incomplete."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.courtlistener.com/api/rest/v4/search/?q=Bartolini%20v.%20Town%20of%20Dryden&type=r",
+          "title": "CourtListener docket search: Bartolini v. Town of Dryden",
+          "publisher": "CourtListener (Free Law Project)",
+          "source_type": "court_filing",
+          "supports": "Confirms federal litigation exists over the 2186 Dryden Road property and identifies the case numbers (N.D.N.Y. 3:24-cv-01380 / 3:24-cv-01383; S.D.N.Y. 7:24-cv-07062, 7:24-cv-05925)"
+        },
+        {
+          "url": "https://case-law.vlex.com/vid/bartolini-v-town-of-1080592449",
+          "title": "Bartolini v. Town of Dryden",
+          "publisher": "vLex (case-law aggregator quoting the complaint)",
+          "document_date": "2025-05-23",
+          "source_type": "court_filing",
+          "supports": "Describes the property at issue as 0.24 acres with approximately 3,000 square feet of interior space, i.e. a small hosting building rather than a utility-scale facility",
+          "quote": "on .24 acres of land... approximately 3,000 square feet of interior space"
+        }
+      ],
+      "notes": "The `duration` marker remains open; the town's own site blocks automated fetch almost universally, so the true relationship between draft Local Law 1-2026 (extension) and adopted Local Law 2-2026 (permanent zoning) could not be pinned down to a verbatim primary-source reading this pass, despite promising search-indexed leads."
+    },
+    {
+      "moratorium_id": "ny-lansing-2025",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "changes": {
+        "date_enacted": {
+          "from": "Not enacted; public hearing held 2025-09-24 and withdrawal resolution adopted 2025-11-19",
+          "to": "Not enacted. Public hearing held 2025-09-24; the Town Board's resolution withdrawing the proposed moratorium (Local Law #7 of 2025) is confirmed on the November 19, 2025 Town Board meeting agenda (Item 4, Motions and Resolutions: \"Resolution Withdrawing Proposed Moratorium (Local Law #7 of 2025)\").",
+          "reason": "Town of Lansing's own Municode meeting-agenda system confirms the withdrawal resolution's date and title directly."
+        },
+        "outcome": {
+          "from": "Moratorium proposal withdrawn. Lansing ZBA later treated the proposed high-performance-computing data center as a permitted use under existing industrial/research zoning; local groups filed an Article 78 challenge.",
+          "to": "Moratorium proposal withdrawn November 19, 2025. The Lansing Zoning Board of Appeals ruled on December 23, 2025 that the proposed AI/HPC data center is a permitted \"general processing\" use under existing industrial/research zoning; Cayuga Lake Action Now (CLEAN) and FLX Strong filed an Article 78 petition in NY State Supreme Court on January 30, 2026 against the Lansing ZBA and TeraWulf challenging that ruling. The outcome of the Article 78 petition was not confirmed as of this pass (2026-07-31); the last located update was an April 14, 2026 report on a separate state water-permit approval for the associated power plant, which could not be accessed this pass due to source rate-limiting.",
+          "reason": "Ithaca Voice's coverage (individually fetched articles dated 2025-12-23 and 2026-01-30) confirms the sequence of events after the withdrawal."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "The adoption date (none recorded) is unverified. Confirm it against minutes or the signed instrument.",
+          "resolution": "confirmed",
+          "note": "There was no enactment (the moratorium was withdrawn before adoption); the relevant date -- the November 19, 2025 withdrawal resolution -- is confirmed via the Town of Lansing's own Municode meeting-agenda system, which lists \"Resolution Withdrawing Proposed Moratorium (Local Law #7 of 2025)\" as Item 4 on the November 19, 2025 Regular Town Board Meeting agenda."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://meetings.municode.com/adaHtmlDocument/index?cc=LANSINGNY&me=7b4d82870dff4e87b92d23d7c2ea7749&ip=True",
+          "title": "Lansing Town Board Regular Meeting Agenda, November 19, 2025",
+          "publisher": "Town of Lansing, NY",
+          "document_date": "2025-11-19",
+          "source_type": "agenda",
+          "supports": "Confirms the withdrawal resolution's date and title",
+          "quote": "Resolution Withdrawing Proposed Moratorium (Local Law #7 of 2025)"
+        },
+        {
+          "url": "https://ithacavoice.org/2025/12/lansing-zoning-board-grants-appeal-to-terawulf/",
+          "title": "Lansing zoning board grants appeal to TeraWulf",
+          "publisher": "Ithaca Voice",
+          "document_date": "2025-12-23",
+          "source_type": "news",
+          "supports": "Reports the Lansing ZBA's December 23, 2025 ruling that the proposed data center is a permitted use"
+        },
+        {
+          "url": "https://ithacavoice.org/2026/01/local-groups-file-suit-against-terawulf-lansing-zoning-board-over-data-center/",
+          "title": "Local groups file suit against TeraWulf, Lansing zoning board over data center",
+          "publisher": "Ithaca Voice",
+          "document_date": "2026-01-30",
+          "source_type": "news",
+          "supports": "Confirms an Article 78 petition was filed January 30, 2026 by Cayuga Lake Action Now (CLEAN) and FLX Strong against the Lansing ZBA and TeraWulf"
+        }
+      ],
+      "notes": "The Article 78 petition's outcome remains unknown as of this pass. ithacavoice.org/tag/terawulf/page/2/ onward (which would cover May-July 2026) returned HTTP 429 on every attempt; a future pass should retry after rate limits clear. Also disambiguated: an unrelated Lansing, Michigan data center moratorium (different city, different state) surfaced in search results and should not be merged with this Tompkins County, NY record."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "New York",
+      "jurisdiction": "State of New York (Executive Order, not a local-government action)",
+      "jurisdiction_type": "State",
+      "date_enacted": "2026-07-14, Executive Order No. 62 signed by Governor Kathy Hochul",
+      "date_enacted_iso": "2026-07-14",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Up to one year; freezes new state permitting for data centers >=50 MW while DEC/DPS conduct an environmental impact review",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Executive Order No. 62 (Governor Kathy Hochul)",
+      "trigger": "Statewide concern over rapid data-center growth and grid/environmental impacts",
+      "trigger_categories": ["regulatory_gap", "environmental", "grid_energy"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-14; applies only to state permitting and explicitly does not override local-government permitting or zoning",
+      "enacted_status": "active",
+      "affected_projects": "Reportedly affects roughly 20 hyperscale data center projects statewide, including TeraWulf's approximately 400 MW Cayuga Data Campus in the Town of Lansing",
+      "outcome": "Governor Hochul signed a one-year freeze on new state permitting for data centers of 50 MW or more pending an environmental impact review by DEC/DPS",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://ithacavoice.org/2026/07/terawulf-data-center-hochul-executive-order/",
+          "title": "TeraWulf, data center face new hurdle as Hochul issues executive order",
+          "publisher": "Ithaca Voice",
+          "document_date": "2026-07-14",
+          "source_type": "news",
+          "supports": "Describes Executive Order 62's scope, duration, and effect on the TeraWulf Lansing project"
+        },
+        {
+          "url": "https://cornellsun.com/article/2026/07/k9fstjzcajbc",
+          "title": "Hochul signs executive order on data center permitting",
+          "publisher": "Cornell Daily Sun",
+          "document_date": "2026-07-18",
+          "source_type": "news",
+          "supports": "Corroborates the one-year duration and 50 MW threshold of Executive Order 62",
+          "quote": "New York will lead the way in creating the strongest standards in the nation for data center development."
+        }
+      ],
+      "notes": "This is a state-level executive action (the Governor), not a local-government moratorium, so it sits outside this dataset's normal scope -- included because it directly affects NY data-center coverage and post-dates the 2026-04-28 cutoff. Both sources are news; the official Executive Order text (e.g., on governor.ny.gov) was not directly fetched this pass. Recommend locating the primary EO text before treating this as a firm database entry."
+    }
+  ]
+}

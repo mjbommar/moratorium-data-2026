@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Michigan as of April 2026.
 
-**34 instruments** — 29 in force, 4 pending, 1 past. Activity level: **High**.
+**63 instruments** — 55 in force, 4 pending, 4 past. Activity level: **High**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

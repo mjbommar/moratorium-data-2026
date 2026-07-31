@@ -1,0 +1,120 @@
+{
+  "state_abbrev": "IL",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "il-godfrey-2026",
+      "outcome": "unresolvable",
+      "confidence": 0.3,
+      "evidence": [
+        {
+          "url": "https://godfreyil.org/?s=data+center",
+          "title": "Village of Godfrey site search: 'data center'",
+          "publisher": "Village of Godfrey, Illinois",
+          "document_date": "2026-07-31",
+          "source_type": "other",
+          "supports": "The village's own site search and Recent Posts/Press Release archive (which lists posts through July 2026, including a July 2026 meeting-schedule post) contain no press release, agenda item, or news post referencing the data center moratorium being extended, replaced, or rescinded after its January 20, 2026 enactment.",
+          "quote": "Recent Posts Lewis & Clark Community College e-waste schedule for August 28th & 29th July 2026 Village Meetings & Events Schedule Recycle Coach Madison County new Mass Notification System Update May 15, 2026 - Tremont & Springhaven Subdivision - Brighton Water Project"
+        },
+        {
+          "url": "https://godfreyil.org/boards-and-committees/village-board-of-trustees/",
+          "title": "Village Board of Trustees",
+          "publisher": "Village of Godfrey, Illinois",
+          "document_date": "2026-07-31",
+          "source_type": "other",
+          "supports": "Portal checked for a board minutes/agenda archive; the page lists only general ordinance guides and the 2026 meeting schedule, with no accessible minutes archive showing post-expiry board action on the data center moratorium.",
+          "quote": "Village-Board-Schedule... 2026-Village-Board-Meeting-Schedule-revised-layout.pdf"
+        },
+        {
+          "url": "https://godfreyil.org/boards-and-committees/ordinance-rewrite-committee/",
+          "title": "Ordinance Rewrite Committee",
+          "publisher": "Village of Godfrey, Illinois",
+          "document_date": "2026-07-09",
+          "source_type": "other",
+          "supports": "Checked as a plausible venue for a data-center zoning/ordinance follow-up; page (last modified 2026-07-09 per its own byline) contains no mention of data centers.",
+          "quote": "John Uhl 2026-07-09T15:04:47-05:00"
+        }
+      ],
+      "notes": "The existing record's own basis (January 20, 2026 minutes, per the current legal_basis field) establishes a hard 180-day maximum, which computes to an expiry of approximately 2026-07-19 -- 12 days before this research pass. I could not locate any Village Board, Planning & Zoning Commission, or Building & Zoning Department action (extension, replacement ordinance, or rescission) after that date. Direct attempts to re-verify via the original covering outlets (RiverBender, Advantage News) and a KSDK-network affiliate were blocked by bot protection (HTTP 403/429) on every retry this session, and the village's own committee/board pages show no minutes archive or press release addressing the topic after enactment. Because the resolution's own text allows the board to act 'by resolution or ordinance' before the cap, but is otherwise silent on what happens if the board does nothing, I cannot responsibly infer whether the pause lapsed, was quietly continued, or was addressed informally. Recommend a follow-up FOIA request or direct call to the Godfrey Building and Zoning Office to confirm the current handling of data center applications."
+    },
+    {
+      "moratorium_id": "il-collinsville-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "confidence": 0.5,
+      "changes": {
+        "jurisdiction": {
+          "from": "City of Collinsville (proposed, not enacted)",
+          "to": "City of Collinsville",
+          "reason": "A May 28, 2026 Troy Times Tribune article, written about a neighboring city's own moratorium, states as an established fact that Collinsville 'approved' a year-long data center moratorium, which is inconsistent with the 'proposed, not enacted' qualifier carried since the 2026-04-29 pass."
+        },
+        "current_status": {
+          "from": "Recommendation only; not enacted. Planning Commission recommended a 12-month moratorium on 2025-12-11; Collinsville Legistar shows no City Council moratorium matter since that date and the Planning Commission moved on to a text-amendment discussion (matter 5501-2025) on 2026-03-12.",
+          "to": "Reported as enacted: a May 28, 2026 Troy Times Tribune article states, in the course of describing Troy's own six-month moratorium, that 'Collinsville approved a year-long moratorium.' This indicates the City Council acted on the Planning Commission's December 11, 2025 recommendation at some point before late May 2026. Collinsville's own website (collinsvilleil.org) and Legistar system (both the public site and the webapi.legistar.com/v1/collinsvilleil endpoint) returned bot-protection errors (HTTP 403) or a client-configuration error to every automated retrieval attempt this session, so the ordinance number and exact adoption date could not be independently confirmed.",
+          "reason": "Direct, contemporaneous confirmation was not obtainable from Collinsville's own records this pass, but a dated news article from a neighboring jurisdiction's coverage treats Collinsville's enactment as settled fact, which is more current information than the 2026-04-29 'not enacted' finding."
+        },
+        "outcome": {
+          "from": "City Council never enacted the proposed moratorium; per Collinsville Legistar (2026-04-29) the Planning Commission instead took up matter 5501-2025 \"Discussion - Data Center Text Amendment\" on 2026-03-12, signaling a shift to direct text-amendment drafting in lieu of a moratorium pause.",
+          "to": "Per a May 28, 2026 Troy Times Tribune comparative reference, Collinsville did in fact enact its proposed year-long data center moratorium at some point between the Planning Commission's December 11, 2025 recommendation and late May 2026, despite the Planning Commission's parallel March 2026 discussion of a text amendment. Ordinance number and exact date not independently confirmed this pass.",
+          "reason": "See current_status change."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.timestribunenews.com/2026/05/28/troy-officials-to-provide-data-center-update-in-june/",
+          "title": "Troy officials to provide data center update in June",
+          "publisher": "The Troy Times Tribune",
+          "document_date": "2026-05-28",
+          "source_type": "news",
+          "supports": "States, while describing Troy, Illinois's own six-month data center moratorium, that Collinsville had already approved a year-long moratorium, contradicting the prior 'not enacted' finding.",
+          "quote": "While Collinsville approved a year-long moratorium, Troy City Attorney Fred Keck believes a 12-month moratorium is not as defensible as a six-month stoppage as courts have ruled in favor of six months, said City Administrator Jay Keeven."
+        },
+        {
+          "url": "https://webapi.legistar.com/v1/collinsvilleil/matters?%24filter=substringof('moratorium',MatterTitle)",
+          "title": "Legistar Web API - collinsvilleil matters",
+          "publisher": "Granicus/Legistar",
+          "document_date": "2026-07-31",
+          "source_type": "other",
+          "supports": "Attempted to re-run the same Legistar API query the prior pass used; the API returned a client-configuration error ('LegistarConnectionString setting is not set up ... for client: collinsvilleil') rather than data, so this pass could not independently re-confirm matter-level detail.",
+          "quote": "Message: An error has occurred. ExceptionMessage: LegistarConnectionString setting is not set up in InSite for client: collinsvilleil"
+        }
+      ],
+      "notes": "This reverses the 2026-04-29 finding that the moratorium was 'not enacted' -- but confidence is capped at moderate because the only supporting source is a comparative aside in coverage of a neighboring city's ordinance, not a dedicated Collinsville article, minutes, or ordinance text. Collinsville's own website and Legistar instance both blocked or errored on automated retrieval this session (collinsvilleil.org returned HTTP 403 to both curl and WebFetch; the Legistar webapi returned a server-side configuration error). A follow-up pass should obtain the actual Collinsville ordinance number, adoption date, and final text directly from city records or a dedicated news source before this is treated as fully confirmed."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Illinois",
+      "jurisdiction": "City of Troy",
+      "jurisdiction_type": "City",
+      "date_enacted": "March 2026 (exact date not captured; per a May 28, 2026 Troy Times Tribune article, enacted after multiple council meetings between January and March 2026)",
+      "date_enacted_iso": "2026-03",
+      "date_enacted_uncertainty": "month_only",
+      "duration": "6 months, with council-discretion option to extend for another 6 months starting September 2026",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Troy City Council ordinance (specific number not captured this pass)",
+      "trigger": "Data center development interest; city sought time to research other states' ordinances/resolutions and add requirements before considering data center real estate proposals; city attorney favored 6 months over 12 as more legally defensible",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of May 28, 2026 per the Troy Times Tribune; city staff were still developing a three-step ordinance review process (planning commission review, first reading, second reading/vote) and preparing to solicit public comment via a dedicated email address as of that date.",
+      "enacted_status": "active",
+      "affected_projects": "Not specified in available reporting",
+      "outcome": "Moratorium in effect while the city studies data center regulations from other jurisdictions; may be extended for another six months beginning September 2026 at council's discretion",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.timestribunenews.com/2026/05/28/troy-officials-to-provide-data-center-update-in-june/",
+          "title": "Troy officials to provide data center update in June",
+          "publisher": "The Troy Times Tribune",
+          "document_date": "2026-05-28",
+          "source_type": "news",
+          "supports": "Confirms Troy, IL enacted a six-month data center moratorium in March 2026 after multiple council meetings between January and March, extendable for another six months from September 2026.",
+          "quote": "In March, Troy's city council voted to enact a six-month moratorium on data centers after multiple long meetings on the topic between January and March. This moratorium allows city officials time to do more data center research, locate ordinances and resolutions in other states that could apply in Illinois and add those to the city's requirements for any future data center real estate companies eyeing the area. ... If the Troy City Council chooses, however, they can extend the moratorium for another six months starting in September."
+        }
+      ],
+      "notes": "Exact enactment date and ordinance number not captured this pass. This instrument is not currently in the inventory and was discovered incidentally while researching the Collinsville item; it postdates the stated 2026-04-28 coverage cutoff in terms of confirmation, though enactment itself appears to have occurred in March 2026."
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "state_abbrev": "FL",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "Florida",
+      "jurisdiction": "Nassau County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Adopted on final hearing 2026-06-08 by the Nassau County Board of County Commissioners (motion by Commissioner Gray, seconded by Commissioner Farmer, approved); first reading was 2026-05-11, following direction to draft on 2026-04-13.",
+      "date_enacted_iso": "2026-06-08",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months from the effective date, or until an ordinance amending the Comprehensive Plan, Land Development Regulations, and/or Code of Ordinances relating to Data Center Facilities takes effect, whichever occurs first (Ordinance 2026-044, Section 6). Effective date is upon filing with the Florida Secretary of State per s. 125.66.",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Nassau County Ordinance No. 2026-044, \"Imposing a Temporary Moratorium on the Acceptance, Review, or Approval of Applications for Development Permits, Development Orders, Rezoning, or Site Plans Related to Data Centers, Data Processing Facilities, Data Mining or Cryptocurrency Mining Operations ... Within Unincorporated Nassau County, Florida.\"",
+      "trigger": "Board directed staff to draft the moratorium in April 2026 to allow time to study and adopt comprehensive-plan and land-development-code provisions for data centers before accepting further applications; a companion resolution (2026-102) created a Fact-Finding Committee on Data Center Development that met repeatedly through June 2026.",
+      "trigger_categories": ["regulatory_gap", "infrastructure_capacity", "grid_energy", "environmental"],
+      "sectors": ["data_center", "cryptocurrency_mining"],
+      "current_status": "Active as of 2026-07-31. Checked the June 22, July 13, and July 27, 2026 BOCC agendas; no repeal, amendment, or extension item found. Applies only to unincorporated Nassau County.",
+      "enacted_status": "active",
+      "affected_projects": "No specific pending project named in the ordinance itself; adopted preemptively alongside the Fact-Finding Committee on Data Center Development.",
+      "outcome": "Ordinance adopted on final hearing 2026-06-08; moratorium in effect for up to 12 months or until permanent Data Center Facility regulations are adopted, whichever is sooner.",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://nassaucountyfl.primegov.com/Portal/Meeting?meetingTemplateId=1599",
+          "title": "Nassau County BOCC Agenda, June 8, 2026",
+          "publisher": "Nassau County, Florida",
+          "document_date": "2026-06-08",
+          "source_type": "agenda",
+          "supports": "Final-hearing agenda item to approve Ordinance 2026-044 imposing a temporary moratorium on data center applications for up to 12 months.",
+          "quote": "Approve on Final Hearing Ordinance Number 2026-044 imposing a Temporary Moratorium ... for up to twelve (12) months."
+        },
+        {
+          "url": "https://nassaufl.granicus.com/JSON.php?clip_id=2356",
+          "title": "Nassau County BOCC meeting index/captions, June 8, 2026",
+          "publisher": "Nassau County, Florida (Granicus)",
+          "document_date": "2026-06-08",
+          "source_type": "minutes",
+          "supports": "Official record of the June 8, 2026 vote adopting Ordinance 2026-044: motion by Commissioner Gray, seconded by Commissioner Farmer, approved.",
+          "quote": "Motion to Approve ... motion is to approve Ordinance 2026-044. Moved by Commissioner Gray, seconded by Commissioner Farmer. Vote to Approve ... (Approved)."
+        },
+        {
+          "url": "https://nassaucountyfl.com/DocumentCenter/View/31666/First-Reading-Moratorium-Ordinance-2026-044",
+          "title": "Ordinance No. 2026-044 (first-reading text)",
+          "publisher": "Nassau County, Florida",
+          "document_date": "2026-05-11",
+          "source_type": "ordinance",
+          "supports": "Full ordinance text: title, Section 3 establishing the moratorium, and Section 6 setting the 12-month/whichever-first-occurs duration clause.",
+          "quote": "A temporary moratorium is hereby established..."
+        }
+      ],
+      "notes": "This is the first confirmed moratorium in our inventory for Florida. Scope is unincorporated Nassau County only (does not cover any municipality within the county). Duration classified as fixed_days (365) consistent with how similar hybrid fixed-term/early-termination-event moratoria are encoded elsewhere in the inventory (e.g. Logan County, Colorado)."
+    },
+    {
+      "state": "New Mexico",
+      "jurisdiction": "Socorro County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-06-09, unanimous vote of the Socorro County Board of Commissioners.",
+      "date_enacted_iso": "2026-06-09",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year from adoption (to approximately 2027-06-09).",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Socorro County Board of Commissioners moratorium action (instrument number/ordinance-vs-resolution designation not located; no primary county document was retrievable, as the county's own resolution archive and meeting-packet portal are behind an auth-gated Google Drive/Sites link).",
+      "trigger": "Public opposition to a proposed roughly 10,000-acre solar-plus-data-center facility (\"Green Data Center\" project) and concerns over water rights/use, energy infrastructure, and public safety; commission appointed a 15-member Blue Ribbon Committee (named 2026-07-29 from 35 applicants) to study these issues and deliver non-binding recommendations at least two months before the moratorium expires.",
+      "trigger_categories": ["specific_project", "water", "grid_energy", "environmental", "regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (adopted 2026-06-09, one-year term). Blue Ribbon Committee named 2026-07-29 and is actively working; committee must report at least two months before the moratorium's expiration.",
+      "enacted_status": "active",
+      "affected_projects": "Proposed 'Green Data Center' project (~10,000-acre solar and data-center facility) that drew public opposition ahead of the vote.",
+      "outcome": "County commission unanimously adopted a one-year moratorium on data centers and their direct supporting infrastructure; a fact-finding Blue Ribbon Committee was subsequently appointed to advise the board before expiration.",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.dchieftain.com/article/3086190",
+          "title": "Socorro County adopts data center moratorium",
+          "publisher": "El Defensor Chieftain",
+          "document_date": "2026-06",
+          "source_type": "news",
+          "supports": "County commission unanimously adopted a one-year moratorium on data centers and their direct supporting infrastructure, effective 2026-06-09.",
+          "quote": "evaluate data centers and their direct supporting infrastructure, offering non-binding recommendations to the county board"
+        },
+        {
+          "url": "https://www.dchieftain.com/article/3091650",
+          "title": "Socorro County names Blue Ribbon Committee",
+          "publisher": "El Defensor Chieftain",
+          "document_date": "2026-07-29",
+          "source_type": "news",
+          "supports": "Confirms a 15-member Blue Ribbon Committee was named on 2026-07-29, tied to the active data-center moratorium and the proposed Green Data Center project.",
+          "quote": "15 members selected from 35 applicants"
+        },
+        {
+          "url": "https://html.duckduckgo.com/html/?q=Socorro+County+New+Mexico+data+center+moratorium+resolution+number+ordinance",
+          "title": "Search results: Socorro County data center moratorium",
+          "publisher": "Aggregated via DuckDuckGo (Source NM, Santa Fe New Mexican, Albuquerque Journal)",
+          "document_date": "2026-06",
+          "source_type": "news",
+          "supports": "Independent corroboration from three additional outlets (Source NM, Santa Fe New Mexican, Albuquerque Journal) that Socorro County commissioners unanimously adopted a one-year data center moratorium in June 2026, reportedly the first such local moratorium in New Mexico.",
+          "quote": "The Socorro County Board of Commissioners unanimously adopted a yearlong moratorium on data centers and related infrastructure projects"
+        }
+      ],
+      "notes": "This is the first confirmed moratorium in our inventory for New Mexico. No primary ordinance/resolution text or instrument number was obtainable despite attempts to reach socorrocounty.net's ordinance and commission pages directly; the finding rests on four independent, mutually consistent news accounts (local paper of record plus two statewide outlets and a nonprofit newsroom). Recommend a follow-up records request to pin down the exact resolution/ordinance number before treating this as fully closed."
+    },
+    {
+      "state": "North Dakota",
+      "jurisdiction": "Barnes County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-05-19, Barnes County Commission (Valley City, ND), motion by Pete Paulson, seconded by Mike Schwehr, passed 5-0.",
+      "date_enacted_iso": "2026-05-19",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months from adoption (to approximately 2026-11-19).",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Barnes County Commission motion adopting a six-month moratorium on new data center building permits/applications countywide, per official commission minutes; no separately numbered resolution/ordinance was cited in the minutes.",
+      "trigger": "Preemptive: no data center project was formally pending, but the board acted on rumor of a possible project in southern Barnes County to allow time to draft zoning/ordinance regulations before any application could be filed. Several citizens asked the board to extend the pause to a full year, but the motion that passed and was recorded was for six months.",
+      "trigger_categories": ["regulatory_gap", "specific_project"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (expires approximately 2026-11-19). No extension vote found in records reviewed.",
+      "enacted_status": "active",
+      "affected_projects": "None formally pending; rumored project in southern Barnes County cited as the impetus.",
+      "outcome": "Commission unanimously approved a six-month moratorium on new data center building permits/applications countywide effective 2026-05-19.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.barnescounty.us/wp-content/uploads/2026/06/May-19-2026-Commission-Minutes.pdf",
+          "title": "Barnes County Commission Minutes, May 19, 2026",
+          "publisher": "Barnes County, North Dakota",
+          "document_date": "2026-05-19",
+          "source_type": "minutes",
+          "supports": "Official minutes recording the motion by Pete Paulson, seconded by Mike Schwehr, adopted 5-0, imposing a six-month moratorium on new data center building permits/applications countywide.",
+          "quote": "moratorium on new data center building permits/applications"
+        },
+        {
+          "url": "https://www.grandforksherald.com/opinion/letters/letter-special-session-needed-to-address-data-centers-in-north-dakota",
+          "title": "Letter: Special session needed to address data centers in North Dakota",
+          "publisher": "Grand Forks Herald",
+          "document_date": "2026",
+          "source_type": "news",
+          "supports": "Corroborates that on May 19, Barnes County placed a six-month moratorium on AI data centers.",
+          "quote": "On May 19, Barnes County placed a six-month moratorium on AI data centers."
+        }
+      ],
+      "notes": "Confirmed against a primary source (the county's own posted commission minutes PDF)."
+    },
+    {
+      "state": "Oklahoma",
+      "jurisdiction": "Edmond",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-08 (Monday), Edmond City Council, unanimous vote, adopted with an emergency clause making it effective immediately.",
+      "date_enacted_iso": "2026-06-08",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Runs through 2026-12-31; staff to report back to council at the 2, 3, and 5-month marks.",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "legal_basis": "Edmond city ordinance/resolution adopted by unanimous council vote (ordinance number not located; Edmond's own AgendaCenter/site search did not surface the item).",
+      "trigger": "No pending data center proposal in the city at time of adoption; preemptive pause to allow study of water, electricity, and infrastructure impacts and to draft permanent zoning rules.",
+      "trigger_categories": ["regulatory_gap", "infrastructure_capacity", "grid_energy", "water"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; runs through 2026-12-31.",
+      "enacted_status": "active",
+      "affected_projects": "None pending at time of adoption.",
+      "outcome": "City Council unanimously adopted an immediate moratorium on data center applications, rezoning requests, and permits within city limits, through the end of 2026.",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.news9.com/data-centers-in-oklahoma/edmond-approves-immediate-pause-on-future-data-center-development",
+          "title": "Edmond approves immediate pause on future data center development",
+          "publisher": "News 9 (Oklahoma)",
+          "document_date": "2026-06",
+          "source_type": "news",
+          "supports": "Edmond City Council voted unanimously on June 8, 2026 to adopt a moratorium on data center applications, rezoning requests, and permits, effective immediately via emergency clause, through December 31, 2026.",
+          "quote": "Mayor Mark Nash"
+        }
+      ],
+      "notes": "No primary ordinance text or council minutes/Legistar record located; rests on specific, consistent local-broadcast news coverage giving an exact date and end date."
+    },
+    {
+      "state": "Pennsylvania",
+      "jurisdiction": "Hazle Township",
+      "jurisdiction_type": "Township",
+      "date_enacted": "2026-06-08, Hazle Township (Luzerne County) Board of Supervisors, unanimous vote adopting a curative amendment.",
+      "date_enacted_iso": "2026-06-08",
+      "date_enacted_uncertainty": "exact",
+      "duration": "180 days from adoption (to approximately 2026-12-05).",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Municipal curative amendment adopted by the Hazle Township Board of Supervisors, temporarily invalidating portions of the township zoning ordinance for 180 days on the stated grounds that the ordinance is deficient because it does not address data centers (instrument number not located).",
+      "trigger": "Followed sustained community opposition (\"Project Hazelnot\") to NorthPoint Development's proposed ~1,300-acre, 15-building \"Project Hazelnut\" data-center campus with substation, which the township had already rejected in November 2025 and which a Luzerne County judge ruled against in spring 2026.",
+      "trigger_categories": ["specific_project", "regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (expires approximately 2026-12-05).",
+      "enacted_status": "active",
+      "affected_projects": "NorthPoint Development's proposed 'Project Hazelnut' data-center campus, previously denied by the township and by a county court.",
+      "outcome": "Board of Supervisors unanimously adopted a 180-day curative amendment pausing consideration of new data-center applications while permanent zoning language is drafted.",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.foodandwaterwatch.org/2026/06/09/hazle-township-pa-pauses-data-center-development-for-six-months/",
+          "title": "Hazle Township, PA Pauses Data Center Development for Six Months",
+          "publisher": "Food & Water Watch",
+          "document_date": "2026-06-09",
+          "source_type": "news",
+          "supports": "Board of Supervisors unanimously passed a municipal curative amendment on June 8, 2026 pausing consideration of new data-center applications for six months (180 days), following opposition to NorthPoint's Project Hazelnut and a prior county judge ruling against the developer.",
+          "quote": "the Hazle Township Board of Supervisors unanimously passed a municipal curative amendment that pauses consideration of any new data center applications for six months"
+        },
+        {
+          "url": "https://html.duckduckgo.com/html/?q=Hazle+Township+Luzerne+County+Pennsylvania+data+center+moratorium+ordinance+180+days",
+          "title": "Search results: Hazle Township data center moratorium",
+          "publisher": "Aggregated via DuckDuckGo (Fox56, Standard Speaker, Food & Water Watch)",
+          "document_date": "2026-06",
+          "source_type": "news",
+          "supports": "Independent corroboration from Fox56 and the Standard Speaker that supervisors approved a 180-day curative amendment on June 8, 2026 temporarily invalidating the zoning ordinance to pause data-center applications.",
+          "quote": "Hazle Township supervisors unanimously approved a curative amendment Monday night, temporarily invalidating portions of the township's zoning ordinance for 180 days"
+        }
+      ],
+      "notes": "Distinct jurisdiction from our existing Montour County, PA inventory row -- different county, different project. No primary township ordinance/resolution document was located."
+    },
+    {
+      "state": "Alabama",
+      "jurisdiction": "Leeds",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-08 (Monday night), Leeds City Council, unanimous vote.",
+      "date_enacted_iso": "2026-06-08",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year from adoption (to approximately 2027-06-08).",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Leeds City Council ordinance imposing a one-year moratorium on data center and other high-impact facility development, halting new permits and approvals (ordinance number not located).",
+      "trigger": "No active data center project underway in Leeds at time of adoption; preemptive pause to allow the city to update zoning ordinances and gather public feedback, amid a wider wave of Alabama municipalities (Birmingham, Homewood, and later Pinson) considering similar pauses.",
+      "trigger_categories": ["regulatory_gap", "environmental", "water"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (expires approximately 2027-06-08).",
+      "enacted_status": "active",
+      "affected_projects": "None pending at time of adoption.",
+      "outcome": "City Council unanimously adopted a one-year moratorium halting new data-center permits and approvals.",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.wbrc.com/2026/06/09/city-leeds-passes-one-year-moratorium-data-center-development/",
+          "title": "City of Leeds passes one-year moratorium on data center development",
+          "publisher": "WBRC",
+          "document_date": "2026-06-09",
+          "source_type": "news",
+          "supports": "Leeds City Council unanimously passed a one-year moratorium on data center development on June 8, 2026, halting all permits and approvals, with no active data center project underway at the time.",
+          "quote": "The Leeds City Council unanimously passed a one-year moratorium on data center development, halting all permits and approvals."
+        },
+        {
+          "url": "https://html.duckduckgo.com/html/?q=Leeds+Alabama+city+council+data+center+moratorium+one+year",
+          "title": "Search results: Leeds Alabama data center moratorium",
+          "publisher": "Aggregated via DuckDuckGo (WVTM13, CBS42, AL.com)",
+          "document_date": "2026-06",
+          "source_type": "news",
+          "supports": "Independent corroboration from WVTM13, CBS42, and AL.com that the Leeds City Council unanimously approved a one-year moratorium on data centers and other high-impact facilities on Monday, June 8, 2026.",
+          "quote": "Leeds City Council members unanimously approved a one-year moratorium on data centers Monday night."
+        }
+      ],
+      "notes": "No primary ordinance text or council minutes located; rests on multiple independent, mutually consistent Birmingham-market news outlets giving the same date and terms."
+    },
+    {
+      "state": "Connecticut",
+      "jurisdiction": "West Haven",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-08 (Monday), West Haven City Council, unanimous vote.",
+      "date_enacted_iso": "2026-06-08",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months from adoption (to approximately 2027-06-08).",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "West Haven City Council ordinance imposing a 12-month moratorium on data center development, suspending permit processing and zoning actions for facilities meeting the city's data-center definition (ordinance number not located).",
+      "trigger": "Regulatory gap: city sought time for planning and zoning officials to study land-use, environmental, infrastructure, and public-safety implications before developing permanent zoning language, following similar moves by Groton and Morris, CT.",
+      "trigger_categories": ["regulatory_gap", "environmental", "infrastructure_capacity"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (expires approximately 2027-06-08).",
+      "enacted_status": "active",
+      "affected_projects": "None named; adopted preemptively.",
+      "outcome": "City Council unanimously adopted a 12-month moratorium on new data centers to allow time to develop zoning language.",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://html.duckduckgo.com/html/?q=%22West+Haven%22+Connecticut+data+center+moratorium+ordinance+2026",
+          "title": "Search results: West Haven Connecticut data center moratorium",
+          "publisher": "Aggregated via DuckDuckGo (citizenportal.ai, NH Register, New Haven Independent)",
+          "document_date": "2026-06",
+          "source_type": "news",
+          "supports": "West Haven's City Council unanimously approved a 12-month moratorium on data-center development in June 2026 to give planning and zoning officials time to study land-use, environmental, infrastructure, and public-safety implications.",
+          "quote": "West Haven enacts 12-month moratorium on data-center development ... to give planning and zoning officials time to study land-use, environmental, infrastructure and public-safety implications"
+        },
+        {
+          "url": "https://html.duckduckgo.com/html/?q=NH+Register+%22West+Haven%22+%22one-year+moratorium%22+data+center",
+          "title": "Search results: NH Register West Haven one-year moratorium",
+          "publisher": "Aggregated via DuckDuckGo (New Haven Register)",
+          "document_date": "2026-06-10",
+          "source_type": "news",
+          "supports": "West Haven's City Council voted for a one-year moratorium on data centers on Monday, June 8, 2026, with Mayor Dorinda Borer citing concerns about electrical rates, the environment, and community health.",
+          "quote": "West Haven's City Council voted for a one-year moratorium on data centers Monday, giving the city time to develop zoning language."
+        }
+      ],
+      "notes": "Direct fetches of nhregister.com, ctinsider.com, and westhaven-ct.gov were blocked; evidence rests on search-index snippets of three independent outlets (citizenportal.ai, New Haven Register, New Haven Independent) that are internally consistent on date, duration, and mayoral quote. Our existing New Haven, CT inventory row (ct-new-haven-undated) cites West Haven as one of the towns whose approach it is modeling, consistent with West Haven already having acted."
+    },
+    {
+      "state": "Missouri",
+      "jurisdiction": "City of Columbia",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-05 (Columbia City Council; exact day not found in sources reviewed).",
+      "date_enacted_iso": "2026-05",
+      "date_enacted_uncertainty": "month_only",
+      "duration": "Until May 2027 (per Columbia Missourian: \"placed a moratorium, which prevents new data centers from being built, until May 2027\"; Missouri Rural Crisis Center separately described it as a halt \"until Spring 2027\").",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "legal_basis": "Columbia City Council moratorium preventing new data centers from being built (ordinance/resolution number not located); followed an April 2026 council action defining 'data centers' in the zoning code.",
+      "trigger": "Regulatory gap: council defined data centers in zoning code in April 2026, then paused new data-center construction while the Planning & Zoning Commission drafts permanent regulations (commission meetings continuing through at least November 2026, with a council vote expected in 2027).",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; Planning & Zoning Commission still drafting permanent regulations as of June 2026 reporting.",
+      "enacted_status": "active",
+      "affected_projects": "Not specified in sources reviewed.",
+      "outcome": "City Council placed a moratorium preventing new data centers from being built while permanent zoning regulations are drafted.",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.columbiamissourian.com/news/local/planning-and-zoning-begins-talks-about-data-centers/article_cd5365ab-f2ac-461c-abd1-9b10455d69fe.html",
+          "title": "Planning and Zoning begins talks about data centers",
+          "publisher": "Columbia Missourian",
+          "document_date": "2026-06-04",
+          "source_type": "news",
+          "supports": "Columbia City Council defined data centers in zoning code in April 2026, then in May placed a moratorium preventing new data centers from being built until May 2027.",
+          "quote": "In May, they placed a moratorium, which prevents new data centers from being built, until May 2027."
+        },
+        {
+          "url": "https://www.kbia.org/2026-06-10/columbia-planning-and-zoning-commission-to-hold-meetings-over-data-centers",
+          "title": "Columbia Planning and Zoning Commission to hold meetings over data centers",
+          "publisher": "KBIA",
+          "document_date": "2026-06-10",
+          "source_type": "news",
+          "supports": "Missouri Rural Crisis Center statement corroborating that the Columbia city council halted all data center developments until Spring 2027.",
+          "quote": "We're grateful our city council has halted all data center developments until Spring 2027."
+        }
+      ],
+      "notes": "This is the City of Columbia, distinct from our existing Missouri rows (City of Peculiar, City of St. Charles, Jackson County) and distinct from a separate St. Charles COUNTY moratorium reported in the same news cycle -- do not conflate. No primary ordinance/resolution text or number was located; como.gov's own site did not surface a matching record."
+    }
+  ]
+}

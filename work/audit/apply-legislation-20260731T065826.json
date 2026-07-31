@@ -1,0 +1,305 @@
+{
+  "applied_at": "20260731T065826",
+  "answer_files": [
+    "work/answers/legislation/AZ.json",
+    "work/answers/legislation/CA.json",
+    "work/answers/legislation/CT.json",
+    "work/answers/legislation/GA.json",
+    "work/answers/legislation/HI.json",
+    "work/answers/legislation/IA.json",
+    "work/answers/legislation/IL.json",
+    "work/answers/legislation/MD.json",
+    "work/answers/legislation/MI.json",
+    "work/answers/legislation/MN.json",
+    "work/answers/legislation/MS.json",
+    "work/answers/legislation/NE.json",
+    "work/answers/legislation/NJ.json",
+    "work/answers/legislation/NV.json",
+    "work/answers/legislation/NY.json",
+    "work/answers/legislation/OH.json",
+    "work/answers/legislation/OK.json",
+    "work/answers/legislation/PA.json",
+    "work/answers/legislation/RI.json",
+    "work/answers/legislation/SC.json",
+    "work/answers/legislation/SD.json",
+    "work/answers/legislation/TX.json",
+    "work/answers/legislation/UT.json",
+    "work/answers/legislation/VA.json",
+    "work/answers/legislation/WI.json",
+    "work/answers/legislation/WV.json"
+  ],
+  "stats": {
+    "outcome:status_changed": 94,
+    "outcome:confirmed_unchanged": 179,
+    "new_bill_duplicate": 12,
+    "outcome:corrected": 12,
+    "set:status": 7,
+    "set:bill_status_category": 7,
+    "set:last_action_date_iso": 7,
+    "set:chamber_of_origin": 7,
+    "new_bills_added": 1
+  },
+  "session_notes": {
+    "AZ": "Arizona's 57th Legislature, Second Regular Session (2026) adjourned Sine Die on 2026-06-13 (roughly 4:45am), after a 153-day session. Bills not enacted by that date are dead for the biennium's second-year session; Arizona does not carry single bills forward into a new regular session. The official Bill Status Inquiry site (apps.azleg.gov/BillStatus) is a JavaScript single-page app that does not render usable content via plain HTTP fetch, so this pass relied on FastDemocracy and BillTrack50 (both of which mirror azleg.gov's own action-log data feed) for detailed chronological action histories; their own auto-generated 'status' summary labels were found to be unreliable (e.g. mislabeling withdrawn/dead bills as pending or enacted) and were NOT trusted -- only the underlying dated action-by-action history was used to determine disposition. Confidence is set lower than a direct legislature-page fetch would warrant as a result.",
+    "CA": "The 2025-2026 California Legislature is a two-year regular session that convened December 2, 2024 and does not adjourn sine die until November 30, 2026 (final floor votes/chaptering typically run through August-September 2026, with the Governor's last bill-signing deadline in early-to-mid October 2026). As of 2026-07-31 the Legislature is in its scheduled summer recess (mid-July to early August), which is why several bills below show a last action in late June/early July with a committee hearing already calendared for the first week of August 2026. Bills introduced in 2025 that had not passed their house of origin by the constitutional January 31, 2026 deadline (Cal. Const. art. IV, sec. 10(c)) die automatically (e.g., AB1095); bills that already cleared that deadline or were introduced fresh in 2026 remain live for the rest of the biennium and are not 'carried over' in any special procedural sense - they are simply still pending on the normal 2026 calendar.",
+    "CT": "Connecticut's 2026 regular session (an even-year, short session) convened 2026-02-04 and adjourned sine die on 2026-05-06, confirmed directly from the House Journal for that date ('the House adjourned at 12:00 o'clock a.m., sine die'). A separate constitutionally mandated veto session convened for one day on 2026-06-15 but did not take up any bill that had not already passed both chambers. Connecticut regular-session bills do NOT carry over: each regular session (2024, 2025, 2026) is a distinct bill universe, and any bill not enacted by that session's sine die adjournment is dead and would require reintroduction as a new bill number in a later session. The 2025 regular session sine die date (2025-06-04) and the 2024 regular session sine die date (2024-05-08) were independently confirmed the same way from the corresponding House Journals, each explicitly labeled the 'final day' / 'last day' of that session.",
+    "GA": "Georgia's 2025-2026 Regular Session (General Assembly session ID 1033, a single two-year term) adjourned sine die on Legislative Day 40, 2026-04-02, confirmed via the legislature's own session-calendar data (legis.ga.gov API sessions/days/1033, which lists day 40 as 2026-04-02 with no further legislative days scheduled); a subsequent 2026 Special Session (ID 1034, June 17-23, 2026) covered redistricting and commendation resolutions only, with no data-center-related legislation. A bill that had not passed both chambers by 2026-04-02 dies for the full biennium (Georgia does not carry bills into a third year); bills that stalled in year one (2025) could still be acted on in year two (2026), as SB 34 shows, but nothing below moved after the dates recorded.",
+    "HI": "Hawaii runs two-year bienniums (2023-2024, 2025-2026); a bill introduced in the first year that has not passed by the end of that year's session is automatically carried over into the second year of the SAME biennium (marked with a 'Carried over to [year] Regular Session' housekeeping entry on the bill-status page), but any bill that has not passed both chambers by the end of the second year dies with the biennium and does not carry into the next biennium (confirmed directly on capitol.hawaii.gov's own measure-status pages for SB284 and SB338 below). Resolutions (HR/SR/HCR/SCR) are generally introduced fresh each year and do not carry the same multi-year life as bills. The 2026 regular session convened the third Wednesday in January (2026-01-21) per the state constitution's 60-working-day limit; I could not independently fetch a dedicated 'session calendar/deadlines' page confirming an official sine die date (capitol.hawaii.gov returned 403/404 for the calendar URLs tried and the web-search tool's quota was exhausted for this session), but the bill-status pages themselves show floor action concluding by 2026-04-27 (HCR206 final adoption) with only post-adjournment ministerial entries after that (e.g. SR90 'Certified copies of resolutions sent' on 2026-05-12), consistent with Hawaii's typical late-April/early-May sine die pattern in recent years.",
+    "IA": "The 91st Iowa General Assembly spans 2025-2026; a bill not enacted in 2025 can still be alive at the start of 2026 (its own bill number persists), but the second year (2026 session) adjourned Sine Die on 2026-05-03, and there is no further carryover into a 92nd General Assembly. Bills with no recorded action reaching a floor vote by 2026-05-03 are dead; several data-center bills stalled in committee well before that date, consistent with Iowa's internal 'funnel' deadlines that require bills to advance out of committee/one chamber by a set date each session to remain eligible for further floor action. Iowa's official BillBook pages are JS-rendered and did not return history data via plain fetch, but the underlying legis.iowa.gov billTracking/billHistory JSON-backed endpoint (same official data source) did, and was used for every decision below.",
+    "IL": "Illinois's 104th General Assembly is a genuine two-year biennium (convened January 2025, does not adjourn Sine Die until January 2027 when the 105th GA is sworn in), so any bill still pending in a committee at the end of 2025 carries automatically into 2026 without refiling or renumbering. The Illinois Senate uses successive 'Rule 2-10' committee-deadline extensions (and, once a deadline lapses without committee action, a 'Rule 3-9(a)' re-referral to the Assignments Committee) to keep bills technically alive rather than letting them die outright; a Rule 3-9(a) re-referral to Assignments is a parking mechanism, not a formal death, and ILGA's own status pages never label these bills 'dead,' 'failed,' or 'Session Sine Die.' Several bills in this packet (SB2181, SB3120, SB3761, SB3830, SB4004, SB4016) show an identical late-session pattern: deadline extended from an original date through 2026-04-24, then 2026-05-15, then a further undocumented-in-packet extension to 2026-05-22, at which point the deadline lapsed and the bill (with any pending amendments) was re-referred to Assignments under Rule 3-9(a) on 2026-05-22 with no recorded action since. This mirrors what already happened to HB3574, SB0094, and SB2290 in 2025 (re-referred to Assignments in April-June 2025 and untouched since), which remain formally pending, not formally dead, more than a year later. None of the 11 bills in this packet has been reported out of committee, passed both chambers, or enacted as of 2026-07-31, except that HB3574 did pass the House on 2025-04-10 (114-1-0) and is now stalled in the Senate Assignments Committee.",
+    "MD": "Maryland's 2026 Regular Session convened 2026-01-14 and adjourned Sine Die on 2026-04-13 (second Monday in April), confirmed from the bill history of HB1532/HB0293 which show final floor action on that date; Maryland's 90-day fixed session does not carry bills into a future year, so any 2026 bill without a recorded committee vote or floor passage by 2026-04-13 died at adjournment (failed_died), and only bills the Governor signed (or let become law) after that date count as enacted.",
+    "MI": "Michigan's 104th Legislature covers the 2025-2026 term (through December 2026); Michigan bills carry over between the two years of the same term without needing reintroduction (a bill introduced in 2025 remains the same live bill in 2026). As of the research date the Legislature has not adjourned sine die - it is in summer recess (House adjourned until 2026-08-11, Senate until 2026-08-12, per legislature.mi.gov), so no bill below is 'died' or 'carried_over'; unpassed bills are simply still in_committee and legitimately pending.",
+    "MN": "The 94th Minnesota Legislature covers the 2025-2026 biennium; the 2026 regular session adjourned Sine Die on 2026-05-18 (constitutional deadline, first Monday after the third Saturday in May), which is the end of the biennium -- there is no further carryover beyond this date. A bill with no committee vote or floor action recorded by 2026-05-18 is dead. All action-history data below comes from each bill's own page on revisor.mn.gov (the Legislature's official bill-tracking system), read via its status log rather than any auto-generated summary label.",
+    "MS": "Mississippi holds annual (non-carryover) regular sessions; each year's bills are independent and any bill not passed by that year's sine die adjournment is dead and must be reintroduced in a later year. The 2026 Regular Session convened in January 2026; floor action on the two enacted bills below concluded with conference-report adoption on 2026-03-31, enrolled-bill signing on 2026-04-02/04-06, and gubernatorial approval on 2026-04-08, consistent with the Legislature's normal early-April sine die timeframe for an even-year (non-budget-only) session; an independent adjournment-resolution date was not separately fetched in this pass.",
+    "NE": "The 109th Legislature, 2nd Regular Session (2026), adjourned sine die on 2026-04-17 (legislative Day 60), ending the 2025-2026 biennium; the legislature's own homepage confirms 'The Legislature has adjourned SINE DIE.' Nebraska bills carry over from the 1st Session (2025) to the 2nd Session (2026) of the same biennium, but nothing carries past this sine die into a future biennium, so every bill in this packet has a true final 2026 disposition and none should be 'carried_over'.",
+    "NJ": "New Jersey's 221st Legislature (2024-2025 session) adjourned sine die in mid-January 2026 (final flurry of floor action 2026-01-12, new 222nd Legislature seated 2026-01-13); NJ does not carry bills across a Legislature boundary with the same number, so any 2024-2025 bill not enacted before that changeover is dead and would need reintroduction as a new bill in 2026-2027 to advance. The 222nd Legislature (2026-2027 session) began 2026-01-13 and runs as a single continuous biennium into January 2028, so a 2026-2027 bill sitting in committee as of 2026-07-31 is simply pending, not dead or 'carried_over' in the cross-Legislature sense; true carried_over status would only apply if checking status deep into 2027 for a bill still alive from 2026.",
+    "NV": "The Nevada Legislature meets in regular session only in odd-numbered years (biennial, constitutionally limited to 120 days). NELIS's own 83rd (2025) Session Information page states: 'The 83rd Session adjourned Sine Die on June 3, 2025.' There is no 84th regular session until 2027 (NELIS lists '84th (2027) Session' as the next one; no 2026 regular session exists). However, Governor Lombardo DID call a special session in 2025-2026: the 36th (2025) Special Session convened November 13, 2025 and adjourned Sine Die on November 19, 2025 (confirmed via NELIS session-info page and the Governor's Proclamation PDF at leg.state.nv.us/Session/36th2025Special/Docs/Proclamation.pdf). The Proclamation's authorized business was limited to: motor vehicle short-term-lease insurance (SB194), a Statewide Health Care Access and Recruitment Program (SB434), a public-safety/criminal-justice omnibus bill (SB457), a film/motion-picture production-studio infrastructure tax-credit act (AB238, 'Nevada Studio Infrastructure Jobs and Workforce Training Act'), alcoholic-beverage regulation (AB404), a Windsor Park housing relocation program (SB450 from the 82nd Session), a Legislative Department land-parcel/NRS-organization cleanup (AB600 from the 83rd Session), cybersecurity, a general assistance program, school-zone traffic safety, privacy of public officers' information, wages and hours, and specified appropriations. None of these authorized topics touch data centers, energy/utility siting, tax abatements under NRS 360.754/360.750s, or NRS 704 public-utility definitions, and the special session's own subject-matter restriction (Nev. Const. art. V, sec. 9: the Legislature 'shall not introduce, consider or pass any bills except those related to the business for which the Legislature has been specially convened') means it legally could not have reopened or amended any of these 7 bills. All 7 bills below reached their final regular-session dispositions between April 12, 2025 and June 10, 2025, well before the special session even convened, so the special session had zero effect on them. This confirms the 2025 dispositions captured in the original packet are final and will not change absent a future 2027 regular session or a new special session on this topic.",
+    "NY": "New York runs a two-year 2025-2026 session; bills not enacted, defeated, or withdrawn carry over automatically from 2025 into 2026 and only die at sine die adjournment of the second year (December 31, 2026); the lower chamber is the Assembly, not the House.",
+    "OH": "Ohio's 136th General Assembly is a continuous two-year session (2025-2026); bills carry over automatically from 2025 into 2026 without any formal carryover action, and the GA does not adjourn sine die until around December 2026. As of 2026-07-31 the session is still ongoing, so bills sitting in committee with no adverse action remain 'in_committee' rather than 'carried_over' or 'failed_died'.",
+    "OK": "Oklahoma's 60th Legislature runs a two-year biennium (2025-2026) but each year's session adjourns sine die separately; 2025 bills not enacted by the 2025 sine die date generally remain alive and can be taken up again in the 2026 session of the same 60th Legislature (as SB 259 was, carried from its 2025-02-03 introduction through to 2026 passage). The Second Regular Session of the 60th Oklahoma Legislature convened 2026-02-02 and adjourned sine die on Friday, 2026-05-29 (NLT 5:00 p.m.), per the official House legislative deadlines page (okhouse.gov/leg_deadlines). Any bill not passed and signed into law by that date is dead for the 2025-2026 biennium; a new bill number would be required starting with the 2027 session.",
+    "PA": "PA's 2025-2026 General Assembly is a two-year regular session (biennium); as of 2026-07-31 it has NOT adjourned sine die (both chambers are in summer recess, scheduled to reconvene September 2026 with adjournment customarily around late November/December 2026), so pending bills remain in normal in-process status (in_committee / passed_one_chamber) rather than carried_over; carryover would only apply once a new 2027-2028 biennium begins and un-passed bills die and must be reintroduced with new numbers.",
+    "RI": "RI's General Assembly runs a 2025-2026 term but holds separate annual sessions with no automatic carryover: House and Senate floor activity for 2026 concluded 2026-06-11 (per votes.rilegislature.gov session calendars), and status.rilegislature.gov confirms bills 'held for further study' in one calendar-year session simply die -- 2025 bills (H6097, S0921) do not reappear in the 2026 session and the same sponsors/topics had to be refiled under entirely new 2026 bill numbers (e.g., H7695, S2346, S2776).",
+    "SC": "The 126th South Carolina General Assembly covers the full 2025-2026 biennium as one continuous session (scstatehouse.gov groups all bill pages under a single 'sess126_2025-2026' folder with one continuous bill-number sequence). Confirmed directly from the legislature's own bill pages: the 2nd regular session of the 126th General Assembly convened 2026-01-13, and bills prefiled in December 2025 (e.g., H.4583, S.724) were simply 'introduced and read first time' on that date under the same bill number with no reintroduction, demonstrating that 2025-2026 carryover requires no procedural restart. I could not retrieve a scstatehouse.gov page that states the exact 2026 sine die adjournment date in so many words (the site's code/constitution chapters I fetched did not contain it, its bill-search and subject-search tools require form POSTs that WebFetch could not execute, and WebSearch was unavailable - this session's search budget was already exhausted before this task began). South Carolina's regular session is widely understood to be governed by a mandatory sine die rule of the second Thursday in May (S.C. Code 2-1-180), which for 2026 falls on 2026-05-14; this is circumstantially corroborated by the bill-history evidence below, since none of the 7 tracked bills shows any action after 2026-05-06, consistent with the regular session having concluded around that date with no floor votes reached on any of them. Because the 126th General Assembly's term does not end until the 127th General Assembly organizes in January 2027, none of these bills is dead: each remains a live, pending bill in its committee of referral and could still be acted on if the chambers return for any special/interim business or when session resumes, and only formally dies if unpassed by the true end of the 2025-2026 term. Given the ambiguity between 'still in committee during an active session' versus 'session recessed post sine die but bill still pending,' I used bill_status_category 'in_committee' for all bills below (directly supported by each fetched bill page, which shows the bill still assigned to a committee with no floor vote), and flagged the carryover/non-death point in each bill's notes rather than asserting a category the schema might read as more final.",
+    "SD": "South Dakota's 101st Legislative Session (2026, SessionId 71 on sdlegislature.gov) convened 2026-01-13; the Legislature's own per-bill action logs show all business concluded with final gubernatorial signatures recorded through 2026-03-30 and show no action of any kind after any bill's deferral to the 41st legislative day, confirming SD's short annual session does not carry 2026 bills into a future year.",
+    "TX": "Texas has no regular session in even years; the 89th Legislature's only regular session (89R) ran 2025-01-14 through sine die 2025-06-02, so any 89R bill not enrolled and signed by sine die is dead with no carryover into 2026. The Governor called at least two special sessions of the 89th Legislature later in 2025 (session codes visible in the capitol.texas.gov session directory), whose agendas were dominated by redistricting and disaster/flood relief; no evidence was found on capitol.texas.gov that any of the data-center/large-load/tax-exemption bills below were placed on a special-session call or refiled under an 89S bill number.",
+    "UT": "Utah's 2026 General Session convened Tuesday, January 20, 2026 (the third Tuesday of January, per Utah Const. art. VI, sec. 2, which fixes a 45-day annual general session) and adjourned sine die on Friday, March 6, 2026. This is confirmed directly from le.utah.gov bill-action timestamps rather than assumed: HB0076's first House reading is logged 2026-01-20, and the three bills that did not pass (SB0231, SB0282, SB0318) were each formally struck (enacting clause removed) and 'Senate/ filed' as not-passed at 2026-03-06 23:59:55-23:59:59; HB0507's conference-committee resolution and final chamber sign-offs ran until 2026-03-06 20:49 (Senate) and 2026-03-07 00:16 (House, i.e. just after the midnight close of the 45th day). Utah bills do not carry over from one annual session to the next -- each general session (tracked internally by the Legislature as a distinct sessionID, e.g. '2026GS', '2025GS', '2020GS') is a discrete vehicle for bills, and a bill not passed and signed by sine die is dead for that year and must be reintroduced under a new bill number in a later session; this is illustrated directly by the packet itself, where the same general subject areas (data centers, large-load electric service) recur across separately numbered 2020, 2025, and 2026 bills.",
+    "VA": "VA's 2026 regular General Assembly session (60-day, even-year session) convened 2026-01-14 and adjourned sine die 2026-03-14. Per Va. Const. Art. V Sec. 6, the Governor then had 30 days to act on bills, i.e. a deadline of 2026-04-13 - this is why the enacted bills below show 'approved 2026-04-13' (it is the constitutional signing deadline, not a reconvened-session date). The constitutionally separate reconvened (veto/amendment) session for 2026 was held 2026-04-22 (the sixth Wednesday after adjournment), confirmed via LIS's own Session API; no bill in this set required reconvened-session action since none were amended or vetoed by the Governor in 2026. VA House of Delegates members serve 2-year terms elected in odd years; the term covering the 2026 and 2027 sessions began January 2026 (after the Nov 2025 election), so a bill 'Continued to 2027' from the 2026 session remains alive within the SAME term (bill_status_category carried_over). By contrast, HB338 (2024) and SB288 (2024) belong to the prior 2024-2025 term (elected Nov 2023); that term, and its 2025 session, are now over, so any bill left in committee/continued without further action is dead (failed_died), not carried over into the new 2026-2027 term.",
+    "WI": "The 2025 Wisconsin Legislature's biennial session period runs from noon on Monday, January 6, 2025, through noon on Monday, January 4, 2027 (per 2025 Senate Joint Resolution 1, which sets the session calendar). SJR 1 also schedules the floor periods within that biennium; for 2026 these are January 13-15/20-22, February 10-19, March 17-19 (expressly designated the last general-business floor period), April 14-16 (limited-business only), and May 12-13 (veto review only), with March 20, 2026 through January 4, 2027 designated as an interim period for committee work (and the 2027 inauguration). 'Failed to pass pursuant to Senate Joint Resolution 1' is Wisconsin's standard constructive-failure mechanism: SJR 1 provides that a bill which has not been acted on by both houses by the close of the applicable floor period is automatically deemed failed, with no separate vote required to kill it. Because all seven items below failed on 2026-03-23 - the Monday immediately after the March 17-19, 2026 period that SJR 1 itself labels the LAST general-business floor period - and because the only floor time remaining in the biennium (April 2026 limited-business and May 2026 veto-review) is procedurally restricted to narrow categories of business that would not encompass these general bills, this failure is, as a practical matter, final for the 2025-2026 biennium. The biennium does not formally end until January 4, 2027, and a bill could in theory still be revived via an extraordinary/special session called by petition of the legislature or the Governor, but no such session has been convened or scheduled for any of these measures as of the research date, so all are correctly treated as dead (failed_died) rather than carried_over.",
+    "WV": "WV 2026 regular session ran 2026-01-14 to 2026-03-14 (60-day session, per wvlegislature.gov). WV bills do NOT carry over between the two regular sessions of a legislature term: each regular session's unpassed bills die at sine die and must be reintroduced under a new bill number the next year. This is confirmed by the 2025 bills below (SB583, SB857, SB803, HB3137) which show no action past their 2025 session pages, while near-duplicate proposals (e.g. SB623 (2026), a reintroduction of the same data-center incentive concept as SB583/SB857 (2025)) appear under brand-new 2026 bill numbers rather than as continuations of the old ones."
+  },
+  "conflicts": [],
+  "changes": [
+    {
+      "bill_key": "UT:HB0076 (2026)",
+      "column": "status",
+      "before": "Enacted; Governor signed 2026-03-23",
+      "after": "Passed House 2026-01-29 (72-0-3, as substituted); Senate committee substituted/favorably recommended 2026-03-03; failed initial Senate floor vote 2026-03-05 (13-15-1), then reconsidered and passed Senate 2nd & 3rd readings 2026-03-05 (19-5-5) with a further Senate amendment; House concurred with the Senate amendment 2026-03-05 (62-2-11); enrolled 2026-03-11; Governor signed 2026-03-23",
+      "reason": "Packet's disposition (Enacted, signed 2026-03-23) is confirmed exactly. New detail found: the bill actually FAILED its first Senate floor vote 13-15-1 on 2026-03-05 before a motion to reconsider revived it and it passed 19-5-5 the same day -- a dramatic near-death not captured in the packet's summary, but it does not change the final enacted outcome.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:HB0076 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "Packet's disposition (Enacted, signed 2026-03-23) is confirmed exactly. New detail found: the bill actually FAILED its first Senate floor vote 13-15-1 on 2026-03-05 before a motion to reconsider revived it and it passed 19-5-5 the same day -- a dramatic near-death not captured in the packet's summary, but it does not change the final enacted outcome.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:HB0076 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-23",
+      "reason": "Packet's disposition (Enacted, signed 2026-03-23) is confirmed exactly. New detail found: the bill actually FAILED its first Senate floor vote 13-15-1 on 2026-03-05 before a motion to reconsider revived it and it passed 19-5-5 the same day -- a dramatic near-death not captured in the packet's summary, but it does not change the final enacted outcome.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:HB0076 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "Packet's disposition (Enacted, signed 2026-03-23) is confirmed exactly. New detail found: the bill actually FAILED its first Senate floor vote 13-15-1 on 2026-03-05 before a motion to reconsider revived it and it passed 19-5-5 the same day -- a dramatic near-death not captured in the packet's summary, but it does not change the final enacted outcome.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:HB0507 (2026)",
+      "column": "status",
+      "before": "Enacted; Governor signed 2026-03-25",
+      "after": "Passed House 2026-02-25 (69-1-5, as substituted); passed Senate with amendments 2026-03-05 (22-2-5); House refused to concur with Senate amendments 2026-03-05; House and Senate conference committees appointed 2026-03-06, conference committee substitute reported 6-0-0; Senate adopted the conference report and gave final passage 27-1-1, House gave final passage 57-1-17, both 2026-03-06; enrolled 2026-03-12; Governor signed 2026-03-25",
+      "reason": "Packet's disposition (Enacted, signed 2026-03-25) is confirmed. This bill was resolved via conference committee at the literal close of the 45-day session (final chamber sign-offs at 2026-03-06 20:49 and 2026-03-07 00:16), which the packet's summary did not capture but does not change the final enacted outcome.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:HB0507 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "Packet's disposition (Enacted, signed 2026-03-25) is confirmed. This bill was resolved via conference committee at the literal close of the 45-day session (final chamber sign-offs at 2026-03-06 20:49 and 2026-03-07 00:16), which the packet's summary did not capture but does not change the final enacted outcome.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:HB0507 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-25",
+      "reason": "Packet's disposition (Enacted, signed 2026-03-25) is confirmed. This bill was resolved via conference committee at the literal close of the 45-day session (final chamber sign-offs at 2026-03-06 20:49 and 2026-03-07 00:16), which the packet's summary did not capture but does not change the final enacted outcome.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:HB0507 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "Packet's disposition (Enacted, signed 2026-03-25) is confirmed. This bill was resolved via conference committee at the literal close of the 45-day session (final chamber sign-offs at 2026-03-06 20:49 and 2026-03-07 00:16), which the packet's summary did not capture but does not change the final enacted outcome.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0114 (2020)",
+      "column": "status",
+      "before": "Enacted; Governor signed 2020-03-31; effective 2020-07-01",
+      "after": "Enacted; Governor signed 2020-03-31 (14:50 UTC per legislative record); the qualifying-data-center sales and use tax exemption it created remains codified and in force as Utah Code 59-12-104(84) as of the code version effective 2026-07-01, with no repeal found",
+      "reason": "Old bill; explicitly re-verified that the underlying exemption is still live law, not just that the bill was once signed.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0114 (2020)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "Old bill; explicitly re-verified that the underlying exemption is still live law, not just that the bill was once signed.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0114 (2020)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2020-03-31",
+      "reason": "Old bill; explicitly re-verified that the underlying exemption is still live law, not just that the bill was once signed.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0114 (2020)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "Old bill; explicitly re-verified that the underlying exemption is still live law, not just that the bill was once signed.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0132 (2025)",
+      "column": "status",
+      "before": "Enacted; Governor signed 2025-03-25; effective 2025-05-07",
+      "after": "Passed Senate 2025-02-14 (22-1-6) and again as amended 2025-03-03 (28-1-0); passed House as substituted 2025-03-07 (71-0-4); Senate concurred with the House amendment 2025-03-07 (27-0-2); enrolled 2025-03-12; Governor signed 2025-03-25 (19:37); effective 2025-05-07",
+      "reason": "Packet's disposition (Enacted, signed 2025-03-25, effective 2025-05-07) is fully confirmed by the Legislature's own record, including the effective date embedded in the affected-section identifier.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0132 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "Packet's disposition (Enacted, signed 2025-03-25, effective 2025-05-07) is fully confirmed by the Legislature's own record, including the effective date embedded in the affected-section identifier.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0132 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-03-25",
+      "reason": "Packet's disposition (Enacted, signed 2025-03-25, effective 2025-05-07) is fully confirmed by the Legislature's own record, including the effective date embedded in the affected-section identifier.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0132 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "Packet's disposition (Enacted, signed 2025-03-25, effective 2025-05-07) is fully confirmed by the Legislature's own record, including the effective date embedded in the affected-section identifier.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0231 (2026)",
+      "column": "status",
+      "before": "Failed; Senate filed 2026-03-06",
+      "after": "Passed Senate 2026-03-03 (27-0-2, as substituted); received by House and placed on the House 3rd Reading Calendar; circled on 2026-03-06, sent back to House Rules Committee, and killed via 'strike enacting clause'; Senate filed the bill as not passed at 2026-03-06 23:59:59, the close of the 45-day session; it never received a House floor vote",
+      "reason": "Marked 'corrected' rather than 'confirmed_unchanged' because the packet's generic 'Failed; Senate filed 2026-03-06' undersold how far this bill actually got: it passed the Senate on a full floor vote (27-0-2) and reached the House's 3rd Reading Calendar before being killed procedurally (enacting clause struck) without ever receiving a House floor vote. Final disposition is death by session-end/procedural kill, not a recorded floor defeat in either chamber.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0231 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Marked 'corrected' rather than 'confirmed_unchanged' because the packet's generic 'Failed; Senate filed 2026-03-06' undersold how far this bill actually got: it passed the Senate on a full floor vote (27-0-2) and reached the House's 3rd Reading Calendar before being killed procedurally (enacting clause struck) without ever receiving a House floor vote. Final disposition is death by session-end/procedural kill, not a recorded floor defeat in either chamber.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0231 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-06",
+      "reason": "Marked 'corrected' rather than 'confirmed_unchanged' because the packet's generic 'Failed; Senate filed 2026-03-06' undersold how far this bill actually got: it passed the Senate on a full floor vote (27-0-2) and reached the House's 3rd Reading Calendar before being killed procedurally (enacting clause struck) without ever receiving a House floor vote. Final disposition is death by session-end/procedural kill, not a recorded floor defeat in either chamber.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0231 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "Marked 'corrected' rather than 'confirmed_unchanged' because the packet's generic 'Failed; Senate filed 2026-03-06' undersold how far this bill actually got: it passed the Senate on a full floor vote (27-0-2) and reached the House's 3rd Reading Calendar before being killed procedurally (enacting clause struck) without ever receiving a House floor vote. Final disposition is death by session-end/procedural kill, not a recorded floor defeat in either chamber.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0282 (2026)",
+      "column": "status",
+      "before": "Failed; Senate filed 2026-03-06",
+      "after": "Introduced in Senate 2026-02-11; assigned to Senate Transportation, Public Utilities, Energy, and Technology Committee, which voted 2-3-3 against a favorable recommendation on 2026-02-18; committee later returned the bill to Rules on 2026-03-04 without further action; enacting clause struck and Senate filed the bill as not passed at 2026-03-06 23:59:59; never received a vote of the full Senate or House",
+      "reason": "This one matches the packet's 'Failed; Senate filed' framing well: it died in committee (failed its recommendation vote 2-3-3) and never reached the Senate floor, let alone the House. Precise categorization: failed_died, killed in committee/Rules, no chamber ever voted on it.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0282 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "This one matches the packet's 'Failed; Senate filed' framing well: it died in committee (failed its recommendation vote 2-3-3) and never reached the Senate floor, let alone the House. Precise categorization: failed_died, killed in committee/Rules, no chamber ever voted on it.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0282 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-06",
+      "reason": "This one matches the packet's 'Failed; Senate filed' framing well: it died in committee (failed its recommendation vote 2-3-3) and never reached the Senate floor, let alone the House. Precise categorization: failed_died, killed in committee/Rules, no chamber ever voted on it.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0282 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "This one matches the packet's 'Failed; Senate filed' framing well: it died in committee (failed its recommendation vote 2-3-3) and never reached the Senate floor, let alone the House. Precise categorization: failed_died, killed in committee/Rules, no chamber ever voted on it.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0318 (2026)",
+      "column": "status",
+      "before": "Failed; Senate filed 2026-03-06",
+      "after": "Introduced in Senate 2026-02-23; remained assigned only to the Senate Rules Committee (never referred to a substantive standing committee, given a hearing, or scheduled for a floor vote); enacting clause struck and Senate filed the bill as not passed at 2026-03-06 23:59:59",
+      "reason": "Of the three 2026 Senate bills, this one advanced the least: it never even left the Rules Committee for a substantive committee assignment. Matches the packet's 'Failed; Senate filed' framing; precise categorization is failed_died via session-end procedural kill with no hearing or vote at any stage.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0318 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Of the three 2026 Senate bills, this one advanced the least: it never even left the Rules Committee for a substantive committee assignment. Matches the packet's 'Failed; Senate filed' framing; precise categorization is failed_died via session-end procedural kill with no hearing or vote at any stage.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0318 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-06",
+      "reason": "Of the three 2026 Senate bills, this one advanced the least: it never even left the Rules Committee for a substantive committee assignment. Matches the packet's 'Failed; Senate filed' framing; precise categorization is failed_died via session-end procedural kill with no hearing or vote at any stage.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:SB0318 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "Of the three 2026 Senate bills, this one advanced the least: it never even left the Rules Committee for a substantive committee assignment. Matches the packet's 'Failed; Senate filed' framing; precise categorization is failed_died via session-end procedural kill with no hearing or vote at any stage.",
+      "source": "UT.json"
+    },
+    {
+      "bill_key": "UT:HB0585 (2026)",
+      "column": "<new row>",
+      "before": "",
+      "after": "Data Center Amendments. Would have required large data centers to report energy use information to electrical corporatio",
+      "reason": "Directly on-topic for this tracker (data center energy-use reporting/ratepayer transparency) but was not in the UT.json packet. Died at the close of the 2026 General Session without any committee vote beyond being routed to Rules.",
+      "source": "UT.json"
+    }
+  ]
+}

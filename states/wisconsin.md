@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Wisconsin as of April 2026.
 
-**2 instruments** — 2 in force, 0 pending, 0 past. Activity level: **Medium**.
+**3 instruments** — 3 in force, 0 pending, 0 past. Activity level: **Medium**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

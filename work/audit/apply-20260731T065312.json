@@ -1,0 +1,84 @@
+{
+  "applied_at": "20260731T065312",
+  "answer_files": [
+    "work/answers/gaps/batch-b.json",
+    "work/answers/gaps/batch-c.json"
+  ],
+  "stats": {
+    "candidate_duplicate": 11,
+    "candidates_added": 7,
+    "candidate_flagged_for_verification": 3
+  },
+  "conflicts": [],
+  "skipped": [
+    "batch-b.json: candidate CA 'Coachella' (no instrument number) treated as duplicate of ca-coachella-2026 (no instrument number)",
+    "batch-b.json: candidate MN 'Inver Grove Heights' (no instrument number) treated as duplicate of mn-inver-grove-heights-2026 (no instrument number)",
+    "batch-b.json: candidate MN 'Wright County' (no instrument number) treated as duplicate of mn-wright-county-2026 (ordinance-26-2)",
+    "batch-b.json: candidate NV 'Nye County' (no instrument number) treated as duplicate of nv-nye-county-2026 (no instrument number)",
+    "batch-b.json: candidate NV 'Reno' (no instrument number) treated as duplicate of nv-reno-2026 (no instrument number)",
+    "batch-b.json: candidate SC 'Newberry County' (no instrument number) treated as duplicate of sc-newberry-county-2026 (no instrument number)",
+    "batch-b.json: candidate TN 'Cedar Hill' (no instrument number) treated as duplicate of tn-cedar-hill-2026 (no instrument number)",
+    "batch-b.json: candidate TN 'McMinnville' (no instrument number) treated as duplicate of tn-mcminnville-2026 (no instrument number)",
+    "batch-b.json: candidate TX 'Harlingen' (no instrument number) treated as duplicate of tx-harlingen-2026 (no instrument number)",
+    "batch-b.json: candidate TX 'Hill County' (no instrument number) treated as duplicate of tx-hill-county-2026 (no instrument number)",
+    "batch-c.json: candidate CT 'West Haven' (no instrument number) treated as duplicate of ct-west-haven-2026 (no instrument number)"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "fl-nassau-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Florida / Nassau County",
+      "reason": "This is the first confirmed moratorium in our inventory for Florida. Scope is unincorporated Nassau County only (does not cover any municipality within the county). Duration classified as fixed_days (365) consistent with how similar hybrid fixed-term/early-termination-event moratoria are encoded elsewhere in the inventory (e.g. Logan County, Colorado).",
+      "source": "batch-c.json"
+    },
+    {
+      "moratorium_id": "nm-socorro-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "New Mexico / Socorro County",
+      "reason": "This is the first confirmed moratorium in our inventory for New Mexico. No primary ordinance/resolution text or instrument number was obtainable despite attempts to reach socorrocounty.net's ordinance and commission pages directly; the finding rests on four independent, mutually consistent news accounts (local paper of record plus two statewide outlets and a nonprofit newsroom). Recommend a follow-up records request to pin down the exact resolution/ordinance number before treating this as fully closed.",
+      "source": "batch-c.json"
+    },
+    {
+      "moratorium_id": "nd-barnes-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "North Dakota / Barnes County",
+      "reason": "Confirmed against a primary source (the county's own posted commission minutes PDF).",
+      "source": "batch-c.json"
+    },
+    {
+      "moratorium_id": "ok-edmond-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Oklahoma / Edmond",
+      "reason": "No primary ordinance text or council minutes/Legistar record located; rests on specific, consistent local-broadcast news coverage giving an exact date and end date.",
+      "source": "batch-c.json"
+    },
+    {
+      "moratorium_id": "pa-hazle-township-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Pennsylvania / Hazle Township",
+      "reason": "Distinct jurisdiction from our existing Montour County, PA inventory row -- different county, different project. No primary township ordinance/resolution document was located.",
+      "source": "batch-c.json"
+    },
+    {
+      "moratorium_id": "al-leeds-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Alabama / Leeds",
+      "reason": "No primary ordinance text or council minutes located; rests on multiple independent, mutually consistent Birmingham-market news outlets giving the same date and terms.",
+      "source": "batch-c.json"
+    },
+    {
+      "moratorium_id": "mo-city-of-columbia-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Missouri / City of Columbia",
+      "reason": "This is the City of Columbia, distinct from our existing Missouri rows (City of Peculiar, City of St. Charles, Jackson County) and distinct from a separate St. Charles COUNTY moratorium reported in the same news cycle -- do not conflate. No primary ordinance/resolution text or number was located; como.gov's own site did not surface a matching record.",
+      "source": "batch-c.json"
+    }
+  ]
+}

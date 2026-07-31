@@ -1,0 +1,91 @@
+{
+  "state_abbrev": "GA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ga-thomas-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.92,
+      "changes": {
+        "legal_basis": {
+          "from": "Thomas County Board of Commissioners unanimous vote at 2026-01-20 special meeting (per WCTV reporting) [VERIFY: primary minutes not retrieved from county website as of 2026-04-29]",
+          "to": "Thomas County Board of Commissioners special-called meeting, January 20, 2026: Commissioner Baggett moved that a 12-month moratorium on the permitting of data centers and related information technology facilities be instituted to prepare amendments to the Thomas County Code of Ordinances; Commissioner Brown seconded, and the motion was approved unanimously 8-0 (Chairman NeSmith and Commissioners Baggett, Brown, Grady, Hickey, Gross, Vonier, and Rich voting aye). No separate numbered resolution was issued; the moratorium is recorded directly in the signed meeting minutes, which state the Board reserves the right to extend it prior to expiration by resolution or other official action.",
+          "reason": "Personally retrieved and read the signed Thomas County Board of Commissioners special-called meeting minutes for January 20, 2026, confirming the motion, vote, and that WCTV was present as reported."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: primary minutes not retrieved from county website as of 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Personally fetched and read the signed Thomas County BOC special-called meeting minutes for January 20, 2026 (thomascountyboc.org document center). The minutes record Commissioner Baggett's motion for a 12-month data center permitting moratorium, seconded by Commissioner Brown, approved unanimously 8-0, with WCTV's Stacey Inez listed among media present -- corroborating the 'per WCTV reporting' framing. No separate resolution number exists; the vote itself, recorded in the signed minutes, is the legal basis."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://thomascountyboc.org/document-center/Minutes/2026/01202026 Special Called Meeting Minutes.pdf",
+          "title": "Thomas County Board of Commissioners Special Called Meeting Minutes, January 20, 2026",
+          "publisher": "Thomas County, Georgia",
+          "document_date": "2026-01-20",
+          "source_type": "minutes",
+          "supports": "Confirms the unanimous 8-0 vote instituting a 12-month data center permitting moratorium, and that no separate numbered resolution exists beyond the signed minutes.",
+          "quote": "Chairman NeSmith recognized Commissioner Baggett who made a motion that a 12-month moratorium, on the permitting of data centers and related information technology facilities, be instituted in Thomas County to prepare amendments to the Thomas County Code of Ordinances... The motion was approved unanimously with Chairman NeSmith and Commissioners Baggett, Brown, Grady, Hickey, Gross, Vonier and Rich voting aye."
+        }
+      ],
+      "notes": "Checked Thomas County's minutes index and general news search for any rescission, extension, or replacement action through mid-2026; none found. The moratorium's own 12-month term (through 2027-01-20) appears to still be running as of 2026-07-31, so enacted_status is left unchanged at 'active'."
+    },
+    {
+      "moratorium_id": "ga-troup-county-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "confidence": 0.75,
+      "changes": {
+        "current_status": {
+          "from": "Expired unless extension adopted [VERIFY: no extension resolution or replacement ordinance located on Troup County website as of 2026-04-29]",
+          "to": "Replaced. The 90-day moratorium (adopted 2025-09-16) was extended twice: 90 days on 2025-12-02 (to 2026-03-16), and a further 90 days on 2026-02-17 (to 2026-06-14), per the county's official public notice. Troup County's own agenda system shows a final zoning text amendment on 'Data Centers and Cryptocurrency or Data Mining Facilities' reached '3rd Reading - Vote Eligible' status at the May 5, 2026 Board meeting, with ordinance text providing to repeal conflicting prior ordinances and resolutions; secondary news coverage (LaGrange Daily News, via a forum repost) describes a unanimous vote around May 8, 2026 adopting the final ordinance and lifting the moratorium. The May 5, 2026 meeting minutes were not yet posted to independently confirm the exact vote date/tally, so some residual uncertainty remains on the precise adoption date.",
+          "reason": "Public notice PDF (personally fetched and read) confirms the full extension chain through June 14, 2026; Troup County's IQM2 agenda system corroborates a final-reading, vote-eligible ordinance scheduled before that expiry, with a repeal clause consistent with the moratorium being superseded."
+        },
+        "duration": {
+          "from": "90 days; extension hearing noticed (research/_web/Moratorium - Data Centers Public Notice.md saved)",
+          "to": "90 days from 2025-09-16, extended 90 days on 2025-12-02 (to 2026-03-16), and extended a further 90 days on 2026-02-17 (to 2026-06-14), per the county's official public notice.",
+          "reason": "Public notice PDF (personally fetched and read) states this extension chain verbatim."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no extension resolution or replacement ordinance located on Troup County website as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Personally fetched and read the Troup County public notice PDF confirming two 90-day extensions (to 2026-03-16 and then 2026-06-14). A parallel research pass additionally found, via Troup County's IQM2 agenda portal, that a final data-center/crypto-mining zoning text amendment reached 3rd-reading vote-eligible status at the May 5, 2026 Board meeting (with a repeal clause), and secondary news coverage describing adoption around May 8, 2026 that lifted the moratorium. The May 5, 2026 minutes were not yet posted to confirm the exact vote, so this rests partly on the county's own agenda system and partly on secondary news."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY against developer filings — figures appear in news but not in primary documents captured]",
+          "resolution": "still_unverifiable",
+          "note": "Reviewed Troup County's September 16, 2025 BOC minutes (the moratorium-adoption meeting; no mention of Project West) and the March 13, 2025 Planning Commission/Board of Zoning Appeals minutes (applicants named were unrelated LLCs and individuals, not Project West or an identifiable shell entity); an IQM2 portal text search for 'Project West' returned nothing. News figures conflict across outlets: Fox 5 Atlanta and LaGrange Daily News report approximately $9.7-10 billion, while Atlanta Business Chronicle reports approximately $6 billion and 513 acres across seven parcels. No primary Troup County filing was found naming or quantifying the project, so the figures remain unconfirmed against primary sources."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://troupcountyga.gov/Content/Documents/planning/2026/Moratorium%20-%20Data%20Centers%20Public%20Notice.pdf",
+          "title": "Public Notice: Moratorium - Data Centers",
+          "publisher": "Troup County, Georgia",
+          "source_type": "other",
+          "supports": "Establishes the full extension chain of the Troup County data-center moratorium: original 90 days from 2025-09-16, extended 90 days from 2025-12-02 (to 2026-03-16), and extended 90 days again from 2026-02-17 (to 2026-06-14).",
+          "quote": "The Board of Commissioners adopted a ninety (90) day Moratorium on Data Centers on September 16th, 2025. A ninety (90) day extension was adopted on December 2nd, 2025, set to expire on March 16th, 2026. On February 17th, 2026, the Board of Commissioners adopted an additional ninety (90) day extension to the Mortarium which is set to expire on June 14th, 2026."
+        },
+        {
+          "url": "https://troupcountyga.iqm2.com/Citizens/FileOpen.aspx?Type=4&ID=15799&MeetingID=2505",
+          "title": "Text Amendment - Final Draft - Data Centers and Cryptocurrency or Data Mining Facilities, 3rd Reading - Vote Eligible (May 5, 2026 Board Meeting agenda item)",
+          "publisher": "Troup County, Georgia",
+          "document_date": "2026-05-04",
+          "source_type": "agenda",
+          "supports": "Shows a final-reading, vote-eligible zoning text amendment on data centers and crypto-mining facilities scheduled for the May 5, 2026 Board of Commissioners meeting, with ordinance text providing to repeal conflicting prior ordinances or resolutions -- consistent with the moratorium being superseded before its June 14, 2026 expiry.",
+          "quote": "AN ORDINANCE... to amend the Troup County Code, Appendix B - Land Use and Zoning and Appendix D... to repeal all conflicting ordinances or resolutions; to provide for an effective date..."
+        }
+      ],
+      "notes": "The IQM2 agenda-item URL and the May 8, 2026 adoption date were not personally re-fetched by me (my own attempt at the public notice PDF was independently successful, but I did not separately load the IQM2 document); confidence is set at 0.75 to reflect that the extension chain is personally confirmed at 0.9+ certainty while the final replacement date/vote rests on a parallel research pass plus secondary news corroboration. Recommend the next pass pull the May 5, 2026 Board meeting minutes directly once posted to confirm the exact final vote."
+    }
+  ]
+}

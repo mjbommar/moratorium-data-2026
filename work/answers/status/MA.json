@@ -1,0 +1,182 @@
+{
+  "state_abbrev": "MA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ma-shutesbury-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "expired",
+      "confidence": 0.75,
+      "changes": {
+        "current_status": {
+          "from": "Active until 2026-06-30 [VERIFY: Shutesbury 2026 Annual Town Meeting (typically held in May/early June) outcome on permanent zoning replacement is a future event as of 2026-04-29].",
+          "to": "The temporary moratorium (Special Town Meeting Article 10, effective through 2026-06-30) expired on schedule. No article proposing a permanent Section 8.13 data center zoning bylaw appeared anywhere on the 33-article warrant for the 2026 Annual Town Meeting (held 2026-05-09), and the town's official Zoning Bylaw Maps and Amendments page (checked 2026-07-31) still lists only the September 2025 temporary moratorium among recent amendments, with no 2026 entry. Data centers are therefore currently unregulated by any dedicated Shutesbury zoning provision.",
+          "reason": "Direct review of the official 2026 Annual Town Meeting minutes (all 33 articles, covering budget, capital items, CPA funds, a Quabbin Watershed resolution, a personnel bylaw, and a Safe Community Bylaw rewrite) shows no article addressing data centers, Section 8.13, or a BESS/data center zoning bylaw. The town's official Zoning Bylaw Maps and Amendments page corroborates that no such amendment has been adopted."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: Shutesbury 2026 Annual Town Meeting (typically held in May/early June) outcome on permanent zoning replacement is a future event as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "The 2026 ATM occurred 2026-05-09; its full warrant (Articles 1-33, per the town's official minutes) contained no data center or Section 8.13 article. The temporary moratorium therefore expired 2026-06-30 without a permanent bylaw being adopted, or even brought to a vote."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://shutesbury.org/sites/default/files/minutes/town-meeting/260509-atm-mins-final.pdf",
+          "title": "2026 Annual Town Meeting Minutes, Town of Shutesbury",
+          "publisher": "Town of Shutesbury, Massachusetts",
+          "document_date": "2026-05-09",
+          "source_type": "minutes",
+          "supports": "Official minutes of the May 9, 2026 Annual Town Meeting enumerate all 33 warrant articles acted upon that day; none addresses data centers, Section 8.13, or a BESS/data center zoning bylaw.",
+          "quote": "2026 Annual Town Meeting Minutes Town of Shutesbury ... May 09, 2026 ... Article 33. Citizen Petition ... Shutesbury Safe Community Bylaw"
+        },
+        {
+          "url": "https://www.shutesbury.org/zoning-bylaw-maps-and-amendments",
+          "title": "Zoning Bylaw Maps and Amendments",
+          "publisher": "Town of Shutesbury, Massachusetts",
+          "source_type": "other",
+          "supports": "The town's official, currently published list of zoning bylaw amendments shows only the September 2025 Temporary Moratorium on Data Centers among 2025 amendments and no 2026 entries, confirming no permanent data center bylaw has been adopted as of this research pass.",
+          "quote": "2025 Amendments: Temporary Moratorium on Data Centers (September Special Town Meeting) ... No 2026 amendments are listed."
+        }
+      ],
+      "notes": "The moratorium's own text set an end date of 2026-06-30. Because the anticipated permanent bylaw amendment was never placed on the 2026 ATM warrant (contrary to the Planning Board's earlier stated intent), the moratorium should be recorded as expired rather than active. Secondary reporting (thelocallens.org, a locally-run outlet whose meeting recaps are explicitly AI-generated and self-flagged as potentially inaccurate) had indicated the Planning Board was considering tabling the bylaw amid community opposition in spring 2026, which is consistent with this outcome, but that source was not relied on for the core finding -- the primary-source warrant/minutes and the official zoning-amendments page were."
+    },
+    {
+      "moratorium_id": "ma-everett-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "confidence": 0.65,
+      "changes": {
+        "date_enacted": {
+          "from": "Not enacted as of 2026-04-29",
+          "to": "2026-06-22 (final ordainment/second reading); initial enrollment/first-reading vote 2026-06-08.",
+          "reason": "Advocate News (fetched directly) reports the June 8, 2026 enrollment vote and the June 22, 2026 ordainment vote that finally enacted the Section 37 amendment."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-06-22",
+          "reason": "Ordainment (final passage) is the operative enactment date for a two-reading city ordinance under Everett's council procedure."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "The exact ordainment date (2026-06-22) is stated directly in the fetched Advocate News account."
+        },
+        "current_status": {
+          "from": "Planning Board endorsed restrictions on 2026-04-06; City Council action pending [VERIFY: Everett City Council final vote on Docklands Innovation District amendment not in captured records as of 2026-04-29; agenda packet shows item under continued discussion].",
+          "to": "Adopted. The Everett City Council enrolled the Section 37 (Docklands Innovation District) zoning amendment on 2026-06-08 and ordained (finally passed) it on 2026-06-22, converting data centers from a by-right to a restricted use with a combined footprint/power cap (the lesser of 20,000 square feet or 5 megawatts), required closed-loop cooling, funding of electric-system upgrades, backup generators, a minimum setback from housing, and a resident hiring preference.",
+          "reason": "Advocate News (fetched directly) reports both the June 8, 2026 enrollment vote and the June 22, 2026 ordainment vote, along with the substance of the adopted restrictions."
+        },
+        "outcome": {
+          "from": "Proposed shift from by-right treatment to special permit, ancillary-use limits, and size/capacity cap; no moratorium identified.",
+          "to": "Adopted as a standing city ordinance amendment to Section 37 (not a moratorium -- no fixed sunset); restricts, rather than bans, data center development within the Docklands Innovation District.",
+          "reason": "Advocate News confirms the amendment was ordained (finally passed), not merely proposed, and describes it as a standing zoning restriction rather than a time-limited moratorium."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: Everett City Council final vote on Docklands Innovation District amendment not in captured records as of 2026-04-29; agenda packet shows item under continued discussion]",
+          "resolution": "corrected",
+          "note": "City Council enrolled the amendment 2026-06-08 and ordained (finally passed) it 2026-06-22, per Advocate News."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://advocatenews.net/everett/news/city-council-approves-limits-on-data-centers-in-innovation-district/",
+          "title": "City Council approves limits on data centers in Innovation District",
+          "publisher": "Advocate News",
+          "document_date": "2026-06-22",
+          "source_type": "news",
+          "supports": "Establishes the June 8, 2026 (enrollment/first reading) and June 22, 2026 (ordainment/final passage) City Council votes and the substantive terms of the adopted Section 37 zoning amendment restricting data centers.",
+          "quote": "Data centers will be limited to 20,000 combined vertical and horizontal square feet and five megawatts of power. Whichever number is smaller will take precedence."
+        }
+      ],
+      "notes": "This is a city-council-enacted zoning ordinance amendment (Everett is a city with home-rule ordinance power acting on its own initiative, not a town meeting bylaw), so it is not subject to the Massachusetts Attorney General review under M.G.L. c.40A section 32 that applies to town-meeting-adopted zoning bylaws. I could not retrieve the official council agenda packet (an image-based PDF whose text could not be extracted) or the council's own minutes directly, so this rests on a single directly-fetched news account; a second outlet (Everett Independent) separately reported a 7-3 first-reading tally with named councilors, but I did not independently re-fetch and verify that article, so I have not relied on the specific vote count in this decision."
+    },
+    {
+      "moratorium_id": "ma-gill-2026",
+      "outcome": "unresolvable",
+      "confidence": 0.3,
+      "evidence": [
+        {
+          "url": "https://gillmass.org/files/2026-0504_ATM_Warrant.pdf",
+          "title": "Annual Town Meeting Warrant, May 4, 2026",
+          "publisher": "Town of Gill, Massachusetts (Selectboard)",
+          "document_date": "2026-04-23",
+          "source_type": "agenda",
+          "supports": "Confirms Article 7 of the May 4, 2026 Annual Town Meeting warrant proposed a new Section 18 establishing a one-year moratorium on Building-Integrated Energy Storage Systems (BESS, >=50 kWh and <100 MWh) and Data Centers, exactly as described in the inventory, and that the meeting was expected to continue to June 8, 2026 to complete the budget process.",
+          "quote": "Create a new Section 18, Building-Integrated Energy Storage Systems (BESS) and Data Centers to establish a one-year moratorium on Building-Integrated Energy Storage Systems (BESS) having an aggregate energy capacity equal to or greater than 50 kWh and less than 100 MWh and establish a one-year moratorium on Data Centers, in order to provide the Planning Board with sufficient time to study, consider, and adopt zoning regulations governing the siting, permitting, construction, installation, operation, and maintenance of the same."
+        },
+        {
+          "url": "https://gillmass.org/f/0/58/Town-Meetings",
+          "title": "Town Meetings file index",
+          "publisher": "Town of Gill, Massachusetts",
+          "source_type": "other",
+          "supports": "As of this research pass (2026-07-31), the town's Town Meetings document index lists only the 2026-05-04 warrant, its motions/explanations handout, the 2026-06-08 Part 2 motions/explanations handout, and an unrelated 2026-06-29 Special Town Meeting warrant -- no minutes or results document for the 2026 Annual Town Meeting has been posted.",
+          "quote": "No files with 'minutes' or 'results' in the filename for 2026 are currently listed on this page. The available 2026 documents are warrants and warrant motion explanations only."
+        }
+      ],
+      "notes": "The Article 7 moratorium proposal is confirmed verbatim from the official warrant, and the 2026-06-29 Special Town Meeting warrant (also directly reviewed) contains only OPEB, Riverside Municipal Building roof, and stabilization-fund articles -- no data center or BESS item -- so no second bite at Article 7 was taken there. However, Gill has not published minutes or a results document for the May 4 / June 8, 2026 Annual Town Meeting as of 2026-07-31, and the only news coverage located (Recorder, covering both sessions) discussed only the school roof bond, budget, and a wood chipper purchase. Whether Article 7 passed, failed, or was tabled could not be determined from any source I could access. Recommend a direct records request to the Gill Town Clerk for the certified 2026 ATM minutes."
+    },
+    {
+      "moratorium_id": "ma-heath-2026",
+      "outcome": "unresolvable",
+      "confidence": 0.2,
+      "evidence": [
+        {
+          "url": "https://townofheath.org/g/43/Planning-Board",
+          "title": "Planning Board",
+          "publisher": "Town of Heath, Massachusetts",
+          "source_type": "agenda",
+          "supports": "Confirms the Heath Planning Board held the public hearing referenced in the inventory (a document titled 'March 11 2026 Public Hearing BESS Data Center.pdf' is listed on the board's page), corroborating that the article was actively moving toward the 2026 Annual Town Meeting, but does not show the outcome.",
+          "quote": "March 11 2026 Public Hearing BESS Data Center.pdf"
+        }
+      ],
+      "notes": "I could not locate the Town of Heath's 2026 Annual Town Meeting warrant or minutes online -- the town's general site and Planning Board page do not link to them -- so I could not confirm whether the Section 6.11 moratorium article was brought to a vote at the 2026-05-09 Annual Town Meeting, or its outcome. The Recorder's 2026-05-07 pre-meeting preview of the Heath ATM (news; not cited as evidence above since it does not mention this article) covered only the operating budget, the Mohawk Trail Regional School District assessment, a single-payer health care resolution, and a highway truck purchase; its silence on the data center article is inconclusive, since the same outlet's Shutesbury and Gill previews likewise omitted zoning articles later confirmed to have actually been on those warrants. Recommend a direct records request to the Heath Town Clerk or Select Board."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Massachusetts",
+      "jurisdiction": "Malden",
+      "jurisdiction_type": "City",
+      "date_enacted": "City Council vote reported 2026-05-05 (unanimous, per Neighborhood View); a second outlet describes a June 16, 2026 effective date, consistent with a two-reading enrollment/ordainment process, but that detail was not independently verified.",
+      "date_enacted_iso": "2026-05-05",
+      "date_enacted_uncertainty": "range",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Malden City Council ordinance amendment (a second, unverified report cites zoning code sections 12.32.050, 12.12.030, 12.32.060, and 12.32.030)",
+      "trigger": "The city had no existing ordinance addressing data centers; the Council acted preemptively, before any specific project proposal, to give its Economic Development Committee time to study infrastructure, environmental, and health impacts.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "infrastructure_capacity",
+        "environmental"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Adopted; one-year pause on data centers to allow Economic Development Committee study.",
+      "enacted_status": "active",
+      "affected_projects": "None named; general/preemptive moratorium.",
+      "outcome": "One-year moratorium on data centers adopted unanimously by the City Council.",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://neighborhoodview.org/2026/05/09/malden-hits-pause-on-data-centers-advances-commercial-st-zoning-revamp/",
+          "title": "Malden hits pause on data centers, advances Commercial St. zoning revamp",
+          "publisher": "Neighborhood View",
+          "document_date": "2026-05-09",
+          "source_type": "news",
+          "supports": "Reports the Malden City Council's unanimous May 5, 2026 vote to adopt a one-year moratorium on data centers, to allow the Economic Development Committee to study impacts.",
+          "quote": "The pause will give the Economic Development Committee time to study the infrastructure, environmental and health impacts of large data centers."
+        }
+      ],
+      "notes": "News-only sourcing; I did not retrieve the Malden ordinance text or council minutes. A second outlet (Advocate News) reported an effective-date range of June 16, 2026 through June 16, 2027 and cited specific municipal code sections, consistent with a two-reading ordinance process (initial adoption approximately May 5, ordainment/effective date approximately June 16), but I did not independently fetch that article, so its specifics are not treated as verified here. Recommend confirming against the Malden City Clerk's ordinance record before treating this as a firm inventory entry."
+    }
+  ]
+}

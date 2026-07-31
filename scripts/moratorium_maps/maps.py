@@ -299,10 +299,12 @@ def map_timeline_heatmap():
 
     fig.tight_layout()
 
-    for fmt in ("pdf", "svg"):
-        path = FIGURES_DIR / f"map-timeline-heatmap.{fmt}"
+    for fmt in ("pdf", "svg", "png"):
+        outdir = FIGURES_DIR / fmt
+        outdir.mkdir(parents=True, exist_ok=True)
+        path = outdir / f"map-timeline-heatmap.{fmt}"
         fig.savefig(path, format=fmt, bbox_inches="tight", pad_inches=0.1)
-        print(f"  Saved: {path}")
+        print(f"  Saved: {path.relative_to(FIGURES_DIR.parent)}")
 
     plt.close(fig)
 

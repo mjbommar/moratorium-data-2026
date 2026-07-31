@@ -1,0 +1,140 @@
+{
+  "state_abbrev": "MN",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "mn-minneapolis-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "confidence": 0.75,
+      "changes": {
+        "date_enacted": {
+          "from": "Not enacted as of 2026-04-29",
+          "to": "City Council gave initial approval 8-5 on 2026-05-22 and final approval on 2026-06-25, following a public hearing on 2026-06-16.",
+          "reason": "FOX 9 reporting confirms the ordinance was adopted through these two council votes."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-06-25",
+          "reason": "Date of final council approval per FOX 9; the ordinance took effect without requiring the mayor's signature."
+        },
+        "duration": {
+          "from": "Proposed one-year moratorium per File 2026-00446 [VERIFY: final adopted duration depends on Council action; discussion was postponed to 2026-05-21 per Fox 9 reporting]",
+          "to": "Six-month interim ordinance (added as Chapter 597 of Title 21) prohibiting the establishment, re-establishment, or expansion of data center facilities larger than 350,000 square feet, with an exemption for such facilities in the downtown core; runs from adoption through approximately 2026-11-21, at which point Council must decide whether to extend the pause or take up separate permanent ordinances following a directed study.",
+          "reason": "The Council adopted a six-month term, not the originally proposed one-year term; FOX 9 reporting gives the specific scope, threshold, exemption, and end date."
+        },
+        "legal_basis": {
+          "from": "Legislative File 2026-00446; proposed Title 21 interim ordinance adding Chapter 597",
+          "to": "Enacted interim ordinance, Title 21 Chapter 597 of the Minneapolis Code of Ordinances (originating from Legislative File 2026-00446); approved 8-5 on first vote (2026-05-22), following a public hearing (2026-06-16), with final council approval (2026-06-25).",
+          "reason": "Confirms the file was carried through to enactment, with vote counts and dates."
+        },
+        "current_status": {
+          "from": "Proposed / under discussion",
+          "to": "Active as of 2026-07-31. In effect since approximately late May/June 2026 and scheduled to run through approximately 2026-11-21.",
+          "reason": "See date/duration changes above."
+        },
+        "outcome": {
+          "from": "On 2026-04-09, Council Members Aurin Chowdhury and Jason Chavez gave notice of intent to introduce a moratorium ordinance. FOX 9 reported on 2026-04-23 that discussion was postponed to the 2026-05-21 meeting.",
+          "to": "The ordinance was adopted: Council voted 8-5 on 2026-05-22 and gave final approval 2026-06-25 after a 2026-06-16 public hearing. Council members Whiting, Chughtai, Stevenson, Osman, Payne, Wonsley, Chavez, and Chowdhury voted in favor; Shaffer, Palmisano, Rainville, Vetaw, and Warren voted against.",
+          "reason": "Confirms passage and records the vote breakdown."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "duration",
+          "marker": "[VERIFY: final adopted duration depends on Council action; discussion was postponed to 2026-05-21 per Fox 9 reporting]",
+          "resolution": "corrected",
+          "note": "Council adopted a six-month moratorium (not the originally proposed one-year term), voting 8-5 on 2026-05-22 with final passage 2026-06-25; threshold set at facilities over 350,000 sq ft with a downtown exemption; runs through approximately 2026-11-21."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.fox9.com/news/minneapolis-data-center-development-pause-approved-city-council-june-25-2026.amp",
+          "title": "Minneapolis data center development pause approved by city council",
+          "publisher": "FOX 9 Minneapolis-St. Paul",
+          "document_date": "2026-06-25",
+          "source_type": "news",
+          "supports": "Confirms the Minneapolis City Council gave final approval to a six-month data center moratorium ordinance on June 25, 2026 (after an initial 8-5 vote on May 22 and a June 16 public hearing), covering data centers over 350,000 sq ft with a downtown exemption, running through approximately November 21, 2026.",
+          "quote": "No data center facility shall be established, re-established, or expanded ... The moratorium runs through Nov. 21, 2026."
+        }
+      ],
+      "notes": "This is a significant status change: the record was 'pending'/not enacted as of 2026-04-29, but the ordinance has since been fully adopted and, as of this research date (2026-07-31), remains in its active six-month window. A primary source (the signed ordinance or official council minutes from lims.minneapolismn.gov) could not be retrieved directly this pass -- the Minneapolis legislative information site returned a Cloudflare bot challenge to automated tools -- so this decision rests on news reporting (FOX 9), which is independently corroborated by multiple other outlets found in search results (Star Tribune, CBS Minnesota, MPR News, Data Center Dynamics) though those were not all directly re-fetched. Recommend confirming the exact ordinance number from the city's own records in a follow-up pass."
+    },
+    {
+      "moratorium_id": "mn-waite-park-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "confidence": 0.6,
+      "changes": {
+        "date_enacted": {
+          "from": "Not verified as enacted",
+          "to": "Adopted unanimously by the Waite Park City Council on 2026-05-04 (reported 2026-05-05).",
+          "reason": "KNSI reporting confirms the council vote."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-05-04",
+          "reason": "Date of the council meeting at which the moratorium was passed, per KNSI (article published the following morning, 2026-05-05)."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "News source specifically ties the unanimous vote to the May 4, 2026 council meeting."
+        },
+        "duration": {
+          "from": "Proposed temporary moratorium [VERIFY: no adopted Waite Park data center moratorium ordinance located in captured city records as of 2026-04-29; only St. Cloud-area news reporting of work-session discussion].",
+          "to": "One-year (12-month) moratorium on data center development, adopted unanimously by City Council on 2026-05-04; exempts construction of small (300-square-foot) telecommunications shelters with fiber-optic equipment that do not require water to operate.",
+          "reason": "KNSI confirms both adoption and the specific duration and exemption."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "365",
+          "reason": "One-year term per KNSI reporting."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "fixed_days",
+          "reason": "Reported as a fixed one-year term (with an implicit option to end early, per the Planning Director's comments, if a well-refined regulatory proposal is ready sooner)."
+        },
+        "current_status": {
+          "from": "Proposed / discussed",
+          "to": "Active as of 2026-05-04/05-05 per KNSI reporting; city intends to use the study period to research data center regulation in nearby communities and draft new rules addressing water usage and noise emissions, the two concerns staff identified as most significant.",
+          "reason": "See duration/date changes."
+        },
+        "outcome": {
+          "from": "St. Cloud-area reporting described a March 2026 work-session discussion; no adopted data center moratorium text was located in primary city records.",
+          "to": "The city council moved from work-session discussion (March 2026) to a public hearing (2026-05-04 evening session per KNSI's same-day coverage) to unanimous adoption of a one-year moratorium, reported 2026-05-05.",
+          "reason": "Confirms the item advanced from proposal to enactment."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "duration",
+          "marker": "[VERIFY: no adopted Waite Park data center moratorium ordinance located in captured city records as of 2026-04-29; only St. Cloud-area news reporting of work-session discussion]",
+          "resolution": "corrected",
+          "note": "Confirmed adopted: the Waite Park City Council unanimously passed a one-year data center moratorium at its May 4, 2026 meeting (reported May 5, 2026 by KNSI); duration is 12 months from adoption, with a narrow telecom-shelter exemption."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: primary ordinance not located]",
+          "resolution": "still_unverifiable",
+          "note": "News coverage (KNSI) confirms adoption and duration but does not state an ordinance number. The city's website (ci.waitepark.mn.us) uses a CivicPlus Agenda Center that could not be queried for the specific ordinance document via automated retrieval this pass; a direct ordinance/PDF citation was not obtained."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://knsiradio.com/2026/05/05/waite-park-city-council-passes-one-year-data-center-moratorium/",
+          "title": "Waite Park City Council Passes One-Year Data Center Moratorium",
+          "publisher": "KNSI",
+          "document_date": "2026-05-05",
+          "source_type": "news",
+          "supports": "Confirms the Waite Park City Council unanimously passed a one-year data center moratorium at its May 4, 2026 meeting, with an exemption for small telecom shelters, and identifies water usage and noise emissions as the two primary concerns driving the study period.",
+          "quote": "The Waite Park City Council has unanimously passed a one-year moratorium on data centers, putting a halt to development while the city studies the potential impacts on city resources. ... One exception in the draft ordinance allows construction of a small, 300-square-foot telecommunications shelter with fiber-optic equipment. City staff says it is not data center-related and does not require water to operate."
+        }
+      ],
+      "notes": "This resolves the prior 'pending, unverified' status to a confirmed enactment, though the exact ordinance number remains unconfirmed since the city's own CivicPlus-based site could not be queried directly for the underlying document this pass. Recommend a follow-up pass using the city's Agenda Center UI (not just automated fetch) to pull the specific ordinance number and full text."
+    }
+  ],
+  "new_candidates": []
+}

@@ -1,0 +1,278 @@
+{
+  "state_abbrev": "AZ",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "Arizona's 57th Legislature, Second Regular Session (2026) adjourned Sine Die on 2026-06-13 (roughly 4:45am), after a 153-day session. Bills not enacted by that date are dead for the biennium's second-year session; Arizona does not carry single bills forward into a new regular session. The official Bill Status Inquiry site (apps.azleg.gov/BillStatus) is a JavaScript single-page app that does not render usable content via plain HTTP fetch, so this pass relied on FastDemocracy and BillTrack50 (both of which mirror azleg.gov's own action-log data feed) for detailed chronological action histories; their own auto-generated 'status' summary labels were found to be unreliable (e.g. mislabeling withdrawn/dead bills as pending or enacted) and were NOT trusted -- only the underlying dated action-by-action history was used to determine disposition. Confidence is set lower than a direct legislature-page fetch would warrant as a result.",
+  "decisions": [
+    {
+      "bill_key": "AZ:HB2119 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Withdrawn from House Commerce Committee, reassigned to AI and Innovation Committee, no further action; died at Sine Die 2026-06-13",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-22",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://fastdemocracy.com/bill-search/az/57th-2nd-regular/bills/AZB00020059/",
+          "title": "HB 2119 (AZ 2026) - FastDemocracy bill tracker",
+          "source_type": "other",
+          "supports": "Full action log shows withdrawal from Commerce Committee and reassignment to AI & Innovation Committee on 2026-01-22 with no further recorded action through session end.",
+          "quote": "January 22, 2026 - Withdrawn from Commerce Committee; Reassigned to Artificial Intelligence & Innovation Committee"
+        },
+        {
+          "url": "https://www.billtrack50.com/billdetail/1920487",
+          "title": "AZ HB2119 (2026) - BillTrack50",
+          "source_type": "other",
+          "supports": "Independently corroborates the bill is dead as of the 2026 session end.",
+          "quote": "Current Status: Dead as of June 14, 2026"
+        }
+      ],
+      "notes": "Could not load the official apps.azleg.gov BillStatus page directly (JS-rendered SPA); relied on two independent third-party trackers whose action logs matched."
+    },
+    {
+      "bill_key": "AZ:HB2452 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Failed House third reading 25-29 on 2026-02-25; reconsideration motion passed 2026-02-26 but no subsequent floor vote recorded; dead at Sine Die 2026-06-13",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-26",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://fastdemocracy.com/bill-search/az/57th-2nd-regular/bills/AZB00020523/",
+          "title": "HB 2452 (AZ 2026) - FastDemocracy bill tracker",
+          "source_type": "other",
+          "supports": "Full action log ends with the 2026-02-26 reconsideration motion; no reconsidered vote or further action is recorded.",
+          "quote": "February 26, 2026 - Motion to Reconsider - Motion by Representative Olson to reconsider Third Reading passed"
+        },
+        {
+          "url": "https://www.billtrack50.com/billdetail/1935787",
+          "title": "AZ HB2452 (2026) - BillTrack50",
+          "source_type": "other",
+          "supports": "Corroborates the bill is dead as of the 2026 session end with the reconsideration motion as its last recorded action.",
+          "quote": "Final Status: Dead as of June 14, 2026"
+        }
+      ]
+    },
+    {
+      "bill_key": "AZ:HB2457 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Passed House 32-22 on 2026-03-03; passed Senate committee stages; failed Senate third reading 15-14 on 2026-06-10; died at Sine Die 2026-06-13",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-06-10",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://fastdemocracy.com/bill-search/az/57th-2nd-regular/bills/AZB00020531/",
+          "title": "HB 2457 (AZ 2026) - FastDemocracy bill tracker",
+          "source_type": "other",
+          "supports": "Full chronological action log shows the bill passed the House, moved through Senate committee and Committee of the Whole, and then failed its final Senate third reading vote 15-14 on 2026-06-10, with no further action.",
+          "quote": "Jun 10, 2026 - Senate Third Reading: Failed (15-14, 1 not voting) -- DEAD"
+        }
+      ],
+      "notes": "Packet's mid-session capture (as of 2026-04-29) had this bill still pending in the Senate; it ultimately failed on the Senate floor in the final days of session."
+    },
+    {
+      "bill_key": "AZ:HB2467 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Withdrawn from House Commerce Committee, reassigned to AI and Innovation Committee, no further action; died at Sine Die 2026-06-13",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-22",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://fastdemocracy.com/bill-search/az/57th-2nd-regular/bills/AZB00020543/",
+          "title": "HB 2467 (AZ 2026) - FastDemocracy bill tracker",
+          "source_type": "other",
+          "supports": "Full action log shows withdrawal from Commerce Committee on 2026-01-22 with no further recorded action through session end.",
+          "quote": "WITHDRAWN - The bill was withdrawn from the Commerce Committee on January 22, 2026, making it dead for this legislative session."
+        }
+      ]
+    },
+    {
+      "bill_key": "AZ:HB2631 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Withdrawn from House Commerce Committee, reassigned to AI and Innovation Committee, no further action; died at Sine Die 2026-06-13",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-22",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://fastdemocracy.com/bill-search/az/57th-2nd-regular/bills/AZB00020743/",
+          "title": "HB 2631 (AZ 2026) - FastDemocracy bill tracker",
+          "source_type": "other",
+          "supports": "Full action log shows withdrawal from Commerce Committee on 2026-01-22 with no further recorded action.",
+          "quote": "WITHDRAWN - The bill was withdrawn from the Commerce Committee on January 22, 2026. It did not advance beyond the House committees and never reached a floor vote."
+        }
+      ]
+    },
+    {
+      "bill_key": "AZ:HB2702 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Withdrawn from House Commerce Committee, reassigned to AI and Innovation Committee, no further action; died at Sine Die 2026-06-13",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-22",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://fastdemocracy.com/bill-search/az/57th-2nd-regular/bills/AZB00020814/",
+          "title": "HB 2702 (AZ 2026) - FastDemocracy bill tracker",
+          "source_type": "other",
+          "supports": "Detail-page action log (not the unreliable search-snippet summary, which incorrectly claimed the bill 'became law') confirms withdrawal from Commerce Committee on 2026-01-22 with no further action.",
+          "quote": "The bill is dead/withdrawn as of January 22, 2026 ... The bill never passed either chamber and was never signed into law."
+        }
+      ],
+      "notes": "An initial search snippet erroneously suggested this bill 'became law'; the bill's own detail page action log contradicts that and shows it died in committee on 2026-01-22. Trusted the detailed action log over the summary label."
+    },
+    {
+      "bill_key": "AZ:HB2738 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Withdrawn from House Commerce Committee, reassigned to AI and Innovation Committee, no further action; died at Sine Die 2026-06-13",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-22",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://fastdemocracy.com/bill-search/az/57th-2nd-regular/bills/AZB00020897/",
+          "title": "HB 2738 (AZ 2026) - FastDemocracy bill tracker",
+          "source_type": "other",
+          "supports": "Full action log shows withdrawal from Commerce Committee on 2026-01-22 with no further recorded action.",
+          "quote": "Current Status: Dead/Withdrawn"
+        }
+      ]
+    },
+    {
+      "bill_key": "AZ:HB2820 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "No committee vote after House second reading on 2026-01-26; died at Sine Die 2026-06-13",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-26",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://fastdemocracy.com/bill-search/az/57th-2nd-regular/bills/AZB00020958/",
+          "title": "HB 2820 (AZ 2026) - FastDemocracy bill tracker",
+          "source_type": "other",
+          "supports": "Action log shows only first and second readings in the House with no subsequent committee vote through session end.",
+          "quote": "The most recent action logged is the House Second Reading on January 26, 2026"
+        }
+      ],
+      "notes": "No official confirmation of death vs. simply never scheduled; treated as failed_died given no recorded action for the remainder of a 5-month session."
+    },
+    {
+      "bill_key": "AZ:HB2949 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "No committee vote after House second reading on 2026-02-05; died at Sine Die 2026-06-13",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-05",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://fastdemocracy.com/bill-search/az/57th-2nd-regular/bills/AZB00021379/",
+          "title": "HB 2949 (AZ 2026) - FastDemocracy bill tracker",
+          "source_type": "other",
+          "supports": "Detail-page action log (not the search-snippet summary, which incorrectly claimed 'Passed lower house') shows only first/second reading and committee assignment, no vote recorded.",
+          "quote": "STILL PENDING -- The bill has not yet passed the House, nor has it advanced to the Senate. No voting records are available"
+        }
+      ],
+      "notes": "An initial search snippet erroneously suggested this bill had 'passed lower house'; the detail page's actual action log shows no committee vote ever occurred. Trusted the detailed log over the summary label."
+    },
+    {
+      "bill_key": "AZ:HB4009 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Failed House third reading 29-25 on 2026-02-26; died at Sine Die 2026-06-13",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-26",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://fastdemocracy.com/bill-search/az/57th-2nd-regular/bills/AZB00021808/",
+          "title": "HB 4009 (AZ 2026) - FastDemocracy bill tracker",
+          "source_type": "other",
+          "supports": "Confirms the packet's recorded House third-reading failure vote and shows no subsequent action.",
+          "quote": "Current Status: Dead (Failed in House) -- Last Action: February 26, 2026 - House third reading FAILED voting: (29-25-6-0)"
+        },
+        {
+          "url": "https://www.billtrack50.com/billdetail/1963506",
+          "title": "AZ HB4009 (2026) - BillTrack50",
+          "source_type": "other",
+          "supports": "Independently corroborates the same failed vote and dead status.",
+          "quote": "Current Status: Dead (Failed in House)"
+        }
+      ],
+      "notes": "Packet's recorded status was already accurate and final; this pass confirms it and adds the typed category/date fields."
+    },
+    {
+      "bill_key": "AZ:SB1463 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "No committee vote after Senate second reading on 2026-02-02; died at Sine Die 2026-06-13",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-02",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://fastdemocracy.com/bill-search/az/57th-2nd-regular/bills/AZB00021343/",
+          "title": "SB 1463 (AZ 2026) - FastDemocracy bill tracker",
+          "source_type": "other",
+          "supports": "Action log shows only first and second readings in the Senate, no committee vote recorded through session end.",
+          "quote": "PENDING -- The bill remains in early legislative stages ... no voting records are currently available"
+        }
+      ],
+      "notes": "No official confirmation of death vs. never scheduled; treated as failed_died given no recorded action for the remainder of a 5-month session."
+    },
+    {
+      "bill_key": "AZ:SB1467 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "No committee vote after Senate second reading on 2026-02-02; died at Sine Die 2026-06-13",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-02",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://fastdemocracy.com/bill-search/az/57th-2nd-regular/bills/AZB00021347/",
+          "title": "SB 1467 (AZ 2026) - FastDemocracy bill tracker",
+          "source_type": "other",
+          "supports": "Detail-page action log (not the search-snippet summary, which incorrectly claimed 'Passed upper chamber') shows only first/second reading and committee assignment, no vote recorded, through session end.",
+          "quote": "PENDING -- 'Passed Senate' and 'Passed House' fields are empty, and no voting records are available"
+        }
+      ],
+      "notes": "An initial search snippet erroneously suggested this bill 'passed upper chamber'; the detail page's actual action log shows no committee vote ever occurred. Trusted the detailed log over the summary label."
+    }
+  ],
+  "new_bills": []
+}

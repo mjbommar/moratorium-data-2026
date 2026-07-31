@@ -1,0 +1,55 @@
+{
+  "state_abbrev": "LA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "la-st-charles-parish-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "confidence": 0.6,
+      "changes": {
+        "current_status": {
+          "from": "Rejected on 2026-04-06 by a 3-5 vote after amendment",
+          "to": "The moratorium proposal remains rejected (council vote 5-3 against, per Herald Guide coverage dated the meeting as Monday, April 6/reported April 7, 2026). The Parish Council subsequently adopted a permanent data-center zoning ordinance at its June 1, 2026 meeting, unanimously per Herald Guide, establishing the parish's first data-center-specific zoning standards: data centers are permitted in M-1 and M-2 industrial districts, subject to a 300-foot buffer from residential districts, schools, day cares, nursing homes, assisted-living facilities and parks; a 25-foot landscape buffer where adjacent to those uses; a 55 dBA noise cap at sensitive edges; and on-site primary energy generation reserved for the M-2 district. No moratorium was ever in force, but the permanent ordinance directly addresses the regulatory gap that motivated the moratorium proposal.",
+          "reason": "Herald Guide's follow-up reporting on the rejected moratorium confirmed a replacement zoning ordinance (introduced by Parish President Matthew Jewell) was already scheduled for council consideration on May 18, 2026, and a later Herald Guide article confirms that ordinance's unanimous adoption on June 1, 2026."
+        },
+        "outcome": {
+          "from": "Moratorium failed; parish president indicated a data center zoning ordinance would return for consideration [VERIFY: post-2026-04-06 St. Charles Parish data-center zoning action not yet captured as of 2026-04-29; future-event status].",
+          "to": "Moratorium proposal failed (5-3 against, per Herald Guide). Parish President Matthew Jewell's follow-up data-center zoning ordinance was introduced and scheduled for the May 18, 2026 council meeting, and the Parish Council unanimously adopted the resulting zoning regulations at its June 1, 2026 meeting, per Herald Guide -- making St. Charles Parish the first parish in southeast Louisiana with dedicated data-center zoning rules, addressing the same underlying siting/design/operations concerns the moratorium had been intended to pause development for.",
+          "reason": "Confirms the specific follow-through from rejection to permanent regulation, closing out the future-event VERIFY marker."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "outcome",
+          "marker": "[VERIFY: post-2026-04-06 St. Charles Parish data-center zoning action not yet captured as of 2026-04-29; future-event status]",
+          "resolution": "corrected",
+          "note": "Confirmed: Parish President Matthew Jewell's data-center zoning ordinance was introduced for the May 18, 2026 council meeting and the Parish Council unanimously approved the resulting regulations at its June 1, 2026 meeting (reported June 3, 2026 by Herald Guide), directly addressing the regulatory gap without reviving the moratorium proposal."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.heraldguide.com/featured/parish-council-rejects-8-month-moratorium-on-new-data-centers/",
+          "title": "Parish council rejects 8-month moratorium on new data centers",
+          "publisher": "Herald Guide",
+          "document_date": "2026-04-07",
+          "source_type": "news",
+          "supports": "Confirms the moratorium was rejected 5-3 and that a follow-up data-center zoning ordinance, introduced by Parish President Matthew Jewell, was already scheduled for the May 18, 2026 council meeting.",
+          "quote": "the parish council voted 5-3 against a moratorium on new data centers for eight months. ... The issue of data centers will return to the council on May 18, when it considers an ordinance introduced by Jewell that addresses zoning of data centers."
+        },
+        {
+          "url": "https://www.heraldguide.com/news/parish-council-unanimously-approves-first-data-center-regulations/",
+          "title": "Parish Council unanimously approves first data center regulations",
+          "publisher": "Herald Guide",
+          "document_date": "2026-06-03",
+          "source_type": "news",
+          "supports": "Confirms the St. Charles Parish Council unanimously approved an ordinance on Monday, June 1, 2026, establishing the parish's first data-center zoning regulations, explicitly noting this came less than two months after the council rejected the proposed eight-month moratorium.",
+          "quote": "The Parish Council unanimously approved an ordinance Monday establishing the parish's first zoning regulations for data centers. ... It also comes less than two months after the council rejected a proposed eight-month moratorium on new data centers."
+        }
+      ],
+      "notes": "The moratorium itself never took effect (rejected 2026-04-06/07), so 'replaced' is used here in the sense the codebook intends for a permanent instrument now governing the subject matter, even though there was no in-force moratorium to formally supersede -- the parish president's alternative zoning-ordinance track (previewed in the same April article that reported the rejection) is what ultimately closed the regulatory gap. The parish's own website (stcharlesparish.gov) blocked automated retrieval (HTTP 403) on every attempt this session, so the specific ordinance number was not independently confirmed; both citations here are Herald Guide news articles rather than primary parish records. Recommend a follow-up pass to pull the actual ordinance number and ordinance text from parish records."
+    }
+  ],
+  "new_candidates": []
+}

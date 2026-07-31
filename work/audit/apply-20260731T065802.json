@@ -1,0 +1,320 @@
+{
+  "applied_at": "20260731T065802",
+  "answer_files": [
+    "work/answers/verify/AL.json",
+    "work/answers/verify/AR.json",
+    "work/answers/verify/CA.json",
+    "work/answers/verify/CO.json",
+    "work/answers/verify/CT.json",
+    "work/answers/verify/GA-part1.json",
+    "work/answers/verify/GA-part2.json",
+    "work/answers/verify/IA.json",
+    "work/answers/verify/ID.json",
+    "work/answers/verify/IL.json",
+    "work/answers/verify/KS.json",
+    "work/answers/verify/LA.json",
+    "work/answers/verify/MA.json",
+    "work/answers/verify/ME.json",
+    "work/answers/verify/MI-part1.json",
+    "work/answers/verify/MI-part2.json",
+    "work/answers/verify/MN.json",
+    "work/answers/verify/MO.json",
+    "work/answers/verify/NC.json",
+    "work/answers/verify/ND.json",
+    "work/answers/verify/NE.json",
+    "work/answers/verify/NY.json",
+    "work/answers/verify/OH-part1.json",
+    "work/answers/verify/OH-part2.json",
+    "work/answers/verify/OK.json",
+    "work/answers/verify/TN.json",
+    "work/answers/verify/WA.json",
+    "work/answers/verify/WI.json"
+  ],
+  "stats": {
+    "outcome:corrected": 44,
+    "already_applied": 151,
+    "verify_already_resolved": 91,
+    "verify_still_open": 37,
+    "candidate_duplicate": 19,
+    "outcome:confirmed_unchanged": 15,
+    "fields_changed": 18,
+    "verify_confirmed": 3,
+    "verify_resolved_via_field_rewrite": 8,
+    "outcome:status_changed": 12,
+    "status_changed": 2,
+    "verify_corrected": 5,
+    "outcome:unresolvable": 12,
+    "candidate_flagged_for_verification": 3,
+    "candidates_added": 7,
+    "skipped_drift": 3,
+    "skipped_duration_invariant": 1,
+    "ignored_packet_only_field": 10
+  },
+  "conflicts": [
+    "IA.json: ia-franklin-county-2026.duration `from` mismatch (csv='Temporary; end date not captured' answer='')",
+    "IA.json: ia-jackson-county-2024.date_enacted `from` mismatch (csv='Three documented adoptions in the captured record: (1) 2024-' answer='Three documented adoptions in the captured record: (1) 2024-')",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'date_enacted'",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'duration'",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'affected_projects'",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'outcome'",
+    "MI-part1.json: mi-south-lyon-undated marker not found in 'date_enacted'",
+    "MI-part1.json: mi-south-lyon-undated marker not found in 'duration'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'date_enacted'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'duration'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'legal_basis'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'current_status'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'affected_projects'",
+    "OH-part1.json: oh-findlay-2026.affected_projects `from` mismatch (csv='No specific developer or project has been publicly named; co' answer='Shady Grove/Marion Township annexation area discussed separa')"
+  ],
+  "skipped": [
+    "AL.json: candidate AL 'Leeds' (no instrument number) treated as duplicate of al-leeds-2026 (no instrument number)",
+    "AL.json: candidate AL 'Homewood' (no instrument number) treated as duplicate of al-homewood-2026 (no instrument number)",
+    "AL.json: candidate AL 'Cullman' (no instrument number) treated as duplicate of al-cullman-2026 (no instrument number)",
+    "CO.json: candidate CO 'Denver' (no instrument number) treated as duplicate of co-denver-2026 (no instrument number)",
+    "CO.json: candidate CO 'Jefferson County' (no instrument number) treated as duplicate of co-jefferson-county-2026 (no instrument number)",
+    "CO.json: candidate CO 'Boulder County' (no instrument number) treated as duplicate of co-boulder-county-2026 (no instrument number)",
+    "CT.json: candidate CT 'West Haven' (no instrument number) treated as duplicate of ct-west-haven-2026 (no instrument number)",
+    "GA-part1.json: ga-pike-county-2025 unresolvable",
+    "GA-part1.json: ga-jones-county-2025 unresolvable",
+    "GA-part1.json: ga-lagrange-2025 unresolvable",
+    "GA-part1.json: ga-monroe-county-2025 unresolvable",
+    "GA-part1.json: ga-social-circle-2025 unresolvable",
+    "IA.json: candidate IA 'Sioux County' (resolution-2026-32) treated as duplicate of ia-sioux-county-2026 (resolution-2026-32)",
+    "IA.json: candidate IA 'Madison County' (no instrument number) treated as duplicate of ia-madison-county-2026 (no instrument number)",
+    "IA.json: candidate IA 'Ida County' (no instrument number) treated as duplicate of ia-ida-county-2026 (no instrument number)",
+    "MI-part1.json: mi-sault-ste-marie-tribe-of-chippewa-indian-2026 unresolvable",
+    "MI-part1.json: mi-grand-blanc-township-2026 unresolvable",
+    "MN.json: mn-eagan-2026 unresolvable",
+    "MN.json: candidate MN 'Rosemount' (ordinance-2026-03) treated as duplicate of mn-rosemount-2026 (ordinance-2026-03)",
+    "MN.json: candidate MN 'Mankato' (no instrument number) treated as duplicate of mn-mankato-2026 (no instrument number)",
+    "MN.json: candidate MN 'Otsego' (ordinance-2026-xx) treated as duplicate of mn-otsego-2026 (ordinance-2026-xx)",
+    "MN.json: candidate MN 'Wright County' (ordinance-26-2) treated as duplicate of mn-wright-county-2026 (ordinance-26-2)",
+    "NY.json: candidate NY 'State of New York (Executive Order, not a local-government action)' (no instrument number) treated as duplicate of ny-state-of-new-york-executive-order-not-a-local-government-action-2026 (no instrument number)",
+    "OH-part1.json: candidate OH 'Alliance' (no instrument number) treated as duplicate of oh-alliance-2026 (no instrument number)",
+    "TN.json: tn-sullivan-county-2025 unresolvable",
+    "WA.json: wa-ephrata-2018 unresolvable",
+    "WA.json: wa-waterville-2018 unresolvable",
+    "WA.json: wa-douglas-county-2018 unresolvable",
+    "WA.json: candidate WA 'Seattle' (resolution-32204) treated as duplicate of wa-seattle-2026-2 (resolution-32204)",
+    "WA.json: candidate WA 'Spokane' (no instrument number) treated as duplicate of wa-spokane-2026 (no instrument number)",
+    "WA.json: candidate WA 'Pasco' (no instrument number) treated as duplicate of wa-pasco-undated (no instrument number)"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "ga-decatur-county-2026",
+      "column": "legal_basis",
+      "before": "Decatur County Board of Commissioners moratorium vote 2026-04-14 (per WALB/WCTV 2026-04-15 reporting); county minutes for that meeting not yet posted online as of 2026-04-29 [VERIFY primary minutes once published]",
+      "after": "Decatur County Board of Commissioners moratorium adopted at the April 14, 2026 regular meeting. Per the county's signed minutes: County Attorney Kirbo recommended a moratorium on the issuance of building permits, plan reviews, and preliminary actions related to motocross complexes and data centers until a committee returns with proposed rules and regulatory guidelines; Commissioner Barber's motion to implement the moratorium and form a study committee was seconded by Commissioner Anderson and unanimously approved.",
+      "reason": "Personally fetched and read the signed Decatur County Board of Commissioners minutes for the April 14, 2026 regular meeting, confirming the vote language cited secondhand in WALB/WCTV reporting.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-decatur-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-04-29",
+      "after": "Active as of 2026-07-31. Decatur County BOC minutes through the June 23, 2026 meeting show no repeal, extension, or replacement of the moratorium.",
+      "reason": "Reviewed the Decatur County BOC minutes archive through June 2026; no subsequent action found ending the moratorium. The open-ended term persists pending the study committee's report.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-lamar-county-2025",
+      "column": "date_enacted",
+      "before": "2025-09 [VERIFY exact date \u2014 GPB 2025-10-22 reporting groups Lamar with September 2025 county actions but does not name a date]",
+      "after": "2025-09-16 (Resolution 2025-18, Moratorium on Commercial and Manufacturing Development), per Lamar County Board of Commissioners regular business meeting minutes.",
+      "reason": "Lamar County BOC minutes for the September 16, 2025 regular business meeting record adoption of Resolution 2025-18 on that date.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-lamar-county-2025",
+      "column": "date_enacted_iso",
+      "before": "2025-09",
+      "after": "2025-09-16",
+      "reason": "Same as above.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-lamar-county-2025",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Exact adoption date now identified in county minutes.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-lamar-county-2025",
+      "column": "duration",
+      "before": "Not confirmed [VERIFY: planning director Anita Buice told GPB the action was tied to a broader code rewrite; primary minutes not located as of 2026-04-29]",
+      "after": "180 days (Resolution 2025-18), with an internal staff goal of completing the underlying code rewrite within 90 days; subsequently extended as to data centers specifically by Resolution 26-03 (on or about 2026-03-17).",
+      "reason": "County minutes state the moratorium term and staff goal; a later county meeting summary documents the data-center-specific extension.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-lamar-county-2025",
+      "column": "legal_basis",
+      "before": "Lamar County moratorium action referenced in GPB 2025-10-22 statewide reporting [VERIFY: primary resolution not retrieved]",
+      "after": "Lamar County Resolution 2025-18, 'Moratorium on Commercial and Manufacturing Development,' adopted September 16, 2025; extended as to data centers by Resolution 26-03, adopted on or about March 17, 2026.",
+      "reason": "Identified via Lamar County's posted regular business meeting minutes (Sept. 16, 2025) and meeting summary (March 17, 2026).",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-lamar-county-2025",
+      "column": "current_status",
+      "before": "Unknown [VERIFY: no replacement ordinance located on county site as of 2026-04-29]",
+      "after": "Active/extended as of 2026-07-31. Resolution 26-03 (on or about 2026-03-17) extended the moratorium as it applies to data centers; the exact new sunset date is not stated in the posted meeting summary and needs a follow-up read of the full resolution text. No repeal or replacement found in county minutes through mid-2026.",
+      "reason": "County meeting summary for March 17, 2026 documents the extension; no later repeal or replacement located.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-lamar-county-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "These corrections rely on a parallel research pass using WebFetch against these two Lamar County PDFs; my own retry of the same URLs failed to extract text (both are image-based PDFs that my WebFetch attempts could not OCR), so I could not independently re-confirm the exact wording, though the resolution numbers and phrasing are specific and internally consistent with the known facts (Anita Buice/code rewrite). Confidence is set at 0.68 to reflect this. Recommend the next pass pull the full Resolution 26-03 text to pin down the new sunset date.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-cobb-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-04-29",
+      "after": "Active as of 2026-07-31; the moratorium is set to expire in August 2026, and county staff are recommending the Board of Commissioners extend it for another six months (or until new data-center zoning rules are adopted) at the board's first August 2026 meeting.",
+      "reason": "Marietta Daily Journal, published 2026-07-29, reports Community Development Director Jessica Guinn's staff plan to request an extension since the county's Unified Development Code rewrite is still in progress.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-coweta-county-2025",
+      "column": "date_enacted",
+      "before": "2025-05 (180-day moratorium) [VERIFY exact day; GPB Oct 2025 reporting and Fox5 confirm \"May to December 2025\" duration]",
+      "after": "May 6, 2025 (180-day moratorium), per news coverage of the Board of Commissioners meeting (4-1 vote, Chairman Bill McKenzie dissenting).",
+      "reason": "Atlanta News First (published 2025-05-06/07) and Times-Herald news coverage place the vote on May 6, 2025. County-level minutes were not independently retrieved (the civicclerk portal returns 403 to automated fetch and the Municode library also returns 403), so this rests on news sourcing rather than a primary instrument.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-coweta-county-2025",
+      "column": "date_enacted_iso",
+      "before": "2025-05",
+      "after": "2025-05-06",
+      "reason": "See date_enacted change.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-coweta-county-2025",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "News sources agree on the specific day, though sourcing remains secondary rather than a primary minutes record.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-douglas-county-2025",
+      "column": "date_enacted",
+      "before": "2025 (Resolution 25-116) [VERIFY exact date \u2014 image-based PDF cannot be OCR-read in current pass; resolution title \"Moratorium Data Center Accessory\" archived at WWALS]",
+      "after": "March 18, 2025 (Resolution No. 25-116)",
+      "reason": "Full resolution text, personally retrieved and read: 'SO RESOLVED, this 18th day of March 2025,' signed by Chairwoman Dr. Romona Jackson Jones and attested by Deputy County Clerk Sherri Mathis.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-douglas-county-2025",
+      "column": "date_enacted_iso",
+      "before": "2025",
+      "after": "2025-03-18",
+      "reason": "See date_enacted change.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-douglas-county-2025",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Exact date confirmed directly from the signed resolution text.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-hall-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-04-29",
+      "after": "Active as of 2026-07-31. The county's permanent Data Center Ordinance remains in draft (Draft V2, dated 07/06/2026) as of this research pass, with a Steering & Stakeholder Committee meeting scheduled for August 4, 2026; no replacement ordinance has been adopted, so the moratorium (running through approximately 2026-08-25) remains the operative regime.",
+      "reason": "Confirmed via Hall County's official 2026 Unified Development Code Updates page.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-roswell-2026",
+      "column": "duration",
+      "before": "90 days, expiring 2026-04-12",
+      "after": "90 days initially (through 2026-04-12); extended 95 days on 2026-03-23 (through 2026-06-26); extended again 90 days on 2026-06-22 (through 2026-09-20).",
+      "reason": "Personally fetched the City of Roswell's official data-center information page, which documents both extensions in detail.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-roswell-2026",
+      "column": "current_status",
+      "before": "Expired unless extended [VERIFY: no extension or replacement located on Roswell website as of 2026-04-29]",
+      "after": "Active as of 2026-07-31, running under its second extension through 2026-09-20. The city reports no projects are currently proposed for data-center development within Roswell; existing data centers may continue operating.",
+      "reason": "roswellconnections.com/datacenters/ (the city's official public-engagement page on this topic) documents both extensions and the current sunset date.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-roswell-2026",
+      "column": "enacted_status",
+      "before": "expired",
+      "after": "extended",
+      "reason": "One of the most significant corrections in this packet: enacted_status changes from 'expired' to 'extended' because the city has continuously renewed the moratorium rather than letting it lapse. The dataset's computed_expiry (previously 2026-04-12) is stale and should be recalculated from the new duration text (current sunset date 2026-09-20).",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-camden-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Georgia / Camden County",
+      "reason": "News-sourced only. The exact vote date ('Tuesday') falls close to or possibly just before the project's 2026-04-28 coverage cutoff; included here because the article confirming it was published 2026-05-02, after the cutoff. A GPB headline (gpb.org, not independently fetched in this pass) additionally describes Camden as 'the first county on the coast' to adopt such a moratorium, dated 2026-05-06.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-marietta-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Georgia / Marietta",
+      "reason": "News-sourced only; exact adoption date not confirmed (article describes it only in relative terms, 'just over two hours' before a related vote). Falls after the 2026-04-28 coverage cutoff.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-dougherty-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Georgia / Dougherty County",
+      "reason": "News-sourced only. Distinct jurisdiction from the City of Albany (also tracked separately below), though both sit within the same metro area and were reported in the same article. Falls after the 2026-04-28 coverage cutoff.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-albany-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Georgia / Albany",
+      "reason": "News-sourced only. Distinct jurisdiction from Dougherty County (also tracked separately above). Falls after the 2026-04-28 coverage cutoff.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-cherokee-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Georgia / Cherokee County",
+      "reason": "News-sourced only. Falls after the 2026-04-28 coverage cutoff.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-augusta-richmond-county-undated",
+      "column": "<new row>",
+      "before": "",
+      "after": "Georgia / Augusta-Richmond County",
+      "reason": "This article describes an EXTENSION of an existing Augusta-Richmond County moratorium; the original adoption date and term were not confirmed in this pass and are not in the current inventory under this jurisdiction. Recommend a dedicated research pass to locate the original ordinance/resolution before merging this as a full inventory row. News-sourced only; falls after the 2026-04-28 coverage cutoff.",
+      "source": "GA-part1.json"
+    },
+    {
+      "moratorium_id": "ga-paulding-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Georgia / Paulding County",
+      "reason": "News-sourced only. Falls after the 2026-04-28 coverage cutoff.",
+      "source": "GA-part1.json"
+    }
+  ]
+}

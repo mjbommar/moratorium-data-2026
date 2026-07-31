@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Iowa as of April 2026.
 
-**12 instruments** — 8 in force, 1 pending, 3 past. Activity level: **High**.
+**30 instruments** — 29 in force, 0 pending, 1 past. Activity level: **High**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

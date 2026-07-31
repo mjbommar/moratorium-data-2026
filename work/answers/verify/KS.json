@@ -1,0 +1,125 @@
+{
+  "state_abbrev": "KS",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ks-riley-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.6,
+      "changes": {
+        "date_enacted": {
+          "from": "2026-04-13",
+          "to": "2026-05-18 (per news reporting: commissioners agreed in principle around April 2026, but the moratorium resolution was not signed/effective until May 18, 2026)",
+          "reason": "Three independent secondary sources (1350kman/KMAN, WIBW, and a citizenportal.ai snippet referencing The Mercury) consistently report the signed resolution took effect May 18, 2026, running six months to November 12, 2026. No primary source (Riley County's own portal) could be retrieved to confirm a resolution number or exact signing date, so this is a news-corroborated correction, not a primary-source one."
+        },
+        "date_enacted_iso": {
+          "from": "2026-04-13",
+          "to": "2026-05-18",
+          "reason": "Same as date_enacted: three independent news outlets place the actual signing/effective date at 2026-05-18, not 2026-04-13."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "unverified",
+          "reason": "No primary source (signed resolution or county minutes) was obtained despite checking rileycountyks.gov and its Granicus/CivicClerk meeting portals, so the corrected date remains news-sourced only and should still be flagged unverified pending a primary document."
+        },
+        "duration": {
+          "from": "Reported as a temporary pause by KMAN News Radio (1350kman.com); duration and resolution number not specified in captured news coverage [VERIFY signed resolution and minutes from Riley County clerk]",
+          "to": "Six months: effective 2026-05-18 through 2026-11-12, per KMAN (1350kman.com) and WIBW reporting on the signed resolution",
+          "reason": "1350kman's 'End date set for Riley County's data center moratorium' article and a WIBW June 2, 2026 article both state a six-month term running May 18 to November 12, 2026."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "178",
+          "reason": "Computed from the news-reported effective window 2026-05-18 through 2026-11-12."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "fixed_days",
+          "reason": "News reporting establishes a fixed six-month term with a stated end date (November 12, 2026), not an open-ended pause."
+        },
+        "computed_expiry": {
+          "from": "null",
+          "to": "2026-11-12",
+          "reason": "Per the news-reported end date of the moratorium."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "duration",
+          "marker": "[VERIFY signed resolution and minutes from Riley County clerk]",
+          "resolution": "corrected",
+          "note": "Could not obtain the signed resolution or official minutes: rileycountyks.gov's Agendas-Packets-and-Minutes page, the Granicus portal at rileycountyks.iqm2.com/Citizens/Default.aspx, and the CivicClerk portal at rileycoks.portal.civicclerk.com are all JavaScript-rendered and returned no extractable document text or search results via fetch. However, three independent news outlets (1350kman/KMAN, WIBW, and a citizenportal.ai snippet citing The Mercury) converge on the same facts: the resolution was signed and took effect May 18, 2026, running six months to November 12, 2026. Corrected the duration/date fields on that basis, but confidence is lowered because this rests on secondary sourcing, not the resolution text itself."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY resolution number from official minutes]",
+          "resolution": "still_unverifiable",
+          "note": "Checked rileycountyks.gov (Agendas-Packets-and-Minutes, AgendaCenter pages), the Granicus meeting portal (rileycountyks.iqm2.com/Citizens/Default.aspx), and the CivicClerk portal (rileycoks.portal.civicclerk.com) - all JS-rendered, no text retrievable via WebFetch. DuckDuckGo searches for the resolution restricted to rileycountyks.gov and for a resolution PDF turned up no hits. None of the four news articles found (1350kman x2, WIBW, citizenportal.ai) state a resolution number. Legal basis remains 'County Commission moratorium action' without a number; next pass should try requesting the document directly from the county clerk or querying the CivicClerk portal's document search API."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://1350kman.com/2026/05/end-date-set-for-riley-countys-data-center-moratorium/",
+          "title": "End date set for Riley County's data center moratorium",
+          "publisher": "1350kman.com (KMAN Radio)",
+          "document_date": "2026-05",
+          "source_type": "news",
+          "supports": "Confirms the moratorium resolution was signed by commissioners (a 'Monday' in May 2026) and states the effective end date.",
+          "quote": "The resolution will go into effect from the time it's published in The Mercury until Nov. 12."
+        },
+        {
+          "url": "https://www.wibw.com/2026/06/02/riley-county-planning-director-shares-details-data-center-moratorium/",
+          "title": "Riley County Planning Director shares details on data center moratorium",
+          "publisher": "WIBW",
+          "document_date": "2026-06-02",
+          "source_type": "news",
+          "supports": "States the moratorium's actual start date (May 18, 2026) and end date (November 12, 2026), and quotes Planning Director Amanda Webb on its purpose.",
+          "quote": "Riley County's data center moratorium started May 18. ... The moratorium is set to end on November 12."
+        },
+        {
+          "url": "https://rileycountyks.iqm2.com/Citizens/Default.aspx",
+          "title": "Riley County Meeting Portal (Granicus)",
+          "publisher": "Riley County, Kansas",
+          "source_type": "other",
+          "supports": "Checked for primary minutes/resolution text; portal is JavaScript-rendered and returned no extractable content confirming or denying the resolution number.",
+          "quote": "Your source for meeting agendas, detailed agenda packets, and minutes."
+        }
+      ],
+      "notes": "Overall record status (active as of 2026-07-31) is unaffected by this correction; the moratorium is still within its six-month window (2026-05-18 to 2026-11-12) either way."
+    },
+    {
+      "moratorium_id": "ks-saline-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.55,
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY signed resolution from Saline County clerk]",
+          "resolution": "still_unverifiable",
+          "note": "Checked salinecountyks.gov/agendas and salinecountyks.gov/commission directly (both returned HTTP 403 to the fetch tool); ran a DuckDuckGo site-restricted search (site:salinecountyks.gov moratorium resolution data center) which returned only unrelated county pages (FAQ, purchasing, code sections) and no resolution PDF. citizenportal.ai's article on the adoption (articles/7891674/Kansas/Saline-County/) returned HTTP 403 on direct fetch. salina311.com's article is paywalled ('Restricted... reserved for paid members'). salinapost.com's interview with Commissioner Joe Hay (fetched in full) confirms the 4-0 vote structure but gives no resolution number. No resolution number was found in any source checked; legal basis remains 'County Commission action; resolution number not yet identified.'"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://salinapost.com/posts/72efeb72-d4d2-4a40-bb06-f445635cd6d4",
+          "title": "Saline County Commissioner discusses three year moratorium on data centers",
+          "publisher": "Salina Post",
+          "source_type": "news",
+          "supports": "Corroborates (via Commissioner Joe Hay interview) the one-year-per-category structure already recorded (data centers, nuclear power, hydrogen-based energy), but does not supply a resolution number.",
+          "quote": "One year= Data center. One year= Nuclear power facilities. One year= Hydrogen-based energy facilities."
+        },
+        {
+          "url": "https://www.salinecountyks.gov/agendas",
+          "title": "Saline County Agendas & Minutes",
+          "publisher": "Saline County, Kansas",
+          "source_type": "other",
+          "supports": "Checked for the March 17, 2026 resolution text; page returned HTTP 403 to the fetch tool and could not be searched directly.",
+          "quote": "HTTP 403 Forbidden (page not retrievable)"
+        }
+      ],
+      "notes": "No change to the record. The 4-0 vote and March 17, 2026 adoption date are corroborated by a citizenportal.ai search snippet ('voted 4-0 on March 17 to adopt a temporary moratorium... to give the planning commission time to draft regulations'), but the article itself could not be fetched directly (403), so it is cited here only as context, not as evidence for a specific field change. Current status (active as of 2026-07-31) is unaffected."
+    }
+  ],
+  "new_candidates": []
+}

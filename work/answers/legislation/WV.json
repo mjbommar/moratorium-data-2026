@@ -1,0 +1,382 @@
+{
+  "state_abbrev": "WV",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "WV 2026 regular session ran 2026-01-14 to 2026-03-14 (60-day session, per wvlegislature.gov). WV bills do NOT carry over between the two regular sessions of a legislature term: each regular session's unpassed bills die at sine die and must be reintroduced under a new bill number the next year. This is confirmed by the 2025 bills below (SB583, SB857, SB803, HB3137) which show no action past their 2025 session pages, while near-duplicate proposals (e.g. SB623 (2026), a reintroduction of the same data-center incentive concept as SB583/SB857 (2025)) appear under brand-new 2026 bill numbers rather than as continuations of the old ones.",
+  "decisions": [
+    {
+      "bill_key": "WV:HB 2014 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed House and Senate 2025-04-12 (with concurrence); approved by Governor 2025-04-30; Chapter 112, Acts, Regular Session 2025; effective 2025-07-11",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2025-04-30",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=2014&year=2025&sessiontype=RS&btype=bill",
+          "title": "House Bill 2014 (2025) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms enactment: passed House 4/1/25, passed Senate with amendments 4/11/25, House/Senate concurrence 4/12/25, approved by Governor 4/30/25, Chapter 112, effective 2025-07-11 (90 days from passage).",
+          "quote": "Approved by Governor: April 30, 2025; Chapter 112, Acts, Regular Session, 2025"
+        }
+      ],
+      "notes": "Prior record's disposition already correct; last action date refined to governor approval (2025-04-30) rather than legislative passage (2025-04-12)."
+    },
+    {
+      "bill_key": "WV:HB 3137 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced and referred to House Energy and Public Works (then Energy and Manufacturing) 2025-03-04; no further action; died at 2025 regular session sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-03-04",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=3137&year=2025&sessiontype=RS&btype=bill",
+          "title": "House Bill 3137 (2025) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page shows only introduction and committee referral on 2025-03-04, no further history recorded; the 2025 session concluded with other bills passing through mid-April 2025, confirming this one did not advance.",
+          "quote": "To House Energy and Manufacturing 03/04/25"
+        }
+      ],
+      "notes": "No WV Legislature page directly labels a bill 'died'; disposition inferred from the bill's own complete (and terminal) action history combined with confirmed session-end dates, consistent with WV's no-carryover rule."
+    },
+    {
+      "bill_key": "WV:HB 4822 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced and referred to House Energy and Public Works 2026-01-26; no further action; died at 2026-03-14 sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-26",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=4822&year=2026&sessiontype=RS&btype=bill",
+          "title": "House Bill 4822 (2026) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page's action history ends at committee referral on 2026-01-26 with no further entries.",
+          "quote": "To House Energy and Public Works 01/26/26"
+        },
+        {
+          "url": "https://www.wvlegislature.gov/",
+          "title": "West Virginia Legislature home page",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms 2026 regular session ran 2026-01-14 through 2026-03-14."
+        }
+      ],
+      "notes": "Packet's prior 'Pending' status was accurate for the capture date; now finalized as died at sine die since no vote or further committee action occurred before adjournment."
+    },
+    {
+      "bill_key": "WV:HB 4832 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Introduced and referred to House Energy and Public Works 2026-01-26; no further action; died at 2026-03-14 sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-26",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=4832&year=2026&sessiontype=RS&btype=bill",
+          "title": "House Bill 4832 (2026) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page confirms only introduction and committee referral on 2026-01-26, no further action recorded before session end.",
+          "quote": "Referred to Energy and Public Works"
+        }
+      ],
+      "notes": "Resolves the prior [VERIFY] flag: the WV Legislature's own bill-status page was retrieved directly and shows no action past committee referral. Session adjourned 2026-03-14 (not 03-08 as the prior capture guessed)."
+    },
+    {
+      "bill_key": "WV:HB 4854 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced and referred to House Government Organization 2026-01-28; no further action; died at 2026-03-14 sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-28",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=4854&year=2026&sessiontype=RS&btype=bill",
+          "title": "House Bill 4854 (2026) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page's action history ends at committee referral on 2026-01-28.",
+          "quote": "To House Government Organization"
+        }
+      ]
+    },
+    {
+      "bill_key": "WV:HB 4948 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced and referred to House Energy and Public Works 2026-01-29; no further action; died at 2026-03-14 sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-29",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=4948&year=2026&sessiontype=RS&btype=bill",
+          "title": "House Bill 4948 (2026) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page's action history ends at committee referral on 2026-01-29, no floor action.",
+          "quote": "Referred to Energy and Public Works"
+        }
+      ]
+    },
+    {
+      "bill_key": "WV:HB 4983 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed House 2026-02-17; passed Senate with amendment 2026-03-11; House concurred 2026-03-13 (effective from passage); approved by Governor 2026-03-27; Chapter 221, Acts, Regular Session 2026",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-03-27",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=4983&year=2026&sessiontype=RS&btype=bill",
+          "title": "House Bill 4983 (2026) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms enactment: passed House 2/17/26, passed Senate w/ amended title 3/11/26, House concurred 3/13/26 (effective from passage), approved by Governor 3/27/26, Chapter 221.",
+          "quote": "Effective from passage - (March 13, 2026)"
+        }
+      ],
+      "notes": "Packet's prior status ('effective from passage, 2026-03-13') is correct; last_action_date_iso updated to the governor's approval date (2026-03-27), the most recent recorded action on the bill page."
+    },
+    {
+      "bill_key": "WV:HB 5032 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced and referred to House Judiciary 2026-02-02; no further action; died at 2026-03-14 sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-02",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=5032&year=2026&sessiontype=RS&btype=bill",
+          "title": "House Bill 5032 (2026) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page's action history ends at Judiciary Committee referral on 2026-02-02.",
+          "quote": "Referred to Judiciary Committee"
+        }
+      ]
+    },
+    {
+      "bill_key": "WV:HB 5590 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced and referred to House Energy and Public Works 2026-02-16; no further action; died at 2026-03-14 sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-16",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=5590&year=2026&sessiontype=RS&btype=bill",
+          "title": "House Bill 5590 (2026) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page's action history ends at committee referral on 2026-02-16.",
+          "quote": "Referred to Energy and Public Works Committee"
+        }
+      ]
+    },
+    {
+      "bill_key": "WV:HB 5620 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced and referred to House Judiciary 2026-02-16; no further action; died at 2026-03-14 sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-16",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=5620&year=2026&sessiontype=RS&btype=bill",
+          "title": "House Bill 5620 (2026) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page's action history ends at Judiciary Committee referral on 2026-02-16.",
+          "quote": "Referred to Judiciary Committee"
+        }
+      ]
+    },
+    {
+      "bill_key": "WV:SB 583 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced and referred to Senate Economic Development (then Finance) 2025-02-24; no further action; died at 2025 regular session sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-02-24",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=583&year=2025&sessiontype=RS&btype=bill",
+          "title": "Senate Bill 583 (2025) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page's action history ends at committee referral on 2025-02-24, no passage or further action.",
+          "quote": "Referred to Economic Development Committee, then to Finance Committee"
+        }
+      ]
+    },
+    {
+      "bill_key": "WV:SB 623 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced and referred to Senate Economic Development 2026-01-27; no further action; died at 2026-03-14 sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-27",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=623&year=2026&sessiontype=RS&btype=bill",
+          "title": "Senate Bill 623 (2026) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page's action history ends at Economic Development Committee referral on 2026-01-27.",
+          "quote": "To Economic Development 01/27/26"
+        }
+      ],
+      "notes": "This bill is functionally a 2026 reintroduction of the same incentive concept as SB583/SB857 (2025), consistent with the session_note's no-carryover finding."
+    },
+    {
+      "bill_key": "WV:SB 652 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced and referred to Senate Economic Development (then Finance) 2026-01-28; no further action; died at 2026-03-14 sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-28",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=652&year=2026&sessiontype=RS&btype=bill",
+          "title": "Senate Bill 652 (2026) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page's action history ends at committee referral on 2026-01-28.",
+          "quote": "Referred to Economic Development, then Finance committees"
+        }
+      ]
+    },
+    {
+      "bill_key": "WV:SB 658 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced and referred to Senate Economic Development 2026-01-29; no further action; died at 2026-03-14 sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-29",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=658&year=2026&sessiontype=RS&btype=bill",
+          "title": "Senate Bill 658 (2026) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page's action history ends at committee referral on 2026-01-29.",
+          "quote": "Referred to Economic Development"
+        }
+      ]
+    },
+    {
+      "bill_key": "WV:SB 695 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced and referred to Senate Judiciary 2026-01-30; no further action; died at 2026-03-14 sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-30",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=695&year=2026&sessiontype=RS&btype=bill",
+          "title": "Senate Bill 695 (2026) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page's action history ends at Judiciary Committee referral on 2026-01-30.",
+          "quote": "Referred to Judiciary Committee"
+        }
+      ]
+    },
+    {
+      "bill_key": "WV:SB 803 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced and referred to Senate Economic Development 2025-03-19; no further action; died at 2025 regular session sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-03-19",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=803&year=2025&sessiontype=RS&btype=bill",
+          "title": "Senate Bill 803 (2025) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page's action history ends at committee referral on 2025-03-19, no further action recorded.",
+          "quote": "S To Economic Development 03/19/25"
+        }
+      ]
+    },
+    {
+      "bill_key": "WV:SB 857 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced and referred to Senate Economic Development (then Finance) 2025-03-20; no further action; died at 2025 regular session sine die adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-03-20",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=857&year=2025&sessiontype=RS&btype=bill",
+          "title": "Senate Bill 857 (2025) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Bill page's action history ends at committee referral on 2025-03-20, no further action.",
+          "quote": "S To Economic Development 03/20/25"
+        }
+      ]
+    },
+    {
+      "bill_key": "WV:SB 907 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed Senate 2025-03-29; passed House with amendments 2025-04-10; Senate concurred 2025-04-12; approved by Governor 2025-04-25; Chapter 82, Acts, Regular Session 2025; effective 2025-07-11 (90 days from passage)",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2025-04-25",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=907&year=2025&sessiontype=RS&btype=bill",
+          "title": "Senate Bill 907 (2025) - Bill Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms enactment: passed Senate 3/29/25, passed House w/ amendments 4/10/25, Senate concurred 4/12/25, approved by Governor 4/25/25, Chapter 82, effective 90 days from passage (2025-07-11).",
+          "quote": "Effective Ninety Days from Passage - (July 11, 2025)"
+        }
+      ],
+      "notes": "Prior record's disposition already correct; last_action_date_iso updated to governor approval date (2025-04-25)."
+    }
+  ],
+  "new_bills": []
+}

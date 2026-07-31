@@ -1,0 +1,224 @@
+{
+  "state_abbrev": "NY",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ny-lewiston-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "confidence": 0.6,
+      "changes": {
+        "date_enacted": {
+          "from": "Not confirmed; public hearing scheduled 2026-04-13 [VERIFY: post-2026-04-13 Town Board adoption vote not in captured records as of 2026-04-29; future-event status].",
+          "to": "Adopted as Local Law No. 3 of 2026, now filed in the Town's official 2026 Local Laws register; the exact Town Board vote date was not confirmed from a source I could directly read, but adoption followed the 2026-04-13 public hearing.",
+          "reason": "The enacted law text is filed under the Town's official 2026 Local Laws directory, which by standard NY municipal practice contains only adopted, filed local laws; the exact vote date could not be read from the Town's scanned minutes or blocked news coverage."
+        },
+        "duration": {
+          "from": "Not identified in captured agenda [VERIFY: duration not specified in captured Lewiston Local Law 3-2026 agenda materials; full text not retrieved].",
+          "to": "Eighteen (18) months from the effective date of adoption (the 'Moratorium Period'), extendable by Town Board resolution for additional periods not to exceed six months each.",
+          "reason": "Section 5(a) of the enacted Local Law No. 3 of 2026 fixes an 18-month Moratorium Period from the effective date of adoption, extendable in increments of up to 6 months under Section 8."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "548",
+          "reason": "18 months is approximated as 548 days (18 x 30.44) for the numeric duration_days field; the operative unit in the law itself is months, not days."
+        },
+        "trigger": {
+          "from": "Proposed local regulation of data centers, artificial intelligence processing facilities, and cryptocurrency mining operations; project trigger not identified in captured agenda [VERIFY: no specific Lewiston project application identified in captured municipal records].",
+          "to": "General/preemptive moratorium. The enacted law's legislative findings (Section 3) cite electrical and wastewater infrastructure capacity, fire safety, the absence of a zoning framework for these uses in the Town Code, and a pending Comprehensive Plan update -- no specific project or applicant is named anywhere in the enacted text.",
+          "reason": "Section 3 of the enacted law lists general legislative findings (infrastructure capacity, wastewater treatment, fire safety, absence of a regulatory framework, a pending Comprehensive Plan update, and regional precedent) and does not reference any specific project or applicant."
+        },
+        "affected_projects": {
+          "from": "None identified in captured municipal record [VERIFY: no specific Lewiston applicant identified in captured records as of 2026-04-29].",
+          "to": "None. The adopted law is townwide and general; no applicant or project is named in its findings or operative sections.",
+          "reason": "The enacted law's findings and operative sections are entirely general/townwide; no applicant or project is named anywhere in the text I read."
+        },
+        "current_status": {
+          "from": "Proposed/public-hearing stage in captured records",
+          "to": "Adopted and in effect as Local Law No. 3 of 2026, an 18-month moratorium on the establishment, construction, expansion, or operation of data centers (aggregate IT load >= 1 MW), artificial intelligence processing facilities (>= 1 MW), and cryptocurrency mining operations (aggregate electrical draw >= 100 kW), with a SEQRA Type II Action determination under 6 NYCRR 617.5(c)(33).",
+          "reason": "Synthesizes the confirmed adoption, 18-month duration, applicability thresholds, and SEQRA determination directly from the enacted law's text."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: post-2026-04-13 Town Board adoption vote not in captured records as of 2026-04-29; future-event status]",
+          "resolution": "corrected",
+          "note": "The Town has since published the enacted text as Local Law No. 3 of 2026 in its official 2026 Local Laws register, confirming adoption; the precise Town Board vote date was not established from a source I could directly verify (the Town's own scanned March 23, 2026 regular Town Board minutes and the April 2026 news coverage were both unreadable/blocked in this pass)."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY: duration not specified in captured Lewiston Local Law 3-2026 agenda materials; full text not retrieved]",
+          "resolution": "corrected",
+          "note": "The enacted law's Section 5(a) sets an 18-month Moratorium Period running from the effective date of adoption, extendable in increments of up to 6 months under Section 8."
+        },
+        {
+          "field": "trigger",
+          "marker": "[VERIFY: no specific Lewiston project application identified in captured municipal records]",
+          "resolution": "confirmed",
+          "note": "The enacted law's legislative findings (Section 3) are general and townwide; no specific project or applicant is referenced anywhere in the text."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: no specific Lewiston applicant identified in captured records as of 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Confirmed general/townwide scope directly from the enacted law's text; no applicant is named."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.townoflewistonny.gov/documents/2026%20Local%20Laws/Local%20Law%203-2026.pdf",
+          "title": "Local Law No. 3 of the Year 2026 -- A Local Law Imposing a Moratorium on the Establishment, Construction, Expansion, or Operation of Data Centers, Artificial Intelligence Processing Facilities, and Cryptocurrency Mining Operations Within the Town of Lewiston, Niagara County, New York",
+          "publisher": "Town of Lewiston, New York",
+          "source_type": "ordinance",
+          "supports": "Establishes that Local Law 3-2026 was enacted (it is filed under the Town's official '2026 Local Laws' directory with an assigned local-law number), sets an 18-month moratorium period, contains a SEQRA Type II Action determination, and shows the law's legislative findings are general and name no specific project or applicant.",
+          "quote": "Effective upon the date of adoption of this Local Law, and continuing for a period of eighteen (18) months thereafter (the \"Moratorium Period\"), unless extended or earlier terminated by action of the Town Board, no person, entity, corporation, partnership, limited liability company, or other legal entity shall: (1) Establish, construct, build, install, place, operate, or use any Data Center, Artificial Intelligence Processing Facility, or Cryptocurrency Mining Operation within the Town of Lewiston..."
+        }
+      ],
+      "notes": "This document is the enacted law text itself, assigned an official local-law number and filed in the town's '2026 Local Laws' directory (which, per standard NY municipal practice, contains only adopted, filed local laws rather than proposals), which is strong evidence of adoption -- but the document does not itself display the Town Board's vote date or roll call, and I could not retrieve a readable version of the Town Board's own minutes (image-based/scanned PDF) or open blocked news coverage (wnypapers.com returned HTTP 403; niagara-gazette.com returned HTTP 429) to pin down the exact vote date or corroborate the 5-0 vote reported in search summaries. I am treating adoption and the 18-month term as established from the primary text, and the exact adoption date as approximately mid-to-late April 2026 (shortly after the 2026-04-13 public hearing) but unconfirmed to the day."
+    },
+    {
+      "moratorium_id": "ny-lysander-2026",
+      "outcome": "corrected",
+      "confidence": 0.55,
+      "changes": {
+        "duration": {
+          "from": "Not yet drafted [VERIFY: Lysander Town Attorney's draft moratorium not yet retrieved; duration not yet specified].",
+          "to": "Six (6) months, per Local Law #4 of 2026, 'Six-Month Moratorium on Data Storage Centers.'",
+          "reason": "The Town Supervisor's official update memo identifies the pending bill by name as a 6-month moratorium (Local Law #4 of 2026)."
+        },
+        "legal_basis": {
+          "from": "2026-04-16 Town Board resolution allowing Town Attorney to draft a data center moratorium",
+          "to": "Local Law #4 of 2026 (a 6-month moratorium on data storage centers). Per the Town Supervisor's official update notice: 2026-04-16, Town Board resolution (4-0) authorizing the Town Attorney to draft the moratorium; 2026-04-24, Town Board resolution (4-0) referring Local Law #4 to the Onondaga County Planning Board and the Town of Lysander Planning Board for recommendation, plus a second 4-0 resolution to hold a public hearing; 2026-04-27, Town of Lysander Planning Board resolution (5-0) recommending Town Board approval; 2026-05-07, public hearing held on Local Law #4 at Lysander Town Hall.",
+          "reason": "The Town Supervisor's official chronology documents each Town Board and Planning Board action by date and vote tally, superseding the single 2026-04-16 drafting-authorization resolution previously on file."
+        },
+        "current_status": {
+          "from": "Drafting authorized",
+          "to": "Local Law #4 of 2026 advanced through Planning Board recommendation (5-0, 2026-04-27) and a public hearing (2026-05-07); a final Town Board adoption vote following the hearing is suggested by a news headline but was not confirmed from a source I could directly verify as of 2026-07-31.",
+          "reason": "Reflects the most advanced procedural stage confirmed by a primary source (the 2026-05-07 public hearing), while withholding an adoption claim that rests only on an unread news headline."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "duration",
+          "marker": "[VERIFY: Lysander Town Attorney's draft moratorium not yet retrieved; duration not yet specified]",
+          "resolution": "corrected",
+          "note": "The Town Supervisor's official update memo names the pending bill as 'Local Law #4 -- 6-month moratorium on data storage centers.'"
+        },
+        {
+          "field": "trigger",
+          "marker": "[VERIFY: project name and applicant not confirmed in captured primary records; Lysander records do not name the developer]",
+          "resolution": "still_unverifiable",
+          "note": "The Town Supervisor's official update memo does not name any project or applicant. The news coverage that reportedly names a project (eaglenewsonline.com, informnny.com) returned HTTP 429/403 on every fetch attempt and could not be read."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: MW and investment value attributed to local news only; not in captured Lysander Town Board materials]",
+          "resolution": "still_unverifiable",
+          "note": "Same as above -- no primary source confirms MW or investment figures, and the relevant news sites could not be retrieved."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://lysanderny.gov/sites/default/files/2026-05/data_center_moratorium_updates.pdf",
+          "title": "Data Center Moratorium Updates",
+          "publisher": "Town of Lysander, New York -- Office of the Supervisor (Kevin Rode)",
+          "source_type": "staff_report",
+          "supports": "Official chronology of Town Board and Planning Board actions on Local Law #4 of 2026 (a six-month moratorium on data storage centers), from the 2026-04-16 drafting authorization through the 2026-05-07 public hearing.",
+          "quote": "5/7/2026 - Public Hearing on Local Law #4 - 6-month moratorium on data storage centers. 6:30PM at Lysander Town Hall. ... 4/27/2026 - Town of Lysander Planning Board passes resolution 5-0 to recommend Town Board approval of Local Law #4 of 2026, 6-month Moratorium on Data Storage Centers."
+        }
+      ],
+      "notes": "I could not confirm a final Town Board adoption vote after the 2026-05-07 hearing from any source I directly fetched. A news headline (eaglenewsonline.com, 'Lysander approves six-month moratorium on new data storage facilities') suggests adoption occurred, but every attempt to fetch that article returned HTTP 429 or 403, so I am not citing it as evidence and am leaving enacted_status as pending rather than asserting adoption. Given the advanced procedural posture (hearing already held on a Planning-Board-recommended local law), adoption is plausible, but this should be confirmed directly with the Town Clerk before the record is upgraded to active."
+    },
+    {
+      "moratorium_id": "ny-oneonta-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "confidence": 0.65,
+      "changes": {
+        "date_enacted": {
+          "from": "Not confirmed; moratorium local law introduced 2026-03-11, public hearing planned for 2026-04-08 [VERIFY: post-2026-04-08 Town Board adoption vote and Local Law filing not in captured records as of 2026-04-29; future-event status].",
+          "to": "Adopted 2026-05-15 by a unanimous Town Board vote.",
+          "reason": "WBNG directly reports the Town Board's unanimous May 15, 2026 vote adopting the moratorium."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-05-15",
+          "reason": "Matches the vote date reported by WBNG."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "A single directly-fetched news account states the date plainly, though no primary town document was located to cross-check it."
+        },
+        "current_status": {
+          "from": "Proposed/pending in captured records",
+          "to": "Adopted; a 12-month moratorium has been in effect since 2026-05-15 on the development, construction, and operation of data centers and commercial cryptocurrency mining operations.",
+          "reason": "Synthesizes the confirmed May 15, 2026 adoption and 12-month term from the WBNG account."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: post-2026-04-08 Town Board adoption vote and Local Law filing not in captured records as of 2026-04-29; future-event status]",
+          "resolution": "corrected",
+          "note": "WBNG reports the Oneonta Town Board unanimously approved the 12-month moratorium on 2026-05-15."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.wbng.com/2026/05/15/oneonta-town-board-approves-12-month-moratorium-ai-data-centers-crypto-mining-facilities/",
+          "title": "Oneonta town board approves 12-month moratorium on AI data centers, crypto mining facilities",
+          "publisher": "WBNG (Binghamton, NY)",
+          "document_date": "2026-05-15",
+          "source_type": "news",
+          "supports": "Confirms the Oneonta Town Board's unanimous May 15, 2026 vote adopting a 12-month moratorium, and that it followed the long-running dispute over the Eco-Yotta application at 357 County Road 9.",
+          "quote": "capped a long-running fight over an application from Eco-Yotta for a Planned Development District at 357 County Road 9 ... roughly 700 residents signed a petition."
+        }
+      ],
+      "notes": "Only a single secondary (news) source was available; I could not retrieve the Town of Oneonta's own local law text, minutes, or a law number. The Eco-Yotta Inc. rezoning application itself appears to remain paused under the moratorium rather than formally denied or withdrawn, per this same article; Town Supervisor Will Rivera is quoted hoping to enact a permanent ban after the moratorium period ends."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "New York",
+      "jurisdiction": "Manlius",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-07-09 -- Town Board vote, 7-0.",
+      "date_enacted_iso": "2026-07-09",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Manlius Town Board local law/resolution (unanimous, 7-0)",
+      "trigger": "Concerns about rising utility bills and outages, water supply, and environmental impact from data processing centers and commercial cryptocurrency mining.",
+      "trigger_categories": [
+        "grid_energy",
+        "water",
+        "environmental"
+      ],
+      "sectors": [
+        "data_center",
+        "cryptocurrency_mining"
+      ],
+      "current_status": "Adopted; one-year moratorium in effect.",
+      "enacted_status": "active",
+      "affected_projects": "None named in the source reviewed.",
+      "outcome": "The Manlius Town Board unanimously (7-0) approved a one-year moratorium on data processing centers and commercial cryptocurrency mining operations.",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://cnycentral.com/news/local/manlius-board-approves-1-year-moratorium-on-data-centers-crypto-mining-battery-town-ai-water-supply-environment-utility-bills-outages-power-grid-pollution",
+          "title": "Manlius board approves 1-year moratorium on data centers, crypto mining",
+          "publisher": "CNY Central",
+          "document_date": "2026-07-09",
+          "source_type": "news",
+          "supports": "Reports the Manlius Town Board's unanimous (7-0) July 9, 2026 vote adopting a one-year moratorium on data processing centers and commercial cryptocurrency mining, citing utility, water, and environmental concerns.",
+          "quote": "rising utility bills and outages"
+        }
+      ],
+      "notes": "News-only sourcing; I did not retrieve the local law text or Town Board minutes. This instrument postdates the packet's 2026-04-28 coverage cutoff and is outside the current inventory. Two other leads (Town of Newfield, Tompkins County; and a Niagara County Planning Board referral covering the Towns of Lockport and Cambria) surfaced during this pass but could not be confirmed by a source I actually fetched, so they are not included here."
+    }
+  ]
+}

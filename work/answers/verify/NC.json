@@ -1,0 +1,148 @@
+{
+  "state_abbrev": "NC",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "nc-clay-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.92,
+      "changes": {
+        "date_enacted": {
+          "from": "2026-01-08 commercial data center prohibition; related cryptocurrency prohibition effective 2022-08-04. Local PDF retention pending: as of 2026-04-30, Clay County ordinance PDFs are not present in `research/_originals/`; Smoky Mountain News and Blue Ridge Public Radio coverage of the Jan. 8, 2026 prohibition is the canonical source for the date.",
+          "to": "2026-01-08, confirmed by the signed county ordinance (Ordinance No. 01.08.2026), hosted directly on Clay County's own website; related cryptocurrency prohibition effective 2022-08-04.",
+          "reason": "Located and read the signed, sealed original ordinance PDF at clayconc.com (Clay County's actual government domain -- claycountync.gov, previously tried, is a lapsed/parked domain), which the prior pass had not been able to find; confirms the exact adoption date directly rather than relying on news coverage alone."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Primary-source signed ordinance confirms the 2026-01-08 date exactly."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "This moratorium has no scheduled end date. Confirm it is still in force as of 2026-07-31, or identify the ordinance/event that ended it.",
+          "resolution": "confirmed",
+          "note": "Clay County's live ordinance index (clayconc.com/ordinances), checked 2026-07-31, lists the Commercial Data Center 2026 ordinance among current county ordinances alongside the separate cryptocurrency-mining prohibition, with no repeal or replacement noted."
+        },
+        {
+          "field": "date_enacted",
+          "marker": "The adoption date (2026-01-08) is unverified. Confirm it against minutes or the signed instrument.",
+          "resolution": "confirmed",
+          "note": "The signed, sealed ordinance (Ordinance No. 01.08.2026), hosted on the county's own website, states an adoption/effective date of January 8, 2026, and is signed by the Board Chairman and Clerk to the Board with the county seal."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.clayconc.com/ordinances",
+          "title": "Clay County Ordinances",
+          "publisher": "Clay County, NC",
+          "source_type": "other",
+          "supports": "Lists the Commercial Data Center 2026 ordinance as a current, active county ordinance as of 2026-07-31, with no repeal notation",
+          "quote": "Commercial Data Center 2026"
+        },
+        {
+          "url": "https://www.clayconc.com/_files/ugd/fe4bcd_4267bb353c7f4b2c96f232e75ecd2db0.pdf",
+          "title": "Ordinance Prohibiting Commercial Data Centers from Operating in Clay County (Ordinance No. 01.08.2026)",
+          "publisher": "Clay County, NC Board of Commissioners",
+          "document_date": "2026-01-08",
+          "source_type": "ordinance",
+          "supports": "Confirms the 2026-01-08 adoption/effective date, signed status, and ordinance number",
+          "quote": "ARE PROHIBITED from establishing, constructing, expanding and/or operating in Clay County, North Carolina effective this the 8 day of January, 2026."
+        }
+      ],
+      "notes": "The signed ordinance cites NCGS 160D-701 as its legal authority (a permanent land-use prohibition), consistent with the existing record's framing of this as a standalone, non-temporary restriction rather than a moratorium under 160D-107."
+    },
+    {
+      "moratorium_id": "nc-gates-county-2025",
+      "outcome": "corrected",
+      "confidence": 0.88,
+      "changes": {
+        "date_enacted": {
+          "from": "2025-12-17 reported by WUNC; ordinance draft text posted on the Gates County site retains blank effective and expiration date fields. The executed ordinance with inserted dates was not located in any captured fetch as of 2026-04-30 (county website has no separate \"adopted ordinances\" index; planning department page lists only the draft). [Evidence ceiling: signed-ordinance fields blank in published draft.]",
+          "to": "2025-12-17, confirmed by the signed, dated ordinance now posted on the county website at the same URL that previously held only a blank-field draft.",
+          "reason": "The Gates County-hosted PDF now shows an executed version reading \"Adopted this the 17th day of December, 2025,\" effective December 17, 2025 through December 17, 2026, superseding the earlier blank-field draft."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Signed ordinance confirms the exact adoption date."
+        },
+        "current_status": {
+          "from": "Active. Expiration date depends on the final signed effective date, which the county had not published in any captured fetch as of 2026-04-30. Twelve-month duration term means expiration is on or about 2026-12-16, presuming a same-day signature on the 2025-12-17 reported adoption.",
+          "to": "Active. Ordinance in force from December 17, 2025 through December 17, 2026, per the signed, executed instrument now posted by the county.",
+          "reason": "The signed ordinance states its own effective and expiration dates directly, removing the need to presume a same-day signature."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "The adoption date (2025-12-17) is unverified. Confirm it against minutes or the signed instrument.",
+          "resolution": "confirmed",
+          "note": "The signed/executed ordinance, now posted at the same URL that previously held only a blank-field draft, states adoption on December 17, 2025, effective through December 17, 2026."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://gatescounty.govoffice2.com/vertical/Sites/%7BC4993D33-7F3A-4388-B179-2EC1739C7E2E%7D/uploads/moratorium.adopted.12.17.2025.pdf",
+          "title": "Ordinance Imposing a Temporary Moratorium on Development Approvals for Data Centers and Related High-Impact Facilities in Gates County (signed)",
+          "publisher": "Gates County, NC Board of Commissioners",
+          "document_date": "2025-12-17",
+          "source_type": "ordinance",
+          "supports": "Confirms the 2025-12-17 adoption date and the December 17, 2025 to December 17, 2026 effective term",
+          "quote": "This Ordinance shall be in full force and effect from and after December 17, 2025, until December 17, 2026... Adopted this the 17th day of December, 2025."
+        }
+      ],
+      "notes": "A separate meeting-minutes document corroborating the board vote itself was not located this pass; the signed, county-hosted ordinance is treated as the primary source for the date."
+    },
+    {
+      "moratorium_id": "nc-mcdowell-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.83,
+      "changes": {
+        "date_enacted": {
+          "from": "Original moratorium-adoption date not retrievable from public records as of 2026-04-30; the McDowell County 2023 BOC minutes index, refetched with a real Chrome browser, lists 18 sessions running May 23 through December 18, 2023 (no January–April 2023 sessions are indexed online), and none of the listed session titles include the keywords \"moratorium,\" \"crypto,\" or \"data\". The original adoption likely occurred in early 2023 before the indexed period or in one of the special sessions but is not surfaced by the public records portal. Replacement prohibition adopted 2024-01-08.",
+          "to": "May 15, 2023, per McDowell County Board of Commissioners' own posted meeting minutes: a two-month cryptocurrency-mining moratorium was moved by Vice-Chairman Walker, seconded by Commissioner Ellis, and passed 4-0. Replacement prohibition adopted 2024-01-08.",
+          "reason": "McDowell County's own posted 2023 Board of Commissioners minutes (mcdowellnc.gov) record the moratorium vote at the May 15, 2023 meeting. All indexed January-April 2023 sessions were checked directly and contain no reference to a moratorium, cryptocurrency, or crypto mining, confirming May 15, 2023 as the true adoption date rather than an earlier, unindexed session."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2023-05-15",
+          "reason": "Primary-source minutes establish the exact adoption date."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Confirmed via official meeting minutes."
+        },
+        "duration": {
+          "from": "Expired by replacement ordinance",
+          "to": "Two months as adopted (approximately mid-July 2023), per the confirmed minutes; superseded by a permanent cryptocurrency-mining prohibition effective 2024-01-08. No record was found of a formal extension bridging the roughly five-month gap between the moratorium's own two-month term and the January 2024 permanent ordinance; that gap remains unresolved.",
+          "reason": "Minutes confirm a two-month term for the original moratorium rather than an open-ended one; no extension record was located, so continuity between the moratorium's lapse and the permanent ordinance is flagged rather than assumed."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "The adoption date (none recorded) is unverified. Confirm it against minutes or the signed instrument.",
+          "resolution": "confirmed",
+          "note": "McDowell County's own posted May 15, 2023 Board of Commissioners minutes record adoption of a two-month cryptocurrency-mining moratorium (motion by Vice-Chairman Walker, seconded by Commissioner Ellis, passed 4-0). All indexed January-April 2023 sessions were checked and none mention moratorium/crypto/mining, confirming May 15, 2023 as the adoption date. Note: the county's 2023 minutes index now appears to include January-April 2023 sessions, contrary to the prior pass's note that they were unindexed -- the index may have been updated since April 2026."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://mcdowellnc.gov/commissioners/meeting-minutes/2023/May%2015%2C%202023.pdf",
+          "title": "McDowell County Board of Commissioners Meeting Minutes, May 15, 2023",
+          "publisher": "McDowell County, NC",
+          "document_date": "2023-05-15",
+          "source_type": "minutes",
+          "supports": "Establishes the original cryptocurrency-mining moratorium's adoption date and two-month term",
+          "quote": "Vice-Chairman Walker made a motion to approve the two-month recommended moratorium as presented by staff, seconded by Commissioner Ellis. By a vote of 4-0, the motion passed."
+        }
+      ],
+      "notes": "A roughly five-month gap between the confirmed two-month moratorium term (through about mid-July 2023) and the January 8, 2024 permanent replacement ordinance is not explained by any record found this pass -- flagging for a future researcher rather than asserting an unbroken moratorium."
+    }
+  ],
+  "new_candidates": []
+}

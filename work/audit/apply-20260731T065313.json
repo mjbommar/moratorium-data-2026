@@ -1,0 +1,329 @@
+{
+  "applied_at": "20260731T065313",
+  "answer_files": [
+    "work/answers/verify/AL.json",
+    "work/answers/verify/AR.json",
+    "work/answers/verify/CA.json",
+    "work/answers/verify/CO.json",
+    "work/answers/verify/CT.json",
+    "work/answers/verify/IA.json",
+    "work/answers/verify/ID.json",
+    "work/answers/verify/IL.json",
+    "work/answers/verify/KS.json",
+    "work/answers/verify/LA.json",
+    "work/answers/verify/MA.json",
+    "work/answers/verify/ME.json",
+    "work/answers/verify/MI-part1.json",
+    "work/answers/verify/MI-part2.json",
+    "work/answers/verify/MN.json",
+    "work/answers/verify/MO.json",
+    "work/answers/verify/NC.json",
+    "work/answers/verify/ND.json",
+    "work/answers/verify/NE.json",
+    "work/answers/verify/OH-part1.json",
+    "work/answers/verify/OH-part2.json",
+    "work/answers/verify/OK.json",
+    "work/answers/verify/TN.json",
+    "work/answers/verify/WA.json",
+    "work/answers/verify/WI.json"
+  ],
+  "stats": {
+    "outcome:corrected": 36,
+    "fields_changed": 23,
+    "verify_confirmed": 8,
+    "verify_resolved_via_field_rewrite": 12,
+    "verify_still_open": 29,
+    "candidate_duplicate": 12,
+    "candidates_added": 6,
+    "candidate_flagged_for_verification": 4,
+    "outcome:confirmed_unchanged": 15,
+    "already_applied": 122,
+    "verify_corrected": 4,
+    "verify_already_resolved": 75,
+    "skipped_drift": 3,
+    "skipped_duration_invariant": 1,
+    "ignored_packet_only_field": 10,
+    "outcome:status_changed": 9,
+    "outcome:unresolvable": 7,
+    "status_changed": 1
+  },
+  "conflicts": [
+    "IA.json: ia-franklin-county-2026.duration `from` mismatch (csv='Temporary; end date not captured' answer='')",
+    "IA.json: ia-jackson-county-2024.date_enacted `from` mismatch (csv='Three documented adoptions in the captured record: (1) 2024-' answer='Three documented adoptions in the captured record: (1) 2024-')",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'date_enacted'",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'duration'",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'affected_projects'",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'outcome'",
+    "MI-part1.json: mi-south-lyon-undated marker not found in 'date_enacted'",
+    "MI-part1.json: mi-south-lyon-undated marker not found in 'duration'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'date_enacted'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'duration'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'legal_basis'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'current_status'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'affected_projects'",
+    "OH-part1.json: oh-findlay-2026.affected_projects `from` mismatch (csv='No specific developer or project has been publicly named; co' answer='Shady Grove/Marion Township annexation area discussed separa')"
+  ],
+  "skipped": [
+    "AL.json: candidate AL 'Leeds' (no instrument number) treated as duplicate of al-leeds-2026 (no instrument number)",
+    "CO.json: candidate CO 'Denver' (no instrument number) treated as duplicate of co-denver-2026 (no instrument number)",
+    "CO.json: candidate CO 'Jefferson County' (no instrument number) treated as duplicate of co-jefferson-county-2026 (no instrument number)",
+    "CT.json: candidate CT 'West Haven' (no instrument number) treated as duplicate of ct-west-haven-2026 (no instrument number)",
+    "IA.json: candidate IA 'Sioux County' (resolution-2026-32) treated as duplicate of ia-sioux-county-2026 (resolution-2026-32)",
+    "IA.json: candidate IA 'Madison County' (no instrument number) treated as duplicate of ia-madison-county-2026 (no instrument number)",
+    "IA.json: candidate IA 'Ida County' (no instrument number) treated as duplicate of ia-ida-county-2026 (no instrument number)",
+    "MI-part1.json: mi-sault-ste-marie-tribe-of-chippewa-indian-2026 unresolvable",
+    "MI-part1.json: mi-grand-blanc-township-2026 unresolvable",
+    "MN.json: mn-eagan-2026 unresolvable",
+    "MN.json: candidate MN 'Rosemount' (ordinance-2026-03) treated as duplicate of mn-rosemount-2026 (ordinance-2026-03)",
+    "MN.json: candidate MN 'Mankato' (no instrument number) treated as duplicate of mn-mankato-2026 (no instrument number)",
+    "MN.json: candidate MN 'Otsego' (ordinance-2026-xx) treated as duplicate of mn-otsego-2026 (ordinance-2026-xx)",
+    "MN.json: candidate MN 'Wright County' (ordinance-26-2) treated as duplicate of mn-wright-county-2026 (ordinance-26-2)",
+    "OH-part1.json: candidate OH 'Alliance' (no instrument number) treated as duplicate of oh-alliance-2026 (no instrument number)",
+    "TN.json: tn-sullivan-county-2025 unresolvable",
+    "WA.json: wa-ephrata-2018 unresolvable",
+    "WA.json: wa-waterville-2018 unresolvable",
+    "WA.json: wa-douglas-county-2018 unresolvable"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "al-birmingham-2026",
+      "column": "duration",
+      "before": "180 days from effective date. Council unanimously adopted the ordinance 2026-03-03; Birmingham ordinances ordinarily take effect upon publication, yielding an approximate expiration window of late August to early September 2026 [VERIFY: exact publication and expiration dates not in captured records as of 2026-04-29]",
+      "after": "180 days from the March 3, 2026 adoption/vote date, expiring August 30, 2026 (March 3 plus 180 days). WBRC and Birmingham Times both confirm the March 3, 2026 vote date and the six-month term; no separate publication-date lag was found or is needed for this calculation.",
+      "reason": "Personally fetched WBRC (published 2026-03-04) and Birmingham Times (published 2026-03-03) coverage of the vote. Date math (March 3, 2026 + 180 days = August 30, 2026) matches the dataset's existing computed_expiry exactly, so no separate publication-date lag applies.",
+      "source": "AL.json"
+    },
+    {
+      "moratorium_id": "al-birmingham-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-04-29",
+      "after": "Active as of 2026-07-31, still running under its original 180-day term (through 2026-08-30). The City Council separately voted 6-3 on June 9, 2026 to adopt permanent data-center zoning regulations (zoning case ZAC2026-00001); per WBRC, those new regulations \"will take effect when the city's six-month moratorium on data center applications lifts,\" i.e., on or about August 30, 2026. As of 2026-07-31 the moratorium itself remains the operative rule; the permanent ordinance has been adopted but is not yet in effect.",
+      "reason": "Personally fetched WBRC (2026-06-10, two articles), Birmingham Times (2026-06-09 and 2026-06-10), and the city's official birminghamal.gov/datacenters page, all describing the June 9, 2026 vote and its planned effective date.",
+      "source": "AL.json"
+    },
+    {
+      "moratorium_id": "al-homewood-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Alabama / Homewood",
+      "reason": "News-sourced only; no primary ordinance text or number located in this pass. Falls after the 2026-04-28 coverage cutoff.",
+      "source": "AL.json"
+    },
+    {
+      "moratorium_id": "al-cullman-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Alabama / Cullman",
+      "reason": "News-sourced only; exact meeting date not given in the article (reported as 'the week of June 25, 2026'). No primary ordinance text or number located in this pass. Falls after the 2026-04-28 coverage cutoff.",
+      "source": "AL.json"
+    },
+    {
+      "moratorium_id": "ca-montebello-2026",
+      "column": "legal_basis",
+      "before": "Amended Urgency Ordinance No. 2491 (Citizen Portal AI summary of 2026-02-12 meeting records 5-0 roll call adoption, satisfying four-fifths urgency requirement) [VERIFY original signed ordinance text \u2014 Montebello clerk's office had not posted Ord. 2491 to its online ordinance index as of 2026-04-29]",
+      "after": "Urgency Ordinance No. 2491, \"AN URGENCY ORDINANCE OF THE CITY COUNCIL OF THE CITY OF MONTEBELLO, CALIFORNIA, AMENDING TITLE 17 (ZONING) OF THE MONTEBELLO MUNICIPAL CODE TO ESTABLISH INTERIM ZONING CONTROLS FOR ARTIFICIAL INTELLIGENCE (AI) DATA CENTERS,\" adopted by 5-0 roll call vote, satisfying the four-fifths urgency requirement under Gov. Code 65858. The ordinance's own title does not include the word \"Amended\"; it was introduced and adopted at the same meeting.",
+      "reason": "Retrieved the actual signed ordinance text and certified minutes from the City of Montebello's own document store (CivicClerk agenda packet, event ID 1880), which give the correct title and confirm the 5-0 vote.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-montebello-2026",
+      "column": "date_enacted",
+      "before": "2026-02-12",
+      "after": "2026-02-11",
+      "reason": "The city council agenda, certified minutes, and signed ordinance text all show the meeting and adoption occurred Wednesday, February 11, 2026, not February 12; the signature block reads \"PASSED, APPROVED, AND ADOPTED 11TH DAY OF FEBRUARY 2026.\"",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-montebello-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-02-12",
+      "after": "2026-02-11",
+      "reason": "Same correction as `date_enacted`, drawn from the certified minutes and signed ordinance.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-montebello-2026",
+      "column": "current_status",
+      "before": "Initial 45-day moratorium would have expired on or about 2026-03-29; no extension or replacement ordinance was found in Montebello clerk records or in *San Gabriel Valley Tribune* / Citizen Portal coverage searched on 2026-04-29 [VERIFY whether council extended moratorium under Gov. Code 65858 \u2014 no follow-up agenda item identified in captured sources]",
+      "after": "Expired on schedule around 2026-03-28 (45 days after the corrected February 11, 2026 adoption date). A review of every City Council agenda from 2026-02-25 through 2026-07-27 (the last scheduled meeting before this check) found only the mandatory Gov. Code 65858(d) 10-day report, filed on the 2026-02-25 agenda; no extension, replacement, or further data-center action appears on any later agenda. Montebello separately adopted an unrelated urgency ordinance (No. 2495, adopted 2026-06-24) imposing a moratorium on SB 79 transit-oriented-development applications, which does not affect data centers.",
+      "reason": "Direct review of Montebello City Council agendas from Feb through Jul 2026 (via the city's CivicClerk document portal) confirms no extension action was taken; the moratorium lapsed by its own 45-day term.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-monterey-park-2026",
+      "column": "current_status",
+      "before": "Active; on 2026-04-20 City Council unanimously adopted a permanent municipal-code ordinance prohibiting data centers citywide and declaring data centers a public nuisance, and placed companion Measure NDC on the 2026-06-02 special election ballot [VERIFY 2026-06-02 ballot result; election not yet held as of 2026-04-29]",
+      "after": "Active; permanent citywide data center prohibition in place. Measure NDC passed at the June 2, 2026 special election (10,388 Yes / 1,372 No, per the LA County Registrar-Recorder's certified canvass); results certified by the City Clerk on June 30, 2026 and declared by City Council Resolution No. 2026-R56 on July 1, 2026 (unanimous, 5-0). Companion Ordinance No. 2280 (General Plan amendment prohibiting all data centers citywide) was adopted by Council on July 2, 2026, effective on or about July 11, 2026 (10 days after election-result certification, per Elections Code section 9217).",
+      "reason": "City of Monterey Park's own Resolution No. 2026-R56 bundles the City Clerk's certification of election results, the LA County Registrar-Recorder's canvass certificate, and precinct-level vote totals, establishing that Measure NDC passed.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-monterey-park-2026",
+      "column": "outcome",
+      "before": "Moratorium extended through 2027-01-21; permanent citywide prohibition codified by ordinance on 2026-04-20; voter ratification via Measure NDC on 2026-06-02 ballot pending",
+      "after": "Moratorium extended through 2027-01-21 (superseded in practice by permanent action); permanent citywide prohibition codified by ordinance on 2026-04-20; voters ratified the prohibition via Measure NDC on 2026-06-02 (10,388 Yes / 1,372 No), with results certified July 1, 2026 and companion Ordinance No. 2280 adopted July 2, 2026.",
+      "reason": "Same certified election-results source confirms the ballot outcome and subsequent council action.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "co-logan-county-2025",
+      "column": "current_status",
+      "before": "Replaced by permanent zoning regulations (Resolution 2026-5) effective 2026-02-17 per Logan County Planning page; the data-center component of Resolution 2025-25 was superseded; status of any remaining battery, solar, and wind components of the original moratorium not separately confirmed [VERIFY: scope and lift mechanism for non-data-center components of Resolution 2025-25 not in captured records].",
+      "after": "Replaced. All four facility types covered by Resolution 2025-25 were superseded by their own permanent regulation resolutions, each with an explicit rescission clause tied back to Resolution 2025-25: Resolution 2026-4 (Battery Energy Storage Systems, effective 2026-02-17), Resolution 2026-5 (Data Center Facilities, effective 2026-02-17), Resolution 2026-6 (Solar Energy / Community Solar Garden, effective 2026-02-17), and Resolution 2026-11 (Wind Energy Facilities, adopted 2026-04-07, shortly before the moratorium's own ~2026-04-19 lapse date). None of the four components lapsed unaddressed.",
+      "reason": "Logan County's own recorded resolutions (2026-4, 2026-5, 2026-6, 2026-11), fetched directly from logancountyco.gov, each contain rescission language naming the specific facility type from Resolution 2025-25, resolving the prior uncertainty about the non-data-center components.",
+      "source": "CO.json"
+    },
+    {
+      "moratorium_id": "co-logan-county-2025",
+      "column": "affected_projects",
+      "before": "County discussion referenced a possible data center request near the 2 GW scale in northeastern Colorado [VERIFY: 2 GW figure is from county meeting discussion as captured in secondary reporting; no formal application record identified].",
+      "after": "County Commissioners' October 14, 2025 work-session minutes record a briefing by developer Blake Marcus (Granite Renewables) and consultant Ben Gager (SWCA Environmental Consultants) describing a proposed project east and west of County Road 9 (approximately 21 miles northwest of Sterling) at close to 2 GW nameplate capacity, including 1 GW of on-site natural gas generation, 630 MW of solar as ancillary power, and 1,800 MWh of battery storage. Commissioner Yahn noted the moratorium had already been planned before this specific proposal surfaced. As of a January 2026 hearing, commissioners stated no formal permit application had yet been received.",
+      "reason": "Logan County Commissioners' Work Session minutes for 2025-10-14 (logancountyco.gov) contain a verbatim quote establishing the 2 GW figure and project description in a primary meeting record, not secondary reporting alone.",
+      "source": "CO.json"
+    },
+    {
+      "moratorium_id": "co-boulder-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Colorado / Boulder County",
+      "reason": "News-only sourcing this pass; a primary county resolution number was not located. Also flagged but not added as a candidate: Longmont's June 9, 2026 council vote (6-1) permanently banning hyperscale data centers (>=100 MW or 5% of Platte River Power Authority capacity) -- that is a permanent ordinance rather than a moratorium, so it falls outside this dataset's scope. Larimer County (existing moratorium since Jan 2026, predating the 2026-04-28 cutoff) reportedly considered a six-month extension at a July 13, 2026 hearing per a June 29, 2026 Longmont Times-Call report, but no follow-up confirming the vote passed was located -- flagged for a future pass rather than added here.",
+      "source": "CO.json"
+    },
+    {
+      "moratorium_id": "nc-clay-county-2026",
+      "column": "date_enacted",
+      "before": "2026-01-08 commercial data center prohibition; related cryptocurrency prohibition effective 2022-08-04. Local PDF retention pending: as of 2026-04-30, Clay County ordinance PDFs are not present in `research/_originals/`; Smoky Mountain News and Blue Ridge Public Radio coverage of the Jan. 8, 2026 prohibition is the canonical source for the date.",
+      "after": "2026-01-08, confirmed by the signed county ordinance (Ordinance No. 01.08.2026), hosted directly on Clay County's own website; related cryptocurrency prohibition effective 2022-08-04.",
+      "reason": "Located and read the signed, sealed original ordinance PDF at clayconc.com (Clay County's actual government domain -- claycountync.gov, previously tried, is a lapsed/parked domain), which the prior pass had not been able to find; confirms the exact adoption date directly rather than relying on news coverage alone.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-clay-county-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Primary-source signed ordinance confirms the 2026-01-08 date exactly.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-gates-county-2025",
+      "column": "date_enacted",
+      "before": "2025-12-17 reported by WUNC; ordinance draft text posted on the Gates County site retains blank effective and expiration date fields. The executed ordinance with inserted dates was not located in any captured fetch as of 2026-04-30 (county website has no separate \"adopted ordinances\" index; planning department page lists only the draft). [Evidence ceiling: signed-ordinance fields blank in published draft.]",
+      "after": "2025-12-17, confirmed by the signed, dated ordinance now posted on the county website at the same URL that previously held only a blank-field draft.",
+      "reason": "The Gates County-hosted PDF now shows an executed version reading \"Adopted this the 17th day of December, 2025,\" effective December 17, 2025 through December 17, 2026, superseding the earlier blank-field draft.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-gates-county-2025",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Signed ordinance confirms the exact adoption date.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-gates-county-2025",
+      "column": "current_status",
+      "before": "Active. Expiration date depends on the final signed effective date, which the county had not published in any captured fetch as of 2026-04-30. Twelve-month duration term means expiration is on or about 2026-12-16, presuming a same-day signature on the 2025-12-17 reported adoption.",
+      "after": "Active. Ordinance in force from December 17, 2025 through December 17, 2026, per the signed, executed instrument now posted by the county.",
+      "reason": "The signed ordinance states its own effective and expiration dates directly, removing the need to presume a same-day signature.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-mcdowell-county-2026",
+      "column": "date_enacted",
+      "before": "Original moratorium-adoption date not retrievable from public records as of 2026-04-30; the McDowell County 2023 BOC minutes index, refetched with a real Chrome browser, lists 18 sessions running May 23 through December 18, 2023 (no January\u2013April 2023 sessions are indexed online), and none of the listed session titles include the keywords \"moratorium,\" \"crypto,\" or \"data\". The original adoption likely occurred in early 2023 before the indexed period or in one of the special sessions but is not surfaced by the public records portal. Replacement prohibition adopted 2024-01-08.",
+      "after": "May 15, 2023, per McDowell County Board of Commissioners' own posted meeting minutes: a two-month cryptocurrency-mining moratorium was moved by Vice-Chairman Walker, seconded by Commissioner Ellis, and passed 4-0. Replacement prohibition adopted 2024-01-08.",
+      "reason": "McDowell County's own posted 2023 Board of Commissioners minutes (mcdowellnc.gov) record the moratorium vote at the May 15, 2023 meeting. All indexed January-April 2023 sessions were checked directly and contain no reference to a moratorium, cryptocurrency, or crypto mining, confirming May 15, 2023 as the true adoption date rather than an earlier, unindexed session.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-mcdowell-county-2026",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2023-05-15",
+      "reason": "Primary-source minutes establish the exact adoption date.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-mcdowell-county-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Confirmed via official meeting minutes.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-mcdowell-county-2026",
+      "column": "duration",
+      "before": "Expired by replacement ordinance",
+      "after": "Two months as adopted (approximately mid-July 2023), per the confirmed minutes; superseded by a permanent cryptocurrency-mining prohibition effective 2024-01-08. No record was found of a formal extension bridging the roughly five-month gap between the moratorium's own two-month term and the January 2024 permanent ordinance; that gap remains unresolved.",
+      "reason": "Minutes confirm a two-month term for the original moratorium rather than an open-ended one; no extension record was located, so continuity between the moratorium's lapse and the permanent ordinance is flagged rather than assumed.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "tn-bristol-2025",
+      "column": "date_enacted",
+      "before": "2025-10-24 effective date (confirmed by Bristol Planning Commission staff memo dated 2026-03-19, which states \"Ordinance 25-20 imposed a moratorium on data centers, effective October 24, 2025\"; final Council vote date not separately captured because Bristol's online Agenda Center archive does not display fall-2025 City Council agendas as of 2026-04-29) [VERIFY final Council adoption date from signed ordinance]",
+      "after": "Second and final reading of Ordinance 25-20 was adopted by the Bristol City Council on October 7, 2025, per the Council's own meeting agenda; first reading passed unanimously September 9, 2025. The ordinance's effective date, per the Planning Commission staff memo dated 2026-03-19, is October 24, 2025 (17 days after adoption, consistent with standard publication timing).",
+      "reason": "Personally fetched the Bristol City Council October 7, 2025 meeting agenda, which lists Ordinance 25-20 under 'C. Adoption of Ordinances (Second Reading).' This is exactly 17 days before the ordinance's cited October 24, 2025 effective date. First reading is independently corroborated by Supertalk 929 news coverage of the September 9, 2025 meeting.",
+      "source": "TN.json"
+    },
+    {
+      "moratorium_id": "tn-bristol-2025",
+      "column": "current_status",
+      "before": "Active as of 2026-03-23 planning packet",
+      "after": "Active as of 2026-07-31. Bristol City Council meeting agendas from January through July 2026 (including June 2, July 7, and July 28) contain no item amending or replacing Ordinance 25-20, so the two-year moratorium (through 2027-10-24) remains the operative regulation despite ongoing Planning Commission work toward a successor ordinance.",
+      "reason": "Reviewed Bristol City Council regular and special-called meeting agendas from January through July 2026; none references an amendment to, or replacement of, Ordinance 25-20.",
+      "source": "TN.json"
+    },
+    {
+      "moratorium_id": "tn-jonesborough-2025",
+      "column": "date_enacted",
+      "before": "2025-10-13 (passed on first reading per Nov 3, 2025 BMA agenda packet, which records four aldermen voting in favor on 2025-10-13). Second/final reading was scheduled for the November 3, 2025 BMA meeting per the same packet's \"Discussion and possible action concerning second and final reading\" item. The Town's online BMA archive (jonesboroughtn.org/government/bma-information/) currently lists only Jan\u2013Apr 2026 BMA agendas, and the Nov/Dec 2025 BMA agenda PDFs return 404 at standard URL patterns; therefore the final-passage date is not confirmed from primary records as of 2026-04-29 [VERIFY signed Ordinance 2025-12 final-reading date from Town Recorder]",
+      "after": "The Board of Mayor and Aldermen adopted Ordinance No. 2025-12 on October 13, 2025, per the Jonesborough Planning Commission packet dated May 19, 2026 (Town Administrator staff report), which states the BMA \"adopted an Ordinance on October 13, 2025.\"",
+      "reason": "Primary-adjacent town staff report (Jonesborough Planning Commission packet, May 19, 2026) states the adoption date directly, rather than relying on the first-reading vote record alone.",
+      "source": "TN.json"
+    },
+    {
+      "moratorium_id": "tn-jonesborough-2025",
+      "column": "current_status",
+      "before": "Active. The April 13, 2026 BMA Town Administrator Monthly Report describes work on a successor \"Data Center and Cryptocurrency ordinance\" being routed to Planning Commission on April 21, 2026 with BMA second reading anticipated for May 2026 \u2014 confirming that the moratorium remains in force while the regulatory framework is being drafted [VERIFY signed Ordinance 2025-12 from Town Recorder]",
+      "after": "Replaced. The Board of Mayor and Aldermen adopted an ordinance amending Municipal Code Title 11, Chapter 5 (Data Processing Centers and Cryptocurrency Mining) on second and final reading at its May 11, 2026 meeting, following first reading March 16, 2026 and a Planning Commission recommendation April 21, 2026. The new ordinance establishes a permitting pathway (buffers, setbacks, noise/water/electrical-grid standards, BMA approval required per application) rather than continuing a blanket ban, effectively superseding Ordinance 2025-12 as of 2026-05-11.",
+      "reason": "Personally fetched and read the signed May 11, 2026 BMA meeting minutes: a public hearing was held that day on the Title 11, Chapter 5 ordinance, and the Town Administrator's own report states the ordinance was 'coming up on final reading at the May 11th meeting.' Vote outcome (motion to approve on second and final reading, duly passed) is corroborated by a parallel research pass quoting the same minutes.",
+      "source": "TN.json"
+    },
+    {
+      "moratorium_id": "tn-jonesborough-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "replaced",
+      "reason": "Also found: a May 19, 2026 Jonesborough Planning Commission comment from Washington County planning staff references a separate Washington County, TN data-center moratorium 'through January 2027.' Washington County is already present in the inventory (Resolution No. 26-03-02, enacted 2026-03-23) so this is not added as a new candidate; flagging only as corroboration that the county-level item is consistent with contemporaneous town-level reporting.",
+      "source": "TN.json"
+    },
+    {
+      "moratorium_id": "wa-seattle-2026-2",
+      "column": "<new row>",
+      "before": "",
+      "after": "Washington / Seattle",
+      "reason": "Sourced from the Council's own announcement page rather than the certified bill/resolution text itself; recommend pulling the enacted Council Bill 121214 text for a stronger primary citation.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-spokane-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Washington / Spokane",
+      "reason": "Sourced from the city's own press release rather than the certified ordinance text; recommend pulling Ordinance C36887 itself for a stronger primary citation.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-pasco-undated",
+      "column": "<new row>",
+      "before": "",
+      "after": "Washington / Pasco",
+      "reason": "Weakest-evidenced of the three new WA candidates -- news-only, no primary ordinance/date confirmed. pasco-wa.gov/82/Codes-Ordinances-Resolutions and docs.pasco-wa.gov (Laserfiche) both failed on direct fetch (portal/cookie errors) this pass. Flagged for a future primary-source pass rather than confirmed.",
+      "source": "WA.json"
+    }
+  ]
+}

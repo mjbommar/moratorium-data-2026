@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Oklahoma as of April 2026.
 
-**4 instruments** — 4 in force, 0 pending, 0 past. Activity level: **High**.
+**5 instruments** — 5 in force, 0 pending, 0 past. Activity level: **High**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

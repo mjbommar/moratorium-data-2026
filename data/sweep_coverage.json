@@ -1,0 +1,43 @@
+{
+  "description": "Which states received a systematic month-by-month sweep for a given window, so that a state with no rows in that window can be distinguished from a state nobody looked at. Without this, the two are indistinguishable from the inventory alone.",
+  "windows": [
+    {
+      "window": "2026-05-01/2026-07-31",
+      "release": "v2026.07",
+      "method": "Month-by-month agentic sweep of each state (one research pass per state per month) covering moratorium votes, zoning hearings, legislative action, opposition activity, developer filings, litigation, and utility/grid proceedings. Events were parsed deterministically and converted to inventory candidates only on evidence.",
+      "swept_states": [
+        "AK",
+        "AL",
+        "AR",
+        "AZ",
+        "CA",
+        "CO",
+        "CT",
+        "DE",
+        "FL",
+        "GA",
+        "HI",
+        "IA",
+        "ID",
+        "IL",
+        "IN",
+        "KS",
+        "MI",
+        "OH"
+      ],
+      "notes": {
+        "AZ": "No local development moratorium found in any Arizona city or county. The only qualifying statewide action was HB 4168 s.31, a freeze on new applications to the state data-center tax relief program, which is out of scope for this inventory and is recorded in state_legislation.csv instead.",
+        "coverage_effect": "Conversion of a state's sweep can change its count substantially. Florida held 1 inventory row before its sweep was converted and 14 after; Georgia went from 26 to 47; Indiana from 12 to 20. None of these states changed in the world; only our looking did."
+      },
+      "swept_states_with_no_adoptions_in_window": [
+        "AK",
+        "AZ",
+        "DE",
+        "HI",
+        "ID"
+      ],
+      "field_note": "swept_states_with_no_adoptions_in_window means no local instrument was ADOPTED during this window. It does not mean the state has no moratoria at all: Idaho, for example, carries a 2025 Kootenai County instrument in the inventory but adopted nothing new between 2026-05-01 and 2026-07-31."
+    }
+  ],
+  "unswept_caveat": "States not listed in swept_states for a window have only opportunistic coverage in that window -- instruments entered the dataset when a researcher working on something else happened to encounter them. Their counts for that window are lower bounds. Cross-state comparison and time-series analysis that includes the window should either be restricted to the swept states or stop at the prior release's cutoff (2026-04-28)."
+}

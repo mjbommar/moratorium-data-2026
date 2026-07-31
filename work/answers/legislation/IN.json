@@ -1,0 +1,311 @@
+{
+  "state_abbrev": "IN",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "Indiana's 2026 session was the short (even-year) regular session of the 124th General Assembly, constitutionally required to adjourn by 2026-03-15, and it in fact adjourned sine die on 2026-02-27 (confirmed via Indiana Capital Chronicle and WFYI live session coverage); bills not enacted by that sine die are dead for the year and must be reintroduced with new bill numbers in a future session rather than carrying over, consistent with Indiana Capital Chronicle's own framing of unpassed bills needing lawmakers to 'try again next year.' Note: iga.in.gov's own bill-status pages could not be rendered at any point during this research pass (every path on the domain returned an identical ~691-byte unrendered SPA shell with an 'x-cache: Error from cloudfront' header, indicating a site-wide CloudFront/origin outage rather than normal routing), so dispositions below rely on the Governor's official 2026 Bill Watch (in.gov), Indiana Capital Chronicle, WFYI, IndyStar, and the Citizens Action Coalition's bill tracker rather than the gold-standard legislature_bill_page source type.",
+  "decisions": [
+    {
+      "bill_key": "IN:HB 1043",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died without a committee hearing in House Natural Resources; session adjourned sine die 2026-02-27 with no further action recorded.",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-08",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.indystar.com/story/news/environment/2026/03/05/indiana-general-assembly-environmental-bills-fail-pollution-solar-data-center-water-pfas/88977977007/",
+          "title": "Crackdowns on PFAS, water use and air pollution fail in the statehouse - IndyStar",
+          "source_type": "news",
+          "supports": "States plainly that Burton's HB 1043 data center water regulation bill 'did not get a hearing in the House Natural Resources committee', listing it among the session's now-dead environmental bills",
+          "quote": "Burton's data center bill did not get a hearing in the House Natural Resources committee"
+        },
+        {
+          "url": "http://www.in.gov/gov/newsroom/2026-bill-watch/",
+          "title": "Governor Braun's 2026 Bill Watch",
+          "source_type": "governor_action",
+          "supports": "HB 1043 does not appear among the roughly 200 bills the Governor's office lists as having reached his desk in 2026, confirming it never passed both chambers",
+          "quote": "Page lists ~200 enrolled acts received/signed in 2026; HB 1043 is not among them"
+        },
+        {
+          "url": "https://www.citact.org/news/2026-ai-data-center-bill-watch-list",
+          "title": "2026 AI Data Center Bill Watch List - Citizens Action Coalition",
+          "source_type": "other",
+          "supports": "Lists HB1043 under bills still being 'Watched' as of the 2/25/2026 update (two days before sine die), with no hearing or floor action recorded at any point in the session",
+          "quote": "Watching HB1043: Data Center Water Regulation"
+        }
+      ],
+      "notes": "iga.in.gov itself was unreachable (site-wide SPA/CloudFront failure, see session_note) so this is corroborated via IndyStar's explicit committee-level reporting plus the Governor's Bill Watch and the Citizens Action Coalition tracker rather than the legislature's own bill page."
+    },
+    {
+      "bill_key": "IN:HB 1189",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Remained at first reading in House Ways and Means with no hearing recorded; session adjourned sine die 2026-02-27 with no further action.",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-05",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "http://www.in.gov/gov/newsroom/2026-bill-watch/",
+          "title": "Governor Braun's 2026 Bill Watch",
+          "source_type": "governor_action",
+          "supports": "HB 1189 does not appear among the bills the Governor's office lists as having reached his desk in 2026, confirming it never passed both chambers",
+          "quote": "Page lists ~200 enrolled acts received/signed in 2026; HB 1189 is not among them"
+        },
+        {
+          "url": "https://www.citact.org/news/2026-ai-data-center-bill-watch-list",
+          "title": "2026 AI Data Center Bill Watch List - Citizens Action Coalition",
+          "source_type": "other",
+          "supports": "Lists HB1189 under bills still being 'Watched' as of 2/25/2026, with no committee hearing or floor vote noted, unlike the bills the same tracker explicitly labels '(dead)' with vote histories",
+          "quote": "Watching HB1189: Labor Requirements for Data Center Incentives"
+        }
+      ],
+      "notes": "No explicit news 'died in committee' statement was found specifically for HB 1189 (lower profile than the data-center land-use and study bills), so this rests on the absence from the Governor's enacted-bill list plus no recorded committee action past the 2026-01-05 referral, combined with confirmed sine die adjournment on 2026-02-27. iga.in.gov itself was unreachable this session."
+    },
+    {
+      "bill_key": "IN:HB 1210",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Enacted as Public Law 157; received by the Governor 2026-03-06 and signed 2026-03-12.",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-03-12",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "http://www.in.gov/gov/newsroom/2026-bill-watch/",
+          "title": "Governor Braun's 2026 Bill Watch",
+          "source_type": "governor_action",
+          "supports": "Confirms HEA 1210 was received by the Governor on 3/6/2026 and signed on 3/12/2026, matching the packet's Public Law 157 claim exactly",
+          "quote": "HEA 1210 (Department of local government finance): Received 3/6/2026, due 3/13/2026, signed 3/12/2026"
+        },
+        {
+          "url": "https://www.wfyi.org/wfyi-news/2026-03-02/data-center-legislation-indiana-general-assembly-2026",
+          "title": "At a pivotal moment for data centers, Indiana lawmakers take little action - WFYI",
+          "source_type": "news",
+          "supports": "Confirms HB 1210 (data center 1% electricity-savings contribution requirement) passed the legislature and 'now heads to Gov. Mike Braun for his signature'",
+          "quote": "House Bill 1210, which requires data center companies to pay 1% of the savings from its total electricity bill to qualify for certain sales tax breaks. The bill now heads to Gov. Mike Braun for his signature."
+        }
+      ],
+      "notes": "iga.in.gov itself was unreachable this session (see session_note); enactment instead independently confirmed via the Governor's own official Bill Watch page and WFYI reporting, both matching the packet. The Governor's office lists the bill's final short title as 'Department of local government finance,' indicating the data center provision was retained inside a broader amended vehicle bill rather than a title change signaling a different bill. No change from packet."
+    },
+    {
+      "bill_key": "IN:HB 1245",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died before receiving a hearing in House Utilities, Energy and Telecommunications; session adjourned sine die 2026-02-27.",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-05",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wfyi.org/wfyi-news/2026-03-02/data-center-legislation-indiana-general-assembly-2026",
+          "title": "At a pivotal moment for data centers, Indiana lawmakers take little action - WFYI",
+          "source_type": "news",
+          "supports": "States that Shackleford's HB 1245 IURC data-center-study bill 'never advanced beyond its first reading'",
+          "quote": "The bill never advanced beyond its first reading."
+        },
+        {
+          "url": "https://www.indystar.com/story/news/environment/2026/03/05/indiana-general-assembly-environmental-bills-fail-pollution-solar-data-center-water-pfas/88977977007/",
+          "title": "Crackdowns on PFAS, water use and air pollution fail in the statehouse - IndyStar",
+          "source_type": "news",
+          "supports": "Confirms HB 1245 'died before its hearing in the House Utilities, Energy and Telecommunications committee'",
+          "quote": "The bill died before its hearing in the House Utilities, Energy and Telecommunications committee."
+        },
+        {
+          "url": "https://www.citact.org/news/2026-ai-data-center-bill-watch-list",
+          "title": "2026 AI Data Center Bill Watch List - Citizens Action Coalition",
+          "source_type": "other",
+          "supports": "Explicitly labels HB1245 '(dead)' with status 'never received a hearing in the House Utilities, Energy and Telecommunications Committee'",
+          "quote": "HB1245: IURC Study Of Data Centers (dead) ... Status: never received a hearing in the House Utilities, Energy and Telecommunications Committee"
+        }
+      ],
+      "notes": "Three independent secondary sources agree explicitly. iga.in.gov itself was unreachable this session (see session_note)."
+    },
+    {
+      "bill_key": "IN:HB 1333",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed House 2026-02-02 but died without a hearing in Senate Utilities after the land-use preemption language drew public backlash; sponsor confirmed the provision would not advance; session adjourned sine die 2026-02-27.",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-05",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wfyi.org/wfyi-news/2026-03-02/data-center-legislation-indiana-general-assembly-2026",
+          "title": "At a pivotal moment for data centers, Indiana lawmakers take little action - WFYI",
+          "source_type": "news",
+          "supports": "Reports that HB 1333's 'permitted use' land-use preemption language drew backlash and 'died in committee,' quoting sponsor Sen. Eric Koch (R-Bedford) that the language would 'not move forward'",
+          "quote": "a separate proposal to reshape how data centers are approved drew backlash and died in committee ... The bill's sponsor, Sen. Eric Koch (R-Bedford), later said in a statement that the permitted use language would 'not move forward.'"
+        },
+        {
+          "url": "https://www.citact.org/news/2026-ai-data-center-bill-watch-list",
+          "title": "2026 AI Data Center Bill Watch List - Citizens Action Coalition",
+          "source_type": "other",
+          "supports": "Labels HB1333 '(dead)' with 'Status: never received a hearing in the Senate Utilities Committee', and gives the full House-side vote history (committee votes 1/20 and 1/27, floor amendment failure 1/29, House passage 54-45 on 2/02/26)",
+          "quote": "HB1333: Land Use and Development (dead) ... Status: never received a hearing in the Senate Utilities Committee ... 2/02/26: The House passed HB1333 by a vote of 54-45."
+        },
+        {
+          "url": "http://www.in.gov/gov/newsroom/2026-bill-watch/",
+          "title": "Governor Braun's 2026 Bill Watch",
+          "source_type": "governor_action",
+          "supports": "HB 1333 does not appear among bills that reached the Governor's desk in 2026, confirming it never passed the Senate",
+          "quote": "Page lists ~200 enrolled acts received/signed in 2026; HB 1333 is not among them"
+        }
+      ],
+      "notes": "iga.in.gov itself was unreachable this session (see session_note). Final disposition is death in Senate committee, not merely 'stalled' as in the prior packet text; it passed the House 54-45 on 2026-02-02 (its high-water mark) but never received a Senate Utilities hearing before sine die."
+    },
+    {
+      "bill_key": "IN:HB 1406",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Enacted as Public Law 162; received by the Governor 2026-03-06 and signed 2026-03-12.",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-03-12",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "http://www.in.gov/gov/newsroom/2026-bill-watch/",
+          "title": "Governor Braun's 2026 Bill Watch",
+          "source_type": "governor_action",
+          "supports": "Confirms HEA 1406 was received by the Governor on 3/6/2026 and signed on 3/12/2026, matching the packet's Public Law 162 claim exactly",
+          "quote": "HEA 1406 (Tax and fiscal matters): Received 3/6/2026, due 3/13/2026, signed 3/12/2026"
+        },
+        {
+          "url": "https://datacenters.halttheharm.net/legislation/an-act-to-amend-the-indiana-code-concerning-taxation-hb-1406-in-2/",
+          "title": "Indiana HB 1406 - Stop Bad Data Centers legislation tracker",
+          "source_type": "other",
+          "supports": "Independently confirms HB 1406 status as 'Enacted' and describes the Indiana Finance Authority data-center tax-incentive study provisions matching the packet's description",
+          "quote": "directs the Indiana finance authority to study tax incentives available to data centers along with their impact on rates, water supply and environment and make recommendations"
+        }
+      ],
+      "notes": "iga.in.gov itself was unreachable this session (see session_note); enactment independently confirmed via the Governor's official Bill Watch page and a second data-center-specific tracker. The Governor's office lists the bill's final short title as 'Tax and fiscal matters,' consistent with the data-center study language being retained inside a broader end-of-session tax/fiscal vehicle bill. No change from packet."
+    },
+    {
+      "bill_key": "IN:SB 257",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died without a hearing in Senate Utilities; session adjourned sine die 2026-02-27 with no further action recorded.",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-08",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.citact.org/news/2026-ai-data-center-bill-watch-list",
+          "title": "2026 AI Data Center Bill Watch List - Citizens Action Coalition",
+          "source_type": "other",
+          "supports": "Explicitly labels SB257 '(dead)' with 'Status: never received a hearing in the Senate Utilities Committee'",
+          "quote": "SB257: Electricity Rate Increases Due to Data Centers (dead) ... Status: never received a hearing in the Senate Utilities Committee"
+        },
+        {
+          "url": "http://www.in.gov/gov/newsroom/2026-bill-watch/",
+          "title": "Governor Braun's 2026 Bill Watch",
+          "source_type": "governor_action",
+          "supports": "SB 257 does not appear among bills that reached the Governor's desk in 2026, confirming it never passed both chambers",
+          "quote": "Page lists ~200 enrolled acts received/signed in 2026; SB 257 is not among them"
+        }
+      ],
+      "notes": "iga.in.gov itself was unreachable this session (see session_note)."
+    },
+    {
+      "bill_key": "IN:SB 79",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died without a hearing in Senate Utilities; session adjourned sine die 2026-02-27 with no further action recorded.",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-06",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.indystar.com/story/news/environment/2026/03/05/indiana-general-assembly-environmental-bills-fail-pollution-solar-data-center-water-pfas/88977977007/",
+          "title": "Crackdowns on PFAS, water use and air pollution fail in the statehouse - IndyStar",
+          "source_type": "news",
+          "supports": "States plainly that 'the Senate Utilities committee failed to hear' Ford's SB 79 data-center electricity-demand working group bill",
+          "quote": "The Senate Utilities committee failed to hear the bill."
+        },
+        {
+          "url": "https://www.citact.org/news/2026-ai-data-center-bill-watch-list",
+          "title": "2026 AI Data Center Bill Watch List - Citizens Action Coalition",
+          "source_type": "other",
+          "supports": "Explicitly labels SB79 '(dead)' with 'Status: never received a hearing in the Senate Utilities Committee'",
+          "quote": "SB79: Data Center Development (dead) ... Status: never received a hearing in the Senate Utilities Committee"
+        },
+        {
+          "url": "http://www.in.gov/gov/newsroom/2026-bill-watch/",
+          "title": "Governor Braun's 2026 Bill Watch",
+          "source_type": "governor_action",
+          "supports": "SB 79 does not appear among bills that reached the Governor's desk in 2026",
+          "quote": "Page lists ~200 enrolled acts received/signed in 2026; SB 79 is not among them"
+        }
+      ],
+      "notes": "iga.in.gov itself was unreachable this session (see session_note)."
+    }
+  ],
+  "new_bills": [
+    {
+      "state": "Indiana",
+      "bill": "HB 1297",
+      "sponsors": "Rep. Alex Burton",
+      "party": "D",
+      "status": "Died before receiving a hearing in House Utilities, Energy and Telecommunications; session adjourned sine die 2026-02-27.",
+      "bill_status_category": "failed_died",
+      "chamber_of_origin": "House",
+      "key_provisions": "Water Intensive Facilities: would have authorized Indiana to deny economic incentives to data centers and other large industrial water users unless facilities met specified requirements, including a utility's ability to provide adequate water and the facility paying associated infrastructure costs.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.indystar.com/story/news/environment/2026/03/05/indiana-general-assembly-environmental-bills-fail-pollution-solar-data-center-water-pfas/88977977007/",
+          "title": "Crackdowns on PFAS, water use and air pollution fail in the statehouse - IndyStar",
+          "source_type": "news",
+          "supports": "Describes HB 1297 as Rep. Burton's second data-center/water bill of the 2026 session and states it 'died before getting a hearing in the House Utilities, Energy and Telecommunications committee'",
+          "quote": "The bill died before getting a hearing in the House Utilities, Energy and Telecommunications committee."
+        },
+        {
+          "url": "https://www.citact.org/news/2026-ai-data-center-bill-watch-list",
+          "title": "2026 AI Data Center Bill Watch List - Citizens Action Coalition",
+          "source_type": "other",
+          "supports": "Lists HB1297 (Water Intensive Facilities) among the bills being tracked in the 2026 session's AI/data center watch list",
+          "quote": "Watching HB1297: Water Intensive Facilities"
+        }
+      ],
+      "notes": "Not present in the original 8-bill packet; identified as a distinct Burton-authored companion bill to HB 1043 covering data center water/incentive conditions."
+    },
+    {
+      "state": "Indiana",
+      "bill": "SB 234",
+      "sponsors": "Sen. Vaneta Becker",
+      "party": "R",
+      "status": "Died without a hearing in Senate Utilities; session adjourned sine die 2026-02-27.",
+      "bill_status_category": "failed_died",
+      "chamber_of_origin": "Senate",
+      "key_provisions": "Energy Utility Matters: would have required large-load customer tariffs to make the large load customer pay all reasonably allocable project costs regardless of eventual usage, capped IURC-approved rate increases relative to national electricity price growth, restricted utility cost recovery for lobbying/political/charitable spending, and directed a 2026 interim study of utility cost trackers.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.citact.org/news/2026-ai-data-center-bill-watch-list",
+          "title": "2026 AI Data Center Bill Watch List - Citizens Action Coalition",
+          "source_type": "other",
+          "supports": "Explicitly labels SB234 '(dead)' with 'Status: never received a hearing in the Senate Utilities Committee' and gives a full provision summary covering ratepayer protection for large-load customers",
+          "quote": "SB234: Energy Utility Matters (dead) ... Status: never received a hearing in the Senate Utilities Committee"
+        }
+      ],
+      "notes": "Not present in the original 8-bill packet; directly relevant to the tracker's ratepayer-protection/large-load-siting scope even though it is framed generally around large-load customers rather than data centers by name."
+    }
+  ]
+}

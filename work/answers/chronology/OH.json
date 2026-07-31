@@ -1,0 +1,493 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "Ohio",
+      "jurisdiction": "Yellow Springs",
+      "jurisdiction_type": "Village",
+      "date_enacted": "2026-05-18 (emergency reading)",
+      "date_enacted_iso": "2026-05-18",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months, expiring 2027-05-18",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Village Council emergency ordinance; Ordinance 2026-08",
+      "trigger": "Pause on zoning permits/approvals for new data centers with aggregate monthly demand or peak load above 2 MW, and for expansions of existing facilities crossing that threshold; council narrowed the proposal at a May 4 work session before adopting it May 18",
+      "trigger_categories": ["grid_energy", "regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; runs through 2027-05-18 unless repealed or replaced earlier",
+      "enacted_status": "active",
+      "outcome": "Adopted by emergency reading; bars zoning permits/approvals for new or expanded data centers above 2 MW aggregate demand for 12 months, with exemptions for auxiliary data centers and applications/permits already submitted or issued",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://ysnews.com/news/2026/05/ordinance-2026-08",
+          "source_type": "ordinance",
+          "publisher": "Yellow Springs News",
+          "document_date": "2026-05-18",
+          "supports": "Full public-notice text of Ordinance 2026-08: 12-month moratorium, 2 MW threshold, exemptions, May 18 passage"
+        },
+        {
+          "url": "https://ysnews.com/news/2026/05/village-council-considers-data-center-moratorium-in-yellow-springs",
+          "source_type": "news",
+          "publisher": "Yellow Springs News",
+          "supports": "May 4 council discussion narrowing the draft proposal before final adoption"
+        }
+      ],
+      "notes": "Not previously in the inventory."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "Grafton",
+      "jurisdiction_type": "Village",
+      "date_enacted": "2026-05-19 (emergency ordinance)",
+      "date_enacted_iso": "2026-05-19",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Five years, per Spectrum News reporting; the adopted ordinance number and full text were not located on the village's official ordinance page during this review [VERIFY]",
+      "duration_days": 1825,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Village Council emergency ordinance (ordinance number not confirmed in sources reviewed) [VERIFY]",
+      "trigger": "Community opposition reflected in village polling and the mayor's recommendation for a pause on data center development",
+      "trigger_categories": ["other", "regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Reported active as of 2026-07-31, per news account; primary ordinance text not independently confirmed",
+      "enacted_status": "active",
+      "outcome": "Council enacted an emergency ordinance establishing a temporary moratorium on data center development; Spectrum News reported a five-year term",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://villageofgrafton.org/wp-content/uploads/2026/05/5.19.2026-Meeting-Agenda.pdf",
+          "source_type": "agenda",
+          "publisher": "Village of Grafton",
+          "document_date": "2026-05-19",
+          "supports": "Official May 19 meeting agenda listing the moratorium ordinance for suspension of rules and emergency action"
+        },
+        {
+          "url": "https://spectrumnews1.com/oh/columbus/news/2026/05/21/grafton-data-center-development",
+          "source_type": "news",
+          "publisher": "Spectrum News 1",
+          "supports": "Reports the ordinance passed May 19 with a five-year term, citing community polling and the mayor's recommendation"
+        }
+      ],
+      "notes": "[VERIFY] Adopted ordinance number and full text not located on villageofgrafton.org's agendas-and-minutes page during this review; duration relies on secondary reporting only."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "Grove City",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-01 (emergency measure)",
+      "date_enacted_iso": "2026-06-01",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "City Council emergency ordinance; Ordinance C-22-26, passed 6-1",
+      "trigger": "Resident concern following reports of an in-development Stream Data Centers project near Rensch Road/Harrisburg Pike, though the city attorney said no application had been filed; council sought time for policy review, infrastructure analysis, and public engagement",
+      "trigger_categories": ["regulatory_gap", "infrastructure_capacity", "specific_project"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; runs through approximately 2027-06-01",
+      "enacted_status": "active",
+      "affected_projects": "Stream Data Centers site near Rensch Road/Harrisburg Pike (no application filed as of May 2026)",
+      "outcome": "Adopted 6-1 as an emergency measure; imposes a 12-month moratorium on establishment, development, processing, review, and approval of high-density computing facilities",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.grovecityohio.gov/DocumentCenter/View/4327/Legal-Notice-06-01-26?bidId=",
+          "source_type": "ordinance",
+          "publisher": "City of Grove City",
+          "document_date": "2026-06-01",
+          "supports": "Legal notice of adopted Ordinance C-22-26 establishing the 12-month moratorium and 6-1 vote"
+        },
+        {
+          "url": "https://spectrumnews1.com/oh/columbus/sports/2026/06/02/grove-city-data-center",
+          "source_type": "news",
+          "publisher": "Spectrum News 1",
+          "supports": "Confirms June 1 passage and context of resident requests for a moratorium in May"
+        }
+      ],
+      "notes": "Not previously in the inventory."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "City of Hubbard",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-01 (emergency ordinance)",
+      "date_enacted_iso": "2026-06-01",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "City Council emergency ordinance (ordinance number not confirmed in sources reviewed) [VERIFY]",
+      "trigger": "Resident opposition to a possible data center project referred to as 'Project Milo' and criticism of an economic-development nondisclosure agreement; more than 200 residents attended the May 18 meeting where the emergency legislation was requested",
+      "trigger_categories": ["specific_project", "other"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; runs through approximately 2027-06-01",
+      "enacted_status": "active",
+      "affected_projects": "Project Milo (unconfirmed developer)",
+      "outcome": "City Council approved an emergency 12-month moratorium on construction, placement, or operation of data centers, following a May 18 request by Councilwoman Robin Zambrini",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.vindy.com/uncategorized/2026/05/hubbard-plans-data-center-moratorium/",
+          "source_type": "news",
+          "publisher": "The Vindicator",
+          "supports": "May 18 request for emergency one-year moratorium legislation, planned for a June 1 vote"
+        },
+        {
+          "url": "https://www.vindy.com/news/local-news/2026/06/hubbard-passes-data-center-moratorium/",
+          "source_type": "news",
+          "publisher": "The Vindicator",
+          "supports": "Reports June 1 passage of the emergency 12-month moratorium"
+        }
+      ],
+      "notes": "This is the City of Hubbard, a jurisdiction distinct from Hubbard Township (already in the inventory as oh-hubbard-township-2026, a separate Trumbull County township government)."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "Cortland",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-01 (emergency passage)",
+      "date_enacted_iso": "2026-06-01",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "City Council emergency ordinance (ordinance number not confirmed in sources reviewed) [VERIFY]",
+      "trigger": "Desire to review the planning and zoning code before permitting data centers",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; runs through approximately 2027-06-01",
+      "enacted_status": "active",
+      "outcome": "Council gave emergency passage to a one-year moratorium stopping applications and zoning permits for data centers",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.tribtoday.com/news/local-news/2026/06/cortland-enacts-1-year-ban-on-data-centers/",
+          "source_type": "news",
+          "publisher": "Tribune Chronicle",
+          "document_date": "2026-06-01",
+          "supports": "Reports emergency one-year moratorium enacted June 1"
+        }
+      ],
+      "notes": "Not previously in the inventory."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "Braceville Township",
+      "jurisdiction_type": "Township",
+      "date_enacted": "2026-06-02 (immediately effective)",
+      "date_enacted_iso": "2026-06-02",
+      "date_enacted_uncertainty": "exact",
+      "duration": "6 months",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Township trustee resolution under R.C. Chapter 519 (resolution number not confirmed in sources reviewed) [VERIFY]",
+      "trigger": "Concerns about noise, electric, and water impacts, and coordination with county model zoning work",
+      "trigger_categories": ["noise", "grid_energy", "water", "regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; runs through approximately 2026-11-29",
+      "enacted_status": "active",
+      "outcome": "Trustees unanimously approved an immediately effective six-month moratorium on data center permits and applications",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.tribtoday.com/news/local-news/2026/06/braceville-enacts-6-month-moratorium-on-data-centers/",
+          "source_type": "news",
+          "publisher": "Tribune Chronicle",
+          "document_date": "2026-06-02",
+          "supports": "Reports unanimous six-month moratorium, effective immediately, on data center permits and applications"
+        }
+      ],
+      "notes": "Trumbull County, per jurisdiction_raw in source notes. Not previously in the inventory."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "Howland Township",
+      "jurisdiction_type": "Township",
+      "date_enacted": "2026-06-10",
+      "date_enacted_iso": "2026-06-10",
+      "date_enacted_uncertainty": "exact",
+      "duration": "6 months, renewable for another 6 months, and reasonably extendable to complete the study and adopt amendments",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Township trustee resolution under R.C. Chapter 519 (resolution number not confirmed in sources reviewed) [VERIFY]",
+      "trigger": "Desire to study data center impacts before approving zoning certificates, conditional use permits, variances, rezonings, and other approvals",
+      "trigger_categories": ["land_use_compatibility", "regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; initial term runs through approximately 2026-12-07 and may be renewed",
+      "enacted_status": "active",
+      "outcome": "Trustees approved a six-month moratorium covering new applications for zoning certificates, conditional use permits, variances, rezonings, and other data center approvals in all township zoning districts",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.tribtoday.com/news/local-news/2026/06/howland-oks-data-center-moratorium/",
+          "source_type": "news",
+          "publisher": "Tribune Chronicle",
+          "document_date": "2026-06-10",
+          "supports": "Reports six-month moratorium covering zoning certificates, CUPs, variances, rezonings; renewable for another six months"
+        }
+      ],
+      "notes": "Trumbull County, per jurisdiction_raw in source notes. Not previously in the inventory."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "Berea",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-15 (emergency measure)",
+      "date_enacted_iso": "2026-06-15",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Up to 1 year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "City Council emergency ordinance; Ordinance 6-6",
+      "trigger": "Study of infrastructure, utilities, environmental effects, resident concerns, and long-term planning implications of data centers",
+      "trigger_categories": ["infrastructure_capacity", "environmental", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; runs through approximately 2027-06-15",
+      "enacted_status": "active",
+      "outcome": "Council approved Ordinance 6-6, an emergency measure imposing a moratorium of up to one year on permits and permit applications for data centers",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://cityofberea.org/DocumentCenter/View/5594/Ord-6-6-Moratorium-Data-Centers",
+          "source_type": "ordinance",
+          "publisher": "City of Berea",
+          "document_date": "2026-06-15",
+          "supports": "Full text of Ordinance 6-6 establishing the up-to-one-year moratorium"
+        }
+      ],
+      "notes": "Not previously in the inventory. A city newsletter separately confirms the June 15 approval date."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "Massillon",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-15 (emergency, three-reading rule suspended)",
+      "date_enacted_iso": "2026-06-15",
+      "date_enacted_uncertainty": "exact",
+      "duration": "60 days, extending the city's prior data center development stay after its expiration on 2026-06-15",
+      "duration_days": 60,
+      "duration_kind": "fixed_days",
+      "legal_basis": "City Council resolution, emergency; Resolution 25-2026",
+      "trigger": "Continuation of the city's prior data center development stay pending completion of policy review",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; runs through approximately 2026-08-14",
+      "enacted_status": "active",
+      "outcome": "Council unanimously suspended the three-reading rule and passed Resolution 25-2026, extending the stay on data center development for 60 days after the council minutes state the prior stay expired that day",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://massillonohio.gov/wp-content/uploads/06-15-2026-Council-Mtg.pdf",
+          "source_type": "minutes",
+          "publisher": "Massillon City Council",
+          "document_date": "2026-06-15",
+          "supports": "Council minutes recording the emergency passage of Resolution 25-2026, a 60-day extension of the data center stay"
+        }
+      ],
+      "notes": "Distinct instrument (Resolution 25-2026) from the city's existing inventory entry oh-massillon-2026 (180-day ordinance enacted 2026-04-06). This candidate is the separate resolution that extended the stay after the original 180-day period lapsed; it does not replace or restate the existing row, which this pass leaves untouched."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "Butler County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-06-16",
+      "date_enacted_iso": "2026-06-16",
+      "date_enacted_uncertainty": "exact",
+      "duration": "6 months, immediately effective",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Board of County Commissioners resolution; Resolution 26-06-00963, covering unincorporated areas of Hanover, Lemon, Madison, Milford, Oxford, and Ross townships where the county administers zoning",
+      "trigger": "County-initiated pause on data center applications and permits in county-zoned townships pending policy development",
+      "trigger_categories": ["land_use_compatibility", "regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; runs through approximately 2026-12-13",
+      "enacted_status": "active",
+      "outcome": "Commissioners unanimously adopted Resolution 26-06-00963, immediately imposing a six-month moratorium barring county acceptance or processing of applications and issuance of zoning or building permits for data centers and data processing centers in Hanover, Lemon, Madison, Milford, Oxford, and Ross townships",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://butlercountyoh.iqm2.com/Citizens/Detail_LegiFile.aspx?Frame=&MeetingID=2797&MediaPosition=&ID=24632&CssClass=",
+          "source_type": "resolution",
+          "publisher": "Butler County Board of Commissioners",
+          "document_date": "2026-06-16",
+          "supports": "Full legislative file and resolution text for Resolution 26-06-00963"
+        },
+        {
+          "url": "https://www.wvxu.org/environment/2026-06-17/butler-county-approves-data-center-moratorium",
+          "source_type": "news",
+          "publisher": "WVXU",
+          "supports": "Confirms unanimous adoption and six-month term"
+        }
+      ],
+      "notes": "Not previously in the inventory. Applies only in the six named townships where Butler County administers zoning, not countywide."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "Montgomery Township",
+      "jurisdiction_type": "Township",
+      "date_enacted": "2026-06-17 (trustee vote); reporting indicated trustees would sign the approved resolution on 2026-07-01, but no executed copy or July 1 minutes were located [VERIFY]",
+      "date_enacted_iso": "2026-06-17",
+      "date_enacted_uncertainty": "exact",
+      "duration": "2 years from the effective date unless repealed, extended, or replaced",
+      "duration_days": 730,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Township trustee resolution under R.C. Chapter 519",
+      "trigger": "Trustee-initiated study of data center construction impacts and possible future regulation",
+      "trigger_categories": ["regulatory_gap", "other"],
+      "sectors": ["data_center"],
+      "current_status": "Reported active as of 2026-07-31; the downloaded resolution had blank approval/signature fields, and no executed copy or July 1 meeting minutes confirming signature were located [VERIFY]",
+      "enacted_status": "active",
+      "outcome": "Trustees unanimously approved a two-year prohibition on data center construction, prohibiting construction of data centers with aggregate monthly demand or peak load above 25 MW while the township studies impacts and possible regulation",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.ashlandsource.com/wp-content/uploads/2026/06/MORATORIUM-Montgomery-Final-copy.pdf",
+          "source_type": "resolution",
+          "publisher": "Montgomery Township, Ashland County",
+          "document_date": "2026-06-17",
+          "supports": "Text of the two-year moratorium resolution, including the 25 MW threshold; approval and signature fields were blank as downloaded"
+        },
+        {
+          "url": "https://www.ashlandsource.com/2026/06/18/montgomery-township-approves-data-center-moratorium/",
+          "source_type": "news",
+          "publisher": "Ashland Source",
+          "supports": "Reports unanimous June 17 trustee approval and a planned July 1 signature"
+        }
+      ],
+      "notes": "[VERIFY] Signature/effective date not confirmed; the July 1 event in the source chronology likewise could not confirm execution. Ashland County; not previously in the inventory."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "St. Marys",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-22 (passed with one abstention)",
+      "date_enacted_iso": "2026-06-22",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "City Council Emergency Resolution 2026-08",
+      "trigger": "Resident Dakota Humphries raised environmental, utility, infrastructure, privacy, and economic concerns at a May 11 meeting; city officials said no developer had contacted the city",
+      "trigger_categories": ["regulatory_gap", "other"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; runs through approximately 2027-06-22",
+      "enacted_status": "active",
+      "outcome": "Council passed Emergency Resolution 2026-08 with one abstention, imposing a 12-month moratorium on establishing or converting buildings to data centers and on development or construction that would allow the use, while the city reviews federal, state, and local rules",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.cityofstmarys.net/AgendaCenter/ViewFile/Agenda/_06222026-181",
+          "source_type": "agenda",
+          "publisher": "City of St. Marys",
+          "document_date": "2026-06-22",
+          "supports": "June 22 agenda/packet confirming passage of Emergency Resolution 2026-08"
+        },
+        {
+          "url": "https://www.wcsmradio.com/index.php/news/83028/135/St-Marys-Council-Approves-Data-Center-Moratorium-And-Budget-Supplementals",
+          "source_type": "news",
+          "publisher": "WCSM Radio",
+          "supports": "Post-vote report confirming passage with one abstention"
+        }
+      ],
+      "notes": "Not previously in the inventory. Council had first ordered preparation of this resolution on 2026-05-11 and given it a first reading on 2026-05-27 before final passage on 2026-06-22."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "Girard",
+      "jurisdiction_type": "City",
+      "date_enacted": "",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed 1 year (not yet confirmed enacted)",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "legal_basis": "Proposed city ordinance; second reading completed June 22, with final reading/emergency passage scheduled for July 13, but no source located confirming actual passage",
+      "trigger": "Councilwoman Lily Martuccio cited unknown effects of data centers on communities, including water contamination and noise complaints reported elsewhere",
+      "trigger_categories": ["water", "noise", "regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Status uncertain as of 2026-07-31; council scheduled a final vote for 2026-07-13 with immediate effect upon passage, but no source confirming that vote occurred was located in this pass [VERIFY]",
+      "enacted_status": "pending",
+      "outcome": "Council gave a proposed one-year data center moratorium its second reading on 2026-06-22; final reading was scheduled for 2026-07-13. No confirmation of the July 13 vote outcome was found",
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "url": "https://www.tribtoday.com/news/local-news/2026/06/girard-advances-data-center-moratorium/",
+          "source_type": "news",
+          "publisher": "Tribune Chronicle",
+          "document_date": "2026-06-22",
+          "supports": "Second reading of a proposed one-year moratorium on 2026-06-22; final reading scheduled for 2026-07-13 with immediate effect upon passage"
+        }
+      ],
+      "notes": "[VERIFY] Enactment not confirmed. The source chronology (through 2026-07-28) contains no follow-up event reporting the July 13 vote result, and a search of Tribune Chronicle's late-July local news listing did not surface a Girard moratorium passage story. Recorded here as pending rather than active to avoid inventing an enactment."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "Plain City",
+      "jurisdiction_type": "Village",
+      "date_enacted": "",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed 12-month moratorium on new data center applications (not yet enacted; legislation expected to return for a vote at an August 2026 regular meeting)",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "legal_basis": "Proposed village ordinance; council directed legislation be prepared on 2026-07-13, no ordinance number yet assigned",
+      "trigger": "Council-directed preparation of moratorium legislation on new data center applications",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Pending as of 2026-07-31; legislation had not yet returned for a council vote",
+      "enacted_status": "pending",
+      "outcome": "Village council voted to have legislation prepared for a 12-month moratorium on new data center applications, with the vote expected at an August regular meeting; this was a direction to draft legislation, not enactment",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://www.marysvillejt.com/2026/07/18/plain-city-moves-toward-one-year-data-center-moratorium/",
+          "source_type": "news",
+          "publisher": "Marysville Journal-Tribune",
+          "document_date": "2026-07-18",
+          "supports": "Reports council direction on 2026-07-13 to prepare 12-month moratorium legislation, with a vote expected in August"
+        }
+      ],
+      "notes": "Not previously in the inventory. Madison and Union counties (village straddles both)."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "Springfield",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-07-14 (second reading, 5-0)",
+      "date_enacted_iso": "2026-07-14",
+      "date_enacted_uncertainty": "exact",
+      "duration": "6 months",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "City Commission ordinance, passed 5-0 on second reading; Ordinance 159-26",
+      "trigger": "City study of 'High-Density Computing Facilities' as a land use before permitting is resumed",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31; runs through approximately 2027-01-10",
+      "enacted_status": "active",
+      "outcome": "City Commission passed Ordinance 159-26 by a 5-0 vote after its second reading, imposing a six-month moratorium on the establishment, development, processing, review, and approval of High-Density Computing Facilities",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://springfieldohio.primegov.com/Public/CompiledDocument/11482",
+          "source_type": "minutes",
+          "publisher": "City of Springfield, Clark County",
+          "document_date": "2026-07-14",
+          "supports": "Minutes recording 5-0 passage of Ordinance 159-26"
+        },
+        {
+          "url": "https://springfieldohio.primegov.com/Public/CompiledDocument/11402",
+          "source_type": "agenda",
+          "publisher": "City of Springfield, Clark County",
+          "document_date": "2026-07-14",
+          "supports": "Agenda listing the second reading of Ordinance 159-26"
+        }
+      ],
+      "notes": "Not previously in the inventory. Clark County."
+    }
+  ]
+}

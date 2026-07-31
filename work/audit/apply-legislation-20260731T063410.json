@@ -1,0 +1,1064 @@
+{
+  "applied_at": "20260731T063410",
+  "answer_files": [
+    "work/answers/legislation/AZ.json",
+    "work/answers/legislation/CA.json",
+    "work/answers/legislation/IA.json",
+    "work/answers/legislation/IL.json",
+    "work/answers/legislation/MD.json",
+    "work/answers/legislation/MI.json",
+    "work/answers/legislation/MN.json",
+    "work/answers/legislation/NJ.json",
+    "work/answers/legislation/OH.json",
+    "work/answers/legislation/OK.json",
+    "work/answers/legislation/PA.json",
+    "work/answers/legislation/SD.json",
+    "work/answers/legislation/VA.json",
+    "work/answers/legislation/WV.json"
+  ],
+  "stats": {
+    "outcome:status_changed": 75,
+    "outcome:confirmed_unchanged": 103,
+    "new_bill_duplicate": 11,
+    "set:status": 32,
+    "set:bill_status_category": 32,
+    "set:chamber_of_origin": 32,
+    "set:last_action_date_iso": 31,
+    "outcome:corrected": 10
+  },
+  "session_notes": {
+    "AZ": "Arizona's 57th Legislature, Second Regular Session (2026) adjourned Sine Die on 2026-06-13 (roughly 4:45am), after a 153-day session. Bills not enacted by that date are dead for the biennium's second-year session; Arizona does not carry single bills forward into a new regular session. The official Bill Status Inquiry site (apps.azleg.gov/BillStatus) is a JavaScript single-page app that does not render usable content via plain HTTP fetch, so this pass relied on FastDemocracy and BillTrack50 (both of which mirror azleg.gov's own action-log data feed) for detailed chronological action histories; their own auto-generated 'status' summary labels were found to be unreliable (e.g. mislabeling withdrawn/dead bills as pending or enacted) and were NOT trusted -- only the underlying dated action-by-action history was used to determine disposition. Confidence is set lower than a direct legislature-page fetch would warrant as a result.",
+    "CA": "The 2025-2026 California Legislature is a two-year regular session that convened December 2, 2024 and does not adjourn sine die until November 30, 2026 (final floor votes/chaptering typically run through August-September 2026, with the Governor's last bill-signing deadline in early-to-mid October 2026). As of 2026-07-31 the Legislature is in its scheduled summer recess (mid-July to early August), which is why several bills below show a last action in late June/early July with a committee hearing already calendared for the first week of August 2026. Bills introduced in 2025 that had not passed their house of origin by the constitutional January 31, 2026 deadline (Cal. Const. art. IV, sec. 10(c)) die automatically (e.g., AB1095); bills that already cleared that deadline or were introduced fresh in 2026 remain live for the rest of the biennium and are not 'carried over' in any special procedural sense - they are simply still pending on the normal 2026 calendar.",
+    "IA": "The 91st Iowa General Assembly spans 2025-2026; a bill not enacted in 2025 can still be alive at the start of 2026 (its own bill number persists), but the second year (2026 session) adjourned Sine Die on 2026-05-03, and there is no further carryover into a 92nd General Assembly. Bills with no recorded action reaching a floor vote by 2026-05-03 are dead; several data-center bills stalled in committee well before that date, consistent with Iowa's internal 'funnel' deadlines that require bills to advance out of committee/one chamber by a set date each session to remain eligible for further floor action. Iowa's official BillBook pages are JS-rendered and did not return history data via plain fetch, but the underlying legis.iowa.gov billTracking/billHistory JSON-backed endpoint (same official data source) did, and was used for every decision below.",
+    "IL": "Illinois's 104th General Assembly is a genuine two-year biennium (convened January 2025, does not adjourn Sine Die until January 2027 when the 105th GA is sworn in), so any bill still pending in a committee at the end of 2025 carries automatically into 2026 without refiling or renumbering. The Illinois Senate uses successive 'Rule 2-10' committee-deadline extensions (and, once a deadline lapses without committee action, a 'Rule 3-9(a)' re-referral to the Assignments Committee) to keep bills technically alive rather than letting them die outright; a Rule 3-9(a) re-referral to Assignments is a parking mechanism, not a formal death, and ILGA's own status pages never label these bills 'dead,' 'failed,' or 'Session Sine Die.' Several bills in this packet (SB2181, SB3120, SB3761, SB3830, SB4004, SB4016) show an identical late-session pattern: deadline extended from an original date through 2026-04-24, then 2026-05-15, then a further undocumented-in-packet extension to 2026-05-22, at which point the deadline lapsed and the bill (with any pending amendments) was re-referred to Assignments under Rule 3-9(a) on 2026-05-22 with no recorded action since. This mirrors what already happened to HB3574, SB0094, and SB2290 in 2025 (re-referred to Assignments in April-June 2025 and untouched since), which remain formally pending, not formally dead, more than a year later. None of the 11 bills in this packet has been reported out of committee, passed both chambers, or enacted as of 2026-07-31, except that HB3574 did pass the House on 2025-04-10 (114-1-0) and is now stalled in the Senate Assignments Committee.",
+    "MD": "Maryland's 2026 Regular Session convened 2026-01-14 and adjourned Sine Die on 2026-04-13 (second Monday in April), confirmed from the bill history of HB1532/HB0293 which show final floor action on that date; Maryland's 90-day fixed session does not carry bills into a future year, so any 2026 bill without a recorded committee vote or floor passage by 2026-04-13 died at adjournment (failed_died), and only bills the Governor signed (or let become law) after that date count as enacted.",
+    "MI": "Michigan's 104th Legislature covers the 2025-2026 term (through December 2026); Michigan bills carry over between the two years of the same term without needing reintroduction (a bill introduced in 2025 remains the same live bill in 2026). As of the research date the Legislature has not adjourned sine die - it is in summer recess (House adjourned until 2026-08-11, Senate until 2026-08-12, per legislature.mi.gov), so no bill below is 'died' or 'carried_over'; unpassed bills are simply still in_committee and legitimately pending.",
+    "MN": "The 94th Minnesota Legislature covers the 2025-2026 biennium; the 2026 regular session adjourned Sine Die on 2026-05-18 (constitutional deadline, first Monday after the third Saturday in May), which is the end of the biennium -- there is no further carryover beyond this date. A bill with no committee vote or floor action recorded by 2026-05-18 is dead. All action-history data below comes from each bill's own page on revisor.mn.gov (the Legislature's official bill-tracking system), read via its status log rather than any auto-generated summary label.",
+    "NJ": "New Jersey's 221st Legislature (2024-2025 session) adjourned sine die in mid-January 2026 (final flurry of floor action 2026-01-12, new 222nd Legislature seated 2026-01-13); NJ does not carry bills across a Legislature boundary with the same number, so any 2024-2025 bill not enacted before that changeover is dead and would need reintroduction as a new bill in 2026-2027 to advance. The 222nd Legislature (2026-2027 session) began 2026-01-13 and runs as a single continuous biennium into January 2028, so a 2026-2027 bill sitting in committee as of 2026-07-31 is simply pending, not dead or 'carried_over' in the cross-Legislature sense; true carried_over status would only apply if checking status deep into 2027 for a bill still alive from 2026.",
+    "OH": "Ohio's 136th General Assembly is a continuous two-year session (2025-2026); bills carry over automatically from 2025 into 2026 without any formal carryover action, and the GA does not adjourn sine die until around December 2026. As of 2026-07-31 the session is still ongoing, so bills sitting in committee with no adverse action remain 'in_committee' rather than 'carried_over' or 'failed_died'.",
+    "OK": "Oklahoma's 60th Legislature runs a two-year biennium (2025-2026) but each year's session adjourns sine die separately; 2025 bills not enacted by the 2025 sine die date generally remain alive and can be taken up again in the 2026 session of the same 60th Legislature (as SB 259 was, carried from its 2025-02-03 introduction through to 2026 passage). The Second Regular Session of the 60th Oklahoma Legislature convened 2026-02-02 and adjourned sine die on Friday, 2026-05-29 (NLT 5:00 p.m.), per the official House legislative deadlines page (okhouse.gov/leg_deadlines). Any bill not passed and signed into law by that date is dead for the 2025-2026 biennium; a new bill number would be required starting with the 2027 session.",
+    "PA": "PA's 2025-2026 General Assembly is a two-year regular session (biennium); as of 2026-07-31 it has NOT adjourned sine die (both chambers are in summer recess, scheduled to reconvene September 2026 with adjournment customarily around late November/December 2026), so pending bills remain in normal in-process status (in_committee / passed_one_chamber) rather than carried_over; carryover would only apply once a new 2027-2028 biennium begins and un-passed bills die and must be reintroduced with new numbers.",
+    "SD": "South Dakota's 101st Legislative Session (2026, SessionId 71 on sdlegislature.gov) convened 2026-01-13; the Legislature's own per-bill action logs show all business concluded with final gubernatorial signatures recorded through 2026-03-30 and show no action of any kind after any bill's deferral to the 41st legislative day, confirming SD's short annual session does not carry 2026 bills into a future year.",
+    "VA": "VA's 2026 regular General Assembly session (60-day, even-year session) convened 2026-01-14 and adjourned sine die 2026-03-14. Per Va. Const. Art. V Sec. 6, the Governor then had 30 days to act on bills, i.e. a deadline of 2026-04-13 - this is why the enacted bills below show 'approved 2026-04-13' (it is the constitutional signing deadline, not a reconvened-session date). The constitutionally separate reconvened (veto/amendment) session for 2026 was held 2026-04-22 (the sixth Wednesday after adjournment), confirmed via LIS's own Session API; no bill in this set required reconvened-session action since none were amended or vetoed by the Governor in 2026. VA House of Delegates members serve 2-year terms elected in odd years; the term covering the 2026 and 2027 sessions began January 2026 (after the Nov 2025 election), so a bill 'Continued to 2027' from the 2026 session remains alive within the SAME term (bill_status_category carried_over). By contrast, HB338 (2024) and SB288 (2024) belong to the prior 2024-2025 term (elected Nov 2023); that term, and its 2025 session, are now over, so any bill left in committee/continued without further action is dead (failed_died), not carried over into the new 2026-2027 term.",
+    "WV": "WV 2026 regular session ran 2026-01-14 to 2026-03-14 (60-day session, per wvlegislature.gov). WV bills do NOT carry over between the two regular sessions of a legislature term: each regular session's unpassed bills die at sine die and must be reintroduced under a new bill number the next year. This is confirmed by the 2025 bills below (SB583, SB857, SB803, HB3137) which show no action past their 2025 session pages, while near-duplicate proposals (e.g. SB623 (2026), a reintroduction of the same data-center incentive concept as SB583/SB857 (2025)) appear under brand-new 2026 bill numbers rather than as continuations of the old ones."
+  },
+  "conflicts": [],
+  "changes": [
+    {
+      "bill_key": "MI:2024 PA 181",
+      "column": "status",
+      "before": "Enacted 2024",
+      "after": "Enacted as 2024 PA 181; in effect and not repealed as of 2026-07-31",
+      "reason": "PDF summary did not yield a reliable exact enactment date or a verifiable originating bill number (an initial WebFetch summary claimed 'Senate Bill 631' as the origin, but a follow-up check of 2023 SB 631 showed it was an unrelated civil-rights bill, so that attribution is not trustworthy and is omitted). No repeal of PA 181 has passed (HB 5396/5397/5398 (2025), which would repeal the related exemptions, remain in House committee with no floor action). last_action_date_iso left blank per schema guidance since the precise date could not be confirmed.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:2024 PA 181",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "PDF summary did not yield a reliable exact enactment date or a verifiable originating bill number (an initial WebFetch summary claimed 'Senate Bill 631' as the origin, but a follow-up check of 2023 SB 631 showed it was an unrelated civil-rights bill, so that attribution is not trustworthy and is omitted). No repeal of PA 181 has passed (HB 5396/5397/5398 (2025), which would repeal the related exemptions, remain in House committee with no floor action). last_action_date_iso left blank per schema guidance since the precise date could not be confirmed.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:2024 PA 181",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "unknown",
+      "reason": "PDF summary did not yield a reliable exact enactment date or a verifiable originating bill number (an initial WebFetch summary claimed 'Senate Bill 631' as the origin, but a follow-up check of 2023 SB 631 showed it was an unrelated civil-rights bill, so that attribution is not trustworthy and is omitted). No repeal of PA 181 has passed (HB 5396/5397/5398 (2025), which would repeal the related exemptions, remain in House committee with no floor action). last_action_date_iso left blank per schema guidance since the precise date could not be confirmed.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 4906 (2023)",
+      "column": "status",
+      "before": "Enacted as 2024 PA 207",
+      "after": "Passed House 2023-11-08 (79-30); passed Senate as substituted 2024-05-16 (22-11); House concurred 2024-11-13 (64-45); Senate concurred 2024-12-12; approved by Governor 2025-01-17; enacted as 2024 PA 207",
+      "reason": "Prior record's disposition already correct; last_action_date_iso refined to the actual governor-approval/filing date (2025-01-17), which is later than the 2024 calendar year implied by the Public Act's year label (a common lag between legislative passage and gubernatorial signature).",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 4906 (2023)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "Prior record's disposition already correct; last_action_date_iso refined to the actual governor-approval/filing date (2025-01-17), which is later than the 2024 calendar year implied by the Public Act's year label (a common lag between legislative passage and gubernatorial signature).",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 4906 (2023)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-01-17",
+      "reason": "Prior record's disposition already correct; last_action_date_iso refined to the actual governor-approval/filing date (2025-01-17), which is later than the 2024 calendar year implied by the Public Act's year label (a common lag between legislative passage and gubernatorial signature).",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 4906 (2023)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "Prior record's disposition already correct; last_action_date_iso refined to the actual governor-approval/filing date (2025-01-17), which is later than the 2024 calendar year implied by the Public Act's year label (a common lag between legislative passage and gubernatorial signature).",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5396 (2025)",
+      "column": "status",
+      "before": "Introduced 2025-12-17; House Economic Competitiveness Committee",
+      "after": "Introduced 2025-12-17; referred to House Committee on Economic Competitiveness; no further action as of 2026-07-31",
+      "reason": "Still alive and pending; not dead, since Michigan bills carry over within the 2025-2026 term and the term has not ended.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5396 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "Still alive and pending; not dead, since Michigan bills carry over within the 2025-2026 term and the term has not ended.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5396 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-12-18",
+      "reason": "Still alive and pending; not dead, since Michigan bills carry over within the 2025-2026 term and the term has not ended.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5396 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "Still alive and pending; not dead, since Michigan bills carry over within the 2025-2026 term and the term has not ended.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5397 (2025)",
+      "column": "status",
+      "before": "Introduced 2025-12-17; House Economic Competitiveness Committee",
+      "after": "Introduced 2025-12-17; referred to House Committee on Economic Competitiveness; no further action as of 2026-07-31",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5397 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5397 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-12-18",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5397 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5398 (2025)",
+      "column": "status",
+      "before": "Introduced 2025-12-17; House Economic Competitiveness Committee",
+      "after": "Introduced 2025-12-17; referred to House Committee on Economic Competitiveness; no further action as of 2026-07-31",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5398 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5398 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-12-18",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5398 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5399 (2025)",
+      "column": "status",
+      "before": "Introduced 2025-12-18; House Economic Competitiveness Committee",
+      "after": "Introduced 2025-12-18; referred to House Committee on Economic Competitiveness; no further action as of 2026-07-31",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5399 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5399 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-12-23",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5399 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5594 (2026)",
+      "column": "status",
+      "before": "Introduced 2026-02-26; House Government Operations Committee",
+      "after": "Introduced 2026-02-26; referred to House Committee on Government Operations; no further action as of 2026-07-31",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5594 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5594 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-03",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5594 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5595 (2026)",
+      "column": "status",
+      "before": "Introduced 2026-02-26; House Government Operations Committee",
+      "after": "Introduced 2026-02-26; referred to House Committee on Government Operations; no further action as of 2026-07-31",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5595 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5595 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-03",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5595 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5596 (2026)",
+      "column": "status",
+      "before": "Introduced 2026-02-26; House Government Operations Committee",
+      "after": "Introduced 2026-02-26; referred to House Committee on Government Operations; no further action as of 2026-07-31",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5596 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5596 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-03",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5596 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5881 (2026)",
+      "column": "status",
+      "before": "Introduced 2026-04-23; House Government Operations Committee",
+      "after": "Introduced 2026-04-23; referred to House Committee on Government Operations; no further action as of 2026-07-31",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5881 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5881 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-04-28",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5881 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5882 (2026)",
+      "column": "status",
+      "before": "Introduced 2026-04-23; House Government Operations Committee",
+      "after": "Introduced 2026-04-23; referred to House Committee on Government Operations; no further action as of 2026-07-31",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5882 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5882 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-04-28",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:HB 5882 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:SB 761 (2025)",
+      "column": "status",
+      "before": "Introduced 2025-12-18; Senate Energy and Environment Committee",
+      "after": "Introduced 2025-12-18; referred to Senate Committee on Energy and Environment; no further action as of 2026-07-31",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:SB 761 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:SB 761 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-12-18",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:SB 761 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:SB 762 (2025)",
+      "column": "status",
+      "before": "Introduced 2025-12-18; Senate Energy and Environment Committee",
+      "after": "Introduced 2025-12-18; referred to Senate Committee on Energy and Environment; co-sponsors added 2026-06-24 and 2026-07-01; still pending, no committee vote as of 2026-07-31",
+      "reason": "Only change since the packet's capture is the addition of two co-sponsors; bill_status_category remains in_committee, but last_action_date_iso moves forward to 2026-07-01.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:SB 762 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "Only change since the packet's capture is the addition of two co-sponsors; bill_status_category remains in_committee, but last_action_date_iso moves forward to 2026-07-01.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:SB 762 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-07-01",
+      "reason": "Only change since the packet's capture is the addition of two co-sponsors; bill_status_category remains in_committee, but last_action_date_iso moves forward to 2026-07-01.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:SB 762 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "Only change since the packet's capture is the addition of two co-sponsors; bill_status_category remains in_committee, but last_action_date_iso moves forward to 2026-07-01.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:SB 763 (2025)",
+      "column": "status",
+      "before": "Introduced 2025-12-18; Senate Energy and Environment Committee",
+      "after": "Introduced 2025-12-18; referred to Senate Committee on Energy and Environment; co-sponsors added 2026-06-24 and 2026-07-01; still pending, no committee vote as of 2026-07-31",
+      "reason": "Companion bill to SB 762; the fetched summary listed identical co-sponsor-addition dates to SB 762, which is plausible for paired companion bills whose sponsors sign onto both together, but is flagged here since it could not be independently cross-verified beyond the single page fetch.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:SB 763 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "Companion bill to SB 762; the fetched summary listed identical co-sponsor-addition dates to SB 762, which is plausible for paired companion bills whose sponsors sign onto both together, but is flagged here since it could not be independently cross-verified beyond the single page fetch.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:SB 763 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-07-01",
+      "reason": "Companion bill to SB 762; the fetched summary listed identical co-sponsor-addition dates to SB 762, which is plausible for paired companion bills whose sponsors sign onto both together, but is flagged here since it could not be independently cross-verified beyond the single page fetch.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "MI:SB 763 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "Companion bill to SB 762; the fetched summary listed identical co-sponsor-addition dates to SB 762, which is plausible for paired companion bills whose sponsors sign onto both together, but is flagged here since it could not be independently cross-verified beyond the single page fetch.",
+      "source": "MI.json"
+    },
+    {
+      "bill_key": "WV:HB 2014 (2025)",
+      "column": "status",
+      "before": "Enacted; passed 2025-04-12; effective 2025-07-11",
+      "after": "Passed House and Senate 2025-04-12 (with concurrence); approved by Governor 2025-04-30; Chapter 112, Acts, Regular Session 2025; effective 2025-07-11",
+      "reason": "Prior record's disposition already correct; last action date refined to governor approval (2025-04-30) rather than legislative passage (2025-04-12).",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 2014 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "Prior record's disposition already correct; last action date refined to governor approval (2025-04-30) rather than legislative passage (2025-04-12).",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 2014 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-04-30",
+      "reason": "Prior record's disposition already correct; last action date refined to governor approval (2025-04-30) rather than legislative passage (2025-04-12).",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 2014 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "Prior record's disposition already correct; last action date refined to governor approval (2025-04-30) rather than legislative passage (2025-04-12).",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 3137 (2025)",
+      "column": "status",
+      "before": "Failed/pending in House Energy and Public Works and Finance at session end",
+      "after": "Introduced and referred to House Energy and Public Works (then Energy and Manufacturing) 2025-03-04; no further action; died at 2025 regular session sine die adjournment",
+      "reason": "No WV Legislature page directly labels a bill 'died'; disposition inferred from the bill's own complete (and terminal) action history combined with confirmed session-end dates, consistent with WV's no-carryover rule.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 3137 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "No WV Legislature page directly labels a bill 'died'; disposition inferred from the bill's own complete (and terminal) action history combined with confirmed session-end dates, consistent with WV's no-carryover rule.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 3137 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-03-04",
+      "reason": "No WV Legislature page directly labels a bill 'died'; disposition inferred from the bill's own complete (and terminal) action history combined with confirmed session-end dates, consistent with WV's no-carryover rule.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 3137 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "No WV Legislature page directly labels a bill 'died'; disposition inferred from the bill's own complete (and terminal) action history combined with confirmed session-end dates, consistent with WV's no-carryover rule.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4822 (2026)",
+      "column": "status",
+      "before": "Pending in House Energy and Public Works as of captured 2026 all-bills status",
+      "after": "Introduced and referred to House Energy and Public Works 2026-01-26; no further action; died at 2026-03-14 sine die adjournment",
+      "reason": "Packet's prior 'Pending' status was accurate for the capture date; now finalized as died at sine die since no vote or further committee action occurred before adjournment.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4822 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Packet's prior 'Pending' status was accurate for the capture date; now finalized as died at sine die since no vote or further committee action occurred before adjournment.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4822 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-01-26",
+      "reason": "Packet's prior 'Pending' status was accurate for the capture date; now finalized as died at sine die since no vote or further committee action occurred before adjournment.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4822 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "Packet's prior 'Pending' status was accurate for the capture date; now finalized as died at sine die since no vote or further committee action occurred before adjournment.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4832 (2026)",
+      "column": "status",
+      "before": "Pending in House Energy and Public Works as of captured 2026 all-bills status; WV 2026 regular session adjourned 2026-03-08, so the bill died in committee unless reintroduced [VERIFY: precise final-disposition entry on the WV Legislature bill status page not retrieved in fresh capture as of 2026-04-29]",
+      "after": "Introduced and referred to House Energy and Public Works 2026-01-26; no further action; died at 2026-03-14 sine die adjournment",
+      "reason": "Resolves the prior [VERIFY] flag: the WV Legislature's own bill-status page was retrieved directly and shows no action past committee referral. Session adjourned 2026-03-14 (not 03-08 as the prior capture guessed).",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4832 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Resolves the prior [VERIFY] flag: the WV Legislature's own bill-status page was retrieved directly and shows no action past committee referral. Session adjourned 2026-03-14 (not 03-08 as the prior capture guessed).",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4832 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-01-26",
+      "reason": "Resolves the prior [VERIFY] flag: the WV Legislature's own bill-status page was retrieved directly and shows no action past committee referral. Session adjourned 2026-03-14 (not 03-08 as the prior capture guessed).",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4832 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "Resolves the prior [VERIFY] flag: the WV Legislature's own bill-status page was retrieved directly and shows no action past committee referral. Session adjourned 2026-03-14 (not 03-08 as the prior capture guessed).",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4854 (2026)",
+      "column": "status",
+      "before": "Pending in House Government Organization as of captured 2026 all-bills status",
+      "after": "Introduced and referred to House Government Organization 2026-01-28; no further action; died at 2026-03-14 sine die adjournment",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4854 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4854 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-01-28",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4854 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4948 (2026)",
+      "column": "status",
+      "before": "Pending in House Energy and Public Works as of captured 2026 all-bills status",
+      "after": "Introduced and referred to House Energy and Public Works 2026-01-29; no further action; died at 2026-03-14 sine die adjournment",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4948 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4948 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-01-29",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4948 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4983 (2026)",
+      "column": "status",
+      "before": "Enacted; effective from passage, 2026-03-13",
+      "after": "Passed House 2026-02-17; passed Senate with amendment 2026-03-11; House concurred 2026-03-13 (effective from passage); approved by Governor 2026-03-27; Chapter 221, Acts, Regular Session 2026",
+      "reason": "Packet's prior status ('effective from passage, 2026-03-13') is correct; last_action_date_iso updated to the governor's approval date (2026-03-27), the most recent recorded action on the bill page.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4983 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "Packet's prior status ('effective from passage, 2026-03-13') is correct; last_action_date_iso updated to the governor's approval date (2026-03-27), the most recent recorded action on the bill page.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4983 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-27",
+      "reason": "Packet's prior status ('effective from passage, 2026-03-13') is correct; last_action_date_iso updated to the governor's approval date (2026-03-27), the most recent recorded action on the bill page.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 4983 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "Packet's prior status ('effective from passage, 2026-03-13') is correct; last_action_date_iso updated to the governor's approval date (2026-03-27), the most recent recorded action on the bill page.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 5032 (2026)",
+      "column": "status",
+      "before": "Pending in House Judiciary as of captured 2026 all-bills status",
+      "after": "Introduced and referred to House Judiciary 2026-02-02; no further action; died at 2026-03-14 sine die adjournment",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 5032 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 5032 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-02-02",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 5032 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 5590 (2026)",
+      "column": "status",
+      "before": "Pending in House Energy and Public Works as of captured 2026 all-bills status",
+      "after": "Introduced and referred to House Energy and Public Works 2026-02-16; no further action; died at 2026-03-14 sine die adjournment",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 5590 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 5590 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-02-16",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 5590 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 5620 (2026)",
+      "column": "status",
+      "before": "Pending in House Judiciary as of captured 2026 all-bills status",
+      "after": "Introduced and referred to House Judiciary 2026-02-16; no further action; died at 2026-03-14 sine die adjournment",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 5620 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 5620 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-02-16",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:HB 5620 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 583 (2025)",
+      "column": "status",
+      "before": "Failed/pending in Senate Economic Development and Finance at session end",
+      "after": "Introduced and referred to Senate Economic Development (then Finance) 2025-02-24; no further action; died at 2025 regular session sine die adjournment",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 583 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 583 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-02-24",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 583 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 623 (2026)",
+      "column": "status",
+      "before": "Pending in Senate Economic Development as of captured 2026 all-bills status",
+      "after": "Introduced and referred to Senate Economic Development 2026-01-27; no further action; died at 2026-03-14 sine die adjournment",
+      "reason": "This bill is functionally a 2026 reintroduction of the same incentive concept as SB583/SB857 (2025), consistent with the session_note's no-carryover finding.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 623 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "This bill is functionally a 2026 reintroduction of the same incentive concept as SB583/SB857 (2025), consistent with the session_note's no-carryover finding.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 623 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-01-27",
+      "reason": "This bill is functionally a 2026 reintroduction of the same incentive concept as SB583/SB857 (2025), consistent with the session_note's no-carryover finding.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 623 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "This bill is functionally a 2026 reintroduction of the same incentive concept as SB583/SB857 (2025), consistent with the session_note's no-carryover finding.",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 652 (2026)",
+      "column": "status",
+      "before": "Pending in Senate Economic Development as of captured 2026 all-bills status",
+      "after": "Introduced and referred to Senate Economic Development (then Finance) 2026-01-28; no further action; died at 2026-03-14 sine die adjournment",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 652 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 652 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-01-28",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 652 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 658 (2026)",
+      "column": "status",
+      "before": "Pending in Senate Economic Development as of captured 2026 all-bills status",
+      "after": "Introduced and referred to Senate Economic Development 2026-01-29; no further action; died at 2026-03-14 sine die adjournment",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 658 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 658 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-01-29",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 658 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 695 (2026)",
+      "column": "status",
+      "before": "Pending in Senate Judiciary as of captured 2026 all-bills status",
+      "after": "Introduced and referred to Senate Judiciary 2026-01-30; no further action; died at 2026-03-14 sine die adjournment",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 695 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 695 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-01-30",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 695 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 803 (2025)",
+      "column": "status",
+      "before": "Failed/pending in Senate Economic Development at session end",
+      "after": "Introduced and referred to Senate Economic Development 2025-03-19; no further action; died at 2025 regular session sine die adjournment",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 803 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 803 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-03-19",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 803 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 857 (2025)",
+      "column": "status",
+      "before": "Failed/pending in Senate Economic Development and Finance at session end",
+      "after": "Introduced and referred to Senate Economic Development (then Finance) 2025-03-20; no further action; died at 2025 regular session sine die adjournment",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 857 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 857 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-03-20",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 857 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 907 (2025)",
+      "column": "status",
+      "before": "Enacted; passed 2025-04-12; effective 2025-07-11",
+      "after": "Passed Senate 2025-03-29; passed House with amendments 2025-04-10; Senate concurred 2025-04-12; approved by Governor 2025-04-25; Chapter 82, Acts, Regular Session 2025; effective 2025-07-11 (90 days from passage)",
+      "reason": "Prior record's disposition already correct; last_action_date_iso updated to governor approval date (2025-04-25).",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 907 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "Prior record's disposition already correct; last_action_date_iso updated to governor approval date (2025-04-25).",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 907 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-04-25",
+      "reason": "Prior record's disposition already correct; last_action_date_iso updated to governor approval date (2025-04-25).",
+      "source": "WV.json"
+    },
+    {
+      "bill_key": "WV:SB 907 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "Prior record's disposition already correct; last_action_date_iso updated to governor approval date (2025-04-25).",
+      "source": "WV.json"
+    }
+  ]
+}

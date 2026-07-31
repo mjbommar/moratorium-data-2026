@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Alabama as of April 2026.
 
-**1 instrument** — 1 in force, 0 pending, 0 past. Activity level: **Medium**.
+**10 instruments** — 8 in force, 2 pending, 0 past. Activity level: **Medium**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

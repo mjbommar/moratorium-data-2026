@@ -1,0 +1,178 @@
+{
+  "state_abbrev": "CO",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "co-logan-county-2025",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "current_status": {
+          "from": "Replaced by permanent zoning regulations (Resolution 2026-5) effective 2026-02-17 per Logan County Planning page; the data-center component of Resolution 2025-25 was superseded; status of any remaining battery, solar, and wind components of the original moratorium not separately confirmed [VERIFY: scope and lift mechanism for non-data-center components of Resolution 2025-25 not in captured records].",
+          "to": "Replaced. All four facility types covered by Resolution 2025-25 were superseded by their own permanent regulation resolutions, each with an explicit rescission clause tied back to Resolution 2025-25: Resolution 2026-4 (Battery Energy Storage Systems, effective 2026-02-17), Resolution 2026-5 (Data Center Facilities, effective 2026-02-17), Resolution 2026-6 (Solar Energy / Community Solar Garden, effective 2026-02-17), and Resolution 2026-11 (Wind Energy Facilities, adopted 2026-04-07, shortly before the moratorium's own ~2026-04-19 lapse date). None of the four components lapsed unaddressed.",
+          "reason": "Logan County's own recorded resolutions (2026-4, 2026-5, 2026-6, 2026-11), fetched directly from logancountyco.gov, each contain rescission language naming the specific facility type from Resolution 2025-25, resolving the prior uncertainty about the non-data-center components."
+        },
+        "affected_projects": {
+          "from": "County discussion referenced a possible data center request near the 2 GW scale in northeastern Colorado [VERIFY: 2 GW figure is from county meeting discussion as captured in secondary reporting; no formal application record identified].",
+          "to": "County Commissioners' October 14, 2025 work-session minutes record a briefing by developer Blake Marcus (Granite Renewables) and consultant Ben Gager (SWCA Environmental Consultants) describing a proposed project east and west of County Road 9 (approximately 21 miles northwest of Sterling) at close to 2 GW nameplate capacity, including 1 GW of on-site natural gas generation, 630 MW of solar as ancillary power, and 1,800 MWh of battery storage. Commissioner Yahn noted the moratorium had already been planned before this specific proposal surfaced. As of a January 2026 hearing, commissioners stated no formal permit application had yet been received.",
+          "reason": "Logan County Commissioners' Work Session minutes for 2025-10-14 (logancountyco.gov) contain a verbatim quote establishing the 2 GW figure and project description in a primary meeting record, not secondary reporting alone."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: scope and lift mechanism for non-data-center components of Resolution 2025-25 not in captured records]",
+          "resolution": "confirmed",
+          "note": "Located and read all four permanent replacement resolutions (2026-4, 2026-5, 2026-6, 2026-11) on logancountyco.gov; each rescinds the corresponding facility-type moratorium from Resolution 2025-25 by name."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: 2 GW figure is from county meeting discussion as captured in secondary reporting; no formal application record identified]",
+          "resolution": "confirmed",
+          "note": "The 2 GW figure traces to a primary source: the October 14, 2025 Logan County Commissioners work-session minutes, one week before Resolution 2025-25's adoption, which quote the developer directly. No formal permit application existed as of the January 2026 hearing, per the same minutes/local reporting -- this was pre-application discussion, consistent with the existing record's caution."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://logancountyco.gov/DocumentCenter/View/1043",
+          "title": "Resolution 2026-4 (Battery Energy Storage Systems)",
+          "publisher": "Logan County, Colorado",
+          "document_date": "2026-02-17",
+          "source_type": "resolution",
+          "supports": "Rescinds the Battery Energy Storage System component of the Resolution 2025-25 moratorium and adopts permanent BESS regulations",
+          "quote": "The temporary moratorium established by Resolution 2025-25 on the issuance of permits related to the operation of Battery Energy Storage System facilities is hereby rescinded."
+        },
+        {
+          "url": "https://logancountyco.gov/DocumentCenter/View/1044",
+          "title": "Resolution 2026-5 (Data Center Facilities)",
+          "publisher": "Logan County, Colorado",
+          "document_date": "2026-02-17",
+          "source_type": "resolution",
+          "supports": "Rescinds the Data Center Facility component of the Resolution 2025-25 moratorium and adopts permanent Data Center Facility regulations",
+          "quote": "...permits related to the operation of Data Center facilities is hereby rescinded."
+        },
+        {
+          "url": "https://logancountyco.gov/DocumentCenter/View/1045",
+          "title": "Resolution 2026-6 (Solar Energy / Community Solar Garden regulations)",
+          "publisher": "Logan County, Colorado",
+          "document_date": "2026-02-17",
+          "source_type": "resolution",
+          "supports": "Rescinds the Solar Energy component of the Resolution 2025-25 moratorium",
+          "quote": "...permits related to the operation of Solar Energy (Community Solar Garden) facilities is hereby rescinded."
+        },
+        {
+          "url": "https://logancountyco.gov/DocumentCenter/View/1083",
+          "title": "Resolution 2026-11 (Wind Energy Facilities regulations)",
+          "publisher": "Logan County, Colorado",
+          "document_date": "2026-04-07",
+          "source_type": "resolution",
+          "supports": "Rescinds the Wind Energy component of the Resolution 2025-25 moratorium, adopted shortly before the moratorium's own term would have lapsed",
+          "quote": "...permits related to the operation of Wind Energy Facilities is hereby rescinded."
+        },
+        {
+          "url": "https://logancountyco.gov/AgendaCenter/ViewFile/Minutes/_10142025-82",
+          "title": "Board of County Commissioners Work Session Minutes, October 14, 2025",
+          "publisher": "Logan County, Colorado",
+          "document_date": "2025-10-14",
+          "source_type": "minutes",
+          "supports": "Primary-source origin of the 2 GW project-scale figure that prompted Resolution 2025-25",
+          "quote": "It will be close to two gigawatts of nameplate. It will include a significant request of power from the grid, and it will include one gigawatt of natural gas generation on site and 630 megawatts of solar as ancillary power. Then there will be 1,800 megawatt hours of battery energy storage."
+        }
+      ],
+      "notes": "The Planning Commission hearing on amended wind regulations was not held until March 17, 2026, per Resolution 2026-11's own recitals, which is why the wind component was the last to be replaced (April 7, 2026, 12 days before the moratorium's own ~180-day lapse date). Sequencing corroborated by Journal-Advocate (Sterling, CO) coverage of the Feb 18, 2026 and Apr 7, 2026 commissioner actions."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Colorado",
+      "jurisdiction": "Denver",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-05-18, City Council approval",
+      "date_enacted_iso": "2026-05-18",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Not confirmed this pass (news-sourced only)",
+      "trigger_categories": ["regulatory_gap", "grid_energy"],
+      "sectors": ["data_center"],
+      "current_status": "Reported active per news; not independently confirmed via a primary city ordinance/resolution text",
+      "enacted_status": "active",
+      "affected_projects": "New data center construction citywide",
+      "outcome": "City Council approved a one-year moratorium on new data center construction",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.denverpost.com/2026/05/19/denver-council-moratorium-data-center/",
+          "title": "Denver council moratorium on data centers",
+          "publisher": "Denver Post",
+          "document_date": "2026-05-19",
+          "source_type": "news",
+          "supports": "Reports City Council approval of a one-year moratorium on new data center construction, adopted Monday, May 18, 2026"
+        }
+      ],
+      "notes": "News-only sourcing this pass; a primary ordinance/council-bill number was not located. Recommend a follow-up pass against denvergov.org's legislative records."
+    },
+    {
+      "state": "Colorado",
+      "jurisdiction": "Jefferson County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-05-19, Commissioners adoption",
+      "date_enacted_iso": "2026-05-19",
+      "date_enacted_uncertainty": "exact",
+      "duration": "10 months",
+      "duration_days": 305,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Not confirmed this pass (news-sourced only)",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Reported active per news; not independently confirmed via a primary county resolution text",
+      "enacted_status": "active",
+      "affected_projects": "New rezoning/development applications for data centers",
+      "outcome": "Commissioners imposed a 10-month freeze on new rezoning/development applications for data centers",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.denverpost.com/2026/05/19/denver-council-moratorium-data-center/",
+          "title": "Denver council moratorium on data centers (also reports Jefferson County action)",
+          "publisher": "Denver Post",
+          "document_date": "2026-05-19",
+          "source_type": "news",
+          "supports": "Reports Jefferson County Commissioners freezing new rezoning/development applications for data centers for 10 months, adopted Tuesday, May 19, 2026"
+        }
+      ],
+      "notes": "News-only sourcing this pass; a primary county resolution number was not located."
+    },
+    {
+      "state": "Colorado",
+      "jurisdiction": "Boulder County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-06-02, Commissioners adoption",
+      "date_enacted_iso": "2026-06-02",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Not confirmed this pass (news-sourced only)",
+      "trigger_categories": ["land_use_compatibility", "regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Reported active per news; not independently confirmed via a primary county resolution text",
+      "enacted_status": "active",
+      "affected_projects": "New applications for data centers (and detention centers) in industrial areas",
+      "outcome": "Commissioners voted unanimously for a six-month moratorium on accepting applications for data centers and detention centers in industrial areas",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.timescall.com/2026/06/02/boulder-county-moratorium-data-detention-centers/",
+          "title": "Boulder County moratorium on data, detention centers",
+          "publisher": "Longmont Times-Call",
+          "document_date": "2026-06-02",
+          "source_type": "news",
+          "supports": "Reports unanimous Boulder County Commissioners vote for a six-month moratorium on accepting applications for data centers and detention centers in industrial areas"
+        }
+      ],
+      "notes": "News-only sourcing this pass; a primary county resolution number was not located. Also flagged but not added as a candidate: Longmont's June 9, 2026 council vote (6-1) permanently banning hyperscale data centers (>=100 MW or 5% of Platte River Power Authority capacity) -- that is a permanent ordinance rather than a moratorium, so it falls outside this dataset's scope. Larimer County (existing moratorium since Jan 2026, predating the 2026-04-28 cutoff) reportedly considered a six-month extension at a July 13, 2026 hearing per a June 29, 2026 Longmont Times-Call report, but no follow-up confirming the vote passed was located -- flagged for a future pass rather than added here."
+    }
+  ]
+}

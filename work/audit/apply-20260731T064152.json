@@ -1,0 +1,67 @@
+{
+  "applied_at": "20260731T064152",
+  "answer_files": [
+    "work/answers/verify/AR.json",
+    "work/answers/verify/IA.json",
+    "work/answers/verify/ID.json",
+    "work/answers/verify/IL.json",
+    "work/answers/verify/KS.json",
+    "work/answers/verify/LA.json",
+    "work/answers/verify/MA.json",
+    "work/answers/verify/ME.json",
+    "work/answers/verify/ND.json",
+    "work/answers/verify/NE.json",
+    "work/answers/verify/OH-part1.json",
+    "work/answers/verify/OH-part2.json",
+    "work/answers/verify/OK.json"
+  ],
+  "stats": {
+    "outcome:confirmed_unchanged": 13,
+    "already_applied": 60,
+    "verify_still_open": 8,
+    "outcome:corrected": 19,
+    "verify_already_resolved": 46,
+    "skipped_drift": 2,
+    "fields_changed": 3,
+    "ignored_packet_only_field": 9,
+    "outcome:status_changed": 4,
+    "candidate_duplicate": 3,
+    "verify_confirmed": 2,
+    "verify_resolved_via_field_rewrite": 2
+  },
+  "conflicts": [
+    "IA.json: ia-franklin-county-2026.duration `from` mismatch (csv='Temporary; end date not captured' answer='')",
+    "IA.json: ia-jackson-county-2024.date_enacted `from` mismatch (csv='Three documented adoptions in the captured record: (1) 2024-' answer='Three documented adoptions in the captured record: (1) 2024-')"
+  ],
+  "skipped": [
+    "IA.json: candidate IA 'Sioux County' (resolution-2026-32) treated as duplicate of ia-sioux-county-2026 (resolution-2026-32)",
+    "IA.json: candidate IA 'Madison County' (no instrument number) treated as duplicate of ia-madison-county-2026 (no instrument number)",
+    "IA.json: candidate IA 'Ida County' (no instrument number) treated as duplicate of ia-ida-county-2026 (no instrument number)"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "ia-franklin-county-2026",
+      "column": "duration_days",
+      "before": "",
+      "after": "548",
+      "reason": "18 months from the 2026-03-31 adoption date computes to 2027-09-30 (548 days).",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "il-champaign-county-2026",
+      "column": "legal_basis",
+      "before": "Ordinance No. 2026-9 / Zoning Case 196-AT-26 [VERIFY: signed ordinance not yet posted to Champaign County Board ordinance index as of 2026-04-29 \u2014 ordinance number is from the agenda packet; final signed text awaits indexing]",
+      "after": "Zoning Case 196-AT-26, a Champaign County Zoning Ordinance text amendment (new Section 5.6, amending Section 5.2) imposing a 12-month development moratorium on data centers of at least 10,000 sq ft of processing area, recommended for enactment by the Zoning Board of Appeals 4-0 on 2026-03-19, and adopted by the County Board on 2026-04-23 as Ordinance No. 2026-9.",
+      "reason": "Champaign County's own Planning & Zoning Department preliminary memorandum (2026-03-05) and the County Board's Environment and Land Use Committee agenda packet (2026-04-09 meeting, referencing a 2026-03-30 zoning-administrator recommendation memo) both confirm Case 196-AT-26's mechanism, the ZBA's 4-0 recommendation, and the Data Center Activities Task Force's first meeting (2026-03-23). The specific 'Ordinance No. 2026-9' designation is corroborated by news coverage (citizenportal.ai) of the April 23 County Board vote but was not independently re-verified against a signed, indexed ordinance document (the county clerk's ordinance/resolution index returned HTTP 403 to automated fetches).",
+      "source": "IL.json"
+    },
+    {
+      "moratorium_id": "il-morgan-county-2026",
+      "column": "legal_basis",
+      "before": "County resolution drafted by Morgan County State's Attorney Gray Noll, who recommended shortening from 12 to 6 months for legal defensibility (per *Jacksonville Journal-Courier*, 2026-04-28) [VERIFY resolution number and final text \u2014 Morgan County publishes minutes on a delay; the most recent 2026 minutes posted on morgancounty-il.com as of 2026-04-29 are from the April 20 meeting, predating the April 27 vote]",
+      "after": "County Board resolution imposing a hard 6-month data center moratorium, moved by Chairman Wankel after the matter was discussed with State's Attorney Gray Noll prior to the meeting, adopted by unanimous roll-call vote (Commissioners Wood and Woods, Chairman Wankel) on April 27, 2026.",
+      "reason": "Morgan County's own April 27, 2026 board meeting minutes, now posted at morgancounty-il.com, confirm the unanimous vote and the prior consultation with Noll, though the minutes do not themselves state a formal resolution number.",
+      "source": "IL.json"
+    }
+  ]
+}

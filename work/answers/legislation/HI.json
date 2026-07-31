@@ -1,0 +1,163 @@
+{
+  "state_abbrev": "HI",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "Hawaii runs two-year bienniums (2023-2024, 2025-2026); a bill introduced in the first year that has not passed by the end of that year's session is automatically carried over into the second year of the SAME biennium (marked with a 'Carried over to [year] Regular Session' housekeeping entry on the bill-status page), but any bill that has not passed both chambers by the end of the second year dies with the biennium and does not carry into the next biennium (confirmed directly on capitol.hawaii.gov's own measure-status pages for SB284 and SB338 below). Resolutions (HR/SR/HCR/SCR) are generally introduced fresh each year and do not carry the same multi-year life as bills. The 2026 regular session convened the third Wednesday in January (2026-01-21) per the state constitution's 60-working-day limit; I could not independently fetch a dedicated 'session calendar/deadlines' page confirming an official sine die date (capitol.hawaii.gov returned 403/404 for the calendar URLs tried and the web-search tool's quota was exhausted for this session), but the bill-status pages themselves show floor action concluding by 2026-04-27 (HCR206 final adoption) with only post-adjournment ministerial entries after that (e.g. SR90 'Certified copies of resolutions sent' on 2026-05-12), consistent with Hawaii's typical late-April/early-May sine die pattern in recent years.",
+  "decisions": [
+    {
+      "bill_key": "HI:HB1784 (2024)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed House 2024-03-01 (Third Reading); passed Senate Second Reading as amended (SD1) and referred to WAM 2024-03-20; no further action recorded - died at the end of the 2023-2024 biennium without passing the Senate",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2024-03-20",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://www.capitol.hawaii.gov/session/archives/measure_indiv_Archives.aspx?billtype=HB&billnumber=1784&year=2024",
+          "title": "HB1784 (2024) - Hawaii State Legislature Bill Status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms current referral of LBT, WAM and a status history ending 2024-03-20 with the measure referred to WAM after passing Second Reading, with no action recorded afterward.",
+          "quote": "3/20/2024 S Report adopted; Passed Second Reading, as amended (SD 1) and referred to WAM."
+        }
+      ],
+      "notes": "Packet's characterization (passed House, stalled in Senate WAM after 2024-03-20 referral) matches the official status history exactly. The 2023-2024 biennium ended after the 2024 session with no further Senate action, so this bill is dead and cannot carry into 2025-2026."
+    },
+    {
+      "bill_key": "HI:SB2527 (2024)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed Senate 2024-03-05 (received in House); passed House Second Reading as amended (HD1) and referred to FIN 2024-03-20; no further action recorded - died at the end of the 2023-2024 biennium without passing the House",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2024-03-20",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://www.capitol.hawaii.gov/session/archives/measure_indiv_Archives.aspx?billtype=SB&billnumber=2527&year=2024",
+          "title": "SB2527 (2024) - Hawaii State Legislature Bill Status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms current referral of HET, FIN and a status history ending 2024-03-20 with the measure referred to FIN after passing Second Reading in the House, with no action recorded afterward. Page also lists HB1784 as the companion.",
+          "quote": "3/20/2024 H Passed Second Reading as amended in HD 1 and referred to the committee(s) on FIN"
+        }
+      ],
+      "notes": "Packet's characterization (passed Senate, stalled in House FIN after 2024-03-20 referral) matches the official status history exactly. Dead at the end of the 2023-2024 biennium, same as its companion HB1784."
+    },
+    {
+      "bill_key": "HI:SB284 (2023-2024)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed Senate 2023 (SD2); passed House Second Reading as amended (HD1) and referred to FIN 2023-03-24; carried over to 2024 Regular Session (housekeeping entry 2023-12-11); no further action recorded during 2024 - died at the end of the 2023-2024 biennium without passing the House",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2023-12-11",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "url": "https://www.capitol.hawaii.gov/session/archives/measure_indiv_Archives.aspx?billtype=SB&billnumber=284&year=2024",
+          "title": "SB284 (2023-2024) - Hawaii State Legislature Bill Status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms current referral of LGO/HET, FIN, a 2023 status history showing House committee passage and Second Reading referral to FIN, a 'Carried over to 2024 Regular Session' entry dated 2023-12-11, and no entries after that date (i.e. no FIN action ever occurred in 2024).",
+          "quote": "12/11/2023 D Carried over to 2024 Regular Session."
+        }
+      ],
+      "notes": "Packet's characterization (passed Senate in 2023, stalled in House FIN track) matches; confirmed here with the precise House committee path (LGO/HET then FIN referral on 2023-03-24) and confirmed that FIN never acted in 2024, so the 2023-2024 biennium ended with the bill dead in House FIN."
+    },
+    {
+      "bill_key": "HI:SB338 (2025-2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Passed Senate 2025; passed House Second Reading as amended (HD1) and referred to FIN 2025-03-21; carried over to 2026 Regular Session (housekeeping entry 2025-12-08); no further action recorded during the 2026 session - died in House FIN at the end of the 2025-2026 biennium without passing the House",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-12-08",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=338&year=2026",
+          "title": "SB338 (2025-2026) - Hawaii State Legislature Bill Status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms current referral of ECD, FIN, the 2025-03-21 Second Reading/FIN referral, the 'Carried over to 2026 Regular Session' entry dated 2025-12-08, and no entries after that date - meaning FIN took no action during the entire 2026 session, which per bill-page evidence elsewhere concluded by late April 2026.",
+          "quote": "12/8/2025 D Carried over to 2026 Regular Session."
+        }
+      ],
+      "notes": "Packet described this as a live carryover with House FIN 'pending' as of its last capture. As of 2026-07-31, the 2026 regular session has concluded (see session_note) with no further recorded action on this bill after the 2025-12-08 carryover note, so its status has progressed from 'pending/carried_over' to 'failed_died' - the 2025-2026 biennium is over and the bill did not pass the House."
+    },
+    {
+      "bill_key": "HI:HR196 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Adopted by the House in final form 2026-04-09 (House-only resolution; no Senate action required)",
+        "bill_status_category": "passed_one_chamber",
+        "last_action_date_iso": "2026-04-09",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HR&billnumber=196&year=2026",
+          "title": "HR196 (2026) - Hawaii State Legislature Bill Status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms HR196 was reported from FIN, adopted by the House, and 'Resolution adopted in final form' on 2026-04-09. As a simple House resolution (HR), no Senate concurrence is required, so this is the final disposition.",
+          "quote": "4/9/2026 H Resolution adopted in final form."
+        }
+      ],
+      "notes": "Packet's date and disposition (adopted by House 2026-04-09) confirmed exactly. Category set to passed_one_chamber per schema guidance since only the House needed to act (and did) for this simple resolution."
+    },
+    {
+      "bill_key": "HI:HCR206 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "House adopted 2026-04-09; transmitted to Senate; Senate adopted as amended (SD1) 2026-04-27; returned to and adopted in final form by the House same day - fully adopted by both chambers",
+        "bill_status_category": "passed_both_chambers",
+        "last_action_date_iso": "2026-04-27",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HCR&billnumber=206&year=2026",
+          "title": "HCR206 (2026) - Hawaii State Legislature Bill Status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms House adoption 2026-04-09, Senate committee (EIG/AEN) adoption recommendation 2026-04-24, full Senate adoption and transmittal back to House 2026-04-27, and 'Resolution adopted in final form' entry the same day.",
+          "quote": "4/27/2026 H Resolution adopted in final form."
+        }
+      ],
+      "notes": "Packet's characterization (adopted in final form 2026-04-27 after Senate adoption and return to House) confirmed exactly by the official status history. As a concurrent resolution requiring both chambers, and having been adopted by both, this is coded passed_both_chambers per schema guidance (concurrent resolutions are not signed by the Governor, so 'enacted' does not apply)."
+    },
+    {
+      "bill_key": "HI:SCR95 / SR90 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "SR90 (Senate-only resolution): adopted by the Senate as amended (SD1) 2026-04-09, certified copies sent 2026-05-12 - final action, fully adopted. SCR95 (companion Senate Concurrent Resolution): passed Senate as amended (SD1) 2026-04-09, transmitted to and received by the House the same day, referred to House EEP/FIN 2026-04-10; no further House action recorded - died in House committee, never adopted by the second chamber",
+        "bill_status_category": "passed_one_chamber",
+        "last_action_date_iso": "2026-05-12",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.87,
+      "evidence": [
+        {
+          "url": "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SR&billnumber=90&year=2026",
+          "title": "SR90 (2026) - Hawaii State Legislature Bill Status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms SR90 (a Senate-only resolution requiring no House action) was adopted by the Senate as amended (SD1) on 2026-04-09, with a final housekeeping entry ('Certified copies of resolutions sent') on 2026-05-12 and no other action needed.",
+          "quote": "4/9/2026 S Report and Resolution Adopted, as amended (SD 1)."
+        },
+        {
+          "url": "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SCR&billnumber=95&year=2026",
+          "title": "SCR95 (2026) - Hawaii State Legislature Bill Status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms SCR95 passed the Senate as amended (SD1) on 2026-04-09, was received by the House the same day, and was referred to House EEP, FIN on 2026-04-10 (current referral remains EEP, FIN), with no adoption or further action by the House recorded afterward.",
+          "quote": "4/10/2026 H Referred to EEP, FIN, referral sheet 28"
+        }
+      ],
+      "notes": "This packet entry bundles two companion Senate measures with different final dispositions, so a single bill_status_category cannot capture both exactly; passed_one_chamber is used to reflect that at least one of the two (SR90) reached final adoption, while SCR95's fate (died in House committee, concurrent resolution never adopted by the House) is spelled out in the status text. This clarifies and goes beyond the packet's snapshot ('SCR95 referred to House EEP/FIN on 2026-04-10; SR90 SD1 text available'), which did not state whether either measure was ultimately adopted - hence outcome status_changed. Since the 2026 session has concluded (see session_note) with no further House action on SCR95, and resolutions do not carry over the way bills do, SCR95 is dead for this biennium."
+    }
+  ],
+  "new_bills": []
+}

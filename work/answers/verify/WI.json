@@ -1,0 +1,56 @@
+{
+  "state_abbrev": "WI",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "wi-manitowoc-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "duration": {
+          "from": "18 months per WBAY contemporaneous reporting after the 2026-04-28 board vote; county agenda packet draft text listed 12 months from publication [VERIFY: the final signed ordinance reconciling the 12 vs. 18 month discrepancy not retrieved as of 2026-04-29; published Manitowoc County ordinance text needed].",
+          "to": "18 months from the date the ordinance is published (its effective date), or until the County Board adopts and the County Executive approves amendments, or rescinds the moratorium, whichever occurs first",
+          "reason": "The final signed ordinance (No. 2026/2028-10), obtained directly from the Town of Two Rivers' own document archive, resolves the discrepancy in the operative text itself: 18 months, not 12."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "The final signed ordinance is dated and signed April 28, 2026, matching the previously-recorded date."
+        },
+        "current_status": {
+          "from": "Approved by county board on 2026-04-28; active upon publication [VERIFY: official Manitowoc County publication date not in captured records as of 2026-04-29; future-event status (vote was the day before the compile date)].",
+          "to": "Active. The final ordinance (No. 2026/2028-10) states it 'shall be effective upon publication' and is dated/signed April 28, 2026 by the County Board Chair and County Executive; the 18-month term (running to approximately late October 2027) had not lapsed as of the 2026-07-31 research date and no repeal was found.",
+          "reason": "Directly confirmed from the signed ordinance text and signature block, obtained from the Town of Two Rivers' document archive (the town itself is one of the three petitioning towns and hosts a copy of the adopted ordinance)."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "duration",
+          "marker": "[VERIFY: the final signed ordinance reconciling the 12 vs. 18 month discrepancy not retrieved as of 2026-04-29; published Manitowoc County ordinance text needed]",
+          "resolution": "corrected",
+          "note": "Obtained and OCR'd the final signed ordinance (a scanned PDF hosted at townoftworivers.wi.gov). Its own operative text reads 'The moratorium shall be in effect for a period of 18 months from the date this ordinance is published (i.e. its effective date)...', confirming the WBAY reporting (18 months) over the earlier agenda-packet draft language (12 months)."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: official Manitowoc County publication date not in captured records as of 2026-04-29; future-event status (vote was the day before the compile date)]",
+          "resolution": "corrected",
+          "note": "The signed ordinance itself is dated April 28, 2026 and includes signature lines for the County Board Chair and County Executive (Tyler Martell), both dated on or immediately after April 28, 2026, and states the ordinance is effective upon publication. Given the 18-month term and no evidence of repeal through the 2026-07-31 research date, the moratorium remains active."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://townoftworivers.wi.gov/CMS/files/2026/Moratorium%20as%20adopted%20by%20the%20Manitowc%20County%20Board%204.28.2026.pdf",
+          "title": "Manitowoc County Ordinance No. 2026/2028-10, Amending Manitowoc County Code Ch. 8, Enacting a Moratorium on Data Centers (as adopted)",
+          "publisher": "Manitowoc County, Wisconsin (via Town of Two Rivers document archive)",
+          "document_date": "2026-04-28",
+          "source_type": "ordinance",
+          "supports": "Full signed ordinance text creating Manitowoc County Code Sec. 8.495: 18-month duration from publication, effective-upon-publication clause, and the April 28, 2026 County Board adoption date with Board Chair and County Executive signature lines.",
+          "quote": "The moratorium shall be in effect for a period of 18 months from the date this ordinance is published (i.e. its effective date) or until the County Board adopts and the County Executive approves amendments to this ordinance or rescinds this moratorium, or both. ... BE IT FURTHER ORDAINED that this ordinance shall be effective upon publication. Dated this 28th day of April 2026."
+        }
+      ],
+      "notes": "The Town of Two Rivers (one of the three towns whose petitions triggered this county moratorium) hosts a scanned copy of the final, signed ordinance in its own document archive, which resolved both open markers directly from the operative legal text -- no news synthesis was needed. The PDF was a scanned image with no text layer; OCR (tesseract) was required to read it."
+    }
+  ],
+  "new_candidates": []
+}

@@ -1,0 +1,60 @@
+{
+  "state_abbrev": "PA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "pa-montour-county-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "confidence": 0.9,
+      "changes": {
+        "legal_basis": {
+          "from": "Resolution R-11-19-2025",
+          "to": "Resolution R-11-19-2025 (the moratorium, now superseded); Ordinance No. 1-2026, the 'Data Center Land Use Ordinance,' enacted by the Montour County Board of Commissioners on April 14, 2026, amending the County Zoning Ordinance to define and regulate Data Centers and Data Center Accessory Uses.",
+          "reason": "Retrieved and reviewed the signed Ordinance No. 1-2026 PDF directly from the county's own website."
+        },
+        "current_status": {
+          "from": "Active as of 2026-04-29; nominal expiration approximately 2026-05-17 (180 days from 2025-11-18). Replacement Data Center Land Use Ordinance noticed for April 2026 public hearing per Montour County records [VERIFY: final April 2026 adoption status of the replacement ordinance not in captured records as of 2026-04-29; future-event verification needed].",
+          "to": "Superseded. The Montour County Board of Commissioners enacted Ordinance No. 1-2026 ('Data Center Land Use Ordinance') on April 14, 2026 -- before the moratorium's own nominal 2026-05-17 expiration -- amending the County Zoning Ordinance to permit Data Centers as a Conditional Use in the Industrial Zoning District, subject to detailed siting, setback/buffer-yard, noise, lighting, and 'Sensitive Receptor' protections and a Conditional Use review process. The moratorium (Resolution R-11-19-2025) is no longer the operative instrument; Ordinance 1-2026 governs data center siting in Montour County as of 2026-07-31.",
+          "reason": "Directly confirmed via the signed ordinance itself, retrieved from montourcounty.gov/getmedia/.../Ordinance-1-of-2026-Signed.pdf; its final page bears a handwritten enactment line reading 'this 14th day of April, 2026,' consistent with the PDF's own creation-date metadata (2026-04-14)."
+        },
+        "outcome": {
+          "from": "County denied Talen Energy's zoning map amendment on 2026-02-12 and moved toward a Data Center Land Use Ordinance that would allow data centers by conditional use in the Industrial Zoning District",
+          "to": "Following the 2026-02-12 denial of Talen Energy's zoning map amendment, the county completed and enacted the Data Center Land Use Ordinance (Ordinance 1-2026) on 2026-04-14, permitting data centers by conditional use in the Industrial Zoning District rather than prohibiting them outright.",
+          "reason": "Confirms the ordinance was actually finalized and adopted, not merely proposed."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: final April 2026 adoption status of the replacement ordinance not in captured records as of 2026-04-29; future-event verification needed]",
+          "resolution": "confirmed",
+          "note": "Retrieved and reviewed the signed Ordinance No. 1-2026 PDF directly from montourcounty.gov. Because the document is a scanned image with no text layer, the handwritten enactment date was read via high-resolution image crop rather than text extraction; it reads 'ENACTED AND ORDAINED by the Board of Commissioners of Montour County this 14th day of April, 2026,' which matches the PDF's own embedded creation-date metadata (2026-04-14). This confirms adoption occurred in April 2026 as anticipated, and before the moratorium's own nominal May 17, 2026 expiration."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.montourcounty.gov/getmedia/736f67da-5e43-49a3-84c4-ad3874978210/Ordinance-1-of-2026-Signed.pdf",
+          "title": "Montour County, Pennsylvania Ordinance No. 1-2026 (Signed) -- Data Center Land Use Ordinance",
+          "publisher": "Montour County, Pennsylvania",
+          "document_date": "2026-04-14",
+          "source_type": "ordinance",
+          "supports": "The signed, enacted ordinance amending the Montour County Zoning Ordinance to define Data Centers and Data Center Accessory Uses and to permit Data Centers by Conditional Use in the Industrial Zoning District; the final page's handwritten enactment date reads April 14, 2026.",
+          "quote": "AN ORDINANCE OF MONTOUR COUNTY, PENNSYLVANIA, TO AMEND ITS ZONING ORDINANCE TO DEFINE AND ADD SPECIFIC REQUIREMENTS FOR DATA CENTERS AND DATA CENTER ACCESSORY USES. ... Data Centers shall be permitted by CONDITIONAL USE in the Industrial Zoning District when approved in compliance with the procedures, standards, and criteria contained in this Ordinance. ... ENACTED AND ORDAINED by the Board of Commissioners of Montour County this 14th day of April, 2026."
+        },
+        {
+          "url": "https://www.montourcounty.gov/departments/zoning",
+          "title": "Zoning Department",
+          "publisher": "Montour County, Pennsylvania",
+          "document_date": "2026-07-31",
+          "source_type": "other",
+          "supports": "The county's own current zoning department page links directly to 'Ordinance-1-of-2026-Signed.pdf' (alongside a related 'Ordinance-2-2026-Executed.pdf'), confirming Ordinance 1-2026 as the finalized, currently posted instrument governing zoning matters including data centers.",
+          "quote": "href=\"/getmedia/736f67da-5e43-49a3-84c4-ad3874978210/Ordinance-1-of-2026-Signed.pdf\""
+        }
+      ],
+      "notes": "This is the best-sourced finding in this pass: the actual signed ordinance was retrieved directly from the county's own website and its enactment date was confirmed by direct visual review of the handwritten signature block (the scanned PDF has no OCR text layer). Ordinance No. 1-2026 does not ban data centers; it establishes a Conditional Use pathway in the Industrial Zoning District with detailed siting, buffer, noise, lighting, and 'Sensitive Receptor' (schools, health facilities, residences, etc.) standards, height allowances reportedly increased from 45 to 80 feet during drafting, and a Conditional Use review/decision process modeled on the county's existing zoning hearing procedures. The original moratorium (Resolution R-11-19-2025) is superseded and no longer the operative instrument for data center siting in Montour County."
+    }
+  ],
+  "new_candidates": []
+}

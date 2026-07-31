@@ -71,7 +71,7 @@ We manually reviewed every extraction record to:
 - Resolve `[VERIFY]` flags by re-checking primary sources via real-Chrome browser sessions
 - Add moratoria identified through news coverage but missed by automated extraction
 
-The final cleaned inventory has **222 entries across 30 states** (`data/moratorium_inventory.csv`).
+As of the v2026.07 refresh the cleaned inventory has **323 entries across 35 states** (`data/moratorium_inventory.csv`). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.
 
 ### Phase 4: Geocoding (added v2026.04.2)
 
@@ -80,7 +80,7 @@ Each row in the cleaned inventory was assigned WGS84 latitude and longitude coor
 1. **Primary geocoder: OSM Nominatim.** Free, open-source, with reasonable U.S. administrative boundary coverage. Rate-limited to 1 request/second per the public API usage policy.
 2. **Fallback: U.S. Census Geocoder.** Used when Nominatim returns no result. The Census Geocoder is authoritative for U.S. jurisdictions but works best for street addresses; for "Jurisdiction, State" queries we found Nominatim more reliable.
 
-Of 222 rows, 220 (99.1%) were successfully geocoded. The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
+Of 323 rows, 321 (99.4%) are successfully geocoded. The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
 
 After geocoding, a triple-check audit ran 89 verifications across three independent methods:
 
@@ -97,14 +97,14 @@ Across all 89 verifications, **zero confirmed wrong geocodes** (after the 4 manu
 
 Each correction used article-context disambiguation (`legal_basis`, `trigger`, and news-source mentions). Treat the lat/lon column as ≥99% accurate. The script is `scripts/geocode_inventory.py`; re-run after adding new rows to fill in their coordinates.
 
-## Why the inventory (n=222) is bigger than the extraction cohort (n=348)... wait, that's smaller
+## Why the inventory (n=323) and the extraction cohort (n=348) differ
 
 Right — the numbers can be confusing. Here's the difference:
 
-- **Inventory (n=222):** the cleaned, deduplicated count of unique moratorium **instruments** (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.
+- **Inventory (n=323):** the cleaned, deduplicated count of unique moratorium **instruments** (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.
 - **Structured-extraction cohort (n=348):** the count of confidence-filtered structured **extractions**. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.
 
-The two numbers measure different things and don't need to match. The 222 is the headline count of moratoria; the 348 is the size of the line-coded sample used for clause-prevalence percentages.
+The two numbers measure different things and do not need to match. The 323 is the headline count of moratoria; the 348 is the size of the line-coded sample used for clause-prevalence percentages.
 
 ## What we don't claim
 
@@ -112,14 +112,92 @@ The two numbers measure different things and don't need to match. The 222 is the
 - **We don't claim our percentages are statistical inferences.** They describe the corpus we have, not a probability sample of all moratoria. The corpus is biased toward jurisdictions that post things online.
 - **We don't claim to predict outcomes.** This is a descriptive dataset, not a causal one.
 
+## Phase 5: The refresh cycle (added v2026.07)
+
+Phases 1-4 build a dataset. Keeping it true is a different problem: a moratorium
+is a *time-bounded* instrument, so a correct record decays into a wrong one on a
+known date, with no external signal. The v2026.07 refresh introduced an explicit
+cycle for this, and it is the procedure future refreshes should follow.
+
+**1. Gate before touching anything.** `scripts/validate_dataset.py` is the
+executable form of the codebook — closed vocabularies, date/duration coherence,
+ID uniqueness, geocoding bounds, `[VERIFY]` accounting, and agreement between the
+CSVs and `summary_stats.json`. Run it first, so any error found later is
+attributable to the refresh rather than inherited.
+
+**2. Derive the worklist, don't guess it.** `scripts/build_worklist.py` computes
+which rows need attention as of a reference date, and why:
+
+| Bucket | Meaning |
+|---|---|
+| `expired_in_force` | recorded in force, but `date_enacted_iso + duration_days` has already passed |
+| `until_date_stale` | in force, ends on a calendar date not captured in typed columns |
+| `stale_pending` | proposed, and old enough that it has surely been decided |
+| `open_ended` | in force with no scheduled end — currency must be affirmatively confirmed |
+| `verify_backlog` | carries one or more `[VERIFY ...]` markers |
+| `unverified_date` | adoption date never confirmed against a primary source |
+
+Each item is emitted with the exact question to answer, so the researcher is not
+inferring the ask. In v2026.07 this produced 160 of 222 rows needing work.
+
+**3. Partition and fan out.** `scripts/make_packets.py` splits the worklist into
+per-state packets, matching how the sources are organized — one state's portals,
+minutes, and legislature. Research is then parallel and independent.
+
+**4. Research writes JSON, never CSV.** Every pass emits a decision file
+conforming to [`work/schemas/research_decision.schema.json`](../work/schemas/research_decision.schema.json):
+an outcome (`confirmed_unchanged` / `status_changed` / `corrected` /
+`unresolvable`), the proposed field changes with their *prior* values, resolutions
+for each `[VERIFY]` marker, and evidence with a source-type ranking that puts
+ordinances and minutes above news. `unresolvable` is a first-class outcome and is
+recorded rather than papered over.
+
+**5. Merge deterministically, with a conflict guard.**
+`scripts/apply_research.py` is the only thing that writes findings into the
+inventory. It requires explicit answer-file paths (never selecting by
+modification time), validates against the schema, and **refuses any change whose
+stated prior value no longer matches the CSV** — which is how a stale answer,
+written against a revision another pass has since corrected, gets caught instead
+of silently overwriting newer data. Every applied change is logged to
+`work/audit/`.
+
+**6. Flag weak evidence rather than laundering it.** A new instrument admitted on
+news-only evidence, or below a confidence threshold, automatically receives a
+`[VERIFY ...]` marker naming what is missing. It therefore reappears in the next
+refresh's worklist instead of hardening into apparent fact.
+
+**7. Reconcile, re-geocode, regenerate, re-gate.** `reconcile_durations.py`
+enforces the codebook's one valid `duration_days`/`duration_kind` combination;
+`geocode_inventory.py` plus declared overrides fill coordinates; the generators
+rebuild every artifact; then the validator runs again.
+
+A property worth preserving: every step is **idempotent**. Re-running the merge
+over already-applied answers is a clean no-op, which is what makes incremental
+application safe when different states' research lands at different times.
+
 ## Reproducibility
 
-Every step of the pipeline can be re-run. The scripts are in [`scripts/`](../scripts/) with a [README](../scripts/README.md) explaining each one. To regenerate every table and figure from the source data:
+Every step of the pipeline can be re-run. The scripts are in [`scripts/`](../scripts/) with a [README](../scripts/README.md) explaining each one. To regenerate every artifact from the source data:
 
 ```bash
-python -m scripts.generate_tables   # rebuilds all tables/*.tex
-python -m scripts.moratorium_maps all   # rebuilds all figures/
+pip install pandas matplotlib seaborn geopandas shapely markdown pymdown-extensions
+
+python3 scripts/validate_dataset.py          # gate
+python3 scripts/fetch_basemap.py             # one-time: Census state shapefile
+python3 scripts/build_summary_stats.py       # data/summary_stats.json
+python3 scripts/build_geojson.py             # site/moratoria.geojson
+python3 -m scripts.generate_tables           # tables/*.tex
+PYTHONPATH=scripts python3 -m moratorium_maps all   # figures/{pdf,svg,png}/
+python3 scripts/make_timeline.py             # site/timeline.svg
+python3 scripts/update_state_counts.py       # states/
+python3 scripts/build_site.py                # HTML site
 ```
+
+Before v2026.07 these commands did not work: the table and map modules had been
+copied from the private working repository without repathing, and
+`summary_stats.json` and `moratoria.geojson` had no generator at all. Both are
+fixed, which is why the artifacts in this release are reproducible from the
+shipped CSVs.
 
 The original document corpus (~12 GB) is not in this repository (it's hosted separately on Zenodo as the supplementary data deposit) but the cleaned inventory + structured extractions are sufficient to reproduce all published statistics.
 
@@ -139,4 +217,4 @@ The original document corpus (~12 GB) is not in this repository (it's hosted sep
 
 ## Updates
 
-Each refresh of the dataset is a tagged GitHub release (`v2026.04`, `v2026.10`, ...) with a corresponding [Zenodo DOI](https://doi.org/) (planned). Refresh cadence is roughly quarterly while the moratorium wave is active.
+Each refresh of the dataset is a tagged GitHub release (`v2026.04`, `v2026.07`, ...) with a corresponding [Zenodo DOI](https://doi.org/) (planned). Refresh cadence is roughly quarterly while the moratorium wave is active.

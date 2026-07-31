@@ -1,0 +1,40 @@
+{
+  "state_abbrev": "MA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ma-lowell-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.55,
+      "verify_resolutions": [
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: Markley Lowell facility MW not publicly disclosed; the Boston Markley facility is reported at 30 MW in operator materials, but Lowell-specific MW not located]",
+          "resolution": "still_unverifiable",
+          "note": "Checked the Markley Group's own official website (markleygroup.com/data-center): it describes the Lowell facility's size (352,000 sq ft of white space, matching the record) and infrastructure (2N UPS/generator backup, dual utility substations, dark fiber to Boston) but discloses no MW/power-capacity figure for Lowell specifically, confirming the marker's premise that this is not publicly disclosed in operator materials. Checked third-party data center directories for a Lowell-specific figure: Baxtel (baxtel.com/data-center/markley-lowell) gates its 'Total Power (MW)' field behind a 'Login to view' paywall and does not disclose the number for free; DataCenterMap's specs page returned HTTP 429 (rate-limited) and could not be read; GoDataCenters returned HTTP 403. One commercial colocation marketplace listing, Inflect (inflect.com/building/2-prince-avenue-lowell/markley/datacenter/markley-lowell), lists an address of 2 Prince Avenue, Lowell, MA 01852 and states 'a total power capacity of 40 MW,' but this is a third-party marketplace listing, not an operator disclosure or primary source, and could not be cross-checked against any other source, so it is not sufficiently reliable to confirm the field. Recording it here as a lead for a future pass rather than treating it as established."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.markleygroup.com/data-center",
+          "title": "Markley Group - Data Center",
+          "publisher": "Markley Group",
+          "source_type": "other",
+          "supports": "Operator's own description of the Lowell facility (352,000 sq ft of white space, backup power/UPS, dual substations); confirms no MW/power-capacity figure is publicly disclosed for the Lowell site specifically.",
+          "quote": "352,000 square feet of highly secured white space... Multiple power entrances from two utility substations"
+        },
+        {
+          "url": "https://inflect.com/building/2-prince-avenue-lowell/markley/datacenter/markley-lowell",
+          "title": "Markley Lowell Data Center listing",
+          "publisher": "Inflect (commercial colocation/interconnection marketplace)",
+          "source_type": "other",
+          "supports": "Unverified third-party marketplace claim of a 40 MW total power capacity at the Markley Lowell facility (2 Prince Avenue, Lowell, MA); could not be corroborated by any other source and is not an operator disclosure, so treated only as a lead, not a confirmation.",
+          "quote": "Located at 2 Prince Avenue in Lowell, Massachusetts, the Markley Lowell Data Center is a premier facility offering robust infrastructure... featuring a total power capacity of 40 MW."
+        }
+      ],
+      "notes": "No change to the record. The marker remains unresolved by design: Markley's own materials do not publish a Lowell-specific MW figure, and the only specific number found (40 MW, from a third-party marketplace listing) is not corroborated elsewhere and is not treated as a primary or reliable source for a legal/factual dataset. Overall record (active moratorium, 2026-03-10 enactment, 360-day term) is unaffected."
+    }
+  ],
+  "new_candidates": []
+}

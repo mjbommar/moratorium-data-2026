@@ -1,0 +1,82 @@
+{
+  "state_abbrev": "CT",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ct-groton-2022",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.93,
+      "changes": {
+        "date_enacted": {
+          "from": "2022-06-14 (Groton PZC adoption per captured agenda packet); effective 2022-07-15 [VERIFY: exact effective-date language not extracted from REGA22-01 final adopted text in captured records]",
+          "to": "2022-06-14 (Groton PZC adoption, 5-0 vote); effective 2022-07-15, per the adopted motion text in the June 14, 2022 PZC meeting minutes: \"This text amendment shall become effective July 15, 2022.\"",
+          "reason": "Primary-source Groton Planning and Zoning Commission meeting minutes for 2022-06-14 (agendasuite.org, the town's official agenda portal) contain the adopted motion text, including the effective-date clause, confirming the date previously flagged for verification."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: exact effective-date language not extracted from REGA22-01 final adopted text in captured records]",
+          "resolution": "confirmed",
+          "note": "Groton PZC Regular Meeting Minutes for 2022-06-14 (agendasuite.org) contain the adopted motion approving REGA22-01, ending: \"This text amendment shall become effective July 15, 2022.\" Vote was 5-0 (Pritchard, Kane, Sutherland, Tarbox, Zod all yes). This matches the previously reported effective date exactly."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://agendasuite.org/iip/groton/file/getfile/66259",
+          "title": "Planning and Zoning Commission Regular Meeting Minutes, June 14, 2022",
+          "publisher": "Town of Groton, CT",
+          "document_date": "2022-06-14",
+          "source_type": "minutes",
+          "supports": "Adopted motion approving REGA22-01 (Data Center Moratorium Text Amendment) with explicit effective-date language",
+          "quote": "MOTION: To approve Zoning Regulation text amendment application REGA22-01... This text amendment shall become effective July 15, 2022."
+        },
+        {
+          "url": "https://agendasuite.org/iip/groton/file/getfile/76493",
+          "title": "Planning and Zoning Commission Regular Meeting Minutes, June 27, 2023",
+          "publisher": "Town of Groton, CT",
+          "document_date": "2023-06-27",
+          "source_type": "minutes",
+          "supports": "REGA23-04 deleted Section 11.1 (the data center moratorium) and added permanent data center use standards, effective 2023-07-14, corroborating current_status = Replaced",
+          "quote": "MOTION: To approve Zoning Regulation text amendment application REGA23-04 to: ... 4.) To delete Section 11.1 Temporary Moratorium on Data Centers ... This text amendment shall become effective July 14, 2023."
+        }
+      ],
+      "notes": "REGA23-04's specific 12,500 sq ft data-center size threshold (cited in the existing `outcome` field) was not independently re-verified against the codified regulation text this pass -- the town's regulation document is hosted on a JS-rendered community-engagement portal (greatergroton.com) that could not be fetched as static HTML. The repeal mechanism, application number, and effective date (2023-07-14) were confirmed directly from primary PZC minutes."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Connecticut",
+      "jurisdiction": "West Haven",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-08, per City Council meeting minutes",
+      "date_enacted_iso": "2026-06-08",
+      "date_enacted_uncertainty": "exact",
+      "duration": "1 year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "City Council resolution requiring a 1-year moratorium on the development of data centers, requested by Mayor Dorinda Borer",
+      "trigger": "Not detailed beyond the mayor's request in captured minutes",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Adopted unanimously; not independently re-checked past 2026-06-08",
+      "enacted_status": "active",
+      "affected_projects": "Not identified in captured minutes",
+      "outcome": "Council unanimously approved a 1-year moratorium on data center development",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.cityofwesthaven.com/AgendaCenter/ViewFile/Minutes/_06082026-3643",
+          "title": "West Haven City Council Meeting Minutes, June 8, 2026",
+          "publisher": "City of West Haven, CT",
+          "document_date": "2026-06-08",
+          "source_type": "minutes",
+          "supports": "Council unanimously adopted a 1-year moratorium on data center development",
+          "quote": "Communication B: from Mayor Dorinda Borer requesting consideration and action regarding a resolution requiring a 1-year moratorium on the development of data centers. Councilman Quagliani made a MOTION to APPROVE which was SECONDED by Councilwoman Heffernan. All in favor. MOTION passed UNANIMOUSLY."
+        }
+      ],
+      "notes": "Discovered during the CT verification pass; falls after the 2026-04-28 coverage cutoff. Confirmed via primary official minutes. Secondary coverage (New Haven Register, 2026-06-12) was not independently fetched (site blocked). Checked and excluded: East Lyme, CT (per ctexaminer.com 2026-07-13, the Zoning Commission only voted to form a study subcommittee -- no moratorium adopted); Morris, CT (a reported two-year data center/BESS moratorium appears to date to approximately 2026-03-23, before the 2026-04-28 cutoff, so out of scope and not independently verified this pass)."
+    }
+  ]
+}

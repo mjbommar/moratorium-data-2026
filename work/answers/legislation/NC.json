@@ -1,0 +1,72 @@
+{
+  "state_abbrev": "NC",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "The NC General Assembly's 2025-2026 biennium (2025 long session running continuously into a 2026 short/reconvened session) had NOT adjourned sine die as of 2026-07-31 -- ncleg.gov shows the House and Senate scheduled to convene again 2026-08-03, with active 2026 budget conference activity (conference report 2026-06-30) and a pending governor veto matter (H.B. 437), so bills that sat in a House or Senate committee since 2025 with no further recorded action are still alive/pending (carried over), not dead. By contrast, the separate 2023-2024 biennium concluded before the 2025-2026 General Assembly convened in January 2025; any bill filed under that earlier session number that never passed is dead by adjournment, since NC bill numbers and carryover apply only within a single two-year biennium, not across bienniums.",
+  "decisions": [
+    {
+      "bill_key": "NC:HB 1002 (2025-2026), Rate Payer Protection Act",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed 1st reading and referred to House Committee on Rules, Calendar, and Operations on 2025-04-14; no further action as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2025-04-14",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/HB1002",
+          "title": "House Bill 1002 (2025-2026 Session) - Rate Payer Protection Act, ncleg.gov Bill Status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill's full action history is only three entries (filed 4/10/2025, passed 1st reading 4/14/2025, referred to Rules, Calendar, and Operations of the House 4/14/2025), with nothing recorded into 2026.",
+          "quote": "Ref To Com On Rules, Calendar, and Operations of the House"
+        }
+      ],
+      "notes": "No committee action, floor vote, or crossover has occurred; bill remains pending in House Rules. Because the 2025-2026 biennium has not adjourned sine die (session resumes 2026-08-03 per ncleg.gov), the bill is still legislatively alive, not dead -- category recorded as in_committee rather than failed_died or carried_over."
+    },
+    {
+      "bill_key": "NC:HB 638 (2025-2026), Equitable Escalation of Electricity Demand Act",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed 1st reading and referred to House Committee on Energy and Public Utilities (sequentially to Finance, then Rules, Calendar, and Operations) on 2025-04-02; no further action as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2025-04-02",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/HB638",
+          "title": "House Bill 638 (2025-2026 Session) - Equitable Escalation of Electricity Demand Act, ncleg.gov Bill Status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms only three action entries (filed 4/1/2025, passed 1st reading 4/2/2025, sequential referral to Energy and Public Utilities/Finance/Rules 4/2/2025), with nothing recorded into 2026.",
+          "quote": "Ref to the Com on Energy and Public Utilities, if favorable, Finance, if favorable, Rules, Calendar, and Operations of the House"
+        }
+      ],
+      "notes": "Still sitting in its first-referral committee (Energy and Public Utilities); has not advanced to Finance or Rules. Alive but stalled -- same reasoning as HB 1002 on why this is in_committee rather than dead, since the biennium is ongoing."
+    },
+    {
+      "bill_key": "NC:SB 774 (2023-2024)",
+      "outcome": "corrected",
+      "fields": {
+        "status": "Passed 1st reading and referred to Senate Rules and Operations Committee on 2024-04-30; 2023-2024 biennium concluded without further action -- dead by adjournment",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2024-04-30",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2023/SB774",
+          "title": "Senate Bill 774 (2023-2024 Session) - Prohibit Crypto-Mining as Authorized Use, ncleg.gov Bill Status",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms this bill is filed under the separate, already-concluded 2023-2024 session (not the current 2025-2026 biennium), with its last action being referral to Senate Rules and Operations on 2024-04-30 and no further entries.",
+          "quote": "Referred to Committee on Rules and Operations of the Senate"
+        }
+      ],
+      "notes": "Packet text said 'not enacted' but did not assign a typed disposition. Because this bill's session designation (2023-2024) is a distinct, already-completed biennium from the current 2025-2026 General Assembly (which convened January 2025), and NC bill carryover applies only within one biennium, this bill did not carry forward and cannot be revived -- it is dead by adjournment (failed_died), not merely pending. Outcome marked 'corrected' to formalize this typed category since the prior record left the disposition ambiguous. Did not separately verify an explicit 2023-2024 sine die adjournment date beyond ncleg.gov's own session-year labeling of the bill."
+    }
+  ],
+  "new_bills": []
+}

@@ -1,0 +1,71 @@
+{
+  "state_abbrev": "AK",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "The 34th Alaska Legislature (2025-2026) held a First Regular Session (Jan 21-May 20, 2025) and a Second Regular Session (Jan 20-May 20, 2026), with bills carrying over automatically between the two without refiling; per akleg.gov the governor then called a 2nd Special Session (May 21-Jun 19, 2026), a 3rd Special Session (Jun 20-Jul 16, 2026), and a 4th Special Session beginning Jul 27, 2026 that remains open (no adjournment date posted) as of the 2026-07-31 research date, so the 34th Legislature has not sine die adjourned and no packet bill can be treated as dead by adjournment.",
+  "decisions": [
+    {
+      "bill_key": "AK:HB 259 (34th Leg., 2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Heard and held in House Energy Committee 2026-02-03; current status (H) ENE, then CRA, status date 2026-01-20",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-02-03",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB259",
+          "title": "Alaska State Legislature - Bill Detail, HB 259, 34th Legislature",
+          "source_type": "legislature_bill_page",
+          "supports": "HB 259 remains in the House Energy Committee (referred to Energy, then Community & Regional Affairs) with no floor action since the packet's April 2026 capture.",
+          "quote": "Current Status (H) ENE Then CRA Status Date 01/20/2026 ... 1/29/2026 (H) ENERGY at 01:00 PM GRUENBERG 120 (H) Heard & Held ... 2/3/2026 (H) ENERGY at 01:00 PM GRUENBERG 120 (H) Heard & Held"
+        }
+      ],
+      "notes": "Live akleg.gov bill page matches the packet's captured status exactly ((H) ENE, then CRA; status date 2026-01-20). The only additional recorded activity is two House Energy Committee hearings (1/29/2026 and 2/3/2026), both ending in 'Heard & Held' with no committee report issued, so the bill has not advanced. Not enacted."
+    },
+    {
+      "bill_key": "AK:HCR 3 (34th Leg., 2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "(H) FIN; status date 2025-04-11 (no further action recorded through 2026-07-31)",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2025-04-11",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR3",
+          "title": "Alaska State Legislature - Bill Detail, HCR 3, 34th Legislature",
+          "source_type": "legislature_bill_page",
+          "supports": "HCR 3 has sat in House Finance Committee since April 2025 with no subsequent hearings, votes, or committee reports recorded.",
+          "quote": "Current Status (H) FIN Status Date 04/11/2025 ... 4/11/2025 704 (H) FIN REPLACES STA REFERRAL (H) REFERRED TO FINANCE"
+        }
+      ],
+      "notes": "No change from the packet's captured status. The bill carried over automatically from the 2025 First Regular Session into the 2026 Second Regular Session and subsequent special sessions per Alaska practice, but has received no committee action past the 2025-04-11 referral to House Finance. Because the 34th Legislature has not adjourned sine die (it is in an open 4th special session as of 2026-07-31), the bill is stalled but not formally dead; categorized in_committee rather than failed_died. Not enacted."
+    },
+    {
+      "bill_key": "AK:SB 250 / CSSB 250(CRA) (34th Leg., 2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Passed Senate 2026-05-16 (Y14 N5 E1 on reconsideration) as CSSB 250(CRA); transmitted to House, read first time and referred to House Community & Regional Affairs 2026-05-17; Heard & Held (recessed to call of the chair) 2026-05-18; current status (H) CRA, status date 2026-05-17",
+        "bill_status_category": "passed_one_chamber",
+        "last_action_date_iso": "2026-05-18",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB250",
+          "title": "Alaska State Legislature - Bill Detail, SB 250, 34th Legislature",
+          "source_type": "legislature_bill_page",
+          "supports": "SB 250 (as CSSB 250(CRA)) has since passed the Senate floor and moved to the House, where it is now pending in House Community & Regional Affairs Committee, well past the packet's captured Senate L&C committee status.",
+          "quote": "Current Status (H) CRA Status Date 05/17/2026 ... 5/16/2026 2696 (S) PASSED ON RECONSIDERATION Y14 N5 E1 ... (S) TRANSMITTED TO (H) ... 5/17/2026 2693 (H) REFERRED TO COMMUNITY & REGIONAL AFFAIRS ... 5/18/2026 (H) Heard & Held -- Recessed to a Call of the Chair --"
+        }
+      ],
+      "notes": "Material change since the packet's April 2026 capture ('(S) L&C; status date 2026-04-22'). Between the capture and now, CSSB 250(CRA) was reported out of Senate Labor & Commerce (5/13-5/14/2026), passed the Senate 5/16/2026, and crossed over to the House, where it was heard and held (recessed to call of the chair) by House Community & Regional Affairs on 5/18/2026 -- the last recorded action, predating the 2026 Second Regular Session's 5/20/2026 close. No House floor action, no enactment, no governor action found."
+    }
+  ]
+}

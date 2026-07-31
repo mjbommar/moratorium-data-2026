@@ -1,0 +1,78 @@
+{
+  "state_abbrev": "LA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "la-new-orleans-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "legal_basis": {
+          "from": "City Council Motion No. M-26-63 (interim zoning district + permitting hold); companion zoning-study Motion No. M-26-62 (referenced in M-26-63 text and preliminary staff report) [VERIFY: full standalone text of M-26-62 not separately captured in research/_web; references rely on M-26-63 and CPC ZD 037/26 staff report].",
+          "to": "City Council Motion No. M-26-63 (adopted 2026-01-28; interim zoning district + permitting hold, implemented via Zoning Docket 037/26); companion Motion No. M-26-62 (adopted the same day; directs the City Planning Commission to study and recommend permanent Comprehensive Zoning Ordinance text amendments defining and regulating data centers, implemented via Zoning Docket 036/26). Both motions were introduced by Councilmembers Morrell and Hughes (by request).",
+          "reason": "Retrieved the full signed text of both motions directly from the City of New Orleans' Granicus document system (linked as Appendix A of the CPC staff report for ZD 037/26). M-26-62 is the standalone zoning-study motion that was previously only inferable from references in M-26-63 and the staff report; its full text is now confirmed and quoted in evidence below."
+        },
+        "current_status": {
+          "from": "Active interim permitting hold and proposed Data Center Interim Zoning District under City Planning Commission review as of 2026-04-29 [VERIFY: 2026-04-28 CPC action outcome on ZD 037/26 not yet retrieved from CPC minutes as of 2026-04-29].",
+          "to": "Active. The City Planning Commission approved Zoning Docket 037/26 (the Data Center Interim Zoning District text amendment implementing M-26-63) by a 7-0 vote at its April 28, 2026 meeting, following the staff recommendation of approval; the companion Zoning Docket 036/26 (permanent CZO text amendment implementing M-26-62) was deferred at the same meeting. The interim permitting hold under M-26-63 has been in effect since City Council adoption on 2026-01-28 and continues while the CPC's recommendation on ZD 037/26 awaits final City Council action; no evidence of final Council adoption of either text amendment was found as of the 2026-07-31 research date.",
+          "reason": "The City of New Orleans' own Granicus meeting portal for the City Planning Commission (cityofno.granicus.com) shows the April 28, 2026 agenda and vote summary for Zoning Docket 037/26 recording 'ACTION: APPROVE, VOTE: 7-0,' and the official CPC staff report (dated April 21, 2026, prepared by staff planner Ava Monnet, signed off by Executive Director Robert D. Rivers) recommends approval and describes the docket as a companion to Docket 036/26. This directly answers the marker's question about the April 28 CPC outcome."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: full standalone text of M-26-62 not separately captured in research/_web; references rely on M-26-63 and CPC ZD 037/26 staff report]",
+          "resolution": "confirmed",
+          "note": "Found and read the full signed text of Motion No. M-26-62 via the City of New Orleans Granicus document system (linked from Appendix A of the official CPC staff report for ZD 037/26). Motion M-26-62, introduced by Councilmembers Morrell and Hughes (by request) and adopted January 28, 2026, directs the City Planning Commission to hold a public hearing on amendments to the CZO (Ordinance No. 4264 M.C.S.) 'to define Data Centers and any related uses, to consider whether these uses should be permitted or conditional in any zoning district or overlay, and to implement appropriate use and design standards... including but not limited to density requirements, soundproofing and safety measures.' This matches, and now directly sources, the language already summarized in the record's outcome field."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: 2026-04-28 CPC action outcome on ZD 037/26 not yet retrieved from CPC minutes as of 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Retrieved the official April 28, 2026 City Planning Commission agenda and vote summary from cityofno.granicus.com: Zoning Docket 037/26 (Data Center Interim Zoning District, applicant City Council Motion No. M-26-63) was APPROVED 7-0. Also retrieved the official CPC staff report, which recommends approval and confirms 'If approved, the IZD will be in effect for one year unless rescinded sooner.' The companion Zoning Docket 036/26 (M-26-62, the permanent CZO text amendment) was deferred at the same meeting -- not part of the marker's question, but relevant context for the current_status field."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://cityofno.granicus.com/MinutesViewer.php?view_id=2&clip_id=5375&doc_id=c3268145-4b0d-11f1-9b4d-005056a89546",
+          "title": "City Planning Commission Meeting Vote Summary, April 28, 2026",
+          "publisher": "City of New Orleans, City Planning Commission",
+          "document_date": "2026-04-28",
+          "source_type": "minutes",
+          "supports": "Official vote record showing Zoning Docket 037/26 (Data Center Interim Zoning District) approved 7-0, and Zoning Docket 036/26 (companion permanent CZO text amendment) deferred.",
+          "quote": "Zoning Docket 037/26 -- Applicant: City Council Motion No. M-26-63... ACTION: APPROVE, VOTE: 7-0"
+        },
+        {
+          "url": "https://cityofno.granicus.com/MetaViewer.php?view_id=2&clip_id=5375&meta_id=787586",
+          "title": "City Planning Commission Staff Report, Zoning Docket 037/26",
+          "publisher": "City of New Orleans, City Planning Commission",
+          "document_date": "2026-04-21",
+          "source_type": "staff_report",
+          "supports": "Official staff report recommending approval of the Data Center Interim Zoning District; confirms the one-year term and describes ZD 037/26 as a companion to ZD 036/26 (the M-26-62 permanent regulation study). Its Appendix A links directly to the full signed text of Motions M-26-62 and M-26-63.",
+          "quote": "Recommendation: The staff recommends APPROVAL of the proposed text amendment... If approved, the IZD will be in effect for one year unless rescinded sooner."
+        },
+        {
+          "url": "https://cityofno.granicus.com/MetaViewer.php?event_id=24823&meta_id=774936&view_id=2",
+          "title": "Motion No. M-26-62",
+          "publisher": "New Orleans City Council",
+          "document_date": "2026-01-28",
+          "source_type": "legislature",
+          "supports": "Full signed text of the companion zoning-study motion, directing the CPC to consider CZO text amendments defining and regulating data centers.",
+          "quote": "BE IT MOVED BY THE COUNCIL OF THE CITY OF NEW ORLEANS, That the City Planning Commission is directed to conduct a public hearing to consider amendments to Ordinance No. 4264 M.C.S., as amended, the Comprehensive Zoning Ordinance, to amend the Comprehensive Zoning Ordinance to define Data Centers and any related uses..."
+        },
+        {
+          "url": "https://cityofno.granicus.com/MetaViewer.php?event_id=24823&meta_id=774938&view_id=2",
+          "title": "Motion No. M-26-63",
+          "publisher": "New Orleans City Council",
+          "document_date": "2026-01-28",
+          "source_type": "legislature",
+          "supports": "Full signed text of the interim zoning district / permitting hold motion, including the one-year term subject to a 180-day extension under City Charter Section 3-126, matching the record's existing duration field.",
+          "quote": "Section 3-126 of the Home Rule Charter authorizes the Council to impose an interim zoning district or other temporary prohibition on zoning, permitting, and other similar functions where necessary to protect the public health, safety, or welfare for a period of up to one year, subject to one 180-day extension"
+        }
+      ],
+      "notes": "A search snippet referenced a City Council public notice for an 'Ordinance Calendar No. 35,512' item scheduled around August 20, 2026 (classifieds.theadvocate.com), which may relate to final Council adoption of the CPC-recommended text amendments, but the notice could not be fetched (connection failure) and its subject matter was not confirmed, so it is flagged here only as a lead for a future pass, not cited as evidence. As of the 2026-07-31 research date, enacted_status remains correctly 'active' (interim permitting hold in force since 2026-01-28; no final Council ordinance adoption confirmed)."
+    }
+  ],
+  "new_candidates": []
+}

@@ -1,0 +1,578 @@
+{
+  "state_abbrev": "KY",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "Kentucky",
+      "jurisdiction": "Ashland",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-02-26 per a WSAZ headline (\"Ordinance passed for data center applications\"); this reads as the initial temporary moratorium, later replaced before its natural expiration by a permanent zoning ordinance given first/second readings on 2026-07-23/2026-07-24",
+      "date_enacted_iso": "2026-02-26",
+      "date_enacted_uncertainty": "month_only",
+      "duration": "Reported as roughly 6 months; superseded before expiration by a permanent conditional-use zoning ordinance",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Temporary City Commission moratorium ordinance (Boyd County); ordinance number not located in sources reviewed",
+      "trigger": "Rubix Data Centers' proposed roughly 2-gigawatt data center campus near the former Ashland steel mill site prompted the Commission to pause new applications to study zoning ordinances",
+      "trigger_categories": ["specific_project", "regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Replaced. A July 25, 2026 news account describes Ashland as having been \"under a moratorium for the construction and operation of data centers\" for \"the last five-plus months,\" superseded when the City Commission passed permanent conditional-use zoning restrictions (I-2 heavy-industrial only, 1,500-ft residential setback, 50,000 sq ft cap, 45-ft height limit, 55dB noise limit, water-use cap) on first and second readings 2026-07-23/24, before the moratorium's own term would have lapsed.",
+      "enacted_status": "replaced",
+      "affected_projects": "Rubix Data Centers' proposed ~2 GW data center campus near the former Ashland steel mill site",
+      "outcome": "Temporary moratorium adopted, then superseded by a permanent conditional-use zoning ordinance",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://www.yahoo.com/news/us/articles/ashland-places-restrictions-data-centers-035900581.html",
+          "title": "Ashland places restrictions on data centers",
+          "publisher": "Yahoo News (syndicated Kentucky local coverage)",
+          "document_date": "2026-07-25",
+          "source_type": "news",
+          "supports": "Confirms Ashland had been under a data-center moratorium for the last five-plus months and that it was superseded by a permanent conditional-use zoning ordinance passed 2026-07-23/24",
+          "quote": "Ashland was under a moratorium for the construction and operation of data centers ... the last five-plus months"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Ashland+Kentucky+data+center+moratorium+commission+February",
+          "title": "Ordinance passed for data center applications",
+          "publisher": "WSAZ (via Google News)",
+          "document_date": "2026-02-26",
+          "source_type": "news",
+          "supports": "Establishes the original moratorium ordinance's approximate passage date of 2026-02-26",
+          "quote": "Ordinance passed for data center applications - WSAZ"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under Kentucky (existing KY rows: Breckinridge County, City of La Grange, Meade County Fiscal Court, Mercer County Fiscal Court [undated], Oldham County Fiscal Court). Ashland's official ordinance portal returned 403/could not be fetched, so the exact ordinance number and enactment day are not confirmed from a primary source; this record rests on syndicated local news coverage."
+    },
+    {
+      "state": "Kentucky",
+      "jurisdiction": "Cave City",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-05-12 City Council rejected a proposed joint-planning-commission zoning ordinance and instead voted to pursue a moratorium; the moratorium was finalized on second reading 2026-05-21 (per WNKY and WCLU Radio)",
+      "date_enacted_iso": "2026-05-21",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "City council moratorium ordinance/order; ordinance number not located in sources reviewed",
+      "trigger": "Kentucky Industrial Alliance's May 1, 2026 submission of plans for a roughly 600-acre, 1.2 GW AI/cloud data-center campus near Mammoth Cave National Park; the council chose a pause for community input over the proposed joint zoning regulations",
+      "trigger_categories": ["specific_project", "regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 but under legal challenge. Kentucky Industrial Alliance filed suit around 2026-06-08 challenging the moratorium's procedure, and a second, separate suit filed around 2026-07-07 challenges a related annexation. Cave City moved to dismiss the moratorium suit (per a 2026-07-02 Bowling Green Daily News article); no ruling was located as of the research date.",
+      "enacted_status": "active",
+      "affected_projects": "Kentucky Industrial Alliance's proposed 1.2 GW / ~600-acre AI/cloud data center campus near Mammoth Cave National Park",
+      "outcome": "One-year moratorium adopted in lieu of proposed zoning regulations; now facing litigation",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.bgdailynews.com/2026/07/02/cave-city-asks-for-dismissal-of-lawsuit-over-data-center-moratorium/",
+          "title": "Cave City asks for dismissal of lawsuit over data center moratorium",
+          "publisher": "Bowling Green Daily News",
+          "document_date": "2026-07-02",
+          "source_type": "news",
+          "supports": "Confirms the moratorium exists, is being litigated, and that the city has moved to dismiss the suit",
+          "quote": "we haven't had time to even think or get input from the community"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Cave+City+Kentucky+data+center+moratorium+ordinance+number",
+          "title": "Cave City Council rejects data center zoning ordinance, approves one-year moratorium",
+          "publisher": "WCLU Radio / WNKY / Bowling Green Daily News (via Google News)",
+          "document_date": "2026-05-21",
+          "source_type": "news",
+          "supports": "Establishes the timeline: rejection of zoning ordinance and first vote for a moratorium on 2026-05-12, first reading 2026-05-18, second/final reading 2026-05-20/21, and the one-year duration",
+          "quote": "Cave City approves second reading for data center moratorium"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under Kentucky. No ordinance number was located; Cave City's own website was not reachable in a form that exposed the ordinance text."
+    },
+    {
+      "state": "Kentucky",
+      "jurisdiction": "Daviess County",
+      "jurisdiction_type": "County",
+      "date_enacted": "First reading held 2026-05-14/15; Fiscal Court gave final approval 2026-05-28 (per WFIE 14 News and owensborotimes.com)",
+      "date_enacted_iso": "2026-05-28",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Fiscal Court order; order number not located in sources reviewed",
+      "trigger": "Resident concern and speculation over a possible Owensboro-area data center project",
+      "trigger_categories": ["regulatory_gap", "specific_project"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (one-year term would run to approximately May 2027); no rescission or extension was located.",
+      "enacted_status": "active",
+      "affected_projects": "Speculative/rumored Owensboro-area data center project; no specific developer named in coverage",
+      "outcome": "One-year moratorium on data center applications adopted by unanimous (4-0) Fiscal Court vote",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://www.aol.com/news/don-t-want-data-center-031834884.html",
+          "title": "Don't want a data center in Daviess County? Fiscal Court passes one-year moratorium",
+          "publisher": "AOL News (syndicated Kentucky local coverage)",
+          "document_date": "2026-05-29",
+          "source_type": "news",
+          "supports": "Confirms the 4-0 unanimous vote and one-year moratorium on all data center applications",
+          "quote": "In a 4-0 vote, Daviess County leaders are putting a one-year pause on all data center applications."
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Daviess+County+Kentucky+data+center+moratorium+fiscal+court",
+          "title": "Daviess Co. Fiscal Court approves moratorium on data center applications",
+          "publisher": "WFIE 14 News (via Google News)",
+          "document_date": "2026-05-28",
+          "source_type": "news",
+          "supports": "Corroborates the final approval date of 2026-05-28, following a first reading reported 2026-05-14/15",
+          "quote": "Daviess Co. Fiscal Court approves moratorium on data center applications"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under Kentucky. Fiscal Court order number not located from a primary source."
+    },
+    {
+      "state": "Kentucky",
+      "jurisdiction": "Lexington-Fayette",
+      "jurisdiction_type": "Other",
+      "date_enacted": "2026-06-09, Lexington-Fayette Urban County Council unanimous resolution",
+      "date_enacted_iso": "2026-06-09",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Through October 31, 2026 (approximately 4.5 months from adoption)",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "legal_basis": "Urban County Council resolution; resolution number not located in sources reviewed",
+      "trigger": "DartPoints Operating Company's $29 million purchase (closed 2026-05-15) of the former Lexmark property at 745 W. New Circle Road for data center development",
+      "trigger_categories": ["specific_project", "regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31. The Planning Commission held a public hearing 2026-07-30 and recommended stricter permanent zoning (banning major data centers over 50,000 sq ft outside industrial-type zones, 1,000-1,500 ft setbacks, a 25 MW cap, plus noise/cooling limits); the recommendation goes to the full Council after summer recess with no final vote date set as of the research date.",
+      "enacted_status": "active",
+      "affected_projects": "DartPoints' planned data center development of the former Lexmark property, 745 W. New Circle Road",
+      "outcome": "Council-adopted resolution blocking data center development plans, approvals, and zone changes through October 31, 2026 while permanent regulations are drafted",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.yahoo.com/news/us/articles/lexington-data-center-project-sparks-161138686.html",
+          "title": "Lexington data center project sparks moratorium",
+          "publisher": "Yahoo News (syndicated Kentucky local coverage)",
+          "document_date": "2026-06-09",
+          "source_type": "news",
+          "supports": "Confirms the June 9, 2026 unanimous Council resolution and the October 31, 2026 end date",
+          "quote": "A moratorium on data center construction is in place through Oct. 31."
+        },
+        {
+          "url": "https://www.weku.org/lexington-richmond/2026-07-30/lexington-planners-add-more-restrictions-for-data-centers-including-caps-on-size-capacity",
+          "title": "Lexington planners add more restrictions for data centers, including caps on size, capacity",
+          "publisher": "WEKU",
+          "document_date": "2026-07-30",
+          "source_type": "news",
+          "supports": "Confirms the moratorium remains in effect through Oct. 31, 2026 and describes the July 30, 2026 Planning Commission recommendation for permanent data-center zoning restrictions",
+          "quote": "The council gave us two things to do in 60 days: one was solar, and one was data centers. Don't blame us, blame the council."
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under Kentucky. Recorded as \"Lexington-Fayette\" per instructions since this is the consolidated city-county government (Lexington-Fayette Urban County Government); jurisdiction_type set to Other because the schema enum has no consolidated-government category. Resolution number not located from a primary legislative record."
+    },
+    {
+      "state": "Maine",
+      "jurisdiction": "Brunswick",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-06-01, Town Council adoption",
+      "date_enacted_iso": "2026-06-01",
+      "date_enacted_uncertainty": "exact",
+      "duration": "180 days from effective date",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Data Center Moratorium Ordinance, adopted under 30-A M.R.S. sections 3001 and 4356",
+      "trigger": "Proactive council action amid rising developer interest in siting data centers; concerns about demand on electrical and water infrastructure, PFAS, and other environmental impacts",
+      "trigger_categories": ["regulatory_gap", "infrastructure_capacity", "grid_energy", "water", "environmental"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (180-day window runs to approximately late November 2026). A July 27, 2026 Planning & Development staff memo to the Town Council confirms the moratorium remains in force while staff draft permanent zoning standards for Council review.",
+      "enacted_status": "active",
+      "affected_projects": "None named; enacted preemptively ahead of any specific pending application",
+      "outcome": "180-day moratorium on new, enlarged, or expanded data centers of 1 MW or greater electrical capacity",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.brunswickme.gov/AgendaCenter/ViewFile/Item/4141?fileID=36727",
+          "title": "Discussion of Potential Data Center Regulations (Planning & Development staff memo)",
+          "publisher": "Town of Brunswick, Maine, Department of Planning & Development",
+          "document_date": "2026-07-27",
+          "source_type": "staff_report",
+          "supports": "Confirms the June 1, 2026 adoption date, 180-day duration, and the 1 MW electrical-capacity threshold; confirms the moratorium was still in force as of the memo date",
+          "quote": "On June 1, 2026, the Town Council adopted a 180-day moratorium on the siting, permitting, construction, or operation of new, enlarged, or expanded data centers with an electrical capacity of 1 megawatt or greater"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under Maine (existing ME row: Bangor, 2026-04-13). Fetched and read directly (via pdftotext) as a primary town document."
+    },
+    {
+      "state": "Maine",
+      "jurisdiction": "Sanford",
+      "jurisdiction_type": "City",
+      "date_enacted": "On or about 2026-05-19, reported as an emergency moratorium; primary ordinance text/order number not located",
+      "date_enacted_iso": "2026-05-19",
+      "date_enacted_uncertainty": "range",
+      "duration": "Reported as a 91-day pause",
+      "duration_days": 91,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Emergency moratorium order; exact citation not located",
+      "trigger": "A proposed data center project along/near the Mousam River",
+      "trigger_categories": ["specific_project", "water", "environmental"],
+      "sectors": ["data_center"],
+      "current_status": "Likely still active as of 2026-07-31 if the reported 91-day term is accurate (would run to roughly mid-August 2026), but this could not be confirmed against a primary source.",
+      "enacted_status": "active",
+      "affected_projects": "Proposed data center project near the Mousam River",
+      "outcome": "Emergency moratorium halting a specific pending data-center project",
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "url": "https://news.google.com/rss/search?q=Sanford+Maine+data+center+moratorium",
+          "title": "Sanford imposes emergency data center moratorium, halting Mousam River project",
+          "publisher": "Portland Press Herald (via Google News)",
+          "document_date": "2026-05-19",
+          "source_type": "news",
+          "supports": "Confirms Sanford enacted an emergency data-center moratorium on/around 2026-05-19 tied to a Mousam River-area project",
+          "quote": "Sanford imposes emergency data center moratorium, halting Mousam River project"
+        },
+        {
+          "url": "https://prismnews.com/local/sagadahoc-me/brunswick-approves-180-day-moratorium-on-new-data-centers",
+          "title": "Brunswick approves 180-day moratorium on new data centers",
+          "publisher": "Prism News",
+          "document_date": "2026-06-01",
+          "source_type": "news",
+          "supports": "Regional roundup article that states Sanford's pause ran 91 days",
+          "quote": "Sanford approved a 91-day pause on data-center development"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under Maine. Sanford's own city website exposed no accessible agenda/minutes archive or ordinance code entry for this action despite repeated attempts; this record rests entirely on secondary news coverage and should be treated as lower confidence pending primary-source confirmation."
+    },
+    {
+      "state": "Maine",
+      "jurisdiction": "Scarborough",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-06-03, Town Council adoption",
+      "date_enacted_iso": "2026-06-03",
+      "date_enacted_uncertainty": "exact",
+      "duration": "180 days, or until a new and revised set of regulations is adopted, whichever occurs first",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Ordinance Establishing a Temporary Moratorium on Data Centers, adopted under 30-A M.R.S. section 4356",
+      "trigger": "Increasing developer interest in siting data centers; existing zoning ordinance deemed inadequate to address grid, water, traffic, and noise impacts. Applies retroactively to any application submitted on or after 2026-04-01.",
+      "trigger_categories": ["regulatory_gap", "grid_energy", "water", "noise", "infrastructure_capacity"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (180-day window runs to approximately early December 2026 absent extension or earlier replacement by permanent regulations).",
+      "enacted_status": "active",
+      "affected_projects": "Not tied to a single named project; applies retroactively to applications submitted on/after 2026-04-01",
+      "outcome": "180-day moratorium on data center siting, permitting, construction, or operation",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://scarboroughmaine.community.diligentoneplatform.com/document/686e0a56-2a49-42e2-baa3-3cfd924b870d/",
+          "title": "Ordinance Establishing a Temporary Moratorium on Data Centers",
+          "publisher": "Town of Scarborough, Maine (official document portal)",
+          "document_date": "2026-06-03",
+          "source_type": "ordinance",
+          "supports": "Primary ordinance text confirming the 180-day duration and the whichever-occurs-first language tied to adoption of revised regulations",
+          "quote": "shall remain in full force and effect for a period of 180 days thereafter, unless extended pursuant to law or until a new and revised set of regulations is adopted ... whichever shall first occur"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Scarborough+Maine+data+center+moratorium+council+approves",
+          "title": "Scarborough Town Council approves data center moratorium",
+          "publisher": "WGME / Portland Press Herald (via Google News)",
+          "document_date": "2026-06-03",
+          "source_type": "news",
+          "supports": "Corroborates the June 3, 2026 adoption date",
+          "quote": "Scarborough Town Council approves data center moratorium"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under Maine."
+    },
+    {
+      "state": "Maine",
+      "jurisdiction": "Westbrook",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-01, City Council adoption, Order 2026-66, vote 6-0 (Councilor Faulkingham absent)",
+      "date_enacted_iso": "2026-06-01",
+      "date_enacted_uncertainty": "exact",
+      "duration": "180 days from effective date",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Order 2026-66, Adopting a Data Center Moratorium Ordinance, under 30-A M.R.S. sections 3001 and 4356",
+      "trigger": "Statewide pattern of concern over grid strain, water/energy use, and environmental impact from data centers; the item was first discussed by the Housing & Economic Development Committee on 2026-05-18 before Council adoption",
+      "trigger_categories": ["regulatory_gap", "grid_energy", "water", "environmental"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (180-day window runs to approximately late November 2026). The Council simultaneously referred a review of data-center definitions and regulations in the Land Use Ordinance to the Planning Board for permanent rulemaking.",
+      "enacted_status": "active",
+      "affected_projects": "None named; enacted preemptively",
+      "outcome": "180-day moratorium ordinance adopted 6-0",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.westbrookmaine.gov/AgendaCenter/ViewFile/Minutes/_06012026-1008",
+          "title": "Regular City Council Meeting Minutes, Monday, June 1, 2026",
+          "publisher": "City of Westbrook, Maine (official minutes)",
+          "document_date": "2026-06-01",
+          "source_type": "minutes",
+          "supports": "Official minutes confirming Order 2026-66 adopting the Data Center Moratorium Ordinance passed 6-0 on June 1, 2026",
+          "quote": "Order 2026-66. Adopting a Data Center Moratorium Ordinance ... Motion carried. Order 2026-66 adopted. (Vote 6-0)"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under Maine. Fetched and read directly (via pdftotext) as a primary town document."
+    },
+    {
+      "state": "North Carolina",
+      "jurisdiction": "Charlotte",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-08, unanimous City Council vote",
+      "date_enacted_iso": "2026-06-08",
+      "date_enacted_uncertainty": "exact",
+      "duration": "150 days, through November 5, 2026",
+      "duration_days": 150,
+      "duration_kind": "fixed_days",
+      "legal_basis": "City Council moratorium; ordinance number not located (Charlotte's Legistar search interface is JavaScript-rendered and could not be queried via fetch)",
+      "trigger": "Public concern over electricity rates, water consumption, noise, and neighborhood impacts tied to a proposed American Towers data center in east Charlotte; a May 26, 2026 public hearing drew 50-plus speakers",
+      "trigger_categories": ["specific_project", "property_values", "noise", "grid_energy", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (runs through Nov 5, 2026). City staff are drafting permanent regulations during the pause; a July 29, 2026 Charlotte Observer piece indicates the Council faces further votes on data centers after its summer break, and a related data-center community task force was reported paused in early July amid an unrelated council transparency dispute.",
+      "enacted_status": "active",
+      "affected_projects": "Proposed American Towers data center, east Charlotte",
+      "outcome": "150-day moratorium on new data-center development/rezoning petitions to allow time for policy development",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.wfae.org/politics/2026-06-08/charlotte-city-council-approves-150-day-data-center-moratorium",
+          "title": "Charlotte City Council approves 150-day data center moratorium",
+          "publisher": "WFAE",
+          "document_date": "2026-06-08",
+          "source_type": "news",
+          "supports": "Confirms the unanimous June 8, 2026 vote, the 150-day duration through November 5, 2026, the American Towers project trigger, and that it applies only to new data centers",
+          "quote": "When we can agree on the facts, then we can talk about good policy. I think that's exactly what this 150-day moratorium will do."
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under North Carolina (existing 20 NC rows are all other jurisdictions). No ordinance number located from a primary source."
+    },
+    {
+      "state": "North Carolina",
+      "jurisdiction": "Durham",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-05-05, unanimous City Council vote for an initial 60-day moratorium; extended 2026-06-16/17 as part of FY2027 budget passage for further study",
+      "date_enacted_iso": "2026-05-05",
+      "date_enacted_uncertainty": "range",
+      "duration": "Initially 60 days; extended in mid-June 2026 for further study. The new term length was not stated in any source fetched.",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "legal_basis": "City Council ordinance; ordinance number not located in sources reviewed",
+      "trigger": "Councilmember Nate Baker initially proposed a 2-year ban, but the City Attorney noted North Carolina's UDO procedures effectively cap such moratoria at 12 months, so the Council settled on 60 days as a first step",
+      "trigger_categories": ["regulatory_gap", "specific_project"],
+      "sectors": ["data_center", "cryptocurrency_mining"],
+      "current_status": "Extended and still active as of 2026-07-31; the exact current expiration date could not be confirmed from a primary source. This is a distinct City government action, separate from Durham County's separate one-year moratorium adopted by the County Board of Commissioners (see companion candidate).",
+      "enacted_status": "extended",
+      "affected_projects": "Not tied to a single named project",
+      "outcome": "60-day moratorium on data centers, data processing facilities, and cryptocurrency mining operations, later extended",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://indyweek.com/news/durham-passes-data-center-ban/",
+          "title": "City of Durham Passes 60-Day Data Center Moratorium",
+          "publisher": "INDY Week",
+          "document_date": "2026-05-05",
+          "source_type": "news",
+          "supports": "Confirms the unanimous May 5, 2026 vote for a 60-day moratorium covering data centers, data processing facilities, and cryptocurrency mining operations",
+          "quote": "While 60 days is a start, it just feels like 60 seconds to me."
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Durham+City+Council+data+center+moratorium+extend",
+          "title": "Durham City Council passes $767 million budget, extends data center moratorium",
+          "publisher": "The Duke Chronicle (via Google News)",
+          "document_date": "2026-06-17",
+          "source_type": "news",
+          "supports": "Confirms the Durham City Council extended its data-center moratorium on/around 2026-06-16/17 as part of budget passage, without stating the new term length",
+          "quote": "Durham City Council passes $767 million budget, extends data center moratorium"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under North Carolina. Durham City and Durham County are separate governments (Durham is not consolidated); both enacted their own moratoria, and both are recorded here as distinct candidates."
+    },
+    {
+      "state": "North Carolina",
+      "jurisdiction": "Durham County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-06-22, Board of Commissioners vote",
+      "date_enacted_iso": "2026-06-22",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Board of Commissioners moratorium; the same day the Board also approved a UDO rule change described as making future development moratoriums easier to adopt",
+      "trigger": "Data-center development pressure in the county; commissioners cited a desire to study impacts and get ahead of the industry's growth",
+      "trigger_categories": ["regulatory_gap", "specific_project"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (one-year term would run to approximately June 2027); no rescission or extension was located.",
+      "enacted_status": "active",
+      "affected_projects": "Not tied to a single named project",
+      "outcome": "One-year moratorium on data center development",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://news.google.com/rss/search?q=Durham+County+Commissioners+data+center+moratorium",
+          "title": "Durham County votes to pause data center development for one year",
+          "publisher": "WRAL (via Google News)",
+          "document_date": "2026-06-22",
+          "source_type": "news",
+          "supports": "Confirms the Durham County Board of Commissioners voted on 2026-06-22 for a one-year pause on data center development",
+          "quote": "Durham County votes to pause data center development for one year"
+        },
+        {
+          "url": "https://indyweek.com/news/durham-county-moves-toward-data-center-moratorium/",
+          "title": "Durham County Moves Toward Data Center Moratorium",
+          "publisher": "INDY Week",
+          "document_date": "2026-06-23",
+          "source_type": "news",
+          "supports": "Corroborates that Durham County commissioners acted on a data-center moratorium in June 2026, distinct from the City of Durham's earlier action",
+          "quote": "I want to be on the right side of history."
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under North Carolina. Recorded separately from the City of Durham's moratorium since Durham City and Durham County are distinct governments; no ordinance/resolution number located from a primary source."
+    },
+    {
+      "state": "North Carolina",
+      "jurisdiction": "Harnett County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-05-05, Board of Commissioners vote",
+      "date_enacted_iso": "2026-05-05",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Board of Commissioners moratorium; order/ordinance number not located (county records portal required cookies/login that could not be satisfied)",
+      "trigger": "A pending data-center proposal in the county prompted commissioners to pause new applications while they study how to regulate the industry",
+      "trigger_categories": ["regulatory_gap", "specific_project"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (one-year term would run to approximately May 2027). This record rests only on secondary news sources; the county's own ordinance/document repository could not be accessed to confirm an ordinance number or exact vote tally.",
+      "enacted_status": "active",
+      "affected_projects": "An unnamed pending data-center proposal referenced in contemporaneous coverage",
+      "outcome": "One-year moratorium adopted to allow time to study how to regulate the data-center industry",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://news.google.com/rss/search?q=Harnett+County+data+center+moratorium",
+          "title": "Harnett Commissioners approve one-year data center moratorium",
+          "publisher": "The Sanford Herald (via Google News)",
+          "document_date": "2026-05-05",
+          "source_type": "news",
+          "supports": "Confirms the Harnett County Board of Commissioners approved a one-year data-center moratorium on/around 2026-05-05",
+          "quote": "Harnett Commissioners approve one-year data center moratorium"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under North Carolina. A second outlet (mydailyrecord.com, \"County halts data centers: Imposes moratorium to study how to regulate industry,\" 2026-05-07) independently corroborates the action but returned HTTP 429 on direct fetch and could only be confirmed via the Google News RSS headline listing above."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "Jackson Township (Franklin County)",
+      "jurisdiction_type": "Township",
+      "date_enacted": "2026-05-12, Board of Trustees regular meeting",
+      "date_enacted_iso": "2026-05-12",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Reported as one year (10TV, 614NOW); the official agenda item text itself does not state a duration",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Resolution 2026-049, \"Data Center Moratorium,\" Jackson Township Board of Trustees, 3756 Hoover Road, Grove City, Ohio 43123",
+      "trigger": "Resident opposition to a proposed data center project; neighboring Grove City (a separate city government) subsequently passed its own one-year moratorium in June 2026",
+      "trigger_categories": ["specific_project", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (within the reported May 2026-May 2027 one-year window).",
+      "enacted_status": "active",
+      "affected_projects": "Unnamed proposed data-center project referenced in local coverage",
+      "outcome": "One-year moratorium on new data centers adopted by resolution",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://jacksontwpfranklinoh.gov/cdn/Agenda-May-12-2026.pdf",
+          "title": "Agenda, Regular Meeting, Jackson Township Board of Trustees, May 12, 2026",
+          "publisher": "Jackson Township, Franklin County, Ohio (official township site)",
+          "document_date": "2026-05-12",
+          "source_type": "agenda",
+          "supports": "Primary confirmation that Resolution 2026-049, titled \"Data Center Moratorium,\" was on the Board of Trustees' agenda for its May 12, 2026 regular meeting, at the township office address in Grove City (Franklin County)",
+          "quote": "Resolution 2026-049 Data Center Moratorium"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=Jackson+Township+Franklin+County+Ohio+data+center+moratorium+one+year",
+          "title": "Jackson Township approves 1-year data center moratorium as residents push Grove City to act",
+          "publisher": "10TV (via Google News)",
+          "document_date": "2026-05-13",
+          "source_type": "news",
+          "supports": "Confirms the resolution passed and describes the duration as one year",
+          "quote": "Jackson Township approves 1-year data center moratorium as residents push Grove City to act"
+        }
+      ],
+      "notes": "DISAMBIGUATION: Ohio has multiple townships named Jackson Township. This entry is specifically the one in Franklin County (Grove City area, official domain jacksontwpfranklinoh.gov), confirmed via its own May 12, 2026 board agenda listing Resolution 2026-049. A separate Jackson Township in Wood County was checked via a comprehensive Wood County township roundup (bgindependentmedia.org) and confirmed to have NO moratorium (described there as unzoned); no moratorium evidence was found for a Jackson Township in Muskingum County either. Not present in data/moratorium_inventory.csv (the 51 existing OH rows include no Jackson Township)."
+    },
+    {
+      "state": "Ohio",
+      "jurisdiction": "Williamsburg",
+      "jurisdiction_type": "Village",
+      "date_enacted": "2026-03-12, Village Council, signed by Mayor James Weaver",
+      "date_enacted_iso": "2026-03-12",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year from effective date",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Ordinance 1249-26, \"An Ordinance Imposing a Moratorium on the Authorization or Establishment of Computer Data Centers within the Village of Williamsburg, Ohio and Declaring an Emergency\"",
+      "trigger": "Council desired time to study the economic and environmental impacts of data centers on the Village and its residents and to develop siting/operation regulations",
+      "trigger_categories": ["regulatory_gap", "environmental"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (one-year term runs to approximately March 12, 2027). Declared an emergency measure, effective at the earliest date allowed by law; applies to all pending applications for which a final, non-appealable permit had not been issued as of the ordinance's introduction.",
+      "enacted_status": "active",
+      "affected_projects": "None named; enacted preemptively",
+      "outcome": "One-year moratorium on the authorization or establishment of computer data centers",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://williamsburgohio.org/wp-content/uploads/2026/05/Ordinance-1249-26-2026-Data-Center-Moratorium.pdf",
+          "title": "Ordinance 1249-26: An Ordinance Imposing a Moratorium on the Authorization or Establishment of Computer Data Centers within the Village of Williamsburg, Ohio and Declaring an Emergency",
+          "publisher": "Village of Williamsburg, Ohio (official ordinance)",
+          "document_date": "2026-03-12",
+          "source_type": "ordinance",
+          "supports": "Full primary ordinance text establishing a one-year moratorium on computer data centers, effective March 12, 2026, declared an emergency measure",
+          "quote": "the Council for the Village of Williamsburg, Clermont County, Ohio, hereby establishes a moratorium with respect to the authorization or establishment of any computer data center ... for one (1) year from the date this Ordinance takes effect"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under Ohio. Ordinance text was retrieved as a scanned PDF and read directly via OCR (tesseract) to confirm the quoted text, signature block (Mayor James Weaver, Fiscal Officer Lori Pegg), and the March 12, 2026 date."
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Dane County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Introduced 2026-05-26; approved by the County Board 2026-06-04; signed by County Executive Melissa Agard on/around 2026-06-09",
+      "date_enacted_iso": "2026-06-04",
+      "date_enacted_uncertainty": "exact",
+      "duration": "18 months",
+      "duration_days": 548,
+      "duration_kind": "fixed_days",
+      "legal_basis": "County Board ordinance/resolution; specific number not located (Legistar full-text search requires an ASP.NET postback interaction that could not be executed via fetch)",
+      "trigger": "Mounting hyperscale data-center development pressure near Madison; the county formed a 13-member Advisory Committee on Data Centers (ACDC) in parallel to study impacts",
+      "trigger_categories": ["regulatory_gap", "infrastructure_capacity", "specific_project"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-07-31 (18-month window runs to approximately December 2027). Applies only to new hyperscale data center development; existing facilities and ongoing operations are not affected.",
+      "enacted_status": "active",
+      "affected_projects": "Not tied to a single named project; addresses hyperscale data center development generally",
+      "outcome": "18-month pause on new hyperscale data center development",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://danecounty.gov/PressDetail/11898",
+          "title": "Dane County Board Approves 18-Month Pause on Hyperscale Data Center Development",
+          "publisher": "Dane County, Wisconsin (official press release)",
+          "document_date": "2026-06-04",
+          "source_type": "resolution",
+          "supports": "Primary confirmation that the County Board approved an 18-month moratorium on hyperscale data center development on 2026-06-04, applying only to new development",
+          "quote": "The Dane County Board has approved an 18-month moratorium on hyperscale data center development ... The moratorium applies to new hyperscale data center development projects while existing facilities and ongoing operations are not affected."
+        },
+        {
+          "url": "https://danecounty.gov/PressDetail/11883",
+          "title": "Dane County Board Introduces Moratorium on Data Center Development",
+          "publisher": "Dane County, Wisconsin (official press release)",
+          "document_date": "2026-05-26",
+          "source_type": "resolution",
+          "supports": "Confirms the moratorium was introduced on 2026-05-26 ahead of the June 4, 2026 final approval",
+          "quote": "Dane County Board Introduces Moratorium on Data Center Development"
+        }
+      ],
+      "notes": "Not present in data/moratorium_inventory.csv under Wisconsin (existing WI rows: City of Madison, Manitowoc County). Ordinance/resolution number not located; danecounty.gov's PressDetail pages were fetched directly."
+    }
+  ]
+}

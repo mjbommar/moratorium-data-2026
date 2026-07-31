@@ -1,0 +1,141 @@
+{
+  "state_abbrev": "MT",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "Montana's Legislature is biennial and convenes in regular session only in odd years; the 69th Legislature's 2025 Regular Session ran 2025-01-06 to sine die 2025-04-30, and there is no 2026 regular session. Montana's own bill-tracking backend (bearbeta.legmt.gov, which powers the public bills.legmt.gov 'Bill Explorer') lists only two sessions in its current-era registry: sessionId 2 = 2025 Regular Session (69th Legislature, sine die 2025-04-30) and sessionId 3 = 2027 Regular Session (70th Legislature, convening 2027-01-04, the only session currently flagged active/upcoming). No 2025 or 2026 special session is registered in that system. WebSearch was unavailable for this task (session search quota exhausted before this state's research began), so the special-session check relied on the state's own session registry plus a WordPress news-feed query on legmt.gov (that feed has not been updated since March 2024, so it is not strong independent evidence either way) rather than an open web search; no evidence of a 2025 or 2026 special session was found. All 6 bills below reached their final 2025 disposition in the regular session and nothing has changed since the packet's capture.",
+  "decisions": [
+    {
+      "bill_key": "MT:HB263 / LC0636",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died in process (tabled in House committee 2025-02-03, missed general bill transmittal deadline 2025-03-12), 2025-05-20",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-05-20",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://bearbeta.legmt.gov/bills/v1/bills/findBySessionIdAndDraftNumber?sessionId=2&draftNumber=LC0636",
+          "title": "Montana Bill Explorer bill record for HB263 / LC0636 (69th Legislature, 2025 Regular Session)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms full 2025 status history: tabled in House committee 2025-02-03, missed transmittal deadline 2025-03-12, died in process 2025-05-20; no chapter assigned.",
+          "quote": "billStatusCode name \"(H) Tabled in Committee\" timeStamp 2025-02-03T15:06:31; \"(H) Missed Deadline for General Bill Transmittal\" timeStamp 2025-03-12T13:00:39; \"(H) Died in Process\" timeStamp 2025-05-20T11:00:00, billProgressCategory \"Probably Dead\"."
+        }
+      ],
+      "notes": "This is the JSON API that backs the public bills.legmt.gov Bill Explorer bill-status page; retrieved directly since the SPA itself is JS-rendered behind bot-detection. Data matches the packet's captured status exactly."
+    },
+    {
+      "bill_key": "MT:HB424 / LC3009",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Signed by Governor 2025-05-13, Chapter 678 assigned 2025-05-19",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2025-05-19",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://bearbeta.legmt.gov/bills/v1/bills/findBySessionIdAndDraftNumber?sessionId=2&draftNumber=LC3009",
+          "title": "Montana Bill Explorer bill record for HB424 / LC3009 (69th Legislature, 2025 Regular Session)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms enactment: signed by Governor 2025-05-13, session law chapter number 678 assigned 2025-05-19. Field sessionLawChapterNumber=678 on the bill record.",
+          "quote": "\"sessionLawChapterNumber\":678; billStatusCode name \"(H) Signed by Governor\" timeStamp 2025-05-13T12:36:00, billProgressCategory \"Became Law\"; \"Chapter Number Assigned\" timeStamp 2025-05-19T15:49:53."
+        },
+        {
+          "url": "https://static.legmt.gov/Laws/Tables/TABLE-SESSION-LAW-TO-CODE-2025.pdf",
+          "title": "Table of Session Law to Code 2025 (Montana Legislative Services Division)",
+          "source_type": "legislature_bill_page",
+          "supports": "Cross-check: Chapter 678 maps to MCA 69-3-224, 7-15-4286 (TIF), and 15-6-156/15-6-162 (property classification), consistent with HB424's Class 17 data-center property, TIF-mill, and utility-ratemaking provisions.",
+          "quote": "678 1 69-3-224 2 7-15-4286 3 15-6-156 4 15-6-162 5 Codification instruction 6 Effective date"
+        }
+      ],
+      "notes": "Enacted. Matches packet exactly."
+    },
+    {
+      "bill_key": "MT:HB877 / LC2604",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died in process (tabled in House committee 2025-03-31, taken from table 2025-04-04, missed appropriation bill transmittal deadline 2025-04-09), 2025-05-20",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-05-20",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://bearbeta.legmt.gov/bills/v1/bills/findBySessionIdAndDraftNumber?sessionId=2&draftNumber=LC2604",
+          "title": "Montana Bill Explorer bill record for HB877 / LC2604 (69th Legislature, 2025 Regular Session)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms full history: tabled 2025-03-31, taken from table 2025-04-04, missed appropriation transmittal deadline 2025-04-09, died in process 2025-05-20; no chapter assigned.",
+          "quote": "\"(H) Tabled in Committee\" timeStamp 2025-03-31T17:32:14; \"(H) Taken from Table in Committee\" timeStamp 2025-04-04T17:46:12; \"(H) Missed Deadline for Appropriation Bill Transmittal\" timeStamp 2025-04-09T11:00:15; \"(H) Died in Process\" timeStamp 2025-05-20T11:00:00."
+        }
+      ],
+      "notes": "Matches packet exactly."
+    },
+    {
+      "bill_key": "MT:HJ46 / LC0933",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed House 2025-04-16; tabled in Senate committee 2025-04-24; died in standing committee 2025-05-22",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-05-22",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://bearbeta.legmt.gov/bills/v1/bills/findBySessionIdAndDraftNumber?sessionId=2&draftNumber=LC0933",
+          "title": "Montana Bill Explorer bill record for HJ46 / LC0933 (69th Legislature, 2025 Regular Session)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms bill passed House 3rd reading 2025-04-16, transmitted to Senate, tabled in Senate committee 2025-04-24, died in standing committee 2025-05-22.",
+          "quote": "\"(H) 3rd Reading Passed\" timeStamp 2025-04-16T14:58:00; \"(S) Tabled in Committee\" timeStamp 2025-04-24T17:45:30; \"(S) Died in Standing Committee\" timeStamp 2025-05-22T16:00:00."
+        }
+      ],
+      "notes": "House Joint Resolution requesting an interim study; matches packet exactly."
+    },
+    {
+      "bill_key": "MT:SB212 / LC0292",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Signed by Governor 2025-04-16, Chapter 150 assigned 2025-04-17",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2025-04-17",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://bearbeta.legmt.gov/bills/v1/bills/findBySessionIdAndDraftNumber?sessionId=2&draftNumber=LC0292",
+          "title": "Montana Bill Explorer bill record for SB212 / LC0292 (69th Legislature, 2025 Regular Session)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms enactment: signed by Governor 2025-04-16, session law chapter number 150 assigned 2025-04-17. Field sessionLawChapterNumber=150 on the bill record.",
+          "quote": "\"sessionLawChapterNumber\":150; billStatusCode name \"(S) Signed by Governor\" timeStamp 2025-04-16T12:00:00, billProgressCategory \"Became Law\"; \"Chapter Number Assigned\" timeStamp 2025-04-17T14:59:29."
+        }
+      ],
+      "notes": "'Right to Compute Act'. Enacted. Matches packet exactly."
+    },
+    {
+      "bill_key": "MT:SB540 / LC0982",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed Senate 2025-04-03; concurred as amended in House committee 2025-04-17; House 2nd reading not concurred 2025-04-22; died in process 2025-05-23",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-05-23",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://bearbeta.legmt.gov/bills/v1/bills/findBySessionIdAndDraftNumber?sessionId=2&draftNumber=LC0982",
+          "title": "Montana Bill Explorer bill record for SB540 / LC0982 (69th Legislature, 2025 Regular Session)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms bill passed Senate 3rd reading 2025-04-03, was concurred as amended by House committee 2025-04-17, then the House floor did not concur on 2nd reading 2025-04-22, and the bill died in process 2025-05-23; no chapter assigned.",
+          "quote": "\"(S) 3rd Reading Passed\" timeStamp 2025-04-03T13:23:00; \"(H) Committee Report--Bill Concurred as Amended\" timeStamp 2025-04-17T13:12:00; \"(H) 2nd Reading Not Concurred\" timeStamp 2025-04-22T14:40:00; \"(S) Died in Process\" timeStamp 2025-05-23T14:31:26."
+        }
+      ],
+      "notes": "Matches packet exactly (passed Senate, amended in House, ultimately did not become law)."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "state_abbrev": "AL",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "Alabama's 2026 Regular Session (constitutionally capped at 30 legislative meeting days within a 105-calendar-day window, Ala. Const. Amend. 57 / Art. V, Sec. 122) convened 2026-01-13 (legislative day 1) and adjourned sine die on 2026-04-09 (legislative day 30, 87 calendar days after convening), per ALISON's own legislative-day calendar for session '2026RS'. Alabama does not carry individual bills forward into a new year -- any bill not enacted by that sine die date is dead and would require reintroduction in a future session.",
+  "decisions": [
+    {
+      "bill_key": "AL:HB399 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Enacted (Act 2026-573) 2026-04-16; effective 2026-06-01",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-04-16",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "url": "https://alison.legislature.state.al.us/graphql",
+          "title": "ALISON bill data API (query: bills / billModal), instrumentNbr HB399, session 2026RS",
+          "source_type": "legislature_bill_page",
+          "supports": "confirmed_unchanged",
+          "quote": "currentStatus: Enacted; lastAction: Enacted; actNbr: 2026-573; effectiveDateCertain: 2026-06-01; history: 2026-04-09 House 'Delivered to Governor'; 2026-04-17 House 'Enacted'."
+        },
+        {
+          "url": "https://arc-sos.state.al.us/cgi/actdetail.mbr/detail?page=act&year=2026&act=573",
+          "title": "Alabama Secretary of State - Act Detail, Act No. 2026-573",
+          "source_type": "governor_action",
+          "supports": "confirmed_unchanged",
+          "quote": "ACT NUMBER 2026-573; Bill Number H-399; Signed by Governor: Yes; Approved Date and Time: 4-16-2026 10:00 AM; Received Date and Time: 4-16-2026 12:25 PM."
+        }
+      ],
+      "notes": "Data drawn directly from ALISON's own GraphQL data service (the backend of alison.legislature.state.al.us/bill-search), which is the Legislature's own bill-tracking system, plus the Secretary of State's official act record. Packet's captured status ('Enacted 2026-04-16; effective 2026-06-01') is confirmed exactly by the Governor's approval date on the SOS act record. ALISON's internal history log records the 'Enacted' matter one day later (2026-04-17), which appears to be a clerical/journal-entry lag rather than the actual signing date; the SOS approval date (2026-04-16) is treated as authoritative for the enactment date. This bill is ENACTED."
+    },
+    {
+      "bill_key": "AL:HB403 (2026)",
+      "outcome": "corrected",
+      "fields": {
+        "status": "Engrossed (passed House of Origin, Roll Call 945/946/947) 2026-03-17; no further action recorded; died at sine die 2026-04-09 without Senate floor action (companion SB270 was the vehicle enacted)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-03-17",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://alison.legislature.state.al.us/graphql",
+          "title": "ALISON bill data API (query: bills / billModal), instrumentNbr HB403, session 2026RS",
+          "source_type": "legislature_bill_page",
+          "supports": "corrected",
+          "quote": "currentStatus: 'Passed by House of Origin'; lastAction: 'Engrossed'; companionInstrumentNbr: SB270; viewEnacted: null; actNbr: null; last history entry: 2026-03-17 House 'Engrossed' (no history entries after 2026-03-17)."
+        }
+      ],
+      "notes": "Resolves the packet's [VERIFY] flag. HB403 passed the House on 2026-03-17 (103-1 on third reading) and was engrossed, but ALISON's history log shows no Senate committee or floor action afterward -- it never reached a Senate vote before the 2026-04-09 sine die. The identical substantive provisions were instead enacted through companion SB270 (Act 2026-610). Since Alabama does not carry bills into a new year, HB403 itself is DEAD (never enacted) despite having passed its house of origin."
+    },
+    {
+      "bill_key": "AL:SB265 (2026)",
+      "outcome": "corrected",
+      "fields": {
+        "status": "Carried Over to the Call of the Chair (House, Second Reading engrossed substitute stage) 2026-04-09; died at sine die without a House floor vote (companion HB399 was the vehicle enacted)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-04-09",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://alison.legislature.state.al.us/graphql",
+          "title": "ALISON bill data API (query: bills / billModal), instrumentNbr SB265, session 2026RS",
+          "source_type": "legislature_bill_page",
+          "supports": "corrected",
+          "quote": "currentStatus: 'On Third Reading in Second House'; lastAction: 'Carried Over to the Call of the Chair'; viewEnacted: null; actNbr: null; last history entries: 2026-04-09 House 'Economic Development and Tourism Engrossed Substitute Offered' then 2026-04-09 House 'Carried Over to the Call of the Chair' (last recorded action, on sine die day)."
+        }
+      ],
+      "notes": "Resolves the packet's [VERIFY] flag. SB265 passed the Senate (32-0, 2026-03-12) and advanced to House Second Reading with an engrossed committee substitute, but was 'Carried Over to the Call of the Chair' on 2026-04-09 (sine die) and never received a House floor vote. The identical core tax-abatement policy was instead enacted through companion HB399 (Act 2026-573). SB265 itself is DEAD (never enacted, and Alabama does not carry bills to the next year)."
+    },
+    {
+      "bill_key": "AL:SB270 (2026)",
+      "outcome": "corrected",
+      "fields": {
+        "status": "Enacted (Act 2026-610) 2026-04-16; effective 2026-10-01",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-04-16",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://alison.legislature.state.al.us/graphql",
+          "title": "ALISON bill data API (query: bills / billModal), instrumentNbr SB270, session 2026RS",
+          "source_type": "legislature_bill_page",
+          "supports": "corrected",
+          "quote": "currentStatus: Enacted; lastAction: Enacted; actNbr: 2026-610; effectiveDateCertain: 2026-10-01; history: 2026-04-09 Senate 'Delivered to Governor'; 2026-04-17 Senate 'Enacted'."
+        },
+        {
+          "url": "https://arc-sos.state.al.us/cgi/actdetail.mbr/detail?page=act&year=2026&act=610",
+          "title": "Alabama Secretary of State - Act Detail, Act No. 2026-610",
+          "source_type": "governor_action",
+          "supports": "corrected",
+          "quote": "ACT NUMBER 2026-610; Bill Number S-270; Signed by Governor: Yes; Approved Date and Time: 4-16-2026 2:45 PM; Received Date and Time: 4-16-2026 3:34 PM."
+        }
+      ],
+      "notes": "Bill remains ENACTED as the packet recorded, but the exact date is corrected: the Secretary of State's official act record shows the Governor approved SB270 on 2026-04-16 at 2:45 PM (same day as the companion HB399, signed at 10:00 AM), not 2026-04-17 as the packet's captured status stated. ALISON's own internal history log shows the 'Enacted' journal entry one day later (2026-04-17), which is likely a clerical/record-entry lag rather than the actual signing date; the SOS approval date is treated as authoritative."
+    }
+  ]
+}

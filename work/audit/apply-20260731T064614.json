@@ -1,0 +1,73 @@
+{
+  "applied_at": "20260731T064614",
+  "answer_files": [
+    "work/answers/verify/AR.json",
+    "work/answers/verify/IA.json",
+    "work/answers/verify/ID.json",
+    "work/answers/verify/IL.json",
+    "work/answers/verify/KS.json",
+    "work/answers/verify/LA.json",
+    "work/answers/verify/MA.json",
+    "work/answers/verify/ME.json",
+    "work/answers/verify/MI-part1.json",
+    "work/answers/verify/MI-part2.json",
+    "work/answers/verify/MN.json",
+    "work/answers/verify/MO.json",
+    "work/answers/verify/ND.json",
+    "work/answers/verify/NE.json",
+    "work/answers/verify/OH-part1.json",
+    "work/answers/verify/OH-part2.json",
+    "work/answers/verify/OK.json",
+    "work/answers/verify/WI.json"
+  ],
+  "stats": {
+    "outcome:confirmed_unchanged": 14,
+    "already_applied": 122,
+    "verify_still_open": 27,
+    "outcome:corrected": 28,
+    "verify_already_resolved": 73,
+    "skipped_drift": 2,
+    "fields_changed": 1,
+    "ignored_packet_only_field": 10,
+    "outcome:status_changed": 8,
+    "candidate_duplicate": 7,
+    "outcome:unresolvable": 3
+  },
+  "conflicts": [
+    "IA.json: ia-franklin-county-2026.duration `from` mismatch (csv='Temporary; end date not captured' answer='')",
+    "IA.json: ia-jackson-county-2024.date_enacted `from` mismatch (csv='Three documented adoptions in the captured record: (1) 2024-' answer='Three documented adoptions in the captured record: (1) 2024-')",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'date_enacted'",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'duration'",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'affected_projects'",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'outcome'",
+    "MI-part1.json: mi-south-lyon-undated marker not found in 'date_enacted'",
+    "MI-part1.json: mi-south-lyon-undated marker not found in 'duration'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'date_enacted'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'duration'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'legal_basis'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'current_status'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'affected_projects'"
+  ],
+  "skipped": [
+    "IA.json: candidate IA 'Sioux County' (resolution-2026-32) treated as duplicate of ia-sioux-county-2026 (resolution-2026-32)",
+    "IA.json: candidate IA 'Madison County' (no instrument number) treated as duplicate of ia-madison-county-2026 (no instrument number)",
+    "IA.json: candidate IA 'Ida County' (no instrument number) treated as duplicate of ia-ida-county-2026 (no instrument number)",
+    "MI-part1.json: mi-sault-ste-marie-tribe-of-chippewa-indian-2026 unresolvable",
+    "MI-part1.json: mi-grand-blanc-township-2026 unresolvable",
+    "MN.json: mn-eagan-2026 unresolvable",
+    "MN.json: candidate MN 'Rosemount' (ordinance-2026-03) treated as duplicate of mn-rosemount-2026 (ordinance-2026-03)",
+    "MN.json: candidate MN 'Mankato' (no instrument number) treated as duplicate of mn-mankato-2026 (no instrument number)",
+    "MN.json: candidate MN 'Otsego' (ordinance-2026-xx) treated as duplicate of mn-otsego-2026 (ordinance-2026-xx)",
+    "MN.json: candidate MN 'Wright County' (ordinance-26-2) treated as duplicate of mn-wright-county-2026 (ordinance-26-2)"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "ia-franklin-county-2026",
+      "column": "duration_days",
+      "before": "",
+      "after": "548",
+      "reason": "18 months from the 2026-03-31 adoption date computes to 2027-09-30 (548 days).",
+      "source": "IA.json"
+    }
+  ]
+}

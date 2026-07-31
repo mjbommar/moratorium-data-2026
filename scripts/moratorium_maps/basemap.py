@@ -28,9 +28,9 @@ from .data import load_states_geo, ABBREV_TO_NAME
 
 # --- Constants ---
 
-# Output directory for figures
-FIGURES_DIR = Path(__file__).resolve().parent.parent.parent / "latex" / "figures"
-FIGURES_DIR.mkdir(parents=True, exist_ok=True)
+# Output directory for figures. Each format lands in its own subdirectory
+# (figures/pdf, figures/svg, figures/png) to match the published layout.
+FIGURES_DIR = Path(__file__).resolve().parent.parent.parent / "figures"
 
 # Albers Equal Area Conic projection for CONUS
 ALBERS_CRS = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=37.5 +lon_0=-96 +datum=NAD83"
@@ -461,7 +461,7 @@ class BaseUSMap:
         self,
         filename: str,
         *,
-        formats: tuple[str, ...] = ("pdf", "svg"),
+        formats: tuple[str, ...] = ("pdf", "svg", "png"),
         directory: Path | None = None,
     ) -> list[Path]:
         """Save the current figure to file(s).
@@ -469,7 +469,8 @@ class BaseUSMap:
         Args:
             filename: base filename (without extension)
             formats: tuple of formats to save ("pdf", "svg", "png")
-            directory: output directory (defaults to latex/figures/)
+            directory: parent output directory (defaults to figures/); each
+                format is written to a <directory>/<fmt>/ subdirectory
 
         Returns:
             list of saved file paths
@@ -477,15 +478,16 @@ class BaseUSMap:
         if self._fig is None:
             raise RuntimeError("No figure to save. Call choropleth() or categorical() first.")
 
-        outdir = directory or FIGURES_DIR
-        outdir.mkdir(parents=True, exist_ok=True)
+        parent = directory or FIGURES_DIR
 
         paths = []
         for fmt in formats:
+            outdir = parent / fmt
+            outdir.mkdir(parents=True, exist_ok=True)
             path = outdir / f"{filename}.{fmt}"
             self._fig.savefig(path, format=fmt, bbox_inches="tight", pad_inches=0.1)
             paths.append(path)
-            print(f"  Saved: {path}")
+            print(f"  Saved: {path.relative_to(parent.parent)}")
 
         return paths
 

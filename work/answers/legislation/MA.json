@@ -1,0 +1,122 @@
+{
+  "state_abbrev": "MA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "The 194th General Court (2025-2026) is a two-year body; bills filed in 2025 remain the same live matter throughout 2026 without refiling, and joint committees routinely extend their own reporting deadlines by order (as H.4144 shows, extended from an earlier deadline to 2026-03-18). Formal sessions typically run into November 2026 with informal sessions after, and the biennium itself does not end until early January 2027, so a bill sitting in a House or Senate committee in mid-2026 is ordinarily still alive, not dead.",
+  "decisions": [
+    {
+      "bill_key": "MA:Chapter 238 of the Acts of 2024 / G.L. c. 64H Section 6(zz)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Enacted 2024 as Chapter 238 of the Acts of 2024; codified data-center sales/use tax exemption at G.L. c. 64H Section 6(zz) remains in force as of 2026-07-31",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "",
+        "chamber_of_origin": "Joint"
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://malegislature.gov/Laws/SessionLaws/Acts/2024/Chapter238",
+          "title": "Session Law - Acts of 2024, Chapter 238 (An Act Relative to Strengthening Massachusetts' Economic Leadership)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms Chapter 238 of the Acts of 2024 exists as an enacted session law (an economic-development bond act); page shows no repeal.",
+          "quote": "Session Law - Acts of 2024 Chapter 238 - AN ACT RELATIVE TO STRENGTHENING MASSACHUSETTS' ECONOMIC LEADERSHIP"
+        },
+        {
+          "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter64H/Section6",
+          "title": "General Laws, Part I, Title IX, Chapter 64H, Section 6 (sales tax exemptions)",
+          "source_type": "other",
+          "supports": "Confirms subsection (zz) is currently codified and in force, providing the sales/use tax exemption for qualified data center equipment, software, electricity, and construction costs, with the 100,000-sq-ft / $50 million / 20-year qualification-period thresholds matching the tracker's description.",
+          "quote": "Eligible data center equipment for use in a qualified data center...20-year 'qualification period' beginning when the secretary certifies the data center"
+        }
+      ],
+      "notes": "This is already-enacted law, not a pending bill, so there is nothing further for it to become; confirmed the exemption is still on the books in 2026. The exact 2024 gubernatorial-approval date could not be confirmed from the session-law page itself (no signature-block date was rendered in the fetched content), so last_action_date_iso is left blank per schema guidance rather than guessed. Chamber of origin recorded as Joint since this was an omnibus economic-development bond bill produced via conference/consolidation of House and Senate versions, not a single-chamber bill."
+      }
+    ,
+    {
+      "bill_key": "MA:H.4144 (194th)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Accompanied a study order (H.5324) 2026-04-06; effectively shelved for the remainder of the 194th General Court",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-04-06",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H4144",
+          "title": "Bill H.4144, 194th General Court - An Act relative to energy affordability, independence and innovation",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the full timeline (referred to Telecommunications, Utilities and Energy 2025-05-15; reporting deadline extended to 2026-03-18; then accompanied a study order, H.5324, on 2026-04-06), matching the packet's recorded status exactly with no change since.",
+          "quote": "4/6/2026 | House | Accompanied a study order (see H5324)"
+        }
+      ],
+      "notes": "Judgment call on bill_status_category: in Massachusetts practice, a committee sending a bill to 'accompany a study order' is the standard mechanism for disposing of a bill without a floor vote, and it does not proceed further under its own number this session -- matching the task guidance that a 'study order that effectively kills it' should be coded failed_died. The underlying subject (energy affordability/grid planning) is not dead as a policy matter (compare H.83 and HD.5404, still pending), but this specific bill number, H.4144, has reached a terminal disposition. Confidence reduced slightly (0.7) to reflect that this is an interpretive category assignment rather than an explicit 'rejected' vote."
+    },
+    {
+      "bill_key": "MA:H.83 (194th)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Reported favorably by Joint Committee on Advanced Information Technology, the Internet and Cybersecurity 2025-12-24; discharged from Joint Rules and referred to House Rules Committee 2026-01-08; pending as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-01-08",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H83",
+          "title": "Bill H.83, 194th General Court - An Act establishing a special legislative commission to study load growth due to AI and data centers",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms favorable committee report 2025-12-24, discharge from Joint Rules and transfer to House Rules Committee on 2026-01-08, matching the packet's note about 'House Rules status after 2026-01-08 discharge' with no further action recorded since.",
+          "quote": "1/8/2026 | Discharged from Joint Rules; transferred to House Rules Committee"
+        }
+      ],
+      "notes": "Bill has an affirmative favorable report and is alive and pending in House Rules; no adverse disposition of any kind."
+    },
+    {
+      "bill_key": "MA:HD.5404 (194th)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Referred to House Rules Committee 2025-12-11; no further action recorded as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2025-12-11",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://malegislature.gov/Bills/194/HD5404",
+          "title": "HD.5404, 194th General Court - An Act relative to the cost of electricity at large and qualified data centers",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill (sponsored by Rep. Rodney M. Elliott) was referred to the House Committee on Rules on 2025-12-11 and shows no subsequent hearing, report, or other action recorded through the research date.",
+          "quote": "12/11/2025 | Referred to the House Committee on Rules"
+        }
+      ],
+      "notes": "Matches packet exactly; still pending in House Rules with no adverse action, consistent with the 194th General Court's two-year carryover."
+    },
+    {
+      "bill_key": "MA:S.37 -> S.2630 (194th)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Reported favorably from Joint Committee on Advanced Information Technology, the Internet and Cybersecurity as new-draft S.2630, referred to Senate Ways and Means 2025-10-16; pending as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2025-10-16",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S2630",
+          "title": "Bill S.2630, 194th General Court - An Act promoting economic development with emerging artificial intelligence models and safety",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms S.2630 was designated as a new draft of S.37, reported favorably, and referred to Senate Ways and Means on 2025-10-16, matching the packet exactly, with no action recorded since.",
+          "quote": "10/16/2025 | Designated as new draft of Senate Bill 37 | Referred to Senate Ways and Means Committee"
+        }
+      ],
+      "notes": "Alive and pending in Senate Ways and Means; no adverse disposition."
+    }
+  ],
+  "new_bills": []
+}

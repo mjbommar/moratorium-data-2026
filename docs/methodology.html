@@ -244,14 +244,14 @@
 <li>Resolve <code>[VERIFY]</code> flags by re-checking primary sources via real-Chrome browser sessions</li>
 <li>Add moratoria identified through news coverage but missed by automated extraction</li>
 </ul>
-<p>The final cleaned inventory has <strong>222 entries across 30 states</strong> (<code>data/moratorium_inventory.csv</code>).</p>
+<p>As of the v2026.07 refresh the cleaned inventory has <strong>323 entries across 35 states</strong> (<code>data/moratorium_inventory.csv</code>). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.</p>
 <h3 id="phase-4-geocoding-added-v2026042">Phase 4: Geocoding (added v2026.04.2)</h3>
 <p>Each row in the cleaned inventory was assigned WGS84 latitude and longitude coordinates representing the jurisdiction's centroid. Two-tiered approach:</p>
 <ol>
 <li><strong>Primary geocoder: OSM Nominatim.</strong> Free, open-source, with reasonable U.S. administrative boundary coverage. Rate-limited to 1 request/second per the public API usage policy.</li>
 <li><strong>Fallback: U.S. Census Geocoder.</strong> Used when Nominatim returns no result. The Census Geocoder is authoritative for U.S. jurisdictions but works best for street addresses; for "Jurisdiction, State" queries we found Nominatim more reliable.</li>
 </ol>
-<p>Of 222 rows, 220 (99.1%) were successfully geocoded. The 2 blanks are aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) that aren't real geographic points.</p>
+<p>Of 323 rows, 321 (99.4%) are successfully geocoded. The 2 blanks are aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) that aren't real geographic points.</p>
 <p>After geocoding, a triple-check audit ran 89 verifications across three independent methods:</p>
 <ol>
 <li><strong>Random sampling against geographic knowledge</strong> (24 rows): manually verify each coordinate matches a well-known location.</li>
@@ -266,24 +266,115 @@
 <li>Waterville Township, OH (Stark County → Lucas County)</li>
 </ul>
 <p>Each correction used article-context disambiguation (<code>legal_basis</code>, <code>trigger</code>, and news-source mentions). Treat the lat/lon column as ≥99% accurate. The script is <code>scripts/geocode_inventory.py</code>; re-run after adding new rows to fill in their coordinates.</p>
-<h2 id="why-the-inventory-n222-is-bigger-than-the-extraction-cohort-n348-wait-thats-smaller">Why the inventory (n=222) is bigger than the extraction cohort (n=348)... wait, that's smaller</h2>
+<h2 id="why-the-inventory-n323-and-the-extraction-cohort-n348-differ">Why the inventory (n=323) and the extraction cohort (n=348) differ</h2>
 <p>Right — the numbers can be confusing. Here's the difference:</p>
 <ul>
-<li><strong>Inventory (n=222):</strong> the cleaned, deduplicated count of unique moratorium <strong>instruments</strong> (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.</li>
+<li><strong>Inventory (n=323):</strong> the cleaned, deduplicated count of unique moratorium <strong>instruments</strong> (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.</li>
 <li><strong>Structured-extraction cohort (n=348):</strong> the count of confidence-filtered structured <strong>extractions</strong>. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.</li>
 </ul>
-<p>The two numbers measure different things and don't need to match. The 222 is the headline count of moratoria; the 348 is the size of the line-coded sample used for clause-prevalence percentages.</p>
+<p>The two numbers measure different things and do not need to match. The 323 is the headline count of moratoria; the 348 is the size of the line-coded sample used for clause-prevalence percentages.</p>
 <h2 id="what-we-dont-claim">What we don't claim</h2>
 <ul>
 <li><strong>We don't claim to have every moratorium.</strong> Small townships without online minutes are nearly impossible to find systematically. Where we know our coverage is incomplete, we say so in <a href="known-gaps.html"><code>docs/known-gaps.md</code></a>.</li>
 <li><strong>We don't claim our percentages are statistical inferences.</strong> They describe the corpus we have, not a probability sample of all moratoria. The corpus is biased toward jurisdictions that post things online.</li>
 <li><strong>We don't claim to predict outcomes.</strong> This is a descriptive dataset, not a causal one.</li>
 </ul>
+<h2 id="phase-5-the-refresh-cycle-added-v202607">Phase 5: The refresh cycle (added v2026.07)</h2>
+<p>Phases 1-4 build a dataset. Keeping it true is a different problem: a moratorium
+is a <em>time-bounded</em> instrument, so a correct record decays into a wrong one on a
+known date, with no external signal. The v2026.07 refresh introduced an explicit
+cycle for this, and it is the procedure future refreshes should follow.</p>
+<p><strong>1. Gate before touching anything.</strong> <code>scripts/validate_dataset.py</code> is the
+executable form of the codebook — closed vocabularies, date/duration coherence,
+ID uniqueness, geocoding bounds, <code>[VERIFY]</code> accounting, and agreement between the
+CSVs and <code>summary_stats.json</code>. Run it first, so any error found later is
+attributable to the refresh rather than inherited.</p>
+<p><strong>2. Derive the worklist, don't guess it.</strong> <code>scripts/build_worklist.py</code> computes
+which rows need attention as of a reference date, and why:</p>
+<table>
+<thead>
+<tr>
+<th>Bucket</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>expired_in_force</code></td>
+<td>recorded in force, but <code>date_enacted_iso + duration_days</code> has already passed</td>
+</tr>
+<tr>
+<td><code>until_date_stale</code></td>
+<td>in force, ends on a calendar date not captured in typed columns</td>
+</tr>
+<tr>
+<td><code>stale_pending</code></td>
+<td>proposed, and old enough that it has surely been decided</td>
+</tr>
+<tr>
+<td><code>open_ended</code></td>
+<td>in force with no scheduled end — currency must be affirmatively confirmed</td>
+</tr>
+<tr>
+<td><code>verify_backlog</code></td>
+<td>carries one or more <code>[VERIFY ...]</code> markers</td>
+</tr>
+<tr>
+<td><code>unverified_date</code></td>
+<td>adoption date never confirmed against a primary source</td>
+</tr>
+</tbody>
+</table>
+<p>Each item is emitted with the exact question to answer, so the researcher is not
+inferring the ask. In v2026.07 this produced 160 of 222 rows needing work.</p>
+<p><strong>3. Partition and fan out.</strong> <code>scripts/make_packets.py</code> splits the worklist into
+per-state packets, matching how the sources are organized — one state's portals,
+minutes, and legislature. Research is then parallel and independent.</p>
+<p><strong>4. Research writes JSON, never CSV.</strong> Every pass emits a decision file
+conforming to <a href="../work/schemas/research_decision.schema.json"><code>work/schemas/research_decision.schema.json</code></a>:
+an outcome (<code>confirmed_unchanged</code> / <code>status_changed</code> / <code>corrected</code> /
+<code>unresolvable</code>), the proposed field changes with their <em>prior</em> values, resolutions
+for each <code>[VERIFY]</code> marker, and evidence with a source-type ranking that puts
+ordinances and minutes above news. <code>unresolvable</code> is a first-class outcome and is
+recorded rather than papered over.</p>
+<p><strong>5. Merge deterministically, with a conflict guard.</strong>
+<code>scripts/apply_research.py</code> is the only thing that writes findings into the
+inventory. It requires explicit answer-file paths (never selecting by
+modification time), validates against the schema, and <strong>refuses any change whose
+stated prior value no longer matches the CSV</strong> — which is how a stale answer,
+written against a revision another pass has since corrected, gets caught instead
+of silently overwriting newer data. Every applied change is logged to
+<code>work/audit/</code>.</p>
+<p><strong>6. Flag weak evidence rather than laundering it.</strong> A new instrument admitted on
+news-only evidence, or below a confidence threshold, automatically receives a
+<code>[VERIFY ...]</code> marker naming what is missing. It therefore reappears in the next
+refresh's worklist instead of hardening into apparent fact.</p>
+<p><strong>7. Reconcile, re-geocode, regenerate, re-gate.</strong> <code>reconcile_durations.py</code>
+enforces the codebook's one valid <code>duration_days</code>/<code>duration_kind</code> combination;
+<code>geocode_inventory.py</code> plus declared overrides fill coordinates; the generators
+rebuild every artifact; then the validator runs again.</p>
+<p>A property worth preserving: every step is <strong>idempotent</strong>. Re-running the merge
+over already-applied answers is a clean no-op, which is what makes incremental
+application safe when different states' research lands at different times.</p>
 <h2 id="reproducibility">Reproducibility</h2>
-<p>Every step of the pipeline can be re-run. The scripts are in <a href="../scripts/"><code>scripts/</code></a> with a <a href="../scripts/index.html">README</a> explaining each one. To regenerate every table and figure from the source data:</p>
-<pre><code class="language-bash">python -m scripts.generate_tables   # rebuilds all tables/*.tex
-python -m scripts.moratorium_maps all   # rebuilds all figures/
+<p>Every step of the pipeline can be re-run. The scripts are in <a href="../scripts/"><code>scripts/</code></a> with a <a href="../scripts/index.html">README</a> explaining each one. To regenerate every artifact from the source data:</p>
+<pre><code class="language-bash">pip install pandas matplotlib seaborn geopandas shapely markdown pymdown-extensions
+
+python3 scripts/validate_dataset.py          # gate
+python3 scripts/fetch_basemap.py             # one-time: Census state shapefile
+python3 scripts/build_summary_stats.py       # data/summary_stats.json
+python3 scripts/build_geojson.py             # site/moratoria.geojson
+python3 -m scripts.generate_tables           # tables/*.tex
+PYTHONPATH=scripts python3 -m moratorium_maps all   # figures/{pdf,svg,png}/
+python3 scripts/make_timeline.py             # site/timeline.svg
+python3 scripts/update_state_counts.py       # states/
+python3 scripts/build_site.py                # HTML site
 </code></pre>
+<p>Before v2026.07 these commands did not work: the table and map modules had been
+copied from the private working repository without repathing, and
+<code>summary_stats.json</code> and <code>moratoria.geojson</code> had no generator at all. Both are
+fixed, which is why the artifacts in this release are reproducible from the
+shipped CSVs.</p>
 <p>The original document corpus (~12 GB) is not in this repository (it's hosted separately on Zenodo as the supplementary data deposit) but the cleaned inventory + structured extractions are sufficient to reproduce all published statistics.</p>
 <h2 id="tooling-and-models">Tooling and models</h2>
 <table>
@@ -343,7 +434,7 @@ python -m scripts.moratorium_maps all   # rebuilds all figures/
 </tbody>
 </table>
 <h2 id="updates">Updates</h2>
-<p>Each refresh of the dataset is a tagged GitHub release (<code>v2026.04</code>, <code>v2026.10</code>, ...) with a corresponding <a href="https://doi.org/">Zenodo DOI</a> (planned). Refresh cadence is roughly quarterly while the moratorium wave is active.</p>
+<p>Each refresh of the dataset is a tagged GitHub release (<code>v2026.04</code>, <code>v2026.07</code>, ...) with a corresponding <a href="https://doi.org/">Zenodo DOI</a> (planned). Refresh cadence is roughly quarterly while the moratorium wave is active.</p>
 </main>
 
 <footer>

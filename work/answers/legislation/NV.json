@@ -1,0 +1,156 @@
+{
+  "state_abbrev": "NV",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "The Nevada Legislature meets in regular session only in odd-numbered years (biennial, constitutionally limited to 120 days). NELIS's own 83rd (2025) Session Information page states: 'The 83rd Session adjourned Sine Die on June 3, 2025.' There is no 84th regular session until 2027 (NELIS lists '84th (2027) Session' as the next one; no 2026 regular session exists). However, Governor Lombardo DID call a special session in 2025-2026: the 36th (2025) Special Session convened November 13, 2025 and adjourned Sine Die on November 19, 2025 (confirmed via NELIS session-info page and the Governor's Proclamation PDF at leg.state.nv.us/Session/36th2025Special/Docs/Proclamation.pdf). The Proclamation's authorized business was limited to: motor vehicle short-term-lease insurance (SB194), a Statewide Health Care Access and Recruitment Program (SB434), a public-safety/criminal-justice omnibus bill (SB457), a film/motion-picture production-studio infrastructure tax-credit act (AB238, 'Nevada Studio Infrastructure Jobs and Workforce Training Act'), alcoholic-beverage regulation (AB404), a Windsor Park housing relocation program (SB450 from the 82nd Session), a Legislative Department land-parcel/NRS-organization cleanup (AB600 from the 83rd Session), cybersecurity, a general assistance program, school-zone traffic safety, privacy of public officers' information, wages and hours, and specified appropriations. None of these authorized topics touch data centers, energy/utility siting, tax abatements under NRS 360.754/360.750s, or NRS 704 public-utility definitions, and the special session's own subject-matter restriction (Nev. Const. art. V, sec. 9: the Legislature 'shall not introduce, consider or pass any bills except those related to the business for which the Legislature has been specially convened') means it legally could not have reopened or amended any of these 7 bills. All 7 bills below reached their final regular-session dispositions between April 12, 2025 and June 10, 2025, well before the special session even convened, so the special session had zero effect on them. This confirms the 2025 dispositions captured in the original packet are final and will not change absent a future 2027 regular session or a new special session on this topic.",
+  "decisions": [
+    {
+      "bill_key": "NV:AB226 (83rd, 2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Vetoed by the Governor, 2025-06-10; returned to the 2027 Session",
+        "bill_status_category": "vetoed",
+        "last_action_date_iso": "2025-06-10",
+        "chamber_of_origin": "Assembly"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/AB226/Overview",
+          "title": "AB226 (83rd, 2025) Overview - Nevada Electronic Legislative Information System (NELIS)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms AB226 passed both the Assembly (34-7-1, 2025-05-26) and Senate (19-2, 2025-05-30), was enrolled and delivered to the Governor 2025-06-02, and vetoed 2025-06-10.",
+          "quote": "Jun 10, 2025 Vetoed by the Governor. Return to 2027 Session."
+        }
+      ],
+      "notes": "Packet disposition confirmed exactly via the bill's NELIS Overview tab (fetched via the page's own FillSelectedBillTab AJAX endpoint, which serves the same server-rendered content as clicking the Overview tab in a browser). No override occurred; the veto is final since the 83rd Session adjourned sine die on 2025-06-03 and the 36th Special Session's authorized scope did not include this subject matter."
+      },
+    {
+      "bill_key": "NV:AB458 (83rd, 2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Approved by the Governor 2025-06-05; enacted as Chapter 254, assigned 2025-06-06",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2025-06-06",
+        "chamber_of_origin": "Assembly"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/AB458/Overview",
+          "title": "AB458 (83rd, 2025) Overview - Nevada Electronic Legislative Information System (NELIS)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms AB458 passed the Assembly and Senate (as amended), was enrolled and delivered to the Governor 2025-05-29, approved 2025-06-05, and assigned Chapter 254 on 2025-06-06.",
+          "quote": "Jun 05, 2025 Approved by the Governor. Jun 06, 2025 Chapter 254."
+        }
+      ],
+      "notes": "ENACTED - Chapter 254 of 2025. Packet disposition confirmed exactly. Section 37 effective 2025-06-05; Sections 1-36 effective 2025-06-05 (regulatory prep) and 2025-10-01 (all other purposes); Section 10 expires 2029-12-31."
+    },
+    {
+      "bill_key": "NV:AB509 (83rd, 2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Approved by the Governor 2025-05-30; enacted as Chapter 155",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2025-05-30",
+        "chamber_of_origin": "Assembly"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/AB509/Overview",
+          "title": "AB509 (83rd, 2025) Overview - Nevada Electronic Legislative Information System (NELIS)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms AB509 (Assembly Committee on Commerce and Labor) passed both chambers, was enrolled and delivered to the Governor 2025-05-27, and approved 2025-05-30 as Chapter 155.",
+          "quote": "May 30, 2025 Approved by the Governor. Chapter 155."
+        }
+      ],
+      "notes": "ENACTED - Chapter 155 of 2025. Packet disposition confirmed exactly. Section 20 and 19.5 effective 2025-05-30; Sections 1-19 effective 2025-05-30 (regulatory prep) and 2026-07-01 (all other purposes)."
+    },
+    {
+      "bill_key": "NV:AB77 (83rd, 2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "No further action allowed (pursuant to Joint Standing Rule No. 14.3.1), 2025-04-12 - died in committee",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-04-12",
+        "chamber_of_origin": "Assembly"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/AB77/Overview",
+          "title": "AB77 (83rd, 2025) Overview - Nevada Electronic Legislative Information System (NELIS)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms AB77 (prefiled 2024-11-20, Assembly Committee on Revenue) was read first and referred to committee 2025-02-04, and then died: 'no further action allowed' on 2025-04-12 with no votes, hearings, or further history recorded.",
+          "quote": "Apr 12, 2025 (Pursuant to Joint Standing Rule No. 14.3.1, no further action allowed.)"
+        }
+      ],
+      "notes": "Died by missed committee-passage deadline under Joint Standing Rule 14.3.1; this is Nevada's standard mechanism for killing bills that do not clear committee by the rule's deadline. Final - no revival possible after sine die (2025-06-03)."
+    },
+    {
+      "bill_key": "NV:SB385 (83rd, 2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "No further action allowed (pursuant to Joint Standing Rule No. 14.3.1), 2025-04-12 - died in committee",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-04-12",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/SB385/Overview",
+          "title": "SB385 (83rd, 2025) Overview - Nevada Electronic Legislative Information System (NELIS)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms SB385 (Senator Titus) was read first and referred to Senate Committee on Revenue and Economic Development 2025-03-17, and died: 'no further action allowed' on 2025-04-12.",
+          "quote": "Apr 12, 2025 (Pursuant to Joint Standing Rule No. 14.3.1, no further action allowed.)"
+        }
+      ],
+      "notes": "Died by missed committee-passage deadline, same procedural mechanism and same date as AB77. Final."
+    },
+    {
+      "bill_key": "NV:SB403 (83rd, 2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "No further action taken, 2025-06-03 - died after passing Senate but stalling in Assembly",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-06-03",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/SB403/Overview",
+          "title": "SB403 (83rd, 2025) Overview - Nevada Electronic Legislative Information System (NELIS)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms SB403 passed the Senate 21-0 (2025-05-30, as amended), was read a second time in the Assembly 2025-06-01 after committee referral to Ways and Means, and then died: 'No further action taken' on 2025-06-03, the day the 83rd Session adjourned sine die.",
+          "quote": "Jun 03, 2025 (No further action taken.) Assembly: No Floor Session Senate: No Floor Session"
+        }
+      ],
+      "notes": "Passed the Senate but never received Assembly floor action before sine die adjournment (2025-06-03); died with the session. Final."
+    },
+    {
+      "bill_key": "NV:SB69 (83rd, 2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Approved by the Governor 2025-06-05; enacted as Chapter 334, assigned 2025-06-06",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2025-06-06",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/SB69/Overview",
+          "title": "SB69 (83rd, 2025) Overview - Nevada Electronic Legislative Information System (NELIS)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms SB69 (Senate Committee on Revenue and Economic Development, prefiled 2024-11-20) passed both chambers as amended, was enrolled and delivered to the Governor 2025-06-01, approved 2025-06-05, and assigned Chapter 334 on 2025-06-06.",
+          "quote": "Jun 05, 2025 Approved by the Governor. Jun 06, 2025 Chapter 334."
+        }
+      ],
+      "notes": "ENACTED - Chapter 334 of 2025. Packet disposition confirmed exactly. Sections 1, 10, 12-14 effective 2025-10-01; Sections 2-5 effective 2025-10-01 and expire 2032-06-30; Sections 6-9 and 11 effective 2025-10-01 and expire 2036-06-30."
+    }
+  ],
+  "new_bills": []
+}

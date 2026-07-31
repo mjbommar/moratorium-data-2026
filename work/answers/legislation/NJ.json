@@ -1,0 +1,490 @@
+{
+  "state_abbrev": "NJ",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "New Jersey's 221st Legislature (2024-2025 session) adjourned sine die in mid-January 2026 (final flurry of floor action 2026-01-12, new 222nd Legislature seated 2026-01-13); NJ does not carry bills across a Legislature boundary with the same number, so any 2024-2025 bill not enacted before that changeover is dead and would need reintroduction as a new bill in 2026-2027 to advance. The 222nd Legislature (2026-2027 session) began 2026-01-13 and runs as a single continuous biennium into January 2028, so a 2026-2027 bill sitting in committee as of 2026-07-31 is simply pending, not dead or 'carried_over' in the cross-Legislature sense; true carried_over status would only apply if checking status deep into 2027 for a bill still alive from 2026.",
+  "decisions": [
+    {
+      "bill_key": "NJ:A3966 (2026-2027)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Reported from Assembly Environment and Solid Waste Committee with amendments and referred to Assembly Appropriations Committee, 2026-03-16; no further action recorded through 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-03-16",
+        "chamber_of_origin": "Assembly"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/A3966/2026",
+          "title": "NJ Legislature bill history API - A3966 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Full recorded history: introduced/referred 2026-01-13, reported out with amendments and referred to Assembly Appropriations 2026-03-16, nothing since.",
+          "quote": "Reported out of Asm. Comm. with Amendments, and Referred to Assembly Appropriations Committee"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billDescription/A3966/2026",
+          "title": "NJ Legislature bill description API - A3966 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "CurrentStatus code AAP confirms bill is presently parked in Assembly Appropriations Committee.",
+          "quote": "\"CurrentStatus\":\"AAP\""
+        }
+      ],
+      "notes": "Resolves the packet's [VERIFY] flag: no floor action or further amendment occurred after the 2026-03-16 committee report. Identical bill S4400 (2026-2027); prior-session analog was A5892 (2024-2025), which did not advance and died with the 221st Legislature."
+    },
+    {
+      "bill_key": "NJ:A4710 (2026-2027)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced 2026-03-16, referred to Assembly Science, Innovation and Technology Committee; no further action recorded through 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-03-16",
+        "chamber_of_origin": "Assembly"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/A4710/2026",
+          "title": "NJ Legislature bill history API - A4710 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Only history entry is the 2026-03-16 introduction and committee referral; no other actions recorded.",
+          "quote": "Introduced, Referred to Assembly Science, Innovation and Technology Committee"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billDescription/A4710/2026",
+          "title": "NJ Legislature bill description API - A4710 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "CurrentStatus code AST confirms bill remains in Assembly Science, Innovation and Technology Committee.",
+          "quote": "\"CurrentStatus\":\"AST\""
+        }
+      ]
+    },
+    {
+      "bill_key": "NJ:A5462 (2024-2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed both houses 2026-01-12; pocket veto (bill not acted on by Governor before end of 221st Legislature) 2026-01-20",
+        "bill_status_category": "vetoed",
+        "last_action_date_iso": "2026-01-20",
+        "chamber_of_origin": "Assembly"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetailHist/billHistory/A5462/2024",
+          "title": "NJ Legislature historical bill history API - A5462 (2024-2025)",
+          "source_type": "legislature_bill_page",
+          "supports": "History confirms passage of both houses 2026-01-12 and a recorded pocket veto entry 2026-01-20.",
+          "quote": "Pocket Veto - Bills not Acted on by Governor-end of Session"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetailHist/billDescription/A5462/2024",
+          "title": "NJ Legislature historical bill description API - A5462 (2024-2025)",
+          "source_type": "legislature_bill_page",
+          "supports": "Code_Description field explicitly labels the final disposition as a pocket veto.",
+          "quote": "\"Code_Description\":\"Pocket Veto\""
+        }
+      ],
+      "notes": "NJ's own status code labels this a 'Pocket Veto' (a lapse from Governor inaction at session's end, not an affirmative veto message); categorized here as 'vetoed' per task instructions, since the bill is dead either way and this is the closer of the two applicable enum values."
+    },
+    {
+      "bill_key": "NJ:A5466 (2024-2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Enacted as P.L.2025, c.98 on 2025-07-08",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2025-07-08",
+        "chamber_of_origin": "Assembly"
+      },
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetailHist/billHistory/A5466/2024",
+          "title": "NJ Legislature historical bill history API - A5466 (2024-2025)",
+          "source_type": "legislature_bill_page",
+          "supports": "History shows passage of both houses and gubernatorial approval on 2025-07-08.",
+          "quote": "Approved P.L.2025, c.98."
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetailHist/billDescription/A5466/2024",
+          "title": "NJ Legislature historical bill description API - A5466 (2024-2025)",
+          "source_type": "legislature_bill_page",
+          "supports": "Code_Description confirms the bill was signed by the Governor.",
+          "quote": "\"Code_Description\":\"Bills and Joint Resolutions Signed by the Governor\""
+        }
+      ]
+    },
+    {
+      "bill_key": "NJ:A796 / S731 (2026-2027)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "A796 passed the Assembly 2026-03-23, substituted for S731 and passed both houses 2026-06-30, and was enacted as P.L.2026, c.32 on 2026-07-07",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-07-07",
+        "chamber_of_origin": "Assembly"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/A796/2026",
+          "title": "NJ Legislature bill history API - A796 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Full history: passed Assembly 2026-03-23, substituted for S731 and passed both houses 2026-06-30, approved by the Governor 2026-07-07.",
+          "quote": "Approved P.L.2026, C.32."
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billDescription/A796/2026",
+          "title": "NJ Legislature bill description API - A796 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Code_Description confirms gubernatorial signature; IdenticalBillNumber confirms S731 as companion.",
+          "quote": "\"Code_Description\":\"Bills and Joint Resolutions Signed by the Governor\""
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billDescription/S731/2026",
+          "title": "NJ Legislature bill description API - S731 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms S731 was substituted by A796 rather than advancing independently.",
+          "quote": "\"Code_Description\":\"Substituted by another Bill\""
+        }
+      ],
+      "notes": "Material update: packet only reflected status through the 2026-03-24 Assembly passage; the bill has since passed both houses and been signed into law as P.L.2026, c.32 (2026-07-07). Prior-session analog was A5462/S4307 (2024-2025), which pocket-vetoed."
+    },
+    {
+      "bill_key": "NJ:S3379 / A4096 / A4696 (2026-2027)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "S3379 amended and passed the Senate, then amended in Assembly Telecommunications and Utilities, substituted for A4096, and passed both houses 2026-06-30; awaiting gubernatorial action as of 2026-07-31. Companion A4696 (identical to separate bill S2274, not part of the S3379/A4096 pairing) remains in Assembly Telecommunications and Utilities Committee since introduction 2026-03-16",
+        "bill_status_category": "passed_both_chambers",
+        "last_action_date_iso": "2026-06-30",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/S3379/2026",
+          "title": "NJ Legislature bill history API - S3379 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "History shows Senate passage 2026-03-23, Assembly committee amendment, substitution for A4096, and passage of both houses 2026-06-30 with no action since.",
+          "quote": "Passed Senate (Passed Both Houses) (39-0)"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billDescription/S3379/2026",
+          "title": "NJ Legislature bill description API - S3379 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "CurrentStatus code PBH = Passed Both Houses, i.e. awaiting the Governor.",
+          "quote": "\"Code_Description\":\"Passed both Houses\""
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/A4096/2026",
+          "title": "NJ Legislature bill history API - A4096 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms A4096 was substituted by S3379 on 2026-06-30 rather than advancing on its own.",
+          "quote": "Substituted by S3379 (2R)"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/A4696/2026",
+          "title": "NJ Legislature bill history API - A4696 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "A4696 has only its 2026-03-16 introduction/referral recorded, with no further movement, distinguishing it from the S3379/A4096 pairing.",
+          "quote": "Introduced, Referred to Assembly Telecommunications and Utilities Committee"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billDescription/A4696/2026",
+          "title": "NJ Legislature bill description API - A4696 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "IdenticalBillNumber for A4696 is S2274, not S3379/A4096, confirming it is a separate, less-advanced companion track; prior-session analog was S4293/A5548 (2024-2025).",
+          "quote": "\"IdenticalBillNumber\":\"S2274\""
+        }
+      ],
+      "notes": "Packet's current_status_text only captured a March 2026 committee snapshot; the primary vehicle S3379 has since passed both chambers. Treat A4696 as a distinct, less-advanced bill still in committee."
+    },
+    {
+      "bill_key": "NJ:S3611 (2026-2027)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced 2026-02-19, referred to Senate Community and Urban Affairs Committee; no further action recorded through 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-02-19",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/S3611/2026",
+          "title": "NJ Legislature bill history API - S3611 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Only history entry is the 2026-02-19 introduction and committee referral.",
+          "quote": "Introduced in the Senate, Referred to Senate Community and Urban Affairs Committee"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billDescription/S3611/2026",
+          "title": "NJ Legislature bill description API - S3611 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "CurrentStatus code SCU confirms the bill remains in Senate Community and Urban Affairs Committee.",
+          "quote": "\"CurrentStatus\":\"SCU\""
+        }
+      ]
+    },
+    {
+      "bill_key": "NJ:S4293 (2024-2025)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Passed both houses 2025-06-30; conditionally vetoed 2025-10-20; the 221st Legislature adjourned in January 2026 without the Legislature ever concurring in the Governor's recommendations or overriding the veto, so the bill died with the conditional veto unresolved",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-10-20",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetailHist/billHistory/S4293/2024",
+          "title": "NJ Legislature historical bill history API - S4293 (2024-2025)",
+          "source_type": "legislature_bill_page",
+          "supports": "Full recorded history ends at the 2025-10-20 conditional veto entry; no subsequent concurrence, override, or other action is recorded even though the 221st Legislature had additional floor days in December 2025-January 2026 (visible in other bills' histories, e.g. S4928).",
+          "quote": "Conditional Veto, Received in the Senate"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetailHist/billDescription/S4293/2024",
+          "title": "NJ Legislature historical bill description API - S4293 (2024-2025)",
+          "source_type": "legislature_bill_page",
+          "supports": "Code_Description shows the bill's last status as merely 'Received by the Senate', consistent with no further floor action being taken on the conditional veto.",
+          "quote": "\"Code_Description\":\"Received by the Senate\""
+        }
+      ],
+      "notes": "Inferred disposition: the bill history shows no reconsideration vote after the conditional veto, and the 221st Legislature is confirmed (via other bills in this packet) to have remained active into January 2026, so the absence of any further S4293 action through session's end indicates it died rather than being carried forward. The reporting requirement was substantially reintroduced in 2026-2027 as S3379/A4096 (now passed both houses) and A4696/S2274."
+    },
+    {
+      "bill_key": "NJ:S4928 (2024-2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Enacted as P.L.2025, c.335 on 2026-01-20",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-01-20",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetailHist/billHistory/S4928/2024",
+          "title": "NJ Legislature historical bill history API - S4928 (2024-2025)",
+          "source_type": "legislature_bill_page",
+          "supports": "History confirms passage of both houses 2026-01-12 and gubernatorial approval 2026-01-20, just before the 221st Legislature's term ended.",
+          "quote": "Approved P.L.2025, c.335."
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetailHist/billDescription/S4928/2024",
+          "title": "NJ Legislature historical bill description API - S4928 (2024-2025)",
+          "source_type": "legislature_bill_page",
+          "supports": "Code_Description confirms gubernatorial signature.",
+          "quote": "\"Code_Description\":\"Bills and Joint Resolutions Signed by the Governor\""
+        }
+      ]
+    },
+    {
+      "bill_key": "NJ:S680 / A1170 (2026-2027)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "S680 reported from Senate Environment and Energy Committee and referred to Senate Budget and Appropriations Committee 2026-03-16; companion A1170 has only its 2026-01-13 introduction and Assembly Telecommunications and Utilities Committee referral recorded; no further action on either through 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-03-16",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/S680/2026",
+          "title": "NJ Legislature bill history API - S680 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "History: introduced 2026-01-13, reported from committee and referred to Senate Budget and Appropriations 2026-03-16, nothing since.",
+          "quote": "Reported from Senate Committee, 2nd Reading"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billDescription/S680/2026",
+          "title": "NJ Legislature bill description API - S680 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "CurrentStatus code SBA confirms the bill sits in Senate Budget and Appropriations Committee.",
+          "quote": "\"CurrentStatus\":\"SBA\""
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/A1170/2026",
+          "title": "NJ Legislature bill history API - A1170 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "A1170's only recorded action is its 2026-01-13 introduction and committee referral.",
+          "quote": "Introduced, Referred to Assembly Telecommunications and Utilities Committee"
+        }
+      ],
+      "notes": "Updates the packet's uncertain, secondhand ('Rutgers reported ... by 2026-04-27') framing with an exact official date (2026-03-16) for the Senate Budget and Appropriations referral."
+    },
+    {
+      "bill_key": "NJ:SR18 (2026-2027)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Reported from Senate Environment and Energy Committee 2026-03-16; resolution passed by the full Senate 2026-03-23 (22-15) and filed with the Secretary of State 2026-03-23",
+        "bill_status_category": "passed_one_chamber",
+        "last_action_date_iso": "2026-03-23",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/SR18/2026",
+          "title": "NJ Legislature bill history API - SR18 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "History shows committee report 2026-03-16, then Senate floor passage and filing with the Secretary of State on 2026-03-23.",
+          "quote": "Resolution Passed Senate (22-15)"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billDescription/SR18/2026",
+          "title": "NJ Legislature bill description API - SR18 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Code_Description confirms the resolution was filed with the Secretary of State, the terminal step for a simple resolution.",
+          "quote": "\"Code_Description\":\"Resolutions and Concurrent Resolutions Filed w/Sec. of State\""
+        }
+      ],
+      "notes": "SR18 is a simple Senate resolution requiring only Senate adoption (no Assembly vote or gubernatorial signature); 'passed_one_chamber' is used as the closest enum fit, but 'Filed with Secretary of State' after Senate passage is this resolution's final, completed disposition and no further action is pending."
+    }
+  ],
+  "new_bills": [
+    {
+      "state": "New Jersey",
+      "bill": "A5294 / S4402 (2026-2027)",
+      "sponsors": "Asm. William F. Moen Jr. / (Senate companion S4402)",
+      "party": "D",
+      "status": "Introduced 2026-06-18, referred to Assembly Science, Innovation and Technology Committee",
+      "bill_status_category": "in_committee",
+      "last_action_date_iso": "2026-06-18",
+      "chamber_of_origin": "Assembly",
+      "key_provisions": "\"Responsible Data Center Development and Resource Protection Act\"; establishes a Statewide framework governing siting, land use approval, energy sourcing, water use, and environmental impacts of large-load data center development. This is the most comprehensive data-center siting/regulation bill of the 2026-2027 session and is directly on point for the moratorium/siting tracker.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/A5294/2026",
+          "title": "NJ Legislature bill history API - A5294 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Only recorded action is the 2026-06-18 introduction and committee referral.",
+          "quote": "Introduced, Referred to Assembly Science, Innovation and Technology Committee"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billDescription/A5294/2026",
+          "title": "NJ Legislature bill description API - A5294 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Synopsis and identical-bill field (S4402) confirm scope and Senate companion.",
+          "quote": "establishes Statewide framework concerning siting, land use approval, energy sourcing, water use, and environmental impacts of large load data center development"
+        }
+      ],
+      "notes": "Found via the Legislature's own keyword search API for 'data center' in the 2026 session; no 2024-2025 predecessor exists (first introduced this biennium)."
+    },
+    {
+      "state": "New Jersey",
+      "bill": "A2770 (2026-2027)",
+      "sponsors": "Asw. Andrea Katz",
+      "party": "D",
+      "status": "Introduced 2026-01-13, referred to Assembly Telecommunications and Utilities Committee; no further action through 2026-07-31",
+      "bill_status_category": "in_committee",
+      "last_action_date_iso": "2026-01-13",
+      "chamber_of_origin": "Assembly",
+      "key_provisions": "Establishes a surcharge on electric public utility service to certain data centers during certain periods and creates a \"Grid Modernization Fund\" within BPU; a direct ratepayer-cost-allocation measure. Reintroduction of 2024-2025 session's A6040, which did not advance.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/A2770/2026",
+          "title": "NJ Legislature bill history API - A2770 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Only recorded action is the 2026-01-13 introduction and committee referral.",
+          "quote": "Introduced, Referred to Assembly Telecommunications and Utilities Committee"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billDescription/A2770/2026",
+          "title": "NJ Legislature bill description API - A2770 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Synopsis confirms surcharge and Grid Modernization Fund provisions; LastSessionFullBillNumber links to 2024-2025 A6040.",
+          "quote": "Establishes surcharge for electric public utility service to certain data centers during certain periods; establishes \"Grid Modernization Fund\" in BPU."
+        }
+      ]
+    },
+    {
+      "state": "New Jersey",
+      "bill": "A2774 / S4304 (2026-2027)",
+      "sponsors": "Asw. Andrea Katz / (Senate companion S4304)",
+      "party": "D",
+      "status": "Introduced 2026-01-13, referred to Assembly Science, Innovation and Technology Committee; no further action through 2026-07-31",
+      "bill_status_category": "in_committee",
+      "last_action_date_iso": "2026-01-13",
+      "chamber_of_origin": "Assembly",
+      "key_provisions": "Prohibits agreements intended to conceal information concerning the development of data centers under the Municipal Land Use Law (MLUL); a local-zoning transparency measure. Reintroduction of 2024-2025 session's A6181.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/A2774/2026",
+          "title": "NJ Legislature bill history API - A2774 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Only recorded action is the 2026-01-13 introduction and committee referral.",
+          "quote": "Introduced, Referred to Assembly Science, Innovation and Technology Committee"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billDescription/A2774/2026",
+          "title": "NJ Legislature bill description API - A2774 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Synopsis confirms MLUL non-disclosure-agreement prohibition; identical bill S4304 in Senate.",
+          "quote": "Prohibits agreements intended to conceal certain information concerning development of data centers under MLUL."
+        }
+      ]
+    },
+    {
+      "state": "New Jersey",
+      "bill": "A4769 (2026-2027)",
+      "sponsors": "Asm. Gregory E. Myhre; Asm. Alex Sauickie; Asm. Paul Kanitra; Asw. Victoria A. Flynn; Asm. Gerry Scharfenberger",
+      "party": "R",
+      "status": "Introduced 2026-03-19, referred to Assembly Telecommunications and Utilities Committee; no further action through 2026-07-31",
+      "bill_status_category": "in_committee",
+      "last_action_date_iso": "2026-03-19",
+      "chamber_of_origin": "Assembly",
+      "key_provisions": "Requires certain State agencies to establish expedited approval and permitting procedures for artificial intelligence data centers powered by small modular nuclear reactors; a siting/permitting-track bill (companion S3639).",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/A4769/2026",
+          "title": "NJ Legislature bill history API - A4769 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Only recorded action is the 2026-03-19 introduction and committee referral.",
+          "quote": "Introduced, Referred to Assembly Telecommunications and Utilities Committee"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billDescription/A4769/2026",
+          "title": "NJ Legislature bill description API - A4769 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Synopsis confirms expedited siting/permitting scope for SMR-powered AI data centers.",
+          "quote": "Requires certain State agencies to establish expedited approval and permitting procedures for artificial intelligence data centers powered by small modular nuclear reactors."
+        }
+      ]
+    },
+    {
+      "state": "New Jersey",
+      "bill": "A5224 (2026-2027)",
+      "sponsors": "Asm. Chris Tully",
+      "party": "D",
+      "status": "Introduced 2026-06-08, referred to Assembly Science, Innovation and Technology Committee; no further action through 2026-07-31",
+      "bill_status_category": "in_committee",
+      "last_action_date_iso": "2026-06-08",
+      "chamber_of_origin": "Assembly",
+      "key_provisions": "Requires data center developers to disclose certain information to the public and elected officials before preliminary site plan consideration under the MLUL; a local-zoning transparency/notice measure.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billHistory/A5224/2026",
+          "title": "NJ Legislature bill history API - A5224 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Only recorded action is the 2026-06-08 introduction and committee referral.",
+          "quote": "Introduced, Referred to Assembly Science, Innovation and Technology Committee"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/api/billDetail/billDescription/A5224/2026",
+          "title": "NJ Legislature bill description API - A5224 (2026-2027)",
+          "source_type": "legislature_bill_page",
+          "supports": "Synopsis confirms pre-site-plan disclosure requirement under MLUL.",
+          "quote": "Requires data center developers to disclose certain information to public and elected officials before preliminary site plan consideration under MLUL."
+        }
+      ]
+    }
+  ]
+}

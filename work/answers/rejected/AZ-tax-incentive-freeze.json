@@ -1,0 +1,52 @@
+{
+  "state_abbrev": "AZ",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "Arizona",
+      "jurisdiction": "Arizona",
+      "jurisdiction_type": "State",
+      "date_enacted": "2026-06-13 (Governor Katie Hobbs signed HB 4168, enacted as Chapter 140); the Section 31 application freeze runs 2026-07-01 through 2029-06-30",
+      "date_enacted_iso": "2026-06-13",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Three-year bar (2026-07-01 through 2029-06-30) on the Arizona Commerce Authority accepting new applications for the A.R.S. 41-1519 computer data center tax-relief program; applies retroactively from after 2026-06-30 and is repealed after 2029-06-30",
+      "duration_days": 1095,
+      "duration_kind": "fixed_days",
+      "legal_basis": "HB 4168, Section 31, enacted as 2026 Arizona Session Laws Chapter 140",
+      "trigger": "Statewide pause on new applications to the A.R.S. 41-1519 data center tax-relief program, adopted amid a legislative session dominated by data center issues",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "In effect as of 2026-07-01. The Arizona Commerce Authority reportedly received 113 tax-relief applications between 2026-06-15 and 2026-06-30, immediately before the freeze took effect; those applications still required approval or denial. Governor Hobbs distinguished the measure from a construction or permitting moratorium in July 7 remarks.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0140.pdf",
+          "source_type": "legislature",
+          "publisher": "Arizona State Legislature",
+          "document_date": "2026-06-13",
+          "supports": "Full enacted text of HB 4168/Chapter 140, Section 31, barring new A.R.S. 41-1519 data center tax-relief applications from 2026-07-01 through 2029-06-30"
+        },
+        {
+          "url": "https://azcapitoltimes.com/news/2026/07/09/data-centers-dominated-2026-session-lawmakers-answered-with-3-year-tax-incentive-pause/",
+          "source_type": "news",
+          "publisher": "Arizona Capitol Times",
+          "document_date": "2026-07-09",
+          "supports": "Describes the enacted three-year data center tax-incentive application pause"
+        },
+        {
+          "url": "https://www.axios.com/local/phoenix/2026/07/08/data-center-tax-break-applications-double-moratorium",
+          "source_type": "news",
+          "publisher": "Axios Phoenix",
+          "document_date": "2026-07-08",
+          "supports": "Reports 113 applications filed between June 15-30, 2026 immediately before the freeze, and clarifies the scope of the pause versus construction/permitting"
+        }
+      ],
+      "notes": "IMPORTANT SCOPING FLAG: this is a moratorium on NEW APPLICATIONS to a state tax-incentive program (A.R.S. 41-1519), not a pause on data center construction, siting, or local land-use/permitting approvals -- Governor Hobbs and reporting both make this distinction explicitly. Included because it is the only 'Moratorium vote' tagged action identified anywhere in Arizona across the May-July 2026 chronology sweep, and Arizona currently has zero rows in the inventory, so this is Arizona's first candidate under this research pass. No city- or county-level data center construction/permitting moratorium was identified in Arizona during this period; Flagstaff, Tucson, Pima County, Marana, Pinal County, and Casa Grande all had active data center land-use disputes in May-July 2026 but none had enacted a moratorium as of 2026-07-31 (Tucson and Pima County were drafting permanent zoning standards, not pausing approvals; Pinal County continued rezoning cases without recommendation; Casa Grande was processing a Prop 207 claim)."
+    }
+  ]
+}

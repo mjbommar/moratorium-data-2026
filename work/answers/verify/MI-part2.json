@@ -1,0 +1,67 @@
+{
+  "state_abbrev": "MI",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "mi-york-township-2026",
+      "outcome": "corrected",
+      "confidence": 0.8,
+      "changes": {
+        "date_enacted": {
+          "from": "2026-02-12 [VERIFY]",
+          "to": "2026-02-10",
+          "reason": "York Charter Township's own official Board of Trustees minutes for February 10, 2026 (posted at twp-york.org, mirrored at cms2.revize.com/revize/yorktwp) record the first reading and unanimous (6-0) adoption vote for the Data Center Moratorium ordinance at that meeting, two days earlier than the previously recorded date."
+        },
+        "date_enacted_iso": {
+          "from": "2026-02-12",
+          "to": "2026-02-10",
+          "reason": "See date_enacted."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Confirmed directly from the township's own signed meeting minutes."
+        },
+        "current_status": {
+          "from": "Active. Board voted to enact moratorium on 2026-02-12 per web reporting [VERIFY].",
+          "to": "Active. Board voted 6-0 (Aye: Louis, Ludwig, Zupi, Gary, Hargrove, Neill; Absent: McGovern) to accept the first reading and publication of the Data Center Moratorium ordinance at its February 10, 2026 regular meeting; the 180-day term (running to approximately August 9, 2026) had not lapsed as of 2026-07-31 and no repeal was found.",
+          "reason": "Confirmed by direct fetch of the township's own February 10, 2026 meeting minutes, which also note the moratorium is for 180 days with the possibility of another 180-day extension if needed."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "York Township's own Feb. 10, 2026 board meeting minutes (not Feb. 12) record the vote to adopt the moratorium ordinance's first reading, 6-0."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: final ordinance/resolution number not posted on township site as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "The Feb. 10, 2026 minutes describe the action only as 'an Ordinance, Data Center Moratorium' without assigning a distinct ordinance number in the document itself. Checked the township's zoning department page and subsequent board minutes/agendas (twp-york.org) for a later-assigned number; none found in this pass."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Confirmed active via the township's own minutes: 180-day term from Feb. 10, 2026 (with the board noting it could be extended another 180 days if needed) puts expiration around Aug. 9, 2026, i.e. still in force as of the 2026-07-31 research date. No repeal or replacement was found in this pass."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://cms2.revize.com/revize/yorktwp/Boards%20and%20Commissions/Board%20of%20Trustees/2026/Final%20Bd%20mtg%20minutes%202-10-2026%20meeting-compressed.pdf",
+          "title": "York Charter Township Board of Trustees Regular Meeting Minutes, February 10, 2026",
+          "publisher": "York Charter Township, Washtenaw County, Michigan",
+          "document_date": "2026-02-10",
+          "source_type": "minutes",
+          "supports": "Official minutes recording the 6-0 vote to accept the first reading and publication of the Data Center Moratorium ordinance, and describing its 180-day term with the possibility of another 180-day extension.",
+          "quote": "Introduction and First Reading of an Ordinance, Data Center Moratorium ... Discussion: Introduction read on the record. Noted that the moratorium is for 180 days; if the Township needs longer to complete the items needed, it can be extended for another 180 days. ... Aye: 6; Nay: 0; Absent: 1; Abstain: 0. Motion carried."
+        }
+      ],
+      "notes": "The township's own site (twp-york.org, backed by a Revize CMS at cms2.revize.com/revize/yorktwp) is directly reachable and gave a clean primary-source resolution for date_enacted and current_status. Only the specific ordinance/resolution number remains unconfirmed -- the township's own minutes describe the action generically as 'an Ordinance, Data Center Moratorium' without a document number attached at the first-reading stage."
+    }
+  ],
+  "new_candidates": []
+}

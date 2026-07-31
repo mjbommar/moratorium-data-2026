@@ -1,0 +1,80 @@
+{
+  "applied_at": "20260731T063410",
+  "answer_files": [
+    "work/answers/verify/AR.json",
+    "work/answers/verify/IA.json",
+    "work/answers/verify/ID.json",
+    "work/answers/verify/KS.json",
+    "work/answers/verify/LA.json",
+    "work/answers/verify/MA.json",
+    "work/answers/verify/ME.json",
+    "work/answers/verify/NE.json",
+    "work/answers/verify/OK.json"
+  ],
+  "stats": {
+    "outcome:confirmed_unchanged": 8,
+    "already_applied": 21,
+    "verify_still_open": 6,
+    "outcome:corrected": 6,
+    "verify_already_resolved": 16,
+    "skipped_drift": 2,
+    "fields_changed": 5,
+    "ignored_packet_only_field": 4,
+    "outcome:status_changed": 2,
+    "candidate_duplicate": 3,
+    "verify_confirmed": 1,
+    "verify_resolved_via_field_rewrite": 2,
+    "verify_corrected": 1
+  },
+  "conflicts": [
+    "IA.json: ia-franklin-county-2026.duration `from` mismatch (csv='Temporary; end date not captured' answer='')",
+    "IA.json: ia-jackson-county-2024.date_enacted `from` mismatch (csv='Three documented adoptions in the captured record: (1) 2024-' answer='Three documented adoptions in the captured record: (1) 2024-')"
+  ],
+  "skipped": [
+    "IA.json: candidate IA 'Sioux County' (resolution-2026-32) treated as duplicate of ia-sioux-county-2026 (resolution-2026-32)",
+    "IA.json: candidate IA 'Madison County' (no instrument number) treated as duplicate of ia-madison-county-2026 (no instrument number)",
+    "IA.json: candidate IA 'Ida County' (no instrument number) treated as duplicate of ia-ida-county-2026 (no instrument number)"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "ia-franklin-county-2026",
+      "column": "duration_days",
+      "before": "",
+      "after": "548",
+      "reason": "18 months from the 2026-03-31 adoption date computes to 2027-09-30 (548 days).",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "me-bangor-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-04-29; passed by Bangor City Council 9-0 on 2026-04-13 per WAGM-TV reporting [VERIFY: final signed ordinance and approved minutes from Bangor City Clerk not yet retrieved as of 2026-04-29]",
+      "after": "Active as of 2026-07-31. Official City Council minutes confirm Ordinance 26-138 was adopted at the April 13, 2026 regular meeting: the Council first voted 9-0 to waive the requirement of reading on two separate days, then voted 9-0 for final passage the same night.",
+      "reason": "Retrieved the official City Council agenda and approved minutes for the April 13, 2026 meeting directly from bangormaine.gov/AgendaCenter, which record both the 9-0 vote to waive the two-reading requirement and the 9-0 vote for passage, confirming adoption on that date.",
+      "source": "ME.json"
+    },
+    {
+      "moratorium_id": "me-bangor-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "The official Bangor City Council minutes for April 13, 2026 (posted at bangormaine.gov/AgendaCenter/ViewFile/Minutes/_04132026-741) record Ordinance 26-138 being adopted by a 9-0 final-passage vote that same night, after a 9-0 vote to waive the normal two-readings-on-separate-days requirement. This is a primary, official record confirming the 2026-04-13 adoption date, so the uncertainty flag should move from 'unverified' to 'exact.'",
+      "source": "ME.json"
+    },
+    {
+      "moratorium_id": "ok-seminole-nation-of-oklahoma-2026",
+      "column": "duration",
+      "before": "Not identified in captured reporting; resolution language quoted by Native News Online (\"the moratorium period\") indicates a stated duration exists in the resolution text but no numeric term has been publicly disclosed [VERIFY: full resolution text not posted on Seminole Nation website (sno-nsn.gov) as of 2026-04-29]",
+      "after": "Indefinite by design, not merely undisclosed. Per KGOU reporting (June 25, 2026), the resolution's author, Rev. Chebon Kernell, originally drafted a ban on data-center discussions/inquiries/development, but 'that proposal turned into an indefinite moratorium at the suggestion of another council member.' The resolution's own phrase 'the moratorium period' (as quoted by Native News Online) therefore refers to an open-ended condition rather than a fixed numeric term that simply has not been published. The full resolution text remains unposted on sno-nsn.gov.",
+      "reason": "KGOU's June 25, 2026 article, reporting on the resolution's legislative history via its sponsor, states the measure was changed to an indefinite moratorium during Tribal Council deliberation, rather than being adopted with an undisclosed fixed term. This corrects the prior characterization (which assumed a hidden numeric duration) and is consistent with duration_kind remaining non-numeric.",
+      "source": "OK.json"
+    },
+    {
+      "moratorium_id": "ok-seminole-nation-of-oklahoma-2026",
+      "column": "duration_kind",
+      "before": "unknown",
+      "after": "indefinite",
+      "reason": "KGOU's June 25, 2026 reporting establishes that the Tribal Council deliberately made the moratorium open-ended ('indefinite') rather than fixed-term, so 'indefinite' (a defined codebook value) is more accurate than 'unknown.' This rests on news reporting of the sponsor's own account rather than the primary resolution text, so confidence is kept moderate (0.6) rather than high.",
+      "source": "OK.json"
+    }
+  ]
+}

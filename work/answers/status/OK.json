@@ -1,0 +1,112 @@
+{
+  "state_abbrev": "OK",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ok-oklahoma-city-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_status": {
+          "from": "Active",
+          "to": "Active, as amended. On 2026-05-19, City Council voted 7-2 to amend the moratorium to allow data centers using up to 75 megawatts of electricity to apply for zoning and construction permits, and carved out two named exemptions: the Scale Datacenters facility on the Expand Energy (formerly Chesapeake) campus (serving Cerebras AI), and the Rack59 Data Center at 7725 W. Reno Ave. As of the most recent reporting reviewed (dated 2026-06-25), no comprehensive data-center zoning use-unit had been adopted, so the underlying moratorium (through 2026-12-31 or earlier zoning adoption) remains in force. No source dated in July 2026 was located to independently confirm currency as of 2026-07-31.",
+          "reason": "Confirmed via direct fetch of Oklahoma City Free Press reporting on the May 19, 2026 Council vote; no contrary evidence of full replacement or early termination was found."
+        },
+        "legal_basis": {
+          "from": "Emergency ordinance introduced and adopted unanimously by City Council on 2026-04-21 as Council Agenda Item XI.U (Council packet downloaded 2026-04-29); the published OKC ordinance number is assigned post-passage and was not yet reflected in OKC's online ordinance index or PrimeGov portal (which requires authenticated session) as of 2026-04-29 [VERIFY assigned ordinance number from Office of the City Clerk; not in publicly accessible record on day-of-passage capture]",
+          "to": "Emergency ordinance introduced and adopted unanimously by City Council on 2026-04-21 as Council Agenda Item XI.U; amended 2026-05-19 by a 7-2 Council vote to add a 75 MW threshold and named facility exemptions. The assigned ordinance number(s) could not be confirmed via a primary source actually accessed in this pass - direct attempts to reach library.municode.com/ok/oklahoma_city and okc.gov's ordinance PDF both returned HTTP 403 [VERIFY assigned ordinance number(s) from the Office of the City Clerk for both the original 2026-04-21 ordinance and the 2026-05-19 amendment]",
+          "reason": "Direct verification of the ordinance number was attempted but blocked (403) on both library.municode.com and okc.gov; the May 19 amendment is documented via Oklahoma City Free Press reporting, which does not itself state an ordinance number."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY assigned ordinance number from Office of the City Clerk; not in publicly accessible record on day-of-passage capture]",
+          "resolution": "still_unverifiable",
+          "note": "Direct attempts to fetch library.municode.com/ok/oklahoma_city and an okc.gov ordinance PDF both returned HTTP 403 Forbidden in this pass. A secondary indication (a Municode codification banner referencing 'Ordinance No. 28070, adopted April 21, 2026,' seen only via a search-engine snippet, not an opened page) is suggestive but was not independently confirmed against the actual ordinance text and is not cited as evidence here because the underlying page was never successfully opened."
+        }
+      ],
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://freepressokc.com/city-councils-data-center-exemptions-raise-questions-of-favoritism/",
+          "title": "City Council's data center exemptions raise questions of favoritism",
+          "publisher": "Oklahoma City Free Press",
+          "document_date": "2026-05-22",
+          "source_type": "news",
+          "supports": "Oklahoma City Council voted 7-2 on 2026-05-19 to amend the data center moratorium to allow facilities up to 75 MW to apply for permits, with named exemptions for Scale Datacenters (Expand Energy campus) and Rack59 (7725 W. Reno Ave.).",
+          "quote": "These are exemptions to the moratorium that we're creating. It does not exempt from the permitting or zoning that's required with this."
+        },
+        {
+          "url": "https://freepressokc.com/city-council-puts-hold-on-data-centers-to-study-electricity-water-use/",
+          "title": "City Council puts hold on data centers to study electricity, water use",
+          "publisher": "Oklahoma City Free Press",
+          "document_date": "2026-04-22",
+          "source_type": "news",
+          "supports": "Original moratorium adopted 2026-04-21, in effect through 2026-12-31 or until new regulations are codified.",
+          "quote": "set to last until December 31st, 2026 or until new regulations for data centers are determined and codified by a new amendment or by the City's upcoming new Municipal Code"
+        }
+      ],
+      "notes": "No source dated in July 2026 discussing this moratorium was located; the most recent dated confirmation found (KGOU, 2026-06-25, news, not independently re-fetched in this pass) described the moratorium as still running through end of 2026 with the May 19 exceptions. No evidence of full zoning-code replacement or early termination was found, so enacted_status is left as 'active' rather than changed to 'replaced.'"
+    },
+    {
+      "moratorium_id": "ok-pawhuska-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "url": "https://www.okenergytoday.com/2026/04/data-center-moratorium-in-pawhuska/",
+          "title": "Data center moratorium in Pawhuska",
+          "publisher": "Oklahoma Energy Today",
+          "document_date": "2026-04-20",
+          "source_type": "news",
+          "supports": "Pawhuska Public Works Authority moratorium on data center consideration runs through the end of 2026; no numeric resolution citation or vote count given.",
+          "quote": "through the end of 2026"
+        }
+      ],
+      "notes": "The row's own recorded end date (2026-12-31) had not yet arrived as of the 2026-07-31 research date. Direct attempts to reach the City of Pawhuska's own website (pawhuskaok.gov) failed with a DNS resolution error, so no primary source could be checked, and no news dated after April 2026 discussing this moratorium or the underlying Buckley Bros. warehouse-conversion project was located. Absent any evidence of a change (early adoption of data-center regulations, extension, or rescission), the record is treated as still accurate, but confidence is capped at 0.5 given the lack of a source establishing currency specifically as of mid-2026."
+    },
+    {
+      "moratorium_id": "ok-tulsa-2026",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "Tulsa Ordinance declaring a 9-month moratorium (originally drafted as 365-day moratorium under file identifier 26-196-3; council reduced to 9 months at vote per Tulsa Flyer reporting). The signed/numbered final ordinance is not retrievable through cityoftulsa.org's CouncilDocuments app (returned a server error on 2026-04-29 capture) [VERIFY published ordinance number once Tulsa City Clerk posts final signed copy]",
+          "to": "Tulsa City Council File/Ordinance No. 26-196 (final substitute version \"26-196-3\"), confirmed via direct review of the City of Tulsa's CouncilDocuments records: reviewed by the Urban Development committee and Council on 2026-03-11, and by the Budget/Special Projects committee and Council on 2026-03-25 (adoption). The city's own record title reads \"Ordinance declaring a 365-day Moratorium,\" in tension with news reporting (Tulsa Flyer) describing the final passed duration as 9 months; this discrepancy was not resolved with a directly-opened primary text of the signed ordinance in this pass.",
+          "reason": "Directly confirmed the file/ordinance number and committee/council review dates via cityoftulsa.org CouncilDocuments item pages; the 365-day-vs-9-month duration discrepancy is noted rather than resolved because the actual signed ordinance PDF could not be retrieved (repeated 404s)."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY published ordinance number once Tulsa City Clerk posts final signed copy]",
+          "resolution": "corrected",
+          "note": "Confirmed the operative identifier is Ordinance/File No. 26-196 (final substitute \"-3\") via direct review of cityoftulsa.org CouncilDocuments item pages. A distinct sequential ordinance number beyond 26-196 was not found in these records; the 365-day title language versus the reported 9-month final duration remains an open discrepancy (see notes)."
+        }
+      ],
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.cityoftulsa.org/apps/CouncilDocuments?item=49527",
+          "title": "Council Document Item 49527 (Ordinance 26-196, Data Center Moratorium)",
+          "publisher": "City of Tulsa",
+          "document_date": "2026-03-25",
+          "source_type": "minutes",
+          "supports": "Confirms the file/ordinance number 26-196, its title as a '365-day Moratorium,' and committee/council review dates of 2026-03-11 and 2026-03-25.",
+          "quote": "Ordinance 26-196 is an ordinance declaring a 365-day moratorium on the acceptance of applications for, processing of and issuance of building permits that would allow construction on, or use of, property for Data Center use located in the City of Tulsa"
+        },
+        {
+          "url": "https://www.cityoftulsa.org/apps/CouncilDocuments?item=49563",
+          "title": "Council Document Item 49563 (supporting documents, Data Center Moratorium)",
+          "publisher": "City of Tulsa",
+          "document_date": "2026-03-25",
+          "source_type": "other",
+          "supports": "Lists a supporting document named '26-196-3_Data Center Moratorium (3-25-2026) Final.pdf,' indicating a third, amended substitute version was the one finally acted on 2026-03-25.",
+          "quote": "26-196-3_Data Center Moratorium (3-25-2026) Final.pdf"
+        }
+      ],
+      "notes": "The 9-month-vs-365-day duration discrepancy between the file's title (365 days) and news reporting (9 months, e.g. Tulsa Flyer) was not independently resolved because the signed final ordinance text could not be retrieved (guessed direct PDF URLs returned 404). No evidence was found, from either primary Tulsa Planning Office sources or news, that the promised zoning-code amendments had been adopted, or that the 60-day Planning Office progress reports to Council had been published, as of 2026-07-31; enacted_status is therefore left as 'active' with current_status unchanged."
+    }
+  ],
+  "new_candidates": []
+}

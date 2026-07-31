@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mjbommar/moratorium-data-2026/work/schemas/research_decision.schema.json",
+  "title": "Moratorium research decision file",
+  "description": "Output contract for a research pass over a set of inventory rows. One file per state per pass. Consumed by scripts/apply_research.py, which never edits the inventory from prose.",
+  "type": "object",
+  "required": ["state_abbrev", "researched_as_of", "decisions"],
+  "additionalProperties": false,
+  "properties": {
+    "state_abbrev": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "USPS abbreviation of the state this packet covers."
+    },
+    "researched_as_of": {
+      "type": "string",
+      "format": "date",
+      "description": "Reference date the researcher treated as 'today'. All 'still active' claims are relative to this date."
+    },
+    "researcher": {
+      "type": "string",
+      "description": "Model or person that produced this file."
+    },
+    "decisions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/decision" }
+    },
+    "new_candidates": {
+      "type": "array",
+      "description": "Moratorium instruments discovered during this pass that are NOT already in the inventory.",
+      "items": { "$ref": "#/$defs/candidate" }
+    }
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "required": ["url", "source_type", "supports"],
+      "additionalProperties": false,
+      "properties": {
+        "url": { "type": "string", "description": "Direct URL to the document or page consulted." },
+        "title": { "type": "string" },
+        "publisher": { "type": "string", "description": "Municipality, agency, or outlet." },
+        "document_date": { "type": "string", "description": "Date on the document itself (ISO where known)." },
+        "source_type": {
+          "enum": ["ordinance", "resolution", "minutes", "agenda", "staff_report", "court_filing", "legislature", "news", "other"],
+          "description": "Primary-source types rank above 'news'. A status change should rest on a primary source where one exists."
+        },
+        "supports": { "type": "string", "description": "What specific claim this source establishes." },
+        "quote": { "type": "string", "description": "Short verbatim excerpt establishing the claim, where available." }
+      }
+    },
+    "field_change": {
+      "type": "object",
+      "required": ["from", "to", "reason"],
+      "additionalProperties": false,
+      "properties": {
+        "from": { "type": "string", "description": "Existing value, copied verbatim from the inventory." },
+        "to": { "type": "string", "description": "Proposed replacement value." },
+        "reason": { "type": "string", "description": "Why the change is warranted, referencing the evidence." }
+      }
+    },
+    "decision": {
+      "type": "object",
+      "required": ["moratorium_id", "outcome", "evidence"],
+      "additionalProperties": false,
+      "properties": {
+        "moratorium_id": { "type": "string", "description": "Primary key from the inventory. Must already exist." },
+        "outcome": {
+          "enum": ["confirmed_unchanged", "status_changed", "corrected", "unresolvable"],
+          "description": "confirmed_unchanged: current record verified accurate as of researched_as_of. status_changed: enacted_status and/or dates move. corrected: a non-status factual error fixed. unresolvable: no adequate source found; record left alone."
+        },
+        "new_enacted_status": {
+          "enum": ["active", "extended", "replaced", "expired", "rescinded", "pending"],
+          "description": "Required when outcome=status_changed. Must be a codebook value."
+        },
+        "changes": {
+          "type": "object",
+          "description": "Column-name -> field_change. Only columns present in the inventory CSV.",
+          "additionalProperties": { "$ref": "#/$defs/field_change" }
+        },
+        "verify_resolutions": {
+          "type": "array",
+          "description": "One entry per [VERIFY ...] marker addressed in this pass.",
+          "items": {
+            "type": "object",
+            "required": ["field", "marker", "resolution"],
+            "additionalProperties": false,
+            "properties": {
+              "field": { "type": "string" },
+              "marker": { "type": "string", "description": "The marker text, verbatim." },
+              "resolution": {
+                "enum": ["confirmed", "corrected", "still_unverifiable"],
+                "description": "confirmed/corrected mean the marker is removed from the field text. still_unverifiable keeps it."
+              },
+              "note": { "type": "string", "description": "What was found, or why it remains unverifiable." }
+            }
+          }
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Researcher confidence in this decision. Below 0.4 is treated as unresolvable at merge time."
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/evidence" },
+          "description": "At least one source. outcome=unresolvable may cite the portals checked."
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "candidate": {
+      "type": "object",
+      "required": ["state", "jurisdiction", "jurisdiction_type", "evidence"],
+      "additionalProperties": false,
+      "description": "A newly discovered instrument. Deliberately mirrors the inventory columns so apply_research.py can construct a row.",
+      "properties": {
+        "state": { "type": "string" },
+        "jurisdiction": { "type": "string" },
+        "jurisdiction_type": {
+          "enum": ["County", "City", "Town", "Township", "Village", "Parish", "Tribal", "Utility-authority", "State", "Other"]
+        },
+        "date_enacted": { "type": "string", "description": "Free text with provenance, per the codebook." },
+        "date_enacted_iso": { "type": "string", "description": "YYYY-MM-DD / YYYY-MM / YYYY, or empty if pending." },
+        "date_enacted_uncertainty": { "enum": ["exact", "month_only", "year_only", "range", "unverified"] },
+        "duration": { "type": "string" },
+        "duration_days": { "type": ["integer", "null"] },
+        "duration_kind": { "enum": ["fixed_days", "until_date", "until_event", "indefinite", "unknown"] },
+        "legal_basis": { "type": "string" },
+        "trigger": { "type": "string" },
+        "trigger_categories": {
+          "type": "array",
+          "items": {
+            "enum": ["specific_project", "regulatory_gap", "infrastructure_capacity", "environmental", "noise", "water", "grid_energy", "fire_safety", "land_use_compatibility", "property_values", "legal_or_litigation", "agricultural_preservation", "other"]
+          }
+        },
+        "sectors": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "enum": ["data_center", "battery_storage", "solar", "wind", "cryptocurrency_mining", "general"] }
+        },
+        "current_status": { "type": "string" },
+        "enacted_status": { "enum": ["active", "extended", "replaced", "expired", "rescinded", "pending"] },
+        "affected_projects": { "type": "string" },
+        "outcome": { "type": "string" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/evidence" }
+        },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

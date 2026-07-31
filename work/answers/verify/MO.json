@@ -1,0 +1,144 @@
+{
+  "state_abbrev": "MO",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "mo-peculiar-2024",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "changes": {
+        "date_enacted": {
+          "from": "2024-08 [VERIFY]",
+          "to": "2024-08-19",
+          "reason": "The North Cass Herald's contemporaneous report (published Friday, 2024-08-23) states the Board of Aldermen 'voted unanimously Monday evening' and that the resulting 100-day moratorium would 'end on Wednesday, Nov. 27' -- both details are internally consistent only if the vote occurred on Monday, 2024-08-19 (100 days before Wed. 2024-11-27). No primary city document (minutes/resolution text) was located to independently corroborate the exact day; this correction rests on convergent news reporting rather than a primary source."
+        },
+        "current_status": {
+          "from": "Likely expired (100 days from August 2024) unless extended [VERIFY]",
+          "to": "Superseded before its natural 2024-11-27 end date: on 2024-10-21 the Board of Aldermen voted unanimously to permanently remove the 'data center' definition from the city's light-industrial zoning ordinance, which had been the basis for the project the moratorium paused. As of 2026-07-31, data centers are not a defined/permitted use in Peculiar's zoning code as a result of that 2024-10-21 action.",
+          "reason": "KSHB's 2024-10-21 news report describes the Board of Aldermen's same-day vote removing the data-center definition entirely, ending the underlying zoning basis for the project rather than letting the temporary pause simply lapse."
+        },
+        "affected_projects": {
+          "from": "Not specified [VERIFY]",
+          "to": "A proposed hyperscale data center campus spanning approximately 500 acres with multiple buildings adjacent to residential areas; a Data Center Dynamics headline identifies the project as a '$1.5bn Diode project,' though this could not be independently corroborated beyond the headline (the article body did not load for automated review).",
+          "reason": "KSHB's news account describes the scale (500 acres, multiple buildings, hyperscale, adjacent to homes) directly from an alderman's on-the-record account of the original (mis-)zoning approval; the 'Diode' project name and $1.5bn figure come only from a Data Center Dynamics headline that could not be verified against the full article body."
+        },
+        "outcome": {
+          "from": "Replacement ordinance or status not confirmed [VERIFY]",
+          "to": "On 2024-10-21, the Board of Aldermen unanimously voted to remove the 'data center' land-use definition from the city's light-industrial zoning ordinance -- the same definition that had originally allowed the project to be zoned -- permanently blocking it rather than merely allowing the 100-day pause to expire.",
+          "reason": "KSHB's news report of the same-day vote is the most specific account located; no primary city ordinance/minutes document for the 2024-10-21 action was independently retrieved (cityofpeculiar.com and cityofpeculiar.org both returned HTTP 403 to automated fetch attempts)."
+        },
+        "date_enacted_iso": {
+          "from": "2024-08",
+          "to": "2024-08-19",
+          "reason": "See date_enacted change."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "A specific day is now supported by internally-consistent news reporting (weekday and 100-day math both check out), though it is not confirmed against a primary city document."
+        },
+        "computed_expiry": {
+          "from": "2024-11-09",
+          "to": "2024-11-27",
+          "reason": "The prior computed_expiry (2024-11-09) appears to assume an Aug 1 start date; the news source explicitly states the 100-day moratorium was set to run to Wednesday, Nov. 27, 2024, which is exactly 100 days after 2024-08-19."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "North Cass Herald (2024-08-23) reports a unanimous 'Monday evening' vote and a moratorium ending 'Wednesday, Nov. 27' -- both facts pin the vote to Monday, 2024-08-19 (100 days before Nov. 27, which was indeed a Wednesday). Checked cityofpeculiar.com/agenda.aspx and cityofpeculiar.org's document viewer for the actual Board of Aldermen minutes/resolution text; both returned HTTP 403 to automated fetch and could not be reviewed directly, so this remains a news-sourced (not primary-sourced) correction."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "KSHB (2024-10-21) reports the Board of Aldermen voted the same day to remove the 'data center' definition from the light-industrial zoning code entirely, superseding the temporary moratorium with a permanent fix roughly five weeks before its own 100-day term would have run out naturally."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "KSHB's report describes a ~500-acre, multi-building hyperscale data center campus adjacent to residential areas as the project at issue. A Data Center Dynamics headline names it the '$1.5bn Diode project,' but the article body did not load for review (site appears to be a JS-rendered single-page app), so the specific project name/value is corroborated only at headline level and should be treated as lower-confidence pending direct confirmation."
+        },
+        {
+          "field": "outcome",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "KSHB confirms the Board of Aldermen's 2024-10-21 unanimous vote to strip the data-center use definition from the zoning code, which is the operative 'replacement' action; no primary city ordinance text for this specific action was independently retrieved (cityofpeculiar.com/.org both blocked automated access)."
+        }
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.northcassherald.com/post/peculiar-places-100-day-moratorium-on-data-centers",
+          "title": "Peculiar places 100-day moratorium on data centers",
+          "publisher": "The North Cass Herald",
+          "document_date": "2024-08-23",
+          "source_type": "news",
+          "supports": "Establishes the 100-day moratorium's Monday vote (internally dated to 2024-08-19) and its Nov. 27, 2024 natural end date; describes it as unanimous and precautionary pending further research/zoning changes.",
+          "quote": "PECULIAR - The Peculiar Board of Aldermen voted unanimously Monday evening to place a 100-day moratorium on data centers, not accepting plans, reviewing, permitting, etcetera during this period. ... The moratorium will end on Wednesday, Nov. 27, at which time the Board could vote to extend it if more time is needed."
+        },
+        {
+          "url": "https://www.kshb.com/news/local-news/peculiar-reverses-zoning-for-data-center-after-cries-from-neighbors",
+          "title": "Peculiar reverses zoning for data center after cries from neighbors",
+          "publisher": "KSHB 41 (Scripps)",
+          "document_date": "2024-10-21",
+          "source_type": "news",
+          "supports": "Confirms the Board of Aldermen's same-day unanimous vote to remove the data-center definition from the light-industrial zoning ordinance, superseding the moratorium with a permanent fix; describes the project as a 500-acre, multi-building hyperscale facility.",
+          "quote": "City leaders in Peculiar, Missouri, listened to its citizens on Monday night and blocked a major data center from coming into the small community. The data center would have spanned across 500 acres with multiple buildings right next to several homes and businesses. ... Peculiar originally approved the zoning for it by adding a 'data center' definition into the existing light industrial zoning code. The Board of Alderman reversed that decision on Monday by removing the definition from the ordinance."
+        }
+      ],
+      "notes": "MAJOR FINDING: current_status/outcome were previously unconfirmed; this is not simply an expired 100-day pause -- the city permanently removed data centers from its zoning code on 2024-10-21 after a roughly 1,000-resident opposition campaign (about one-sixth of the city's population), so enacted_status should move from 'expired' to 'replaced'. Both cityofpeculiar.com/agenda.aspx and cityofpeculiar.org's document viewer returned HTTP 403 to automated fetch attempts, so no primary city document (minutes, resolution, or the October zoning ordinance itself) could be directly reviewed in this pass -- everything here rests on two independent, detailed local/regional news accounts. A future pass with non-automated (browser) access to the city's own site could likely obtain the primary Resolution 2024-43 text and the October 2024 zoning ordinance."
+    },
+    {
+      "moratorium_id": "mo-st-charles-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-04-29; scheduled to expire around 2026-08-22 unless extended or replaced.",
+          "to": "Superseded: on 2026-05-20 the City Council voted 7-1 to make the data-center prohibition permanent, adopting text-amendment TA-2026-01 defining data centers, excluding them from the warehouse-use category, and barring them from permitting or conditional-use approval in any zoning district city-wide. The temporary Resolution 25-014 moratorium is therefore no longer the operative instrument as of the 2026-07-31 research date.",
+          "reason": "Independent news coverage (First Alert 4/KMOV and St. Louis Public Radio) of the 2026-05-20 City Council vote confirms the permanent ban's passage, vote count, and substance."
+        },
+        "outcome": {
+          "from": "No final replacement ordinance identified. City staff prepared TA-2026-01 to define data centers, exclude them from warehouse uses, and effectively prohibit primary data center uses by not listing them as permitted or conditional uses. The Planning and Zoning Commission tabled the proposed permanent ban on 2026-02-09 (6-2 vote). The April 13, 2026 P&Z agenda packet (downloaded 2026-04-29) lists TA-2026-01 as the first public hearing item with a recommended motion to forward approval to City Council; City Council Resolution R26-007 (passed 2026-03-17) requested that P&Z commit to voting on TA-2026-01 at its April 2026 meeting and the staff memo schedules the City Council public hearing for 2026-05-05. P&Z minutes for 2026-04-13 had not yet been posted to the city website as of 2026-04-29 [VERIFY 2026-04-13 P&Z vote outcome from minutes when posted].",
+          "to": "TA-2026-01 was ultimately approved: the City Council passed the permanent data-center ban 7-1 on 2026-05-20 (two members absent), defining data centers, excluding them from the warehouse-use category, and prohibiting permitting/conditional-use approval for them in all zoning districts. The specific 2026-04-13 Planning and Zoning Commission vote tally that preceded Council action was not independently located -- no separate minutes document for that meeting has been posted, and no news account reporting that specific vote was found -- but the case clearly advanced favorably from P&Z to Council given the subsequent 2026-05-20 passage.",
+          "reason": "First Alert 4 and St. Louis Public Radio both confirm the 2026-05-20 City Council vote (7-1) making the moratorium permanent via TA-2026-01, which supersedes the previously 'no final replacement ordinance identified' framing."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "outcome",
+          "marker": "[VERIFY 2026-04-13 P&Z vote outcome from minutes when posted]",
+          "resolution": "still_unverifiable",
+          "note": "Checked the City of St. Charles' Planning and Zoning Commission AgendaCenter page (stcharlescitymo.gov/AgendaCenter/Planning-and-Zoning-Commission-16/ and mo-stcharles.civicplus.com) as of this pass (2026-07-31): the April 13, 2026 entry still shows only an agenda document, with no separate minutes file posted, over three months after the meeting. No news account reporting the specific April 13 P&Z vote tally was found either. The narrow question (that specific commission vote count) remains unverifiable from available public sources. However, the case evidently proceeded favorably, since the City Council subsequently passed the permanent ban (TA-2026-01) 7-1 on 2026-05-20 -- captured separately via the 'current_status' and 'outcome' field changes in this decision, which are corrected/status-changed independent of this narrower marker."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.firstalert4.com/2026/05/20/st-charles-city-council-votes-permanently-ban-data-centers/",
+          "title": "St. Charles City Council votes to permanently ban data centers",
+          "publisher": "First Alert 4 (KMOV)",
+          "document_date": "2026-05-20",
+          "source_type": "news",
+          "supports": "Confirms the 7-1 City Council vote making the data-center ban permanent, the definition/exclusion-from-warehouse-use mechanism, and that it followed a one-year moratorium enacted in fall 2025.",
+          "quote": "The city council voted 7-1 in favor of the proposed ban on Tuesday night ... This action made permanent a one-year moratorium instituted in fall 2025, following widespread community opposition to a $1 billion AI-focused data center proposal near Highway 370. ... prevents the projects from moving forward in the city, by making it such that they can't receive permitting or conditional use in any part of the city's zoning districts."
+        },
+        {
+          "url": "https://www.stcharlescitymo.gov/AgendaCenter/Planning-and-Zoning-Commission-16/",
+          "title": "Planning and Zoning Commission Agenda Center",
+          "publisher": "City of St. Charles, Missouri",
+          "document_date": "2026-07-31",
+          "source_type": "agenda",
+          "supports": "As of 2026-07-31, confirms only an agenda (no minutes) is posted for the 2026-04-13 P&Z meeting, establishing that the specific vote tally remains unconfirmable from the city's own records as of this pass.",
+          "quote": "The April 13, 2026 entry - only an 'Agenda' link is listed under that date; there is no separate minutes document linked."
+        }
+      ],
+      "notes": "MAJOR FINDING: the temporary Resolution 25-014 moratorium has been superseded by a permanent data-center ban (TA-2026-01), passed 7-1 by City Council on 2026-05-20 -- enacted_status should move from 'active' to 'replaced'. The narrow original marker (the 2026-04-13 P&Z vote tally specifically) remains genuinely unverifiable and is left unresolved; a future pass could try a direct records request to the City Clerk for that specific meeting's minutes."
+    }
+  ]
+}

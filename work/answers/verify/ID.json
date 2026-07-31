@@ -1,0 +1,40 @@
+{
+  "state_abbrev": "ID",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "id-kootenai-county-2025",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "changes": {
+        "duration": {
+          "from": "182 days from 2025-03-11 adoption; nominal expiration approximately 2025-09-09 (182 days from 2025-03-11). Replaced by Ordinance 620 noticed 2025-10-07 [VERIFY: precise nominal expiration date depends on whether county code counts the adoption day as day 0 or day 1; not extracted from captured records].",
+          "to": "182 days from 2025-03-11 adoption (nominal expiration 2025-09-09), retroactive to 2025-02-27. Resolution 2025-23 itself states the term as '182 days following adoption,' which places the adoption date (March 11) as day zero and the moratorium's last day as day 182 after that (September 9, 2025) -- consistent with the already-recorded computed_expiry. Replaced by Ordinance 620, noticed 2025-10-07.",
+          "reason": "The Resolution 2025-23 PDF (kcgov.us DocumentCenter), retrieved and read in full, states in Section 5: 'This moratorium shall be in place for a period of one hundred eighty-two (182) days following adoption of this moratorium,' and in Section 6 that it is 'in full force and effect retroactive to February 27, 2025.' The phrase 'following adoption' resolves the day-0/day-1 ambiguity in the marker: the count runs from the day after adoption, landing on 2025-09-09 -- exactly the value already recorded as computed_expiry, so no numeric change was needed, only replacement of the bracketed uncertainty with the resolution's own language."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "duration",
+          "marker": "[VERIFY: precise nominal expiration date depends on whether county code counts the adoption day as day 0 or day 1; not extracted from captured records]",
+          "resolution": "confirmed",
+          "note": "Retrieved the full text of Kootenai County Resolution No. 2025-23 ('Emergency Moratorium - Data Centers') directly from the county's own DocumentCenter. Section 5 sets the term as '182 days following adoption of this moratorium,' adopted March 11, 2025 by roll-call vote of the Board of Commissioners. Counting 182 days after (not including) the March 11 adoption date lands on September 9, 2025, matching the record's existing computed_expiry exactly. The resolution's own retroactivity clause (Section 6) also confirms the February 27, 2025 date already in the record."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.kcgov.us/DocumentCenter/View/25322/25-Resolution---2025-23---Data-Center-Building-Permit-Moratorium",
+          "title": "Resolution No. 2025-23, Emergency Moratorium - Data Centers",
+          "publisher": "Kootenai County, Idaho, Board of Commissioners",
+          "document_date": "2025-03-11",
+          "source_type": "resolution",
+          "supports": "Full signed resolution text establishing the moratorium's 182-day term, its retroactive effective date, and the county's findings regarding the Rathdrum Prairie Aquifer, water use, electricity demand, and other impacts.",
+          "quote": "This moratorium shall be in place for a period of one hundred eighty-two (182) days following adoption of this moratorium... This moratorium shall be in full force and effect retroactive to February 27, 2025."
+        }
+      ],
+      "notes": "No change to enacted_status ('replaced') or computed_expiry (2025-09-09); the marker asked only for the precise day-count convention, which the resolution's own 'following adoption' language settles in favor of the value already on record."
+    }
+  ],
+  "new_candidates": []
+}

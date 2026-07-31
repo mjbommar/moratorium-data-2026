@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mjbommar/moratorium-data-2026/work/schemas/legislation_decision.schema.json",
+  "title": "State legislation research decision file",
+  "description": "Output contract for a refresh pass over data/state_legislation.csv. One file per state. The existing `status` column is free text; this pass also assigns typed columns so the tracker becomes filterable.",
+  "type": "object",
+  "required": ["state_abbrev", "researched_as_of", "decisions"],
+  "additionalProperties": false,
+  "properties": {
+    "state_abbrev": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "researched_as_of": { "type": "string", "format": "date" },
+    "researcher": { "type": "string" },
+    "session_note": {
+      "type": "string",
+      "description": "One line on the state's 2026 session: adjournment date sine die, whether it is a carryover biennium, or year-round."
+    },
+    "decisions": { "type": "array", "items": { "$ref": "#/$defs/decision" } },
+    "new_bills": {
+      "type": "array",
+      "description": "Bills relevant to moratoria or data center regulation not already in the tracker.",
+      "items": { "$ref": "#/$defs/new_bill" }
+    }
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "required": ["url", "source_type", "supports"],
+      "additionalProperties": false,
+      "properties": {
+        "url": { "type": "string" },
+        "title": { "type": "string" },
+        "source_type": {
+          "enum": ["legislature_bill_page", "bill_text", "journal", "governor_action", "news", "other"],
+          "description": "The state's own bill-status page is the gold standard here."
+        },
+        "supports": { "type": "string" },
+        "quote": { "type": "string" }
+      }
+    },
+    "status_fields": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "description": "Replacement free-text status, written in the tracker's existing style: action plus ISO date."
+        },
+        "bill_status_category": {
+          "enum": ["introduced", "in_committee", "passed_one_chamber", "passed_both_chambers", "enacted", "vetoed", "failed_died", "carried_over", "withdrawn", "unknown"],
+          "description": "Typed disposition. 'failed_died' covers death by adjournment or missed deadline. 'carried_over' means it remains alive into the next year of a biennium."
+        },
+        "last_action_date_iso": {
+          "type": "string",
+          "description": "ISO date of the most recent recorded action. YYYY-MM-DD, or empty if undetermined."
+        },
+        "chamber_of_origin": { "enum": ["House", "Senate", "Assembly", "Joint", "unknown"] },
+        "key_provisions": { "type": "string", "description": "Only when the existing summary is wrong or the bill was amended." }
+      }
+    },
+    "decision": {
+      "type": "object",
+      "required": ["bill_key", "outcome", "evidence"],
+      "additionalProperties": false,
+      "properties": {
+        "bill_key": {
+          "type": "string",
+          "description": "Exactly '<STATE_ABBREV>:<bill>' using the `bill` value verbatim from the CSV, e.g. 'MI:HB 4456'."
+        },
+        "outcome": {
+          "enum": ["confirmed_unchanged", "status_changed", "corrected", "unresolvable"]
+        },
+        "fields": { "$ref": "#/$defs/status_fields" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "evidence": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/evidence" } },
+        "notes": { "type": "string" }
+      }
+    },
+    "new_bill": {
+      "type": "object",
+      "required": ["state", "bill", "key_provisions", "evidence"],
+      "additionalProperties": false,
+      "properties": {
+        "state": { "type": "string" },
+        "bill": { "type": "string" },
+        "sponsors": { "type": "string" },
+        "party": { "type": "string" },
+        "status": { "type": "string" },
+        "bill_status_category": {
+          "enum": ["introduced", "in_committee", "passed_one_chamber", "passed_both_chambers", "enacted", "vetoed", "failed_died", "carried_over", "withdrawn", "unknown"]
+        },
+        "last_action_date_iso": { "type": "string" },
+        "chamber_of_origin": { "enum": ["House", "Senate", "Assembly", "Joint", "unknown"] },
+        "key_provisions": { "type": "string" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "evidence": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/evidence" } },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

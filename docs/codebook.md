@@ -4,14 +4,14 @@ This document defines every column in every data file. Read this before doing an
 
 ## `data/moratorium_inventory.csv`
 
-**One row per moratorium instrument.** 222 rows total.
+**One row per moratorium instrument.** 416 rows total (v2026.07).
 
 | Column | What it means | Example |
 |--------|---------------|---------|
 | `state` | The full state name. | `Michigan` |
 | `state_abbrev` | The two-letter USPS abbreviation. | `MI` |
 | `jurisdiction` | The local government that adopted (or proposed) the moratorium. May include disambiguating context. | `Pittsfield Township` |
-| `jurisdiction_type` | The kind of local government. Closed vocabulary: `County`, `City`, `Town`, `Township`, `Village`, `Parish`, `Tribal`, `Utility-authority`, `State`, `Other`. | `Township` |
+| `jurisdiction_type` | The kind of local government. Closed vocabulary: `County`, `City`, `Town`, `Township`, `Village`, `Parish`, `Tribal`, `Utility-authority`, `State`, `Other`, `Aggregate meta-row`. `Aggregate meta-row` marks the two non-geographic rollup rows (Michigan, Maryland) that stand in for clusters of reported-but-unitemized local actions; they are the only rows legitimately missing `latitude`/`longitude`. | `Township` |
 | `date_enacted` | When the local board voted to adopt the moratorium. ISO format `YYYY-MM-DD` when known. May include qualifying notes (`reported`, `proposed`, `[VERIFY]`) when uncertain. For pending instruments, may say `Not enacted as of <date>; hearing scheduled <date>`. | `2025-11-20` |
 | `duration` | The originally-scheduled length of the moratorium. Free-text — common values are `6 months`, `180 days`, `1 year`, `12 months`, `Indefinite`. | `6 months` |
 | `legal_basis` | The legal authority cited or implied. Often references the state enabling statute (e.g., `N.C.G.S. 160D-107`, `Iowa Code Chapter 414`) and the specific ordinance/resolution number. | `Resolution 2025-11-17-1` |
@@ -24,7 +24,7 @@ This document defines every column in every data file. Read this before doing an
 | `cite_count` | How many citation markers exist on this row (legacy field, often 0). | `0` |
 | `activity_level` | The state's overall moratorium-activity classification. **Closed vocabulary: `None`, `Low`, `Medium`, `High`.** | `High` |
 | `enacted_status` | **Closed-vocab status bucket** derived from the free-text fields. One of: `active`, `extended`, `replaced`, `expired`, `rescinded`, `pending`. See breakdown below. | `active` |
-| `moratorium_id` | **Stable identifier** of the form `<state-abbrev>-<jurisdiction-slug>-<year>`, with `-pN` appended for explicitly-numbered phases (e.g., Oliver County) or `-N` appended for repeat instruments at the same jurisdiction in the same year. Use this column as a primary key when joining with future releases. | `mi-pittsfield-township-2025` |
+| `moratorium_id` | **Stable identifier** of the form `<state-abbrev>-<jurisdiction-slug>-<year>`, with `-pN` appended for explicitly-numbered phases (e.g., Oliver County) or `-N` appended for repeat instruments at the same jurisdiction in the same year. When no adoption year is established, the year segment is the literal `undated`. Use this column as a primary key when joining with future releases. | `mi-pittsfield-township-2025` |
 | `latitude` | WGS84 latitude of the jurisdiction's centroid. Geocoded via OSM Nominatim (with U.S. Census Geocoder fallback). For counties, the centroid is the county; for cities/towns/villages/townships, the centroid is the local government boundary. Six decimal places (~10 cm precision); blank if geocoding failed. | `42.238500` |
 | `longitude` | WGS84 longitude of the jurisdiction's centroid (see `latitude`). Negative for U.S. jurisdictions. | `-83.706800` |
 | `date_enacted_iso` | LLM-extracted clean date the moratorium was adopted, in ISO form. `YYYY-MM-DD` when the day is known, `YYYY-MM` when only the month is known, `YYYY` when only the year is known, empty when the moratorium has not been adopted (pending) or the date cannot be determined. For phased moratoria, the initial adoption date of THIS phase. | `2026-04-22` |
@@ -38,12 +38,12 @@ This document defines every column in every data file. Read this before doing an
 
 This is the column most users want for filtering. The values:
 
-- **`active`** — moratorium is currently in force (~137 rows)
-- **`extended`** — moratorium was extended past its original sunset and is currently in force (~11 rows)
-- **`replaced`** — moratorium has expired and a permanent ordinance has been adopted in its place (~27 rows)
-- **`expired`** — moratorium has lapsed without a documented replacement (~18 rows)
-- **`rescinded`** — moratorium was affirmatively repealed before its expiration date (~5 rows)
-- **`pending`** — moratorium has been proposed but is not yet in force (~24 rows; e.g., a public hearing is scheduled but the vote hasn't happened)
+- **`active`** — moratorium is currently in force (~42 rows)
+- **`extended`** — moratorium was extended past its original sunset and is currently in force (~42 rows)
+- **`replaced`** — moratorium has expired and a permanent ordinance has been adopted in its place (~37 rows)
+- **`expired`** — moratorium has lapsed without a documented replacement (~20 rows)
+- **`rescinded`** — moratorium was affirmatively repealed before its expiration date (~6 rows)
+- **`pending`** — moratorium has been proposed but is not yet in force (~26 rows; e.g., a public hearing is scheduled but the vote hasn't happened)
 
 To filter to "moratoria currently in force":
 
@@ -59,7 +59,9 @@ enacted = df[~df["enacted_status"].eq("pending")]
 
 ### Notes on the data
 
+- **What counts as a moratorium here.** The inventory records instruments that pause the *acceptance or approval of new development* — something that stops a project from being permitted. Three things that look similar are deliberately excluded: a **permanent** prohibition or zoning ban (not a pause); a **failed or tabled** proposal that never produced an instrument (nothing was adopted); and a freeze on **subsidy eligibility** rather than on permitting. On the last: Arizona HB 4168 s.31 froze new applications to the state data-center tax relief program for three years, which stops no construction and is recorded in `state_legislation.csv` instead. See `work/answers/rejected/` for the reasoning on excluded candidates.
 - **Multi-sector instruments** (one ordinance covering data centers + solar + battery storage + wind) are recorded as one row. The `sectors` column gives a clean multi-label list; the `trigger`, `legal_basis`, and `outcome` text carry the prose.
+- **Several instruments adopted at once** are recorded as separate rows, because the grain of this table is the *instrument*, not the jurisdiction or the meeting. Shelby County, Iowa adopted four separate resolutions on 2026-03-17 — 2026-14 (solar), 2026-15 (battery storage), 2026-16 (data centers and cryptocurrency mining), and 2026-17 (wind) — and those are four rows sharing a date and a jurisdiction but differing in `legal_basis` and `sectors`. Deduplicate on `legal_basis`, not on jurisdiction alone.
 - **Extensions of the same instrument** (e.g., Resolution X adopts a 6-month moratorium, Resolution X-A extends it 6 more months) are recorded as updates to the original row's `current_status` and `enacted_status`, not as new rows.
 - **Successive new instruments** are recorded as separate rows. If a county adopts a moratorium, lets it lift or expire, and then later adopts a *new* moratorium, each is a separate row. Oliver County, ND has three such phases — three separate moratoria, three rows, distinguished by `(Phase 1)` / `(Phase 2)` / `(Phase 3)` in the `jurisdiction` field and by the `-p1` / `-p2` / `-p3` suffix on `moratorium_id`.
 - **Pending moratoria** (proposed but not yet adopted) are intentionally included with `enacted_status = pending` because the public proposal is itself politically meaningful. Filter on `enacted_status` if you want enacted-only counts.
@@ -67,7 +69,7 @@ enacted = df[~df["enacted_status"].eq("pending")]
 
 ## `data/state_legislation.csv`
 
-**One row per state bill.** 413 rows total.
+**One row per state bill.** 438 rows total (v2026.07).
 
 This file tracks state-level legislation in 2025–2026 that relates to moratoria — bills authorizing local moratoria, prohibiting them, preempting them, or imposing state-level moratoria of their own. Most are still pending; a small number have been enacted.
 
@@ -78,9 +80,21 @@ This file tracks state-level legislation in 2025–2026 that relates to moratori
 | `bill` | The state's bill identifier (e.g., `HB 1012`, `SB 5982`). | `HB 4456` |
 | `sponsors` | Lead sponsor name(s). May include co-sponsors. | `Rep. Wortz (R)` |
 | `party` | Sponsor's party affiliation, where known. May say `R`, `D`, `Bipartisan`, or be empty. | `R` |
-| `status` | Where the bill is in the legislative process. Free-text but usually one of: `Introduced`, `In committee`, `Passed House`, `Passed Senate`, `Enacted`, `Failed`, `Vetoed`, `Pending`. | `In committee` |
+| `status` | Where the bill is in the legislative process. Free text, kept for provenance; written as an action plus an ISO date. **For filtering, use `bill_status_category`.** | `Passed Senate 2026-03-04; died in House Energy Committee at adjournment` |
 | `key_provisions` | One-sentence description of what the bill would do. | `Imposes statewide moratorium on data centers >100 MW` |
-| `activity_level` | The state's overall moratorium-activity classification (matches `activity_level` in the inventory). | `High` |
+| `activity_level` | The state's overall moratorium-activity classification (matches `activity_level` in the inventory). Closed vocabulary: `None`, `Low`, `Medium`, `High`. | `High` |
+| `bill_status_category` | **Closed-vocab disposition**, added in v2026.07. One of: `introduced`, `in_committee`, `passed_one_chamber`, `passed_both_chambers`, `enacted`, `vetoed`, `failed_died`, `carried_over`, `withdrawn`, `unknown`. `failed_died` covers death by adjournment or a missed deadline; `carried_over` means the bill remains alive into the next year of a biennium. | `enacted` |
+| `last_action_date_iso` | ISO date of the most recent recorded action on the bill. Empty when undetermined. | `2026-07-07` |
+| `chamber_of_origin` | Originating chamber: `House`, `Senate`, `Assembly` (California and New Jersey lower chambers), `Joint`, or `unknown`. | `Assembly` |
+
+A note on `carried_over` vs `failed_died`: whether a bill dies at the end of a
+calendar year depends on the state's session structure, not the calendar. States
+running two-year sessions (Ohio, Illinois, New Jersey, California, Pennsylvania,
+Virginia, Michigan) keep bills alive across the biennium; states running short
+fixed sessions (South Dakota, Maryland) do not. Getting this distinction right is
+the single largest source of error in a legislative tracker, so the refresh
+records the governing session context per state in the audit log under
+`work/audit/`.
 
 ## `data/summary_stats.json`
 
@@ -88,13 +102,14 @@ A single JSON object with top-level aggregates. Useful for embedding live counts
 
 Top-level keys:
 
-- `total_local_moratoria`: 222 — total rows in the inventory
-- `total_state_bills`: 413 — total rows in state_legislation.csv
-- `states_with_moratoria`: 30
-- `states_without_moratoria`: 20
-- `moratoria_with_verify_tags`: 123 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
-- `moratoria_without_verify_tags`: 99
-- `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 222 rows by `enacted_status`
+- `total_local_moratoria`: 416 — total rows in the inventory
+- `total_state_bills`: 438 — total rows in state_legislation.csv
+- `states_with_moratoria`: 35
+- `states_without_moratoria`: 15
+- `moratoria_with_verify_tags`: 140 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
+- `moratoria_without_verify_tags`: 232
+- `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 416 rows by `enacted_status`
+- `sweep_coverage`: which states received a systematic month-by-month sweep for the release's window, plus `swept_states_with_no_adoptions_in_window`. **Read this before interpreting a state's absence.** A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that `swept_states_with_no_adoptions_in_window` is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from [`data/sweep_coverage.json`](../data/sweep_coverage.json)
 - `top_states_by_moratoria`: list of `[state_name, count]` pairs, top 15
 - `top_states_by_bills`: list of `[state_name, bill_count]` pairs, top 15
 - `states_by_activity_level`: count of states in each closed-vocab activity bucket
@@ -106,6 +121,14 @@ Top-level keys:
 
 - 526 lines are successful extractions (records with `extraction != null` and `error == null`)
 - 338 lines are LLM-call errors retained for transparency (records with `error != null`)
+
+> ⚠️ **Scope mismatch as of v2026.07.** This cohort was built from documents
+> collected **before 2026-04-28** and covers **211 jurisdictions**. The inventory
+> is now 416 rows. The clause-prevalence percentages below therefore describe
+> roughly half the current inventory, not all of it — they were not recomputed in
+> this release because the 50-state document sweep was still running, and
+> extracting mid-sweep would have produced a cohort mixing two snapshots. Do not
+> read these percentages as characterizing the 416-row inventory.
 
 The **n=348 cohort** referenced in the working paper is the subset of successful extractions with `confidence >= 0.4`. Use this filter when computing clause-prevalence percentages:
 

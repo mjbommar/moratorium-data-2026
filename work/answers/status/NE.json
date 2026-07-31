@@ -1,0 +1,104 @@
+{
+  "state_abbrev": "NE",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ne-otoe-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "date_enacted": {
+          "from": "Not enacted in captured sources as of 2026-04-29",
+          "to": "2026-05-19",
+          "reason": "Certified county-clerk minutes of the May 19, 2026 Otoe County Board of Commissioners meeting record the moratorium motion carrying that day."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-05-19",
+          "reason": "Same as above."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Confirmed from certified minutes signed by County Clerk Jenny Bassinger."
+        },
+        "duration": {
+          "from": "Proposed moratorium; duration not confirmed in captured sources",
+          "to": "Moratorium on building and conditional-use permits for data centers, for up to one year from adoption (i.e., through on or about 2027-05-19), and subject to earlier termination if the zoning review committee's updated regulations are approved sooner.",
+          "reason": "Confirmed verbatim from the May 19, 2026 minutes: the board 'enter[ed] a moratorium on building and conditional use permits regarding data centers for up to one year ... the moratorium may be lifted earlier if regulations are updated and approved.'"
+        },
+        "duration_days": {
+          "from": "",
+          "to": "365",
+          "reason": "'Up to one year' per the certified minutes."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "until_event",
+          "reason": "The one-year cap is subject to earlier termination once the zoning review committee's updated regulations are approved, i.e., an event-conditioned duration with a fixed outer bound."
+        },
+        "legal_basis": {
+          "from": "Planning Commission recommendation reported 2026-04-16; county board action not confirmed",
+          "to": "Otoe County Board of Commissioners motion (made by Commissioner Cole, seconded by Commissioner Crownover), adopted by unanimous voice vote (4-0; Commissioner Freshman absent) at the May 19, 2026 regular meeting, following a public hearing and the Planning Commission's April 16, 2026 recommendation. The same meeting also created a zoning review committee (Commissioners Jerad Sornson and Chuck Cole, Dan Thomson, and Jenniffer Panko-Rahe, plus Planning Board representatives Dan Hodges, Howard Bebout, and Cheri Wirthele) to update the county's zoning regulations. No separately numbered ordinance or resolution was adopted for the moratorium itself (compare Resolution 5-19-26-4 and Resolution 5-19-26-5, both adopted at the same meeting for unrelated matters).",
+          "reason": "Confirmed from the certified minutes of the May 19, 2026 meeting."
+        },
+        "current_status": {
+          "from": "Recommended by Planning Commission only; County Board action [VERIFY: Otoe County Board of Commissioners action on the Planning Commission's 2026-04-16 recommendation not in captured records as of 2026-04-29; future-event status].",
+          "to": "Adopted. The Otoe County Board of Commissioners voted 4-0 on 2026-05-19 to enter a moratorium on building and conditional-use permits for data centers, for up to one year, with a newly created zoning review committee directed to update regulations; the moratorium may be lifted earlier once updated regulations are approved.",
+          "reason": "Resolves the VERIFY marker with certified county-clerk minutes."
+        },
+        "affected_projects": {
+          "from": "Possible Tenaska-related southeast Nebraska land assembly and industrial/data center discussion reported in March 2026; no formal Otoe County project application identified [VERIFY: no specific Otoe County application docket retrieved as of 2026-04-29].",
+          "to": "No specific project application was named in the May 19, 2026 public hearing; the certified minutes record public comments about noise, pollution, water/power usage, and preserving agricultural land in general terms, not a named applicant. Possible Tenaska-related southeast Nebraska land assembly and industrial/data-center discussion had been reported in March 2026, but no formal Otoe County application docket was identified in any source checked in this pass either.",
+          "reason": "Confirmed from the certified minutes, which list public commenters but no named applicant or docket."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: Otoe County Board of Commissioners action on the Planning Commission's 2026-04-16 recommendation not in captured records as of 2026-04-29; future-event status]",
+          "resolution": "confirmed",
+          "note": "Confirmed via certified May 19, 2026 commission minutes (Otoe County Clerk Jenny Bassinger, seal affixed): the Board adopted the moratorium that day by a 4-0 vote."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: no specific Otoe County application docket retrieved as of 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "The May 19, 2026 minutes name no applicant; public comments were general. No Otoe County-specific data-center application docket was found in this pass."
+        }
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://cms2.revize.com/revize/otoecounty/Documents/Government/Board%20of%20Commissioners/Agendas%20Minutes/2026/Agenda/5-19-26%20Comm.%20Minutes.pdf",
+          "title": "Otoe County Board of Commissioners minutes, May 19, 2026",
+          "publisher": "Otoe County, Nebraska (County Clerk Jenny Bassinger)",
+          "document_date": "2026-05-19",
+          "source_type": "minutes",
+          "supports": "Adoption date, 4-0 vote, one-year duration with early-termination condition, creation of zoning review committee, and absence of a named applicant in the hearing",
+          "quote": "Cole made a motion, seconded by Crownover, to enter a moratorium on building and conditional use permits regarding data centers for up to one year. The zoning review committee will update the zoning regulations to establish regulations, and the moratorium may be lifted earlier if regulations are updated and approved. Voting aye were Cole, Sornson, Parsons, and Crownover. Nay - none. Motion carried."
+        },
+        {
+          "url": "https://www.1011now.com/2026/05/20/otoe-county-commissioners-pass-moratorium-data-center-or-not/",
+          "title": "Otoe County commissioners pass moratorium, data center or not",
+          "publisher": "1011 Now (KOLN/KGIN)",
+          "document_date": "2026-05-20",
+          "source_type": "news",
+          "supports": "Corroborates passage of the moratorium and names the review committee members",
+          "quote": "What's the problem with a longer moratorium to study this? If there's no actual people who are willing to come here and do this right now why not look at that?"
+        },
+        {
+          "url": "https://nebraskapublicmedia.org/en/news/news-articles/a-nebraska-county-just-banned-new-data-centers-for-up-to-a-year-more-could-follow/",
+          "title": "A Nebraska county just banned new data centers for up to a year. More could follow",
+          "publisher": "Nebraska Public Media",
+          "source_type": "news",
+          "supports": "Corroborates the one-year moratorium and public-hearing concerns raised (noise, water/power, land preservation)",
+          "quote": "The pause is intended to give county officials more time to study the issue and update its regulations."
+        }
+      ],
+      "notes": "The certified minutes are unambiguous and dispositive: this row moves from 'pending' to 'active,' with an exact adoption date and duration. No separate ordinance/resolution number covers the moratorium itself; it was adopted by board motion, distinct from the two numbered resolutions (5-19-26-4, 5-19-26-5) passed the same day for other business. As of 2026-07-31, the up-to-one-year moratorium (running to on or about 2027-05-19) remains in effect; no report of the zoning review committee's regulations being finalized or the moratorium being lifted early was found in this pass."
+    }
+  ],
+  "new_candidates": []
+}

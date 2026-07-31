@@ -1,0 +1,98 @@
+{
+  "state_abbrev": "MO",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "mo-jackson-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "date_enacted": {
+          "from": "Not enacted as of 2026-04-29 (the April 29, 2026 County Legislature regular meeting agenda lists File 6074 under \"PERFECTION OF PROPOSED ORDINANCES AND REPORTS OF COMMITTEE - Health & Environment Committee - 4th. Perfection,\" confirming the ordinance has not yet received final passage; verified from agenda PDF downloaded 2026-04-29)",
+          "to": "2026-06-22 (Jackson County Legislature final passage vote, 8 in favor and 1 excused). Per KCTV5, the measure then went to County Executive Phil LeVota, who had 10 days to sign or veto; no veto was reported in any subsequent coverage found in this pass, but independent confirmation of the Executive's signature was not obtained.",
+          "reason": "Multiple news outlets (KSHB, KCTV5) report the County Legislature's final 8-1 vote on 2026-06-22. This dataset's convention of using the legislative adoption date is followed here, with the executive-action caveat noted explicitly since it could not be independently confirmed."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-06-22",
+          "reason": "Date of the Legislature's final passage vote, per KCTV5 and KSHB."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "The 2026-06-22 legislative vote date is corroborated by two independent news outlets; the caveat about final executive action is carried in the date_enacted text and in current_status rather than in this uncertainty flag."
+        },
+        "duration": {
+          "from": "Proposed 120 days",
+          "to": "180 days, amended up from the original 120-day Ordinance 6074 proposal introduced 2026-04-06 by Legislator Sean E. Smith. The Legislature had also been considering a competing 365-day version (Ordinance 6087, sponsored by Legislative Chair Manny Abarca) before settling on the 180-day term that passed 8-1 on 2026-06-22.",
+          "reason": "KCTV5's June 9 and June 22, 2026 coverage both describe the final measure as a 180-day moratorium, up from the original 120-day proposal; the June 1, 2026 KCTV5 article identifies the competing 120-day (Ordinance 6074) and 365-day (Ordinance 6087) proposals under committee consideration that week."
+        },
+        "duration_days": {
+          "from": "120",
+          "to": "180",
+          "reason": "Confirmed by KSHB and KCTV5 reporting on the final passed version."
+        },
+        "legal_basis": {
+          "from": "Ordinance 6074, introduced 2026-04-06 by Legislator Sean E. Smith",
+          "to": "Ordinance 6074, introduced 2026-04-06 by Legislator Sean E. Smith (120-day version); a competing 365-day version (Ordinance 6087, sponsored by Legislative Chair Manny Abarca) was also considered in committee as of 2026-06-01. The full County Legislature passed a 180-day moratorium on data-center and Battery Energy Storage System (BESS) land-use applications by an 8-1 vote (one member excused) on 2026-06-22. Per KCTV5, the ordinance then went to County Executive Phil LeVota, who had 10 days to sign or veto; no veto was reported in subsequent coverage found in this pass, but the Executive's signature was not independently confirmed, and the exact ordinance/file number of the version that received final passage (whether an amended Ordinance 6074 or a substitute) was not confirmed from a primary Legistar record, which returned an access error to automated fetch.",
+          "reason": "News coverage (KSHB, KCTV5 x3, The Beacon) consistently documents the legislative process and the 8-1 final vote, but this pass could not retrieve the Jackson County Legistar record directly (jacksongov.legistar.com returned an 'Invalid parameters' error and jacksongov.org returned HTTP 403 to automated fetch) to pin down the definitive file number or confirm executive sign-off."
+        },
+        "current_status": {
+          "from": "Pending; Legistar source showed status \"4th. Perfection\" as of 2026-04-29, with no final action date.",
+          "to": "Adopted by the County Legislature (8 in favor, 1 excused) on 2026-06-22 as a 180-day moratorium on data-center and BESS land-use applications, for the purpose of developing long-term policy, County Code provisions, and enhanced public-notice requirements. Whether the measure was signed by County Executive Phil LeVota, became law without signature, or was vetoed was not independently confirmed in this pass; no veto was reported in any subsequent coverage found.",
+          "reason": "Confirmed by KSHB and KCTV5 reporting on the June 22, 2026 Legislature vote."
+        }
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.kshb.com/news/local-news/jackson-county-legislature-approves-180-day-moratorium-on-processing-data-center-land-use-applications",
+          "title": "Jackson County Legislature approves 180-day moratorium on processing data center land use applications",
+          "publisher": "KSHB",
+          "source_type": "news",
+          "supports": "Final passage of a 180-day moratorium and its stated purpose",
+          "quote": "for the purpose of developing a long-term policy and accompanying County Code provisions related to such applications, including the direction of regulatory standards and enhanced public notification requirement"
+        },
+        {
+          "url": "https://www.kctv5.com/2026/06/22/jackson-county-legislature-passes-180-day-moratorium-data-center-applications/",
+          "title": "Jackson County legislature passes 180-day moratorium on data center applications",
+          "publisher": "KCTV5",
+          "document_date": "2026-06-22",
+          "source_type": "news",
+          "supports": "Vote date (2026-06-22), vote count (8-1, one excused), and pending County Executive action within 10 days",
+          "quote": "implementing a 180-day moratorium on the processing of data center land use applications and Battery Energy Storage System land use applications"
+        },
+        {
+          "url": "https://www.kctv5.com/2026/06/09/legislature-advances-ordinance-extending-jackson-county-data-center-moratorium-180-days/",
+          "title": "Legislature advances ordinance extending Jackson County data center moratorium to 180 days",
+          "publisher": "KCTV5",
+          "document_date": "2026-06-09",
+          "source_type": "news",
+          "supports": "Committee-stage advancement of the 180-day version ahead of final passage",
+          "quote": "This temporary pause will allow Jackson County to thoughtfully review existing policies, engage with residents and industry experts."
+        },
+        {
+          "url": "https://www.kctv5.com/2026/06/01/jackson-county-legislature-delays-vote-two-data-center-moratorium-proposals/",
+          "title": "Jackson County Legislature delays vote on two data center moratorium proposals",
+          "publisher": "KCTV5",
+          "document_date": "2026-06-01",
+          "source_type": "news",
+          "supports": "Identifies the two competing proposals: Ordinance 6074 (120 days, Sean Smith) and Ordinance 6087 (365 days, Manny Abarca), and that the vote was held over to the following week",
+          "quote": "Vice Chairman Sean E. Smith... 120 days... to allow the county time to review and revise policy, understand the county's liabilities, set regulations and hear from experts without missing opportunities that could benefit the county."
+        },
+        {
+          "url": "https://thebeaconnews.org/stories/2026/06/08/jackson-county-legislators-mull-data-center-moratorium/",
+          "title": "Jackson County legislators mull data center moratorium",
+          "publisher": "The Beacon: Kansas City",
+          "document_date": "2026-06-08",
+          "source_type": "news",
+          "supports": "Corroborates the two competing ordinance numbers, sponsors, and the committee-stage status as of June 1, 2026",
+          "quote": "Jackson County welcomes innovation and investment. But we also have a responsibility to ensure these projects are developed responsibly, with community input and appropriate safeguards."
+        }
+      ],
+      "notes": "This moves the record from 'pending' to 'active': the County Legislature passed a 180-day data-center/BESS moratorium 8-1 on 2026-06-22, an increase from the originally proposed 120-day Ordinance 6074. However, two facts could not be pinned down from a primary source in this pass, so confidence is capped at 0.65 rather than higher: (1) whether the final measure was formally an amended Ordinance 6074 or a distinct file (a competing 365-day Ordinance 6087 was also in play as of June 1), and (2) whether County Executive Phil LeVota actually signed it (KCTV5 reported a 10-day sign-or-veto window running from June 22, i.e., to roughly July 2, 2026, well before this 2026-07-31 research date, and no veto was reported in later coverage, but that is an inference, not a confirmed fact). Jackson County's own Legistar portal and jacksongov.org returned errors/403 to automated fetch, preventing direct confirmation. A follow-up pass with authenticated or manual access to Jackson County's Legistar system is recommended to nail down the final ordinance number and executive-action date."
+    }
+  ],
+  "new_candidates": []
+}

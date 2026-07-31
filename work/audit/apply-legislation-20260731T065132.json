@@ -1,0 +1,1379 @@
+{
+  "applied_at": "20260731T065132",
+  "answer_files": [
+    "work/answers/legislation/AZ.json",
+    "work/answers/legislation/CA.json",
+    "work/answers/legislation/CT.json",
+    "work/answers/legislation/IA.json",
+    "work/answers/legislation/IL.json",
+    "work/answers/legislation/MD.json",
+    "work/answers/legislation/MI.json",
+    "work/answers/legislation/MN.json",
+    "work/answers/legislation/MS.json",
+    "work/answers/legislation/NE.json",
+    "work/answers/legislation/NJ.json",
+    "work/answers/legislation/NY.json",
+    "work/answers/legislation/OH.json",
+    "work/answers/legislation/OK.json",
+    "work/answers/legislation/PA.json",
+    "work/answers/legislation/SD.json",
+    "work/answers/legislation/VA.json",
+    "work/answers/legislation/WI.json",
+    "work/answers/legislation/WV.json"
+  ],
+  "stats": {
+    "outcome:status_changed": 85,
+    "outcome:confirmed_unchanged": 134,
+    "new_bill_duplicate": 11,
+    "set:status": 41,
+    "set:bill_status_category": 41,
+    "set:last_action_date_iso": 41,
+    "set:chamber_of_origin": 41,
+    "new_bills_added": 1,
+    "outcome:corrected": 10
+  },
+  "session_notes": {
+    "AZ": "Arizona's 57th Legislature, Second Regular Session (2026) adjourned Sine Die on 2026-06-13 (roughly 4:45am), after a 153-day session. Bills not enacted by that date are dead for the biennium's second-year session; Arizona does not carry single bills forward into a new regular session. The official Bill Status Inquiry site (apps.azleg.gov/BillStatus) is a JavaScript single-page app that does not render usable content via plain HTTP fetch, so this pass relied on FastDemocracy and BillTrack50 (both of which mirror azleg.gov's own action-log data feed) for detailed chronological action histories; their own auto-generated 'status' summary labels were found to be unreliable (e.g. mislabeling withdrawn/dead bills as pending or enacted) and were NOT trusted -- only the underlying dated action-by-action history was used to determine disposition. Confidence is set lower than a direct legislature-page fetch would warrant as a result.",
+    "CA": "The 2025-2026 California Legislature is a two-year regular session that convened December 2, 2024 and does not adjourn sine die until November 30, 2026 (final floor votes/chaptering typically run through August-September 2026, with the Governor's last bill-signing deadline in early-to-mid October 2026). As of 2026-07-31 the Legislature is in its scheduled summer recess (mid-July to early August), which is why several bills below show a last action in late June/early July with a committee hearing already calendared for the first week of August 2026. Bills introduced in 2025 that had not passed their house of origin by the constitutional January 31, 2026 deadline (Cal. Const. art. IV, sec. 10(c)) die automatically (e.g., AB1095); bills that already cleared that deadline or were introduced fresh in 2026 remain live for the rest of the biennium and are not 'carried over' in any special procedural sense - they are simply still pending on the normal 2026 calendar.",
+    "CT": "Connecticut's 2026 regular session (an even-year, short session) convened 2026-02-04 and adjourned sine die on 2026-05-06, confirmed directly from the House Journal for that date ('the House adjourned at 12:00 o'clock a.m., sine die'). A separate constitutionally mandated veto session convened for one day on 2026-06-15 but did not take up any bill that had not already passed both chambers. Connecticut regular-session bills do NOT carry over: each regular session (2024, 2025, 2026) is a distinct bill universe, and any bill not enacted by that session's sine die adjournment is dead and would require reintroduction as a new bill number in a later session. The 2025 regular session sine die date (2025-06-04) and the 2024 regular session sine die date (2024-05-08) were independently confirmed the same way from the corresponding House Journals, each explicitly labeled the 'final day' / 'last day' of that session.",
+    "IA": "The 91st Iowa General Assembly spans 2025-2026; a bill not enacted in 2025 can still be alive at the start of 2026 (its own bill number persists), but the second year (2026 session) adjourned Sine Die on 2026-05-03, and there is no further carryover into a 92nd General Assembly. Bills with no recorded action reaching a floor vote by 2026-05-03 are dead; several data-center bills stalled in committee well before that date, consistent with Iowa's internal 'funnel' deadlines that require bills to advance out of committee/one chamber by a set date each session to remain eligible for further floor action. Iowa's official BillBook pages are JS-rendered and did not return history data via plain fetch, but the underlying legis.iowa.gov billTracking/billHistory JSON-backed endpoint (same official data source) did, and was used for every decision below.",
+    "IL": "Illinois's 104th General Assembly is a genuine two-year biennium (convened January 2025, does not adjourn Sine Die until January 2027 when the 105th GA is sworn in), so any bill still pending in a committee at the end of 2025 carries automatically into 2026 without refiling or renumbering. The Illinois Senate uses successive 'Rule 2-10' committee-deadline extensions (and, once a deadline lapses without committee action, a 'Rule 3-9(a)' re-referral to the Assignments Committee) to keep bills technically alive rather than letting them die outright; a Rule 3-9(a) re-referral to Assignments is a parking mechanism, not a formal death, and ILGA's own status pages never label these bills 'dead,' 'failed,' or 'Session Sine Die.' Several bills in this packet (SB2181, SB3120, SB3761, SB3830, SB4004, SB4016) show an identical late-session pattern: deadline extended from an original date through 2026-04-24, then 2026-05-15, then a further undocumented-in-packet extension to 2026-05-22, at which point the deadline lapsed and the bill (with any pending amendments) was re-referred to Assignments under Rule 3-9(a) on 2026-05-22 with no recorded action since. This mirrors what already happened to HB3574, SB0094, and SB2290 in 2025 (re-referred to Assignments in April-June 2025 and untouched since), which remain formally pending, not formally dead, more than a year later. None of the 11 bills in this packet has been reported out of committee, passed both chambers, or enacted as of 2026-07-31, except that HB3574 did pass the House on 2025-04-10 (114-1-0) and is now stalled in the Senate Assignments Committee.",
+    "MD": "Maryland's 2026 Regular Session convened 2026-01-14 and adjourned Sine Die on 2026-04-13 (second Monday in April), confirmed from the bill history of HB1532/HB0293 which show final floor action on that date; Maryland's 90-day fixed session does not carry bills into a future year, so any 2026 bill without a recorded committee vote or floor passage by 2026-04-13 died at adjournment (failed_died), and only bills the Governor signed (or let become law) after that date count as enacted.",
+    "MI": "Michigan's 104th Legislature covers the 2025-2026 term (through December 2026); Michigan bills carry over between the two years of the same term without needing reintroduction (a bill introduced in 2025 remains the same live bill in 2026). As of the research date the Legislature has not adjourned sine die - it is in summer recess (House adjourned until 2026-08-11, Senate until 2026-08-12, per legislature.mi.gov), so no bill below is 'died' or 'carried_over'; unpassed bills are simply still in_committee and legitimately pending.",
+    "MN": "The 94th Minnesota Legislature covers the 2025-2026 biennium; the 2026 regular session adjourned Sine Die on 2026-05-18 (constitutional deadline, first Monday after the third Saturday in May), which is the end of the biennium -- there is no further carryover beyond this date. A bill with no committee vote or floor action recorded by 2026-05-18 is dead. All action-history data below comes from each bill's own page on revisor.mn.gov (the Legislature's official bill-tracking system), read via its status log rather than any auto-generated summary label.",
+    "MS": "Mississippi holds annual (non-carryover) regular sessions; each year's bills are independent and any bill not passed by that year's sine die adjournment is dead and must be reintroduced in a later year. The 2026 Regular Session convened in January 2026; floor action on the two enacted bills below concluded with conference-report adoption on 2026-03-31, enrolled-bill signing on 2026-04-02/04-06, and gubernatorial approval on 2026-04-08, consistent with the Legislature's normal early-April sine die timeframe for an even-year (non-budget-only) session; an independent adjournment-resolution date was not separately fetched in this pass.",
+    "NE": "The 109th Legislature, 2nd Regular Session (2026), adjourned sine die on 2026-04-17 (legislative Day 60), ending the 2025-2026 biennium; the legislature's own homepage confirms 'The Legislature has adjourned SINE DIE.' Nebraska bills carry over from the 1st Session (2025) to the 2nd Session (2026) of the same biennium, but nothing carries past this sine die into a future biennium, so every bill in this packet has a true final 2026 disposition and none should be 'carried_over'.",
+    "NJ": "New Jersey's 221st Legislature (2024-2025 session) adjourned sine die in mid-January 2026 (final flurry of floor action 2026-01-12, new 222nd Legislature seated 2026-01-13); NJ does not carry bills across a Legislature boundary with the same number, so any 2024-2025 bill not enacted before that changeover is dead and would need reintroduction as a new bill in 2026-2027 to advance. The 222nd Legislature (2026-2027 session) began 2026-01-13 and runs as a single continuous biennium into January 2028, so a 2026-2027 bill sitting in committee as of 2026-07-31 is simply pending, not dead or 'carried_over' in the cross-Legislature sense; true carried_over status would only apply if checking status deep into 2027 for a bill still alive from 2026.",
+    "NY": "New York runs a two-year 2025-2026 session; bills not enacted, defeated, or withdrawn carry over automatically from 2025 into 2026 and only die at sine die adjournment of the second year (December 31, 2026); the lower chamber is the Assembly, not the House.",
+    "OH": "Ohio's 136th General Assembly is a continuous two-year session (2025-2026); bills carry over automatically from 2025 into 2026 without any formal carryover action, and the GA does not adjourn sine die until around December 2026. As of 2026-07-31 the session is still ongoing, so bills sitting in committee with no adverse action remain 'in_committee' rather than 'carried_over' or 'failed_died'.",
+    "OK": "Oklahoma's 60th Legislature runs a two-year biennium (2025-2026) but each year's session adjourns sine die separately; 2025 bills not enacted by the 2025 sine die date generally remain alive and can be taken up again in the 2026 session of the same 60th Legislature (as SB 259 was, carried from its 2025-02-03 introduction through to 2026 passage). The Second Regular Session of the 60th Oklahoma Legislature convened 2026-02-02 and adjourned sine die on Friday, 2026-05-29 (NLT 5:00 p.m.), per the official House legislative deadlines page (okhouse.gov/leg_deadlines). Any bill not passed and signed into law by that date is dead for the 2025-2026 biennium; a new bill number would be required starting with the 2027 session.",
+    "PA": "PA's 2025-2026 General Assembly is a two-year regular session (biennium); as of 2026-07-31 it has NOT adjourned sine die (both chambers are in summer recess, scheduled to reconvene September 2026 with adjournment customarily around late November/December 2026), so pending bills remain in normal in-process status (in_committee / passed_one_chamber) rather than carried_over; carryover would only apply once a new 2027-2028 biennium begins and un-passed bills die and must be reintroduced with new numbers.",
+    "SD": "South Dakota's 101st Legislative Session (2026, SessionId 71 on sdlegislature.gov) convened 2026-01-13; the Legislature's own per-bill action logs show all business concluded with final gubernatorial signatures recorded through 2026-03-30 and show no action of any kind after any bill's deferral to the 41st legislative day, confirming SD's short annual session does not carry 2026 bills into a future year.",
+    "VA": "VA's 2026 regular General Assembly session (60-day, even-year session) convened 2026-01-14 and adjourned sine die 2026-03-14. Per Va. Const. Art. V Sec. 6, the Governor then had 30 days to act on bills, i.e. a deadline of 2026-04-13 - this is why the enacted bills below show 'approved 2026-04-13' (it is the constitutional signing deadline, not a reconvened-session date). The constitutionally separate reconvened (veto/amendment) session for 2026 was held 2026-04-22 (the sixth Wednesday after adjournment), confirmed via LIS's own Session API; no bill in this set required reconvened-session action since none were amended or vetoed by the Governor in 2026. VA House of Delegates members serve 2-year terms elected in odd years; the term covering the 2026 and 2027 sessions began January 2026 (after the Nov 2025 election), so a bill 'Continued to 2027' from the 2026 session remains alive within the SAME term (bill_status_category carried_over). By contrast, HB338 (2024) and SB288 (2024) belong to the prior 2024-2025 term (elected Nov 2023); that term, and its 2025 session, are now over, so any bill left in committee/continued without further action is dead (failed_died), not carried over into the new 2026-2027 term.",
+    "WI": "The 2025 Wisconsin Legislature's biennial session period runs from noon on Monday, January 6, 2025, through noon on Monday, January 4, 2027 (per 2025 Senate Joint Resolution 1, which sets the session calendar). SJR 1 also schedules the floor periods within that biennium; for 2026 these are January 13-15/20-22, February 10-19, March 17-19 (expressly designated the last general-business floor period), April 14-16 (limited-business only), and May 12-13 (veto review only), with March 20, 2026 through January 4, 2027 designated as an interim period for committee work (and the 2027 inauguration). 'Failed to pass pursuant to Senate Joint Resolution 1' is Wisconsin's standard constructive-failure mechanism: SJR 1 provides that a bill which has not been acted on by both houses by the close of the applicable floor period is automatically deemed failed, with no separate vote required to kill it. Because all seven items below failed on 2026-03-23 - the Monday immediately after the March 17-19, 2026 period that SJR 1 itself labels the LAST general-business floor period - and because the only floor time remaining in the biennium (April 2026 limited-business and May 2026 veto-review) is procedurally restricted to narrow categories of business that would not encompass these general bills, this failure is, as a practical matter, final for the 2025-2026 biennium. The biennium does not formally end until January 4, 2027, and a bill could in theory still be revived via an extraordinary/special session called by petition of the legislature or the Governor, but no such session has been convened or scheduled for any of these measures as of the research date, so all are correctly treated as dead (failed_died) rather than carried_over.",
+    "WV": "WV 2026 regular session ran 2026-01-14 to 2026-03-14 (60-day session, per wvlegislature.gov). WV bills do NOT carry over between the two regular sessions of a legislature term: each regular session's unpassed bills die at sine die and must be reintroduced under a new bill number the next year. This is confirmed by the 2025 bills below (SB583, SB857, SB803, HB3137) which show no action past their 2025 session pages, while near-duplicate proposals (e.g. SB623 (2026), a reintroduction of the same data-center incentive concept as SB583/SB857 (2025)) appear under brand-new 2026 bill numbers rather than as continuations of the old ones."
+  },
+  "conflicts": [],
+  "changes": [
+    {
+      "bill_key": "CT:HB05076 (2025)",
+      "column": "status",
+      "before": "Referred to Joint Committee on Energy and Technology on 2025-01-10; died in committee at the end of the 2025 regular session (adjourned sine die 2025-06-04)",
+      "after": "Referred to Joint Committee on Energy and Technology 2025-01-10; no further action recorded on the bill's CGA history; died in committee at 2025 regular session sine die adjournment 2025-06-04",
+      "reason": "Packet's captured disposition (died in committee at 2025-06-04 sine die) is confirmed exactly by the live CGA bill-status page, which shows no committee report, no calendar placement, and no further action after the single 2025-01-10 referral.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05076 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Packet's captured disposition (died in committee at 2025-06-04 sine die) is confirmed exactly by the live CGA bill-status page, which shows no committee report, no calendar placement, and no further action after the single 2025-01-10 referral.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05076 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-01-10",
+      "reason": "Packet's captured disposition (died in committee at 2025-06-04 sine die) is confirmed exactly by the live CGA bill-status page, which shows no committee report, no calendar placement, and no further action after the single 2025-01-10 referral.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05076 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "Packet's captured disposition (died in committee at 2025-06-04 sine die) is confirmed exactly by the live CGA bill-status page, which shows no committee report, no calendar placement, and no further action after the single 2025-01-10 referral.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05926 (2025)",
+      "column": "status",
+      "before": "Referred to Joint Committee on Energy and Technology on 2025-01-22; died in committee at the end of the 2025 regular session",
+      "after": "Referred to Joint Committee on Energy and Technology 2025-01-22; no further action recorded; died in committee at 2025 regular session sine die adjournment 2025-06-04",
+      "reason": "Packet's disposition confirmed unchanged: the bill never received a committee report and died with the 2025-06-04 sine die adjournment.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05926 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Packet's disposition confirmed unchanged: the bill never received a committee report and died with the 2025-06-04 sine die adjournment.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05926 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-01-22",
+      "reason": "Packet's disposition confirmed unchanged: the bill never received a committee report and died with the 2025-06-04 sine die adjournment.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05926 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "Packet's disposition confirmed unchanged: the bill never received a committee report and died with the 2025-06-04 sine die adjournment.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05955 (2025)",
+      "column": "status",
+      "before": "Referred to Joint Committee on Energy and Technology on 2025-01-22; died in committee at the end of the 2025 regular session",
+      "after": "Referred to Joint Committee on Energy and Technology 2025-01-22; no further action recorded; died in committee at 2025 regular session sine die adjournment 2025-06-04",
+      "reason": "Packet's disposition confirmed unchanged: no committee report ever issued; died with the 2025-06-04 sine die adjournment.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05955 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Packet's disposition confirmed unchanged: no committee report ever issued; died with the 2025-06-04 sine die adjournment.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05955 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-01-22",
+      "reason": "Packet's disposition confirmed unchanged: no committee report ever issued; died with the 2025-06-04 sine die adjournment.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05955 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "Packet's disposition confirmed unchanged: no committee report ever issued; died with the 2025-06-04 sine die adjournment.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:SB00079 (2024)",
+      "column": "status",
+      "before": "Referred to Joint Committee on Finance, Revenue and Bonding on 2024-02-14; died in committee at the end of the 2024 regular session (adjourned sine die 2024-05-08)",
+      "after": "Referred to Joint Committee on Finance, Revenue and Bonding 2024-02-14; no further action recorded; died in committee at 2024 regular session sine die adjournment 2024-05-08",
+      "reason": "Packet's disposition confirmed unchanged.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:SB00079 (2024)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Packet's disposition confirmed unchanged.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:SB00079 (2024)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2024-02-14",
+      "reason": "Packet's disposition confirmed unchanged.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:SB00079 (2024)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "Packet's disposition confirmed unchanged.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05469 (2026)",
+      "column": "status",
+      "before": "Joint Favorable; File No. 421 and House Calendar No. 305 on 2026-04-07",
+      "after": "Joint Favorable 2026-03-19; filed with Legislative Commissioners' Office and reported out 2026-04-07 with File No. 421 and House Calendar No. 305 (Favorable Report, Tabled for the Calendar, House); never called for a House vote; died on the House calendar at 2026 regular session sine die adjournment 2026-05-06",
+      "reason": "The packet had captured status only through 2026-04-07 (Joint Favorable, File 421, House Cal 305) and flagged the final disposition as uncertain. The bill's CGA history page, fetched today, shows no action of any kind after 2026-04-07, so the bill was never taken up for a House vote before the confirmed 2026-05-06 sine die adjournment; it is now resolved as failed_died rather than left open.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05469 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "The packet had captured status only through 2026-04-07 (Joint Favorable, File 421, House Cal 305) and flagged the final disposition as uncertain. The bill's CGA history page, fetched today, shows no action of any kind after 2026-04-07, so the bill was never taken up for a House vote before the confirmed 2026-05-06 sine die adjournment; it is now resolved as failed_died rather than left open.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05469 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-04-07",
+      "reason": "The packet had captured status only through 2026-04-07 (Joint Favorable, File 421, House Cal 305) and flagged the final disposition as uncertain. The bill's CGA history page, fetched today, shows no action of any kind after 2026-04-07, so the bill was never taken up for a House vote before the confirmed 2026-05-06 sine die adjournment; it is now resolved as failed_died rather than left open.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:HB05469 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "The packet had captured status only through 2026-04-07 (Joint Favorable, File 421, House Cal 305) and flagged the final disposition as uncertain. The bill's CGA history page, fetched today, shows no action of any kind after 2026-04-07, so the bill was never taken up for a House vote before the confirmed 2026-05-06 sine die adjournment; it is now resolved as failed_died rather than left open.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:SB00245 (2026)",
+      "column": "status",
+      "before": "Joint Favorable Change of Reference to Finance, Revenue and Bonding on 2026-03-17; referred to Finance on 2026-03-23 [VERIFY: final disposition unknown; 2026 CT session runs through early June 2026]",
+      "after": "Joint Favorable Change of Reference to Committee on Finance, Revenue and Bonding 2026-03-17; re-referred to Finance, Revenue and Bonding 2026-03-23; no further committee or floor action recorded; died in committee at 2026 regular session sine die adjournment 2026-05-06",
+      "reason": "Packet flagged this bill [VERIFY] with final disposition unknown as of the 2026-03-23 re-referral to Finance, Revenue and Bonding. The bill's CGA history page, fetched today, shows Finance never reported the bill out (no second Joint Favorable, no File Number/Calendar Number from Finance), so it died in that committee at the confirmed 2026-05-06 sine die adjournment.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:SB00245 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Packet flagged this bill [VERIFY] with final disposition unknown as of the 2026-03-23 re-referral to Finance, Revenue and Bonding. The bill's CGA history page, fetched today, shows Finance never reported the bill out (no second Joint Favorable, no File Number/Calendar Number from Finance), so it died in that committee at the confirmed 2026-05-06 sine die adjournment.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:SB00245 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-23",
+      "reason": "Packet flagged this bill [VERIFY] with final disposition unknown as of the 2026-03-23 re-referral to Finance, Revenue and Bonding. The bill's CGA history page, fetched today, shows Finance never reported the bill out (no second Joint Favorable, no File Number/Calendar Number from Finance), so it died in that committee at the confirmed 2026-05-06 sine die adjournment.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:SB00245 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "Packet flagged this bill [VERIFY] with final disposition unknown as of the 2026-03-23 re-referral to Finance, Revenue and Bonding. The bill's CGA history page, fetched today, shows Finance never reported the bill out (no second Joint Favorable, no File Number/Calendar Number from Finance), so it died in that committee at the confirmed 2026-05-06 sine die adjournment.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:SB01292 (2025)",
+      "column": "status",
+      "before": "Joint Favorable Substitute reported 2025-04-07 (File No. 538, Senate Calendar No. 303); died on Senate calendar at session adjournment 2025-06-04 [VERIFY: any final-night Senate consent calendar disposition not separately confirmed]",
+      "after": "Joint Favorable Substitute 2025-03-18; filed with Legislative Commissioners' Office and reported out 2025-04-07 with File No. 538 and Senate Calendar No. 303 (Favorable Report, Tabled for the Calendar, Senate); never called for a Senate vote; died on the Senate calendar at 2025 regular session sine die adjournment 2025-06-04",
+      "reason": "Packet's [VERIFY] flag concerned whether any final-night Senate consent-calendar action might have picked the bill up. The bill's own CGA history, fetched today with full visibility into everything that has happened since, shows no action of any kind after the 2025-04-07 calendar tabling, so the packet's believed disposition (died at 2025-06-04 sine die) is confirmed and the VERIFY flag can be cleared.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:SB01292 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Packet's [VERIFY] flag concerned whether any final-night Senate consent-calendar action might have picked the bill up. The bill's own CGA history, fetched today with full visibility into everything that has happened since, shows no action of any kind after the 2025-04-07 calendar tabling, so the packet's believed disposition (died at 2025-06-04 sine die) is confirmed and the VERIFY flag can be cleared.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:SB01292 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-04-07",
+      "reason": "Packet's [VERIFY] flag concerned whether any final-night Senate consent-calendar action might have picked the bill up. The bill's own CGA history, fetched today with full visibility into everything that has happened since, shows no action of any kind after the 2025-04-07 calendar tabling, so the packet's believed disposition (died at 2025-06-04 sine die) is confirmed and the VERIFY flag can be cleared.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "CT:SB01292 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "Packet's [VERIFY] flag concerned whether any final-night Senate consent-calendar action might have picked the bill up. The bill's own CGA history, fetched today with full visibility into everything that has happened since, shows no action of any kind after the 2025-04-07 calendar tabling, so the packet's believed disposition (died at 2025-06-04 sine die) is confirmed and the VERIFY flag can be cleared.",
+      "source": "CT.json"
+    },
+    {
+      "bill_key": "MS:HB1239 (2025)",
+      "column": "status",
+      "before": "Dead; died in conference on 2025-03-29",
+      "after": "Died in conference 2025-03-29",
+      "reason": "Packet text matches the official history exactly.",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB1239 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Packet text matches the official history exactly.",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB1239 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-03-29",
+      "reason": "Packet text matches the official history exactly.",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB1239 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "Packet text matches the official history exactly.",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB1393 (2026)",
+      "column": "status",
+      "before": "Approved by Governor on 2026-04-08",
+      "after": "Approved by Governor 2026-04-08; enacted as Chapter 459, Laws of 2026, effective 2026-07-01",
+      "reason": "Chapter number (459 of 2026) and effective date (July 1, 2026) newly confirmed from the official BACKGROUND block, not present in the packet's summary.",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB1393 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "Chapter number (459 of 2026) and effective date (July 1, 2026) newly confirmed from the official BACKGROUND block, not present in the packet's summary.",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB1393 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-04-08",
+      "reason": "Chapter number (459 of 2026) and effective date (July 1, 2026) newly confirmed from the official BACKGROUND block, not present in the packet's summary.",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB1393 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "Chapter number (459 of 2026) and effective date (July 1, 2026) newly confirmed from the official BACKGROUND block, not present in the packet's summary.",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB4010 (2026)",
+      "column": "status",
+      "before": "Died in Committee on 2026-02-25",
+      "after": "Died in House Ways and Means committee 2026-02-25",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB4010 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB4010 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-02-25",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB4010 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB4045 (2026)",
+      "column": "status",
+      "before": "Died on Calendar on 2026-02-25",
+      "after": "Died on calendar 2026-02-25 (Ways and Means reported favorably 2026-02-24 but bill did not reach a floor vote before the committee deadline)",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB4045 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB4045 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-02-25",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:HB4045 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "House",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:SB3106 (2024)",
+      "column": "status",
+      "before": "Dead; passed Senate, died in House Ways and Means on 2024-04-16",
+      "after": "Passed Senate 2024-03-27; died in House Ways and Means committee 2024-04-16",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:SB3106 (2024)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:SB3106 (2024)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2024-04-16",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:SB3106 (2024)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:SB3168 (2025)",
+      "column": "status",
+      "before": "Dead; passed Senate, died in House committee on 2025-03-18",
+      "after": "Passed Senate 2025-02-26; died in House committee (State Affairs/Ways and Means) 2025-03-18",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:SB3168 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:SB3168 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-03-18",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:SB3168 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:SB3410 (2026)",
+      "column": "status",
+      "before": "Approved by Governor on 2026-04-08",
+      "after": "Approved by Governor 2026-04-08; enacted as Chapter 936, Laws of 2026, effective upon passage",
+      "reason": "Chapter number (936 of 2026, local and private legislation) newly confirmed from the official BACKGROUND block, not present in the packet's summary. This is a local/private act specific to the City of Brandon and West Rankin Utility Authority.",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:SB3410 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "Chapter number (936 of 2026, local and private legislation) newly confirmed from the official BACKGROUND block, not present in the packet's summary. This is a local/private act specific to the City of Brandon and West Rankin Utility Authority.",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:SB3410 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-04-08",
+      "reason": "Chapter number (936 of 2026, local and private legislation) newly confirmed from the official BACKGROUND block, not present in the packet's summary. This is a local/private act specific to the City of Brandon and West Rankin Utility Authority.",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "MS:SB3410 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "Chapter number (936 of 2026, local and private legislation) newly confirmed from the official BACKGROUND block, not present in the packet's summary. This is a local/private act specific to the City of Brandon and West Rankin Utility Authority.",
+      "source": "MS.json"
+    },
+    {
+      "bill_key": "NE:LB1010 (2026)",
+      "column": "status",
+      "before": "Enacted; approved by Governor 2026-04-14",
+      "after": "Enacted; approved by Governor on 2026-04-14 (passed Final Reading 49-0-0 on 2026-04-10).",
+      "reason": "Bill history also records that provisions/portions of LB1193, LB1111, and LB1064 were amended into LB1010 by AM2387/AM2422 on 2026-04-17 (recorded after final passage), consolidating the large-load/data-center package into this single enacted act.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1010 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "Bill history also records that provisions/portions of LB1193, LB1111, and LB1064 were amended into LB1010 by AM2387/AM2422 on 2026-04-17 (recorded after final passage), consolidating the large-load/data-center package into this single enacted act.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1010 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-04-14",
+      "reason": "Bill history also records that provisions/portions of LB1193, LB1111, and LB1064 were amended into LB1010 by AM2387/AM2422 on 2026-04-17 (recorded after final passage), consolidating the large-load/data-center package into this single enacted act.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1010 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "unknown",
+      "reason": "Bill history also records that provisions/portions of LB1193, LB1111, and LB1064 were amended into LB1010 by AM2387/AM2422 on 2026-04-17 (recorded after final passage), consolidating the large-load/data-center package into this single enacted act.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1064 (2026)",
+      "column": "status",
+      "before": "Not enacted separately; referred to Natural Resources Committee",
+      "after": "Indefinitely postponed by the Natural Resources Committee on 2026-04-17 (bill's own large-load provisions were separately amended into enacted LB1010 via AM2422 the same day).",
+      "reason": "History row also reads: 'Provisions/portions of LB1064 amended into LB1010 by AM2422' (2026-04-17), consistent with packet's note that LB1064's large-load language appears in enacted LB1010.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1064 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "History row also reads: 'Provisions/portions of LB1064 amended into LB1010 by AM2422' (2026-04-17), consistent with packet's note that LB1064's large-load language appears in enacted LB1010.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1064 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-04-17",
+      "reason": "History row also reads: 'Provisions/portions of LB1064 amended into LB1010 by AM2422' (2026-04-17), consistent with packet's note that LB1064's large-load language appears in enacted LB1010.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1064 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "unknown",
+      "reason": "History row also reads: 'Provisions/portions of LB1064 amended into LB1010 by AM2422' (2026-04-17), consistent with packet's note that LB1064's large-load language appears in enacted LB1010.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1111 (2026)",
+      "column": "status",
+      "before": "Not enacted separately; referred to Natural Resources Committee",
+      "after": "Indefinitely postponed by the Natural Resources Committee on 2026-04-17 (bill's provisions were separately amended into enacted LB1010 via AM2422 the same day).",
+      "reason": "History row also reads: 'Provisions/portions of LB1111 amended into LB1010 by AM2422' (2026-04-17). The bill's own status page lists only Sen. Cavanaugh, M. as introducer with Sen. McKinney appearing in the introduced-copy caption; no separate cosponsor list is shown on the current status page, so the earlier [VERIFY] flag on the full cosponsor list could not be fully resolved from this page alone.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1111 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "History row also reads: 'Provisions/portions of LB1111 amended into LB1010 by AM2422' (2026-04-17). The bill's own status page lists only Sen. Cavanaugh, M. as introducer with Sen. McKinney appearing in the introduced-copy caption; no separate cosponsor list is shown on the current status page, so the earlier [VERIFY] flag on the full cosponsor list could not be fully resolved from this page alone.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1111 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-04-17",
+      "reason": "History row also reads: 'Provisions/portions of LB1111 amended into LB1010 by AM2422' (2026-04-17). The bill's own status page lists only Sen. Cavanaugh, M. as introducer with Sen. McKinney appearing in the introduced-copy caption; no separate cosponsor list is shown on the current status page, so the earlier [VERIFY] flag on the full cosponsor list could not be fully resolved from this page alone.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1111 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "unknown",
+      "reason": "History row also reads: 'Provisions/portions of LB1111 amended into LB1010 by AM2422' (2026-04-17). The bill's own status page lists only Sen. Cavanaugh, M. as introducer with Sen. McKinney appearing in the introduced-copy caption; no separate cosponsor list is shown on the current status page, so the earlier [VERIFY] flag on the full cosponsor list could not be fully resolved from this page alone.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1131 (2026)",
+      "column": "status",
+      "before": "Placed on General File with AM2071 on 2026-02-23; not identified as enacted by 2026-04-29",
+      "after": "Indefinitely postponed on 2026-04-17 while on General File with AM2071 (bill's provisions were separately amended into LB901 via AM2406 the same day).",
+      "reason": "History row also reads: 'Provisions/portions of LB1131 amended into LB901 by AM2406' (2026-04-17) -- note this is LB901, not LB1010, a detail the packet did not have.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1131 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "History row also reads: 'Provisions/portions of LB1131 amended into LB901 by AM2406' (2026-04-17) -- note this is LB901, not LB1010, a detail the packet did not have.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1131 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-04-17",
+      "reason": "History row also reads: 'Provisions/portions of LB1131 amended into LB901 by AM2406' (2026-04-17) -- note this is LB901, not LB1010, a detail the packet did not have.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1131 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "unknown",
+      "reason": "History row also reads: 'Provisions/portions of LB1131 amended into LB901 by AM2406' (2026-04-17) -- note this is LB901, not LB1010, a detail the packet did not have.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1204 (2026)",
+      "column": "status",
+      "before": "Referred to Natural Resources Committee; not identified as enacted by 2026-04-29",
+      "after": "Indefinitely postponed by the Natural Resources Committee on 2026-04-17.",
+      "reason": "The bill's current status page lists only Sen. Clouse as introducer; no separate 'Sen. Quick' cosponsor entry appears on this page, so the earlier [VERIFY] cosponsor flag could not be fully resolved from this page alone.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1204 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "The bill's current status page lists only Sen. Clouse as introducer; no separate 'Sen. Quick' cosponsor entry appears on this page, so the earlier [VERIFY] cosponsor flag could not be fully resolved from this page alone.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1204 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-04-17",
+      "reason": "The bill's current status page lists only Sen. Clouse as introducer; no separate 'Sen. Quick' cosponsor entry appears on this page, so the earlier [VERIFY] cosponsor flag could not be fully resolved from this page alone.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1204 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "unknown",
+      "reason": "The bill's current status page lists only Sen. Clouse as introducer; no separate 'Sen. Quick' cosponsor entry appears on this page, so the earlier [VERIFY] cosponsor flag could not be fully resolved from this page alone.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1261 (2026)",
+      "column": "status",
+      "before": "Enacted; approved by Governor 2026-04-14",
+      "after": "Enacted; approved by Governor on 2026-04-14 (passed Final Reading 33-16-0 on 2026-04-10).",
+      "reason": "Introducer Sen. DeKay, at the request of the Governor, matching packet.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1261 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "Introducer Sen. DeKay, at the request of the Governor, matching packet.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1261 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-04-14",
+      "reason": "Introducer Sen. DeKay, at the request of the Governor, matching packet.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1261 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "unknown",
+      "reason": "Introducer Sen. DeKay, at the request of the Governor, matching packet.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1319 (2024)",
+      "column": "status",
+      "before": "Indefinitely postponed in 2024",
+      "after": "Indefinitely postponed by the Revenue Committee on 2024-04-18 (108th Legislature, prior biennium; final).",
+      "reason": "Prior-biennium bill (108th Legislature); disposition is final and cannot be affected by the 2026 sine die.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1319 (2024)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Prior-biennium bill (108th Legislature); disposition is final and cannot be affected by the 2026 sine die.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1319 (2024)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2024-04-18",
+      "reason": "Prior-biennium bill (108th Legislature); disposition is final and cannot be affected by the 2026 sine die.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1319 (2024)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "unknown",
+      "reason": "Prior-biennium bill (108th Legislature); disposition is final and cannot be affected by the 2026 sine die.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB209 (2023)",
+      "column": "status",
+      "before": "Indefinitely postponed in 2024",
+      "after": "Indefinitely postponed by the Revenue Committee on 2024-04-18 (108th Legislature, prior biennium; final).",
+      "reason": "Prior-biennium bill (108th Legislature); disposition is final and cannot be affected by the 2026 sine die.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB209 (2023)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Prior-biennium bill (108th Legislature); disposition is final and cannot be affected by the 2026 sine die.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB209 (2023)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2024-04-18",
+      "reason": "Prior-biennium bill (108th Legislature); disposition is final and cannot be affected by the 2026 sine die.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB209 (2023)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "unknown",
+      "reason": "Prior-biennium bill (108th Legislature); disposition is final and cannot be affected by the 2026 sine die.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB468 (2025 carryover)",
+      "column": "status",
+      "before": "Carryover bill; Clements priority bill on 2026-02-17; not identified as enacted by 2026-04-29",
+      "after": "Indefinitely postponed on 2026-04-17 while on Select File with ER68/AM1447 (Sen. Clements priority bill, never reached Final Reading).",
+      "reason": "This was the priority bill the packet flagged as needing a real final disposition. It advanced through committee and Select File in 2025 (AM874, ER68, AM1447 adopted) but was never placed on Final Reading before the 2026 sine die; the Legislature's own history table records 'Indefinitely postponed' as the last action, dated 2026-04-17.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB468 (2025 carryover)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "This was the priority bill the packet flagged as needing a real final disposition. It advanced through committee and Select File in 2025 (AM874, ER68, AM1447 adopted) but was never placed on Final Reading before the 2026 sine die; the Legislature's own history table records 'Indefinitely postponed' as the last action, dated 2026-04-17.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB468 (2025 carryover)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-04-17",
+      "reason": "This was the priority bill the packet flagged as needing a real final disposition. It advanced through committee and Select File in 2025 (AM874, ER68, AM1447 adopted) but was never placed on Final Reading before the 2026 sine die; the Legislature's own history table records 'Indefinitely postponed' as the last action, dated 2026-04-17.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB468 (2025 carryover)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "unknown",
+      "reason": "This was the priority bill the packet flagged as needing a real final disposition. It advanced through committee and Select File in 2025 (AM874, ER68, AM1447 adopted) but was never placed on Final Reading before the 2026 sine die; the Legislature's own history table records 'Indefinitely postponed' as the last action, dated 2026-04-17.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB613 (2025)",
+      "column": "status",
+      "before": "Enacted; approved by Governor 2025-06-04",
+      "after": "Enacted; approved by Governor on 2025-06-04 (passed Final Reading 45-3-1 on 2025-04-22, presented to Governor 2025-05-30).",
+      "reason": "The status page's official short title ('Change provisions relating to the disclosure of tax information to municipalities') differs from the packet's substantive description, but the enacted slip law text confirms the tier-2 data-center incentive language the packet describes is genuinely present, so key_provisions was left unchanged. Introducer on file is Sen. Andersen only; no separate Sen. Clouse/Sen. Sorrentino cosponsor entries appear on the current status page.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB613 (2025)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "The status page's official short title ('Change provisions relating to the disclosure of tax information to municipalities') differs from the packet's substantive description, but the enacted slip law text confirms the tier-2 data-center incentive language the packet describes is genuinely present, so key_provisions was left unchanged. Introducer on file is Sen. Andersen only; no separate Sen. Clouse/Sen. Sorrentino cosponsor entries appear on the current status page.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB613 (2025)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-06-04",
+      "reason": "The status page's official short title ('Change provisions relating to the disclosure of tax information to municipalities') differs from the packet's substantive description, but the enacted slip law text confirms the tier-2 data-center incentive language the packet describes is genuinely present, so key_provisions was left unchanged. Introducer on file is Sen. Andersen only; no separate Sen. Clouse/Sen. Sorrentino cosponsor entries appear on the current status page.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB613 (2025)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "unknown",
+      "reason": "The status page's official short title ('Change provisions relating to the disclosure of tax information to municipalities') differs from the packet's substantive description, but the enacted slip law text confirms the tier-2 data-center incentive language the packet describes is genuinely present, so key_provisions was left unchanged. Introducer on file is Sen. Andersen only; no separate Sen. Clouse/Sen. Sorrentino cosponsor entries appear on the current status page.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NE:LB1259 (2026)",
+      "column": "<new row>",
+      "before": "",
+      "after": "Would have adopted the Grid Modernization Act to modernize Nebraska's electric grid infrastructure and regulatory framew",
+      "reason": "Found via the legislature's own keyword search for 'large load customer' among 2026 bills; not previously in the NE packet. Died at sine die alongside LB1064/LB1111/LB1204/LB1131; its substance was not identified as folded into enacted LB1010 or LB1261.",
+      "source": "NE.json"
+    },
+    {
+      "bill_key": "NY:A9107 (2025-2026)",
+      "column": "status",
+      "before": "In Assembly Energy",
+      "after": "Referred to Assembly Energy Committee as of 2026-01-07",
+      "reason": "No floor calendar or committee-vote action found beyond the January 2026 committee referral already reflected in the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:A9107 (2025-2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "No floor calendar or committee-vote action found beyond the January 2026 committee referral already reflected in the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:A9107 (2025-2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-01-07",
+      "reason": "No floor calendar or committee-vote action found beyond the January 2026 committee referral already reflected in the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:A9107 (2025-2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Assembly",
+      "reason": "No floor calendar or committee-vote action found beyond the January 2026 committee referral already reflected in the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S6394A / A9086A (2025-2026)",
+      "column": "status",
+      "before": "S6394A referred to Senate Energy and Telecommunications on 2026-01-07; A9086A reference changed to Assembly Energy on 2026-01-13",
+      "after": "S6394 amended to print B and recommitted to Senate Energy and Telecommunications on 2026-05-30; A9086 amended to print B and recommitted to Assembly Energy on 2026-06-01",
+      "reason": "Both companion bills have been further amended since the packet capture (now S6394B / A9086B) but remain in their respective Energy committees; no chamber floor passage has occurred.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S6394A / A9086A (2025-2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "Both companion bills have been further amended since the packet capture (now S6394B / A9086B) but remain in their respective Energy committees; no chamber floor passage has occurred.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S6394A / A9086A (2025-2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-06-01",
+      "reason": "Both companion bills have been further amended since the packet capture (now S6394B / A9086B) but remain in their respective Energy committees; no chamber floor passage has occurred.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S6394A / A9086A (2025-2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "Both companion bills have been further amended since the packet capture (now S6394B / A9086B) but remain in their respective Energy committees; no chamber floor passage has occurred.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S6486D / A7389C (2021-2022, enacted)",
+      "column": "status",
+      "before": "Enacted 2022-11-22 as Chapter 628",
+      "after": "Enacted as Chapter 628 of the Laws of 2022; delivered to and signed by the Governor on 2022-11-22 (approval memo #26)",
+      "reason": "This is a prior-biennium bill already confirmed enacted; the Senate print (S6486D) was substituted on the floor by the Assembly print (A7389C), which is the version actually delivered to and signed by the Governor, so chamber_of_origin here reflects the enacting Assembly print rather than the first-listed Senate companion.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S6486D / A7389C (2021-2022, enacted)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "This is a prior-biennium bill already confirmed enacted; the Senate print (S6486D) was substituted on the floor by the Assembly print (A7389C), which is the version actually delivered to and signed by the Governor, so chamber_of_origin here reflects the enacting Assembly print rather than the first-listed Senate companion.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S6486D / A7389C (2021-2022, enacted)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2022-11-22",
+      "reason": "This is a prior-biennium bill already confirmed enacted; the Senate print (S6486D) was substituted on the floor by the Assembly print (A7389C), which is the version actually delivered to and signed by the Governor, so chamber_of_origin here reflects the enacting Assembly print rather than the first-listed Senate companion.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S6486D / A7389C (2021-2022, enacted)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Assembly",
+      "reason": "This is a prior-biennium bill already confirmed enacted; the Senate print (S6486D) was substituted on the floor by the Assembly print (A7389C), which is the version actually delivered to and signed by the Governor, so chamber_of_origin here reflects the enacting Assembly print rather than the first-listed Senate companion.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8037 (2025-2026)",
+      "column": "status",
+      "before": "In Senate Energy and Telecommunications",
+      "after": "Referred to Senate Energy and Telecommunications Committee as of 2026-01-07",
+      "reason": "No Assembly companion is recorded for this bill; no floor action found.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8037 (2025-2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "No Assembly companion is recorded for this bill; no floor action found.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8037 (2025-2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-01-07",
+      "reason": "No Assembly companion is recorded for this bill; no floor action found.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8037 (2025-2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "No Assembly companion is recorded for this bill; no floor action found.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8518 / A9138 (2025-2026)",
+      "column": "status",
+      "before": "In Senate Energy and Telecommunications; A9138 in Assembly Ways and Means per captured bill page [VERIFY: post-2026-04-29 Assembly committee re-referral or third-reading calendar status not in captured records]",
+      "after": "S8518 referred to Senate Energy and Telecommunications on 2026-01-07 (moved from Senate Rules); A9138 referred to Assembly Ways and Means on 2026-01-07 (unchanged committee)",
+      "reason": "[VERIFY] resolved: A9138 is still assigned to Assembly Ways and Means with no re-referral or third-reading calendar action found; this matches the packet's captured record.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8518 / A9138 (2025-2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "[VERIFY] resolved: A9138 is still assigned to Assembly Ways and Means with no re-referral or third-reading calendar action found; this matches the packet's captured record.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8518 / A9138 (2025-2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-01-07",
+      "reason": "[VERIFY] resolved: A9138 is still assigned to Assembly Ways and Means with no re-referral or third-reading calendar action found; this matches the packet's captured record.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8518 / A9138 (2025-2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "[VERIFY] resolved: A9138 is still assigned to Assembly Ways and Means with no re-referral or third-reading calendar action found; this matches the packet's captured record.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8536 / A9064 (2025-2026)",
+      "column": "status",
+      "before": "In Senate Energy and Telecommunications; in Assembly Energy",
+      "after": "S8536 referred to Senate Energy and Telecommunications on 2026-01-07; A9064 referred to Assembly Energy on 2026-01-07",
+      "reason": "No committee change or floor action found on either companion bill since the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8536 / A9064 (2025-2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "No committee change or floor action found on either companion bill since the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8536 / A9064 (2025-2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-01-07",
+      "reason": "No committee change or floor action found on either companion bill since the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8536 / A9064 (2025-2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "No committee change or floor action found on either companion bill since the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8540 / A9039A (2025-2026)",
+      "column": "status",
+      "before": "S8540 committed to Senate Rules per captured bill text; A9039A advanced to third reading calendar 223 on 2026-01-15 [VERIFY: current Senate committee assignment for S8540 may have changed; fresh capture not retrieved as of 2026-04-29]",
+      "after": "S8540 moved from Senate Rules to Senate Energy and Telecommunications on 2026-01-07 and was amended to print A and recommitted to that committee on 2026-05-29; A9039 advanced to Assembly third-reading calendar No. 223 on 2026-01-15 and was further amended on third reading to print B on 2026-06-01",
+      "reason": "[VERIFY] resolved: the Senate side did move from Rules to Energy and Telecommunications, and both companions have advanced further (Senate: amended print A in committee; Assembly: on the floor calendar past Cal. No. 223, amended again to print B). Bill_status_category is recorded as in_committee because, despite the Assembly bill's calendar placement, neither chamber has yet held a passage vote; this is the closest available schema category since no floor-calendar-specific category exists.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8540 / A9039A (2025-2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "[VERIFY] resolved: the Senate side did move from Rules to Energy and Telecommunications, and both companions have advanced further (Senate: amended print A in committee; Assembly: on the floor calendar past Cal. No. 223, amended again to print B). Bill_status_category is recorded as in_committee because, despite the Assembly bill's calendar placement, neither chamber has yet held a passage vote; this is the closest available schema category since no floor-calendar-specific category exists.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8540 / A9039A (2025-2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-06-01",
+      "reason": "[VERIFY] resolved: the Senate side did move from Rules to Energy and Telecommunications, and both companions have advanced further (Senate: amended print A in committee; Assembly: on the floor calendar past Cal. No. 223, amended again to print B). Bill_status_category is recorded as in_committee because, despite the Assembly bill's calendar placement, neither chamber has yet held a passage vote; this is the closest available schema category since no floor-calendar-specific category exists.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8540 / A9039A (2025-2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "[VERIFY] resolved: the Senate side did move from Rules to Energy and Telecommunications, and both companions have advanced further (Senate: amended print A in committee; Assembly: on the floor calendar past Cal. No. 223, amended again to print B). Bill_status_category is recorded as in_committee because, despite the Assembly bill's calendar placement, neither chamber has yet held a passage vote; this is the closest available schema category since no floor-calendar-specific category exists.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8546 / A10049 (2025-2026)",
+      "column": "status",
+      "before": "In Senate Energy and Telecommunications; in Assembly Energy",
+      "after": "S8546 referred to Senate Energy and Telecommunications on 2026-01-07; A10049 referred to Assembly Energy on 2026-01-30",
+      "reason": "No committee change or floor action found on either companion bill since the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8546 / A10049 (2025-2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "No committee change or floor action found on either companion bill since the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8546 / A10049 (2025-2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-01-30",
+      "reason": "No committee change or floor action found on either companion bill since the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8546 / A10049 (2025-2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "No committee change or floor action found on either companion bill since the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8645 / A9136 (2025-2026)",
+      "column": "status",
+      "before": "S8645 in Senate Energy and Telecommunications; A9136 in Assembly Energy",
+      "after": "S8645 referred to Senate Energy and Telecommunications on 2026-01-07; A9136 referred to Assembly Energy on 2026-01-07",
+      "reason": "No committee change or floor action found on either companion bill since the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8645 / A9136 (2025-2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "No committee change or floor action found on either companion bill since the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8645 / A9136 (2025-2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-01-07",
+      "reason": "No committee change or floor action found on either companion bill since the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S8645 / A9136 (2025-2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "No committee change or floor action found on either companion bill since the packet capture.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S9144 / A10141 (2026)",
+      "column": "status",
+      "before": "In Senate Environmental Conservation; in Assembly Environmental Conservation",
+      "after": "S9144 amended to print A and recommitted to Senate Environmental Conservation on 2026-05-12; A10141 amended to print A and recommitted to Assembly Environmental Conservation on 2026-05-12",
+      "reason": "Both companion bills have been further amended since the packet capture (now S9144A / A10141A) but remain in their respective Environmental Conservation committees; no chamber floor passage has occurred. This is the data-center moratorium bill referenced in the task instructions.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S9144 / A10141 (2026)",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "in_committee",
+      "reason": "Both companion bills have been further amended since the packet capture (now S9144A / A10141A) but remain in their respective Environmental Conservation committees; no chamber floor passage has occurred. This is the data-center moratorium bill referenced in the task instructions.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S9144 / A10141 (2026)",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-05-12",
+      "reason": "Both companion bills have been further amended since the packet capture (now S9144A / A10141A) but remain in their respective Environmental Conservation committees; no chamber floor passage has occurred. This is the data-center moratorium bill referenced in the task instructions.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "NY:S9144 / A10141 (2026)",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "Both companion bills have been further amended since the packet capture (now S9144A / A10141A) but remain in their respective Environmental Conservation committees; no chamber floor passage has occurred. This is the data-center moratorium bill referenced in the task instructions.",
+      "source": "NY.json"
+    },
+    {
+      "bill_key": "WI:AB140 / 2025 Wisconsin Act 16",
+      "column": "status",
+      "before": "Enacted; approved 2025-07-08 and published 2025-07-09",
+      "after": "Enacted as 2025 Wisconsin Act 16; passed Assembly 2025-05-13 (91-6), Senate concurred 2025-06-18 (29-3), approved by Governor 2025-07-08, published 2025-07-09. No subsequent repeal found as of 2026-07-31.",
+      "reason": "Matches packet exactly. The bill page itself has no mechanism for showing a later repeal by a different bill; no search for a repealing measure targeting Act 16 turned up any such bill, so 'not repealed' is asserted at moderate rather than full confidence.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB140 / 2025 Wisconsin Act 16",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "enacted",
+      "reason": "Matches packet exactly. The bill page itself has no mechanism for showing a later repeal by a different bill; no search for a repealing measure targeting Act 16 turned up any such bill, so 'not repealed' is asserted at moderate rather than full confidence.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB140 / 2025 Wisconsin Act 16",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2025-07-09",
+      "reason": "Matches packet exactly. The bill page itself has no mechanism for showing a later repeal by a different bill; no search for a repealing measure targeting Act 16 turned up any such bill, so 'not repealed' is asserted at moderate rather than full confidence.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB140 / 2025 Wisconsin Act 16",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Assembly",
+      "reason": "Matches packet exactly. The bill page itself has no mechanism for showing a later repeal by a different bill; no search for a repealing measure targeting Act 16 turned up any such bill, so 'not repealed' is asserted at moderate rather than full confidence.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB228 / SB241",
+      "column": "status",
+      "before": "Failed 2026-03-23 pursuant to Senate Joint Resolution 1",
+      "after": "AB228 introduced 2025-04-29 (Assembly Ways and Means); SB241 introduced 2025-05-09 (Senate Government Operations, Labor and Economic Development); both failed to pass pursuant to Senate Joint Resolution 1 on 2026-03-23.",
+      "reason": "Both twin companion bills confirmed independently; neither advanced past committee/hearing stage before the last general-business floor period closed.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB228 / SB241",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Both twin companion bills confirmed independently; neither advanced past committee/hearing stage before the last general-business floor period closed.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB228 / SB241",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-23",
+      "reason": "Both twin companion bills confirmed independently; neither advanced past committee/hearing stage before the last general-business floor period closed.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB228 / SB241",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Assembly",
+      "reason": "Both twin companion bills confirmed independently; neither advanced past committee/hearing stage before the last general-business floor period closed.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB245 / SB244",
+      "column": "status",
+      "before": "Failed 2026-03-23 pursuant to Senate Joint Resolution 1",
+      "after": "AB245 introduced 2025-05-02 (Assembly Ways and Means), reached Joint Committee on Finance with passage-as-amended recommended 2025-11-07; SB244 introduced 2025-05-09 (Senate Agriculture and Revenue). Both failed to pass pursuant to Senate Joint Resolution 1 on 2026-03-23.",
+      "reason": "AB245 got further than most - a Joint Finance recommendation to pass as amended (6-3) on 2025-11-07 - but still died at the SJR 1 deadline without a floor vote.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB245 / SB244",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "AB245 got further than most - a Joint Finance recommendation to pass as amended (6-3) on 2025-11-07 - but still died at the SJR 1 deadline without a floor vote.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB245 / SB244",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-23",
+      "reason": "AB245 got further than most - a Joint Finance recommendation to pass as amended (6-3) on 2025-11-07 - but still died at the SJR 1 deadline without a floor vote.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB245 / SB244",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Assembly",
+      "reason": "AB245 got further than most - a Joint Finance recommendation to pass as amended (6-3) on 2025-11-07 - but still died at the SJR 1 deadline without a floor vote.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB722 / SB729",
+      "column": "status",
+      "before": "Failed 2026-03-23 pursuant to Senate Joint Resolution 1",
+      "after": "AB722 introduced 2025-12-03 (Assembly Energy and Utilities); SB729 introduced 2025-12-02 (Senate Utilities, Technology and Tourism, public hearing 2026-02-17). Both failed to pass pursuant to Senate Joint Resolution 1 on 2026-03-23; both had coauthors added after the failure date (2026-04-06), which does not change the disposition.",
+      "reason": "Post-failure coauthor additions on 2026-04-06 are purely administrative sponsor-list edits by the Legislative Reference Bureau and have no legal effect on the bill's failed status.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB722 / SB729",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Post-failure coauthor additions on 2026-04-06 are purely administrative sponsor-list edits by the Legislative Reference Bureau and have no legal effect on the bill's failed status.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB722 / SB729",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-04-06",
+      "reason": "Post-failure coauthor additions on 2026-04-06 are purely administrative sponsor-list edits by the Legislative Reference Bureau and have no legal effect on the bill's failed status.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB722 / SB729",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Assembly",
+      "reason": "Post-failure coauthor additions on 2026-04-06 are purely administrative sponsor-list edits by the Legislative Reference Bureau and have no legal effect on the bill's failed status.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB840 / SB843",
+      "column": "status",
+      "before": "AB840 passed Assembly 2026-01-20; Senate committee recommended concurrence 2026-03-13; failed 2026-03-23. SB843 failed 2026-03-23.",
+      "after": "AB840 introduced 2026-01-09, passed Assembly 2026-01-20 (53-44, Assembly Substitute Amendment 1 adopted); received by Senate, committee recommended concurrence 2026-03-13 (3-2), but failed to concur pursuant to Senate Joint Resolution 1 on 2026-03-23. Companion SB843 (introduced 2026-01-15, Senate Substitute Amendment 1 and 2 offered) likewise failed to pass pursuant to SJR 1 on 2026-03-23.",
+      "reason": "Matches the packet's detailed timeline exactly, including the Assembly passage vote, the Senate committee concurrence recommendation, and the final SJR 1 failure for both companion numbers.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB840 / SB843",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Matches the packet's detailed timeline exactly, including the Assembly passage vote, the Senate committee concurrence recommendation, and the final SJR 1 failure for both companion numbers.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB840 / SB843",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-23",
+      "reason": "Matches the packet's detailed timeline exactly, including the Assembly passage vote, the Senate committee concurrence recommendation, and the final SJR 1 failure for both companion numbers.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:AB840 / SB843",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Assembly",
+      "reason": "Matches the packet's detailed timeline exactly, including the Assembly passage vote, the Senate committee concurrence recommendation, and the final SJR 1 failure for both companion numbers.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:SB1061 / AB1099",
+      "column": "status",
+      "before": "Failed 2026-03-23 pursuant to Senate Joint Resolution 1",
+      "after": "SB1061 (statewide data center moratorium, creating Wis. Stat. 134.44) introduced 2026-02-26, referred to Senate Utilities, Technology and Tourism; AB1099 introduced 2026-03-13, referred to Assembly Energy and Utilities. Neither bill advanced past committee; both failed to pass pursuant to Senate Joint Resolution 1 on 2026-03-23.",
+      "reason": "Confirmed: this is the statewide moratorium bill (creates Wis. Stat. 134.44, barring data center operation absent the specified statutory framework). It never received a committee hearing before failing at the SJR 1 deadline; it is dead for the 2025-2026 biennium under current legislative scheduling, though a special/extraordinary session could theoretically revive it before the biennium's formal close on 2027-01-04 (no such session has been convened for this bill).",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:SB1061 / AB1099",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "Confirmed: this is the statewide moratorium bill (creates Wis. Stat. 134.44, barring data center operation absent the specified statutory framework). It never received a committee hearing before failing at the SJR 1 deadline; it is dead for the 2025-2026 biennium under current legislative scheduling, though a special/extraordinary session could theoretically revive it before the biennium's formal close on 2027-01-04 (no such session has been convened for this bill).",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:SB1061 / AB1099",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-23",
+      "reason": "Confirmed: this is the statewide moratorium bill (creates Wis. Stat. 134.44, barring data center operation absent the specified statutory framework). It never received a committee hearing before failing at the SJR 1 deadline; it is dead for the 2025-2026 biennium under current legislative scheduling, though a special/extraordinary session could theoretically revive it before the biennium's formal close on 2027-01-04 (no such session has been convened for this bill).",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:SB1061 / AB1099",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "Confirmed: this is the statewide moratorium bill (creates Wis. Stat. 134.44, barring data center operation absent the specified statutory framework). It never received a committee hearing before failing at the SJR 1 deadline; it is dead for the 2025-2026 biennium under current legislative scheduling, though a special/extraordinary session could theoretically revive it before the biennium's formal close on 2027-01-04 (no such session has been convened for this bill).",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:SB969 / AB1036",
+      "column": "status",
+      "before": "Failed 2026-03-23 pursuant to Senate Joint Resolution 1",
+      "after": "SB969 introduced 2026-02-06 (Senate Utilities, Technology and Tourism), committee recommended passage 2026-03-13 (4-1) but failed to pass pursuant to Senate Joint Resolution 1 on 2026-03-23; companion AB1036 introduced 2026-02-13 (Assembly Ways and Means) likewise failed on 2026-03-23.",
+      "reason": "SB969 came closest of this pair to advancing (favorable 4-1 committee vote and 'available for scheduling') but never received a floor vote before the SJR 1 deadline.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:SB969 / AB1036",
+      "column": "bill_status_category",
+      "before": "",
+      "after": "failed_died",
+      "reason": "SB969 came closest of this pair to advancing (favorable 4-1 committee vote and 'available for scheduling') but never received a floor vote before the SJR 1 deadline.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:SB969 / AB1036",
+      "column": "last_action_date_iso",
+      "before": "",
+      "after": "2026-03-23",
+      "reason": "SB969 came closest of this pair to advancing (favorable 4-1 committee vote and 'available for scheduling') but never received a floor vote before the SJR 1 deadline.",
+      "source": "WI.json"
+    },
+    {
+      "bill_key": "WI:SB969 / AB1036",
+      "column": "chamber_of_origin",
+      "before": "",
+      "after": "Senate",
+      "reason": "SB969 came closest of this pair to advancing (favorable 4-1 committee vote and 'available for scheduling') but never received a floor vote before the SJR 1 deadline.",
+      "source": "WI.json"
+    }
+  ]
+}

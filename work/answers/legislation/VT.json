@@ -1,0 +1,64 @@
+{
+  "state_abbrev": "VT",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "The Vermont General Assembly runs a 2025-2026 biennium; bills introduced in the 2025 (first-year) session carry over automatically into the 2026 (second-year) session without refiling. Per the House's own Journal, the second year adjourned sine die on Friday, 2026-05-29 -- that day's Journal records floor action including a failed veto-override vote and then, following the Governor's later communications to the Senate, the heading 'Members Appointed After Final Adjournment.' No further carryover exists once that sine die adjournment occurred, since the 2025-2026 biennium itself has ended.",
+  "decisions": [
+    {
+      "bill_key": "VT:H.727 (2025-2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Passed House and Senate, vetoed by Governor Scott, veto sustained on House reconsideration vote (Yeas 83, Nays 52; 90 Yeas of 135 needed to override) -- 2026-05-29; bill did not become law",
+        "bill_status_category": "vetoed",
+        "last_action_date_iso": "2026-05-29",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://legislature.vermont.gov/bill/status/2026/H.727",
+          "title": "Bill Status H.727 -- An act relating to sustainable data center deployment",
+          "source_type": "legislature_bill_page",
+          "supports": "status_changed",
+          "quote": "Last Recorded Action House 5/29/2026 - Veto of the Governor sustained by a vote of Yeas = 83, Nays = 52"
+        },
+        {
+          "url": "https://legislature.vermont.gov/Documents/2026/Docs/JOURNAL/hj260529.pdf",
+          "title": "Journal of the House, Friday, May 29, 2026",
+          "source_type": "journal",
+          "supports": "status_changed",
+          "quote": "Rules Suspended, Immediate Consideration; Governor's Veto Sustained -- H. 727 ... Pursuant to Chapter II, Section 11 of the Vermont Constitution, the Clerk proceeded to call the roll and the question, Shall the bill pass, notwithstanding the Governor's refusal to approve the bill?, was decided in the negative. Yeas, 83. Nays, 52. (2/3 of 135 votes - 90 Yeas - required to override.)"
+        }
+      ],
+      "notes": "H.727 advanced well past its April 2026 packet status (in Senate Natural Resources and Energy). It passed both the House and Senate, was vetoed by Governor Phil Scott, and the House's override attempt on 2026-05-29 fell short (83 Yeas vs. the 90 needed for the constitutional 2/3 threshold), so the veto was sustained. The Journal entry for that same day is later annotated 'Members Appointed After Final Adjournment,' confirming 2026-05-29 as the second-year sine die date. Net result: NOT enacted -- the bill died via a sustained veto."
+    },
+    {
+      "bill_key": "VT:S.205 (2025-2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Died in Senate Committee on Finance at sine die adjournment of the 2025-2026 biennium (2026-05-29); official last-recorded-action remains the 2026-01-06 referral, with a final committee hearing on 2026-02-18 and no vote or floor action ever taken",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-06",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://legislature.vermont.gov/bill/status/2026/S.205",
+          "title": "Bill Status S.205 -- An act relating to a temporary moratorium on AI data centers and a report on the construction and operation of AI data centers in Vermont",
+          "source_type": "legislature_bill_page",
+          "supports": "status_changed",
+          "quote": "Last Recorded Action Senate 1/6/2026 - Read 1st time & referred to Committee on Finance ... Roll Call Votes (0) ... Committee Meetings: Thursday, January 15, 2026; Tuesday, February 10, 2026; Wednesday, February 11, 2026; Wednesday, February 18, 2026 -- Senate Committee on Finance"
+        },
+        {
+          "url": "https://legislature.vermont.gov/Documents/2026/Docs/JOURNAL/hj260529.pdf",
+          "title": "Journal of the House, Friday, May 29, 2026 (final adjournment of the 2025-2026 biennium)",
+          "source_type": "journal",
+          "supports": "status_changed",
+          "quote": "MEMBERS APPOINTED AFTER FINAL ADJOURNMENT"
+        }
+      ],
+      "notes": "The official bill page's own 'Last Recorded Action' field never moved past the 2026-01-06 referral to Senate Finance -- matching the packet's captured status exactly -- and shows zero roll call votes on the bill. Senate Finance held four meetings on the bill (last one 2026-02-18) but never voted it out. Because the second year of the 2025-2026 biennium adjourned sine die on 2026-05-29 with no further action on S.205, and no further carryover is possible once the biennium itself ends, the bill is now dead (failed_died) even though its own status page still literally displays the January referral as the most recent formal action. Not enacted."
+    }
+  ]
+}

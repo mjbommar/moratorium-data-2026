@@ -1,0 +1,241 @@
+{
+  "state_abbrev": "IL",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "Illinois's 104th General Assembly is a genuine two-year biennium (convened January 2025, does not adjourn Sine Die until January 2027 when the 105th GA is sworn in), so any bill still pending in a committee at the end of 2025 carries automatically into 2026 without refiling or renumbering. The Illinois Senate uses successive 'Rule 2-10' committee-deadline extensions (and, once a deadline lapses without committee action, a 'Rule 3-9(a)' re-referral to the Assignments Committee) to keep bills technically alive rather than letting them die outright; a Rule 3-9(a) re-referral to Assignments is a parking mechanism, not a formal death, and ILGA's own status pages never label these bills 'dead,' 'failed,' or 'Session Sine Die.' Several bills in this packet (SB2181, SB3120, SB3761, SB3830, SB4004, SB4016) show an identical late-session pattern: deadline extended from an original date through 2026-04-24, then 2026-05-15, then a further undocumented-in-packet extension to 2026-05-22, at which point the deadline lapsed and the bill (with any pending amendments) was re-referred to Assignments under Rule 3-9(a) on 2026-05-22 with no recorded action since. This mirrors what already happened to HB3574, SB0094, and SB2290 in 2025 (re-referred to Assignments in April-June 2025 and untouched since), which remain formally pending, not formally dead, more than a year later. None of the 11 bills in this packet has been reported out of committee, passed both chambers, or enacted as of 2026-07-31, except that HB3574 did pass the House on 2025-04-10 (114-1-0) and is now stalled in the Senate Assignments Committee.",
+  "decisions": [
+    {
+      "bill_key": "IL:HB3574 (Procurement-Data Residency)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed House 114-1-0 on 2025-04-10; arrived in Senate, assigned to Executive Committee, deadline extended, then re-referred to Senate Assignments Committee (Rule 3-9(a)) 2025-06-02; no action recorded since",
+        "bill_status_category": "passed_one_chamber",
+        "last_action_date_iso": "2025-06-02",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=3574&GAID=18&DocTypeID=HB&SessionID=114&GA=104",
+          "title": "HB3574 Bill Status - Illinois General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "Full action history confirms House Third Reading passage 114-1-0 on 4/10/2025, Senate Assignments referral, Executive Committee assignment, deadline extension to 6/1/2025, and re-referral to Assignments (Rule 3-9(a)) on 6/2/2025 as the last recorded action.",
+          "quote": "6/02/2025 - Rule 3-9(a) / Re-referred to Assignments"
+        }
+      ],
+      "notes": "Packet's current_status_text (Rule 3-9(a) re-referred to Assignments in Senate 2025-06-02) is still accurate 14 months later. No 2026 activity is recorded on the ILGA page. Bill is formally alive (passed one chamber, parked in the other chamber's Assignments Committee) since the 104th GA has not adjourned Sine Die; it is not formally dead per ILGA's own status labels."
+    },
+    {
+      "bill_key": "IL:HB4319 (Data Center-Property Rights)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Filed 2026-01-07; first reading and referred to House Rules Committee 2026-01-14; no further action recorded",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-01-14",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=4319&GAID=18&DocTypeID=HB&SessionID=114&GA=104",
+          "title": "HB4319 Bill Status - Illinois General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "Only three actions are recorded: filed 1/07/2026, first reading 1/14/2026, and referred to Rules Committee 1/14/2026, which remains the current status.",
+          "quote": "1/14/2026 - Referred to Rules Committee"
+        }
+      ],
+      "notes": "Packet's current_status_text (Referred to Rules Committee 2026-01-14) matches exactly; the bill has not moved out of Rules Committee in over six months."
+    },
+    {
+      "bill_key": "IL:HB5513 (Hyperscale Data Centers / POWER Act companion)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Assigned to Executive Committee 2026-02-24; re-referred to House Rules Committee (Rule 19(a)) 2026-03-27; co-sponsors continued to be added through 2026-05-27 with no further procedural action",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-05-27",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=5513&GAID=18&DocTypeID=HB&SessionID=114&GA=104",
+          "title": "HB5513 Bill Status - Illinois General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "Shows referral to Rules Committee, assignment to Executive Committee 2/24/2026, re-referral to Rules Committee under Rule 19(a) on 3/27/2026 (the last substantive procedural action), and only co-sponsor additions afterward through 5/27/2026.",
+          "quote": "3/27/2026 - Rule 19(a) / Re-referred to Rules Committee"
+        }
+      ],
+      "notes": "Packet's current_status_text (Rule 19(a) re-referred to Rules Committee 2026-03-27) remains the accurate substantive status; last_action_date_iso reflects the last recorded action of any kind (a co-sponsor addition) on the ILGA page."
+    },
+    {
+      "bill_key": "IL:SB0094 (Data Centers-Foreign Ownership)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Referred to Senate Assignments Committee 2025-01-17; co-sponsors added 2025-04-03; no action recorded in 2026",
+        "bill_status_category": "carried_over",
+        "last_action_date_iso": "2025-04-03",
+        "chamber_of_origin": "Senate",
+        "key_provisions": "Confirmed via ILGA synopsis: creates the Data Center Construction by Foreign Adversaries Act; bars a foreign-adversary-controlled company from constructing a data center in Illinois unless ICC, IPA, and DCEO jointly certify load conditions."
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=94&GAID=18&DocTypeID=SB&SessionID=114&GA=104",
+          "title": "SB0094 Bill Status - Illinois General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "Only three actions recorded, all in 2025: filed and referred to Assignments 1/17/2025, and two co-sponsor additions 4/03/2025. No 2026 action is shown.",
+          "quote": "1/17/2025 - Referred to Assignments"
+        }
+      ],
+      "notes": "Packet's current_status_text (Referred to Assignments 2025-01-17) is still literally accurate. Bill has carried over the year boundary with zero engagement in 2026 to date; remains formally pending (not dead) since the 104th GA continues through January 2027."
+    },
+    {
+      "bill_key": "IL:SB2181 (Data Center Reporting)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Moved to Executive Committee 2026-01-27; to AI and Social Media Committee 2026-02-04; amendment filed 2026-03-31; committee deadline chain extended 2026-03-27 to 2026-04-24 to 2026-05-15 to 2026-05-22; bill and amendment re-referred to Senate Assignments Committee (Rule 3-9(a)) 2026-05-22",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-05-22",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=2181&GAID=18&DocTypeID=SB&SessionID=114&GA=104",
+          "title": "SB2181 Bill Status - Illinois General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "Shows the full deadline-extension chain (3/13, 3/27, 4/24, 5/15 deadline-setting/extension entries) culminating in a further extension to 5/22/2026 and re-referral of the bill and its amendment to Assignments under Rule 3-9(a) on that date.",
+          "quote": "5/22/2026 - Rule 3-9(a) / Re-referred to Assignments"
+        }
+      ],
+      "notes": "Packet was captured mid-chain (amendment filed 2026-03-31, before the 2026-05-15 deadline). Bill has since been re-referred to Assignments after the deadline lapsed again on 2026-05-22; not formally dead per ILGA, but stalled in the same manner as the 2025 carryover bills in this packet."
+    },
+    {
+      "bill_key": "IL:SB2290 (Use/Occ Tx-Quantum Computing)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Assigned to Senate Revenue Committee 2025-03-04; committee/3rd reading deadline extended to 2025-06-01; re-referred to Senate Assignments Committee (Rule 3-9(a)) 2025-06-02; no action recorded in 2026",
+        "bill_status_category": "carried_over",
+        "last_action_date_iso": "2025-06-02",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=2290&GAID=18&DocTypeID=SB&SessionID=114&GA=104",
+          "title": "SB2290 Bill Status - Illinois General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms Revenue Committee assignment, amendment filing, deadline extension to 6/1/2025, and re-referral to Assignments on 6/02/2025 as the last recorded action; no 2026 entries appear.",
+          "quote": "6/02/2025 - Rule 3-9(a) / Re-referred to Assignments"
+        }
+      ],
+      "notes": "Packet's current_status_text (Rule 3-9(a) re-referred to Assignments 2025-06-02) is unchanged and accurate 14 months later. Formally carried over into 2026 with no further activity; not marked dead by ILGA."
+    },
+    {
+      "bill_key": "IL:SB3120 (DCEO-Data Centers)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "To AI and Social Media Committee 2026-02-18; committee deadline chain extended 2026-03-27 to 2026-04-24 to 2026-05-15 to 2026-05-22; re-referred to Senate Assignments Committee (Rule 3-9(a)) 2026-05-22",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-05-22",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=3120&GAID=18&DocTypeID=SB&SessionID=114&GA=104",
+          "title": "SB3120 Bill Status - Illinois General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "Shows the deadline-extension chain from 3/27 through 4/24 to 5/15 and a further extension to 5/22/2026, ending with re-referral to Assignments under Rule 3-9(a) on 5/22/2026.",
+          "quote": "5/22/2026 - Rule 3-9(a) / Re-referred to Assignments"
+        }
+      ],
+      "notes": "Packet was captured with deadline extended only through 2026-05-15; the deadline was extended once more to 2026-05-22, after which it lapsed and the bill was re-referred to Assignments. Not formally dead; remains pending for the balance of the 104th GA."
+    },
+    {
+      "bill_key": "IL:SB3761 (Data Centers-Various)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "To AI and Social Media Committee 2026-02-25; Rule 2-10 deadline chain extended 2026-03-27 to 2026-04-24 to 2026-05-15 to 2026-05-22; re-referred to Senate Assignments Committee (Rule 3-9(a)) 2026-05-22",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-05-22",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=3761&GAID=18&DocTypeID=SB&SessionID=114&GA=104",
+          "title": "SB3761 Bill Status - Illinois General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the deadline chain through 5/15/2026 (as in the packet) followed by a further extension to 5/22/2026 and re-referral to Assignments under Rule 3-9(a) on that date; also shows Rep. Mary Gill designated Chief House Sponsor 4/20/2026.",
+          "quote": "5/22/2026 - Rule 3-9(a) / Re-referred to Assignments"
+        }
+      ],
+      "notes": "Packet's Rule 2-10 chain (through 2026-05-15, captured 2026-04-29) is confirmed and extends one step further to 2026-05-22 before the bill was re-referred to Assignments. Not formally dead per ILGA."
+    },
+    {
+      "bill_key": "IL:SB3830 (Data Centers-Various)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "To AI and Social Media Committee 2026-02-25; Amendment No. 2 filed 2026-04-27; Rule 2-10 deadline chain extended 2026-03-27 to 2026-04-24 to 2026-05-15 to 2026-05-22; bill and both amendments re-referred to Senate Assignments Committee (Rule 3-9(a)) 2026-05-22",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-05-22",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=3830&GAID=18&DocTypeID=SB&SessionID=114&GA=104",
+          "title": "SB3830 Bill Status - Illinois General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms Amendment No. 2 filed 4/27/2026 (matching packet), the deadline chain through 5/15/2026, a further extension to 5/22/2026, and re-referral of the bill and both amendments to Assignments under Rule 3-9(a) on 5/22/2026.",
+          "quote": "5/22/2026 - Rule 3-9(a) / Re-referred to Assignments"
+        }
+      ],
+      "notes": "Packet captured through the amendment filing and 2026-05-15 deadline; the deadline was extended once more to 2026-05-22 and then lapsed, sending the bill back to Assignments. Not formally dead per ILGA."
+    },
+    {
+      "bill_key": "IL:SB4004 (Aquifer Protection Act)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "To AI and Social Media Committee 2026-02-25; Rule 2-10 deadline chain extended 2026-03-27 to 2026-04-24 to 2026-05-15 to 2026-05-22; Senate Committee Amendment No. 1 filed 2026-05-05; bill and amendment re-referred to Senate Assignments Committee (Rule 3-9(a)) 2026-05-22; co-sponsors added through 2026-06-17",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-06-17",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=4004&GAID=18&DocTypeID=SB&SessionID=114&GA=104",
+          "title": "SB4004 Bill Status - Illinois General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the deadline chain matching the packet through 5/15/2026, an Amendment No. 1 filing 5/05/2026, a further extension to 5/22/2026, re-referral to Assignments under Rule 3-9(a) on that date, and six co-sponsor additions between 5/28 and 6/17/2026.",
+          "quote": "5/22/2026 - Rule 3-9(a) / Re-referred to Assignments"
+        }
+      ],
+      "notes": "Packet's chain through 2026-05-15 is confirmed; deadline extended once more to 2026-05-22 before the bill was re-referred to Assignments. Not formally dead; co-sponsor churn continued afterward but no substantive procedural action."
+    },
+    {
+      "bill_key": "IL:SB4016 (Hyperscale Data Centers / POWER Act)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "To AI and Social Media Committee 2026-02-25; Rule 2-10 deadline chain extended 2026-03-27 to 2026-04-24 to 2026-05-15 to 2026-05-22; re-referred to Senate Assignments Committee (Rule 3-9(a)) 2026-05-22; co-sponsors added through 2026-05-30",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-05-30",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=4016&GAID=18&DocTypeID=SB&SessionID=114&GA=104",
+          "title": "SB4016 Bill Status - Illinois General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the deadline chain through 5/15/2026 (matching packet), a further extension to 5/22/2026, re-referral to Assignments under Rule 3-9(a) on that date, and co-sponsor additions through 5/30/2026.",
+          "quote": "5/22/2026 - Rule 3-9(a) / Re-referred to Assignments"
+        }
+      ],
+      "notes": "Packet's chain through 2026-05-15 is confirmed; the bill's deadline was extended once more to 2026-05-22 before it lapsed and the bill was re-referred to Assignments. This is the lead 'POWER Act' hyperscale data center bill; not formally dead per ILGA, but has not advanced past committee as of 2026-07-31."
+    }
+  ],
+  "new_bills": []
+}

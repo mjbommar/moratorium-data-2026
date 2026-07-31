@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Connecticut as of April 2026.
 
-**2 instruments** — 0 in force, 1 pending, 1 past. Activity level: **Medium**.
+**4 instruments** — 2 in force, 1 pending, 1 past. Activity level: **Medium**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

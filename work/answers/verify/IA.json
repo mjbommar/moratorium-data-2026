@@ -1,0 +1,443 @@
+{
+  "state_abbrev": "IA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ia-adair-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "date_enacted": {
+          "from": "2026-03-18 (Creston News reported unanimous board vote on this date; the March 18, 2026 special-session agenda included \"Moratorium on the Development and Operation of Data Centers & High-Density Computing Facilities\" as an action item) [VERIFY: signed minutes/resolution text not yet posted to adaircounty.iowa.gov as of 2026-04-29]",
+          "to": "2026-03-18, per signed Adair County Board of Supervisors minutes: Resolution #2026-26 adopted by unanimous 5-0 roll call (Hoadley, Baier, Wedemeyer, Christoffersen, Walker all aye).",
+          "reason": "Official minutes PDF confirms both the date and a resolution number that the prior record said was uncaptured."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Confirmed against signed official board minutes."
+        },
+        "legal_basis": {
+          "from": "Moratorium on development and operation of data centers and high-density computing facilities; ordinance or resolution number not captured (Adair County does not currently post numbered resolutions to a public index)",
+          "to": "Resolution #2026-26, \"Resolution to Establish a Temporary Moratorium on the Construction of Data Centers, High-Density Computing Facilities, and Battery Storage Facilities in the Unincorporated Areas of Adair County, Iowa,\" adopted March 18, 2026 by unanimous 5-0 roll call.",
+          "reason": "The prior claim that Adair County does not post numbered resolutions was incorrect; the signed minutes give the resolution number directly."
+        },
+        "current_status": {
+          "from": "Active per March 25, 2026 Creston News reporting and March 25, 2026 Western Iowa Today coverage that the moratorium does not restrict in-progress projects [VERIFY: signed Adair County resolution text not in captured record]",
+          "to": "Active as of 2026-07-31. Official minutes through 2026-07-15 show a draft data center ordinance was discussed (March 25, 2026 meeting: Supervisor Hoadley presented an AI-drafted ordinance for County Attorney review) but never formally adopted, so Resolution #2026-26's temporary moratorium remains in force.",
+          "reason": "Primary-source review of every posted Adair County Board of Supervisors minutes/agenda from 2026-03-25 through 2026-07-22 found no adoption of a permanent ordinance and no rescission."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: signed minutes/resolution text not yet posted to adaircounty.iowa.gov as of 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Signed minutes are now posted at adaircounty.iowa.gov for the March 18, 2026 meeting and confirm the date and give the resolution number (2026-26)."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: signed Adair County resolution text not in captured record]",
+          "resolution": "confirmed",
+          "note": "Checked every posted Adair County Board of Supervisors minutes/agenda from 2026-03-25 through 2026-07-22. Only the March 25, 2026 minutes mention the follow-on draft ordinance (discussed, not adopted); no rescission or ordinance adoption found in any later minutes through July 15, 2026 (July 22 has agenda only). Moratorium remains active."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://adaircounty.iowa.gov/files/meetings/2026-03-18_minutes_1828.pdf",
+          "title": "Adair County Board of Supervisors Minutes, March 18, 2026",
+          "publisher": "Adair County, Iowa (Auditor Mandy Berg)",
+          "document_date": "2026-03-18",
+          "source_type": "minutes",
+          "supports": "Confirms adoption date, resolution number, and unanimous roll call for the data center/high-density computing/battery storage moratorium.",
+          "quote": "Moved by Hoadley and seconded by Baier to approve Resolution #2026-26 - Resolution to Establish a Temporary Moratorium on the Construction of Data Centers, High-Density Computing Facilities, and Battery Storage Facilities in the Unincorporated Areas of Adair County, Iowa. ... Roll Call Vote: Hoadley, aye; Baier, aye; Wedemeyer, aye; Christoffersen, aye; and Walker, aye. Approved."
+        },
+        {
+          "url": "https://adaircounty.iowa.gov/files/meetings/2026-03-25_minutes_6283.pdf",
+          "title": "Adair County Board of Supervisors Minutes, March 25, 2026",
+          "publisher": "Adair County, Iowa (Auditor Mandy Berg)",
+          "document_date": "2026-03-25",
+          "source_type": "minutes",
+          "supports": "Shows the follow-on data center ordinance was still in draft/review a week after the moratorium, and was never adopted through the last minutes checked (2026-07-15), so the moratorium remains active.",
+          "quote": "DATA CENTER DRAFT ORDINANCE DISCUSSION: Supervisor Hoadley presented a draft data center ordinance generated using AI... The Board discussed having County Attorney Larson review the draft ordinance before sending it to outside legal counsel... reached consensus to review the draft individually and revisit the discussion at the next meeting."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ia-clarke-county-2025",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: resolution number not confirmed against signed copy; sourced from Osceola Iowa news report and June 23, 2025 board minutes summary]",
+          "resolution": "confirmed",
+          "note": "Signed official minutes confirm Resolution #25-011 exactly as recorded, adopted unanimously (3-0)."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no Clarke County replacement ordinance or rescission identified in captured records as of 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Checked Clarke County minutes/agendas through July 27, 2026 (April, May, July 2026 postings); no mention of data centers, moratorium, or Resolution 25-011 in any of them, i.e. no rescission or replacement. A secondary source (Radio Iowa, 2026-07-08) independently lists Clarke County among counties with a currently active data-center moratorium."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://clarkecounty.iowa.gov/wp-content/uploads/2025/07/6-23-2025.pdf",
+          "title": "Clarke County Board of Supervisors Minutes, June 23, 2025",
+          "publisher": "Clarke County, Iowa (Auditor Jessica Graves)",
+          "document_date": "2025-06-23",
+          "source_type": "minutes",
+          "supports": "Confirms Resolution #25-011 number, title, and unanimous 3-0 adoption.",
+          "quote": "RESOLUTION #25-011 Resolution to Establish a Temporary Moratorium on the Construction of Data Centers in the Unincorporated Areas of Clarke County, Iowa ... 'Ayes': Randy Dunbar, Dean Robins and Brian Sorensen. 'Nays': None. Signed this 23rd day of June, 2025."
+        },
+        {
+          "url": "https://radioiowa.com/2026/07/08/eight-iowa-counties-have-moratoriums-on-data-center-development/",
+          "title": "Eight Iowa counties have moratoriums on data center development",
+          "publisher": "Radio Iowa",
+          "document_date": "2026-07-08",
+          "source_type": "news",
+          "supports": "Secondary corroboration that Clarke County's moratorium remains active as of July 2026 (news source, used only to support the already-confirmed active status, not to establish the resolution number).",
+          "quote": "Eight Iowa counties have moratoriums on data center development"
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ia-franklin-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "changes": {
+        "duration": {
+          "from": "",
+          "to": "18 months from adoption, or until passage of a data-center-specific ordinance, whichever comes first",
+          "reason": "The signed public notice of Ordinance 2026A gives the moratorium's actual term, which was not previously captured."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "548",
+          "reason": "18 months from the 2026-03-31 adoption date computes to 2027-09-30 (548 days)."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "until_event",
+          "reason": "The moratorium ends at the earlier of a fixed 18-month cap or passage of a data-center ordinance, so it is event-driven with a backstop date."
+        },
+        "computed_expiry": {
+          "from": "null",
+          "to": "2027-09-30",
+          "reason": "Outer-bound expiry per the 18-month term in Ordinance 2026A, absent an earlier data-center ordinance."
+        },
+        "current_status": {
+          "from": "Active per Citizen Portal coverage of the March 31, 2026 adoption [VERIFY: signed ordinance text not yet collected; published version is awaited]",
+          "to": "Active as of 2026-07-31. Franklin County adopted two further ordinances (2026B and 2026C) on 2026-07-14 covering Commercial Bitcoin Installation, Commercial Batteries, solar, and nuclear as conditional uses, but neither addresses \"data center\" development, so the moratorium's early-termination trigger has not been met.",
+          "reason": "Signed ordinance text and two later county ordinances were located and reviewed; neither replaces the data-center moratorium."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: signed ordinance text not yet collected; published version is awaited]",
+          "resolution": "confirmed",
+          "note": "Located the signed public notice/adoption text of Ordinance 2026A on Franklin County's official site, confirming adoption date, vote, and duration; also checked two subsequent 2026 ordinances (2026B, 2026C, both adopted 2026-07-14) and confirmed neither is a data-center ordinance that would trigger early termination."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://cms7files.revize.com/franklin/Document_Center/Code%20of%20Ordinances/Franklin%20County%20-%20Public%20Notice%20on%20Adopting%20Code%20of%20Ordinance%202026A.pdf",
+          "title": "Franklin County - Public Notice on Adopting Code of Ordinance 2026A",
+          "publisher": "Franklin County, Iowa (Auditor Katy A. Flint)",
+          "document_date": "2026-03-31",
+          "source_type": "ordinance",
+          "supports": "Gives the moratorium's duration/sunset terms and confirms unanimous adoption.",
+          "quote": "Franklin County now imposes a moratorium, effective immediately for eighteen (18) months; or upon the passing of an ordinance in relation to data center development (whichever comes first) ... Ayes - Lukensmeyer, McVicker, Vanness; Nays - None ... PASSED AND ADOPTED this 31st day of March 2026."
+        }
+      ],
+      "notes": "Franklin County's Code of Ordinances page (franklincountyia.gov) hosts both Ordinance 2026A and the later 2026B/2026C amendments; a full copy of 2026B/2026C text was reviewed to confirm they regulate bitcoin installations, batteries, solar, and nuclear, not data centers specifically."
+    },
+    {
+      "moratorium_id": "ia-tama-county-2025",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "changes": {
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Confirmed against the official November 10, 2025 board minutes."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: signed/numbered Resolution 11-10-2025A text not yet collected.]",
+          "resolution": "confirmed",
+          "note": "Official minutes confirm Resolution 11-10-2025A, 'Resolution for Immediate and Indefinite Moratorium on Data Mining and Centers in Tama County, IA,' adopted 2025-11-10 by unanimous roll call (Hilmer, Turner, Knebel, Doland, Kupka all aye)."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY]",
+          "resolution": "confirmed",
+          "note": "Same minutes confirm the data-center resolution mirrors the companion BESS resolution's indefinite, dual-condition sunset."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY]",
+          "resolution": "confirmed",
+          "note": "July 20, 2026 board minutes confirm the comprehensive land-use plan (one of the two sunset preconditions) is still unadopted, so the moratorium remains in force. No rescission found in any minutes reviewed December 2025 through July 2026."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://tamacounty.iowa.gov/files/meetings/2025-11-17_agenda_board_of_supervisors_66538.pdf",
+          "title": "Tama County Board of Supervisors Agenda/Minutes packet (embeds Nov. 10, 2025 minutes)",
+          "publisher": "Tama County, Iowa (Auditor Karen Rohrs)",
+          "document_date": "2025-11-10",
+          "source_type": "minutes",
+          "supports": "Confirms adoption date, resolution number, unanimous vote, and the indefinite dual-condition sunset term.",
+          "quote": "RESOLUTION 11-10-2025A Resolution for Immediate and Indefinite Moratorium on Data Mining and Centers in Tama County, IA ... This moratorium shall remain in effect until: A comprehensive land use plan is adopted by Tama County; and The Tama County Zoning Commission drafts and the Board of Supervisors enacts a data mining and center ordinance... Roll Call Vote: Hilmer, aye. Turner, aye. Knebel, aye. Doland, aye. Kupka, aye. Resolution passed and adopted this 10th day of November, 2025."
+        },
+        {
+          "url": "https://tamacounty.iowa.gov/files/meetings/2026-07-20_minutes_1347.pdf",
+          "title": "Tama County Board of Supervisors Minutes, July 20, 2026",
+          "publisher": "Tama County, Iowa",
+          "document_date": "2026-07-20",
+          "source_type": "minutes",
+          "supports": "Confirms the comprehensive land-use plan precondition for ending the moratorium is still unmet as of July 2026.",
+          "quote": "The Board discussed retaining Region 6 on the Comprehensive Land Use Plan. No action was taken."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ia-jackson-county-2024",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "confidence": 0.8,
+      "changes": {
+        "date_enacted": {
+          "from": "Three documented adoptions in the captured record: (1) 2024-09-17 — Resolution #1066-09-17-2024 — \"Resolution Approving Moratorium on Data Mining Facilities\" (signed copy in record), originally through 2025-06-30 (text reads \"for a period of months through June 30, 2025\"). (2) 2025-09-09 — Resolution #1142-09-09-2025 — second moratorium re-established at the September 9, 2025 BoS meeting (signed minutes capture the motion and adoption). The interim 2025-03-25 \"Resolution #1105-03-25-2025\" referenced in earlier project notes is not corroborated in the captured Jackson County record and may have been a transcription of the 2024 resolution number; treat as [VERIFY: Resolution #1105-03-25-2025 not located in captured Jackson County records].",
+          "to": "Four documented adoptions, all confirmed against official minutes/resolutions: (1) 2024-09-17, Resolution #1066-09-17-2024, through 2025-06-30. (2) 2025-03-25, Resolution #1105-03-25-2025 (a real, distinct resolution, confirmed in the official March 25, 2025 minutes -- not a transcription error), which per Resolution #1142-09-09-2025's own recitals expired naturally on 2025-08-31. (3) 2025-09-09, Resolution #1142-09-09-2025, through 2026-08-31 unless ended sooner. (4) a further 12-month extension was reportedly slated for the county's July 28, 2026 meeting per pre-meeting news coverage, but the outcome is unconfirmed because minutes for that meeting were not yet posted as of this research (2026-07-31).",
+          "reason": "Resolution #1105-03-25-2025 is confirmed real via the official March 25, 2025 minutes, resolving the prior uncertainty about whether it was a transcription error."
+        },
+        "current_status": {
+          "from": "Rescinded. Initial moratorium (March 2025) was re-established September 2025 but subsequently rescinded before November 2024 per web verification [VERIFY exact rescission timeline].",
+          "to": "Active. The March 25, 2025 moratorium (Resolution #1105-03-25-2025) was never rescinded -- it expired naturally on 2025-08-31 per its own terms, per the recitals of the resolution that replaced it. It was re-enacted via Resolution #1142-09-09-2025, effective through 2026-08-31 unless ended sooner by Board action. As of 2026-07-31, no rescission or replacement ordinance has been confirmed in primary records; Planning & Zoning reportedly planned to present a proposed 12-month extension to the Board on 2026-07-28, but the meeting's minutes were not yet posted at research time and the outcome could not be confirmed.",
+          "reason": "The prior record's claim of 'rescinded... before November 2024' is internally contradictory (predates the events it purports to follow) and is contradicted by the plain text of Resolution #1142-09-09-2025, which recites that the prior moratorium 'expired' rather than was rescinded."
+        },
+        "computed_expiry": {
+          "from": "null",
+          "to": "2026-08-31",
+          "reason": "Per Resolution #1142-09-09-2025's stated term, absent confirmation of the reported 2026-07-28 extension vote."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: Resolution #1105-03-25-2025 not located in captured Jackson County records]",
+          "resolution": "confirmed",
+          "note": "Official March 25, 2025 minutes confirm Resolution #1105-03-25-2025 is a real, separate resolution (Resolution Book 5, page 282), not a transcription of the 2024 resolution."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY exact rescission timeline]",
+          "resolution": "corrected",
+          "note": "The moratorium was never rescinded. Resolution #1142-09-09-2025 itself recites that the prior (March 2025) moratorium expired on 2025-08-31; the county then re-adopted the moratorium the same day (2025-09-09) through 2026-08-31 unless ended sooner. Checked all available 2026 minutes through July 21, 2026 plus the July 28, 2026 agenda (via jacksoncounty.iowa.gov's meetings archive); no rescission or ordinance-adoption action was found, and minutes for the July 28, 2026 meeting (where a further extension was reportedly on the table per a citizenportal.ai preview) were not yet posted as of 2026-07-31, so that specific vote outcome remains still_unverifiable pending the next pass. Corroborating secondary source: Telegraph Herald (2026-06-12) reports the county was still holding work sessions on data center regulations with no final ordinance."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://jacksoncounty.iowa.gov/files/meetings/2025-03-25_minutes_9309.pdf",
+          "title": "Jackson County Board of Supervisors Minutes, March 25, 2025",
+          "publisher": "Jackson County, Iowa (Auditor Alisa Smith)",
+          "document_date": "2025-03-25",
+          "source_type": "minutes",
+          "supports": "Confirms Resolution #1105-03-25-2025 is real and was adopted this date.",
+          "quote": "Zoning Administrator Lori Roling discussed a moratorium on data mining/data processing facility. Motion Flagel, second Steines to approve Resolution #1105-03-25-2025 a moratorium on Data Mining Facilities as recorded in Resolution Book 5, page 282 as presented. Aye: Schwenker, Steines, Flagel"
+        },
+        {
+          "url": "https://jacksoncounty.iowa.gov/files/resolutions/resolution_approving_a_moratorium_on_data_mining_facilities_52571.pdf",
+          "title": "Resolution #1142-09-09-2025, Resolution Approving a Moratorium on Data Mining Facilities",
+          "publisher": "Jackson County, Iowa",
+          "document_date": "2025-09-09",
+          "source_type": "resolution",
+          "supports": "Confirms the March 2025 moratorium expired on its own terms (2025-08-31) rather than being rescinded, and establishes the new term through 2026-08-31.",
+          "quote": "the Jackson County Board of Supervisors previously enacted a temporary moratorium on March 25, 2025, which expired on August 31, 2025"
+        },
+        {
+          "url": "https://jacksoncounty.iowa.gov/files/meetings/2025-09-09_minutes_5084.pdf",
+          "title": "Jackson County Board of Supervisors Minutes, September 9, 2025",
+          "publisher": "Jackson County, Iowa",
+          "document_date": "2025-09-09",
+          "source_type": "minutes",
+          "supports": "Confirms unanimous re-adoption of the moratorium through 2026-08-31 unless ended sooner.",
+          "quote": "Motion Flagel, second Steines to approve Resolution #1142-09-09-2025 approving a Moratorium on Data Mining Facilities until August 31, 2026, unless ended sooner by action of the Board of Supervisors."
+        },
+        {
+          "url": "https://www.telegraphherald.com/news/tri-state/article_bb6bdfe5-dc83-425b-9eed-3bf492b35d1f.html",
+          "title": "Jackson County continues work on data center regulations",
+          "publisher": "Telegraph Herald",
+          "document_date": "2026-06-12",
+          "source_type": "news",
+          "supports": "Secondary corroboration that as of June 2026 no final data-center ordinance had been adopted (used only as context, not to establish the resolution/rescission facts, which rest on the primary sources above).",
+          "quote": "public work session on proposed data center regulations... no final action"
+        }
+      ],
+      "notes": "The enacted_status field should change from 'rescinded' to 'active.' A proposed further 12-month extension was reportedly slated for the county's 2026-07-28 meeting, but that meeting's minutes were not yet posted as of this research (2026-07-31); the next verification pass should check jacksoncounty.iowa.gov for the posted July 28, 2026 minutes."
+    },
+    {
+      "moratorium_id": "ia-story-county-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "confidence": 0.9,
+      "changes": {
+        "duration": {
+          "from": "Through 2025-12-31, extended through 2026-03-31",
+          "to": "Through 2025-12-31; extended through 2026-03-31 by Resolution #26-36 (2025-11-25); further extended through 2027-03-31 by Resolution #26-69 (2026-03-17)",
+          "reason": "The moratorium was not allowed to lapse on 2026-03-31 as the prior record speculated; it was extended again the same day BESS was carved out into a permanent ordinance."
+        },
+        "legal_basis": {
+          "from": "Resolution #25-97 (adopted 2025-06-17); one-time extension via Resolution #26-36 (adopted 2025-11-25) (per Story County Planning & Development staff report and storycountyiowa.gov CivicAlerts page; an earlier structured extraction listed \"26-39\" — that was a transcription error)",
+          "to": "Resolution #25-97 (adopted 2025-06-17); extended via Resolution #26-36 (adopted 2025-11-25) through 2026-03-31; further extended via Resolution #26-69 (adopted 2026-03-17) through 2027-03-31. The same March 17, 2026 meeting adopted Ordinance No. 330 (third consideration), which permanently regulates battery/energy storage uses, spinning BESS out of the moratorium; the moratorium itself continues to cover digital asset mining, cryptocurrency operations, and data processing centers.",
+          "reason": "Official resolution text and board minutes confirm the extension and its scope."
+        },
+        "current_status": {
+          "from": "Expired on 2026-03-31 unless later extended [VERIFY: as of 2026-04-29, the March 3, 2026 Board direction to staff to pursue another extension has not produced a captured post-3/31 extension resolution. Citizen Portal coverage confirms staff was directed to \"work with the county attorney on a resolution to extend the temporary moratorium that is set to expire March 31, 2026\" but no later extension resolution has been identified in captured records.]",
+          "to": "Active. Extended via Resolution #26-69 (adopted 2026-03-17) through 2027-03-31, covering digital asset mining, cryptocurrency operations, and data processing centers (BESS was moved to permanent Ordinance No. 330, adopted the same day). No further rescission or replacement found through the July 21, 2026 minutes.",
+          "reason": "Primary-sourced resolution text and minutes confirm the extension; the moratorium did not expire as previously speculated."
+        },
+        "computed_expiry": {
+          "from": "null",
+          "to": "2027-03-31",
+          "reason": "Per Resolution #26-69's stated term."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: as of 2026-04-29, the March 3, 2026 Board direction to staff to pursue another extension has not produced a captured post-3/31 extension resolution. Citizen Portal coverage confirms staff was directed to \"work with the county attorney on a resolution to extend the temporary moratorium that is set to expire March 31, 2026\" but no later extension resolution has been identified in captured records.]",
+          "resolution": "corrected",
+          "note": "Found Resolution #26-69, adopted 2026-03-17, extending the moratorium through 2027-03-31 -- this is exactly the extension resolution the March 2026 Board direction anticipated. Checked subsequent minutes (2026-06-30, 2026-07-14, 2026-07-21); no further rescission or replacement action found."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.storycountyiowa.gov/AgendaCenter/ViewFile/Item/35163?fileID=28479",
+          "title": "Story County Resolution #26-69",
+          "publisher": "Story County, Iowa (Planning & Development Director Leanne Harter)",
+          "document_date": "2026-03-17",
+          "source_type": "resolution",
+          "supports": "Confirms the moratorium's extension through 2027-03-31.",
+          "quote": "RESOLUTION NUMBER #26-69 ... Establishing a Temporary Moratorium on the Acceptance of Applications and/or Issuance of Permits for Digital Asset Mining, Cryptocurrency Operations, and/or Data Processing Centers on properties located in unincorporated Story County, putting in place a temporary moratorium expiring on or before March 31, 2027 ... SECTION 2. PERIOD OF TIME EFFECTIVE This Resolution shall be effective for a period from adoption of said Resolution through March 31, 2027."
+        },
+        {
+          "url": "https://www.storycountyiowa.gov/AgendaCenter/ViewFile/Minutes/_03172026-3119",
+          "title": "Story County Board of Supervisors Minutes, March 17, 2026",
+          "publisher": "Story County, Iowa",
+          "document_date": "2026-03-17",
+          "source_type": "minutes",
+          "supports": "Confirms the roll-call adoption of Resolution #26-69 and, at the same meeting, third consideration/adoption of Ordinance No. 330 addressing battery/energy storage uses.",
+          "quote": "Faisal moved, Murken seconded approving Resolution #26-69 ... putting in place a Temporary Moratorium expiring on or before 3/31/27. Roll call vote. (MCU)"
+        }
+      ],
+      "notes": "enacted_status should change from 'expired' to 'active.' BESS is no longer covered by this moratorium as of 2026-03-17 (moved to permanent Ordinance No. 330); the moratorium's scope should be understood going forward as data mining/cryptocurrency/data-processing-centers only."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Iowa",
+      "jurisdiction": "Sioux County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-06-16",
+      "date_enacted_iso": "2026-06-16",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year, automatic sunset",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Resolution No. 2026-32, prohibiting the Board of Supervisors, Zoning Board, and Board of Adjustment from receiving, reviewing, considering, or approving any Data Center and/or BESS application, to allow time to review Ordinance No. 01",
+      "trigger": "Board desired additional time to review Sioux County Ordinance No. 01 (the county's general land-use/zoning ordinance) before any data center or BESS project could be considered; the resolution notes no such facilities were installed or in development in the county at the time.",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center", "battery_storage"],
+      "current_status": "Active as of 2026-07-31 (sunsets automatically 2027-06-16 absent further Board action)",
+      "enacted_status": "active",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://siouxcountyia.gov/wp-content/uploads/2026/06/2026-32-Data-Centers-BESS-Ordinance-Moratorium-Signed.pdf",
+          "title": "Resolution No. 2026-32",
+          "publisher": "Sioux County, Iowa (Chairman Jerry Muilenburg; Auditor Joe Van Tol)",
+          "document_date": "2026-06-16",
+          "source_type": "resolution",
+          "supports": "Full signed resolution text: adoption date, one-year automatic sunset, scope (Data Centers and BESS), and signatures.",
+          "quote": "WHEREAS the Sioux County Board of Supervisors desires to prohibit the application of all Data Centers and BESS developments, in Sioux County, Iowa for the period of one (1) year, allowing additional time to review Ordinance No. 01. ... Such moratorium shall be effective immediately upon passage. This moratorium shall sunset, automatically terminating one-year after passage. PASSED AND APPROVED on this 16th day of June 2026."
+        }
+      ],
+      "notes": "Directly fetched and read the signed PDF; this is a solid primary-source addition, adopted after the stated 2026-04-28 coverage cutoff."
+    },
+    {
+      "state": "Iowa",
+      "jurisdiction": "Madison County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-05-26 (news-reported; exact date not primary-sourced)",
+      "date_enacted_iso": "2026-05",
+      "date_enacted_uncertainty": "month_only",
+      "duration": "12 months (reported as two separate 12-month moratoriums, one for data centers and one for battery storage systems)",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "County Commission action following public hearings; resolution/ordinance number not found in news coverage",
+      "trigger": "Board sought time to review zoning rules before allowing data center and battery storage development.",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center", "battery_storage"],
+      "current_status": "Reported active as of the May 26, 2026 vote; not independently confirmed past that date",
+      "enacted_status": "active",
+      "confidence": 0.45,
+      "evidence": [
+        {
+          "url": "https://www.wintersetmadisonian.com/articles/county-supervisors-pass-moratorium-on-data-centers/",
+          "title": "County supervisors pass moratorium on data centers",
+          "publisher": "Winterset Madisonian",
+          "source_type": "news",
+          "supports": "Reports the Madison County Board of Supervisors passed two 12-month moratoriums on data centers and battery storage systems following public hearings; article is paywalled beyond the lede so exact date, vote count, and any resolution number could not be confirmed.",
+          "quote": "The Madison County Board of Supervisors passed two 12-month moratoriums on Tuesday morning on data centers and battery storage systems following a pair of public hearings in an effort to prevent these from being built in the county."
+        },
+        {
+          "url": "https://www.kcci.com/article/madison-county-data-center-moratorium/71415006",
+          "title": "Madison County approves 12-month data center moratorium",
+          "publisher": "KCCI",
+          "source_type": "news",
+          "supports": "Independently corroborates the moratorium's adoption and general purpose (zoning rule review).",
+          "quote": "Madison County officials have approved a temporary halt on new data center projects to allow time for zoning rule reviews."
+        }
+      ],
+      "notes": "News-only; no primary source (county minutes/resolution) located. Recommend a follow-up pass against Madison County's own records portal (linked from madisoncounty.iowa.gov, hosted on a third-party 'DL Web'-style portal that did not render via fetch) to get the resolution number, exact date, and vote count before treating this as fully confirmed."
+    },
+    {
+      "state": "Iowa",
+      "jurisdiction": "Ida County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-06-30 (news-reported; not primary-sourced)",
+      "date_enacted_iso": "2026-06-30",
+      "date_enacted_uncertainty": "range",
+      "duration": "Indefinite, until the board votes otherwise",
+      "duration_days": null,
+      "duration_kind": "indefinite",
+      "legal_basis": "County Board of Supervisors action; resolution/ordinance number not found in news coverage",
+      "trigger": "Not detailed in the news coverage found.",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Reported active as of publication (2026-07-13); not independently confirmed past that date",
+      "enacted_status": "active",
+      "confidence": 0.4,
+      "evidence": [
+        {
+          "url": "https://stormlakeradio.com/news/ida-county-board-of-supervisors-approve-data-center-moratorium/",
+          "title": "Ida County Board of Supervisors Approve Data Center Moratorium",
+          "publisher": "Storm Lake Radio",
+          "document_date": "2026-07-13",
+          "source_type": "news",
+          "supports": "Reports a 3-0 vote by the Ida County Board of Supervisors enacting an immediate, indefinite moratorium on data centers on 2026-06-30.",
+          "quote": "the county board of supervisors voted 3-0 to enact an immediate moratorium ... The moratorium is indefinite, remaining in place until the board votes otherwise."
+        }
+      ],
+      "notes": "News-only; no primary source (county minutes/resolution) located or attempted beyond this article. Recommend a follow-up pass against Ida County's own minutes archive to confirm the exact date and resolution number."
+    }
+  ]
+}

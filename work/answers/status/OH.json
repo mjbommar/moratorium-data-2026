@@ -1,0 +1,627 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "oh-norton-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "extended",
+          "reason": "The original 180-day moratorium (Ord. 108-2025) expired on schedule 2026-05-30, but Council adopted a new 90-day moratorium (Ord. 55-2026) as an emergency measure on 2026-05-18, described by Council as a 90-day extension, so the pause continued without a gap."
+        },
+        "current_status": {
+          "from": "Active through about 2026-05-30 unless extended [VERIFY: no extension action captured by 2026-04-29]",
+          "to": "Extended via Ordinance 55-2026 (adopted 2026-05-18, emergency, 90-day moratorium). Council minutes of 2026-07-06 confirm the moratorium remains in effect through approximately August 2026, distinct from the permanent zoning ordinances (60-2026, 61-2026) adopted the same night.",
+          "reason": "Direct review of City of Norton council minutes for May and July 2026."
+        },
+        "duration": {
+          "from": "180 days",
+          "to": "180 days (Ord. 108-2025, 2025-12-01 to 2026-05-30), followed by a 90-day extension under Ord. 55-2026 (adopted 2026-05-18), running through approximately mid-to-late August 2026",
+          "reason": "Council minutes describe Ord. 55-2026 as a 90-day extension; exact new sunset (Aug 16 vs Aug 28, 2026) is not stated verbatim."
+        },
+        "legal_basis": {
+          "from": "Ordinance 108-2025",
+          "to": "Ordinance 108-2025; extended by Ordinance 55-2026 (adopted 2026-05-18 as an emergency measure)",
+          "reason": "Confirmed in the 2026-05-18 council minutes."
+        },
+        "outcome": {
+          "from": "Planning Commission zoning review pending [VERIFY: Norton Planning Commission report not located online 2026-04-29]",
+          "to": "Planning Commission recommendations resulted in permanent zoning ordinances: Ord. 60-2026 (amending Section 1282.03, Special Industrial Use Permits, for large-scale data centers) and Ord. 61-2026 (amending Section 1298, Conditional Uses), both adopted by Council on 2026-07-06. Council clarified this permanent legislation does not replace the still-active temporary moratorium.",
+          "reason": "Confirmed in council minutes for 2026-05-04 (Planning Commission draft received), 2026-06-15 (first readings of Ord. 60-2026 and 61-2026), and 2026-07-06 (adoption)."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no extension action captured by 2026-04-29]",
+          "resolution": "corrected",
+          "note": "City of Norton council minutes of 2026-05-18 show adoption of Ord. 55-2026, a 90-day emergency extension of the data center moratorium."
+        },
+        {
+          "field": "outcome",
+          "marker": "[VERIFY: Norton Planning Commission report not located online 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Planning Commission's data center regulations were introduced as Ord. 60-2026 and Ord. 61-2026 (first reading 2026-06-15) and adopted by Council on 2026-07-06, per council minutes."
+        }
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://cityofnorton.org/AgendaCenter/ViewFile/Minutes/_05182026-912",
+          "title": "Regular Council Meeting Minutes, May 18, 2026",
+          "publisher": "City of Norton, Ohio",
+          "document_date": "2026-05-18",
+          "source_type": "minutes",
+          "supports": "Council adopted Ord. 55-2026 enacting a new 90-day data center moratorium as an emergency measure, explained by Council as a 90-day extension because the original moratorium (Ord. 108-2025) was expiring 2026-05-30.",
+          "quote": "AN ORDINANCE ENACTING A 90-DAY MORATORIUM ON THE RECEIPT, PROCESSING, ISSUANCE, AND APPROVAL OF ANY APPLICATION FOR A ZONING CERTIFICATE FOR NAICS 518-DATA PROCESSING, HOSTING AND RELATED SERVICES (DATA CENTERS) ... Mr. Lukens moved to adopt Ord. No. 55-2026; seconded by Mr. Harbert. Roll Call: Yes: Lukens, Harbert, DeHarpart, Tousley, Eader, Lee, Mowery No: None Motion passed: 7-0"
+        },
+        {
+          "url": "https://cityofnorton.org/AgendaCenter/ViewFile/Minutes/_07062026-923",
+          "title": "Regular Council Meeting Minutes, July 6, 2026",
+          "publisher": "City of Norton, Ohio",
+          "document_date": "2026-07-06",
+          "source_type": "minutes",
+          "supports": "Confirms the moratorium remained in effect through approximately August 2026 even as Council separately adopted permanent zoning ordinances 60-2026 and 61-2026 governing large-scale data centers.",
+          "quote": "Mr. Tousley clarified that the moratorium is still in affect through August and this legislation does not replace it."
+        },
+        {
+          "url": "https://cityofnorton.org/AgendaCenter/ViewFile/Minutes/_05042026-909",
+          "title": "Regular Council Meeting Minutes, May 4, 2026",
+          "publisher": "City of Norton, Ohio",
+          "document_date": "2026-05-04",
+          "source_type": "minutes",
+          "supports": "Planning Commission delivered a proposed data center ordinance to Council for discussion; this became the basis for the later permanent ordinances 60-2026 and 61-2026.",
+          "quote": "Mr. Lukens reported that a proposed ordinance for Data Centers has been received from the Planning Commission. He briefly discussed the topics that it covers, including the water study, lighting plan, pre-construction noise agreements, water use agreements, set backs, parking, etc."
+        }
+      ],
+      "notes": "Norton's original 180-day moratorium (Ord. 108-2025) expired on schedule 2026-05-30, but Council did not let it lapse: it adopted a new 90-day moratorium (Ord. 55-2026) as an emergency measure on 2026-05-18, described in the minutes as an extension. As of the 2026-07-06 meeting, Council confirmed the moratorium remained active (through approximately August 2026) even while separately adopting permanent zoning ordinances 60-2026 and 61-2026. Exact new sunset date is ambiguous between 2026-08-16 (90 days from passage) and 2026-08-28 (90 days from the original 2026-05-30 expiry); minutes only say 'through August.' City minutes were scanned image PDFs; retrieved via WebFetch, downloaded, and OCR'd locally with tesseract to extract text."
+    },
+    {
+      "moratorium_id": "oh-waterville-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "expired",
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "expired",
+          "reason": "No extension, replacement, or repeal of Resolution 34-25 was found in any Waterville City Council minutes from May-June 2026, including the minutes of the meeting nearest its own sunset date."
+        },
+        "current_status": {
+          "from": "Active through approximately 2026-06-08 [VERIFY: no extension or repeal captured 2026-04-29]",
+          "to": "Resolution 34-25 (as amended, a 182-day/6-month term from its 2025-12-08 adoption) expired on approximately 2026-06-08. No extension, replacement, or repeal was found in Council minutes of 2026-05-11, 2026-06-01 (special), or 2026-06-08 (the meeting closest to the expiration date itself); the latter's minutes cover other business at length with no mention of data centers.",
+          "reason": "Reviewed the full text of the three most relevant 2026 council minutes documents via direct fetch."
+        },
+        "legal_basis": {
+          "from": "Resolution 34-25 [VERIFY: primary text not located on Waterville City website 2026-04-29; date and number from 13abc reporting]",
+          "to": "Resolution 34-25, \"A RESOLUTION IMPOSING A MORATORIUM ON THE ISSUANCE OR GRANTING OF APPLICATIONS OR PERMITS FOR DATA CENTERS AND ANCILLARY FACILITIES IN THE CITY OF WATERVILLE OHIO,\" adopted 2025-12-08 as amended from a proposed 12 months down to 6 months (182 days), by unanimous 7-0 roll call.",
+          "reason": "Located and read the primary source: the City of Waterville's own December 8, 2025 council meeting minutes."
+        },
+        "duration": {
+          "from": "6 months",
+          "to": "182 days (6 months); amended down from an originally proposed 12 months (365 days) at the same meeting before adoption",
+          "reason": "Per the December 8, 2025 council minutes."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: primary text not located on Waterville City website 2026-04-29; date and number from 13abc reporting]",
+          "resolution": "corrected",
+          "note": "Found the primary source: waterville.org's own December 8, 2025 council meeting minutes, which quote Resolution 34-25's title and record the amendment from 12 to 6 months and the unanimous adoption vote."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no extension or repeal captured 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Reviewed Waterville council minutes for 2026-05-11, 2026-06-01 (special), and 2026-06-08 in full; none mention the data center moratorium being extended, replaced, or repealed. Treated as an expiration by lapse rather than an affirmative repeal, since no source states the moratorium ended."
+        }
+      ],
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://waterville.org/wp-content/uploads/2026/04/12.8.25-Council-Meeting-Minutes-Final.pdf",
+          "title": "Regular Council Meeting Minutes, December 8, 2025",
+          "publisher": "City of Waterville, Ohio",
+          "document_date": "2025-12-08",
+          "source_type": "minutes",
+          "supports": "Primary source for Resolution 34-25's adoption, its text, and its amendment from a 12-month to a 6-month (182-day) term.",
+          "quote": "RESOLUTION 34-25 A RESOLUTION IMPOSING A MORATORIUM ON THE ISSUANCE OR GRANTING OF APPLICATIONS OR PERMITS FOR DATA CENTERS AND ANCILLARY FACILITIES IN THE CITY OF WATERVILLE OHIO FOR A PERIOD OF TWELVE MONTHS (365 DAYS) ... Mr. Rozic made a motion to amend Resolution 34-25 from a period of twelve months (365 days) to a period of six months (182 days) ... Mr. Wagner moved to adopt Resolution 34-25 as amended ... The motion passed unanimously"
+        },
+        {
+          "url": "https://waterville.org/wp-content/uploads/2026/06/5.11.26-Council-Meeting-Minutes-Final.pdf",
+          "title": "Regular Council Meeting Minutes, May 11, 2026",
+          "publisher": "City of Waterville, Ohio",
+          "document_date": "2026-05-11",
+          "source_type": "minutes",
+          "supports": "No mention of extending, replacing, or repealing the data center moratorium; only a citizen comment on data center impacts generally.",
+          "quote": "Leatra Harper, 729 Pine Valley Dr, Bowling Green, Ohio; discussed the negative impacts Data Centers will have on an area."
+        },
+        {
+          "url": "https://waterville.org/wp-content/uploads/2026/06/6.1.26-Special-Council-Meeting-Minutes-Final.pdf",
+          "title": "Special Council Meeting Minutes, June 1, 2026",
+          "publisher": "City of Waterville, Ohio",
+          "document_date": "2026-06-01",
+          "source_type": "minutes",
+          "supports": "Special council meeting minutes (executive session on property purchase) contain no mention of the data center moratorium.",
+          "quote": "Executive Session Mr. Sargent made a motion to move into Executive Session for Consideration of a Matter per ORC 121.22(G)(2): Purchase or Sale of Property for Public Purposes"
+        },
+        {
+          "url": "https://waterville.org/wp-content/uploads/2026/07/6.8.26-Council-Meeting-Minutes-Final.pdf",
+          "title": "Regular Council Meeting Minutes, June 8, 2026",
+          "publisher": "City of Waterville, Ohio",
+          "document_date": "2026-06-08",
+          "source_type": "minutes",
+          "supports": "Full minutes of the regular meeting closest to the resolution's 182-day sunset contain no reference to the data center moratorium, its extension, or a replacement ordinance; business covered includes an e-bike speed ordinance, a zoning change request, and a bridge purchase.",
+          "quote": "OLD BUSINESS: A. ORDINANCE 04-26 AN ORDINANCE AMENDING PART THREE OF THE CODIFIED ORDINANCES OF THE CITY OF WATERVILLE - SCHEDULE II OF THE TRAFFIC SCHEDULES: SPEED LIMITS BY ADDING SHARDED USE PATHS"
+        }
+      ],
+      "notes": "No Waterville City Council minutes from May-June 2026 mention the data center moratorium being extended, replaced, or repealed, including the June 8, 2026 meeting minutes -- the date nearest the resolution's own 182-day sunset from its December 8, 2025 adoption. This is treated as expiration by lapse; no source affirmatively states the moratorium ended, so confidence is capped at 0.55. Minutes PDFs were text-based (not scanned images) and were read directly with pdftotext."
+    },
+    {
+      "moratorium_id": "oh-jerome-township-2025",
+      "outcome": "unresolvable",
+      "confidence": 0.2,
+      "evidence": [
+        {
+          "url": "https://www.marysvillejt.com/2026/03/19/jerome-clamps-data-centers/",
+          "title": "Jerome clamps down on data centers",
+          "publisher": "Marysville Journal-Tribune",
+          "document_date": "2026-03-19",
+          "source_type": "news",
+          "supports": "Jerome Township trustees voted on 2026-03-19 to move forward with proposed amendments reclassifying data centers from an approved use to a conditional use -- consistent with the moratorium's stated purpose as a bridge to permanent zoning changes -- but the article does not confirm final adoption of that amendment or address the moratorium's own status at its 2026-05-31 expiration.",
+          "quote": "Jerome Township trustees voted Tuesday night to move forward with proposed amendments to data center land use regulations, reclassifying such developments as a conditional use rather than an approved use."
+        }
+      ],
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no updated trustee action captured between 2026-03 and 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Found evidence that trustees advanced a conditional-use zoning reclassification (vote reported 2026-03-19), matching the moratorium's stated intent, but no source located confirms whether that amendment was formally adopted before or after Resolution 25-061's 2026-05-31 sunset, or what happened to the moratorium itself (extended, replaced, or lapsed). Jerome Township's own website (jerometownship.com) returned HTTP 403 to automated fetches; the Marysville Matters Substack coverage of later 2026 meetings was paywalled beyond the preview; no further primary or news source was found describing the moratorium's disposition after May 2026."
+        }
+      ],
+      "notes": "Real, sourced progress toward a permanent conditional-use ordinance was found (trustees voted 2026-03-19 to advance it), matching the moratorium's stated 'bridge' purpose, but no source confirms the moratorium's actual fate (extended/replaced/expired) at or after its 2026-05-31 sunset. Left unresolvable rather than inferring a specific outcome without a supporting source. Also noted in passing (not verified further): one search snippet indicated data centers received zoning certificates in December 2025 despite the moratorium, which was not chased down."
+    },
+    {
+      "moratorium_id": "oh-ashville-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "extended",
+          "reason": "Ashville Village Council adopted Ordinance 2026-14 as an emergency measure on 2026-07-06, imposing another 180-day moratorium, succeeding the original Ordinance 2025-13 which had expired 2026-06-20."
+        },
+        "current_status": {
+          "from": "Active unless repealed or superseded [VERIFY: Ashville village website carries no online ordinance archive as of 2026-04-29; primary text not posted publicly]",
+          "to": "Extended via Ordinance 2026-14, adopted as an emergency measure at the 2026-07-06 Council meeting, imposing another 180-day moratorium (through approximately 2027-01-02); succeeds the original Ordinance 2025-13 (expired 2026-06-20).",
+          "reason": "Confirmed via Circleville Herald reporting on the 2026-07-06 council meeting."
+        },
+        "duration": {
+          "from": "180 days",
+          "to": "180 days (Ord. 2025-13, originally recorded 2025-12-22 to 2026-06-20), followed by a second 180-day moratorium under Ordinance 2026-14 (adopted 2026-07-06), through approximately 2027-01-02",
+          "reason": "Per Circleville Herald reporting on Ordinance 2026-14."
+        },
+        "legal_basis": {
+          "from": "Ordinance 2025-13",
+          "to": "Ordinance 2025-13; extended by Ordinance 2026-14 (adopted 2026-07-06 as an emergency measure, readings waived)",
+          "reason": "Confirmed via Circleville Herald reporting."
+        },
+        "outcome": {
+          "from": "Policy Matters Ohio reported Resolution 06-2026 would create a development and supply agreement and may repeal inconsistent prior legislation [VERIFY: Resolution 06-2026 disposition not posted on village site 2026-04-29]",
+          "to": "Resolution 06-2026 authorized a development/consultant-funding agreement (Term Summary, Exhibit A) with EdgeConneX/PowerConneX, allocating $39,300 for GAI Consultants' independent technical review of the proposed project. It did not repeal the moratorium, which was instead independently extended by Ordinance 2026-14 on 2026-07-06.",
+          "reason": "Per Circleville Herald reporting describing Resolution 06-2026's actual content."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: Ashville village website carries no online ordinance archive as of 2026-04-29; primary text not posted publicly]",
+          "resolution": "still_unverifiable",
+          "note": "Did not find an ordinance archive on the village's own site (ashvilleohio.gov); the village's codified ordinances are hosted on American Legal Publishing (amlegal.com) but temporary/emergency moratorium ordinances of this kind are typically not codified there. The moratorium's current status was instead established via Circleville Herald news coverage of the 2026-07-06 meeting."
+        },
+        {
+          "field": "outcome",
+          "marker": "[VERIFY: Resolution 06-2026 disposition not posted on village site 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Resolution 06-2026 is a development/supply and consultant-funding agreement with EdgeConneX/PowerConneX (funding GAI Consultants' review at $39,300), not a repeal of the moratorium. The moratorium itself was separately and explicitly extended by Ordinance 2026-14."
+        }
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "http://www.circlevilleherald.com/community/ashville-village-council-extends-data-center-moratorium/article_eeb8945a-5940-4c11-abf4-f5f8d84c9208.html",
+          "title": "Ashville Village Council extends data center moratorium",
+          "publisher": "Circleville Herald",
+          "document_date": "2026-07-07",
+          "source_type": "news",
+          "supports": "Ashville Village Council adopted Ordinance 2026-14 as an emergency measure at its 2026-07-06 meeting, imposing another 180-day data center moratorium; separately describes Resolution 06-2026 as an EdgeConneX/PowerConneX consultant-funding agreement.",
+          "quote": "Ordinance 2026-14 imposes another 180-day moratorium on the receipt, processing, issuance, and approval of any application for a zoning certificate for any use related to data processing, hosting and related services."
+        },
+        {
+          "url": "https://www.sciotopost.com/ashville-council-approves-180-day-moratorium-as-data-center-opposition-grows/",
+          "title": "Ashville Council Approves 180-Day Moratorium as Data Center Opposition Grows",
+          "publisher": "Scioto Post",
+          "document_date": "2025-12-23",
+          "source_type": "news",
+          "supports": "Reports the original moratorium's unanimous emergency passage date as December 20, 2025, which does not match the inventory's recorded 2025-12-22 date -- a discrepancy flagged for follow-up, not resolved in this pass.",
+          "quote": "the village's council passing the 180-day moratorium in a unanimous vote on Dec. 20 in an emergency act"
+        }
+      ],
+      "notes": "The moratorium was extended, not left to expire: Ordinance 2026-14 (2026-07-06, emergency) imposes another 180-day pause. Flagging an unresolved discrepancy: Scioto Post's contemporaneous December 2025 coverage states the original ordinance passed 'Dec. 20' in an emergency vote, while the inventory records 2025-12-22; this was not independently resolved against a primary document in this pass and is left as-is pending a primary source."
+    },
+    {
+      "moratorium_id": "oh-lordstown-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "extended",
+          "reason": "Village Council passed a second emergency ordinance extending the moratorium another 180 days before the original Ordinance 1-2026 expired on 2026-07-04."
+        },
+        "current_status": {
+          "from": "Active in captured January-February 2026 records; litigation over Bristolville 25 application reported in adjacent media coverage; current docket status not captured [VERIFY: Trumbull County Court of Common Pleas docket not searched 2026-04-29]",
+          "to": "Extended: following a public hearing on 2026-06-15, Village Council passed an emergency ordinance extending the moratorium another 180 days, effective 2026-07-05 through approximately 2027-01-02 (reported passage dates vary slightly, 2026-06-16/17, across sources). Litigation brought by Bristolville 25 Developer LLC/BHGH Properties LLC is before the Ohio Supreme Court (not the Trumbull County Court of Common Pleas), and remained pending with no ruling located as of the sources reviewed (dated through 2026-06-08).",
+          "reason": "Confirmed via The Vindicator and Tribune Chronicle reporting on the June 2026 extension, and WFMJ reporting on the Ohio Supreme Court litigation."
+        },
+        "duration": {
+          "from": "Not to exceed 180 days",
+          "to": "180 days (Ord. 1-2026, effective 2026-01-05 through 2026-07-04), extended a further 180 days by a second emergency ordinance passed mid-June 2026, effective 2026-07-05 through approximately 2027-01-02",
+          "reason": "Per Vindicator reporting."
+        },
+        "legal_basis": {
+          "from": "Ordinance 1-2026",
+          "to": "Ordinance 1-2026; extended by a second emergency ordinance passed by Village Council in mid-June 2026 following a 2026-06-15 public hearing (exact ordinance number not confirmed in sources reviewed)",
+          "reason": "Per Vindicator and Tribune Chronicle reporting; the extending ordinance's exact number could not be independently confirmed."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: Trumbull County Court of Common Pleas docket not searched 2026-04-29]",
+          "resolution": "corrected",
+          "note": "The litigation is before the Ohio Supreme Court, not the Trumbull County Court of Common Pleas. Bristolville 25 Developer LLC and BHGH Properties LLC filed with the Ohio Supreme Court in November 2025; as of a 2026-06-08 WFMJ report, the developers had filed a motion asking the court to take judicial notice of the village's continued moratorium actions, and the case remained pending with no decision located."
+        }
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.vindy.com/news/local-news/2026/06/lordstown-extends-data-center-moratorium/",
+          "title": "Lordstown extends data center moratorium",
+          "publisher": "The Vindicator",
+          "document_date": "2026-06-18",
+          "source_type": "news",
+          "supports": "Village Council passed an emergency ordinance extending the moratorium 180 days, effective July 5, 2026 through approximately January 2, 2027, following a June 15, 2026 public hearing.",
+          "quote": "Mayor Jackie Woodward stated she supported the emergency passage of the legislation by council ... the current 180-day moratorium on data centers expiring on Independence Day"
+        },
+        {
+          "url": "https://www.tribtoday.com/news/local-news/2026/05/lordstown-looks-to-extend-moratorium-on-data-centers/",
+          "title": "Lordstown looks to extend moratorium on data centers",
+          "publisher": "Tribune Chronicle",
+          "document_date": "2026-05-05",
+          "source_type": "news",
+          "supports": "Confirms the council's plan to schedule a public hearing in June 2026 on extending the moratorium, and that consultant Brian Frantz was hired to assist with data center zoning matters.",
+          "quote": "Councilwoman Jessica Blank requested that the village advertise for a public hearing in June to get public input on extending the moratorium established earlier this year."
+        },
+        {
+          "url": "https://www.wfmj.com/news/local-news/lordstown/ohio-supreme-court-asked-to-halt-lordstown-data-center-freeze/article_1a859ef5-5aee-4466-8233-c9bf273669aa.html",
+          "title": "Ohio Supreme Court asked to halt Lordstown data center freeze",
+          "publisher": "WFMJ",
+          "document_date": "2026-06-08",
+          "source_type": "news",
+          "supports": "Confirms the litigation forum is the Ohio Supreme Court, not the Trumbull County Court of Common Pleas, and that the case remained pending as of June 8, 2026.",
+          "quote": "Bristolville 25 Developer LLC and BHGH Properties LLC filed a motion asking the Ohio Supreme Court to take judicial notice of recent village actions."
+        }
+      ],
+      "notes": "Exact extending-ordinance number and precise passage date (reported inconsistently as June 16 or 17, 2026 across outlets) were not independently confirmed against a primary village document; village website (lordstown.org) did not resolve via DNS."
+    },
+    {
+      "moratorium_id": "oh-avon-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "The certified ordinance itself, retrieved directly from the City of Avon's website, shows the exact passage and mayoral-approval dates."
+        },
+        "date_enacted": {
+          "from": "2026-04-14 (Section 1 of Ordinance 37-26 specifies sunset April 14, 2027, implying April 14, 2026 effective date upon mayoral approval)",
+          "to": "Passed by Council 2026-04-13; approved by Mayor Bryan K. Jensen 2026-04-14 (emergency measure, effective immediately upon mayoral approval); Section 1 sets the moratorium through April 14, 2027.",
+          "reason": "Read directly from the certified copy of Ordinance No. 37-26."
+        },
+        "current_status": {
+          "from": "Active per ordinance language (declared emergency measure for immediate effect upon mayor's approval) [VERIFY: mayoral signature date and council roll call not in the captured PDF]",
+          "to": "Active. The certified Ordinance No. 37-26 shows passage by Council on 2026-04-13 and approval by Mayor Bryan K. Jensen on 2026-04-14 (emergency, effective immediately); it does not print an itemized roll-call vote tally on its face.",
+          "reason": "Read directly from the certified ordinance document."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: mayoral signature date and council roll call not in the captured PDF]",
+          "resolution": "corrected",
+          "note": "The certified ordinance PDF (cityofavon.com) shows 'PASSED: April 13, 2026' over Council President Brian Fischer's signature line and 'DATE APPROVED BY THE MAYOR' over Mayor Bryan K. Jensen's signature line (dated April 14, 2026 per surrounding certification and posting dates of April 14 and April 16, 2026). It does not, however, print an individual roll-call vote tally -- that remains unconfirmed."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.cityofavon.com/DocumentCenter/View/12257/Ordinance-No-37-26---Certified",
+          "title": "Ordinance No. 37-26 (Certified)",
+          "publisher": "City of Avon, Ohio",
+          "document_date": "2026-04-13",
+          "source_type": "ordinance",
+          "supports": "Certified copy of Ordinance 37-26 showing the Council passage date, mayoral approval, and the moratorium term running through April 14, 2027.",
+          "quote": "PASSED: April 13, 2026 ... DATE APPROVED BY THE MAYOR ... Bryan K. Jensen, Mayor ... I, Barbara J. Brooks, Clerk of the Council of the City of Avon, Ohio, hereby certify this document to be a true and exact copy of Ordinance No. 37-26, passed by the Council of said City on April 13, 2026."
+        }
+      ],
+      "notes": "This ordinance was retrieved as a scanned/image PDF; text was recovered by downloading the file and running it through tesseract OCR locally. The moratorium itself remains on track (through 2027-04-14) and unaffected -- the only correction here is verifying the previously-unverified enactment date and resolving the roll-call/signature VERIFY marker as far as the document allows."
+    },
+    {
+      "moratorium_id": "oh-cincinnati-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "duration": {
+          "from": "Through end of 2026",
+          "to": "Through February 11, 2027 (the original Interim Development Control Overlay District No. 89 was effective 2026-02-11 for 3 months, expiring 2026-05-11; City Council approved a 9-month extension on 2026-04-01 following the City Planning Commission's 2026-03-06 recommendation, moving the expiration to 2027-02-11)",
+          "reason": "Confirmed via the City of Cincinnati's own Department of City Planning and Engagement project page for IDCO 89."
+        },
+        "current_status": {
+          "from": "Active restriction, not a full ban",
+          "to": "Active restriction, not a full ban; extended through 2027-02-11 by a Council vote on 2026-04-01",
+          "reason": "Per the City of Cincinnati planning department's project page."
+        },
+        "date_enacted": {
+          "from": "2026-02 initial; extended 2026-04-01",
+          "to": "2026-02-11 (IDCO No. 89 effective date, per city planning page); extended 2026-04-01 for 9 months to 2027-02-11",
+          "reason": "Per the City of Cincinnati planning department's project page."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.cincinnati-oh.gov/planning/projects/active/interim-development-control-overlay-89-data-centers-and-zoning-study/",
+          "title": "Interim Development Control Overlay 89 - Data Centers and Zoning Study",
+          "publisher": "City of Cincinnati, Department of City Planning and Engagement",
+          "source_type": "staff_report",
+          "supports": "IDCO 89 was effective 2026-02-11 for an initial 3-month term (expiring 2026-05-11); City Council extended it 9 months on 2026-04-01 following the Planning Commission's 2026-03-06 recommendation, moving the current end date to 2027-02-11.",
+          "quote": "Current End Date: February 11, 2027 ... initially established for 3 months (effective February 11, 2026, expiring May 11, 2026). City Council then extended it for an additional 9 months on April 1, 2026."
+        },
+        {
+          "url": "https://dundeeomaha.org/2026/04/cincinnati-extends-data-center-rules-through-2026/",
+          "title": "Cincinnati extends data center rules through 2026",
+          "publisher": "Dundee Omaha",
+          "document_date": "2026-04",
+          "source_type": "news",
+          "supports": "Council voted to extend the temporary restrictions on new data center construction on April 1, 2026.",
+          "quote": "Councilman Mark Jeffreys stated: \"We don't even have a classification for data centers. This will classify it... without that, we're flying blind.\""
+        }
+      ],
+      "notes": "The inventory's recorded 'through end of 2026' duration was superseded by a 9-month extension voted 2026-04-01, which the city's own planning department page (likely updated after the inventory's 2026-04-29 capture) now lists as running through 2027-02-11, not end of 2026."
+    },
+    {
+      "moratorium_id": "oh-vermilion-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.vermilionphotojournal.com/top_stories/data-centers-friend-or-foe/article_16c5fff9-6131-41e8-b21b-88a9ba7499fe.html",
+          "title": "Data Centers: Friend or Foe?",
+          "publisher": "Vermilion Photojournal",
+          "document_date": "2026-04-23",
+          "source_type": "news",
+          "supports": "Confirms Vermilion City Council passed a one-year moratorium on data center development, in effect as of publication (2026-04-23), consistent with the inventory's recorded term running through 2027-03-23.",
+          "quote": "Vermilion City Council passed a year-long moratorium aimed at prevention of data center development ... [Councilman] Gabriel ... the city is using this period to 'tap the brakes until we have a chance to look over not only our code but also our services.'"
+        }
+      ],
+      "notes": "Could not independently re-fetch the primary ordinance text; www.cityofvermilionohio.gov and citizenportal.ai both returned HTTP 403 to automated fetches in this pass. Relying on contemporaneous local news confirming the one-year term. As of 2026-07-31 the recorded 2027-03-23 sunset has clearly not passed, and no source found suggests any earlier repeal or replacement, so the record is treated as still accurate."
+    },
+    {
+      "moratorium_id": "oh-archbold-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "enacted_status": {
+          "from": "pending",
+          "to": "active",
+          "reason": "After tabling the proposal on 2026-02-16, Archbold Village Council adopted a six-month emergency moratorium on 2026-04-06."
+        },
+        "date_enacted": {
+          "from": "Not enacted; tabled 2026-02-16",
+          "to": "2026-04-06 (emergency ordinance); Council had initially tabled a broader proposal on 2026-02-16 following resident pushback and legal hesitation from the Village Law Director and County Farm Bureau, then adopted a narrower six-month moratorium on 2026-04-06",
+          "reason": "Per The Village Reporter's coverage of the April 6, 2026 council meeting."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-04-06",
+          "reason": "Per The Village Reporter's coverage."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Meeting date and unanimous vote confirmed via direct news source."
+        },
+        "duration": {
+          "from": "N/A",
+          "to": "6 months (180 days), emergency ordinance",
+          "reason": "Per The Village Reporter's coverage."
+        },
+        "legal_basis": {
+          "from": "Proposed moratorium tabled by council",
+          "to": "Emergency moratorium ordinance adopted 2026-04-06 covering data centers, advanced manufacturing, and technology storage facilities (exact ordinance number not confirmed in sources reviewed)",
+          "reason": "Per The Village Reporter's coverage."
+        },
+        "current_status": {
+          "from": "Tabled; study instead",
+          "to": "Active; six-month emergency moratorium enacted 2026-04-06, expiring approximately October 2026",
+          "reason": "Per The Village Reporter's coverage."
+        },
+        "outcome": {
+          "from": "Village and county officials studying possible impacts",
+          "to": "Council adopted the moratorium unanimously (5 of 6 members present, Council President Karla Ball absent) on 2026-04-06, despite the Village Law Director advising it was unnecessary (no pending applications) and the Farm Bureau warning of litigation exposure.",
+          "reason": "Per The Village Reporter's coverage."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "none recorded; confirm against minutes or the signed instrument",
+          "resolution": "corrected",
+          "note": "Confirmed via The Village Reporter (local paper covering Archbold Village Council) that Council adopted a six-month emergency moratorium at its April 6, 2026 meeting, by unanimous vote of members present."
+        }
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.thevillagereporter.com/archbold-village-council-council-approves-six-month-data-center-moratorium-despite-legal-hesitation/",
+          "title": "Archbold Village Council: Council Approves Six-Month Data Center Moratorium Despite Legal Hesitation",
+          "publisher": "The Village Reporter",
+          "document_date": "2026-04-09",
+          "source_type": "news",
+          "supports": "Archbold Village Council adopted a six-month emergency moratorium on data centers and advanced manufacturing at its April 6, 2026 meeting, despite the Law Director's and Farm Bureau's advice against it.",
+          "quote": "Village Law Director Robert Bohmer advised that a moratorium was not necessary, noting there were no formal requests related to a data center at that time ... Council approved a six-month moratorium ... unanimous approval by all council members present."
+        }
+      ],
+      "notes": "This reverses the packet's recorded 'tabled/not enacted' status: Council did ultimately adopt a moratorium, five weeks after tabling the original proposal. Exact ordinance number was not located."
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "enacted_status": {
+          "from": "pending",
+          "to": "active",
+          "reason": "Full City Council passed Ordinance 556-2026, 14-1, on 2026-07-15, enacting a three-month data center moratorium."
+        },
+        "date_enacted": {
+          "from": "Proposed 2026-04-28; not enacted as of captured reporting",
+          "to": "2026-07-15 (Ordinance 556-2026 passed by full Council, 14-1). Councilmember Charles Slife's original 2026-04-28 proposal called for a one-year pause; the Utilities Committee (chaired by Brian Kazy) reduced it to three months before the full Council vote.",
+          "reason": "Confirmed via the City of Cleveland's own press release and Cleveland City Council's meeting-highlights page."
+        },
+        "date_enacted_iso": {
+          "from": "2026-04-28",
+          "to": "2026-07-15",
+          "reason": "2026-04-28 was only the date of the initial proposal, not enactment."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Confirmed via the city's official ordinance-passage announcement."
+        },
+        "duration": {
+          "from": "Proposed 1 year",
+          "to": "3 months (through approximately 2026-10-16), extendable by Council for an additional 3 months; reduced from the originally proposed 1 year",
+          "reason": "Per the City of Cleveland's press release."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "93",
+          "reason": "Reduced from the originally proposed 365-day pause to a 3-month pause as passed."
+        },
+        "computed_expiry": {
+          "from": "2027-04-28",
+          "to": "2026-10-16",
+          "reason": "Per the City of Cleveland's press release stating the pause runs through October 16, 2026."
+        },
+        "legal_basis": {
+          "from": "Councilmember Charles Slife proposed legislation [CITE primary ordinance not captured]",
+          "to": "Ordinance 556-2026, following Councilmember Charles Slife's initial proposal; advanced by the Utilities Committee (chaired by Brian Kazy) and passed by full Council 2026-07-15, 14-1",
+          "reason": "Confirmed via Cleveland City Council's meeting-highlights page and news5cleveland.com."
+        },
+        "current_status": {
+          "from": "Proposed",
+          "to": "Active; a three-month moratorium on new standalone/principal-use data center projects and expansions took effect upon passage on 2026-07-15, running through approximately 2026-10-16. Excludes operation of existing data centers and colocated/edge/enterprise facilities.",
+          "reason": "Per the City of Cleveland's press release."
+        },
+        "outcome": {
+          "from": "Pending council process",
+          "to": "Adopted. A Data Center working group is developing zoning/regulatory recommendations addressing land use, power needs, environmental standards, jobs, and community benefits, with policy reforms expected to be introduced by mid-September 2026.",
+          "reason": "Per the City of Cleveland's press release and news5cleveland.com reporting."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "The adoption date (2026-04-28) is unverified. Confirm it against minutes or the signed instrument.",
+          "resolution": "corrected",
+          "note": "2026-04-28 was the date of Slife's initial proposal, not enactment. The ordinance (556-2026) was actually passed 2026-07-15, 14-1, after being reduced from a 1-year to a 3-month pause in the Utilities Committee."
+        }
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.clevelandohio.gov/news/cleveland-city-council-approves-temporary-pause-new-standalone-data-centers",
+          "title": "Cleveland City Council Approves Temporary Pause on New Standalone Data Centers",
+          "publisher": "City of Cleveland",
+          "document_date": "2026-07-15",
+          "source_type": "other",
+          "supports": "Confirms passage of a three-month moratorium on new standalone data center projects, effective through October 16, 2026, extendable up to three additional months; excludes existing/colocated/edge/enterprise facilities.",
+          "quote": "Duration: Three-month pause effective through October 16, 2026, with possible extension for up to three additional months."
+        },
+        {
+          "url": "https://www.clevelandcitycouncil.gov/council-meeting-highlights-7-15-2026",
+          "title": "Council Meeting Highlights 7-15-2026",
+          "publisher": "Cleveland City Council",
+          "document_date": "2026-07-15",
+          "source_type": "legislature",
+          "supports": "Ordinance 556-2026 passed by a vote of 14-1 on July 15, 2026, declaring a three-month data center moratorium.",
+          "quote": "Council approved, by a vote of 14 to 1, an ordinance declaring a three-month moratorium on data centers in the City of Cleveland, while a Data Center working group develops recommendations."
+        },
+        {
+          "url": "https://www.news5cleveland.com/news/local-news/cleveland-city-council-advances-three-month-pause-on-new-standalone-data-center-projects",
+          "title": "Cleveland City Council advances three-month pause on new, standalone data center projects",
+          "publisher": "News 5 Cleveland (WEWS)",
+          "source_type": "news",
+          "supports": "Identifies Charles Slife as the original sponsor of the one-year proposal, later reduced to three months by the Utilities Committee chaired by Brian Kazy, headed for a full Council vote July 15.",
+          "quote": "Charles Slife (Councilman) - proposed the original legislation calling for a yearlong pause. Brian Kazy (Councilman) - leads the utilities committee that advanced the measure."
+        }
+      ],
+      "notes": "This is the strongest-evidenced change in the packet: two official City of Cleveland sources plus independent news coverage all agree on the ordinance number, vote count, and dates."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Ohio",
+      "jurisdiction": "Defiance",
+      "jurisdiction_type": "City",
+      "date_enacted": "Proposed; not yet enacted as of 2026-07-31. A special council session on 2026-07-28 was adjourned early due to venue overcrowding; a rescheduled public meeting was planned for 2026-08-05.",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed 12-month moratorium on review/approval of data center development applications",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "legal_basis": "Proposed ordinance(s) under consideration by Defiance City Council: (1) a 12-month moratorium on review/approval of data center development applications, and (2) a zoning text amendment classifying data centers, data center campuses, and data warehousing as conditional uses under M-1/M-2/M-3 districts (and power-generating facilities as conditional under M-3). Not yet adopted.",
+      "trigger": "City officials began researching data center zoning gaps in February 2026; no pending data center applications were reported, but a nearby property proposed for annexation (west of the Menards store) drew organized resident opposition.",
+      "trigger_categories": [
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Pending. A special council session on data center zoning and the proposed moratorium was quickly adjourned on 2026-07-28 due to venue overcrowding and accessibility complaints; a larger-venue public meeting was rescheduled for 2026-08-05.",
+      "enacted_status": "pending",
+      "affected_projects": "No pending data center applications reported; resident opposition led by Rebecca Rupp centers on a property proposed for annexation west of the Menards store.",
+      "outcome": "Undetermined; contingent on the outcome of the rescheduled August 5, 2026 public meeting, which had not yet occurred as of the 2026-07-31 research date.",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.crescent-news.com/news/local_news/defiance-council-quickly-postpones-meeting-on-data-center-matters/article_e4dec65e-9f65-45c0-8e03-2201516d5f92.html",
+          "title": "Defiance council quickly postpones meeting on data center matters",
+          "publisher": "Crescent-News",
+          "document_date": "2026-07-29",
+          "source_type": "news",
+          "supports": "Defiance City Council is considering both a zoning text amendment (conditional-use classification for data centers under M-1/M-2/M-3) and a proposed 12-month moratorium on data center development applications; a July 28, 2026 special session was adjourned early and a public meeting rescheduled for August 5, 2026.",
+          "quote": "Council will consider a 12-month moratorium on the review and approval of any application for a data center development within city boundaries."
+        }
+      ],
+      "notes": "Not found in the existing inventory (checked data/moratorium_inventory.csv for 'Defiance' and found no match). Included because it postdates the 2026-04-28 coverage cutoff and is a live, sourced proposal, but nothing has been enacted as of 2026-07-31 -- do not treat as an active moratorium."
+    }
+  ]
+}

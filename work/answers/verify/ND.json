@@ -1,0 +1,207 @@
+{
+  "state_abbrev": "ND",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "nd-dunn-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "legal_basis": {
+          "from": "County Commission motion; the March 18, 2026 commission agenda explicitly listed \"Moratorium Data Centers, Solar Energy and Battery Facilities\" as a 10:15 a.m. agenda item alongside the second reading of the Flood Plain Ordinance; KFYR reported the unanimous 12-month motion. No formal resolution number is captured in available materials [VERIFY: Dunn County Commission minutes index not accessible on county website as of 2026-04-29]",
+          "to": "County Commission motion (no numbered resolution issued). Per the signed official March 18, 2026 minutes: \"Planning and Zoning Board would like to put a 12-month moratorium on data centers, solar energy and battery facilities. This would help the board to get the ordinances updated. Motion by Commissioner Pelton, seconded by Commissioner Kleemann to accept the moratorium as presented up to one year.\" All members present (Heiser, Olson, Pelton, Dolezal, Kleemann) voted aye. Preceded by a March 10, 2026 Planning & Zoning Board recommendation to the Commission on the same terms.",
+          "reason": "Located and read the county's own signed minutes (both the March 10, 2026 P&Z recommendation and the March 18, 2026 signed Commission minutes), confirming the motion text, movant/seconder, and that -- consistent with the prior record's caveat -- no numbered resolution was issued for this action."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: Dunn County Commission minutes index not accessible on county website as of 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Retrieved the signed official March 18, 2026 Dunn County Board of County Commissioners minutes directly from dunncountynd.gov, plus the preceding March 10, 2026 Planning & Zoning Board minutes recommending the same action. Both are primary sources and confirm the moratorium was adopted by motion (not a numbered resolution) -- consistent with, and now sourced to, the prior record's caveat that no resolution number exists."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://dunncountynd.gov/vertical/sites/%7B565AA8FB-A7E9-4453-8706-895E3925615D%7D/uploads/3_March_18_2026_Official_Minutes_(Signed).pdf",
+          "title": "Official Proceedings, Dunn County Board of County Commissioners, March 18, 2026",
+          "publisher": "Dunn County, North Dakota (signed by Tracey Dolezal, Madam Chair; attested by Sally Whittingham, Auditor)",
+          "document_date": "2026-03-18",
+          "source_type": "minutes",
+          "supports": "Confirms the exact motion, movant/seconder, and unanimous vote adopting the 12-month moratorium on data centers, solar energy, and battery facilities.",
+          "quote": "Planning and Zoning Board would like to put a 12-month moratorium on data centers, solar energy and battery facilities. This would help the board to get the ordinances updated. Motion by Commissioner Pelton, seconded by Commissioner Kleemann to accept the moratorium as presented up to one year. All voted aye, motion carried."
+        },
+        {
+          "url": "https://dunncountynd.gov/vertical/sites/%7B565AA8FB-A7E9-4453-8706-895E3925615D%7D/uploads/03-10-2026_Minutes.pdf",
+          "title": "Dunn County Planning & Zoning Minutes, March 10, 2026",
+          "publisher": "Dunn County, North Dakota (Sandy Rohde, Planning & Zoning Administrator)",
+          "document_date": "2026-03-10",
+          "source_type": "minutes",
+          "supports": "Confirms the Planning & Zoning Board's recommendation to the County Commission, preceding the March 18, 2026 adoption.",
+          "quote": "Discussion was held on Solar Energy, Battery Storage Facilities and Data Centers as Dunn County currently does not have these uses in the Land Development Code. Motion by Allen Heiser to recommend to the Board of County Commission to put a 12-month Moratorium on Solar Energy, Battery Storage Facilities and Data Centers to work on the Ordinance for the uses, Chris Jeske seconded the motion, motion carried with all members voting aye."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nd-oliver-county-2024-p1",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "verify_resolutions": [
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: county minutes do not name a project]",
+          "resolution": "confirmed",
+          "note": "Read the full text of Resolution 2024-05 directly from Oliver County's official website. It addresses only the general 'potential for Oliver County to be identified as a preferred location' for data centers/crypto mining, and the preceding November 21, 2024 Planning & Zoning recommendation likewise names no applicant or project."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://olivercountynd.org/index.asp?SEC=D256975C-FAE3-4E9C-8F18-8D8CBF337279",
+          "title": "Oliver County Planning & Zoning recommendation on Resolution 2024-05, November 21, 2024",
+          "publisher": "Oliver County, North Dakota",
+          "document_date": "2024-11-21",
+          "source_type": "resolution",
+          "supports": "Full text of Resolution 2024-05 (as recommended/adopted), confirming no specific project or applicant is named anywhere in the resolution's findings.",
+          "quote": "WHEREAS, the Board of Commissioners of Oliver County, ND has taken notice of the potential for Oliver County to be identified as a preferred location for the development of data centers and cryptocurrency mining facilities in the future ... WHEREAS, data centers and cryptocurrency mining facilities are a nascent land use in Oliver County, and best practices have not yet been established regarding siting, application protocols, and performance standards for said land use"
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nd-oliver-county-2025-p2",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.5,
+      "verify_resolutions": [
+        {
+          "field": "outcome",
+          "marker": "[VERIFY: between-phase Commission minutes from June 2025-January 2026 not yet pulled]",
+          "resolution": "still_unverifiable",
+          "note": "Attempted to pull Oliver County Commission minutes for the June 2025-January 2026 gap. Found (via DuckDuckGo search) references to a September 11, 2025 meeting ('Adoption of wind-energy and battery-energy-storage' ordinances) and an October 7, 2025 meeting ('second reading and adoption of a zoning enforcement ordinance'), which if accurate would mean the county was regulating adjacent uses (wind, BESS, general zoning enforcement) during this window but neither is a data-center-specific ordinance -- consistent with, not contradicting, the existing outcome text. However, the citizenportal.ai pages hosting these summaries (source/7246512 and source/7246511) returned HTTP 403 on direct fetch and could not be verified as primary sources; a KXNET article possibly covering the same period also returned 403. ndpublicnotices.com PDFs for July 16, 2025 and November 13, 2025 meetings could not be fetched due to a TLS certificate mismatch on that host. No primary source for the June 2025-January 2026 gap period could be obtained in this pass. Next pass should try Oliver County's own civicweb/ARCA minutes portal (olivercountynd.org/minutes) directly rather than through search snippets."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://olivercountynd.org/index.asp?SEC=0B02160B-6DEF-492E-A8AE-C0F130AF8790",
+          "title": "Oliver County Planning & Zoning Commission, Resolution 2025-02 recommendation, April 15, 2025",
+          "publisher": "Oliver County, North Dakota",
+          "document_date": "2025-04-15",
+          "source_type": "resolution",
+          "supports": "Confirms the Planning & Zoning Commission's own moratorium recommendation (Resolution 2025-02) that preceded the County Commission's May 6, 2025 adoption of Resolution 2025-03 (Phase 2), establishing that the P&Z-to-Commission pipeline for this moratorium is a real, traceable process, though it does not itself cover the June 2025-January 2026 gap the marker asks about.",
+          "quote": "the purpose of the moratorium is to allow the County adequate time to conduct research, and develop and adopt standards"
+        }
+      ],
+      "notes": "No change to the record; the marker remains unresolved for lack of an accessible primary source covering the gap period specifically."
+    },
+    {
+      "moratorium_id": "nd-oliver-county-2026-p3",
+      "outcome": "status_changed",
+      "new_enacted_status": "rescinded",
+      "confidence": 0.9,
+      "changes": {
+        "legal_basis": {
+          "from": "County Commission moratorium action after the February 26, 2026 Planning and Zoning public hearing (notice published in Center Republican Feb. 19, 2026); the February 10, 2026 Commission motion approved placing the public hearing for \"a recommended 90 days with final approval to take place at the March County Commission meeting\"; KFYR reported the March 13, 2026 Commission meeting unanimously approved a 180-day pause [VERIFY 2026 resolution number from Oliver County clerk]",
+          "to": "Resolution 2026-02, adopted at the March 13, 2026 Commission meeting: a 180-day moratorium on data center and cryptocurrency mining facilities, with the option to extend; moved by Commissioner Dave Berger, seconded by Commissioner Lee Husfloen, all in favor. The Planning & Zoning Board had recommended a 36-month term at second reading, but the Commission set 180 days instead, directing the State's Attorney (with help from other counties' State's Attorneys) to draft the permanent ordinance.",
+          "reason": "Located and read the county's own official webpage giving the full resolution number, exact term, and motion/vote detail."
+        },
+        "enacted_status": {
+          "from": "active",
+          "to": "rescinded",
+          "reason": "The 180-day moratorium was repealed early, at a special Commission meeting on 2026-04-30 -- less than 7 weeks after adoption -- per the county's own posted minutes."
+        },
+        "current_status": {
+          "from": "Active",
+          "to": "Rescinded as of 2026-04-30. At a special meeting that evening, the Commission voted 3-0 (Husfloen, Dahl, Schmidt) to lift the moratorium, reportedly after receiving a zoning-amendment application for a data center; two draft ordinances were presented at a Planning & Zoning meeting earlier the same evening but were not acted on and remain pending.",
+          "reason": "Directly confirmed via Oliver County's own posted minutes for the April 30, 2026 special meeting."
+        },
+        "computed_expiry": {
+          "from": "2026-09-09",
+          "to": "2026-04-30",
+          "reason": "The moratorium's actual end was its rescission on 2026-04-30, not its original 180-day term end of 2026-09-09."
+        },
+        "days_past_expiry": {
+          "from": "null",
+          "to": "92",
+          "reason": "Days between the 2026-04-30 rescission and the 2026-07-31 research date."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY 2026 resolution number from Oliver County clerk]",
+          "resolution": "confirmed",
+          "note": "Confirmed Resolution 2026-02 and full adoption detail directly from Oliver County's official website."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://olivercountynd.org/index.asp?SEC=227AD67B-A719-4DFE-8789-8464C7889A48",
+          "title": "Oliver County Commission, March 13, 2026 meeting - Resolution 2026-02",
+          "publisher": "Oliver County, North Dakota",
+          "document_date": "2026-03-13",
+          "source_type": "resolution",
+          "supports": "Confirms Resolution 2026-02's number, 180-day term, and the motion/vote adopting it.",
+          "quote": "approve a moratorium for 180 days from the date of approval, with the option to extend if needed and to have the Oliver County State's Attorney with the help of other State's Attorneys to draft the ordinance, accept public input and suggestions and proceed with the public hearing and readings upon completion. ... Dave Berger moved, Lee Husfloen seconded. All in favor, none opposed; motion carried."
+        },
+        {
+          "url": "https://olivercountynd.org/?SEC=A112429C-2BAA-47E2-905B-53541A91C504",
+          "title": "Oliver County Commission special meeting, April 30, 2026",
+          "publisher": "Oliver County, North Dakota",
+          "document_date": "2026-04-30",
+          "source_type": "minutes",
+          "supports": "Confirms the moratorium was repealed by a 3-0 roll call vote at a special meeting on April 30, 2026.",
+          "quote": "Lee Husfloen moved and Bradley Dahl seconded the motion to lift the Data Center and Cryptocurrency Mining Facilities moratorium. A roll call vote was held; Lee Husfloen-Aye, Bradley Dahl-Aye, Robert Schmidt-Aye. The moratorium was lifted."
+        },
+        {
+          "url": "https://www.kfyrtv.com/2026/05/01/oliver-county-commissioners-repeal-moratorium-data-centers/",
+          "title": "Oliver County Commissioners repeal moratorium on data centers",
+          "publisher": "KFYR-TV",
+          "document_date": "2026-05-01",
+          "source_type": "news",
+          "supports": "Corroborates the repeal and adds that the county received a zoning-amendment application for a data center immediately following the vote.",
+          "quote": "Oliver County State's Attorney Patrick Waters said the county received an application for a zoning amendment to allow a data center following last night's vote"
+        }
+      ],
+      "notes": "This is a significant, previously uncaptured status change: Oliver County's Phase 3 moratorium (Resolution 2026-02, 2026-03-13) was rescinded 2026-04-30, well before its original 180-day term would have ended (2026-09-09) and well before this state's 2026-04-28 coverage cutoff was reached. Recommend flagging Oliver County for a data-center zoning-amendment-application follow-up, since one was reportedly filed the same night the moratorium was lifted."
+    },
+    {
+      "moratorium_id": "nd-williams-county-2023",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.6,
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY 2023 motion/resolution number from Williams County clerk's archived June 20, 2023 and November 7, 2023 minutes — not on current public page as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Confirmed via a contemporaneous news source (KFGO, June 20, 2023) that the moratorium was adopted as a commission vote ('The commission also voted to place a six-month moratorium on any new crypto datacenters at the Tuesday morning meeting') at the same June 20, 2023 meeting where the commission voted to cut power to the Atlas Power Phase II facility -- but no motion or resolution number is given in that article. Attempted Williams County's own civicweb portal (williamsnd.civicweb.net/Portal/MeetingInformation.aspx?Org=Cal&id=1741 and the historical minutes archive at /filepro/documents/8537) but it is organized as bulk year-folders (e.g. a '2023' folder of 818.7 MB) with no individually addressable June 20 or November 7, 2023 document reachable via fetch. DuckDuckGo search for the civicweb portal plus either date plus 'moratorium' returned no results. The specific motion/resolution number remains unconfirmed."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: not disclosed in Williams County's published zoning amendments page]",
+          "resolution": "confirmed",
+          "note": "Contemporaneous news coverage (KFGO and Construction Dive, both June 20, 2023) directly ties the moratorium's adoption to construction problems at Atlas Power's ~$1.9 billion, Phase II crypto-mining data center near Williston -- the same project the commission voted to cut power to at the identical meeting. This is news-sourced rather than from the county's own zoning-amendments page (which the marker correctly notes does not disclose it), so confidence is lower than a primary-source confirmation."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://kfgo.com/2023/06/20/williams-co-commission-votes-to-cut-power-to-crypto-data-center-project/",
+          "title": "Williams Co. Commission votes to cut power to crypto data center project",
+          "publisher": "KFGO",
+          "document_date": "2023-06-20",
+          "source_type": "news",
+          "supports": "Confirms the moratorium's adoption date and six-month term, and ties it explicitly to the Atlas Power Phase II project's construction troubles, at the same meeting the commission voted to cut the project's power.",
+          "quote": "The commission also voted to place a six-month moratorium on any new crypto datacenters at the Tuesday morning meeting, in order to give their planning and zoning department time to update ordinances in light of the troubles that have arisen with the Atlas project."
+        },
+        {
+          "url": "https://www.constructiondive.com/news/north-dakota-county-cuts-power-19-billion-data-center-project-fx-solutions-atlas-power/653772/",
+          "title": "North Dakota county cuts power on $1.9B data center project",
+          "publisher": "Construction Dive",
+          "source_type": "news",
+          "supports": "Corroborates the scale and identity of the Atlas Power / FX Solutions project (~$1.9 billion) referenced as the moratorium's trigger.",
+          "quote": "A $1.9 billion data center project in Williams County, North Dakota, hit a construction roadblock when the county commission unanimously voted Tuesday to cut the power."
+        }
+      ],
+      "notes": "No change to the record's status (still 'replaced' by the 2024 zoning ordinance amendments). The resolution/motion number for the original 2023 action remains unconfirmed; next pass should request the June 20, 2023 and November 7, 2023 minutes directly from the Williams County Auditor's office, since the civicweb portal only exposes bulk year-folders via fetch."
+    }
+  ],
+  "new_candidates": []
+}

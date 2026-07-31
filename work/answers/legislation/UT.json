@@ -1,0 +1,200 @@
+{
+  "state_abbrev": "UT",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "Utah's 2026 General Session convened Tuesday, January 20, 2026 (the third Tuesday of January, per Utah Const. art. VI, sec. 2, which fixes a 45-day annual general session) and adjourned sine die on Friday, March 6, 2026. This is confirmed directly from le.utah.gov bill-action timestamps rather than assumed: HB0076's first House reading is logged 2026-01-20, and the three bills that did not pass (SB0231, SB0282, SB0318) were each formally struck (enacting clause removed) and 'Senate/ filed' as not-passed at 2026-03-06 23:59:55-23:59:59; HB0507's conference-committee resolution and final chamber sign-offs ran until 2026-03-06 20:49 (Senate) and 2026-03-07 00:16 (House, i.e. just after the midnight close of the 45th day). Utah bills do not carry over from one annual session to the next -- each general session (tracked internally by the Legislature as a distinct sessionID, e.g. '2026GS', '2025GS', '2020GS') is a discrete vehicle for bills, and a bill not passed and signed by sine die is dead for that year and must be reintroduced under a new bill number in a later session; this is illustrated directly by the packet itself, where the same general subject areas (data centers, large-load electric service) recur across separately numbered 2020, 2025, and 2026 bills.",
+  "decisions": [
+    {
+      "bill_key": "UT:HB0076 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed House 2026-01-29 (72-0-3, as substituted); Senate committee substituted/favorably recommended 2026-03-03; failed initial Senate floor vote 2026-03-05 (13-15-1), then reconsidered and passed Senate 2nd & 3rd readings 2026-03-05 (19-5-5) with a further Senate amendment; House concurred with the Senate amendment 2026-03-05 (62-2-11); enrolled 2026-03-11; Governor signed 2026-03-23",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-03-23",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://le.utah.gov/data/2026GS/HB0076.json",
+          "title": "Utah Legislature bill-status data feed for H.B. 76 (2026 General Session)",
+          "source_type": "legislature_bill_page",
+          "supports": "Full actionHistoryList confirms House passage 72-0-3 on 2026-01-29, an initial Senate floor failure (13-15-1) on 2026-03-05 followed by reconsideration and passage 19-5-5, House concurrence 62-2-11 same day, and lastAction 'Governor Signed' dated 3/23/2026.",
+          "quote": "\"lastAction\":\"Governor Signed\",\"lastActionDate\":\"3/23/2026\""
+        }
+      ],
+      "notes": "Packet's disposition (Enacted, signed 2026-03-23) is confirmed exactly. New detail found: the bill actually FAILED its first Senate floor vote 13-15-1 on 2026-03-05 before a motion to reconsider revived it and it passed 19-5-5 the same day -- a dramatic near-death not captured in the packet's summary, but it does not change the final enacted outcome."
+    },
+    {
+      "bill_key": "UT:HB0507 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed House 2026-02-25 (69-1-5, as substituted); passed Senate with amendments 2026-03-05 (22-2-5); House refused to concur with Senate amendments 2026-03-05; House and Senate conference committees appointed 2026-03-06, conference committee substitute reported 6-0-0; Senate adopted the conference report and gave final passage 27-1-1, House gave final passage 57-1-17, both 2026-03-06; enrolled 2026-03-12; Governor signed 2026-03-25",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-03-25",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://le.utah.gov/data/2026GS/HB0507.json",
+          "title": "Utah Legislature bill-status data feed for H.B. 507 (2026 General Session)",
+          "source_type": "legislature_bill_page",
+          "supports": "Full actionHistoryList shows the House-Senate amendment standoff on 2026-03-05/06 resolved via a joint conference committee (report adopted 6-0-0; Senate final passage 27-1-1; House final passage 57-1-17) on the last day of session, followed by enrollment and lastAction 'Governor Signed' dated 3/25/2026.",
+          "quote": "\"lastAction\":\"Governor Signed\",\"lastActionDate\":\"3/25/2026\""
+        }
+      ],
+      "notes": "Packet's disposition (Enacted, signed 2026-03-25) is confirmed. This bill was resolved via conference committee at the literal close of the 45-day session (final chamber sign-offs at 2026-03-06 20:49 and 2026-03-07 00:16), which the packet's summary did not capture but does not change the final enacted outcome."
+    },
+    {
+      "bill_key": "UT:SB0114 (2020)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Enacted; Governor signed 2020-03-31 (14:50 UTC per legislative record); the qualifying-data-center sales and use tax exemption it created remains codified and in force as Utah Code 59-12-104(84) as of the code version effective 2026-07-01, with no repeal found",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2020-03-31",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://le.utah.gov/data/2020GS/SB0114.json",
+          "title": "Utah Legislature bill-status data feed for S.B. 114 (2020 General Session)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms lastaction 'Governor Signed' at 2020-03-31T14:50:48Z and the bill's provisions modifying the qualifying-data-center sales and use tax exemption under 59-12-104.",
+          "quote": "\"lastaction\":\"Governor Signed\",\"lastactiontime\":\"2020-03-31T14:50:48.000Z\""
+        },
+        {
+          "url": "https://le.utah.gov/xcode/Title59/Chapter12/C59-12-S104_2026050620260701.html",
+          "title": "Utah Code 59-12-104 (current version, effective 7/1/2026)",
+          "source_type": "bill_text",
+          "supports": "Shows subsection (84) still exempting amounts paid or charged for machinery, equipment, or repair/replacement parts purchased by a qualifying data center or its occupant, confirming the 2020 exemption has not been repealed and remains current law, with further versions listed effective 1/1/2027 and 1/1/2028.",
+          "quote": "amounts paid or charged for a purchase or lease made by a qualifying data center or an occupant of a qualifying data center of machinery, equipment, or normal operating repair or replacement parts"
+        }
+      ],
+      "notes": "Old bill; explicitly re-verified that the underlying exemption is still live law, not just that the bill was once signed."
+    },
+    {
+      "bill_key": "UT:SB0132 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed Senate 2025-02-14 (22-1-6) and again as amended 2025-03-03 (28-1-0); passed House as substituted 2025-03-07 (71-0-4); Senate concurred with the House amendment 2025-03-07 (27-0-2); enrolled 2025-03-12; Governor signed 2025-03-25 (19:37); effective 2025-05-07",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2025-03-25",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://le.utah.gov/data/2025GS/SB0132.json",
+          "title": "Utah Legislature bill-status data feed for S.B. 132 (2025 General Session)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms lastAction 'Governor Signed' dated 3/25/2025, and the affected Utah Code section UID (C63G-6a-S107.6_2025050720250507) encodes an effective date of 2025-05-07, matching the packet.",
+          "quote": "\"lastAction\":\"Governor Signed\",\"lastActionDate\":\"3/25/2025\""
+        }
+      ],
+      "notes": "Packet's disposition (Enacted, signed 2025-03-25, effective 2025-05-07) is fully confirmed by the Legislature's own record, including the effective date embedded in the affected-section identifier."
+    },
+    {
+      "bill_key": "UT:SB0231 (2026)",
+      "outcome": "corrected",
+      "fields": {
+        "status": "Passed Senate 2026-03-03 (27-0-2, as substituted); received by House and placed on the House 3rd Reading Calendar; circled on 2026-03-06, sent back to House Rules Committee, and killed via 'strike enacting clause'; Senate filed the bill as not passed at 2026-03-06 23:59:59, the close of the 45-day session; it never received a House floor vote",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-03-06",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://le.utah.gov/data/2026GS/SB0231.json",
+          "title": "Utah Legislature bill-status data feed for S.B. 231 (2026 General Session)",
+          "source_type": "legislature_bill_page",
+          "supports": "actionHistoryList shows the bill actually passed the full Senate 27-0-2 on 2026-03-03, reached the House 3rd Reading Calendar on 2026-03-06, was then circled, sent to House Rules, had its enacting clause struck, and was filed by the Senate as not passed at 2026-03-06 23:59:59.",
+          "quote": "\"description\":\"House/ strike enacting clause\" ... \"description\":\"Senate/ filed\",\"owner\":\"Senate file for bills not passed\",\"actionDate\":\"2026-03-06 23:59:59.000\""
+        }
+      ],
+      "notes": "Marked 'corrected' rather than 'confirmed_unchanged' because the packet's generic 'Failed; Senate filed 2026-03-06' undersold how far this bill actually got: it passed the Senate on a full floor vote (27-0-2) and reached the House's 3rd Reading Calendar before being killed procedurally (enacting clause struck) without ever receiving a House floor vote. Final disposition is death by session-end/procedural kill, not a recorded floor defeat in either chamber."
+    },
+    {
+      "bill_key": "UT:SB0282 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced in Senate 2026-02-11; assigned to Senate Transportation, Public Utilities, Energy, and Technology Committee, which voted 2-3-3 against a favorable recommendation on 2026-02-18; committee later returned the bill to Rules on 2026-03-04 without further action; enacting clause struck and Senate filed the bill as not passed at 2026-03-06 23:59:59; never received a vote of the full Senate or House",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-03-06",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://le.utah.gov/data/2026GS/SB0282.json",
+          "title": "Utah Legislature bill-status data feed for S.B. 282 (2026 General Session)",
+          "source_type": "legislature_bill_page",
+          "supports": "actionHistoryList shows a committee 'Motion to Recommend Failed' vote of 2-3-3 on 2026-02-18, followed by the committee returning the bill to Rules on 2026-03-04, then enacting-clause strike and 'Senate/ filed' at 2026-03-06 23:59:59, with no floor votes recorded in either chamber.",
+          "quote": "\"description\":\"Senate Comm - Motion to Recommend Failed\",\"actionDate\":\"2026-02-18 16:40:51.000\",\"voteStr\":\"2-3-3\""
+        }
+      ],
+      "notes": "This one matches the packet's 'Failed; Senate filed' framing well: it died in committee (failed its recommendation vote 2-3-3) and never reached the Senate floor, let alone the House. Precise categorization: failed_died, killed in committee/Rules, no chamber ever voted on it."
+    },
+    {
+      "bill_key": "UT:SB0318 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced in Senate 2026-02-23; remained assigned only to the Senate Rules Committee (never referred to a substantive standing committee, given a hearing, or scheduled for a floor vote); enacting clause struck and Senate filed the bill as not passed at 2026-03-06 23:59:59",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-03-06",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://le.utah.gov/data/2026GS/SB0318.json",
+          "title": "Utah Legislature bill-status data feed for S.B. 318 (2026 General Session)",
+          "source_type": "legislature_bill_page",
+          "supports": "actionHistoryList shows only introduction (2026-02-23) and receipt of a fiscal note (2026-02-24) with the Senate Rules Committee as owner throughout; no 'to standing committee' referral, no committee vote, no floor action of any kind before the enacting clause was struck and the bill was filed at 2026-03-06 23:59:59.",
+          "quote": "\"description\":\"Senate/ filed\",\"owner\":\"Senate file for bills not passed\",\"actionDate\":\"2026-03-06 23:59:59.000\""
+        }
+      ],
+      "notes": "Of the three 2026 Senate bills, this one advanced the least: it never even left the Rules Committee for a substantive committee assignment. Matches the packet's 'Failed; Senate filed' framing; precise categorization is failed_died via session-end procedural kill with no hearing or vote at any stage."
+    }
+  ],
+  "new_bills": [
+    {
+      "state": "Utah",
+      "bill": "HB0585 (2026)",
+      "sponsors": "Rep. Rosalba Dominguez",
+      "party": "D",
+      "status": "Introduced in House 2026-02-18; referred to a House standing committee 2026-02-23, which sent it to Rules on 2026-03-05 without a recorded committee vote; enacting clause struck and House filed the bill as not passed at 2026-03-06 23:59:59",
+      "bill_status_category": "failed_died",
+      "last_action_date_iso": "2026-03-06",
+      "chamber_of_origin": "House",
+      "key_provisions": "Data Center Amendments. Would have required large data centers to report energy use information to electrical corporations, which would in turn report to the Public Service Commission, which would report to the Legislature; included enforcement mechanisms. Not previously in the tracked packet.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://le.utah.gov/bills/billSearch.jsp?sess=2026GS&sub=00929&disp=all",
+          "title": "Utah Legislature 2026 General Session bill search results, subject: Energy",
+          "source_type": "legislature_bill_page",
+          "supports": "Lists H.B. 585 'Data Center Amendments,' sponsored by Rosalba Dominguez, status 'House/ filed', confirming this bill exists and was not enacted.",
+          "quote": "<a href='/Session/2026/bills/static/HB0585.html' target='_blank'>HB0585</a></td><td>Data Center Amendments</td><td>Dominguez, Rosalba</td><td></td><td>House/ filed</td>"
+        },
+        {
+          "url": "https://le.utah.gov/data/2026GS/HB0585.json",
+          "title": "Utah Legislature bill-status data feed for H.B. 585 (2026 General Session)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill's provisions (large data center energy-use reporting to electrical corporations, PSC, and the Legislature) and its full action history ending in an enacting-clause strike and 'House/ filed' at 2026-03-06 23:59:59.",
+          "quote": "\"generalProvisions\":\"This bill requires large data centers to report energy use information.\""
+        },
+        {
+          "url": "https://le.utah.gov/asp/roster/roster.asp?house=H",
+          "title": "Utah House of Representatives roster (95th Legislature)",
+          "source_type": "other",
+          "supports": "Confirms Rep. Rosalba Dominguez (district 35) is a Democrat.",
+          "quote": "Dominguez, Rosalba</a></td><td>Representative</td><td>Democrat</td><td>35"
+        }
+      ],
+      "notes": "Directly on-topic for this tracker (data center energy-use reporting/ratepayer transparency) but was not in the UT.json packet. Died at the close of the 2026 General Session without any committee vote beyond being routed to Rules."
+    }
+  ]
+}

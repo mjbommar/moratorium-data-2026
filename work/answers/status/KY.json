@@ -1,0 +1,170 @@
+{
+  "state_abbrev": "KY",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ky-la-grange-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "expired",
+      "confidence": 0.55,
+      "changes": {
+        "current_status": {
+          "from": "Extended by Ordinance 17-2025 per City of La Grange ordinance index. Final extension term and current expiration not confirmed in captured records [VERIFY: signed Ordinance 17-2025 text and current expiration/replacement date not retrieved as of 2026-04-29].",
+          "to": "Ordinance 17-2025 extended the moratorium by 150 days, approved unanimously at the City Council's meeting reported November 10, 2025 (the prior moratorium had expired October 30, 2025 per the ordinance). That places the extension's own computed term at roughly early-to-mid April 2026. The City of La Grange's official ordinance index (lagrangeky.gov/ordinances, checked 2026-07-31 and current through ordinances dated late June 2026) lists 2026 ordinances 01, 02, 05, 07, and 09 through 13 -- covering code-enforcement duties, a zoning map amendment, sign regulations, an annexation, and FY2026-27 budgets -- with no ordinance addressing data centers, a further moratorium extension, or permanent data-center zoning regulations. No City Council action on data centers has been identified since Ordinance 17-2025.",
+          "reason": "Direct check of the city's own current ordinance index shows no data-center item among all 2026 ordinances captured on the page, and the November 2025 news coverage establishes the extension's own term already expired months before this pass without further action."
+        },
+        "outcome": {
+          "from": "City ordinance list confirms a moratorium extension, but final signed text was not captured",
+          "to": "The 150-day extension (Ordinance 17-2025) has run its course (computed term ending roughly April 2026) with no further extension or permanent replacement ordinance appearing in the city's own current ordinance index through late June 2026, indicating the moratorium has lapsed on its own terms.",
+          "reason": "See current_status change."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: signed Ordinance 17-2025 text and current expiration/replacement date not retrieved as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "The signed PDF of Ordinance 17-2025 itself could not be retrieved this pass (the city's CDN host, irp.cdn-website.com, returned an S3 'AccessDenied' error to every automated retrieval attempt, while an adjacent file -- Ordinance 10-2025 -- downloaded successfully from the same host, suggesting an access-control quirk specific to that one object rather than a systemic block). However, the November 10, 2025 Oldham Era article establishes the extension's 150-day term and starting point, and the city's own current ordinance index (through late June 2026) confirms no further legislative action has been taken, which resolves the practical status question even though the literal signed document remains unretrieved."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.lagrangeky.gov/ordinances",
+          "title": "Ordinances & Resolutions",
+          "publisher": "City of La Grange, Kentucky",
+          "document_date": "2026-07-31",
+          "source_type": "other",
+          "supports": "Official current ordinance index listing Ordinance 10-2025 (150-day moratorium) and Ordinance 17-2025 ('An Ordinance Extending Moratorium'), and showing all 2026 ordinances (01, 02, 05, 07, 09-13-2026, the latest file-dated 2026-06-26) with none addressing data centers.",
+          "quote": "ORDINANCE 17-2025- ... An Ordinance Extending Moratorium"
+        },
+        {
+          "url": "https://www.pmg-ky1.com/oldham_era/news/council-extends-data-center-moratorium-by-150-days/article_8db48ba2-3728-5ffd-918a-39cdda93a9a7.html",
+          "title": "Council extends data center moratorium by 150 days",
+          "publisher": "Oldham Era",
+          "document_date": "2025-11-10",
+          "source_type": "news",
+          "supports": "Confirms the City Council unanimously approved a 150-day extension after the initial moratorium (approved in June 2025) expired October 30, 2025; the Planning and Development Director stated the earliest the city could act on permanent regulations was its February 2026 meeting, at which point the 150-day extension would still be in place.",
+          "quote": "The La Grange City Council unanimously approved an 150-day extension on their data center moratorium, effectively continuing the pause on all data center development within the city limits due to a stall in the enactment of data center regulations. The city's initial moratorium -- approved in June and expired as of Oct. 30, according to the ordinance -- was intended to allow time for regulations on data centers to be drafted and enacted."
+        }
+      ],
+      "notes": "La Grange and Oldham County appear to share a single Planning & Zoning Commission process feeding recommendations to both the city council and the fiscal court (see the companion ky-oldham-county-fiscal-court-2025 decision in this pass). That joint process only reached a second reading of permanent zoning text amendments (KOC 26-920-5) on 2026-07-21 at the county level -- months after La Grange's own 150-day extension would have run out. This suggests a genuine several-month regulatory gap in La Grange specifically, though it is also possible the city took some informal or unrecorded step to keep the pause in place that this pass could not locate. Recommend a follow-up pass to obtain the signed Ordinance 17-2025 text (try requesting it from the city clerk directly, since the CDN link is blocked to automated tools) and to check whether La Grange intends to adopt whatever text amendment Oldham County finalizes."
+    },
+    {
+      "moratorium_id": "ky-oldham-county-fiscal-court-2025",
+      "outcome": "corrected",
+      "confidence": 0.6,
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-03-26 reporting",
+          "to": "Still in effect as of 2026-07-31. The Oldham County Planning & Zoning Commission voted unanimously on 2026-06-23 to forward revised zoning text amendments to the Fiscal Court. The Fiscal Court held a first reading of the resulting ordinance (KOC 26-920-5, 'zoning text amendments of the comprehensive zoning ordinance') at a special meeting on 2026-06-29, per the Court's own posted agenda. A closed session on pending/proposed litigation was held 2026-07-14 (subject not specified on the public agenda). A second reading of KOC 26-920-5 was calendared for the Fiscal Court's 2026-07-21 meeting per the Court's own posted agenda. As of this research date, no signed minutes confirming the outcome of that July 21 second reading had been posted publicly, so whether KOC 26-920-5 has been finally adopted -- which would likely supersede the moratorium -- remains unconfirmed.",
+          "reason": "Direct review of the Fiscal Court's own posted meeting agendas (a primary source) shows the underlying permanent-ordinance process advancing to second reading 10 days before this research date, considerably more current than the March 2026 news reporting the prior pass relied on."
+        },
+        "outcome": {
+          "from": "Proposed permanent regulations were remanded for more work in January 2026; the moratorium remained in effect during revisions",
+          "to": "After the January 2026 remand, the Planning & Zoning Commission's revised regulations reached the Fiscal Court as KOC 26-920-5, with first reading 2026-06-29 and second reading calendared 2026-07-21. Passage of second reading was not confirmed in public records as of 2026-07-31; the moratorium (KOC 25-910-508, extended by KOC 25-910-520 'until data center regulations are approved') remains the best-supported operative instrument pending that confirmation.",
+          "reason": "See current_status change."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: signed ordinance copy with vote tally not retrieved as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Found two conflicting secondary dates: the prior pass's 2025-06-26 figure (sourced to an Oldham Era public notice scheduling a reading) versus Louisville Public Media (LPM) reporting that the Fiscal Court passed the moratorium on Tuesday, July 2, 2025 by a 4-2 vote. These likely reflect a scheduled hearing date versus the actual final-passage date, but the signed ordinance (KOC 25-910-508) itself was not retrieved this pass (oldhamcountyky.gov's ordinance records were not locatable via the public site), so the exact enactment date and vote tally remain unresolved."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.wkyt.com/2026/03/26/leaders-rework-proposed-zoning-regulations-fight-over-data-centers-continues-oldham-co/",
+          "title": "Leaders rework proposed zoning regulations as fight over data centers continues in Oldham Co.",
+          "publisher": "WKYT",
+          "document_date": "2026-03-26",
+          "source_type": "news",
+          "supports": "Confirms the moratorium remained in effect as of late March 2026 while the Planning & Zoning Commission reworked the regulations the Fiscal Court had rejected in January.",
+          "quote": "While the regulations get hammered out, there is a moratorium on data center development still in effect."
+        },
+        {
+          "url": "https://www.pmg-ky1.com/oldham_era/news/p-z-sends-revised-data-center-regulations-to-fiscal-court/article_9f7dc88d-b0bd-5af9-8b1d-2777c748ee73.html",
+          "title": "P&Z sends revised data center regulations to fiscal court",
+          "publisher": "Oldham Era",
+          "document_date": "2026-06-29",
+          "source_type": "news",
+          "supports": "Confirms the Planning & Zoning Commission voted unanimously on 2026-06-23 to forward revised data center regulations to the Fiscal Court, with the article anticipating (incorrectly, per the Court's own subsequent agenda) that a first reading would not occur until August.",
+          "quote": "the court would not conduct a first reading on the regulations until August"
+        },
+        {
+          "url": "https://irp.cdn-website.com/fd0fc3bd/files/uploaded/Agenda+DRAFT+062926.pdf",
+          "title": "Oldham County Fiscal Court Special Meeting Agenda, June 29, 2026",
+          "publisher": "Oldham County Fiscal Court",
+          "document_date": "2026-06-29",
+          "source_type": "agenda",
+          "supports": "Official special-meeting agenda confirming the data-center zoning text amendment (KOC 26-920-5) reached first reading on June 29, 2026 -- sooner than the Oldham Era article anticipated.",
+          "quote": "1ST READING KOC 26-920-5 RELATED TO ZONING TEXT AMENDMENTS OF THE COMPREHENSIVE ZONING ORDINANCE"
+        },
+        {
+          "url": "https://irp.cdn-website.com/fd0fc3bd/files/uploaded/Agenda+071426-7f967445.pdf",
+          "title": "Oldham County Fiscal Court Special Meeting Agenda, July 14, 2026",
+          "publisher": "Oldham County Fiscal Court",
+          "document_date": "2026-07-14",
+          "source_type": "agenda",
+          "supports": "Confirms a special Fiscal Court meeting was held July 14, 2026 consisting solely of a closed session on proposed/pending litigation; no data-center zoning item appears on this particular agenda.",
+          "quote": "CLOSED SESSION: PURSUANT TO KRS.61.810 (C) DISCUSSIONS OF PROPOSED OR PENDING LITIGATION AGAINST OR ON BEHALF OF THE PUBLIC AGENCY, INCLUDING CONSULTATION WITH THE COUNTY ATTORNEY REGARDING CIRCUMSTANCES THAT MAY GIVE RISE TO LITIGATION"
+        },
+        {
+          "url": "https://irp.cdn-website.com/fd0fc3bd/files/uploaded/Agenda+DRAFT+072126.pdf",
+          "title": "Oldham County Fiscal Court Meeting Agenda, July 21, 2026",
+          "publisher": "Oldham County Fiscal Court",
+          "document_date": "2026-07-21",
+          "source_type": "agenda",
+          "supports": "Confirms the second reading of KOC 26-920-5 (data center zoning text amendments) was scheduled for the Fiscal Court's July 21, 2026 meeting, 10 days before this research pass; the outcome was not yet reflected in any posted signed minutes as of 2026-07-31.",
+          "quote": "2nd READING KOC 26-920-5 RELATED TO ZONING TEXT AMENDMENTS OF THE COMPREHENSIVE ZONING ORDINANCE"
+        },
+        {
+          "url": "https://www.lpm.org/news/2025-07-02/oldham-county-passes-sweeping-data-center-moratorium-executive-fired-over-recording",
+          "title": "Oldham County passes sweeping data center moratorium, executive fired over recording",
+          "publisher": "Louisville Public Media (LPM)",
+          "document_date": "2025-07-02",
+          "source_type": "news",
+          "supports": "Reports the Fiscal Court passed the original data center moratorium on Tuesday, July 2, 2025 by a 4-2 vote -- a specific date and vote tally that conflicts with the packet's 2025-06-26 placeholder date sourced from a public notice.",
+          "quote": "pauses any application to build a data center in the county for 150 days"
+        }
+      ],
+      "notes": "The 'extended' classification remains the best-supported status as of 2026-07-31: the Fiscal Court's own posted agendas show the permanent zoning-text-amendment process (KOC 26-920-5) reaching only first reading (2026-06-29) and second reading (calendared 2026-07-21), with no signed minutes yet posted confirming passage. This is a fast-moving situation close to resolution -- if KOC 26-920-5 passed on second reading, the moratorium would likely become 'replaced' within days of this research date. The July 14, 2026 closed session on 'proposed or pending litigation' is also worth flagging for a follow-up pass, since data-center land-use ordinances have drawn litigation elsewhere in Kentucky (e.g., a developer's suit against Simpson County's ordinance). Recommend checking the Fiscal Court's August 2026 agenda/signed minutes for confirmation of KOC 26-920-5's fate."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Kentucky",
+      "jurisdiction": "Mercer County Fiscal Court",
+      "jurisdiction_type": "County",
+      "date_enacted": "First reading only, approved 2026-07-28; not yet finally adopted as of this research date",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "12 months upon passage, or until the Fiscal Court adopts permanent data center regulations, whichever occurs first",
+      "duration_days": 365,
+      "duration_kind": "until_event",
+      "legal_basis": "Proposed Fiscal Court ordinance (first reading approved 2026-07-28; ordinance number not captured)",
+      "trigger": "Concern over data center siting ahead of permanent regulations from the Joint Planning and Zoning Commission",
+      "trigger_categories": ["regulatory_gap", "specific_project"],
+      "sectors": ["data_center", "cryptocurrency_mining"],
+      "current_status": "Pending as of 2026-07-31: Fiscal Court approved first reading on 2026-07-28; a second reading/final vote had not yet occurred as of this research date. Would not apply to any data center application already complete and accepted for filing.",
+      "enacted_status": "pending",
+      "affected_projects": "Not specified; existing complete applications are expressly exempted",
+      "outcome": "Pending second reading and final Fiscal Court vote",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://thewatchdognews.com/mercer-co-continues-considering-data-center-ordinance-fiscal-court-approves-moratorium-first-reading/",
+          "title": "Mercer Co. continues considering data center ordinance, Fiscal Court approves moratorium first reading",
+          "publisher": "The Watchdog",
+          "document_date": "2026-07-29",
+          "source_type": "news",
+          "supports": "Confirms Mercer County Fiscal Court approved first reading of a proposed 12-month data center moratorium on 2026-07-28, to remain in effect until permanent regulations are adopted, whichever occurs first; does not apply to already-complete applications.",
+          "quote": "does not apply to any application for a data center that was complete and accepted for filing by the applicable reviewing authority"
+        }
+      ],
+      "notes": "This is a brand-new, not-yet-final instrument discovered incidentally while researching the Oldham County item; it was only at first reading as of the article's publication two days before this research pass. Recommend confirming second-reading outcome in a subsequent pass."
+    }
+  ]
+}

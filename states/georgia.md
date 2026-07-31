@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Georgia as of April 2026.
 
-**24 instruments** — 14 in force, 0 pending, 10 past. Activity level: **High**.
+**47 instruments** — 36 in force, 0 pending, 11 past. Activity level: **High**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

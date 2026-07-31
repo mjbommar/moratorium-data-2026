@@ -1,5 +1,268 @@
 # Changelog
 
+## v2026.07 — 2026-07-31 (currency refresh)
+
+The April release was a snapshot as of **2026-04-28**. Three months of local
+government activity had accumulated behind it: moratoria that expired on paper
+but were quietly extended, proposals that were adopted or voted down, and a wave
+of new adoptions the inventory never saw. This release brings the dataset to
+2026-07-31 and adds the tooling to keep it there.
+
+### Headline numbers
+
+| | v2026.04.4 | v2026.07 |
+|---|---|---|
+| Moratorium instruments | 222 | **416** |
+| Currently in force (active + extended) | 148 | **327** |
+| Pending / proposed | 24 | **26** |
+| Past (replaced + expired + rescinded) | 50 | **63** |
+| Rows carrying `[VERIFY]` markers | 123 | **140** |
+| `[VERIFY]` markers outstanding | 238 | **139** |
+| Geocoded | 220 / 222 | **321 / 323** |
+| State bills tracked | 413 | **438** |
+| States with at least one instrument | 30 | **35** |
+
+Michigan overtakes Ohio as the most active state: **Michigan 63** (was 34),
+**Ohio 53** (was 35), Georgia 47, Iowa 30, North Carolina 24, Indiana 20, Washington 15, Florida 14, Colorado 13, Illinois 12.
+
+**Florida went from 1 row to 14** once its three-month sweep was converted —
+the single clearest illustration of how much a state's count depends on whether
+anyone has looked.
+
+**Five states enter the dataset for the first time**: Florida, Nevada, New
+Mexico, South Carolina, and Texas (see the cross-dataset reconciliation below).
+
+### What changed in the data
+
+**194 new instruments**, led by MI 29, GA 23, IA 18, OH 18, FL 14, CO 10, with the remainder spread across further states.
+
+**Status resolution across 74 flagged rows.** Every row whose recorded term had
+provably run out, plus every pending row older than 60 days, was re-researched
+against primary sources. Notable outcomes:
+
+- **DeKalb County, GA** voted its permanent data-center ordinance *down* on
+  2026-06-23 and instead extended the moratorium to **2027-03-30**.
+- **Seattle** adopted an emergency moratorium (Ordinance 127447) on 2026-06-09.
+- **Prince George's County, MD** re-upped its pause for two more years via
+  CR-066-2026 rather than letting it lapse into permanent regulation.
+- **Larimer County, CO** was extended a second time on 2026-07-13, six months
+  past the date previously recorded.
+- **Griffin, GA**, **Polk County, GA**, **St. Charles Parish, LA**, **Brevard,
+  NC**, and **Montour County, PA** converted their moratoria into permanent
+  ordinances (`replaced`).
+- **La Grange, KY** and **Waterville, OH** lapsed with nothing adopted
+  (`expired`); **Shutesbury, MA**'s expected permanent bylaw never reached a
+  town-meeting vote.
+- **Lowell Township, MI** *rejected* a proposed moratorium 2-5 — recorded
+  distinctly from an ordinary lapse.
+
+**Corrections that change the substantive record.** Morris, CT is a **12-month**
+moratorium, not the two-year term reported in press coverage (the adopted text
+governs). Lewiston, NY runs **18 months**, resolvable only by reading the
+enacted local law. The Seminole Nation's moratorium is deliberately
+**indefinite** rather than carrying an undisclosed fixed term.
+
+**Sector-companion instruments separated.** Shelby County, IA adopted four
+resolutions on 2026-03-17 covering data centers (2026-16), solar (2026-14),
+battery storage (2026-15), and wind (2026-17). The inventory's grain is the
+*instrument*, so these are now four rows. See the deduplication note in
+`docs/codebook.md`.
+
+### State legislation tracker
+
+Every 2026 regular session has since adjourned or recessed. 438 of 425 bills now
+carry a researched final disposition, including **84 enacted**. Three new typed
+columns make the tracker filterable for the first time:
+
+- `bill_status_category` — closed vocabulary (`enacted`, `failed_died`,
+  `carried_over`, `in_committee`, …)
+- `last_action_date_iso`
+- `chamber_of_origin`
+
+The `carried_over` vs `failed_died` distinction is session-structure dependent,
+not calendar dependent, and was determined per state. Notable enactments: New
+Jersey **A796/S731** (P.L.2026 c.32, signed 2026-07-07), Oklahoma **HB 2992**
+(Data Center Customer Protection Act, 2026-05-11) and **SB 259** (2026-05-20),
+Virginia HB153/HB496/SB94/SB553, South Dakota HB 1038 and SB 135, and Maryland's
+Utility RELIEF Act (Ch. 353).
+
+### Coverage caveat — read this before citing the May-July window
+
+The three-month gap is closed by a month-by-month sweep for **15 states**:
+Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware,
+Florida, Georgia, Hawaii, Idaho, Indiana, Michigan, and Ohio. The sweep for the
+remaining 35 states was still running when this release was cut. Their new instruments in
+this window entered the dataset opportunistically, as researchers encountered
+them while resolving flagged rows — which is not the same as systematic coverage.
+**Counts for May-July 2026 in the other 35 states are lower bounds and should not
+be read as complete.** See `docs/known-gaps.md`.
+
+Worth separating from that caveat: four of the swept states — Alaska, Delaware,
+Hawaii, and Idaho — returned **zero** local adoptions across all three months,
+and Arizona returned none at the local level. Those are positive findings rather
+than gaps. From the row counts alone, a swept-and-empty state is indistinguishable
+from an unswept one, which is why the swept list is stated explicitly.
+
+For scale on what systematic coverage is worth: **Florida held 1 row before its
+sweep was converted and 14 after. Georgia went from 26 to 47.** Neither state
+changed in the world; only our looking did. Applying that pattern to the 35
+unswept states implies the true national figure is materially higher than 395.
+
+### What was deliberately NOT refreshed
+
+The 44-clause taxonomy extraction was **not** re-run. Its cohort — 348 documents
+across 211 jurisdictions — was collected before 2026-04-28, so the three tables
+derived from it (`definitional-approaches`, `findings-impact`,
+`sector-specific-clauses`) now describe roughly half the inventory rather than
+all of it.
+
+This was a judgment call rather than an oversight. The 50-state document sweep
+was still running when the release was cut, and running the extraction against a
+partial corpus would have produced a cohort mixing two collection snapshots —
+harder to reason about than a clean one taken after the sweep finishes. Of the
+200 instruments added this cycle, roughly 91 have a primary source that could
+yield an extractable document; the other 109 are news-only and would contribute
+nothing to clause-level coding either way.
+
+The inventory-derived tables were regenerated and are current. The mismatch is
+flagged in `README.md`, `docs/codebook.md`, and `docs/known-gaps.md` so the
+clause percentages are not read as characterizing the present inventory.
+
+Also noted while checking this: `tables/clause-prevalence.tex` has no generator
+in this repository and cannot be rebuilt from the shipped data. It is carried
+forward from an earlier release and should either gain a generator or be dropped.
+
+### Cross-dataset reconciliation
+
+A sibling research project maintains its own state-level rollup of data-center
+moratoria, built to different inclusion criteria.
+`scripts/reconcile_sibling_tracker.py` compares it against this inventory and
+found the two **disagree in 31 of 34 shared states, in both directions**. The
+sibling rollup names **44 jurisdictions across 23 states** that this inventory
+has no row for, including seven states where we record none at all (Florida,
+Nevada, New Mexico, Rhode Island, South Carolina, Texas, Utah).
+
+We deliberately did **not** merge those counts. Two datasets built to different
+definitions should not be reconciled by overwriting one with the other, and the
+sibling file also carries research columns this project does not own. Instead
+each lead was verified individually and admitted only on confirmation.
+
+**Outcome of that verification: 33 of the 44 leads (75%) were real.**
+Five states entered the dataset as a result — Florida (Nassau County, confirmed
+from the county's own Ordinance 2026-044), Nevada (Nye County, Reno), New Mexico
+(Socorro County), South Carolina (Newberry County), and Texas (Harlingen, plus
+Hill County, adopted 2026-05-12 and then rescinded 2026-06-04 after a $100M
+developer lawsuit).
+
+The false positives are as instructive as the hits, and they characterize what a
+secondary rollup gets wrong:
+
+- **Advocacy mistaken for adoption.** Iron County, UT had no moratorium; the
+  underlying item was a congressional candidate's event *calling for* one.
+- **Jurisdiction confusion.** "Wichita" was Sedgwick County's moratorium, already
+  in the inventory; "Chesterfield County, SC" was really Chesterfield County, VA.
+- **Proposals counted as votes.** Baldwin Park, CA and Miami County, KS had
+  discussion but no adopted instrument.
+- **Adopted-then-invalidated.** Logan County, IL did vote a moratorium in May
+  2026, but the State's Attorney ruled in June that it was never legally adopted
+  (the required zoning-board hearings were skipped) and directed staff to accept
+  applications. Not an operative instrument, so excluded.
+- **Structural undercount.** "Durham, NC" was a single tracker entry, but Durham
+  city and Durham county are distinct governments that each adopted their own
+  moratorium. Any one-row-per-name rollup undercounts wherever a city and its
+  namesake county both act.
+
+The lesson generalizes: treat a secondary rollup as a lead generator, never as a
+source. The disagreement also puts a floor under how incomplete single-source
+coverage of this topic is, which is now recorded in `docs/known-gaps.md` so users
+read the state list as a lower bound rather than an enumeration.
+
+### Upstream synchronization
+
+The private working repository's copy of the inventory had drifted to a 108-row,
+15-column ancestor while the published file moved to 323 rows and 25 columns —
+so any figure regenerated there was silently using year-old data.
+`scripts/sync_upstream.py` now pushes the canonical file back to it and states
+the direction of flow explicitly: research flows *out* of the working repository,
+but the cleaned, typed, geocoded, validated inventory lives here and only here.
+
+### Data-quality fixes
+
+- **LaTeX escaping leaked into three fields.** `App\_Pages` (twice) broke a
+  source URL and `\$11 million` misrendered. Now unescaped; the CSVs are data,
+  so a backslash is never meaningful in them.
+- **`Utility authority` → `Utility-authority`** — one row used an unhyphenated
+  spelling outside the closed vocabulary.
+- **11 New Jersey legislation rows** carried a full qualifying sentence in the
+  closed-vocab `activity_level` column. They now read `None`; the qualifier
+  already lives in `summary_stats.json` under `state_details`, which
+  `docs/codebook.md` documents as its home.
+- **A misplaced coordinate.** Automated geocoding resolved Lyon Township, MI to
+  the Roscommon County township rather than the Oakland County one, putting a
+  Detroit-area hyperscale moratorium 130 miles north. The row is now
+  `Lyon Charter Township (Oakland County)` with corrected coordinates. Three
+  further jurisdictions that no geocoder could resolve are handled by declared
+  overrides with stated reasoning (`scripts/apply_geo_overrides.py`).
+- **`duration_days` / `duration_kind` reconciled.** The codebook permits exactly
+  one valid combination — `duration_days` is populated if and only if
+  `duration_kind` is `fixed_days`. Six rows violated this and are fixed.
+- **Weakly-evidenced new rows are flagged, not laundered.** A new instrument
+  admitted on news-only evidence now receives an explicit `[VERIFY ...]` marker
+  naming what is missing, so it surfaces in the next refresh rather than reading
+  as established fact. Roughly a fifth of the new rows carry such a marker.
+- The previously-unreleased `has_verify_tags` / `verify_count` recount described
+  below is included in this release.
+
+### New tooling
+
+The repository could not previously rebuild its own published artifacts. That is
+fixed, and the pipeline is now gated.
+
+- `scripts/validate_dataset.py` — executable form of the codebook. Checks closed
+  vocabularies, date/duration consistency, ID uniqueness and format, geocoding
+  bounds, `[VERIFY]` accounting, and agreement between the CSVs and
+  `summary_stats.json`. Exits nonzero on error.
+- `scripts/build_summary_stats.py` and `scripts/build_geojson.py` — **these
+  artifacts had no generator at all**, which is precisely why they drifted.
+- `scripts/build_worklist.py`, `make_packets.py`, `make_legislation_packets.py` —
+  turn the inventory into a prioritized, state-partitioned research worklist.
+- `scripts/apply_research.py`, `apply_legislation.py` — the only scripts that
+  write research findings into the CSVs. They require explicit answer-file
+  paths, validate against a JSON Schema, refuse any change whose `from` value no
+  longer matches the CSV, and write an audit log of every field change to
+  `work/audit/`.
+- `scripts/normalize_vocab.py`, `reconcile_durations.py`, `apply_geo_overrides.py`
+  — idempotent normalizers that report every cell they touch and refuse to
+  coerce values they have no declared mapping for.
+- `scripts/fetch_basemap.py` — fetches the Census state shapefile the maps need.
+
+**Fixed: the documented rebuild commands did not work.** `scripts/generate_tables`
+and `scripts/moratorium_maps` were copied from the private working repository
+without repathing and still pointed at `research/analysis/…`, `latex/tables/`,
+and `latex/figures/` — paths that do not exist here. Anyone following
+`scripts/README.md` got a `FileNotFoundError` on the first command. All paths now
+resolve, figures are written to `figures/{pdf,svg,png}/`, and PNG output is
+generated natively rather than by an undocumented external conversion step.
+Regenerating also revealed that the committed `tables/*.tex` were stale relative
+to the committed CSV; they are now rebuilt from it.
+
+### Reproducing this release
+
+```bash
+pip install pandas matplotlib seaborn geopandas shapely markdown pymdown-extensions
+python3 scripts/validate_dataset.py --today 2026-07-31   # gate
+python3 scripts/fetch_basemap.py                         # one-time
+python3 scripts/build_summary_stats.py
+python3 scripts/build_geojson.py
+python3 -m scripts.generate_tables
+PYTHONPATH=scripts python3 -m moratorium_maps all
+python3 scripts/make_timeline.py
+python3 scripts/update_state_counts.py
+python3 scripts/build_site.py
+```
+
+---
+
 ## Unreleased
 
 ### Bug fix: stale `has_verify_tags` / `verify_count` columns recounted

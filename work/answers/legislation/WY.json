@@ -1,0 +1,197 @@
+{
+  "state_abbrev": "WY",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "Wyoleg.gov itself labels the 2026 session the '2026 Budget Session' (even-year budget session); bill-status pages for non-budget bills show the session's high introduction bar in action: SF0076 failed introduction 17-13-1-0-0 on 2026-02-10, SF0091 failed introduction 10-21-0-0-0 on 2026-02-11, and HB0155 was not brought up for introduction at all by 2026-02-13, with introduction attempts across the chamber concluding by mid-February 2026.",
+  "decisions": [
+    {
+      "bill_key": "WY:HB0064 (2013)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Enacted as 2013 Wyoming Session Laws Chapter 29 (CH0029); adopted 2013-02-14, effective 2013-07-01, chapter number assigned 2013-02-15",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2013-02-15",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.wyoleg.gov/Legislation/2013/HB0064",
+          "title": "Wyoming Legislature - 2013 HB0064 bill status page",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms enactment; the bill's own Status tab lists Session Laws Chapter Number CH0029, Adopted 2/14/2013, Effective 7/1/2013, with Last Action 'Assigned Chapter Number' on 2/15/2013.",
+          "quote": "Session Laws Chapter Number: CH0029 Adopted: 2/14/2013 Effective: 7/1/2013"
+        }
+      ],
+      "notes": "Independently re-verified this round (was previously flagged [VERIFY] in the packet as not separately confirmed). The wyoleg.gov Status tab is rendered client-side and hidden by CSS on initial load, so it was retrieved by rendering the page with a headless browser rather than a plain HTTP fetch; content matches packet exactly, resolving the prior verification gap."
+    },
+    {
+      "bill_key": "WY:HB0067 (2010)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Enacted as 2010 Wyoming Session Laws Chapter 50 (CH0050); adopted and effective 2010-03-05, chapter number assigned 2010-03-08",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2010-03-08",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.wyoleg.gov/Legislation/2010/HB0067",
+          "title": "Wyoming Legislature - 2010 HB0067 bill status page",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms enactment; the bill's own Status tab lists Session Laws Chapter Number CH0050, Adopted 3/5/2010, Effective 3/5/2010, with Last Action 'Assigned Chapter Number - 50' on 3/8/2010.",
+          "quote": "Session Laws Chapter Number: CH0050 Adopted: 3/5/2010 Effective: 3/5/2010"
+        }
+      ],
+      "notes": "Independently re-verified this round (was previously flagged [VERIFY] in the packet). wyoleg.gov's session archive extends back to 2010; chapter cite matches packet exactly."
+    },
+    {
+      "bill_key": "WY:HB0088 (2021)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died in House Revenue Committee (Do Pass failed 3-6-0-0-0 on 2021-03-01); returned under HR 5-4 on 2021-04-07",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2021-04-07",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://www.wyoleg.gov/Legislation/2021/HB0088",
+          "title": "Wyoming Legislature - 2021 HB0088 bill status page",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill died in the House Revenue Committee and was returned under House Rule 5-4 on 2021-04-07, matching the packet's prior capture.",
+          "quote": "Last Action: H:Died in Committee Returned Bill Pursuant to HR 5-4 / Last Action Date: 04/07/2021"
+        }
+      ],
+      "notes": "Confirmed unchanged; final disposition since 2021, no further action possible."
+    },
+    {
+      "bill_key": "WY:HB0117 (2011)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Enacted as 2011 Wyoming Session Laws Chapter 48 (CH0048); adopted and effective 2011-02-18",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2011-02-18",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.wyoleg.gov/Legislation/2011/HB0117",
+          "title": "Wyoming Legislature - 2011 HB0117 bill status page",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms enactment; the bill's own Status tab lists Session Laws Chapter Number CH0048, Adopted 2/18/2011, Effective 2/18/2011.",
+          "quote": "Session Laws Chapter Number: CH0048 Adopted: 2/18/2011 Effective: 2/18/2011"
+        }
+      ],
+      "notes": "Independently re-verified this round (was previously flagged [VERIFY] in the packet). Chapter cite matches packet exactly."
+    },
+    {
+      "bill_key": "WY:HB0155 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "House did not consider for introduction, 2026-02-13 (final disposition for the 2026 budget session)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-13",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.wyoleg.gov/Legislation/2026/HB0155",
+          "title": "Wyoming Legislature - 2026 HB0155 bill status page",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill was never brought up for introduction and this is its final action for the 2026 budget session.",
+          "quote": "Last Action: H Did not Consider for Introduction / Last Action Date: 02/13/2026"
+        }
+      ],
+      "notes": "Full action history on the bill page: Bill Number Assigned 2026-02-10, H Received for Introduction 2026-02-11, H Did not Consider for Introduction 2026-02-13. No subsequent action; the 2026 budget session has since adjourned, so this is final."
+    },
+    {
+      "bill_key": "WY:HB0325 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "House did not consider for introduction, 2025-02-03",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-02-03",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://www.wyoleg.gov/Legislation/2025/HB0325",
+          "title": "Wyoming Legislature - 2025 HB0325 bill status page",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill was never brought up for introduction in the 2025 general session and this is its final recorded action.",
+          "quote": "Last Action: H Did not Consider for Introduction / Last Action Date: 02/03/2025"
+        }
+      ],
+      "notes": "Also confirms sponsor list including Representative Brown, L (packet's guess of 'likely Rep. Landon Brown' as first-name disambiguation for the cosponsor)."
+    },
+    {
+      "bill_key": "WY:SF0076 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Failed introduction in Senate, 17-13-1-0-0, 2026-02-10 (final disposition for the 2026 budget session)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-10",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.wyoleg.gov/Legislation/2026/SF0076",
+          "title": "Wyoming Legislature - 2026 SF0076 bill status page",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill failed the Senate floor vote required to introduce it and this is the final action for the 2026 budget session.",
+          "quote": "Last Action: S Failed Introduction 17-13-1-0-0 / Last Action Date: 02/10/2026"
+        }
+      ],
+      "notes": "Also cross-checked against the full 2026 Senate bill list (wyoleg.gov Session/2026/SessionLanding), which shows the same caption 'Distribution of taxes on large electrical loads' and the identical vote tally for SF0076."
+    },
+    {
+      "bill_key": "WY:SF0091 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Failed introduction in Senate, 10-21-0-0-0, 2026-02-11 (final disposition for the 2026 budget session)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-11",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.wyoleg.gov/Legislation/2026/SF0091",
+          "title": "Wyoming Legislature - 2026 SF0091 bill status page",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill failed the Senate floor vote required to introduce it and this is the final action for the 2026 budget session.",
+          "quote": "Last Action: S Failed Introduction 10-21-0-0-0 / Last Action Date: 02/11/2026"
+        }
+      ],
+      "notes": "Also cross-checked against the full 2026 Senate bill list (wyoleg.gov Session/2026/SessionLanding), which shows the same caption 'Wyoming energy project accountability act' and the identical vote tally for SF0091."
+    },
+    {
+      "bill_key": "WY:SF0193 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died in Senate Corporations Committee (no report prior to Committee of the Whole cutoff, 2025-02-10); returned under SR 5-4 on 2025-03-03",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-03-03",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://www.wyoleg.gov/Legislation/2025/SF0193",
+          "title": "Wyoming Legislature - 2025 SF0193 bill status page",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill died in the Senate Corporations Committee and was returned under Senate Rule 5-4 on 2025-03-03, matching the packet's prior capture.",
+          "quote": "Last Action: S:Died in Committee Returned Bill Pursuant to SR 5-4 / Last Action Date: 03/03/2025"
+        }
+      ],
+      "notes": "Confirmed unchanged; final disposition for the 2025 general session, no further action possible."
+    }
+  ]
+}

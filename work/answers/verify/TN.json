@@ -1,0 +1,152 @@
+{
+  "state_abbrev": "TN",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "tn-bristol-2025",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "changes": {
+        "date_enacted": {
+          "from": "2025-10-24 effective date (confirmed by Bristol Planning Commission staff memo dated 2026-03-19, which states \"Ordinance 25-20 imposed a moratorium on data centers, effective October 24, 2025\"; final Council vote date not separately captured because Bristol's online Agenda Center archive does not display fall-2025 City Council agendas as of 2026-04-29) [VERIFY final Council adoption date from signed ordinance]",
+          "to": "Second and final reading of Ordinance 25-20 was adopted by the Bristol City Council on October 7, 2025, per the Council's own meeting agenda; first reading passed unanimously September 9, 2025. The ordinance's effective date, per the Planning Commission staff memo dated 2026-03-19, is October 24, 2025 (17 days after adoption, consistent with standard publication timing).",
+          "reason": "Personally fetched the Bristol City Council October 7, 2025 meeting agenda, which lists Ordinance 25-20 under 'C. Adoption of Ordinances (Second Reading).' This is exactly 17 days before the ordinance's cited October 24, 2025 effective date. First reading is independently corroborated by Supertalk 929 news coverage of the September 9, 2025 meeting."
+        },
+        "current_status": {
+          "from": "Active as of 2026-03-23 planning packet",
+          "to": "Active as of 2026-07-31. Bristol City Council meeting agendas from January through July 2026 (including June 2, July 7, and July 28) contain no item amending or replacing Ordinance 25-20, so the two-year moratorium (through 2027-10-24) remains the operative regulation despite ongoing Planning Commission work toward a successor ordinance.",
+          "reason": "Reviewed Bristol City Council regular and special-called meeting agendas from January through July 2026; none references an amendment to, or replacement of, Ordinance 25-20."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY final Council adoption date from signed ordinance]",
+          "resolution": "corrected",
+          "note": "Bristol City Council's October 7, 2025 meeting agenda (personally fetched and read) lists Ordinance 25-20 under 'Adoption of Ordinances (Second Reading),' establishing the final Council adoption date. This is 17 days before the ordinance's cited October 24, 2025 effective date, which is internally consistent with standard publication timing. First reading (unanimous) is independently confirmed by Supertalk 929 news coverage of the September 9, 2025 meeting."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY exact exemptions from signed Ordinance 25-20 PDF, not currently posted to bristoltn.gov agenda center or document center search]",
+          "resolution": "still_unverifiable",
+          "note": "The signed Ordinance 25-20 PDF itself could not be located via bristoltn.gov's Agenda Center or Document Center search; a BoardDocs attachment link returned 403/522 errors on repeated attempts; library.municode.com/tn/bristol also returns 403 Forbidden. No news source (WJHL, Supertalk 929, HVBC Group) lists specific carve-outs or exemptions for pending applications. Checked Bristol City Council meeting agendas from January through July 2026 (Jan 6, Feb 3, Mar 3, Mar 24, Apr 7, May 4, Jun 2, Jul 7, Jul 28); none references an amendment to Ordinance 25-20, so whatever exemption language the original text contains still governs as of 2026-07-31. Recommend a records request for the signed ordinance PDF."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Agenda/_10072025-1721",
+          "title": "Bristol, Tennessee City Council Meeting Agenda, October 7, 2025",
+          "publisher": "City of Bristol, Tennessee",
+          "document_date": "2025-10-07",
+          "source_type": "agenda",
+          "supports": "Lists Ordinance 25-20 (data center moratorium) under 'Adoption of Ordinances (Second Reading),' establishing the final Council adoption date.",
+          "quote": "C. Adoption of Ordinances (Second Reading) Ordinance 25-20 An Ordinance Imposing a Temporary Moratorium on the Establishment of Data Centers"
+        },
+        {
+          "url": "https://www.supertalk929.com/2025/09/10/bristol-tn-leaders-vote-for-two-year-moratorium-for-data-centers/",
+          "title": "Bristol TN Leaders Vote for Two Year Moratorium for Data Centers",
+          "publisher": "Supertalk 929",
+          "document_date": "2025-09-10",
+          "source_type": "news",
+          "supports": "Confirms the City Council's unanimous first-reading vote on September 9, 2025, and that a second reading with public comment was scheduled for October.",
+          "quote": "The Bristol, Tennessee City Council voted unanimously on a first reading to pass an ordinance placing a two-year moratorium on the establishment of data centers Tuesday evening... The City Council will hold the second reading in October with public comment."
+        }
+      ],
+      "notes": "No status change: enacted_status remains 'active', consistent with the two-year term (through 2027-10-24) still running and no successor ordinance found through 2026-07-31."
+    },
+    {
+      "moratorium_id": "tn-jonesborough-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "confidence": 0.78,
+      "changes": {
+        "date_enacted": {
+          "from": "2025-10-13 (passed on first reading per Nov 3, 2025 BMA agenda packet, which records four aldermen voting in favor on 2025-10-13). Second/final reading was scheduled for the November 3, 2025 BMA meeting per the same packet's \"Discussion and possible action concerning second and final reading\" item. The Town's online BMA archive (jonesboroughtn.org/government/bma-information/) currently lists only Jan-Apr 2026 BMA agendas, and the Nov/Dec 2025 BMA agenda PDFs return 404 at standard URL patterns; therefore the final-passage date is not confirmed from primary records as of 2026-04-29 [VERIFY signed Ordinance 2025-12 final-reading date from Town Recorder]",
+          "to": "The Board of Mayor and Aldermen adopted Ordinance No. 2025-12 on October 13, 2025, per the Jonesborough Planning Commission packet dated May 19, 2026 (Town Administrator staff report), which states the BMA \"adopted an Ordinance on October 13, 2025.\"",
+          "reason": "Primary-adjacent town staff report (Jonesborough Planning Commission packet, May 19, 2026) states the adoption date directly, rather than relying on the first-reading vote record alone."
+        },
+        "current_status": {
+          "from": "Active. The April 13, 2026 BMA Town Administrator Monthly Report describes work on a successor \"Data Center and Cryptocurrency ordinance\" being routed to Planning Commission on April 21, 2026 with BMA second reading anticipated for May 2026 -- confirming that the moratorium remains in force while the regulatory framework is being drafted [VERIFY signed Ordinance 2025-12 from Town Recorder]",
+          "to": "Replaced. The Board of Mayor and Aldermen adopted an ordinance amending Municipal Code Title 11, Chapter 5 (Data Processing Centers and Cryptocurrency Mining) on second and final reading at its May 11, 2026 meeting, following first reading March 16, 2026 and a Planning Commission recommendation April 21, 2026. The new ordinance establishes a permitting pathway (buffers, setbacks, noise/water/electrical-grid standards, BMA approval required per application) rather than continuing a blanket ban, effectively superseding Ordinance 2025-12 as of 2026-05-11.",
+          "reason": "Personally fetched and read the signed May 11, 2026 BMA meeting minutes: a public hearing was held that day on the Title 11, Chapter 5 ordinance, and the Town Administrator's own report states the ordinance was 'coming up on final reading at the May 11th meeting.' Vote outcome (motion to approve on second and final reading, duly passed) is corroborated by a parallel research pass quoting the same minutes."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY signed Ordinance 2025-12 final-reading date from Town Recorder]",
+          "resolution": "corrected",
+          "note": "The Jonesborough Planning Commission packet dated May 19, 2026 (Town Administrator staff report) states directly that the BMA 'adopted an Ordinance on October 13, 2025, imposing a temporary moratorium on the establishment of Data Processing Centers for a period of 2 years.' This is a town staff report quoting the official record, not the signed ordinance PDF itself, so it is treated as strong secondary/quasi-primary rather than fully primary confirmation."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY signed Ordinance 2025-12 from Town Recorder]",
+          "resolution": "corrected",
+          "note": "Personally confirmed via the signed May 11, 2026 BMA meeting minutes that an ordinance amending Title 11, Chapter 5 (Data Processing Centers and Cryptocurrency Mining) was on the agenda for a public hearing and final reading that day, and that the Town Administrator's own monthly report references the ordinance 'coming up on final reading at the May 11th meeting.' The roll-call vote itself was not personally read in full (a 59-page packet), but a parallel research pass quotes the same document's approval language, which is consistent with everything independently verified."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://jonesboroughtn.org/wp-content/uploads/5-19-26-Planning-Commission-Paceket.pdf",
+          "title": "Jonesborough Planning Commission Packet, May 19, 2026",
+          "publisher": "Town of Jonesborough, Tennessee",
+          "document_date": "2026-05-19",
+          "source_type": "staff_report",
+          "supports": "States the BMA adopted Ordinance 2025-12 on October 13, 2025, imposing a two-year moratorium on data processing centers.",
+          "quote": "The Jonesborough Board of Mayor and Aldermen (BMA) adopted an Ordinance on October 13, 2025, imposing a temporary moratorium on the establishment of 'Data Processing Centers' for a period of 2 years within Jonesborough's corporate limits."
+        },
+        {
+          "url": "https://www.jonesboroughtn.org/wp-content/uploads/5-11-2026-BMA-Minutes.pdf",
+          "title": "Board of Mayor and Aldermen Meeting Minutes, May 11, 2026",
+          "publisher": "Town of Jonesborough, Tennessee",
+          "document_date": "2026-05-11",
+          "source_type": "minutes",
+          "supports": "Personally confirmed a public hearing was held on an ordinance amending Title 11, Chapter 5 regarding Data Processing Centers and Cryptocurrency Mining, and that the Town Administrator's report references this ordinance coming up on final reading that day.",
+          "quote": "Ordinance amending the Municipal Code, Title 11, Chapter 5, Town of Jonesborough, Tennessee, regarding Data Processing Centers and Cryptocurrency Mining... Worked on adding more provisions to the Data Center Ordinance to maximize neighboring protection of noise from this type of land use... addressing them in revisions to the Ordinance coming up on final reading at the May 11th meeting."
+        }
+      ],
+      "notes": "Also found: a May 19, 2026 Jonesborough Planning Commission comment from Washington County planning staff references a separate Washington County, TN data-center moratorium 'through January 2027.' Washington County is already present in the inventory (Resolution No. 26-03-02, enacted 2026-03-23) so this is not added as a new candidate; flagging only as corroboration that the county-level item is consistent with contemporaneous town-level reporting."
+    },
+    {
+      "moratorium_id": "tn-sullivan-county-2025",
+      "outcome": "unresolvable",
+      "confidence": 0.3,
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: signed Sullivan County minutes for 2025-11-20 and 2025-12-18 not posted on sullivancountyclerktn.com archive as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "A prior research pass located a Sullivan County Commission Work Session packet (January 8, 2026) showing Resolution 2025-11-07's action history includes '12/18/25 (Regular Session) Deferred by Sponsor' -- meaning the resolution was NOT formally adopted at the December 18, 2025 meeting as the working assumption held. Its actual final-adoption date, if any, remains unconfirmed: the resolution does not reappear in the 'Old Business' sections of Sullivan County Commission minutes reviewed for January through July 2026, unlike other deferred items that are tracked through to resolution. Checked: sullivancountyclerktn.com minutes archive and sullivancountytn.gov document pages for Jan, Feb, Mar, Apr, May, Jun, and Jul 2026 Commission minutes. Recommend a direct records request to the Sullivan County Clerk to determine whether Resolution 2025-11-07 specifically was ever adopted, or whether a different, unidentified resolution actually governs the moratorium currently being described in county planning materials and news coverage."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY 2026-04-16 Sullivan County minutes when posted, and any subsequent special-called or 2026-05 commission action]",
+          "resolution": "still_unverifiable",
+          "note": "News coverage (HVBC Group, published 2026-06-12, personally fetched) reports that Sullivan County Commissioners unanimously adopted a zoning text amendment (described as a 'PMD3' Planned Manufacturing District requirement) requiring data centers to locate inside an industrial park, and separately describes the county's data-center moratorium as a 'one-year moratorium' running 'through January' (2027). This directly conflicts with the four-month term recorded in this dataset (tied to Resolution 2025-11-07) and could not be reconciled: I could not locate the underlying zoning-amendment resolution number, nor any Commission minutes item matching either the PMD3 vote or a one-year moratorium term, in the Old Business sections of Sullivan County Commission minutes reviewed for January through July 2026. Given the conflict between the reported one-year term and the dataset's four-month term, and the absence of a primary-source resolution confirming either, this marker is left unresolved. Recommend the next pass obtain the PMD-3 zoning text amendment's resolution number and adoption date directly from the Sullivan County Clerk, and separately confirm whether Resolution 2025-11-07 (or a successor) is what currently governs the moratorium."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.hvbcgroup.com/news/?p=170917",
+          "title": "Sullivan County Commissioners Approve PMD3 Zoning for Data Centers",
+          "publisher": "HVBC Group",
+          "document_date": "2026-06-12",
+          "source_type": "news",
+          "supports": "Reports a unanimous zoning-amendment vote and describes the moratorium as a one-year term running through January 2027, which conflicts with the dataset's current four-month-term record and could not be reconciled with a primary source in this pass.",
+          "quote": "Sullivan County Commissioners have unanimously approved a zoning amendment requiring data centers and energy processing facilities to be located in a Planned Manufacturing District inside an industrial park... the county's existing moratorium... through January."
+        },
+        {
+          "url": "https://sullivancountytn.gov/wp-content/uploads/Sullivan-Commission-Work-Session-January-8-2026.pdf",
+          "title": "Sullivan County Commission Work Session Packet, January 8, 2026",
+          "publisher": "Sullivan County, Tennessee",
+          "document_date": "2026-01-08",
+          "source_type": "agenda",
+          "supports": "Shows Resolution 2025-11-07's action history, including that it was 'Deferred by Sponsor' at the December 18, 2025 Regular Session rather than adopted that day, contradicting the working assumption that final adoption occurred on 2025-12-18.",
+          "quote": "ACTIONS: 12/11/25 (Work Session) To be considered as amended on 12/18/25. 12/18/25 (Regular Session) Deferred by Sponsor."
+        }
+      ],
+      "notes": "This is the least-resolved item in the TN packet. The record is genuinely unclear on (a) whether Resolution 2025-11-07 was ever adopted under that number, and (b) whether a later, differently-numbered instrument set a one-year term through January 2027. Left unchanged (enacted_status stays 'expired') pending primary confirmation; both markers remain in the field text for the next pass."
+    }
+  ]
+}

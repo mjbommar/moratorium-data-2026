@@ -1,0 +1,80 @@
+{
+  "state_abbrev": "IL",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "il-champaign-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "Ordinance No. 2026-9 / Zoning Case 196-AT-26 [VERIFY: signed ordinance not yet posted to Champaign County Board ordinance index as of 2026-04-29 — ordinance number is from the agenda packet; final signed text awaits indexing]",
+          "to": "Zoning Case 196-AT-26, a Champaign County Zoning Ordinance text amendment (new Section 5.6, amending Section 5.2) imposing a 12-month development moratorium on data centers of at least 10,000 sq ft of processing area, recommended for enactment by the Zoning Board of Appeals 4-0 on 2026-03-19, and adopted by the County Board on 2026-04-23 as Ordinance No. 2026-9.",
+          "reason": "Champaign County's own Planning & Zoning Department preliminary memorandum (2026-03-05) and the County Board's Environment and Land Use Committee agenda packet (2026-04-09 meeting, referencing a 2026-03-30 zoning-administrator recommendation memo) both confirm Case 196-AT-26's mechanism, the ZBA's 4-0 recommendation, and the Data Center Activities Task Force's first meeting (2026-03-23). The specific 'Ordinance No. 2026-9' designation is corroborated by news coverage (citizenportal.ai) of the April 23 County Board vote but was not independently re-verified against a signed, indexed ordinance document (the county clerk's ordinance/resolution index returned HTTP 403 to automated fetches)."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: signed ordinance not yet posted to Champaign County Board ordinance index as of 2026-04-29 — ordinance number is from the agenda packet; final signed text awaits indexing]",
+          "resolution": "confirmed",
+          "note": "Champaign County's own Planning & Zoning Department preliminary memorandum (co.champaign.il.us, 2026-03-05) and the Environment and Land Use Committee's April 9, 2026 agenda packet (referencing the Zoning Board of Appeals' 4-0 recommendation on 2026-03-19 and the Data Center Activities Task Force's first meeting on 2026-03-23) both independently confirm Zoning Case 196-AT-26's substance, matching the record's description of trigger, sectors, and 12-month duration exactly. The final 'Ordinance No. 2026-9' number itself is corroborated by news reporting (NPR Illinois, WAND-TV, citizenportal.ai) of the 2026-04-23 County Board vote but the county clerk's signed-ordinance index (champaigncountyclerk.com) returned HTTP 403 to automated fetch attempts, so the number was not independently re-verified against the indexed, signed ordinance itself."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.champaigncountyil.gov/CountyBoard/ZBA/2026/260319/260319_196-AT-26%20Preliminary%20Memo.pdf",
+          "title": "Case 196-AT-26 Preliminary Memorandum",
+          "publisher": "Champaign County Department of Planning & Zoning, Illinois",
+          "document_date": "2026-03-05",
+          "source_type": "staff_report",
+          "supports": "Confirms the zoning-case mechanism (new Section 5.6, amended Section 5.2), the 10,000-sq-ft-processing-area threshold, and the originally proposed 12-month moratorium term.",
+          "quote": "CASE 196-AT-26 PRELIMINARY MEMORANDUM March 5, 2026 ... Request: Amend the Champaign County Zoning Ordinance as follows regarding a temporary moratorium on DATA CENTERS with at least 10,000 square feet of processing area ... c. That the moratorium shall expire in 12 months after the effective date of the amendment."
+        },
+        {
+          "url": "https://www.champaigncountyil.gov/CountyBoard/ELUC/2026/260409_Meeting/260409AgendaFull.pdf",
+          "title": "Environment and Land Use Committee Agenda Packet, April 9, 2026",
+          "publisher": "Champaign County Board, Illinois",
+          "document_date": "2026-04-09",
+          "source_type": "agenda",
+          "supports": "Confirms the Zoning Board of Appeals recommended enactment 4-0 on 2026-03-19, confirms the 12-month moratorium language, and confirms the Data Center Activities Task Force's first meeting on 2026-03-23.",
+          "quote": "Zoning Case 196-AT-26. (pages 17 - 23) Amend the Champaign County Zoning Ordinance to impose a temporary 12-month moratorium on DATA CENTERS with at least 10,000 square feet of processing area. ... The Zoning Board of Appeals (ZBA) voted 4-0 with two members absent to 'RECOMMEND ENACTMENT' of this text amendment at its March 19, 2026 meeting. ... Center Activities Task Force. The task force held their first meeting on March 23, 2026."
+        }
+      ],
+      "notes": "The Data Center Activities Task Force's confirmed first-meeting date (2026-03-23) matches the existing record's February 2026 task-force-creation claim closely enough to be consistent (task force created in Feb, first met in March). champaigncountyclerk.com's ordinance index blocked automated access (403), so the final signed Ordinance No. 2026-9 text itself was not directly inspected -- only corroborated via county staff/committee documents plus news of the vote."
+    },
+    {
+      "moratorium_id": "il-morgan-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "County resolution drafted by Morgan County State's Attorney Gray Noll, who recommended shortening from 12 to 6 months for legal defensibility (per *Jacksonville Journal-Courier*, 2026-04-28) [VERIFY resolution number and final text — Morgan County publishes minutes on a delay; the most recent 2026 minutes posted on morgancounty-il.com as of 2026-04-29 are from the April 20 meeting, predating the April 27 vote]",
+          "to": "County Board resolution imposing a hard 6-month data center moratorium, moved by Chairman Wankel after the matter was discussed with State's Attorney Gray Noll prior to the meeting, adopted by unanimous roll-call vote (Commissioners Wood and Woods, Chairman Wankel) on April 27, 2026.",
+          "reason": "Morgan County's own April 27, 2026 board meeting minutes, now posted at morgancounty-il.com, confirm the unanimous vote and the prior consultation with Noll, though the minutes do not themselves state a formal resolution number."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY resolution number and final text — Morgan County publishes minutes on a delay; the most recent 2026 minutes posted on morgancounty-il.com as of 2026-04-29 are from the April 20 meeting, predating the April 27 vote]",
+          "resolution": "confirmed",
+          "note": "Morgan County has since posted its April 27, 2026 board meeting minutes at morgancounty-il.com. They confirm a unanimous 3-0 vote for a 'hard 6-month moratorium' and that the matter was discussed with State's Attorney Gray Noll before the meeting, corroborating the Jacksonville Journal-Courier's reporting on his recommendation. The minutes themselves do not cite a distinct resolution number (Morgan County appears to record this as a board motion/vote in the minutes rather than a separately numbered, indexed resolution document), so that narrower detail remains unconfirmed."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://morgancounty-il.com/wp/april-27-2026-meeting-minutes/",
+          "title": "Morgan County Board Meeting Minutes, April 27, 2026",
+          "publisher": "Morgan County, Illinois",
+          "document_date": "2026-04-27",
+          "source_type": "minutes",
+          "supports": "Confirms the unanimous vote for a 6-month (not 12-month) moratorium and prior consultation with State's Attorney Gray Noll.",
+          "quote": "Chr. Wankel said the Chr. would like to make a motion to approve the idea of a hard 6-month moratorium. ... this being discussed with Gray Noll our State's Attorney of Morgan County prior to the meeting. ... Commissioner Wood answered 'aye', Commissioner Woods answered 'aye' and Chr. Wankel answered 'aye'."
+        }
+      ],
+      "notes": "The minutes confirm the substance (unanimous vote, 6-month term, Noll consultation) but do not themselves assign or cite a distinct resolution number -- Morgan County's board minutes appear to serve as the operative record of the vote rather than a separately numbered instrument. A future pass could contact the County Clerk directly to ask whether a numbered resolution document exists apart from the minutes."
+    }
+  ]
+}

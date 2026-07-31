@@ -1,0 +1,211 @@
+{
+  "state_abbrev": "WA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "wa-ephrata-2018",
+      "outcome": "unresolvable",
+      "confidence": 0.3,
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: exact ordinance/resolution number for the cryptocurrency moratorium not located on Ephrata city website as of 2026-04-29; City Attorney Anna Franz characterized the action as a \"moratorium resolution\" per Spokesman-Review reporting]",
+          "resolution": "still_unverifiable",
+          "note": "Checked ephrata.org's Municipal Codes page, AgendaCenter, and Archive Center -- the Archive Center only digitizes ordinances/resolutions back to 2020, so 2018 records are not there. Site search for \"cryptocurrency\" and \"mining\" returned zero hits. codepublishing.com/WA/Ephrata (the host the city's own site directs users to for the full municipal code) returned HTTP 403 on every attempt. No specific resolution/ordinance number for the 2018 action is recoverable through the city's online portal; a records request to the Ephrata City Clerk would likely be required."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: replacement permanent ordinance not located]",
+          "resolution": "still_unverifiable",
+          "note": "Checked ephrata.org's Archive Center (ordinances/resolutions digitized 2020-present) and site search for \"cryptocurrency\"/\"mining\" -- no replacement or permanent ordinance found. codepublishing.com/WA/Ephrata was blocked (403), so the full consolidated municipal code could not be exhaustively searched."
+        },
+        {
+          "field": "outcome",
+          "marker": "[VERIFY]",
+          "resolution": "still_unverifiable",
+          "note": "Fetched Ephrata Municipal Code Chapter 19 (Zoning) directly at ephrata.org/DocumentCenter/View/382 -- no mention of \"cryptocurrency,\" \"crypto,\" \"mining,\" or \"digital currency.\" This is a partial negative only: codepublishing.com/WA/Ephrata (the full consolidated code host) returned HTTP 403 on every attempt, so other chapters (business licensing, nuisance, utilities) could not be checked."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.spokesman.com/stories/2018/oct/19/ephrata-oks-yearlong-ban-on-new-cryptocurrency-min/",
+          "title": "Ephrata OKs yearlong ban on new cryptocurrency mining operations",
+          "publisher": "The Spokesman-Review",
+          "document_date": "2018-10-19",
+          "source_type": "news",
+          "supports": "Confirms City Attorney Anna Franz characterized the 2018 action as \"the moratorium resolution\" (resolution form, not an ordinance) and describes the 6-1 council vote",
+          "quote": "the moratorium resolution includes a call for a revision of the city code to govern cryptocurrency operations"
+        },
+        {
+          "url": "https://www.ephrata.org/DocumentCenter/View/382/EMC-Chapter-19-Zoning-Code-PDF",
+          "title": "Ephrata Municipal Code, Chapter 19 (Zoning Code)",
+          "publisher": "City of Ephrata, WA",
+          "source_type": "other",
+          "supports": "Current zoning chapter contains no cryptocurrency- or mining-related provisions (partial negative check only; full code not reachable)"
+        }
+      ],
+      "notes": "All three markers remain unresolved; no `changes` are proposed. Ephrata's 2018-era ordinances/resolutions and its full consolidated municipal code are not reachable through automated fetch (Archive Center starts in 2020; codepublishing.com returns 403). A future pass should try a real browser session against codepublishing.com/WA/Ephrata, or a direct records request to the City Clerk for the 2018 resolution number."
+    },
+    {
+      "moratorium_id": "wa-waterville-2018",
+      "outcome": "unresolvable",
+      "confidence": 0.3,
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: exact passage date not confirmed; Waterville Municipal Code is hosted on eCode360 (WA4837) which is JS-rendered and did not yield the ordinance table on automated fetch as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "townofwaterville.com resolves to a different, same-named town in Pepin County, Wisconsin (confirmed by direct fetch: page reads \"Welcome to the Town of Waterville in Pepin County, Wisconsin\") -- a domain trap in the citation chain. The correct site, watervillewa.com, returned HTTP 403 on every fetch attempt. Waterville's eCode360 host appears to be ecode360.com/WA3904, not WA4837 as previously assumed (WA4837 could not be corroborated and may be a stale/incorrect client ID); ecode360.com returned 403 on every fetch, as did municode.com/wa/waterville-town-washington and codepublishing.com/WA/Waterville. MRSC's May 2018 report (fetched successfully) confirms only that Waterville \"passed emergency zoning controls or outright 6- or 12-month moratoriums on processing applications from cryptocurrency operations\" and separately that Waterville \"recently imposed moratoriums on accepting applications for mining operations\" -- no ordinance number, exact date, or duration given. \"Ordinance 792\" could not be corroborated in any source reached this pass."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY: Ordinance 792 PDF not located on Waterville town website as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Same access blockers as above (watervillewa.com, ecode360.com, municode.com, codepublishing.com all returned 403). No primary ordinance text was reachable this pass, so the duration/term of Ordinance 792 remains unconfirmed."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: replacement ordinance not located]",
+          "resolution": "still_unverifiable",
+          "note": "Could not reach any primary Waterville code host (see above) to confirm or rule out a replacement ordinance."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://mrsc.org/stay-informed/mrsc-insight/may-2018/bitcoin-comes-to-washington",
+          "title": "Bitcoin Comes to Washington",
+          "publisher": "Municipal Research and Services Center (MRSC)",
+          "document_date": "2018-05",
+          "source_type": "other",
+          "supports": "Confirms Waterville had imposed an emergency zoning moratorium on cryptocurrency-mining applications by May 2018, without giving an ordinance number or exact date",
+          "quote": "Wenatchee, Leavenworth, Entiat, Waterville, and Chelan have all passed emergency zoning controls or outright 6- or 12-month moratoriums on processing applications from cryptocurrency operations."
+        }
+      ],
+      "notes": "All three markers remain unresolved; no `changes` are proposed. A future pass needs a real browser session (or the correct eCode360 client path) to reach Waterville's actual municipal code, since watervillewa.com and every known code host returned 403 to automated fetch."
+    },
+    {
+      "moratorium_id": "wa-douglas-county-2018",
+      "outcome": "unresolvable",
+      "confidence": 0.3,
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "The adoption date (2018-04) is unverified. Confirm it against minutes or the signed instrument.",
+          "resolution": "still_unverifiable",
+          "note": "douglascountywa.gov returned HTTP 403 on every path tried (root, /162/Commissioners, /AgendaCenter/Board-of-County-Commissioners-2), so the Board's own resolution text or minutes could not be reached this pass. A Wenatchee World article describes the Board approving the moratorium on a Tuesday the week of publication, consistent with April 17, 2018, but that specific day was derived from the fetch tool's summarization of the article rather than a verbatim dateline read directly, so it is treated as a plausible secondary lead, not a confirmed date. MRSC's May 2018 report corroborates only the month (\"this April\"), matching the existing record but adding no day-level precision."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.wenatcheeworld.com/news/local/douglas-county-looks-to-ban-cargo-containers-for-cryptocurrency-mining/article_903714c4-c7ce-5d87-a753-b5f04accd080.html",
+          "title": "Douglas County looks to ban cargo containers for cryptocurrency mining",
+          "publisher": "Wenatchee World",
+          "source_type": "news",
+          "supports": "Describes the Board of Commissioners approving a cargo-container cryptocurrency-mining moratorium in April 2018, with a required public hearing within 60 days; consistent with, but not a verbatim confirmation of, an April 17, 2018 adoption date"
+        },
+        {
+          "url": "https://mrsc.org/stay-informed/mrsc-insight/may-2018/bitcoin-comes-to-washington",
+          "title": "Bitcoin Comes to Washington",
+          "publisher": "Municipal Research and Services Center (MRSC)",
+          "document_date": "2018-05",
+          "source_type": "other",
+          "supports": "Confirms the moratorium was issued in April 2018, matching the existing record's month-level precision",
+          "quote": "this April, the county issued a moratorium on the use of cargo containers for cryptocurrency mining in unincorporated areas"
+        }
+      ],
+      "notes": "No `changes` proposed; the record's existing 2018-04 (month-only-equivalent) precision is not contradicted, just not confirmed to the day. A future pass should try douglascountywa.gov via a real browser, since automated fetch was blocked (403) on every path."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Washington",
+      "jurisdiction": "Seattle",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-09, City Council adoption (Council Bill 121214 and companion Resolution 32204)",
+      "date_enacted_iso": "2026-06-09",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Temporary freeze on new data center siting while impact studies are conducted; extendable up to an additional 6 months, with a 60-day public hearing requirement",
+      "duration_kind": "unknown",
+      "legal_basis": "Amended Council Bill 121214 (siting freeze) and companion Resolution 32204 (policy framework)",
+      "trigger_categories": ["regulatory_gap", "infrastructure_capacity"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of adoption 2026-06-09; not independently re-checked past that date",
+      "enacted_status": "active",
+      "affected_projects": "New large data center siting citywide",
+      "outcome": "Council unanimously adopted legislation placing a temporary freeze on new data center siting pending impact studies",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://council.seattle.gov/2026/06/09/city-council-passes-emergency-data-center-moratorium-and-policy-framework/",
+          "title": "City Council Passes Emergency Data Center Moratorium and Policy Framework",
+          "publisher": "Seattle City Council",
+          "document_date": "2026-06-09",
+          "source_type": "other",
+          "supports": "Confirms Council adoption of a temporary data center siting freeze and companion policy resolution",
+          "quote": "Today the City Council unanimously adopted two key pieces of legislation that will help prevent the siting of large data centers in Seattle... Amended Council Bill 121214... places a temporary freeze on new data center siting while the city conducts comprehensive impact studies."
+        }
+      ],
+      "notes": "Sourced from the Council's own announcement page rather than the certified bill/resolution text itself; recommend pulling the enacted Council Bill 121214 text for a stronger primary citation."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Spokane",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-23, Ordinance C36887",
+      "date_enacted_iso": "2026-06-23",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Ordinance C36887",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active; public hearing set for 2026-07-22",
+      "enacted_status": "active",
+      "affected_projects": "New computer data center building permit applications citywide",
+      "outcome": "Council passed a one-year moratorium on acceptance, processing, review, and approval of building permit applications for new data centers",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://my.spokanecity.org/news/releases/2026/06/23/spokane-city-council-passes-one-year-moratorium-on-data-centers/",
+          "title": "Spokane City Council Passes One-Year Moratorium on Data Centers",
+          "publisher": "City of Spokane",
+          "document_date": "2026-06-23",
+          "source_type": "other",
+          "supports": "Confirms adoption of Ordinance C36887, a one-year citywide moratorium on new data center building permits",
+          "quote": "During Monday's Legislative session, the Spokane City Council passed Ordinance C36887, imposing an immediate one-year citywide moratorium on the acceptance, processing, review, and approval of building permit applications for new computer data centers."
+        }
+      ],
+      "notes": "Sourced from the city's own press release rather than the certified ordinance text; recommend pulling Ordinance C36887 itself for a stronger primary citation."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Pasco",
+      "jurisdiction_type": "City",
+      "date_enacted": "Reported as a unanimous (6-0) council vote around mid-2026; exact date and ordinance number not confirmed from a primary source this pass",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Six months",
+      "duration_kind": "unknown",
+      "legal_basis": "Not confirmed this pass; the city's Codes, Ordinances & Resolutions page and Laserfiche document portal both blocked/errored on direct fetch",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center", "cryptocurrency_mining"],
+      "current_status": "Reported active per news; not independently confirmed via a primary source",
+      "enacted_status": "active",
+      "affected_projects": "Acceptance and processing of permits and business licenses for new data centers, crypto mining, and related high-density computing facilities, per secondary reporting",
+      "outcome": "Council reportedly approved unanimously a six-month moratorium; primary-source confirmation still needed",
+      "confidence": 0.45,
+      "evidence": [
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/council-in-pasco-washington-unanimously-approves-six-month-data-center-moratorium/",
+          "title": "Council in Pasco, Washington unanimously approves six-month data center moratorium",
+          "publisher": "Data Center Dynamics",
+          "source_type": "news",
+          "supports": "Reports a 6-0 Pasco City Council vote for a six-month data center/crypto-mining moratorium"
+        }
+      ],
+      "notes": "Weakest-evidenced of the three new WA candidates -- news-only, no primary ordinance/date confirmed. pasco-wa.gov/82/Codes-Ordinances-Resolutions and docs.pasco-wa.gov (Laserfiche) both failed on direct fetch (portal/cookie errors) this pass. Flagged for a future primary-source pass rather than confirmed."
+    }
+  ]
+}

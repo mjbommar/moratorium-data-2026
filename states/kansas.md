@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Kansas as of April 2026.
 
-**8 instruments** — 8 in force, 0 pending, 0 past. Activity level: **High**.
+**11 instruments** — 11 in force, 0 pending, 0 past. Activity level: **High**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

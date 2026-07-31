@@ -1,0 +1,156 @@
+{
+  "applied_at": "20260731T070929",
+  "answer_files": [
+    "work/answers/gaps/batch-a.json",
+    "work/answers/gaps/batch-b.json",
+    "work/answers/gaps/batch-c.json"
+  ],
+  "stats": {
+    "candidate_flagged_for_verification": 9,
+    "candidates_added": 15,
+    "candidate_duplicate": 18
+  },
+  "conflicts": [],
+  "skipped": [
+    "batch-b.json: candidate CA 'Coachella' (no instrument number) treated as duplicate of ca-coachella-2026 (no instrument number)",
+    "batch-b.json: candidate MN 'Inver Grove Heights' (no instrument number) treated as duplicate of mn-inver-grove-heights-2026 (no instrument number)",
+    "batch-b.json: candidate MN 'Wright County' (no instrument number) treated as duplicate of mn-wright-county-2026 (ordinance-26-2)",
+    "batch-b.json: candidate NV 'Nye County' (no instrument number) treated as duplicate of nv-nye-county-2026 (no instrument number)",
+    "batch-b.json: candidate NV 'Reno' (no instrument number) treated as duplicate of nv-reno-2026 (no instrument number)",
+    "batch-b.json: candidate SC 'Newberry County' (no instrument number) treated as duplicate of sc-newberry-county-2026 (no instrument number)",
+    "batch-b.json: candidate TN 'Cedar Hill' (no instrument number) treated as duplicate of tn-cedar-hill-2026 (no instrument number)",
+    "batch-b.json: candidate TN 'McMinnville' (no instrument number) treated as duplicate of tn-mcminnville-2026 (no instrument number)",
+    "batch-b.json: candidate TX 'Harlingen' (no instrument number) treated as duplicate of tx-harlingen-2026 (no instrument number)",
+    "batch-b.json: candidate TX 'Hill County' (no instrument number) treated as duplicate of tx-hill-county-2026 (no instrument number)",
+    "batch-c.json: candidate FL 'Nassau County' (ordinance-2026-044) treated as duplicate of fl-nassau-county-2026 (ordinance-2026-044)",
+    "batch-c.json: candidate NM 'Socorro County' (no instrument number) treated as duplicate of nm-socorro-county-2026 (no instrument number)",
+    "batch-c.json: candidate ND 'Barnes County' (no instrument number) treated as duplicate of nd-barnes-county-2026 (no instrument number)",
+    "batch-c.json: candidate OK 'Edmond' (no instrument number) treated as duplicate of ok-edmond-2026 (no instrument number)",
+    "batch-c.json: candidate PA 'Hazle Township' (no instrument number) treated as duplicate of pa-hazle-township-2026 (no instrument number)",
+    "batch-c.json: candidate AL 'Leeds' (no instrument number) treated as duplicate of al-leeds-2026 (no instrument number)",
+    "batch-c.json: candidate CT 'West Haven' (no instrument number) treated as duplicate of ct-west-haven-2026 (no instrument number)",
+    "batch-c.json: candidate MO 'City of Columbia' (no instrument number) treated as duplicate of mo-city-of-columbia-2026 (no instrument number)"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "ky-ashland-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Kentucky / Ashland",
+      "reason": "Not present in data/moratorium_inventory.csv under Kentucky (existing KY rows: Breckinridge County, City of La Grange, Meade County Fiscal Court, Mercer County Fiscal Court [undated], Oldham County Fiscal Court). Ashland's official ordinance portal returned 403/could not be fetched, so the exact ordinance number and enactment day are not confirmed from a primary source; this record rests on syndicated local news coverage.",
+      "source": "batch-a.json"
+    },
+    {
+      "moratorium_id": "ky-cave-city-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Kentucky / Cave City",
+      "reason": "Not present in data/moratorium_inventory.csv under Kentucky. No ordinance number was located; Cave City's own website was not reachable in a form that exposed the ordinance text.",
+      "source": "batch-a.json"
+    },
+    {
+      "moratorium_id": "ky-daviess-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Kentucky / Daviess County",
+      "reason": "Not present in data/moratorium_inventory.csv under Kentucky. Fiscal Court order number not located from a primary source.",
+      "source": "batch-a.json"
+    },
+    {
+      "moratorium_id": "ky-lexington-fayette-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Kentucky / Lexington-Fayette",
+      "reason": "Not present in data/moratorium_inventory.csv under Kentucky. Recorded as \"Lexington-Fayette\" per instructions since this is the consolidated city-county government (Lexington-Fayette Urban County Government); jurisdiction_type set to Other because the schema enum has no consolidated-government category. Resolution number not located from a primary legislative record.",
+      "source": "batch-a.json"
+    },
+    {
+      "moratorium_id": "me-brunswick-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Maine / Brunswick",
+      "reason": "Not present in data/moratorium_inventory.csv under Maine (existing ME row: Bangor, 2026-04-13). Fetched and read directly (via pdftotext) as a primary town document.",
+      "source": "batch-a.json"
+    },
+    {
+      "moratorium_id": "me-sanford-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Maine / Sanford",
+      "reason": "Not present in data/moratorium_inventory.csv under Maine. Sanford's own city website exposed no accessible agenda/minutes archive or ordinance code entry for this action despite repeated attempts; this record rests entirely on secondary news coverage and should be treated as lower confidence pending primary-source confirmation.",
+      "source": "batch-a.json"
+    },
+    {
+      "moratorium_id": "me-scarborough-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Maine / Scarborough",
+      "reason": "Not present in data/moratorium_inventory.csv under Maine.",
+      "source": "batch-a.json"
+    },
+    {
+      "moratorium_id": "me-westbrook-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Maine / Westbrook",
+      "reason": "Not present in data/moratorium_inventory.csv under Maine. Fetched and read directly (via pdftotext) as a primary town document.",
+      "source": "batch-a.json"
+    },
+    {
+      "moratorium_id": "nc-charlotte-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "North Carolina / Charlotte",
+      "reason": "Not present in data/moratorium_inventory.csv under North Carolina (existing 20 NC rows are all other jurisdictions). No ordinance number located from a primary source.",
+      "source": "batch-a.json"
+    },
+    {
+      "moratorium_id": "nc-durham-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "North Carolina / Durham",
+      "reason": "Not present in data/moratorium_inventory.csv under North Carolina. Durham City and Durham County are separate governments (Durham is not consolidated); both enacted their own moratoria, and both are recorded here as distinct candidates.",
+      "source": "batch-a.json"
+    },
+    {
+      "moratorium_id": "nc-durham-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "North Carolina / Durham County",
+      "reason": "Not present in data/moratorium_inventory.csv under North Carolina. Recorded separately from the City of Durham's moratorium since Durham City and Durham County are distinct governments; no ordinance/resolution number located from a primary source.",
+      "source": "batch-a.json"
+    },
+    {
+      "moratorium_id": "nc-harnett-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "North Carolina / Harnett County",
+      "reason": "Not present in data/moratorium_inventory.csv under North Carolina. A second outlet (mydailyrecord.com, \"County halts data centers: Imposes moratorium to study how to regulate industry,\" 2026-05-07) independently corroborates the action but returned HTTP 429 on direct fetch and could only be confirmed via the Google News RSS headline listing above.",
+      "source": "batch-a.json"
+    },
+    {
+      "moratorium_id": "oh-jackson-township-franklin-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Ohio / Jackson Township (Franklin County)",
+      "reason": "DISAMBIGUATION: Ohio has multiple townships named Jackson Township. This entry is specifically the one in Franklin County (Grove City area, official domain jacksontwpfranklinoh.gov), confirmed via its own May 12, 2026 board agenda listing Resolution 2026-049. A separate Jackson Township in Wood County was checked via a comprehensive Wood County township roundup (bgindependentmedia.org) and confirmed to have NO moratorium (described there as unzoned); no moratorium evidence was found for a Jackson Township in Muskingum County either. Not present in data/moratorium_inventory.csv (the 51 existing OH rows include no Jackson Township).",
+      "source": "batch-a.json"
+    },
+    {
+      "moratorium_id": "oh-williamsburg-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Ohio / Williamsburg",
+      "reason": "Not present in data/moratorium_inventory.csv under Ohio. Ordinance text was retrieved as a scanned PDF and read directly via OCR (tesseract) to confirm the quoted text, signature block (Mayor James Weaver, Fiscal Officer Lori Pegg), and the March 12, 2026 date.",
+      "source": "batch-a.json"
+    },
+    {
+      "moratorium_id": "wi-dane-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Wisconsin / Dane County",
+      "reason": "Not present in data/moratorium_inventory.csv under Wisconsin (existing WI rows: City of Madison, Manitowoc County). Ordinance/resolution number not located; danecounty.gov's PressDetail pages were fetched directly.",
+      "source": "batch-a.json"
+    }
+  ]
+}

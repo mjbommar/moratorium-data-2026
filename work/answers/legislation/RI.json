@@ -1,0 +1,198 @@
+{
+  "state_abbrev": "RI",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "RI's General Assembly runs a 2025-2026 term but holds separate annual sessions with no automatic carryover: House and Senate floor activity for 2026 concluded 2026-06-11 (per votes.rilegislature.gov session calendars), and status.rilegislature.gov confirms bills 'held for further study' in one calendar-year session simply die -- 2025 bills (H6097, S0921) do not reappear in the 2026 session and the same sponsors/topics had to be refiled under entirely new 2026 bill numbers (e.g., H7695, S2346, S2776).",
+  "decisions": [
+    {
+      "bill_key": "RI:H6097 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Committee recommended measure be held for further study, 2025-05-06 (died at end of 2025 session; not carried into 2026)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-05-06",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://status.rilegislature.gov/",
+          "title": "RI General Assembly bill status search: Session Year 2025, Bill 6097",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms H6097 (2025) was introduced 03/14/2025, referred to House Finance, scheduled for hearing 05/06/2025, and held for further study on 05/06/2025 with no further action recorded.",
+          "quote": "03/14/2025 Introduced, referred to House Finance / 05/02/2025 Scheduled for hearing and/or consideration (05/06/2025) / 05/06/2025 Committee recommended measure be held for further study"
+        }
+      ],
+      "notes": "Retrieved via status.rilegislature.gov's ASP.NET bill-search form (Session Year=2025, Bills=6097); the site has no static per-bill URL, so the evidence url is the search page itself. Matches packet's prior characterization exactly. Bill does not appear at all in the 2026 session search, confirming no automatic carryover."
+    },
+    {
+      "bill_key": "RI:H6476 (2021)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced, referred to House Finance, 2021-06-25; no further action recorded (died at end of 2021 session)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2021-06-25",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://status.rilegislature.gov/",
+          "title": "RI General Assembly bill status search: Session Year 2021, Bill 6476",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the entire action log for H6476 (2021) is a single line: introduced and referred to House Finance on 2021-06-25, with no committee vote or further action ever recorded.",
+          "quote": "06/25/2021 Introduced, referred to House Finance"
+        }
+      ],
+      "notes": "Official record shows only one action (introduction, near the historical late-June sine die window), consistent with packet's 'died at end of 2021 session' summary. Confirmed the bill number does not reappear in the 2022 session search (0 results), consistent with RI's no-carryover practice."
+    },
+    {
+      "bill_key": "RI:H7270 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Committee recommended measure be held for further study, 2026-04-07 (dead for 2026 session; no further action through 2026-07-31)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-04-07",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://status.rilegislature.gov/",
+          "title": "RI General Assembly bill status search: Session Year 2026, Bill 7270",
+          "source_type": "legislature_bill_page",
+          "supports": "Resolves the packet's [VERIFY] flag: confirms H7270 was heard 04/07/2026 and held for further study that day, with no subsequent action as of the page's live timestamp (7/31/2026).",
+          "quote": "01/23/2026 Introduced, referred to House Corporations / 04/03/2026 Scheduled for hearing and/or consideration (04/07/2026) / 04/07/2026 Committee recommended measure be held for further study"
+        }
+      ],
+      "notes": "Page was fetched live on 2026-07-31 (server timestamp confirms) and shows no action after 04/07/2026, so 'held for further study' is the final 2026 disposition given the 2026 sine die (last floor votes 2026-06-11) has already passed."
+    },
+    {
+      "bill_key": "RI:H7331 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Committee recommended measure be held for further study, 2026-04-07 (dead for 2026 session; no further action through 2026-07-31)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-04-07",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://status.rilegislature.gov/",
+          "title": "RI General Assembly bill status search: Session Year 2026, Bill 7331",
+          "source_type": "legislature_bill_page",
+          "supports": "Resolves the packet's [VERIFY] flag: confirms H7331 was heard and held for further study on 04/07/2026, with no subsequent action.",
+          "quote": "01/28/2026 Introduced, referred to House Corporations / 04/03/2026 Scheduled for hearing and/or consideration (04/07/2026) / 04/07/2026 Committee recommended measure be held for further study"
+        }
+      ],
+      "notes": "Same hearing date as its House Corporations committee-mate H7270."
+    },
+    {
+      "bill_key": "RI:H7695 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Committee recommended measure be held for further study, 2026-05-07 (dead for 2026 session; no further action through 2026-07-31)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-05-07",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://status.rilegislature.gov/",
+          "title": "RI General Assembly bill status search: Session Year 2026, Bill 7695",
+          "source_type": "legislature_bill_page",
+          "supports": "Packet's news-sourced status said H7695 remained unscheduled for hearing as of 2026-04-10; the official record shows it was subsequently scheduled and heard on 2026-05-07 and held for further study that day.",
+          "quote": "02/11/2026 Introduced, referred to House Finance / 05/01/2026 Scheduled for hearing and/or consideration (05/07/2026) / 05/07/2026 Committee recommended measure be held for further study"
+        }
+      ],
+      "notes": "Genuine update from the packet's last-known state (unscheduled) to a confirmed final disposition: it did get a hearing about a month after the packet's cutoff and was then held for further study, effectively dying with no further action for the balance of the 2026 session."
+    },
+    {
+      "bill_key": "RI:S0921 (2025)",
+      "outcome": "corrected",
+      "fields": {
+        "status": "Committee recommended measure be held for further study, 2025-05-06 (died at end of 2025 session; not carried into 2026)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-05-06",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://status.rilegislature.gov/",
+          "title": "RI General Assembly bill status search: Session Year 2025, Bill 921",
+          "source_type": "legislature_bill_page",
+          "supports": "The packet described S0921 as 'tabled and died'; the official action log shows no 'tabled' action -- the bill was scheduled, had a hearing postponed once, was rescheduled, and was ultimately held for further study on 2025-05-06.",
+          "quote": "03/28/2025 Introduced, referred to Senate Commerce / 04/18/2025 Scheduled for hearing and/or consideration / 04/21/2025 Meeting postponed (04/22/2025) / 05/02/2025 Scheduled for hearing and/or consideration (05/06/2025) / 05/06/2025 Committee recommended measure be held for further study"
+        }
+      ],
+      "notes": "Correction: final disposition (dead, no carryover) is the same as the packet believed, but the mechanism was 'held for further study' after a postponed-then-rescheduled hearing, not 'tabled' as the news-sourced packet text stated."
+    },
+    {
+      "bill_key": "RI:S2346 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Committee recommended measure be held for further study, 2026-03-10 (dead for 2026 session; no further action through 2026-07-31)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-03-10",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://status.rilegislature.gov/",
+          "title": "RI General Assembly bill status search: Session Year 2026, Bill 2346",
+          "source_type": "legislature_bill_page",
+          "supports": "Resolves the packet's [VERIFY] flag: confirms S2346 was heard and held for further study on 03/10/2026, with no subsequent action.",
+          "quote": "01/30/2026 Introduced, referred to Senate Commerce / 03/06/2026 Scheduled for hearing and/or consideration (03/10/2026) / 03/10/2026 Committee recommended measure be held for further study"
+        }
+      ],
+      "notes": "No House companion bill matching this text was found beyond H7695, which the packet already tracks separately."
+    },
+    {
+      "bill_key": "RI:S2427 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Committee recommended measure be held for further study, 2026-03-10 (dead for 2026 session; no further action through 2026-07-31)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-03-10",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://status.rilegislature.gov/",
+          "title": "RI General Assembly bill status search: Session Year 2026, Bill 2427",
+          "source_type": "legislature_bill_page",
+          "supports": "Resolves the packet's [VERIFY] flag: confirms S2427 was heard and held for further study on 03/10/2026, with no subsequent action.",
+          "quote": "02/06/2026 Introduced, referred to Senate Commerce / 03/07/2026 Scheduled for hearing and/or consideration (03/10/2026) / 03/10/2026 Committee recommended measure be held for further study"
+        }
+      ],
+      "notes": "Same entitlement (large energy use facility PUC classification) and hearing date window as its House companion H7270."
+    },
+    {
+      "bill_key": "RI:S2776 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Committee recommended measure be held for further study, 2026-03-10 (dead for 2026 session; no further action through 2026-07-31)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-03-10",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://status.rilegislature.gov/",
+          "title": "RI General Assembly bill status search: Session Year 2026, Bill 2776",
+          "source_type": "legislature_bill_page",
+          "supports": "Resolves the packet's [VERIFY] flag: confirms S2776 was heard and held for further study on 03/10/2026, with no subsequent action.",
+          "quote": "03/04/2026 Introduced, referred to Senate Commerce / 03/06/2026 Scheduled for hearing and/or consideration (03/10/2026) / 03/10/2026 Committee recommended measure be held for further study"
+        }
+      ],
+      "notes": "Same House Corporations committee hearing agenda date (03/10/2026) as its House companion H7331."
+    }
+  ],
+  "new_bills": []
+}

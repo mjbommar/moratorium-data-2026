@@ -1,0 +1,54 @@
+{
+  "state_abbrev": "ME",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "me-bangor-2026",
+      "outcome": "corrected",
+      "confidence": 0.95,
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-04-29; passed by Bangor City Council 9-0 on 2026-04-13 per WAGM-TV reporting [VERIFY: final signed ordinance and approved minutes from Bangor City Clerk not yet retrieved as of 2026-04-29]",
+          "to": "Active as of 2026-07-31. Official City Council minutes confirm Ordinance 26-138 was adopted at the April 13, 2026 regular meeting: the Council first voted 9-0 to waive the requirement of reading on two separate days, then voted 9-0 for final passage the same night.",
+          "reason": "Retrieved the official City Council agenda and approved minutes for the April 13, 2026 meeting directly from bangormaine.gov/AgendaCenter, which record both the 9-0 vote to waive the two-reading requirement and the 9-0 vote for passage, confirming adoption on that date."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "The official Bangor City Council minutes for April 13, 2026 (posted at bangormaine.gov/AgendaCenter/ViewFile/Minutes/_04132026-741) record Ordinance 26-138 being adopted by a 9-0 final-passage vote that same night, after a 9-0 vote to waive the normal two-readings-on-separate-days requirement. This is a primary, official record confirming the 2026-04-13 adoption date, so the uncertainty flag should move from 'unverified' to 'exact.'"
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: final signed ordinance and approved minutes from Bangor City Clerk not yet retrieved as of 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Retrieved the official City Council agenda (bangormaine.gov/AgendaCenter/ViewFile/Agenda/_04132026-741) and the approved minutes (bangormaine.gov/AgendaCenter/ViewFile/Minutes/_04132026-741) for the April 13, 2026 meeting. The agenda's executive summary for item 26-138 confirms the proposed 180-day moratorium and its rationale (sudden data-center development pressure, lack of use-specific standards). The minutes show the Council voting 9-0 to waive the two-separate-readings requirement and then 9-0 for passage of Ordinance 26-138 that same night -- both a same-day adoption and a unanimous vote, consistent with the WAGM-TV report already in the record."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.bangormaine.gov/AgendaCenter/ViewFile/Minutes/_04132026-741",
+          "title": "Bangor City Council Regular Meeting Minutes, April 13, 2026",
+          "publisher": "City of Bangor, Maine, City Clerk",
+          "document_date": "2026-04-13",
+          "source_type": "minutes",
+          "supports": "Official record of the 9-0 vote to waive the two-reading requirement and the subsequent 9-0 vote for final passage of Ordinance 26-138 (the data center moratorium) at the April 13, 2026 meeting.",
+          "quote": "26-138 ORDINANCE Moratorium Ordinance on Data Centers in the City of Bangor -- FALOON. Action: Motion made and seconded to Waive the Requirement of Reading on Two Separate Days. Vote: 9-0... Motion made and seconded for Passage. Vote: 9-0... Passed."
+        },
+        {
+          "url": "https://www.bangormaine.gov/AgendaCenter/ViewFile/Agenda/_04132026-741",
+          "title": "Bangor City Council Regular Meeting Agenda, April 13, 2026",
+          "publisher": "City of Bangor, Maine, City Clerk",
+          "document_date": "2026-04-13",
+          "source_type": "agenda",
+          "supports": "Official agenda item and executive summary for Ordinance 26-138, confirming the proposed 180-day moratorium term and its stated rationale.",
+          "quote": "26-138 ORDINANCE Moratorium Ordinance on Data Centers in the City of Bangor (First Reading). Executive Summary: The proposed Ordinance would establish a 180-day moratorium on the development of data centers in the City of Bangor."
+        }
+      ],
+      "notes": "Both the current_status marker and the separate date-verification question are resolved by the same primary source (official council minutes). The 'unverified_date' bucket / date_enacted_uncertainty flag can be cleared; 2026-04-13 is now an exact, primary-sourced adoption date. No other field values require correction (180-day term, 9-0 vote, and August 9, 2026 nominal repeal date already on record are all consistent with the agenda/minutes)."
+    }
+  ],
+  "new_candidates": []
+}

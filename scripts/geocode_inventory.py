@@ -54,46 +54,64 @@ def clean_jurisdiction(j: str) -> str:
     return s.strip()
 
 
+def jurisdiction_variants(j: str) -> list[str]:
+    """Name forms to try, most specific first.
+
+    PREFIX_RX was defined here from the start but never actually applied, so
+    every "City of X" row fell through to manual review -- Hendersonville NC,
+    Effingham IL, and Peosta IA all failed for exactly this reason. The full name
+    is still tried first, because for some places the governing-body prefix is
+    part of how the gazetteer lists them; the stripped form is the fallback.
+    """
+    base = clean_jurisdiction(j)
+    variants = [base]
+    stripped = PREFIX_RX.sub("", base).strip()
+    if stripped and stripped != base:
+        variants.append(stripped)
+    return variants
+
+
 def census_geocode(jurisdiction: str, state: str) -> tuple[float, float] | None:
     """Census OneLine endpoint. Free, no API key."""
-    j = clean_jurisdiction(jurisdiction)
-    address = f"{j}, {state}, USA"
-    params = {"address": address, "benchmark": "Public_AR_Current", "format": "json"}
-    url = CENSUS_URL + "?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    try:
-        with urllib.request.urlopen(req, timeout=10) as r:
-            data = json.loads(r.read())
-        matches = data.get("result", {}).get("addressMatches", [])
-        if matches:
-            c = matches[0].get("coordinates", {})
-            x, y = c.get("x"), c.get("y")
-            if x is not None and y is not None:
-                return float(y), float(x)  # (lat, lon)
-    except Exception:
-        pass
+    for j in jurisdiction_variants(jurisdiction):
+        address = f"{j}, {state}, USA"
+        params = {"address": address, "benchmark": "Public_AR_Current", "format": "json"}
+        url = CENSUS_URL + "?" + urllib.parse.urlencode(params)
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        try:
+            with urllib.request.urlopen(req, timeout=10) as r:
+                data = json.loads(r.read())
+            matches = data.get("result", {}).get("addressMatches", [])
+            if matches:
+                c = matches[0].get("coordinates", {})
+                x, y = c.get("x"), c.get("y")
+                if x is not None and y is not None:
+                    return float(y), float(x)  # (lat, lon)
+        except Exception:
+            pass
     return None
 
 
 def nominatim_geocode(jurisdiction: str, state: str) -> tuple[float, float] | None:
     """OSM Nominatim. Rate-limited to 1 req/sec by usage policy."""
-    j = clean_jurisdiction(jurisdiction)
-    # Try a structured query first
-    params = {
-        "q": f"{j}, {state}, USA",
-        "format": "json",
-        "limit": "1",
-        "countrycodes": "us",
-    }
-    url = NOM_URL + "?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    try:
-        with urllib.request.urlopen(req, timeout=10) as r:
-            data = json.loads(r.read())
-        if data:
-            return float(data[0]["lat"]), float(data[0]["lon"])
-    except Exception:
-        pass
+    for n, j in enumerate(jurisdiction_variants(jurisdiction)):
+        if n:
+            time.sleep(1)  # Nominatim usage policy: 1 request/second
+        params = {
+            "q": f"{j}, {state}, USA",
+            "format": "json",
+            "limit": "1",
+            "countrycodes": "us",
+        }
+        url = NOM_URL + "?" + urllib.parse.urlencode(params)
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        try:
+            with urllib.request.urlopen(req, timeout=10) as r:
+                data = json.loads(r.read())
+            if data:
+                return float(data[0]["lat"]), float(data[0]["lon"])
+        except Exception:
+            pass
     return None
 
 

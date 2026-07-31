@@ -1,0 +1,40 @@
+{
+  "state_abbrev": "AR",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ar-harrison-2023",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.75,
+      "changes": {
+        "current_status": {
+          "from": "Repealed; Harrison City Council voted to remove the moratorium at a special meeting on 2023-11-28 (KY3 contemporaneous reporting). Repeal-ordinance number not located in captured records [VERIFY: repeal-ordinance number/text not yet retrieved from Harrison city clerk].",
+          "to": "Repealed; Harrison City Council voted 6-2 to repeal Ordinance 1515 at a specially called meeting on Tuesday, 2023-11-28, on a motion by Council Member Mitch Magness, seconded by Council Member Joel Williams (councilors Jeremy Ragland and Wayne Cone voted no). City Attorney Nancy Cartwright recommended repeal as a litigation precaution tied to a federal court matter involving Green Digital and the state's data-mining protections; the council also amended its noise ordinance the same night (Ordinance 1516). No separate numbered repeal ordinance for Ordinance 1515 itself was identified in the Harrison Daily Times' contemporaneous account of the meeting, and the city's own ordinance/clerk portal (harrisonar.gov) is behind a bot-protection challenge page that could not be bypassed to check the clerk's ordinance index directly.",
+          "reason": "Harrison Daily Times (Nov. 30, 2023 print edition, front page and jump to A11) gives a detailed contemporaneous account of the Nov. 28, 2023 special meeting: the 6-2 roll-call vote, the movant/seconder, city attorney Nancy Cartwright's litigation rationale, and the companion noise-ordinance amendment (Ordinance 1516). This corroborates and substantially enriches the existing KY3-sourced summary but still does not supply a distinct repeal-ordinance number for Ordinance 1515 itself, so the bracketed [VERIFY] text is replaced with a fuller sourced narrative rather than a specific ordinance number."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: repeal-ordinance number/text not yet retrieved from Harrison city clerk]",
+          "resolution": "still_unverifiable",
+          "note": "Retrieved and read in full the Harrison Daily Times' Nov. 30, 2023 print edition (alpha.creativecirclecdn.com PDF), which reports the Nov. 28, 2023 special meeting in detail: council voted 6-2 (motion by Magness, second by Williams; Ragland and Cone voting no) to repeal the data-center moratorium established by Ordinance 1515, on the recommendation of city attorney Nancy Cartwright as a litigation precaution. The article names Ordinance 1516 as the same-night noise-ordinance amendment but never assigns a distinct ordinance number to the repeal action itself -- it is described only as a council vote to repeal Ordinance 1515, which may mean no new numbered instrument was created (repeal accomplished by simple council vote/motion rather than a new codified ordinance). Attempted to check the city's own records directly: harrisonar.gov's city-clerk page and a documents/city-clerk/documents/739540 link both return a 'Client Challenge' bot-protection page that could not be bypassed with a standard fetch; a Municode library page for Harrison (library.municode.com/ar/harrison) is a JavaScript single-page app that does not expose ordinance text without in-browser rendering, which was not available in this pass. No DuckDuckGo search (queries for 'Ordinance 1517', 'Ordinance 1518' repeal, and related terms) turned up a distinct repeal-ordinance number. Next pass should try contacting the Harrison city clerk directly (cityclerk@harrisonar.gov, 870-741-2525) or use an in-browser tool capable of passing the site's bot challenge."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://alpha.creativecirclecdn.com/harrison/files/20231129-194002-HDT%202023-11-30.pdf",
+          "title": "Harrison Daily Times, Vol. 147, Issue 42 (Thursday, November 30, 2023)",
+          "publisher": "Harrison Daily Times",
+          "document_date": "2023-11-30",
+          "source_type": "news",
+          "supports": "Contemporaneous, detailed local-newspaper account of the Nov. 28, 2023 special council meeting at which Ordinance 1515 (the data center/crypto mining moratorium) was repealed, including the roll-call vote and city attorney's stated rationale.",
+          "quote": "Ordinance 1515 established the data center moratorium. Council Member Mitch Magness made a motion for its repeal. Council Member Joel Williams seconded it... A roll call vote showed no votes by Jeremy Ragland and Wayne Cone. It passed 6-2."
+        }
+      ],
+      "notes": "This resolves the AR note about the near-duplicate 'City of Harrison' row removed in an earlier dedup pass: the surviving single instrument is Ordinance 1515 (adopted 2023-05-30), and the contemporaneous Harrison Daily Times account confirms this specific ordinance -- not some other instrument -- is what the council voted 6-2 to repeal on 2023-11-28. The existing enacted_status of 'rescinded' is therefore correct and unchanged. Only the precise repeal-ordinance number (if one was ever assigned, as opposed to repeal-by-motion) remains unconfirmed."
+    }
+  ],
+  "new_candidates": []
+}

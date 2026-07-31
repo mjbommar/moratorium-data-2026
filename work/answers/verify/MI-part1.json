@@ -1,0 +1,844 @@
+{
+  "state_abbrev": "MI",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "mi-armada-township-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "confidence": 0.85,
+      "changes": {
+        "date_enacted": {
+          "from": "[VERIFY]",
+          "to": "2026-01-14",
+          "reason": "Armada Township's own posted resolution page and contemporaneous Record newspaper reporting both give January 14, 2026 as the date the Board of Trustees adopted Resolution No. 2026-02."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-01-14",
+          "reason": "See date_enacted."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Directly confirmed by the township's own posted resolution."
+        },
+        "duration": {
+          "from": "[VERIFY]",
+          "to": "180 days from January 14, 2026 (Resolution No. 2026-02); extended an additional 180 days from June 10, 2026 by Resolution No. 2026-10",
+          "reason": "armadatwp.gov posts the full text of Resolution No. 2026-02 (180-day term). The Record's June 10, 2026 meeting coverage and a DuckDuckGo-indexed excerpt of the township's June 10, 2026 board agenda both confirm a second resolution (No. 2026-10) extending the moratorium a further 180 days from that date."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "180",
+          "reason": "Initial term per Resolution No. 2026-02; see duration field for the extension."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "fixed_days",
+          "reason": "Both the original and extension resolutions set fixed 180-day terms."
+        },
+        "legal_basis": {
+          "from": "Township moratorium action [VERIFY]",
+          "to": "Resolution No. 2026-02 (adopted January 14, 2026, unanimous 5-0), extended by Resolution No. 2026-10 (adopted June 10, 2026)",
+          "reason": "Confirmed by direct fetch of armadatwp.gov's posted resolution text and the June 10, 2026 Armada Township public notice/meeting synopsis published in The Record."
+        },
+        "trigger": {
+          "from": "Regional data center development wave across SE Michigan [VERIFY]",
+          "to": "Recent growth in the building of data centers in the region; the Board sought time for Planning Commission review, resident input, and legal analysis of appropriate zoning standards",
+          "reason": "Direct quote/paraphrase from Resolution No. 2026-02 as posted on armadatwp.gov."
+        },
+        "current_status": {
+          "from": "Active [VERIFY]",
+          "to": "Active (extended); Resolution No. 2026-10 extended the moratorium an additional 180 days from June 10, 2026, so the moratorium remains in force as of 2026-07-31",
+          "reason": "The original 180-day term from Jan. 14, 2026 would have lapsed around July 13, 2026, but the Board voted to extend it via Resolution No. 2026-10 at its June 10, 2026 meeting before that lapse, per The Record's June 10 meeting coverage and the township's June 10, 2026 board agenda."
+        },
+        "outcome": {
+          "from": "Pending [VERIFY]",
+          "to": "Pending; Township Board, staff, and legal counsel continuing to study data center regulations during the extended moratorium period",
+          "reason": "Consistent with Resolution No. 2026-02's stated purpose and the fact that the Board chose to extend rather than adopt permanent standards or let the moratorium lapse."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Confirmed 2026-01-14 via armadatwp.gov's posted Resolution No. 2026-02."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Confirmed 180 days, and found a subsequent 180-day extension (Resolution No. 2026-10, June 10, 2026) that was not in the original record."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Confirmed Resolution No. 2026-02, later extended by Resolution No. 2026-10."
+        },
+        {
+          "field": "trigger",
+          "marker": "[VERIFY]",
+          "resolution": "confirmed",
+          "note": "Confirmed against the resolution's own recital language on armadatwp.gov."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Status changes from a plain 'active' to 'active (extended)' given the June 10, 2026 extension resolution discovered in this pass."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY]",
+          "resolution": "confirmed",
+          "note": "No named project is identified in the resolution text or in The Record's coverage of either the original adoption or the extension; 'Not specified' stands as accurate."
+        },
+        {
+          "field": "outcome",
+          "marker": "[VERIFY]",
+          "resolution": "confirmed",
+          "note": "Consistent with the resolution's stated purpose of allowing time for study; the Board's extension (rather than adoption of permanent standards) confirms the matter is still pending."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://armadatwp.gov/moratorium-on-the-building-of-data-centers-within-the-township-of-armada/",
+          "title": "Moratorium on the Building of Data Centers within the Township of Armada",
+          "publisher": "Armada Township, Michigan",
+          "document_date": "2026-01-14",
+          "source_type": "resolution",
+          "supports": "Full text of Resolution No. 2026-02: adoption date, 180-day term, unanimous 5-0 vote, and stated purpose.",
+          "quote": "A temporary moratorium is hereby imposed on commencement of building any Data Centers within the Township of Armada for a period of one hundred eighty (180) days."
+        },
+        {
+          "url": "https://www.myrecordnewspaper.com/?p=139993",
+          "title": "Board extends data center moratorium",
+          "publisher": "The Record (Armada/Romeo/Bruce Township, MI)",
+          "document_date": "2026-06-11",
+          "source_type": "news",
+          "supports": "Confirms the Armada Township Board of Trustees voted at its June 10, 2026 meeting to extend the data center moratorium.",
+          "quote": "The Armada Township Board of Trustees approved an extension of a moratorium on the building of data centers within the township at their June 10 meeting."
+        },
+        {
+          "url": "https://www.myrecordnewspaper.com/?p=139937",
+          "title": "Public Notice - Armada Township June 10, 2026 Board of Trustees Regular Meeting",
+          "publisher": "Armada Township (published notice), via The Record",
+          "document_date": "2026-06-10",
+          "source_type": "minutes",
+          "supports": "Official township meeting-action synopsis identifying the extension as Resolution No. 2026-10, for an additional 180 days.",
+          "quote": "Resolution No. 2026-10 Extension of the moratorium on data center construction in Armada Township for an additional 180 days."
+        }
+      ],
+      "notes": "Significant upgrade from a fully-blank record: the original moratorium (Resolution No. 2026-02, Jan. 14, 2026) was located directly on the township's own site, and a previously-unknown extension (Resolution No. 2026-10, June 10, 2026) was found, meaning the moratorium is still active today rather than having lapsed in mid-July 2026 as the unadorned 180-day term would suggest."
+    },
+    {
+      "moratorium_id": "mi-bruce-township-undated",
+      "outcome": "corrected",
+      "confidence": 0.55,
+      "changes": {
+        "date_enacted": {
+          "from": "[VERIFY]",
+          "to": "Late December 2025 (Board of Trustees vote reported as occurring 'just days before Christmas'; The Record's article on the vote is dated 2025-12-31)",
+          "reason": "The Record ('Moratorium passed on data centers', myrecordnewspaper.com/?p=136240) is dated Dec. 31, 2025 and describes the vote as happening shortly before Christmas, but the article is paywalled beyond the opening paragraph so the exact meeting date could not be pinned down."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "month_only",
+          "reason": "Only the month (December 2025) could be confirmed; the exact day is behind a subscriber paywall."
+        },
+        "duration": {
+          "from": "[VERIFY]",
+          "to": "Six months from initial adoption (per May 27, 2026 Record reporting), with a two-month extension approved March 4, 2026, and further ordinance amendments approved in late May 2026 as the six-month period expired",
+          "reason": "Three Record articles chart the moratorium's life: initial adoption (Dec. 31, 2025 article), a 'two months' extension (March 4, 2026 article), and a May 27, 2026 article describing the ordinance being 'tweaked' as the six-month moratorium was 'running out.' Full resolution numbers are behind the paywall."
+        },
+        "legal_basis": {
+          "from": "Township moratorium action [VERIFY]",
+          "to": "Bruce Township Board of Trustees moratorium covering all applications for Industrial Research Office (IRO) and Light Industrial zoning; specific resolution number not located",
+          "reason": "The Record's coverage (all three articles) describes the moratorium in these terms but the paywalled full text does not surface a resolution number, and no independent Bruce Township website could be located to check directly."
+        },
+        "outcome": {
+          "from": "Pending [VERIFY]",
+          "to": "Pending; as the six-month moratorium neared expiration in May 2026, the Board approved a resolution adding new provisions to the township's data center ordinance rather than allowing the moratorium to simply lapse",
+          "reason": "Directly reported in the May 27, 2026 Record article, 'Ordinance tweaked for data center moratoriums.'"
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Narrowed to December 2025 (reported as shortly before Christmas 2025); exact day not recoverable from the paywalled Record article."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Confirmed as a six-month moratorium with at least one interim extension (two months, approved March 4, 2026) and further ordinance amendment activity in late May 2026."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY]",
+          "resolution": "still_unverifiable",
+          "note": "Checked myrecordnewspaper.com (three articles: Dec 31 2025, March 4 2026, May 27 2026) and DuckDuckGo/Bing for a Bruce Township government website; could not locate an official township site or a specific resolution number. The Record's reporting is paywalled beyond the opening paragraphs in each case."
+        },
+        {
+          "field": "trigger",
+          "marker": "[VERIFY]",
+          "resolution": "still_unverifiable",
+          "note": "Same paywall limitation; the accessible portions of the Record's coverage describe the scope of the moratorium (IRO and Light Industrial zoning applications) but not the board's stated rationale in its own words."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY]",
+          "resolution": "still_unverifiable",
+          "note": "Checked myrecordnewspaper.com site search for articles after May 27, 2026 (none found as of this pass, run 2026-07-31) and general web search; cannot confirm whether the moratorium (last known to be in force and under revision as of May 27, 2026) has since lapsed, been extended again, or been replaced by a permanent ordinance."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY]",
+          "resolution": "confirmed",
+          "note": "No specific project is named in any of the three Record articles reviewed; 'Not specified' stands as accurate."
+        },
+        {
+          "field": "outcome",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Confirmed the township was actively revising its data center ordinance as of the May 27, 2026 article, rather than the generic 'Pending' previously recorded."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.myrecordnewspaper.com/?p=136240",
+          "title": "Moratorium passed on data centers",
+          "publisher": "The Record (Armada/Romeo/Bruce Township, MI)",
+          "document_date": "2025-12-31",
+          "source_type": "news",
+          "supports": "Reports Bruce Township Board of Trustees adopted a moratorium on IRO and Light Industrial zoning applications shortly before Christmas 2025.",
+          "quote": "A moratorium for all applications regarding industrial research office and light industrial zoning"
+        },
+        {
+          "url": "https://www.myrecordnewspaper.com/?p=137735",
+          "title": "Data center moratorium extended two months",
+          "publisher": "The Record (Armada/Romeo/Bruce Township, MI)",
+          "document_date": "2026-03-04",
+          "source_type": "news",
+          "supports": "Confirms the Board approved a two-month extension of the moratorium on March 4, 2026.",
+          "quote": "The Bruce Township Board of Trustees approved renewing the moratorium for all applicants for industrial research office and light industrial"
+        },
+        {
+          "url": "https://www.myrecordnewspaper.com/?p=139567",
+          "title": "Ordinance tweaked for data center moratoriums",
+          "publisher": "The Record (Armada/Romeo/Bruce Township, MI)",
+          "document_date": "2026-05-27",
+          "source_type": "news",
+          "supports": "Confirms that as the six-month moratorium was expiring, the Board approved a resolution adding new provisions to the data center ordinance.",
+          "quote": "As a six month moratorium is running out, Bruce Township continues to fine tune their ordinance regarding data centers. The Bruce Township Board of Trustees approved a resolution to add a new"
+        }
+      ],
+      "notes": "The Record (myrecordnewspaper.com) is the only outlet covering Bruce Township's moratorium and is paywalled past the opening paragraph of each article; no independent Bruce Township government website could be located. Next pass should try contacting Bruce Township directly or find a non-paywalled mirror of these articles, and re-check myrecordnewspaper.com for coverage after May 27, 2026 to establish current status."
+    },
+    {
+      "moratorium_id": "mi-south-lyon-undated",
+      "outcome": "corrected",
+      "confidence": 0.45,
+      "changes": {
+        "date_enacted": {
+          "from": "[VERIFY]",
+          "to": "February 10, 2026 (per WKAR News statewide tracker; no South Lyon primary source located)",
+          "reason": "WKAR (Michigan public radio) published a tracker of Michigan data center moratoria on 2026-02-27 listing 'South Lyon - 12 months (Feb. 10, 2026)'. This is a secondary/news source; the City of South Lyon's own website (southlyonmi.org) and its AgendaCenter do not surface any data-center-related item."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "range",
+          "reason": "Only a news tracker confirms a date; no primary city document was found to verify it precisely."
+        },
+        "duration": {
+          "from": "[VERIFY]",
+          "to": "12 months (per WKAR News statewide tracker; not independently confirmed against a city ordinance/resolution)",
+          "reason": "Same WKAR tracker entry as above."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "365",
+          "reason": "12 months per the WKAR tracker; not independently confirmed."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "fixed_days",
+          "reason": "WKAR tracker describes a fixed 12-month term, consistent with peer Michigan communities' moratoria."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Only a secondary source (WKAR tracker, 2026-02-27) was found giving Feb. 10, 2026; lowering confidence accordingly since no primary South Lyon document could be located. City site (southlyonmi.org) checked directly: no data-center content found; AgendaCenter and city-code search paths both returned 404."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Same WKAR tracker gives 12 months; not independently confirmed against a primary document."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY]",
+          "resolution": "still_unverifiable",
+          "note": "Checked southlyonmi.org (homepage, AgendaCenter path, city-code search - all either showed no relevant content or 404'd), hometownlife.com (blocked by a bot-verification challenge page), and general web search (Bing/DuckDuckGo returned only unrelated 'South'-themed results due to name collision). No ordinance/resolution number found anywhere."
+        },
+        {
+          "field": "trigger",
+          "marker": "[VERIFY]",
+          "resolution": "still_unverifiable",
+          "note": "Same search limitations as legal_basis; no South Lyon-specific reporting on the board's stated rationale was found."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY]",
+          "resolution": "still_unverifiable",
+          "note": "No source (primary or news) discusses South Lyon's moratorium status after the February 2026 WKAR tracker entry; cannot confirm whether it is still active, extended, or lapsed as of 2026-07-31."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY]",
+          "resolution": "still_unverifiable",
+          "note": "No source identifies any specific project associated with South Lyon's moratorium."
+        },
+        {
+          "field": "outcome",
+          "marker": "[VERIFY]",
+          "resolution": "still_unverifiable",
+          "note": "No source describes any planning/ordinance process outcome for South Lyon specifically."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact",
+          "title": "Michigan data center tracker: moratoria, legislation and grid impact",
+          "publisher": "WKAR (Michigan State University public radio)",
+          "document_date": "2026-02-27",
+          "source_type": "news",
+          "supports": "Lists South Lyon among Michigan communities with a data center moratorium, giving a 12-month term dated Feb. 10, 2026.",
+          "quote": "South Lyon - 12 months (Feb. 10, 2026)"
+        }
+      ],
+      "notes": "South Lyon is the weakest-sourced item in this packet. Its own city website (southlyonmi.org) shows no trace of a data center moratorium anywhere a direct fetch could reach (homepage, AgendaCenter, city-code search), and hometownlife.com (the main local outlet for this part of Oakland County) is blocked behind a bot-verification wall. The only lead is a single line in a WKAR statewide tracker. Next pass should try contacting the South Lyon city clerk directly, or find an accessible mirror of hometownlife.com coverage."
+    },
+    {
+      "moratorium_id": "mi-dundee-township-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "expired",
+      "confidence": 0.75,
+      "changes": {
+        "date_enacted": {
+          "from": "[VERIFY: not confirmed; Monroe News Nov-2025 article URL returns 404 as of 2026-04-29; no Dundee Township meeting minutes accessible online]",
+          "to": "2025-12-09",
+          "reason": "Dundee Township's own site (dundeetownshipmi.org/data-center-battery-storage-updates/) hosts the scanned, signed Resolution 2025-5, certified by the Township Clerk as adopted at the regular Township Board meeting held December 9, 2025."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2025-12-09",
+          "reason": "See date_enacted."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Directly confirmed from the signed, certified resolution."
+        },
+        "duration": {
+          "from": "[VERIFY: terms not located; Monroe News reporting was the only public source identified and is no longer accessible]",
+          "to": "180 days from the effective date (December 9, 2025), or until the Township Board determines by resolution that the reasons for the moratorium no longer exist; no extension was found in Board minutes through July 14, 2026",
+          "reason": "Directly from the text of Resolution 2025-5, Sections 1 and 4."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "180",
+          "reason": "Per Resolution 2025-5."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "fixed_days",
+          "reason": "Fixed 180-day term, absent earlier Board termination."
+        },
+        "legal_basis": {
+          "from": "Township temporary moratorium referenced in reporting; [VERIFY: ordinance/resolution number not retrievable from Dundee Township website as of 2026-04-29]",
+          "to": "Dundee Township Resolution 2025-5, 'Establishing a Moratorium on Data Center Applications and Projects,' adopted December 9, 2025 (roll call: Trustees Lazette, Horkey, Jaworski, Miles, Treasurer Ost and Clerk Ziesmer voting aye; Supervisor Lewis absent)",
+          "reason": "Full text and vote record read directly from the signed resolution PDF posted on dundeetownshipmi.org."
+        },
+        "current_status": {
+          "from": "Reported active in December 2025; [VERIFY: no current confirmation available as of 2026-04-29 from primary township sources]",
+          "to": "Expired around June 7, 2026 (180 days after the December 9, 2025 effective date); no extension of Resolution 2025-5 and no permanent data-center zoning ordinance had been adopted as of the July 14, 2026 Board meeting. A Data Center Ordinance public workshop is scheduled for August 12, 2026 and the Planning Commission was to take the matter up again August 19, 2026",
+          "reason": "Reviewed Dundee Township Board of Trustees minutes for May 12, June 9, and July 14, 2026 (posted on dundeetownshipmi.org): none mentions extending Resolution 2025-5, and the July 14, 2026 minutes describe the permanent ordinance process as still in a legal-review/workshop-scheduling stage, meaning the original 180-day moratorium lapsed without a formal successor in place."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: not confirmed; Monroe News Nov-2025 article URL returns 404 as of 2026-04-29; no Dundee Township meeting minutes accessible online]",
+          "resolution": "corrected",
+          "note": "Found the signed resolution itself on dundeetownshipmi.org (not via Monroe News): adopted December 9, 2025, not the reported November 2025."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY: terms not located; Monroe News reporting was the only public source identified and is no longer accessible]",
+          "resolution": "corrected",
+          "note": "Confirmed 180 days from the resolution's own text."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: ordinance/resolution number not retrievable from Dundee Township website as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Resolution 2025-5 is posted directly on the township's own 'Data Center & Battery Storage Updates' page."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no current confirmation available as of 2026-04-29 from primary township sources]",
+          "resolution": "corrected",
+          "note": "Reviewed Board minutes through July 14, 2026: no extension found, and the 180-day term (expiring ~June 7, 2026) appears to have lapsed while the township works toward permanent zoning standards (public workshop Aug. 12, 2026; Planning Commission Aug. 19, 2026)."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://dundeetownshipmi.org/wp-content/uploads/2026/02/2025-6-Resolution-To-Extend-Data-Center-Moratorium-to-180-days-2025.pdf",
+          "title": "Dundee Township Resolution 2025-5, Establishing a Moratorium on Data Center Applications and Projects",
+          "publisher": "Dundee Township, Michigan (Clerk Karla Ziesmer)",
+          "document_date": "2025-12-09",
+          "source_type": "resolution",
+          "supports": "Signed, certified resolution establishing the moratorium: adoption date, 180-day term, vote, and stated rationale (developer approach re: large-scale data center project affecting Dundee Township, Milan Township, and the Village of Dundee).",
+          "quote": "the Dundee Township Board hereby adopts the following Moratorium as to data center projects: Section 1... For a period of 180 days from the effective date of this Resolution... Adopted December 9, 2025."
+        },
+        {
+          "url": "https://dundeetownshipmi.org/data-center-battery-storage-updates/",
+          "title": "Data Center & Battery Storage Updates",
+          "publisher": "Dundee Township, Michigan",
+          "document_date": "2026-07",
+          "source_type": "other",
+          "supports": "Township landing page hosting the moratorium resolution and related data-center zoning study documents.",
+          "quote": "Moratorium Renewal 12-9-25"
+        },
+        {
+          "url": "https://dundeetownshipmi.org/meeting_minutes/july-14-2026-unapproved/",
+          "title": "Dundee Township Board of Trustees Meeting Minutes, July 14, 2026 (unapproved)",
+          "publisher": "Dundee Township, Michigan",
+          "document_date": "2026-07-14",
+          "source_type": "minutes",
+          "supports": "Confirms no permanent data center ordinance had been adopted as of this meeting, and that a public workshop was scheduled for August 12, 2026, meaning the moratorium's own 180-day term had lapsed without a formal successor.",
+          "quote": "the Data Center Ordinance Public Workshop has been scheduled for Wednesday, August 12, 2026"
+        }
+      ],
+      "notes": "The packet's marker text pointed to a dead Monroe News URL, but the township's own site independently hosts the signed resolution -- Resolution 2025-5, adopted December 9, 2025 (not November 2025 as previously reported), for a 180-day term. Checking Board minutes through mid-July 2026 found no extension, so the moratorium appears to have lapsed around June 7, 2026 while the permanent zoning-ordinance process continues (workshop Aug. 12, 2026). Recommend flagging enacted_status as 'expired' rather than 'active'."
+    },
+    {
+      "moratorium_id": "mi-manchester-township-2025",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.7,
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no replacement ordinance found on Manchester Township site as of 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Reviewed Manchester Township Board of Trustees minutes for March 11 (special meeting and public hearing), June 9, and the July 14, 2026 agenda, plus the Planning Commission's May 14, 2026 public hearing minutes, all posted on twp-manchester.org. None mentions Ordinance No. 116, a data center moratorium, or any replacement/permanent data center zoning ordinance -- the Board's business in this period concerned a trail-segment grant application and an RV resort conditional use permit. Absent any contrary action, Ordinance No. 116 (2 years or until data center regulations are adopted, per the existing record) remains in force."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://twp-manchester.org/wp-content/uploads/2026/07/June-9-2026-Meeting-Minutes.pdf",
+          "title": "Manchester Township Regular Board Meeting Minutes, June 9, 2026",
+          "publisher": "Manchester Township, Michigan",
+          "document_date": "2026-06-09",
+          "source_type": "minutes",
+          "supports": "Full agenda of township board business for this meeting contains no reference to data centers, Ordinance No. 116, or any replacement zoning ordinance, supporting that no action has been taken to end or replace the moratorium.",
+          "quote": "NEW BUSINESS: None. OLD BUSINESS: None."
+        },
+        {
+          "url": "https://twp-manchester.org/wp-content/uploads/2026/04/March-11-2026-Special-Meeting-Minutes.pdf",
+          "title": "Manchester Township Special Board Meeting Minutes, March 11, 2026",
+          "publisher": "Manchester Township, Michigan",
+          "document_date": "2026-03-11",
+          "source_type": "minutes",
+          "supports": "Confirms the only business at this special meeting was a Natural Resources Trust Fund grant application for a trail segment, not data center zoning.",
+          "quote": "Resolution No. 26-04 'Resolution Authorizing Application to the Michigan Natural Resources Trust Fund in Support of the Construction of Watkins Lake Trail Segment 2'"
+        }
+      ],
+      "notes": "No changes made. Checked five sets of official Manchester Township meeting minutes/agendas spanning March-July 2026 for any sign of a replacement or repeal of Ordinance No. 116; found none, so the record's 'Active as of 2026-04-29' status is confirmed to extend to 2026-07-31 as well."
+    },
+    {
+      "moratorium_id": "mi-saugatuck-township-2026",
+      "outcome": "corrected",
+      "confidence": 0.4,
+      "changes": {
+        "outcome": {
+          "from": "Pending [VERIFY: no outcome information identified]",
+          "to": "Pending; Saugatuck Township Planning Commission has scheduled a public hearing for August 18, 2026 to consider amending the Table of Uses (Section 4.30) and adding a new Section 8.370 to the Zoning Ordinance regulating battery storage, digital mining, and small-, medium-, and hyperscale data center uses as special land uses in the I-1 district",
+          "reason": "Directly from a Notice of Public Hearing (dated July 16, 2026) posted on saugatucktownshipmi.gov, found while searching for the original moratorium resolution. This confirms the township is actively moving toward permanent zoning standards, which is the outcome the moratorium was meant to produce."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: exact adoption date not located; Saugatuck Township website (saugatucktownship.org / twp.saugatuck.mi.us) was unreachable from the fetch_url Playwright stack on 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "The correct current domain is saugatucktownshipmi.gov (the two URLs cited in the prior pass are stale/incorrect). That site was reached directly in this pass and its 'Data Center/Digital Mining/Battery Storage' materials list only a July 16, 2026 public hearing notice for a permanent zoning amendment; the original moratorium resolution itself (date, number) was not found posted there or via web search."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY: not located in primary or secondary sources accessible as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Same search; no moratorium resolution document was located to confirm a duration."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: resolution/ordinance text not retrieved from township site as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Same search; saugatucktownshipmi.gov's public notices page currently surfaces only the August 18, 2026 zoning-amendment hearing, not the original moratorium instrument."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no current confirmation from primary township source as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "The scheduling of an August 18, 2026 hearing on permanent data center zoning standards is consistent with a still-active moratorium (the township has not yet adopted final standards), but this is inferential rather than a direct confirmation that a moratorium remains formally in effect."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: no affected-project information identified]",
+          "resolution": "still_unverifiable",
+          "note": "No project-specific information found in the township's public notices or web search."
+        },
+        {
+          "field": "outcome",
+          "marker": "[VERIFY: no outcome information identified]",
+          "resolution": "corrected",
+          "note": "Found and directly fetched the township's July 16, 2026 public hearing notice for permanent data center/battery storage/digital mining zoning standards (Section 8.370), which is a concrete outcome update."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://saugatucktownshipmi.gov/wp-content/uploads/2026/07/ST-Notice-of-Public-Hearing-Data-Center-Amendments-002.pdf",
+          "title": "Saugatuck Township Notice of Public Hearing to Consider Zoning Ordinance Amendments",
+          "publisher": "Saugatuck Township, Michigan",
+          "document_date": "2026-07-16",
+          "source_type": "agenda",
+          "supports": "Confirms the Planning Commission has scheduled an August 18, 2026 public hearing to add permanent data center/battery storage/digital mining zoning standards, showing the moratorium-era study process is nearing completion.",
+          "quote": "The purpose of the hearing is to consider a proposed ordinance would amend the Table of Uses in Section 4.30 of the Zoning Ordinance and add a new Section 8.370 to regulate battery storage, digital mining, and small-scale, medium-scale, and hyperscale data center uses as special land uses in the I-1 district."
+        }
+      ],
+      "notes": "The prior pass's cited township domains (saugatucktownship.org, twp.saugatuck.mi.us) are wrong/stale; the live site is saugatucktownshipmi.gov, which was reachable in this pass. It does not, however, post the original moratorium resolution itself -- only forward-looking zoning-amendment materials culminating in an August 18, 2026 public hearing. Next pass should check the township's Board of Trustees (not Planning Commission) minutes archive directly for the original moratorium vote, and/or call the township clerk (269-857-7721)."
+    },
+    {
+      "moratorium_id": "mi-sault-ste-marie-tribe-of-chippewa-indian-2026",
+      "outcome": "unresolvable",
+      "confidence": 0.6,
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: final assigned resolution number was left blank in the agenda packet and has not been published on saulttribe.com as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Fetched the Tribe's own April 7, 2026 Board of Directors meeting announcement packet directly (saulttribe.com/images/4.7.26_BoD_Meeting_Announcement_Packet.pdf). It confirms the agenda item 'Moratorium Prohibiting AI Data Centers,' sponsored by Directors Hampton and Sorenson, and includes the full draft resolution text, but the resolution number field itself is blank ('RESOLUTION NO: ____________' / 'Resolution No: ____________') in both places it appears in the packet -- confirming the prior researcher's finding rather than resolving it. Also checked saulttribe.com/newsroom (general listing and the specific April 7 meeting article) for any later-published resolution number: none found. No subsequent BOD meeting packet (checked the site's newsroom listing generally) was found that assigns or cross-references a final number for this specific resolution."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.saulttribe.com/images/4.7.26_BoD_Meeting_Announcement_Packet.pdf",
+          "title": "Sault Tribe Board of Directors Meeting Announcement Packet, April 7, 2026",
+          "publisher": "Sault Ste. Marie Tribe of Chippewa Indians",
+          "document_date": "2026-04-07",
+          "source_type": "agenda",
+          "supports": "Full draft text of the resolution establishing the AI data center moratorium, confirming its title, sponsors, and operative language, but showing the resolution number field left blank.",
+          "quote": "ESTABLISHING A MORATORIUM PROHIBITING THE DEVELOPMENT, APPROVAL, OR OPERATION OF ARTIFICIAL INTELLIGENCE (AI) DATA CENTERS ON TRIBAL LANDS ... Resolution No: ____________ ... Establishing a Moratorium Prohibiting the Development, Approval, or Operation of Artificial Intelligence (AI) Data Centers on Tribal Lands - Directors' Hampton, Sorenson"
+        },
+        {
+          "url": "https://www.saulttribe.com/newsroom/9313-sault-tribe-board-meets-april-7-in-sault-ste-marie",
+          "title": "Sault Tribe Board meets April 7 in Sault Ste. Marie",
+          "publisher": "Sault Ste. Marie Tribe of Chippewa Indians",
+          "document_date": "2026-04-02",
+          "source_type": "agenda",
+          "supports": "Public-facing meeting announcement confirming the moratorium resolution was on the agenda for the April 7, 2026 Board meeting, and links to the full packet.",
+          "quote": "Moratorium Prohibiting AI Data Centers"
+        }
+      ],
+      "notes": "This pass materially strengthens the record even though the marker itself stays open: it directly confirms (via the Tribe's own agenda packet, not secondary reporting) the exact resolution text, sponsors, and indefinite duration/lifting conditions, and independently verifies that the resolution number really was left blank in the Tribe's own document rather than merely omitted from news coverage. No official Sault Tribe source (checked newsroom listing and the specific meeting article) has since published a final number."
+    },
+    {
+      "moratorium_id": "mi-taylor-undated",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "date_enacted": {
+          "from": "[VERIFY]",
+          "to": "2026-01-20",
+          "reason": "Directly confirmed from the City of Taylor's own official Council meeting minutes (cityoftaylor.com/AgendaCenter), which record adoption at the January 20, 2026 regular meeting."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-01-20",
+          "reason": "See date_enacted."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Confirmed by official minutes."
+        },
+        "duration": {
+          "from": "[VERIFY]",
+          "to": "12 months, from January 20, 2026 at 11:59 p.m. through January 20, 2027 at 11:59 p.m.",
+          "reason": "Direct quote from the official Council minutes (CCR #1.42-26)."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "365",
+          "reason": "12 months per the official minutes."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "fixed_days",
+          "reason": "Fixed 12-month term with explicit start/end timestamps."
+        },
+        "legal_basis": {
+          "from": "City moratorium action [VERIFY]",
+          "to": "Taylor City Council Resolution, CCR #1.42-26, adopted unanimously (7-0) at the January 20, 2026 regular meeting",
+          "reason": "Directly from the official Council minutes for the January 20, 2026 meeting."
+        },
+        "current_status": {
+          "from": "Active [VERIFY]",
+          "to": "Active; the 12-month term (through January 20, 2027) has not lapsed and no repeal was found",
+          "reason": "The 12-month term runs through Jan. 20, 2027, well past the 2026-07-31 research date; no news or city source found reporting repeal or replacement."
+        },
+        "affected_projects": {
+          "from": "Not specified [VERIFY]",
+          "to": "Not specified in the resolution itself",
+          "reason": "The Council minutes record only the moratorium's scope (applications, permits, site plans for data centers/data storage facilities), not any named project."
+        },
+        "outcome": {
+          "from": "Pending [VERIFY]",
+          "to": "Pending; city officials have indicated they are reviewing the Master Plan and existing ordinances during the moratorium period",
+          "reason": "Consistent with news coverage (WKAR tracker and other outlets) of the broader Michigan data-center moratorium wave describing the purpose of Taylor's action; not independently verified against a city planning document in this pass."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Confirmed 2026-01-20 directly from the City of Taylor's official council minutes PDF (cityoftaylor.com/AgendaCenter)."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Confirmed 12 months (Jan. 20, 2026 11:59pm through Jan. 20, 2027 11:59pm) from the same minutes."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Confirmed as Council Resolution CCR #1.42-26, unanimous 7-0 vote, from the official minutes."
+        },
+        {
+          "field": "trigger",
+          "marker": "[VERIFY]",
+          "resolution": "still_unverifiable",
+          "note": "The minutes record only the motion and vote, not a 'whereas' rationale; no separate staff report or ordinance recital was located in this pass to replace the generic 'regional wave' description."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Confirmed active given the 12-month term runs through Jan. 20, 2027; no repeal found."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY]",
+          "resolution": "confirmed",
+          "note": "No specific project is named in the official minutes; 'Not specified' stands as accurate."
+        },
+        {
+          "field": "outcome",
+          "marker": "[VERIFY]",
+          "resolution": "still_unverifiable",
+          "note": "Could not independently verify a specific planning-process outcome beyond the moratorium's stated scope; general 'Pending' retained rather than invented specifics."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cityoftaylor.com/AgendaCenter/ViewFile/Minutes/_01202026-831",
+          "title": "City of Taylor Council Minutes, Regular Meeting, January 20, 2026",
+          "publisher": "City of Taylor, Michigan",
+          "document_date": "2026-01-20",
+          "source_type": "minutes",
+          "supports": "Official council minutes recording the unanimous adoption of a 12-month data center moratorium, including the exact CCR number, movant/supporter, and effective/expiration timestamps.",
+          "quote": "Resolved: To adopt a twelve (12) month moratorium on the acceptance and processing of any applications, permits, and/or site plans for any data centers or similar data storage facilities in the City of Taylor for a period of twelve (12) months from January 20, 2026, at 11:59 P.M. until January 20, 2027, at 11:59 P.M.. ... Unanimously carried CCR #: 1.42-26"
+        }
+      ],
+      "notes": "The single strongest primary source recovered in this packet: the City of Taylor's own signed council minutes, fetched directly, resolve five of seven markers outright."
+    },
+    {
+      "moratorium_id": "mi-grand-blanc-township-2026",
+      "outcome": "unresolvable",
+      "confidence": 0.5,
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: ordinance or resolution number not located on Grand Blanc Township website as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Checked grandblanctwpmi.gov directly (homepage navigation, /177/Agendas-Minutes-Videos page): the township's actual agenda/minutes archive is hosted on an external portal (grandblanctwpmi.documents-on-demand.com) that returned HTTP 403 Forbidden to a direct fetch and could not be searched. News coverage (The Midwesterner, MSN, Newsbreak, WN.com, all found via DuckDuckGo) confirms the one-year moratorium was approved around January 21-27, 2026, but none of the four articles state a resolution/ordinance number; themidwesterner.news returned HTTP 403 and newsbreak.com returned no content to a direct fetch. No resolution number was found in any accessible source."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.grandblanctwpmi.gov/",
+          "title": "Grand Blanc Township, Michigan - Official Website",
+          "publisher": "Grand Blanc Township, Michigan",
+          "document_date": "2026-07",
+          "source_type": "other",
+          "supports": "Confirms the township's own site does not surface a data-center moratorium ordinance/resolution number on its main navigation, and that its agenda/minutes archive is hosted on a separate portal.",
+          "quote": "Agendas and Minutes /177/Agendas-Minutes-Videos"
+        }
+      ],
+      "notes": "Grand Blanc Township's meeting-document archive (grandblanctwpmi.documents-on-demand.com) is not reachable by a standard fetch (403 Forbidden), and the news coverage that does exist for this one-year moratorium (approved ~Jan. 21, 2026) does not include a resolution number. Next pass should try the documents-on-demand portal with a browser-based tool, or call the township clerk (810-424-2600)."
+    },
+    {
+      "moratorium_id": "mi-green-charter-township-2025",
+      "outcome": "corrected",
+      "confidence": 0.7,
+      "changes": {
+        "legal_basis": {
+          "from": "Board resolution enacting temporary moratorium; [VERIFY: resolution number not posted on Green Charter Township website as of 2026-04-29]",
+          "to": "Adopted by board motion (Riebow/Thorne) at the December 9, 2025 regular Township Board meeting, unanimous roll call vote, with an amendment adding to Section 3 that the moratorium 'may be rescinded by vote of the board if or when deemed necessary'; the official minutes do not assign a separate numbered resolution to this action",
+          "reason": "Directly transcribed (via OCR) from the township's own scanned December 9, 2025 meeting minutes, posted at greentownship.org/meetings-minutes. The minutes record the moratorium as a board motion, not a document bearing its own resolution number, which is likely why no number was ever posted."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: resolution number not posted on Green Charter Township website as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Retrieved and OCR'd the township's own scanned Dec. 9, 2025 board meeting minutes. They record the moratorium as adopted by board motion (no separate numbered resolution document is referenced), which likely explains why no 'resolution number' has ever been posted -- there may not be one to post."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.greentownship.org/_files/ugd/958d79_8792d9dd45f7444b9f5ab2a38ee04a33.pdf",
+          "title": "Green Charter Township Board Meeting Minutes, December 9, 2025",
+          "publisher": "Green Charter Township, Mecosta County, Michigan",
+          "document_date": "2025-12-09",
+          "source_type": "minutes",
+          "supports": "Official minutes recording the board's motion and unanimous roll-call vote to adopt the Data Center Temporary Moratorium, including an amendment adding a rescission clause.",
+          "quote": "A motion was made by Riebow to adopt the Data Center Temporary Moratorium with an amendment to section 3, 'May be rescinded by vote of the board if or when deemed necessary.'. Supported by Thorne. Motion was passed unanimously on a roll call vote."
+        }
+      ],
+      "notes": "The minutes were a scanned image PDF with no text layer; OCR (tesseract) was required to read them. The moratorium appears to have been adopted purely by board motion rather than as a separately-numbered resolution, which is a plausible explanation for why a 'resolution number' was never found -- this is itself useful information for closing out the marker rather than continuing to search for a number that may not exist."
+    },
+    {
+      "moratorium_id": "mi-mason-2026",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "changes": {
+        "date_enacted": {
+          "from": "January 2026 [VERIFY: exact date not confirmed; Mason City Council CivicEngage agenda center not searched in this pass]",
+          "to": "2026-01-05",
+          "reason": "Directly confirmed from the City of Mason's own January 5, 2026 Council meeting minutes: Ordinance 267 ('An Ordinance to Establish a Moratorium on the Approval of Data Centers as a Land Use in the City') received its introduction/first reading and passage 4-2 at this meeting, with a fixed expiration of March 15, 2026 stated in contemporaneous local reporting."
+        },
+        "date_enacted_iso": {
+          "from": "2026-01",
+          "to": "2026-01-05",
+          "reason": "See date_enacted."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Confirmed via the city's own council minutes."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: exact date not confirmed; Mason City Council CivicEngage agenda center not searched in this pass]",
+          "resolution": "corrected",
+          "note": "Fetched the City of Mason's own January 5, 2026 Council meeting minutes (mason.mi.us document center, mirrored at cms7files.revize.com/masonmi). They record Ordinance 267's first reading and 4-2 passage that night, and a contemporaneous Mid Michigan Gazette article confirms the ordinance 'establishes a 90-day moratorium on approving data centers as a land use in the City of Mason, set to expire on March 15, 2026,' matching the existing 90-day/March 15 fields exactly. Council separately deferred the underlying M-3 rezoning (Ordinance 266) to its Feb. 2, 2026 meeting."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://cms7files.revize.com/masonmi/document_center/Governments/City%20Council/2025%20City%20Council%20Documents/01_05_2026%20-%20CC%20Minutes%20-%20Final.pdf",
+          "title": "City of Mason Regular City Council Meeting Minutes, January 5, 2026",
+          "publisher": "City of Mason, Michigan",
+          "document_date": "2026-01-05",
+          "source_type": "minutes",
+          "supports": "Official council minutes recording the vote to read and adopt Ordinance 267, establishing the data center moratorium, at the January 5, 2026 meeting.",
+          "quote": "Ordinance 267: Reading and Adoption of an Ordinance to Establish a Moratorium on the Approval of Data Centers as a Land Use in the City ... Yes (4) Droscha, Ferris, Preadmore, Whipple No (2) Husby, Schaer ORIGINAL MOTION APPROVED"
+        },
+        {
+          "url": "https://midmichigangazette.com/2026/01/06/mason-city-council-community-spar-over-data-center-regulations-more/",
+          "title": "Mason City Council, community spar over data center regulations & more",
+          "publisher": "Mid Michigan Gazette",
+          "document_date": "2026-01-06",
+          "source_type": "news",
+          "supports": "Confirms Ordinance 267 establishes a 90-day moratorium expiring March 15, 2026, and gives the 4-2 vote and context for the deferred M-3 rezoning ordinance (266).",
+          "quote": "establishes a 90-day moratorium on approving data centers as a land use in the City of Mason, set to expire on March 15, 2026"
+        }
+      ],
+      "notes": "Clarifies that Ordinance 267 (not 266) is the moratorium instrument itself; Ordinance 266 is the separate Technology Innovation (M-3) rezoning ordinance whose later repeal is already reflected in the existing 'current_status'/'outcome' fields (not disturbed by this pass). Only the date_enacted marker was flagged for this row, and it is now resolved to 2026-01-05."
+    },
+    {
+      "moratorium_id": "mi-romeo-2026",
+      "outcome": "corrected",
+      "confidence": 0.75,
+      "changes": {
+        "duration": {
+          "from": "1 year [VERIFY: duration cited from secondary reporting; villageofromeomi.gov front page does not surface the resolution as of 2026-04-29]",
+          "to": "12 months",
+          "reason": "Confirmed by the Village's own published public-notice synopsis of the February 23, 2026 Board of Trustees meeting (via The Record), which quotes the resolution's operative language directly."
+        },
+        "legal_basis": {
+          "from": "Village Board of Trustees moratorium action; [VERIFY: ordinance/resolution number not posted on villageofromeomi.gov as of 2026-04-29]",
+          "to": "Resolution No. 26-013, adopted unanimously by the Village Board of Trustees (motion by Trustee Parker, supported by Trustee Fowler)",
+          "reason": "Confirmed by the same public-notice synopsis, which is the Village's own official account of its February 23, 2026 meeting (published as required notice, not independent journalism)."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "duration",
+          "marker": "[VERIFY: duration cited from secondary reporting; villageofromeomi.gov front page does not surface the resolution as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "villageofromeomi.gov itself does not appear to post the resolution (its ordinances page and Municode-hosted code only reference the general code, not standalone resolutions), but the Village's own required public-notice synopsis of the Feb. 23, 2026 meeting (published via The Record, myrecordnewspaper.com/?p=137650) directly quotes the 12-month term."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: ordinance/resolution number not posted on villageofromeomi.gov as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Same public-notice synopsis gives Resolution No. 26-013 and the unanimous vote/movant detail. villageofromeomi.gov's own site (checked directly: homepage, /oridnances/ page, romeo.municipalcodeonline.com) still does not surface this resolution number independently."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no current status update from primary village source as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "No Village or news source found discussing the moratorium's status after the Feb. 23, 2026 meeting synopsis. The 12-month term (from the Jan. 26, 2026 date already on record) would run to Jan. 26, 2027, so it is very likely still active, but this pass found no direct confirmation for the 2026-07-31 research date."
+        },
+        {
+          "field": "outcome",
+          "marker": "[VERIFY: no draft regulations posted on village website as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "villageofromeomi.gov's ordinances page and public records portal (romeovillagemi.documents-on-demand.com, which returned HTTP 403 to a direct fetch) do not show any draft permanent data center regulations as of this pass."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.myrecordnewspaper.com/?p=137650",
+          "title": "PUBLIC NOTICE - SYNOPSIS VILLAGE OF ROMEO REGULAR BOARD MEETING FEBRUARY 23, 2026",
+          "publisher": "Village of Romeo, Michigan (official meeting synopsis, published via The Record)",
+          "document_date": "2026-02-23",
+          "source_type": "minutes",
+          "supports": "Village's own official meeting-action synopsis identifying Resolution No. 26-013 and its 12-month term, unanimously adopted.",
+          "quote": "place a twelve (12) month moratorium on the establishment, permitting, consideration, approval, construction and/or installation of data centers within the Village of Romeo"
+        }
+      ],
+      "notes": "villageofromeomi.gov itself remains unhelpful (no resolution index; its document-on-demand public-records portal 403'd on direct fetch), but the Village's own legally-required public-notice synopsis of its Feb. 23, 2026 meeting (published in The Record) supplied the resolution number and confirmed the duration in the resolution's own words."
+    }
+  ],
+  "new_candidates": []
+}

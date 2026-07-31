@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Indiana as of April 2026.
 
-**11 instruments** — 9 in force, 0 pending, 2 past. Activity level: **High**.
+**20 instruments** — 15 in force, 3 pending, 2 past. Activity level: **High**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

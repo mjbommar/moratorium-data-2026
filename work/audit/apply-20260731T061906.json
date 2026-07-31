@@ -1,0 +1,1211 @@
+{
+  "applied_at": "20260731T061906",
+  "answer_files": [
+    "work/answers/status/CA.json",
+    "work/answers/status/CO.json",
+    "work/answers/status/CT.json",
+    "work/answers/status/GA.json",
+    "work/answers/status/IA.json",
+    "work/answers/status/KS.json",
+    "work/answers/status/MA.json",
+    "work/answers/status/MD.json",
+    "work/answers/status/MO.json",
+    "work/answers/status/NC.json",
+    "work/answers/status/NE.json",
+    "work/answers/status/NY.json",
+    "work/answers/status/OK.json",
+    "work/answers/status/TN.json",
+    "work/answers/status/WA.json"
+  ],
+  "stats": {
+    "outcome:status_changed": 24,
+    "fields_changed": 102,
+    "status_changed": 20,
+    "verify_confirmed": 9,
+    "verify_resolved_via_field_rewrite": 23,
+    "verify_corrected": 15,
+    "candidates_added": 23,
+    "verify_still_open": 14,
+    "outcome:unresolvable": 4,
+    "outcome:confirmed_unchanged": 11,
+    "candidate_same_jurisdiction_distinct_instrument": 3,
+    "outcome:corrected": 3
+  },
+  "conflicts": [],
+  "skipped": [
+    "GA.json: ga-covington-2026 unresolvable",
+    "MA.json: ma-gill-2026 unresolvable",
+    "MA.json: ma-heath-2026 unresolvable",
+    "MD.json: md-proposed-or-rejected-local-pauses-undated unresolvable"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "ca-el-monte-2026",
+      "column": "date_enacted",
+      "before": "2026-03-18 (initial adoption per March 18 agenda Item 8.1, Interim Urgency Ordinance No. 3063); 2026-04-22 extension public hearing scheduled per April 22 agenda Item 13.1 [VERIFY signed Ord. 3063 minutes; Ord. 3065 adoption vote \u2014 minutes not yet posted to El Monte Agenda Center as of 2026-04-29; April 22 agenda confirmed Ord. 3065 was on the agenda for adoption at that meeting]",
+      "after": "2026-03-18 (Interim Urgency Ordinance No. 3063, adopted by a 7-0 vote at a Concurrent Special Meeting, per published City Council minutes); extended by Interim Urgency Ordinance No. 3065, adopted by a 7-0 vote at the Regular Meeting of 2026-04-22 following a public hearing and receipt of the Gov. Code section 65858(d) report, per published minutes",
+      "reason": "El Monte's published Concurrent Special Meeting minutes for 2026-03-18 and Regular Meeting minutes for 2026-04-22 confirm both the initial adoption of Ord. 3063 and the 2026-04-22 adoption of the extension Ord. 3065, each by unanimous 7-0 vote, resolving the prior VERIFY marker.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-el-monte-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Adoption date and vote are directly confirmed by published El Monte City Council minutes for the 2026-03-18 Concurrent Special Meeting.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-el-monte-2026",
+      "column": "duration",
+      "before": "Initial 45 days; 10 months and 15 days extension noticed for 2026-04-22 hearing",
+      "after": "Initial 45 days (Ord. 3063, term would have run through approximately 2026-05-02); extended 10 months and 15 days by Ord. 3065, adopted 2026-04-22. Under Gov. Code section 65858(a), the initial ordinance plus this first extension together cannot exceed one year from initial adoption, placing the current expiration at approximately 2027-04-13/14 (45 days + 10 months 15 days = 12 months from 2026-03-18). The exact date is not stated verbatim in the minutes reviewed and is calculated from the statutory ceiling, not quoted from a source.",
+      "reason": "Confirmed via published minutes that Ord. 3065 extends the moratorium by 10 months and 15 days; the resulting expiration date is a calculation from the Gov. Code 65858(a) one-year ceiling on the combined initial-plus-first-extension period, since no source located states the new expiration date verbatim.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-el-monte-2026",
+      "column": "current_status",
+      "before": "Per March 18 agenda the 45-day moratorium was adopted; the April 22 published agenda put Ord. 3065 (extension) up for adoption with an exemption-from-CEQA finding; written minutes for either meeting were not posted on the El Monte Agenda Center as of 2026-04-29 [VERIFY adoption vote count via published minutes when posted]",
+      "after": "Active under Interim Urgency Ordinance No. 3065 (the 10-month-15-day extension of Ord. 3063), adopted by a 7-0 vote on 2026-04-22 following a public hearing and receipt of the Gov. Code section 65858(d) report. Direct review of subsequent El Monte City Council minutes through 2026-07-08 (the most recent minutes located) found no further extension and no permanent data-center zoning ordinance adopted.",
+      "reason": "Published minutes for the 2026-04-22 meeting confirm adoption and vote count; minutes for the intervening 2026-05-13, 05-27, 06-10, 06-17, and 07-08 meetings were reviewed directly and show no further council action on data centers.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-el-monte-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "No record of any data-center-related item was found in El Monte City Council minutes for 2026-05-13, 2026-05-27, 2026-06-10, 2026-06-17, or 2026-07-08 (the most recent minutes located as of this pass); no permanent zoning ordinance had been adopted through that date. enacted_status updated from 'active' to 'extended' to reflect that the city is now operating under the first Gov. Code 65858 extension, consistent with how this inventory codes other extended instruments (e.g., Larimer County, CO). The 2026-07-22 agenda packet exists but approved minutes for that meeting were not located; status beyond 2026-07-08 is not independently confirmed.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-oakley-2026",
+      "column": "current_status",
+      "before": "Active through about 2026-05-29 unless extended",
+      "after": "Active under a first extension: the Oakley City Council adopted an urgency ordinance on 2026-05-12 (5-0 vote) extending the original 45-day moratorium by 10 months and 15 days. Under Gov. Code 65858(a), combined with the initial 45-day term this reaches the statutory one-year ceiling from initial adoption (2026-04-14), placing the current expiration at approximately 2027-04-13/14. No permanent data-center zoning ordinance had been adopted by Oakley as of the most recent primary record reviewed (2026-05-12 minutes); a joint Council/Planning Commission work session on data centers was reported by Contra Costa News for 2026-07-21, but that report was not independently corroborated with a primary agenda in this pass.",
+      "reason": "Directly confirmed via published Oakley City Council minutes for the 2026-05-12 meeting, item 5.2.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-oakley-2026",
+      "column": "legal_basis",
+      "before": "Urgency ordinance, April 14, 2026 agenda item 6.1; Oakley public document portal (mmxsilo) lists Ords. 3-26 and 4-26 (Bridgehead, 2026-03-24) as the most recent ordinances posted as of 2026-04-29, with no urgency-ordinance number yet recorded for the data center moratorium [VERIFY signed ordinance number \u2014 likely 5-26 sequentially but not yet posted to public portal]",
+      "after": "Urgency ordinance adopted by a 5-0 vote at the April 14, 2026 Oakley City Council meeting (item 6.1), per published minutes; extended by a second urgency ordinance adopted 5-0 on 2026-05-12 (item 5.2). Ordinance No. 5-26, adopted at the same April 14 meeting, is confirmed to be a different, unrelated ordinance (administrative citation-hearing procedures) \u2014 not the data center moratorium. The moratorium ordinance was introduced under a placeholder number and its final assigned ordinance number was not stated in the minutes obtained [VERIFY exact assigned ordinance number for the April 14, 2026 urgency ordinance and its May 12, 2026 extension]",
+      "reason": "Published April 14, 2026 minutes show Ordinance No. 5-26 was adopted as a separate consent-calendar item (citation-hearing procedures), ruling out the prior guess that it was the data center ordinance; the moratorium ordinance's own item (6.1) does not state an assigned number in the minutes.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-oakley-2026",
+      "column": "duration",
+      "before": "45 days; eligible for statutory extensions under Gov. Code section 65858",
+      "after": "45 days from 2026-04-14, extended 10 months and 15 days by a second urgency ordinance adopted 2026-05-12 (5-0 vote); the combined term runs to the Gov. Code 65858(a) one-year statutory ceiling, approximately 2027-04-13/14.",
+      "reason": "Confirmed via published minutes of the 2026-05-12 Oakley City Council meeting (item 5.2).",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-oakley-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "The April 14 minutes record Council direction to staff 'to make an effort to provide information to consider a permanent ban by year-end,' i.e., a permanent ordinance was targeted for adoption by end of 2026 but had not been adopted as of the most recent primary record reviewed (2026-05-12 minutes).",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-imperial-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "California / Imperial County",
+      "reason": "News source only; no primary county resolution/ordinance was retrieved in this pass, so the exact legal instrument number and precise duration terms are unconfirmed. Adopted after the inventory's 2026-04-28 coverage cutoff.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "co-larimer-county-2026",
+      "column": "current_status",
+      "before": "Active through 2026-08-25.",
+      "after": "Active through 2026-02-25, 2027, per a second extension resolution signed 2026-07-13 (recorded 2026-07-14, Clerk & Recorder Reception No. 20260034886), following a 2026-07-13 public hearing. No Land Use Code amendments addressing data centers had been adopted as of that extension; a public survey that closed 2026-06-12 reportedly found 94% of respondents opposed to data center construction.",
+      "reason": "Directly confirmed by reading the recorded extension resolution itself (Reception No. 20260034886), which states the moratorium is extended six more months through and including February 25, 2027, because the Land Use Code regulatory process had not been completed.",
+      "source": "CO.json"
+    },
+    {
+      "moratorium_id": "co-larimer-county-2026",
+      "column": "duration",
+      "before": "Initial 30 days; extended until 2026-08-25",
+      "after": "Initial 30 days from 2026-01-27 (Resolution, Reception No. 20260005307); extended six months to 2026-08-25 by a resolution signed 2026-04-07 (Reception No. 20260016505), following a 2026-02-09 public hearing; extended a second time, six more months, to 2026-02-25 (2027), by a resolution signed 2026-07-13 (Reception No. 20260034886), following a 2026-07-13 public hearing.",
+      "reason": "All three reception numbers and dates were confirmed by directly reading the recorded PDF resolutions on larimer.gov.",
+      "source": "CO.json"
+    },
+    {
+      "moratorium_id": "co-larimer-county-2026",
+      "column": "legal_basis",
+      "before": "Resolution to Establish a Temporary Moratorium on Data Center Facilities in Larimer County, Colorado, adopted 2026-01-27 (initial 30 days), then extended to 2026-08-25 by Board action 2026-02-09 following public hearing. Captured PDFs are image-based; resolution number not extractable from OCR but text is on file at larimer.gov [VERIFY: numeric resolution citation requires Larimer County Recorder lookup].",
+      "after": "Resolution to Establish a Temporary Moratorium on Data Center Facilities in Larimer County, Colorado, signed 2026-01-27, Larimer County Clerk & Recorder Reception No. 20260005307 (initial 30 days); Resolution to Establish a Temporary Moratorium on Data Center Facilities in Larimer County, Colorado (extension), signed 2026-04-07, Reception No. 20260016505 (extends through 2026-08-25, following the 2026-02-09 hearing); Resolution to Extend the Temporary Moratorium on Data Center Facilities in Larimer County, Colorado, signed 2026-07-13, Reception No. 20260034886 (extends through 2026-02-25, 2027, following the 2026-07-13 hearing). Authority cited: C.R.S. section 30-28-121 (temporary regulations, not to exceed six months).",
+      "reason": "Larimer County does not appear to assign sequential numbered resolutions for this action; the Clerk & Recorder reception number is the operative citation and was confirmed by directly reading all three recorded PDFs.",
+      "source": "CO.json"
+    },
+    {
+      "moratorium_id": "co-denver-2026",
+      "column": "date_enacted",
+      "before": "Not enacted as of 2026-04-29; public hearing scheduled 2026-05-18",
+      "after": "2026-05-18 (City Council final passage of Council Bill 26-0431 at second reading/public hearing, unanimous); signed by the Mayor 2026-05-20; effective 2026-05-21",
+      "reason": "Confirmed via Denver's Legistar legislative history for the bill (action history shows final passage 5/18/2026 and mayoral signature 5/20/2026) and via the Council staff slide deck's own timeline and 'effective date (May 21)' language.",
+      "source": "CO.json"
+    },
+    {
+      "moratorium_id": "co-denver-2026",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-05-18",
+      "reason": "Date of City Council final passage, per Legistar action history.",
+      "source": "CO.json"
+    },
+    {
+      "moratorium_id": "co-denver-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Directly confirmed via Denver's own Legistar record and Council staff presentation.",
+      "source": "CO.json"
+    },
+    {
+      "moratorium_id": "co-denver-2026",
+      "column": "duration",
+      "before": "Proposed one year from effective date, with an alternate expiration tied to adoption of data center code and zoning amendments (per filed bill 26-0431 text); final adopted text dependent on 2026-05-18 second-reading outcome [VERIFY: final adopted duration depends on second-reading vote scheduled 2026-05-18].",
+      "after": "One year from the effective date (2026-05-21, i.e. nominally through 2027-05-21), or upon adoption of amendments to the Denver Revised Municipal Code and a text amendment to the Denver Zoning Code addressing data centers, per Section 5 of the ordinance as filed and passed without amendment to that section: 'This moratorium shall expire the earlier of: (a) One year from the effective date of this ordinance; or (b) The effective date of any amendments to the Denver Revised Municipal Code regarding data centers and any text amendment to the Denver Zoning Code regarding data centers, whichever occurs later.' (The 'earlier of ... whichever occurs later' phrasing is the ordinance's own internal drafting inconsistency, quoted verbatim.)",
+      "reason": "Directly read the filed bill text (Section 5) and confirmed via the Council staff slide deck that the one-year/May 21 effective-date terms carried through to final passage without amendment to that section.",
+      "source": "CO.json"
+    },
+    {
+      "moratorium_id": "co-denver-2026",
+      "column": "legal_basis",
+      "before": "Council Bill 26-0431, \"A bill for an ordinance authorizing a moratorium on data centers.\"",
+      "after": "Council Bill 26-0431 (Series of 2026), passed by City Council on final consideration 2026-05-18 and signed by the Mayor 2026-05-20; effective 2026-05-21. The final assigned ordinance/enactment number was not located in the Legistar summary view accessed in this pass [VERIFY final assigned ordinance/enactment number].",
+      "reason": "Confirmed passage and signature dates via Legistar; the enactment number field was not exposed in the page as rendered by the fetch tool used.",
+      "source": "CO.json"
+    },
+    {
+      "moratorium_id": "co-denver-2026",
+      "column": "current_status",
+      "before": "Pending. Committee approved filing on 2026-03-31; City Council ordered publication with future public hearing on 2026-04-13; second reading/public hearing set for 2026-05-18.",
+      "after": "Active. Adopted by City Council 2026-05-18 (final passage at second reading/public hearing), signed by the Mayor 2026-05-20, effective 2026-05-21. No repeal, amendment, or Denver Zoning Code/Municipal Code data-center text amendment that would end the moratorium early was found as of 2026-07-31.",
+      "reason": "Confirmed via Legistar action history and Council staff presentation; no subsequent repeal or code amendment was found in this pass.",
+      "source": "CO.json"
+    },
+    {
+      "moratorium_id": "co-denver-2026",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "The final assigned ordinance/enactment number for Council Bill 26-0431 was not located in this pass (the Legistar summary view did not expose it); this is flagged for a follow-up rather than guessed.",
+      "source": "CO.json"
+    },
+    {
+      "moratorium_id": "co-jefferson-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Colorado / Jefferson County",
+      "reason": "Single news source only; no primary Jefferson County board resolution/ordinance was located or opened in this pass, so the exact legal instrument, vote count, and precise duration terms are unconfirmed. A related Longmont, CO proposal (targeting facilities of 100+ MW peak demand) was reported as an upcoming vote expected as early as 2026-06-09 in the same article, but no confirmation of actual adoption was found, so it is not included here.",
+      "source": "CO.json"
+    },
+    {
+      "moratorium_id": "ct-morris-2026",
+      "column": "date_enacted",
+      "before": "2026-03-23 document date; the captured text reads as a draft scheduled for PZC vote; PZC adoption vote and Town Clerk filing dates not located in captured records [VERIFY: Morris PZC agenda/minutes for the moratorium adoption vote not yet retrieved as of 2026-04-29].",
+      "after": "The identical moratorium text (prepared by the Town Planner and dated 2026-03-23) was re-filed by the Commission under its 'regulations' folder -- rather than the earlier 'generals'/draft-agenda-attachment folder it occupied as of the April 15, 2026 meeting -- under the title 'Public Hearing Two Year Moratorium on Battery Storage Facilities and Data Centers,' with a document date of 2026-05-20. Secondary reporting describes a public hearing held on a Tuesday and Commission approval the same week, consistent with adoption around 2026-05-19/20. Neither the exact adoption-vote date nor the Connecticut-statute-required newspaper publication date (which triggers legal effectiveness) was found in any source I could access.",
+      "reason": "The operative moratorium text was re-filed by the Commission under its 'regulations' folder (dated 2026-05-20), distinct from the 'generals'/draft folder it occupied in mid-April, and secondary press describes Commission approval in the same mid-May window.",
+      "source": "CT.json"
+    },
+    {
+      "moratorium_id": "ct-morris-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-03-23",
+      "after": "2026-05",
+      "reason": "Only the month of apparent adoption (May 2026) is corroborated by the document-folder change and secondary press; no source gives the exact day of the Commission's vote.",
+      "source": "CT.json"
+    },
+    {
+      "moratorium_id": "ct-morris-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "month_only",
+      "reason": "Reflects that only the month, not the exact adoption date or newspaper-publication/effective date, could be established.",
+      "source": "CT.json"
+    },
+    {
+      "moratorium_id": "ct-morris-2026",
+      "column": "current_status",
+      "before": "Status unverified; document is dated 2026-03-23 and reads as a moratorium proposed for PZC adoption [VERIFY: Morris PZC adoption vote and required Connecticut newspaper publication date not in captured records as of 2026-04-29].",
+      "after": "Adopted. The Commission's own document repository shows the moratorium text moved from a 'generals' (draft/agenda-attachment) filing on 2026-04-15 to a 'regulations' filing dated 2026-05-20, and secondary press reports the Commission approved the moratorium following a public hearing in mid-May 2026. The operative text (Section 6) fixes a 12-month term running from the effective date of adoption, notwithstanding press descriptions of it as a 'two-year moratorium' (which do not match the adopted text I read).",
+      "reason": "Synthesizes the document-folder evidence of adoption with the operative text's confirmed 12-month duration, while noting the press's conflicting 'two-year' characterization.",
+      "source": "CT.json"
+    },
+    {
+      "moratorium_id": "ct-morris-2026",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "Duration (365 days / 12 months) in the existing inventory row is confirmed correct directly from the adopted ordinance text, notwithstanding press coverage that mischaracterizes it as a 'two-year moratorium' -- I am not changing duration_days. What has changed is that adoption itself is now reasonably established (whereas the prior record treated adoption as fully unverified), even though the precise adoption date, the newspaper-publication/effective date, and hence the exact computed expiration remain unconfirmed. Based on a 12-month term running from an effective date somewhere around May 2026, expiration would fall approximately in May 2027, but this is an estimate, not a confirmed date, and computed_expiry is left to the merge pipeline rather than asserted here.",
+      "source": "CT.json"
+    },
+    {
+      "moratorium_id": "ct-new-haven-undated",
+      "column": "<new row>",
+      "before": "",
+      "after": "Connecticut / New Haven",
+      "reason": "This is a pending proposal, not yet adopted, well after the packet's 2026-04-28 coverage cutoff. Included per instructions to log newly discovered instruments encountered during this pass, including ones still at the proposal stage. A separate, ambiguous PressReader-indexed New Haven Register headline ('Moratorium on data centers approved,' dated approximately 2026-06-12) surfaced during research but could not be fetched or verified, and may refer to a different jurisdiction or an earlier procedural step; it is flagged here for follow-up but not relied upon.",
+      "source": "CT.json"
+    },
+    {
+      "moratorium_id": "ga-brooks-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-04-29; expires 2026-05-02 absent extension",
+      "after": "Moratorium was extended past its original 2026-05-02 (recorded as 2026-05-03 in inventory computation) expiration. A May 4, 2026 Board of Commissioners agenda item (FA040-2026) was titled 'Data Center Facilities Update - Moratorium Extension.' As of the June 29, 2026 special called work session, county minutes state plainly 'A Moratorium is currently in place,' and the Administrator was directed to compile the Board's desired criteria for a permanent Data Center Ordinance, with the item placed on the July 6, 2026 regular meeting agenda (FA068-2026, 'Data Center Ordinance'). The outcome of the July 6, 2026 vote was not available in county records as of this research pass (only the agenda, not minutes, was posted).",
+      "reason": "Primary-source county agendas/minutes show the moratorium was still in effect well after its original term and that a permanent ordinance was in active drafting, not yet adopted.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-brooks-county-2026",
+      "column": "duration",
+      "before": "3 months, expiring 2026-05-02 unless extended",
+      "after": "Original 90-day/3-month term extended by Board action referenced May 4, 2026 (FA040-2026); still in effect per June 29, 2026 work-session minutes. Specific new sunset date is not stated in the available county records.",
+      "reason": "County agenda/minutes documents confirm continuation but do not state an exact new end date.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-brooks-county-2026",
+      "column": "outcome",
+      "before": "Study period ongoing",
+      "after": "Study/drafting period ongoing as of 2026-06-29; Board directed staff to draft specific criteria for a permanent data center ordinance, teed up for the July 6, 2026 meeting. Final adoption status not confirmed as of 2026-07-31.",
+      "reason": "Reflects the most recent primary-source minutes available.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-brooks-county-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "The exact current sunset date and the outcome of the July 6, 2026 ordinance vote could not be confirmed; only the agenda (not minutes) for that meeting was posted on the county site as of this research pass, and no news coverage of Brooks County's moratorium after April 2026 could be located. Recommend re-checking once July/August 2026 minutes are posted.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-bulloch-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-04-29",
+      "after": "Extended to Dec. 31, 2026 by a 5-0 Board of Commissioners vote at the May 5, 2026 meeting (public hearing held same night). Commissioners simultaneously took a separate 5-0 vote to initiate a zoning-amendment process toward an outright ban on data centers in unincorporated Bulloch County.",
+      "reason": "Statesboro Herald reporting on the May 5, 2026 meeting, corroborated by WSAV and WTOC coverage, describes newly drafted resolutions extending the moratorium to Dec. 31, 2026.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-bulloch-county-2026",
+      "column": "duration",
+      "before": "90 days, with possible extension after 2026-05-05 public hearing",
+      "after": "Extended to Dec. 31, 2026 (from the original 90-day term) per the May 5, 2026 vote, unless the Board acts sooner.",
+      "reason": "Matches the operative language reported by Statesboro Herald.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-bulloch-county-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "Vote count and Dec. 31, 2026 date are well corroborated across multiple outlets; the specific resolution number remains unverifiable from public sources found.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-clayton-county-2025",
+      "column": "current_status",
+      "before": "Extended. Resolution 2025-193 initially through 2025-12-31; extended to June 29, 2026 per official .gov press release.",
+      "after": "Still under an active moratorium as of July 24, 2026. WABE reporting on a July 22, 2026 town hall and July 21, 2026 Clayton County Commission meeting states the pause on new unincorporated-area data center applications and construction 'has been extended three times since September 2025,' per county documents. The exact current sunset date could not be independently confirmed; the previously recorded extension-to-2026-06-29 date appears to have been superseded by at least one further extension, since the moratorium remains in force weeks after that date.",
+      "reason": "WABE's July 24, 2026 article is the most recent, directly retrieved source describing the moratorium's status, and it postdates the 2026-06-29 date in the current record.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-clayton-county-2025",
+      "column": "duration",
+      "before": "120 days, through 2025-12-31; later extended [VERIFY extension date confirmed by primary minutes; news/CSV indicate extension to 2026-06-29]",
+      "after": "120 days, through 2025-12-31; extended a total of three times since September 2025 per county documents cited by WABE (July 24, 2026); still in effect as of that date. Exact current end date not confirmed.",
+      "reason": "Best available confirmation of the ongoing extension chain; does not fully resolve the original VERIFY marker's specific date.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-dekalb-county-2025",
+      "column": "current_status",
+      "before": "Active through 2026-06-23",
+      "after": "Extended multiple times beyond 2026-06-23. On June 9, 2026 the Board of Commissioners voted 5-2 to extend the moratorium 100 days, through Sept. 30, 2026. On June 23, 2026, after an initial 5-2 vote to defer to Aug. 11, the Commission reconsidered and unanimously denied a separate set of proposed permanent land-use/zoning regulations for data centers from the Planning & Sustainability Department. On July 7, 2026 the Commission voted to extend the moratorium again; the resolution (sponsored by Commissioners Mereda Davis Johnson and Robert Patrick) states the moratorium now ends March 30, 2027 unless further extended.",
+      "reason": "Three separately retrieved news sources (WSB-TV, Decaturish x2) covering the June 9, June 23, and July 7, 2026 Commission meetings.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-dekalb-county-2025",
+      "column": "duration",
+      "before": "Initial 100 days; extended multiple times; current extension to 2026-06-23 adopted unanimously by Board of Commissioners on 2025-12-16 (substitute motion by Commissioner LaDena Bolton)",
+      "after": "Initial 100 days; extended multiple times, including June 9, 2026 (100 days, to Sept. 30, 2026) and July 7, 2026 (to March 30, 2027, per Board resolution).",
+      "reason": "Reflects the two most recent confirmed extensions.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-griffin-2026",
+      "column": "current_status",
+      "before": "Active through about 2026-07-12 (180 days from enactment)",
+      "after": "Replaced. On May 26, 2026 the Griffin Board of Commissioners voted unanimously to approve amendments to the Unified Development Code (UDC) establishing special-use-permit regulation of data centers in Planned Industrial Districts (PID). Minor facilities (up to 10,000 sq ft) and major facilities (10,000-275,000 sq ft) are allowed with setback/buffer/noise/water-use and decommissioning-bond conditions; hyperscale/campus data centers (500,000+ sq ft) are prohibited. This permanent ordinance superseded the Jan. 13, 2026 moratorium ahead of its scheduled July 12, 2026 expiration.",
+      "reason": "Griffin Daily News reporting on the May 26, 2026 Board of Commissioners vote.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-griffin-2026",
+      "column": "outcome",
+      "before": "City study of special-use model and power, water, noise, and traffic impacts",
+      "after": "Permanent UDC amendment adopted May 26, 2026 regulating data centers by special use permit in Planned Industrial Districts; prohibits hyperscale/campus facilities.",
+      "reason": "Reflects the concluded outcome of the study period described in the original record.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-griffin-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "replaced",
+      "reason": "Griffin adopted permanent regulations about seven weeks before the moratorium's own July 12, 2026 expiration date, so the record should move from 'active/expired_in_force' to 'replaced.'",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-polk-county-2026",
+      "column": "current_status",
+      "before": "Active through about 2026-05-02 unless extended",
+      "after": "Replaced. At its April 28, 2026 meeting, the Board of Commissioners tabled text amendment TA26-01 (Zoning Code Sections 708.15 C-N, 708.24 I-1, 708.25 I-2) and extended the moratorium to June 2, 2026 (vote: 3 in favor, 2 abstained). At its June 2, 2026 meeting, the Board approved the renumbered text amendment TA26-02 unanimously, adopting permanent zoning provisions for the C-N and I-2 districts and superseding the moratorium.",
+      "reason": "Polk County Board of Commissioners' own 'Regular Meeting Board Actions' documents for April 28, 2026 and June 2, 2026, retrieved directly from the county's document-hosting site.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-polk-county-2026",
+      "column": "duration",
+      "before": "60 days (through about 2026-05-02)",
+      "after": "60 days from March 3, 2026; extended to June 2, 2026 (April 28, 2026 vote, 3-2 with abstentions); replaced by permanent zoning text amendment TA26-02, adopted unanimously June 2, 2026.",
+      "reason": "Matches the primary-source board-actions record for both meetings.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-polk-county-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "replaced",
+      "reason": "High-confidence finding backed entirely by the county's own official board-actions records for both the extension and replacement votes.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-polk-county-2026",
+      "column": "legal_basis",
+      "before": "Board of Commissioners action item 2 of 2026-03-03 Regular Meeting: \"Consider an Ordinance Amendment to add 'Chapter 33 \u2013 Data Centers' to the official County Code of Ordinances regulating any future data centers. Approved with the addition of a 60-day moratorium on all data centers in order to better strengthen our zoning ordinance to address this type of development. [Vote: unanimous]\" (per Polk County Board Actions PDF, primary source). The ordinance amendment number is not stated in the action summary [VERIFY ordinance number from county Document Center]",
+      "after": "Board of Commissioners action item 2 of 2026-03-03 Regular Meeting: \"Consider an Ordinance Amendment to add 'Chapter 33 \u2013 Data Centers' to the official County Code of Ordinances regulating any future data centers. Approved with the addition of a 60-day moratorium on all data centers in order to better strengthen our zoning ordinance to address this type of development. [Vote: unanimous]\" (per Polk County Board Actions PDF, primary source). The ordinance amendment number is not stated in the action summary",
+      "reason": "[VERIFY corrected] The original March 3, 2026 board-actions summary does not carry a standalone ordinance number, but the specific zoning-code case numbers governing this action are now documented: TA26-01 (tabled April 28, 2026) and TA26-02 (approved June 2, 2026), amending Polk County Zoning Code Sections 708.15, 708.24, and 708.25.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-carroll-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Georgia / Carroll County",
+      "reason": "Not previously in the inventory. Confirmed via Carroll County's own press-release distributor plus two Times-Georgian articles.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-cedartown-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Georgia / Cedartown",
+      "reason": "Not previously in the inventory; distinct from the already-tracked Polk County (unincorporated) moratorium (ga-polk-county-2026). Cedartown is a city within Polk County. Could not independently confirm current status beyond enactment despite additional searching; no news of extension, replacement, or expiration was located.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ia-johnson-county-2025",
+      "column": "outcome",
+      "before": "County is drafting permanent UDO standards on siting, noise, water use, and review process [VERIFY: as of 2026-04-29 no captured record of UDO data-center standards being adopted. Moratorium remains in effect through 2026-11-08 per Resolution No. 11-06-25-01.]",
+      "after": "County is drafting permanent UDO standards on siting, noise, water use, and review process. As of July 22-23, 2026, Johnson County supervisors and the Planning and Zoning Commission were still discussing policy direction for a proposed data-center ordinance (described as one of the more restrictive in eastern Iowa, covering water use, geographic limits, and closed-loop cooling); no ordinance had been adopted. The moratorium remains in effect through 2026-11-08 per Resolution No. 11-06-25-01.",
+      "reason": "July 2026 news coverage of a joint Board of Supervisors / Planning and Zoning Commission meeting confirms the UDO data-center standards still had not been adopted as of the last week of July 2026, and the moratorium was still described as governing until its Nov. 8, 2026 expiration.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-union-county-2026",
+      "column": "date_enacted",
+      "before": "2026-03-18 \u2014 Board of Supervisors voted unanimously (Hopkins, Friday; Brown absent) to \"move forward with setting up a Moratorium for up to one-year on the development and operation of Data Centers & High-Density Computing Facilities\" (regular session minutes). Per March 23, 2026 Creston News coverage, \"A resolution will be created for the next meeting establishing a temporary year-long moratorium.\" [VERIFY: numbered resolution adoption at a subsequent Union County BoS meeting not located in captured records as of 2026-04-29; the formal moratorium instrument may not yet have been adopted.]",
+      "after": "2026-03-18 -- Board of Supervisors voted unanimously (Hopkins, Friday; Brown absent) to move forward with setting up the moratorium. The formal instrument, Resolution #21 FYR 25/26 (Moratorium on Data Centers), was adopted at the March 25, 2026 regular session by roll call vote (Brown aye, Hopkins aye, Friday aye, motion carried).",
+      "reason": "Union County's own March 25, 2026 board minutes contain the full text of Resolution #21 FYR 25/26 and the roll-call vote adopting it, resolving the prior VERIFY marker with a primary source.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-union-county-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-03-18",
+      "after": "2026-03-25",
+      "reason": "2026-03-18 was only the preliminary motion to proceed; the numbered resolution that actually enacted the moratorium (Resolution #21 FYR 25/26) was adopted one week later, on 2026-03-25, per the county's own minutes.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-union-county-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "The adoption date is now established directly from Union County's official board minutes containing the full resolution text and roll-call vote.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-union-county-2026",
+      "column": "legal_basis",
+      "before": "Motion to move forward with setting up a moratorium on data centers and high-density computing facilities; numbered resolution still pending [VERIFY]",
+      "after": "Resolution #21 FYR 25/26, \"Moratorium on Data Centers,\" adopted March 25, 2026 by roll call vote (Brown aye, Hopkins aye, Friday aye).",
+      "reason": "The numbered resolution was located in the March 25, 2026 Union County Board of Supervisors minutes, which quote the resolution in full.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-union-county-2026",
+      "column": "current_status",
+      "before": "Pending formal instrument [VERIFY: as of 2026-04-29, captured records show only the March 18, 2026 motion to proceed and a Creston News report that the formal resolution would come \"at the next meeting\"; the signed moratorium resolution itself is not in the captured record]",
+      "after": "Active. Resolution #21 FYR 25/26 was adopted March 25, 2026, imposing a moratorium on construction of data centers and other high-density facilities \"for a period of up to one Year.\" A review of Union County board minutes from March 25 through July 22, 2026 found no subsequent rescission, extension, or replacement.",
+      "reason": "Direct confirmation from the March 25, 2026 minutes that the resolution was adopted, plus a review of every subsequent 2026 meeting-minutes PDF through July 22, 2026 (none of which mention the moratorium again), supporting that it remains in force and unresolved as of 2026-07-31.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-union-county-2026",
+      "column": "duration",
+      "before": "Up to one year (March 18 motion language; specific end date depends on the still-pending resolution)",
+      "after": "Up to one year from adoption of Resolution #21 FYR 25/26 (adopted 2026-03-25); the Board stated it \"may or may not act on this matter, but at the minimum, we plan to revisit this issue in one year.\"",
+      "reason": "The enacted resolution text (not just the preliminary motion) specifies the one-year period and the Board's intent to revisit in one year.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-union-county-2026",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "Reviewed all 21 Union County board-minutes PDFs from 2026-03-04 through 2026-07-22 (downloaded and text-extracted); 'moratorium' or 'data center' language appears only in the 2026-03-04, 2026-03-11, 2026-03-18, and 2026-03-25 minutes, with no later rescission, extension, or replacement recorded. Based on the one-year term running from 2026-03-25, the moratorium would be due to expire on or about 2027-03-25 absent further Board action; no CSV field for computed_expiry exists so this is noted here rather than as a change.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-shelby-county-2026-2",
+      "column": "<new row>",
+      "before": "",
+      "after": "Iowa / Shelby County",
+      "reason": "Not currently in the inventory, which only carries the same-day data-center resolution (2026-16) for Shelby County. Same board, same meeting, same July 1, 2027 sunset.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-shelby-county-2026-3",
+      "column": "<new row>",
+      "before": "",
+      "after": "Iowa / Shelby County",
+      "reason": "Not currently in the inventory. Same board, same meeting, same July 1, 2027 sunset as ia-shelby-county-2026.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-shelby-county-2026-4",
+      "column": "<new row>",
+      "before": "",
+      "after": "Iowa / Shelby County",
+      "reason": "Not currently in the inventory. Same board, same meeting, same July 1, 2027 sunset as ia-shelby-county-2026.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-woodbury-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Iowa / Woodbury County",
+      "reason": "Not currently in the inventory. Adopted after the packet's 2026-04-28 coverage cutoff.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-palo-alto-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Iowa / Palo Alto County",
+      "reason": "Not currently in the inventory. Adopted after the packet's 2026-04-28 coverage cutoff. File is titled 'Minutes-7-7-2026.pdf' but the resolution itself is dated and numbered 7-8-2026; treating 2026-07-08 as the enactment date per the resolution's own numbering and roll call.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-dubuque-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Iowa / Dubuque County",
+      "reason": "News-only source; no Dubuque County resolution/minutes document located and fetched in this pass to confirm the exact resolution number or legal text. Confidence lowered accordingly. Adopted after the packet's 2026-04-28 coverage cutoff.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-plymouth-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Iowa / Plymouth County",
+      "reason": "News-only source; no Plymouth County resolution/minutes document located and fetched in this pass. Confidence lowered accordingly. Adopted after the packet's 2026-04-28 coverage cutoff.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-linn-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Iowa / Linn County",
+      "reason": "Not currently in the inventory. Unusual in that it followed, rather than preceded, the county's own permanent data-center zoning ordinance (per KCRG headline 'Despite putting ordinance in place, Linn County passes data center moratorium'); worth flagging for whoever reviews sector/duplicate handling since Linn County may already have another entry for the underlying ordinance itself. Adopted after the packet's 2026-04-28 coverage cutoff.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ks-sedgwick-county-2026",
+      "column": "duration",
+      "before": "Initially 90 days through 2026-04-17 under Resolution 014-2026; on 2026-03-04 the BoCC voted unanimously to extend the moratorium to 2026-06-11",
+      "after": "Initially 90 days through 2026-04-17 under Resolution 014-2026; on 2026-03-04 the BoCC voted unanimously to extend the moratorium to 2026-06-11; on 2026-05-06 (vote taken at the May 1, 2026 meeting per KWCH) the BoCC voted unanimously a second time to extend the moratorium to 2026-09-11",
+      "reason": "KWCH (2026-05-06) and HPPR/KMUW (2026-05-08) both report a second unanimous extension, and Sedgwick County's own 'This Week in Sedgwick County - May 6, 2026' release confirms the new end date of Sept. 11, 2026. The original 2026-04-14 computed expiry in this packet reflects only the first extension and is stale.",
+      "source": "KS.json"
+    },
+    {
+      "moratorium_id": "ks-sedgwick-county-2026",
+      "column": "legal_basis",
+      "before": "Resolution No. 014-2026 (\"A Resolution Establishing an Interim Development Control\"), citing K.S.A. 12-741 et seq. police power; subsequent extension resolution adopted 2026-03-04 [VERIFY extension resolution number]",
+      "after": "Resolution No. 014-2026 (\"A Resolution Establishing an Interim Development Control and Providing for the Suspension of Certain Types of Use Applications and Building Permits\"), adopted 2026-01-14, citing K.S.A. 12-741 et seq. and K.S.A. 19-101 et seq. police power (confirmed from the signed resolution PDF); extended by a BoCC resolution adopted 2026-03-04 (to 2026-06-11), and extended a second time by a BoCC resolution adopted 2026-05-06 (to 2026-09-11) [VERIFY extension resolution number]",
+      "reason": "The original resolution's number, adoption date, citation, and April 17, 2026 expiry are confirmed directly from the signed PDF at sedgwickcounty.org. The two extension votes are confirmed by county and news reporting, but the resolution numbers assigned to the two extension actions were not found in any document retrieved (the county's OnBase agenda portal did not yield the specific resolution text), so the marker is kept per the still_unverifiable convention.",
+      "source": "KS.json"
+    },
+    {
+      "moratorium_id": "ks-sedgwick-county-2026",
+      "column": "current_status",
+      "before": "Active through 2026-06-11; KWCH reported the unanimous March 4 extension vote",
+      "after": "Active through 2026-09-11. After the initial 2026-03-04 extension (to 2026-06-11), the BoCC voted unanimously again on 2026-05-06 to extend the interim development control a second time, to 2026-09-11, at planning staff's request to satisfy Kansas's 20-day public-notice requirement before the Metropolitan Area Planning Commission considers new data-center zoning rules.",
+      "reason": "Confirmed by Sedgwick County's own press release and by KWCH/HPPR/KMUW/KSN news coverage of the May 6, 2026 vote.",
+      "source": "KS.json"
+    },
+    {
+      "moratorium_id": "ks-marion-county-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "Resolution No. 2026-12 (the original moratorium) has been extended for one additional year by Resolution No. 2026-19, adopted 2026-05-11. Per the codebook, an instrument extended under the same resolution with a new sunset date is recorded as 'extended.'",
+      "source": "KS.json"
+    },
+    {
+      "moratorium_id": "ks-marion-county-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "The signed, sealed copy of Resolution No. 2026-12 recites: 'PASSED AND ADOPTED by the Commissioners of Marion County, Kansas, this 2 day of March, 2026,' confirming the 2026-03-02 adoption date exactly.",
+      "source": "KS.json"
+    },
+    {
+      "moratorium_id": "ks-marion-county-2026",
+      "column": "duration",
+      "before": "Through 2026-06-01 under Resolution No. 2026-12 (a separate Feb. 17, 2026 action adopted a one-year battery-energy-storage moratorium expiring March 1, 2027); commissioners had earlier discussed a one-year pause but adopted a three-month interim instrument",
+      "after": "Through 2027-06-01: Resolution No. 2026-12 (adopted 2026-03-02) originally ran through 2026-06-01; the Marion County BoCC unanimously adopted Resolution No. 2026-19 on 2026-05-11, extending the moratorium for one additional year, through 2027-06-01. (A separate Feb. 17, 2026 action had adopted a one-year battery-energy-storage moratorium expiring March 1, 2027; commissioners had earlier discussed a one-year pause on data centers but initially adopted a three-month interim instrument before extending it to a full year.)",
+      "reason": "Confirmed directly from the signed text of Resolution No. 2026-19, retrieved from the Marion County, KS document center.",
+      "source": "KS.json"
+    },
+    {
+      "moratorium_id": "ks-marion-county-2026",
+      "column": "legal_basis",
+      "before": "Resolution No. 2026-12 (per Citizen Portal AI; primary signed text not yet captured) [VERIFY signed copy from Marion County clerk]",
+      "after": "Resolution No. 2026-12, \"A Resolution Providing for a Temporary Moratorium on the Acceptance of Applications Relating to the Establishment, Operation or Expansion of Data Centers within the Unincorporated Areas of Marion County, Kansas,\" citing K.S.A. 12-741 et seq. and K.S.A. 19-101 et seq. police power; passed and adopted March 2, 2026 (unanimous, 5-0; signed by Chairman Dave Crofoot, attested by County Clerk Ashley Herpich, county seal affixed). Extended one year by Resolution No. 2026-19, \"A Resolution Extending the Temporary Moratorium...,\" passed and adopted May 11, 2026 (unanimous, 5-0).",
+      "reason": "Both resolutions were retrieved as signed, sealed PDFs from the Marion County, KS DocumentCenter, resolving the prior VERIFY marker.",
+      "source": "KS.json"
+    },
+    {
+      "moratorium_id": "ks-marion-county-2026",
+      "column": "current_status",
+      "before": "Active through 2026-06-01",
+      "after": "Active; extended through 2027-06-01 by Resolution No. 2026-19 (unanimous BoCC vote, adopted 2026-05-11).",
+      "reason": "Confirmed by the signed extension resolution.",
+      "source": "KS.json"
+    },
+    {
+      "moratorium_id": "ks-geary-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Kansas / Geary County",
+      "reason": "Discovered while researching neighboring Kansas counties for this packet. Not previously in the inventory. Resolution number not confirmed from a primary source; only the county's own news/AMP page was retrieved.",
+      "source": "KS.json"
+    },
+    {
+      "moratorium_id": "ks-lyon-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Kansas / Lyon County",
+      "reason": "Discovered while researching neighboring Kansas counties. Same news article also reports a companion Resolution No. 13-26 covering commercial solar energy conversion systems, expiring 2026-12-01, recorded as a separate candidate below since it covers a different sector and duration.",
+      "source": "KS.json"
+    },
+    {
+      "moratorium_id": "ks-lyon-county-2026-2",
+      "column": "<new row>",
+      "before": "",
+      "after": "Kansas / Lyon County",
+      "reason": "Companion resolution to the Lyon County data-center/BESS moratorium (Resolution No. 12-26) recorded separately above. Sector is solar, not data centers, so it is included here for completeness but may fall outside this dataset's primary scope depending on inclusion criteria.",
+      "source": "KS.json"
+    },
+    {
+      "moratorium_id": "ma-shutesbury-2025",
+      "column": "current_status",
+      "before": "Active until 2026-06-30 [VERIFY: Shutesbury 2026 Annual Town Meeting (typically held in May/early June) outcome on permanent zoning replacement is a future event as of 2026-04-29].",
+      "after": "The temporary moratorium (Special Town Meeting Article 10, effective through 2026-06-30) expired on schedule. No article proposing a permanent Section 8.13 data center zoning bylaw appeared anywhere on the 33-article warrant for the 2026 Annual Town Meeting (held 2026-05-09), and the town's official Zoning Bylaw Maps and Amendments page (checked 2026-07-31) still lists only the September 2025 temporary moratorium among recent amendments, with no 2026 entry. Data centers are therefore currently unregulated by any dedicated Shutesbury zoning provision.",
+      "reason": "Direct review of the official 2026 Annual Town Meeting minutes (all 33 articles, covering budget, capital items, CPA funds, a Quabbin Watershed resolution, a personnel bylaw, and a Safe Community Bylaw rewrite) shows no article addressing data centers, Section 8.13, or a BESS/data center zoning bylaw. The town's official Zoning Bylaw Maps and Amendments page corroborates that no such amendment has been adopted.",
+      "source": "MA.json"
+    },
+    {
+      "moratorium_id": "ma-shutesbury-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "expired",
+      "reason": "The moratorium's own text set an end date of 2026-06-30. Because the anticipated permanent bylaw amendment was never placed on the 2026 ATM warrant (contrary to the Planning Board's earlier stated intent), the moratorium should be recorded as expired rather than active. Secondary reporting (thelocallens.org, a locally-run outlet whose meeting recaps are explicitly AI-generated and self-flagged as potentially inaccurate) had indicated the Planning Board was considering tabling the bylaw amid community opposition in spring 2026, which is consistent with this outcome, but that source was not relied on for the core finding -- the primary-source warrant/minutes and the official zoning-amendments page were.",
+      "source": "MA.json"
+    },
+    {
+      "moratorium_id": "ma-everett-2026",
+      "column": "date_enacted",
+      "before": "Not enacted as of 2026-04-29",
+      "after": "2026-06-22 (final ordainment/second reading); initial enrollment/first-reading vote 2026-06-08.",
+      "reason": "Advocate News (fetched directly) reports the June 8, 2026 enrollment vote and the June 22, 2026 ordainment vote that finally enacted the Section 37 amendment.",
+      "source": "MA.json"
+    },
+    {
+      "moratorium_id": "ma-everett-2026",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-06-22",
+      "reason": "Ordainment (final passage) is the operative enactment date for a two-reading city ordinance under Everett's council procedure.",
+      "source": "MA.json"
+    },
+    {
+      "moratorium_id": "ma-everett-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "The exact ordainment date (2026-06-22) is stated directly in the fetched Advocate News account.",
+      "source": "MA.json"
+    },
+    {
+      "moratorium_id": "ma-everett-2026",
+      "column": "current_status",
+      "before": "Planning Board endorsed restrictions on 2026-04-06; City Council action pending [VERIFY: Everett City Council final vote on Docklands Innovation District amendment not in captured records as of 2026-04-29; agenda packet shows item under continued discussion].",
+      "after": "Adopted. The Everett City Council enrolled the Section 37 (Docklands Innovation District) zoning amendment on 2026-06-08 and ordained (finally passed) it on 2026-06-22, converting data centers from a by-right to a restricted use with a combined footprint/power cap (the lesser of 20,000 square feet or 5 megawatts), required closed-loop cooling, funding of electric-system upgrades, backup generators, a minimum setback from housing, and a resident hiring preference.",
+      "reason": "Advocate News (fetched directly) reports both the June 8, 2026 enrollment vote and the June 22, 2026 ordainment vote, along with the substance of the adopted restrictions.",
+      "source": "MA.json"
+    },
+    {
+      "moratorium_id": "ma-everett-2026",
+      "column": "outcome",
+      "before": "Proposed shift from by-right treatment to special permit, ancillary-use limits, and size/capacity cap; no moratorium identified.",
+      "after": "Adopted as a standing city ordinance amendment to Section 37 (not a moratorium -- no fixed sunset); restricts, rather than bans, data center development within the Docklands Innovation District.",
+      "reason": "Advocate News confirms the amendment was ordained (finally passed), not merely proposed, and describes it as a standing zoning restriction rather than a time-limited moratorium.",
+      "source": "MA.json"
+    },
+    {
+      "moratorium_id": "ma-everett-2026",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "This is a city-council-enacted zoning ordinance amendment (Everett is a city with home-rule ordinance power acting on its own initiative, not a town meeting bylaw), so it is not subject to the Massachusetts Attorney General review under M.G.L. c.40A section 32 that applies to town-meeting-adopted zoning bylaws. I could not retrieve the official council agenda packet (an image-based PDF whose text could not be extracted) or the council's own minutes directly, so this rests on a single directly-fetched news account; a second outlet (Everett Independent) separately reported a 7-3 first-reading tally with named councilors, but I did not independently re-fetch and verify that article, so I have not relied on the specific vote count in this decision.",
+      "source": "MA.json"
+    },
+    {
+      "moratorium_id": "ma-malden-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Massachusetts / Malden",
+      "reason": "News-only sourcing; I did not retrieve the Malden ordinance text or council minutes. A second outlet (Advocate News) reported an effective-date range of June 16, 2026 through June 16, 2027 and cited specific municipal code sections, consistent with a two-reading ordinance process (initial adoption approximately May 5, ordainment/effective date approximately June 16), but I did not independently fetch that article, so its specifics are not treated as verified here. Recommend confirming against the Malden City Clerk's ordinance record before treating this as a firm inventory entry.",
+      "source": "MA.json"
+    },
+    {
+      "moratorium_id": "md-prince-george-s-county-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "CR-098-2025's 180-day pause expired on its own term (2026-03-15) and Executive Order 1-2026's administrative hold ran through 2026-04-30 (and was further extended administratively through 2026-06-30 per Brandywine MD reporting). On 2026-07-07 the County Council adopted Resolution CR-066-2026, establishing a new, distinct two-year moratorium (through 2028, or until comprehensive zoning legislation) on accepting/processing/approving data-center permits and subdivision plans. This is a new instrument continuing the same policy of a legislative pause, not a permanent replacement ordinance, so 'extended' rather than 'replaced' or 'expired' best fits: the county has kept the development pause continuously in effect through successive administrative and legislative instruments.",
+      "source": "MD.json"
+    },
+    {
+      "moratorium_id": "md-prince-george-s-county-2025",
+      "column": "date_enacted",
+      "before": "2025-09-16 council resolution; 2026-01-23 executive order extension",
+      "after": "2025-09-16 (CR-098-2025); 2026-01-23 (EO 1-2026, later administratively extended through 2026-06-30 per news reporting); 2026-07-07 (CR-066-2026, new 2-year Council resolution, adopted 7-1 with 3 abstaining/absent)",
+      "reason": "Reflects the newly adopted resolution that continues the pause past the original CR's 180-day term.",
+      "source": "MD.json"
+    },
+    {
+      "moratorium_id": "md-prince-george-s-county-2025",
+      "column": "current_status",
+      "before": "CR pause (180 days from 2025-09-16) has expired by operation of its own term; EO 1-2026 permit hold remains active through 2026-04-30 [VERIFY: whether the County Executive issued a follow-on extension EO or comprehensive replacement legislation after 2026-04-30 not in captured records as of 2026-04-29; future-event verification needed].",
+      "after": "Active. County Council adopted CR-066-2026 on 2026-07-07, establishing a new two-year moratorium (through mid-2028 or until comprehensive data-center zoning legislation is enacted, whichever is earlier) on accepting, reviewing, and approving qualified data-center building/grading permits and subdivision plans. This followed the County Executive's EO-based administrative hold, which had been extended past its original 2026-04-30 end date.",
+      "reason": "Legistar record for CR-066-2026 and contemporaneous news coverage confirm continuous county-level restriction on data center permitting through a newly adopted council resolution.",
+      "source": "MD.json"
+    },
+    {
+      "moratorium_id": "md-prince-george-s-county-2025",
+      "column": "outcome",
+      "before": "Task force final report issued in November 2025; status of comprehensive replacement legislation [VERIFY: no enacted post-task-force comprehensive county data-center bill identified in captured records as of 2026-04-29].",
+      "after": "As of 2026-07-31, no comprehensive data-center zoning ordinance has been enacted. Instead, the Council extended the temporary pause via CR-066-2026 (2026-07-07, two years). A competing zoning proposal by Councilmember Wanika Fisher to permit data centers in specified rural/agricultural/residential zones (with site-plan review for campuses under 200 acres) was introduced around 2026-07-21 and was pending before the Planning Board as of that date; it had not passed as of 2026-07-31.",
+      "reason": "Confirms and updates the prior [VERIFY] marker: still no comprehensive bill enacted, but a specific competing proposal now exists and is moving through the process.",
+      "source": "MD.json"
+    },
+    {
+      "moratorium_id": "md-montgomery-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Maryland / Montgomery County",
+      "reason": "Sourced from the County Council's own press release (government primary source), not yet cross-checked against the enrolled bill text.",
+      "source": "MD.json"
+    },
+    {
+      "moratorium_id": "md-frederick-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Maryland / Frederick County",
+      "reason": "Government civic-alert source; specific executive order number(s) were not stated on the alert page itself.",
+      "source": "MD.json"
+    },
+    {
+      "moratorium_id": "md-baltimore-city-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Maryland / Baltimore City",
+      "reason": "Could not independently corroborate via Baltimore City Council's Legistar system (search interface did not return results in this pass) or local news; single-source newsletter aggregator only, so confidence is low and enacted_status is left as 'pending' since mayoral signature was not confirmed. Flagged for follow-up verification against council.baltimorecity.gov Legistar records or Baltimore Sun/Banner coverage.",
+      "source": "MD.json"
+    },
+    {
+      "moratorium_id": "mo-jackson-county-2026",
+      "column": "date_enacted",
+      "before": "Not enacted as of 2026-04-29 (the April 29, 2026 County Legislature regular meeting agenda lists File 6074 under \"PERFECTION OF PROPOSED ORDINANCES AND REPORTS OF COMMITTEE \u2014 Health & Environment Committee \u2014 4th. Perfection,\" confirming the ordinance has not yet received final passage; verified from agenda PDF downloaded 2026-04-29)",
+      "after": "2026-06-22 (Jackson County Legislature final passage vote, 8 in favor and 1 excused). Per KCTV5, the measure then went to County Executive Phil LeVota, who had 10 days to sign or veto; no veto was reported in any subsequent coverage found in this pass, but independent confirmation of the Executive's signature was not obtained.",
+      "reason": "Multiple news outlets (KSHB, KCTV5) report the County Legislature's final 8-1 vote on 2026-06-22. This dataset's convention of using the legislative adoption date is followed here, with the executive-action caveat noted explicitly since it could not be independently confirmed.",
+      "source": "MO.json"
+    },
+    {
+      "moratorium_id": "mo-jackson-county-2026",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-06-22",
+      "reason": "Date of the Legislature's final passage vote, per KCTV5 and KSHB.",
+      "source": "MO.json"
+    },
+    {
+      "moratorium_id": "mo-jackson-county-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "The 2026-06-22 legislative vote date is corroborated by two independent news outlets; the caveat about final executive action is carried in the date_enacted text and in current_status rather than in this uncertainty flag.",
+      "source": "MO.json"
+    },
+    {
+      "moratorium_id": "mo-jackson-county-2026",
+      "column": "duration",
+      "before": "Proposed 120 days",
+      "after": "180 days, amended up from the original 120-day Ordinance 6074 proposal introduced 2026-04-06 by Legislator Sean E. Smith. The Legislature had also been considering a competing 365-day version (Ordinance 6087, sponsored by Legislative Chair Manny Abarca) before settling on the 180-day term that passed 8-1 on 2026-06-22.",
+      "reason": "KCTV5's June 9 and June 22, 2026 coverage both describe the final measure as a 180-day moratorium, up from the original 120-day proposal; the June 1, 2026 KCTV5 article identifies the competing 120-day (Ordinance 6074) and 365-day (Ordinance 6087) proposals under committee consideration that week.",
+      "source": "MO.json"
+    },
+    {
+      "moratorium_id": "mo-jackson-county-2026",
+      "column": "duration_days",
+      "before": "120",
+      "after": "180",
+      "reason": "Confirmed by KSHB and KCTV5 reporting on the final passed version.",
+      "source": "MO.json"
+    },
+    {
+      "moratorium_id": "mo-jackson-county-2026",
+      "column": "legal_basis",
+      "before": "Ordinance 6074, introduced 2026-04-06 by Legislator Sean E. Smith",
+      "after": "Ordinance 6074, introduced 2026-04-06 by Legislator Sean E. Smith (120-day version); a competing 365-day version (Ordinance 6087, sponsored by Legislative Chair Manny Abarca) was also considered in committee as of 2026-06-01. The full County Legislature passed a 180-day moratorium on data-center and Battery Energy Storage System (BESS) land-use applications by an 8-1 vote (one member excused) on 2026-06-22. Per KCTV5, the ordinance then went to County Executive Phil LeVota, who had 10 days to sign or veto; no veto was reported in subsequent coverage found in this pass, but the Executive's signature was not independently confirmed, and the exact ordinance/file number of the version that received final passage (whether an amended Ordinance 6074 or a substitute) was not confirmed from a primary Legistar record, which returned an access error to automated fetch.",
+      "reason": "News coverage (KSHB, KCTV5 x3, The Beacon) consistently documents the legislative process and the 8-1 final vote, but this pass could not retrieve the Jackson County Legistar record directly (jacksongov.legistar.com returned an 'Invalid parameters' error and jacksongov.org returned HTTP 403 to automated fetch) to pin down the definitive file number or confirm executive sign-off.",
+      "source": "MO.json"
+    },
+    {
+      "moratorium_id": "mo-jackson-county-2026",
+      "column": "current_status",
+      "before": "Pending; Legistar source showed status \"4th. Perfection\" as of 2026-04-29, with no final action date.",
+      "after": "Adopted by the County Legislature (8 in favor, 1 excused) on 2026-06-22 as a 180-day moratorium on data-center and BESS land-use applications, for the purpose of developing long-term policy, County Code provisions, and enhanced public-notice requirements. Whether the measure was signed by County Executive Phil LeVota, became law without signature, or was vetoed was not independently confirmed in this pass; no veto was reported in any subsequent coverage found.",
+      "reason": "Confirmed by KSHB and KCTV5 reporting on the June 22, 2026 Legislature vote.",
+      "source": "MO.json"
+    },
+    {
+      "moratorium_id": "mo-jackson-county-2026",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "This moves the record from 'pending' to 'active': the County Legislature passed a 180-day data-center/BESS moratorium 8-1 on 2026-06-22, an increase from the originally proposed 120-day Ordinance 6074. However, two facts could not be pinned down from a primary source in this pass, so confidence is capped at 0.65 rather than higher: (1) whether the final measure was formally an amended Ordinance 6074 or a distinct file (a competing 365-day Ordinance 6087 was also in play as of June 1), and (2) whether County Executive Phil LeVota actually signed it (KCTV5 reported a 10-day sign-or-veto window running from June 22, i.e., to roughly July 2, 2026, well before this 2026-07-31 research date, and no veto was reported in later coverage, but that is an inference, not a confirmed fact). Jackson County's own Legistar portal and jacksongov.org returned errors/403 to automated fetch, preventing direct confirmation. A follow-up pass with authenticated or manual access to Jackson County's Legistar system is recommended to nail down the final ordinance number and executive-action date.",
+      "source": "MO.json"
+    },
+    {
+      "moratorium_id": "nc-brevard-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "replaced",
+      "reason": "The 90-day moratorium (Ord. 2026-11, adopted 2026-03-16) ran on its own terms through approximately 2026-07-02. Before that expiration, on 2026-05-18 the City Council adopted Ord. 2026-19, a permanent UDO amendment establishing a data-center land-use definition and requiring conditional rezoning to industrial-zoned land for any data center. The permanent ordinance now governs; the temporary moratorium is no longer in force.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-brevard-2026",
+      "column": "current_status",
+      "before": "Active",
+      "after": "Lapsed/superseded: temporary moratorium (Ord. 2026-11) ran through its own term (~2026-07-02); permanent zoning ordinance Ord. 2026-19 (adopted 2026-05-18) now regulates data centers as a conditional industrial use.",
+      "reason": "City's own ordinances listing and contemporaneous news reporting confirm the permanent ordinance was adopted before moratorium expiration and now governs siting.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-brevard-2026",
+      "column": "outcome",
+      "before": "Pending. Council is considering land-use ordinance amendments.",
+      "after": "Resolved: Council adopted Ord. 2026-19 on 2026-05-18, restricting data centers to industrial zoning districts and requiring case-by-case conditional rezoning.",
+      "reason": "Reflects the enacted permanent regulation that followed the moratorium period.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-watauga-county-2026",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "The Board of Commissioners held the noticed public hearing on 2026-04-21 and, per contemporaneous news reporting, unanimously adopted the one-year moratorium at that meeting rather than tabling or rejecting it.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-watauga-county-2026",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-04-21",
+      "reason": "Watauga Democrat reporting dates the Board's unanimous vote to the April 21, 2026 meeting.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-watauga-county-2026",
+      "column": "date_enacted",
+      "before": "2026-04-21 (Tuesday) public hearing held per Watauga County calendar; the March 23 Board action scheduled the April 21 hearing on a \"potential\" countywide moratorium. [Evidence ceiling: Watauga County's BOC agendas page at wataugacounty.org/App_Pages/Dept/BOC/agendas.aspx, refetched with a real Chrome browser on 2026-04-30, lists no 2026 entries (latest April 1, 2025) and the BOC minutes page lists no 2026 entries (latest April 16, 2024). Watauga Democrat's news index has no post-April-21 article; BPR's bpr.org/2026-04-22/watauga-data-center-moratorium URL returns 404. The post-hearing outcome remains unverified in any captured primary or secondary source as of 2026-04-30.]",
+      "after": "2026-04-21, Board of Commissioners meeting; Board voted unanimously to adopt a one-year countywide data center moratorium at this meeting (Watauga Democrat).",
+      "reason": "News reporting fetched 2026-07-31 confirms adoption, resolving the prior evidence gap noted in the packet context.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-watauga-county-2026",
+      "column": "current_status",
+      "before": "Pending \u2014 BPR's April 10 Cherokee County feature listed Watauga among WNC jurisdictions where moratoriums have been \"passed\", but this appears to have conflated the County's pending April 21 hearing with the Town of Boone's already-adopted measure. As of 2026-04-30, with Watauga County's BOC agendas/minutes archives confirmed empty for 2026 via direct browser fetch, no primary source confirms whether the Board adopted, deferred, or modified the moratorium at the April 21 hearing. Most likely (based on March 24 Watauga Democrat reporting and the absence of any post-hearing news cycle) the Board took the matter under advisement rather than voting at the noticed hearing.",
+      "after": "Active. The Board of Commissioners adopted a one-year, countywide data center moratorium at its April 21, 2026 meeting.",
+      "reason": "Direct confirmation via news reporting fetched during this research pass.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-city-of-hendersonville-undated",
+      "column": "<new row>",
+      "before": "",
+      "after": "North Carolina / City of Hendersonville",
+      "reason": "This is a jurisdiction not currently in the inventory. As of researched_as_of (2026-07-31), the moratorium has not been adopted; it is a pending proposal only, included here for tracking.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "ne-otoe-county-2026",
+      "column": "date_enacted",
+      "before": "Not enacted in captured sources as of 2026-04-29",
+      "after": "2026-05-19",
+      "reason": "Certified county-clerk minutes of the May 19, 2026 Otoe County Board of Commissioners meeting record the moratorium motion carrying that day.",
+      "source": "NE.json"
+    },
+    {
+      "moratorium_id": "ne-otoe-county-2026",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-05-19",
+      "reason": "Same as above.",
+      "source": "NE.json"
+    },
+    {
+      "moratorium_id": "ne-otoe-county-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Confirmed from certified minutes signed by County Clerk Jenny Bassinger.",
+      "source": "NE.json"
+    },
+    {
+      "moratorium_id": "ne-otoe-county-2026",
+      "column": "duration",
+      "before": "Proposed moratorium; duration not confirmed in captured sources",
+      "after": "Moratorium on building and conditional-use permits for data centers, for up to one year from adoption (i.e., through on or about 2027-05-19), and subject to earlier termination if the zoning review committee's updated regulations are approved sooner.",
+      "reason": "Confirmed verbatim from the May 19, 2026 minutes: the board 'enter[ed] a moratorium on building and conditional use permits regarding data centers for up to one year ... the moratorium may be lifted earlier if regulations are updated and approved.'",
+      "source": "NE.json"
+    },
+    {
+      "moratorium_id": "ne-otoe-county-2026",
+      "column": "duration_days",
+      "before": "",
+      "after": "365",
+      "reason": "'Up to one year' per the certified minutes.",
+      "source": "NE.json"
+    },
+    {
+      "moratorium_id": "ne-otoe-county-2026",
+      "column": "duration_kind",
+      "before": "unknown",
+      "after": "until_event",
+      "reason": "The one-year cap is subject to earlier termination once the zoning review committee's updated regulations are approved, i.e., an event-conditioned duration with a fixed outer bound.",
+      "source": "NE.json"
+    },
+    {
+      "moratorium_id": "ne-otoe-county-2026",
+      "column": "legal_basis",
+      "before": "Planning Commission recommendation reported 2026-04-16; county board action not confirmed",
+      "after": "Otoe County Board of Commissioners motion (made by Commissioner Cole, seconded by Commissioner Crownover), adopted by unanimous voice vote (4-0; Commissioner Freshman absent) at the May 19, 2026 regular meeting, following a public hearing and the Planning Commission's April 16, 2026 recommendation. The same meeting also created a zoning review committee (Commissioners Jerad Sornson and Chuck Cole, Dan Thomson, and Jenniffer Panko-Rahe, plus Planning Board representatives Dan Hodges, Howard Bebout, and Cheri Wirthele) to update the county's zoning regulations. No separately numbered ordinance or resolution was adopted for the moratorium itself (compare Resolution 5-19-26-4 and Resolution 5-19-26-5, both adopted at the same meeting for unrelated matters).",
+      "reason": "Confirmed from the certified minutes of the May 19, 2026 meeting.",
+      "source": "NE.json"
+    },
+    {
+      "moratorium_id": "ne-otoe-county-2026",
+      "column": "current_status",
+      "before": "Recommended by Planning Commission only; County Board action [VERIFY: Otoe County Board of Commissioners action on the Planning Commission's 2026-04-16 recommendation not in captured records as of 2026-04-29; future-event status].",
+      "after": "Adopted. The Otoe County Board of Commissioners voted 4-0 on 2026-05-19 to enter a moratorium on building and conditional-use permits for data centers, for up to one year, with a newly created zoning review committee directed to update regulations; the moratorium may be lifted earlier once updated regulations are approved.",
+      "reason": "Resolves the VERIFY marker with certified county-clerk minutes.",
+      "source": "NE.json"
+    },
+    {
+      "moratorium_id": "ne-otoe-county-2026",
+      "column": "affected_projects",
+      "before": "Possible Tenaska-related southeast Nebraska land assembly and industrial/data center discussion reported in March 2026; no formal Otoe County project application identified [VERIFY: no specific Otoe County application docket retrieved as of 2026-04-29].",
+      "after": "No specific project application was named in the May 19, 2026 public hearing; the certified minutes record public comments about noise, pollution, water/power usage, and preserving agricultural land in general terms, not a named applicant. Possible Tenaska-related southeast Nebraska land assembly and industrial/data-center discussion had been reported in March 2026, but no formal Otoe County application docket was identified in any source checked in this pass either.",
+      "reason": "Confirmed from the certified minutes, which list public commenters but no named applicant or docket.",
+      "source": "NE.json"
+    },
+    {
+      "moratorium_id": "ne-otoe-county-2026",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "The certified minutes are unambiguous and dispositive: this row moves from 'pending' to 'active,' with an exact adoption date and duration. No separate ordinance/resolution number covers the moratorium itself; it was adopted by board motion, distinct from the two numbered resolutions (5-19-26-4, 5-19-26-5) passed the same day for other business. As of 2026-07-31, the up-to-one-year moratorium (running to on or about 2027-05-19) remains in effect; no report of the zoning review committee's regulations being finalized or the moratorium being lifted early was found in this pass.",
+      "source": "NE.json"
+    },
+    {
+      "moratorium_id": "ny-lewiston-2026",
+      "column": "date_enacted",
+      "before": "Not confirmed; public hearing scheduled 2026-04-13 [VERIFY: post-2026-04-13 Town Board adoption vote not in captured records as of 2026-04-29; future-event status].",
+      "after": "Adopted as Local Law No. 3 of 2026, now filed in the Town's official 2026 Local Laws register; the exact Town Board vote date was not confirmed from a source I could directly read, but adoption followed the 2026-04-13 public hearing.",
+      "reason": "The enacted law text is filed under the Town's official 2026 Local Laws directory, which by standard NY municipal practice contains only adopted, filed local laws; the exact vote date could not be read from the Town's scanned minutes or blocked news coverage.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-lewiston-2026",
+      "column": "duration",
+      "before": "Not identified in captured agenda [VERIFY: duration not specified in captured Lewiston Local Law 3-2026 agenda materials; full text not retrieved].",
+      "after": "Eighteen (18) months from the effective date of adoption (the 'Moratorium Period'), extendable by Town Board resolution for additional periods not to exceed six months each.",
+      "reason": "Section 5(a) of the enacted Local Law No. 3 of 2026 fixes an 18-month Moratorium Period from the effective date of adoption, extendable in increments of up to 6 months under Section 8.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-lewiston-2026",
+      "column": "duration_days",
+      "before": "",
+      "after": "548",
+      "reason": "18 months is approximated as 548 days (18 x 30.44) for the numeric duration_days field; the operative unit in the law itself is months, not days.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-lewiston-2026",
+      "column": "trigger",
+      "before": "Proposed local regulation of data centers, artificial intelligence processing facilities, and cryptocurrency mining operations; project trigger not identified in captured agenda [VERIFY: no specific Lewiston project application identified in captured municipal records].",
+      "after": "General/preemptive moratorium. The enacted law's legislative findings (Section 3) cite electrical and wastewater infrastructure capacity, fire safety, the absence of a zoning framework for these uses in the Town Code, and a pending Comprehensive Plan update -- no specific project or applicant is named anywhere in the enacted text.",
+      "reason": "Section 3 of the enacted law lists general legislative findings (infrastructure capacity, wastewater treatment, fire safety, absence of a regulatory framework, a pending Comprehensive Plan update, and regional precedent) and does not reference any specific project or applicant.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-lewiston-2026",
+      "column": "affected_projects",
+      "before": "None identified in captured municipal record [VERIFY: no specific Lewiston applicant identified in captured records as of 2026-04-29].",
+      "after": "None. The adopted law is townwide and general; no applicant or project is named in its findings or operative sections.",
+      "reason": "The enacted law's findings and operative sections are entirely general/townwide; no applicant or project is named anywhere in the text I read.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-lewiston-2026",
+      "column": "current_status",
+      "before": "Proposed/public-hearing stage in captured records",
+      "after": "Adopted and in effect as Local Law No. 3 of 2026, an 18-month moratorium on the establishment, construction, expansion, or operation of data centers (aggregate IT load >= 1 MW), artificial intelligence processing facilities (>= 1 MW), and cryptocurrency mining operations (aggregate electrical draw >= 100 kW), with a SEQRA Type II Action determination under 6 NYCRR 617.5(c)(33).",
+      "reason": "Synthesizes the confirmed adoption, 18-month duration, applicability thresholds, and SEQRA determination directly from the enacted law's text.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-lewiston-2026",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "This document is the enacted law text itself, assigned an official local-law number and filed in the town's '2026 Local Laws' directory (which, per standard NY municipal practice, contains only adopted, filed local laws rather than proposals), which is strong evidence of adoption -- but the document does not itself display the Town Board's vote date or roll call, and I could not retrieve a readable version of the Town Board's own minutes (image-based/scanned PDF) or open blocked news coverage (wnypapers.com returned HTTP 403; niagara-gazette.com returned HTTP 429) to pin down the exact vote date or corroborate the 5-0 vote reported in search summaries. I am treating adoption and the 18-month term as established from the primary text, and the exact adoption date as approximately mid-to-late April 2026 (shortly after the 2026-04-13 public hearing) but unconfirmed to the day.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-lysander-2026",
+      "column": "duration",
+      "before": "Not yet drafted [VERIFY: Lysander Town Attorney's draft moratorium not yet retrieved; duration not yet specified].",
+      "after": "Six (6) months, per Local Law #4 of 2026, 'Six-Month Moratorium on Data Storage Centers.'",
+      "reason": "The Town Supervisor's official update memo identifies the pending bill by name as a 6-month moratorium (Local Law #4 of 2026).",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-lysander-2026",
+      "column": "legal_basis",
+      "before": "2026-04-16 Town Board resolution allowing Town Attorney to draft a data center moratorium",
+      "after": "Local Law #4 of 2026 (a 6-month moratorium on data storage centers). Per the Town Supervisor's official update notice: 2026-04-16, Town Board resolution (4-0) authorizing the Town Attorney to draft the moratorium; 2026-04-24, Town Board resolution (4-0) referring Local Law #4 to the Onondaga County Planning Board and the Town of Lysander Planning Board for recommendation, plus a second 4-0 resolution to hold a public hearing; 2026-04-27, Town of Lysander Planning Board resolution (5-0) recommending Town Board approval; 2026-05-07, public hearing held on Local Law #4 at Lysander Town Hall.",
+      "reason": "The Town Supervisor's official chronology documents each Town Board and Planning Board action by date and vote tally, superseding the single 2026-04-16 drafting-authorization resolution previously on file.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-lysander-2026",
+      "column": "current_status",
+      "before": "Drafting authorized",
+      "after": "Local Law #4 of 2026 advanced through Planning Board recommendation (5-0, 2026-04-27) and a public hearing (2026-05-07); a final Town Board adoption vote following the hearing is suggested by a news headline but was not confirmed from a source I could directly verify as of 2026-07-31.",
+      "reason": "Reflects the most advanced procedural stage confirmed by a primary source (the 2026-05-07 public hearing), while withholding an adoption claim that rests only on an unread news headline.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-oneonta-2026",
+      "column": "date_enacted",
+      "before": "Not confirmed; moratorium local law introduced 2026-03-11, public hearing planned for 2026-04-08 [VERIFY: post-2026-04-08 Town Board adoption vote and Local Law filing not in captured records as of 2026-04-29; future-event status].",
+      "after": "Adopted 2026-05-15 by a unanimous Town Board vote.",
+      "reason": "WBNG directly reports the Town Board's unanimous May 15, 2026 vote adopting the moratorium.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-oneonta-2026",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-05-15",
+      "reason": "Matches the vote date reported by WBNG.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-oneonta-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "A single directly-fetched news account states the date plainly, though no primary town document was located to cross-check it.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-oneonta-2026",
+      "column": "current_status",
+      "before": "Proposed/pending in captured records",
+      "after": "Adopted; a 12-month moratorium has been in effect since 2026-05-15 on the development, construction, and operation of data centers and commercial cryptocurrency mining operations.",
+      "reason": "Synthesizes the confirmed May 15, 2026 adoption and 12-month term from the WBNG account.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-oneonta-2026",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "Only a single secondary (news) source was available; I could not retrieve the Town of Oneonta's own local law text, minutes, or a law number. The Eco-Yotta Inc. rezoning application itself appears to remain paused under the moratorium rather than formally denied or withdrawn, per this same article; Town Supervisor Will Rivera is quoted hoping to enact a permanent ban after the moratorium period ends.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-manlius-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "New York / Manlius",
+      "reason": "News-only sourcing; I did not retrieve the local law text or Town Board minutes. This instrument postdates the packet's 2026-04-28 coverage cutoff and is outside the current inventory. Two other leads (Town of Newfield, Tompkins County; and a Niagara County Planning Board referral covering the Towns of Lockport and Cambria) surfaced during this pass but could not be confirmed by a source I actually fetched, so they are not included here.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ok-oklahoma-city-2026",
+      "column": "current_status",
+      "before": "Active",
+      "after": "Active, as amended. On 2026-05-19, City Council voted 7-2 to amend the moratorium to allow data centers using up to 75 megawatts of electricity to apply for zoning and construction permits, and carved out two named exemptions: the Scale Datacenters facility on the Expand Energy (formerly Chesapeake) campus (serving Cerebras AI), and the Rack59 Data Center at 7725 W. Reno Ave. As of the most recent reporting reviewed (dated 2026-06-25), no comprehensive data-center zoning use-unit had been adopted, so the underlying moratorium (through 2026-12-31 or earlier zoning adoption) remains in force. No source dated in July 2026 was located to independently confirm currency as of 2026-07-31.",
+      "reason": "Confirmed via direct fetch of Oklahoma City Free Press reporting on the May 19, 2026 Council vote; no contrary evidence of full replacement or early termination was found.",
+      "source": "OK.json"
+    },
+    {
+      "moratorium_id": "ok-oklahoma-city-2026",
+      "column": "legal_basis",
+      "before": "Emergency ordinance introduced and adopted unanimously by City Council on 2026-04-21 as Council Agenda Item XI.U (Council packet downloaded 2026-04-29); the published OKC ordinance number is assigned post-passage and was not yet reflected in OKC's online ordinance index or PrimeGov portal (which requires authenticated session) as of 2026-04-29 [VERIFY assigned ordinance number from Office of the City Clerk; not in publicly accessible record on day-of-passage capture]",
+      "after": "Emergency ordinance introduced and adopted unanimously by City Council on 2026-04-21 as Council Agenda Item XI.U; amended 2026-05-19 by a 7-2 Council vote to add a 75 MW threshold and named facility exemptions. The assigned ordinance number(s) could not be confirmed via a primary source actually accessed in this pass \u2014 direct attempts to reach library.municode.com/ok/oklahoma_city and okc.gov's ordinance PDF both returned HTTP 403 [VERIFY assigned ordinance number(s) from the Office of the City Clerk for both the original 2026-04-21 ordinance and the 2026-05-19 amendment]",
+      "reason": "Direct verification of the ordinance number was attempted but blocked (403) on both library.municode.com and okc.gov; the May 19 amendment is documented via Oklahoma City Free Press reporting, which does not itself state an ordinance number.",
+      "source": "OK.json"
+    },
+    {
+      "moratorium_id": "ok-tulsa-2026",
+      "column": "legal_basis",
+      "before": "Tulsa Ordinance declaring a 9-month moratorium (originally drafted as 365-day moratorium under file identifier 26-196-3; council reduced to 9 months at vote per Tulsa Flyer reporting). The signed/numbered final ordinance is not retrievable through cityoftulsa.org's CouncilDocuments app (returned a server error on 2026-04-29 capture) [VERIFY published ordinance number once Tulsa City Clerk posts final signed copy]",
+      "after": "Tulsa City Council File/Ordinance No. 26-196 (final substitute version \"26-196-3\"), confirmed via direct review of the City of Tulsa's CouncilDocuments records: reviewed by the Urban Development committee and Council on 2026-03-11, and by the Budget/Special Projects committee and Council on 2026-03-25 (adoption). The city's own record title reads \"Ordinance declaring a 365-day Moratorium,\" in tension with news reporting (Tulsa Flyer) describing the final passed duration as 9 months; this discrepancy was not resolved with a directly-opened primary text of the signed ordinance in this pass.",
+      "reason": "Directly confirmed the file/ordinance number and committee/council review dates via cityoftulsa.org CouncilDocuments item pages; the 365-day-vs-9-month duration discrepancy is noted rather than resolved because the actual signed ordinance PDF could not be retrieved (repeated 404s).",
+      "source": "OK.json"
+    },
+    {
+      "moratorium_id": "wa-seattle-2026",
+      "column": "date_enacted",
+      "before": "Not enacted as of 2026-04-29",
+      "after": "2026-06-09 (Seattle City Council unanimous final passage of Council Bill 121214 and companion Resolution 32204, under emergency designation); signed by Mayor Katie Wilson 2026-06-11; Ordinance No. 127447",
+      "reason": "Confirmed via the Seattle City Council's own June 9, 2026 press release and via direct review of the Legistar legislation detail page, which shows the ordinance number, passage date, and mayoral signature date.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-seattle-2026",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-06-09",
+      "reason": "Date of City Council final passage.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-seattle-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Confirmed via the Council's own press release and the Legistar legislative record.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-seattle-2026",
+      "column": "duration",
+      "before": "Proposed/exploratory only",
+      "after": "365 days from the effective date (immediate, under emergency designation), automatically expiring thereafter unless renewed for one or more additional six-month periods in accordance with RCW 36.70A.390; a public hearing is required within 60 days of adoption.",
+      "reason": "Confirmed directly via the Legistar legislation record, which states the moratorium duration and renewal terms in these words.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-seattle-2026",
+      "column": "duration_days",
+      "before": "",
+      "after": "365",
+      "reason": "Stated duration of the initial moratorium term per the ordinance.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-seattle-2026",
+      "column": "duration_kind",
+      "before": "unknown",
+      "after": "fixed_days",
+      "reason": "Ordinance specifies a fixed 365-day initial term, renewable in six-month increments under RCW 36.70A.390.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-seattle-2026",
+      "column": "legal_basis",
+      "before": "No ordinance captured; Mayor Katie Wilson's 2026-04-18 statement says the city is \"exploring a moratorium on siting new centers\"; any future ordinance would rely on RCW 36.70A.390 (Seattle plans under the Growth Management Act)",
+      "after": "Seattle Ordinance No. 127447 (Council Bill 121214, amended), with companion Resolution 32204 (amended); adopted under the RCW 36.70A.390 interim-zoning-control procedure. Amends SMC 23.84A.008 to define \"data center\" as a facility used primarily for storing and processing digital data, with power capacity over 20 Megavolt-Amperes and requiring uninterruptible power, and imposes a moratorium on the filing, acceptance, processing, or approval of applications to establish or expand such uses.",
+      "reason": "Confirmed directly via the Legistar legislation record (title, definition/threshold language, and RCW citation).",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-seattle-2026",
+      "column": "current_status",
+      "before": "Proposed / under consideration; KIRO Newsradio reported one of four developer companies has dropped out, leaving Prologis, Equinix, and Sabey eyeing southern Seattle sites; companies have not yet formally applied for service",
+      "after": "Active. Adopted by City Council 2026-06-09 (unanimous), signed by Mayor Wilson 2026-06-11. Companion Resolution 32204 directs a study/policy process (grid capacity, water use, utility rates, land use, jobs, and public health impacts) with reports and proposed permanent legislation due by January 2027. Two data center projects that were already vested under prior rules are not covered by the moratorium; new applications from companies including Prologis, Equinix, and Sabey are paused pending the study process. No source dated after early-to-mid summer 2026 was located to further update this status as of 2026-07-31.",
+      "reason": "Confirmed via the Council's own press release and corroborating news coverage (KUOW, 2026-06-09) describing the vested-project exemption and the study timeline.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-seattle-2026",
+      "column": "outcome",
+      "before": "No moratorium enacted as of 2026-04-29; Seattle City Light is rewriting contract terms for large-load customers, planning to require data center operators to secure their own power generation and pay for infrastructure upgrades rather than passing costs to ratepayers (GeekWire, 2026-04-19)",
+      "after": "Moratorium enacted 2026-06-09; the city is using the pause and the companion Resolution 32204 working-group process to study grid, water, ratepayer, and environmental-justice impacts and to develop permanent siting/zoning rules, with reports and proposed permanent legislation due by January 2027.",
+      "reason": "Confirmed via the Council's own press release and Resolution 32204 reporting.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-seattle-2026",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "The exact ordinance number (127447) and mayoral signature date (2026-06-11) rest on a single Legistar detail page render rather than a second independently-opened copy of the signed instrument; treated as reliable given the Council's own press release corroborates the passage date, sponsors, and companion resolution number, but flagged here for a follow-up direct check if higher certainty is needed. Separately, several other Washington jurisdictions were found to have adopted their own data center moratoria after this inventory's 2026-04-28 cutoff (see new_candidates): Skagit County (confirmed here with a primary county source), plus news-only leads for Burien and Federal Way that could not be independently verified with an actually-opened primary or news URL in this pass and are therefore omitted pending further verification.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-skagit-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Washington / Skagit County",
+      "reason": "Adopted after the inventory's 2026-04-28 coverage cutoff. Confirmed with both a county government source and independent news corroboration.",
+      "source": "WA.json"
+    }
+  ]
+}

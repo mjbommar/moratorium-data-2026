@@ -1,0 +1,198 @@
+{
+  "state_abbrev": "GA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "Georgia's 2025-2026 Regular Session (General Assembly session ID 1033, a single two-year term) adjourned sine die on Legislative Day 40, 2026-04-02, confirmed via the legislature's own session-calendar data (legis.ga.gov API sessions/days/1033, which lists day 40 as 2026-04-02 with no further legislative days scheduled); a subsequent 2026 Special Session (ID 1034, June 17-23, 2026) covered redistricting and commendation resolutions only, with no data-center-related legislation. A bill that had not passed both chambers by 2026-04-02 dies for the full biennium (Georgia does not carry bills into a third year); bills that stalled in year one (2025) could still be acted on in year two (2026), as SB 34 shows, but nothing below moved after the dates recorded.",
+  "decisions": [
+    {
+      "bill_key": "GA:HB 1012 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died at sine die 2026-04-02; last action House Second Readers 2026-01-28, no committee report or floor vote ever recorded",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-28",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.legis.ga.gov/legislation/72319",
+          "title": "HB 1012 (2025-2026) - Georgia General Assembly bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Live status record (queried 2026-07-31) shows status 'House Second Readers' with full statusHistory of only House Hopper (2026-01-16), House First Readers (2026-01-27), and House Second Readers (2026-01-28); no later entries, confirming the bill never received a committee report or floor vote before the 2026-04-02 sine die.",
+          "quote": "status: House Second Readers; statusHistory ends 2026-01-28T10:10:24"
+        }
+      ],
+      "notes": "Packet's 'Failed' read is confirmed correct via the General Assembly's own bill-status data, retrieved directly from the site's backing API (same data that renders legis.ga.gov/legislation/72319)."
+    },
+    {
+      "bill_key": "GA:HB 1059 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died at sine die 2026-04-02; last action House Second Readers 2026-02-02, no committee report or floor vote ever recorded",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-02",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.legis.ga.gov/legislation/72510",
+          "title": "HB 1059 (2025-2026) - Georgia General Assembly bill status, 'Data Center Impact Assessment and Development Moratorium Act of 2026'",
+          "source_type": "legislature_bill_page",
+          "supports": "Live status record (queried 2026-07-31) shows status 'House Second Readers' with statusHistory ending at House Second Readers on 2026-02-02, after House Hopper (2026-01-28) and House First Readers (2026-01-29); no further action.",
+          "quote": "status: House Second Readers; statusHistory ends 2026-02-02T10:45:10"
+        }
+      ],
+      "notes": "Confirms packet's 'Failed' characterization."
+    },
+    {
+      "bill_key": "GA:HB 1063 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed House 2026-02-17 (159-5); died in Senate at sine die 2026-04-02; last action Senate Read and Referred 2026-02-18",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-18",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.legis.ga.gov/legislation/72514",
+          "title": "HB 1063 (2025-2026) - Georgia General Assembly bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Live status record (queried 2026-07-31) confirms House passage by substitute on 2026-02-17 (House Vote #517, 159 yea-5 nay) and Senate Read and Referred on 2026-02-18, with no statusHistory entries after that -- the bill never came up in the Senate committee before sine die.",
+          "quote": "House Vote #517 PASSAGE 159 yea / 5 nay (2026-02-17); statusHistory ends Senate Read and Referred 2026-02-18T10:13:04"
+        }
+      ],
+      "notes": "Verifies the specific concern in the task: no further Senate action beyond the Read-and-Referred stage was found in the bill's full statusHistory."
+    },
+    {
+      "bill_key": "GA:HB 1192 (2024)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Vetoed by Governor 2024-05-07 (Veto V7); final for the 2023-2024 biennium",
+        "bill_status_category": "vetoed",
+        "last_action_date_iso": "2024-05-07",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.legis.ga.gov/legislation/66812",
+          "title": "HB 1192 (2023-2024) - Georgia General Assembly bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Live status record confirms full path (House passage 2024-02-27, Senate passage 2024-03-14, sent to Governor 2024-04-01) ending in 'House Date Vetoed by Governor' 2024-05-07 with Veto V7 recorded, sponsor John Carson matching the packet.",
+          "quote": "status: House Date Vetoed by Governor ; statusHistory: Veto V7 2024-05-07T23:59:59"
+        }
+      ],
+      "notes": "Older (2023-2024 biennium) bill, but retrieved directly and unambiguously from the same official database; packet's veto date is exact."
+    },
+    {
+      "bill_key": "GA:HB 559 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died at sine die 2026-04-02 (end of the 2025-2026 biennium); last action House Second Readers 2025-02-21, no further action in either 2025 or 2026",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2025-02-21",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.legis.ga.gov/legislation/70610",
+          "title": "HB 559 (2025-2026) - Georgia General Assembly bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Live status record (queried 2026-07-31, after the full biennium including 2026 sine die) shows statusHistory ending at House Second Readers 2025-02-21 with no entries for all of 2026, confirming the bill never moved again during the two-year term.",
+          "quote": "status: House Second Readers; statusHistory ends 2025-02-21T09:07:03"
+        }
+      ],
+      "notes": "Confirmed dead for the whole biennium, not just as of the packet's earlier capture date."
+    },
+    {
+      "bill_key": "GA:SB 34 (2025-2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died at sine die 2026-04-02; last action Senate Committee Favorably Reported By Substitute 2026-02-25, never reached a Senate floor vote",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-25",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legis.ga.gov/legislation/69551",
+          "title": "SB 34 (2025-2026) - Georgia General Assembly bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Live status record shows the bill was active across both years of the biennium (Senate Hopper 2025-01-27, Read Second Time 2025-02-27, Recommitted 2026-01-12) and got a favorable committee substitute report on 2026-02-25, but statusHistory has no entry after that -- it never received a Senate floor vote before sine die.",
+          "quote": "statusHistory ends: Senate Committee Favorably Reported  By Substitute, 2026-02-25T09:52:16"
+        }
+      ],
+      "notes": "This bill shows the carryover pattern flagged in the task background (dormant through 2025, active again in 2026) but still died without a floor vote."
+    },
+    {
+      "bill_key": "GA:SB 408 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died at sine die 2026-04-02; last action Senate Read and Referred 2026-01-16, no committee action recorded",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-16",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.legis.ga.gov/legislation/72283",
+          "title": "SB 408 (2025-2026) - Georgia General Assembly bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Live status record confirms statusHistory of only Senate Hopper (2026-01-15) and Senate Read and Referred (2026-01-16), assigned to the Finance committee, with no further action; sponsor list (Dolezal, Tillery, Goodman, Watson, Halpern, etc.) matches the packet exactly.",
+          "quote": "status: Senate Read and Referred; statusHistory ends 2026-01-16T09:06:41"
+        }
+      ],
+      "notes": "Confirms packet's 'Failed' characterization for the bill already cited by ID in the packet."
+    },
+    {
+      "bill_key": "GA:SB 410 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed Senate 2026-03-06 (32-21 by substitute); died in House at sine die 2026-04-02; last action House Second Readers 2026-03-10",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-03-10",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.legis.ga.gov/legislation/72285",
+          "title": "SB 410 (2025-2026) - Georgia General Assembly bill status",
+          "source_type": "legislature_bill_page",
+          "supports": "Live status record confirms Senate passage by substitute on 2026-03-06 (Senate Vote #643, 32 yea-21 nay) and House First/Second Readers on 2026-03-09/03-10, with no statusHistory entries afterward -- no House committee report or floor action before sine die.",
+          "quote": "Senate Vote #643 PASSAGE BY SUBSTITUTE 32 yea / 21 nay (2026-03-06); statusHistory ends House Second Readers 2026-03-10T09:34:30"
+        }
+      ],
+      "notes": "Verifies the task's specific question: no further House action was found after Second Readers."
+    },
+    {
+      "bill_key": "GA:SB 421 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died at sine die 2026-04-02; last action Senate Read and Referred 2026-01-27, no committee action recorded",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-27",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.legis.ga.gov/legislation/72340",
+          "title": "SB 421 (2025-2026) - Georgia General Assembly bill status, 'Data Center Transparency Act'",
+          "source_type": "legislature_bill_page",
+          "supports": "Live status record confirms statusHistory of only Senate Hopper (2026-01-22) and Senate Read and Referred (2026-01-27), assigned to State and Local Governmental Operations committee, with no further action; title and sponsor list (Kemp, Echols, Howard, Still, etc.) match the packet.",
+          "quote": "status: Senate Read and Referred; statusHistory ends 2026-01-27T13:06:23"
+        }
+      ],
+      "notes": "Confirms packet's 'Failed' characterization for the bill already cited by ID in the packet."
+    }
+  ],
+  "new_bills": []
+}

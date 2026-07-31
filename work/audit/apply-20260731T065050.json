@@ -1,0 +1,95 @@
+{
+  "applied_at": "20260731T065050",
+  "answer_files": [
+    "work/answers/verify/AR.json",
+    "work/answers/verify/CT.json",
+    "work/answers/verify/IA.json",
+    "work/answers/verify/ID.json",
+    "work/answers/verify/IL.json",
+    "work/answers/verify/KS.json",
+    "work/answers/verify/LA.json",
+    "work/answers/verify/MA.json",
+    "work/answers/verify/ME.json",
+    "work/answers/verify/MI-part1.json",
+    "work/answers/verify/MI-part2.json",
+    "work/answers/verify/MN.json",
+    "work/answers/verify/MO.json",
+    "work/answers/verify/ND.json",
+    "work/answers/verify/NE.json",
+    "work/answers/verify/OH-part1.json",
+    "work/answers/verify/OH-part2.json",
+    "work/answers/verify/OK.json",
+    "work/answers/verify/WI.json"
+  ],
+  "stats": {
+    "outcome:confirmed_unchanged": 15,
+    "already_applied": 121,
+    "verify_still_open": 27,
+    "fields_changed": 1,
+    "verify_confirmed": 1,
+    "verify_resolved_via_field_rewrite": 1,
+    "candidates_added": 2,
+    "outcome:corrected": 28,
+    "verify_already_resolved": 73,
+    "skipped_drift": 3,
+    "skipped_duration_invariant": 1,
+    "ignored_packet_only_field": 10,
+    "outcome:status_changed": 8,
+    "candidate_duplicate": 7,
+    "outcome:unresolvable": 3
+  },
+  "conflicts": [
+    "IA.json: ia-franklin-county-2026.duration `from` mismatch (csv='Temporary; end date not captured' answer='')",
+    "IA.json: ia-jackson-county-2024.date_enacted `from` mismatch (csv='Three documented adoptions in the captured record: (1) 2024-' answer='Three documented adoptions in the captured record: (1) 2024-')",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'date_enacted'",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'duration'",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'affected_projects'",
+    "MI-part1.json: mi-bruce-township-undated marker not found in 'outcome'",
+    "MI-part1.json: mi-south-lyon-undated marker not found in 'date_enacted'",
+    "MI-part1.json: mi-south-lyon-undated marker not found in 'duration'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'date_enacted'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'duration'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'legal_basis'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'current_status'",
+    "MI-part1.json: mi-taylor-undated marker not found in 'affected_projects'",
+    "OH-part1.json: oh-findlay-2026.affected_projects `from` mismatch (csv='No specific developer or project has been publicly named; co' answer='Shady Grove/Marion Township annexation area discussed separa')"
+  ],
+  "skipped": [
+    "IA.json: candidate IA 'Sioux County' (resolution-2026-32) treated as duplicate of ia-sioux-county-2026 (resolution-2026-32)",
+    "IA.json: candidate IA 'Madison County' (no instrument number) treated as duplicate of ia-madison-county-2026 (no instrument number)",
+    "IA.json: candidate IA 'Ida County' (no instrument number) treated as duplicate of ia-ida-county-2026 (no instrument number)",
+    "MI-part1.json: mi-sault-ste-marie-tribe-of-chippewa-indian-2026 unresolvable",
+    "MI-part1.json: mi-grand-blanc-township-2026 unresolvable",
+    "MN.json: mn-eagan-2026 unresolvable",
+    "MN.json: candidate MN 'Rosemount' (ordinance-2026-03) treated as duplicate of mn-rosemount-2026 (ordinance-2026-03)",
+    "MN.json: candidate MN 'Mankato' (no instrument number) treated as duplicate of mn-mankato-2026 (no instrument number)",
+    "MN.json: candidate MN 'Otsego' (ordinance-2026-xx) treated as duplicate of mn-otsego-2026 (ordinance-2026-xx)",
+    "MN.json: candidate MN 'Wright County' (ordinance-26-2) treated as duplicate of mn-wright-county-2026 (ordinance-26-2)"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "ct-groton-2022",
+      "column": "date_enacted",
+      "before": "2022-06-14 (Groton PZC adoption per captured agenda packet); effective 2022-07-15 [VERIFY: exact effective-date language not extracted from REGA22-01 final adopted text in captured records]",
+      "after": "2022-06-14 (Groton PZC adoption, 5-0 vote); effective 2022-07-15, per the adopted motion text in the June 14, 2022 PZC meeting minutes: \"This text amendment shall become effective July 15, 2022.\"",
+      "reason": "Primary-source Groton Planning and Zoning Commission meeting minutes for 2022-06-14 (agendasuite.org, the town's official agenda portal) contain the adopted motion text, including the effective-date clause, confirming the date previously flagged for verification.",
+      "source": "CT.json"
+    },
+    {
+      "moratorium_id": "ct-west-haven-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Connecticut / West Haven",
+      "reason": "Discovered during the CT verification pass; falls after the 2026-04-28 coverage cutoff. Confirmed via primary official minutes. Secondary coverage (New Haven Register, 2026-06-12) was not independently fetched (site blocked). Checked and excluded: East Lyme, CT (per ctexaminer.com 2026-07-13, the Zoning Commission only voted to form a study subcommittee -- no moratorium adopted); Morris, CT (a reported two-year data center/BESS moratorium appears to date to approximately 2026-03-23, before the 2026-04-28 cutoff, so out of scope and not independently verified this pass).",
+      "source": "CT.json"
+    },
+    {
+      "moratorium_id": "oh-alliance-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Ohio / Alliance",
+      "reason": "Discovered via a parallel background research pass and independently confirmed via Wayback Machine CDX lookup + direct snapshot fetch (Canton Repository, Benjamin Duer, 2026-07-07). Postdates the stated 2026-04-28 coverage cutoff and was not otherwise in the packet. City's own legislation/ordinance text and number were not located (Alliance's municipal website was not checked in this pass); this rests on news reporting only.",
+      "source": "OH-part1.json"
+    }
+  ]
+}

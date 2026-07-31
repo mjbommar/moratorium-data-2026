@@ -1,0 +1,81 @@
+{
+  "state_abbrev": "DE",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "The 153rd Delaware General Assembly (2025-2026) is a two-year carryover body: bills introduced in the 2025 session remain alive through the 2026 session without refiling. Del. Const. art. II, section 4 requires the General Assembly to adjourn sine die no later than 5:00 p.m. on the last day of June each year; for 2026 that deadline (June 30) was met via Delaware's customary stopped-clock practice, with the final legislative day's floor votes recorded on legis.delaware.gov as occurring into the small hours of July 1, 2026. Any bill not enacted by that sine die adjournment dies with the biennium and must be reintroduced from scratch in the 154th General Assembly (2027) -- Delaware does not carry individual bills into a third year.",
+  "decisions": [
+    {
+      "bill_key": "DE:HB 233",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Substituted by House Substitute 1 for HB 233 on 2026-05-21; HS 1 passed both chambers 2026-07-01 and was sent to the Governor for action; not yet signed as of 2026-07-31",
+        "bill_status_category": "passed_both_chambers",
+        "last_action_date_iso": "2026-07-01",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://legis.delaware.gov/BillDetail?legislationId=142655",
+          "title": "Delaware General Assembly - Bill Detail, HB 233, 153rd General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "Original HB 233 was superseded by a substitute bill on 2026-05-21, past the packet's captured 'Out of Committee 2026-01-28' status.",
+          "quote": "5/21/26 Lieu/Substituted - Substitute bill (HS 1 for HB 233 w/ HA 1, HA 1 to HA 1, HA 3 + SA 2) filed"
+        },
+        {
+          "url": "https://legis.delaware.gov/BillDetail?legislationId=143381",
+          "title": "Delaware General Assembly - Bill Detail, House Substitute 1 for House Bill 233, 153rd General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "The substitute vehicle for HB 233 (large energy use facility rate class / cost allocation to data centers) passed both chambers on the last day of the 2026 session and is awaiting gubernatorial action; it has not been signed into law as of the research date.",
+          "quote": "Current Status: Passed 7/1/26 -- Ready for Governor for action"
+        }
+      ],
+      "notes": "The originally-introduced HB 233 (legislationId 142655) was replaced in committee by House Substitute 1 for HB 233 (legislationId 143381, same long title, same core large-energy-use-facility rate-class/cost-allocation concept). HS 1 passed the House and Senate on the 153rd General Assembly's final 2026 legislative day and is currently pending before Governor Meyer; the official bill page still shows only 'Ready for Governor for action' with no recorded signature, so this bill is NOT YET ENACTED as of 2026-07-31. If the Governor signs (or allows it to become law without signature) after this research date, bill_status_category should be updated to 'enacted'."
+    },
+    {
+      "bill_key": "DE:SB 205",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "No further action recorded after being reported Out of Committee to the Ready List on 2026-03-11; died with the 153rd General Assembly's second-year sine die adjournment (2026-06-30/07-01) without a floor vote",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-03-11",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://legis.delaware.gov/BillDetail?legislationId=142714",
+          "title": "Delaware General Assembly - Bill Detail, SB 205, 153rd General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "SB 205's action history stops at the 2026-03-11 committee report to the Ready List; no subsequent floor amendment votes, passage, or any other action is recorded, and the 153rd General Assembly's 2026 session has since adjourned sine die.",
+          "quote": "3/11/26 Out of Committee -- Reported from Committee; to list ready for consideration (Ready List)"
+        }
+      ],
+      "notes": "SB 205 (Public Service Commission certificate-to-operate requirement for large energy users, as amended by Senate Amendment 1 to a 100 MW / transmission-certificate threshold) never received a floor vote after being placed on the Ready List on 2026-03-11. Unlike the group of large-energy-user/data-center bills (including the HB 233 substitute and SB 312) that were pushed through on the 153rd General Assembly's final 2026 legislative day, SB 205 is absent from the official bill page's action history beyond the Ready List entry, and no news coverage of the final-day votes lists it among the bills passed. Per Delaware's sine die rule, it is therefore dead for the biennium and would need to be reintroduced in the 154th General Assembly (2027). Confidence is 0.75 rather than higher because the official page displays only a summary history rather than an exhaustive session journal, so a very-last-minute action cannot be ruled out with certainty; no corroborating news of passage was found."
+    }
+  ],
+  "new_bills": [
+    {
+      "state": "Delaware",
+      "bill": "SB 312",
+      "sponsors": "Sen. Poore; Rep. Burns; Rep. Heffernan; Rep. Minor-Brown; others",
+      "party": "D",
+      "status": "Passed both chambers 2026-06-24; sent to Governor for action; not yet signed as of 2026-07-31",
+      "bill_status_category": "passed_both_chambers",
+      "last_action_date_iso": "2026-06-24",
+      "chamber_of_origin": "Senate",
+      "key_provisions": "Amends Title 9, Title 22, and Title 29 of the Delaware Code relating to data centers. Prohibits state agencies, counties, and municipalities from entering into nondisclosure agreements that would restrict public access to information about potential or actual large-scale data center development (defined by reference to facilities capable of using 100+ MW), aiming to preserve local transparency and public input into data-center siting decisions.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143259",
+          "title": "Delaware General Assembly - Bill Detail, SB 312, 153rd General Assembly",
+          "source_type": "legislature_bill_page",
+          "supports": "SB 312, a data-center transparency/siting-disclosure bill not present in the DE packet, passed both chambers on 2026-06-24 and is pending before the Governor as of the research date.",
+          "quote": "6/24/26 Passed ... Ready for Governor for action"
+        }
+      ],
+      "notes": "Not in the original packet. Directly relevant to local siting authority/transparency for data centers: bars NDAs by state and local governments that would otherwise keep large-scale data center development plans from public view. Not yet enacted as of 2026-07-31; the official bill page shows no Governor signature."
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "state_abbrev": "CA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "California",
+      "jurisdiction": "Imperial",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-03 (City Council unanimous adoption of Interim Urgency Ordinance No. 834, per meeting summary and a contemporaneous Coachella staff report survey of nearby municipal actions)",
+      "date_enacted_iso": "2026-06-03",
+      "date_enacted_uncertainty": "exact",
+      "duration": "45 days from 2026-06-03 (statutory term would run to approximately 2026-07-18 under Gov. Code section 65858); no extension of this City of Imperial ordinance was identified in sources reviewed through 2026-07-31. This is a distinct instrument and jurisdiction from the Imperial County Board of Supervisors' moratorium (already in the inventory as ca-imperial-county-2026), which was separately extended to one year.",
+      "duration_days": 45,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Interim Urgency Ordinance No. 834, adopted under California Gov. Code section 65858",
+      "trigger": "Pause on approvals for data centers, battery energy storage systems, and similar utility-intensive industrial/technology uses while the city studies zoning and development standards",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility", "grid_energy"],
+      "sectors": ["data_center", "battery_storage"],
+      "current_status": "No extension or permanent ordinance specific to the City of Imperial (distinct from Imperial County) was identified in sources reviewed through 2026-07-31; the 45-day term would have lapsed around 2026-07-18.",
+      "enacted_status": "expired",
+      "affected_projects": "",
+      "outcome": "",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://app.govly.com/public/meetings/28363",
+          "source_type": "minutes",
+          "publisher": "City of Imperial",
+          "document_date": "2026-06-03",
+          "supports": "City Council unanimous adoption of Interim Urgency Ordinance No. 834 on 2026-06-03"
+        },
+        {
+          "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/coachelaca-meet-07c3d330bb5942b6987fae778373781d/ITEM-Attachment-001-6871b037413e4d69a3c3db9b9fccdb38.pdf",
+          "source_type": "staff_report",
+          "publisher": "City of Coachella",
+          "supports": "Corroborates the City of Imperial's June 3, 2026 adoption of a 45-day data center/BESS moratorium via a contemporaneous staff survey of nearby municipal actions"
+        }
+      ],
+      "notes": "Distinct instrument and jurisdiction from ca-imperial-county-2026 (Imperial County Board of Supervisors), already in the inventory. No further extension for the City of Imperial was found in the May-July 2026 chronology; enacted_status of 'expired' is inferred from the elapsed 45-day term and absence of any extension report, not from a direct expiration notice. [VERIFY]"
+    },
+    {
+      "state": "California",
+      "jurisdiction": "Indio",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-03 (City Council unanimous adoption of Urgency Ordinance No. 1838); extended by a further City Council vote on 2026-07-15",
+      "date_enacted_iso": "2026-06-03",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Initial 45 days from 2026-06-03; extended by City Council vote on 2026-07-15. The extension's length and precise end date were not stated in the sources reviewed. [VERIFY]",
+      "duration_days": 45,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Urgency Ordinance No. 1838, adopted under California Gov. Code section 65858",
+      "trigger": "Pause on establishment, expansion, or intensification of data center uses to allow review of regulations and consideration of a longer moratorium or permanent prohibition; city reported no active data center applications",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Extended by City Council vote on 2026-07-15; the Planning Commission separately recommended a permanent prohibition on 2026-06-24 (advisory only). Precise extension end date not confirmed. [VERIFY]",
+      "enacted_status": "extended",
+      "affected_projects": "",
+      "outcome": "",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.indio.org/Home/Components/News/News/311/518",
+          "source_type": "other",
+          "publisher": "City of Indio",
+          "document_date": "2026-06-03",
+          "supports": "City Council unanimously adopted Urgency Ordinance No. 1838, a 45-day data center moratorium, on 2026-06-03"
+        },
+        {
+          "url": "https://www.nbcpalmsprings.com/2026/07/15/indio-city-council-extends-moratorium-on-new-data-center-projects",
+          "source_type": "news",
+          "publisher": "NBC Palm Springs",
+          "document_date": "2026-07-15",
+          "supports": "City Council unanimously extended the 45-day moratorium on 2026-07-15"
+        }
+      ],
+      "notes": "Extension's precise duration/end date is unconfirmed. [VERIFY]"
+    },
+    {
+      "state": "California",
+      "jurisdiction": "Desert Hot Springs",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-16 (City Council adoption of a 45-day interim urgency moratorium); extended by 22 months and 15 days via unanimous City Council vote on 2026-07-07",
+      "date_enacted_iso": "2026-06-16",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Initial 45 days from 2026-06-16; extended 22 months and 15 days from 2026-07-07, bringing the maximum total pause to the Gov. Code section 65858 two-year cap.",
+      "duration_days": 45,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Interim urgency moratorium ordinance, adopted and extended under California Gov. Code section 65858",
+      "trigger": "Pause on licenses, permits, entitlements, and land-use approvals for data centers and similar high-intensity computing uses while the city studies whether, where, and under what standards such uses should be allowed; no specific data center application was reported pending",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Extended on 2026-07-07 to the full two-year statutory maximum (22 months 15 days beyond the initial 45 days); active as of the extension.",
+      "enacted_status": "extended",
+      "affected_projects": "",
+      "outcome": "",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://cityofdhs.civicweb.net/Portal/MeetingInformation.aspx?Id=4437&Org=Cal",
+          "source_type": "agenda",
+          "publisher": "City of Desert Hot Springs",
+          "document_date": "2026-06-16",
+          "supports": "City Council adopted a 45-day interim urgency moratorium on 2026-06-16"
+        },
+        {
+          "url": "https://cityofdhs.civicweb.net/document/117389/Extension%20of%20Urgency%20Interim%20Ordinance%20of%20the%20C.pdf?handle=872897AA33C84CE2801E18571954240B",
+          "source_type": "ordinance",
+          "publisher": "City of Desert Hot Springs",
+          "document_date": "2026-07-07",
+          "supports": "Confirms the underlying 45-day ordinance and its extension by 22 months 15 days from 2026-07-07"
+        },
+        {
+          "url": "https://kesq.com/news/2026/07/07/desert-hot-springs-considers-extending-temporary-ban-on-new-data-centers/",
+          "source_type": "news",
+          "publisher": "KESQ",
+          "document_date": "2026-07-07",
+          "supports": "Reports the unanimous 2026-07-07 extension vote"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "state": "California",
+      "jurisdiction": "Calipatria",
+      "jurisdiction_type": "City",
+      "date_enacted": "",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed five-year (1,825 day) moratorium on new large-scale data center development; not yet adopted as of the sources reviewed",
+      "duration_days": 1825,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Proposed ordinance; City Council voted 4-0 on 2026-05-12 to advertise and hold formal public hearings",
+      "trigger": "Proposed pause on new large-scale data center development pending a formal hearing process",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "As of the 2026-05-12 vote, the City Council had only directed staff to advertise and hold public hearings on the proposed ordinance; no adoption vote or enactment was identified in subsequent sources reviewed through 2026-07-31.",
+      "enacted_status": "pending",
+      "affected_projects": "",
+      "outcome": "",
+      "confidence": 0.45,
+      "evidence": [
+        {
+          "url": "https://www.calipatria.com/wp-content/uploads/AGN051226-o.pdf",
+          "source_type": "agenda",
+          "publisher": "City of Calipatria",
+          "document_date": "2026-05-12",
+          "supports": "Official May 12, 2026 agenda item authorizing advertisement and public hearings on a proposed five-year data center moratorium"
+        },
+        {
+          "url": "https://kyma.com/news/top-stories/2026/05/13/calipatria-city-council-approves-data-center-moratorium-on-heels-of-council-recall-notices/",
+          "source_type": "news",
+          "publisher": "KYMA",
+          "document_date": "2026-05-13",
+          "supports": "Describes the May 12, 2026 Council vote to advance the proposed moratorium to a hearing process"
+        }
+      ],
+      "notes": "No subsequent enactment was found in the May-July 2026 chronology; status remains pending as of 2026-07-31."
+    },
+    {
+      "state": "California",
+      "jurisdiction": "Irwindale",
+      "jurisdiction_type": "City",
+      "date_enacted": "Draft Urgency Ordinance 819 was scheduled for a City Council public hearing and possible four-fifths adoption vote on 2026-05-27; whether it was adopted that day is unconfirmed",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Draft ordinance proposed a 45-day moratorium on processing, approving, or accepting new data center applications and on converting existing facilities into data centers",
+      "duration_days": 45,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Draft Urgency Ordinance 819 (full draft text in the May 27, 2026 agenda packet); adoption requires a four-fifths Council vote under Gov. Code section 65858",
+      "trigger": "Proposed pause on new and converted data center applications",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Adopted minutes or a signed ordinance confirming whether Ordinance 819 passed on 2026-05-27 were not located in sources reviewed through 2026-07-31.",
+      "enacted_status": "pending",
+      "affected_projects": "",
+      "outcome": "",
+      "confidence": 0.4,
+      "evidence": [
+        {
+          "url": "https://irwindaleca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2240",
+          "source_type": "agenda",
+          "publisher": "City of Irwindale",
+          "document_date": "2026-05-27",
+          "supports": "May 27, 2026 agenda packet with full draft text of Urgency Ordinance 819 proposing a 45-day data center moratorium"
+        },
+        {
+          "url": "https://www.noticeregistry.com/california/notice/public-hearing-irwindale-966093",
+          "source_type": "other",
+          "publisher": "NoticeRegistry",
+          "document_date": "2026-05-27",
+          "supports": "Published notice of the scheduled public hearing on the draft ordinance"
+        }
+      ],
+      "notes": "Enactment on 2026-05-27 is unconfirmed; no adopted minutes or signed ordinance were located. Confidence held at 0.4 reflecting this uncertainty. [VERIFY]"
+    }
+  ]
+}

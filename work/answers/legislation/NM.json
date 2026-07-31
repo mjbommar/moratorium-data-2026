@@ -1,0 +1,74 @@
+{
+  "state_abbrev": "NM",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "New Mexico's 2026 regular session (an even-year, constitutionally limited 30-day session) convened January 20, 2026 at noon and adjourned sine die February 19, 2026 at noon; short sessions are restricted to budget/finance legislation and items placed on the Governor's call unless a committee affirmatively finds a bill germane (e.g. SB 235's Senate Conservation Committee report of 2026-02-04 finding it 'within the purview of a 30 day session'). New Mexico does not carry individual bills forward into the next year's session, so any bill not passed by both chambers and signed by sine die is dead for 2026.",
+  "decisions": [
+    {
+      "bill_key": "NM:HB 27 (2026), Technology Jobs R&D Tax Credit Expansion",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Died in House Taxation and Revenue Committee (Action Postponed Indefinitely) after House Commerce and Economic Development Committee reported Do Not Pass on the original bill but Do Pass on a committee substitute on 2026-01-29; not enacted before 2026 sine die (2026-02-19)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-29",
+        "chamber_of_origin": "House",
+        "key_provisions": "Committee substitute (as reported by HCEDC) excluded data centers from the expanded Technology Jobs and R&D Tax Credit treatment for IRB-owned property; bill never advanced past House Taxation and Revenue Committee referral."
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.nmlegis.gov/Legislation/Legislation?Chamber=H&LegType=B&LegNo=27&year=26",
+          "title": "HB 27 (2026) - Bill Status/Actions, New Mexico Legislature",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the action history: sent to HPREF (2026-01-21), sent to HCEDC/referred HTRC (2026-01-29), HCEDC reported Do Not Pass on the original with Do Pass on a committee substitute (2026-01-29), and the bill's final location shows Action Postponed Indefinitely with no further floor action prior to sine die.",
+          "quote": "HCEDC: Reported by committee with Do Not Pass but with a Do Pass recommendation on Committee Substitution ... Action Postponed Indefinitely"
+        }
+      ],
+      "notes": "The packet's captured status flagged '[VERIFY: precise final-journal disposition vote not separately retrieved]'; the official bill-status page confirms the disposition was Action Postponed Indefinitely (i.e., died in committee), resolving that flag. The page does not display a distinct calendar date for the Action Postponed Indefinitely entry itself, so last_action_date_iso is set to the last dated action (2026-01-29); the bill was dead in any case no later than sine die, 2026-02-19. Not enacted."
+    },
+    {
+      "bill_key": "NM:HM 45 (2026), Importance of Water in Taos",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Referred to House Agriculture, Acequias and Water Resources Committee 2026-02-03; Action Postponed Indefinitely; memorial not adopted before 2026 sine die (2026-02-19)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-03",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.nmlegis.gov/Legislation/Legislation?Chamber=H&LegType=M&LegNo=45&year=26",
+          "title": "HM 45 (2026) - Bill Status/Actions, New Mexico Legislature",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the memorial was sent to the House Agriculture, Acequias and Water Resources Committee on 2026-02-03 and shows a final status of Action Postponed Indefinitely, with no adoption recorded.",
+          "quote": "Sent to HAAWC - Referrals: HAAWC ... Action Postponed Indefinitely"
+        }
+      ],
+      "notes": "Matches the packet's captured status exactly (postponed indefinitely, not adopted). The page does not show a distinct calendar date for the Action Postponed Indefinitely entry, so last_action_date_iso reflects the last dated action (2026-02-03); disposition was final no later than sine die, 2026-02-19. As a simple memorial, it had no bearing on enactment even if adopted; it was not adopted."
+    },
+    {
+      "bill_key": "NM:SB 235 (2026), Microgrid Oversight Act",
+      "outcome": "corrected",
+      "fields": {
+        "status": "Committee-substituted in Senate Conservation and Senate Tax, Business and Transportation Committees; passed the Senate 22-20 on 2026-02-14; sent to House Judiciary Committee 2026-02-15; Action Postponed Indefinitely there; not enacted before 2026 sine die (2026-02-19)",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-15",
+        "chamber_of_origin": "Senate",
+        "key_provisions": "Bill actually reached and passed a Senate floor vote (22-20) before dying in House Judiciary Committee; this is more specific than the packet's captured text, which described it only as 'postponed indefinitely after engrossment.'"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.nmlegis.gov/Legislation/Legislation?Chamber=S&LegType=B&LegNo=235&year=26",
+          "title": "SB 235 (2026) - Bill Status/Actions, New Mexico Legislature",
+          "source_type": "legislature_bill_page",
+          "supports": "Full action history confirms committee referrals (SCC/SCONC/STBTC), an SCC germaneness finding for the 30-day session (2026-02-04), a Senate floor passage vote of 22-20 on 2026-02-14, referral to House Judiciary Committee on 2026-02-15, and a final status of Action Postponed Indefinitely with no further House action.",
+          "quote": "Passed in the Senate - Y:22 N:20 ... Sent to HJC - Referrals: HJC ... Action Postponed Indefinitely"
+        }
+      ],
+      "notes": "Outcome marked 'corrected' because the confirmed record adds the Senate floor vote (passed 22-20 on 2026-02-14) that the packet's vaguer 'postponed indefinitely after engrossment' text did not spell out, though the ultimate disposition (dead, not enacted) is unchanged. The page does not show a distinct calendar date for the Action Postponed Indefinitely entry in the House, so last_action_date_iso is set to the last dated action (2026-02-15, referral to House Judiciary Committee); the bill was dead no later than sine die, 2026-02-19. Not enacted."
+    }
+  ],
+  "new_bills": []
+}

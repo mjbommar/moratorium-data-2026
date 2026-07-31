@@ -1,9 +1,9 @@
 """Shared helpers for the LaTeX table generators.
 
-The generators in this package read `research/analysis/moratorium_inventory.csv`
-and `research/analysis/moratorium-analysis.json` and emit the corresponding
-hand-rolled tables in `latex/tables/`. They replace what was previously a
-manual edit pass after every data refresh.
+The generators in this package read `data/moratorium_inventory.csv` and
+`data/clause_extraction_analysis.json` and emit the corresponding hand-rolled
+tables in `tables/`. They replace what was previously a manual edit pass after
+every data refresh.
 
 Sector classification is intentionally identical to the logic used by
 `src/moratorium_maps/maps.py::map_sector_composition` so that the maps and
@@ -19,11 +19,13 @@ from dataclasses import dataclass
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-ANALYSIS_DIR = PROJECT_ROOT / "research" / "analysis"
-TABLES_DIR = PROJECT_ROOT / "latex" / "tables"
-INVENTORY_CSV = ANALYSIS_DIR / "moratorium_inventory.csv"
-ANALYSIS_JSON = ANALYSIS_DIR / "moratorium-analysis.json"
-SUMMARY_JSON = ANALYSIS_DIR / "summary_stats.json"
+DATA_DIR = PROJECT_ROOT / "data"
+TABLES_DIR = PROJECT_ROOT / "tables"
+INVENTORY_CSV = DATA_DIR / "moratorium_inventory.csv"
+# Published under a descriptive name; this is the file the private working repo
+# calls moratorium-analysis.json.
+ANALYSIS_JSON = DATA_DIR / "clause_extraction_analysis.json"
+SUMMARY_JSON = DATA_DIR / "summary_stats.json"
 
 
 @dataclass(frozen=True)

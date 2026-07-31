@@ -1,0 +1,294 @@
+{
+  "state_abbrev": "MI",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "Michigan's 104th Legislature covers the 2025-2026 term (through December 2026); Michigan bills carry over between the two years of the same term without needing reintroduction (a bill introduced in 2025 remains the same live bill in 2026). As of the research date the Legislature has not adjourned sine die - it is in summer recess (House adjourned until 2026-08-11, Senate until 2026-08-12, per legislature.mi.gov), so no bill below is 'died' or 'carried_over'; unpassed bills are simply still in_committee and legitimately pending.",
+  "decisions": [
+    {
+      "bill_key": "MI:2024 PA 181",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Enacted as 2024 PA 181; in effect and not repealed as of 2026-07-31",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "",
+        "chamber_of_origin": "unknown"
+      },
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/documents/2023-2024/publicact/pdf/2024-PA-0181.pdf",
+          "title": "2024 Public Act 181 (Michigan Legislature)",
+          "source_type": "bill_text",
+          "supports": "Confirms 2024 PA 181 exists, provides property-tax/data-center-facility exemption provisions consistent with the tracker's description, and is not marked as repealed.",
+          "quote": "2024 Public Act 181 - Data Center Tax Exemptions"
+        }
+      ],
+      "notes": "PDF summary did not yield a reliable exact enactment date or a verifiable originating bill number (an initial WebFetch summary claimed 'Senate Bill 631' as the origin, but a follow-up check of 2023 SB 631 showed it was an unrelated civil-rights bill, so that attribution is not trustworthy and is omitted). No repeal of PA 181 has passed (HB 5396/5397/5398 (2025), which would repeal the related exemptions, remain in House committee with no floor action). last_action_date_iso left blank per schema guidance since the precise date could not be confirmed."
+    },
+    {
+      "bill_key": "MI:HB 4906 (2023)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed House 2023-11-08 (79-30); passed Senate as substituted 2024-05-16 (22-11); House concurred 2024-11-13 (64-45); Senate concurred 2024-12-12; approved by Governor 2025-01-17; enacted as 2024 PA 207",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2025-01-17",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/Home/GetObject?ObjectName=2023-HB-4906",
+          "title": "House Bill 4906 (2023) - Legislative Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Full action history confirms passage in both chambers and approval by the Governor on 2025-01-17, becoming Public Act 207 of 2024.",
+          "quote": "Approved by Governor; became PA 207 of 2024 (1/17/2025)"
+        }
+      ],
+      "notes": "Prior record's disposition already correct; last_action_date_iso refined to the actual governor-approval/filing date (2025-01-17), which is later than the 2024 calendar year implied by the Public Act's year label (a common lag between legislative passage and gubernatorial signature)."
+    },
+    {
+      "bill_key": "MI:HB 5396 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced 2025-12-17; referred to House Committee on Economic Competitiveness; no further action as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2025-12-18",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/Home/GetObject?ObjectName=2025-HB-5396",
+          "title": "House Bill 5396 (2025) - Legislative Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms introduction 2025-12-17, referral to Committee on Economic Competitiveness, electronic reproduction 2025-12-18, and no further action recorded.",
+          "quote": "Referred to the Committee on Economic Competitiveness"
+        }
+      ],
+      "notes": "Still alive and pending; not dead, since Michigan bills carry over within the 2025-2026 term and the term has not ended."
+    },
+    {
+      "bill_key": "MI:HB 5397 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced 2025-12-17; referred to House Committee on Economic Competitiveness; no further action as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2025-12-18",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/Home/GetObject?ObjectName=2025-HB-5397",
+          "title": "House Bill 5397 (2025) - Legislative Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms introduction 2025-12-17, referral to Committee on Economic Competitiveness, electronic reproduction 2025-12-18, and no further action.",
+          "quote": "Referred to Committee on Economic Competitiveness"
+        }
+      ]
+    },
+    {
+      "bill_key": "MI:HB 5398 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced 2025-12-17; referred to House Committee on Economic Competitiveness; no further action as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2025-12-18",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/Home/GetObject?ObjectName=2025-HB-5398",
+          "title": "House Bill 5398 (2025) - Legislative Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms introduction 2025-12-17, referral to Committee on Economic Competitiveness, electronic reproduction 2025-12-18, tied to HB 5396/5397, and no further action.",
+          "quote": "Referred to Committee on Economic Competitiveness"
+        }
+      ]
+    },
+    {
+      "bill_key": "MI:HB 5399 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced 2025-12-18; referred to House Committee on Economic Competitiveness; no further action as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2025-12-23",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/Home/GetObject?ObjectName=2025-HB-5399",
+          "title": "House Bill 5399 (2025) - Legislative Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms introduction 2025-12-18, referral to Committee on Economic Competitiveness, electronic reproduction 2025-12-23, and no further action.",
+          "quote": "Referred to Committee on Economic Competitiveness"
+        }
+      ]
+    },
+    {
+      "bill_key": "MI:HB 5594 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced 2026-02-26; referred to House Committee on Government Operations; no further action as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-03-03",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/Home/GetObject?ObjectName=2026-HB-5594",
+          "title": "House Bill 5594 (2026) - Legislative Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms introduction 2026-02-26, referral to Committee on Government Operations, electronic reproduction 2026-03-03, and no further action; not passed either chamber.",
+          "quote": "Referred to the Committee on Government Operations"
+        }
+      ]
+    },
+    {
+      "bill_key": "MI:HB 5595 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced 2026-02-26; referred to House Committee on Government Operations; no further action as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-03-03",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/Home/GetObject?ObjectName=2026-HB-5595",
+          "title": "House Bill 5595 (2026) - Legislative Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms introduction 2026-02-26, referral to Committee on Government Operations, electronic reproduction 2026-03-03, and no further action.",
+          "quote": "referred to Committee on Government Operations"
+        }
+      ]
+    },
+    {
+      "bill_key": "MI:HB 5596 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced 2026-02-26; referred to House Committee on Government Operations; no further action as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-03-03",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/Home/GetObject?ObjectName=2026-HB-5596",
+          "title": "House Bill 5596 (2026) - Legislative Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms introduction 2026-02-26, referral to Committee on Government Operations, electronic reproduction 2026-03-03, tied to HB 5594, and no further action. Also confirms House adjourned until 2026-08-11.",
+          "quote": "The House is currently adjourned until August 11, 2026"
+        }
+      ]
+    },
+    {
+      "bill_key": "MI:HB 5881 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced 2026-04-23; referred to House Committee on Government Operations; no further action as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-04-28",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/Home/GetObject?ObjectName=2026-HB-5881",
+          "title": "House Bill 5881 (2026) - Legislative Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms introduction 2026-04-23, referral to Committee on Government Operations, electronic reproduction 2026-04-28, tied to HB 5882, and no further action.",
+          "quote": "Referred to the Committee on Government Operations"
+        }
+      ]
+    },
+    {
+      "bill_key": "MI:HB 5882 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced 2026-04-23; referred to House Committee on Government Operations; no further action as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-04-28",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/Home/GetObject?ObjectName=2026-HB-5882",
+          "title": "House Bill 5882 (2026) - Legislative Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms introduction 2026-04-23, referral to Committee on Government Operations, electronic reproduction 2026-04-28, tied to HB 5881, and no further action.",
+          "quote": "Referred to the Committee on Government Operations"
+        }
+      ]
+    },
+    {
+      "bill_key": "MI:SB 761 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Introduced 2025-12-18; referred to Senate Committee on Energy and Environment; no further action as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2025-12-18",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/Home/GetObject?ObjectName=2025-SB-0761",
+          "title": "Senate Bill 761 (2025) - Legislative Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms introduction 2025-12-18, referral to Committee on Energy and Environment, tied to SB 763, and no further action.",
+          "quote": "Referred to the Committee on Energy and Environment"
+        }
+      ]
+    },
+    {
+      "bill_key": "MI:SB 762 (2025)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Introduced 2025-12-18; referred to Senate Committee on Energy and Environment; co-sponsors added 2026-06-24 and 2026-07-01; still pending, no committee vote as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-07-01",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/Home/GetObject?ObjectName=2025-SB-0762",
+          "title": "Senate Bill 762 (2025) - Legislative Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms introduction 2025-12-18 and referral to Energy and Environment, plus two co-sponsor additions in mid-2026 (Mallory McMorrow 2026-06-24, Sean McCann 2026-07-01), with no committee vote yet.",
+          "quote": "6/24/2026 Mallory McMorrow added as co-sponsor; 7/01/2026 Sean McCann added as co-sponsor"
+        }
+      ],
+      "notes": "Only change since the packet's capture is the addition of two co-sponsors; bill_status_category remains in_committee, but last_action_date_iso moves forward to 2026-07-01."
+    },
+    {
+      "bill_key": "MI:SB 763 (2025)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Introduced 2025-12-18; referred to Senate Committee on Energy and Environment; co-sponsors added 2026-06-24 and 2026-07-01; still pending, no committee vote as of 2026-07-31",
+        "bill_status_category": "in_committee",
+        "last_action_date_iso": "2026-07-01",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0763",
+          "title": "Senate Bill 763 (2025) - Legislative Status History",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms introduction 2025-12-18 and referral to Energy and Environment, plus the same two co-sponsor additions in mid-2026, with no committee vote yet.",
+          "quote": "6/24/2026 - Mallory McMorrow added as co-sponsor; 7/01/2026 - Sean McCann added as co-sponsor"
+        }
+      ],
+      "notes": "Companion bill to SB 762; the fetched summary listed identical co-sponsor-addition dates to SB 762, which is plausible for paired companion bills whose sponsors sign onto both together, but is flagged here since it could not be independently cross-verified beyond the single page fetch."
+    }
+  ],
+  "new_bills": []
+}

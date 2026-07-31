@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Ohio as of April 2026.
 
-**35 instruments** — 31 in force, 2 pending, 2 past. Activity level: **High**.
+**53 instruments** — 48 in force, 3 pending, 2 past. Activity level: **High**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

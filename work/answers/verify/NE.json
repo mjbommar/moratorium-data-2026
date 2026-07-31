@@ -1,0 +1,76 @@
+{
+  "state_abbrev": "NE",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ne-hitchcock-county-2025",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "verify_resolutions": [
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: MB Club LLC project MW capacity not in captured Hitchcock County board minutes]",
+          "resolution": "still_unverifiable",
+          "note": "Fetched the official October 6, 2025 Hitchcock County Board of Commissioners minutes (full signed text of Resolution #25-19) and the June 11, 2025 Planning Commission agenda directly from hitchcockcounty.ne.gov. Both documents describe the MB Club LLC / Brandon Flannery data center conditional use application (SE1/4 of Section 4, Hitchcock County) in detail, including exhibits and conditions (an impact easement within one mile), but neither states a megawatt/MW capacity or facility size figure anywhere. No MW figure exists in the primary record. Also checked the June 16, 2025 and October 6, 2025 board agenda PDFs on the same portal; same result."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://hitchcockcounty.ne.gov/posting_files/pdfs/board/minutes/2025/20251006_130535_board_minutes.pdf",
+          "title": "Hitchcock County Board of Commissioners Minutes, October 6, 2025",
+          "publisher": "Hitchcock County, Nebraska",
+          "document_date": "2025-10-06",
+          "source_type": "minutes",
+          "supports": "Full signed text of Resolution #25-19 approving MB Club LLC's conditional use for a data center; confirms applicant, location, and conditions but contains no MW/capacity figure anywhere in the document.",
+          "quote": "NOW, THEREFORE, BE IT RESOLVED that the Conditional Use filed by Brandon Flannery on behalf of MB Club LLC for a data center on part of the SE1/4 of Section 4, Township 1 North, Range 33 West, Hitchcock County, Nebraska on the conditions and exceptions, if any, set forth hereinbefore be approved."
+        },
+        {
+          "url": "https://hitchcockcounty.ne.gov/posting_files/pdfs/zoning/agenda/2025/20250611_130334_zoning_agenda.pdf",
+          "title": "Hitchcock County Planning Commission Agenda, June 11, 2025",
+          "publisher": "Hitchcock County, Nebraska",
+          "document_date": "2025-06-11",
+          "source_type": "agenda",
+          "supports": "Confirms the public hearing on the MB Club/Brandon Flannery data center conditional use application ahead of the Resolution #25-19 approval; no MW figure given.",
+          "quote": "Public hearing regarding the Conditional Use Application filed by Brandon Flannery (MB Club) for a data center in the SE ¼ of Section 4, Township 2 North, Range 33 West, Hitchcock County, Nebraska."
+        }
+      ],
+      "notes": "No change to the record. Interesting but unresolved detail for a future pass: the resolution's condition #2 refers to the same facility once as a 'Crypto Mining Facility' ('An impact easement is required from owners of residence(s) located within one mile of the Crypto Mining Facility'), and the agenda lists the parcel as Township 2 North while the adopted resolution says Township 1 North -- both are apparent inconsistencies in the county's own documents, not transcription errors on our part, and do not by themselves establish a MW figure."
+    },
+    {
+      "moratorium_id": "ne-red-willow-county-2025",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.7,
+      "verify_resolutions": [
+        {
+          "field": "trigger",
+          "marker": "[VERIFY: detailed Red Willow County findings not in captured board minutes; Resolution 1577 full text not separately retrieved]",
+          "resolution": "confirmed",
+          "note": "Retrieved Red Willow County's own posted 2025 minutes compilation (boc-2025-minutes.pdf, from redwillowcountyne.gov). The September 22, 2025 minutes show Resolution No. 1577 (Book 24, Page 84, '12 Month Zoning Moratorium on Data Centers') was adopted as part of the consent agenda, with no separate findings recited into the minutes beyond the title -- consistent with the marker's premise that detailed findings are not in the captured minutes. However, the following meeting's minutes (October 6, 2025) do record public discussion of the moratorium confirming the noise and public-power-rate themes already in the record. This is a primary source (official county minutes) but reflects a citizen's public comment, not the Board's own written findings, and the standalone signed Resolution 1577 document (with any WHEREAS clauses) was still not located separately from the minutes. Also checked the county's board-meetings page for 2026 entries; found none referencing repeal or replacement of this moratorium through July 2026, consistent with the existing 'active' status."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://redwillowcountyne.gov/wp-content/uploads/sites/38/2026/03/boc-2025-minutes.pdf",
+          "title": "Red Willow County Board of Commissioners and Board of Equalization Meetings - 2025 Minutes Compilation",
+          "publisher": "Red Willow County, Nebraska",
+          "document_date": "2025-09-22",
+          "source_type": "minutes",
+          "supports": "Confirms adoption of Resolution No. 1577, Book 24, Page 84, '12 Month Zoning Moratorium on Data Centers,' via consent agenda on September 22, 2025, with no detailed findings text in the minutes.",
+          "quote": "8) Resolution No. 1577, Book 24, Page 84 – Adopt 12 Month Zoning Moratorium on Data Centers... Roll call: Ayes: Dean, Fritsche. Absent: Gans."
+        },
+        {
+          "url": "https://redwillowcountyne.gov/wp-content/uploads/sites/38/2026/03/boc-2025-minutes.pdf",
+          "title": "Red Willow County Board of Commissioners and Board of Equalization Meetings - 2025 Minutes Compilation",
+          "publisher": "Red Willow County, Nebraska",
+          "document_date": "2025-10-06",
+          "source_type": "minutes",
+          "supports": "Confirms citizen public comment on the moratorium referencing noise as the main negative and public-power-district rate benefits as the main positive, matching the trigger text's reference to 'noise and public-power/rate implications.'",
+          "quote": "Ruf also commented on the Board's moratorium on data centers. He sits on the Twin Valleys Public Power District Board. There are several positives to the data centers, along with the negatives. The main negative is the noise, but there are buffers that can be put in place. The biggest benefit would be to the power district, but citizens would also benefit through consistency and steadier rates."
+        }
+      ],
+      "notes": "No change to the record. Current status (active as of 2026-07-31, expiring 2026-09-22) is unaffected; no repeal or replacement was found in the county's own 2026 board-meetings listing through July 2026, though not every individual 2026 minutes PDF was opened."
+    }
+  ],
+  "new_candidates": []
+}

@@ -1,0 +1,694 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "oh-blanchester-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "2026 [VERIFY: full enactment date not captured; ordinance number suggests early-2026 timing because villages typically number sequentially]",
+          "to": "2026-03-12",
+          "reason": "Signed Ordinance 2026.007 (Blanchester village document center) is dated 'Adopted this 12th day of March, 2026' with first reading 2/12/2026, second reading 2/26/2026, third and final reading 3/12/2026; unanimous 6-0 roll call vote."
+        },
+        "duration": {
+          "from": "[VERIFY: not captured; Blanchester village 2026 documents page output was incomplete in prior fetch attempt]",
+          "to": "24 months (2 years) from the effective date, per Ordinance 2026.007 Section 1",
+          "reason": "Section 1 of the signed ordinance reads: 'hereby establishes a moratorium ... for two years from the date this Ordinance takes effect.' This is NOT open-ended; a fixed 2-year term was set."
+        },
+        "trigger": {
+          "from": "[VERIFY: not captured in available reporting; village site has minimal coverage]",
+          "to": "General council concern that the village electric grid could not support a data center's power needs, plus unresolved questions about energy sourcing raised at a council-attended data-center webinar; no specific project or applicant was pending.",
+          "reason": "March 12, 2026 council minutes record the Mayor stating 'our electric grid could not handle the needs of a Data Center' and a councilman's account of a data-center webinar he found evasive on energy-sourcing questions, immediately preceding the 6-0 vote to adopt Ordinance 2026.007."
+        },
+        "outcome": {
+          "from": "[VERIFY: no follow-up zoning action captured 2026-04-29]",
+          "to": "No data-center-related zoning or council action has followed the March 12, 2026 adoption; council minutes for April 9, May 14, and June 11, 2026 (the most recent available) contain no further mention of data centers or the moratorium.",
+          "reason": "Reviewed Village of Blanchester regular council meeting minutes for 4/9/26, 5/14/26, and 6/11/26; none mention data centers, confirming no repeal, extension, or study report has yet occurred within the 2-year term (which runs to 2028-03-12)."
+        },
+        "date_enacted_iso": {
+          "from": "2026",
+          "to": "2026-03-12",
+          "reason": "See date_enacted change; exact date confirmed by signed ordinance."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Signed, dated, and witnessed ordinance text located."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "731",
+          "reason": "2 years (2026-03-12 to 2028-03-12) inclusive of the 2028 leap day."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "fixed_days",
+          "reason": "Ordinance sets a fixed 2-year term, not open-ended."
+        },
+        "computed_expiry": {
+          "from": "null",
+          "to": "2028-03-12",
+          "reason": "2 years from confirmed effective date 2026-03-12."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: full enactment date not captured; ordinance number suggests early-2026 timing because villages typically number sequentially]",
+          "resolution": "corrected",
+          "note": "Signed Ordinance 2026.007 gives an exact adoption date of 2026-03-12 (third/final reading), not merely 'early 2026'."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY: not captured; Blanchester village 2026 documents page output was incomplete in prior fetch attempt]",
+          "resolution": "corrected",
+          "note": "Full ordinance text now retrieved from the village site; Section 1 sets a fixed 2-year (not open-ended) moratorium."
+        },
+        {
+          "field": "trigger",
+          "marker": "[VERIFY: not captured in available reporting; village site has minimal coverage]",
+          "resolution": "confirmed",
+          "note": "March 12, 2026 council minutes (the meeting at which the ordinance passed) record the actual council discussion establishing the grid-capacity/energy-sourcing trigger."
+        },
+        {
+          "field": "outcome",
+          "marker": "[VERIFY: no follow-up zoning action captured 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Checked Blanchester council minutes for 4/9/26, 5/14/26, and 6/11/26 (most recent posted as of this pass); no data-center follow-up action appears in any of them."
+        }
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.blanvillage.com/_files/ugd/06e39b_12d5f04dc599499cb342df0366771c23.pdf",
+          "title": "Ordinance No. 2026.007",
+          "publisher": "Village of Blanchester, Ohio",
+          "document_date": "2026-03-12",
+          "source_type": "ordinance",
+          "supports": "Exact adoption date, 2-year duration, unanimous vote, reading schedule.",
+          "quote": "SECTION 1. The Council for the Village of Blanchester hereby establishes a moratorium ... for two years from the date this Ordinance takes effect. ... Adopted this 12th day of March, 2026. ... First Reading: 2/12/2026 Second Reading: 2/26/2026 Third and Final Reading: 3/12/2026"
+        },
+        {
+          "url": "https://www.blanvillage.com/copy-of-2025-documents-1",
+          "title": "Village of Blanchester 2025/2026 Documents",
+          "publisher": "Village of Blanchester, Ohio",
+          "document_date": "2026",
+          "source_type": "other",
+          "supports": "Confirms Ordinance 2026.007 is the village's own posted data-center moratorium document.",
+          "quote": "Ordinance 2026.007 - Ordinance Establishing Data Center Moratorium"
+        }
+      ],
+      "notes": "March 12, 2026 council minutes (OCR'd) establish the grid-capacity trigger and confirm the 6-0 adoption vote; April/May/June 2026 minutes show no follow-up data-center action. This moratorium is NOT open-ended: it runs a fixed 2 years to 2028-03-12."
+    },
+    {
+      "moratorium_id": "oh-canton-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "affected_projects": {
+          "from": "Does not affect properties annexed by Canton and already slated for data center development, per reporting [VERIFY: which annexed parcels carve-out applies to not specified in captured reporting]",
+          "to": "Does not affect two parcels annexed by the City of Canton in late 2025 that data-center-affiliated companies have since purchased: 84.5 acres northeast of Trump Avenue and Orchard View Drive SE, and 162.9 acres southeast of Millerton Street and Central Avenue SE.",
+          "reason": "Canton Repository (2026-04-11), reporting directly on the trustees' public statements at the meeting where Resolution 04-03-2026 passed, specifies the two parcels by acreage and cross streets."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: which annexed parcels carve-out applies to not specified in captured reporting]",
+          "resolution": "confirmed",
+          "note": "Canton Township trustee minutes (2026-04-09) confirm Resolution 04-03-2026 was adopted 3-0 that day, but the minutes text itself does not name the parcels. The Canton Repository's contemporaneous news account of the same meeting reports the trustees' own on-the-record statement identifying the two specific annexed parcels by acreage and cross-street. This is news reporting on a specific public statement at a government meeting (not an independently verified primary document), so confidence is moderated accordingly."
+        }
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://web.archive.org/web/20260413111505/https://www.cantonrep.com/story/news/local/stark-county/2026/04/11/canton-township-prohibits-building-of-data-centers-for-one-year/89562020007/",
+          "title": "Canton Township prohibits building of data centers for one year",
+          "publisher": "Canton Repository",
+          "document_date": "2026-04-11",
+          "source_type": "news",
+          "supports": "Identifies the two specific parcels annexed by Canton in late 2025 that are excluded from the township moratorium.",
+          "quote": "the trustees stressed that the moratorium has no impact on properties annexed late in 2025 by Canton that used to be in the township. Companies tied to data centers have purchased those properties, 84.5 acres northeast of Trump Avenue and Orchard View Drive SE and 162.9 acres southeast of Millerton Street and Central Avenue SE."
+        },
+        {
+          "url": "https://www.cantontwp-oh.gov/_files/ugd/4e001a_48d8666b955c4b0db84d935eee664ff8.pdf",
+          "title": "Minutes of the Regular Meeting of the Canton Township Board of Trustees, April 9, 2026",
+          "publisher": "Canton Township, Stark County, Ohio",
+          "document_date": "2026-04-09",
+          "source_type": "minutes",
+          "supports": "Confirms Resolution 04-03-2026 (the data center moratorium) was adopted the same day by unanimous 3-0 roll call vote; does not itself name the excluded parcels.",
+          "quote": "Mr. Shaffer made a motion approve to approve Resolution 04-03-2026 A RESOLUTION TO PLACE A MORATORIUM ON ANY NEW DATA CENTER ATTEMPTING TO OPERATE/LOCATE IN CANTON TOWNSHIP. ... Roll Call Vote: Mr. Hochadel YES Mr. Ring YES Mr. Shaffer YES"
+        }
+      ],
+      "notes": "Legal basis is confirmed as Resolution 04-03-2026, unanimous trustee vote, 2026-04-09 (matches existing record). Only the parcel-level carve-out detail rests on news corroboration rather than the resolution text itself."
+    },
+    {
+      "moratorium_id": "oh-findlay-2026",
+      "outcome": "corrected",
+      "changes": {
+        "affected_projects": {
+          "from": "Shady Grove/Marion Township annexation area discussed separately [VERIFY: 1063thefox.com article mentions Hancock County area concern but no specific developer named]",
+          "to": "No specific data-center developer or project has been publicly named. The 'Shady Grove' Marion Township annexation area referenced in earlier notes is a SEPARATE, unrelated matter -- a residential apartment redevelopment of a former golf course -- not a data-center project; it should not be conflated with the moratorium. News coverage of the moratorium itself describes only general regional data-center interest near Hancock County/unzoned township areas.",
+          "reason": "The Courier's own archive shows 'Shady Grove' coverage (thecourier.com/news/835120 'Shady Grove annex has opposition', 2026-03-24; thecourier.com/news/883037 'Shady Grove zoning clears the first tee', 2026-04-16; thecourier.com/news/940960 'Shady Grove debate grows', 2026-05-08; thecourier.com/news/1232783 'Shady Grove annexation approved', 2026-07-25) is a residential-annexation storyline (a golf-course redevelopment), distinct from the data-center moratorium coverage. Full article bodies were paywall-gated on fetch, so this rests on headline/URL-slug pattern plus independent secondary corroboration, not a directly read article body -- moderate confidence."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: 1063thefox.com article mentions Hancock County area concern but no specific developer named]",
+          "resolution": "confirmed",
+          "note": "Findlay's own legislation site (findlayohio.gov) returned HTTP 403 to automated fetches, so the ordinance text itself could not be retrieved directly. However, the marker concerns what news reporting did or did not disclose, and multiple independent news accounts of the same council session (WFIN, 1063thefox, theohioroundtable.substack.com) agree no developer was named -- confirming the absence of a named project rather than merely one outlet's omission."
+        }
+      ],
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://theohioroundtable.substack.com/p/findlay-city-council-passes-data-center-moratorium",
+          "title": "Findlay City Council Passes Data Center Moratorium",
+          "publisher": "The Ohio Roundtable (Substack)",
+          "document_date": "2026-04-22",
+          "source_type": "news",
+          "supports": "Confirms 9-1 vote (Councilman B.J. Preston opposed), rules suspended to fast-track third reading, and no developer/company identified.",
+          "quote": "Vote Count: 9-1 in favor. Councilman B.J. Preston cast the sole opposing vote. ... No specific developer or data center company is identified in the article."
+        },
+        {
+          "url": "https://web.archive.org/web/20260416053314/https://thecourier.com/news/883037/shady-grove-zoning-clears-the-first-tee/",
+          "title": "Shady Grove zoning clears the first tee",
+          "publisher": "The Courier (Findlay, Ohio)",
+          "document_date": "2026-04-16",
+          "source_type": "news",
+          "supports": "Headline/URL pattern indicates the Shady Grove annexation matter is a separate residential/golf-course zoning storyline, not a data-center project; article body was paywall-gated and could not be read in full.",
+          "quote": "Shady Grove zoning clears the first tee | The Courier Council still faces hazards"
+        }
+      ],
+      "notes": "Could not reach findlayohio.gov directly (403 on automated fetch) to pull the signed Ordinance 2026-042 text; relied on convergent independent news accounts of the same council session for the no-developer-named finding. A future pass with browser access to findlayohio.gov/government/legislation could still try for the primary ordinance PDF. Additional check: The Courier's own Shady Grove coverage (Mar-Jul 2026, four articles) reads as a residential-annexation/golf-course-redevelopment storyline separate from the data-center moratorium; confirmed by headline/URL pattern via Wayback but full article bodies were paywall-gated."
+    },
+    {
+      "moratorium_id": "oh-lake-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "affected_projects": {
+          "from": "Potential 0 Tracy Road / Latcha Road site [VERIFY: only a Facebook-circulated property listing, no formal application]",
+          "to": "Property at 0 Tracy Road (corner of Tracy and Latcha Roads, Walbridge-area mailing address) marketed via an 8-page listing PDF attributed to JLL (Jones Lang LaSalle) as a potential data-center site; the listing was shared in local Facebook groups. No formal zoning application or site plan had been filed with Lake Township as of the trustees' vote.",
+          "reason": "The Press (Lucas/Ottawa/Sandusky/Wood Counties newspaper) identified the listing as a real commercial real-estate marketing document (not merely an informal social-media rumor) but confirmed no application had been filed; reporter could not independently verify the listed JLL contacts."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: only a Facebook-circulated property listing, no formal application]",
+          "resolution": "corrected",
+          "note": "The Press's 2026-03-09 article is a detailed contemporaneous news account (not a primary township document) that both confirms no formal application existed and adds that the underlying listing was a real JLL commercial marketing PDF, not just an anonymous social post. Township trustee resolution text itself was not located online."
+        }
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.presspublications.com/stories/lake-township-trustees-issue-data-center-moratorium-in-response-to-facebook-post,95415",
+          "title": "Lake Township trustees issue data center moratorium in response to Facebook post",
+          "publisher": "The Press (Lucas, Ottawa, Sandusky and Wood Counties, Ohio)",
+          "document_date": "2026-03-09",
+          "source_type": "news",
+          "supports": "Confirms the March 3, 2026 trustee vote, the 12-month duration, the 0 Tracy Road/Latcha Road property, its JLL-branded marketing PDF, and that no formal application had been filed.",
+          "quote": "The Lake Township trustees voted on March 3 to issue a 12-month moratorium on data centers within their jurisdiction in response to a Facebook post ... that provided a link to a potential data center site for sale in the township. The link contained an eight-page PDF advertising a property for sale at 0 Tracy Road, which is located at the corner of Latcha and Tracy ... JLL Company, or Jones Lang LaSalle Incorporated, appears to be the company that produced the PDF."
+        }
+      ],
+      "notes": "This is Lake Township, Wood County, Ohio (Walbridge-area), confirmed distinct from unrelated Michigan 'Lake Township' data-center coverage that surfaced in searches. Township's own resolution text was not found online (no township website with a legislative archive was located)."
+    },
+    {
+      "moratorium_id": "oh-maumee-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "2026-02-02 [VERIFY: date from local press; primary city ordinance/resolution PDF not captured 2026-04-29; nationaltoday article since removed]",
+          "to": "2026-02-02",
+          "reason": "Signed Resolution No. 005-2026 (maumee.org document center) states 'Passed: February 2, 2026', confirming the previously press-sourced date exactly."
+        },
+        "legal_basis": {
+          "from": "Resolution 005-2026 [VERIFY: primary resolution text not located on Maumee city website 2026-04-29; number from prior research log]",
+          "to": "Resolution No. 005-2026, 'A Resolution Imposing a Temporary Moratorium on the Establishment, Conversion of Other Structures or Buildings into a Data Center ... for a Period of Twelve (12) Months', passed 6-0 as an emergency measure.",
+          "reason": "Full signed resolution text retrieved directly from maumee.org; confirms number, title, unanimous 6-0 vote, and emergency/immediate-effect clause."
+        },
+        "affected_projects": {
+          "from": "Speculative data center portfolio near Maumee/Monclova border [VERIFY: no specific developer disclosed in captured reporting]",
+          "to": "No specific developer, applicant, or parcel is named in the resolution; it defines data centers generically (AI, enterprise, managed-services, colocation, cloud, and edge data centers exceeding 5,000 sq ft) and applies city-wide, not to a disclosed project.",
+          "reason": "The resolution's operative text (Section 1) is written in general, city-wide terms with no reference to any specific applicant, parcel, or pending project."
+        },
+        "outcome": {
+          "from": "Reported reclassification of data centers as conditional uses in manufacturing districts [VERIFY: city zoning code amendment not captured 2026-04-29]",
+          "to": "Ordinance No. 036-2025 (passed 2026-01-05, 7-0), enacted before the moratorium, amended Maumee Codified Ordinances Section 1125.10 to add 'Data Centers' as a Conditional Use in the C-4 Office, Laboratory, and Research District (not a 'manufacturing' district as previously described). Resolution 005-2026 directs further city study of broader zoning, building, and business-regulation changes.",
+          "reason": "Signed Ordinance 036-2025 text, retrieved from maumee.org, lists 'Data Centers' as new conditional-use item (12) under Section 1125.10(b) for the C-4 district; this predates and is distinct from the later 12-month moratorium."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: date from local press; primary city ordinance/resolution PDF not captured 2026-04-29; nationaltoday article since removed]",
+          "resolution": "confirmed",
+          "note": "Signed Resolution 005-2026 states 'Passed: February 2, 2026', matching the press-sourced date exactly."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: primary resolution text not located on Maumee city website 2026-04-29; number from prior research log]",
+          "resolution": "confirmed",
+          "note": "Signed Resolution No. 005-2026 located at maumee.org/DocumentCenter/View/286 (note: distinct 'ORD-005-2026' at View/290 is an unrelated sewer-overflow ordinance that happens to share the number-005 in the separate ordinance sequence)."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: no specific developer disclosed in captured reporting]",
+          "resolution": "confirmed",
+          "note": "Resolution text itself is generic and city-wide, naming no developer or parcel, confirming the marker's premise via the primary document rather than only reporting."
+        },
+        {
+          "field": "outcome",
+          "marker": "[VERIFY: city zoning code amendment not captured 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Found the actual zoning ordinance (036-2025, passed 2026-01-05, one month before the moratorium). It reclassifies data centers as a conditional use in the C-4 Office, Laboratory, and Research District specifically -- not a generic 'manufacturing district' as the unverified record stated."
+        }
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.maumee.org/DocumentCenter/View/286/RES-005-2026-signed-PDF",
+          "title": "Resolution No. 005-2026",
+          "publisher": "City of Maumee, Ohio",
+          "document_date": "2026-02-02",
+          "source_type": "resolution",
+          "supports": "Exact date, 12-month duration, unanimous 6-0 vote, emergency clause, no developer named, generic city-wide scope.",
+          "quote": "RESOLUTION NO. 005-2026 A RESOLUTION IMPOSING A TEMPORARY MORATORIUM ON THE ESTABLISHMENT, CONVERSION OF OTHER STRUCTURES OR BUILDINGS INTO A DATA CENTER ... FOR A PERIOD OF TWELVE (12) MONTHS ... Motion to Pass: Gonzalez Second: Poeppelmeier Yeas: 6 Nays: 0 Passed: February 2, 2026."
+        },
+        {
+          "url": "https://www.maumee.org/DocumentCenter/View/276/ORD-036-2025-signed-PDF",
+          "title": "Ordinance No. 036-2025",
+          "publisher": "City of Maumee, Ohio",
+          "document_date": "2026-01-05",
+          "source_type": "ordinance",
+          "supports": "Adds 'Data Centers' as a conditional use in the C-4 Office, Laboratory, and Research District, passed 7-0 one month before the moratorium resolution.",
+          "quote": "AN ORDINANCE AMENDING SECTION 1125.10 OF THE MAUMEE CODIFIED ORDINANCES ... (b) Conditional Uses ... (12) Data Centers ... Motion to Pass: Huyghe Seconded: Sund Yeas: 7 Nays: 0 Passed: January 5, 2026."
+        }
+      ],
+      "notes": "maumee.org/DocumentCenter/View/290 (ORD-005-2026) is a DIFFERENT, unrelated sanitary-sewer ordinance that happens to share the same '005-2026' number in the city's separate ordinance-numbering sequence; the data-center measure is RES-005-2026 (resolution sequence). Monclova Township's Feb 17, 2026 trustee statement independently corroborates that Maumee had, by then, 'enacted a moratorium on this type of development.'"
+    },
+    {
+      "moratorium_id": "oh-monclova-township-2026",
+      "outcome": "confirmed_unchanged",
+      "verify_resolutions": [
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: developer name not disclosed]",
+          "resolution": "confirmed",
+          "note": "The trustees' own resolution-introduction statement (read into the record 2026-02-17 by Chair Barbara Lang) explicitly frames the entire matter as a 'hypothetical data center' and the resolution itself defines 'data processing centers' generically with no applicant, developer, or specific parcel named. This is the strongest possible primary-source confirmation that no developer was disclosed."
+        }
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://monclovatwp.org/wp-content/uploads/2026/02/Data-Center-Reso-Intro-and-Motion.pdf",
+          "title": "Resolution 02172026-01 and Chair Barbara S. Lang's introductory statement",
+          "publisher": "Monclova Township Board of Trustees, Lucas County, Ohio",
+          "document_date": "2026-02-17",
+          "source_type": "resolution",
+          "supports": "Confirms resolution number, unanimous 3-0 roll-call vote, 12-month duration, annexation-risk/local-control trigger, and that no developer is named -- the entire matter is treated as hypothetical.",
+          "quote": "This is precisely why our approach regarding potential large-scale development, including a hypothetical data center, has been measured and strategic. ... Trustee Stevens-Laux moved and Trustee Lang seconded the adoption of the Resolution, and the roll being called upon its adoption, the vote resulted as follows: Barbara S. Lang, yes; Debbie Stevens Laux, yes; Charles V. Hoecherl, yes."
+        }
+      ],
+      "notes": "A property entity called 'Black Road Properties, LLC' (registered to a Black Road address in Monclova) turned up in business-registry searches, but nothing ties it to a disclosed data-center developer; the township's own record frames the entire episode as hypothetical/precautionary, consistent with the existing record."
+    },
+    {
+      "moratorium_id": "oh-richfield-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "2026-02-17 [VERIFY: date from NoAWDataCenters.org tracker; primary trustee minutes not posted to township site 2026-04-29]",
+          "to": "2026-02-17",
+          "reason": "Official Richfield Township meeting minutes for 2026-02-17 (posted to richfieldtwp.com) record trustee Loeffler introducing the moratorium resolution at that meeting, confirming the tracker date exactly."
+        },
+        "legal_basis": {
+          "from": "Trustee action reported by NoAWDataCenters.org [CITE: resolution number not captured]",
+          "to": "Resolution 021726-01, a 12-month moratorium on data center facilities, energy-producing/storage facilities, and commercial/industrial high-energy-use facilities in all zoning districts, adopted as an emergency measure (citing the lack of a zoning inspector).",
+          "reason": "Official township minutes name the resolution number and full scope directly."
+        },
+        "current_status": {
+          "from": "Reported active [VERIFY: no rescission captured 2026-04-29]",
+          "to": "Active; no rescission or repeal found in the township's own February 2026 minutes or subsequent public records checked.",
+          "reason": "Primary minutes confirm adoption and scope; no later township document found indicating repeal."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: date from NoAWDataCenters.org tracker; primary trustee minutes not posted to township site 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Official Richfield Township minutes for the February 17, 2026 meeting, now posted at richfieldtwp.com, record the resolution's introduction and adoption that day."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no rescission captured 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Reviewed the township's posted February 17, 2026 minutes (the adopting meeting); no later township minutes indicating repeal were found via web search as of this pass. Absence of a repeal record is not conclusive proof none exists, but no evidence of rescission surfaced."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://richfieldtwp.com/wp-content/uploads/2026/03/February-17-2026-meeting-final.pdf",
+          "title": "Richfield Township Board of Trustees Meeting Minutes, February 17, 2026",
+          "publisher": "Richfield Township, Lucas County, Ohio",
+          "document_date": "2026-02-17",
+          "source_type": "minutes",
+          "supports": "Confirms Resolution 021726-01, a 12-month moratorium on data centers, energy-producing/storage facilities, and high-energy-use commercial/industrial facilities, adopted as an emergency measure.",
+          "quote": "Zoning Resolution - 12 Month Moratorium ... A moratorium on the acceptance, receipt, processing, issuance, or approval of ... Data center facilities. Energy-producing or storage facilities and related uses. Commercial/industrial high-energy-use facilities in all zoning districts. ... See attached resolution 021726-01 adopting the resolution establishing a 12-month moratorium."
+        }
+      ],
+      "notes": "Richfield Township's moratorium resolution is broader than data centers alone (also covers energy-producing/storage and high-energy-use commercial/industrial facilities generally) and was justified partly by the township's lack of a zoning inspector. This is Lucas County's Richfield Township near the Anthony Wayne/Whitehouse area, adjoining Spencer and Waterville Townships."
+    },
+    {
+      "moratorium_id": "oh-south-bloomfield-2025",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "2025-12-15 [VERIFY: date approximate; village does not post online minutes archive as of 2026-04-29]",
+          "to": "2025-12-15",
+          "reason": "Signed Ordinance 2025-28 (South Bloomfield ordinance archive) is stamped 'PASSED: December 15, 2025', confirming the previously approximate date exactly."
+        },
+        "legal_basis": {
+          "from": "Village moratorium ordinance not captured [CITE: ordinance number not posted to village website]",
+          "to": "Ordinance 2025-28, 'An Ordinance Imposing a 180-Day Moratorium on the Receipt, Processing, Issuance, and Approval of Any Application for a Zoning Certificate for Any Use Related to Data Processing, Hosting and Related Services (Data Centers) and Declaring an Emergency', passed December 15, 2025 as an emergency measure.",
+          "reason": "Full signed ordinance text located and OCR'd from the village's own ordinance archive."
+        },
+        "current_status": {
+          "from": "Reported active in Scioto Post coverage; ordinance text not captured [VERIFY: village zoning page not online as of 2026-04-29]",
+          "to": "The 180-day moratorium (Ordinance 2025-28) expired on its own terms around 2026-06-13 with no extension found. The same day the moratorium passed, Council also adopted Ordinance 2025-26, 'An Ordinance to Adopt the 2025 Edition of the Village of South Bloomfield Planning and Zoning Book,' a comprehensive rewrite; the moratorium's own recitals acknowledge the village lacked adequate 'processes, resources, utilities, and infrastructure' for data centers at the time.",
+          "reason": "Village's own ordinance archive lists no 2026 ordinance extending or replacing the data-center moratorium through April 2026; the contemporaneous zoning-book ordinance (2025-26, same passage date) is the most likely basis for news reports that a new code without data centers as a listed use has taken effect."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: date approximate; village does not post online minutes archive as of 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Signed Ordinance 2025-28, retrieved directly from southbloomfieldoh.com's ordinance archive, is stamped 'PASSED: December 15, 2025', matching exactly."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: village zoning page not online as of 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Village's ordinance archive (southbloomfieldoh.com/government/ordinances___resolutions.php) is accessible and lists ordinances through 2026-04 with no data-center-specific extension/rescission; Ordinance 2025-26 (same-day Planning and Zoning Book adoption) is the primary-source basis for the 'new code' claim, though the Zoning Book document itself (not just the adopting ordinance) was not independently reviewed to confirm data centers are absent from its permitted-use tables."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.southbloomfieldoh.com/Ordinances/2025/2025-28%20Moratorium%20on%20Processing%20of%20Permits%20for%20Data%20Centers.pdf",
+          "title": "Ordinance 2025-28",
+          "publisher": "Village of South Bloomfield, Pickaway County, Ohio",
+          "document_date": "2025-12-15",
+          "source_type": "ordinance",
+          "supports": "Exact passage date, 180-day duration, emergency declaration, Section 2 rescind/extend authority.",
+          "quote": "AN ORDINANCE IMPOSING A 180-DAY MORATORIUM ON THE RECEIPT, PROCESSING, ISSUANCE, AND APPROVAL OF ANY APPLICATION FOR A ZONING CERTIFICATE FOR ANY USE RELATED TO DATA PROCESSING, HOSTING AND RELATED SERVICES (DATA CENTERS) AND DECLARING AN EMERGENCY ... PASSED: December 15, 2025"
+        },
+        {
+          "url": "https://www.southbloomfieldoh.com/Ordinances/2025/2025-26%20Adpot%20the%202025%20Planning%20and%20Zoning%20Book.pdf",
+          "title": "Ordinance 2025-26",
+          "publisher": "Village of South Bloomfield, Pickaway County, Ohio",
+          "document_date": "2025-12-15",
+          "source_type": "ordinance",
+          "supports": "Confirms a comprehensive rewrite of the village's zoning code was adopted the same day as the data-center moratorium.",
+          "quote": "AN ORDINANCE TO ADOPT THE 2025 EDITION OF THE VILLAGE OF SOUTH BLOOMFIELD PLANNING AND ZONING BOOK ... PASSED: December 15, 2025"
+        },
+        {
+          "url": "https://www.southbloomfieldoh.com/government/ordinances___resolutions.php",
+          "title": "Ordinances & Resolutions",
+          "publisher": "Village of South Bloomfield, Ohio",
+          "document_date": "2026",
+          "source_type": "other",
+          "supports": "Village's full ordinance index through April 2026 shows no separate 2026 ordinance extending or repealing the data-center moratorium.",
+          "quote": "Ordinances/2026/2026-04 Ordinance to Make Appropriations (2026).pdf"
+        }
+      ],
+      "notes": "The 2025 Planning and Zoning Book (Ordinance 2025-26) itself was not independently reviewed (only the short adopting ordinance was), so the specific claim that the new code omits data centers as a permitted use rests on inference plus Scioto Post's news reporting, not a direct read of the zoning book's use tables. enacted_status 'replaced' remains a reasonable characterization but is not airtight from primary sources alone."
+    },
+    {
+      "moratorium_id": "oh-spencer-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "2026-03-05 [VERIFY: date from NoAWDataCenters.org tracker; primary trustee minutes not posted to township site 2026-04-29]",
+          "to": "2026-03-05",
+          "reason": "Official Spencer Township trustee minutes for 2026-03-05 (spencertownship.org) record Resolution 2026-03-05 being introduced and unanimously adopted that day, confirming the tracker date exactly."
+        },
+        "legal_basis": {
+          "from": "Trustee action reported by NoAWDataCenters.org [CITE: resolution number not captured]",
+          "to": "Resolution 2026-03-05, imposing a 12-month moratorium on 'the approval, establishment or construction of advanced manufacturing facilities or uses' within Spencer Township, prepared by Legal Counsel Jeff Stopar and adopted by unanimous roll-call vote (Kester, Havens, Hood).",
+          "reason": "Official minutes give the resolution's exact operative language, which is framed around 'advanced manufacturing facilities' rather than naming 'data centers' directly, though the surrounding public discussion at the same meeting was explicitly about data-center concerns."
+        },
+        "current_status": {
+          "from": "Reported active [VERIFY: no rescission captured 2026-04-29]",
+          "to": "Active; no rescission found in the adopting meeting's minutes or in subsequent web search as of this pass.",
+          "reason": "No later Spencer Township document found indicating repeal or extension."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: date from NoAWDataCenters.org tracker; primary trustee minutes not posted to township site 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Official Spencer Township minutes for March 5, 2026, now posted at spencertownship.org, record the resolution's adoption that day."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no rescission captured 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Reviewed the adopting meeting's minutes; trustee comments in the same session confirm the board had not committed to any data center and framed the moratorium as due diligence pending state legislation (HB 646). No later rescission document found via web search."
+        }
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "http://spencertownship.org/minutes/2026/03_05_26.pdf",
+          "title": "Spencer Township Board of Trustees Meeting Minutes, March 5, 2026",
+          "publisher": "Spencer Township, Lucas County, Ohio",
+          "document_date": "2026-03-05",
+          "source_type": "minutes",
+          "supports": "Confirms Resolution 2026-03-05, a 12-month moratorium on advanced manufacturing facilities/uses, unanimous roll-call adoption, and trustee statements that no data center project was ever confirmed for the township.",
+          "quote": "Jeff Stopar, Legal Counsel, prepared a moratorium Resolution 2026-03-05 imposing a temporary moratorium on the approval, establishment or construction of advanced manufacturing facilities or uses within Spencer township for 12 months. After discussion, Trustee Hood made a motion to approve the Resolution, Trustee Havens seconded. Roll call vote: Trustee Kester: yes, Trustee Havens: yes, Trustee Hood: yes. ... Trustee Hood explained just because the text amendment was put in place that did not mean the Township wasn't going to do due diligence on advanced manufacturing and he stated no one from the Board has ever stated there was going to be a data center in the Township."
+        }
+      ],
+      "notes": "Spencer Township's resolution text targets 'advanced manufacturing facilities or uses' rather than naming 'data centers' explicitly, though the same meeting's public discussion was squarely about data-center concerns and newly introduced Ohio HB 646. This is a legal_basis nuance worth flagging for the underlying record even though it wasn't a separate marker."
+    },
+    {
+      "moratorium_id": "oh-tallmadge-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_status": {
+          "from": "Active (Tallmadge Ordinance 2026-38 captured PDF shows public hearing 2026-04-13 at 6:01 p.m.; passage requires three-fourths vote and immediate enactment per Section 6) [VERIFY: final signed/passage date and councilor roll call not in the captured PDF]",
+          "to": "Active. Council minutes for April 13, 2026 confirm the public hearing closed at 6:30 p.m. with no public comment, and Ordinance 2026-38 was then adopted by a 7-0 vote (motion by Kline, seconded by Pavlik) the same evening, satisfying the three-fourths-vote/immediate-enactment requirement.",
+          "reason": "Official council minutes for the April 13, 2026 meeting record the roll call and vote outcome directly."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: final signed/passage date and councilor roll call not in the captured PDF]",
+          "resolution": "confirmed",
+          "note": "Council minutes for the April 13, 2026 meeting (tallmadgeoh.gov AgendaCenter) confirm the vote: 7-0, adopted the same night as the public hearing."
+        }
+      ],
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://www.tallmadgeoh.gov/AgendaCenter/ViewFile/Minutes/_04132026-1451",
+          "title": "Tallmadge City Council Meeting Minutes, April 13, 2026",
+          "publisher": "City of Tallmadge, Ohio",
+          "document_date": "2026-04-13",
+          "source_type": "minutes",
+          "supports": "Confirms the public hearing on Ordinance 2026-38 closed with no comment, and the ordinance was adopted 7-0 that same evening.",
+          "quote": "The public was given the opportunity to speak in favor or against ordinance 2026-38. No person spoke in favor or against ordinance 2026-38. Mr. Roy closed the public hearing at 6:30 p.m. Motion was made by Kline, seconded by Pavlik; to adopt ordinance 2026-38. All were in favor. Vote of 7-0."
+        },
+        {
+          "url": "https://www.tallmadgeoh.gov/DocumentCenter/View/7360/2026-38",
+          "title": "Ordinance 2026-38",
+          "publisher": "City of Tallmadge, Ohio",
+          "document_date": "2026-04-13",
+          "source_type": "ordinance",
+          "supports": "Confirms the ordinance's six-month moratorium terms, the ORC Chapter 2506 hardship-appeal pathway, and the three-fourths-vote/immediate-enactment requirement under Section 6.",
+          "quote": "SECTION 6. ... provided this ordinance shall receive the affirmative vote of three-fourths of the members of Council and approval by the Mayor, it shall be enacted immediately and shall be of immediate effect."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-washington-township-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "date_enacted": {
+          "from": "2025-12-08 [VERIFY: based on prior research log; township minutes for 2025-12-09 referenced motion #2025.12.09.001; township site has no online minutes archive as of 2026-04-29]",
+          "to": "2025-12-09",
+          "reason": "Official trustee meeting minutes for December 9, 2025 (posted at wtwpdublinoh.gov) record the motion being made and adopted that day, motion number #2025.12.09.001 -- the prior record's date of 12-08 was one day off."
+        },
+        "duration": {
+          "from": "90 days initial; six-month extension listed on 2026-02-10 agenda [VERIFY: extension vote outcome not captured]",
+          "to": "90 days initial (2025-12-09 to 2026-03-09), then extended six months to 2026-09-05 by Resolution #2026.02.10.005, adopted unanimously (roll call, all present voting Aye) at the February 10, 2026 trustee meeting.",
+          "reason": "Official February 10, 2026 minutes contain the full extension resolution text and a unanimous roll-call vote outcome."
+        },
+        "legal_basis": {
+          "from": "Board of Trustees action in December 2025 minutes; motion number #2025.12.09.001 [VERIFY: ordinance/resolution number not located on Washington Township website 2026-04-29]",
+          "to": "Board of Trustees Motion #2025.12.09.001 (90-day initial moratorium, 2025-12-09), extended by Resolution #2026.02.10.005 (2026-02-10), citing R.C. 519.02 (township zoning authority).",
+          "reason": "Both the original motion and the extension resolution were located in the township's own posted meeting minutes, with the extension resolution explicitly citing R.C. 519.02."
+        },
+        "current_status": {
+          "from": "Initial moratorium expired approximately 2026-03-08; extension status unverifiable from public records [VERIFY: no extension/repeal action visible on township site as of 2026-04-29]",
+          "to": "Active. The Board unanimously extended the moratorium six months, from March 9, 2026 to September 5, 2026, via Resolution #2026.02.10.005; the moratorium is therefore still in force as of the 2026-07-31 research date, not expired.",
+          "reason": "This directly reverses the prior 'expired' framing: the extension was formally adopted at the Feb 10, 2026 meeting and is documented in the township's own minutes."
+        },
+        "enacted_status": {
+          "from": "expired",
+          "to": "extended",
+          "reason": "Resolution #2026.02.10.005 extended the moratorium through 2026-09-05, which is after the 2026-07-31 research date; the record's prior 'expired'/145-days-past-expiry framing was based on the un-extended 90-day term only."
+        },
+        "computed_expiry": {
+          "from": "2026-03-08",
+          "to": "2026-09-05",
+          "reason": "Reflects the six-month extension adopted 2026-02-10."
+        },
+        "days_past_expiry": {
+          "from": "145",
+          "to": "null",
+          "reason": "No longer past expiry; the extended term runs to 2026-09-05, 36 days after the 2026-07-31 research date."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: based on prior research log; township minutes for 2025-12-09 referenced motion #2025.12.09.001; township site has no online minutes archive as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Official minutes now located at wtwpdublinoh.gov confirm the motion was adopted 2025-12-09, one day later than the prior record's 2025-12-08."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY: extension vote outcome not captured]",
+          "resolution": "confirmed",
+          "note": "Official February 10, 2026 minutes contain the full six-month extension resolution (#2026.02.10.005) and a unanimous roll-call vote adopting it, extending the moratorium to 2026-09-05."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: ordinance/resolution number not located on Washington Township website 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Both the original motion (#2025.12.09.001) and the extension resolution (#2026.02.10.005, citing R.C. 519.02) were located in the township's own posted minutes archive at wtwpdublinoh.gov/government/meetings-minutes/."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no extension/repeal action visible on township site as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "The township DID extend the moratorium (six months, to 2026-09-05) via Resolution #2026.02.10.005 -- this had simply not been located as of the prior pass's 2026-04-29 cutoff. This is Washington Township, Franklin/Delaware/Union Counties (the Dublin-area township), not the similarly-named Washington Township near Dayton/Centerville (Montgomery County) or the one covered by the-review.com (Columbiana-area), which are different townships entirely."
+        }
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://wtwpdublinoh.gov/cdn/2025.12.09-Minutes.pdf",
+          "title": "Washington Township Board of Trustees Meeting Minutes, December 9, 2025",
+          "publisher": "Washington Township, Franklin/Delaware/Union Counties, Ohio",
+          "document_date": "2025-12-09",
+          "source_type": "minutes",
+          "supports": "Confirms the 90-day moratorium motion, adoption date, and motion number.",
+          "quote": "Mr. Kranstuber moved to introduce and institute a 90-day moratorium on the construction or approval of data centers within Washington Township. ... Seconded by Mr. Harris. Motion adopted December 9, 2025. #2025.12.09.001"
+        },
+        {
+          "url": "https://wtwpdublinoh.gov/cdn/2026.02.10-Minutes.pdf",
+          "title": "Washington Township Board of Trustees Meeting Minutes, February 10, 2026",
+          "publisher": "Washington Township, Franklin/Delaware/Union Counties, Ohio",
+          "document_date": "2026-02-10",
+          "source_type": "minutes",
+          "supports": "Confirms the six-month extension resolution, its exact text, R.C. 519.02 citation, and unanimous roll-call adoption.",
+          "quote": "WHEREAS, the Board on December 9, 2025 voted to approve a 90-day moratorium on the approval or construction of large scale data centers within the Township, expiring March 9, 2026 ... Section 1: The Board hereby extends its large scale data center (Data Center Tiers 2-4) development moratorium six months, from March 9, 2026 to September 5, 2026. ... Resolution adopted February 10, 2026. #2026.02.10.005"
+        },
+        {
+          "url": "https://wtwpdublinoh.gov/about/about-wtwp/",
+          "title": "About Washington Township",
+          "publisher": "Washington Township, Ohio",
+          "document_date": "2026",
+          "source_type": "other",
+          "supports": "Confirms this township spans Delaware, Franklin, and Union Counties and contains the entire City of Dublin, distinguishing it from other same-named Ohio townships.",
+          "quote": "the only township in Ohio to include portions of three counties - Delaware, Franklin and Union"
+        }
+      ],
+      "notes": "MAJOR FINDING: this moratorium is still active (extended to 2026-09-05), not expired as the prior record stated. Also note there are at least three unrelated 'Washington Township, Ohio' jurisdictions in play across different news searches (this Dublin-area one in Franklin/Delaware/Union Counties; a Montgomery County one near Centerville/Dayton at washingtontwp.org; and one covered by the-review.com, likely Columbiana/Mahoning area, with an unrelated April 2026 action) -- future passes should take care to disambiguate."
+    },
+    {
+      "moratorium_id": "oh-waterville-township-2025",
+      "outcome": "corrected",
+      "changes": {
+        "current_status": {
+          "from": "Active through December 2026 [VERIFY: no rescission action captured 2026-04-29]",
+          "to": "Active through approximately December 2026; no rescission found. A Data Center Advisory Committee (one trustee, one zoning board member, one BZA member, the zoning inspector, and 10 residents), formed January 2026, presented its findings to the Zoning Board on 2026-05-12, recommending a new M-3 Industrial zoning classification with tiered regulations, bonding/escrow requirements, and a formal process; the zoning board voted 6-0 to move the proposal to the Lucas County Plan Commission for review.",
+          "reason": "Township zoning board's own May 12, 2026 special meeting minutes record the committee's presentation, its recommendations, and the unanimous vote to advance the M-3 zoning proposal -- confirming the moratorium remains in force while the follow-up zoning process (anticipated by the original 12-month term) proceeds."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no rescission action captured 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "Waterville Township Zoning Board special meeting minutes for May 12, 2026 (watervilletownship.com) confirm the December 2025 moratorium is still referenced as in force ('We passed a one-year moratorium on data centers in December') while the township works through a multi-step zoning amendment process (M-3 Industrial classification) that is not yet complete; no rescission found."
+        }
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://watervilletownship.com/zoning/2026/05_12_26.pdf",
+          "title": "Waterville Township Zoning Board Special Meeting Minutes, May 12, 2026",
+          "publisher": "Waterville Township, Lucas County, Ohio",
+          "document_date": "2026-05-12",
+          "source_type": "minutes",
+          "supports": "Confirms the December 2025 moratorium remains in force, describes the Data Center Advisory Committee's formation and recommendations, and records a unanimous 6-0 vote to advance a proposed M-3 zoning text amendment to the Lucas County Plan Commission.",
+          "quote": "We passed a one-year moratorium on data centers in December. Gave us time to review zoning resolutions. ... A Data Center Advisory Committee was formed in January of 2026 ... Jon Poponak made the motion to approve the Resolution brought before the board by the trustees to move forward with a submittal to the Lucas County Plan Commission for recommendations. ... Roll call vote taken as follows: William Burkett - YES, Shelly Hayes - YES, Bob Long - YES, Keith Moosman - YES, Cathy Vorst - YES, Jon Poponak - YES"
+        }
+      ],
+      "notes": "The advisory committee's work is on the timeline the original record anticipated ('expected to report in summer 2026'); as of the May 12, 2026 zoning-board vote the process was still moving through Lucas County Plan Commission review, not yet finalized."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Ohio",
+      "jurisdiction": "Alliance",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-07-06 (City Council meeting)",
+      "date_enacted_iso": "2026-07-06",
+      "date_enacted_uncertainty": "exact",
+      "duration": "18 months (not to exceed)",
+      "duration_days": 548,
+      "duration_kind": "fixed_days",
+      "legal_basis": "City Council ordinance/legislation approved 5-1 (Councilman Phillip Mastroianni opposed; Councilwoman Jennifer Kiko absent), denying permits for any 'AI data centers' within city limits.",
+      "trigger": "Councilwoman Sheila Cherry pushed for the pause to protect residents, separate facts from rumors, and to amend related I-2 industrial-district restrictions to include conditional uses; comes after Mayor Andy Grove revealed at least one company had expressed interest in bringing a data center to the city, and follows separate mid-June 2026 legislation restricting future data centers to I-2 industrial zones.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "grid_energy",
+        "water",
+        "noise",
+        "specific_project"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-07-31 (adopted 2026-07-06); a sub-committee on data centers was formed for future workshops and public discussion.",
+      "enacted_status": "active",
+      "affected_projects": "No specific developer/project named in coverage; Mayor Andy Grove said at least one company has expressed interest in bringing a data center to the city.",
+      "outcome": "Pending; sub-committee formed to develop conditional-use standards for the existing I-2 industrial-district restriction adopted in mid-June 2026.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://web.archive.org/web/20260711230550/https://www.cantonrep.com/story/news/local/alliance/2026/07/07/alliance-council-data-center-moratorium-18-months/90825229007/",
+          "title": "For 18 months, Alliance won't permit new data center construction",
+          "publisher": "Canton Repository",
+          "document_date": "2026-07-07",
+          "source_type": "news",
+          "supports": "Confirms the 18-month moratorium, 5-1 vote, date of the council meeting, and context (mid-June I-2 zoning restriction, sub-committee formation).",
+          "quote": "ALLIANCE - No new data centers will be built in Alliance for 18 months after City Council approved a moratorium at its July 6 meeting. The temporary ban - not to exceed 18 months - was approved by a 5-1 vote. ... Councilman Phillip Mastroianni voted against the legislation. Councilwoman Jennifer Kiko was absent. ... The ban also follows separate legislation council approved in mid-June to restrict future data centers to I-2 industrial zones."
+        }
+      ],
+      "notes": "Discovered via a parallel background research pass and independently confirmed via Wayback Machine CDX lookup + direct snapshot fetch (Canton Repository, Benjamin Duer, 2026-07-07). Postdates the stated 2026-04-28 coverage cutoff and was not otherwise in the packet. City's own legislation/ordinance text and number were not located (Alliance's municipal website was not checked in this pass); this rests on news reporting only."
+    }
+  ]
+}

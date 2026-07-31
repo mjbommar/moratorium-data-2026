@@ -1,0 +1,381 @@
+{
+  "state_abbrev": "VA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "VA's 2026 regular General Assembly session (60-day, even-year session) convened 2026-01-14 and adjourned sine die 2026-03-14. Per Va. Const. Art. V Sec. 6, the Governor then had 30 days to act on bills, i.e. a deadline of 2026-04-13 - this is why the enacted bills below show 'approved 2026-04-13' (it is the constitutional signing deadline, not a reconvened-session date). The constitutionally separate reconvened (veto/amendment) session for 2026 was held 2026-04-22 (the sixth Wednesday after adjournment), confirmed via LIS's own Session API; no bill in this set required reconvened-session action since none were amended or vetoed by the Governor in 2026. VA House of Delegates members serve 2-year terms elected in odd years; the term covering the 2026 and 2027 sessions began January 2026 (after the Nov 2025 election), so a bill 'Continued to 2027' from the 2026 session remains alive within the SAME term (bill_status_category carried_over). By contrast, HB338 (2024) and SB288 (2024) belong to the prior 2024-2025 term (elected Nov 2023); that term, and its 2025 session, are now over, so any bill left in committee/continued without further action is dead (failed_died), not carried over into the new 2026-2027 term.",
+  "decisions": [
+    {
+      "bill_key": "VA:HB1515 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Prefiled and referred to House Rules 2026-01-23; subcommittee recommended continuing to 2027 (Voice Vote) 2026-02-02; Continued to 2027 in Rules Committee (Voice Vote) 2026-02-06.",
+        "bill_status_category": "carried_over",
+        "last_action_date_iso": "2026-02-06",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=101057&SessionCode=20261",
+          "title": "LIS Legislation Event History API - HB1515 (2026, LegislationID 101057)",
+          "source_type": "legislature_bill_page",
+          "supports": "Full action history confirming House origin and continuance to 2027",
+          "quote": "Continued to 2027 in Rules (Voice Vote)"
+        }
+      ],
+      "notes": "2026 is year one of the 2026-2027 House term (elected Nov 2025), so 'continued to 2027' keeps the bill alive within the same term; correctly typed as carried_over."
+    },
+    {
+      "bill_key": "VA:HB153 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed House 2026-01-29 (90-Y 7-N); incorporates HB511 (McAuliff) 2026-01-23; passed Senate with substitute 2026-03-11 (26-Y 14-N); conference report agreed to by House and Senate 2026-03-14; enrolled 2026-03-30; Enacted, Chapter 567, approved by Governor 2026-04-13, effective 2026-07-01.",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-04-13",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=98797&SessionCode=20261",
+          "title": "LIS Legislation Event History API - HB153 (2026, LegislationID 98797)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms enactment, chapter number, approval date, effective date, and HB511 incorporation",
+          "quote": "Approved by Governor-Chapter 567 (effective 7/1/2026)"
+        }
+      ]
+    },
+    {
+      "bill_key": "VA:HB155 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Prefiled 2026-01-06; referred to House Labor and Commerce; subcommittee recommended laying on the table (9-Y 0-N) 2026-02-10; Left in Labor and Commerce (and Education) 2026-02-18 - bill died in House committee.",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-18",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=98799&SessionCode=20261",
+          "title": "LIS Legislation Event History API - HB155 (2026, LegislationID 98799)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms bill died in House committee, never reached the floor",
+          "quote": "Left in Labor and Commerce"
+        }
+      ]
+    },
+    {
+      "bill_key": "VA:HB1601 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed House 2025-01-23 (57-Y 40-N); passed Senate with substitute 2025-02-12; conference report agreed to 2025-02-22; enrolled 2025-03-07; House rejected Governor's recommended amendments 2025-04-02 (11-Y 85-N); Vetoed by Governor 2025-05-02 (veto sustained; no override vote recorded).",
+        "bill_status_category": "vetoed",
+        "last_action_date_iso": "2025-05-02",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=95207&SessionCode=20251",
+          "title": "LIS Legislation Event History API - HB1601 (2025, LegislationID 95207)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms House origin, full path to Governor, and final veto with no override attempt",
+          "quote": "Vetoed by Governor"
+        }
+      ]
+    },
+    {
+      "bill_key": "VA:HB338 (2024)",
+      "outcome": "corrected",
+      "fields": {
+        "status": "Passed House 2024-02-13 (55-Y 42-N); Senate continued the bill to 2025 in General Laws and Technology (9-Y 3-N 3-A) 2024-02-28; Left in General Laws and Technology 2024-11-19 with no further floor or committee action recorded in the 2025 session - bill died at the end of the 2024-2025 House term.",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2024-11-19",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=91885&SessionCode=20251",
+          "title": "LIS Legislation Event History API - HB338 (2024/2025, LegislationID 91885)",
+          "source_type": "legislature_bill_page",
+          "supports": "Full cross-session event list showing the bill was continued to 2025 then formally left in committee with no further action",
+          "quote": "Left in General Laws and Technology"
+        },
+        {
+          "url": "https://legacylis.virginia.gov/cgi-bin/legp604.exe?241+sum+HB338",
+          "title": "Virginia Legacy LIS - HB338 (2024 session)",
+          "source_type": "legislature_bill_page",
+          "supports": "Corroborates House passage 2024-02-13 and Senate continuance to 2025 in General Laws and Technology 2024-02-28",
+          "quote": "02/28/24 Senate: Continued to 2025 in General Laws and Technology (9-Y 3-N 3-A)"
+        }
+      ],
+      "notes": "Corrected from a bare 'Continued' (which could misleadingly imply the bill is still pending) to failed_died: the 2024-2025 House term (elected Nov 2023) has ended and a new term began January 2026, so this bill has no further path forward. The 2024-11-19 'Left in committee' event date in LIS is unusual (before the 2025 session convened) but is the system's own final disposition record for this LegislationID; no subsequent action of any kind appears under the 2025 session view."
+    },
+    {
+      "bill_key": "VA:HB496 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed House 2026-02-17 (74-Y 23-N); passed Senate with substitute 2026-03-04 (25-Y 15-N); conference report agreed to 2026-03-14; enrolled 2026-03-30; Enacted, Chapter 623, approved by Governor 2026-04-13, effective 2027-01-01.",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-04-13",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=99301&SessionCode=20261",
+          "title": "LIS Legislation Event History API - HB496 (2026, LegislationID 99301)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms enactment, chapter number, approval date; two effective-date entries logged same day",
+          "quote": "Approved by Governor - Chapter 623 (effective - 1/1/2027)"
+        }
+      ],
+      "notes": "LIS logs two 'Approved by Governor' events on 2026-04-13 for Chapter 623, one reading effective 7/1/2026 and one reading effective 1/1/2027 (apparent clerical duplicate/correction); the 1/1/2027 date matches the packet and the identical companion bill SB553, so it is used here as the effective date."
+    },
+    {
+      "bill_key": "VA:HB503 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Prefiled 2026-01-12; referred to House Labor and Commerce; subcommittee recommended continuing to 2027 (Voice Vote) 2026-02-10; Continued to 2027 in Labor and Commerce (Voice Vote) 2026-02-12.",
+        "bill_status_category": "carried_over",
+        "last_action_date_iso": "2026-02-12",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=99308&SessionCode=20261",
+          "title": "LIS Legislation Event History API - HB503 (2026, LegislationID 99308)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms continuance to 2027, still within the same 2026-2027 House term",
+          "quote": "Continued to 2027 in Labor and Commerce (Voice Vote)"
+        }
+      ]
+    },
+    {
+      "bill_key": "VA:HB511 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Prefiled 2026-01-12; referred to House Counties, Cities and Towns; subcommittee recommended incorporating (Voice Vote) 2026-01-22; Incorporated by Counties, Cities and Towns into HB153 (Thomas) (Voice Vote) 2026-01-23.",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-23",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=99316&SessionCode=20261",
+          "title": "LIS Legislation Event History API - HB511 (2026, LegislationID 99316)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms incorporation target is specifically HB153, as the packet stated",
+          "quote": "Incorporated by Counties, Cities and Towns (HB153-Thomas)  (Voice Vote)"
+        }
+      ],
+      "notes": "Schema has no 'incorporated' category; typed as failed_died since HB511 did not advance as an independent bill (its substance survived inside enacted HB153)."
+    },
+    {
+      "bill_key": "VA:HB641 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Prefiled 2026-01-13; referred to House Finance; Continued to 2027 in Finance (Voice Vote) 2026-02-11.",
+        "bill_status_category": "carried_over",
+        "last_action_date_iso": "2026-02-11",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=99453&SessionCode=20261",
+          "title": "LIS Legislation Event History API - HB641 (2026, LegislationID 99453)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms continuance to 2027 within the same House term",
+          "quote": "Continued to 2027 in Finance (Voice Vote)"
+        }
+      ]
+    },
+    {
+      "bill_key": "VA:SB130 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Prefiled 2026-01-06; reported from Senate Local Government (15-Y 0-N) 2026-01-19; Incorporated by Finance and Appropriations into SB94 (Roem) (13-Y 2-N) 2026-02-03.",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-03",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=98884&SessionCode=20261",
+          "title": "LIS Legislation Event History API - SB130 (2026, LegislationID 98884)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms incorporation target is specifically SB94, as the packet stated",
+          "quote": "Incorporated by Finance and Appropriations (SB94-Roem)  (13-Y 2-N)"
+        }
+      ],
+      "notes": "Typed as failed_died (no 'incorporated' category available) since SB130 did not advance independently."
+    },
+    {
+      "bill_key": "VA:SB1449 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed Senate 2025-01-30 (33-Y 6-N 1-A); passed House with substitute 2025-02-12 (58-Y 39-N); conference report agreed to 2025-02-22; enrolled 2025-03-07; Senate rejected Governor's recommended amendments 2025-04-02 (16-Y 24-N); Vetoed by Governor 2025-05-02 (veto sustained; no override vote recorded).",
+        "bill_status_category": "vetoed",
+        "last_action_date_iso": "2025-05-02",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=97265&SessionCode=20251",
+          "title": "LIS Legislation Event History API - SB1449 (2025, LegislationID 97265)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms Senate origin, full path to Governor, and final sustained veto",
+          "quote": "Vetoed by Governor"
+        }
+      ]
+    },
+    {
+      "bill_key": "VA:SB288 (2024)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Prefiled 2024-01-09; referred to Senate Local Government; Failed to report (defeated) in Local Government (7-Y 8-N) 2024-01-29.",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2024-01-29",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=93708&SessionCode=20241",
+          "title": "LIS Legislation Event History API - SB288 (2024, LegislationID 93708)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms committee-defeat date and vote tally exactly as in the packet",
+          "quote": "Failed to report (defeated) in Local Government (7-Y 8-N)"
+        }
+      ]
+    },
+    {
+      "bill_key": "VA:SB393 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Prefiled 2026-01-13; referred to Senate Agriculture, Conservation and Natural Resources; passed by indefinitely there 2026-01-27, then rereferred to Finance and Appropriations 2026-02-03 (14-Y 0-N); Continued to 2027 in Finance and Appropriations (15-Y 0-N) 2026-02-10.",
+        "bill_status_category": "carried_over",
+        "last_action_date_iso": "2026-02-10",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=100340&SessionCode=20261",
+          "title": "LIS Legislation Event History API - SB393 (2026, LegislationID 100340)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill survived an initial committee setback via rereferral and was ultimately continued to 2027",
+          "quote": "Continued to 2027 in Finance and Appropriations (15-Y 0-N)"
+        }
+      ]
+    },
+    {
+      "bill_key": "VA:SB466 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Prefiled 2026-01-13; referred to Senate Commerce and Labor; Continued to 2027 in Commerce and Labor (14-Y 0-N) 2026-02-12.",
+        "bill_status_category": "carried_over",
+        "last_action_date_iso": "2026-02-12",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=100440&SessionCode=20261",
+          "title": "LIS Legislation Event History API - SB466 (2026, LegislationID 100440)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms continuance to 2027",
+          "quote": "Continued to 2027 in Commerce and Labor (14-Y 0-N)"
+        }
+      ]
+    },
+    {
+      "bill_key": "VA:SB552 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Prefiled 2026-01-14; referred to Senate Agriculture, Conservation and Natural Resources; failed to report (defeated) there (7-Y 7-N) 2026-01-27, then reported and rereferred to Local Government (9-Y 5-N) same day; Failed to report from Local Government with amendments (7-Y 7-N 1-A) 2026-02-02 - bill died in committee.",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-02",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=100529&SessionCode=20261",
+          "title": "LIS Legislation Event History API - SB552 (2026, LegislationID 100529)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms the bill never reached the Senate floor and died in Local Government",
+          "quote": "Failed to report from Local Government with amendments (7-Y 7-N 1-A)"
+        }
+      ]
+    },
+    {
+      "bill_key": "VA:SB553 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed Senate 2026-02-09 (25-Y 15-N); passed House with substitute 2026-03-02 (81-Y 18-N); conference report agreed to 2026-03-14; enrolled 2026-03-30; Enacted, Chapter 896, approved by Governor 2026-04-13, effective 2027-01-01.",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-04-13",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=100530&SessionCode=20261",
+          "title": "LIS Legislation Event History API - SB553 (2026, LegislationID 100530)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms enactment, chapter number, approval date, and effective date exactly as in the packet",
+          "quote": "Approved by Governor-Chapter 896 (Effective 1/1/2027)"
+        }
+      ]
+    },
+    {
+      "bill_key": "VA:SB619 (2026)",
+      "outcome": "corrected",
+      "fields": {
+        "status": "Reported from Commerce and Labor with amendments 2026-02-09 (9-Y 6-N); passed Senate 2026-02-16 (23-Y 16-N); referred to House Labor and Commerce 2026-02-20; House subcommittee recommended laying on the table (9-Y 0-N) 2026-03-03; Left in Labor and Commerce (House) 2026-03-10 - bill passed the Senate but died in a House committee.",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-03-10",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=100639&SessionCode=20261",
+          "title": "LIS Legislation Event History API - SB619 (2026, LegislationID 100639)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms Senate passage followed by death in a House committee, not a Senate failure",
+          "quote": "Left in Labor and Commerce"
+        }
+      ],
+      "notes": "Corrected/clarified: the bill's origin chamber (Senate) passed it; it ultimately failed in the House Labor and Commerce Committee, not on the Senate side, which the packet's generic 'Failed' did not specify."
+    },
+    {
+      "bill_key": "VA:SB94 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Incorporates SB130 (Ebbin) 2026-02-03; passed Senate 2026-02-12 (21-Y 18-N 1-A); passed House with substitute 2026-02-25 (80-Y 14-N); conference report agreed to 2026-03-14; enrolled 2026-03-30; Enacted, Chapter 568, approved by Governor 2026-04-13, effective 2026-07-01.",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-04-13",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "url": "https://lis.virginia.gov/LegislationEvent/api/GetPublicLegislationEventHistoryListAsync?LegislationID=98848&SessionCode=20261",
+          "title": "LIS Legislation Event History API - SB94 (2026, LegislationID 98848)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms enactment, chapter number, approval and effective dates, and SB130 incorporation exactly as in the packet",
+          "quote": "Approved by Governor-Chapter 568 (effective 7/1/2026)"
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in California as of April 2026.
 
-**4 instruments** — 2 in force, 0 pending, 2 past. Activity level: **Medium**.
+**11 instruments** — 6 in force, 2 pending, 3 past. Activity level: **Medium**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

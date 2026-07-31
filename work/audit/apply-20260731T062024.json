@@ -1,0 +1,586 @@
+{
+  "applied_at": "20260731T062024",
+  "answer_files": [
+    "work/answers/status/CA.json",
+    "work/answers/status/CO.json",
+    "work/answers/status/CT.json",
+    "work/answers/status/GA.json",
+    "work/answers/status/IA.json",
+    "work/answers/status/KS.json",
+    "work/answers/status/MA.json",
+    "work/answers/status/MD.json",
+    "work/answers/status/MI.json",
+    "work/answers/status/MO.json",
+    "work/answers/status/NC.json",
+    "work/answers/status/NE.json",
+    "work/answers/status/NY.json",
+    "work/answers/status/OH.json",
+    "work/answers/status/OK.json",
+    "work/answers/status/TN.json",
+    "work/answers/status/WA.json"
+  ],
+  "stats": {
+    "outcome:status_changed": 37,
+    "already_applied": 106,
+    "verify_already_resolved": 24,
+    "candidate_duplicate": 23,
+    "verify_still_open": 17,
+    "outcome:unresolvable": 10,
+    "outcome:confirmed_unchanged": 13,
+    "status_changed": 12,
+    "fields_changed": 47,
+    "verify_confirmed": 1,
+    "verify_resolved_via_field_rewrite": 15,
+    "verify_corrected": 14,
+    "outcome:corrected": 5,
+    "candidates_added": 4
+  },
+  "conflicts": [
+    "MI.json: mi-lenox-township-2026 unknown column 'computed_expiry'",
+    "MI.json: mi-pittsfield-township-2025 unknown column 'computed_expiry'",
+    "MI.json: mi-saginaw-2026 unknown column 'computed_expiry'",
+    "MI.json: mi-tyrone-township-2025 unknown column 'computed_expiry'",
+    "OH.json: oh-cleveland-2026 unknown column 'computed_expiry'"
+  ],
+  "skipped": [
+    "CA.json: candidate CA 'Imperial County' (no instrument number) treated as duplicate of ca-imperial-county-2026 (no instrument number)",
+    "CO.json: candidate CO 'Jefferson County' (no instrument number) treated as duplicate of co-jefferson-county-2026 (no instrument number)",
+    "CT.json: candidate CT 'New Haven' (no instrument number) treated as duplicate of ct-new-haven-undated (no instrument number)",
+    "GA.json: ga-covington-2026 unresolvable",
+    "GA.json: candidate GA 'Carroll County' (no instrument number) treated as duplicate of ga-carroll-county-2026 (no instrument number)",
+    "GA.json: candidate GA 'Cedartown' (resolution-4) treated as duplicate of ga-cedartown-2026 (resolution-4)",
+    "IA.json: candidate IA 'Shelby County' (resolution-2026-14) treated as duplicate of ia-shelby-county-2026-2 (resolution-2026-14)",
+    "IA.json: candidate IA 'Shelby County' (resolution-2026-15) treated as duplicate of ia-shelby-county-2026-3 (resolution-2026-15)",
+    "IA.json: candidate IA 'Shelby County' (resolution-2026-17) treated as duplicate of ia-shelby-county-2026-4 (resolution-2026-17)",
+    "IA.json: candidate IA 'Woodbury County' (resolution-14064) treated as duplicate of ia-woodbury-county-2026 (resolution-14064)",
+    "IA.json: candidate IA 'Palo Alto County' (resolution-7-8-2026) treated as duplicate of ia-palo-alto-county-2026 (resolution-7-8-2026)",
+    "IA.json: candidate IA 'Dubuque County' (no instrument number) treated as duplicate of ia-dubuque-county-2026 (no instrument number)",
+    "IA.json: candidate IA 'Plymouth County' (no instrument number) treated as duplicate of ia-plymouth-county-2026 (no instrument number)",
+    "IA.json: candidate IA 'Linn County' (no instrument number) treated as duplicate of ia-linn-county-2026 (no instrument number)",
+    "KS.json: candidate KS 'Geary County' (no instrument number) treated as duplicate of ks-geary-county-2026 (no instrument number)",
+    "KS.json: candidate KS 'Lyon County' (resolution-12-26) treated as duplicate of ks-lyon-county-2026 (resolution-12-26)",
+    "KS.json: candidate KS 'Lyon County' (resolution-13-26) treated as duplicate of ks-lyon-county-2026-2 (resolution-13-26)",
+    "MA.json: ma-gill-2026 unresolvable",
+    "MA.json: ma-heath-2026 unresolvable",
+    "MA.json: candidate MA 'Malden' (no instrument number) treated as duplicate of ma-malden-2026 (no instrument number)",
+    "MD.json: md-proposed-or-rejected-local-pauses-undated unresolvable",
+    "MD.json: candidate MD 'Montgomery County' (no instrument number) treated as duplicate of md-montgomery-county-2026 (no instrument number)",
+    "MD.json: candidate MD 'Frederick County' (no instrument number) treated as duplicate of md-frederick-county-2026 (no instrument number)",
+    "MD.json: candidate MD 'Baltimore City' (no instrument number) treated as duplicate of md-baltimore-city-2026 (no instrument number)",
+    "MI.json: mi-clark-township-2025 unresolvable",
+    "MI.json: mi-pontiac-2026 unresolvable",
+    "MI.json: mi-springfield-township-2025 unresolvable",
+    "MI.json: mi-fenton-township-2026 unresolvable",
+    "MI.json: mi-other-reported-local-moratoria-undated unresolvable",
+    "NC.json: candidate NC 'City of Hendersonville' (no instrument number) treated as duplicate of nc-city-of-hendersonville-undated (no instrument number)",
+    "NY.json: candidate NY 'Manlius' (no instrument number) treated as duplicate of ny-manlius-2026 (no instrument number)",
+    "OH.json: oh-jerome-township-2025 unresolvable",
+    "WA.json: candidate WA 'Skagit County' (no instrument number) treated as duplicate of wa-skagit-county-2026 (no instrument number)"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "mi-howell-township-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "expired",
+      "reason": "No primary source (township minutes/resolution) was locatable for Howell Township in this pass; Howell Township does not appear to have an accessible official website under the domain names tried. Relying on the datacenterbans.com aggregator, which was demonstrably updated after the 2026-05-19 expiry (2026-07-10 refresh) and specifically distinguishes 'expired' from 'active' for other Michigan rows, giving reasonable confidence the moratorium lapsed without a confirmed extension or replacement ordinance. Confidence is capped at moderate because this rests on a secondary aggregator rather than township minutes or a news report of the specific expiration/non-renewal decision.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-lenox-township-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "May 4, 2026 board minutes record a 4-1 vote to continue the moratorium in place, exercising the one-time 4-month extension contemplated when it was first adopted.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-lenox-township-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-04-29",
+      "after": "Extended by Board motion on 2026-05-04 (4-1 roll call vote); moratorium continues pending a Planning Commission-drafted ordinance, with a new term running through approximately 2026-10-02.",
+      "reason": "Reflects the May 4, 2026 extension vote found in official minutes.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-lenox-township-2026",
+      "column": "legal_basis",
+      "before": "Board-adopted moratorium effective 2026-02-02 (per Lenox Township statement on lenox-mi.gov CivicAlerts); [VERIFY: formal resolution or ordinance number not stated in official township statement as of 2026-04-29]",
+      "after": "Board motion adopted at the February 2, 2026 regular meeting (moved by Trustee Marino, supported by Trustee Rosseel; all ayes); continued/extended by a further Board motion at the May 4, 2026 meeting (4-1 roll call vote). No resolution or ordinance number was assigned to either motion, per official township minutes.",
+      "reason": "Confirmed directly from certified minutes that this was handled by motion rather than a numbered resolution.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-pittsfield-township-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "Resolution #26-11 (May 13, 2026) extends the original 180-day moratorium (Resolution #25-30) for a further 180 days before it lapsed.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-pittsfield-township-2025",
+      "column": "legal_basis",
+      "before": "Township Board moratorium action; [VERIFY: resolution number not identified on Pittsfield Township CivicEngage agenda center as of 2026-04-29]",
+      "after": "Resolution #25-30 (adopted 2025-11-20), extended by Resolution #26-11 (adopted 2026-05-13)",
+      "reason": "Confirmed directly from the township's own agenda packets containing the full resolution text.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-pittsfield-township-2025",
+      "column": "current_status",
+      "before": "Active as of 2026-04-29; nominal expiration around 2026-05-20 [VERIFY: future event, expiration not yet reached as of 2026-04-29]",
+      "after": "Extended by Resolution #26-11 (adopted 2026-05-13) for a further 180 days; now runs through approximately 2026-11-15. Planning Commission began formal review of a draft ordinance on 2026-06-18.",
+      "reason": "Reflects confirmed extension resolution and WEMU's corroborating report of the June 18 Planning Commission meeting.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-saginaw-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "City Council voted 6-3 (as of ~April 28, 2026) to extend the moratorium/delay final ordinance consideration to July 28, 2026, ahead of its original nominal expiry.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-saginaw-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-04-29 [VERIFY: no replacement zoning ordinance located on city website as of 2026-04-29; nominal 6-month expiration approximately 2026-07-12]",
+      "after": "Extended by a 6-3 council vote (~2026-04-28); planning-commission action on a permanent ordinance was pushed to 2026-07-28. Status after that date is not confirmed as of 2026-07-31.",
+      "reason": "Reflects the located extension vote; flags that the new deadline has also since passed without further confirming source.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-sylvan-township-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-01",
+      "after": "2026-01-22",
+      "reason": "WKAR's Feb 27, 2026 tracker specifically dates Sylvan Township's adoption to January 22, 2026.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-sylvan-township-2026",
+      "column": "date_enacted",
+      "before": "January 2026 [VERIFY: exact adoption date not located on Sylvan Township website as of 2026-04-29]",
+      "after": "2026-01-22 (per WKAR Public Media Michigan data center tracker, 2026-02-27)",
+      "reason": "Provides a day-level date from a directly reviewed secondary source; still not independently confirmed against township minutes.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-tyrone-township-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "Resolution #260502 (adopted 2026-05-19, unanimous roll call) renews the moratorium for nine additional months, before the original 180-day term (from 2025-12-02) fully ran out.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-tyrone-township-2025",
+      "column": "legal_basis",
+      "before": "Resolution #251203",
+      "after": "Resolution #251203 (original, adopted 2025-12-02); renewed/extended by Resolution #260502 (adopted 2026-05-19, unanimous 7-0 roll call)",
+      "reason": "Adds the specific renewal resolution identified in the primary source.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-tyrone-township-2025",
+      "column": "current_status",
+      "before": "Active through approximately June 2026 [VERIFY: future event, 6-month expiration not yet reached as of 2026-04-29]",
+      "after": "Extended/renewed by Resolution #260502 (adopted 2026-05-19); moratorium now runs nine months from that date (through approximately 2027-02-19), or until zoning amendments take effect, whichever occurs first, with a possible further 6-month extension.",
+      "reason": "Reflects the confirmed May 19, 2026 renewal resolution.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-detroit-2026",
+      "column": "current_status",
+      "before": "Request passed 6-2 on 2026-03-17; mayor reviewing",
+      "after": "Request passed 6-2 on 2026-03-17; as of June 2026 Mayor Sheffield still had not acted on it, having instead convened a cross-sector working group (city departments, DTE Energy, unions, environmental advocates, led by Councilman Scott Benson) targeting data center zoning/policy recommendations by December 31, 2026.",
+      "reason": "Updates the narrative with the most recent (June 2026) confirmation that the request remains pending mayoral action.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-lowell-township-2026",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "expired",
+      "reason": "The proposed moratorium (Ordinance 01-2026R) was never adopted: the Township Board voted it down 2-5 (Treasurer and Clerk in favor; Supervisor and trustees opposed) on 2026-05-18. Using 'expired' as the closest codebook fit for a proposal that resulted in nothing being adopted, per the assignment's own gloss ('expired: lapsed, nothing adopted').",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-lowell-township-2026",
+      "column": "current_status",
+      "before": "First reading held; second reading scheduled 2026-05-18",
+      "after": "Board voted 2-5 against the proposed moratorium on 2026-05-18; it was never adopted. The board separately formed a committee of trustees, planning commission members, and citizens to draft a future data center ordinance.",
+      "reason": "Reflects the confirmed rejection vote and its aftermath.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-lowell-township-2026",
+      "column": "outcome",
+      "before": "Pending board action",
+      "after": "Moratorium proposal rejected 2-5 by the Township Board on 2026-05-18; a citizen/board/planning-commission committee was formed instead to work on a future data center ordinance. The Microsoft-proposed data center at Covenant Business Park was not paused by any moratorium.",
+      "reason": "Updates the narrative outcome field to reflect the rejection.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-lyon-township-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Michigan / Lyon Township",
+      "reason": "Adopted after our packet's 2026-04-28 coverage cutoff; likely not yet in the state inventory. Exact adoption day and legal instrument number not confirmed in this pass.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-meridian-township-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Michigan / Meridian Township",
+      "reason": "Adopted after our packet's 2026-04-28 coverage cutoff. Minor one-day discrepancy between sources on the exact vote date (2026-05-19 per datacenterbans.com vs. 'week of May 20' per Michigan Public); used the more specific date.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-city-of-flint-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Michigan / City of Flint",
+      "reason": "Only a single secondary aggregator source was located for this item in the time available; it was not independently corroborated by a news article or city council record. Adopted after our packet's 2026-04-28 coverage cutoff. Recommend independent confirmation via Flint City Council minutes/agenda before treating as fully confirmed.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "oh-norton-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "The original 180-day moratorium (Ord. 108-2025) expired on schedule 2026-05-30, but Council adopted a new 90-day moratorium (Ord. 55-2026) as an emergency measure on 2026-05-18, described by Council as a 90-day extension, so the pause continued without a gap.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-norton-2025",
+      "column": "current_status",
+      "before": "Active through about 2026-05-30 unless extended [VERIFY: no extension action captured by 2026-04-29]",
+      "after": "Extended via Ordinance 55-2026 (adopted 2026-05-18, emergency, 90-day moratorium). Council minutes of 2026-07-06 confirm the moratorium remains in effect through approximately August 2026, distinct from the permanent zoning ordinances (60-2026, 61-2026) adopted the same night.",
+      "reason": "Direct review of City of Norton council minutes for May and July 2026.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-norton-2025",
+      "column": "duration",
+      "before": "180 days",
+      "after": "180 days (Ord. 108-2025, 2025-12-01 to 2026-05-30), followed by a 90-day extension under Ord. 55-2026 (adopted 2026-05-18), running through approximately mid-to-late August 2026",
+      "reason": "Council minutes describe Ord. 55-2026 as a 90-day extension; exact new sunset (Aug 16 vs Aug 28, 2026) is not stated verbatim.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-norton-2025",
+      "column": "legal_basis",
+      "before": "Ordinance 108-2025",
+      "after": "Ordinance 108-2025; extended by Ordinance 55-2026 (adopted 2026-05-18 as an emergency measure)",
+      "reason": "Confirmed in the 2026-05-18 council minutes.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-norton-2025",
+      "column": "outcome",
+      "before": "Planning Commission zoning review pending [VERIFY: Norton Planning Commission report not located online 2026-04-29]",
+      "after": "Planning Commission recommendations resulted in permanent zoning ordinances: Ord. 60-2026 (amending Section 1282.03, Special Industrial Use Permits, for large-scale data centers) and Ord. 61-2026 (amending Section 1298, Conditional Uses), both adopted by Council on 2026-07-06. Council clarified this permanent legislation does not replace the still-active temporary moratorium.",
+      "reason": "Confirmed in council minutes for 2026-05-04 (Planning Commission draft received), 2026-06-15 (first readings of Ord. 60-2026 and 61-2026), and 2026-07-06 (adoption).",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-waterville-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "expired",
+      "reason": "No extension, replacement, or repeal of Resolution 34-25 was found in any Waterville City Council minutes from May-June 2026, including the minutes of the meeting nearest its own sunset date.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-waterville-2025",
+      "column": "current_status",
+      "before": "Active through approximately 2026-06-08 [VERIFY: no extension or repeal captured 2026-04-29]",
+      "after": "Resolution 34-25 (as amended, a 182-day/6-month term from its 2025-12-08 adoption) expired on approximately 2026-06-08. No extension, replacement, or repeal was found in Council minutes of 2026-05-11, 2026-06-01 (special), or 2026-06-08 (the meeting closest to the expiration date itself); the latter's minutes cover other business at length with no mention of data centers.",
+      "reason": "Reviewed the full text of the three most relevant 2026 council minutes documents via direct fetch.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-waterville-2025",
+      "column": "legal_basis",
+      "before": "Resolution 34-25 [VERIFY: primary text not located on Waterville City website 2026-04-29; date and number from 13abc reporting]",
+      "after": "Resolution 34-25, \"A RESOLUTION IMPOSING A MORATORIUM ON THE ISSUANCE OR GRANTING OF APPLICATIONS OR PERMITS FOR DATA CENTERS AND ANCILLARY FACILITIES IN THE CITY OF WATERVILLE OHIO,\" adopted 2025-12-08 as amended from a proposed 12 months down to 6 months (182 days), by unanimous 7-0 roll call.",
+      "reason": "Located and read the primary source: the City of Waterville's own December 8, 2025 council meeting minutes.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-waterville-2025",
+      "column": "duration",
+      "before": "6 months",
+      "after": "182 days (6 months); amended down from an originally proposed 12 months (365 days) at the same meeting before adoption",
+      "reason": "Per the December 8, 2025 council minutes.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-ashville-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "Ashville Village Council adopted Ordinance 2026-14 as an emergency measure on 2026-07-06, imposing another 180-day moratorium, succeeding the original Ordinance 2025-13 which had expired 2026-06-20.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-ashville-2025",
+      "column": "current_status",
+      "before": "Active unless repealed or superseded [VERIFY: Ashville village website carries no online ordinance archive as of 2026-04-29; primary text not posted publicly]",
+      "after": "Extended via Ordinance 2026-14, adopted as an emergency measure at the 2026-07-06 Council meeting, imposing another 180-day moratorium (through approximately 2027-01-02); succeeds the original Ordinance 2025-13 (expired 2026-06-20).",
+      "reason": "Confirmed via Circleville Herald reporting on the 2026-07-06 council meeting.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-ashville-2025",
+      "column": "duration",
+      "before": "180 days",
+      "after": "180 days (Ord. 2025-13, originally recorded 2025-12-22 to 2026-06-20), followed by a second 180-day moratorium under Ordinance 2026-14 (adopted 2026-07-06), through approximately 2027-01-02",
+      "reason": "Per Circleville Herald reporting on Ordinance 2026-14.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-ashville-2025",
+      "column": "legal_basis",
+      "before": "Ordinance 2025-13",
+      "after": "Ordinance 2025-13; extended by Ordinance 2026-14 (adopted 2026-07-06 as an emergency measure, readings waived)",
+      "reason": "Confirmed via Circleville Herald reporting.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-ashville-2025",
+      "column": "outcome",
+      "before": "Policy Matters Ohio reported Resolution 06-2026 would create a development and supply agreement and may repeal inconsistent prior legislation [VERIFY: Resolution 06-2026 disposition not posted on village site 2026-04-29]",
+      "after": "Resolution 06-2026 authorized a development/consultant-funding agreement (Term Summary, Exhibit A) with EdgeConneX/PowerConneX, allocating $39,300 for GAI Consultants' independent technical review of the proposed project. It did not repeal the moratorium, which was instead independently extended by Ordinance 2026-14 on 2026-07-06.",
+      "reason": "Per Circleville Herald reporting describing Resolution 06-2026's actual content.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-lordstown-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "Village Council passed a second emergency ordinance extending the moratorium another 180 days before the original Ordinance 1-2026 expired on 2026-07-04.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-lordstown-2026",
+      "column": "current_status",
+      "before": "Active in captured January-February 2026 records; litigation over Bristolville 25 application reported in adjacent media coverage; current docket status not captured [VERIFY: Trumbull County Court of Common Pleas docket not searched 2026-04-29]",
+      "after": "Extended: following a public hearing on 2026-06-15, Village Council passed an emergency ordinance extending the moratorium another 180 days, effective 2026-07-05 through approximately 2027-01-02 (reported passage dates vary slightly, 2026-06-16/17, across sources). Litigation brought by Bristolville 25 Developer LLC/BHGH Properties LLC is before the Ohio Supreme Court (not the Trumbull County Court of Common Pleas), and remained pending with no ruling located as of the sources reviewed (dated through 2026-06-08).",
+      "reason": "Confirmed via The Vindicator and Tribune Chronicle reporting on the June 2026 extension, and WFMJ reporting on the Ohio Supreme Court litigation.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-lordstown-2026",
+      "column": "duration",
+      "before": "Not to exceed 180 days",
+      "after": "180 days (Ord. 1-2026, effective 2026-01-05 through 2026-07-04), extended a further 180 days by a second emergency ordinance passed mid-June 2026, effective 2026-07-05 through approximately 2027-01-02",
+      "reason": "Per Vindicator reporting.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-lordstown-2026",
+      "column": "legal_basis",
+      "before": "Ordinance 1-2026",
+      "after": "Ordinance 1-2026; extended by a second emergency ordinance passed by Village Council in mid-June 2026 following a 2026-06-15 public hearing (exact ordinance number not confirmed in sources reviewed)",
+      "reason": "Per Vindicator and Tribune Chronicle reporting; the extending ordinance's exact number could not be independently confirmed.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-avon-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "The certified ordinance itself, retrieved directly from the City of Avon's website, shows the exact passage and mayoral-approval dates.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-avon-2026",
+      "column": "date_enacted",
+      "before": "2026-04-14 (Section 1 of Ordinance 37-26 specifies sunset April 14, 2027, implying April 14, 2026 effective date upon mayoral approval)",
+      "after": "Passed by Council 2026-04-13; approved by Mayor Bryan K. Jensen 2026-04-14 (emergency measure, effective immediately upon mayoral approval); Section 1 sets the moratorium through April 14, 2027.",
+      "reason": "Read directly from the certified copy of Ordinance No. 37-26.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-avon-2026",
+      "column": "current_status",
+      "before": "Active per ordinance language (declared emergency measure for immediate effect upon mayor's approval) [VERIFY: mayoral signature date and council roll call not in the captured PDF]",
+      "after": "Active. The certified Ordinance No. 37-26 shows passage by Council on 2026-04-13 and approval by Mayor Bryan K. Jensen on 2026-04-14 (emergency, effective immediately); it does not print an itemized roll-call vote tally on its face.",
+      "reason": "Read directly from the certified ordinance document.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-cincinnati-2026",
+      "column": "duration",
+      "before": "Through end of 2026",
+      "after": "Through February 11, 2027 (the original Interim Development Control Overlay District No. 89 was effective 2026-02-11 for 3 months, expiring 2026-05-11; City Council approved a 9-month extension on 2026-04-01 following the City Planning Commission's 2026-03-06 recommendation, moving the expiration to 2027-02-11)",
+      "reason": "Confirmed via the City of Cincinnati's own Department of City Planning and Engagement project page for IDCO 89.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-cincinnati-2026",
+      "column": "current_status",
+      "before": "Active restriction, not a full ban",
+      "after": "Active restriction, not a full ban; extended through 2027-02-11 by a Council vote on 2026-04-01",
+      "reason": "Per the City of Cincinnati planning department's project page.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-cincinnati-2026",
+      "column": "date_enacted",
+      "before": "2026-02 initial; extended 2026-04-01",
+      "after": "2026-02-11 (IDCO No. 89 effective date, per city planning page); extended 2026-04-01 for 9 months to 2027-02-11",
+      "reason": "Per the City of Cincinnati planning department's project page.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-archbold-2026",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "After tabling the proposal on 2026-02-16, Archbold Village Council adopted a six-month emergency moratorium on 2026-04-06.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-archbold-2026",
+      "column": "date_enacted",
+      "before": "Not enacted; tabled 2026-02-16",
+      "after": "2026-04-06 (emergency ordinance); Council had initially tabled a broader proposal on 2026-02-16 following resident pushback and legal hesitation from the Village Law Director and County Farm Bureau, then adopted a narrower six-month moratorium on 2026-04-06",
+      "reason": "Per The Village Reporter's coverage of the April 6, 2026 council meeting.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-archbold-2026",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-04-06",
+      "reason": "Per The Village Reporter's coverage.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-archbold-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Meeting date and unanimous vote confirmed via direct news source.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-archbold-2026",
+      "column": "duration",
+      "before": "N/A",
+      "after": "6 months (180 days), emergency ordinance",
+      "reason": "Per The Village Reporter's coverage.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-archbold-2026",
+      "column": "legal_basis",
+      "before": "Proposed moratorium tabled by council",
+      "after": "Emergency moratorium ordinance adopted 2026-04-06 covering data centers, advanced manufacturing, and technology storage facilities (exact ordinance number not confirmed in sources reviewed)",
+      "reason": "Per The Village Reporter's coverage.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-archbold-2026",
+      "column": "current_status",
+      "before": "Tabled; study instead",
+      "after": "Active; six-month emergency moratorium enacted 2026-04-06, expiring approximately October 2026",
+      "reason": "Per The Village Reporter's coverage.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-archbold-2026",
+      "column": "outcome",
+      "before": "Village and county officials studying possible impacts",
+      "after": "Council adopted the moratorium unanimously (5 of 6 members present, Council President Karla Ball absent) on 2026-04-06, despite the Village Law Director advising it was unnecessary (no pending applications) and the Farm Bureau warning of litigation exposure.",
+      "reason": "Per The Village Reporter's coverage.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "Full City Council passed Ordinance 556-2026, 14-1, on 2026-07-15, enacting a three-month data center moratorium.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "date_enacted",
+      "before": "Proposed 2026-04-28; not enacted as of captured reporting",
+      "after": "2026-07-15 (Ordinance 556-2026 passed by full Council, 14-1). Councilmember Charles Slife's original 2026-04-28 proposal called for a one-year pause; the Utilities Committee (chaired by Brian Kazy) reduced it to three months before the full Council vote.",
+      "reason": "Confirmed via the City of Cleveland's own press release and Cleveland City Council's meeting-highlights page.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-04-28",
+      "after": "2026-07-15",
+      "reason": "2026-04-28 was only the date of the initial proposal, not enactment.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Confirmed via the city's official ordinance-passage announcement.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "duration",
+      "before": "Proposed 1 year",
+      "after": "3 months (through approximately 2026-10-16), extendable by Council for an additional 3 months; reduced from the originally proposed 1 year",
+      "reason": "Per the City of Cleveland's press release.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "93",
+      "reason": "Reduced from the originally proposed 365-day pause to a 3-month pause as passed.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "legal_basis",
+      "before": "Councilmember Charles Slife proposed legislation [CITE primary ordinance not captured]",
+      "after": "Ordinance 556-2026, following Councilmember Charles Slife's initial proposal; advanced by the Utilities Committee (chaired by Brian Kazy) and passed by full Council 2026-07-15, 14-1",
+      "reason": "Confirmed via Cleveland City Council's meeting-highlights page and news5cleveland.com.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "current_status",
+      "before": "Proposed",
+      "after": "Active; a three-month moratorium on new standalone/principal-use data center projects and expansions took effect upon passage on 2026-07-15, running through approximately 2026-10-16. Excludes operation of existing data centers and colocated/edge/enterprise facilities.",
+      "reason": "Per the City of Cleveland's press release.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "outcome",
+      "before": "Pending council process",
+      "after": "Adopted. A Data Center working group is developing zoning/regulatory recommendations addressing land use, power needs, environmental standards, jobs, and community benefits, with policy reforms expected to be introduced by mid-September 2026.",
+      "reason": "Per the City of Cleveland's press release and news5cleveland.com reporting.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-defiance-undated",
+      "column": "<new row>",
+      "before": "",
+      "after": "Ohio / Defiance",
+      "reason": "Not found in the existing inventory (checked data/moratorium_inventory.csv for 'Defiance' and found no match). Included because it postdates the 2026-04-28 coverage cutoff and is a live, sourced proposal, but nothing has been enacted as of 2026-07-31 -- do not treat as an active moratorium.",
+      "source": "OH.json"
+    }
+  ]
+}

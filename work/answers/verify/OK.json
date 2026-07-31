@@ -1,0 +1,68 @@
+{
+  "state_abbrev": "OK",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ok-seminole-nation-of-oklahoma-2026",
+      "outcome": "corrected",
+      "confidence": 0.6,
+      "changes": {
+        "duration": {
+          "from": "Not identified in captured reporting; resolution language quoted by Native News Online (\"the moratorium period\") indicates a stated duration exists in the resolution text but no numeric term has been publicly disclosed [VERIFY: full resolution text not posted on Seminole Nation website (sno-nsn.gov) as of 2026-04-29]",
+          "to": "Indefinite by design, not merely undisclosed. Per KGOU reporting (June 25, 2026), the resolution's author, Rev. Chebon Kernell, originally drafted a ban on data-center discussions/inquiries/development, but 'that proposal turned into an indefinite moratorium at the suggestion of another council member.' The resolution's own phrase 'the moratorium period' (as quoted by Native News Online) therefore refers to an open-ended condition rather than a fixed numeric term that simply has not been published. The full resolution text remains unposted on sno-nsn.gov.",
+          "reason": "KGOU's June 25, 2026 article, reporting on the resolution's legislative history via its sponsor, states the measure was changed to an indefinite moratorium during Tribal Council deliberation, rather than being adopted with an undisclosed fixed term. This corrects the prior characterization (which assumed a hidden numeric duration) and is consistent with duration_kind remaining non-numeric."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "indefinite",
+          "reason": "KGOU's June 25, 2026 reporting establishes that the Tribal Council deliberately made the moratorium open-ended ('indefinite') rather than fixed-term, so 'indefinite' (a defined codebook value) is more accurate than 'unknown.' This rests on news reporting of the sponsor's own account rather than the primary resolution text, so confidence is kept moderate (0.6) rather than high."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "duration",
+          "marker": "[VERIFY: full resolution text not posted on Seminole Nation website (sno-nsn.gov) as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "The full resolution text is still not posted on sno-nsn.gov (checked the site's homepage and navigation directly on this pass; no Tribal Council resolutions, minutes, or legislative archive section exists in the public site structure). However, a later, more detailed news account (KGOU, June 25, 2026) reporting on an interview with the resolution's sponsor establishes that the measure was deliberately converted to an indefinite moratorium during Council debate, rather than being adopted with a specific but undisclosed numeric term. This corrects the prior assumption and is reflected in the 'duration' and 'duration_kind' changes above. Because this rests on a news account of the sponsor's description rather than the resolution's own text, confidence is moderate, and the marker about the resolution text itself being unposted remains true (see current_status resolution below for the parallel point on minutes)."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no public Tribal Council minutes posted on Seminole Nation website]",
+          "resolution": "still_unverifiable",
+          "note": "Checked sno-nsn.gov directly (this pass): its public site includes Government, Tribal Services, Tribal Court, Program Directory, Event Calendar, and a tribal newsletter ('Cokv Tvlvme') section, but no Tribal Council resolutions or meeting-minutes archive is published. No primary confirmation of the moratorium's continued force was found. The most recent secondary source located, KGOU (June 25, 2026, nearly two months into this pass's coverage window and closer to the 2026-07-31 research date), profiles the Seminole Nation's moratorium as still the Nation's operative policy and does not report any rescission, amendment, or expiration; other outlets found in this pass (Native News Online, Indigenous Network, OK Energy Today, Buffalo's Fire, Red Lake Nation News, Futurism, MSN) all cover the original March 2026 adoption without any later update. No evidence of repeal was found, but absence of Tribal Council minutes means the active status still rests on news coverage rather than a primary tribal government record, consistent with the existing marker."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.kgou.org/indigenous-news/2026-06-25/as-data-centers-eye-oklahoma-tribes-weigh-the-costs",
+          "title": "As data centers eye Oklahoma, tribes weigh the costs",
+          "publisher": "KGOU",
+          "document_date": "2026-06-25",
+          "source_type": "news",
+          "supports": "Reports, via an interview with resolution sponsor Rev. Chebon Kernell, that the Seminole Nation's data-center measure was changed from a proposed ban to an indefinite moratorium during Tribal Council deliberation, and that the moratorium remained the Nation's policy as of late June 2026 with no reported repeal.",
+          "quote": "Kernell authored a resolution to ban discussions about, inquiries into and developments of data center construction within Seminole Nation. That proposal turned into an indefinite moratorium at the suggestion of another council member. It was approved by all 24 members present."
+        },
+        {
+          "url": "https://nativenewsonline.net/sovereignty/seminole-nation-of-oklahoma-passes-moratorium-on-data-centers/",
+          "title": "Seminole Nation of Oklahoma Passes Moratorium on Data Centers",
+          "publisher": "Native News Online",
+          "document_date": "2026-03",
+          "source_type": "news",
+          "supports": "Original contemporaneous report of the March 7, 2026 unanimous (24-0) Tribal Council vote and the resolution's quoted language barring inquiries/discussions/developments 'during the moratorium period.'",
+          "quote": "any inquiries, discussions and/or developments concerning any entity seeking to develop a data center of any size during the moratorium period"
+        },
+        {
+          "url": "https://www.sno-nsn.gov",
+          "title": "Seminole Nation of Oklahoma - Official Website",
+          "publisher": "Seminole Nation of Oklahoma",
+          "source_type": "other",
+          "supports": "Checked directly for a Tribal Council resolutions or meeting-minutes archive; none exists in the site's public navigation (Government, Tribal Services, Tribal Court, Program Directory, Event Calendar, and newsletter sections only), confirming the marker's premise that no public minutes are posted.",
+          "quote": "Government | Tribal Services | Tribal Court | Program Directory | Event Calendar"
+        }
+      ],
+      "notes": "enacted_status remains 'active' and duration_days remains blank/null (no numeric term exists); only duration_kind changes from 'unknown' to 'indefinite' to reflect that the open-ended nature is now an affirmatively reported fact rather than an unknown. Checked for other Oklahoma tribal nations with new data center moratoria as candidates: KGOU's June 2026 article also covers the Cherokee Nation (a study task force, not a moratorium), Muscogee (Creek) Nation (rejected one specific project bid in Nov. 2025, not a formal moratorium), and Osage Nation (ongoing deliberation on a Google 'Project Spring' proposal, no ban adopted) -- none of these rise to the level of an adopted moratorium instrument, so none are added to new_candidates."
+    }
+  ],
+  "new_candidates": []
+}

@@ -1,0 +1,259 @@
+{
+  "state_abbrev": "IA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "session_note": "The 91st Iowa General Assembly spans 2025-2026; a bill not enacted in 2025 can still be alive at the start of 2026 (its own bill number persists), but the second year (2026 session) adjourned Sine Die on 2026-05-03, and there is no further carryover into a 92nd General Assembly. Bills with no recorded action reaching a floor vote by 2026-05-03 are dead; several data-center bills stalled in committee well before that date, consistent with Iowa's internal 'funnel' deadlines that require bills to advance out of committee/one chamber by a set date each session to remain eligible for further floor action. Iowa's official BillBook pages are JS-rendered and did not return history data via plain fetch, but the underlying legis.iowa.gov billTracking/billHistory JSON-backed endpoint (same official data source) did, and was used for every decision below.",
+  "decisions": [
+    {
+      "bill_key": "IA:HF1054 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Withdrawn on 2025-05-14 (H.J. 1198), substituted by SF657",
+        "bill_status_category": "withdrawn",
+        "last_action_date_iso": "2025-05-14",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF1054&ga=91",
+          "title": "Iowa Legislature - Bill History for HF 1054 (91st GA)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms withdrawal on 2025-05-14, same day SF 657 was substituted for it.",
+          "quote": "May 14, 2025 - Withdrawn. H.J. 1198"
+        }
+      ]
+    },
+    {
+      "bill_key": "IA:HF2001 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Died in House Commerce Committee (no action after introduction 2026-01-13); 2026 Sine Die 2026-05-03",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-13",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF2001&ga=91",
+          "title": "Iowa Legislature - Bill History for HF 2001 (91st GA)",
+          "source_type": "legislature_bill_page",
+          "supports": "Only entry in the bill history is the introduction/referral on 2026-01-13; no further action through Sine Die.",
+          "quote": "January 13, 2026: Introduced, referred to Commerce (H.J. 40)"
+        }
+      ]
+    },
+    {
+      "bill_key": "IA:HF2198 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Died in House Ways and Means Committee (no action after introduction 2026-01-29); 2026 Sine Die 2026-05-03",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-01-29",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF2198&ga=91",
+          "title": "Iowa Legislature - Bill History for HF 2198 (91st GA)",
+          "source_type": "legislature_bill_page",
+          "supports": "Only entry in the bill history is the introduction/referral on 2026-01-29; no further action through Sine Die.",
+          "quote": "January 29, 2026 - Introduced and referred to the Ways and Means Committee (H.J. 173)"
+        }
+      ],
+      "notes": "Packet already noted 'no further action as of 2026-04-29 (still in committee)'; this confirms the bill never moved and died at Sine Die rather than carrying over."
+    },
+    {
+      "bill_key": "IA:HF2447 / HF2690 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Died in House Commerce Committee after amendments filed 2026-03-12 as HF2690; no floor vote before 2026 Sine Die 2026-05-03",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-03-12",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF2690&ga=91",
+          "title": "Iowa Legislature - Bill History for HF 2690 (91st GA)",
+          "source_type": "legislature_bill_page",
+          "supports": "Full history: introduced as HF2447, committee do-pass, renumbered HF2690, amendments filed 3/11 and 3/12, with no subsequent floor action recorded.",
+          "quote": "March 11, 2026 - Three amendments filed: H-8203, H-8205, and H-8207 / March 12, 2026 - Three additional amendments filed"
+        }
+      ]
+    },
+    {
+      "bill_key": "IA:HF976 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Signed by Governor 2025-06-06, Acts Chapter 148",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2025-06-06",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF976&ga=91",
+          "title": "Iowa Legislature - Bill History for HF 976 (91st GA)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms passage of both chambers and Governor's signature on 2025-06-06 as Acts Chapter 148, exactly matching the packet's recorded status.",
+          "quote": "June 06, 2025 - Signed by Governor / Acts Chapter 148"
+        }
+      ]
+    },
+    {
+      "bill_key": "IA:HSB727 / HF2688 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Died in House Ways and Means Committee after renumbering as HF2688 on 2026-02-23; no further action before 2026 Sine Die 2026-05-03",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-23",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF2688&ga=91",
+          "title": "Iowa Legislature - Bill History for HF 2688 (91st GA)",
+          "source_type": "legislature_bill_page",
+          "supports": "Full history ends with committee approval and referral to Ways and Means on 2026-02-23; no subsequent action recorded.",
+          "quote": "February 23, 2026 - Committee report approving bill, renumbered as HF 2688 / Introduced, referred to Ways and Means"
+        }
+      ]
+    },
+    {
+      "bill_key": "IA:SF2252 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Died in Senate Ways and Means Committee after renumbering as SF2373 (subcommittee assigned 2026-02-24); no further action before 2026 Sine Die 2026-05-03",
+        "bill_status_category": "failed_died",
+        "last_action_date_iso": "2026-02-24",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF2373&ga=91",
+          "title": "Iowa Legislature - Bill History for SF 2373 (91st GA)",
+          "source_type": "legislature_bill_page",
+          "supports": "Full history through renumbering from SF2252 to SF2373, referral to Ways and Means, and subcommittee assignment on 2026-02-24, with no action recorded thereafter.",
+          "quote": "February 24, 2026 - Referred to Ways and Means / Subcommittee assigned (Dawson, Bisignano, Gruenhagen)"
+        }
+      ]
+    },
+    {
+      "bill_key": "IA:SF614 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Withdrawn on 2025-05-13, substituted by HF976",
+        "bill_status_category": "withdrawn",
+        "last_action_date_iso": "2025-05-13",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF614&ga=91",
+          "title": "Iowa Legislature - Bill History for SF 614 (91st GA)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms HF 976 was substituted for SF 614 and SF 614 was withdrawn on 2025-05-13.",
+          "quote": "May 13, 2025 - HF 976 substituted for SF 614 / Withdrawn"
+        }
+      ]
+    },
+    {
+      "bill_key": "IA:SF657 (2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Signed by Governor 2025-06-06, Acts Chapter 136",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2025-06-06",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF657&ga=91",
+          "title": "Iowa Legislature - Bill History for SF 657 (91st GA)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms Governor's signature on 2025-06-06 as Acts Chapter 136, matching the packet's recorded status.",
+          "quote": "Signed by Governor / Acts Chapter 136"
+        }
+      ]
+    },
+    {
+      "bill_key": "IA:SSB3001 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Renumbered SF2472, passed Senate 2026-04-08 and House as amended 2026-04-22, both chambers concurred by 2026-05-03; Signed by Governor 2026-05-18, Acts Chapter 1115",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-05-18",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF2472&ga=91",
+          "title": "Iowa Legislature - Bill History for SF 2472 (91st GA)",
+          "source_type": "legislature_bill_page",
+          "supports": "Full history shows Senate and House passage, House amendment concurred by Senate on 2026-05-03, and Governor's signature on 2026-05-18 as Acts Chapter 1115.",
+          "quote": "May 18, 2026 - Signed by Governor ... Acts Chapter 1115"
+        }
+      ],
+      "notes": "Packet's mid-session capture had this passing both chambers but not yet enacted; it has since been signed into law."
+    },
+    {
+      "bill_key": "IA:SSB3103 (2026)",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Renumbered SF2301 then SF2506; substance enacted via successor vehicle HF2799, Signed by Governor 2026-06-02, Acts Chapter 1199",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-06-02",
+        "chamber_of_origin": "Senate"
+      },
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF2301&ga=91",
+          "title": "Iowa Legislature - Bill History for SF 2301 (91st GA)",
+          "source_type": "legislature_bill_page",
+          "supports": "Shows SF2301 renumbered to SF2506 on 2026-05-01, and the page cross-references House File 2799 as the bill that was ultimately passed and signed.",
+          "quote": "May 1, 2026 - Committee approved bill, renumbered as SF 2506 ... Related Bill: House File 2799 (the bill ultimately passed)"
+        },
+        {
+          "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF2799&ga=91",
+          "title": "Iowa Legislature - Bill History for HF 2799 (91st GA)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms HF2799 (economic development authority matters) was attached to and substituted for SF2506, passed both chambers, and was signed by the Governor 2026-06-02 as Acts Chapter 1199.",
+          "quote": "May 3, 2026 - Attached to SF 2506; Substituted for SF 2506 ... June 2, 2026 Signed by Governor / Acts Chapter 1199"
+        }
+      ],
+      "notes": "The direct SF2301/SF2506 lineage was folded into HF2799 rather than being enacted under its own final number; confidence is reduced slightly because the enacted HF2799's title (economic development authority, utilities commission, and education department matters) was confirmed as a topical match but the specific data-center eligibility language from SSB3103 was not independently verified in HF2799's final text."
+    },
+    {
+      "bill_key": "IA:SSB3151 / HF2357 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "status": "Passed House 90-0 on 2026-03-02 and Senate 47-0 on 2026-04-06 (substituted for SF2372); Signed by Governor 2026-04-16, Acts Chapter 1040, effective 2026-07-01",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-04-16",
+        "chamber_of_origin": "House"
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF2357&ga=91",
+          "title": "Iowa Legislature - Bill History for HF 2357 (91st GA)",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms passage of both chambers and Governor's signature on 2026-04-16 as Acts Chapter 1040, matching the packet's already-correct recorded status, and adds the precise chapter number and signing date.",
+          "quote": "April 16, 2026 - Signed by Governor ... Final Status: Acts Chapter 1040; Effective date July 1, 2026"
+        }
+      ]
+    }
+  ],
+  "new_bills": []
+}

@@ -1,0 +1,122 @@
+{
+  "state_abbrev": "CA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "ca-montebello-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "legal_basis": {
+          "from": "Amended Urgency Ordinance No. 2491 (Citizen Portal AI summary of 2026-02-12 meeting records 5-0 roll call adoption, satisfying four-fifths urgency requirement) [VERIFY original signed ordinance text — Montebello clerk's office had not posted Ord. 2491 to its online ordinance index as of 2026-04-29]",
+          "to": "Urgency Ordinance No. 2491, \"AN URGENCY ORDINANCE OF THE CITY COUNCIL OF THE CITY OF MONTEBELLO, CALIFORNIA, AMENDING TITLE 17 (ZONING) OF THE MONTEBELLO MUNICIPAL CODE TO ESTABLISH INTERIM ZONING CONTROLS FOR ARTIFICIAL INTELLIGENCE (AI) DATA CENTERS,\" adopted by 5-0 roll call vote, satisfying the four-fifths urgency requirement under Gov. Code 65858. The ordinance's own title does not include the word \"Amended\"; it was introduced and adopted at the same meeting.",
+          "reason": "Retrieved the actual signed ordinance text and certified minutes from the City of Montebello's own document store (CivicClerk agenda packet, event ID 1880), which give the correct title and confirm the 5-0 vote."
+        },
+        "date_enacted": {
+          "from": "2026-02-12",
+          "to": "2026-02-11",
+          "reason": "The city council agenda, certified minutes, and signed ordinance text all show the meeting and adoption occurred Wednesday, February 11, 2026, not February 12; the signature block reads \"PASSED, APPROVED, AND ADOPTED 11TH DAY OF FEBRUARY 2026.\""
+        },
+        "date_enacted_iso": {
+          "from": "2026-02-12",
+          "to": "2026-02-11",
+          "reason": "Same correction as `date_enacted`, drawn from the certified minutes and signed ordinance."
+        },
+        "current_status": {
+          "from": "Initial 45-day moratorium would have expired on or about 2026-03-29; no extension or replacement ordinance was found in Montebello clerk records or in *San Gabriel Valley Tribune* / Citizen Portal coverage searched on 2026-04-29 [VERIFY whether council extended moratorium under Gov. Code 65858 — no follow-up agenda item identified in captured sources]",
+          "to": "Expired on schedule around 2026-03-28 (45 days after the corrected February 11, 2026 adoption date). A review of every City Council agenda from 2026-02-25 through 2026-07-27 (the last scheduled meeting before this check) found only the mandatory Gov. Code 65858(d) 10-day report, filed on the 2026-02-25 agenda; no extension, replacement, or further data-center action appears on any later agenda. Montebello separately adopted an unrelated urgency ordinance (No. 2495, adopted 2026-06-24) imposing a moratorium on SB 79 transit-oriented-development applications, which does not affect data centers.",
+          "reason": "Direct review of Montebello City Council agendas from Feb through Jul 2026 (via the city's CivicClerk document portal) confirms no extension action was taken; the moratorium lapsed by its own 45-day term."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY original signed ordinance text — Montebello clerk's office had not posted Ord. 2491 to its online ordinance index as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Found and read the signed ordinance text via the city's CivicClerk document store; corrected the title (it is \"Urgency Ordinance No. 2491,\" not \"Amended Urgency Ordinance No. 2491\") and confirmed the 5-0 vote. Also corrected the adoption date from 2026-02-12 to 2026-02-11, per the certified minutes' signature block."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY whether council extended moratorium under Gov. Code 65858 — no follow-up agenda item identified in captured sources]",
+          "resolution": "confirmed",
+          "note": "Reviewed every Montebello City Council agenda from 2026-02-25 through 2026-07-27 directly from the city's document portal (meetings on 2/25, 3/11, 3/25, 4/8, 4/22, 5/13, 5/27, 6/10, 6/24, and a 7/27 special session; 7/8 and 7/22 were cancelled). No extension or replacement action was found. The moratorium lapsed on its own 45-day term around 2026-03-28."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://montebelloca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=6469,plainText=false)",
+          "title": "Montebello City Council Agenda Packet, February 11, 2026 (includes Urgency Ordinance No. 2491 text)",
+          "publisher": "City of Montebello, CA",
+          "document_date": "2026-02-11",
+          "source_type": "ordinance",
+          "supports": "Full text, title, and adoption date of Ordinance No. 2491",
+          "quote": "AN URGENCY ORDINANCE OF THE CITY COUNCIL OF THE CITY OF MONTEBELLO, CALIFORNIA, AMENDING TITLE 17 (ZONING) OF THE MONTEBELLO MUNICIPAL CODE TO ESTABLISH INTERIM ZONING CONTROLS FOR ARTIFICIAL INTELLIGENCE (AI) DATA CENTERS; DECLARING THE URGENCY THEREOF; AND PROVIDING THAT THIS ORDINANCE SHALL TAKE EFFECT IMMEDIATELY."
+        },
+        {
+          "url": "https://montebelloca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=6515,plainText=false)",
+          "title": "Montebello City Council Minutes, February 11, 2026",
+          "publisher": "City of Montebello, CA",
+          "document_date": "2026-02-11",
+          "source_type": "minutes",
+          "supports": "Confirms the 5-0 vote and February 11, 2026 adoption date",
+          "quote": "PASSED, APPROVED, AND ADOPTED 11TH DAY OF FEBRUARY 2026."
+        },
+        {
+          "url": "https://montebelloca.portal.civicclerk.com",
+          "title": "City of Montebello public meeting portal (CivicClerk)",
+          "publisher": "City of Montebello, CA",
+          "source_type": "other",
+          "supports": "Used to review every City Council agenda from 2026-02-25 through 2026-07-27; the only data-center-related item found in that window was the mandatory 10-day report on the 2026-02-25 agenda"
+        },
+        {
+          "url": "https://montebelloca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=6665,plainText=false)",
+          "title": "Montebello City Council Agenda, June 24, 2026 (Ordinance No. 2495, SB 79 TOD moratorium)",
+          "publisher": "City of Montebello, CA",
+          "document_date": "2026-06-24",
+          "source_type": "agenda",
+          "supports": "Confirms the only other urgency ordinance adopted in this window was an unrelated SB 79 housing moratorium, not a data-center extension"
+        }
+      ],
+      "notes": "Two corrections beyond the marker text itself: (1) the ordinance title drops \"Amended\"; (2) the adoption date is February 11, 2026, not February 12. Both are drawn directly from the city's own certified minutes and ordinance text."
+    },
+    {
+      "moratorium_id": "ca-monterey-park-2026",
+      "outcome": "corrected",
+      "confidence": 0.95,
+      "changes": {
+        "current_status": {
+          "from": "Active; on 2026-04-20 City Council unanimously adopted a permanent municipal-code ordinance prohibiting data centers citywide and declaring data centers a public nuisance, and placed companion Measure NDC on the 2026-06-02 special election ballot [VERIFY 2026-06-02 ballot result; election not yet held as of 2026-04-29]",
+          "to": "Active; permanent citywide data center prohibition in place. Measure NDC passed at the June 2, 2026 special election (10,388 Yes / 1,372 No, per the LA County Registrar-Recorder's certified canvass); results certified by the City Clerk on June 30, 2026 and declared by City Council Resolution No. 2026-R56 on July 1, 2026 (unanimous, 5-0). Companion Ordinance No. 2280 (General Plan amendment prohibiting all data centers citywide) was adopted by Council on July 2, 2026, effective on or about July 11, 2026 (10 days after election-result certification, per Elections Code section 9217).",
+          "reason": "City of Monterey Park's own Resolution No. 2026-R56 bundles the City Clerk's certification of election results, the LA County Registrar-Recorder's canvass certificate, and precinct-level vote totals, establishing that Measure NDC passed."
+        },
+        "outcome": {
+          "from": "Moratorium extended through 2027-01-21; permanent citywide prohibition codified by ordinance on 2026-04-20; voter ratification via Measure NDC on 2026-06-02 ballot pending",
+          "to": "Moratorium extended through 2027-01-21 (superseded in practice by permanent action); permanent citywide prohibition codified by ordinance on 2026-04-20; voters ratified the prohibition via Measure NDC on 2026-06-02 (10,388 Yes / 1,372 No), with results certified July 1, 2026 and companion Ordinance No. 2280 adopted July 2, 2026.",
+          "reason": "Same certified election-results source confirms the ballot outcome and subsequent council action."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY 2026-06-02 ballot result; election not yet held as of 2026-04-29]",
+          "resolution": "confirmed",
+          "note": "City of Monterey Park Resolution No. 2026-R56 (certifying the June 2, 2026 special election) shows Measure NDC passed with 10,388 Yes to 1,372 No; results certified by the City Clerk on June 30, 2026 and declared by Council on July 1, 2026."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "title": "Resolution No. 2026-R56 Certifying the Results of the June 2, 2026 Special Municipal Election (Measure NDC)",
+          "publisher": "City of Monterey Park, CA",
+          "document_date": "2026-07-01",
+          "source_type": "resolution",
+          "supports": "Confirms Measure NDC passed and gives certified vote totals, canvass certification, and companion ordinance adoption",
+          "quote": "Accordingly, Measure NDC garnered the required majority vote required for adoption. The Mayor is authorized to execute Measure NDC in accordance with applicable law."
+        }
+      ],
+      "notes": "The resolution package also includes the LA County Registrar-Recorder's precinct-level Statement of Votes Cast (1,589 Yes/349 No at the polls; 8,799 Yes/1,023 No by mail, for the certified totals above) and Ordinance No. 2280 itself."
+    }
+  ],
+  "new_candidates": []
+}

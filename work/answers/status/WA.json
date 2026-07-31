@@ -1,0 +1,124 @@
+{
+  "state_abbrev": "WA",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [
+    {
+      "moratorium_id": "wa-seattle-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "date_enacted": {
+          "from": "Not enacted as of 2026-04-29",
+          "to": "2026-06-09 (Seattle City Council unanimous final passage of Council Bill 121214 and companion Resolution 32204, under emergency designation); signed by Mayor Katie Wilson 2026-06-11; Ordinance No. 127447",
+          "reason": "Confirmed via the Seattle City Council's own June 9, 2026 press release and via direct review of the Legistar legislation detail page, which shows the ordinance number, passage date, and mayoral signature date."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-06-09",
+          "reason": "Date of City Council final passage."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Confirmed via the Council's own press release and the Legistar legislative record."
+        },
+        "duration": {
+          "from": "Proposed/exploratory only",
+          "to": "365 days from the effective date (immediate, under emergency designation), automatically expiring thereafter unless renewed for one or more additional six-month periods in accordance with RCW 36.70A.390; a public hearing is required within 60 days of adoption.",
+          "reason": "Confirmed directly via the Legistar legislation record, which states the moratorium duration and renewal terms in these words."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "365",
+          "reason": "Stated duration of the initial moratorium term per the ordinance."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "fixed_days",
+          "reason": "Ordinance specifies a fixed 365-day initial term, renewable in six-month increments under RCW 36.70A.390."
+        },
+        "legal_basis": {
+          "from": "No ordinance captured; Mayor Katie Wilson's 2026-04-18 statement says the city is \"exploring a moratorium on siting new centers\"; any future ordinance would rely on RCW 36.70A.390 (Seattle plans under the Growth Management Act)",
+          "to": "Seattle Ordinance No. 127447 (Council Bill 121214, amended), with companion Resolution 32204 (amended); adopted under the RCW 36.70A.390 interim-zoning-control procedure. Amends SMC 23.84A.008 to define \"data center\" as a facility used primarily for storing and processing digital data, with power capacity over 20 Megavolt-Amperes and requiring uninterruptible power, and imposes a moratorium on the filing, acceptance, processing, or approval of applications to establish or expand such uses.",
+          "reason": "Confirmed directly via the Legistar legislation record (title, definition/threshold language, and RCW citation)."
+        },
+        "current_status": {
+          "from": "Proposed / under consideration; KIRO Newsradio reported one of four developer companies has dropped out, leaving Prologis, Equinix, and Sabey eyeing southern Seattle sites; companies have not yet formally applied for service",
+          "to": "Active. Adopted by City Council 2026-06-09 (unanimous), signed by Mayor Wilson 2026-06-11. Companion Resolution 32204 directs a study/policy process (grid capacity, water use, utility rates, land use, jobs, and public health impacts) with reports and proposed permanent legislation due by January 2027. Two data center projects that were already vested under prior rules are not covered by the moratorium; new applications from companies including Prologis, Equinix, and Sabey are paused pending the study process. No source dated after early-to-mid summer 2026 was located to further update this status as of 2026-07-31.",
+          "reason": "Confirmed via the Council's own press release and corroborating news coverage (KUOW, 2026-06-09) describing the vested-project exemption and the study timeline."
+        },
+        "outcome": {
+          "from": "No moratorium enacted as of 2026-04-29; Seattle City Light is rewriting contract terms for large-load customers, planning to require data center operators to secure their own power generation and pay for infrastructure upgrades rather than passing costs to ratepayers (GeekWire, 2026-04-19)",
+          "to": "Moratorium enacted 2026-06-09; the city is using the pause and the companion Resolution 32204 working-group process to study grid, water, ratepayer, and environmental-justice impacts and to develop permanent siting/zoning rules, with reports and proposed permanent legislation due by January 2027.",
+          "reason": "Confirmed via the Council's own press release and Resolution 32204 reporting."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://council.seattle.gov/2026/06/09/city-council-passes-emergency-data-center-moratorium-and-policy-framework/",
+          "title": "City Council Passes Emergency Data Center Moratorium and Policy Framework",
+          "publisher": "Seattle City Council",
+          "document_date": "2026-06-09",
+          "source_type": "other",
+          "supports": "Seattle City Council unanimously passed Council Bill 121214 (amended) and companion Resolution 32204 (amended) on 2026-06-09, an emergency data center moratorium and policy framework; Mayor Wilson stated her intent to sign it.",
+          "quote": "I'm grateful to the City Council for their work on this data center moratorium, and I look forward to signing it into law."
+        },
+        {
+          "url": "https://seattle.legistar.com/LegislationDetail.aspx?ID=8032163&GUID=86F14A6D-9247-4BB5-839E-0A26937BFD3C&FullText=1",
+          "title": "Legislation Detail, Council Bill 121214 / Ordinance 127447",
+          "publisher": "City of Seattle (Legistar)",
+          "document_date": "2026-06-09",
+          "source_type": "ordinance",
+          "supports": "States the ordinance number (127447), passage date (2026-06-09), mayoral signature date (2026-06-11), the moratorium's threshold definition, and its 365-day duration with RCW 36.70A.390 six-month renewal terms.",
+          "quote": "The moratorium set forth in this ordinance shall be in effect for a period of 365 days from the effective date of this ordinance and shall automatically expire after the 365-day period ends unless the moratorium is extended as provided by statute, or unless terminated sooner by the City Council. ... The City may renew this moratorium for one or more six-month periods in accordance with RCW 36.70A.390."
+        }
+      ],
+      "notes": "The exact ordinance number (127447) and mayoral signature date (2026-06-11) rest on a single Legistar detail page render rather than a second independently-opened copy of the signed instrument; treated as reliable given the Council's own press release corroborates the passage date, sponsors, and companion resolution number, but flagged here for a follow-up direct check if higher certainty is needed. Separately, several other Washington jurisdictions were found to have adopted their own data center moratoria after this inventory's 2026-04-28 cutoff (see new_candidates): Skagit County (confirmed here with a primary county source), plus news-only leads for Burien and Federal Way that could not be independently verified with an actually-opened primary or news URL in this pass and are therefore omitted pending further verification."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Washington",
+      "jurisdiction": "Skagit County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-06-01",
+      "date_enacted_iso": "2026-06-01",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Board of County Commissioners action under RCW 36.70A.390 (interim zoning control); public hearing held 2026-07-14",
+      "trigger": "Concerns about protecting farmland and water resources in unincorporated Skagit County from large-scale data center development",
+      "trigger_categories": ["regulatory_gap", "water", "agricultural_preservation", "grid_energy"],
+      "sectors": ["data_center"],
+      "current_status": "In effect in unincorporated Skagit County (outside incorporated cities and towns); a public hearing required under RCW 36.70A.390 was held 2026-07-14.",
+      "enacted_status": "active",
+      "affected_projects": "Facilities larger than 2,000 square feet or with an anticipated electrical load of 2 megawatts or greater.",
+      "outcome": "Temporary ban on data centers in unincorporated Skagit County while the county considers longer-term regulation.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.skagitcounty.net/Departments/Home/press/060126.htm",
+          "title": "Skagit County press release on data center moratorium",
+          "publisher": "Skagit County",
+          "document_date": "2026-06-01",
+          "source_type": "other",
+          "supports": "Skagit County Board of Commissioners adopted a moratorium on new data centers in unincorporated Skagit County, citing RCW 36.70A.390, with a public hearing set for 2026-07-14; threshold of over 2,000 sq ft or 2+ MW anticipated load.",
+          "quote": "Consistent with RCW 36.70A.390, the Board will hold a hearing to accept public comment and testimony on the moratorium at 10:30 a.m. on July 14, 2026."
+        },
+        {
+          "url": "https://www.cascadiadaily.com/2026/jun/01/skagit-county-temporarily-bans-data-centers-to-protect-farmland-water/",
+          "title": "Skagit County temporarily bans data centers to protect farmland, water",
+          "publisher": "Cascadia Daily News",
+          "document_date": "2026-06-01",
+          "source_type": "news",
+          "supports": "Commissioners Ron Wesen and Joe Burns voted in favor on 2026-06-01 (Commissioner Peter Browning absent); six-month duration; threshold over 2,000 sq ft or at least 2 MW electrical load.",
+          "quote": "Data centers won't be allowed in unincorporated Skagit County for at least the next six months, after the Skagit Board of County Commissioners on Monday passed a temporary moratorium."
+        }
+      ],
+      "notes": "Adopted after the inventory's 2026-04-28 coverage cutoff. Confirmed with both a county government source and independent news corroboration."
+    }
+  ]
+}

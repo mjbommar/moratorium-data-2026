@@ -1,0 +1,89 @@
+{
+  "applied_at": "20260731T065218",
+  "answer_files": [
+    "work/answers/gaps/batch-b.json"
+  ],
+  "stats": {
+    "candidate_flagged_for_verification": 6,
+    "candidates_added": 9,
+    "candidate_duplicate": 1
+  },
+  "conflicts": [],
+  "skipped": [
+    "batch-b.json: candidate MN 'Wright County' (no instrument number) treated as duplicate of mn-wright-county-2026 (ordinance-26-2)"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "ca-coachella-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "California / Coachella",
+      "reason": "Not present in data/moratorium_inventory.csv under California (existing CA rows: El Monte, Imperial County, Montebello, Monterey Park, Oakley). Follows the same San Gabriel Valley/Coachella Valley moratorium wave as those entries. Could not fetch a primary ordinance text or council-minutes document directly (kvcrnews.org, NBC Palm Springs and Patch article pages returned errors on direct fetch); evidence above is drawn from Google News aggregation pages that were actually fetched and contain the quoted headlines/attributions.",
+      "source": "batch-b.json"
+    },
+    {
+      "moratorium_id": "mn-inver-grove-heights-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Minnesota / Inver Grove Heights",
+      "reason": "Not present in data/moratorium_inventory.csv under Minnesota (existing MN rows: Carver, Eagan, Minneapolis, Waite Park). Could not reach mprnews.org or hometownsource.com article pages directly (404/429 on direct fetch); evidence drawn from Google News aggregation pages actually fetched.",
+      "source": "batch-b.json"
+    },
+    {
+      "moratorium_id": "nv-nye-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Nevada / Nye County",
+      "reason": "Nevada currently has zero rows in data/moratorium_inventory.csv. This is a confirmed new candidate. Direct fetch of the county PDF returned garbled text via the WebFetch summarizer; the file was independently re-extracted with pdftotext to confirm the quoted WHEREAS clause.",
+      "source": "batch-b.json"
+    },
+    {
+      "moratorium_id": "nv-reno-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Nevada / Reno",
+      "reason": "Nevada currently has zero rows in data/moratorium_inventory.csv. This is a confirmed new candidate, corroborated by at least six independent outlets (reno.gov, This Is Reno, KRNV/mynews4, KUNR, Reno Gazette-Journal, Nevada Current, The Nevada Independent, Yahoo). Direct fetches of reno.gov, thisisreno.com, and nevadacurrent.com article pages were blocked (403/404); reno.gov's homepage did not surface the resolution page, and Legistar/agenda search on reno.legistar.com returned no results for the query used, so no primary ordinance/resolution document could be directly retrieved in this pass.",
+      "source": "batch-b.json"
+    },
+    {
+      "moratorium_id": "sc-newberry-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "South Carolina / Newberry County",
+      "reason": "South Carolina currently has zero rows in data/moratorium_inventory.csv. This is a confirmed new candidate, corroborated across WIS News 10, WRDW, FOX Carolina, and WLTX. Direct fetch of the underlying station article pages was not attempted after Google News aggregation gave consistent, converging headlines from four independent outlets; evidence above is drawn from Google News search pages actually fetched.",
+      "source": "batch-b.json"
+    },
+    {
+      "moratorium_id": "tn-cedar-hill-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Tennessee / Cedar Hill",
+      "reason": "Not present in data/moratorium_inventory.csv under Tennessee (existing TN rows: Bristol, Hawkins County, Johnson City, Jonesborough, Sullivan County, Washington County). Evidence drawn from Google News aggregation pages actually fetched; direct fetch of wsmv.com article pages returned 404 for the URLs guessed.",
+      "source": "batch-b.json"
+    },
+    {
+      "moratorium_id": "tn-mcminnville-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Tennessee / McMinnville",
+      "reason": "Not present in data/moratorium_inventory.csv under Tennessee. This candidate was confirmed via a directly-fetched news article (not just an aggregator), giving higher confidence than most other entries in this batch.",
+      "source": "batch-b.json"
+    },
+    {
+      "moratorium_id": "tx-harlingen-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Texas / Harlingen",
+      "reason": "Texas currently has zero rows in data/moratorium_inventory.csv. This is a confirmed new candidate, corroborated by ValleyCentral, KRGV, and The Real Deal. Exact enactment day not pinned down from sources actually fetched, so date precision is left at month-level.",
+      "source": "batch-b.json"
+    },
+    {
+      "moratorium_id": "tx-hill-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Texas / Hill County",
+      "reason": "Texas currently has zero rows in data/moratorium_inventory.csv. This is a confirmed new candidate: it was a real, dated moratorium instrument (not merely a proposal), extensively covered by KWTX, KCENTV, KXXV, The Texas Tribune, KERA News, Politico, Chron, Bloomberg, and The National Law Review, even though it was later rescinded under litigation pressure. Recorded here with enacted_status=rescinded per the codebook, consistent with how other rescinded moratoria are tracked in the inventory.",
+      "source": "batch-b.json"
+    }
+  ]
+}
