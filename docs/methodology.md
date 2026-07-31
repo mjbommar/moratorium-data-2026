@@ -216,6 +216,23 @@ The original document corpus (~12 GB) is not in this repository (it's hosted sep
 | Real-browser verification | Playwright + system Chrome (Xvfb) for JS-rendered portals | n/a |
 | Aggregation, table generation, mapping | Python (pandas, geopandas, matplotlib, seaborn) | n/a |
 
+## A note on cost
+
+The 50-state month-by-month sweep behind v2026.07 is **150 model calls**, one per
+state per month, each with web search enabled. That is the expensive step in this
+pipeline by a wide margin, and it scales as call count times model tier times
+reasoning effort.
+
+`research_moratoria.py` pins its model and reasoning effort rather than
+inheriting them from the operator's interactive config, and refuses a batch above
+25 calls without an explicit `--yes`. Both defaults are deliberately modest:
+state-month research is retrieval and summarization against public records, and
+raising the reasoning tier buys very little on that kind of work.
+
+Anyone reproducing the sweep should scope it first -- `--only`, `--start`, and
+`--end` narrow the run, and `--dry-run` prints the work plan without spending
+anything.
+
 ## Updates
 
 Each refresh of the dataset is a tagged GitHub release (`v2026.04`, `v2026.07`, ...) with a corresponding [Zenodo DOI](https://doi.org/) (planned). Refresh cadence is roughly quarterly while the moratorium wave is active.
