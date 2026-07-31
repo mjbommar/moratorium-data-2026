@@ -14,334 +14,472 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <style>
+  /* ------------------------------------------------------------------
+     Design tokens. Light and dark are both selected, not auto-flipped:
+     each mode has its own steps chosen against its own surface.
+     ------------------------------------------------------------------ */
   :root {
-    --ink: #0f1419;
-    --ink-soft: #4a5460;
-    --bg: #fafaf7;
-    --accent: #1f6feb;
-    --line: #d8dadc;
+    color-scheme: light;
 
-    /* Status colors — calm, not alarming */
-    --c-active:    #2d8f4f;
-    --c-extended:  #2d8f4f;
-    --c-replaced:  #6a737d;
-    --c-expired:   #6a737d;
-    --c-rescinded: #cb2431;
-    --c-pending:   #d4a017;
+    --plane:        #f4f4f1;   /* page behind the cards */
+    --surface:      #fcfcfb;   /* card / panel */
+    --surface-2:    #ffffff;   /* raised card */
+    --ink:          #0b0b0b;
+    --ink-soft:     #52514e;
+    --ink-muted:    #77756f;
+    --line:         #e2e1dc;
+    --line-strong:  #cfcec8;
+
+    --accent:       #2a78d6;
+    --accent-ink:   #1a5aa8;   /* accent as text, meets contrast on --surface */
+    --accent-wash:  #eef4fd;
+
+    /* Status marks. Paired with a label everywhere -- never color alone. */
+    --c-active:    #0ca30c;
+    --c-extended:  #0ca30c;
+    --c-pending:   #fab219;
+    --c-replaced:  #77756f;
+    --c-expired:   #77756f;
+    --c-rescinded: #d03b3b;
+
+    --radius:   10px;
+    --radius-l: 16px;
+    --shadow:   0 1px 2px rgba(16,16,15,.05), 0 4px 16px -8px rgba(16,16,15,.14);
+    --shadow-l: 0 1px 2px rgba(16,16,15,.06), 0 18px 44px -22px rgba(16,16,15,.30);
+    --measure: 68ch;
   }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --plane:       #0d0d0d;
+      --surface:     #1a1a19;
+      --surface-2:   #211f1e;
+      --ink:         #ffffff;
+      --ink-soft:    #c3c2b7;
+      --ink-muted:   #97958c;
+      --line:        #33322f;
+      --line-strong: #46443f;
+      --accent:      #3987e5;
+      --accent-ink:  #7db2f2;
+      --accent-wash: #16233a;
+      --c-active:    #0ca30c;
+      --c-extended:  #0ca30c;
+      --c-pending:   #fab219;
+      --c-replaced:  #97958c;
+      --c-expired:   #97958c;
+      --c-rescinded: #e26a6a;
+      --shadow:   0 1px 2px rgba(0,0,0,.5), 0 4px 16px -8px rgba(0,0,0,.6);
+      --shadow-l: 0 1px 2px rgba(0,0,0,.55), 0 18px 44px -22px rgba(0,0,0,.8);
+    }
+  }
+
   * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
   html, body {
     margin: 0;
-    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     color: var(--ink);
-    background: var(--bg);
-    line-height: 1.5;
+    background: var(--plane);
+    line-height: 1.55;
     font-size: 16px;
+    -webkit-font-smoothing: antialiased;
   }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
+  a { color: var(--accent-ink); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 2px; }
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  h1, h2, h3 { letter-spacing: -0.021em; text-wrap: balance; }
+  strong { font-weight: 650; }
 
+  .wrap, header.hero, .stats-row, .paper-callout, .map-wrap, .timeline-wrap, main {
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ---------------------------------------------------------------- hero */
   header.hero {
-    padding: 36px 24px 16px;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 56px 24px 20px;
   }
-  header.hero h1 {
-    font-size: clamp(28px, 4vw, 44px);
-    line-height: 1.15;
-    margin: 0 0 6px;
-    letter-spacing: -0.02em;
-  }
-  header.hero .subtitle {
-    font-size: clamp(16px, 1.4vw, 19px);
-    color: var(--ink-soft);
-    margin: 0 0 22px;
-    max-width: 760px;
-  }
-
-  .stats-row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 12px;
-    margin: 0 auto 14px;
-    max-width: 1200px;
-    padding: 0 24px;
-  }
-  .stat {
-    background: white;
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    padding: 14px 16px;
-  }
-  .stat .num {
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 1;
-    letter-spacing: -0.02em;
-  }
-  .stat .label {
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--ink-soft);
-    margin-top: 6px;
-  }
-  .stat.in-force .num    { color: var(--c-active); }
-  .stat.pending .num     { color: var(--c-pending); }
-  .stat.past .num        { color: var(--c-replaced); }
-
-  /* Map */
-  .map-wrap {
-    max-width: 1200px;
-    margin: 18px auto 0;
-    padding: 0 24px;
-  }
-  #map {
-    height: 560px;
-    border-radius: 10px;
-    border: 1px solid var(--line);
-    box-shadow: 0 1px 0 rgba(0,0,0,0.04);
-  }
-  .map-controls {
-    margin: 10px 0 22px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 14px;
-    align-items: center;
-    font-size: 14px;
-    color: var(--ink-soft);
-  }
-  .legend-item {
+  header.hero .eyebrow {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    margin-right: 8px;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    margin-bottom: 14px;
   }
-  .legend-item .swatch {
-    display: inline-block;
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    border: 1px solid rgba(0,0,0,0.15);
+  header.hero .eyebrow .dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    background: var(--c-active);
   }
-  .filter-buttons {
-    margin-left: auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
+  header.hero h1 {
+    font-size: clamp(34px, 5.2vw, 58px);
+    line-height: 1.06;
+    margin: 0 0 14px;
+    font-weight: 700;
   }
-  .filter-buttons button {
-    background: white;
-    border: 1px solid var(--line);
-    border-radius: 6px;
-    padding: 5px 11px;
-    font-size: 13px;
-    color: var(--ink);
-    cursor: pointer;
-    font-family: inherit;
-  }
-  .filter-buttons button.active {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: white;
+  header.hero .subtitle {
+    font-size: clamp(17px, 1.5vw, 20px);
+    color: var(--ink-soft);
+    margin: 0 0 8px;
+    max-width: var(--measure);
+    line-height: 1.5;
   }
 
-  /* Paper callout */
-  .paper-callout {
-    max-width: 1200px;
-    margin: 22px auto 0;
-    padding: 0 24px;
+  /* --------------------------------------------------------------- stats */
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
+    gap: 12px;
+    padding: 20px 24px 4px;
   }
-  .paper-card {
-    background: white;
+  .stat {
+    background: var(--surface);
     border: 1px solid var(--line);
-    border-radius: 10px;
-    padding: 22px 24px;
+    border-radius: var(--radius);
+    padding: 16px 18px 14px;
+    box-shadow: var(--shadow);
+  }
+  /* The number is ink, never the status color: colored text fails contrast
+     and the skill's rule is that text wears text tokens. The small dot
+     carries the status identity, always beside its label. */
+  .stat .num {
+    font-size: clamp(30px, 3.4vw, 40px);
+    font-weight: 700;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.03em;
+    color: var(--ink);
+  }
+  .stat .label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    margin-top: 9px;
+    line-height: 1.35;
+  }
+  .stat .label::before {
+    content: "";
+    flex: none;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--line-strong);
+  }
+  .stat.in-force .label::before  { background: var(--c-active); }
+  .stat.pending  .label::before  { background: var(--c-pending); }
+  .stat.past     .label::before  { background: var(--c-replaced); }
+  .stat .delta {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 11.5px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-muted);
+    background: var(--plane);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 2px 8px;
+  }
+
+  /* ------------------------------------------------------- paper callout */
+  .paper-callout { padding: 26px 24px 4px; }
+  .paper-card {
     display: flex;
     flex-wrap: wrap;
-    gap: 18px;
-    align-items: center;
+    gap: 22px;
     justify-content: space-between;
+    align-items: flex-start;
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-l);
+    padding: 24px 26px;
+    box-shadow: var(--shadow-l);
   }
-  .paper-card .paper-info {
-    flex: 1 1 540px;
-    min-width: 0;
-  }
+  .paper-card .paper-info { flex: 1 1 460px; }
   .paper-card .paper-info .eyebrow {
     font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .07em;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--ink-soft);
-    margin-bottom: 6px;
+    color: var(--ink-muted);
+    margin-bottom: 8px;
   }
   .paper-card .paper-info h2 {
-    font-size: 20px;
-    margin: 0 0 6px;
+    font-size: clamp(19px, 2vw, 24px);
+    margin: 0 0 10px;
     line-height: 1.25;
   }
   .paper-card .paper-info p {
-    font-size: 14px;
+    font-size: 14.5px;
     color: var(--ink-soft);
     margin: 0;
+    max-width: var(--measure);
   }
   .paper-card .paper-cta {
+    flex: 0 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 6px;
-    align-items: stretch;
-    min-width: 220px;
+    gap: 9px;
+    min-width: 232px;
   }
   .paper-card .paper-cta a.primary {
-    background: var(--accent);
-    color: white;
-    padding: 10px 18px;
-    border-radius: 6px;
-    font-weight: 500;
+    display: block;
     text-align: center;
-    font-size: 14px;
+    background: var(--accent);
+    color: #fff;
+    font-weight: 600;
+    font-size: 14.5px;
+    padding: 11px 16px;
+    border-radius: var(--radius);
   }
-  .paper-card .paper-cta a.primary:hover {
-    text-decoration: none;
-    background: #1858c4;
-  }
+  .paper-card .paper-cta a.primary:hover { filter: brightness(1.07); text-decoration: none; }
   .paper-card .paper-cta a.secondary {
-    padding: 8px 18px;
-    border-radius: 6px;
-    font-weight: 500;
+    display: block;
     text-align: center;
+    border: 1px solid var(--line-strong);
+    color: var(--ink);
+    font-weight: 550;
+    font-size: 14px;
+    padding: 10px 16px;
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+  .paper-card .paper-cta a.secondary:hover { border-color: var(--accent); color: var(--accent-ink); text-decoration: none; }
+  .paper-card .paper-cta .meta { font-size: 12px; color: var(--ink-muted); text-align: center; }
+
+  /* ----------------------------------------------------------------- map */
+  .map-wrap { padding: 26px 24px 0; }
+  #map {
+    height: 540px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-l);
+    box-shadow: var(--shadow);
+    background: var(--surface);
+  }
+  .map-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 18px;
+    padding: 14px 2px 10px;
     font-size: 13px;
-    color: var(--accent);
-    border: 1px solid var(--accent);
-  }
-  .paper-card .paper-cta a.secondary:hover {
-    text-decoration: none;
-    background: var(--accent);
-    color: white;
-  }
-  .paper-card .paper-cta .meta {
-    font-size: 12px;
     color: var(--ink-soft);
-    text-align: center;
+  }
+  .legend-item { display: inline-flex; align-items: center; gap: 7px; }
+  .legend-item .swatch {
+    width: 11px; height: 11px;
+    border-radius: 50%;
+    border: 1.5px solid var(--surface);
+    box-shadow: 0 0 0 1px var(--line-strong);
+  }
+  .filter-buttons { display: flex; gap: 6px; margin-left: auto; flex-wrap: wrap; }
+  .filter-buttons button {
+    font: inherit;
+    font-size: 13px;
+    font-weight: 550;
+    color: var(--ink-soft);
+    background: var(--surface);
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    padding: 5px 13px;
+    cursor: pointer;
+  }
+  .filter-buttons button:hover { border-color: var(--accent); color: var(--accent-ink); }
+  .filter-buttons button.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
   }
 
-  /* Timeline chart */
-  .timeline-wrap {
-    max-width: 1200px;
-    margin: 8px auto 0;
-    padding: 0 24px 16px;
-  }
+  /* ------------------------------------------------------------ timeline */
+  .timeline-wrap { padding: 26px 24px 0; }
   .timeline-wrap img {
     width: 100%;
     height: auto;
     display: block;
+    background: var(--surface-2);
     border: 1px solid var(--line);
-    border-radius: 8px;
-    background: white;
+    border-radius: var(--radius-l);
+    padding: 14px;
+    box-shadow: var(--shadow);
   }
   .timeline-wrap .caption {
     font-size: 13px;
     color: var(--ink-soft);
-    margin: 8px 0 24px;
+    margin: 12px 2px 0;
+    max-width: var(--measure);
   }
 
-  /* Body sections */
-  main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 24px 48px;
-  }
-  section {
-    margin-top: 36px;
-  }
-  section h2 {
-    font-size: 22px;
+  /* -------------------------------------------------------- body sections */
+  main { padding: 8px 24px 56px; }
+  section { margin-top: 46px; }
+  section > h2 {
+    font-size: clamp(21px, 2.2vw, 27px);
     margin: 0 0 12px;
-    letter-spacing: -0.01em;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
   }
   section p {
     color: var(--ink-soft);
-    max-width: 760px;
-    margin: 6px 0 14px;
+    max-width: var(--measure);
+    margin: 8px 0 14px;
   }
+
+  /* Release notes: the one block that should read as an update, not a page
+     section. Accent rule on the left, tinted plane, its own heading scale. */
+  .release-notes {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius-l);
+    padding: 26px 28px 22px;
+    box-shadow: var(--shadow);
+  }
+  .release-notes > h2 { border-top: 0; padding-top: 0; margin-bottom: 6px; }
+  .release-notes .stamp {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--accent-ink);
+    margin-bottom: 10px;
+  }
+  .release-notes h3 {
+    font-size: 14px;
+    font-weight: 650;
+    margin: 22px 0 8px;
+    color: var(--ink);
+  }
+  .release-notes p { margin: 8px 0 12px; }
+  .release-notes ul {
+    margin: 0 0 6px;
+    padding-left: 0;
+    list-style: none;
+    max-width: var(--measure);
+  }
+  .release-notes li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color: var(--ink-soft);
+    font-size: 15px;
+  }
+  .release-notes li::before {
+    content: "";
+    position: absolute;
+    left: 3px; top: .62em;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--line-strong);
+  }
+  .release-notes .lede {
+    font-size: 16.5px;
+    color: var(--ink);
+    max-width: var(--measure);
+  }
+
+  /* ----------------------------------------------------------- link cards */
   .grid-3 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     gap: 16px;
   }
   .card {
-    background: white;
+    background: var(--surface);
     border: 1px solid var(--line);
-    border-radius: 8px;
-    padding: 18px 20px;
+    border-radius: var(--radius);
+    padding: 20px 22px;
+    box-shadow: var(--shadow);
+    transition: border-color .12s ease, transform .12s ease;
   }
-  .card h3 {
-    margin: 0 0 6px;
-    font-size: 16px;
-  }
-  .card p {
-    font-size: 14px;
-    color: var(--ink-soft);
-    margin: 0 0 10px;
-  }
-  .card a {
-    font-size: 14px;
-    font-weight: 500;
-  }
+  .card:hover { border-color: var(--line-strong); transform: translateY(-1px); }
+  .card h3 { margin: 0 0 8px; font-size: 16px; }
+  .card p { font-size: 14px; color: var(--ink-soft); margin: 0 0 12px; max-width: none; }
+  .card a { font-size: 14px; font-weight: 600; }
 
+  /* ---------------------------------------------------------- top states */
   .top-states {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-    gap: 6px;
+    grid-template-columns: repeat(auto-fit, minmax(196px, 1fr));
+    gap: 4px 20px;
     font-size: 14px;
   }
   .top-states .row {
     display: flex;
     justify-content: space-between;
-    padding: 6px 10px;
+    align-items: baseline;
+    gap: 12px;
+    padding: 9px 2px;
     border-bottom: 1px solid var(--line);
   }
-  .top-states .row a { color: var(--ink); }
-  .top-states .row strong { font-variant-numeric: tabular-nums; }
+  .top-states .row a { color: var(--ink); font-weight: 550; }
+  .top-states .row strong {
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-soft);
+    font-weight: 650;
+  }
 
+  /* --------------------------------------------------------------- footer */
   footer {
     border-top: 1px solid var(--line);
-    margin-top: 48px;
-    padding: 28px 24px;
-    color: var(--ink-soft);
+    margin-top: 20px;
+    padding: 30px 24px 40px;
+    color: var(--ink-muted);
     font-size: 13px;
     text-align: center;
+    background: var(--surface);
   }
   footer a { color: var(--ink-soft); }
-  footer .repo-link { font-weight: 500; }
+  footer .repo-link { font-weight: 600; }
 
-  /* Popup */
+  /* ---------------------------------------------------------- map popups */
   .leaflet-popup-content { font-size: 13px; line-height: 1.45; max-width: 260px; }
   .leaflet-popup-content h4 { margin: 0 0 4px; font-size: 14px; }
-  .leaflet-popup-content .meta {
-    color: var(--ink-soft);
-    font-size: 12px;
-    margin: 4px 0;
+  .leaflet-popup-content .meta { color: var(--ink-soft); }
+  .leaflet-popup-content .status { font-weight: 650; }
+
+  /* The timeline SVG carries a baked white background, so in dark mode the
+     frame is made white too: it then reads as a deliberate paper inset rather
+     than a light rectangle that failed to theme. */
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .timeline-wrap img {
+      background: #fff;
+      border-color: #2c2b28;
+    }
   }
-  .leaflet-popup-content .status {
-    display: inline-block;
-    padding: 1px 7px;
-    border-radius: 10px;
-    font-size: 11px;
-    font-weight: 500;
-    margin-top: 4px;
+
+  @media (max-width: 640px) {
+    header.hero { padding-top: 38px; }
+    #map { height: 420px; }
+    .filter-buttons { margin-left: 0; }
+    .release-notes { padding: 22px 18px 18px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
   }
 </style>
 </head>
 <body>
 
 <header class="hero">
+  <div class="eyebrow"><span class="dot"></span>Updated 31 July 2026 &middot; v2026.07</div>
   <h1>Moratorium Nation</h1>
-  <p class="subtitle">Open data on local-government moratoria targeting <strong>data centers</strong>, <strong>battery storage</strong>, <strong>solar</strong>, <strong>wind</strong>, and <strong>cryptocurrency mining</strong> across the United States. Updated July 2026.</p>
+  <p class="subtitle">Cities, counties, and townships across the United States are pausing new <strong>data centers</strong>, <strong>battery storage</strong>, <strong>solar</strong>, <strong>wind</strong>, and <strong>crypto mining</strong>. This tracks every pause we can document, with the ordinance behind it.</p>
 </header>
 
 <div class="stats-row">
   <div class="stat">
     <div class="num" id="stat-total">416</div>
+    <div class="delta">was 222 in April</div>
     <div class="label">Moratorium instruments</div>
   </div>
   <div class="stat in-force">
@@ -362,55 +500,6 @@
   </div>
 </div>
 
-<!-- BEGIN whats-changed (generated by scripts/build_index.py) -->
-<section>
-  <h2>What changed between the April and July 2026 updates</h2>
-  <p>The inventory grew from <strong>222</strong> to <strong>416</strong> instruments and from
-  <strong>30</strong> to <strong>35</strong> states. Most of that growth is <em>coverage</em>, not a sudden
-  surge: this release was the first to sweep states month by month rather than
-  opportunistically. Read 416 as a floor, not a count.</p>
-
-  <h3>New activity</h3>
-  <ul>
-    <li><strong>170 instruments were adopted between 2026-05-01 and 2026-07-31.</strong>
-      June was the single busiest month we have recorded.</li>
-    <li><strong>Large cities entered the pattern.</strong> Seattle (emergency ordinance, June 9),
-      Cleveland (14-1, July 15), Minneapolis, Denver, Charlotte, and Montgomery County, MD
-      (18-month pause plus a hyperscale ban, July 28). Durham city and Durham county each
-      adopted their own.</li>
-    <li><strong>Five states entered the dataset for the first time:</strong> Florida, Nevada,
-      New Mexico, South Carolina, and Texas.</li>
-  </ul>
-
-  <h3>What happened to existing moratoria</h3>
-  <ul>
-    <li><strong>Extensions were the most common outcome.</strong> DeKalb County, GA voted its
-      permanent ordinance down and instead extended its pause to March 2027; Prince George's
-      County, MD renewed for two more years.</li>
-    <li><strong>Nine converted into permanent regulations</strong> - among them Griffin and Polk
-      County, GA; Montour County, PA; Brevard, NC; and St. Charles Parish, LA.</li>
-    <li><strong>Six lapsed with nothing adopted</strong>, including La Grange, KY and Waterville, OH.</li>
-    <li><strong>A few were defeated or undone.</strong> Lowell Township, MI rejected a moratorium 2-5;
-      Hill County, TX rescinded one after a $100M developer lawsuit; Oliver County, ND repealed
-      its third-phase moratorium seven weeks in.</li>
-  </ul>
-
-  <h3>State legislation</h3>
-  <p>All <strong>438</strong> tracked bills now carry a researched final disposition, and
-  <strong>84</strong> are enacted. The 2026 session converged on
-  <em>ratepayer protection and cost allocation</em> rather than outright bans - New Jersey's
-  large-load tariff act (signed July 7), Oklahoma's Data Center Customer Protection Act,
-  Maryland's Utility RELIEF Act, and Idaho's 50 MW "no harm" test. Florida cut the other way,
-  preserving local land-use authority over large-load customers.</p>
-
-  <h3>How to read the coverage</h3>
-  <p>18 states were swept systematically for May through July; the remaining
-  32 were not, and their counts for that window are lower bounds. Florida held one row
-  before its sweep was converted and 14 after - the state did not change, only our looking did.
-  Five swept states genuinely recorded no local adoptions in the window, which is a finding
-  rather than a gap. See <a href="docs/known-gaps.html">known gaps</a> for the full accounting.</p>
-</section>
-<!-- END whats-changed -->
 
 <div class="paper-callout">
   <div class="paper-card">
@@ -445,19 +534,70 @@
 
 <div class="timeline-wrap">
   <img src="site/timeline.svg" alt="Monthly moratorium adoptions, 2018 through July 2026, stacked by primary sector with cumulative-total dashed line." />
-  <p class="caption">A handful of Washington crypto-mining moratoria in 2018; near silence through 2023; then accelerating sharply in 2025 and exploding in early 2026 as data-center campus proposals reach communities without zoning rules for them. Source: <a href="data/moratorium_inventory.csv" download>moratorium_inventory.csv</a>, <code>date_enacted_iso</code> + <code>sectors</code> columns.</p>
+  <p class="caption">Washington logged a few crypto-mining moratoria in 2018, then the country went quiet until 2023. Adoptions climbed through 2025 and broke out in 2026: June alone saw 80, the tallest bar on the chart. The driver is consistent - hyperscale campus proposals arriving in places whose zoning code has no category for them. Source: <a href="data/moratorium_inventory.csv" download>moratorium_inventory.csv</a>, <code>date_enacted_iso</code> and <code>sectors</code>.</p>
 </div>
 
 <main>
 
+<!-- BEGIN whats-changed (generated by scripts/build_index.py) -->
+<section class="release-notes">
+  <div class="stamp">Release v2026.07 &middot; 31 July 2026</div>
+  <h2>What changed since April</h2>
+  <p class="lede">The inventory grew from 222 instruments to 416, across 35 states
+  instead of 30. Method explains most of that jump. This is the first release to sweep
+  states month by month, so read 416 as a floor.</p>
+
+  <h3>New activity</h3>
+  <ul>
+    <li><strong>170 moratoria were adopted between May 1 and July 31.</strong>
+      June accounted for 80 of them, the busiest month on record.</li>
+    <li><strong>Big cities joined in.</strong> Seattle passed an emergency ordinance on June 9.
+      Cleveland followed on July 15 by a 14-1 vote, after committee cut the term from twelve
+      months to three. Minneapolis, Denver, Charlotte, and Montgomery County, Maryland all
+      acted. Durham city and Durham County each passed their own.</li>
+    <li><strong>Five states appear here for the first time:</strong> Florida, Nevada, New Mexico,
+      South Carolina, and Texas.</li>
+  </ul>
+
+  <h3>What happened to the older ones</h3>
+  <ul>
+    <li><strong>Extension is the usual outcome.</strong> DeKalb County, Georgia voted its permanent
+      ordinance down on June 23, then pushed the pause out to March 2027. Prince George's
+      County, Maryland renewed for two more years.</li>
+    <li><strong>Nine became permanent rules</strong> - among them Griffin and Polk County in
+      Georgia, Montour County in Pennsylvania, Brevard in North Carolina, and St. Charles
+      Parish in Louisiana.</li>
+    <li><strong>Six simply lapsed.</strong> La Grange, Kentucky and Waterville, Ohio let theirs
+      run out with nothing ready to replace them.</li>
+    <li><strong>A few went the other way.</strong> Lowell Township, Michigan voted a moratorium
+      down 2-5. Hill County, Texas repealed one after a developer sued for $100 million.
+      Oliver County, North Dakota repealed its third pause seven weeks in.</li>
+  </ul>
+
+  <h3>State legislation</h3>
+  <p>All 438 tracked bills now carry a final disposition, and 84 are law.
+  Legislatures went after cost allocation more than siting. New Jersey signed its large-load
+  tariff act on July 7. Oklahoma passed a Data Center Customer Protection Act, Maryland the
+  Utility RELIEF Act, and Idaho now requires a "no harm" test for any new load above 50
+  megawatts. Florida moved the opposite way and protected local land-use authority.</p>
+
+  <h3>How to read the coverage</h3>
+  <p>18 states got the month-by-month sweep. The other 32 did not, so their
+  May-July counts are floors. Florida shows why: it held one row before its sweep and
+  14 after. The state did not change. Our looking did. Five swept states recorded no
+  local adoptions at all - a finding worth as much as a count.
+  <a href="docs/known-gaps.html">Known gaps</a> has the full accounting.</p>
+</section>
+<!-- END whats-changed -->
+
 <section>
   <h2>What is a moratorium?</h2>
-  <p>A moratorium is a temporary pause that a local government — usually a city, county, or township — places on accepting or approving certain kinds of new development. Most run 6 to 12 months and are intended to give the local government time to study impacts and write permanent rules. <a href="docs/FAQ.html">Read the FAQ →</a></p>
+  <p>A moratorium is a temporary pause. A city, county, or township stops accepting or approving a certain kind of development while it writes rules for it. Most run six to twelve months. The trigger is almost always the same: a project arrives that the zoning code has no word for. <a href="docs/FAQ.html">Read the FAQ &rarr;</a></p>
 </section>
 
 <section>
   <h2>Top 13 states by moratorium count</h2>
-  <p>These 13 states account for about 78 percent of all identified instruments. Click a state to see every moratorium in plain English.</p>
+  <p>Thirteen states hold roughly four in five of the instruments we have found. Click a state for every moratorium in it, written in plain English.</p>
   <div class="top-states">
     <div class="row"><a href="states/michigan.html"><strong>Michigan</strong></a><strong>63</strong></div>
     <div class="row"><a href="states/ohio.html"><strong>Ohio</strong></a><strong>53</strong></div>
@@ -499,12 +639,12 @@
 
 <section>
   <h2>Methodology</h2>
-  <p>The dataset is built from approximately 4,400 original documents (ordinances, resolutions, board minutes, news articles) collected via AI-assisted research agents across all 50 states. 348 moratorium texts have been read line-by-line and coded against a 44-clause taxonomy. This sample was collected before 2026-04-28 and covers 211 jurisdictions, so it describes what moratoria contain rather than all 416 instruments. Geocoded coordinates were triple-checked across 89 verifications with zero confirmed errors. <a href="docs/methodology.html">Full methodology →</a> · <a href="docs/codebook.html">Codebook</a> · <a href="docs/known-gaps.html">Known gaps</a></p>
+  <p>We collect the primary documents first - ordinances, resolutions, board minutes - then code them. The corpus runs to roughly 4,600 files gathered across all 50 states. 348 moratorium texts have been read line by line against a 44-clause taxonomy; that sample predates 28 April 2026 and covers 211 jurisdictions, so it describes what moratoria contain rather than all 416 of them. Coordinates were checked three ways across 89 verifications, with no confirmed errors. Where we could not confirm something, the row says so. <a href="docs/methodology.html">Full methodology &rarr;</a> &middot; <a href="docs/codebook.html">Codebook</a> &middot; <a href="docs/known-gaps.html">Known gaps</a></p>
 </section>
 
 <section>
   <h2>Related projects by Michael Bommarito</h2>
-  <p>This dataset is one of several public resources tracking the U.S. data center buildout and its community impacts.</p>
+  <p>Other public resources on the U.S. data center buildout and what it does to the communities that host it.</p>
   <div class="grid-3">
     <div class="card">
       <h3><a href="https://servercountry.org/">servercountry.org</a></h3>
@@ -526,7 +666,7 @@
 
 <section>
   <h2>Status &amp; contributions</h2>
-  <p>This is <strong>v2026.04.2</strong>. Found a moratorium we missed, or an error to correct? <a href="https://github.com/mjbommar/moratorium-data-2026/issues/new/choose">Open an issue</a> on GitHub. Refreshes are roughly quarterly while the moratorium wave is active.</p>
+  <p>This release is <strong>v2026.07</strong>, current as of 31 July 2026. Found a moratorium we missed, or an error worth fixing? <a href="https://github.com/mjbommar/moratorium-data-2026/issues/new/choose">Open an issue</a> and we will take it up in the next refresh, which runs roughly quarterly while the wave lasts.</p>
 </section>
 
 </main>

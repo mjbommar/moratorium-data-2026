@@ -36,6 +36,12 @@ VERIFY_RE = re.compile(r"\[VERIFY", re.IGNORECASE)
 
 # Human-facing label for the current release; bump with the release.
 RELEASE_LABEL = "July 2026"
+RELEASE_DATE = "31 July 2026"
+
+NUMBER_WORDS = {
+    10: "Ten", 11: "Eleven", 12: "Twelve", 13: "Thirteen",
+    14: "Fourteen", 15: "Fifteen",
+}
 
 SLUG = {
     "District of Columbia": "district-of-columbia",
@@ -112,58 +118,61 @@ CHANGES_END = "<!-- END whats-changed -->"
 
 
 def changes_section(f: dict) -> str:
-    """The 'what changed since April' block.
+    """The release-notes block.
 
-    Delimited by HTML comments so it can be regenerated in place without
-    disturbing the surrounding hand-written page.
+    Delimited by HTML comments so it regenerates in place. Copy follows the
+    house style in ../book-template/docs/guides/STYLE.md: front-loaded claims,
+    active voice, varied sentence length, no filler transitions.
     """
+    unswept = 50 - f["swept_count"]
     return f"""{CHANGES_START}
-<section>
-  <h2>What changed between the April and July 2026 updates</h2>
-  <p>The inventory grew from <strong>222</strong> to <strong>{f['rows']}</strong> instruments and from
-  <strong>30</strong> to <strong>{f['states']}</strong> states. Most of that growth is <em>coverage</em>, not a sudden
-  surge: this release was the first to sweep states month by month rather than
-  opportunistically. Read {f['rows']} as a floor, not a count.</p>
+<section class="release-notes">
+  <div class="stamp">Release v2026.07 &middot; 31 July 2026</div>
+  <h2>What changed since April</h2>
+  <p class="lede">The inventory grew from 222 instruments to {f['rows']}, across {f['states']} states
+  instead of 30. Method explains most of that jump. This is the first release to sweep
+  states month by month, so read {f['rows']} as a floor.</p>
 
   <h3>New activity</h3>
   <ul>
-    <li><strong>{f['window_adoptions']} instruments were adopted between 2026-05-01 and 2026-07-31.</strong>
-      June was the single busiest month we have recorded.</li>
-    <li><strong>Large cities entered the pattern.</strong> Seattle (emergency ordinance, June 9),
-      Cleveland (14-1, July 15), Minneapolis, Denver, Charlotte, and Montgomery County, MD
-      (18-month pause plus a hyperscale ban, July 28). Durham city and Durham county each
-      adopted their own.</li>
-    <li><strong>Five states entered the dataset for the first time:</strong> Florida, Nevada,
-      New Mexico, South Carolina, and Texas.</li>
+    <li><strong>{f['window_adoptions']} moratoria were adopted between May 1 and July 31.</strong>
+      June accounted for 80 of them, the busiest month on record.</li>
+    <li><strong>Big cities joined in.</strong> Seattle passed an emergency ordinance on June 9.
+      Cleveland followed on July 15 by a 14-1 vote, after committee cut the term from twelve
+      months to three. Minneapolis, Denver, Charlotte, and Montgomery County, Maryland all
+      acted. Durham city and Durham County each passed their own.</li>
+    <li><strong>Five states appear here for the first time:</strong> Florida, Nevada, New Mexico,
+      South Carolina, and Texas.</li>
   </ul>
 
-  <h3>What happened to existing moratoria</h3>
+  <h3>What happened to the older ones</h3>
   <ul>
-    <li><strong>Extensions were the most common outcome.</strong> DeKalb County, GA voted its
-      permanent ordinance down and instead extended its pause to March 2027; Prince George's
-      County, MD renewed for two more years.</li>
-    <li><strong>Nine converted into permanent regulations</strong> - among them Griffin and Polk
-      County, GA; Montour County, PA; Brevard, NC; and St. Charles Parish, LA.</li>
-    <li><strong>Six lapsed with nothing adopted</strong>, including La Grange, KY and Waterville, OH.</li>
-    <li><strong>A few were defeated or undone.</strong> Lowell Township, MI rejected a moratorium 2-5;
-      Hill County, TX rescinded one after a $100M developer lawsuit; Oliver County, ND repealed
-      its third-phase moratorium seven weeks in.</li>
+    <li><strong>Extension is the usual outcome.</strong> DeKalb County, Georgia voted its permanent
+      ordinance down on June 23, then pushed the pause out to March 2027. Prince George's
+      County, Maryland renewed for two more years.</li>
+    <li><strong>Nine became permanent rules</strong> - among them Griffin and Polk County in
+      Georgia, Montour County in Pennsylvania, Brevard in North Carolina, and St. Charles
+      Parish in Louisiana.</li>
+    <li><strong>Six simply lapsed.</strong> La Grange, Kentucky and Waterville, Ohio let theirs
+      run out with nothing ready to replace them.</li>
+    <li><strong>A few went the other way.</strong> Lowell Township, Michigan voted a moratorium
+      down 2-5. Hill County, Texas repealed one after a developer sued for $100 million.
+      Oliver County, North Dakota repealed its third pause seven weeks in.</li>
   </ul>
 
   <h3>State legislation</h3>
-  <p>All <strong>{f['bills']}</strong> tracked bills now carry a researched final disposition, and
-  <strong>{f['bills_enacted']}</strong> are enacted. The 2026 session converged on
-  <em>ratepayer protection and cost allocation</em> rather than outright bans - New Jersey's
-  large-load tariff act (signed July 7), Oklahoma's Data Center Customer Protection Act,
-  Maryland's Utility RELIEF Act, and Idaho's 50 MW "no harm" test. Florida cut the other way,
-  preserving local land-use authority over large-load customers.</p>
+  <p>All {f['bills']} tracked bills now carry a final disposition, and {f['bills_enacted']} are law.
+  Legislatures went after cost allocation more than siting. New Jersey signed its large-load
+  tariff act on July 7. Oklahoma passed a Data Center Customer Protection Act, Maryland the
+  Utility RELIEF Act, and Idaho now requires a "no harm" test for any new load above 50
+  megawatts. Florida moved the opposite way and protected local land-use authority.</p>
 
   <h3>How to read the coverage</h3>
-  <p>{f['swept_count']} states were swept systematically for May through July; the remaining
-  {50 - f['swept_count']} were not, and their counts for that window are lower bounds. Florida held one row
-  before its sweep was converted and {f['fl_rows']} after - the state did not change, only our looking did.
-  Five swept states genuinely recorded no local adoptions in the window, which is a finding
-  rather than a gap. See <a href="docs/known-gaps.html">known gaps</a> for the full accounting.</p>
+  <p>{f['swept_count']} states got the month-by-month sweep. The other {unswept} did not, so their
+  May-July counts are floors. Florida shows why: it held one row before its sweep and
+  {f['fl_rows']} after. The state did not change. Our looking did. Five swept states recorded no
+  local adoptions at all - a finding worth as much as a count.
+  <a href="docs/known-gaps.html">Known gaps</a> has the full accounting.</p>
 </section>
 {CHANGES_END}"""
 
@@ -172,6 +181,13 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
     """(label, regex, replacement). Each regex must match exactly once."""
     top_n = len(f["top"])
     share = round(sum(n for _, n in f["top"]) * 100 / f["rows"])
+    # Prose reads better as a fraction than a percentage at this precision.
+    share_phrase = (
+        "four in five" if share >= 78 else
+        "three in four" if share >= 72 else
+        "two in three" if share >= 63 else
+        f"{share} percent"
+    )
     return [
         ("meta description",
          r'(<meta name="description" content="Open data and a 116-page working paper on )\d+( local-government moratoria)',
@@ -182,9 +198,10 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
         ("og:description",
          r'(<meta property="og:description" content=")\d+( moratoria across )\d+( states)',
          rf"\g<1>{f['rows']}\g<2>{f['states']}\g<3>"),
-        ("subtitle date",
-         r'(across the United States\. Updated )[A-Z][a-z]+ \d{4}(\.</p>)',
-         rf"\g<1>{RELEASE_LABEL}\g<2>"),
+        # The date lives in the hero eyebrow now, not the subtitle.
+        ("hero eyebrow date",
+         r'(<div class="eyebrow"><span class="dot"></span>Updated )[^<]*(</div>)',
+         rf"\g<1>{RELEASE_DATE} &middot; v2026.07\g<2>"),
         ("stat-total",
          r'(<div class="num" id="stat-total">)\d+(</div>)',
          rf"\g<1>{f['rows']}\g<2>"),
@@ -194,6 +211,9 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
         ("stat-pending",
          r'(<div class="num" id="stat-pending">)\d+(</div>)',
          rf"\g<1>{f['pending']}\g<2>"),
+        ("stat-total delta",
+         r'(<div class="num" id="stat-total">\d+</div>)(?:\s*<div class="delta">[^<]*</div>)?',
+         rf'\g<1>\n    <div class="delta">was 222 in April</div>'),
         ("stat-past",
          r'(<div class="num" id="stat-past">)\d+(</div>)',
          rf"\g<1>{f['past']}\g<2>"),
@@ -207,11 +227,10 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
         ("top-states heading",
          r"(<h2>Top )\d+( states by moratorium count</h2>)",
          rf"\g<1>{top_n}\g<2>"),
-        # Matches both the original hand-written phrasing ("more than four-fifths")
-        # and this script's own output, so re-running is a no-op.
         ("top-states lead",
-         r"These (?:\w+|\d+) states account for (?:more than [\w-]+|about \d+ percent) of all identified instruments\.",
-         f"These {top_n} states account for about {share} percent of all identified instruments."),
+         r"(?:These|Thirteen|\w+) states hold roughly [\w -]+ of the instruments we have found\.",
+         f"{NUMBER_WORDS.get(top_n, str(top_n))} states hold roughly {share_phrase} of the "
+         f"instruments we have found."),
         ("top-states rows",
          r'(<div class="top-states">\n)(?:.*?\n)*?(  </div>)',
          lambda: top_states_block(f["top"]) + r"\n\g<2>"),
@@ -221,6 +240,14 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
         ("csv row count",
          r"(The )\d+(-row inventory as a CSV)",
          rf"\g<1>{f['rows']}\g<2>"),
+        ("timeline caption",
+         r'<p class="caption">(?:A handful of Washington|Washington logged).*?</p>',
+         '<p class="caption">Washington logged a few crypto-mining moratoria in 2018, then the '
+         'country went quiet until 2023. Adoptions climbed through 2025 and broke out in 2026: '
+         'June alone saw 80, the tallest bar on the chart. The driver is consistent - hyperscale '
+         'campus proposals arriving in places whose zoning code has no category for them. '
+         'Source: <a href="data/moratorium_inventory.csv" download>moratorium_inventory.csv</a>, '
+         '<code>date_enacted_iso</code> and <code>sectors</code>.</p>'),
         ("timeline alt text",
          r"(alt=\"Monthly moratorium adoptions, 2018 through )[A-Z][a-z]+ \d{4}(,)",
          rf"\g<1>{RELEASE_LABEL}\g<2>"),
@@ -228,11 +255,16 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
         # 2026-04-28 and covers 211 jurisdictions. Stating that inline stops the
         # two numbers on this page being read as one.
         ("clause cohort caveat",
-         r"\d+ moratorium texts have been read line-by-line and coded against a 44-clause taxonomy\.(?: This sample was collected[^.]*\.)?",
-         f"{f['cohort']} moratorium texts have been read line-by-line and coded against a "
-         f"44-clause taxonomy. This sample was collected before 2026-04-28 and covers "
+         r"\d+ moratorium texts have been read line by line against a 44-clause taxonomy; that "
+         r"sample predates 28 April 2026 and covers \d+ jurisdictions, so it describes what "
+         r"moratoria contain rather than all \d+ of them\.",
+         f"{f['cohort']} moratorium texts have been read line by line against a 44-clause "
+         f"taxonomy; that sample predates 28 April 2026 and covers "
          f"{f['cohort_jurisdictions']} jurisdictions, so it describes what moratoria contain "
-         f"rather than all {f['rows']} instruments."),
+         f"rather than all {f['rows']} of them."),
+        ("release version",
+         r"(This release is <strong>)v[\d.]+(</strong>)",
+         rf"\g<1>v2026.07\g<2>"),
     ]
 
 
@@ -255,9 +287,9 @@ def main() -> int:
             html = html[:start] + block + html[end:]
             applied.append("whats-changed section")
     else:
-        anchor = '<div class="paper-callout">'
+        anchor = '<main>'
         if anchor in html:
-            html = html.replace(anchor, block + "\n\n" + anchor, 1)
+            html = html.replace(anchor, anchor + "\n\n" + block, 1)
             applied.append("whats-changed section (inserted)")
         else:
             missing.append("whats-changed anchor")

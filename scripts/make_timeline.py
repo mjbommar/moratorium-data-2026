@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate site/timeline.svg — monthly stacked bar chart of moratorium adoptions.
 
-X axis: month (2018-01 through 2026-04)
+X axis: month (2018-01 through the latest month present in the data)
 Y axis: number of moratoria adopted that month
 Stacking: by primary sector (data_center, cryptocurrency_mining, battery_storage,
           solar, wind, general)
@@ -83,7 +83,11 @@ def collect() -> tuple[list[str], dict[str, dict[str, int]], list[int]]:
     if not monthly:
         return [], {}, []
 
-    months = list(month_iter(date(2018, 1, 1), date(2026, 4, 1)))
+    # Derive the end month from the data. Hardcoding it silently truncated the
+    # chart at 2026-04 and dropped every adoption in the May-July window.
+    last = max(monthly)
+    last_date = date(int(last[:4]), int(last[5:7]), 1)
+    months = list(month_iter(date(2018, 1, 1), last_date))
     cumulative: list[int] = []
     running = 0
     for m in months:
@@ -112,6 +116,9 @@ def main():
     y_step = 10 if y_max <= 50 else 20
 
     cum_max = cumulative[-1]
+    _MON = ["", "January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"]
+    span_label = f"{_MON[int(months[-1][5:7])]} {months[-1][:4]}"
 
     def x_at(i: int) -> float:
         return pad_l + i * bar_w
@@ -124,7 +131,7 @@ def main():
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
         f'width="100%" height="auto" font-family="ui-sans-serif, system-ui, '
         f'-apple-system, Helvetica, Arial, sans-serif" font-size="12" '
-        f'role="img" aria-label="Monthly moratorium adoptions, 2018 through April 2026">'
+        f'role="img" aria-label="Monthly moratorium adoptions, 2018 through {span_label}">'
     )
     # Background
     parts.append(f'<rect width="{W}" height="{H}" fill="white"/>')
@@ -132,7 +139,7 @@ def main():
     # Title
     parts.append(
         f'<text x="{pad_l}" y="28" font-size="18" font-weight="600" fill="#0f1419">'
-        f'Moratorium adoptions per month, 2018–April 2026</text>'
+        f'Moratorium adoptions per month, 2018-{span_label}</text>'
     )
     parts.append(
         f'<text x="{pad_l}" y="48" font-size="13" fill="#4a5460">'
