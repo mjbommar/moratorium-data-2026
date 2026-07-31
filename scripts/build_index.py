@@ -89,6 +89,12 @@ def facts() -> dict:
     return {
         "rows": len(inv),
         "window_adoptions": window_adoptions,
+        "dated": sum(1 for r in inv if _d(r["date_enacted_iso"])),
+        # The chart bins by month, so a year-only date cannot be plotted.
+        "plotted": sum(
+            1 for r in inv
+            if len((r["date_enacted_iso"] or "")[:7]) == 7 and (r["date_enacted_iso"] or "")[4:5] == "-"
+        ),
         "fl_rows": by_state.get("Florida", 0),
         "bills_enacted": sum(1 for r in leg if r.get("bill_status_category") == "enacted"),
         "cohort": cohort,
@@ -241,13 +247,18 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          r"(The )\d+(-row inventory as a CSV)",
          rf"\g<1>{f['rows']}\g<2>"),
         ("timeline caption",
-         r'<p class="caption">(?:A handful of Washington|Washington logged).*?</p>',
-         '<p class="caption">Washington logged a few crypto-mining moratoria in 2018, then the '
-         'country went quiet until 2023. Adoptions climbed through 2025 and broke out in 2026: '
-         'June alone saw 80, the tallest bar on the chart. The driver is consistent - hyperscale '
-         'campus proposals arriving in places whose zoning code has no category for them. '
-         'Source: <a href="data/moratorium_inventory.csv" download>moratorium_inventory.csv</a>, '
-         '<code>date_enacted_iso</code> and <code>sectors</code>.</p>'),
+         r'<p class="caption">(?:A handful of Washington|Washington logged|Every bar before).*?(?:</p>\s*<p class="source">.*?</p>|</p>)',
+         '<p class="caption">Every bar before 2022 is Washington. Cheap hydro power pulled crypto '
+         'miners into the Columbia Basin, and ten Washington jurisdictions paused them in 2018. '
+         'Then the map went quiet for four years. Data centers restarted it: 7 moratoria in 2023, '
+         '6 in 2024, 59 in 2025, and 294 in the first seven months of 2026. June alone '
+         'accounted for 80.</p>\n'
+         '  <p class="source">Source: <a href="data/moratorium_inventory.csv" download>'
+         'moratorium_inventory.csv</a>, columns <code>date_enacted_iso</code> and '
+         f'<code>sectors</code>. The chart plots {f["plotted"]} of {f["rows"]} instruments. '
+         'It leaves out proposals still awaiting a vote, which have no adoption date, and two '
+         '2018 Washington ordinances known only to the year, which cannot be placed in a '
+         'month.</p>'),
         ("timeline alt text",
          r"(alt=\"Monthly moratorium adoptions, 2018 through )[A-Z][a-z]+ \d{4}(,)",
          rf"\g<1>{RELEASE_LABEL}\g<2>"),

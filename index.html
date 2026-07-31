@@ -313,10 +313,31 @@
     box-shadow: var(--shadow);
   }
   .timeline-wrap .caption {
-    font-size: 13px;
+    font-size: 14px;
     color: var(--ink-soft);
-    margin: 12px 2px 0;
+    margin: 14px 2px 0;
     max-width: var(--measure);
+    line-height: 1.55;
+  }
+  /* The provenance line is a footnote, not part of the argument -- it gets
+     its own weight and a rule so it stops competing with the caption. */
+  .timeline-wrap .source {
+    font-size: 12.5px;
+    color: var(--ink-muted);
+    margin: 8px 2px 0;
+    padding-top: 8px;
+    border-top: 1px solid var(--line);
+    max-width: var(--measure);
+    line-height: 1.5;
+  }
+  code {
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    font-size: .88em;
+    background: var(--plane);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 1px 5px;
+    white-space: nowrap;
   }
 
   /* -------------------------------------------------------- body sections */
@@ -386,6 +407,47 @@
     color: var(--ink);
     max-width: var(--measure);
   }
+
+  /* Prose sections get a surface too. Without it the page reads as cards on
+     top and loose text underneath, which is what it did before. */
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-l);
+    padding: 22px 26px;
+    box-shadow: var(--shadow);
+  }
+  .panel > p:last-child { margin-bottom: 0; }
+  .panel p { max-width: var(--measure); }
+
+  /* The definition is the one thing a first-time visitor must read, so it
+     carries the accent wash rather than the plain surface. */
+  .panel.definition {
+    background: var(--accent-wash);
+    border-color: color-mix(in srgb, var(--accent) 22%, var(--line));
+  }
+  .panel.definition p { color: var(--ink); }
+
+  /* Documentation links were trailing off the end of a paragraph. As a row
+     they read as navigation, which is what they are. */
+  .doclinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid var(--line);
+  }
+  .doclinks a {
+    font-size: 13.5px;
+    font-weight: 550;
+    color: var(--ink);
+    background: var(--plane);
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    padding: 6px 14px;
+  }
+  .doclinks a:hover { border-color: var(--accent); color: var(--accent-ink); text-decoration: none; }
 
   /* ----------------------------------------------------------- link cards */
   .grid-3 {
@@ -534,7 +596,8 @@
 
 <div class="timeline-wrap">
   <img src="site/timeline.svg" alt="Monthly moratorium adoptions, 2018 through July 2026, stacked by primary sector with cumulative-total dashed line." />
-  <p class="caption">Washington logged a few crypto-mining moratoria in 2018, then the country went quiet until 2023. Adoptions climbed through 2025 and broke out in 2026: June alone saw 80, the tallest bar on the chart. The driver is consistent - hyperscale campus proposals arriving in places whose zoning code has no category for them. Source: <a href="data/moratorium_inventory.csv" download>moratorium_inventory.csv</a>, <code>date_enacted_iso</code> and <code>sectors</code>.</p>
+  <p class="caption">Every bar before 2022 is Washington. Cheap hydro power pulled crypto miners into the Columbia Basin, and ten Washington jurisdictions paused them in 2018. Then the map went quiet for four years. Data centers restarted it: 7 moratoria in 2023, 6 in 2024, 59 in 2025, and 294 in the first seven months of 2026. June alone accounted for 80.</p>
+  <p class="source">Source: <a href="data/moratorium_inventory.csv" download>moratorium_inventory.csv</a>, columns <code>date_enacted_iso</code> and <code>sectors</code>. The chart plots 375 of 416 instruments. It leaves out proposals still awaiting a vote, which have no adoption date, and two 2018 Washington ordinances known only to the year, which cannot be placed in a month.</p>
 </div>
 
 <main>
@@ -592,12 +655,12 @@
 
 <section>
   <h2>What is a moratorium?</h2>
-  <p>A moratorium is a temporary pause. A city, county, or township stops accepting or approving a certain kind of development while it writes rules for it. Most run six to twelve months. The trigger is almost always the same: a project arrives that the zoning code has no word for. <a href="docs/FAQ.html">Read the FAQ &rarr;</a></p>
+  <div class="panel definition"><p>A moratorium is a temporary pause. A city, county, or township stops accepting or approving a certain kind of development while it writes rules for it. Most run six to twelve months. The trigger is almost always the same: a project arrives that the zoning code has no word for. <a href="docs/FAQ.html">Read the FAQ &rarr;</a></p></div>
 </section>
 
 <section>
   <h2>Top 13 states by moratorium count</h2>
-  <p>Thirteen states hold roughly four in five of the instruments we have found. Click a state for every moratorium in it, written in plain English.</p>
+  <div class="panel"><p>Thirteen states hold roughly four in five of the instruments we have found. Click a state for every moratorium in it, written in plain English.</p>
   <div class="top-states">
     <div class="row"><a href="states/michigan.html"><strong>Michigan</strong></a><strong>63</strong></div>
     <div class="row"><a href="states/ohio.html"><strong>Ohio</strong></a><strong>53</strong></div>
@@ -613,7 +676,7 @@
     <div class="row"><a href="states/kansas.html"><strong>Kansas</strong></a><strong>11</strong></div>
     <div class="row"><a href="states/alabama.html"><strong>Alabama</strong></a><strong>10</strong></div>
   </div>
-  <p style="margin-top: 12px;"><a href="states/index.html">All 35 states with moratoria →</a></p>
+  <p style="margin-top: 12px;"><a href="states/index.html">All 35 states with moratoria →</a></p></div>
 </section>
 
 <section>
@@ -639,7 +702,7 @@
 
 <section>
   <h2>Methodology</h2>
-  <p>We collect the primary documents first - ordinances, resolutions, board minutes - then code them. The corpus runs to roughly 4,600 files gathered across all 50 states. 348 moratorium texts have been read line by line against a 44-clause taxonomy; that sample predates 28 April 2026 and covers 211 jurisdictions, so it describes what moratoria contain rather than all 416 of them. Coordinates were checked three ways across 89 verifications, with no confirmed errors. Where we could not confirm something, the row says so. <a href="docs/methodology.html">Full methodology &rarr;</a> &middot; <a href="docs/codebook.html">Codebook</a> &middot; <a href="docs/known-gaps.html">Known gaps</a></p>
+  <div class="panel"><p>We collect the primary documents first - ordinances, resolutions, board minutes - then code them. The corpus runs to roughly 4,600 files gathered across all 50 states. 348 moratorium texts have been read line by line against a 44-clause taxonomy; that sample predates 28 April 2026 and covers 211 jurisdictions, so it describes what moratoria contain rather than all 416 of them. Coordinates were checked three ways across 89 verifications, with no confirmed errors. Where we could not confirm something, the row says so. </p><div class="doclinks"><a href="docs/methodology.html">Full methodology</a><a href="docs/codebook.html">Codebook</a><a href="docs/known-gaps.html">Known gaps</a><a href="docs/FAQ.html">FAQ</a></div></div>
 </section>
 
 <section>
@@ -666,7 +729,7 @@
 
 <section>
   <h2>Status &amp; contributions</h2>
-  <p>This release is <strong>v2026.07</strong>, current as of 31 July 2026. Found a moratorium we missed, or an error worth fixing? <a href="https://github.com/mjbommar/moratorium-data-2026/issues/new/choose">Open an issue</a> and we will take it up in the next refresh, which runs roughly quarterly while the wave lasts.</p>
+  <div class="panel"><p>This release is <strong>v2026.07</strong>, current as of 31 July 2026. Found a moratorium we missed, or an error worth fixing? <a href="https://github.com/mjbommar/moratorium-data-2026/issues/new/choose">Open an issue</a> and we will take it up in the next refresh, which runs roughly quarterly while the wave lasts.</p></div>
 </section>
 
 </main>
