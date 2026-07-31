@@ -88,13 +88,14 @@ Utility RELIEF Act (Ch. 353).
 
 ### Coverage caveat — read this before citing the May-July window
 
-The three-month gap is closed by a month-by-month sweep for **15 states**:
+The three-month gap is closed by a month-by-month sweep for **18 states**:
 Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware,
-Florida, Georgia, Hawaii, Idaho, Indiana, Michigan, and Ohio. The sweep for the
-remaining 35 states was still running when this release was cut. Their new instruments in
+Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Michigan, and
+Ohio. The sweep for the remaining 32 states was still running when this release
+was cut. Their new instruments in
 this window entered the dataset opportunistically, as researchers encountered
 them while resolving flagged rows — which is not the same as systematic coverage.
-**Counts for May-July 2026 in the other 35 states are lower bounds and should not
+**Counts for May-July 2026 in the other 32 states are lower bounds and should not
 be read as complete.** See `docs/known-gaps.md`.
 
 Worth separating from that caveat: four of the swept states — Alaska, Delaware,
@@ -105,7 +106,7 @@ from an unswept one, which is why the swept list is stated explicitly.
 
 For scale on what systematic coverage is worth: **Florida held 1 row before its
 sweep was converted and 14 after. Georgia went from 26 to 47.** Neither state
-changed in the world; only our looking did. Applying that pattern to the 35
+changed in the world; only our looking did. Applying that pattern to the 32
 unswept states implies the true national figure is materially higher than 395.
 
 ### What was deliberately NOT refreshed
@@ -245,6 +246,35 @@ resolve, figures are written to `figures/{pdf,svg,png}/`, and PNG output is
 generated natively rather than by an undocumented external conversion step.
 Regenerating also revealed that the committed `tables/*.tex` were stale relative
 to the committed CSV; they are now rebuilt from it.
+
+### The published site
+
+`index.html` is the GitHub Pages landing page and the most public-facing artifact
+here. It had no generator: its counts were hand-maintained, so it still read
+"222 moratoria across 30 states. Updated April 2026" while the inventory had
+nearly doubled. `scripts/build_index.py` now regenerates every number-bearing
+span from the CSVs and is gated by `make check`.
+
+Two presentation bugs came out of actually rendering the page and looking at it,
+neither of which any markup check would have caught:
+
+- **The timeline chart was truncated.** `make_timeline.py` hardcoded its end
+  month at 2026-04, so the chart on the landing page silently dropped every
+  adoption in the May-July window and reported 205 where the data holds 375. The
+  range now derives from the data.
+- **The chart and its caption disagreed by two.** The caption counted rows with a
+  usable date (377); the chart plots rows it can bin to a month (375). Both were
+  right. Entiat and Waterville carry year-only 2018 dates. The caption now
+  reports the plotted figure and names both exclusions.
+
+The page also got a design pass. Light and dark are each stepped against their
+own surface rather than dark being an automatic flip, prose sections sit on
+surfaces instead of bare background, and the stat numbers now wear ink rather
+than status color -- the amber measured 1.79:1 on the light surface, and a
+colored dot beside the label carries the status instead, never alone.
+
+Copy across the landing page follows the house style in
+`book-template/docs/guides/STYLE.md`.
 
 ### Reproducing this release
 

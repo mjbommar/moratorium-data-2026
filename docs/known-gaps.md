@@ -18,18 +18,19 @@ Some primary sources (notably the NC eCourts portal at `portal-nc.tylertech.clou
 date is **2026-07-31**, but the three months since the April snapshot were not
 swept uniformly:
 
-- **15 states were swept systematically**, month by month, for May, June, and
+- **18 states were swept systematically**, month by month, for May, June, and
   July 2026: Alabama, Alaska, Arizona, Arkansas, California, Colorado,
-  Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Indiana, Michigan, and
-  Ohio. Coverage for those states in that window is comprehensive. The
-  machine-readable list is `data/sweep_coverage.json`, mirrored into
-  `summary_stats.json` under `sweep_coverage`.
-- **The other 35 states were not.** Their new instruments from that window
+  Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana,
+  Iowa, Kansas, Michigan, and Ohio. Coverage for those states in that window is
+  comprehensive. Do not hand-maintain this list: it lives in
+  `data/sweep_coverage.json`, is derived by `scripts/update_sweep_coverage.py`,
+  and is mirrored into `summary_stats.json` under `sweep_coverage`.
+- **The other 32 states were not.** Their new instruments from that window
   entered the dataset opportunistically, when a researcher resolving a flagged
   row happened to encounter one. The sweep for those states was still running
   when this release was cut.
 
-**Swept-and-empty is not the same as unswept.** Of the 15 states swept
+**Swept-and-empty is not the same as unswept.** Of the 18 states swept
 systematically, four — Alaska, Delaware, Hawaii, and Idaho — returned **zero**
 local moratorium adoptions across all three months. Arizona returned none at the
 local level either (its only qualifying action was a state tax-incentive freeze,
@@ -38,11 +39,11 @@ findings: someone looked and there was nothing. A state absent from the inventor
 because nobody has swept it is a different thing entirely, and the two cases are
 indistinguishable from the row counts alone.
 
-Treat May-July 2026 counts in the 35 unswept states as **lower bounds**. For
+Treat May-July 2026 counts in the 32 unswept states as **lower bounds**. For
 calibration on what the difference is worth: Florida had 1 row before its sweep
 was converted and 14 after; Georgia went from 26 to 47. Cross-state comparisons
-that include this window will understate the 35 unswept states, and time-series
-analyses should either stop at 2026-04-28 or restrict to the 15 swept states.
+that include this window will understate the 32 unswept states, and time-series
+analyses should either stop at 2026-04-28 or restrict to the 18 swept states.
 
 ### Extension and rescission events after the cutoff
 

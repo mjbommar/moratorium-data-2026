@@ -14,7 +14,14 @@ You don't need any of this to **use** the data — just download the CSVs from [
 | `normalize_vocab.py` | Idempotent normalizer for closed-vocabulary spellings. Reports every cell it changes; refuses to coerce values it has no declared mapping for. |
 | `build_worklist.py` | Emits the set of rows needing research as of a given date (expired-but-in-force, stale pending, `[VERIFY]` backlog, unverified dates). |
 | `make_packets.py` / `make_legislation_packets.py` | Split a worklist into per-state research packets. |
-| `apply_research.py` | The only script that writes research findings into the inventory. Requires explicit answer-file paths, refuses to apply a change whose `from` value no longer matches the CSV, and writes an audit log. |
+| `apply_research.py` / `apply_legislation.py` | The only scripts that write research findings into the CSVs. Both require explicit answer-file paths, refuse any change whose `from` value no longer matches the file, and write an audit log to `work/audit/`. |
+| `reconcile_durations.py` | Enforces the codebook's typed-column invariants: `duration_days` is set if and only if `duration_kind` is `fixed_days`, and `date_enacted_uncertainty` agrees with the precision of `date_enacted_iso`. |
+| `apply_geo_overrides.py` | Declared coordinate fixes for jurisdictions no geocoder resolves correctly, each carrying the evidence that settles it. Retire an entry when the geocoder learns to handle its case. |
+| `update_sweep_coverage.py` | Derives `data/sweep_coverage.json` from the research repo, so the list of systematically-swept states tracks the actual sweep rather than being hand-maintained. |
+| `reconcile_sibling_tracker.py` | Compares the inventory against the sibling data-center project's state rollup and reports jurisdictions it names that we have no row for. Produces leads; never writes. |
+| `sync_upstream.py` | Pushes the canonical inventory back to the private working repository, which holds a mirror rather than a second source of truth. |
+| `build_index.py` | Regenerates the number-bearing spans of `index.html`, the GitHub Pages landing page, including the release-notes block. Anchored replacements only; the hand-tuned layout is untouched. |
+| `check_docs_numbers.py` | Verifies every headline number quoted in README, codebook, known-gaps, and CHANGELOG against the CSVs. `--fix` updates just the digits. |
 | `fetch_basemap.py` | Downloads the Census `cb_2023_us_state_5m` state boundary file the maps draw over (not vendored; ~1 MB). |
 | `geocode_inventory.py` | Fills `latitude`/`longitude` for rows that lack them. |
 | `make_timeline.py`, `update_state_counts.py`, `build_site.py` | Regenerate `site/timeline.svg`, the per-state Markdown counts, and the HTML site. |
