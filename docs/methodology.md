@@ -205,8 +205,9 @@ The original document corpus (~12 GB) is not in this repository (it's hosted sep
 
 | Step | Tool | Model |
 |------|------|-------|
-| Document discovery | OpenAI Codex CLI with web-search | `gpt-5.5` at medium reasoning effort |
-| State-month chronology | OpenAI Codex CLI with web-search | `gpt-5.5` at medium reasoning effort |
+| Document discovery (through v2026.04) | OpenAI Codex CLI with web-search | `gpt-5.5` at medium reasoning effort |
+| State-month chronology (v2026.07 sweep) | OpenAI Codex CLI with web-search | `gpt-5.6-sol` at high reasoning effort |
+| Status, verification, and legislation research (v2026.07) | Claude Code subagents | `claude-sonnet-5` |
 | SerpAPI ordinance search | `google-search-results` Python package | n/a |
 | Document download | Playwright + stealth wrappers | n/a |
 | OCR (image-based PDFs) | EasyOCR + Tesseract | n/a |
