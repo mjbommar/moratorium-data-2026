@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Maine as of April 2026.
 
-**5 instruments** — 5 in force, 0 pending, 0 past. Activity level: **Medium**.
+**6 instruments** — 6 in force, 0 pending, 0 past. Activity level: **Medium**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

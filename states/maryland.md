@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Maryland as of April 2026.
 
-**6 instruments** — 4 in force, 2 pending, 0 past. Activity level: **Medium**.
+**9 instruments** — 5 in force, 4 pending, 0 past. Activity level: **Medium**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

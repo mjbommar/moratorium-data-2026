@@ -1,0 +1,64 @@
+{
+  "state_abbrev": "TX",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "Texas",
+      "jurisdiction": "Austin County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Reportedly 2026-07-27, Commissioners Court unanimous vote, following a July 13 public hearing and extended July 27 discussion",
+      "date_enacted_iso": "2026-07-27",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Until a comprehensive health and safety review is complete, per the posted draft order; no fixed term confirmed",
+      "duration_days": null,
+      "duration_kind": "until_event",
+      "legal_basis": "Reportedly a countywide temporary pause on new AI data centers and battery energy storage systems, suspending county permits, plan reviews, inspections, and related approvals in unincorporated areas, with limited exemptions; no signed July 27 order or minutes were located as of 2026-07-31, only the hearing notice and an unsigned draft order",
+      "trigger": "Comprehensive health and safety review of AI data centers and battery energy storage systems",
+      "trigger_categories": [
+        "fire_safety",
+        "environmental",
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center",
+        "battery_storage"
+      ],
+      "current_status": "Reported adopted per Wharton Post and Austin County News Online; the county website provided only the hearing notice and an unsigned draft order as of 2026-07-31",
+      "enacted_status": "pending",
+      "affected_projects": "",
+      "outcome": "",
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "url": "https://newtools.cira.state.tx.us/upload/page/0154/NOTICE%20OF%20PUBLIC%20HEARING%20BESS%20Data%20Center%20Moratorium%207.13.26.pdf",
+          "source_type": "other",
+          "publisher": "Austin County",
+          "document_date": "2026-07-13",
+          "supports": "Notice of public hearing on the proposed BESS and data center moratorium"
+        },
+        {
+          "url": "https://www.austincounty.com/upload/page/0154/Austin%20County%20BESS%20and%20Data%20Center%20Order%20DRAFT%204935-9229-1730.pdf",
+          "source_type": "other",
+          "publisher": "Austin County",
+          "supports": "Unsigned draft order text for the proposed countywide pause on data centers and battery energy storage systems"
+        },
+        {
+          "url": "https://whartonpost.com/2026/07/27/austin-county-approves-ai-data-center-moratorium/",
+          "source_type": "news",
+          "publisher": "Wharton Post",
+          "document_date": "2026-07-27",
+          "supports": "Reports Commissioners Court unanimous approval of a temporary pause on new AI data centers and BESS"
+        },
+        {
+          "url": "https://austincountynewsonline.com/austin-county-residents-commissioners-and-cleanspark-debate-proposed-data-center-and-bess-moratorium/",
+          "source_type": "news",
+          "publisher": "Austin County News Online",
+          "supports": "Reports on commissioner and resident debate over the proposed moratorium"
+        }
+      ],
+      "notes": "[VERIFY] Final scope, effective date, treatment of pending projects, and duration remain unverified; the only county documents located as of 2026-07-31 are the hearing notice and an unsigned draft order. enacted_status=pending and duration_kind=until_event reflect that a signed final order was not located. Hays County's June 23 Emergency Water Protection Review Period was excluded from this pass: it explicitly does not halt statutory permit processing or impose a data center ban, only deferring discretionary tax-abatement, development-agreement, and variance approvals for high-water-use projects, matching the subsidy/tax-incentive-freeze exclusion rule rather than a Chapter 212 Subchapter E development moratorium."
+    }
+  ]
+}

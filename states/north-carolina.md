@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in North Carolina as of April 2026.
 
-**24 instruments** — 17 in force, 1 pending, 6 past. Activity level: **High**.
+**40 instruments** — 32 in force, 2 pending, 6 past. Activity level: **High**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

@@ -193,7 +193,7 @@
   <h1 id="codebook">Codebook</h1>
 <p>This document defines every column in every data file. Read this before doing analysis.</p>
 <h2 id="datamoratorium_inventorycsv"><code>data/moratorium_inventory.csv</code></h2>
-<p><strong>One row per moratorium instrument.</strong> 416 rows total (v2026.07).</p>
+<p><strong>One row per moratorium instrument.</strong> 533 rows total (v2026.07).</p>
 <table>
 <thead>
 <tr>
@@ -333,12 +333,12 @@
 <h3 id="enacted_status-values"><code>enacted_status</code> values</h3>
 <p>This is the column most users want for filtering. The values:</p>
 <ul>
-<li><strong><code>active</code></strong> — moratorium is currently in force (~42 rows)</li>
-<li><strong><code>extended</code></strong> — moratorium was extended past its original sunset and is currently in force (~42 rows)</li>
+<li><strong><code>active</code></strong> — moratorium is currently in force (~44 rows)</li>
+<li><strong><code>extended</code></strong> — moratorium was extended past its original sunset and is currently in force (~44 rows)</li>
 <li><strong><code>replaced</code></strong> — moratorium has expired and a permanent ordinance has been adopted in its place (~37 rows)</li>
 <li><strong><code>expired</code></strong> — moratorium has lapsed without a documented replacement (~20 rows)</li>
 <li><strong><code>rescinded</code></strong> — moratorium was affirmatively repealed before its expiration date (~6 rows)</li>
-<li><strong><code>pending</code></strong> — moratorium has been proposed but is not yet in force (~26 rows; e.g., a public hearing is scheduled but the vote hasn't happened)</li>
+<li><strong><code>pending</code></strong> — moratorium has been proposed but is not yet in force (~35 rows; e.g., a public hearing is scheduled but the vote hasn't happened)</li>
 </ul>
 <p>To filter to "moratoria currently in force":</p>
 <pre><code class="language-python">in_force = df[df[&quot;enacted_status&quot;].isin([&quot;active&quot;, &quot;extended&quot;])]
@@ -437,13 +437,13 @@ records the governing session context per state in the audit log under
 <p>A single JSON object with top-level aggregates. Useful for embedding live counts on a page or programmatic comparison across releases.</p>
 <p>Top-level keys:</p>
 <ul>
-<li><code>total_local_moratoria</code>: 416 — total rows in the inventory</li>
+<li><code>total_local_moratoria</code>: 533 — total rows in the inventory</li>
 <li><code>total_state_bills</code>: 438 — total rows in state_legislation.csv</li>
-<li><code>states_with_moratoria</code>: 35</li>
-<li><code>states_without_moratoria</code>: 15</li>
-<li><code>moratoria_with_verify_tags</code>: 140 — rows with at least one <code>[VERIFY]</code> flag remaining in any field (matches <code>has_verify_tags = True</code> in the inventory CSV)</li>
+<li><code>states_with_moratoria</code>: 42</li>
+<li><code>states_without_moratoria</code>: 8</li>
+<li><code>moratoria_with_verify_tags</code>: 180 — rows with at least one <code>[VERIFY]</code> flag remaining in any field (matches <code>has_verify_tags = True</code> in the inventory CSV)</li>
 <li><code>moratoria_without_verify_tags</code>: 232</li>
-<li><code>enacted_status_breakdown</code>: <code>{active, extended, replaced, expired, rescinded, pending}</code> — the breakdown of the 416 rows by <code>enacted_status</code></li>
+<li><code>enacted_status_breakdown</code>: <code>{active, extended, replaced, expired, rescinded, pending}</code> — the breakdown of the 533 rows by <code>enacted_status</code></li>
 <li><code>sweep_coverage</code>: which states received a systematic month-by-month sweep for the release's window, plus <code>swept_states_with_no_adoptions_in_window</code>. <strong>Read this before interpreting a state's absence.</strong> A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that <code>swept_states_with_no_adoptions_in_window</code> is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from <a href="../data/sweep_coverage.json"><code>data/sweep_coverage.json</code></a></li>
 <li><code>top_states_by_moratoria</code>: list of <code>[state_name, count]</code> pairs, top 15</li>
 <li><code>top_states_by_bills</code>: list of <code>[state_name, bill_count]</code> pairs, top 15</li>

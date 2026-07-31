@@ -1,0 +1,115 @@
+{
+  "state_abbrev": "NM",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "New Mexico",
+      "jurisdiction": "Santa Fe County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-06-30, Board of County Commissioners, 5-0 vote",
+      "date_enacted_iso": "2026-06-30",
+      "date_enacted_uncertainty": "exact",
+      "duration": "18 months, immediate; amended during the meeting from an original 12-month proposal",
+      "duration_days": 540,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Ordinance 2026-06 (Santa Fe County), an immediate 18-month moratorium on data center development, amended at adoption to lower the coverage threshold from 100 MW to 1 MW",
+      "trigger": "Development of permanent standards addressing groundwater, electricity and grid reliability, noise, waste heat, environmental justice, monitoring, and public participation",
+      "trigger_categories": [
+        "water",
+        "grid_energy",
+        "noise",
+        "environmental",
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-07-31; the county stated no data center proposal was then pending in Santa Fe County",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.santafecountynm.gov/documents/ordinances/Ordinance_2026-06.pdf",
+          "source_type": "ordinance",
+          "publisher": "Santa Fe County",
+          "document_date": "2026-06-30",
+          "supports": "Original signed Ordinance 2026-06 establishing an 18-month data center moratorium"
+        },
+        {
+          "url": "https://www.santafecountynm.gov/documents/agendas/meetings/BCC_Summary_06-30-2026.pdf",
+          "source_type": "minutes",
+          "publisher": "Santa Fe County",
+          "document_date": "2026-06-30",
+          "supports": "Official meeting summary recording the 5-0 vote to adopt Ordinance 2026-06"
+        },
+        {
+          "url": "https://www.santafecountynm.gov/news/detail/santa-fe-county-approves-18-month-moratorium-on-data-centers",
+          "source_type": "other",
+          "publisher": "Santa Fe County",
+          "document_date": "2026-06-30",
+          "supports": "Official county release describing the adopted 18-month moratorium"
+        }
+      ],
+      "notes": "18-month term converted to 540 days using a 30-day-month convention. This is a new, separate instrument from Santa Fe County's May 26 publication-authorization vote, which did not itself enact a moratorium."
+    },
+    {
+      "state": "New Mexico",
+      "jurisdiction": "Sierra County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Reportedly 2026-07-21, Board of County Commissioners, unanimous vote amending agenda item Resolution 2026-51 during the meeting",
+      "date_enacted_iso": "2026-07-21",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Reportedly 18 months",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "legal_basis": "Reportedly an 18-month moratorium blocking data centers on private land, adopted by amending Resolution 2026-51; the posted pre-meeting packet contains only a draft resolution expressing opposition to large-scale data centers with no operative moratorium language, and no signed final instrument or minutes were posted as of 2026-07-31",
+      "trigger": "Concern about a possible data center at Spaceport America",
+      "trigger_categories": [
+        "specific_project"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Reported by two news outlets as adopted on 2026-07-21; no signed county instrument or minutes located as of 2026-07-31. The pre-meeting packet contained only a non-operative draft resolution, which also states the county lacks regulatory authority over Spaceport America property itself",
+      "enacted_status": "pending",
+      "affected_projects": "",
+      "outcome": "",
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "url": "https://www.sierraco.org/wp-content/uploads/county-commission-agenda-2026-07-21.pdf",
+          "source_type": "agenda",
+          "publisher": "Sierra County",
+          "document_date": "2026-07-21",
+          "supports": "Agenda for the 2026-07-21 Commission meeting listing the moratorium resolution item"
+        },
+        {
+          "url": "https://www.sierraco.org/wp-content/uploads/commission-meeting-packet-2026-07-21.pdf",
+          "source_type": "agenda",
+          "publisher": "Sierra County",
+          "document_date": "2026-07-21",
+          "supports": "Pre-meeting packet containing only a draft resolution opposing data centers, with no operative moratorium language"
+        },
+        {
+          "url": "https://sourcenm.com/2026/07/22/new-mexico-county-adopts-data-center-moratorium-as-residents-protest-spaceport-proposal/",
+          "source_type": "news",
+          "publisher": "Source NM",
+          "document_date": "2026-07-22",
+          "supports": "Reports commissioners unanimously adopted an 18-month moratorium blocking data centers on private land"
+        },
+        {
+          "url": "https://sierracountycitizen.org/sierra-county-commissioners-unanimously-endorse-18-month-moratorium-to-thwart-data-center-at-spaceport-america/",
+          "source_type": "news",
+          "publisher": "Sierra County Citizen",
+          "document_date": "2026-07-21",
+          "supports": "Reports unanimous endorsement of an 18-month moratorium to prevent a data center near Spaceport America"
+        }
+      ],
+      "notes": "[VERIFY] The chronology source explicitly flags that final text, precise scope, effective date, and legal form must be verified before treating the draft as an enacted moratorium; no post-meeting minutes or signed instrument were located as of 2026-07-31. Included as a candidate given two independent news reports of adoption, but confidence, enacted_status=pending, and duration_kind=unknown all reflect the unresolved primary-source gap. Do not merge as an active row without confirming the final instrument."
+    }
+  ]
+}

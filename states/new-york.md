@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in New York as of April 2026.
 
-**7 instruments** — 4 in force, 1 pending, 2 past. Activity level: **Medium**.
+**15 instruments** — 12 in force, 1 pending, 2 past. Activity level: **Medium**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

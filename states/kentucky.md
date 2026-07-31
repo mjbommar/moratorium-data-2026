@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Kentucky as of April 2026.
 
-**9 instruments** — 6 in force, 1 pending, 2 past. Activity level: **Low**.
+**15 instruments** — 12 in force, 1 pending, 2 past. Activity level: **Low**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

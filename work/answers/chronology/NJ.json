@@ -1,0 +1,106 @@
+{
+  "state_abbrev": "NJ",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "New Jersey",
+      "jurisdiction": "Galloway Township",
+      "jurisdiction_type": "Township",
+      "date_enacted": "2026-06-16 (date set for final passage per the June-published introduction notice for Ordinance 2172-2026); the official final-passage affidavit was posted 2026-07-15 and does not itself state the adoption date",
+      "date_enacted_iso": "2026-06-16",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months (180 days) while the Planning Board and Environmental Commission study data centers",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Ordinance 2172-2026 (Township of Galloway), a temporary moratorium on the approval, development, construction, expansion, and operation of data centers, introduced 2026-05-12 and finally passed per the township's own final-passage affidavit",
+      "trigger": "Planning Board and Environmental Commission to study data center land use and make recommendations before further approvals proceed",
+      "trigger_categories": [
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Reported as finally passed; active as of 2026-07-31 absent further action found in sources reviewed",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.gtnj.org/index.php/i-want-to/find-council-meeting-agendas/2026-1/2815-5-12-26-agenda/file",
+          "source_type": "agenda",
+          "publisher": "Galloway Township",
+          "document_date": "2026-05-12",
+          "supports": "May 12, 2026 council agenda showing introduction and first-reading passage of Ordinance 2172-2026"
+        },
+        {
+          "url": "https://www.gtnj.org/index.php/i-want-to/find-a-form-or-document/public-notices-1/municipal-clerk-notices/2871-introduction-ordinance-2172-2026-data-centers/file",
+          "source_type": "other",
+          "publisher": "Galloway Township",
+          "supports": "Official public notice of introduction of Ordinance 2172-2026, setting June 16, 2026 for final passage"
+        },
+        {
+          "url": "https://www.gtnj.org/index.php/departments/public-notices",
+          "source_type": "other",
+          "publisher": "Galloway Township",
+          "document_date": "2026-07-15",
+          "supports": "Township public notices page hosting the final-passage affidavit for Ordinance 2172-2026"
+        }
+      ],
+      "notes": "[VERIFY] The final-passage affidavit does not itself state the adoption date; 2026-06-16 is the date the introduction notice set for final passage. This is a temporary, fixed-duration moratorium ordinance enacted on two readings (introduction 5/12, final passage set for 6/16), distinct from a permanent zoning amendment, per the state research note."
+    },
+    {
+      "state": "New Jersey",
+      "jurisdiction": "Sayreville",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-07-20, Borough Council second and final reading following a public hearing",
+      "date_enacted_iso": "2026-07-20",
+      "date_enacted_uncertainty": "exact",
+      "duration": "18 months from adoption; the ordinance also requires publication and mayoral approval, and the copy reviewed does not show the mayoral approval date",
+      "duration_days": 540,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Ordinance 15-26 (Borough of Sayreville), a temporary prohibition on data center development in every zone, including the Hercules Redevelopment Area, for 18 months, introduced 2026-06-15 and adopted on final reading 2026-07-20",
+      "trigger": "Study of electric-grid, water, stormwater, fiscal, land-use, noise, and environmental effects of data center development",
+      "trigger_categories": [
+        "grid_energy",
+        "water",
+        "noise",
+        "environmental",
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Enacted per the borough's official adoption notice; active as of 2026-07-31",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.sayreville.com/documents/Ad-adoption-15-26.pdf",
+          "source_type": "other",
+          "publisher": "Borough of Sayreville",
+          "document_date": "2026-07-20",
+          "supports": "Official notice of adoption of Ordinance 15-26 on second and final reading, 2026-07-20"
+        },
+        {
+          "url": "https://www.sayreville.com/uppages/ORD%5F%2015%2D26%20BANNING%20DATA%20CENTERS%20FOR%2018%20MONTHS%281%29%2EPDF",
+          "source_type": "ordinance",
+          "publisher": "Borough of Sayreville",
+          "supports": "Full text of Ordinance 15-26 establishing an 18-month prohibition on data center development"
+        },
+        {
+          "url": "https://www.sayreville.com/documents/07-20-26%20Agenda.pdf",
+          "source_type": "agenda",
+          "publisher": "Borough of Sayreville",
+          "document_date": "2026-07-20",
+          "supports": "July 20, 2026 council agenda listing second reading and adoption of Ordinance 15-26"
+        }
+      ],
+      "notes": "18-month term converted to 540 days using a 30-day-month convention (no exact calendar end date is stated in the ordinance text reviewed). [VERIFY] The ordinance requires publication and mayoral approval and the reviewed copy does not show the mayoral approval date. jurisdiction_type mapped to 'Town' because the schema enum has no 'Borough' option; the source designates Sayreville as a Borough. Despite the 'banning' title, the ordinance is time-limited (18 months) and explicitly tied to a study process, which places it in the moratorium category rather than the permanent-ban exclusion."
+    }
+  ]
+}

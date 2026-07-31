@@ -1,0 +1,131 @@
+{
+  "state_abbrev": "NE",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "Nebraska",
+      "jurisdiction": "Seward County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Board of Commissioners adopted Resolution 3937 on 2026-06-30, effective immediately, with three affirmative votes and two members absent.",
+      "date_enacted_iso": "2026-06-30",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Pauses data center construction, building permits, conditional use permits, and any other project authorization. Expires at the earlier of 12 months or the effective date of new data center zoning regulations, unless extended by a separate resolution.",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Resolution 3937, Board of County Commissioners",
+      "trigger": "County had discussed a draft moratorium after a commissioner proposed a pause; adopted while the county develops permanent data center zoning regulations.",
+      "trigger_categories": [
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-07-31; up-to-12-month moratorium effective 2026-06-30, or earlier upon adoption of new zoning regulations.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://sewardcountyne.gov/wp-content/uploads/sites/50/2026/06/jun3026.pdf",
+          "source_type": "minutes",
+          "publisher": "Seward County",
+          "document_date": "2026-06-30",
+          "supports": "Official meeting minutes reproducing the signed text of Resolution 3937"
+        },
+        {
+          "url": "https://www.1011now.com/2026/06/30/seward-county-approves-one-year-pause-data-center-permits-construction/",
+          "source_type": "news",
+          "supports": "Contemporaneous reporting confirming adoption"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "state": "Nebraska",
+      "jurisdiction": "Cherry County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Board of Commissioners voted 2-1 on 2026-07-14 to impose a moratorium, effective that day.",
+      "date_enacted_iso": "2026-07-14",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six-month moratorium on all conditional use permits (broader than data centers), adopted amid board discussion focused on the county's lack of data center provisions. No separate ordinance or resolution text was located; recorded as a motion in the minutes.",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Board of Commissioners motion (2-1 vote); no separate ordinance or resolution number identified",
+      "trigger": "County zoning rules did not address data centers; disagreement among commissioners about whether Nebraska law clearly authorizes such a moratorium.",
+      "trigger_categories": [
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center",
+        "general"
+      ],
+      "current_status": "Active as of 2026-07-31; six-month pause on all conditional use permits effective 2026-07-14.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://cherrycountyne.gov/wp-content/uploads/sites/51/2026/07/07.14.2026-CC-MINUTES.pdf",
+          "source_type": "minutes",
+          "publisher": "Cherry County",
+          "document_date": "2026-07-14",
+          "supports": "Official board minutes recording the 2-1 vote for a six-month moratorium on all conditional use permits"
+        },
+        {
+          "url": "https://metro.newschannelnebraska.com/story/327638961/how-to-prevent-a-data-center-cherry-county-approves-six-month-moratorium-on-conditional-use-permits",
+          "source_type": "news",
+          "supports": "Contemporaneous reporting confirming the vote and its data-center-driven motivation"
+        }
+      ],
+      "notes": "The moratorium covers all conditional use permits, not data centers specifically, but board discussion and the news framing tie it directly to the absence of data center zoning provisions."
+    },
+    {
+      "state": "Nebraska",
+      "jurisdiction": "Logan County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Board of Commissioners voted 3-0 to adopt Resolution 26-2 on 2026-07-15.",
+      "date_enacted_iso": "2026-07-15",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12-month moratorium on accepting applications for data centers and AI facilities, cryptocurrency mining, wind and solar energy systems, battery energy storage, carbon dioxide facilities, future high-voltage transmission infrastructure, and other utility-scale or specialized-technology facilities.",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Resolution 26-2, Board of County Commissioners",
+      "trigger": "Adopted alongside a wave of Nebraska county moratoria addressing data centers and related utility-scale/specialized-technology development.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "grid_energy"
+      ],
+      "sectors": [
+        "data_center",
+        "cryptocurrency_mining",
+        "wind",
+        "solar",
+        "battery_storage"
+      ],
+      "current_status": "Active as of 2026-07-31; 12-month moratorium effective 2026-07-15.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://logancounty.ne.gov/wp-content/uploads/sites/21/2026/07/July-Mins.pdf",
+          "source_type": "minutes",
+          "publisher": "Logan County",
+          "document_date": "2026-07-15",
+          "supports": "Official meeting minutes reproducing the motion and scope of Resolution 26-2"
+        },
+        {
+          "url": "https://nebraskapublicmedia.org/en/news/news-articles/twelfth-nebraska-county-temporarily-bans-data-centers/",
+          "source_type": "news",
+          "supports": "Coverage confirming adoption and describing the broad facility scope"
+        }
+      ],
+      "notes": "No separately posted copy of Resolution 26-2 was located; the official minutes reproduce the motion and its scope."
+    }
+  ]
+}

@@ -194,38 +194,59 @@
 <p>We're confident in what's in this dataset, but here's an honest accounting of what we know we're missing.</p>
 <h2 id="what-we-know-we-dont-have">What we know we don't have</h2>
 <h3 id="small-township-records-that-arent-online">Small-township records that aren't online</h3>
-<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>140 of the 323 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>), down from 123 of 222 in v2026.04.4 after a targeted verification pass.</p>
+<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>180 of the 323 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>), down from 123 of 222 in v2026.04.4 after a targeted verification pass.</p>
 <h3 id="records-behind-authentication-or-captcha-gates">Records behind authentication or CAPTCHA gates</h3>
 <p>Some primary sources (notably the NC eCourts portal at <code>portal-nc.tylertech.cloud</code>, several Legistar instances, and certain Granicus-archived meetings) are protected by Akamai-style human-verification challenges that defeat automated retrieval. For affected entries, we use the best secondary source (county press releases, local news) and document the evidence ceiling.</p>
-<h3 id="uneven-coverage-of-the-may-july-2026-window-v202607">Uneven coverage of the May-July 2026 window (v2026.07)</h3>
-<p><strong>This is the most important limitation in the current release.</strong> The snapshot
-date is <strong>2026-07-31</strong>, but the three months since the April snapshot were not
-swept uniformly:</p>
-<ul>
-<li><strong>15 states were swept systematically</strong>, month by month, for May, June, and
-  July 2026: Alabama, Alaska, Arizona, Arkansas, California, Colorado,
-  Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Indiana, Michigan, and
-  Ohio. Coverage for those states in that window is comprehensive. The
-  machine-readable list is <code>data/sweep_coverage.json</code>, mirrored into
-  <code>summary_stats.json</code> under <code>sweep_coverage</code>.</li>
-<li><strong>The other 35 states were not.</strong> Their new instruments from that window
-  entered the dataset opportunistically, when a researcher resolving a flagged
-  row happened to encounter one. The sweep for those states was still running
-  when this release was cut.</li>
-</ul>
-<p><strong>Swept-and-empty is not the same as unswept.</strong> Of the 15 states swept
-systematically, four — Alaska, Delaware, Hawaii, and Idaho — returned <strong>zero</strong>
-local moratorium adoptions across all three months. Arizona returned none at the
-local level either (its only qualifying action was a state tax-incentive freeze,
-excluded as out of scope; see <code>docs/codebook.md</code>). Those absences are positive
-findings: someone looked and there was nothing. A state absent from the inventory
-because nobody has swept it is a different thing entirely, and the two cases are
-indistinguishable from the row counts alone.</p>
-<p>Treat May-July 2026 counts in the 35 unswept states as <strong>lower bounds</strong>. For
-calibration on what the difference is worth: Florida had 1 row before its sweep
-was converted and 14 after; Georgia went from 26 to 47. Cross-state comparisons
-that include this window will understate the 35 unswept states, and time-series
-analyses should either stop at 2026-04-28 or restrict to the 15 swept states.</p>
+<h3 id="coverage-of-the-may-july-2026-window-v202607">Coverage of the May-July 2026 window (v2026.07)</h3>
+<p><strong>All 50 states were swept</strong> month by month for May, June, and July 2026, so
+counts inside that window are not coverage-limited. This is the first window in
+the dataset's history where that is true.</p>
+<p><strong>10 states recorded no local adoption during the window</strong>: Alaska, Arizona,
+Delaware, Hawaii, Idaho, Louisiana, Rhode Island, Vermont, West Virginia, and
+Wyoming. Those absences are findings, not gaps. Wyoming is the sharpest case --
+Cheyenne's proposed twelve-month moratorium was rejected 9-1 on second reading,
+so the state's absence is a decision its council made, not a place nobody looked.</p>
+<p><strong>What the sweep was worth.</strong> Conversion changed several states' counts
+dramatically, and none of it was because anything changed on the ground:</p>
+<table>
+<thead>
+<tr>
+<th>State</th>
+<th>Before its sweep</th>
+<th>After</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Florida</td>
+<td>1</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Georgia</td>
+<td>26</td>
+<td>47</td>
+</tr>
+<tr>
+<td>South Carolina</td>
+<td>1</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Utah</td>
+<td>0</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+<p>Take that as the measure of what single-source coverage of this topic misses.</p>
+<p><strong>Earlier windows were not swept this way.</strong> Anything dated before 2026-05-01
+entered the dataset through document search and opportunistic discovery, so those
+counts remain lower bounds. A time series across the 2026-05 boundary will show a
+step that is partly method, not only events.</p>
+<p>The machine-readable record is <code>data/sweep_coverage.json</code>, derived by
+<code>scripts/update_sweep_coverage.py</code> and mirrored into <code>summary_stats.json</code> under
+<code>sweep_coverage</code>.</p>
 <h3 id="extension-and-rescission-events-after-the-cutoff">Extension and rescission events after the cutoff</h3>
 <p>Any moratorium extended, replaced, or rescinded after <strong>2026-07-31</strong> won't be
 reflected until the next release. In v2026.07 we re-researched every row whose
@@ -250,9 +271,9 @@ dataset as a result. The false positives clustered into four failure modes:
 advocacy mistaken for adoption, jurisdiction confusion, proposals counted as
 votes, and one instrument that was adopted and then ruled legally invalid by the
 jurisdiction's own counsel.</p>
-<p><strong>What this means if you are using the data:</strong> treat the state coverage list as a
-lower bound on which states have moratorium activity, not an authoritative
-enumeration. A state showing zero here may simply be a state nobody has swept.</p>
+<p><strong>What this means if you are using the data:</strong> for the 2026-05 to 2026-07 window
+the state list is now an enumeration rather than a lower bound, because every
+state was swept. Outside that window it remains a lower bound.</p>
 <h3 id="the-clause-taxonomy-lags-the-inventory-v202607">The clause taxonomy lags the inventory (v2026.07)</h3>
 <p>The 44-clause taxonomy analysis (<code>data/structured_extractions.jsonl</code>,
 <code>data/clause_extraction_analysis.json</code>, and the <code>definitional-approaches</code>,
@@ -320,7 +341,7 @@ from an earlier release.</p>
 </tbody>
 </table>
 <h2 id="geocoding-caveats-added-v2026042">Geocoding caveats (added v2026.04.2)</h2>
-<p>414 of 323 jurisdictions are geocoded to WGS84 lat/lon via OSM Nominatim. The 2 blanks are aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) that aren't real geographic points.</p>
+<p>531 of 323 jurisdictions are geocoded to WGS84 lat/lon via OSM Nominatim. The 2 blanks are aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) that aren't real geographic points.</p>
 <p><strong>Within-state name ambiguity.</strong> Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:</p>
 <ul>
 <li>Lake Township, OH (Wood County, not Logan County)</li>

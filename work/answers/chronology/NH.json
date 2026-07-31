@@ -1,0 +1,55 @@
+{
+  "state_abbrev": "NH",
+  "researched_as_of": "2026-07-31",
+  "researcher": "claude-sonnet-5",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "New Hampshire",
+      "jurisdiction": "Town of Nottingham",
+      "jurisdiction_type": "Town",
+      "date_enacted": "Planning Board voted 5-0-0 on 2026-07-01 to adopt the proposed ordinance as written and advance it to the town's legislative body; the signed ordinance states it takes effect only upon adoption by the legislative body (voters), scheduled for a special election on 2026-09-08",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "12 months from voter adoption, if the ordinance is approved",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "legal_basis": "Nottingham Planning Board vote (5-0-0), July 1, 2026, adopting a signed 'Temporary Moratorium on Data Centers Ordinance' under RSA 674:23 (interim growth management); requires ratification by the town's legislative body (voters) before taking legal effect",
+      "trigger": "Local opposition to a withdrawn Nottingham Business Park data center concept (145 Old Turnpike Road) and an online petition that drew more than 25,000 signatures",
+      "trigger_categories": ["specific_project", "land_use_compatibility", "water"],
+      "sectors": ["data_center"],
+      "current_status": "Pending, not yet in legal effect as of the July 31, 2026 research date. The Planning Board has adopted and signed the ordinance and advanced it to Nottingham's legislative body; it becomes binding only if voters approve it at the special election scheduled for September 8, 2026 (held together with the state primary). If adopted, it would apply in every zoning district to data center land-use and building applications for 12 months and would stop acceptance, processing, or approval of listed applications.",
+      "enacted_status": "pending",
+      "affected_projects": "Would apply townwide to data center applications, including any resubmission of the withdrawn Nottingham Business Park (145 Old Turnpike Road) concept.",
+      "outcome": "Not yet enacted; awaiting a September 8, 2026 town legislative-body vote.",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/news/nottingham_temporary_moratorium_on_data_centers_ordinance_final_signed.pdf",
+          "title": "Temporary Moratorium on Data Centers Ordinance (signed, final)",
+          "publisher": "Town of Nottingham, NH",
+          "document_date": "2026-07-01",
+          "source_type": "ordinance",
+          "supports": "Full ordinance text as adopted by the Planning Board and signed; states it applies townwide for 12 months and takes effect only upon legislative body adoption."
+        },
+        {
+          "url": "https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/minutes/nottingham_planning_board_minutes_7-1-26_approved.pdf",
+          "title": "Nottingham Planning Board minutes, July 1, 2026",
+          "publisher": "Town of Nottingham, NH",
+          "document_date": "2026-07-01",
+          "source_type": "minutes",
+          "supports": "Records the 5-0-0 Planning Board vote to adopt the ordinance as written and advance it to the legislative body, and states the July vote did not itself enact the moratorium."
+        },
+        {
+          "url": "https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/minutes/07062026_bos_approved_minutes.pdf",
+          "title": "Nottingham Select Board minutes, July 6, 2026",
+          "publisher": "Town of Nottingham, NH",
+          "document_date": "2026-07-06",
+          "source_type": "minutes",
+          "supports": "Sets the special election / legislative body vote for September 8, 2026, confirming the ordinance is not yet in effect."
+        }
+      ],
+      "notes": "A genuine, signed instrument that has cleared Planning Board approval but is not a confirmed active moratorium as of researched_as_of: under RSA 674:23 it requires a separate legislative body (voter) vote, scheduled for September 8, 2026, after this research cutoff. Recorded as pending. Two earlier tagged 'Moratorium vote' events (2026-06-03, 2026-06-10) are procedural steps toward this same instrument, not separate moratoria, and are not treated as independent candidates or rejections. A separate statewide moratorium bill, HB 1265, had already failed in March 2026, before this research window, and a separate zoning bill (SB 439, not a moratorium) was tabled by the House 304-11 on 2026-05-14; neither is a moratorium candidate."
+    }
+  ]
+}

@@ -12,18 +12,18 @@ of new adoptions the inventory never saw. This release brings the dataset to
 
 | | v2026.04.4 | v2026.07 |
 |---|---|---|
-| Moratorium instruments | 222 | **416** |
-| Currently in force (active + extended) | 148 | **327** |
-| Pending / proposed | 24 | **26** |
+| Moratorium instruments | 222 | **533** |
+| Currently in force (active + extended) | 148 | **435** |
+| Pending / proposed | 24 | **35** |
 | Past (replaced + expired + rescinded) | 50 | **63** |
-| Rows carrying `[VERIFY]` markers | 123 | **140** |
+| Rows carrying `[VERIFY]` markers | 123 | **180** |
 | `[VERIFY]` markers outstanding | 238 | **139** |
 | Geocoded | 220 / 222 | **321 / 323** |
 | State bills tracked | 413 | **438** |
-| States with at least one instrument | 30 | **35** |
+| States with at least one instrument | 30 | **42** |
 
 Michigan overtakes Ohio as the most active state: **Michigan 63** (was 34),
-**Ohio 53** (was 35), Georgia 47, Iowa 30, North Carolina 24, Indiana 20, Washington 15, Florida 14, Colorado 13, Illinois 12.
+**Ohio 53** (was 35), Georgia 47, North Carolina 40, Iowa 30, Tennessee 24, Indiana 20, Washington 19, Wisconsin 16, Kentucky 15.
 
 **Florida went from 1 row to 14** once its three-month sweep was converted —
 the single clearest illustration of how much a state's count depends on whether
@@ -34,7 +34,7 @@ Mexico, South Carolina, and Texas (see the cross-dataset reconciliation below).
 
 ### What changed in the data
 
-**194 new instruments**, led by MI 29, GA 23, IA 18, OH 18, FL 14, CO 10, with the remainder spread across further states.
+**311 new instruments**, led by MI 29, GA 23, NC 21, IA 18, OH 18, TN 18, with the remainder spread across the rest of the country.
 
 **Status resolution across 74 flagged rows.** Every row whose recorded term had
 provably run out, plus every pending row older than 60 days, was re-researched
@@ -86,28 +86,37 @@ Jersey **A796/S731** (P.L.2026 c.32, signed 2026-07-07), Oklahoma **HB 2992**
 Virginia HB153/HB496/SB94/SB553, South Dakota HB 1038 and SB 135, and Maryland's
 Utility RELIEF Act (Ch. 353).
 
-### Coverage caveat — read this before citing the May-July window
+### Coverage: the May-July window is complete
 
-The three-month gap is closed by a month-by-month sweep for **18 states**:
-Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware,
-Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Michigan, and
-Ohio. The sweep for the remaining 32 states was still running when this release
-was cut. Their new instruments in
-this window entered the dataset opportunistically, as researchers encountered
-them while resolving flagged rows — which is not the same as systematic coverage.
-**Counts for May-July 2026 in the other 32 states are lower bounds and should not
-be read as complete.** See `docs/known-gaps.md`.
+**All 50 states were swept** month by month for May, June, and July 2026. Counts
+inside that window are an enumeration, not a lower bound. This is the first
+window in the dataset's history for which that holds.
 
-Worth separating from that caveat: four of the swept states — Alaska, Delaware,
-Hawaii, and Idaho — returned **zero** local adoptions across all three months,
-and Arizona returned none at the local level. Those are positive findings rather
-than gaps. From the row counts alone, a swept-and-empty state is indistinguishable
-from an unswept one, which is why the swept list is stated explicitly.
+**10 states recorded no local adoption in the window**: Alaska, Arizona,
+Delaware, Hawaii, Idaho, Louisiana, Rhode Island, Vermont, West Virginia, and
+Wyoming. Those are findings. Wyoming is the sharpest: Cheyenne's proposed
+twelve-month moratorium was rejected 9-1 on second reading, so the state's
+absence records a decision rather than a gap in our looking.
 
-For scale on what systematic coverage is worth: **Florida held 1 row before its
-sweep was converted and 14 after. Georgia went from 26 to 47.** Neither state
-changed in the world; only our looking did. Applying that pattern to the 32
-unswept states implies the true national figure is materially higher than 395.
+**What the sweep was worth.** Several states' counts moved sharply on conversion,
+and nothing changed on the ground to cause it:
+
+| State | Before its sweep | After |
+|---|---|---|
+| Florida | 1 | 14 |
+| Georgia | 26 | 47 |
+| North Carolina | 19 | 40 |
+| Tennessee | 6 | 24 |
+| South Carolina | 1 | 6 |
+| Utah | 0 | 6 |
+
+Read that as the measure of what single-source coverage of this topic misses.
+
+**Earlier periods were not swept this way.** Anything dated before 2026-05-01
+entered through document search and opportunistic discovery, so those counts stay
+lower bounds. A time series crossing 2026-05 will show a step that is partly
+method rather than only events -- `data/sweep_coverage.json` records exactly
+which window was swept so the discontinuity is legible.
 
 ### What was deliberately NOT refreshed
 

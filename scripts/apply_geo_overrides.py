@@ -46,6 +46,24 @@ OVERRIDES: dict[str, dict] = {
             "township at 44.482887 / -84.792879."
         ),
     },
+    "pa-brookville-borough-2026": {
+        "latitude": "41.160435",
+        "longitude": "-79.079470",
+        "why": (
+            "The 'Borough' suffix defeated both geocoders. Pennsylvania boroughs are "
+            "incorporated municipalities, so the referent is simply the place: Brookville, "
+            "Jefferson County."
+        ),
+    },
+    "tn-unincorporated-hamilton-county-2026": {
+        "latitude": "35.175564",
+        "longitude": "-85.194079",
+        "why": (
+            "'Unincorporated Hamilton County' has no gazetteer entry -- it is the part of the "
+            "county outside its municipalities, which is the moratorium's actual scope. The "
+            "county centroid is the honest representative point; it is not a municipal boundary."
+        ),
+    },
     "il-city-of-effingham-2026": {
         "latitude": "39.120143",
         "longitude": "-88.543480",

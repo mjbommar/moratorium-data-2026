@@ -44,11 +44,12 @@ def facts() -> dict[str, int]:
     c = Counter(r["enacted_status"] for r in inv)
     # Sweep coverage drifted once already: the prose said 15 while the data said
     # 18. Check it like any other published number.
-    swept = 0
+    swept = swept_empty = 0
     if SWEEP.exists():
         windows = json.loads(SWEEP.read_text(encoding="utf-8")).get("windows", [])
         if windows:
             swept = len(windows[-1].get("swept_states", []))
+            swept_empty = len(windows[-1].get("swept_states_with_no_adoptions_in_window", []))
     return {
         "rows": len(inv),
         "in_force": c["active"] + c["extended"],
@@ -68,6 +69,7 @@ def facts() -> dict[str, int]:
         "bills_enacted": sum(1 for r in leg if r.get("bill_status_category") == "enacted"),
         "swept": swept,
         "unswept": 50 - swept,
+        "swept_empty": swept_empty,
     }
 
 
@@ -102,9 +104,10 @@ CLAIMS: list[tuple[str, str, str, str]] = [
     ("CHANGELOG.md", r"\| States with at least one instrument \| 30 \| \*\*(\d+)\*\* \|", "states", "CHANGELOG states"),
     ("CHANGELOG.md", r"([\d,]+) of [\d,]+ bills now\s*\ncarry a researched final disposition", "bills_typed", "CHANGELOG typed bills"),
     ("CHANGELOG.md", r"carry a researched final disposition, including \*\*(\d+) enacted\*\*", "bills_enacted", "CHANGELOG enacted bills"),
-    ("CHANGELOG.md", r"month-by-month sweep for \*\*(\d+) states\*\*", "swept", "CHANGELOG swept states"),
-    ("docs/known-gaps.md", r"\*\*(\d+) states were swept systematically\*\*", "swept", "known-gaps swept states"),
-    ("docs/known-gaps.md", r"\*\*The other (\d+) states were not\.\*\*", "unswept", "known-gaps unswept states"),
+    ("CHANGELOG.md", r"\*\*All (\d+) states were swept\*\*", "swept", "CHANGELOG swept states"),
+    ("CHANGELOG.md", r"\*\*(\d+) states recorded no local adoption in the window\*\*", "swept_empty", "CHANGELOG empty-sweep states"),
+    ("docs/known-gaps.md", r"\*\*All (\d+) states were swept\*\*", "swept", "known-gaps swept states"),
+    ("docs/known-gaps.md", r"\*\*(\d+) states recorded no local adoption during the window\*\*", "swept_empty", "known-gaps empty-sweep states"),
 ]
 
 

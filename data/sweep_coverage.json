@@ -22,22 +22,60 @@
         "IL",
         "IN",
         "KS",
+        "KY",
+        "LA",
+        "MA",
+        "MD",
+        "ME",
         "MI",
-        "OH"
+        "MN",
+        "MO",
+        "MS",
+        "MT",
+        "NC",
+        "ND",
+        "NE",
+        "NH",
+        "NJ",
+        "NM",
+        "NV",
+        "NY",
+        "OH",
+        "OK",
+        "OR",
+        "PA",
+        "RI",
+        "SC",
+        "SD",
+        "TN",
+        "TX",
+        "UT",
+        "VA",
+        "VT",
+        "WA",
+        "WI",
+        "WV",
+        "WY"
       ],
       "notes": {
         "AZ": "No local development moratorium found in any Arizona city or county. The only qualifying statewide action was HB 4168 s.31, a freeze on new applications to the state data-center tax relief program, which is out of scope for this inventory and is recorded in state_legislation.csv instead.",
-        "coverage_effect": "Conversion of a state's sweep can change its count substantially. Florida held 1 inventory row before its sweep was converted and 14 after; Georgia went from 26 to 47; Indiana from 12 to 20. None of these states changed in the world; only our looking did."
+        "coverage_effect": "Conversion of a state's sweep can change its count substantially. Florida held 1 inventory row before its sweep and 14 after; Georgia went from 26 to 47; South Carolina from 1 to 6; Utah from 0 to 6. None of these states changed in the world; only our looking did.",
+        "completion": "The sweep now covers all 50 states for this window. Ten states recorded no local adoption during it: Alaska, Arizona, Delaware, Hawaii, Idaho, Louisiana, Rhode Island, Vermont, West Virginia, and Wyoming. Wyoming is the sharpest case - Cheyenne's proposed 12-month moratorium was rejected 9-1 on second reading, so the absence is a decision rather than a gap."
       },
       "swept_states_with_no_adoptions_in_window": [
         "AK",
         "AZ",
         "DE",
         "HI",
-        "ID"
+        "ID",
+        "LA",
+        "RI",
+        "VT",
+        "WV",
+        "WY"
       ],
       "field_note": "swept_states_with_no_adoptions_in_window means no local instrument was ADOPTED during this window. It does not mean the state has no moratoria at all: Idaho, for example, carries a 2025 Kootenai County instrument in the inventory but adopted nothing new between 2026-05-01 and 2026-07-31."
     }
   ],
-  "unswept_caveat": "States not listed in swept_states for a window have only opportunistic coverage in that window -- instruments entered the dataset when a researcher working on something else happened to encounter them. Their counts for that window are lower bounds. Cross-state comparison and time-series analysis that includes the window should either be restricted to the swept states or stop at the prior release's cutoff (2026-04-28)."
+  "unswept_caveat": "All 50 states were swept for the 2026-05-01/2026-07-31 window, so counts in it are no longer coverage-limited. Earlier windows were not swept this way; treat pre-2026-05 counts as lower bounds."
 }

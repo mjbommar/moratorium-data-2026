@@ -4,7 +4,7 @@ This document defines every column in every data file. Read this before doing an
 
 ## `data/moratorium_inventory.csv`
 
-**One row per moratorium instrument.** 416 rows total (v2026.07).
+**One row per moratorium instrument.** 533 rows total (v2026.07).
 
 | Column | What it means | Example |
 |--------|---------------|---------|
@@ -38,12 +38,12 @@ This document defines every column in every data file. Read this before doing an
 
 This is the column most users want for filtering. The values:
 
-- **`active`** — moratorium is currently in force (~42 rows)
-- **`extended`** — moratorium was extended past its original sunset and is currently in force (~42 rows)
+- **`active`** — moratorium is currently in force (~44 rows)
+- **`extended`** — moratorium was extended past its original sunset and is currently in force (~44 rows)
 - **`replaced`** — moratorium has expired and a permanent ordinance has been adopted in its place (~37 rows)
 - **`expired`** — moratorium has lapsed without a documented replacement (~20 rows)
 - **`rescinded`** — moratorium was affirmatively repealed before its expiration date (~6 rows)
-- **`pending`** — moratorium has been proposed but is not yet in force (~26 rows; e.g., a public hearing is scheduled but the vote hasn't happened)
+- **`pending`** — moratorium has been proposed but is not yet in force (~35 rows; e.g., a public hearing is scheduled but the vote hasn't happened)
 
 To filter to "moratoria currently in force":
 
@@ -102,13 +102,13 @@ A single JSON object with top-level aggregates. Useful for embedding live counts
 
 Top-level keys:
 
-- `total_local_moratoria`: 416 — total rows in the inventory
+- `total_local_moratoria`: 533 — total rows in the inventory
 - `total_state_bills`: 438 — total rows in state_legislation.csv
-- `states_with_moratoria`: 35
-- `states_without_moratoria`: 15
-- `moratoria_with_verify_tags`: 140 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
+- `states_with_moratoria`: 42
+- `states_without_moratoria`: 8
+- `moratoria_with_verify_tags`: 180 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
 - `moratoria_without_verify_tags`: 232
-- `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 416 rows by `enacted_status`
+- `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 533 rows by `enacted_status`
 - `sweep_coverage`: which states received a systematic month-by-month sweep for the release's window, plus `swept_states_with_no_adoptions_in_window`. **Read this before interpreting a state's absence.** A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that `swept_states_with_no_adoptions_in_window` is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from [`data/sweep_coverage.json`](../data/sweep_coverage.json)
 - `top_states_by_moratoria`: list of `[state_name, count]` pairs, top 15
 - `top_states_by_bills`: list of `[state_name, bill_count]` pairs, top 15

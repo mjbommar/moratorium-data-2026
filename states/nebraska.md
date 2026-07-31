@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Nebraska as of April 2026.
 
-**3 instruments** — 2 in force, 0 pending, 1 past. Activity level: **Medium**.
+**6 instruments** — 5 in force, 0 pending, 1 past. Activity level: **Medium**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

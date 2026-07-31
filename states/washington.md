@@ -2,7 +2,7 @@
 
 Every infrastructure moratorium we have identified in Washington as of April 2026.
 
-**15 instruments** — 5 in force, 0 pending, 10 past. Activity level: **Medium**.
+**19 instruments** — 9 in force, 0 pending, 10 past. Activity level: **Medium**.
 
 | Jurisdiction | Type | Date enacted | Duration | Status |
 |--------------|------|--------------|----------|--------|

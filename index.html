@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Moratorium Nation — U.S. Infrastructure Moratorium Tracker</title>
-<meta name="description" content="Open data and a 116-page working paper on 416 local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States. Updated July 2026.">
+<meta name="description" content="Open data and a 116-page working paper on 533 local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States. Updated July 2026.">
 
 <!-- Open Graph -->
 <meta property="og:title" content="Moratorium Nation — U.S. Infrastructure Moratorium Tracker">
-<meta property="og:description" content="416 moratoria across 35 states. Working paper + open dataset + interactive map.">
+<meta property="og:description" content="533 moratoria across 42 states. Working paper + open dataset + interactive map.">
 <meta property="og:type" content="website">
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -540,16 +540,16 @@
 
 <div class="stats-row">
   <div class="stat">
-    <div class="num" id="stat-total">416</div>
+    <div class="num" id="stat-total">533</div>
     <div class="delta">was 222 in April</div>
     <div class="label">Moratorium instruments</div>
   </div>
   <div class="stat in-force">
-    <div class="num" id="stat-in-force">327</div>
+    <div class="num" id="stat-in-force">435</div>
     <div class="label">Currently in force</div>
   </div>
   <div class="stat pending">
-    <div class="num" id="stat-pending">26</div>
+    <div class="num" id="stat-pending">35</div>
     <div class="label">Pending or proposed</div>
   </div>
   <div class="stat past">
@@ -557,7 +557,7 @@
     <div class="label">Replaced, expired, or rescinded</div>
   </div>
   <div class="stat">
-    <div class="num">35</div>
+    <div class="num">42</div>
     <div class="label">States with at least one</div>
   </div>
 </div>
@@ -591,13 +591,13 @@
       <button data-filter="past">Past</button>
     </div>
   </div>
-  <p style="font-size: 12px; color: var(--ink-soft); margin: -4px 0 22px;">Map shows 414 of 416 instruments. Two aggregate meta-rows ("Other Reported Local Moratoria, MI" and "Proposed or Rejected Local Pauses, MD") aren't real geographic points. Click any marker for jurisdiction details.</p>
+  <p style="font-size: 12px; color: var(--ink-soft); margin: -4px 0 22px;">Map shows 531 of 533 instruments. Two aggregate meta-rows ("Other Reported Local Moratoria, MI" and "Proposed or Rejected Local Pauses, MD") aren't real geographic points. Click any marker for jurisdiction details.</p>
 </div>
 
 <div class="timeline-wrap">
   <img src="site/timeline.svg" alt="Monthly moratorium adoptions, 2018 through July 2026, stacked by primary sector with cumulative-total dashed line." />
   <p class="caption">Every bar before 2022 is Washington. Cheap hydro power pulled crypto miners into the Columbia Basin, and ten Washington jurisdictions paused them in 2018. Then the map went quiet for four years. Data centers restarted it: 7 moratoria in 2023, 6 in 2024, 59 in 2025, and 294 in the first seven months of 2026. June alone accounted for 80.</p>
-  <p class="source">Source: <a href="data/moratorium_inventory.csv" download>moratorium_inventory.csv</a>, columns <code>date_enacted_iso</code> and <code>sectors</code>. The chart plots 375 of 416 instruments. It leaves out proposals still awaiting a vote, which have no adoption date, and two 2018 Washington ordinances known only to the year, which cannot be placed in a month.</p>
+  <p class="source">Source: <a href="data/moratorium_inventory.csv" download>moratorium_inventory.csv</a>, columns <code>date_enacted_iso</code> and <code>sectors</code>. The chart plots 489 of 533 instruments. It leaves out proposals still awaiting a vote, which have no adoption date, and two 2018 Washington ordinances known only to the year, which cannot be placed in a month.</p>
 </div>
 
 <main>
@@ -606,13 +606,13 @@
 <section class="release-notes">
   <div class="stamp">Release v2026.07 &middot; 31 July 2026</div>
   <h2>What changed since April</h2>
-  <p class="lede">The inventory grew from 222 instruments to 416, across 35 states
+  <p class="lede">The inventory grew from 222 instruments to 533, across 42 states
   instead of 30. Method explains most of that jump. This is the first release to sweep
-  states month by month, so read 416 as a floor.</p>
+  states month by month, so read 533 as a floor.</p>
 
   <h3>New activity</h3>
   <ul>
-    <li><strong>170 moratoria were adopted between May 1 and July 31.</strong>
+    <li><strong>283 moratoria were adopted between May 1 and July 31.</strong>
       June accounted for 80 of them, the busiest month on record.</li>
     <li><strong>Big cities joined in.</strong> Seattle passed an emergency ordinance on June 9.
       Cleveland followed on July 15 by a 14-1 vote, after committee cut the term from twelve
@@ -645,7 +645,7 @@
   megawatts. Florida moved the opposite way and protected local land-use authority.</p>
 
   <h3>How to read the coverage</h3>
-  <p>18 states got the month-by-month sweep. The other 32 did not, so their
+  <p>50 states got the month-by-month sweep. The other 0 did not, so their
   May-July counts are floors. Florida shows why: it held one row before its sweep and
   14 after. The state did not change. Our looking did. Five swept states recorded no
   local adoptions at all - a finding worth as much as a count.
@@ -660,23 +660,23 @@
 
 <section>
   <h2>Top 13 states by moratorium count</h2>
-  <div class="panel"><p>Thirteen states hold roughly four in five of the instruments we have found. Click a state for every moratorium in it, written in plain English.</p>
+  <div class="panel"><p>Thirteen states hold roughly two in three of the instruments we have found. Click a state for every moratorium in it, written in plain English.</p>
   <div class="top-states">
     <div class="row"><a href="states/michigan.html"><strong>Michigan</strong></a><strong>63</strong></div>
     <div class="row"><a href="states/ohio.html"><strong>Ohio</strong></a><strong>53</strong></div>
     <div class="row"><a href="states/georgia.html"><strong>Georgia</strong></a><strong>47</strong></div>
+    <div class="row"><a href="states/north-carolina.html"><strong>North Carolina</strong></a><strong>40</strong></div>
     <div class="row"><a href="states/iowa.html"><strong>Iowa</strong></a><strong>30</strong></div>
-    <div class="row"><a href="states/north-carolina.html"><strong>North Carolina</strong></a><strong>24</strong></div>
+    <div class="row"><a href="states/tennessee.html"><strong>Tennessee</strong></a><strong>24</strong></div>
     <div class="row"><a href="states/indiana.html"><strong>Indiana</strong></a><strong>20</strong></div>
-    <div class="row"><a href="states/washington.html"><strong>Washington</strong></a><strong>15</strong></div>
+    <div class="row"><a href="states/washington.html"><strong>Washington</strong></a><strong>19</strong></div>
+    <div class="row"><a href="states/wisconsin.html"><strong>Wisconsin</strong></a><strong>16</strong></div>
+    <div class="row"><a href="states/kentucky.html"><strong>Kentucky</strong></a><strong>15</strong></div>
+    <div class="row"><a href="states/new-york.html"><strong>New York</strong></a><strong>15</strong></div>
     <div class="row"><a href="states/florida.html"><strong>Florida</strong></a><strong>14</strong></div>
-    <div class="row"><a href="states/colorado.html"><strong>Colorado</strong></a><strong>13</strong></div>
-    <div class="row"><a href="states/illinois.html"><strong>Illinois</strong></a><strong>12</strong></div>
-    <div class="row"><a href="states/california.html"><strong>California</strong></a><strong>11</strong></div>
-    <div class="row"><a href="states/kansas.html"><strong>Kansas</strong></a><strong>11</strong></div>
-    <div class="row"><a href="states/alabama.html"><strong>Alabama</strong></a><strong>10</strong></div>
+    <div class="row"><a href="states/missouri.html"><strong>Missouri</strong></a><strong>14</strong></div>
   </div>
-  <p style="margin-top: 12px;"><a href="states/index.html">All 35 states with moratoria →</a></p></div>
+  <p style="margin-top: 12px;"><a href="states/index.html">All 42 states with moratoria →</a></p></div>
 </section>
 
 <section>
@@ -684,7 +684,7 @@
   <div class="grid-3">
     <div class="card">
       <h3>📊 Spreadsheet</h3>
-      <p>The 416-row inventory as a CSV — opens in Excel, Google Sheets, Numbers, or any tool. Includes <code>enacted_status</code>, <code>moratorium_id</code>, and lat/lon for instant mapping.</p>
+      <p>The 533-row inventory as a CSV — opens in Excel, Google Sheets, Numbers, or any tool. Includes <code>enacted_status</code>, <code>moratorium_id</code>, and lat/lon for instant mapping.</p>
       <a href="data/moratorium_inventory.csv" download>Download CSV →</a>
     </div>
     <div class="card">
@@ -702,7 +702,7 @@
 
 <section>
   <h2>Methodology</h2>
-  <div class="panel"><p>We collect the primary documents first - ordinances, resolutions, board minutes - then code them. The corpus runs to roughly 4,600 files gathered across all 50 states. 348 moratorium texts have been read line by line against a 44-clause taxonomy; that sample predates 28 April 2026 and covers 211 jurisdictions, so it describes what moratoria contain rather than all 416 of them. Coordinates were checked three ways across 89 verifications, with no confirmed errors. Where we could not confirm something, the row says so. </p><div class="doclinks"><a href="docs/methodology.html">Full methodology</a><a href="docs/codebook.html">Codebook</a><a href="docs/known-gaps.html">Known gaps</a><a href="docs/FAQ.html">FAQ</a></div></div>
+  <div class="panel"><p>We collect the primary documents first - ordinances, resolutions, board minutes - then code them. The corpus runs to roughly 4,600 files gathered across all 50 states. 348 moratorium texts have been read line by line against a 44-clause taxonomy; that sample predates 28 April 2026 and covers 211 jurisdictions, so it describes what moratoria contain rather than all 533 of them. Coordinates were checked three ways across 89 verifications, with no confirmed errors. Where we could not confirm something, the row says so. </p><div class="doclinks"><a href="docs/methodology.html">Full methodology</a><a href="docs/codebook.html">Codebook</a><a href="docs/known-gaps.html">Known gaps</a><a href="docs/FAQ.html">FAQ</a></div></div>
 </section>
 
 <section>

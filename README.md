@@ -6,12 +6,12 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 
 > 📄 **Working paper:** [April 2026 updated draft (PDF, 6 MB, 116 pages)](paper/moratorium-nation-2026-04-30.pdf) · [first edition on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6242898). 50-state legal authority survey, 44-clause taxonomy, 13-section model ordinance template.
 
-> **As of July 2026, 416 moratorium instruments tracked across 35 states.**
-> 🟢 **327 currently in force** (active or extended) · 🟡 **26 pending or proposed** (not yet adopted) · ⚪ **63 expired, replaced, or rescinded** (no longer in force)
+> **As of July 2026, 533 moratorium instruments tracked across 42 states.**
+> 🟢 **435 currently in force** (active or extended) · 🟡 **35 pending or proposed** (not yet adopted) · ⚪ **63 expired, replaced, or rescinded** (no longer in force)
 >
-> Top states by total instruments: Michigan (63), Ohio (53), Georgia (47), Iowa (30), North Carolina (24), Indiana (20), Washington (15), Florida (14), Colorado (13), Illinois (12).
+> Top states by total instruments: Michigan (63), Ohio (53), Georgia (47), North Carolina (40), Iowa (30), Tennessee (24), Indiana (20), Washington (19), Wisconsin (16), Kentucky (15).
 >
-> ⚠️ **Coverage note:** the May–July 2026 window is systematically swept for **Michigan and Ohio only**. Other states' instruments from that window entered the dataset opportunistically, so recent counts outside those two states are **lower bounds**. See [known gaps](docs/known-gaps.md).
+> ✅ **Coverage note:** **all 50 states** were swept month by month for May–July 2026, so counts inside that window are complete rather than lower bounds. Ten states recorded no adoption in it — a finding, not a gap. Earlier periods were not swept this way. See [known gaps](docs/known-gaps.md).
 
 ![Moratorium counts by state](figures/png/map-moratorium-counts.png)
 
@@ -61,18 +61,18 @@ For more, see the [FAQ](docs/FAQ.md).
 
 As of **July 2026**:
 
-- **416 moratorium instruments** tracked in our cleaned inventory
-  - **327 currently in force** (285 active + 42 extended)
+- **533 moratorium instruments** tracked in our cleaned inventory
+  - **435 currently in force** (391 active + 44 extended)
   - **17 pending or proposed** (public hearings scheduled, awaiting adoption)
   - **37 replaced** by permanent regulations
   - **20 expired** without a documented replacement
   - **6 rescinded** before their original expiration
-- **35 states** have at least one moratorium; **15 states** have none we've identified. Florida, Nevada, New Mexico, South Carolina, and Texas entered the dataset in v2026.07
-- **Top 10 states by instrument count**: Michigan (63), Ohio (53), Georgia (47), Iowa (30), North Carolina (24), Indiana (20), Washington (15), Florida (14), Colorado (13), Illinois (12)
+- **42 states** have at least one moratorium; **15 states** have none we've identified. Florida, Nevada, New Mexico, South Carolina, and Texas entered the dataset in v2026.07
+- **Top 10 states by instrument count**: Michigan (63), Ohio (53), Georgia (47), North Carolina (40), Iowa (30), Tennessee (24), Indiana (20), Washington (19), Wisconsin (16), Kentucky (15)
 - **Sectors covered**: most moratoria target **data centers** (~93% mention them); a substantial share also cover **cryptocurrency mining**, with smaller numbers covering **battery storage**, **solar**, and **wind**
 - **438 state-level bills** tracked in 2025–2026 (some proposing moratoria, others authorizing or restricting local moratoria). 241 now carry a researched final disposition in the typed `bill_status_category` column, including **34 enacted**
 - **348 moratorium texts** read line-by-line and coded against a 44-clause taxonomy (the confidence-≥-0.4 subset of the 526 successful structured extractions in [`data/structured_extractions.jsonl`](data/structured_extractions.jsonl)). ⚠️ This cohort covers 211 jurisdictions and was collected **before 2026-04-28** — it was not re-run in v2026.07, so the clause-level percentages describe roughly half the current inventory. See [known gaps](docs/known-gaps.md)
-- **414 of 323 jurisdictions geocoded** with WGS84 lat/lon (99.4% coverage); the 2 blanks are aggregate meta-rows that aren't real geographic points. Coordinates triple-checked across 89 verifications with **zero confirmed errors** ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
+- **531 of 323 jurisdictions geocoded** with WGS84 lat/lon (99.4% coverage); the 2 blanks are aggregate meta-rows that aren't real geographic points. Coordinates triple-checked across 89 verifications with **zero confirmed errors** ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
 
 Full state-by-state breakdown: [**states/README.md**](states/README.md).
 
