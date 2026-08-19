@@ -1,0 +1,26 @@
+{
+  "state_abbrev": "ME",
+  "researched_as_of": "2026-08-19",
+  "researcher": "Codex web research",
+  "decisions": [
+    {
+      "moratorium_id": "me-sanford-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "duration": {"from": "Reported as a 91-day pause", "to": "Initial 91-day emergency pause extended by City Council for an additional 180 days on 2026-08-04.", "reason": "The Council adopted a second, longer pause before the original term expired."},
+        "duration_days": {"from": "91", "to": "", "reason": "The current term is an extension, not a single fixed duration from the original adoption date."},
+        "duration_kind": {"from": "fixed_days", "to": "until_event", "reason": "The published report confirms an additional 180 days but the signed extension's effective-date language has not yet been captured."},
+        "current_status": {"from": "Likely still active as of 2026-07-31 if the reported 91-day term is accurate (would run to roughly mid-August 2026), but this could not be confirmed against a primary source. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-07 refresh]", "to": "Extended and active as of 2026-08-19. Sanford City Council unanimously extended the emergency data-center moratorium by 180 days on 2026-08-04. [VERIFY: signed extension order/ordinance number not located]", "reason": "The reported Council vote confirms continuation beyond the initial August expiration."}
+      },
+      "verify_resolutions": [
+        {"field": "current_status", "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-07 refresh]", "resolution": "still_unverifiable", "note": "The extension vote is reported, but the municipal instrument number and signed text have not been captured."}
+      ],
+      "confidence": 0.86,
+      "evidence": [
+        {"url": "https://www.wmtw.com/article/sanford-maine-data-center-moratorium-extended-180-days/73358794", "title": "Sanford City Council extends data-center moratorium", "publisher": "WMTW", "document_date": "2026-08-05", "source_type": "news", "supports": "Reports the unanimous August 4 Council vote extending the pause 180 days.", "quote": "continue the data center moratorium for an additional 180 days"}
+      ],
+      "notes": "The update corrects the expired-term drift while retaining the primary-source verification marker."
+    }
+  ]
+}

@@ -10,6 +10,8 @@ Buckets, in priority order:
 
   expired_in_force  in-force row whose date_enacted_iso + duration_days has
                     already passed -- status is provably stale
+  extension_end_unknown  an extended row has no separately recorded current end
+                    date, so its original duration cannot safely be used
   until_date_stale  in-force row that ends on a calendar date we cannot compute
                     from typed columns (duration_kind=until_date)
   stale_pending     enacted_status=pending older than --pending-age days
@@ -50,11 +52,12 @@ VERIFY_MARKER_RE = re.compile(r"\[VERIFY[^\]]*\]", re.IGNORECASE)
 # Priority ordering drives which states get researched first.
 BUCKET_PRIORITY = {
     "expired_in_force": 1,
-    "until_date_stale": 2,
-    "stale_pending": 3,
-    "open_ended": 4,
-    "verify_backlog": 5,
-    "unverified_date": 6,
+    "extension_end_unknown": 2,
+    "until_date_stale": 3,
+    "stale_pending": 4,
+    "open_ended": 5,
+    "verify_backlog": 6,
+    "unverified_date": 7,
 }
 
 # Fields whose free text a researcher needs to answer the question.
@@ -77,7 +80,13 @@ def parse_iso(value: str) -> dt.date | None:
 
 
 def computed_expiry(row: dict) -> dt.date | None:
-    """date_enacted_iso + duration_days, when both are usable."""
+    """Current known end, otherwise date_enacted_iso + duration_days."""
+    explicit = (row.get("current_end_date_iso") or "").strip()
+    if explicit:
+        try:
+            return dt.date.fromisoformat(explicit)
+        except ValueError:
+            return None
     start = parse_iso(row["date_enacted_iso"])
     raw = row["duration_days"].strip()
     if start is None or not raw:
@@ -103,8 +112,13 @@ def classify(row: dict, today: dt.date, pending_age: int) -> list[str]:
     kind = row["duration_kind"]
 
     if status in IN_FORCE:
+        explicit_end = (row.get("current_end_date_iso") or "").strip()
+        # The original fixed term is historical once the row is extended. Do
+        # not silently label it expired based on that superseded term.
+        if status == "extended" and not explicit_end:
+            buckets.append("extension_end_unknown")
         expiry = computed_expiry(row)
-        if expiry is not None and expiry < today:
+        if not (status == "extended" and not explicit_end) and expiry is not None and expiry < today:
             buckets.append("expired_in_force")
         elif kind == "until_date":
             buckets.append("until_date_stale")
@@ -158,6 +172,11 @@ def build_item(row: dict, buckets: list[str], today: dt.date) -> dict:
             f"{expiry.isoformat() if expiry else 'an unknown date'}. As of {today.isoformat()}, was it "
             "extended (new end date?), replaced by a permanent ordinance (which one, adopted when?), "
             "allowed to expire, or rescinded?"
+        )
+    if "extension_end_unknown" in buckets:
+        q.append(
+            "This row is extended, but no current_end_date_iso is recorded. "
+            "Find the operative extension's precise fixed endpoint, or leave it blank and document why the extension is event-based or its endpoint is not published."
         )
     if "until_date_stale" in buckets:
         q.append(
@@ -229,7 +248,7 @@ def main() -> int:
         "items": items,
     }
 
-    out_path = Path(args.out) if args.out else WORK_DIR / f"worklist-{today.isoformat()}.json"
+    out_path = (REPO / args.out).resolve() if args.out else WORK_DIR / f"worklist-{today.isoformat()}.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
 

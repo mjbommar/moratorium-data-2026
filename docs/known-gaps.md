@@ -6,7 +6,7 @@ We're confident in what's in this dataset, but here's an honest accounting of wh
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **180 of the 323 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`), down from 123 of 222 in v2026.04.4 after a targeted verification pass.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **182 of the 533 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`), down from 123 of 222 in v2026.04.4 after a targeted verification pass.
 
 ### Records behind authentication or CAPTCHA gates
 
@@ -125,7 +125,7 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Geocoding caveats (added v2026.04.2)
 
-531 of 323 jurisdictions are geocoded to WGS84 lat/lon via OSM Nominatim. The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
+531 of 533 instruments are geocoded to WGS84 lat/lon via OSM Nominatim. The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
 
 **Within-state name ambiguity.** Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:
 

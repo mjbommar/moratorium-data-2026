@@ -1,0 +1,179 @@
+{
+  "applied_at": "20260819T083529",
+  "answer_files": [
+    "work/answers/status/MI-20260819.json",
+    "work/answers/status/OH-20260819.json"
+  ],
+  "stats": {
+    "outcome:status_changed": 7,
+    "fields_changed": 13,
+    "status_changed": 7,
+    "verify_corrected": 2,
+    "verify_resolved_via_field_rewrite": 2,
+    "outcome:corrected": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "mi-clark-township-2025",
+      "column": "current_status",
+      "before": "Active through approximately 2026-06-24",
+      "after": "Expired approximately 2026-06-24 at the end of the documented one-year term. A later Township agenda shows data-center ordinance work, but no adopted extension was located through 2026-08-19. [VERIFY: post-expiry ordinance or extension record not located]",
+      "reason": "The one-year term elapsed and no continuation instrument was found.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-clark-township-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "expired",
+      "reason": "Expiry follows the fixed term recorded from the prior source; future adopted regulation should be recorded separately if it replaces the pause.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-hayes-township-2026",
+      "column": "duration",
+      "before": "180 days (per primary source: Interlochen Public Radio reporting on the unanimously adopted resolution; MLive's 30-day figure appears erroneous)",
+      "after": "One-year moratorium, reported as adopted/revised while the Township studies data-center regulations.",
+      "reason": "Later reporting describes the governing moratorium as a one-year pause.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-hayes-township-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "The revised resolution and precise effective date have not been captured.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-hayes-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "until_event",
+      "reason": "Keep the row current without inventing a fixed expiry before obtaining the revised resolution.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-hayes-township-2026",
+      "column": "current_status",
+      "before": "Active through approximately 2026-08-09 (180 days from 2026-02-10)",
+      "after": "Extended and active as of 2026-08-19. Multiple later reports describe Hayes Township's data-center moratorium as a one-year pause while it studies potential zoning regulations. [VERIFY: revised signed resolution and exact end date not captured]",
+      "reason": "The subsequent one-year description supersedes the original 180-day status.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-hayes-township-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "The source resolves the stale 180-day label but does not substitute for the revised Township resolution.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-lodi-township-2026",
+      "column": "current_status",
+      "before": "Active; effective 2026-02-11",
+      "after": "Expired approximately 2026-08-02 at the end of the documented 180-day term. The Township considered data-center zoning text during the term, but no adopted extension was located through 2026-08-19. [VERIFY: post-expiry action not located]",
+      "reason": "The fixed term elapsed without a captured continuation instrument.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-lodi-township-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "expired",
+      "reason": "A permanent zoning amendment, if adopted, is not an extension and should be recorded as an outcome rather than assumed here.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-pontiac-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-04-29",
+      "after": "Expired approximately 2026-07-20 at the end of the documented six-month term. No adopted extension was located through 2026-08-19. [VERIFY: post-expiry Council action not located]",
+      "reason": "The fixed term elapsed without a captured extension.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-pontiac-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "expired",
+      "reason": "The initial six-month term is in the pre-refresh record; obtain the Council resolution or later agenda in a source-capture follow-up.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-springfield-township-2025",
+      "column": "current_status",
+      "before": "Active as of 2026-04-29; nominal 180-day expiration around 2026-06-09 [VERIFY: future event, expiration not yet reached as of 2026-04-29]",
+      "after": "Expired approximately 2026-06-09 at the end of the documented 180-day term. No adopted extension was located through 2026-08-19. [VERIFY: post-expiry Township action not located]",
+      "reason": "The original temporary pause elapsed; the old future-event verification flag is superseded by an explicit post-expiry search limitation.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-springfield-township-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "expired",
+      "reason": "Do not infer continuation from the continued development discussion in later sources.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-sylvan-township-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-04-29",
+      "after": "Expired approximately 2026-07-21 at the end of the limited 180-day term, absent a documented earlier replacement ordinance or extension. [VERIFY: post-expiry Township action not located]",
+      "reason": "The limited moratorium expressly ended after 180 days or an earlier amended/new ordinance; neither continuation has been captured.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-sylvan-township-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "expired",
+      "reason": "This classification preserves the possibility of an uncollected replacement ordinance rather than assuming one exists.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-york-township-2026",
+      "column": "date_enacted",
+      "before": "2026-02-10",
+      "after": "2026-03-10 (Ordinance No. 167 adopted after February first reading)",
+      "reason": "The official publication identifies March 10 as the adoption date.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-york-township-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-02-10",
+      "after": "2026-03-10",
+      "reason": "The original row used the first-reading date rather than the adoption date.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-york-township-2026",
+      "column": "current_status",
+      "before": "Active. Board voted 6-0 (Aye: Louis, Ludwig, Zupi, Gary, Hargrove, Neill; Absent: McGovern) to accept the first reading and publication of the Data Center Moratorium ordinance at its February 10, 2026 regular meeting; the 180-day term (running to approximately August 9, 2026) had not lapsed as of 2026-07-31 and no repeal was found.",
+      "after": "Active as of 2026-08-19. Ordinance No. 167 was adopted on 2026-03-10 after the February first reading; its six-month term runs to approximately 2026-09-06 unless replaced or extended.",
+      "reason": "Correcting the adoption date resolves the artificial August 9 expiry.",
+      "source": "MI-20260819.json"
+    },
+    {
+      "moratorium_id": "oh-jerome-township-2025",
+      "column": "current_status",
+      "before": "Active through approximately 2026-06-03 unless modified [VERIFY: no updated trustee action captured between 2026-03 and 2026-04-29]",
+      "after": "Expired approximately 2026-06-03 at the end of the documented nine-month term. Contemporary reporting confirms the moratorium did not prevent some certificates during its term; no later extension action was located through 2026-08-19. [VERIFY: post-expiry trustee action not located]",
+      "reason": "The fixed nine-month term elapsed and no extension instrument was captured.",
+      "source": "OH-20260819.json"
+    },
+    {
+      "moratorium_id": "oh-jerome-township-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "expired",
+      "reason": "Expiry does not endorse the certificates issued during the term; it only corrects the current status of the temporary instrument.",
+      "source": "OH-20260819.json"
+    }
+  ]
+}

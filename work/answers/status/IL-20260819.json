@@ -1,0 +1,24 @@
+{
+  "state_abbrev": "IL",
+  "researched_as_of": "2026-08-19",
+  "researcher": "Codex web research",
+  "decisions": [
+    {
+      "moratorium_id": "il-godfrey-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "duration": {"from": "Maximum 180 days, or until the Village Board determines sufficient information has been gathered and acts by resolution or ordinance", "to": "Extended by Village Board resolution for another 180 days on or about 2026-08-04; active through approximately 2027-01-31.", "reason": "The Board adopted a second 180-day pause before/after the original term ended."},
+        "duration_days": {"from": "180", "to": "", "reason": "The current expiry follows an extension rather than a single fixed duration from the original January action."},
+        "duration_kind": {"from": "fixed_days", "to": "until_date", "reason": "The extension is documented to run to approximately 2027-01-31."},
+        "current_status": {"from": "Active as of 2026-04-29; no superseding Village Board action identified in subsequent meeting minutes or village newsletters captured through April 2026. The 180-day cap means the resolution would expire on or about 2026-07-19 absent further action.", "to": "Extended and active as of 2026-08-19. The Village Board unanimously approved a further 180-day pause on data-center applications in early August 2026; reporting places the new endpoint at approximately 2027-01-31.", "reason": "The extension supersedes the original 180-day cap."}
+      },
+      "confidence": 0.88,
+      "evidence": [
+        {"url": "https://godfreyil.org/wp-content/uploads/2026/01/Village-Newsletter-January-2026.pdf", "title": "Village of Godfrey January 2026 newsletter", "publisher": "Village of Godfrey", "document_date": "2026-01", "source_type": "resolution", "supports": "Primary municipal publication establishes the original application pause and 180-day maximum.", "quote": "This moratorium shall remain in effect for a maximum of 180 days."},
+        {"url": "https://www.riverbender.com/news/details/godfrey-approves-6month-extension-of-data-center-application-pause-95668.cfm", "title": "Godfrey approves six-month extension", "publisher": "RiverBender", "document_date": "2026-08-04", "source_type": "news", "supports": "Reports the Village Board unanimously extended the application pause by another 180 days.", "quote": "approved a resolution which extends the village's previous moratorium ... by another 180 days"}
+      ],
+      "notes": "Obtain the signed August resolution in the next source-capture pass; the status and duration are corroborated but the current extension source is reporting."
+    }
+  ]
+}

@@ -35,6 +35,7 @@ STRING_PROPS = [
     ("jurisdiction_type", "jurisdiction_type"),
     ("enacted_status", "enacted_status"),
     ("date_enacted_iso", "date_enacted_iso"),
+    ("current_end_date_iso", "current_end_date_iso"),
     ("date_enacted_uncertainty", "date_enacted_uncertainty"),
 ]
 TRAILING_STRING_PROPS = [

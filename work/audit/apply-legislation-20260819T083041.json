@@ -1,0 +1,84 @@
+{
+  "applied_at": "20260819T083041",
+  "answer_files": [
+    "work/answers/legislation/NY-20260819.json",
+    "work/answers/legislation/PA-20260819.json",
+    "work/answers/legislation/TX-20260819.json"
+  ],
+  "stats": {
+    "outcome:confirmed_unchanged": 4,
+    "set:primary_source_url": 4,
+    "new_bills_added": 1,
+    "set:legal_effect_status": 1,
+    "set:effective_date_iso": 1,
+    "set:end_condition": 1
+  },
+  "session_notes": {},
+  "conflicts": [],
+  "changes": [
+    {
+      "bill_key": "NY:S9144 / A10141 (2026)",
+      "column": "primary_source_url",
+      "before": "",
+      "after": "https://www.nysenate.gov/legislation/bills/2025/S9144/amendment/A",
+      "reason": "The bill is not the operative New York restriction; Executive Order 62 is recorded as a separate binding state action below.",
+      "source": "NY-20260819.json"
+    },
+    {
+      "bill_key": "NY:Executive Order No. 62 (2026)",
+      "column": "<new row>",
+      "before": "",
+      "after": "Binding state-agency permitting restriction for data centers that consume or can consume 50 MW or more: DEC must hold in",
+      "reason": "This replaces the inventory's news-only, pseudo-local representation as the canonical record for the statewide action.",
+      "source": "NY-20260819.json"
+    },
+    {
+      "bill_key": "PA:SB1345",
+      "column": "primary_source_url",
+      "before": "",
+      "after": "https://www.palegis.us/legislation/bills/2025/sb1345",
+      "reason": "The related co-sponsorship memo is provenance for this bill, not a second bill record.",
+      "source": "PA-20260819.json"
+    },
+    {
+      "bill_key": "PA:SB1359",
+      "column": "primary_source_url",
+      "before": "",
+      "after": "https://www.palegis.us/legislation/bills/2025/sb1359",
+      "reason": "The related co-sponsorship memo is provenance for this bill, not a second bill record.",
+      "source": "PA-20260819.json"
+    },
+    {
+      "bill_key": "TX:SB 6 (89R, 2025)",
+      "column": "legal_effect_status",
+      "before": "unknown",
+      "after": "in_force",
+      "reason": "SB 6 is a binding utility/grid restriction, not a development-permitting moratorium.",
+      "source": "TX-20260819.json"
+    },
+    {
+      "bill_key": "TX:SB 6 (89R, 2025)",
+      "column": "effective_date_iso",
+      "before": "",
+      "after": "2025-06-20",
+      "reason": "SB 6 is a binding utility/grid restriction, not a development-permitting moratorium.",
+      "source": "TX-20260819.json"
+    },
+    {
+      "bill_key": "TX:SB 6 (89R, 2025)",
+      "column": "end_condition",
+      "before": "",
+      "after": "Ongoing statutory large-load standards; no sunset in the enacted bill text.",
+      "reason": "SB 6 is a binding utility/grid restriction, not a development-permitting moratorium.",
+      "source": "TX-20260819.json"
+    },
+    {
+      "bill_key": "TX:SB 6 (89R, 2025)",
+      "column": "primary_source_url",
+      "before": "",
+      "after": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00006F.htm",
+      "reason": "SB 6 is a binding utility/grid restriction, not a development-permitting moratorium.",
+      "source": "TX-20260819.json"
+    }
+  ]
+}

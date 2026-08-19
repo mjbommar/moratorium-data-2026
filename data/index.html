@@ -205,13 +205,13 @@
 <tbody>
 <tr>
 <td><a href="moratorium_inventory.csv"><code>moratorium_inventory.csv</code></a></td>
-<td>The 222-row main inventory. <strong>Start here.</strong></td>
+<td>533 local-moratorium instruments. <strong>Start here.</strong></td>
 <td>~190 KB</td>
 <td>CSV</td>
 </tr>
 <tr>
 <td><a href="state_legislation.csv"><code>state_legislation.csv</code></a></td>
-<td>413 state bills tracked in 2025–2026</td>
+<td>438 state bills plus 2 binding state-policy actions in 2025–2026</td>
 <td>~150 KB</td>
 <td>CSV</td>
 </tr>
@@ -244,10 +244,11 @@
 <h2 id="column-definitions">Column definitions</h2>
 <p>See <a href="../docs/codebook.html"><code>docs/codebook.md</code></a> for full definitions of every column in every file.</p>
 <h2 id="three-columns-most-users-want">Three columns most users want</h2>
-<p>The inventory CSV has 19 columns. The three most useful for typical analysis are:</p>
+<p>The inventory CSV has 26 columns. The three most useful for typical analysis are:</p>
 <ul>
 <li><strong><code>enacted_status</code></strong> — closed-vocab status: <code>active</code>, <code>extended</code>, <code>replaced</code>, <code>expired</code>, <code>rescinded</code>, or <code>pending</code>. Filter to <code>active</code> + <code>extended</code> for "moratoria currently in force"; exclude <code>pending</code> for "ever-enacted moratoria".</li>
 <li><strong><code>moratorium_id</code></strong> — stable identifier (<code>&lt;state&gt;-&lt;jurisdiction&gt;-&lt;year&gt;</code>, with phase suffixes for repeat instruments). Use this as a primary key when joining with future releases of this dataset.</li>
+<li><strong><code>current_end_date_iso</code></strong> — current fixed endpoint after any extension. Use it for expiry monitoring; <code>duration_days</code> preserves the original instrument's term.</li>
 <li><strong><code>latitude</code> / <code>longitude</code></strong> — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 220 of 222 rows are geocoded (99.1% coverage); the 2 blanks are aggregate meta-rows. Coordinates were triple-checked with zero confirmed errors after manual fixes for 4 within-state ambiguities — see <a href="../docs/known-gaps.html#geocoding-caveats-added-v2026042"><code>docs/known-gaps.md</code></a> for the audit summary.</li>
 </ul>
 <h2 id="quick-examples">Quick examples</h2>
@@ -274,9 +275,9 @@ with open(&quot;structured_extractions.jsonl&quot;) as f:
 assert len(records) == 348
 </code></pre>
 <h2 id="a-note-on-dates">A note on dates</h2>
-<p>Most <code>date_enacted</code> values are ISO format (<code>YYYY-MM-DD</code>). Some are <code>YYYY-MM</code> (day uncertain), <code>YYYY</code> (only year known), or include qualifying notes (<code>reported</code>, <code>[VERIFY]</code>, <code>proposed</code>). When parsing programmatically, expect to handle both clean and messy values. The <a href="../examples/"><code>examples/</code></a> folder has working code.</p>
+<p>Most <code>date_enacted</code> values are ISO format (<code>YYYY-MM-DD</code>). Some are <code>YYYY-MM</code> (day uncertain), <code>YYYY</code> (only year known), or include qualifying notes (<code>reported</code>, <code>[VERIFY]</code>, <code>proposed</code>). When parsing programmatically, expect to handle both clean and messy values. The <a href="https://github.com/mjbommar/moratorium-data-2026/tree/main/examples">repository's <code>examples/</code> directory</a> has working code.</p>
 <h2 id="updates">Updates</h2>
-<p>This data is current through <strong>April 2026</strong>. Each refresh is tagged as a release on GitHub. The current version is shown in <a href="../CITATION.cff"><code>../CITATION.cff</code></a>.</p>
+<p>This data is refreshed through <strong>August 19, 2026</strong>. Each refresh is tagged as a release on GitHub. The current version is shown in <a href="../CITATION.cff"><code>../CITATION.cff</code></a>.</p>
 </main>
 
 <footer>

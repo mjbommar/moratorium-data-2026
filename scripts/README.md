@@ -62,10 +62,10 @@ Rows go stale on a schedule — a moratorium expires on a known date whether or 
 anyone updates the row. To refresh:
 
 ```bash
-make worklist TODAY=2026-07-31   # what needs research, split into per-state packets
+make worklist TODAY=2026-08-19   # what needs research, split into per-state packets
 #   ... researchers write JSON decision files into work/answers/ ...
-make apply    TODAY=2026-07-31   # merge, normalize, geocode, validate
-make all      TODAY=2026-07-31   # regenerate artifacts
+make apply    TODAY=2026-08-19   # merge, normalize, geocode, validate
+make all      TODAY=2026-08-19   # regenerate artifacts
 ```
 
 Research never edits a CSV. It emits decision files conforming to

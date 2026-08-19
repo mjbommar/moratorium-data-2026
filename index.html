@@ -3,13 +3,56 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Moratorium Nation — U.S. Infrastructure Moratorium Tracker</title>
-<meta name="description" content="Open data and a 116-page working paper on 533 local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States. Updated July 2026.">
+<title>Moratorium Nation | 533 Local Pauses + State Data Center Restrictions</title>
+<meta name="description" content="Open data and a 116-page working paper on 533 local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States. Updated August 19, 2026.">
+<meta name="author" content="Michael J. Bommarito">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#2a78d6">
+<link rel="canonical" href="https://mjbommar.github.io/moratorium-data-2026/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232a78d6'/%3E%3Cpath d='M19 16h10v32H19zm16 0h10v32H35z' fill='white'/%3E%3C/svg%3E">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Moratorium Nation — U.S. Infrastructure Moratorium Tracker">
-<meta property="og:description" content="533 moratoria across 42 states. Working paper + open dataset + interactive map.">
+<meta property="og:title" content="Moratorium Nation | Local Pauses + State Data Center Restrictions">
+<meta property="og:description" content="533 local moratoria across 42 states, plus 440 state policy actions. Open data, current through August 19, 2026.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://mjbommar.github.io/moratorium-data-2026/">
+<meta property="og:site_name" content="Moratorium Nation">
+<meta property="og:image" content="https://mjbommar.github.io/moratorium-data-2026/figures/png/map-moratorium-counts.png">
+<meta property="og:image:width" content="2202">
+<meta property="og:image:height" content="1727">
+<meta property="og:image:alt" content="Map of documented local infrastructure moratoria across the United States">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Moratorium Nation | Local Pauses + State Restrictions">
+<meta name="twitter:description" content="533 local moratoria across 42 states, plus 440 state policy actions. Updated August 19, 2026.">
+<meta name="twitter:image" content="https://mjbommar.github.io/moratorium-data-2026/figures/png/map-moratorium-counts.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Moratorium Nation: U.S. Infrastructure Moratorium and State Policy Tracker",
+  "description": "Open data on local-government infrastructure moratoria and state-level data center policy actions in the United States.",
+  "url": "https://mjbommar.github.io/moratorium-data-2026/",
+  "dateModified": "2026-08-19",
+  "spatialCoverage": "United States",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {"@type": "Person", "name": "Michael J. Bommarito", "url": "https://michaelbommarito.com/"},
+  "keywords": ["data centers", "moratoria", "land use", "permitting", "large loads", "energy policy", "local government"],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Local moratorium inventory",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://mjbommar.github.io/moratorium-data-2026/data/moratorium_inventory.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "State policy tracker",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://mjbommar.github.io/moratorium-data-2026/data/state_legislation.csv"
+    }
+  ]
+}
+</script>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
@@ -94,7 +137,7 @@
   h1, h2, h3 { letter-spacing: -0.021em; text-wrap: balance; }
   strong { font-weight: 650; }
 
-  .wrap, header.hero, .stats-row, .paper-callout, .map-wrap, .timeline-wrap, main {
+  .wrap, header.hero, .stats-row, .scope-guide, .paper-callout, .map-wrap, .timeline-wrap, main {
     max-width: 1180px;
     margin-left: auto;
     margin-right: auto;
@@ -188,6 +231,59 @@
     border: 1px solid var(--line);
     border-radius: 999px;
     padding: 2px 8px;
+  }
+
+  /* ---------------------------------------------- local / state scope guide */
+  .scope-guide { padding: 26px 24px 0; }
+  .scope-shell {
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--surface-2), var(--accent-wash));
+    border: 1px solid color-mix(in srgb, var(--accent) 22%, var(--line));
+    border-radius: var(--radius-l);
+    box-shadow: var(--shadow-l);
+  }
+  .scope-intro { padding: 25px 27px 18px; }
+  .scope-intro .kicker {
+    margin: 0 0 7px;
+    color: var(--accent-ink);
+    font-size: 12px;
+    font-weight: 650;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+  }
+  .scope-intro h2 { margin: 0 0 8px; font-size: clamp(21px, 2.2vw, 28px); }
+  .scope-intro > p:last-child { margin: 0; color: var(--ink-soft); max-width: 76ch; }
+  .scope-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    border-top: 1px solid var(--line);
+  }
+  .scope-card { padding: 22px 27px; background: color-mix(in srgb, var(--surface) 88%, transparent); }
+  .scope-card + .scope-card { border-left: 1px solid var(--line); }
+  .scope-label {
+    display: block;
+    color: var(--ink-muted);
+    font-size: 11.5px;
+    font-weight: 650;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .scope-number {
+    display: block;
+    margin: 5px 0 6px;
+    font-size: clamp(29px, 3.2vw, 39px);
+    line-height: 1;
+    letter-spacing: -.03em;
+    font-variant-numeric: tabular-nums;
+  }
+  .scope-card p { margin: 0 0 11px; color: var(--ink-soft); font-size: 14px; }
+  .scope-card a { font-size: 13.5px; font-weight: 650; }
+  .scope-latest {
+    padding: 14px 27px 16px;
+    border-top: 1px solid var(--line);
+    color: var(--ink-soft);
+    font-size: 13.5px;
+    background: var(--surface);
   }
 
   /* ------------------------------------------------------- paper callout */
@@ -524,6 +620,10 @@
     #map { height: 420px; }
     .filter-buttons { margin-left: 0; }
     .release-notes { padding: 22px 18px 18px; }
+    .scope-intro, .scope-card { padding-left: 19px; padding-right: 19px; }
+    .scope-grid { grid-template-columns: 1fr; }
+    .scope-card + .scope-card { border-left: 0; border-top: 1px solid var(--line); }
+    .scope-latest { padding-left: 19px; padding-right: 19px; }
   }
   @media (prefers-reduced-motion: reduce) {
     * { transition: none !important; }
@@ -533,9 +633,9 @@
 <body>
 
 <header class="hero">
-  <div class="eyebrow"><span class="dot"></span>Updated 31 July 2026 &middot; v2026.07</div>
+  <div class="eyebrow"><span class="dot"></span>Updated 19 August 2026</div>
   <h1>Moratorium Nation</h1>
-  <p class="subtitle">Cities, counties, and townships across the United States are pausing new <strong>data centers</strong>, <strong>battery storage</strong>, <strong>solar</strong>, <strong>wind</strong>, and <strong>crypto mining</strong>. This tracks every pause we can document, with the ordinance behind it.</p>
+  <p class="subtitle">Track local pauses on <strong>data centers</strong>, <strong>battery storage</strong>, <strong>solar</strong>, <strong>wind</strong>, and <strong>crypto mining</strong>—plus the distinct state-level rules now shaping permits, grid access, costs, and local authority.</p>
 </header>
 
 <div class="stats-row">
@@ -545,20 +645,45 @@
     <div class="label">Moratorium instruments</div>
   </div>
   <div class="stat in-force">
-    <div class="num" id="stat-in-force">435</div>
+    <div class="num" id="stat-in-force">429</div>
     <div class="label">Currently in force</div>
   </div>
   <div class="stat pending">
-    <div class="num" id="stat-pending">35</div>
+    <div class="num" id="stat-pending">34</div>
     <div class="label">Pending or proposed</div>
   </div>
   <div class="stat past">
-    <div class="num" id="stat-past">63</div>
+    <div class="num" id="stat-past">70</div>
     <div class="label">Replaced, expired, or rescinded</div>
   </div>
   <div class="stat">
     <div class="num">42</div>
     <div class="label">States with at least one</div>
+  </div>
+</div>
+
+<div class="scope-guide" aria-labelledby="scope-heading">
+  <div class="scope-shell">
+    <div class="scope-intro">
+      <p class="kicker">How to read the tracker</p>
+      <h2 id="scope-heading">One buildout, two layers of restriction</h2>
+      <p>A local moratorium stops or delays approvals in one jurisdiction. State policy can instead bind an agency, utility process, incentive, or every municipality. The datasets stay separate so unlike legal effects do not collapse into one count.</p>
+    </div>
+    <div class="scope-grid">
+      <article class="scope-card">
+        <span class="scope-label">Local government</span>
+        <strong class="scope-number" id="scope-local-count">533</strong>
+        <p>City, county, township, and tribal instruments. The map and headline status counts all refer to this inventory.</p>
+        <a href="data/moratorium_inventory.csv" download>Download local inventory →</a>
+      </article>
+      <article class="scope-card">
+        <span class="scope-label">State policy</span>
+        <strong class="scope-number" id="scope-state-count">440</strong>
+        <p>438 bills plus 2 binding non-bill actions, typed by mechanism, legal effect, scope, and instrument.</p>
+        <a href="data/state_legislation.csv" download>Download state tracker →</a>
+      </article>
+    </div>
+    <div class="scope-latest"><strong>Latest binding actions:</strong> New York is holding specified state permits in abeyance during environmental review; Texas is auditing data-center projects before ERCOT interconnection can advance. Pennsylvania's moratorium bills remain proposals.</div>
   </div>
 </div>
 
@@ -595,61 +720,54 @@
 </div>
 
 <div class="timeline-wrap">
-  <img src="site/timeline.svg" alt="Monthly moratorium adoptions, 2018 through July 2026, stacked by primary sector with cumulative-total dashed line." />
-  <p class="caption">Every bar before 2022 is Washington. Cheap hydro power pulled crypto miners into the Columbia Basin, and ten Washington jurisdictions paused them in 2018. Then the map went quiet for four years. Data centers restarted it: 7 moratoria in 2023, 6 in 2024, 59 in 2025, and 294 in the first seven months of 2026. June alone accounted for 80.</p>
-  <p class="source">Source: <a href="data/moratorium_inventory.csv" download>moratorium_inventory.csv</a>, columns <code>date_enacted_iso</code> and <code>sectors</code>. The chart plots 489 of 533 instruments. It leaves out proposals still awaiting a vote, which have no adoption date, and two 2018 Washington ordinances known only to the year, which cannot be placed in a month.</p>
+  <img src="site/timeline.svg" alt="Monthly moratorium adoptions, 2018 through August 19, 2026, stacked by primary sector with cumulative-total dashed line." />
+  <p class="caption">Every bar before 2022 is Washington. Cheap hydro power pulled crypto miners into the Columbia Basin, and ten Washington jurisdictions paused them in 2018. Then the map went quiet for four years. Data centers restarted it: 7 moratoria in 2023, 6 in 2024, 59 in 2025, and 294 in the first seven months of 2026. June alone accounted for 80. August is shown only through August 19 and should not be read as a completed month.</p>
+  <p class="source">Source: <a href="data/moratorium_inventory.csv" download>moratorium_inventory.csv</a>, columns <code>date_enacted_iso</code> and <code>sectors</code>. The chart plots 490 of 533 instruments. It leaves out proposals still awaiting a vote, which have no adoption date, and two 2018 Washington ordinances known only to the year, which cannot be placed in a month.</p>
 </div>
 
 <main>
 
 <!-- BEGIN whats-changed (generated by scripts/build_index.py) -->
 <section class="release-notes">
-  <div class="stamp">Release v2026.07 &middot; 31 July 2026</div>
-  <h2>What changed since April</h2>
-  <p class="lede">The inventory grew from 222 instruments to 533, across 42 states
-  instead of 30. Method explains most of that jump. This is the first release to sweep
-  states month by month, so read 533 as a floor.</p>
+  <div class="stamp">Data refresh &middot; 19 August 2026</div>
+  <h2>The August picture</h2>
+  <p class="lede">Local governments are still using temporary pauses, but the fastest-moving
+  policy layer is now state government. The local inventory contains 533 instruments
+  across 42 states; 429 remain in force.</p>
 
-  <h3>New activity</h3>
+  <h3>What changed in this refresh</h3>
   <ul>
-    <li><strong>283 moratoria were adopted between May 1 and July 31.</strong>
-      June accounted for 80 of them, the busiest month on record.</li>
-    <li><strong>Big cities joined in.</strong> Seattle passed an emergency ordinance on June 9.
-      Cleveland followed on July 15 by a 14-1 vote, after committee cut the term from twelve
-      months to three. Minneapolis, Denver, Charlotte, and Montgomery County, Maryland all
-      acted. Durham city and Durham County each passed their own.</li>
-    <li><strong>Five states appear here for the first time:</strong> Florida, Nevada, New Mexico,
-      South Carolina, and Texas.</li>
+    <li><strong>The status review reduced the recorded in-force total by six.</strong>
+      The current mix is 381 active and 48 extended, with
+      27 expired, 37 replaced, and 6 rescinded.
+      That movement reflects elapsed terms and documented outcomes, not a six-place wave
+      of repeals.</li>
+    <li><strong>1 local adoption is confirmed for August so far:</strong>
+      Lakeland, Florida adopted Ordinance 26-018 on August 3. Parma Township, Michigan was
+      also added after its primary public notice was located.</li>
+    <li><strong>Extensions now carry a current end date.</strong> The tracker keeps the original
+      term for provenance but uses <code>current_end_date_iso</code> for the operative extension,
+      preventing the original deadline from being mistaken for a present-day lapse.</li>
   </ul>
 
-  <h3>What happened to the older ones</h3>
-  <ul>
-    <li><strong>Extension is the usual outcome.</strong> DeKalb County, Georgia voted its permanent
-      ordinance down on June 23, then pushed the pause out to March 2027. Prince George's
-      County, Maryland renewed for two more years.</li>
-    <li><strong>Nine became permanent rules</strong> - among them Griffin and Polk County in
-      Georgia, Montour County in Pennsylvania, Brevard in North Carolina, and St. Charles
-      Parish in Louisiana.</li>
-    <li><strong>Six simply lapsed.</strong> La Grange, Kentucky and Waterville, Ohio let theirs
-      run out with nothing ready to replace them.</li>
-    <li><strong>A few went the other way.</strong> Lowell Township, Michigan voted a moratorium
-      down 2-5. Hill County, Texas repealed one after a developer sued for $100 million.
-      Oliver County, North Dakota repealed its third pause seven weeks in.</li>
-  </ul>
-
-  <h3>State legislation</h3>
-  <p>All 438 tracked bills now carry a final disposition, and 84 are law.
-  Legislatures went after cost allocation more than siting. New Jersey signed its large-load
-  tariff act on July 7. Oklahoma passed a Data Center Customer Protection Act, Maryland the
-  Utility RELIEF Act, and Idaho now requires a "no harm" test for any new load above 50
-  megawatts. Florida moved the opposite way and protected local land-use authority.</p>
+  <h3>State restrictions are a separate policy layer</h3>
+  <p>The state tracker now distinguishes 438 bills from
+  2 binding non-bill actions, with
+  84 enacted bills. <a href="https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops">New York Executive Order 62</a>
+  holds specified state-agency permits in abeyance while a statewide environmental review
+  proceeds. <a href="https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit">Texas's August 3 directive</a>
+  pauses ERCOT interconnection progress pending an audit. Pennsylvania
+  <a href="https://www.palegis.us/legislation/bills/2025/sb1345">SB 1345</a> would authorize
+  municipal pauses, while <a href="https://www.palegis.us/legislation/bills/2025/sb1359">SB 1359</a>
+  proposes a statewide moratorium; both remain proposals. The typed policy fields preserve
+  those legal differences.</p>
 
   <h3>How to read the coverage</h3>
-  <p>50 states got the month-by-month sweep. The other 0 did not, so their
-  May-July counts are floors. Florida shows why: it held one row before its sweep and
-  14 after. The state did not change. Our looking did. Five swept states recorded no
-  local adoptions at all - a finding worth as much as a count.
-  <a href="docs/known-gaps.html">Known gaps</a> has the full accounting.</p>
+  <p>All 50 states received a month-by-month sweep for May through July, so that
+  window is the most comparable part of the series. August is current only through the 19th
+  and is not a completed monthly sweep. Pre-May totals remain lower bounds because they came
+  from document search and opportunistic discovery.
+  <a href="docs/known-gaps.html">Known gaps</a> records the coverage boundaries.</p>
 </section>
 <!-- END whats-changed -->
 
@@ -662,7 +780,7 @@
   <h2>Top 13 states by moratorium count</h2>
   <div class="panel"><p>Thirteen states hold roughly two in three of the instruments we have found. Click a state for every moratorium in it, written in plain English.</p>
   <div class="top-states">
-    <div class="row"><a href="states/michigan.html"><strong>Michigan</strong></a><strong>63</strong></div>
+    <div class="row"><a href="states/michigan.html"><strong>Michigan</strong></a><strong>64</strong></div>
     <div class="row"><a href="states/ohio.html"><strong>Ohio</strong></a><strong>53</strong></div>
     <div class="row"><a href="states/georgia.html"><strong>Georgia</strong></a><strong>47</strong></div>
     <div class="row"><a href="states/north-carolina.html"><strong>North Carolina</strong></a><strong>40</strong></div>
@@ -672,9 +790,9 @@
     <div class="row"><a href="states/washington.html"><strong>Washington</strong></a><strong>19</strong></div>
     <div class="row"><a href="states/wisconsin.html"><strong>Wisconsin</strong></a><strong>16</strong></div>
     <div class="row"><a href="states/kentucky.html"><strong>Kentucky</strong></a><strong>15</strong></div>
-    <div class="row"><a href="states/new-york.html"><strong>New York</strong></a><strong>15</strong></div>
     <div class="row"><a href="states/florida.html"><strong>Florida</strong></a><strong>14</strong></div>
     <div class="row"><a href="states/missouri.html"><strong>Missouri</strong></a><strong>14</strong></div>
+    <div class="row"><a href="states/new-york.html"><strong>New York</strong></a><strong>14</strong></div>
   </div>
   <p style="margin-top: 12px;"><a href="states/index.html">All 42 states with moratoria →</a></p></div>
 </section>
@@ -711,7 +829,7 @@
   <div class="grid-3">
     <div class="card">
       <h3><a href="https://servercountry.org/">servercountry.org</a></h3>
-      <p>An educational resource on the $1 trillion AI data center buildout: 10+ explainer articles, a 604-project database across all 50 states, glossary of 52+ terms, plus the full book <em>This Is Server Country</em> (402 pages).</p>
+      <p>An educational resource on the AI data center buildout, with explainers, a nationwide project database, a glossary, and the full book <em>This Is Server Country</em>.</p>
       <a href="https://servercountry.org/">Visit →</a>
     </div>
     <div class="card">
@@ -729,7 +847,7 @@
 
 <section>
   <h2>Status &amp; contributions</h2>
-  <div class="panel"><p>This release is <strong>v2026.07</strong>, current as of 31 July 2026. Found a moratorium we missed, or an error worth fixing? <a href="https://github.com/mjbommar/moratorium-data-2026/issues/new/choose">Open an issue</a> and we will take it up in the next refresh, which runs roughly quarterly while the wave lasts.</p></div>
+  <div class="panel"><p>This working snapshot is current through <strong>19 August 2026</strong>. The latest tagged release remains <strong>v2026.07</strong>. Found a moratorium we missed, or an error worth fixing? <a href="https://github.com/mjbommar/moratorium-data-2026/issues/new/choose">Open an issue</a> and we will take it up in the next refresh, which runs roughly quarterly while the wave lasts.</p></div>
 </section>
 
 </main>

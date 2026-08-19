@@ -71,7 +71,7 @@ We manually reviewed every extraction record to:
 - Resolve `[VERIFY]` flags by re-checking primary sources via real-Chrome browser sessions
 - Add moratoria identified through news coverage but missed by automated extraction
 
-As of the v2026.07 refresh the cleaned inventory has **323 entries across 35 states** (`data/moratorium_inventory.csv`). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.
+As of the 2026-08-19 working snapshot the cleaned inventory has **533 instruments across 42 states** (`data/moratorium_inventory.csv`). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.
 
 ### Phase 4: Geocoding (added v2026.04.2)
 
@@ -80,7 +80,7 @@ Each row in the cleaned inventory was assigned WGS84 latitude and longitude coor
 1. **Primary geocoder: OSM Nominatim.** Free, open-source, with reasonable U.S. administrative boundary coverage. Rate-limited to 1 request/second per the public API usage policy.
 2. **Fallback: U.S. Census Geocoder.** Used when Nominatim returns no result. The Census Geocoder is authoritative for U.S. jurisdictions but works best for street addresses; for "Jurisdiction, State" queries we found Nominatim more reliable.
 
-Of 323 rows, 321 (99.4%) are successfully geocoded. The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
+Of 533 rows, 531 (99.6%) are successfully geocoded. The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
 
 After geocoding, a triple-check audit ran 89 verifications across three independent methods:
 
@@ -97,14 +97,14 @@ Across all 89 verifications, **zero confirmed wrong geocodes** (after the 4 manu
 
 Each correction used article-context disambiguation (`legal_basis`, `trigger`, and news-source mentions). Treat the lat/lon column as ≥99% accurate. The script is `scripts/geocode_inventory.py`; re-run after adding new rows to fill in their coordinates.
 
-## Why the inventory (n=323) and the extraction cohort (n=348) differ
+## Why the inventory (n=533) and the extraction cohort (n=348) differ
 
 Right — the numbers can be confusing. Here's the difference:
 
-- **Inventory (n=323):** the cleaned, deduplicated count of unique moratorium **instruments** (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.
+- **Inventory (n=533):** the cleaned, deduplicated count of unique moratorium **instruments** (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.
 - **Structured-extraction cohort (n=348):** the count of confidence-filtered structured **extractions**. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.
 
-The two numbers measure different things and do not need to match. The 323 is the headline count of moratoria; the 348 is the size of the line-coded sample used for clause-prevalence percentages.
+The two numbers measure different things and do not need to match. The 533 is the headline count of moratoria; the 348 is the size of the line-coded sample used for clause-prevalence percentages.
 
 ## What we don't claim
 
@@ -130,7 +130,8 @@ which rows need attention as of a reference date, and why:
 
 | Bucket | Meaning |
 |---|---|
-| `expired_in_force` | recorded in force, but `date_enacted_iso + duration_days` has already passed |
+| `expired_in_force` | recorded in force, but the known current end date (or, if unextended, `date_enacted_iso + duration_days`) has already passed |
+| `extension_end_unknown` | an extended action has no independently recorded current fixed endpoint, so its original term cannot be used as its expiration |
 | `until_date_stale` | in force, ends on a calendar date not captured in typed columns |
 | `stale_pending` | proposed, and old enough that it has surely been decided |
 | `open_ended` | in force with no scheduled end — currency must be affirmatively confirmed |
@@ -177,7 +178,7 @@ application safe when different states' research lands at different times.
 
 ## Reproducibility
 
-Every step of the pipeline can be re-run. The scripts are in [`scripts/`](../scripts/) with a [README](../scripts/README.md) explaining each one. To regenerate every artifact from the source data:
+Every step of the pipeline can be re-run. The scripts and their README are in the [repository's `scripts/` directory](https://github.com/mjbommar/moratorium-data-2026/tree/main/scripts). To regenerate every artifact from the source data:
 
 ```bash
 pip install pandas matplotlib seaborn geopandas shapely markdown pymdown-extensions

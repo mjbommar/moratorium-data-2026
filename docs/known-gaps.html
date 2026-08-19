@@ -194,7 +194,7 @@
 <p>We're confident in what's in this dataset, but here's an honest accounting of what we know we're missing.</p>
 <h2 id="what-we-know-we-dont-have">What we know we don't have</h2>
 <h3 id="small-township-records-that-arent-online">Small-township records that aren't online</h3>
-<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>180 of the 323 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>), down from 123 of 222 in v2026.04.4 after a targeted verification pass.</p>
+<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>182 of the 533 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>), down from 123 of 222 in v2026.04.4 after a targeted verification pass.</p>
 <h3 id="records-behind-authentication-or-captcha-gates">Records behind authentication or CAPTCHA gates</h3>
 <p>Some primary sources (notably the NC eCourts portal at <code>portal-nc.tylertech.cloud</code>, several Legistar instances, and certain Granicus-archived meetings) are protected by Akamai-style human-verification challenges that defeat automated retrieval. For affected entries, we use the best secondary source (county press releases, local news) and document the evidence ceiling.</p>
 <h3 id="coverage-of-the-may-july-2026-window-v202607">Coverage of the May-July 2026 window (v2026.07)</h3>
@@ -341,7 +341,7 @@ from an earlier release.</p>
 </tbody>
 </table>
 <h2 id="geocoding-caveats-added-v2026042">Geocoding caveats (added v2026.04.2)</h2>
-<p>531 of 323 jurisdictions are geocoded to WGS84 lat/lon via OSM Nominatim. The 2 blanks are aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) that aren't real geographic points.</p>
+<p>531 of 533 instruments are geocoded to WGS84 lat/lon via OSM Nominatim. The 2 blanks are aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) that aren't real geographic points.</p>
 <p><strong>Within-state name ambiguity.</strong> Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:</p>
 <ul>
 <li>Lake Township, OH (Wood County, not Logan County)</li>

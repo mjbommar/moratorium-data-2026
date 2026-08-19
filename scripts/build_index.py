@@ -35,8 +35,8 @@ SWEEP = REPO / "data" / "sweep_coverage.json"
 VERIFY_RE = re.compile(r"\[VERIFY", re.IGNORECASE)
 
 # Human-facing label for the current release; bump with the release.
-RELEASE_LABEL = "July 2026"
-RELEASE_DATE = "31 July 2026"
+RELEASE_LABEL = "August 19, 2026"
+RELEASE_DATE = "19 August 2026"
 
 NUMBER_WORDS = {
     10: "Ten", 11: "Eleven", 12: "Twelve", 13: "Thirteen",
@@ -85,10 +85,15 @@ def facts() -> dict:
         1 for r in inv
         if (x := _d(r["date_enacted_iso"])) and _dt.date(2026,5,1) <= x <= _dt.date(2026,7,31)
     )
+    august_adoptions = sum(
+        1 for r in inv
+        if (x := _d(r["date_enacted_iso"])) and _dt.date(2026, 8, 1) <= x <= _dt.date(2026, 8, 19)
+    )
 
     return {
         "rows": len(inv),
         "window_adoptions": window_adoptions,
+        "august_adoptions": august_adoptions,
         "dated": sum(1 for r in inv if _d(r["date_enacted_iso"])),
         # The chart bins by month, so a year-only date cannot be plotted.
         "plotted": sum(
@@ -96,15 +101,21 @@ def facts() -> dict:
             if len((r["date_enacted_iso"] or "")[:7]) == 7 and (r["date_enacted_iso"] or "")[4:5] == "-"
         ),
         "fl_rows": by_state.get("Florida", 0),
-        "bills_enacted": sum(1 for r in leg if r.get("bill_status_category") == "enacted"),
+        "bills_enacted": sum(1 for r in leg if r.get("policy_instrument_type", "bill") == "bill" and r.get("bill_status_category") == "enacted"),
         "cohort": cohort,
         "cohort_jurisdictions": cohort_j,
         "in_force": c["active"] + c["extended"],
+        "active": c["active"],
+        "extended": c["extended"],
         "pending": c["pending"],
+        "replaced": c["replaced"],
+        "expired": c["expired"],
+        "rescinded": c["rescinded"],
         "past": c["replaced"] + c["expired"] + c["rescinded"],
         "states": len(by_state),
         "geocoded": sum(1 for r in inv if r["latitude"].strip()),
-        "bills": len(leg),
+        "bills": sum(1 for r in leg if r.get("policy_instrument_type", "bill") == "bill"),
+        "state_policy_actions": len(leg),
         "top": by_state.most_common(13),
         "swept_count": len(swept),
     }
@@ -130,55 +141,47 @@ def changes_section(f: dict) -> str:
     house style in ../book-template/docs/guides/STYLE.md: front-loaded claims,
     active voice, varied sentence length, no filler transitions.
     """
-    unswept = 50 - f["swept_count"]
     return f"""{CHANGES_START}
 <section class="release-notes">
-  <div class="stamp">Release v2026.07 &middot; 31 July 2026</div>
-  <h2>What changed since April</h2>
-  <p class="lede">The inventory grew from 222 instruments to {f['rows']}, across {f['states']} states
-  instead of 30. Method explains most of that jump. This is the first release to sweep
-  states month by month, so read {f['rows']} as a floor.</p>
+  <div class="stamp">Data refresh &middot; 19 August 2026</div>
+  <h2>The August picture</h2>
+  <p class="lede">Local governments are still using temporary pauses, but the fastest-moving
+  policy layer is now state government. The local inventory contains {f['rows']} instruments
+  across {f['states']} states; {f['in_force']} remain in force.</p>
 
-  <h3>New activity</h3>
+  <h3>What changed in this refresh</h3>
   <ul>
-    <li><strong>{f['window_adoptions']} moratoria were adopted between May 1 and July 31.</strong>
-      June accounted for 80 of them, the busiest month on record.</li>
-    <li><strong>Big cities joined in.</strong> Seattle passed an emergency ordinance on June 9.
-      Cleveland followed on July 15 by a 14-1 vote, after committee cut the term from twelve
-      months to three. Minneapolis, Denver, Charlotte, and Montgomery County, Maryland all
-      acted. Durham city and Durham County each passed their own.</li>
-    <li><strong>Five states appear here for the first time:</strong> Florida, Nevada, New Mexico,
-      South Carolina, and Texas.</li>
+    <li><strong>The status review reduced the recorded in-force total by six.</strong>
+      The current mix is {f['active']} active and {f['extended']} extended, with
+      {f['expired']} expired, {f['replaced']} replaced, and {f['rescinded']} rescinded.
+      That movement reflects elapsed terms and documented outcomes, not a six-place wave
+      of repeals.</li>
+    <li><strong>{f['august_adoptions']} local adoption is confirmed for August so far:</strong>
+      Lakeland, Florida adopted Ordinance 26-018 on August 3. Parma Township, Michigan was
+      also added after its primary public notice was located.</li>
+    <li><strong>Extensions now carry a current end date.</strong> The tracker keeps the original
+      term for provenance but uses <code>current_end_date_iso</code> for the operative extension,
+      preventing the original deadline from being mistaken for a present-day lapse.</li>
   </ul>
 
-  <h3>What happened to the older ones</h3>
-  <ul>
-    <li><strong>Extension is the usual outcome.</strong> DeKalb County, Georgia voted its permanent
-      ordinance down on June 23, then pushed the pause out to March 2027. Prince George's
-      County, Maryland renewed for two more years.</li>
-    <li><strong>Nine became permanent rules</strong> - among them Griffin and Polk County in
-      Georgia, Montour County in Pennsylvania, Brevard in North Carolina, and St. Charles
-      Parish in Louisiana.</li>
-    <li><strong>Six simply lapsed.</strong> La Grange, Kentucky and Waterville, Ohio let theirs
-      run out with nothing ready to replace them.</li>
-    <li><strong>A few went the other way.</strong> Lowell Township, Michigan voted a moratorium
-      down 2-5. Hill County, Texas repealed one after a developer sued for $100 million.
-      Oliver County, North Dakota repealed its third pause seven weeks in.</li>
-  </ul>
-
-  <h3>State legislation</h3>
-  <p>All {f['bills']} tracked bills now carry a final disposition, and {f['bills_enacted']} are law.
-  Legislatures went after cost allocation more than siting. New Jersey signed its large-load
-  tariff act on July 7. Oklahoma passed a Data Center Customer Protection Act, Maryland the
-  Utility RELIEF Act, and Idaho now requires a "no harm" test for any new load above 50
-  megawatts. Florida moved the opposite way and protected local land-use authority.</p>
+  <h3>State restrictions are a separate policy layer</h3>
+  <p>The state tracker now distinguishes {f['bills']} bills from
+  {f['state_policy_actions'] - f['bills']} binding non-bill actions, with
+  {f['bills_enacted']} enacted bills. <a href="https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops">New York Executive Order 62</a>
+  holds specified state-agency permits in abeyance while a statewide environmental review
+  proceeds. <a href="https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit">Texas's August 3 directive</a>
+  pauses ERCOT interconnection progress pending an audit. Pennsylvania
+  <a href="https://www.palegis.us/legislation/bills/2025/sb1345">SB 1345</a> would authorize
+  municipal pauses, while <a href="https://www.palegis.us/legislation/bills/2025/sb1359">SB 1359</a>
+  proposes a statewide moratorium; both remain proposals. The typed policy fields preserve
+  those legal differences.</p>
 
   <h3>How to read the coverage</h3>
-  <p>{f['swept_count']} states got the month-by-month sweep. The other {unswept} did not, so their
-  May-July counts are floors. Florida shows why: it held one row before its sweep and
-  {f['fl_rows']} after. The state did not change. Our looking did. Five swept states recorded no
-  local adoptions at all - a finding worth as much as a count.
-  <a href="docs/known-gaps.html">Known gaps</a> has the full accounting.</p>
+  <p>All {f['swept_count']} states received a month-by-month sweep for May through July, so that
+  window is the most comparable part of the series. August is current only through the 19th
+  and is not a completed monthly sweep. Pre-May totals remain lower bounds because they came
+  from document search and opportunistic discovery.
+  <a href="docs/known-gaps.html">Known gaps</a> records the coverage boundaries.</p>
 </section>
 {CHANGES_END}"""
 
@@ -195,19 +198,28 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
         f"{share} percent"
     )
     return [
+        ("document title",
+         r'(<title>Moratorium Nation \| )\d+( Local Pauses \+ State Data Center Restrictions</title>)',
+         rf"\g<1>{f['rows']}\g<2>"),
         ("meta description",
          r'(<meta name="description" content="Open data and a 116-page working paper on )\d+( local-government moratoria)',
          rf"\g<1>{f['rows']}\g<2>"),
         ("meta description date",
-         r'(cryptocurrency mining across the United States\. Updated )[A-Z][a-z]+ \d{4}(\.")',
+         r'(cryptocurrency mining across the United States\. Updated )[A-Z][a-z]+(?: \d{1,2},)? \d{4}(\.")',
          rf"\g<1>{RELEASE_LABEL}\g<2>"),
         ("og:description",
-         r'(<meta property="og:description" content=")\d+( moratoria across )\d+( states)',
+         r'(<meta property="og:description" content=")\d+( local moratoria across )\d+( states)',
          rf"\g<1>{f['rows']}\g<2>{f['states']}\g<3>"),
+        ("og state-policy count",
+         r'(<meta property="og:description" content="[^\n]+, plus )\d+( state policy actions\.)',
+         rf"\g<1>{f['state_policy_actions']}\g<2>"),
+        ("twitter description",
+         r'(<meta name="twitter:description" content=")\d+( local moratoria across )\d+( states, plus )\d+( state policy actions\.)',
+         rf"\g<1>{f['rows']}\g<2>{f['states']}\g<3>{f['state_policy_actions']}\g<4>"),
         # The date lives in the hero eyebrow now, not the subtitle.
         ("hero eyebrow date",
          r'(<div class="eyebrow"><span class="dot"></span>Updated )[^<]*(</div>)',
-         rf"\g<1>{RELEASE_DATE} &middot; v2026.07\g<2>"),
+         rf"\g<1>{RELEASE_DATE}\g<2>"),
         ("stat-total",
          r'(<div class="num" id="stat-total">)\d+(</div>)',
          rf"\g<1>{f['rows']}\g<2>"),
@@ -227,6 +239,12 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
         ("stat-states",
          r'(<div class="num">)\d+(</div>\s*\n\s*<div class="label">States with at least one</div>)',
          rf"\g<1>{f['states']}\g<2>"),
+        ("scope local count",
+         r'(<strong class="scope-number" id="scope-local-count">)\d+(</strong>)',
+         rf"\g<1>{f['rows']}\g<2>"),
+        ("scope state count",
+         r'(<strong class="scope-number" id="scope-state-count">)\d+(</strong>)',
+         rf"\g<1>{f['state_policy_actions']}\g<2>"),
         ("map caption",
          r"(Map shows )\d+( of )\d+( instruments\.)",
          rf"\g<1>{f['geocoded']}\g<2>{f['rows']}\g<3>"),
@@ -252,7 +270,8 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          'miners into the Columbia Basin, and ten Washington jurisdictions paused them in 2018. '
          'Then the map went quiet for four years. Data centers restarted it: 7 moratoria in 2023, '
          '6 in 2024, 59 in 2025, and 294 in the first seven months of 2026. June alone '
-         'accounted for 80.</p>\n'
+         'accounted for 80. August is shown only through August 19 and should not be read as '
+         'a completed month.</p>\n'
          '  <p class="source">Source: <a href="data/moratorium_inventory.csv" download>'
          'moratorium_inventory.csv</a>, columns <code>date_enacted_iso</code> and '
          f'<code>sectors</code>. The chart plots {f["plotted"]} of {f["rows"]} instruments. '
@@ -260,7 +279,7 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          '2018 Washington ordinances known only to the year, which cannot be placed in a '
          'month.</p>'),
         ("timeline alt text",
-         r"(alt=\"Monthly moratorium adoptions, 2018 through )[A-Z][a-z]+ \d{4}(,)",
+         r"(alt=\"Monthly moratorium adoptions, 2018 through )[A-Z][a-z]+(?: \d{1,2},)? \d{4}(,)",
          rf"\g<1>{RELEASE_LABEL}\g<2>"),
         # The clause cohort is NOT the inventory -- it was collected before
         # 2026-04-28 and covers 211 jurisdictions. Stating that inline stops the
@@ -273,9 +292,10 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          f"taxonomy; that sample predates 28 April 2026 and covers "
          f"{f['cohort_jurisdictions']} jurisdictions, so it describes what moratoria contain "
          f"rather than all {f['rows']} of them."),
-        ("release version",
-         r"(This release is <strong>)v[\d.]+(</strong>)",
-         rf"\g<1>v2026.07\g<2>"),
+        ("status snapshot",
+         r'(This working snapshot is current through <strong>)[^<]+(</strong>\. '
+         r'The latest tagged release remains <strong>)v[\d.]+(</strong>\.)',
+         rf'\g<1>{RELEASE_DATE}\g<2>v2026.07\g<3>'),
     ]
 
 

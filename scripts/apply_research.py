@@ -65,7 +65,7 @@ INVENTORY_COLUMNS = [
     "duration", "legal_basis", "trigger", "current_status", "affected_projects",
     "outcome", "has_verify_tags", "verify_count", "cite_count", "activity_level",
     "enacted_status", "moratorium_id", "latitude", "longitude", "date_enacted_iso",
-    "date_enacted_uncertainty", "duration_days", "duration_kind", "sectors",
+    "date_enacted_uncertainty", "duration_days", "duration_kind", "current_end_date_iso", "sectors",
     "trigger_categories",
 ]
 

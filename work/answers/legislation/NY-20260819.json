@@ -1,0 +1,60 @@
+{
+  "state_abbrev": "NY",
+  "researched_as_of": "2026-08-19",
+  "researcher": "Codex web research",
+  "decisions": [
+    {
+      "bill_key": "NY:S9144 / A10141 (2026)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "policy_instrument_type": "bill",
+        "policy_mechanism": "statewide_moratorium",
+        "legal_effect_status": "proposed",
+        "scope_of_action": "statewide",
+        "primary_source_url": "https://www.nysenate.gov/legislation/bills/2025/S9144/amendment/A"
+      },
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "url": "https://www.nysenate.gov/legislation/bills/2025/S9144/amendment/A",
+          "title": "New York Senate Bill S9144A",
+          "source_type": "legislature_bill_page",
+          "supports": "Confirms S9144A remains a proposed statutory statewide permit moratorium, distinct from Executive Order 62.",
+          "quote": "Imposes a moratorium on the issuance of permits for new data centers."
+        }
+      ],
+      "notes": "The bill is not the operative New York restriction; Executive Order 62 is recorded as a separate binding state action below."
+    }
+  ],
+  "new_bills": [
+    {
+      "state": "New York",
+      "bill": "Executive Order No. 62 (2026)",
+      "sponsors": "Governor Kathy Hochul",
+      "party": "",
+      "status": "Signed 2026-07-14; DEC must hold in abeyance incomplete discretionary permit applications for covered data centers until DPS submits the final Generic Environmental Impact Statement and findings statement.",
+      "bill_status_category": "enacted",
+      "last_action_date_iso": "2026-07-14",
+      "chamber_of_origin": "unknown",
+      "policy_instrument_type": "executive_order",
+      "policy_mechanism": "statewide_moratorium",
+      "legal_effect_status": "in_force",
+      "scope_of_action": "state_agency",
+      "effective_date_iso": "2026-07-14",
+      "end_condition": "Ends when DPS submits the final Generic Environmental Impact Statement and associated findings statement; the order excludes local-government permits, approvals, licenses, and similar permissions.",
+      "primary_source_url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+      "key_provisions": "Binding state-agency permitting restriction for data centers that consume or can consume 50 MW or more: DEC must hold incomplete discretionary permits, approvals, licenses, and similar permissions while DPS completes a statewide Generic Environmental Impact Statement; it does not override local permitting or zoning.",
+      "confidence": 0.99,
+      "evidence": [
+        {
+          "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+          "title": "New York Executive Order No. 62",
+          "source_type": "governor_action",
+          "supports": "Official text establishes the effective date, DEC hold, GEIS endpoint, 50 MW definition, and local-permit exclusion.",
+          "quote": "DEC ... is directed to hold in abeyance all applications for any discretionary permit ... that ... have not been determined to be complete ... before the date of this Executive Order."
+        }
+      ],
+      "notes": "This replaces the inventory's news-only, pseudo-local representation as the canonical record for the statewide action."
+    }
+  ]
+}

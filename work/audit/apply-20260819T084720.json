@@ -1,0 +1,91 @@
+{
+  "applied_at": "20260819T084720",
+  "answer_files": [
+    "work/answers/status/CO-current-end-20260819.json",
+    "work/answers/status/GA-current-end-20260819.json",
+    "work/answers/status/IN-current-end-20260819.json",
+    "work/answers/status/KS-current-end-20260819.json",
+    "work/answers/status/MI-current-end-20260819.json",
+    "work/answers/status/OH-current-end-20260819.json"
+  ],
+  "stats": {
+    "outcome:corrected": 9,
+    "fields_changed": 9
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "co-larimer-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-02-25",
+      "reason": "The recorded second extension expressly runs through February 25, 2027; this is the operative end, not the original 30-day term.",
+      "source": "CO-current-end-20260819.json"
+    },
+    {
+      "moratorium_id": "ga-bulloch-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-12-31",
+      "reason": "The May 5 extension expressly runs to December 31, 2026.",
+      "source": "GA-current-end-20260819.json"
+    },
+    {
+      "moratorium_id": "ga-dekalb-county-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-03-30",
+      "reason": "The July 7 extension resolution's reported operative end is March 30, 2027.",
+      "source": "GA-current-end-20260819.json"
+    },
+    {
+      "moratorium_id": "ga-roswell-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-09-20",
+      "reason": "The second extension expressly runs through September 20, 2026.",
+      "source": "GA-current-end-20260819.json"
+    },
+    {
+      "moratorium_id": "in-franklin-county-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-02-24",
+      "reason": "The current twelve-month extension is recorded as running through February 24, 2027.",
+      "source": "IN-current-end-20260819.json"
+    },
+    {
+      "moratorium_id": "ks-sedgwick-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-09-11",
+      "reason": "Sedgwick County's second extension sets this endpoint.",
+      "source": "KS-current-end-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-armada-township-undated",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-12-07",
+      "reason": "Resolution No. 2026-10 adds 180 days from June 10, 2026; the endpoint is the documented term calculated from that effective date.",
+      "source": "MI-current-end-20260819.json"
+    },
+    {
+      "moratorium_id": "oh-ashville-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-01-02",
+      "reason": "Ordinance 2026-14 imposed a new 180-day term from July 6, 2026.",
+      "source": "OH-current-end-20260819.json"
+    },
+    {
+      "moratorium_id": "oh-washington-township-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-09-05",
+      "reason": "The extension resolution expressly sets September 5, 2026.",
+      "source": "OH-current-end-20260819.json"
+    }
+  ]
+}

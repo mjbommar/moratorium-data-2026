@@ -1,0 +1,30 @@
+{
+  "state_abbrev": "FL",
+  "researched_as_of": "2026-08-19",
+  "researcher": "Codex web research",
+  "decisions": [
+    {
+      "moratorium_id": "fl-lakeland-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "date_enacted": {"from": "City Commission held the advertised public hearing and first reading 2026-07-20; second reading scheduled 2026-08-03 (after the compilation window). Not yet finally enacted.", "to": "2026-08-03, City Commission adopted Ordinance No. 26-018 by a 4-3 vote.", "reason": "The second reading resulted in final passage."},
+        "date_enacted_iso": {"from": "", "to": "2026-08-03", "reason": "The reported final vote date is specific."},
+        "date_enacted_uncertainty": {"from": "unverified", "to": "exact", "reason": "The final vote date is confirmed by contemporaneous reporting."},
+        "duration": {"from": "Proposed 12-month moratorium on data centers and large-load customers while staff studies electric, water, noise, and land-use impacts.", "to": "One year from 2026-08-03, unless amended or repealed sooner. Covers new data centers and large-load customers with anticipated peak demand of 50 MW or more while the City reviews its planning and land-development rules.", "reason": "Final Ordinance No. 26-018 adopted the proposed twelve-month term."},
+        "legal_basis": {"from": "City of Lakeland proposed moratorium ordinance (first reading only; second reading scheduled 2026-08-03, after the compilation window)", "to": "City of Lakeland Ordinance No. 26-018, adopted 2026-08-03 by a 4-3 vote", "reason": "The proposed measure received final passage and now has a confirmed instrument number."},
+        "current_status": {"from": "Pending second reading (scheduled 2026-08-03); not yet adopted as of 2026-07-31. [VERIFY instrument number; adoption date not confirmed at confidence 0.65 in the 2026-07 refresh]", "to": "Active as of 2026-08-19. The City Commission adopted Ordinance No. 26-018 4-3 on 2026-08-03, pausing acceptance, processing, review, and approval of covered applications for one year.", "reason": "The pending action became an enacted, operative local moratorium."},
+        "outcome": {"from": "", "to": "Ordinance No. 26-018 is effective immediately and pauses new covered applications while the City considers permanent rules.", "reason": "The prior blank outcome no longer reflects the enacted action."}
+      },
+      "verify_resolutions": [
+        {"field": "current_status", "marker": "[VERIFY instrument number; adoption date not confirmed at confidence 0.65 in the 2026-07 refresh]", "resolution": "confirmed", "note": "Final measure is reported as Ordinance No. 26-018, adopted August 3, 2026."}
+      ],
+      "confidence": 0.94,
+      "evidence": [
+        {"url": "https://www.lakelandgov.net/news/?category=46582&page=1", "title": "Legal Notice: Proposed Ordinance 26-018", "publisher": "City of Lakeland", "document_date": "2026-07-20", "source_type": "agenda", "supports": "Official City notice identifies Ordinance 26-018 and its August 3 final-passage hearing.", "quote": "Legal Notice: Proposed Ordinance 26-018"},
+        {"url": "https://wusf.org/text/politics-issues/2026-08-03/lakeland-approves-one-year-moratorium-on-data-centers", "title": "Lakeland approves one-year moratorium on data centers", "publisher": "WUSF Public Media", "document_date": "2026-08-03", "source_type": "news", "supports": "Reports the 4-3 final vote for a one-year moratorium on data centers and businesses expected to use at least 50 MW."}
+      ],
+      "notes": "The official notice establishes the ordinance number and hearing; public-media reporting establishes the final vote and term. Preserve the direct ordinance PDF if the City posts it."
+    }
+  ]
+}

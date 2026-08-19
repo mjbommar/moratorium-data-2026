@@ -1,0 +1,155 @@
+{
+  "applied_at": "20260819T083416",
+  "answer_files": [
+    "work/answers/status/CA-20260819.json",
+    "work/answers/status/GA-20260819.json",
+    "work/answers/status/IL-20260819.json",
+    "work/answers/status/ME-20260819.json"
+  ],
+  "stats": {
+    "outcome:status_changed": 4,
+    "fields_changed": 13,
+    "status_changed": 4,
+    "verify_still_open": 2
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "ca-imperial-county-2026",
+      "column": "duration",
+      "before": "45 days",
+      "after": "Extended to a one-year moratorium on 2026-07-14; reported to run into June 2027 while the County's advisory committee develops recommendations.",
+      "reason": "The original 45-day urgency ordinance was superseded by the County's July extension.",
+      "source": "CA-20260819.json"
+    },
+    {
+      "moratorium_id": "ca-imperial-county-2026",
+      "column": "duration_days",
+      "before": "45",
+      "after": "",
+      "reason": "The public record identifies a one-year extension but not a reliable fixed-day calculation from the original adoption date.",
+      "source": "CA-20260819.json"
+    },
+    {
+      "moratorium_id": "ca-imperial-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "until_event",
+      "reason": "The continuing measure is tied to the advisory/zoning process rather than the original 45-day term.",
+      "source": "CA-20260819.json"
+    },
+    {
+      "moratorium_id": "ca-imperial-county-2026",
+      "column": "current_status",
+      "before": "Board froze all data center project approvals and established a special committee to examine land use and zoning regulations, with findings due in January (2027).",
+      "after": "Extended and active as of 2026-08-19. Imperial County's Board extended the initial 45-day emergency pause to a one-year moratorium while the Data Center Advisory Committee evaluates zoning and land-use policy; reporting describes the pause as running into June 2027.",
+      "reason": "The July extension displaced the expired original term.",
+      "source": "CA-20260819.json"
+    },
+    {
+      "moratorium_id": "ca-imperial-county-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "The County agenda is primary for the original action; the July extension date and term should be rechecked against the signed July ordinance when it is posted.",
+      "source": "CA-20260819.json"
+    },
+    {
+      "moratorium_id": "ga-walker-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-09; county planned an August 6 public hearing on a further 180-day extension while staff review siting, buffer, noise, lighting, water, electricity, and environmental standards [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+      "after": "The documented 30-day moratorium expired on approximately 2026-08-08. Walker County's official July notice said the Board would consider a 180-day extension after a public hearing; no adopted extension instrument was located in the County's published materials reviewed through 2026-08-19. [VERIFY: signed resolution or later extension record not located]",
+      "reason": "A fixed 30-day term cannot remain active without a later adopted extension.",
+      "source": "GA-20260819.json"
+    },
+    {
+      "moratorium_id": "ga-walker-county-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "expired",
+      "reason": "This is an expiry determination from the fixed term, not evidence that Walker County has adopted permanent data-center regulations.",
+      "source": "GA-20260819.json"
+    },
+    {
+      "moratorium_id": "il-godfrey-2026",
+      "column": "duration",
+      "before": "Maximum 180 days, or until the Village Board determines sufficient information has been gathered and acts by resolution or ordinance",
+      "after": "Extended by Village Board resolution for another 180 days on or about 2026-08-04; active through approximately 2027-01-31.",
+      "reason": "The Board adopted a second 180-day pause before/after the original term ended.",
+      "source": "IL-20260819.json"
+    },
+    {
+      "moratorium_id": "il-godfrey-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "The current expiry follows an extension rather than a single fixed duration from the original January action.",
+      "source": "IL-20260819.json"
+    },
+    {
+      "moratorium_id": "il-godfrey-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "until_date",
+      "reason": "The extension is documented to run to approximately 2027-01-31.",
+      "source": "IL-20260819.json"
+    },
+    {
+      "moratorium_id": "il-godfrey-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-04-29; no superseding Village Board action identified in subsequent meeting minutes or village newsletters captured through April 2026. The 180-day cap means the resolution would expire on or about 2026-07-19 absent further action.",
+      "after": "Extended and active as of 2026-08-19. The Village Board unanimously approved a further 180-day pause on data-center applications in early August 2026; reporting places the new endpoint at approximately 2027-01-31.",
+      "reason": "The extension supersedes the original 180-day cap.",
+      "source": "IL-20260819.json"
+    },
+    {
+      "moratorium_id": "il-godfrey-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "Obtain the signed August resolution in the next source-capture pass; the status and duration are corroborated but the current extension source is reporting.",
+      "source": "IL-20260819.json"
+    },
+    {
+      "moratorium_id": "me-sanford-2026",
+      "column": "duration",
+      "before": "Reported as a 91-day pause",
+      "after": "Initial 91-day emergency pause extended by City Council for an additional 180 days on 2026-08-04.",
+      "reason": "The Council adopted a second, longer pause before the original term expired.",
+      "source": "ME-20260819.json"
+    },
+    {
+      "moratorium_id": "me-sanford-2026",
+      "column": "duration_days",
+      "before": "91",
+      "after": "",
+      "reason": "The current term is an extension, not a single fixed duration from the original adoption date.",
+      "source": "ME-20260819.json"
+    },
+    {
+      "moratorium_id": "me-sanford-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "until_event",
+      "reason": "The published report confirms an additional 180 days but the signed extension's effective-date language has not yet been captured.",
+      "source": "ME-20260819.json"
+    },
+    {
+      "moratorium_id": "me-sanford-2026",
+      "column": "current_status",
+      "before": "Likely still active as of 2026-07-31 if the reported 91-day term is accurate (would run to roughly mid-August 2026), but this could not be confirmed against a primary source. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-07 refresh]",
+      "after": "Extended and active as of 2026-08-19. Sanford City Council unanimously extended the emergency data-center moratorium by 180 days on 2026-08-04. [VERIFY: signed extension order/ordinance number not located]",
+      "reason": "The reported Council vote confirms continuation beyond the initial August expiration.",
+      "source": "ME-20260819.json"
+    },
+    {
+      "moratorium_id": "me-sanford-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "The update corrects the expired-term drift while retaining the primary-source verification marker.",
+      "source": "ME-20260819.json"
+    }
+  ]
+}

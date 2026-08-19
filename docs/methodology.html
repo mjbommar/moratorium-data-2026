@@ -244,14 +244,14 @@
 <li>Resolve <code>[VERIFY]</code> flags by re-checking primary sources via real-Chrome browser sessions</li>
 <li>Add moratoria identified through news coverage but missed by automated extraction</li>
 </ul>
-<p>As of the v2026.07 refresh the cleaned inventory has <strong>323 entries across 35 states</strong> (<code>data/moratorium_inventory.csv</code>). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.</p>
+<p>As of the 2026-08-19 working snapshot the cleaned inventory has <strong>533 instruments across 42 states</strong> (<code>data/moratorium_inventory.csv</code>). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.</p>
 <h3 id="phase-4-geocoding-added-v2026042">Phase 4: Geocoding (added v2026.04.2)</h3>
 <p>Each row in the cleaned inventory was assigned WGS84 latitude and longitude coordinates representing the jurisdiction's centroid. Two-tiered approach:</p>
 <ol>
 <li><strong>Primary geocoder: OSM Nominatim.</strong> Free, open-source, with reasonable U.S. administrative boundary coverage. Rate-limited to 1 request/second per the public API usage policy.</li>
 <li><strong>Fallback: U.S. Census Geocoder.</strong> Used when Nominatim returns no result. The Census Geocoder is authoritative for U.S. jurisdictions but works best for street addresses; for "Jurisdiction, State" queries we found Nominatim more reliable.</li>
 </ol>
-<p>Of 323 rows, 321 (99.4%) are successfully geocoded. The 2 blanks are aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) that aren't real geographic points.</p>
+<p>Of 533 rows, 531 (99.6%) are successfully geocoded. The 2 blanks are aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) that aren't real geographic points.</p>
 <p>After geocoding, a triple-check audit ran 89 verifications across three independent methods:</p>
 <ol>
 <li><strong>Random sampling against geographic knowledge</strong> (24 rows): manually verify each coordinate matches a well-known location.</li>
@@ -266,13 +266,13 @@
 <li>Waterville Township, OH (Stark County → Lucas County)</li>
 </ul>
 <p>Each correction used article-context disambiguation (<code>legal_basis</code>, <code>trigger</code>, and news-source mentions). Treat the lat/lon column as ≥99% accurate. The script is <code>scripts/geocode_inventory.py</code>; re-run after adding new rows to fill in their coordinates.</p>
-<h2 id="why-the-inventory-n323-and-the-extraction-cohort-n348-differ">Why the inventory (n=323) and the extraction cohort (n=348) differ</h2>
+<h2 id="why-the-inventory-n533-and-the-extraction-cohort-n348-differ">Why the inventory (n=533) and the extraction cohort (n=348) differ</h2>
 <p>Right — the numbers can be confusing. Here's the difference:</p>
 <ul>
-<li><strong>Inventory (n=323):</strong> the cleaned, deduplicated count of unique moratorium <strong>instruments</strong> (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.</li>
+<li><strong>Inventory (n=533):</strong> the cleaned, deduplicated count of unique moratorium <strong>instruments</strong> (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.</li>
 <li><strong>Structured-extraction cohort (n=348):</strong> the count of confidence-filtered structured <strong>extractions</strong>. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.</li>
 </ul>
-<p>The two numbers measure different things and do not need to match. The 323 is the headline count of moratoria; the 348 is the size of the line-coded sample used for clause-prevalence percentages.</p>
+<p>The two numbers measure different things and do not need to match. The 533 is the headline count of moratoria; the 348 is the size of the line-coded sample used for clause-prevalence percentages.</p>
 <h2 id="what-we-dont-claim">What we don't claim</h2>
 <ul>
 <li><strong>We don't claim to have every moratorium.</strong> Small townships without online minutes are nearly impossible to find systematically. Where we know our coverage is incomplete, we say so in <a href="known-gaps.html"><code>docs/known-gaps.md</code></a>.</li>
@@ -301,7 +301,11 @@ which rows need attention as of a reference date, and why:</p>
 <tbody>
 <tr>
 <td><code>expired_in_force</code></td>
-<td>recorded in force, but <code>date_enacted_iso + duration_days</code> has already passed</td>
+<td>recorded in force, but the known current end date (or, if unextended, <code>date_enacted_iso + duration_days</code>) has already passed</td>
+</tr>
+<tr>
+<td><code>extension_end_unknown</code></td>
+<td>an extended action has no independently recorded current fixed endpoint, so its original term cannot be used as its expiration</td>
 </tr>
 <tr>
 <td><code>until_date_stale</code></td>
@@ -357,7 +361,7 @@ rebuild every artifact; then the validator runs again.</p>
 over already-applied answers is a clean no-op, which is what makes incremental
 application safe when different states' research lands at different times.</p>
 <h2 id="reproducibility">Reproducibility</h2>
-<p>Every step of the pipeline can be re-run. The scripts are in <a href="../scripts/"><code>scripts/</code></a> with a <a href="../scripts/index.html">README</a> explaining each one. To regenerate every artifact from the source data:</p>
+<p>Every step of the pipeline can be re-run. The scripts and their README are in the <a href="https://github.com/mjbommar/moratorium-data-2026/tree/main/scripts">repository's <code>scripts/</code> directory</a>. To regenerate every artifact from the source data:</p>
 <pre><code class="language-bash">pip install pandas matplotlib seaborn geopandas shapely markdown pymdown-extensions
 
 python3 scripts/validate_dataset.py          # gate
@@ -387,14 +391,19 @@ shipped CSVs.</p>
 </thead>
 <tbody>
 <tr>
-<td>Document discovery</td>
+<td>Document discovery (through v2026.04)</td>
 <td>OpenAI Codex CLI with web-search</td>
 <td><code>gpt-5.5</code> at medium reasoning effort</td>
 </tr>
 <tr>
-<td>State-month chronology</td>
+<td>State-month chronology (v2026.07 sweep)</td>
 <td>OpenAI Codex CLI with web-search</td>
-<td><code>gpt-5.5</code> at medium reasoning effort</td>
+<td><code>gpt-5.6-sol</code> at high reasoning effort</td>
+</tr>
+<tr>
+<td>Status, verification, and legislation research (v2026.07)</td>
+<td>Claude Code subagents</td>
+<td><code>claude-sonnet-5</code></td>
 </tr>
 <tr>
 <td>SerpAPI ordinance search</td>
@@ -433,6 +442,19 @@ shipped CSVs.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="a-note-on-cost">A note on cost</h2>
+<p>The 50-state month-by-month sweep behind v2026.07 is <strong>150 model calls</strong>, one per
+state per month, each with web search enabled. That is the expensive step in this
+pipeline by a wide margin, and it scales as call count times model tier times
+reasoning effort.</p>
+<p><code>research_moratoria.py</code> pins its model and reasoning effort rather than
+inheriting them from the operator's interactive config, and refuses a batch above
+25 calls without an explicit <code>--yes</code>. Both defaults are deliberately modest:
+state-month research is retrieval and summarization against public records, and
+raising the reasoning tier buys very little on that kind of work.</p>
+<p>Anyone reproducing the sweep should scope it first -- <code>--only</code>, <code>--start</code>, and
+<code>--end</code> narrow the run, and <code>--dry-run</code> prints the work plan without spending
+anything.</p>
 <h2 id="updates">Updates</h2>
 <p>Each refresh of the dataset is a tagged GitHub release (<code>v2026.04</code>, <code>v2026.07</code>, ...) with a corresponding <a href="https://doi.org/">Zenodo DOI</a> (planned). Refresh cadence is roughly quarterly while the moratorium wave is active.</p>
 </main>

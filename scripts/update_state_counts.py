@@ -1,33 +1,50 @@
 #!/usr/bin/env python3
-"""Update per-state status counts in states/README.md and individual state pages.
+"""Build the state index and every per-state page from the local inventory.
 
-Source of truth is data/moratorium_inventory.csv. The script:
-- Recomputes per-state {in_force, pending, past, total} from `enacted_status`.
-- Patches the headline summary line at the top of each states/<slug>.md.
-- Patches the headline summary block + per-state table in states/README.md.
+The old script patched counts into hand-written April pages. That made the
+headlines look current while the tables underneath remained frozen, and it did
+not create pages when a state entered the dataset. This builder treats the CSV
+as the source of truth and rewrites all current state pages in full.
 
-Run from repo root after the inventory CSV's enacted_status changes:
-    python3 scripts/update_state_counts.py
+Run from the repository root after changing the inventory:
+    python3 scripts/update_state_counts.py --as-of 2026-08-19
 """
 
 from __future__ import annotations
 
+import argparse
 import csv
-import re
-from collections import defaultdict
+import datetime as dt
+import json
+from collections import Counter, defaultdict
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 INV = REPO / "data" / "moratorium_inventory.csv"
+LEG = REPO / "data" / "state_legislation.csv"
 STATES_DIR = REPO / "states"
 
+US_STATES = {
+    "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado",
+    "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho",
+    "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana",
+    "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota",
+    "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada",
+    "New Hampshire", "New Jersey", "New Mexico", "New York",
+    "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon",
+    "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota",
+    "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington",
+    "West Virginia", "Wisconsin", "Wyoming",
+}
+
 GROUPS = {
-    "active": "in_force",
-    "extended": "in_force",
-    "pending": "pending",
-    "replaced": "past",
-    "expired": "past",
-    "rescinded": "past",
+    "active": "in_force", "extended": "in_force", "pending": "pending",
+    "replaced": "past", "expired": "past", "rescinded": "past",
+}
+
+STATUS_LABEL = {
+    "active": "🟢 Active", "extended": "🟢 Extended", "pending": "🟡 Pending",
+    "replaced": "⚪ Replaced", "expired": "⚪ Expired", "rescinded": "🔴 Rescinded",
 }
 
 
@@ -35,108 +52,159 @@ def slug_for(state: str) -> str:
     return state.lower().replace(" ", "-")
 
 
-def compute_counts() -> tuple[dict, dict]:
-    per_state: dict[str, dict[str, int]] = defaultdict(lambda: {"in_force": 0, "pending": 0, "past": 0, "total": 0})
-    totals = {"in_force": 0, "pending": 0, "past": 0, "total": 0}
-    with open(INV, encoding="utf-8") as f:
-        for r in csv.DictReader(f):
-            st = r["state"]
-            bucket = GROUPS.get(r["enacted_status"])
-            if not bucket:
-                continue
-            per_state[st][bucket] += 1
-            per_state[st]["total"] += 1
-            totals[bucket] += 1
-            totals["total"] += 1
-    return dict(per_state), totals
+def load_csv(path: Path) -> list[dict[str, str]]:
+    with path.open(encoding="utf-8", newline="") as f:
+        return list(csv.DictReader(f))
 
 
-def patch_state_page(state: str, counts: dict[str, int]) -> bool:
-    """Patch the **N instruments — A in force, B pending, C past.** line.
+def plain(value: str | None) -> str:
+    """Keep source wording while making it safe in ordinary Markdown prose."""
+    value = " ".join((value or "").split())
+    return value or "—"
 
-    Returns True if file was modified.
-    """
-    slug = slug_for(state)
-    path = STATES_DIR / f"{slug}.md"
-    if not path.exists():
-        return False
-    text = path.read_text(encoding="utf-8")
-    new_summary = (
+
+def table_cell(value: str | None) -> str:
+    return plain(value).replace("|", "\\|")
+
+
+def sectors(value: str | None) -> str:
+    try:
+        vals = json.loads(value or "[]")
+    except json.JSONDecodeError:
+        vals = []
+    return ", ".join(str(v).replace("_", " ") for v in vals) or "—"
+
+
+def counts_for(rows: list[dict[str, str]]) -> dict[str, int]:
+    out = {"in_force": 0, "pending": 0, "past": 0, "total": len(rows)}
+    for row in rows:
+        out[GROUPS[row["enacted_status"]]] += 1
+    return out
+
+
+def state_page(
+    state: str,
+    rows: list[dict[str, str]],
+    policy_rows: list[dict[str, str]],
+    as_of: dt.date,
+) -> str:
+    counts = counts_for(rows)
+    bill_count = sum(r.get("policy_instrument_type", "bill") == "bill" for r in policy_rows)
+    other_count = len(policy_rows) - bill_count
+    date_label = as_of.strftime("%B %-d, %Y")
+    policy_note = (
+        f"State policy is tracked separately: **{len(policy_rows)} action{'s' if len(policy_rows) != 1 else ''}** "
+        f"({bill_count} bill{'s' if bill_count != 1 else ''}"
+        + (f" and {other_count} non-bill action{'s' if other_count != 1 else ''}" if other_count else "")
+        + ") in [`state_legislation.csv`](../data/state_legislation.csv). "
+        "These are not included in the local count above."
+    )
+    lines = [
+        "<!-- Generated by scripts/update_state_counts.py; edit the canonical CSVs, not this page. -->",
+        f"# {state} local moratoria", "",
+        f"Every local infrastructure moratorium in the inventory for {state}, current through **{date_label}**.", "",
         f"**{counts['total']} instrument{'s' if counts['total'] != 1 else ''}** — "
-        f"{counts['in_force']} in force, "
-        f"{counts['pending']} pending, "
-        f"{counts['past']} past"
-    )
-    pat = re.compile(r"\*\*\d+ instruments?\*\* — \d+ in force, \d+ pending, \d+ past")
-    if pat.search(text):
-        text2 = pat.sub(new_summary, text, count=1)
-    else:
-        return False
-    if text2 != text:
-        path.write_text(text2, encoding="utf-8")
-        return True
-    return False
-
-
-def patch_states_readme(per_state: dict, totals: dict) -> None:
-    path = STATES_DIR / "README.md"
-    text = path.read_text(encoding="utf-8")
-
-    # Patch the total-count line
-    text = re.sub(
-        r"_Updated through April 2026\. \d+ moratorium instruments tracked across \d+ states\._",
-        f"_Updated through April 2026. {totals['total']} moratorium instruments tracked across {len(per_state)} states._",
-        text,
-    )
-
-    # Patch the three headline bullets
-    text = re.sub(
-        r"- 🟢 \*\*\d+ currently in force\*\* \(active \+ extended\)",
-        f"- 🟢 **{totals['in_force']} currently in force** (active + extended)",
-        text,
-    )
-    text = re.sub(
-        r"- 🟡 \*\*\d+ pending or proposed\*\* \(not yet adopted\)",
-        f"- 🟡 **{totals['pending']} pending or proposed** (not yet adopted)",
-        text,
-    )
-    text = re.sub(
-        r"- ⚪ \*\*\d+ expired, replaced, or rescinded\*\* \(no longer in force\)",
-        f"- ⚪ **{totals['past']} expired, replaced, or rescinded** (no longer in force)",
-        text,
-    )
-
-    # Patch the per-state table
-    def patch_row(match: re.Match[str]) -> str:
-        state, total_old, in_force_old, pending_old, past_old = match.groups()
-        c = per_state.get(state)
-        if not c:
-            return match.group(0)  # state not in CSV (probably "no moratoria" state)
-        return (
-            f"| [{state}]({slug_for(state)}.md) | {c['total']} | "
-            f"{c['in_force']} | {c['pending']} | {c['past']} |"
+        f"{counts['in_force']} in force, {counts['pending']} pending, {counts['past']} past.", "",
+        policy_note, "",
+        "| Jurisdiction | Type | Enacted | Sectors | Status |",
+        "|---|---|---|---|---|",
+    ]
+    ordered = sorted(rows, key=lambda r: (r["jurisdiction"].lower(), r["moratorium_id"]))
+    for row in ordered:
+        enacted = row.get("date_enacted_iso") or "Unverified"
+        lines.append(
+            f"| {table_cell(row['jurisdiction'])} | {table_cell(row['jurisdiction_type'])} | "
+            f"{table_cell(enacted)} | {table_cell(sectors(row.get('sectors')))} | "
+            f"{STATUS_LABEL[row['enacted_status']]} |"
         )
 
-    row_pat = re.compile(r"\| \[([A-Z][A-Za-z ]+)\]\([a-z\-]+\.md\) \| (\d+) \| (\d+) \| (\d+) \| (\d+) \|")
-    text = row_pat.sub(patch_row, text)
+    lines += ["", "## Detailed entries", ""]
+    for row in ordered:
+        lines += [
+            f"### {plain(row['jurisdiction'])}", "",
+            f"- **Type:** {plain(row['jurisdiction_type'])}",
+            f"- **Status:** {STATUS_LABEL[row['enacted_status']]}",
+            f"- **Date enacted:** {plain(row.get('date_enacted'))}",
+            f"- **Normalized date:** `{plain(row.get('date_enacted_iso'))}` ({plain(row.get('date_enacted_uncertainty'))})",
+            f"- **Duration:** {plain(row.get('duration'))}",
+            f"- **Current end date:** `{plain(row.get('current_end_date_iso'))}`",
+            f"- **Sectors:** {plain(sectors(row.get('sectors')))}",
+            f"- **Moratorium ID:** `{plain(row.get('moratorium_id'))}`",
+            f"- **Legal basis:** {plain(row.get('legal_basis'))}",
+            f"- **What prompted it:** {plain(row.get('trigger'))}",
+            f"- **Affected projects:** {plain(row.get('affected_projects'))}",
+            f"- **Detailed status:** {plain(row.get('current_status'))}",
+            f"- **Outcome:** {plain(row.get('outcome'))}", "",
+        ]
+    lines += [
+        "---", "",
+        "_Source: [moratorium_inventory.csv](../data/moratorium_inventory.csv) · "
+        "[Methodology](../docs/methodology.md) · [Codebook](../docs/codebook.md)._", "",
+        "[← Back to state index](README.md) · [Back to repository](../README.md)", "",
+    ]
+    return "\n".join(lines)
 
-    path.write_text(text, encoding="utf-8")
+
+def state_index(by_state: dict[str, list[dict[str, str]]], as_of: dt.date) -> str:
+    per_state = {state: counts_for(rows) for state, rows in by_state.items()}
+    totals = Counter()
+    for counts in per_state.values():
+        totals.update(counts)
+    missing = sorted(US_STATES - set(by_state))
+    date_label = as_of.strftime("%B %-d, %Y")
+    lines = [
+        "<!-- Generated by scripts/update_state_counts.py; edit the canonical CSV, not this page. -->",
+        "# State-by-state local moratorium index", "",
+        f"_Current through {date_label}. {totals['total']} local moratorium instruments tracked across {len(by_state)} states._", "",
+        f"- 🟢 **{totals['in_force']} currently in force** (active + extended)",
+        f"- 🟡 **{totals['pending']} pending or proposed** (not yet adopted)",
+        f"- ⚪ **{totals['past']} expired, replaced, or rescinded** (no longer in force)", "",
+        "State bills, executive orders, governor directives, and other state-level restrictions are a separate legal layer. "
+        "They are typed in [`state_legislation.csv`](../data/state_legislation.csv) and are not included in these local counts.", "",
+        "## States with at least one local moratorium", "",
+        "| State | Total instruments | 🟢 In force | 🟡 Pending | ⚪ Past |",
+        "|---|---:|---:|---:|---:|",
+    ]
+    ordered = sorted(per_state.items(), key=lambda item: (-item[1]["total"], item[0]))
+    for state, counts in ordered:
+        lines.append(
+            f"| [{state}]({slug_for(state)}.md) | {counts['total']} | "
+            f"{counts['in_force']} | {counts['pending']} | {counts['past']} |"
+        )
+    lines += [
+        "", f"## States with no local moratoria in the inventory ({len(missing)})", "",
+        ", ".join(missing), "",
+        f"“No local moratoria” means none were identified through {date_label}. "
+        "A state may still have legislation, a binding state action, or a rejected local proposal.", "",
+        "## Reading each state page", "",
+        "Each row is one local instrument adopted or proposed by a city, county, township, tribal government, or other local jurisdiction. "
+        "The original duration and current extension end are separate fields. State-policy actions are counted independently.", "",
+        "[← Back to repository](../README.md)", "",
+    ]
+    return "\n".join(lines)
 
 
 def main() -> None:
-    per_state, totals = compute_counts()
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--as-of", type=dt.date.fromisoformat, default=dt.date.today())
+    args = ap.parse_args()
 
-    print(f"Total: {totals}")
-    patched_pages = 0
-    for state, counts in per_state.items():
-        if patch_state_page(state, counts):
-            patched_pages += 1
-            print(f"  Patched: states/{slug_for(state)}.md  -> "
-                  f"{counts['in_force']}/{counts['pending']}/{counts['past']} (total {counts['total']})")
+    inventory, legislation = load_csv(INV), load_csv(LEG)
+    by_state: dict[str, list[dict[str, str]]] = defaultdict(list)
+    policy_by_state: dict[str, list[dict[str, str]]] = defaultdict(list)
+    for row in inventory:
+        by_state[row["state"]].append(row)
+    for row in legislation:
+        policy_by_state[row["state"]].append(row)
 
-    patch_states_readme(per_state, totals)
-    print(f"\nPatched {patched_pages} state pages")
-    print(f"Patched: states/README.md")
+    for state, rows in sorted(by_state.items()):
+        path = STATES_DIR / f"{slug_for(state)}.md"
+        path.write_text(state_page(state, rows, policy_by_state[state], args.as_of), encoding="utf-8")
+        print(f"Wrote {path.relative_to(REPO)} ({len(rows)} local instruments)")
+
+    index = STATES_DIR / "README.md"
+    index.write_text(state_index(by_state, args.as_of), encoding="utf-8")
+    print(f"Wrote {index.relative_to(REPO)} ({len(by_state)} states)")
 
 
 if __name__ == "__main__":

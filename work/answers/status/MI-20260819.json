@@ -1,0 +1,79 @@
+{
+  "state_abbrev": "MI",
+  "researched_as_of": "2026-08-19",
+  "researcher": "Codex web research",
+  "decisions": [
+    {
+      "moratorium_id": "mi-clark-township-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "expired",
+      "changes": {"current_status": {"from": "Active through approximately 2026-06-24", "to": "Expired approximately 2026-06-24 at the end of the documented one-year term. A later Township agenda shows data-center ordinance work, but no adopted extension was located through 2026-08-19. [VERIFY: post-expiry ordinance or extension record not located]", "reason": "The one-year term elapsed and no continuation instrument was found."}},
+      "confidence": 0.78,
+      "evidence": [{"url": "https://clarktwpmi.gov/wp-content/uploads/2026/04/FINAL-Agenda-for-April-15-2026-meeting.pdf", "title": "Clark Township Board agenda", "publisher": "Clark Township", "document_date": "2026-04-15", "source_type": "agenda", "supports": "Confirms the Township was considering a data-center ordinance during the original moratorium; it does not establish an extension.", "quote": "Moratorium on Data Centers, Data Center Ordinance"}],
+      "notes": "Expiry follows the fixed term recorded from the prior source; future adopted regulation should be recorded separately if it replaces the pause."
+    },
+    {
+      "moratorium_id": "mi-hayes-township-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "duration": {"from": "180 days (per primary source: Interlochen Public Radio reporting on the unanimously adopted resolution; MLive's 30-day figure appears erroneous)", "to": "One-year moratorium, reported as adopted/revised while the Township studies data-center regulations.", "reason": "Later reporting describes the governing moratorium as a one-year pause."},
+        "duration_days": {"from": "180", "to": "", "reason": "The revised resolution and precise effective date have not been captured."},
+        "duration_kind": {"from": "fixed_days", "to": "until_event", "reason": "Keep the row current without inventing a fixed expiry before obtaining the revised resolution."},
+        "current_status": {"from": "Active through approximately 2026-08-09 (180 days from 2026-02-10)", "to": "Extended and active as of 2026-08-19. Multiple later reports describe Hayes Township's data-center moratorium as a one-year pause while it studies potential zoning regulations. [VERIFY: revised signed resolution and exact end date not captured]", "reason": "The subsequent one-year description supersedes the original 180-day status."}
+      },
+      "confidence": 0.82,
+      "evidence": [{"url": "https://www.9and10news.com/2026/06/16/citizens-research-council-report-addresses-michigan-data-center-impacts/", "title": "Hayes Township one-year moratorium report", "publisher": "9&10 News", "document_date": "2026-06-16", "source_type": "news", "supports": "Reports Hayes Township has passed a one-year moratorium and is studying its next steps.", "quote": "Hayes Township in Charlevoix has passed a one-year moratorium on data center approvals."}],
+      "notes": "The source resolves the stale 180-day label but does not substitute for the revised Township resolution."
+    },
+    {
+      "moratorium_id": "mi-lodi-township-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "expired",
+      "changes": {"current_status": {"from": "Active; effective 2026-02-11", "to": "Expired approximately 2026-08-02 at the end of the documented 180-day term. The Township considered data-center zoning text during the term, but no adopted extension was located through 2026-08-19. [VERIFY: post-expiry action not located]", "reason": "The fixed term elapsed without a captured continuation instrument."}},
+      "confidence": 0.78,
+      "evidence": [{"url": "https://loditownshipmi.org/wp-content/uploads/2026/02/2026-02-03.pdf", "title": "Lodi Township Board agenda", "publisher": "Lodi Township", "document_date": "2026-02-03", "source_type": "agenda", "supports": "Primary Township material identifies the data-center moratorium ordinance/resolution under consideration.", "quote": "Data Center Moratorium – Ordinance #2026-001/Resolution #2026-007"}],
+      "notes": "A permanent zoning amendment, if adopted, is not an extension and should be recorded as an outcome rather than assumed here."
+    },
+    {
+      "moratorium_id": "mi-pontiac-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "expired",
+      "changes": {"current_status": {"from": "Active as of 2026-04-29", "to": "Expired approximately 2026-07-20 at the end of the documented six-month term. No adopted extension was located through 2026-08-19. [VERIFY: post-expiry Council action not located]", "reason": "The fixed term elapsed without a captured extension."}},
+      "confidence": 0.75,
+      "evidence": [{"url": "https://localprogress.org/2026/02/16/lpmi-state-download-data-center-wins-ice-free-zones-bold-local-leadership-winter-2026/", "title": "Michigan local government data-center update", "publisher": "Local Progress Michigan", "document_date": "2026-02-16", "source_type": "news", "supports": "Corroborates that Pontiac was implementing a moratorium while evaluating proposals.", "quote": "Mayor Mike McGuiness and Councilmember Mikal Goodman are implementing a moratorium."}],
+      "notes": "The initial six-month term is in the pre-refresh record; obtain the Council resolution or later agenda in a source-capture follow-up."
+    },
+    {
+      "moratorium_id": "mi-springfield-township-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "expired",
+      "changes": {"current_status": {"from": "Active as of 2026-04-29; nominal 180-day expiration around 2026-06-09 [VERIFY: future event, expiration not yet reached as of 2026-04-29]", "to": "Expired approximately 2026-06-09 at the end of the documented 180-day term. No adopted extension was located through 2026-08-19. [VERIFY: post-expiry Township action not located]", "reason": "The original temporary pause elapsed; the old future-event verification flag is superseded by an explicit post-expiry search limitation."}},
+      "verify_resolutions": [{"field": "current_status", "marker": "[VERIFY: future event, expiration not yet reached as of 2026-04-29]", "resolution": "corrected", "note": "The future event has passed; no continuation instrument was located in this refresh."}],
+      "confidence": 0.78,
+      "evidence": [{"url": "https://www.govtech.com/artificial-intelligence/michigan-township-passes-temporary-data-center-moratorium", "title": "Springfield Township temporary moratorium", "publisher": "Government Technology", "document_date": "2026-01-07", "source_type": "news", "supports": "Confirms the 180-day temporary moratorium and that it could be extended only if necessary.", "quote": "enacted a 180-day moratorium"}],
+      "notes": "Do not infer continuation from the continued development discussion in later sources."
+    },
+    {
+      "moratorium_id": "mi-sylvan-township-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "expired",
+      "changes": {"current_status": {"from": "Active as of 2026-04-29", "to": "Expired approximately 2026-07-21 at the end of the limited 180-day term, absent a documented earlier replacement ordinance or extension. [VERIFY: post-expiry Township action not located]", "reason": "The limited moratorium expressly ended after 180 days or an earlier amended/new ordinance; neither continuation has been captured."}},
+      "confidence": 0.8,
+      "evidence": [{"url": "https://thesuntimesnews.com/sylvan-township-decides-on-data-center-moratorium-and-new-computers/", "title": "Sylvan Township limited moratorium", "publisher": "The Sun Times News", "document_date": "2026-01-22", "source_type": "news", "supports": "Reports the term ends after 180 days or when a new/amended Township ordinance takes effect.", "quote": "shall terminate 180 days after the effective date, or the effective date of any amended or new Township ordinances"}],
+      "notes": "This classification preserves the possibility of an uncollected replacement ordinance rather than assuming one exists."
+    },
+    {
+      "moratorium_id": "mi-york-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {"from": "2026-02-10", "to": "2026-03-10 (Ordinance No. 167 adopted after February first reading)", "reason": "The official publication identifies March 10 as the adoption date."},
+        "date_enacted_iso": {"from": "2026-02-10", "to": "2026-03-10", "reason": "The original row used the first-reading date rather than the adoption date."},
+        "current_status": {"from": "Active. Board voted 6-0 (Aye: Louis, Ludwig, Zupi, Gary, Hargrove, Neill; Absent: McGovern) to accept the first reading and publication of the Data Center Moratorium ordinance at its February 10, 2026 regular meeting; the 180-day term (running to approximately August 9, 2026) had not lapsed as of 2026-07-31 and no repeal was found.", "to": "Active as of 2026-08-19. Ordinance No. 167 was adopted on 2026-03-10 after the February first reading; its six-month term runs to approximately 2026-09-06 unless replaced or extended.", "reason": "Correcting the adoption date resolves the artificial August 9 expiry."}
+      },
+      "confidence": 0.95,
+      "evidence": [{"url": "https://thesuntimesnews.com/york-charter-twp-notice-of-publication-by-posting-data-center-moratorium-ordinance/", "title": "York Charter Township Ordinance No. 167 publication", "publisher": "The Sun Times News / York Charter Township notice", "document_date": "2026-03-13", "source_type": "ordinance", "supports": "Published notice identifies Ordinance No. 167 as adopted March 10 after first reading February 10.", "quote": "Ordinance No. 167, was adopted ... March 10, 2026"}],
+      "notes": "This is a date correction, not an extension."
+    }
+  ]
+}

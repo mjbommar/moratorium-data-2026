@@ -72,6 +72,8 @@ def build() -> dict:
 
     inv_by_state = Counter(r["state"] for r in inv)
     leg_by_state = Counter(r["state"] for r in leg)
+    bill_rows = [r for r in leg if r.get("policy_instrument_type", "bill") == "bill"]
+    bills_by_state = Counter(r["state"] for r in bill_rows)
 
     # activity_level is a per-state attribute repeated on every row; take the
     # value from the inventory when the state has rows, else from legislation.
@@ -92,7 +94,8 @@ def build() -> dict:
             "abbreviation": abbrev.get(state, ""),
             "activity_level": activity.get(state, "None"),
             "local_moratoria_count": inv_by_state.get(state, 0),
-            "state_bills_count": leg_by_state.get(state, 0),
+            "state_bills_count": bills_by_state.get(state, 0),
+            "state_policy_actions_count": leg_by_state.get(state, 0),
         }
         page = STATES_DIR / f"{slug}.md"
         if page.exists():
@@ -131,7 +134,8 @@ def build() -> dict:
     return {
         "total_states": len(ALL_STATES),
         "total_local_moratoria": len(inv),
-        "total_state_bills": len(leg),
+        "total_state_bills": len(bill_rows),
+        "total_state_policy_actions": len(leg),
         "states_by_activity_level": dict(
             Counter(state_details[s]["activity_level"] for s in ALL_STATES).most_common()
         ),

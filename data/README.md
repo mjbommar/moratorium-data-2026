@@ -6,8 +6,8 @@ The canonical data files for this project.
 
 | File | What it is | Size | Format |
 |------|------------|------|--------|
-| [`moratorium_inventory.csv`](moratorium_inventory.csv) | The 222-row main inventory. **Start here.** | ~190 KB | CSV |
-| [`state_legislation.csv`](state_legislation.csv) | 413 state bills tracked in 2025–2026 | ~150 KB | CSV |
+| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 533 local-moratorium instruments. **Start here.** | ~190 KB | CSV |
+| [`state_legislation.csv`](state_legislation.csv) | 438 state bills plus 2 binding state-policy actions in 2025–2026 | ~150 KB | CSV |
 | [`summary_stats.json`](summary_stats.json) | Top-level aggregates (counts by state, by status, etc.) | ~12 KB | JSON |
 | [`structured_extractions.jsonl`](structured_extractions.jsonl) | 864 lines: 526 successful clause extractions + 338 LLM-call errors retained for transparency | ~2 MB | JSONL |
 | [`clause_extraction_analysis.json`](clause_extraction_analysis.json) | Pre-computed clause prevalence statistics for the n=348 cohort (confidence ≥ 0.4) | ~7 KB | JSON |
@@ -19,10 +19,11 @@ See [`docs/codebook.md`](../docs/codebook.md) for full definitions of every colu
 
 ## Three columns most users want
 
-The inventory CSV has 19 columns. The three most useful for typical analysis are:
+The inventory CSV has 26 columns. The three most useful for typical analysis are:
 
 - **`enacted_status`** — closed-vocab status: `active`, `extended`, `replaced`, `expired`, `rescinded`, or `pending`. Filter to `active` + `extended` for "moratoria currently in force"; exclude `pending` for "ever-enacted moratoria".
 - **`moratorium_id`** — stable identifier (`<state>-<jurisdiction>-<year>`, with phase suffixes for repeat instruments). Use this as a primary key when joining with future releases of this dataset.
+- **`current_end_date_iso`** — current fixed endpoint after any extension. Use it for expiry monitoring; `duration_days` preserves the original instrument's term.
 - **`latitude` / `longitude`** — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 220 of 222 rows are geocoded (99.1% coverage); the 2 blanks are aggregate meta-rows. Coordinates were triple-checked with zero confirmed errors after manual fixes for 4 within-state ambiguities — see [`docs/known-gaps.md`](../docs/known-gaps.md#geocoding-caveats-added-v2026042) for the audit summary.
 
 ## Quick examples
@@ -63,8 +64,8 @@ assert len(records) == 348
 
 ## A note on dates
 
-Most `date_enacted` values are ISO format (`YYYY-MM-DD`). Some are `YYYY-MM` (day uncertain), `YYYY` (only year known), or include qualifying notes (`reported`, `[VERIFY]`, `proposed`). When parsing programmatically, expect to handle both clean and messy values. The [`examples/`](../examples/) folder has working code.
+Most `date_enacted` values are ISO format (`YYYY-MM-DD`). Some are `YYYY-MM` (day uncertain), `YYYY` (only year known), or include qualifying notes (`reported`, `[VERIFY]`, `proposed`). When parsing programmatically, expect to handle both clean and messy values. The [repository's `examples/` directory](https://github.com/mjbommar/moratorium-data-2026/tree/main/examples) has working code.
 
 ## Updates
 
-This data is current through **April 2026**. Each refresh is tagged as a release on GitHub. The current version is shown in [`../CITATION.cff`](../CITATION.cff).
+This data is refreshed through **August 19, 2026**. Each refresh is tagged as a release on GitHub. The current version is shown in [`../CITATION.cff`](../CITATION.cff).

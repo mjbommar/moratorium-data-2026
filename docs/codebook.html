@@ -193,7 +193,7 @@
   <h1 id="codebook">Codebook</h1>
 <p>This document defines every column in every data file. Read this before doing analysis.</p>
 <h2 id="datamoratorium_inventorycsv"><code>data/moratorium_inventory.csv</code></h2>
-<p><strong>One row per moratorium instrument.</strong> 533 rows total (v2026.07).</p>
+<p><strong>One row per moratorium instrument.</strong> 533 rows total (refreshed 2026-08-19).</p>
 <table>
 <thead>
 <tr>
@@ -246,7 +246,7 @@
 <tr>
 <td><code>current_status</code></td>
 <td>Free-text description of the current disposition. May be detailed and include <code>[VERIFY]</code> notes for uncertain elements. <strong>The closed-vocab classification is in <code>enacted_status</code> (see below).</strong></td>
-<td><code>Active as of April 2026; extension under consideration</code></td>
+<td><code>Active as of August 2026; extension under consideration</code></td>
 </tr>
 <tr>
 <td><code>affected_projects</code></td>
@@ -319,6 +319,11 @@
 <td><code>fixed_days</code></td>
 </tr>
 <tr>
+<td><code>current_end_date_iso</code></td>
+<td>Current operative fixed end date, <code>YYYY-MM-DD</code>, after accounting for any extension. Blank for event-based or indefinite actions, and blank rather than guessed when a reported extension has no reliable endpoint. This is the field to use for current-status expiry monitoring; <code>duration_days</code> remains the original term.</td>
+<td><code>2027-04-13</code></td>
+</tr>
+<tr>
 <td><code>sectors</code></td>
 <td>JSON array of infrastructure sectors covered by this moratorium. Multi-label closed vocabulary: <code>data_center</code>, <code>battery_storage</code>, <code>solar</code>, <code>wind</code>, <code>cryptocurrency_mining</code>, <code>general</code>.</td>
 <td><code>["data_center"]</code></td>
@@ -357,8 +362,16 @@
 <li><strong><code>[VERIFY]</code> flags</strong> mark fields where we couldn't fully confirm the value from primary sources. Most often this is because the local government hasn't posted minutes or signed-ordinance text online yet.</li>
 </ul>
 <h2 id="datastate_legislationcsv"><code>data/state_legislation.csv</code></h2>
-<p><strong>One row per state bill.</strong> 438 rows total (v2026.07).</p>
-<p>This file tracks state-level legislation in 2025–2026 that relates to moratoria — bills authorizing local moratoria, prohibiting them, preempting them, or imposing state-level moratoria of their own. Most are still pending; a small number have been enacted.</p>
+<p><strong>One row per state-policy instrument.</strong> The legacy filename is retained for
+compatibility. Rows are normally bills, but binding executive orders, agency
+orders, regulations, and enacted statutes are recorded here too when they
+materially pause or restrict development, permitting, incentives, or the
+utility service on which a project depends.</p>
+<p>This file tracks state-level actions that relate to moratoria or equivalent
+restrictions — statewide pauses; authority for or preemption of local pauses;
+permitting limits; utility large-load rules; incentive limits; and reporting or
+disclosure requirements. A restriction is not counted as a local moratorium
+unless it actually pauses local permitting.</p>
 <table>
 <thead>
 <tr>
@@ -380,8 +393,8 @@
 </tr>
 <tr>
 <td><code>bill</code></td>
-<td>The state's bill identifier (e.g., <code>HB 1012</code>, <code>SB 5982</code>).</td>
-<td><code>HB 4456</code></td>
+<td>Legacy display identifier: normally a bill ID (e.g., <code>HB 1012</code>), or the formal identifier/title of a non-bill action.</td>
+<td><code>Executive Order No. 62 (2026)</code></td>
 </tr>
 <tr>
 <td><code>sponsors</code></td>
@@ -423,8 +436,55 @@
 <td>Originating chamber: <code>House</code>, <code>Senate</code>, <code>Assembly</code> (California and New Jersey lower chambers), <code>Joint</code>, or <code>unknown</code>.</td>
 <td><code>Assembly</code></td>
 </tr>
+<tr>
+<td><code>policy_action_id</code></td>
+<td>Stable machine identifier for the policy instrument. Unlike the legacy display <code>bill</code> value, this never depends on a title format.</td>
+<td><code>ny-executive-order-no-62-2026</code></td>
+</tr>
+<tr>
+<td><code>policy_instrument_type</code></td>
+<td>Legal form: <code>bill</code>, <code>executive_order</code>, <code>governor_directive</code>, <code>agency_order</code>, <code>regulation</code>, or <code>statute</code>.</td>
+<td><code>executive_order</code></td>
+</tr>
+<tr>
+<td><code>policy_mechanism</code></td>
+<td>Typed effect: <code>statewide_moratorium</code>, <code>local_moratorium_authorization</code>, <code>local_moratorium_preemption</code>, <code>permitting_restriction</code>, <code>utility_large_load_restriction</code>, <code>incentive_restriction</code>, <code>reporting_disclosure</code>, or <code>other</code>.</td>
+<td><code>utility_large_load_restriction</code></td>
+</tr>
+<tr>
+<td><code>legal_effect_status</code></td>
+<td>Current operative state: <code>proposed</code>, <code>in_force</code>, <code>expired</code>, <code>superseded</code>, <code>failed</code>, <code>withdrawn</code>, or <code>unknown</code>. An enacted temporary measure is <code>unknown</code> until its current legal effect is checked.</td>
+<td><code>in_force</code></td>
+</tr>
+<tr>
+<td><code>scope_of_action</code></td>
+<td>Primary authority/surface affected: <code>statewide</code>, <code>state_agency</code>, <code>local_government</code>, <code>utility_grid</code>, <code>fiscal</code>, <code>mixed</code>, or <code>unknown</code>.</td>
+<td><code>state_agency</code></td>
+</tr>
+<tr>
+<td><code>effective_date_iso</code></td>
+<td>Date the binding action took effect, if applicable.</td>
+<td><code>2026-07-14</code></td>
+</tr>
+<tr>
+<td><code>end_condition</code></td>
+<td>Typed prose describing a fixed end date, statutory sunset, or event-based endpoint.</td>
+<td><code>Until DPS submits its final GEIS and findings statement</code></td>
+</tr>
+<tr>
+<td><code>primary_source_url</code></td>
+<td>Direct official bill, executive, agency, or statute source.</td>
+<td><code>https://www.governor.ny.gov/...</code></td>
+</tr>
 </tbody>
 </table>
+<p>For example, New York Executive Order 62 is a binding state-agency action:
+it pauses certain incomplete DEC discretionary permits for covered 50-MW data
+centers until DPS completes the specified GEIS process, while expressly leaving
+local permits and zoning outside its scope. Texas SB 6 is a binding utility-grid
+restriction rather than a moratorium; Pennsylvania SB 1345 and SB 1359 remain
+proposed actions, respectively authorizing local pauses and imposing a
+statewide pause.</p>
 <p>A note on <code>carried_over</code> vs <code>failed_died</code>: whether a bill dies at the end of a
 calendar year depends on the state's session structure, not the calendar. States
 running two-year sessions (Ohio, Illinois, New Jersey, California, Pennsylvania,
@@ -438,10 +498,11 @@ records the governing session context per state in the audit log under
 <p>Top-level keys:</p>
 <ul>
 <li><code>total_local_moratoria</code>: 533 — total rows in the inventory</li>
-<li><code>total_state_bills</code>: 438 — total rows in state_legislation.csv</li>
+<li><code>total_state_bills</code>: 438 — bill rows in state_legislation.csv</li>
+<li><code>total_state_policy_actions</code>: 440 — all state-policy rows, including binding non-bill actions</li>
 <li><code>states_with_moratoria</code>: 42</li>
 <li><code>states_without_moratoria</code>: 8</li>
-<li><code>moratoria_with_verify_tags</code>: 180 — rows with at least one <code>[VERIFY]</code> flag remaining in any field (matches <code>has_verify_tags = True</code> in the inventory CSV)</li>
+<li><code>moratoria_with_verify_tags</code>: 182 — rows with at least one <code>[VERIFY]</code> flag remaining in any field (matches <code>has_verify_tags = True</code> in the inventory CSV)</li>
 <li><code>moratoria_without_verify_tags</code>: 232</li>
 <li><code>enacted_status_breakdown</code>: <code>{active, extended, replaced, expired, rescinded, pending}</code> — the breakdown of the 533 rows by <code>enacted_status</code></li>
 <li><code>sweep_coverage</code>: which states received a systematic month-by-month sweep for the release's window, plus <code>swept_states_with_no_adoptions_in_window</code>. <strong>Read this before interpreting a state's absence.</strong> A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that <code>swept_states_with_no_adoptions_in_window</code> is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from <a href="../data/sweep_coverage.json"><code>data/sweep_coverage.json</code></a></li>
@@ -483,7 +544,7 @@ assert len(records) == 348
 </ul>
 <p>The full schema (60+ fields organized into five tiers) is in <a href="../data/moratorium-extraction.json"><code>data/moratorium-extraction.json</code></a> (JSON Schema format). Records where <code>error</code> is not null should be excluded from analysis.</p>
 <h2 id="dataclause_extraction_analysisjson"><code>data/clause_extraction_analysis.json</code></h2>
-<p>The pre-computed aggregate analysis from <code>structured_extractions.jsonl</code> filtered at <code>confidence &gt;= 0.4</code>. Used to generate the percentage tables in <a href="../tables/"><code>tables/</code></a>.</p>
+<p>The pre-computed aggregate analysis from <code>structured_extractions.jsonl</code> filtered at <code>confidence &gt;= 0.4</code>. Used to generate the percentage tables in the <a href="https://github.com/mjbommar/moratorium-data-2026/tree/main/tables">repository's <code>tables/</code> directory</a>.</p>
 <p>Fields:</p>
 <ul>
 <li><code>total_records</code>: 348</li>
@@ -495,7 +556,7 @@ assert len(records) == 348
 <li><code>clause_prevalence</code>: detailed breakdowns of every clause type in the 44-clause taxonomy (universal, common, sector-specific, definitional approaches, findings detail levels)</li>
 </ul>
 <h2 id="a-note-on-dates">A note on dates</h2>
-<p>Where possible, dates are ISO-8601 (<code>YYYY-MM-DD</code>). When a day is unknown but month+year are known, we use <code>YYYY-MM</code>. When only the year is known, <code>YYYY</code>. When the date is uncertain (sourced from news rather than minutes), we may write something like <code>2025-12-17 reported</code> or <code>January 2026 [VERIFY]</code>. Spreadsheet tools may need help parsing these; the <a href="../examples/"><code>examples/</code></a> folder shows how.</p>
+<p>Where possible, dates are ISO-8601 (<code>YYYY-MM-DD</code>). When a day is unknown but month+year are known, we use <code>YYYY-MM</code>. When only the year is known, <code>YYYY</code>. When the date is uncertain (sourced from news rather than minutes), we may write something like <code>2025-12-17 reported</code> or <code>January 2026 [VERIFY]</code>. Spreadsheet tools may need help parsing these; the <a href="https://github.com/mjbommar/moratorium-data-2026/tree/main/examples">repository's <code>examples/</code> directory</a> shows how.</p>
 </main>
 
 <footer>

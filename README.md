@@ -6,10 +6,10 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 
 > 📄 **Working paper:** [April 2026 updated draft (PDF, 6 MB, 116 pages)](paper/moratorium-nation-2026-04-30.pdf) · [first edition on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6242898). 50-state legal authority survey, 44-clause taxonomy, 13-section model ordinance template.
 
-> **As of July 2026, 533 moratorium instruments tracked across 42 states.**
-> 🟢 **435 currently in force** (active or extended) · 🟡 **35 pending or proposed** (not yet adopted) · ⚪ **63 expired, replaced, or rescinded** (no longer in force)
+> **As of August 19, 2026, 533 local moratorium instruments are tracked across 42 states.**
+> 🟢 **429 currently in force** (active or extended) · 🟡 **34 pending or proposed** (not yet adopted) · ⚪ **70 expired, replaced, or rescinded** (no longer in force)
 >
-> Top states by total instruments: Michigan (63), Ohio (53), Georgia (47), North Carolina (40), Iowa (30), Tennessee (24), Indiana (20), Washington (19), Wisconsin (16), Kentucky (15).
+> Top states by total instruments: Michigan (64), Ohio (53), Georgia (47), North Carolina (40), Iowa (30), Tennessee (24), Indiana (20), Washington (19), Wisconsin (16), Kentucky (15).
 >
 > ✅ **Coverage note:** **all 50 states** were swept month by month for May–July 2026, so counts inside that window are complete rather than lower bounds. Ten states recorded no adoption in it — a finding, not a gap. Earlier periods were not swept this way. See [known gaps](docs/known-gaps.md).
 
@@ -59,20 +59,20 @@ For more, see the [FAQ](docs/FAQ.md).
 
 ## The headline numbers
 
-As of **July 2026**:
+As of **August 19, 2026**:
 
 - **533 moratorium instruments** tracked in our cleaned inventory
-  - **435 currently in force** (391 active + 44 extended)
-  - **17 pending or proposed** (public hearings scheduled, awaiting adoption)
+  - **429 currently in force** (381 active + 48 extended)
+  - **34 pending or proposed** (public hearings scheduled, awaiting adoption)
   - **37 replaced** by permanent regulations
-  - **20 expired** without a documented replacement
+  - **27 expired** without a documented replacement
   - **6 rescinded** before their original expiration
-- **42 states** have at least one moratorium; **15 states** have none we've identified. Florida, Nevada, New Mexico, South Carolina, and Texas entered the dataset in v2026.07
-- **Top 10 states by instrument count**: Michigan (63), Ohio (53), Georgia (47), North Carolina (40), Iowa (30), Tennessee (24), Indiana (20), Washington (19), Wisconsin (16), Kentucky (15)
+- **42 states** have at least one moratorium; **8 states** have none we've identified. Florida, Nevada, New Mexico, South Carolina, and Texas entered the dataset in v2026.07
+- **Top 10 states by instrument count**: Michigan (64), Ohio (53), Georgia (47), North Carolina (40), Iowa (30), Tennessee (24), Indiana (20), Washington (19), Wisconsin (16), Kentucky (15)
 - **Sectors covered**: most moratoria target **data centers** (~93% mention them); a substantial share also cover **cryptocurrency mining**, with smaller numbers covering **battery storage**, **solar**, and **wind**
-- **438 state-level bills** tracked in 2025–2026 (some proposing moratoria, others authorizing or restricting local moratoria). 241 now carry a researched final disposition in the typed `bill_status_category` column, including **34 enacted**
+- **438 state-level bills** tracked in 2025–2026, plus **2 binding non-bill state-policy actions**. These include moratorium proposals, local-moratorium authority/preemption, permitting limits, and utility-grid restrictions. Filter the typed `policy_instrument_type`, `policy_mechanism`, `legal_effect_status`, and `scope_of_action` columns rather than treating every state row as a moratorium.
 - **348 moratorium texts** read line-by-line and coded against a 44-clause taxonomy (the confidence-≥-0.4 subset of the 526 successful structured extractions in [`data/structured_extractions.jsonl`](data/structured_extractions.jsonl)). ⚠️ This cohort covers 211 jurisdictions and was collected **before 2026-04-28** — it was not re-run in v2026.07, so the clause-level percentages describe roughly half the current inventory. See [known gaps](docs/known-gaps.md)
-- **531 of 323 jurisdictions geocoded** with WGS84 lat/lon (99.4% coverage); the 2 blanks are aggregate meta-rows that aren't real geographic points. Coordinates triple-checked across 89 verifications with **zero confirmed errors** ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
+- **531 of 533 instruments geocoded** with WGS84 lat/lon (99.6% coverage); the 2 blanks are aggregate meta-rows that aren't real geographic points. Coordinates triple-checked across 89 verifications with **zero confirmed errors** ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
 
 Full state-by-state breakdown: [**states/README.md**](states/README.md).
 
@@ -143,7 +143,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-This is a working dataset that will be refreshed periodically. Each refresh is tagged as a release; current is **v2026.07**.
+This is a working dataset that will be refreshed periodically. The working snapshot is current through **2026-08-19**; the latest tagged release is **v2026.07**.
 
 ---
 
@@ -173,10 +173,10 @@ Contact: [michaelbommarito.com/contact](https://michaelbommarito.com/contact/).
 moratorium-data-2026/
 ├── README.md                      # this page
 ├── paper/                         # working paper PDF (April 2026 draft)
-├── states/                        # 50-state index + 30 per-state pages
+├── states/                        # 50-state index + per-state pages
 ├── data/                          # canonical CSVs and JSON
-│   ├── moratorium_inventory.csv   # the 323-row main table
-│   ├── state_legislation.csv      # 425-row state bill tracker
+│   ├── moratorium_inventory.csv   # the 533-row local-moratorium table
+│   ├── state_legislation.csv      # 440-row state-policy tracker (438 bills + 2 actions)
 │   ├── summary_stats.json         # top-level aggregates
 │   ├── structured_extractions.jsonl  # 864 lines (526 successful + 338 errors)
 │   └── clause_extraction_analysis.json  # n=348 cohort summary

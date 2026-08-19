@@ -10,7 +10,7 @@ A list of every local-government moratorium we could identify in the United Stat
 - **Solar farms** (utility-scale)
 - **Wind farms** (utility-scale)
 
-Each row is one moratorium adopted by one local government (a city, county, township, etc.). The dataset covers the period 2018 through April 2026, with a sharp acceleration in 2025–2026.
+Each row is one moratorium adopted or proposed by one local government (a city, county, township, etc.). The working snapshot covers 2018 through August 19, 2026, with a sharp acceleration in 2025–2026. August is a partial month; the completed 50-state comparison window runs from May through July 2026.
 
 ## What is a moratorium?
 

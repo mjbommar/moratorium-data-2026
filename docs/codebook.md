@@ -4,7 +4,7 @@ This document defines every column in every data file. Read this before doing an
 
 ## `data/moratorium_inventory.csv`
 
-**One row per moratorium instrument.** 533 rows total (v2026.07).
+**One row per moratorium instrument.** 533 rows total (refreshed 2026-08-19).
 
 | Column | What it means | Example |
 |--------|---------------|---------|
@@ -16,7 +16,7 @@ This document defines every column in every data file. Read this before doing an
 | `duration` | The originally-scheduled length of the moratorium. Free-text — common values are `6 months`, `180 days`, `1 year`, `12 months`, `Indefinite`. | `6 months` |
 | `legal_basis` | The legal authority cited or implied. Often references the state enabling statute (e.g., `N.C.G.S. 160D-107`, `Iowa Code Chapter 414`) and the specific ordinance/resolution number. | `Resolution 2025-11-17-1` |
 | `trigger` | Short summary of what prompted the moratorium — usually a specific proposal or a regulatory gap. | `Proposed Meta-backed hyperscale campus` |
-| `current_status` | Free-text description of the current disposition. May be detailed and include `[VERIFY]` notes for uncertain elements. **The closed-vocab classification is in `enacted_status` (see below).** | `Active as of April 2026; extension under consideration` |
+| `current_status` | Free-text description of the current disposition. May be detailed and include `[VERIFY]` notes for uncertain elements. **The closed-vocab classification is in `enacted_status` (see below).** | `Active as of August 2026; extension under consideration` |
 | `affected_projects` | Specific named projects the moratorium affected. Empty if none identified. | `1977 Saturn Street proposal (~49.9 MW)` |
 | `outcome` | The endpoint, if known: replacement ordinance adopted, project withdrawn, etc. May be `Pending` for moratoria still in effect. | `Permanent data center ordinance adopted December 16, 2025` |
 | `has_verify_tags` | `True` if any field on this row was flagged for verification. | `True` |
@@ -31,6 +31,7 @@ This document defines every column in every data file. Read this before doing an
 | `date_enacted_uncertainty` | Closed-vocab confidence flag for `date_enacted_iso`: `exact`, `month_only`, `year_only`, `range`, `unverified`. | `exact` |
 | `duration_days` | LLM-extracted numeric duration of the original moratorium in days (NOT including extensions). `30 days` → `30`. `6 months` → `180`. `1 year` / `12 months` → `365`. Empty when the moratorium runs `until permanent regulations adopted`, `indefinite`, or otherwise not a fixed time period — see `duration_kind`. | `365` |
 | `duration_kind` | Closed-vocab categorical: `fixed_days` (a fixed time period), `until_date` (ends on a specific calendar date with no fixed length), `until_event` (ends when permanent regulations are adopted or some other event occurs), `indefinite` (no scheduled end), `unknown`. | `fixed_days` |
+| `current_end_date_iso` | Current operative fixed end date, `YYYY-MM-DD`, after accounting for any extension. Blank for event-based or indefinite actions, and blank rather than guessed when a reported extension has no reliable endpoint. This is the field to use for current-status expiry monitoring; `duration_days` remains the original term. | `2027-04-13` |
 | `sectors` | JSON array of infrastructure sectors covered by this moratorium. Multi-label closed vocabulary: `data_center`, `battery_storage`, `solar`, `wind`, `cryptocurrency_mining`, `general`. | `["data_center"]` |
 | `trigger_categories` | JSON array of WHY the moratorium was adopted. Multi-label closed vocabulary: `specific_project`, `regulatory_gap`, `infrastructure_capacity`, `environmental`, `noise`, `water`, `grid_energy`, `fire_safety`, `land_use_compatibility`, `property_values`, `legal_or_litigation`, `agricultural_preservation`, `other`. | `["regulatory_gap","grid_energy","water"]` |
 
@@ -69,15 +70,23 @@ enacted = df[~df["enacted_status"].eq("pending")]
 
 ## `data/state_legislation.csv`
 
-**One row per state bill.** 438 rows total (v2026.07).
+**One row per state-policy instrument.** The legacy filename is retained for
+compatibility. Rows are normally bills, but binding executive orders, agency
+orders, regulations, and enacted statutes are recorded here too when they
+materially pause or restrict development, permitting, incentives, or the
+utility service on which a project depends.
 
-This file tracks state-level legislation in 2025–2026 that relates to moratoria — bills authorizing local moratoria, prohibiting them, preempting them, or imposing state-level moratoria of their own. Most are still pending; a small number have been enacted.
+This file tracks state-level actions that relate to moratoria or equivalent
+restrictions — statewide pauses; authority for or preemption of local pauses;
+permitting limits; utility large-load rules; incentive limits; and reporting or
+disclosure requirements. A restriction is not counted as a local moratorium
+unless it actually pauses local permitting.
 
 | Column | What it means | Example |
 |--------|---------------|---------|
 | `state` | Full state name. | `Michigan` |
 | `state_abbrev` | USPS code. | `MI` |
-| `bill` | The state's bill identifier (e.g., `HB 1012`, `SB 5982`). | `HB 4456` |
+| `bill` | Legacy display identifier: normally a bill ID (e.g., `HB 1012`), or the formal identifier/title of a non-bill action. | `Executive Order No. 62 (2026)` |
 | `sponsors` | Lead sponsor name(s). May include co-sponsors. | `Rep. Wortz (R)` |
 | `party` | Sponsor's party affiliation, where known. May say `R`, `D`, `Bipartisan`, or be empty. | `R` |
 | `status` | Where the bill is in the legislative process. Free text, kept for provenance; written as an action plus an ISO date. **For filtering, use `bill_status_category`.** | `Passed Senate 2026-03-04; died in House Energy Committee at adjournment` |
@@ -86,6 +95,22 @@ This file tracks state-level legislation in 2025–2026 that relates to moratori
 | `bill_status_category` | **Closed-vocab disposition**, added in v2026.07. One of: `introduced`, `in_committee`, `passed_one_chamber`, `passed_both_chambers`, `enacted`, `vetoed`, `failed_died`, `carried_over`, `withdrawn`, `unknown`. `failed_died` covers death by adjournment or a missed deadline; `carried_over` means the bill remains alive into the next year of a biennium. | `enacted` |
 | `last_action_date_iso` | ISO date of the most recent recorded action on the bill. Empty when undetermined. | `2026-07-07` |
 | `chamber_of_origin` | Originating chamber: `House`, `Senate`, `Assembly` (California and New Jersey lower chambers), `Joint`, or `unknown`. | `Assembly` |
+| `policy_action_id` | Stable machine identifier for the policy instrument. Unlike the legacy display `bill` value, this never depends on a title format. | `ny-executive-order-no-62-2026` |
+| `policy_instrument_type` | Legal form: `bill`, `executive_order`, `governor_directive`, `agency_order`, `regulation`, or `statute`. | `executive_order` |
+| `policy_mechanism` | Typed effect: `statewide_moratorium`, `local_moratorium_authorization`, `local_moratorium_preemption`, `permitting_restriction`, `utility_large_load_restriction`, `incentive_restriction`, `reporting_disclosure`, or `other`. | `utility_large_load_restriction` |
+| `legal_effect_status` | Current operative state: `proposed`, `in_force`, `expired`, `superseded`, `failed`, `withdrawn`, or `unknown`. An enacted temporary measure is `unknown` until its current legal effect is checked. | `in_force` |
+| `scope_of_action` | Primary authority/surface affected: `statewide`, `state_agency`, `local_government`, `utility_grid`, `fiscal`, `mixed`, or `unknown`. | `state_agency` |
+| `effective_date_iso` | Date the binding action took effect, if applicable. | `2026-07-14` |
+| `end_condition` | Typed prose describing a fixed end date, statutory sunset, or event-based endpoint. | `Until DPS submits its final GEIS and findings statement` |
+| `primary_source_url` | Direct official bill, executive, agency, or statute source. | `https://www.governor.ny.gov/...` |
+
+For example, New York Executive Order 62 is a binding state-agency action:
+it pauses certain incomplete DEC discretionary permits for covered 50-MW data
+centers until DPS completes the specified GEIS process, while expressly leaving
+local permits and zoning outside its scope. Texas SB 6 is a binding utility-grid
+restriction rather than a moratorium; Pennsylvania SB 1345 and SB 1359 remain
+proposed actions, respectively authorizing local pauses and imposing a
+statewide pause.
 
 A note on `carried_over` vs `failed_died`: whether a bill dies at the end of a
 calendar year depends on the state's session structure, not the calendar. States
@@ -103,10 +128,11 @@ A single JSON object with top-level aggregates. Useful for embedding live counts
 Top-level keys:
 
 - `total_local_moratoria`: 533 — total rows in the inventory
-- `total_state_bills`: 438 — total rows in state_legislation.csv
+- `total_state_bills`: 438 — bill rows in state_legislation.csv
+- `total_state_policy_actions`: 440 — all state-policy rows, including binding non-bill actions
 - `states_with_moratoria`: 42
 - `states_without_moratoria`: 8
-- `moratoria_with_verify_tags`: 180 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
+- `moratoria_with_verify_tags`: 182 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
 - `moratoria_without_verify_tags`: 232
 - `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 533 rows by `enacted_status`
 - `sweep_coverage`: which states received a systematic month-by-month sweep for the release's window, plus `swept_states_with_no_adoptions_in_window`. **Read this before interpreting a state's absence.** A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that `swept_states_with_no_adoptions_in_window` is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from [`data/sweep_coverage.json`](../data/sweep_coverage.json)
@@ -153,7 +179,7 @@ The full schema (60+ fields organized into five tiers) is in [`data/moratorium-e
 
 ## `data/clause_extraction_analysis.json`
 
-The pre-computed aggregate analysis from `structured_extractions.jsonl` filtered at `confidence >= 0.4`. Used to generate the percentage tables in [`tables/`](../tables/).
+The pre-computed aggregate analysis from `structured_extractions.jsonl` filtered at `confidence >= 0.4`. Used to generate the percentage tables in the [repository's `tables/` directory](https://github.com/mjbommar/moratorium-data-2026/tree/main/tables).
 
 Fields:
 
@@ -167,4 +193,4 @@ Fields:
 
 ## A note on dates
 
-Where possible, dates are ISO-8601 (`YYYY-MM-DD`). When a day is unknown but month+year are known, we use `YYYY-MM`. When only the year is known, `YYYY`. When the date is uncertain (sourced from news rather than minutes), we may write something like `2025-12-17 reported` or `January 2026 [VERIFY]`. Spreadsheet tools may need help parsing these; the [`examples/`](../examples/) folder shows how.
+Where possible, dates are ISO-8601 (`YYYY-MM-DD`). When a day is unknown but month+year are known, we use `YYYY-MM`. When only the year is known, `YYYY`. When the date is uncertain (sourced from news rather than minutes), we may write something like `2025-12-17 reported` or `January 2026 [VERIFY]`. Spreadsheet tools may need help parsing these; the [repository's `examples/` directory](https://github.com/mjbommar/moratorium-data-2026/tree/main/examples) shows how.

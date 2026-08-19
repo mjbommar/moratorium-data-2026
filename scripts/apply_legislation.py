@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Apply legislation research decisions to data/state_legislation.csv.
+"""Apply state-policy research decisions to data/state_legislation.csv.
 
 Same discipline as apply_research.py: explicit answer files, schema validation,
 a conflict guard, and an audit log. Prose never edits the CSV.
 
-This pass also introduces three typed columns, mirroring what v2026.04.4 did for
-the inventory. The free-text `status` column stays as provenance; the typed
-columns make the tracker filterable:
+The tracker is deliberately broader than bills: a binding executive order,
+agency order, regulation, or enacted statute can constrain a project just as
+materially as an enacted bill.  The free-text `status` column stays as
+provenance; the typed columns make the tracker filterable:
 
     bill_status_category   introduced | in_committee | passed_one_chamber |
                            passed_both_chambers | enacted | vetoed |
@@ -26,6 +27,7 @@ import csv
 import datetime as dt
 import io
 import json
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -40,7 +42,13 @@ LEG = REPO / "data" / "state_legislation.csv"
 SCHEMA = REPO / "work" / "schemas" / "legislation_decision.schema.json"
 AUDIT_DIR = REPO / "work" / "audit"
 
-NEW_COLUMNS = ["bill_status_category", "last_action_date_iso", "chamber_of_origin"]
+NEW_COLUMNS = [
+    "bill_status_category", "last_action_date_iso", "chamber_of_origin",
+    "policy_action_id",
+    "policy_instrument_type", "policy_mechanism", "legal_effect_status",
+    "scope_of_action", "effective_date_iso", "end_condition",
+    "primary_source_url",
+]
 BASE_COLUMNS = [
     "state", "state_abbrev", "bill", "sponsors", "party", "status",
     "key_provisions", "activity_level",
@@ -51,6 +59,15 @@ STATUS_CATEGORIES = {
     "enacted", "vetoed", "failed_died", "carried_over", "withdrawn", "unknown",
 }
 CHAMBERS = {"House", "Senate", "Assembly", "Joint", "unknown"}
+POLICY_INSTRUMENT_TYPES = {"bill", "executive_order", "governor_directive", "agency_order", "regulation", "statute"}
+POLICY_MECHANISMS = {
+    "statewide_moratorium", "local_moratorium_authorization",
+    "local_moratorium_preemption", "permitting_restriction",
+    "utility_large_load_restriction", "incentive_restriction",
+    "reporting_disclosure", "other",
+}
+LEGAL_EFFECT_STATUSES = {"proposed", "in_force", "expired", "superseded", "failed", "withdrawn", "unknown"}
+ACTION_SCOPES = {"statewide", "state_agency", "local_government", "utility_grid", "fiscal", "mixed", "unknown"}
 
 STATE_ABBREV = {
     "Alabama": "AL", "Alaska": "AK", "Arizona": "AZ", "Arkansas": "AR",
@@ -70,6 +87,17 @@ STATE_ABBREV = {
 
 
 ABBREV_TO_STATE = {v: k for k, v in STATE_ABBREV.items()}
+
+
+def action_id(state_abbrev: str, display_id: str, taken: set[str]) -> str:
+    """Create a deterministic, unique stable key for a policy instrument."""
+    slug = re.sub(r"[^a-z0-9]+", "-", display_id.lower()).strip("-") or "policy-action"
+    base = f"{state_abbrev.lower()}-{slug}"
+    candidate, suffix = base, 2
+    while candidate in taken:
+        candidate = f"{base}-{suffix}"
+        suffix += 1
+    return candidate
 
 
 def resolve_state(value: str) -> tuple[str, str]:
@@ -140,6 +168,8 @@ def main() -> int:
         for col in NEW_COLUMNS:
             row.setdefault(col, "")
 
+    action_ids = {r.get("policy_action_id", "") for r in rows if r.get("policy_action_id", "")}
+
     by_key = {f"{r['state_abbrev'].upper()}:{r['bill']}": r for r in rows}
 
     audit: list[dict] = []
@@ -191,6 +221,18 @@ def main() -> int:
                 if column == "chamber_of_origin" and value not in CHAMBERS:
                     conflicts.append(f"{path.name}: {key} bad chamber {value!r}")
                     continue
+                if column == "policy_instrument_type" and value not in POLICY_INSTRUMENT_TYPES:
+                    conflicts.append(f"{path.name}: {key} bad policy instrument type {value!r}")
+                    continue
+                if column == "policy_mechanism" and value not in POLICY_MECHANISMS:
+                    conflicts.append(f"{path.name}: {key} bad policy mechanism {value!r}")
+                    continue
+                if column == "legal_effect_status" and value not in LEGAL_EFFECT_STATUSES:
+                    conflicts.append(f"{path.name}: {key} bad legal effect status {value!r}")
+                    continue
+                if column == "scope_of_action" and value not in ACTION_SCOPES:
+                    conflicts.append(f"{path.name}: {key} bad action scope {value!r}")
+                    continue
                 if row[column] == value:
                     continue
                 audit.append({
@@ -230,7 +272,16 @@ def main() -> int:
                 "bill_status_category": nb.get("bill_status_category", "unknown"),
                 "last_action_date_iso": nb.get("last_action_date_iso", ""),
                 "chamber_of_origin": nb.get("chamber_of_origin", "unknown"),
+                "policy_action_id": nb.get("policy_action_id") or action_id(abbrev, nb["bill"], action_ids),
+                "policy_instrument_type": nb.get("policy_instrument_type", "bill"),
+                "policy_mechanism": nb.get("policy_mechanism", "other"),
+                "legal_effect_status": nb.get("legal_effect_status", "unknown"),
+                "scope_of_action": nb.get("scope_of_action", "unknown"),
+                "effective_date_iso": nb.get("effective_date_iso", ""),
+                "end_condition": nb.get("end_condition", ""),
+                "primary_source_url": nb.get("primary_source_url", ""),
             })
+            action_ids.add(row["policy_action_id"])
             new_rows.append(row)
             by_key[key] = row
             audit.append({

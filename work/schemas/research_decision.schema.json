@@ -128,6 +128,7 @@
         "duration": { "type": "string" },
         "duration_days": { "type": ["integer", "null"] },
         "duration_kind": { "enum": ["fixed_days", "until_date", "until_event", "indefinite", "unknown"] },
+        "current_end_date_iso": { "type": "string", "description": "Current operative fixed end date YYYY-MM-DD, including a later extension; empty if event-based, indefinite, or not reliably known." },
         "legal_basis": { "type": "string" },
         "trigger": { "type": "string" },
         "trigger_categories": {

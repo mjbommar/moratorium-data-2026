@@ -1,5 +1,46 @@
 # Changelog
 
+## 2026-08-19 — currency, state-policy, and publication refresh
+
+This working snapshot updates the tracker through **2026-08-19**. It is newer
+than the latest tagged release, v2026.07, and preserves that release's figures
+below as a historical snapshot.
+
+### Current headline numbers
+
+| Measure | 2026-08-19 snapshot |
+|---|---|
+| Local moratorium instruments | **533** |
+| Currently in force (active + extended) | **429** |
+| Pending / proposed | **34** |
+| Past (replaced + expired + rescinded) | **70** |
+| Rows carrying `[VERIFY]` markers | **182** |
+| State bills tracked | **438** |
+| State policy actions, including non-bill instruments | **440** |
+| States with at least one local instrument | **42** |
+
+The local status mix is 381 active, 48 extended, 34 pending, 37 replaced, 27
+expired, and 6 rescinded. The review reduced the recorded in-force total by six
+relative to v2026.07 as elapsed terms and documented outcomes were reconciled.
+Lakeland, Florida's August 3 ordinance is the first confirmed August adoption;
+Parma Township, Michigan was added after its primary public notice was located.
+
+Extensions now carry `current_end_date_iso`, separate from their original end
+date. The worklist uses that operative date and flags extensions whose current
+end remains unknown instead of reporting false expirations from the original
+term.
+
+The state tracker now contains 438 bills and two binding non-bill actions, each
+with a stable `policy_action_id` and typed instrument, mechanism, legal-effect,
+and scope fields. New York Executive Order 62 and Texas's August 3 data-center
+audit directive are recorded as in-force restrictions; Pennsylvania SB 1345
+and SB 1359 remain proposals and are not presented as binding moratoria.
+
+The GitHub Pages landing page now carries current search and social metadata,
+Dataset JSON-LD, a responsive local-versus-state scope guide, August commentary,
+and an explicit warning that August is current only through the 19th. The
+May-through-July sweep remains the completed comparable window.
+
 ## v2026.07 — 2026-07-31 (currency refresh)
 
 The April release was a snapshot as of **2026-04-28**. Three months of local

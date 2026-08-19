@@ -1,0 +1,83 @@
+{
+  "applied_at": "20260819T084056",
+  "answer_files": [
+    "work/answers/status/FL-20260819.json",
+    "work/answers/status/MI-20260819-parma.json"
+  ],
+  "stats": {
+    "outcome:status_changed": 1,
+    "fields_changed": 6,
+    "status_changed": 1,
+    "verify_confirmed": 1,
+    "verify_resolved_via_field_rewrite": 1,
+    "candidates_added": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "fl-lakeland-undated",
+      "column": "date_enacted",
+      "before": "City Commission held the advertised public hearing and first reading 2026-07-20; second reading scheduled 2026-08-03 (after the compilation window). Not yet finally enacted.",
+      "after": "2026-08-03, City Commission adopted Ordinance No. 26-018 by a 4-3 vote.",
+      "reason": "The second reading resulted in final passage.",
+      "source": "FL-20260819.json"
+    },
+    {
+      "moratorium_id": "fl-lakeland-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-08-03",
+      "reason": "The reported final vote date is specific.",
+      "source": "FL-20260819.json"
+    },
+    {
+      "moratorium_id": "fl-lakeland-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "The final vote date is confirmed by contemporaneous reporting.",
+      "source": "FL-20260819.json"
+    },
+    {
+      "moratorium_id": "fl-lakeland-undated",
+      "column": "duration",
+      "before": "Proposed 12-month moratorium on data centers and large-load customers while staff studies electric, water, noise, and land-use impacts.",
+      "after": "One year from 2026-08-03, unless amended or repealed sooner. Covers new data centers and large-load customers with anticipated peak demand of 50 MW or more while the City reviews its planning and land-development rules.",
+      "reason": "Final Ordinance No. 26-018 adopted the proposed twelve-month term.",
+      "source": "FL-20260819.json"
+    },
+    {
+      "moratorium_id": "fl-lakeland-undated",
+      "column": "current_status",
+      "before": "Pending second reading (scheduled 2026-08-03); not yet adopted as of 2026-07-31. [VERIFY instrument number; adoption date not confirmed at confidence 0.65 in the 2026-07 refresh]",
+      "after": "Active as of 2026-08-19. The City Commission adopted Ordinance No. 26-018 4-3 on 2026-08-03, pausing acceptance, processing, review, and approval of covered applications for one year.",
+      "reason": "The pending action became an enacted, operative local moratorium.",
+      "source": "FL-20260819.json"
+    },
+    {
+      "moratorium_id": "fl-lakeland-undated",
+      "column": "outcome",
+      "before": "",
+      "after": "Ordinance No. 26-018 is effective immediately and pauses new covered applications while the City considers permanent rules.",
+      "reason": "The prior blank outcome no longer reflects the enacted action.",
+      "source": "FL-20260819.json"
+    },
+    {
+      "moratorium_id": "fl-lakeland-undated",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "The official notice establishes the ordinance number and hearing; public-media reporting establishes the final vote and term. Preserve the direct ordinance PDF if the City posts it.",
+      "source": "FL-20260819.json"
+    },
+    {
+      "moratorium_id": "mi-parma-township-jackson-county-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Michigan / Parma Township (Jackson County)",
+      "reason": "Coordinates are the Parma Township administrative-boundary centroid from OpenStreetMap/Nominatim; the legal facts rest on the Township notice.",
+      "source": "MI-20260819-parma.json"
+    }
+  ]
+}

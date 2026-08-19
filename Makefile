@@ -86,7 +86,7 @@ data/geo/cb_2023_us_state_5m/cb_2023_us_state_5m.shp:
 
 site:
 	$(PYTHON) scripts/build_index.py
-	$(PYTHON) scripts/update_state_counts.py
+	$(PYTHON) scripts/update_state_counts.py --as-of $(TODAY)
 	$(PYTHON) scripts/build_site.py
 
 all: data figures site validate

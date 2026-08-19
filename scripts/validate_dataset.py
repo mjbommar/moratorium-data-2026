@@ -61,7 +61,7 @@ INVENTORY_COLUMNS = [
     "duration", "legal_basis", "trigger", "current_status", "affected_projects",
     "outcome", "has_verify_tags", "verify_count", "cite_count", "activity_level",
     "enacted_status", "moratorium_id", "latitude", "longitude", "date_enacted_iso",
-    "date_enacted_uncertainty", "duration_days", "duration_kind", "sectors",
+    "date_enacted_uncertainty", "duration_days", "duration_kind", "current_end_date_iso", "sectors",
     "trigger_categories",
 ]
 LEGISLATION_COLUMNS = [
@@ -75,6 +75,15 @@ BILL_STATUS_CATEGORIES = {
     "enacted", "vetoed", "failed_died", "carried_over", "withdrawn", "unknown",
 }
 CHAMBERS = {"House", "Senate", "Assembly", "Joint", "unknown"}
+POLICY_INSTRUMENT_TYPES = {"bill", "executive_order", "governor_directive", "agency_order", "regulation", "statute"}
+POLICY_MECHANISMS = {
+    "statewide_moratorium", "local_moratorium_authorization",
+    "local_moratorium_preemption", "permitting_restriction",
+    "utility_large_load_restriction", "incentive_restriction",
+    "reporting_disclosure", "other",
+}
+LEGAL_EFFECT_STATUSES = {"proposed", "in_force", "expired", "superseded", "failed", "withdrawn", "unknown"}
+ACTION_SCOPES = {"statewide", "state_agency", "local_government", "utility_grid", "fiscal", "mixed", "unknown"}
 
 IN_FORCE = {"active", "extended"}
 
@@ -104,6 +113,7 @@ VERIFY_RE = re.compile(r"\[VERIFY", re.IGNORECASE)
 # <state>-<jurisdiction-slug>-<year>, where <year> is "undated" when no adoption
 # date is established, optionally suffixed -pN (explicit phase) or -N (repeat).
 MORATORIUM_ID_RE = re.compile(r"^[a-z]{2}-[a-z0-9-]+-(\d{4}|undated)(-p\d+|-\d+)?$")
+POLICY_ACTION_ID_RE = re.compile(r"^[a-z]{2}-[a-z0-9-]+$")
 
 
 class Report:
@@ -269,6 +279,16 @@ def check_inventory(rows: list[dict], fieldnames: list[str], today: dt.date, rep
             if row["enacted_status"] != "pending":
                 rep.warn("date.missing", f"{where}: no date_enacted_iso on a non-pending row")
 
+        current_end = row["current_end_date_iso"].strip()
+        if current_end:
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", current_end):
+                rep.error("date.current_end_format", f"{where}: current_end_date_iso {current_end!r} is not YYYY-MM-DD")
+            else:
+                try:
+                    dt.date.fromisoformat(current_end)
+                except ValueError:
+                    rep.error("date.current_end_parse", f"{where}: current_end_date_iso {current_end!r} not a real date")
+
         # --- duration --------------------------------------------------------
         dd_raw = row["duration_days"].strip()
         kind = row["duration_kind"]
@@ -384,6 +404,7 @@ def check_legislation(rows: list[dict], fieldnames: list[str], rep: Report) -> N
         rep.error("schema.legislation", f"missing columns: {missing}")
         return
     seen: dict[tuple[str, str], int] = {}
+    seen_action_ids: dict[str, int] = {}
     for i, row in enumerate(rows, start=2):
         where = f"line {i} ({row['state_abbrev']} {row['bill']})"
         expected = STATE_ABBREV.get(row["state"])
@@ -395,6 +416,14 @@ def check_legislation(rows: list[dict], fieldnames: list[str], rep: Report) -> N
             rep.error("legislation.activity_level", f"{where}: {row['activity_level']!r}")
         if not row["bill"].strip():
             rep.error("legislation.bill", f"{where}: empty bill identifier")
+        if "policy_action_id" in fieldnames:
+            action_id = row["policy_action_id"].strip()
+            if not POLICY_ACTION_ID_RE.fullmatch(action_id):
+                rep.error("legislation.policy_action_id", f"{where}: invalid or empty policy_action_id {action_id!r}")
+            elif action_id in seen_action_ids:
+                rep.error("legislation.policy_action_id", f"{where}: duplicates line {seen_action_ids[action_id]}")
+            else:
+                seen_action_ids[action_id] = i
         if "bill_status_category" in fieldnames:
             cat = row["bill_status_category"].strip()
             if cat and cat not in BILL_STATUS_CATEGORIES:
@@ -407,6 +436,17 @@ def check_legislation(rows: list[dict], fieldnames: list[str], rep: Report) -> N
             raw = row["last_action_date_iso"].strip()
             if raw and iso_precision(raw) is None:
                 rep.error("legislation.action_date", f"{where}: {raw!r} is not YYYY[-MM[-DD]]")
+        for column, allowed in {
+            "policy_instrument_type": POLICY_INSTRUMENT_TYPES,
+            "policy_mechanism": POLICY_MECHANISMS,
+            "legal_effect_status": LEGAL_EFFECT_STATUSES,
+            "scope_of_action": ACTION_SCOPES,
+        }.items():
+            if column in fieldnames and row[column].strip() and row[column] not in allowed:
+                rep.error(f"legislation.{column}", f"{where}: {row[column]!r}")
+        for column in ("effective_date_iso",):
+            if column in fieldnames and row[column].strip() and iso_precision(row[column].strip()) is None:
+                rep.error(f"legislation.{column}", f"{where}: {row[column]!r} is not YYYY[-MM[-DD]]")
 
         key = (row["state_abbrev"], row["bill"].strip().lower())
         if key in seen:
@@ -419,7 +459,8 @@ def check_summary_stats(inv: list[dict], leg: list[dict], stats: dict, rep: Repo
     """summary_stats.json must be derivable from the CSVs, not hand-maintained."""
     checks = {
         "total_local_moratoria": len(inv),
-        "total_state_bills": len(leg),
+        "total_state_bills": sum(1 for r in leg if r.get("policy_instrument_type", "bill") == "bill"),
+        "total_state_policy_actions": len(leg),
         "states_with_moratoria": len({r["state"] for r in inv}),
         "moratoria_with_verify_tags": sum(1 for r in inv if row_verify_count(r) > 0),
         "moratoria_without_verify_tags": sum(1 for r in inv if row_verify_count(r) == 0),

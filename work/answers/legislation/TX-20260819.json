@@ -1,0 +1,68 @@
+{
+  "state_abbrev": "TX",
+  "researched_as_of": "2026-08-19",
+  "researcher": "Codex web research",
+  "decisions": [
+    {
+      "bill_key": "TX:SB 6 (89R, 2025)",
+      "outcome": "confirmed_unchanged",
+      "fields": {
+        "policy_instrument_type": "bill",
+        "policy_mechanism": "utility_large_load_restriction",
+        "legal_effect_status": "in_force",
+        "scope_of_action": "utility_grid",
+        "effective_date_iso": "2025-06-20",
+        "end_condition": "Ongoing statutory large-load standards; no sunset in the enacted bill text.",
+        "primary_source_url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00006F.htm"
+      },
+      "confidence": 0.99,
+      "evidence": [
+        {
+          "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00006F.htm",
+          "title": "Texas SB 6, enrolled text",
+          "source_type": "bill_text",
+          "supports": "Enacted text establishes ERCOT large-load interconnection, cost, disclosure, financial commitment, and emergency-curtailment requirements, with a default 75 MW threshold.",
+          "quote": "The commission shall establish a demand threshold of 75 megawatts unless the commission determines that a lower threshold is necessary."
+        }
+      ],
+      "notes": "SB 6 is a binding utility/grid restriction, not a development-permitting moratorium."
+    }
+  ],
+  "new_bills": [
+    {
+      "state": "Texas",
+      "bill": "Governor Abbott August 3, 2026 Data Center Audit Directive",
+      "sponsors": "Governor Greg Abbott",
+      "party": "R",
+      "status": "Governor directive issued 2026-08-03; ERCOT implementation notice issued 2026-08-03.",
+      "bill_status_category": "unknown",
+      "last_action_date_iso": "2026-08-03",
+      "chamber_of_origin": "unknown",
+      "policy_action_id": "tx-abbott-2026-08-03-data-center-audit-directive",
+      "policy_instrument_type": "governor_directive",
+      "policy_mechanism": "utility_large_load_restriction",
+      "legal_effect_status": "in_force",
+      "scope_of_action": "utility_grid",
+      "effective_date_iso": "2026-08-03",
+      "end_condition": "Until PUCT and ERCOT complete the comprehensive verification and audit; projects that fail applicable requirements must be denied grid connection.",
+      "primary_source_url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+      "key_provisions": "Directs PUCT and ERCOT to verify and audit every data center advancing through ERCOT interconnection before it may move forward, pausing the Batch Zero process pending the required review.",
+      "confidence": 0.99,
+      "evidence": [
+        {
+          "url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+          "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+          "source_type": "governor_action",
+          "supports": "Governor's official release directs PUCT and ERCOT to complete the audit before any data-center project moves forward and requires denial of noncompliant grid connections."
+        },
+        {
+          "url": "https://www.ercot.com/services/comm/mkt_notices/M-A080326-01",
+          "title": "ERCOT Market Notice M-A080326-01",
+          "source_type": "other",
+          "supports": "ERCOT says it received the Governor's letter and will not advance the Batch Zero interconnection-study notifications on the scheduled timeline."
+        }
+      ],
+      "notes": "This is an in-force utility-grid restriction on ERCOT interconnection progress, not a statewide land-use or permitting moratorium."
+    }
+  ]
+}
