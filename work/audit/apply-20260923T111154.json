@@ -1,0 +1,345 @@
+{
+  "applied_at": "20260923T111154",
+  "answer_files": [
+    "work/answers/qa4/aa-coordinator-MI.json",
+    "work/answers/qa4/contra-CA.json",
+    "work/answers/qa4/contra-FL.json",
+    "work/answers/qa4/contra-GA.json",
+    "work/answers/qa4/contra-MI.json",
+    "work/answers/qa4/contra-NC.json",
+    "work/answers/qa4/contra-ND.json",
+    "work/answers/qa4/contra-NV.json",
+    "work/answers/qa4/contra-OH.json",
+    "work/answers/qa4/contra-TN.json",
+    "work/answers/qa4/leads-AL.json",
+    "work/answers/qa4/leads-IA.json",
+    "work/answers/qa4/leads-KS.json",
+    "work/answers/qa4/leads-MI.json",
+    "work/answers/qa4/leads-OH.json",
+    "work/answers/qa4/leads-SD.json",
+    "work/answers/qa4/leads-WI.json"
+  ],
+  "stats": {
+    "outcome:corrected": 5,
+    "fields_changed": 29,
+    "outcome:unresolvable": 7,
+    "outcome:confirmed_unchanged": 13,
+    "outcome:status_changed": 4,
+    "status_changed": 4,
+    "verify_corrected": 3,
+    "verify_resolved_via_field_rewrite": 3,
+    "verify_still_open": 2,
+    "candidate_same_jurisdiction_distinct_instrument": 3,
+    "candidates_added": 4,
+    "candidate_duplicate": 1
+  },
+  "conflicts": [],
+  "skipped": [
+    "contra-CA.json: ca-calipatria-undated unresolvable",
+    "contra-NC.json: nc-clay-county-2026 unresolvable",
+    "contra-NC.json: nc-eastern-band-of-cherokee-indians-tribal-and-trust-lands-2026 unresolvable",
+    "contra-TN.json: tn-hawkins-county-2025 unresolvable",
+    "leads-MI.json: mi-bruce-township-undated unresolvable",
+    "leads-MI.json: candidate MI 'Zeeland Charter Township' (resolution-1027) treated as duplicate of mi-zeeland-charter-township-2026 (no instrument number)",
+    "leads-OH.json: oh-perry-undated unresolvable",
+    "leads-OH.json: oh-washington-township-logan-county-2026 unresolvable"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "mi-zeeland-charter-township-2026",
+      "column": "legal_basis",
+      "before": "Township Board resolution 'A Resolution Enacting Temporary Moratoria on Energy Facilities and Data Centers' adopted 2026-09-01 under Section 3.36 of the Zeeland Charter Township Zoning Ordinance (resolution number blank in the board packet); repealed the prior moratorium under Resolution No. 1027 (2026-03-03)",
+      "after": "Township Board resolution 'A Resolution Enacting Temporary Moratoria on Energy Facilities and Data Centers' adopted 2026-09-01 under Section 3.36 of the Zeeland Charter Township Zoning Ordinance (number blank in the board packet); it repealed and superseded the township's March 3, 2026 moratorium (No. 1027), which has its own row",
+      "reason": "The March 2026 instrument now has its own row; phrase its number so the merge's instrument matcher does not read it as this row's instrument.",
+      "source": "aa-coordinator-MI.json"
+    },
+    {
+      "moratorium_id": "ga-kingsland-camden-county-2026",
+      "column": "legal_basis",
+      "before": "City Council resolution repealing Ordinance 2026-03 and establishing a 365-day moratorium on accepting and processing applications for data centers and related development",
+      "after": "City Council 'Data Center Ordinance Rescission and Moratorium Ordinance' (approved 2026-05-11, passed as amended, unanimous), rescinding Ordinance No. 2026-03 and adopting a temporary moratorium on accepting and processing data center applications; the staff draft's 90-day term was amended to 365 days on motion of Councilman Blount",
+      "reason": "Approved minutes of the 2026-05-11 meeting show the item was an ordinance (not a resolution) and record the amendment from 90 to 365 days.",
+      "source": "contra-GA.json"
+    },
+    {
+      "moratorium_id": "nd-mercer-county-2026",
+      "column": "current_status",
+      "before": "Active",
+      "after": "Replaced. On 2026-07-15 the Mercer County Commission voted unanimously (4-0, Guenthner absent) to lift the moratorium, contingent on final adoption and publication of the revised industrial zoning ordinances (including a new data center ordinance, second reading approved 3-1 the same day). The Bismarck Tribune reported the moratorium was lifted as the new ordinance came online on 2026-08-05. Residents presented a 475-signature petition that day asking for reinstatement; no reinstatement was found as of 2026-09-23.",
+      "reason": "Central Nordak (2026-07-23), WDEA (2026-07-17) and Bismarck Tribune (2026-08-06) report the lift and the replacement ordinance.",
+      "source": "contra-ND.json"
+    },
+    {
+      "moratorium_id": "nd-mercer-county-2026",
+      "column": "outcome",
+      "before": "Pending. Planning and Zoning continued data center ordinance work in March and April 2026; the March 3 meeting included second-reading public hearing on adding Data Center / Digital Asset Mining definitions and listing Data Center as a conditional use in the Industrial District; the third reading was set for March 18, 2026.",
+      "after": "Data center zoning ordinance (with wind and solar ordinances) adopted on second reading 2026-07-15; moratorium lifted effective on the ordinance's publication (about 2026-08-05).",
+      "reason": "The moratorium ended when a permanent ordinance took its place.",
+      "source": "contra-ND.json"
+    },
+    {
+      "moratorium_id": "nd-mercer-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-08-05",
+      "reason": "The lift took effect when the ordinance came online, reported by the Bismarck Tribune on Wednesday 2026-08-05.",
+      "source": "contra-ND.json"
+    },
+    {
+      "moratorium_id": "nd-mercer-county-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "replaced",
+      "reason": "savrn and aigridwatch are right that it is no longer in force (savrn's 'June' is wrong: the vote was 2026-07-15, effective about 2026-08-05). Status is 'replaced', not rescinded: it was lifted because the permanent data center ordinance it was waiting for was adopted.",
+      "source": "contra-ND.json"
+    },
+    {
+      "moratorium_id": "oh-urbana-2026",
+      "column": "outcome",
+      "before": "Moratorium plus a city Data Center Moratorium Committee study. Council later rezoned the site (June 2026). Litigation is pending.",
+      "after": "Moratorium plus a city Data Center Moratorium Committee study. On 2026-06-16 council unanimously passed Ordinance 4635-26, restoring the pre-2025 zoning text so data centers are no longer a permitted use in the M-1 Light Manufacturing District. The moratorium was not repealed. Litigation is pending, and a charter amendment banning data centers over 7.5 MW is on the November 2026 ballot.",
+      "reason": "The row said council 'rezoned the site'; Peak of Ohio reports a text reversal (Ord. 4635-26) removing data centers as a permitted M-1 use, with no repeal of the moratorium.",
+      "source": "contra-OH.json"
+    },
+    {
+      "moratorium_id": "al-helena-2026",
+      "column": "date_enacted",
+      "before": "Reported as approved 2026-08-10 (AL.com; AL.com map); WVTM called the Aug. 10 action a first reading with second reading on Aug. 24, and council members later referred to restrictions adopted 'in June'. An amendment exempting two pre-existing projects was adopted 3-1 on 2026-09-14.",
+      "after": "2026-06-22 (City Council gave Ordinance 1043-2026 immediate consideration and adopted it by unanimous consent, 4-0, on its first reading, per official minutes); an amended version (radius cut from 1,000 to 500 feet) had a first reading 2026-08-10 (a motion for immediate consideration failed for lack of a second) and 2026-08-24; an amendment exempting two previously initiated projects was adopted 3-1 on 2026-09-14",
+      "reason": "Official June 22, 2026 minutes show adoption; the August dates reported by AL.com/WVTM were readings of an amendment.",
+      "source": "leads-AL.json"
+    },
+    {
+      "moratorium_id": "al-helena-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-08",
+      "after": "2026-06-22",
+      "reason": "Adoption vote date from official minutes.",
+      "source": "leads-AL.json"
+    },
+    {
+      "moratorium_id": "al-helena-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact",
+      "reason": "Exact date now known.",
+      "source": "leads-AL.json"
+    },
+    {
+      "moratorium_id": "al-helena-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; Ordinance 1043-2026 suspends applications for new or expanded data centers, gas stations, auto businesses and dealerships for 180 days. On 2026-09-14 the council amended it 3-1 to exempt two previously initiated projects; data centers remain covered. Council members said they plan a separate, more detailed standalone data-center moratorium. [VERIFY details not confirmed at confidence 0.65 in the 2026-09 refresh]",
+      "after": "Active as of 2026-09-23; Ordinance 1043-2026, adopted 2026-06-22 and effective on publication, suspends applications for new or expanded data centers, gas stations, auto parts and mechanic shops and auto or manufactured-home dealerships within 1,000 feet of Highways 17, 52, 58 and 95 for 180 days (to about mid/late December 2026). On 2026-09-14 the council amended it 3-1 to exempt two previously initiated projects; data centers remain covered. Council members said they plan a separate, standalone data-center moratorium.",
+      "reason": "Resolves the conflicting dates and ordinance numbers; removes the VERIFY marker.",
+      "source": "leads-AL.json"
+    },
+    {
+      "moratorium_id": "ia-emmet-county-2025",
+      "column": "<new row>",
+      "before": "",
+      "after": "Iowa / Emmet County",
+      "reason": "Lead (QA1 IA): a real pause chain distinct from ia-emmet-county-2024 (wind) and ia-emmet-county-2026 (data centers). The chain starts with Resolution 25-05 (Jan. 2025), not 25-36 as QA1 thought. Resolution 25-36's signature line reads 'September 30, 2024', evidently a typo for 2025 (it was posted Sept. 2025 and continues the 2025-09-30 expiry). The later resolutions re-state the moratorium each time but continue one pause, so this is one row, per the codebook's extension rule. Jurisdiction name matches existing Emmet County rows; the generated id needs a suffix.",
+      "source": "leads-IA.json"
+    },
+    {
+      "moratorium_id": "mi-cascade-charter-township-kent-county-2026",
+      "column": "date_enacted",
+      "before": "2026-03-11 (Township Board adopted Ordinance No. 002 of 2026 via Resolution 010-2026, 7-0, after introducing it 2026-02-25); re-imposed and broadened to cryptocurrency mining by Resolution 024-2026 adopted unanimously 2026-05-27 under the township's new zoning moratorium procedure",
+      "after": "2026-03-11 (Township Board adopted Ordinance No. 002 of 2026 via Resolution 010-2026, 7-0, after introducing it 2026-02-25; notice of adoption published in the Grand Rapids Press 2026-03-17)",
+      "reason": "Split: this row now covers Ordinance No. 002 of 2026 only; Resolution 024-2026 (2026-05-27) is a separate, broader instrument added as a new candidate.",
+      "source": "leads-MI.json"
+    },
+    {
+      "moratorium_id": "mi-cascade-charter-township-kent-county-2026",
+      "column": "duration",
+      "before": "Six months or until zoning amendments are adopted (Ordinance No. 002 of 2026); Resolution 024-2026 runs six months from its 2026-05-27 effective date, extendable by resolution for up to six more months",
+      "after": "Six months following the effective date (publication, 2026-03-17) or until data center zoning amendments take effect, whichever occurs first; extendable by resolution for up to six more months",
+      "reason": "Ordinance No. 002 of 2026, Section 4, and the published notice (Grand Rapids Press 2026-03-17).",
+      "source": "leads-MI.json"
+    },
+    {
+      "moratorium_id": "mi-cascade-charter-township-kent-county-2026",
+      "column": "legal_basis",
+      "before": "Ordinance No. 002 of 2026, 'An Ordinance to Impose a Moratorium on the Issuance of Permits, Licenses or Approvals for Data Centers' (adopted by Resolution 010-2026, 2026-03-11); Resolution 024-2026, 'A Resolution Imposing a Six (6) Month Temporary Moratorium on Data Centers and Cryptocurrency Mining Facilities' (adopted 2026-05-27, effective immediately)",
+      "after": "Ordinance No. 002 of 2026, 'An Ordinance to Impose a Moratorium on the Issuance of Permits, Licenses or Approvals for Data Centers' (adopted by Resolution 010-2026, 2026-03-11; effective on publication 2026-03-17)",
+      "reason": "Resolution 024-2026 moved to its own row.",
+      "source": "leads-MI.json"
+    },
+    {
+      "moratorium_id": "mi-cascade-charter-township-kent-county-2026",
+      "column": "sectors",
+      "before": "[\"data_center\",\"cryptocurrency_mining\"]",
+      "after": "[\"data_center\"]",
+      "reason": "Ordinance No. 002 covers data centers only; cryptocurrency mining was added by the separate Resolution 024-2026.",
+      "source": "leads-MI.json"
+    },
+    {
+      "moratorium_id": "mi-cascade-charter-township-kent-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-09-17",
+      "reason": "Six months after the 2026-03-17 publication/effective date.",
+      "source": "leads-MI.json"
+    },
+    {
+      "moratorium_id": "mi-cascade-charter-township-kent-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; Resolution 024-2026 (adopted and effective 2026-05-27) runs six months to about 2026-11-27, with a possible six-month extension; it succeeded the six-month Ordinance No. 002 of 2026 adopted 2026-03-11.",
+      "after": "Expired 2026-09-17; Ordinance No. 002 of 2026 (data centers) ran its six-month term from publication on 2026-03-17 with no extension found. Its coverage is carried forward by the separate Resolution 024-2026 (data centers and cryptocurrency mining), adopted 2026-05-27 and active to about 2026-11-27.",
+      "reason": "The six-month term from the 2026-03-17 effective date has run; the successor instrument makes an extension unnecessary and none appears in the record found.",
+      "source": "leads-MI.json"
+    },
+    {
+      "moratorium_id": "mi-cascade-charter-township-kent-county-2026",
+      "column": "enacted_status",
+      "before": "extended",
+      "after": "expired",
+      "reason": "Lead: split the row. QA1 was right that Resolution 024-2026 is a new instrument (adopted under the township's new moratorium-by-resolution procedure, wider in scope, with its own term), not an extension of Ordinance 002. This row keeps Ordinance 002 and is set to 'expired' as of 2026-09-17 (confidence 0.65: no September board action extending Ordinance 002 was found, and the successor resolution makes one unnecessary). Resolution 024-2026 is added as a new candidate.",
+      "source": "leads-MI.json"
+    },
+    {
+      "moratorium_id": "mi-cascade-charter-township-kent-county-2026-2",
+      "column": "<new row>",
+      "before": "",
+      "after": "Michigan / Cascade Charter Township (Kent County)",
+      "reason": "Split out of mi-cascade-charter-township-kent-county-2026 (lead from QA1 MI-part1). Jurisdiction name matches the existing row, so the generated id will need a '-2' suffix.",
+      "source": "leads-MI.json"
+    },
+    {
+      "moratorium_id": "oh-paris-township-union-county-2026",
+      "column": "current_status",
+      "before": "Reported active as of 2026-09-23; one-year moratorium adopted around early February 2026 runs to about February 2027. The township's zoning resolution was amended on 2026-04-07 to define data centers without listing them as a permitted use, which may have made the pause less important. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+      "after": "Replaced as of 2026-09-23. The one-year data center moratorium adopted around early February 2026 was overtaken by the township's zoning resolution amendments adopted 2026-04-07 (recorded with the Union County Recorder 2026-05-07), which add a definition of 'Data Center' without listing it as a permitted or conditional use in any district, so data centers are now prohibited under the permanent zoning text. No separate trustee action rescinding the moratorium was found. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+      "reason": "Primary source: the recorded Paris Township Zoning Resolution, 'amended and restated to reflect amendments adopted April 7, 2026', with the new Data Center definition; LUC staff report (2026-03-12 review) confirms the definition was adopted without a permitted use, i.e. an effective prohibition.",
+      "source": "leads-OH.json"
+    },
+    {
+      "moratorium_id": "oh-paris-township-union-county-2026",
+      "column": "outcome",
+      "before": "Township amended its zoning resolution (amendments adopted April 7, 2026) to define 'Data Center'; OCJ classes this as an effective prohibition.",
+      "after": "Replaced by permanent zoning: amendments adopted 2026-04-07 (recorded 2026-05-07) define 'Data Center' with no permitted or conditional use in any district, effectively prohibiting data centers in unincorporated Paris Township.",
+      "reason": "Same source; states the adoption and recording dates.",
+      "source": "leads-OH.json"
+    },
+    {
+      "moratorium_id": "oh-paris-township-union-county-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "replaced",
+      "reason": "Lead resolved: yes, the April 7, 2026 zoning amendment (recorded May 7, effective after the referendum period) is a permanent de facto ban that supersedes the February pause; 'replaced' per the codebook. The trustees did not formally rescind the moratorium as far as can be found, so the pause is technically still in force until ~Feb 2027, but it no longer does any work. Confidence 0.7 because the moratorium's own record is thin.",
+      "source": "leads-OH.json"
+    },
+    {
+      "moratorium_id": "oh-fairborn-2026",
+      "column": "legal_basis",
+      "before": "City of Fairborn council resolution (number not found) imposing 12-month moratoriums on data centers, self-storage facilities, gas stations, convenience stores and car washes",
+      "after": "Resolution 38-26 (City of Fairborn), placing 12-month temporary moratoriums on data centers, self-storage facilities, gas stations, convenience stores and car washes (adopted 2026-08-17)",
+      "reason": "MyTownView summary of the 2026-08-17 council meeting names Resolution 38-26.",
+      "source": "leads-OH.json"
+    },
+    {
+      "moratorium_id": "oh-fairborn-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; 12-month moratorium adopted 2026-08-17 runs to about 2027-08-17. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+      "after": "Active as of 2026-09-23; 12-month moratorium (Resolution 38-26) adopted 2026-08-17 runs to about 2027-08-17. A separate, earlier 180-day data center (crypto-mining) moratorium, Ordinance 25-22 of 2022-09-06, expired in March 2023.",
+      "reason": "Instrument number found; VERIFY marker resolved.",
+      "source": "leads-OH.json"
+    },
+    {
+      "moratorium_id": "oh-fairborn-2022",
+      "column": "<new row>",
+      "before": "",
+      "after": "Ohio / Fairborn",
+      "reason": "Lead (QA1 OH-part3): distinct instrument from oh-fairborn-2026, with different ordinance, date and term. The Dayton Daily News story (Sept. 2022, 'Fairborn puts 6-month ban on crypto mining data centers') now returns 404, so the official minutes are cited instead. The expiry is inferred from the fixed term plus OCR'd minutes for Sept. 2022 through March 20, 2023 (Feb. 6, 2023 minutes not checked) showing no extension or data center item. The instrument's text covers all data centers; staff framed it around crypto mining, hence both sectors.",
+      "source": "leads-OH.json"
+    },
+    {
+      "moratorium_id": "sd-turner-county-2025",
+      "column": "date_enacted",
+      "before": "On or about late August 2025 (news report dated 2025-08-27/28, 'Turner Co. OKs Wind Farm Pause'); exact Commission vote date not independently located in an archived primary source",
+      "after": "2025-08-26 (Turner County Board of Commissioners adopted Ordinance #100-25, a temporary zoning ordinance, 4-0 with the chairman recused, per official minutes)",
+      "reason": "Official 2025-08-26 commission minutes.",
+      "source": "leads-SD.json"
+    },
+    {
+      "moratorium_id": "sd-turner-county-2025",
+      "column": "date_enacted_iso",
+      "before": "2025-08",
+      "after": "2025-08-26",
+      "reason": "Official minutes give the adoption date.",
+      "source": "leads-SD.json"
+    },
+    {
+      "moratorium_id": "sd-turner-county-2025",
+      "column": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact",
+      "reason": "Exact date now known.",
+      "source": "leads-SD.json"
+    },
+    {
+      "moratorium_id": "sd-turner-county-2025",
+      "column": "duration",
+      "before": "Originally reported as a one-year moratorium on wind energy projects; county Board of Adjustment minutes from September and October 2025 describe a 'Moratorium on Solar and Wind Energy Systems' ordinance adopted by the County Commission, and a public-notice aggregator (not independently verified against an archived primary source) indicated a hearing was set for 2026-08-25 to consider extending a 'temporary moratorium on utility-scale alternative energy systems' county-wide.",
+      "after": "One (1) year (Ordinance #100-25, effective on completed publication); extended one year by Ordinance #105-26 (adopted 2026-08-25) to expire 2027-08-25",
+      "reason": "Both ordinances' texts in the official minutes.",
+      "source": "leads-SD.json"
+    },
+    {
+      "moratorium_id": "sd-turner-county-2025",
+      "column": "duration_days",
+      "before": "",
+      "after": "365",
+      "reason": "Original term is one year.",
+      "source": "leads-SD.json"
+    },
+    {
+      "moratorium_id": "sd-turner-county-2025",
+      "column": "duration_kind",
+      "before": "unknown",
+      "after": "fixed_days",
+      "reason": "Fixed one-year term.",
+      "source": "leads-SD.json"
+    },
+    {
+      "moratorium_id": "sd-turner-county-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-08-25",
+      "reason": "Ordinance #105-26: 'shall expire on August 25, 2027'.",
+      "source": "leads-SD.json"
+    },
+    {
+      "moratorium_id": "sd-turner-county-2025",
+      "column": "legal_basis",
+      "before": "Turner County Commission ordinance/resolution establishing a moratorium on wind (and later described as covering solar/utility-scale alternative energy) systems, adopted on or about August 2025; discussed at Turner County Board of Adjustment meetings on 2025-09-23 and 2025-10-21",
+      "after": "Ordinance #100-25, 'A Temporary Zoning Ordinance Regulating Utility-Scale Alternative Energy in All Turner County Zoning Districts' (adopted 2025-08-26); extended by Ordinance #105-26, 'A Temporary Zoning Ordinance Extending the Moratorium Regulating Utility-Scale Alternative Energy Systems in All Turner County Zoning Districts' (adopted 2026-08-25); SDCL 11-2-10, 7-18A-8",
+      "reason": "Instrument numbers from official minutes.",
+      "source": "leads-SD.json"
+    },
+    {
+      "moratorium_id": "sd-turner-county-2025",
+      "column": "current_status",
+      "before": "Status as of 2026-09-23 is only partially confirmed. Yankton.net reported (headline 'Turner Co. OKs Wind Farm Pause,' dated on or about 2025-08-27/28) that the Turner County Commission enacted a one-year moratorium on wind energy projects, putting the proposed Swan Lake Wind development on hold. Turner County Board of Adjustment minutes from 2025-09-23 confirm the Commission had adopted a 'Moratorium on Solar and Wind Energy Systems' ordinance and that the Board discussed forming a task force on it; minutes from 2025-10-21 show continued discussion of the 'Solar/Wind moratorium.' NextEra subsequently withdrew its wind-turbine application for the area (reported on or about 2026-08-21-28). A public-notice listing indicated Turner County scheduled an 8:35 a.m. public hearing on 2026-08-25 in Parker to consider extending a 'temporary moratorium on utility-scale alternative energy systems' county-wide, but the archived copy of that notice did not retain the underlying notice text (JS-rendered page returned only site boilerplate) and the outcome of any such hearing could not be confirmed from a source with retrievable primary text as of 2026-09-23. [VERIFY instrument number not confirmed at confidence 0.5 in the 2026-09 refresh]",
+      "after": "Extended as of 2026-09-23; the one-year moratorium on new permits and land-use approvals for utility-scale solar and wind systems (Ordinance #100-25, adopted 2025-08-26) was extended one year by Ordinance #105-26, adopted 2026-08-25 after an 8:35 a.m. public hearing (4 ayes, chairman abstaining), and now expires 2027-08-25. NextEra withdrew its Swan Lake Wind application in August 2026.",
+      "reason": "Resolves the Aug. 25, 2026 hearing outcome from the official minutes; removes the VERIFY marker.",
+      "source": "leads-SD.json"
+    },
+    {
+      "moratorium_id": "sd-turner-county-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "Lead resolved from the county's own minutes. Also corrects the date to 2025-08-26 and fills the term fields.",
+      "source": "leads-SD.json"
+    },
+    {
+      "moratorium_id": "wi-hampden-2026",
+      "column": "<new row>",
+      "before": "",
+      "after": "Wisconsin / Hampden",
+      "reason": "Lead (sibling tracker): confirmed and missing from the inventory. Town of Hampden, Columbia County (the only Hampden in WI). The OCR of the signed ordinance reads 'ORDINANCE NO. _1 3'; the minutes say No. 18 (the website calls it Ch. 18). No news coverage found; primary sources only.",
+      "source": "leads-WI.json"
+    }
+  ]
+}

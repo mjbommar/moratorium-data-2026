@@ -3,38 +3,340 @@
 
 Every local infrastructure moratorium in the inventory for New York, current through **September 23, 2026**.
 
-**24 instruments** — 19 in force, 3 pending, 2 past.
+**150 instruments** — 111 in force, 5 pending, 34 past.
 
 State policy is tracked separately: **11 actions** (10 bills and 1 non-bill action) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
+| Albion | Town | 2025-02 | battery storage, solar | ⚪ Replaced |
+| Allen (Allegany County) | Town | Unverified | battery storage | 🟢 Active |
+| Amsterdam | City | 2025-12-02 | battery storage, solar | 🟢 Active |
+| Angelica | Town | 2024-10-31 | battery storage, solar, wind | ⚪ Expired |
+| Arietta | Town | 2026-06-15 | battery storage | 🟢 Active |
+| Athens | Town | 2026-03 | battery storage | 🟢 Active |
+| Aurora (Erie County) | Town | 2025-05-27 | battery storage | 🟢 Extended |
+| Babylon | Town | 2024-06-05 | battery storage | 🟢 Extended |
+| Bedford | Town | 2024-08-13 | battery storage | 🟢 Extended |
+| Benson | Town | 2026-05 | battery storage | 🟢 Active |
+| Berne | Town | 2025-05-06 | solar, battery storage | 🟢 Extended |
 | Bethlehem | Town | 2026-06-24 | data center | 🟢 Active |
+| Boston (Erie County) | Town | 2024 | battery storage | 🟢 Extended |
+| Brasher | Town | 2024 | battery storage | 🟢 Extended |
 | Buffalo | City | Unverified | data center, cryptocurrency mining | 🟡 Pending |
-| Clay | Town | 2026-06 | data center, cryptocurrency mining | 🟢 Active |
+| Busti | Town | 2024 | battery storage | 🟢 Active |
+| Byron | Town | 2026-04-09 | battery storage | 🟢 Extended |
+| Byron | Town | 2026-04-09 | solar | 🟢 Extended |
+| Cameron | Town | 2024-10 | battery storage, solar | 🟢 Active |
+| Camillus | Town | 2026-03-10 | battery storage | 🟢 Active |
+| Campbell | Town | Unverified | battery storage | 🟢 Active |
+| Canton | Town | 2026-07-08 | data center | 🟢 Active |
+| Carlton | Town | Unverified | battery storage | 🟢 Extended |
+| Carmel | Town | 2024 | battery storage, solar | ⚪ Replaced |
+| Carrollton | Town | Unverified | battery storage | ⚪ Expired |
+| Chester (Orange County) | Town | 2025 | battery storage | 🟢 Extended |
+| Claverack | Town | 2024 | battery storage | 🟢 Extended |
+| Clay | Town | 2026-06-29 | data center, cryptocurrency mining | 🟢 Active |
+| Clymer | Town | 2024 | battery storage | 🟢 Extended |
+| Collins | Town | Unverified | battery storage | 🟢 Active |
+| Concord | Town | 2024-07-22 | battery storage | 🟢 Extended |
+| Concord | Town | 2024 | solar | 🟢 Extended |
+| Corning | Town | Unverified | battery storage | 🟢 Extended |
+| Cortlandt | Town | 2024 | battery storage | 🟢 Extended |
+| Denmark (Lewis County) | Town | 2026-02-03 | solar, battery storage | 🟢 Active |
 | East Greenbush | Town | 2026-07-15 | data center | 🟢 Active |
+| Eden | Town | 2025 | battery storage | 🟢 Extended |
+| Elba | Town | Unverified | battery storage, solar | 🟢 Active |
+| Ellery | Town | 2026-06 | solar, wind, battery storage | 🟢 Active |
 | Enfield | Town | Unverified | data center | 🟡 Pending |
+| Essex County | County | Unverified | battery storage | 🟢 Active |
+| Frankfort | Town | Unverified | battery storage, solar, wind | 🟡 Pending |
+| Freedom (Cattaraugus County) | Town | Unverified | battery storage | 🟢 Active |
+| Gainesville | Town | Unverified | battery storage | 🟢 Active |
+| Gardiner | Town | 2025 | battery storage | 🟢 Extended |
+| German Flatts | Town | 2025 | solar, wind | 🟢 Active |
+| Glen Cove | City | 2025-05-13 | battery storage | 🟢 Extended |
+| Glenville | Town | 2025-06-18 | battery storage | 🟢 Extended |
+| Gloversville | City | 2025-03-11 | battery storage, solar | ⚪ Replaced |
+| Greenwood | Town | Unverified | battery storage | 🟢 Active |
+| Greig (Lewis County) | Town | 2026-01 | solar, wind, battery storage | 🟢 Active |
+| Halfmoon | Town | Unverified | battery storage | 🟢 Extended |
+| Harrison | Town | Unverified | battery storage | ⚪ Expired |
+| Hartwick | Town | 2026-03-20 | solar | 🟢 Active |
+| Hempstead | Town | 2025-03 | battery storage | 🟢 Active |
+| Huntington | Town | 2026-06 | battery storage | 🟢 Active |
+| Hurley | Town | 2025-09-30 | battery storage | 🟢 Extended |
+| Islip | Town | 2024-03-19 | battery storage | 🟢 Extended |
+| Islip | Town | 2026-08-11 | data center | 🟢 Active |
+| Johnstown | Town | 2024 | battery storage, wind | ⚪ Expired |
+| Kent (Putnam County) | Town | 2024-07-09 | battery storage | 🟢 Extended |
+| Le Ray | Town | Unverified | battery storage | ⚪ Expired |
+| LeRay | Town | 2026-08-13 | data center | 🟢 Active |
+| Leyden (Lewis County) | Town | 2024-05-14 | battery storage, solar | ⚪ Replaced |
+| Livingston (Columbia County) | Town | 2024 | battery storage | 🟢 Extended |
+| Long Lake | Town | 2023 | battery storage | ⚪ Replaced |
+| Lysander (Onondaga County) | Town | 2023-09-21 | battery storage | 🟢 Extended |
 | Mamakating | Town | Unverified | data center | 🟡 Pending |
+| Mamaroneck Village | Village | 2024-10-31 | battery storage | ⚪ Expired |
 | Manlius | Town | 2026-07-09 | data center, cryptocurrency mining | 🟢 Active |
+| Mentz | Town | 2025-06 | battery storage | 🟢 Active |
+| Milton (Saratoga County) | Town | 2024-12 | battery storage, solar | 🟢 Extended |
+| Mina | Town | 2025-05-02 | battery storage | 🟢 Extended |
+| Mohawk (Montgomery County) | Town | 2026-08-13 | data center | 🟢 Active |
+| Montgomery | Town | 2025 | battery storage | ⚪ Replaced |
+| Mount Kisco | Village | 2024-08 | battery storage | ⚪ Replaced |
+| New Castle | Town | 2025-02-11 | battery storage | 🟢 Extended |
+| Newfane | Town | 2026-02 | battery storage | ⚪ Expired |
 | Newfield | Town | 2026-07-09 | data center, cryptocurrency mining | 🟢 Active |
+| Newstead | Town | 2024-07-08 | battery storage, solar | ⚪ Expired |
+| Norfolk | Town | 2025-06 | battery storage | 🟢 Active |
+| North Harmony | Town | 2025 | battery storage, solar | 🟢 Extended |
+| North Hempstead | Town | 2024-12-03 | battery storage | 🟢 Extended |
 | North Tonawanda | City | 2024-07-16 | data center, cryptocurrency mining | 🟢 Extended |
+| Oswegatchie | Town | 2023 | battery storage | 🟢 Extended |
+| Oswego City | City | 2025-08-11 | battery storage, solar, wind | 🟢 Extended |
+| Oyster Bay | Town | 2024-04 | battery storage | 🟢 Extended |
+| Peekskill | City | 2025-03-24 | battery storage | 🟢 Extended |
+| Pendleton | Town | 2025-06 | battery storage | ⚪ Replaced |
 | Perth | Town | 2026-06-04 | data center | 🟢 Active |
+| Perth (Fulton County) | Town | 2024 | battery storage, solar, wind | 🟢 Active |
+| Port Chester | Village | 2023-10 | battery storage | ⚪ Expired |
+| Potsdam | Town | Unverified | data center | 🟡 Pending |
+| Pound Ridge | Town | 2025 | battery storage | ⚪ Replaced |
+| Prattsburgh | Town | 2024 | battery storage, solar | 🟢 Active |
+| Putnam Valley | Town | 2024-07-26 | battery storage, solar, wind | ⚪ Expired |
+| Ripley | Town | Unverified | battery storage | ⚪ Expired |
+| Rose | Town | 2025 | battery storage, solar | 🟢 Active |
+| Rotterdam | Town | 2024 | battery storage | ⚪ Expired |
+| Royalton | Town | 2024-03 | battery storage | ⚪ Replaced |
+| Salem | Town | 2025-10-08 | battery storage | 🟢 Active |
+| Schroeppel | Town | 2026-02-10 | solar | 🟢 Active |
+| Smithtown | Town | 2024-09-20 | battery storage | 🟢 Extended |
+| Somerset | Town | 2024 | battery storage | ⚪ Replaced |
+| Southampton | Town | 2023-08-22 | battery storage | ⚪ Replaced |
+| Southold | Town | 2023-01-31 | battery storage | 🟢 Extended |
+| Southport | Town | 2025-02-11 | battery storage, solar | 🟢 Extended |
+| Spafford | Town | 2026-05-14 | battery storage | 🟢 Active |
+| Stanford | Town | 2024-11-14 | battery storage, wind | 🟢 Extended |
+| Stockport | Town | 2026-06 | battery storage | 🟢 Active |
+| Syracuse | City | 2026-02 | battery storage | 🟢 Active |
+| Ticonderoga | Town | 2026-05 | battery storage | 🟢 Active |
 | Tonawanda | Town | 2026-08-03 | data center | 🟢 Active |
 | Town of Brookhaven | Town | 2026-07-16 | data center | 🟢 Active |
+| Town of Cairo | Town | 2026-03-02 | battery storage | ⚪ Expired |
+| Town of Chautauqua | Town | 2023 | battery storage, solar, wind | 🟢 Active |
+| Town of Clifton Park | Town | 2025-07-21 | battery storage | ⚪ Replaced |
 | Town of Clifton Park | Town | 2026-07-07 | data center | 🟢 Active |
+| Town of Day | Town | 2025 | battery storage | 🟢 Active |
 | Town of Dryden (Tompkins County) | Town | 2024-07-31 | data center, cryptocurrency mining | ⚪ Replaced |
+| Town of Dunkirk (Chautauqua County) | Town | 2025-09 | battery storage | 🟢 Extended |
 | Town of East Fishkill | Town | 2026-06-25 | data center | 🟢 Active |
 | Town of Highland | Town | 2026-06-09 | data center | 🟢 Active |
-| Town of Lansing (Tompkins County) - proposed, not enacted | Town | Unverified | data center | 🔴 Rescinded |
+| Town of Lewis (Lewis County) | Town | 2026-03-16 | solar, battery storage, wind | 🟢 Active |
 | Town of Lewiston (Niagara County) - proposed, public hearing held | Town | 2026-04-13 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Lysander (Onondaga County) - drafting authorized | Town | 2026-05-07 | data center | 🟢 Active |
+| Town of Marcellus | Town | 2026-05-06 | battery storage | 🟢 Active |
+| Town of Northampton | Town | 2026-03 | battery storage | 🟢 Active |
 | Town of Oneonta (Otsego County) - proposed, pending | Town | 2026-05-15 | data center, cryptocurrency mining | 🟢 Active |
+| Town of Orangetown | Town | 2026-08-25 | battery storage, data center | 🟢 Active |
+| Town of Poughkeepsie | Town | 2024-02 | battery storage | ⚪ Replaced |
 | Town of Salina | Town | 2026-05-27 | data center, cryptocurrency mining | 🟢 Active |
+| Town of Sherburne | Town | 2026-01-14 | battery storage | 🟢 Extended |
 | Town of Southeast | Town | 2026-05-21 | data center | 🟢 Active |
 | Town of Thurston | Town | 2026-05-20 | data center, cryptocurrency mining | 🟢 Active |
+| Town of Tyre | Town | 2026-07-22 | data center | 🟢 Active |
 | Town of Van Buren | Town | 2026-06-03 | data center, cryptocurrency mining | 🟢 Active |
+| Town of Watson | Town | 2025-06 | battery storage | ⚪ Replaced |
+| Turin | Town | 2025 | battery storage | ⚪ Expired |
+| Victory | Town | 2024-10-14 | battery storage | 🟢 Active |
+| Village of Mayville | Village | 2025-06 | battery storage | 🟢 Extended |
+| Village of Wilson | Village | 2024-09-19 | battery storage | ⚪ Expired |
+| Virgil | Town | Unverified | battery storage | 🟢 Active |
+| Walworth | Town | 2024-03 | battery storage, solar | ⚪ Replaced |
+| Warwick | Town | 2023 | battery storage | ⚪ Replaced |
+| West Bloomfield | Town | 2024-09-11 | battery storage, solar | 🟢 Active |
+| Westfield | Town | 2024 | battery storage | 🟢 Active |
+| Wilton | Town | 2026-06 | battery storage | 🟢 Active |
+| Yonkers | City | 2024-07-16 | battery storage | 🟢 Active |
+| Yorktown | Town | Unverified | battery storage | ⚪ Expired |
 
 ## Detailed entries
+
+### Albion
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** Six-month moratorium, town public hearings scheduled 2025-02-10 following county planning board recommendation on 2025-01-23
+- **Normalized date:** `2025-02` (month_only)
+- **Duration:** 6 months
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-albion-2025`
+- **Legal basis:** Town of Albion local law (solar/BESS moratorium, 2025); later superseded by amendment to Chapter 106 (BESS) of the Town Code
+- **What prompted it:** Town revising solar/BESS ordinance provisions
+- **Affected projects:** —
+- **Detailed status:** Lifted per industry tracker; town subsequently amended Chapter 106 of its Town Code addressing battery energy storage systems, replacing the temporary pause with permanent regulation. [VERIFY instrument number not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Six-month moratorium on commercial solar and battery storage construction, later replaced by a permanent Chapter 106 (BESS) code amendment.
+
+### Allen (Allegany County)
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Reported active by Carina Energy
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-allen-allegany-county-undated`
+- **Legal basis:** —
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy's live tracker, expiring 2026-09-30. Searches for a dedicated Town of Allen source instead surfaced unrelated Allegany County BESS moratoria (Town of Allegany, Town of Alfred, Town of Friendship, Town of Wellsville) -- Allegany County has an unusually active cluster of separate town-level BESS moratoria with similar names, and no source specific to the Town of Allen itself was confirmed within this pass's research budget. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Outcome:** Reported active by tracker only
+
+### Amsterdam
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** December 2, 2025 (City of Amsterdam Common Council adopted a local law establishing a six-month moratorium on land-use approvals/building permits for industrial solar and battery energy storage systems, effective through June 2, 2026); per Daily Gazette, Dec. 8, 2025. Extended by a local law adopted on or about May 19, 2026 to Jan. 5, 2027 ('through the end of the year'); per Daily Gazette, May 25, 2026.
+- **Normalized date:** `2025-12-02` (exact)
+- **Duration:** Six months from Dec. 2, 2025 (through June 2, 2026), then extended by a local law adopted ~May 19, 2026 to Jan. 5, 2027
+- **Current end date:** `2027-01-05`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-amsterdam-undated`
+- **Legal basis:** City of Amsterdam moratorium on industrial solar and battery energy storage systems
+- **What prompted it:** Development pressure and desire to update zoning laws
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23, extended through Jan. 5, 2027. The Daily Gazette's Dec. 8, 2025 and May 25, 2026 articles (this time fetched successfully, past the paywall interstitial) confirm the original Dec. 2, 2025 six-month moratorium and its extension to Jan. 5, 2027, and a third Daily Gazette headline ('Amsterdam to propose banning battery energy storage systems') indicates a permanent ban was under consideration as of the extension. [VERIFY instrument/local law number not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** Adopted and extended; a permanent ban has reportedly been proposed but not confirmed adopted
+
+### Angelica
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** Filed with the NYS Department of State on 2024-10-31
+- **Normalized date:** `2024-10-31` (exact)
+- **Duration:** Six months, extended twice for six months each by a Town Board motion on 2025-02-10 (18 months total)
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar, wind
+- **Moratorium ID:** `ny-angelica-2024`
+- **Legal basis:** Town of Angelica local law imposing a moratorium on solar energy systems, energy storage systems, and wind generation systems
+- **What prompted it:** Desire to regulate future community/commercial-scale solar, energy storage, and wind generation to protect agricultural character
+- **Affected projects:** A proposed BESS north of Belmont
+- **Detailed status:** Expired 2026-04-30. An Allegany Hope Community News investigation found the town initially told a FOIL requester no responsive BESS-moratorium records existed, then located the filed local law and a February 10, 2025 motion extending it for both available six-month periods. No permanent BESS regulation had been completed as of the board's June 8, 2026 meeting; a new proposed Local Law No. 1 of 2026, 'Creating Regulations for Battery Energy Storage Systems' (permanent, not a moratorium), had a public hearing scheduled for 2026-08-24.
+- **Outcome:** Adopted, extended twice, then expired without permanent regulations in place; permanent BESS regulations proposed separately in August 2026
+
+### Arietta
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Public hearing and adoption at the June 15, 2026 Town Board meeting (Resolution 26-06-30, Local Law No. 01 of 2026)
+- **Normalized date:** `2026-06-15` (exact)
+- **Duration:** One year (per tracker corroboration; not independently confirmed from the agenda alone)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-arietta-2026`
+- **Legal basis:** Local Law No. 01 of 2026, Establishing a Moratorium on Battery Energy Storage Systems (Resolution 26-06-30)
+- **What prompted it:** Town-wide moratorium on BESS facilities, part of a wave of similar June 2026 enactments across Hamilton County Adirondack towns (Arietta and neighboring Benson both adopted ALL_BESS moratoria the same month)
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23 per the June 15, 2026 Town Board meeting agenda and resolution; a tracker (Carina Energy) reports it as an ALL_BESS (all sizes, not just utility-scale) moratorium expiring 2027-06-22.
+- **Outcome:** Town-wide moratorium on all battery energy storage systems
+
+### Athens
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-03 (public hearing 'Monday night' following a February 21, 2026 Town Board discussion; 3-2 vote)
+- **Normalized date:** `2026-03` (month_only)
+- **Duration:** At least six months and up to a year
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-athens-2026`
+- **Legal basis:** Town of Athens moratorium on battery energy storage system facilities
+- **What prompted it:** Public safety and fire-suppression concerns; a proposed BESS facility on Route 9W in neighboring Catskill
+- **Affected projects:** Eolian Energy's proposed BESS facility on Route 9W, Town of Catskill (adjacent)
+- **Detailed status:** Carina Energy lists Athens as UNDER_REVIEW with an expiration of 2026-03-01, consistent with a roughly six-month initial term from a March 2026 vote. Status as of 2026-09-23 not independently confirmed beyond the tracker. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** Adopted on a 3-2 vote
+
+### Aurora (Erie County)
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2025-05-27, filed with the NYS Department of State 2025-06-09
+- **Normalized date:** `2025-05-27` (exact)
+- **Duration:** Six months, extended by resolution for additional six-month periods
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-aurora-erie-county-2025`
+- **Legal basis:** Town of Aurora Local Law 5-2025, a six-month moratorium on new applications for battery energy storage systems
+- **What prompted it:** Time needed to complete the town's Comprehensive Plan and a BESS-specific local law
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23. Extended by unanimous Town Board resolution on 2025-12-22, effective 2025-12-09 through 2026-06-09, to allow the Comprehensive Plan and a BESS local law to be completed.
+- **Outcome:** Adopted, extended at least once
+
+### Babylon
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2024-06-05, Local Law 11 of 2024
+- **Normalized date:** `2024-06-05` (exact)
+- **Duration:** Six months, repeatedly extended by resolution (Local Law 23 of 2024 on 2024-12-04; Local Law 8 of 2025 on 2025-07-09; Local Law 2 of 2026 on 2026-01-05)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-babylon-2024`
+- **Legal basis:** Town of Babylon 2026 Moratorium Law on Battery Energy Storage System Facilities (Local Law No. 2 of 2026, extending Local Law 11 of 2024)
+- **What prompted it:** BESS fires elsewhere in New York; Fire Marshal and Department of Environmental Control concerns about environmentally sensitive watersheds, the Great South Bay, and Special Groundwater Protection Areas
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23. Most recently extended by Local Law No. 2 of 2026, adopted January 5, 2026 following a December 17, 2025 public hearing, for six more months.
+- **Outcome:** Adopted 2024-06-05, extended at least three times
+
+### Bedford
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2024-08-13, effective 2024-08-16
+- **Normalized date:** `2024-08-13` (exact)
+- **Duration:** Six months, repeatedly extended by resolution (Local Law No. 1-2025 effective ~2025-02-16; further extensions through at least September 2026)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-bedford-2024`
+- **Legal basis:** Town of Bedford local law prohibiting review and approval of applications for battery energy storage systems (Local Law No. 1-2025 extending the original 2024-08-13 moratorium)
+- **What prompted it:** BESS fires elsewhere in New York; a Bedford advisory committee developing a model ordinance with NYSERDA and Westchester Business Council input
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23. A committee is finalizing a model BESS ordinance; the Town Board approved a further six-month extension in an uncontested hearing (no public comment), and a September 8, 2026 public hearing notice indicates the town continued to extend the moratorium into the fall of 2026.
+- **Outcome:** Adopted, extended repeatedly
+
+### Benson
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Public hearing held 2026-05-28 on Local Law No. 1 of 2026; adoption date not separately confirmed but presumed at or shortly after the hearing
+- **Normalized date:** `2026-05` (month_only)
+- **Duration:** One year (per tracker corroboration; not independently confirmed from the notice alone)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-benson-2026`
+- **Legal basis:** Local Law No. 1 of 2026, Establishing a Moratorium on Battery Energy Storage Systems
+- **What prompted it:** Town-wide moratorium on BESS facilities, part of a wave of similar mid-2026 enactments across Hamilton County Adirondack towns (Benson and neighboring Arietta both adopted ALL_BESS moratoria within weeks of each other)
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23 per the Town's May 20, 2026 legal notice and May 28, 2026 public hearing on Local Law No. 1 of 2026; a tracker (Carina Energy) reports it as an ALL_BESS moratorium expiring 2027-06-09. [VERIFY instrument number not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Town-wide moratorium on all battery energy storage systems
+
+### Berne
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2025-05-06 (second Berne solar moratorium; the first was 2019)
+- **Normalized date:** `2025-05-06` (exact)
+- **Duration:** Originally one year; extended six months on 2026-03-11 (through 2026-11-06, adding a battery energy storage system ban); extended a further six months on 2026-09-09
+- **Current end date:** `—`
+- **Sectors:** solar, battery storage
+- **Moratorium ID:** `ny-berne-2025`
+- **Legal basis:** Town of Berne moratorium on commercial solar facilities (extended to add battery energy storage systems on 2026-03-11)
+- **What prompted it:** A proposed 4.25 MW TJA Energy solar facility and a proposed 3.8 MW RIC Energy solar facility
+- **Affected projects:** TJA Energy's 4.25 MW solar proposal (Switzkill/Canaday Hill Roads); RIC Energy's 3.8 MW solar proposal (28 Jansen Lane)
+- **Detailed status:** Active as of 2026-09-23, extended for a further six months at the September 9, 2026 Town Board meeting (unanimous vote). Two board members (Casey Miller and Melanie LaCour) are drafting permanent solar/BESS legislation, not yet completed as of that meeting.
+- **Outcome:** Adopted, extended repeatedly
 
 ### Bethlehem
 
@@ -52,6 +354,38 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** Reported active as of CBS6/WRGB's July 2026 coverage; not independently re-confirmed as of 2026-09-23.
 - **Outcome:** Town Board passed a 12-month moratorium on new data center development or construction.
 
+### Boston (Erie County)
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2024, Local Law No. 2-2024 (exact adoption date not stated in the filed text)
+- **Normalized date:** `2024` (year_only)
+- **Duration:** Six months, repeatedly extended by resolution (six-month extension approved 2025-12-03, Resolution 2025-106)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-boston-erie-county-2024`
+- **Legal basis:** Town of Boston Local Law No. 2-2024, a six-month moratorium prohibiting review and approval of battery energy storage system applications
+- **What prompted it:** BESS fires elsewhere in New York; residents' concerns the draft definition was overly broad and could cover household backup batteries
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23. Extended for a further six months by unanimous Town Board vote on December 3, 2025 (Resolution 2025-106) so staff can draft rules modeled on NYSERDA's BESS model code.
+- **Outcome:** Adopted, extended
+
+### Brasher
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2024 (original term ran to 2024-10-31; exact adoption date not confirmed)
+- **Normalized date:** `2024` (year_only)
+- **Duration:** Extended repeatedly; trackers report a current expiration of 2026-10-31
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-brasher-2024`
+- **Legal basis:** Town of Brasher moratorium on battery energy storage systems
+- **What prompted it:** The July 2024 Chaumont, NY solar-farm battery fire in Jefferson County (multi-day burn, evacuations, air-quality alerts)
+- **Affected projects:** No specific project named
+- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy, expiring 2026-10-31 -- exactly two years after the original term's end date, consistent with the town continuing to renew the pause annually while it drafts a permanent local law using a sample regulation from the St. Lawrence County Planning Office. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Adopted, extended repeatedly (inferred)
+
 ### Buffalo
 
 - **Type:** City
@@ -68,21 +402,325 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** Pending as of 2026-09-23. A full Buffalo Common Council vote was reported as scheduled for approximately September 29, 2026 (after this research pass's as-of date); outcome not yet known. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
 - **Outcome:** Buffalo Common Council members advanced a proposed two-year moratorium on new data centers and cryptocurrency facilities toward a full Council vote.
 
+### Busti
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Original moratorium predates 2025; extended by Local Law of 2025 (reported June 2025) and again by Local Law 3 of 2026
+- **Normalized date:** `2024` (year_only)
+- **Duration:** Extended through 2027-06-30 by Local Law 3 of 2026
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-busti-2024`
+- **Legal basis:** Local Law 3 of 2026 (extending prior commercial BESS moratorium)
+- **What prompted it:** Awaiting NYSERDA BESS safety working group final report; town amending land use regulations
+- **Affected projects:** —
+- **Detailed status:** ACTIVE as of 2026-09-23 -- CORRECTS the tracker claim (EXPIRED 2024-12-03). The Busti Town Board approved Local Law 3 of 2026 on 2026-07-13 (approx.), extending the commercial BESS moratorium through 2027-06-30, following an earlier extension reported June 2025.
+- **Outcome:** Commercial BESS moratorium, repeatedly extended; most recently through June 30, 2027.
+
+### Byron
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2026-04-09 per The Batavian coverage of the April 9, 2026 public hearing and same-night unanimous Town Board vote
+- **Normalized date:** `2026-04-09` (exact)
+- **Duration:** Six months, extendable; extended again by the Town Board on 2026-09-09
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-byron-2026`
+- **Legal basis:** Town of Byron local law imposing a temporary moratorium on battery energy storage system facilities (cited as Local Law #3 of 2026 in the 2026-09-09 extension hearing agenda)
+- **What prompted it:** Land use, fire safety, environmental and emergency-response concerns about commercial BESS facilities on farmland
+- **Affected projects:** No specific project named; preemptive pause on commercial BESS applications
+- **Detailed status:** Active as of 2026-09-23. Adopted 2026-04-09 for six months; the Town Board held a public hearing 2026-09-09 on Local Law #3 of 2026, an extension of the BESS moratorium, and a LinkedIn tracking post (Craig Sanders) confirms the extension was approved.
+- **Outcome:** Adopted, then extended
+
+### Byron
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2026-04-09, companion local law adopted the same night as the BESS moratorium
+- **Normalized date:** `2026-04-09` (exact)
+- **Duration:** Six months, extendable; extended again 2026-09-09
+- **Current end date:** `—`
+- **Sectors:** solar
+- **Moratorium ID:** `ny-byron-2026-2`
+- **Legal basis:** Town of Byron local law imposing a temporary moratorium on renewable energy projects (cited as Local Law #2 of 2026 in the 2026-09-09 extension hearing agenda); applies to applications submitted after 2026-03-01
+- **What prompted it:** Town wanted time to review code and determine whether additional regulation of renewable energy projects was needed
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23. Adopted 2026-04-09; extension hearing held 2026-09-09 (Local Law #2 of 2026).
+- **Outcome:** Adopted, then extended
+
+### Cameron
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Local Law No. 4 of 2024 (public hearing 2024-10-09)
+- **Normalized date:** `2024-10` (month_only)
+- **Duration:** Originally one year; reported still active with a 2026-08-31 end date
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-cameron-2024`
+- **Legal basis:** Local Law No. 4 of 2024
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Active per industry tracker (expires 2026-08-31); original one-year moratorium on commercial solar and battery storage confirmed via town public hearing notice. [VERIFY instrument number not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** One-year moratorium on applications/approvals for commercial solar energy and commercial energy storage systems.
+
+### Camillus
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-03-10, adopted following a public hearing the same night
+- **Normalized date:** `2026-03-10` (exact)
+- **Duration:** 12 months
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-camillus-2026`
+- **Legal basis:** Town of Camillus Local Law No. A-2026, a twelve-month moratorium on all battery energy storage systems (Tier 1 and Tier 2)
+- **What prompted it:** Town-wide pause pending development of BESS siting standards
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23, running to approximately March 2027. Applies to all BESS regardless of tier (Carina Energy classifies it ALL_BESS scope).
+- **Outcome:** Adopted
+
+### Campbell
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Reported active by Carina Energy, part of a five-moratorium Steuben County cluster (Cameron, Campbell, Prattsburgh, Greenwood, Southport)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-campbell-undated`
+- **Legal basis:** —
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy's live tracker; no dedicated town-level primary or news source was located within this pass's research budget. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** Reported active by tracker only
+
+### Canton
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-07-08, the date of the public hearing on the local law (North Country Now reports the town 'enacted a moratorium on data center development July 8')
+- **Normalized date:** `2026-07-08` (exact)
+- **Duration:** Runs until May 31, 2027
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ny-canton-2026`
+- **Legal basis:** Town of Canton local law establishing a moratorium on data center development
+- **What prompted it:** Significant public input about data center development in St. Lawrence County
+- **Affected projects:** No specific project named; general pause on new data center development
+- **Detailed status:** Active as of 2026-09-23, running to May 31, 2027. Exempts existing/grandfathered operations and facilities under 20 MW. A Data Center Committee (chaired by Randy Brown) is researching model local regulations to adopt before the moratorium ends.
+- **Outcome:** Adopted; town forming a committee to draft permanent regulations
+
+### Carlton
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Extended by Local Law No. 6 of 2025 (public hearing 2025-10-14); original enactment date not located
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-carlton-undated`
+- **Legal basis:** Town of Carlton local law extending a moratorium on large battery energy storage systems (Local Law No. 6 of 2025)
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy, expiring 2026-09-30. A public hearing on Local Law No. 6 of 2025, extending the moratorium, was held October 14, 2025. [VERIFY instrument number; adoption date not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** Extended at least once (2025); original adoption not located
+
+### Carmel
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** 2024, Local Law #5 of 2024 (six-month moratorium)
+- **Normalized date:** `2024` (year_only)
+- **Duration:** Six months, then superseded by permanent zoning on 2024-10-30
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-carmel-2024`
+- **Legal basis:** Town of Carmel Local Law #5 of 2024 (moratorium), superseded by a permanent zoning law banning Tier 2 battery energy storage systems (>600 kWh)
+- **What prompted it:** East Point Energy's proposed 116 MW Union Energy Center BESS on a 94-acre Mahopac parcel near the Westchester County line
+- **Affected projects:** East Point Energy's proposed 116 MW Union Energy Center BESS, Mahopac
+- **Detailed status:** Replaced. After a six-month moratorium, the Carmel Town Board unanimously passed a permanent local law (reported 2024-10-30) banning Tier 2 BESS (>600 kWh) town-wide while permitting Tier 1 (<=600 kWh) systems and setting standalone solar and EV-charging standards. [VERIFY instrument number not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Temporary moratorium superseded by a permanent zoning ban on large-scale BESS
+
+### Carrollton
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** —
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-carrollton-undated`
+- **Legal basis:** —
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported expired by industry tracker (2025-04-29); not independently verified. A Cattaraugus County Planning Board 2024 agenda item for Town of Carrollton found in research concerned an unrelated campground special-use permit, not a moratorium. [VERIFY instrument number; duration; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Outcome:** Utility-scale BESS moratorium reported expired.
+
+### Chester (Orange County)
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2025, Local Law 10 of 2025 (exact date not confirmed)
+- **Normalized date:** `2025` (year_only)
+- **Duration:** Extended by Local Law 3 of 2026 (public hearing 2026-07-23)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-chester-orange-county-2025`
+- **Legal basis:** Town of Chester local law prohibiting large-scale battery energy storage system installations (Local Law 10 of 2025, extended by Local Law 3 of 2026)
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported active as of 2026-09-23 by two independent trackers (Carina Energy, EticaAG), giving a current expiration of 2026-08-26 (EticaAG: extended 2025-07-23 to 2026-02-24, implying at least one further extension since). The town's own notice pages for 'Notice of Adoption Local Law 10 of 2025' and 'Public Notice of Adoption LL3 of 26' were found via search but returned HTTP 404 when fetched directly (chester-ny.gov site appears to have been restructured); their existence and titles are corroborated only by search-engine snippets, which could not be archived as primary sources. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** Adopted, extended at least once
+
+### Claverack
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2024, Local Law No. 2 of 2024
+- **Normalized date:** `2024` (year_only)
+- **Duration:** Originally three months; extended repeatedly since (six-month term reported as 'ending soon' by late 2026)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-claverack-2024`
+- **Legal basis:** Town of Claverack Local Law No. 2 of 2024, a moratorium on Battery Energy Storage Systems
+- **What prompted it:** Town reviewing possible BESS zoning regulations
+- **Affected projects:** Key Energy's expressed interest in a BESS on town property
+- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy, expiring 2026-06-11. A Town Board discussion confirmed the moratorium remains in effect and prevented the board from acting on a Key Energy BESS site inquiry, with the topic deferred to the town's comprehensive-plan process. [VERIFY instrument number not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Adopted, extended repeatedly from an original three-month term
+
 ### Clay
 
 - **Type:** Town
 - **Status:** 🟢 Active
-- **Date enacted:** Approved by the Clay Town Board on or shortly before 2026-06-30 (date of first news coverage), following a public hearing
-- **Normalized date:** `2026-06` (month_only)
+- **Date enacted:** Local Law No. 6 of 2026, adopted by the Clay Town Board at a Special Meeting held June 29, 2026 (unanimous 6-0 recorded vote), per the town's own filed Local Law text (NY Dept of State local law filing form).
+- **Normalized date:** `2026-06-29` (exact)
 - **Duration:** Up to twelve (12) months
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `ny-clay-2026`
-- **Legal basis:** Local law imposing a one-year moratorium on new data centers and other high-intensity computing facilities, Town of Clay, Onondaga County; signed/filed text not located.
+- **Legal basis:** Local Law No. 6 of 2026 (Town of Clay, Onondaga County), 'A Local Law providing for a Temporary Moratorium for Twelve (12) Months prohibiting any zone change or special permit applications related to the establishment of large-scale data centers, AI computing facilities, cryptocurrency mining operations, and similar high-intensity computing uses,' adopted at a Special Town Board meeting June 29, 2026 (6-0). Note: the town's own filing packet also captions a separately adopted six-month solar battery storage moratorium as 'Local Law No. 6 of 2026' -- that is the town's own numbering overlap, not a duplicate row in this inventory.
 - **What prompted it:** Preemptive townwide pause tied to anticipated development pressure around Micron Technology's planned semiconductor campus in neighboring areas; no data center projects had been proposed in Clay as of adoption.
 - **Affected projects:** None named; town officials said no data center projects had been proposed in Clay.
-- **Detailed status:** Reported active as of CNY Central's June 30, 2026 report; not independently re-confirmed as of 2026-09-23. The town separately adopted a new Battery Energy Storage System law (Chapter 209) at the same meeting. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Detailed status:** Active as of 2026-09-23. Confirmed by the town's own filed Local Law No. 6 of 2026 text (unanimous 6-0 adoption June 29, 2026), not just news coverage. The town separately adopted a Battery Energy Storage System moratorium (also captioned 'Local Law No. 6 of 2026' in the same filing packet) at the same meeting.
 - **Outcome:** Town Board approved a one-year moratorium on new data centers, AI computing facilities, cryptocurrency mining operations, and similar developments.
+
+### Clymer
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2024, original local law (exact date not stated)
+- **Normalized date:** `2024` (year_only)
+- **Duration:** 12-month extensions, renewed annually (2025, then again 2026-02)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-clymer-2024`
+- **Legal basis:** Town of Clymer battery storage moratorium (all-BESS scope)
+- **What prompted it:** Awaiting New York State guidance on BESS safety hazards
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23, extended in February 2026 for another 12 months, through January 31, 2027. Town Supervisor Brian Willink said the town intends to keep extending the moratorium one year at a time until the state acts.
+- **Outcome:** Adopted 2024, extended annually
+
+### Collins
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Reported active by Carina Energy
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-collins-undated`
+- **Legal basis:** —
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy's live tracker, expiring 2026-09-30; no dedicated town-level primary or news source was located within this pass's research budget. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** Reported active by tracker only
+
+### Concord
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2024-07-22, Local Law No. 3-2024
+- **Normalized date:** `2024-07-22` (exact)
+- **Duration:** One year, extended one year on 2025-06-12 (Local Law No. 2-2025), then six months on 2026-06-11
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-concord-2024`
+- **Legal basis:** Town of Concord battery energy storage system moratorium (Local Law No. 3-2024, extended by Local Law No. 2-2025 and a June 2026 six-month extension)
+- **What prompted it:** —
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23. Extended most recently at the June 11, 2026 Town Board meeting for six months (to approximately December 2026); the board had previously passed one-year extensions in the summers of 2024 and 2025.
+- **Outcome:** Adopted, extended repeatedly
+
+### Concord
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2024, Local Law No. 3 (original solar moratorium, adopted alongside the BESS moratorium)
+- **Normalized date:** `2024` (year_only)
+- **Duration:** One year, extended one year in 2025, then six months on 2026-06-11
+- **Current end date:** `—`
+- **Sectors:** solar
+- **Moratorium ID:** `ny-concord-2024-2`
+- **Legal basis:** Town of Concord solar energy moratorium (a separate local law from the BESS moratorium, extended in parallel)
+- **What prompted it:** —
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23. Extended alongside the Concord BESS moratorium at the June 11, 2026 Town Board meeting for six months. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** Adopted, extended repeatedly
+
+### Corning
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Extended to November 2026 per Carina Energy's regional summary
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-corning-undated`
+- **Legal basis:** —
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy, extended to November 2026; no dedicated town-level primary or news source was located within this pass's research budget. (This is the Town of Corning, Steuben County, distinct from the City of Corning in the same county.) [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Reported extended by tracker only
+
+### Cortlandt
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2024, Local Law Number 2-2024 (original moratorium)
+- **Normalized date:** `2024` (year_only)
+- **Duration:** Extended repeatedly (Local Law Number 10-2024; Local Law No. 2 of 2025, adopted 2025-04-22, through 2025-12-31; Local Law No. 7 of 2025; Local Law 2026-01)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-cortlandt-2024`
+- **Legal basis:** Town of Cortlandt moratorium for new Battery Energy Storage Systems (originally Local Law 2-2024, most recently extended by Local Law 2026-01)
+- **What prompted it:** Significant developer interest in siting BESS in Cortlandt; the town code lacks BESS-specific provisions
+- **Affected projects:** No specific project named
+- **Detailed status:** Reported active as of 2026-09-23 by two independent trackers, giving a current expiration of 2026-07-31 (EticaAG: extended 2025-12-09 to 2026-07-31, 7 months). The town's own extension chain (through Local Law No. 2 of 2025, adopted 2025-04-22) confirms at least three extensions by that date, awaiting Westchester County notification legislation and state guidance.
+- **Outcome:** Adopted, extended at least four times
+
+### Denmark (Lewis County)
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-02-03, per Lewis County's land-use-law index (filed with the NYS Department of State)
+- **Normalized date:** `2026-02-03` (exact)
+- **Duration:** 12 months
+- **Current end date:** `—`
+- **Sectors:** solar, battery storage
+- **Moratorium ID:** `ny-denmark-lewis-county-2026`
+- **Legal basis:** Town of Denmark Local Law No. 1 of 2026, establishing a twelve-month moratorium on commercial solar energy systems, battery energy storage systems (BESS), and compressed air energy storage systems (CAESS)
+- **What prompted it:** Town needed time to review and amend zoning/Town Code to reflect its developing Comprehensive Plan and properly regulate commercial solar/BESS/CAESS
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23, running to approximately February 2027. Does not apply to individual landowner/farmer/small-business on-site solar; scope covers medium/large solar, Tier 1 & 2 BESS, and CAESS.
+- **Outcome:** Adopted
 
 ### East Greenbush
 
@@ -100,6 +738,54 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** Active as of 2026-09-23 (approximate end date; exact effective date depends on state filing). Bars establishment, construction, or operation of any data center townwide, with an exemption for pre-existing, lawfully approved and permitted data centers.
 - **Outcome:** Town Board unanimously passed a six-month moratorium (extendable to one year) on all data center development and operation within the town.
 
+### Eden
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2025, original six-month moratorium (Local Law No. ___-2025, exact day not located)
+- **Normalized date:** `2025` (year_only)
+- **Duration:** Six months, then extended for an additional twelve months by Local Law No. 11-2025
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-eden-2025`
+- **Legal basis:** Town of Eden local law prohibiting review and approval of Battery Energy Storage System applications (originally a six-month moratorium, extended twelve months by Local Law No. 11-2025)
+- **What prompted it:** BESS fires elsewhere in New York in 2023; concerns about proximity to residential properties
+- **Affected projects:** No specific project named
+- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy, expiring 2026-09-30, consistent with the twelve-month extension (Local Law No. 11-2025) adopted to address 'the impending expiration of the existing moratorium.'
+- **Outcome:** Adopted, extended at least once
+
+### Elba
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** 12 months (per extension notice)
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-elba-undated`
+- **Legal basis:** Proposed Local Law No. 1 of 2026 (extending a 12-month moratorium on Tier 3 solar, large battery storage, and other renewable energy facilities)
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Likely still active as of 2026-09-23, which would CORRECT the tracker's "LIFTED 2025-10-31" reading: a public hearing notice shows the Town scheduled a 2026-07-09 hearing to extend a 12-month moratorium on Tier 3 solar and large battery storage, implying the pause continued past the tracker's stated lift date. [VERIFY instrument number; adoption date not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** Moratorium on Tier 3 solar, large battery storage and other renewable facilities, apparently still being extended in mid-2026.
+
+### Ellery
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-06, approved after public hearings with no comments received
+- **Normalized date:** `2026-06` (month_only)
+- **Duration:** Six months
+- **Current end date:** `—`
+- **Sectors:** solar, wind, battery storage
+- **Moratorium ID:** `ny-ellery-2026`
+- **Legal basis:** Town of Ellery moratoriums on commercial solar, wind, and battery energy storage systems
+- **What prompted it:** Town developing commercial solar (and related renewable/storage) development regulations
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23. Six-month moratoriums covering commercial solar and wind farms as well as BESS were approved in June 2026; solar regulations were reported to be two to three months from being finalized as of the July 29, 2026 report. [VERIFY instrument number not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Adopted
+
 ### Enfield
 
 - **Type:** Town
@@ -115,6 +801,438 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Affected projects:** None named.
 - **Detailed status:** Pending as of 2026-09-23, and delayed. A councilperson's first-hand August 2026 account of the August 12, 2026 Town Board meeting states the Board 'held off action, postponing the process for at least a month and pushing off any hearing and the law's adoption until October at the earliest,' citing unresolved legal concerns raised by Town counsel Guy Krogh about the Newfield-modeled draft. No hearing date or adoption has been confirmed as of this pass. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
 - **Outcome:** As of this pass, Enfield has directed its Planning Board/Town Attorney to draft a one-year data center moratorium local law, but the Town Board postponed setting a public hearing at its August 12, 2026 meeting over legal counsel's concerns, pushing adoption to October 2026 at the earliest; no vote had occurred as of 2026-09-23.
+
+### Essex County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Reported active by Carina Energy with a past expiration date the tracker treats as still in force pending an update
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-essex-county-undated`
+- **Legal basis:** —
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy's live tracker, which notes Essex County's moratorium 'has a past expiration date that is confirmed active pending updated dates.' No county-level primary or news source (distinct from the Town of Ticonderoga's own BESS moratorium, which is also in Essex County) was located within this pass's research budget. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Outcome:** Reported active by tracker only
+
+### Frankfort
+
+- **Type:** Town
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** 6 months (proposed)
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar, wind
+- **Moratorium ID:** `ny-frankfort-undated`
+- **Legal basis:** Proposed Local Law No. 2, 2026 (six-month moratorium on solar, wind, and battery storage)
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** A prior Frankfort BESS moratorium reportedly lapsed 2026-04-27 (per tracker); Town Council scheduled a public hearing for 2026-08-20 on a new Local Law No. 2 of 2026 proposing a fresh six-month moratorium on solar, wind and battery storage. Adoption not confirmed. [VERIFY instrument number; adoption date not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** New six-month solar/wind/battery moratorium proposed after a prior moratorium lapsed.
+
+### Freedom (Cattaraugus County)
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Indefinite per Carina Energy
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-freedom-cattaraugus-county-undated`
+- **Legal basis:** —
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported active/indefinite as of 2026-09-23 by Carina Energy, one of five New York moratoriums the tracker classifies as indefinite in duration. No dedicated town-level primary or news source was located within this pass's research budget; a 2020 DPS filing found in searches concerned an unrelated wind-energy matter (Alle-Catt) and was not used. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Outcome:** Reported active by tracker only
+
+### Gainesville
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Reported active by Carina Energy, all-BESS scope
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-gainesville-undated`
+- **Legal basis:** —
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy, applying to all battery storage regardless of size (ALL_BESS scope), expiring 2026-10-20; no dedicated town-level primary or news source was located within this pass's research budget. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** Reported active by tracker only
+
+### Gardiner
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2025, original moratorium (exact date not located)
+- **Normalized date:** `2025` (year_only)
+- **Duration:** Extended six months on 2026-06-30
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-gardiner-2025`
+- **Legal basis:** Town of Gardiner moratorium on battery energy storage systems
+- **What prompted it:** The town's 2008 zoning law does not address utility-scale BESS siting, noise, or screening
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23, extended six months at a June 30, 2026 special Town Board meeting to give officials time to finish drafting a permanent BESS law; a full draft was expected in September/October 2026 with a public hearing to follow in November and a possible vote in December 2026.
+- **Outcome:** Adopted, extended
+
+### German Flatts
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** —
+- **Normalized date:** `2025` (year_only)
+- **Duration:** 12 months
+- **Current end date:** `—`
+- **Sectors:** solar, wind
+- **Moratorium ID:** `ny-german-flatts-2025`
+- **Legal basis:** Town of German Flatts local law (12-month solar & wind moratorium), reviewed by Herkimer County Planning Board 2025-05-19
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Under review per industry tracker; Herkimer County Planning Board minutes confirm the Town was advancing a 12-month moratorium on solar and wind energy systems (no county recommendation given) as of May 2025. A separately reviewed "Battery Energy Storage System Law" discussed at the same meeting was a permanent regulatory ordinance, not a moratorium, so this entry is limited to the solar/wind sectors actually confirmed. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** 12-month moratorium on solar energy systems, solar farms, wind energy systems and windmills.
+
+### Glen Cove
+
+- **Type:** City
+- **Status:** 🟢 Extended
+- **Date enacted:** 2025-05-13 (per EticaAG, a 12-month term originally through 2026-05-13)
+- **Normalized date:** `2025-05-13` (unverified)
+- **Duration:** Extended to May 2027 per Carina Energy's regional summary
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-glen-cove-2025`
+- **Legal basis:** City of Glen Cove moratorium on battery energy storage systems
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported active as of 2026-09-23 by two independent trackers; Carina Energy's Long Island regional summary states Glen Cove was 'extended to May 2027.' [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Adopted, extended
+
+### Glenville
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2025-06-18
+- **Normalized date:** `2025-06-18` (exact)
+- **Duration:** 120 days as originally adopted (2025-06-18, expiring 2025-10-16); subsequently extended by the Town Board, and as of a March 9, 2026 Planning & Zoning Commission meeting town staff described the moratorium as running through the end of July 2026 while a permanent BESS local law is drafted.
+- **Current end date:** `2026-07-31`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-glenville-2025`
+- **Legal basis:** Town of Glenville local law (BESS moratorium)
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Extended, but that extension has itself now lapsed with no confirmed further action. As of a March 9, 2026 Planning & Zoning Commission meeting, town staff said the Town Board's BESS moratorium 'runs through the end of July 2026' -- a real extension past the original 2025-10-16 end date -- while a draft BESS local law (based on NYSERDA guidance and the Rotterdam model law) was still being refined by the Environmental Conservation Commission and had not been forwarded to PZC for formal review. No news or primary source confirming a further extension, adoption of the permanent law, or expiration past July 2026 was found as of 2026-09-23.
+- **Outcome:** 120-day moratorium on new BESS applications.
+
+### Gloversville
+
+- **Type:** City
+- **Status:** ⚪ Replaced
+- **Date enacted:** 2025-03-11, Local Law 03-2025 (Intro LL-1), adopted 7-0 following a March 11, 2025 public hearing
+- **Normalized date:** `2025-03-11` (exact)
+- **Duration:** Six months, later superseded by a permanent ban
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-gloversville-2025`
+- **Legal basis:** City of Gloversville local law establishing a moratorium on industrial solar and battery energy storage systems, later superseded by a permanent ban
+- **What prompted it:** Public safety concerns (BESS) and space/redevelopment-goal concerns (utility-scale solar)
+- **Affected projects:** —
+- **Detailed status:** Replaced. The Common Council later voted to permanently ban battery-energy-storage systems and utility-scale solar facilities city-wide, citing safety (BESS) and space (solar) concerns. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Temporary moratorium superseded by a permanent ban
+
+### Greenwood
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Reported active by Carina Energy, part of the Steuben County cluster
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-greenwood-undated`
+- **Legal basis:** —
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy's live tracker; no dedicated town-level primary or news source was located within this pass's research budget. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** Reported active by tracker only
+
+### Greig (Lewis County)
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-01, Local Law 2026-01 (exact day not located; filed with DOS under a February 2026 upload folder)
+- **Normalized date:** `2026-01` (month_only)
+- **Duration:** 12 months
+- **Current end date:** `—`
+- **Sectors:** solar, wind, battery storage
+- **Moratorium ID:** `ny-greig-lewis-county-2026`
+- **Legal basis:** Town of Greig Local Law 2026-01, a moratorium on commercial renewable energy systems (solar, wind energy primary systems, battery energy storage systems, and compressed air energy storage systems)
+- **What prompted it:** Town needed time to complete its Comprehensive Plan (adopted 2026-03-25) and align zoning/BESS regulations with it, per NYSERDA's BESS Model Law guidance
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23. Carina Energy's tracker gives a current expiration of 2027-01-14. Does not apply to individual landowner/farmer/small-business on-site solar or to on-site BESS under 600 kWh. A separate, later Town of Greig moratorium on nuclear power plants and large data facilities (Local Law 2026-3, filed July 2026, expiring 2027-06-10) is a distinct instrument not included here.
+- **Outcome:** Adopted
+
+### Halfmoon
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Extended to August 2026 per Carina Energy's regional summary
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-halfmoon-undated`
+- **Legal basis:** —
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy, extended to August 2026 per the page's Capital Region regional summary; no dedicated town-level primary or news source was located within this pass's research budget. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** Reported extended by tracker only
+
+### Harrison
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** —
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-harrison-undated`
+- **Legal basis:** Harrison Town Code (former) 235-95, Moratorium of battery energy storage systems
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported expired by industry tracker (2025-09-06); town code compilation confirms a codified BESS moratorium section existed. [VERIFY instrument number; duration; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** BESS moratorium codified at former Town Code 235-95, reported expired.
+
+### Hartwick
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-03-20, special Town Board meeting (unanimous vote)
+- **Normalized date:** `2026-03-20` (exact)
+- **Duration:** Six months from adoption; Local Law No. 2 of 2026 proposed a further extension with a public hearing set for 2026-08-24
+- **Current end date:** `—`
+- **Sectors:** solar
+- **Moratorium ID:** `ny-hartwick-2026`
+- **Legal basis:** Town of Hartwick local law imposing a six-month moratorium on solar energy systems
+- **What prompted it:** SolAmerica's proposed 2 MW / 12.8-acre solar project near Greenough and Dobbs Hill Roads
+- **Affected projects:** SolAmerica's proposed ~2 MW solar project on Greenough Road
+- **Detailed status:** Adopted 2026-03-20 for six months (through approximately 2026-09-20). A public hearing on Local Law No. 2 of 2026, proposing a further extension, was scheduled for 2026-08-24; the outcome of that hearing was not confirmed in this pass -- the town's news coverage moved to unrelated town-board disputes (an Article 78 petition filed by a board member against the supervisor) without reporting the extension vote. [VERIFY status: computed term ended 2026-09-16; no extension or lapse found in the 2026-09 QA pass]
+- **Outcome:** Adopted; extension proposed, outcome unconfirmed
+
+### Hempstead
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Process began with a Feb 25, 2025 Town Board resolution calling a March 11, 2025 public hearing on a local law to enact Chapter 101B; the underlying enactment established a one-year BESS moratorium later extended twice
+- **Normalized date:** `2025-03` (month_only)
+- **Duration:** Originally ~one year; extended by L.L. No. 9-2026 (adopted 2026-01-13, effective 2026-01-27) to August 25, 2026, then extended again by L.L. No. 75-2026 (adopted 2026-09-09, unanimous) for one more year
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-hempstead-2025`
+- **Legal basis:** Town Code Chapter 101B; most recent extension Local Law No. 75-2026 (Resolution No. 801-2026), adopted 2026-09-09
+- **What prompted it:** Town-wide moratorium on battery energy storage system facility applications pending safety/zoning review; a Sept 2026 hearing drew a supporting letter from the Island Park Schools superintendent
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23. Chapter 101B's prior term (extended to August 25, 2026 by L.L. No. 9-2026) had lapsed, but on September 9, 2026 the Town Board unanimously adopted Local Law No. 75-2026 (Resolution No. 801-2026), amending Section 101-B-3 to reimpose a one-year moratorium on BESS facility approvals.
+- **Outcome:** Ongoing moratorium series; most recently re-extended September 2026
+
+### Huntington
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Town Board vote reported by Newsday as occurring the week before a June 16, 2026 article; Local Law Introductory No. 17-2026
+- **Normalized date:** `2026-06` (month_only)
+- **Duration:** Six months from the local law's effective date (a prior BESS moratorium, extended from Oct. 2023 to Nov. 2024, had already expired; this is a new six-month moratorium)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-huntington-2026`
+- **Legal basis:** Local Law No. 17-2026 (referred to Suffolk County Planning Commission as file HU-26-04)
+- **What prompted it:** Fire-safety concerns raised by Greenlawn, Centerport, and East Northport fire chiefs and residents; two pending BESS applications paused, a third on Jericho Turnpike withdrawn
+- **Affected projects:** Two paused BESS applications; one BESS application on Jericho Turnpike withdrawn
+- **Detailed status:** Active as of 2026-09-23 per the most recent confirmed source (adopted ~June 2026); the Town has a history of repeatedly proposing/adopting successive six-month BESS moratoria since October 2023, and a September 2026 Town Board agenda item (Introductory No. 22-2026, seen in a search snippet but not independently fetched due to a Cloudflare block on huntingtonnow.com) suggests a further extension may already be under consideration. [VERIFY instrument number not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Latest in a series of six-month BESS moratoria dating to October 2023 (prior term expired November 2024)
+
+### Hurley
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** Enacted by the Town Board on Tuesday, September 30, 2025 (per news account and the dated proposed-law PDF), following a public hearing with no opposition
+- **Normalized date:** `2025-09-30` (exact)
+- **Duration:** Six months from effective date, extendable for an additional period of up to six months by Town Board resolution; extended for an additional six months at the Feb. 10, 2026 Town Board meeting
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-hurley-2025`
+- **Legal basis:** 2025 Battery Energy Storage System Facilities Moratorium Law of the Town of Hurley (proposed local law dated Sept. 30, 2025); extended by Town Board resolution Feb. 10, 2026
+- **What prompted it:** Neighboring Town of Ulster's proposed 250 MW Tera-Gen BESS facility at the former Coleman High School site, near the Hurley town line and Ashokan Reservoir watershed
+- **Affected projects:** Tera-Gen/Masdar proposed 250 MW BESS at the former Coleman High School site in the neighboring Town of Ulster
+- **Detailed status:** Active as of 2026-09-23. The Town Board extended the moratorium on all large-scale BESS facilities for an additional six months at its Feb. 10, 2026 meeting to allow time to finalize a permanent BESS law (prohibiting large-scale BESS >40 kWh, with setbacks from wetlands, the Ashokan Reservoir, and residences).
+- **Outcome:** Extended six months beyond original term to allow adoption of a permanent BESS zoning law
+
+### Islip
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2024-03-19, Town Board adoption per the Suffolk County Planning Commission staff report on the extension
+- **Normalized date:** `2024-03-19` (exact)
+- **Duration:** Originally six months (capped at 18 months total by the ordinance's own terms); extended at least once (through 2025-04-07); trackers report it has continued via further extensions
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-islip-2024`
+- **Legal basis:** Town of Islip Town Code § 68-457, moratorium on Battery Energy Storage System permits
+- **What prompted it:** Statewide BESS fires in 2023 and the resulting NYS Inter-Agency Fire Safety Working Group review
+- **Affected projects:** No specific project named
+- **Detailed status:** Reported active as of 2026-09-23 by two independent trackers (Carina Energy, EticaAG), both giving a current expiration of 2026-09-30; the ordinance's own 18-month cap (Section E) would have expired around September 2025, so an amendment removing or resetting that cap is implied but not independently confirmed in this pass. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Adopted 2024-03-19, extended at least once through the Suffolk County Planning Commission referral process; current status per trackers only
+
+### Islip
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-08-11, per the Islip Bulletin
+- **Normalized date:** `2026-08-11` (exact)
+- **Duration:** 18 months
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ny-islip-2026`
+- **Legal basis:** Town of Islip Town Code Chapter 68-761, an 18-month moratorium on data center development
+- **What prompted it:** Public backlash to proposed data centers; second Long Island town (after Brookhaven) to adopt a data-center moratorium
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23, running to approximately February 2028.
+- **Outcome:** Adopted
+
+### Johnstown
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** —
+- **Normalized date:** `2024` (year_only)
+- **Duration:** 12 months (extended)
+- **Current end date:** `—`
+- **Sectors:** battery storage, wind
+- **Moratorium ID:** `ny-johnstown-2024`
+- **Legal basis:** Town of Johnstown local law (BESS/wind moratorium)
+- **What prompted it:** Nexamp BESS project proposal; need to complete Comprehensive Plan update
+- **Affected projects:** —
+- **Detailed status:** Reported expired by industry tracker (2025-08-03); Daily Gazette reporting confirms the Town of Johnstown enacted a solar/battery storage moratorium and later extended it 12 months (covering wind facilities too) to allow completion of a comprehensive plan. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** BESS and wind moratorium enacted after a Nexamp BESS proposal, extended 12 months, since expired per tracker.
+
+### Kent (Putnam County)
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** Adopted by unanimous Town Board vote at the July 9, 2024 monthly meeting
+- **Normalized date:** `2024-07-09` (exact)
+- **Duration:** Six months from effective date, extended at least once (six-month extension reported March 2025) and by inference of the tracker's August 2026 claim, extended repeatedly since
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-kent-putnam-county-2024`
+- **Legal basis:** Local Law Establishing a Land Use Moratorium Prohibiting Lithium Storage Facilities (Introductory Local Law #1), adopted 2024-07-09; extended by a further six-month local law reported March 2025
+- **What prompted it:** A lithium battery storage facility proposal near the Mahopac-Baldwin Place border prompted the moratorium
+- **Affected projects:** Proposed lithium battery storage facility near the Mahopac-Baldwin Place border
+- **Detailed status:** Reported active as of a March 2025 extension (a further six-month term to allow the town to finish reviewing zoning/building code amendments and continue permitting some residential rooftop solar). A tracker (Carina Energy) lists Kent as an active ALL_BESS moratorium expiring 2026-08-31, implying at least one more extension since March 2025, which was not independently confirmed as of 2026-09-23. [VERIFY instrument number not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** Six-month moratorium enacted July 2024, extended at least once (March 2025)
+
+### Le Ray
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** 6 months (as proposed)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-le-ray-undated`
+- **Legal basis:** Town of Le Ray local law ("LL - Moratorium EnergyBattery")
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported expired by industry tracker (2025-08-18); a public-hearing notice confirms the Town proposed a townwide six-month moratorium on renewable energy facilities and battery energy storage, and the Town Board's law page lists an adopted "LL - Moratorium EnergyBattery.pdf." [VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Townwide six-month moratorium covering renewable energy facilities and battery storage, reported expired.
+
+### LeRay
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-08-13, public hearing and vote per WWNY and the savrn/aigridwatch trackers
+- **Normalized date:** `2026-08-13` (exact)
+- **Duration:** One year (the Town Board increased the originally proposed term to 12 months after resident pressure)
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ny-leray-2026`
+- **Legal basis:** Town of LeRay local law establishing a moratorium on data centers
+- **What prompted it:** A Central New York broker marketing hundreds of acres in LeRay for a data center near Watertown/Fort Drum
+- **Affected projects:** Unnamed data center proposal on a large parcel marketed by a Central New York broker
+- **Detailed status:** Active as of 2026-09-23, running to approximately August 2027 per two trackers (savrn lists it 'In force').
+- **Outcome:** Adopted
+
+### Leyden (Lewis County)
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** Local Law #1 of 2024, 'Establishing a Townwide Twelve (12) Month Moratorium for all Large Solar Energy Systems and/or Medium/Large Battery Energy Storage Systems,' duly passed by the Leyden Town Board on May 14, 2024. Superseded by Local Law #1 of 2026, 'Amending-Replacing Local Law #2-2022 Regulating Solar Energy Systems and Battery Energy Storage Systems (BESS),' a permanent regulatory law following a June 9, 2026 public hearing.
+- **Normalized date:** `2024-05-14` (exact)
+- **Duration:** Twelve months from the local law's effective date, terminable early by Town Board resolution
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-leyden-lewis-county-2024`
+- **Legal basis:** Town of Leyden Local Law #1 of 2024, 'Establishing a Townwide Twelve (12) Month Moratorium for all Large Solar Energy Systems and/or Medium/Large Battery Energy Storage Systems' (filed with Lewis County Planning); superseded by Local Law #1 of 2026, 'Amending-Replacing Local Law #2-2022 Regulating Solar Energy Systems and Battery Energy Storage Systems (BESS)'.
+- **What prompted it:** Town-wide pause pending adoption of permanent BESS/solar siting regulations
+- **Affected projects:** —
+- **Detailed status:** Replaced. Local Law #1 of 2024 (a 12-month moratorium, adopted 2024-05-14) expired on its own terms around 2025-05-14, well before the reference date. The Town Board subsequently held a June 9, 2026 public hearing and adopted Local Law #1 of 2026, a permanent law amending and replacing the 2022 Solar Law to regulate both solar energy systems and battery energy storage systems. The Town's current official laws page (townofleydenny.gov/government/laws) lists this permanent law and no longer lists any moratorium law. A tracker (Carina Energy) still lists Leyden as an active UTILITY_SCALE moratorium as of September 2026, but this appears to be stale relative to the Town's own site.
+- **Outcome:** 12-month moratorium on solar/BESS, apparently followed by permanent regulation (Local Law #1 of 2026) after a June 2026 hearing
+
+### Livingston (Columbia County)
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** Local Law No. 4 of 2024 (a three-month extension of an existing BESS moratorium) filed mid-2024; the original enactment date was not located
+- **Normalized date:** `2024` (year_only)
+- **Duration:** Three months per Local Law No. 4 of 2024's extension text, 'unless extended or rescinded by subsequent local law'
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-livingston-columbia-county-2024`
+- **Legal basis:** Local Law No. 4 of 2024, extending a moratorium on Battery Energy Storage Systems in the Town of Livingston
+- **What prompted it:** Town Board sought additional time before adopting a revised BESS law
+- **Affected projects:** —
+- **Detailed status:** Confirmed active as of the 2024 extension text; not independently re-confirmed for 2026. A tracker (Carina Energy) lists Livingston, Columbia County as an active UTILITY_SCALE moratorium with a past expiration date 'confirmed active pending updated dates,' suggesting the Town's public listing of the current end date is stale even by the tracker's own account. [VERIFY instrument number not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** Ongoing BESS moratorium repeatedly extended in short (3-month) increments since at least 2024
+
+### Long Lake
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** Battery Energy Storage System Law in effect by 2023 (amended by Local Law 3 of 2023, public hearing 2023-08-30)
+- **Normalized date:** `2023` (year_only)
+- **Duration:** —
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-long-lake-2023`
+- **Legal basis:** Town of Long Lake Battery Energy Storage System Law, as amended by Local Law 3 of 2023; superseded by revised BESS law (Proposed Local Law No. 1 of 2024)
+- **What prompted it:** Proposed Adirondack Central Microgrid BESS project at Raquette Lake
+- **Affected projects:** —
+- **Detailed status:** Reported expired by industry tracker (2024-05-03); the Town's temporary pause/moratorium on the Raquette Lake microgrid BESS project was followed by a revised, permanent Battery Energy Storage System Law (Proposed Local Law No. 1 of 2024), consistent with Adirondack Almanack's characterization of Long Lake as having "updated laws" rather than a still-active moratorium.
+- **Outcome:** One-year pause on BESS permitting (with option to extend) tied to a specific proposed microgrid project, later replaced by a revised permanent BESS law.
+
+### Lysander (Onondaga County)
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** Original Tier 2 Battery Energy Storage Systems Moratorium enacted by L.L. No. 8-2023, adopted 2023-09-21; extended by successive local laws through L.L. No. 6-2026, adopted 2026-06-18
+- **Normalized date:** `2023-09-21` (exact)
+- **Duration:** Six months per each extension, per the Town's disposition list and the L.L. No. 6-2026 extension text ('shall remain in force and effect for a period of 6 months from its effective date')
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-lysander-onondaga-county-2023`
+- **Legal basis:** Town Code Chapter 102 (Battery Energy Storage Systems), Tier 2 BESS moratorium footnote; original L.L. No. 8-2023 (2023-09-21); extended by L.L. No. 3-2024 (2024-03-21), L.L. No. 6-2024 (2024-09-19), L.L. No. 2-2025 (2025-03-06), L.L. No. 4-2025 (2025-06-05), L.L. No. 8-2025 (2025-09-18), L.L. No. 10-2025 (2025-11-20), L.L. No. 1-2026 (2026-02-19), and most recently L.L. No. 6-2026 (2026-06-18)
+- **What prompted it:** Town-wide pause on Tier 2 (utility-scale) battery energy storage system applications pending regulatory review, running in parallel with a now-rescinded solar farm moratorium
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23. Most recently extended by L.L. No. 6-2026, adopted 2026-06-18, for a further six months (to approximately 2026-12-18). This is a distinct, separately-numbered instrument from the Town's L.L. No. 4-2026 (2026-05-07) moratorium on data storage facilities, which is already in the inventory as ny-lysander-2026.
+- **Outcome:** One of the longest-running moratorium series identified in this pass: continuously extended every ~3-6 months since September 2023
 
 ### Mamakating
 
@@ -132,6 +1250,22 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** Pending/drafting authorized as of 2026-09-23. At its September 15, 2026 meeting the Town Board unanimously voted to have Town Attorney Benjamin Gailey draft a proposed local law establishing a data center moratorium; the drafted law will need its own public hearing before adoption. No hearing date had been set and no local law had been adopted as of this pass. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
 - **Outcome:** Following an August 18, 2026 initial discussion and a September 15, 2026 public information session, the Town Board voted unanimously to direct the Town Attorney to draft a proposed data center moratorium local law; the draft will require a further public hearing before formal adoption, which had not occurred as of 2026-09-23.
 
+### Mamaroneck Village
+
+- **Type:** Village
+- **Status:** ⚪ Expired
+- **Date enacted:** 2024-10-31 (effective date of original moratorium, section 342-84.5)
+- **Normalized date:** `2024-10-31` (exact)
+- **Duration:** Extended to 2025-11-01 by Local Law 11-2025; further extended by Local Law 14-2025
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-mamaroneck-village-2024`
+- **Legal basis:** Code of the Village of Mamaroneck 342-84.5, as extended by Local Law 11-2025 and Local Law 14-2025
+- **What prompted it:** Consultant study of BESS zoning constraints
+- **Affected projects:** —
+- **Detailed status:** Lifted per industry tracker; moratorium on acceptance/processing of BESS applications and permits (effective 2024-10-31) was extended twice (to 2025-11-01 via LL11-2025, then further via LL14-2025) before being lifted.
+- **Outcome:** Moratorium on BESS application processing, effective Oct 2024, extended twice, since lifted.
+
 ### Manlius
 
 - **Type:** Town
@@ -147,6 +1281,134 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Affected projects:** None named in the source reviewed.
 - **Detailed status:** Adopted; one-year moratorium in effect.
 - **Outcome:** The Manlius Town Board unanimously (7-0) approved a one-year moratorium on data processing centers and commercial cryptocurrency mining operations.
+
+### Mentz
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Filed with Cayuga County Planning June 2025
+- **Normalized date:** `2025-06` (month_only)
+- **Duration:** One year from the effective date
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-mentz-2025`
+- **Legal basis:** A Local Law Establishing a Temporary Land Use Moratorium Prohibiting Battery Energy Storage Systems Within the Town of Mentz
+- **What prompted it:** Town-wide prohibition on new BESS site plans, subdivisions, variances, special use permits, and building permits pending regulatory review
+- **Affected projects:** —
+- **Detailed status:** Reported active per the June 2025 filed local law (one-year term); not independently re-confirmed for an extension as of 2026-09-23. A tracker (Carina Energy) lists Mentz, Cayuga County as active with expiration 2026-09-30, consistent with a roughly one-year term from mid-2025 but not independently verified. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** One-year, town-wide BESS moratorium
+
+### Milton (Saratoga County)
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** Adopted December 2024 per the Town's own Document Center folder path (2024/12-Dec)
+- **Normalized date:** `2024-12` (month_only)
+- **Duration:** Twelve months from the effective date; the local law's own extension section allows for renewal
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-milton-saratoga-county-2024`
+- **Legal basis:** A Local Law Entitled "Establishing a Temporary Moratorium on Large/Commercial Scale Solar Energy Installations and Battery Storage Facilities in the Town of Milton"
+- **What prompted it:** Town-wide pause on large/commercial-scale solar and battery storage facility applications pending regulatory review
+- **Affected projects:** —
+- **Detailed status:** Reported active per the December 2024 local law (twelve-month term, with a stated extension mechanism in Section 11); not independently re-confirmed for a specific extension as of 2026-09-23. A tracker (Carina Energy) lists Milton, Saratoga County as active with expiration 2026-07-29, implying at least one extension beyond the original ~December 2025 term, which was not independently confirmed. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Twelve-month moratorium on large-scale solar and battery storage, apparently since extended
+
+### Mina
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** Original moratorium Local Law #1-2025, effective 2025-05-02; extended by Resolution #30-25 for six months to 2026-05-02; renewed/continued by Local Law No. 6 of 2026 (on the March 12, 2026 Town Board packet)
+- **Normalized date:** `2025-05-02` (exact)
+- **Duration:** Successive six-month terms since May 2025; Local Law No. 6 of 2026 continues the moratorium for a further six months from its effective date (~May 2026, to approximately November 2026), extendable once more by resolution
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-mina-2025`
+- **Legal basis:** Town of Mina 2026 Temporary Moratorium Law on Battery Energy Storage System Facilities, Local Law No. 6 of 2026, replacing Local Law #1-2025 (effective 2025-05-02) and Resolution #30-25 (extension to 2026-05-02)
+- **What prompted it:** Introduction of BESS technology to Chautauqua County communities; Town sought time to adopt siting regulations following the NYSERDA Battery Energy Storage System Guidebook for Local Governments (Feb. 2026)
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23 per Local Law No. 6 of 2026, continuing the town's BESS moratorium for six months from its effective date (~May 2026), extendable once more by Town Board resolution. The Town separately enacted Local Law #7-2026, a roughly six-month moratorium on wind energy conversion systems, at the same March 12, 2026 meeting (not part of this candidate, which covers only the battery-storage instrument).
+- **Outcome:** Continuously renewed BESS moratorium since May 2025
+
+### Mohawk (Montgomery County)
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-08-13 per savrn and aigridwatch trackers
+- **Normalized date:** `2026-08-13` (unverified)
+- **Duration:** Six months
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ny-mohawk-montgomery-county-2026`
+- **Legal basis:** Town of Mohawk local law imposing a six-month moratorium on data center permitting
+- **What prompted it:** Town officials concluded the state executive order's 50 MW hyperscale threshold leaves smaller data center facilities unregulated
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23, running to approximately 2027-02-13, while the town drafts zoning regulations for data centers. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** Adopted
+
+### Montgomery
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** Introductory Local Law No. 1 of 2025 (original moratorium)
+- **Normalized date:** `2025` (year_only)
+- **Duration:** —
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-montgomery-2025`
+- **Legal basis:** Town of Montgomery Local Law No. 2 of 2025 (removing battery storage systems from the zoning code), following Introductory Local Law No. 1 of 2025
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Lifted per industry tracker; a 2025 moratorium/zoning pause was followed by Local Law No. 2 of 2025, which removed battery storage systems from the zoning code entirely (i.e., replaced with a restrictive permanent provision rather than an extended pause). [VERIFY instrument number; duration not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** 2025 pause on BESS, followed by permanent removal of BESS from the town's zoning code.
+
+### Mount Kisco
+
+- **Type:** Village
+- **Status:** ⚪ Replaced
+- **Date enacted:** Approximately August 2024: Westfair Communications reported 'Mount Kisco's Board of Trustees has adopted a local law establishing a moratorium on battery energy storage systems (BESS)... a six-month moratorium that also allows for two three-month extensions,' in an article published/dated Aug. 19, 2024 (matching the row's 'Twice extended' duration text). Exact vote date not confirmed. Superseded by permanent zoning changes (Proposed Local Law No. 01-2025, amending Chapter 110) which the Village Board adopted Aug. 11, 2025, per Citizen Portal.
+- **Normalized date:** `2024-08` (month_only)
+- **Duration:** Twice extended
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-mount-kisco-undated`
+- **Legal basis:** Village/Town of Mount Kisco Proposed Local Law No. 01-2025 (amending Chapter 110 zoning, superseding the moratorium)
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Replaced as of Aug. 11, 2025: after twice extending its six-month BESS moratorium (three-month extensions), per Westfair Communications' original Aug. 19, 2024 coverage of the moratorium's adoption, the Village Board adopted Local Law No. 1 of 2025 amending Chapter 110 zoning to define and prohibit large Battery Energy Storage Systems, replacing the temporary pause. This confirmed Aug. 11, 2025 replacement date supersedes the industry tracker's earlier, and apparently inconsistent, 'expired 2025-06-03' reading.
+- **Outcome:** BESS moratorium, twice extended, replaced by a permanent zoning ban on large BESS.
+
+### New Castle
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** Adopted by the Town Board on 2025-02-11; filed with the NYS Secretary of State 2025-03-03
+- **Normalized date:** `2025-02-11` (exact)
+- **Duration:** Six months from the effective date
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-new-castle-2025`
+- **Legal basis:** Local Law No. 1 of 2025, a Six-Month Moratorium Prohibiting the Review and Approval of Applications and Permits for Battery Energy Storage Systems
+- **What prompted it:** Town-wide pause on BESS applications while the Town Board studies and drafts amendments to the Town Code
+- **Affected projects:** —
+- **Detailed status:** Reported active per the original 2025 six-month term; not independently re-confirmed for extension text. A tracker (Carina Energy) lists New Castle, Westchester County as active through August 2026, consistent with the surrounding Hudson Valley/Westchester cluster (Bedford also running through August 2026 per the same tracker), but the extension itself was not independently verified. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Six-month moratorium enacted Feb 2025, apparently extended into 2026
+
+### Newfane
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** Local Law No. 1-2026, dated January 2026 and placed on the Town Board's February 2026 meeting docket for adoption
+- **Normalized date:** `2026-02` (month_only)
+- **Duration:** Six months from the effective date (Local Law No. 1-2026, a successor to a prior Local Law No. 1-2025 BESS moratorium); subsequently extended once, to run through approximately August 2026.
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-newfane-2026`
+- **Legal basis:** 2026 Temporary Moratorium Law on Battery Energy Storage System (BESS) Facilities, Local Law No. 1-2026 of the Town of Newfane
+- **What prompted it:** Town-wide pause on new BESS applications, permits, and approvals
+- **Affected projects:** —
+- **Detailed status:** Expired on or about 2026-08-31. Local Law No. 1-2026 (a successor to a prior 2025 BESS moratorium) took effect around February 2026 for six months, and per Carina Energy's September 2026 update was extended once to run through August 2026 -- but that extended term has itself now passed. No news or primary source found confirming a further (third) extension, replacement by permanent BESS regulation, or lapse past August 2026.
+- **Outcome:** Six-month BESS moratorium
 
 ### Newfield
 
@@ -164,21 +1426,165 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** Active as of 2026-09-23. One-year moratorium on data processing centers and cryptocurrency mining operations; directs the Planning Board (or another select committee) to draft amendments to the town's 2013 Comprehensive Plan addressing water, electrical, and other infrastructure impacts. No extension, repeal, or applications for exemption were found as of this pass.
 - **Outcome:** Town Board unanimously adopted a one-year moratorium on data processing centers and cryptocurrency mining operations.
 
+### Newstead
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** 2024-07-08
+- **Normalized date:** `2024-07-08` (exact)
+- **Duration:** 6 months (original); reported still active/expired through 2026-03-31
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-newstead-2024`
+- **Legal basis:** Town of Newstead local law (Local Law 2 - BESS moratorium; Local Law 3 - wind moratorium)
+- **What prompted it:** Increased developer interest in standalone BESS and solar-plus-storage
+- **Affected projects:** —
+- **Detailed status:** Reported expired by industry tracker (2026-03-31); Town Board adopted six-month moratoria on BESS/solar-with-storage and on wind energy conversion systems on 2024-07-08; whether it was extended through 2026 was not independently confirmed. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Six-month moratorium on BESS facilities and solar installations with battery storage, plus a parallel wind moratorium.
+
+### Norfolk
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Local Law No. 5 of 2025, public hearing held June 12, 2025, enacted shortly after by the Town Board
+- **Normalized date:** `2025-06` (month_only)
+- **Duration:** The proposed text set an initial, very short term to June 30, 2025, implying the Town intended repeated short extensions while developing permanent BESS regulations
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-norfolk-2025`
+- **Legal basis:** Local Law No. 5 of 2025, a Moratorium on all Energy Storage System Development in the Town of Norfolk
+- **What prompted it:** Town-wide pause on energy storage system development pending adoption of comprehensive regulations; the Town held a March 12, 2026 public hearing to review a proposed permanent code regulating BESS
+- **Affected projects:** —
+- **Detailed status:** Reported active per a tracker (Carina Energy), which lists Norfolk, St. Lawrence County as active with an expiration around September 2026; the Town's own March 12, 2026 public hearing to review a proposed permanent BESS code suggests the moratorium has been repeatedly extended (or the Town is close to replacing it with permanent regulation), but neither the extension chain nor the outcome of the March 2026 hearing was independently confirmed as of 2026-09-23. [VERIFY instrument number not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Outcome:** Moratorium on all energy storage system development, initially enacted with a short term and apparently extended while a permanent BESS code was developed
+
+### North Harmony
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** An earlier moratorium (local law number not confirmed) was extended by Local Law 3 of 2025, adopted via Resolution #12 of 2025 (per the Town's own resolution document, referenced but not fully archived); the Planning Board separately voted around early 2025 to pursue a further extension while hiring a consultant to draft permanent rules
+- **Normalized date:** `2025` (year_only)
+- **Duration:** Unknown exact term; a series of extensions is documented
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-north-harmony-2025`
+- **Legal basis:** Temporary Moratorium on Commercial Solar and Battery Energy Storage Systems in the Town of North Harmony; extended by Local Law 3 of 2025 (Resolution #12 of 2025)
+- **What prompted it:** Town-wide pause on commercial solar and BESS applications pending adoption of local siting rules (NFPA 855 fire code compliance, battery chemistry limits, setbacks, water supply, alarm/green-space requirements, noise mitigation) while the Town retains a consultant
+- **Affected projects:** —
+- **Detailed status:** The Planning Board voted (per a news account, with its next meeting scheduled for March 11, 2025) to move forward with a further extension of the battery-storage moratorium and to finalize a consultant RFP to draft local siting rules; the Town had not yet adopted permanent rules as of that account. Current 2026 status not independently re-confirmed. A tracker (Carina Energy) lists North Harmony, Chautauqua County as active with an expiration around August 2026. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** Moratorium on commercial solar and battery storage, extended multiple times while the Town develops permanent siting rules
+
+### North Hempstead
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** Adopted by the North Hempstead Town Board 12-3-2024 by L.L. No. 11-2024; amended in its entirety 11-19-2025 by L.L. No. 20-2025
+- **Normalized date:** `2024-12-03` (exact)
+- **Duration:** Originally one year (to ~Dec 2025); extended for another calendar year by L.L. No. 20-2025 (proposed 2025-11-07, adopted 2025-11-18/19) to November 18, 2026
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-north-hempstead-2024`
+- **Legal basis:** Town Code Chapter 76 (Temporary Moratorium on Battery Energy Storage System Facilities); established by L.L. No. 11-2024 (2024-12-03), extended by L.L. No. 20-2025 (2025-11-19)
+- **What prompted it:** Pause on approvals for BESS facilities pending state codification of building/fire prevention regulations and first-responder training
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23. Chapter 76 bars any Town agency from accepting, reviewing, or approving BESS applications until November 18, 2026, unless further extended by Town Board resolution.
+- **Outcome:** Extended for a second one-year term through November 18, 2026
+
 ### North Tonawanda
 
 - **Type:** City
 - **Status:** 🟢 Extended
-- **Date enacted:** Original moratorium: Local Law 2024-2, adopted by the Common Council on 2024-07-16 (a two-year moratorium on cryptocurrency mining and data processing centers, set to expire 2026-07-16). Extension: a 2026 local law extending the moratorium for an additional 12 months from its new effective date, adopted before the July 16, 2026 expiration.
+- **Date enacted:** Original moratorium: Local Law 2024-2, adopted by the Common Council on 2024-07-16 (a two-year moratorium on cryptocurrency mining and data processing centers, set to expire 2026-07-16). Extension: adopted by unanimous Common Council vote on Tuesday, June 16, 2026 (a one-year extension), confirmed by WKBW and WIVB television news coverage in addition to the city's own draft/filed local law text.
 - **Normalized date:** `2024-07-16` (exact)
 - **Duration:** Original term: two years (2024-07-16 to 2026-07-16) under Local Law 2024-2. 2026 extension: an additional twelve (12) months from the extension's effective date.
-- **Current end date:** `—`
+- **Current end date:** `2027-07-16`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `ny-north-tonawanda-2024`
 - **Legal basis:** Local Law 2024-2 (original 2-year moratorium on cryptocurrency mining and data processing centers), extended by a 2026 local law ('Local Law 2026 - Moratorium Extension and SUP') adopted by the Common Council of the City of North Tonawanda.
 - **What prompted it:** Regulatory gap: the city's November 18, 2025 Comprehensive Plan update was completed but zoning amendments and recommendations specific to cryptocurrency mining/data processing centers were not yet finalized, prompting an extension rather than letting the original moratorium lapse.
 - **Affected projects:** None named in the text; the law references a proposal to convert an existing cryptocurrency mining facility into an AI data center as part of the broader local context (per the Rockefeller Institute's June 2026 tracking table).
-- **Detailed status:** Extended. The original two-year moratorium (Local Law 2024-2) was set to expire 2026-07-16; the city's own 2026 local law filing states the Common Council 'finds it necessary to extend the moratorium' for an additional 12 months while zoning amendments are finalized. Not independently confirmed by news coverage as of 2026-09-23; this pass relies on the city's own posted local law text.
+- **Detailed status:** Extended. The original two-year moratorium (Local Law 2024-2) was set to expire 2026-07-16; the Common Council voted unanimously June 16, 2026 to extend it for an additional 12 months, driven by an unresolved proposal to convert an existing cryptocurrency mining facility (World Generation X, Erie Avenue) into an AI data center. Independently confirmed by WKBW and WIVB news coverage as of 2026-09-23 (previously relied on the city's own posted, undated draft local law text alone).
 - **Outcome:** The Common Council extended the city's existing 2024 cryptocurrency mining/data processing center moratorium for an additional 12 months as its Comprehensive Plan-driven zoning amendments remained unfinished.
+
+### Oswegatchie
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** Local Law #2 of 2023; extended six months under Resolution 155-2024
+- **Normalized date:** `2023` (year_only)
+- **Duration:** Extended in six-month increments; likely extended further given the tracker's 2026 expiration claim
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-oswegatchie-2023`
+- **Legal basis:** Local Law #2 of 2023, a moratorium on battery energy storage systems in the Town of Oswegatchie; extended by Resolution 155-2024 (six months)
+- **What prompted it:** Town-wide pause on new BESS permitting
+- **Affected projects:** —
+- **Detailed status:** Reported active per the Resolution 155-2024 extension (a six-month extension of Local Law #2 of 2023); not independently re-confirmed for further extensions. A tracker (Carina Energy) lists Oswegatchie, St. Lawrence County as active with an expiration around September 2026, implying at least one further extension since 2024, which was not independently confirmed. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** BESS moratorium originally enacted 2023, repeatedly extended in six-month increments
+
+### Oswego City
+
+- **Type:** City
+- **Status:** 🟢 Extended
+- **Date enacted:** Local Law No. 1 of 2025, City of Oswego Common Council, adopted August 11, 2025 following a public hearing the same evening.
+- **Normalized date:** `2025-08-11` (exact)
+- **Duration:** Twelve months from the effective date, renewable for a cumulative additional period of up to six months by Common Council resolution
+- **Current end date:** `2027-02-11`
+- **Sectors:** battery storage, solar, wind
+- **Moratorium ID:** `ny-oswego-city-2025`
+- **Legal basis:** City of Oswego Local Law No. 1 of 2025, A Local Law Establishing a Moratorium on Certain Renewable Energy Systems
+- **What prompted it:** City-wide pause on applications/permits for battery energy storage, biomass, geothermal, solar, and wind energy systems because existing zoning did not adequately address these uses
+- **Affected projects:** —
+- **Detailed status:** Extended, active as of 2026-09-23, though the extension vote itself is not independently confirmed from primary minutes. Local Law No. 1 of 2025 was adopted August 11, 2025 for a 12-month term (through 2026-08-11), renewable for a cumulative additional period of up to 6 months by Common Council resolution. Resolution No. 255, extending the moratorium, appeared on the Common Council's August 10, 2026 agenda -- one day before the original term would have lapsed -- per a local news outlet's report sourced from the city's own agenda documents. The outcome of that specific vote (as opposed to the separately-covered, contested tax-cap override on the same agenda) was not confirmed by a primary minutes document in this pass; if adopted as proposed, the moratorium would run through on or about 2027-02-11, the maximum allowed under the law's own terms. The city's code (ecode360) confirms this extension mechanism exists exactly as described.
+- **Outcome:** Twelve-month, multi-technology renewable energy system moratorium (including battery storage), extendable up to 18 months total
+
+### Oyster Bay
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2024-04, original moratorium; fourth extension approved 2026-04-14 (unanimous Town Board vote reported 2026-04-16)
+- **Normalized date:** `2024-04` (month_only)
+- **Duration:** 12 months for the current (fourth) extension, the first time a full-year term has been used after several six-month extensions
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-oyster-bay-2024`
+- **Legal basis:** Town of Oyster Bay moratorium on battery energy storage systems
+- **What prompted it:** Jupiter Power's previously proposed 275 MW lithium battery storage facility in Glenwood Landing near Glen Head and Glenwood Landing elementary schools
+- **Affected projects:** Jupiter Power's since-abandoned Glenwood Landing BESS proposal; a separate proposed facility at the former Grumman site in Bethpage
+- **Detailed status:** Active as of 2026-09-23, extended to 2027-04-30. This is the fourth extension of a moratorium first enacted in April 2024.
+- **Outcome:** Repeatedly extended
+
+### Peekskill
+
+- **Type:** City
+- **Status:** 🟢 Extended
+- **Date enacted:** Original moratorium adopted following a March 24, 2025 public hearing, filed with the Secretary of State 2025-05-05, expired 2025-11-05; further extended by Local Law No. 14 of 2025, agenda dated 2025-11-24
+- **Normalized date:** `2025-03-24` (exact)
+- **Duration:** Six months from effective date, extended for an additional six months by Local Law No. 14 of 2025 (agenda 2025-11-24)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-peekskill-2025`
+- **Legal basis:** Local Law No. 3 of 2025 (original, adopted following the 2025-03-24 hearing; filed 2025-05-05, expired 2025-11-05); further extended by Local Law No. 14 of 2025 (Common Council agenda 2025-11-24)
+- **What prompted it:** City-wide moratorium on large-scale Battery Energy Storage Systems (over 80 kWh) applications and permits pending study of fire, safety, and siting standards
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23 per Local Law No. 14 of 2025's six-month extension (adopted around 2025-11-24, running to approximately 2026-05-24); not independently re-confirmed for any further extension since. A tracker (Carina Energy) lists Peekskill, Westchester County as active with expiration 2026-05-31, closely consistent with this term.
+- **Outcome:** Six-month large-scale BESS moratorium, extended once by six more months
+
+### Pendleton
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** Local Law No. 2 of 2025 (public hearing 2025-06-09)
+- **Normalized date:** `2025-06` (month_only)
+- **Duration:** 6 months
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-pendleton-2025`
+- **Legal basis:** Local Law No. 2 of 2025
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported expired by industry tracker (2025-12-27), consistent with a six-month term from the June 2025 adoption; the Town has since adopted a permanent BESS standards/permitting local law.
+- **Outcome:** Six-month moratorium on BESS facilities, since expired/replaced by permanent siting standards.
 
 ### Perth
 
@@ -195,6 +1601,358 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Affected projects:** None named.
 - **Detailed status:** Reported active as of the Rockefeller Institute's June 2026 tracking blog; not independently re-confirmed as of 2026-09-23. No news of extension, repeal, or a specific named project was located. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
 - **Outcome:** Town Board passed a one-year moratorium on the development of any data centers within the town.
+
+### Perth (Fulton County)
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Originally imposed by Local Law No. 23 of 2024 (commercial solar); extended by Local Law #3 of 2025 (introduced 2025-05-08) and again by a third local law reported by the Leader Herald as covering solar, battery, and wind installations
+- **Normalized date:** `2024` (year_only)
+- **Duration:** Series of extensions since 2024; the Leader Herald reported the third enactment in a 14-month span as of its (undated but 2025) publication
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar, wind
+- **Moratorium ID:** `ny-perth-fulton-county-2024`
+- **Legal basis:** Local Law No. 23 of 2024 (original, commercial solar); extended by Local Law #3 of 2025 (Resolution #66, introduced 2025-05-08); further extended/broadened to cover battery and wind per Leader Herald coverage
+- **What prompted it:** Town-wide pause on new commercial solar, battery storage, and wind installations to allow the Town Board to update and revise siting regulations
+- **Affected projects:** Perth CS III, LLC proposed solar farm (Active Solar Special Use Permit) along County Highway 107, referenced in a 2026-04-01 NYSDEC environmental notice
+- **Detailed status:** Reported active in Leader Herald/dailygazette.com coverage of the town's third moratorium enactment in 14 months, covering solar, battery, and wind installations; this is a separate instrument from the Town's 2026-06-04 one-year data-center-only moratorium already in the inventory (ny-perth-2026). Not independently re-confirmed for an exact current end date as of 2026-09-23; a tracker (Carina Energy) lists Perth as an active ALL_BESS moratorium expiring 2027-01-21, which was not verified against a primary source. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** Third extension of a commercial solar moratorium first imposed in 2024, since broadened to also cover battery storage and wind
+
+### Port Chester
+
+- **Type:** Village
+- **Status:** ⚪ Expired
+- **Date enacted:** Approximately October 2023 (inferred): a March 25, 2024 Village of Port Chester Board of Trustees agenda item to 'Extend Temporary Development Moratorium on Battery Energy Storage Systems' states the original term 'ends 4/25/2024,' consistent with a roughly six-month original term beginning around late October 2023. Exact adoption date and local law number not confirmed.
+- **Normalized date:** `2023-10` (month_only)
+- **Duration:** —
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-port-chester-undated`
+- **Legal basis:** Chapter 345 of the Code of the Village of Port Chester (temporary development moratorium on BESS)
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported expired by industry tracker (2024-11-03); Village trustee agendas confirm the moratorium's original term ended 2024-04-25 and was subsequently extended (public hearing held August 2024). [VERIFY instrument number; duration; adoption date not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** Temporary development moratorium on self-storage/BESS applications, extended in 2024, since expired.
+
+### Potsdam
+
+- **Type:** Town
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Not yet defined; a resolution has been drafted but not put to a Town Board vote
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ny-potsdam-undated`
+- **Legal basis:** —
+- **What prompted it:** Concerns about the electric grid's ability to handle new data center demand, raised by Councilman Pat Brady after a NYISO 'Future Proofing the Grid' webinar
+- **Affected projects:** No specific project named
+- **Detailed status:** Pending as of 2026-09-23. Councilman Pat Brady proposed a local moratorium at the July 14, 2026 Town Board meeting and drafted a resolution, which he shared with the board and the town supervisor; the board planned to discuss scheduling a public hearing at its August meeting. No adoption or public hearing has been confirmed in subsequent coverage. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Outcome:** Proposed only; not adopted
+
+### Pound Ridge
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** —
+- **Normalized date:** `2025` (year_only)
+- **Duration:** Twice extended
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-pound-ridge-2025`
+- **Legal basis:** Town of Pound Ridge BESS moratorium local law, replaced 2026-07-21 by permanent zoning amendment prohibiting large-scale BESS
+- **What prompted it:** Prevent BESS siting near schools, parks, and watersheds
+- **Affected projects:** —
+- **Detailed status:** Lifted per industry tracker (2026-02-28); after twice extending its six-month BESS moratorium, the Town Board voted unanimously on 2026-07-21 to adopt permanent zoning changes prohibiting large-scale BESS (with narrow exceptions). [VERIFY instrument number not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Six-month BESS moratorium, twice extended, replaced by a permanent zoning ban.
+
+### Prattsburgh
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Public hearing noticed October 21, 2024 on a proposed six-month moratorium; adoption date and any extensions not independently confirmed
+- **Normalized date:** `2024` (year_only)
+- **Duration:** Six months as proposed; likely extended given the tracker's 2026 expiration claim
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-prattsburgh-2024`
+- **Legal basis:** Town of Prattsburgh proposed local law establishing a six-month moratorium on Industrial Solar Energy Facilities and Battery Energy Storage Facilities (noticed for public hearing October 2024; referred to Steuben County committees per County Legislature resolution)
+- **What prompted it:** Town-wide pause on industrial solar and BESS facility applications
+- **Affected projects:** —
+- **Detailed status:** Reported active per a tracker (Carina Energy) listing Prattsburgh, Steuben County as active with an expiration of 2026-08-31; final adoption of the October 2024 proposed law and any subsequent extensions were not independently confirmed from a primary Town source. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Outcome:** Proposed six-month moratorium on industrial solar and BESS facilities, noticed for public hearing October 2024
+
+### Putnam Valley
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** Local Law #3 of 2024, effective 2024-07-26
+- **Normalized date:** `2024-07-26` (exact)
+- **Duration:** One year, extended once by three months to 2025-10-24; the Town Board subsequently determined it could not extend the moratorium further
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar, wind
+- **Moratorium ID:** `ny-putnam-valley-2024`
+- **Legal basis:** Local Law #3 of 2024, Temporary Land Use Moratorium Prohibiting Large Scale Solar Installations, Large Scale Battery Energy Storage System Installations, and Large Scale Wind Energy Conversion Systems; extended by a July 16, 2025 Town Board local law to 2025-10-24
+- **What prompted it:** A proposed 116-megawatt battery storage farm near the Putnam-Westchester county line, opposed by residents of southern Mahopac and Baldwin Place and environmental organizations
+- **Affected projects:** Proposed 116 MW battery storage farm near the Putnam-Westchester county line
+- **Detailed status:** Expired 2025-10-24. A subsequent Town Board meeting discussed next steps after the moratorium lapsed; members stated the board could not extend the expired moratorium further and would instead draft new zoning language and comprehensive-plan updates, citing a Yorktown court ruling limiting local control over projects found to be utility infrastructure.
+- **Outcome:** One-year moratorium on large-scale solar, BESS, and wind installations, extended three months, then allowed to expire with the Town Board pivoting to drafting permanent zoning instead of further extension
+
+### Ripley
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** —
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-ripley-undated`
+- **Legal basis:** —
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported expired by industry tracker; only a 2022 permanent BESS zoning law (Local Law 3 of 2022) was located for Ripley, not a temporary moratorium. [VERIFY instrument number; duration; adoption date not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Outcome:** BESS moratorium reported expired; independent confirmation of the moratorium (as distinct from the town's 2022 permanent BESS zoning law) not obtained.
+
+### Rose
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Referred to the Wayne County Planning Board, which found 'no county impact' at its May 28, 2025 meeting; the Town's own adoption date was not independently located
+- **Normalized date:** `2025` (year_only)
+- **Duration:** Not confirmed from the documents located
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-rose-2025`
+- **Legal basis:** Town of Rose proposed moratorium on the construction of large-scale solar farms and battery storage units (referred to Wayne County Planning Board as a GML 239 matter)
+- **What prompted it:** Town-wide pause on large-scale solar and battery storage construction
+- **Affected projects:** —
+- **Detailed status:** Reported active per a tracker (Carina Energy) listing Rose, Wayne County as active with an expiration of 2026-07-03; the underlying Town local law and its exact adoption date/term were not independently located, only the county referral record showing the Town's intent to impose the moratorium as of May 2025. [VERIFY instrument number not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Outcome:** Moratorium on large-scale solar farms and battery storage units
+
+### Rotterdam
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** —
+- **Normalized date:** `2024` (year_only)
+- **Duration:** 6 months
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-rotterdam-2024`
+- **Legal basis:** Introductory Local Law No. 8 of 2025
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported expired by industry tracker (2025-05-03); Town filing confirms a six-month BESS installation moratorium. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Six-month moratorium prohibiting BESS installations.
+
+### Royalton
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** 2024-03
+- **Normalized date:** `2024-03` (month_only)
+- **Duration:** Extended at least once
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-royalton-2024`
+- **Legal basis:** Town of Royalton local law (BESS/renewable energy moratorium)
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Lifted per industry tracker; Town Board approved a moratorium on renewable energy systems using battery storage in March 2024, and was reported in fall 2024 to be considering a further extension. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Moratorium on development of renewable energy systems using battery storage, extended, since lifted.
+
+### Salem
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2025-10-08
+- **Normalized date:** `2025-10-08` (exact)
+- **Duration:** —
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-salem-2025`
+- **Legal basis:** Local Law #1 of 2025
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Under review per industry tracker; Town Board adopted Local Law #1 of 2025 on 2025-10-08, enacting a temporary moratorium on approvals for commercial BESS, following an earlier proposal to ban BESS outright.
+- **Outcome:** Temporary moratorium on commercial BESS approvals, adopted October 2025.
+
+### Schroeppel
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Local Law 1 of 2026, adopted at the February 10, 2026 Town Board meeting
+- **Normalized date:** `2026-02-10` (exact)
+- **Duration:** One year
+- **Current end date:** `—`
+- **Sectors:** solar
+- **Moratorium ID:** `ny-schroeppel-2026`
+- **Legal basis:** Local Law 1 of 2026, imposing a one-year moratorium on commercial free-standing solar systems within the Town of Schroeppel
+- **What prompted it:** Town-wide pause on commercial free-standing solar development pending regulatory review
+- **Affected projects:** Nexamp Solar Company's Phoenix-Oxbow Solar Project off Hoag Drive in the Village of Phoenix (a positive SEQRA determination was issued December 2025); Nexamp separately sought a waiver related to a Bankrupt Road site
+- **Detailed status:** Active as of 2026-09-23. A July 17, 2026 news account confirms the Town remains under this 12-month solar moratorium (passed in February) while separately adopting a data-center moratorium (July 14, 2026) and seeking public input at an August 11, 2026 hearing on a proposed, separate 12-month moratorium on battery energy storage systems (Local Law #3) that was not confirmed adopted as of this pass. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** One-year moratorium on commercial free-standing solar systems
+
+### Smithtown
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** Original moratorium (L.L. No. 13-2024) adopted 2024-09-20; extended by L.L. No. 1-2025 (2025-01-23, three months), L.L. No. 6-2025 (2025-08-12, six months), and L.L. No. 8-2026 (2026-04-23, six months)
+- **Normalized date:** `2024-09-20` (exact)
+- **Duration:** Original three months, repeatedly extended (three months, then six months, then six months)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-smithtown-2024`
+- **Legal basis:** Town Code Chapter 324, Moratorium on Battery Energy Storage Systems; originally L.L. No. 13-2024 (2024-09-20), extended by L.L. No. 1-2025, L.L. No. 6-2025, and L.L. No. 8-2026
+- **What prompted it:** Town-wide pause on BESS permits/approvals pending review of the Inter-Agency Fire Safety Working Group's recommendations and New York State's proposed fire code updates for BESS
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23. Per the Town's official ecode360 moratorium listing, the moratorium (originally L.L. No. 13-2024) lapsed briefly around February 2026 before the Town Board adopted a further six-month extension, L.L. No. 8-2026, on 2026-04-23, running to approximately 2026-10-23.
+- **Outcome:** Repeatedly extended BESS moratorium since September 2024
+
+### Somerset
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** 2024
+- **Normalized date:** `2024` (year_only)
+- **Duration:** —
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-somerset-2024`
+- **Legal basis:** Town of Somerset local law (BESS moratorium)
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Lifted per industry tracker; news coverage confirms the Somerset town board approved a moratorium on renewable energy systems using battery storage. [VERIFY instrument number; duration; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** Moratorium on renewable energy systems using battery storage, since lifted.
+
+### Southampton
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** 2023-08-22
+- **Normalized date:** `2023-08-22` (exact)
+- **Duration:** Amended 2024-02-15 (LL1-2024), 2024-07-23 (LL15-2024), 2025-03-11 (LL10-2025)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-southampton-2023`
+- **Legal basis:** Former Chapter 314, Moratorium on Battery Energy Storage Systems (adopted by L.L. No. 28-2023), amended by L.L. 1-2024, L.L. 15-2024, L.L. 10-2025
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Replaced: the Town Board adopted a new permanent BESS code (Chapter 330, Article XXXIII) on 2025-06-10, ending the moratorium chain that ran from August 2023 through March 2025.
+- **Outcome:** Moratorium on BESS, adopted Aug 2023 and amended three times, replaced by permanent BESS zoning code in June 2025.
+
+### Southold
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2023-01-31 (effective 2023-04-11); most recent 12-month extension approved by the Town Board on 2026-04-21
+- **Normalized date:** `2023-01-31` (exact)
+- **Duration:** 12-month extension approved 2026-04-21
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-southold-2023`
+- **Legal basis:** Town of Southold moratorium on Battery Energy Storage System (BESS) facilities
+- **What prompted it:** A proposed 60 MW lithium-ion BESS and LIPA substation on a 27-acre Oregon Road site (Key Capture Energy)
+- **Affected projects:** Key Capture Energy's proposed 60 MW BESS/LIPA substation on Oregon Road, Cutchogue
+- **Detailed status:** Active as of 2026-09-23, extended through approximately April 2027 to allow the town's BESS Task Force to reconvene and draft permanent regulations aligned with new state fire-code guidance. The Town Board's decision overrode an April 8, 2026 Suffolk County Planning Commission staff report recommending against the extension.
+- **Outcome:** Repeatedly extended
+
+### Southport
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** Local Law No. 1 of 2025 enacted 2025-02-11; extended by Local Law No. 4 of 2025, adopted 2025-10-14 following a September 9, 2025 public hearing
+- **Normalized date:** `2025-02-11` (exact)
+- **Duration:** Six months from effective date, extended for an additional six months by Local Law No. 4 of 2025
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-southport-2025`
+- **Legal basis:** Local Law No. 1 of 2025, A Six-Month Moratorium on Commercial Solar Energy Systems and Commercial Energy Storage Systems within the Town of Southport (enacted 2025-02-11); extended by Local Law No. 4 of 2025 (adopted 2025-10-14)
+- **What prompted it:** Town-wide pause pending review of Town Code, Zoning Laws, and Comprehensive Plan for impacts of commercial solar and battery storage development on agriculture, aesthetics, and property values
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23 per Local Law No. 4 of 2025's six-month extension (adopted 2025-10-14, running to approximately 2026-04-14); not independently re-confirmed for any further extension since. A tracker (Carina Energy) lists Southport, Chemung County as active with an expiration around August 2026, implying at least one further extension not independently confirmed here.
+- **Outcome:** Six-month moratorium on commercial solar and battery storage development, extended once by six more months
+
+### Spafford
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Adopted 2026-05-14 by unanimous roll-call vote (Resolution 46-2026)
+- **Normalized date:** `2026-05-14` (exact)
+- **Duration:** Twelve months from effective date
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-spafford-2026`
+- **Legal basis:** Local Law No. 1-2026 (Resolution 46-2026), a town-wide 12-month moratorium on the siting, placement, installation, construction, modification or enlargement of battery energy storage systems
+- **What prompted it:** Town Board sought time for zoning and regulatory review of BESS siting, safety, and community concerns
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23. Adopted unanimously (Moran, Brayman, Parsons, Wise, O'Connell all voting yes) at a May 14, 2026 public hearing; takes effect immediately and expires after 12 months unless renewed or rescinded earlier. Excludes battery systems already approved or on Town-owned property.
+- **Outcome:** Twelve-month, town-wide moratorium on all battery energy storage systems, adopted unanimously
+
+### Stanford
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** Local Law #2 of 2024, adopted 2024-11-14 by Resolution No. 11B of 2024; extended in 2025 and, per a subsequent news account, the board introduced a resolution for a further one-year extension with a public hearing scheduled for Thursday, October 8 (year not stated in the archived text, but following the 2025 extension referenced)
+- **Normalized date:** `2024-11-14` (exact)
+- **Duration:** Twelve months from filing, extended at least once in 2025, with a further one-year extension proposed for an October 8 public hearing
+- **Current end date:** `—`
+- **Sectors:** battery storage, wind
+- **Moratorium ID:** `ny-stanford-2024`
+- **Legal basis:** Local Law #2 of 2024, A Local Law Imposing a Temporary Moratorium on Battery Energy Storage Systems and Wind Energy Conversion Systems (Resolution No. 11B of 2024)
+- **What prompted it:** Town-wide pause on large-scale battery storage and wind energy conversion system projects pending clarity on state safety standards; does not apply to EV charging or single-family home battery systems
+- **Affected projects:** —
+- **Detailed status:** Reported active and under further extension as of a 2026 news account: the original one-year moratorium (adopted Nov. 2024) was extended in 2025, and the Town Board introduced a resolution for another one-year extension, with a public hearing scheduled for October 8, pending as of this pass. [VERIFY details not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Twelve-month moratorium on large-scale battery storage and wind, repeatedly extended
+
+### Stockport
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Town Board public hearing noticed for 2026-06-09 on Local Law 1-2026; the Town's Zoning Review Committee had been meeting on battery storage since at least late 2024
+- **Normalized date:** `2026-06` (month_only)
+- **Duration:** Not confirmed from the documents located
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-stockport-2026`
+- **Legal basis:** Local Law 1-2026, Moratorium on Battery Storage Systems, Town of Stockport
+- **What prompted it:** Town-wide pause on BESS applications pending a zoning review that began with a Battery Storage Committee in late 2024
+- **Affected projects:** —
+- **Detailed status:** The Town's own public notices page lists a June 9, 2026 Town Board public hearing notice and a document titled 'Local Law 1-2026 Moratorium on Battery Storage Systems,' but the underlying documents (hosted as Google Drive file links) could not be fetched as text, so the exact adoption date, term, and current status were not independently confirmed as of 2026-09-23. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Outcome:** Town Board noticed and apparently adopted a BESS moratorium (Local Law 1-2026) around June 2026
+
+### Syracuse
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-02
+- **Normalized date:** `2026-02` (month_only)
+- **Duration:** 6 months, with option for one additional 6-month extension
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-syracuse-2026`
+- **Legal basis:** Syracuse Common Council ordinance (BESS moratorium)
+- **What prompted it:** Contested proposal for a 10-MW BESS on East Brighton Avenue; fire-safety concerns (citing the Warwick, Orange County BESS fire)
+- **Affected projects:** —
+- **Detailed status:** Active; Common Councilors voted unanimously in late February 2026 to ban new BESS permits for six months (with an option for one further six-month extension) while the city updates zoning and fire codes. [VERIFY status: computed term ended 2026-07-31; no extension or lapse found in the 2026-09 QA pass]
+- **Outcome:** Six-month moratorium (extendable once) on new BESS permits.
+
+### Ticonderoga
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-05, unanimous Town Board vote following a public hearing (cleanpowerdaily tracker dates the vote 2026-05-22)
+- **Normalized date:** `2026-05` (month_only)
+- **Duration:** Six months, extendable for up to two additional six-month periods (18 months maximum)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-ticonderoga-2026`
+- **Legal basis:** Town of Ticonderoga Local Law No. __ of 2026, a moratorium on locating battery energy storage systems (Tier 2/Tier 3 BESS)
+- **What prompted it:** Fire and safety risk concerns raised by the Town's Planning and Zoning Board about Tier 2/Tier 3 BESS uses
+- **Affected projects:** A proposed lithium battery plant in Ticonderoga (unnamed developer)
+- **Detailed status:** Active as of 2026-09-23. Six-month moratorium on Tier 2/Tier 3 BESS siting, extendable twice by resolution for up to 18 months total; additional public hearings were planned throughout the term.
+- **Outcome:** Adopted
 
 ### Tonawanda
 
@@ -228,6 +1986,54 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** Active as of 2026-09-23. Per the signed local law text reproduced verbatim in the Suffolk County Planning Commission's August 5, 2026 staff report, the moratorium bars town boards/officers from accepting, reviewing, or approving new data-center land-use applications (exempting applications filed and accepted as complete before the effective date) and 'will expire on December 31, 2027 (≈18 months)'.
 - **Outcome:** Town Board unanimously approved an 18-month moratorium on all new data-center applications following a five-hour hearing with about 300 attendees and 60 speakers opposed
 
+### Town of Cairo
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** Local Law #2 of 2026, 'A Temporary Town-Wide Six-Month Moratorium on Battery Energy Storage Systems,' adopted by the Cairo Town Board on March 2, 2026 (Resolution No. 2026-068), following a public hearing authorized by Resolution No. 2026-059 (2026-02-18 meeting). This is a successor instrument: town minutes show an earlier 2025 BESS moratorium (referenced August 4, 2025 as 'another moratorium for the battery storage facility,' authorized for public hearing by Resolution No. 2025-164) had already lapsed by February 2026, prompting the Board to adopt a brand-new six-month local law rather than a simple extension -- the same pattern the Board used the same night for its cannabis moratorium ('WHEREAS, the moratorium has expired; therefore... adopts the attached Local Law').
+- **Normalized date:** `2026-03-02` (exact)
+- **Duration:** Six months from the effective date
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-town-of-cairo-2025`
+- **Legal basis:** Local Law #2 of 2026, 'A Local Law Imposing a Temporary Town-Wide Six-Month Moratorium on Battery Energy Storage Systems,' adopted by the Cairo Town Board March 2, 2026 (Resolution No. 2026-068).
+- **What prompted it:** Town Board response to recent battery-storage-related activity, applications, and/or inquiries
+- **Affected projects:** —
+- **Detailed status:** Expired on or about 2026-09-02 (six months after the March 2, 2026 adoption of Local Law #2 of 2026). Town Board minutes show a predecessor BESS moratorium (referenced August 2025) had lapsed by February 2026, and rather than extend it, the Board authorized a public hearing (Resolution No. 2026-059, Feb. 18, 2026) and then adopted a brand-new six-month local law (Resolution No. 2026-068, March 2, 2026). No minutes, agenda item, or news confirming a further extension or renewal of Local Law #2 of 2026 past its six-month term were found as of 2026-09-23.
+- **Outcome:** Proposed six-month moratorium on new battery energy storage systems
+
+### Town of Chautauqua
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Original commercial BESS moratorium predates Local Law No. 4 of 2024 (which extended it through 2025-09-01); further extended by Local Laws 3-5 of 2026 (public hearing 2026-07-08)
+- **Normalized date:** `2023` (year_only)
+- **Duration:** Repeatedly extended
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar, wind
+- **Moratorium ID:** `ny-town-of-chautauqua-2023`
+- **Legal basis:** Local Law No. 4 of 2026 (extending the moratorium on Battery Energy Storage Systems; companion Local Laws 3 and 5 of 2026 extend wind and commercial solar moratoria)
+- **What prompted it:** Town updating its Comprehensive Plan and zoning before adopting permanent BESS/solar/wind standards
+- **Affected projects:** —
+- **Detailed status:** ACTIVE as of 2026-09-23 -- CORRECTS the tracker's implicit "expired 2025-09-03" reading (that date reflects the Local Law No. 4 of 2024 term, which was itself extended). Public hearings on further extensions (Local Laws 3, 4, 5 of 2026) were held 2026-07-08 per town notice and reported adopted by Post-Journal/Observer Today in mid-July 2026.
+- **Outcome:** Moratorium on commercial BESS (plus parallel wind and commercial solar moratoria), repeatedly extended since at least 2024.
+
+### Town of Clifton Park
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** Local Law No. 5 of 2025, approved 2025-07-21, effective for 180 days
+- **Normalized date:** `2025-07-21` (exact)
+- **Duration:** 180 days from the effective date, until January 21, 2026
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-town-of-clifton-park-2025`
+- **Legal basis:** Local Law No. 5 of 2025, A Local Law Establishing and Extending a Moratorium on Battery Energy Storage Systems Facilities in the Town of Clifton Park
+- **What prompted it:** Safety concerns cited by Town lawmakers in approving the BESS moratorium (per Daily Gazette headline coverage)
+- **Affected projects:** —
+- **Detailed status:** Replaced. The moratorium expired by its own terms January 21, 2026, and the Town Board adopted permanent Local Law No. 3 of 2026 on January 20, 2026, prohibiting Battery Energy Storage Systems facilities outright town-wide.
+- **Outcome:** 180-day BESS moratorium, immediately superseded by a permanent town-wide ban on BESS facilities
+
 ### Town of Clifton Park
 
 - **Type:** Town
@@ -244,6 +2050,22 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** Active per official notice of adoption and meeting packet
 - **Outcome:** Town Board enacted Local Law No. 9 of 2026, a 12-month moratorium
 
+### Town of Day
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Local Law No. 01 of 2025; exact adoption day not shown in the archived text
+- **Normalized date:** `2025` (year_only)
+- **Duration:** One year from adoption
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-town-of-day-2025`
+- **Legal basis:** Local Law No. 01 of 2025, A Local Law Imposing a Moratorium on Locating Battery Energy Storage Systems in the Town of Day
+- **What prompted it:** Town-wide pause on BESS applications pending development of local siting regulations
+- **Affected projects:** —
+- **Detailed status:** Reported active per Local Law No. 01 of 2025's one-year term; not independently re-confirmed for extension as of 2026-09-23. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** One-year BESS moratorium
+
 ### Town of Dryden (Tompkins County)
 
 - **Type:** Town
@@ -259,6 +2081,22 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Affected projects:** New York Metro Cloud LLC proposed use (cryptocurrency hosting/mining) at 2186 Dryden Road in Freeville. No MW/power-capacity figure appears in any available record; federal court filings (Bartolini v. Town of Dryden, N.D.N.Y. lead case 3:24-cv-01380, member 3:24-cv-01383, plus related S.D.N.Y. dockets 7:24-cv-07062 and 7:24-cv-05925) describe the site as a 0.24-acre parcel with approximately 3,000 square feet of interior space in a converted Quonset-style building -- consistent with a small hosting operation rather than a utility-scale, megawatt-rated data center, which explains why no MW figure exists rather than it simply being unreported.
 - **Detailed status:** Replaced by permanent zoning action adopted 2026-02-19; moratorium term otherwise would have expired in early 2026
 - **Outcome:** Town adopted a 2026 zoning law defining data centers, accessory data centers, cryptocurrency, and cryptocurrency data mines, while taking no action to add data centers or cryptocurrency facilities to the allowable-use chart. This appears to prohibit principal data center and cryptocurrency data mine uses unless later code amendments allow them.
+
+### Town of Dunkirk (Chautauqua County)
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2025-09, original enactment (exact date not stated)
+- **Normalized date:** `2025-09` (month_only)
+- **Duration:** Extended six months on 2026-03 (unanimous Town Board vote)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-town-of-dunkirk-chautauqua-county-2025`
+- **Legal basis:** Town of Dunkirk moratorium on battery energy storage systems
+- **What prompted it:** Time needed to draft a 12-page local law regulating BESS construction, maintenance and placement, incorporating a 2021 town law, other municipalities' laws, and a NYSERDA model law
+- **Affected projects:** No specific BESS proposal pending; the town is being proactive ahead of any future project
+- **Detailed status:** Active as of 2026-09-23 (subject to further extension after the six-month extension approved in March 2026, which itself would run to approximately September 2026). The Chautauqua County Planning Board deemed the moratorium a matter of local concern; the town issued a SEQRA negative declaration.
+- **Outcome:** Adopted, extended at least once
 
 ### Town of East Fishkill
 
@@ -292,21 +2130,21 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** Active as of 2026-09-23. Local Law No. 1 of 2026, a 12-month moratorium (extendable to 24 months) on approval, permitting, and construction of large-scale data centers, was unanimously adopted by the Town Board on 2026-06-09. No extension, repeal, or replacement was found as of this pass. The town's companion Local Law No. 2 of 2026 (a 16-month moratorium on package plants/decentralized water and wastewater infrastructure, also adopted 2026-06-09) and its ongoing comprehensive-plan update are the town's related, concurrent land-use actions.
 - **Outcome:** Town published notice that it enacted Local Law 1-2026, a 12-month moratorium on large-scale data centers
 
-### Town of Lansing (Tompkins County) - proposed, not enacted
+### Town of Lewis (Lewis County)
 
 - **Type:** Town
-- **Status:** 🔴 Rescinded
-- **Date enacted:** Not enacted. Public hearing held 2025-09-24; the Town Board's resolution withdrawing the proposed moratorium (Local Law #7 of 2025) is confirmed on the November 19, 2025 Town Board meeting agenda (Item 4, Motions and Resolutions: "Resolution Withdrawing Proposed Moratorium (Local Law #7 of 2025)").
-- **Normalized date:** `—` (unverified)
-- **Duration:** Proposed 365 days
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-03-16, per Facebook/community reporting of the Town Board vote; the local law was filed with the NYS Department of State on or about 2026-04-02
+- **Normalized date:** `2026-03-16` (unverified)
+- **Duration:** One year
 - **Current end date:** `—`
-- **Sectors:** data center
-- **Moratorium ID:** `ny-lansing-2025`
-- **Legal basis:** Proposed Local Law No. 7 of 2025; resolution withdrawing proposed moratorium
-- **What prompted it:** Town zoning rewrite and EPOD planning process, plus local concern about large commercial and industrial projects including the TeraWulf Cayuga Data Campus
-- **Affected projects:** TeraWulf/Cayuga Operating Company proposed Cayuga Data Campus at the former Cayuga coal plant; TeraWulf press release describes rights to develop up to 400 MW and 138 MW expected ready for service in 2026
-- **Detailed status:** Withdrawn before enactment
-- **Outcome:** Moratorium proposal withdrawn November 19, 2025. The Lansing Zoning Board of Appeals ruled 3-2 on December 22, 2025 that the proposed AI/HPC data center is a permitted "general processing" use under existing industrial/research zoning; FLX Strong and Cayuga Lake Environmental Action Now (CLEAN) filed an Article 78 petition in NY State Supreme Court on January 29, 2026 against the Lansing ZBA, TeraWulf, and its subsidiary Lake Hawkeye, challenging that interpretation. On 2026-04-29, Tompkins County Supreme Court Judge Mark Masler denied respondents' motion to dismiss, ruling that petitioners' alleged noise/environmental harms were not speculative and ordering ZBA/TeraWulf to answer by May 22, 2026. As of a September 9, 2026 report, the Article 78 suit remained pending with no reported ruling on the merits. Separately, and independent of any Town of Lansing action, NY Governor Hochul's July 14, 2026 Executive Order 62 (a one-year pause on state discretionary permits for data centers of 50 MW or more) currently affects the project, which TeraWulf's own SEC filings describe as scaling toward roughly 300-750 MW at this site.
+- **Sectors:** solar, battery storage, wind
+- **Moratorium ID:** `ny-town-of-lewis-lewis-county-2026`
+- **Legal basis:** Town of Lewis local law imposing a moratorium on the acceptance or approval of applications for permits authorizing solar energy systems, battery energy storage systems, and wind power generating facilities
+- **What prompted it:** Regional wave of renewable-energy siting concerns in Lewis County
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23; Lewis County's Planning and Community Development page lists the Town of Lewis Renewable Energy Moratorium as expiring 2027-04-02.
+- **Outcome:** Adopted
 
 ### Town of Lewiston (Niagara County) - proposed, public hearing held
 
@@ -340,6 +2178,38 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** Active as of 2026-09-23. Local Law #4 of 2026 was adopted by unanimous Town Board vote at the 2026-05-07 public hearing and is set to expire 2026-11-07 per the Town Supervisor's official 'Data Center Moratorium Updates' notice ('Moratorium passed. Expires 11/7/26.'). The Town's Data Center Advisory Committee's September 11, 2026 work-session agenda (noise ordinance, DEC feedback on wastewater/generators/SEQR, a BESS ordinance update) shows continuing related work, with no announced extension or early termination of the data storage facility moratorium itself found as of this pass.
 - **Outcome:** Local Law #4 of 2026 was adopted at the Town Board's May 7, 2026 public hearing by unanimous vote, imposing a six-month moratorium (through 2026-11-07) on applications for data storage facilities. The Town's Data Center Advisory Committee has continued related work on noise, wastewater/SEQR, and battery energy storage system regulations through at least September 2026.
 
+### Town of Marcellus
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Introduced March 18, 2026; public hearing held April 15, 2026; presented for adoption at the May 6, 2026 Town Board meeting
+- **Normalized date:** `2026-05-06` (exact)
+- **Duration:** Twelve months
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-town-of-marcellus-2026`
+- **Legal basis:** Local Law No. A of 2026, A Local Law Imposing a Twelve (12) Month Moratorium on Battery Energy Storage Systems within the Town of Marcellus
+- **What prompted it:** Fire-safety concerns about lithium-ion battery storage systems, prompting the Town Board to commission research on hazards in coordination with the fire department
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23. A tracker (Carina Energy) independently reports the Town of Marcellus enacted an ALL_BESS moratorium in May 2026 running through May 2027, consistent with adoption at the May 6, 2026 meeting following the April 15, 2026 public hearing.
+- **Outcome:** Twelve-month, town-wide moratorium on all battery energy storage systems
+
+### Town of Northampton
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Passed in March 2026, following a standing-room-only public hearing at a Great Sacandaga Lake firehouse
+- **Normalized date:** `2026-03` (month_only)
+- **Duration:** One year, extendable by the Town Board for such additional periods as it determines necessary
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-town-of-northampton-2026`
+- **Legal basis:** Local Law No. 01 of 2026, the Town of Northampton Battery Energy Storage Moratorium
+- **What prompted it:** Carson Power's proposed 10-megawatt BESS facility adjacent to a local auto body shop near Northville, following a public hearing where more than 160 residents attended and none spoke in support; the Adirondack Park Agency had separately approved the project (the first and only utility-scale BESS permit APA has issued), with conditions residents felt were not well understood
+- **Affected projects:** Carson Power's proposed 10 MW battery energy storage facility near Northville, adjacent to a local auto body shop, on the shore of Great Sacandaga Lake
+- **Detailed status:** Active as of 2026-09-23. Adopted in March 2026 as a one-year, town-wide moratorium on new BESS construction/permits/approvals; extendable by Town Board resolution.
+- **Outcome:** One-year, town-wide moratorium on new BESS facilities
+
 ### Town of Oneonta (Otsego County) - proposed, pending
 
 - **Type:** Town
@@ -356,6 +2226,38 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** Adopted; a 12-month moratorium has been in effect since 2026-05-15 on the development, construction, and operation of data centers and commercial cryptocurrency mining operations.
 - **Outcome:** Draft local law would stop town-level approvals and use of land or structures for data centers and commercial cryptocurrency mining during the moratorium, with exemptions for specified public, education, medical, and low-power uses.
 
+### Town of Orangetown
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-08-25, adopted at the public hearing (resolution to hold the hearing was adopted 2026-07-14)
+- **Normalized date:** `2026-08-25` (exact)
+- **Duration:** 180 days, renewable once for an additional 180 days by Town Board resolution
+- **Current end date:** `—`
+- **Sectors:** battery storage, data center
+- **Moratorium ID:** `ny-town-of-orangetown-2026`
+- **Legal basis:** Town of Orangetown Local Law No. 5 of 2026, adding Article XX to Chapter 43 (Zoning)
+- **What prompted it:** Battery energy storage and data storage facilities proposed near residential neighborhoods; zoning code gap; emissions, water use and proximity to the Lake Tappan drinking water reservoir
+- **Affected projects:** Does not apply to DataBank's Phase 2 data center expansion, already under review
+- **Detailed status:** Active as of 2026-09-23, running approximately 180 days from adoption. Applications for data storage facilities submitted before 2026-07-01 (including DataBank's expansion proposal) are exempt from the pause.
+- **Outcome:** Adopted
+
+### Town of Poughkeepsie
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** 2024-02
+- **Normalized date:** `2024-02` (month_only)
+- **Duration:** 6 months (subject to extension), continued at least through Feb 2025
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-town-of-poughkeepsie-2024`
+- **Legal basis:** Town of Poughkeepsie local law (temporary town-wide moratorium on large-scale BESS)
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Lifted per industry tracker; town Planning Department referral records show the temporary moratorium on large-scale BESS was continued in February 2025 and superseded by a zoning code amendment on battery energy storage in August 2025. [VERIFY instrument number not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Temporary town-wide six-month (extendable) moratorium on large-scale BESS, continued through early 2025, replaced by a zoning code amendment in August 2025.
+
 ### Town of Salina
 
 - **Type:** Town
@@ -371,6 +2273,22 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Affected projects:** —
 - **Detailed status:** Active per primary local law text; grandfathers approved lawful operating uses while prohibiting their expansion
 - **Outcome:** Town Board adopted Local Law No. 5 of 2026, a 12-month moratorium
+
+### Town of Sherburne
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** Adopted by unanimous Town Board vote following a public hearing on 2026-01-14
+- **Normalized date:** `2026-01-14` (exact)
+- **Duration:** Six months from adoption; may be extended by resolution for up to a total of one year absent extenuating circumstances, per the Town Attorney's explanation at the public hearing
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-town-of-sherburne-2026`
+- **Legal basis:** Town Board resolution adopting a 6-month moratorium on the construction of battery storage facilities (Town of Sherburne, no zoning code; local law number not stated in the minutes)
+- **What prompted it:** NexAmp's proposed 40-megawatt, 13-pod lithium-ion battery energy storage facility on Knapp Road, opposed by over 700 petition signers and the volunteer fire department
+- **Affected projects:** NexAmp's proposed 40 MW battery energy storage facility on Knapp Road
+- **Detailed status:** A September 3, 2026 news account states the Town has now passed 'two moratoriums' and was preparing to adopt a permanent BESS siting law (banning lithium-ion batteries at such facilities, capping facility size at 1 MW, requiring 24-hour on-site staffing) at its September 9, 2026 board meeting -- indicating the original six-month moratorium (to 2026-07-14) was extended by a second moratorium before being superseded by permanent regulation.
+- **Outcome:** Six-month moratorium, extended once, apparently followed by a permanent BESS siting law adopted around September 9, 2026
 
 ### Town of Southeast
 
@@ -404,6 +2322,22 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** Active per primary local law and meeting minutes
 - **Outcome:** Town Board adopted Resolution 20 and Local Law No. 5 of 2026 by a 5-0 roll-call vote, imposing a two-year moratorium
 
+### Town of Tyre
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-07-22, public hearing date; filed with the NYS Department of State as Local Law No. 2 of 2026 (filing uploaded by the town in September 2026)
+- **Normalized date:** `2026-07-22` (unverified)
+- **Duration:** One year
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ny-town-of-tyre-2026`
+- **Legal basis:** Town of Tyre Local Law No. 2 of 2026, "A Local Law Establishing a Moratorium on Data Centers and Artificial Intelligence Computing Facilities within the Town of Tyre"
+- **What prompted it:** Unique land use, infrastructure, utility, environmental, public-safety and community-character impacts of large-scale data centers and AI computing facilities not addressed by existing zoning
+- **Affected projects:** No specific project named
+- **Detailed status:** Active as of 2026-09-23. A public hearing on the proposed one-year moratorium was held 2026-07-22 (Seneca County); the town's official Local Law Filing PDF for Local Law No. 2 of 2026 confirms it was adopted and filed with the NYS Department of State.
+- **Outcome:** Adopted
+
 ### Town of Van Buren
 
 - **Type:** Town
@@ -419,6 +2353,214 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Affected projects:** Previously approved facilities and town-owned property exempt; modification/alteration/enlargement of previously approved facilities prohibited during the moratorium
 - **Detailed status:** Active per primary board packet
 - **Outcome:** Town Board unanimously enacted Local Law 2-2026, a 12-month moratorium, and formed a committee to work on battery-storage and data-center rules
+
+### Town of Watson
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** Local Law No. 2 for the year 2025, filed with Lewis County Planning around June 2025 following an April 2025 request for a 6-month moratorium
+- **Normalized date:** `2025-06` (month_only)
+- **Duration:** Six months from effective date
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-town-of-watson-2025`
+- **Legal basis:** Local Law No. 2 for the Year 2025, A Local Law Enacting a Temporary Moratorium on Utility-Scale Energy Storage Systems (covering both Compressed Air Energy Storage and Tier 2 Battery Energy Storage Systems)
+- **What prompted it:** Hydrostor's proposed $2 billion, 200-acre Advanced Compressed Air Energy Storage (A-CAES) facility, which the Town was considering alongside neighboring Croghan; the county planning department recommended both towns pursue a moratorium to evaluate the new land use
+- **Affected projects:** Hydrostor's proposed Advanced Compressed Air Energy Storage (A-CAES) facility
+- **Detailed status:** Likely replaced. Per Lewis County's own project timeline, the Town of Watson amended its Zoning Law on November 12, 2025 to establish permanent regulations for Compressed Air Energy Storage Systems (submitted to the NYS Department of State for filing), which would supersede the temporary moratorium's CAES component; it is not confirmed whether the moratorium's separate Tier 2 BESS provisions were also addressed by permanent regulation or simply lapsed at the end of the original six-month term (~December 2025). [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Six-month moratorium on utility-scale energy storage (CAES and Tier 2 BESS), followed by permanent CAES zoning regulations adopted November 12, 2025
+
+### Turin
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** 2025 (exact date not confirmed): a Village of Turin Local Law filing (Department of State stamp JUN 0 6 2025) for a six-month extension refers to 'the current Moratorium, known as Local Law No. 01 of 2025,' indicating the Village's original moratorium was adopted earlier in 2025, before the June 2025 extension filing.
+- **Normalized date:** `2025` (year_only)
+- **Duration:** Extended 6 months by a 2025 filing
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-turin-undated`
+- **Legal basis:** Village of Turin Local Law No. 01 of 2025 (original one-year moratorium on solar energy collectors/generators and battery storage facilities); extended 6 months by a further Local Law filed with the NYS Department of State June 6, 2025. Lewis County municipal land-use records separately list a "Town of Turin / Battery Storage Moratorium" whose relationship to the Village's Local Law 01 of 2025 is not confirmed -- they may be the same instrument described two ways, or distinct Town- and Village-level moratoria.
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported expired by industry tracker (2025-12-06); Lewis County's municipal land-use law index lists a Town of Turin battery-storage moratorium, and a Village of Turin six-month solar-moratorium extension filing from mid-2025 is consistent with a moratorium expiring around Dec 2025. [VERIFY instrument number; adoption date not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** Battery storage moratorium, reported expired December 2025.
+
+### Victory
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2024-10-14
+- **Normalized date:** `2024-10-14` (exact)
+- **Duration:** Extended per a June 2025 filing
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-victory-2024`
+- **Legal basis:** Local Law #2 of 2024, as extended by a June 2025 local law
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Under review per industry tracker; Town Board adopted Local Law #2 of 2024 (temporary land-use moratorium prohibiting BESS, GML 239) on 2024-10-14, and subsequently extended it per a June 2025 county filing.
+- **Outcome:** Temporary land-use moratorium prohibiting BESS, adopted Oct 2024, extended June 2025.
+
+### Village of Mayville
+
+- **Type:** Village
+- **Status:** 🟢 Extended
+- **Date enacted:** One-year moratorium passed at village board meeting reported June 2025; renewed for a further term reported by tracker as enacted May 2026
+- **Normalized date:** `2025-06` (month_only)
+- **Duration:** 12 months, since renewed
+- **Current end date:** `2027-06-30`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-village-of-mayville-2025`
+- **Legal basis:** Village of Mayville local law (BESS moratorium)
+- **What prompted it:** Comprehensive Plan update in progress jointly with Town of Chautauqua
+- **Affected projects:** —
+- **Detailed status:** Extended, active as of 2026-09-23. The original one-year BESS moratorium was passed by the Village Board and reported in local news in June 2025 ('Mayville leaders passed a one-year moratorium on new battery energy storage systems'), enacted while the village and the Town of Chautauqua jointly finished a Comprehensive Plan update. A tracker (Carina Energy), in its September 2026 monthly update, reports the moratorium was renewed in May 2026 and now runs through June 2027. No primary source (Village Board minutes or the local-law text itself) for the May 2026 renewal was located in this pass; the instrument number remains unconfirmed.
+- **Outcome:** One-year moratorium on new BESS in the village while the joint Village/Town Comprehensive Plan is completed; renewed for a further term.
+
+### Village of Wilson
+
+- **Type:** Village
+- **Status:** ⚪ Expired
+- **Date enacted:** 2024-09-19
+- **Normalized date:** `2024-09-19` (exact)
+- **Duration:** 12 months (reported); still being weighed for permanent regulation as of May 2026
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-village-of-wilson-2024`
+- **Legal basis:** Local Law #5 (new Chapter 178, Battery Moratorium)
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported expired by industry tracker (2026-03-31); the Village Board adopted a new Chapter 178 BESS moratorium (Local Law #5) at its 2024-09-19 meeting, and as of May 2026 was still weighing a permanent Tier 2 BESS zoning law rather than having adopted one.
+- **Outcome:** BESS moratorium adopted Sept 2024, still in force/under consideration for replacement as of mid-2026.
+
+### Virgil
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** —
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-virgil-undated`
+- **Legal basis:** —
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Reported active by industry tracker, expiring 2026-09-30; not independently verified against a primary or news source. [VERIFY instrument number; duration; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Outcome:** Utility-scale BESS moratorium reported active.
+
+### Walworth
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** 2024-03
+- **Normalized date:** `2024-03` (month_only)
+- **Duration:** 6 months (original); reported still in force through 2026-05-30
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-walworth-2024`
+- **Legal basis:** Local Law No. 1-2024 (To Implement a Temporary Moratorium Relative to Solar Facilities and Battery Storage)
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Lifted per industry tracker (2026-05-30); Town of Walworth adopted a temporary moratorium on solar facilities and battery storage (except residential rooftop solar) via Local Law No. 1-2024, public hearing held 2024-03-07.
+- **Outcome:** Six-month moratorium on solar and battery storage development, since lifted/replaced.
+
+### Warwick
+
+- **Type:** Town
+- **Status:** ⚪ Replaced
+- **Date enacted:** 2023
+- **Normalized date:** `2023` (year_only)
+- **Duration:** 6 months (LL4-2023), extended 12 months (LL10-2024), amended again (LL3-2025)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-warwick-2023`
+- **Legal basis:** Local Law No. 4 of 2023, as extended by Local Law No. 10 of 2024 and amended by Local Law No. 3 of 2025; superseded by Local Law #5 of 2026 (permanent BESS regulations)
+- **What prompted it:** 2023 Warwick BESS fire
+- **Affected projects:** —
+- **Detailed status:** Reported expired by industry tracker (2025-06-03); the Town's original 2023 moratorium was extended through 2024 and 2025, then superseded by permanent BESS regulations under Local Law #5 of 2026 (posted 2026-06-29).
+- **Outcome:** Six-month clean-energy-technology/BESS moratorium originally adopted 2023, repeatedly extended, replaced by permanent BESS law in 2026.
+
+### West Bloomfield
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Local Law No. 4 of 2024, adopted on or about 2024-09-11
+- **Normalized date:** `2024-09-11` (exact)
+- **Duration:** Originally 12 months (LL4-2024); extended 6 months by LL3-2025; extended again to 2026-09-11 by LL1-2026
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ny-west-bloomfield-2024`
+- **Legal basis:** Local Law No. 1 of 2026 (extending Local Law No. 4 of 2024 as extended by Local Law No. 3 of 2025)
+- **What prompted it:** Lack of adequate zoning provisions for large-scale solar and large-scale BESS
+- **Affected projects:** —
+- **Detailed status:** Active per Local Law No. 1 of 2026, moratorium extended until 2026-09-11; town continuing to evaluate comprehensive regulations.
+- **Outcome:** Moratorium on large-scale solar and BESS, originally adopted 2024, twice extended (2025 and 2026).
+
+### Westfield
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** Local Law No. 1 of 2024 (original); extended by Local Law No. 1 of 2026, adopted 2026-03-04
+- **Normalized date:** `2024` (year_only)
+- **Duration:** Extended one year by LL1-2026
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-westfield-2024`
+- **Legal basis:** Local Law No. 1 of 2026 (extending Local Law No. 1 of 2024)
+- **What prompted it:** Awaiting state Inter-Agency Fire Safety Working Group final report and completing local environmental/zoning review
+- **Affected projects:** —
+- **Detailed status:** Active; Town Board unanimously adopted Local Law No. 1 of 2026 on 2026-03-04 extending the moratorium on new commercial BESS applications through 2027-03-01.
+- **Outcome:** Moratorium on review/approval of new commercial BESS applications, extended one year.
+
+### Wilton
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** ~June 2026 (twelve-month local law; exact adoption date not confirmed beyond the May 7, 2026 committee-approved draft)
+- **Normalized date:** `2026-06` (month_only)
+- **Duration:** 12 months
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-wilton-2026`
+- **Legal basis:** Local Law (Town of Wilton BESS Moratorium Law, CZRC-approved draft posted 2026-05-07)
+- **What prompted it:** Absence of a comprehensive BESS permitting/zoning framework in Town Code
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23 per industry tracker (expires 2027-06-15); primary source is the CZRC-approved draft local law text, which does not itself show a signed adoption date. [VERIFY instrument number not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Twelve-month moratorium on siting/construction of BESS facilities while the Code and Zoning Revision Committee drafts permanent BESS standards.
+
+### Yonkers
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** General Ordinance 08-2024, adopted 2024-07-16
+- **Normalized date:** `2024-07-16` (exact)
+- **Duration:** 180 days, extended repeatedly by subsequent General Ordinances (01-2025 to 2025-10-31; further extension reported to 2026-03-31)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-yonkers-2024`
+- **Legal basis:** General Ordinance 08-2024, as extended by General Ordinance 01-2025 and General Ordinance 07-2025 (GO.7-2025)
+- **What prompted it:** City retained a consultant to study BESS impacts and draft regulations; work still underway
+- **Affected projects:** —
+- **Detailed status:** Active per industry tracker (expires 2026-03-31); confirmed chain of extensions through 2025-10-31 via primary ordinance text; the further extension to 2026-03-31 was not independently located in primary form.
+- **Outcome:** Temporary moratorium on approvals for BESS, extended multiple times since July 2024.
+
+### Yorktown
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** —
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ny-yorktown-undated`
+- **Legal basis:** Town of Yorktown local law (BESS moratorium); Town Board separately adopted a permanent ban on new Tier 2 BESS on 2025-05-29
+- **What prompted it:** Battery fire safety concerns
+- **Affected projects:** —
+- **Detailed status:** Reported expired by industry tracker (2026-01-14). The Town Board separately voted on 2025-05-29 to permanently prohibit construction of new Tier 2 BESS; whether a distinct, more recent temporary moratorium (matching the tracker's Jan 2026 date) covers other BESS tiers was not independently confirmed. [VERIFY instrument number; duration; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** BESS moratorium reported expired; town has also permanently banned new Tier 2 BESS (May 2025).
 
 ---
 

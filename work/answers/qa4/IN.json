@@ -1,0 +1,114 @@
+{
+  "state_abbrev": "IN",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "in-franklin-county-2025",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.brookvilleindiana.com/story/2026/02/18/news/apc-seeks-moratorium-extension-into-2027/1192.html",
+          "title": "APC seeks moratorium extension into 2027",
+          "publisher": "The Brookville American",
+          "document_date": "2026-02-18",
+          "source_type": "news",
+          "supports": "Confirms the initial (original) moratorium term was two months, and that the Area Plan Commission recommended -- and commissioners later adopted -- a 12-month extension running to Feb. 24, 2027. The original 2-month term (~60 days) is what duration_days should reflect, and it already does.",
+          "quote": "President Robert Braun believed that the (2-month) initial timeframe wasn't nearly long enough and felt an extension was needed. ... the APC chose to give a favorable recommendation to commissioners for a 12-month extension of the data center moratorium that is currently in place until Feb. 24, 2026."
+        },
+        {
+          "url": "https://www.eaglecountryonline.com/news/local-news/franklin-co-commissioners-place-year-long-moratorium-on-data-centers/",
+          "title": "Franklin Co. Commissioners Place Year-Long Moratorium on Data Centers",
+          "publisher": "Eagle Country 99.3",
+          "source_type": "news",
+          "supports": "Confirms commissioners voted unanimously to extend the moratorium through Feb. 24, 2027, matching the row's current_end_date_iso.",
+          "quote": "Franklin County Commissioners have voted unanimously to keep a year-long data center moratorium in place. The moratorium will prevent applications for building a data center until February 24, 2027."
+        }
+      ],
+      "notes": "DURATION_MISMATCH resolved as no change: the duration text's first number (12 months) is the EXTENSION, not the original term; the original moratorium (in place until Feb. 24, 2026, i.e., from about Dec. 24, 2025) was two months, so duration_days=60 already correctly reflects the original term."
+    },
+    {
+      "moratorium_id": "in-grant-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/7682692/Indiana/Grant-County/Grant-County-adopts-24-month-moratorium-on-data-center-permits",
+          "title": "Grant County adopts 24-month moratorium on data-center permits",
+          "publisher": "citizenportal.ai",
+          "document_date": "2026-03-16",
+          "source_type": "news",
+          "supports": "Ordinance 4-2026's operative scope, as adopted March 16, 2026, covers only improvement-location permits and applications for structures connected to data centers; no mention of cryptocurrency mining.",
+          "quote": "The ordinance, approved unanimously, halts issuance or receipt of improvement-location permits and related applications for structures connected to data centers until the Area Planning Commission completes a study and recommends amendments to the county zoning ordinance."
+        },
+        {
+          "url": "https://citizenportal.ai/articles/8097350/indiana/grant-county/grant-county-subcommittee-advances-data-center-ordinance-draft-debates-crypto-inclusion-power-and-noise-limits",
+          "title": "Grant County subcommittee advances data center ordinance draft, debates crypto inclusion, power and noise limits",
+          "publisher": "citizenportal.ai",
+          "document_date": "2026-05-27",
+          "source_type": "news",
+          "supports": "Confirms cryptocurrency mining is only under discussion for the future PERMANENT zoning ordinance the subcommittee is drafting -- not part of the already-adopted temporary moratorium (Ordinance 4-2026) this row tracks; no binding decision to include crypto had been made.",
+          "quote": "The advisory subcommittee discussed whether cryptocurrency mining should be regulated in the same ordinance as data centers or in a separate rule. ... The group agreed to leave language in the draft for now and revisit the issue later when more information is available. ... No formal, binding votes occurred; the subcommittee's edits are advisory."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: cryptocurrency mining is only being debated for a future permanent ordinance, not covered by the currently-effective moratorium (Ordinance 4-2026). sectors stays [\"data_center\"]."
+    },
+    {
+      "moratorium_id": "in-madison-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-06-16",
+          "reason": "News coverage describes the Aug. 4, 2026 action as extending the moratorium 'from six months to a full year' -- i.e., the total term becomes twelve months from the original June 2026 adoption, not twelve months measured from the August extension vote. 2026-06-16 (the row's date_enacted_iso) + 12 months = 2027-06-16."
+        }
+      },
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://indianapublicradio.org/news/2026/08/madison-county-full-year-data-center-moratorium/",
+          "title": "Madison County commissioners extend data center moratorium for full year",
+          "publisher": "Indiana Public Radio",
+          "document_date": "2026-08-04",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 4, 2026 commissioners' vote extended the (originally six-month) data-center moratorium to a full year, following the Planning Commission's recommendation to do so.",
+          "quote": "Commissioners in Madison County have voted to extend a moratorium on data center projects for a full year."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved with an approximate/interpreted date (2027-06-16); no source states the exact new end date numerically, but the reporting is consistent in describing this as converting the original six-month term into a full year from original adoption, matching the row's own current_status."
+    },
+    {
+      "moratorium_id": "in-putnam-county-2025",
+      "outcome": "corrected",
+      "changes": {
+        "sectors": {
+          "from": "[\"solar\", \"data_center\"]",
+          "to": "[\"data_center\",\"solar\",\"wind\"]",
+          "reason": "News coverage of the Nov. 17, 2025 vote and the legal_basis text both confirm the moratorium's operative scope explicitly includes wind energy systems, not just solar and data centers."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://dailyjournal.net/2025/11/24/3-counties-put-moratoriums-on-data-center-projects/",
+          "title": "3 counties put moratoriums on data center projects",
+          "publisher": "Indianapolis Business Journal / Daily Journal",
+          "document_date": "2025-11-24",
+          "source_type": "news",
+          "supports": "Confirms Putnam County's moratorium, as passed, explicitly covers wind energy systems alongside solar and data centers.",
+          "quote": "On Tuesday, Putnam County did just that, passing a one-year moratorium on wind, solar, data centers and small modular nuclear reactor projects."
+        },
+        {
+          "url": "https://www.giant.fm/putnam-county/news/local-news/putnam-county-commissioners-vote-in-favor-of-moratorium-on-solar-farms/",
+          "title": "Putnam County Commissioners vote in favor of moratorium on solar farms",
+          "publisher": "GIANT FM",
+          "source_type": "news",
+          "supports": "Confirms the moratorium as voted 2-1 by commissioners covers solar farms, data centers, and wind energy systems, running until Nov. 17, 2026.",
+          "quote": "urging commissioners to vote in favor of a one year moratorium on solar farms, as well as data centers, wind energy systems, solar energy conservation systems. ... the commissioners voted 2-1 in favor of the moratorium, which will be in place until Nov. 17, 2026."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: wind is expressly part of the moratorium's operative scope (matching the ordinance title already in legal_basis, 'small modular reactors, data centers, solar energy conservation systems, and wind energy systems'), so sectors gains \"wind\". Small modular reactors are not added since 'general'/nuclear is not a listed sector category and is out of scope for this flag."
+    }
+  ]
+}

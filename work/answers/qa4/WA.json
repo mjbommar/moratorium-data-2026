@@ -1,0 +1,258 @@
+{
+  "state_abbrev": "WA",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "wa-black-diamond-2026",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-03-01",
+          "reason": "Ordinance No. 26-1258's own text (Section 3) states the extension 'will remain in effect for a period of six (6) months from the effective date of this Ordinance' and (Section 8) is an emergency ordinance effective immediately upon passage. The ordinance's adoption/signature block reads (OCR-garbled) 'ADOPTED BY THE CITY COUNCIL AT A REGULAR MEETING THEREOF ON THE [1ST] DAY OF SEPTEMBER, 2026,' which a Facebook post from the city government confirms was a Sept. 1, 2026 council meeting. 2026-09-01 plus six months is 2027-03-01."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://blackdiamondwa.gov/DocumentCenter/View/4415",
+          "title": "Ordinance No. 26-1258, Extending Interim Zoning Controls to Prohibit Battery Energy Storage Facilities",
+          "publisher": "City of Black Diamond, WA",
+          "document_date": "2026-09-01",
+          "source_type": "ordinance",
+          "supports": "Section 2 extends the interim zoning controls enacted via Ordinance No. 26-1246 for an additional six months; Section 3 sets the effective period at six months from the ordinance's own effective date; Section 8 makes it an emergency ordinance effective immediately upon passage.",
+          "quote": "Section 3. Effective Period for Interim Zoning Controls. The interim zoning controls imposed in Section 2 will remain in effect for a period of six (6) months from the effective date of this Ordinance and shall automatically expire at the conclusion of that time period unless the same is further extended..."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved: computed current_end_date_iso from the extension ordinance's own six-month effective period and its September 1, 2026 adoption/effective date (an emergency ordinance takes effect immediately upon passage). The Oct. 6, 2026 public hearing referenced in the row's existing text is the post-hoc ratification hearing RCW 35A.63.220/36.70A.390 requires within 60 days of adoption for an interim control adopted without a prior hearing -- it does not delay the ordinance's own effect or the six-month clock, which already runs from Sept. 1, 2026."
+    },
+    {
+      "moratorium_id": "wa-moses-lake-2018",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "sectors": {
+          "from": "[\"cryptocurrency_mining\"]",
+          "to": "[\"cryptocurrency_mining\",\"data_center\"]",
+          "reason": "The primary 2018 news report of the ordinance's passage states its operative scope explicitly: 'The moratorium strictly prohibits new cryptocurrency mining operations, along with data centers and server farms/clusters, in all zones in the city, with the exception of the light industrial and heavy industrial zones.' This matches the row's own legal_basis, which already describes Ordinance 2900 as 'a moratorium on cryptocurrency mining, server farms, and data centers.'"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://columbiabasinherald.com/news/2018/may/28/moses-lake-passes-stop-to-new-cryptocurrency-2/",
+          "title": "Moses Lake passes stop to new cryptocurrency operations",
+          "publisher": "Columbia Basin Herald",
+          "document_date": "2018-05-28",
+          "source_type": "news",
+          "supports": "Confirms the moratorium's operative prohibition, adopted 6-1, covers cryptocurrency mining operations, data centers, and server farms/clusters together, not cryptocurrency mining alone.",
+          "quote": "The moratorium strictly prohibits new cryptocurrency mining operations, along with data centers and server farms/clusters, in all zones in the city, with the exception of the light industrial and heavy industrial zones."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: 'data center' is explicit operative scope of the ordinance itself (not a trigger mention or a separate instrument), so data_center was added to sectors alongside cryptocurrency_mining. This also matches the row's own outcome field, which already notes the permanent successor code (MLMC Ch. 15.615) 'regulates cryptocurrency mining operations, server farms, and data centers.'"
+    },
+    {
+      "moratorium_id": "wa-covington-2024",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-10-25",
+          "reason": "The signed Ordinance No. 02-2026 states 'EFFECTIVE: April 25, 2026' and Section 2 renews the moratorium 'for a period of six months from the effective date of this ordinance.' 2026-04-25 plus six months is 2026-10-25."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://cms2.revize.com/revize/cityofcovington/Ordinance%20No.%2002-2026.pdf?t=20260514192038871&t=20260514192038871",
+          "title": "Ordinance No. 02-2026 (Covington), Renewing Ordinance No. 07-2024 BESS Moratorium",
+          "publisher": "City of Covington, WA",
+          "document_date": "2026-04-14",
+          "source_type": "ordinance",
+          "supports": "Section 2 renews the moratorium for six months from the ordinance's effective date; the signature block gives the exact effective and publication dates.",
+          "quote": "Section 2. Renewal and Effective Period. Ordinance No. 09-2025 is hereby adopted and renewed for a period of six months from the effective date of this ordinance... EFFECTIVE: April 25, 2026 PUBLISHED: April 20, 2026"
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved: the ordinance was passed April 14, 2026 but its stated EFFECTIVE date (per its own signature block) is April 25, 2026, five days after the April 20, 2026 publication date; the six-month clock runs from that effective date, giving 2026-10-25 rather than the row's earlier approximation of 2026-10-14 (which used the passage date instead of the effective date)."
+    },
+    {
+      "moratorium_id": "wa-enumclaw-2025",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-02-24",
+          "reason": "Ordinance No. 2833's own text states the moratorium 'shall be extended for twelve (12) additional months from the expiration date of Ordinance 2806 (expiration February 24, 2026).' 2026-02-24 plus 12 months is 2027-02-24, matching the row's own estimate."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://ecode360.com/EN4429/laws/LF2621887.pdf",
+          "title": "Ordinance No. 2833 (Enumclaw), BESS Moratorium Extension",
+          "publisher": "City of Enumclaw, WA",
+          "document_date": "2026-03-09",
+          "source_type": "ordinance",
+          "supports": "Section 2 states the moratorium is extended 12 additional months from the original Ordinance 2806's February 24, 2026 expiration date.",
+          "quote": "SECTION 2: MORATORIUM IMPOSED. A temporary moratorium is hereby imposed on the acceptance, processing, and approval of applications related to the establishment, expansion, or operation of Battery Energy Storage System (BESS) facilities within the City of Enumclaw. This moratorium shall be extended for twelve (12) additional months from the expiration date of Ordinance 2806 (expiration February 24, 2026), unless extended, modified, or terminated by the City Council."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved directly from the extension ordinance's own operative text."
+    },
+    {
+      "moratorium_id": "wa-kitsap-county-2025",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-12-07",
+          "reason": "Kitsap County's planning manager, presenting the extension ordinance to the Board on May 11, 2026, stated the 180-day extension 'runs from the moratorium's June 10 expiration to Dec. 7, 2026.'"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/8152649/washington/kitsap-county/kitsap-commissioners-extend-moratorium-on-new-battery-storage-applications-amid-safety-environmental-concerns",
+          "title": "Kitsap commissioners extend moratorium on new battery storage applications amid safety, environmental concerns",
+          "publisher": "CitizenPortal.ai (Kitsap County Commissioners meeting recap)",
+          "document_date": "2026-05-11",
+          "source_type": "news",
+          "supports": "States the exact new end date for the 180-day extension of Ordinance 639-2025, adopted by Ordinance 645-2026.",
+          "quote": "The Board voted to extend a county moratorium on new battery energy storage system (BEST) applications 180 days to Dec. 7, 2026... Scott Diener said the extension runs from the moratorium's June 10 expiration to Dec. 7, 2026."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved with an exact date from a primary-adjacent meeting recap quoting county planning staff; matches the row's own approximate estimate (2026-12-08) within a day."
+    },
+    {
+      "moratorium_id": "wa-kittitas-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.75,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-08-10",
+          "reason": "Original emergency moratorium adopted 2026-08-10 for six months; a news report of the Sept. 15/16, 2026 extension states the county's 'approval on a moratorium extension will result in a year-long ban' -- i.e. a second six-month extension tacked onto the same six-month term, for 12 months total from the confirmed 2026-08-10 enactment date. 2026-08-10 plus 12 months is 2027-08-10."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.dailyrecordnews.com/tncms/asset/editorial/566362b5-f165-4501-8e48-c8c57af6aadb/",
+          "title": "Kittitas County OKs proposal to extend data center moratorium",
+          "publisher": "Daily Record (Ellensburg, WA)",
+          "document_date": "2026-09-16",
+          "source_type": "news",
+          "supports": "Confirms the Board approved a six-month extension of its August 2026 emergency six-month moratorium, resulting in a total year-long ban, and that the accompanying five-page work plan runs staff activities through September 2027.",
+          "quote": "Kittitas County commissioners approved a six-month extension Tuesday to its ban on accepting applications for data center projects. Commissioners first approved an emergency six-month moratorium on applications in August. This week's approval on a moratorium extension will result in a year-long ban."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved via computed date (six months plus six months from the confirmed original enactment date) rather than a directly stated calendar end date; a third-party tracker (savrn.com) independently pegged the original single six-month term's end at 'February 12, 2027' (close to the six-months-from-2026-08-10 computation of Feb. 10, 2027, off by two days, likely their own rounding), which is superseded by the September extension. The work plan's 'through September 2027' describes the county's study timeline, not the moratorium's legal expiration, which the news account ties to a 'year-long' total from the confirmed August 2026 start; confidence set to reflect that the exact day of the extension's legal effect (vs. the 'year-long' description) was not independently confirmed against the extension resolution's own text."
+    },
+    {
+      "moratorium_id": "wa-marysville-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://mrsc.org/getmedia/97250b39-93d2-4806-8eb6-3474c06b18c7/m35o3381.pdf",
+          "title": "Marysville Ordinance No. 3381, Data Center Moratorium",
+          "publisher": "City of Marysville, WA (via MRSC)",
+          "document_date": "2026-07-13",
+          "source_type": "ordinance",
+          "supports": "Section 3 states the ORIGINAL moratorium term is six months; Section 6 separately requires a public hearing within 60 days of adoption -- the 60-day figure is a procedural deadline, not the moratorium's duration.",
+          "quote": "SECTION 3. Duration. This moratorium takes effect immediately upon passage by the City Council and approval by the Mayor and remains in effect for six months unless earlier repealed or extended by the City Council... SECTION 6. Public Hearing. A public hearing will be held within sixty days of adoption of this ordinance."
+        }
+      ],
+      "notes": "DURATION_MISMATCH resolved: the ordinance's own Section 3 confirms the ORIGINAL term is six months (180 days), matching duration_days=180 already in the row. The deterministic check's apparent day-count mismatch comes from the 60-day statutory public-hearing deadline (Section 6) elsewhere in the duration text, which is a procedural requirement, not the moratorium's length. No change."
+    },
+    {
+      "moratorium_id": "wa-mount-vernon-2025",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-11-27",
+          "reason": "Ordinance No. 3940 (a work-plan/renewal ordinance for the BESS moratorium) was adopted at the May 27, 2026 City Council meeting, per the council agenda, minutes index, and news coverage describing a six-month extension approved 'Wednesday' (May 27, 2026 was a Wednesday). Six months from 2026-05-27 is 2026-11-27, matching the row's own estimate."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.goskagit.com/news/mount-vernon-council-extends-moratorium-on-bess-facilities/article_7d01d921-5d1a-4598-8e71-7bbec0e0bad7.html",
+          "title": "Mount Vernon council extends moratorium on BESS facilities",
+          "publisher": "Skagit Valley Herald / goskagit.com",
+          "document_date": "2026-05-28",
+          "source_type": "news",
+          "supports": "Confirms the City Council voted Wednesday, May 27, 2026, to extend the BESS moratorium (in place since May 2025) for six months while the city continues developing permanent regulations.",
+          "quote": "MOUNT VERNON — The Mount Vernon City Council voted Wednesday to extend the city's moratorium on battery energy storage systems, or BESS, for six months while the city continues to develop permanent regulations."
+        },
+        {
+          "url": "https://www.mountvernonwa.gov/AgendaCenter/ViewFile/Agenda/_05272026-2204",
+          "title": "Mount Vernon City Council Agenda, May 27, 2026",
+          "publisher": "City of Mount Vernon, WA",
+          "document_date": "2026-05-27",
+          "source_type": "agenda",
+          "supports": "Confirms Ordinance 3940, adopting 'an updated work plan to establish permanent regulations for BESS,' was on the public hearing/adoption agenda for the May 27, 2026 meeting.",
+          "quote": "B. Public Hearing and Approval of Ordinance – Updated Work Plan for Battery Energy Storage Systems (BESS) (Staff is requesting adoption of Ordinance 3940 approving an updated work plan to establish permanent regulations for BESS.)"
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved by computing six months from the confirmed May 27, 2026 adoption date. Could not retrieve Ordinance 3940's own signed PDF text (not yet posted to the city's Municipal Code Amendments page as of this research date, and a NoticeRegistry summary page returned only boilerplate) to confirm an exact stated effective date the way Covington's and Enumclaw's ordinances allowed; relying instead on the news account's 'six months' framing and the confirmed May 27 adoption date, consistent with the row's own prior estimate."
+    },
+    {
+      "moratorium_id": "wa-snohomish-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://lynnwoodtimes.com/2026/08/18/data-center/",
+          "title": "Snohomish County Data Center Moratorium hearing set for...",
+          "publisher": "Lynnwood Times",
+          "document_date": "2026-08-18",
+          "source_type": "news",
+          "supports": "Confirms the county's moratorium runs six months from its June 24, 2026 effective date, expiring by December 25, 2026 absent renewal -- i.e. the ORIGINAL term is six months (180 days), matching duration_days=180.",
+          "quote": "The County's current moratorium is set to last six months from its June 24 effective date and will expire automatically by December 25 unless..."
+        }
+      ],
+      "notes": "DURATION_MISMATCH resolved: independently confirmed the ordinance's original term is six months (180 days) from its June 24, 2026 effective date, matching duration_days=180 already in the row. As with Marysville, the deterministic mismatch flag is best explained by the duration text's own mention of a 60-day public-hearing deadline (a procedural requirement, not the moratorium's length) preceding the 'six-month' language. No change to duration_days. Did not add current_end_date_iso since this row is not yet extended (enacted_status=active, not extended) and the flag concerns duration_days only."
+    },
+    {
+      "moratorium_id": "wa-waterville-2018",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://mrsc.org/stay-informed/mrsc-insight/may-2018/bitcoin-comes-to-washington",
+          "title": "MRSC Insight: Bitcoin Comes to Washington",
+          "publisher": "Municipal Research and Services Center (MRSC)",
+          "document_date": "2018-05",
+          "source_type": "other",
+          "supports": "Contemporaneous 2018 survey of Chelan/Douglas-area jurisdictions' responses to cryptocurrency mining describes Waterville's action only as a moratorium 'on accepting applications for mining operations' -- no mention of data centers as part of the original 2018 action.",
+          "quote": "The Douglas County cities of East Wenatchee and Waterville have recently imposed moratoriums on accepting applications for mining operations, while this April, the county issued a moratorium on the use of cargo containers for cryptocurrency mining in unincorporated areas."
+        },
+        {
+          "url": "https://www.zoneomics.com/code/waterville-WA",
+          "title": "Waterville, WA Zoning Ordinance",
+          "publisher": "Zoneomics (mirror of Waterville Municipal Code)",
+          "document_date": "2026",
+          "source_type": "other",
+          "supports": "Confirms the town's 'Data center' definition (WMC 17.10.175) and permanent zoning treatment came via Ordinance 815 in 2020 -- a separate, later, permanent zoning ordinance, not the original 2018 interim moratorium (Ordinance 792) this row tracks.",
+          "quote": "§ 17.10.165 Cryptocurrency mining. ... § 17.10.175 Data center. ... (Ord. 635 § 1, 2003; Ord. 815 § 3 (Exh. A), 2020)"
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: every 2018-era source describes Waterville's original interim moratorium (Ordinance 792) as covering cryptocurrency-mining applications only. 'Data center' enters the town's code only via Ordinance 815 in 2020 -- a separate, later, permanent zoning ordinance (not this row's tracked instrument), which is exactly the 'separate instrument' case the flag rule excludes. sectors stays [\"cryptocurrency_mining\"]. Not part of the assigned flag, but noting for the record: could not resolve the row's own two pre-existing [VERIFY] markers on Ordinance 792's exact passage date and duration text; no additional primary source for the 2018 ordinance itself was found in this pass beyond what the row already cites.",
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: exact passage date not confirmed; Waterville Municipal Code is hosted on eCode360 (WA4837) which is JS-rendered and did not yield the ordinance table on automated fetch as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "This pass focused on the SECTOR_CHECK flag and did not locate Ordinance 792's own text or an eCode360 ordinance table; the MRSC May 2018 report only confirms the moratorium existed by May 2018, not an exact adoption date."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY: Ordinance 792 PDF not located on Waterville town website as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Same as above -- Ordinance 792's own text (which would state its duration) was not located in this pass."
+        }
+      ]
+    }
+  ]
+}

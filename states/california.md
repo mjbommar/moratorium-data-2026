@@ -3,61 +3,110 @@
 
 Every local infrastructure moratorium in the inventory for California, current through **September 23, 2026**.
 
-**16 instruments** — 10 in force, 1 pending, 5 past.
+**33 instruments** — 22 in force, 2 pending, 9 past.
 
 State policy is tracked separately: **13 actions** (13 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
-| Baldwin Park | City | 2026-03-04 | data center | 🟢 Active |
-| Calipatria | City | Unverified | data center | 🟡 Pending |
+| Arcata | City | 2026-09-16 | data center | 🟢 Active |
+| Baldwin Park | City | 2026-03-04 | data center | 🟢 Extended |
+| Calaveras County | County | 2026-08-25 | data center | 🟢 Active |
+| City of Angels (Calaveras County) | City | 2026-08-18 | data center | 🟢 Active |
 | Coachella | City | 2026-06-04 | data center | ⚪ Replaced |
+| Covina | City | 2025-03 | battery storage | ⚪ Replaced |
 | Desert Hot Springs | City | 2026-06-16 | data center | 🟢 Extended |
 | El Monte | City | 2026-03-18 | data center | 🟢 Extended |
+| Escondido | City | 2026-08-26 | data center | 🟢 Active |
+| Eureka | City | 2026-09-01 | data center | 🟢 Active |
+| Gilroy | City | 2026-09-14 | data center | 🟢 Active |
+| Humboldt County | County | Unverified | data center | 🟡 Pending |
 | Imperial | City | 2026-06-03 | data center, battery storage | 🟢 Extended |
 | Imperial County | County | 2026-06-17 | data center | 🔴 Rescinded |
 | Indio | City | 2026-06-03 | data center | 🟢 Extended |
 | Irwindale | City | Unverified | data center | ⚪ Replaced |
+| Lake Elsinore | City | 2026-08-25 | data center | 🟢 Active |
 | Los Angeles County | County | 2026-09-17 | data center | 🟢 Active |
+| Mendocino County | County | 2026-09-01 | data center, cryptocurrency mining | 🟢 Active |
 | Montebello | City | 2026-02-11 | data center | ⚪ Expired |
 | Monterey Park | City | 2026-01-21 | data center | ⚪ Replaced |
+| Morgan Hill | City | 2026-08-26 | data center, battery storage | 🟢 Active |
+| Morro Bay | City | 2025-01-28 | battery storage | 🟢 Extended |
 | Oakley | City | 2026-04-14 | data center | 🟢 Extended |
+| Orange County | County | 2025-01-28 | battery storage | ⚪ Replaced |
 | Palm Springs | City | 2026-08-26 | data center | 🟢 Active |
 | Patterson | City | 2026-07-16 | data center | 🟢 Extended |
 | Richmond | City | 2026-09-15 | data center | 🟢 Active |
+| San Francisco | City | Unverified | data center | 🟡 Pending |
+| San Juan Capistrano | City | 2025-03-18 | battery storage | 🟢 Active |
+| Solano County | County | 2024-01-23 | battery storage | ⚪ Replaced |
+| Tulare County | County | 2026-08-18 | data center | 🟢 Extended |
+| Vacaville | City | 2024-05-14 | battery storage | ⚪ Replaced |
 
 ## Detailed entries
+
+### Arcata
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-09-16 (City Council, 5-0), Ordinance No. 1594
+- **Normalized date:** `2026-09-16` (exact)
+- **Duration:** 45-day interim urgency ordinance; extendable 10 months 15 days, then up to 12 more months
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ca-arcata-2026`
+- **Legal basis:** Ordinance No. 1594 (Govt. Code 65858) moratorium on new data center land use applications
+- **What prompted it:** No zoning definition for data centers; concern over scarce industrial land/resources; recent reports of a proposed 30,000-50,000 sq ft facility locally; existing small EdgeConneX colocation facility unaffected.
+- **Affected projects:** Existing 10,000 sq ft EdgeConneX colocation facility (fiber terminal) is legally permitted/operating and unaffected.
+- **Detailed status:** Active as of 2026-09-23. Adopted 5-0 on 2026-09-16, effective immediately for 45 days; staff to report back by Oct. 21 (day 35).
+- **Outcome:** Staff evaluating land-use definitions, environmental impacts, infrastructure capacity, and regulatory models.
 
 ### Baldwin Park
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** 2026-03-04, Baldwin Park City Council adoption of an urgency ordinance establishing a 45-day moratorium; extended following a 2026-04-15 public hearing
 - **Normalized date:** `2026-03-04` (exact)
-- **Duration:** Initial 45 days from 2026-03-04; extended following an April 15, 2026 public hearing under Gov. Code section 65858, bringing the total pause to approximately one year ('yearlong ban') per regional reporting.
-- **Current end date:** `—`
+- **Duration:** Initial 45 days from 2026-03-04; on 2026-04-15 the City Council held a public hearing and extended the urgency ordinance for an additional 10 months and 15 days under Gov. Code section 65858 -- the standard first extension under that statute -- bringing the pause to one year from original adoption (through approximately 2027-03-04).
+- **Current end date:** `2027-03-04`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-baldwin-park-2026`
 - **Legal basis:** Urgency ordinance adopted under California Gov. Code section 65858, extended via public hearing on 2026-04-15 (exact extension ordinance number not located in this pass)
 - **What prompted it:** Regional San Gabriel Valley wave of data center moratoria/bans (Monterey Park, El Monte, Montebello); city seeking time to study impacts and develop zoning standards for data center uses before any application is filed.
 - **Affected projects:** None identified.
-- **Detailed status:** Active as of 2026-09-23. A 45-day urgency moratorium on new data centers was adopted March 4, 2026 and extended (public hearing April 15, 2026) to a yearlong pause, per the City's own social media announcement and an official Coachella city staff presentation citing regional precedents. A September 2026 CNS/ABC7 regional roundup on the new LA County ordinance still describes Baldwin Park (with El Monte) as having 'voted to implement a yearlong ban on data centers proposed within their city limits,' indicating the pause remained a live reference point as of that date; no adoption of a permanent ordinance or rescission was found in this pass.
+- **Detailed status:** Extended, active as of 2026-09-23. The original 45-day urgency moratorium (adopted 2026-03-04) was extended on 2026-04-15 for 10 months and 15 days under Gov. Code section 65858, bringing the pause through approximately 2027-03-04. Confirmed by a City of Coachella staff report citing the Baldwin Park action as regional precedent and by a citizenportal.ai report that the Council 'approved an urgency ordinance (one-reading) extending a moratorium on approval, establishment or operation of data centers' unanimously (3-0). No adoption of permanent zoning regulations, rescission, or further extension beyond the one-year mark was found in this pass; the exact extension-ordinance number was not located.
 - **Outcome:** 45-day moratorium adopted and extended to approximately one year while the city develops data-center zoning standards.
 
-### Calipatria
+### Calaveras County
 
-- **Type:** City
-- **Status:** 🟡 Pending
-- **Date enacted:** —
-- **Normalized date:** `—` (unverified)
-- **Duration:** The originally proposed five-year (1,825-day) interim urgency moratorium (introduced 2026-05-12) was never brought back for a formal adoption vote. Instead, the City Council pivoted to pursuing a permanent prohibition: on 2026-07-14 the Council voted 3-2 (Chavez and Amezcua dissenting) to advance a resolution/ordinance permanently prohibiting the establishment and operation of data centers within city limits, directing staff to publish the full ordinance text and schedule a public hearing. As of a September 2026 public statement by Mayor Michael Luellen, staff had still not brought the drafted permanent ban back to the Council for a final vote.
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-08-25 (Board of Supervisors adopted 4-0, chair absent; signed/issued 2026-08-28)
+- **Normalized date:** `2026-08-25` (exact)
+- **Duration:** 45-day urgency ordinance; extendable up to two years total under Gov. Code 65858
 - **Current end date:** `—`
 - **Sectors:** data center
-- **Moratorium ID:** `ca-calipatria-undated`
-- **Legal basis:** Proposed ordinance; City Council voted 4-0 on 2026-05-12 to advertise and hold formal public hearings
-- **What prompted it:** Proposed pause on new large-scale data center development pending a formal hearing process
-- **Affected projects:** —
-- **Detailed status:** Still pending/unresolved as of 2026-09-23. The original five-year moratorium proposal was never adopted. On 2026-07-14 the City Council voted 3-2 to advance a permanent citywide data-center ban and directed staff to prepare the full ordinance for a public hearing; that item had not returned to the Council for a final vote as of a public statement by Mayor Michael Luellen (undated, September 2026 context), who listed 'Data center ban: Requests to present a permanent data center ban to the council have not been fulfilled' among directives he says city staff has left unaddressed for months. No instrument number, hearing date, or adoption exists to confirm. [VERIFY instrument number; adoption date still unconfirmed]
+- **Moratorium ID:** `ca-calaveras-county-2026`
+- **Legal basis:** Urgency ordinance (Govt. Code 65858), countywide moratorium on data centers
+- **What prompted it:** Planning Director said large-scale data centers warrant further study on water, electricity, noise, lighting impacts; no application on file.
+- **Affected projects:** No pending application; proactive measure.
+- **Detailed status:** Active as of 2026-09-23. Adopted 4-0 (Chair Stopper absent) on 2026-08-25; runs 45 days to 2026-10-09, extendable up to two years while county studies impacts.
+- **Outcome:** County staff to study data center impacts and return with recommendations, possibly a permanent ban.
+
+### City of Angels (Calaveras County)
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-08-18 (City Council, 5-0), Ordinance 559
+- **Normalized date:** `2026-08-18` (exact)
+- **Duration:** 45-day urgency ordinance; extension to 10 months 15 days proposed at 2026-09-15 hearing
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ca-city-of-angels-calaveras-county-2026`
+- **Legal basis:** Ordinance 559 (Govt. Code 65858), moratorium on data center land use entitlements
+- **What prompted it:** No regulatory framework for data centers in city zoning code; text substantially adapted from the City of Coachella's ordinance.
+- **Affected projects:** None named.
+- **Detailed status:** Active as of 2026-09-23. Adopted 5-0 on 2026-08-18, 45 days, set to expire 2026-10-02. A staff report for the 2026-09-15 Council meeting recommended adopting Ordinance 560 to extend the moratorium through 2027-08-17 (10 months 15 days); whether that extension was actually adopted was not confirmed in this pass.
 - **Outcome:** —
 
 ### Coachella
@@ -75,6 +124,22 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Affected projects:** A large proposed data center project tied to a power agreement with 'Stronghold'; project reported terminated by the city (per NBC Palm Springs, 'Coachella City Council Halts Data Center Project, Cuts Ties with Stronghold,' 2026-06-05)
 - **Detailed status:** Replaced as of 2026-09-23. The City Council adopted Ordinance No. 1231 on 2026-08-26 (second reading), permanently prohibiting data center uses citywide (with limited exceptions for accessory server/IT rooms); effective 2026-09-25, thirty days after adoption. Mayor Figueroa has also voiced support for a future ballot measure to entrench the ban, but no such measure had been placed on a ballot as of this pass.
 - **Outcome:** Moratorium adopted (Ord. 1229) and extended 10 months 15 days (Ord. 1230); superseded by a permanent citywide prohibition on data centers (Ord. 1231), adopted 2026-08-26 and effective 2026-09-25. Coachella is the first Coachella Valley city and second California city (after Monterey Park) to permanently ban data centers.
+
+### Covina
+
+- **Type:** City
+- **Status:** ⚪ Replaced
+- **Date enacted:** 2025-03 (approx.; Ordinance 25-01, 45 days), extended by Ordinance 25-04 (effective 2025-05-06, through 2026-05-06)
+- **Normalized date:** `2025-03` (month_only)
+- **Duration:** 45-day urgency ordinance extended 10 months 15 days; repealed early by permanent zoning ordinance
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ca-covina-2025`
+- **Legal basis:** Ordinance 25-01 (original), extended by Ordinance 25-04; repealed and replaced by Ordinance 25-10 (Zoning Code Amendment ZCA 25-2), introduced 2025-09-02
+- **What prompted it:** Inquiries about siting BESS in the industrial area; city zoning code had no BESS land-use category.
+- **Affected projects:** 522, 534 & 680 Edna Place BESS project under Planning Commission review by June 2026.
+- **Detailed status:** Replaced. The moratorium (Ordinance 25-01, extended by 25-04 through May 2026) was repealed ahead of schedule when the Council introduced Ordinance 25-10 on 2025-09-02, adding a BESS definition and making BESS a conditionally permitted use in the M-1 Light Manufacturing zone and repealing Ordinance 25-04; the Planning Commission had recommended this 5-0-0 on 2025-08-12. Effective date of the permanent ordinance not independently confirmed in this pass, but the city was actively processing a BESS project application (522/534/680 Edna Place) by mid-2026, confirming the moratorium had ended. [VERIFY details not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Permanent BESS zoning regulations (M-1 conditional use) in effect.
 
 ### Desert Hot Springs
 
@@ -99,7 +164,7 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Date enacted:** 2026-03-18 (Interim Urgency Ordinance No. 3063, adopted by a 7-0 vote at a Concurrent Special Meeting, per published City Council minutes); extended by Interim Urgency Ordinance No. 3065, adopted by a 7-0 vote at the Regular Meeting of 2026-04-22 following a public hearing and receipt of the Gov. Code section 65858(d) report, per published minutes
 - **Normalized date:** `2026-03-18` (exact)
 - **Duration:** Initial 45 days (Ord. 3063, term would have run through approximately 2026-05-02); extended 10 months and 15 days by Ord. 3065, adopted 2026-04-22. Under Gov. Code section 65858(a), the initial ordinance plus this first extension together cannot exceed one year from initial adoption, placing the current expiration at approximately 2027-04-13/14 (45 days + 10 months 15 days = 12 months from 2026-03-18). The exact date is not stated verbatim in the minutes reviewed and is calculated from the statutory ceiling, not quoted from a source.
-- **Current end date:** `—`
+- **Current end date:** `2027-03-17`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-el-monte-2026`
 - **Legal basis:** Interim Urgency Ordinance No. 3063; extension Interim Urgency Ordinance No. 3065; Gov. Code section 65858
@@ -107,6 +172,70 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Affected projects:** No specific project identified in captured records
 - **Detailed status:** Active as of 2026-09-23. A Sept. 17-18, 2026 CNS/ABC7 report on the new LA County unincorporated-area data center prohibition describes El Monte (along with Baldwin Park) as having 'voted to implement a yearlong ban on data centers proposed within their city limits' in late April 2026, consistent with this row's Ord. 3063/3065 term reaching the Gov. Code 65858(a) one-year ceiling. No rescission, expiration, or permanent-ordinance replacement was found in sources reviewed through 2026-09-23.
 - **Outcome:** Extension ordinance proposed to maintain the pause while the city studies permanent controls
+
+### Escondido
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-08-26 (City Council unanimous, 5-0)
+- **Normalized date:** `2026-08-26` (exact)
+- **Duration:** 45-day urgency ordinance; extendable 10 months 15 days, then up to one more year
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ca-escondido-2026`
+- **Legal basis:** Urgency ordinance (Govt. Code 65858) prohibiting new data centers and expansions
+- **What prompted it:** Proactive measure; no pending applications. Impacts cited: water, electricity/grid, land footprint, noise, tax/job tradeoffs.
+- **Affected projects:** None; no active or pending data center applications at adoption.
+- **Detailed status:** Active as of 2026-09-23. Adopted 5-0 on 2026-08-26; staff expected to report back by Oct. 10 with findings; can be extended 10 months 15 days, then up to one more year.
+- **Outcome:** Staff researching permanent regulatory options.
+
+### Eureka
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-09-01 (Bill No. 1061-C.S.)
+- **Normalized date:** `2026-09-01` (exact)
+- **Duration:** 45-day interim ordinance; extendable 10 months 15 days, then up to one more year (max 2 years)
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ca-eureka-2026`
+- **Legal basis:** Bill No. 1061-C.S. (interim ordinance, Govt. Code 65858), covers inland and coastal zones
+- **What prompted it:** No projects proposed; grid/electricity, water, noise, carbon footprint, coastal water-quality effects studied.
+- **Affected projects:** None proposed at adoption.
+- **Detailed status:** Active as of 2026-09-23. Adopted unanimously 2026-09-01, effective immediately for 45 days to 2026-10-16; extendable.
+- **Outcome:** Staff and Planning Commission to study zoning/regulatory controls.
+
+### Gilroy
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-09-14 (City Council unanimous)
+- **Normalized date:** `2026-09-14` (exact)
+- **Duration:** 45-day interim urgency ordinance; extendable in two phases up to two years total
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ca-gilroy-2026`
+- **Legal basis:** Interim urgency ordinance (Govt. Code 65858) prohibiting new data center applications/entitlements
+- **What prompted it:** Received a pre-application from Amazon for a possible second facility (no formal application filed); existing Amazon data center under construction is not affected.
+- **Affected projects:** Does not affect the already-approved Amazon (AWS) data center under construction in northeast Gilroy; covers any future application including a possible second AWS facility.
+- **Detailed status:** Active as of 2026-09-23. Adopted unanimously 2026-09-14, effective immediately for 45 days; staff to report back before expiration.
+- **Outcome:** City to develop objective zoning/siting/operational standards for data centers.
+
+### Humboldt County
+
+- **Type:** County
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Proposed one-year moratorium; not yet adopted as of 2026-09-23
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ca-humboldt-county-undated`
+- **Legal basis:** —
+- **What prompted it:** Board directed staff on 2026-07-15 to prepare a one-year data center moratorium ordinance, choosing a moratorium over a permanent ban partly because of an existing small data center (trans-Pacific cable landing point) in Arcata.
+- **Affected projects:** —
+- **Detailed status:** Pending as of 2026-09-23. Board of Supervisors directed staff on 2026-07-15 to draft a one-year moratorium; no adopted ordinance was found in this pass, more than two months later. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** —
 
 ### Imperial
 
@@ -169,8 +298,24 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Legal basis:** Draft Urgency Ordinance 819 (proposed 45-day moratorium, scheduled for a 2026-05-27 hearing; disposition unconfirmed) was superseded by Ordinance No. 821, adding Chapter 17.42 to Title 17 (Zoning) of the Irwindale Municipal Code to permanently prohibit the establishment and operation of AI data centers citywide; first reading 2026-08-26, adopted 2026-09-09 (unanimous), effective 2026-10-09.
 - **What prompted it:** Proposed pause on new and converted data center applications
 - **Affected projects:** —
-- **Detailed status:** Replaced as of 2026-09-23. Whether Draft Urgency Ordinance 819 (the proposed 45-day moratorium) was ever formally adopted at the 2026-05-27 hearing could not be confirmed in this pass either; no news coverage or minutes referencing Ordinance 819's disposition were located. What is confirmed is that the City subsequently directed staff and legal counsel to prepare a permanent prohibition: the City Council unanimously approved Ordinance No. 821, adding Chapter 17.42 (Artificial Intelligence (AI) Data Centers & Associated Uses) to the Irwindale Municipal Code, on first reading 2026-08-26 and second reading/final adoption 2026-09-09; the ordinance takes effect 2026-10-09. This permanent citywide prohibition resolves the pending question regardless of Ordinance 819's status.
+- **Detailed status:** Replaced as of 2026-09-23. Whether Draft Urgency Ordinance 819 (the proposed 45-day moratorium) was ever formally adopted at the 2026-05-27 hearing could not be confirmed in this pass either; no news coverage or minutes referencing Ordinance 819's disposition were located. What is confirmed is that the City subsequently directed staff and legal counsel to prepare a permanent prohibition: the City Council unanimously approved Ordinance No. 821, adding Chapter 17.42 (Artificial Intelligence (AI) Data Centers & Associated Uses) to the Irwindale Municipal Code, on first reading 2026-08-26 and second reading/final adoption 2026-09-09; the ordinance takes effect 2026-10-09. This permanent citywide prohibition resolves the pending question regardless of Ordinance 819's status. [VERIFY adoption of Ordinance 819 not confirmed in the 2026-09 QA pass; CivicClerk event has no minutes]
 - **Outcome:** —
+
+### Lake Elsinore
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-08-25 (City Council unanimous)
+- **Normalized date:** `2026-08-25` (exact)
+- **Duration:** 45-day emergency ordinance; extendable up to two years total
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ca-lake-elsinore-2026`
+- **Legal basis:** Emergency ordinance (Govt. Code 65858) pausing new data center applications/entitlements
+- **What prompted it:** Requested by Councilmember Steve Manos after resident concerns; city zoning code does not specifically address data centers.
+- **Affected projects:** V22 Investments LLC's Elsinore Heights Industrial Project withdrew its optional data-center use component separately, around the same time; the overall project remains under review.
+- **Detailed status:** Active as of 2026-09-23. Adopted unanimously 2026-08-25, effective immediately for 45 days.
+- **Outcome:** City studying scale/impacts before determining regulatory approach.
 
 ### Los Angeles County
 
@@ -187,6 +332,22 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Affected projects:** No hyperscale data centers currently sited in unincorporated county areas as of the memo; about 74 data centers operate elsewhere within LA County (mostly in incorporated cities), unaffected by the county action.
 - **Detailed status:** Active as of 2026-09-23. On Sept. 17, 2026, LA County's Department of Regional Planning director issued a memorandum imposing an immediate, interim prohibition on new hyperscale AI data center development in all zones of unincorporated county territory (about 1 million of the county's 10 million residents), pending Board of Supervisors adoption of a formal ordinance. A motion to formally initiate that ordinance was on the agenda for a Sept. 23, 2026 Community Services Cluster Agenda Review meeting, with Board consideration expected around Oct. 6, 2026. Smaller enterprise/accessory/sole-source data centers are not covered by the prohibition.
 - **Outcome:** Interim administrative ban imposed via Regional Planning Director memorandum while the Board of Supervisors moves to adopt a permanent zoning ordinance banning hyperscale AI data centers in unincorporated areas.
+
+### Mendocino County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-09-01 (Board of Supervisors, 5-0)
+- **Normalized date:** `2026-09-01` (exact)
+- **Duration:** 45-day urgency ordinance; extendable
+- **Current end date:** `—`
+- **Sectors:** data center, cryptocurrency mining
+- **Moratorium ID:** `ca-mendocino-county-2026`
+- **Legal basis:** Urgency ordinance barring new data centers (hyperscale, colocation, cloud, AI training/inference, HPC, crypto mining) in the unincorporated county
+- **What prompted it:** County code does not define or regulate data centers, so one could be approved via routine building permit; no applicant named.
+- **Affected projects:** None named.
+- **Detailed status:** Active as of 2026-09-23. Adopted 5-0 on 2026-09-01, effective immediately for 45 days to 2026-10-16.
+- **Outcome:** —
 
 ### Montebello
 
@@ -220,6 +381,38 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Detailed status:** Active; permanent citywide data center prohibition in place. Measure NDC passed at the June 2, 2026 special election (10,388 Yes / 1,372 No, per the LA County Registrar-Recorder's certified canvass); results certified by the City Clerk on June 30, 2026 and declared by City Council Resolution No. 2026-R56 on July 1, 2026 (unanimous, 5-0). Companion Ordinance No. 2280 (General Plan amendment prohibiting all data centers citywide) was adopted by Council on July 2, 2026, effective on or about July 11, 2026 (10 days after election-result certification, per Elections Code section 9217).
 - **Outcome:** Moratorium extended through 2027-01-21 (superseded in practice by permanent action); permanent citywide prohibition codified by ordinance on 2026-04-20; voters ratified the prohibition via Measure NDC on 2026-06-02 (10,388 Yes / 1,372 No), with results certified July 1, 2026 and companion Ordinance No. 2280 adopted July 2, 2026.
 
+### Morgan Hill
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-08-26 (City Council unanimous)
+- **Normalized date:** `2026-08-26` (exact)
+- **Duration:** 45-day interim urgency ordinance; extendable in two phases up to two years total
+- **Current end date:** `—`
+- **Sectors:** data center, battery storage
+- **Moratorium ID:** `ca-morgan-hill-2026`
+- **Legal basis:** Interim urgency ordinance (Govt. Code 65858) blocking new data center and grid-scale BESS applications
+- **What prompted it:** No zoning standards specific to either use; concern over loopholes like Gilroy's staff-level AWS approval; industrial zones close to residential areas.
+- **Affected projects:** None named.
+- **Detailed status:** Active as of 2026-09-23. Adopted unanimously 2026-08-26, effective immediately for 45 days.
+- **Outcome:** —
+
+### Morro Bay
+
+- **Type:** City
+- **Status:** 🟢 Extended
+- **Date enacted:** 2025-01-28 (Urgency Ordinance No. 668); extended by Ordinance No. 670 on 2025-02-25 to 2027-01-28 (two years total)
+- **Normalized date:** `2025-01-28` (exact)
+- **Duration:** 45-day urgency ordinance extended to a total of two years
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ca-morro-bay-2025`
+- **Legal basis:** Urgency Ordinance No. 668, extended by Urgency Ordinance No. 670, prohibiting grid-scale BESS application acceptance/approval/operation within city limits
+- **What prompted it:** Public safety concerns after Moss Landing battery fires; prior Vistra 600 MW BESS proposal on the former power plant site (application withdrawn 2025).
+- **Affected projects:** Vistra Corp. 600 MW BESS proposal (application withdrawn/paused; Vistra pursuing state AB 205 Opt-In Certification instead).
+- **Detailed status:** Active as of 2026-09-23; expires 2027-01-28. The City is now separately considering an outright permanent ban on grid-scale BESS to replace the temporary pause (Planning Commission recommended a ban to Council in September 2026; Council has not yet acted).
+- **Outcome:** City considering permanent BESS regulations or outright ban.
+
 ### Oakley
 
 - **Type:** City
@@ -235,6 +428,22 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Affected projects:** Bridgehead Industrial Project removed data center as a permissible use before approval
 - **Detailed status:** Active as of 2026-09-23. The May 12, 2026 extension (10 months 15 days, 5-0 vote) runs the moratorium through 2027-04-14, per City Attorney Derek Cole's public statements. A joint City Council/Planning Commission work session was held 2026-07-21 (confirmed via the city's own posted staff report) to gather input on whether/where data centers should be allowed; no formal action was taken at that session, and the Mayor and staff indicated a goal of introducing permanent zoning standards 'by the end of this year' (2026). No permanent ordinance had been adopted and no further extension or rescission was found in sources reviewed through 2026-09-23.
 - **Outcome:** Staff and Planning Commission to study impacts, gather public input, and draft zoning regulations
+
+### Orange County
+
+- **Type:** County
+- **Status:** ⚪ Replaced
+- **Date enacted:** 2025-01-28 (Board of Supervisors, unanimous)
+- **Normalized date:** `2025-01-28` (exact)
+- **Duration:** 45-day urgency ordinance, extended 10 months 15 days on 2025-03-11 (to 2026-01-26); replaced by permanent ordinance effective 2025-12-04
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ca-orange-county-2025`
+- **Legal basis:** Interim urgency ordinance (approved via Supplemental Item #S32A, 2025-01-28); extended via Supplemental Item #S33E (2025-03-11); replaced by Ordinance 25-017 (Zoning Code Amendment CA 24-03), adopted by Board 2025-11-04, effective 2025-12-04
+- **What prompted it:** Board directed staff on 2024-10-08 to draft BESS development standards.
+- **Affected projects:** —
+- **Detailed status:** Replaced. The 45-day moratorium adopted 2025-01-28 was extended 10 months 15 days on 2025-03-11 (to expire 2026-01-26); the Board adopted permanent BESS development standards (Ordinance 25-017) on 2025-11-04, effective 2025-12-04, superseding the moratorium before its stated expiration.
+- **Outcome:** Permanent BESS development guidelines and standards in effect for unincorporated Orange County as of 2025-12-04.
 
 ### Palm Springs
 
@@ -259,7 +468,7 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Date enacted:** 2026-07-16, Patterson City Council adoption of an initial 45-day moratorium; extended by unanimous (4-0) vote on 2026-08-18
 - **Normalized date:** `2026-07-16` (exact)
 - **Duration:** Initial 45 days from 2026-07-16; extended by a 4-0 City Council vote on 2026-08-18 through 2027-07-15. State law caps the total moratorium period at two years.
-- **Current end date:** `—`
+- **Current end date:** `2027-07-15`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-patterson-2026`
 - **Legal basis:** Temporary urgency moratorium ordinance on data center construction, adopted 2026-07-16 and extended by City Council vote 2026-08-18 (exact ordinance numbers not located in this pass)
@@ -283,6 +492,86 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Affected projects:** None; city reported no pending data center applications.
 - **Detailed status:** Active as of 2026-09-23. 45-day urgency moratorium adopted 2026-09-15, prohibiting the establishment, construction, conversion, or expansion of any data center citywide (with an exception for subordinate-use data/server rooms and existing lawfully-operating facilities). No pending data center applications were reported by the city as of adoption. Richmond is described as the second city in Contra Costa County (after Oakley) to adopt a data center moratorium.
 - **Outcome:** 45-day urgency moratorium adopted while staff studies potential regulations and permanent zoning standards for data centers.
+
+### San Francisco
+
+- **Type:** City
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Proposed 45-day moratorium; introduced but not adopted as of 2026-09-23
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ca-san-francisco-undated`
+- **Legal basis:** Proposed urgency ordinance introduced by Supervisor Shamann Walton (co-sponsors Chan, Fielder, Chen) on 2026-09-14/15
+- **What prompted it:** Data centers regulated under a 2001 'internet service exchange' Planning Code definition predating generative AI; concern over water, energy, pollution, noise impacts especially in Bayview/SoMa.
+- **Affected projects:** —
+- **Detailed status:** Pending as of 2026-09-23. Introduced 2026-09-14/15; as of 2026-09-22 press coverage still described it as 'just proposed,' not yet voted on by the Board of Supervisors. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** —
+
+### San Juan Capistrano
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2025-03-18 (second extension, Urgency Ordinance No. 1124, extending Ordinance No. 1116)
+- **Normalized date:** `2025-03-18` (exact)
+- **Duration:** Series of urgency-ordinance extensions of an original BESS moratorium (Ordinance No. 1116); current status as of the 2026 extension/expiration not independently confirmed
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ca-san-juan-capistrano-2025`
+- **Legal basis:** Urgency Ordinance No. 1116 (original), extended by No. 1119 and No. 1124 (2025-03-18), prohibiting new commercial BESS
+- **What prompted it:** Opposition to a proposed BESS project in the city (referenced in Orange County Supervisor Foley correspondence).
+- **Affected projects:** Compass Energy Storage Project (suspended at the state level, January 2026).
+- **Detailed status:** Status as of 2026-09-23 uncertain. City documents confirm the moratorium was extended at least twice, most recently by Ordinance No. 1124 (2025-03-18). Trackers disagree on the current end date (eticaag: 2026-04-01; carina.energy's California BESS page, updated September 2026, describes San Juan Capistrano as 'previously reported as expired, has been reclassified as active' after data verification, and notes the underlying Compass Energy Storage project was suspended at the state level in January 2026 while 'the underlying moratorium ordinance remains in effect.' The city's own BESS overview page (DocumentCenter links) returned 404s during this research pass and could not be used to confirm the current status directly. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Outcome:** —
+
+### Solano County
+
+- **Type:** County
+- **Status:** ⚪ Replaced
+- **Date enacted:** 2024-01-23 (Board of Supervisors)
+- **Normalized date:** `2024-01-23` (exact)
+- **Duration:** Two-year urgency pause on large-scale BESS project approvals, replaced by permanent ordinance
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ca-solano-county-2024`
+- **Legal basis:** Urgency ordinance (extended 2024-02-27) enacting a pause on large-scale BESS approvals; replaced by a permanent BESS zoning ordinance adopted 2025-08-26
+- **What prompted it:** Safety concerns near the Vaca-Dixon substation in Vacaville; farmland protection.
+- **Affected projects:** —
+- **Detailed status:** Replaced. The two-year moratorium adopted 2024-01-23 (extended 2024-02-27) was superseded when the Board of Supervisors adopted permanent BESS zoning regulations on 2025-08-26.
+- **Outcome:** Permanent BESS zoning ordinance in effect as of 2025-08-26.
+
+### Tulare County
+
+- **Type:** County
+- **Status:** 🟢 Extended
+- **Date enacted:** 2026-08-18 (Board of Supervisors, 4-1, Townsend dissenting); extended 5-0 on 2026-09-22 by 10 months 15 days
+- **Normalized date:** `2026-08-18` (exact)
+- **Duration:** 45-day urgency ordinance, extended 10 months 15 days on 2026-09-22
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ca-tulare-county-2026`
+- **Legal basis:** Interim ordinance (Govt. Code 65858) on acceptance/processing/approval of permits for large-scale data centers in unincorporated county
+- **What prompted it:** Triggered by Global Stack USA edge-computing proposal at the county fairgrounds; groundwater/SGMA limits, electricity demand, land use, generator noise.
+- **Affected projects:** Global Stack USA edge-node proposal at county fairgrounds.
+- **Detailed status:** Active as of 2026-09-23. Adopted 4-1 on 2026-08-18 (45 days); extended 5-0 on 2026-09-22 by 10 months 15 days to 2027-08-17, the maximum extension available without seeking a further extension. Supervisors separately took a 3-2 position opposing data center development countywide with an exception for enterprise facilities.
+- **Outcome:** Staff continuing study of zoning, CUP, setback, noise, water/energy and backup-power standards.
+
+### Vacaville
+
+- **Type:** City
+- **Status:** ⚪ Replaced
+- **Date enacted:** 2024-05-14 (City Council, 6-1)
+- **Normalized date:** `2024-05-14` (exact)
+- **Duration:** 45-day urgency ordinance extended repeatedly over ~2 years until replaced by permanent regulations
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ca-vacaville-2024`
+- **Legal basis:** Interim urgency ordinance (Govt. Code 65858) prohibiting grid-scale BESS applications; repealed and replaced by a permanent BESS zoning ordinance adopted 2026-03-10
+- **What prompted it:** Council concern about BESS development without adequate land-use policies/standards; ongoing L&T feasibility study on energy hubs.
+- **Affected projects:** A proposed Menard Energy lithium-ion BESS project at the former Gibson Canyon Creek Wastewater Treatment Plant parcel was not extended/approved under the new ordinance.
+- **Detailed status:** Replaced. Moratorium adopted 2024-05-14 and extended repeatedly; on 2026-03-10 the City Council unanimously adopted a permanent BESS ordinance (disallowing lithium-ion chemistry, allowing only non-lithium BESS at one parcel, 500-ft setbacks), superseding the moratorium.
+- **Outcome:** Permanent BESS zoning ordinance in effect as of 2026-03-10.
 
 ---
 

@@ -3,7 +3,7 @@
 
 Every local infrastructure moratorium in the inventory for South Carolina, current through **September 23, 2026**.
 
-**14 instruments** — 12 in force, 1 pending, 1 past.
+**16 instruments** — 14 in force, 1 pending, 1 past.
 
 State policy is tracked separately: **7 actions** (7 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -16,12 +16,14 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 | Colleton County | County | 2026-07-06 | data center, battery storage | ⚪ Replaced |
 | Fairfield County | County | 2026-09-14 | data center | 🟢 Active |
 | Greenwood County | County | 2026-07-21 | data center | 🟢 Active |
+| Jasper County | County | 2026-09-21 | data center, cryptocurrency mining | 🟢 Active |
 | Kershaw County | County | 2026-09-22 | data center, cryptocurrency mining | 🟢 Active |
 | Laurens County | County | 2026-09-14 | data center | 🟢 Active |
+| Mount Pleasant | Town | Unverified | data center | 🟡 Pending |
 | Newberry County | County | 2026-06-05 | data center | 🟢 Active |
 | Orangeburg County | County | 2026-09-08 | data center, cryptocurrency mining | 🟢 Active |
 | Spartanburg County | County | 2026-09-21 | data center | 🟢 Active |
-| Sumter County | County | 2026-06-23 | data center, battery storage, solar | 🟡 Pending |
+| Sumter County | County | 2026-08-11 | data center, battery storage, solar | 🟢 Active |
 | York County | County | 2026-07-13 | data center | 🟢 Active |
 
 ## Detailed entries
@@ -138,6 +140,22 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Detailed status:** Active as of 2026-09-23. Confirmed via three independent news organizations (Index-Journal, twice, including an Aug. 21, 2026 follow-up reporting that the county has since formed a data-center ad hoc committee under the moratorium; and Fox Carolina) all describing the same July 21, 2026 4-3 third-reading vote on Ordinance 2026-25. No county-published ordinance document was located despite searching greenwoodcounty-sc.gov directly; the [VERIFY] marker is left in place because it specifically calls for a primary (non-news) source. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]
 - **Outcome:** Adopted one-year moratorium on new data center approvals by a 4-3 third-reading vote.
 
+### Jasper County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** September 21, 2026 (Monday night, third reading, unanimous)
+- **Normalized date:** `2026-09-21` (exact)
+- **Duration:** One year
+- **Current end date:** `—`
+- **Sectors:** data center, cryptocurrency mining
+- **Moratorium ID:** `sc-jasper-county-2026`
+- **Legal basis:** Ordinance approved by Jasper County Council on third reading, 2026-09-21
+- **What prompted it:** Noise, traffic, high power usage, and environmental impacts of large-scale data centers and crypto mining
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23; Jasper County Council unanimously approved a one-year moratorium on new data center and cryptocurrency mining proposals in unincorporated Jasper County, following a public hearing on third reading, 2026-09-21.
+- **Outcome:** Adopted
+
 ### Kershaw County
 
 - **Type:** County
@@ -169,6 +187,22 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Affected projects:** —
 - **Detailed status:** Active as of 2026-09-23; adopted 6-0 on Sept. 14, 2026. Applies only to unincorporated Laurens County; the cities of Laurens and Clinton retain control over data centers within their own limits.
 - **Outcome:** Adopted one-year moratorium on new data center development in unincorporated Laurens County.
+
+### Mount Pleasant
+
+- **Type:** Town
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** 120 days (proposed)
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `sc-mount-pleasant-undated`
+- **Legal basis:** —
+- **What prompted it:** Groundwater capacity-use limits, water supply, energy demand, noise, and a by-right zoning loophole for data centers
+- **Affected projects:** —
+- **Detailed status:** Pending as of 2026-09-23; Planning Commission recommended a 120-day moratorium on data center applications on Aug. 31, 2026 (first-reading council discussion held Sept. 8, 2026); full Town Council final vote not confirmed as of the most recent source reviewed. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** Recommended; council vote status unconfirmed
 
 ### Newberry County
 
@@ -221,17 +255,17 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 ### Sumter County
 
 - **Type:** County
-- **Status:** 🟡 Pending
-- **Date enacted:** An emergency 60-day moratorium (Ordinance 26-1049) covering solar, BESS, and data centers was approved and took effect immediately at the June 23, 2026 County Council meeting. Companion 180-day moratorium ordinances tailored to each use (Solar: Ordinance 26-1050; BESS: Ordinance 26-1051; Data Centers: Ordinance 26-1052) received second reading, with no public hearing held, at a July 21, 2026 special called meeting. No source reviewed confirmed a third-reading/final-adoption date for 26-1050/1051/1052.
-- **Normalized date:** `2026-06-23` (range)
-- **Duration:** 60 days (Ordinance 26-1049, emergency, effective immediately June 23, 2026); a further 180 days is proposed for each of the three companion ordinances (26-1050 solar, 26-1051 BESS, 26-1052 data centers) but final adoption was not confirmed
-- **Current end date:** `—`
+- **Status:** 🟢 Active
+- **Date enacted:** An emergency 60-day moratorium (Ordinance 26-1049) covering solar, BESS, and data centers was approved and took effect immediately at the June 23, 2026 County Council meeting. Companion 180-day moratorium ordinances tailored to each use (Solar: Ordinance 26-1050; BESS: Ordinance 26-1051; Data Centers: Ordinance 26-1052) received second reading at a July 21, 2026 special called meeting, then unanimous third and final reading at the August 11, 2026 regular Council meeting, per the county's own final minutes.
+- **Normalized date:** `2026-08-11` (exact)
+- **Duration:** 180 days from the August 11, 2026 third-reading adoption of Ordinances 26-1050 (solar), 26-1051 (BESS), and 26-1052 (data centers), which superseded the 60-day emergency Ordinance 26-1049 (approved June 23, 2026, since lapsed)
+- **Current end date:** `2027-02-07`
 - **Sectors:** data center, battery storage, solar
 - **Moratorium ID:** `sc-sumter-county-2026`
-- **Legal basis:** Emergency Ordinance 26-1049 (60-day moratorium on BESS, data centers, and solar farms, approved June 23, 2026); companion Ordinances 26-1050 (Solar), 26-1051 (BESS), and 26-1052 (Data Centers), each proposing a 180-day moratorium, given second reading July 21, 2026 per the county's own special-called-meeting agenda
+- **Legal basis:** Emergency Ordinance 26-1049 (60-day moratorium on BESS, data centers, and solar farms, approved and effective June 23, 2026, since lapsed); superseded by Ordinances 26-1050 (Solar), 26-1051 (BESS), and 26-1052 (Data Centers), each imposing a 180-day moratorium, given second reading July 21, 2026 and unanimous third/final reading August 11, 2026 per the county's posted regular-meeting minutes
 - **What prompted it:** County has no zoning provisions for battery energy storage systems or data centers; follows public opposition to, and council's rejection of, a proposed 1,700-acre solar farm.
 - **Affected projects:** A proposed 1,700-acre solar farm that county council rejected, which prompted the moratorium push.
-- **Detailed status:** Uncertain as of 2026-09-23. The 60-day emergency moratorium (26-1049) took effect June 23, 2026 and would have lapsed around Aug. 22, 2026 absent further action. Companion 180-day ordinances for each sector (26-1050/1051/1052) passed second reading July 21, 2026 without a public hearing; no source reviewed (county website, news search) confirmed a third reading or final adoption date. By Sept. 8, 2026 the county had moved to a first reading of separate, permanent data-center zoning standards (OA-26-01), and a Sept.-dated Island Packet statewide roundup categorized "Sumter County" as still "Proposed" among 6-month moratoriums, consistent with final adoption of 26-1050/1051/1052 not having been confirmed. [VERIFY details not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Detailed status:** Active as of 2026-09-23. The 60-day emergency moratorium (26-1049, effective June 23, 2026) lapsed around Aug. 22, 2026, but Council gave unanimous third and final reading to the three companion 180-day ordinances (26-1050 Solar, 26-1051 BESS, 26-1052 Data Centers) at its Aug. 11, 2026 regular meeting, per the county's own posted minutes, so the pause on new permits for solar, BESS, and data-center facilities has run continuously and is now due to run to roughly 2027-02-07. Separately, the county's Land Use Committee and Planning Commission continued work in August-September 2026 on permanent, non-moratorium data-center zoning standards (OA-26-01), which received first reading Sept. 8, 2026 and had not been adopted as of this date.
 - **Outcome:** Approved an emergency 60-day pause on solar, BESS, and data center applications in June 2026; advanced (second reading) three parallel 180-day moratorium ordinances in July 2026 whose final adoption could not be confirmed as of this research date.
 
 ### York County

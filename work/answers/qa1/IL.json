@@ -1,0 +1,281 @@
+{
+ "state_abbrev": "IL",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA1",
+ "decisions": [
+  {
+   "moratorium_id": "il-bourbonnais-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.shawlocal.com/daily-journal/2026/06/18/bourbonnais-trustees-approve-moratorium-on-data-centers/",
+     "source_type": "news",
+     "supports": "Confirms the 4-0 vote at the Monday, June 15, 2026 (matches calendar) board meeting and the Jan. 31, 2027 expiration -- a temporary pause, not permanent code.",
+     "quote": "Bourbonnais trustees passed an ordinance that places a moratorium on building data centers in the village during Monday's board meeting. The vote was 4-0... The moratorium is a temporary fix that expires Jan. 31, 2027, according to the ordinance."
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "il-logan-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.illinoistimes.com/news/data-center-moratorium-declared-invalid/",
+     "source_type": "news",
+     "supports": "Details the May 19, 2026 6-4 vote adopting a 12-month moratorium, and the State's Attorney's June 18, 2026 ruling that it was procedurally invalid (skipped Zoning Board of Appeals review and public hearings).",
+     "quote": "State's Attorney Bradley Hauge advised County Board members during a closed-door meeting June 18 and before the board meeting that same day that proper procedures weren't followed for the moratorium to be legally binding"
+    },
+    {
+     "url": "https://pantagraph.com/news/local/government-politics/article_b7a8cc90-e34c-4c14-b31e-10e52efbfe39.html",
+     "source_type": "news",
+     "supports": "Confirms the Aug. 4, 2026 committee decision to submit a draft replacement moratorium (>100 MW threshold) to the State's Attorney for review.",
+     "quote": "After their first effort was declared invalid, Logan County Board members are revisiting the imposition of a 12-month moratorium on large scale data centers."
+    },
+    {
+     "url": "https://pantagraph.com/news/local/government-politics/article_4f7b7b7d-f922-45c9-ba7b-85182459c9dc.html",
+     "source_type": "news",
+     "supports": "Sept. 17-18, 2026 reporting shows the county pursuing permanent zoning-ordinance amendments (not a new moratorium vote) and a further Hut 8 rezoning application.",
+     "quote": "The Logan County Zoning and Economic Development Committee held a special meeting Thursday to submit 18 amendments to the county's zoning ordinance regulating data centers"
+    }
+   ],
+   "notes": "Correctly coded 'rescinded' (functionally invalidated/not in force) rather than 'active,' consistent with (a) the audit's requirement that the row reflect current enforceability. This is exactly the kind of case the coordinator's concern anticipated -- an OLDER instrument (May 2026) that on closer look never took durable legal effect -- but the researcher had already caught it and coded it correctly. No duplicate row exists."
+  },
+  {
+   "moratorium_id": "il-ottawa-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.shawlocal.com/illinois-valley/2026/08/20/ottawa-extends-data-center-moratorium-through-august-2027/",
+     "source_type": "news",
+     "supports": "Confirms the city council's unanimous Tuesday (Aug. 18/19, 2026) vote extending its all-zoning-district data-center moratorium through Aug. 25, 2027.",
+     "quote": "Ottawa extended its temporary moratorium on data centers in all zoning districts until August 2027... The city council unanimously passed the ordinance Tuesday night... The moratorium applies to all zoning districts within the city and remains in effect through Aug. 25, 2027."
+    }
+   ],
+   "notes": "date_enacted_iso (2026-03-03) correctly reflects the original adoption date of the moratorium being extended, consistent with how other 'extended' rows in this dataset are dated. No duplicate row exists."
+  },
+  {
+   "moratorium_id": "il-plainfield-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://patch.com/illinois/plainfield/data-center-moratorium-imposed-plainfield-after-unanimous-village-board-vote",
+     "source_type": "news",
+     "supports": "Confirms the unanimous Monday, April 21, 2026 (matches calendar) Village Board vote for a 180-day moratorium on data centers and computing-infrastructure warehouses.",
+     "quote": "PLAINFIELD, IL \u2014 The Plainfield Village Board unanimously voted Monday night to pass a 180-day moratorium on data centers and warehouses"
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "il-catlin-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://www.news-gazette.com/news/local/politics/catlin-extends-its-solar-farm-moratorium-to-aug-31/article_28674bef-0e42-4c25-941f-c7ea0c66b81a.html",
+     "source_type": "news",
+     "supports": "Confirms the village repeatedly extended a temporary solar-farm moratorium (most recently to Aug. 31, 2026) while drafting permanent zoning-ordinance changes.",
+     "quote": "the Catlin Village Board extended its solar-farm moratorium again Tuesday night to Aug. 31... Village officials said they think another 30 days should be enough time as they continue to work with a specialized Springfield attorney on the zoning-ordinance changes."
+    },
+    {
+     "url": "https://www.news-gazette.com/news/catlin-approves-solar-wind-ordinance/article_31732459-eb7b-480b-99d9-a4df0de6d3ad.html",
+     "source_type": "news",
+     "supports": "Confirms the village council approved a permanent wind-and-solar zoning ordinance in late August 2026, after which the temporary moratorium ended and companies could submit special-use permit applications.",
+     "quote": "Late last week, the village council approved a wind and solar ordinance to regulate such projects, including Earthrise Energy's proposal for a 1,400-acre solar-farm project ... Starting today, Catlin Mayor Justin Bargo said, companies can submit special-use permit applications for wind and solar projects"
+    }
+   ],
+   "notes": "This is exactly the pattern the coordinator flagged: a temporary pause superseded by permanent code. The researcher already caught this and correctly coded enacted_status='replaced' rather than leaving it 'active.' Confirmed as correct; no duplicate row exists."
+  },
+  {
+   "moratorium_id": "il-galesburg-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.wgil.com/2026/09/21/galesburg-data-center-moratorium/",
+     "source_type": "news",
+     "supports": "Confirms the 7-0 final vote Monday, Sept. 21, 2026 (matches calendar), a 180-day moratorium running through April 3, 2027.",
+     "quote": "Galesburg City Council approved a 180-day moratorium Monday night, running through April 3, 2027 and blocking the city from accepting new data center permit applications during that window."
+    },
+    {
+     "url": "https://www.tspr.org/tspr-local-news/2026-09-22/galesburg-council-fast-tracks-180-day-data-center-moratorium-could-later-impose-limit-or-ban",
+     "source_type": "news",
+     "supports": "Independent corroboration of the vote and April 3, 2027 end date.",
+     "quote": "The Galesburg city council voted unanimously Monday to impose a 180-day moratorium on data center development"
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "il-lake-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://content.govdelivery.com/accounts/ILLAKE/bulletins/42810a1",
+     "source_type": "other",
+     "supports": "Official county press release confirms Ordinance 26-1018, an eight-month moratorium on data centers in unincorporated Lake County, through May 2027.",
+     "quote": "The Lake County Board today approved an eight-month moratorium on data centers in unincorporated Lake County, providing the County additional time to evaluate this emerging land use... The moratorium will remain in effect through May 2027."
+    },
+    {
+     "url": "https://www.shawlocal.com/lake-county-journal/2026/09/08/lake-county-oks-temporary-moratorium-on-data-centers/",
+     "source_type": "news",
+     "supports": "Corroborates the Sept. 8, 2026 Tuesday (matches calendar) vote.",
+     "quote": "The Lake County Board on Tuesday approved an eight-month moratorium on data centers in unincorporated Lake County"
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "il-lawrence-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.88,
+   "evidence": [
+    {
+     "url": "https://www.wzdm.com/2026/09/19/lawrence-co-il-board-enacts-two-year-moratorium-on-data-centers/",
+     "source_type": "news",
+     "supports": "Confirms the Thursday, Sept. 17, 2026 (matches calendar) unanimous vote for a two-year moratorium on data centers of at least 10,000 sq ft.",
+     "quote": "The Lawrence County, Illinois Board voted Thursday to approve an ordinance for a two-year moratorium on data centers."
+    },
+    {
+     "url": "https://www.wthitv.com/2026/09/17/there-are-no-data-centers-lawrence-county-next-two-years/",
+     "source_type": "news",
+     "supports": "Independent corroboration, plus detail that the ordinance was modeled on neighboring Crawford County's moratorium.",
+     "quote": "County officials modeled the ordinance after a similar moratorium enacted in neighboring Crawford County."
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "il-lee-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "url": "https://www.leecountyil.com/DocumentCenter/View/5873/20260820-Resolution-2026-08-002-Moratorium-for-TOD",
+     "source_type": "resolution",
+     "supports": "Primary source: full Resolution No. 2026-08-002 text confirms the temporary moratorium on Technology Overlay District applications, effective immediately, running through Nov. 19, 2026.",
+     "quote": "this moratorium shall take effect immediately upon its passage and approval, and shall remain in effect through November 19, 2026, and shall expire automatically at 11:59 p.m. on that date unless earlier terminated, extended, or otherwise modified by action of the Lee County Board"
+    },
+    {
+     "url": "https://www.leecountyil.com/569/Technology-Overlay-District-TOD-Petition",
+     "source_type": "other",
+     "supports": "County's own petitions page confirms the moratorium is currently in effect with no pending TOD petitions.",
+     "quote": "PETITIONS REQUESTING TECHNOLOGY OVERLAY DISTRICT (TOD) DESIGNATION: None pending. The Lee County Board approved a moratorium on applications requesting a Technology Overlay District (TOD) designation that is set to expire November 19, 2026"
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "il-macon-county-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.6,
+   "evidence": [
+    {
+     "url": "https://maconcounty.illinois.gov/download/2026-ordinance-establishing-a-six-6-month-moratorium/?wpdmdl=14516&ind=1779307990862&refresh=93d2ffcf&filename=Proposed-Temporary-Moratorium-On-Data-Center-Developement-in-Macon-County.pdf",
+     "source_type": "ordinance",
+     "supports": "Draft ordinance text (chairman's signature line left blank) proposing a 6-month moratorium with a Jan. 31, 2027 expiration -- indicating it had not been formally adopted as of posting.",
+     "quote": "a temporary moratorium on accepting applications for Data Centers be utilized to allow County Officials time to further study the concerns... with an expiration date of January 31, 2027, at 11:59pm CST."
+    },
+    {
+     "url": "https://www.wcia.com/news/macon-county/dozens-of-macon-co-residents-gather-for-data-center-forum/",
+     "source_type": "news",
+     "supports": "As of Sept. 15, 2026, confirms the moratorium recommended in June still had not received a final County Board vote.",
+     "quote": "there was a moratorium recommended in June while the issue is studied further. But the final decision has received delays."
+    }
+   ],
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "The most recent available report (Sept. 15, 2026, WCIA) confirms the proposal still had not been formally adopted as of that date; correctly coded 'pending.' No newer report found this pass confirming a vote occurred between Sept. 15 and Sept. 23, 2026."
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "il-mattoon-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://mattoon.illinois.gov/city-news/city-council-passes-data-center-moratorium/",
+     "source_type": "other",
+     "supports": "Official city announcement confirms the Sept. 1, 2026 (Tuesday, matches calendar) vote, the >21,780 sq ft threshold, 1.5-mile extraterritorial scope, and the annual-renewal structure (no fixed calendar end date).",
+     "quote": "At Tuesday night's City Council meeting, the Mattoon City Council passed a moratorium on large-scale data center developments... The moratorium will be renewed each year and requires the City Council to take action to change or end it."
+    }
+   ],
+   "notes": "duration_kind='indefinite' correctly reflects the annual-renewal structure described (no single fixed term). No duplicate row exists."
+  },
+  {
+   "moratorium_id": "il-robinson-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.55,
+   "evidence": [
+    {
+     "url": "https://www.hometownregister.com/rob_daily_news/local_news/robinson-solar-farm-moratorium-extended/article_72374c63-8cf4-59c2-89ce-10e27598e5e4.html",
+     "source_type": "news",
+     "supports": "Confirms the city council's vote to extend an existing solar-farm moratorium (covering the city and 1.5 miles beyond) for another six months.",
+     "quote": "The Robinson City Council has voted to extend for another six months a moratorium on solar farms. The moratorium covers the city and the area within a mile-and-a-half of its corporate limits"
+    }
+   ],
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "Attempted a search for the original Robinson solar-farm moratorium ordinance/instrument number and enactment date; found only the same single extension article, no primary ordinance or additional independent report. Leaving as still unverifiable."
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "il-rockford-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.88,
+   "evidence": [
+    {
+     "url": "https://www.rockrivercurrent.com/2026/08/rockford-approves-data-center-moratorium-but-not-for-monarchs-land/",
+     "source_type": "news",
+     "supports": "Confirms the 14-0 vote Monday, Aug. 3, 2026 (matches calendar), the six-month term, and the exemption for the Monarch Energy Edson Road land under an existing annexation agreement.",
+     "quote": "Aldermen voted 14-0 on Monday to approve the moratorium and direct city staff to conduct a comprehensive review of the best practices regarding the development, expansion and operation of data centers"
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "il-sterling-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.shawlocal.com/sauk-valley/2026/09/09/sterling-council-puts-180-day-application-moratorium-on-data-centers-battery-energy-storage-systems/",
+     "source_type": "news",
+     "supports": "Confirms a 180-day moratorium on data center and BESS applications was adopted at the Sept. 8, 2026 City Council meeting (the article twice explicitly names 'the Sept. 8 City Council meeting,' notwithstanding an internally inconsistent loose reference elsewhere in the same article to 'Monday'; Sept. 8, 2026 is a Tuesday).",
+     "quote": "At the Sept. 8 City Council meeting, City Attorney Tim Zollinger said smaller data centers could see Sterling as a potential location."
+    }
+   ],
+   "notes": "Noted a minor internal inconsistency in the cited news article, which opens by saying the council 'voted unanimously Monday' but twice later specifies 'the Sept. 8 City Council meeting' (a Tuesday); treated the twice-repeated specific date as controlling over the vaguer day-of-week reference, consistent with the existing row. No duplicate row exists."
+  },
+  {
+   "moratorium_id": "il-woodford-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://wmbdradio.com/2026/08/21/tazewell-county-revisits-data-center-ordinance-woodford-county-passes-moratorium/",
+     "source_type": "news",
+     "supports": "Confirms the County Board approved a six-month moratorium (with a six-month extension option) on data center applications, running through February 2027.",
+     "quote": "In Woodford County, after weeks of discussion, the County Board approved a six-month moratorium on data center applications, with an option for a six-month extension. The initial moratorium would run through February 2027"
+    }
+   ],
+   "notes": "Single detailed source; no contradicting information found. No duplicate row exists."
+  }
+ ]
+}

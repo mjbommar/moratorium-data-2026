@@ -1,0 +1,83 @@
+{
+  "state_abbrev": "AR",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA1",
+  "decisions": [
+    {
+      "moratorium_id": "ar-independence-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.whiterivernow.com/2026/08/11/independence-county-quorum-court-places-5-year-moratorium-on-data-centers/",
+          "source_type": "news",
+          "supports": "Confirms the Monday-night (Aug. 10, 2026) unanimous vote, the five-year term running to Aug. 31, 2031, and that no data center is currently proposed in the county.",
+          "quote": "On Monday night, the Independence County Quorum Court passed an ordinance placing a five-year moratorium on commercial data centers within the county ‘to investigate the nature of commercial Data Centers and to explore the negative impact of any such project’. The moratorium ends Aug. 31, 2031."
+        },
+        {
+          "url": "https://www.noticeregistry.com/arkansas/notice/ordinance-272870",
+          "source_type": "ordinance",
+          "supports": "Reproduces the verbatim text of Ordinance No. 2026-21 as published, confirming the instrument number and its emergency-clause moratorium purpose.",
+          "quote": "Ordinance No. 2026-21 BE IT ENACTED BY THE QUORUM COURT OF THE COUNTY OF INDEPENDENCE, IN THE STATE OF ARKANSAS, AN ORDINANCE ENTITLED: AN ORDINANCE PLACING A MORATORIUM ON THE CONSTRUCTION OF COMMERCIAL DATA CENTERS AND TO DECLARE AN EMERGENCY"
+        },
+        {
+          "url": "https://arkansasadvocate.com/2026/08/11/outside-of-little-rock-arkansas-counties-and-cities-move-ahead-on-data-center-moratoriums/",
+          "source_type": "news",
+          "supports": "Confirms the five-year term as the longest adopted in the state and quotes county officials on the reasoning.",
+          "quote": "Independence County’s quorum court unanimously passed a five-year moratorium on Monday, the latest — and longest — adopted in the state."
+        },
+        {
+          "url": "https://savrn.com/data-center-moratorium-tracker/arkansas",
+          "source_type": "other",
+          "supports": "Independently tracks the five-year moratorium as in force through 2031, citing water-supply strain.",
+          "quote": "Independence County 2026-08 In force Five-year data center moratorium. The Quorum Court unanimously adopted a five-year moratorium running through Aug. 31, 2031 - the longest adopted in Arkansas - citing water supply strain."
+        },
+        {
+          "url": "https://aigridwatch.com/states/arkansas",
+          "source_type": "other",
+          "supports": "Independently tracks the moratorium as enacted, preemptive, with no project currently proposed.",
+          "quote": "Independence County | Local | Enacted expires 2031-08-11 | 5-year moratorium, unanimous — the longest in Arkansas. Preemptive; no project currently proposed"
+        }
+      ],
+      "notes": "The packet's quote_mismatch=true is a false positive: the cited whiterivernow.com quote is present verbatim except that the packet rendered the embedded phrase with curly single quotation marks (U+2018/2019) where the source uses curly double quotation marks (U+201C/201D) -- a typographic transcription difference, not a misquote or fabrication. The primary ordinance text (No. 2026-21, reproduced on noticeregistry.com with OCR line-wrap artifacts like 'QUOR-UM' and 'DEL-CARE') independently confirms the emergency-clause five-year moratorium. Two additional independent trackers (Arkansas Advocate, savrn.com, aigridwatch.com) corroborate the Aug. 31, 2031 end date. A 5-year term is unusually long but is still a defined, expiring pause, not a permanent ban -- criterion (a) is satisfied."
+    },
+    {
+      "moratorium_id": "ar-madison-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://mcrecordonline.com/stories/measure-effective-immediately-after-jps-vote-8-0-for-approval,148654",
+          "source_type": "news",
+          "supports": "Local paper of record confirming the Aug. 17, 2026 8-0 vote and immediate effect.",
+          "quote": "The Madison County Quorum Court approved a three-year moratorium on data centers during its regular meeting on Monday, Aug. 17."
+        },
+        {
+          "url": "https://katv.com/news/local/madison-county-quorum-court-approves-three-year-moratorium-on-data-centers",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 17 vote, the Aug. 31, 2029 end date, that the moratorium covers data centers and digital asset mining, and that two public hearings preceded the vote.",
+          "quote": "the moratorium was approved on Aug. 17 and will remain in place through Aug. 31, 2029. It applies to date centers, digital asset mining businesses and other large-scale computer or server operations. ... Prior to the meeting, the county had hosted two previous public hearings on the proposal."
+        },
+        {
+          "url": "https://arkansasadvocate.com/2026/08/24/map-more-arkansas-communities-putting-data-centers-on-hold/",
+          "source_type": "news",
+          "supports": "Confirms Madison County's three-year moratorium as the second-longest in the state, with no known project in development.",
+          "quote": "Madison County joined four other counties in passing a three-year moratorium on data center projects last week, though it doesn’t have any known projects in development. The pause is the second-longest in the state; only Independence County’s is longer."
+        },
+        {
+          "url": "https://savrn.com/data-center-moratorium-tracker/arkansas",
+          "source_type": "other",
+          "supports": "Independently tracks the three-year moratorium as in force, covering data centers and digital asset mining.",
+          "quote": "Madison County 2026-08 In force Three-year moratorium on data centers and digital asset mining. The Quorum Court approved an ordinance on Aug. 17, 2026 imposing a moratorium on data centers, digital asset mining businesses and other large-scale computer or server operations through Aug. 31, 2029."
+        },
+        {
+          "url": "https://aigridwatch.com/states/arkansas",
+          "source_type": "other",
+          "supports": "Independently tracks the moratorium as enacted, expiring 2029-08-31, preemptive with no project proposed.",
+          "quote": "Madison County | County | Enacted expires 2029-08-31 | Three-year moratorium on data centers, digital asset mining, and large-scale computer/server operations; emergency clause, effective immediately. Preemptive -- no project proposed."
+        }
+      ],
+      "notes": "Verified against two local news accounts and two independent trackers: Aug. 17, 2026 8-0 vote, three-year term through Aug. 31, 2029, covers data centers and digital asset mining. Consistent, no duplicate."
+    }
+  ]
+}

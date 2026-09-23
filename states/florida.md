@@ -3,12 +3,13 @@
 
 Every local infrastructure moratorium in the inventory for Florida, current through **September 23, 2026**.
 
-**25 instruments** — 23 in force, 1 pending, 1 past.
+**35 instruments** — 27 in force, 7 pending, 1 past.
 
 State policy is tracked separately: **6 actions** (6 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
+| Alachua | City | Unverified | data center | 🟡 Pending |
 | Bay County | County | 2026-07-07 | data center | 🟢 Active |
 | Citrus County | County | 2026-05-26 | data center | 🟢 Active |
 | Clay County | County | 2026-06-23 | data center | 🟢 Active |
@@ -16,26 +17,51 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 | Flagler County | County | 2026-08-03 | data center | 🟢 Active |
 | Franklin County | County | 2026-07-15 | data center | 🟢 Active |
 | Hernando County | County | 2026-06-23 | data center | 🟢 Active |
-| Lake County | County | 2026-09-09 | data center | 🟢 Active |
+| Hillsborough County | County | Unverified | data center | 🟡 Pending |
+| Holmes County | County | 2026-06-16 | data center | 🟢 Active |
+| Lake County | County | 2026-09-08 | data center | 🟢 Active |
 | Lakeland | City | 2026-08-03 | data center | 🟢 Active |
 | Leon County | County | Unverified | data center | 🟡 Pending |
+| Levy County | County | 2026-09-08 | data center | 🟢 Active |
 | Lynn Haven | City | 2026-06-23 | data center | ⚪ Expired |
 | Madison County | County | 2026-07-22 | data center | 🟢 Active |
 | Manatee County | County | 2026-09-22 | data center | 🟢 Active |
 | Marion County | County | 2026-09-15 | data center, cryptocurrency mining | 🟢 Active |
+| Martin County | County | Unverified | data center | 🟡 Pending |
+| Minneola | City | Unverified | data center | 🟡 Pending |
 | Nassau County | County | 2026-06-08 | data center, cryptocurrency mining | 🟢 Active |
 | North Port | City | 2026-09-22 | data center | 🟢 Active |
+| Orange County | County | Unverified | data center | 🟡 Pending |
+| Ormond Beach | City | 2026-08-25 | data center | 🟢 Active |
 | Palm Beach County | County | 2026-07-07 | data center | 🟢 Active |
 | Panama City | City | 2026-09-23 | data center | 🟢 Active |
 | Pasco County | County | 2026-07-14 | data center | 🟢 Active |
 | Pensacola | City | 2026-08-13 | data center | 🟢 Active |
 | Pinellas Park | City | 2026-08-11 | data center | 🟢 Active |
+| Putnam County | County | 2026-09-08 | data center | 🟢 Active |
 | Santa Rosa County | County | 2026-07-23 | data center | 🟢 Active |
 | Sarasota County | County | 2026-07-08 | data center | 🟢 Active |
+| St. Johns County | County | Unverified | data center | 🟡 Pending |
 | Washington County | County | 2026-08-20 | data center | 🟢 Active |
 | Zephyrhills | City | 2026-06-22 | data center | 🟢 Active |
 
 ## Detailed entries
+
+### Alachua
+
+- **Type:** City
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** 12 months (proposed)
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `fl-alachua-undated`
+- **Legal basis:** —
+- **What prompted it:** Resource-intensive/extractive facility concerns; no data center project currently proposed
+- **Affected projects:** —
+- **Detailed status:** Pending as of 2026-09-23; City Planning & Zoning board passed a motion for a 12-month data center moratorium; City Commission scheduled to review and act 2026-09-28 (after the reference date of this research pass). [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Pending City Commission vote
 
 ### Bay County
 
@@ -149,12 +175,44 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Detailed status:** Active 365-day moratorium; filed with the Florida Department of State 2026-06-24.
 - **Outcome:** —
 
+### Hillsborough County
+
+- **Type:** County
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** 1 year (proposed)
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `fl-hillsborough-county-undated`
+- **Legal basis:** —
+- **What prompted it:** AI data center impact study; SB 180 storm-recovery freeze blocks new land-development restrictions in hurricane-declared counties until Oct 1, 2027
+- **Affected projects:** —
+- **Detailed status:** Pending as of 2026-09-23; commissioners voted Aug. 5, 2026 to direct the county attorney to draft a one-year AI data center moratorium, but SB 180 is understood to prevent it taking effect until Oct. 1, 2027. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** Drafting directed; not yet effective
+
+### Holmes County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** June 16, 2026 (Ordinance No. 2026-03)
+- **Normalized date:** `2026-06-16` (exact)
+- **Duration:** One year from the effective date, unless earlier terminated or extended by the Board
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `fl-holmes-county-2026`
+- **Legal basis:** Ordinance No. 2026-03
+- **What prompted it:** County lacks comprehensive plan policies and land development regulations addressing data centers and large load customer facilities (water, infrastructure, environmental impacts)
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23; one-year countywide pause on new data-center and large-load-customer-facility development approvals in unincorporated Holmes County, adopted 2026-06-16, running through 2027-06-16 unless extended.
+- **Outcome:** Adopted
+
 ### Lake County
 
 - **Type:** County
 - **Status:** 🟢 Active
-- **Date enacted:** Board of County Commissioners voted unanimously to adopt the ordinance 2026-09-09 (Tuesday).
-- **Normalized date:** `2026-09-09` (exact)
+- **Date enacted:** Board of County Commissioners voted unanimously to adopt the ordinance on Tuesday, 2026-09-08 (not 2026-09-09, which was a Wednesday; the cited article, published Wednesday morning, refers to a 'Tuesday evening' vote and other sources confirm the commission met Sept. 8).
+- **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 90-day pause on accepting any applications for large-scale data centers in unincorporated Lake County, to give commissioners time to create new zoning and development regulations (including a possible conditional-use-permit requirement).
 - **Current end date:** `—`
 - **Sectors:** data center
@@ -162,7 +220,7 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Legal basis:** Lake County ordinance citing Senate Bill 484 local authority (specific ordinance number not located in reviewed sources); adopted 2026-09-09.
 - **What prompted it:** Regulatory gap; county wants a conditional-use-permit process so a data center is not a guaranteed right.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; 90-day pause adopted 2026-09-09, running to approximately early December 2026.
+- **Detailed status:** Active as of 2026-09-23; 90-day pause adopted 2026-09-08, running to approximately early December 2026.
 - **Outcome:** 90-day moratorium adopted, a shorter and later instrument than the one-year moratorium the Board had directed staff to draft in late June.
 
 ### Lakeland
@@ -196,6 +254,22 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Affected projects:** —
 - **Detailed status:** Pending as of 2026-09-23; first reading passed unanimously 2026-09-15, with the second and final public hearing scheduled for 2026-10-13. County staff report no approved or pending large-scale data-center applications in unincorporated Leon County as of this filing.
 - **Outcome:** First reading passed unanimously; final adoption pending as of 2026-09-23.
+
+### Levy County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** September 8, 2026 (Ordinance No. 2026-05)
+- **Normalized date:** `2026-09-08` (exact)
+- **Duration:** 12 months from the effective date, or until an amending ordinance is adopted, whichever occurs first
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `fl-levy-county-2026`
+- **Legal basis:** Ordinance No. 2026-05
+- **What prompted it:** Concerns about groundwater withdrawals (Floridan Aquifer), electrical grid capacity, noise, and lack of land development standards for data centers
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23; one-year moratorium on data center development permits/orders in unincorporated Levy County, effective Oct 1, 2026 through Sep 30, 2027 per independent tracker corroboration.
+- **Outcome:** Adopted
 
 ### Lynn Haven
 
@@ -261,6 +335,38 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-09-15, with an exemption for facilities under 50 MW that can still apply via Special Use Permit.
 - **Outcome:** 12-month moratorium adopted (4-1 substantive vote; 5-0 procedural adoption vote), with exemptions for sub-50-MW facilities that drew a dissenting vote from Commissioner Kathy Bryant, who opposed the carve-out.
 
+### Martin County
+
+- **Type:** County
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** 1 year (proposed)
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `fl-martin-county-undated`
+- **Legal basis:** —
+- **What prompted it:** Water supply, grid infrastructure/rate impacts, air quality, noise, property values ahead of hyperscale project proposals
+- **Affected projects:** —
+- **Detailed status:** Pending as of 2026-09-23; commissioners voted 4-1 on Aug. 26, 2026 to direct staff to return with a one-year moratorium proposal; as of a Sept. 18, 2026 report the board was still working through a related rezoning dispute with no formal moratorium ordinance adopted. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Direction to staff; two public hearings still required
+
+### Minneola
+
+- **Type:** City
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** 1 year (proposed)
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `fl-minneola-undated`
+- **Legal basis:** —
+- **What prompted it:** Water and power-use zoning standards not yet drafted; coordinating with Lake County
+- **Affected projects:** —
+- **Detailed status:** Pending as of 2026-09-23; City Council advanced a one-year moratorium ordinance in step with Lake County; language reportedly modeled on other Florida ordinances; a final vote had not been confirmed as of the most recent source reviewed. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Advanced; final vote status unconfirmed
+
 ### Nassau County
 
 - **Type:** County
@@ -292,6 +398,38 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Affected projects:** The 'Deep Park' data-center proposal: roughly 896,000 sq ft of buildings (about 123,200 sq ft of office space) on land near Yorkshire Street/Oleander Drive, part of a broader 282-acre 'employment epicenter' development; excluded from the moratorium's coverage as finally adopted.
 - **Detailed status:** Active as of 2026-09-23 (adopted the day before, 3-2); 18-month moratorium on new data-center applications, but the already-pending ~896,000 sq ft Deep Park data-center application is excluded from the pause (city staff may still process it; Commission approval is still required) rather than being retroactively swept in.
 - **Outcome:** 18-month moratorium adopted 3-2 on second/final reading 2026-09-22; the pending Deep Park application was excluded from coverage after the city attorney warned that including it could expose the city to litigation.
+
+### Orange County
+
+- **Type:** County
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** 6-18 months (proposed)
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `fl-orange-county-undated`
+- **Legal basis:** —
+- **What prompted it:** Projected 96-million-gallon-per-day groundwater shortfall by 2045; land development code has no data-center definition so use is implicitly allowed in industrial districts
+- **Affected projects:** —
+- **Detailed status:** Pending as of 2026-09-23; commissioners reached consensus around a 6-to-18-month pause on new AI data center applications; formal vote expected Dec. 1, 2026. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Discussion consensus only; formal vote pending
+
+### Ormond Beach
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** August 25, 2026, second reading, 5-0 (Ordinance 2026-11)
+- **Normalized date:** `2026-08-25` (exact)
+- **Duration:** Eighteen months
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `fl-ormond-beach-2026`
+- **Legal basis:** Ordinance 2026-11
+- **What prompted it:** City Comprehensive Plan and Land Development Code do not address data centers; SB 484 (Ch. 2026-65) authorizes local regulation; SB 180 storm-recovery freeze in effect through Oct 2027 for Volusia County
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23; 18-month citywide moratorium on all data center types, adopted 5-0 on second reading 2026-08-25 (first reading 2026-07-28), while staff draft Comprehensive Plan and Land Development Code amendments intended to ban large-scale data centers.
+- **Outcome:** Adopted
 
 ### Palm Beach County
 
@@ -373,6 +511,22 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Detailed status:** Active as of 2026-09-23; the City Council voted unanimously 2026-08-11 to adopt Ordinance 2026-22, a 12-month moratorium on data centers and 'large load customer facilities' (50 MW+ anticipated monthly peak load). The pause ends at the earlier of a land development code amendment or 12 months (i.e. on or about 2026-08-11-2027).
 - **Outcome:** —
 
+### Putnam County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** September 8, 2026, second reading (unanimous)
+- **Normalized date:** `2026-09-08` (exact)
+- **Duration:** Took effect immediately; will remain in place until at least Aug. 30, 2027 per local reporting
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `fl-putnam-county-2026`
+- **Legal basis:** Ordinance (medium- and large-scale data center moratorium); ordinance number not confirmed in sources reviewed
+- **What prompted it:** Concerns over water, electricity, cooling, and environmental impacts of medium (2,000-5,000 servers, 5-49 MW) and large-scale (50+ MW) data centers
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23; commissioners unanimously passed second reading Sept. 8, 2026, temporarily banning medium- and large-scale data center development countywide; effective immediately, in place until at least Aug. 30, 2027.
+- **Outcome:** Adopted
+
 ### Santa Rosa County
 
 - **Type:** County
@@ -404,6 +558,22 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Affected projects:** XF Group inquiry, Cattlemen Road site
 - **Detailed status:** Active as of 2026-09-23; the Commission's 2026-07-08 vote directed an immediate halt on acceptance, review and approval of hyperscale (50 MW+) data-center applications until at least July 2027 while permanent rules are developed. Commissioners Neunder and Smith indicated in July they would return in August seeking a permanent ban, but no subsequent vote finalizing a permanent ban or amending the freeze was found through 2026-09-23. [VERIFY instrument number: still no numbered resolution/ordinance located; the action continues to be reported only as a Commission vote/administrative freeze]
 - **Outcome:** —
+
+### St. Johns County
+
+- **Type:** County
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** 12 months (proposed)
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `fl-st-johns-county-undated`
+- **Legal basis:** —
+- **What prompted it:** AI data center applications; formal moratorium proposal status unclear
+- **Affected projects:** —
+- **Detailed status:** Pending as of 2026-09-23; commissioners reached consensus in June 2026 to direct the county attorney to prepare a formal moratorium proposal; no adoption confirmed and no later reporting of a vote found. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Outcome:** Direction to prepare proposal; not confirmed adopted
 
 ### Washington County
 

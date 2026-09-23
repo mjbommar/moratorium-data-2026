@@ -376,7 +376,7 @@ def check_inventory(rows: list[dict], fieldnames: list[str], today: dt.date, rep
                     rep.error("geo.range", f"{where}: longitude {lon} outside {LON_RANGE}")
 
         seen_jurisdictions[(row["state_abbrev"], row["jurisdiction"].strip().lower())].append(
-            (i, instrument_key(row["legal_basis"]))
+            (i, instrument_key(row["legal_basis"]), row["sectors"], row["date_enacted_iso"])
         )
 
     # Several rows for one jurisdiction are legitimate when they are distinct
@@ -387,10 +387,17 @@ def check_inventory(rows: list[dict], fieldnames: list[str], today: dt.date, rep
     for (abbrev, juris), entries in seen_jurisdictions.items():
         if len(entries) < 2 or "phase" in juris:
             continue
-        keys = [k for _, k in entries]
+        keys = [e[1] for e in entries]
         if all(keys) and len(set(keys)) == len(keys):
             continue  # every row carries a distinct instrument number
-        lines = [i for i, _ in entries]
+        # Rows with different sector scopes, or different exact adoption dates,
+        # are distinguishable instruments even without numbers: a town's
+        # battery-storage local law and its data-center local law, or a
+        # repealed March resolution and its September successor.
+        sigs = [(e[2], e[3]) for e in entries]
+        if len(set(sigs)) == len(sigs) and all(len(e[3]) == 10 or e[2] for e in entries):
+            continue
+        lines = [e[0] for e in entries]
         rep.warn(
             "dup.jurisdiction",
             f"{abbrev} {juris!r} appears on lines {lines} with no phase marker and "

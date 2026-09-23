@@ -1,0 +1,117 @@
+{
+  "state_abbrev": "ND",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "nd-mcintosh-county-2025",
+      "outcome": "unresolvable",
+      "confidence": 0.4,
+      "evidence": [
+        {
+          "url": "https://www.mcintoshdemocrat.com/article/2900,mcintosh-county-commissioners-extend-road-moratorium-on-wind-and-solar-projects",
+          "title": "McIntosh County Commissioners extend road moratorium on wind and solar projects",
+          "publisher": "McIntosh Democrat",
+          "document_date": "2026-06",
+          "source_type": "news",
+          "supports": "Confirms the McIntosh County Board voted 'Monday, June 1' to extend the July 2025 county-road-use moratorium on wind/solar construction traffic, but the article (checked against a full re-fetch and the syndicated Eufaula Indian Journal copy) does not state the length or new end date of the extension.",
+          "quote": "The McIntosh County Board of County Commissioners voted Monday, June 1, to extend its moratorium on the use of county-maintained roads for the transport and delivery of equipment and materials associated with the construction of wind turbines, solar panels, and related infrastructure."
+        },
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1VncL22o_uZhzOGJStRbZEe_BrNlcSsSy",
+          "title": "McIntosh County Proceedings, June 3, 2026 (Board of Equalization / Regular Meeting)",
+          "publisher": "McIntosh County, ND",
+          "document_date": "2026-06-03",
+          "source_type": "minutes",
+          "supports": "The county's own posted minutes for its closest listed meeting to the reported June 1 vote (June 3, 2026, the only regular meeting between May 13 and July 8, 2026) contain no mention of a road-use moratorium, wind, solar, or an extension vote, so the endpoint could not be corroborated from official minutes.",
+          "quote": "Next meeting will be July 8, 2026... There being no further business... Meeting adjourned."
+        },
+        {
+          "url": "https://www.canarymedia.com/articles/wind/wind-energy-north-dakota-benefits",
+          "title": "Wind energy benefits North Dakota. So why has the state soured on it?",
+          "publisher": "Canary Media",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Independently describes a McIntosh County wind-project moratorium adopted 'in April' 2026 ('a few months after Badger Wind Farm went online' in January 2026), described as a one-year moratorium on siting new wind projects -- a different description (substantive siting pause, April 2026) than this row's July-2025 road-haul-traffic restriction.",
+          "quote": "in April — a few months after Badger Wind Farm went online — McIntosh County adopted a one-year moratorium on new wind projects, citing concerns about how another Ørsted project, proposed for the south part of the county, would impact nonparticipant property owners."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE not resolved: confirmed (via two independently published copies of the same wire story, McIntosh Democrat and Eufaula Indian Journal) that the Board voted to extend the road-use moratorium on 'Monday, June 1' [2026], but neither copy states the new term length or end date, and both cut off at the same point (likely the full extent of a short local-paper item, not a paywall truncation -- re-fetched with --refresh and confirmed identical). Checked the county's own posted meeting-minutes archive (olivercountynd.org-style county-proceedings page) and pulled the full text of the closest listed meeting, the June 3, 2026 Regular Meeting/Board of Equalization minutes (all 4 pages, via direct PDF download) -- it contains no mention of the road-use moratorium, wind, or solar at all, and June 1, 2026 (a Monday) does not correspond to any meeting on the county's own list of Regular/Special Meetings (which runs May 13 -> June 3 -> July 8), so the vote may have occurred at an unlisted committee/special session, or the article's date may be imprecise. Leaving the record as-is (extended, no end date) rather than guessing. Separately noted for the coordinator: a Canary Media investigative piece (Sept. 2026) describes a distinct-sounding McIntosh County 'one-year moratorium on new wind projects' adopted in April 2026 over siting concerns for a second Ørsted wind project -- this reads as a different, more substantive land-use/siting moratorium than the row's July-2025 road-haul-traffic restriction, and may be a missing instrument, but this QA4 pass does not add new_candidates; flagging for a future full-research pass.",
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Checked the McIntosh County proceedings archive, the county's June 3, 2026 minutes (no mention of the topic), and a Canary Media piece describing an April 2026 wind-siting moratorium that appears to be a separate instrument from this row's July 2025 road-use restriction. Could not confirm an instrument/resolution number for either the original July 2025 action or the June 2026 extension; marker remains."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nd-oliver-county-2025-p2",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "changes": {
+        "legal_basis": {
+          "from": "Resolution 2025-03 (companion to a parallel solar resolution; second reading and adoption at the May 6, 2025 Commission meeting; vote 2-1, Berger and Schmidt aye, Husfloen nay, per official minutes)",
+          "to": "Resolution 2025-02, 'A Resolution of the County of Oliver, North Dakota, to Impose a Moratorium on the Development of All Data Center and Cryptocurrency Mining Facilities Until Zoning Standards Can Be Developed' (companion to Resolution 2025-03, the separate Solar Energy Facilities moratorium); second reading and adoption at the May 6, 2025 Commission meeting; vote 2-1, Berger and Schmidt aye, Husfloen nay, per official minutes",
+          "reason": "The county's own posted minutes for the April 15, 2025 Planning & Zoning first reading and the May 6, 2025 Commission second reading/adoption both show Resolution 2025-02 is titled the Data Center AND Cryptocurrency Mining Facilities moratorium, while Resolution 2025-03 is titled the separate Solar Energy Facilities moratorium. The row's own jurisdiction label is '(Phase 2)' data center track with sectors=[\"data_center\"], so its legal_basis should cite 2025-02, not 2025-03 (which is the solar instrument the SECTOR_CHECK flag is asking about)."
+        },
+        "sectors": {
+          "from": "[\"data_center\"]",
+          "to": "[\"data_center\",\"cryptocurrency_mining\"]",
+          "reason": "Resolution 2025-02's own text (the corrected legal_basis) imposes the moratorium on 'all data centers AND cryptocurrency mining facilities' as a single combined instrument -- the same pattern used elsewhere in this inventory for Oliver County Phase 1 and Phase 3. Cryptocurrency mining is operative scope of this resolution, not a trigger mention or a separate instrument."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2025-08-04",
+          "reason": "90 days (duration_days, unchanged) after the confirmed 2025-05-06 adoption date is 2025-08-04, matching the row's own current_status text ('ran out on or about 2025-08-04')."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://olivercountynd.org/index.asp?SEC=0B02160B-6DEF-492E-A8AE-C0F130AF8790",
+          "title": "Oliver County Planning & Zoning Commission minutes, April 15, 2025",
+          "publisher": "Oliver County, ND",
+          "document_date": "2025-04-15",
+          "source_type": "minutes",
+          "supports": "First reading of Resolution 2025-02 (Data Center and Cryptocurrency Mining Facilities) and Resolution 2025-03 (Solar Energy Facilities) as two separate, distinctly numbered and titled resolutions.",
+          "quote": "RESOLUTION 2025-02 A RESOLUTION OF THE COUNTY OF OLIVER, NORTH DAKOTA, TO IMPOSE A MORATORIUM ON THE DEVELOPMENT OF ALL DATA CENTER AND CRYPTOCURRENCY MINING FACILITIES UNTIL ZONING STANDARDS CAN BE DEVELOPED ... The first reading for a Solar Moratorium was held. RESOLUTION 2025-03 A RESOLUTION OF THE COUNTY OF OLIVER, NORTH DAKOTA, TO IMPOSE A MORATORIUM ON THE DEVELOPMENT OF ALL SOLAR ENERGY FACILITIES UNTIL ZONING STANDARDS CAN BE DEVELOPED"
+        },
+        {
+          "url": "https://olivercountynd.org/index.asp?SEC=B1B18045-A2A7-4C31-8160-D9E9D255E81C",
+          "title": "Oliver County Commission Proceedings, May 6, 2025",
+          "publisher": "Oliver County, ND",
+          "document_date": "2025-05-06",
+          "source_type": "minutes",
+          "supports": "Second reading and adoption (90-day term) of both Resolution 2025-03 (Solar) and Resolution 2025-02 (Data Center and Cryptocurrency Mining), in a single 2-1 roll-call vote (Berger-aye, Schmidt-aye, Husfloen-nay).",
+          "quote": "Dave Berger moved and Rob Schmidt seconded the motion to approve the following moratoriums for a period of 90 days. A roll call vote was held: Dave Berger-aye, Rob Schmidt-aye, Lee Husfloen-nay. The motion carried. RESOLUTION 2025-03 ... RESOLUTION 2025-02 A RESOLUTION OF THE COUNTY OF OLIVER, NORTH DAKOTA, TO IMPOSE A MORATORIUM ON THE DEVELOPMENT OF ALL DATA CENTER AND CRYPTOCURRENCY MINING FACILITIES UNTIL ZONING STANDARDS CAN BE DEVELOPED"
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: the 'solar' mention in the row's own duration/legal_basis text refers to Resolution 2025-03, a separate, distinctly numbered solar-only instrument adopted the same day -- a companion instrument, not this row's operative scope -- so solar correctly stays out of sectors. While confirming that, found and fixed two adjacent errors surfaced by reading the same primary minutes: legal_basis had the wrong resolution number for the data-center instrument (2025-03 instead of 2025-02, i.e. it was citing the solar resolution's number), and that correctly-cited resolution 2025-02 turns out to also cover cryptocurrency mining facilities (title: 'Data Center and Cryptocurrency Mining Facilities'), so cryptocurrency_mining was added to sectors."
+    },
+    {
+      "moratorium_id": "nd-oliver-county-2026-p3",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "sectors": {
+          "from": "[\"data_center\"]",
+          "to": "[\"data_center\",\"cryptocurrency_mining\"]",
+          "reason": "Oliver County's own March 13, 2026 Commission minutes describe the second reading and adoption of 'Resolution 2026-02 for Data Center and Cryptocurrency Mining Facilities moratorium' as a single combined instrument, consistent with the row's own legal_basis text ('a 180-day moratorium on data center and cryptocurrency mining facilities'). This is operative scope stated in the resolution's own title/adoption language, not a trigger mention or a separate instrument."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://olivercountynd.org/index.asp?SEC=227AD67B-A719-4DFE-8789-8464C7889A48",
+          "title": "Oliver County Commission minutes, March 13, 2026",
+          "publisher": "Oliver County, ND",
+          "document_date": "2026-03-13",
+          "source_type": "minutes",
+          "supports": "Second reading and 180-day adoption of Resolution 2026-02, titled 'Data Center and Cryptocurrency Mining Facilities moratorium.'",
+          "quote": "The second reading of the Resolution 2026-02 for Data Center and Cryptocurrency Mining Facilities moratorium was held with the 36-month recommendation from the Planning & Zoning Board... the motion to approve a moratorium for 180 days from the date of approval, with the option to extend if needed... All in favor, none opposed; motion carried."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: 'crypto' is not a mere trigger mention or exclusion -- Resolution 2026-02's own title and adoption language make cryptocurrency mining facilities equally within its operative scope alongside data centers. sectors corrected to add cryptocurrency_mining."
+    }
+  ]
+}

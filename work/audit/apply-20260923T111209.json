@@ -1,0 +1,816 @@
+{
+  "applied_at": "20260923T111209",
+  "answer_files": [
+    "work/answers/qa4/AR.json",
+    "work/answers/qa4/CA.json",
+    "work/answers/qa4/CO.json",
+    "work/answers/qa4/GA.json",
+    "work/answers/qa4/IA.json",
+    "work/answers/qa4/IL.json",
+    "work/answers/qa4/IN.json",
+    "work/answers/qa4/KS.json",
+    "work/answers/qa4/KY.json",
+    "work/answers/qa4/LA.json",
+    "work/answers/qa4/MA.json",
+    "work/answers/qa4/MD.json",
+    "work/answers/qa4/ME.json",
+    "work/answers/qa4/MI.json",
+    "work/answers/qa4/MN.json",
+    "work/answers/qa4/NC.json",
+    "work/answers/qa4/ND.json",
+    "work/answers/qa4/NE.json",
+    "work/answers/qa4/NM.json",
+    "work/answers/qa4/NY.json",
+    "work/answers/qa4/OH.json",
+    "work/answers/qa4/SC.json",
+    "work/answers/qa4/SD.json",
+    "work/answers/qa4/TN.json",
+    "work/answers/qa4/TX.json",
+    "work/answers/qa4/UT.json",
+    "work/answers/qa4/VA.json",
+    "work/answers/qa4/WA.json"
+  ],
+  "stats": {
+    "outcome:confirmed_unchanged": 54,
+    "outcome:corrected": 64,
+    "fields_changed": 89,
+    "outcome:unresolvable": 11,
+    "outcome:status_changed": 4,
+    "status_changed": 4,
+    "skipped_drift": 1,
+    "verify_corrected": 1,
+    "verify_resolved_via_field_rewrite": 1,
+    "verify_still_open": 3,
+    "duration_invariant_enforced": 1
+  },
+  "conflicts": [
+    "MI.json: mi-cascade-charter-township-kent-county-2026.current_end_date_iso `from` mismatch (csv='2026-09-17' answer='')"
+  ],
+  "skipped": [
+    "GA.json: ga-cedartown-2026 unresolvable",
+    "GA.json: ga-east-point-fulton-county-undated unresolvable",
+    "GA.json: ga-hogansville-2026 unresolvable",
+    "GA.json: ga-lamar-county-2025 unresolvable",
+    "IL.json: il-city-of-troy-2026 unresolvable",
+    "IL.json: il-robinson-undated unresolvable",
+    "MI.json: mi-lima-township-2025 unresolvable",
+    "MI.json: mi-utica-2026 unresolvable",
+    "ND.json: nd-mcintosh-county-2025 unresolvable",
+    "OH.json: oh-mount-orab-2026 unresolvable",
+    "OH.json: oh-washington-township-2025 unresolvable"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "ca-baldwin-park-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "45",
+      "reason": "DURATION_MISMATCH: duration_days must be the ORIGINAL term. Council Member Estrada's official announcement confirms the initial urgency ordinance adopted March 4, 2026 was a 45-day moratorium; the April 15, 2026 action added '10 months and 15 days' (bringing the total to roughly one year), which is an extension, not the original term.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-el-monte-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-03-17",
+      "reason": "EXTENDED_NO_END_DATE: computed from the two confirmed statutory dates (initial 45-day term from 2026-03-18 expiring 2026-05-02, plus the 10-month-15-day extension adopted 2026-04-22 running from that expiration), corroborated by the city's own official announcement of the extension running 'through March 2027.'",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ca-patterson-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-07-15",
+      "reason": "EXTENDED_NO_END_DATE: KCRA news coverage of the Aug. 18, 2026 council vote states the specific extension end date.",
+      "source": "CA.json"
+    },
+    {
+      "moratorium_id": "ga-appling-county-2026",
+      "column": "current_status",
+      "before": "Adopted 2026-08-04 for 40 days (to about 2026-09-13); whether it was extended after a public hearing was not found as of 2026-09-23.",
+      "after": "Adopted 2026-08-04 for 40 days (to about 2026-09-13). The original 40-day emergency term has lapsed; Sept. 1, 2026 board minutes-summary shows the commission moved consideration of a follow-on 180-day data-center moratorium resolution to its Sept. 8, 2026 meeting (the Sept. 17 called-meeting agenda covered only the FY2027 millage rate and tax levies, with no moratorium item). No minutes or news confirming the Sept. 8 vote outcome or a new end date were found as of 2026-09-23, so the moratorium's current status (extended by a 180-day resolution, replaced, or lapsed) remains unconfirmed.",
+      "reason": "COMPUTED_EXPIRY_PASSED: original 40-day term (2026-08-04 + 40 days = 2026-09-13) has passed. Appling County's own Sept. 1, 2026 meeting summary shows the county was actively moving toward a 180-day follow-on moratorium resolution (item moved to the Sept. 8 meeting), i.e. the matter was pending a vote, not abandoned, but the outcome of that vote could not be confirmed in this pass.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-banks-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-03-09",
+      "reason": "EXTENDED_NO_END_DATE: Banks County Board of Commissioners extended the data center moratorium (alongside a companion R-1 zoning moratorium) through March 9, 2027, per Main Street News (Banks County News) coverage published Sept. 13, 2026.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-carroll-county-2026",
+      "column": "sectors",
+      "before": "[\"data_center\",\"battery_storage\"]",
+      "after": "[\"data_center\",\"battery_storage\",\"solar\"]",
+      "reason": "SECTOR_CHECK: the operative March 3, 2026 resolution's own title and Section 2 moratorium clause explicitly cover 'any Data Center, Battery Energy Storage System, and Solar Power Farms' (and the extensions carry the same scope forward), so solar is part of the moratorium's operative scope, not just a trigger mention or a separate draft ordinance.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-colquitt-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-02-28",
+      "reason": "EXTENDED_NO_END_DATE: Moultrie Observer reports the commission voted (at a Sept. 1, 2026 meeting, reported Sept. 8) to extend the data-center moratorium another 180 days; 180 days from the Sept. 1, 2026 vote date is 2027-02-28. The source does not state whether the 180 days runs from the vote date or from the prior term's Oct. 1 expiry, so this end date should be treated as approximate.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-crawford-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-10-01",
+      "reason": "EXTENDED_NO_END_DATE: signed May 21, 2026 Board of Commissioners minutes record a 5-0 motion extending the data-center moratorium to a specific calendar date.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-meriwether-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-11-21",
+      "reason": "EXTENDED_NO_END_DATE: Citizen Portal's summary of the county's own board action records a specific extension end date.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-milton-fulton-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "30",
+      "reason": "DURATION_MISMATCH: duration_days must record the ORIGINAL term. The moratorium was originally a 30-day pause enacted 2026-06-15; the 180 days is the length of the July 20, 2026 extension (already correctly captured in current_end_date_iso=2027-01-16), not the original term.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-oglethorpe-county-2026",
+      "column": "sectors",
+      "before": "[\"data_center\"]",
+      "after": "[\"data_center\",\"cryptocurrency_mining\"]",
+      "reason": "SECTOR_CHECK: per the Oglethorpe Echo's report of the enacting meeting, a commissioner's amendment adding restrictions on 'major computer processing centers, like bitcoin mining' to the moratorium was moved and approved by the board as part of the same action, not merely discussed or left to a separate instrument.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-south-fulton-undated",
+      "column": "current_end_date_iso",
+      "before": "2026-09-09",
+      "after": "",
+      "reason": "Superseded before its RES2026-043 term (2026-09-09) ran: the City Council adopted Ordinance ORD2026-024 repealing and replacing the city's data-center zoning regulations, so the interim moratorium's fixed end date is no longer the operative status.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-south-fulton-undated",
+      "column": "current_status",
+      "before": "Term ended 2026-09-09 under RES2026-043; as of 2026-09-23 no further extension resolution or adopted data center text amendment was located (city agenda center and news searched), so whether it lapsed or was extended is unconfirmed.",
+      "after": "Replaced as of 2026-09-23. Before the RES2026-043 term (through 2026-09-09) ran out, the City Council took up Ordinance ORD2026-024, 'An Ordinance to Repeal and Replace the City's Data Center Regulations,' on its Aug. 11, 2026 agenda (posted Aug. 17, 2026); Council for Quality Growth's Aug. 17, 2026 post titled 'South Fulton Approves Data Center Ordinance' corroborates adoption. The permanent ordinance establishes zoning, permitting and performance standards (20-acre minimum lot, height/buffer/landscape-strip standards, M-1/M-2-only siting) superseding the interim moratorium; as of a Sept. 7, 2026 code check the Municode codification still showed the prior Sec. 302.48 text pending an update, consistent with adoption preceding formal codification.",
+      "reason": "END_DATE_PASSED: the interim moratorium's Sept. 9, 2026 end date was superseded by adoption of a permanent data-center zoning ordinance (ORD2026-024) before that date, so the row's enacted_status moves to replaced and the fixed interim end date is no longer the operative status.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-south-fulton-undated",
+      "column": "enacted_status",
+      "before": "extended",
+      "after": "replaced",
+      "reason": "END_DATE_PASSED resolved as 'replaced' rather than 'extended' or 'lapsed': the city moved to a permanent zoning ordinance before the interim moratorium's extended term expired. Some residual uncertainty remains because the Council for Quality Growth confirmation is paywalled and the Municode codification had not yet been updated as of Sept. 7, 2026 (codification lag, not evidence against adoption).",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-coweta-county-2025",
+      "column": "legal_basis",
+      "before": "Board of Commissioners moratorium resolution; replaced by permanent data center ordinance posted at https://www.coweta.ga.us/home/showpublisheddocument/32598/639016609046670000 [VERIFY: Coweta civic-clerk portal blocks direct PDF download (HTTP 403); ordinance number not yet retrieved as of 2026-04-29]",
+      "after": "(first instrument, May 2025) Board of Commissioners moratorium resolution; replaced by permanent data center ordinance posted at https://www.coweta.ga.us/home/showpublisheddocument/32598/639016609046670000 [VERIFY: Coweta civic-clerk portal blocks direct PDF download (HTTP 403); ordinance number not yet retrieved as of 2026-04-29]",
+      "reason": "DUP_MARKER: this and ga-coweta-county-2026 share a jurisdiction with no instrument number on either row; no resolution number was found for the May 2025 moratorium within the search budget, so the fallback phase-and-date label required by the process is used to distinguish the two rows.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ga-coweta-county-2026",
+      "column": "legal_basis",
+      "before": "Coweta County Board of Commissioners resolution imposing a 180-day moratorium on acceptance of permits, land use amendments, rezoning/conditional use and variance applications and public hearings related to data centers (2026 review of the December 2025 data center ordinance)",
+      "after": "(second instrument, June 2026) Coweta County Board of Commissioners resolution imposing a 180-day moratorium on acceptance of permits, land use amendments, rezoning/conditional use and variance applications and public hearings related to data centers (2026 review of the December 2025 data center ordinance)",
+      "reason": "DUP_MARKER: this and ga-coweta-county-2025 share a jurisdiction with no instrument number on either row; no resolution number was found for the June 2026 moratorium within the search budget, so the fallback phase-and-date label required by the process is used to distinguish the two rows.",
+      "source": "GA.json"
+    },
+    {
+      "moratorium_id": "ia-adair-county-2026",
+      "column": "sectors",
+      "before": "[\"data_center\"]",
+      "after": "[\"data_center\",\"battery_storage\"]",
+      "reason": "The archived full text of Resolution #2026-26, as read into the record and reported by the Atlantic News-Telegraph, resolves that the Board 'does hereby establish and impose a temporary moratorium on the construction of data centers, high-density computing facilities, and battery storage facilities in the unincorporated areas of Adair County.' Battery storage is part of the operative moratorium, not just a trigger.",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-audubon-county-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-05-01",
+      "reason": "Resolution 2026-25 (adopted 2026-05-05) extends the BESS moratorium 'effective immediately and until May 1, 2027; or until passage of a permanent Utility Scale BESS Development ordinance.'",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-floyd-county-2023",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-12-29",
+      "reason": "Supervisors unanimously extended the BESS moratorium on 2026-09-15 to run 'through December 29, 2026, unless supervisors modify or repeal it earlier.'",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "ia-palo-alto-county-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-04-01",
+      "reason": "Resolution No. 3-10-2026 extends the cryptocurrency/data mining moratorium originally imposed by Resolution 6-3-2025 'to now expire on April 1, 2027, or upon passing of an ordinance ... whichever comes first.'",
+      "source": "IA.json"
+    },
+    {
+      "moratorium_id": "il-ottawa-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-08-25",
+      "reason": "EXTENDED_NO_END_DATE: Shaw Local News Network reports the City Council's Aug. 18/19, 2026 unanimous vote extended the moratorium through a specific date.",
+      "source": "IL.json"
+    },
+    {
+      "moratorium_id": "in-madison-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-06-16",
+      "reason": "News coverage describes the Aug. 4, 2026 action as extending the moratorium 'from six months to a full year' -- i.e., the total term becomes twelve months from the original June 2026 adoption, not twelve months measured from the August extension vote. 2026-06-16 (the row's date_enacted_iso) + 12 months = 2027-06-16.",
+      "source": "IN.json"
+    },
+    {
+      "moratorium_id": "in-putnam-county-2025",
+      "column": "sectors",
+      "before": "[\"solar\", \"data_center\"]",
+      "after": "[\"data_center\",\"solar\",\"wind\"]",
+      "reason": "News coverage of the Nov. 17, 2025 vote and the legal_basis text both confirm the moratorium's operative scope explicitly includes wind energy systems, not just solar and data centers.",
+      "source": "IN.json"
+    },
+    {
+      "moratorium_id": "ky-oldham-county-fiscal-court-2025",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "until_event",
+      "reason": "EXTENDED_NO_END_DATE: the extension (Ordinance KOC 25-910-520) runs 'until data center regulations are approved,' an event-based endpoint, not a fixed calendar date. As of 2026-09-23 that event has not occurred: the Fiscal Court's second-reading vote on the revised regulations (KOC 26-920-5) is calendared for 2026-10-06, after this research date.",
+      "source": "KY.json"
+    },
+    {
+      "moratorium_id": "ky-oldham-county-fiscal-court-2025",
+      "column": "current_status",
+      "before": "Still in effect as of 2026-09-23; the July 21 second reading never occurred as planned. Court Chair Voegele ruled the Fiscal Court's 2026-08-24 special-called meeting void because the court failed to approve its own agenda, so the item restarted. On 2026-09-01 the Fiscal Court reconsidered and unanimously adopted substantive revisions to the draft regulations (still numbered KOC 26-920-5): striking all references to 'large'/'hyperscale' data centers while adding a 10 MW maximum power-capacity cap (effectively banning hyperscale projects), raising the square-footage cap for 'medium' data centers to 110,000 sq ft, and requiring two weeks' advance notice to property owners within 1,000 ft of a proposed site's neighborhood meeting. County Attorney D. Berry Baxter, backed by outside zoning counsel and the Kentucky Association of Counties, concluded KRS 100.211(8)'s 90-day deadline for zoning MAP amendments does not apply to this zoning TEXT amendment, so no statutory deadline forces a vote. The Fiscal Court's public hearing and final (second-reading) vote on KOC 26-920-5 is now calendared for 2026-10-06, after this research date. Until that vote, the moratorium (KOC 25-910-508, extended by KOC 25-910-520 'until data center regulations are approved') remains the operative instrument.",
+      "after": "Still in effect as of 2026-09-23, event-based: the July 21 second reading never occurred as planned. Court Chair Voegele ruled the Fiscal Court's 2026-08-24 special-called meeting void because the court failed to approve its own agenda, so the item restarted. On 2026-09-01 the Fiscal Court reconsidered and unanimously adopted substantive revisions to the draft regulations (still numbered KOC 26-920-5): striking all references to 'large'/'hyperscale' data centers while adding a 10 MW maximum power-capacity cap (effectively banning hyperscale projects), raising the square-footage cap for 'medium' data centers to 110,000 sq ft, and requiring two weeks' advance notice to property owners within 1,000 ft of a proposed site's neighborhood meeting. County Attorney D. Berry Baxter, backed by outside zoning counsel and the Kentucky Association of Counties, concluded KRS 100.211(8)'s 90-day deadline for zoning MAP amendments does not apply to this zoning TEXT amendment, so no statutory deadline forces a vote. The Fiscal Court's public hearing and final (second-reading) vote on KOC 26-920-5 is now calendared for 2026-10-06, after this research date. The moratorium (KOC 25-910-508, extended by KOC 25-910-520 'until data center regulations are approved') has no fixed end date -- it remains the operative instrument until that vote occurs (or another statutory event ends it), consistent with an Aug. 19, 2026 news report confirming the moratorium 'remains in place' pending the Fiscal Court's next action.",
+      "reason": "Aligns current_status wording with the corrected event-based duration_kind.",
+      "source": "KY.json"
+    },
+    {
+      "moratorium_id": "ky-scott-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-12-31",
+      "reason": "EXTENDED_NO_END_DATE: multiple sources confirm the six-month moratorium (originally set to expire in September 2026) was extended to run through the end of December 2026; no source located gives a more precise day than 'end of December,' so the last day of the month is used as an approximation.",
+      "source": "KY.json"
+    },
+    {
+      "moratorium_id": "me-sanford-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "91",
+      "reason": "The originally enacted emergency moratorium (2026-05-19) was 91 days, running to Aug. 18, 2026; the 180-day term is the August 2026 EXTENSION, not the original term. duration_days must reflect the original enacted term.",
+      "source": "ME.json"
+    },
+    {
+      "moratorium_id": "mi-brandon-township-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-04-29",
+      "reason": "Original 180-day term from the 2026-05-04 adoption date runs to 2026-10-31; the board's confirmed single 180-day extension (exercised mid-September 2026, per news coverage) runs sequentially from that original expiration, giving 2026-10-31 + 180 days = 2027-04-29. This matches the row's own prior estimate ('about late April 2027').",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-dexter-township-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-02-12",
+      "reason": "Resolution No. 26-705's original 180-day term from 2026-02-17 runs to 2026-08-16. Resolution No. 26-711 (adopted 2026-07-21, before that term lapsed) extends the moratorium 'for a period of 180 days'; consistent with the row's own prior estimate ('roughly mid-February 2027'), this runs sequentially from the original expiration: 2026-08-16 + 180 days = 2027-02-12.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-elmwood-township-tuscola-county-2026",
+      "column": "duration",
+      "before": "Nine months (amended down from a proposed 12 months)",
+      "after": "Nine months (amended down from a proposed 12 months) under the original Feb. 18, 2026 ordinance; superseded before expiry by a fresh 12-month moratorium under Resolution No. 2026.06.17.A, adopted June 17, 2026, which also added cryptocurrency mining facilities to the covered uses",
+      "reason": "The original nine-month ordinance's own ORIGINAL term (270 days, confirmed correct for DURATION_MISMATCH -- the '12 months' mentioned is an earlier, rejected proposal) has since been superseded by a later resolution found in this pass.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-elmwood-township-tuscola-county-2026",
+      "column": "duration_days",
+      "before": "270",
+      "after": "365",
+      "reason": "Tuscola Today's June 2026 reporting on the township's June 17, 2026 board meeting confirms the board 'adopted Resolution No. 2026.06.17.A, imposing a 12-month temporary moratorium on data centers and cryptocurrency mining facilities,' re-grounding the moratorium on the Michigan Zoning Enabling Act for greater legal defensibility. Following the convention used elsewhere in this inventory for a superseding instrument (e.g. Sylvan Township), duration_days reflects the currently operative instrument's own original term (365 days), not the now-superseded first ordinance's 270-day term.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-elmwood-township-tuscola-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-06-17",
+      "reason": "365 days after Resolution No. 2026.06.17.A's June 17, 2026 adoption (the article states the ordinance's zoning-amendment/police-power predecessors are being reinforced by this resolution, with no gap in the operative pause).",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-elmwood-township-tuscola-county-2026",
+      "column": "sectors",
+      "before": "[\"data_center\"]",
+      "after": "[\"data_center\",\"cryptocurrency_mining\"]",
+      "reason": "Resolution No. 2026.06.17.A explicitly imposes the moratorium on 'data centers and cryptocurrency mining facilities' -- operative scope, not a trigger mention.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-elmwood-township-tuscola-county-2026",
+      "column": "legal_basis",
+      "before": "Township ordinance enacting a temporary moratorium on data centers (adopted 2026-02-18; ordinance number not reported)",
+      "after": "Township ordinance/resolution enacting a temporary nine-month moratorium on data centers, adopted 2026-02-18 (ordinance number not reported); superseded before its expiry by Resolution No. 2026.06.17.A, adopted 2026-06-17, imposing a fresh 12-month moratorium on data centers and cryptocurrency mining facilities, adopted alongside a reaffirmation of the Planning Commission's establishment under the Michigan Planning Enabling Act, to make the moratorium 'more legally defensible if challenged in court'",
+      "reason": "Adds the June 17, 2026 superseding resolution discovered while researching the DURATION_MISMATCH/SECTOR_CHECK flags.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-elmwood-township-tuscola-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; nine-month data center moratorium ordinance adopted 2026-02-18 runs to approximately mid-November 2026 (exact effective date after publication not located); no extension or replacement ordinance found.",
+      "after": "Extended as of 2026-09-23. The original nine-month data center moratorium ordinance (adopted 2026-02-18) was superseded, before its own term would have expired, by Resolution No. 2026.06.17.A, adopted 2026-06-17, imposing a fresh 12-month moratorium on data centers AND cryptocurrency mining facilities, running to approximately 2027-06-17. Township officials said the June resolution re-grounds the pause under the Michigan Zoning Enabling Act to be 'more legally defensible if challenged in court.'",
+      "reason": "Corrects the prior pass's 'no extension or replacement ordinance found' -- a June 17, 2026 Tuscola Today article on that night's board meeting documents the superseding resolution.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-elmwood-township-tuscola-county-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "DURATION_MISMATCH resolved as originally flagged: the '12 months' in the row's duration text is an earlier, rejected proposal (confirmed by the same underlying facts as before); the ORIGINAL Feb. 18, 2026 ordinance's own term is nine months (270 days). SECTOR_CHECK resolved: while verifying that, found via the same Tuscola Today article that a later resolution (2026.06.17.A, June 17, 2026) superseded the February ordinance with a fresh 12-month moratorium that explicitly covers cryptocurrency mining as well as data centers -- this is beyond the packet's specific flags but is dispositive new information bearing directly on both the row's status and its sectors, so it is reflected here rather than left for a later pass. Retained mi-elmwood-township-tuscola-county-2026's jurisdiction is confirmed as Tuscola County (article references the Tuscola Technology Center venue and neighboring Arbela Township), distinct from the separate Elmwood Township in Leelanau County.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-genoa-charter-township-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-02-02",
+      "reason": "Original resolution's six-month term from the 2026-02-02 adoption date runs to 2026-08-02; the board's confirmed 'one-time, six-month extension' (adopted Aug. 17, 2026, per news coverage) runs sequentially from that point: 2026-08-02 + 6 months = 2027-02-02, matching the row's own prior estimate ('roughly February 2027').",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-lenox-township-2026",
+      "column": "sectors",
+      "before": "[\"general\"]",
+      "after": "[\"data_center\"]",
+      "reason": "Lenox Township's own official Board of Trustees minutes for the February 2, 2026 meeting -- the meeting that adopted this row's tracked moratorium -- show the agenda item and adopted motion were both titled/framed specifically around data centers, not industrial development generally.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-oshtemo-charter-township-2025",
+      "column": "legal_basis",
+      "before": "Township Board moratorium ordinance on commercial energy storage facilities (ordinance number not located)",
+      "after": "(first instrument, November 2025) Oshtemo Charter Township ordinance imposing a one-year moratorium on commercial energy storage system (BESS) development, adopted 5-2 on first reading and unanimously (two absent) on second/final reading at the November 25, 2025 Township Board meeting; specific ordinance number not confirmed despite checking the township's PA233-BESS information page, its Notices archive, news coverage (MLive, Energy-Storage.news), and the encodeplus.com compiled-ordinance viewer (which does show Ordinance No. 688, the later data-center moratorium, and No. 695, the later solar moratorium, but the relevant section for the November 2025 BESS moratorium could not be located by section ID)",
+      "reason": "DUP_MARKER: this is one of three same-jurisdiction Oshtemo Charter Township rows (BESS, data center, solar) that the validator cannot otherwise tell apart. The other two rows already carry explicit ordinance numbers (688 and 695); this row's ordinance number could not be found despite a multi-source search, so the fallback '(first instrument, <month year>)' label is used per the flag's resolution rule, chronologically first of the three (Nov. 2025, vs. March 2026 for the data-center ordinance and Aug. 2026 for the solar ordinance).",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-oshtemo-charter-township-2026-2",
+      "column": "legal_basis",
+      "before": "Township police-power (general) ordinance imposing a moratorium on principal-use solar energy systems (ordinance number not located)",
+      "after": "Oshtemo Charter Township Ordinance No. 695, an ordinance imposing a moratorium on Solar Energy Development for Principal-Use SES, Principal-Use (Large) SES, and Principal-Use (Small) SES, adopted at the August 11, 2026 Township Board meeting (second reading; first reading July 28, 2026), published August 20, 2026",
+      "reason": "DUP_MARKER: the township's own Notices page and its published notice of adoption give the specific ordinance number, resolving the previously unlocated citation and distinguishing this row from the township's other two rows (data center, Ordinance No. 688; BESS, unlocated number).",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-saginaw-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-12-31",
+      "reason": "MLive's coverage of the April 27, 2026 extension vote states the six-month extension 'pushes the moratorium to the end of December' (2026); no exact day is given in any source found, so the last calendar day of December (Dec. 31, 2026) is used as the best available reading of 'the end of December.'",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-saugatuck-township-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-10-31",
+      "reason": "Resolution 2026-17's own operative text sets a hard calendar cap: the moratorium is extended through 11:59 p.m. on October 31, 2026, or the effective date of a new data center ordinance, whichever comes first.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-solon-township-kent-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-02-10",
+      "reason": "MLive reports the Planning Commission's recommended ordinance amendment 'extend[s] the township's data center moratorium until Feb. 10, 2027,' following the Township Board's confirmed six-month extension approved at its July 13, 2026 meeting.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-sylvan-township-2026",
+      "column": "sectors",
+      "before": "[\"general\"]",
+      "after": "[\"data_center\",\"general\"]",
+      "reason": "Both the original Ordinance 26-01 ('a 180-day moratorium on accepting/processing data-center applications only') and the current Resolution 26-05 ('a 12-month moratorium on data centers, high-energy users, power-generation facilities, and similar uses') explicitly and repeatedly name data centers as covered -- this is operative scope, not a trigger mention or exclusion. 'general' is kept because Resolution 26-05 also sweeps in 'high-energy users' and 'power-generation facilities,' broader categories with no single matching sector tag in this inventory's taxonomy.",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mi-wisner-township-undated",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-02-17",
+      "reason": "Township minutes confirm a six-month extension was adopted at the Aug. 17, 2026 meeting; since the moratorium's original adoption date is itself unconfirmed (date_enacted_iso is already blank on this row), this is computed as six months forward from the one confirmed date available (the extension's own adoption date), which also matches the row's own prior estimate ('to about February 2027').",
+      "source": "MI.json"
+    },
+    {
+      "moratorium_id": "mn-freeborn-county-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-08-19",
+      "reason": "EXTENDED_NO_END_DATE: ABC 6 News (KAAL-TV) confirms the exact original adoption date and the extension's specific new end date.",
+      "source": "MN.json"
+    },
+    {
+      "moratorium_id": "mn-freeborn-county-2025",
+      "column": "date_enacted_iso",
+      "before": "2025-08",
+      "after": "2025-08-19",
+      "reason": "Same source gives the exact original adoption date, which was previously only known to the month.",
+      "source": "MN.json"
+    },
+    {
+      "moratorium_id": "mn-freeborn-county-2025",
+      "column": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact",
+      "reason": "Consistent with the corrected exact date_enacted_iso.",
+      "source": "MN.json"
+    },
+    {
+      "moratorium_id": "nc-cherokee-county-2023",
+      "column": "sectors",
+      "before": "[\"cryptocurrency_mining\"]",
+      "after": "[\"cryptocurrency_mining\",\"data_center\"]",
+      "reason": "SECTOR_CHECK: the operative ordinance's Section 1 definitional list of covered 'high impact industries and/or facilities' includes a distinct data-center-type use ('Unenclosed data storage facilities utilizing any powered cooling devices') alongside the cryptocurrency-mining definition, so data centers were part of the moratorium's operative scope, not merely a trigger mention.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-kings-mountain-2026",
+      "column": "duration_days",
+      "before": "547",
+      "after": "182",
+      "reason": "DURATION_MISMATCH: duration_days must be the ORIGINAL term. Ordinance 26-11 enacted a 182-day moratorium (2026-02-24 to 2026-08-25, per the county's own minutes); the 12-month extension adopted 2026-08-25 is a separate extension already captured in current_end_date_iso=2027-08-25, not the original term.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-city-of-mount-airy-2026",
+      "column": "duration_days",
+      "before": "150",
+      "after": "60",
+      "reason": "DURATION_MISMATCH: duration_days must be the ORIGINAL term. Ordinance No. 2027-002 enacted an initial 60-day moratorium (2026-07-16 to 2026-09-14); the subsequent 90-day extension (Ordinance No. 2027-008) is already captured in current_end_date_iso=2026-12-13, not the original term.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-durham-2026",
+      "column": "duration_days",
+      "before": "364",
+      "after": "60",
+      "reason": "DURATION_MISMATCH: duration_days must be the ORIGINAL term. The initial ordinance (PR #19257, adopted 2026-05-04) was a 60-day moratorium; the 10-month extension (Ordinance #16683, adopted 2026-06-15) bringing the total to 12 months is already captured in current_end_date_iso=2027-05-03, not the original term.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-surry-county-2026",
+      "column": "duration_days",
+      "before": "780",
+      "after": "60",
+      "reason": "DURATION_MISMATCH: duration_days must be the ORIGINAL term. The initial (unnumbered) ordinance adopted 2026-06-01 imposed a 60-day moratorium; the 2026-07-20 extension ordinance running through 2028-07-20 is already captured in current_end_date_iso, not the original term.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-apex-2026",
+      "column": "sectors",
+      "before": "[\"data_center\"]",
+      "after": "[\"data_center\",\"cryptocurrency_mining\"]",
+      "reason": "SECTOR_CHECK: the enacted ordinance's title and Section 1 operative text expressly impose the moratorium on 'data centers, data processing facilities, cryptocurrency mining operations and any use associated with data processing facilities,' so cryptocurrency mining is within the moratorium's operative scope, not merely a trigger mention.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-boone-2026",
+      "column": "sectors",
+      "before": "[\"data_center\"]",
+      "after": "[\"data_center\",\"cryptocurrency_mining\"]",
+      "reason": "SECTOR_CHECK: news coverage of the adopted ordinance states it 'bans the development of cryptocurrency mining or data centers within town limits for one year,' i.e. cryptocurrency mining is part of the moratorium's operative scope, not a trigger mention or separate instrument.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-hillsborough-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "60",
+      "reason": "DURATION_MISMATCH: duration_days must be the ORIGINAL term. Ordinance 20260527-5.A enacted an initial 60-day moratorium (May 28-July 27, 2026); the June 22, 2026 extension through May 27, 2027 is already captured in current_end_date_iso, not the original term.",
+      "source": "NC.json"
+    },
+    {
+      "moratorium_id": "nd-oliver-county-2025-p2",
+      "column": "legal_basis",
+      "before": "Resolution 2025-03 (companion to a parallel solar resolution; second reading and adoption at the May 6, 2025 Commission meeting; vote 2-1, Berger and Schmidt aye, Husfloen nay, per official minutes)",
+      "after": "Resolution 2025-02, 'A Resolution of the County of Oliver, North Dakota, to Impose a Moratorium on the Development of All Data Center and Cryptocurrency Mining Facilities Until Zoning Standards Can Be Developed' (companion to Resolution 2025-03, the separate Solar Energy Facilities moratorium); second reading and adoption at the May 6, 2025 Commission meeting; vote 2-1, Berger and Schmidt aye, Husfloen nay, per official minutes",
+      "reason": "The county's own posted minutes for the April 15, 2025 Planning & Zoning first reading and the May 6, 2025 Commission second reading/adoption both show Resolution 2025-02 is titled the Data Center AND Cryptocurrency Mining Facilities moratorium, while Resolution 2025-03 is titled the separate Solar Energy Facilities moratorium. The row's own jurisdiction label is '(Phase 2)' data center track with sectors=[\"data_center\"], so its legal_basis should cite 2025-02, not 2025-03 (which is the solar instrument the SECTOR_CHECK flag is asking about).",
+      "source": "ND.json"
+    },
+    {
+      "moratorium_id": "nd-oliver-county-2025-p2",
+      "column": "sectors",
+      "before": "[\"data_center\"]",
+      "after": "[\"data_center\",\"cryptocurrency_mining\"]",
+      "reason": "Resolution 2025-02's own text (the corrected legal_basis) imposes the moratorium on 'all data centers AND cryptocurrency mining facilities' as a single combined instrument -- the same pattern used elsewhere in this inventory for Oliver County Phase 1 and Phase 3. Cryptocurrency mining is operative scope of this resolution, not a trigger mention or a separate instrument.",
+      "source": "ND.json"
+    },
+    {
+      "moratorium_id": "nd-oliver-county-2025-p2",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2025-08-04",
+      "reason": "90 days (duration_days, unchanged) after the confirmed 2025-05-06 adoption date is 2025-08-04, matching the row's own current_status text ('ran out on or about 2025-08-04').",
+      "source": "ND.json"
+    },
+    {
+      "moratorium_id": "nd-oliver-county-2026-p3",
+      "column": "sectors",
+      "before": "[\"data_center\"]",
+      "after": "[\"data_center\",\"cryptocurrency_mining\"]",
+      "reason": "Oliver County's own March 13, 2026 Commission minutes describe the second reading and adoption of 'Resolution 2026-02 for Data Center and Cryptocurrency Mining Facilities moratorium' as a single combined instrument, consistent with the row's own legal_basis text ('a 180-day moratorium on data center and cryptocurrency mining facilities'). This is operative scope stated in the resolution's own title/adoption language, not a trigger mention or a separate instrument.",
+      "source": "ND.json"
+    },
+    {
+      "moratorium_id": "ne-red-willow-county-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-09-22",
+      "reason": "Resolution No. 1612 (adopted 2026-08-24) extends the data-center zoning moratorium 'for an additional 12 months.' Renewal resolutions of this kind ordinarily tack the additional term onto the existing term rather than restart the clock at the vote date, so the original term's expiration (2026-09-22) plus 12 months yields 2027-09-22.",
+      "source": "NE.json"
+    },
+    {
+      "moratorium_id": "ne-red-willow-county-2025",
+      "column": "sectors",
+      "before": "[\"general\"]",
+      "after": "[\"data_center\"]",
+      "reason": "Both the legal_basis (Resolution No. 1577, 'Adopt 12 Month Zoning Moratorium on Data Centers') and the extension coverage confirm the moratorium's operative scope is specifically data centers -- a separate same-day resolution (No. 1611) covers pipelines. 'general' undercounts the specific, named sector.",
+      "source": "NE.json"
+    },
+    {
+      "moratorium_id": "ne-seward-county-2023",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-02-25",
+      "reason": "Resolution No. 3947 (adopted 2026-08-25) states the moratorium 'will remain in effect for six months from Aug. 25, 2026, or until new regulations are formally adopted and legally binding, whichever comes first.' 2026-08-25 + 6 months (184 days) = 2027-02-25.",
+      "source": "NE.json"
+    },
+    {
+      "moratorium_id": "ne-seward-county-2023",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "COMPUTED_EXPIRY_PASSED resolved: the original 2023-08-01 term (184 days) had lapsed as computed, but the county has continuously renewed the moratorium by resolution every ~6 months since, most recently to 2027-02-25 by Resolution No. 3947. enacted_status corrected from 'active' to 'extended' to reflect that this is a renewed/extended moratorium, not a still-running original term, consistent with the qa4 process guidance for this flag.",
+      "source": "NE.json"
+    },
+    {
+      "moratorium_id": "ny-north-tonawanda-2024",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-07-16",
+      "reason": "Local Law No. 3 of 2026 extends the moratorium 'twelve (12) months from the effective date of this Local Law' (effective upon filing with the NY Secretary of State); the signed/filed copy was not available to confirm the exact filing date, but the original moratorium was 'scheduled to expire July 16, 2026' and the extension was enacted June 16-17, 2026 specifically to avoid a lapse, so the filing is expected at or near July 16, 2026, yielding an end date of approximately 2027-07-16.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "ny-dryden-2024",
+      "column": "duration_days",
+      "before": "600",
+      "after": "548",
+      "reason": "The original term under Local Law No. 2 of 2024 was eighteen (18) months, not twenty. The 2026 extension (Local Law No. 1 of 2026) amended Section 6 ('Term') of Local Law No. 2 of 2024 by replacing 'eighteen (18)' with 'twenty (20)' months -- confirming 18 months, not 20, was the ORIGINAL enacted term. duration_days must reflect the original term: 18 months x ~30.44 days/month = 548 days, not the 20-month (600-day) extended term.",
+      "source": "NY.json"
+    },
+    {
+      "moratorium_id": "oh-ada-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-09-01",
+      "reason": "Resolution 2026-109 extends the moratorium 'for a period of an additional twelve (12) months from the effective date of this Resolution.' The Sept. 1, 2026 approved council minutes show Resolution 2026-109 adopted (moved by Councilman Beck, roll call) at the Sept. 1, 2026 meeting, and Section 3 of the resolution makes it effective on the date passed by Council. 2026-09-01 + 12 months = 2027-09-01.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-richfield-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-03-02",
+      "reason": "Ordinance 74-2026 enacts 'a second 180 day moratorium' on the same data-center zoning-certificate scope as Ordinance 18-2026, passed as an emergency measure effective on passage/mayoral approval at the Sept. 3, 2026 special meeting. 2026-09-03 + 180 days = 2027-03-02, matching the row's own current_status narrative.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-shalersville-township-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-11-01",
+      "reason": "Multiple independent news sources describe the extended moratorium's expiry only as 'early November' 2026 without a specific day; no primary trustee resolution with an exact date was located. 2026-11-01 is used as the best available approximation of 'early November.'",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "oh-weathersfield-township-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-04-25",
+      "reason": "The original six-month (180-day) moratorium adopted 2026-04-30 was due to expire in late October 2026 (2026-04-30 + 180 days = 2026-10-27) and trustees approved a further six-month extension in early September 2026, reported as running 'into April' 2027. 2026-10-27 + 180 days = 2027-04-25, used as the computed end date since no source gives an exact day.",
+      "source": "OH.json"
+    },
+    {
+      "moratorium_id": "sc-sumter-county-2026",
+      "column": "date_enacted",
+      "before": "An emergency 60-day moratorium (Ordinance 26-1049) covering solar, BESS, and data centers was approved and took effect immediately at the June 23, 2026 County Council meeting. Companion 180-day moratorium ordinances tailored to each use (Solar: Ordinance 26-1050; BESS: Ordinance 26-1051; Data Centers: Ordinance 26-1052) received second reading, with no public hearing held, at a July 21, 2026 special called meeting. No source reviewed confirmed a third-reading/final-adoption date for 26-1050/1051/1052.",
+      "after": "An emergency 60-day moratorium (Ordinance 26-1049) covering solar, BESS, and data centers was approved and took effect immediately at the June 23, 2026 County Council meeting. Companion 180-day moratorium ordinances tailored to each use (Solar: Ordinance 26-1050; BESS: Ordinance 26-1051; Data Centers: Ordinance 26-1052) received second reading at a July 21, 2026 special called meeting, then unanimous third and final reading at the August 11, 2026 regular Council meeting, per the county's own final minutes.",
+      "reason": "Sumter County's own posted final minutes for the August 11, 2026 regular meeting (Old Business items 1-3) show all three companion ordinances (26-1050 Solar, 26-1051 BESS, 26-1052 Data Center) each passed Third Reading unanimously that night, resolving the packet's PENDING_WITH_DATE flag: the instrument was in fact adopted, on a later date than the 2026-06-23 emergency order.",
+      "source": "SC.json"
+    },
+    {
+      "moratorium_id": "sc-sumter-county-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-06-23",
+      "after": "2026-08-11",
+      "reason": "2026-06-23 was the adoption date of the now-superseded 60-day emergency Ordinance 26-1049; the currently operative instrument (the 180-day companion ordinances 26-1050/1051/1052) reached final adoption on 2026-08-11, per the county's own posted minutes.",
+      "source": "SC.json"
+    },
+    {
+      "moratorium_id": "sc-sumter-county-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "range",
+      "after": "exact",
+      "reason": "The date is now pinned to a single, exact day (2026-08-11, the confirmed third-reading adoption date) rather than a range, per the county's own posted minutes.",
+      "source": "SC.json"
+    },
+    {
+      "moratorium_id": "sc-sumter-county-2026",
+      "column": "duration",
+      "before": "60 days (Ordinance 26-1049, emergency, effective immediately June 23, 2026); a further 180 days is proposed for each of the three companion ordinances (26-1050 solar, 26-1051 BESS, 26-1052 data centers) but final adoption was not confirmed",
+      "after": "180 days from the August 11, 2026 third-reading adoption of Ordinances 26-1050 (solar), 26-1051 (BESS), and 26-1052 (data centers), which superseded the 60-day emergency Ordinance 26-1049 (approved June 23, 2026, since lapsed)",
+      "reason": "The 180-day companion ordinances are now the operative instrument as of their August 11, 2026 final adoption; the June 2026 emergency order's 60-day term had already run by the time of adoption.",
+      "source": "SC.json"
+    },
+    {
+      "moratorium_id": "sc-sumter-county-2026",
+      "column": "duration_days",
+      "before": "",
+      "after": "180",
+      "reason": "Each of the three adopted ordinances imposes a 180-day moratorium per the July 21, 2026 special-called-meeting agenda titles and the August 11, 2026 minutes; duration_kind is fixed_days so duration_days must be populated.",
+      "source": "SC.json"
+    },
+    {
+      "moratorium_id": "sc-sumter-county-2026",
+      "column": "duration_kind",
+      "before": "unknown",
+      "after": "fixed_days",
+      "reason": "The adopted instrument has a stated fixed 180-day term, not an undetermined one.",
+      "source": "SC.json"
+    },
+    {
+      "moratorium_id": "sc-sumter-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-02-07",
+      "reason": "180 days after the August 11, 2026 adoption date (effective date not separately stated in reviewed sources; treated as effective on adoption, consistent with how other fixed-term county ordinances in this inventory are dated).",
+      "source": "SC.json"
+    },
+    {
+      "moratorium_id": "sc-sumter-county-2026",
+      "column": "legal_basis",
+      "before": "Emergency Ordinance 26-1049 (60-day moratorium on BESS, data centers, and solar farms, approved June 23, 2026); companion Ordinances 26-1050 (Solar), 26-1051 (BESS), and 26-1052 (Data Centers), each proposing a 180-day moratorium, given second reading July 21, 2026 per the county's own special-called-meeting agenda",
+      "after": "Emergency Ordinance 26-1049 (60-day moratorium on BESS, data centers, and solar farms, approved and effective June 23, 2026, since lapsed); superseded by Ordinances 26-1050 (Solar), 26-1051 (BESS), and 26-1052 (Data Centers), each imposing a 180-day moratorium, given second reading July 21, 2026 and unanimous third/final reading August 11, 2026 per the county's posted regular-meeting minutes",
+      "reason": "Adds the confirmed third-reading adoption that the prior text said could not be confirmed.",
+      "source": "SC.json"
+    },
+    {
+      "moratorium_id": "sc-sumter-county-2026",
+      "column": "current_status",
+      "before": "Uncertain as of 2026-09-23. The 60-day emergency moratorium (26-1049) took effect June 23, 2026 and would have lapsed around Aug. 22, 2026 absent further action. Companion 180-day ordinances for each sector (26-1050/1051/1052) passed second reading July 21, 2026 without a public hearing; no source reviewed (county website, news search) confirmed a third reading or final adoption date. By Sept. 8, 2026 the county had moved to a first reading of separate, permanent data-center zoning standards (OA-26-01), and a Sept.-dated Island Packet statewide roundup categorized \"Sumter County\" as still \"Proposed\" among 6-month moratoriums, consistent with final adoption of 26-1050/1051/1052 not having been confirmed. [VERIFY details not confirmed at confidence 0.5 in the 2026-09 refresh]",
+      "after": "Active as of 2026-09-23. The 60-day emergency moratorium (26-1049, effective June 23, 2026) lapsed around Aug. 22, 2026, but Council gave unanimous third and final reading to the three companion 180-day ordinances (26-1050 Solar, 26-1051 BESS, 26-1052 Data Centers) at its Aug. 11, 2026 regular meeting, per the county's own posted minutes, so the pause on new permits for solar, BESS, and data-center facilities has run continuously and is now due to run to roughly 2027-02-07. Separately, the county's Land Use Committee and Planning Commission continued work in August-September 2026 on permanent, non-moratorium data-center zoning standards (OA-26-01), which received first reading Sept. 8, 2026 and had not been adopted as of this date.",
+      "reason": "Resolves the PENDING_WITH_DATE flag and the row's own [VERIFY] marker: the county's official Aug. 11, 2026 minutes (not indexed by the earlier news roundup used in the prior pass) confirm the companion ordinances were in fact adopted, unanimously, on third reading.",
+      "source": "SC.json"
+    },
+    {
+      "moratorium_id": "sc-sumter-county-2026",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "",
+      "source": "SC.json"
+    },
+    {
+      "moratorium_id": "sd-yankton-county-2026",
+      "column": "legal_basis",
+      "before": "Yankton County Commission motion (Action 26248C), adopted 5-0 on July 21, 2026, following a July 10 public notice initially referenced as 'Ordinance 26-08'; final ordinance or resolution numbering was not confirmed",
+      "after": "Yankton County Resolution No. 26-7, 'Resolution Establishing a Temporary Moratorium on the Acceptance of Applications, or Issuing of Permits, for Approval of Building, Planning or Use Permits for Data Collection/Storage/Processing or Bitcoin Mining Facilities Exceeding a Power Capacity of 250 kW,' passed and approved 5-0 on July 21, 2026",
+      "reason": "The county's own posted resolution PDF gives the final instrument number and title (Resolution No. 26-7), resolving the prior row's 'final ordinance or resolution numbering was not confirmed' note; the 5-0 vote (Ayes: 5, Nays: 0) matches the row's existing 'adopted 5-0' language.",
+      "source": "SD.json"
+    },
+    {
+      "moratorium_id": "sd-yankton-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-01-17",
+      "reason": "Resolution No. 26-7 Section 2 sets the term at 'six (6) consecutive months' effective from passage/approval on 2026-07-21; 180 days (the row's own duration_days) after 2026-07-21 is 2027-01-17.",
+      "source": "SD.json"
+    },
+    {
+      "moratorium_id": "tn-crossville-undated",
+      "column": "sectors",
+      "before": "[\"data_center\"]",
+      "after": "[\"data_center\",\"cryptocurrency_mining\"]",
+      "reason": "Two independent news accounts of the ordinance's first, second, and third/final readings describe its operative scope as covering 'server farms and cryptocurrency mining facilities' (not just data centers), matching the row's own current_status text. This is stated as part of what new permits are halted for, not a mere trigger mention or an exclusion.",
+      "source": "TN.json"
+    },
+    {
+      "moratorium_id": "tn-sullivan-county-2025",
+      "column": "duration",
+      "before": "Originally four months (January to May 2026); extended in April 2026 to a full 12 months, ending January 2027",
+      "after": "Originally four months (January to May 2026); extended at the April 16, 2026 Commission meeting to a full 12 months, ending January 2027",
+      "reason": "Pinpoints the extension vote to the April 16, 2026 regular Commission meeting, per an independent meeting summary; the exact day of the resulting January 2027 end date could not be confirmed from any source (see notes), so current_end_date_iso is left blank rather than guessed.",
+      "source": "TN.json"
+    },
+    {
+      "moratorium_id": "tn-sullivan-county-2025",
+      "column": "current_status",
+      "before": "Extended; active as of 2026-09-23. The Commission extended the four-month moratorium in April 2026 to 12 months, ending January 2027 (Kingsport Times-News). On 2026-06-11 the Commission adopted, 18-0, the PMD-3 Planned Manufacturing District zoning amendment confining data centers, crypto mining, and battery storage to the center of industrial parks; the moratorium continues while the county studies further amendments.",
+      "after": "Extended; active as of 2026-09-23. The Commission extended the four-month moratorium at its April 16, 2026 meeting to 12 months, ending January 2027 (exact day not published in any source found; Kingsport Times-News). On 2026-06-11 the Commission adopted, 18-0, the PMD-3 Planned Manufacturing District zoning amendment confining data centers, crypto mining, and battery storage to the center of industrial parks -- a separate zoning instrument from the moratorium (Resolution No. 2025-11-07, as amended), which itself does not reference battery storage; the moratorium continues while the county studies further amendments.",
+      "reason": "Adds the confirmed April 16, 2026 extension date and clarifies that battery storage is regulated by the separate PMD-3 zoning amendment, not by the moratorium resolution itself, resolving the SECTOR_CHECK flag.",
+      "source": "TN.json"
+    },
+    {
+      "moratorium_id": "tx-harlingen-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "120",
+      "reason": "DURATION_MISMATCH: duration_days must be the ORIGINAL term. ValleyCentral's own headline and article confirm the Commission's May 20, 2026 action was a 120-day moratorium; the subsequent 60-day extension (reported by KRGV, first reading ~Aug. 13/25, second reading ~2 weeks later) brought the TOTAL to the 180-day statutory maximum, already captured in current_end_date_iso=2026-12-16, but is not itself the original term.",
+      "source": "TX.json"
+    },
+    {
+      "moratorium_id": "wa-black-diamond-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-03-01",
+      "reason": "Ordinance No. 26-1258's own text (Section 3) states the extension 'will remain in effect for a period of six (6) months from the effective date of this Ordinance' and (Section 8) is an emergency ordinance effective immediately upon passage. The ordinance's adoption/signature block reads (OCR-garbled) 'ADOPTED BY THE CITY COUNCIL AT A REGULAR MEETING THEREOF ON THE [1ST] DAY OF SEPTEMBER, 2026,' which a Facebook post from the city government confirms was a Sept. 1, 2026 council meeting. 2026-09-01 plus six months is 2027-03-01.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-moses-lake-2018",
+      "column": "sectors",
+      "before": "[\"cryptocurrency_mining\"]",
+      "after": "[\"cryptocurrency_mining\",\"data_center\"]",
+      "reason": "The primary 2018 news report of the ordinance's passage states its operative scope explicitly: 'The moratorium strictly prohibits new cryptocurrency mining operations, along with data centers and server farms/clusters, in all zones in the city, with the exception of the light industrial and heavy industrial zones.' This matches the row's own legal_basis, which already describes Ordinance 2900 as 'a moratorium on cryptocurrency mining, server farms, and data centers.'",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-covington-2024",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-10-25",
+      "reason": "The signed Ordinance No. 02-2026 states 'EFFECTIVE: April 25, 2026' and Section 2 renews the moratorium 'for a period of six months from the effective date of this ordinance.' 2026-04-25 plus six months is 2026-10-25.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-enumclaw-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-02-24",
+      "reason": "Ordinance No. 2833's own text states the moratorium 'shall be extended for twelve (12) additional months from the expiration date of Ordinance 2806 (expiration February 24, 2026).' 2026-02-24 plus 12 months is 2027-02-24, matching the row's own estimate.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-kitsap-county-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-12-07",
+      "reason": "Kitsap County's planning manager, presenting the extension ordinance to the Board on May 11, 2026, stated the 180-day extension 'runs from the moratorium's June 10 expiration to Dec. 7, 2026.'",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-kittitas-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-08-10",
+      "reason": "Original emergency moratorium adopted 2026-08-10 for six months; a news report of the Sept. 15/16, 2026 extension states the county's 'approval on a moratorium extension will result in a year-long ban' -- i.e. a second six-month extension tacked onto the same six-month term, for 12 months total from the confirmed 2026-08-10 enactment date. 2026-08-10 plus 12 months is 2027-08-10.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "wa-mount-vernon-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-11-27",
+      "reason": "Ordinance No. 3940 (a work-plan/renewal ordinance for the BESS moratorium) was adopted at the May 27, 2026 City Council meeting, per the council agenda, minutes index, and news coverage describing a six-month extension approved 'Wednesday' (May 27, 2026 was a Wednesday). Six months from 2026-05-27 is 2026-11-27, matching the row's own estimate.",
+      "source": "WA.json"
+    },
+    {
+      "moratorium_id": "ky-oldham-county-fiscal-court-2025",
+      "column": "<typed column invariant>",
+      "before": "",
+      "after": "duration_kind until_event -> fixed_days (duration text states a term)",
+      "reason": "codebook invariant enforced at merge time",
+      "source": "apply_research.py"
+    }
+  ]
+}

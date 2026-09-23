@@ -1,0 +1,319 @@
+{
+ "state_abbrev": "MI",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA1-county-disambiguation",
+ "decisions": [
+  {
+   "moratorium_id": "mi-bruce-township-undated",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Bruce Township",
+     "to": "Bruce Township (Macomb County)",
+     "reason": "Bare 'Bruce Township' is ambiguous in Michigan (multiple counties share the name); evidence identifies the adopting body as the one in Macomb County."
+    }
+   },
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.myrecordnewspaper.com/?p=136973",
+     "title": "Romeo joins the moratoriums on data centers",
+     "publisher": "The Record Newspaper (Romeo/Armada area, Macomb County)",
+     "document_date": "2026-02-04",
+     "source_type": "news",
+     "supports": "Groups Bruce Township with Romeo Village and Armada Township, both in Macomb County, as having passed data-center moratoriums; SE Michigan trigger text in row rules out the only other candidate (Chippewa County, in the Upper Peninsula).",
+     "quote": "Romeo has now joined Bruce Township and Armada Township in passing a moratorium temporarily stopping applications from data centers developers."
+    },
+    {
+     "url": "https://nominatim.openstreetmap.org/search?q=Bruce+Township,+Macomb+County,+Michigan",
+     "title": "Nominatim search result",
+     "publisher": "OpenStreetMap Nominatim",
+     "source_type": "other",
+     "supports": "Bruce Township, Macomb County, Michigan centroid (42.8466256,-83.0415404) matches the inventory's current_coordinates (42.846626,-83.041540) to 6 decimal places; the second 'candidate county' in the packet, 'Ford Michigan Proving Ground (MPG)', is Nominatim's locality label for this same Macomb County township (the Ford Proving Grounds sit within it, near Romeo), not a distinct place."
+    }
+   ],
+   "notes": "State: Michigan. COUNTY: Macomb County; COORDS_OK"
+  },
+  {
+   "moratorium_id": "mi-hayes-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Hayes Township",
+     "to": "Hayes Township (Charlevoix County)",
+     "reason": "Bare 'Hayes Township' is ambiguous in Michigan (multiple counties share the name); evidence identifies the adopting body as the one in Charlevoix County."
+    }
+   },
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://www.interlochenpublicradio.org/ipr-news/2026-02-10/charlevoix-area-township-passes-data-center-moratorium",
+     "title": "Charlevoix-area township passes data center moratorium",
+     "publisher": "Interlochen Public Radio",
+     "document_date": "2026-02-10",
+     "source_type": "news",
+     "supports": "Confirms Hayes Township (which enacted the 180-day moratorium Feb. 9, 2026, matching the row's date_enacted_iso) is 'just north of Charlevoix' and cites the Big Rock Point decommissioned nuclear plant within the township, matching the row's trigger text.",
+     "quote": "The small township, just north of Charlevoix on U.S. Route 31... there were some concerns... that a decommissioned nuclear power plant in the township, called Big Rock Point, could be recommissioned to power a data center."
+    }
+   ],
+   "notes": "State: Michigan. COUNTY: Charlevoix County; COORDS_OK"
+  },
+  {
+   "moratorium_id": "mi-lake-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Lake Township",
+     "to": "Lake Township (Huron County)",
+     "reason": "Bare 'Lake Township' is ambiguous in Michigan (multiple counties share the name); evidence identifies the adopting body as the one in Huron County."
+    }
+   },
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.laketownship.net/download/23077/minutes-july-2026.pdf",
+     "title": "Lake Township Board of Trustees Regular Meeting Minutes, July 16, 2026",
+     "publisher": "Lake Township, Michigan (official)",
+     "document_date": "2026-07-16",
+     "source_type": "minutes",
+     "supports": "Official Lake Township minutes list the meeting location as '4988 W. Kinde Road, Caseville, MI 48725' -- Caseville is in Huron County (the 'Thumb'), and the moratorium/ordinance discussion matches the row's current_status."
+    },
+    {
+     "url": "https://www.michigansthumb.com/news/article/lake-township-draft-data-center-ordinance-22425436.php",
+     "title": "Lake Township planners draft data center ordinance",
+     "publisher": "Michigan's Thumb (Hearst)",
+     "source_type": "news",
+     "supports": "Michigan's Thumb covers the Huron/Tuscola/Sanilac 'Thumb' region; its coverage of Lake Township's moratorium and subsequent ordinance drafting corroborates the Huron County location."
+    }
+   ],
+   "notes": "State: Michigan. COUNTY: Huron County; COORDS_OK"
+  },
+  {
+   "moratorium_id": "mi-lincoln-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Lincoln Township",
+     "to": "Lincoln Township (Berrien County)",
+     "reason": "Bare 'Lincoln Township' is ambiguous in Michigan (multiple counties share the name); evidence identifies the adopting body as the one in Berrien County."
+    }
+   },
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.heraldpalladium.com/communities/stevensville/lincoln-township-places-moratorium-on-data-centers/article_ceea2bad-afc3-5f31-bae3-bb2902584bd7.html",
+     "title": "Lincoln Township places moratorium on data centers",
+     "publisher": "The Herald-Palladium (Berrien County, MI)",
+     "document_date": "2026-06-12",
+     "source_type": "news",
+     "supports": "Published under the paper's 'Stevensville' community section (Stevensville is the population center of Lincoln Charter Township, Berrien County) and dated consistent with the row's June 10, 2026 ten-month moratorium; the Herald-Palladium's community-section list (Baroda, Benton Harbor, Berrien Springs, Bridgman, Coloma, Covert, Dowagiac, Hartford, New Buffalo, Niles, South Haven, St Joseph, Stevensville, Watervliet) is the standard Berrien County community list."
+    }
+   ],
+   "notes": "State: Michigan. COUNTY: Berrien County; COORDS_FIX: 42.0178900, -86.5049670 Berrien County is not among the packet's listed candidate counties (Arenac, Clare, Huron, Isabella, Midland, Newaygo, Osceola) -- the real township is officially 'Lincoln Charter Township', which the automated candidate search for bare 'Lincoln Township' evidently missed."
+  },
+  {
+   "moratorium_id": "mi-mason-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Mason Township",
+     "to": "Mason Township (Cass County)",
+     "reason": "Bare 'Mason Township' is ambiguous in Michigan (multiple counties share the name); evidence identifies the adopting body as the one in Cass County."
+    }
+   },
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://wsbt.com/news/local/porter-township-passes-one-year-moratorium-pause-data-center-pause-ordinance-town-residents-developer-law-michigan-board-members-zoning-comment-public-meetings-approval-extension-cass-county-michigan",
+     "title": "Porter Township passes one-year data center moratorium",
+     "publisher": "WSBT",
+     "source_type": "news",
+     "supports": "Reports that Porter Township (May 12, 2026) is 'another township in Cass County' to pause data centers, i.e. not the first -- consistent with Mason Township's earlier May 2, 2026 moratorium (Ordinance 2026-01) being the preceding Cass County instrument; 'multiple townships throughout Cass County rushed to instill moratoriums.'"
+    },
+    {
+     "url": "https://nominatim.openstreetmap.org/search?q=Mason+Township,+Cass+County,+Michigan",
+     "title": "Nominatim search result",
+     "publisher": "OpenStreetMap Nominatim",
+     "source_type": "other",
+     "supports": "Mason Township, Cass County, Michigan centroid (41.7847919,-85.9344005) matches the inventory's current_coordinates (41.784792,-85.934400) to 6 decimal places."
+    }
+   ],
+   "notes": "State: Michigan. COUNTY: Cass County; COORDS_OK"
+  },
+  {
+   "moratorium_id": "mi-porter-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Porter Township",
+     "to": "Porter Township (Cass County)",
+     "reason": "Bare 'Porter Township' is ambiguous in Michigan (multiple counties share the name); evidence identifies the adopting body as the one in Cass County."
+    }
+   },
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://wsbt.com/news/local/porter-township-passes-one-year-moratorium-pause-data-center-pause-ordinance-town-residents-developer-law-michigan-board-members-zoning-comment-public-meetings-approval-extension-cass-county-michigan",
+     "title": "Porter Township passes one-year data center moratorium",
+     "publisher": "WSBT",
+     "source_type": "news",
+     "supports": "Datelined 'CASS COUNTY, Mich.' and states Porter Township Board members unanimously approved a one-year data center moratorium, matching the row's legal_basis and date.",
+     "quote": "CASS COUNTY, Mich. (WSBT) -- Another township in Cass County has put a pause on data center developments. Porter Township Board members voted unanimously to approve an ordinance on a one-year data center moratorium."
+    }
+   ],
+   "notes": "State: Michigan. COUNTY: Cass County; COORDS_FIX: 41.8311645, -85.8183348"
+  },
+  {
+   "moratorium_id": "mi-sherman-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Sherman Township",
+     "to": "Sherman Township (Huron County)",
+     "reason": "Bare 'Sherman Township' is ambiguous in Michigan (multiple counties share the name); evidence identifies the adopting body as the one in Huron County."
+    }
+   },
+   "confidence": 0.75,
+   "evidence": [
+    {
+     "url": "https://www.michigansthumb.com/news/article/sherman-township-data-center-moratorium-22322600.php",
+     "title": "Sherman Township approves twelve month moratorium on data centers",
+     "publisher": "Michigan's Thumb (Hearst)",
+     "document_date": "2026-06-03",
+     "source_type": "news",
+     "supports": "Michigan's Thumb is the Hearst-owned paper covering the Huron/Tuscola/Sanilac 'Thumb' region specifically; its report of the June 3, 2026 12-month moratorium vote matches the row's legal_basis (Ordinance 2026-0609DC) timing and matches the current_coordinates, which already reverse-geocode to Huron County."
+    }
+   ],
+   "notes": "State: Michigan. COUNTY: Huron County; COORDS_OK"
+  },
+  {
+   "moratorium_id": "mi-superior-charter-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Superior Charter Township",
+     "to": "Superior Charter Township (Washtenaw County)",
+     "reason": "Bare 'Superior Charter Township' is ambiguous in Michigan (multiple counties share the name); evidence identifies the adopting body as the one in Washtenaw County."
+    }
+   },
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://www.mlive.com/news/ann-arbor/2026/03/data-center-influx-prompts-more-more-communities-near-ann-arbor-to-hit-pause.html",
+     "title": "Data center influx prompts more & more communities near Ann Arbor to hit pause",
+     "publisher": "MLive (Ann Arbor)",
+     "source_type": "news",
+     "supports": "Datelined 'WASHTENAW COUNTY, MI' and confirms Superior Township enacted a yearlong data-center moratorium on Jan. 20, matching the row's date_enacted_iso (2026-01-20) exactly.",
+     "quote": "Superior Township enacted a yearlong moratorium on data centers on Jan. 20."
+    }
+   ],
+   "notes": "State: Michigan. COUNTY: Washtenaw County; COORDS_OK"
+  },
+  {
+   "moratorium_id": "mi-sylvan-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Sylvan Township",
+     "to": "Sylvan Township (Washtenaw County)",
+     "reason": "Bare 'Sylvan Township' is ambiguous in Michigan (multiple counties share the name); evidence identifies the adopting body as the one in Washtenaw County."
+    }
+   },
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://thesuntimesnews.com/sylvan-twp-notice-of-adoption-1-13-26/",
+     "title": "Sylvan Twp: Notice of Adoption 1/13/26",
+     "publisher": "The Sun Times News",
+     "document_date": "2026-01-23",
+     "source_type": "other",
+     "supports": "Official township legal notice headed 'SYLVAN TOWNSHIP, WASHTENAW COUNTY, MICHIGAN' confirms Ordinance 26-01/26-001 adopted Jan. 13, 2026, matching the row exactly; also matches the row's own trigger text referencing nearby Chelsea and Saline, both in Washtenaw County.",
+     "quote": "Notice is hereby given that the Township Board for Sylvan Township, Washtenaw County, Michigan adopted Ordinance 26-01 at its regular meeting on January 13, 2026."
+    }
+   ],
+   "notes": "State: Michigan. COUNTY: Washtenaw County; COORDS_OK"
+  },
+  {
+   "moratorium_id": "mi-tyrone-township-2025",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Tyrone Township",
+     "to": "Tyrone Township (Livingston County)",
+     "reason": "Bare 'Tyrone Township' is ambiguous in Michigan (multiple counties share the name); evidence identifies the adopting body as the one in Livingston County."
+    }
+   },
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.tyronetownship.us/wp-content/uploads/2025/11/Board-Packet-120225-website.pdf",
+     "title": "Tyrone Township Board Meeting Agenda, December 2, 2025",
+     "publisher": "Tyrone Township, Michigan (official)",
+     "document_date": "2025-12-02",
+     "source_type": "agenda",
+     "supports": "Official Tyrone Township board packet for the Dec. 2, 2025 meeting (the meeting after the Dec. 2, 2025 adoption date in the row) lists 'Livingston County Draft Master Plan Distribution' among communications and 'AI Data Center moratorium' as new business."
+    }
+   ],
+   "notes": "State: Michigan. COUNTY: Livingston County; COORDS_OK"
+  },
+  {
+   "moratorium_id": "mi-washington-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Washington Township",
+     "to": "Washington Township (Macomb County)",
+     "reason": "Bare 'Washington Township' is ambiguous in Michigan (multiple counties share the name); evidence identifies the adopting body as the one in Macomb County."
+    }
+   },
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://planetdetroit.org/2026/05/washington-township-data-center-withdrawn/",
+     "title": "Washington Township data center developer withdraws application",
+     "publisher": "Planet Detroit / Macomb Daily",
+     "source_type": "news",
+     "supports": "Byline 'Macomb Daily'; confirms Prologis withdrew its 312-acre '32 Mile Road Technical Campus' rezoning application in Washington Township on May 19, 2026, matching the row's affected_projects and trigger text; site is described as near the 'Romeo State Airport' and 'former Romeo Ford plant', both Macomb County landmarks."
+    },
+    {
+     "url": "https://nominatim.openstreetmap.org/search?q=Washington+Township,+Macomb+County,+Michigan",
+     "title": "Nominatim search result",
+     "publisher": "OpenStreetMap Nominatim",
+     "source_type": "other",
+     "supports": "The township's official name is 'Washington Charter Township' (Macomb County); Nominatim gives its centroid as 42.7570924,-83.0373036, far from the row's current_coordinates (43.382429,-82.688497), which resolve to Sanilac County."
+    }
+   ],
+   "notes": "State: Michigan. COUNTY: Macomb County; COORDS_FIX: 42.7570924, -83.0373036 Macomb County is not among the packet's listed candidate counties (Gratiot, Sanilac) -- likely missed because the real jurisdiction is officially 'Washington Charter Township'."
+  },
+  {
+   "moratorium_id": "mi-watertown-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Watertown Township",
+     "to": "Watertown Township (Tuscola County)",
+     "reason": "Bare 'Watertown Township' is ambiguous in Michigan (multiple counties share the name); evidence identifies the adopting body as the one in Tuscola County."
+    }
+   },
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.watertownmi.gov/AgendaCenter/ViewFile/Minutes/_05182026-65",
+     "title": "Watertown Charter Township Board of Trustees Regular Meeting Minutes, May 18, 2026",
+     "publisher": "Watertown Charter Township, Michigan (official)",
+     "document_date": "2026-05-18",
+     "source_type": "minutes",
+     "supports": "Official township minutes for the May 18, 2026 meeting record item '8A. Resolution 5-18-2026-1 Data Center Moratorium', matching the row's legal_basis exactly."
+    },
+    {
+     "url": "https://www.tuscolatoday.com/news/watertown-oks-data-center-moratorium/article_46ced0de-be59-4ebd-9f34-f96640ff900c.html",
+     "title": "Watertown OKs Data Center Moratorium",
+     "publisher": "Tuscola Today",
+     "source_type": "news",
+     "supports": "Tuscola Today (the Tuscola County news outlet) covering 'WATERTOWN TWP' corroborates the Tuscola County location, matching the row's current_coordinates."
+    }
+   ],
+   "notes": "State: Michigan. COUNTY: Tuscola County; COORDS_OK"
+  }
+ ]
+}

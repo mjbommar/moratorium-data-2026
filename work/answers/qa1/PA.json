@@ -1,0 +1,323 @@
+{
+ "state_abbrev": "PA",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA1",
+ "decisions": [
+  {
+   "moratorium_id": "pa-adams-township-butler-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.butlereagle.com/20260623/adams-township-passes-data-center-moratorium/",
+     "source_type": "news",
+     "supports": "Confirms the June 22, 2026 unanimous board vote (a motion) approving a 180-day moratorium on six business types including data centers.",
+     "quote": "The Adams Township Board of Supervisors approved a 180-day moratorium on applications for six types of businesses, including data centers, at its regular meeting Monday, June 22."
+    },
+    {
+     "url": "https://www.butlereagle.com/20260714/adams-twp-takes-the-next-step-toward-data-center-amendment/",
+     "source_type": "news",
+     "supports": "Confirms the July 13, 2026 formal resolution -- described as the follow-up instrument that actually 'allows the township up to 180 days' -- containing the required constitutional/invalidity findings.",
+     "quote": "The resolution was a follow-up to a motion made at the June 22 meeting to establish a moratorium and allows the township up to 180 days to draft a \"curative amendment\" to the township's zoning ordinance."
+    }
+   ],
+   "notes": "This item tests the exact OLDER_INSTRUMENT risk the audit is looking for: two actions, June 22 (an initial motion) and July 13 (a formal resolution with the MPC-required invalidity findings). The row already correctly treats July 13 as the enactment date -- the second article is explicit that the RESOLUTION, not the earlier motion, is what 'allows the township up to 180 days,' i.e., the resolution is the operative legal instrument that starts the curative-amendment clock. Confirmed as adopted, not merely advertised."
+  },
+  {
+   "moratorium_id": "pa-clinton-township-wayne-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.riverreporter.com/stories/we-dont-want-you-here-clinton-township-hears-resident-input-on-data-centers,258514",
+     "source_type": "news",
+     "supports": "Confirms the April 30, 2026 Board of Supervisors vote (not merely a planning commission discussion) to send a draft ordinance for review and to put a six-month moratorium in place.",
+     "quote": "At its meeting of Thursday, April 30, the board voted to send a draft ordinance to the planning commission for review, and to put a six-month moratorium in place, to give the township time to review and adopt that ordinance."
+    },
+    {
+     "url": "https://www.audacy.com/wilknews/news/local/clinton-township-rejects-proposed-6-billion-linde-data-center-project",
+     "source_type": "news",
+     "supports": "Confirms the moratorium's real-world effect: the Board's Sept. 14, 2026 unanimous rejection of Linde's application on SALDO grounds, following a Planning Commission recommendation to deny.",
+     "quote": "Opponents of data center expansion in Northeast Pennsylvania scored a key victory Wednesday night after Clinton Township officials voted unanimously to reject a proposed $6 billion data center development submitted by Linde Corporation."
+    }
+   ],
+   "notes": "A genuine board vote (not an advertisement or planning-commission-only action); well corroborated by the subsequent, closely watched Linde rejection."
+  },
+  {
+   "moratorium_id": "pa-conewago-township-york-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.conewagotwp.com/wp-content/uploads/Special-Meeting-Presentation-07.23.2026.pdf",
+     "source_type": "staff_report",
+     "supports": "Official township presentation stating Resolution 2026-13 was adopted unanimously at the July 7, 2026 Board of Supervisors meeting, imposes a 180-day moratorium on all data-center applications, and ends January 3, 2027.",
+     "quote": "At the July 7, 2026 Board of Supervisor's meeting, the Supervisors unanimously voted to adopt Resolution 2026-13. This Resolution puts in place a 180 day moratorium on all applications for data center... The 180 day moratorium ends on January 3, 2027"
+    }
+   ],
+   "notes": "Strongest possible evidence type for the adoption-vs-advertisement question: an official township presentation citing the resolution by number, the exact adoption date, and the exact computed end date, in the township's own words."
+  },
+  {
+   "moratorium_id": "pa-dorrance-township-2025",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.citizensvoice.com/2025/08/14/dorrance-twp-supervisors-look-at-blocking-data-centers/",
+     "source_type": "news",
+     "supports": "Confirms the Aug. 11, 2025 unanimous vote adopting the temporary moratorium ordinance.",
+     "quote": "Supervisors voted unanimously to approve an ordinance imposing a temporary moratorium of the \"acceptance, processing, and approval of applications for data centers and similar technology, related businesses that consume large amounts of power and use water for cooling, throughout all zoning districts of the township.\""
+    },
+    {
+     "url": "https://www.standardspeaker.com/2025/09/22/dorrance-twp-amends-zoning-ordinance-to-address-data-centers/",
+     "source_type": "news",
+     "supports": "Confirms the Sept. 22, 2025 unanimous 3-0 vote adopting a permanent conditional-use zoning amendment, superseding the original moratorium.",
+     "quote": "Dorrance Twp. supervisors voted to amend the township's code of ordinances regarding data centers at a public hearing Monday morning. The unanimous 3-0 vote was in regard to amendments provided by township solicitor Sean Logsdon that dealt with regulations having to do with data centers, data center accessory structures, power substations and data center campuses within the township."
+    }
+   ],
+   "notes": "Adoption of both the original moratorium and the superseding permanent amendment are independently confirmed by two dated local-news accounts describing actual votes, not proposals."
+  },
+  {
+   "moratorium_id": "pa-doylestown-township-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.75,
+   "evidence": [
+    {
+     "url": "https://bucksindependence.com/doylestown-township-moves-to-block-data-center-applications-while-crafting-zoning-rules/",
+     "source_type": "news",
+     "supports": "Detailed account of the June 16, 2026 vote (described in past tense as having occurred 'last week'), with direct quotes from Township Solicitor Peter Nelson on the 180-day curative-amendment mechanism and the immediate application freeze.",
+     "quote": "Doylestown Township supervisors voted last week to begin a 180-day curative amendment process aimed at regulating data centers, temporarily freezing any such applications while township officials draft zoning rules for the increasingly scrutinized land use."
+    }
+   ],
+   "notes": "Single source, but unambiguous ('voted... to begin,' past tense, with a named solicitor's direct quotes on mechanics) that a vote occurred and the freeze is in effect, not merely proposed."
+  },
+  {
+   "moratorium_id": "pa-east-whiteland-township-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.thecentersquare.com/pennsylvania/article_06f92bfc-34c1-430c-9487-375bde5c9415.html",
+     "source_type": "news",
+     "supports": "Confirms the Board of Supervisors 'voted' in March 2026 to start the 180-day clock, and situates East Whiteland alongside several other PA jurisdictions using the same MPC curative-amendment mechanism (useful cross-check for other packet items).",
+     "quote": "East Whiteland Township, Chester County, supervisors in March voted to start its 180-day clock — even though the township already has an approved data center plan in its jurisdiction that is causing an uproar."
+    },
+    {
+     "url": "https://www.eastwhiteland.org/news_detail_T2_R309.php",
+     "source_type": "other",
+     "supports": "Official township notice of the Sept. 24, 2026 hearing to adopt the resulting Municipal Curative Amendment (the 'Data Center Ordinance'), confirming the process begun in March remained on track as of the research date.",
+     "quote": "On September 24, 2026, the Board of Supervisors will hold a hearing to consider adoption of the Municipal Curative Amendment (a.k.a. the \"Data Center Ordinance\") which was prepared in conjunction with a resident working group beginning in May of this year."
+    },
+    {
+     "url": "https://www.foodandwaterwatch.org/2026/05/05/east-whiteland-pa-data-center-developer-withdraws-application-after-fierce-public-opposition/",
+     "source_type": "news",
+     "supports": "Confirms the timeline context: Green Fig's application withdrawal came after the March curative-amendment vote, not before.",
+     "quote": "Yesterday, Green Fig, the developer behind a contentious East Whiteland data center project withdrew their application for an expanded 1.7 million square foot project after months of sustained opposition"
+    }
+   ],
+   "notes": "Three independent, mutually consistent sources (a state-desk wire story, the township's own site, and an advocacy-org news item) confirm both the March vote and continued progress toward the Sept. 24, 2026 adoption hearing (one day after this research pass). This is not a duplicate of any Lycoming/Chester County row; East Whiteland's curative amendment is its own municipal action."
+  },
+  {
+   "moratorium_id": "pa-falls-township-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.fallstwp.com/resources/news/article/?id=11671",
+     "source_type": "other",
+     "supports": "Official township news post confirming the Monday, July 27, 2026 vote adopting a resolution declaring the zoning ordinance 'substantively invalid' as to data centers.",
+     "quote": "Following a widely attended and contentious community meeting for the Amazon data center in Falls Township, the Supervisors on Monday approved a resolution declaring a portion of the zoning ordinance 'substantively invalid.'"
+    },
+    {
+     "url": "https://levittownnow.com/2026/07/28/falls-twp-declares-part-of-zoning-ordinance-invalid-after-data-center-outcry/",
+     "source_type": "news",
+     "supports": "Independent, detailed news account of the same vote, published the day after.",
+     "quote": "The Falls Township Board of Supervisors voted Monday to declare portions of the municipality's zoning ordinance \"substantively invalid.\""
+    }
+   ],
+   "notes": "Official township source plus independent news confirm an actual adoption vote."
+  },
+  {
+   "moratorium_id": "pa-little-britain-township-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://lancasteronline.com/news/regional/little-britain-township-board-passes-resolution-to-pause-development-of-new-data-centers/article_950d45f1-c201-404f-b792-e2b0e7ea984e.html",
+     "source_type": "news",
+     "supports": "Confirms the July 14, 2026 unanimous vote adopting the formal resolution that actually imposes the 180-day bar on applications.",
+     "quote": "Supervisors voted unanimously to adopt a resolution that effectively puts a moratorium on the submission of applications to construct data centers in the township... The resolution prevents the submission of any applications for data centers, their ancillary structures, or energy generation for 180 days."
+    },
+    {
+     "url": "https://lancasteronline.com/news/regional/little-britain-places-180-day-moratorium-on-data-center-applications-to-develop-ordinance/article_f0366ba4-3af9-41e5-bdd1-3d371891a571.html",
+     "source_type": "news",
+     "supports": "Confirms a preliminary June 9, 2026 board vote 'to move forward with placing' the moratorium, distinct from and preceding the formal July 14, 2026 resolution.",
+     "quote": "The board voted to move forward with placing a 180-day moratorium on data center applications while they work on an ordinance to address these proposals."
+    }
+   ],
+   "notes": "A clean example of the OLDER_INSTRUMENT check working as intended: two Lancaster Online articles from the same outlet clearly distinguish a preliminary June 9 'move forward' vote from the operative July 14 adopted resolution, and the row already uses the later, correct date."
+  },
+  {
+   "moratorium_id": "pa-morrisville-borough-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://bucksindependence.com/morrisville-borough-prepares-ordinance-change-aimed-at-data-centers-bucks-round-up-july-30-2026/",
+     "source_type": "news",
+     "supports": "Confirms the exact July 21, 2026 date the Borough Council declared part of the zoning ordinance invalid and initiated the 180-day curative-amendment process.",
+     "quote": "Morrisville Borough Council on July 21 declared a portion of its own zoning ordinance invalid and initiated a curative amendment process to shield the municipality from zoning challenges related to data center developments for 180 days."
+    },
+    {
+     "url": "https://www.thereporteronline.com/2026/08/03/falls-and-morrisville-to-address-zoning-issues-around-data-centers/",
+     "source_type": "news",
+     "supports": "Independent corroboration of the same action and rationale.",
+     "quote": "Morrisville said it's 180-day waiting period would give it time to review land-use impacts and update local zoning laws. Council declared a portion of its own zoning ordinances invalid and initiate a curative amendment process to shield it from zoning challenges related to data center development."
+    }
+   ],
+   "notes": "Two independent local outlets agree on the date and the fact that this was Council action (adoption), not a proposal."
+  },
+  {
+   "moratorium_id": "pa-mount-carmel-township-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.mctownship.org/",
+     "source_type": "other",
+     "supports": "Official township homepage statement that the township is under a 180-day moratorium enacted May 18, 2026, plus notice of a Sept. 23, 2026 public hearing (comment only, no vote) on the resulting draft ordinance.",
+     "quote": "The Township is currently under a 180 day moratorium enacted on May 18, 2026. The end result will be a municipal curative amendment to correct zoning invalidities and regulation with regard to data centers."
+    },
+    {
+     "url": "https://www.wnep.com/article/news/local/northumberland-county/hundreds-in-mt-carmel-township-speak-out-in-opposition-to-data-center-development-northumberland-county/523-94daabda-0f98-40b6-b3c0-4cd82a2e43a0",
+     "source_type": "news",
+     "supports": "Confirms strong community opposition and supervisors' statements that they cannot outright ban data centers but are working on zoning to limit development.",
+     "quote": "While the township supervisors say they cannot outright ban data center development, they invited folks in and around the township to talk about a new zoning ordinance that would limit data center development."
+    }
+   ],
+   "notes": "Explains the quote_mismatch flag: the archived township-site text renders the sentence with a mid-sentence line break ('...under a 180 day' / 'moratorium enacted on May 18, 2026.'), which defeats an exact-substring match even though the quoted content is present verbatim once the line break is ignored -- a formatting artifact, not a fabrication or a paywall stub. Separately, the Sept. 23, 2026 public hearing referenced in the row is today's date (the reference date of this audit); per the township's own site it is a comment-only hearing with no board vote scheduled that night, so the underlying moratorium (ending roughly 2026-11-14) remains the operative, still-active instrument regardless of that hearing's outcome."
+  },
+  {
+   "moratorium_id": "pa-smithfield-township-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://smithfieldtownship.com/otp/dcca/",
+     "source_type": "other",
+     "supports": "Official township page confirming Resolution No. 621 (adopted May 6, 2026), the 180-day/Nov. 2, 2026 statutory ceiling, and the Aug. 12, 2026 adoption of the resulting curative amendment establishing the H-1 Heavy Industrial District.",
+     "quote": "The Board of Supervisors adopted Resolution No. 621, formally initiating the Municipalities Planning Code (MPC) curative amendment process for the Township's data center ordinance. Under Pennsylvania law, the Township has 180 days from May 6, 2026, to consider and adopt any amendments... Following a public hearing held during its regular business meeting on August 12, 2026, the Smithfield Township Board of Supervisors adopted the curative amendment..."
+    }
+   ],
+   "notes": "Official township page names the resolution number, both the original resolution date and the superseding curative amendment's adoption date -- the strongest evidence type available for this kind of item, and it directly confirms both the moratorium's own adoption and the fact that it was replaced (not merely proposed to be replaced)."
+  },
+  {
+   "moratorium_id": "pa-upper-burrell-township-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://www.publicsource.org/upper-burrell-data-center-transparency-backlash/",
+     "source_type": "news",
+     "supports": "Confirms the May 2026 180-day moratorium's adoption, its exemption for existing TECfusions Building J permits, the Aug. 5, 2026 land-development-plan approval despite the moratorium, and states the exact end date.",
+     "quote": "In May, the township established a 180-day moratorium on new data center development. The pause, however, does not apply to building permits the township already granted TECfusions for work related to Building J... The moratorium ends on Nov. 2."
+    },
+    {
+     "url": "https://triblive.com/local/valley-news-dispatch/upper-burrell-puts-temporary-pause-on-new-data-center-developments/",
+     "source_type": "news",
+     "supports": "Contemporaneous (May 15, 2026) coverage of the moratorium's adoption, quoting supervisors on its purpose and scope; does not give the exact vote date.",
+     "quote": "Upper Burrell has passed a 180-day moratorium on data center developments while it drafts an ordinance outlining conduct for future projects."
+    }
+   ],
+   "notes": "Checked whether the row's month-only date (2026-05) could be tightened: the publicsource.org article's explicit 'Nov. 2' end date, worked backward 180 days, lands on May 6, 2026 -- interesting circumstantial confirmation, and notably the same date as Smithfield Township's Resolution No. 621 (a coincidence, or possibly both townships' solicitors using the same regional template/timing, but I found no evidence connecting the two). No source states the exact adoption date directly, so I left the row's honest month-only precision as-is rather than asserting an inferred exact date."
+  },
+  {
+   "moratorium_id": "pa-west-whiteland-township-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.75,
+   "evidence": [
+    {
+     "url": "https://citizenportal.ai/articles/8209298/pennsylvania/chester-county/west-whiteland/township-to-rewrite-data-center-rules-after-board-invokes-180-day-municipal-cure",
+     "source_type": "other",
+     "supports": "Confirms Township planning staff reported to the Planning Commission on May 5, 2026 that the Board of Supervisors had already invoked the municipal cure.",
+     "quote": "West Whiteland Township staff told the Planning Commission on May 5 that the Board of Supervisors has invoked a municipal cure, declaring part of the Zoning Ordinance deficient for regulating data centers and initiating a 180-day period for the Township to adopt corrective amendments."
+    },
+    {
+     "url": "https://www.thecentersquare.com/pennsylvania/article_06f92bfc-34c1-430c-9487-375bde5c9415.html",
+     "source_type": "news",
+     "supports": "Independently confirms West Whiteland (which had no pending proposals) started its 180-day clock 'recently,' quoting Township Manager Pam Gural-Bear.",
+     "quote": "West Whiteland - which has no proposals on the table - started its 180-day clock recently, as well. 'That way, the rules will be in place,' said West Whiteland Township Manager Pam Gural-Bear."
+    }
+   ],
+   "notes": "Row's own date_enacted text already notes the May 5, 2026 report-to-Planning-Commission date and the matching Nov. 1, 2026 end date (May 5 + 180 days = Nov 1), but deliberately keeps month-only precision because the Board of Supervisors' own vote date (which may differ from the date staff reported it to the separate Planning Commission) isn't independently confirmed. I agree with that hedge and left it unchanged rather than asserting an exact date on inference alone."
+  },
+  {
+   "moratorium_id": "pa-williamsport-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://cityofwilliamsport.org/wp-content/uploads/2026/06/10088.pdf",
+     "source_type": "resolution",
+     "supports": "Primary resolution text declaring the zoning ordinance substantively invalid as to data centers and proposing a curative amendment within 180 days.",
+     "quote": "Pursuant to the powers vested in it by 53 P.S. §10609.2, the Council of the City of Williamsport proposes to prepare a curative amendment to validate, or reaffirm the validity of, its zoning ordinance, and to enact same within one hundred eighty (180) days of the date of adoption of this Resolution."
+    },
+    {
+     "url": "https://www.northcentralpa.com/news/williamsport-council-declares-zoning-ordinance-invalid-to-regulate-data-centers/article_cfe3d818-47ae-4818-9e78-af038341df63.html",
+     "source_type": "news",
+     "supports": "Confirms the 6-0 Council vote adopting Resolution #10088 on July 9, 2026.",
+     "quote": "The unanimous 6-0 vote, introduced by Councilman Jonah Milliken, was the city's opening move in a contest playing out across the region"
+    },
+    {
+     "url": "https://mytownview.com/pennsylvania/lycoming/williamsport/meetings/14220-city-council-2026-07-09",
+     "source_type": "minutes",
+     "supports": "Independent meeting-record confirmation of the same 6-0 adoption at the July 9, 2026 City Council meeting.",
+     "quote": "By unanimous 6-0 tallies, the council also adopted a zoning invalidity resolution beginning the curative amendment process connected to a data center"
+    }
+   ],
+   "notes": "Best-supported item in the packet: primary resolution text plus two independent secondary confirmations, all agreeing on the date and the fact of adoption. Correctly distinguished in the row from the separate Lycoming County curative amendment (pa-lycoming-county-2026, not in this packet), which covers the county's zoning-partner municipalities but not the City of Williamsport -- not a duplicate."
+  },
+  {
+   "moratorium_id": "pa-buffalo-township-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.butlereagle.com/20260814/buffalo-township-implements-180-day-data-center-moratorium/",
+     "source_type": "news",
+     "supports": "Confirms the Aug. 12, 2026 Board of Supervisors vote approving the municipal curative amendment, quoting the township solicitor that it effectively functions as a moratorium.",
+     "quote": "BUFFALO TWP - The board of supervisors approved the creation of a municipal curative amendment during its meeting on Wednesday night, Aug. 12, which will give the township 180 days to draft hard rules and regulations into its code regarding data centers."
+    }
+   ],
+   "notes": "Single but detailed, dated, and quote-rich source confirming an actual board vote."
+  },
+  {
+   "moratorium_id": "pa-gregg-township-union-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.northcentralpa.com/business/gregg-township-supervisors-approve-data-center-moratorium-pnks-still-on-the-table/article_0b0c06b6-6371-4756-b607-26a3bc7193d7.html",
+     "source_type": "news",
+     "supports": "Confirms the unanimous adoption of Resolution 2026-03 at an Aug. 20, 2026 special meeting, its exclusion of the already-pending PNK Group application, and the 180-day/not-to-exceed term.",
+     "quote": "The board of supervisors unanimously adopted Resolution 2026-03 during a special meeting held at 3 p.m. Aug. 20... Under the moratorium, new applications for data center or 'technical development' cannot be submitted for a period not to exceed 180 days, or until earlier terminated by official action of the board of supervisors. However, the moratorium doesn't include PNK Group's pending data center application, which continues to be processed separately."
+    }
+   ],
+   "notes": "Names the resolution by number and describes an actual adoption vote at a special meeting, not a proposal or advertisement."
+  },
+  {
+   "moratorium_id": "pa-west-mahanoy-township-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://shensentinel.com/news/west-mahanoy-invokes-six-month-moratorium-on-data-centers-solar-farms-mulls-regulations/",
+     "source_type": "news",
+     "supports": "Detailed, quote-heavy account of the Sept. 15, 2026 unanimous vote, including verbatim resolution language declaring the zoning ordinance invalid as to data centers, solar farms, and on-site power generation.",
+     "quote": "The township shall not be required to entertain or consider any landowner's curative amendment or proposals for a data center use or solar farm within 180 days... The West Mahanoy Township Zoning Ordinance is hereby declared to be invalid as it relates to the regulation of data centers, solar farms, on-site power generation, and accessory uses related thereto."
+    }
+   ],
+   "notes": "Article directly quotes the adopted resolution's operative language, confirming actual adoption, not a proposal."
+  }
+ ]
+}

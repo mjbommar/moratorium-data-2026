@@ -193,7 +193,7 @@
   <h1 id="codebook">Codebook</h1>
 <p>This document defines every column in every data file. Read this before doing analysis.</p>
 <h2 id="datamoratorium_inventorycsv"><code>data/moratorium_inventory.csv</code></h2>
-<p><strong>One row per moratorium instrument.</strong> 1053 rows total (refreshed 2026-09-23).</p>
+<p><strong>One row per moratorium instrument.</strong> 1291 rows total (refreshed 2026-09-23).</p>
 <table>
 <thead>
 <tr>
@@ -497,12 +497,12 @@ records the governing session context per state in the audit log under
 <p>A single JSON object with top-level aggregates. Useful for embedding live counts on a page or programmatic comparison across releases.</p>
 <p>Top-level keys:</p>
 <ul>
-<li><code>total_local_moratoria</code>: 1053 — total rows in the inventory</li>
+<li><code>total_local_moratoria</code>: 1291 — total rows in the inventory</li>
 <li><code>total_state_bills</code>: 438 — bill rows in state_legislation.csv</li>
 <li><code>total_state_policy_actions</code>: 440 — all state-policy rows, including binding non-bill actions</li>
 <li><code>states_with_moratoria</code>: 47</li>
 <li><code>states_without_moratoria</code>: 3</li>
-<li><code>moratoria_with_verify_tags</code>: 214 — rows with at least one <code>[VERIFY]</code> flag remaining in any field (matches <code>has_verify_tags = True</code> in the inventory CSV)</li>
+<li><code>moratoria_with_verify_tags</code>: 300 — rows with at least one <code>[VERIFY]</code> flag remaining in any field (matches <code>has_verify_tags = True</code> in the inventory CSV)</li>
 <li><code>moratoria_without_verify_tags</code>: 232</li>
 <li><code>enacted_status_breakdown</code>: <code>{active, extended, replaced, expired, rescinded, pending}</code> — the breakdown of the 533 rows by <code>enacted_status</code></li>
 <li><code>sweep_coverage</code>: which states received a systematic month-by-month sweep for the release's window, plus <code>swept_states_with_no_adoptions_in_window</code>. <strong>Read this before interpreting a state's absence.</strong> A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that <code>swept_states_with_no_adoptions_in_window</code> is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from <a href="../data/sweep_coverage.json"><code>data/sweep_coverage.json</code></a></li>

@@ -1,0 +1,78 @@
+{
+  "state_abbrev": "NE",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "ne-red-willow-county-2025",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-09-22",
+          "reason": "Resolution No. 1612 (adopted 2026-08-24) extends the data-center zoning moratorium 'for an additional 12 months.' Renewal resolutions of this kind ordinarily tack the additional term onto the existing term rather than restart the clock at the vote date, so the original term's expiration (2026-09-22) plus 12 months yields 2027-09-22."
+        },
+        "sectors": {
+          "from": "[\"general\"]",
+          "to": "[\"data_center\"]",
+          "reason": "Both the legal_basis (Resolution No. 1577, 'Adopt 12 Month Zoning Moratorium on Data Centers') and the extension coverage confirm the moratorium's operative scope is specifically data centers -- a separate same-day resolution (No. 1611) covers pipelines. 'general' undercounts the specific, named sector."
+        }
+      },
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/9590001/Nebraska/Red-Willow-County/Red-Willow-County-adopts-12-month-moratorium-on-pipelines-extends-moratorium-on-data-centers",
+          "title": "Red Willow County adopts 12-month moratorium on pipelines, extends moratorium on data centers",
+          "publisher": "citizenportal.ai",
+          "document_date": "2026-08-24",
+          "source_type": "news",
+          "supports": "Confirms Resolution No. 1612 (data centers) and Resolution No. 1611 (pipelines) are two separate resolutions adopted the same day; the data-center resolution extends an existing 12-month moratorium by an additional 12 months.",
+          "quote": "Resolution No. 1611 establishes a 12-month moratorium on pipelines and Resolution No. 1612 extends a 12-month moratorium on data centers."
+        },
+        {
+          "url": "https://mccooknewsnow.com/red-willow-county-commissioners-approve-pipeline-data-center-moratoriums-review-budget-and-co2-pipeline-proposal/",
+          "title": "Red Willow County Commissioners Approve Pipeline, Data Center Moratoriums; Review Budget and CO2 Pipeline Proposal",
+          "publisher": "McCook News Now",
+          "document_date": "2026-08-24",
+          "source_type": "news",
+          "supports": "Confirms Resolution No. 1612 extends the data-center moratorium for an additional 12 months; the pipeline moratorium is a distinct, newly-adopted resolution.",
+          "quote": "Resolution No. 1612 extends a zoning moratorium on data centers for an additional 12 months."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved with a best-reasoned (not explicitly numerically stated in any source) date, matching the row's own prior computation. SECTOR_CHECK resolved: sectors corrected from [\"general\"] to [\"data_center\"] since the resolution's own title and every source describe its scope specifically as data centers, distinct from the same-day pipeline moratorium."
+    },
+    {
+      "moratorium_id": "ne-seward-county-2023",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-02-25",
+          "reason": "Resolution No. 3947 (adopted 2026-08-25) states the moratorium 'will remain in effect for six months from Aug. 25, 2026, or until new regulations are formally adopted and legally binding, whichever comes first.' 2026-08-25 + 6 months (184 days) = 2027-02-25."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/9648182/nebraska/seward-county/seward-county-extends-moratorium-on-commercial-renewable-projects-for-six-months",
+          "title": "Seward County extends moratorium on commercial renewable projects for six months",
+          "publisher": "citizenportal.ai",
+          "document_date": "2026-08-25",
+          "source_type": "news",
+          "supports": "Directly states the resolution's six-month term runs from Aug. 25, 2026, confirming the operative end date and reconfirming the sectors (wind, solar, battery-generated energy) already on the row.",
+          "quote": "The resolution states the moratorium will remain in effect for six months from Aug. 25, 2026, or until new regulations are formally adopted and legally binding, whichever comes first."
+        },
+        {
+          "url": "https://www.sewardindependent.com/stories/board-extends-renewable-energy-moratorium,209927",
+          "title": "Board extends renewable energy moratorium",
+          "publisher": "Seward County Independent",
+          "source_type": "news",
+          "supports": "Confirms the moratorium (in place since August 2023, covering commercial wind, solar and battery-generated energy) was extended into 2027.",
+          "quote": "Seward County's moratorium on commercial wind turbine, solar and battery-generated energy projects has been extended into 2027."
+        }
+      ],
+      "notes": "COMPUTED_EXPIRY_PASSED resolved: the original 2023-08-01 term (184 days) had lapsed as computed, but the county has continuously renewed the moratorium by resolution every ~6 months since, most recently to 2027-02-25 by Resolution No. 3947. enacted_status corrected from 'active' to 'extended' to reflect that this is a renewed/extended moratorium, not a still-running original term, consistent with the qa4 process guidance for this flag."
+    }
+  ]
+}

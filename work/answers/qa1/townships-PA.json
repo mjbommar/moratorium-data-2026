@@ -1,0 +1,152 @@
+{
+ "state_abbrev": "PA",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA1-county-disambiguation",
+ "decisions": [
+  {
+   "moratorium_id": "pa-buffalo-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Buffalo Township",
+     "to": "Buffalo Township (Butler County)",
+     "reason": "Bare 'Buffalo Township' is ambiguous in Pennsylvania (multiple counties share the name); evidence identifies the adopting body as the one in Butler County."
+    }
+   },
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.butlereagle.com/20260814/buffalo-township-implements-180-day-data-center-moratorium/",
+     "title": "Buffalo Township implements 180-day data center moratorium",
+     "publisher": "Butler Eagle (Butler County, PA)",
+     "document_date": "2026-08-14",
+     "source_type": "news",
+     "supports": "The Butler Eagle -- Butler County's paper of record -- reports the Aug. 12, 2026 curative amendment and quotes solicitor Brian Farrington that 'several other municipalities in Butler County -- including Adams, Center and Lancaster townships -- have taken similar measures,' grouping Buffalo Township with its Butler County peers; matches the row's legal_basis and date exactly."
+    },
+    {
+     "url": "https://nominatim.openstreetmap.org/search?q=Buffalo+Township,+Butler+County,+Pennsylvania",
+     "title": "Nominatim search result",
+     "publisher": "OpenStreetMap Nominatim",
+     "source_type": "other",
+     "supports": "Buffalo Township, Butler County centroid (40.7149082,-79.7385009) is roughly 60 miles from the row's current_coordinates (40.159146,-80.339635), which resolve to Washington County."
+    }
+   ],
+   "notes": "State: Pennsylvania. COUNTY: Butler County; COORDS_FIX: 40.7149082, -79.7385009"
+  },
+  {
+   "moratorium_id": "pa-butler-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Butler Township",
+     "to": "Butler Township (Luzerne County)",
+     "reason": "Bare 'Butler Township' is ambiguous in Pennsylvania (multiple counties share the name); evidence identifies the adopting body as the one in Luzerne County."
+    }
+   },
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://www.butlertownship.org/news/2026-resolution-no-05122026-adopting-a-municipal-curative-amendment.html",
+     "title": "2026 Resolution No. 05122026 Adopting a Municipal Curative Amendment",
+     "publisher": "Butler Township, Luzerne County, Pennsylvania (official)",
+     "source_type": "resolution",
+     "supports": "Official township website footer reads 'The official website of Butler Township, Luzerne County, Pennsylvania'; the page's resolution number (05122026) matches the row's legal_basis exactly.",
+     "quote": "The official website of Butler Township, Luzerne County, Pennsylvania"
+    }
+   ],
+   "notes": "State: Pennsylvania. COUNTY: Luzerne County; COORDS_FIX: 41.0395791, -75.9880458 Despite the name coincidence with Butler County, PA (where several neighboring rows in this same packet are actually located), this specific Resolution No. 05122026 belongs to Butler Township, Luzerne County (Drums, PA)."
+  },
+  {
+   "moratorium_id": "pa-center-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Center Township",
+     "to": "Center Township (Butler County)",
+     "reason": "Bare 'Center Township' is ambiguous in Pennsylvania (multiple counties share the name); evidence identifies the adopting body as the one in Butler County."
+    }
+   },
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://www.butlereagle.com/20260611/center-township-places-moratorium-on-data-center-development/",
+     "title": "Center Township places moratorium on data center development",
+     "publisher": "Butler Eagle (Butler County, PA)",
+     "document_date": "2026-06-11",
+     "source_type": "news",
+     "supports": "The Butler Eagle reports supervisors voted unanimously on Wednesday, June 10, 2026 to approve the curative amendment, quoting Supervisors Phil Wulff, Don Pringle, and Mark Lauer, and grouping Center Township with 'Summit and Jefferson townships' -- matching the row's June 10, 2026 date and its own text citing this same Butler Eagle roundup."
+    }
+   ],
+   "notes": "State: Pennsylvania. COUNTY: Butler County; COORDS_FIX: 40.9329281, -79.9265663"
+  },
+  {
+   "moratorium_id": "pa-falls-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Falls Township",
+     "to": "Falls Township (Bucks County)",
+     "reason": "Bare 'Falls Township' is ambiguous in Pennsylvania (multiple counties share the name); evidence identifies the adopting body as the one in Bucks County."
+    }
+   },
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://fallstwp.com/resources/news/article/?id=11671",
+     "title": "Falls to Examine Zoning Ordinance in Response to Data Center Opposition",
+     "publisher": "Falls Township, Pennsylvania (official)",
+     "document_date": "2026-07-28",
+     "source_type": "other",
+     "supports": "Official township news release states the July 27/28, 2026 curative amendment resolution will be reviewed by 'Falls Township Planning Commission and Bucks County Planning Commission' and confirms it does not affect the already-approved Amazon data center, matching the row exactly."
+    }
+   ],
+   "notes": "State: Pennsylvania. COUNTY: Bucks County; COORDS_OK"
+  },
+  {
+   "moratorium_id": "pa-smithfield-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Smithfield Township",
+     "to": "Smithfield Township (Monroe County)",
+     "reason": "Bare 'Smithfield Township' is ambiguous in Pennsylvania (multiple counties share the name); evidence identifies the adopting body as the one in Monroe County."
+    }
+   },
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://smithfieldtownship.com/otp/dcca/",
+     "title": "Data Center Curative Amendment",
+     "publisher": "Smithfield Township Municipal Center, Pennsylvania (official)",
+     "document_date": "2026-08-14",
+     "source_type": "other",
+     "supports": "Official township page states amendments must be reviewed by 'the Smithfield Township Planning Commission and Monroe County Planning Commission,' and details Resolution No. 621 (adopted May 6, 2026) and the Aug. 12, 2026 curative amendment creating the H-1 district, matching the row's legal_basis and current_status exactly."
+    }
+   ],
+   "notes": "State: Pennsylvania. COUNTY: Monroe County; COORDS_FIX: 41.0073171, -75.1324962 This id was flagged as a known suspect (coordinates pointed to Bradford County); confirmed Monroe County (Poconos)."
+  },
+  {
+   "moratorium_id": "pa-warrington-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Warrington Township",
+     "to": "Warrington Township (York County)",
+     "reason": "Bare 'Warrington Township' is ambiguous in Pennsylvania (multiple counties share the name); evidence identifies the adopting body as the one in York County."
+    }
+   },
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://warringtontwp.org/wp-content/uploads/2026/06/2026-15-Warrington-Follow-up-Resolution-Moratorium.pdf",
+     "title": "Resolution No. 2026-15, Warrington Township, York County, Pennsylvania",
+     "publisher": "Warrington Township, York County, Pennsylvania (official)",
+     "source_type": "resolution",
+     "supports": "The resolution's own caption reads 'WARRINGTON TOWNSHIP, YORK COUNTY' and 'A RESOLUTION OF THE BOARD OF SUPERVISORS OF WARRINGTON TOWNSHIP, YORK COUNTY, PENNSYLVANIA,' and its recitals reference Resolution 2026-09 (May 13, 2026) and the March 11, 2026 administrative pause, matching the row's legal_basis verbatim.",
+     "quote": "WARRINGTON TOWNSHIP, YORK COUNTY / RESOLUTION NO. 2026-15 / A RESOLUTION OF THE BOARD OF SUPERVISORS OF WARRINGTON TOWNSHIP, YORK COUNTY, PENNSYLVANIA, SETTING FORTH SPECIFIC FINDINGS OF SUBSTANTIVE INVALIDITY..."
+    }
+   ],
+   "notes": "State: Pennsylvania. COUNTY: York County; COORDS_FIX: 40.0656653, -76.9368682 The row's own current_status text notes an unverified Civic IQ claim ('misattributed to a Town of York charter in Michigan') as unreliable; ironically the correct county (York County, PA) is confirmed independently by the township's own official resolution PDF."
+  }
+ ]
+}

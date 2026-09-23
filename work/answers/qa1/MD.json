@@ -1,0 +1,271 @@
+{
+  "state_abbrev": "MD",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 QA1",
+  "decisions": [
+    {
+      "moratorium_id": "md-caroline-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.carolinemd.org/DocumentCenter/View/12232/DATA-CENTER-MORATORIUM-RESOLUTION-6-012",
+          "source_type": "resolution",
+          "supports": "Primary resolution text (#2026-012) shows adoption/effective date of July 21, 2026, a one-year moratorium on data-center permits in unincorporated Caroline County.",
+          "quote": "ADOPTED/EFFECTIVE: July 21, 2026"
+        },
+        {
+          "url": "https://www.wboc.com/news/caroline-county-commissioners-approve-a-one-year-moratorium-on-new-data-centers/article_e2b4c188-c810-4704-a33a-d95e0e029f28.html",
+          "source_type": "news",
+          "supports": "Corroborating news coverage of the same one-year moratorium.",
+          "quote": ""
+        }
+      ],
+      "notes": "Verified directly against the primary resolution text, which states the adoption/effective date in its signature block. Exact match to the row."
+    },
+    {
+      "moratorium_id": "md-carroll-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://cityrulelookup.com/data-centers/moratoriums/carroll-county-md",
+          "source_type": "other",
+          "supports": "Official-code lookup site quotes the codified text of Carroll County Code §158.176 directly, confirming Ordinance 2026-02 and a Feb. 19, 2026 effective date for a one-year deferral, re-checked against the current code Sept. 7, 2026 with no newer amendment found.",
+          "quote": "§ 158.176 DATA PROCESSING CENTERS; TEMPORARY DEFERRAL. There shall be a temporary deferral on the acceptance, processing, reviewing, and approval of all plans for data processing centers in Carroll County as defined in § 158.002 for a period of one year starting with the effective date of this section (February 19, 2026). (Ord. 2026-02, passed - -2026)"
+        }
+      ],
+      "notes": "The instrument is titled a 'temporary deferral' rather than 'moratorium,' but functions identically — a one-year, dated suspension of data-center plan approvals, not a permanent ban — so it is correctly kept in the tracker. Confirmed directly against the codified ordinance text."
+    },
+    {
+      "moratorium_id": "md-queen-anne-s-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "http://www.qac.org/m/newsflash/Home/Detail/3243",
+          "source_type": "other",
+          "publisher": "Queen Anne's County",
+          "document_date": "2026-06-04",
+          "supports": "Official county press release confirms the 12-month moratorium, effective immediately upon adoption on June 4, 2026.",
+          "quote": "County News Posted on June 04, 2026 ... The Queen Anne’s County Commissioners have approved a temporary 12-month moratorium on the application, approval of or processing of applications for data centers within Queen Anne’s County."
+        },
+        {
+          "url": "https://www.cbsnews.com/baltimore/news/maryland-data-center-ban-moratorium-development-regulations/",
+          "source_type": "news",
+          "document_date": "2026-06-04",
+          "supports": "Same-day news coverage corroborating the June 4, 2026 (Thursday) vote.",
+          "quote": "On Thursday, the Queen Anne’s County Commissioners approved a temporary 12-month moratorium on the approval and processing of applications for data centers."
+        }
+      ],
+      "notes": "Confirmed by both the county's own release and same-day independent news coverage."
+    },
+    {
+      "moratorium_id": "md-anne-arundel-county-undated",
+      "outcome": "corrected",
+      "confidence": 0.7,
+      "changes": {
+        "current_status": {
+          "from": "Pending as of 2026-09-23. Reporting on this bill's status is mixed: The Baltimore Banner (published 2026-09-22) describes the County Council as having 'voted Monday evening to impose a 15-month moratorium on data centers... The bill passed unanimously,' while Anne Arundel County's own official legislation-tracking page (fetched 2026-09-23) lists Bill 63-26 with status 'Amended' and a next Council meeting/hearing date of 2026-10-05, indicating the amendment (converting the bill's substance from a ban to a moratorium) passed but the bill itself had not yet received final passage as of this reference date. Existing and under-construction data centers, including Microsoft's Annapolis Junction campus, would be exempt under the amended bill. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+          "to": "Pending as of 2026-09-23. A third source (GovTech, syndicating a Capital Gazette report) resolves the apparent conflict between the Baltimore Banner and the county's own tracker: the council's Sept. 21, 2026 vote was to adopt the omnibus amendment converting Bill 63-26 from a ban to a 15-month moratorium (unanimous), not final passage of the bill itself. Final passage is scheduled for the next reading on Oct. 5, 2026, matching the county's own tracker. Existing and under-construction data centers, including Microsoft's Annapolis Junction campus, would be exempt under the amended bill.",
+          "reason": "An independent GovTech/Capital Gazette article confirms the Sept. 21 vote was on the amendment only, with a final vote due Oct. 5, resolving the VERIFY marker's concern about which of the two conflicting accounts (Baltimore Banner vs. the county's own tracker) was correct."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.govtech.com/policy/maryland-county-downgrades-potential-data-center-ban-to-pause",
+          "source_type": "news",
+          "publisher": "GovTech / Capital Gazette (Tribune Content Agency)",
+          "supports": "Confirms the amendment converting Bill 63-26 from a ban to a 15-month moratorium (expiring January 2028) passed unanimously on Monday, Sept. 21, 2026, and that the bill's next (final) reading is Oct. 5, 2026 — consistent with the county's own 'Amended' tracker status rather than the Baltimore Banner's implication of final passage.",
+          "quote": "The amendment to downgrade the possible data center ban to a proposed moratorium passed unanimously. The next reading for the bill, whether containing another amendment or the final vote, will take place Oct. 5."
+        },
+        {
+          "url": "https://www.thebanner.com/politics-power/local-government/data-center-moratorium-ban-energy-water-defense-P2VUK3R45VH6XP5XY4AYFXXM3M/",
+          "source_type": "news",
+          "supports": "Original source describing the Sept. 21 vote (the account that appeared to conflict with the county's own tracker).",
+          "quote": ""
+        },
+        {
+          "url": "https://www.aacounty.org/county-council/legislation",
+          "source_type": "other",
+          "publisher": "Anne Arundel County",
+          "supports": "County's own legislation tracker, showing Bill 63-26 status as 'Amended' with next hearing Oct. 5, 2026.",
+          "quote": ""
+        }
+      ],
+      "notes": "Pending status confirmed correct; the bill is not yet finally adopted, contrary to a loose reading of the Baltimore Banner's phrasing. No change to enacted_status was needed.",
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+          "resolution": "confirmed",
+          "note": "A third independent source (GovTech/Capital Gazette) confirms the county's own tracker is correct: only the amendment passed Sept. 21; final passage is scheduled for Oct. 5, 2026 and had not occurred as of the reference date."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "md-calvert-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.88,
+      "changes": {
+        "legal_basis": {
+          "from": "Ordinance No. 26-__ (exact number not published in sources reviewed), adding a temporary Calvert County Code Chapter 145, 'Temporary Moratorium on Data Center Site Plan Approvals'",
+          "to": "Ordinance 42-26, adding a temporary Calvert County Code Chapter 145, 'Temporary Moratorium on Data Center Site Plan Approvals'",
+          "reason": "The county's own official 'Data Centers' page, which was already archived in this packet's evidence, gives the enacted ordinance number and links directly to it."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.calvertcountymd.gov/3880/Data-Centers",
+          "source_type": "other",
+          "publisher": "Calvert County",
+          "supports": "Official county page names the enacted instrument as 'Ordinance 42-26' and links to its text, confirming the Aug. 18, 2026 vote and Aug. 28, 2026 effective date.",
+          "quote": "On Aug. 18, 2026, the Board of County Commissioners adopted a temporary six-month moratorium on site plan approvals for data center development projects. ... Read Ordinance 42-26 for more information."
+        },
+        {
+          "url": "https://www.calvertcountymd.gov/CivicAlerts.aspx?AID=3201",
+          "source_type": "other",
+          "publisher": "Calvert County",
+          "document_date": "2026-08-18",
+          "supports": "Official press release confirms the unanimous Aug. 18, 2026 vote and the Aug. 28, 2026 effective date.",
+          "quote": "The Calvert County Board of County Commissioners unanimously passed a six-month moratorium on site plan approvals for data center development projects in Calvert County at its Aug. 18, 2026, regular meeting"
+        }
+      ],
+      "notes": "The draft ordinance text archived in the packet (work/sources/MD/1e129bada2cd9762.txt) had the ordinance number left blank ('Ordinance No. ______'), which is why the original researcher could not fill it in; the county's own final 'Data Centers' landing page names it Ordinance 42-26."
+    },
+    {
+      "moratorium_id": "md-dorchester-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.linkedin.com/posts/dorchestercountymd_public-notice-notice-is-hereby-given-that-activity-7490860257850658817-jeGm",
+          "source_type": "other",
+          "publisher": "Dorchester County Government",
+          "supports": "Official public notice confirms the County Council adopted Resolution No. 712 on Tuesday, August 4, 2026, effective the day of adoption.",
+          "quote": "Notice is hereby given that the County Council of Dorchester County adopted Resolution No. 712 on Tuesday, August 4, 2026."
+        },
+        {
+          "url": "https://www.stardem.com/news/dorchester/dorchester-county-approves-1-year-moratorium-on-data-centers/article_b7f5a98b-70e2-4b20-9df2-3c4f64df19bc.html",
+          "source_type": "news",
+          "supports": "Corroborating news coverage of the same resolution and its effective date.",
+          "quote": "The moratorium is effective immediately. Staff is now tasked with returning in the spring of 2027 with initial findings and recommendations."
+        }
+      ],
+      "notes": "Confirmed by an official public notice naming the exact adoption date; exact match to the row."
+    },
+    {
+      "moratorium_id": "md-federalsburg-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://www.stardem.com/news/caroline/federalsburg-approves-3-year-moratorium-on-data-centers/article_4a7def84-f11b-4da0-b5c5-c3743796beec.html",
+          "source_type": "news",
+          "supports": "Confirms the unanimous Monday, Aug. 3, 2026 vote for a three-year moratorium.",
+          "quote": "The Federalsburg Town Council unanimously passed a three-year moratorium on data centers Monday, with plans to consider legislation completely banning data centers in town limits."
+        },
+        {
+          "url": "https://www.wboc.com/news/federalsburg-becomes-first-eastern-shore-community-to-ban-data-centers/article_0c14f915-9216-4882-8efa-ceaeb920de1a.html",
+          "source_type": "news",
+          "supports": "Confirms Ordinance 2026-07, a permanent ban, passed unanimously on Wednesday, Sept. 9, 2026, superseding the three-year moratorium.",
+          "quote": "Ordinance 2026-07... changes the town charter's zoning code to prohibit data centers in any zoning district within Federalsburg. That ordinance passed unanimously on Sept. 9 to a roomful of applause."
+        },
+        {
+          "url": "https://www.stardem.com/news/data_centers/federalsburg-becomes-first-eastern-shore-jurisdiction-to-ban-data-centers/article_9fc667e4-1fda-46e3-9b80-4e18741abb69.html",
+          "source_type": "news",
+          "supports": "Confirms the 4-0 vote (Mayor Abner absent) on Sept. 9, 2026, over the Planning and Zoning Commission's contrary recommendation.",
+          "quote": "Ordinance 2026-07 passed 4-0 Wednesday, with all council members in favor. Mayor Kim Abner was not in attendance."
+        }
+      ],
+      "notes": "Both the Aug. 3, 2026 Monday date for the original moratorium and the Sept. 9, 2026 Wednesday date for the superseding permanent ban check out against a calendar (Aug 3, 2026 = Monday; Sept 9, 2026 = Wednesday). The 'replaced' status is the correct way to model this: the moratorium genuinely existed and was then superseded by a permanent ban (out of this tracker's scope) before its three-year term ran; no REMOVE or DUPLICATE is warranted."
+    },
+    {
+      "moratorium_id": "md-hurlock-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "url": "https://www.stardem.com/news/dorchester/hurlock-imposes-three-year-data-center-moratorium/article_17b44c41-6bd8-47c0-95f1-bd51bdb8b22c.html",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 10, 2026 council-meeting approval of a three-year moratorium, introduced by Council President Russell Murphy, with Mayor Earl Murphy's stated rationale for the three-year term.",
+          "quote": "The Town of Hurlock approved a three-year moratorium on data centers at its Aug. 10 council meeting, which was introduced by Council President Russell Murphy."
+        }
+      ],
+      "notes": "Only one news source found; I ran an additional search for the resolution/ordinance number and found none, so the VERIFY marker on instrument number stays open. Date and term are well supported.",
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "An additional search did not turn up the ordinance/resolution number or a second independent source; the Star Democrat account remains the only source found."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "md-pocomoke-city-undated",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.wmdt.com/2026/09/pocomoke-city-introduced-potential-moratorium-on-data-centers/",
+          "source_type": "news",
+          "document_date": "2026-09-14",
+          "supports": "Confirms the proposal was introduced (not adopted) at the Sept. 8, 2026 mayor-and-council meeting, with a roughly one-year term once adopted.",
+          "quote": "Pocomoke Officials will continue to discuss the temporary moratorium, now that it has been introduced in session. Once adopted, the new regulations would take immediate effect, and would last around a year"
+        }
+      ],
+      "notes": "I found a possible resolution number, 'Resolution 2027-R-1,' in a Facebook post about upcoming September 2026 Pocomoke City meetings, but could not confirm it against an official source — the city's own Public Hearing and Legal Notices page (checked directly) does not currently list a data-center resolution, only an unrelated accessory-dwelling-unit ordinance introduced the same day (2027-O-1). I also searched for a subsequent adoption vote and found none. The row's 'pending' status remains accurate as of 2026-09-23.",
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "A possible resolution number (2027-R-1) surfaced in an unofficial social-media post but could not be confirmed against the city's official legal-notices page, which does not yet list a data-center resolution."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "md-talbot-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://talbotcountymd.gov/uploads/File/Council_2022/Resolutions/Res.%20395%20(Temporary%20Moratorium%20on%20Data%20Centers).pdf",
+          "source_type": "resolution",
+          "supports": "Primary resolution text (No. 395), introduced Aug. 11, 2026 (Legislative Day), with public hearing/adoption scheduled Tuesday, Sept. 8, 2026, a 12-month moratorium extendable by up to two additional six-month periods.",
+          "quote": "Introduced, read the first time, and ordered posted, with Public Hearing scheduled on Tuesday, September 8, 2026"
+        },
+        {
+          "url": "https://www.talbotcountymd.gov/press-releases/talbot-county-council-meeting-highlights-september-8-2026",
+          "source_type": "other",
+          "publisher": "Talbot County",
+          "document_date": "2026-09-10",
+          "supports": "Official meeting-highlights press release confirms the Council's regular meeting on Tuesday, Sept. 8, 2026.",
+          "quote": "The Talbot County Council held its regular meeting on Tuesday, September 8, 2026, at 5 p.m. All Council members were present."
+        }
+      ],
+      "notes": "Confirmed directly against the primary resolution text and an official meeting-highlights release; exact match on resolution number, adoption date, and extension terms."
+    },
+    {
+      "moratorium_id": "md-wicomico-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.96,
+      "evidence": [
+        {
+          "url": "https://www.wicomicocounty.org/Archive/ViewFile/Item/6405",
+          "source_type": "resolution",
+          "supports": "Primary resolution text (No. 125-2026) confirms adoption 'DONE at Salisbury, Maryland this 4 day of August, 2026,' a one-year moratorium on data-center subdivision/site plans, withdrawn by the Council the same day.",
+          "quote": "DONE at Salisbury, Maryland this 4 day of August, 2026."
+        },
+        {
+          "url": "https://www.delmarvapublicmedia.org/local-news/2026-08-12/data-centers-pose-myriad-of-issues-for-wicomico-county",
+          "source_type": "news",
+          "supports": "Corroborating news coverage of the Aug. 4, 2026 moratorium.",
+          "quote": ""
+        }
+      ],
+      "notes": "Verified directly against the primary resolution text; exact match to the row."
+    }
+  ]
+}

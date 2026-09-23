@@ -3,7 +3,7 @@
 
 Every local infrastructure moratorium in the inventory for Missouri, current through **September 23, 2026**.
 
-**19 instruments** — 16 in force, 0 pending, 3 past.
+**22 instruments** — 19 in force, 0 pending, 3 past.
 
 State policy is tracked separately: **7 actions** (7 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -24,6 +24,9 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 | Jackson County | County | 2026-06-22 | data center, battery storage | 🟢 Active |
 | Marion County | County | 2026-06-15 | data center | ⚪ Replaced |
 | Nodaway County | County | 2026-07-21 | data center | 🟢 Active |
+| Oak Grove | City | 2026-08-03 | data center | 🟢 Active |
+| Pacific | City | 2026-08-04 | data center | 🟢 Active |
+| Palmyra | City | 2026-09-03 | data center | 🟢 Active |
 | Ralls County | County | 2026-08-23 | data center | 🟢 Active |
 | St. Charles County | County | 2026-07-13 | data center | 🟢 Active |
 | Stone County | County | 2026-06-04 | data center, solar, wind, battery storage | 🟢 Active |
@@ -270,6 +273,54 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Affected projects:** Exempts existing operations and projects where physical on-site construction had already begun
 - **Detailed status:** Active per primary county order
 - **Outcome:** County Commission signed an order imposing a six-month moratorium in unincorporated Nodaway County on data center construction, conversion, establishment, new operation, expansion, and related permits
+
+### Oak Grove
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** August 3, 2026
+- **Normalized date:** `2026-08-03` (exact)
+- **Duration:** One year
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `mo-oak-grove-2026`
+- **Legal basis:** Board of Aldermen resolution (agenda item, Aug. 3, 2026 meeting)
+- **What prompted it:** Resident concerns about data centers
+- **Affected projects:** None; preemptive
+- **Detailed status:** Active as of 2026-09-23.
+- **Outcome:** City to consider regulations over the course of the year
+
+### Pacific
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** August 4, 2026
+- **Normalized date:** `2026-08-04` (exact)
+- **Duration:** One year, unless ended earlier by majority vote
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `mo-pacific-2026`
+- **Legal basis:** Board of Aldermen ordinance (number not found in coverage reviewed)
+- **What prompted it:** Beltline Energy data center rezoning application pending; opposition from Pacific ROOT Coalition
+- **Affected projects:** Beltline Energy data center rezoning application (public hearing proceeding separately)
+- **Detailed status:** Active as of 2026-09-23. Unlike most moratoria, developers may file a waiver to have a pending application considered anyway, and the board may end the stay early by majority vote.
+- **Outcome:** Board to research and develop data center policies during the stay
+
+### Palmyra
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** September 3, 2026
+- **Normalized date:** `2026-09-03` (exact)
+- **Duration:** —
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `mo-palmyra-2026`
+- **Legal basis:** Resolution 2026-06
+- **What prompted it:** City modeled the resolution on the neighboring Marion County moratorium
+- **Affected projects:** None named
+- **Detailed status:** Active as of 2026-09-23. Term/duration was not stated in the reporting reviewed.
+- **Outcome:** City Attorney used the existing Marion County moratorium as a drafting reference
 
 ### Ralls County
 

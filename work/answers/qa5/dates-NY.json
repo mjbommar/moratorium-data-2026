@@ -1,0 +1,508 @@
+{
+ "state_abbrev": "NY",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA5",
+ "decisions": [
+  {
+   "moratorium_id": "ny-allen-allegany-county-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://carina.energy/bess-moratoriums/new-york/",
+     "title": "New York BESS Moratoriums: 90 Active Battery Storage Restrictions",
+     "publisher": "Carina Energy",
+     "source_type": "other",
+     "supports": "Confirms Allen, Allegany County is tracked as an active BESS moratorium but gives no adoption date.",
+     "quote": "| Allen, Allegany County | ACTIVE | UTILITY_SCALE | MORATORIUM |"
+    }
+   ],
+   "notes": "Repeated a targeted 'Town of Allen Allegany County New York battery storage moratorium local law' search; results returned only neighboring Allegany County towns (Angelica, Alfred, Friendship, Independence, Allegany/Belfast) with their own separate BESS moratoria, confirming the original researcher's finding that Allegany County has an unusually dense cluster of similarly-named town moratoria and that no Town-of-Allen-specific primary or news source surfaces. Left unresolved; did not attempt the NYS DOS Local Laws Database (locallaws.dos.ny.gov), which requires interactive form search rather than a URL/query fetch and was out of budget across this many packet items."
+  },
+  {
+   "moratorium_id": "ny-amsterdam-undated",
+   "outcome": "corrected",
+   "confidence": 0.8,
+   "changes": {
+    "date_enacted": {
+     "from": "",
+     "to": "December 2, 2025 (City of Amsterdam Common Council adopted a local law establishing a six-month moratorium on land-use approvals/building permits for industrial solar and battery energy storage systems, effective through June 2, 2026); per Daily Gazette, Dec. 8, 2025. Extended by a local law adopted on or about May 19, 2026 to Jan. 5, 2027 ('through the end of the year'); per Daily Gazette, May 25, 2026.",
+     "reason": "Dated news coverage (Daily Gazette, Dec. 8, 2025 and May 25, 2026) establishes both the original adoption and the extension."
+    },
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2025-12-02",
+     "reason": "Daily Gazette's Dec. 8, 2025 article states the Common Council adopted the moratorium 'Tuesday' (Dec. 2, 2025), effective for six months through June 2, 2026."
+    },
+    "date_enacted_uncertainty": {
+     "from": "unverified",
+     "to": "exact",
+     "reason": "An exact YYYY-MM-DD adoption date is now sourced from a dated news article."
+    },
+    "duration": {
+     "from": "Indefinite; extended at least once ('through the end of the year')",
+     "to": "Six months from Dec. 2, 2025 (through June 2, 2026), then extended by a local law adopted ~May 19, 2026 to Jan. 5, 2027",
+     "reason": "Both the original 6-month term and the extension to Jan. 5, 2027 are directly stated in the two Daily Gazette articles."
+    },
+    "duration_kind": {
+     "from": "indefinite",
+     "to": "until_date",
+     "reason": "The moratorium's operative term is now bounded by a stated calendar end date (Jan. 5, 2027) after extension, rather than being untracked/indefinite."
+    },
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2027-01-05",
+     "reason": "The May 25, 2026 Daily Gazette article states the extension local law moved the end date to Jan. 5, 2027."
+    },
+    "current_status": {
+     "from": "Reported active/indefinite as of 2026-09-23 by Carina Energy. Two Daily Gazette headlines ('Amsterdam extends battery, solar moratorium' and 'Amsterdam to propose banning battery energy storage systems') confirm the moratorium existed and was extended, and that a permanent ban was under consideration; article bodies were paywalled and could not be quoted. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+     "to": "Active as of 2026-09-23, extended through Jan. 5, 2027. The Daily Gazette's Dec. 8, 2025 and May 25, 2026 articles (this time fetched successfully, past the paywall interstitial) confirm the original Dec. 2, 2025 six-month moratorium and its extension to Jan. 5, 2027, and a third Daily Gazette headline ('Amsterdam to propose banning battery energy storage systems') indicates a permanent ban was under consideration as of the extension. [VERIFY instrument/local law number not confirmed at confidence 0.6 in the 2026-09 refresh]",
+     "reason": "Updates the status to reflect the confirmed adoption/extension dates and narrows the remaining [VERIFY] to just the local law/ordinance number."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://www.dailygazette.com/the_recorder/news/govt_politics/amsterdam-adopts-moratorium-on-battery-energy-storage-industrial-solar-to-pursue-zoning-updates/article_7068fd7e-86d3-4aba-9f65-f32f9c08edf3.html",
+     "title": "Amsterdam adopts moratorium on battery energy storage, industrial solar to pursue zoning updates",
+     "publisher": "Daily Gazette (The Recorder)",
+     "document_date": "2025-12-08",
+     "source_type": "news",
+     "supports": "Dates the original adoption to Tuesday, Dec. 2, 2025 (article published the following Monday, Dec. 8), a six-month moratorium running through June 2, 2026.",
+     "quote": "The common council on Tuesday adopted a local law establishing the temporary moratorium ... The moratorium will pause applications for land use approvals or building permits for industrial solar and battery energy storage systems for six months until June 2."
+    },
+    {
+     "url": "https://www.dailygazette.com/the_recorder/amsterdam-extends-battery-solar-moratorium/article_cdb099e7-1fc6-4343-b9b1-f0b94bc1196b.html",
+     "title": "Amsterdam extends battery, solar moratorium",
+     "publisher": "Daily Gazette (The Recorder)",
+     "document_date": "2026-05-25",
+     "source_type": "news",
+     "supports": "Confirms the Common Council adopted an extension local law the Tuesday before publication (~May 19, 2026), extending the moratorium to Jan. 5, 2027, and confirms the original moratorium was enacted in December 2025.",
+     "quote": "The Common Council adopted a local law Tuesday extending the moratorium to Jan. 5 on applications for land use approvals or building permits for industrial solar and battery energy storage systems. The city had enacted a six-month moratorium in December to provide officials time to study the technology."
+    }
+   ],
+   "notes": "This is the City of Amsterdam (jurisdiction_type City), confirmed distinct from the separate Town of Amsterdam, which has its own solar moratorium history (townofamsterdam.org). Both Daily Gazette articles initially appeared paywalled in a first fetch attempt but rendered full text on a follow-up save_source.py run; local-law/ordinance number still not found (city's AgendaCenter minutes PDF for the Dec. 2, 2025 meeting did not OCR any text), so that piece of the original [VERIFY] marker remains open."
+  },
+  {
+   "moratorium_id": "ny-campbell-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://carina.energy/bess-moratoriums/new-york/",
+     "title": "New York BESS Moratoriums: 90 Active Battery Storage Restrictions",
+     "publisher": "Carina Energy",
+     "source_type": "other",
+     "supports": "Confirms Campbell, Steuben County is tracked as an active BESS moratorium, part of the Steuben County cluster, but gives no adoption date.",
+     "quote": "| Campbell, Steuben County | ACTIVE | UTILITY_SCALE | MORATORIUM |"
+    }
+   ],
+   "notes": "Searched 'Town of Campbell Steuben County New York battery storage moratorium local law'; results were dominated by unrelated Steuben County solar-law coverage (Town of Thurston) and other towns' BESS laws (Eden, DeWitt, Newstead). No Town-of-Campbell-specific primary source or news article located within budget."
+  },
+  {
+   "moratorium_id": "ny-carlton-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.35,
+   "evidence": [
+    {
+     "url": "https://townofcarltonny.gov/wp-content/uploads/2025/09/largebatterynotice.pdf",
+     "title": "Legal Notice, Town of Carlton -- Public Hearing on Local Law No. 6 of 2025",
+     "publisher": "Town of Carlton, Orleans County",
+     "document_date": "2025-09-14",
+     "source_type": "agenda",
+     "supports": "Confirms a public hearing was held Oct. 14, 2025 on Local Law No. 6 of 2025, an extension of the existing large-BESS moratorium, but does not state the original moratorium's adoption date or law number.",
+     "quote": "PLEASE TAKE NOTICE that the Carlton Town Board will hold a public hearing on October 14, 2025 ... to consider the adoption of proposed Local Law No. 6 of 2025 entitled \u201cExtension of Moratorium on the acceptance, processing and/or approval of all applications for building permits, area or use variances, special use permits, and/or site plan approvals for large battery energy storage systems in the Town of Carlton\u201d."
+    }
+   ],
+   "notes": "Confirmed the extension mechanics (Local Law No. 6 of 2025, public hearing Oct. 14, 2025) already reflected in the row, but could not find the original moratorium's own local law number or adoption date (would logically be an earlier-numbered 2024 or 2025 local law, per the numbering pattern seen in neighboring towns, but no Carlton-specific document surfaced)."
+  },
+  {
+   "moratorium_id": "ny-carrollton-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://carina.energy/bess-moratoriums/",
+     "title": "BESS Moratorium Map: 172 Battery Storage Restrictions by State",
+     "publisher": "Carina Energy",
+     "source_type": "other",
+     "supports": "Confirms Carrollton, Cattaraugus County is tracked as EXPIRED with an expiration date of 4/29/2025, matching the row's existing text, but this is an expiration/last-checked date, not an adoption date.",
+     "quote": "Carrollton, Cattaraugus County | NY | EXPIRED | 4/29/2025 | UTILITY_SCALE | MORATORIUM"
+    }
+   ],
+   "notes": "No original adoption date located; search results returned only unrelated Cattaraugus County items. Left unchanged."
+  },
+  {
+   "moratorium_id": "ny-collins-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://carina.energy/bess-moratoriums/new-york/",
+     "title": "New York BESS Moratoriums: 90 Active Battery Storage Restrictions",
+     "publisher": "Carina Energy",
+     "source_type": "other",
+     "supports": "Confirms Collins, Erie County is tracked as an active BESS moratorium but gives no adoption date.",
+     "quote": "| Collins, Erie County | ACTIVE | UTILITY_SCALE | MORATORIUM |"
+    }
+   ],
+   "notes": "Searched 'Town of Collins Erie County New York battery energy storage moratorium local law adopted'; only found an unrelated 2016 solar-farm moratorium article (Observer Today) predating the BESS era, plus neighboring towns' BESS laws (Eden, Newstead). No Town-of-Collins BESS moratorium document located."
+  },
+  {
+   "moratorium_id": "ny-corning-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://carina.energy/bess-moratoriums/",
+     "title": "BESS Moratorium Map: 172 Battery Storage Restrictions by State",
+     "publisher": "Carina Energy",
+     "source_type": "other",
+     "supports": "Confirms Corning (Town), Steuben County shows a tracked date of 11/20/2026, consistent with the row's 'extended to November 2026' text, but this reads as a current/expiration date rather than the original adoption date.",
+     "quote": "Corning, Steuben County | NY | ACTIVE | 11/20/2026 | UTILITY_SCALE | MORATORIUM"
+    }
+   ],
+   "notes": "No Town-of-Corning-specific primary source or news article giving the original adoption date was located within budget."
+  },
+  {
+   "moratorium_id": "ny-elba-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.35,
+   "evidence": [
+    {
+     "url": "https://www.noticeregistry.com/new-york/notice/public-hearing-elba-ggne52b1ea7dtohuiom2-0",
+     "title": "Public Hearing notice, Town of Elba, proposed Local Law No. 1 of 2026",
+     "publisher": "NoticeRegistry (AI-summarized public notice aggregator)",
+     "source_type": "other",
+     "supports": "Confirms a July 9, 2026 public hearing on Local Law No. 1 of 2026 to extend a 12-month moratorium on Tier 3 solar and large battery storage, matching the row's own reference, but the underlying notice text was not extractable and gives no original adoption date.",
+     "quote": "The Town of Elba will hold a public hearing on July 9, 2026 at 6:45 PM to consider proposed Local Law No. 1 of 2026, which would extend a 12-month moratorium on Tier 3 solar, large battery storage, and..."
+    }
+   ],
+   "notes": "Confirmed the July 2026 extension hearing already referenced in the row, but could not find the moratorium's original local law number or adoption date; NoticeRegistry's AI summary did not include the full notice text. Left unresolved."
+  },
+  {
+   "moratorium_id": "ny-essex-county-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://jaynews.org/state-energy-official-briefs-county-on-battery-storage/",
+     "title": "State Energy Official Briefs County on Battery Storage",
+     "publisher": "jaynews.org",
+     "source_type": "news",
+     "supports": "Confirms Essex County's Board of Supervisors' Public Safety Committee was briefed on battery storage in June (year unstated in excerpt), amid a wave of Adirondack town-level moratoria, but does not describe a county-level moratorium's adoption.",
+     "quote": "A New York state energy official briefed the Essex County Board of Supervisors' Public Safety Committee on battery storage in June, as a growing number of Adirondack towns -- several of them in Essex County -- ..."
+    },
+    {
+     "url": "https://townofticonderoga.gov/wp-content/uploads/TOT-BESS-Moratorium-2026.pdf",
+     "title": "Town of Ticonderoga, County of Essex, Local Law No. __ of 2026, BESS Moratorium",
+     "publisher": "Town of Ticonderoga",
+     "source_type": "ordinance",
+     "supports": "Confirms the Town of Ticonderoga's own, separate BESS moratorium (a different row already in the inventory, per the packet's own note), not a county-level instrument.",
+     "quote": "TOWN OF TICONDEROGA COUNTY OF ESSEX, STATE OF NEW YORK Local Law No. __ of 2026 A LOCAL LAW IMPOSING A MORATORIUM ON LOCATING BATTERY ENERGY STORAGE SYSTEMS IN THE TOWN OF TICONDEROGA"
+    }
+   ],
+   "notes": "Could not locate a distinct county-level (Essex County Board of Supervisors) BESS moratorium document or adoption date, separate from individual towns' (e.g., Ticonderoga's) own moratoria. Given the row's own current_status already flags this as a tracker artifact ('a past expiration date that is confirmed active pending updated dates'), the underlying county-level instrument's existence itself is somewhat doubtful, but I did not find affirmative evidence it doesn't exist either, so left as unresolvable rather than REMOVE."
+  },
+  {
+   "moratorium_id": "ny-freedom-cattaraugus-county-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://municipality-management.s3.us-east-2.amazonaws.com/8/minutes/SRR2S1gz6IPNYRFh_February%2017%2C%202025%20Regular%20Board%20Meeting%20Minutes%20%282%29.pdf",
+     "title": "Town of Freedom Regular Board Meeting Minutes, Feb. 17, 2025",
+     "publisher": "Town of Freedom",
+     "document_date": "2025-02-17",
+     "source_type": "minutes",
+     "supports": "Shows the Town was working on a battery energy storage systems law as of Feb. 17, 2025, but the excerpt found reads as a permanent regulatory law ('this battery energy storage systems law is adopted to advance and protect...'), not clearly the temporary moratorium the row describes.",
+     "quote": "This battery energy storage systems law is adopted to advance and protect the public health, safety, welfare, and quality of life of the Town..."
+    }
+   ],
+   "notes": "Could not confirm whether this Feb. 2025 item is the moratorium itself, a permanent BESS zoning law, or a different document; did not have budget to fetch and read the full minutes PDF. Left unresolved rather than guessing a date from an ambiguous source."
+  },
+  {
+   "moratorium_id": "ny-gainesville-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://www.thedailynewsonline.com/news/gainesville-extends-solar-battery-moratorium/article_7d1d07f9-039f-45a9-8910-aa1821fd8eb7.html",
+     "title": "Gainesville extends solar, battery moratorium",
+     "publisher": "The Daily News (Batavia)",
+     "source_type": "news",
+     "supports": "Confirms the Gainesville Town Board voted to extend its solar/battery moratorium by six months, but the article body is paywalled beyond the headline/lede snippet, so the original adoption date could not be read.",
+     "quote": "GAINESVILLE \u2014 The Gainesville Town Board voted Monday evening to extend its moratorium on new solar energy and battery storage facilities. ... The unanimous vote adds six months to a moratorium that h[as]..."
+    }
+   ],
+   "notes": "Article is paywalled past the lede (fetched, but only navigation chrome rendered); could not confirm the exact original adoption date within budget."
+  },
+  {
+   "moratorium_id": "ny-greenwood-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://carina.energy/bess-moratoriums/new-york/",
+     "title": "New York BESS Moratoriums: 90 Active Battery Storage Restrictions",
+     "publisher": "Carina Energy",
+     "source_type": "other",
+     "supports": "Confirms Greenwood, Steuben County is tracked as an active BESS moratorium, part of the Steuben County cluster, but gives no adoption date.",
+     "quote": "| Greenwood, Steuben County | ACTIVE | UTILITY_SCALE | MORATORIUM |"
+    }
+   ],
+   "notes": "No Town-of-Greenwood-specific primary source or news article located within budget (same Steuben County cluster search as Campbell/Corning turned up nothing town-specific)."
+  },
+  {
+   "moratorium_id": "ny-halfmoon-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://carina.energy/bess-moratoriums/",
+     "title": "BESS Moratorium Map: 172 Battery Storage Restrictions by State",
+     "publisher": "Carina Energy",
+     "source_type": "other",
+     "supports": "Confirms Halfmoon, Saratoga County shows a tracked date of 8/31/2026, consistent with the row's 'extended to August 2026' text, but this reads as a current/expiration date, not the original adoption date.",
+     "quote": "Halfmoon, Saratoga County | NY | ACTIVE | 8/31/2026 | UTILITY_SCALE | MORATORIUM"
+    }
+   ],
+   "notes": "No Town-of-Halfmoon-specific primary source or news article giving the original adoption date was located within budget (search surfaced neighboring Saratoga County towns' own BESS notices -- Clifton Park, Wilton -- but nothing for Halfmoon itself)."
+  },
+  {
+   "moratorium_id": "ny-harrison-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://www.zoneomics.com/code/harrison-NY/chapter_17",
+     "title": "Harrison, NY Zoning Ordinance | Zoneomics (Chapter 17, including former \u00a7235-95 BESS moratorium)",
+     "publisher": "Zoneomics (third-party code aggregator)",
+     "source_type": "other",
+     "supports": "Confirms Harrison's code once contained a codified BESS moratorium section (\u00a7235-95) with a six-month term (extendable by Town Board resolution), consistent with the row's legal_basis, but the scraped text does not include the adoption/effective date.",
+     "quote": "The moratorium period shall be in effect for a period of six months following the effective date of this section. Following the moratorium period, this section shall be without further force and effect unless the moratorium period is extended by a Town Board resolution."
+    }
+   ],
+   "notes": "Confirms the existence and mechanics of the former \u00a7235-95 BESS moratorium but not its date; the scraped Zoneomics page mixes in text from an adjacent \u00a7235-96 (Multifamily Dwellings) moratorium section, so care is needed reusing this source. No dated adoption notice found within budget."
+  },
+  {
+   "moratorium_id": "ny-le-ray-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://carina.energy/bess-moratoriums/new-york/",
+     "title": "New York BESS Moratoriums: 90 Active Battery Storage Restrictions",
+     "publisher": "Carina Energy",
+     "source_type": "other",
+     "supports": "Confirms Le Ray, Jefferson County is tracked as EXPIRED, consistent with the row, but gives no adoption date.",
+     "quote": "| Le Ray, Jefferson County | EXPIRED | UTILITY_SCALE | MORATORIUM |"
+    }
+   ],
+   "notes": "Did not locate the Town of Le Ray's own 'LL - Moratorium EnergyBattery' document or a dated public hearing notice within budget beyond what the row already cites."
+  },
+  {
+   "moratorium_id": "ny-mount-kisco-undated",
+   "outcome": "corrected",
+   "confidence": 0.55,
+   "changes": {
+    "date_enacted": {
+     "from": "",
+     "to": "Approximately August 2024: Westfair Communications reported 'Mount Kisco's Board of Trustees has adopted a local law establishing a moratorium on battery energy storage systems (BESS)... a six-month moratorium that also allows for two three-month extensions,' in an article published/dated Aug. 19, 2024 (matching the row's 'Twice extended' duration text). Exact vote date not confirmed. Superseded by permanent zoning changes (Proposed Local Law No. 01-2025, amending Chapter 110) which the Village Board adopted Aug. 11, 2025, per Citizen Portal.",
+     "reason": "A Westfair Communications article dated Aug. 19, 2024 reports the moratorium's adoption in the same week, with a duration structure ('six-month moratorium that also allows for two three-month extensions') matching the row's existing 'Twice extended' text exactly."
+    },
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2024-08",
+     "reason": "Best-supported month from the dated Westfair Communications article reporting the adoption."
+    },
+    "date_enacted_uncertainty": {
+     "from": "unverified",
+     "to": "month_only",
+     "reason": "Only the month, not the exact day, is supported by the dated news article found."
+    },
+    "current_status": {
+     "from": "Reported expired by industry tracker (2025-06-03); after twice extending its BESS moratorium, the Village Board adopted permanent zoning changes effectively banning large BESS (declining to define them as a public utility), replacing the temporary pause.",
+     "to": "Replaced as of Aug. 11, 2025: after twice extending its six-month BESS moratorium (three-month extensions), per Westfair Communications' original Aug. 19, 2024 coverage of the moratorium's adoption, the Village Board adopted Local Law No. 1 of 2025 amending Chapter 110 zoning to define and prohibit large Battery Energy Storage Systems, replacing the temporary pause. This confirmed Aug. 11, 2025 replacement date supersedes the industry tracker's earlier, and apparently inconsistent, 'expired 2025-06-03' reading.",
+     "reason": "The confirmed Aug. 11, 2025 permanent-ordinance replacement date (Citizen Portal) is better-supported than, and inconsistent with, the industry tracker's earlier 'expired 2025-06-03' figure."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://westfaironline.com/latest-news/mount-kisco-adopts-moratorium-on-battery-storage-systems/",
+     "title": "Mount Kisco adopts moratorium on battery storage systems",
+     "publisher": "Westfair Communications",
+     "document_date": "2024-08-19",
+     "source_type": "news",
+     "supports": "Reports the original adoption of a six-month BESS moratorium (with two three-month extension options), dated Aug. 19, 2024.",
+     "quote": "Mount Kisco enacted a six-month moratorium that also allows for two three-month extensions."
+    },
+    {
+     "url": "https://citizenportal.ai/articles/8226804/new-york/westchester-county/mount-kisco/mount-kisco-adopts-local-law-banning-large-battery-energy-storage-systems",
+     "title": "Mount Kisco adopts local law banning large battery energy storage systems",
+     "publisher": "Citizen Portal",
+     "source_type": "other",
+     "supports": "Confirms the Village Board adopted Local Law No. 1 of 2025 on Aug. 11, 2025, amending the zoning code to prohibit large BESS -- the permanent replacement referenced in the row's legal_basis.",
+     "quote": "The Mount Kisco Village Board on Aug. 11 adopted Local Law No. 1 of 2025, amending the village zoning code to define and prohibit large Battery Energy Storage..."
+    }
+   ],
+   "notes": "date_enacted_iso set to month_only 2024-08 on the strength of a news article that itself dates the adoption (published the same week, describing the six-month/two-3-month-extension structure that matches the row's 'Twice extended' text exactly). Also corrected current_status: the industry tracker's 'expired 2025-06-03' figure looks like a tracker guess that predates and is inconsistent with the confirmed Aug. 11, 2025 permanent-ordinance replacement date, which is now the better-supported figure."
+  },
+  {
+   "moratorium_id": "ny-port-chester-undated",
+   "outcome": "corrected",
+   "confidence": 0.4,
+   "changes": {
+    "date_enacted": {
+     "from": "",
+     "to": "Approximately October 2023 (inferred): a March 25, 2024 Village of Port Chester Board of Trustees agenda item to 'Extend Temporary Development Moratorium on Battery Energy Storage Systems' states the original term 'ends 4/25/2024,' consistent with a roughly six-month original term beginning around late October 2023. Exact adoption date and local law number not confirmed.",
+     "reason": "A March 25, 2024 Village Board agenda item states the original moratorium's term 'ends 4/25/2024,' supporting an inferred ~6-month original term beginning around late October 2023."
+    },
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2023-10",
+     "reason": "Inferred month from the stated original-term end date (4/25/2024) assuming a standard ~6-month moratorium term."
+    },
+    "date_enacted_uncertainty": {
+     "from": "unverified",
+     "to": "month_only",
+     "reason": "This is an inference from a stated end date, not a directly sourced adoption date, so only month-level precision is claimed."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://portchesterny.gov/AgendaCenter/ViewFile/Agenda/_03252024-632",
+     "title": "Village of Port Chester Board of Trustees Agenda, March 25, 2024",
+     "publisher": "Village of Port Chester",
+     "document_date": "2024-03-25",
+     "source_type": "agenda",
+     "supports": "States the original BESS development moratorium's term 'ends 4/25/2024,' matching the row's already-stated original-term-end date and supporting a roughly six-month original term starting around late October 2023.",
+     "quote": "Extend Temporary Development Moratorium on Battery Energy Storage Systems \u2013 Original ends 4/25/2024"
+    },
+    {
+     "url": "https://portchesterny.gov/AgendaCenter/ViewFile/Agenda/_08052024-684",
+     "title": "Village of Port Chester Board of Trustees Agenda, August 5, 2024",
+     "publisher": "Village of Port Chester",
+     "document_date": "2024-08-05",
+     "source_type": "agenda",
+     "supports": "Confirms a further public hearing in August 2024 on amending Chapter 345 to impose/continue a development moratorium on self-storage/BESS, consistent with the row's note of an August 2024 extension public hearing.",
+     "quote": "Public hearing to consider the advisability of adopting a local law amending the Code of the Village of Port Chester, Chapter 345, \u201cZoning,\u201d imposing a temporary development moratorium on self-st..."
+    }
+   ],
+   "notes": "date_enacted_iso is an inference (month_only, moderate confidence) from the stated original-term end date (4/25/2024) assuming a standard ~6-month term, not a directly sourced adoption date or local law number. The row's jurisdiction is the Village of Port Chester (Chapter 345 of the Village Code)."
+  },
+  {
+   "moratorium_id": "ny-ripley-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7BC4F6B632-9291-4C3D-A132-8CECF0AC7DEB%7D",
+     "title": "Town of Ripley Statement of Non-Compliance with Local Law / Resolution 86-2022 to Adopt Local Law No. 3 of 2022 (BESS Zoning Law)",
+     "publisher": "NYS Department of Public Service filing",
+     "document_date": "2022",
+     "source_type": "other",
+     "supports": "Confirms the only Ripley BESS-related legislative instrument findable is Local Law No. 3 of 2022, described as a 'BESS Zoning Law' (permanent zoning), not a temporary moratorium.",
+     "quote": "Town of Ripley Local Law 3 of 2022 (BESS Zoning Law) ... RESOLUTION 86-2022 TO ADOPT LOCAL LAW NO. 3 OF 2022 BATTERY ENE[RGY STORAGE]..."
+    }
+   ],
+   "notes": "This independently corroborates the original researcher's own finding: no separate Ripley BESS moratorium document exists, only a 2022 permanent zoning law. Per the QA process ('a permanent ban or permanent zoning rule adopted instead of a pause is not a new moratorium row'), this looks like a strong REMOVE candidate, but I am marking it unresolvable rather than an outright REMOVE because the industry tracker (carina.energy) independently and specifically lists Ripley as an EXPIRED (not merely absent) BESS moratorium, which suggests the tracker may be drawing on a source I did not find (e.g., a separate un-indexed local law) rather than simply mis-describing the 2022 zoning law. Flagging for the coordinator to weigh the REMOVE case: current evidence favors it, but I could not affirmatively rule out a real, separately-adopted moratorium within budget."
+  },
+  {
+   "moratorium_id": "ny-lansing-2025",
+   "outcome": "unresolvable",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/lansingny-meet-1b47439c548a400eb89efa359e0e3029/ITEM-Attachment-001-9f6e8d96a920497d82f9a2b23287149f.pdf",
+     "title": "Resolution Withdrawing Proposed Moratorium (Local Law #7 of 2025)",
+     "publisher": "Town of Lansing",
+     "source_type": "resolution",
+     "supports": "Confirms the Town Board withdrew the proposed data-center moratorium (Local Law #7 of 2025), cancelled the scheduled Nov. 19, 2025 public hearing, and directed staff to cease all work on it -- it was never adopted.",
+     "quote": "RESOLVED, that the current proposed moratorium (Local Law #7 of 2025) is withdrawn and will not be considered further by the Town of Lansing; and be it further RESOLVED, that the public hearing scheduled for November 19, 2025 be and is hereby cancelled..."
+    },
+    {
+     "url": "https://www.wskg.org/regional-news/2025-11-21/lansing-town-board-withdraws-moratorium",
+     "title": "Lansing Town Board withdraws moratorium",
+     "publisher": "WSKG",
+     "document_date": "2025-11-21",
+     "source_type": "news",
+     "supports": "Independent news confirmation that the Lansing Town Board voted to withdraw the proposed moratorium before it was ever adopted.",
+     "quote": "Lansing's Town Board voted to withdraw..."
+    }
+   ],
+   "notes": "REMOVE: the row's own fields already fully document that proposed Local Law No. 7 of 2025 (a one-year data-center moratorium in the Town of Lansing, Tompkins County) was never adopted -- a public hearing was held 2025-09-24, and the Town Board formally withdrew the proposal via a resolution confirmed on the Nov. 19, 2025 Town Board meeting agenda ('Resolution Withdrawing Proposed Moratorium (Local Law #7 of 2025)'), independently corroborated by WSKG's Nov. 21, 2025 news coverage and the resolution PDF itself. date_enacted already says 'Not enacted,' current_status already says 'Withdrawn before enactment,' and jurisdiction is labeled '(Tompkins County) - proposed, not enacted.' No moratorium instrument was ever in force in the Town of Lansing; flagging for removal per the QA5 packet's own instruction to REMOVE rows describing instruments that were never adopted."
+  },
+  {
+   "moratorium_id": "ny-turin-undated",
+   "outcome": "corrected",
+   "confidence": 0.4,
+   "changes": {
+    "date_enacted": {
+     "from": "",
+     "to": "2025 (exact date not confirmed): a Village of Turin Local Law filing (Department of State stamp JUN 0 6 2025) for a six-month extension refers to 'the current Moratorium, known as Local Law No. 01 of 2025,' indicating the Village's original moratorium was adopted earlier in 2025, before the June 2025 extension filing.",
+     "reason": "A Village of Turin local law filing (DOS-stamped June 6, 2025) names the original instrument as 'Local Law No. 01 of 2025,' bounding its adoption to sometime in 2025 before that June 2025 extension filing."
+    },
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2025",
+     "reason": "The extension filing's own text identifies the original as 'Local Law No. 01 of 2025'; no more precise date was found."
+    },
+    "date_enacted_uncertainty": {
+     "from": "unverified",
+     "to": "year_only",
+     "reason": "Only the year is supported; the exact adoption date is not stated in the filing found."
+    },
+    "legal_basis": {
+     "from": "Lewis County municipal land-use records list a \"Town of Turin / Battery Storage Moratorium\"; a related Village of Turin six-month solar-moratorium extension was filed 2025",
+     "to": "Village of Turin Local Law No. 01 of 2025 (original one-year moratorium on solar energy collectors/generators and battery storage facilities); extended 6 months by a further Local Law filed with the NYS Department of State June 6, 2025. Lewis County municipal land-use records separately list a \"Town of Turin / Battery Storage Moratorium\" whose relationship to the Village's Local Law 01 of 2025 is not confirmed -- they may be the same instrument described two ways, or distinct Town- and Village-level moratoria.",
+     "reason": "Corrects and clarifies the instrument citation (Village of Turin Local Law No. 01 of 2025, per the DOS-stamped extension filing) and flags the Town-vs-Village ambiguity in the original researcher's text."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://lewiscountyny.gov/wp-content/uploads/2025/06/V-Turin-25-Solar-Moratorium-6m.pdf",
+     "title": "Village of Turin Local Law Filing, 6-Month Extension of Moratorium (Local Law No. 01 of 2025)",
+     "publisher": "Village of Turin / Lewis County (NYS DOS filing, date-stamped June 6, 2025)",
+     "document_date": "2025-06-06",
+     "source_type": "ordinance",
+     "supports": "Names the original moratorium as 'Local Law No. 01 of 2025' and files a 6-month extension, with a DOS receipt stamp of June 6, 2025, bounding the original adoption to sometime in 2025 before that filing.",
+     "quote": "This local law shall be referred to as a \"local law imposing a 6-month extension of the current Moratorium, known as Local Law No. 01 of 2025, on the acceptance or approval of applications for permits authorizing the construction or emplacement of certain solar energy collectors, generators or battery storage facilities...\""
+    }
+   ],
+   "notes": "This is the Village of Turin (Lewis County); the row's jurisdiction field just says 'Turin' without specifying Town vs. Village, and the original researcher's own legal_basis text conflated a Town of Turin land-use-index reference with this Village of Turin filing -- flagging this distinction for the coordinator since it may affect jurisdiction_type. Could not narrow date_enacted_iso below year_only (2025) within budget; 'Local Law No. 01' suggests very early in the year but that is not confirmed by a dated adoption document."
+  },
+  {
+   "moratorium_id": "ny-virgil-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://carina.energy/bess-moratoriums/new-york/",
+     "title": "New York BESS Moratoriums: 90 Active Battery Storage Restrictions",
+     "publisher": "Carina Energy",
+     "source_type": "other",
+     "supports": "Confirms Virgil, Cortland County is tracked as an active BESS moratorium but gives no adoption date.",
+     "quote": "| Virgil, Cortland County | ACTIVE | UTILITY_SCALE | MORATORIUM |"
+    }
+   ],
+   "notes": "No Town-of-Virgil-specific primary source or news article located within budget."
+  },
+  {
+   "moratorium_id": "ny-yorktown-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://midhudsonnews.com/2025/05/29/yorktown-town-board-nixes-construction-of-lithium-ion-battery-storage-facilities/",
+     "title": "Yorktown Town Board nixes construction of lithium-ion battery storage facilities",
+     "publisher": "Mid Hudson News",
+     "document_date": "2025-05-29",
+     "source_type": "news",
+     "supports": "Confirms the Town Board's May 29, 2025 permanent ban on new Tier 2 BESS, already reflected in the row's legal_basis, but does not describe or date a separate temporary moratorium.",
+     "quote": "YORKTOWN \u2013 Construction of new Tier 2 battery energy storage systems in the Town of Yorktown is now prohibited as per town board action."
+    }
+   ],
+   "notes": "Could not confirm whether a distinct temporary moratorium (matching the industry tracker's stated Jan. 14, 2026 expiration) exists separately from the May 29, 2025 permanent Tier 2 ban already documented in the row; no adoption date for any such separate moratorium was found."
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+  "state_abbrev": "CO",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "co-delta-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.highcountryspotlight.com/local_news/civically_engaged/delta-county-board-of-commissioners-tackle-land-use-code-and-other-agenda-items/article_284ad241-a439-4095-80fa-f250463a94bf.html",
+          "title": "Delta County Board of Commissioners Tackle Land Use Code and Other Agenda Items",
+          "publisher": "High Country Spotlight",
+          "document_date": "2026-09-01",
+          "source_type": "news",
+          "supports": "Battery energy storage system standards are being developed as a SEPARATE Land Use Code amendment (alongside natural medicine business rules), distinct from Resolution R-18's data center moratorium.",
+          "quote": "The most extensive discussion involved three proposed amendments to the Delta County Land Use Code. The amendments address general text changes, regulations for natural medicine businesses and updated standards for battery energy storage systems."
+        },
+        {
+          "url": "https://www.deltacountyco.gov/CivicAlerts.aspx?AID=811",
+          "title": "News Flash Archive - New Planning Director Joins Delta County as Land Use Review Work Continues",
+          "publisher": "Delta County, CO",
+          "document_date": "2026-07-14",
+          "source_type": "other",
+          "supports": "Confirms the data-center moratorium (Resolution R-18) and the general Land Use Code review (which separately covers battery storage) are described as two distinct workstreams.",
+          "quote": "Delta County is operating under a temporary moratorium on applications for data center facilities in unincorporated areas of the County. Adopted by the Board of County Commissioners through Resolution R-18"
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: battery storage is addressed through a separate Land Use Code amendment process, not Resolution R-18's data-center moratorium. sectors stays [\"data_center\"]."
+    },
+    {
+      "moratorium_id": "co-grand-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/9712741/grand-county-adopts-temporary-moratorium-on-commercial-data-centers-through-june-24-2027",
+          "title": "Grand County adopts temporary moratorium on commercial data centers through June 24, 2027",
+          "publisher": "citizenportal.ai",
+          "source_type": "news",
+          "supports": "The board adopted a data-center-specific moratorium; a public commenter specifically praised the board for keeping data center and solar review separate.",
+          "quote": "Jeremy Crohn of Grand Lake supported a dedicated workshop and praised the board for separating data center and solar reviews."
+        },
+        {
+          "url": "https://www.skyhinews.com/news/grand-county-board-of-commissioners-bans-construction-of-data-centers-until-june-2027/",
+          "title": "Board of County Commissioners bans construction of data centers until June 2027",
+          "publisher": "Sky-Hi News",
+          "source_type": "news",
+          "supports": "Confirms the new data-center moratorium is a separate action from the existing solar/wind moratorium (adopted June 24, 2025); the two are only being aligned on their EXPIRATION DATE for regulatory efficiency, not merged into one instrument covering all three uses.",
+          "quote": "The board had adopted a two-year moratorium on commercial or utility solar and wind facilities over 25 kilowatts on June 24, 2025. ... As a result, the data center moratorium is also set to expire June 24, 2027. ... 'We're not lumping these all into one lump,' Raegner said. 'We're basically giving our staff time to work through the 1041 regulation process, and we will be treating all of these things as different, individual entities.'"
+        }
+      ],
+      "notes": "SECTOR_CHECK (solar, wind) resolved as no change: solar and wind are governed by the pre-existing, separate 2025 moratorium; the county deliberately aligned only the EXPIRATION DATE with the new data-center moratorium and explicitly said it is not merging them into one instrument. sectors stays [\"data_center\"]."
+    }
+  ]
+}

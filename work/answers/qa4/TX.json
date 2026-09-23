@@ -1,0 +1,29 @@
+{
+  "state_abbrev": "TX",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "tx-harlingen-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "120",
+          "reason": "DURATION_MISMATCH: duration_days must be the ORIGINAL term. ValleyCentral's own headline and article confirm the Commission's May 20, 2026 action was a 120-day moratorium; the subsequent 60-day extension (reported by KRGV, first reading ~Aug. 13/25, second reading ~2 weeks later) brought the TOTAL to the 180-day statutory maximum, already captured in current_end_date_iso=2026-12-16, but is not itself the original term."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.valleycentral.com/news/local-news/we-need-to-do-our-due-diligence-harlingen-approves-120-day-data-center-moratorium/",
+          "title": "'We need to do our due diligence': Harlingen approves 120-day data center moratorium",
+          "publisher": "ValleyCentral / KVEO-TV",
+          "document_date": "2026-05-21",
+          "source_type": "news",
+          "supports": "Confirms the original May 20, 2026 City Commission action adopted a 120-day (not 180-day) moratorium."
+        }
+      ]
+    }
+  ]
+}

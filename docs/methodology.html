@@ -244,14 +244,14 @@
 <li>Resolve <code>[VERIFY]</code> flags by re-checking primary sources via real-Chrome browser sessions</li>
 <li>Add moratoria identified through news coverage but missed by automated extraction</li>
 </ul>
-<p>As of the 2026-09-23 working snapshot the cleaned inventory has <strong>1053 instruments across 47 states</strong> (<code>data/moratorium_inventory.csv</code>). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.</p>
+<p>As of the 2026-09-23 working snapshot the cleaned inventory has <strong>1291 instruments across 47 states</strong> (<code>data/moratorium_inventory.csv</code>). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.</p>
 <h3 id="phase-4-geocoding-added-v2026042">Phase 4: Geocoding (added v2026.04.2)</h3>
 <p>Each row in the cleaned inventory was assigned WGS84 latitude and longitude coordinates representing the jurisdiction's centroid. Two-tiered approach:</p>
 <ol>
 <li><strong>Primary geocoder: OSM Nominatim.</strong> Free, open-source, with reasonable U.S. administrative boundary coverage. Rate-limited to 1 request/second per the public API usage policy.</li>
 <li><strong>Fallback: U.S. Census Geocoder.</strong> Used when Nominatim returns no result. The Census Geocoder is authoritative for U.S. jurisdictions but works best for street addresses; for "Jurisdiction, State" queries we found Nominatim more reliable.</li>
 </ol>
-<p>Of 1053 rows, 1051 (99.6%) are successfully geocoded. The 2 blanks are aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) that aren't real geographic points.</p>
+<p>Of 1291 rows, 1289 (99.6%) are successfully geocoded. The 2 blanks are aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) that aren't real geographic points.</p>
 <p>After geocoding, a triple-check audit ran 89 verifications across three independent methods:</p>
 <ol>
 <li><strong>Random sampling against geographic knowledge</strong> (24 rows): manually verify each coordinate matches a well-known location.</li>
@@ -269,7 +269,7 @@
 <h2 id="why-the-inventory-n533-and-the-extraction-cohort-n348-differ">Why the inventory (n=533) and the extraction cohort (n=348) differ</h2>
 <p>Right — the numbers can be confusing. Here's the difference:</p>
 <ul>
-<li><strong>Inventory (n=1053):</strong> the cleaned, deduplicated count of unique moratorium <strong>instruments</strong> (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.</li>
+<li><strong>Inventory (n=1291):</strong> the cleaned, deduplicated count of unique moratorium <strong>instruments</strong> (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.</li>
 <li><strong>Structured-extraction cohort (n=348):</strong> the count of confidence-filtered structured <strong>extractions</strong>. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.</li>
 </ul>
 <p>The two numbers measure different things and do not need to match. The 533 is the headline count of moratoria; the 348 is the size of the line-coded sample used for clause-prevalence percentages.</p>
@@ -387,6 +387,39 @@ not Wells, Maine), treat a <code>--site</code> search that returns unrelated pag
 result rather than a result, and keep helper files in a private folder because
 the agents share a scratchpad (one agent's build script overwrote another
 state's answer file once; the file was rebuilt and re-gated).</p>
+<h3 id="qaqc-of-the-2026-09-23-pass">QA/QC of the 2026-09-23 pass</h3>
+<p>The refresh doubled the inventory, and 276 of its 520 additions carried
+pre-August adoption dates, so four QA rounds were run before publication. Each
+wrote decision files through the same schema, merge guard and audit log as the
+research (<code>work/answers/qa1</code>, <code>qa3-gaps</code>, <code>qa4</code>, <code>qa5</code>; log in
+<code>work/qa-progress-2026-09-23.md</code>).</p>
+<ol>
+<li><strong>Adversarial audit of every new row.</strong> Auditors were told to assume each
+   row wrong and to establish from the archived text that it was a temporary
+   pause (not a ban or zoning rule), dated by its own adoption vote (not a
+   first reading or an earlier instrument), and not a duplicate. Procedure:
+   <code>work/qa-process.md</code>.</li>
+<li><strong>Blind re-verification.</strong> A seeded random sample of 40 rows (new and
+   older) went to agents who saw only the jurisdiction name and were barred
+   from the inventory and answer files (<code>work/qa-blind-process.md</code>); their
+   independent findings were then compared with the rows.</li>
+<li><strong>External completeness check.</strong> Nine public trackers were scraped,
+   archived and matched against the inventory in both directions; every gap
+   they named was researched (<code>work/qa3-gaps-process.md</code>), and every
+   high-priority contradiction was settled against primary sources.</li>
+<li><strong>Deterministic label checks, then targeted fixes.</strong> Rules flagged
+   extended rows with no end date, <code>duration_days</code> disagreeing with the
+   duration text, sectors disagreeing with the instrument text, same-name
+   rows, rows past their term and rows missing a date; agents resolved each
+   flag (<code>work/qa4-process.md</code>). Coordinates were reverse-geocoded against the
+   county each row names.</li>
+</ol>
+<p>What changed as a result: 14 rows removed (permanent bans, proposals never
+adopted, one row with no record), 243 added from tracker gaps, 37 rows
+re-geocoded, about 640 fields corrected, and the merge and validation scripts
+tightened (sector-aware and predecessor-aware duplicate detection, per-state
+evidence checks, county-qualified geocoding). The blind sample matched the
+records on adoption month and status in 34 of 40 cases.</p>
 <p>A property worth preserving: every step is <strong>idempotent</strong>. Re-running the merge
 over already-applied answers is a clean no-op, which is what makes incremental
 application safe when different states' research lands at different times.</p>

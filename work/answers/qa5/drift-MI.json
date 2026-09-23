@@ -1,0 +1,24 @@
+{
+ "state_abbrev": "MI",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA5",
+ "decisions": [
+  {
+   "moratorium_id": "mi-waterford-township-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.75,
+   "evidence": [
+    {
+     "url": "https://waterfordmi.gov/AgendaCenter/ViewFile/Item/11225?fileID=40369",
+     "title": "Memorandum to the Township Board re: Extending a Moratorium on the Approval of Data Centers, and draft Ordinance No. 2026-Z-012 / companion resolution",
+     "publisher": "Charter Township of Waterford, Director of Development",
+     "document_date": "2026-09-04",
+     "source_type": "staff_report",
+     "supports": "Confirms the row's own account: the original moratorium (Ordinance 2026-Z-003, adopted 2026-03-23) is still in force, and the extension ordinance/resolution had NOT yet been adopted as of this document -- the certification block is blank -- with adoption recommended for the 2026-09-28 Board meeting, i.e. after the 2026-09-23 reference date.",
+     "quote": "Based upon the Planning Commission's favorable recommendation at the August 25, 2026 regular meeting of the Planning Commission, should the Board want to consider adopting the zoning ordinance amendment, the appropriate motion would be to introduce the attached Ordinance and schedule it for possible adoption at the September 28, 2026 meeting... I certify that this Zoning Ordinance Text Amendment was adopted... at a meeting duly called and held on___________, 2026."
+    }
+   ],
+   "notes": "The drift flag is a false positive from computing expiry off date_enacted_iso + duration_days (2026-03-23 + 180 days = 2026-09-19) without accounting for the row's own already-updated current_end_date_iso (2026-10-01), which is itself correct and still in the future as of the 2026-09-23 reference date. The pending six-month extension (Ordinance 2026-Z-012) has cleared a favorable Planning Commission recommendation (2026-08-25) but was scheduled for possible Board adoption on 2026-09-28 -- five days after the reference date -- so it had not yet been voted on as of this pass. No change needed; the row's current_status text already describes this correctly."
+  }
+ ]
+}

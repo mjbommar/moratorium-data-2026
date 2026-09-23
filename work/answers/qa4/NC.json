@@ -1,0 +1,266 @@
+{
+  "state_abbrev": "NC",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "nc-buncombe-county-2023",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://media.buncombenc.gov/common/Commissioners/20230502/PH%20on%20Crypto%20Mining%20Temp%20Moratorium%20ordinance.pdf",
+          "title": "Ordinance Imposing a Temporary Moratorium on Cryptocurrency Mining Facilities in Buncombe County",
+          "publisher": "Buncombe County",
+          "document_date": "2023-05-02",
+          "source_type": "ordinance",
+          "supports": "Confirms the operative moratorium's title and scope are limited to cryptocurrency mining facilities.",
+          "quote": "AN ORDINANCE IMPOSING A TEMPORARY MORATORIUM ON CRYPTOCURRENCY MINING FACILITIES IN BUNCOMBE COUNTY, NORTH CAROLINA PURSUANT TO N.C.G.S. §160D-107"
+        },
+        {
+          "url": "https://media.buncombenc.gov/common/Commissioners/20240507/ORD%20Cryptomining%20Moratorium%20Extension.pdf",
+          "title": "Ordinance Extending the Cryptomining Moratorium",
+          "publisher": "Buncombe County",
+          "document_date": "2024-05-07",
+          "source_type": "ordinance",
+          "supports": "Confirms the 2024 extension (Ordinance 24-05-09) extends the same cryptocurrency-mining-only moratorium (Ordinance 23-05-05); it does not add data centers.",
+          "quote": "The temporary moratorium imposed on May 2, 2023, pursuant to Buncombe County Ordinance 23-05-05 and scheduled to expire no later than May 1"
+        },
+        {
+          "url": "https://media.buncombenc.gov/common/Commissioners/20241119/PH%201_PRESO_Crypto%20data%20Gov%20Serv%20draft%20text%20amendment_10-29-2024_BOC.pdf",
+          "title": "Permitted Use Text Amendments: Crypto Currency, Data Centers, and Government Protection Services",
+          "publisher": "Buncombe County Planning & Development",
+          "document_date": "2024-11-19",
+          "source_type": "staff_report",
+          "supports": "Shows 'Data Centers' were addressed only in a later, separate proposed UDO text amendment package (Nov. 2024), not as part of the cryptocurrency-mining moratorium itself.",
+          "quote": "The purpose of the proposed text amendments will be to address the following uses in the Buncombe County Zoning Ordinance: • Cryptocurrency Mining Operations • Data Centers • Government Protective"
+        }
+      ],
+      "notes": "SECTOR_CHECK: the operative ordinance (23-05-05) and its 2024 extension (24-05-09) are both titled and scoped to cryptocurrency mining facilities only. 'Data center' appears only in a later, separate proposed permitted-use text amendment package (a distinct, still-pending instrument per the process rule that a separate instrument does not count), so sectors correctly remains [\"cryptocurrency_mining\"]."
+    },
+    {
+      "moratorium_id": "nc-cherokee-county-2023",
+      "outcome": "corrected",
+      "changes": {
+        "sectors": {
+          "from": "[\"cryptocurrency_mining\"]",
+          "to": "[\"cryptocurrency_mining\",\"data_center\"]",
+          "reason": "SECTOR_CHECK: the operative ordinance's Section 1 definitional list of covered 'high impact industries and/or facilities' includes a distinct data-center-type use ('Unenclosed data storage facilities utilizing any powered cooling devices') alongside the cryptocurrency-mining definition, so data centers were part of the moratorium's operative scope, not merely a trigger mention."
+        }
+      },
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.cherokeecounty-nc.gov/DocumentCenter/View/2109/High-Impact-Facility-Moratorium-10-2-",
+          "title": "Cherokee County High Impact Facility Moratorium",
+          "publisher": "Cherokee County Board of Commissioners",
+          "document_date": "2023-10-02",
+          "source_type": "ordinance",
+          "supports": "Full ordinance text listing covered high-impact uses, including a definition covering unenclosed, powered-cooling data storage facilities separate from the cryptocurrency mining definition.",
+          "quote": "-Unenclosed data storage facilities utilizing any powered cooling devices."
+        }
+      ],
+      "notes": "This corrects an omission rather than a mismatch: the covered-use text was already summarized in the row's own legal_basis field ('unenclosed data storage facilities with powered cooling') but not reflected in sectors."
+    },
+    {
+      "moratorium_id": "nc-kings-mountain-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "547",
+          "to": "182",
+          "reason": "DURATION_MISMATCH: duration_days must be the ORIGINAL term. Ordinance 26-11 enacted a 182-day moratorium (2026-02-24 to 2026-08-25, per the county's own minutes); the 12-month extension adopted 2026-08-25 is a separate extension already captured in current_end_date_iso=2027-08-25, not the original term."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.shelbystar.com/story/news/local/2026/09/09/what-to-know-about-kings-mountains-data-center-moratorium/91650073007/",
+          "title": "Here's what to know about Kings Mountain's data center pause",
+          "publisher": "The Shelby Star",
+          "source_type": "news",
+          "supports": "Confirms Ordinance 26-11's original 182-day term running Feb. 24 to Aug. 25, 2026, and the subsequent 12-month extension adopted the day the original term expired."
+        },
+        {
+          "url": "https://hoodline.com/2026/08/kings-mountain-extends-data-center-freeze-a-full-year-one-vote-against/",
+          "title": "Kings Mountain Extends Data Center Freeze a Full Year, One Vote Against",
+          "publisher": "Hoodline",
+          "document_date": "2026-08-25",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 25, 2026 vote extended the original moratorium by a further 12 months."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nc-city-of-mount-airy-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "150",
+          "to": "60",
+          "reason": "DURATION_MISMATCH: duration_days must be the ORIGINAL term. Ordinance No. 2027-002 enacted an initial 60-day moratorium (2026-07-16 to 2026-09-14); the subsequent 90-day extension (Ordinance No. 2027-008) is already captured in current_end_date_iso=2026-12-13, not the original term."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://ncdatacenters.substack.com/p/stokes-county-rejects-data-center",
+          "title": "Stokes County rejects data center moratorium, Mount Airy adopts pause, and Henderson County expands rules on crypto to include data centers",
+          "publisher": "NC Data Centers (Substack)",
+          "source_type": "news",
+          "supports": "Confirms Mount Airy's initial moratorium was adopted as a 60-day pause in July 2026."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nc-durham-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "364",
+          "to": "60",
+          "reason": "DURATION_MISMATCH: duration_days must be the ORIGINAL term. The initial ordinance (PR #19257, adopted 2026-05-04) was a 60-day moratorium; the 10-month extension (Ordinance #16683, adopted 2026-06-15) bringing the total to 12 months is already captured in current_end_date_iso=2027-05-03, not the original term."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wral.com/news/local/durham-county-commission-considers-data-center-pause-june-2026/",
+          "title": "Durham County votes to pause data center development for one year",
+          "publisher": "WRAL",
+          "source_type": "news",
+          "supports": "Background coverage confirming the City of Durham's original May 4, 2026 moratorium was a 60-day pause before later extension to a full year."
+        },
+        {
+          "url": "https://heydurham.com/civic/meeting/durham-city-council-june-15-2026",
+          "title": "Durham Extends Data Center Moratorium While Weighing Legal Risk — City Council, June 15, 2026",
+          "publisher": "HeyDurham",
+          "document_date": "2026-06-15",
+          "source_type": "minutes",
+          "supports": "Confirms the June 15, 2026 City Council action extended the original 60-day moratorium (adopted May 4, 2026) by 10 additional months to a 12-month total."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nc-mcdowell-county-2026-2",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wcabnews.com/post/mcdowell-county-commissioners-approve-six-month-moratorium-on-data-centers",
+          "title": "McDowell County Commissioners Approve Six-Month Moratorium on Data Centers",
+          "publisher": "WCAB News",
+          "document_date": "2026-08-31",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 31, 2026 action adopted a single six-month moratorium (not an extension of a prior term), and that a staff suggestion of up to 12 months was not adopted."
+        }
+      ],
+      "notes": "DURATION_MISMATCH: 181 days from the 2026-08-31 enactment date equals 2027-02-28, exactly matching the row's own duration text ('Six months (to about 2027-02-28)'). The '12 months' figure in the duration text is a staff suggestion that the Board did not adopt, not an earlier or later instrument, so duration_days=181 already correctly reflects the ORIGINAL (and only) term. SECTOR_CHECK: the row's own current_status already correctly distinguishes this active, data-center-only moratorium from the county's separate 2023 cryptocurrency-mining moratorium (row nc-mcdowell-county-2026, a different, already-replaced instrument); no source found ties cryptocurrency mining to this 2026 instrument's operative scope, so sectors correctly remains [\"data_center\"]."
+    },
+    {
+      "moratorium_id": "nc-surry-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "780",
+          "to": "60",
+          "reason": "DURATION_MISMATCH: duration_days must be the ORIGINAL term. The initial (unnumbered) ordinance adopted 2026-06-01 imposed a 60-day moratorium; the 2026-07-20 extension ordinance running through 2028-07-20 is already captured in current_end_date_iso, not the original term."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wunc.org/2026-07-21/surry-county-enacts-two-year-data-center-development-moratorium",
+          "title": "Surry County enacts two-year data center development moratorium",
+          "publisher": "WUNC",
+          "document_date": "2026-07-21",
+          "source_type": "news",
+          "supports": "Confirms Surry County's original 60-day moratorium (adopted June 1, 2026) was extended on July 20, 2026 to a total two-year term."
+        },
+        {
+          "url": "https://www.co.surry.nc.us/departments/development_services/data_centers_moratorium.php",
+          "title": "Data Centers Moratorium",
+          "publisher": "Surry County Development Services",
+          "source_type": "other",
+          "supports": "County's own moratorium information page confirming the initial and extension ordinance dates."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nc-apex-2026",
+      "outcome": "corrected",
+      "changes": {
+        "sectors": {
+          "from": "[\"data_center\"]",
+          "to": "[\"data_center\",\"cryptocurrency_mining\"]",
+          "reason": "SECTOR_CHECK: the enacted ordinance's title and Section 1 operative text expressly impose the moratorium on 'data centers, data processing facilities, cryptocurrency mining operations and any use associated with data processing facilities,' so cryptocurrency mining is within the moratorium's operative scope, not merely a trigger mention."
+        }
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/apexnc-meet-a15ff460a2124bfc982fccec92075906/ITEM-Attachment-001-650e09b2c03349e3b8f1522c33213073.pdf",
+          "title": "Ordinance of the Town of Apex Town Council Instituting a Temporary Moratorium on the Permitting of Data Centers, Data Processing Facilities, Cryptocurrency Mining Operations",
+          "publisher": "Town of Apex",
+          "document_date": "2026-04-14",
+          "source_type": "ordinance",
+          "supports": "Full adopted ordinance text confirming cryptocurrency mining operations are expressly covered by the moratorium, with the same April 28, 2026 to April 27, 2027 term as the row's duration text.",
+          "quote": "A temporary moratorium is hereby imposed commencing on April 28, 2026, and expiring no later than April 27, 2027... on the permitting of data centers, data processing facilities, cryptocurrency mining operations"
+        },
+        {
+          "url": "https://indyweek.com/news/apex-approves-one-year-moratorium-on-data-centers/",
+          "title": "Apex Approves One-Year Moratorium on Data Centers",
+          "publisher": "IndyWeek",
+          "source_type": "news",
+          "supports": "News coverage corroborating the ordinance covers data centers, data processing facilities, and cryptocurrency mining operations town-wide."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nc-boone-2026",
+      "outcome": "corrected",
+      "changes": {
+        "sectors": {
+          "from": "[\"data_center\"]",
+          "to": "[\"data_center\",\"cryptocurrency_mining\"]",
+          "reason": "SECTOR_CHECK: news coverage of the adopted ordinance states it 'bans the development of cryptocurrency mining or data centers within town limits for one year,' i.e. cryptocurrency mining is part of the moratorium's operative scope, not a trigger mention or separate instrument."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.whqr.org/2026-03-23/boone-approves-data-center-development-moratorium",
+          "title": "Boone approves data center development moratorium",
+          "publisher": "WHQR",
+          "document_date": "2026-03-23",
+          "source_type": "news",
+          "supports": "Confirms the adopted one-year ordinance bans both data center and cryptocurrency mining development within town limits.",
+          "quote": "The ordinance bans the development of cryptocurrency mining or data centers within town limits for one year."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nc-town-of-hillsborough-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "60",
+          "reason": "DURATION_MISMATCH: duration_days must be the ORIGINAL term. Ordinance 20260527-5.A enacted an initial 60-day moratorium (May 28-July 27, 2026); the June 22, 2026 extension through May 27, 2027 is already captured in current_end_date_iso, not the original term."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/hillsbronc-meet-010ac9061d25490dbc9b72e204d71b08/ITEM-Attachment-002-06b925fc2afa4f01969192f8bc95bb2c.pdf",
+          "title": "Ordinance Imposing a Temporary Moratoria on Development Approvals for Data Centers, Cryptocurrency Mining Operations, and Any Use Associated with Data Center Processing Facilities within the Town of Hillsborough",
+          "publisher": "Town of Hillsborough",
+          "document_date": "2026-05-27",
+          "source_type": "ordinance",
+          "supports": "Confirms Ordinance 20260527-5.A's original term commenced May 28, 2026 as a 60-day moratorium, before the June 22, 2026 extension.",
+          "quote": "A temporary moratoria is hereby imposed commencing on May 28, 2026 and expiring no later"
+        }
+      ]
+    }
+  ]
+}

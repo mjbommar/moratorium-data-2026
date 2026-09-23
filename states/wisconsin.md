@@ -3,13 +3,14 @@
 
 Every local infrastructure moratorium in the inventory for Wisconsin, current through **September 23, 2026**.
 
-**33 instruments** — 31 in force, 2 pending, 0 past.
+**40 instruments** — 38 in force, 2 pending, 0 past.
 
 State policy is tracked separately: **7 actions** (7 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
-| Baldwin | Village | Unverified | data center | 🟢 Active |
+| Baldwin | Village | 2026-06 | data center | 🟢 Active |
+| Beetown | Town | 2026-04-17 | data center | 🟢 Active |
 | Bellevue | Village | 2026-08-12 | data center | 🟢 Active |
 | Cassville | Town | 2026-04-16 | data center | 🟢 Active |
 | Chippewa County | County | 2026-08-11 | data center | 🟢 Active |
@@ -22,15 +23,21 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 | Grant County | County | 2026-06-16 | data center | 🟢 Active |
 | Green County | County | 2026-07-14 | data center | 🟢 Active |
 | Greenville | Village | 2026-07-13 | data center | 🟢 Active |
+| Hampden | Town | 2026-05-26 | data center | 🟢 Active |
+| Hampden | Town | 2026-05-26 | data center | 🟢 Active |
+| Janesville (Rock County town) | Town | 2026-08-03 | data center | 🟢 Active |
 | La Crosse | City | 2026-08-13 | data center | 🟢 Active |
 | La Crosse County | County | 2026-06-18 | data center | 🟢 Active |
 | Manitowoc County | County | 2026-04-28 | data center | 🟢 Active |
 | Marathon County | County | 2026-08-25 | data center | 🟢 Active |
+| Middleton | City | 2026-06-16 | data center | 🟢 Active |
 | Milwaukee | City | Unverified | data center | 🟡 Pending |
 | Monroe County | County | 2026-07-21 | data center, battery storage | 🟢 Active |
 | Oneida County | County | 2026-08-18 | data center | 🟢 Active |
 | Oshkosh | City | 2026-09-08 | data center | 🟢 Active |
+| Polk County | County | 2026-08-18 | data center | 🟢 Active |
 | Sauk County | County | 2026-09-15 | data center | 🟢 Active |
+| Sawyer County | County | 2026-08 | data center | 🟢 Active |
 | Shawano County | County | 2026-06-24 | data center | 🟢 Active |
 | St. Croix County | County | 2026-09-01 | data center | 🟢 Active |
 | Tigerton | Village | 2026-09-15 | data center | 🟢 Active |
@@ -49,8 +56,8 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 
 - **Type:** Village
 - **Status:** 🟢 Active
-- **Date enacted:** Reported passed by around early June 2026, per multiple statewide roundups; exact vote date not confirmed in sources successfully archived
-- **Normalized date:** `—` (unverified)
+- **Date enacted:** Approximately June 2026 (exact vote date not confirmed): the Baldwin Bulletin (successfully fetched via http mode; the article is ROT47-obfuscated Lee Enterprises/BLOX CMS text, decoded) reports that at the Village Board's May 13, 2026 meeting, 'Approval was granted ... to draft an ordinance, which will be presented to the Planning Commission,' after Village President Lance Van Damme proposed a one-year data-center moratorium. Two independent statewide roundups (Daily Reporter/WisPolitics, June 5, 2026, and the Wisconsin NewsMedia Association, June 2, 2026) both state in past tense that Baldwin 'passed' its moratorium by early June 2026, indicating the Village Board's final adoption vote came at a meeting after May 13 and before June 2, 2026.
+- **Normalized date:** `2026-06` (month_only)
 - **Duration:** Approximately one year (per Village President Lance Van Damme's stated intent)
 - **Current end date:** `—`
 - **Sectors:** data center
@@ -58,8 +65,24 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Village of Baldwin (St. Croix County) data center moratorium (ordinance/resolution number not located in reviewed sources)
 - **What prompted it:** Prompted by data center-related developments in nearby Hammond (St. Croix County); Village President Lance Van Damme said the board wanted a moratorium to give the board time to consider regulations.
 - **Affected projects:** —
-- **Detailed status:** Reported as passed, but I was unable to confirm the specifics (exact date, vote, and term) with an archived source; the primary local article (Baldwin Bulletin) was paywalled even under a browser-mode fetch and returned no article text. Listed at low confidence pending a coordinator follow-up. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Detailed status:** Active as of 2026-09-23. The Baldwin Bulletin article renders as ROT47-obfuscated text under an http-mode fetch (browser mode still shows only the paywall/nav chrome, but the http-mode save captured the full page including the obfuscated article body, which decodes cleanly with a standard ROT47 pass); it describes the May 13, 2026 Village Board meeting directing staff/counsel to draft the moratorium ordinance for presentation to the Planning Commission. Two independent statewide roundups (Daily Reporter, June 5, 2026; Wisconsin NewsMedia Association, June 2, 2026) confirm Baldwin had passed its moratorium (1-2 year range across the roundup's list of towns) by early June 2026. [VERIFY instrument/ordinance number not confirmed at confidence 0.5 in the 2026-09 refresh]
 - **Outcome:** Village Board reported to have adopted a data center moratorium of roughly one year, prompted by developments in the neighboring Village of Hammond.
+
+### Beetown
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** April 17, 2026
+- **Normalized date:** `2026-04-17` (exact)
+- **Duration:** Null and void upon adoption of a comprehensive zoning ordinance, or two years from the effective date, whichever occurs first
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `wi-beetown-2026`
+- **Legal basis:** Ordinance No. 04172026
+- **What prompted it:** Town withdrew from Grant County zoning and has no zoning ordinance in effect; a $1B+ data center was proposed nearby
+- **Affected projects:** Collapsed/proposed $1 billion-plus data center in Grant County
+- **Detailed status:** Active as of 2026-09-23.
+- **Outcome:** No exceptions may be granted for a large-scale data center during the interim period
 
 ### Bellevue
 
@@ -253,6 +276,54 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Detailed status:** Active as of 2026-09-23; adopted 5-0 on July 13, 2026. Prohibits issuance of zoning certificates for data centers with floor area greater than 10,000 square feet for 12 months following the effective date, or until a data-center ordinance is adopted, whichever is earlier; extendable up to 6 additional months per Wis. Stat. § 66.1002(3)(b)2. Village staff are directed to draft permanent data-center regulations before the moratorium expires.
 - **Outcome:** Adopted 12-month moratorium (Ordinance 15-26) on data centers over 10,000 square feet.
 
+### Hampden
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-05-26 (Town Board special meeting, after a public meeting the same evening, enacted Ordinance No. 18, Town of Hampden Data Center Temporary Moratorium; preceded by Resolution of 2026-04-21 finding a moratorium needed under Wis. Stat. 66.1002)
+- **Normalized date:** `2026-05-26` (exact)
+- **Duration:** Twelve months following the effective date (passage, posting and publication) or until a data center ordinance takes effect, whichever is earlier; may be extended up to 6 months under Wis. Stat. 66.1002(3)(b)2
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `wi-hampden-2026`
+- **Legal basis:** Ordinance No. 18, 'Town of Hampden Data Center Temporary Moratorium' (Chapter 18), under Wis. Stat. 66.1002; Resolution of 2026-04-21 relative to the enactment of a development moratorium ordinance
+- **What prompted it:** Town Engineer (GEC) report that data centers could create shortages, overburden public facilities or threaten public health or safety; time to draft a data center ordinance and comprehensive plan updates.
+- **Affected projects:** None named; the town has no industrial zoning.
+- **Detailed status:** Active as of 2026-09-23; Ordinance No. 18 enacted 2026-05-26 bars rezoning and subdivision approvals for data centers as a principal use for 12 months from its effective date (about late May/early June 2027) or until a data center ordinance takes effect.
+- **Outcome:** Town to draft a data center ordinance and comprehensive plan revisions before the moratorium expires.
+
+### Hampden
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** May 26, 2026 (per town page 'Last Updated'; not independently confirmed to the day)
+- **Normalized date:** `2026-05-26` (exact)
+- **Duration:** 12 months from effective date, or until a data center ordinance is adopted, whichever is earlier; may be extended up to 6 additional months
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `wi-hampden-2026-2`
+- **Legal basis:** Ordinance No. 13 (Town of Hampden Data Center Temporary Moratorium)
+- **What prompted it:** Town wants time to research and draft comprehensive data-center regulations and update its comprehensive plan
+- **Affected projects:** None named
+- **Detailed status:** Active as of 2026-09-23.
+- **Outcome:** Existing data centers treated as nonconforming uses during the moratorium; may be extended up to 6 months under Wis. Stat. 66.1002(3)(b)2
+
+### Janesville (Rock County town)
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** On or about August 3, 2026 (Town Board of Supervisors vote)
+- **Normalized date:** `2026-08-03` (exact)
+- **Duration:** 12 months
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `wi-janesville-rock-county-town-2026`
+- **Legal basis:** Town Board resolution (number not published in coverage reviewed)
+- **What prompted it:** Tech-company data center concept proposed at N Polzin/W Fenrick Rds; concern over loss of agricultural land
+- **Affected projects:** Proposed data center at North Polzin/West Fenrick Roads
+- **Detailed status:** Active as of 2026-09-23. This upgrades the packet's GAP_PENDING verdict: the Town Board did not merely consider the moratorium, it adopted one.
+- **Outcome:** Town Board approved after Planning & Zoning Committee recommended it 07/29/2026
+
 ### La Crosse
 
 - **Type:** City
@@ -316,6 +387,22 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Affected projects:** —
 - **Detailed status:** Active as of 2026-09-23; approved August 25, 2026, applying to the 18 townships governed by county zoning (Brighton, Easton, Eau Pleine, Elderon, Frankfort, Green Valley, Guenther, Hewitt, Holton, Hull, Knowlton, Marathon, McMillan, Reid, Rib Falls, Plover, Spencer, and Wien). Applies to proposed facilities where data center operation is a primary use and cumulative gross floor area exceeds 5,000 square feet; exempts previously issued approvals, ordinary maintenance, and emergency utility restoration. Staff must report progress to the Environmental Resources Committee six months after passage.
 - **Outcome:** Adopted at-least-12-month moratorium on data center-related zoning approvals in the 18 county-zoned townships.
+
+### Middleton
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** June 16, 2026
+- **Normalized date:** `2026-06-16` (exact)
+- **Duration:** 12 months from effective date, or until a permanent data-center amendment takes effect, whichever is earlier
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `wi-middleton-2026`
+- **Legal basis:** Ordinance No. O1689 (Municipal Code Section 10.03.40)
+- **What prompted it:** Data centers not listed as a permitted/conditional use in any zoning district; risk an applicant could argue a data center fits an existing PUD category
+- **Affected projects:** None named; preemptive
+- **Detailed status:** Active as of 2026-09-23.
+- **Outcome:** Planning Department directed to draft comprehensive standards
 
 ### Milwaukee
 
@@ -381,6 +468,22 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Detailed status:** Active as of 2026-09-23; adopted unanimously September 8, 2026. Does not establish permanent regulations or predetermine the outcome of the city's study; temporarily preserves the status quo while staff complete their work.
 - **Outcome:** Adopted a one-year moratorium on data centers while the city develops zoning and regulatory standards.
 
+### Polk County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** August 18, 2026
+- **Normalized date:** `2026-08-18` (exact)
+- **Duration:** 12 months
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `wi-polk-county-2026`
+- **Legal basis:** Resolution 29-26 (creating Polk County Code Ch. 42-41)
+- **What prompted it:** County lacks a data center ordinance; board wants time to develop zoning standards
+- **Affected projects:** None named; preemptive, applies countywide including 16 named towns
+- **Detailed status:** Active as of 2026-09-23.
+- **Outcome:** County developing permanent zoning standards during the moratorium term
+
 ### Sauk County
 
 - **Type:** County
@@ -396,6 +499,22 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Affected projects:** —
 - **Detailed status:** Active as of 2026-09-23; adopted 27-1 on September 15, 2026. Legal counsel drafted the measure with an 18-month term (rather than 12) based on case law treating 12-18 months as a reasonable moratorium period; applies only in areas where Sauk County has zoning authority, not within cities/villages. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
 - **Outcome:** Adopted 18-month moratorium on new data center applications/zoning approvals in county-zoned areas.
+
+### Sawyer County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** August 2026 (county board vote, following a 5-0 zoning committee recommendation)
+- **Normalized date:** `2026-08` (month_only)
+- **Duration:** 18 months
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `wi-sawyer-county-2026`
+- **Legal basis:** Data Center and Associated Infrastructure Moratorium Ordinance (Resolution No. 2026-31)
+- **What prompted it:** County wants time to review zoning/land-use regulations and propose setback, permitting and performance standards for large data centers
+- **Affected projects:** None named; targets larger-scale projects, exempts smaller communications 'head end' facilities
+- **Detailed status:** Active as of 2026-09-23.
+- **Outcome:** County to compare approaches used by other Wisconsin counties and draft standards during the 18-month term
 
 ### Shawano County
 

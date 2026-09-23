@@ -1,0 +1,698 @@
+{
+  "applied_at": "20260923T115819",
+  "answer_files": [
+    "work/answers/qa5/dates-CA.json",
+    "work/answers/qa5/dates-GA.json",
+    "work/answers/qa5/dates-IA.json",
+    "work/answers/qa5/dates-IL.json",
+    "work/answers/qa5/dates-LA.json",
+    "work/answers/qa5/dates-MI.json",
+    "work/answers/qa5/dates-NY.json",
+    "work/answers/qa5/dates-WI.json",
+    "work/answers/qa5/drift-CA.json",
+    "work/answers/qa5/drift-GA.json",
+    "work/answers/qa5/drift-MI.json",
+    "work/answers/qa5/drift-NY.json",
+    "work/answers/qa5/drift-PA.json"
+  ],
+  "stats": {
+    "outcome:unresolvable": 31,
+    "outcome:corrected": 12,
+    "fields_changed": 71,
+    "verify_still_open": 3,
+    "outcome:status_changed": 8,
+    "status_changed": 8,
+    "outcome:confirmed_unchanged": 3,
+    "verify_confirmed": 3,
+    "verify_resolved_via_field_rewrite": 4,
+    "verify_corrected": 1
+  },
+  "conflicts": [],
+  "skipped": [
+    "dates-CA.json: ca-irwindale-undated unresolvable",
+    "dates-IL.json: il-robinson-undated unresolvable",
+    "dates-LA.json: la-st-charles-parish-undated unresolvable",
+    "dates-MI.json: mi-lowell-township-2026 unresolvable",
+    "dates-MI.json: mi-wales-township-undated unresolvable",
+    "dates-NY.json: ny-allen-allegany-county-undated unresolvable",
+    "dates-NY.json: ny-campbell-undated unresolvable",
+    "dates-NY.json: ny-carlton-undated unresolvable",
+    "dates-NY.json: ny-carrollton-undated unresolvable",
+    "dates-NY.json: ny-collins-undated unresolvable",
+    "dates-NY.json: ny-corning-undated unresolvable",
+    "dates-NY.json: ny-elba-undated unresolvable",
+    "dates-NY.json: ny-essex-county-undated unresolvable",
+    "dates-NY.json: ny-freedom-cattaraugus-county-undated unresolvable",
+    "dates-NY.json: ny-gainesville-undated unresolvable",
+    "dates-NY.json: ny-greenwood-undated unresolvable",
+    "dates-NY.json: ny-halfmoon-undated unresolvable",
+    "dates-NY.json: ny-harrison-undated unresolvable",
+    "dates-NY.json: ny-le-ray-undated unresolvable",
+    "dates-NY.json: ny-ripley-undated unresolvable",
+    "dates-NY.json: ny-lansing-2025 unresolvable",
+    "dates-NY.json: ny-virgil-undated unresolvable",
+    "dates-NY.json: ny-yorktown-undated unresolvable",
+    "drift-GA.json: ga-cedartown-2026 unresolvable",
+    "drift-NY.json: ny-cameron-2024 unresolvable",
+    "drift-NY.json: ny-german-flatts-2025 unresolvable",
+    "drift-NY.json: ny-hartwick-2026 unresolvable",
+    "drift-NY.json: ny-mentz-2025 unresolvable",
+    "drift-NY.json: ny-prattsburgh-2024 unresolvable",
+    "drift-NY.json: ny-syracuse-2026 unresolvable",
+    "drift-NY.json: ny-town-of-day-2025 unresolvable"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "ga-east-point-fulton-county-undated",
+      "column": "date_enacted",
+      "before": "Original enactment date not confirmed in this pass; City Council extended an existing moratorium by three months on 2026-06-15",
+      "after": "Approximately January 2026 (between the Jan 5, 2026 regular meeting, where a floor motion to adopt was withdrawn in favor of routing through committee, and the Jan 20, 2026 meeting, where a resident thanked Council in public comment for 'having established a six month moratorium on data center construction'); exact vote date not found. City Council extended the moratorium by three months on 2026-06-15.",
+      "reason": "City Council video transcripts show the moratorium ordinance was raised Jan 5, 2026 but withdrawn from the floor pending a work session; discussed again at the Jan 12, 2026 work session with a plan to place it on the 'next Tuesday agenda for action' (i.e., Jan 20, 2026); by the Jan 20, 2026 meeting a member of the public thanked Council in public comment for having already established the six-month moratorium, indicating it was in force by then. No minutes/ordinance document giving the exact adoption date or ordinance number was located.",
+      "source": "dates-GA.json"
+    },
+    {
+      "moratorium_id": "ga-east-point-fulton-county-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-01",
+      "reason": "Best-supported month from the Jan 5 -> Jan 12 -> Jan 20, 2026 meeting sequence described above; exact day not confirmed.",
+      "source": "dates-GA.json"
+    },
+    {
+      "moratorium_id": "ga-east-point-fulton-county-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "month_only",
+      "reason": "Matches the month_only precision of date_enacted_iso.",
+      "source": "dates-GA.json"
+    },
+    {
+      "moratorium_id": "ga-east-point-fulton-county-undated",
+      "column": "current_status",
+      "before": "Extended by three months as of 2026-06-15; resulting calendar expiration date and final signed ordinance were not located [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-07 refresh]",
+      "after": "Extended by three months as of 2026-06-15; resulting calendar expiration date and final signed ordinance were not located. Original adoption narrowed to January 2026 from City Council meeting video transcripts (Jan 5, Jan 12, Jan 20, 2026), but the exact vote date and ordinance/resolution number remain unconfirmed. [VERIFY instrument number; primary source (news-only/video-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+      "reason": "Records the new date_enacted_iso finding while keeping the still-open VERIFY items (instrument number, primary written source) visible per verify_resolutions below.",
+      "source": "dates-GA.json"
+    },
+    {
+      "moratorium_id": "ga-lee-county-undated",
+      "column": "date_enacted",
+      "before": "Original enactment date not confirmed in this pass; resolution adopted 2026-06-09 extends the moratorium from 2026-07-30 through 2026-12-31",
+      "after": "Approximately January 2026 (inferred: a May 27, 2026 WALB report describes 'the current freeze' as 'set to expire in July,' consistent with a six-month term run from around January 2026, the pattern also seen in neighboring southwest Georgia counties in this period); exact vote date not found. Resolution adopted 2026-06-09 extends the moratorium from 2026-07-30 through 2026-12-31.",
+      "reason": "WALB (2026-05-27) reports the moratorium then in effect was 'set to expire in July,' and neighboring Terrell County's July 2026 moratorium article describes Lee County's original pause as adopted 'earlier this year.' No Lee County Board of Commissioners agenda, minutes, or ordinance/resolution document with the original adoption date was located (the county's public meeting-agenda page is a JS-only portal that did not yield a fetchable January 2026 agenda in this pass).",
+      "source": "dates-GA.json"
+    },
+    {
+      "moratorium_id": "ga-lee-county-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-01",
+      "reason": "Best-supported month given a ~6-month term expiring in July 2026, per WALB's May 27, 2026 reporting; exact day not confirmed.",
+      "source": "dates-GA.json"
+    },
+    {
+      "moratorium_id": "ga-lee-county-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "month_only",
+      "reason": "Matches the month_only precision of date_enacted_iso; this is an inference from the reported expiration window, not a directly dated adoption record, so it is deliberately not marked exact.",
+      "source": "dates-GA.json"
+    },
+    {
+      "moratorium_id": "ia-louisa-county-undated",
+      "column": "date_enacted",
+      "before": "First reading of Ordinance 26-2 approved Sept. 1, 2026; second reading approved and third reading waived (voice vote) at a subsequent Board of Supervisors meeting in September 2026, per Citizen Portal's summary of the meeting record. Exact second-reading date not yet confirmed by a dated primary source or named news outlet.",
+      "after": "First reading of Ordinance 26-2 approved Sept. 1, 2026; second reading approved and third reading waived (voice vote) at the Sept. 15, 2026 Board of Supervisors meeting, following a public hearing, per The Hawk Eye/Mississippi Valley Publishing.",
+      "reason": "The Hawk Eye (Mississippi Valley Publishing) independently confirms the Sept. 15, 2026 finalization date, resolving the original researcher's Citizen-Portal-only uncertainty.",
+      "source": "dates-IA.json"
+    },
+    {
+      "moratorium_id": "ia-louisa-county-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-09-15",
+      "reason": "Named news outlet (The Hawk Eye) states the ordinance was finalized Sept. 15, 2026.",
+      "source": "dates-IA.json"
+    },
+    {
+      "moratorium_id": "ia-louisa-county-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "date_enacted_iso is now a precise YYYY-MM-DD value from a dated news article.",
+      "source": "dates-IA.json"
+    },
+    {
+      "moratorium_id": "ia-louisa-county-undated",
+      "column": "duration",
+      "before": "Until zoning develops cryptocurrency mining rules and regulations (per the chair's description); term not published",
+      "after": "180 days from finalization (through approximately 2027-03-14), or until a county ordinance regulating cryptocurrency mining development is enacted, whichever occurs first",
+      "reason": "The Hawk Eye article quotes the ordinance's own term: '180-day delay or until a county ordinance regulating the activity is enacted -- whichever occurs first.'",
+      "source": "dates-IA.json"
+    },
+    {
+      "moratorium_id": "ia-louisa-county-undated",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-03-14",
+      "reason": "Computed backstop date: 180 days after the confirmed 2026-09-15 finalization date, per the ordinance's own fixed-term text.",
+      "source": "dates-IA.json"
+    },
+    {
+      "moratorium_id": "ia-louisa-county-undated",
+      "column": "current_status",
+      "before": "Likely active as of 2026-09-23: Citizen Portal (an automated local-meeting aggregator) reports the Board approved the second reading of Ordinance 26-2 and waived the third by voice vote, which under the county's own procedure (see ia-louisa-county-2026's Ordinance 26-1) constitutes final passage. This is consistent with the original researcher's note that a Hawk Eye social post indicated adoption. Neither source gives an exact date or full ordinance text, so the enacted_status change rests on a single lower-tier source; flagged for a follow-up pass to pin the exact date and confirm against county minutes or a named outlet before treating this with full confidence.",
+      "after": "Active as of 2026-09-23. The Hawk Eye (Mississippi Valley Publishing) confirms the moratorium was finalized Sept. 15, 2026 when the Board of Supervisors approved the second reading and waived the third reading of Ordinance 26-2, after a public hearing. The article notes the crypto moratorium is expected to eventually be combined with the county's existing data-center moratorium (Ordinance 26-1) into a single Planning and Zoning Commission amendment once current wind-energy amendment work is finished.",
+      "reason": "Replaces the low-confidence, Citizen-Portal-only hedge with confirmation from a named news outlet and removes the 'flagged for follow-up' language accordingly.",
+      "source": "dates-IA.json"
+    },
+    {
+      "moratorium_id": "il-catlin-undated",
+      "column": "date_enacted",
+      "before": "",
+      "after": "October 7, 2025 (Catlin Village Council passed a moratorium on new solar energy projects Tuesday evening, per Vermilion County First, 2025-10-09); the Village's own public statement confirms the ordinance runs through April 30, 2026 as first adopted, before later extensions.",
+      "reason": "Directly dated by a news article and the Village's own quoted public statement.",
+      "source": "dates-IL.json"
+    },
+    {
+      "moratorium_id": "il-catlin-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2025-10-07",
+      "reason": "News article states the Village Council passed the moratorium 'this past Tuesday evening, October 7th' in an article published Oct. 9, 2025.",
+      "source": "dates-IL.json"
+    },
+    {
+      "moratorium_id": "il-catlin-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "An exact YYYY-MM-DD adoption date is now sourced.",
+      "source": "dates-IL.json"
+    },
+    {
+      "moratorium_id": "il-collinsville-undated",
+      "column": "date_enacted",
+      "before": "N/A",
+      "after": "Planning Commission recommended a 12-month moratorium 2025-12-11; per the Troy Times Tribune (2025-12-19), city staff planned to present it 'to the city council in January [2026] who will then cast the final vote.' A May 28, 2026 Troy Times Tribune article independently confirms in passing that 'Collinsville approved a year-long moratorium,' consistent with a January 2026 City Council vote. Exact City Council vote date and ordinance number not confirmed; Collinsville's own website and Legistar system returned bot-protection errors to every retrieval attempt.",
+      "reason": "Two independent Troy Times Tribune articles, six months apart, together bound the City Council's adoption to January 2026 and confirm it actually occurred.",
+      "source": "dates-IL.json"
+    },
+    {
+      "moratorium_id": "il-collinsville-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-01",
+      "reason": "Staff's stated plan to bring the moratorium to Council 'in January' plus a later article confirming passage narrow adoption to January 2026, though not to an exact day.",
+      "source": "dates-IL.json"
+    },
+    {
+      "moratorium_id": "il-collinsville-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "month_only",
+      "reason": "Only the month (January 2026), not the exact day, is supported by sources found.",
+      "source": "dates-IL.json"
+    },
+    {
+      "moratorium_id": "il-collinsville-undated",
+      "column": "current_status",
+      "before": "Reported as enacted: a May 28, 2026 Troy Times Tribune article states, in the course of describing Troy's own six-month moratorium, that 'Collinsville approved a year-long moratorium.' This indicates the City Council acted on the Planning Commission's December 11, 2025 recommendation at some point before late May 2026. Collinsville's own website (collinsvilleil.org) and Legistar system (both the public site and the webapi.legistar.com/v1/collinsvilleil endpoint) returned bot-protection errors (HTTP 403) or a client-configuration error to every automated retrieval attempt this session, so the ordinance number and exact adoption date could not be independently confirmed.",
+      "after": "Active as of 2026-09-23. A May 28, 2026 Troy Times Tribune article confirms, in passing, that 'Collinsville approved a year-long moratorium,' and the December 19, 2025 Troy Times Tribune report on the Planning Commission's recommendation states staff planned to bring the 12-month moratorium to the City Council 'in January' for the final vote -- together narrowing the City Council's adoption to January 2026. Collinsville's own website (collinsvilleil.org) and Legistar system (both the public site and the webapi.legistar.com/v1/collinsvilleil endpoint) returned bot-protection errors (HTTP 403) or a client-configuration error to every automated retrieval attempt this session, so the exact vote date and ordinance number remain unconfirmed.",
+      "reason": "Updates current_status to reflect the narrowed January 2026 adoption month and to document why the exact date/ordinance number remain open.",
+      "source": "dates-IL.json"
+    },
+    {
+      "moratorium_id": "mi-bruce-township-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2025-12",
+      "reason": "Matches the existing date_enacted_uncertainty=month_only and the already-cited 'late December 2025' / Dec. 31, 2025 Record article text, which had no corresponding date_enacted_iso value.",
+      "source": "dates-MI.json"
+    },
+    {
+      "moratorium_id": "mi-wisner-township-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-02",
+      "reason": "Inferred from the row's own current_end_date_iso (2027-02-17), which reflects a 6-month extension from the confirmed Aug. 17, 2026 extension meeting; 6 months before Aug. 17, 2026 is Feb. 17, 2026, matching the original term's 'expired in August 2026' description already in date_enacted.",
+      "source": "dates-MI.json"
+    },
+    {
+      "moratorium_id": "mi-wisner-township-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "month_only",
+      "reason": "Only the month, not an exact day, is supported by this inference.",
+      "source": "dates-MI.json"
+    },
+    {
+      "moratorium_id": "ny-amsterdam-undated",
+      "column": "date_enacted",
+      "before": "",
+      "after": "December 2, 2025 (City of Amsterdam Common Council adopted a local law establishing a six-month moratorium on land-use approvals/building permits for industrial solar and battery energy storage systems, effective through June 2, 2026); per Daily Gazette, Dec. 8, 2025. Extended by a local law adopted on or about May 19, 2026 to Jan. 5, 2027 ('through the end of the year'); per Daily Gazette, May 25, 2026.",
+      "reason": "Dated news coverage (Daily Gazette, Dec. 8, 2025 and May 25, 2026) establishes both the original adoption and the extension.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-amsterdam-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2025-12-02",
+      "reason": "Daily Gazette's Dec. 8, 2025 article states the Common Council adopted the moratorium 'Tuesday' (Dec. 2, 2025), effective for six months through June 2, 2026.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-amsterdam-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "An exact YYYY-MM-DD adoption date is now sourced from a dated news article.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-amsterdam-undated",
+      "column": "duration",
+      "before": "Indefinite; extended at least once ('through the end of the year')",
+      "after": "Six months from Dec. 2, 2025 (through June 2, 2026), then extended by a local law adopted ~May 19, 2026 to Jan. 5, 2027",
+      "reason": "Both the original 6-month term and the extension to Jan. 5, 2027 are directly stated in the two Daily Gazette articles.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-amsterdam-undated",
+      "column": "duration_kind",
+      "before": "indefinite",
+      "after": "until_date",
+      "reason": "The moratorium's operative term is now bounded by a stated calendar end date (Jan. 5, 2027) after extension, rather than being untracked/indefinite.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-amsterdam-undated",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-01-05",
+      "reason": "The May 25, 2026 Daily Gazette article states the extension local law moved the end date to Jan. 5, 2027.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-amsterdam-undated",
+      "column": "current_status",
+      "before": "Reported active/indefinite as of 2026-09-23 by Carina Energy. Two Daily Gazette headlines ('Amsterdam extends battery, solar moratorium' and 'Amsterdam to propose banning battery energy storage systems') confirm the moratorium existed and was extended, and that a permanent ban was under consideration; article bodies were paywalled and could not be quoted. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+      "after": "Active as of 2026-09-23, extended through Jan. 5, 2027. The Daily Gazette's Dec. 8, 2025 and May 25, 2026 articles (this time fetched successfully, past the paywall interstitial) confirm the original Dec. 2, 2025 six-month moratorium and its extension to Jan. 5, 2027, and a third Daily Gazette headline ('Amsterdam to propose banning battery energy storage systems') indicates a permanent ban was under consideration as of the extension. [VERIFY instrument/local law number not confirmed at confidence 0.6 in the 2026-09 refresh]",
+      "reason": "Updates the status to reflect the confirmed adoption/extension dates and narrows the remaining [VERIFY] to just the local law/ordinance number.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-mount-kisco-undated",
+      "column": "date_enacted",
+      "before": "",
+      "after": "Approximately August 2024: Westfair Communications reported 'Mount Kisco's Board of Trustees has adopted a local law establishing a moratorium on battery energy storage systems (BESS)... a six-month moratorium that also allows for two three-month extensions,' in an article published/dated Aug. 19, 2024 (matching the row's 'Twice extended' duration text). Exact vote date not confirmed. Superseded by permanent zoning changes (Proposed Local Law No. 01-2025, amending Chapter 110) which the Village Board adopted Aug. 11, 2025, per Citizen Portal.",
+      "reason": "A Westfair Communications article dated Aug. 19, 2024 reports the moratorium's adoption in the same week, with a duration structure ('six-month moratorium that also allows for two three-month extensions') matching the row's existing 'Twice extended' text exactly.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-mount-kisco-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2024-08",
+      "reason": "Best-supported month from the dated Westfair Communications article reporting the adoption.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-mount-kisco-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "month_only",
+      "reason": "Only the month, not the exact day, is supported by the dated news article found.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-mount-kisco-undated",
+      "column": "current_status",
+      "before": "Reported expired by industry tracker (2025-06-03); after twice extending its BESS moratorium, the Village Board adopted permanent zoning changes effectively banning large BESS (declining to define them as a public utility), replacing the temporary pause.",
+      "after": "Replaced as of Aug. 11, 2025: after twice extending its six-month BESS moratorium (three-month extensions), per Westfair Communications' original Aug. 19, 2024 coverage of the moratorium's adoption, the Village Board adopted Local Law No. 1 of 2025 amending Chapter 110 zoning to define and prohibit large Battery Energy Storage Systems, replacing the temporary pause. This confirmed Aug. 11, 2025 replacement date supersedes the industry tracker's earlier, and apparently inconsistent, 'expired 2025-06-03' reading.",
+      "reason": "The confirmed Aug. 11, 2025 permanent-ordinance replacement date (Citizen Portal) is better-supported than, and inconsistent with, the industry tracker's earlier 'expired 2025-06-03' figure.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-port-chester-undated",
+      "column": "date_enacted",
+      "before": "",
+      "after": "Approximately October 2023 (inferred): a March 25, 2024 Village of Port Chester Board of Trustees agenda item to 'Extend Temporary Development Moratorium on Battery Energy Storage Systems' states the original term 'ends 4/25/2024,' consistent with a roughly six-month original term beginning around late October 2023. Exact adoption date and local law number not confirmed.",
+      "reason": "A March 25, 2024 Village Board agenda item states the original moratorium's term 'ends 4/25/2024,' supporting an inferred ~6-month original term beginning around late October 2023.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-port-chester-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2023-10",
+      "reason": "Inferred month from the stated original-term end date (4/25/2024) assuming a standard ~6-month moratorium term.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-port-chester-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "month_only",
+      "reason": "This is an inference from a stated end date, not a directly sourced adoption date, so only month-level precision is claimed.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-turin-undated",
+      "column": "date_enacted",
+      "before": "",
+      "after": "2025 (exact date not confirmed): a Village of Turin Local Law filing (Department of State stamp JUN 0 6 2025) for a six-month extension refers to 'the current Moratorium, known as Local Law No. 01 of 2025,' indicating the Village's original moratorium was adopted earlier in 2025, before the June 2025 extension filing.",
+      "reason": "A Village of Turin local law filing (DOS-stamped June 6, 2025) names the original instrument as 'Local Law No. 01 of 2025,' bounding its adoption to sometime in 2025 before that June 2025 extension filing.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-turin-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2025",
+      "reason": "The extension filing's own text identifies the original as 'Local Law No. 01 of 2025'; no more precise date was found.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-turin-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "year_only",
+      "reason": "Only the year is supported; the exact adoption date is not stated in the filing found.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "ny-turin-undated",
+      "column": "legal_basis",
+      "before": "Lewis County municipal land-use records list a \"Town of Turin / Battery Storage Moratorium\"; a related Village of Turin six-month solar-moratorium extension was filed 2025",
+      "after": "Village of Turin Local Law No. 01 of 2025 (original one-year moratorium on solar energy collectors/generators and battery storage facilities); extended 6 months by a further Local Law filed with the NYS Department of State June 6, 2025. Lewis County municipal land-use records separately list a \"Town of Turin / Battery Storage Moratorium\" whose relationship to the Village's Local Law 01 of 2025 is not confirmed -- they may be the same instrument described two ways, or distinct Town- and Village-level moratoria.",
+      "reason": "Corrects and clarifies the instrument citation (Village of Turin Local Law No. 01 of 2025, per the DOS-stamped extension filing) and flags the Town-vs-Village ambiguity in the original researcher's text.",
+      "source": "dates-NY.json"
+    },
+    {
+      "moratorium_id": "wi-baldwin-undated",
+      "column": "date_enacted",
+      "before": "Reported passed by around early June 2026, per multiple statewide roundups; exact vote date not confirmed in sources successfully archived",
+      "after": "Approximately June 2026 (exact vote date not confirmed): the Baldwin Bulletin (successfully fetched via http mode; the article is ROT47-obfuscated Lee Enterprises/BLOX CMS text, decoded) reports that at the Village Board's May 13, 2026 meeting, 'Approval was granted ... to draft an ordinance, which will be presented to the Planning Commission,' after Village President Lance Van Damme proposed a one-year data-center moratorium. Two independent statewide roundups (Daily Reporter/WisPolitics, June 5, 2026, and the Wisconsin NewsMedia Association, June 2, 2026) both state in past tense that Baldwin 'passed' its moratorium by early June 2026, indicating the Village Board's final adoption vote came at a meeting after May 13 and before June 2, 2026.",
+      "reason": "The Baldwin Bulletin article, decoded, plus two independent June 2026 statewide roundups together bound the adoption to a specific month even though the exact vote date remains unconfirmed.",
+      "source": "dates-WI.json"
+    },
+    {
+      "moratorium_id": "wi-baldwin-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-06",
+      "reason": "Two independent roundup articles (June 2 and June 5, 2026) describe Baldwin's moratorium as already passed, while the only found Village-level record (May 13, 2026) shows only a directive to draft the ordinance -- placing the actual adoption vote in late May or, more likely given the roundups' timing, very early June 2026.",
+      "source": "dates-WI.json"
+    },
+    {
+      "moratorium_id": "wi-baldwin-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "month_only",
+      "reason": "Only the month, not an exact day, is supported by the sources found.",
+      "source": "dates-WI.json"
+    },
+    {
+      "moratorium_id": "wi-baldwin-undated",
+      "column": "current_status",
+      "before": "Reported as passed, but I was unable to confirm the specifics (exact date, vote, and term) with an archived source; the primary local article (Baldwin Bulletin) was paywalled even under a browser-mode fetch and returned no article text. Listed at low confidence pending a coordinator follow-up. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]",
+      "after": "Active as of 2026-09-23. The Baldwin Bulletin article renders as ROT47-obfuscated text under an http-mode fetch (browser mode still shows only the paywall/nav chrome, but the http-mode save captured the full page including the obfuscated article body, which decodes cleanly with a standard ROT47 pass); it describes the May 13, 2026 Village Board meeting directing staff/counsel to draft the moratorium ordinance for presentation to the Planning Commission. Two independent statewide roundups (Daily Reporter, June 5, 2026; Wisconsin NewsMedia Association, June 2, 2026) confirm Baldwin had passed its moratorium (1-2 year range across the roundup's list of towns) by early June 2026. [VERIFY instrument/ordinance number not confirmed at confidence 0.5 in the 2026-09 refresh]",
+      "reason": "Resolves the primary-source-access part of the original [VERIFY] marker (the Baldwin Bulletin article is in fact readable once decoded) while leaving the instrument/ordinance-number part open.",
+      "source": "dates-WI.json"
+    },
+    {
+      "moratorium_id": "ca-baldwin-park-2026",
+      "column": "duration",
+      "before": "Initial 45 days from 2026-03-04; extended following an April 15, 2026 public hearing under Gov. Code section 65858, bringing the total pause to approximately one year ('yearlong ban') per regional reporting.",
+      "after": "Initial 45 days from 2026-03-04; on 2026-04-15 the City Council held a public hearing and extended the urgency ordinance for an additional 10 months and 15 days under Gov. Code section 65858 -- the standard first extension under that statute -- bringing the pause to one year from original adoption (through approximately 2027-03-04).",
+      "reason": "A City of Coachella staff report (which surveys regional data-center moratoria as precedent, including Baldwin Park's) states precisely: 'On March 4, 2026, the City Council of Baldwin Park adopted an urgency ordinance establishing a 45-day moratorium... On April 15, 2026, the City Council held a public hearing to extend the urgency ordinance...for an additional 10 months and 15 days as is permitted by law.' This is the standard Gov. Code 65858 first-extension term (45 days + 10mo15days = 1 year), consistent with the citizenportal.ai report that the council 'approved an urgency ordinance... extending a moratorium... for up to one year' on 2026-04-15.",
+      "source": "drift-CA.json"
+    },
+    {
+      "moratorium_id": "ca-baldwin-park-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-03-04",
+      "reason": "One year from the original 2026-03-04 adoption date, per the Coachella staff report's account of the 10-month-15-day extension adopted 2026-04-15 (see duration change).",
+      "source": "drift-CA.json"
+    },
+    {
+      "moratorium_id": "ca-baldwin-park-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23. A 45-day urgency moratorium on new data centers was adopted March 4, 2026 and extended (public hearing April 15, 2026) to a yearlong pause, per the City's own social media announcement and an official Coachella city staff presentation citing regional precedents. A September 2026 CNS/ABC7 regional roundup on the new LA County ordinance still describes Baldwin Park (with El Monte) as having 'voted to implement a yearlong ban on data centers proposed within their city limits,' indicating the pause remained a live reference point as of that date; no adoption of a permanent ordinance or rescission was found in this pass.",
+      "after": "Extended, active as of 2026-09-23. The original 45-day urgency moratorium (adopted 2026-03-04) was extended on 2026-04-15 for 10 months and 15 days under Gov. Code section 65858, bringing the pause through approximately 2027-03-04. Confirmed by a City of Coachella staff report citing the Baldwin Park action as regional precedent and by a citizenportal.ai report that the Council 'approved an urgency ordinance (one-reading) extending a moratorium on approval, establishment or operation of data centers' unanimously (3-0). No adoption of permanent zoning regulations, rescission, or further extension beyond the one-year mark was found in this pass; the exact extension-ordinance number was not located.",
+      "reason": "Updates the dated-as-of-2026-09-23 status sentence to reflect the confirmed extension mechanics and term, replacing the vaguer 'yearlong ban per regional reporting' framing with the specific statutory extension found in the Coachella staff report.",
+      "source": "drift-CA.json"
+    },
+    {
+      "moratorium_id": "ca-baldwin-park-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "",
+      "source": "drift-CA.json"
+    },
+    {
+      "moratorium_id": "ga-appling-county-2026",
+      "column": "current_status",
+      "before": "Adopted 2026-08-04 for 40 days (to about 2026-09-13). The original 40-day emergency term has lapsed; Sept. 1, 2026 board minutes-summary shows the commission moved consideration of a follow-on 180-day data-center moratorium resolution to its Sept. 8, 2026 meeting (the Sept. 17 called-meeting agenda covered only the FY2027 millage rate and tax levies, with no moratorium item). No minutes or news confirming the Sept. 8 vote outcome or a new end date were found as of 2026-09-23, so the moratorium's current status (extended by a 180-day resolution, replaced, or lapsed) remains unconfirmed.",
+      "after": "Expired 2026-09-13 (40 days after the 2026-08-04 resolution). The prior researcher's claim that a follow-on 180-day resolution was moved to a Sept. 8, 2026 meeting does not hold up: the Board's own Aug. 18, 2026 called-meeting minutes show the Sept. 8 date was set only to adopt the FY2027 millage-rate roll-back, not a data-center item, and that meeting was in fact rescheduled to a Sept. 17, 2026 called meeting whose two agendas cover only the millage rate and county/school tax levies -- no moratorium item on either. The official combined minutes for the county's only other August meetings (the Aug. 4 regular meeting and the Aug. 18 budget workshop) likewise contain no motion or vote enacting, extending, or discussing a data-center moratorium beyond the original resolution's own text. No extension, replacement, or new moratorium was found through the county's most recently posted agenda (Sept. 17, 2026), 4 days after the 40-day term ran out.",
+      "reason": "Direct reading of the county's own combined minutes and called-meeting agendas shows the original researcher's central claim (a Sept. 8 vote on a follow-on 180-day moratorium) is not supported by the primary record; the Sept. 8 date was for the millage rate, not a moratorium, and no moratorium item appears on the meeting that actually occurred (Sept. 17).",
+      "source": "drift-GA.json"
+    },
+    {
+      "moratorium_id": "ga-appling-county-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "expired",
+      "reason": "",
+      "source": "drift-GA.json"
+    },
+    {
+      "moratorium_id": "ny-glenville-2025",
+      "column": "duration",
+      "before": "120 days",
+      "after": "120 days as originally adopted (2025-06-18, expiring 2025-10-16); subsequently extended by the Town Board, and as of a March 9, 2026 Planning & Zoning Commission meeting town staff described the moratorium as running through the end of July 2026 while a permanent BESS local law is drafted.",
+      "reason": "A citizenportal.ai report of the March 9, 2026 Planning & Zoning Commission meeting quotes the Glenville Environmental Conservation Commission chair describing an in-force moratorium running well past the original October 2025 end date.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-glenville-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-07-31",
+      "reason": "Per the same March 9, 2026 report: 'the Town Board has enacted a moratorium on new facilities that runs through the end of July 2026.' No primary local-law text with the exact extension date/number was located in this pass.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-glenville-2025",
+      "column": "current_status",
+      "before": "Original 120-day moratorium adopted unanimously 2025-06-18, due to expire 2025-10-16; whether it was extended, allowed to lapse, or replaced by permanent regulation by 2026-09-23 was not confirmed in this research pass. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+      "after": "Extended, but that extension has itself now lapsed with no confirmed further action. As of a March 9, 2026 Planning & Zoning Commission meeting, town staff said the Town Board's BESS moratorium 'runs through the end of July 2026' -- a real extension past the original 2025-10-16 end date -- while a draft BESS local law (based on NYSERDA guidance and the Rotterdam model law) was still being refined by the Environmental Conservation Commission and had not been forwarded to PZC for formal review. No news or primary source confirming a further extension, adoption of the permanent law, or expiration past July 2026 was found as of 2026-09-23.",
+      "reason": "Corrects the prior 'not confirmed' framing with the concrete extension finding, while flagging that even the confirmed extension date has since passed without further confirmable action.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-glenville-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-leyden-lewis-county-2024",
+      "column": "date_enacted",
+      "before": "12-month moratorium on new large solar and medium/large battery energy storage systems, filed with Lewis County by January 2025 (per the county planning department's filing copy); the Town Board later held a June 9, 2026 public hearing on permanent BESS/solar regulations (Local Law #1 of 2026, amending/replacing the 2022 Solar Law)",
+      "after": "Local Law #1 of 2024, 'Establishing a Townwide Twelve (12) Month Moratorium for all Large Solar Energy Systems and/or Medium/Large Battery Energy Storage Systems,' duly passed by the Leyden Town Board on May 14, 2024. Superseded by Local Law #1 of 2026, 'Amending-Replacing Local Law #2-2022 Regulating Solar Energy Systems and Battery Energy Storage Systems (BESS),' a permanent regulatory law following a June 9, 2026 public hearing.",
+      "reason": "The county's own local-law filing copy (the State-form DOS-0239 certification page attached to the filed law) states the law 'was duly passed by the Town Board... on May 14 20[24]'. The Town's current laws page lists Local Law #1-2026 (permanent solar/BESS regulation replacing the 2022 solar law) and no longer lists any moratorium law.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-leyden-lewis-county-2024",
+      "column": "date_enacted_iso",
+      "before": "2024",
+      "after": "2024-05-14",
+      "reason": "Exact adoption date found on the certification page of the filed local law.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-leyden-lewis-county-2024",
+      "column": "date_enacted_uncertainty",
+      "before": "year_only",
+      "after": "exact",
+      "reason": "Matches the corrected date_enacted_iso precision.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-leyden-lewis-county-2024",
+      "column": "legal_basis",
+      "before": "Town of Leyden local law establishing a moratorium on Large Solar Energy Systems and Medium/Large Battery Energy Storage Systems (filed with Lewis County Planning; exact local law number not confirmed)",
+      "after": "Town of Leyden Local Law #1 of 2024, 'Establishing a Townwide Twelve (12) Month Moratorium for all Large Solar Energy Systems and/or Medium/Large Battery Energy Storage Systems' (filed with Lewis County Planning); superseded by Local Law #1 of 2026, 'Amending-Replacing Local Law #2-2022 Regulating Solar Energy Systems and Battery Energy Storage Systems (BESS)'.",
+      "reason": "Exact local-law number and title recovered from the filed document itself; replacement law identified from the Town's official laws page.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-leyden-lewis-county-2024",
+      "column": "current_status",
+      "before": "Status as of 2026-09-23 is unclear: the Town held a June 9, 2026 public hearing on Local Law #1 of 2026, a permanent law amending/replacing the 2022 Solar Law to regulate solar and BESS, which the Town's own laws page lists without a separate currently-listed moratorium law; this suggests the original 12-month moratorium may have already been superseded by permanent regulation by mid-2026. A tracker (Carina Energy) still lists Leyden as an active UTILITY_SCALE moratroium; this was not independently confirmed. [VERIFY instrument number not confirmed at confidence 0.45 in the 2026-09 refresh]",
+      "after": "Replaced. Local Law #1 of 2024 (a 12-month moratorium, adopted 2024-05-14) expired on its own terms around 2025-05-14, well before the reference date. The Town Board subsequently held a June 9, 2026 public hearing and adopted Local Law #1 of 2026, a permanent law amending and replacing the 2022 Solar Law to regulate both solar energy systems and battery energy storage systems. The Town's current official laws page (townofleydenny.gov/government/laws) lists this permanent law and no longer lists any moratorium law. A tracker (Carina Energy) still lists Leyden as an active UTILITY_SCALE moratorium as of September 2026, but this appears to be stale relative to the Town's own site.",
+      "reason": "Resolves the prior [VERIFY] uncertainty with a primary source (the filed local law and the Town's own current laws listing) confirming both the original law's exact term and that it has been superseded by permanent regulation, not merely left to lapse.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-leyden-lewis-county-2024",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "replaced",
+      "reason": "",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-newfane-2026",
+      "column": "duration",
+      "before": "Six months from the effective date, extendable once by an additional six months by Town Board resolution",
+      "after": "Six months from the effective date (Local Law No. 1-2026, a successor to a prior Local Law No. 1-2025 BESS moratorium); subsequently extended once, to run through approximately August 2026.",
+      "reason": "The filed local law itself states it succeeds a 2025 BESS moratorium ('the Town Board previously adopted Local Law No. 1-2025 to impose a temporary moratorium on BESS facilities'), and a Carina Energy September 2026 update reports the moratorium was 'extended to August 2026.'",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-newfane-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23. A tracker (Carina Energy) reports Newfane as the sole remaining active Niagara County BESS moratorium (after Royalton and Somerset were lifted and Wilson expired), extended to August 2026, consistent with a six-month original term from a ~February 2026 adoption plus a subsequent extension, though the extension itself was not independently confirmed by a primary source. [VERIFY instrument number not confirmed at confidence 0.6 in the 2026-09 refresh]",
+      "after": "Expired on or about 2026-08-31. Local Law No. 1-2026 (a successor to a prior 2025 BESS moratorium) took effect around February 2026 for six months, and per Carina Energy's September 2026 update was extended once to run through August 2026 -- but that extended term has itself now passed. No news or primary source found confirming a further (third) extension, replacement by permanent BESS regulation, or lapse past August 2026.",
+      "reason": "Resolves the prior VERIFY marker (Local Law No. 1-2026 identified and archived directly) and updates the status to reflect that even the confirmed extension date is now in the past with no further confirmation available.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-newfane-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "expired",
+      "reason": "",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-oswego-city-2025",
+      "column": "date_enacted",
+      "before": "Local Law No. 1 of 2025, City of Oswego Common Council; exact adoption day not shown in the archived text",
+      "after": "Local Law No. 1 of 2025, City of Oswego Common Council, adopted August 11, 2025 following a public hearing the same evening.",
+      "reason": "A CNY Signal report on the 2026 tax-cap override, sourced from the city's own council agendas, states the renewable-energy moratorium 'was first adopted a year ago as Local Law No. 1 of the Year 2025, approved August 11, 2025, following a public hearing the same evening, according to that year's agenda.'",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-oswego-city-2025",
+      "column": "date_enacted_iso",
+      "before": "2025",
+      "after": "2025-08-11",
+      "reason": "Exact adoption date per CNY Signal's citation of the city's August 11, 2025 council agenda.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-oswego-city-2025",
+      "column": "date_enacted_uncertainty",
+      "before": "year_only",
+      "after": "exact",
+      "reason": "Matches the corrected date_enacted_iso precision.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-oswego-city-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-02-11",
+      "reason": "The moratorium's own text (ecode360-hosted Local Law No. 1 of 2025, Section 4) caps renewal at a cumulative additional six months beyond the original 12-month term. A Resolution No. 255, on the August 10, 2026 Common Council agenda (one day before the original 12-month term would lapse), proposed extending the moratorium; taking the maximum additional 6 months allowed by the law's own terms from the original 12-month mark (2026-08-11) yields 2027-02-11 as the outer bound if the full extension was granted.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-oswego-city-2025",
+      "column": "current_status",
+      "before": "Reported active with no stated current expiration as of September 2026 per a specialty industry contractor site (Backwell) and consistent with a tracker (Carina Energy), which lists Oswego City as one of only five New York jurisdictions with an indefinite moratorium; neither source is a primary Town/City record and the exact current status (whether extended to the maximum 18 months and then left to lapse, formally renewed, or replaced) was not independently confirmed. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]",
+      "after": "Extended, active as of 2026-09-23, though the extension vote itself is not independently confirmed from primary minutes. Local Law No. 1 of 2025 was adopted August 11, 2025 for a 12-month term (through 2026-08-11), renewable for a cumulative additional period of up to 6 months by Common Council resolution. Resolution No. 255, extending the moratorium, appeared on the Common Council's August 10, 2026 agenda -- one day before the original term would have lapsed -- per a local news outlet's report sourced from the city's own agenda documents. The outcome of that specific vote (as opposed to the separately-covered, contested tax-cap override on the same agenda) was not confirmed by a primary minutes document in this pass; if adopted as proposed, the moratorium would run through on or about 2027-02-11, the maximum allowed under the law's own terms. The city's code (ecode360) confirms this extension mechanism exists exactly as described.",
+      "reason": "Corrects the [VERIFY]-flagged uncertainty with a dated, sourced account of the original adoption and the pending/likely extension, while being explicit that the extension vote's outcome itself rests on a single news report rather than confirmed primary minutes.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-oswego-city-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-town-of-cairo-2025",
+      "column": "date_enacted",
+      "before": "Public hearing authorized by Resolution No. 2025-164 (2025-08-04 meeting) for a hearing on 2025-08-20; adoption of Local Law 2 of 2025 not independently confirmed in a subsequent record",
+      "after": "Local Law #2 of 2026, 'A Temporary Town-Wide Six-Month Moratorium on Battery Energy Storage Systems,' adopted by the Cairo Town Board on March 2, 2026 (Resolution No. 2026-068), following a public hearing authorized by Resolution No. 2026-059 (2026-02-18 meeting). This is a successor instrument: town minutes show an earlier 2025 BESS moratorium (referenced August 4, 2025 as 'another moratorium for the battery storage facility,' authorized for public hearing by Resolution No. 2025-164) had already lapsed by February 2026, prompting the Board to adopt a brand-new six-month local law rather than a simple extension -- the same pattern the Board used the same night for its cannabis moratorium ('WHEREAS, the moratorium has expired; therefore... adopts the attached Local Law').",
+      "reason": "Official Town Board minutes (Feb. 18, 2026 and March 2, 2026) directly confirm a full adoption cycle for a BESS moratorium in early 2026, distinct from and later than the 2025 instrument the row was keyed to, which the town's own practice (as shown by the parallel cannabis-moratorium item) treats as having already expired rather than being extended.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-town-of-cairo-2025",
+      "column": "date_enacted_iso",
+      "before": "2025-08",
+      "after": "2026-03-02",
+      "reason": "Exact Town Board adoption date for Local Law #2 of 2026, per the March 2, 2026 minutes (Resolution No. 2026-068, motion carried).",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-town-of-cairo-2025",
+      "column": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact",
+      "reason": "Matches the corrected date_enacted_iso precision.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-town-of-cairo-2025",
+      "column": "legal_basis",
+      "before": "Proposed Local Law 2 of 2025, a moratorium on new battery energy storage systems in the Town of Cairo",
+      "after": "Local Law #2 of 2026, 'A Local Law Imposing a Temporary Town-Wide Six-Month Moratorium on Battery Energy Storage Systems,' adopted by the Cairo Town Board March 2, 2026 (Resolution No. 2026-068).",
+      "reason": "Exact instrument identified from the Town Board's own March 2, 2026 minutes.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-town-of-cairo-2025",
+      "column": "current_status",
+      "before": "A public hearing was authorized (Resolution No. 2025-164) and held August 20, 2025 on the proposed six-month moratorium; whether it was actually adopted, and any subsequent extension, were not independently confirmed as of 2026-09-23. [VERIFY instrument number not confirmed at confidence 0.5 in the 2026-09 refresh]",
+      "after": "Expired on or about 2026-09-02 (six months after the March 2, 2026 adoption of Local Law #2 of 2026). Town Board minutes show a predecessor BESS moratorium (referenced August 2025) had lapsed by February 2026, and rather than extend it, the Board authorized a public hearing (Resolution No. 2026-059, Feb. 18, 2026) and then adopted a brand-new six-month local law (Resolution No. 2026-068, March 2, 2026). No minutes, agenda item, or news confirming a further extension or renewal of Local Law #2 of 2026 past its six-month term were found as of 2026-09-23.",
+      "reason": "Resolves the prior VERIFY marker with primary Town Board minutes establishing both that a BESS moratorium was genuinely adopted and its exact current instrument and term, while updating the status to reflect that this newer instrument has also since lapsed.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-town-of-cairo-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "expired",
+      "reason": "",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-village-of-mayville-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-06-30",
+      "reason": "Carina Energy's September 2026 tracker update specifically lists 'Village of Mayville (enacted May 2026, expiring June 2027)' in its Chautauqua County cluster description, and separately in its full jurisdiction table as ACTIVE/UTILITY_SCALE -- consistent with the row's own account of a June 2025 original adoption followed by a May 2026 renewal.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-village-of-mayville-2025",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23 per industry tracker (renewed, expires June 2027); original one-year moratorium confirmed by June 2025 news coverage. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+      "after": "Extended, active as of 2026-09-23. The original one-year BESS moratorium was passed by the Village Board and reported in local news in June 2025 ('Mayville leaders passed a one-year moratorium on new battery energy storage systems'), enacted while the village and the Town of Chautauqua jointly finished a Comprehensive Plan update. A tracker (Carina Energy), in its September 2026 monthly update, reports the moratorium was renewed in May 2026 and now runs through June 2027. No primary source (Village Board minutes or the local-law text itself) for the May 2026 renewal was located in this pass; the instrument number remains unconfirmed.",
+      "reason": "Adds direct confirmation of the original June 2025 adoption from a primary-adjacent news account, and updates the [VERIFY] framing to reflect that the renewal claim now rests on a specific, dated tracker entry (not just a general 'active' listing) rather than resolving it outright.",
+      "source": "drift-NY.json"
+    },
+    {
+      "moratorium_id": "ny-village-of-mayville-2025",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "",
+      "source": "drift-NY.json"
+    }
+  ]
+}

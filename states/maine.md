@@ -3,21 +3,24 @@
 
 Every local infrastructure moratorium in the inventory for Maine, current through **September 23, 2026**.
 
-**14 instruments** — 11 in force, 3 pending, 0 past.
+**17 instruments** — 12 in force, 4 pending, 1 past.
 
 State policy is tracked separately: **6 actions** (6 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
+| Albion | Town | 2024-11-25 | battery storage, wind | 🟢 Extended |
 | Bangor | City | 2026-04-13 | data center | 🟢 Active |
 | Bethel | Town | Unverified | data center | 🟡 Pending |
 | Brunswick | Town | 2026-06-01 | data center | 🟢 Active |
 | Dixfield | Town | 2026-09-14 | data center | 🟢 Active |
 | Dover-Foxcroft | Town | Unverified | data center | 🟡 Pending |
+| Durham | Town | 2024-09 | battery storage | ⚪ Expired |
 | Eastport | City | 2026-08-12 | data center | 🟢 Active |
 | Ellsworth | City | 2026-08-17 | data center | 🟢 Active |
 | Gorham | Town | 2026-06-02 | data center | 🟢 Active |
 | Gray | Town | 2026-08-18 | data center | 🟢 Active |
+| Palermo | Town | Unverified | battery storage | 🟡 Pending |
 | Peru | Town | Unverified | data center | 🟡 Pending |
 | Sanford | City | 2026-05-19 | data center | 🟢 Extended |
 | Scarborough | Town | 2026-06-03 | data center | 🟢 Active |
@@ -25,6 +28,22 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 | Westbrook | City | 2026-06-01 | data center | 🟢 Active |
 
 ## Detailed entries
+
+### Albion
+
+- **Type:** Town
+- **Status:** 🟢 Extended
+- **Date enacted:** 2024-11-25 (certified adoption date)
+- **Normalized date:** `2024-11-25` (exact)
+- **Duration:** 180 days, repeatedly extended by Select Board vote
+- **Current end date:** `—`
+- **Sectors:** battery storage, wind
+- **Moratorium ID:** `me-albion-2024`
+- **Legal basis:** Moratorium Ordinance on Grid-Level Battery Energy Storage Systems, Grid-Level Substations and Grid-Scale Wind Energy Projects
+- **What prompted it:** Developer inquiries about grid-scale BESS/substation/wind projects; town wants time to adopt standards
+- **Affected projects:** None identified
+- **Detailed status:** Active as of 2026-09-23 per the carina.energy BESS tracker (expiring June 2026 at last check). Adopted 2024-11-25 for an initial 180-day term and repeatedly extended by Select Board vote.
+- **Outcome:** Town continuing to study grid-scale BESS/substation/wind siting standards
 
 ### Bangor
 
@@ -55,7 +74,7 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Legal basis:** Not yet enacted; a public hearing on the proposed 180-day moratorium was scheduled for 2026-09-30
 - **What prompted it:** Preemptive, per regional reporting on the wave of Maine municipal data-center moratoriums following the governor's veto of a statewide pause
 - **Affected projects:** Not identified in sources reviewed.
-- **Detailed status:** Pending as of 2026-09-23. The Town of Bethel scheduled a public hearing for 2026-09-30 to take comments on a proposed 180-day moratorium on data centers. Bangor Daily News (2026-08-17) had separately reported that Bethel's select board voted to put a data-center-ban question to voters in November; the town's own notice describes a public hearing process rather than a ballot question, so it is unclear from sources reviewed whether the moratorium will be decided by the Select Board directly or by referendum. No adoption had occurred as of this pass. [VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** Pending as of 2026-09-23. A more recent Sun Journal report (2026-09-22) clarifies the mechanism and supersedes the town's Sept-30-public-hearing notice and the Bangor Daily News' Aug-17 report of a November ballot question: the Select Board approved (at its Sept. 16, 2026 meeting) sending a proposed six-month (180-day) data center moratorium ordinance to a Special Town Meeting vote on Oct. 15, 2026 (the Sept. 30 event is a public hearing preceding that meeting, not the decision itself). The proposal originated with the town's Ordinance Review Committee, not a citizen petition or any specific project. No adoption had occurred as of this pass.
 - **Outcome:** Proposed 180-day moratorium; public hearing scheduled for 2026-09-30; not yet adopted.
 
 ### Brunswick
@@ -105,6 +124,22 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Affected projects:** None; no data center proposed in the town.
 - **Detailed status:** Pending as of 2026-09-23. Per Bangor Daily News (2026-09-21), the Select Board was 'on track to pass a six-month ban on large-scale data center development by the end of September' 2026, but no vote had been confirmed as of this pass. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
 - **Outcome:** Proposed six-month ban on large-scale data center development, drafted with support from an environmental advocacy group; Select Board vote expected by the end of September 2026 but not confirmed as of this pass.
+
+### Durham
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** 2024-09 (ordinance drafted/adopted around September 2024; exact town-meeting vote date not located)
+- **Normalized date:** `2024-09` (month_only)
+- **Duration:** Not confirmed in the draft reviewed
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `me-durham-2024`
+- **Legal basis:** Moratorium Ordinance: Battery Energy Storage Systems (Town of Durham)
+- **What prompted it:** Inquiries about large-scale BESS; concerns over fire risk given volunteer fire department and no public water system
+- **Affected projects:** None identified
+- **Detailed status:** Expired. Per the carina.energy BESS tracker, Durham's BESS moratorium expired in May 2025. [VERIFY instrument number not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** Moratorium term lapsed
 
 ### Eastport
 
@@ -169,6 +204,22 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Affected projects:** None identified; the ordinance is framed as preemptive/proactive rather than responding to a specific pending application.
 - **Detailed status:** Active as of 2026-09-23. The Town Council unanimously adopted the moratorium ordinance on 2026-08-18 (following public comment on Aug. 4), expressly retroactive to a 'Date of Applicability' of 2026-07-14, and running 180 days from that date (through approximately 2027-01-10). No specific data center project was cited as the trigger.
 - **Outcome:** Temporary 180-day moratorium ordinance adopted to give the Town Council time to develop zoning standards and regulations for data centers.
+
+### Palermo
+
+- **Type:** Town
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Not documented
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `me-palermo-undated`
+- **Legal basis:** —
+- **What prompted it:** Battery energy storage system regulation (proposed, covering all BESS)
+- **Affected projects:** None identified
+- **Detailed status:** Pending as of 2026-09-23 per the carina.energy BESS tracker; a proposed moratorium that would cover all battery storage (not just utility-scale), which would make it one of few ALL_BESS-scope moratoria outside New York. Not confirmed adopted; town's own warrant article/ordinance text not located within the research budget. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Outcome:** Not confirmed
 
 ### Peru
 

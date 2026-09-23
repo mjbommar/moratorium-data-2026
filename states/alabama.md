@@ -18,7 +18,7 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 | Foley | City | 2026-09-08 | data center, cryptocurrency mining | 🟢 Active |
 | Fort Payne | City | 2026-06-16 | data center, battery storage | 🟢 Active |
 | Harpersville | Town | 2026-08-03 | data center, cryptocurrency mining | 🟢 Active |
-| Helena | City | 2026-08 | data center, general | 🟢 Active |
+| Helena | City | 2026-06-22 | data center, general | 🟢 Active |
 | Homewood | City | 2026-06-22 | data center | 🟢 Active |
 | Hueytown | City | 2026-07-14 | data center | 🟢 Active |
 | Leeds | City | 2026-06-08 | data center | 🟢 Active |
@@ -181,8 +181,8 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** Reported as approved 2026-08-10 (AL.com; AL.com map); WVTM called the Aug. 10 action a first reading with second reading on Aug. 24, and council members later referred to restrictions adopted 'in June'. An amendment exempting two pre-existing projects was adopted 3-1 on 2026-09-14.
-- **Normalized date:** `2026-08` (month_only)
+- **Date enacted:** 2026-06-22 (City Council gave Ordinance 1043-2026 immediate consideration and adopted it by unanimous consent, 4-0, on its first reading, per official minutes); an amended version (radius cut from 1,000 to 500 feet) had a first reading 2026-08-10 (a motion for immediate consideration failed for lack of a second) and 2026-08-24; an amendment exempting two previously initiated projects was adopted 3-1 on 2026-09-14
+- **Normalized date:** `2026-06-22` (exact)
 - **Duration:** 180 days from the effective date (upon publication); may be extended or rescinded
 - **Current end date:** `—`
 - **Sectors:** data center, general
@@ -190,7 +190,7 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 - **Legal basis:** Ordinance No. 1043-2026, temporary suspension on the establishment or expansion of gas stations, auto parts/mechanic shops, automobile or manufactured home dealerships, and data centers (amended 2026-09-14)
 - **What prompted it:** Zoning does not restrict certain B2/B3/M1/M2 uses near Highways 17, 52, 58 and 95; need to study appropriate regulation while a zoning rewrite is underway.
 - **Affected projects:** Amendment exempts a Highway 58 hardware store/convenience store with gas pumps and a proposed two-bay oil-change facility; no data center project identified.
-- **Detailed status:** Active as of 2026-09-23; Ordinance 1043-2026 suspends applications for new or expanded data centers, gas stations, auto businesses and dealerships for 180 days. On 2026-09-14 the council amended it 3-1 to exempt two previously initiated projects; data centers remain covered. Council members said they plan a separate, more detailed standalone data-center moratorium. [VERIFY details not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Detailed status:** Active as of 2026-09-23; Ordinance 1043-2026, adopted 2026-06-22 and effective on publication, suspends applications for new or expanded data centers, gas stations, auto parts and mechanic shops and auto or manufactured-home dealerships within 1,000 feet of Highways 17, 52, 58 and 95 for 180 days (to about mid/late December 2026). On 2026-09-14 the council amended it 3-1 to exempt two previously initiated projects; data centers remain covered. Council members said they plan a separate, standalone data-center moratorium.
 - **Outcome:** Multi-use 180-day moratorium in force; standalone data-center moratorium planned.
 
 ### Homewood
@@ -302,7 +302,7 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 - **Legal basis:** Proposed Rogersville Town Council ordinance (first reading July 2026; number not located)
 - **What prompted it:** Severe water-capacity shortage (the water board already bars new meters); the town wants a pause in place before water access resumes.
 - **Affected projects:** None.
-- **Detailed status:** Pending as of 2026-09-23; first reading held in July 2026, not yet voted. The mayor said it is 'on the table' and may be taken up again. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Detailed status:** Pending as of 2026-09-23; first reading held in July 2026, not yet voted. A Sept. 18, 2026 AL.com roundup independently confirms the town 'hasn't voted on it yet' and that the mayor called it 'on the table,' so the pending status is current as of this refresh.
 - **Outcome:** Proposed; not adopted.
 
 ### Somerville

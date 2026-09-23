@@ -11,7 +11,7 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 |---|---|---|---|---|
 | Aberdeen | City | 2026-07-20 | data center | 🟢 Active |
 | Pennington County | County | 2024-11-19 | wind, solar | 🟢 Active |
-| Turner County | County | 2025-08 | wind, solar | 🟢 Active |
+| Turner County | County | 2025-08-26 | wind, solar | 🟢 Extended |
 | Yankton County | County | 2026-07-21 | data center, cryptocurrency mining | 🟢 Active |
 
 ## Detailed entries
@@ -51,17 +51,17 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 ### Turner County
 
 - **Type:** County
-- **Status:** 🟢 Active
-- **Date enacted:** On or about late August 2025 (news report dated 2025-08-27/28, 'Turner Co. OKs Wind Farm Pause'); exact Commission vote date not independently located in an archived primary source
-- **Normalized date:** `2025-08` (month_only)
-- **Duration:** Originally reported as a one-year moratorium on wind energy projects; county Board of Adjustment minutes from September and October 2025 describe a 'Moratorium on Solar and Wind Energy Systems' ordinance adopted by the County Commission, and a public-notice aggregator (not independently verified against an archived primary source) indicated a hearing was set for 2026-08-25 to consider extending a 'temporary moratorium on utility-scale alternative energy systems' county-wide.
-- **Current end date:** `—`
+- **Status:** 🟢 Extended
+- **Date enacted:** 2025-08-26 (Turner County Board of Commissioners adopted Ordinance #100-25, a temporary zoning ordinance, 4-0 with the chairman recused, per official minutes)
+- **Normalized date:** `2025-08-26` (exact)
+- **Duration:** One (1) year (Ordinance #100-25, effective on completed publication); extended one year by Ordinance #105-26 (adopted 2026-08-25) to expire 2027-08-25
+- **Current end date:** `2027-08-25`
 - **Sectors:** wind, solar
 - **Moratorium ID:** `sd-turner-county-2025`
-- **Legal basis:** Turner County Commission ordinance/resolution establishing a moratorium on wind (and later described as covering solar/utility-scale alternative energy) systems, adopted on or about August 2025; discussed at Turner County Board of Adjustment meetings on 2025-09-23 and 2025-10-21
+- **Legal basis:** Ordinance #100-25, 'A Temporary Zoning Ordinance Regulating Utility-Scale Alternative Energy in All Turner County Zoning Districts' (adopted 2025-08-26); extended by Ordinance #105-26, 'A Temporary Zoning Ordinance Extending the Moratorium Regulating Utility-Scale Alternative Energy Systems in All Turner County Zoning Districts' (adopted 2026-08-25); SDCL 11-2-10, 7-18A-8
 - **What prompted it:** Proposed Swan Lake Wind Project (NextEra Energy Resources; up to 97 GE turbines, approximately 248 MW) spanning Turner and Yankton counties; county sought time to study and regulate before the project could proceed
 - **Affected projects:** Swan Lake Wind Project (NextEra Energy Resources), spanning Turner and Yankton counties; NextEra withdrew its application for the project in or around August 2026.
-- **Detailed status:** Status as of 2026-09-23 is only partially confirmed. Yankton.net reported (headline 'Turner Co. OKs Wind Farm Pause,' dated on or about 2025-08-27/28) that the Turner County Commission enacted a one-year moratorium on wind energy projects, putting the proposed Swan Lake Wind development on hold. Turner County Board of Adjustment minutes from 2025-09-23 confirm the Commission had adopted a 'Moratorium on Solar and Wind Energy Systems' ordinance and that the Board discussed forming a task force on it; minutes from 2025-10-21 show continued discussion of the 'Solar/Wind moratorium.' NextEra subsequently withdrew its wind-turbine application for the area (reported on or about 2026-08-21-28). A public-notice listing indicated Turner County scheduled an 8:35 a.m. public hearing on 2026-08-25 in Parker to consider extending a 'temporary moratorium on utility-scale alternative energy systems' county-wide, but the archived copy of that notice did not retain the underlying notice text (JS-rendered page returned only site boilerplate) and the outcome of any such hearing could not be confirmed from a source with retrievable primary text as of 2026-09-23. [VERIFY instrument number not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Detailed status:** Extended as of 2026-09-23; the one-year moratorium on new permits and land-use approvals for utility-scale solar and wind systems (Ordinance #100-25, adopted 2025-08-26) was extended one year by Ordinance #105-26, adopted 2026-08-25 after an 8:35 a.m. public hearing (4 ayes, chairman abstaining), and now expires 2027-08-25. NextEra withdrew its Swan Lake Wind application in August 2026.
 - **Outcome:** —
 
 ### Yankton County
@@ -71,10 +71,10 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Date enacted:** 2026-07-21 (County Commission adopted the moratorium 5-0, recorded as Action 26248C)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** Six months from adoption (approximately to 2027-01-21); the commission packet draft had proposed 12 months, but the adopted motion changed the term to six months
-- **Current end date:** `—`
+- **Current end date:** `2027-01-17`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `sd-yankton-county-2026`
-- **Legal basis:** Yankton County Commission motion (Action 26248C), adopted 5-0 on July 21, 2026, following a July 10 public notice initially referenced as 'Ordinance 26-08'; final ordinance or resolution numbering was not confirmed
+- **Legal basis:** Yankton County Resolution No. 26-7, 'Resolution Establishing a Temporary Moratorium on the Acceptance of Applications, or Issuing of Permits, for Approval of Building, Planning or Use Permits for Data Collection/Storage/Processing or Bitcoin Mining Facilities Exceeding a Power Capacity of 250 kW,' passed and approved 5-0 on July 21, 2026
 - **What prompted it:** Concern about incoming data center and Bitcoin mining facility proposals; commission wants time to draft permanent siting standards
 - **Affected projects:** None named; general countywide pause on new data center and greater-than-250kW Bitcoin mining permits and applications.
 - **Detailed status:** Active as of the July 31, 2026 research date. Blocks applications and permits for building, use, zoning, or rezoning approval of data collection, storage, or processing facilities and Bitcoin mining facilities exceeding 250 kW, for six months from the July 21, 2026 adoption. The commission separately directed the Planning and Zoning Commission to begin drafting permanent standards.

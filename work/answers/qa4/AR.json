@@ -1,0 +1,56 @@
+{
+  "state_abbrev": "AR",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "ar-independence-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://arkansasadvocate.com/2026/08/11/outside-of-little-rock-arkansas-counties-and-cities-move-ahead-on-data-center-moratoriums/",
+          "title": "Outside of Little Rock, Arkansas counties and cities move ahead on data center moratoriums",
+          "publisher": "Arkansas Advocate",
+          "document_date": "2026-08-11",
+          "source_type": "news",
+          "supports": "Confirms the county's wind-turbine ban is a separate, pre-existing October 2025 instrument, cited only as context/trigger for the 2026 data-center ordinance.",
+          "quote": "The county passed a three-year ban on wind turbines in October 2025 — only to find out about two months ago that a company had dozens of contracts to build turbines that predated the court's measure"
+        },
+        {
+          "url": "https://www.whiterivernow.com/2026/08/11/independence-county-quorum-court-places-5-year-moratorium-on-data-centers/",
+          "title": "Independence County Quorum Court places 5-year moratorium on data centers",
+          "publisher": "White River Now",
+          "document_date": "2026-08-11",
+          "source_type": "news",
+          "supports": "Confirms Ordinance No. 2026-21 is titled and scoped to commercial data centers only."
+        }
+      ],
+      "notes": "SECTOR_CHECK: 'wind' refers to Independence County's separate, already-existing October 2025 wind-turbine moratorium, cited only as background/trigger context for the 2026 data-center ordinance, not as part of its operative scope. sectors correctly remains [\"data_center\"]."
+    },
+    {
+      "moratorium_id": "ar-russellville-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/8553804/arkansas/pope-county/russellville-city/council-adopts-sixmonth-moratorium-on-data-centers-creates-ad-hoc-committee-to-draft-regulations",
+          "title": "Council adopts six-month moratorium on data centers, creates ad hoc committee to draft regulations",
+          "publisher": "Citizen Portal",
+          "document_date": "2026-07-16",
+          "source_type": "minutes",
+          "supports": "Confirms the Council amended the sponsor's original 18-month proposal down to six months before adopting it, i.e. six months (180 days) is the actual enacted/original term, and 18 months was an earlier, un-adopted proposal."
+        },
+        {
+          "url": "https://www.rivervalleyradio.com/russellville-approves-six-month-halt-on-new-data-centers-while-regulations-are-developed/",
+          "title": "Data centers placed on buffering mode by Russellville Council",
+          "publisher": "River Valley Radio",
+          "document_date": "2026-07-16",
+          "source_type": "news",
+          "supports": "Confirms the council amended and adopted a six-month (not 18-month) moratorium on July 16, 2026."
+        }
+      ],
+      "notes": "DURATION_MISMATCH: duration_days=180 already correctly reflects the ORIGINAL (and only) adopted term of six months. The 18-month figure in the duration text is an earlier councilmember proposal that the Council amended down (6-2) before adoption, not a separate/later instrument, so per process guidance the typed value is left unchanged."
+    }
+  ]
+}

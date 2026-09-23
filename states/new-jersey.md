@@ -3,17 +3,34 @@
 
 Every local infrastructure moratorium in the inventory for New Jersey, current through **September 23, 2026**.
 
-**3 instruments** — 2 in force, 1 pending, 0 past.
+**4 instruments** — 3 in force, 1 pending, 0 past.
 
 State policy is tracked separately: **16 actions** (16 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
+| Asbury Park | City | 2026-06-10 | data center | 🟢 Active |
 | Galloway Township | Township | 2026-07-14 | data center | 🟢 Active |
 | Mullica Township | Township | Unverified | data center | 🟡 Pending |
 | Sayreville | Town | 2026-07-20 | data center | 🟢 Active |
 
 ## Detailed entries
+
+### Asbury Park
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-06-10 (City Council, unanimous, Resolution 2026-264)
+- **Normalized date:** `2026-06-10` (exact)
+- **Duration:** Pause on local data center applications/site plans until the city completes its zoning code rewrite
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `nj-asbury-park-2026`
+- **Legal basis:** Resolution 2026-264, a council resolution (not a zoning ordinance)
+- **What prompted it:** Council concern about AI data center impacts on grid/water; simultaneous call for a statewide moratorium.
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23. On 2026-06-10 the City Council unanimously adopted Resolution 2026-264, which (a) urges Gov. Sherrill and the legislature to enact a statewide data-center moratorium, and (b) pauses acceptance/processing of any pending or future Asbury Park data-center applications, zoning changes, and site plans while the city rewrites its zoning code. No end date is stated; the pause runs until the rewrite is complete or the resolution is rescinded. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** —
 
 ### Galloway Township
 

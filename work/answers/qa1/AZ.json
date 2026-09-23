@@ -1,0 +1,39 @@
+{
+  "state_abbrev": "AZ",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA1",
+  "decisions": [
+    {
+      "moratorium_id": "az-pima-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "url": "https://pima.legistar.com/View.ashx?M=F&ID=15752236&GUID=02831C6A-519E-414F-A373-238BB2EE5AB2",
+          "source_type": "agenda",
+          "supports": "Primary source: District 3's addendum-item memo requesting the Board place a 120-day data center moratorium item on the August 11, 2026 meeting agenda, and describing the ongoing zoning code text amendment process it is meant to bridge.",
+          "quote": "Discussion/direction/action: Establishing a 120-day moratorium on data centers in unincorporated Pima County. Directing the County Administrator to work with PCAO and county departments to develop a resolution declaring a moratorium on data centers in unincorporated Pima County until the County has completed its zoning code text amendment process."
+        },
+        {
+          "url": "https://www.gvnews.com/news/local/county-pauses-new-data-centers-as-project-eyes-land-near-sahuarita/article_cb38f969-1373-4bb6-b699-d51eb97492cc.html",
+          "source_type": "news",
+          "supports": "Confirms the moratorium was adopted (not merely directed to be drafted) 3-2 on August 11, 2026, describes Supervisor Heinz's floor amendment narrowing it to unsubmitted permits and adding a return-for-extension provision, and confirms the 'Project Gravel'/'Project Blue' distinction and the December zoning-code-amendment timeline.",
+          "quote": "County supervisors narrowly OK'd a 120-day moratorium for new applications and permits for data centers in unincorporated Pima County while staff works to update the zoning code... The moratorium will give county staff time to develop zoning code amendments with data center-focused regulations, which is expected in December."
+        },
+        {
+          "url": "https://www.sonorandesert.org/2026/08/26/data-centers-update/",
+          "source_type": "news",
+          "supports": "Independent confirmation, from an advocacy organization tracking the vote, that the Board of Supervisors approved the 120-day moratorium on August 11, 2026.",
+          "quote": "Update: Pima County Board of Supervisors Approves 120-day Moratorium on New Data Centers. On August 11, 2026, the Pima County Board of Supervisors approved a 120-day moratorium on new data centers, allowing County staff time to finalize updates to the zoning code that will establish regulations for data center development."
+        },
+        {
+          "url": "https://www.tucsonsentinel.com/local/report/081126_pima_data_moratorium/pima-county-moves-forward-possible-data-center-moratorium",
+          "source_type": "news",
+          "supports": "Same-day report on the 3-2 vote (Christy and Scott dissenting), giving background on the Project Blue land sale and the legal 'taking' concerns that led the county toward a conditional-use-permit approach rather than an outright ban.",
+          "quote": "The Pima County Board of Supervisors voted 3-2 to have county staff begin drafting a 120-day moratorium on data center approvals until an anticipated fall vote on an ordinance regulating these projects."
+        }
+      ],
+      "notes": "One of the four cited sources (Tucson Sentinel) is ambiguously worded ('voted 3-2 to have county staff begin drafting a 120-day moratorium'), which could be read as only a directive to draft rather than an actual adoption. I resolved this by decoding the ROT47-obfuscated paywalled portion of the Green Valley News article's archived HTML (same Lee Enterprises/TownNews BLOX CMS encoding pattern seen elsewhere in this pass): the full decoded text states plainly 'County supervisors passed a 120-day moratorium for issuing any new data center permits during its Tuesday night meeting,' and separately confirms Supervisor Heinz's floor amendment (narrowing scope from issued to submitted permits, and adding a return-for-extension provision) -- exactly matching the row's description. The Aug. 11, 2026 3-2 adoption (Christy and Scott dissenting) is confirmed as an actual, binding resolution, not merely a drafting directive."
+    }
+  ]
+}

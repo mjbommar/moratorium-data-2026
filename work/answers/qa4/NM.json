@@ -1,0 +1,33 @@
+{
+  "state_abbrev": "NM",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "nm-socorro-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.abqjournal.com/news/socorro-county-approves-data-center-moratorium-amid-opposition/3060408",
+          "title": "Socorro County approves one-year moratorium on data centers amid Green Data Center opposition",
+          "publisher": "Albuquerque Journal",
+          "document_date": "2026-06-09",
+          "source_type": "news",
+          "supports": "The moratorium adopted covers 'data centers and related infrastructure' (i.e., infrastructure tied to a data center project). A local advocacy spokesperson's statement confirms the COUNTY's moratorium does not itself extend to renewable/solar energy development generally, since she said the group wants the separate City of Socorro to adopt a broader moratorium that DOES include renewable energy.",
+          "quote": "the Socorro County Commission on Tuesday unanimously approved a one-year moratorium on data centers and related infrastructure. ... She said Inform Socorro intends to ask the city of Socorro to also adopt a data center moratorium that includes renewable energy development."
+        },
+        {
+          "url": "https://sourcenm.com/2026/06/10/new-mexico-county-adopts-yearlong-data-center-moratorium/",
+          "title": "New Mexico county adopts yearlong data center moratorium",
+          "publisher": "Source New Mexico",
+          "document_date": "2026-06-10",
+          "source_type": "news",
+          "supports": "Confirms solar is mentioned only as a component of the specific 'Green Data' project (a combined data center plus solar array proposal) that triggered the moratorium -- background/trigger context, not the moratorium's independently stated operative scope.",
+          "quote": "adopted a yearlong moratorium on data centers and related infrastructure projects Tuesday evening after residents for months opposed a Canadian tech CEO's proposal to build a data center and solar array on 10,000 acres of nearby land."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: solar is mentioned only as part of the triggering 'Green Data' project proposal (a data center paired with an on-site solar array) and as something local advocates want a DIFFERENT jurisdiction (the City of Socorro) to cover -- not as part of this county moratorium's own operative scope ('data centers and related infrastructure'). sectors stays [\"data_center\"]. The county's own resolution/ordinance text was not retrievable (auth-gated county portal), so confidence reflects reliance on consistent secondary reporting rather than the primary instrument."
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+ "state_abbrev": "MN",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA1",
+ "decisions": [
+  {
+   "moratorium_id": "mn-freeborn-county-2025",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.88,
+   "evidence": [
+    {
+     "url": "https://www.albertleatribune.com/news/county-board-extends-data-center-moratorium-for-another-year-as-it-continues-work-on-ordinance-2668239f",
+     "source_type": "news",
+     "supports": "Confirms the original August 2025 adoption (alongside a parallel energy-storage-system moratorium) and the unanimous Tuesday, Aug. 18, 2026 (matches calendar) extension vote through Aug. 19, 2027.",
+     "quote": "The Freeborn County Board of Commissioners on Tuesday voted unanimously to extend the county's moratorium on data centers for another year as staff continue to research and establish land use controls for them. The board initially adopted a temporary interim zoning ordinance in August 2025"
+    }
+   ],
+   "notes": "Temporary interim zoning ordinance renewed via a proper extension vote, not permanent code. date_enacted_iso (2025-08, month-only) correctly reflects that the exact original adoption date was not found; that precision matches date_enacted_uncertainty. No duplicate row exists."
+  },
+  {
+   "moratorium_id": "mn-lonsdale-2026",
+   "outcome": "corrected",
+   "changes": {
+    "legal_basis": {
+     "from": "Interim ordinance restricting the location, establishment, or construction of data centers, adopted by the Lonsdale City Council on the recommendation of City Attorney Eckberg Lammers, for a one-year term, under Minn. Stat. Sec. 462.355; no public hearing was required.",
+     "to": "Interim Ordinance No. 2026-342, restricting the location, establishment, or construction of data centers, adopted 5-0 by the Lonsdale City Council on April 30, 2026 (motion by James Vosejpka, seconded by Brian Wermerskirchen) on the recommendation of City Attorney/Community Development Planner Cory Hinz-Ibarra, for a one-year term, under Minn. Stat. Sec. 462.355; no public hearing was required",
+     "reason": "Resolves the packet's open VERIFY marker: found the instrument number (2026-342) and vote detail (5-0) via a corroborating primary-ish source (citizenportal.ai summary of the council meeting), which the original research pass did not locate."
+    },
+    "current_status": {
+     "from": "Active as of 2026-09-23 (if the approximately April 30, 2026 adoption date is correct, the one-year term would run through approximately 2027-04-30); restricts the location, establishment, or construction of data centers within Lonsdale for one year while the city gathers state-level studies and other information. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+     "to": "Active as of 2026-09-23; the April 30, 2026 adoption date is now confirmed (Interim Ordinance 2026-342, 5-0 vote), so the one-year term runs through approximately 2027-04-30. Restricts the location, establishment, or construction of data centers within Lonsdale for one year while the city gathers state-level studies and other information.",
+     "reason": "Resolves the VERIFY marker with a confirmed instrument number and vote."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+     "resolution": "corrected",
+     "note": "Found a citizenportal.ai summary of the council meeting that names the instrument as 'Interim Ordinance 2026-342,' adopted 5-0 on April 30, 2026 (motion by James Vosejpka, seconded by Brian Wermerskirchen), corroborating the previously-found southernminn.com article's description of a Thursday vote (April 30, 2026 is confirmed a Thursday)."
+    }
+   ],
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://www.southernminn.com/lonsdale_area_news_review/news/lonsdale-passes-1-year-moratorium-on-data-centers-we-need-to-do-this-right/article_97d6fa97-4659-4551-b2c6-a5e6e5fc47d9.html",
+     "source_type": "news",
+     "supports": "Quote-rich council-meeting report confirming the one-year moratorium's passage on a Thursday (April 30, 2026), roughly eight days after an April 22, 2026 Capitol rally.",
+     "quote": "Just eight days after communities from all over the state gathered at the Capitol in St. Paul to call for a statewide moratorium on the construction of data centers, the Lonsdale council passed a local ordinance Thursday restricting the 'location, establishment or construction' of data centers within the city for one year."
+    },
+    {
+     "url": "https://citizenportal.ai/articles/8274367/minnesota/rice-county/lonsdale-city/lonsdale-adopts-one-year-moratorium-on-data-centers-to-study-impacts",
+     "source_type": "news",
+     "supports": "Independent summary confirming the instrument number (Interim Ordinance 2026-342), the 5-0 vote, and the April 30 date.",
+     "quote": "The Lonsdale City Council voted 5-0 on April 30 to adopt Interim Ordinance 2026-342, imposing a one-year moratorium on the location, establishment and operation of data centers in the city."
+    }
+   ],
+   "notes": "Genuine temporary pause, not permanent code. No duplicate row exists."
+  },
+  {
+   "moratorium_id": "mn-bemidji-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.kaxe.org/local-news/2026-09-15/bemidji-adopts-1-year-moratorium-on-data-center-development",
+     "source_type": "news",
+     "supports": "Confirms the 6-1 vote Monday, Sept. 14, 2026 (matches calendar) as the final adoption action (Bemidji's Planning Board is the full City Council), the 10,000-sq-ft threshold, and cryptocurrency-mining inclusion.",
+     "quote": "The 6-1 vote Monday, Sept. 14, was the final action to prohibit development on data centers exceeding 10,000 square feet within Bemidji's city limits."
+    },
+    {
+     "url": "https://lptv.org/city-of-bemidji-approves-moratorium-on-data-centers-for-1-year/",
+     "source_type": "news",
+     "supports": "Independent corroboration that the city approved (not merely proposed) a one-year moratorium.",
+     "quote": "City of Bemidji Approves Moratorium on Data Centers for 1 Year"
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "mn-blue-earth-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.blueearthcountymn.gov/Archive/ViewFile/Item/3374",
+     "source_type": "staff_report",
+     "supports": "County staff report/draft interim ordinance (PC 11-26) for the Aug. 5, 2026 Planning Commission docket, laying out the case for and text of a 12-month data-center permitting moratorium later adopted by the County Board.",
+     "quote": "This moratorium will allow County staff to conduct an evaluation and develop the appropriate performance standards and zoning ordinance amendments."
+    },
+    {
+     "url": "https://www.blueearthcountymn.gov/AgendaCenter/ViewFile/Minutes/_08252026-503",
+     "source_type": "minutes",
+     "supports": "Official Aug. 25, 2026 County Board minutes: PRIMARY SOURCE confirming the Board's motion (Stuehrenberg/Bruender) adopting the Interim Ordinance Establishing a Moratorium on the Permitting of Data Centers (motion carried, minute number 2026-301).",
+     "quote": "Commissioner Stuehrenberg moved and Commissioner Bruender seconded the motion to approve the following: Interim Ordinance Establishing a Moratorium on The Permitting of Data Centers Within Blue Earth County. ... Now, Therefore, Be It Ordained, by the Blue Earth County Board of Commissioners, that the interim ordinance ... is hereby adopted. ... The motion carried. 2026-301"
+    },
+    {
+     "url": "https://citizenportal.ai/articles/9582781/minnesota/blue-earth-county/blue-earth-county-adopts-one-year-moratorium-on-data-center-permitting",
+     "source_type": "news",
+     "supports": "News summary independently confirming the Aug. 25, 2026 Board vote adopting the PC 11-26 interim ordinance.",
+     "quote": "The Blue Earth County Board voted Aug. 25 to adopt a one-year interim ordinance (PC 11-26) placing a moratorium on permitting data centers in unincorporated county areas"
+    }
+   ],
+   "notes": "The packet's flagged quote_mismatch is confirmed real and now fixed: the packet's second evidence entry cited a citizenportal.ai URL and archived file that are in fact about CHISAGO County's moratorium (the archived text never mentions Blue Earth County at all -- it appears to be a copy/mixup with the Chisago County item, which used the same archived file). I located and archived the correct sources: the county's own Aug. 25, 2026 Board minutes (primary source, showing the motion carried as item 2026-301) and a correctly-matched citizenportal.ai article specifically about Blue Earth County. The row's existing data (date, term, scope) is accurate; only the evidence citation was wrong."
+  },
+  {
+   "moratorium_id": "mn-carlton-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "url": "https://www.carltoncountymn.gov/DocumentCenter/View/6569/Interim-Ordinance-42-Data-Center-Interim-Use-Study-PDF",
+     "source_type": "ordinance",
+     "supports": "Signed, published Interim Ordinance No. 42 confirms a one-year pause on data center construction/creation/expansion in Carlton County, published Sept. 4, 2026.",
+     "quote": "a pause is hereby imposed on the construction or creation or expansion of any data centers in Carlton County. ... This Ordinance shall take effect on the date of its passage and shall be in effect for a period of one year from the date of enactment"
+    },
+    {
+     "url": "https://www.kaxe.org/local-news/2026-08-26/carlton-county-approves-1-year-data-center-moratorium",
+     "source_type": "news",
+     "supports": "Confirms the unanimous Monday, Aug. 24, 2026 (matches calendar) vote and that the moratorium applies to townships, not cities.",
+     "quote": "Carlton County's new ordinance as of Monday, Aug. 24, will prohibit approvals of new data center developments in any of the county's townships."
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "mn-chisago-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://citizenportal.ai/articles/9506848/Minnesota/Chisago-County/Chisago-County-enacts-interim-moratorium-on-data-centers",
+     "source_type": "news",
+     "supports": "Confirms the 5-0 unanimous Aug. 5, 2026 vote (naming all five commissioners) enacting an interim zoning moratorium on data centers, with the final ordinance number still pending publication at the time.",
+     "quote": "Chisago County's Board of Commissioners voted unanimously Aug. 5 to enact an interim zoning moratorium on data centers while county staff study potential land-use and infrastructure impacts."
+    }
+   ],
+   "notes": "Verified this evidence citation is correctly matched to Chisago County (unlike the same URL/archived file when it was miscited for the Blue Earth County item elsewhere in this dataset -- see that item's notes). No duplicate row exists."
+  },
+  {
+   "moratorium_id": "mn-elk-river-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.88,
+   "evidence": [
+    {
+     "url": "https://www.hometownsource.com/elk_river_star_news/elk-river-adopts-one-year-data-center-moratorium/article_92249969-44d2-486d-b0bc-4f5bd4f710df.html",
+     "source_type": "news",
+     "supports": "Detailed report of the unanimous Aug. 3, 2026 vote and the prior July 6, 2026 denial of a zoning text amendment that would have allowed data centers as a conditional use.",
+     "quote": "The Elk River City Council unanimously approved a one-year moratorium on new data center development Aug. 3, giving the city time to study the rapidly growing industry and develop regulations before considering future proposals."
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "mn-hastings-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.88,
+   "evidence": [
+    {
+     "url": "https://www.hastingsjournal.news/stories/council-passes-data-center-moratorium-after-public-hearing,203685",
+     "source_type": "news",
+     "supports": "Detailed report of the Monday, Aug. 17, 2026 (matches calendar) public hearing and unanimous council vote.",
+     "quote": "The Hastings City Council approved a one-year moratorium on data center development following a public hearing at its Monday, Aug. 17 meeting"
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "mn-minnetrista-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/mnntrstamn-meet-96c51173ab9c44c18f474903fee876d8/ITEM-Attachment-001-109cce41d85a41ecab3e7de36280d1a2.pdf",
+     "source_type": "ordinance",
+     "supports": "Official council agenda/staff report naming the instrument Ordinance No. 509, a one-year interim moratorium under Minn. Stat. Sec. 462.355, subd. 4, for the Aug. 3, 2026 meeting.",
+     "quote": "Subject: Ordinance No. 509 Authorizing a Study and Imposing a Moratorium on Data Centers ... The proposed ordinance establishes a one-year interim moratorium on the establishment, construction, relocation, and expansion of data centers within the City of Minnetrista"
+    },
+    {
+     "url": "https://www.hometownsource.com/laker_pioneer/community/minnetrista-puts-1-year-moratorium-on-data-center-development/article_4196c64e-61c7-4bc6-b2a9-ae95c4e50864.html",
+     "source_type": "news",
+     "supports": "Confirms the 3-1 vote at the Aug. 3, 2026 meeting and Council Member Govern's dissent.",
+     "quote": "The council approved the moratorium 3-1, with council member Cathleen Reffkin absent."
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "mn-north-branch-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.5,
+   "evidence": [
+    {
+     "url": "https://www.isanti-chisagocountystar.com/news/the-center-of-attention-north-branch-sets-six-month-moratorium-on-data-centers/article_a79a87c3-496c-4e13-bda7-7593e472ef56.html",
+     "source_type": "news",
+     "supports": "Reports the city council 'plans to set' a six-month moratorium while staff develop regulations; does not report a completed adoption vote.",
+     "quote": "For now, the city council plans to set a six-month moratorium on new data centers in the city while staff figures out what those regulations will look like."
+    }
+   ],
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "Searched for a follow-up report confirming a completed adoption vote; found none as of the reference date. Correctly coded 'pending.'"
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "mn-north-mankato-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.northmankato.com/news_detail_T43_R571.php",
+     "source_type": "agenda",
+     "supports": "Official notice continuing the public hearing to Sept. 21, 2026, on Ordinance 199-2.",
+     "quote": "NOTICE IS HEREBY GIVEN that the City Council of the City of North Mankato, Minnesota, will continue a public hearing on September 21, 2026, at 7 pm concerning an interim ordinance authorizing a study and imposing a moratorium on data centers."
+    },
+    {
+     "url": "https://www.keyc.com/2026/09/22/north-mankato-city-council-adopts-data-center-moratorium/",
+     "source_type": "news",
+     "supports": "Confirms the Monday, Sept. 21, 2026 (matches calendar) adoption vote with 'overwhelming support,' after the Aug. 3, 2026 hearing was tabled for further review.",
+     "quote": "On Monday, September 21, that motion passed with overwhelming support. ... This moratorium pauses new data centers from being considered or constructed for up to twelve months, with the option to renew the moratorium for an additional year."
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "mn-plymouth-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.88,
+   "evidence": [
+    {
+     "url": "https://www.hometownsource.com/sun_sailor/community/plymouth_medicinelake/plymouth-approves-moratorium-on-data-centers/article_4fbb3711-6138-4fd2-a8db-01ef54c39fb9.html",
+     "source_type": "news",
+     "supports": "Detailed report of the unanimous Sept. 8, 2026 (matches calendar) vote, the 50,000 sq ft threshold, and the exemption for the city's existing 1991 data center.",
+     "quote": "The Plymouth City Council unanimously approved an interim ordinance prohibiting the location, establishment and operation of data centers larger than 50,000 square feet within city limits at a Sept. 8 meeting."
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "mn-rice-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.45,
+   "evidence": [
+    {
+     "url": "https://blandinonbroadband.org/2026/09/20/event-sep-21-rice-city-council-meeting-to-vote-on-authorizing-a-study-for-data-centers-rice-county/",
+     "source_type": "news",
+     "supports": "Describes the proposed one-year interim ordinance and study scheduled for the Sept. 21, 2026 council vote; does not report the outcome (published before the meeting).",
+     "quote": "The interim ordinance would prohibit the establishment, construction, or expansion of data centers within the city for one year."
+    }
+   ],
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "Searched for a post-Sept. 21 follow-up report confirming the vote outcome; found none as of the Sept. 23, 2026 reference date. Correctly coded 'pending' rather than assuming adoption."
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "mn-woodbury-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.5,
+   "evidence": [
+    {
+     "url": "https://woodburynewsnet.org/8014/city-county/woodbury-proposes-data-center-moratorium-ahead-of-sept-23-council-meeting/",
+     "source_type": "news",
+     "supports": "Describes the draft interim ordinance scheduled for the city's Sept. 23, 2026 council meeting (the reference date itself); explicitly states the document 'remains in draft form' as of publication.",
+     "quote": "Woodbury could put new data centers and expansions on hold for up to a year under a proposed interim ordinance... The City Council is scheduled to consider the proposal Sept. 23... Until then, the document remains in draft form."
+    }
+   ],
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "The scheduled vote is the same date as this research pass (2026-09-23); no post-meeting report could exist yet. Correctly coded 'pending.'"
+    }
+   ],
+   "notes": "No duplicate row exists."
+  }
+ ]
+}

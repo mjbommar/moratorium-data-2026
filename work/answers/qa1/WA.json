@@ -1,0 +1,430 @@
+{
+ "state_abbrev": "WA",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA1",
+ "decisions": [
+  {
+   "moratorium_id": "wa-black-diamond-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://blackdiamondwa.gov/DocumentCenter/View/4114",
+     "source_type": "ordinance",
+     "supports": "Full text of Ordinance No. 26-1246 confirms it is temporary interim zoning control (not a permanent ban): adopted 2026-03-03, expressly a six-month interim measure that 'shall automatically expire at the conclusion of that time period unless the same is further extended,' adopted 'before adopting permanent zoning code changes.'",
+     "quote": "The interim zoning controls imposed in Section 2 will remain in effect for a period of six (6) months from the effective date of this Ordinance and shall automatically expire at the conclusion of that time period unless the same is further extended as provided in RCW 35A.63.220 and RCW 36.70A.390 ... ADOPTED BY THE CITY COUNCIL AT A REGULAR MEETING THEREOF ON THE 3rd DAY OF MARCH, 2026."
+    },
+    {
+     "url": "https://blackdiamondwa.gov/DocumentCenter/View/4415",
+     "source_type": "ordinance",
+     "supports": "Full text of Ordinance No. 26-1258 confirms it extends (not replaces) Ordinance 26-1246's interim BESS controls for a further six months, with a small-system exception, and schedules the statutorily-required post-adoption hearing for Oct. 6, 2026 -- consistent with the row's 'extended' status and its use of the original 26-1246 adoption date.",
+     "quote": "the interim zoning control enacted via Ordinance No. 26-1246, is hereby extended for an additional six (6) months ... the City Council will hold a public hearing at its regular meeting at 7:00 p.m. on Tuesday, October 6, 2026"
+    }
+   ],
+   "notes": "Confirms the audit's core concern does not apply here: this is a temporary interim-zoning-control pause (WA's moratorium mechanism), not the permanent BESS zoning code the city is still drafting, and the pause was not replaced by permanent code. date_enacted_iso correctly uses the 26-1246 adoption date (the instrument now in force, as extended), not the 2024 permit-moratorium it succeeded. No duplicate row for this jurisdiction exists."
+  },
+  {
+   "moratorium_id": "wa-cle-elum-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.seattletimes.com/seattle-news/climate-lab/cle-elum-passed-a-data-center-ban-one-might-be-built-there-anyway/",
+     "source_type": "news",
+     "supports": "Confirms the Friday, July 31, 2026 unanimous council vote for an emergency six-month moratorium on new data center facilities, prompted by the Blue Fern Development proposal; a public hearing was set for Sept. 8, 2026.",
+     "quote": "Three days after a developer unveiled plans for a 20-megawatt data center in Cle Elum, the City Council passed an emergency six-month moratorium on new facilities. The council approved the pause unanimously Friday"
+    },
+    {
+     "url": "https://www.goskagit.com/apgstate/cle-elum-calls-timeout-on-development-applications-for-data-centers/article_dbf499eb-ac33-58fa-b551-b80098fe593f.html",
+     "source_type": "news",
+     "supports": "Independent corroboration describing the action as an emergency ordinance creating a six-month 'timeout' on data center applications, passed at a special meeting.",
+     "quote": "The Cle Elum City Council passed an emergency ordinance at a special meeting late last week to put a six-month timeout on applications for data centers"
+    },
+    {
+     "url": "https://www.dailyrecordnews.com/news/formation-of-data-center-advisory-committee-underway-in-cle-elum/article_40bae367-2e91-432c-885b-bd07f51dacce.html",
+     "source_type": "news",
+     "supports": "Corroborates the July 31, 2026 emergency moratorium and describes the advisory committee it created to study power, water, and community impacts.",
+     "quote": "The Cle Elum City Council approved an emergency moratorium on data center projects on July 31. As part of the six-month ban on accepting proposals, the council also agreed to establish an advisory committee"
+    }
+   ],
+   "notes": "No primary ordinance text was locatable this pass (city site does not publish it in an indexed location); however three independent news outlets consistently and specifically corroborate the July 31, 2026 date (confirmed as a Friday), unanimous vote, six-month term, and temporary/pause framing (explicitly 'timeout'), so this is not merely a single-source claim despite lacking a primary document. Genuinely a temporary pause, not permanent code."
+  },
+  {
+   "moratorium_id": "wa-covington-2024",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "url": "https://cms2.revize.com/revize/cityofcovington/Ordinance%20No.%2002-2026.pdf?t=20260514192038871&t=20260514192038871",
+     "source_type": "ordinance",
+     "supports": "Full text of the current renewal ordinance (No. 02-2026) recites the complete renewal chain from the original Ordinance 07-2024 (2024-05-14) through 03-2025 and 09-2025, and confirms the April 14, 2026 public hearing and six-month renewal -- this is a continuously-renewed temporary BESS moratorium, not permanent code.",
+     "quote": "WHEREAS, on April 14, 2026, in accordance with RCW 35A.63.220 and RCW 36.70A.390, the Council conducted a public hearing in conjunction with the adoption of a six-month moratorium renewal ... Section 2. Renewal and Effective Period. Ordinance No. 09-2025 is hereby adopted and renewed for a period of six months from the effective date of this ordinance"
+    }
+   ],
+   "notes": "date_enacted_iso correctly uses the original 07-2024 adoption date (2024-05-14), consistent with how other 'extended' rows in this dataset are dated. No duplicate row exists for Covington."
+  },
+  {
+   "moratorium_id": "wa-duvall-2026",
+   "outcome": "corrected",
+   "changes": {
+    "duration": {
+     "from": "The ordinance's title recites a six-month term, but its recitals/findings state the Council 'deems it necessary...to impose a moratorium...for a period of 12 months'; the operative duration section was not fully captured in the text retrieved this pass",
+     "to": "12 months from adoption; Ordinance No. 1353, Section 3 ('Effective Period for Renewal of the Moratorium') states it 'shall be in effect for a period of 12 months from the date this ordinance is adopted and shall automatically expire at the conclusion of those 12 months' unless extended or sooner terminated. The ordinance's title recites 'six months,' which is a drafting inconsistency; both whereas clauses and the operative Section 3 state 12 months.",
+     "reason": "The full ordinance text (previously only partially captured) is now archived in full (308 lines) and its operative Section 3 unambiguously states a 12-month term, resolving the VERIFY marker."
+    },
+    "duration_days": {
+     "from": "",
+     "to": "365",
+     "reason": "Confirmed 12-month (365-day) operative term per Ordinance 1353 Section 3."
+    },
+    "duration_kind": {
+     "from": "unknown",
+     "to": "fixed_days",
+     "reason": "A specific fixed 12-month/365-day term is now confirmed, not an unknown/ambiguous duration."
+    },
+    "current_status": {
+     "from": "Active as of 2026-09-23. Moratorium on BESS facility applications adopted 2026-06-02 (Ordinance No. 1353); a public hearing was held 2026-07-07. [VERIFY: the ordinance's title recites a six-month term while its findings recite 12 months; the operative duration section was not fully captured this pass and should be re-confirmed against the complete ordinance text.]",
+     "to": "Active as of 2026-09-23. Moratorium on BESS facility applications adopted 2026-06-02 (Ordinance No. 1353) for a confirmed 12-month term (running through approximately 2027-06-02), notwithstanding the ordinance's title reciting six months; a public hearing was held 2026-07-07.",
+     "reason": "Resolves the VERIFY marker now that the full ordinance text confirms the 12-month operative term."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY: the ordinance's title recites a six-month term while its findings recite 12 months; the operative duration section was not fully captured this pass and should be re-confirmed against the complete ordinance text.]",
+     "resolution": "corrected",
+     "note": "Re-fetched and read the full 308-line ordinance text (work/sources/WA/4af2b9bf1afbd343.txt), which was only partially captured previously. Section 3, 'Effective Period for Renewal of the Moratorium,' explicitly states a 12-month term with automatic expiration; the whereas clauses twice recite 12 months as well. The ordinance's title reciting 'six months' is a drafting inconsistency, not the controlling term."
+    }
+   ],
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.duvallwa.gov/DocumentCenter/View/15036/Ord-1353---Approval-of-B",
+     "source_type": "ordinance",
+     "supports": "Full text (all 308 lines, now completely retrieved) of Ordinance No. 1353: Section 2 establishes the BESS moratorium; Section 3 sets a 12-month operative term from adoption with automatic expiration; adopted/signed June 2-3, 2026.",
+     "quote": "Section 3. Effective Period for Renewal of the Moratorium. The moratorium outlined in this Ordinance shall be in effect for a period of 12 months from the date this ordinance is adopted and shall automatically expire at the conclusion of those 12 months unless the same is extended as provided in RCW 35.A.63.220 and RCW 36.70A.390, or unless terminated sooner by City Council."
+    }
+   ],
+   "notes": "This is a genuine temporary pause (title says 'ESTABLISHING A TEMPORARY MORATORIUM'), not permanent code; no duplicate row exists for Duvall."
+  },
+  {
+   "moratorium_id": "wa-enumclaw-2025",
+   "outcome": "corrected",
+   "changes": {
+    "date_enacted": {
+     "from": "2025-02-24 (original 12-month BESS moratorium, Ordinance No. 2833); an extension ordinance under the same number had its second reading 2026-02-23, following a 2026-02-09 public hearing",
+     "to": "2025-02-24, first reading of Ordinance No. 2806 (the original 12-month BESS moratorium; confirmed via a 2025-04-14 public hearing). Extended 12 additional months from Ordinance 2806's Feb. 24, 2026 expiration by Ordinance No. 2833, which had its public hearing/first reading 2026-02-09 and was adopted 7-0 on second reading 2026-03-09 (not Feb. 23 as previously recorded)",
+     "reason": "The archived extension-ordinance text and city council minutes show the ORIGINAL moratorium ordinance was No. 2806, not No. 2833; Ordinance 2833 is the extension. The prior record conflated the two instrument numbers."
+    },
+    "duration": {
+     "from": "Originally 12 months; an extension was under council consideration as the original term neared its ~2026-02-24 expiration",
+     "to": "Originally 12 months (Ordinance 2806); extended 12 additional months from the Feb. 24, 2026 expiration by Ordinance 2833 (adopted on second reading 2026-03-09), running through approximately 2027-02-24",
+     "reason": "The extension was in fact adopted (7-0), not merely under consideration; confirmed via the March 9, 2026 council minutes/agenda packet."
+    },
+    "legal_basis": {
+     "from": "Enumclaw Ordinance No. 2833, adopted 2025-02-24, imposing a 12-month moratorium on acceptance/processing/approval of BESS facility applications; confirmed via a 2025-04-14 public hearing. An extension ordinance (same number, per the city's agenda) had a second reading 2026-02-23 following a 2026-02-09 public hearing",
+     "to": "Enumclaw Ordinance No. 2806, adopted on first reading 2025-02-24, imposing a 12-month moratorium on acceptance/processing/approval of BESS facility applications; confirmed via a 2025-04-14 public hearing. Extended 12 additional months from the Feb. 24, 2026 expiration by Ordinance No. 2833, which had its public hearing/first reading 2026-02-09 and was adopted 7-0 on second reading at the March 9, 2026 council meeting (per official minutes; not Feb. 23 as previously recorded, and not 'the same number' -- 2833 is a distinct ordinance number from the original 2806)",
+     "reason": "Corrects the original-ordinance number (2806, not 2833) and the actual adoption date/outcome of the extension (7-0 on 2026-03-09, confirmed by the city's own minutes), replacing the previous unconfirmed 'second reading 2026-02-23' placeholder."
+    },
+    "current_status": {
+     "from": "Likely active as of 2026-09-23, pending confirmation. The original 12-month moratorium (Ordinance 2833, adopted 2025-02-24) was due to expire around 2026-02-24; a second reading of an extension ordinance occurred 2026-02-23, but the vote outcome and resulting new term were not independently confirmed from a source this pass. [VERIFY: outcome of the 2026-02-23 extension vote and current expiration date] [VERIFY details not confirmed at confidence 0.55 in the 2026-09 refresh]",
+     "to": "Active as of 2026-09-23. The original 12-month moratorium (Ordinance 2806, adopted 2025-02-24) was extended 12 additional months from its Feb. 24, 2026 expiration by Ordinance 2833, adopted 7-0 on second reading at the March 9, 2026 council meeting (public hearing/first reading held 2026-02-09); runs through approximately 2027-02-24 absent further action.",
+     "reason": "Resolves both VERIFY markers with a confirmed vote outcome, date, and corrected ordinance numbering, found in the city's own council minutes/agenda packets."
+    },
+    "outcome": {
+     "from": "Enumclaw City Council adopted a 12-month BESS moratorium (Ordinance 2833) on 2025-02-24; a public hearing on a proposed extension was held 2026-02-09 and a second reading occurred 2026-02-23, but this pass could not confirm whether the extension passed.",
+     "to": "Enumclaw City Council adopted a 12-month BESS moratorium (Ordinance 2806) on 2025-02-24; following a 2026-02-09 public hearing/first reading, the Council adopted an extension (Ordinance 2833) 7-0 on second reading at the March 9, 2026 meeting, extending the moratorium 12 additional months from the original Feb. 24, 2026 expiration date.",
+     "reason": "Same correction as above, applied to the outcome summary field."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY: outcome of the 2026-02-23 extension vote and current expiration date]",
+     "resolution": "corrected",
+     "note": "There was no Feb. 23, 2026 vote on this ordinance in the sources found. The extension ordinance (No. 2833) had its public hearing/first reading Feb. 9, 2026, and its second reading and adoption (7-0, MOTION CARRIED) occurred at the March 9, 2026 council meeting, per the official agenda/minutes packet (cityofenumclaw.net). Also corrected: the ORIGINAL ordinance being extended is No. 2806 (2025-02-24), not No. 2833; No. 2833 is the extension itself."
+    },
+    {
+     "field": "current_status",
+     "marker": "[VERIFY details not confirmed at confidence 0.55 in the 2026-09 refresh]",
+     "resolution": "corrected",
+     "note": "Confirmed via the city's official Feb. 9, 2026 hearing minutes and March 9, 2026 council minutes/agenda packet (text run through pdftotext+OCR), which show 'LAFLEUR MOVED TO APPROVE ORDINANCE NO. 2833, BESS MORATORIUM EXTENSION. KOOPMAN FRAZIER SECONDED. MOTION CARRIED 7-0.'"
+    }
+   ],
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://ecode360.com/EN4429/laws/LF2621887.pdf",
+     "source_type": "ordinance",
+     "supports": "Full text of Ordinance No. 2833 (the extension), whose whereas clauses state the original moratorium was adopted as Ordinance 2806 on Feb. 24, 2025 (first reading), and that this extension runs 12 additional months from Ordinance 2806's Feb. 24, 2026 expiration.",
+     "quote": "Whereas, On February 24, 2025, the City Council adopted Ordinance 2806 on first reading, establishing a moratorium and set public hearing for April 14, 2025, to determine whether the moratorium should be extended ... This moratorium shall be extended for twelve (12) additional months from the expiration date of Ordinance 2806 (expiration February 24, 2026), unless extended, modified, or terminated by the City Council."
+    },
+    {
+     "url": "https://www.cityofenumclaw.net/AgendaCenter/ViewFile/Minutes/_02092026-2314",
+     "source_type": "minutes",
+     "supports": "Official Feb. 9, 2026 council minutes documenting the public hearing and first reading of Ordinance No. 2833 (BESS Moratorium Extension).",
+     "quote": "8. PUBLIC HEARING: A. Ordinance No. 2833 - BESS Moratorium Extension MAYOR OPENED THE PUBLIC HEARING AT 7:29 P.M. ... City Clerk Reads Ordinance by Title Only for the 1st Reading"
+    },
+    {
+     "url": "https://www.cityofenumclaw.net/AgendaCenter/ViewFile/Agenda/_03092026-2327?packet=true",
+     "source_type": "minutes",
+     "supports": "Official March 9, 2026 council packet/minutes documenting the second reading and 7-0 adoption vote for Ordinance No. 2833.",
+     "quote": "1. Ordinance No. 2833 - BESS Moratorium Extension City Clerk Reads Ordinance by Title Only for the 2nd Reading ... LAFLEUR MOVED TO APPROVE ORDINANCE NO. 2833, BESS MORATORIUM EXTENSION. KOOPMAN FRAZIER SECONDED. MOTION CARRIED 7-0."
+    }
+   ],
+   "notes": "The original packet's OLDER_INSTRUMENT concern (b) was warranted here: the record had conflated the original ordinance (2806) with its extension (2833), and had the extension vote's date and outcome wrong. Corrected using the city's own minutes. This remains a genuine temporary pause continuously renewed via WA's standard moratorium-extension mechanism, not permanent code; enacted_status 'extended' was already correct."
+  },
+  {
+   "moratorium_id": "wa-kitsap-county-2025",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "url": "https://www.kitsap.gov/dcd/PEP%20Documents/645-2026%20BESS%20Ordinance%20-%20SIGNED.pdf",
+     "source_type": "ordinance",
+     "supports": "Full text of the signed extension ordinance confirms the original Ordinance 639-2025 (365-day term, adopted 2025-06-11), the July 14, 2025 initial hearing, the May 11, 2026 extension hearing, and a 180-day extension -- a temporary pause continuously renewed, not permanent code.",
+     "quote": "AN ORDINANCE IMPOSING A 180-DAY EXTENSION TO THE 365-DAY MORATORIUM IMPOSED BY ORDINANCE 639-2025 ON THE ACCEPTANCE OF NEW APPLICATIONS FOR BATTERY ENERGY STORAGE SYSTEMS (BESS) ... WHEREAS on June 11, 2025, the County adopted Ordinance 639-2025 establishing a 365-day moratorium ... a public hearing was held on May 11, 2026"
+    }
+   ],
+   "notes": "date_enacted_iso correctly uses the original 639-2025 adoption date. No duplicate row exists."
+  },
+  {
+   "moratorium_id": "wa-la-conner-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://townoflaconner.org/DocumentCenter/View/2445/72826-Town-Council-Packet",
+     "source_type": "agenda",
+     "supports": "Official July 28, 2026 council meeting packet containing the full draft ordinance text: a six-month emergency moratorium on data center permit applications, Ordinance number 1274.",
+     "quote": "Section 3. Moratorium Imposed. The town council hereby imposes an immediate six-month moratorium on the acceptance, processing, or approval of any applications for permits or land ... Ordinance 1274 Resolution 693"
+    },
+    {
+     "url": "https://laconnercommunitynews.org/2026/07/29/town-approves-moratorium-on-data-centers/",
+     "source_type": "news",
+     "supports": "Confirms the July 28, 2026 (Tuesday) unanimous vote and six-month term.",
+     "quote": "Tuesday, following Skagit County's example, the La Conner Town Council unanimously approved an emergency moratorium on applications for data centers within town limits, effective immediately."
+    }
+   ],
+   "notes": "Genuine temporary pause. No duplicate row exists (distinct from Skagit County's own moratorium and from Mount Vernon's)."
+  },
+  {
+   "moratorium_id": "wa-mount-vernon-2025",
+   "outcome": "status_changed",
+   "new_enacted_status": "extended",
+   "changes": {
+    "duration": {
+     "from": "Maximum one year from adoption of Ordinance 3913 (2025-05-28), i.e., through approximately 2026-05-28, unless terminated earlier or further renewed after another public hearing",
+     "to": "Maximum one year from adoption of Ordinance 3913 (2025-05-28) per Ordinance 3915; renewed for a further six months by Ordinance No. 3940, adopted 2026-05-27 following a public hearing the same day, running through approximately 2026-11-27 absent further renewal",
+     "reason": "The moratorium was NOT allowed to lapse at its ~2026-05-28 one-year cap as previously recorded; it was renewed for six more months by Ordinance 3940, found this pass."
+    },
+    "duration_days": {
+     "from": "365",
+     "to": "",
+     "reason": "No longer a single fixed-days term from original adoption; now on a renewal pattern (six-month renewals), consistent with how other 'extended' WA rows in this dataset are coded (duration_days empty, duration_kind until_date)."
+    },
+    "duration_kind": {
+     "from": "fixed_days",
+     "to": "until_date",
+     "reason": "Matches the renewal pattern; see above."
+    },
+    "legal_basis": {
+     "from": "Mount Vernon Ordinance No. 3913 (2025-05-28), an emergency moratorium on accepting permits to construct/site/develop grid-scale battery energy storage systems, continued and ratified by Ordinance No. 3915 (2025-07-23) for a maximum of one year from Ordinance 3913's adoption",
+     "to": "Mount Vernon Ordinance No. 3913 (2025-05-28), an emergency moratorium on accepting permits to construct/site/develop grid-scale battery energy storage systems, continued and ratified by Ordinance No. 3915 (2025-07-23) for a maximum of one year from Ordinance 3913's adoption; renewed for a further six months by Ordinance No. 3940, adopted 2026-05-27 (public hearing held the same day), extending the moratorium through approximately 2026-11-27",
+     "reason": "Adds the renewal instrument found this pass, which the record previously lacked (leading to the incorrect 'expired' status)."
+    },
+    "current_status": {
+     "from": "Likely expired as of 2026-09-23, pending confirmation. By its own terms, Ordinance No. 3915 capped the moratorium (first adopted via Ordinance 3913 on 2025-05-28) at a maximum of one year from that date, i.e., approximately 2026-05-28, unless the City held a further public hearing and renewed it again; no evidence of a further renewal or of permanent BESS regulations being adopted was found this pass. [VERIFY: whether the moratorium was renewed again after May 2026 or allowed to lapse, and whether permanent BESS regulations have since been adopted.] [VERIFY details not confirmed at confidence 0.55 in the 2026-09 refresh]",
+     "to": "Active as of 2026-09-23. The BESS permit-application moratorium first adopted via Ordinance 3913 (2025-05-28) and continued via Ordinance 3915 (2025-07-23) was renewed for a further six months by Ordinance No. 3940, adopted 2026-05-27 following a public hearing held the same day; runs through approximately 2026-11-27 absent further renewal or the adoption of permanent BESS regulations, which the City is still developing.",
+     "reason": "Corrects the status from 'likely expired' to confirmed 'extended'/active, resolving both VERIFY markers with a primary source (Ordinance 3940)."
+    },
+    "outcome": {
+     "from": "Mount Vernon City Council adopted an emergency BESS moratorium (Ordinance 3913) on 2025-05-28, continued it via Ordinance 3915 (2025-07-23) for up to one year total; status after the ~2026-05-28 cap is unconfirmed this pass.",
+     "to": "Mount Vernon City Council adopted an emergency BESS moratorium (Ordinance 3913) on 2025-05-28, continued it via Ordinance 3915 (2025-07-23) for up to one year, and renewed it for a further six months via Ordinance 3940 (adopted 2026-05-27); the moratorium remains in force through approximately 2026-11-27.",
+     "reason": "Same correction applied to the outcome summary."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY: whether the moratorium was renewed again after May 2026 or allowed to lapse, and whether permanent BESS regulations have since been adopted.]",
+     "resolution": "corrected",
+     "note": "Found and read the full text of Ordinance No. 3940 (adopted 2026-05-27), which ratifies, renews, and continues the moratorium established by Ordinances 3913 and 3915 for a further six months (Section 4: 'shall apply for a maximum of six-months from adoption'). Corroborated by goskagit.com news coverage of the May 27, 2026 (Wednesday) council vote. No permanent BESS regulations have been adopted; the enacted_status has been changed from 'expired' to 'extended'."
+    },
+    {
+     "field": "current_status",
+     "marker": "[VERIFY details not confirmed at confidence 0.55 in the 2026-09 refresh]",
+     "resolution": "corrected",
+     "note": "Resolved by the same Ordinance 3940 primary source and corroborating news coverage."
+    }
+   ],
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://ecode360.com/MO4548/laws/LF2712385.pdf",
+     "source_type": "ordinance",
+     "supports": "Full text of Ordinance No. 3940: ratifies, renews, and continues the BESS moratorium established by Ordinances 3913 and 3915 for a further six months from its May 27, 2026 adoption.",
+     "quote": "WHEREAS, on May 27, 2026, the City Council held a public hearing regarding the renewal of the moratorium established by Ordinances 3913 and 3915 ... SECTION 4. EFFECTIVE PERIOD. This ordinance is immediately adopted and shall apply for a maximum of six-months from adoption."
+    },
+    {
+     "url": "https://www.goskagit.com/news/mount-vernon-council-extends-moratorium-on-bess-facilities/article_7d01d921-5d1a-4598-8e71-7bbec0e0bad7.html",
+     "source_type": "news",
+     "supports": "Confirms the Wednesday, May 27, 2026 council vote to extend the BESS moratorium for six months, and that it may need to be extended again.",
+     "quote": "MOUNT VERNON \u2014 The Mount Vernon City Council voted Wednesday to extend the city's moratorium on battery energy storage systems, or BESS, for six months"
+    }
+   ],
+   "notes": "This is the most substantive finding in the WA packet: the original research pass missed the May 27, 2026 renewal (Ordinance 3940) and incorrectly marked the row 'expired.' The moratorium is in fact active and was properly renewed under WA's standard six-month renewal mechanism -- a genuine temporary pause, not permanent code."
+  },
+  {
+   "moratorium_id": "wa-north-bend-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "http://northbendwa.gov/m/newsflash/Home/Detail/2666",
+     "source_type": "other",
+     "supports": "Official city press release confirms the May 19, 2026 unanimous vote for a 12-month moratorium prohibiting acceptance/processing/approval of BESS land-development applications -- a temporary pause, not permanent code.",
+     "quote": "On May 19, 2026, the North Bend City Council voted unanimously to approve an ordinance enacting a 12-month moratorium related to Battery Energy Systems (BESS) storage within city limits. ... The moratorium prohibits the acceptance, processing, and/or approval of applications for land development proposals relating to or incorporating BESS."
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "wa-snoqualmie-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "url": "https://mrsc.org/getmedia/fb4d41c5-c69d-410c-a1a5-7f920f371cfa/s63o1322.pdf",
+     "source_type": "ordinance",
+     "supports": "Full signed ordinance text confirms Ordinance No. 1322, passed May 26, 2026, a 12-month moratorium (Section 3) on new BESS facility applications with a required 60-day public hearing -- a temporary pause.",
+     "quote": "PASSED by the City Council of the City of Snoqualmie, Washington, this 26th day of May, 2026. ... Section 3. Duration. This moratorium shall take effect immediately upon adoption and shall remain in effect for a period of twelve (12) months"
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "wa-kittitas-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.88,
+   "evidence": [
+    {
+     "url": "https://www.dailyrecordnews.com/news/commissioners-approve-ban-on-data-centers/article_f748f50c-8759-4b25-9c2b-d87aa04a5942.html",
+     "source_type": "news",
+     "supports": "Confirms the initial 2-0 vote for an emergency six-month moratorium on data center proposals, effective immediately, on 2026-08-10.",
+     "quote": "Kittitas County commissioners unanimously approved an emergency six-month ban on data center proposals Monday. ... The ban went into immediate effect."
+    },
+    {
+     "url": "https://www.dailyrecordnews.com/ellensburg/kittitas-county-oks-proposal-to-extend-data-center-moratorium/article_566362b5-f165-4501-8e48-c8c57af6aadb.html",
+     "source_type": "news",
+     "supports": "Confirms the six-month extension approved Tuesday, Sept. 15, 2026, bringing the total moratorium to roughly one year, with an accompanying work plan through September 2027.",
+     "quote": "Kittitas County commissioners approved a six-month extension Tuesday to its ban on accepting applications for data center projects. ... This week's approval on a moratorium extension will result in a year-long ban."
+    }
+   ],
+   "notes": "Both votes independently corroborated (weekday claims check out: Aug 10 2026 is a Monday, Sept 15 2026 is a Tuesday). Genuine temporary pause with a defined work plan for permanent regulations, not permanent code itself."
+  },
+  {
+   "moratorium_id": "wa-mount-vernon-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.88,
+   "evidence": [
+    {
+     "url": "https://bloximages.chicago2.vip.townnews.com/goskagit.com/content/tncms/assets/v3/classifieds/a/c3/ac3db2e9-0aa6-5e9e-a958-7f5a85d1910e/6aae1e7be6621.pdf.pdf",
+     "source_type": "other",
+     "supports": "Official city public-hearing legal notice (published Sept. 19, 2026) confirms Ordinance 3943 was adopted Aug. 12, 2026, declaring an emergency and imposing a moratorium on accepting permit applications for data centers, applicable citywide; the required RCW 36.70A.390 public hearing is set for Sept. 23, 2026.",
+     "quote": "PROJECT DESCRIPTION: On August 12, 2026 the City adopted Ordinance 3943 declaring an emergency and adopting a moratorium on the acceptance of applications for permits for Data Centers. ... PROJECT LOCATION: Applies Citywide."
+    },
+    {
+     "url": "https://www.goskagit.com/news/mount-vernon-city-council-approves-6-month-data-center-moratorium/article_f131e0c2-c875-4137-b61a-5417cffc94ac.html",
+     "source_type": "news",
+     "supports": "Confirms the 6-1 council vote (Aug. 12, 2026 meeting) for a six-month moratorium on data center permit applications, that no applications were pending, and the 60-day public-hearing requirement.",
+     "quote": "MOUNT VERNON \u2014 The Mount Vernon City Council voted 6-1 Wednesday to adopt a six-month moratorium on data centers within the city limits. The moratorium prevents the city from accepting permit applications for data centers."
+    }
+   ],
+   "notes": "IMPORTANT: the packet's original evidence for this item was wrong -- both cited sources (and quotes) were actually about the unrelated wa-mount-vernon-2025 BESS moratorium (Ordinances 3913/3915), apparently copy-pasted from that item. I re-researched from scratch and located correct primary/news sources for Ordinance 3943 (the actual 2026 data-center moratorium); they confirm the row's existing date (2026-08-12), term (six months), and scope (data centers) are accurate despite the citation error. One secondary source (kpug1170.com) misstated the vote as occurring 'Wednesday, Aug. 14,' but Aug. 12, 2026 is the Wednesday, and Aug. 14 is a Friday; the primary public-hearing notice and the goskagit.com article both confirm Aug. 12, so I treat the kpug date as a reporting error and the row's date_enacted_iso as correct. This is a genuine new temporary pause distinct from the 2025 BESS row."
+  },
+  {
+   "moratorium_id": "wa-pierce-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.88,
+   "evidence": [
+    {
+     "url": "https://www.piercecountywa.gov/m/newsflash/home/detail/7241",
+     "source_type": "other",
+     "supports": "Official County Council press release confirms the Aug. 25, 2026 6-1 vote on Emergency Ordinance No. 2026-557, prohibiting permits for data centers over 10 MW in unincorporated Pierce County for up to one year, with an Oct. 20, 2026 public hearing.",
+     "quote": "The Pierce County Council passed an emergency ordinance on Tuesday, Aug. 25, that prohibits filing, processing, or approval of permits for new and expanded data centers exceeding 10 megawatts in unincorporated Pierce County for up to one year."
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "wa-renton-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.rentonreporter.com/2026/08/19/renton-places-one-year-moratorium-on-data-centers/",
+     "source_type": "news",
+     "supports": "Confirms the unanimous Aug. 17, 2026 council vote for a one-year moratorium on filing/processing/approving large-data-center applications and permits.",
+     "quote": "At the Aug. 17 Renton City Council meeting, the council unanimously approved a moratorium on the filing, acceptance, processing, and approval of applications and permits for the siting establishment or expansion of large data centers within the city for up to one year."
+    }
+   ],
+   "notes": "No duplicate row exists."
+  },
+  {
+   "moratorium_id": "wa-skamania-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://skamania-dispatch.ghost.io/a-data-center-moratorium-two-new-planning-commissioners-skamania-bocc-august-26/",
+     "source_type": "minutes",
+     "supports": "Local reporting cross-checked against county minutes confirms the Aug. 18, 2026 motion and Resolution 2026-22 adopting a county-wide data center moratorium, with zero applications received as of Aug. 25, and a required public hearing by Oct. 17, 2026.",
+     "quote": "On August 18 the Board adopted a moratorium on data center development, first by motion and then as Resolution 2026-22, both unanimous, after eight people asked for one."
+    }
+   ],
+   "notes": "Single-source (detailed local reporting cross-referenced to official minutes per the source itself); no contradicting information found. No duplicate row exists."
+  },
+  {
+   "moratorium_id": "wa-spokane-county-2026",
+   "outcome": "corrected",
+   "changes": {
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2026-12-15",
+     "reason": "The county's own press release and corroborating news coverage give a specific, known calendar end date (Dec. 15, 2026) for the four-month pause, which the schema calls for in current_end_date_iso; this field was left blank in the original record despite the date being stated explicitly and repeatedly in the cited evidence."
+    }
+   },
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.spokanecounty.gov/DocumentCenter/View/73278/2026_08_18-Data-Center-Pause-Press-Release?bidId=",
+     "source_type": "other",
+     "supports": "Official County Commissioners' press release: unanimous vote 2026-08-18, four-month term expiring 2026-12-15.",
+     "quote": "Today, the Board of County Commissioners unanimously approved a four-month pause on the acceptance and processing of County building permits for data centers. ... The moratorium is set to expire on December 15, 2026 and can be extended if more time is needed."
+    }
+   ],
+   "notes": "Minor field-completeness correction only; the substantive facts (date, term, scope) were already correct."
+  },
+  {
+   "moratorium_id": "wa-yakima-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.yakimaherald.com/news/local/government/yakima-county-commissioners-pass-six-month-data-center-moratorium/article_997dbbc7-7fe0-476a-9d92-73179f958bf7.html",
+     "source_type": "news",
+     "supports": "Confirms the Aug. 11, 2026 unanimous vote for a six-month moratorium (Resolution 210-2026) preventing acceptance of land use/building permits for data centers in unincorporated Yakima County.",
+     "quote": "Yakima County commissioners on Tuesday voted unanimously in favor of a six-month moratorium on data centers. The resolution prevents the county from accepting any land use or building permits for data centers in unincorporated Yakima County."
+    },
+    {
+     "url": "https://www.yakimacounty.us/AgendaCenter/ViewFile/Agenda/_08112026-1948?html=true#docaccess-f83e048042eb7d3b8025b0fbc10e006b",
+     "source_type": "agenda",
+     "supports": "Official Aug. 11, 2026 Board of County Commissioners agenda listing Resolution 210-2026.",
+     "quote": "Resolution 210-2026 Declaring a Zoning Moratorium on Placement of Data Centers within the Unincorporated Areas of Yakima County."
+    }
+   ],
+   "notes": "No duplicate row exists."
+  }
+ ]
+}

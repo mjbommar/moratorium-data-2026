@@ -1,0 +1,53 @@
+{
+  "state_abbrev": "CT",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA1",
+  "decisions": [
+    {
+      "moratorium_id": "ct-cromwell-undated",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.cromwellct.gov/DocumentCenter/View/5915/081826-Minutes-filed-with-Clerk",
+          "source_type": "minutes",
+          "supports": "Official minutes: text of Application #26-25 (12-month moratorium proposal), discussion, and the 5-1 vote to schedule (not adopt) a public hearing for September 24, 2026.",
+          "quote": "The proposed timeframe for the Moratorium is twelve (12) months. ... A motion was made by Andrew Holt, seconded by Vincenzo Marfella, to accept and schedule Application #26-25 for a Public Hearing at a Special Meeting on September 24, 2026. Chair Kelly, Vincenzo Marfella, Andrew Holt, Nick Demetriades, Richard Nordmann approved; Michael Cannata opposed. The motion passed, 5 to 1."
+        },
+        {
+          "url": "https://mytownview.com/connecticut/middlesex/cromwell/meetings/18243-planning-and-zoning-commission-2026-08-18",
+          "source_type": "other",
+          "supports": "Secondary (AI-generated) meeting summary; checked and found to overstate the outcome (describes the item as 'approved'/'passed' when the official minutes show only a hearing was scheduled). Retained as evidence of the discrepancy, not as a source for the moratorium's status.",
+          "quote": "The Cromwell Planning and Zoning Commission approved a text amendment to establish a moratorium on data centers, passing it with a 4-1 vote after debate that included opposition from Commissioner Mike Canada."
+        }
+      ],
+      "notes": "Verified against the official filed minutes: the Aug. 18, 2026 vote (5-1) only scheduled a public hearing for Sept. 24, 2026; it did not adopt the moratorium. The researcher correctly caught and documented that a secondary aggregator (mytownview.com) mischaracterized this as 'approved'/'passed' with an incorrect 4-1 vote count -- the official minutes (5-1) are authoritative. 'pending' is correct."
+    },
+    {
+      "moratorium_id": "ct-trumbull-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://www.trumbull-ct.gov/AgendaCenter/ViewFile/Agenda/_09092026-6197",
+          "source_type": "agenda",
+          "supports": "Primary source: full text of Resolution TC31-65 adopting the two-year moratorium on new data centers, listed for public hearing and action at the Sept. 9, 2026 Town Council meeting.",
+          "quote": "RESOLUTION TC31-65: BE IT RESOLVED AND ORDAINED That the Trumbull Municipal Code be and the same is hereby amended by inclusion of the following: The Town hereby adopts a two-year moratorium on the establishment and development of any new data centers within the Town of Trumbull. (Public Hearing Town Council September 9, 2026)"
+        },
+        {
+          "url": "https://westfaironline.com/latest-news/trumbull-town-council-oks-moratorium-on-new-data-centers/",
+          "source_type": "news",
+          "supports": "Confirms the unanimous voice vote, effective-immediately term, scope (new data centers only, not the 80 Merritt Blvd. modernization), and detailed public hearing testimony.",
+          "quote": "TRUMBULL – The Trumbull Town Council took a tepid step Wednesday toward regulating data centers in town by approving a two-year moratorium effective immediately of building such facilities... the resolution approved unanimously by the council by voice vote only places a moratorium on all new data centers built. The resolution does not pertain to the work being done at the Trumbull Corporate Park on Merritt Boulevard."
+        },
+        {
+          "url": "https://ctmirror.org/2026/09/11/trumbull-ai-data-center-moratorium/",
+          "source_type": "news",
+          "supports": "Independently confirms the Sept. 9, 2026 adoption date, the moratorium's scope exclusion for the existing 80 Merritt Blvd. facility, and resident reaction including a possible referendum petition drive.",
+          "quote": "A decades-old data center in Trumbull could become one of the first AI data centers in Connecticut, despite the town passing a new 2-year moratorium on Wednesday. ... Trumbull's moratorium only applies to the 'establishment and development' of new data centers, not the proposed upgrades to the town's current facility..."
+        }
+      ],
+      "notes": "Verified against the primary resolution text (TC31-65) and two independent news accounts: unanimous Sept. 9, 2026 adoption, 2-year term, correctly scoped to exclude the existing 80 Merritt Blvd. facility's modernization. No duplicate."
+    }
+  ]
+}

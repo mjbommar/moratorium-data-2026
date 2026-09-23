@@ -1,0 +1,48 @@
+{
+  "applied_at": "20260923T115829",
+  "answer_files": [
+    "work/answers/qa5/zz-markers-CA.json",
+    "work/answers/qa5/zz-markers-GA.json",
+    "work/answers/qa5/zz-markers-NY.json"
+  ],
+  "stats": {
+    "outcome:corrected": 4,
+    "fields_changed": 4
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "ca-irwindale-undated",
+      "column": "current_status",
+      "before": "Replaced as of 2026-09-23. Whether Draft Urgency Ordinance 819 (the proposed 45-day moratorium) was ever formally adopted at the 2026-05-27 hearing could not be confirmed in this pass either; no news coverage or minutes referencing Ordinance 819's disposition were located. What is confirmed is that the City subsequently directed staff and legal counsel to prepare a permanent prohibition: the City Council unanimously approved Ordinance No. 821, adding Chapter 17.42 (Artificial Intelligence (AI) Data Centers & Associated Uses) to the Irwindale Municipal Code, on first reading 2026-08-26 and second reading/final adoption 2026-09-09; the ordinance takes effect 2026-10-09. This permanent citywide prohibition resolves the pending question regardless of Ordinance 819's status.",
+      "after": "Replaced as of 2026-09-23. Whether Draft Urgency Ordinance 819 (the proposed 45-day moratorium) was ever formally adopted at the 2026-05-27 hearing could not be confirmed in this pass either; no news coverage or minutes referencing Ordinance 819's disposition were located. What is confirmed is that the City subsequently directed staff and legal counsel to prepare a permanent prohibition: the City Council unanimously approved Ordinance No. 821, adding Chapter 17.42 (Artificial Intelligence (AI) Data Centers & Associated Uses) to the Irwindale Municipal Code, on first reading 2026-08-26 and second reading/final adoption 2026-09-09; the ordinance takes effect 2026-10-09. This permanent citywide prohibition resolves the pending question regardless of Ordinance 819's status. [VERIFY adoption of Ordinance 819 not confirmed in the 2026-09 QA pass; CivicClerk event has no minutes]",
+      "reason": "QA round 5 could not confirm the row's status or adoption; flag it so the next worklist picks it up.",
+      "source": "zz-markers-CA.json"
+    },
+    {
+      "moratorium_id": "ga-cedartown-2026",
+      "column": "current_status",
+      "before": "Enacted March 23, 2026; no subsequent news of extension, replacement, or expiration was located in this research pass.",
+      "after": "Enacted March 23, 2026; no subsequent news of extension, replacement, or expiration was located in this research pass. [VERIFY status: six-month term ended about 2026-09-22; no extension, replacement or lapse found in the 2026-09 QA pass]",
+      "reason": "QA round 5 could not confirm the row's status or adoption; flag it so the next worklist picks it up.",
+      "source": "zz-markers-GA.json"
+    },
+    {
+      "moratorium_id": "ny-hartwick-2026",
+      "column": "current_status",
+      "before": "Adopted 2026-03-20 for six months (through approximately 2026-09-20). A public hearing on Local Law No. 2 of 2026, proposing a further extension, was scheduled for 2026-08-24; the outcome of that hearing was not confirmed in this pass -- the town's news coverage moved to unrelated town-board disputes (an Article 78 petition filed by a board member against the supervisor) without reporting the extension vote.",
+      "after": "Adopted 2026-03-20 for six months (through approximately 2026-09-20). A public hearing on Local Law No. 2 of 2026, proposing a further extension, was scheduled for 2026-08-24; the outcome of that hearing was not confirmed in this pass -- the town's news coverage moved to unrelated town-board disputes (an Article 78 petition filed by a board member against the supervisor) without reporting the extension vote. [VERIFY status: computed term ended 2026-09-16; no extension or lapse found in the 2026-09 QA pass]",
+      "reason": "QA round 5 could not confirm the row's status or adoption; flag it so the next worklist picks it up.",
+      "source": "zz-markers-NY.json"
+    },
+    {
+      "moratorium_id": "ny-syracuse-2026",
+      "column": "current_status",
+      "before": "Active; Common Councilors voted unanimously in late February 2026 to ban new BESS permits for six months (with an option for one further six-month extension) while the city updates zoning and fire codes.",
+      "after": "Active; Common Councilors voted unanimously in late February 2026 to ban new BESS permits for six months (with an option for one further six-month extension) while the city updates zoning and fire codes. [VERIFY status: computed term ended 2026-07-31; no extension or lapse found in the 2026-09 QA pass]",
+      "reason": "QA round 5 could not confirm the row's status or adoption; flag it so the next worklist picks it up.",
+      "source": "zz-markers-NY.json"
+    }
+  ]
+}

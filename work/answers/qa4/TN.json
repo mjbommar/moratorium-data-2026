@@ -1,0 +1,138 @@
+{
+  "state_abbrev": "TN",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "tn-crossville-undated",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "changes": {
+        "sectors": {
+          "from": "[\"data_center\"]",
+          "to": "[\"data_center\",\"cryptocurrency_mining\"]",
+          "reason": "Two independent news accounts of the ordinance's first, second, and third/final readings describe its operative scope as covering 'server farms and cryptocurrency mining facilities' (not just data centers), matching the row's own current_status text. This is stated as part of what new permits are halted for, not a mere trigger mention or an exclusion."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.mainstreetjournal.llc/crossville-city-council-passes-data-center-moratorium/",
+          "title": "Crossville City Council Passes Data Center Moratorium",
+          "publisher": "Main Street Journal",
+          "document_date": "2026-08-11",
+          "source_type": "news",
+          "supports": "Reports third and final reading of Ordinance 26-0286, confirming the 24-month moratorium halts new conditional use permits, site plans, and building approvals for 'server farms and cryptocurrency mining facilities.'",
+          "quote": "Under the newly enacted 24-month moratorium, the city will halt all new conditional use permits, site plans, and building approvals for server farms and cryptocurrency mining facilities."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: the ordinance's own operative language (as reported at first, second, and third readings) extends to cryptocurrency mining facilities, not just data centers, so cryptocurrency_mining was added to sectors. Could not locate the codified ordinance text itself (Crossville's amlegal code library did not yet show Title 14 Chapter 12 as updated), so this rests on consistent news reporting of the adopted ordinance's language across two independent outlets covering different readings, rather than the primary ordinance PDF."
+    },
+    {
+      "moratorium_id": "tn-hamblen-county-undated",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/9150245/tennessee/hamblen-county/hamblen-county-adopts-request-for-one-year-moratorium-on-high-intensity-electrical-load-facilities",
+          "title": "Hamblen County adopts request for one-year moratorium on high-intensity electrical-load facilities",
+          "publisher": "CitizenPortal.ai (Public Services Committee meeting recap)",
+          "document_date": "2026-07",
+          "source_type": "news",
+          "supports": "Describes the proposed moratorium's scope as 'high-intensity electrical-load facilities' with data centers cited as the driving example; does not describe battery storage as an independently regulated land use, consistent with the row's own legal_basis phrase 'ancillary battery systems' referring to a facility's own on-site backup power equipment.",
+          "quote": "The Public Services Committee voted to request an interim one-year moratorium on high-intensity electrical-load facilities — the ordinance language cited data centers as an example — while county staff and the planning commission draft permanent zoning regulations."
+        }
+      ],
+      "notes": "SECTOR_CHECK not changed: the row's own legal_basis text describes the draft ordinance's definition as covering 'data centers, crypto mining, HPC, ancillary battery systems' -- the word 'ancillary' indicates battery systems that are accessory/backup equipment attached to a high-intensity electrical load facility (e.g. on-site UPS/backup batteries), not a standalone battery-storage (BESS) development, which is what the battery_storage sector tag denotes elsewhere in this inventory. Could not retrieve the draft ordinance's own text to confirm this reading directly: hamblencountytn.gov returned a 502 Bad Gateway / repeated timeouts on every attempt (direct fetch, browser mode, and a Wayback Machine lookup only returned a March 2026 snapshot predating the ordinance), and a Facebook post reportedly quoting the draft ordinance was behind a login wall. Left sectors unchanged on the strength of the 'ancillary' language and the CitizenPortal.ai committee recap, which frames the whole ordinance around 'high-intensity electrical-load facilities' generally rather than battery storage as its own use. Separately (not the assigned flag but relevant to the row's own [VERIFY] marker): found a Kingsport-area Citizen Tribune headline indicating the County Commission 'passed a moratorium on high intensity electrical-load facilities' the night of Thursday, Aug. 20, 2026 (article published Aug. 22, 2026), which would mean the moratorium has since moved from Planning-Commission-recommended to Commission-adopted; the full article text was inaccessible (accessibility-widget page shell only, paywalled). A separate item also references a Sept. 24, 2026 hearing on the same 'pause for big power-use facilities,' which is inconsistent with a completed Aug. 20 adoption unless that Sept. 24 date concerns a different, later step (e.g. the permanent zoning ordinance). Did not change enacted_status/date_enacted_iso given this conflict and inability to read either source in full; flagging for the coordinator/a future pass.",
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; adoption date not confirmed at confidence 0.6 in the 2026-09 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Found a Citizen Tribune headline/snippet suggesting the County Commission passed the moratorium the night of Aug. 20, 2026, but the article was paywalled/inaccessible in full, and a separate Sept. 24, 2026 hearing reference ('1-year pause for big power-use facilities') could not be reconciled with that (may concern the follow-on permanent ordinance rather than the moratorium itself). hamblencountytn.gov itself was unreachable (502/timeouts) on every attempt, including a Wayback Machine lookup. Marker remains; adoption status and instrument number still not confirmed from a primary source."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "tn-sullivan-county-2025",
+      "outcome": "corrected",
+      "confidence": 0.75,
+      "changes": {
+        "duration": {
+          "from": "Originally four months (January to May 2026); extended in April 2026 to a full 12 months, ending January 2027",
+          "to": "Originally four months (January to May 2026); extended at the April 16, 2026 Commission meeting to a full 12 months, ending January 2027",
+          "reason": "Pinpoints the extension vote to the April 16, 2026 regular Commission meeting, per an independent meeting summary; the exact day of the resulting January 2027 end date could not be confirmed from any source (see notes), so current_end_date_iso is left blank rather than guessed."
+        },
+        "current_status": {
+          "from": "Extended; active as of 2026-09-23. The Commission extended the four-month moratorium in April 2026 to 12 months, ending January 2027 (Kingsport Times-News). On 2026-06-11 the Commission adopted, 18-0, the PMD-3 Planned Manufacturing District zoning amendment confining data centers, crypto mining, and battery storage to the center of industrial parks; the moratorium continues while the county studies further amendments.",
+          "to": "Extended; active as of 2026-09-23. The Commission extended the four-month moratorium at its April 16, 2026 meeting to 12 months, ending January 2027 (exact day not published in any source found; Kingsport Times-News). On 2026-06-11 the Commission adopted, 18-0, the PMD-3 Planned Manufacturing District zoning amendment confining data centers, crypto mining, and battery storage to the center of industrial parks -- a separate zoning instrument from the moratorium (Resolution No. 2025-11-07, as amended), which itself does not reference battery storage; the moratorium continues while the county studies further amendments.",
+          "reason": "Adds the confirmed April 16, 2026 extension date and clarifies that battery storage is regulated by the separate PMD-3 zoning amendment, not by the moratorium resolution itself, resolving the SECTOR_CHECK flag."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://sullivancountytn.gov/wp-content/uploads/Sullivan-Commission-Agenda-November-20-2025.pdf",
+          "title": "Sullivan County Commission Agenda Packet, November 20, 2025 (includes full text of Resolution No. 2025-11-07)",
+          "publisher": "Sullivan County, TN",
+          "document_date": "2025-11-20",
+          "source_type": "resolution",
+          "supports": "Full text of the original moratorium resolution: Section 1 defines the prohibited use as 'Data-mining centers, including but not limited to cryptocurrency-mining operations, blockchain-computing centers, or any facility operating more than 2 megawatts of computing equipment.' No mention of battery storage anywhere in the four operative sections.",
+          "quote": "SECTION 1. Data-mining centers, including but not limited to cryptocurrency-mining operations, blockchain-computing centers, or any facility operating more than 2 megawatts of computing equipment, are hereby prohibited from locating, constructing, or operating in Sullivan County."
+        },
+        {
+          "url": "https://timesnews.net/news/377394/sullivan-commission-approves-crypto-miningdata-center-zoning/",
+          "title": "Sullivan commission approves crypto mining/data center zoning",
+          "publisher": "Kingsport Times News",
+          "document_date": "2026-06-12",
+          "source_type": "news",
+          "supports": "States the extension to 12 months (ending January 2027) happened 'in April'; separately describes battery storage as regulated by the newly adopted PMD-3 zoning amendment (a distinct instrument), with a commissioner raising battery storage only in the context of that zoning vote, not the moratorium.",
+          "quote": "The original four-month moratorium was approved in January to May by the commission. However, in April the commission extended that moratorium to a full 12 months, meaning it ends in January of 2027. ... Commissioner Dwight King of Piney Flats brought up battery storage facilities, used to power data centers... Those, like the data centers powered by them, under the amendment adopted Thursday night must be in a PMD-3 district"
+        },
+        {
+          "url": "https://app.govly.com/public/meetings/37407",
+          "title": "Sullivan County Commission Meeting summary, April 16, 2026",
+          "publisher": "Govly (meeting recap)",
+          "document_date": "2026-04-16",
+          "source_type": "other",
+          "supports": "Pinpoints the extension vote to the April 16, 2026 regular Commission meeting.",
+          "quote": "The commission approved a one-year moratorium on data mining centers zoning to allow for policy development."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved (confirmed, no sectors change): read the full text of Resolution No. 2025-11-07 (the moratorium itself) -- it covers data-mining/cryptocurrency-mining/blockchain-computing facilities only; battery storage appears nowhere in it. The 'battery' language in the row's own current_status refers to the PMD-3 Planned Manufacturing District zoning amendment adopted 2026-06-11 -- a separate, later instrument -- and to a commissioner's floor comment about batteries that power data centers during that zoning vote. Per the flag rule, a separate instrument and a background/trigger mention do not count, so sectors ([\"data_center\",\"cryptocurrency_mining\"]) stays unchanged; this also matches the row's own affected_projects field, which already lists only data-mining/crypto/blockchain uses. EXTENDED_NO_END_DATE partially resolved: pinpointed the extension vote to April 16, 2026 (govly.com meeting summary, corroborated by a Kingsport Times News June 2026 article describing the extension as happening 'in April' and running 'to a full 12 months, ending... January of 2027'). Could not find an exact day for either the original 'January 2026' final passage (a WJHL quote from the sponsoring commissioner says only 'back in January'; the county's own Jan. 15, 2026 and April 16, 2026 minutes PDFs are scanned documents where OCR (capped at 12 of 53 pages each) did not reach the relevant agenda item) or the resulting January 2027 end date, so current_end_date_iso is left blank rather than guessed, consistent with the codebook's 'empty if... not reliably known.' Text fields updated to reflect the confirmed extension date and the battery-storage/PMD-3 clarification."
+    },
+    {
+      "moratorium_id": "tn-white-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://d2425.cms.socastsrm.com/2026/07/21/white-county-passes-indefinite-ban-on-data-centers/",
+          "title": "White County Passes Indefinite Ban On Data Centers",
+          "publisher": "The Upper Cumberland's News Leader (WUCN)",
+          "document_date": "2026-07-21",
+          "source_type": "news",
+          "supports": "County officials describe the July 20, 2026 resolution entirely in terms of 'data centers' (electrical/water/noise concerns); no mention of cryptocurrency mining as a defined, separately covered use.",
+          "quote": "An indefinite ban on data centers across White County put in place by County Commissioners to prevent potential strain on the county's electrical and water infrastructure."
+        },
+        {
+          "url": "https://hoodline.com/2026/08/white-county-s-data-center-ban-meets-its-match-on-pleasant-hill-road/",
+          "title": "White County's Data Center Ban Meets Its Match on Pleasant Hill Road",
+          "publisher": "Hoodline",
+          "document_date": "2026-08",
+          "source_type": "news",
+          "supports": "Describes the resolution's own scope as banning 'grid-connected AI and data center facilities countywide'; the 'cryptocurrency mining' description attaches only to the specific Pleasant Hill Road project that is testing (and, per the article, evading, on parcel-size grounds under T.C.A. 13-3-401) the ban -- a triggering/test-case project, not evidence the resolution's own text defines and covers cryptocurrency mining as a use.",
+          "quote": "The White County Commission voted on July 20 to ban grid-connected AI and data center facilities countywide, but as reported by WSMV, the resolution never went through a formal zoning process."
+        },
+        {
+          "url": "https://spartalive.com/stories/commissioners-say-no-to-data-centers,206586",
+          "title": "Commissioners Say No to Data Centers",
+          "publisher": "Sparta Live",
+          "document_date": "2026-07",
+          "source_type": "news",
+          "supports": "Describes the resolution, as presented to and passed by the County Commission, as 'a definite ban' on 'data centers' / 'AI data centers,' with no mention of cryptocurrency mining as a covered use.",
+          "quote": "Steering Committee B committed to denying AI data centers in the county. If the resolution passes Full Court later this month, it will permanently deter companies from bringing any data centers into White County."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: every source describing the resolution's own operative scope (Upper Cumberland's News Leader, Hoodline, Sparta Live) characterizes it as a ban on 'data centers'/'AI and data center facilities,' never as separately naming or defining cryptocurrency mining. The 'crypto' mention in the row's own current_status is about the specific Pleasant Hill Road project that later surfaced as a rumored 4.9 MW facility and became a test of the ban's enforceability -- a triggering/background project mention, not the resolution's stated coverage (and per Hoodline, the whole point of the controversy is that this project may evade the ban entirely on a parcel-size technicality, regardless of sector). The original resolution text itself could not be located (as the row's own legal_basis already notes), so this rests on consistent secondary reporting rather than a primary source; confidence set accordingly. sectors stays [\"data_center\"]."
+    }
+  ]
+}

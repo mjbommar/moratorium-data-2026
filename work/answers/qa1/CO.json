@@ -1,0 +1,218 @@
+{
+  "state_abbrev": "CO",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 QA1",
+  "decisions": [
+    {
+      "moratorium_id": "co-grand-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.8,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-06-24",
+          "reason": "Both the original news source and a second, independently found citizenportal.ai meeting summary confirm the board deliberately aligned the data-center moratorium's expiration with the county's existing solar/wind moratorium, which ends June 24, 2027 — a reliably known fixed end date that should be captured in this field rather than left blank."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.skyhinews.com/news/grand-county-board-of-commissioners-bans-construction-of-data-centers-until-june-2027/",
+          "source_type": "news",
+          "supports": "Confirms the June 9, 2026 vote and the deliberate alignment of the data-center moratorium's end date with the existing June 24, 2027 solar/wind moratorium expiration.",
+          "quote": "As a result, the data center moratorium is also set to expire June 24, 2027."
+        },
+        {
+          "url": "https://citizenportal.ai/articles/9712741/grand-county-adopts-temporary-moratorium-on-commercial-data-centers-through-june-24-2027",
+          "source_type": "news",
+          "supports": "Independent meeting-summary source corroborating the June 24, 2027 end date and unanimous adoption.",
+          "quote": "Community Development Director Kris Manguso presented a proposed temporary moratorium on permitting commercial data center facilities in unincorporated Grand County and recommended aligning the expiration date with an existing renewable-energy moratorium on June 24, 2027."
+        }
+      ],
+      "notes": "Adoption date (June 9, 2026) confirmed by two independent sources. I ran one additional search for the resolution/1041-regulation instrument number and did not find it, so that part of the VERIFY marker stays unresolved.",
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "A second independent news/meeting-summary source now corroborates the date, action and end date, but neither source nor an additional search turned up the actual 1041 resolution number."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "co-johnstown-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://www.johnstownrepublic.com/johnstown-approves-temporary-moratorium-on-data-center-facilities/",
+          "source_type": "news",
+          "supports": "Confirms Ordinance 2026-295, passed 5-1 on Monday (July 20, 2026), 12-month term, and the individual vote breakdown matching the row exactly.",
+          "quote": "Council passed Ordinance 2026-295 on a 5–1 vote. Mayor Michael Duncan, Mayor Pro Tem Chad Young and councilmembers Damien Berg, Dianne Morris and Dee Anne Menzies voted in favor of the measure. Councilmember Nick Bashford cast the only opposing vote, and Councilmember Jesse Molinar Jr. was absent."
+        }
+      ],
+      "notes": "Row matches the news account exactly on ordinance number, vote breakdown, date and duration terms."
+    },
+    {
+      "moratorium_id": "co-lochbuie-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://www.rmpbs.org/news/government/lochbuie-approves-five-year-data-center-moratorium",
+          "source_type": "news",
+          "supports": "Confirms the 6-1 Tuesday vote (July 21, 2026) for a five-year pause on new/expanded data-center applications.",
+          "quote": "The growing Town of Lochbuie voted 6–1 Tuesday to approve a five-year pause on new data centers, making it the longest active data center moratorium in Colorado."
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/town-of-lochbuie-colorado-passes-five-year-data-center-moratorium/",
+          "source_type": "news",
+          "supports": "Corroborates the July 21, 2026 vote date and five-year term.",
+          "quote": "The town voted on July 21, 2026, to pass an ordinance that would prevent the processing or approval of applications ‘for the establishment or expansion of data center facilities within the town of Lochbuie.’"
+        }
+      ],
+      "notes": "Although residents asked for a permanent ban, the town's actual action is a five-year (temporary, expiring) moratorium, so it is correctly classified as a moratorium rather than a permanent ban."
+    },
+    {
+      "moratorium_id": "co-milliken-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "url": "https://library.municode.com/co/milliken",
+          "source_type": "other",
+          "publisher": "Municode (official ordinance index)",
+          "supports": "Town's own codified ordinance index lists Ordinance No. 2026-839 as adopted 7/30/26 — the authoritative record for the row's date_enacted_iso.",
+          "quote": "Ordinance No. 2026-839 ... Adopted 7/30/26 ... AN ORDINANCE OF THE TOWN OF MILLIKEN, COLORADO, APPROVING A MORATORIUM ON ACCEPTANCE AND PROCESSING OF APPLICATIONS FOR DATA CENTER USES."
+        },
+        {
+          "url": "https://www.myjohnstownbreeze.com/article/1732,milliken-pauses-data-center-projects-for-one-year",
+          "source_type": "news",
+          "supports": "News coverage of the May 27, 2026 Board of Trustees meeting where the ordinance was 'proposed and passed' according to the reporter — conflicts with the official Municode adoption date.",
+          "quote": "MILLIKEN – The Board of Trustees met May 27 for their second regular meeting of the month. During this meeting, an ordinance to place a one-year-long moratorium on accepting/processing applications for data center use was proposed and passed"
+        }
+      ],
+      "notes": "The row already correctly resolves a real discrepancy: the local newspaper describes the ordinance as passed at the May 27, 2026 meeting, but the town's own official Municode ordinance index records final adoption on 7/30/2026. This is exactly the OLDER_INSTRUMENT risk the coordinator described (a news account describing an earlier reading/introduction as if it were final passage), and the original researcher correctly deferred to the authoritative Municode record over the earlier news account. No change needed."
+    },
+    {
+      "moratorium_id": "co-montrose-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "url": "https://www.montrosecounty.net/DocumentCenter/View/26287/Resolution-23-2026",
+          "source_type": "resolution",
+          "supports": "Primary resolution text confirms six-month moratorium on data-center facility applications, adopted and effective July 1, 2026, citing C.R.S. 30-28-121.",
+          "quote": "ADOPTED AND EFFECTIVE this 1st day of July, 2026."
+        }
+      ],
+      "notes": "Verified directly against the primary resolution text; exact match to the row on date, duration, legal basis and scope."
+    },
+    {
+      "moratorium_id": "co-saguache-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.alamosacitizen.com/saguache-county-places-moratorium-on-data-center-projects/",
+          "source_type": "news",
+          "supports": "Confirms the Tuesday, May 5, 2026 adoption of a six-month emergency temporary moratorium, and the SLVREC-inquiry trigger.",
+          "quote": "Saguache County adopted a resolution on Tuesday, May 5, that placed an emergency temporary moratorium on any data center projects within the county for six months."
+        }
+      ],
+      "notes": "Date, duration, and trigger all confirmed against the primary local news account. I ran one additional search for the resolution number and could not find it; that part of the VERIFY marker remains unresolved.",
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.68 in the 2026-09 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "An additional search did not turn up the resolution number or a primary document; the underlying date and facts are well corroborated by contemporaneous local reporting, but the exact resolution number is still unconfirmed."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "co-cedaredge-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://cedaredgecolorado.com/DocumentCenter/View/19574/08-20-2026-Board-of-Trustees-Regular-Meeting-Record-of-Proceedings-PDF",
+          "source_type": "minutes",
+          "supports": "Official minutes record the 6-1 vote on Aug. 20, 2026 to adopt the ordinance (initially recorded as 2026-06, later corrected via a Sept. 17, 2026 amendment to 2026-07), matching the row's account of the renumbering exactly.",
+          "quote": "Motion: Trustee Anderson moved to adopt Ordinance 2926-062026-07: establishing a moratorium on data centers in all zoning designations... Vote: ... motion passed by a six to one majority. Record of Proceedings amended on 09/17/2026 after Board approval on 09/03/26 to change ordinance numbering to reflect the correct numbering: 2026-07."
+        },
+        {
+          "url": "https://cedaredgecolorado.com/DocumentCenter/View/19552/08-20-2026-Board-of-Trustees-Regular-Meeting-Agenda-and-Packet-Combined-PDF",
+          "source_type": "ordinance",
+          "supports": "Draft ordinance/agenda packet confirming the Aug. 20, 2026 agenda item and emergency-ordinance framing.",
+          "quote": "Agenda Date: August 20, 2026 ... Item: Data Center Moratorium"
+        }
+      ],
+      "notes": "This is a clean example of the exact renumbering paper trail the row describes; verified directly from the official minutes, including the specific dissenting trustee and the later correction date."
+    },
+    {
+      "moratorium_id": "co-commerce-city-undated",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "url": "https://www.denver7.com/news/local-news/another-colorado-city-is-considering-a-pause-on-data-center-development",
+          "source_type": "news",
+          "document_date": "2026-09-22",
+          "supports": "Confirms Commerce City was scheduled to vote on the six-month moratorium on a 'Monday night' meeting; article published Sept. 22, 2026, does not report the outcome of the vote.",
+          "quote": "Commerce City leaders are deciding Monday night if the city should hit pause on data center development with a six-month pause on applications."
+        }
+      ],
+      "notes": "I searched for a post-vote follow-up (the Monday meeting would have been Sept. 21, two days before the reference date) and found only reposts of the same pre-vote Denver7 story; no source yet reports whether the council actually adopted the ordinance. The row's 'pending, outcome not confirmed' framing remains accurate as of 2026-09-23.",
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "An additional search for the vote outcome turned up only pre-vote coverage; no source yet confirms whether the ordinance passed."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "co-loveland-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://www.reporterherald.com/2026/09/16/loveland-data-center-moratorium-2/",
+          "source_type": "news",
+          "supports": "Confirms the Tuesday (Sept. 15, 2026) 7-2 vote, and the 5-4 amendment extending the staff-proposed 9-month term to 12 months.",
+          "quote": "The council went on to approve the suspension 7-2, with McFall and Frahm casting the no votes."
+        }
+      ],
+      "notes": "Row matches the news account exactly, including the specific vote counts on both the amendment and the final suspension."
+    },
+    {
+      "moratorium_id": "co-mead-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://berthoudsurveyor.com/mead-approves-12-month-data-center-moratorium/",
+          "source_type": "news",
+          "supports": "Confirms the 4-2 vote at the Aug. 31, 2026 meeting, naming the two dissenting trustees.",
+          "quote": "Mead trustees approved a 12-month moratorium on data centers at its Aug. 31 meeting... In a 4-2 vote, trustees agreed to a moratorium... Trustees Brad Hagan and Jeremiah Crane voted no on the moratorium."
+        }
+      ],
+      "notes": "Row matches exactly, including vote count and dissenters."
+    },
+    {
+      "moratorium_id": "co-paonia-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.87,
+      "evidence": [
+        {
+          "url": "https://www.deltacountyindependent.com/news/data-center-moratorium-imposed-in-paonia-town-to-consider-restrictions-on-the-governments-ai-use/article_cade7970-9096-431b-9221-f881eb9a8b63.html",
+          "source_type": "news",
+          "supports": "Confirms Resolution 15-26, unanimously passed at the Aug. 11, 2026 regular board meeting, drafted by Interim Town Administrator Greg Sund, running through Aug. 11, 2027.",
+          "quote": "Data centers will be denied in Paonia for the next year. Their new data center moratorium is tied to Resolution 15-26, making the town refuse applications for data centers until Aug. 11, 2027... The resolution was originally drafted by Interim Town Administrator Greg Sund and passed by unanimous vote during the Aug. 11 regular board meeting."
+        }
+      ],
+      "notes": "The archived HTML is mostly a paywall/navigation wrapper, but the article body text (including the resolution number, date and vote) is present further down the saved file and matches the row exactly."
+    }
+  ]
+}

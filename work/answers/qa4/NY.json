@@ -1,0 +1,128 @@
+{
+  "state_abbrev": "NY",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "ny-clay-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://clayny.news/document/752",
+          "title": "Local Law 6 of 2026 filing (Town of Clay, NY)",
+          "publisher": "New York Department of State / Town of Clay",
+          "document_date": "2026-06-29",
+          "source_type": "ordinance",
+          "supports": "The signed Town Clerk certification attached to this filing confirms the June 29, 2026 resolution actually adopted as 'Local Law No. 6 of the year 2026' was the 12-month data center/AI/crypto moratorium (6-0 vote); the moratorium LAW TEXT bundled in the same DOS filing packet is, confusingly, a separate SIX-MONTH moratorium on 'solar battery storage systems,' also captioned Local Law No. 6 due to a town/DOS numbering overlap -- two distinct instruments sharing one number.",
+          "quote": "LOCAL LAW NO. 6 OF THE YEAR 2026, for the adoption of a Temporary Moratorium for a period of 12-months, prohibiting any zone change or special permit applications related to the establishment of large-scale data centers, artificial intelligence (AI) computing facilities, cryptocurrency mining operations, and similar high-intensity computing uses and complexes in the Town of Clay"
+        },
+        {
+          "url": "https://www.syracuse.com/business/2026/06/clay-passes-battery-storage-law-and-halts-data-centers-for-one-year.html",
+          "title": "Clay passes battery storage law and halts data centers for one year",
+          "publisher": "syracuse.com",
+          "document_date": "2026-06-30",
+          "source_type": "news",
+          "supports": "Confirms the June 29-30, 2026 Town Board action was two separate items: a battery-energy-storage-system regulatory law, and a one-year data-center moratorium.",
+          "quote": "the Clay Town Board on Monday approved new rules for battery energy storage systems and adopted a one-year moratorium on data centers."
+        }
+      ],
+      "notes": "SECTOR_CHECK (battery, solar) resolved as no change: battery/solar storage is governed by a SEPARATE local law/moratorium (also numbered 'Local Law No. 6 of 2026' by clerical coincidence) adopted the same day, not this data-center/AI/crypto moratorium. sectors stays [\"data_center\",\"cryptocurrency_mining\"]. Note for the coordinator: the town in fact also adopted a distinct six-month 'solar battery storage systems' MORATORIUM (not merely a regulatory law, per the filed local-law text), which may be worth its own inventory row if not already tracked elsewhere -- outside this pass's scope to add (no new_candidates)."
+    },
+    {
+      "moratorium_id": "ny-north-tonawanda-2024",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-07-16",
+          "reason": "Local Law No. 3 of 2026 extends the moratorium 'twelve (12) months from the effective date of this Local Law' (effective upon filing with the NY Secretary of State); the signed/filed copy was not available to confirm the exact filing date, but the original moratorium was 'scheduled to expire July 16, 2026' and the extension was enacted June 16-17, 2026 specifically to avoid a lapse, so the filing is expected at or near July 16, 2026, yielding an end date of approximately 2027-07-16."
+        }
+      },
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://www.northtonawanda.gov/documents/Website/2026/Local%20Law%202026%20-%20Moratorium%20Extension%20and%20SUP.pdf",
+          "title": "Local Law No. 3 of 2026 (City of North Tonawanda) - Moratorium Extension",
+          "publisher": "City of North Tonawanda, NY",
+          "source_type": "ordinance",
+          "supports": "The extension is for twelve months from the effective date (filing with NYS Secretary of State); the original moratorium was scheduled to expire July 16, 2026.",
+          "quote": "the City of North Tonawanda Common Council previously enacted a moratorium ... which is scheduled to expire July 16, 2026 ... This Local Law shall be known as \"Local Law in Relation to a Twelve (12) Month Extension"
+        },
+        {
+          "url": "https://111things.com/local-headlines/north-tonawanda-extends-moratorium-on-cryptocurrency-mining-and-data-processing-centers/",
+          "title": "North Tonawanda extends moratorium on cryptocurrency-mining and data-processing centers",
+          "publisher": "111things.com (Interactive News)",
+          "source_type": "news",
+          "supports": "Independent secondary analysis reaches the same approximate end date based on the city's own timeline.",
+          "quote": "The Common Council enacted the 12-month extension on June 17, 2026. Based on the city's timeline, the temporary measure is expected to remain in place through approximately July 16, 2027."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved with an approximate date (2027-07-16); the precise NYS DOS filing date for Local Law No. 3 of 2026 was not located in the archived, undated draft copy."
+    },
+    {
+      "moratorium_id": "ny-dryden-2024",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "600",
+          "to": "548",
+          "reason": "The original term under Local Law No. 2 of 2024 was eighteen (18) months, not twenty. The 2026 extension (Local Law No. 1 of 2026) amended Section 6 ('Term') of Local Law No. 2 of 2024 by replacing 'eighteen (18)' with 'twenty (20)' months -- confirming 18 months, not 20, was the ORIGINAL enacted term. duration_days must reflect the original term: 18 months x ~30.44 days/month = 548 days, not the 20-month (600-day) extended term."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.townofdrydenny.gov/sites/g/files/vyhlif13211/files/media/planning-code-enforcement/file/8901/2026_extending_moritorium_local_law_-_data_centers_and_cryptocurrency_mining.pdf",
+          "title": "Local Law extending the Town of Dryden data center/cryptocurrency mining moratorium (Local Law No. 1 of 2026)",
+          "publisher": "Town of Dryden, NY",
+          "source_type": "ordinance",
+          "supports": "Confirms the original term (Local Law No. 2 of 2024, Section 6, 'Term') was eighteen (18) months, amended to twenty (20) months by this extension.",
+          "quote": "Section 6 of Local Law No. 2 of 2024, entitled \"Term,\" is hereby amended as follows: Replace the phrase \"eighteen (18)\" with \"twenty (20).\""
+        }
+      ],
+      "notes": "DURATION_MISMATCH resolved: duration_days corrected from 600 (the extended 20-month term) to 548 (the original 18-month term), per the flag rule that duration_days must reflect the ORIGINAL enacted term."
+    },
+    {
+      "moratorium_id": "ny-lewiston-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.townoflewistonny.gov/documents/2026 Local Laws/Local Law 3-2026.pdf",
+          "title": "Town of Lewiston Local Law No. 3 of 2026",
+          "publisher": "Town of Lewiston, NY",
+          "source_type": "ordinance",
+          "supports": "The only 'battery' reference in the local law is a fire-safety 'whereas' clause about lithium-ion battery uninterruptible power supply (UPS) equipment housed WITHIN data centers/AI facilities -- not a battery energy storage system (BESS) land use regulated by the moratorium itself. The moratorium's operative scope (per its title and enacting sections) covers only data centers, AI processing facilities, and cryptocurrency mining.",
+          "quote": "Data centers, AI processing facilities, and cryptocurrency mining operations often maintain on-site diesel fuel storage of 50,000 to 200,000 gallons or more for backup generators, and house large-format lithium-ion battery uninterruptible power supply (UPS) systems that present specialized fire and toxic smoke hazards."
+        }
+      ],
+      "notes": "SECTOR_CHECK (battery, BESS) resolved as no change: the 'battery'/'BESS' language is a trigger/background fire-safety concern about equipment inside data centers, not a standalone battery-storage land use covered by the moratorium; the row's own current_status separately confirms the Town began considering a distinct BESS moratorium in September 2026. sectors stays [\"data_center\",\"cryptocurrency_mining\"]."
+    },
+    {
+      "moratorium_id": "ny-lysander-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://townoflysander.org/sites/default/files/2026-04/data_storage_moratorium_ll_no._4_docx_0.pdf",
+          "title": "Local Law No. 4 of 2026 (Town of Lysander) - Data Storage Facilities Moratorium",
+          "publisher": "Town of Lysander, NY",
+          "source_type": "ordinance",
+          "supports": "The local law's text contains no mention of 'battery' or 'BESS'; its scope is limited to data storage/data center facilities.",
+          "quote": ""
+        },
+        {
+          "url": "https://lysanderny.gov/sites/default/files/2026-09/dcac_agenda09-11-26.pdf",
+          "title": "Data Center Advisory Committee agenda, Sept. 11, 2026",
+          "publisher": "Town of Lysander, NY",
+          "document_date": "2026-09-11",
+          "source_type": "agenda",
+          "supports": "Lists a 'Battery Energy Storage System (BESS) Ordinance Update' as a separate agenda item from the data storage center moratorium, confirming BESS is handled by a distinct instrument.",
+          "quote": "Battery Energy Storage System (BESS) Ordinance Update"
+        }
+      ],
+      "notes": "SECTOR_CHECK (BESS) resolved as no change: BESS is addressed through a separate, ongoing ordinance process, not this Local Law No. 4 data-storage-center moratorium. sectors stays [\"data_center\"]."
+    }
+  ]
+}

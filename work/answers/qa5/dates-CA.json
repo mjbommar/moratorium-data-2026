@@ -1,0 +1,50 @@
+{
+ "state_abbrev": "CA",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA5",
+ "decisions": [
+  {
+   "moratorium_id": "ca-irwindale-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://irwindaleca.api.civicclerk.com/v1/Events/1222",
+     "title": "City Council Meeting event record, May 27, 2026",
+     "publisher": "City of Irwindale (CivicClerk)",
+     "document_date": "2026-05-27",
+     "source_type": "agenda",
+     "supports": "Confirms the May 27, 2026 agenda item for Urgency Ordinance No. 819 but shows no minutesFile was ever uploaded for this event, so the vote outcome cannot be read from the record.",
+     "quote": "\"minutesFile\":{\"minutesId\":0,\"eventId\":0,\"fileName\":null"
+    },
+    {
+     "url": "https://irwindaleca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2240,plainText=false)",
+     "title": "Agenda Materials - May 27, 2026",
+     "publisher": "City of Irwindale",
+     "document_date": "2026-05-22",
+     "source_type": "agenda",
+     "supports": "Confirms Urgency Ordinance No. 819 (temporary data-center moratorium) was agendized as Public Hearing item 21.A for the May 27, 2026 meeting requiring a 4/5 roll-call vote, but the packet contains no minutes or disposition.",
+     "quote": "Urgency Ordinance No. 819 To Establish a Temporary Moratorium Prohibiting the Processing of Applications or Approvals For Data Centers ... adopt the ordinance as an urgency measure by a roll call vote with a minimum 4/5 vote"
+    },
+    {
+     "url": "https://www.dailynews.com/2026/09/18/la-county-issues-temporary-ban-on-mega-data-centers-with-ordinance-in-the-works/",
+     "title": "LA County issues temporary ban on mega data centers, with ordinance in the works",
+     "publisher": "Los Angeles Daily News",
+     "document_date": "2026-09-18",
+     "source_type": "news",
+     "supports": "Regional roundup confirms Irwindale's permanent data-center ban (Ordinance 821) was adopted Sept. 9, 2026, but does not mention Ordinance 819 or its disposition.",
+     "quote": "Most recently, the Irwindale City Council unanimously approved a data center ban through an ordinance on Sept. 9, in effect 30 days after adoption."
+    },
+    {
+     "url": "https://www.cleat.ai/government/contracts/ordinance-no-821-to-establish-an-ordinance-adding-chapter-17-42-artificial-intelligence-ai-data-centers-and-associated-uses-to-the-irwindale-municipal-code-fzpj",
+     "title": "Ordinance No. 821, to Establish an Ordinance adding Chapter 17.42",
+     "publisher": "City of Irwindale (via Cleatus contract tracker)",
+     "source_type": "other",
+     "supports": "Describes Ordinance 821 as a city-initiated permanent zoning prohibition on AI data centers, with no reference to Ordinance 819.",
+     "quote": "Ordinance No. 821 is a city-initiated proposed amendment to the Irwindale Municipal Code designed to establish Chapter 17.42 within Title 17 regarding Zoning."
+    }
+   ],
+   "notes": "Could not confirm whether Draft/Urgency Ordinance No. 819 (the 45-day data center moratorium) was actually adopted at its scheduled 2026-05-27 public hearing. Checked: (1) the CivicClerk event record for that meeting, which has an agenda and an agenda-materials packet but no minutes file at all (minutesFile is null), so there is no record of the roll-call vote; (2) the Municode 'Ordinance List and Disposition Table' for Irwindale, which is stale and stops at Ordinance 621, well short of 819; (3) regional news coverage (LA Daily News, sgvtribune via that article) of Irwindale's subsequent permanent ban (Ordinance 821, adopted 2026-09-09), none of which mentions Ordinance 819's fate; (4) a general bc-web search for 'Irwindale Ordinance 819 adopted', which surfaced only the agenda item and unrelated same-numbered ordinances from other cities. This matches the original researcher's own conclusion of 'unconfirmed.' Regardless of 819's disposition, the row's enacted_status=replaced is independently supported by the confirmed adoption of the permanent Ordinance 821 (2026-09-09, effective 2026-10-09), so I am leaving the row's status unchanged. Not a REMOVE: even if 819 was never formally voted on, the City clearly treated a data-center pause as in effect (staff report/legal basis referencing it, subsequent permanent ban), so there is a real underlying instrument story here, just an unconfirmed exact adoption date for the interim measure."
+  }
+ ]
+}

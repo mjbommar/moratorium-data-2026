@@ -1,0 +1,96 @@
+{
+ "state_abbrev": "TN",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-opus-5.5 QA4-contradictions",
+ "decisions": [
+  {
+   "moratorium_id": "tn-hamblen-county-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.75,
+   "evidence": [
+    {
+     "url": "https://hamblencountytn.gov/ai-datacenter-moratorium/",
+     "source_type": "other",
+     "supports": "The 2026-07-06 vote was by the Planning Commission, not the County Commission.",
+     "publisher": "Hamblen County Government",
+     "document_date": "2026-07-07",
+     "quote": "On July 6th, 2026, at the Planning Commission Meeting, Commissioners voted to enact a one-year moratorium"
+    },
+    {
+     "url": "https://hamblencountytn.gov/?ddownload=10505",
+     "source_type": "ordinance",
+     "supports": "Draft ordinance (number blank) takes effect only on County Commission adoption.",
+     "publisher": "Hamblen County",
+     "quote": "This Ordinance shall take effect upon adoption by the Hamblen County Commission."
+    },
+    {
+     "url": "https://citizenportal.ai/articles/9150245/Hamblen-County/Tennessee/Hamblen-County-adopts-request-for-one-year-moratorium-on-high-intensity-electrical-load-facilities",
+     "source_type": "news",
+     "supports": "A commission committee only forwarded the request to a public hearing; the ordinance still needed a hearing and adoption.",
+     "publisher": "Citizen Portal"
+    }
+   ],
+   "notes": "savrn and aigridwatch are wrong. They took the Planning Commission's 2026-07-06 recommendation as adoption and backdated the end date to 2027-07-07. The ordinance takes effect only on County Commission adoption. A legislative-body public hearing was noticed for 2026-08-26, and a news-aggregator headline (not archivable, connection refused) points to a 2026-09-24 hearing, so it is still pending as of 2026-09-23. Recheck after 2026-09-24."
+  },
+  {
+   "moratorium_id": "tn-hawkins-county-2025",
+   "outcome": "unresolvable",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.wjhl.com/news/local/hawkins-co-commission-passes-resolution-banning-data-centers-crypto-mines/",
+     "source_type": "news",
+     "supports": "Commission resolutions ban data centers and crypto mines outright; the federal suit challenges the 'sweeping ban'.",
+     "publisher": "WJHL",
+     "quote": "The Hawkins County Commission passed a resolution that would ban data centers and cryptocurrency mines in the county"
+    }
+   ],
+   "notes": "REMOVE: permanent ban, no pause element. The 2025-09-22 resolution 'to Prohibit the Operation of Cryptocurrency Mining and Data Center Facilities' has no term or study period, and the row itself says 'Indefinite categorical ban, not a temporary moratorium'. The July 2026 resolution (12-0) re-adopted and extended the ban. aigridwatch is right. The ExoticRidge litigation context is lost with the row; keep it in state notes if wanted."
+  },
+  {
+   "moratorium_id": "tn-roane-county-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.75,
+   "evidence": [
+    {
+     "url": "https://www.themountainpress.com/roane/news/pause-on-data-centers-while-nuclear-renaissance-presses-on/article_ab82992e-3ccf-5351-9a66-f7757fb17a0d.html",
+     "source_type": "news",
+     "supports": "The 2026-07-13 resolution only requests a Regional Planning Commission recommendation on a moratorium (amended from 180 days to two years).",
+     "publisher": "The Mountain Press",
+     "quote": "It requests a recommendation from the Roane County Regional Planning Commission on a temporary moratorium"
+    },
+    {
+     "url": "https://www.wvlt.tv/2026/07/14/they-are-monster-deal-with-during-emergency-events-another-east-tennessee-county-moves-closer-pausing-data-centers/",
+     "source_type": "news",
+     "supports": "County 'moves closer to pausing' data centers; no moratorium enacted.",
+     "publisher": "WVLT",
+     "document_date": "2026-07-14"
+    }
+   ],
+   "notes": "savrn is wrong: its own text says the resolution directs the planning commission to draft a moratorium. No planning commission recommendation or final commission vote was found through 2026-09-23 (one search). Pending is right."
+  },
+  {
+   "moratorium_id": "tn-white-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.5,
+   "evidence": [
+    {
+     "url": "https://d2425.cms.socastsrm.com/2026/07/21/white-county-passes-indefinite-ban-on-data-centers/",
+     "source_type": "news",
+     "supports": "Indefinite ban, described by officials as a first protective step while they study effects and look for permanent solutions (state authority or zoning).",
+     "publisher": "local radio news (SoCast-hosted)",
+     "document_date": "2026-07-21",
+     "quote": "the resolution serves as a necessary first step to protect the county while officials seek more permanent solutions"
+    },
+    {
+     "url": "https://www.wsmv.com/2026/08/10/white-county-executive-reviews-legal-options-after-proposed-data-center-bypasses-local-ban/",
+     "source_type": "news",
+     "supports": "WSMV says the county 'outright banned' data centers on 2026-07-20.",
+     "publisher": "WSMV",
+     "document_date": "2026-08-10"
+    }
+   ],
+   "notes": "BORDERLINE; kept for the coordinator to decide. savrn and aigridwatch call it a ban with no end date, and WSMV calls it an outright ban. Against that, the county executive and board chair frame it as an interim stopgap: they will study effects, the ban 'can be revisited' once research is done, and it is a 'first step ... while officials seek more permanent solutions' (zoning or state authority). That is the pause element that separates it from Hawkins or Clay. If the coordinator treats indefinite bans with a stated study purpose as bans, change this to REMOVE. The original resolution was not located."
+  }
+ ]
+}

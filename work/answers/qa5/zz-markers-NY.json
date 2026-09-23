@@ -1,0 +1,55 @@
+{
+ "state_abbrev": "NY",
+ "researched_as_of": "2026-09-23",
+ "researcher": "Claude coordinator (QA round 5 markers)",
+ "decisions": [
+  {
+   "moratorium_id": "ny-hartwick-2026",
+   "outcome": "corrected",
+   "confidence": 0.5,
+   "changes": {
+    "current_status": {
+     "from": "Adopted 2026-03-20 for six months (through approximately 2026-09-20). A public hearing on Local Law No. 2 of 2026, proposing a further extension, was scheduled for 2026-08-24; the outcome of that hearing was not confirmed in this pass -- the town's news coverage moved to unrelated town-board disputes (an Article 78 petition filed by a board member against the supervisor) without reporting the extension vote.",
+     "to": "Adopted 2026-03-20 for six months (through approximately 2026-09-20). A public hearing on Local Law No. 2 of 2026, proposing a further extension, was scheduled for 2026-08-24; the outcome of that hearing was not confirmed in this pass -- the town's news coverage moved to unrelated town-board disputes (an Article 78 petition filed by a board member against the supervisor) without reporting the extension vote. [VERIFY status: computed term ended 2026-09-16; no extension or lapse found in the 2026-09 QA pass]",
+     "reason": "QA round 5 could not confirm the row's status or adoption; flag it so the next worklist picks it up."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://www.hartwickny.gov/calendar-events/moratorium-extension-tax-cap-levy-limit-public-hearings-special-meeting/",
+     "title": "Moratorium Extension & Tax Cap Levy Limit Public Hearings & Special Meeting",
+     "publisher": "Town of Hartwick",
+     "document_date": "2026-08-24",
+     "source_type": "agenda",
+     "supports": "Confirms the Town's own calendar shows an August 24, 2026 public hearing specifically on a 'Moratorium Extension,' consistent with the legally noticed Local Law No. 2 of 2026 extending the solar moratorium, but the page gives only the meeting logistics, not the outcome.",
+     "quote": "Moratorium Extension & Tax Cap Levy Limit Public Hearings & Special Meeting. Town Meetings. August 24, 2026 \u00b7 6:00pm - 7:00pm."
+    }
+   ],
+   "notes": "Coordinator marker for a row left unresolvable in QA round 5."
+  },
+  {
+   "moratorium_id": "ny-syracuse-2026",
+   "outcome": "corrected",
+   "confidence": 0.5,
+   "changes": {
+    "current_status": {
+     "from": "Active; Common Councilors voted unanimously in late February 2026 to ban new BESS permits for six months (with an option for one further six-month extension) while the city updates zoning and fire codes.",
+     "to": "Active; Common Councilors voted unanimously in late February 2026 to ban new BESS permits for six months (with an option for one further six-month extension) while the city updates zoning and fire codes. [VERIFY status: computed term ended 2026-07-31; no extension or lapse found in the 2026-09 QA pass]",
+     "reason": "QA round 5 could not confirm the row's status or adoption; flag it so the next worklist picks it up."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://www.syracuse.com/news/2026/02/syracuse-adopts-6-month-pause-on-building-new-battery-storage.html",
+     "title": "Syracuse adopts 6-month pause on building new battery storage",
+     "publisher": "syracuse.com",
+     "document_date": "2026-02-27",
+     "source_type": "news",
+     "supports": "Confirms the Common Council adopted the moratorium unanimously in the week before February 27, 2026, for six months, with 'the option for one six-month extension' -- an optional, not automatic, extension that requires further Council action.",
+     "quote": "Syracuse Common Councilors voted unanimously this week to ban new permits of the sites while they work on new zoning and fire codes. The moratorium includes the option for one six-month extension."
+    }
+   ],
+   "notes": "Coordinator marker for a row left unresolvable in QA round 5."
+  }
+ ]
+}

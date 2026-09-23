@@ -1,0 +1,33 @@
+{
+  "state_abbrev": "DE",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA1",
+  "decisions": [
+    {
+      "moratorium_id": "de-dover-undated",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.cityofdover.gov/meetingfiles/101495/attachments/5a41ae1704674a72a351840dea9366ba.pdf",
+          "source_type": "ordinance",
+          "supports": "Full draft ordinance text of the 18-month Large Energy Use Facility moratorium, including sections on moratorium scope, exemptions, comprehensive study, and duration; agenda confirms the item was 'Proposed Legislation Regarding Data Centers (Councilwoman Hall and Paul Waddell, Electric Director)' with committee recommendation to 'Forward the proposed ordinance to Council and the Planning Commission for review.'",
+          "quote": "This moratorium shall remain in effect for eighteen (18) months from the effective date unless sooner repealed by Council. The Council may extend the moratorium by ordinance upon findings that additional study remains necessary."
+        },
+        {
+          "url": "https://spotlightdelaware.org/2026/08/13/dover-data-center-moratorium-gains-steam-amid-statewide-concerns-over-the-industry/",
+          "source_type": "news",
+          "supports": "Confirms the origin of the proposal (Councilwoman Donyale Hall), the committee's unanimous vote to advance the draft to full Council, the 18-month term as originally drafted, and that Dover would be the first Delaware municipality to enact this kind of pause.",
+          "quote": "On Tuesday, a Dover City Council committee voted unanimously to bring to the full council an ordinance that would pause official reviews of data center proposals for up to a year-and-a-half."
+        },
+        {
+          "url": "https://www.cityofdover.gov/ordinances-and-resolutions",
+          "source_type": "other",
+          "supports": "Official city register of adopted/pending ordinances shows no entry for a data center or Large Energy Use Facility moratorium as of the 2026-09-23 fetch; the highest-numbered 2026 ordinance listed is 2026-13 (adopted August 10, 2026, an unrelated rezoning), confirming the moratorium had not been given an ordinance number or formally adopted as of the research date.",
+          "quote": "[2026-13] Amending Appendix B - Zoning ... ADOPTED [2026-August 10 2026 rezoning entry; no subsequent 2026 ordinance listed]"
+        }
+      ],
+      "notes": "The packet's quote_mismatch=true appears to be a false positive from the quoted sentence spanning a line break in the source PDF text extraction; the full 18-month duration clause was found verbatim in the archived ordinance text. Confirmed against the official ordinances-and-resolutions register (no ordinance number assigned as of 2026-09-23) and Spotlight Delaware's account of the committee's unanimous vote to forward the draft. 'pending' correct; the row appropriately treats the drafted ordinance's 18-month term as authoritative over a sponsor's looser social-media '24-month' framing."
+    }
+  ]
+}

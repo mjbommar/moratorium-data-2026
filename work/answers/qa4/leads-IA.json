@@ -1,0 +1,126 @@
+{
+ "state_abbrev": "IA",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-opus-5.5 agent QA4-leads",
+ "decisions": [
+  {
+   "moratorium_id": "ia-city-of-fairfax-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.55,
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "No ordinance number or final adoption found; CBJ says council planned to set a public hearing at its July 28 meeting; no later coverage located (searches since 2026-08-01, mytownview meeting pages render no content)."
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://cbs2iowa.com/resources/pdf/c99a489c-0a6a-41dd-9e2a-3e4c8a046eed-DataCenterMoratorium.pdf",
+     "source_type": "ordinance",
+     "supports": "Draft text: titled and operative as a moratorium on applications (Section 2), plus a separate prohibited-use classification (Section 5); no sunset.",
+     "quote": "The moratorium shall remain in effect unless modified or repealed by a subsequent",
+     "publisher": "City of Fairfax (via CBS2 Iowa)"
+    },
+    {
+     "url": "https://corridorbusiness.com/fairfax-data-center-moratorium-discussed-but-no-formal-city-council-action-taken/",
+     "source_type": "news",
+     "supports": "Only a 3-1 vote to advance on 2026-07-14; not adopted; sponsor frames it as a pause until conditions are met.",
+     "quote": "the moratorium was not approved by the council, and several procedural steps remain",
+     "publisher": "Corridor Business Journal",
+     "document_date": "2026-07-15"
+    },
+    {
+     "url": "https://www.kcrg.com/2026/07/15/fairfax-votes-ban-high-impact-data-centers-with-no-end-date/",
+     "source_type": "news",
+     "supports": "Press characterizes it as a ban with no end date.",
+     "publisher": "KCRG",
+     "document_date": "2026-07-15"
+    }
+   ],
+   "notes": "Lead: keep the row, not REMOVE. The instrument is titled and structured as a moratorium on accepting and processing applications (Sec. 2), and its sponsor describes it as a pause until listed conditions are met. Research-process rule: a no-sunset ban is recorded when the instrument itself is framed as a moratorium. It also adds a permanent 'prohibited use' classification (Sec. 5), so it is borderline and should be handled under the same coordinator policy as other no-end-date rows (e.g. Ida County). It remains pending: no final adoption found. If it is adopted in the current form, consider duration_kind 'indefinite' (already set) and an outcome note on the prohibited-use clause."
+  }
+ ],
+ "new_candidates": [
+  {
+   "state": "IA",
+   "jurisdiction": "Emmet County",
+   "jurisdiction_type": "County",
+   "date_enacted": "2025-01-28 (Board of Supervisors adopted Resolution 25-05, 4-0 with one absent, per official minutes); continued by Resolution 25-36 (Sept. 2025, to 2026-03-31), Resolution 26-13 (2026-03-24, to 2026-09-30) and Resolution 26-28 (2026-09-22, to 2026-12-31)",
+   "date_enacted_iso": "2025-01-28",
+   "date_enacted_uncertainty": "exact",
+   "duration": "Until 2025-09-30 at 11:59 p.m. (Resolution 25-05), unless ended earlier on completion of zoning amendments; continued to 2026-03-31, then 2026-09-30, then 2026-12-31",
+   "duration_days": null,
+   "duration_kind": "until_date",
+   "current_end_date_iso": "2026-12-31",
+   "legal_basis": "Resolution 25-05 (2025-01-28), 'Temporary Moratorium on the Construction of USSES and BESS in the Unincorporated Areas of Emmet County, Iowa'; continued by Resolutions 25-36, 26-13 and 26-28",
+   "trigger": "Board wants ordinances regulating construction, operation and decommissioning of utility-scale solar and battery storage (safety, neighbouring property, county roads) before any are built.",
+   "trigger_categories": [
+    "regulatory_gap",
+    "fire_safety",
+    "infrastructure_capacity",
+    "land_use_compatibility"
+   ],
+   "sectors": [
+    "battery_storage",
+    "solar"
+   ],
+   "current_status": "Extended as of 2026-09-23; the USSES/BESS construction moratorium adopted 2025-01-28 has been continued three times, most recently by Resolution 26-28 (signed 2026-09-22), to 2026-12-31 at 11:59 p.m., while the county drafts solar and battery-storage zoning rules.",
+   "enacted_status": "extended",
+   "affected_projects": "None named.",
+   "outcome": "County drafting solar (and BESS) ordinance; board may end the moratorium early when zoning amendments are complete.",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://emmetcountyia.gov/wp-content/uploads/2025/01/2025-1.28-Unapproved-Minutes-Emmet-County-BOS.pdf",
+     "source_type": "minutes",
+     "supports": "Adoption of Resolution 25-05 on 2025-01-28 and its text (term to 2025-09-30).",
+     "quote": "Resolution 25-05 Moratorium on the Construction of Utility Scale Solar Energy Systems (USSES) and Battery Energy Storage Systems (BESS) in the Unincorporated Areas of Emmet County, Iowa. Motion Quastad Second Pluth.",
+     "publisher": "Emmet County Board of Supervisors",
+     "document_date": "2025-01-28"
+    },
+    {
+     "url": "https://emmetcountyia.gov/wp-content/uploads/2025/02/25-05-Resolution-solar-battery.pdf",
+     "source_type": "resolution",
+     "supports": "Signed Resolution 25-05.",
+     "quote": "This moratorium will remain in place until September 30, 2025, at 11:59 p.m.",
+     "publisher": "Emmet County",
+     "document_date": "2025-01-28"
+    },
+    {
+     "url": "https://emmetcountyia.gov/wp-content/uploads/2025/09/25-36-Resolution-Temporary-Moratorium-on-the-Construction-of-USSES-and-BESS-in-the-Unincorporated-Areas-of-Emmet-County.pdf",
+     "source_type": "resolution",
+     "supports": "First continuation to 2026-03-31.",
+     "quote": "This moratorium will remain in place until March 31, 2026, at 11:59 p.m.",
+     "publisher": "Emmet County"
+    },
+    {
+     "url": "https://emmetcountyia.gov/wp-content/uploads/2026/03/26-13-Resolution-Continuation-of-a-Moratorium-on-the-Construction-of-USSES-and-BESS-in-the-Unincorporated-Areas-of-Emmet-County.pdf",
+     "source_type": "resolution",
+     "supports": "Second continuation (2026-03-24) to 2026-09-30.",
+     "quote": "This moratorium will remain in place until September 30, 2026, at 11:59 p.m.",
+     "publisher": "Emmet County",
+     "document_date": "2026-03-24"
+    },
+    {
+     "url": "https://emmetcountyia.gov/wp-content/uploads/2026/09/26-28-Resolution-Continuation-of-a-Moratorium-on-the-Construction-of-USSES-and-BESS-in-the-Unincorporated-Areas-of-Emmet-County.pdf",
+     "source_type": "resolution",
+     "supports": "Third continuation (signed 2026-09-22) to 2026-12-31.",
+     "quote": "place until December 31, 2026, at 11:59 p.m. unless extended by the Board prior to the expiration.",
+     "publisher": "Emmet County",
+     "document_date": "2026-09-22"
+    },
+    {
+     "url": "https://www.esthervillenews.net/stories/wind-and-solar-moratoriums-continued,172025",
+     "source_type": "news",
+     "supports": "Independent report of the March 24, 2026 continuation (paywalled after lead).",
+     "quote": "The Emmet County Board of Supervisors at its Tuesday, March 24 meeting voted to extend the current moratoriums on new wind and solar energy projects.",
+     "publisher": "Estherville News",
+     "document_date": "2026-03-26"
+    }
+   ],
+   "notes": "Lead (QA1 IA): a real pause chain distinct from ia-emmet-county-2024 (wind) and ia-emmet-county-2026 (data centers). The chain starts with Resolution 25-05 (Jan. 2025), not 25-36 as QA1 thought. Resolution 25-36's signature line reads 'September 30, 2024', evidently a typo for 2025 (it was posted Sept. 2025 and continues the 2025-09-30 expiry). The later resolutions re-state the moratorium each time but continue one pause, so this is one row, per the codebook's extension rule. Jurisdiction name matches existing Emmet County rows; the generated id needs a suffix."
+  }
+ ]
+}

@@ -1,0 +1,207 @@
+{
+ "state_abbrev": "MI",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-opus-5.5 agent QA4-leads",
+ "decisions": [
+  {
+   "moratorium_id": "mi-cascade-charter-township-kent-county-2026",
+   "outcome": "status_changed",
+   "new_enacted_status": "expired",
+   "confidence": 0.65,
+   "changes": {
+    "date_enacted": {
+     "from": "2026-03-11 (Township Board adopted Ordinance No. 002 of 2026 via Resolution 010-2026, 7-0, after introducing it 2026-02-25); re-imposed and broadened to cryptocurrency mining by Resolution 024-2026 adopted unanimously 2026-05-27 under the township's new zoning moratorium procedure",
+     "to": "2026-03-11 (Township Board adopted Ordinance No. 002 of 2026 via Resolution 010-2026, 7-0, after introducing it 2026-02-25; notice of adoption published in the Grand Rapids Press 2026-03-17)",
+     "reason": "Split: this row now covers Ordinance No. 002 of 2026 only; Resolution 024-2026 (2026-05-27) is a separate, broader instrument added as a new candidate."
+    },
+    "duration": {
+     "from": "Six months or until zoning amendments are adopted (Ordinance No. 002 of 2026); Resolution 024-2026 runs six months from its 2026-05-27 effective date, extendable by resolution for up to six more months",
+     "to": "Six months following the effective date (publication, 2026-03-17) or until data center zoning amendments take effect, whichever occurs first; extendable by resolution for up to six more months",
+     "reason": "Ordinance No. 002 of 2026, Section 4, and the published notice (Grand Rapids Press 2026-03-17)."
+    },
+    "legal_basis": {
+     "from": "Ordinance No. 002 of 2026, 'An Ordinance to Impose a Moratorium on the Issuance of Permits, Licenses or Approvals for Data Centers' (adopted by Resolution 010-2026, 2026-03-11); Resolution 024-2026, 'A Resolution Imposing a Six (6) Month Temporary Moratorium on Data Centers and Cryptocurrency Mining Facilities' (adopted 2026-05-27, effective immediately)",
+     "to": "Ordinance No. 002 of 2026, 'An Ordinance to Impose a Moratorium on the Issuance of Permits, Licenses or Approvals for Data Centers' (adopted by Resolution 010-2026, 2026-03-11; effective on publication 2026-03-17)",
+     "reason": "Resolution 024-2026 moved to its own row."
+    },
+    "sectors": {
+     "from": "[\"data_center\",\"cryptocurrency_mining\"]",
+     "to": "[\"data_center\"]",
+     "reason": "Ordinance No. 002 covers data centers only; cryptocurrency mining was added by the separate Resolution 024-2026."
+    },
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2026-09-17",
+     "reason": "Six months after the 2026-03-17 publication/effective date."
+    },
+    "current_status": {
+     "from": "Active as of 2026-09-23; Resolution 024-2026 (adopted and effective 2026-05-27) runs six months to about 2026-11-27, with a possible six-month extension; it succeeded the six-month Ordinance No. 002 of 2026 adopted 2026-03-11.",
+     "to": "Expired 2026-09-17; Ordinance No. 002 of 2026 (data centers) ran its six-month term from publication on 2026-03-17 with no extension found. Its coverage is carried forward by the separate Resolution 024-2026 (data centers and cryptocurrency mining), adopted 2026-05-27 and active to about 2026-11-27.",
+     "reason": "The six-month term from the 2026-03-17 effective date has run; the successor instrument makes an extension unnecessary and none appears in the record found."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://www.cascadetwp.com/media/j5qndlfe/3112026-minutes-packet.pdf",
+     "source_type": "minutes",
+     "supports": "Ordinance 002 of 2026 adopted 2026-03-11 (Res. 010-2026), data centers only, six months after effective date (publication); notice published 2026-03-17.",
+     "quote": "The moratorium imposed by this Ordinance shall remain in effect for six (6) months following the effective date of this Ordinance",
+     "publisher": "Cascade Charter Township",
+     "document_date": "2026-03-11"
+    },
+    {
+     "url": "https://cascadetwp.com/media/hd5nrwiq/52726-meeting-packet.pdf",
+     "source_type": "resolution",
+     "supports": "Resolution 024-2026 is a new, separately enacted six-month moratorium on data centers AND cryptocurrency mining facilities, effective on adoption.",
+     "quote": "A RESOLUTION IMPOSING A SIX (6)-MONTH TEMPORARY MORATORIUM ON DATA CENTERS AND CRYPTOCURRENCY MINING FACILITIES",
+     "publisher": "Cascade Charter Township",
+     "document_date": "2026-05-27"
+    }
+   ],
+   "notes": "Lead: split the row. QA1 was right that Resolution 024-2026 is a new instrument (adopted under the township's new moratorium-by-resolution procedure, wider in scope, with its own term), not an extension of Ordinance 002. This row keeps Ordinance 002 and is set to 'expired' as of 2026-09-17 (confidence 0.65: no September board action extending Ordinance 002 was found, and the successor resolution makes one unnecessary). Resolution 024-2026 is added as a new candidate."
+  },
+  {
+   "moratorium_id": "mi-bruce-township-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://www.myrecordnewspaper.com/?p=139567",
+     "source_type": "news",
+     "supports": "As the six-month moratorium ran out (late May 2026), the board added moratorium provisions to the ordinance; article body paywalled.",
+     "quote": "As a six month moratorium is running out, Bruce Township continues to fine tune their ordinance regarding data centers.",
+     "publisher": "The Record",
+     "document_date": "2026-05-27"
+    },
+    {
+     "url": "https://www.myrecordnewspaper.com/?p=138658",
+     "source_type": "news",
+     "supports": "Planning Commission hearing (2026-05-06) on new zoning section 161-3.18 letting the Township Board set moratoria by resolution, the likely vehicle for any successor pause.",
+     "quote": "amendments to add new section 161-3.18 Moratoria to the Zoning Ordinance, creating a process for the Township Board to establish moratoria on specific zoning issues by resolution",
+     "publisher": "The Record (legal notice)",
+     "document_date": "2026-04-22"
+    },
+    {
+     "url": "https://brucetwpmi.documents-on-demand.com/",
+     "source_type": "other",
+     "supports": "Township minutes portal: tree view returns 'Load error!' and search is blocked by a Cloudflare Turnstile challenge in a real browser session (2026-09-23).",
+     "publisher": "Bruce Township"
+    }
+   ],
+   "notes": "Still unresolvable. Tried the documents-on-demand portal in a real browser (tree load error; search blocked by Turnstile), brucetwp.org board, ordinance and planning pages, The Record (paywalled; no Bruce coverage found after 2026-05-27), and web and news searches. What is known: the six-month moratorium from late Dec. 2025 was running out in late May 2026, and the township adopted section 161-3.18, which lets the board set moratoria by resolution, so a successor resolution is plausible but unconfirmed. No status change is made. Next step: the Aug. 19, 2026 board meeting video on YouTube, or a call to the clerk."
+  }
+ ],
+ "new_candidates": [
+  {
+   "state": "MI",
+   "jurisdiction": "Zeeland Charter Township",
+   "jurisdiction_type": "Township",
+   "date_enacted": "2026-03-03 (Township Board unanimously adopted Resolution No. 1027, a 12-month data center moratorium, per Zeeland Record/Legal News; resolution number from the 2026-09-01 repealing resolution)",
+   "date_enacted_iso": "2026-03-03",
+   "date_enacted_uncertainty": "exact",
+   "duration": "12 months",
+   "duration_days": 365,
+   "duration_kind": "fixed_days",
+   "current_end_date_iso": "",
+   "legal_basis": "Resolution No. 1027 (Zeeland Charter Township Board, 2026-03-03), temporary moratorium on data centers; repealed by the 2026-09-01 'Resolution Enacting Temporary Moratoria on Energy Facilities and Data Centers', section 9",
+   "trigger": "Rising data center interest in West Michigan; zoning ordinance did not contemplate data centers (water, electricity, noise, light, vibration); Planning Commission busy with renewable-energy ordinance for Silver Maple Solar and a master plan update.",
+   "trigger_categories": [
+    "regulatory_gap",
+    "water",
+    "grid_energy",
+    "noise"
+   ],
+   "sectors": [
+    "data_center"
+   ],
+   "current_status": "Rescinded 2026-09-01; Resolution No. 1027 (data centers, adopted 2026-03-03 for 12 months) was expressly repealed by the Township Board's 2026-09-01 resolution, which imposed a new, broader one-year moratorium on commercial energy facilities and data centers (see mi-zeeland-charter-township-2026).",
+   "enacted_status": "rescinded",
+   "affected_projects": "None; the township had no data center applications.",
+   "outcome": "Repealed and superseded by the 2026-09-01 energy-facility and data-center moratorium.",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://legalnews.com/Home/Articles?DataId=1594513",
+     "source_type": "news",
+     "supports": "Unanimous 2026-03-03 adoption of a 12-month data center moratorium.",
+     "quote": "The Township Board March 3 unanimously approved placing a 12-month moratorium on any data centers from being built in the township",
+     "publisher": "Zeeland Record / Legal News"
+    },
+    {
+     "url": "https://zeelandchartertwpmi.documents-on-demand.com/Document/ec55d316-73c6-49bf-a893-b42abca8ff8c/September%201st%20Packet%20with%20Budget%20workshop.pdf",
+     "source_type": "resolution",
+     "supports": "The 2026-09-01 resolution repeals the Resolution No. 1027 moratorium.",
+     "quote": "The moratorium imposed pursuant to Resolution No. 1027 is hereby repealed.",
+     "publisher": "Zeeland Charter Township",
+     "document_date": "2026-09-01"
+    },
+    {
+     "url": "https://www.fox17online.com/news/local-news/holland-zeeland/zeeland-township-approves-data-center-moratorium-as-solar-farm-debate-continues",
+     "source_type": "news",
+     "supports": "Independent report of the March 2026 one-year data center moratorium.",
+     "quote": "Zeeland Township leaders have approved a one-year moratorium on data center applications",
+     "publisher": "FOX 17"
+    }
+   ],
+   "notes": "Lead (QA1 MI-part2): a separate resolution, so per the codebook's rule on successive instruments it gets its own row. Status 'rescinded' because the board repealed it before its term ended; the replacement is a new moratorium, not permanent zoning, so 'replaced' would misstate it. The March 3 minutes were not fetched; the resolution number rests on the Sept. 1 repealing text. COORDINATOR: apply_research's dedup flags this as a duplicate of mi-zeeland-charter-township-2026 because that row's legal_basis mentions 'Resolution No. 1027' (as the instrument it repealed), and the Sept. 1 resolution's own number is blank in the board packet. It is a distinct instrument and needs a manual add (suggested id mi-zeeland-charter-township-2026-2)."
+  },
+  {
+   "state": "MI",
+   "jurisdiction": "Cascade Charter Township (Kent County)",
+   "jurisdiction_type": "Township",
+   "date_enacted": "2026-05-27 (Township Board unanimously adopted Resolution 024-2026, effective immediately upon adoption)",
+   "date_enacted_iso": "2026-05-27",
+   "date_enacted_uncertainty": "exact",
+   "duration": "Six months from the effective date (2026-05-27), unless terminated earlier; the Board may extend by resolution for up to six more months",
+   "duration_days": 180,
+   "duration_kind": "fixed_days",
+   "current_end_date_iso": "2026-11-27",
+   "legal_basis": "Resolution 024-2026, 'A Resolution Imposing a Six (6) Month Temporary Moratorium on Data Centers and Cryptocurrency Mining Facilities' (adopted 2026-05-27 under the township's zoning moratorium procedure)",
+   "trigger": "Increasing interest in data centers and cryptocurrency mining; zoning ordinance does not regulate them as distinct uses; resident concerns over PFAS-contaminated water, energy, noise and infrastructure; Microsoft proposals in nearby townships.",
+   "trigger_categories": [
+    "regulatory_gap",
+    "water",
+    "grid_energy",
+    "noise",
+    "land_use_compatibility",
+    "infrastructure_capacity"
+   ],
+   "sectors": [
+    "data_center",
+    "cryptocurrency_mining"
+   ],
+   "current_status": "Active as of 2026-09-23; Resolution 024-2026 (adopted and effective 2026-05-27) runs six months to about 2026-11-27, extendable by up to six months. It succeeded Ordinance No. 002 of 2026 (data centers only), which expired 2026-09-17.",
+   "enacted_status": "active",
+   "affected_projects": "None proposed in the township.",
+   "outcome": "Staff and a board subcommittee studying master plan and zoning amendments, to report before the moratorium ends.",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://cascadetwp.com/media/hd5nrwiq/52726-meeting-packet.pdf",
+     "source_type": "resolution",
+     "supports": "Text and term of Resolution 024-2026.",
+     "quote": "The moratorium imposed by this Resolution shall remain in effect for six (6) months from the effective date of this Resolution",
+     "publisher": "Cascade Charter Township",
+     "document_date": "2026-05-27"
+    },
+    {
+     "url": "https://www.cascadetwp.com/media/pzxnl0xj/signed-52726.pdf",
+     "source_type": "minutes",
+     "supports": "Board approval of Resolution 024-2026 on 2026-05-27.",
+     "quote": "approve Resolution 024-2026 Imposing A Six (6) Month Temporary Moratorium on Data Centers and Cryptocurrency Mining Facilities",
+     "publisher": "Cascade Charter Township",
+     "document_date": "2026-05-27"
+    },
+    {
+     "url": "https://www.grandrapidspresswire.com/news/cascade-township-halts-data-centers-as-water-contamination-fears-mount",
+     "source_type": "news",
+     "supports": "Unanimous vote on the six-month data center and crypto-mining moratorium.",
+     "quote": "Cascade Township unanimously approved a six-month moratorium on data centers and cryptocurrency mining facilities",
+     "publisher": "Grand Rapids Press Wire",
+     "document_date": "2026-06-04"
+    }
+   ],
+   "notes": "Split out of mi-cascade-charter-township-kent-county-2026 (lead from QA1 MI-part1). Jurisdiction name matches the existing row, so the generated id will need a '-2' suffix."
+  }
+ ]
+}

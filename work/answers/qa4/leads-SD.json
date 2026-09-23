@@ -1,0 +1,87 @@
+{
+ "state_abbrev": "SD",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-opus-5.5 agent QA4-leads",
+ "decisions": [
+  {
+   "moratorium_id": "sd-turner-county-2025",
+   "outcome": "status_changed",
+   "new_enacted_status": "extended",
+   "confidence": 0.9,
+   "changes": {
+    "date_enacted": {
+     "from": "On or about late August 2025 (news report dated 2025-08-27/28, 'Turner Co. OKs Wind Farm Pause'); exact Commission vote date not independently located in an archived primary source",
+     "to": "2025-08-26 (Turner County Board of Commissioners adopted Ordinance #100-25, a temporary zoning ordinance, 4-0 with the chairman recused, per official minutes)",
+     "reason": "Official 2025-08-26 commission minutes."
+    },
+    "date_enacted_iso": {
+     "from": "2025-08",
+     "to": "2025-08-26",
+     "reason": "Official minutes give the adoption date."
+    },
+    "date_enacted_uncertainty": {
+     "from": "month_only",
+     "to": "exact",
+     "reason": "Exact date now known."
+    },
+    "duration": {
+     "from": "Originally reported as a one-year moratorium on wind energy projects; county Board of Adjustment minutes from September and October 2025 describe a 'Moratorium on Solar and Wind Energy Systems' ordinance adopted by the County Commission, and a public-notice aggregator (not independently verified against an archived primary source) indicated a hearing was set for 2026-08-25 to consider extending a 'temporary moratorium on utility-scale alternative energy systems' county-wide.",
+     "to": "One (1) year (Ordinance #100-25, effective on completed publication); extended one year by Ordinance #105-26 (adopted 2026-08-25) to expire 2027-08-25",
+     "reason": "Both ordinances' texts in the official minutes."
+    },
+    "duration_days": {
+     "from": "",
+     "to": "365",
+     "reason": "Original term is one year."
+    },
+    "duration_kind": {
+     "from": "unknown",
+     "to": "fixed_days",
+     "reason": "Fixed one-year term."
+    },
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2027-08-25",
+     "reason": "Ordinance #105-26: 'shall expire on August 25, 2027'."
+    },
+    "legal_basis": {
+     "from": "Turner County Commission ordinance/resolution establishing a moratorium on wind (and later described as covering solar/utility-scale alternative energy) systems, adopted on or about August 2025; discussed at Turner County Board of Adjustment meetings on 2025-09-23 and 2025-10-21",
+     "to": "Ordinance #100-25, 'A Temporary Zoning Ordinance Regulating Utility-Scale Alternative Energy in All Turner County Zoning Districts' (adopted 2025-08-26); extended by Ordinance #105-26, 'A Temporary Zoning Ordinance Extending the Moratorium Regulating Utility-Scale Alternative Energy Systems in All Turner County Zoning Districts' (adopted 2026-08-25); SDCL 11-2-10, 7-18A-8",
+     "reason": "Instrument numbers from official minutes."
+    },
+    "current_status": {
+     "from": "Status as of 2026-09-23 is only partially confirmed. Yankton.net reported (headline 'Turner Co. OKs Wind Farm Pause,' dated on or about 2025-08-27/28) that the Turner County Commission enacted a one-year moratorium on wind energy projects, putting the proposed Swan Lake Wind development on hold. Turner County Board of Adjustment minutes from 2025-09-23 confirm the Commission had adopted a 'Moratorium on Solar and Wind Energy Systems' ordinance and that the Board discussed forming a task force on it; minutes from 2025-10-21 show continued discussion of the 'Solar/Wind moratorium.' NextEra subsequently withdrew its wind-turbine application for the area (reported on or about 2026-08-21-28). A public-notice listing indicated Turner County scheduled an 8:35 a.m. public hearing on 2026-08-25 in Parker to consider extending a 'temporary moratorium on utility-scale alternative energy systems' county-wide, but the archived copy of that notice did not retain the underlying notice text (JS-rendered page returned only site boilerplate) and the outcome of any such hearing could not be confirmed from a source with retrievable primary text as of 2026-09-23. [VERIFY instrument number not confirmed at confidence 0.5 in the 2026-09 refresh]",
+     "to": "Extended as of 2026-09-23; the one-year moratorium on new permits and land-use approvals for utility-scale solar and wind systems (Ordinance #100-25, adopted 2025-08-26) was extended one year by Ordinance #105-26, adopted 2026-08-25 after an 8:35 a.m. public hearing (4 ayes, chairman abstaining), and now expires 2027-08-25. NextEra withdrew its Swan Lake Wind application in August 2026.",
+     "reason": "Resolves the Aug. 25, 2026 hearing outcome from the official minutes; removes the VERIFY marker."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number not confirmed at confidence 0.5 in the 2026-09 refresh]",
+     "resolution": "corrected",
+     "note": "Instrument numbers are Ordinance #100-25 (2025-08-26) and Ordinance #105-26 (2026-08-25), from the county commission minutes on turner.sdcounties.org."
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://turner.sdcounties.org/uploads/1/4/4/2/144282440/minutes_august_26_2025.docx",
+     "source_type": "minutes",
+     "supports": "Adoption of Ordinance #100-25 on 2025-08-26; one-year moratorium on utility-scale solar and wind.",
+     "quote": "Motion by Hagemann, seconded by Benson, to approve the reading of Ordinance #100-25 A temporary zoning ordinance regulating utility-scale alternative energy in all Turner County zoning districts.",
+     "publisher": "Turner County Board of Commissioners",
+     "document_date": "2025-08-26"
+    },
+    {
+     "url": "https://turner.sdcounties.org/uploads/1/4/4/2/144282440/minutes_august_25_2026.docx",
+     "source_type": "minutes",
+     "supports": "Adoption of Ordinance #105-26 on 2026-08-25 extending the moratorium to 2027-08-25.",
+     "quote": "This extension of the moratorium shall remain in effect for one (1) year and shall expire on August 25, 2027",
+     "publisher": "Turner County Board of Commissioners",
+     "document_date": "2026-08-25"
+    }
+   ],
+   "notes": "Lead resolved from the county's own minutes. Also corrects the date to 2025-08-26 and fills the term fields."
+  }
+ ]
+}

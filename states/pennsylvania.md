@@ -12,15 +12,15 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 | Adams Township (Butler County) | Township | 2026-07-13 | data center, solar, general | 🟢 Active |
 | Bensalem Township | Township | 2026-06-08 | data center, solar, wind | 🟢 Active |
 | Brookville Borough | Other | 2026-06-16 | data center | 🟢 Active |
-| Buffalo Township | Township | 2026-08-12 | data center | 🟢 Active |
-| Butler Township | Township | 2026-05-12 | data center | 🟢 Active |
-| Center Township | Township | 2026-06-10 | data center, general | 🟢 Active |
+| Buffalo Township (Butler County) | Township | 2026-08-12 | data center | 🟢 Active |
+| Butler Township (Luzerne County) | Township | 2026-05-12 | data center | 🟢 Active |
+| Center Township (Butler County) | Township | 2026-06-10 | data center, general | 🟢 Active |
 | Clinton Township (Wayne County) | Township | 2026-04-30 | data center | 🟢 Active |
 | Conewago Township (York County) | Township | 2026-07-07 | data center | 🟢 Active |
 | Dorrance Township | Township | 2025-08-11 | data center | ⚪ Replaced |
 | Doylestown Township | Township | 2026-06-16 | data center | 🟢 Active |
 | East Whiteland Township | Township | 2026-03 | data center | 🟢 Active |
-| Falls Township | Township | 2026-07-27 | data center | 🟢 Active |
+| Falls Township (Bucks County) | Township | 2026-07-27 | data center | 🟢 Active |
 | Gregg Township (Union County) | Township | 2026-08-20 | data center | 🟢 Active |
 | Hazle Township | Township | 2026-06-08 | data center | 🟢 Active |
 | Little Britain Township | Township | 2026-07-14 | data center | 🟢 Active |
@@ -29,9 +29,9 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 | Morrisville Borough | Other | 2026-07-21 | data center | 🟢 Active |
 | Mount Carmel Township | Township | 2026-05-18 | data center | 🟢 Active |
 | Muncy Township | Township | 2026-04-28 | data center | 🟢 Active |
-| Smithfield Township | Township | 2026-05-06 | data center | ⚪ Replaced |
+| Smithfield Township (Monroe County) | Township | 2026-05-06 | data center | ⚪ Replaced |
 | Upper Burrell Township | Township | 2026-05 | data center | 🟢 Active |
-| Warrington Township | Township | 2026-05-13 | data center | 🟢 Active |
+| Warrington Township (York County) | Township | 2026-05-13 | data center | 🟢 Active |
 | West Mahanoy Township | Township | 2026-09-15 | data center, solar | 🟢 Active |
 | West Whiteland Township | Township | 2026-05 | data center | 🟢 Active |
 | Williamsport | City | 2026-07-09 | data center | 🟢 Active |
@@ -86,7 +86,7 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 - **Detailed status:** Active as of 2026-09-23, running toward its computed 180-day expiry (~2026-12-13/14). Adopted by unanimous Borough Council motion on 2026-06-16, pausing data center development in the borough and barring data centers from using Brookville's municipal water system (which also serves Corsica, Pinecreek Elementary School, and the Jefferson County Fairgrounds outside the borough). The action was prompted by unofficial word of two possible nearby data center projects -- one in Pine Creek Township, one in Rose Township -- that officials estimated could together require about 2.4 million gallons of water per day; no formal application had been filed for either as of adoption. No news of an extension, permanent ordinance, or repeal was found in sources reviewed through 2026-09-23.
 - **Outcome:** —
 
-### Buffalo Township
+### Buffalo Township (Butler County)
 
 - **Type:** Township
 - **Status:** 🟢 Active
@@ -102,7 +102,7 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 - **Detailed status:** Active as of 2026-09-23. 180-day municipal curative amendment adopted 2026-08-12, giving the township until approximately 2027-02-08 to draft and adopt data-center zoning standards; effectively functions as a moratorium on new data-center proposals during that period, per township solicitor Brian Farrington ('I don't want to call it a moratorium, but effectively, it is').
 - **Outcome:** Buffalo Township Board of Supervisors created a municipal curative amendment, giving the township 180 days to draft data-center zoning rules and effectively barring new data-center proposals during that period.
 
-### Butler Township
+### Butler Township (Luzerne County)
 
 - **Type:** Township
 - **Status:** 🟢 Active
@@ -118,7 +118,7 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 - **Detailed status:** Active as of 2026-07-31; 180-day curative-amendment period from 2026-05-12.
 - **Outcome:** —
 
-### Center Township
+### Center Township (Butler County)
 
 - **Type:** Township
 - **Status:** 🟢 Active
@@ -138,8 +138,8 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 
 - **Type:** Township
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-04-30, Clinton Township Board of Supervisors vote to put a six-month moratorium in place while reviewing a draft data-center ordinance (Wayne County); exact duration in calendar days not confirmed in sources reviewed.
-- **Normalized date:** `2026-04-30` (exact)
+- **Date enacted:** Board of Supervisors instituted a six-month moratorium in April 2026; the River Reporter dates it to the April 8 meeting in one story and to April 30 in another (April 30 is also the date the Linde Corporation application was received). Recorded as 2026-04-30 pending minutes. [VERIFY exact April meeting date]
+- **Normalized date:** `2026-04-30` (range)
 - **Duration:** Approximately six months (treated here as 180 days) from the April 30, 2026 vote, to allow the township and Wayne County Planning Commissions to review a draft data-center/SALDO ordinance before adoption.
 - **Current end date:** `—`
 - **Sectors:** data center
@@ -214,7 +214,7 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 - **Detailed status:** Nearing resolution as of 2026-09-23. The 180-day curative-amendment clock started in March 2026 (per The Center Square); Green Fig withdrew its expanded 1.7-million-sq-ft application in May 2026 amid sustained opposition and signaled intent to instead pursue its earlier, previously approved 2024 plan. A resident working group helped draft the resulting 'Data Center Ordinance,' for which the Board of Supervisors set a Sept. 24, 2026 public hearing to consider adoption (one day after this research pass); the pending Sentinel/Green Fig application is not on that hearing's agenda.
 - **Outcome:** East Whiteland Township Board of Supervisors initiated a municipal curative amendment in March 2026 to add data-center zoning standards; a resident working group helped draft the resulting ordinance, which was scheduled for a Sept. 24, 2026 adoption hearing.
 
-### Falls Township
+### Falls Township (Bucks County)
 
 - **Type:** Township
 - **Status:** 🟢 Active
@@ -358,7 +358,7 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 - **Detailed status:** Active as of 2026-07-31; nine-month pause from the 2026-04-28 vote runs to approximately late January 2027 unless superseded by earlier zoning adoption.
 - **Outcome:** —
 
-### Smithfield Township
+### Smithfield Township (Monroe County)
 
 - **Type:** Township
 - **Status:** ⚪ Replaced
@@ -390,7 +390,7 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 - **Detailed status:** Active as of 2026-09-23, ending 2026-11-02. Bars new data-center development but does not apply to TECfusions' existing Building J permits (already operational, delivering GPU capacity per an Aug. 27, 2026 company release) or to a land-development plan the township approved Aug. 5, 2026 for further work on that building. A new draft ordinance (H-1-style Heavy Industrial standards, noise/vibration studies, and a contested requirement that developers provide their own baseload power generation) was under Planning Commission review, with a meeting held Sept. 15, 2026. A land-use appeal (Protect PT and two New Kensington residents, filed in Westmoreland County Court of Common Pleas) argues the township improperly allowed TECfusions' expansion to proceed via permits and a land-development-plan approval without requiring a full zoning/special-exception process.
 - **Outcome:** Upper Burrell Township Board of Supervisors adopted a 180-day moratorium/curative amendment on new data-center development (excluding already-permitted TECfusions work), to allow time to draft a data-center zoning ordinance; a land-use appeal challenging the township's handling of TECfusions' existing permits is pending in Westmoreland County court.
 
-### Warrington Township
+### Warrington Township (York County)
 
 - **Type:** Township
 - **Status:** 🟢 Active

@@ -1,0 +1,514 @@
+{
+ "state_abbrev": "TN",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA1",
+ "decisions": [
+  {
+   "moratorium_id": "tn-cocke-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://citizenportal.ai/articles/8185955/tennessee/cocke-county/cocke-county-enacts-one-year-moratorium-on-data-centers-and-battery-storage",
+     "source_type": "other",
+     "supports": "June 15, 2026 CLB vote adopting a one-year moratorium through 2027-06-30, covering data centers, data mining, crypto mining, and battery storage.",
+     "quote": "The moratorium runs through June 30, 2027, and county staff and the planning commission will study ordinance amendments and zoning approaches during the pause."
+    },
+    {
+     "url": "https://www.newportplaintalk.com/news/article_c8680181-62c1-4404-a79b-c61d7907d421.html",
+     "source_type": "news",
+     "supports": "Independent confirmation that the CLB (not just a committee) passed the moratorium, on county attorney's recommendation, as a one-year term.",
+     "quote": "CLB passed a comprehensive moratorium recommended by the county planning commission that restricts facilities such as data centers, lithium battery storage facilities and data processing facilities."
+    }
+   ],
+   "notes": "Two independent local-news accounts of the same June 15 CLB session agree on the vote, the one-year/June 30 2027 term, and the broad definition (data centers, mining, battery storage). This reads as a genuine early miss, not a mis-dated extension: no prior Cocke County row exists, and both sources describe adoption (roll call, motion carried), not a first reading or a planning-commission recommendation."
+  },
+  {
+   "moratorium_id": "tn-dickson-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.75,
+   "evidence": [
+    {
+     "url": "https://mainstreetmediatn.com/articles/dicksonpost/dickson-county-commission-votes-on-data-center-moratorium/",
+     "source_type": "news",
+     "supports": "Commission approved a six-month moratorium at its regular (third-Monday) meeting; the vote to place it on the agenda happened at the June 22 work session, but the moratorium itself was approved at the July 20 regular meeting.",
+     "quote": "the county commission approved a six-month moratorium on data centers at its regular meeting on Monday night with 11th District commissioner Rusty Grove absent for the vote."
+    },
+    {
+     "url": "https://citizenportal.ai/articles/9876159/tennessee/dickson-county/dickson/commission-maintains-sixmonth-moratorium-on-data-centers-planning-commission-to-recommend-regulations",
+     "source_type": "other",
+     "supports": "Later work session confirms the six-month moratorium remains in effect and is still tied to the same July action, not a separate later vote.",
+     "quote": "The chair reminded the commission that a six-month moratorium on data centers remains in effect while the planning commission develops recommendations..."
+    }
+   ],
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "Searched dicksoncountytn.gov agendas/minutes indexed by the search engine; no 2026 resolution number for the data-center moratorium surfaced (only older R-2019/2020/2023 rezoning-moratorium resolutions). News-only sourcing stands, but two independent articles (one from a later meeting) corroborate the date and term, so confidence is raised from 0.55 to 0.75 rather than left unresolved."
+    }
+   ],
+   "notes": "Regular meeting date (July 20, third Monday) matches the county's stated meeting schedule; the June 22 date in some coverage is the work-session vote to add the item to the agenda, not the adoption vote, so July 20 is correct as the enactment date."
+  },
+  {
+   "moratorium_id": "tn-maury-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.columbiadailyherald.com/story/news/2026/07/23/maury-county-commission-approves-one-year-moratorium-on-data-centers/90980194007/",
+     "source_type": "news",
+     "supports": "July 20 unanimous vote adopting a 12-month moratorium on new data-center proposals in unincorporated Maury County.",
+     "quote": "The moratorium, approved July 20 by a unanimous vote, will be in effect for up to 12 months, or until the county can properly update its zoning ordinance standards and regulations."
+    },
+    {
+     "url": "https://mainstreetmediatn.com/articles/mainstreetmaury/maury-county-commission-passes-data-center-moratorium/",
+     "source_type": "news",
+     "supports": "Detailed account confirming adoption (not a recommendation) and that a 24-month term was proposed by public commenters and commissioners but rejected on the county attorney's advice in favor of 12 months.",
+     "quote": "The Maury County Commission adopted a moratorium on the approval of data centers on county-zoned properties."
+    }
+   ],
+   "notes": "Clearly an adoption vote, not a first reading or recommendation; both sources describe the same July 20 commission session in detail, including the debate over the term length."
+  },
+  {
+   "moratorium_id": "tn-rhea-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.rheaheraldnews.com/news/article_46ed3dcf-b04c-4701-a757-9203bd43bbd9.html",
+     "source_type": "news",
+     "supports": "July 21 unanimous vote enacting an immediate, temporary moratorium on data centers and crypto mining; no term stated.",
+     "quote": "The temporary moratorium took effect immediately upon its passage on Tuesday. The motion to approve the moratorium was made by Rhea County Commissioner Mark Cashman and seconded by Rhea County Commissioner Nick Welch. The motion passed unanimously."
+    },
+    {
+     "url": "https://3bmedianews.com/rhea-county-pauses-new-data-centers-and-crypto-mining-in-unanimous-vote/",
+     "source_type": "news",
+     "supports": "Independent confirmation of the same July 21 vote and scope; also does not state a term.",
+     "quote": "During a Tuesday, July 21 meeting, the Rhea County Commission voted unanimously to enact an immediate moratorium on the construction, development, and operation of these high-energy facilities."
+    }
+   ],
+   "notes": "Both sources describe an immediate, adopted moratorium (not a proposal), consistent with the row's enacted_status=active. Neither article states a duration, consistent with the row's duration_kind=unknown rather than a guessed figure."
+  },
+  {
+   "moratorium_id": "tn-sparta-2026",
+   "outcome": "corrected",
+   "confidence": 0.95,
+   "changes": {
+    "date_enacted": {
+     "from": "June 2026 (reported 2026-06-19 and 2026-06-23), Sparta Board of Mayor and Aldermen unanimous approval of Resolution 26-626 and Ordinance 26-1003; Mayor Lowery absent",
+     "to": "August 16, 2026 published agenda language notwithstanding, official minutes show: June 18, 2026 - Resolution 26-626 (findings/intent) adopted and Ordinance 26-1003 given FIRST reading only; July 16, 2026 - Ordinance 26-1003 passed on SECOND AND FINAL reading (unanimous roll call), Sparta Board of Mayor and Aldermen",
+     "reason": "City minutes (June 18 and July 16, 2026 Board of Mayor and Aldermen packets, spartatn.gov) show Ordinance 26-1003 -- the actual 180-day moratorium -- received only its first reading on June 18; Resolution 26-626, adopted the same night, was only a statement of intent to consider a moratorium and a referral to the Planning Commission, not the moratorium itself. The ordinance was not finally adopted until its second and final reading on July 16, 2026, with a roll-call vote and 'effective immediately upon final adoption.' The news coverage the original row relied on described the June 18 meeting without flagging that the ordinance had only had a first reading."
+    },
+    "date_enacted_iso": {
+     "from": "2026-06",
+     "to": "2026-07-16",
+     "reason": "July 16, 2026 is the date of second-and-final-reading passage per the city's own minutes; the ordinance took effect immediately upon that adoption."
+    },
+    "date_enacted_uncertainty": {
+     "from": "month_only",
+     "to": "exact",
+     "reason": "The official minutes give an exact adoption date."
+    },
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2027-01-12",
+     "reason": "Ordinance 26-1003 Section 7 states the moratorium automatically expires 180 days after its effective date (immediate upon July 16, 2026 final adoption); July 16, 2026 + 180 days = January 12, 2027."
+    },
+    "legal_basis": {
+     "from": "Resolution 26-626 (legislative findings; referral to the Sparta Municipal Planning Commission) and Ordinance 26-1003 (180-day moratorium on new data centers)",
+     "to": "Ordinance 26-1003, 'An Ordinance of the City of Sparta, Tennessee Establishing a Temporary Moratorium on New Data Center Development,' adopted on second and final reading July 16, 2026 (first reading June 18, 2026); preceded on June 18, 2026 by Resolution 26-626 setting forth legislative findings and expressing intent to consider a moratorium",
+     "reason": "Clarifies that the moratorium legally took effect only upon the ordinance's second reading, not upon the resolution or the ordinance's first reading."
+    },
+    "current_status": {
+     "from": "Active as of 2026-09-23 per news reporting; 180-day moratorium adopted June 2026 while the Planning Commission reviews zoning regulations; expires around December 2026 unless extended. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+     "to": "Active as of 2026-09-23; Ordinance 26-1003 passed second and final reading 2026-07-16, imposing a 180-day moratorium on new data-center development in Sparta (automatically expiring 2027-01-12 unless earlier repealed) while the Municipal Planning Commission reviews zoning regulations.",
+     "reason": "Removes the VERIFY marker (now resolved against a primary source, the ordinance/minutes) and restates the status with the corrected adoption and expiration dates."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://www.spartatn.gov/sites/default/files/Agenda%206-18-26.pdf",
+     "title": "Board of Mayor and Aldermen agenda, June 18, 2026",
+     "publisher": "City of Sparta, Tennessee",
+     "document_date": "2026-06-18",
+     "source_type": "agenda",
+     "supports": "Shows Resolution 26-626 as 'expressing the City's intent to consider a Temporary Development Moratorium' and Ordinance 26-1003 listed 'on first reading' only.",
+     "quote": "Approve Ordinance No.26-1003 on first reading, An Ordinance of the City of Sparta, Tennessee Establishing a Temporary Moratorium on New Data Center Development within the City of Sparta for a period of One Hundred Eighty (180) Days"
+    },
+    {
+     "url": "https://www.spartatn.gov/sites/default/files/July%2016%2C%202026_0.pdf",
+     "title": "Board of Mayor and Aldermen minutes, July 16, 2026",
+     "publisher": "City of Sparta, Tennessee",
+     "document_date": "2026-07-16",
+     "source_type": "minutes",
+     "supports": "Roll-call vote unanimously adopting Ordinance 26-1003 on second and final reading; ordinance text sets a 180-day term running from the (immediate) effective date.",
+     "quote": "There was a motion by Vice-Mayor Officer with a second by Alderman Jones to approve Ordinance No, 26-1003 on second and final reading, an Ordinance establishing a temporary moratorium on New Data Center Development within the City of Sparta for a period of One-Hundred Eighty (180) days ... The motion passed."
+    },
+    {
+     "url": "https://spartalive.com/stories/data-centers-put-on-moratorium-in-city,204636",
+     "source_type": "news",
+     "supports": "Original packet evidence describing the June 18 meeting (Resolution 26-626 and Ordinance 26-1003 first reading); useful context but was misread as full adoption.",
+     "quote": "Resolution 26-626 and Ordinance 26-1003 both concerned the nature of Data centers. The former set forth legislative findings regarding data centers, and it requested a review of proposed zoning regulations by the Sparta Municipal Planning Commission."
+    }
+   ],
+   "notes": "This is the clearest OLDER_INSTRUMENT miss-by-first-reading case in the packet: the original row dated the moratorium to the June 18 meeting (via news coverage that described the resolution and the ordinance together without distinguishing first from final reading), but the ordinance did not actually take legal effect until its second-and-final reading on July 16. Both readings are documented in the city's own posted agendas/minutes."
+  },
+  {
+   "moratorium_id": "tn-spring-city-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://newschannel9.com/news/local/spring-city-considers-2-year-pause-on-ai-data-centers-rhea-county-moratorium-cryptocurrency-mining-artificial-intelligence-planning",
+     "source_type": "news",
+     "supports": "States the July 30 public hearing was for a 'second and final vote,' confirming the row's date is the final-adoption date, not a first reading.",
+     "quote": "Spring City commissioners are expected to hold a public hearing July 30 before considering a second and final vote on the ordinance later that evening."
+    },
+    {
+     "url": "https://www.wdef.com/spring-city-approves-two-year-moratorium-on-ai-data-centers/",
+     "source_type": "news",
+     "supports": "Confirms the moratorium was approved following the Thursday public hearing (July 30, 2026), a two-year term, and that it is not a permanent ban.",
+     "quote": "Following the public hearing, town officials voted in favor of the two-year moratorium."
+    }
+   ],
+   "notes": "Unlike Sparta, the Spring City evidence explicitly frames July 30 as the second-and-final-reading vote, so the row's existing date_enacted_iso (2026-07-30) already reflects final adoption rather than a first reading."
+  },
+  {
+   "moratorium_id": "tn-wilson-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://mainstreetmediatn.com/articles/chronicleofmtjuliet/wilson-county-approves-six-month-data-center-moratorium/",
+     "source_type": "news",
+     "supports": "Directly quotes the adopted resolution's own text dating the six-month term from the July 20 commission vote (not the June 22 committee recommendation).",
+     "quote": "a resolution unanimously approved by the Wilson County Commission on July 20 ... imposes 'a temporary moratorium (of six months from July 20)...'"
+    },
+    {
+     "url": "https://www.wkrn.com/news/local-news/wilson-county-committee-votes-for-6-month-moratorium-on-data-centers/",
+     "source_type": "news",
+     "supports": "Confirms June 22 was only the Planning and Zoning Committee's recommendation, with the full commission vote set for and occurring at the July 20 meeting.",
+     "quote": "the Wilson County moratorium will be subject to a vote during a county commission meeting on July 20."
+    }
+   ],
+   "notes": "A September 21, 2026 follow-up article (mainstreetmediatn.com, 'Data center committee examines ordinance') states the moratorium was 'established in June' and 'expires on Dec. 22, 2026' -- six calendar months from June 22, not July 20. That appears to be a reporter error conflating the committee's June 22 recommendation with the commission's July 20 adoption: the July 20 article quotes the resolution's own text, 'six months from July 20,' which is the more authoritative source. Not changing the row on the strength of the later, less precise article."
+  },
+  {
+   "moratorium_id": "tn-blount-county-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.7,
+   "evidence": [
+    {
+     "url": "https://www.thedailytimes.com/news/blount-county-planning-commission-requests-12-month-moratorium-on-ai-data-centers-while-it-develops/article_02323a27-16df-46e7-8cda-bd059e2916c4.html",
+     "source_type": "news",
+     "supports": "Planning Commission recommended (9-0) a 12-month moratorium in July 2026; forwarded to the County Commission, which must pass a resolution for it to take effect; as of that article it was uncertain whether it would reach the August or September commission agenda.",
+     "quote": "The recommendation was forwarded to the Blount County Board of Commissioners, where it must be turned into a resolution for the board's consideration and passed to go into effect."
+    }
+   ],
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "Searched for Blount County Commission adoption of a data-center moratorium resolution through September 2026; found only RES 26-191 (a June 2026 resolution requesting the Planning Commission draft data-center regulations -- the precursor to the July recommendation already in the row) and no report of the full Commission voting on the moratorium itself. Row's 'pending' status appears still correct."
+    }
+   ],
+   "notes": "This is a genuinely pending item, not adopted; no OLDER_INSTRUMENT concern since enacted_status is already pending and date_enacted_iso is empty."
+  },
+  {
+   "moratorium_id": "tn-carter-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://elizabethton.com/2026/08/18/one-year-moratorium-passes-for-ai-data-centers-in-carter-county/",
+     "source_type": "news",
+     "supports": "Commission voted 20-1 on August 17 (published as 'Monday' meeting, Aug. 17 is a Monday) to pass a one-year moratorium on AI data centers and crypto mining.",
+     "quote": "Carter County commissioners voted to pass a one-year moratorium on all AI data centers and cryptocurrency mining centers during their August meeting Monday evening."
+    },
+    {
+     "url": "https://wcyb.com/news/local/carter-county-commission-approves-moratorium-on-data-centers-for-1-year",
+     "source_type": "news",
+     "supports": "Independent confirmation of the same vote and outcome.",
+     "quote": "The Carter County Commission voted and approved a moratorium on data centers and crypto mining for one year on Monday night."
+    }
+   ],
+   "notes": "Both sources describe a completed adoption vote (20-1), not a recommendation or first reading; date checks out (Aug 17, 2026 is a Monday)."
+  },
+  {
+   "moratorium_id": "tn-charleston-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.clevelandbanner.com/news/charleston-passes-data-center-moratorium/article_6dacb5c1-3344-5e61-aac7-ca057caf8250.html",
+     "source_type": "news",
+     "supports": "Explicitly states the ordinance passed unanimously on second reading on a Tuesday evening (Sept 8, 2026 is a Tuesday), a 12-month interim zoning measure effective from passage.",
+     "quote": "The moratorium passed unanimously Tuesday evening on second reading at the commission meeting held in the auditorium at Charleston Elementary School."
+    },
+    {
+     "url": "https://www.clevelandbanner.com/news/charleston-planners-propose-data-center-moratorium/article_59eb0899-22c1-51bc-b80f-b90408218bbb.html",
+     "source_type": "news",
+     "supports": "Background: the Municipal Planning Commission's motion to pursue a one-year moratorium via an ordinance requiring two public readings, confirming a two-reading process.",
+     "quote": "A motion was made to enact a one-year moratorium on any data centers and cryptocurrency mining facilities within the Charleston city limits"
+    }
+   ],
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "Searched for the ordinance number; not found in indexed sources. Date and second-reading status are well corroborated, so confidence is raised from 0.65 to 0.85, but instrument number remains unconfirmed."
+    }
+   ],
+   "notes": "Explicit 'second reading' language rules out the first-reading risk the audit focuses on."
+  },
+  {
+   "moratorium_id": "tn-gallatin-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.75,
+   "evidence": [
+    {
+     "url": "https://www.newschannel5.com/news/state/tennessee/sumner-county/gallatin-city-council-advances-6-month-moratoriums-on-apartment-and-data-center-construction",
+     "source_type": "news",
+     "supports": "Both the apartment and data-center moratorium ordinances were amended from 12 to 6 months and go to a second reading at the next council meeting -- i.e., only a first reading has occurred.",
+     "quote": "Both moratoriums will go before the council at its next meeting for a second reading."
+    },
+    {
+     "url": "https://mainstreetmediatn.com/articles/gallatinnews/gallatin-may-pause-apartments-data-centers/",
+     "source_type": "news",
+     "supports": "Confirms the September 8 work session and Planning Commission's positive recommendation, prior to the council's first reading.",
+     "quote": "Unlike the last ordinance, on this the commission comes to you with a positive recommendation"
+    }
+   ],
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "No instrument number or second-reading outcome found as of the search date; row correctly reflects pending status with first reading only."
+    }
+   ],
+   "notes": "Row is correctly pending; not adopted."
+  },
+  {
+   "moratorium_id": "tn-hamblen-county-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.7,
+   "evidence": [
+    {
+     "url": "https://hamblencountytn.gov/ai-datacenter-moratorium/",
+     "source_type": "other",
+     "supports": "County's own page states the Planning Commission (not the County Commission) voted July 6, 2026 to recommend a one-year moratorium.",
+     "quote": "On July 6th, 2026, at the Planning Commission Meeting, Commissioners voted to enact a one-year moratorium on new data center construction in Hamblen County."
+    },
+    {
+     "url": "https://hamblencountytn.gov/?ddownload=10505",
+     "source_type": "ordinance",
+     "supports": "Draft ordinance text itself states it is not yet law.",
+     "quote": "This Ordinance shall take effect upon adoption by the Hamblen County Commission."
+    }
+   ],
+   "notes": "Search indicates the Hamblen County Legislative Body's monthly commission meeting is scheduled for September 24, 2026 -- the day after this reference date -- and an August 26, 2026 public hearing on the ordinance amendment had already occurred, consistent with adoption still being pending as of 2026-09-23. (That meeting-schedule page failed to archive cleanly -- HTTP 502 -- so it is not cited as evidence; the decision rests on the two already-archived sources, which independently establish that County Commission adoption had not occurred as of their publication.)"
+  },
+  {
+   "moratorium_id": "tn-kingston-springs-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://mainstreetmediatn.com/articles/cce-print/kingston-springs-moves-to-regulate-data-centers-large-resorts-with-new-ordinances/",
+     "source_type": "news",
+     "supports": "Explicitly states the moratorium ordinance was 'approved on second reading' at the August 20, 2026 meeting (a Thursday, matching the board's normal third-Thursday schedule), a 12-month term.",
+     "quote": "Approved on second reading, an ordinance placed a 12-month moratorium on the acceptance, processing and approval of applications for high-resource usage facilities such as data centers."
+    }
+   ],
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "No ordinance number located; explicit 'second reading' language and meeting-schedule cross-check corroborate the date, so confidence is raised from 0.55 to 0.85."
+    }
+   ],
+   "notes": "Second-reading language directly addresses the OLDER_INSTRUMENT first-reading risk."
+  },
+  {
+   "moratorium_id": "tn-lafollette-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.75,
+   "evidence": [
+    {
+     "url": "https://www.themountainpress.com/lafollette/news/lafollette-council-approves-one-year-moratorium-on-data-centers/article_daba441c-2205-5e7f-8644-c21e36e2770d.html",
+     "source_type": "news",
+     "supports": "Council 'approved an ordinance unanimously on Tuesday night' (Aug 4, 2026 is a Tuesday) for a one-year moratorium, 4-0; a workshop discussion had occurred eight days earlier, but the vote described is the adoption vote.",
+     "quote": "The LaFollette City Council approved an ordinance unanimously on Tuesday night for a one-year moratorium on processing, accepting and approving any applications for any new data centers in the city. ... The vote to approve the moratorium was unanimous, 4-0."
+    }
+   ],
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "Searched for the ordinance number and any second-reading requirement; not found. Article describes a single approval vote (not explicitly labeled first/second reading), distinct from the workshop discussion eight days earlier, so the date is likely correct, but the single-source, unlabeled-reading sourcing keeps confidence moderate rather than high."
+    }
+   ],
+   "notes": "Only one news source, and it does not explicitly say 'second/final reading' the way the Charleston/Sparta/Kingston Springs/Sevierville articles do, so I did not raise confidence as high as those; but nothing found contradicts the date."
+  },
+  {
+   "moratorium_id": "tn-loudon-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.newstalk987.com/2026/08/25/loudon-city-council-approves-one-year-pause-on-new-data-center-development/",
+     "source_type": "news",
+     "supports": "3-2 vote 'Monday night' (Aug 24, 2026 is a Monday) approving a resolution for a 12-month pause, amended down from an original 18-month proposal, with an optional 12-month extension.",
+     "quote": "In a 3-to-2 vote Monday night, council members approved a resolution placing a 12-month pause on new data center zoning approvals within the city."
+    },
+    {
+     "url": "https://3bmedianews.com/loudon-city-council-votes-to-pause-new-data-center-construction/",
+     "source_type": "news",
+     "supports": "Independent confirmation of the same 3-2 vote and term.",
+     "quote": "In a 3-to-2 vote on Monday evening, the Loudon City Council approved a resolution enacting a 12-month pause on zoning for new data centers."
+    }
+   ],
+   "notes": "Two independent sources agree on the vote count, date, and that this was adoption of a resolution (which under TN law typically requires only one reading), not a first reading of an ordinance."
+  },
+  {
+   "moratorium_id": "tn-memphis-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://wreg.com/wp-content/uploads/sites/18/2026/08/Data-Center-Temporary-Moratorium-Ordinance-v2.pdf",
+     "source_type": "ordinance",
+     "supports": "Draft ordinance text: 12-month term from effective date or until comprehensive zoning adopted, whichever earlier.",
+     "quote": "This moratorium shall remain in effect until the earlier of: A. Twelve (12) months following the effective date of this Ordinance"
+    },
+    {
+     "url": "https://tri-statedefender.com/council-member-jb-smiley-to-roll-out-amended-memphis-data-center-moratorium/09/17/",
+     "source_type": "news",
+     "supports": "Final vote delayed at the Sept 15, 2026 committee meeting; amended version to be reintroduced.",
+     "quote": "Memphis City Council delayed a final vote on a data center moratorium during committee meetings, Tuesday, Sept. 15"
+    },
+    {
+     "url": "https://wreg.com/news/local/moratorium-vote-on-new-data-centers-pushed-to-oct-6/",
+     "source_type": "news",
+     "supports": "Third/final reading pushed to October 6, 2026 -- after the researched_as_of date -- confirming the item is correctly pending, not yet adopted.",
+     "quote": "A vote on a temporary moratorium for new data centers was pushed to October 6 by the city council"
+    }
+   ],
+   "notes": "Well-documented multi-reading timeline (first reading Aug 18, second Sept 1, third pushed from mid-Sept to Oct 6); row's pending status and October 6 final-vote note are accurate as of 2026-09-23."
+  },
+  {
+   "moratorium_id": "tn-roane-county-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.75,
+   "evidence": [
+    {
+     "url": "https://www.themountainpress.com/roane/news/pause-on-data-centers-while-nuclear-renaissance-presses-on/article_ab82992e-3ccf-5351-9a66-f7757fb17a0d.html",
+     "source_type": "news",
+     "supports": "July 14, 2026 commission resolution requests (does not itself impose) a Regional Planning Commission recommendation on a moratorium; amended in committee from 180 days to two years.",
+     "quote": "It requests a recommendation from the Roane County Regional Planning Commission on a temporary moratorium on the acceptance of those kinds of facilities."
+    },
+    {
+     "url": "https://www.wvlt.tv/2026/07/14/they-are-monster-deal-with-during-emergency-events-another-east-tennessee-county-moves-closer-pausing-data-centers/",
+     "source_type": "news",
+     "supports": "Independent confirmation of the same July 14 resolution, its two-year amendment, and that it directs the planning commission to develop a recommendation (i.e., no moratorium is yet in force).",
+     "quote": "The resolution directs the planning commission to put together a recommendation on putting a moratorium in place to prevent the processing, review and approval of zoning requests, permits or site plans to build or operate data centers, battery storage facilities or cryptocurrency mining facilities."
+    }
+   ],
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "A September 2026 real-estate blog post (kathymaymartin.com, on Rockwood zoning) independently lists 'July 14, 2026 -- Roane County Commission votes to request a two-year data center moratorium from its regional planning commission,' consistent with 'requested, not yet imposed.' A Facebook post found in search ('ROANE COUNTY DATA CENTER MORATORIUM -- WHAT ACTUALLY HAPPENED -- NOTHING HAPPENED!') could not be read (login-walled) but its visible title is also consistent with no moratorium having actually taken effect. No adoption found; row correctly pending."
+    }
+   ],
+   "notes": "Genuinely pending, not an OLDER_INSTRUMENT dating problem."
+  },
+  {
+   "moratorium_id": "tn-sevierville-undated",
+   "outcome": "status_changed",
+   "new_enacted_status": "active",
+   "confidence": 0.95,
+   "changes": {
+    "date_enacted": {
+     "from": "Pending/unconfirmed final: first reading 2026-07-20; second reading 2026-08-03; a third reading was required and its outcome was not found",
+     "to": "August 17, 2026, Sevierville Board of Mayor and Aldermen, Ordinance O2026-011 adopted on third and final reading (unanimous roll call: Helton, Koester, McCroskey, Ohman, Rader all Yes); first reading July 20, 2026, second reading August 3, 2026",
+     "reason": "The city's own August 17, 2026 meeting agenda (item 5, '3rd reading') and the minutes of that meeting (recorded in the September 21, 2026 agenda packet) show Ordinance O2026-011 passed on third and final reading on August 17, 2026, with an immediate effective date. The 'outcome not found' in the prior row is now resolved."
+    },
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2026-08-17",
+     "reason": "Date of third-and-final-reading adoption per official minutes."
+    },
+    "date_enacted_uncertainty": {
+     "from": "unverified",
+     "to": "exact",
+     "reason": "Official minutes give an exact date."
+    },
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2028-02-13",
+     "reason": "Ordinance O2026-011 sets an 18-month (545-day) term with an immediate effective date of August 17, 2026; 2026-08-17 + 545 days = 2028-02-13."
+    },
+    "legal_basis": {
+     "from": "Sevierville ordinance creating an 18-month moratorium on data centers and high-density computing facilities (number not published)",
+     "to": "Sevierville Ordinance O2026-011, 'imposing a temporary moratorium on the acceptance, processing, and approval of applications for land use, zoning, building, site plan, or conditional use permits for data centers and high-density computing facilities,' adopted on third and final reading August 17, 2026 with an immediate effective date",
+     "reason": "Fills in the instrument number and adoption mechanics now that the primary source (city minutes) is in hand."
+    },
+    "current_status": {
+     "from": "Pending as of 2026-09-23 per available sources; passed second of three readings on 2026-08-03; final reading not confirmed. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+     "to": "Active as of 2026-09-23; Ordinance O2026-011 was adopted on third and final reading 2026-08-17 (unanimous), imposing an 18-month moratorium on data centers and high-density computing facilities in Sevierville (automatically expiring 2028-02-13 unless earlier repealed) while staff study infrastructure, environmental, acoustic, and utility impacts.",
+     "reason": "Row incorrectly described the moratorium as still pending; it was in fact adopted before the researched_as_of date."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://www.seviervilletn.org/AgendaCenter/ViewFile/Agenda/_08172026-107",
+     "title": "Board of Mayor and Aldermen agenda, August 17, 2026 (includes minutes of the August 3, 2026 meeting)",
+     "publisher": "City of Sevierville, Tennessee",
+     "document_date": "2026-08-17",
+     "source_type": "agenda",
+     "supports": "Agenda item 5: 'Consider approval of Ordinance O-2026-011 - 3rd reading'; embedded minutes of the Aug 3 meeting show the same ordinance 'passed on second reading' that night.",
+     "quote": "5. Consider approval of Ordinance O-2026-011 - 3rd reading - An Ordinance to establish a moratorium related to the development of Data Centers and High-Density Computing Facilities"
+    },
+    {
+     "url": "https://www.seviervilletn.org/AgendaCenter/ViewFile/Agenda/_09212026-110",
+     "title": "Board of Mayor and Aldermen agenda, September 21, 2026 (includes minutes of the August 17, 2026 meeting)",
+     "publisher": "City of Sevierville, Tennessee",
+     "document_date": "2026-09-21",
+     "source_type": "minutes",
+     "supports": "Full text of Ordinance O2026-011 and the roll-call vote unanimously adopting it on third and final reading on August 17, 2026, with an immediate effective date.",
+     "quote": "Mayor Fox presented and placed for passage an ordinance O2026-011 entitled \"AN ORDINANCE OF THE CITY OF SEVIERVILLE, TENNESSEE, IMPOSING A TEMPORARY MORATORIUM ON THE ACCEPTANCE, PROCESSING, AND APPROVAL OF APPLICATIONS FOR LAND USE, ZONING, BUILDING, SITE PLAN, OR CONDITIONAL USE PERMITS FOR DATA CENTERS AND HIGH-DENSITY COMPUTING FACILITIES ... Those voting Yes: Helton, Koester, McCroskey, Ohman, Rader. Those voting No: None. Fox declared the ordinance passed on third and final reading."
+    },
+    {
+     "url": "https://www.themountainpress.com/news/sevierville-considers-moratorium-for-data-centers/article_516fa139-b191-5248-a052-4b2d0038bf59.html",
+     "source_type": "news",
+     "supports": "First-reading approval July 20, 2026 (packet's original evidence), retained for the timeline.",
+     "quote": "The board approved the proposal on first reading Monday. It must approve the measure two more times before it is enacted."
+    }
+   ],
+   "notes": "Genuine miss, but in the opposite direction from the OLDER_INSTRUMENT concern: this item was flagged 'undated/pending' because the original research agent found the first and second readings but not the third-and-final reading, which had in fact already happened by the researched_as_of date. Confirmed against the city's own agenda/minutes PDFs."
+  },
+  {
+   "moratorium_id": "tn-trousdale-county-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.6,
+   "evidence": [
+    {
+     "url": "https://www.lebanondemocrat.com/hartsville/planning-commission-recommends-one-year-moratorium-on-data-centers/article_48bcf0fe-7a0e-52a3-84b8-14ca5000ede6.html",
+     "source_type": "news",
+     "supports": "Trousdale County Planning Commission began addressing data centers and a possible moratorium at its July 2026 meeting; article is paywalled beyond the opening paragraph and does not confirm a formal recommendation vote or any County Commission action.",
+     "quote": "The Trousdale County Planning Commission began addressing data centers and regulations at their July meeting. ... the Planning Commission reviewed what other counties in Tennessee are doing to establish necessary operational guardrails for data centers and how to use temporary moratoriums to have time to establish those regulations."
+    }
+   ],
+   "notes": "Searched for a Trousdale/Hartsville County Commission vote on a data-center moratorium through September 2026; found nothing beyond the paywalled July Planning Commission story already in the packet (a related article on the county commission's final pre-election meeting agenda did not mention data centers). Row's 'pending, Planning Commission recommendation only' status and low confidence (0.45 originally) both look appropriate; I raised confidence slightly to 0.6 because the single source, while thin, is unambiguous that no formal county action had occurred and is consistent with everything else found."
+  }
+ ]
+}

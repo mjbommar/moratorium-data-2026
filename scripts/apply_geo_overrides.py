@@ -34,6 +34,126 @@ INV = REPO / "data" / "moratorium_inventory.csv"
 
 # moratorium_id -> override
 OVERRIDES: dict[str, dict] = {
+    "mi-caledonia-township-undated": {
+        "latitude": "42.812169",
+        "longitude": "-85.487564",
+        "why": (
+            "Michigan has a Caledonia Township in Alcona County and Caledonia Charter Township "
+            "in Kent County. The moratorium is the Kent County township's (its minutes and the "
+            "Grand Rapids-area coverage); automated geocoding had returned the Alcona County "
+            "township. Found in QA round 3 (2026-09-23)."
+        ),
+    },
+    "mi-lincoln-township-2026": {
+        "latitude": "42.0178900",
+        "longitude": "-86.5049670",
+        "why": (
+            "Same-name township: the row's evidence places it in Berrien County, but automated "
+            "geocoding of the bare name had returned a township of the same name in another "
+            "county. Row renamed 'Lincoln Township (Berrien County)' in QA round 1 (2026-09-23); coordinates resolved "
+            "by hand with Nominatim."
+        ),
+    },
+    "mi-porter-township-2026": {
+        "latitude": "41.8311645",
+        "longitude": "-85.8183348",
+        "why": (
+            "Same-name township: the row's evidence places it in Cass County, but automated "
+            "geocoding of the bare name had returned a township of the same name in another "
+            "county. Row renamed 'Porter Township (Cass County)' in QA round 1 (2026-09-23); coordinates resolved "
+            "by hand with Nominatim."
+        ),
+    },
+    "mi-washington-township-2026": {
+        "latitude": "42.7570924",
+        "longitude": "-83.0373036",
+        "why": (
+            "Same-name township: the row's evidence places it in Macomb County, but automated "
+            "geocoding of the bare name had returned a township of the same name in another "
+            "county. Row renamed 'Washington Township (Macomb County)' in QA round 1 (2026-09-23); coordinates resolved "
+            "by hand with Nominatim."
+        ),
+    },
+    "oh-richfield-township-2026": {
+        "latitude": "41.6905055",
+        "longitude": "-83.8301363",
+        "why": (
+            "Same-name township: the row's evidence places it in Lucas County, but automated "
+            "geocoding of the bare name had returned a township of the same name in another "
+            "county. Row renamed 'Richfield Township (Lucas County)' in QA round 1 (2026-09-23); coordinates resolved "
+            "by hand with Nominatim."
+        ),
+    },
+    "oh-scioto-township-2026": {
+        "latitude": "39.7567168",
+        "longitude": "-83.0802156",
+        "why": (
+            "Same-name township: the row's evidence places it in Pickaway County, but automated "
+            "geocoding of the bare name had returned a township of the same name in another "
+            "county. Row renamed 'Scioto Township (Pickaway County)' in QA round 1 (2026-09-23); coordinates resolved "
+            "by hand with Nominatim."
+        ),
+    },
+    "pa-buffalo-township-2026": {
+        "latitude": "40.7149082",
+        "longitude": "-79.7385009",
+        "why": (
+            "Same-name township: the row's evidence places it in Butler County, but automated "
+            "geocoding of the bare name had returned a township of the same name in another "
+            "county. Row renamed 'Buffalo Township (Butler County)' in QA round 1 (2026-09-23); coordinates resolved "
+            "by hand with Nominatim."
+        ),
+    },
+    "pa-butler-township-2026": {
+        "latitude": "41.0395791",
+        "longitude": "-75.9880458",
+        "why": (
+            "Same-name township: the row's evidence places it in Luzerne County, but automated "
+            "geocoding of the bare name had returned a township of the same name in another "
+            "county. Row renamed 'Butler Township (Luzerne County)' in QA round 1 (2026-09-23); coordinates resolved "
+            "by hand with Nominatim."
+        ),
+    },
+    "pa-center-township-2026": {
+        "latitude": "40.9329281",
+        "longitude": "-79.9265663",
+        "why": (
+            "Same-name township: the row's evidence places it in Butler County, but automated "
+            "geocoding of the bare name had returned a township of the same name in another "
+            "county. Row renamed 'Center Township (Butler County)' in QA round 1 (2026-09-23); coordinates resolved "
+            "by hand with Nominatim."
+        ),
+    },
+    "pa-smithfield-township-2026": {
+        "latitude": "41.0073171",
+        "longitude": "-75.1324962",
+        "why": (
+            "Same-name township: the row's evidence places it in Monroe County, but automated "
+            "geocoding of the bare name had returned a township of the same name in another "
+            "county. Row renamed 'Smithfield Township (Monroe County)' in QA round 1 (2026-09-23); coordinates resolved "
+            "by hand with Nominatim."
+        ),
+    },
+    "pa-warrington-township-2026": {
+        "latitude": "40.0656653",
+        "longitude": "-76.9368682",
+        "why": (
+            "Same-name township: the row's evidence places it in York County, but automated "
+            "geocoding of the bare name had returned a township of the same name in another "
+            "county. Row renamed 'Warrington Township (York County)' in QA round 1 (2026-09-23); coordinates resolved "
+            "by hand with Nominatim."
+        ),
+    },
+    "mi-howard-charter-township-cass-county-undated": {
+        "latitude": "41.855143",
+        "longitude": "-86.165948",
+        "why": (
+            "'Howard Charter Township' is not how the gazetteer names the Cass County "
+            "township (it is plain 'Howard Township'), so the county-qualified query still "
+            "fell through to a Grand Traverse County match. Resolved by hand with Nominatim "
+            "on 2026-09-23 (QA round 1)."
+        ),
+    },
     "ak-houston-undated": {
         "latitude": "61.630278",
         "longitude": "-149.818055",

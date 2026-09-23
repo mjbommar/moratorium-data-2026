@@ -1,0 +1,40 @@
+{
+  "state_abbrev": "ME",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "me-sanford-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "91",
+          "reason": "The originally enacted emergency moratorium (2026-05-19) was 91 days, running to Aug. 18, 2026; the 180-day term is the August 2026 EXTENSION, not the original term. duration_days must reflect the original enacted term."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.pressherald.com/2026/05/19/sanford-imposes-emergency-data-center-moratorium-halting-mousam-river-project/",
+          "title": "Sanford imposes emergency data center moratorium, halting Mousam River project",
+          "publisher": "Portland Press Herald",
+          "document_date": "2026-05-19",
+          "source_type": "news",
+          "supports": "Confirms the original moratorium's term was 91 days, running to Aug. 18, 2026.",
+          "quote": "The council voted unanimously in favor of the 91-day moratorium, which puts a pause on the acceptance, approval or issuance of permits for any large scale data center proposal in the city. The moratorium takes effect immediately and will remain in place until Aug. 18."
+        },
+        {
+          "url": "https://www.pressherald.com/2026/08/05/sanford-extends-data-center-moratorium-for-180-days/",
+          "title": "Sanford extends data center moratorium for 180 days",
+          "publisher": "Portland Press Herald",
+          "document_date": "2026-08-05",
+          "source_type": "news",
+          "supports": "Confirms the 180-day term is the August 2026 extension that overrides the initial 91-day moratorium, not the original enacted term.",
+          "quote": "The Sanford City Council voted unanimously Tuesday night to extend an emergency moratorium on data centers for 180 days. ... The new moratorium overrides an initial 91-day emergency moratorium that would have ended on Aug. 18"
+        }
+      ],
+      "notes": "DURATION_MISMATCH resolved: duration_days corrected from 180 (the extension length) to 91 (the original enacted term), per the flag rule that duration_days must reflect the ORIGINAL term. current_end_date_iso (2027-01-31) is unaffected and stays as computed from the 180-day extension."
+    }
+  ]
+}

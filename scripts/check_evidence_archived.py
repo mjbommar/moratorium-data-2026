@@ -38,14 +38,37 @@ def manifest_ok_urls(state: str) -> set[str]:
     return ok
 
 
-def cited_urls(answer: dict) -> list[tuple[str, str]]:
+STATE_ABBREV = {
+    "Alabama": "AL", "Alaska": "AK", "Arizona": "AZ", "Arkansas": "AR", "California": "CA",
+    "Colorado": "CO", "Connecticut": "CT", "Delaware": "DE", "Florida": "FL", "Georgia": "GA",
+    "Hawaii": "HI", "Idaho": "ID", "Illinois": "IL", "Indiana": "IN", "Iowa": "IA", "Kansas": "KS",
+    "Kentucky": "KY", "Louisiana": "LA", "Maine": "ME", "Maryland": "MD", "Massachusetts": "MA",
+    "Michigan": "MI", "Minnesota": "MN", "Mississippi": "MS", "Missouri": "MO", "Montana": "MT",
+    "Nebraska": "NE", "Nevada": "NV", "New Hampshire": "NH", "New Jersey": "NJ", "New Mexico": "NM",
+    "New York": "NY", "North Carolina": "NC", "North Dakota": "ND", "Ohio": "OH", "Oklahoma": "OK",
+    "Oregon": "OR", "Pennsylvania": "PA", "Rhode Island": "RI", "South Carolina": "SC",
+    "South Dakota": "SD", "Tennessee": "TN", "Texas": "TX", "Utah": "UT", "Vermont": "VT",
+    "Virginia": "VA", "Washington": "WA", "West Virginia": "WV", "Wisconsin": "WI", "Wyoming": "WY",
+}
+
+
+def cited_urls(answer: dict) -> list[tuple[str, str, str]]:
+    """(who, url, state) -- the state whose manifest should hold the URL.
+
+    A decision's state comes from its moratorium_id prefix and a candidate's from
+    its `state` field, so a file spanning several states (QA packets) is checked
+    against the right manifests rather than only the file's `state_abbrev`.
+    """
     out = []
     for d in answer.get("decisions", []):
+        st = d["moratorium_id"][:2].upper()
         for ev in d.get("evidence", []):
-            out.append((d["moratorium_id"], ev["url"]))
+            out.append((d["moratorium_id"], ev["url"], st))
     for c in answer.get("new_candidates", []):
+        raw = c.get("state", "")
+        st = raw.upper() if len(raw) == 2 else STATE_ABBREV.get(raw, answer["state_abbrev"])
         for ev in c.get("evidence", []):
-            out.append((f"candidate {c['jurisdiction']}", ev["url"]))
+            out.append((f"candidate {c['jurisdiction']}", ev["url"], st))
     return out
 
 
@@ -63,10 +86,10 @@ def main() -> int:
     missing_total = 0
     for path in paths:
         answer = json.loads(path.read_text(encoding="utf-8"))
-        ok = manifest_ok_urls(answer["state_abbrev"])
         cited = cited_urls(answer)
-        missing = [(who, url) for who, url in cited if url not in ok]
-        seen_urls = {url for _, url in cited}
+        ok_by_state = {st: manifest_ok_urls(st) for st in {st for _, _, st in cited} | {answer["state_abbrev"]}}
+        missing = [(who, url) for who, url, st in cited if url not in ok_by_state[st] and url not in ok_by_state[answer["state_abbrev"]]]
+        seen_urls = {url for _, url, _ in cited}
         print(f"{path.name}: {len(seen_urls)} distinct URLs cited, {len(missing)} not archived")
         for who, url in missing:
             print(f"  MISSING {who}: {url}")

@@ -3,16 +3,17 @@
 
 Every local infrastructure moratorium in the inventory for Iowa, current through **September 23, 2026**.
 
-**54 instruments** — 48 in force, 3 pending, 3 past.
+**57 instruments** — 52 in force, 2 pending, 3 past.
 
 State policy is tracked separately: **12 actions** (12 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
-| Adair County | County | 2026-03-18 | data center | 🟢 Active |
+| Adair County | County | 2026-03-18 | data center, battery storage | 🟢 Active |
 | Audubon County | County | 2025-08-12 | battery storage | 🟢 Extended |
 | Audubon County | County | 2026-05-05 | data center, cryptocurrency mining | 🟢 Active |
 | Boone County | County | 2026-09-09 | data center | 🟢 Active |
+| Buchanan County | County | 2026-01 | data center, cryptocurrency mining, battery storage | 🟢 Extended |
 | Cedar County | County | 2026-05-26 | data center | 🟢 Active |
 | Cherokee County | County | 2026-03-24 | battery storage | ⚪ Replaced |
 | City of Ames | City | 2026-07-28 | data center | 🟢 Active |
@@ -30,6 +31,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Dickinson County | County | 2026-05-12 | data center, cryptocurrency mining, solar, battery storage | 🟢 Active |
 | Dubuque County | County | 2026-05-26 | data center | 🟢 Active |
 | Emmet County | County | 2024-10-15 | wind | ⚪ Replaced |
+| Emmet County | County | 2025-01-28 | battery storage, solar | 🟢 Extended |
 | Emmet County | County | 2026-08-25 | data center | 🟢 Active |
 | Floyd County | County | 2023-11 | battery storage | 🟢 Extended |
 | Franklin County | County | 2026-03-31 | data center | 🟢 Active |
@@ -37,18 +39,19 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Ida County | County | 2026-06-30 | data center | 🟢 Active |
 | Iowa County | County | 2026-07-31 | data center | 🟢 Active |
 | Jackson County | County | 2024-09-17 | cryptocurrency mining, data center | 🟢 Extended |
+| Jackson County | County | 2024-01-02 | battery storage | 🟢 Extended |
 | Jefferson County | County | 2026-08-11 | data center | 🟢 Active |
 | Johnson County | County | 2025-11-06 | data center | 🟢 Active |
 | Jones County | County | 2024-10-15 | data center, battery storage, cryptocurrency mining | ⚪ Replaced |
 | Lee County | County | 2026-06-16 | data center | 🟢 Active |
 | Linn County | County | 2026-07-01 | data center | 🟢 Active |
 | Louisa County | County | 2026-07-07 | data center | 🟢 Active |
-| Louisa County | County | Unverified | cryptocurrency mining | 🟡 Pending |
+| Louisa County | County | 2026-09-15 | cryptocurrency mining | 🟢 Active |
 | Madison County | County | 2026-05-26 | data center, battery storage | 🟢 Active |
 | Marshall County | County | Unverified | data center | 🟡 Pending |
 | Mitchell County | County | 2025-11-25 | data center | 🟢 Active |
 | Page County | County | 2026-07-21 | data center | 🟢 Active |
-| Palo Alto County | County | 2025-06-03 | cryptocurrency mining, data center | 🟢 Extended |
+| Palo Alto County | County | 2025-06-03 | cryptocurrency mining | 🟢 Extended |
 | Palo Alto County | County | 2025-05-13 | battery storage | 🟢 Extended |
 | Palo Alto County | County | 2026-07-08 | data center | 🟢 Active |
 | Plymouth County | County | 2026-06-16 | data center, battery storage | 🟢 Active |
@@ -74,7 +77,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Normalized date:** `2026-03-18` (exact)
 - **Duration:** Until the Board passes a resolution imposing a permanent moratorium on the construction of data centers, high-density computing facilities and battery storage facilities, or rescinds the temporary moratorium; no calendar end date (resolution text as read into the record and quoted by the Atlantic News-Telegraph).
 - **Current end date:** `—`
-- **Sectors:** data center
+- **Sectors:** data center, battery storage
 - **Moratorium ID:** `ia-adair-county-2026`
 - **Legal basis:** Resolution #2026-26, "Resolution to Establish a Temporary Moratorium on the Construction of Data Centers, High-Density Computing Facilities, and Battery Storage Facilities in the Unincorporated Areas of Adair County, Iowa," adopted March 18, 2026 by unanimous 5-0 roll call.
 - **What prompted it:** Proposed 765 kV MISO transmission line, land negotiations in the Hebron area, and concern that data centers require large amounts of electricity and water.
@@ -89,7 +92,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2025-08-12 -- Board of Supervisors adopted Resolution 2025-46 imposing a temporary moratorium on utility-scale BESS until January 1, 2026 (after public hearing); extended 2026-05-05 by Resolution 2026-25 until May 1, 2027.
 - **Normalized date:** `2025-08-12` (exact)
 - **Duration:** Originally until January 1, 2026; extended until May 1, 2027 or passage of a permanent utility-scale BESS development ordinance
-- **Current end date:** `—`
+- **Current end date:** `2027-05-01`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ia-audubon-county-2025`
 - **Legal basis:** Resolution 2025-46 (2025-08-12); extended by Resolution 2026-25 (2026-05-05)
@@ -130,6 +133,22 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Detailed status:** Active as of 2026-09-23; one-year moratorium adopted 2026-09-09 for unincorporated Boone County. It does not apply inside city limits, where a Lightedge colocation facility is proposed for the Boone Business Park.
 - **Outcome:** Planning and Zoning Commission to prepare a data center presentation and inform a comprehensive data center zoning ordinance.
 
+### Buchanan County
+
+- **Type:** County
+- **Status:** 🟢 Extended
+- **Date enacted:** Approximately January 2026 (original adoption; exact day not found)
+- **Normalized date:** `2026-01` (month_only)
+- **Duration:** Extended May 18, 2026 through December 31, 2027
+- **Current end date:** `—`
+- **Sectors:** data center, cryptocurrency mining, battery storage
+- **Moratorium ID:** `ia-buchanan-county-2026`
+- **Legal basis:** Resolutions 26-62 (data mining), 26-63 (utility-scale battery storage), 26-64 (data storage centers), extending prior 2026 moratoria
+- **What prompted it:** Planning and Zoning Commission needs time to draft ordinances covering infrastructure, natural resources and property rights
+- **Affected projects:** None named
+- **Detailed status:** Active/extended as of 2026-09-23 (through Dec. 31, 2027) for all three categories.
+- **Outcome:** Planning and Zoning Commission continuing to draft ordinances; moratoria may end earlier if ordinances are completed
+
 ### Cedar County
 
 - **Type:** County
@@ -150,16 +169,16 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 
 - **Type:** County
 - **Status:** ⚪ Replaced
-- **Date enacted:** 2026-03-24 (approx.) -- Board of Supervisors passed an indefinite moratorium on solar battery storage 'last Tuesday' per a Storm Lake Times Pilot report posted 2026-03-31.
-- **Normalized date:** `2026-03-24` (unverified)
+- **Date enacted:** 2026-03-24 -- Resolution #2026-10 adopted by the Cherokee County Board of Supervisors (roll call: Mullins-aye, Ellis-aye, Bellefy-nay, Skou-aye, Petersen-aye), per official minutes published in the Marcus News.
+- **Normalized date:** `2026-03-24` (exact)
 - **Duration:** Indefinite
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ia-cherokee-county-2026`
-- **Legal basis:** Cherokee County Board of Supervisors moratorium (two-page document released by the County Auditor); number not published in accessible coverage
+- **Legal basis:** Resolution #2026-10, "Establishing an Indefinite Moratorium on Battery Storage Projects in Cherokee County, Iowa" (adopted 2026-03-24)
 - **What prompted it:** Supervisors' concerns about lithium-ion battery storage tied to a proposed solar-plus-battery project.
 - **Affected projects:** Smith brothers' proposed 30 MW solar array (with cattle herd).
-- **Detailed status:** Replaced (August 2026): the Board overturned the battery moratorium and replaced it with an ordinance allowing a 30 MW solar array project to proceed. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Detailed status:** Replaced (August 2026): the Board overturned the battery moratorium and replaced it with an ordinance allowing a 30 MW solar array project to proceed.
 - **Outcome:** Replaced by a county ordinance in August 2026.
 
 ### City of Ames
@@ -405,14 +424,30 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 ### Emmet County
 
 - **Type:** County
+- **Status:** 🟢 Extended
+- **Date enacted:** 2025-01-28 (Board of Supervisors adopted Resolution 25-05, 4-0 with one absent, per official minutes); continued by Resolution 25-36 (Sept. 2025, to 2026-03-31), Resolution 26-13 (2026-03-24, to 2026-09-30) and Resolution 26-28 (2026-09-22, to 2026-12-31)
+- **Normalized date:** `2025-01-28` (exact)
+- **Duration:** Until 2025-09-30 at 11:59 p.m. (Resolution 25-05), unless ended earlier on completion of zoning amendments; continued to 2026-03-31, then 2026-09-30, then 2026-12-31
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `ia-emmet-county-2025`
+- **Legal basis:** Resolution 25-05 (2025-01-28), 'Temporary Moratorium on the Construction of USSES and BESS in the Unincorporated Areas of Emmet County, Iowa'; continued by Resolutions 25-36, 26-13 and 26-28
+- **What prompted it:** Board wants ordinances regulating construction, operation and decommissioning of utility-scale solar and battery storage (safety, neighbouring property, county roads) before any are built.
+- **Affected projects:** None named.
+- **Detailed status:** Extended as of 2026-09-23; the USSES/BESS construction moratorium adopted 2025-01-28 has been continued three times, most recently by Resolution 26-28 (signed 2026-09-22), to 2026-12-31 at 11:59 p.m., while the county drafts solar and battery-storage zoning rules.
+- **Outcome:** County drafting solar (and BESS) ordinance; board may end the moratorium early when zoning amendments are complete.
+
+### Emmet County
+
+- **Type:** County
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-08-25 -- Board of Supervisors voted unanimously to adopt Resolution 2625 establishing a one-year temporary moratorium on data centers (Estherville News; KTIV).
+- **Date enacted:** 2026-08-25 -- Board of Supervisors voted unanimously to adopt Resolution No. 26-25, a one-year temporary moratorium on data center rezoning/subdivision/zoning-permit applications in unincorporated Emmet County, per the signed resolution and corroborating KTIV and Radio Iowa coverage.
 - **Normalized date:** `2026-08-25` (exact)
 - **Duration:** One year
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ia-emmet-county-2026`
-- **Legal basis:** Resolution 2625 (Emmet County Board of Supervisors)
+- **Legal basis:** Resolution No. 26-25, "Establishing a Temporary Moratorium on Approval of Applications for Rezoning, Subdivision, or Zoning Permits for Data Centers in Unincorporated Emmet County, Iowa" (adopted 2026-08-25)
 - **What prompted it:** Precautionary; board wanted regulations before any project is proposed, citing health concerns, water usage and energy needs.
 - **Affected projects:** None; no inquiries had been made.
 - **Detailed status:** Active as of 2026-09-23; one-year moratorium adopted 2026-08-25 while the county rewrites zoning; no data center inquiries had been received.
@@ -425,7 +460,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2023-11 -- moratorium on wind permits and applications enacted, also covering battery energy storage system (BESS) applications and permits (KCHA). Wind portion ended with the new wind ordinance (2026-01-06); BESS portion extended by Res #04-26 (2026-01-20) to 2026-08-04, lapsed 2026-08-04, and was renewed 2026-09-15 through 2026-12-29.
 - **Normalized date:** `2023-11` (month_only)
 - **Duration:** BESS moratorium currently through December 29, 2026 unless modified or repealed earlier
-- **Current end date:** `—`
+- **Current end date:** `2026-12-29`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ia-floyd-county-2023`
 - **Legal basis:** Original November 2023 wind/BESS moratorium; Res #04-26 (2026-01-20) extending the BESS moratorium to 2026-08-04; Board action of 2026-09-15 extending it through 2026-12-29
@@ -513,6 +548,22 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Affected projects:** One Aurum Capital Ventures bitcoin/data-mining special-exception application (project sized at about 2.5 megawatts) was the subject of a unanimous March 17, 2026 zoning commission recommendation against the applicant (recommend keep parcel A-1 zoning, deny special exception); applicant John Holberic represented Aurum Capital Ventures.
 - **Detailed status:** Extended; active as of 2026-09-23. On 2026-08-04 the Board unanimously approved a replacement moratorium (presented July 28) that took over from Resolution #1142-09-09-2025 before its Aug. 31, 2026 expiry, runs through 2027-08-04 (ending sooner if permanent regulations are adopted), and broadens the scope from data mining facilities to high-density computing and data-processing facilities including data centers in unincorporated Jackson County. The Zoning Commission had not yet formally recommended a permanent ordinance.
 - **Outcome:** County reserved right to terminate early upon adoption of an ordinance ("BE IT FURTHER RESOLVED that the Jackson County Board of Supervisors reserves the right to end the moratorium prior to the approved term…upon completion of a satisfactorily developed Data Mining Facilities Ordinance"). No final county ordinance had been adopted as of the captured March 17, 2026 zoning commission meeting.
+
+### Jackson County
+
+- **Type:** County
+- **Status:** 🟢 Extended
+- **Date enacted:** January 2, 2024 (original); extended Sept. 10, 2024 and Dec. 23, 2025
+- **Normalized date:** `2024-01-02` (exact)
+- **Duration:** Extended through August 31, 2027
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ia-jackson-county-2024-2`
+- **Legal basis:** Resolution #1004-01-02-2024 (original); extended by Resolution #1063-09-10-2024 (to 2025-06-30) and Resolution #1157-12-23-2025 (to 2027-08-31)
+- **What prompted it:** County lacks a Utility-Scale Battery Energy Storage Systems ordinance; Planning and Zoning Commission needs time to draft one
+- **Affected projects:** None named
+- **Detailed status:** Active/extended as of 2026-09-23, through Aug. 31, 2027.
+- **Outcome:** Board reserves the right to terminate early upon adoption of a BESS ordinance
 
 ### Jefferson County
 
@@ -613,17 +664,17 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 ### Louisa County
 
 - **Type:** County
-- **Status:** 🟡 Pending
-- **Date enacted:** Pending -- first reading of Ordinance 26-2 (moratorium on new permit applications for cryptocurrency mining projects) approved at the Sept. 1, 2026 meeting after a public hearing; the Board deferred waiving the second and third readings to its next meeting.
-- **Normalized date:** `—` (unverified)
-- **Duration:** Until zoning develops cryptocurrency mining rules and regulations (per the chair's description); term not published
-- **Current end date:** `—`
+- **Status:** 🟢 Active
+- **Date enacted:** First reading of Ordinance 26-2 approved Sept. 1, 2026; second reading approved and third reading waived (voice vote) at the Sept. 15, 2026 Board of Supervisors meeting, following a public hearing, per The Hawk Eye/Mississippi Valley Publishing.
+- **Normalized date:** `2026-09-15` (exact)
+- **Duration:** 180 days from finalization (through approximately 2027-03-14), or until a county ordinance regulating cryptocurrency mining development is enacted, whichever occurs first
+- **Current end date:** `2027-03-14`
 - **Sectors:** cryptocurrency mining
 - **Moratorium ID:** `ia-louisa-county-undated`
 - **Legal basis:** Proposed Ordinance 26-2 (Louisa County), moratorium on new permit applications for development of cryptocurrency mining projects in the unincorporated area
 - **What prompted it:** Resident request at the data center moratorium hearing to add crypto mining; supervisors committed to a separate crypto moratorium.
 - **Affected projects:** None named.
-- **Detailed status:** Pending as of 2026-09-23: first reading approved Sept. 1, 2026; second reading scheduled for a later meeting. A Hawk Eye social post indicates final adoption, but the article text could not be retrieved. [VERIFY adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Detailed status:** Active as of 2026-09-23. The Hawk Eye (Mississippi Valley Publishing) confirms the moratorium was finalized Sept. 15, 2026 when the Board of Supervisors approved the second reading and waived the third reading of Ordinance 26-2, after a public hearing. The article notes the crypto moratorium is expected to eventually be combined with the county's existing data-center moratorium (Ordinance 26-1) into a single Planning and Zoning Commission amendment once current wind-energy amendment work is finished.
 - **Outcome:** —
 
 ### Madison County
@@ -697,8 +748,8 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2025-06-03 -- Board of Supervisors adopted Resolution 6-3-2025, a temporary moratorium on development/construction of cryptocurrency and data mining facilities; extended 2026-03-10 by Resolution No. 3-10-2026 to 2027-04-01 or passage of an ordinance.
 - **Normalized date:** `2025-06-03` (exact)
 - **Duration:** Extended to April 1, 2027 or passage of a cryptocurrency/data mining facility ordinance, whichever comes first; further extension possible by resolution
-- **Current end date:** `—`
-- **Sectors:** cryptocurrency mining, data center
+- **Current end date:** `2027-04-01`
+- **Sectors:** cryptocurrency mining
 - **Moratorium ID:** `ia-palo-alto-county-2025`
 - **Legal basis:** Resolution 6-3-2025 (original); Resolution No. 3-10-2026, 'A Resolution Extending a Temporary Moratorium on Cryptocurrency and Data Mining Facilities' (adopted 2026-03-10, 5-0)
 - **What prompted it:** Companies interested in building crypto/data mining facilities; need to review ordinances to protect county roads, natural resources and property rights.
@@ -712,14 +763,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Extended
 - **Date enacted:** 2025-05-13 -- Board of Supervisors adopted Resolution No. 5-13-2025 approving a temporary moratorium on utility-scale battery energy storage systems (motion Graettinger, second Solberg; unanimous).
 - **Normalized date:** `2025-05-13` (exact)
-- **Duration:** Originally until April 1, 2026 or passage of a BESS ordinance; extendable by resolution
-- **Current end date:** `—`
+- **Duration:** Originally until April 1, 2026 or passage of a BESS ordinance; renewed by Resolution No. 2-10-2026 (2026-02-10) until February 1, 2027 or passage of a BESS ordinance
+- **Current end date:** `2027-02-01`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ia-palo-alto-county-2025-2`
-- **Legal basis:** Resolution No. 5-13-2025, A Resolution Approving a Temporary Moratorium on Utility Scale Battery Energy Storage Systems
+- **Legal basis:** Resolution No. 5-13-2025 (2025-05-13), original BESS moratorium to 2026-04-01; renewed by Resolution No. 2-10-2026 (2026-02-10), 'A Resolution Approving a Temporary Moratorium on Battery Energy Storage Systems,' effective immediately until 2027-02-01 or passage of a BESS ordinance
 - **What prompted it:** Need to draft a utility-scale BESS ordinance.
 - **Affected projects:** Invenergy solar project (requested a BESS ordinance, July 2026).
-- **Detailed status:** Status uncertain as of 2026-09-23. The original term ran to 2026-04-01. The March 10, 2026 minutes describe Resolution No. 3-10-2026 as extending the 'data mining & Battery Storage Systems moratorium', but the resolution text itself covers only cryptocurrency/data mining facilities; in July 2026 Invenergy asked the Board for the battery storage ordinance, which had not been adopted. [VERIFY details not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Detailed status:** Extended; active as of 2026-09-23 through 2027-02-01 (or earlier BESS ordinance). Resolution No. 2-10-2026 (2026-02-10) renewed the BESS moratorium before the original term lapsed; the March 10, 2026 Resolution No. 3-10-2026 extended only the separate cryptocurrency/data-mining moratorium despite its motion line's ambiguous wording. As of the July 7, 2026 meeting, Invenergy was still asking the Board for a battery-storage ordinance, confirming no BESS ordinance had been adopted and the moratorium remained in force.
 - **Outcome:** —
 
 ### Palo Alto County

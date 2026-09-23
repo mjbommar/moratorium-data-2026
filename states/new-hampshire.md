@@ -3,15 +3,32 @@
 
 Every local infrastructure moratorium in the inventory for New Hampshire, current through **September 23, 2026**.
 
-**1 instrument** — 1 in force, 0 pending, 0 past.
+**2 instruments** — 2 in force, 0 pending, 0 past.
 
 State policy is tracked separately: **6 actions** (6 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
+| Bow | Town | 2026-09-17 | data center | 🟢 Active |
 | Town of Nottingham | Town | 2026-09-08 | data center | 🟢 Active |
 
 ## Detailed entries
+
+### Bow
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** On or about September 17, 2026 (Planning Board vote)
+- **Normalized date:** `2026-09-17` (exact)
+- **Duration:** One year
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `nh-bow-2026`
+- **Legal basis:** Planning Board interim zoning vote (RSA 674:23)
+- **What prompted it:** Hyperscale data center (up to 350 MW / 200 MW per differing reports) proposed at the former Merrimack Station coal plant site
+- **Affected projects:** Proposed hyperscale data center at the former Merrimack Station coal plant (Granite Shore Power / Eversource FERC interconnection study)
+- **Detailed status:** Reported as adopted (Planning Board voted unanimously for a one-year moratorium) around Sept. 17, 2026, one week before this research date. A town-meeting vote may still be required under RSA 674:23 for the moratorium to continue beyond its initial term. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Not fully confirmed from a primary town document
 
 ### Town of Nottingham
 

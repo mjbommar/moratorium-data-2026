@@ -1,0 +1,72 @@
+{
+ "state_abbrev": "MN",
+ "researched_as_of": "2026-09-23",
+ "researcher": "Claude Fable 5.1 coordinator (QA round 2 reconciliation)",
+ "decisions": [
+  {
+   "moratorium_id": "mn-north-branch-undated",
+   "outcome": "status_changed",
+   "new_enacted_status": "active",
+   "confidence": 0.8,
+   "changes": {
+    "date_enacted": {
+     "from": "",
+     "to": "2026-07 (Chisago County Press, 2026-07-31, reporting the council's prior-week meeting: 'Council reviewed and adopted 5-0 a high utility user application moratorium'; exact meeting day not stated)",
+     "reason": "Blind re-verification found the adoption report the research pass missed."
+    },
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2026-07",
+     "reason": "Adoption reported in the week before 2026-07-31; day not stated."
+    },
+    "date_enacted_uncertainty": {
+     "from": "unverified",
+     "to": "month_only",
+     "reason": "Month established, day not."
+    },
+    "duration": {
+     "from": "As of the September 2026 report reviewed, the city council 'plans to set' a six-month moratorium on new data centers while staff develop regulations on 'high utility users'; adoption was not yet confirmed in sources located in this pass.",
+     "to": "Six months from adoption (late July 2026), so to about late January 2027; staff to study impacts and recommend code changes in the interim.",
+     "reason": "Term stated in the adoption report."
+    },
+    "duration_days": {
+     "from": "",
+     "to": "180",
+     "reason": "Six-month term."
+    },
+    "duration_kind": {
+     "from": "unknown",
+     "to": "fixed_days",
+     "reason": "Fixed six-month term."
+    },
+    "legal_basis": {
+     "from": "Not yet adopted as of the article reviewed; discussion has proceeded through the Planning Commission, with Council Member Patrick Meacham as liaison to the full City Council.",
+     "to": "City Council action adopting a 'high utility user' application moratorium (5-0); resolution number not reported. Covers sites using 50,000+ gallons of water per day or 25-50 MW: data centers, AI facilities, hydrogen production, cryptocurrency mining.",
+     "reason": "Adoption and scope per the Chisago County Press report."
+    },
+    "current_status": {
+     "from": "Pending as of 2026-09-23. City council has discussed and, per Planning Commission liaison Patrick Meacham, 'plans to set' a six-month moratorium on new data centers, but no confirmed adoption vote or date was located in sources reviewed in this pass. Mayor Kevin Schieber expressed hope that permanent regulations could be in place by the end of 2026. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+     "to": "Active as of 2026-09-23. Adopted 5-0 in late July 2026 as a six-month moratorium on 'high utility user' applications (data centers, AI facilities, hydrogen production, crypto mining; 50,000+ gal/day or 25-50 MW). [VERIFY instrument number and exact adoption date; primary source not yet located]",
+     "reason": "Row was recorded as pending on an earlier article that described the measure as planned."
+    },
+    "sectors": {
+     "from": "[\"data_center\"]",
+     "to": "[\"data_center\",\"cryptocurrency_mining\",\"general\"]",
+     "reason": "The instrument covers crypto mining and other high-utility uses, not only data centers."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://chisagocountypress.com/news/2026/jul/31/nb-calls-off-old-town-again/",
+     "title": "NB calls off Old Town again",
+     "publisher": "Chisago County Press",
+     "document_date": "2026-07-31",
+     "source_type": "news",
+     "supports": "Council adopted the six-month high-utility-user moratorium 5-0.",
+     "quote": "Council reviewed and adopted 5-0 a high utility user application moratorium. The halt gives the city breathing room to align code and regulations on applications for projects like data centers, AI facilities, hydrogen production plants and crypto currency mining operations and similar projects. The halt is in effect for six months."
+    }
+   ],
+   "notes": "Found by blind re-verification (QA round 2, item B10). The research pass had only the July 19 Isanti-Chisago County Star piece, which described the measure as planned."
+  }
+ ]
+}

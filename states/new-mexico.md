@@ -3,13 +3,15 @@
 
 Every local infrastructure moratorium in the inventory for New Mexico, current through **September 23, 2026**.
 
-**4 instruments** — 4 in force, 0 pending, 0 past.
+**6 instruments** — 5 in force, 1 pending, 0 past.
 
 State policy is tracked separately: **3 actions** (3 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | Colfax County | County | 2026-08-25 | data center | 🟢 Active |
+| Grant County | County | Unverified | data center | 🟡 Pending |
+| Rio Communities | City | 2026-08-26 | data center, general | 🟢 Active |
 | Santa Fe County | County | 2026-06-30 | data center | 🟢 Active |
 | Sierra County | County | 2026-07-21 | data center | 🟢 Active |
 | Socorro County | County | 2026-06-09 | data center | 🟢 Active |
@@ -31,6 +33,38 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Affected projects:** None sited in unincorporated Colfax County; the City of Raton separately had a since-expired memorandum of understanding with Atterix LLC to consider a data center at a former K-Mart site, but that is a municipal, not county, matter and is unaffected by this county ordinance.
 - **Detailed status:** Active as of 2026-09-23. Colfax County Commissioners unanimously adopted Ordinance No. 2026-02, a one-year moratorium on establishing or expanding data centers in unincorporated areas of the county, at their August 25, 2026 meeting (per the county's own public notice scheduling that consideration and CPR.org's September 3, 2026 report that the ordinance 'passed unanimously late last month'). The moratorium does not bind municipalities within the county (such as the City of Raton), which could still approve a data center; Raton itself considered but postponed its own moratorium proposal around the same time.
 - **Outcome:** Colfax County Commission unanimously adopted a one-year moratorium on new or expanded data centers in unincorporated county territory.
+
+### Grant County
+
+- **Type:** County
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Proposed one-year moratorium, on the 2026-09-24 commission agenda (not yet voted as of this research pass)
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `nm-grant-county-undated`
+- **Legal basis:** Resolution R-26-54, Notice of Intent to Consider an Ordinance Establishing a Temporary One-Year Moratorium Prohibiting Data Centers and Direct Supporting Infrastructure within the Unincorporated Area
+- **What prompted it:** Secretive Site Layer 1 LLC data center/gas-generation proposal near Hachita and Playas, disclosed via an air-quality permit legal notice; community opposition and transparency concerns; modeled on Socorro County's ordinance.
+- **Affected projects:** Site Layer 1, LLC data center/natural-gas generation proposal near Hachita and Playas.
+- **Detailed status:** Pending as of 2026-09-23. Commissioner Nancy Stephens is sponsoring Resolution R-26-54 (Notice of Intent to Consider an Ordinance Establishing a one-year data-center moratorium), scheduled for the Board of Commissioners' regular meeting on 2026-09-24 (the day after this research pass). Outcome not yet known. [VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** —
+
+### Rio Communities
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-08-26 (City Council, 4-0)
+- **Normalized date:** `2026-08-26` (exact)
+- **Duration:** 365-day moratorium
+- **Current end date:** `—`
+- **Sectors:** data center, general
+- **Moratorium ID:** `nm-rio-communities-2026`
+- **Legal basis:** Council-approved 365-day moratorium on undefined land uses exceeding 20,000 sq ft in commercial, industrial, and manufacturing zones
+- **What prompted it:** CBRE marketing 365+ acres as a premier data center development site; city zoning code has no definition for data centers.
+- **Affected projects:** CBRE-marketed 365+ acre site.
+- **Detailed status:** Active as of 2026-09-23. Council approved 4-0 (reported as Monday, 2026-08-24/26) a 365-day moratorium on undefined uses over 20,000 sq ft in commercial/industrial/manufacturing zones, targeting data centers without naming them by definition; also directed staff to draft data-center-specific zoning definitions.
+- **Outcome:** Staff drafting data center zoning definitions.
 
 ### Santa Fe County
 

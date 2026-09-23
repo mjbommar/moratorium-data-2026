@@ -3,13 +3,14 @@
 
 Every local infrastructure moratorium in the inventory for Colorado, current through **September 23, 2026**.
 
-**24 instruments** — 22 in force, 1 pending, 1 past.
+**30 instruments** — 25 in force, 2 pending, 3 past.
 
 State policy is tracked separately: **4 actions** (4 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | Archuleta County | County | 2026-06-16 | data center | 🟢 Active |
+| Arvada | City | Unverified | data center | 🟡 Pending |
 | Boulder County | County | 2026-06-02 | data center | 🟢 Active |
 | Broomfield | City | 2026-07-07 | data center | 🟢 Active |
 | Buena Vista | Town | 2026-06-09 | data center, cryptocurrency mining | 🟢 Active |
@@ -17,10 +18,13 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 | Commerce City | City | Unverified | data center | 🟡 Pending |
 | Delta County | County | 2026-07-07 | data center | 🟢 Active |
 | Denver | City | 2026-05-18 | data center | 🟢 Active |
+| Fremont County (Unincorporated) | County | 2024-06-11 | battery storage, solar | ⚪ Expired |
+| Grand County | County | 2025-06-24 | solar, wind, battery storage | 🟢 Active |
 | Grand County | County | 2026-06-09 | data center | 🟢 Active |
 | Hudson | Town | 2026-07-01 | data center | 🟢 Active |
 | Jefferson County | County | 2026-05-19 | data center | 🟢 Active |
 | Johnstown | Town | 2026-07-20 | data center | 🟢 Active |
+| La Plata County | County | 2025-06-17 | battery storage | ⚪ Replaced |
 | Larimer County | County | 2026-01-27 | data center | 🟢 Extended |
 | Lochbuie | Town | 2026-07-21 | data center | 🟢 Active |
 | Logan County | County | 2025-10-21 | data center, battery storage, solar, wind | ⚪ Replaced |
@@ -30,8 +34,10 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 | Montrose County | County | 2026-07-01 | data center | 🟢 Active |
 | Monument | Town | 2026-07-20 | data center | 🟢 Active |
 | Paonia | Town | 2026-08-11 | data center | 🟢 Active |
+| Phillips County | County | 2026-02-27 | data center | 🟢 Extended |
 | Saguache County | County | 2026-05-05 | data center | 🟢 Active |
 | South Fork | Town | 2026-06-18 | data center | 🟢 Active |
+| Washington County | County | 2023 | battery storage | 🟢 Active |
 | Woodland Park | City | 2026-07-16 | data center | 🟢 Active |
 
 ## Detailed entries
@@ -51,6 +57,22 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 - **Affected projects:** —
 - **Detailed status:** Active as of 2026-09-23. Six-month moratorium unanimously adopted via Resolution 2026-47 at the June 16, 2026 Board of County Commissioners meeting; per the Pagosa Springs Sun, 'The moratorium will end on Dec. 15 unless terminated or extended by a resolution from the BoCC.' No termination or extension found as of 2026-09-23.
 - **Outcome:** —
+
+### Arvada
+
+- **Type:** City
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** 18 months (proposed)
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `co-arvada-undated`
+- **Legal basis:** Ordinance authorizing a moratorium on primary use data center applications (first reading 2026-09-15)
+- **What prompted it:** City zoning, land use and building codes do not address data centers as a distinct land use
+- **Affected projects:** None identified
+- **Detailed status:** Pending as of 2026-09-23; City Council advanced an 18-month moratorium on primary-use data center applications on first reading 2026-09-15; public hearing and final vote scheduled for 2026-10-06.
+- **Outcome:** Awaiting second reading/final Council vote on 2026-10-06
 
 ### Boulder County
 
@@ -164,6 +186,38 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 - **Detailed status:** Active as of 2026-09-23. Denver's own official city page confirms the moratorium runs 'from May 21, 2026 to May 21, 2027.' The city has begun forming a 20+ member community Working Group (facilitated by Group14 Engineering and the Civic Consulting Collaborative) to recommend post-moratorium zoning, building, and energy code changes; applications were open August 21-September 4, 2026, and the Working Group's first meeting is scheduled for October 9, 2026. Denver's own page states the moratorium 'will be extended' if the Working Group needs more time. No repeal, early amendment, or Denver Zoning Code/Municipal Code data-center text amendment that would end the moratorium early was found as of 2026-09-23.
 - **Outcome:** If enacted, Denver would use the pause for a working group and possible amendments to zoning, building, energy, green/climate, and municipal code provisions.
 
+### Fremont County (Unincorporated)
+
+- **Type:** County
+- **Status:** ⚪ Expired
+- **Date enacted:** 2024-06-11 (per BESS tracker; primary resolution date not independently confirmed)
+- **Normalized date:** `2024-06-11` (unverified)
+- **Duration:** Six months (per resolution text: 'six months from the date of this Resolution')
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `co-fremont-county-unincorporated-2024`
+- **Legal basis:** Emergency temporary moratorium on major utility projects (battery energy storage, solar, wind, water/sewage, geothermal) under HB 74-1041
+- **What prompted it:** Inquiries about commercial battery storage/solar and inadequate zoning regulations
+- **Affected projects:** None identified
+- **Detailed status:** Expired (lifted). County adopted an emergency temporary moratorium on major utility projects, including battery energy storage and solar; per the eticaag BESS tracker the moratorium ran 2024-06-11 to 2025-01-01 (6 months) and has since lifted. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** County developed HB 74-1041 permitting standards for major utility projects
+
+### Grand County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** 2025-06-24 (moratorium took effect)
+- **Normalized date:** `2025-06-24` (exact)
+- **Duration:** Two years
+- **Current end date:** `—`
+- **Sectors:** solar, wind, battery storage
+- **Moratorium ID:** `co-grand-county-2025`
+- **Legal basis:** Grand County Board of County Commissioners moratorium on commercial solar, wind, battery and energy storage projects (>25kW)
+- **What prompted it:** County master plan update; limited existing regulation of large-scale commercial alternative energy projects
+- **Affected projects:** None identified
+- **Detailed status:** Active as of 2026-09-23; a two-year moratorium (effective 2025-06-24) on commercial-scale solar, wind, and battery/energy storage projects exceeding 25kW capacity, running through 2027-06-24.
+- **Outcome:** County developing land-use regulations for large-scale renewable/storage projects
+
 ### Grand County
 
 - **Type:** County
@@ -171,7 +225,7 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 - **Date enacted:** Board of County Commissioners approved at its June 9, 2026 meeting in Hot Sulphur Springs.
 - **Normalized date:** `2026-06-09` (exact)
 - **Duration:** Moratorium on construction of data centers under the county's state-delegated 1041 authority, deliberately aligned to expire on the same date as the county's existing two-year moratorium on commercial/utility-scale solar and wind facilities over 25 kW (adopted June 24, 2025).
-- **Current end date:** `—`
+- **Current end date:** `2027-06-24`
 - **Sectors:** data center
 - **Moratorium ID:** `co-grand-county-2026`
 - **Legal basis:** Grand County Board of County Commissioners resolution under its state-delegated 1041 regulatory authority (specific resolution number not located in this pass)
@@ -227,6 +281,22 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 - **Affected projects:** None; no data center project has been approved or proposed in Johnstown.
 - **Detailed status:** Active as of 2026-09-23. 12-month moratorium on data center facility applications, adopted 5-1 on July 20, 2026 via Ordinance 2026-295.
 - **Outcome:** Town Council adopted a 12-month moratorium on data-center facility applications, with Councilmember Bashford dissenting on grounds it represented government overreach.
+
+### La Plata County
+
+- **Type:** County
+- **Status:** ⚪ Replaced
+- **Date enacted:** 2025-06-17 (per BESS tracker; primary resolution date not independently confirmed)
+- **Normalized date:** `2025-06-17` (unverified)
+- **Duration:** Ran until permanent BESS regulations were adopted
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `co-la-plata-county-2025`
+- **Legal basis:** Replaced by Resolution 2026-07 and Resolution 2026-08 (permanent BESS land use code amendments, adopted 2026-01-20)
+- **What prompted it:** County studying battery energy storage system risks/regulations
+- **Affected projects:** None identified
+- **Detailed status:** Replaced. The county's BESS moratorium (per the BESS tracker, in effect 2025-06-17 to 2026-01-21) ended when the Board of County Commissioners adopted permanent Battery Energy Storage System land use regulations (Resolutions 2026-07 and 2026-08) on 2026-01-20. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Permanent BESS land use regulations adopted
 
 ### Larimer County
 
@@ -372,6 +442,22 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 - **Detailed status:** Active as of 2026-09-23. One-year moratorium under Resolution 15-26, adopted August 11, 2026, refusing data center applications through August 11, 2027.
 - **Outcome:** Town Board unanimously adopted Resolution 15-26, pausing data center applications for one year and directing staff to draft permanent data-center regulations.
 
+### Phillips County
+
+- **Type:** County
+- **Status:** 🟢 Extended
+- **Date enacted:** 2026-02-27 (Resolution 2026-02-27-01 adopted)
+- **Normalized date:** `2026-02-27` (exact)
+- **Duration:** Six months, extended through 2026-12-31 by BOCC vote on 2026-08-20
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `co-phillips-county-2026`
+- **Legal basis:** Resolution 2026-02-27-01, extended by BOCC vote 2026-08-20
+- **What prompted it:** County developing regulations for data center facility applications
+- **Affected projects:** None identified
+- **Detailed status:** Active as of 2026-09-23; Resolution 2026-02-27-01 (adopted 2026-02-27) imposed a six-month moratorium on data center facility applications in unincorporated Phillips County, extended by unanimous BOCC vote on 2026-08-20 through 2026-12-31.
+- **Outcome:** County revising Land Use Code to address data center facilities
+
 ### Saguache County
 
 - **Type:** County
@@ -403,6 +489,22 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 - **Affected projects:** —
 - **Detailed status:** Active as of 2026-09-23; jurisdiction confirmed as the Town of South Fork (see legal_basis). Per Section 4 of the ordinance, the one-year pause on data center site-development and permit applications expires the earlier of June 18, 2027, or the effective date of South Fork Revised Municipal Code/Zoning Code amendments addressing data centers, whichever occurs later (the ordinance's own internal 'earlier of ... whichever occurs later' drafting, quoted verbatim). No repeal or amendment found.
 - **Outcome:** —
+
+### Washington County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** 2023 (original Resolution 88-2023; repeatedly extended)
+- **Normalized date:** `2023` (year_only)
+- **Duration:** Repeatedly extended in 7-month increments
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `co-washington-county-2023`
+- **Legal basis:** Resolution 88-2023 and subsequent extension resolutions; last confirmed extension adopted 2025-11-25
+- **What prompted it:** County developing battery energy storage system regulations
+- **Affected projects:** None identified
+- **Detailed status:** Status as of 2026-09-23 uncertain. The county has repeatedly extended a moratorium on accepting/processing/approving BESS applications since 2023 (Resolution 88-2023); the last confirmed extension resolution (adopted 2025-11-25) ran the moratorium to 2026-06-30. Whether the county extended it again after that date was not confirmed within the research budget. [VERIFY details not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** County developing BESS regulations
 
 ### Woodland Park
 

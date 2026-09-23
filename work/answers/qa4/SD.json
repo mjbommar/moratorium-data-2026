@@ -1,0 +1,36 @@
+{
+  "state_abbrev": "SD",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "sd-yankton-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "legal_basis": {
+          "from": "Yankton County Commission motion (Action 26248C), adopted 5-0 on July 21, 2026, following a July 10 public notice initially referenced as 'Ordinance 26-08'; final ordinance or resolution numbering was not confirmed",
+          "to": "Yankton County Resolution No. 26-7, 'Resolution Establishing a Temporary Moratorium on the Acceptance of Applications, or Issuing of Permits, for Approval of Building, Planning or Use Permits for Data Collection/Storage/Processing or Bitcoin Mining Facilities Exceeding a Power Capacity of 250 kW,' passed and approved 5-0 on July 21, 2026",
+          "reason": "The county's own posted resolution PDF gives the final instrument number and title (Resolution No. 26-7), resolving the prior row's 'final ordinance or resolution numbering was not confirmed' note; the 5-0 vote (Ayes: 5, Nays: 0) matches the row's existing 'adopted 5-0' language."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-01-17",
+          "reason": "Resolution No. 26-7 Section 2 sets the term at 'six (6) consecutive months' effective from passage/approval on 2026-07-21; 180 days (the row's own duration_days) after 2026-07-21 is 2027-01-17."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://intuviosolutions.blob.core.windows.net/templator-uploads/Uploads/documents/25/Data%20Center%20Moratorium.pdf",
+          "title": "Resolution No. 26-7, Yankton County Data Center/Bitcoin Mining Moratorium",
+          "publisher": "Yankton County, SD",
+          "document_date": "2026-07-21",
+          "source_type": "resolution",
+          "supports": "Original adopted term: 'This Resolution shall be effective for a period of six (6) consecutive months from the date is becomes effective' — confirms duration_days=180 is the correct ORIGINAL term, and gives the exact resolution number/title and 5-0 vote.",
+          "quote": "2. DURATION OF MORATORIUM. This Resolution shall be effective for a period of six (6) consecutive months from the date is becomes effective, unless extended by further action of the Board... Passed and approved this 21st day of July, 2026. Ayes: 5 Nays: 0"
+        }
+      ],
+      "notes": "DURATION_MISMATCH resolved: the row's duration text leads with 'Six months from adoption' before mentioning that 'the commission packet draft had proposed 12 months, but the adopted motion changed the term to six months' -- the 12-month figure is an earlier, rejected proposal, not the adopted term. The primary resolution (No. 26-7) confirms the ORIGINAL/adopted term is six months (180 days), matching the existing duration_days=180. No change needed to duration_days; confirmed via the county's own resolution text. Also corrected legal_basis (now that the resolution's true number/title is known) and filled current_end_date_iso from the same source, both adjacent, low-risk fixes supported by the same primary document."
+    }
+  ]
+}

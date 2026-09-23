@@ -1,0 +1,564 @@
+{
+ "state_abbrev": "NC",
+ "researched_as_of": "2026-09-23",
+ "researcher": "Claude Sonnet 5 QA1",
+ "decisions": [
+  {
+   "moratorium_id": "nc-pasquotank-county-solar-2026",
+   "outcome": "corrected",
+   "changes": {
+    "current_status": {
+     "from": "Active as of 2026-09-23; 12-month moratorium on new solar farms adopted 2026-07-20 while the UDO solar provisions are revised. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+     "to": "Active as of 2026-09-23; 12-month moratorium on new solar farms adopted 2026-07-20 while the UDO solar provisions are revised. Confirmed by the Daily Advance (Pasquotank's paper of record), which directly reports the July 20 commissioners' vote and distinguishes it from the county's separate May 2026 data-center moratorium (nc-pasquotank-county-2026). Ordinance/resolution number still not located.",
+     "reason": "The archived Daily Advance article (work/sources/NC/53d14c2716a46e65.md) is the local paper's contemporaneous report of the vote, not a secondary roundup, and matches date/term/sector exactly; it also confirms this is a distinct instrument from the county's data-center moratorium already in the inventory. That resolves the 'primary source not confirmed' doubt even though the instrument number itself remains unlocated."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+     "resolution": "confirmed",
+     "note": "Local paper (Daily Advance) report of the July 20, 2026 vote checked and archived; confirms the moratorium, term, sectors, and that it is separate from the county's earlier data-center moratorium. Instrument number was not located (no additional search turned it up); legal_basis already carries that caveat as plain text."
+    }
+   ],
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://www.dailyadvance.com/news/local/county-puts-12-month-halt-on-new-solar-farms/article_d20e9d6e-344e-498a-a66a-10a065ad3f31.html",
+     "source_type": "news",
+     "supports": "Local paper's contemporaneous report of the July 20, 2026 commissioners' vote for a 12-month moratorium on new solar farm construction, and that it is separate from the county's May 2026 data-center moratorium",
+     "quote": "The Pasquotank Commissioners voted to implement a 12-month moratorium on any new solar farm construction during their July 20 meeting."
+    }
+   ],
+   "notes": "Checked for duplication against nc-pasquotank-county-2026 (data_center/cryptocurrency_mining, enacted 2026-05-18); confirmed distinct sectors and distinct votes, not a duplicate. OLDER_INSTRUMENT item genuinely missed a July 2026 vote, not an artifact."
+  },
+  {
+   "moratorium_id": "nc-town-of-garner-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://pub-townofgarner.escribemeetings.com/FileStream.ashx?DocumentId=2439",
+     "source_type": "ordinance",
+     "supports": "Full ordinance text (No. (2026) 5383) confirms May 19, 2026 adoption, 12-month term to May 18, 2027, and data center/cryptocurrency mining sectors",
+     "quote": "The moratorium shall begin on May 19, 2026, and shall last until May 18, 2027 ... Duly adopted this 19th day of May, 2026."
+    }
+   ],
+   "notes": "OLDER_INSTRUMENT: adoption is confirmed by the full primary ordinance text (not just the tracker/news), which matches the row exactly. No duplicate row exists for Garner. Genuine pre-August miss, not an artifact."
+  },
+  {
+   "moratorium_id": "nc-town-of-hot-springs-2026",
+   "outcome": "corrected",
+   "changes": {
+    "current_status": {
+     "from": "Active as of 2026-09-23; one-year moratorium adopted 2026-07-13 (to about 2027-07-13); no repeal found. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+     "to": "Active as of 2026-09-23; one-year moratorium adopted 2026-07-13 (to about 2027-07-13); no repeal found. Confirmed by Asheville Citizen-Times coverage (Madison County's regional paper of record), which reports the July 13 unanimous town board vote in detail. Ordinance number still not located.",
+     "reason": "The archived AOL/Citizen-Times article (work/sources/NC/764b85808c40c453.md) is a full article from the Asheville Citizen-Times, the paper of record for Madison County (where Hot Springs sits), naming the mayor, the planning board's recommendation, and the unanimous July 13 vote. This satisfies the 'local paper's report of the vote' check even though no ordinance document was located."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+     "resolution": "confirmed",
+     "note": "Local/regional paper of record (Asheville Citizen-Times) report of the July 13, 2026 vote checked; confirms moratorium, term, and sectors. Instrument number was not located."
+    }
+   ],
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://www.aol.com/articles/hot-springs-enacts-data-center-090929000.html",
+     "source_type": "news",
+     "supports": "Asheville Citizen-Times report (syndicated via AOL) of the unanimous July 13, 2026 town board vote for a one-year moratorium on data centers and cryptocurrency mining",
+     "quote": "The Hot Springs Town Board unanimously approved the one-year moratorium in its July 13 meeting."
+    }
+   ],
+   "notes": "OLDER_INSTRUMENT: no duplicate row exists for Hot Springs/Madison County. Genuine pre-August miss."
+  },
+  {
+   "moratorium_id": "nc-town-of-mayodan-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://irp.cdn-website.com/815bdd17/files/uploaded/June+packet.pdf",
+     "source_type": "minutes",
+     "supports": "May 11, 2026 minutes confirm 5-0 unanimous adoption of both moratorium ordinances (data centers and solar)",
+     "quote": "Motion by Councilmember Cardwell, seconded by Councilmember Barnes, to adopt the ordinances establishing the temporary moratoria on development approvals for data centers and other high-impact facilities and solar energy systems. ... Motion carried unanimously"
+    },
+    {
+     "url": "https://irp.cdn-website.com/815bdd17/files/uploaded/July+packet.pdf",
+     "source_type": "minutes",
+     "supports": "June 8, 2026 minutes confirm unanimous adoption of TA-002-2026 and TA-003-2026, which replaced the 60-day moratoria",
+     "quote": "Motion by Councilmember Barnes, seconded by Councilmember Goard, to approve approval of Text Amendment TA-002-2026 (Data Processing Facilities) and Text Amendment TA-003-2026 (Solar Energy Facilities) ... Motion carried unanimously"
+    }
+   ],
+   "notes": "OLDER_INSTRUMENT: verified directly against the town's own minutes packets (roll-call votes, both the May 11 adoption and the June 8 replacement). This is the strongest-evidenced item in the packet. Correctly marked 'replaced', not 'active'; genuine pre-August miss, not an artifact of an extension being backdated."
+  },
+  {
+   "moratorium_id": "nc-alamance-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://alamancenews.com/breaking-mon-night-alamance-county-commissioners-vote-unanimously-for-one-year-moratorium-on-data-centers/",
+     "source_type": "news",
+     "supports": "Alamance County's local paper reports the unanimous Aug. 17, 2026 vote for a one-year moratorium, amended up from a drafted six-month version",
+     "quote": "The county attorney, Rik Stevens, had drafted a potential motion for a six months moratorium, but the commissioners decided to make the time period longer, for a full year."
+    }
+   ],
+   "notes": "Confirmed by Alamance County's own local paper (Alamance News). Row already correctly documents that the adopted term (12 months) differs from the noticed draft ordinance (6 months, expiring 2027-02-17) -- the row is not confused by the draft text."
+  },
+  {
+   "moratorium_id": "nc-beaufort-county-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.witn.com/2026/09/13/beaufort-county-data-center-moratorium-hearing-postponed-officials-say/",
+     "source_type": "news",
+     "supports": "Confirms the hearing and vote were postponed from September to the Oct. 5, 2026 meeting",
+     "quote": "the final public hearing, followed by board discussion and an official vote, is now scheduled for the board's meeting on Monday, Oct. 5."
+    }
+   ],
+   "notes": "Pending status is correct; nothing adopted as of the reference date."
+  },
+  {
+   "moratorium_id": "nc-camden-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.dailyadvance.com/news/local/camden-oks-one-year-moratorium-on-data-centers/article_d9157102-5e38-42bc-b612-c66882fe92b5.html",
+     "source_type": "news",
+     "supports": "Camden's local paper reports the Aug. 3, 2026 public hearing/vote and the Aug. 3, 2026 - Jan. 3, 2027 term",
+     "quote": "The moratorium went into effect on Aug. 3 and will end Jan. 3, 2027, unless the approval of UDO amendments comes first."
+    }
+   ],
+   "notes": "Note the statewide tracker CSV cites 'Camden,,2026-08-10,Approved,5' -- a date that conflicts with the row's 2026-08-03, but the Daily Advance (local paper) directly reports Aug. 3 as both the public-hearing and effective date, which is the more reliable of the two. Row's date is correct; the tracker is off by about a week."
+  },
+  {
+   "moratorium_id": "nc-city-of-greensboro-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://www.greensboro-nc.gov/Home/Components/News/News/22889/",
+     "source_type": "other",
+     "supports": "City's own announcement confirms 8-0 vote (one recusal), 180-day moratorium on data centers over 10 MW, extended from an initially considered 120-day version, running to Feb. 14, 2027",
+     "quote": "At tonight's meeting, Greensboro City Council voted 8-0, with one recusal, to establish a 180-day moratorium on data centers exceeding 10 megawatts of electrical power. ... until Sunday, February 14, 2027."
+    }
+   ],
+   "notes": "Confirmed against an official City of Greensboro source; hearing Aug. 17, vote Aug. 18 (the Tuesday following), matching the row's date."
+  },
+  {
+   "moratorium_id": "nc-city-of-raleigh-undated",
+   "outcome": "confirmed_unchanged",
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "Nothing has been adopted as of the reference date (2026-09-23) -- council directed the attorney to draft language and a possible vote is set for Oct. 6, 2026, after the reference date. There is no instrument or adoption date to verify yet; the marker correctly reflects that this remains open pending the October vote."
+    }
+   ],
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.wunc.org/environment/2026-09-16/raleigh-cary-data-center-moratorium",
+     "source_type": "news",
+     "supports": "Council directed the city attorney to draft a moratorium; possible vote Oct. 6, 2026",
+     "quote": "On Tuesday, the Raleigh City Council directed the city attorney to draft a moratorium, which the council will discuss and possibly vote on at the council's next meeting on Oct. 6."
+    }
+   ],
+   "notes": "Pending status is correct as of the reference date."
+  },
+  {
+   "moratorium_id": "nc-city-of-southport-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://portcitydaily.com/local-news/2026/09/14/temporary-moratorium-on-data-centers-pass-in-southport/",
+     "source_type": "news",
+     "supports": "Port City Daily (local Cape Fear-region paper) confirms unanimous Sept. 10, 2026 adoption of a 15-month moratorium",
+     "quote": "The board of aldermen voted unanimously on Thursday, Sept. 10, to adopt the freeze, as motioned by Mayor Pro Tem Karen Mosteller."
+    }
+   ],
+   "notes": "Confirmed."
+  },
+  {
+   "moratorium_id": "nc-city-of-statesville-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.wbtv.com/2026/09/15/statesville-unanimously-approves-180-day-moratorium-data-centers-what-we-know/",
+     "source_type": "news",
+     "supports": "Confirms the Sept. 14, 2026 unanimous SECOND reading (final adoption) is the operative date, distinct from the August first reading that only advanced a 150-to-180-day proposal",
+     "quote": "On Monday, Sept. 14, Statesville City Council unanimously approved a second reading of a proposed 180 day moratorium on data centers within the city."
+    },
+    {
+     "url": "https://hoodline.com/2026/08/statesville-extends-data-center-pause-to-180-days-but-existing-project-rolls-on/",
+     "source_type": "news",
+     "supports": "Confirms the August action was only a first reading, not final adoption, and that the pre-existing Compass Datacenters project is unaffected",
+     "quote": "Statesville city leaders voted Monday to advance a first reading of a 180-day pause on new data center applications, stretching what was originally proposed as a 150-day freeze to six months."
+    }
+   ],
+   "notes": "Row correctly dates the instrument by the second-reading/final-adoption vote (Sept. 14), not the August first reading -- exactly the kind of distinction the audit was checking for. No error found."
+  },
+  {
+   "moratorium_id": "nc-city-of-whiteville-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.wect.com/2026/08/26/whiteville-approves-12-month-moratorium-new-data-centers-crypto-mining/",
+     "source_type": "news",
+     "supports": "WECT (regional NC news covering Columbus County) confirms the Aug. 25, 2026 effective date and Aug. 25, 2027 end date, or earlier zoning text amendment",
+     "quote": "The pause is effective immediately, running from August 25, 2026, until August 25, 2027, or until the city adopts a zoning ordinance text amendment addressing these land uses, whichever comes first."
+    }
+   ],
+   "notes": "Confirmed."
+  },
+  {
+   "moratorium_id": "nc-edgecombe-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.rockymounttelegram.com/news/local/commissioners-approve-two-year-moratorium-on-data-centers/article_ef2eb274-4ab5-4534-b82a-1a20e8faaae9.html",
+     "source_type": "news",
+     "supports": "Rocky Mount Telegram (local paper covering Edgecombe County) confirms the 5-0 vote and Aug. 3, 2028 end date for a two-year moratorium",
+     "quote": "The vote means that until Aug. 3, 2028, the county cannot accept, process and approve development applications and development permits for data centers and related uses within the county's zoning jurisdiction."
+    }
+   ],
+   "notes": "Confirmed."
+  },
+  {
+   "moratorium_id": "nc-guilford-county-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.rhinotimes.com/featured-article/guilford-commissioners-take-first-step-toward-data-center-moratorium/",
+     "source_type": "news",
+     "supports": "Rhino Times of Greensboro (local paper) confirms the unanimous Sept. 17, 2026 vote to schedule an Oct. 15, 2026 legislative hearing on a proposed up-to-180-day moratorium",
+     "quote": "The Board of Commissioners voted unanimously on Thursday, Sept. 17, to schedule an Oct. 15 legislative public hearing on a proposed moratorium of up to 180 days on potential data center projects in Guilford County."
+    }
+   ],
+   "notes": "Pending status is correct as of the reference date; no vote has occurred."
+  },
+  {
+   "moratorium_id": "nc-halifax-county-undated",
+   "outcome": "confirmed_unchanged",
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "Nothing has been adopted as of the reference date; the legislative hearing is scheduled for Oct. 19, 2026, after the reference date, so there is no instrument or adoption date yet to verify."
+    }
+   ],
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://rrspin.com/news/29352-legislative-hearing-set-to-consider-data-center-moratorium.html",
+     "source_type": "news",
+     "supports": "Roanoke Rapids/Halifax-area news outlet confirms the 5-1 vote to schedule the Oct. 19, 2026 legislative hearing",
+     "quote": "Halifax County commissioners Tuesday voted to schedule a legislative hearing next month to consider a moratorium on data centers. On a 5-1 vote, the board set the hearing for its October 19 meeting at 5:30 p.m."
+    }
+   ],
+   "notes": "Pending status is correct."
+  },
+  {
+   "moratorium_id": "nc-jackson-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://smokymountainnews.com/news/news-latest/jackson-implements-data-center-moratorium/",
+     "source_type": "news",
+     "supports": "Smoky Mountain News (local WNC paper) confirms Aug. 18, 2026 approval of a one-year moratorium running through Aug. 18, 2027",
+     "quote": "Commissioners approved the moratorium Aug. 18, putting a hold on data center development in the county's planning and development jurisdiction through Aug. 18, 2027."
+    }
+   ],
+   "notes": "Confirmed."
+  },
+  {
+   "moratorium_id": "nc-mcdowell-county-2026-2",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.wcabnews.com/post/mcdowell-county-commissioners-approve-six-month-moratorium-on-data-centers",
+     "source_type": "news",
+     "supports": "Confirms the unanimous Aug. 31, 2026 special-meeting vote for a six-month moratorium on data center development",
+     "quote": "The McDowell County Board of Commissioners unanimously approved a six-month moratorium on data center development Monday"
+    }
+   ],
+   "notes": "Checked against the existing inventory row nc-mcdowell-county-2026 via show_rows.py: that row is a separate, already-'replaced' 2023 cryptocurrency-mining moratorium (crypto sector only). This 2026 data-center row is a distinct instrument, not a duplicate; the row text already notes the distinction correctly."
+  },
+  {
+   "moratorium_id": "nc-nash-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.reflector.com/apgstate/nash-county-enacts-temporary-moratorium-on-data-centers-copy/article_762da64e-0da6-4e00-bc71-167b86a6757e.html",
+     "source_type": "news",
+     "supports": "Confirms the Sept. 8, 2026 vote date and the June 30, 2027 (or earlier zoning adoption) term",
+     "quote": "The Nash County Board of Commissioners voted Sept. 8 to adopt a temporary development moratorium"
+    },
+    {
+     "url": "https://www.rockymounttelegram.com/news/local/nash-county-enacts-temporary-moratorium-on-data-centers/article_4d5364c9-c321-4c2a-8364-b516b4073cdc.html",
+     "source_type": "news",
+     "supports": "Rocky Mount Telegram (local paper) parallel report confirming the same term",
+     "quote": "The moratorium takes effect immediately and will remain in place until June 30, 2027, or until new zoning regulations addressing these uses are adopted, whichever occurs first."
+    }
+   ],
+   "notes": "Confirmed."
+  },
+  {
+   "moratorium_id": "nc-town-of-cary-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://carync.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=2843&Inline=True",
+     "source_type": "agenda",
+     "supports": "Town's own Aug. 27, 2026 agenda packet: staff recommendation for adoption of the 18-month moratorium ordinance",
+     "quote": "staff recommends ... adoption of the attached ordinance establishing an 18-month moratorium on the acceptance, processing, and approval of development applications for data centers, cryptocurrency mining operations, and any use associated with data center processing facilities within Cary's planning jurisdiction."
+    },
+    {
+     "url": "https://abc11.com/post/cary-approves-18-month-moratorium-data-centers-amid-growth-concerns/19748618/",
+     "source_type": "news",
+     "supports": "ABC11 (Raleigh-Durham regional station covering Cary) confirms unanimous Aug. 27, 2026 adoption",
+     "quote": "The Cary Town Council unanimously approved an 18-month moratorium on data centers Thursday evening"
+    }
+   ],
+   "notes": "Confirmed by the town's own agenda packet plus contemporaneous local news."
+  },
+  {
+   "moratorium_id": "nc-town-of-elizabethtown-undated",
+   "outcome": "confirmed_unchanged",
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date not confirmed at confidence 0.45 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "Ran three additional searches for the outcome of the June 15, 2026 hearing/ordinance consideration (draft Ord. #2026-02). Found the June 3 hearing notice and the June 15 agenda item, but no posted June/July minutes and no news report confirming a vote either way. The statewide tracker does not list Elizabethtown. IMPORTANT: search results are heavily polluted by an unrelated 'E'town' -- Elizabethtown, Kentucky (Hardin County), whose local paper (The News-Enterprise, thenewsenterprise.com) and TV outlets ran near-identical-sounding stories in Aug. 2026 about 'data center zoning rules' being adopted there (6-0 vote). Those are a different town in a different state and must not be used to fill in this row. Status remains genuinely unresolved."
+    }
+   ],
+   "confidence": 0.45,
+   "evidence": [
+    {
+     "url": "https://elizabethtownnc.org/2026/06/03/notice-of-public-hearing-2/",
+     "source_type": "other",
+     "supports": "Notice of the June 15, 2026 hearing on a proposed one-year moratorium",
+     "quote": "The moratorium would pause new permits, rezonings, site plans, and related approvals for data centers for one (1) year"
+    },
+    {
+     "url": "https://cdn.townweb.com/elizabethtownnc.org/wp-content/uploads/2026/06/Data-Center-Moratorium-Draft.pdf",
+     "source_type": "other",
+     "supports": "Draft ordinance (Ord. #2026-02, draft dated 6/2/26) for the proposed moratorium; confirms a draft ordinance number exists but not that it was adopted",
+     "quote": "AN ORDINANCE IMPOSING A TEMPORARY MORATORIUM ON DEVELOPMENT APPROVALS FOR DATA CENTERS AND RELATED HIGH-IMPACT FACILITIES IN THE TOWN OF ELIZABETHTOWN, NC Ord. #2026-02 DRAFT - 6/2/26"
+    }
+   ],
+   "notes": "Row's hedged 'Pending/unknown' status is accurate and should NOT be treated as an active NEW_SINCE_AUGUST row; it is genuinely undetermined whether this was adopted. Not a REMOVE candidate since a real hearing and draft ordinance exist -- just unresolved as active vs. never-adopted. Newly archived the full draft-ordinance PDF (previously cited but not archived): its signature block reads 'Adopted this the ____ day of June, 2026' with blank fill-in dates, i.e. it is confirmed to be an unexecuted template, not evidence of actual adoption."
+  },
+  {
+   "moratorium_id": "nc-town-of-farmville-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.witn.com/2026/08/04/farmville-board-adopts-12-month-moratorium-potential-data-center-after-residents-voice-opposition/",
+     "source_type": "news",
+     "supports": "WITN (Greenville-area station covering Pitt County) confirms unanimous Aug. 3, 2026 (Monday) vote for a 12-month moratorium",
+     "quote": "Commissioners voted unanimously Monday to approve a 12-month moratorium on data centers"
+    }
+   ],
+   "notes": "Confirmed."
+  },
+  {
+   "moratorium_id": "nc-town-of-highlands-2026",
+   "outcome": "corrected",
+   "changes": {
+    "current_status": {
+     "from": "Active as of 2026-09-23; moratorium approved 2026-08-20; the planning board is reviewing data center regulations. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+     "to": "Active as of 2026-09-23; moratorium approved 2026-08-20; the planning board is reviewing data center regulations. Confirmed by the Highlander (Highlands' local paper), which headlined the town board's approval, and corroborated by a Macon County official's Sept. 14 reference to it. Ordinance number still not located.",
+     "reason": "The Highlander (highlandsnews.com) is Highlands' own local paper and its archived text -- although paywalled beyond the headline -- directly headlines 'Town Board approves data center moratorium,' and a Macon County attorney's comment (maconsense.com, Sept. 14) independently corroborates the Aug. 20 approval date. That satisfies the 'local paper's report of the vote' check even though the ordinance number is not located."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+     "resolution": "confirmed",
+     "note": "Highlands' own local paper (the Highlander) headline plus an independent Macon County official's corroboration confirm the Aug. 20, 2026 approval. Ordinance number not located."
+    }
+   ],
+   "confidence": 0.75,
+   "evidence": [
+    {
+     "url": "https://highlandsnews.com/news/337107/town-board-approves-data-center-moratorium/",
+     "source_type": "news",
+     "supports": "The Highlander (Highlands' local paper) headline confirming passage of a data center moratorium",
+     "quote": "Town Board approves data center moratorium"
+    },
+    {
+     "url": "https://maconsense.com/2026/09/14/commissioners-tackle-rural-phone-service-data-centers-and-transit-funding/",
+     "source_type": "news",
+     "supports": "Macon County attorney references the Town of Highlands' moratorium as having been approved Aug. 20, 2026",
+     "quote": "County attorney Eric Ridenour lauded the recent work done by the Town of Highlands on crafting a tightly worded temporary moratorium that was approved on August 20."
+    }
+   ],
+   "notes": "The Highlander archive is a paywalled headline stub, not a full article, but combined with the independent county-attorney corroboration this is adequate confirmation of date and passage."
+  },
+  {
+   "moratorium_id": "nc-town-of-hildebran-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.thepaper.media/news/hildebran-imposes-12-month-data-center-moratorium-after-months-of-public-concern/article_0c0e576a-2807-4d44-9d14-bb95761c9189.html",
+     "source_type": "news",
+     "supports": "Full article confirms the unanimous Aug. 24, 2026 12-month moratorium pausing the DigiPower X project",
+     "quote": "The Aug. 24 decision comes as Hildebran joins a rapidly growing list of North Carolina communities putting at least temporary brakes on data center development."
+    }
+   ],
+   "notes": "quote_mismatch was flagged true, but on direct inspection the archived .md file contains a 'gifts used up' paywall banner FOLLOWED BY the full article text, and the cited quote is present verbatim later in the same file (confirmed via exact substring match). This looks like a false-positive flag from an automated check that only scanned the top of the file, not a paraphrase or fabrication. No correction needed."
+  },
+  {
+   "moratorium_id": "nc-town-of-nashville-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://www.townofnashville.com/files/assets/town/v/1/administration/documents/ordinances/2026-23-data-center-moratorium.pdf",
+     "source_type": "ordinance",
+     "supports": "Full ordinance text: hearings July 22 and Aug. 4, 2026; term begins July 23, 2026 and ends July 23, 2027; signature block reads 'PASSED, APPROVED, and ADOPTED this 4th day of August 2026'",
+     "quote": "The moratorium shall begin on July 23, 2026, and shall last until July 23, 2027 ... PASSED, APPROVED, and ADOPTED this"
+    }
+   ],
+   "notes": "Verified directly against the primary ordinance. The row correctly uses the Aug. 4, 2026 adoption date as date_enacted_iso while noting the term itself runs retroactively from July 23, 2026 as stated in the ordinance -- an unusual but accurately captured detail, not an error."
+  },
+  {
+   "moratorium_id": "nc-town-of-newport-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.75,
+   "evidence": [
+    {
+     "url": "https://www.publicradioeast.org/2026-09-17/newport-approves-one-year-freeze-on-new-data-centers-and-crypto-mining",
+     "source_type": "news",
+     "supports": "Public Radio East (Carteret County regional station) confirms the moratorium and at-least-one-year term",
+     "quote": "The freeze will remain in place for at least one year and applies to both the town and its extraterritorial jurisdiction."
+    },
+    {
+     "url": "https://wcti12.com/news/local/newport-approves-one-year-moratorium-on-data-center-development",
+     "source_type": "news",
+     "supports": "WCTI (regional station) confirms via publication date (Sept. 16, 2026) that the vote occurred shortly before",
+     "quote": "The moratorium applies within both the Town of Newport and its extraterritorial jurisdiction and will remain in place for at least one year."
+    }
+   ],
+   "notes": "Attempted to pin down an exact vote date (three sources checked, plus one new search); Carolina Coast Online (Newport/Carteret's actual local paper, the News-Times) has the most specific headline ('Newport town council passes data center moratorium,' published Sept. 15, 2026) but the archived copy is a paywall/subscription-form stub with no article text. No exact date beyond 'mid-September' could be confirmed, so date_enacted_iso is correctly left as the month-only '2026-09'."
+  },
+  {
+   "moratorium_id": "nc-town-of-waxhaw-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "url": "https://waxhaw.civicweb.net/document/248629/_p__strong__span%20style=_text-decoration_underli.pdf?handle=71B239B68E7441698879E6780B87FC76",
+     "source_type": "ordinance",
+     "supports": "Town's own ordinance packet (ORD2026014) confirms the Aug. 11, 2026 hearing/adoption date and Aug. 10, 2027 expiration",
+     "quote": "commencing on August 11, 2026, and expiring no later than August 10, 2027"
+    }
+   ],
+   "notes": "Verified directly against the primary ordinance packet."
+  },
+  {
+   "moratorium_id": "nc-town-of-whitakers-undated",
+   "outcome": "corrected",
+   "changes": {
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2026-06-01",
+     "reason": "Per Rocky Mount Telegram, Whitakers Town Clerk Tamica Gray stated the town instituted its data-center pause on June 1, 2026, preceding Bailey's and Nashville's moratoriums. This is a specific, named-official date, not a vague roundup mention, and warrants moving the row out of fully undated status."
+    },
+    "current_status": {
+     "from": "Reported active as of September 2026 (Rocky Mount Telegram); no primary source, date or term located. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]",
+     "to": "Active as of 2026-09-23; per Whitakers Town Clerk Tamica Gray (Rocky Mount Telegram, Aug. 2026), the town instituted a data center pause effective June 1, 2026. No ordinance document, instrument number, or duration/term has been located; this remains a secondhand (clerk-quoted) source, not a primary document. [VERIFY instrument number; term/duration; primary source (ordinance text) still not located]",
+     "reason": "Adds the specific effective date located via the town clerk's on-record quote while being explicit that the underlying ordinance itself is still not located, so the marker is narrowed rather than removed outright."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]",
+     "resolution": "corrected",
+     "note": "Adoption date resolved to 2026-06-01 via an on-record quote from the Whitakers town clerk (Rocky Mount Telegram). Instrument number and an actual primary document (ordinance/minutes) are still not located; a narrower VERIFY marker was substituted rather than clearing the field entirely."
+    }
+   ],
+   "confidence": 0.5,
+   "evidence": [
+    {
+     "url": "https://www.rockymounttelegram.com/news/local/county-to-hold-hearing-on-data-centers/article_47888712-c1d2-4236-8cf8-9bc2ae7d9e1b.html",
+     "source_type": "news",
+     "supports": "Town clerk Tamica Gray states Whitakers instituted its data center pause on June 1, 2026",
+     "quote": "Tamica Gray, the town clerk for Whitakers, confirmed that the town's leaders instituted a pause on data centers on June 1, joining Bailey and Nashville in restricting such developments."
+    },
+    {
+     "url": "https://www.rockymounttelegram.com/news/local/nash-county-enacts-temporary-moratorium-on-data-centers/article_4d5364c9-c321-4c2a-8364-b516b4073cdc.html",
+     "source_type": "news",
+     "supports": "Second Rocky Mount Telegram article lists Whitakers alongside Nashville and Bailey as having instituted moratoriums (no date given)",
+     "quote": "The towns of Nashville, Bailey and Whitakers all have instituted moratoriums on data centers."
+    }
+   ],
+   "notes": "quote_mismatch was correctly flagged true for the second evidence item: the packet's cited quote 'Nashville, Bailey, Whitakers have instituted moratoriums' is NOT a verbatim match in work/sources/NC/f098dce42aa682b9.md (checked via exact substring search) -- it is a paraphrase of the actual sentence about the town clerk. This is an agent paraphrase, not a fabrication, and in the course of checking it I found the more valuable verbatim sentence with the June 1 date, which the original agent apparently missed or dropped. Ran one additional search for independent corroboration of the June 1 date; found none, so it remains single-sourced to the clerk's quote."
+  },
+  {
+   "moratorium_id": "nc-vance-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://wizs.com/towntalk-vance-county-commissioners-adopt-60-day-moratorium/",
+     "source_type": "news",
+     "supports": "WIZS (Henderson/Vance County local station) confirms the 5-2 vote for a 60-day moratorium, and that a 6-month motion was ruled out of order because only 60 days was noticed",
+     "quote": "The 60-day moratorium began upon its adoption Monday night, and County Manager Renee Perry clarified Tuesday that it would terminate on Nov. 13 or upon adoption of an amendment to the requirements for data centers in the current Vance County zoning ordinance."
+    }
+   ],
+   "notes": "Confirmed."
+  },
+  {
+   "moratorium_id": "nc-warren-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.warrenrecord.com/news/article_ed6cc94d-a087-4574-ae12-af7e6147aa78.html",
+     "source_type": "news",
+     "supports": "Warren Record (Warren County's local paper) confirms the Aug. 19, 2026 work-session approval of a 12-month moratorium",
+     "quote": "The Warren County Board of Commissioners approved an ordinance imposing a 12-month moratorium on development approvals for data centers and related high-impact facilities. The decision came during the board's work session on Aug. 19."
+    }
+   ],
+   "notes": "Confirmed."
+  },
+  {
+   "moratorium_id": "nc-yadkin-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.elkintribune.com/news/moratorium-approved-for-yadkin-county-as-potential-yadkinville-data-center-project-announced/article_03225b12-2d04-5e90-9a16-66e30e2a9165.html",
+     "source_type": "news",
+     "supports": "Elkin Tribune (local paper) confirms the unanimous 5-0 vote extending a proposed 12-month moratorium to two years, applying to unincorporated areas only",
+     "quote": "The Yadkin County Board of Commissioners unanimously approved a two-year moratorium on data centers following a public hearing on Monday. The original proposal was for a 12-month moratorium, but Commissioner Cliff Collins made a motion to extend that to two years"
+    }
+   ],
+   "notes": "quote_mismatch was flagged true. Checked: the Elkin Tribune quote matches the archived text verbatim (confirmed via exact substring search). The mismatch instead comes from the third evidence item, the county's Aug. 17, 2026 agenda PDF (work/sources/NC/f03d9fbc55829a8a.txt), whose text extraction is garbled by a non-standard embedded font encoding (e.g. 'Yadkin County' renders as 'DGNLQ&RXQW\\') -- this is the 'obfuscated text' case the process doc anticipates, not a fabricated quote; the agent evidently read the rendered PDF page rather than the raw extracted text. The substantive claim (public hearing and ordinance consideration on Aug. 17) is independently corroborated by the Elkin Tribune and the North State Journal roundup, so no correction is needed."
+  }
+ ]
+}

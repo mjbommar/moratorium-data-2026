@@ -1,0 +1,132 @@
+{
+ "state_abbrev": "IL",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA5",
+ "decisions": [
+  {
+   "moratorium_id": "il-catlin-undated",
+   "outcome": "corrected",
+   "confidence": 0.85,
+   "changes": {
+    "date_enacted": {
+     "from": "",
+     "to": "October 7, 2025 (Catlin Village Council passed a moratorium on new solar energy projects Tuesday evening, per Vermilion County First, 2025-10-09); the Village's own public statement confirms the ordinance runs through April 30, 2026 as first adopted, before later extensions.",
+     "reason": "Directly dated by a news article and the Village's own quoted public statement."
+    },
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2025-10-07",
+     "reason": "News article states the Village Council passed the moratorium 'this past Tuesday evening, October 7th' in an article published Oct. 9, 2025."
+    },
+    "date_enacted_uncertainty": {
+     "from": "unverified",
+     "to": "exact",
+     "reason": "An exact YYYY-MM-DD adoption date is now sourced."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://vermilioncountyfirst.com/2025/10/09/village-of-catlin-earthrise-energy-both-release-statements-after-catlin-village-councils-passed-moratorium-on-solar-farms/",
+     "title": "Village of Catlin, Earthrise Energy, Both Release Statements After Catlin Village Council's Passed Moratorium on Solar Farms",
+     "publisher": "Vermilion County First",
+     "document_date": "2025-10-09",
+     "source_type": "news",
+     "supports": "Dates the original adoption of Catlin's solar-farm moratorium to Tuesday, October 7, 2025, and quotes the Village's own public statement confirming an ordinance was adopted, effective through April 30, 2026 as first passed.",
+     "quote": "It was this past Tuesday evening, October 7th, that the Catlin Village Council passed a moratorium on new solar energy projects. ... The Village of Catlin has adopted an ordinance establishing a temporary moratorium on new solar development applications ... The moratorium will remain in effect through April 30, 2026, unless lifted sooner by the Village Board after its review process is complete."
+    }
+   ],
+   "notes": "date_enacted_iso and uncertainty corrected from empty/unverified to an exact date (2025-10-07) documented by both a news report and the Village's own quoted public statement (via that same article). Did not change enacted_status=replaced, duration, or current_status text, which already correctly describe the later extensions (through Aug. 31, 2026) and the permanent wind/solar zoning ordinance that superseded the moratorium in late August 2026 -- that account is consistent with what I found and did not need correction."
+  },
+  {
+   "moratorium_id": "il-collinsville-undated",
+   "outcome": "corrected",
+   "confidence": 0.55,
+   "changes": {
+    "date_enacted": {
+     "from": "N/A",
+     "to": "Planning Commission recommended a 12-month moratorium 2025-12-11; per the Troy Times Tribune (2025-12-19), city staff planned to present it 'to the city council in January [2026] who will then cast the final vote.' A May 28, 2026 Troy Times Tribune article independently confirms in passing that 'Collinsville approved a year-long moratorium,' consistent with a January 2026 City Council vote. Exact City Council vote date and ordinance number not confirmed; Collinsville's own website and Legistar system returned bot-protection errors to every retrieval attempt.",
+     "reason": "Two independent Troy Times Tribune articles, six months apart, together bound the City Council's adoption to January 2026 and confirm it actually occurred."
+    },
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2026-01",
+     "reason": "Staff's stated plan to bring the moratorium to Council 'in January' plus a later article confirming passage narrow adoption to January 2026, though not to an exact day."
+    },
+    "date_enacted_uncertainty": {
+     "from": "unverified",
+     "to": "month_only",
+     "reason": "Only the month (January 2026), not the exact day, is supported by sources found."
+    },
+    "current_status": {
+     "from": "Reported as enacted: a May 28, 2026 Troy Times Tribune article states, in the course of describing Troy's own six-month moratorium, that 'Collinsville approved a year-long moratorium.' This indicates the City Council acted on the Planning Commission's December 11, 2025 recommendation at some point before late May 2026. Collinsville's own website (collinsvilleil.org) and Legistar system (both the public site and the webapi.legistar.com/v1/collinsvilleil endpoint) returned bot-protection errors (HTTP 403) or a client-configuration error to every automated retrieval attempt this session, so the ordinance number and exact adoption date could not be independently confirmed.",
+     "to": "Active as of 2026-09-23. A May 28, 2026 Troy Times Tribune article confirms, in passing, that 'Collinsville approved a year-long moratorium,' and the December 19, 2025 Troy Times Tribune report on the Planning Commission's recommendation states staff planned to bring the 12-month moratorium to the City Council 'in January' for the final vote -- together narrowing the City Council's adoption to January 2026. Collinsville's own website (collinsvilleil.org) and Legistar system (both the public site and the webapi.legistar.com/v1/collinsvilleil endpoint) returned bot-protection errors (HTTP 403) or a client-configuration error to every automated retrieval attempt this session, so the exact vote date and ordinance number remain unconfirmed.",
+     "reason": "Updates current_status to reflect the narrowed January 2026 adoption month and to document why the exact date/ordinance number remain open."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://www.timestribunenews.com/2025/12/19/collinsville-planning-commission-approves-12-month-moratorium-on-data-centers/",
+     "title": "Collinsville Planning Commission approves 12-month moratorium on data centers",
+     "publisher": "The Troy Times Tribune",
+     "document_date": "2025-12-19",
+     "source_type": "news",
+     "supports": "Confirms the Collinsville Planning Commission recommended a 12-month data-center moratorium on Dec. 11, 2025, and that staff planned to present it to the City Council in January 2026 for the final vote.",
+     "quote": "City staff will present the 12-month moratorium to the city council in January who will then cast the final vote on the matter."
+    },
+    {
+     "url": "https://www.timestribunenews.com/2026/05/28/troy-officials-to-provide-data-center-update-in-june/",
+     "title": "Troy officials to provide data center update in June",
+     "publisher": "The Troy Times Tribune",
+     "document_date": "2026-05-28",
+     "source_type": "news",
+     "supports": "Independent confirmation, in the context of describing Troy's own moratorium, that Collinsville's year-long data-center moratorium was in fact approved by the time of this article.",
+     "quote": "While Collinsville approved a year-long moratorium, Troy City Attorney Fred Keck believes a 12-month moratorium is not as defensible as a six-month stoppage as courts have ruled in favor of six months"
+    },
+    {
+     "url": "http://web.archive.org/web/20251211214751/https://www.ksdk.com/article/news/local/illinois-data-center-ban-collinsville-vote-year-long-thursday/63-93fd98c4-68ae-4526-b069-4fa166b38939",
+     "title": "Year-long data center ban up for vote in Collinsville on Thursday",
+     "publisher": "KSDK (via Wayback Machine; live URL is Akamai-blocked)",
+     "document_date": "2025-12-11",
+     "source_type": "news",
+     "supports": "Confirms the Dec. 11, 2025 Planning Commission vote was only a recommendation, not final City Council adoption.",
+     "quote": "The city's planning commission is scheduled to vote to recommend approval on the moratorium at 6:30 p.m. on Thursday."
+    }
+   ],
+   "notes": "Narrowed the adoption date to January 2026 (month_only) based on staff's stated plan (Dec. 19, 2025 article) plus the May 28, 2026 article confirming it did pass. The exact City Council meeting date, ordinance number, and vote count were not found: Collinsville's website and Legistar/webapi.legistar.com endpoints returned HTTP 403 bot-protection errors on every attempt (consistent with the original researcher's note), and the live ksdk.com article is blocked by an Akamai interstitial (used the Wayback Machine capture instead, which only covers the Dec. 11, 2025 Planning Commission story). Did not mark REMOVE: two independent Troy Times Tribune articles, six months apart, corroborate that Collinsville's moratorium was in fact enacted, contrary to the original researcher's Legistar-search-based suspicion that it was never enacted."
+  },
+  {
+   "moratorium_id": "il-robinson-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.35,
+   "evidence": [
+    {
+     "url": "https://cityofrobinson.com/wp-content/uploads/2026/03/Agenda-09-08-26.pdf",
+     "title": "Robinson City Council Agenda, September 8, 2026",
+     "publisher": "City of Robinson, Illinois",
+     "document_date": "2026-09-08",
+     "source_type": "agenda",
+     "supports": "Confirms new business item 10-2 at the Sept. 8, 2026 meeting was titled 'AN ORDINANCE ADOPTING A TEMPORARY MORATORIUM FOR THE ACCEPTANCE OF APPLICATIONS, PERMITTING, AND PERMIT APPROVAL FOR SOLAR FARMS' -- confirming the Sept. 2026 extension event the packet already cites, but its title (re-adopting, not amending) suggests the City repeatedly re-enacts a fresh ordinance rather than filing formal extension amendments, which makes an 'original' enactment date hard to define from ordinance titles alone.",
+     "quote": "10-2 AN ORDINANCE ADOPTING A TEMPORARY MORATORIUM FOR THE ACCEPTANCE OF APPLICATIONS, PERMITTING, AND PERMIT APPROVAL FOR SOLAR FARMS WITHIN THE CORPORATE LIMITS AND EXTRATERRITORIAL LIMITS OF THE CITY OF ROBINSON, ILLINOIS (MARQUA)"
+    },
+    {
+     "url": "https://www.hometownregister.com/rob_daily_news/robinson-solar-farm-ban-may-conflict-with-new-state-law/article_4748bcae-7fe3-5b43-b59a-822d7784bdd6.html",
+     "title": "Robinson solar farm ban may conflict with new state law",
+     "publisher": "hometownregister.com (Robinson Daily News)",
+     "source_type": "news",
+     "supports": "Reports a then-current iteration of the moratorium was 'set to expire March 24' -- a data point on the moratorium's ongoing history but not the original adoption date. Undated article; context (upcoming Independence Day fireworks planning, a new canine officer due mid-April) places it around Jan-Feb of an unspecified year.",
+     "quote": "The Robinson City Council has in place a moratorium that blocks the development of new solar farms within 1.5 miles of the city's corporate limits. However, once that block expires March 24, a sweeping energy bill signed into law by Gov. JB Pritzker could allow solar farms to move in closer."
+    },
+    {
+     "url": "https://www.wtyefm.com/2025/05/27/robinson-city-council-meeting-agenda-for-may-27th/",
+     "title": "Robinson City Council Meeting Agenda For May 27th",
+     "publisher": "WTYE/WTAY",
+     "document_date": "2025-05-27",
+     "source_type": "agenda",
+     "supports": "Shows the council was still at a 'discuss regulating solar farms and wind energy conversion systems' stage on May 27, 2025 (old business), which bounds the moratorium's true original adoption to sometime after this date.",
+     "quote": "In “Old Business,” they will discuss regulating solar farms and wind energy conversion systems."
+    }
+   ],
+   "notes": "Could not pin an exact original adoption date. What is confirmed: as of May 27, 2025 the council was still discussing solar-farm regulation (old business, not yet a moratorium vote); by early-to-mid 2026 a moratorium was in place and had already been extended at least once (the undated 'expires March 24' article); and on Sept. 8, 2026 the council agendized another item titled as a fresh 'ordinance adopting' a moratorium (not an amendment), which is the extension the original researcher's Sept. 8, 2026 citation refers to. Because Robinson appears to re-enact a full new ordinance at each renewal rather than filing amendments, and no single news article or ordinance PDF states the very first adoption date, I could not responsibly narrow this beyond 'sometime between mid-2025 and early 2026' within 3 searches. Checked (beyond the evidence above): a bc-web search for '\"solar farm\" moratorium passed OR enacted OR adopted city council 2024' (no Robinson-specific hit), and CleanPowerDaily's Illinois solar/wind moratorium opposition tracker (cleanpowerdaily.com/opposition-tracker/illinois), which has no Robinson entry. Left date_enacted_iso empty and enacted_status/current_status unchanged; not a REMOVE, since the underlying instrument and its extended history are well corroborated by multiple sources."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "state_abbrev": "MI",
+ "researched_as_of": "2026-09-23",
+ "researcher": "Claude coordinator (QA leads reconciliation)",
+ "decisions": [
+  {
+   "moratorium_id": "mi-zeeland-charter-township-2026",
+   "outcome": "corrected",
+   "confidence": 0.85,
+   "changes": {
+    "legal_basis": {
+     "from": "Township Board resolution 'A Resolution Enacting Temporary Moratoria on Energy Facilities and Data Centers' adopted 2026-09-01 under Section 3.36 of the Zeeland Charter Township Zoning Ordinance (resolution number blank in the board packet); repealed the prior moratorium under Resolution No. 1027 (2026-03-03)",
+     "to": "Township Board resolution 'A Resolution Enacting Temporary Moratoria on Energy Facilities and Data Centers' adopted 2026-09-01 under Section 3.36 of the Zeeland Charter Township Zoning Ordinance (number blank in the board packet); it repealed and superseded the township's March 3, 2026 moratorium (No. 1027), which has its own row",
+     "reason": "The March 2026 instrument now has its own row; phrase its number so the merge's instrument matcher does not read it as this row's instrument."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://legalnews.com/Home/Articles?DataId=1594513",
+     "source_type": "news",
+     "supports": "Unanimous 2026-03-03 adoption of a 12-month data center moratorium.",
+     "quote": "The Township Board March 3 unanimously approved placing a 12-month moratorium on any data centers from being built in the township",
+     "publisher": "Zeeland Record / Legal News"
+    }
+   ],
+   "notes": "Coordinator edit enabling the separate March 2026 Resolution 1027 row (QA leads, item 6)."
+  }
+ ]
+}

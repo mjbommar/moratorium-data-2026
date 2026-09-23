@@ -3,18 +3,23 @@
 
 Every local infrastructure moratorium in the inventory for Texas, current through **September 23, 2026**.
 
-**6 instruments** — 2 in force, 3 pending, 1 past.
+**11 instruments** — 5 in force, 4 pending, 2 past.
 
 State policy is tracked separately: **11 actions** (10 bills and 1 non-bill action) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | Austin County | County | 2026-07-27 | data center, battery storage | 🟢 Active |
+| Brownsville | City | Unverified | data center | 🟡 Pending |
 | Denton | City | Unverified | data center | 🟡 Pending |
 | Fort Worth | City | Unverified | data center | 🟡 Pending |
 | Harlingen | City | 2026-05-20 | data center | 🟢 Extended |
+| Hays County | County | 2026-06-23 | data center | 🟢 Active |
 | Hill County | County | 2026-05-12 | data center | 🔴 Rescinded |
+| Lavon | City | 2026-08-07 | data center | 🟢 Active |
+| League City | City | 2024-03-01 | battery storage | ⚪ Expired |
 | Lubbock | City | Unverified | data center | 🟡 Pending |
+| Pasadena | City | 2024 | battery storage | 🟢 Extended |
 
 ## Detailed entries
 
@@ -33,6 +38,22 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Affected projects:** —
 - **Detailed status:** Active as of 2026-09-23. The Commissioners Court unanimously adopted the signed order on 2026-07-27 following the July 13, 2026 public hearing; KWHI (2026-07-28) independently confirms the unanimous vote and describes the order's scope (equipment-manufacturer audits, an Energy Development Zone siting study by the County Fire Marshal and County Engineer, and injunctive-relief enforcement authority). No fixed term applies; the order remains in effect, by its own terms, until the Commissioners Court (in consultation with the County Fire Marshal) determines the Comprehensive Health and Safety Review is complete. No repeal, rescission, or completion of the review was found in sources reviewed through 2026-09-23. KWHI notes Austin County is 'the second county in Texas to adopt a moratorium of this nature,' after Hill County (which later rescinded its moratorium following a developer lawsuit; see the existing tx-hill-county-2026 row).
 - **Outcome:** —
+
+### Brownsville
+
+- **Type:** City
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** 90 days (once formally adopted)
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `tx-brownsville-undated`
+- **Legal basis:** Resolution No. 2026-121 (initiating the moratorium process)
+- **What prompted it:** No existing UDC regulations addressing high-intensity data processing facilities
+- **Affected projects:** None identified
+- **Detailed status:** Pending as of 2026-09-23; the City Commission voted on 2026-09-01 (Resolution No. 2026-121) to direct the city manager to begin the formal process for a 90-day moratorium on high-intensity data processing facilities, private gaming clubs, quick-lube facilities, event centers and self-storage facilities. Under Texas law the moratorium requires three public hearings (30 days between the first and second) before it takes effect, so it had not yet taken effect as of the reference date.
+- **Outcome:** City beginning statutory hearing process required before a moratorium can take effect
 
 ### Denton
 
@@ -82,6 +103,22 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** Active/extended as of 2026-09-23. Before the original 120-day term lapsed, the City Commission gave first reading to a 60-day extension ordinance (reported by KRGV on 2026-08-25 as approved 'last week') and a second/final reading roughly two weeks later, extending the moratorium to the 180-day statutory maximum (through approximately December 2026) while a contracted engineering firm (Ambiotec Engineering) completes a water/wastewater/electrical infrastructure impact study. The moratorium has no effect on the Fluidstack- and Eneus Energy-linked data center projects proposed just outside city limits near the Port of Harlingen/Valley International Airport, since those sites are in unincorporated Cameron County, outside the city's zoning jurisdiction (per Mayor Norma Sepulveda, 2026-09). No numbered city ordinance ('Ordinance No. ___') for either the original moratorium or the extension was located on harlingentx.gov or in news coverage reviewed, so the instrument-number portion of the original VERIFY marker remains open.
 - **Outcome:** 120-day moratorium adopted to study potential data center impacts and modernize land use regulations
 
+### Hays County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-06-23
+- **Normalized date:** `2026-06-23` (exact)
+- **Duration:** 180-day emergency water protection review period, through 2026-12-31 per tracker
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `tx-hays-county-2026`
+- **Legal basis:** Hays County Commissioners Court resolution creating an 'emergency water protection review period'
+- **What prompted it:** Water crisis / groundwater resource concerns from rapid data center growth
+- **Affected projects:** None identified
+- **Detailed status:** Active as of 2026-09-23; Commissioners Court adopted a resolution on 2026-06-23 creating an emergency water-protection review period that pauses approvals for data centers and other high-water-use developments, and creates a review task force. County officials and an attorney for Save Our Springs Alliance both stressed the resolution is deliberately not styled a 'moratorium' (to reduce litigation risk after Hill County's moratorium was rescinded and sued over), even though it functions as a development pause. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** County reviewing data center/high-water-use project applications via new task force and checklist
+
 ### Hill County
 
 - **Type:** County
@@ -98,6 +135,38 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** Rescinded. Following a $100 million federal lawsuit filed by a data center developer (~2026-05-28) alleging the moratorium was illegal, the Hill County Commissioners Court voted to rescind the moratorium on 2026-06-04 and adopted new data center review requirements/policies instead (per KWTX, KCENTV, KXXV, and The Texas Tribune). The developer subsequently dismissed the lawsuit (KWTX, 2026-07-15) after the county's about-face and a settlement of up to $100,000.
 - **Outcome:** One-year moratorium adopted 2026-05-12; rescinded 2026-06-04 under litigation pressure and replaced with new development-review policies
 
+### Lavon
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-08-07
+- **Normalized date:** `2026-08-07` (exact)
+- **Duration:** 90 days, extendable for another 90 days
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `tx-lavon-2026`
+- **Legal basis:** City of Lavon moratorium ordinance on data center projects
+- **What prompted it:** Proposed hyperscale data center on 79 acres along FM 2755; resident concerns over water/electricity/character
+- **Affected projects:** Proposed hyperscale data center campus on 79 acres along FM 2755 (Elevon master-planned community)
+- **Detailed status:** Active as of 2026-09-23; City Council unanimously approved a 90-day moratorium on data center projects on 2026-08-07, running to on or about 2026-11-05, with the option to extend for another 90 days.
+- **Outcome:** City studying zoning/infrastructure impacts before allowing new data center applications
+
+### League City
+
+- **Type:** City
+- **Status:** ⚪ Expired
+- **Date enacted:** 2024-03-01 (per BESS tracker)
+- **Normalized date:** `2024-03-01` (unverified)
+- **Duration:** Approximately 3 months (lifted 2024-07-01 per tracker)
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `tx-league-city-2024`
+- **Legal basis:** City of League City pause/study period on battery energy storage system rezoning applications
+- **What prompted it:** Two proposed BESS rezoning applications (Stella Energy Solutions; Cypress Creek Renewables) drew resident opposition over fire/flood/safety concerns
+- **Affected projects:** Stella Energy Solutions and Cypress Creek Renewables BESS rezoning applications (both ultimately denied by Planning and Zoning Commission)
+- **Detailed status:** Expired. Per the eticaag BESS tracker, League City's pause on battery storage projects ran 2024-03-01 to 2024-07-01 (about 3 months) and has since lifted; the city went on to adopt a BESS ordinance (Chapter 125 of the Code of Ordinances). [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** City studied and adopted permanent BESS zoning regulations (Chapter 125)
+
 ### Lubbock
 
 - **Type:** City
@@ -113,6 +182,22 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Affected projects:** None named as currently pending before the city.
 - **Detailed status:** Pending as of 2026-09-23 (adopted same day as this research date). The Council voted 5-2 to adopt a resolution starting the moratorium process; while the ordinance is drafted, city planning staff are directed to develop guidelines on water use, power reliability, zoning, noise, and lighting for large-scale data centers, and a work session for the Council to be briefed on impacts is to be scheduled within 90 days. No moratorium ordinance has yet been adopted; per Mayor Mark McBrayer, the near-term practical effect is limited since 'no one's coming to Lubbock in the next year anyway with a data center' given current ERCOT conditions. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
 - **Outcome:** Resolution adopted to begin the legal process toward a possible 90-day (optionally extendable to 180-day) data center moratorium, following a citizen petition campaign; the moratorium ordinance itself has not yet been adopted.
+
+### Pasadena
+
+- **Type:** City
+- **Status:** 🟢 Extended
+- **Date enacted:** 2024 (original 'Commercial Moratorium' on BESS; exact date not located, extended by hearing on 2025-01-06)
+- **Normalized date:** `2024` (year_only)
+- **Duration:** Repeatedly extended
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `tx-pasadena-2024`
+- **Legal basis:** City of Pasadena Commercial Moratorium on Battery Energy Storage Systems (BESS) permits, extended by council action including a 2025-01-06 public hearing
+- **What prompted it:** City studying BESS siting/safety regulations
+- **Affected projects:** None identified
+- **Detailed status:** Active as of 2026-09-23 per the eticaag BESS tracker (expiring October 2026); City Council has held at least one public hearing (2025-01-06) on extending its moratorium on issuance of permits for placement/installation of BESS facilities. [VERIFY instrument number not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** City continuing to study/regulate BESS siting
 
 ---
 

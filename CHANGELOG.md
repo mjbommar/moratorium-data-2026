@@ -1,28 +1,66 @@
 # Changelog
 
-## 2026-09-23 — agent-swarm refresh: every row rechecked, 520 instruments added
+## 2026-09-23 — agent-swarm refresh and four QA rounds: 533 → 1,291 instruments
 
 This working snapshot updates the tracker through **2026-09-23**. It is newer
 than the latest tagged release, v2026.07, and keeps that release's figures below
-as a historical snapshot.
+as a historical snapshot. The refresh ran first; four rounds of QA/QC followed
+the same day and are described after it.
 
 ### Current headline numbers
 
-| Measure | 2026-08-19 | 2026-09-23 |
-|---|---|---|
-| Local moratorium instruments | 533 | **1053** |
-| Currently in force (active + extended) | 429 | **899** |
-| Pending / proposed | 34 | **60** |
-| Past (replaced + expired + rescinded) | 70 | **94** |
-| Rows carrying `[VERIFY]` markers | 182 | **214** |
-| States with at least one local instrument | 42 | **47** |
-| State bills tracked | 438 | 438 |
+| Measure | 2026-08-19 | After refresh | After QA (current) |
+|---|---|---|---|
+| Local moratorium instruments | 533 | 1053 | **1291** |
+| Currently in force (active + extended) | 429 | 899 | **1063** |
+| Pending / proposed | 34 | 60 | **77** |
+| Past (replaced + expired + rescinded) | 70 | 94 | **151** |
+| Rows carrying `[VERIFY]` markers | 182 | 214 | **300** |
+| States with at least one local instrument | 42 | 47 | **47** |
+| State bills tracked | 438 | 438 | 438 |
 
-The local status mix is 788 active, 111 extended, 60 pending, 66 replaced, 20
+The local status mix is 897 active, 166 extended, 77 pending, 93 replaced, 50
 expired, and 8 rescinded. Alaska, Arizona, Delaware, Rhode Island, and Vermont
 enter the dataset; only Hawaii, West Virginia, and Wyoming have no local
-instrument after a targeted search. Ohio (159) and Michigan (141) now lead, each
-having more instruments than the whole inventory held in April.
+instrument after a targeted search. Ohio (160), New York (150) and Michigan (145)
+lead. New York went from 24 rows to 150 because the QA pass added its town
+battery-storage local laws, a category the inventory had not covered.
+
+### QA/QC after the refresh (four rounds)
+
+The refresh added 520 rows, 276 of them adopted before August 2026, which looked
+too many to have been missed. Four rounds tested that and the rest of the file:
+
+1. **Every new row audited** against its archived sources by 12 agents (Opus
+   for Ohio and Michigan). Result: no duplicates, 2 rows removed as permanent
+   bans, 10 adoption-date changes among the pre-August rows (mostly precision;
+   two first readings had been taken for adoptions), about 50 field fixes.
+   Every auditor concluded the pre-August rows are genuine misses of small
+   townships and villages, not a dating artifact. External trackers carry 62% of
+   them with a pre-August date of their own.
+2. **Blind re-verification** of a random 40 rows (26 new, 14 older) by agents
+   given only the jurisdiction name. 34 of 40 matched on adoption month and
+   status; the differences were 3 dates and 1 status in our records (all fixed)
+   and 2 verifier misses. No row turned out not to be a moratorium.
+3. **Completeness against nine external trackers** (savrn, aigridwatch,
+   interconnectedcapital, the Ohio Capital Journal map, the NC Data Center
+   Newsletter sheet, dcmap, Carina and EticaAG for battery storage,
+   CleanPowerDaily). We are the largest list, but the trackers named 278
+   jurisdictions we lacked; researching each added 243 rows (127 New York
+   battery-storage and solar local laws). Of 32 high-priority contradictions,
+   we were right 20 times and the trackers 12, which removed 4 permanent bans
+   and marked one lifted moratorium replaced.
+4. **Label consistency**: 133 rows flagged by deterministic checks (extended
+   without an end date, `duration_days` holding an extended rather than the
+   original term, sectors disagreeing with the text, same-name rows) were
+   resolved, then a final pass fixed rows past their term or missing an
+   adoption date. 37 rows mapped to the wrong county of a same-name township
+   were corrected; the geocoder now keeps the county qualifier.
+
+14 rows were removed in total (permanent bans, never-adopted proposals, and one
+row with no record beyond a map pin); all are kept with reasons in
+`work/answers/rejected/`. 28 rows the QA could not settle carry `[VERIFY]`
+markers. The log is `work/qa-progress-2026-09-23.md`.
 
 ### What the pass did
 
@@ -85,11 +123,11 @@ below as a historical snapshot.
 
 | Measure | 2026-08-19 snapshot |
 |---|---|
-| Local moratorium instruments | **1053** |
-| Currently in force (active + extended) | **899** |
-| Pending / proposed | **60** |
-| Past (replaced + expired + rescinded) | **94** |
-| Rows carrying `[VERIFY]` markers | **214** |
+| Local moratorium instruments | **1291** |
+| Currently in force (active + extended) | **1063** |
+| Pending / proposed | **77** |
+| Past (replaced + expired + rescinded) | **151** |
+| Rows carrying `[VERIFY]` markers | **300** |
 | State bills tracked | **438** |
 | State policy actions, including non-bill instruments | **440** |
 | States with at least one local instrument | **47** |

@@ -1,0 +1,65 @@
+{
+  "state_abbrev": "KS",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "ks-lyon-county-2026-2",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ksnt.com/news/local-news/moratorium-on-data-centers-approved-by-lyon-county-commissioners/",
+          "title": "Moratorium on data centers approved by Lyon County commissioners",
+          "publisher": "KSNT",
+          "document_date": "2026-07-23",
+          "source_type": "news",
+          "supports": "Confirms Lyon County adopted two SEPARATE resolutions on the same day: Resolution No. 12-26 for data centers and battery energy storage systems (through Jan. 22, 2027), and Resolution No. 13-26 for commercial solar energy conversion systems only (through Dec. 1, 2026). This row's legal_basis cites Resolution No. 13-26, i.e. the solar-only resolution.",
+          "quote": "Resolution No. 12-26 for data centers and battery energy storage systems – Jan. 22, 2027. Resolution No. 13-26 for commercial solar energy conversion systems – Dec. 1, 2026."
+        }
+      ],
+      "notes": "SECTOR_CHECK: 'BESS' is covered by the companion Resolution No. 12-26 (a separate instrument, already represented elsewhere in the inventory), not by Resolution No. 13-26, the solar-only resolution this row documents. Per the process rule, a separate instrument does not count, so sectors correctly remains [\"solar\"]."
+    },
+    {
+      "moratorium_id": "ks-neosho-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.neoshocountyks.org/DocumentCenter/View/635/R-26-E",
+          "title": "Resolution R-26-7, Providing for a Temporary Moratorium...",
+          "publisher": "Neosho County Board of Commissioners",
+          "document_date": "2026-05-19",
+          "source_type": "resolution",
+          "supports": "The resolution's own WHEREAS clauses state the county 'has spent significant time and effort to develop regulations regarding some of these property uses (wind power generation, commercial-scale solar power generation, and battery energy storage systems)' -- i.e. solar (and wind) already have separate, existing regulations and are excluded from this moratorium's covered-use list (data centers, nuclear power, hydrogen-based energy, and battery energy storage).",
+          "quote": "the Neosho County Commission has spent significant time and effort to develop regulations regarding some of these property uses (wind power generation, commercial-scale solar power generation, and battery energy storage systems)"
+        }
+      ],
+      "notes": "SECTOR_CHECK: solar is explicitly excluded from the moratorium's operative scope by the resolution's own text (already regulated separately), so sectors correctly excludes it."
+    },
+    {
+      "moratorium_id": "ks-saline-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://salinapost.com/posts/72efeb72-d4d2-4a40-bb06-f445635cd6d4",
+          "title": "Saline County Commissioner discusses three year moratorium on data centers and energy facilities",
+          "publisher": "Salina Post",
+          "source_type": "news",
+          "supports": "Commissioner Joe Hay's own description of the three-year moratorium's structure lists only three covered categories -- data centers, nuclear power facilities, and hydrogen-based energy facilities -- with no battery storage category; the article's opening background material explains the moratorium followed (as a trigger, not as covered scope) the board's January 2026 denial of a proposed battery energy storage system.",
+          "quote": "he three year moratorium includes the following: - One year= Data center. - One year= Nuclear power facilities. - One year= Hydrogen-based energy facilities."
+        },
+        {
+          "url": "https://citizenportal.ai/articles/7891674/kansas/saline-county/saline-county-adopts-temporary-moratorium-on-data-centers-nuclear-and-hydrogen-facilities-in-unincorporated-areas",
+          "title": "Saline County adopts temporary moratorium on data centers, nuclear and hydrogen facilities in unincorporated areas",
+          "publisher": "Citizen Portal",
+          "document_date": "2026-03-17",
+          "source_type": "minutes",
+          "supports": "Confirms the moratorium adopted March 17, 2026 covers only data centers, nuclear power generation, and hydrogen-based energy facilities."
+        }
+      ],
+      "notes": "SECTOR_CHECK: the January 2026 BESS project denial is the moratorium's TRIGGER (the precipitating event), not part of its operative scope, which both sources confirm covers only data centers, nuclear power, and hydrogen-based energy. sectors correctly remains [\"data_center\"] (battery_storage, nuclear and hydrogen are not separately captured because the inventory's sector vocabulary has no nuclear/hydrogen categories)."
+    }
+  ]
+}

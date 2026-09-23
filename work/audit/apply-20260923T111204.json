@@ -1,0 +1,29 @@
+{
+  "applied_at": "20260923T111204",
+  "answer_files": [
+    "work/answers/qa4/leads-MI.json"
+  ],
+  "stats": {
+    "outcome:status_changed": 1,
+    "already_applied": 6,
+    "outcome:unresolvable": 1,
+    "candidate_same_jurisdiction_distinct_instrument": 1,
+    "candidates_added": 1,
+    "candidate_duplicate": 1
+  },
+  "conflicts": [],
+  "skipped": [
+    "leads-MI.json: mi-bruce-township-undated unresolvable",
+    "leads-MI.json: candidate MI 'Cascade Charter Township (Kent County)' (resolution-024-2026) treated as duplicate of mi-cascade-charter-township-kent-county-2026-2 (resolution-024-2026)"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "mi-zeeland-charter-township-2026-2",
+      "column": "<new row>",
+      "before": "",
+      "after": "Michigan / Zeeland Charter Township",
+      "reason": "Lead (QA1 MI-part2): a separate resolution, so per the codebook's rule on successive instruments it gets its own row. Status 'rescinded' because the board repealed it before its term ended; the replacement is a new moratorium, not permanent zoning, so 'replaced' would misstate it. The March 3 minutes were not fetched; the resolution number rests on the Sept. 1 repealing text. COORDINATOR: apply_research's dedup flags this as a duplicate of mi-zeeland-charter-township-2026 because that row's legal_basis mentions 'Resolution No. 1027' (as the instrument it repealed), and the Sept. 1 resolution's own number is blank in the board packet. It is a distinct instrument and needs a manual add (suggested id mi-zeeland-charter-township-2026-2).",
+      "source": "leads-MI.json"
+    }
+  ]
+}

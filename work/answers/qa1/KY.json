@@ -1,0 +1,352 @@
+{
+ "state_abbrev": "KY",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA1",
+ "decisions": [
+  {
+   "moratorium_id": "ky-allen-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.wnky.com/allen-county-pauses-data-center-development-for-two-years/",
+     "source_type": "news",
+     "supports": "Fiscal Court adopted Ordinance No. 26-03 on June 10, 2026, a two-year moratorium; states the ordinance took effect immediately following second reading and adoption.",
+     "quote": "The Allen County Fiscal Court adopted Ordinance No. 26-03, temporarily prohibiting new data center development throughout the county for a period of two years. ... The ordinance took effect immediately following its second reading and adoption by the Allen County Fiscal Court."
+    },
+    {
+     "url": "https://www.wnky.com/content/uploads/2026/06/a/a/ACFrOgCjSNAz7SlFZRJ30T0Lm_ofRvNP82IHRKXmyLRHk7wwLmKgzR98AfVJupEOqYk56j788UiQNKc_sr9N2hEe8_AI4-uTgAsldhOx2R7Ewalf1Y4ARJsw96SBGQBQkortAh_cvBsW8c2GSnaYxEzg4OlN1Kw_40uqGq7UoA.pdf",
+     "title": "Allen County Fiscal Court Ordinance No. 26-03",
+     "publisher": "Allen County Fiscal Court, Kentucky",
+     "source_type": "ordinance",
+     "supports": "Primary-source ordinance text imposing a two-year moratorium on data centers and data storage facilities, effective immediately upon second reading and adoption.",
+     "quote": "A moratorium is hereby imposed on the construction, development, and operation of date centers of any size and all data storage facilities within the jurisdiction of the ALLEN COUNTY FISCAL COURT for a period of two years effective from the date of this ordinance."
+    }
+   ],
+   "notes": "News-plus-primary-source confirmation of final adoption (not a first reading); no other Allen County row exists to duplicate."
+  },
+  {
+   "moratorium_id": "ky-boone-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.radiomom.org/post/boone-county-commissioners-approve-moratorium-on-data-centers",
+     "source_type": "news",
+     "supports": "Board of Commissioners unanimously approved the ordinance on Monday, June 15, 2026 (effective June 16, 2026, through June 15, 2027); background on the Area Plan Commission's May 6 and June 3 recommendations.",
+     "quote": "The Boone County Board of Commissioners unanimously approved an ordinance Monday establishing a one-year moratorium on new data center development in unincorporated Boone County. The moratorium, which takes effect June 16, 2026... will remain in effect through June 15, 2027."
+    }
+   ],
+   "notes": "Clear adoption vote (not a recommendation or first reading); date checks out (June 15, 2026 is a Monday)."
+  },
+  {
+   "moratorium_id": "ky-boyd-county-fiscal-court-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.dailyindependent.com/news/boyd-votes-on-data-center-moratorium-residents-question-voice-concerns-about-timing-specifics-of-decision/article_4ea60339-7f0f-442c-aa1b-dd6c543ea637.html",
+     "source_type": "news",
+     "supports": "A pre-vote article stating the first reading had occurred and that 'the commissioners will vote on second reading of the moratorium during the fiscal court's next regular meeting -- Tuesday, July 21, at noon,' matching the row's date.",
+     "quote": "Judge-Executive Eric Chaney and the commissioners will vote on second reading of the moratorium during the fiscal court's next regular meeting — Tuesday, July 21, at noon."
+    },
+    {
+     "url": "https://www.dailyindependent.com/news/boyd-approves-data-center-moratorium/article_f56ffafa-d2a7-4c69-b0d3-154bd192fc59.html",
+     "source_type": "news",
+     "supports": "Confirms the second-reading vote passed unanimously, excluding TeraWulf's EastPark project.",
+     "quote": "CATLETTSBURG The Boyd County Fiscal Court voted unanimously on second reading to impose a six-month moratorium on data centers within the jurisdiction of the county, excluding TeraWulf's plan to construct and operate a 1-gigawatt data center at EastPark Industrial Park."
+    },
+    {
+     "url": "https://www.einpresswire.com/article/925280143/fiscal-court-special-meeting",
+     "source_type": "other",
+     "supports": "Confirms a special Fiscal Court meeting was in fact called for Thursday, July 9, 2026, consistent with July 9 having been an earlier (first-reading) meeting rather than the final adoption date reported by a conflicting source.",
+     "quote": "Notice is given that the Boyd County Judge Executive does hereby call a special meeting of the Boyd County Fiscal Court, to be held on Thursday, July 9th, 2026, at Noon."
+    }
+   ],
+   "notes": "A fourth source already in the packet (herald-dispatch.com) states the ordinance was 'approved unanimously without discussion... during a special meeting July 9' -- this conflicts with the row's July 21 date. I searched further and found (a) the Daily Independent's own preview article explicitly scheduling the second/final reading for the regular July 21 meeting, (b) a Daily Independent legal public notice indexed in search results (text snippet: 'On July 21, 2026, the Boyd County Fiscal Court passed Ordinance 2026-03, imposing a six (6) month moratorium...' -- matching the row's existing legal_basis, 'Ordinance 2026-03') that I could not archive after repeated attempts (page returned ERR_CONNECTION_REFUSED each time, so it is not cited as formal evidence), and (c) confirmation that a special meeting was indeed called for July 9, which fits a first-reading-at-a-special-meeting theory better than a final-adoption-at-a-special-meeting theory given the Daily Independent's own contemporaneous reporting. On balance the weight of evidence supports keeping the row's July 21, 2026 date; the Herald-Dispatch's July 9 claim looks like a reporting error, not a genuine second date. Confidence held at 0.85 rather than higher given the unresolved conflict in reporting."
+  },
+  {
+   "moratorium_id": "ky-butler-county-2026",
+   "outcome": "corrected",
+   "confidence": 0.75,
+   "changes": {
+    "date_enacted": {
+     "from": "First reading given at the Fiscal Court's Monday meeting per Beech Tree News; WBKO reported the moratorium as approved in a story published June 26, 2026",
+     "to": "First reading at the Fiscal Court's Monday, June 22, 2026 meeting (5-0), per Beech Tree News; WNKY reports the Fiscal Court 'held the second reading of a proposed data center ordinance' on Monday, July 13, 2026, after which Judge-Executive Flener announced next steps (appointing committee members), indicating final adoption",
+     "reason": "The only two sources originally cited (WBKO and Beech Tree News) describe the same June 22, 2026 meeting, and Beech Tree News is explicit that magistrates 'unanimously approved the first reading... voting 5-0' -- i.e., not yet an enacted ordinance. A search located a follow-up WNKY article (dated July 13, 2026) reporting that the Fiscal Court 'held the second reading of a proposed data center ordinance Monday evening' and that the Judge-Executive was already appointing committee members and describing next steps -- consistent with the ordinance having passed. This is the missing final-adoption step the original pass did not find (the row's own 'outcome' field already flagged the first-reading-only sourcing)."
+    },
+    "date_enacted_iso": {
+     "from": "2026-06",
+     "to": "2026-07-13",
+     "reason": "July 13, 2026 (a Monday) is the date of the Fiscal Court's second reading of the ordinance per WNKY, the most likely date of final adoption; June 2026 was only the first-reading date."
+    },
+    "date_enacted_uncertainty": {
+     "from": "month_only",
+     "to": "exact",
+     "reason": "Second-reading date is given as an exact date in the WNKY article."
+    },
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2027-07-13",
+     "reason": "One-year (365-day) term from the corrected July 13, 2026 adoption date."
+    },
+    "current_status": {
+     "from": "Active as of 2026-09-23 per the only reporting located (June 2026); no update, extension, or expiration found in this pass.",
+     "to": "Active as of 2026-09-23; first reading approved 5-0 at the June 22, 2026 Fiscal Court meeting, second reading held July 13, 2026 (WNKY), after which the Judge-Executive began appointing an implementation committee; one-year term runs through 2027-07-13.",
+     "reason": "Updates the status narrative with the corrected two-reading timeline."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://beechtreenews.com/articles/fiscal-court-approves-data-center-moratorium",
+     "source_type": "news",
+     "supports": "Explicitly states the June 22, 2026 vote was a first reading only (5-0), despite the headline's use of 'approves.'",
+     "quote": "The magistrates unanimously approved the first reading of the moratorium, voting 5-0 in support of the measure."
+    },
+    {
+     "url": "https://www.wbko.com/2026/06/26/butler-county-approves-one-year-moratorium-data-centers/",
+     "source_type": "news",
+     "supports": "Original packet evidence describing the same June 22 first-reading meeting without noting the reading stage.",
+     "quote": "MORGANTOWN, Ky. (WBKO) - Butler County's fiscal court has approved a one-year moratorium on data centers, giving local officials time to study what impact such a facility could have on utilities, water systems and ratepayers."
+    },
+    {
+     "url": "https://www.wnky.com/butler-county-fiscal-court-advances-data-center-ordinance/",
+     "source_type": "news",
+     "supports": "Confirms the second reading was held Monday, July 13, 2026, and that the Judge-Executive was already moving to the implementation stage (appointing committee members), consistent with adoption.",
+     "quote": "MORGANTOWN, Ky. – The Butler County Fiscal Court held the second reading of a proposed data center ordinance Monday evening as county leaders continue preparing for potential development opportunities. ... 'The next step is assembling a committee,' Flener said. 'I've appointed two magistrates tonight...'"
+    },
+    {
+     "url": "https://bgdailynews.com/2026/07/02/butler-county-oks-data-center-moratorium/",
+     "source_type": "news",
+     "supports": "A July 2, 2026 regional roundup describing Butler County's moratorium as already in place ('last week approved'), which appears to reflect the same loose first-reading-as-approval reporting as WBKO/Beech Tree News rather than a separate, earlier final adoption.",
+     "quote": "Butler County is the third county in the region to implement a county-wide moratorium on data center projects."
+    }
+   ],
+   "notes": "Genuine OLDER_INSTRUMENT-style dating problem, caught by cross-checking: two of the three original sources described only a first reading, but the row was dated as if adopted then. The WNKY second-reading article does not use the word 'passed' explicitly, so I did not set confidence above 0.75, but the surrounding context (forming an implementation committee, 'advances' headline) makes an unadopted ordinance unlikely."
+  },
+  {
+   "moratorium_id": "ky-logan-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.wkyt.com/2026/07/30/logan-county-approves-12-month-moratorium-data-centers/",
+     "source_type": "news",
+     "supports": "Confirms the moratorium 'was made official Tuesday' (July 28, 2026), after having been 'originally proposed' July 16, 2026; includes photos of the signed moratorium document.",
+     "quote": "The Logan County Fiscal Court has approved a 12-month moratorium on data centers within the county. The moratorium was made official Tuesday... The board originally proposed the moratorium July 16."
+    }
+   ],
+   "notes": "Explicit two-step timeline (proposed July 16, made official July 28) confirms the row's date is the final-adoption date, not the proposal date; both are Tuesday/Thursday as stated, consistent with the article."
+  },
+  {
+   "moratorium_id": "ky-lyon-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.6,
+   "evidence": [
+    {
+     "url": "https://www.wpsdlocal6.com/news/data-center-moratorium-ordinance-passes-unanimously-in-lyon-county/article_3e62c03d-096f-42d0-b78d-d1f7e51be074.html",
+     "source_type": "news",
+     "supports": "Confirms the ordinance was passed (not merely proposed) unanimously by the Fiscal Court, forming a study committee; modeled on Allen County's moratorium.",
+     "quote": "The ordinance outlined specifications of the moratorium and was passed unanimously."
+    },
+    {
+     "url": "https://www.timesleader.net/news/data-center-moratorium-ordinance-passes-unanimously-in-lyon-county/article_272dcf42-66fc-59ef-bc32-e8a0aa927043.html",
+     "source_type": "news",
+     "supports": "Syndicated copy of the same story, independently confirming passage; neither carries a dateline or explicit reading-stage language.",
+     "quote": "The ordinance outlined specifications of the moratorium and was passed unanimously."
+    }
+   ],
+   "notes": "Searched for an exact adoption date, ordinance number, and stated term; none found beyond what the row already (appropriately) treats as uncertain (month-only date, duration_kind=unknown). Both available articles agree the ordinance was actually passed (not just introduced), which supports enacted_status=active, but I could not pin down a precise date or reading stage, so I left the row's cautious month-only dating and low-moderate confidence in place rather than raising it further."
+  },
+  {
+   "moratorium_id": "ky-rowan-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.65,
+   "evidence": [
+    {
+     "url": "https://www.wtvq.com/rowan-county-approves-two-year-data-center-moratorium-ahead-of-potential-projects/",
+     "source_type": "news",
+     "supports": "Confirms the Fiscal Court 'recently approved' a two-year moratorium on large-scale data centers; explains the county's lack of zoning and plan to develop a conditional-use-permit process.",
+     "quote": "The Rowan County Fiscal Court recently approved a two-year moratorium on large-scale data centers, giving county leaders time to consider how future projects could be reviewed before moving forward."
+    }
+   ],
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "Article (published Sept. 1, 2026) describes the moratorium only as 'recently approved' with no reading-stage language or exact date; no ordinance number located. Confirms an adopted (not merely proposed) moratorium is in place, which is the main OLDER_INSTRUMENT concern, but does not resolve the instrument-number gap."
+    }
+   ],
+   "notes": "Single-source item; confidence left essentially where the original pass set it since I could not add a second source or a primary document."
+  },
+  {
+   "moratorium_id": "ky-scott-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.news-graphic.com/news/six-month-halt-on-potential-data-centers/article_4e78b630-fee8-4a86-99ac-abe6228e3fa2.html",
+     "source_type": "news",
+     "supports": "Confirms the original March 13, 2026 Fiscal Court adoption of a six-month moratorium (through approximately Sept. 13, 2026).",
+     "quote": "Despite no expressed interest from developers, Scott County Fiscal Court approved a moratorium that would not allow the consideration of data centers for at least six months... Unless the declaration is cut short or extended, Planning and Zoning staff have until Sept. 13 to review land use regulations, conduct a public hearing, and draft regulations."
+    },
+    {
+     "url": "https://www.wkyt.com/2026/09/18/scott-county-leaders-weigh-draft-data-center-ordinance/",
+     "source_type": "news",
+     "supports": "Confirms the moratorium was extended past its original September expiration (now describing a December expiration) and remained in force as of Sept. 18, 2026.",
+     "quote": "The current freeze on data centers is set to expire in December. Planners say there is not likely enough time to make the proposed changes before then. ... Flemming said he expects ask fiscal court to extend the moratorium into next year to finalize the rules."
+    },
+    {
+     "url": "https://www.wkyt.com/2026/07/14/georgetown-city-council-backs-data-center-moratorium/",
+     "source_type": "news",
+     "supports": "Confirms Georgetown's city-level action is a resolution supporting the county moratorium, not a separate/duplicate pause.",
+     "quote": "The Georgetown City Council is supporting a moratorium on data centers in Scott County through the end of the year. ... The resolution directs the Georgetown Scott County Planning Commission to recommend zoning regulations for data centers."
+    }
+   ],
+   "notes": "This item was already thoroughly researched by the original agent (extended status, evolving end date, and the Georgetown resolution correctly identified as non-duplicative); I re-verified all three sources against the archived text and found nothing to add or correct."
+  },
+  {
+   "moratorium_id": "ky-shelby-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.6,
+   "evidence": [
+    {
+     "url": "https://www.pmg-ky1.com/sentinel_news/news/county-places-moratorium-on-large-scale-data-centers/article_57c61d9f-0761-5c77-880f-75fecac264d9.html",
+     "source_type": "news",
+     "supports": "Confirms the ordinance's terms (through Dec. 31, 2026) and that a second reading was scheduled for the Fiscal Court's July 21, 2026 meeting.",
+     "quote": "A second reading of the ordinance will take place at the July 21 meeting. The ordinance will go into effect following publication in The Sentinel-News."
+    }
+   ],
+   "notes": "Searched specifically for confirmation the July 21 second reading occurred (as the row itself already flags as unconfirmed); found only out-of-state 'Shelby County Commissioners' results (Indiana, which uses a commissioner rather than fiscal-court system) and a Kentucky Association of Counties aggregator (kaco.org) that simply reprints the same pre-vote Sentinel-News article with no update. No report of the ordinance failing, being withdrawn, or being delayed was found either. Left as-is with the same honest hedge the original pass used; did not raise or lower confidence meaningfully."
+  },
+  {
+   "moratorium_id": "ky-calloway-county-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.murrayledger.com/news/local/fiscal-court-pushes-vote-on-revised-data-center-moratorium-to-next-month/article_6fe70e69-7d4f-40ee-a5d8-5c3ba1ea0b0e.html",
+     "source_type": "news",
+     "supports": "Confirms the Fiscal Court tabled the proposed one-year moratorium at its Sept. 17, 2026 meeting, directing the county attorney to draft a revised version, with a new vote expected Oct. 21, 2026.",
+     "quote": "MURRAY – The Calloway County Fiscal Court delayed action Wednesday on a proposed one-year moratorium on data centers after magistrates raised legal and policy questions about the ordinance as written. The court voted to table the proposed ordinance until its regular Oct. 21 meeting."
+    }
+   ],
+   "notes": "Clearly and correctly pending; well-documented single source with no ambiguity about the tabling."
+  },
+  {
+   "moratorium_id": "ky-jessamine-county-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://fox56news.com/news/local/jessamine-county-approves-12-month-data-center-moratorium/",
+     "source_type": "news",
+     "supports": "Confirms the Fiscal Court's approval of a 12-month moratorium, with a second reading scheduled for the Aug. 4, 2026 meeting.",
+     "quote": "The Jessamine County Fiscal Court approved a 12-month moratorium on all new data center development. ... The moratorium is scheduled to take effect after a second reading at the fiscal court meeting on Aug 4."
+    },
+    {
+     "url": "https://winchestersun.com/2026/09/02/winchester-enacts-one-year-data-center-moratorium-amid-regional-wave-ofrestrictions/",
+     "source_type": "news",
+     "supports": "A Sept. 2, 2026 Winchester planning-staff presentation lists Nicholasville/Jessamine County among the pauses 'already in place across central and eastern Kentucky,' independently indicating the Jessamine-area moratorium did in fact take effect by early September.",
+     "quote": "He listed additional measures in Nicholasville/Jessamine County (six months), Madison County (extended to a full year), Versailles (through the end of 2026), Georgetown, Nelson County (one year) and the city of London (two years)."
+    }
+   ],
+   "notes": "The Winchester source groups 'Nicholasville/Jessamine County' together and cites a six-month term, which more precisely matches the separate Nicholasville city ordinance (packet item ky-nicholasville-2026, 180 days) than this county-level 12-month ordinance; I'm treating it as independent confirmation that an adopted, in-force pause covers the area (resolving whether the Aug. 4 second reading actually happened) without treating it as authority for the county ordinance's specific term. This is not a duplicate: Jessamine County Fiscal Court (unincorporated county) and Nicholasville City Commission (city limits) are different bodies with different ordinances, consistent with both already being separate rows."
+  },
+  {
+   "moratorium_id": "ky-london-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.wkyt.com/2026/08/04/london-city-council-passes-2-year-data-center-moratorium/",
+     "source_type": "news",
+     "supports": "Confirms the Aug. 3, 2026 (Monday) 5-1 final vote, through Sept. 30, 2028, extendable one more year, and explicitly notes the ordinance had already had its first reading at an earlier meeting.",
+     "quote": "The London City Council passed a two-year moratorium on data centers within city limits on Monday. ... The moratorium was first read at an earlier council meeting."
+    }
+   ],
+   "notes": "Article explicitly distinguishes this vote (final passage) from an earlier first reading, directly addressing the OLDER_INSTRUMENT/first-reading risk even though this item isn't flagged OLDER_INSTRUMENT."
+  },
+  {
+   "moratorium_id": "ky-louisville-metro-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.wlky.com/article/louisville-data-center-moratorium-passes-six-months/73425536",
+     "source_type": "news",
+     "supports": "Confirms the 24-1 Metro Council vote, immediate effect, and Mayor Greenberg's signature.",
+     "quote": "In a 24-1 vote, Metro Council passed a six-month moratorium on data centers. The pause takes effect immediately... Mayor Greenberg signed the moratorium on Friday."
+    },
+    {
+     "url": "https://www.lpm.org/news/2026-08-13/louisville-metro-council-approves-data-center-moratorium-as-new-proposal-sparks-controversy",
+     "source_type": "news",
+     "supports": "Independently confirms the Aug. 13, 2026 vote (24-1), six-month/comprehensive-zoning term, and the floor amendment covering building conversions.",
+     "quote": "Metro Council members voted overwhelmingly Thursday night to approve a moratorium on new data center construction in Louisville... The moratorium, which passed on a 24 to 1 vote, will prevent city planners from approving new data center proposals for six months or until Metro Council approves comprehensive zoning rules."
+    },
+    {
+     "url": "https://www.lpm.org/news/2026-09-15/louisville-metro-council-begins-debate-on-data-center-regulations",
+     "source_type": "news",
+     "supports": "Confirms the moratorium remained in force as of Sept. 15, 2026, described as running until February 2027 or until new regulations pass, and that no final Council vote on permanent rules had occurred.",
+     "quote": "There's currently a moratorium on new data center approvals in Jefferson County until February, or whenever Metro Council passes new regulations."
+    },
+    {
+     "url": "https://www.courier-journal.com/story/news/local/2026/09/03/louisvilles-planning-commission-advances-data-center-regulations/91597104007/",
+     "source_type": "news",
+     "supports": "Confirms the Sept. 3, 2026 5-3 Planning Commission vote recommending Council adopt permanent data-center zoning regulations.",
+     "quote": "Louisville's Planning Commission advanced a set of proposed data center regulations, recommending the Metro Council approve the effort to put guardrails on the controversial energy-intensive developments."
+    }
+   ],
+   "notes": "This item was flagged quote_mismatch=true. The cause: the courier-journal.com evidence entry's cited quote ('Metro Council voted Aug. 13 to enact a moratorium on data center development to last 180 days or until proposed regulations are finalized') does not appear in the archived text, which is only a 677-character free preview of a paywalled article covering the Sept. 3 Planning Commission vote. This looks like a paywall-stub case (the original researcher likely saw a longer cached/snippet version), not a fabrication -- every substantive fact in that quote (Aug. 13 date, 180-day/six-month term, tied to the pending permanent regulations) is independently and fully corroborated by the other three sources above, which I re-verified word-for-word against their archived text. I kept the courier-journal citation (its URL is validly archived) but would not rely on it alone."
+  },
+  {
+   "moratorium_id": "ky-montgomery-county-undated",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.6,
+   "evidence": [
+    {
+     "url": "https://msadvocate.com/stories/county-gives-first-nod-to-data-center-moratorium,87354",
+     "source_type": "news",
+     "supports": "Confirms the Fiscal Court approved only a first reading of a one-year moratorium at its Aug. 18, 2026 meeting; article paywalled beyond the lead paragraph.",
+     "quote": "The Montgomery County Fiscal Court approved first reading of a one-year moratorium on data centers at its most recent meeting Aug. 18."
+    }
+   ],
+   "notes": "Correctly pending (first reading only); searched for a second-reading follow-up and found none, consistent with the row's own honest hedge."
+  },
+  {
+   "moratorium_id": "ky-nicholasville-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://www.wkyt.com/2026/08/11/nicholasville-passes-six-month-moratorium-data-centers/",
+     "source_type": "news",
+     "supports": "Confirms the City Commission 'has passed' a six-month moratorium, with resident comments describing it as already in place.",
+     "quote": "NICHOLASVILLE, Ky. (WKYT) - The city of Nicholasville has passed a six-month moratorium on data centers."
+    },
+    {
+     "url": "https://winchestersun.com/2026/09/02/winchester-enacts-one-year-data-center-moratorium-amid-regional-wave-ofrestrictions/",
+     "source_type": "news",
+     "supports": "Independently lists Nicholasville/Jessamine as among the pauses already in effect as of Sept. 2, 2026.",
+     "quote": "He listed additional measures in Nicholasville/Jessamine County (six months)..."
+    }
+   ],
+   "notes": "Original single source doesn't use explicit 'second reading' language, but 'has passed' plus residents discussing it as a live, in-place measure, plus the independent September cross-reference from Winchester's planning staff, together support active status."
+  },
+  {
+   "moratorium_id": "ky-winchester-2026",
+   "outcome": "confirmed_unchanged",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://winchestersun.com/2026/09/02/winchester-enacts-one-year-data-center-moratorium-amid-regional-wave-ofrestrictions/",
+     "source_type": "news",
+     "supports": "Confirms the Board of Commissioners approved a one-year moratorium by roll-call vote (Chenault, Strode, Toole all yes) on Tuesday, Sept. 1, 2026, directing the Planning Commission and staff to review zoning ordinances.",
+     "quote": "On roll call, Commissioners Chenault, Strode and Toole all voted yes. The motion carried, and the city will enforce a one-year moratorium."
+    }
+   ],
+   "notes": "Board-of-Commissioners roll-call vote (city-commission form of government) with no indication a second reading was required or pending; date matches (Sept. 1, 2026 is a Tuesday)."
+  }
+ ]
+}

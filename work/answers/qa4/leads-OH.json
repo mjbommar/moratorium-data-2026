@@ -1,0 +1,222 @@
+{
+ "state_abbrev": "OH",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-opus-5.5 agent QA4-leads",
+ "decisions": [
+  {
+   "moratorium_id": "oh-perry-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.5,
+   "evidence": [
+    {
+     "url": "https://www.news-herald.com/2026/09/23/officials-from-perry-area-leroy-township-discuss-ongoing-projects/",
+     "source_type": "news",
+     "supports": "Reporter's paraphrase (from Sept. 16 State of the Communities speeches) that the village has implemented a one-year ban excluding Champion Farm; no vote date or ordinance number given.",
+     "quote": "Perry Township and Perry Village recently implemented one-year bans, excluding the former Champion Farm site, according to Coss and township records.",
+     "publisher": "The News-Herald",
+     "document_date": "2026-09-23"
+    },
+    {
+     "url": "https://perryvillageohio.com/web/wp-content/uploads/2026/09/PV-Regular-Council-Meeting-Final-Agenda-9.10.2026.pdf",
+     "source_type": "agenda",
+     "supports": "Official agenda shows only a SECOND reading of Ordinance 2026-13 on 2026-09-10, with no recommendation to suspend the three-reading rule (unlike Resolutions 40-44 on the same agenda).",
+     "quote": "Ordinance No. 2026-13 (Second Reading)",
+     "publisher": "Village of Perry",
+     "document_date": "2026-09-10"
+    },
+    {
+     "url": "https://perryvillageohio.com/village-ordinances/",
+     "source_type": "other",
+     "supports": "Village ordinance listing (checked for Aug., Sept. and Oct. 2026) posts signed Ordinances 2026-10 and 2026-11 but no signed Ordinance 2026-13.",
+     "publisher": "Village of Perry"
+    }
+   ],
+   "notes": "Lead: News-Herald 2026-09-23 says Perry Village has implemented its one-year moratorium. Not enough to move the row to active: the sentence is a reporter's paraphrase of a Sept. 16 speech that lumps the village with Perry Township (which did adopt on 2026-07-28), and the village's own record shows only a second reading on 2026-09-10 with no rule suspension, so a third reading would fall at the next regular meeting (Sept. 24 if council approved a second regular meeting, otherwise Oct. 8). No signed Ordinance 2026-13 is posted and the Sept. 10 minutes are not yet online. Leave the row pending; re-check the Sept. 10 minutes and the Sept. 24/Oct. 8 agendas. If a later source shows the ordinance was passed as an emergency on Sept. 10, set active with date_enacted_iso 2026-09-10 and duration_days 365."
+  },
+  {
+   "moratorium_id": "oh-paris-township-union-county-2026",
+   "outcome": "status_changed",
+   "new_enacted_status": "replaced",
+   "confidence": 0.7,
+   "changes": {
+    "current_status": {
+     "from": "Reported active as of 2026-09-23; one-year moratorium adopted around early February 2026 runs to about February 2027. The township's zoning resolution was amended on 2026-04-07 to define data centers without listing them as a permitted use, which may have made the pause less important. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+     "to": "Replaced as of 2026-09-23. The one-year data center moratorium adopted around early February 2026 was overtaken by the township's zoning resolution amendments adopted 2026-04-07 (recorded with the Union County Recorder 2026-05-07), which add a definition of 'Data Center' without listing it as a permitted or conditional use in any district, so data centers are now prohibited under the permanent zoning text. No separate trustee action rescinding the moratorium was found. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+     "reason": "Primary source: the recorded Paris Township Zoning Resolution, 'amended and restated to reflect amendments adopted April 7, 2026', with the new Data Center definition; LUC staff report (2026-03-12 review) confirms the definition was adopted without a permitted use, i.e. an effective prohibition."
+    },
+    "outcome": {
+     "from": "Township amended its zoning resolution (amendments adopted April 7, 2026) to define 'Data Center'; OCJ classes this as an effective prohibition.",
+     "to": "Replaced by permanent zoning: amendments adopted 2026-04-07 (recorded 2026-05-07) define 'Data Center' with no permitted or conditional use in any district, effectively prohibiting data centers in unincorporated Paris Township.",
+     "reason": "Same source; states the adoption and recording dates."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "The moratorium resolution number and trustee vote date remain unconfirmed: the Feb. 6, 2026 Marysville Matters item is paywalled past the headline and the township (Union County) has no website with minutes. The zoning amendment that replaced it is confirmed by the recorded resolution."
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://www.lucplanning.com/_files/ugd/540e57_498de8a70159455bb287c85b57fe1b6e.pdf",
+     "source_type": "ordinance",
+     "supports": "Recorded Paris Township (Union County) zoning resolution reflecting amendments adopted 2026-04-07; recorded by the Union County Recorder 2026-05-07; includes the new Data Center definition.",
+     "quote": "This version: Amended and restated to reflect amendments adopted April 7, 2026.",
+     "publisher": "Paris Township / Union County Recorder",
+     "document_date": "2026-05-07"
+    },
+    {
+     "url": "https://marysvillematters.substack.com/p/paris-twp-adopts-1-year-data-center",
+     "source_type": "news",
+     "supports": "The moratorium itself (Feb. 2026); headline only (paywalled).",
+     "quote": "Paris Township has officially joined the data center moratorium ranks",
+     "publisher": "Marysville Matters",
+     "document_date": "2026-02-06"
+    },
+    {
+     "url": "https://www.lucplanning.com/zoning-and-subdivision-committee-minutes",
+     "source_type": "other",
+     "supports": "Index of LUC Zoning & Subdivision Committee packets; the March 2026 packet contains the Paris Township (U) staff report: 'The Township is electing not to list it as a permitted or conditional use in any zoning district, meaning it is not a permissible use in the Township and is effectively prohibited.' (packet PDF is ~59 MB, over the archive cap; read locally).",
+     "publisher": "Logan-Union-Champaign Regional Planning Commission"
+    }
+   ],
+   "notes": "Lead resolved: yes, the April 7, 2026 zoning amendment (recorded May 7, effective after the referendum period) is a permanent de facto ban that supersedes the February pause; 'replaced' per the codebook. The trustees did not formally rescind the moratorium as far as can be found, so the pause is technically still in force until ~Feb 2027, but it no longer does any work. Confidence 0.7 because the moratorium's own record is thin."
+  },
+  {
+   "moratorium_id": "oh-washington-township-logan-county-2026",
+   "outcome": "unresolvable",
+   "confidence": 0.6,
+   "evidence": [
+    {
+     "url": "https://flo.uri.sh/visualisation/30091302/embed?auto=1",
+     "source_type": "other",
+     "supports": "The OCJ map's Washington Township (Logan) 'Moratorium' point cites the same sign-in-only Google Drive file (1VN2zimsf3wbCdcNFVnEKa_nCBwjah3xg) that it cites for the township's 'Ban proposed' point (zoning amendment defining data centers without a permitted use). No other source is given.",
+     "quote": "Trustees approved one-year moratorium",
+     "publisher": "Ohio Capital Journal (Flourish map)"
+    },
+    {
+     "url": "https://www.lucplanning.com/zoning-and-subdivision-committee-minutes",
+     "source_type": "other",
+     "supports": "LUC Regional Planning August 2026 packet contains only a Washington Township (Logan) zoning TEXT AMENDMENT (definition of Data Center with no permitted use, 'effectively prohibited'), for consideration 2026-08-13; no moratorium is mentioned in the July-September packets (packets are 96-211 MB and were read locally).",
+     "publisher": "Logan-Union-Champaign Regional Planning Commission"
+    },
+    {
+     "url": "https://www.washtwp.net/fiscal-officer.html",
+     "source_type": "other",
+     "supports": "Township website (Washington Township, Logan County) posts minutes only through Dec. 2025; the homepage and zoning pages mention no moratorium.",
+     "publisher": "Washington Township, Logan County"
+    },
+    {
+     "url": "https://ohiocapitaljournal.com/2026/09/18/ohio-now-has-over-125-active-moratoriums-on-data-centers-see-where-they-are/",
+     "source_type": "news",
+     "supports": "OCJ article describes Logan/Union/Champaign townships adopting nearly identical zoning bans through LUC, not moratoria; names no Washington Township (Logan) moratorium.",
+     "publisher": "Ohio Capital Journal",
+     "document_date": "2026-09-18"
+    }
+   ],
+   "notes": "REMOVE: no independent record of a moratorium. The only source is the OCJ map, whose 'moratorium' entry for Washington Township (Logan) links to the same Google Drive file as its 'ban proposed' entry for the same township, which suggests the moratorium point is a mis-coding of the zoning amendment LUC reviewed on 2026-08-13 (definition of Data Center with no permitted use). Checked: LUC committee packets Jan-Sept 2026 (only the text amendment), washtwp.net (minutes through 12/2025 only), Peak of Ohio and Logan County news searches, Google News. The zoning ban is not a moratorium; if it is adopted, it belongs nowhere in this table unless a pause is found. Confidence 0.6 because 2026 township minutes are not online."
+  },
+  {
+   "moratorium_id": "oh-fairborn-2026",
+   "outcome": "corrected",
+   "confidence": 0.8,
+   "changes": {
+    "legal_basis": {
+     "from": "City of Fairborn council resolution (number not found) imposing 12-month moratoriums on data centers, self-storage facilities, gas stations, convenience stores and car washes",
+     "to": "Resolution 38-26 (City of Fairborn), placing 12-month temporary moratoriums on data centers, self-storage facilities, gas stations, convenience stores and car washes (adopted 2026-08-17)",
+     "reason": "MyTownView summary of the 2026-08-17 council meeting names Resolution 38-26."
+    },
+    "current_status": {
+     "from": "Active as of 2026-09-23; 12-month moratorium adopted 2026-08-17 runs to about 2027-08-17. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+     "to": "Active as of 2026-09-23; 12-month moratorium (Resolution 38-26) adopted 2026-08-17 runs to about 2027-08-17. A separate, earlier 180-day data center (crypto-mining) moratorium, Ordinance 25-22 of 2022-09-06, expired in March 2023.",
+     "reason": "Instrument number found; VERIFY marker resolved."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+     "resolution": "corrected",
+     "note": "Resolution 38-26 per the MyTownView record of the 2026-08-17 meeting (Fairborn's Granicus archive stops in early 2025)."
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://mytownview.com/ohio/greene/fairborn/meetings/2077-city-council-2026-08-17",
+     "source_type": "other",
+     "publisher": "MyTownView (meeting summary)",
+     "document_date": "2026-08-17",
+     "supports": "Instrument number and adoption at the 2026-08-17 meeting.",
+     "quote": "Fairborn City Council approved Resolution 38-26, placing temporary moratoriums on certain land uses, at its meeting."
+    },
+    {
+     "url": "https://www.fairborndailyherald.com/2026/08/21/council-approves-1-year-moratorium-on-data-centers/",
+     "source_type": "news",
+     "publisher": "Fairborn Daily Herald",
+     "document_date": "2026-08-21",
+     "supports": "12-month moratorium on data centers and other uses by council resolution.",
+     "quote": "Council members passed a resolution calling for moratoriums on data centers, self-storage facilities, gas stations, convenience stores and car washes for 12 months"
+    }
+   ],
+   "notes": "Added while settling the Fairborn lead: filling the instrument number also lets apply_research tell this row apart from the 2022 Ordinance 25-22 candidate. The MyTownView summary is a secondary (AI-generated) record of the official meeting; confidence 0.8."
+  }
+ ],
+ "new_candidates": [
+  {
+   "state": "OH",
+   "jurisdiction": "Fairborn",
+   "jurisdiction_type": "City",
+   "date_enacted": "2022-09-06 (City Council adopted Emergency Ordinance 25-22, 7-0, per the official minutes of the 2022-09-06 council meeting)",
+   "date_enacted_iso": "2022-09-06",
+   "date_enacted_uncertainty": "exact",
+   "duration": "180 days from the date of the ordinance (emergency ordinance, effective immediately)",
+   "duration_days": 180,
+   "duration_kind": "fixed_days",
+   "current_end_date_iso": "2023-03-05",
+   "legal_basis": "Ordinance 25-22, 'An Emergency Ordinance Imposing a Temporary Moratorium for a Period of 180 Days from the Date Hereof on the Issuance of Any Permits, Certificates, or Approvals for the Operation of, or Use of Any Property for a Data Center in the City of Fairborn, Ohio'",
+   "trigger": "Cryptocurrency (Bitcoin) mining data centers: staff cited heavy electricity and water use, noise, few jobs, and no state oversight; time to study and adjust the zoning code.",
+   "trigger_categories": [
+    "regulatory_gap",
+    "grid_energy",
+    "water",
+    "noise"
+   ],
+   "sectors": [
+    "data_center",
+    "cryptocurrency_mining"
+   ],
+   "current_status": "Expired 2023-03-05; the 180-day moratorium adopted 2022-09-06 ran out and no extension appears in City Council minutes for Jan. 3 through March 20, 2023. A separate 12-month data center moratorium was adopted 2026-08-17 (see oh-fairborn-2026).",
+   "enacted_status": "expired",
+   "affected_projects": "None named.",
+   "outcome": "Lapsed without a documented extension or replacement ordinance; Fairborn later adopted a new 12-month data center moratorium on 2026-08-17.",
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://fairborn.granicus.com/DocumentViewer.php?file=fairborn_01c7c6c1ea22648f937aa77ed73db52c.pdf&view=1",
+     "source_type": "minutes",
+     "supports": "Adoption of Ordinance 25-22 on 2022-09-06 by 7-0, its 180-day term, citywide scope and crypto-mining focus.",
+     "quote": "Councilwoman Reaster moved to adopt Ordinance 25-22 declaring an emergency. Councilman Fritzsche seconded. Yeas, seven",
+     "publisher": "City of Fairborn",
+     "document_date": "2022-09-06"
+    },
+    {
+     "url": "https://fairborn.granicus.com/DocumentViewer.php?file=fairborn_0b160fc4a4371d2e49e07a74b869c5f7.pdf&view=1",
+     "source_type": "minutes",
+     "supports": "Council minutes of 2023-02-20 (last regular meeting before the 2023-03-05 expiry) contain no data center or moratorium extension item.",
+     "publisher": "City of Fairborn",
+     "document_date": "2023-02-20"
+    },
+    {
+     "url": "https://fairborn.granicus.com/DocumentViewer.php?file=fairborn_eef2b7c9bf296bae81bc3e21e8abb562.pdf&view=1",
+     "source_type": "minutes",
+     "supports": "Council minutes of 2023-03-06 contain no data center or moratorium extension item.",
+     "publisher": "City of Fairborn",
+     "document_date": "2023-03-06"
+    }
+   ],
+   "notes": "Lead (QA1 OH-part3): distinct instrument from oh-fairborn-2026, with different ordinance, date and term. The Dayton Daily News story (Sept. 2022, 'Fairborn puts 6-month ban on crypto mining data centers') now returns 404, so the official minutes are cited instead. The expiry is inferred from the fixed term plus OCR'd minutes for Sept. 2022 through March 20, 2023 (Feb. 6, 2023 minutes not checked) showing no extension or data center item. The instrument's text covers all data centers; staff framed it around crypto mining, hence both sectors."
+  }
+ ]
+}

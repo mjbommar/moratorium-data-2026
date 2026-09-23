@@ -1,0 +1,57 @@
+{
+  "state_abbrev": "MA",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "ma-chesterfield-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://gazettenet.com/2026/09/16/chesterfield-finalizes-battery-storage-bylaw/",
+          "title": "Chesterfield finalizes battery storage bylaw",
+          "publisher": "Daily Hampshire Gazette",
+          "document_date": "2026-09-16",
+          "source_type": "news",
+          "supports": "The town's whole regulatory effort (the temporary moratorium and the permanent bylaw that followed it) targets battery energy storage systems specifically. Solar is mentioned only as background/context for why BESS demand is rising regionally (new state rules expediting large-scale solar arrays, of which BESS is 'a key component'), not as something the moratorium itself restricts.",
+          "quote": "The Planning Board has been operating at full speed after the state announced new measures for the building of large-scale solar arrays set to take full effect on Oct. 1. BESS batteries are a key component of these arrays"
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: 'solar' appears only as trigger/context for the rise in BESS proposals, not as part of the moratorium's operative scope (construction of battery energy storage systems). sectors stays [\"battery_storage\"]."
+    },
+    {
+      "moratorium_id": "ma-gill-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://gillmass.org/files/BESS_and_Data_Centers_Bylaw_4-16-2026.pdf",
+          "title": "Gill Zoning Bylaws Section 18 - Building-Integrated Energy Storage Systems (BESS) and Data Centers",
+          "publisher": "Town of Gill, MA",
+          "source_type": "ordinance",
+          "supports": "The bylaw's full text (as adopted at the May 4, 2026 Annual Town Meeting) covers only BESS and Data Centers; no mention of solar anywhere in the document.",
+          "quote": ""
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: the bylaw text contains no solar provisions; 'solar' in the row's current_status refers only to Town Counsel's warning that standalone BESS is treated as a protected/solar-adjacent use under G.L. c. 48, Section 3 for Attorney General review purposes, not to solar being part of the moratorium's own operative scope. sectors stays [\"data_center\",\"battery_storage\"]."
+    },
+    {
+      "moratorium_id": "ma-greenfield-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://recorder.com/2026/09/17/greenfield-data-centers-moratorium-adopted/",
+          "title": "Greenfield City Council adopts one-year moratorium on data centers",
+          "publisher": "Greenfield Recorder",
+          "document_date": "2026-09-17",
+          "source_type": "news",
+          "supports": "Confirms the moratorium's base/original term is one year; the possible 180-day Council extension is a contingent, separate provision triggered only if the Planning Board fails to deliver recommendations in time, not part of the originally enacted term.",
+          "quote": "the moratorium includes language that states if the Planning Board is unable to put forth recommendations in that time frame, City Council can extend the moratorium by 180 days, and during that period, the council would have to draft its own changes to the zoning regulations."
+        }
+      ],
+      "notes": "DURATION_MISMATCH resolved as no change: duration_days=365 correctly reflects the one-year original term; the 180-day extension is a conditional add-on, not part of the original enacted duration."
+    }
+  ]
+}

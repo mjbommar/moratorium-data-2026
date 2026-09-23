@@ -3,7 +3,7 @@
 
 Every local infrastructure moratorium in the inventory for Utah, current through **September 23, 2026**.
 
-**8 instruments** — 8 in force, 0 pending, 0 past.
+**9 instruments** — 9 in force, 0 pending, 0 past.
 
 State policy is tracked separately: **8 actions** (8 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -15,6 +15,7 @@ State policy is tracked separately: **8 actions** (8 bills) in [`state_legislati
 | Grand County | County | 2026-07-07 | data center | 🟢 Active |
 | Iron County | County | 2026-05-26 | data center, solar | 🟢 Active |
 | Logan | City | 2026-06-30 | data center | 🟢 Active |
+| Milford | City | 2026-06-16 | data center, solar | 🟢 Active |
 | Sanpete County | County | 2026-08-04 | data center | 🟢 Active |
 | Wayne County | County | 2026-07-08 | data center | 🟢 Active |
 
@@ -115,6 +116,22 @@ State policy is tracked separately: **8 actions** (8 bills) in [`state_legislati
 - **Affected projects:** —
 - **Detailed status:** Active as of 2026-07-31; 180-day moratorium effective 2026-07-01.
 - **Outcome:** —
+
+### Milford
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** June 16, 2026
+- **Normalized date:** `2026-06-16` (exact)
+- **Duration:** 180 days
+- **Current end date:** `—`
+- **Sectors:** data center, solar
+- **Moratorium ID:** `ut-milford-2026`
+- **Legal basis:** Ordinance 4-2026
+- **What prompted it:** Council concerns over municipal water supply, source protection areas and electrical infrastructure impacts
+- **Affected projects:** None named; preemptive
+- **Detailed status:** Active as of 2026-09-23.
+- **Outcome:** Staff and Planning & Zoning researching best practices and drafting siting/infrastructure standards
 
 ### Sanpete County
 

@@ -12,20 +12,20 @@
     height=6.5cm,
     xlabel={Number of Instruments},
     xmin=0,
-    xmax=160,
+    xmax=165,
     ytick=data,
     symbolic y coords={
-        Minnesota,
-        Illinois,
-        Indiana,
+        California,
         Kentucky,
+        Florida,
         Wisconsin,
         Washington,
         Tennessee,
         Iowa,
-        Georgia,
         North Carolina,
+        Georgia,
         Michigan,
+        New York,
         Ohio
     },
     nodes near coords,
@@ -39,13 +39,13 @@
     y dir=normal,
 ]
 \addplot[fill=chart-bar, draw=chart-bar-dark] coordinates {
-    (26,Minnesota) (27,Illinois) (28,Indiana) (31,Kentucky) (33,Wisconsin) (35,Washington) (43,Tennessee) (54,Iowa) (69,Georgia) (70,North Carolina) (141,Michigan) (159,Ohio)
+    (33,California) (34,Kentucky) (35,Florida) (40,Wisconsin) (41,Washington) (45,Tennessee) (57,Iowa) (69,North Carolina) (70,Georgia) (145,Michigan) (150,New York) (160,Ohio)
 };
 \end{axis}
 \end{tikzpicture}
 \begin{flushleft}
 \small\textit{Note:} Counts reflect individual instruments in the cleaned
-inventory (\Cref{app:inventory}, $n = 1051$). Each entry represents a unique
+inventory (\Cref{app:inventory}, $n = 1289$). Each entry represents a unique
 jurisdiction--instrument pair after removing federal entities, non-governmental
 actors, and duplicate extensions of the same underlying moratorium.
 \end{flushleft}

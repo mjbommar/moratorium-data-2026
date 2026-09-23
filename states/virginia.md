@@ -3,7 +3,7 @@
 
 Every local infrastructure moratorium in the inventory for Virginia, current through **September 23, 2026**.
 
-**5 instruments** — 4 in force, 0 pending, 1 past.
+**6 instruments** — 4 in force, 1 pending, 1 past.
 
 State policy is tracked separately: **18 actions** (18 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -13,6 +13,7 @@ State policy is tracked separately: **18 actions** (18 bills) in [`state_legisla
 | Fluvanna County | County | 2025-09-17 | data center | ⚪ Replaced |
 | Front Royal | Town | 2026-07-06 | data center | 🟢 Active |
 | Loudoun County | County | 2026-09-16 | data center | 🟢 Active |
+| Suffolk | City | Unverified | data center | 🟡 Pending |
 | Virginia Beach | City | 2026-08-18 | data center | 🟢 Active |
 
 ## Detailed entries
@@ -80,6 +81,22 @@ State policy is tracked separately: **18 actions** (18 bills) in [`state_legisla
 - **Affected projects:** At least 17 land-use cases representing more than 11 million square feet of data center development are 'grandfathered' under the county's March 2025 resolution and continue through by-right administrative review, unaffected by this pause.
 - **Detailed status:** Active as of 2026-09-23. The Board of Supervisors voted 7-1-1 on September 16, 2026 to enact, effective immediately, a temporary pause on Board consideration of certain legislative data center and substation applications while Phase 2 of its Data Center Standards and Locations initiative continues; a companion 7-1-1 vote (Briskman opposed) approved an exception allowing consideration of applications involving a 'grid reliability' substation during the pause. The pause does not apply to administratively processed, 'grandfathered' data center cases. A formal resolution memorializing the pause is scheduled to come before the Board at its October 20, 2026 Business Meeting; separately, the Board is set to receive legal analysis on October 6, 2026 on whether the 2025 grandfathering exceptions can be ended for cases that have not yet achieved vested rights.
 - **Outcome:** Loudoun County Board of Supervisors enacted an immediate, open-ended pause on Board consideration of most new legislative data center and substation applications while it completes Phase 2 of its data center zoning and siting standards.
+
+### Suffolk
+
+- **Type:** City
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Proposed pause on data center applications pending a UDO text amendment; Council vote expected October 2026
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `va-suffolk-undated`
+- **Legal basis:** UDO Text Amendment OTA2026-008, recommended by the Planning Commission on 2026-09-15
+- **What prompted it:** City's development ordinance does not mention data centers; warehouse-use rules could be construed to allow them; council wants to avoid being 'blindsided' as happened with solar farms.
+- **Affected projects:** —
+- **Detailed status:** Pending as of 2026-09-23. Council directed the Planning Commission on 2026-06-17 to draft a UDO amendment prohibiting data centers while regulations are developed. The Planning Commission recommended the ban and a data-center definition to Council on 2026-09-15 (OTA2026-008); Council is scheduled to vote in October 2026. Not yet a binding pause; staff have informally been treating applications cautiously in the interim per earlier reporting, but no adopted ordinance exists. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** —
 
 ### Virginia Beach
 

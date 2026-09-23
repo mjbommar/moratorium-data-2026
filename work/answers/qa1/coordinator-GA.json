@@ -1,0 +1,45 @@
+{
+ "state_abbrev": "GA",
+ "researched_as_of": "2026-09-23",
+ "researcher": "Claude Fable 5.1 coordinator (QA round 2 reconciliation)",
+ "decisions": [
+  {
+   "moratorium_id": "ga-putnam-county-2026",
+   "outcome": "corrected",
+   "confidence": 0.85,
+   "changes": {
+    "date_enacted": {
+     "from": "Putnam County Board of Commissioners approved an amended three-month moratorium effective 2026-08-18 (3-1 vote, Hersey opposed, Wooten absent)",
+     "to": "2026-08-07 adoption vote (3-1, Hersey opposed, Wooten absent) per the county's own CivicAlert and the Eatonton Messenger; the amended three-month moratorium took effect 2026-08-18",
+     "reason": "Row had recorded the effective date as the adoption date; the codebook wants the vote date."
+    },
+    "date_enacted_iso": {
+     "from": "2026-08-18",
+     "to": "2026-08-07",
+     "reason": "Adoption vote date per the county's CivicAlert."
+    },
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2026-11-18",
+     "reason": "Three months from the 2026-08-18 effective date, as the row's duration already states."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://www.putnamcountyga.us/CivicAlerts.aspx?AID=22",
+     "publisher": "Putnam County",
+     "source_type": "other",
+     "supports": "County states the moratorium was adopted August 7, 2026.",
+     "document_date": "2026-08"
+    },
+    {
+     "url": "https://www.msgrnews.com/news/boc-places-3-month-moratorium-data-centers",
+     "publisher": "The Eatonton Messenger",
+     "source_type": "news",
+     "supports": "3-1 vote on the amended three-month moratorium, effective Aug. 18."
+    }
+   ],
+   "notes": "Blind re-verification (QA round 2, item B25) found the county's own adoption date. Effective date retained in date_enacted text and used for the end date."
+  }
+ ]
+}

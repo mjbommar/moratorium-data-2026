@@ -1,0 +1,58 @@
+{
+  "state_abbrev": "KY",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "ky-oldham-county-fiscal-court-2025",
+      "outcome": "corrected",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "until_event",
+          "reason": "EXTENDED_NO_END_DATE: the extension (Ordinance KOC 25-910-520) runs 'until data center regulations are approved,' an event-based endpoint, not a fixed calendar date. As of 2026-09-23 that event has not occurred: the Fiscal Court's second-reading vote on the revised regulations (KOC 26-920-5) is calendared for 2026-10-06, after this research date."
+        },
+        "current_status": {
+          "from": "Still in effect as of 2026-09-23; the July 21 second reading never occurred as planned. Court Chair Voegele ruled the Fiscal Court's 2026-08-24 special-called meeting void because the court failed to approve its own agenda, so the item restarted. On 2026-09-01 the Fiscal Court reconsidered and unanimously adopted substantive revisions to the draft regulations (still numbered KOC 26-920-5): striking all references to 'large'/'hyperscale' data centers while adding a 10 MW maximum power-capacity cap (effectively banning hyperscale projects), raising the square-footage cap for 'medium' data centers to 110,000 sq ft, and requiring two weeks' advance notice to property owners within 1,000 ft of a proposed site's neighborhood meeting. County Attorney D. Berry Baxter, backed by outside zoning counsel and the Kentucky Association of Counties, concluded KRS 100.211(8)'s 90-day deadline for zoning MAP amendments does not apply to this zoning TEXT amendment, so no statutory deadline forces a vote. The Fiscal Court's public hearing and final (second-reading) vote on KOC 26-920-5 is now calendared for 2026-10-06, after this research date. Until that vote, the moratorium (KOC 25-910-508, extended by KOC 25-910-520 'until data center regulations are approved') remains the operative instrument.",
+          "to": "Still in effect as of 2026-09-23, event-based: the July 21 second reading never occurred as planned. Court Chair Voegele ruled the Fiscal Court's 2026-08-24 special-called meeting void because the court failed to approve its own agenda, so the item restarted. On 2026-09-01 the Fiscal Court reconsidered and unanimously adopted substantive revisions to the draft regulations (still numbered KOC 26-920-5): striking all references to 'large'/'hyperscale' data centers while adding a 10 MW maximum power-capacity cap (effectively banning hyperscale projects), raising the square-footage cap for 'medium' data centers to 110,000 sq ft, and requiring two weeks' advance notice to property owners within 1,000 ft of a proposed site's neighborhood meeting. County Attorney D. Berry Baxter, backed by outside zoning counsel and the Kentucky Association of Counties, concluded KRS 100.211(8)'s 90-day deadline for zoning MAP amendments does not apply to this zoning TEXT amendment, so no statutory deadline forces a vote. The Fiscal Court's public hearing and final (second-reading) vote on KOC 26-920-5 is now calendared for 2026-10-06, after this research date. The moratorium (KOC 25-910-508, extended by KOC 25-910-520 'until data center regulations are approved') has no fixed end date -- it remains the operative instrument until that vote occurs (or another statutory event ends it), consistent with an Aug. 19, 2026 news report confirming the moratorium 'remains in place' pending the Fiscal Court's next action.",
+          "reason": "Aligns current_status wording with the corrected event-based duration_kind."
+        }
+      },
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.wave3.com/2026/08/19/oldham-county-data-center-moratorium-remains-place/",
+          "title": "Oldham County data center moratorium remains in place",
+          "publisher": "WAVE3 News",
+          "document_date": "2026-08-19",
+          "source_type": "news",
+          "supports": "Confirms that, as of an Aug. 19, 2026 Fiscal Court hearing where the Court declined to adopt proposed regulations and instead sought outside expert help, 'the decision keeps the county's existing data center moratorium in place,' consistent with an event-based (not fixed-date) extension tied to adoption of data-center regulations."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ky-scott-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-12-31",
+          "reason": "EXTENDED_NO_END_DATE: multiple sources confirm the six-month moratorium (originally set to expire in September 2026) was extended to run through the end of December 2026; no source located gives a more precise day than 'end of December,' so the last day of the month is used as an approximation."
+        }
+      },
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://inforadar.ca/what-a-u-s-georgetown-s-data-centre-debate-could-mean-for-georgetown",
+          "title": "What a U.S. Georgetown's data-centre debate could mean for Georgetown",
+          "publisher": "InfoRadar",
+          "document_date": "2026-07-14",
+          "source_type": "news",
+          "supports": "Confirms the Scott County moratorium, 'originally set to expire in September,' was 'extended to the end of December.'",
+          "quote": "The pause — described locally as a time-out rather than a prohibition — was originally set to expire in September but has been extended to the end of December."
+        }
+      ],
+      "notes": "A more precise extension end date was not located in the Georgetown News-Graphic's own 'Data center moratorium extended' article (paywalled, no body text archived) or in general web search within this pass's search budget."
+    }
+  ]
+}

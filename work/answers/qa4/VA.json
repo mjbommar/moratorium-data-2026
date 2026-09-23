@@ -1,0 +1,33 @@
+{
+  "state_abbrev": "VA",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "va-loudoun-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.loudoun.gov/DocumentCenter/View/222331/Statement---Loudoun-Board-Enacts-Pause-on-Data-Centers",
+          "title": "Loudoun Board Enacts Pause on Data Centers",
+          "publisher": "Loudoun County, VA (Supervisor Briskman's office)",
+          "document_date": "2026-09-16",
+          "source_type": "other",
+          "supports": "The Board's pause covers Board consideration of legislative applications for 'data centers and substations' only; describes the scope, exceptions (grid-reliability substations, grandfathered cases), and open-ended/event-based term tied to completion of the Phase 2 Data Center Standards and Locations initiative.",
+          "quote": "The Loudoun County Board of Supervisors voted Tuesday to enact a temporary pause on Board consideration of certain legislative applications for data centers and substations"
+        },
+        {
+          "url": "https://www.loudoun.gov/CivicAlerts.aspx?aid=10874",
+          "title": "Board Approves Plan to Temporarily Pause Legislative Data Center and Substation Applications",
+          "publisher": "Loudoun County, VA",
+          "document_date": "2026-09-17",
+          "source_type": "other",
+          "supports": "Confirms the pause is capped at up to 12 months (the Virginia-law statutory maximum for action on such legislative applications) and applies only to data center and electrical substation legislative applications, not to battery storage as a separate use.",
+          "quote": "Under the terms of the pause approved by the Board, final votes on data center and substation applications will be paused for one year."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: 'battery storage' appears only in the row's trigger field, describing the broader Phase 2 Data Center Standards and Locations initiative's future scope (siting, noise, building heights, on-site power generation, and battery storage standards) -- not in the operative scope of this pause. Both the Board's press release and the official CivicAlert describe the pause itself as covering only 'data center and substation' legislative applications; battery storage facilities are not separately paused. This is a trigger/background mention, not operative coverage, so sectors correctly stays [\"data_center\"]. No change. Duration_kind (until_event, capped at 'up to one year') and the open-ended framing also checked against both sources and remain accurate as of 2026-09-23."
+    }
+  ]
+}

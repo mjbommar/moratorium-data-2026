@@ -1,0 +1,332 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "oh-ada-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-09-01",
+          "reason": "Resolution 2026-109 extends the moratorium 'for a period of an additional twelve (12) months from the effective date of this Resolution.' The Sept. 1, 2026 approved council minutes show Resolution 2026-109 adopted (moved by Councilman Beck, roll call) at the Sept. 1, 2026 meeting, and Section 3 of the resolution makes it effective on the date passed by Council. 2026-09-01 + 12 months = 2027-09-01."
+        }
+      },
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.adaoh.gov/sites/default/files/2026-08/combined_9.1.26.pdf",
+          "title": "Village of Ada Council packet including Resolution 2026-109",
+          "publisher": "Village of Ada, Ohio",
+          "document_date": "2026-09-01",
+          "source_type": "resolution",
+          "supports": "Resolution 2026-109 extends the data center/crypto mining moratorium an additional 12 months from its effective date (date of passage).",
+          "quote": "FOR A PERIOD OF AN ADDITIONAL TWELVE (12) MONTHS FROM THE EFFECTIVE DATE OF THIS RESOLUTION"
+        },
+        {
+          "url": "https://www.adaoh.gov/sites/default/files/2026-09/approved_minutes_9.1.26.pdf",
+          "title": "Approved Council Minutes, Sept. 1, 2026",
+          "publisher": "Village of Ada, Ohio",
+          "document_date": "2026-09-01",
+          "source_type": "minutes",
+          "supports": "Confirms Resolution 2026-109 was moved and adopted (not merely introduced) at the Sept. 1, 2026 meeting.",
+          "quote": "MOTION to adopt Resolution 2026-109. Motion by Councilman Beck, seconded by"
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved: extension runs 12 months from 2026-09-01 passage to 2027-09-01."
+    },
+    {
+      "moratorium_id": "oh-defiance-undated",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.crescent-news.com/news/local_news/city-council-amends-proposed-ordinance-on-data-center-moratorium/article_2999d7cc-f3b3-4232-8a00-3ad98bf7c89d.html",
+          "title": "City council amends proposed ordinance on data center moratorium",
+          "publisher": "Crescent-News",
+          "document_date": "2026-08-26",
+          "source_type": "news",
+          "supports": "The 12-month figure was only the initially drafted/proposed term; council amended it down to six months by a 5-2 vote before final adoption, so six months (180 days) is the term actually enacted.",
+          "quote": "council passed by a 5-2 vote a motion amending the second ordinance (the moratorium) to establish a six-month moratorium (instead of 12 months)."
+        },
+        {
+          "url": "https://mytownview.com/ohio/defiance/defiance/meetings/1993-amended-city-of-defiance-oh-council-2026-09-01",
+          "title": "Amended City of Defiance, OH - Sep 1, 2026",
+          "publisher": "mytownview.com (meeting summary)",
+          "document_date": "2026-09-01",
+          "source_type": "minutes",
+          "supports": "Confirms the six-month (not 12-month) moratorium is what was finally adopted after a re-vote.",
+          "quote": "Defiance City Council approved a six-month moratorium on data center applications after an initial 5-2 emergency vote was ruled invalid ... a reconsidered motion passed 6-1 and final adoption passed 7-0."
+        }
+      ],
+      "notes": "DURATION_MISMATCH resolved as no change: the row's duration text ('six months... amended down from the originally drafted 12 months') reports the earlier proposal, not the enacted term. The instrument actually adopted is six months, so duration_days=180 is correct as typed."
+    },
+    {
+      "moratorium_id": "oh-monroeville-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.monroevilleohio.com/pics/COUNCIL%20SPECIAL%20MTG%20AGENDA%202-24-2026.pdf",
+          "title": "Village of Monroeville Special Council Meeting Agenda, Feb. 24, 2026",
+          "publisher": "Village of Monroeville, Ohio",
+          "document_date": "2026-02-24",
+          "source_type": "agenda",
+          "supports": "The operative text of Resolution 2026-01 covers only the establishment/conversion of buildings into data centers; it does not mention cryptocurrency mining.",
+          "quote": "RESOLUTION 2026-01 A RESOLUTION IMPOSING A TEMPORARY MORATORIUM ON THE ESTABLISHMENT, CONVERSION OF OTHER STRUCTURES OR BUILDINGS INTO A DATA CENTER ... FOR A PERIOD OF TWELVE (12) MONTHS"
+        },
+        {
+          "url": "https://norwalkreflector.com/news/937140/monroeville-experience-fuels-new-data-center-debates/",
+          "title": "Monroeville experience fuels new data center debates",
+          "publisher": "Norwalk Reflector",
+          "source_type": "news",
+          "supports": "The village's cryptocurrency-mining history (unpaid electric bills from a prior crypto operation) is background/motivation for the moratorium, not part of its operative scope.",
+          "quote": "village officials are still trying to recover roughly $1.3 million in unpaid electric bills linked to a cryptocurrency mining operation"
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: 'crypto' appears only as trigger/background context (a prior crypto-mining tenant's unpaid bills); the resolution's operative language covers data centers only. sectors stays [\"data_center\"]."
+    },
+    {
+      "moratorium_id": "oh-mount-orab-2026",
+      "outcome": "unresolvable",
+      "confidence": 0.35,
+      "evidence": [
+        {
+          "url": "https://www.wcpo.com/news/local-news/mt-orab-data-center-debate-reignites-as-commissioners-consider-new-guidelines-for-construction",
+          "title": "Mt. Orab data center debate reignites as commissioners consider new guidelines for construction",
+          "publisher": "WCPO 9 Cincinnati",
+          "source_type": "news",
+          "supports": "Confirms an active data-center debate and a Sept. 16, 2026 Planning Commission hearing on a 'High Tech Overlay,' but does not state whether the original moratorium was renewed or when a renewal would expire.",
+          "quote": "village council members scrapped the town's modern zoning codes and implemented a moratorium on data center construction"
+        },
+        {
+          "url": "https://savrn.com/data-center-moratorium-tracker/ohio",
+          "title": "Ohio Data Center Moratorium Tracker",
+          "publisher": "savrn.com",
+          "source_type": "other",
+          "supports": "An independent third-party tracker lists Mount Orab's status as 'Failed / vetoed' with the original Ordinance No. 1339 180-day moratorium running only through August 30, 2026, with no renewal noted -- conflicting with the row's premise (based on the Ohio Capital Journal map) that a new 180-day moratorium was passed in August 2026.",
+          "quote": "Expired local moratorium on data centers through August 30, 2026 ... Ordinance No. 1339, 180-day moratorium on data center permits ... The measure runs to August 30, 2026."
+        },
+        {
+          "url": "https://stopohiodatacenters.org/brown-county",
+          "title": "Mt. Orab, Ohio: DB Stu LLC Mega-Site | Brown County",
+          "publisher": "stopohiodatacenters.org",
+          "source_type": "other",
+          "supports": "Timeline of the Mt. Orab data-center controversy through April 2026; does not mention an August 2026 moratorium renewal.",
+          "quote": "Council member Lang's proposed permit pause, if adopted, could delay all permits for six months."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE not resolved after searches of the Mt. Orab village site (mtoraboh.us), WCPO, Fox19, Local12, the savrn.com and stopohiodatacenters.org trackers, and targeted web searches for an August 2026 Mount Orab council vote/ordinance. No primary source (agenda, minutes, or signed ordinance) for a renewed moratorium was found, and one independent tracker (savrn.com) actually shows the original moratorium as expired/failed with no successor, conflicting with the current_status text's claim (sourced only to an unspecified Ohio Capital Journal map) that a new 180-day moratorium was passed in August 2026 expiring February 2027. Left as-is; current_end_date_iso remains blank pending a primary source."
+    },
+    {
+      "moratorium_id": "oh-north-royalton-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://cms7files.revize.com/northroyalton/Government/Legislation/2026/26-118%20TEMPORARY%20MORATORIUM%20ON%20DATA%20CENTERS%20FOR%20ONE%20YEAR.pdf?t=202607221231330",
+          "title": "City of North Royalton Ordinance No. 26-118",
+          "publisher": "City of North Royalton, Ohio",
+          "source_type": "ordinance",
+          "supports": "Cryptocurrency mining is mentioned only in a 'whereas' clause noting it 'may share some operational characteristics with data centers'; the operative Section 1 moratorium applies only to 'Data Centers as a principal use.'",
+          "quote": "City Council recognizes that potential uses within the City, including but not limited to high-intensity computing operations such as cryptocurrency mining, may share some operational characteristics with data centers ... Section 1. The Council ... hereby imposes a moratorium ... for Data Centers in any Zoning District"
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: crypto is a background 'whereas' mention, not part of the operative scope (data centers only). sectors stays [\"data_center\"]."
+    },
+    {
+      "moratorium_id": "oh-portage-township-wood-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://bgindependentmedia.org/temporary-moratoriums-on-data-centers-7-townships-in-wood-county-have-adopted-8-have-discussed/",
+          "title": "Temporary moratoriums on data centers -- 7 townships in Wood County have adopted, 8 have discussed",
+          "publisher": "BG Independent News",
+          "document_date": "2026-03-13",
+          "source_type": "news",
+          "supports": "The only located source describing Portage Township's action reports the trustee saying the township 'had been approached about a possible site for a data center or wind farm' -- a trigger/context statement, not a description of the resolution's operative scope. No resolution text or number was located to confirm wind is covered.",
+          "quote": "Also this week, Plain and Portage townships adopted moratoriums. Portage Township Trustee Donald Zeigler said his township had been approached about a possible site for a data center or wind farm."
+        },
+        {
+          "url": "https://portagetownship.net/",
+          "title": "Portage Township (Wood County) website",
+          "publisher": "Portage Township, Ohio",
+          "source_type": "other",
+          "supports": "Checked for the resolution/motion text; the township's public site does not post the moratorium resolution or minutes online.",
+          "quote": ""
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: 'wind' appears only as part of the trigger (a site inquiry covering 'a data center or wind farm'), and the underlying resolution text (never located; legal_basis already flags 'resolution number not found') cannot be checked for operative scope. Per the flag rule, a trigger mention does not add a sector, so sectors stays [\"data_center\"]."
+    },
+    {
+      "moratorium_id": "oh-richfield-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-03-02",
+          "reason": "Ordinance 74-2026 enacts 'a second 180 day moratorium' on the same data-center zoning-certificate scope as Ordinance 18-2026, passed as an emergency measure effective on passage/mayoral approval at the Sept. 3, 2026 special meeting. 2026-09-03 + 180 days = 2027-03-02, matching the row's own current_status narrative."
+        }
+      },
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.richfieldvillageohio.org/AgendaCenter/ViewFile/Agenda/_09032026-1707",
+          "title": "Richfield Village Council Special Meeting Agenda, Sept. 3, 2026",
+          "publisher": "Village of Richfield, Ohio",
+          "document_date": "2026-09-03",
+          "source_type": "agenda",
+          "supports": "Ordinance 74-2026, an additional 180-day data-center moratorium, was on the Sept. 3, 2026 agenda as an emergency first reading (distinct from Ordinance 75-2026, which extends the separate Ordinance 19-2026 multifamily-housing moratorium).",
+          "quote": "ORDINANCE 74-2026 ... AN ORDINANCE ENACTING AN ADDITIONAL 180 DAY MORATORIUM ON THE RECEIPT, PROCESSING, ISSUANCE, AND APPROVAL OF ANY APPLICATION FOR A ZONING CERTIFICATE FOR DATA PROCESSING, HOSTING AND RELATED SERVICES (DATA CENTERS)"
+        },
+        {
+          "url": "https://www.richfieldvillageohio.org/DocumentCenter/View/10382/74-2026-Ord-Extending-data-center-moratorium-by-six-months",
+          "title": "Ordinance 74-2026 (signed)",
+          "publisher": "Village of Richfield, Ohio",
+          "source_type": "ordinance",
+          "supports": "Signed ordinance text: a second 180-day moratorium on data-center zoning certificates, declared an emergency measure effective from and after passage and mayoral approval.",
+          "quote": "This Council believes it is in the best interest of the Village to institute a second 180 day moratorium on the receipt, processing, issuance, and approval of any application for a zoning certificate for data processing, hosting and related services (Data Centers)."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved: 2026-09-03 + 180 days = 2027-03-02."
+    },
+    {
+      "moratorium_id": "oh-shalersville-township-2025",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-11-01",
+          "reason": "Multiple independent news sources describe the extended moratorium's expiry only as 'early November' 2026 without a specific day; no primary trustee resolution with an exact date was located. 2026-11-01 is used as the best available approximation of 'early November.'"
+        }
+      },
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "url": "https://www.news5cleveland.com/news/local-news/local-developer-global-tech-firm-plan-major-data-center-project-in-portage-county",
+          "title": "Local developer, global tech firm plan major data center project in Portage County",
+          "publisher": "News 5 Cleveland",
+          "source_type": "news",
+          "supports": "The extended moratorium's expiry is reported as 'early November' 2026.",
+          "quote": "Shalersville, with roughly 5,000 residents, has a moratorium that doesn't end until early November."
+        },
+        {
+          "url": "https://theportager.com/shalersville-trustees-study-data-center-noise-levels",
+          "title": "Shalersville trustees study data center noise levels",
+          "publisher": "The Portager",
+          "source_type": "news",
+          "supports": "Confirms the moratorium expires in early November and that trustees said on Aug. 18, 2026 they would extend it another six months if the noise study is not done by then.",
+          "quote": "Bias said Thornton's work should be completed before the township's moratorium on data centers expires in early November. If it's not, the trustees said on Aug. 18 that they would extend the moratorium for another six months if needed"
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE partially resolved: date is an approximation ('early November 2026') because no source gives an exact day and no primary trustee resolution for the April 2026 extension was located after searches of local news, the township site, and web search. current_status text already reflects this."
+    },
+    {
+      "moratorium_id": "oh-lordstown-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.lordstown.com/wp-content/uploads/38-2026.pdf",
+          "title": "Village of Lordstown Ordinance No. 38-2026",
+          "publisher": "Village of Lordstown, Ohio",
+          "source_type": "ordinance",
+          "supports": "Battery energy storage systems (BESS) are the subject of a separate ordinance (38-2026), not the data-center moratorium (Ordinance 1-2026 and its extension) covered by this row.",
+          "quote": "BUSINESS ENTITIES UTILIZING BATTERY ENERGY STORAGE SYSTEMS (\"BESS\") WITHIN THE CORPORATE LIMITS OF THE"
+        },
+        {
+          "url": "https://www.wfmj.com/news/local-news/lordstown/lordstown-council-members-vote-on-moratoriums-concerning-data-centers/article_d3ae04a1-b7a7-48f4-b611-6fb377f06d5b.html",
+          "title": "Lordstown council members vote on moratoriums concerning data centers",
+          "publisher": "WFMJ",
+          "document_date": "2026-06-01",
+          "source_type": "news",
+          "supports": "Confirms the SMR and BESS moratoriums adopted June 1, 2026 are two separate instruments from the village's data-center moratorium.",
+          "quote": "The Village of Lordstown council members voted on two moratoriums concerning the technology used to power data centers ... delay permit authorization for businesses looking to utilize small mobile reactors (SMRs) and battery energy storage systems (BESS)."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: battery storage is covered by the separate Ordinance 38-2026 (see oh-village-of-lordstown-2026), not the data-center moratorium (Ord. 1-2026 and its extension) this row tracks. sectors stays [\"data_center\"]."
+    },
+    {
+      "moratorium_id": "oh-village-of-lordstown-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.lordstown.com/wp-content/uploads/38-2026.pdf",
+          "title": "Village of Lordstown Ordinance No. 38-2026",
+          "publisher": "Village of Lordstown, Ohio",
+          "source_type": "ordinance",
+          "supports": "Ordinance 38-2026's operative text applies only to businesses utilizing a BESS; it does not mention data centers.",
+          "quote": "permits for businesses utilizing a BESS for a period not to exceed one-hundred-and-eighty (180)"
+        },
+        {
+          "url": "https://www.lordstown.com/wp-content/uploads/37-2026.pdf",
+          "title": "Village of Lordstown Ordinance No. 37-2026",
+          "publisher": "Village of Lordstown, Ohio",
+          "source_type": "ordinance",
+          "supports": "The companion ordinance (37-2026) covers only small modular reactors (SMRs), confirming BESS and SMR are handled by two distinct instruments, neither of which is the data-center moratorium.",
+          "quote": "permits for businesses utilizing an SMR for a period not to exceed one-hundred-and-eighty (180)"
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: the row's own trigger/outcome text already describes the village's data-center moratorium as a 'separate' instrument, confirmed by the ordinance text itself (38-2026 covers BESS only). sectors stays [\"battery_storage\"]."
+    },
+    {
+      "moratorium_id": "oh-washington-township-2025",
+      "outcome": "unresolvable",
+      "confidence": 0.4,
+      "evidence": [
+        {
+          "url": "https://wtwpdublinoh.gov/government/meetings-minutes/",
+          "title": "Meetings & Minutes - Washington Township",
+          "publisher": "Washington Township (Dublin-area), Franklin/Union/Madison Counties, Ohio",
+          "source_type": "other",
+          "supports": "The township's own meetings/minutes page was checked for the Sept. 8 or Sept. 22, 2026 minutes referencing the moratorium extension resolution; the page's document listing did not render as extractable text.",
+          "quote": ""
+        }
+      ],
+      "notes": "END_DATE_PASSED not resolved. The original 90-day moratorium (extended once to 2026-09-05) is confirmed expired by that date. Row already documents that a further extension resolution was on the trustees' 2026-09-08 agenda with adoption pending confirmation in minutes to be approved 2026-09-22; web searches for a news report or posted minutes of that Sept. 22 approval (or of adoption at the Sept. 8 meeting) found only articles about a different Washington Township (Montgomery County, Dayton area) and no update since the administrator's Aug. 11 statement. Left as-is; the existing [VERIFY] note in current_status remains accurate and unresolved."
+    },
+    {
+      "moratorium_id": "oh-weathersfield-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-04-25",
+          "reason": "The original six-month (180-day) moratorium adopted 2026-04-30 was due to expire in late October 2026 (2026-04-30 + 180 days = 2026-10-27) and trustees approved a further six-month extension in early September 2026, reported as running 'into April' 2027. 2026-10-27 + 180 days = 2027-04-25, used as the computed end date since no source gives an exact day."
+        }
+      },
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://www.vindy.com/news/local-news/2026/09/weathersfield-extends-data-center-ban/",
+          "title": "Weathersfield extends data center ban",
+          "publisher": "The Vindicator",
+          "source_type": "news",
+          "supports": "Trustees approved a six-month extension of the data-center moratorium, which had been set to expire in October, pushing the expiry into April 2027.",
+          "quote": "Trustee Chairman Steve Gerberry said the current moratorium was to have expired in October and will be extended six months into April."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved with a computed (not exactly sourced) date; the source gives 'into April' 2027 without a specific day."
+    },
+    {
+      "moratorium_id": "oh-westlake-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.cleveland.com/community/2026/09/westlake-city-council-adopts-ordinance-placing-temporary-moratorium-on-approval-of-data-centers.html",
+          "title": "Westlake City Council adopts ordinance placing temporary moratorium on approval of data centers",
+          "publisher": "cleveland.com",
+          "document_date": "2026-09-03",
+          "source_type": "news",
+          "supports": "The moratorium's base term is six months (180 days), with up to two additional 90-day council-authorized extensions being a separate, contingent provision, not part of the original enacted term.",
+          "quote": "It establishes a moratorium on accepting or issuing zoning approvals or occupancy permits for data center buildings for a period not to exceed six months. It also would allow council to authorize up to two additional 90-day extension periods."
+        }
+      ],
+      "notes": "DURATION_MISMATCH resolved as no change: duration_days=180 correctly reflects the six-month base term; the 'or until code amendments or repeal, whichever first' and 'up to two 90-day extensions' language are separate conditions on top of, not part of, the original term."
+    }
+  ]
+}

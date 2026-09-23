@@ -146,9 +146,9 @@ def changes_section(f: dict) -> str:
 <section class="release-notes">
   <div class="stamp">Data refresh &middot; {RELEASE_DATE}</div>
   <h2>The September picture</h2>
-  <p class="lede">The inventory roughly doubled in one pass, and almost none of that is new
-  policy: it is jurisdictions that had already acted and that single-source coverage had
-  missed. The local inventory contains {f['rows']} instruments
+  <p class="lede">The inventory more than doubled in one day of research and QA, and most of
+  that is not new policy: it is towns and townships that had already acted and that earlier
+  coverage missed. The local inventory contains {f['rows']} instruments
   across {f['states']} states; {f['in_force']} remain in force.</p>
 
   <h3>What changed in this refresh</h3>
@@ -159,11 +159,12 @@ def changes_section(f: dict) -> str:
       changes, 141 corrections, 75 confirmations, 6 left unresolvable with the portals
       checked on record. The current mix is {f['active']} active and {f['extended']} extended,
       with {f['expired']} expired, {f['replaced']} replaced, and {f['rescinded']} rescinded.</li>
-    <li><strong>520 instruments were added after a statewide search of all 50 states.</strong>
-      Ohio (159) and Michigan (141) each now hold more instruments than the whole inventory
-      did in April. Alaska, Arizona, Delaware, Rhode Island and Vermont enter the dataset;
-      only Hawaii, West Virginia and Wyoming have no local instrument after a targeted search.</li>
-    <li><strong>Every cited source is archived.</strong> 2,817 pages and PDFs behind this
+    <li><strong>758 instruments were added, then audited.</strong> A statewide search of all 50
+      states added 520; four QA rounds audited every one, re-verified a blind random sample,
+      checked the file against nine public trackers, and added 243 more they named (127 New York
+      battery-storage local laws), while removing 14 rows that proved to be permanent bans or
+      never adopted. Only Hawaii, West Virginia and Wyoming have no local instrument.</li>
+    <li><strong>Every cited source is archived.</strong> 3,700 pages and PDFs behind this
       pass were fetched and stored with their hashes, and the merge refuses any finding whose
       evidence is not on file. Links can rot; the record behind each row no longer depends on them.</li>
   </ul>
@@ -282,9 +283,9 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          r'<p class="caption">(?:A handful of Washington|Washington logged|Every bar before).*?(?:</p>\s*<p class="source">.*?</p>|</p>)',
          '<p class="caption">Every bar before 2022 is Washington. Cheap hydro power pulled crypto '
          'miners into the Columbia Basin, and ten Washington jurisdictions paused them in 2018. '
-         'Then the map went quiet for four years. Data centers restarted it: 9 moratoria in 2023, '
-         '10 in 2024, 76 in 2025, and 797 in the first eight months of 2026. June alone '
-         'accounted for 170. September is shown only through September 23 and should not be read as '
+         'Then the map went nearly quiet until 2023. Data centers, and in New York battery storage, restarted it: 21 moratoria in 2023, '
+         '61 in 2024, 121 in 2025, and 882 in the first eight months of 2026. June alone '
+         'accounted for 185. September is shown only through September 23 and should not be read as '
          'a completed month.</p>\n'
          '  <p class="source">Source: <a href="data/moratorium_inventory.csv" download>'
          'moratorium_inventory.csv</a>, columns <code>date_enacted_iso</code> and '

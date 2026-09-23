@@ -3,7 +3,7 @@
 
 Every local infrastructure moratorium in the inventory for North Carolina, current through **September 23, 2026**.
 
-**70 instruments** — 58 in force, 5 pending, 7 past.
+**69 instruments** — 57 in force, 5 pending, 7 past.
 
 State policy is tracked separately: **3 actions** (3 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -15,7 +15,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 | Camden County | County | 2026-08-03 | data center, cryptocurrency mining | 🟢 Active |
 | Charlotte | City | 2026-06-08 | data center | 🟢 Active |
 | Chatham County | County | 2026-02-11 | data center, cryptocurrency mining | 🟢 Active |
-| Cherokee County (high-impact facilities; cryptocurrency mining; data-center-adjacent) | County | 2023-10-02 | cryptocurrency mining | ⚪ Expired |
+| Cherokee County (high-impact facilities; cryptocurrency mining; data-center-adjacent) | County | 2023-10-02 | cryptocurrency mining, data center | ⚪ Expired |
 | City of Asheville | City | 2026-06-23 | data center | 🟢 Active |
 | City of Boiling Spring Lakes | City | 2026-06-02 | data center, cryptocurrency mining | 🟢 Active |
 | City of Brevard | City | 2026-03-16 | data center | ⚪ Replaced |
@@ -28,12 +28,10 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 | City of Statesville | City | 2026-09-14 | data center | 🟢 Active |
 | City of Whiteville | City | 2026-08-25 | data center, cryptocurrency mining | 🟢 Active |
 | City of Wilson | City | 2026-05-21 | data center, cryptocurrency mining, battery storage | 🟢 Active |
-| Clay County (permanent restriction after earlier crypto moratorium) | County | 2026-01-08 | data center, cryptocurrency mining | 🟢 Active |
 | Cumberland County | County | 2026-06-15 | data center, cryptocurrency mining | 🟢 Active |
 | Davie County | County | 2026-07-06 | data center | 🟢 Active |
 | Durham | City | 2026-05-04 | data center, cryptocurrency mining | 🟢 Extended |
 | Durham County | County | 2026-08-24 | data center, cryptocurrency mining | 🟢 Active |
-| Eastern Band of Cherokee Indians (tribal and trust lands) | Tribal | 2026-05-07 | data center | 🟢 Active |
 | Edgecombe County | County | 2026-08-03 | data center | 🟢 Active |
 | Gates County | County | 2025-12-17 | data center | 🟢 Active |
 | Guilford County | County | Unverified | data center | 🟡 Pending |
@@ -41,6 +39,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 | Harnett County | County | 2026-05-04 | data center, cryptocurrency mining | 🟢 Active |
 | Henderson County (cryptocurrency mining; data-center-adjacent) | County | 2023-05-01 | cryptocurrency mining | ⚪ Replaced |
 | Jackson County | County | 2026-08-18 | data center | 🟢 Active |
+| Lincolnton | City | 2026-09-03 | data center | 🟢 Active |
 | Madison County (cryptocurrency mining; data-center-adjacent) | County | 2023-06-13 | data center, cryptocurrency mining | ⚪ Expired |
 | McDowell County | County | 2026-08-31 | data center | 🟢 Active |
 | McDowell County (cryptocurrency mining; data-center-adjacent) | County | 2023-05-15 | cryptocurrency mining | ⚪ Replaced |
@@ -52,9 +51,9 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 | Rowan County | County | 2026-04-20 | data center | 🟢 Active |
 | Surry County | County | 2026-06-01 | data center | 🟢 Extended |
 | Swain County | County | 2026-04-21 | data center | 🟢 Active |
-| Town of Apex | Town | 2026-04-14 | data center | 🟢 Active |
+| Town of Apex | Town | 2026-04-14 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Bailey | Town | 2026-05-18 | data center | 🟢 Active |
-| Town of Boone | Town | 2026-03-23 | data center | 🟢 Active |
+| Town of Boone | Town | 2026-03-23 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Canton | Town | 2026-02-11 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Cary | Town | 2026-08-27 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Clyde | Town | 2026-04-16 | data center | 🟢 Active |
@@ -73,7 +72,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 | Town of Spring Hope | Town | 2026-05-04 | data center | 🟢 Active |
 | Town of Waxhaw | Town | 2026-08-11 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Wendell | Town | 2026-04-13 | data center, cryptocurrency mining | 🟢 Active |
-| Town of Whitakers | Town | Unverified | data center | 🟢 Active |
+| Town of Whitakers | Town | 2026-06-01 | data center | 🟢 Active |
 | Town of Woodfin | Town | 2026-05-19 | data center | 🟢 Active |
 | Vance County | County | 2026-09-14 | data center | 🟢 Active |
 | Warren County | County | 2026-08-19 | data center | 🟢 Active |
@@ -186,7 +185,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Normalized date:** `2023-10-02` (exact)
 - **Duration:** 1 year from date of adoption, "or until such time as the Cherokee County Board of Commissioners enacts a high-impact land use ordinance," per Section 3 of the ordinance (OCR-confirmed).
 - **Current end date:** `—`
-- **Sectors:** cryptocurrency mining
+- **Sectors:** cryptocurrency mining, data center
 - **Moratorium ID:** `nc-cherokee-county-2023`
 - **Legal basis:** High-Impact Facility Moratorium adopted under N.C.G.S. 160D-107(a) and 160D-107(d); ordinance text recites Cherokee County Comprehensive Plan adoption September 18, 2023 and finds at least 3 crypto mining sites in the county; covered uses include asphalt facilities; bulk inflammable, chemical, biological-waste or explosive storage; cryptocurrency mining server farms; unenclosed data storage facilities with powered cooling; facilities with generators ≥600 kW fossil-fuel power; solid-waste management/disposal facilities; commercial incinerators; bulk concrete production; nuclear/toxic-material storage or disposal; and privately operated prisons. Scope: unincorporated Cherokee County, excluding lands within the Qualla Boundary of the Eastern Band of Cherokee Indians. The county does not have land-use zoning, so the moratorium operated through permit gating only. PDF stored at `research/_originals/cherokee-county-high-impact-facility-moratorium-2023.pdf`; OCR text in `research/_web/cherokee-county-high-impact-facility-moratorium-2023-ocr.md`.
 - **What prompted it:** Existing cryptocurrency mining noise and electricity concerns in the Murphy/Marble area.
@@ -386,22 +385,6 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Detailed status:** Active as of 2026-09-23; one-year moratorium adopted unanimously 2026-05-21 (to about 2027-05-21) on development approvals for data centers, data processing facilities, cryptocurrency mining operations and battery energy storage systems; no rescission or replacement found. [VERIFY instrument number not confirmed at confidence 0.65 in the 2026-07 refresh]
 - **Outcome:** —
 
-### Clay County (permanent restriction after earlier crypto moratorium)
-
-- **Type:** County
-- **Status:** 🟢 Active
-- **Date enacted:** 2026-01-08, confirmed by the signed county ordinance (Ordinance No. 01.08.2026), hosted directly on Clay County's own website; related cryptocurrency prohibition effective 2022-08-04.
-- **Normalized date:** `2026-01-08` (exact)
-- **Duration:** Indefinite prohibition, not a temporary moratorium
-- **Current end date:** `—`
-- **Sectors:** data center, cryptocurrency mining
-- **Moratorium ID:** `nc-clay-county-2026`
-- **Legal basis:** Ordinance No. 01.08.2026 prohibiting commercial data centers; separate ordinance prohibiting commercial cryptocurrency mining facilities.
-- **What prompted it:** Rural character, infrastructure limits, high energy and water demands, noise, and environmental concerns.
-- **Affected projects:** Commercial data centers meeting county definition, including facilities at or above 2 MW peak demand; commercial cryptocurrency mining facilities.
-- **Detailed status:** Active as of 2026-09-23; permanent prohibition of commercial data centers (2 MW or greater peak demand) in unincorporated Clay County under Ordinance No. 01.08.2026, effective on adoption 2026-01-08; still listed ('Commercial Data Center 2026') on the county's ordinances page, and no repeal or amendment was found.
-- **Outcome:** County moved from temporary crypto pause to permanent crypto prohibition, then added a standalone data center prohibition in 2026.
-
 ### Cumberland County
 
 - **Type:** County
@@ -465,22 +448,6 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Affected projects:** Not tied to a single named project
 - **Detailed status:** Active as of 2026-09-23 through 2027-05-18, aligned with the City of Durham's moratorium. Adopted 4-1 on 2026-08-24; applies in unincorporated Durham County. The earlier record of a 2026-06-22 one-year moratorium was an error: that meeting adopted the UDO rule change only (INDY Week: 'the hearing would be specific to the UDO ordinance, not a moratorium vote').
 - **Outcome:** Nine-month moratorium on large data centers adopted 2026-08-24; staff to draft UDO standards.
-
-### Eastern Band of Cherokee Indians (tribal and trust lands)
-
-- **Type:** Tribal
-- **Status:** 🟢 Active
-- **Date enacted:** 2026-05-07, Tribal Council (Dinilawigi) passage of Ordinance No. 158(2026), 94 weighted votes for, Rep. Smoker absent; approved by the Principal Chief (approval box checked on the executed ordinance posted in the Municode ordinance bank; approval date not legible)
-- **Normalized date:** `2026-05-07` (exact)
-- **Duration:** Indefinite
-- **Current end date:** `—`
-- **Sectors:** data center
-- **Moratorium ID:** `nc-eastern-band-of-cherokee-indians-tribal-and-trust-lands-2026`
-- **Legal basis:** Ordinance No. 158(2026), amending Cherokee Code Chapter 47E to ban data centers on EBCI tribal lands (effective upon ratification by the Principal Chief)
-- **What prompted it:** —
-- **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; indefinite prohibition/moratorium on data centers on EBCI tribal lands. Ordinance No. 158(2026) passed Tribal Council 2026-05-07 and the executed copy in the Municode ordinance bank (listed 'Adopted 5/7/26', uncodified) shows the Principal Chief's approval box marked; no veto or rescission was found.
-- **Outcome:** —
 
 ### Edgecombe County
 
@@ -593,6 +560,22 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Affected projects:** None named.
 - **Detailed status:** Active as of 2026-09-23 through 2027-08-18; planning board study through January 2027, draft UDO changes from February, planning board hearing by 2027-06-30.
 - **Outcome:** One-year moratorium with a work plan toward UDO data center regulations.
+
+### Lincolnton
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-09-03
+- **Normalized date:** `2026-09-03` (exact)
+- **Duration:** From 2026-09-03 to 2027-01-01, extendable
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `nc-lincolnton-2026`
+- **Legal basis:** Lincolnton City Council motion/ordinance adopting a moratorium on data center applications (2026-09-03)
+- **What prompted it:** No zoning text addressing data centers; proposed $600M data center project at 232 Car Farm Road
+- **Affected projects:** Proposed $600 million data center project at 232 Car Farm Road
+- **Detailed status:** Active as of 2026-09-23. Contrary to earlier reporting that Council would delay a decision, a divided City Council voted at its 2026-09-03 meeting to adopt a moratorium on 'acceptance, processing, and approval of applications for data centers or data processing facilities,' running through 2027-01-01 (with the possibility of further extension if a zoning text amendment is not finished by then). This went against the Planning Board's recommendation of a full one-year moratorium.
+- **Outcome:** City planning staff to return with a zoning text amendment after January 1, 2027
 
 ### Madison County (cryptocurrency mining; data-center-adjacent)
 
@@ -719,7 +702,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Legal basis:** Pasquotank County solar farm moratorium (instrument number not located)
 - **What prompted it:** Commissioners want to reduce the maximum solar farm acreage (currently 15,000 acres) and update UDO solar standards
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium on new solar farms adopted 2026-07-20 while the UDO solar provisions are revised. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Detailed status:** Active as of 2026-09-23; 12-month moratorium on new solar farms adopted 2026-07-20 while the UDO solar provisions are revised. Confirmed by the Daily Advance (Pasquotank's paper of record), which directly reports the July 20 commissioners' vote and distinguishes it from the county's separate May 2026 data-center moratorium (nc-pasquotank-county-2026). Ordinance/resolution number still not located.
 - **Outcome:** 12-month solar moratorium; UDO revision under way.
 
 ### Rowan County
@@ -778,7 +761,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Normalized date:** `2026-04-14` (exact)
 - **Duration:** 12 months, ending 2027-04-27 per IndyWeek; the ordinance is town-wide including extraterritorial jurisdiction
 - **Current end date:** `—`
-- **Sectors:** data center
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-apex-2026`
 - **Legal basis:** Town-wide moratorium noticed under N.C.G.S. 160D-107 and 160D-601; covers acceptance, processing, and approval of development applications for data centers, cryptocurrency mining, data processing, and associated uses. [Evidence ceiling: Apex's CivicEngage AgendaCenter rendered with a real Chrome browser displays only a calendar widget and search interface; individual Town Council 2026 meeting agenda links are populated dynamically and were not surfaced for the April 14, 2026 meeting in any captured fetch as of 2026-04-30. The captured public-hearing notice (Apex DocumentCenter View 53939) and IndyWeek's vote coverage cite no instrument number; Apex Municode has not yet incorporated the new moratorium.]
 - **What prompted it:** Resident opposition to a proposed data center, followed by developer withdrawal; town cited water consumption, energy demand, backup generation, noise, land-use compatibility, transportation, and lack of UDO standards.
@@ -810,7 +793,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Normalized date:** `2026-03-23` (exact)
 - **Duration:** 1 year
 - **Current end date:** `—`
-- **Sectors:** data center
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-boone-2026`
 - **Legal basis:** Town ordinance banning development of data centers and cryptocurrency mining operations for one year, adopted after public hearing process under N.C.G.S. 160D-107; Mayor Dalton George brought the issue to council per WHQR; March 23 was a Monday, consistent with WHQR's "Monday night" reporting. [Evidence ceiling: Boone's Granicus archive search at townofboone.granicus.com/ViewSearchResults.php returns zero records for the keyword "moratorium" as of 2026-04-30; the only public-hearing entries indexed for spring 2026 do not include the March 23 special action, so the adopted instrument number is not retrievable from the Granicus archive.]
 - **What prompted it:** Public concern over infrastructure strain, water resources, environmental effects, and local fit; nearly 100 residents reportedly attended the meeting.
@@ -943,7 +926,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Legal basis:** Town of Highlands temporary moratorium ordinance on data centers, cryptocurrency mining and other high-intensity computing facilities (number not located)
 - **What prompted it:** Town wants zoning to prevent high-impact computing uses; follows Macon County's data center ordinance changes
 - **Affected projects:** None.
-- **Detailed status:** Active as of 2026-09-23; moratorium approved 2026-08-20; the planning board is reviewing data center regulations. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Detailed status:** Active as of 2026-09-23; moratorium approved 2026-08-20; the planning board is reviewing data center regulations. Confirmed by the Highlander (Highlands' local paper), which headlined the town board's approval, and corroborated by a Macon County official's Sept. 14 reference to it. Ordinance number still not located.
 - **Outcome:** Temporary moratorium adopted; planning board review under way.
 
 ### Town of Hildebran
@@ -1007,7 +990,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Legal basis:** Town Board moratorium pausing special use applications for data centers, cryptocurrency mining facilities, server farms and high-density digital infrastructure in the town's zoning jurisdiction (instrument number not located)
 - **What prompted it:** Resident concern that the zoning ordinance (updated Nov. 2025) lists data centers and crypto mining as special uses in the M-Industrial district
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium adopted 2026-07-13 (to about 2027-07-13); no repeal found. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Detailed status:** Active as of 2026-09-23; one-year moratorium adopted 2026-07-13 (to about 2027-07-13); no repeal found. Confirmed by Asheville Citizen-Times coverage (Madison County's regional paper of record), which reports the July 13 unanimous town board vote in detail. Ordinance number still not located.
 - **Outcome:** One-year moratorium while the town reviews its zoning ordinance.
 
 ### Town of Mayodan
@@ -1111,7 +1094,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Type:** Town
 - **Status:** 🟢 Active
 - **Date enacted:** Date not located; reported in September 2026 as having instituted a data center moratorium
-- **Normalized date:** `—` (unverified)
+- **Normalized date:** `2026-06-01` (unverified)
 - **Duration:** Unknown
 - **Current end date:** `—`
 - **Sectors:** data center
@@ -1119,7 +1102,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Legal basis:** Town of Whitakers data center moratorium (instrument not located)
 - **What prompted it:** Regional Nash/Edgecombe effort to study data center impacts
 - **Affected projects:** None named.
-- **Detailed status:** Reported active as of September 2026 (Rocky Mount Telegram); no primary source, date or term located. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Detailed status:** Active as of 2026-09-23; per Whitakers Town Clerk Tamica Gray (Rocky Mount Telegram, Aug. 2026), the town instituted a data center pause effective June 1, 2026. No ordinance document, instrument number, or duration/term has been located; this remains a secondhand (clerk-quoted) source, not a primary document. [VERIFY instrument number; term/duration; primary source (ordinance text) still not located]
 - **Outcome:** Moratorium reported.
 
 ### Town of Woodfin

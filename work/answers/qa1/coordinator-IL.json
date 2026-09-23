@@ -1,0 +1,39 @@
+{
+ "state_abbrev": "IL",
+ "researched_as_of": "2026-09-23",
+ "researcher": "Claude Fable 5.1 coordinator (QA round 2 reconciliation)",
+ "decisions": [
+  {
+   "moratorium_id": "il-city-of-west-chicago-2026",
+   "outcome": "corrected",
+   "confidence": 0.9,
+   "changes": {
+    "date_enacted": {
+     "from": "City Council approved Ordinance 26-O-0011 by a 12-0 vote on 2026-07-06.",
+     "to": "2026-07-20: City Council unanimously approved Ordinance 26-O-0011, a 180-day moratorium on new data centers and battery energy storage systems, per the City's own announcement",
+     "reason": "The City's own news release dates the vote July 20, not July 6."
+    },
+    "date_enacted_iso": {
+     "from": "2026-07-06",
+     "to": "2026-07-20",
+     "reason": "Per the City of West Chicago release."
+    },
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2027-01-16",
+     "reason": "180 days from 2026-07-20."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://westchicago.org/news/city-pauses-new-data-center-and-battery-storage-approvals/",
+     "publisher": "City of West Chicago",
+     "source_type": "other",
+     "supports": "'On July 20, 2026, the West Chicago City Council unanimously approved a 180-day temporary moratorium'",
+     "quote": "On July 20, 2026, the West Chicago City Council unanimously approved a 180-day temporary moratorium on new data centers and battery energy storage systems"
+    }
+   ],
+   "notes": "Blind re-verification (QA round 2, item B26). The pre-existing row's July 6 date was not supported by the City's own release."
+  }
+ ]
+}

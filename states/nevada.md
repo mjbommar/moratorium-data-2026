@@ -3,37 +3,21 @@
 
 Every local infrastructure moratorium in the inventory for Nevada, current through **September 23, 2026**.
 
-**7 instruments** — 7 in force, 0 pending, 0 past.
+**7 instruments** — 5 in force, 0 pending, 2 past.
 
 State policy is tracked separately: **7 actions** (7 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
-| Fallon Paiute-Shoshone Tribe | Tribal | 2026-05-26 | data center | 🟢 Active |
 | Humboldt County | County | 2026-07-06 | data center | 🟢 Active |
+| Lander County | County | 2024 | solar, wind, battery storage | ⚪ Expired |
+| Nye County | County | 2023 | solar, battery storage | ⚪ Replaced |
 | Nye County | County | 2026-06-02 | data center, cryptocurrency mining | 🟢 Active |
-| Pyramid Lake Paiute Tribe | Tribal | 2026-08-21 | data center | 🟢 Active |
 | Reno | City | 2026-06-01 | data center | 🟢 Extended |
 | Wells | City | 2026-06-23 | data center, cryptocurrency mining | 🟢 Active |
 | White Pine County | County | 2026-07-22 | data center | 🟢 Active |
 
 ## Detailed entries
-
-### Fallon Paiute-Shoshone Tribe
-
-- **Type:** Tribal
-- **Status:** 🟢 Active
-- **Date enacted:** 2026-05-26, Fallon Business Council, per the meeting agenda item 'Data Center Ban - Resolution #26-F-112' (agenda item filed by Chairman Phil Johnson) at the Fallon Business Council Regular Meeting 2
-- **Normalized date:** `2026-05-26` (exact)
-- **Duration:** Permanent; no stated end date or review/sunset provision found.
-- **Current end date:** `—`
-- **Sectors:** data center
-- **Moratorium ID:** `nv-fallon-paiute-shoshone-tribe-2026`
-- **Legal basis:** Fallon Business Council Resolution #26-F-112
-- **What prompted it:** Preemptive protection of tribal water and land resources; tribal council secretary Phil Johnson introduced the resolution.
-- **Affected projects:** None named; no data centers are sited on Fallon Paiute-Shoshone lands.
-- **Detailed status:** Active as of 2026-09-23 (permanent). Reported by KUNR as the first tribal government in the Truckee River region to ban data centers on its lands, via a resolution introduced by tribal council secretary Phil Johnson. [VERIFY details not confirmed at confidence 0.65 in the 2026-09 refresh]
-- **Outcome:** Fallon Paiute-Shoshone Tribe adopted a resolution permanently banning data centers on tribal lands.
 
 ### Humboldt County
 
@@ -51,6 +35,38 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Detailed status:** Active as of 2026-09-23; set to expire 2027-07-13 absent further action or extension. Continued force confirmed by the Nevada Independent's statewide roundup (last updated Aug. 26, 2026) and by the recitals of White Pine County Resolution 2026-18 (adopted July 22, 2026), both of which describe the Humboldt County moratorium as presently in effect.
 - **Outcome:** —
 
+### Lander County
+
+- **Type:** County
+- **Status:** ⚪ Expired
+- **Date enacted:** Resolution 2024-09 (original 9-month moratorium; exact 2024 adoption date not confirmed)
+- **Normalized date:** `2024` (year_only)
+- **Duration:** 9 months originally; extended 6 months by Resolution 2025-11 (adopted 2025-07-24) through Jan. 24, 2026
+- **Current end date:** `—`
+- **Sectors:** solar, wind, battery storage
+- **Moratorium ID:** `nv-lander-county-2024`
+- **Legal basis:** Resolution 2024-09 (original), extended by Resolution 2025-11 (adopted 2025-07-24, through 2026-01-24)
+- **What prompted it:** Time to study standards for renewable energy generation facility siting (solar, wind, storage)
+- **Affected projects:** —
+- **Detailed status:** Expired 2026-01-24 (last confirmed extension); Lander County's moratorium on renewable energy generation facilities (including battery storage), originally Resolution 2024-09, was extended six months by Resolution 2025-11 (adopted 2025-07-24) through Jan. 24, 2026. No further extension confirmed as of 2026-09-23. [VERIFY details not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** Term lapsed; status after Jan. 24, 2026 not confirmed
+
+### Nye County
+
+- **Type:** County
+- **Status:** ⚪ Replaced
+- **Date enacted:** 2023 (original moratorium on renewable energy generation facilities; exact date not confirmed)
+- **Normalized date:** `2023` (year_only)
+- **Duration:** Continued by Resolution 2024-25 (Sept. 17, 2024 agenda item) through Dec. 21, 2024
+- **Current end date:** `—`
+- **Sectors:** solar, battery storage
+- **Moratorium ID:** `nv-nye-county-2023`
+- **Legal basis:** Nye County resolution(s) continuing a temporary moratorium on renewable energy generation facilities (most recently Resolution 2024-25), superseded by Bill 2024-03 (permanent special-use-permit code for renewable energy siting, including battery energy storage)
+- **What prompted it:** Time to finalize permanent special-use-permit standards for renewable energy/BESS siting
+- **Affected projects:** —
+- **Detailed status:** Replaced; Nye County's temporary moratorium on renewable energy generation facilities (including battery storage), last extended to Dec. 21, 2024 via Resolution 2024-25, was superseded by Bill 2024-03, a permanent rewrite of the county's special-use-permit code (Title 17, Ch. 17.10) governing renewable energy, battery energy storage, and related aboveground utility projects. [VERIFY details not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Superseded by permanent zoning code
+
 ### Nye County
 
 - **Type:** County
@@ -66,22 +82,6 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Affected projects:** Manse Technology Campus (formerly 'Project Blackjack'), a proposed ~900-acre, $18.4B Gigawatt Development Partners LLC data center campus in the Pahrump area, is now blocked by the August 18, 2026 Basin 162 ban; per KTNV (2026-09), 'given the ban, [it] appears to no longer be feasible, at least not where it was originally proposed.'
 - **Detailed status:** Active as of 2026-09-23. The countywide temporary moratorium adopted June 2, 2026 remains in force outside Hydrographic Basin 162, per Nevada Current (2026-08-20): 'Following a county-wide moratorium on any new data center applications... which will remain in effect until the county adopts local data center regulations.' On August 18, 2026 the Board separately voted 5-0 to permanently ban data center construction/operation within Basin 162 (Pahrump Valley) -- reported as Nevada's first outright local data-center ban -- while directing staff to bring county-wide siting regulations (Bill No. 2026-14) for the remainder of the county. A September 14, 2026 special meeting/public hearing on Bill No. 2026-14 was canceled (announced 2026-09-04): 'The proposed bill remains under review. No new hearing date has been scheduled at this time' (Nye County Public Communications Manager Arnold Knightly, via Pahrump Valley Times). As of 2026-09-23 no new hearing date had been announced, so the temporary countywide moratorium continues to govern areas outside Basin 162.
 - **Outcome:** Countywide moratorium on new data center applications adopted 2026-06-02 and still in force outside Hydrographic Basin 162 as of 2026-09-23; a separate permanent ban on data centers within Basin 162 (Pahrump Valley) was adopted 2026-08-18, and a county-wide permanent siting ordinance (Bill No. 2026-14) for the rest of the county remains under review with no hearing scheduled.
-
-### Pyramid Lake Paiute Tribe
-
-- **Type:** Tribal
-- **Status:** 🟢 Active
-- **Date enacted:** 2026-08-21, Pyramid Lake Paiute Tribal Council vote
-- **Normalized date:** `2026-08-21` (exact)
-- **Duration:** Permanent; no stated end date found.
-- **Current end date:** `—`
-- **Sectors:** data center
-- **Moratorium ID:** `nv-pyramid-lake-paiute-tribe-2026`
-- **Legal basis:** Pyramid Lake Paiute Tribal Council resolution (permanent moratorium/ban on data centers); specific PL resolution number not located in the Tribe's published 2026 resolution index as of 2026-09-23.
-- **What prompted it:** Protection of Pyramid Lake water resources and the endangered Cui-ui and threatened Lahontan cutthroat trout from upstream Truckee River watershed data center water demand; concerns about grid reliability given existing rolling brownouts on the reservation. Began as a community-led proposal to the Tribal Council.
-- **Affected projects:** None sited on Pyramid Lake Paiute lands; the Tribe and the Water Over Data Alliance are separately opposing data center growth across the wider Truckee River watershed (e.g., Storey County facilities).
-- **Detailed status:** Active as of 2026-09-23 (permanent). Reported by KUNR and Wyoming Public Media/KUNC as a permanent moratorium/ban on data centers on Pyramid Lake Paiute homelands, adopted by Tribal Council vote on August 21, 2026. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
-- **Outcome:** Pyramid Lake Paiute Tribal Council passed a permanent moratorium/ban on data centers on tribal homelands, citing water sovereignty and protection of the Cui-ui and Lahontan cutthroat trout.
 
 ### Reno
 

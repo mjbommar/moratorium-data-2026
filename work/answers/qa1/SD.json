@@ -1,0 +1,85 @@
+{
+  "state_abbrev": "SD",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA1",
+  "decisions": [
+    {
+      "moratorium_id": "sd-aberdeen-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://aberdeeninsider.com/city-of-aberdeen-notice-of-resolution-26-07-04r/",
+          "source_type": "resolution",
+          "supports": "Full text of the resolution: statutory authority, prohibited-permit provision, November 18, 2026 sunset/repeal-on-zoning-ordinance clause, immediate-effect clause, and the 7-0 vote recorded at the July 20, 2026 meeting.",
+          "quote": "Unless amended, this resolution shall expire and be automatically repealed on November 18, 2026, or upon the effective date of an ordinance amending the zoning regulations at Aberdeen City Code, Chapter 60 - ZONING related to the construction, development, or operation of data centers, whichever date occurs first. ... The foregoing Resolution was approved after first reading and passed at a regular meeting of the City Council on the 20th day of July, 2026. Number of AYES: 7, Number of NAYS: 0."
+        },
+        {
+          "url": "https://dakotabroadcasting.com/city-attorney-ron-wager-discusses-potential-data-center-ordinance-at-city-council-meeting/",
+          "source_type": "news",
+          "supports": "Confirms as of September 22, 2026 the city is still working on the permanent follow-on zoning ordinance that will supersede the moratorium, and that no public referendum vote on it is legally available.",
+          "quote": "The Aberdeen City Council once again addressed the issues of data centers. City Attorney Ron Wager spoke before the Council during the discussion ... Wager says the city must do something regarding this ordinance or data centers can come in without rules established by the city."
+        }
+      ],
+      "notes": "Verified against the full resolution text (26-07-04R): SDCL Sec. 49-50-3 authority, 7-0 vote on July 20, 2026, Nov. 18, 2026 sunset/repeal-on-zoning-ordinance clause, and SDCL Sec. 9-19-13 immediate-effect clause. Genuinely temporary, correctly dated to this instrument's own adoption vote, no duplicate row."
+    },
+    {
+      "moratorium_id": "sd-pennington-county-2024",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/6397378/south-dakota/pennington-county/commission-extends-county-moratorium-on-utilityscale-wind-and-solar-for-one-year-amid-heated-debate",
+          "source_type": "minutes",
+          "supports": "Confirms the original November 19, 2024 enactment, the December 2025 original expiration, and the October 2025 one-year extension vote (mover/seconder and outcome).",
+          "quote": "The county imposed an initial moratorium on Nov. 19, 2024, while a task force drafted changes to Section 3-17 of the zoning ordinance covering renewable energy systems. That temporary moratorium was set to expire in December 2025. ... The board ultimately approved a one-year extension of the temporary zoning ordinance."
+        },
+        {
+          "url": "https://rapidcityjournal.com/news/local/government-politics/article_93d97d87-379a-44fe-aee2-392076c079ae.html",
+          "source_type": "news",
+          "supports": "Confirms the separate permanent zoning-ordinance amendment barring utility-scale wind/solar from agricultural land passed its final 3-2 vote on August 18, 2026, and provides an embedded timeline confirming the November 19, 2024 moratorium enactment, December 12, 2024 effective date, and October 21, 2025 extension to November 18, 2026 (timeline text is ROT47-obfuscated in the page's HTML per known Lee Enterprises/BLOX CMS behavior and was decoded to confirm these dates).",
+          "quote": "Nov. 19, 2024: Commission votes unanimously to enact a year-long moratorium on all utility-scale wind and solar projects in the county. Dec. 12, 2024: Moratorium goes into effect. ... Oct. 21, 2025: Commission votes unanimously to extend the moratorium to Nov. 18, 2026."
+        },
+        {
+          "url": "https://penningtoncountysd.documents-on-demand.com/document/27fee792-8f36-44fa-ba88-d00aefce8b11/Board%20of%20Commissioners%20Minutes%20October%2021,%202025.PDF",
+          "source_type": "minutes",
+          "supports": "Primary source: official Oct. 21, 2025 Pennington County Board of Commissioners minutes. Confirms the extension motion (using the State's Attorney's Office date of 'November 18th'), a failed substitute motion to move that date to Feb. 18, 2026 (2-3), and the original motion carrying unanimously.",
+          "quote": "MOVED by Derr and seconded by Hadcock to extend Ordinance #741 ... effective upon completed publication (November 06, 2025). Substitute motion: MOVED by Drewes and seconded by Rossknecht to take the date provided by the State's Attorney's Office of November 18th and move it to February 18, 2026. Vote: The motion failed 2-3 ... The original motion - Vote: Unanimous."
+        },
+        {
+          "url": "https://www.pennco.org/government/ordinances/ordinance_741.php",
+          "source_type": "ordinance",
+          "supports": "Primary source: the original Ordinance 741 text confirming the Nov. 19, 2024 adoption and original Nov. 18, 2025 expiration date, which the Oct. 21, 2025 vote then extended.",
+          "quote": "NOW, THEREFORE, BE IT ORDAINED that the Pennington County Board of Commissioners hereby authorize a one (1) year moratorium ... This moratorium shall expire on November 18, 2025 unless otherwise extended by law. ... Approved this 19th day of November, 2024."
+        }
+      ],
+      "notes": "The packet flagged quote_mismatch=true on the Rapid City Journal source; I decoded the article's ROT47-obfuscated paywall HTML (Lee Enterprises/BLOX CMS 'encrypted-content' divs -- confirmed present in the archived .html) and the decoded text matches the cited quote and full embedded timeline verbatim, including 'Oct. 21, 2025: Commission votes unanimously to extend the moratorium to Nov. 18, 2026.' This is a false-positive quote_mismatch caused by paywall encoding, not a fabrication. I further pulled the actual Oct. 21, 2025 Pennington County Board of Commissioners minutes (primary source, newly archived this pass) and confirmed the extension vote directly: the item was 'EXTENSION OF ORDINANCE #741 ... effective upon completed publication (November 06, 2025)'; a substitute motion to change 'the date provided by the State's Attorney's Office of November 18th' to 'February 18, 2026' FAILED 2-3, and the original motion (keeping November 18) passed unanimously. This resolves an apparent conflict with a separate stale draft ordinance PDF on the county's own site (docs.pennco.org/.../Ordinance741Ext.pdf) that reads 'shall expire on February 17, 2026' -- that PDF appears to be an earlier draft superseded by the meeting's amendments, not the adopted text. Row's extension-to-Nov.-18-2026 claim is correct. The Aug. 18, 2026 permanent zoning ban on agricultural land is confirmed as a separate, legally distinct action (also decoded from the same ROT47 archive) that does not itself rescind the moratorium."
+    },
+    {
+      "moratorium_id": "sd-turner-county-2025",
+      "outcome": "unresolvable",
+      "confidence": 0.3,
+      "evidence": [
+        {
+          "url": "https://www.yankton.net/community/article_ea065b54-41d7-481a-9c14-511b1794f161.html",
+          "source_type": "news",
+          "supports": "Confirms the Turner County Commission enacted a one-year moratorium on wind energy projects that put the proposed Swan Lake Wind development (NextEra Energy Resources) on hold; article is paywalled beyond the lead paragraph.",
+          "quote": "PARKER - The Turner County Commission has enacted a one-year moratorium on wind energy projects in the county, putting on hold a proposed Swan Lake development that spans two counties."
+        },
+        {
+          "url": "http://turner.sdcounties.org/uploads/1/4/4/2/144282440/9.23.25_minutes.pdf",
+          "source_type": "minutes",
+          "supports": "Confirms the County Commission had adopted the solar/wind moratorium ordinance by this date and that the Board of Adjustment discussed its timeframe and a proposed task force.",
+          "quote": "The next item on the agenda was the moratorium for solar and wind energy. Hoffman advised of the County Commissioner's adoption of the ordinance and the time frame of the moratorium. The Board held discussion about creating a task force."
+        },
+        {
+          "url": "https://www.yankton.net/community/article_5bf12c23-033c-4ffd-aa9c-a39c58636d35.html",
+          "source_type": "news",
+          "supports": "Confirms NextEra Energy Resources withdrew its wind farm proposal for Yankton and Turner counties (the Swan Lake Wind Project) around August 2026; article is paywalled beyond a reader comment confirming the headline event.",
+          "quote": "VIBORG - NextEra Energy Resources, a Florida-based renewable energy company, has withdrawn its proposal for a wind farm in Yankton and Turner counties."
+        }
+      ],
+      "notes": "The underlying August 2025 ordinance ('Moratorium on Solar and Wind Energy Systems') is real and is a genuine temporary pause, not a permanent ban -- confirmed by Board of Adjustment minutes referencing 'the County Commissioner's adoption of the ordinance.' But it was reported as a *one-year* moratorium enacted 'on or about August 2025,' which would lapse around August 2026 unless renewed. A public notice indicated a hearing was set for Aug. 25, 2026 specifically 'to consider extending' it -- consistent with the county itself recognizing the natural end was approaching. I made further attempts (beyond the original researcher's) to find the outcome of that Aug. 25, 2026 hearing: the notice-registry page has no retained notice text (confirmed, JS-rendered boilerplate only), the Turner County Board of Adjustment's own site only indexes Board-of-Adjustment (not County Commission) agendas/minutes, and a mytownview.com page for the relevant County Commission meeting date rendered empty (JS-only). I could not locate the Commission's actual Aug. 25, 2026 vote or any confirmation the ordinance was renewed. Given the one-year term and the lapse risk, 'active' as of 2026-09-23 cannot be confirmed one way or the other; this should be treated as materially uncertain rather than confirmed. Recommend a follow-up pass once Turner County posts its Aug./Sept. 2026 County Commission minutes."
+    }
+  ]
+}

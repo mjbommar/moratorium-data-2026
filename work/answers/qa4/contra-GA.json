@@ -1,0 +1,36 @@
+{
+ "state_abbrev": "GA",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-opus-5.5 QA4-contradictions",
+ "decisions": [
+  {
+   "moratorium_id": "ga-kingsland-camden-county-2026",
+   "outcome": "corrected",
+   "confidence": 0.9,
+   "changes": {
+    "legal_basis": {
+     "from": "City Council resolution repealing Ordinance 2026-03 and establishing a 365-day moratorium on accepting and processing applications for data centers and related development",
+     "to": "City Council 'Data Center Ordinance Rescission and Moratorium Ordinance' (approved 2026-05-11, passed as amended, unanimous), rescinding Ordinance No. 2026-03 and adopting a temporary moratorium on accepting and processing data center applications; the staff draft's 90-day term was amended to 365 days on motion of Councilman Blount",
+     "reason": "Approved minutes of the 2026-05-11 meeting show the item was an ordinance (not a resolution) and record the amendment from 90 to 365 days."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://kingslandga.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2779,plainText=false)",
+     "source_type": "minutes",
+     "supports": "Council adopted the rescission-and-moratorium item as amended to 365 days, unanimously, on 2026-05-11.",
+     "publisher": "City of Kingsland",
+     "document_date": "2026-05-11",
+     "quote": "Councilman Blount made a motion to amend the moratorium to 365 days. ... RESULT: PASSED AS AMENDED [UNANIMOUS]"
+    },
+    {
+     "url": "https://kingslandgeorgia.com/DocumentCenter/View/12289",
+     "source_type": "resolution",
+     "supports": "The 90-day text the tracker relies on is the unamended staff draft (suspension 'for a period of ninety (90) days').",
+     "publisher": "City of Kingsland"
+    }
+   ],
+   "notes": "savrn is wrong: it read the 90-day staff draft (DocumentCenter 12289) and concluded the pause expired 2026-08-09. The 2026-05-11 minutes show council amended it to 365 days, so it runs to about 2027-05-11 and is active. Only change: legal_basis now names the instrument as the ordinance the minutes record, not a resolution."
+  }
+ ]
+}

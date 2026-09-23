@@ -1,0 +1,189 @@
+{
+  "state_abbrev": "IN",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA1",
+  "decisions": [
+    {
+      "moratorium_id": "in-grant-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2028-03-16",
+          "reason": "Independent tracker (savrn.com Indiana Data Center Moratorium Tracker) and the citizenportal.ai meeting summary agree the 24-month term runs from the March 16, 2026 adoption date, giving an operative end date of 2028-03-16 (or sooner if the county adopts its zoning amendment first, per the ordinance's own 'whichever occurs first' clause)."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Grant County Ordinance 4-2026, adopted unanimously on 2026-03-16, halts issuance of improvement-location permits and related applications for data center structures in unincorporated Grant County for 24 months or until a zoning amendment addressing data centers is adopted, whichever is sooner. As of late July 2026, an Area Plan Commission subcommittee (three citizen members, four APC members) was still drafting ordinance language, including whether to cover cryptocurrency mining, with no permanent ordinance adopted as of the sources reviewed. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+          "to": "Active as of 2026-09-23. Grant County Ordinance 4-2026, adopted unanimously on 2026-03-16, halts issuance of improvement-location permits and related applications for data center structures in unincorporated Grant County for 24 months or until a zoning amendment addressing data centers is adopted, whichever is sooner (through approx. 2028-03-16). As of late July 2026, an Area Plan Commission subcommittee (three citizen members, four APC members) was still drafting ordinance language, including whether to cover cryptocurrency mining, with no permanent ordinance adopted as of the sources reviewed. Independently corroborated by the Grant County Chronicle-Tribune (local newspaper of record; headline/snippet only, body paywalled) and the savrn.com Indiana moratorium tracker.",
+          "reason": "Local-newspaper and independent third-party tracker corroboration found; resolves the VERIFY marker."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+          "resolution": "corrected",
+          "note": "Corroborated by the Grant County Chronicle-Tribune ('Comms. sign official data center moratorium') and by the independent savrn.com Indiana Data Center Moratorium Tracker, both agreeing on Ordinance 4-2026, the March 16, 2026 adoption date, and the 24-month term. Full ordinance PDF was not located (county website search not attempted beyond the search budget), but two independent sources beyond the original citizenportal.ai summary now corroborate the facts."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/7682692/Indiana/Grant-County/Grant-County-adopts-24-month-moratorium-on-data-center-permits",
+          "source_type": "news",
+          "supports": "Detailed meeting summary of the March 16, 2026 Commissioners' vote: unanimous adoption, statutory citations (IC 36-7-2-8, IC 36-8-4-603), and County Attorney's framing of the moratorium as a procedural pause, not a prohibition on future development.",
+          "quote": "The Grant County Board of Commissioners on March 16 adopted Ordinance 4-2026 imposing a 24-month temporary moratorium on improvement-location permits for data centers in unincorporated areas while the Area Planning Commission studies definitions and zoning changes... Commissioners framed the moratorium as a procedural pause \u2014 not a prohibition on future development."
+        },
+        {
+          "url": "https://www.chronicle-tribune.com/news/comms-sign-official-data-center-moratorium/article_324c4eaa-48f9-55ca-9f89-b331c7ebf06d.html",
+          "source_type": "news",
+          "supports": "Grant County's own newspaper of record confirms an 'official data center moratorium' halting data center development on unincorporated county land for 24 months (headline/snippet; body paywalled).",
+          "quote": "GRANT COUNTY \u2014 An official data center moratorium is now in effect for all unincorp[orated county land, halting data center development for 24 months]."
+        },
+        {
+          "url": "https://savrn.com/data-center-moratorium-tracker/indiana",
+          "source_type": "other",
+          "supports": "Independent third-party moratorium tracker corroborates Ordinance 4-2026, the 2026-03 adoption, the 24-month term, and an end date of March 16, 2028.",
+          "quote": "Grant County 2026-03 ... Local moratorium on data centers through March 16, 2028 ... Ordinance 4-2026: 24-month moratorium on improvement-location permits for data centers in unincorporated Grant County."
+        }
+      ],
+      "notes": "Confirmed a temporary, procedural pause (county attorney's own characterization), dated to this instrument's own adoption vote (no earlier instrument extended), on unincorporated county land only. No duplicate Grant County row exists elsewhere in IN. Genuine miss: a March 2026 county ordinance that apparently drew only a citizen-journalism/AI-aggregator write-up and the local paper (paywalled) at the time, not statewide coverage, so it was missed by the earlier snapshot."
+    },
+    {
+      "moratorium_id": "in-elkhart-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.wvpe.org/wvpe-news/2026-08-28/elkhart-city-council-passes-data-center-battery-storage-pause-9-0",
+          "source_type": "news",
+          "supports": "Confirms the 9-0 vote at the Aug. 27, 2026 (Thursday) special meeting and the temporary, standards-pending nature of the pause.",
+          "quote": "The council voted 9-0 Thursday to pause considering any new hyperscale data center applications for at least six months while city staff develops standards for everything from electrical grid capacity to water and air impacts."
+        },
+        {
+          "url": "https://abc57.com/news/elkhart-city-council-to-go-forward-with-data-center-moratorium-after-unanimous-vote",
+          "source_type": "news",
+          "supports": "Confirms the moratorium runs through December 31, 2027, and that it applies only within Elkhart city limits, not the county.",
+          "quote": "The vote, turning out to be a unanimous 9-0 decision, will now put a pause on data center and battery energy storage facility applications through December 31, 2027... this moratorium will only be in play for the city of Elkhart, not the county or any other surrounding areas."
+        }
+      ],
+      "notes": "Two independent, mutually corroborating news sources; not an OLDER item (Aug 27, 2026). No duplicate elsewhere in IN (distinct from the separate St. Joseph County discussion mentioned in the WVPE piece, which is a different jurisdiction not in this packet)."
+    },
+    {
+      "moratorium_id": "in-fort-wayne-undated",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.21alivenews.com/2026/09/23/vote-fort-wayne-data-center-moratorium-held-3-weeks/",
+          "source_type": "news",
+          "supports": "Confirms the proposed one-year moratorium is still pending as of 2026-09-23, with the vote held for three weeks (to Oct. 13, 2026), and that it excludes the existing Google data center project.",
+          "quote": "A vote on a proposed one-year data center moratorium in Fort Wayne will be held for three weeks after a vote from the Fort Wayne City Council... The council is scheduled to take up the matter again on Oct. 13."
+        },
+        {
+          "url": "https://www.wboi.org/government/2026-09-09/fort-wayne-city-councilwoman-introduces-ordinances-to-rein-in-future-data-center-development",
+          "source_type": "news",
+          "supports": "Confirms the proposal's origin (Councilwoman Rohli Booker, introduced Sept. 2026) and that a competing task-force proposal was withdrawn in its favor.",
+          "quote": "Fort Wayne City Councilman Russ Jehl withdrew his request for the creation of a data center task force Tuesday night... That came after Councilwoman Rohli Booker introduced ordinances that would put a 365-day moratorium on new data center projects."
+        }
+      ],
+      "notes": "Correctly pending, not yet enacted as of researched_as_of. No duplicate elsewhere in IN."
+    },
+    {
+      "moratorium_id": "in-gary-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://gary.capitalbnews.org/gary-data-center-moratorium/",
+          "source_type": "news",
+          "supports": "Confirms the Sept. 16, 2026 mayoral executive order pausing new data center development for one year, its scope extending to infrastructure connections beyond city limits, and that Gary has no operating data centers within city limits.",
+          "quote": "Mayor Eddie Melton has issued an executive order to pause new data center development in the city for one year... The scope notably extends beyond the city limits and applies to any data center, wherever it is located, that would connect to or increase demand on infrastructure or utilities owned or operated by the city."
+        }
+      ],
+      "notes": "Single source (Capital B Gary, a credentialed nonprofit newsroom) but detailed, named, and internally consistent with the row; this is a mayoral executive order, which is a valid government action for this inventory (not a council ordinance, but a temporary pause nonetheless). No duplicate elsewhere in IN. Not an OLDER item."
+    },
+    {
+      "moratorium_id": "in-jeffersonville-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.wave3.com/2026/08/04/jeffersonville-passes-year-long-data-center-moratorium-amid-resident-outcry-major-utility-disclosures/",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 3, 2026 8-0 vote, the suspension of normal council rules to complete all three readings in one session, the one-year term (pushing expiration to mid-2027), and that the administration's original proposal was only six months before the council extended it to a year.",
+          "quote": "With a vote of 8-0, the council halted development for new data centers for one year. The council suspended its standard rules to push the ordinance through three required readings in a single session... This pushes the expiration to mid-2027."
+        },
+        {
+          "url": "https://www.newsandtribune.com/news/jeffersonville-city-council-approves-one-year-moratorium-for-data-centers/article_c39dd353-1c15-4b9d-8d00-462c2da7506b.html",
+          "source_type": "news",
+          "supports": "Independently corroborates the 8-0 vote for a one-year moratorium.",
+          "quote": "The Jeffersonville City Council approved a one-year moratorium on data centers... Before the 8-0 vote, a few residents spoke to the council."
+        }
+      ],
+      "notes": "Two independent local outlets agree on the date and vote count; this is the vote date of the instrument itself (not a first reading -- all three readings were completed the same night). No duplicate elsewhere in IN. Not an OLDER item."
+    },
+    {
+      "moratorium_id": "in-owen-county-undated",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.75,
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Confirmed still pending as of Aug 20, 2026 Commissioners meeting (the latest available minutes): the Board had not adopted either a moratorium or a permanent ban, and sent both options forward for further review. No instrument number or adoption date exists yet by definition."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/10008009/Indiana/Owen-County/Owen-County-planning-commission-recommends-oneyear-moratorium-on-datacenter-development-sends-draft-ordinances-for-review",
+          "source_type": "news",
+          "supports": "Confirms the Planning Commission recommended, but did not itself adopt, a one-year moratorium; adoption authority rests with the Board of Commissioners.",
+          "quote": "The Owen County Planning Commission voted to recommend that the county commissioners adopt a one-year moratorium on data-center development and zoning applications while the planning commission refines two draft documents: a moratorium resolution and a proposed development ordinance."
+        },
+        {
+          "url": "https://mytownview.com/indiana/owen/meetings/co-1064-owen-county-commisssioners-2026-08-20",
+          "source_type": "minutes",
+          "supports": "Confirms that as of the Aug. 20, 2026 Commissioners meeting, no moratorium or ban had been adopted; the board sent both options forward for further review with public comment favoring a permanent ban.",
+          "quote": "The Owen County Board of Commissioners addressed a proposed data center ordinance, with public comment heavily favoring a permanent ban over a temporary moratorium... the board agreed to gather more information and send both options forward."
+        }
+      ],
+      "notes": "Correctly pending; recommendation only, not yet adopted, and residents are actually pushing for a permanent ban rather than a moratorium, which is worth the coordinator watching in the next pass (if adopted as a ban, this row should later be REMOVEd and, if a moratorium is adopted instead, corrected/status_changed with a real date). No duplicate elsewhere in IN."
+    },
+    {
+      "moratorium_id": "in-steuben-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://wtvbam.com/2026/09/16/981590/",
+          "source_type": "news",
+          "supports": "Confirms the Sept. 15, 2026 (Tuesday) Board of Commissioners vote formally enacting a six-month moratorium, following the Plan Commission's August 2026 recommendation, for the purpose of drafting a permanent zoning ordinance.",
+          "quote": "The Steuben County Board of Commissioners officially on Tuesday officially enacted a six-month moratorium on data center construction. The formalized resolution adopts an August recommendation from the Steuben County Plan Commission, temporarily pausing new developments to give local officials time to draft a permanent zoning ordinance."
+        }
+      ],
+      "notes": "Single source but a local outlet (WTVB/WLKI Angola) with a direct dateline and named officials/process detail. Not an OLDER item. No duplicate elsewhere in IN."
+    },
+    {
+      "moratorium_id": "in-wabash-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.in.gov/counties/wabash/files/ordinances/Proposed-Data-Center-Moratorium.pdf",
+          "source_type": "ordinance",
+          "supports": "Draft ordinance text (blank adoption-date line) confirming the 18-month/whichever-first duration clause and its scope across unincorporated Wabash County plus the towns of LaFontaine, Lagro, and Roann upon local adoption.",
+          "quote": "This Ordinance shall remain in effect until the Zoning Ordinance is amended to provide regulations related to data center projects within Wabash County, or for a period of eighteen (18) months from the date of adoption, whichever occurs sooner."
+        },
+        {
+          "url": "https://www.plaindealerin.com/news/data-center-moratorium-approved/article_a65e7da7-f0b7-50c6-a6ae-b77ca20ab685.html",
+          "source_type": "news",
+          "supports": "Confirms the actual 3-0 adoption vote 'last Monday' relative to the article's Sept. 9, 2026 publication, i.e. Aug. 31, 2026, resolving the draft ordinance's blank adoption-date line.",
+          "quote": "A moratorium is now in place on data center projects in Wabash County. The move was unanimously approved, 3-0, by the Wabash County Board of Commissioners. Their vote came last Monday."
+        }
+      ],
+      "notes": "Draft ordinance text alone was undated (adoption-date line blank), but the local newspaper confirms the actual 3-0 vote on Aug. 31, 2026 (a Monday), matching the row. Temporary pause tied to a pending zoning amendment, not a permanent ban. No duplicate elsewhere in IN. Not an OLDER item."
+    }
+  ]
+}

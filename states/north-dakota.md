@@ -3,7 +3,7 @@
 
 Every local infrastructure moratorium in the inventory for North Dakota, current through **September 23, 2026**.
 
-**10 instruments** — 4 in force, 1 pending, 5 past.
+**10 instruments** — 3 in force, 1 pending, 6 past.
 
 State policy is tracked separately: **2 actions** (2 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -13,11 +13,11 @@ State policy is tracked separately: **2 actions** (2 bills) in [`state_legislati
 | Dunn County | County | 2026-03-18 | data center, solar, battery storage | 🟢 Active |
 | Harmony Township | Township | Unverified | data center, battery storage, solar, wind, general | 🟡 Pending |
 | McIntosh County | County | 2025-07 | wind, solar | 🟢 Extended |
-| Mercer County | County | 2026-03-03 | data center, cryptocurrency mining | 🟢 Active |
+| Mercer County | County | 2026-03-03 | data center, cryptocurrency mining | ⚪ Replaced |
 | Morton County | County | 2024-09-12 | data center, cryptocurrency mining | ⚪ Replaced |
 | Oliver County (Phase 1) | County | 2024-12-12 | data center, cryptocurrency mining, solar | 🔴 Rescinded |
-| Oliver County (Phase 2) | County | 2025-05-06 | data center | ⚪ Expired |
-| Oliver County (Phase 3) | County | 2026-03-13 | data center | 🔴 Rescinded |
+| Oliver County (Phase 2) | County | 2025-05-06 | data center, cryptocurrency mining | ⚪ Expired |
+| Oliver County (Phase 3) | County | 2026-03-13 | data center, cryptocurrency mining | 🔴 Rescinded |
 | Williams County | County | 2023-06-20 | data center | ⚪ Replaced |
 
 ## Detailed entries
@@ -89,18 +89,18 @@ State policy is tracked separately: **2 actions** (2 bills) in [`state_legislati
 ### Mercer County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Status:** ⚪ Replaced
 - **Date enacted:** 2026-03-03
 - **Normalized date:** `2026-03-03` (exact)
 - **Duration:** 1 year
-- **Current end date:** `—`
+- **Current end date:** `2026-08-05`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nd-mercer-county-2026`
 - **Legal basis:** Motion-based moratorium (no resolution number assigned); per signed March 3, 2026 Approved Minutes, "Folk moved to put a 1-year moratorium on data centers being permitted. Guenthner seconded. Folk, Guenthner, and Voigt voted aye. Wolf and Bauman voted nay. Motion carried."
 - **What prompted it:** Proposed River Run Energy Center and associated data center activity; Michael Berg, Wes Klein, and ND State Rep. Bill Tveit and other residents asked the Board to put a moratorium in place "until zoning ordinances and public policy were better established to ensure that local control could be maintained."
 - **Affected projects:** River Run Energy Center and associated multi-gigawatt data center campus in Mercer County; Basin Electric and NextEra describe the project as a 1,450 MW combined-cycle gas generation facility with an associated multi-gigawatt data center campus and over $18 billion in expected total investment.
-- **Detailed status:** Active
-- **Outcome:** Pending. Planning and Zoning continued data center ordinance work in March and April 2026; the March 3 meeting included second-reading public hearing on adding Data Center / Digital Asset Mining definitions and listing Data Center as a conditional use in the Industrial District; the third reading was set for March 18, 2026.
+- **Detailed status:** Replaced. On 2026-07-15 the Mercer County Commission voted unanimously (4-0, Guenthner absent) to lift the moratorium, contingent on final adoption and publication of the revised industrial zoning ordinances (including a new data center ordinance, second reading approved 3-1 the same day). The Bismarck Tribune reported the moratorium was lifted as the new ordinance came online on 2026-08-05. Residents presented a 475-signature petition that day asking for reinstatement; no reinstatement was found as of 2026-09-23.
+- **Outcome:** Data center zoning ordinance (with wind and solar ordinances) adopted on second reading 2026-07-15; moratorium lifted effective on the ordinance's publication (about 2026-08-05).
 
 ### Morton County
 
@@ -141,10 +141,10 @@ State policy is tracked separately: **2 actions** (2 bills) in [`state_legislati
 - **Date enacted:** 2025-05-06
 - **Normalized date:** `2025-05-06` (exact)
 - **Duration:** 90 days
-- **Current end date:** `—`
-- **Sectors:** data center
+- **Current end date:** `2025-08-04`
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nd-oliver-county-2025-p2`
-- **Legal basis:** Resolution 2025-03 (companion to a parallel solar resolution; second reading and adoption at the May 6, 2025 Commission meeting; vote 2-1, Berger and Schmidt aye, Husfloen nay, per official minutes)
+- **Legal basis:** Resolution 2025-02, 'A Resolution of the County of Oliver, North Dakota, to Impose a Moratorium on the Development of All Data Center and Cryptocurrency Mining Facilities Until Zoning Standards Can Be Developed' (companion to Resolution 2025-03, the separate Solar Energy Facilities moratorium); second reading and adoption at the May 6, 2025 Commission meeting; vote 2-1, Berger and Schmidt aye, Husfloen nay, per official minutes
 - **What prompted it:** Commission minutes reported that Planning and Zoning requested reinstatement to allow more time for ordinance drafting; Matt Wilkins, P&Z board member, stated the moratoriums would let the board pause without legal-ramification concerns while drafting.
 - **Affected projects:** No specific project identified in captured county records.
 - **Detailed status:** Expired (90-day term ran out on or about 2025-08-04 per Resolution 2025-03 timing; no captured records show a Phase-2 lift or Phase-3 reinstatement until the 2026 process began)
@@ -158,7 +158,7 @@ State policy is tracked separately: **2 actions** (2 bills) in [`state_legislati
 - **Normalized date:** `2026-03-13` (exact)
 - **Duration:** 180 days, with option to extend
 - **Current end date:** `—`
-- **Sectors:** data center
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nd-oliver-county-2026-p3`
 - **Legal basis:** Resolution 2026-02, adopted at the March 13, 2026 Commission meeting: a 180-day moratorium on data center and cryptocurrency mining facilities, with the option to extend; moved by Commissioner Dave Berger, seconded by Commissioner Lee Husfloen, all in favor. The Planning & Zoning Board had recommended a 36-month term at second reading, but the Commission set 180 days instead, directing the State's Attorney (with help from other counties' State's Attorneys) to draft the permanent ordinance.
 - **What prompted it:** County minutes said ordinances needed to be written; KFYR reported commissioners wanted more study time after a five-hour meeting with comments for and against data centers.

@@ -3,13 +3,15 @@
 
 Every local infrastructure moratorium in the inventory for Indiana, current through **September 23, 2026**.
 
-**28 instruments** — 22 in force, 2 pending, 4 past.
+**33 instruments** — 24 in force, 2 pending, 7 past.
 
 State policy is tracked separately: **10 actions** (10 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
+| Boone County | County | 2024 | solar, wind, battery storage | ⚪ Replaced |
 | Boone County | County | 2026-06-15 | data center | 🟢 Active |
+| Clark County | County | 2026-08-27 | data center | 🟢 Active |
 | Dearborn County | County | 2026-02-24 | solar, battery storage, data center | 🟢 Active |
 | DeKalb County | County | 2026-04-13 | data center | 🟢 Active |
 | Elkhart | City | 2026-08-27 | data center, battery storage | 🟢 Active |
@@ -19,6 +21,7 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 | Fulton County | County | 2026-03-02 | data center | 🟢 Active |
 | Gary | City | 2026-09-16 | data center | 🟢 Active |
 | Grant County | County | 2026-03-16 | data center | 🟢 Active |
+| Howard County | County | 2026-08-17 | data center | 🟢 Active |
 | Huntington County | County | 2026-02-23 | data center, battery storage | 🟢 Active |
 | Indianapolis (Marion County) | City | 2026-08-19 | data center | 🟢 Active |
 | Jeffersonville | City | 2026-08-03 | data center | 🟢 Active |
@@ -29,16 +32,34 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 | New Albany (Floyd County) | City | 2026-07-16 | data center | 🟢 Active |
 | Owen County | County | Unverified | data center | 🟡 Pending |
 | Pulaski County | County | 2026-01-20 | data center | 🟢 Active |
-| Putnam County | County | 2025-11-17 | solar, data center | 🟢 Active |
+| Putnam County | County | 2025-11-17 | data center, solar, wind | 🟢 Active |
 | Shelby County | County | 2026-02-23 | data center | ⚪ Replaced |
 | Starke County | County | 2025-12-15 | data center | 🟢 Active |
+| Starke County | County | 2026-02-17 | battery storage, solar | ⚪ Expired |
 | Steuben County | County | 2026-09-15 | data center | 🟢 Active |
+| Tippecanoe County | County | 2025-06-16 | solar | ⚪ Expired |
 | Valparaiso (Porter County) | City | 2026-08-10 | data center | 🟢 Active |
 | Wabash County | County | 2026-08-31 | data center | 🟢 Active |
 | Warrick County | County | 2026-08-11 | data center | 🟢 Active |
 | White County | County | 2025-10-20 | data center | ⚪ Replaced |
 
 ## Detailed entries
+
+### Boone County
+
+- **Type:** County
+- **Status:** ⚪ Replaced
+- **Date enacted:** Ordinance 2024-06 (adoption date within 2024; exact date not confirmed)
+- **Normalized date:** `2024` (year_only)
+- **Duration:** Until April 15, 2026 or adoption of regulating standards, whichever came first
+- **Current end date:** `—`
+- **Sectors:** solar, wind, battery storage
+- **Moratorium ID:** `in-boone-county-2024`
+- **Legal basis:** Ordinance 2024-06 (moratorium), superseded by Ordinance 2025-18 (Energy Overlay District), recorded January 2026
+- **What prompted it:** Zoning ordinance had no standards for solar, wind, or battery energy storage development
+- **Affected projects:** —
+- **Detailed status:** Replaced before its stated end date; the Ordinance 2024-06 moratorium on commercial solar, wind, and battery storage siting in Boone County was superseded by Ordinance 2025-18, which adopted permanent Energy Overlay District standards (recorded ~January 2026).
+- **Outcome:** Superseded by permanent zoning standards
 
 ### Boone County
 
@@ -55,6 +76,22 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Affected projects:** —
 - **Detailed status:** Active as of 2026-07-31; existing facilities are unaffected per the official county release.
 - **Outcome:** Board of Commissioners unanimously adopted a one-year moratorium on new data center development, pausing filing, processing, review, and acceptance of applications in unincorporated areas.
+
+### Clark County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** Late August 2026 (Thursday meeting; article published Aug. 31, 2026)
+- **Normalized date:** `2026-08-27` (exact)
+- **Duration:** One year
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `in-clark-county-2026`
+- **Legal basis:** Ordinance approved by the Clark County Commissioners (unincorporated county); ordinance number not confirmed
+- **What prompted it:** Plan Commission recommendation to study zoning impact of data centers
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23; one-year moratorium on data center construction in unincorporated Clark County, unanimously approved by the Commissioners following a Plan Commission recommendation. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Adopted
 
 ### Dearborn County
 
@@ -191,14 +228,30 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Date enacted:** 2026-03-16 (Board of Commissioners unanimous adoption)
 - **Normalized date:** `2026-03-16` (exact)
 - **Duration:** 24 months from adoption (through approx. 2028-03-16), or until a Grant County zoning ordinance amendment addressing data centers is adopted, whichever occurs first
-- **Current end date:** `—`
+- **Current end date:** `2028-03-16`
 - **Sectors:** data center
 - **Moratorium ID:** `in-grant-county-2026`
 - **Legal basis:** Ordinance 4-2026, adopted unanimously by the Grant County Board of Commissioners on 2026-03-16, citing IC 36-7-2-8 and IC 36-8-4-603
 - **What prompted it:** Halt issuance/receipt of improvement-location permits and related applications for data centers in unincorporated Grant County while the Area Planning Commission studies definitions and drafts zoning standards for siting, installation, operation, and drainage
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. Grant County Ordinance 4-2026, adopted unanimously on 2026-03-16, halts issuance of improvement-location permits and related applications for data center structures in unincorporated Grant County for 24 months or until a zoning amendment addressing data centers is adopted, whichever is sooner. As of late July 2026, an Area Plan Commission subcommittee (three citizen members, four APC members) was still drafting ordinance language, including whether to cover cryptocurrency mining, with no permanent ordinance adopted as of the sources reviewed. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Detailed status:** Active as of 2026-09-23. Grant County Ordinance 4-2026, adopted unanimously on 2026-03-16, halts issuance of improvement-location permits and related applications for data center structures in unincorporated Grant County for 24 months or until a zoning amendment addressing data centers is adopted, whichever is sooner (through approx. 2028-03-16). As of late July 2026, an Area Plan Commission subcommittee (three citizen members, four APC members) was still drafting ordinance language, including whether to cover cryptocurrency mining, with no permanent ordinance adopted as of the sources reviewed. Independently corroborated by the Grant County Chronicle-Tribune (local newspaper of record; headline/snippet only, body paywalled) and the savrn.com Indiana moratorium tracker.
 - **Outcome:** Board of Commissioners adopted a 24-month moratorium on data center improvement-location permits in unincorporated Grant County
+
+### Howard County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** August 17, 2026 (Monday), 3-0
+- **Normalized date:** `2026-08-17` (exact)
+- **Duration:** One year
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `in-howard-county-2026`
+- **Legal basis:** Ordinance 2026-BCCO-32
+- **What prompted it:** Zoning ordinance does not address data centers
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23; one-year moratorium on data center permit applications in unincorporated Howard County, adopted 3-0 on 2026-08-17 following a Plan Commission favorable recommendation. Distinct from Howard County, MD, which is already in the inventory.
+- **Outcome:** Adopted
 
 ### Huntington County
 
@@ -255,7 +308,7 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Date enacted:** 2026-06-16
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** One year from adoption (2026-06-16), extended from the original six months by a unanimous Board of Commissioners vote on 2026-08-04
-- **Current end date:** `—`
+- **Current end date:** `2027-06-16`
 - **Sectors:** data center
 - **Moratorium ID:** `in-madison-county-2026`
 - **Legal basis:** Ordinance 2026-BC-O-05, adopted unanimously by the Board of Commissioners, following the Plan Commission's 8-1 recommendation after a 2026-06-09 public hearing
@@ -368,7 +421,7 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Normalized date:** `2025-11-17` (exact)
 - **Duration:** 1 year, until 2026-11-17
 - **Current end date:** `—`
-- **Sectors:** solar, data center
+- **Sectors:** data center, solar, wind
 - **Moratorium ID:** `in-putnam-county-2025`
 - **Legal basis:** Ordinance No. 2025-11-17-1 establishing a moratorium on new small modular reactors, data centers, solar energy conservation systems, and wind energy systems
 - **What prompted it:** County review of UDO standards after solar project controversy; concern that newer technologies, including data centers, were not adequately addressed
@@ -408,6 +461,22 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Detailed status:** Active; Plan Commission circulated a draft Resolution No. 2026-PC-XX (Findings of Fact for regulation/restriction of commercial data centers) dated March 2026 but no replacement adopted as of 2026-04-29
 - **Outcome:** Pending zoning amendment process for hyperscale data center regulation
 
+### Starke County
+
+- **Type:** County
+- **Status:** ⚪ Expired
+- **Date enacted:** Ordinance Number 02 of 2026 and Ordinance Number 03 of 2026, adopted Feb. 17, 2026 (extensions of prior moratoriums; original enactment date not confirmed)
+- **Normalized date:** `2026-02-17` (exact)
+- **Duration:** Extended through July 25, 2026
+- **Current end date:** `—`
+- **Sectors:** battery storage, solar
+- **Moratorium ID:** `in-starke-county-2026`
+- **Legal basis:** Ordinance Number 02 of 2026 and Ordinance Number 03 of 2026 (extending BESS and CSES moratoriums)
+- **What prompted it:** Need to finish regulations for BESS and Commercial Solar Energy Systems before permits can issue
+- **Affected projects:** —
+- **Detailed status:** Expired 2026-07-25 (last confirmed extension); Starke County Board of Commissioners extended existing moratoriums on Battery Energy Storage Systems and Commercial Solar Energy Systems through that date on 2026-02-17. No further extension or permanent ordinance confirmed as of 2026-09-23. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Extension term lapsed; status after July 25, 2026 not confirmed
+
 ### Steuben County
 
 - **Type:** County
@@ -423,6 +492,22 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Affected projects:** —
 - **Detailed status:** Active as of 2026-09-23. The Steuben County Board of Commissioners formally enacted a six-month moratorium on data center construction on 2026-09-15, adopting a resolution that concurs with the Plan Commission's August 2026 recommendation, to give the county time to draft a permanent siting ordinance.
 - **Outcome:** Board of Commissioners formalized a six-month moratorium on data center construction
+
+### Tippecanoe County
+
+- **Type:** County
+- **Status:** ⚪ Expired
+- **Date enacted:** June 16, 2025 (Ord. 2025-20-CM)
+- **Normalized date:** `2025-06-16` (exact)
+- **Duration:** One year (June 16, 2025 - June 15, 2026)
+- **Current end date:** `—`
+- **Sectors:** solar
+- **Moratorium ID:** `in-tippecanoe-county-2025`
+- **Legal basis:** Ordinance No. 2025-20-CM (codified as Tippecanoe County Code Ch. 164)
+- **What prompted it:** Impact of large-scale ground-mounted solar on drainage, agricultural capacity, and decommissioning adequacy
+- **Affected projects:** —
+- **Detailed status:** Expired 2026-06-15; one-year moratorium on large-scale (10+ acre) ground-mounted solar energy systems in unincorporated Tippecanoe County. No extension or replacement ordinance found as of 2026-09-23; the moratorium text remains codified at Ch. 164 but its stated term has lapsed.
+- **Outcome:** Term lapsed; not renewed as of research date
 
 ### Valparaiso (Porter County)
 

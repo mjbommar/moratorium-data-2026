@@ -1,0 +1,175 @@
+{
+ "state_abbrev": "OH",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA1-county-disambiguation",
+ "decisions": [
+  {
+   "moratorium_id": "oh-lake-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Lake Township",
+     "to": "Lake Township (Wood County)",
+     "reason": "Bare 'Lake Township' is ambiguous in Ohio (multiple counties share the name); evidence identifies the adopting body as the one in Wood County."
+    }
+   },
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://bgindependentmedia.org/temporary-moratoriums-on-data-centers-7-townships-in-wood-county-have-adopted-8-have-discussed/",
+     "title": "Temporary moratoriums on data centers -- 7 townships in Wood County have adopted; 8 have discussed",
+     "publisher": "BG Independent Media",
+     "document_date": "2026-03-13",
+     "source_type": "news",
+     "supports": "Lists Lake Township, 'in the northeast corner of [Wood] county', among the seven Wood County townships with adopted moratoriums as of March 13, 2026, consistent with the row's March 3, 2026 adoption date."
+    }
+   ],
+   "notes": "State: Ohio. COUNTY: Wood County; COORDS_OK"
+  },
+  {
+   "moratorium_id": "oh-montgomery-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Montgomery Township",
+     "to": "Montgomery Township (Ashland County)",
+     "reason": "Bare 'Montgomery Township' is ambiguous in Ohio (multiple counties share the name); evidence identifies the adopting body as the one in Ashland County."
+    }
+   },
+   "confidence": 0.97,
+   "evidence": [
+    {
+     "url": "https://www.ashlandsource.com/wp-content/uploads/2026/06/MORATORIUM-Montgomery-Final-copy.pdf",
+     "title": "A Resolution Establishing a Temporary Moratorium on the Construction of Data Centers Within Montgomery Township, Ashland County, Ohio",
+     "publisher": "Montgomery Township, Ashland County, Ohio (official resolution)",
+     "source_type": "resolution",
+     "supports": "The signed resolution's own caption and recitals state 'MONTGOMERY TOWNSHIP, ASHLAND COUNTY, OHIO' throughout, matching the row exactly (two-year moratorium under R.C. 519).",
+     "quote": "A RESOLUTION ESTABLISHING A TEMPORARY MORATORIUM ON THE CONSTRUCTION OF DATA CENTERS WITHIN MONTGOMERY TOWNSHIP, ASHLAND COUNTY, OHIO"
+    }
+   ],
+   "notes": "State: Ohio. COUNTY: Ashland County; COORDS_OK"
+  },
+  {
+   "moratorium_id": "oh-plain-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Plain Township",
+     "to": "Plain Township (Stark County)",
+     "reason": "Bare 'Plain Township' is ambiguous in Ohio (multiple counties share the name); evidence identifies the adopting body as the one in Stark County."
+    }
+   },
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.cantonrep.com/story/news/local/plain/2026/03/27/plain-township-approves-moratorium-on-data-centers/89321027007/",
+     "title": "Plain Township approves moratorium on data centers",
+     "publisher": "Canton Repository (Stark County, OH)",
+     "document_date": "2026-03-27",
+     "source_type": "news",
+     "supports": "The Canton Repository, Stark County's paper of record, reports trustees Scott Haws and John Sabo voted for the resolution on March 24, 2026, matching the row's date_enacted_iso; the row's own trigger text also names Stark County directly."
+    }
+   ],
+   "notes": "State: Ohio. COUNTY: Stark County; COORDS_OK"
+  },
+  {
+   "moratorium_id": "oh-richfield-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Richfield Township",
+     "to": "Richfield Township (Lucas County)",
+     "reason": "Bare 'Richfield Township' is ambiguous in Ohio (multiple counties share the name); evidence identifies the adopting body as the one in Lucas County."
+    }
+   },
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.toledoblade.com/local/politics/2026/02/18/monclova-richfield-townships-latest-to-pass-data-center-moratoriums/stories/20260218126",
+     "title": "Monclova, Richfield townships latest to pass data center moratoriums",
+     "publisher": "The Toledo Blade (Lucas County, OH)",
+     "document_date": "2026-02-18",
+     "source_type": "news",
+     "supports": "The Toledo Blade -- Lucas County's paper of record -- reports Richfield Township trustees approved a 12-month data-center moratorium on Feb. 17, 2026, grouped with Monclova Township (Lucas County), matching the row's date_enacted_iso exactly."
+    },
+    {
+     "url": "https://github.com/mjbommar/moratorium-data-2026/blob/main/states/ohio.md",
+     "title": "Ohio \u2014 moratoria (Moratorium Nation state page)",
+     "source_type": "other",
+     "supports": "The row's own current_status text already documents, from Richfield Township's own Feb. 17 and March 18, 2026 meeting minutes, that this is the Anthony Wayne-area Richfield Township in Lucas County, distinct from the Village of Richfield in Summit County (whose separate Ordinance 18-2026 the current_coordinates' reverse geocode had picked up instead)."
+    }
+   ],
+   "notes": "State: Ohio. COUNTY: Lucas County; COORDS_FIX: 41.6905055, -83.8301363 This id was flagged as a known suspect (coordinates pointed to Summit County); confirmed Lucas County."
+  },
+  {
+   "moratorium_id": "oh-scioto-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Scioto Township",
+     "to": "Scioto Township (Pickaway County)",
+     "reason": "Bare 'Scioto Township' is ambiguous in Ohio (multiple counties share the name); evidence identifies the adopting body as the one in Pickaway County."
+    }
+   },
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.sciotopost.com/scioto-township-enacts-12-month-data-center-moratorium-amid-statewide-tech-surge/",
+     "title": "Scioto Township Enacts 12-Month Data Center Moratorium Amid Statewide Tech Surge",
+     "publisher": "Scioto Post",
+     "source_type": "news",
+     "supports": "Datelined 'COMMERCIAL POINT, Ohio' (a village within Scioto Township, Pickaway County) and reports the 12-month moratorium after a 6-vs-12-month trustee debate, naming neighboring 'Hamilton Township' (also Pickaway County) and villages Commercial Point and Ashville; matches the row's date_enacted_iso and legal_basis.",
+     "quote": "COMMERCIAL POINT, Ohio -- Scioto Township officials have joined a growing list of Ohio local governments resisting the rapid expansion of the AI industry..."
+    }
+   ],
+   "notes": "State: Ohio. COUNTY: Pickaway County; COORDS_FIX: 39.7567168, -83.0802156"
+  },
+  {
+   "moratorium_id": "oh-spencer-township-2026",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Spencer Township",
+     "to": "Spencer Township (Lucas County)",
+     "reason": "Bare 'Spencer Township' is ambiguous in Ohio (multiple counties share the name); evidence identifies the adopting body as the one in Lucas County."
+    }
+   },
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://toledofreepress.com/communities-use-pause-to-study-data-centers/",
+     "title": "Communities use pause to study data centers",
+     "publisher": "Toledo Free Press",
+     "document_date": "2026-03-10",
+     "source_type": "news",
+     "supports": "Article covers 'Three Anthony Wayne-area communities' (the Anthony Wayne Local School District area is centered on Whitehouse/Waterville, Lucas County) that adopted data-center moratoriums around this time, consistent with the row's own trigger text ('Anthony Wayne area data center concern') and with current_coordinates already resolving to Lucas County."
+    }
+   ],
+   "notes": "State: Ohio. COUNTY: Lucas County; COORDS_OK"
+  },
+  {
+   "moratorium_id": "oh-washington-township-2025",
+   "outcome": "corrected",
+   "changes": {
+    "jurisdiction": {
+     "from": "Washington Township",
+     "to": "Washington Township (Franklin County)",
+     "reason": "Bare 'Washington Township' is ambiguous in Ohio (multiple counties share the name); evidence identifies the adopting body as the one in Franklin County."
+    }
+   },
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "url": "https://www.indeonline.com/story/news/local/communities/dublin/2025/12/15/second-central-ohio-community-washington-twp-to-ban-data-centers-for-90-days-wants-dublin-to-join-in/87719185007/",
+     "title": "Another Columbus-area community passes 90-day moratorium on data centers",
+     "publisher": "The Columbus Dispatch / IndeOnline",
+     "document_date": "2025-12-15",
+     "source_type": "news",
+     "supports": "States the township trustees voted 3-0 on Dec. 8 to place a 90-day ban 'within the unincorporated parts of the township, which encompasses the northwest corner of Franklin County as well as parts of Union and Delaware counties,' matching the row's Dec. 9, 2025 90-day initial moratorium and unanimous vote.",
+     "quote": "Washington Township trustees unanimously voted 3-0 on Dec. 8 to place a 90-day ban on data centers within the unincorporated parts of the township, which encompasses the northwest corner of Franklin County as well as parts of Union and Delaware counties."
+    }
+   ],
+   "notes": "State: Ohio. COUNTY: Franklin County; COORDS_OK"
+  }
+ ]
+}

@@ -45,6 +45,7 @@ PREFIX_RX = re.compile(
 )
 SUFFIX_RX = re.compile(r"\s*[\(\[].*$")  # parenthetical context
 DESC_RX = re.compile(r"\s+-\s+.*$")  # "Name - description"
+COUNTY_RX = re.compile(r"\(([^()]*?\b(?:County|Parish|Borough))\)", re.I)
 
 
 def clean_jurisdiction(j: str) -> str:
@@ -68,6 +69,14 @@ def jurisdiction_variants(j: str) -> list[str]:
     stripped = PREFIX_RX.sub("", base).strip()
     if stripped and stripped != base:
         variants.append(stripped)
+    # A parenthetical county is the disambiguator for same-name townships
+    # (Ohio has a Washington Township in more than twenty counties). Stripping
+    # it and geocoding the bare name placed 26 rows in the wrong county in the
+    # 2026-09-23 refresh. Try the county-qualified forms first.
+    m = COUNTY_RX.search(j or "")
+    if m:
+        county = m.group(1).strip()
+        variants = [f"{v}, {county}" for v in variants] + variants
     return variants
 
 

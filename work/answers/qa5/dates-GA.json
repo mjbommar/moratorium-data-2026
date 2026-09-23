@@ -1,0 +1,115 @@
+{
+ "state_abbrev": "GA",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA5",
+ "decisions": [
+  {
+   "moratorium_id": "ga-east-point-fulton-county-undated",
+   "outcome": "corrected",
+   "confidence": 0.5,
+   "changes": {
+    "date_enacted": {
+     "from": "Original enactment date not confirmed in this pass; City Council extended an existing moratorium by three months on 2026-06-15",
+     "to": "Approximately January 2026 (between the Jan 5, 2026 regular meeting, where a floor motion to adopt was withdrawn in favor of routing through committee, and the Jan 20, 2026 meeting, where a resident thanked Council in public comment for 'having established a six month moratorium on data center construction'); exact vote date not found. City Council extended the moratorium by three months on 2026-06-15.",
+     "reason": "City Council video transcripts show the moratorium ordinance was raised Jan 5, 2026 but withdrawn from the floor pending a work session; discussed again at the Jan 12, 2026 work session with a plan to place it on the 'next Tuesday agenda for action' (i.e., Jan 20, 2026); by the Jan 20, 2026 meeting a member of the public thanked Council in public comment for having already established the six-month moratorium, indicating it was in force by then. No minutes/ordinance document giving the exact adoption date or ordinance number was located."
+    },
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2026-01",
+     "reason": "Best-supported month from the Jan 5 -> Jan 12 -> Jan 20, 2026 meeting sequence described above; exact day not confirmed."
+    },
+    "date_enacted_uncertainty": {
+     "from": "unverified",
+     "to": "month_only",
+     "reason": "Matches the month_only precision of date_enacted_iso."
+    },
+    "current_status": {
+     "from": "Extended by three months as of 2026-06-15; resulting calendar expiration date and final signed ordinance were not located [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-07 refresh]",
+     "to": "Extended by three months as of 2026-06-15; resulting calendar expiration date and final signed ordinance were not located. Original adoption narrowed to January 2026 from City Council meeting video transcripts (Jan 5, Jan 12, Jan 20, 2026), but the exact vote date and ordinance/resolution number remain unconfirmed. [VERIFY instrument number; primary source (news-only/video-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+     "reason": "Records the new date_enacted_iso finding while keeping the still-open VERIFY items (instrument number, primary written source) visible per verify_resolutions below."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-07 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "Adoption month (January 2026) narrowed from Council meeting video transcripts, but the exact date, ordinance number, and a primary written document (agenda item, minutes, or signed ordinance) were not located within a 2026-01-20-to-2026-02 swagit archive spot check. Instrument number and primary source remain open."
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://eastpointga.new.swagit.com/videos/371157",
+     "title": "Jan 05, 2026 City Council - East Point, GA",
+     "publisher": "City of East Point (Swagit video archive/transcript)",
+     "document_date": "2026-01-05",
+     "source_type": "minutes",
+     "supports": "Shows a floor attempt to adopt a six-month data-center moratorium ordinance on Jan 5, 2026 was withdrawn after the City Attorney advised Council Rule 15 required routing the ordinance through a work session first.",
+     "quote": "PROCEEDING TO TO GO AHEAD AND ADOPT THE ORDINANCE FOR A MORATORIUM ON DATA CENTERS FOR SIX MONTHS ... I THINK COUNCILMAN ATKINS IS FINE WITH GOING ON THE WORK SESSION"
+    },
+    {
+     "url": "https://eastpointga.new.swagit.com/videos/371848",
+     "title": "Jan 12, 2026 City Council Work Session - East Point, GA",
+     "publisher": "City of East Point (Swagit video archive/transcript)",
+     "document_date": "2026-01-12",
+     "source_type": "minutes",
+     "supports": "Confirms the moratorium ordinance (six months or until the zoning text amendment is complete, whichever is sooner) was discussed at the Jan 12, 2026 work session and slated for a vote at the 'next Tuesday' council meeting.",
+     "quote": "THE MORATORIUM IS WRITTEN IS SIX MONTHS OR WHEN THE TEXT AMENDMENT IS DONE, WHICHEVER COMES SOONER ... HAPPY FOR THIS TO GO ON THE NEXT TUESDAY. AGENDA FOR ACTION."
+    },
+    {
+     "url": "https://eastpointga.new.swagit.com/videos/372661",
+     "title": "Jan 20, 2026 City Council - East Point, GA",
+     "publisher": "City of East Point (Swagit video archive/transcript)",
+     "document_date": "2026-01-20",
+     "source_type": "minutes",
+     "supports": "A resident's public comment thanks Council for having already established the six-month data-center moratorium, indicating it was adopted on or before Jan 20, 2026.",
+     "quote": "I'M GENUINELY GRATEFUL TO COUNCIL FOR HAVING ESTABLISHED A SIX MONTH MORATORIUM ON DATA CENTER CONSTRUCTION"
+    }
+   ],
+   "notes": "Narrowed the original adoption to January 2026 (month_only) from video/transcript evidence; exact day and ordinance number not found after checking the swagit video archive for the three closest East Point council meetings (Jan 5, Jan 12, Jan 20, 2026) and a general web search for an East Point moratorium ordinance PDF/Legistar record, which returned nothing beyond the already-known June 2026 extension coverage."
+  },
+  {
+   "moratorium_id": "ga-lee-county-undated",
+   "outcome": "corrected",
+   "confidence": 0.45,
+   "changes": {
+    "date_enacted": {
+     "from": "Original enactment date not confirmed in this pass; resolution adopted 2026-06-09 extends the moratorium from 2026-07-30 through 2026-12-31",
+     "to": "Approximately January 2026 (inferred: a May 27, 2026 WALB report describes 'the current freeze' as 'set to expire in July,' consistent with a six-month term run from around January 2026, the pattern also seen in neighboring southwest Georgia counties in this period); exact vote date not found. Resolution adopted 2026-06-09 extends the moratorium from 2026-07-30 through 2026-12-31.",
+     "reason": "WALB (2026-05-27) reports the moratorium then in effect was 'set to expire in July,' and neighboring Terrell County's July 2026 moratorium article describes Lee County's original pause as adopted 'earlier this year.' No Lee County Board of Commissioners agenda, minutes, or ordinance/resolution document with the original adoption date was located (the county's public meeting-agenda page is a JS-only portal that did not yield a fetchable January 2026 agenda in this pass)."
+    },
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2026-01",
+     "reason": "Best-supported month given a ~6-month term expiring in July 2026, per WALB's May 27, 2026 reporting; exact day not confirmed."
+    },
+    "date_enacted_uncertainty": {
+     "from": "unverified",
+     "to": "month_only",
+     "reason": "Matches the month_only precision of date_enacted_iso; this is an inference from the reported expiration window, not a directly dated adoption record, so it is deliberately not marked exact."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://www.walb.com/2026/05/27/this-protection-not-invitation-lee-co-commissioners-consider-extending-moratorium-data-center-ordinance/",
+     "title": "'This is a protection, not invitation': Lee Co. commissioners consider extending moratorium on data center ordinance",
+     "publisher": "WALB News 10",
+     "document_date": "2026-05-27",
+     "source_type": "news",
+     "supports": "States the county's existing data-center moratorium was 'set to expire in July' as of the May 26, 2026 commission meeting, and that commissioners planned an extension vote for June 9, 2026.",
+     "quote": "The current freeze on data centers is set to expire in July. ... Since the first moratorium was adopted, the county manager has worked with the county attorney, consultants, and legal experts to draft a data center ordinance."
+    },
+    {
+     "url": "https://albanyherald.com/news/terrell-county-data-center-moratorium/",
+     "title": "Following Lee's lead, Terrell County hits pause on data centers",
+     "publisher": "Albany Herald",
+     "document_date": "2026-07",
+     "source_type": "news",
+     "supports": "Confirms Lee County's own moratorium was adopted 'earlier this year' relative to a mid-2026 article, consistent with an early-2026 adoption.",
+     "quote": "County officials specifically referenced neighboring Lee County, where commissioners earlier this year approved a temporary moratorium while considering development standards."
+    }
+   ],
+   "notes": "Could not find a Lee County Board of Commissioners resolution, agenda, or minutes item giving the exact original adoption date; the county's leecountyga.gov meeting-agenda page is a JS-driven year/board picker that did not resolve to a fetchable January 2026 document set in browser mode within budget. date_enacted_iso is an inference (month_only, 2026-01) from the reported ~6-month term and July 2026 expiration, not a directly sourced vote date, hence the moderate confidence. Note: a Lee County, Illinois 'Resolution #2026-76' (leecounty.org, Board of Supervisors, adopted 2026-06-16) surfaced in searches and was checked but is a different Lee County (IL, not GA) and was not used."
+  }
+ ]
+}

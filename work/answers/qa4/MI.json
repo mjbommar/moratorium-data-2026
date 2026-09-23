@@ -1,0 +1,542 @@
+{
+  "state_abbrev": "MI",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "mi-blendon-township-ottawa-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.mlive.com/news/grand-rapids/2026/06/rural-ottawa-county-township-joins-long-list-of-governments-with-pauses-on-data-centers.html",
+          "title": "Rural Ottawa County township joins long list of governments with pauses on data centers",
+          "publisher": "MLive",
+          "document_date": "2026-06-20",
+          "source_type": "news",
+          "supports": "Confirms the June 15, 2026 moratorium covers only data center proposals; a separate 100 MW battery energy storage system (BESS) application is going through the ordinary planning-commission review process, not paused by the moratorium.",
+          "quote": "Blendon Township leaders on Monday, June 15, adopted a one-year moratorium on data center proposals... The move comes as the township deals with an application to build a 100 MW battery energy storage plant (BESS)... Blendon Township planners over the last several months have been researching potential issues with the plant and could take a vote in late summer on whether to approve the BESS."
+        },
+        {
+          "url": "https://www.hollander.news/article/a-moratorium-for-blendon-not-at-this-time",
+          "title": "A Moratorium for Blendon? Not at This Time",
+          "publisher": "Hollander News",
+          "document_date": "2026",
+          "source_type": "news",
+          "supports": "Confirms the BESS application (and its developer) was the political backdrop/trigger for considering a moratorium, distinct from the data-center-only moratorium ultimately adopted.",
+          "quote": "With a battery energy storage system developer pushing hard for application approval, a moratorium seemed like a viable option—giving Blendon Township breathing room to figure out ordinances that would..."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: 'battery' in the row's own trigger/affected_projects text refers to a separate, ongoing 100 MW BESS application that the township's own record already says is 'not covered' by this moratorium -- an explicit exclusion, not operative scope. Resolution 2026-06.1 itself, per contemporaneous reporting, is exclusively a 'moratorium on data center proposals.' sectors stays [\"data_center\"]. No change."
+    },
+    {
+      "moratorium_id": "mi-brandon-township-2026",
+      "outcome": "corrected",
+      "confidence": 0.75,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-04-29",
+          "reason": "Original 180-day term from the 2026-05-04 adoption date runs to 2026-10-31; the board's confirmed single 180-day extension (exercised mid-September 2026, per news coverage) runs sequentially from that original expiration, giving 2026-10-31 + 180 days = 2027-04-29. This matches the row's own prior estimate ('about late April 2027')."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://thecitizenonline.com/articles/news/brandon-township-data-center-moratorium-extended-180-days/",
+          "title": "Brandon Township Data Center moratorium extended 180 days",
+          "publisher": "The Citizen (tctimes.com)",
+          "document_date": "2026-09-19",
+          "source_type": "news",
+          "supports": "Confirms the Board of Trustees voted unanimously to extend the data-center moratorium for an additional 180 days at its regular meeting the Monday before publication (Sept. 14, 2026), and that the original moratorium was put in place in May 2026.",
+          "quote": "Brandon Twp. — During the regular meeting on Monday night, the Brandon Township board of trustees voted unanimously to extend the moratorium on data centers in the township for an additional 180 days. The original moratorium was put in place in May 2026."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved via computed date: no source states the exact new calendar end date, but the 'additional 180 days' figure and the original resolution's own 'one reserved 180-day extension' design (per the row's existing duration text) give a reliable calculation. Confidence reflects that this is a computed rather than directly stated date."
+    },
+    {
+      "moratorium_id": "mi-cascade-charter-township-kent-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.7,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-11-27",
+          "reason": "Resolution 024-2026's own duration is stated (per the row's existing legal_basis/duration text) as 'six months from its 2026-05-27 effective date.' 2026-05-27 plus six calendar months is 2026-11-27. No further extension of Resolution 024-2026 was found in a search for news through September 2026."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.grandrapidspresswire.com/news/cascade-township-halts-data-centers-as-water-contamination-fears-mount",
+          "title": "Cascade Township Halts Data Centers as Water Contamination Fears Mount",
+          "publisher": "Grand Rapids Press Wire",
+          "document_date": "2026-06-04",
+          "source_type": "news",
+          "supports": "Confirms the operative six-month moratorium on data centers and cryptocurrency mining facilities, and that it can be extended for up to one additional year if needed -- no evidence such a further extension has yet been exercised as of this research pass.",
+          "quote": "The township board voted unanimously... to impose a six-month moratorium... The six-month pause can be extended for up to one additional year if township leaders need more time."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved by computing six months from Resolution 024-2026's own confirmed effective date; searched for any further extension through September 2026 and found none, so the fixed end date reflects the currently governing (not-yet-re-extended) six-month term. Lower confidence because the exact day-level effective date of Resolution 024-2026 (May 27) could not be independently re-verified beyond the row's own prior research in this pass (a citizenportal.ai source on the adoption returned 403 Forbidden)."
+    },
+    {
+      "moratorium_id": "mi-dexter-township-2026",
+      "outcome": "corrected",
+      "confidence": 0.75,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-02-12",
+          "reason": "Resolution No. 26-705's original 180-day term from 2026-02-17 runs to 2026-08-16. Resolution No. 26-711 (adopted 2026-07-21, before that term lapsed) extends the moratorium 'for a period of 180 days'; consistent with the row's own prior estimate ('roughly mid-February 2027'), this runs sequentially from the original expiration: 2026-08-16 + 180 days = 2027-02-12."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://thesuntimesnews.com/dexter-twp-notice-of-adoption-of-resolution-no-26-711/",
+          "title": "Dexter Twp: Notice of Adoption of Resolution No. 26-711",
+          "publisher": "The Sun Times News",
+          "document_date": "2026-07-23",
+          "source_type": "other",
+          "supports": "Official notice of adoption confirms Resolution No. 26-711, adopted at the July 21, 2026 regular meeting, extends the moratorium originally established by Resolution No. 26-705 for a period of 180 days.",
+          "quote": "PLEASE TAKE NOTICE that at a regular meeting held on July 21, 2026, the Dexter Township Board adopted Resolution No. 26-711... The Resolution extends the moratorium originally established by Resolution NO. 26-705... The moratorium is extended for a period of 180 days."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved via computed date: the official notice confirms the 180-day extension length but not its base date; sequential computation from the original 180-day term's own expiration (rather than from the July 21 extension-adoption date) matches the row's own prior 'mid-February 2027' estimate, consistent with the same convention observed in Brandon Township's extension."
+    },
+    {
+      "moratorium_id": "mi-elmwood-township-tuscola-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "confidence": 0.8,
+      "changes": {
+        "duration": {
+          "from": "Nine months (amended down from a proposed 12 months)",
+          "to": "Nine months (amended down from a proposed 12 months) under the original Feb. 18, 2026 ordinance; superseded before expiry by a fresh 12-month moratorium under Resolution No. 2026.06.17.A, adopted June 17, 2026, which also added cryptocurrency mining facilities to the covered uses",
+          "reason": "The original nine-month ordinance's own ORIGINAL term (270 days, confirmed correct for DURATION_MISMATCH -- the '12 months' mentioned is an earlier, rejected proposal) has since been superseded by a later resolution found in this pass."
+        },
+        "duration_days": {
+          "from": "270",
+          "to": "365",
+          "reason": "Tuscola Today's June 2026 reporting on the township's June 17, 2026 board meeting confirms the board 'adopted Resolution No. 2026.06.17.A, imposing a 12-month temporary moratorium on data centers and cryptocurrency mining facilities,' re-grounding the moratorium on the Michigan Zoning Enabling Act for greater legal defensibility. Following the convention used elsewhere in this inventory for a superseding instrument (e.g. Sylvan Township), duration_days reflects the currently operative instrument's own original term (365 days), not the now-superseded first ordinance's 270-day term."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-06-17",
+          "reason": "365 days after Resolution No. 2026.06.17.A's June 17, 2026 adoption (the article states the ordinance's zoning-amendment/police-power predecessors are being reinforced by this resolution, with no gap in the operative pause)."
+        },
+        "sectors": {
+          "from": "[\"data_center\"]",
+          "to": "[\"data_center\",\"cryptocurrency_mining\"]",
+          "reason": "Resolution No. 2026.06.17.A explicitly imposes the moratorium on 'data centers and cryptocurrency mining facilities' -- operative scope, not a trigger mention."
+        },
+        "legal_basis": {
+          "from": "Township ordinance enacting a temporary moratorium on data centers (adopted 2026-02-18; ordinance number not reported)",
+          "to": "Township ordinance/resolution enacting a temporary nine-month moratorium on data centers, adopted 2026-02-18 (ordinance number not reported); superseded before its expiry by Resolution No. 2026.06.17.A, adopted 2026-06-17, imposing a fresh 12-month moratorium on data centers and cryptocurrency mining facilities, adopted alongside a reaffirmation of the Planning Commission's establishment under the Michigan Planning Enabling Act, to make the moratorium 'more legally defensible if challenged in court'",
+          "reason": "Adds the June 17, 2026 superseding resolution discovered while researching the DURATION_MISMATCH/SECTOR_CHECK flags."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; nine-month data center moratorium ordinance adopted 2026-02-18 runs to approximately mid-November 2026 (exact effective date after publication not located); no extension or replacement ordinance found.",
+          "to": "Extended as of 2026-09-23. The original nine-month data center moratorium ordinance (adopted 2026-02-18) was superseded, before its own term would have expired, by Resolution No. 2026.06.17.A, adopted 2026-06-17, imposing a fresh 12-month moratorium on data centers AND cryptocurrency mining facilities, running to approximately 2027-06-17. Township officials said the June resolution re-grounds the pause under the Michigan Zoning Enabling Act to be 'more legally defensible if challenged in court.'",
+          "reason": "Corrects the prior pass's 'no extension or replacement ordinance found' -- a June 17, 2026 Tuscola Today article on that night's board meeting documents the superseding resolution."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.tuscolatoday.com/news/elmwood-twp-adopts-data-center-moratorium-approves-road-improvements/article_2754d6b2-097a-4cf3-ae67-18f7a0208a3d.html",
+          "title": "Elmwood Twp. Adopts Data Center Moratorium, Approves Road Improvements",
+          "publisher": "Tuscola Today",
+          "document_date": "2026-07-22",
+          "source_type": "news",
+          "supports": "Reports on the Elmwood Township (Tuscola County) board's June 17, 2026 regular meeting, at which the board adopted Resolution No. 2026.06.17.A imposing a 12-month moratorium on data centers and cryptocurrency mining facilities, re-grounded on the Michigan Zoning Enabling Act.",
+          "quote": "ELMWOOD TWP. — The Elmwood Township Board adopted a 12-month moratorium on data centers and cryptocurrency mining facilities... during its regular meeting June 17... The board also adopted Resolution No. 2026.06.17.A, imposing a 12-month temporary moratorium on data centers and cryptocurrency mining facilities. Genovich explained the township had previously adopted a zoning ordinance amendment and police power moratorium under the Michigan Zoning Enabling Act, making the moratorium more legally defensible if challenged in court."
+        }
+      ],
+      "notes": "DURATION_MISMATCH resolved as originally flagged: the '12 months' in the row's duration text is an earlier, rejected proposal (confirmed by the same underlying facts as before); the ORIGINAL Feb. 18, 2026 ordinance's own term is nine months (270 days). SECTOR_CHECK resolved: while verifying that, found via the same Tuscola Today article that a later resolution (2026.06.17.A, June 17, 2026) superseded the February ordinance with a fresh 12-month moratorium that explicitly covers cryptocurrency mining as well as data centers -- this is beyond the packet's specific flags but is dispositive new information bearing directly on both the row's status and its sectors, so it is reflected here rather than left for a later pass. Retained mi-elmwood-township-tuscola-county-2026's jurisdiction is confirmed as Tuscola County (article references the Tuscola Technology Center venue and neighboring Arbela Township), distinct from the separate Elmwood Township in Leelanau County."
+    },
+    {
+      "moratorium_id": "mi-fayette-township-hillsdale-county-undated",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.radiohillsdale.com/2026/07/15/fayette-township-planning-commission-recommends-moratoriums-on-wind-energy-battery-storage-data-centers/",
+          "title": "Fayette Township Planning Commission Recommends Moratoriums On Wind Energy, Battery Storage & Data Centers",
+          "publisher": "WCSR / Radio Hillsdale",
+          "document_date": "2026-07-15",
+          "source_type": "news",
+          "supports": "Explicitly states the Planning Commission's recommended moratorium excludes solar, on the advice of the township's renewable-energy attorney, following the township's denial of a large solar project.",
+          "quote": "Munson said the moratorium does not include solar energy projects. She said the Township's renewable energy attorney, Seth Koches, has recommended against including solar at this point. Fayette Township recently denied a request by Ranger Power for a special use permit for the nearly 1,400-acre Heartwood II solar installation."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: solar is an explicit, attorney-advised exclusion from the proposed moratorium (headlines and coverage consistently describe it as covering only 'wind, battery, data centers'), not operative scope -- exactly the exclusion case the flag rule carves out. sectors stays [\"wind\",\"battery_storage\",\"data_center\"]. No change."
+    },
+    {
+      "moratorium_id": "mi-genoa-charter-township-2026",
+      "outcome": "corrected",
+      "confidence": 0.7,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-02-02",
+          "reason": "Original resolution's six-month term from the 2026-02-02 adoption date runs to 2026-08-02; the board's confirmed 'one-time, six-month extension' (adopted Aug. 17, 2026, per news coverage) runs sequentially from that point: 2026-08-02 + 6 months = 2027-02-02, matching the row's own prior estimate ('roughly February 2027')."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.whmi.com/news/article/genoa-data-center-crypto-currency-mining-moratorium-extended",
+          "title": "Genoa Township Board Extends Data Center Moratorium",
+          "publisher": "WHMI 93.5",
+          "document_date": "2026-08-18",
+          "source_type": "news",
+          "supports": "Confirms the Board of Trustees approved, Monday (Aug. 17, 2026), 'a one-time, six-month extension' of the moratorium on data centers and cryptocurrency mining facilities, and that 'the original resolution included a provision allowing for a single six-month extension.'",
+          "quote": "The Board of Trustees met Monday night and approved a one-time, six-month extension of the temporary moratorium on the acceptance, processing, and approval of applications for data centers and cryptocurrency mining facilities... The original resolution included a provision allowing for a single six-month extension if additional time was required."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved via computed date (six months plus six months from the confirmed original adoption date); the source confirms the extension's length and one-time cap (consistent with the row's own 'no further extension permitted') but not an exact calendar date."
+    },
+    {
+      "moratorium_id": "mi-green-lake-township-grand-traverse-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.record-eagle.com/news/local_news/township-acts-green-lake-adopts-data-center-moratorium/article_ee6ce149-2a66-4e1f-b3bb-b60b6ecac1bf.html",
+          "title": "TOWNSHIP ACTS: Green Lake adopts data center moratorium",
+          "publisher": "Traverse City Record-Eagle",
+          "document_date": "2026",
+          "source_type": "news",
+          "supports": "Describes the operative scope of the May 12, 2026 moratorium as covering data centers and industrial-/commercial-scale water extractors or users -- no mention of cryptocurrency mining as a covered use.",
+          "quote": "Trustees on May 12 adopted a yearlong moratorium on the kinds of computing installations central to internet-based services and artificial intelligence. They also agreed to block any industrial- or commercial-scale water extractors or users for the same period."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: the row's own trigger field explains the 'crypto' reference -- 'a crypto-mining installation had earlier been pitched' -- background context for why the township acted, not the moratorium's operative scope, which every source (including the ordinance's own current_status text) describes only as data centers and large-scale water use. This is exactly the trigger-mention case the flag rule excludes. sectors stays [\"data_center\",\"general\"]. No change."
+    },
+    {
+      "moratorium_id": "mi-hayes-township-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.hayestownshipmi.gov/download/22552/?tmstv=1771862009",
+          "title": "Resolution 2092026A, To Impose a Temporary Moratorium on Approval of Data Centers",
+          "publisher": "Hayes Township, Charlevoix County, MI",
+          "document_date": "2026-02-09",
+          "source_type": "resolution",
+          "supports": "Confirms the ORIGINAL resolution's own stated term was 180 days from Feb. 9, 2026, before being amended a month later (per the row's own text) to 360 days by Resolution 03092026B.",
+          "quote": "1. For a period commencing on the date of this resolution and terminating one hundred eighty (180) days from the date of this resolution... 4. The Township Board may extend the term of this moratorium resolution... Such extensions shall be for thirty (30) days, and multiple extensions are allowed."
+        }
+      ],
+      "notes": "DURATION_MISMATCH resolved: verified the very first resolution (2092026A) itself set a 180-day term, exactly as the duration text's opening clause says. But that figure was superseded barely a month later (well before the original term could lapse) by Resolution 03092026B, which amended the term to 360 days from the SAME original Feb. 9, 2026 date -- this is the currently governing original term, which is what duration_days=360 already correctly reflects (and which independently reproduces the row's own current_end_date_iso=2027-02-04: 2026-02-09 + 360 days = 2027-02-04, confirming internal consistency). The '180 days' the deterministic check matched is the pre-amendment figure, analogous to an earlier proposal. No change."
+    },
+    {
+      "moratorium_id": "mi-lenox-township-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "sectors": {
+          "from": "[\"general\"]",
+          "to": "[\"data_center\"]",
+          "reason": "Lenox Township's own official Board of Trustees minutes for the February 2, 2026 meeting -- the meeting that adopted this row's tracked moratorium -- show the agenda item and adopted motion were both titled/framed specifically around data centers, not industrial development generally."
+        }
+      },
+      "evidence": [
+        {
+          "url": "http://www.lenox-mi.gov/AgendaCenter/ViewFile/Minutes/_02022026-751",
+          "title": "Lenox Township Board of Trustees Regular Meeting Minutes, February 2, 2026",
+          "publisher": "Lenox Township, Macomb County, MI",
+          "document_date": "2026-02-02",
+          "source_type": "minutes",
+          "supports": "Item (e), 'DATA CENTER MORATORIUM RESOLUTION,' establishes a four-month moratorium 'on data center proposals'; the motion adopted was 'to accept the four-month moratorium on data centers.'",
+          "quote": "e. DATA CENTER MORATORIUM RESOLUTION Supervisor Reeder reported that this proposed Resolution would establish a four-month moratorium on data center proposals... Motion: Marino Support: Rosseel Motion to accept the four-month moratorium on data centers, with a 30 day progress report. Roll Call Vote: Marino- Aye, Rosseel- Aye, Sutherland- Aye, Reeder- Aye, Gurley- Aye. All Ayes. Motion passes."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved, and it surfaced a larger correction: the row's legal_basis previously described the moratorium only as a generic 'Board motion' with no stated subject, and sectors was set to [\"general\"]. The township's own official minutes for the adopting meeting show this was always, specifically, a data-center moratorium (agenda item titled 'DATA CENTER MORATORIUM RESOLUTION,' adopted motion 'to accept the four-month moratorium on data centers'). sectors corrected from general-only to data_center. (The row's enacted_status/expired/current_end_date_iso, which already correctly track the 2026-06-02 lapse, are unaffected by this correction and were not touched.)"
+    },
+    {
+      "moratorium_id": "mi-lima-township-2025",
+      "outcome": "unresolvable",
+      "confidence": 0.4,
+      "evidence": [
+        {
+          "url": "https://thesuntimesnews.com/lima-twp-board-meeting-synopsis-7-13-26/",
+          "title": "Lima Twp: Board Meeting Synopsis 7/13/26",
+          "publisher": "The Sun Times News",
+          "document_date": "2026-07-16",
+          "source_type": "other",
+          "supports": "Confirms the Board adopted Resolution 2026-13, 'Extending the Temporary Moratorium on Approval of Data Centers,' by unanimous roll-call vote at the July 13, 2026 meeting, but the official synopsis does not state the extension's length or new end date.",
+          "quote": "Resolution 2026-13 Extending the Temporary Moratorium on Approval of Data Centers offered by McKenzie, supported by Luick. Upon roll call vote, all ayes. Resolution adopted."
+        },
+        {
+          "url": "https://thesuntimesnews.com/lima-twp-notice-of-adoption-of-ordinance-amendment/",
+          "title": "Lima Twp: Notice of Adoption of Ordinance Amendment",
+          "publisher": "The Sun Times News",
+          "document_date": "2026-08-19",
+          "source_type": "other",
+          "supports": "Confirms a separate, general 'New Land Use Moratoria' zoning-code section (not specific to data centers) was adopted August 10, 2026 -- an enabling provision for future moratoria on undefined uses, not a replacement of or new term for the data-center-specific Resolution 2026-13.",
+          "quote": "The amendment is to add a section to Article 4 (Zoning District Regulations) titled, 'New Land Use Moratoria,' which is intended to allow the adoption of a resolution establishing a temporary moratorium on the consideration of any application for a zoning compliance permit or special use permit for uses that are not addressed in the Zoning Ordinance..."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE not resolved: confirmed Resolution 2026-13 was adopted (unanimously) July 13, 2026, but neither the township's own board-meeting synopsis, its Sept. 14, 2026 follow-up synopsis (no mention of the topic), nor a search for the resolution's own text/notice-of-adoption found a stated extension length or end date. The Aug. 10, 2026 'New Land Use Moratoria' zoning amendment is a separate, general enabling provision, not a restatement of this moratorium's term. Left current_end_date_iso blank rather than guess."
+    },
+    {
+      "moratorium_id": "mi-oshtemo-charter-township-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://online.encodeplus.com/regs/oshtemo-mi/doc-viewer.aspx?secid=2859",
+          "title": "Oshtemo Charter Township Ordinance No. 688, Commercial Data Centers General Moratorium Ordinance",
+          "publisher": "Oshtemo Charter Township, MI (compiled ordinances, encodeplus.com)",
+          "document_date": "2026-03-10",
+          "source_type": "ordinance",
+          "supports": "The ordinance's own operative text imposes a moratorium only on 'all Commercial Data Centers'; no mention of battery energy storage systems (BESS).",
+          "quote": "297.000 - COMMERCIAL DATA CENTERS GENERAL MORATORIUM ORDINANCE Ord. No. 688 Adopted: March 10, 2026; Effective March 17, 2026. An Ordinance to impose a Moratorium on all Commercial Data Centers until such time as the Township's Ordinances can be revised..."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: the row's own current_status text ('township prioritizing BESS ordinance first') describes the township's separate scheduling priority for drafting a different, standalone BESS ordinance (tracked as a separate row, mi-oshtemo-charter-township-2025) -- it is not a statement that Ordinance No. 688 itself covers battery storage. Confirmed against the ordinance's own compiled text, which addresses only commercial data centers. sectors stays [\"data_center\"]. DUP_MARKER: legal_basis already names the specific instrument (Ordinance No. 688) distinguishing this row from the township's other two rows (BESS moratorium, ordinance number below; solar moratorium, Ordinance No. 695); no change needed here."
+    },
+    {
+      "moratorium_id": "mi-oshtemo-charter-township-2025",
+      "outcome": "corrected",
+      "confidence": 0.6,
+      "changes": {
+        "legal_basis": {
+          "from": "Township Board moratorium ordinance on commercial energy storage facilities (ordinance number not located)",
+          "to": "(first instrument, November 2025) Oshtemo Charter Township ordinance imposing a one-year moratorium on commercial energy storage system (BESS) development, adopted 5-2 on first reading and unanimously (two absent) on second/final reading at the November 25, 2025 Township Board meeting; specific ordinance number not confirmed despite checking the township's PA233-BESS information page, its Notices archive, news coverage (MLive, Energy-Storage.news), and the encodeplus.com compiled-ordinance viewer (which does show Ordinance No. 688, the later data-center moratorium, and No. 695, the later solar moratorium, but the relevant section for the November 2025 BESS moratorium could not be located by section ID)",
+          "reason": "DUP_MARKER: this is one of three same-jurisdiction Oshtemo Charter Township rows (BESS, data center, solar) that the validator cannot otherwise tell apart. The other two rows already carry explicit ordinance numbers (688 and 695); this row's ordinance number could not be found despite a multi-source search, so the fallback '(first instrument, <month year>)' label is used per the flag's resolution rule, chronologically first of the three (Nov. 2025, vs. March 2026 for the data-center ordinance and Aug. 2026 for the solar ordinance)."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.mlive.com/news/kalamazoo/2025/11/oshtemo-township-approves-pause-on-energy-storage-projects.html",
+          "title": "Oshtemo Township approves pause on energy storage projects",
+          "publisher": "MLive",
+          "document_date": "2025-11",
+          "source_type": "news",
+          "supports": "Confirms first reading (5-2 split vote) and second/final reading (unanimous, two absent) of the one-year BESS moratorium, on Nov. 25, 2025.",
+          "quote": "Township trustees voted unanimously with two trustees absent to pass the one-year moratorium at a Tuesday, Nov. 25 board meeting. The moratorium will prevent the development of all 'commercial energy storage facilities' until a zoning ordinance can be developed or amended to address development of the facilities."
+        },
+        {
+          "url": "https://www.oshtemo.org/About-Oshtemo/PA233-BESS",
+          "title": "PA 233 and BESS",
+          "publisher": "Oshtemo Charter Township, MI",
+          "document_date": "2026",
+          "source_type": "other",
+          "supports": "Confirms the November 25, 2025 adoption date and one-year term for the BESS moratorium (independently corroborates current_end_date_iso=2026-11-25, already correct in the row).",
+          "quote": "Note: On November 25, 2025, the township adopted a one-year moratorium on energy storage development."
+        }
+      ],
+      "notes": "DUP_MARKER addressed with the process's explicit fallback since a genuine, multi-source search for this specific ordinance's number came up empty (the township's own encodeplus.com ordinance compilation site returns numbered sections for the data-center and solar moratoria by direct section ID, but the BESS moratorium's own section ID was not identified; a Wayback Machine check of the township's Notices archive only reached back to Feb. 2025). Not part of the assigned SECTOR_CHECK/DUP_MARKER flags for this row (this row's only flag is DUP_MARKER), so no other fields were touched."
+    },
+    {
+      "moratorium_id": "mi-oshtemo-charter-township-2026-2",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "legal_basis": {
+          "from": "Township police-power (general) ordinance imposing a moratorium on principal-use solar energy systems (ordinance number not located)",
+          "to": "Oshtemo Charter Township Ordinance No. 695, an ordinance imposing a moratorium on Solar Energy Development for Principal-Use SES, Principal-Use (Large) SES, and Principal-Use (Small) SES, adopted at the August 11, 2026 Township Board meeting (second reading; first reading July 28, 2026), published August 20, 2026",
+          "reason": "DUP_MARKER: the township's own Notices page and its published notice of adoption give the specific ordinance number, resolving the previously unlocated citation and distinguishing this row from the township's other two rows (data center, Ordinance No. 688; BESS, unlocated number)."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.oshtemo.org/Notices/Notice-of-Ordinance-Adoption-695",
+          "title": "Notice of Ordinance Adoption 695",
+          "publisher": "Oshtemo Charter Township, MI",
+          "document_date": "2026-08-20",
+          "source_type": "other",
+          "supports": "Gives the exact ordinance number and title for the solar moratorium adopted August 11, 2026.",
+          "quote": "An Ordinance to impose a Moratorium on Solar Energy Development for Principal-Use SES, Principal-Use (Large) SES, and Principal-Use (Small) SES, until such time as the Township's Ordinances can be revised to develop appropriate Ordinance provisions necessary, to ensure the public health, safety, and welfare, associated with the development of Solar Energy Development."
+        }
+      ],
+      "notes": "DUP_MARKER resolved directly with the confirmed ordinance number (695). This row's only flag is DUP_MARKER; no other fields were reviewed or changed."
+    },
+    {
+      "moratorium_id": "mi-pere-marquette-charter-township-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.pmtwp.org/government/departments/clerk/public_notices.php",
+          "title": "Notice of Adoption, Ordinance No. 162",
+          "publisher": "Pere Marquette Charter Township, Mason County, MI",
+          "document_date": "2026-08-14",
+          "source_type": "ordinance",
+          "supports": "The township's own official notice of adoption states Ordinance No. 162's operative scope is limited to Data Centers; no mention of battery storage.",
+          "quote": "Please take notice that on August 11, 2026 the Township Board of Pere Marquette Charter Township adopted Ordinance No. 162, which imposes a one (1) year moratorium on the permitting, consideration, approval, location, erection, construction, and/or installation of Data Centers in the Township..."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: 'battery storage' in the row's trigger field is one of several background concerns cited when the moratorium was proposed ('concerns about water and energy consumption, noise, power generation equipment, and battery storage') -- not operative scope. The ordinance's own official notice of adoption confirms its operative text covers only Data Centers. sectors stays [\"data_center\"]. No change."
+    },
+    {
+      "moratorium_id": "mi-saginaw-2026",
+      "outcome": "corrected",
+      "confidence": 0.55,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-12-31",
+          "reason": "MLive's coverage of the April 27, 2026 extension vote states the six-month extension 'pushes the moratorium to the end of December' (2026); no exact day is given in any source found, so the last calendar day of December (Dec. 31, 2026) is used as the best available reading of 'the end of December.'"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.mlive.com/news/saginaw-bay-city/2026/04/saginaw-officials-extend-moratorium-to-weigh-data-center-impacts.html",
+          "title": "Saginaw officials extend moratorium to weigh data center impacts",
+          "publisher": "MLive",
+          "document_date": "2026-04-29",
+          "source_type": "news",
+          "supports": "Confirms the 6-3 council vote at the April 27, 2026 meeting to extend the data-center moratorium by an additional six months, and states the resulting expiration as 'the end of December.'",
+          "quote": "At a Monday, April 27, meeting, the council by a 6-3 vote extended its moratorium on data center developments in the city by an additional six months. A moratorium approved unanimously by the council earlier this year would have thawed the development freeze in July. The extension pushes the moratorium to the end of December."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE partially resolved: confirmed the extension and its general 'end of December 2026' expiration via MLive, matching the row's own prior text, but no source gives an exact day. Lower confidence reflects that 2026-12-31 is an interpretation of 'the end of December' rather than a directly stated date; the [VERIFY: resolution number not posted...] marker on legal_basis is unrelated to this flag and was left unaddressed."
+    },
+    {
+      "moratorium_id": "mi-saline-township-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://thesuntimesnews.com/saline-township-approves-industrial-moratorium-as-data-center-work-continues/",
+          "title": "Saline Township Approves Industrial Moratorium as Data Center Work Continues",
+          "publisher": "The Sun Times News",
+          "document_date": "2026-06-15",
+          "source_type": "news",
+          "supports": "Confirms the June 10, 2026 one-year industrial-development moratorium explicitly does not apply to the existing 'The Barn' data center project (already under construction) or to renewable energy projects.",
+          "quote": "Saline Township officials approved a one-year industrial development moratorium June 10 as work continues on The Barn data center... In a June 6 email to The Sun Times News, Clerk Kelly Marion said the township was working on a moratorium but stated it would not affect the current data center 'to [her] knowledge.'... Officials clarified during the meeting that it does not apply to renewable energy projects."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: the row's own trigger text already states the township clerk confirmed the moratorium 'did not affect' the already-permitted data center project -- an explicit exclusion of that use, independently corroborated by this news source, not operative coverage. This is exactly the exclusion case the flag rule carves out. sectors stays [\"general\"]. No change."
+    },
+    {
+      "moratorium_id": "mi-saugatuck-township-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-10-31",
+          "reason": "Resolution 2026-17's own operative text sets a hard calendar cap: the moratorium is extended through 11:59 p.m. on October 31, 2026, or the effective date of a new data center ordinance, whichever comes first."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://saugatucktownshipmi.gov/wp-content/uploads/2026/08/August-Board-Packet.pdf",
+          "title": "Saugatuck Township Board Packet, August 12, 2026 (includes Resolution 2026-17)",
+          "publisher": "Saugatuck Township, Allegan County, MI",
+          "document_date": "2026-08-12",
+          "source_type": "resolution",
+          "supports": "Full text of Resolution 2026-17 confirming the exact extension end date and confirming the moratorium's operative scope is limited to data center development applications, with no mention of battery storage.",
+          "quote": "RESOLUTION 2026-17 A RESOLUTION TO EXTEND THE EXISTING MORATORIUM ON THE ACCEPTANCE OF BUILDING AND ZONING APPLICATIONS FOR DATA CENTER DEVELOPMENT... A. The moratorium is hereby extended through the earlier of the following: (i) 11:59 p.m. on October 31, 2026; or (ii) the effective date of a new ordinance regulating data center development adopted by the Township Board."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved directly from the extension resolution's own operative text (found in the August 12, 2026 board packet). SECTOR_CHECK also resolved from the same primary source: Resolution 2026-17 and the underlying Ordinance No. 2026-01 both address only 'data center development'; 'battery storage' in the row's current_status refers to the Planning Commission's separate, not-yet-adopted permanent zoning amendment (Table of Uses/Section 8.370, public hearing scheduled Aug. 18, 2026) covering data centers, digital mining, AND battery storage together going forward -- a distinct, future instrument, not this moratorium's own scope. sectors stays [\"data_center\"]. No sectors change."
+    },
+    {
+      "moratorium_id": "mi-sault-ste-marie-tribe-of-chippewa-indian-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.saulttribe.com/images/5.19.26_BoD_Announcement_Packet.pdf",
+          "title": "Sault Ste. Marie Tribe of Chippewa Indians Board of Directors Workshop/Meeting Packet, May 19, 2026 (includes draft Resolution Supporting a State of Michigan Temporary Moratorium on Large-Scale Data Centers and Cryptocurrency Mining)",
+          "publisher": "Sault Ste. Marie Tribe of Chippewa Indians",
+          "document_date": "2026-05-19",
+          "source_type": "other",
+          "supports": "Confirms Resolution 2026-107 (this row's tracked instrument) is a data-centers-only moratorium, and that the separate May 19, 2026 draft resolution -- the one that mentions cryptocurrency mining -- is an aspirational resolution urging the STATE of Michigan to adopt its own moratorium covering both data centers and cryptocurrency mining, not an amendment to Resolution 2026-107 itself.",
+          "quote": "RESOLUTION NO: _____________ SUPPORTING A STATE OF MICHIGAN TEMPORARY MORATORIUM ON LARGE-SCALE DATA CENTERS AND CRYPTOCURRENCY MINING WHEREAS... WHEREAS, the Tribe approved Resolution 2026-107 establishing a moratorium on data centers on Tribal land; and... WHEREAS, the Tribe supports the state of Michigan establishing a temporary moratorium on large-scale data centers and cryptocurrency mining until a consultation process with the Tribe is established..."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: Resolution 2026-107 (this row's tracked instrument, adopted 2026-04-07) is titled 'Establishing a Moratorium Prohibiting the Development, Approval, or Operation of Artificial Intelligence (AI) Data Centers on Tribal Lands' -- data centers only, as confirmed by the May 19, 2026 packet's own recital ('the Tribe approved Resolution 2026-107 establishing a moratorium on data centers on Tribal land'). The 'crypto mining' mention comes from a SEPARATE draft resolution in that same packet, urging the STATE of Michigan to adopt its own moratorium covering both data centers and cryptocurrency mining -- an aspirational resolution about state legislation, not an amendment to or expansion of this Tribe's own Resolution 2026-107. This is the 'separate instrument' case the flag rule excludes. sectors stays [\"data_center\"]. No change."
+    },
+    {
+      "moratorium_id": "mi-solon-township-kent-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-02-10",
+          "reason": "MLive reports the Planning Commission's recommended ordinance amendment 'extend[s] the township's data center moratorium until Feb. 10, 2027,' following the Township Board's confirmed six-month extension approved at its July 13, 2026 meeting."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.mlive.com/news/grand-rapids/2026/08/west-michigan-town-adds-6-more-months-on-data-center-moratorium.html",
+          "title": "West Michigan town adds 6 more months on data center moratorium",
+          "publisher": "MLive",
+          "document_date": "2026-08-27",
+          "source_type": "news",
+          "supports": "States the exact new expiration date for the extended moratorium and confirms the extension was approved by the township board at its July 13, 2026 meeting.",
+          "quote": "Solon Township has extended an originally six-month moratorium on data centers to a full year. The Solon Township Planning Commission on Wednesday unanimously recommended approval of a zoning ordinance amendment extending the township's data center moratorium until Feb. 10, 2027. Township Attorney Ross Leisman said the township board approved a six-month moratorium extension during its July 13 meeting."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved with a directly stated exact date from a reliable news source, matching one of the two dates ('Feb. 7 or Feb. 10, 2027') the row's own prior text had already flagged as possibilities."
+    },
+    {
+      "moratorium_id": "mi-sylvan-township-2026",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "changes": {
+        "sectors": {
+          "from": "[\"general\"]",
+          "to": "[\"data_center\",\"general\"]",
+          "reason": "Both the original Ordinance 26-01 ('a 180-day moratorium on accepting/processing data-center applications only') and the current Resolution 26-05 ('a 12-month moratorium on data centers, high-energy users, power-generation facilities, and similar uses') explicitly and repeatedly name data centers as covered -- this is operative scope, not a trigger mention or exclusion. 'general' is kept because Resolution 26-05 also sweeps in 'high-energy users' and 'power-generation facilities,' broader categories with no single matching sector tag in this inventory's taxonomy."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://thesuntimesnews.com/sylvan-twp-notice-of-resolution-26-05/",
+          "title": "Sylvan Twp: Notice of Resolution 26-05",
+          "publisher": "The Sun Times News (publishing Sylvan Township's official notice)",
+          "document_date": "2026-07-16",
+          "source_type": "other",
+          "supports": "Official township notice confirms Resolution 26-05's operative scope explicitly names data centers (among other uses), its 12-month original term effective immediately from the July 14, 2026 adoption, and the six-month cap on any future extensions.",
+          "quote": "Resolution 26-05 approves a 12-month temporary moratorium on the acceptance and/or processing of any applications for data centers, high energy users, power generation facilities and similar uses within Sylvan Township... Future extensions shall not exceed six (6) month increments... The resolution is effective immediately."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: the township's own official notice of Resolution 26-05 confirms 'data centers' is explicit, named operative scope (alongside high-energy users and power-generation facilities), not a trigger mention -- the prior pass had left sectors as general-only despite the row's own legal_basis/current_status text already saying the same thing. sectors corrected to add data_center. duration_days=365 for the DURATION_MISMATCH context (not itself flagged on this row, but present in the same duration text) is confirmed correct following the same convention as mi-elmwood-township-tuscola-county-2026: it reflects the currently operative Resolution 26-05's own original 12-month term (confirmed 'effective immediately' from adoption, with the notice's own extension-cap language matching the row's text), not the earlier, now-superseded Ordinance 26-01's 180-day term that the deterministic check matched first."
+    },
+    {
+      "moratorium_id": "mi-utica-2026",
+      "outcome": "unresolvable",
+      "confidence": 0.35,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/8532988/michigan/macomb-county/utica-city/utica-council-extends-moratorium-on-data-centers-while-attorneys-draft-ordinance",
+          "title": "Utica Council extends moratorium on data centers while attorneys draft ordinance",
+          "publisher": "CitizenPortal.ai (Utica City Council meeting recap)",
+          "document_date": "2026-07-14",
+          "source_type": "news",
+          "supports": "Confirms the July 14, 2026 extension vote but explicitly states no effective date or duration figure was given at the meeting.",
+          "quote": "Utica City Council voted on July 14 to extend a six‑month moratorium on the establishment of data storage facilities and data centers in the city while legal staff review court decisions and ordinances from other municipalities... No ordinance number or effective date beyond the extension was provided at the meeting; council members said staff will return with draft language once the legal landscape is clearer."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE not resolved: the only detailed account of the extension vote explicitly states neither an ordinance/resolution number nor an effective date/duration figure was given at the meeting, and the row's own original date_enacted_iso is already only month-precision ('2026-01'), so even a computed estimate would rest on two unconfirmed dates. Left current_end_date_iso blank rather than compound two uncertainties into a fabricated date."
+    },
+    {
+      "moratorium_id": "mi-wisner-township-undated",
+      "outcome": "corrected",
+      "confidence": 0.4,
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-02-17",
+          "reason": "Township minutes confirm a six-month extension was adopted at the Aug. 17, 2026 meeting; since the moratorium's original adoption date is itself unconfirmed (date_enacted_iso is already blank on this row), this is computed as six months forward from the one confirmed date available (the extension's own adoption date), which also matches the row's own prior estimate ('to about February 2027')."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.tuscolatoday.com/news/wisner-twp-extends-data-center-moratorium-moves-ahead-with-cemetery-fence-removal/article_cae6d5bc-f4c5-42ce-8d82-16c9b6859f6c.html",
+          "title": "Wisner Twp. Extends Data Center Moratorium, Moves Ahead with Cemetery Fence Removal",
+          "publisher": "Tuscola Today",
+          "document_date": "2026",
+          "source_type": "news",
+          "supports": "Confirms the board voted unanimously by roll call to extend the data-center moratorium for an additional six months at its August 17, 2026 meeting.",
+          "quote": "WISNER TWP. — The Wisner Township Board extended its data center moratorium for another six months... during its Aug. 17 meeting... Valentine moved to extend the moratorium for an additional six months, with support from Reese. Freed, Mulligan, Valentine, Reese and MacFarlane each voted in favor during a roll call vote."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE partially resolved: unlike Brandon/Dexter/Genoa (where the ORIGINAL adoption date is known, allowing a sequential 'original term + extension' computation), Wisner's original adoption date could not be found in this pass or the row's prior research (jurisdiction is listed 'undated'), so this computes six months forward from the one confirmed date (the extension's own Aug. 17, 2026 adoption), which understates the true end date if the extension (as with the other townships) runs from the original term's own expiration rather than from the extension's adoption date. Confidence set low to reflect that double uncertainty; flagging for a future pass to locate the original ordinance/resolution."
+    }
+  ]
+}

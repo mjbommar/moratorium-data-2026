@@ -3,16 +3,32 @@
 
 Every local infrastructure moratorium in the inventory for Louisiana, current through **September 23, 2026**.
 
-**2 instruments** — 1 in force, 0 pending, 1 past.
+**2 instruments** — 2 in force, 0 pending, 0 past.
 
 State policy is tracked separately: **5 actions** (5 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
+| Iberville Parish | Parish | 2026-07-15 | battery storage | 🟢 Active |
 | New Orleans | City | 2026-01-28 | data center | 🟢 Active |
-| St. Charles Parish | Parish | Unverified | data center | ⚪ Replaced |
 
 ## Detailed entries
+
+### Iberville Parish
+
+- **Type:** Parish
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-07-15
+- **Normalized date:** `2026-07-15` (exact)
+- **Duration:** Two years
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `la-iberville-parish-2026`
+- **Legal basis:** Iberville Parish Council moratorium ordinance on battery energy storage systems
+- **What prompted it:** Proposed underground battery terminal project southwest of Plaquemine; resident concerns over water contamination and safety
+- **Affected projects:** Proposed underground battery terminal project southwest of Plaquemine (developer represented by NextEra Energy Resources / Iberville Energy Storage)
+- **Detailed status:** Active as of 2026-09-23; the Parish Council voted unanimously on 2026-07-15 to adopt a two-year moratorium on the location and construction of Battery Energy Storage Systems, to allow time to study safety/environmental/health impacts and develop zoning regulations. Parish officials noted the moratorium could end earlier if concerns are resolved.
+- **Outcome:** Parish studying safety/environmental impacts and developing BESS zoning/oversight regulations
 
 ### New Orleans
 
@@ -29,22 +45,6 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Affected projects:** Proposed MS Solar Grid Data project near Interstate 10 and Read Boulevard in New Orleans East; no MW amount identified
 - **Detailed status:** Active as of 2026-09-23; refreshes the as-of date only, no substantive change. The City Planning Commission's staff released draft permanent regulations in August 2026 that would ban data centers over 100,000 square feet or 20 MW citywide, while permitting smaller facilities (up to 20,000 sq ft / 5 MW in commercial districts) subject to a 500-foot residential buffer and utility pre-review. At its Aug. 25, 2026 meeting, the Commission deferred a final vote on these recommendations to October 2026 after several commissioners and the East New Orleans Neighborhood Advisory Commission argued for stricter limits (larger buffers, added protections for schools/senior facilities, water-usage specifics) and more community input. No final City Council action on either the interim or permanent zoning dockets was found in sources reviewed through 2026-09-23, so the interim citywide data-center permitting hold (adopted 2026-01-28, one-year term subject to a possible 180-day extension) remains the operative instrument.
 - **Outcome:** Pending permanent CZO recommendations on definitions, use permissions, district limits, density requirements, soundproofing, safety measures, and quality-of-life standards
-
-### St. Charles Parish
-
-- **Type:** Parish
-- **Status:** ⚪ Replaced
-- **Date enacted:** Not enacted
-- **Normalized date:** `—` (unverified)
-- **Duration:** Proposed 12 months, amended to 8 months before final rejection
-- **Current end date:** `—`
-- **Sectors:** data center
-- **Moratorium ID:** `la-st-charles-parish-undated`
-- **Legal basis:** File No. 2026-0114, proposed ordinance to enact a moratorium on permitting, consideration, approval, location, construction, and/or installation of data center facilities
-- **What prompted it:** Council sponsors sought time to adopt parish-specific data center regulations addressing design, size, location, and operation
-- **Affected projects:** No specific project identified in official minutes; local reporting described the measure as proactive
-- **Detailed status:** Confirmed as of 2026-09-23: the moratorium proposal remains rejected. The parish's own agenda records confirm the Council's Monday, April 6, 2026 legislative meeting vote was 5-3 against the proposed 8-month moratorium (Council members Mobley, Fonseca, Skiba, Comardelle, and Fisher voting no; O'Daniels, Wilson, and Piliè voting yes), per Herald Guide's contemporaneous coverage. The Parish Council subsequently adopted the permanent data-center zoning ordinance at its June 1, 2026 meeting by a unanimous 9-0 vote, per the parish's own Legistar record: File No. 2026-0170, Final Ordinance No. 26-6-3, status 'Enacted,' with Parish President approval recorded June 2, 2026. It establishes the parish's first data-center-specific zoning standards: data centers permitted in M-1 and M-2 industrial districts (facilities with onsite primary power generation restricted to M-2), a 300-foot buffer from residential districts, schools, day cares, nursing homes, assisted-living facilities, and parks, a 25-foot landscape buffer where adjacent to those uses, and a 55 dBA noise cap at sensitive property lines with generator testing restricted to weekdays 7 a.m.-6 p.m. Councilman Walter Pilié, the original moratorium's sponsor, voted for the ordinance after receiving assurances from Parish President Matthew Jewell that additional, stricter noise regulations (independent pre- and post-construction engineering studies, low-frequency noise analysis) would be pursued later. No moratorium was ever in force; no further zoning action or legal challenge was found in sources reviewed through 2026-09-23.
-- **Outcome:** Moratorium proposal failed 5-3 on 2026-04-06 (confirmed via the parish's own council-meeting reporting). Parish President Matthew Jewell's follow-up data-center zoning ordinance (File No. 2026-0170) was introduced and set for public hearing at the June 1, 2026 council meeting (per the parish's own May 18, 2026 agenda notice), and the Council unanimously adopted it (9-0) as Ordinance No. 26-6-3, with Parish President approval recorded 2026-06-02 -- making St. Charles Parish the first parish in southeast Louisiana with dedicated data-center zoning rules, addressing the same siting/design/operations concerns the moratorium proposal had been intended to pause development for.
 
 ---
 

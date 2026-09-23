@@ -1,0 +1,54 @@
+{
+ "state_abbrev": "WI",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA5",
+ "decisions": [
+  {
+   "moratorium_id": "wi-baldwin-undated",
+   "outcome": "corrected",
+   "confidence": 0.45,
+   "changes": {
+    "date_enacted": {
+     "from": "Reported passed by around early June 2026, per multiple statewide roundups; exact vote date not confirmed in sources successfully archived",
+     "to": "Approximately June 2026 (exact vote date not confirmed): the Baldwin Bulletin (successfully fetched via http mode; the article is ROT47-obfuscated Lee Enterprises/BLOX CMS text, decoded) reports that at the Village Board's May 13, 2026 meeting, 'Approval was granted ... to draft an ordinance, which will be presented to the Planning Commission,' after Village President Lance Van Damme proposed a one-year data-center moratorium. Two independent statewide roundups (Daily Reporter/WisPolitics, June 5, 2026, and the Wisconsin NewsMedia Association, June 2, 2026) both state in past tense that Baldwin 'passed' its moratorium by early June 2026, indicating the Village Board's final adoption vote came at a meeting after May 13 and before June 2, 2026.",
+     "reason": "The Baldwin Bulletin article, decoded, plus two independent June 2026 statewide roundups together bound the adoption to a specific month even though the exact vote date remains unconfirmed."
+    },
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2026-06",
+     "reason": "Two independent roundup articles (June 2 and June 5, 2026) describe Baldwin's moratorium as already passed, while the only found Village-level record (May 13, 2026) shows only a directive to draft the ordinance -- placing the actual adoption vote in late May or, more likely given the roundups' timing, very early June 2026."
+    },
+    "date_enacted_uncertainty": {
+     "from": "unverified",
+     "to": "month_only",
+     "reason": "Only the month, not an exact day, is supported by the sources found."
+    },
+    "current_status": {
+     "from": "Reported as passed, but I was unable to confirm the specifics (exact date, vote, and term) with an archived source; the primary local article (Baldwin Bulletin) was paywalled even under a browser-mode fetch and returned no article text. Listed at low confidence pending a coordinator follow-up. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]",
+     "to": "Active as of 2026-09-23. The Baldwin Bulletin article renders as ROT47-obfuscated text under an http-mode fetch (browser mode still shows only the paywall/nav chrome, but the http-mode save captured the full page including the obfuscated article body, which decodes cleanly with a standard ROT47 pass); it describes the May 13, 2026 Village Board meeting directing staff/counsel to draft the moratorium ordinance for presentation to the Planning Commission. Two independent statewide roundups (Daily Reporter, June 5, 2026; Wisconsin NewsMedia Association, June 2, 2026) confirm Baldwin had passed its moratorium (1-2 year range across the roundup's list of towns) by early June 2026. [VERIFY instrument/ordinance number not confirmed at confidence 0.5 in the 2026-09 refresh]",
+     "reason": "Resolves the primary-source-access part of the original [VERIFY] marker (the Baldwin Bulletin article is in fact readable once decoded) while leaving the instrument/ordinance-number part open."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://www.baldwin-bulletin.com/news/village-board-making-sure-data-centers-aren-t-coming-to-baldwin/article_a380f1c9-ebf9-413d-aedd-94cd8b28e502.html",
+     "title": "Village Board making sure data centers aren't coming to Baldwin",
+     "publisher": "Baldwin Bulletin (Lee Enterprises/BLOX CMS)",
+     "source_type": "news",
+     "supports": "Confirms Village President Lance Van Damme's proposal for a one-year data-center moratorium and that the Village Board approved drafting an ordinance at its May 13, 2026 meeting (article text was ROT47-obfuscated in the page source; decoded with a standard ROT47 pass per the research-process notes on Lee Enterprises/BLOX CMS sites).",
+     "quote": "President Lance Van Damme said the idea was to create a moratorium for a year to give Board members, along with Attorney Paul Mahler, time to make a 'detailed ordinance that will work.' ... Approval was granted at the May 13 meeting to draft an ordinance, which will be presented to the Planning Commission."
+    },
+    {
+     "url": "https://dailyreporter.com/2026/06/05/wisconsin-counties-impose-moratoriums-on-hyperscale-data-centers/",
+     "title": "More hurdles for Wisconsin data center projects",
+     "publisher": "Daily Reporter / WisPolitics-State Affairs",
+     "document_date": "2026-06-05",
+     "source_type": "news",
+     "supports": "Lists Baldwin among Wisconsin jurisdictions that 'have all passed moratoriums' by the article's June 5, 2026 publication date.",
+     "quote": "Madison, the town of Cassville, Westport in Dane County, Baldwin in St. Croix County and Manitowoc County have all passed moratoriums ranging from one to two years."
+    }
+   ],
+   "notes": "The key troubleshooting finding here: the Baldwin Bulletin article that the original researcher marked as 'paywalled even under a browser-mode fetch and returned no article text' actually saves successfully under save_source.py's default http mode, with the article body present but ROT47-obfuscated (the exact Lee Enterprises/BLOX CMS pattern flagged in work/research-process.md's 'Lessons from the pilot agents'). Decoding it resolved the [VERIFY] marker on the primary-source problem, though not the exact date or ordinance number -- the article itself only documents the May 13, 2026 vote to direct drafting, not a later final-adoption vote, so date_enacted_iso is a month_only estimate (2026-06) bounded by the May 13 drafting directive and the June 2/June 5, 2026 roundup articles' past-tense 'passed' language."
+  }
+ ]
+}

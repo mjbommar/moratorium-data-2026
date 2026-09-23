@@ -1,0 +1,64 @@
+{
+ "state_abbrev": "IA",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA5",
+ "decisions": [
+  {
+   "moratorium_id": "ia-louisa-county-undated",
+   "outcome": "corrected",
+   "confidence": 0.85,
+   "changes": {
+    "date_enacted": {
+     "from": "First reading of Ordinance 26-2 approved Sept. 1, 2026; second reading approved and third reading waived (voice vote) at a subsequent Board of Supervisors meeting in September 2026, per Citizen Portal's summary of the meeting record. Exact second-reading date not yet confirmed by a dated primary source or named news outlet.",
+     "to": "First reading of Ordinance 26-2 approved Sept. 1, 2026; second reading approved and third reading waived (voice vote) at the Sept. 15, 2026 Board of Supervisors meeting, following a public hearing, per The Hawk Eye/Mississippi Valley Publishing.",
+     "reason": "The Hawk Eye (Mississippi Valley Publishing) independently confirms the Sept. 15, 2026 finalization date, resolving the original researcher's Citizen-Portal-only uncertainty."
+    },
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2026-09-15",
+     "reason": "Named news outlet (The Hawk Eye) states the ordinance was finalized Sept. 15, 2026."
+    },
+    "date_enacted_uncertainty": {
+     "from": "unverified",
+     "to": "exact",
+     "reason": "date_enacted_iso is now a precise YYYY-MM-DD value from a dated news article."
+    },
+    "duration": {
+     "from": "Until zoning develops cryptocurrency mining rules and regulations (per the chair's description); term not published",
+     "to": "180 days from finalization (through approximately 2027-03-14), or until a county ordinance regulating cryptocurrency mining development is enacted, whichever occurs first",
+     "reason": "The Hawk Eye article quotes the ordinance's own term: '180-day delay or until a county ordinance regulating the activity is enacted -- whichever occurs first.'"
+    },
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2027-03-14",
+     "reason": "Computed backstop date: 180 days after the confirmed 2026-09-15 finalization date, per the ordinance's own fixed-term text."
+    },
+    "current_status": {
+     "from": "Likely active as of 2026-09-23: Citizen Portal (an automated local-meeting aggregator) reports the Board approved the second reading of Ordinance 26-2 and waived the third by voice vote, which under the county's own procedure (see ia-louisa-county-2026's Ordinance 26-1) constitutes final passage. This is consistent with the original researcher's note that a Hawk Eye social post indicated adoption. Neither source gives an exact date or full ordinance text, so the enacted_status change rests on a single lower-tier source; flagged for a follow-up pass to pin the exact date and confirm against county minutes or a named outlet before treating this with full confidence.",
+     "to": "Active as of 2026-09-23. The Hawk Eye (Mississippi Valley Publishing) confirms the moratorium was finalized Sept. 15, 2026 when the Board of Supervisors approved the second reading and waived the third reading of Ordinance 26-2, after a public hearing. The article notes the crypto moratorium is expected to eventually be combined with the county's existing data-center moratorium (Ordinance 26-1) into a single Planning and Zoning Commission amendment once current wind-energy amendment work is finished.",
+     "reason": "Replaces the low-confidence, Citizen-Portal-only hedge with confirmation from a named news outlet and removes the 'flagged for follow-up' language accordingly."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://www.mississippivalleypublishing.com/the_hawk_eye/louisa-county-halts-new-crypto-mining-projects/article_34d516a1-700b-412f-8446-72fda794108f.html",
+     "title": "Louisa County halts new crypto mining projects",
+     "publisher": "The Hawk Eye (Mississippi Valley Publishing)",
+     "document_date": "2026-09",
+     "source_type": "news",
+     "supports": "Confirms the exact finalization date (Sept. 15, 2026) of Ordinance 26-2, a 180-day cryptocurrency-mining moratorium (or until a regulating ordinance is enacted, whichever is first), adopted via second reading with the third reading waived after a public hearing.",
+     "quote": "A moratorium on cryptocurrency mining project development was finalized Sept. 15 by the Louisa County Board of Supervisors, following a public hearing that drew only a few comments from local residents who attended the board meeting. The supervisors agreed to approve the second reading and waive the third reading of the moratorium ordinance, which calls for a 180-day delay or until a county ordinance regulating the activity is enacted — whichever occurs first."
+    },
+    {
+     "url": "https://citizenportal.ai/articles/10000071/iowa/louisa-county/board-adopts-second-reading-and-waives-third-on-cryptocurrency-moratorium-ordinance-26-2",
+     "title": "Board adopts second reading and waives third on cryptocurrency moratorium ordinance 26-2",
+     "publisher": "Citizen Portal (automated local-meeting aggregator)",
+     "source_type": "other",
+     "supports": "Corroborates the same Sept. 15, 2026 second-reading/third-reading-waiver action described by The Hawk Eye.",
+     "quote": "Louisa County supervisors approved the second reading and waived the third reading of ordinance 26-2 — a temporary moratorium on cryptocurrency/..."
+    }
+   ],
+   "notes": "The exact date the original researcher flagged as unconfirmed (the Sept. 2026 second-reading meeting) is now confirmed as Sept. 15, 2026 by a named news outlet (The Hawk Eye), resolving the [VERIFY]-style hedge in the prior current_status. Kept duration_kind=until_event unchanged (so duration_days stays empty per the schema's typed rule), but added the 180-day backstop term and a computed current_end_date_iso (2026-09-15 + 180 days = 2027-03-14) since the ordinance's own text gives a fixed maximum in addition to the early-termination trigger."
+  }
+ ]
+}

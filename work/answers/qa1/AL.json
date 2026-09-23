@@ -1,0 +1,278 @@
+{
+  "state_abbrev": "AL",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 QA1",
+  "decisions": [
+    {
+      "moratorium_id": "al-calera-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://caleraal.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1648,plainText=false)",
+          "title": "Calera City Council packet including July 6, 2026 minutes reference",
+          "publisher": "City of Calera",
+          "source_type": "minutes",
+          "supports": "The archived PDF is the July 20, 2026 agenda packet (pages 3-31 came back as blank OCR); it does not actually contain the July 6 minutes text with the moratorium motion, so the quote the original researcher cited cannot be verified from this file.",
+          "quote": "Minutes from Regular Meeting and Work Session — July 6th, 2026"
+        },
+        {
+          "url": "https://citizenportal.ai/articles/9433408/alabama/shelby-county/calera-city/residents-press-council-on-data-centers-council-says-a-moratorium-is-already-in-place",
+          "title": "Residents press council on data centers; council says a moratorium is already in place",
+          "publisher": "Citizen Portal AI",
+          "document_date": "2026-08-17",
+          "source_type": "news",
+          "supports": "Independent secondary source (Aug. 17, 2026) confirms a six-month data-center moratorium was already in force by mid-August, consistent with a July adoption; corroborates duration and existence even though it does not give the exact vote date.",
+          "quote": "Mayor Barry and planning staff responded that a six-month moratorium on data centers was passed earlier and that Planning and Zoning is compiling rules, setbacks and coordination with neighboring municipalities."
+        },
+        {
+          "url": "https://datawrapper.dwcdn.net/rtRdh/15/dataset.csv",
+          "source_type": "news",
+          "supports": "AL.com roundup-map dataset gives Calera's date as 7/6/2026, six months, consistent with the row.",
+          "quote": "Calera,33.1029706,-86.7510282,yes,7/6/2026,6 months"
+        }
+      ],
+      "notes": "quote_mismatch explained: the archived civicclerk PDF is the July 20, 2026 agenda/packet cover, not the July 6 minutes; pages 3-31 returned blank OCR (a scanned-but-not-text pdf), so the cited minutes quote cannot be checked against it — this is an extraction failure, not evidence of fabrication. A second archived file from the same portal (work/sources/AL/89962cd22fc4fb94.md) is the same July 20 agenda listing, also without the moratorium text. I ran an additional search and found an independent secondary source (citizenportal.ai, Aug 17 2026) that confirms a six-month moratorium was already in force by mid-August 2026, and the AL.com roundup dataset agrees on 7/6/2026 and six months. No source contradicts the date. I was not able to independently pull the actual July 6 minutes text within the search budget, so confidence is capped at moderate rather than high."
+    },
+    {
+      "moratorium_id": "al-chelsea-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://www.cityofchelsea.com/AgendaCenter/ViewFile/Minutes/_07212026-393",
+          "source_type": "minutes",
+          "supports": "Official minutes confirm Resolution 2026-07-21-1407 enacting the data-center moratorium was moved, seconded and passed unanimously on July 21, 2026.",
+          "quote": "Resolution 2026-07-21-1407 to enact a moratorium for certain business licenses and building permits was next on the agenda. A motion to enact the moratorium on data centers was made by Casey Morris and seconded by Chris Grace. A voice vote was taken, and it was a unanimous, “Yes”."
+        },
+        {
+          "url": "https://www.shelbycountyreporter.com/news/chelsea-council-passes-moratorium-on-data-centers-rental-communities-6729c2c6/",
+          "source_type": "news",
+          "supports": "Confirms the one-year duration and the July 21, 2026 Tuesday meeting date.",
+          "quote": "The council unanimously approved two resolutions to enact one-year moratoriums on new building permits and business licenses for rental communities, rental units and data centers."
+        }
+      ],
+      "notes": "Row checks out exactly against the official minutes, which name the resolution number, movant/seconder and unanimous vote. No discrepancy found."
+    },
+    {
+      "moratorium_id": "al-helena-2026",
+      "outcome": "unresolvable",
+      "confidence": 0.35,
+      "evidence": [
+        {
+          "url": "https://www.cityofhelena.org/wp-content/uploads/2026/07/ORDINANCE-1043-2026-MORATORIUM.pdf",
+          "source_type": "ordinance",
+          "supports": "Text of Ordinance 1043-2026, a 180-day suspension on gas stations/auto businesses/dealerships/data centers; no adoption date visible in the OCR'd signature page.",
+          "quote": "shall be suspended for 180 days from the effective date of this ordinance"
+        },
+        {
+          "url": "https://www.al.com/business/2026/08/another-birmingham-area-city-approves-a-pause-on-data-centers.html",
+          "source_type": "news",
+          "supports": "Reports the ordinance as approved Monday night (Aug. 10, 2026).",
+          "quote": "During a city council meeting Monday night, Helena’s council members voted for a temporary ban on new or expanding data centers"
+        },
+        {
+          "url": "https://www.wvtm13.com/article/helena-officials-propose-six-month-pause-on-certain-new-businesses/73397833",
+          "source_type": "news",
+          "supports": "Contemporaneous report describes the same Aug. 10 action as only a first reading, with a second reading set for Aug. 24.",
+          "quote": "A first reading of the ordinance was held Monday night. ... A second reading is scheduled for August 24."
+        },
+        {
+          "url": "https://www.shelbycountyreporter.com/news/helena-city-council-holds-first-reading-to-amend-development-moratorium-69b88992",
+          "source_type": "news",
+          "supports": "Sept. 25 [sic, article dated around Aug. 25] article refers to the base instrument as 'Ordinance 1037-2026' with a 100-day term, and quotes a resident saying the restrictions were 'adopted in June' — conflicts with both the ordinance number/duration on file and the Aug. 10/24 timeline in the AL.com/WVTM13 coverage.",
+          "quote": "The amendment to Ordinance 1037-2026 provides exemptions for applications received on or before the effective date of the moratorium... The moratorium temporarily suspends for 100 days the acceptance and permitting..."
+        },
+        {
+          "url": "https://mytownview.com/alabama/shelby/helena/meetings/21622-city-council-2026-08-10",
+          "source_type": "other",
+          "supports": "AI meeting-summary service states Ordinance 1043-2026 was 'rejected' on Aug. 10, 2026, describing it as a moratorium amendment rather than the base ordinance — a third, different account of the same date.",
+          "quote": "The Helena City Council rejected Ordinance 1043-2026, a zoning moratorium amendment that would have allowed a pre-existing gas station application to proceed with a 500-foot buffer."
+        },
+        {
+          "url": "https://abc3340.com/news/local/helena-amends-development-moratorium-clearing-path-for-two-projects-already-in-the-works",
+          "source_type": "news",
+          "supports": "Sept. 2026 article on the 3-1 amendment vote quotes a council member describing the original moratorium as adopted 'back in June,' and the reporter's own text says the two exempted projects had begun 'before the restrictions were adopted in June.'",
+          "quote": "“We drew a line in the sand when we made the moratorium back in June,” Hammann said."
+        }
+      ],
+      "notes": "I cannot reconcile the sources on which instrument, date and duration are actually in force. The archived Ordinance 1043-2026 text (180 days) matches the row's legal_basis and the Sept. 14/15 abc3340 amendment story, which also treats 1043-2026 and 180 days as current — so the row's legal_basis and duration are probably right. But the adoption date is genuinely contested: AL.com reports the ordinance as approved Aug. 10; WVTM13's contemporaneous report says Aug. 10 was only a first reading with a second reading set for Aug. 24; a Shelby County Reporter piece instead calls the base instrument 'Ordinance 1037-2026' with a 100-day (not 180-day) term and quotes a resident referencing 'June'; a mytownview.com AI summary says Ordinance 1043-2026 was 'rejected' on Aug. 10; and the Sept. 2026 amendment coverage has both a council member and the reporter referring to the original moratorium as adopted 'in June.' This is exactly the OLDER_INSTRUMENT risk the coordinator flagged — possibly an earlier June or Aug.-10 instrument that was later re-passed or renumbered as 1043-2026 on some other date — but I could not determine, within the search budget, which account is correct. The row already hedges with month-only precision ('2026-08'), which I think is the right call pending further research; I am not changing any field, only flagging the conflict for the coordinator. verify_resolutions below leaves the existing VERIFY marker in place as still unresolved, now with more (conflicting) detail attached.",
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY details not confirmed at confidence 0.65 in the 2026-09 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "The Sept. 14 amendment (3-1 vote, two projects exempted, data centers still covered) is independently confirmed by two abc3340 articles. But that same reporting introduces a NEW unresolved conflict over the base ordinance's true adoption date and number (Aug. 10 vs Aug. 24 vs 'June'; 1043-2026/180 days vs 1037-2026/100 days). The marker should stay."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "al-springville-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.trussvilletribune.com/2026/07/07/springville-places-one-year-moratorium-on-data-center-proposals/",
+          "source_type": "news",
+          "supports": "Published the day after (July 7) a Monday, July 6, 2026 council vote adopting a one-year moratorium.",
+          "quote": "The city of Springville has imposed a one-year moratorium at its most recent city council meeting Monday, July 6, as the city develops more thorough planning and zoning regulations for similar projects in the future."
+        },
+        {
+          "url": "https://www.wvtm13.com/article/springville-pauses-data-center-proposals-with-one-year-moratorium/71844280",
+          "source_type": "news",
+          "supports": "Second, independent news source corroborating the same one-year pause.",
+          "quote": ""
+        }
+      ],
+      "notes": "Date and duration confirmed by a same-week local report published the morning after the Monday vote — no off-by-a-day risk here since the article itself names the weekday and date together."
+    },
+    {
+      "moratorium_id": "al-anniston-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://www.wbrc.com/2026/08/27/city-anniston-adopts-resolution-that-establishes-temporary-moratorium-data-centers-within-regulatory-jurisdiction/",
+          "source_type": "news",
+          "supports": "Confirms Resolution No. 26-R-97, adopted Aug. 18, 2026, effective immediately, 12-month term with Planning Commission report due within six months.",
+          "quote": "City officials said they adopted Resolution No. 26-R-97 Aug. 18 that establishes a temporary moratorium on the permitting, development, and licensing of data centers within their regulatory jurisdiction."
+        }
+      ],
+      "notes": "Row matches the cited news source exactly on resolution number, date and term."
+    },
+    {
+      "moratorium_id": "al-foley-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://cityoffoley.org/foley-data-center-moratorium/",
+          "source_type": "other",
+          "publisher": "City of Foley",
+          "supports": "Official city release confirms the Sept. 8, 2026 (Tuesday) final-reading vote and six-month term.",
+          "quote": "The Foley City Council voted Tuesday, Sept. 8, to approve the final reading of an ordinance establishing the temporary moratorium. The ordinance is now in effect for six months."
+        },
+        {
+          "url": "https://www.al.com/news/2026/09/foley-joins-alabama-cities-with-temporary-moratorium-on-data-centers.html",
+          "source_type": "news",
+          "supports": "Corroborates the Tuesday vote and six-month term, plus scope (data centers, crypto mining, server farms).",
+          "quote": "Foley is joining a growing list of Alabama cities that have adopted temporary moratoriums on data center development after the City Council voted Tuesday to approve a six-month halt."
+        }
+      ],
+      "notes": "Confirmed by both the city's own release and independent news coverage."
+    },
+    {
+      "moratorium_id": "al-harpersville-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.harpersvilleal.gov/DocumentCenter/View/861/ORD---2026-08-03-03---Data-Center-Moratoriumpdf",
+          "source_type": "ordinance",
+          "supports": "Primary ordinance text, numbered 2026-08-03-03, imposing a six-month moratorium effective on adoption.",
+          "quote": "ORDINANCE 2026-08-03-03 — AN ORDINANCE DECLARING A SIX (6) MONTH MORATORIUM ON DATA CENTERS"
+        },
+        {
+          "url": "https://www.wbrc.com/2026/08/20/harpersville-town-council-approves-6-month-data-center-moratorium/",
+          "source_type": "news",
+          "supports": "Corroborates the six-month term and scope.",
+          "quote": ""
+        }
+      ],
+      "notes": "Ordinance number itself encodes the adoption date (2026-08-03), directly confirming the row. Cleanest confirmation in the packet."
+    },
+    {
+      "moratorium_id": "al-pinson-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://www.al.com/news/2026/08/pinson-enacts-yearlong-data-center-moratorium-as-officials-study-impacts.html",
+          "source_type": "news",
+          "publisher": "AL.com",
+          "document_date": "2026-08-08",
+          "supports": "Confirms the one-year moratorium was enacted 'Thursday night' (Aug. 6, 2026), following a July 16 first reading.",
+          "quote": "Pinson City Council enacted a one-year moratorium on new data center proposals Thursday night."
+        }
+      ],
+      "notes": "Article published Aug. 8 referring to the 'Thursday night' vote (Aug. 6, 2026) matches the row exactly; separately confirms the earlier July 16 first reading the row also cites."
+    },
+    {
+      "moratorium_id": "al-rogersville-undated",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "changes": {
+        "current_status": {
+          "from": "Pending as of 2026-09-23; first reading held in July 2026, not yet voted. The mayor said it is 'on the table' and may be taken up again. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+          "to": "Pending as of 2026-09-23; first reading held in July 2026, not yet voted. A Sept. 18, 2026 AL.com roundup independently confirms the town 'hasn't voted on it yet' and that the mayor called it 'on the table,' so the pending status is current as of this refresh.",
+          "reason": "Second, more recent (Sept. 18, 2026) news source independently confirms no vote has occurred, resolving the VERIFY marker's concern about the pending status resting on stale news-only evidence. Instrument number remains unconfirmed."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.al.com/business/2026/09/data-center-backlash-at-least-17-alabama-cities-pause-development.html",
+          "source_type": "news",
+          "document_date": "2026-09-18",
+          "supports": "Confirms as of Sept. 18, 2026 that Rogersville had a first reading in July but 'hasn't voted on it yet,' and quotes the mayor calling it 'on the table.'",
+          "quote": "The city had its first reading of a proposed six-month moratorium on data centers in July... But Rogersville hasn’t voted on it yet. “It’s on the table,” he said."
+        },
+        {
+          "url": "https://whnt.com/news/shoals/rogersville-looks-to-limit-future-data-centers-as-strain-on-water-system-continues/",
+          "source_type": "news",
+          "supports": "Corroborates the proposal and the town's severe water-capacity constraints as the trigger.",
+          "quote": "Rogersville Considers Moratorium for Data Centers | July 14, 2026"
+        },
+        {
+          "url": "https://www.waff.com/2026/07/11/rogersville-considering-pause-data-center-development-water-system-hits-capacity/",
+          "source_type": "news",
+          "supports": "Original July 11, 2026 report that the town council was considering, not yet adopting, a moratorium.",
+          "quote": "The Rogersville Town Council is considering a moratorium on new data centers within town limits."
+        }
+      ],
+      "notes": "Genuinely still pending as of the reference date — not a stale row. This looks like an ordinary slow-moving small-town item, not an artifact of a roundup misreading an adoption date, since no source anywhere claims Rogersville adopted anything.",
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+          "resolution": "corrected",
+          "note": "The pending status itself is now confirmed by a second, later news source (AL.com, Sept. 18, 2026). The instrument number remains unconfirmed, but since the ordinance has still not been adopted there is no adoption date or instrument number to confirm."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "al-tarrant-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://abc3340.com/news/local/alabama-tarrant-approves-12-month-moratorium-on-data-centers-mayor-tracie-threadford-september-2026",
+          "source_type": "news",
+          "document_date": "2026-09-08",
+          "supports": "Dated Tue., Sept. 8, 2026 report confirming the 12-month moratorium was approved that day.",
+          "quote": "Tue, September 8, 2026 at 9:37 PM"
+        },
+        {
+          "url": "https://www.wbrc.com/2026/09/09/tarrant-passes-1-year-moratorium-data-center-business-licenses/",
+          "source_type": "news",
+          "supports": "Second source confirming the Tuesday council meeting vote and one-year term.",
+          "quote": "At Tuesday’s city council meeting, Tarrant city leaders passed a temporary moratorium against approving business licenses for data centers."
+        }
+      ],
+      "notes": "Two independent, same-week sources confirm the date and term; no discrepancy."
+    },
+    {
+      "moratorium_id": "al-westover-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "url": "https://www.wbrc.com/2026/08/19/westover-approves-6-month-moratorium-data-centers/",
+          "source_type": "news",
+          "supports": "Confirms the unanimous vote at the Tuesday night, Aug. 18, 2026 council meeting.",
+          "quote": "A small city in Shelby County is putting the brakes on any potential data center development... after city leaders heard from concerned neighbors during the city council meeting Tuesday night, Aug. 18."
+        }
+      ],
+      "notes": "Confirmed by a same-week news account naming the weekday and date together."
+    }
+  ]
+}

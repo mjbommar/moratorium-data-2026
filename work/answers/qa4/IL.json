@@ -1,0 +1,96 @@
+{
+  "state_abbrev": "IL",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "il-city-of-troy-2026",
+      "outcome": "unresolvable",
+      "confidence": 0.4,
+      "evidence": [
+        {
+          "url": "https://www.troyil.us/AgendaCenter/ViewFile/Agenda/_09212026-1020",
+          "title": "Troy City Council Agenda, September 21, 2026",
+          "publisher": "City of Troy",
+          "document_date": "2026-09-21",
+          "source_type": "agenda",
+          "supports": "Confirms Ordinance 2026-57 ('An Ordinance Extending the Temporary Moratorium on Data Centers Established by City of Troy Ordinance 2026-24') was on the Sept. 21, 2026 City Council agenda for consideration, item 15.01.",
+          "quote": "Ordinance 2026 - 57 - An Ordinance Extending the Temporary Moratorium on Data Centers Established by City of Troy Ordinance 2026-24"
+        },
+        {
+          "url": "https://www.timestribunenews.com/2026/09/17/troy-planning-commission-approves-data-center-moratorium-extension/",
+          "title": "Troy Planning Commission approves data center moratorium extension",
+          "publisher": "Troy Times Tribune",
+          "document_date": "2026-09-17",
+          "source_type": "news",
+          "supports": "Reports the Planning Commission's 5-0 recommendation to extend the moratorium and that city officials intended, pending Council action, to extend it 'until next March' to watch the state legislature's fall veto session.",
+          "quote": "If the city council agrees later this month and extends the data center moratorium until next March, it will allow city officials to see what plays out in either the state government's veto session"
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE: confirmed the extension ordinance (2026-57) was scheduled for a Sept. 21, 2026 Council vote (two days before this research pass), but minutes/confirmation of that vote were not yet posted to the city's AgendaCenter as of 2026-09-23, and the only reported target end date ('until next March') is not a specific calendar date. Row left unchanged pending posted minutes or news confirming the vote and an exact end date."
+    },
+    {
+      "moratorium_id": "il-ottawa-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-08-25",
+          "reason": "EXTENDED_NO_END_DATE: Shaw Local News Network reports the City Council's Aug. 18/19, 2026 unanimous vote extended the moratorium through a specific date."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.shawlocal.com/illinois-valley/2026/08/20/ottawa-extends-data-center-moratorium-through-august-2027/",
+          "title": "Ottawa extends data center moratorium through August 2027",
+          "publisher": "Shaw Local News Network",
+          "source_type": "news",
+          "supports": "Confirms the moratorium 'applies to all zoning districts within the city and remains in effect through Aug. 25, 2027.'",
+          "quote": "The moratorium applies to all zoning districts within the city and remains in effect through Aug. 25, 2027."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "il-robinson-undated",
+      "outcome": "unresolvable",
+      "confidence": 0.3,
+      "evidence": [
+        {
+          "url": "https://www.hometownregister.com/rob_daily_news/local_news/robinson-solar-farm-moratorium-extended/article_72374c63-8cf4-59c2-89ce-10e27598e5e4.html",
+          "title": "Robinson solar farm moratorium extended",
+          "publisher": "Hometown Register / Robinson Daily News",
+          "document_date": "2026-09-08",
+          "source_type": "news",
+          "supports": "Confirms a further six-month extension of the solar-farm moratorium was voted by the City Council, but gives no vote date, ordinance number, or resulting end date."
+        },
+        {
+          "url": "https://www.hometownregister.com/rob_daily_news/robinson-solar-farm-ban-may-conflict-with-new-state-law/article_4748bcae-7fe3-5b43-b59a-822d7784bdd6.html",
+          "title": "Robinson solar farm ban may conflict with new state law",
+          "publisher": "Hometown Register / Robinson Daily News",
+          "source_type": "news",
+          "supports": "Earlier coverage (prior to the Sept. 2026 extension) shows the moratorium then in place was set to expire around March 24 of that year, providing background on the moratorium's rolling short-term-extension pattern but not the current end date.",
+          "quote": "The Robinson City Council has in place a moratorium that blocks the development of new solar farms within 1.5 miles of the city's corporate limits. However, once that block expires March 24"
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE: both located news articles describe the moratorium and its rolling extensions only in general terms (no vote date, ordinance number, or specific new end date given), consistent with the row's own pre-existing [VERIFY] marker. No operative end date could be established after searching the City of Robinson's own ordinance page and general web search."
+    },
+    {
+      "moratorium_id": "il-woodford-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://wmbdradio.com/2026/08/21/tazewell-county-revisits-data-center-ordinance-woodford-county-passes-moratorium/",
+          "title": "Tazewell County revisits data center ordinance; Woodford County passes moratorium",
+          "publisher": "WMBD Radio / 25 News",
+          "document_date": "2026-08-21",
+          "source_type": "news",
+          "supports": "Full account of the Woodford County Board's action: the moratorium adopted covers only 'data center applications.' A board member's supporting statement separately references the county's past approach to 'wind and solar projects' as a point of comparison for how carefully to proceed, not as part of the moratorium's operative scope.",
+          "quote": "the County Board approved a six-month moratorium on data center applications, with an option for a six-month extension... He said the county should approach the issue diligently, as it has with other large developments, including wind and solar projects."
+        }
+      ],
+      "notes": "SECTOR_CHECK (solar, wind): both mentions of solar/wind in the sourced reporting are a board member's comparison to how the county previously regulated those sectors, not language describing the moratorium's own scope, which is limited to 'data center applications.' Per the process rule, such a comparison/trigger mention does not count, so sectors correctly remains [\"data_center\"]."
+    }
+  ]
+}

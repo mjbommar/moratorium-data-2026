@@ -1,0 +1,132 @@
+{
+  "state_abbrev": "CA",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "ca-baldwin-park-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "45",
+          "reason": "DURATION_MISMATCH: duration_days must be the ORIGINAL term. Council Member Estrada's official announcement confirms the initial urgency ordinance adopted March 4, 2026 was a 45-day moratorium; the April 15, 2026 action added '10 months and 15 days' (bringing the total to roughly one year), which is an extension, not the original term."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.instagram.com/p/DXQP2zvlKM2/",
+          "title": "Council Member Emmanuel J Estrada on Instagram: Baldwin Park data center moratorium announcement",
+          "publisher": "Baldwin Park Council Member Emmanuel J. Estrada (official)",
+          "document_date": "2026-04-15",
+          "source_type": "other",
+          "supports": "Official council-member statement confirming the original March 4, 2026 term was 45 days, extended April 15, 2026 by 10 months 15 days.",
+          "quote": "On March 4, 2026, the City Council adopted a 45-day moratorium on new data centers. On April 15, 2026, we voted to extend that moratorium for an additional 10 months and 15 days."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ca-calipatria-undated",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.calipatria.com/wp-content/uploads/AGN072826.pdf",
+          "title": "Calipatria City Council Agenda, July 28, 2026",
+          "publisher": "City of Calipatria",
+          "document_date": "2026-07-28",
+          "source_type": "agenda",
+          "supports": "No data-center prohibition ordinance item appears on this agenda (only appointment of a representative to the County's Data Center Advisory Committee)."
+        },
+        {
+          "url": "https://www.calipatria.com/wp-content/uploads/AGN081126.pdf",
+          "title": "Calipatria City Council Agenda, August 11, 2026",
+          "publisher": "City of Calipatria",
+          "document_date": "2026-08-11",
+          "source_type": "agenda",
+          "supports": "No data-center ban ordinance item on this agenda; only a council-member presentation on data center locations and Advisory Committee appointment."
+        },
+        {
+          "url": "https://www.calipatria.com/wp-content/uploads/AGN082526.pdf",
+          "title": "Calipatria City Council Agenda, August 25, 2026",
+          "publisher": "City of Calipatria",
+          "document_date": "2026-08-25",
+          "source_type": "agenda",
+          "supports": "No data-center ordinance item on this agenda (action items were a radio-equipment lease resolution, an ADU zoning text amendment, salary adjustments, and a League of CA Cities delegate appointment)."
+        },
+        {
+          "url": "https://www.calipatria.com/wp-content/uploads/AGN090826.pdf",
+          "title": "Calipatria City Council Agenda, September 8, 2026",
+          "publisher": "City of Calipatria",
+          "document_date": "2026-09-08",
+          "source_type": "agenda",
+          "supports": "No data-center ordinance item on this agenda."
+        },
+        {
+          "url": "https://www.calipatria.com/wp-content/uploads/AGN092226.pdf",
+          "title": "Calipatria City Council Agenda, September 22, 2026",
+          "publisher": "City of Calipatria",
+          "document_date": "2026-09-22",
+          "source_type": "agenda",
+          "supports": "No data-center ordinance item on this agenda, the most recent posted before the 2026-09-23 research date."
+        }
+      ],
+      "notes": "DURATION_MISMATCH: duration_days=1825 (five years) correctly reflects the ORIGINAL proposed term from the 2026-05-12 interim-urgency-moratorium proposal, which (per the row's own account) was never brought back for adoption; the city instead pivoted to pursuing a permanent (indefinite) prohibition that also has not been adopted. Per process guidance, since the '5-year' figure is an earlier, abandoned proposal rather than an adopted term, the typed value is left unchanged. Checked all five Calipatria City Council agendas posted between the July 14, 2026 preliminary vote and the 2026-09-23 research date (Jul 28, Aug 11, Aug 25, Sept 8, Sept 22); none contain a data-center prohibition ordinance as an action item, confirming the row's account that the drafted permanent ban has not returned to Council for a final vote. This also refutes a third-party aggregator (aigridwatch.com) claim of 'final adoption Aug 26' for a Calipatria data-center ban, which is not supported by the city's own posted agendas."
+    },
+    {
+      "moratorium_id": "ca-el-monte-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-03-17",
+          "reason": "EXTENDED_NO_END_DATE: computed from the two confirmed statutory dates (initial 45-day term from 2026-03-18 expiring 2026-05-02, plus the 10-month-15-day extension adopted 2026-04-22 running from that expiration), corroborated by the city's own official announcement of the extension running 'through March 2027.'"
+        }
+      },
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://www.instagram.com/p/DYCj8opFGld/",
+          "title": "City of El Monte April 22 City Council meeting recap",
+          "publisher": "City of El Monte (official)",
+          "document_date": "2026-04-22",
+          "source_type": "other",
+          "supports": "Official city statement confirming the April 22, 2026 extension runs 'through March 2027.'",
+          "quote": "The City Council extended the temporary moratorium on new data center applications through March 2027"
+        },
+        {
+          "url": "https://www.ci.el-monte.ca.us/AgendaCenter/ViewFile/Agenda/_03182026-1367",
+          "title": "Concurrent Special Meeting Agenda, March 18, 2026",
+          "publisher": "City of El Monte",
+          "document_date": "2026-03-18",
+          "source_type": "agenda",
+          "supports": "Confirms the initial Interim Urgency Ordinance No. 3063 imposed a 45-day moratorium beginning March 18, 2026, the base date used to compute the extension end date."
+        }
+      ],
+      "notes": "Exact day precision (March 17 vs. a nearby date in March 2027) is calculated, not directly quoted from the extension ordinance's operative section, which was not located in this pass; treat as approximate, consistent with the row's own pre-existing caveat that the date is calculated rather than sourced verbatim."
+    },
+    {
+      "moratorium_id": "ca-patterson-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-07-15",
+          "reason": "EXTENDED_NO_END_DATE: KCRA news coverage of the Aug. 18, 2026 council vote states the specific extension end date."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.kcra.com/article/patterson-extend-data-center-moratorium/73470335",
+          "title": "Patterson extends data center moratorium through July 2027",
+          "publisher": "KCRA",
+          "source_type": "news",
+          "supports": "Confirms the 4-0 vote extending the moratorium through a specific date.",
+          "quote": "The 4-0 vote extends the moratorium through July 15, 2027. The council initially approved a 45-day pause on July 16, 2026."
+        }
+      ]
+    }
+  ]
+}

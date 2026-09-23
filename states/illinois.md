@@ -3,27 +3,29 @@
 
 Every local infrastructure moratorium in the inventory for Illinois, current through **September 23, 2026**.
 
-**27 instruments** — 23 in force, 1 pending, 3 past.
+**31 instruments** — 27 in force, 1 pending, 3 past.
 
 State policy is tracked separately: **11 actions** (11 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | Bourbonnais | Village | 2026-06-15 | data center | 🟢 Active |
-| Catlin | Village | Unverified | solar, wind | ⚪ Replaced |
+| Catlin | Village | 2025-10-07 | solar, wind | ⚪ Replaced |
 | Champaign County | County | 2026-04-23 | data center | 🟢 Active |
 | City of Aurora | City | 2025-09-25 | data center | ⚪ Replaced |
 | City of Bloomington | City | 2026-05-26 | data center | 🟢 Active |
 | City of Carbondale | City | 2026-06-23 | data center | 🟢 Active |
-| City of Collinsville | City | Unverified | data center | 🟢 Active |
+| City of Collinsville | City | 2026-01 | data center | 🟢 Active |
 | City of Effingham | City | 2026-06-02 | cryptocurrency mining, data center | 🟢 Active |
 | City of Troy | City | 2026-03 | data center | 🟢 Extended |
-| City of West Chicago | City | 2026-07-06 | data center, battery storage | 🟢 Active |
+| City of West Chicago | City | 2026-07-20 | data center, battery storage | 🟢 Active |
 | Galesburg | City | 2026-09-21 | data center | 🟢 Active |
+| Henry County | County | 2026-06-18 | data center | 🟢 Active |
 | La Salle County | County | 2026-06-08 | data center | 🟢 Active |
 | Lake County | County | 2026-09-08 | data center | 🟢 Active |
 | Lawrence County | County | 2026-09-17 | data center | 🟢 Active |
 | Lee County | County | 2026-08-20 | data center | 🟢 Active |
+| Lee County | County | 2026-03 | battery storage | 🟢 Active |
 | Logan County | County | 2026-05-19 | data center | 🔴 Rescinded |
 | Macon County | County | Unverified | data center | 🟡 Pending |
 | Mattoon | City | 2026-09-01 | data center | 🟢 Active |
@@ -33,7 +35,9 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 | Robinson | City | Unverified | solar | 🟢 Extended |
 | Rockford | City | 2026-08-03 | data center | 🟢 Active |
 | Sterling | City | 2026-09-08 | data center, battery storage | 🟢 Active |
+| Tazewell County | County | 2026-04-29 | data center | 🟢 Active |
 | Town of Normal | Town | 2026-05-18 | data center | 🟢 Extended |
+| Utica | Village | 2026-04-09 | solar, wind | 🟢 Active |
 | Village of Godfrey | Village | 2026-01-20 | data center | 🟢 Extended |
 | Woodford County | County | 2026-08-18 | data center | 🟢 Active |
 
@@ -59,8 +63,8 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 
 - **Type:** Village
 - **Status:** ⚪ Replaced
-- **Date enacted:** —
-- **Normalized date:** `—` (unverified)
+- **Date enacted:** October 7, 2025 (Catlin Village Council passed a moratorium on new solar energy projects Tuesday evening, per Vermilion County First, 2025-10-09); the Village's own public statement confirms the ordinance runs through April 30, 2026 as first adopted, before later extensions.
+- **Normalized date:** `2025-10-07` (exact)
 - **Duration:** A solar-farm (and later wind/solar) moratorium was repeatedly extended by the Catlin Village Board in roughly 30-day increments during 2026 while the village drafted a permanent solar/wind zoning ordinance (exact original enactment date not found); most recently extended to Aug. 31, 2026. It was superseded by the permanent ordinance in late August 2026.
 - **Current end date:** `—`
 - **Sectors:** solar, wind
@@ -139,8 +143,8 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** N/A
-- **Normalized date:** `—` (unverified)
+- **Date enacted:** Planning Commission recommended a 12-month moratorium 2025-12-11; per the Troy Times Tribune (2025-12-19), city staff planned to present it 'to the city council in January [2026] who will then cast the final vote.' A May 28, 2026 Troy Times Tribune article independently confirms in passing that 'Collinsville approved a year-long moratorium,' consistent with a January 2026 City Council vote. Exact City Council vote date and ordinance number not confirmed; Collinsville's own website and Legistar system returned bot-protection errors to every retrieval attempt.
+- **Normalized date:** `2026-01` (month_only)
 - **Duration:** Proposed 12 months
 - **Current end date:** `—`
 - **Sectors:** data center
@@ -148,7 +152,7 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Legal basis:** Planning Commission matter 5368-2025 / "Data Center Moratorium" — *not enacted*: Collinsville Legistar API search (filter on MatterTitle contains "moratorium", fetched 2026-04-29) returned no City Council moratorium matters since the Planning Commission's December 11, 2025 recommendation; the only follow-up Planning Commission item is matter 5501-2025 "Discussion - Data Center Text Amendment" on 2026-03-12, indicating the city pivoted from a moratorium recommendation to drafting a text amendment instead.
 - **What prompted it:** Planning Commission discussion focused on researching how data centers and related uses should appear in the land-use table and whether supplementary regulations are needed for design, nuisances, and infrastructure strain.
 - **Affected projects:** No pending applications were reported by local coverage at the time of the Planning Commission recommendation.
-- **Detailed status:** Reported as enacted: a May 28, 2026 Troy Times Tribune article states, in the course of describing Troy's own six-month moratorium, that 'Collinsville approved a year-long moratorium.' This indicates the City Council acted on the Planning Commission's December 11, 2025 recommendation at some point before late May 2026. Collinsville's own website (collinsvilleil.org) and Legistar system (both the public site and the webapi.legistar.com/v1/collinsvilleil endpoint) returned bot-protection errors (HTTP 403) or a client-configuration error to every automated retrieval attempt this session, so the ordinance number and exact adoption date could not be independently confirmed.
+- **Detailed status:** Active as of 2026-09-23. A May 28, 2026 Troy Times Tribune article confirms, in passing, that 'Collinsville approved a year-long moratorium,' and the December 19, 2025 Troy Times Tribune report on the Planning Commission's recommendation states staff planned to bring the 12-month moratorium to the City Council 'in January' for the final vote -- together narrowing the City Council's adoption to January 2026. Collinsville's own website (collinsvilleil.org) and Legistar system (both the public site and the webapi.legistar.com/v1/collinsvilleil endpoint) returned bot-protection errors (HTTP 403) or a client-configuration error to every automated retrieval attempt this session, so the exact vote date and ordinance number remain unconfirmed.
 - **Outcome:** Per a May 28, 2026 Troy Times Tribune comparative reference, Collinsville did in fact enact its proposed year-long data center moratorium at some point between the Planning Commission's December 11, 2025 recommendation and late May 2026, despite the Planning Commission's parallel March 2026 discussion of a text amendment. Ordinance number and exact date not independently confirmed this pass.
 
 ### City of Effingham
@@ -187,10 +191,10 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** City Council approved Ordinance 26-O-0011 by a 12-0 vote on 2026-07-06.
-- **Normalized date:** `2026-07-06` (exact)
+- **Date enacted:** 2026-07-20: City Council unanimously approved Ordinance 26-O-0011, a 180-day moratorium on new data centers and battery energy storage systems, per the City's own announcement
+- **Normalized date:** `2026-07-20` (exact)
 - **Duration:** 180-day moratorium on receipt, processing, and final approval of applications and permits for data centers and battery energy storage systems in every zoning district; protects complete pre-effective-date applications and approved permits, includes limited exceptions and a hardship process, and directs staff to present findings within three months. Council may extend or lift it by ordinance.
-- **Current end date:** `—`
+- **Current end date:** `2027-01-16`
 - **Sectors:** data center, battery storage
 - **Moratorium ID:** `il-city-of-west-chicago-2026`
 - **Legal basis:** City of West Chicago Ordinance 26-O-0011
@@ -214,6 +218,22 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Affected projects:** No pending data center applications in Galesburg; city says it received a few informal inquiries.
 - **Detailed status:** Active as of 2026-09-23. No data center application had been received by the city as of adoption. Council could extend the moratorium, let it lapse, or pursue a longer-term limiting/banning ordinance (which would require additional planning/zoning process).
 - **Outcome:** Moratorium adopted preemptively while the city studies infrastructure, energy, environmental, and waste impacts of data centers.
+
+### Henry County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** June 18, 2026 (County Board meeting)
+- **Normalized date:** `2026-06-18` (exact)
+- **Duration:** 12 months from the effective date, or until the County Board takes further action, whichever occurs first
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `il-henry-county-2026`
+- **Legal basis:** County Board resolution establishing a temporary moratorium on new data center projects
+- **What prompted it:** Public health/safety, groundwater protection, agricultural land/soil productivity, infrastructure impacts
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23; 12-month moratorium on new data center proposals in unincorporated Henry County, approved by the County Board on 2026-06-18 alongside a parallel resolution pausing new carbon-sequestration projects.
+- **Outcome:** Adopted
 
 ### La Salle County
 
@@ -278,6 +298,22 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Affected projects:** None; no complete or active TOD petition was pending before the county as of the resolution's passage.
 - **Detailed status:** Active as of 2026-09-23; runs through November 19, 2026 per the resolution. No TOD petitions are pending, per the county's own petition-tracking page.
 - **Outcome:** Pauses new Technology Overlay District applications while the county reviews and considers amendments to its TOD zoning regulations.
+
+### Lee County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** March 2026 (County Board meeting; exact date not confirmed)
+- **Normalized date:** `2026-03` (month_only)
+- **Duration:** Until the state issues implementing regulations under Public Act 104-0458
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `il-lee-county-2026-2`
+- **Legal basis:** County Board resolution placing a moratorium on energy-storage projects pending state implementing regulations under Public Act 104-0458
+- **What prompted it:** Awaiting state implementing regulations for utility-scale energy storage siting under PA 104-0458
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23 (last confirmed action); County Board approved a resolution pausing energy-storage project approvals until the state issues implementing regulations under Public Act 104-0458, while the county's own public hearing process for local standards proceeds. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** Adopted
 
 ### Logan County
 
@@ -350,7 +386,7 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Date enacted:** Original 180-day moratorium established by City Council ordinance on approximately 2026-03-03; unanimously extended by the City Council on 2026-08-18 through August 25, 2027.
 - **Normalized date:** `2026-03-03` (unverified)
 - **Duration:** Moratorium on data centers in all zoning districts within the city; originally 180 days from March 2026, unanimously extended on 2026-08-18 to run through August 25, 2027, citing continued state inaction on the POWER Act.
-- **Current end date:** `—`
+- **Current end date:** `2027-08-25`
 - **Sectors:** data center
 - **Moratorium ID:** `il-ottawa-2026`
 - **Legal basis:** City of Ottawa ordinance establishing and later extending a data center moratorium (specific ordinance numbers not published in sources reviewed)
@@ -423,6 +459,22 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Detailed status:** Active as of 2026-09-23. The Sterling Plan Commission was scheduled to discuss data centers, BESS facilities, and possible comprehensive-plan amendments at a meeting moved to Sept. 24, 2026.
 - **Outcome:** Moratorium buys time for city staff to develop a formal ordinance and plan for responding to BESS and data center development requests.
 
+### Tazewell County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** April 29, 2026 (zoning code amendment)
+- **Normalized date:** `2026-04-29` (exact)
+- **Duration:** Until a data center zoning ordinance is adopted
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `il-tazewell-county-2026`
+- **Legal basis:** Zoning code amendment prohibiting any land use not explicitly allowed under the code or by supplemental ordinance, adopted 2026-04-29
+- **What prompted it:** No zoning category for data centers; board wants a data center ordinance in place before allowing applications
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23; a April 29, 2026 zoning code amendment functions as a de facto pause on data center applications ('It's a moratorium without calling it a moratorium,' per county Community Development staff) while a data center ordinance is drafted. Separately, the Land Use Committee recommended a formal 9-month moratorium on 2026-09-09, which as of 2026-09-23 was awaiting a Zoning Board of Appeals public hearing and had not gone to the full County Board for a final vote. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** De facto pause adopted; formal fixed-term moratorium still pending
+
 ### Town of Normal
 
 - **Type:** Town
@@ -438,6 +490,22 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Affected projects:** No data center applications had been received by the town as of the vote.
 - **Detailed status:** Extended and active as of 2026-09-23. The Town Council voted 6-1 on 2026-09-21 to extend the moratorium on data-center applications through May 31, 2027, so that any town regulations can be developed after the state legislature acts (or fails to act) on data-center legislation such as the POWER Act.
 - **Outcome:** —
+
+### Utica
+
+- **Type:** Village
+- **Status:** 🟢 Active
+- **Date enacted:** April 9, 2026 (extension vote, 5-0); original enactment date not confirmed
+- **Normalized date:** `2026-04-09` (exact)
+- **Duration:** Extended; fixed end date not confirmed
+- **Current end date:** `—`
+- **Sectors:** solar, wind
+- **Moratorium ID:** `il-utica-2026`
+- **Legal basis:** Village Board vote (5-0) extending the existing moratorium on solar and wind farm permits; ordinance number not confirmed
+- **What prompted it:** Awaiting outcome of state legislative session on municipal authority over green-energy siting
+- **Affected projects:** —
+- **Detailed status:** Active as of 2026-09-23 (last confirmed action); Village Board voted 5-0 on 2026-04-09 to extend its existing moratorium on solar and wind farm development permits (residential solar exempt); the village asserts home-rule authority is unaffected by Illinois Public Act 104-0458. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** Extended
 
 ### Village of Godfrey
 

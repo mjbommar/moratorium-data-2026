@@ -1,0 +1,24 @@
+{
+  "state_abbrev": "MD",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "md-baltimore-city-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://codes.baltimorecity.gov/us/md/cities/baltimore/ordinances/2026/enacted/26-128.pdf",
+          "title": "Ord. 26-128, Data Centers – Moratorium (enacted text, Council Bill 26-0158)",
+          "publisher": "City of Baltimore",
+          "document_date": "2026-06-16",
+          "source_type": "ordinance",
+          "supports": "Section 4 states the ordinance 'shall remain in effect for a period of 1 year following the effective date' (i.e., the original enacted term is one year = 365 days); Section 5 states the ordinance 'takes effect 30 days after it is enacted' (the 30-day figure is the delay before the term starts, not the term's length).",
+          "quote": "SECTION 4. AND BE IT FURTHER ORDAINED, That this Ordinance shall remain in effect for a period of 1 year following the effective date, at which time and with no further action required by the City Council, this Ordinance shall be abrogated and of no further force and effect. SECTION 5. AND BE IT FURTHER ORDAINED, That this Ordinance takes effect 30 days after it is enacted."
+        }
+      ],
+      "notes": "DURATION_MISMATCH resolved: the row's duration text leads with '30 days after its effective date' before the one-year term, which is what trips the deterministic day-count check; the enacted ordinance itself (Section 4) confirms the ORIGINAL term is 1 year (365 days) running from the effective date, and the 30 days (Section 5) is only the delay between enactment (2026-05-11/06-16 signing) and the effective date (2026-07-16), not a duration. duration_days=365 was already correct; current_end_date_iso=2027-07-16 (365 days after the 2026-07-16 effective date) also checks out. No change."
+    }
+  ]
+}

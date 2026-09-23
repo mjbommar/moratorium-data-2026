@@ -1,0 +1,297 @@
+{
+  "state_abbrev": "IA",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA4",
+  "decisions": [
+    {
+      "moratorium_id": "ia-adair-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "sectors": {
+          "from": "[\"data_center\"]",
+          "to": "[\"data_center\",\"battery_storage\"]",
+          "reason": "The archived full text of Resolution #2026-26, as read into the record and reported by the Atlantic News-Telegraph, resolves that the Board 'does hereby establish and impose a temporary moratorium on the construction of data centers, high-density computing facilities, and battery storage facilities in the unincorporated areas of Adair County.' Battery storage is part of the operative moratorium, not just a trigger."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.swiowanewssource.com/atlantic/article_c8707809-512e-4f49-aae4-35a83cb29758.html",
+          "title": "Supervisors set public hearing on data centers",
+          "publisher": "SW Iowa News Source (Atlantic News-Telegraph)",
+          "source_type": "news",
+          "supports": "Quotes the full text of Resolution #2026-26 as read into the record, including the operative resolve clause imposing the moratorium on data centers, high-density computing facilities, AND battery storage facilities.",
+          "quote": "the Board does hereby establish and impose a temporary moratorium on the construction of data centers against the computing facilities and battery storage facilities in the unincorporated areas of Adair County."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved: battery storage is expressly in the resolution's operative scope, so sectors gains battery_storage."
+    },
+    {
+      "moratorium_id": "ia-audubon-county-2025",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-05-01",
+          "reason": "Resolution 2026-25 (adopted 2026-05-05) extends the BESS moratorium 'effective immediately and until May 1, 2027; or until passage of a permanent Utility Scale BESS Development ordinance.'"
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.auduboncountyia.gov/webres/File/BOS%20Minutes%202026/5-5-26%20BOS%20Minutes.pdf",
+          "title": "Audubon County Board of Supervisors Minutes, May 5, 2026",
+          "publisher": "Audubon County, Iowa",
+          "document_date": "2026-05-05",
+          "source_type": "minutes",
+          "supports": "Full text of Resolution 2026-25 extending the utility-scale BESS moratorium to May 1, 2027 or earlier ordinance passage.",
+          "quote": "now imposes a temporary moratorium on accepting or processing any applications for the construction of utility-scale BESS, effective immediately and until May 1, 2027; or until passage of a permanent Utility Scale BESS"
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved: 2027-05-01."
+    },
+    {
+      "moratorium_id": "ia-cherokee-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://themarcusnews.com/2026/04/11/cherokee-county-board-of-supervisors-meeting-143/",
+          "title": "Cherokee County Board of Supervisors Meeting",
+          "publisher": "The Marcus News",
+          "source_type": "minutes",
+          "supports": "Full text of Resolution #2026-10 shows its operative scope covers only battery storage projects; no mention of solar.",
+          "quote": "The board hereby establishes an indefinite moratorium on the acceptance, review, or approval of any applications or permits for new battery storage projects within Cherokee County"
+        },
+        {
+          "url": "https://www.stormlake.com/stories/cherokee-county-overturns-solar-battery-moratorium,213569",
+          "title": "Cherokee County overturns solar battery moratorium",
+          "publisher": "Storm Lake Times Pilot",
+          "document_date": "2026-08-26",
+          "source_type": "news",
+          "supports": "Confirms the board overturned the battery-storage moratorium and replaced it with an ordinance enabling a 30 MW solar array -- the solar project is what the REPLACEMENT ordinance enables, not something the original moratorium regulated.",
+          "quote": "The Cherokee County Board of Supervisors overturned a moratorium on solar batteries and replaced it with an ordinance that makes possible a 30-megawatt solar array"
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: solar is mentioned only in connection with the replacement ordinance that followed repeal of the moratorium, not the moratorium's own operative scope (battery storage only). sectors stays [\"battery_storage\"]."
+    },
+    {
+      "moratorium_id": "ia-floyd-county-2023",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-12-29",
+          "reason": "Supervisors unanimously extended the BESS moratorium on 2026-09-15 to run 'through December 29, 2026, unless supervisors modify or repeal it earlier.'"
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://northiowatoday.com/2026/09/22/floyd-county-extends-battery-storage-moratorium-advances-road-projects-and-nora-springs-shop-plans/",
+          "title": "Floyd County extends battery storage moratorium, advances road projects and Nora Springs shop plans",
+          "publisher": "NorthIowaToday.com",
+          "document_date": "2026-09-22",
+          "source_type": "news",
+          "supports": "The BESS moratorium was extended through December 29, 2026 at the September 15, 2026 meeting.",
+          "quote": "The moratorium will now remain in effect through December 29, 2026, unless supervisors modify or repeal it earlier."
+        },
+        {
+          "url": "https://kchanews.com/2026/01/23/floyd-county-supervisors-extend-bess-moratorium-in-place/",
+          "title": "Floyd County Supervisors Extend BESS Moratorium In Place",
+          "publisher": "KCHA News",
+          "document_date": "2026-01-23",
+          "source_type": "news",
+          "supports": "Confirms the original November 2023 moratorium covered both wind permits and BESS jointly, but the county passed a separate wind ordinance on 2026-01-06 that ended the wind moratorium; only BESS continued under a moratorium (Res #04-26, extended to Aug. 4, 2026, then Sept. 2026 to Dec. 29, 2026).",
+          "quote": "At that time a moratorium on wind permits and applications was enacted, which also applied to BESS applications and permits. However, during the process of hammering out the wind ordinance, BESS were never addressed. Thus, Supervisors agreed that a separate ordinance should be developed. ... Supervisors approved the new wind ordinance on a 2-1 vote on January 6th"
+        },
+        {
+          "url": "https://www.floydcoia.org/AgendaCenter/ViewFile/Minutes/_01202026-1577",
+          "title": "Floyd County Board of Supervisors Minutes, Jan. 20, 2026",
+          "publisher": "Floyd County, Iowa",
+          "document_date": "2026-01-20",
+          "source_type": "minutes",
+          "supports": "Resolution #04-26 text extends only the 'Moratorium on Battery Energy Storage System (BESS)'; no wind provision.",
+          "quote": "Rottinghaus/Campbell moved to approve Res #04-26 Moratorium on Battery Energy Storage System (BESS): The Board extends the moratorium on accepting or approving applications or issuing permits for Battery Energy Storage System installations until August 4, 2026."
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved (2026-12-29). SECTOR_CHECK resolved as no change: the original 2023 instrument covered wind too, but wind was moved to a standalone ordinance in January 2026 and dropped from the moratorium being extended; the currently-extended moratorium (Res #04-26 and its September 2026 renewal) is BESS-only, so sectors correctly stays [\"battery_storage\"]."
+    },
+    {
+      "moratorium_id": "ia-henry-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.mississippivalleypublishing.com/the_hawk_eye/henry-county-places-moratorium-on-ai-data-centers-data-mines-and-battery-storage-facilities-from/article_f5979505-c41a-4c57-8ad9-c400353207f1.html",
+          "title": "Henry County places moratorium on AI data centers, data mines and battery storage facilities from locating in county",
+          "publisher": "The Hawk Eye (Mississippi Valley Publishing)",
+          "source_type": "news",
+          "supports": "The moratorium covers AI data centers, data mines (cryptocurrency mining), and battery energy storage systems; solar and wind are described as a separate, later ordinance track, not covered by this moratorium.",
+          "quote": "The Henry County Board of Supervisors placed a moratorium on siting (location) applications to the county to construct AI data centers, data mines and battery energy storage systems ... Discussion on the facilities will be included with further discussion on solar and wind energy ordinances later this year."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: solar is explicitly a separate, future ordinance track, not part of this moratorium's operative scope. sectors stays [\"data_center\",\"cryptocurrency_mining\",\"battery_storage\"]."
+    },
+    {
+      "moratorium_id": "ia-louisa-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.kciiradio.com/2026/09/07/louisa-county-supervisors-approve-first-reading-of-cryptomining-ordinance-in-latest-meeting/",
+          "title": "Louisa County Supervisors Approve First Reading of Cryptomining Ordinance in Latest Meeting",
+          "publisher": "KCII Radio",
+          "document_date": "2026-09-07",
+          "source_type": "news",
+          "supports": "Board Chair's own description confirms Ordinance 26-1 (data centers, this row) and Ordinance 26-2 (cryptocurrency mining) are two distinct instruments.",
+          "quote": "Previously, the board approved ordinance 26-1, an 18-month moratorium on data center development in unincorporated areas of Louisa County. That ordinance will be in place until zoning is established."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: cryptocurrency mining is regulated by the separate Ordinance 26-2 (see ia-louisa-county-undated), not this data-center moratorium. sectors stays [\"data_center\"]."
+    },
+    {
+      "moratorium_id": "ia-louisa-county-undated",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.kciiradio.com/2026/09/07/louisa-county-supervisors-approve-first-reading-of-cryptomining-ordinance-in-latest-meeting/",
+          "title": "Louisa County Supervisors Approve First Reading of Cryptomining Ordinance in Latest Meeting",
+          "publisher": "KCII Radio",
+          "document_date": "2026-09-07",
+          "source_type": "news",
+          "supports": "The Board Chair's own description of Ordinance 26-2's operative scope is limited to cryptocurrency mining permit applications, distinct from the separate data-center moratorium (Ordinance 26-1).",
+          "quote": "This is a moratorium on new permit applications for development of cryptocurrency mining projects within the unincorporated area of Louisa County. Basically, it will not allow any permits to be issued until zoning has had time to develop their rules and regulations concerning the construction of cryptocurrency mining [facilities]."
+        },
+        {
+          "url": "https://citizenportal.ai/articles/10000071/iowa/louisa-county/board-adopts-second-reading-and-waives-third-on-cryptocurrency-moratorium-ordinance-26-2",
+          "title": "Board adopts second reading and waives third on cryptocurrency moratorium ordinance 26-2",
+          "publisher": "citizenportal.ai",
+          "source_type": "news",
+          "supports": "Reports the loose phrase 'cryptocurrency/data center development' for Ordinance 26-2, which is an aggregator paraphrase, not the ordinance's own language; the more specific, named-outlet source (KCII, above) gives the Chair's precise description limiting it to cryptocurrency mining.",
+          "quote": "a temporary moratorium on cryptocurrency/data center development"
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: 'data center' appears only in a loose aggregator paraphrase; the named-outlet source with the Chair's own description confirms Ordinance 26-2 covers cryptocurrency mining only (data centers are handled by the separate Ordinance 26-1). sectors stays [\"cryptocurrency_mining\"]."
+    },
+    {
+      "moratorium_id": "ia-mitchell-county-2025",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://northiowatoday.com/2026/08/26/mitchell-county-supervisors-approve-100000-server-project-hire-zoning-administrator-and-prepare-to-replace-sheriffs-k9/",
+          "title": "Mitchell County supervisors approve $100,000 server project, hire zoning administrator and prepare to replace sheriff's K9",
+          "publisher": "NorthIowaToday.com",
+          "document_date": "2026-08-26",
+          "source_type": "news",
+          "supports": "Confirms the county's solar ordinance is a separate, prior-in-line drafting project (NIACOG's John Robbins would finish the solar ordinance before starting the data-center ordinance); it is not part of the existing data-center moratorium's scope.",
+          "quote": "Marzen said John Robbins of the North Iowa Area Council of Governments was completing a final draft of the county's solar ordinance and would then begin work on a data-center ordinance."
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: solar is a separate ordinance-drafting track, not part of Resolution #1336-25's scope. sectors stays [\"data_center\"]."
+    },
+    {
+      "moratorium_id": "ia-palo-alto-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://paloaltocounty.iowa.gov/wp-content/uploads/2026/07/Minutes-7-7-2026.pdf",
+          "title": "Palo Alto County Board of Supervisors Minutes, July 7-8, 2026 (Resolution No. 7-8-2026)",
+          "publisher": "Palo Alto County, Iowa",
+          "document_date": "2026-07-08",
+          "source_type": "resolution",
+          "supports": "Full resolution text: the moratorium covers 'all classes of data centers'; no mention of cryptocurrency or data mining facilities.",
+          "quote": "A RESOLUTION OF THE PALO ALTO COUNTY SUPERVISORS APPROVING A MORATORIUM ON THE ACCEPTANCE, PROCESSING, AND APPROVAL OF APPLICATIONS FOR ALL CLASSES OF DATA CENTERS WITHIN THE UNINCORPORATED AREAS OF PALO ALTO COUNTY"
+        },
+        {
+          "url": "https://paloaltocounty.iowa.gov/wp-content/uploads/2026/03/Minutes-3-10-2026-1.pdf",
+          "title": "Palo Alto County Board of Supervisors Minutes, March 10, 2026 (Resolution No. 3-10-2026)",
+          "publisher": "Palo Alto County, Iowa",
+          "document_date": "2026-03-10",
+          "source_type": "resolution",
+          "supports": "Confirms the cryptocurrency/data mining moratorium is a separate instrument (Resolution 6-3-2025, extended by 3-10-2026), distinct from the July 2026 all-classes data center moratorium.",
+          "quote": "A RESOLUTION EXTENDING A TEMPORARY MORATORIUM ON CRYPTOCURRENCY AND DATA MINING FACILITIES"
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: cryptocurrency mining is covered by the separate resolution 6-3-2025/3-10-2026 (row ia-palo-alto-county-2025), not this all-classes data-center resolution. sectors stays [\"data_center\"]."
+    },
+    {
+      "moratorium_id": "ia-palo-alto-county-2025",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-04-01",
+          "reason": "Resolution No. 3-10-2026 extends the cryptocurrency/data mining moratorium originally imposed by Resolution 6-3-2025 'to now expire on April 1, 2027, or upon passing of an ordinance ... whichever comes first.'"
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://paloaltocounty.iowa.gov/wp-content/uploads/2026/03/Minutes-3-10-2026-1.pdf",
+          "title": "Palo Alto County Board of Supervisors Minutes, March 10, 2026 (Resolution No. 3-10-2026)",
+          "publisher": "Palo Alto County, Iowa",
+          "document_date": "2026-03-10",
+          "source_type": "resolution",
+          "supports": "Full resolution text: extends the cryptocurrency and data mining facilities moratorium to April 1, 2027, or earlier ordinance; the motion line loosely called it 'data mining & Battery Storage Systems moratorium,' but the resolution's title and operative text cover only cryptocurrency and data mining facilities -- no battery storage or data center language appears.",
+          "quote": "RESOLVES to extend the temporary moratorium passed by resolution on June 3, 2025, (Resolution 6-3-2025) on the development and construction of Cryptocurrency and Data Mining Facilities ... passed to now expire on April 1, 2027"
+        }
+      ],
+      "notes": "EXTENDED_NO_END_DATE resolved (2027-04-01). SECTOR_CHECK resolved as no change: the resolution's own text covers cryptocurrency/data mining only; 'data center' in current_status refers to the row's own note distinguishing this from the separate July 2026 all-classes data-center moratorium (ia-palo-alto-county-2026), confirmed by the primary source above. sectors stays [\"cryptocurrency_mining\"]."
+    },
+    {
+      "moratorium_id": "ia-palo-alto-county-2025-2",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://paloaltocounty.iowa.gov/wp-content/uploads/2026/02/Minutes-2-10-2026.pdf",
+          "title": "Palo Alto County Board of Supervisors Minutes, Feb. 10, 2026 (Resolution No. 2-10-2026)",
+          "publisher": "Palo Alto County, Iowa",
+          "document_date": "2026-02-10",
+          "source_type": "resolution",
+          "supports": "Full resolution text of the BESS moratorium renewal, effective until February 1, 2027; no mention of cryptocurrency anywhere in the operative text.",
+          "quote": "RESOLVES to establish and impose a temporary moratorium on the development and construction of Battery Energy Storage Systems, and on the application for permits relating to such development and construction of Battery Energy Storage Systems effective immediately and until to February 1, 2027"
+        },
+        {
+          "url": "https://paloaltocounty.iowa.gov/wp-content/uploads/2026/03/Minutes-3-10-2026-1.pdf",
+          "title": "Palo Alto County Board of Supervisors Minutes, March 10, 2026 (Resolution No. 3-10-2026)",
+          "publisher": "Palo Alto County, Iowa",
+          "document_date": "2026-03-10",
+          "source_type": "resolution",
+          "supports": "Confirms the March 10, 2026 resolution (whose motion line was ambiguously worded 'data mining & Battery Storage Systems moratorium') is actually titled and operatively limited to cryptocurrency and data mining facilities, a different resolution/instrument than this BESS moratorium.",
+          "quote": "A RESOLUTION EXTENDING A TEMPORARY MORATORIUM ON CRYPTOCURRENCY AND DATA MINING FACILITIES"
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change, now confirmed against primary sources: crypto is covered by the separate cryptocurrency/data-mining resolution (ia-palo-alto-county-2025), not the BESS resolution. sectors stays [\"battery_storage\"]."
+    },
+    {
+      "moratorium_id": "ia-taylor-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://taylorcounty.iowa.gov/wp-content/uploads/2026/07/Ordinance-40-Data-Solar-Moratorium-Final.pdf",
+          "title": "Taylor County Ordinance #40 (Temporary Development Moratorium Ordinance), final",
+          "publisher": "Taylor County, Iowa",
+          "document_date": "2026-07-30",
+          "source_type": "ordinance",
+          "supports": "The full ordinance text (data center, solar energy system, BESS, mineral right development) contains no mention of wind.",
+          "quote": ""
+        },
+        {
+          "url": "https://www.kmaland.com/news/taylor-county-board-backs-permit-application-for-black-maple-wind-project/article_3cd6c5f7-130f-4b72-87d7-ed94ddf3e03a.html",
+          "title": "Taylor County board backs permit application for Black Maple Wind project",
+          "publisher": "KMAland",
+          "source_type": "news",
+          "supports": "Confirms the Board approved a wind-energy conditional-use permit application (Black Maple Wind) while Ordinance #40's moratorium was in effect, showing wind was not paused by the moratorium.",
+          "quote": ""
+        }
+      ],
+      "notes": "SECTOR_CHECK resolved as no change: wind does not appear anywhere in Ordinance #40's text, and the county continued approving wind permit applications after the ordinance took effect. sectors stays [\"data_center\",\"solar\",\"battery_storage\"]."
+    }
+  ]
+}

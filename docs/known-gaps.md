@@ -6,7 +6,7 @@ We're confident in what's in this dataset, but here's an honest accounting of wh
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **214 of the 1053 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`), down from 123 of 222 in v2026.04.4 after a targeted verification pass.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **300 of the 1291 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`), down from 123 of 222 in v2026.04.4 after a targeted verification pass.
 
 ### Records behind authentication or CAPTCHA gates
 
@@ -45,31 +45,49 @@ The machine-readable record is `data/sweep_coverage.json`, derived by
 `scripts/update_sweep_coverage.py` and mirrored into `summary_stats.json` under
 `sweep_coverage`.
 
-### Coverage of the August–September 2026 pass (2026-09-23)
+### Coverage of the August–September 2026 pass and its QA (2026-09-23)
 
 Every state was searched for new instruments on 2026-09-23, sector by sector,
-and 520 were added, so the inventory is far more complete for August and
-September than any earlier month outside the sweep window. But this was a
-**discovery search, not a month-by-month sweep**: an agent searched a state as
-a whole rather than each month in turn, and small jurisdictions whose only
-record is a Facebook post or a paywalled weekly can still be missed. Treat
-August–September counts as lower bounds, and the May–July window as the only
-one where absence is a finding. `data/sweep_coverage.json` records the pass under
-`discovery_passes`, separate from the systematic `windows`, with that caveat. Three states have no local instrument
-after this search: Hawaii, West Virginia (state law HB 2014 preempts local
-regulation of large data centers), and Wyoming (Cheyenne rejected its proposal).
+and four QA rounds followed the same day, including a cross-check against nine
+public trackers in both directions. The inventory is now far more complete for
+August and September than for any earlier month outside the sweep window. It
+was a **discovery search, not a month-by-month sweep**, so treat
+August–September counts as lower bounds; the May–July window remains the only
+one where absence is a finding. `data/sweep_coverage.json` records the pass
+under `discovery_passes`, separate from the systematic `windows`.
+
+**The May–July sweep was less complete than it claimed.** The discovery pass
+added 161 instruments adopted inside that window, and the QA audit confirmed
+them as real, dated by their own adoption votes. Most are townships and
+villages in Ohio and Michigan, where the month-by-month sweep reached counties
+and cities but not the smallest bodies. The statement above that May–July
+counts are "not coverage-limited" should be read with that correction.
+
+**Battery storage, solar and wind are covered unevenly.** Until the QA pass the
+inventory held battery-storage and renewable moratoria only when they were
+bundled with a data-center pause. The QA added 127 New York town and village
+local laws (mostly battery storage) and about 20 elsewhere, from two
+battery-storage trackers. Other states' standalone battery, solar and wind
+moratoria have not been swept the same way, so their counts are lower bounds,
+and 20 tracker listings in that category were not individually researched.
+
+**Three states have no local instrument** after these searches: Hawaii, West
+Virginia (state law HB 2014 preempts local regulation of large data centers),
+and Wyoming (Cheyenne rejected its proposal).
 
 ### Extension and rescission events after the cutoff
 
 Any moratorium extended, replaced, or rescinded after **2026-09-23** won't be
-reflected until the next release. In this pass we re-researched every row whose
-recorded term had provably expired, every extension without a recorded end
-date, every pending row older than 60 days, and every row carrying a `[VERIFY]`
-marker, so the backlog of stale statuses is cleared as of the snapshot date. 899
-instruments are currently in force and many carry sunsets in the next few
-months; five in-force rows (Appling County GA, Cedartown GA, Waterford Township
-MI, Seward County NE, East Whiteland Township PA) had already passed their
-computed expiry without an extension we could locate.
+reflected until the next release. This pass re-researched every row whose
+recorded term had expired, every extension without a recorded end date, every
+pending row older than 60 days, and every row carrying a `[VERIFY]` marker.
+1063 instruments are currently in force and many carry sunsets in the next few
+months. The validator lists eleven in-force rows as `status.drift`. Eight
+(Cedartown GA and seven New York towns) have passed their term with no
+extension, replacement or lapse we could document, and each carries a
+`[VERIFY]` marker. The other three were checked and are correct: Waterford
+Township MI and East Whiteland Township PA have votes scheduled days after the
+cutoff, and Westfield NY was confirmed from its own minutes.
 
 ### Disagreement with a sibling dataset (added v2026.07)
 
@@ -142,7 +160,7 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Geocoding caveats (added v2026.04.2)
 
-1051 of 1053 instruments are geocoded to WGS84 lat/lon via OSM Nominatim. The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
+1289 of 1291 instruments are geocoded to WGS84 lat/lon via OSM Nominatim. The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
 
 **Within-state name ambiguity.** Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:
 
@@ -182,6 +200,20 @@ geocoder should handle.
 **Audit confidence.** Geocoded coordinates were triple-checked across 89 verifications via three independent methods: spot-check against geographic knowledge, Wikipedia GeoSearch reverse-lookup (does the jurisdiction's name appear in nearby Wikipedia pages?), and nearby-page context analysis (when a township has no Wikipedia article, do nearby places confirm the right county?). Across all 89 verifications, **zero confirmed wrong geocodes** (after the 4 manual corrections above). Treat the lat/lon column as ≥99% accurate.
 
 When new releases add new same-name townships, expect a small number of similar issues until the geocoder catches up.
+
+
+**The September 2026 QA found the problem at scale and fixed its cause.**
+`geocode_inventory.py` stripped a jurisdiction's parenthetical county
+("Washington Township (Stark County)") before querying, so every same-name
+township was geocoded as if unqualified. A reverse-geocode check of all
+county-qualified rows found 26 in the wrong county, and a second pass over
+unqualified township names found 10 more plus Caledonia Township, MI: 37 rows
+in all, including several pre-existing ones (Calhoun GA, Jackson Township OH,
+Richfield Township OH, Scioto Township OH, Warrington Township PA). The
+geocoder now queries the county-qualified name first; the ambiguous rows were
+renamed with their county, and the remainder carry declared overrides in
+`scripts/apply_geo_overrides.py`. The 243 rows added by the QA were
+reverse-geocoded against their named county with no mismatches.
 
 ## What gets fixed in each release
 

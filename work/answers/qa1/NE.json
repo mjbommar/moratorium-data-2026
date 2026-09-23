@@ -1,0 +1,161 @@
+{
+  "state_abbrev": "NE",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA1",
+  "decisions": [
+    {
+      "moratorium_id": "ne-butler-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://butlercountyne.gov/wp-content/uploads/sites/29/2026/03/BOS-Minutes-03.16.26-Public-Hearing-Special-Mtg.pdf",
+          "source_type": "minutes",
+          "supports": "Primary-source minutes of the March 16, 2026 public hearing/special meeting and the Board's 4-1 roll-call vote adopting Resolution 2026-07.",
+          "quote": "Moved by Griess, seconded by Vandenberg, to approve Resolution 2026-07, mirroring the Planning Commission's Resolution 2026-04, but striking the verbiage excluding projects under construction. Upon roll call vote the following voted: Aye: Griess, Vandenberg, Bauer, Steager. Nay: Krafka."
+        },
+        {
+          "url": "https://flatwaterfreepress.org/amid-renewable-energy-backlash-some-nebraska-communities-are-making-millions/",
+          "source_type": "news",
+          "supports": "Confirms the 9-month term, multi-sector scope, and the later exemption of the Sandhills Energy solar project after a litigation threat.",
+          "quote": "Back in March, Butler County, which has no zoning, put a nine-month moratorium on renewable energy developments, data centers and landfills."
+        }
+      ],
+      "notes": "Primary board minutes plus independent long-form journalism corroborate. Temporary 9-month pause tied to a comprehensive-plan/zoning process, not a permanent ban, and correctly dated to this instrument's own March 16, 2026 vote (not an earlier one). No duplicate Butler County row elsewhere in NE. Genuine miss: an unzoned county's own procedural resolution, covered only by a specialty renewable-energy outlet, easy to miss in a data-center-focused sweep since data centers are only one of five covered sectors here."
+    },
+    {
+      "moratorium_id": "ne-fillmore-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/8306902/fillmore-county-enacts-six-month-moratorium-on-new-solar-farm-applications-after-resident-concerns",
+          "source_type": "other",
+          "supports": "Confirms Resolution No. 2026-08's June 23, 2026 adoption, 6-1 vote, 6-month term on new solar CUP applications, and the Planning Commission's 4-month review directive.",
+          "quote": "The Fillmore County Board of Supervisors on June 23 adopted a six-month moratorium on accepting new solar energy farm applications and directed the Fillmore County Planning Commission to review the county comprehensive plan and zoning regulations."
+        }
+      ],
+      "notes": "Single source (a citizen-journalism/meeting-summary aggregator, consistent in style and detail with other citizenportal.ai items in this packet that independent local press later corroborated). Temporary 6-month pause on new applications only (existing operations/pending permits unaffected), not a permanent ban. No duplicate elsewhere in NE. Genuine miss: solar-only county resolution, not data-center-specific, easy to miss in a data-center sweep."
+    },
+    {
+      "moratorium_id": "ne-mcpherson-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/8288607/nebraska/mcpherson-county/mcpherson-county-adopts-12-month-moratorium-on-utility-scale-and-specialized-technology-facilities",
+          "source_type": "other",
+          "supports": "Confirms Resolution 2026-11's June 10, 2026 unanimous adoption, its multi-sector scope, and that it expressly supersedes prior Resolutions 2025-19, 2025-21, and 2025-25.",
+          "quote": "The McPherson County Board of Commissioners on June 10 adopted Resolution 2026-11, imposing a 12-month moratorium on acceptance of applications for wind and solar systems, battery storage, cryptocurrency-mining, data centers, AI facilities, carbon capture and high-voltage transmission infrastructure; the vote was unanimous. ... The resolution expressly supersedes Resolutions 2025-19, 2025-21 and 2025-25."
+        }
+      ],
+      "notes": "Single source, but the row itself already correctly flags that this supersedes three 2025 predecessor resolutions and is dated to THIS instrument's own June 10, 2026 vote, not an earlier one -- exactly the OLDER-item risk the coordinator is watching for, and it is handled correctly here. No duplicate McPherson County row elsewhere in NE. Genuine miss: sparsely populated county (per 2020 census, one of the least populous in the US), whose resolutions are unlikely to draw mainstream coverage."
+    },
+    {
+      "moratorium_id": "ne-seward-county-2023",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.sewardindependent.com/stories/board-extends-renewable-energy-moratorium,209927",
+          "source_type": "news",
+          "supports": "Confirms the renewable-energy moratorium (wind, solar, battery storage) has been in place since August 2023 and was most recently extended into 2027.",
+          "quote": "Seward County's moratorium on commercial wind turbine, solar and battery-generated energy projects has been extended into 2027. The moratorium has been in place since August 2023."
+        },
+        {
+          "url": "https://sewardcountyne.gov/wp-content/uploads/sites/50/2025/12/jan0626.pdf",
+          "source_type": "minutes",
+          "supports": "Primary-source record of an earlier (Jan. 6, 2026) renewal, explicitly identifying it as an extension of the moratorium 'imposed on certain renewable energy projects by the Board on August 1, 2023.'",
+          "quote": "This is an extension of the Moratorium that was imposed on certain renewable energy projects by the Board on August 1, 2023."
+        },
+        {
+          "url": "https://citizenportal.ai/articles/9648182/nebraska/seward-county/seward-county-extends-moratorium-on-commercial-renewable-projects-for-six-months",
+          "source_type": "other",
+          "supports": "Confirms the most recent continuation, Resolution No. 3947, adopted Aug. 25, 2026.",
+          "quote": "The Seward County Board of Commissioners on Aug. 25 adopted Resolution No. 3947 to continue a temporary moratorium on commercial renewable energy projects for six months or until new zoning regulations are adopted."
+        }
+      ],
+      "notes": "Checked specifically for duplication against the existing ne-seward-county-2026 row (verified via show_rows.py --id): that row is a distinct, data-center-only instrument (Resolution 3937, adopted 2026-06-30) with different sectors ([data_center] vs this row's [wind, solar, battery_storage]) and a different origination date; not a duplicate. This row's own date_enacted_iso (2023-08-01) is correctly the FIRST instrument's enactment date, with the renewal chain (through the most recent Jan. 2026 and Aug. 25, 2026 continuations) captured in the duration/legal_basis/current_status text rather than overwriting the origination date -- consistent with how other 'renewed/extended' rows in this inventory are dated. Temporary, periodically-renewed pause, not a permanent ban. Genuine miss: a 2023-vintage instrument that predates this project's tracking window entirely and was only surfaced now because of its Aug. 25, 2026 renewal."
+    },
+    {
+      "moratorium_id": "ne-cass-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://couriernebraska.com/news/environment/cass-county-data-centers-mori/",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 11, 2026 unanimous 5-0 vote, the tabling of companion regulations to Sept. 22, 2026, and Commissioner Alexander DeGarmo's 'baseline...minimum 12 months' framing.",
+          "quote": "The Cass County Board of Commissioners voted unanimously Tuesday morning to approve a 12-month moratorium on data centers, also tabling a vote on proposed regulations until next month. ... \"This is just a baseline to give us, at minimum, 12 months.\""
+        },
+        {
+          "url": "https://www.klkntv.com/cass-county-board-of-commissioners-unanimously-vote-for-data-center-moratorium/",
+          "source_type": "news",
+          "supports": "Independently corroborates the 5-0 vote and the tabling of regulations to Sept. 22.",
+          "quote": "The board voted 5-0 to approve a 12-month moratorium on permits for data centers. As they work to address concerns, proposed data center regulations have been tabled until Sep. 22."
+        },
+        {
+          "url": "https://journalstar.com/news/local/business/article_ca198825-f825-44c7-b685-6843997be21e.html",
+          "source_type": "news",
+          "supports": "Independent third corroboration; the article's actual body-text lead (distinct from its headline, which is what the original packet quoted) confirms the vote.",
+          "quote": "Cass County approved a 12-month moratorium on data center development this week, joining a slew of other Nebraska counties that have already hit pause."
+        }
+      ],
+      "notes": "quote_mismatch resolved: the packet's journalstar quote ('Cass County, Nebraska, approves data center moratorium') was the article's HEADLINE/share-link text, not a verbatim body-text quote -- the actual lead paragraph ('Cass County approved a 12-month moratorium...') is the correct citation, substituted above. This is an agent quoting-source error, not a fabrication or paywall issue; the underlying claim is fully correct and independently confirmed by two other outlets with exact-matching quotes. Temporary pause with a floor/extendable term, not a permanent ban. No duplicate elsewhere in NE. Not an OLDER item."
+    },
+    {
+      "moratorium_id": "ne-gage-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.klkntv.com/gage-county-approves-12-month-data-center-moratorium/",
+          "source_type": "news",
+          "supports": "Confirms the Sept. 16, 2026 (Wednesday) vote for a 12-month moratorium, that the county already had an eight-month moratorium in place, that the Planning and Zoning Commission had recommended 18 months, and that supervisors said it could be extended.",
+          "quote": "Gage County supervisors approved a 12-month moratorium on data center permits Wednesday as the county works to develop regulations specifically for the facilities. The county already had an eight-month moratorium in place, while the Gage County Planning and Zoning Commission had recommended an 18-month moratorium. ... The new 12-month moratorium begins Wednesday. Supervisors said it could be extended if the county needs more time."
+        },
+        {
+          "url": "https://beatricedailysun.com/news/local/government-politics/article_00ada8f4-0b3a-4f12-bc8d-42b0c231655f.html",
+          "source_type": "news",
+          "supports": "Confirms only the lead fact (12-month moratorium approved by the Board of Supervisors on Wednesday, to allow the Planning & Zoning Commission time to craft regulations); the rest of the article, including the 'supersedes the eight-month moratorium' detail and the Rex Adams quote originally cited in this row, is paywalled and could not be read beyond the lead paragraph.",
+          "quote": "The Gage County Board of Supervisors on Wednesday approved a 12-month moratorium on data centers to allow the Planning & Zoning Commission time to study and craft regulations."
+        }
+      ],
+      "notes": "quote_mismatch investigated: the beatricedailysun.com quote cited in the original packet ('The measure supersedes the eight-month moratorium... Rex Adams...') does NOT appear in the archived text, which is a paywall stub exposing only the lead paragraph -- likely the original researcher read more of the live page than the archiver could capture, or paraphrased from a search snippet. This is a paywall/archiving gap, not fabrication: the substantive claim (12-month moratorium supersedes an 8-month one, per an 18-month P&Z recommendation) is independently and fully confirmed by the klkntv.com article, which is complete and exact-quoted. Temporary pause, extendable, not a permanent ban. No duplicate elsewhere in NE. Not an OLDER item."
+    },
+    {
+      "moratorium_id": "ne-hitchcock-county-undated",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY adoption date not confirmed at confidence 0.6 in the 2026-09 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Confirmed via the county's own primary-source Sept. 8 and Sept. 21, 2026 board minutes that no vote had occurred as of the most recent meeting before researched_as_of; still correctly pending. No instrument number or adoption date exists yet by definition."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://hitchcockcounty.ne.gov/posting_files/pdfs/board/agenda/2026/20260908_144836_board_agenda.pdf",
+          "source_type": "agenda",
+          "supports": "Official county agenda item proposing a 12-month moratorium across multiple sectors, superseding Resolution 2025-8.",
+          "quote": "Consider imposing a 12 month moratorium on the acceptance of applications for wind energy systems, solar energy systems, battery energy storage systems, cryptocurrency-mining operations, data centers, artificial intelligence facilities, carbon dioxide capture, transport, and sequestration facilities, high-voltage transmission infrastructure, and other utility scale or specialized technology facilities superseding Resolution 2025-8."
+        },
+        {
+          "url": "https://hitchcockcounty.ne.gov/posting_files/pdfs/board/minutes/2026/20260908_140819_board_minutes.pdf",
+          "source_type": "minutes",
+          "supports": "Primary-source minutes confirm the item was discussed but not voted on at the Sept. 8, 2026 meeting.",
+          "quote": "Under agenda item #9, the consideration of imposing a 12 month moratorium on the acceptance of applications for wind energy systems, solar energy systems, data centers etc., Scott McDonald inquired as to a proposed carbon dioxide pipeline. Attorney Garner advised as to recent developments on the issue and discussion was held."
+        },
+        {
+          "url": "https://hitchcockcounty.ne.gov/posting_files/pdfs/board/minutes/2026/20260921_113028_board_minutes.pdf",
+          "source_type": "minutes",
+          "supports": "Primary-source minutes confirm the item, now 'proposed Resolution 26-18,' remained undecided as of Sept. 21, 2026.",
+          "quote": "County Attorney D. Eugene Garner and Zoning Administrator Mike Erickson joined the meeting. Discussion held on proposed Resolution 26-18. No action taken at this time."
+        }
+      ],
+      "notes": "Excellent primary-source sourcing throughout (official agendas and minutes for both relevant meetings). Correctly pending; not yet adopted as of researched_as_of. No duplicate elsewhere in NE (distinct from ne-hitchcock-county-2025, an already-enacted, separate row this proposed resolution would supersede if adopted -- worth the coordinator noting for a future pass)."
+    }
+  ]
+}

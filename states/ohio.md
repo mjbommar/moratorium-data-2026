@@ -3,7 +3,7 @@
 
 Every local infrastructure moratorium in the inventory for Ohio, current through **September 23, 2026**.
 
-**159 instruments** — 150 in force, 3 pending, 6 past.
+**160 instruments** — 149 in force, 3 pending, 8 past.
 
 State policy is tracked separately: **12 actions** (12 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -52,6 +52,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Defiance | City | 2026-09-01 | data center | 🟢 Active |
 | Eastlake | City | 2025-11-25 | data center | 🟢 Active |
 | Ellsworth Township | Township | 2026-06-10 | data center | 🟢 Active |
+| Fairborn | City | 2022-09-06 | data center, cryptocurrency mining | ⚪ Expired |
 | Fairborn | City | 2026-08-17 | data center, general | 🟢 Active |
 | Fairfield Township (Butler County) | Township | 2026-09-08 | data center | 🟢 Active |
 | Fayette County | County | 2026-09-21 | data center | 🟢 Active |
@@ -69,14 +70,15 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Howland Township | Township | 2026-06-10 | data center | 🟢 Active |
 | Hubbard Township | Township | 2026-02-10 | data center | 🟢 Active |
 | Hudson | City | 2026-07-14 | data center | 🟢 Active |
+| Ironton | City | 2026-02-12 | data center | 🟢 Active |
 | Jackson | City | 2026-07-13 | data center | 🟢 Active |
 | Jackson Township (Clermont County) | Township | 2026-03-02 | data center | 🟢 Active |
 | Jackson Township (Franklin County) | Township | 2026-05-12 | data center | 🟢 Active |
 | Jefferson | Village | 2026-08-17 | data center | 🟢 Active |
 | Jerome Township | Township | 2025-09-03 | data center | ⚪ Replaced |
 | Kent | City | 2026-04-15 | data center | 🟢 Active |
-| Lake Township | Township | 2026-03-03 | data center | 🟢 Active |
 | Lake Township (Stark County) | Township | 2026-04-27 | data center | 🟢 Active |
+| Lake Township (Wood County) | Township | 2026-03-03 | data center | 🟢 Active |
 | Lakeview | Village | 2026-05-04 | data center | 🟢 Active |
 | Liberty Township (Wood County) | Township | 2026 | data center | 🟢 Active |
 | Lima | City | 2026-09-14 | data center | 🟢 Active |
@@ -91,7 +93,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Monclova Township | Township | 2026-02-17 | data center | 🟢 Active |
 | Monroe Township (Adams County) | Township | 2026-03 | data center, general | 🟢 Active |
 | Monroeville | Village | 2026-02-24 | data center | 🟢 Active |
-| Montgomery Township | Township | 2026-06-17 | data center | 🟢 Active |
+| Montgomery Township (Ashland County) | Township | 2026-06-17 | data center | 🟢 Active |
 | Morgan Township (Butler County) | Township | 2026-03 | data center | 🟢 Active |
 | Mount Gilead | Village | 2026-08-17 | data center | 🟢 Active |
 | Mount Orab | Village | 2026-03-03 | data center | 🟢 Extended |
@@ -106,13 +108,13 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Northwest Township (Williams County) | Township | 2026-09 | data center | 🟢 Active |
 | Ontario | City | 2026-05-06 | data center | 🟢 Active |
 | Painesville Township | Township | 2026-05-12 | data center | 🟢 Active |
-| Paris Township (Union County) | Township | 2026-02 | data center | 🟢 Active |
+| Paris Township (Union County) | Township | 2026-02 | data center | ⚪ Replaced |
 | Perry | Village | Unverified | data center | 🟡 Pending |
 | Perry Township (Lake County) | Township | 2026-07-28 | data center | 🟢 Active |
 | Pierce Township | Township | 2026-02-11 | data center | 🟢 Extended |
 | Pioneer | Village | 2026-09-14 | data center | 🟢 Active |
 | Plain City | Village | 2026-08-10 | data center | 🟢 Active |
-| Plain Township | Township | 2026-03-24 | data center | 🟢 Active |
+| Plain Township (Stark County) | Township | 2026-03-24 | data center | 🟢 Active |
 | Plain Township (Wood County) | Township | 2026-03 | data center | 🟢 Active |
 | Pleasant Township (Franklin County) | Township | 2026-02-24 | data center | 🟢 Active |
 | Portage Township (Wood County) | Township | 2026-03 | data center | 🟢 Active |
@@ -120,14 +122,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Providence Township | Township | 2026-04-15 | data center | 🟢 Active |
 | Ravenna | City | 2026-04-20 | data center, cryptocurrency mining | 🟢 Active |
 | Richfield | Village | 2026-03-03 | data center | 🟢 Extended |
-| Richfield Township | Township | 2026-02-17 | data center | 🟢 Active |
+| Richfield Township (Lucas County) | Township | 2026-02-17 | data center | 🟢 Active |
 | Rittman | City | 2026-04-13 | data center | 🟢 Active |
-| Scioto Township | Township | 2026-03-05 | data center | 🟢 Active |
+| Scioto Township (Pickaway County) | Township | 2026-03-05 | data center | 🟢 Active |
 | Shalersville Township | Township | 2025-11 | data center | 🟢 Extended |
 | Shawnee Township | Township | 2026-04-13 | data center, battery storage, solar | 🟢 Active |
 | South Bloomfield | Village | 2025-12-15 | data center | ⚪ Replaced |
 | South Point | Village | 2026-05-12 | data center | 🟢 Active |
-| Spencer Township | Township | 2026-03-05 | data center | 🟢 Active |
+| Spencer Township (Lucas County) | Township | 2026-03-05 | data center | 🟢 Active |
 | Sprigg Township | Township | 2026-03-02 | data center | 🟢 Active |
 | Springfield | City | 2026-07-14 | data center | 🟢 Active |
 | St. Bernard | City | Unverified | data center | 🟡 Pending |
@@ -150,13 +152,12 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Village of Lordstown | Village | 2026-01-05 | data center | 🟢 Extended |
 | Village of Lordstown | Village | 2026-07-06 | battery storage | 🟢 Active |
 | Warren | City | 2026-09-09 | data center | 🟢 Active |
-| Washington Township | Township | 2025-12-09 | data center | 🟢 Extended |
-| Washington Township (Logan County) | Township | 2026-07 | data center | 🟢 Active |
+| Washington Township (Franklin County) | Township | 2025-12-09 | data center | 🟢 Extended |
 | Washington Township (Montgomery County) | Township | 2026-04-20 | data center | 🟢 Active |
 | Washington Township (Pickaway County) | Township | 2026-06 | data center | 🟢 Active |
 | Washington Township (Stark County) | Township | 2026-04-06 | data center | 🟢 Active |
 | Waterville Township | Township | 2025-12-17 | data center | 🟢 Active |
-| Waynesville | Village | 2026-05-18 | data center | 🟢 Active |
+| Waynesville | Village | 2026-05-04 | data center | 🟢 Active |
 | Weathersfield Township | Township | 2026-04-30 | data center | 🟢 Extended |
 | Wellington | Village | 2026-03-16 | data center | 🟢 Active |
 | Westlake | City | 2026-09-03 | data center | 🟢 Active |
@@ -178,7 +179,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-04-07 (Village Council adopted Resolution 2026-101, amended from 12 to 6 months, 5-0; per approved minutes). Extended 2026-09-01 by Resolution 2026-109 (6-0) for an additional 12 months.
 - **Normalized date:** `2026-04-07` (exact)
 - **Duration:** Originally six months (to Oct. 7, 2026); extended by an additional twelve months from the effective date of Resolution 2026-109 (emergency, adopted Sept. 1, 2026)
-- **Current end date:** `—`
+- **Current end date:** `2027-09-01`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `oh-ada-2026`
 - **Legal basis:** Village of Ada Resolution 2026-101 (emergency) imposing a temporary moratorium on data centers and cryptocurrency mining centers; extended by Resolution 2026-109 (emergency)
@@ -322,7 +323,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-06-22 (City Council regular meeting, Monday; per Medina Gazette/Chronicle-Telegram report of 2026-06-26)
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** One year, up to June 22, 2027; council may shorten
-- **Current end date:** `—`
+- **Current end date:** `2027-06-22`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-avon-lake-2026`
 - **Legal basis:** City of Avon Lake Ordinance 26-60, a one-year moratorium on the development or construction of data centers
@@ -517,7 +518,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-brooklyn-2026`
-- **Legal basis:** City of Brooklyn council legislation (number not found) imposing a 180-day moratorium on building permits / certificates of occupancy for data centers
+- **Legal basis:** City of Brooklyn Resolution 2026-21 (emergency) imposing a 180-day moratorium on building permits / certificates of occupancy for data centers
 - **What prompted it:** Precautionary: mayor cited power and water use and state tax incentives drawing data centers to Ohio; city wanted time to write zoning rules. No project pending.
 - **Affected projects:** None; mayor said the city lacks the acreage data centers seek.
 - **Detailed status:** Active as of 2026-09-23 (presumed); 180-day moratorium passed about June 2026 runs to roughly December 2026. Exact dates unverified. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
@@ -722,7 +723,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-07-16 (City Council, Resolution No. R-07-26-46 adopted; per signed resolution)
 - **Normalized date:** `2026-07-16` (exact)
 - **Duration:** 365 days; expires July 16, 2027 unless earlier revoked.
-- **Current end date:** `—`
+- **Current end date:** `2027-07-16`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `oh-clayton-2026`
 - **Legal basis:** City of Clayton Resolution No. R-07-26-46 (immediate temporary 365-day moratorium on zoning, conditional use and building permit applications for data processing centers)
@@ -862,6 +863,22 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 ### Fairborn
 
 - **Type:** City
+- **Status:** ⚪ Expired
+- **Date enacted:** 2022-09-06 (City Council adopted Emergency Ordinance 25-22, 7-0, per the official minutes of the 2022-09-06 council meeting)
+- **Normalized date:** `2022-09-06` (exact)
+- **Duration:** 180 days from the date of the ordinance (emergency ordinance, effective immediately)
+- **Current end date:** `—`
+- **Sectors:** data center, cryptocurrency mining
+- **Moratorium ID:** `oh-fairborn-2022`
+- **Legal basis:** Ordinance 25-22, 'An Emergency Ordinance Imposing a Temporary Moratorium for a Period of 180 Days from the Date Hereof on the Issuance of Any Permits, Certificates, or Approvals for the Operation of, or Use of Any Property for a Data Center in the City of Fairborn, Ohio'
+- **What prompted it:** Cryptocurrency (Bitcoin) mining data centers: staff cited heavy electricity and water use, noise, few jobs, and no state oversight; time to study and adjust the zoning code.
+- **Affected projects:** None named.
+- **Detailed status:** Expired 2023-03-05; the 180-day moratorium adopted 2022-09-06 ran out and no extension appears in City Council minutes for Jan. 3 through March 20, 2023. A separate 12-month data center moratorium was adopted 2026-08-17 (see oh-fairborn-2026).
+- **Outcome:** Lapsed without a documented extension or replacement ordinance; Fairborn later adopted a new 12-month data center moratorium on 2026-08-17.
+
+### Fairborn
+
+- **Type:** City
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-08-17 (City Council vote at Monday business meeting; per Fairborn Daily Herald and a council-meeting social post)
 - **Normalized date:** `2026-08-17` (exact)
@@ -869,10 +886,10 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** data center, general
 - **Moratorium ID:** `oh-fairborn-2026`
-- **Legal basis:** City of Fairborn council resolution (number not found) imposing 12-month moratoriums on data centers, self-storage facilities, gas stations, convenience stores and car washes
+- **Legal basis:** Resolution 38-26 (City of Fairborn), placing 12-month temporary moratoriums on data centers, self-storage facilities, gas stations, convenience stores and car washes (adopted 2026-08-17)
 - **What prompted it:** Limited remaining commercial/industrial land; water consumption and noise from data centers; review of zoning standards.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-08-17 runs to about 2027-08-17. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Detailed status:** Active as of 2026-09-23; 12-month moratorium (Resolution 38-26) adopted 2026-08-17 runs to about 2027-08-17. A separate, earlier 180-day data center (crypto-mining) moratorium, Ordinance 25-22 of 2022-09-06, expired in March 2023.
 - **Outcome:** Planning Board and Council to review and recommend zoning amendments for these uses.
 
 ### Fairfield Township (Butler County)
@@ -898,7 +915,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-09-21 (Board of County Commissioners vote on motion by Commissioner Donnie Fleak, seconded by Chairman Jim Garland; Commissioner Tony Anderson absent; resolution drafted by Prosecutor Jess Weade and signed by two commissioners the same afternoon; per Record-Herald)
 - **Normalized date:** `2026-09-21` (exact)
 - **Duration:** Through June 1, 2027 (eight months and 10 days); commissioners may modify, rescind or extend it earlier
-- **Current end date:** `—`
+- **Current end date:** `2027-06-01`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-fayette-county-2026`
 - **Legal basis:** Board of County Commissioners resolution (county zoning authority, emergency) imposing a moratorium on data center-related applications, zoning approvals and permits in the unincorporated areas of Concord, Green, Jasper, Madison, Marion, Paint and Perry townships (county-zoned); excludes Jefferson, Wayne and Union townships; resolution number not reported
@@ -1058,7 +1075,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-05-20 (Board of Trustees regular session; Resolution 26-0520B adopted as emergency, effective on passage; per certified resolution)
 - **Normalized date:** `2026-05-20` (exact)
 - **Duration:** Twelve months from the effective date, expiring May 20, 2027
-- **Current end date:** `—`
+- **Current end date:** `2027-05-20`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-hamilton-township-warren-county-2026`
 - **Legal basis:** Hamilton Township (Warren County) Trustee Resolution 26-0520B (emergency) under limited home-rule and R.C. 519.02
@@ -1130,6 +1147,22 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Affected projects:** None proposed.
 - **Detailed status:** Active as of 2026-09-23; six-month moratorium adopted 2026-07-14 runs to about mid-January 2027, extendable six months.
 - **Outcome:** Council paused new data center applications for six months while staff study impacts and draft zoning/regulatory standards.
+
+### Ironton
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-02-12 (Ordinance 26-01 adopted, third reading, as amended)
+- **Normalized date:** `2026-02-12` (exact)
+- **Duration:** Until Ordinance 26-09 (zoning legislation) is passed, at which point it is automatically repealed
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `oh-ironton-2026`
+- **Legal basis:** Ordinance 26-01 (as amended to add Section 3, tying automatic repeal to passage of Ordinance 26-09)
+- **What prompted it:** Rapid data center development interest (Vertiv and others); city working on zoning legislation
+- **Affected projects:** None identified
+- **Detailed status:** Active as of 2026-09-23 unless Ordinance 26-09 (the city's data center zoning legislation) has since passed, in which case Ordinance 26-01 is automatically repealed per its own Section 3 -- whether 26-09 has passed was not confirmed within the research budget.
+- **Outcome:** City Council working on companion data center zoning ordinance (26-09)
 
 ### Jackson
 
@@ -1227,22 +1260,6 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Detailed status:** Active
 - **Outcome:** Community Development, Planning Commission, and Council review of data center impacts and zoning
 
-### Lake Township
-
-- **Type:** Township
-- **Status:** 🟢 Active
-- **Date enacted:** 2026-03-03
-- **Normalized date:** `2026-03-03` (exact)
-- **Duration:** 12 months
-- **Current end date:** `—`
-- **Sectors:** data center
-- **Moratorium ID:** `oh-lake-township-2026`
-- **Legal basis:** Trustee action reported by The Press/Muck Rack excerpt [CITE primary text not captured]
-- **What prompted it:** Facebook post linking a Tracy Road/Latcha Road property listing as a potential data center site
-- **Affected projects:** Property at 0 Tracy Road (corner of Tracy and Latcha Roads, Walbridge-area mailing address) marketed via an 8-page listing PDF attributed to JLL (Jones Lang LaSalle) as a potential data-center site; the listing was shared in local Facebook groups. No formal zoning application or site plan had been filed with Lake Township as of the trustees' vote.
-- **Detailed status:** Reported active
-- **Outcome:** No replacement zoning captured
-
 ### Lake Township (Stark County)
 
 - **Type:** Township
@@ -1258,6 +1275,22 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Affected projects:** None named.
 - **Detailed status:** Active as of 2026-09-23; six-month moratorium adopted 2026-04-27 expires about 2026-10-24 (six calendar months = 2026-10-27) unless extended.
 - **Outcome:** Trustees to consider adding a dedicated data center section to the Lake Township Zoning Code during the moratorium.
+
+### Lake Township (Wood County)
+
+- **Type:** Township
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-03-03
+- **Normalized date:** `2026-03-03` (exact)
+- **Duration:** 12 months
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `oh-lake-township-2026`
+- **Legal basis:** Trustee action reported by The Press/Muck Rack excerpt [CITE primary text not captured]
+- **What prompted it:** Facebook post linking a Tracy Road/Latcha Road property listing as a potential data center site
+- **Affected projects:** Property at 0 Tracy Road (corner of Tracy and Latcha Roads, Walbridge-area mailing address) marketed via an 8-page listing PDF attributed to JLL (Jones Lang LaSalle) as a potential data-center site; the listing was shared in local Facebook groups. No formal zoning application or site plan had been filed with Lake Township as of the trustees' vote.
+- **Detailed status:** Reported active
+- **Outcome:** No replacement zoning captured
 
 ### Lakeview
 
@@ -1483,7 +1516,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Detailed status:** Active as of 2026-09-23; one-year moratorium adopted 2026-02-24 runs to about 2027-02-24. Council is holding work sessions on overlay or conditional-use zoning for data centers, and a non-binding advisory vote on data centers has been discussed.
 - **Outcome:** Review of federal/state codes and village ordinances; council work sessions on zoning (overlay district or conditional use), FAQ, possible advisory ballot.
 
-### Montgomery Township
+### Montgomery Township (Ashland County)
 
 - **Type:** Township
 - **Status:** 🟢 Active
@@ -1726,7 +1759,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 ### Paris Township (Union County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Status:** ⚪ Replaced
 - **Date enacted:** 2026-02 (reported as adopted in Marysville Matters newsletter of 2026-02-06; exact trustee vote date not found; OCJ map lists February 2026)
 - **Normalized date:** `2026-02` (month_only)
 - **Duration:** One year
@@ -1736,8 +1769,8 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Paris Township (Union County) trustee resolution (number not found) under R.C. 519
 - **What prompted it:** Data center development pressure around Marysville/Union County (e.g., neighboring Jerome Township); township sought time to regulate.
 - **Affected projects:** None identified.
-- **Detailed status:** Reported active as of 2026-09-23; one-year moratorium adopted around early February 2026 runs to about February 2027. The township's zoning resolution was amended on 2026-04-07 to define data centers without listing them as a permitted use, which may have made the pause less important. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
-- **Outcome:** Township amended its zoning resolution (amendments adopted April 7, 2026) to define 'Data Center'; OCJ classes this as an effective prohibition.
+- **Detailed status:** Replaced as of 2026-09-23. The one-year data center moratorium adopted around early February 2026 was overtaken by the township's zoning resolution amendments adopted 2026-04-07 (recorded with the Union County Recorder 2026-05-07), which add a definition of 'Data Center' without listing it as a permitted or conditional use in any district, so data centers are now prohibited under the permanent zoning text. No separate trustee action rescinding the moratorium was found. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Outcome:** Replaced by permanent zoning: amendments adopted 2026-04-07 (recorded 2026-05-07) define 'Data Center' with no permitted or conditional use in any district, effectively prohibiting data centers in unincorporated Paris Township.
 
 ### Perry
 
@@ -1819,7 +1852,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Detailed status:** Active as of 2026-09-23; Ordinance 37-2026 (one-year moratorium on accepting development applications that include data centers) adopted unanimously 2026-08-10, running to about 2027-08-10.
 - **Outcome:** Council enacted a one-year moratorium (Ord. 37-2026) to research and develop data center zoning regulations.
 
-### Plain Township
+### Plain Township (Stark County)
 
 - **Type:** Township
 - **Status:** 🟢 Active
@@ -1890,7 +1923,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-04-15 (Board of Trustees adopted Resolution 18-26; effective immediately)
 - **Normalized date:** `2026-04-15` (exact)
 - **Duration:** Six months, until 11:59 p.m. October 15, 2026
-- **Current end date:** `—`
+- **Current end date:** `2026-10-15`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-prairie-township-franklin-county-2026`
 - **Legal basis:** Prairie Township (Franklin County) Trustee Resolution No. 18-26, six-month moratorium on zoning permits for data centers
@@ -1938,7 +1971,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-03-03 (Village Council, readings suspended; Ordinance 18-2026, 180 days); extended 2026-09-03 at a special meeting by Ordinance 74-2026 (additional 180 days, emergency)
 - **Normalized date:** `2026-03-03` (exact)
 - **Duration:** 180 days (2026-03-03 to about 2026-08-30), plus an additional 180-day moratorium enacted 2026-09-03 (to about 2027-03-02)
-- **Current end date:** `—`
+- **Current end date:** `2027-03-02`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-richfield-2026`
 - **Legal basis:** Ordinance No. 18-2026 (Village of Richfield), 180-day moratorium on zoning certificates for NAICS 518 data processing, hosting and related services (data centers); extended by Ordinance No. 74-2026, an additional 180-day moratorium, emergency
@@ -1947,7 +1980,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Detailed status:** Extended and active as of 2026-09-23; 180-day moratorium of 2026-03-03 was followed by an additional 180-day moratorium adopted 2026-09-03 running to about 2027-03-02, pending the village zoning code rewrite.
 - **Outcome:** Council paused data center zoning certificates while consultants (TSW) and staff complete a full zoning code rewrite; extended by six months in September 2026. A parallel multifamily-housing moratorium (Ord. 19-2026, extended by Ord. 75-2026) was adopted at the same meetings.
 
-### Richfield Township
+### Richfield Township (Lucas County)
 
 - **Type:** Township
 - **Status:** 🟢 Active
@@ -1979,7 +2012,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Detailed status:** Active as of 2026-09-23; 180-day moratorium adopted 2026-04-13 runs to about 2026-10-10. Minutes say the matter would come back to council in October; no extension found yet.
 - **Outcome:** City to research and update its Planning and Zoning Code for data centers; matter to return in October 2026.
 
-### Scioto Township
+### Scioto Township (Pickaway County)
 
 - **Type:** Township
 - **Status:** 🟢 Active
@@ -2002,7 +2035,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2025-11 (Board of Trustees; exact vote date not found; per trustee chairman's account reported by Weekly Villager, June 2026); extended six months in early April 2026 (Record-Courier)
 - **Normalized date:** `2025-11` (month_only)
 - **Duration:** Six months (Nov 2025 to about May 2026), extended by six months in April 2026 to early November 2026; trustees said Aug. 18, 2026 they would extend another six months if needed
-- **Current end date:** `—`
+- **Current end date:** `2026-11-01`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-shalersville-township-2025`
 - **Legal basis:** Board of Trustees resolution (township zoning, R.C. Chapter 519) imposing a six-month moratorium on data center applications; six-month extension resolution April 2026 (numbers not found)
@@ -2059,7 +2092,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Detailed status:** Active as of 2026-09-23 (presumed); six-month moratorium passed 2026-05-12. Because it passed on third reading without a reported emergency clause, it likely took effect about 30 days later and would run to roughly mid-November to mid-December 2026. No extension or repeal found. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.62 in the 2026-09 refresh]
 - **Outcome:** Study of legal options (zoning, reporting, siting conditions, revenue-sharing) for AI and micro data centers.
 
-### Spencer Township
+### Spencer Township (Lucas County)
 
 - **Type:** Township
 - **Status:** 🟢 Active
@@ -2178,7 +2211,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-04-15 (City Council unanimous vote on first reading with rules suspended; Resolution 2026.12)
 - **Normalized date:** `2026-04-15` (exact)
 - **Duration:** Through January 31, 2027, extendable by majority vote
-- **Current end date:** `—`
+- **Current end date:** `2027-01-31`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-sunbury-2026`
 - **Legal basis:** City of Sunbury Resolution No. 2026.12, temporary moratorium on data centers (permits, certificates of use, development plans, rezoning to L-I) through January 31, 2027
@@ -2194,7 +2227,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-05 (Board of Trustees vote at the early-May meeting; moratorium effective May 5, 2026 per The Village Reporter)
 - **Normalized date:** `2026-05` (month_only)
 - **Duration:** Six months, effective May 5 and expiring Nov. 5, 2026
-- **Current end date:** `—`
+- **Current end date:** `2026-11-05`
 - **Sectors:** data center, solar
 - **Moratorium ID:** `oh-swancreek-township-fulton-county-2026`
 - **Legal basis:** Swancreek Township (Fulton County) Board of Trustees motion/resolution imposing a six-month moratorium on zoning permits for data centers and solar fields (number not found)
@@ -2297,7 +2330,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **What prompted it:** Thor Equities' proposed $1B 'Urbana Technology Hub' data center (with CyrusOne) near Ohio 55 and U.S. 68, close to the Cedar Bog Nature Preserve aquifer. There was strong resident opposition.
 - **Affected projects:** Thor Equities / CyrusOne 'Urbana Technology Hub', about 460,000 sq ft, about $1B. The site plan was rejected and the site later rezoned.
 - **Detailed status:** Active as of 2026-09-23 and in litigation. 12-month emergency moratorium adopted 2026-03-03 runs to about 2027-03-03. Thor Equities sued in state and federal court (June 2026). The Champaign County Common Pleas appeal is in briefing (city response due 2026-10-02). A charter amendment banning hyperscale data centers is on the November 2026 ballot.
-- **Outcome:** Moratorium plus a city Data Center Moratorium Committee study. Council later rezoned the site (June 2026). Litigation is pending.
+- **Outcome:** Moratorium plus a city Data Center Moratorium Committee study. On 2026-06-16 council unanimously passed Ordinance 4635-26, restoring the pre-2025 zoning text so data centers are no longer a permitted use in the M-1 Light Manufacturing District. The moratorium was not repealed. Litigation is pending, and a charter amendment banning data centers over 7.5 MW is on the November 2026 ballot.
 
 ### Vandalia
 
@@ -2354,7 +2387,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-02-17 (trustee vote 2-1 on 180-day moratorium resolution, per Trustee Haddle quoted by Tribune Chronicle 2026-08-04); extended 60 days on 2026-08-03 (Monday meeting)
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** 180 days (to 2026-08-16), extended 60 days to 2026-10-16
-- **Current end date:** `—`
+- **Current end date:** `2026-10-16`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-vienna-township-2026`
 - **Legal basis:** Trustee resolution (Vienna Township, Trumbull County) under R.C. 519, adapted from Hubbard Township's moratorium; extension resolution August 2026
@@ -2427,7 +2460,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Detailed status:** Active as of 2026-09-23; one-year moratorium approved 2026-09-09 (effective date not confirmed, so end is approximately September/October 2027); Data Center Review Committee must report within nine months.
 - **Outcome:** Mayor-led Data Center Review Committee to deliver written recommendations within nine months on zoning, utilities, noise, environment, costs; moratorium may be lifted once policy is adopted.
 
-### Washington Township
+### Washington Township (Franklin County)
 
 - **Type:** Township
 - **Status:** 🟢 Extended
@@ -2442,22 +2475,6 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Affected projects:** No pending applications identified in captured township records
 - **Detailed status:** Original term ended 2026-09-05 (per Resolution #2026.02.10.005). As of 2026-09-23 a further extension is pending confirmation: the trustees' 2026-09-08 agenda listed a 'Resolution Extending Data Center Development Moratorium within the Unincorporated Territory of the Township', and the administrator said on 2026-08-11 he would present it; the 2026-09-08 minutes (to be approved 2026-09-22) are not yet posted, so adoption and the new term are unconfirmed. [VERIFY: 2026-09-08 extension resolution adoption and new end date]
 - **Outcome:** Legal review and possible zoning work; final extension record not captured
-
-### Washington Township (Logan County)
-
-- **Type:** Township
-- **Status:** 🟢 Active
-- **Date enacted:** July or August 2026 (per Ohio Capital Journal map; trustees meet the 2nd Monday, i.e., 2026-07-13 or 2026-08-10); the underlying document (Google Drive) could not be read
-- **Normalized date:** `2026-07` (range)
-- **Duration:** One year (per OCJ map)
-- **Current end date:** `—`
-- **Sectors:** data center
-- **Moratorium ID:** `oh-washington-township-logan-county-2026`
-- **Legal basis:** Washington Township (Logan County) Board of Trustees action (resolution number unknown), a one-year data center moratorium under township zoning (R.C. 519)
-- **What prompted it:** Not established. The OCJ map also lists a proposed zoning amendment defining data centers with no permitted use (an effective ban).
-- **Affected projects:** None identified.
-- **Detailed status:** Reported active as of 2026-09-18 (OCJ map): trustees approved a one-year moratorium in July/August 2026, expiring July/August 2027. Not independently verified. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
-- **Outcome:** Per OCJ, a zoning text amendment is proposed that would define data centers without a permitted use (effective ban).
 
 ### Washington Township (Montgomery County)
 
@@ -2527,16 +2544,16 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 
 - **Type:** Village
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-05-18 (village council adopted Ordinance No. 2026-020 as an emergency, 7 yeas, after waiving readings; per approved council minutes)
-- **Normalized date:** `2026-05-18` (exact)
-- **Duration:** Temporary; OCJ map reports a 180-day moratorium expiring Oct. 31 (term not stated in minutes; ordinance text not found)
-- **Current end date:** `—`
+- **Date enacted:** 2026-05-04 (village council waived the first-reading rule and adopted Ordinance No. 2026-020 as an emergency, 7 yeas; per the draft 2026-05-04 council minutes printed in the 2026-05-18 council packet)
+- **Normalized date:** `2026-05-04` (exact)
+- **Duration:** 180 days (OCJ map: 'Council passed 180-day moratorium', expiring Oct. 31, 2026, which is exactly 180 days from the 2026-05-04 adoption); ordinance text not found
+- **Current end date:** `2026-10-31`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-waynesville-2026`
 - **Legal basis:** Village of Waynesville Ordinance No. 2026-020 (emergency): temporary moratorium on acceptance, processing and approval of applications for large-scale data center development; establishes Data Center Study Committee
 - **What prompted it:** Allow the village to research data centers and see what the State of Ohio task force determines; review whether zoning code needs updating.
 - **Affected projects:** None named; the administrator told a broker marketing the Lemay property about the moratorium in September 2026.
-- **Detailed status:** Active as of 2026-09-23 (village administrator's report in the 2026-09-21 council agenda refers to the moratorium on data centers); adopted 2026-05-18, reported to run through Oct. 31, 2026 (180 days from adoption would be 2026-11-14).
+- **Detailed status:** Active as of 2026-09-23 (village administrator's report in the 2026-09-21 council agenda refers to the moratorium on data centers); adopted 2026-05-04 as an emergency, 180-day term runs through 2026-10-31 unless extended.
 - **Outcome:** Data Center Study Committee (council members Gallagher, Powell, Colvin) to recommend zoning code updates.
 
 ### Weathersfield Township
@@ -2546,7 +2563,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-04-30 (trustees' special meeting, 3-0 resolution, effective that day; per WKBN 2026-04-30 and Tribune Chronicle May 2026); extended six months in September 2026
 - **Normalized date:** `2026-04-30` (exact)
 - **Duration:** Six months (to about late October 2026), extended six more months into April 2027
-- **Current end date:** `—`
+- **Current end date:** `2027-04-25`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-weathersfield-township-2026`
 - **Legal basis:** Weathersfield Township (Trumbull County) trustee resolution under R.C. 519 imposing a six-month moratorium on building, zoning or approval of data centers; extension resolution September 2026
@@ -2642,7 +2659,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-01-26 (Board of Trustees Resolution No. 2026-04, six-month moratorium); extended 2026-07-13 by Resolution No. 2026-17 to 12 months, ending 11:59 p.m. 2027-01-25 (per 2026-07-13 minutes)
 - **Normalized date:** `2026-01-26` (exact)
 - **Duration:** Originally six months; extended to 12 months, until 11:59 p.m. January 25, 2027
-- **Current end date:** `—`
+- **Current end date:** `2027-01-25`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-williamsburg-township-2026`
 - **Legal basis:** Williamsburg Township (Clermont County) Trustees Resolution No. 2026-04 (2026-01-26), six-month moratorium on the receipt, processing, issuance or approval of any application for a zoning certificate for a data center; amended/extended by Resolution No. 2026-17 (2026-07-13)

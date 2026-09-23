@@ -1,0 +1,118 @@
+{
+ "state_abbrev": "MI",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA5",
+ "decisions": [
+  {
+   "moratorium_id": "mi-bruce-township-undated",
+   "outcome": "corrected",
+   "confidence": 0.55,
+   "changes": {
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2025-12",
+     "reason": "Matches the existing date_enacted_uncertainty=month_only and the already-cited 'late December 2025' / Dec. 31, 2025 Record article text, which had no corresponding date_enacted_iso value."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://www.myrecordnewspaper.com/?p=136973",
+     "title": "Romeo joins the moratoriums on data centers",
+     "publisher": "The Record",
+     "document_date": "2026-02-04",
+     "source_type": "news",
+     "supports": "Confirms Bruce Township's data-center moratorium predates Feb. 4, 2026 (Romeo is described as 'joining' Bruce and Armada Townships, which already had moratoria in place).",
+     "quote": "Romeo has now joined Bruce Township and Armada Township in passing a moratorium temporarily stopping applications from data centers developers."
+    },
+    {
+     "url": "https://www.myrecordnewspaper.com/?p=139567",
+     "title": "Ordinance tweaked for data center moratoriums",
+     "publisher": "The Record",
+     "document_date": "2026-05-27",
+     "source_type": "news",
+     "supports": "Confirms the original moratorium was a six-month term that was 'running out' as of May 27, 2026, consistent with a December 2025 start.",
+     "quote": "As a six month moratorium is running out, Bruce Township continues to fine tune their ordinance regarding data centers."
+    }
+    ],
+   "notes": "The already-existing date_enacted text (citing 'just days before Christmas' and a Dec. 31, 2025 Record article) and date_enacted_uncertainty=month_only were left in place, since I could not improve on them; date_enacted_iso, however, was blank and is now filled with 2025-12 to match the existing month_only uncertainty and text. Checked Bruce Township's own site (brucetwp.org) for the original resolution/ordinance -- only found Ordinance 161-03-26 (a May 20, 2026 zoning-code amendment formalizing a general 'moratorium by resolution' provision, not the original data-center moratorium document) and a paywalled Record article. A Facebook post referencing 'Bruce's original Dec. 2025 moratorium' could not be read past its excerpt (login-walled). Could not pin an exact day within 3 searches; did not change enacted_status (already active) or current_status (kept the existing [VERIFY] markers on trigger/current_status, which this pass did not resolve)."
+  },
+  {
+   "moratorium_id": "mi-lowell-township-2026",
+   "outcome": "unresolvable",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.woodtv.com/news/kent-county/lowell-township-board-votes-against-data-center-moratorium/",
+     "title": "Lowell Township board votes against data center moratorium",
+     "publisher": "WOOD-TV (WOODTV.com)",
+     "source_type": "news",
+     "supports": "Confirms the proposed six-month data-center moratorium (Ordinance 01-2026R) failed 2-5 at the Township Board's Monday night meeting; only the Clerk and Treasurer voted yes.",
+     "quote": "LOWELL TOWNSHIP, Mich. (WOOD) — Lowell Township leaders have declined to pass a six-month moratorium on data centers. The measure failed in a 2-5 vote at Monday night’s meeting of the Lowell Township Board ... Ultimately, however, only Township Clerk Monica Burtt and Treasurer Ronda Benedict voted yes on the moratorium. The five remaining board members voted no."
+    },
+    {
+     "url": "https://www.mlive.com/news/grand-rapids/2026/05/residents-threaten-recall-after-lowell-township-rejects-data-center-moratorium.html",
+     "title": "Residents threaten recall after Lowell Township rejects data center moratorium",
+     "publisher": "MLive",
+     "document_date": "2026-05-19",
+     "source_type": "news",
+     "supports": "Corroborates the same rejection, with an article publication/update timestamp (May 19) consistent with the 'Monday night' vote falling on May 18, 2026, matching the row's existing date.",
+     "quote": "Residents threaten recall after Lowell Township rejects data center moratorium - Updated: May. 19"
+    }
+   ],
+   "notes": "REMOVE: independently confirmed via two more news sources (WOOD-TV, MLive) that Lowell Township's proposed data-center moratorium (Ordinance 01-2026R) was never adopted -- it failed 2-5 at the Township Board's meeting on Monday, May 18, 2026 (matching the row's already-stated vote date and count). No moratorium instrument was ever in effect in Lowell Township; the row's current enacted_status of 'expired' is factually wrong for an instrument that was never adopted (nothing existed to expire). The board instead formed a citizen/planning-commission committee to work toward a future ordinance, which is not itself a moratorium. This row should not exist in the moratorium inventory."
+  },
+  {
+   "moratorium_id": "mi-wales-township-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://carina.energy/bess-moratoriums/other-states/",
+     "title": "BESS Moratoriums by State: WA, IA, ... (Michigan section)",
+     "publisher": "Carina Energy",
+     "source_type": "other",
+     "supports": "Confirms Wales Township (St. Clair County) is tracked as a lifted BESS moratorium, one of four historical Michigan restrictions, but gives no adoption or lift date.",
+     "quote": "Michigan no longer has any active BESS moratoriums. Of four tracked restrictions, Chester Township (Ottawa County) and Riley Township (St. Clair County) have expired, Wales Township (St. Clair County) was lifted, and Comstock Township (Kalamazoo County) has a pending moratorium that has not yet taken effect."
+    },
+    {
+     "url": "https://www.walestownship.org/wp-content/uploads/2023/10/Battery-Energy-Storage-System-Draft.pdf",
+     "title": "Battery Energy Storage System (draft ordinance)",
+     "publisher": "Wales Township",
+     "source_type": "other",
+     "supports": "A 2023-dated draft permanent BESS zoning ordinance found on the Township's own site; consistent with the original researcher's note that only a permanent zoning draft (not a moratorium notice) was locatable, but does not itself establish a moratorium adoption date.",
+     "quote": "All Utility-Scale Battery Energy Storage Systems must conform to the provisions of this Ordinance and all county, state, and federal regulations and safety..."
+    }
+   ],
+   "notes": "Could not find a Wales Township, St. Clair County, MI 'Notice of Adoption' for a BESS moratorium comparable to neighboring Riley Township's (rileytownship.com, Ordinance 61-2024, adopted 2024-01-09), despite searching for that exact document pattern applied to Wales. Checked: carina.energy's Michigan BESS summary (lift confirmed, no dates), a site-pattern search for a Wales Township notice-of-adoption PDF (returned only the 2023 draft ordinance and unrelated townships' notices), and a general web search for 'walestownship.org moratorium battery storage notice' (no relevant hit). Left date_enacted_iso empty; not a REMOVE, since a real underlying BESS-policy episode in Wales Township is corroborated by an independent tracker (carina.energy) even though the original notice document itself is not indexed/found."
+  },
+  {
+   "moratorium_id": "mi-wisner-township-undated",
+   "outcome": "corrected",
+   "confidence": 0.5,
+   "changes": {
+    "date_enacted_iso": {
+     "from": "",
+     "to": "2026-02",
+     "reason": "Inferred from the row's own current_end_date_iso (2027-02-17), which reflects a 6-month extension from the confirmed Aug. 17, 2026 extension meeting; 6 months before Aug. 17, 2026 is Feb. 17, 2026, matching the original term's 'expired in August 2026' description already in date_enacted."
+    },
+    "date_enacted_uncertainty": {
+     "from": "unverified",
+     "to": "month_only",
+     "reason": "Only the month, not an exact day, is supported by this inference."
+    }
+   },
+   "evidence": [
+    {
+     "url": "https://www.tuscolatoday.com/news/wisner-twp-extends-data-center-moratorium-moves-ahead-with-cemetery-fence-removal/article_cae6d5bc-f4c5-42ce-8d82-16c9b6859f6c.html",
+     "title": "Wisner Twp. Extends Data Center Moratorium, Moves Ahead with Cemetery Fence Removal",
+     "publisher": "Tuscola Today",
+     "document_date": "2026-08",
+     "source_type": "news",
+     "supports": "Confirms the six-month extension was approved at the Township Board's Aug. 17, 2026 meeting, already reflected in the row's current_end_date_iso of 2027-02-17.",
+     "quote": "WISNER TWP. — The Wisner Township Board extended its data center moratorium for another six months and approved removing a cemetery fence during its Aug. 17 meeting."
+    }
+   ],
+   "notes": "date_enacted_iso set to 2026-02 (month_only) by inference: the row's own current_end_date_iso (2027-02-17) reflects a 6-month extension from the Aug. 17, 2026 extension meeting, and the row's date_enacted text already states the moratorium was a 6-month term that 'expired in August 2026' before being extended -- both point to an original adoption around mid-February 2026 (6 months before Aug. 17, 2026, i.e. Feb. 17, 2026). This is an inference from the term length and extension-meeting timing, not a directly dated adoption notice or article, hence month_only rather than exact and a moderate confidence. Checked (without success): a bc-web search for 'Wisner Township ... data center moratorium adopted February 2026' and two Tuscola Today articles referencing earlier board discussion of the moratorium ordinance ('Wisner Township Board Discusses Fire Service Coverage' and 'Twp. Renews Emergency Services Millage'), both of which were paywalled/JS-blocked past their navigation chrome in both direct and browser-mode fetches."
+  }
+ ]
+}

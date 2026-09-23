@@ -1,0 +1,107 @@
+{
+  "state_abbrev": "MO",
+  "researched_as_of": "2026-09-23",
+  "researcher": "Claude Sonnet 5 QA1",
+  "decisions": [
+    {
+      "moratorium_id": "mo-ava-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.douglascountyherald.com/2026/07/13/ava-approves-one-year-data-center-pause/",
+          "source_type": "news",
+          "supports": "Confirms the Board of Aldermen's July 1, 2026 approval of a revised Ordinance No. 1173, a temporary one-year moratorium on data centers and similar uses citywide.",
+          "quote": "The Ava Board of Aldermen approved an updated version of Ordinance No. 1173 during a meeting held Wednesday, July 1, putting a temporary one year moratorium in place on certain data centers, high density computing facilities, cryptocurrency mining facilities, artificial intelligence computing facilities, server farms and similar uses within the city limits."
+        },
+        {
+          "url": "https://ozarkradionews.com/local-news/ava-approves-one-year-data-center-pause",
+          "source_type": "news",
+          "supports": "Independently corroborates the 3-0 votes on both readings on July 1, 2026.",
+          "quote": "At the July 1 meeting, aldermen approved both readings of the updated ordinance. ... Both votes carried 3-0."
+        }
+      ],
+      "notes": "Two independent local outlets agree on the ordinance number, date, and unanimous vote; the phrase 'updated version' in the local paper indicates this July 1 vote followed an earlier version/public input round, so July 1, 2026 is correctly the vote date of the version that was actually adopted, not an earlier reading. Temporary one-year pause, auto-expiring unless extended, not a permanent ban. No duplicate elsewhere in MO. Genuine miss: small-city ordinance covered only by two local outlets."
+    },
+    {
+      "moratorium_id": "mo-stone-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://stonecountyclerk.com/media/uploads/downloads/Comm_Minutes_06-04-2026._docx_.pdf",
+          "source_type": "minutes",
+          "supports": "Primary commission minutes with the full roll-call vote (Blades-yes, Smythe-yes, Weathers-yes) enacting the 12-month moratorium on data centers, solar, wind, and battery storage on June 4, 2026, following the Planning Commission's June 2, 2026 resolution.",
+          "quote": "The Stone County Commission signed the order and ordinance enacting a temporary moratorium on solar energy systems, wind energy conversion systems, battery energy storage systems, and data centers to allow for amendments to the Stone County, Missouri Zoning regulations. ... The matter to accept and enact a twelve (12) moratorium for Stone County was brought to a decision by a roll call vote: Blades - yes; Smythe - yes; Weathers - yes. matter carried."
+        },
+        {
+          "url": "https://www.news-leader.com/story/news/local/ozarks/2026/06/09/stone-county-missouri-places-moratorium-on-data-centers/90456624007/",
+          "source_type": "news",
+          "supports": "Independent regional news corroboration of the year-long moratorium.",
+          "quote": "With similar controversies popping up in the Ozarks, Stone County leaders have decided to place a year-long moratorium on data centers and similar projects."
+        }
+      ],
+      "notes": "Primary county commission minutes plus independent regional news. Unanimous roll-call vote, dated to this instrument's own June 4, 2026 adoption (which itself implements an underlying June 2, 2026 Planning Commission resolution, not an earlier separate moratorium). Temporary pause to allow zoning amendments, not a permanent ban. No duplicate elsewhere in MO. Genuine miss: unzoned-until-recently rural county, June adoption predates the Aug 1 snapshot."
+    },
+    {
+      "moratorium_id": "mo-benton-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ky3.com/2026/09/02/data-center-moratorium-fight-plays-out-benton-county-courtroom/",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 10, 2026 six-month moratorium and the developer's request for a restraining order.",
+          "quote": "A developer asked a judge Wednesday to approve a temporary restraining order against Benton County after county commissioners issued a six-month moratorium on data centers."
+        },
+        {
+          "url": "https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/",
+          "source_type": "news",
+          "supports": "Confirms the Sept. 8, 2026 restraining order, the Sept. 9, 2026 land closing, and the Sept. 21, 2026 extension of the restraining order pending a preliminary-injunction ruling.",
+          "quote": "A judge heard arguments on Monday in a lawsuit filed by a data center developer against Benton County commissioners over a moratorium on data centers. The hearing was a continuation of an ongoing case involving the moratorium and the developer's lawsuit."
+        }
+      ],
+      "notes": "Two directly on-point local news reports from the same outlet, covering both the initial TRO hearing and its extension. The moratorium itself remains formally in force (enacted_status correctly 'active'); the litigation concerns only enforcement against one specific developer's parcel, not the ordinance's validity as a whole, so 'active... under active legal challenge' is the accurate characterization already in the row. Not an OLDER item. No duplicate elsewhere in MO. Coordinator may want to flag this one for a status re-check once the preliminary-injunction ruling issues."
+    },
+    {
+      "moratorium_id": "mo-cedar-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.ky3.com/2026/09/15/cedar-county-pauses-solar-wind-data-center-projects-one-year/",
+          "source_type": "news",
+          "supports": "Confirms the Sept. 8, 2026 adoption, scope (solar, wind, battery storage, data centers outside city limits), exemption for small on-site systems and existing projects, and the once-extendable six-month option.",
+          "quote": "Commissioners imposed the moratorium on September 8. It applies to larger new solar, wind, battery-storage and data-center developments outside city limits. Small on-site systems and existing projects are exempt. ... Commissioners can also extend the moratorium once for up to six additional months."
+        }
+      ],
+      "notes": "Single source but a direct, detailed local-TV report with named specifics (statutory citations, exemption thresholds). The row already appropriately flags the open legal question (RSMo 49.650 applying by its terms to first/second/fourth-class counties, while Cedar is third-class) -- this is a genuine legitimacy risk worth the coordinator's attention in a future pass, but does not by itself make this an invalid inventory entry: the county commission did adopt it as a government action, and no court has yet invalidated it. Temporary, extendable pause tied to a study period, not a permanent ban. No duplicate elsewhere in MO. Not an OLDER item."
+    },
+    {
+      "moratorium_id": "mo-ralls-county-2026",
+      "outcome": "confirmed_unchanged",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.wgem.com/2026/08/23/around-100-residents-voice-displeasure-with-potential-data-center-meeting-ralls-county/",
+          "source_type": "news",
+          "supports": "Same-day report confirming the moratorium was signed at the Sunday, Aug. 23, 2026 courthouse meeting.",
+          "quote": "A moratorium was also signed putting a hold on the project for at least one year."
+        },
+        {
+          "url": "https://muddyrivernews.com/top-stories/ralls-county-commissioners-place-moratorium-on-data-centers/20260825071455/",
+          "source_type": "news",
+          "supports": "Confirms the specific end date (Sept. 1, 2027) and that commissioners bypassed the planned September planning-and-zoning hearing to act directly.",
+          "quote": "The moratorium halts economic-development applications until September 1, 2027, giving the County time to study the issue and develop regulations."
+        },
+        {
+          "url": "https://www.khqa.com/news/local/ralls-county-data-center-moratorium-in-place-commissioners-want-voters-to-have-their-say/article_dbd40b26-6978-48ef-9d04-15eb918d5b3c.html",
+          "source_type": "news",
+          "supports": "Confirms all three commissioners signed the one-year moratorium and that commissioners intend to put the matter to a county-wide referendum, hopefully in April.",
+          "quote": "It ended with the commissioners signing a one-year moratorium on economic development projects and data centers."
+        }
+      ],
+      "notes": "Three independent local/regional outlets, plus a fourth (muddyrivernews.com Aug. 20 piece) documenting that the originally-planned Sept. 16, 2026 planning-and-zoning hearing was canceled once the commission acted directly on Aug. 23 -- confirming this is the actual adoption date, not a first reading or the earlier-planned hearing. Temporary pause with a fixed end date, explicitly framed as a stopgap pending a voter referendum, not a permanent ban. No duplicate elsewhere in MO. Not an OLDER item."
+    }
+  ]
+}

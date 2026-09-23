@@ -1,0 +1,65 @@
+{
+ "state_abbrev": "GA",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA5",
+ "decisions": [
+  {
+   "moratorium_id": "ga-appling-county-2026",
+   "outcome": "status_changed",
+   "new_enacted_status": "expired",
+   "changes": {
+    "current_status": {
+     "from": "Adopted 2026-08-04 for 40 days (to about 2026-09-13). The original 40-day emergency term has lapsed; Sept. 1, 2026 board minutes-summary shows the commission moved consideration of a follow-on 180-day data-center moratorium resolution to its Sept. 8, 2026 meeting (the Sept. 17 called-meeting agenda covered only the FY2027 millage rate and tax levies, with no moratorium item). No minutes or news confirming the Sept. 8 vote outcome or a new end date were found as of 2026-09-23, so the moratorium's current status (extended by a 180-day resolution, replaced, or lapsed) remains unconfirmed.",
+     "to": "Expired 2026-09-13 (40 days after the 2026-08-04 resolution). The prior researcher's claim that a follow-on 180-day resolution was moved to a Sept. 8, 2026 meeting does not hold up: the Board's own Aug. 18, 2026 called-meeting minutes show the Sept. 8 date was set only to adopt the FY2027 millage-rate roll-back, not a data-center item, and that meeting was in fact rescheduled to a Sept. 17, 2026 called meeting whose two agendas cover only the millage rate and county/school tax levies -- no moratorium item on either. The official combined minutes for the county's only other August meetings (the Aug. 4 regular meeting and the Aug. 18 budget workshop) likewise contain no motion or vote enacting, extending, or discussing a data-center moratorium beyond the original resolution's own text. No extension, replacement, or new moratorium was found through the county's most recently posted agenda (Sept. 17, 2026), 4 days after the 40-day term ran out.",
+     "reason": "Direct reading of the county's own combined minutes and called-meeting agendas shows the original researcher's central claim (a Sept. 8 vote on a follow-on 180-day moratorium) is not supported by the primary record; the Sept. 8 date was for the millage rate, not a moratorium, and no moratorium item appears on the meeting that actually occurred (Sept. 17)."
+    }
+   },
+   "confidence": 0.6,
+   "evidence": [
+    {
+     "url": "https://applingcountyga.org/wp-content/uploads/2026/08/RESOLUTION-2026-40-Day-Moratorium-Data-Centers.pdf",
+     "title": "Resolution Declaring a Temporary Moratorium on Data Center Facilities, Appling County",
+     "publisher": "Appling County Board of Commissioners",
+     "document_date": "2026-08-04",
+     "source_type": "resolution",
+     "supports": "Confirms the resolution's exact term: 40 days from the date of adoption (signed '4th day of August, 2026'), extendable only by subsequent Board action after a public hearing.",
+     "quote": "This moratorium shall remain in effect for an emergency period of Forty Days (40) Days from the date of adoption unless earlier lifted by the Board of Commissioners... SO RESOLVED, this 4th day of August, 2026."
+    },
+    {
+     "url": "https://applingcountyga.org/wp-content/uploads/2026/09/2026-08-Combined-Minutes.pdf",
+     "title": "Appling County Board of Commissioners combined minutes, August 2026 (called meeting/budget workshop Aug. 4, regular meeting Aug. 4, called meeting/budget workshop Aug. 18)",
+     "publisher": "Appling County Board of Commissioners",
+     "document_date": "2026-08-18",
+     "source_type": "minutes",
+     "supports": "Shows no data-center moratorium discussion or vote at any August 2026 meeting beyond the original resolution, and that the Sept. 8, 2026 date referenced by the prior researcher was set solely to adopt the FY2027 millage-rate roll-back.",
+     "quote": "Lovett recommended a “roll-back” of 0.29% of the millage rate and asked if the Board could set a date to approve the rate. Commissioner Sellers made a motion for September 8, 2026 at 5:30 PM; Commissioner Kent seconded; unanimously approved."
+    },
+    {
+     "url": "https://applingcountyga.org/wp-content/uploads/2026/09/2026-09-17-Called-Meeting-x2.pdf",
+     "title": "Appling County Board of Commissioners called-meeting agendas, September 17, 2026",
+     "publisher": "Appling County Board of Commissioners",
+     "document_date": "2026-09-17",
+     "source_type": "agenda",
+     "supports": "The county's most recent posted meeting after the moratorium's 40-day term expired covers only the FY2027 millage rate and county tax levies; no data-center or moratorium item appears.",
+     "quote": "NEW BUSINESS A. Adoption of FY'2027 Millage Rate B. Resolution for County Maintenance & Operations Tax Levy C. Resolution for County School Tax Levy"
+    }
+   ]
+  },
+  {
+   "moratorium_id": "ga-cedartown-2026",
+   "outcome": "unresolvable",
+   "confidence": 0.3,
+   "evidence": [
+    {
+     "url": "https://polktoday.com/tag/data-center/",
+     "title": "data center - Polk Today (article tag archive)",
+     "publisher": "Polk Today",
+     "source_type": "news",
+     "supports": "Polk Today, the local outlet that broke the original Cedartown moratorium story, has not published anything about Cedartown data centers since its March 20, 2026 story on the special session that led to Resolution 4, 2026; no coverage of an extension, replacement, or expiration as of this pass.",
+     "quote": "Cedartown Commission calling for Monday special session for Data Center Moratorium ... By Kevin The Editor · March 20, 2026"
+    }
+   ],
+   "notes": "The row's own duration_days (183, i.e. computed as 'six months' from the city manager's public statement) puts the nominal expiry at 2026-09-22 -- one day before the 2026-09-23 reference date, and within the rounding/estimation error of a 'six months' verbal statement versus a calendar-month reading (which would put expiry on 2026-09-23, i.e. today). Checked: (1) the local outlet (Polk Today) that has covered every other Cedartown/Polk County data-center action in detail has nothing after March 2026; (2) general and site-restricted searches for Cedartown data-center news since March 2026 turned up nothing; (3) cedartowngeorgia.gov site search returned no relevant pages. Given the marginal timing and the resolution text itself was not independently located (only news accounts), cannot determine whether the pause has already lapsed, was extended, or is still running through the reference date. Not a REMOVE -- the underlying instrument (Resolution 4, 2026, adopted 2026-03-23) is independently confirmed by citizenportal.ai and the site's own prior packet evidence."
+  }
+ ]
+}

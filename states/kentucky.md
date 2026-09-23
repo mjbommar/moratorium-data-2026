@@ -3,7 +3,7 @@
 
 Every local infrastructure moratorium in the inventory for Kentucky, current through **September 23, 2026**.
 
-**31 instruments** — 27 in force, 2 pending, 2 past.
+**34 instruments** — 30 in force, 2 pending, 2 past.
 
 State policy is tracked separately: **8 actions** (8 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -17,12 +17,15 @@ State policy is tracked separately: **8 actions** (8 bills) in [`state_legislati
 | Boyle County | County | 2026-06-09 | data center | 🟢 Active |
 | Breckinridge County | County | 2025-12-05 | data center | 🟢 Active |
 | Bullitt County | County | 2026-07-21 | data center | 🟢 Active |
-| Butler County | County | 2026-06 | data center | 🟢 Active |
+| Butler County | County | 2026-07-13 | data center | 🟢 Active |
 | Calloway County | County | Unverified | data center | 🟡 Pending |
 | Cave City | City | 2026-05-21 | data center | 🟢 Active |
 | City of La Grange | City | 2025-06-02 | data center | ⚪ Expired |
 | Daviess County | County | 2026-05-28 | data center | 🟢 Active |
 | Edmonson County | County | 2026-06-08 | data center, cryptocurrency mining | 🟢 Active |
+| Greenup County | County | 2026-07 | data center | 🟢 Active |
+| Harrison County | County | 2026-08-11 | data center | 🟢 Active |
+| Henderson County | County | 2025-10-28 | wind | 🟢 Active |
 | Jessamine County | County | 2026-08-04 | data center | 🟢 Active |
 | Lexington-Fayette | Other | 2026-06-09 | data center | 🟢 Active |
 | Logan County | County | 2026-07-28 | data center | 🟢 Active |
@@ -175,16 +178,16 @@ State policy is tracked separately: **8 actions** (8 bills) in [`state_legislati
 
 - **Type:** County
 - **Status:** 🟢 Active
-- **Date enacted:** First reading given at the Fiscal Court's Monday meeting per Beech Tree News; WBKO reported the moratorium as approved in a story published June 26, 2026
-- **Normalized date:** `2026-06` (month_only)
+- **Date enacted:** First reading at the Fiscal Court's Monday, June 22, 2026 meeting (5-0), per Beech Tree News; WNKY reports the Fiscal Court 'held the second reading of a proposed data center ordinance' on Monday, July 13, 2026, after which Judge-Executive Flener announced next steps (appointing committee members), indicating final adoption
+- **Normalized date:** `2026-07-13` (exact)
 - **Duration:** One year
-- **Current end date:** `—`
+- **Current end date:** `2027-07-13`
 - **Sectors:** data center
 - **Moratorium ID:** `ky-butler-county-2026`
 - **Legal basis:** Butler County Fiscal Court ordinance, introduced by Judge-Executive Tim Flener; ordinance number not located in sources reviewed
 - **What prompted it:** Proactive measure; no data center currently proposed for the county, but officials wanted time to study electric (Warren Rural Electric) and water infrastructure capacity ahead of any proposal
 - **Affected projects:** None identified; proactive measure
-- **Detailed status:** Active as of 2026-09-23 per the only reporting located (June 2026); no update, extension, or expiration found in this pass.
+- **Detailed status:** Active as of 2026-09-23; first reading approved 5-0 at the June 22, 2026 Fiscal Court meeting, second reading held July 13, 2026 (WNKY), after which the Judge-Executive began appointing an implementation committee; one-year term runs through 2027-07-13.
 - **Outcome:** One-year moratorium on data centers adopted by the Fiscal Court, magistrates voting 5-0 on first reading.
 
 ### Calloway County
@@ -266,6 +269,54 @@ State policy is tracked separately: **8 actions** (8 bills) in [`state_legislati
 - **Affected projects:** Not identified in reviewed sources; ordinance is prospective and covers new data centers, AI facilities, and cryptocurrency mining operations.
 - **Detailed status:** Active as of 2026-07-31; enacted June 8, 2026 for a one-year term. Bars new permits, licenses, rezonings, approvals, construction, expansion, and operation of covered facilities; existing lawful facilities and ordinary commercial computer use are excluded.
 - **Outcome:** Adopted; in effect through approximately 2027-06-08 absent earlier Fiscal Court action.
+
+### Greenup County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-07 (Fiscal Court, unanimous, second reading; first reading ~2026-07-07)
+- **Normalized date:** `2026-07` (month_only)
+- **Duration:** Six-month moratorium
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ky-greenup-county-2026`
+- **Legal basis:** Fiscal Court ordinance on data center operation, effective immediately upon second reading
+- **What prompted it:** Broader wave of Kentucky county data-center moratoria; excludes industrial parks.
+- **Affected projects:** TeraWulf's planned 1 GW facility at EastPark Industrial Park is excluded (industrial parks are exempt).
+- **Detailed status:** Active as of 2026-09-23. Fiscal Court voted unanimously on first reading (~2026-07-07) and again unanimously on second reading (~2 weeks later) to impose a six-month moratorium on data center construction, development and operation, effective immediately. Excludes incorporated cities and industrial parks.
+- **Outcome:** —
+
+### Harrison County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-08-11 (Fiscal Court, unanimous)
+- **Normalized date:** `2026-08-11` (exact)
+- **Duration:** Two-year moratorium
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ky-harrison-county-2026`
+- **Legal basis:** Fiscal Court resolution barring data center development countywide
+- **What prompted it:** Standing-room-only public forum with near-unanimous resident opposition to data centers preceded the vote.
+- **Affected projects:** None named; magistrates noted no county-owned commercial-zoned property currently qualifies for such development.
+- **Detailed status:** Active as of 2026-09-23. The Fiscal Court unanimously approved a resolution creating a two-year moratorium on data center development at its 2026-08-11 meeting. Can be rescinded or extended.
+- **Outcome:** —
+
+### Henderson County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** 2025-10-28 (Fiscal Court, 5-1, Magistrate Tompkins dissenting)
+- **Normalized date:** `2025-10-28` (exact)
+- **Duration:** Two years from passage, or until the Fiscal Court adopts comprehensive WECS regulations, whichever is sooner
+- **Current end date:** `—`
+- **Sectors:** wind
+- **Moratorium ID:** `ky-henderson-county-2025`
+- **Legal basis:** Fiscal Court ordinance amendment on wind energy conversion systems (WECS) applications; superseded an original one-year moratorium adopted around July 2025
+- **What prompted it:** Cordelio Energy wind project proposal; planning commission recommended lengthening an original one-year pause to two years after public hearings.
+- **Affected projects:** Cordelio Energy wind project.
+- **Detailed status:** Active as of 2026-09-23. The Fiscal Court originally approved a one-year WECS moratorium around July 2025 and referred it to the Henderson City-County Planning Commission; the Commission recommended extending it to two years on 2025-09-02, and the Fiscal Court passed the two-year version 5-1 on 2025-10-28, running two years from passage or until comprehensive WECS regulations are adopted, whichever comes first.
+- **Outcome:** Planning Commission developing WECS siting regulations through public hearings.
 
 ### Jessamine County
 
@@ -456,7 +507,7 @@ State policy is tracked separately: **8 actions** (8 bills) in [`state_legislati
 - **Legal basis:** Ordinance KOC 25-910-508; extension KOC 25-910-520
 - **What prompted it:** Increased data center siting interest; infrastructure, utility capacity, energy use, land use, and environmental sustainability concerns; zoning rules did not adequately address data centers
 - **Affected projects:** Project Lincoln / OC Data Center proposal near La Grange; reporting describes a withdrawn proposal after intense public pushback
-- **Detailed status:** Still in effect as of 2026-09-23; the July 21 second reading never occurred as planned. Court Chair Voegele ruled the Fiscal Court's 2026-08-24 special-called meeting void because the court failed to approve its own agenda, so the item restarted. On 2026-09-01 the Fiscal Court reconsidered and unanimously adopted substantive revisions to the draft regulations (still numbered KOC 26-920-5): striking all references to 'large'/'hyperscale' data centers while adding a 10 MW maximum power-capacity cap (effectively banning hyperscale projects), raising the square-footage cap for 'medium' data centers to 110,000 sq ft, and requiring two weeks' advance notice to property owners within 1,000 ft of a proposed site's neighborhood meeting. County Attorney D. Berry Baxter, backed by outside zoning counsel and the Kentucky Association of Counties, concluded KRS 100.211(8)'s 90-day deadline for zoning MAP amendments does not apply to this zoning TEXT amendment, so no statutory deadline forces a vote. The Fiscal Court's public hearing and final (second-reading) vote on KOC 26-920-5 is now calendared for 2026-10-06, after this research date. Until that vote, the moratorium (KOC 25-910-508, extended by KOC 25-910-520 'until data center regulations are approved') remains the operative instrument.
+- **Detailed status:** Still in effect as of 2026-09-23, event-based: the July 21 second reading never occurred as planned. Court Chair Voegele ruled the Fiscal Court's 2026-08-24 special-called meeting void because the court failed to approve its own agenda, so the item restarted. On 2026-09-01 the Fiscal Court reconsidered and unanimously adopted substantive revisions to the draft regulations (still numbered KOC 26-920-5): striking all references to 'large'/'hyperscale' data centers while adding a 10 MW maximum power-capacity cap (effectively banning hyperscale projects), raising the square-footage cap for 'medium' data centers to 110,000 sq ft, and requiring two weeks' advance notice to property owners within 1,000 ft of a proposed site's neighborhood meeting. County Attorney D. Berry Baxter, backed by outside zoning counsel and the Kentucky Association of Counties, concluded KRS 100.211(8)'s 90-day deadline for zoning MAP amendments does not apply to this zoning TEXT amendment, so no statutory deadline forces a vote. The Fiscal Court's public hearing and final (second-reading) vote on KOC 26-920-5 is now calendared for 2026-10-06, after this research date. The moratorium (KOC 25-910-508, extended by KOC 25-910-520 'until data center regulations are approved') has no fixed end date -- it remains the operative instrument until that vote occurs (or another statutory event ends it), consistent with an Aug. 19, 2026 news report confirming the moratorium 'remains in place' pending the Fiscal Court's next action.
 - **Outcome:** After the January 2026 remand, the Planning & Zoning Commission's revised regulations reached the Fiscal Court as KOC 26-920-5, with first reading 2026-06-29 and second reading calendared 2026-07-21. Passage of second reading was not confirmed in public records as of 2026-07-31; the moratorium (KOC 25-910-508, extended by KOC 25-910-520 'until data center regulations are approved') remains the best-supported operative instrument pending that confirmation.
 
 ### Rowan County
@@ -482,7 +533,7 @@ State policy is tracked separately: **8 actions** (8 bills) in [`state_legislati
 - **Date enacted:** Fiscal Court meeting Friday, March 13, 2026, per Judge-Executive Joe Pat Covington's remarks reported by the Georgetown News-Graphic
 - **Normalized date:** `2026-03-13` (exact)
 - **Duration:** Originally six months (through Sept. 13, 2026); a Sept. 18, 2026 WKYT report describes the freeze as 'set to expire in December' 2026, indicating the Fiscal Court extended it before the original Sept. 13 end date
-- **Current end date:** `—`
+- **Current end date:** `2026-12-31`
 - **Sectors:** data center
 - **Moratorium ID:** `ky-scott-county-2026`
 - **Legal basis:** Georgetown-Scott County Planning Commission / Scott County Fiscal Court moratorium; ordinance/order number not located in sources reviewed

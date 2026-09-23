@@ -1,0 +1,40 @@
+{
+ "state_abbrev": "LA",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 QA5",
+ "decisions": [
+  {
+   "moratorium_id": "la-st-charles-parish-undated",
+   "outcome": "unresolvable",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.datacenterscp.com/parish-action.html",
+     "title": "Parish Action | DataCenterSCP",
+     "publisher": "DataCenterSCP (independent community tracker of St. Charles Parish data-center policy, citing parish Legistar/agenda records)",
+     "source_type": "other",
+     "supports": "Timeline confirms the proposed 8-month data-center moratorium was voted down 5-3 on April 6, 2026 and never took effect; the parish's subsequent June 1, 2026 ordinance is a standalone zoning ordinance, not a moratorium, and was introduced by the Parish President the same night the moratorium failed.",
+     "quote": "April 6, 2026 COMPLETED. Council voted 5 to 3 against 8-month moratorium. Parish President Jewell introduced zoning ordinance for data centers. ... The ordinance has passed, so the question is no longer whether to have rules."
+    },
+    {
+     "url": "https://www.heraldguide.com/featured/parish-council-rejects-8-month-moratorium-on-new-data-centers/",
+     "title": "Parish council rejects 8-month moratorium on new data centers",
+     "publisher": "Herald Guide",
+     "document_date": "2026-04-07",
+     "source_type": "news",
+     "supports": "Contemporaneous news confirmation of the same 5-3 rejection vote on the proposed data-center moratorium.",
+     "quote": "Parish council rejects 8-month moratorium on new data centers"
+    },
+    {
+     "url": "https://www.heraldguide.com/news/parish-council-unanimously-approves-first-data-center-regulations/",
+     "title": "Parish Council unanimously approves first data center regulations",
+     "publisher": "Herald Guide",
+     "source_type": "news",
+     "supports": "Confirms the June 1, 2026 zoning ordinance (Ordinance No. 26-6-3) that followed was a standalone permanent zoning ordinance, not a re-vote or replacement of a moratorium that was ever in force.",
+     "quote": "The Parish Council unanimously approved an..."
+    }
+   ],
+   "notes": "REMOVE: the proposed 8-month data-center moratorium (File No. 2026-0114) was never adopted -- the Parish Council voted 5-3 against it on April 6, 2026, confirmed by both the parish's own record (via DataCenterSCP's timeline, sourced to Legistar/agenda materials) and contemporaneous Herald Guide news coverage. No moratorium instrument was ever in force in St. Charles Parish; the permanent data-center zoning ordinance adopted June 1, 2026 (Ordinance No. 26-6-3) is an independent, non-moratorium instrument introduced by the Parish President the same night the moratorium failed, not something that 'replaced' a pause that existed. The row's own current_status text already reaches this same conclusion ('No moratorium was ever in force'), so this row should not exist in the moratorium inventory at all; the underlying data-center-regulation story belongs, if anywhere, in a non-moratorium ordinance dataset, not here."
+  }
+ ]
+}

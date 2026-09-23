@@ -3,12 +3,13 @@
 
 Every local infrastructure moratorium in the inventory for Massachusetts, current through **September 23, 2026**.
 
-**10 instruments** — 7 in force, 2 pending, 1 past.
+**15 instruments** — 9 in force, 5 pending, 1 past.
 
 State policy is tracked separately: **5 actions** (5 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
+| Agawam | City | 2026-09-08 | data center | 🟢 Active |
 | Chesterfield | Town | 2026-06-24 | battery storage | 🟢 Active |
 | Everett (restriction proposal, not moratorium) | City | 2026-06-22 | data center | 🟢 Active |
 | Gill | Town | 2026-05-04 | data center, battery storage | 🟢 Active |
@@ -17,10 +18,30 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 | Leominster | City | Unverified | data center, battery storage | 🟡 Pending |
 | Lowell | City | 2026-03-10 | data center | 🟢 Active |
 | Malden | City | 2026-05-05 | data center | 🟢 Active |
+| Northampton | City | Unverified | data center | 🟡 Pending |
+| Plymouth | Town | Unverified | data center | 🟡 Pending |
 | Shutesbury | Town | 2025-09-30 | data center | ⚪ Expired |
+| Southbridge | Town | Unverified | data center | 🟡 Pending |
 | Westfield | City | 2026-07-06 | data center | 🟢 Active |
+| Westfield | City | 2026-02-05 | battery storage | 🟢 Active |
 
 ## Detailed entries
+
+### Agawam
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** September 8, 2026
+- **Normalized date:** `2026-09-08` (exact)
+- **Duration:** 270 days
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ma-agawam-2026`
+- **Legal basis:** TOR-2026-4
+- **What prompted it:** Statewide surge in data center proposals; council wanted time to draft a zoning ordinance
+- **Affected projects:** None named; preemptive
+- **Detailed status:** Active as of 2026-09-23; a preliminary permanent zoning ordinance is being drafted for a fall 2026 public hearing. The same Sept. 8 meeting also banned cryptocurrency ATMs citywide (a separate, unrelated ordinance, not a moratorium).
+- **Outcome:** Preliminary ordinance to be drafted this fall with a further public hearing
 
 ### Chesterfield
 
@@ -150,6 +171,38 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Detailed status:** Adopted; one-year pause on data centers to allow Economic Development Committee study.
 - **Outcome:** One-year moratorium on data centers adopted unanimously by the City Council.
 
+### Northampton
+
+- **Type:** City
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** One year, with an option for a 180-day extension
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ma-northampton-undated`
+- **Legal basis:** Proposed ordinance amendment (City Council President Rachel Maiore)
+- **What prompted it:** Growing statewide data-center controversy; no active proposal but council wants to get ahead of one
+- **Affected projects:** None; preemptive
+- **Detailed status:** Pending as of 2026-09-23; joint public hearing before the Planning Board and Legislative Matters Committee scheduled for Sept. 24, 2026 (one day after this research date). Not yet enacted. A 10-member data center study committee was formed Sept. 17, 2026 in parallel. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Outcome:** Not yet decided
+
+### Plymouth
+
+- **Type:** Town
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** One year (October 17, 2026 - October 16, 2027) if approved at Fall Town Meeting
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ma-plymouth-undated`
+- **Legal basis:** Fall Annual Town Meeting Article 16 (Zoning Bylaw Amendment - Data Centers Zoning)
+- **What prompted it:** Statewide data-center controversy; no active application but board wants time to set up safeguards
+- **Affected projects:** None; preemptive, excludes ancillary data storage tied to another principal use (e.g., hospitals)
+- **Detailed status:** Pending as of 2026-09-23; Select Board voted unanimously Aug. 25, 2026 to recommend the article; Town Meeting vote scheduled Oct. 17, 2026, which has not yet occurred. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Awaiting Fall Town Meeting vote
+
 ### Shutesbury
 
 - **Type:** Town
@@ -166,6 +219,22 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Detailed status:** The temporary moratorium (Special Town Meeting Article 10, effective through 2026-06-30) expired on schedule. No article proposing a permanent Section 8.13 data center zoning bylaw appeared anywhere on the 33-article warrant for the 2026 Annual Town Meeting (held 2026-05-09), and the town's official Zoning Bylaw Maps and Amendments page (checked 2026-07-31) still lists only the September 2025 temporary moratorium among recent amendments, with no 2026 entry. Data centers are therefore currently unregulated by any dedicated Shutesbury zoning provision.
 - **Outcome:** Moratorium adopted with data centers listed as prohibited in all four zoning districts (RR, FC, TC, LW); Planning Board anticipated a full bylaw amendment for spring 2026 Town Meeting.
 
+### Southbridge
+
+- **Type:** Town
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Up to 12 months, with up to two additional 180-day extensions possible
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ma-southbridge-undated`
+- **Legal basis:** Proposed zoning amendment (Data Center / BESS moratorium), referred by Town Council 9-0 on Aug. 10, 2026
+- **What prompted it:** AO campus data-center speculation; concerns over water/aquifer, grid capacity, noise, emergency response
+- **Affected projects:** None; no data-center application filed, though the AO campus site has been publicly discussed as a possible location
+- **Detailed status:** Pending as of 2026-09-23; joint Town Council/Planning Board public hearing held Sept. 16, 2026, but the Council had not taken a final vote. Under the town's process, the Council must read the ordinance at three meetings before final adoption. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Outcome:** Awaiting Planning Board recommendation and Council readings
+
 ### Westfield
 
 - **Type:** City
@@ -181,6 +250,22 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Affected projects:** —
 - **Detailed status:** Active as of 2026-07-31; one-year moratorium effective through 2027-07-06.
 - **Outcome:** —
+
+### Westfield
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** February 5, 2026 (first reading, unanimous); second reading Feb. 19, 2026
+- **Normalized date:** `2026-02-05` (exact)
+- **Duration:** Interim restriction through September 30, 2026
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `ma-westfield-2026-2`
+- **Legal basis:** Municipal Code Section 5-31, Interim Restriction for Battery Energy Storage Systems
+- **What prompted it:** State model BESS ordinance and Oct. 1, 2026 state deadline for local consolidated-permit ordinances; no local BESS regulations existed
+- **Affected projects:** None named; preemptive, tied to the state's Oct. 1, 2026 BESS permitting deadline
+- **Detailed status:** Active as of 2026-09-23; set to expire Sept. 30, 2026 (about one week after this research date) unless extended or superseded by the separate permanent BESS zoning amendment still in committee.
+- **Outcome:** City developing local BESS zoning ordinance (setbacks, siting) in parallel; a separate permanent zoning amendment (buffer zones, WRPD prohibition) remained in committee as of March 2026
 
 ---
 

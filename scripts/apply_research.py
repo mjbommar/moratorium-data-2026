@@ -520,6 +520,12 @@ def main() -> int:
         if args.no_candidates:
             continue
         for cand in data.get("new_candidates", []):
+            # Accept a USPS code in `state` (QA packets span states and agents
+            # often write "CO"); the inventory's `state` column holds the name.
+            if len(cand.get("state", "")) == 2:
+                full = {v: k for k, v in STATE_ABBREV.items()}.get(cand["state"].upper())
+                if full:
+                    cand["state"] = full
             conf = cand.get("confidence")
             if conf is not None and conf < args.min_confidence:
                 skipped.append(f"{path.name}: candidate {cand['jurisdiction']} confidence {conf}")
@@ -547,10 +553,34 @@ def main() -> int:
                     and cand_year and existing_year and cand_year > existing_year
                 ):
                     continue
+                # The mirror case: the candidate is an earlier instrument that has
+                # already ended and the existing row is its successor (Zeeland
+                # Charter Township, MI: Resolution 1027 of 2026-03-03, repealed
+                # and replaced on 2026-09-01).
+                cand_iso = (cand.get("date_enacted_iso") or "").strip()
+                existing_iso = (existing.get("date_enacted_iso") or "").strip()
+                if (
+                    cand.get("enacted_status") in TERMINAL_STATUSES
+                    and len(cand_iso) == 10 and len(existing_iso) == 10
+                    and cand_iso < existing_iso
+                ):
+                    continue
                 # Distinct, identifiable instruments in the same jurisdiction are
                 # distinct rows (see instrument_key). Only treat as a duplicate
                 # when the instruments match, or when either side is unidentifiable.
                 if not cand_instrument or not existing_instrument:
+                    # Without instrument numbers, fall back to sector scope: a
+                    # battery-storage pause and a data-center pause adopted by the
+                    # same body are separate instruments (Renton WA, Skagit County
+                    # WA, Westfield MA in the 2026-09-23 QA pass). Only treat as a
+                    # duplicate when the sector sets overlap.
+                    try:
+                        cand_sectors = set(cand.get("sectors") or [])
+                        existing_sectors = set(json.loads(existing.get("sectors") or "[]"))
+                    except (ValueError, TypeError):
+                        cand_sectors, existing_sectors = set(), set()
+                    if cand_sectors and existing_sectors and not (cand_sectors & existing_sectors):
+                        continue
                     dupe = existing
                     break
                 if cand_instrument == existing_instrument:
