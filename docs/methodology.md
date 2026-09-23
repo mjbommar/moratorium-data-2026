@@ -172,75 +172,75 @@ enforces the codebook's one valid `duration_days`/`duration_kind` combination;
 `geocode_inventory.py` plus declared overrides fill coordinates; the generators
 rebuild every artifact; then the validator runs again.
 
-### The 2026-09-23 pass: an agent swarm with an evidence archive
+### The September 2026 update: many helpers, and a saved copy of every source
 
-The September refresh ran the cycle above at full scale for the first time, and
-added two things the v2026.07 procedure lacked.
+In September 2026 we ran this cycle at full size for the first time. We also
+added two things it had lacked.
 
-**A written, tested procedure for the researchers.** `work/research-process.md`
-gives each agent one state, its packet, the exact search and fetch commands,
-the decision rules (when a row is `expired` versus `unresolvable`, what counts
-as a pending instrument, what is a permanent ban and therefore out of scope),
-and the output contract. It was piloted on Nevada (Sonnet 5) and Alabama (Opus
-5.5) and revised from their reports before 29 more agents ran it. Each agent
-handled the two tasks separately: *Process A* rechecks every packet row against
-primary sources; *Process B* searches the whole state, sector by sector, for
-instruments the inventory lacks, including statewide roundups whose full
-jurisdiction lists sit in embedded map data.
+**Written steps, tested first.** The research was done by AI helpers, each
+given one state. Every helper followed the same written steps in
+`work/research-process.md`. The steps list the search and download commands to
+use. They say how to decide hard cases, such as when a row has expired and
+when we simply cannot tell. They also say that a permanent ban is not a
+moratorium, so it stays out of the list. We tried the steps on Nevada and
+Alabama first, fixed what those runs showed, and then sent them to 29 more
+helpers.
 
-**An archive of every cited source.** `scripts/save_source.py` fetches a URL
-through bc-web (plain HTTP first, then a real browser for JavaScript portals and
-Cloudflare), stores the PDF plus extracted text (page-level OCR for scans) or the
-HTML plus readability markdown under `work/sources/<ST>/`, and appends a manifest
-line with the final URL, status, tier used, and body hash.
-`scripts/check_evidence_archived.py` is a merge gate: an answer file citing a
-URL that is not in the manifest with non-empty text is refused. The result is
-that every value in the September snapshot traces to a page we hold a copy of,
-not a link that may rot.
+Each helper did two jobs. First it rechecked every row on its to-do list
+against the town's own records. Then it searched the whole state for moratoria
+we did not have. That search covered all five kinds of project, and it read
+the statewide news roundups that list many towns at once.
 
-Coverage of the pass: all 296 worklist rows decided, 520 candidates admitted
-across all 50 states, 2,817 sources archived, 1,565 field changes applied with
-zero conflicts. Three quality rules came out of the pilots and are now in the
-procedure: always qualify a jurisdiction name with its state (Wells, Nevada is
-not Wells, Maine), treat a `--site` search that returns unrelated pages as no
-result rather than a result, and keep helper files in a private folder because
-the agents share a scratchpad (one agent's build script overwrote another
-state's answer file once; the file was rebuilt and re-gated).
+**A saved copy of every source.** `scripts/save_source.py` downloads a web page
+or a document and keeps a copy under `work/sources/`. If a page needs a real
+web browser to open, the script uses one. If a document is a scanned image, the
+script reads the text from the picture. It also notes where the copy came from
+and a fingerprint of its contents, so anyone can confirm the copy is unchanged.
+Before any finding is merged, `scripts/check_evidence_archived.py` confirms that
+every source it cites was saved. So each fact in the data points to a copy we
+hold, not only to a link that may break.
 
-### QA/QC of the 2026-09-23 pass
+The update decided all 296 rows on the to-do list and added 520 new ones. It
+saved about 2,800 sources and made 1,565 changes, with no clashes at merge time.
+We learned three rules the hard way, and they are now in the written steps:
 
-The refresh doubled the inventory, and 276 of its 520 additions carried
-pre-August adoption dates, so four QA rounds were run before publication. Each
-wrote decision files through the same schema, merge guard and audit log as the
-research (`work/answers/qa1`, `qa3-gaps`, `qa4`, `qa5`; log in
-`work/qa-progress-2026-09-23.md`).
+- Always search with the state's name. Wells, Nevada is not Wells, Maine.
+- A search limited to one website that returns pages about something else has
+  found nothing.
+- Keep your working files in your own folder. The helpers shared one scratch
+  folder, and once one helper's script overwrote another state's findings.
+  That state's findings were rebuilt and checked again.
 
-1. **Adversarial audit of every new row.** Auditors were told to assume each
-   row wrong and to establish from the archived text that it was a temporary
-   pause (not a ban or zoning rule), dated by its own adoption vote (not a
-   first reading or an earlier instrument), and not a duplicate. Procedure:
-   `work/qa-process.md`.
-2. **Blind re-verification.** A seeded random sample of 40 rows (new and
-   older) went to agents who saw only the jurisdiction name and were barred
-   from the inventory and answer files (`work/qa-blind-process.md`); their
-   independent findings were then compared with the rows.
-3. **External completeness check.** Nine public trackers were scraped,
-   archived and matched against the inventory in both directions; every gap
-   they named was researched (`work/qa3-gaps-process.md`), and every
-   high-priority contradiction was settled against primary sources.
-4. **Deterministic label checks, then targeted fixes.** Rules flagged
-   extended rows with no end date, `duration_days` disagreeing with the
-   duration text, sectors disagreeing with the instrument text, same-name
-   rows, rows past their term and rows missing a date; agents resolved each
-   flag (`work/qa4-process.md`). Coordinates were reverse-geocoded against the
-   county each row names.
+### Checking the September 2026 update
 
-What changed as a result: 14 rows removed (permanent bans, proposals never
-adopted, one row with no record), 243 added from tracker gaps, 37 rows
-re-geocoded, about 640 fields corrected, and the merge and validation scripts
-tightened (sector-aware and predecessor-aware duplicate detection, per-state
-evidence checks, county-qualified geocoding). The blind sample matched the
-records on adoption month and status in 34 of 40 cases.
+The update more than doubled the list, and 276 of its 520 new rows were
+adopted before August. That seemed like too many to have missed. So before
+publishing we checked the work four ways. Each check wrote its findings in the
+same format as the research, and the same merge step applied them. The full
+record is in `work/qa-progress-2026-09-23.md`.
+
+1. **Re-read every new row.** Checkers were told to assume each row was wrong
+   and try to prove it. Was it a pause and not a ban? Was the date the day of
+   the final vote, not a first reading? Was it already in the list under
+   another name? The steps are in `work/qa-process.md`.
+2. **Check a random sample blind.** We picked 40 rows at random, some new and
+   some older. New checkers saw only the place name. They were not allowed to
+   open our data or our notes (`work/qa-blind-process.md`). Then we compared
+   what they found with what we had. They matched on 34 of the 40.
+3. **Compare with other lists.** Nine other groups publish lists of local
+   moratoria. We saved each list and matched it against ours, both ways. We
+   looked up every place they had that we lacked (`work/qa3-gaps-process.md`).
+   Where a list disagreed with one of our rows, we went back to the source.
+4. **Check that each row agrees with itself.** A script looked for rows whose
+   parts did not match. One example: an extended moratorium with no new end
+   date. Another: a row whose text says "solar" while its sector list leaves
+   solar out. Helpers fixed each one (`work/qa4-process.md`). We also checked
+   that each row sits on the map in the county it names.
+
+The checks removed 14 rows. Most were permanent bans or proposals that never
+passed. They added 243 rows that other lists had and we lacked. They moved 37
+rows to the right county and changed about 640 other facts. The checks also
+made the merge scripts stricter, so the same mistakes are caught next time.
 
 A property worth preserving: every step is **idempotent**. Re-running the merge
 over already-applied answers is a clean no-op, which is what makes incremental
@@ -279,9 +279,10 @@ The original document corpus (~12 GB) is not in this repository (it's hosted sep
 | Document discovery (through v2026.04) | OpenAI Codex CLI with web-search | `gpt-5.5` at medium reasoning effort |
 | State-month chronology (v2026.07 sweep) | OpenAI Codex CLI with web-search | `gpt-5.6-sol` at high reasoning effort |
 | Status, verification, and legislation research (v2026.07) | Claude Code subagents | `claude-sonnet-5` |
-| Row recheck and statewide discovery (2026-09-23 pass) | Claude Code subagents coordinated by `claude-fable-5-1` | `claude-sonnet-5` (47 answer files), `claude-opus-5-5` (7 largest packets) |
-| Web search (2026-09-23 pass) | bc-web `search --fuse` (Exa + Google via SerpAPI, reciprocal rank fusion) | n/a |
-| Source archiving (2026-09-23 pass) | `scripts/save_source.py` over bc-web, pdftotext, Tesseract | n/a |
+| Row recheck and statewide discovery (2026-09-23 update) | Claude Code subagents coordinated by `claude-fable-5-1` | `claude-sonnet-5` (47 answer files), `claude-opus-5-5` (7 largest packets) |
+| Four rounds of checks (2026-09-23 update) | Claude Code subagents, coordinated by `claude-fable-5-1` and then `claude-opus-5-5` | `claude-sonnet-5` for most checks, `claude-opus-5-5` for Ohio, Michigan, the tracker comparison, and the hardest disagreements |
+| Web search (2026-09-23 update) | bc-web `search --fuse` (Exa + Google via SerpAPI, reciprocal rank fusion) | n/a |
+| Source archiving (2026-09-23 update) | `scripts/save_source.py` over bc-web, pdftotext, Tesseract | n/a |
 | SerpAPI ordinance search | `google-search-results` Python package | n/a |
 | Document download | Playwright + stealth wrappers | n/a |
 | OCR (image-based PDFs) | EasyOCR + Tesseract | n/a |
@@ -303,11 +304,11 @@ inheriting them from the operator's interactive config, and refuses a batch abov
 state-month research is retrieval and summarization against public records, and
 raising the reasoning tier buys very little on that kind of work.
 
-The 2026-09-23 pass cost about 10.8 million tokens across 31 Claude Code
-research agents (a median of roughly 350,000 tokens and 130 tool calls per
-state agent, 10 to 50 minutes each), plus roughly 3,000 Exa and SerpAPI queries.
-The expensive step is reading sources, not searching: each agent fetched and
-read on the order of 50 to 250 pages.
+The September 2026 research used about 10.8 million tokens, the units AI models
+are billed in, across 31 helpers. A typical state took one helper 10 to 50
+minutes. The checks that followed used about as much again across 30 more
+helpers. Searching is cheap. Reading is the costly part, since each helper
+opened and read somewhere between 50 and 250 pages.
 
 Anyone reproducing the sweep should scope it first -- `--only`, `--start`, and
 `--end` narrow the run, and `--dry-run` prints the work plan without spending

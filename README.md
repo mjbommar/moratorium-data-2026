@@ -22,7 +22,7 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 |  |  |
 |---|---|
 | 📄 **Read the paper** | [April 2026 draft PDF](paper/moratorium-nation-2026-04-30.pdf) · [first edition on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6242898) |
-| 🗺️ **Find your state** | [Browse the 35-state index →](states/README.md) |
+| 🗺️ **Find your state** | [Browse the 47-state index →](states/README.md) |
 | 📊 **Get the data** | [`data/moratorium_inventory.csv`](data/moratorium_inventory.csv) (Excel-ready) |
 | 📖 **Read the FAQ** | [What is a moratorium? Why does this dataset exist? →](docs/FAQ.md) |
 | 🧪 **Reproduce the analysis** | [`docs/methodology.md`](docs/methodology.md) |
@@ -38,7 +38,7 @@ This repository contains four kinds of artifacts, each in its own folder:
 |--------|---------------|----------|
 | [`states/`](states/) | One human-readable Markdown page per state, listing every moratorium in plain English. | Anyone who wants to know what's happening in a specific state. |
 | [`data/`](data/) | The underlying data — CSV files for spreadsheets, JSON for programmers. | Journalists, analysts, researchers. |
-| [`figures/png/`](figures/png/) | Eight maps as PNG images (with PDF and SVG copies in sibling folders for print). | Anyone making slides, articles, or reports. |
+| [`figures/png/`](figures/png/) | Seven maps as PNG images, with PDF and SVG copies in the folders beside it for print. | Anyone making slides, articles, or reports. |
 | [`tables/`](tables/) | LaTeX-formatted tables (already pre-built, drop-in). | Academics writing papers. |
 
 We also include the [scripts](scripts/) and [methodology](docs/methodology.md) so anyone can re-run the analysis and audit our choices. Everything outside `data/` is generated: `make all` rebuilds every table, figure, and page from the two source CSVs, and `make validate` checks those CSVs against the [codebook](docs/codebook.md).
@@ -67,12 +67,12 @@ As of **September 23, 2026**:
   - **93 replaced** by permanent regulations
   - **50 expired** without a documented replacement
   - **8 rescinded** before their original expiration
-- **47 states** have at least one moratorium; **3 states** (Hawaii, West Virginia, Wyoming) have none we've identified after a targeted search. Alaska, Arizona, Delaware, Rhode Island, and Vermont entered the dataset in the September 2026 refresh
+- **47 states** have at least one moratorium. We searched the other **3 states** (Hawaii, West Virginia, and Wyoming) and found none. Alaska, Arizona, Delaware, Rhode Island, and Vermont joined the list in the September 2026 update
 - **Top 10 states by instrument count**: Ohio (160), New York (150), Michigan (145), Georgia (70), North Carolina (69), Iowa (57), Tennessee (45), Washington (42), Wisconsin (40), Florida (35)
-- **Sectors covered**: most moratoria target **data centers** (~84% mention them); **battery storage** is next (~19%, mostly New York town local laws added in the September QA pass), then **cryptocurrency mining**, **solar**, and **wind**
+- **Sectors covered**: most moratoria are about **data centers** (about 84% mention them). **Battery storage** comes next (about 19%). Most of those are New York town pauses added in September 2026. Smaller numbers cover **cryptocurrency mining**, **solar**, and **wind**
 - **438 state-level bills** tracked in 2025–2026, plus **2 binding non-bill state-policy actions**. These include moratorium proposals, local-moratorium authority/preemption, permitting limits, and utility-grid restrictions. Filter the typed `policy_instrument_type`, `policy_mechanism`, `legal_effect_status`, and `scope_of_action` columns rather than treating every state row as a moratorium.
-- **348 moratorium texts** read line-by-line and coded against a 44-clause taxonomy (the confidence-≥-0.4 subset of the 526 successful structured extractions in [`data/structured_extractions.jsonl`](data/structured_extractions.jsonl)). ⚠️ This cohort covers 211 jurisdictions and was collected **before 2026-04-28** — it was not re-run in v2026.07, so the clause-level percentages describe roughly a third of the current inventory. See [known gaps](docs/known-gaps.md)
-- **1289 of 1291 instruments geocoded** with WGS84 lat/lon (99.6% coverage); the 2 blanks are aggregate meta-rows that aren't real geographic points. The September 2026 QA pass found and fixed 37 rows geocoded to the wrong county of a same-name township ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
+- **348 moratorium texts** read line-by-line and coded against a 44-clause taxonomy (the confidence-≥-0.4 subset of the 526 successful structured extractions in [`data/structured_extractions.jsonl`](data/structured_extractions.jsonl)). ⚠️ This cohort covers 211 jurisdictions and was collected **before 2026-04-28** — it was not re-run in v2026.07, so the clause-level percentages describe only about a quarter of the current inventory. See [known gaps](docs/known-gaps.md)
+- **1289 of 1291 instruments geocoded** with WGS84 lat/lon (99.6% coverage); the 2 blanks are aggregate meta-rows that aren't real geographic points. In September 2026 we found 37 rows placed in the wrong county, because many townships share a name, and fixed them ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
 
 Full state-by-state breakdown: [**states/README.md**](states/README.md).
 
@@ -143,7 +143,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-This is a working dataset that will be refreshed periodically. The working snapshot is current through **2026-09-23**; the latest tagged release is **v2026.07**.
+This is a working dataset, and we update it often. This copy is current through **September 23, 2026**. The latest tagged release is still **v2026.07**.
 
 ---
 

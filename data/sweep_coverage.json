@@ -67,14 +67,13 @@
         "AZ",
         "DE",
         "HI",
-        "ID",
-        "LA",
-        "RI",
+        "NH",
         "VT",
         "WV",
         "WY"
       ],
-      "field_note": "swept_states_with_no_adoptions_in_window means no local instrument was ADOPTED during this window. It does not mean the state has no moratoria at all: Idaho, for example, carries a 2025 Kootenai County instrument in the inventory but adopted nothing new between 2026-05-01 and 2026-07-31."
+      "field_note": "swept_states_with_no_adoptions_in_window means no local instrument was ADOPTED during this window. It does not mean the state has no moratoria at all: Idaho, for example, carries a 2025 Kootenai County instrument in the inventory but adopted nothing new between 2026-05-01 and 2026-07-31.",
+      "correction_2026_09_23": "The v2026.07 list named ten states: AK, AZ, DE, HI, ID, LA, RI, VT, WV, WY. The 2026-09-23 search and QA found May-July adoptions the sweep missed in Idaho (Elmore County 2026-07-02, Bannock County 2026-07-30), Louisiana (Iberville Parish 2026-07-15) and Rhode Island (Westerly 2026-07-27), and showed New Hampshire's only instrument (Nottingham) was ratified 2026-09-08, outside the window. The sweep also missed 161 adoptions inside the window in states it did cover, mostly Ohio and Michigan townships, so counts for this window are lower bounds too."
     }
   ],
   "unswept_caveat": "All 50 states were swept for the 2026-05-01/2026-07-31 window, so counts in it are no longer coverage-limited. Earlier windows were not swept this way; treat pre-2026-05 counts as lower bounds.",

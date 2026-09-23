@@ -144,50 +144,51 @@ def changes_section(f: dict) -> str:
     """
     return f"""{CHANGES_START}
 <section class="release-notes">
-  <div class="stamp">Data refresh &middot; {RELEASE_DATE}</div>
+  <div class="stamp">Data update &middot; {RELEASE_DATE}</div>
   <h2>The September picture</h2>
-  <p class="lede">The inventory more than doubled in one day of research and QA, and most of
-  that is not new policy: it is towns and townships that had already acted and that earlier
-  coverage missed. The local inventory contains {f['rows']} instruments
-  across {f['states']} states; {f['in_force']} remain in force.</p>
+  <p class="lede">The list more than doubled in one update. Most of that is not new
+  activity. These are towns and townships that had already voted for a pause, and that
+  earlier searches missed. The list now holds {f['rows']} moratoria in {f['states']} states,
+  and {f['in_force']} of them are in force.</p>
 
-  <h3>What changed in this refresh</h3>
+  <h3>What changed in this update</h3>
   <ul>
-    <li><strong>Every stale row was rechecked against primary sources.</strong>
-      296 rows were flagged by the worklist (expired on paper, extension without a recorded
-      end, stale proposals, open `[VERIFY]` markers) and every one was decided: 84 status
-      changes, 141 corrections, 75 confirmations, 6 left unresolvable with the portals
-      checked on record. The current mix is {f['active']} active and {f['extended']} extended,
-      with {f['expired']} expired, {f['replaced']} replaced, and {f['rescinded']} rescinded.</li>
-    <li><strong>758 instruments were added, then audited.</strong> A statewide search of all 50
-      states added 520; four QA rounds audited every one, re-verified a blind random sample,
-      checked the file against nine public trackers, and added 243 more they named (127 New York
-      battery-storage local laws), while removing 14 rows that proved to be permanent bans or
-      never adopted. Only Hawaii, West Virginia and Wyoming have no local instrument.</li>
-    <li><strong>Every cited source is archived.</strong> 3,700 pages and PDFs behind this
-      pass were fetched and stored with their hashes, and the merge refuses any finding whose
-      evidence is not on file. Links can rot; the record behind each row no longer depends on them.</li>
+    <li><strong>We rechecked every row that was out of date.</strong> On September 23, 296 rows
+      needed a fresh look. Some had passed their end date. Others were old proposals or had a
+      fact we had not confirmed. We changed the status of 84, fixed facts in 141, and confirmed
+      75. Six could not be settled. Today {f['active']} are active and {f['extended']} extended.
+      Another {f['replaced']} were replaced by permanent rules, {f['expired']} ran out, and
+      {f['rescinded']} were cancelled early.</li>
+    <li><strong>We searched every state, then checked the results four ways.</strong> The
+      search added 520 moratoria. We re-read each one against its source. We also checked a
+      random sample blind and compared our list with nine others. That comparison added 243
+      more, including 127 New York town pauses on battery storage. We removed 14 rows that
+      turned out to be permanent bans or proposals that never passed. Only Hawaii, West
+      Virginia, and Wyoming have none.</li>
+    <li><strong>We saved a copy of every source.</strong> That is about 3,700 pages and
+      documents. We will not add a fact unless its source has been saved. A link can break,
+      but the record behind each row no longer depends on it.</li>
   </ul>
 
-  <h3>State restrictions are a separate policy layer</h3>
-  <p>The state tracker distinguishes {f['bills']} bills from
-  {f['state_policy_actions'] - f['bills']} binding non-bill actions, with
-  {f['bills_enacted']} enacted bills. <a href="https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops">New York Executive Order 62</a>
-  holds specified state-agency permits in abeyance while a statewide environmental review
-  proceeds. <a href="https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit">Texas's August 3 directive</a>
-  pauses ERCOT interconnection progress pending an audit. Pennsylvania
-  <a href="https://www.palegis.us/legislation/bills/2025/sb1345">SB 1345</a> would authorize
-  municipal pauses, while <a href="https://www.palegis.us/legislation/bills/2025/sb1359">SB 1359</a>
-  proposes a statewide moratorium; both remain proposals. The state tracker was not
-  re-researched in this pass.</p>
+  <h3>State rules are a separate layer</h3>
+  <p>States act too. We track {f['bills']} state bills, {f['bills_enacted']} of which became
+  law, plus {f['state_policy_actions'] - f['bills']} state actions that are not bills.
+  <a href="https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops">New York Executive Order 62</a>
+  holds some state permits while the state studies the effects of data centers.
+  <a href="https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit">Texas's August 3 order</a>
+  pauses new hookups to the state's main power grid while it is audited. In Pennsylvania,
+  <a href="https://www.palegis.us/legislation/bills/2025/sb1345">SB 1345</a> would let towns
+  pause data centers, and <a href="https://www.palegis.us/legislation/bills/2025/sb1359">SB 1359</a>
+  would pause them statewide. Both are still only proposals. This update did not recheck the
+  state bills.</p>
 
-  <h3>How to read the coverage</h3>
-  <p>All {f['swept_count']} states received a month-by-month sweep for May through July, so that
-  window is the most comparable part of the series. The September pass searched every state
-  as a whole rather than month by month, so August and September counts are far more complete
-  than before but remain lower bounds, and September is current only through the 23rd. Pre-May
-  totals came from document search and opportunistic discovery.
-  <a href="docs/known-gaps.html">Known gaps</a> records the coverage boundaries.</p>
+  <h3>How to read the counts</h3>
+  <p>For May through July, we searched all {f['swept_count']} states month by month. Even that
+  search missed many small towns, as this update showed. This time we searched each state as a
+  whole. So the August and September counts are far better than before, but they are still the
+  fewest there could be. September counts stop at the 23rd. Counts before May came from
+  scattered searches and are low too.
+  <a href="docs/known-gaps.html">Known gaps</a> explains what the list may be missing.</p>
 </section>
 {CHANGES_END}"""
 
@@ -281,12 +282,13 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          rf"\g<1>{f['rows']}\g<2>"),
         ("timeline caption",
          r'<p class="caption">(?:A handful of Washington|Washington logged|Every bar before).*?(?:</p>\s*<p class="source">.*?</p>|</p>)',
-         '<p class="caption">Every bar before 2022 is Washington. Cheap hydro power pulled crypto '
-         'miners into the Columbia Basin, and ten Washington jurisdictions paused them in 2018. '
-         'Then the map went nearly quiet until 2023. Data centers, and in New York battery storage, restarted it: 21 moratoria in 2023, '
-         '61 in 2024, 121 in 2025, and 882 in the first eight months of 2026. June alone '
-         'accounted for 185. September is shown only through September 23 and should not be read as '
-         'a completed month.</p>\n'
+         '<p class="caption">Every bar before 2022 is Washington. Cheap power from dams drew '
+         'crypto miners to the Columbia River region, and ten Washington towns and counties paused '
+         'them in 2018. Then the map went almost quiet until 2023. New York towns came next, with '
+         'pauses on large battery-storage sites: they make up most of the 21 moratoria in 2023 and '
+         'the 61 in 2024. Data centers drove what followed: 121 in 2025 and 882 in the first eight '
+         'months of 2026. June 2026 alone had 185. September counts stop at the 23rd, so that month '
+         'is not complete.</p>\n'
          '  <p class="source">Source: <a href="data/moratorium_inventory.csv" download>'
          'moratorium_inventory.csv</a>, columns <code>date_enacted_iso</code> and '
          f'<code>sectors</code>. The chart plots {f["plotted"]} of {f["rows"]} instruments. '

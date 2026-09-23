@@ -197,15 +197,21 @@
 <p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>300 of the 1291 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>), down from 123 of 222 in v2026.04.4 after a targeted verification pass.</p>
 <h3 id="records-behind-authentication-or-captcha-gates">Records behind authentication or CAPTCHA gates</h3>
 <p>Some primary sources (notably the NC eCourts portal at <code>portal-nc.tylertech.cloud</code>, several Legistar instances, and certain Granicus-archived meetings) are protected by Akamai-style human-verification challenges that defeat automated retrieval. For affected entries, we use the best secondary source (county press releases, local news) and document the evidence ceiling.</p>
-<h3 id="coverage-of-the-may-july-2026-window-v202607">Coverage of the May-July 2026 window (v2026.07)</h3>
-<p><strong>All 50 states were swept</strong> month by month for May, June, and July 2026, so
-counts inside that window are not coverage-limited. This is the first window in
-the dataset's history where that is true.</p>
-<p><strong>10 states recorded no local adoption during the window</strong>: Alaska, Arizona,
-Delaware, Hawaii, Idaho, Louisiana, Rhode Island, Vermont, West Virginia, and
-Wyoming. Those absences are findings, not gaps. Wyoming is the sharpest case --
-Cheyenne's proposed twelve-month moratorium was rejected 9-1 on second reading,
-so the state's absence is a decision its council made, not a place nobody looked.</p>
+<h3 id="coverage-of-the-mayjuly-2026-window-v202607">Coverage of the May–July 2026 window (v2026.07)</h3>
+<p><strong>All 50 states were swept</strong> month by month for May, June, and July 2026. We
+once said this made the counts for those months complete. The September 2026
+update proved that wrong. It found 161 more moratoria adopted in those three
+months, mostly in small Ohio and Michigan townships. The monthly search reached
+counties and cities, but it often missed the smallest towns. Read the May–July
+counts as the fewest there could be, like every other month.</p>
+<p><strong>8 states recorded no local adoption during the window</strong>: Alaska, Arizona,
+Delaware, Hawaii, New Hampshire, Vermont, West Virginia, and Wyoming. The
+first version of this list named ten states. It was wrong about three of them.
+Idaho, Louisiana, and Rhode Island each adopted a moratorium in those months
+that the sweep missed. New Hampshire joins the list because its only moratorium
+passed in September. Wyoming is the clearest case. Cheyenne's council voted
+down a twelve-month moratorium 9 to 1, so Wyoming has none because its council
+said no, not because nobody looked.</p>
 <p><strong>What the sweep was worth.</strong> Conversion changed several states' counts
 dramatically, and none of it was because anything changed on the ground:</p>
 <table>
@@ -247,43 +253,43 @@ step that is partly method, not only events.</p>
 <p>The machine-readable record is <code>data/sweep_coverage.json</code>, derived by
 <code>scripts/update_sweep_coverage.py</code> and mirrored into <code>summary_stats.json</code> under
 <code>sweep_coverage</code>.</p>
-<h3 id="coverage-of-the-augustseptember-2026-pass-and-its-qa-2026-09-23">Coverage of the August–September 2026 pass and its QA (2026-09-23)</h3>
-<p>Every state was searched for new instruments on 2026-09-23, sector by sector,
-and four QA rounds followed the same day, including a cross-check against nine
-public trackers in both directions. The inventory is now far more complete for
-August and September than for any earlier month outside the sweep window. It
-was a <strong>discovery search, not a month-by-month sweep</strong>, so treat
-August–September counts as lower bounds; the May–July window remains the only
-one where absence is a finding. <code>data/sweep_coverage.json</code> records the pass
-under <code>discovery_passes</code>, separate from the systematic <code>windows</code>.</p>
-<p><strong>The May–July sweep was less complete than it claimed.</strong> The discovery pass
-added 161 instruments adopted inside that window, and the QA audit confirmed
-them as real, dated by their own adoption votes. Most are townships and
-villages in Ohio and Michigan, where the month-by-month sweep reached counties
-and cities but not the smallest bodies. The statement above that May–July
-counts are "not coverage-limited" should be read with that correction.</p>
-<p><strong>Battery storage, solar and wind are covered unevenly.</strong> Until the QA pass the
-inventory held battery-storage and renewable moratoria only when they were
-bundled with a data-center pause. The QA added 127 New York town and village
-local laws (mostly battery storage) and about 20 elsewhere, from two
-battery-storage trackers. Other states' standalone battery, solar and wind
-moratoria have not been swept the same way, so their counts are lower bounds,
-and 20 tracker listings in that category were not individually researched.</p>
-<p><strong>Three states have no local instrument</strong> after these searches: Hawaii, West
-Virginia (state law HB 2014 preempts local regulation of large data centers),
-and Wyoming (Cheyenne rejected its proposal).</p>
-<h3 id="extension-and-rescission-events-after-the-cutoff">Extension and rescission events after the cutoff</h3>
-<p>Any moratorium extended, replaced, or rescinded after <strong>2026-09-23</strong> won't be
-reflected until the next release. This pass re-researched every row whose
-recorded term had expired, every extension without a recorded end date, every
-pending row older than 60 days, and every row carrying a <code>[VERIFY]</code> marker.
-1063 instruments are currently in force and many carry sunsets in the next few
-months. The validator lists eleven in-force rows as <code>status.drift</code>. Eight
-(Cedartown GA and seven New York towns) have passed their term with no
-extension, replacement or lapse we could document, and each carries a
-<code>[VERIFY]</code> marker. The other three were checked and are correct: Waterford
-Township MI and East Whiteland Township PA have votes scheduled days after the
-cutoff, and Westfield NY was confirmed from its own minutes.</p>
+<h3 id="coverage-of-the-september-2026-update">Coverage of the September 2026 update</h3>
+<p>On September 23, 2026 we searched every state for moratoria we did not have.
+Then we ran four rounds of checks, including a comparison with nine other
+public lists. The list is now far more complete for August and September than
+before.</p>
+<p>It is still not a full count. This time we searched each state as a whole,
+not month by month. A small town whose only record is a post on social media,
+or a story behind a paywall, can still slip through. So treat the counts for
+August and September as the fewest there could be. <code>data/sweep_coverage.json</code>
+records this search under <code>discovery_passes</code>, apart from the monthly sweep.</p>
+<p><strong>Most of the added moratoria are older, and they are real.</strong> 276 of the 520
+rows this update added were adopted before August. We checked each one against
+its saved source. We also checked a random sample with people who saw only the
+place name. Almost all held up. They come from townships and villages that
+earlier searches did not reach. Other public lists name most of them too.</p>
+<p><strong>Battery storage, solar, and wind are not covered evenly.</strong> Until this update,
+the list included those pauses only when they came bundled with a data center
+pause. The checks added 127 New York town and village pauses, most of them on
+battery storage, and about 20 elsewhere. We have not searched other states for
+these pauses the same way. So their counts are low, and 20 more entries from
+other lists are still waiting to be looked up.</p>
+<p><strong>Three states still have none:</strong> Hawaii, West Virginia, and Wyoming. In West
+Virginia, a state law (HB 2014) stops towns and counties from limiting large
+data centers. In Wyoming, Cheyenne voted its proposal down.</p>
+<h3 id="changes-after-september-23-2026">Changes after September 23, 2026</h3>
+<p>A moratorium can be extended, replaced, or ended at any meeting. Anything that
+happened after September 23, 2026 is not in this update. Before that date we
+rechecked four kinds of rows. We looked at rows past their end date and
+extensions with no new end date. We also looked at proposals more than 60 days
+old and rows with a <code>[VERIFY]</code> note.</p>
+<p>1063 moratoria are in force, and many end in the next few months. The data
+check still flags eleven rows that look out of date. Eight of them, in
+Cedartown, Georgia and seven New York towns, have passed their end date. We
+could not find out what happened next, so each carries a <code>[VERIFY]</code> note. The
+other three are fine. Waterford Township, Michigan and East Whiteland Township,
+Pennsylvania have votes set for the days after September 23. Westfield, New
+York was confirmed from its own minutes.</p>
 <h3 id="disagreement-with-a-sibling-dataset-added-v202607">Disagreement with a sibling dataset (added v2026.07)</h3>
 <p>A sibling research project maintains its own state-level rollup of data-center
 moratoria under different inclusion criteria. Reconciling it against this
@@ -371,7 +377,7 @@ from an earlier release.</p>
 </tbody>
 </table>
 <h2 id="geocoding-caveats-added-v2026042">Geocoding caveats (added v2026.04.2)</h2>
-<p>1289 of 1291 instruments are geocoded to WGS84 lat/lon via OSM Nominatim. The 2 blanks are aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) that aren't real geographic points.</p>
+<p>1289 of 1291 instruments are geocoded to WGS84 lat/lon via Nominatim, the place-name search service of OpenStreetMap (OSM). The 2 blanks are aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) that aren't real geographic points.</p>
 <p><strong>Within-state name ambiguity.</strong> Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:</p>
 <ul>
 <li>Lake Township, OH (Wood County, not Logan County)</li>
@@ -428,18 +434,16 @@ of these by hand each refresh — but check first whether the failure is a class
 geocoder should handle.</p>
 <p><strong>Audit confidence.</strong> Geocoded coordinates were triple-checked across 89 verifications via three independent methods: spot-check against geographic knowledge, Wikipedia GeoSearch reverse-lookup (does the jurisdiction's name appear in nearby Wikipedia pages?), and nearby-page context analysis (when a township has no Wikipedia article, do nearby places confirm the right county?). Across all 89 verifications, <strong>zero confirmed wrong geocodes</strong> (after the 4 manual corrections above). Treat the lat/lon column as ≥99% accurate.</p>
 <p>When new releases add new same-name townships, expect a small number of similar issues until the geocoder catches up.</p>
-<p><strong>The September 2026 QA found the problem at scale and fixed its cause.</strong>
-<code>geocode_inventory.py</code> stripped a jurisdiction's parenthetical county
-("Washington Township (Stark County)") before querying, so every same-name
-township was geocoded as if unqualified. A reverse-geocode check of all
-county-qualified rows found 26 in the wrong county, and a second pass over
-unqualified township names found 10 more plus Caledonia Township, MI: 37 rows
-in all, including several pre-existing ones (Calhoun GA, Jackson Township OH,
-Richfield Township OH, Scioto Township OH, Warrington Township PA). The
-geocoder now queries the county-qualified name first; the ambiguous rows were
-renamed with their county, and the remainder carry declared overrides in
-<code>scripts/apply_geo_overrides.py</code>. The 243 rows added by the QA were
-reverse-geocoded against their named county with no mismatches.</p>
+<p><strong>In September 2026 we found this problem in 37 rows and fixed the cause.</strong>
+To put a row on the map, a script looks up its place name. Our script dropped
+the county from names like "Washington Township (Stark County)" before looking
+them up. So for any township name found in more than one county, it could pick
+the wrong one. We checked every row against the county it names and found 37 in
+the wrong place. A few had been wrong for months, such as Calhoun, Georgia and
+Warrington Township, Pennsylvania. The script now keeps the county in the name.
+We added the county to township names that lacked one. We also placed the rest by
+hand, with the reason written in <code>scripts/apply_geo_overrides.py</code>. The 243 rows
+added in the checks were tested the same way, and none were misplaced.</p>
 <h2 id="what-gets-fixed-in-each-release">What gets fixed in each release</h2>
 <ul>
 <li>New moratoria adopted between releases get added.</li>

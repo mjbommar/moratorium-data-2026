@@ -104,21 +104,31 @@ CLAIMS: list[tuple[str, str, str, str]] = [
     ("docs/known-gaps.md", r"\*\*[\d,]+ of (?:the )?([\d,]+) inventory rows\*\* have at least one such evidence-ceiling note", "rows", "known-gaps verify denominator"),
     ("docs/known-gaps.md", r"(\d+) of [\d,]+ instruments are geocoded", "geocoded", "known-gaps geocoded"),
     ("docs/known-gaps.md", r"[\d,]+ of ([\d,]+) instruments are geocoded", "rows", "known-gaps geocoded denominator"),
-    ("CHANGELOG.md", r"\| Local moratorium instruments \| \*\*([\d,]+)\*\* \|", "rows", "CHANGELOG current rows"),
-    ("CHANGELOG.md", r"\| Currently in force \(active \+ extended\) \| \*\*([\d,]+)\*\* \|", "in_force", "CHANGELOG current in-force"),
-    ("CHANGELOG.md", r"\| Pending / proposed \| \*\*(\d+)\*\* \|", "pending", "CHANGELOG current pending"),
-    ("CHANGELOG.md", r"\| Past \(replaced \+ expired \+ rescinded\) \| \*\*(\d+)\*\* \|", "past", "CHANGELOG current past"),
-    ("CHANGELOG.md", r"\| Rows carrying `\[VERIFY\]` markers \| \*\*(\d+)\*\* \|", "verify_rows", "CHANGELOG current verify rows"),
-    ("CHANGELOG.md", r"\| State bills tracked \| \*\*([\d,]+)\*\* \|", "bills", "CHANGELOG current bills"),
-    ("CHANGELOG.md", r"\| State policy actions, including non-bill instruments \| \*\*([\d,]+)\*\* \|", "state_policy_actions", "CHANGELOG current policy actions"),
-    ("CHANGELOG.md", r"\| States with at least one local instrument \| \*\*(\d+)\*\* \|", "states", "CHANGELOG current states"),
-    ("CHANGELOG.md", r"([\d,]+) of [\d,]+ bills now\s*\ncarry a researched final disposition", "bills_typed", "CHANGELOG typed bills"),
-    ("CHANGELOG.md", r"carry a researched final disposition, including \*\*(\d+) enacted\*\*", "bills_enacted", "CHANGELOG enacted bills"),
-    ("CHANGELOG.md", r"\*\*All (\d+) states were swept\*\*", "swept", "CHANGELOG swept states"),
-    ("CHANGELOG.md", r"\*\*(\d+) states recorded no local adoption in the window\*\*", "swept_empty", "CHANGELOG empty-sweep states"),
+    # CHANGELOG claims are checked against the NEWEST entry only (see
+    # changelog_head below). Older entries are history: their numbers were true
+    # when written and must never be "fixed" to today's data.
+    ("CHANGELOG.md", r"\| Moratoria in the list \|[^\n]*\*\*([\d,]+)\*\* \|", "rows", "CHANGELOG current rows"),
+    ("CHANGELOG.md", r"\| In force \(active or extended\) \|[^\n]*\*\*([\d,]+)\*\* \|", "in_force", "CHANGELOG current in-force"),
+    ("CHANGELOG.md", r"\| Proposed, not yet voted on \|[^\n]*\*\*(\d+)\*\* \|", "pending", "CHANGELOG current pending"),
+    ("CHANGELOG.md", r"\| Ended \(replaced, expired, or rescinded\) \|[^\n]*\*\*(\d+)\*\* \|", "past", "CHANGELOG current past"),
+    ("CHANGELOG.md", r"\| Rows we still want to confirm \(`\[VERIFY\]`\) \|[^\n]*\*\*(\d+)\*\* \|", "verify_rows", "CHANGELOG current verify rows"),
+    ("CHANGELOG.md", r"\| States with at least one \|[^\n]*\*\*(\d+)\*\* \|", "states", "CHANGELOG current states"),
     ("docs/known-gaps.md", r"\*\*All (\d+) states were swept\*\*", "swept", "known-gaps swept states"),
     ("docs/known-gaps.md", r"\*\*(\d+) states recorded no local adoption during the window\*\*", "swept_empty", "known-gaps empty-sweep states"),
 ]
+
+
+def changelog_head(text: str) -> str:
+    """The newest CHANGELOG entry: from the first '## ' heading to the second.
+
+    `--fix` rewrites digits in place, so letting it search the whole file once
+    overwrote the 2026-08-19 entry's table with later figures. History is not a
+    claim about the current data.
+    """
+    starts = [m.start() for m in re.finditer(r"^## ", text, re.M)]
+    if not starts:
+        return text
+    return text[starts[0]: starts[1] if len(starts) > 1 else len(text)]
 
 
 def main() -> int:
@@ -140,6 +150,8 @@ def main() -> int:
             problems.append(f"{filename}: file not found")
             continue
         text = path.read_text(encoding="utf-8")
+        if filename == "CHANGELOG.md":
+            text = changelog_head(text)
         m = re.search(pattern, text)
         if not m:
             missing += 1

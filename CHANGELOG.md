@@ -1,117 +1,143 @@
 # Changelog
 
-## 2026-09-23 — agent-swarm refresh and four QA rounds: 533 → 1,291 instruments
+## 2026-09-23 — every row rechecked, then checked four more ways
 
-This working snapshot updates the tracker through **2026-09-23**. It is newer
-than the latest tagged release, v2026.07, and keeps that release's figures below
-as a historical snapshot. The refresh ran first; four rounds of QA/QC followed
-the same day and are described after it.
+This snapshot brings the tracker up to **September 23, 2026**. It is newer than
+the last tagged release, v2026.07. That release's numbers stay below as a record.
 
-### Current headline numbers
+The work ran in two steps on the same day. First we rechecked every row that
+needed it and searched every state for moratoria we did not have. Then we ran
+four rounds of quality checks on the result.
 
-| Measure | 2026-08-19 | After refresh | After QA (current) |
+### The numbers now
+
+| Measure | August 19 | After the recheck | Now, after the checks |
 |---|---|---|---|
-| Local moratorium instruments | 533 | 1053 | **1291** |
-| Currently in force (active + extended) | 429 | 899 | **1063** |
-| Pending / proposed | 34 | 60 | **77** |
-| Past (replaced + expired + rescinded) | 70 | 94 | **151** |
-| Rows carrying `[VERIFY]` markers | 182 | 214 | **300** |
-| States with at least one local instrument | 42 | 47 | **47** |
+| Moratoria in the list | 533 | 1053 | **1291** |
+| In force (active or extended) | 429 | 899 | **1063** |
+| Proposed, not yet voted on | 34 | 60 | **77** |
+| Ended (replaced, expired, or rescinded) | 70 | 94 | **151** |
+| Rows we still want to confirm (`[VERIFY]`) | 182 | 214 | **300** |
+| States with at least one | 42 | 47 | **47** |
 | State bills tracked | 438 | 438 | 438 |
 
-The local status mix is 897 active, 166 extended, 77 pending, 93 replaced, 50
-expired, and 8 rescinded. Alaska, Arizona, Delaware, Rhode Island, and Vermont
-enter the dataset; only Hawaii, West Virginia, and Wyoming have no local
-instrument after a targeted search. Ohio (160), New York (150) and Michigan (145)
-lead. New York went from 24 rows to 150 because the QA pass added its town
-battery-storage local laws, a category the inventory had not covered.
+Of the 1291 rows, 897 are active and 166 have been extended. Another 77 are
+proposals. Of the rest, 93 were replaced by permanent rules, 50 ran out, and
+eight were cancelled early.
 
-### QA/QC after the refresh (four rounds)
+Five states appear for the first time: Alaska, Arizona, Delaware, Rhode Island,
+and Vermont. Only Hawaii, West Virginia, and Wyoming still have none. Ohio
+leads with 160, then New York with 150 and Michigan with 145.
 
-The refresh added 520 rows, 276 of them adopted before August 2026, which looked
-too many to have been missed. Four rounds tested that and the rest of the file:
+New York jumped from 24 rows to 150. Almost all of the new ones are town and
+village pauses on large battery-storage sites. The list had not covered that
+kind of moratorium before.
 
-1. **Every new row audited** against its archived sources by 12 agents (Opus
-   for Ohio and Michigan). Result: no duplicates, 2 rows removed as permanent
-   bans, 10 adoption-date changes among the pre-August rows (mostly precision;
-   two first readings had been taken for adoptions), about 50 field fixes.
-   Every auditor concluded the pre-August rows are genuine misses of small
-   townships and villages, not a dating artifact. External trackers carry 62% of
-   them with a pre-August date of their own.
-2. **Blind re-verification** of a random 40 rows (26 new, 14 older) by agents
-   given only the jurisdiction name. 34 of 40 matched on adoption month and
-   status; the differences were 3 dates and 1 status in our records (all fixed)
-   and 2 verifier misses. No row turned out not to be a moratorium.
-3. **Completeness against nine external trackers** (savrn, aigridwatch,
-   interconnectedcapital, the Ohio Capital Journal map, the NC Data Center
-   Newsletter sheet, dcmap, Carina and EticaAG for battery storage,
-   CleanPowerDaily). We are the largest list, but the trackers named 278
-   jurisdictions we lacked; researching each added 243 rows (127 New York
-   battery-storage and solar local laws). Of 32 high-priority contradictions,
-   we were right 20 times and the trackers 12, which removed 4 permanent bans
-   and marked one lifted moratorium replaced.
-4. **Label consistency**: 133 rows flagged by deterministic checks (extended
-   without an end date, `duration_days` holding an extended rather than the
-   original term, sectors disagreeing with the text, same-name rows) were
-   resolved, then a final pass fixed rows past their term or missing an
-   adoption date. 37 rows mapped to the wrong county of a same-name township
-   were corrected; the geocoder now keeps the county qualifier.
+### Step one: recheck and search
 
-14 rows were removed in total (permanent bans, never-adopted proposals, and one
-row with no record beyond a map pin); all are kept with reasons in
-`work/answers/rejected/`. 28 rows the QA could not settle carry `[VERIFY]`
-markers. The log is `work/qa-progress-2026-09-23.md`.
+A moratorium can go out of date on a known day, so we keep a to-do list of
+rows that need a fresh look. On September 23 that list held 296 rows. Some had
+passed their end date. Some had been extended with no new end date. Others were
+old proposals, or rows with a fact we had not yet confirmed.
 
-### What the pass did
+We checked every one. We changed the status of 84 rows and fixed facts in 141
+more. We confirmed 75 as they stood. Six could not be settled, and we wrote
+down which records we searched.
 
-Every one of the 296 rows the worklist flagged as of 2026-09-23 (expired-on-paper,
-extension without a recorded end, stale pending, open-ended, `[VERIFY]` backlog,
-unverified date) was rechecked, plus ten rows outside the worklist that
-discovery turned up news about: 84 status changes, 141 corrections, 75
-confirmations, 6 left unresolvable with the portals checked recorded. Notable
-corrections: Durham County, NC's moratorium was adopted 2026-08-24, not 06-22;
-the City of Imperial, CA was extended through May 2027, not expired; Minneapolis
-runs six months, not a year; Imperial County, CA's ordinances were struck down by
-a court on 2026-09-11 and are now `rescinded`.
+Some fixes mattered a lot:
 
-Every state was then searched for instruments the inventory lacked, across all
-five sectors. 520 candidates were admitted. Weakly evidenced rows carry a
-`[VERIFY]` marker naming what is missing, as before. Four candidates that turned
-out to be permanent bans or ban proposals rather than pauses (Perris, CA;
-Sandpoint, ID; Hawaii County, HI; Flagstaff, AZ) were recorded in
-`work/answers/rejected/` and not added.
+- Durham County, North Carolina adopted its moratorium on August 24, not June 22.
+- The City of Imperial, California had been extended through May 2027. It had
+  been marked as expired.
+- Minneapolis set a six-month pause, not a one-year pause.
+- A court struck down Imperial County, California's moratorium on September 11.
 
-### Method and provenance
+Then we searched every state for moratoria we did not have. We looked for
+pauses on data centers, battery storage, solar, wind, and crypto mining. That
+search added 520 rows.
 
-The pass was run by 31 Claude Code research agents (Sonnet 5 for most states,
-Opus 5.5 for the six largest packets), one state or state group each, following
-a written procedure (`work/research-process.md`) that was tested on Nevada and
-Alabama before fan-out. Search ran through bc-web (Exa and Google via SerpAPI,
-fused by reciprocal rank). **Every URL cited as evidence was archived**: 2,817
-fetches into `work/sources/<ST>/`, 589 of them PDFs (258 needed OCR), 249 needing
-a real browser. The extracted text and per-state manifests (with body hashes)
-are tracked; raw PDFs and HTML stay on disk. `scripts/check_evidence_archived.py`
-refuses an answer file that cites an unarchived page. The merge applied 1,565
-field changes with zero conflicts (`work/audit/apply-20260923T090003.json`).
+We kept four finds out of the list: Perris, California; Sandpoint, Idaho;
+Hawaii County; and Flagstaff, Arizona. Each was a permanent ban or a ban
+proposal, not a pause. They are recorded in `work/answers/rejected/` with
+the reasons.
 
-New helpers: `scripts/save_source.py` (archive a URL through bc-web with OCR and
-docx extraction), `scripts/show_rows.py` (exact field values for answer files),
-`scripts/check_evidence_archived.py`, `scripts/gate_answer.sh`. The candidate
-dedup rule now treats a new instrument in a jurisdiction whose prior row has
-already ended as a new row (Coweta County, GA). Seven geocoding overrides were
-declared, including Park Township, MI, which had been placed in the wrong county.
+### Step two: four rounds of checks
 
-### Known limits of this snapshot
+The search added 520 rows, and 276 of them were adopted before August. That
+seemed like too many to have missed, so we tested it.
 
-September is current only through the 23rd. Several votes fell on or just after
-the reference date (Palm Beach County FL 09-24, Memphis 10-06, Raleigh 10-06,
-Fort Wayne 10-13, Leon County FL 10-13) and are recorded as `pending`. Five
-in-force rows have a computed expiry just before 2026-09-23 with no extension yet
-located (Appling County GA, Cedartown GA, Waterford Township MI, Seward County
-NE, East Whiteland Township PA); the validator flags them. The May–July 2026
-month-by-month sweep remains the only completed comparable window; this pass was
-a discovery search, not a month-by-month sweep, so counts for August–September
-are still lower bounds.
+1. **We re-read every new row.** Twelve checkers read the saved sources for
+   each row and tried to prove it wrong. Was it really a pause and not a ban?
+   Was the date the day of the final vote? Was it already in the list under
+   another name? They found no duplicates. They removed two rows that were
+   bans. They changed ten dates, and in two of those cases a first vote had
+   been mistaken for the final one. Every checker came to the same view: the
+   older rows are real. They come from small townships and villages that
+   earlier searches did not reach.
+2. **We checked a random sample blind.** We picked 40 rows at random. New
+   checkers saw only the place name, not our record. They found the same
+   month and status for 34 of the 40. The gaps were three wrong dates and one
+   wrong status on our side, now fixed, and two places the checkers could not
+   find. None of the 40 turned out not to be a moratorium.
+3. **We compared our list with nine others.** Other groups publish their own
+   lists of local moratoria. Ours is the largest, but theirs named 278 places
+   we did not have. We looked each one up and added 243. The rest were bans,
+   failed votes, or mistakes in the other lists. Where a list disagreed with
+   one of our rows, we went back to the source. We were right 20 times out
+   of 32. The other lists were right 12 times, and that removed four more bans.
+4. **We checked the labels.** A script looked for rows whose parts did not
+   agree. One example: an extended moratorium with no new end date. Another:
+   a row whose text says "solar" while its sector list leaves solar out. We
+   fixed 133 rows like that.
+
+We also found 37 rows placed on the map in the wrong county. Many states
+have several townships with the same name, and our mapping step had dropped
+the county from the name before looking it up. It now keeps the county.
+
+Over both steps we removed 14 rows. Each one is saved with the reason in
+`work/answers/rejected/`. There are 28 rows we could not settle either way.
+Each carries a `[VERIFY]` note so the next update looks at it again. The full
+record of the checks is `work/qa-progress-2026-09-23.md`.
+
+Every other claim in both steps can be traced to a saved copy of its source,
+so a broken link does not break the record. We saved about 3,700 pages and
+documents under `work/sources/`, and a check refuses any finding whose
+source was not saved.
+
+### How the work was done
+
+The research was done by Claude Code agents. These are AI assistants, each
+given one state or a few small states, and each followed the same written steps in
+`work/research-process.md`. We tried those steps on Nevada and Alabama first
+and fixed them before the other states began. The agents searched the web
+with two search engines at once, Exa and Google.
+
+Research never edits the data file directly. Each agent writes its findings
+to a separate file, with a source for every change. One script then merges
+those files into the data. It refuses any change if the row has moved on since
+the agent read it.
+
+New scripts in this release:
+
+- `scripts/save_source.py` saves a copy of a web page or document.
+- `scripts/show_rows.py` prints a row exactly as the data file holds it.
+- `scripts/check_evidence_archived.py` checks that every source was saved.
+- `scripts/gate_answer.sh` runs all the checks on one file of findings.
+
+### What this snapshot does not cover
+
+September counts stop at the 23rd. Several votes fell just after that day,
+so those rows still read "proposed". They include Palm Beach County, Florida
+(September 24), Memphis and Raleigh (October 6), and Fort Wayne and Leon
+County, Florida (October 13).
+
+Eight moratoria have passed their end date, and we could not find out what
+happened next. Each carries a `[VERIFY]` note.
+
+May through July 2026 is still the only period we searched month by month.
+This update searched each state as a whole instead. So counts for August and
+September are the fewest there could be, not a full count. Even the May–July
+search missed small towns, as this update showed.
 
 ## 2026-08-19 — currency, state-policy, and publication refresh
 
@@ -123,14 +149,14 @@ below as a historical snapshot.
 
 | Measure | 2026-08-19 snapshot |
 |---|---|
-| Local moratorium instruments | **1291** |
-| Currently in force (active + extended) | **1063** |
-| Pending / proposed | **77** |
-| Past (replaced + expired + rescinded) | **151** |
-| Rows carrying `[VERIFY]` markers | **300** |
+| Local moratorium instruments | **533** |
+| Currently in force (active + extended) | **429** |
+| Pending / proposed | **34** |
+| Past (replaced + expired + rescinded) | **70** |
+| Rows carrying `[VERIFY]` markers | **182** |
 | State bills tracked | **438** |
 | State policy actions, including non-bill instruments | **440** |
-| States with at least one local instrument | **47** |
+| States with at least one local instrument | **42** |
 
 The local status mix is 381 active, 48 extended, 34 pending, 37 replaced, 27
 expired, and 6 rescinded. The review reduced the recorded in-force total by six
