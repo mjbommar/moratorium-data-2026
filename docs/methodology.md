@@ -200,6 +200,14 @@ Before any finding is merged, `scripts/check_evidence_archived.py` confirms that
 every source it cites was saved. So each fact in the data points to a copy we
 hold, not only to a link that may break.
 
+We publish only some of those copies. Public records, such as ordinances,
+minutes, agendas, and staff reports, are published under `work/sources/`. News
+articles and other groups' pages belong to the people who wrote them, so their
+copies stay private. `scripts/classify_sources.py` sorts each source and keeps
+the private ones out of the repository. For every private copy we still
+publish the link, the date it was saved, and its fingerprint. When a source is
+in doubt, the script keeps it private.
+
 The update decided all 296 rows on the to-do list and added 520 new ones. It
 saved about 2,800 sources and made 1,565 changes, with no clashes at merge time.
 We learned three rules the hard way, and they are now in the written steps:

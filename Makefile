@@ -38,6 +38,7 @@ check: validate
 	$(PYTHON) scripts/build_geojson.py --check
 	$(PYTHON) scripts/check_docs_numbers.py
 	$(PYTHON) scripts/build_index.py --check
+	$(PYTHON) scripts/classify_sources.py --check
 
 # ---------------------------------------------------------------------------
 # Refresh cycle

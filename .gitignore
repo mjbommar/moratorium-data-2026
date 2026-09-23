@@ -15,7 +15,8 @@ work/chronology/
 work/chronology-candidates.json
 work/sibling-gaps.json
 
-# Archived evidence (work/sources/): the extracted text, markdown and manifests are tracked;
+# Archived evidence (work/sources/): manifests and public-record text are tracked; news and
+# other private copies are ignored per state by scripts/classify_sources.py (see work/README.md);
 # raw PDFs (1.3 GB) and HTML (0.5 GB) stay on disk. Each manifest line carries the body sha256.
 work/sources/**/*.html
 work/sources/**/*.pdf

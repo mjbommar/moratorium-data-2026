@@ -13,7 +13,7 @@ trail.
 | `schemas/` | The output contract every research pass must satisfy. `research_decision.schema.json` covers inventory rows; `legislation_decision.schema.json` covers state bills. |
 | `answers/` | The research record. One JSON file per state per pass, with the evidence — URLs actually fetched, source types, and quoted operative language — behind every change we made. |
 | `audit/` | One file per merge run: every field changed, its before and after value, the stated reason, and which answer file it came from. |
-| `sources/` | The evidence archive (added 2026-09-23). One folder per state holding the extracted text or markdown of every URL cited in an answer file, and a `manifest.jsonl` with the final URL, HTTP status, fetch tier, body sha256 and saved paths. Raw PDFs and HTML are kept on disk but not committed (1.8 GB); the hash lets a copy be verified. |
+| `sources/` | The evidence archive (added 2026-09-23). One folder per state. `manifest.jsonl` lists every source an answer file cited: its URL, fetch date, HTTP status, sha256 of the body, and a `published` flag. The saved text of public records (ordinances, minutes, agendas, staff reports on government sites) is committed. The saved text of news articles and other non-public-record pages stays on the researcher's machine: `scripts/classify_sources.py` decides which is which and writes each folder's `.gitignore`. Raw PDFs and HTML are never committed. |
 | `research-process.md` | The procedure each research agent follows: tool commands, decision rules, output contract. Tested on two pilot states before fan-out. |
 | `progress-2026-09-23.md` | The coordinator's log for the September pass: which agent took which state, gate results, merge-time follow-ups. |
 

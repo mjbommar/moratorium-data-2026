@@ -99,10 +99,13 @@ Over both steps we removed 14 rows. Each one is saved with the reason in
 Each carries a `[VERIFY]` note so the next update looks at it again. The full
 record of the checks is `work/qa-progress-2026-09-23.md`.
 
-Every other claim in both steps can be traced to a saved copy of its source,
-so a broken link does not break the record. We saved about 3,700 pages and
-documents under `work/sources/`, and a check refuses any finding whose
-source was not saved.
+Every claim in both steps can be traced to a saved copy of its source, so a
+broken link does not break the record. We saved about 3,700 pages and
+documents, and a check refuses any finding whose source was not saved. We
+publish the copies of public records, such as ordinances, minutes, and
+agendas, under `work/sources/`. News articles belong to the papers that wrote
+them, so we keep those copies private. For each one we publish only the link,
+the date we saved it, and a fingerprint of the copy.
 
 ### How the work was done
 
