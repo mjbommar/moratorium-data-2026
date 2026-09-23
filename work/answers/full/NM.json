@@ -1,0 +1,159 @@
+{
+  "state_abbrev": "NM",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "nm-sierra-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Multiple independent news outlets (Source NM/Las Cruces Sun-News, KOAT, KRQE, KKOB, gpkmedia.com/Sierra County Sentinel) and the Sierra County Clerk's own resolutions index consistently confirm the unanimous vote occurred at the July 21, 2026 Board of County Commissioners meeting."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "540",
+          "reason": "18 months is recorded as 540 days (30-day months), matching the convention already used for the state's other 18-month county moratoria (e.g., Santa Fe County)."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "fixed_days",
+          "reason": "The term (18 months from adoption) is now confirmed by multiple independent sources rather than reported secondhand."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2028-01-21",
+          "reason": "18 calendar months from the confirmed 2026-07-21 adoption date is 2028-01-21."
+        },
+        "duration": {
+          "from": "Reportedly 18 months",
+          "to": "18 months from adoption (2026-07-21), to approximately 2028-01-21, confirmed by Resolution No. 2026-51 as named in KRQE and gpkmedia.com/Sierra County Sentinel reporting and listed on the Sierra County Clerk's resolutions index.",
+          "reason": "Removes the 'reportedly' hedge now that the term and instrument number are corroborated by multiple independent sources including the county's own resolutions index."
+        },
+        "legal_basis": {
+          "from": "Reportedly an 18-month moratorium blocking data centers on private land, adopted by amending Resolution 2026-51; the posted pre-meeting packet contains only a draft resolution expressing opposition to large-scale data centers with no operative moratorium language, and no signed final instrument or minutes were posted as of 2026-07-31",
+          "to": "Resolution No. 2026-51 (Sierra County Board of County Commissioners), adopted unanimously July 21, 2026 by amending a draft resolution that originally only opposed large-scale data center development into an operative 18-month moratorium; named as 'Resolution 2026-51' by KRQE, the Sierra County Sentinel (gpkmedia.com), and a KRQE Facebook post, and listed on the Sierra County Clerk's online resolutions index dated 07/21/2026.",
+          "reason": "Confirms the specific resolution number via two independent news outlets plus the county clerk's own resolutions index, resolving the prior sourcing gap."
+        },
+        "current_status": {
+          "from": "Reported by two news outlets as adopted on 2026-07-21; no signed county instrument or minutes located as of 2026-07-31. The pre-meeting packet contained only a non-operative draft resolution, which also states the county lacks regulatory authority over Spaceport America property itself [VERIFY details not confirmed at confidence 0.5 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Sierra County Commissioners unanimously amended and adopted Resolution No. 2026-51 at their July 21, 2026 meeting, imposing an 18-month moratorium on new data centers in the county (through approximately 2028-01-21). As of September 3, 2026, New Mexico Commissioner of Public Lands Stephanie Garcia Richard publicly stated the moratorium also applies to the Spaceport America property (on state trust land) and that she would not approve a proposed Aetherion/Green Data sublease there while it remains in force, and Sierra County Commissioner Sandy Jones told the Albuquerque Journal (reporting published in early September 2026) he would not support efforts to amend or narrow the moratorium despite a developer's lobbying. No rescission, amendment, or replacement was found in sources reviewed through 2026-09-23.",
+          "reason": "Resolves the prior VERIFY marker using independent news corroboration and the county clerk's own resolutions index, and adds subsequent developments (the State Land Office's September 3 confirmation that the moratorium binds Spaceport America, and the county's continued resistance to a developer-sought amendment) that establish the moratorium remains in force and unchanged."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY details not confirmed at confidence 0.5 in the 2026-07 refresh]",
+          "resolution": "corrected",
+          "note": "Confirmed adoption, the unanimous vote, the 18-month term, and the specific instrument (Resolution No. 2026-51) via KRQE, the Sierra County Sentinel (gpkmedia.com), the Sierra County Clerk's own online resolutions index (listing 'Resolution 2026-51 – Opposing Large-Scale Data Centers, Imposing 18 Month Moratorium, 07/21/2026'), Source NM/Las Cruces Sun-News, and a September 3, 2026 Source NM follow-up in which the State Land Office treated the moratorium as valid and in force. The signed final resolution PDF itself could not be located on the county's document server (only older resolutions' PDFs were found by guessing file-naming patterns), so confidence is held at 0.85 rather than higher."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.sierraco.org/department/clerk/",
+          "title": "Clerk - Sierra County Government",
+          "publisher": "Sierra County, New Mexico",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Official county clerk resolutions/ordinances index page (search-indexed copy showed a 'Resolutions' table listing '2026-51 – Opposing Large-Scale Data Centers, Imposing 18 Month Moratorium – 07/21/2026'); the live fetch of this page only rendered the older Ordinances table via automated tools, so this is cited alongside the news sources that independently name the same resolution number and date.",
+          "quote": "2026-51 Opposing Large-Scale Data Centers, Imposing 18 Month Moratorium 07/21/2026"
+        },
+        {
+          "url": "https://www.krqe.com/news/new-mexico/sierra-county-implements-18-month-moratorium-on-data-centers/",
+          "title": "Sierra County implements 18-month moratorium on data centers",
+          "publisher": "KRQE",
+          "document_date": "2026-07-22",
+          "source_type": "news",
+          "supports": "Confirms the unanimous July 21, 2026 vote adopting an 18-month data-center moratorium, following similar Santa Fe and Socorro County actions.",
+          "quote": "Sierra County is the latest local government to block any new data center development for the next 18 months. On Tuesday, the Sierra County Commission voted unanimously to implement the data center moratorium."
+        },
+        {
+          "url": "https://www.gpkmedia.com/news/county-says-no-to-data-centers-for-now/article_d384459c-8045-4f27-b046-7155c5aa6ed6.html",
+          "title": "County Says No to Data Centers for Now",
+          "publisher": "Sierra County Sentinel (gpkmedia.com)",
+          "document_date": "2026-07-21",
+          "source_type": "news",
+          "supports": "Local paper of record confirming the July 21, 2026 vote; headline and dateline corroborate the KRQE and KKOB reporting of 'Resolution 2026-51.'",
+          "quote": "A packed house in the Commission Chambers voicing concerns regarding the possibility of data center development in Sierra County."
+        },
+        {
+          "url": "https://sourcenm.com/2026/09/03/new-mexico-land-commissioner-shoots-down-canadian-data-center-companys-pitch-at-spaceport-america/",
+          "title": "New Mexico land commissioner shoots down Canadian data center company's pitch at Spaceport America",
+          "publisher": "Source New Mexico",
+          "document_date": "2026-09-03",
+          "source_type": "news",
+          "supports": "Confirms the moratorium remained in force as of September 3, 2026 and that the New Mexico State Land Office treats it as binding on the Spaceport America property.",
+          "quote": "It is NMSLO's position that the County's moratorium is applicable to proposed activities at Spaceport America."
+        },
+        {
+          "url": "https://www.abqjournal.com/news/in-secretly-recorded-meeting-tech-ceo-and-investor-push-officials-on-spaceport-data-center/3112984",
+          "title": "Secret recording reveals push to amend Sierra County data center moratorium",
+          "publisher": "Albuquerque Journal",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Reports an August 19, 2026 closed-door meeting in which a developer and an investor lobbied Sierra County officials to carve out an exception to the moratorium, and that Commissioner Sandy Jones subsequently told the Journal he would not support modifying it; confirms the moratorium was still unchanged and controversial as of publication.",
+          "quote": "Jones told the Journal in an interview no one had reached out to him to discuss modifying the moratorium and that he would not support doing so."
+        }
+      ],
+      "notes": "Could not locate a signed PDF of Resolution No. 2026-51 itself on sierraco.org (automated fetches of the clerk's resolutions page render only the older Ordinances table, and guessed file-naming patterns for the resolution PDF returned 404s); relied instead on the county clerk's page as indexed/quoted by search, plus four independent news sources (KRQE, gpkmedia.com/Sierra County Sentinel, Source NM, Albuquerque Journal) that consistently name the resolution number, date, and 18-month term."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "New Mexico",
+      "jurisdiction": "Colfax County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Reported adopted 'late last month' (late August 2026) per CPR.org's September 3, 2026 article; a public hearing on the proposed ordinance was held August 11, 2026 and the county's own public notice states the Board of Commissioners could consider adoption at its August 25, 2026 meeting.",
+      "date_enacted_iso": "2026-08-25",
+      "date_enacted_uncertainty": "month_only",
+      "duration": "One year from adoption (to approximately 2027-08-25).",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-08-25",
+      "legal_basis": "Ordinance No. 2026-02 (Colfax County), 'An Ordinance for a Data Center Moratorium,' prohibiting the establishment or expansion of any data center in unincorporated areas of the county and putting municipalities within the county on notice that the county opposes data centers in incorporated areas as well; public hearing held August 11, 2026 per the county's official notice, adoption considered at the August 25, 2026 commission meeting.",
+      "trigger": "Concern over water use during a severe/extreme drought affecting the county, plus concerns about energy use, heat, and noise; came after the City of Raton's since-expired memorandum of understanding with a data-center developer (Atterix LLC) drew controversy.",
+      "trigger_categories": ["water", "environmental", "noise", "grid_energy"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. Colfax County Commissioners unanimously adopted Ordinance No. 2026-02, a one-year moratorium on establishing or expanding data centers in unincorporated areas of the county, at their August 25, 2026 meeting (per the county's own public notice scheduling that consideration and CPR.org's September 3, 2026 report that the ordinance 'passed unanimously late last month'). The moratorium does not bind municipalities within the county (such as the City of Raton), which could still approve a data center; Raton itself considered but postponed its own moratorium proposal around the same time.",
+      "enacted_status": "active",
+      "affected_projects": "None sited in unincorporated Colfax County; the City of Raton separately had a since-expired memorandum of understanding with Atterix LLC to consider a data center at a former K-Mart site, but that is a municipal, not county, matter and is unaffected by this county ordinance.",
+      "outcome": "Colfax County Commission unanimously adopted a one-year moratorium on new or expanded data centers in unincorporated county territory.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://krtnradio.com/2026/08/06/colfax-county-notice-of-public-hearing-and-proposed-ordinance-no-2026-02/",
+          "title": "Colfax County Notice of Public Hearing and Proposed Ordinance No. 2026-02",
+          "publisher": "Colfax County, New Mexico (republished by KRTN Enchanted Air Radio)",
+          "document_date": "2026-08-06",
+          "source_type": "agenda",
+          "supports": "Official county public notice of the proposed ordinance's text (one-year moratorium on data centers in unincorporated areas), the August 11, 2026 public hearing date, and that adoption could be considered at the August 25, 2026 commission meeting.",
+          "quote": "An Ordinance for a Data Center Moratorium. ... This ordinance prohibits the establishment or expansion of any data center in unincorporated areas of the County. ... This ordinance will be in effect for one year. ... The Colfax County Commissioners may consider adoption of the ordinance on Tuesday, August 25, 2026."
+        },
+        {
+          "url": "https://www.cpr.org/2026/09/03/colfax-county-data-centers-moratorium/",
+          "title": "Colfax County in Northern New Mexico places moratorium on data centers",
+          "publisher": "Colorado Public Radio",
+          "document_date": "2026-09-03",
+          "source_type": "news",
+          "supports": "Confirms the ordinance passed unanimously ('late last month,' i.e. late August 2026), its one-year term, its scope (unincorporated areas only, not municipalities like Raton), and commissioners' stated water/drought and noise rationale.",
+          "quote": "Colfax County, N.M., commissioners voted to put a stop to building data centers in the unincorporated parts of the county for one year. The ordinance passed unanimously late last month."
+        },
+        {
+          "url": "https://worldjournalnewspaper.com/colfax-county-advances-data-center-moratorium-as-drought-deepens/",
+          "title": "Colfax County advances data center moratorium as drought deepens",
+          "publisher": "The World Journal",
+          "document_date": "2026-08",
+          "source_type": "news",
+          "supports": "Corroborates that the August 11, 2026 commission meeting moved the proposed one-year moratorium forward toward adoption.",
+          "quote": "Concerns about water use and the potential effects of large-scale data centers dominated the Aug. 11 meeting of the Colfax County Board of Commissioners, where commissioners moved forward with a proposed one-year moratorium on new data center development in unincorporated areas of the county."
+        }
+      ],
+      "notes": "The signed, adopted ordinance text and the exact August 25, 2026 adoption-meeting minutes were not located (the county's own ordinances page and CPR.org's article do not give a precise adoption date beyond 'late last month'); date_enacted_uncertainty is set to month_only to reflect that the August 25 date is the scheduled/likely adoption date from the county's own notice rather than a confirmed minutes citation."
+    }
+  ]
+}

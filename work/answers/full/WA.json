@@ -1,0 +1,1170 @@
+{
+  "state_abbrev": "WA",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "wa-pasco-undated",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "Reported as a unanimous (6-0) council vote around mid-2026; exact date and ordinance number not confirmed from a primary source this pass",
+          "to": "2026-07-20, City Council unanimously (6-0) adopted emergency Ordinance No. 4850",
+          "reason": "City of Pasco's own Laserfiche records portal shows Ordinance No. 4850, 'Datacenter Moratorium,' with a meeting date of 7/20/2026, confirming the previously unconfirmed adoption date and instrument number."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-07-20",
+          "reason": "Confirmed via docs.pasco-wa.gov Laserfiche entry for Ordinance No. 4850 (meeting date field: 7/20/2026) and Tri-City Herald reporting."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Exact date now confirmed by a primary source (city Laserfiche record)."
+        },
+        "duration": {
+          "from": "Six months",
+          "to": "Six-month (180-day) moratorium from adoption of emergency Ordinance No. 4850 on 2026-07-20; a required public hearing was held within 60 days, on 2026-09-08, with no formal extension vote taken",
+          "reason": "Tri-City Herald and the city's own ordinance summary confirm the six-month term and the September 8, 2026 public hearing at which no additional action was taken."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "180",
+          "reason": "Six-month moratorium; consistent with the convention used elsewhere in this inventory (e.g., Marysville, Skagit County) of recording six months as 180 days."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "fixed_days",
+          "reason": "Ordinance No. 4850 imposes a fixed six-month term."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-01-20",
+          "reason": "Computed as six months (180 days) from the 2026-07-20 adoption date; not itself stated as a calendar date in the sources reviewed, so treat as approximate."
+        },
+        "legal_basis": {
+          "from": "Not confirmed this pass; the city's Codes, Ordinances & Resolutions page and Laserfiche document portal both blocked/errored on direct fetch",
+          "to": "Ordinance No. 4850 (City of Pasco), adopted 2026-07-20 as an emergency ordinance with an immediate effective date; imposes a six-month moratorium on acceptance/processing of business license and development permit applications for new data centers, cryptocurrency mining, blockchain computing, and AI computing facilities; requires a public hearing within 60 days (held 2026-09-08)",
+          "reason": "Confirmed via the city's Laserfiche WebLink record for Ordinance No. 4850 and the published legal notice summary of the ordinance (classifieds.mcclatchy.com/IPL0359745, published 2026-07-26), which quotes the ordinance's own title and summary."
+        },
+        "current_status": {
+          "from": "Reported active per news; not independently confirmed via a primary source [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Confirmed via the City of Pasco's own Laserfiche records portal (Ordinance No. 4850, adopted 2026-07-20) and Tri-City Herald reporting on the required 2026-09-08 public hearing, at which no formal extension or other action was taken; the six-month term runs to approximately 2027-01-20 absent further Council action. City staff plan to present a recommended data-center ordinance to Council no later than December 2026.",
+          "reason": "Resolves the prior VERIFY marker: the instrument (Ordinance No. 4850) and adoption date (2026-07-20) are now confirmed via the city's own Laserfiche record, not just news reporting, and the September 8, 2026 hearing (also primary-adjacent, reported by Tri-City Herald based on the meeting) confirms no change in status since adoption."
+        },
+        "affected_projects": {
+          "from": "Acceptance and processing of permits and business licenses for new data centers, crypto mining, and related high-density computing facilities, per secondary reporting",
+          "to": "Business license and development permit applications (including building permits, conditional use permits, site plan reviews, subdivisions, and pre-application conferences) for new data centers, cryptocurrency mining, blockchain computing, and artificial intelligence computing facilities citywide; does not apply to applications already complete before the ordinance's adoption. No applications had been filed as of the 2026-09-08 hearing.",
+          "reason": "Tri-City Herald's September 2026 follow-up reporting details the scope of applications covered and confirms no applications had been filed as of the hearing."
+        },
+        "outcome": {
+          "from": "Council reportedly approved unanimously a six-month moratorium; primary-source confirmation still needed",
+          "to": "City Council unanimously (6-0) adopted emergency Ordinance No. 4850 on 2026-07-20, imposing a six-month moratorium on data center, cryptocurrency mining, blockchain computing, and AI computing facility permits; the required public hearing was held 2026-09-08 with no changes made to the moratorium.",
+          "reason": "Now confirmed via a primary source (city Laserfiche record) plus two Tri-City Herald articles covering both the initial adoption and the September 8 hearing."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-07 refresh]",
+          "resolution": "corrected",
+          "note": "Instrument number (Ordinance No. 4850) and adoption date (2026-07-20) confirmed via the City of Pasco's own Laserfiche WebLink record (docs.pasco-wa.gov), plus the published legal-notice summary of the ordinance and Tri-City Herald's coverage of both the July 20 adoption and the required September 8, 2026 public hearing."
+        }
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://docs.pasco-wa.gov/WebLink/DocView.aspx?id=1379921&dbid=0&repo=CityofPasco",
+          "source_type": "ordinance",
+          "supports": "Confirms Ordinance No. 4850, 'Datacenter Moratorium,' with a City Council meeting date of 7/20/2026.",
+          "title": "4850 Ordinance - Data Center Moratorium",
+          "publisher": "City of Pasco",
+          "document_date": "2026-07-20",
+          "quote": "Ordinance Number 4850 ... Date of Meeting 7/20/2026 ... Meeting Subject 4850 Ordinance Datacenter Moratorium"
+        },
+        {
+          "url": "https://www.tri-cityherald.com/news/politics-government/article316598736.html",
+          "source_type": "news",
+          "supports": "Confirms the July 20, 2026 unanimous council vote imposing the six-month pause and its scope.",
+          "title": "Pasco hits pause on new data centers as leaders weigh their impact",
+          "publisher": "Tri-City Herald",
+          "document_date": "2026-07-22",
+          "quote": "Pasco City Council members unanimously approved a six-month pause on new data centers, temporarily halting the issuance of permits and licenses"
+        },
+        {
+          "url": "https://www.nbcrightnow.com/news/city-of-pasco-to-hold-sept-8-hearing-on-data-center-rules/article_b12f02ff-8669-4c1f-aca4-a1f2b2af06b6.html",
+          "source_type": "news",
+          "supports": "Confirms the six-month moratorium was approved July 20 and that a September 8, 2026 public hearing was required.",
+          "title": "City of Pasco to hold Sept. 8 hearing on data center rules",
+          "publisher": "NBC Right Now",
+          "quote": "On July 20, the city approved a measure to immediately pause the acceptance and processing of business license and development permit applications"
+        },
+        {
+          "url": "https://www.tri-cityherald.com/news/politics-government/article317181543.html",
+          "source_type": "news",
+          "supports": "Covers the September 8, 2026 public hearing itself; confirms no formal Council action was taken and that no applications had been filed.",
+          "title": "Residents push back on data centers, ask Pasco to extend moratorium",
+          "publisher": "Tri-City Herald",
+          "document_date": "2026-09",
+          "quote": "The city is nearly two months into a six-month pause on accepting and processing new applications for data centers and other high-density computing facilities. Though staff says they have not had any applications filed yet."
+        },
+        {
+          "url": "https://classifieds.mcclatchy.com/marketplace/tricity/advert/-Notices_236246",
+          "source_type": "other",
+          "supports": "Published legal-notice summary of Ordinance No. 4850, confirming its title and six-month emergency term.",
+          "title": "Summary of Ordinance No. 4850",
+          "publisher": "City of Pasco (legal notice)",
+          "document_date": "2026-07-26",
+          "quote": "AN ORDINANCE OF THE CITY OF PASCO, WASHINGTON, imposing a six-month moratorium on the acceptance and processing of Business licenses and/or development permit applications"
+        }
+      ],
+      "notes": "The public hearing on 2026-09-08 was a required procedural hearing after adoption, not a re-vote; council members took no formal action. Confidence raised from the prior pass's 0.45 given the primary-source Laserfiche confirmation."
+    },
+    {
+      "moratorium_id": "wa-seattle-2026-2",
+      "outcome": "corrected",
+      "changes": {
+        "duration": {
+          "from": "Temporary freeze on new data center siting while impact studies are conducted; extendable up to an additional 6 months, with a 60-day public hearing requirement",
+          "to": "365 days from the effective date of Ordinance No. 127447 (effective 2026-06-11), automatically expiring at the end of that period unless renewed for one or more six-month periods under RCW 36.70A.390 or terminated earlier by Council",
+          "reason": "The signed ordinance text (Section 4, Section 9) states the moratorium runs 365 days from the effective date and may be renewed in six-month increments, correcting the prior text's characterization of a single 6-month extension option."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "365",
+          "reason": "Ordinance No. 127447, Section 4: 'The moratorium ... shall be in effect for a period of 365 days from the effective date.'"
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "fixed_days",
+          "reason": "Fixed 365-day term per the ordinance text."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-06-11",
+          "reason": "Computed as 365 days from the ordinance's effective date (mayoral approval 2026-06-11); not itself a date stated in the ordinance, so treat as approximate pending any renewal."
+        },
+        "legal_basis": {
+          "from": "Amended Council Bill 121214 (siting freeze) and companion Resolution 32204 (policy framework)",
+          "to": "Seattle Ordinance No. 127447 (Council Bill 121214), passed by the City Council 2026-06-09 by a 3/4 vote and approved by Mayor Katie Wilson 2026-06-11; amends SMC 23.84A.008 to define 'data center' and adopts the moratorium under RCW 36.70A.390, with a companion work plan (Attachment A) and companion Resolution 32204 (policy framework)",
+          "reason": "Confirmed via the signed ordinance text (clerk.seattle.gov), which gives the exact passage/approval dates, vote threshold, and code sections amended."
+        },
+        "current_status": {
+          "from": "Active as of adoption 2026-06-09; not independently re-checked past that date [VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Confirmed via the City's official ordinance text (Ord. No. 127447) and City Council press release: the moratorium on filing/acceptance/processing/approval of applications for new or expanded large-scale (>20 MVA) data centers took effect 2026-06-11 and runs 365 days (through approximately 2027-06-11) unless renewed in six-month increments under RCW 36.70A.390 or ended earlier by Council. The required public hearing was held 2026-07-15 before the Land Use and Sustainability Committee (hearing only, no vote); no extension or termination has been found as of 2026-09-23.",
+          "reason": "Resolves the prior VERIFY marker using a primary source (the signed ordinance itself) rather than news alone, and adds confirmation that the required public hearing occurred with no subsequent change in status."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "resolution": "corrected",
+          "note": "Obtained and read the full signed ordinance text (Ordinance No. 127447) from clerk.seattle.gov, confirming passage 2026-06-09, mayoral approval 2026-06-11, 365-day term, and RCW 36.70A.390 renewal mechanism. Also confirmed via a meeting-record aggregator (zonewire.co) that the required public hearing was held 2026-07-15 with no vote and no change to the moratorium."
+        }
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://clerk.seattle.gov/~archives/Ordinances/Ord_127447.pdf",
+          "source_type": "ordinance",
+          "supports": "Full signed ordinance text: passage date, mayoral approval date, 365-day term, renewal mechanism, and scope (data centers >20 MVA).",
+          "title": "Ordinance 127447 (Council Bill 121214)",
+          "publisher": "City of Seattle",
+          "document_date": "2026-06-11",
+          "quote": "The moratorium set forth in this ordinance shall be in effect for a period of 365 days from the effective date of this ordinance ... The City may renew this moratorium for one or more six-month periods in accordance with RCW 36.70A.390."
+        },
+        {
+          "url": "https://council.seattle.gov/2026/06/09/city-council-passes-emergency-data-center-moratorium-and-policy-framework/",
+          "source_type": "other",
+          "supports": "Official City Council press release confirming unanimous adoption, the companion Resolution 32204, and that a public hearing is required within 60 days.",
+          "title": "City Council passes emergency data center moratorium and policy framework",
+          "publisher": "Seattle City Council",
+          "document_date": "2026-06-09"
+        },
+        {
+          "url": "https://www.zonewire.co/meetings/seattle/5647",
+          "source_type": "minutes",
+          "supports": "Confirms the July 15, 2026 public hearing on Ordinance 127447 was held (hearing only, no vote), with no subsequent change reported.",
+          "title": "Land Use and Sustainability Committee, July 15, 2026",
+          "publisher": "zonewire.co (meeting-record aggregator)",
+          "document_date": "2026-07-15",
+          "quote": "Public hearing on data center moratorium (Ordinance 127447) ... No vote taken; hearing opened and closed."
+        }
+      ],
+      "notes": "This row (wa-seattle-2026-2) and wa-seattle-2026 both track the same June 9, 2026 Seattle ordinance; only this row was in the packet, so wa-seattle-2026's duplicate fields were not touched."
+    },
+    {
+      "moratorium_id": "wa-ephrata-2018",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "changes": {
+        "legal_basis": {
+          "from": "Moratorium adopted by resolution-style council action; the captured Ephrata Ordinance 18-14 is unrelated annexation material and should not be cited [VERIFY: exact ordinance/resolution number for the cryptocurrency moratorium not located on Ephrata city website as of 2026-04-29; City Attorney Anna Franz characterized the action as a \"moratorium resolution\" per Spokesman-Review reporting]",
+          "to": "Interim moratorium adopted by City Council vote on 2018-10-17 (per Spokesman-Review); later codified and superseded within Ephrata Municipal Code (EMC) Chapter 19.30 'High Intensity Computer Operations,' whose legislative-history citation reads '(Ord 18-13, 2018; Ord 18-28, 2018).' Note: EMC 19.02's definition of 'high intensity computer operations' expressly excludes the exchange of cryptocurrency/virtual currency and peer-to-peer distributed-ledger maintenance, so the permanent code is framed as a broader high-density-computing-load prohibition rather than a cryptocurrency-specific one.",
+          "reason": "The City's own published Municipal Code (Title 19, Zoning Code, at ephrata.org/DocumentCenter/View/382) cites Ordinance 18-13 (2018) and Ordinance 18-28 (2018) as the source of EMC 19.30.010, resolving the prior VERIFY marker that no ordinance/resolution number could be located."
+        },
+        "current_status": {
+          "from": "Expired / replaced [VERIFY: replacement permanent ordinance not located]",
+          "to": "Replaced. The 2018 temporary cryptocurrency-mining moratorium was superseded the same year by a permanent citywide prohibition on 'High Intensity Computer Operations' (EMC 19.30.010: 'All high intensity computer operations shall be prohibited within the City of Ephrata, including those conducted as a home occupation'), citing Ordinance 18-13 (2018) and Ordinance 18-28 (2018), confirmed via the City's own published Municipal Code as of 2026-09-23.",
+          "reason": "The replacement code chapter is now located and confirmed as a primary source (the City's official Municipal Code PDF), resolving the prior marker."
+        },
+        "outcome": {
+          "from": "City code is reported to include cryptocurrency provisions within zoning, but the captured Ephrata Municipal Code does not yet include a verified cryptocurrency mining chapter [VERIFY]",
+          "to": "The temporary 2018 cryptocurrency-mining moratorium was followed, within the same year, by a permanent zoning prohibition on high-intensity computer operations (EMC Chapter 19.30), citing Ordinance 18-13 and Ordinance 18-28, confirmed via the current Ephrata Municipal Code (Title 19, Zoning Code).",
+          "reason": "Resolves the marker by locating and reading the actual current Municipal Code chapter, rather than relying on secondary reporting that a cryptocurrency chapter existed."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: exact ordinance/resolution number for the cryptocurrency moratorium not located on Ephrata city website as of 2026-04-29; City Attorney Anna Franz characterized the action as a \"moratorium resolution\" per Spokesman-Review reporting]",
+          "resolution": "corrected",
+          "note": "Located the City's official Municipal Code (Title 19, Zoning Code PDF, hosted at ephrata.org/DocumentCenter/View/382), whose Chapter 19.30 cites '(Ord 18-13, 2018; Ord 18-28, 2018)' as its legislative history, giving the ordinance numbers that were previously unconfirmed."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: replacement permanent ordinance not located]",
+          "resolution": "corrected",
+          "note": "The replacement is EMC Chapter 19.30 'High Intensity Computer Operations' (19.30.010), a permanent citywide prohibition, located in the City's current Municipal Code."
+        },
+        {
+          "field": "outcome",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Confirmed via the current Municipal Code that a permanent code chapter (19.30) now exists addressing high-density/high-intensity computer operations, citing the original 2018 ordinances."
+        }
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.ephrata.org/DocumentCenter/View/382/EMC-Chapter-19-Zoning-Code-PDF",
+          "source_type": "other",
+          "supports": "Official current Ephrata Municipal Code, Title 19 (Zoning Code); Chapter 19.30 prohibits 'High Intensity Computer Operations' citywide and cites Ord. 18-13 (2018) and Ord. 18-28 (2018) as its legislative history. Also contains the EMC 19.02 definition excluding cryptocurrency exchange/distributed-ledger maintenance from that term.",
+          "title": "Ephrata Municipal Code, Chapter 19, Zoning Code",
+          "publisher": "City of Ephrata",
+          "document_date": "2026",
+          "quote": "Chapter 19.30 HIGH INTENSITY COMPUTER OPERATIONS ... 19.30.010 High Intensity Computer Operations Prohibited. All high intensity computer operations shall be prohibited within the City of Ephrata, including those conducted as a home occupation. (Ord 18-13, 2018; Ord 18-28, 2018)"
+        },
+        {
+          "url": "https://www.spokesman.com/stories/2018/oct/19/ephrata-oks-yearlong-ban-on-new-cryptocurrency-min/",
+          "source_type": "news",
+          "supports": "Original 2018 news coverage of the 6-1 council vote (Oct. 17, 2018) imposing the 12-month moratorium on new cryptocurrency operations.",
+          "title": "Ephrata OKs yearlong ban on new cryptocurrency mining",
+          "publisher": "Spokesman-Review / Columbia Basin Herald",
+          "document_date": "2018-10-19",
+          "quote": "EPHRATA - Ephrata joined the ranks of Grant County cities temporarily banning cryptocurrency development after the city council voted Wednesday to block new cryptocurrency operations for the next 12 months."
+        }
+      ],
+      "notes": "The city's Municipal Code has since migrated from codepublishing.com to ecode360.com (both blocked by a cookie-consent JS wall on automated fetch), but the underlying PDF at ephrata.org/DocumentCenter/View/382 was directly retrievable and OCR'd successfully. Could not independently confirm the text of Ord. 18-13/18-28 themselves (only the code's citation to them), so confidence is held at 0.8 rather than higher."
+    },
+    {
+      "moratorium_id": "wa-waterville-2018",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "changes": {
+        "current_status": {
+          "from": "Expired / replaced [VERIFY: replacement ordinance not located]",
+          "to": "Replaced. Waterville's zoning code now defines and regulates 'cryptocurrency mining' (WMC 17.10.165) and 'data center' (WMC 17.10.175), added via Ordinance 815 (2020), and the Chapter 17.40 District Use Chart lists cryptocurrency mining as a regulated ('PRM3') use rather than a prohibited one, confirmed via a current mirror of the town's zoning code as of 2026-09-23.",
+          "reason": "Located the current zoning code text (via a zoneomics.com mirror, since the official eCode360/codepublishing.com hosting is a JS-only shell blocked by a cookie-consent wall even in browser mode) showing a permanent, codified treatment of cryptocurrency mining that succeeded the 2018 interim moratorium."
+        },
+        "legal_basis": {
+          "from": "Ordinance 792, interim official control on cryptocurrency mining; RCW 35A.63.220 and RCW 36.70A.390 (town is non-charter code town)",
+          "to": "Ordinance 792 (2018), interim official control on cryptocurrency mining per MRSC's May 2018 report (exact adoption date and full text still not located this pass); superseded by Ordinance 815 (2020, codified at WMC 17.10.165 and 17.10.175), which added permanent cryptocurrency-mining and data-center definitions and zoning treatment; RCW 35A.63.220 and RCW 36.70A.390.",
+          "reason": "Adds the confirmed successor ordinance (815, 2020) that replaced the interim control; Ordinance 792 itself remains unconfirmed from a primary source."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: exact passage date not confirmed; Waterville Municipal Code is hosted on eCode360 (WA4837) which is JS-rendered and did not yield the ordinance table on automated fetch as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Checked ecode360.com/46555568 and ecode360.com/46440063 directly (both are JS-only shells blocked by a cookie-consent wall even with a browser-mode fetch), codepublishing.com/WA/Ephrata-style redirect behavior at the town's code host, and a stale (February 2005) PDF of the zoning code hosted by Douglas County (douglascountywa.gov/DocumentCenter/View/724) that predates any cryptocurrency provisions. A third-party mirror (zoneomics.com) surfaced the current code text (via Ord. 815, 2020) but not the original Ordinance 792 text or its exact 2018 passage date."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY: Ordinance 792 PDF not located on Waterville town website as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Same portal limitations as above prevented retrieval of Ordinance 792's full text or stated duration this pass."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: replacement ordinance not located]",
+          "resolution": "corrected",
+          "note": "Found the successor, Ordinance 815 (2020), cited throughout the current zoning code's cryptocurrency-mining (WMC 17.10.165) and data-center (WMC 17.10.175) definitions and in the District Use Chart, via a zoneomics.com mirror of the code."
+        }
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.zoneomics.com/code/waterville-WA/chapter_3",
+          "source_type": "other",
+          "supports": "Mirror of the current Waterville Municipal Code Title 17 definitions chapter; WMC 17.10.165 defines 'cryptocurrency mining' and WMC 17.10.175 defines 'data center,' both cited to Ordinance 815 (2020).",
+          "title": "Waterville, WA Zoning Ordinance",
+          "publisher": "Zoneomics (code mirror)",
+          "quote": "17.10.165 Cryptocurrency mining. means the operation of specialized computer equipment for the primary purpose of mining one or more blockchain-based cryptocurrencies such as Bitcoin. ... (Ord. 815 3 (Exh. A), 2020)"
+        },
+        {
+          "url": "https://www.zoneomics.com/code/waterville-WA/chapter_16",
+          "source_type": "other",
+          "supports": "Mirror of the current District Use Chart (WMC Chapter 17.40), listing 'Cryptocurrency mining' as a regulated ('PRM3') use in certain zoning districts rather than a prohibited one.",
+          "title": "Waterville, WA Zoning Ordinance",
+          "publisher": "Zoneomics (code mirror)",
+          "quote": "Cryptocurrency mining ... PRM3 ... PRM3"
+        },
+        {
+          "url": "https://mrsc.org/stay-informed/mrsc-insight/may-2018/bitcoin-comes-to-washington",
+          "source_type": "other",
+          "supports": "Statewide MRSC report (May 2018) identifying Waterville, alongside East Wenatchee, as having imposed a moratorium on accepting cryptocurrency mining applications, without giving an exact date or ordinance number for Waterville specifically.",
+          "title": "Bitcoin Comes to Washington",
+          "publisher": "MRSC",
+          "document_date": "2018-05",
+          "quote": "The Douglas County cities of East Wenatchee and Waterville have recently imposed moratoriums on accepting applications for mining operations"
+        }
+      ],
+      "notes": "eCode360 (ecode360.com/46555568, ecode360.com/46440063) and the douglascountywa.gov-hosted zoning code PDF (a stale Feb-2005 version) were both checked and could not yield Ordinance 792's text or exact date; a third-party code mirror (zoneomics.com) was used instead to confirm the successor ordinance, which is a lower-confidence secondary route to the current code's content even though the code content itself reads as authoritative. Confidence held at 0.65 given Ordinance 792 itself is still unconfirmed from any primary source."
+    },
+    {
+      "moratorium_id": "wa-douglas-county-2018",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "2018-04 (per MRSC May 2018 report: \"this April, the county issued a moratorium on the use of cargo containers for cryptocurrency mining in unincorporated areas\")",
+          "to": "2018-04-17, Board of Douglas County Commissioners approved a moratorium on the use of cargo containers to house cryptocurrency mining operations in unincorporated Douglas County (per Wenatchee World, published 2018-04-17, describing the vote as taken 'Tuesday')",
+          "reason": "The Wenatchee World's own April 17, 2018 report (published the day of the vote, describing it as taken 'Tuesday,' which April 17, 2018 was) gives the exact date, resolving the prior month-only date."
+        },
+        "date_enacted_iso": {
+          "from": "2018-04",
+          "to": "2018-04-17",
+          "reason": "Confirmed exact date via contemporaneous Wenatchee World reporting."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Exact date now confirmed by a contemporaneous primary-adjacent news source published the same day as the vote."
+        },
+        "trigger": {
+          "from": "Unincorporated-area cryptocurrency mining in cargo containers and related safety, noise, and land-use concerns; Douglas County PUD reported a 3-month moratorium on its own electric service applications followed by tiered rates",
+          "to": "The Board's primary stated concern was the aesthetics of cargo containers used to house cryptocurrency mining equipment in unincorporated areas (cargo containers were otherwise broadly allowed countywide, with only the East Wenatchee Urban Growth Area separately regulating their placement and appearance). Separately, Douglas County PUD had issued its own 3-month moratorium on electric service applications for cryptocurrency/data-mining loads, running March-May 2014 (not 2018), later replaced by a tiered rate structure and contract requirements for consumers using 1.5+ MW.",
+          "reason": "Wenatchee World's April 17, 2018 report quotes the Board's primary concern as container aesthetics and separately clarifies, via PUD general manager Gary Ivory, that the PUD's own moratorium ran March-May 2014, correcting the prior text's implication that the PUD action was contemporaneous with or a driver of the 2018 county zoning moratorium."
+        }
+      },
+      "verify_resolutions": [],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wenatcheeworld.com/news/local/douglas-county-looks-to-ban-cargo-containers-for-cryptocurrency-mining/article_903714c4-c7ce-5d87-a753-b5f04accd080.html",
+          "source_type": "news",
+          "supports": "Contemporaneous (published 2018-04-17) report of the Board of County Commissioners' Tuesday vote approving the cargo-container moratorium; gives the exact date, the Board's stated aesthetic concern, and clarifies the PUD's separate 2014 moratorium timeline.",
+          "title": "Douglas County looks to ban cargo containers for cryptocurrency mining",
+          "publisher": "Wenatchee World",
+          "document_date": "2018-04-17",
+          "quote": "WATERVILLE - The Douglas County Board of Commissioners on Tuesday approved a moratorium on the use of cargo containers for cryptocurrency mining in unincorporated parts of the county. ... The board's primary concern was the aesthetics of the containers."
+        },
+        {
+          "url": "https://mrsc.org/stay-informed/mrsc-insight/may-2018/bitcoin-comes-to-washington",
+          "source_type": "other",
+          "supports": "Statewide MRSC report corroborating the April 2018 county moratorium on cargo containers for cryptocurrency mining in unincorporated areas.",
+          "title": "Bitcoin Comes to Washington",
+          "publisher": "MRSC",
+          "document_date": "2018-05",
+          "quote": "this April, the county issued a moratorium on the use of cargo containers for cryptocurrency mining in unincorporated areas"
+        },
+        {
+          "url": "https://www.codepublishing.com/WA/DouglasCounty/html/DouglasCounty14/DouglasCounty1498.html",
+          "source_type": "other",
+          "supports": "Current Douglas County Code definitions chapter, confirming 'Cryptocurrency' is now a defined term (DCC 14.98.186) citing Ordinance TLS 19-12-31C, corroborating the existing row's 'replaced' status and legal_basis citation.",
+          "title": "Chapter 14.98 Definitions",
+          "publisher": "Douglas County, Washington",
+          "quote": "14.98.186 Cryptocurrency. 'Cryptocurrency' means digital currency in which encryption techniques are used to regulate the generation of units of currency and verify the transfer of funds, operating independently of a central bank. ... (Ord. TLS 19-12-31C Exh. B (part))"
+        }
+      ],
+      "notes": "The Wenatchee World article's body text was ROT47-obfuscated (Lee Enterprises/BLOX CMS, as flagged in the process doc); decoded successfully with a standard ROT47 pass over ASCII 33-126."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Washington",
+      "jurisdiction": "Renton",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-08-17, City Council unanimous vote approving a one-year moratorium (city administration had been directed to begin drafting it by a June 1, 2026 council motion)",
+      "date_enacted_iso": "2026-08-17",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Up to one year (365 days) from the effective date",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-08-17",
+      "legal_basis": "City of Renton moratorium ordinance, adopted 2026-08-17 under RCW 36.70A.390",
+      "trigger": "Community concern about AI-driven data center growth's impacts on electrical/water utility capacity, utility rates, land use, traffic, noise, air quality from backup generation, and public infrastructure; originated with Councilmember Kim-Khanh Van's June 1, 2026 motion",
+      "trigger_categories": [
+        "infrastructure_capacity",
+        "grid_energy",
+        "water",
+        "noise",
+        "land_use_compatibility"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23. Moratorium on filing, acceptance, processing, and approval of applications/permits for the siting, establishment, or expansion of large data centers, adopted 2026-08-17 for up to one year; does not apply to applications pending before the effective date or to maintenance/repair of existing facilities that do not expand footprint or utility capacity.",
+      "enacted_status": "active",
+      "affected_projects": "New or expanded large data center siting citywide; no specific proposed project identified in reporting",
+      "outcome": "Renton City Council unanimously approved a one-year moratorium on large data centers on 2026-08-17, following a June 1, 2026 council motion directing staff to begin drafting it.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.rentonreporter.com/2026/08/19/renton-places-one-year-moratorium-on-data-centers/",
+          "source_type": "news",
+          "supports": "Confirms the August 17, 2026 unanimous council vote for a one-year moratorium, its scope, and exceptions.",
+          "title": "Renton places one-year moratorium on data centers",
+          "publisher": "Renton Reporter",
+          "document_date": "2026-08-19",
+          "quote": "At the Aug. 17 Renton City Council meeting, the council unanimously approved a moratorium on the filing, acceptance, processing, and approval of applications and permits for the siting establishment or expansion of large data centers within the city for up to one year."
+        },
+        {
+          "url": "https://www.rentonreporter.com/2026/06/15/renton-city-council-sets-ai-data-center-ban-in-motion/",
+          "source_type": "news",
+          "supports": "Confirms the June 1, 2026 council motion directing administration to begin drafting a moratorium.",
+          "title": "Renton City Council sets AI data center moratorium in motion",
+          "publisher": "Renton Reporter",
+          "document_date": "2026-06-15"
+        }
+      ],
+      "notes": "Not previously in the inventory; jurisdiction distinct from Burien, Federal Way, Marysville, Seattle, Skagit County, Snohomish County, and Spokane, which are already tracked."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Pierce County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-08-25, County Council passed Emergency Ordinance No. 2026-557 by a 6-1 vote (Councilmember Dave Morell dissenting)",
+      "date_enacted_iso": "2026-08-25",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Up to one year from the date the County Executive signs it, unless extended or lifted by Council",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Pierce County Emergency Ordinance No. 2026-557, passed by the County Council 2026-08-25 (6-1); emergency ordinances require a 5-of-7 supermajority",
+      "trigger": "Absence of data-center-specific development standards in the Pierce County Code (data centers currently classified as Intermediate Manufacturing/Assembly under PCC 18A.33.280.E.4); concern over impacts of hyperscale facilities exceeding 10 MW",
+      "trigger_categories": [
+        "regulatory_gap",
+        "infrastructure_capacity",
+        "grid_energy",
+        "water"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23. Prohibits filing, processing, or approval of permits for new and expanded data centers exceeding 10 megawatts in unincorporated Pierce County for up to one year from the Executive's signature; a public hearing is scheduled for 2026-10-20. No hyperscale data center applications were pending as of adoption; the Planning & Public Works Department is developing permanent regulations.",
+      "enacted_status": "active",
+      "affected_projects": "New and expanded data center permits over 10 MW in unincorporated Pierce County; none currently pending",
+      "outcome": "County Council passed an emergency one-year moratorium (Ordinance No. 2026-557) on data centers exceeding 10 MW in unincorporated areas on 2026-08-25 by a 6-1 vote, while staff develop permanent data center regulations.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.piercecountywa.gov/m/newsflash/home/detail/7241",
+          "source_type": "other",
+          "supports": "Official County Council press release confirming the August 25, 2026 6-1 vote, the >10 MW threshold, one-year term, and the October 20, 2026 public hearing.",
+          "title": "County Council passes emergency ordinance on data centers",
+          "publisher": "Pierce County Council",
+          "document_date": "2026-08-26",
+          "quote": "The Pierce County Council passed an emergency ordinance on Tuesday, Aug. 25, that prohibits filing, processing, or approval of permits for new and expanded data centers exceeding 10 megawatts in unincorporated Pierce County for up to one year."
+        },
+        {
+          "url": "https://www.piercecountywa.gov/9112/Data-Center-Regulations",
+          "source_type": "other",
+          "supports": "Official County webpage confirming the moratorium's passage and describing existing/interim regulatory context.",
+          "title": "Data Center Regulations",
+          "publisher": "Pierce County, WA"
+        }
+      ],
+      "notes": "Not previously in the inventory."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Mount Vernon",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-08-12, City Council vote (one dissent) for a six-month moratorium, Ordinance No. 3943",
+      "date_enacted_iso": "2026-08-12",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-02-12",
+      "legal_basis": "Mount Vernon Ordinance No. 3943, adopted 2026-08-12, declaring an emergency and imposing a moratorium on accepting permit applications for data centers; public hearing required within 60 days per RCW 36.70A.390",
+      "trigger": "Concerns over electricity and water demand, city capacity to accommodate large facilities, stormwater/sewer planning, and the city's location within the Skagit River 100-year floodplain",
+      "trigger_categories": [
+        "infrastructure_capacity",
+        "water",
+        "grid_energy",
+        "environmental"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23. Six-month moratorium on data center permit applications, adopted 2026-08-12 (Councilmember Andrew Vander Stoep dissenting); no data centers had been proposed in Mount Vernon as of adoption. A public hearing was required within 60 days of adoption.",
+      "enacted_status": "active",
+      "affected_projects": "None proposed as of adoption; future data center permit applications citywide",
+      "outcome": "Mount Vernon City Council adopted a six-month moratorium on data center permit applications via Ordinance No. 3943 on 2026-08-12, following Skagit County (June 2026) and La Conner (July 2026).",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.cascadiadaily.com/2026/aug/13/mount-vernon-temporarily-bans-data-centers/",
+          "source_type": "news",
+          "supports": "Confirms the August 12, 2026 council vote, six-month term, dissent, and rationale (floodplain, water/electricity capacity).",
+          "title": "Mount Vernon temporarily bans data centers",
+          "publisher": "Cascadia Daily News",
+          "document_date": "2026-08-13",
+          "quote": "The Mount Vernon City Council voted for a six-month moratorium on Wednesday, Aug. 12 ... No data centers have been proposed in Mount Vernon, city staff confirmed on Wednesday."
+        },
+        {
+          "url": "https://www.goskagit.com/news/mount-vernon-city-council-approves-6-month-data-center-moratorium/article_f131e0c2-c875-4137-b61a-5417cffc94ac.html",
+          "source_type": "news",
+          "supports": "Confirms the 6-1 council vote, the emergency-ordinance basis, and the City Attorney's floodplain/water/noise/sewer-capacity rationale.",
+          "title": "Mount Vernon City Council approves 6-month data center moratorium",
+          "publisher": "Skagit Valley Herald (goskagit.com)",
+          "quote": "MOUNT VERNON - The Mount Vernon City Council voted 6-1 Wednesday to adopt a six-month moratorium on data centers within the city limits. ... As of Wednesday evening, the city had not received any applications for data centers, Rogerson said."
+        }
+      ],
+      "notes": "Not previously in the inventory. Distinct from Mount Vernon's separate battery-energy-storage-system moratorium (Ordinance 3913/3915), reported as a second candidate below."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "La Conner",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-07-28, Town Council unanimous vote adopting an emergency moratorium (likely Ordinance No. 1274, per the ordinance-number tracker shown on the July 28, 2026 council agenda; the draft ordinance text itself left the number blank)",
+      "date_enacted_iso": "2026-07-28",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months minimum; by its own terms the moratorium does not terminate until the Council, following the required public hearing, adopts findings and either extends or cancels it -- termination is not presumed to occur merely because six months have elapsed",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "La Conner Town Council emergency ordinance (likely No. 1274) adopted 2026-07-28 under RCW 35.63.200 and RCW 36.70A.390, effective immediately",
+      "trigger": "Town lacks guidelines/policies addressing data centers' large-scale water and electricity use, which could strain public infrastructure, deplete water resources during drought, and constrain industrial growth/climate resilience; adopted following Skagit County's June 2026 moratorium",
+      "trigger_categories": [
+        "regulatory_gap",
+        "water",
+        "grid_energy",
+        "infrastructure_capacity"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23. Six-month emergency moratorium on accepting data center permit applications within town limits, adopted 2026-07-28; a public hearing was required within roughly two months of adoption.",
+      "enacted_status": "active",
+      "affected_projects": "None proposed as of adoption",
+      "outcome": "La Conner Town Council unanimously adopted an emergency six-month moratorium on data center applications on 2026-07-28, following Skagit County's example.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://laconnercommunitynews.org/2026/07/29/town-approves-moratorium-on-data-centers/",
+          "source_type": "news",
+          "supports": "Confirms the July 28, 2026 (Tuesday) unanimous vote, six-month term, and public-review process.",
+          "title": "Town approves moratorium on data centers",
+          "publisher": "La Conner Community News",
+          "document_date": "2026-07-29",
+          "quote": "Tuesday, following Skagit County's example, the La Conner Town Council unanimously approved an emergency moratorium on applications for data centers within town limits, effective immediately."
+        },
+        {
+          "url": "https://townoflaconner.org/DocumentCenter/View/2445/72826-Town-Council-Packet",
+          "source_type": "agenda",
+          "supports": "Official July 28, 2026 council meeting packet, including the agenda item ('Ordinance - Emergency Moratorium on the Acceptance of Applications for New Data Center Development'), the ordinance-number tracker showing 'Ordinance 1274' as the next available number, and the full draft ordinance text (six-month term, Sections 3-4).",
+          "title": "Town Council Packet, July 28, 2026",
+          "publisher": "Town of La Conner",
+          "document_date": "2026-07-28",
+          "quote": "Section 3. Moratorium Imposed. The town council hereby imposes an immediate six-month moratorium on the acceptance, processing, or approval of any applications for permits or land ... Ordinance 1274 Resolution 693"
+        }
+      ],
+      "notes": "The exact ordinance number is inferred from the agenda's numbering tracker rather than stated on the face of the captured draft text (which reads 'ORDINANCE NO. ____'); flagged for confirmation."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Spokane County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-08-18, Board of County Commissioners unanimously approved a four-month pause (stated to have the same legal effect as a moratorium) on data center building permits",
+      "date_enacted_iso": "2026-08-18",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Four months",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "current_end_date_iso": "2026-12-15",
+      "legal_basis": "Spokane County Board of Commissioners action, approved 2026-08-18, pausing acceptance/processing of County building permits for data centers in unincorporated Spokane County; first proposed by Commissioners Chris Jordan and Amber Waldref on 2026-07-21",
+      "trigger": "Public pressure (thousands of constituent contacts) over impacts to utility ratepayers, natural resources, and neighborhoods from data center development",
+      "trigger_categories": [
+        "grid_energy",
+        "water",
+        "land_use_compatibility",
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23. Four-month pause (same legal effect as a moratorium) on acceptance/processing of County data center building permits in unincorporated Spokane County, set to expire 2026-12-15 (extendable if more time is needed); the Planning Commission is leading a Zoning Text Amendment process with multiple public hearings before a final Board decision.",
+      "enacted_status": "active",
+      "affected_projects": "Not identified",
+      "outcome": "Spokane County Commissioners unanimously approved a four-month pause on data center permitting, effective 2026-08-18 through 2026-12-15.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.spokanecounty.gov/DocumentCenter/View/73278/2026_08_18-Data-Center-Pause-Press-Release?bidId=",
+          "source_type": "other",
+          "supports": "Official County Commissioners' press release: unanimous vote on 2026-08-18, four-month term expiring 2026-12-15, and background on the July 21, 2026 initial proposal.",
+          "title": "Spokane County Commissioners Chris Jordan and Amber Waldref Commend Passage of County Data Center Moratorium",
+          "publisher": "Spokane County",
+          "document_date": "2026-08-18",
+          "quote": "Today, the Board of County Commissioners unanimously approved a four-month pause on the acceptance and processing of County building permits for data centers. ... The moratorium is set to expire on December 15, 2026 and can be extended if more time is needed."
+        },
+        {
+          "url": "https://www.khq.com/news/spokane-county-commissioners-unanimously-vote-to-pause-data-center-applications/article_bac54275-0f40-4180-b715-1de4073d75e7.html",
+          "source_type": "news",
+          "supports": "Corroborating news coverage confirming the unanimous vote and the December 15, 2026 pause end date, plus the plan for a zoning text amendment and public hearings.",
+          "title": "Spokane County commissioners unanimously vote to pause data center applications",
+          "publisher": "KHQ",
+          "document_date": "2026-08-18",
+          "quote": "County officials announced on Tuesday that the Spokane County Board of Commissioners has unanimously approved a resolution to pause land use and permit applications for data centers ... with the pause set to remain in effect until December 15, 2026."
+        }
+      ],
+      "notes": "Distinct jurisdiction from the City of Spokane, already tracked in the inventory as wa-spokane-2026."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Kittitas County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-08-10, Board of County Commissioners approved (2-0, one commissioner absent) an emergency six-month moratorium on data center applications by resolution; extended a further six months following a 2026-09-15 public hearing",
+      "date_enacted_iso": "2026-08-10",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Originally six months; extended an additional six months on/around 2026-09-15 (approximately one year total)",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Kittitas County Board of Commissioners resolution, adopted 2026-08-10, imposing an emergency six-month moratorium on acceptance/processing/review/approval of data center land-use applications in unincorporated Kittitas County under RCW 36.70A.390; extended an additional six months by a further resolution following a 2026-09-15 public hearing and five-page work plan (through September 2027)",
+      "trigger": "Concerns stemming from Cle Elum-area (Blue Fern Development) interest in siting a data center in Upper Kittitas County; county code does not adequately define or classify data centers for land use, zoning, environmental, building, infrastructure, and permitting review",
+      "trigger_categories": [
+        "regulatory_gap",
+        "specific_project",
+        "infrastructure_capacity",
+        "grid_energy",
+        "water",
+        "noise"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23. Originally adopted as an emergency six-month moratorium on 2026-08-10 (prompted by concern over a possible Cle Elum-area project); the Board approved a further six-month extension following a 2026-09-15 public hearing, per a five-page work plan running through September 2027, extending the total pause to roughly one year. No data center applications had been received as of the extension.",
+      "enacted_status": "extended",
+      "affected_projects": "Not identified; no applications received as of 2026-09-17",
+      "outcome": "Kittitas County Commissioners adopted an emergency six-month data center moratorium on 2026-08-10, then extended it another six months following a 2026-09-15 public hearing.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.dailyrecordnews.com/news/commissioners-approve-ban-on-data-centers/article_f748f50c-8759-4b25-9c2b-d87aa04a5942.html",
+          "source_type": "news",
+          "supports": "Confirms the initial 2-0 vote approving the emergency six-month moratorium, its immediate effect, and the required 60-day public-hearing timeline.",
+          "title": "Commissioners approve ban on data centers",
+          "publisher": "Daily Record (Ellensburg)",
+          "quote": "Kittitas County commissioners unanimously approved an emergency six-month ban on data center proposals Monday. ... Commissioners passed the resolution without additional discussion on a 2-0 vote. The ban went into immediate effect."
+        },
+        {
+          "url": "https://www.dailyrecordnews.com/ellensburg/kittitas-county-oks-proposal-to-extend-data-center-moratorium/article_566362b5-f165-4501-8e48-c8c57af6aadb.html",
+          "source_type": "news",
+          "supports": "Confirms the six-month extension, bringing the total moratorium to roughly a year, and the accompanying work plan through September 2027.",
+          "title": "Kittitas County OKs proposal to extend data center moratorium",
+          "publisher": "Daily Record (Ellensburg)",
+          "quote": "Kittitas County commissioners approved a six-month extension Tuesday to its ban on accepting applications for data center projects. ... This week's approval on a moratorium extension will result in a year-long ban."
+        },
+        {
+          "url": "https://records.co.kittitas.wa.us/WebLink/0/doc/8321190/Page4.aspx",
+          "source_type": "agenda",
+          "supports": "County Laserfiche meeting record confirming the September 15, 2026 public hearing to consider extending the data center moratorium for an additional six months.",
+          "title": "2:00pm Public Hearing, September 15, 2026",
+          "publisher": "Kittitas County",
+          "quote": "Public Hearing to consider extending the moratorium regarding Data Centers for an additional six (6) months, which includes a work plan."
+        }
+      ],
+      "notes": "Original resolution number not independently confirmed (a search snippet referenced 'Resolution No. 2026-...' adopted August 10, 2026, but the source page (Laserfiche WebLink) is a JS-only viewer that could not be scraped for the full resolution number)."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Cle Elum",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-07-31, City Council unanimously approved an emergency six-month moratorium at a special meeting, three days after Blue Fern Development unveiled a 20 MW data center proposal",
+      "date_enacted_iso": "2026-07-31",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-01-31",
+      "legal_basis": "Cle Elum City Council emergency ordinance, adopted 2026-07-31, imposing a six-month moratorium on data center/high-intensity-computing-facility applications",
+      "trigger": "Blue Fern Development's July 28, 2026 proposal for a roughly 100,000-sq-ft, 20 MW 'research sized' data center within a residential/commercial development near I-90; concerns over electricity, water, fire protection, noise, and local economic effects",
+      "trigger_categories": [
+        "specific_project",
+        "grid_energy",
+        "water",
+        "fire_safety",
+        "noise"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23. Six-month emergency moratorium adopted 2026-07-31; a public hearing was scheduled for 2026-09-08. The moratorium may not stop the Blue Fern project, which may be reviewed under a preexisting development agreement; the city must still decide whether a data center qualifies as an already-permitted use. An advisory committee has been formed to study power, water, wastewater, tax, and jobs impacts.",
+      "enacted_status": "active",
+      "affected_projects": "Blue Fern Development's proposed roughly 100,000-sq-ft, 20 MW data center near I-90",
+      "outcome": "Cle Elum City Council unanimously adopted an emergency six-month moratorium on new data center facilities on 2026-07-31.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.seattletimes.com/seattle-news/climate-lab/cle-elum-passed-a-data-center-ban-one-might-be-built-there-anyway/",
+          "source_type": "news",
+          "supports": "Confirms the July 31, 2026 unanimous vote, six-month term, the Blue Fern Development proposal that prompted it, and the caveat that a preexisting development agreement may allow the project to proceed regardless.",
+          "title": "Cle Elum passed a data center ban. One might be built there anyway.",
+          "publisher": "Seattle Times",
+          "document_date": "2026-08",
+          "quote": "Three days after a developer unveiled plans for a 20-megawatt data center in Cle Elum, the City Council passed an emergency six-month moratorium on new facilities. The council approved the pause unanimously Friday"
+        }
+      ],
+      "notes": "Not previously in the inventory; distinct from Kittitas County (the surrounding county, also a new candidate above), which cited concern over this same Cle Elum-area project as a trigger for its own moratorium."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Yakima County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-08-11, Board of County Commissioners unanimously adopted Resolution No. 210-2026",
+      "date_enacted_iso": "2026-08-11",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-02-11",
+      "legal_basis": "Yakima County Resolution No. 210-2026, adopted 2026-08-11, declaring a zoning moratorium on placement of data centers within unincorporated Yakima County",
+      "trigger": "County code lacks data-center-specific regulations; public opposition raised at a prior work session over water, power-rate, and environmental impacts; no data centers currently in the county and no direct access to the Columbia River or lower-cost power",
+      "trigger_categories": [
+        "regulatory_gap",
+        "water",
+        "grid_energy",
+        "environmental"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23. Six-month moratorium (Resolution 210-2026) preventing acceptance of land use or building permits for data centers in unincorporated Yakima County, adopted 2026-08-11; a public hearing is required within 60 days. No applications for data centers had been received as of adoption.",
+      "enacted_status": "active",
+      "affected_projects": "None; no applications received as of adoption",
+      "outcome": "Yakima County Commissioners unanimously adopted Resolution No. 210-2026 on 2026-08-11, imposing a six-month zoning moratorium on data centers in unincorporated Yakima County.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.yakimaherald.com/news/local/government/yakima-county-commissioners-pass-six-month-data-center-moratorium/article_997dbbc7-7fe0-476a-9d92-73179f958bf7.html",
+          "source_type": "news",
+          "supports": "Confirms the August 11, 2026 unanimous vote, six-month term, and rationale.",
+          "title": "Yakima County commissioners pass six-month data center moratorium",
+          "publisher": "Yakima Herald",
+          "document_date": "2026-08-11",
+          "quote": "Yakima County commissioners on Tuesday voted unanimously in favor of a six-month moratorium on data centers. The resolution prevents the county from accepting any land use or building permits for data centers in unincorporated Yakima County."
+        },
+        {
+          "url": "https://www.yakimacounty.us/AgendaCenter/ViewFile/Agenda/_08112026-1948?html=true#docaccess-f83e048042eb7d3b8025b0fbc10e006b",
+          "source_type": "agenda",
+          "supports": "Official August 11, 2026 Board of County Commissioners agenda, listing 'Resolution 210-2026, Declaring a Zoning Moratorium on Placement of Data Centers within the Unincorporated Areas of Yakima County.'",
+          "title": "Board of County Commissioners Agenda, August 11, 2026",
+          "publisher": "Yakima County",
+          "document_date": "2026-08-11",
+          "quote": "Resolution 210-2026 Declaring a Zoning Moratorium on Placement of Data Centers within the Unincorporated Areas of Yakima County."
+        }
+      ],
+      "notes": "Not previously in the inventory."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Skamania County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-08-18, Board of Commissioners adopted Resolution 2026-22 (unanimous), after first approving it by motion earlier in the same meeting",
+      "date_enacted_iso": "2026-08-18",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months (the default term under RCW 36.70A.390 absent a work plan for a longer period; the Board was told at adoption that the moratorium 'lasts... six months, with another hearing to continue it')",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-02-18",
+      "legal_basis": "Skamania County Resolution 2026-22, 'Moratorium on Data Centers,' adopted unanimously 2026-08-18 under RCW 36.70A.390; because no hearing was held before adoption, a public hearing must be held within 60 days (by 2026-10-17)",
+      "trigger": "Eight of nine public commenters at the August 18, 2026 meeting requested a pause on data center development, citing electricity/water demand, noise/light, limited county land and resources, and the view that applications 'seem to pop out of nowhere at a rapid pace'; no specific project or pending applications",
+      "trigger_categories": [
+        "regulatory_gap",
+        "grid_energy",
+        "water",
+        "noise",
+        "infrastructure_capacity"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23. County-wide moratorium on data center development, adopted by motion and then as Resolution 2026-22 on 2026-08-18; zero applications for a data center had been received as of 2026-08-25. A public hearing was expected around 2026-10-13, required no later than 2026-10-17 under RCW 36.70A.390; as of the Board's September 9, 2026 minutes, no hearing date had been formally set.",
+      "enacted_status": "active",
+      "affected_projects": "None; zero applications received as of 2026-08-25",
+      "outcome": "Skamania County Board of Commissioners adopted a moratorium on data center development, first by motion and then as Resolution 2026-22, both unanimous, at its 2026-08-18 meeting.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://skamania-dispatch.ghost.io/a-data-center-moratorium-two-new-planning-commissioners-skamania-bocc-august-26/",
+          "source_type": "minutes",
+          "supports": "Detailed local reporting (cross-checked against county minutes and Columbia Gorge News) of the August 18, 2026 motion and Resolution 2026-22, the zero-applications confirmation on August 25, and the 60-day/October 17 public-hearing deadline.",
+          "title": "A Data Center Moratorium, Two New Planning Commissioners: Skamania BOCC, August 26",
+          "publisher": "Skamania Dispatch (cross-checked against Columbia Gorge Documenters)",
+          "document_date": "2026-09",
+          "quote": "On August 18 the Board adopted a moratorium on data center development, first by motion and then as Resolution 2026-22, both unanimous, after eight people asked for one. ... So just for the record, we have had zero applications for a data center"
+        }
+      ],
+      "notes": "Not previously in the inventory. The full resolution text (skamaniacounty.gov resolutions page) was referenced but not directly fetched this pass; the cited source itself cross-checks against county minutes and a second outlet (Columbia Gorge News), so confidence is held at 0.85 rather than requiring the primary PDF."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Covington",
+      "jurisdiction_type": "City",
+      "date_enacted": "2024-05-14 (original 12-month BESS moratorium, Ordinance No. 07-2024); renewed six months at a time by Ordinance No. 03-2025, No. 09-2025, and most recently No. 02-2026 (adopted 2026-04-14)",
+      "date_enacted_iso": "2024-05-14",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Initial 12 months, renewed in successive six-month increments; the current renewal (Ordinance No. 02-2026) was adopted 2026-04-14 concurrently with a public hearing",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "current_end_date_iso": "2026-10-14",
+      "legal_basis": "Covington Ordinance No. 07-2024 (2024-05-14, original 12-month BESS moratorium under RCW 35A.63.220/36.70A.390), renewed by Ordinance No. 03-2025, No. 09-2025, and most recently No. 02-2026 (adopted 2026-04-14, six-month renewal with public hearing held the same day)",
+      "trigger": "BESS facilities present fire, explosion, hazardous-chemical, noise, visual, and wildlife-impact risks not addressed by the City's outdated 'Utility Facility' zoning definition (CMC 18.20.050/18.125.040); City wants to align with King County's BESS siting standards and Dept. of Ecology guidance before permitting such facilities",
+      "trigger_categories": [
+        "regulatory_gap",
+        "fire_safety",
+        "noise",
+        "land_use_compatibility"
+      ],
+      "sectors": [
+        "battery_storage"
+      ],
+      "current_status": "Active as of 2026-09-23. BESS permit-application moratorium continuously renewed since May 2024; the current six-month renewal (Ordinance No. 02-2026, adopted 2026-04-14) runs through approximately 2026-10-14 absent a further renewal or repeal.",
+      "enacted_status": "extended",
+      "affected_projects": "Not identified; moratorium is preemptive/study-driven rather than tied to a specific pending project",
+      "outcome": "City of Covington has continuously renewed a battery energy storage system permitting moratorium since Ordinance No. 07-2024 (2024-05-14); most recently renewed by Ordinance No. 02-2026 on 2026-04-14 for an additional six months.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://cms2.revize.com/revize/cityofcovington/Ordinance%20No.%2002-2026.pdf?t=20260514192038871&t=20260514192038871",
+          "source_type": "ordinance",
+          "supports": "Full text of the most recent renewal ordinance, reciting the full renewal chain (07-2024, 03-2025, 09-2025) and confirming the April 14, 2026 hearing and six-month renewal.",
+          "title": "Ordinance No. 02-2026",
+          "publisher": "City of Covington",
+          "document_date": "2026-04-14",
+          "quote": "WHEREAS, on April 14, 2026, in accordance with RCW 35A.63.220 and RCW 36.70A.390, the Council conducted a public hearing in conjunction with the adoption of a six-month moratorium renewal ... Section 2. Renewal and Effective Period. Ordinance No. 09-2025 is hereby adopted and renewed for a period of six months from the effective date of this ordinance"
+        }
+      ],
+      "notes": "Not previously in the inventory. Adoption predates the 2026-08-01 discovery window specified in the process doc, but is included per the doc's allowance for 'older ones the inventory missed,' since it remains actively renewed and in force as of 2026-09-23."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Black Diamond",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-03-03 (interim zoning controls prohibiting BESS citywide, Ordinance No. 26-1246, superseding an earlier BESS permit-application moratorium first adopted 2024-02-15 under Ordinance No. 24-1205 and renewed by Ordinance No. 25-1219 in February 2025); extended a further six months, with a small-system exception, by Ordinance No. 26-1258 (public hearing scheduled 2026-10-06)",
+      "date_enacted_iso": "2026-03-03",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months per interim-zoning-control ordinance, renewed in six-month increments",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "current_end_date_iso": "",
+      "legal_basis": "Black Diamond Ordinance No. 26-1246 (adopted 2026-03-03), adopting interim zoning controls prohibiting battery energy storage systems in all zones (amending BDMC 18.100.710); succeeded an earlier permit-application moratorium (Ordinance No. 24-1205, 2024-02-15, renewed by Ordinance No. 25-1219 in Feb. 2025). Ordinance No. 26-1246 was itself extended a further six months, with an exception for systems of 20 kW or less, by Ordinance No. 26-1258 (public hearing scheduled 2026-10-06)",
+      "trigger": "Developer inquiries about siting a BESS facility and whether it qualifies as a 'utilities' use under BDMC Title 18; City's regulations not updated for BESS-specific fire, hazardous-chemical, noise, and wildlife-impact risks; City wants to review King County's October 2024 BESS siting code revisions first",
+      "trigger_categories": [
+        "regulatory_gap",
+        "fire_safety",
+        "specific_project",
+        "land_use_compatibility"
+      ],
+      "sectors": [
+        "battery_storage"
+      ],
+      "current_status": "Active as of 2026-09-23. The city's interim zoning controls prohibiting BESS facilities citywide (with an exception for systems of 20 kW or less) remain in effect, extended by Ordinance No. 26-1258 for a further six months beyond the original Ordinance No. 26-1246 term (which otherwise would have expired around 2026-09-03); a public hearing on the extension is scheduled for 2026-10-06.",
+      "enacted_status": "extended",
+      "affected_projects": "Not identified; originated from a developer's pre-application inquiry rather than a filed permit",
+      "outcome": "Black Diamond converted its earlier BESS permit-application moratorium into interim zoning controls outright prohibiting BESS citywide (Ordinance No. 26-1246, 2026-03-03), then extended that prohibition a further six months with a small-system exception (Ordinance No. 26-1258).",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://blackdiamondwa.gov/DocumentCenter/View/4114",
+          "source_type": "ordinance",
+          "supports": "Full text of Ordinance No. 26-1246: adopted 2026-03-03, prohibits BESS in all zones for six months, hearing scheduled April 7, 2026.",
+          "title": "Ordinance No. 26-1246",
+          "publisher": "City of Black Diamond",
+          "document_date": "2026-03-03",
+          "quote": "ADOPTED BY THE CITY COUNCIL AT A REGULAR MEETING THEREOF ON THE 3rd DAY OF MARCH, 2026. ... Section 3. Effective Period for Interim Zoning Controls. The interim zoning controls imposed in Section 2 will remain in effect for a period of six (6) months"
+        },
+        {
+          "url": "https://blackdiamondwa.gov/DocumentCenter/View/4415",
+          "source_type": "ordinance",
+          "supports": "Full text of the extension ordinance (No. 26-1258): extends Ordinance No. 26-1246's BESS prohibition six more months with a 20 kW exception; public hearing scheduled October 6, 2026.",
+          "title": "Ordinance No. 26-1258",
+          "publisher": "City of Black Diamond",
+          "quote": "the City Council may extend the adopted interim zoning controls for a period of six (6) months ... the City Council deems it appropriate to hold a public hearing on October 6, 2026 ... 'utilities' includes battery energy storage systems only when the total system power is twenty (20) kilowatts or less"
+        },
+        {
+          "url": "https://blackdiamondwa.gov/1681/2026-Ordinances",
+          "source_type": "other",
+          "supports": "Official 2026 ordinance index confirming both Ordinance No. 26-1246 and No. 26-1258 by title.",
+          "title": "2026 Ordinances",
+          "publisher": "City of Black Diamond"
+        }
+      ],
+      "notes": "Exact adoption date of the extension ordinance (No. 26-1258) was not captured from the retrieved text; estimated to fall shortly before the original term's expiration (~2026-09-03) based on the scheduled October 6, 2026 hearing."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Enumclaw",
+      "jurisdiction_type": "City",
+      "date_enacted": "2025-02-24 (original 12-month BESS moratorium, Ordinance No. 2833); an extension ordinance under the same number had its second reading 2026-02-23, following a 2026-02-09 public hearing",
+      "date_enacted_iso": "2025-02-24",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Originally 12 months; an extension was under council consideration as the original term neared its ~2026-02-24 expiration",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "current_end_date_iso": "",
+      "legal_basis": "Enumclaw Ordinance No. 2833, adopted 2025-02-24, imposing a 12-month moratorium on acceptance/processing/approval of BESS facility applications; confirmed via a 2025-04-14 public hearing. An extension ordinance (same number, per the city's agenda) had a second reading 2026-02-23 following a 2026-02-09 public hearing",
+      "trigger": "Concern over a BESS proposed in a residential neighborhood near Matson Middle School in unincorporated King County (which Covington's City Council formally opposed in a letter); fire, health, and environmental risk concerns raised by residents",
+      "trigger_categories": [
+        "fire_safety",
+        "land_use_compatibility",
+        "specific_project"
+      ],
+      "sectors": [
+        "battery_storage"
+      ],
+      "current_status": "Likely active as of 2026-09-23, pending confirmation. The original 12-month moratorium (Ordinance 2833, adopted 2025-02-24) was due to expire around 2026-02-24; a second reading of an extension ordinance occurred 2026-02-23, but the vote outcome and resulting new term were not independently confirmed from a source this pass. [VERIFY: outcome of the 2026-02-23 extension vote and current expiration date]",
+      "enacted_status": "extended",
+      "affected_projects": "A BESS proposed in a residential neighborhood near Matson Middle School, in unincorporated King County near Enumclaw (not within city limits)",
+      "outcome": "Enumclaw City Council adopted a 12-month BESS moratorium (Ordinance 2833) on 2025-02-24; a public hearing on a proposed extension was held 2026-02-09 and a second reading occurred 2026-02-23, but this pass could not confirm whether the extension passed.",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://www.courierherald.com/2026/02/13/enumclaw-holds-public-hearing-on-extending-bess-facility-moratorium/",
+          "source_type": "news",
+          "supports": "Confirms the original February 24, 2025 adoption of the 12-month moratorium, the April 14, 2025 confirmation hearing, and the February 9, 2026 hearing on a proposed extension, with an extension ordinance to be presented February 23.",
+          "title": "Enumclaw holds public hearing on extending BESS facility moratorium",
+          "publisher": "Courier-Herald",
+          "document_date": "2026-02-13",
+          "quote": "Elected officials approved a year-long moratorium was on Feb. 24, 2025, for city staff to better research options; a subsequent public hearing was held on April 14 to confirm the moratorium. ... An ordinance extending the moratorium will be presented to the council during the Feb. 23 meeting."
+        },
+        {
+          "url": "https://www.cityofenumclaw.net/DocumentCenter/View/10992",
+          "source_type": "staff_report",
+          "supports": "Official Community & Economic Development Committee agenda packet for the February 9, 2026 public hearing on Ordinance No. 2833.",
+          "title": "Community & Economic Development (CED) Committee",
+          "publisher": "City of Enumclaw",
+          "quote": "B. Ordinance No. 2833, BESS Moratorium Regulations ... Meeting Date: 02/09/2026 Subject: Public Hearing for Ordinance No. 2833 - Battery Energy Storage System facility Moratorium"
+        }
+      ],
+      "notes": "The February 23, 2026 council minutes (cityofenumclaw.net) could not be retrieved (0-char OCR result), so the extension vote's outcome is unconfirmed; confidence held at 0.55 pending confirmation of continued active status."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "North Bend",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-05-19, City Council unanimous vote approving a 12-month BESS moratorium",
+      "date_enacted_iso": "2026-05-19",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-05-19",
+      "legal_basis": "North Bend City Council ordinance, adopted 2026-05-19, enacting a 12-month moratorium on acceptance/processing/approval of BESS-related land development applications",
+      "trigger": "Opposition to Jupiter Power's proposed 130 MW BESS facility near Fisher Creek Park, within North Bend's/Snoqualmie's urban growth area (sited in unincorporated King County); Council also authorized a formal objection letter to the Washington Utilities and Transportation Commission",
+      "trigger_categories": [
+        "specific_project",
+        "fire_safety",
+        "land_use_compatibility"
+      ],
+      "sectors": [
+        "battery_storage"
+      ],
+      "current_status": "Active as of 2026-09-23. 12-month BESS permitting moratorium adopted 2026-05-19; the City also formally objected to the Jupiter Power BESS siting via a letter to the Washington Utilities and Transportation Commission (filed before the May 26, 2026 comment deadline).",
+      "enacted_status": "active",
+      "affected_projects": "Jupiter Power's proposed 130 MW battery energy storage facility near Fisher Creek Park (sited in unincorporated King County within North Bend's/Snoqualmie's urban growth area, so not directly covered by the moratorium itself)",
+      "outcome": "North Bend City Council unanimously adopted a 12-month BESS moratorium on 2026-05-19.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "http://northbendwa.gov/m/newsflash/Home/Detail/2666",
+          "source_type": "other",
+          "supports": "Official City press release confirming the May 19, 2026 unanimous vote, 12-month term, scope, and the UTC objection letter.",
+          "title": "North Bend City Council approves adoption of BESS moratorium, authorizes letter to Washington UTC",
+          "publisher": "City of North Bend",
+          "document_date": "2026-05-19",
+          "quote": "On May 19, 2026, the North Bend City Council voted unanimously to approve an ordinance enacting a 12-month moratorium related to Battery Energy Systems (BESS) storage within city limits. ... The moratorium prohibits the acceptance, processing, and/or approval of applications for land development proposals relating to or incorporating BESS."
+        }
+      ],
+      "notes": "Not previously in the inventory."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Snoqualmie",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-05-26, City Council unanimous vote adopting Ordinance No. 1322",
+      "date_enacted_iso": "2026-05-26",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-05-26",
+      "legal_basis": "Snoqualmie Ordinance No. 1322, adopted 2026-05-26, establishing a 12-month moratorium on acceptance/processing/approval of land use and building permit applications for new BESS facilities, with a required public hearing within 60 days",
+      "trigger": "Jupiter Power's proposed 130 MW BESS on a 45-acre lot behind Fisher Creek Park near Snoqualmie Ridge, within Snoqualmie's urban growth area but in unincorporated King County; residents formed a nonprofit opposing the project",
+      "trigger_categories": [
+        "specific_project",
+        "fire_safety",
+        "land_use_compatibility"
+      ],
+      "sectors": [
+        "battery_storage"
+      ],
+      "current_status": "Active as of 2026-09-23. 12-month moratorium (Ordinance No. 1322) on new BESS facility applications, adopted 2026-05-26; does not affect the Jupiter Power project itself, which sits in unincorporated King County outside Snoqualmie's jurisdiction.",
+      "enacted_status": "active",
+      "affected_projects": "Jupiter Power's proposed 130 MW BESS near Fisher Creek Park (in unincorporated King County, outside city jurisdiction, so unaffected by this moratorium)",
+      "outcome": "Snoqualmie City Council unanimously adopted Ordinance No. 1322 on 2026-05-26, a 12-month moratorium on new BESS facility permit applications.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://mrsc.org/getmedia/fb4d41c5-c69d-410c-a1a5-7f920f371cfa/s63o1322.pdf",
+          "source_type": "ordinance",
+          "supports": "Full signed ordinance text: 12-month term, passage date May 26, 2026, 60-day public-hearing requirement.",
+          "title": "Ordinance No. 1322",
+          "publisher": "City of Snoqualmie",
+          "document_date": "2026-05-26",
+          "quote": "PASSED by the City Council of the City of Snoqualmie, Washington, this 26th day of May, 2026. ... Section 3. Duration. This moratorium shall take effect immediately upon adoption and shall remain in effect for a period of twelve (12) months"
+        },
+        {
+          "url": "https://www.valleyrecord.com/2026/06/02/valley-cities-place-moratoriums-on-battery-storage-site-development/",
+          "source_type": "news",
+          "supports": "Corroborates the May 26, 2026 unanimous vote and the Jupiter Power project context.",
+          "title": "Valley cities place moratoriums on battery storage site development",
+          "publisher": "Snoqualmie Valley Record",
+          "document_date": "2026-06-02"
+        }
+      ],
+      "notes": "Not previously in the inventory."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Duvall",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-02, City Council unanimous vote adopting Ordinance No. 1353 (signed 2026-06-03)",
+      "date_enacted_iso": "2026-06-02",
+      "date_enacted_uncertainty": "exact",
+      "duration": "The ordinance's title recites a six-month term, but its recitals/findings state the Council 'deems it necessary...to impose a moratorium...for a period of 12 months'; the operative duration section was not fully captured in the text retrieved this pass",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "current_end_date_iso": "",
+      "legal_basis": "Duvall Ordinance No. 1353, adopted 2026-06-02 (signed 2026-06-03), establishing a temporary moratorium on BESS facility applications under RCW 35A.63.220/36.70A.390; public hearing held 2026-07-07",
+      "trigger": "City's DMC 14.06.190 'subregional utility' definition and DMC 14.62.020 permitted/conditional uses not updated for BESS technology; broader Snoqualmie Valley regional concern over BESS siting, fire, and safety risk",
+      "trigger_categories": [
+        "regulatory_gap",
+        "fire_safety"
+      ],
+      "sectors": [
+        "battery_storage"
+      ],
+      "current_status": "Active as of 2026-09-23. Moratorium on BESS facility applications adopted 2026-06-02 (Ordinance No. 1353); a public hearing was held 2026-07-07. [VERIFY: the ordinance's title recites a six-month term while its findings recite 12 months; the operative duration section was not fully captured this pass and should be re-confirmed against the complete ordinance text.]",
+      "enacted_status": "active",
+      "affected_projects": "Not identified",
+      "outcome": "Duvall City Council unanimously adopted a temporary BESS moratorium (Ordinance No. 1353) on 2026-06-02, following Snoqualmie, North Bend, and Carnation's example; a public hearing was held 2026-07-07.",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.duvallwa.gov/DocumentCenter/View/15036/Ord-1353---Approval-of-B",
+          "source_type": "ordinance",
+          "supports": "Partial text of Ordinance No. 1353 (adoption/signature block and findings retrieved; the operative duration-length section was cut off in this pass's text extraction).",
+          "title": "Ordinance No. 1353",
+          "publisher": "City of Duvall",
+          "document_date": "2026-06-02",
+          "quote": "Passed unanimously by the entire City Council of the City of Duvall this Second day of June, 2026. Signed in authentication of its passage this Third day of June, 2026. ... 36.70A.390, the City Council will hold a public hearing on this matter on July 7, 2026."
+        },
+        {
+          "url": "https://www.valleyrecord.com/2026/06/02/valley-cities-place-moratoriums-on-battery-storage-site-development/",
+          "source_type": "news",
+          "supports": "Confirms (via a June 15, 2026 update) that Duvall passed a BESS moratorium.",
+          "title": "Valley cities place moratoriums on battery storage site development",
+          "publisher": "Snoqualmie Valley Record",
+          "document_date": "2026-06-02 (updated 2026-06-15)",
+          "quote": "Update June 15: Duvall City Council has also passed a moratorium on battery energy storage systems."
+        }
+      ],
+      "notes": "Duration is flagged VERIFY due to an apparent internal inconsistency between the ordinance's title (six months) and its recitals (12 months) in the retrieved text; a future pass should re-fetch and read the full operative Section 3/4 text to resolve this before relying on duration_days."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Kitsap County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2025-06-11 (original 365-day BESS moratorium, Ordinance No. 639-2025); extended 180 days by Ordinance No. 645-2026 following a 2026-05-11 public hearing",
+      "date_enacted_iso": "2025-06-11",
+      "date_enacted_uncertainty": "exact",
+      "duration": "365 days initially, plus a 180-day extension",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "current_end_date_iso": "2026-12-08",
+      "legal_basis": "Kitsap County Ordinance No. 639-2025 (adopted 2025-06-11, 365-day BESS application moratorium under RCW 36.70.795/36.70A.390), extended 180 days by Ordinance No. 645-2026 (following a public hearing held 2026-05-11)",
+      "trigger": "Increased developer requests to site BESS facilities countywide; County zoning code does not contemplate BESS development or ensure adequate protections; County wants to complete workplan studies (fire, noise, wildlife, Dept. of Ecology guidance, HB 1216/WAC 51.54A.0322 compliance) before adopting permanent regulations",
+      "trigger_categories": [
+        "regulatory_gap",
+        "fire_safety",
+        "noise"
+      ],
+      "sectors": [
+        "battery_storage"
+      ],
+      "current_status": "Active as of 2026-09-23. Moratorium on new BESS facility applications in unincorporated Kitsap County, originally adopted 2025-06-11 (365 days) and extended 180 days by Ordinance No. 645-2026 following a 2026-05-11 public hearing; runs through approximately 2026-12-08 absent further extension or the adoption of permanent regulations.",
+      "enacted_status": "extended",
+      "affected_projects": "Not identified",
+      "outcome": "Kitsap County Board of Commissioners adopted a 365-day BESS moratorium (Ordinance No. 639-2025) on 2025-06-11, later extended 180 days by Ordinance No. 645-2026.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.kitsap.gov/dcd/PEP%20Documents/645-2026%20BESS%20Ordinance%20-%20SIGNED.pdf",
+          "source_type": "ordinance",
+          "supports": "Full text of the signed extension ordinance, citing the original Ordinance 639-2025 (adopted June 11, 2025, 365-day term), the July 14, 2025 initial public hearing, the May 11, 2026 extension hearing, and the 180-day extension.",
+          "title": "Ordinance No. 645-2026",
+          "publisher": "Kitsap County",
+          "quote": "AN ORDINANCE IMPOSING A 180-DAY EXTENSION TO THE 365-DAY MORATORIUM IMPOSED BY ORDINANCE 639-2025 ON THE ACCEPTANCE OF NEW APPLICATIONS FOR BATTERY ENERGY STORAGE SYSTEMS (BESS) ... WHEREAS on June 11, 2025, the County adopted Ordinance 639-2025 establishing a 365-day moratorium ... consistent with requirements in RCW 36.70A.390 for extensions to a moratorium, a public hearing was held on May 11, 2026"
+        }
+      ],
+      "notes": "Not previously in the inventory. Adoption predates the 2026-08-01 discovery window but remains actively extended and in force as of 2026-09-23, per the process doc's allowance for older instruments the inventory missed."
+    },
+    {
+      "state": "Washington",
+      "jurisdiction": "Mount Vernon",
+      "jurisdiction_type": "City",
+      "date_enacted": "2025-05-28 (original BESS moratorium, Ordinance No. 3913); continued/ratified by Ordinance No. 3915 (adopted 2025-07-23) for a maximum of one year from Ordinance 3913's adoption",
+      "date_enacted_iso": "2025-05-28",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Maximum one year from adoption of Ordinance 3913 (2025-05-28), i.e., through approximately 2026-05-28, unless terminated earlier or further renewed after another public hearing",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2026-05-28",
+      "legal_basis": "Mount Vernon Ordinance No. 3913 (2025-05-28), an emergency moratorium on accepting permits to construct/site/develop grid-scale battery energy storage systems, continued and ratified by Ordinance No. 3915 (2025-07-23) for a maximum of one year from Ordinance 3913's adoption",
+      "trigger": "City lacked siting criteria/safety standards/emergency-response requirements for grid-scale BESS; concern over lithium-ion fire and thermal-runaway risk, noise, and aesthetic compatibility with residential/retail zones",
+      "trigger_categories": [
+        "regulatory_gap",
+        "fire_safety",
+        "noise",
+        "land_use_compatibility"
+      ],
+      "sectors": [
+        "battery_storage"
+      ],
+      "current_status": "Likely expired as of 2026-09-23, pending confirmation. By its own terms, Ordinance No. 3915 capped the moratorium (first adopted via Ordinance 3913 on 2025-05-28) at a maximum of one year from that date, i.e., approximately 2026-05-28, unless the City held a further public hearing and renewed it again; no evidence of a further renewal or of permanent BESS regulations being adopted was found this pass. [VERIFY: whether the moratorium was renewed again after May 2026 or allowed to lapse, and whether permanent BESS regulations have since been adopted.]",
+      "enacted_status": "expired",
+      "affected_projects": "Not identified",
+      "outcome": "Mount Vernon City Council adopted an emergency BESS moratorium (Ordinance 3913) on 2025-05-28, continued it via Ordinance 3915 (2025-07-23) for up to one year total; status after the ~2026-05-28 cap is unconfirmed this pass.",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://mountvernonwa.gov/DocumentCenter/View/17946",
+          "source_type": "ordinance",
+          "supports": "Full text of Ordinance No. 3915 (including Ordinance No. 3913 as Exhibit A): confirms the May 28, 2025 original adoption, the July 23, 2025 continuation, and the one-year cap from the original adoption date.",
+          "title": "Ordinance No. 3915",
+          "publisher": "City of Mount Vernon",
+          "document_date": "2025-07-23",
+          "quote": "on May 28, 2025, at a regularly scheduled City Council meeting, the City Council declared an emergency and adopted a moratorium on accepting applications for permits to construct, site, or develop battery energy storage system(s) ... This ordinance shall apply for a maximum of one year from the adoption of Ordinance 3913 unless earlier terminated or not renewed after a subsequent public hearing is held."
+        }
+      ],
+      "notes": "Distinct from Mount Vernon's separate August 2026 data-center moratorium (Ordinance No. 3943), reported above as its own new candidate. This BESS-specific instrument is older and its current status past its likely one-year cap (~2026-05-28) could not be confirmed this pass; included at reduced confidence per the process doc's guidance on possible-lapse cases rather than guessing 'expired' outright at high confidence."
+    }
+  ]
+}

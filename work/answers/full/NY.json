@@ -1,0 +1,938 @@
+{
+  "state_abbrev": "NY",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "ny-town-of-east-fishkill-2026",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "Town Board local law/moratorium adopted 2026-06-25 (exact local law number not stated in the packet excerpt reviewed) [VERIFY]",
+          "to": "Local Law No. 3 of 2026 (Town of East Fishkill), titled 'A Local Law to Extend, Consolidate and Impose a Moratorium on Certain Properties Within the Town of East Fishkill,' adopted by the Town Board on 2026-06-25 by unanimous vote (5-0: Supervisor D'Alessandro and Councilpersons Franco, Marinaro, Arco, and Flores all AYE); the signed local law, certified by Town Clerk Peter J. Cassidy, is posted as 'L.L. No. 3-2026' in the Town's ecode360 new-laws ledger.",
+          "reason": "The signed and clerk-certified text of Local Law No. 3 of 2026 (ecode360 filing LF2734380.pdf) gives the exact local law number, adoption date, and unanimous 5-0 roll-call vote, resolving the prior uncertainty over the instrument number."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2029-07-01",
+          "reason": "Section Three of the signed Local Law No. 3 of 2026 states 'This Local Law will be in effect until July 1, 2029,' matching the free-text duration already recorded; adding the ISO date makes the fixed end date machine-readable. As of 2026-09-23 this date has not passed."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Confirmed via the signed, clerk-certified Local Law No. 3 of 2026 filed on ecode360 (LF2734380.pdf), adopted 2026-06-25 by a unanimous 5-0 Town Board vote."
+        }
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://ecode360.com/EA0495/laws/LF2734380.pdf",
+          "title": "Local Law No. 3 of 2026 (Town of East Fishkill)",
+          "publisher": "Town of East Fishkill / ecode360",
+          "document_date": "2026-06-25",
+          "source_type": "ordinance",
+          "supports": "Signed text, exact instrument number, unanimous 5-0 adoption vote, and July 1, 2029 term end date.",
+          "quote": "This Local Law will be in effect until July 1, 2029. ... b) While presently not a permitted use ... no Data Center shall be permitted or considered within the Town for a period of three years, unless they are ancillary to an existing or permitted use and less than 20 mw or eligible for an Economic Development Special Permit."
+        },
+        {
+          "url": "https://www.wamc.org/2026-06-26/east-fishkill-passes-3-year-data-center-freeze",
+          "title": "East Fishkill passes 3-year data center freeze",
+          "publisher": "WAMC",
+          "document_date": "2026-06-26",
+          "source_type": "news",
+          "supports": "Corroborates the unanimous Town Board vote and the July 2029 end date for data centers over 20 MW.",
+          "quote": "The resolution passed by the Town Board says data centers over 20 megawatts would not be permitted or considered in East Fishkill until July 2029."
+        }
+      ],
+      "notes": "The town's own ecode360 'New Laws' ledger (https://ecode360.com/EA0495/laws) lists L.L. No. 3-2026 as adopted 2026-06-25 under the subject 'Moratorium (NCM)'."
+    },
+    {
+      "moratorium_id": "ny-lysander-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "date_enacted": {
+          "from": "Not enacted as of captured 2026-04-16 update",
+          "to": "2026-05-07 (Town Board, unanimous vote, following a public hearing at Lysander Town Hall attended by more than 350 residents). The Town Supervisor's official 'Data Center Moratorium Updates' notice states: '5/7/2026 - Public Hearing on Local Law #4 ... Moratorium passed. Expires 11/7/26.'",
+          "reason": "The Town's own official update page and syracuse.com's contemporaneous report both confirm the moratorium was adopted at the May 7, 2026 public hearing, not merely proposed."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-05-07",
+          "reason": "Adoption date confirmed by the Town Supervisor's official notice and syracuse.com."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Exact adoption date is confirmed by a primary/official town source."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "180",
+          "reason": "duration_kind is being set to fixed_days for the enacted 6-month moratorium; 180 is used for a 6-month term consistent with other rows in this dataset."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "fixed_days",
+          "reason": "The instrument was enacted with a fixed 6-month term running from its effective date, per the signed Local Law No. 4 of 2026 text and the Town's official notice giving an explicit expiration date."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-11-07",
+          "reason": "The Town Supervisor's official 'Data Center Moratorium Updates' page states the moratorium '[e]xpires 11/7/26.'"
+        },
+        "legal_basis": {
+          "from": "Local Law #4 of 2026 (a 6-month moratorium on data storage centers). Per the Town Supervisor's official update notice: 2026-04-16, Town Board resolution (4-0) authorizing the Town Attorney to draft the moratorium; 2026-04-24, Town Board resolution (4-0) referring Local Law #4 to the Onondaga County Planning Board and the Town of Lysander Planning Board for recommendation, plus a second 4-0 resolution to hold a public hearing; 2026-04-27, Town of Lysander Planning Board resolution (5-0) recommending Town Board approval; 2026-05-07, public hearing held on Local Law #4 at Lysander Town Hall.",
+          "to": "Local Law No. 4 of 2026, 'A Local Law Establishing a Temporary Six Month Moratorium on Development or Construction of Data Storage Facilities Within the Town of Lysander,' duly enacted by the Town Board on 2026-05-07 at the public hearing following unanimous (4-0) authorizing/referral resolutions on 2026-04-16 and 2026-04-24 and a 5-0 Planning Board recommendation on 2026-04-27; the signed law provides a 6-month term from its effective date (filing with the NY Secretary of State), which the Town's official notice states expires 2026-11-07.",
+          "reason": "Confirms enactment (not just referral/hearing) using the signed Local Law No. 4 of 2026 text and the Town's official post-adoption notice."
+        },
+        "trigger": {
+          "from": "Proposed multi-billion-dollar data center development and resident concern reported in local coverage [VERIFY: project name and applicant not confirmed in captured primary records; Lysander records do not name the developer].",
+          "to": "Proposed ~300 MW data center by Ranalli Super DC, LLC (a company controlled by James Ranalli of United Auto Supply) on roughly 120-124 acres of vacant industrial land at the corner of Hencle Boulevard and Oswego Road in Lysander. The developer had spent nearly $1 million on grid-interconnection engineering studies and requested a NYISO transmission connection; roughly 2,600 residents signed a petition urging the Town to adopt a moratorium.",
+          "reason": "syracuse.com's May 7, 2026 report names the applicant, site, and MW figure, resolving the prior VERIFY marker."
+        },
+        "affected_projects": {
+          "from": "Proposed Lysander data center project; MW and investment value not confirmed in captured primary record [VERIFY: MW and investment value attributed to local news only; not in captured Lysander Town Board materials].",
+          "to": "Ranalli Super DC, LLC (developer James Ranalli/United Auto Supply) proposed a ~300 MW data center on ~120-124 acres at Hencle Boulevard/Oswego Road, Lysander, with a NYISO interconnection request filed; the site was previously proposed (2023, withdrawn after opposition) for a 350,000-square-foot auto parts warehouse.",
+          "reason": "Resolves the VERIFY marker with named-source reporting (syracuse.com) rather than unattributed local news."
+        },
+        "current_status": {
+          "from": "Local Law #4 of 2026 advanced through Planning Board recommendation (5-0, 2026-04-27) and a public hearing (2026-05-07); a final Town Board adoption vote following the hearing is suggested by a news headline but was not confirmed from a source I could directly verify as of 2026-07-31.",
+          "to": "Active as of 2026-09-23. Local Law #4 of 2026 was adopted by unanimous Town Board vote at the 2026-05-07 public hearing and is set to expire 2026-11-07 per the Town Supervisor's official 'Data Center Moratorium Updates' notice ('Moratorium passed. Expires 11/7/26.'). The Town's Data Center Advisory Committee's September 11, 2026 work-session agenda (noise ordinance, DEC feedback on wastewater/generators/SEQR, a BESS ordinance update) shows continuing related work, with no announced extension or early termination of the data storage facility moratorium itself found as of this pass.",
+          "reason": "Confirms adoption, refreshes the 'as of' date, and updates status using the town's own official notice and a September 2026 committee agenda."
+        },
+        "outcome": {
+          "from": "Pending draft moratorium.",
+          "to": "Local Law #4 of 2026 was adopted at the Town Board's May 7, 2026 public hearing by unanimous vote, imposing a six-month moratorium (through 2026-11-07) on applications for data storage facilities. The Town's Data Center Advisory Committee has continued related work on noise, wastewater/SEQR, and battery energy storage system regulations through at least September 2026.",
+          "reason": "The row previously described only a draft/proposed instrument; primary sources confirm it was in fact enacted."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "trigger",
+          "marker": "[VERIFY: project name and applicant not confirmed in captured primary records; Lysander records do not name the developer]",
+          "resolution": "corrected",
+          "note": "syracuse.com (2026-05-07) names the applicant as Ranalli Super DC, LLC, controlled by James Ranalli of United Auto Supply."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: MW and investment value attributed to local news only; not in captured Lysander Town Board materials]",
+          "resolution": "corrected",
+          "note": "syracuse.com and the NY Department of Labor's WARN listing both identify Ranalli Super DC, LLC's ~300 MW proposal on ~120-124 acres at Hencle Boulevard/Oswego Road; no Town Board record naming the project was located, but two independent named-source reports corroborate the figures."
+        }
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.syracuse.com/news/2026/05/lysander-town-board-approves-6-month-moratorium-on-data-centers-amid-public-concern.html",
+          "title": "Lysander town board approves 6-month moratorium on data centers amid public concern",
+          "publisher": "syracuse.com",
+          "document_date": "2026-05-07",
+          "source_type": "news",
+          "supports": "Unanimous May 7, 2026 adoption vote; names Ranalli Super DC, LLC / James Ranalli, ~300 MW, ~120-124 acres, Hencle Blvd/Oswego Rd site.",
+          "quote": "The Lysander Town Board approved a six-month moratorium Thursday night blocking the development and construction of new data centers. ... The moratorium follows mounting public opposition to a proposed 300-megawatt data center tied to Ranalli Super DC, LLC, a company controlled by James Ranalli of United Auto Supply."
+        },
+        {
+          "url": "https://townoflysander.org/sites/default/files/2026-04/data_storage_moratorium_ll_no._4_docx_0.pdf",
+          "title": "Local Law No. 4 of 2026 (Town of Lysander)",
+          "publisher": "Town of Lysander",
+          "document_date": "2026-04",
+          "source_type": "ordinance",
+          "supports": "Full text of the 6-month moratorium on data storage facility applications.",
+          "quote": "For a period of 6 months from the effective date of this local law, no applications for Data Storage Facilities shall be accepted by any board with appropriate authority in the Town."
+        },
+        {
+          "url": "https://lysanderny.gov/sites/default/files/2026-06/tol_data_center_info_updates_6-1-26.pdf",
+          "title": "Data Center Moratorium Updates",
+          "publisher": "Town of Lysander, Office of the Supervisor",
+          "document_date": "2026-06-01",
+          "source_type": "other",
+          "supports": "Official town confirmation that the moratorium passed at the May 7, 2026 hearing and expires 11/7/26.",
+          "quote": "5/7/2026 - Public Hearing on Local Law #4 ... Moratorium passed. Expires 11/7/26."
+        },
+        {
+          "url": "https://lysanderny.gov/sites/default/files/2026-09/dcac_agenda09-11-26.pdf",
+          "title": "LYSANDER Data Center Advisory Committee agenda, September 11, 2026",
+          "publisher": "Town of Lysander",
+          "document_date": "2026-09-11",
+          "source_type": "agenda",
+          "supports": "Shows continuing town committee work (noise ordinance, DEC/SEQR wastewater and generator feedback, BESS ordinance) as of September 2026 with no mention of extending or repealing the data storage facility moratorium.",
+          "quote": "Proposed Noise Ordinance Wording from outside consultants - awaiting changes; DEC feedback on wastewater, generators, and SEQR; ... Battery Energy Storage System (BESS) Ordinance Update"
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ny-town-of-brookhaven-2026",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "Enacted local law approving an 18-month moratorium (introduced as Introductory Local Law No. 11 of 2026 on 2026-05-28; complete enacted local-law text not located at the official public-notice page) [VERIFY]",
+          "to": "Chapter 17 ('Moratorium'), Article I ('Data Centers') of the Town Code of the Town of Brookhaven, added by a local law unanimously adopted 6-0 (Councilwoman Jane Bonner absent) by the Town Board on 2026-07-16, introduced as Introductory Local Law Number 11 of 2026 ('To Add Chapter 17 of the Town Code of the Town of Brookhaven Entitled \"Moratorium\" and Creating a New Article I entitled \"Data Centers\"'), per the Town's own July 16, 2026 draft meeting minutes ('Resolution of Adoption - Adding Chapter 17 ... Data Centers,' Adopt Subject to Suffolk County Planning, Unanimous) and the Suffolk County Planning Commission's August 5, 2026 staff report (File No. BR-26-08).",
+          "reason": "The Town's own CivicClerk-hosted draft minutes for the July 16, 2026 meeting record the exact adoption motion, vote (6-0, Bonner absent), and chapter/article citation, and the Suffolk County Planning Commission staff report reproduces the enacted text verbatim, together resolving the VERIFY marker."
+        },
+        "current_status": {
+          "from": "Active per town civic alert; complete enacted local-law text not located. [VERIFY]",
+          "to": "Active as of 2026-09-23. Per the signed local law text reproduced verbatim in the Suffolk County Planning Commission's August 5, 2026 staff report, the moratorium bars town boards/officers from accepting, reviewing, or approving new data-center land-use applications (exempting applications filed and accepted as complete before the effective date) and 'will expire on December 31, 2027 (≈18 months)'.",
+          "reason": "Resolves the prior VERIFY marker (full enacted text was not located in the prior pass) using the Suffolk County Planning Commission staff report, which quotes the adopted local law verbatim, and the Town's own July 16, 2026 meeting minutes."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-12-31",
+          "reason": "Both the Suffolk County Planning Commission staff report and contemporaneous news reporting (liparks.com) state the moratorium runs 'through Dec. 31, 2027,' a fixed calendar date rather than a rolling 18-month period from adoption."
+        },
+        "affected_projects": {
+          "from": "DataBank's pending Phase Two expansion near Lake Tappan in nearby Orangetown was cited in regional coverage, but Brookhaven officials said the town had no pending data center application",
+          "to": "Wildflower Ltd.'s proposed Brookhaven Digital Infrastructure Facility at 1001 Expressway Drive North, Yaphank -- converting roughly 550,000 square feet across three completed but vacant warehouse buildings on about 72 acres into a data center campus drawing a proposed 176.6 MW of continuous power from LIPA, described by Wildflower as more than $1 billion in private investment. (DataBank's separate Phase Two expansion near Lake Tappan is in the neighboring Town of Orangetown, not Brookhaven; Brookhaven officials said the town had no complete data-center application pending as of the July 16, 2026 vote, which is why the moratorium's pending-application exception is significant to the Wildflower proposal.)",
+          "reason": "The actual local project driving Brookhaven's moratorium is Wildflower's Yaphank conversion, not DataBank's Orangetown expansion; liparks.com's detailed July 2026 report names the project, MW figure, acreage, and investment amount."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Confirmed via the Town's own July 16, 2026 CivicClerk meeting minutes (fileId 8357) and the Suffolk County Planning Commission's August 5, 2026 staff report, which together give the introductory local law number, chapter/article citation, and unanimous 6-0 vote."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "The Suffolk County Planning Commission staff report reproduces the enacted local law's operative text verbatim, including the December 31, 2027 expiration and the pending-application exception."
+        }
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://suffolkcountyny.gov/Portals/0/formsdocs/planning/scplanningcommission/2026/Z-1%20Staff%20Report%20BR-26-28%20Brookhaven%20Data%20Center%20Moratorium.pdf",
+          "title": "Suffolk County Planning Commission Staff Report, BR-26-08 (Brookhaven Data Center Moratorium)",
+          "publisher": "Suffolk County Department of Economic Development and Planning",
+          "document_date": "2026-08-05",
+          "source_type": "staff_report",
+          "supports": "Reproduces the enacted local law's text verbatim, confirms the July 16, 2026 unanimous adoption and the December 31, 2027 expiration date.",
+          "quote": "On July 16, 2026 the Town of Brookhaven unanimously adopted a local law establishing a moratorium for Data Centers that will expire on December 31, 2027 (≈18 months)."
+        },
+        {
+          "url": "https://brookhavenny.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=8357,plainText=false)",
+          "title": "07.16.26 Draft Town Board Meeting Minutes",
+          "publisher": "Town of Brookhaven",
+          "document_date": "2026-07-16",
+          "source_type": "minutes",
+          "supports": "Town Board agenda item 3 (Introductory Local Law Number 11 of 2026) and the unanimous (6-0, Bonner absent) Resolution of Adoption for Chapter 17 'Moratorium', Article I 'Data Centers'.",
+          "quote": "Resolution of Adoption - Adding Chapter 17 of the Code of the Town of Brookhaven Entitled \"Moratorium\" and Creating a New Article I entitled \"Data Centers\" ... MOTION TO: Adopt Subject to Suffolk County Planning (Unanimous)"
+        },
+        {
+          "url": "https://liparks.com/articles/brookhaven-data-center-moratorium-yaphank-2026/_11735/",
+          "title": "Brookhaven approves 18-month data center moratorium after packed hearing",
+          "publisher": "Long Island Parks",
+          "document_date": "2026-07-17",
+          "source_type": "news",
+          "supports": "Names the Wildflower Brookhaven Digital Infrastructure Facility (176.6 MW, ~72 acres, Yaphank, $1B+ investment) as the project driving the moratorium, and confirms the Dec. 31, 2027 end date and 6-0 vote.",
+          "quote": "Brookhaven has approved a townwide moratorium on new data center applications and local approvals through Dec. 31, 2027 ... The public debate has centered on Wildflower Ltd.'s proposed Brookhaven Digital Infrastructure Facility at 1001 Expressway Drive North in Yaphank ... The project would draw a proposed 176.6 megawatts of continuous power from the Long Island Power Authority system."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ny-dryden-2024",
+      "outcome": "corrected",
+      "changes": {
+        "duration": {
+          "from": "18 months as initially adopted; extension draft (Local Law No. 1 of 2026) would change term to 20 months [VERIFY: signed, filed Local Law No. 1 of 2026 not in captured Dryden Local Laws index as of 2026-04-29; permanent zoning Local Law No. 2 of 2026 was instead adopted 2026-02-19]",
+          "to": "18 months as initially adopted under Local Law No. 2 of 2024 (2024-07-31 to approximately 2026-01-31); extended to 20 months (through approximately 2026-03-31) by Local Law No. 1 of 2026, which the signed, clerk-filed Local Law Filing shows was duly passed by the Town Board on 2026-01-15 and certified/filed with the NY Department of State on 2026-01-19 (ecode360 filing LF2566760); the extended moratorium was in turn superseded, before its extended term expired, by permanent zoning Local Law No. 2 of 2026, adopted 2026-02-19.",
+          "reason": "The signed and dated 'Local Law Filing' certification page for Local Law No. 1 of 2026 (ecode360 LF2566760.pdf) confirms it was in fact duly passed (2026-01-15) and filed with the NY Department of State (2026-01-19), resolving the prior VERIFY marker about whether the extension was ever signed/filed."
+        },
+        "duration_days": {
+          "from": "540",
+          "to": "600",
+          "reason": "540 days reflected only the original 18-month term; the moratorium's operative term was extended to 20 months by the signed and filed Local Law No. 1 of 2026 before being superseded by permanent zoning. 600 days approximates 20 months using the same 30-day-per-month convention as the original 540-day (18-month) figure."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "duration",
+          "marker": "[VERIFY: signed, filed Local Law No. 1 of 2026 not in captured Dryden Local Laws index as of 2026-04-29; permanent zoning Local Law No. 2 of 2026 was instead adopted 2026-02-19]",
+          "resolution": "corrected",
+          "note": "Found the signed, filed Local Law No. 1 of 2026 on ecode360 (LF2566760.pdf): duly passed by the Town Board 2026-01-15 and filed with the NY Department of State 2026-01-19, extending the term from 18 to 20 months. This extension was itself superseded before its expiration by the permanent zoning action (Local Law No. 2 of 2026, adopted 2026-02-19), consistent with the row's existing 'replaced' outcome."
+        }
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://ecode360.com/DR3901/laws/LF2566760.pdf",
+          "title": "Local Law No. 1 of 2026 (Town of Dryden) - signed Local Law Filing",
+          "publisher": "Town of Dryden / ecode360",
+          "document_date": "2026-01-19",
+          "source_type": "ordinance",
+          "supports": "Signed local law filing certification showing the extension was duly passed by the Town Board on January 15, 2026 and filed with the NY Department of State on January 19, 2026.",
+          "quote": "I hereby certify that the local law annexed hereto ascribed as local law number 1 of 2026 of the TOWN of DRYDEN was duly passed by the TOWN BOARD on JANUARY 15, 2026 ... JANUARY 19, 2026 [filing date]"
+        },
+        {
+          "url": "https://www.townofdrydenny.gov/sites/g/files/vyhlif13211/files/media/planning-code-enforcement/file/8901/2026_extending_moritorium_local_law_-_data_centers_and_cryptocurrency_mining.pdf",
+          "title": "Town of Dryden Local Law No. 1 for the Year 2026 (draft text)",
+          "publisher": "Town of Dryden",
+          "document_date": "2026",
+          "source_type": "ordinance",
+          "supports": "Text of the extension amending the 'eighteen (18)' month term of Local Law No. 2 of 2024 to 'twenty (20)' months.",
+          "quote": "Section 6 of Local Law No. 2 of 2024, entitled “Term,” is hereby amended as follows: Replace the phrase “eighteen (18)” with “twenty (20).”"
+        },
+        {
+          "url": "https://www.tompkinsweekly.com/news/a-look-back-at-drydens-historic-ban-on-data-centers-as-governor-mulls-moratorium-19b5de25",
+          "title": "A look back at Dryden's historic ban on data centers as governor mulls moratorium",
+          "publisher": "Tompkins Weekly",
+          "document_date": "2026-06",
+          "source_type": "news",
+          "supports": "Confirms the town extended the moratorium to March before adopting the permanent February 19, 2026 zoning ban.",
+          "quote": "The town initially had an 18-month moratorium in place for cryptocurrency mining operations and data processing centers, which Town Supervisor Jason Leifer said was set to expire in February. After overwhelming opposition ... the town board decided to extend the moratorium to March."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ny-town-of-highland-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "Enacted by Town Board (exact adoption date and vote tally not stated in the town's official notice); a public hearing was held 2026-06-09 and the town's notice of enactment was published by 2026-06-18 [VERIFY]",
+          "to": "2026-06-09 (Town Board, unanimous vote, at the same June 9, 2026 public hearing held at the Town of Highland Senior & Community Center); notice of enactment (Local Law No. 1 of 2026) was subsequently published by the town on 2026-06-18.",
+          "reason": "The Sullivan County Democrat's contemporaneous report of the June 9, 2026 hearing states the board 'unanimously approved' both the data center and package plant moratoriums that evening, confirming the adoption date and vote tally."
+        },
+        "date_enacted_iso": {
+          "from": "2026-06",
+          "to": "2026-06-09",
+          "reason": "Exact date now confirmed rather than month-only."
+        },
+        "date_enacted_uncertainty": {
+          "from": "month_only",
+          "to": "exact",
+          "reason": "Matches the newly confirmed exact date_enacted_iso."
+        },
+        "legal_basis": {
+          "from": "Local Law 1-2026 [VERIFY: official enactment notice does not state the adoption date or vote tally, and links only to a draft law]",
+          "to": "Local Law No. 1 of 2026, 'Data Center Moratorium,' Town of Highland, Sullivan County; unanimously adopted by the Town Board on 2026-06-09 following a public hearing that evening, per the Sullivan County Democrat's contemporaneous report and the Town's own 'Local Law No. 1 of 2026 Notice' (published 2026-06-18), which states the moratorium 'lasts 12 months and may be extended up to 24 months.'",
+          "reason": "The Sullivan County Democrat's report of the June 9 hearing, naming Supervisor John Pizzolato and quoting board discussion, together with the Town's own notice, resolve the adoption-date/vote-tally VERIFY marker even though the town's web notice still links only to the draft PDF."
+        },
+        "current_status": {
+          "from": "Reported active per town notice; adoption date and vote tally not confirmed; final enacted text (vs. linked draft) not verified. [VERIFY] [VERIFY instrument number not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Local Law No. 1 of 2026, a 12-month moratorium (extendable to 24 months) on approval, permitting, and construction of large-scale data centers, was unanimously adopted by the Town Board on 2026-06-09. No extension, repeal, or replacement was found as of this pass. The town's companion Local Law No. 2 of 2026 (a 16-month moratorium on package plants/decentralized water and wastewater infrastructure, also adopted 2026-06-09) and its ongoing comprehensive-plan update are the town's related, concurrent land-use actions.",
+          "reason": "Resolves both VERIFY markers on this field (adoption date/vote and instrument number) with the Sullivan County Democrat report and the Town's official notice, and refreshes the 'as of' date."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "The Sullivan County Democrat's report of the June 9, 2026 Town Board hearing confirms the board 'unanimously approved' the data center moratorium that evening."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: official enactment notice does not state the adoption date or vote tally, and links only to a draft law]",
+          "resolution": "corrected",
+          "note": "Adoption date (2026-06-09) and unanimous vote confirmed via the Sullivan County Democrat; the town's notice page still links only to the draft PDF, which is noted but does not undermine the confirmed adoption facts."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "See date_enacted/legal_basis resolutions above."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "resolution": "corrected",
+          "note": "The Town's own 'Local Law No. 1 of 2026 Notice' page (published 2026-06-18, byline Sonia Kidney) confirms the instrument number."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.scdemocratonline.com/stories/package-plants-data-centers-nixed,238697",
+          "title": "Package Plants, Data Centers Nixed",
+          "publisher": "Sullivan County Democrat",
+          "document_date": "2026-06",
+          "source_type": "news",
+          "supports": "Confirms the June 9, 2026 public hearing and unanimous Town Board adoption of both the data center and package plant moratoriums, with direct quotes from Supervisor John Pizzolato.",
+          "quote": "Following public hearings ... the Highland Town Board unanimously approved temporary moratoriums on both package plant and data center projects on Tuesday. ... a separate 12-month moratorium on data center development. ... Both measures were approved unanimously."
+        },
+        {
+          "url": "https://townofhighlandny.gov/local-law-no-1-of-2026-notice/",
+          "title": "Local Law No. 1 of 2026 Notice - Data Center Moratorium",
+          "publisher": "Town of Highland",
+          "document_date": "2026-06-18",
+          "source_type": "other",
+          "supports": "Official town notice confirming the instrument number, 12-month term, and 24-month extension option.",
+          "quote": "The Town of Highland has enacted a temporary moratorium on the approval, permitting, and construction of large-scale data centers. The moratorium lasts 12 months and may be extended up to 24 months."
+        },
+        {
+          "url": "https://www.riverreporter.com/stories/highland-issues-12-month-moratoriums-for-data-centers-sewage-package-plants,263183",
+          "title": "Highland issues 12-month moratoriums for data centers, sewage package plants",
+          "publisher": "The River Reporter",
+          "document_date": "2026-06-10",
+          "source_type": "news",
+          "supports": "Confirms the June 9, 2026 meeting date and that the data center moratorium is a 12-month pause.",
+          "quote": "In its meeting on Tuesday, June 9, the Highland Town Board passed a pair of moratoriums ... One puts a 12-month pause on data center development."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ny-lansing-2025",
+      "outcome": "corrected",
+      "changes": {
+        "outcome": {
+          "from": "Moratorium proposal withdrawn November 19, 2025. The Lansing Zoning Board of Appeals ruled on December 23, 2025 that the proposed AI/HPC data center is a permitted \"general processing\" use under existing industrial/research zoning; Cayuga Lake Action Now (CLEAN) and FLX Strong filed an Article 78 petition in NY State Supreme Court on January 30, 2026 against the Lansing ZBA and TeraWulf challenging that ruling. The outcome of the Article 78 petition was not confirmed as of this pass (2026-07-31); the last located update was an April 14, 2026 report on a separate state water-permit approval for the associated power plant, which could not be accessed this pass due to source rate-limiting.",
+          "to": "Moratorium proposal withdrawn November 19, 2025. The Lansing Zoning Board of Appeals ruled 3-2 on December 22, 2025 that the proposed AI/HPC data center is a permitted \"general processing\" use under existing industrial/research zoning; FLX Strong and Cayuga Lake Environmental Action Now (CLEAN) filed an Article 78 petition in NY State Supreme Court on January 29, 2026 against the Lansing ZBA, TeraWulf, and its subsidiary Lake Hawkeye, challenging that interpretation. On 2026-04-29, Tompkins County Supreme Court Judge Mark Masler denied respondents' motion to dismiss, ruling that petitioners' alleged noise/environmental harms were not speculative and ordering ZBA/TeraWulf to answer by May 22, 2026. As of a September 9, 2026 report, the Article 78 suit remained pending with no reported ruling on the merits. Separately, and independent of any Town of Lansing action, NY Governor Hochul's July 14, 2026 Executive Order 62 (a one-year pause on state discretionary permits for data centers of 50 MW or more) currently affects the project, which TeraWulf's own SEC filings describe as scaling toward roughly 300-750 MW at this site.",
+          "reason": "Updates the litigation timeline with the confirmed December 22, 2025 ZBA vote date, January 29, 2026 filing date, the April 29, 2026 denial of the motion to dismiss, and the still-pending status of the suit as of September 2026, plus the intervening state-level Executive Order 62 pause, none of which were resolved in the prior pass."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.cornellsun.com/article/2026/04/6fsk7mqeve9m",
+          "title": "Lawsuit Against TeraWulf, Lansing Zoning Board May Proceed, Judge Rules",
+          "publisher": "The Cornell Daily Sun",
+          "document_date": "2026-04",
+          "source_type": "news",
+          "supports": "Confirms Judge Mark Masler's denial of the motion to dismiss, the December 2025 3-2 ZBA vote, and the May 22, 2026 answer deadline.",
+          "quote": "Two environmental groups' suit against TeraWulf, its subsidiaries and the Lansing Zoning Board of Appeals ... may proceed, Judge Mark Masler ... ruled on Tuesday. ... The alleged harm, Masler wrote, denying ZBA and TeraWulf's motion to dismiss, is not speculative."
+        },
+        {
+          "url": "https://www.tompkinsweekly.com/news/judge-allows-lawsuit-challenging-lansing-ai-data-center-to-proceed-04f7a9d1",
+          "title": "Judge allows lawsuit challenging Lansing AI data center to proceed",
+          "publisher": "Tompkins Weekly",
+          "document_date": "2026-05-05",
+          "source_type": "news",
+          "supports": "Confirms the April 29, 2026 announcement of the ruling and the January 29, 2026 filing date of the Article 78 petition.",
+          "quote": "The environmental groups ... announced on April 29 the decision made by Tompkins County Supreme Court Judge Mark Masler ... a lawsuit filed by environmental advocates on Jan. 29."
+        },
+        {
+          "url": "https://www.cornellsun.com/article/2026/09/ecological-impacts-of-a-data-center-on-cayuga-lake",
+          "title": "Ecological Impacts of a Data Center on Cayuga Lake",
+          "publisher": "The Cornell Daily Sun",
+          "document_date": "2026-09-09",
+          "source_type": "news",
+          "supports": "Confirms the Article 78 suit remains pending as of September 2026 and that the July 2026 state moratorium currently halts the project.",
+          "quote": "No Data Center FLX and CLEAN! are currently suing TeraWulf and the Lansing Board of Appeals for the center's current classification as a ‘general processing facility.’ ... a state moratorium in July halted plans. But, the moratorium lasts for only one year."
+        }
+      ],
+      "notes": "current_status ('Withdrawn before enactment') is unchanged and remains accurate; only the litigation narrative in 'outcome' was updated."
+    },
+    {
+      "moratorium_id": "ny-lewiston-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "Adopted as Local Law No. 3 of 2026, now filed in the Town's official 2026 Local Laws register; the exact Town Board vote date was not confirmed from a source I could directly read, but adoption followed the 2026-04-13 public hearing.",
+          "to": "Adopted 2026-04-13 by the Town Board (5-0 vote) at its regular work session, immediately following a public hearing that evening, alongside a related zoning-code amendment (Local Law No. 2 of 2026); filed as Local Law No. 3 of 2026 in the Town's official 2026 Local Laws register.",
+          "reason": "wnypapers.com's contemporaneous report of the April 13, 2026 work session confirms the exact vote (5-0) and date for Local Law No. 3."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-04-13",
+          "reason": "Exact adoption date now confirmed."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Matches the newly confirmed exact date."
+        },
+        "legal_basis": {
+          "from": "Proposed Local Law 3-2026",
+          "to": "Local Law No. 3 of 2026, 'A Local Law Imposing a Moratorium on the Establishment, Construction, Expansion, or Operation of Data Centers, Artificial Intelligence Processing Facilities, and Cryptocurrency Mining Operations Within the Town of Lewiston, Niagara County, New York,' adopted by the Town Board on 2026-04-13 by a 5-0 vote.",
+          "reason": "Confirms the instrument was adopted, not merely proposed, using the Town's own posted signed law text and a contemporaneous news report of the vote."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-10-13",
+          "reason": "The signed law's 18-month Moratorium Period runs from the 2026-04-13 effective date of adoption, computing to approximately 2027-10-13."
+        },
+        "current_status": {
+          "from": "Adopted and in effect as Local Law No. 3 of 2026, an 18-month moratorium on the establishment, construction, expansion, or operation of data centers (aggregate IT load >= 1 MW), artificial intelligence processing facilities (>= 1 MW), and cryptocurrency mining operations (aggregate electrical draw >= 100 kW), with a SEQRA Type II Action determination under 6 NYCRR 617.5(c)(33).",
+          "to": "Active as of 2026-09-23. Adopted 2026-04-13 (5-0) as Local Law No. 3 of 2026, an 18-month moratorium (through approximately 2027-10-13, extendable by Town Board resolution in increments of up to 6 months each) on the establishment, construction, expansion, or operation of data centers (aggregate IT load >= 1 MW), AI processing facilities (>= 1 MW), and cryptocurrency mining operations (aggregate electrical draw >= 100 kW), with a SEQRA Type II Action determination under 6 NYCRR 617.5(c)(33). No extension or repeal found as of this pass. The Town separately began considering a battery energy storage system (BESS) moratorium in September 2026 (see new_candidates).",
+          "reason": "Refreshes the 'as of' date, adds the computed end date, and notes the town's newer, separate BESS moratorium effort found during this pass."
+        },
+        "outcome": {
+          "from": "Pending. Captured agenda describes a local law imposing a moratorium on establishment, construction, expansion, or operation of covered facilities.",
+          "to": "Adopted. The Town Board approved Local Law No. 3 of 2026 by a 5-0 vote at its April 13, 2026 work session, alongside a related zoning-code update (Local Law No. 2 of 2026, also 5-0); the signed law text is posted on the Town's official website.",
+          "reason": "The row previously described the instrument as still pending; primary and news sources confirm adoption."
+        }
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://www.townoflewistonny.gov/documents/2026 Local Laws/Local Law 3-2026.pdf",
+          "title": "Local Law 3-2026 (Town of Lewiston)",
+          "publisher": "Town of Lewiston",
+          "document_date": "2026-04-13",
+          "source_type": "ordinance",
+          "supports": "Full text of the 18-month data center/AI/cryptocurrency mining moratorium, including the 1 MW / 100 kW thresholds, exemptions, extension mechanism, and SEQRA Type II determination.",
+          "quote": "Effective upon the date of adoption of this Local Law, and continuing for a period of eighteen (18) months thereafter (the \"Moratorium Period\"), unless extended or earlier terminated by action of the Town Board, no person ... shall Establish, construct, build, install, place, operate, or use any Data Center, Artificial Intelligence Processing Facility, or Cryptocurrency Mining Operation within the Town of Lewiston."
+        },
+        {
+          "url": "http://cms-direct.wnypapers.com/news/article/featured/2026/04/17/165838/town-of-lewiston-adopts-new-laws-votes-to-support-village-projects",
+          "title": "Town of Lewiston adopts new laws, votes to support village projects",
+          "publisher": "wnypapers.com (Niagara Gazette group)",
+          "document_date": "2026-04-17",
+          "source_type": "news",
+          "supports": "Confirms the April 13, 2026 work session, the 5-0 vote on Local Law No. 3, and that it was a townwide moratorium with no time limit stated by the reporter but with the law text itself specifying 18 months.",
+          "quote": "Of Local Law No. 3, a proposed town moratorium targeting artificial intelligence activities in Lewiston, was approved 5-0."
+        }
+      ]
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "New York",
+      "jurisdiction": "East Greenbush",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-07-15, East Greenbush Town Board, unanimous vote, following a July 8, 2026 public hearing",
+      "date_enacted_iso": "2026-07-15",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Base term of six (6) months from the effective date (filing with the NY Secretary of State); if the Town Board passes a resolution extending it before expiration, the moratorium may run up to one (1) year total from the effective date.",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-01-15",
+      "legal_basis": "Local Law No. 3 of 2026 (Town of East Greenbush), 'A Local Law Imposing a Moratorium on Applications for Permits, Site Plans or Other Land Use Approvals for Data Centers.' The town's posted PDF is titled 'Draft Local Law #3 of 2026,' but CBS6/WRGB's contemporaneous report confirms the Town Board's unanimous adoption on July 15, 2026.",
+      "trigger": "General, preemptive townwide pause; Town Supervisor Jack Conway cited concerns about a possible legal challenge to Governor Hochul's Executive Order 62 and a desire for an independent local 'layer of protection' against data center development.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "grid_energy",
+        "legal_or_litigation"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23 (approximate end date; exact effective date depends on state filing). Bars establishment, construction, or operation of any data center townwide, with an exemption for pre-existing, lawfully approved and permitted data centers.",
+      "enacted_status": "active",
+      "affected_projects": "None named; general preemptive moratorium not tied to a specific proposal.",
+      "outcome": "Town Board unanimously passed a six-month moratorium (extendable to one year) on all data center development and operation within the town.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://cbs6albany.com/news/local/ourour-own-layer-of-protection-east-greenbush-passes-its-own-data-center-moratorium",
+          "title": "'Our own layer of protection'; East Greenbush passes its own data center moratorium",
+          "publisher": "CBS6/WRGB Albany",
+          "document_date": "2026-07-15",
+          "source_type": "news",
+          "supports": "Confirms the unanimous July 15, 2026 vote and the six-month term.",
+          "quote": "In a unanimous vote Wednesday, the East Greenbush Town Board passed a six-month moritorium on all data center operations and development within the town."
+        },
+        {
+          "url": "https://cms2.revize.com/revize/eastgreenbushny/Documents/Departments/Planning%20&%20Zoning/2%20-Draft%20Local%20Law%203%20of%202026%20-%20Data%20Center%20Moratorium.pdf?t=202606181008550",
+          "title": "Draft Local Law 3 of 2026 - Data Center Moratorium (Town of East Greenbush)",
+          "publisher": "Town of East Greenbush",
+          "document_date": "2026-06",
+          "source_type": "ordinance",
+          "supports": "Full operative text of the moratorium, including the six-month base term, extension mechanism up to one year, exemptions, and SEQRA Type II determination.",
+          "quote": "This moratorium and prohibition of regulated activities shall be in effect beginning on the effective date of this Local Law and shall expire on the earlier date of (i) the date which is six (6) months after said effective date ... or (ii) the date which is not to exceed (1) year after said effective date, should the Town Board pass ... an extension."
+        }
+      ],
+      "notes": "The circulated PDF is labeled 'Draft' by the town's document system, but two independent news sources confirm the Town Board's unanimous adoption on July 15, 2026; a later, signed/filed version was not separately located."
+    },
+    {
+      "state": "New York",
+      "jurisdiction": "Perth",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-06-04, Town Board, per the Rockefeller Institute of Government's tracking blog and Leader Herald (dailygazette.com) headline coverage",
+      "date_enacted_iso": "2026-06-04",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-06-04",
+      "legal_basis": "Local law imposing a one-year moratorium on data center development, Town of Perth, Fulton County; full signed text not located behind the Leader Herald paywall.",
+      "trigger": "General, preemptive townwide pause; Town Supervisor Greg Fagan cited concerns over energy usage and a desire to maintain local control, ahead of possible state legislative action.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "grid_energy"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Reported active as of the Rockefeller Institute's June 2026 tracking blog; not independently re-confirmed as of 2026-09-23. No news of extension, repeal, or a specific named project was located.",
+      "enacted_status": "active",
+      "affected_projects": "None named.",
+      "outcome": "Town Board passed a one-year moratorium on the development of any data centers within the town.",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.rockinst.org/blog/updates-on-the-cloud-more-moratoriums-on-data-centers/",
+          "title": "Updates on the Cloud: More Moratoriums on Data Centers",
+          "publisher": "Rockefeller Institute of Government",
+          "document_date": "2026-06",
+          "source_type": "other",
+          "supports": "Names the Town of Perth, the June 4, 2026 adoption, the one-year term, and Town Supervisor Greg Fagan's stated rationale.",
+          "quote": "On June 4, 2025 [sic], the Town of Perth, in Fulton County, passed a one-year moratorium on the development of any data centers. The Perth Town Supervisor, Greg Fagan, cited concerns over energy usage and a desire to maintain local control."
+        },
+        {
+          "url": "https://www.dailygazette.com/leader_herald/data-center-moratorium/article_28560f58-b336-4cae-8773-f0a04cd3001b.html",
+          "title": "Perth declares data center moratorium as New York considers the same",
+          "publisher": "Leader Herald (dailygazette.com)",
+          "document_date": "2026-06-04",
+          "source_type": "news",
+          "supports": "Corroborating headline/byline for the June 4, 2026 Perth moratorium; full article text is paywalled and was not read beyond the headline and search snippet."
+        }
+      ],
+      "notes": "Confidence is capped at 0.6 because the Leader Herald article is paywalled (only headline/snippet available) and no primary local-law PDF was located; the Rockefeller Institute blog post, which names the town supervisor and was read in full, is the stronger of the two sources."
+    },
+    {
+      "state": "New York",
+      "jurisdiction": "Bethlehem",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-06-24, Town Board, following a June 24, 2026 public hearing (public hearing originally set at the May 27, 2026 meeting by unanimous vote)",
+      "date_enacted_iso": "2026-06-24",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Twelve (12) months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-06-24",
+      "legal_basis": "Local law establishing a temporary 12-month moratorium on development or construction of data centers, Town of Bethlehem, Albany County; signed/filed text not located.",
+      "trigger": "General, preemptive townwide pause. Town Supervisor David VanLuven said a moratorium is not a final fix and that the town needs to identify what protective measures it can legally adopt.",
+      "trigger_categories": [
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Reported active as of CBS6/WRGB's July 2026 coverage; not independently re-confirmed as of 2026-09-23.",
+      "enacted_status": "active",
+      "affected_projects": "None named.",
+      "outcome": "Town Board passed a 12-month moratorium on new data center development or construction.",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://cbs6albany.com/news/local/hochul-signs-executive-order-creating-nations-first-moratorium-on-new-data-centers",
+          "title": "Capital Region municipalities establish data center moratoriums",
+          "publisher": "CBS6/WRGB Albany",
+          "document_date": "2026-07-14",
+          "source_type": "news",
+          "supports": "Confirms Bethlehem passed its moratorium on June 24, 2026, with a quote from Town Supervisor David VanLuven.",
+          "quote": "Bethlehem passed a moratorium June 24. Town Supervisor David VanLuven said a moratorium is not a final fix."
+        },
+        {
+          "url": "https://www.dailygazette.com/spotlightnews/town-board-sets-data-center-moratorium-law-for-public-hearing-on-june-10/article_0b693d02-61c1-4914-9c34-adf530c7d05c.html",
+          "title": "Bethlehem Town Board sets data center moratorium law hearing",
+          "publisher": "dailygazette.com / Spotlight News",
+          "document_date": "2026-05-28",
+          "source_type": "news",
+          "supports": "Headline/byline corroborates that the Town Board was proceeding toward a public hearing on a 12-month data-center moratorium law in late May/June 2026; the page's body text was paywalled and could not be read at archive time, so no quote is drawn from it."
+        }
+      ],
+      "notes": "The public hearing was reportedly rescheduled/continued to June 24 (the date CBS6 reports as the passage date) rather than closing on the originally noticed June 10 date; no signed local-law PDF was located to confirm the exact instrument number. The second evidence URL's body text was paywalled at fetch time (only site chrome was archived), so its 'supports' note is limited to the headline; the substantive claims here rest on the fully-read CBS6 article."
+    },
+    {
+      "state": "New York",
+      "jurisdiction": "North Tonawanda",
+      "jurisdiction_type": "City",
+      "date_enacted": "Original moratorium: Local Law 2024-2, adopted by the Common Council on 2024-07-16 (a two-year moratorium on cryptocurrency mining and data processing centers, set to expire 2026-07-16). Extension: a 2026 local law extending the moratorium for an additional 12 months from its new effective date, adopted before the July 16, 2026 expiration.",
+      "date_enacted_iso": "2024-07-16",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Original term: two years (2024-07-16 to 2026-07-16) under Local Law 2024-2. 2026 extension: an additional twelve (12) months from the extension's effective date.",
+      "duration_days": 730,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-07-16",
+      "legal_basis": "Local Law 2024-2 (original 2-year moratorium on cryptocurrency mining and data processing centers), extended by a 2026 local law ('Local Law 2026 - Moratorium Extension and SUP') adopted by the Common Council of the City of North Tonawanda.",
+      "trigger": "Regulatory gap: the city's November 18, 2025 Comprehensive Plan update was completed but zoning amendments and recommendations specific to cryptocurrency mining/data processing centers were not yet finalized, prompting an extension rather than letting the original moratorium lapse.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "grid_energy",
+        "noise"
+      ],
+      "sectors": [
+        "data_center",
+        "cryptocurrency_mining"
+      ],
+      "current_status": "Extended. The original two-year moratorium (Local Law 2024-2) was set to expire 2026-07-16; the city's own 2026 local law filing states the Common Council 'finds it necessary to extend the moratorium' for an additional 12 months while zoning amendments are finalized. Not independently confirmed by news coverage as of 2026-09-23; this pass relies on the city's own posted local law text.",
+      "enacted_status": "extended",
+      "affected_projects": "None named in the text; the law references a proposal to convert an existing cryptocurrency mining facility into an AI data center as part of the broader local context (per the Rockefeller Institute's June 2026 tracking table).",
+      "outcome": "The Common Council extended the city's existing 2024 cryptocurrency mining/data processing center moratorium for an additional 12 months as its Comprehensive Plan-driven zoning amendments remained unfinished.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.northtonawanda.gov/documents/Website/2026/Local%20Law%202026%20-%20Moratorium%20Extension%20and%20SUP.pdf",
+          "title": "Local Law 2026 - Moratorium Extension and SUP (City of North Tonawanda)",
+          "publisher": "City of North Tonawanda",
+          "document_date": "2026",
+          "source_type": "ordinance",
+          "supports": "Full text confirming the original July 16, 2024 two-year moratorium (Local Law 2024-2), its July 16, 2026 expiration, and the Common Council's 2026 extension for an additional 12 months.",
+          "quote": "the City of North Tonawanda Common Council approved Local Law 2024-2 on July 16th, 2024, adopting a Two-Year Moratorium on Cryptocurrency Mining and Data Processing Centers. The moratorium is set to expire on July 16, 2026. ... the Common Council finds it necessary to extend the moratorium to ensure thoughtful policymaking. ... Until (12) months from the effective date of this Local Law ..."
+        }
+      ],
+      "notes": "This is a pre-existing (2024) instrument not previously in the inventory; the July 2026 extension is what makes it timely for this pass. The posted PDF is unsigned (no adoption date/Common Council vote filled in on the certification block); confidence reflects reliance on the city's own posted text without a separate news confirmation of the 2026 extension vote."
+    },
+    {
+      "state": "New York",
+      "jurisdiction": "Clay",
+      "jurisdiction_type": "Town",
+      "date_enacted": "Approved by the Clay Town Board on or shortly before 2026-06-30 (date of first news coverage), following a public hearing",
+      "date_enacted_iso": "2026-06",
+      "date_enacted_uncertainty": "month_only",
+      "duration": "Up to twelve (12) months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Local law imposing a one-year moratorium on new data centers and other high-intensity computing facilities, Town of Clay, Onondaga County; signed/filed text not located.",
+      "trigger": "Preemptive townwide pause tied to anticipated development pressure around Micron Technology's planned semiconductor campus in neighboring areas; no data center projects had been proposed in Clay as of adoption.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "infrastructure_capacity",
+        "grid_energy"
+      ],
+      "sectors": [
+        "data_center",
+        "cryptocurrency_mining"
+      ],
+      "current_status": "Reported active as of CNY Central's June 30, 2026 report; not independently re-confirmed as of 2026-09-23. The town separately adopted a new Battery Energy Storage System law (Chapter 209) at the same meeting.",
+      "enacted_status": "active",
+      "affected_projects": "None named; town officials said no data center projects had been proposed in Clay.",
+      "outcome": "Town Board approved a one-year moratorium on new data centers, AI computing facilities, cryptocurrency mining operations, and similar developments.",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://cnycentral.com/news/local/clay-approves-one-year-data-center-moratorium-adopts-battery-storage-law",
+          "title": "Clay approves one-year data center moratorium, adopts battery storage law",
+          "publisher": "CNY Central",
+          "document_date": "2026-06-30",
+          "source_type": "news",
+          "supports": "Confirms the Town Board's approval of a one-year moratorium halting applications for large-scale data centers, AI computing facilities, and cryptocurrency mining operations.",
+          "quote": "The Clay Town Board has approved a one-year moratorium on new data centers and other high-intensity computing facilities ... The moratorium halts applications for large-scale data centers, artificial intelligence computing facilities, cryptocurrency mining operations and similar developments for up to 12 months."
+        }
+      ],
+      "notes": "Only a single news source (with no exact adoption date, only 'approved' as of the June 30, 2026 article) was located; no primary local-law text or second independent source was found in this pass."
+    },
+    {
+      "state": "New York",
+      "jurisdiction": "Tonawanda",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-08-03, Town Board, unanimous vote, following an August 3, 2026 public hearing",
+      "date_enacted_iso": "2026-08-03",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-08-03",
+      "legal_basis": "Local law imposing a one-year moratorium on data centers of 20 MW or more, Town of Tonawanda, Erie County; signed/filed text not located.",
+      "trigger": "Specific project: a proposed 300 MW, ~500,000-square-foot, ~$2 billion data center by Riverview Innovation & Technology Campus at the former Tonawanda Coke Corp. industrial site on River Road, which drew sustained resident opposition over environmental, noise, and utility-cost concerns (the site is near the former Love Canal-adjacent area of concern residents cited).",
+      "trigger_categories": [
+        "specific_project",
+        "environmental",
+        "noise",
+        "grid_energy",
+        "property_values"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23. Bars new data center applications with a peak demand of 20 MW or more for one year; Supervisor John J. Flynn stated the town has 'only one application for a data center here in Tonawanda' and that no other applications would be accepted during the moratorium.",
+      "enacted_status": "active",
+      "affected_projects": "Riverview Innovation & Technology Campus's proposed ~300 MW, ~$2 billion data center at the former Tonawanda Coke Corp. site on River Road; as of the vote, the developer said it would continue to review its options with legal counsel.",
+      "outcome": "Town Board unanimously approved a one-year moratorium on new data center applications of 20 MW or more.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.btpm.org/local/2026-08-04/tonawanda-town-board-passes-data-center-moratorium",
+          "title": "Tonawanda Town Board passes data center moratorium",
+          "publisher": "Buffalo Toronto Public Media (BTPM/WBFO)",
+          "document_date": "2026-08-04",
+          "source_type": "news",
+          "supports": "Confirms the unanimous August 3, 2026 vote, the 20 MW threshold, and names the Riverview Innovation & Technology Campus proposal as the sole pending application, with a direct quote from Supervisor John J. Flynn.",
+          "quote": "The unanimous vote on Monday night comes weeks after Gov. Kathy Hochul signed an executive order placing up to a one-year pause on new data centers above 50 megawatts of power. Tonawanda's calls for 20 megawatts or more. ... 'There is only one application for a data center here in Tonawanda,' said Supervisor John J. Flynn."
+        },
+        {
+          "url": "https://www.rockinst.org/blog/updates-on-the-cloud-more-moratoriums-on-data-centers/",
+          "title": "Updates on the Cloud: More Moratoriums on Data Centers",
+          "publisher": "Rockefeller Institute of Government",
+          "document_date": "2026-06",
+          "source_type": "other",
+          "supports": "Corroborates the Riverview Innovation & Technology Campus proposal's ~$2 billion, 300 MW, 500,000-square-foot scope at the former Tonawanda Coke site.",
+          "quote": "In the Town of Tonawanda, in Erie County, developer Riverview Innovation & Technology Campus is planning to use the former Tonawanda Coke Corp. industrial site to create a $2 billion, 500,000 square foot data center projected to use 300 MW of electricity."
+        }
+      ]
+    },
+    {
+      "state": "New York",
+      "jurisdiction": "Newfield",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-07-09, Town Board, unanimous vote, following a public hearing that evening (proposed at the June 11, 2026 meeting)",
+      "date_enacted_iso": "2026-07-09",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-07-09",
+      "legal_basis": "Local Law Imposing a Temporary Town-Wide One Year Moratorium on Data Processing Centers, Town of Newfield, Tompkins County; the town's public Town Laws & Ordinances index had not yet been updated with the filed instrument number as of this pass.",
+      "trigger": "General, preemptive townwide pause; no data center has been proposed in Newfield, but officials cited the town's lack of zoning laws and the regional wave of proposals (notably TeraWulf's Lansing project) as reasons to act before an application arrives.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "water",
+        "grid_energy"
+      ],
+      "sectors": [
+        "data_center",
+        "cryptocurrency_mining"
+      ],
+      "current_status": "Active as of 2026-09-23. One-year moratorium on data processing centers and cryptocurrency mining operations; directs the Planning Board (or another select committee) to draft amendments to the town's 2013 Comprehensive Plan addressing water, electrical, and other infrastructure impacts. No extension, repeal, or applications for exemption were found as of this pass.",
+      "enacted_status": "active",
+      "affected_projects": "None named; no data center has been proposed in Newfield as of adoption.",
+      "outcome": "Town Board unanimously adopted a one-year moratorium on data processing centers and cryptocurrency mining operations.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.tompkinsweekly.com/events/newfield-approves-one-year-moratorium-on-data-centers-fdcffc41",
+          "title": "Newfield approves one-year moratorium on data centers",
+          "publisher": "Tompkins Weekly",
+          "document_date": "2026-07",
+          "source_type": "news",
+          "supports": "Confirms the unanimous July 9, 2026 vote and one-year term on data centers and cryptocurrency mining.",
+          "quote": "At its July 9 meeting, the Newfield Town Board unanimously approved a one-year townwide moratorium on data center and cryptocurrency mining operations."
+        },
+        {
+          "url": "https://bob-lynch-enfield.com/index.php/enfield-readies-newfield-adopts-data-center-moratorium/",
+          "title": "Enfield Readies, Newfield Adopts Data Center Moratorium",
+          "publisher": "Bob Lynch, Enfield Councilperson (blog, first-hand meeting account)",
+          "document_date": "2026-07-15",
+          "source_type": "other",
+          "supports": "First-hand account of the July 9, 2026 Newfield Town Board meeting, naming the exact law title, confirming the unanimous vote, and describing the public hearing.",
+          "quote": "What the Newfield Town Board adopted July 9 was a “Local Law Imposing a Temporary Town-Wide One Year Moratorium on Data Processing Centers.” The Newfield Board's vote was unanimous."
+        }
+      ]
+    },
+    {
+      "state": "New York",
+      "jurisdiction": "Enfield",
+      "jurisdiction_type": "Town",
+      "date_enacted": "Not yet enacted as of 2026-09-23. On 2026-05-13 the Town Board adopted a resolution directing the Planning Board to draft data center legislation. A draft moratorium local law (modeled on Newfield's) was rewritten twice between July and mid-August 2026 on the advice of Town legal counsel Guy Krogh. At its August 12, 2026 meeting the Town Board did NOT set a public hearing as previously expected; it instead held off action, pushing back the hearing and the law's adoption to October 2026 at the earliest.",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed as a one-year moratorium in the draft local law circulating as of July-August 2026.",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "May 13, 2026 Town Board resolution directing the Planning Board to draft data center legislation; a subsequent draft local law (closely modeled on Newfield's adopted moratorium) grew from three to eight pages through successive rewrites by Town legal counsel Guy Krogh between July and August 2026. No public hearing had been set and no adoption vote had occurred as of 2026-09-23.",
+      "trigger": "Preemptive; no data center has been proposed in Enfield, but officials cited the town's lack of zoning, limited water and electric infrastructure, concern that 'satellite data centers' could arise near TeraWulf's proposed Lansing project, and the regional wave of moratoria (notably Newfield's) as reasons to act.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "water",
+        "grid_energy"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Pending as of 2026-09-23, and delayed. A councilperson's first-hand August 2026 account of the August 12, 2026 Town Board meeting states the Board 'held off action, postponing the process for at least a month and pushing off any hearing and the law's adoption until October at the earliest,' citing unresolved legal concerns raised by Town counsel Guy Krogh about the Newfield-modeled draft. No hearing date or adoption has been confirmed as of this pass.",
+      "enacted_status": "pending",
+      "affected_projects": "None named.",
+      "outcome": "As of this pass, Enfield has directed its Planning Board/Town Attorney to draft a one-year data center moratorium local law, but the Town Board postponed setting a public hearing at its August 12, 2026 meeting over legal counsel's concerns, pushing adoption to October 2026 at the earliest; no vote had occurred as of 2026-09-23.",
+      "confidence": 0.45,
+      "evidence": [
+        {
+          "url": "https://bob-lynch-enfield.com/index.php/enfield-readies-newfield-adopts-data-center-moratorium/",
+          "title": "Enfield Readies, Newfield Adopts Data Center Moratorium",
+          "publisher": "Bob Lynch, Enfield Councilperson (blog, first-hand meeting account)",
+          "document_date": "2026-07-15",
+          "source_type": "other",
+          "supports": "First-hand account (by a sitting Enfield councilperson) of the July 8, 2026 Enfield Town Board discussion of a draft moratorium law modeled on Newfield's, at that time anticipating a September 2026 vote (later delayed; see other evidence entry).",
+          "quote": "Enfield will likely act on in a couple of months ... The new moratorium law, likely to reach a Town Board vote in September ... would provide the process a full year and stall any data center permitting until fall 2027 at the earliest."
+        },
+        {
+          "url": "https://bob-lynch-enfield.com/index.php/enfield-renews-call-for-expanded-ida-as-agency-grants-southworks-pilot/",
+          "title": "Enfield renews call for expanded IDA as agency grants SouthWorks PILOT",
+          "publisher": "Bob Lynch, Enfield Councilperson (blog, first-hand meeting account)",
+          "document_date": "2026-08",
+          "source_type": "other",
+          "supports": "First-hand account of the August 12, 2026 Town Board meeting: the Board postponed setting a public hearing, pushing the moratorium's hearing and adoption to October 2026 at the earliest, after Town counsel Guy Krogh raised 'many infirmities' concerns about the Newfield-modeled draft.",
+          "quote": "The Enfield Town Board had expected to proceed August 12 to set a September Public Hearing on a proposed Local Law that would impose a one-year moratorium on any new data center that might propose building in the town. But the board held off action, postponing the process for at least a month and pushing off any hearing and the law's adoption until October at the earliest."
+        }
+      ],
+      "notes": "Confidence is low (0.45) because as of 2026-09-23 no public hearing had even been set (the process was pushed to October 2026 at the earliest per the August 12, 2026 meeting), let alone an adoption vote; included because it is a real, actively-tracked pending instrument rather than mere discussion, per two independent first-hand councilperson accounts."
+    },
+    {
+      "state": "New York",
+      "jurisdiction": "Mamakating",
+      "jurisdiction_type": "Town",
+      "date_enacted": "Not yet enacted as of 2026-09-23. At its meeting of 2026-09-15 (following an August 18, 2026 initial discussion), the Town Board voted unanimously (motion by Councilman Michael Robbins, seconded by Supervisor Peter Goodman) to direct Town Attorney Benjamin Gailey to prepare a proposed local law establishing a data center moratorium; that draft law will require its own future public hearing before formal adoption, expected 'within the next couple of meetings' as of September 15.",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Not yet fixed; Town Attorney Benjamin Gailey told the Board such local laws are 'usually effective for 12 to 18 months, but provisions can extend them,' and the Board discussed a possible timeline of at least a year. Some residents urged a permanent moratorium/ban instead.",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "current_end_date_iso": "",
+      "legal_basis": "No local law has been drafted or adopted yet; on 2026-09-15 the Town Board passed a resolution directing the Town Attorney to prepare a proposed local law establishing a data center moratorium, Town of Mamakating, Sullivan County.",
+      "trigger": "Preemptive; the town had no pending data center applications as of the September 15 meeting, but officials and residents wanted to study electricity and water usage, and impacts on the local Bashakill wetlands, before any proposal arrives.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "water",
+        "grid_energy",
+        "environmental"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Pending/drafting authorized as of 2026-09-23. At its September 15, 2026 meeting the Town Board unanimously voted to have Town Attorney Benjamin Gailey draft a proposed local law establishing a data center moratorium; the drafted law will need its own public hearing before adoption. No hearing date had been set and no local law had been adopted as of this pass.",
+      "enacted_status": "pending",
+      "affected_projects": "None named; no data center has been proposed to the town.",
+      "outcome": "Following an August 18, 2026 initial discussion and a September 15, 2026 public information session, the Town Board voted unanimously to direct the Town Attorney to draft a proposed data center moratorium local law; the draft will require a further public hearing before formal adoption, which had not occurred as of 2026-09-23.",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://radiocatskill.org/mamakating-weighs-data-center-moratorium-ahead-of-september-15-public-hearing/",
+          "title": "Mamakating Weighs Data Center Moratorium Ahead of September 15 Public Hearing",
+          "publisher": "Radio Catskill",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Confirms the town was considering a temporary data center moratorium with a public information session scheduled for September 15, 2026.",
+          "quote": "The Town of Mamakating is considering a temporary moratorium on data center development, with a public hearing scheduled for September 15."
+        },
+        {
+          "url": "https://www.scdemocratonline.com/stories/we-dont-want-it,252082",
+          "title": "'We don't want it'",
+          "publisher": "Sullivan County Democrat",
+          "document_date": "2026-09-22",
+          "source_type": "news",
+          "supports": "Full report of the September 15, 2026 Town Board meeting: unanimous vote (Robbins/Goodman) directing Town Attorney Benjamin Gailey to draft a proposed moratorium local law, with a further public hearing still to come before adoption; also reports the August 18, 2026 meeting that first raised the issue.",
+          "quote": "the town board voted to greenlight the preparation of a local law that would place a moratorium on data centers, while still allowing the public to come forth in a dedicated session to say what they wanted. ... The resolution to create a proposed local law for a moratorium was passed with a motion by Robbins and a second from Goodman, with the entire board in favor. While an official date for the public hearing wasn't set, it was expected to happen within “the next couple of meetings.”"
+        }
+      ],
+      "notes": "As of 2026-09-23 the town has only authorized drafting of a moratorium local law (comparable to Lysander's or Enfield's pre-drafting stage); no local law text, hearing date, or adoption exists yet, so this should be treated as an early-stage pending item."
+    },
+    {
+      "state": "New York",
+      "jurisdiction": "Buffalo",
+      "jurisdiction_type": "City",
+      "date_enacted": "Not yet enacted as of 2026-09-23. Buffalo Common Council members were reported September 22, 2026 to be moving a proposed two-year moratorium on new data centers and cryptocurrency facilities toward a full Council vote 'set for next Tuesday' (on or about 2026-09-29).",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed two years.",
+      "duration_days": 730,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Proposed local law/ordinance for a two-year moratorium on new data centers and cryptocurrency facilities, City of Buffalo, sponsored/championed by Councilmember Joseph Golombek to allow the city to update its zoning rules.",
+      "trigger": "Regulatory gap and infrastructure capacity; Councilmember Golombek cited the need to update zoning before more facilities are developed and to ensure new projects do not strain neighborhood water and sewer infrastructure without a community benefit agreement.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "infrastructure_capacity",
+        "water"
+      ],
+      "sectors": [
+        "data_center",
+        "cryptocurrency_mining"
+      ],
+      "current_status": "Pending as of 2026-09-23. A full Buffalo Common Council vote was reported as scheduled for approximately September 29, 2026 (after this research pass's as-of date); outcome not yet known.",
+      "enacted_status": "pending",
+      "affected_projects": "None named.",
+      "outcome": "Buffalo Common Council members advanced a proposed two-year moratorium on new data centers and cryptocurrency facilities toward a full Council vote.",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://spectrumlocalnews.com/nys/buffalo/politics/2026/09/22/buffalo-common-council-moving-forward-with-proposed-2-year-data-center-moratorium",
+          "title": "Buffalo Common Council moving forward with proposed 2-year data center moratorium",
+          "publisher": "Spectrum News 1 Buffalo",
+          "document_date": "2026-09-22",
+          "source_type": "news",
+          "supports": "Confirms the proposed two-year moratorium, Councilmember Golombek's rationale, and a full Council vote scheduled for the following Tuesday.",
+          "quote": "Buffalo Common Council members are moving forward with a proposed two-year moratorium on new data centers and cryptocurrency facilities. ... A full Buffalo Common Council vote on the moratorium is now set for next Tuesday."
+        }
+      ],
+      "notes": "The reported Council vote date (~2026-09-29) falls after this pass's 2026-09-23 as-of date, so the outcome is unknown; included as a clearly pending instrument with a specific, near-term vote date rather than mere discussion."
+    }
+  ]
+}

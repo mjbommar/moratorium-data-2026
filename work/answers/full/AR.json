@@ -1,0 +1,364 @@
+{
+  "state_abbrev": "AR",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "ar-carroll-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active as of adoption 2026-06-16; a legal notice reproduces the ordinance's title, findings, and beginning text but truncates the displayed text after Article 2, so a complete signed county copy was not located. [VERIFY] [VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. The 12-month emergency moratorium (Ordinance 2026-17), unanimously adopted by the Quorum Court on 2026-06-16 and effective immediately, remains in force with no reported repeal, extension, or replacement; its 365-day term runs through 2027-06-16. Corroborated by a second independent local news source (the Eureka Springs Independent's contemporaneous meeting report) beyond the original KY3 broadcast story, and by three specialty policy trackers (ServerCountry, SAVRN, AI GridWatch) that separately cite the ordinance number and June 16 vote. A complete signed county copy of the ordinance was still not located on the county's website or in Municode as of 2026-09-23, so the underlying record remains multiple independent news accounts rather than a primary ordinance document. [VERIFY] [VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "reason": "Refreshes the 'as of' date and adds a second independent local news source plus three specialty trackers found during this pass, none of which report any change to the moratorium's status; no signed ordinance PDF was located despite additional searching, so the underlying VERIFY concern is only partly addressed."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY]",
+          "resolution": "still_unverifiable",
+          "note": "Checked carrollcounty.us (Quorum Court and Agenda pages), the county's Municode-hosted Code of Ordinances, and additional search for 'Ordinance 2026-17'; no signed or codified copy of the moratorium ordinance was found. The county's codified ordinances online do not include this temporary emergency ordinance."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Found a second independent local news outlet (Eureka Springs Independent, eureka.news) with an original, detailed meeting report corroborating KY3's account (unanimous vote, emergency ordinance, 17-minute full reading by the clerk, one-year term, effective immediately), plus three specialty AI/data-center policy trackers (servercountry.org, savrn.com, aigridwatch.com) that independently cite 'Ordinance 2026-17.' This raises confidence but remains news/aggregator sourcing rather than a primary ordinance document."
+        }
+      ],
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "url": "https://www.ky3.com/2026/06/17/carroll-county-unanimously-passes-1-year-moratorium-data-centers-other-high-intensity-digital-infrastructure-facilities/",
+          "title": "Carroll County unanimously passes 1-year moratorium on data centers and other 'high-intensity digital infrastructure facilities'",
+          "publisher": "KY3",
+          "document_date": "2026-06-17",
+          "source_type": "news",
+          "supports": "Unanimous June 16, 2026 vote on an emergency ordinance imposing a 12-month moratorium, effective immediately.",
+          "quote": "Carroll County's one-year moratorium will temporarily block the construction and authorization of what they call “high-impact industrial and high-intensity digital infrastructure facilities.” ... The ordinance was passed unanimously Tuesday night and will immediately go into effect."
+        },
+        {
+          "url": "http://eureka.news/quorum-court-puts-kibosh-on-data-centers/",
+          "title": "Quorum Court puts kibosh on data centers",
+          "publisher": "Eureka Springs Independent",
+          "document_date": "2026-06",
+          "source_type": "news",
+          "supports": "Independent local-paper corroboration of the June 16, 2026 meeting: emergency ordinance, full 17-minute clerk reading, unanimous vote, and discussion of the county's lack of a permitting process.",
+          "quote": "The quorum court passed an emergency ordinance in an attempt to restrict data centers from operating in the unincorporated portions of the county. At the June 16 meeting, the justices of the peace considered a hastily assembled ordinance modeled after ordinances passed by other Arkansas communities."
+        },
+        {
+          "url": "https://servercountry.org/policy/arkansas/",
+          "title": "Arkansas Data Center Policy",
+          "publisher": "ServerCountry",
+          "document_date": "2026-07-17",
+          "source_type": "other",
+          "supports": "Independently cites 'emergency Ordinance 2026-17' adopted June 16, imposing a 12-month pause on data centers, AI computing facilities, and cryptocurrency mines.",
+          "quote": "Carroll County moratorium: The Quorum Court unanimously adopted emergency Ordinance 2026-17 on June 16, immediately imposing a 12-month pause on construction and authorization of high-impact industrial and high-intensity digital infrastructure facilities, including data centers, AI computing facilities, and cryptocurrency mines"
+        },
+        {
+          "url": "https://savrn.com/data-center-moratorium-tracker/arkansas",
+          "title": "Arkansas Data Center Moratorium Tracker",
+          "publisher": "SAVRN",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Lists Carroll County's 12-month moratorium as 'In force' as of the September 2026 update, sourced to the same KY3 article.",
+          "quote": "Carroll County 2026-06 In force 12-month data center moratorium. The Quorum Court unanimously passed a one-year moratorium blocking construction of data centers and other high-intensity digital infrastructure facilities, effective immediately."
+        },
+        {
+          "url": "https://aigridwatch.com/states/arkansas",
+          "title": "AI GridWatch: Arkansas",
+          "publisher": "AI GridWatch",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Independently tracks Carroll County as 'Enacted, expires 2027-06-17,' consistent with a June 16-17, 2026 adoption and 12-month term.",
+          "quote": "Carroll County | Local | Enacted expires 2027-06-17 | 1-year moratorium on high-impact industrial and high-intensity digital infrastructure facilities, unanimous emergency ordinance"
+        }
+      ],
+      "notes": "No county-hosted or Municode copy of Ordinance 2026-17 was found; the record continues to rest on multiple independent news and tracker sources."
+    },
+    {
+      "moratorium_id": "ar-russellville-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Adopted 2026-07-16; the signed ordinance, ordinance number, precise effective date, and sunset date were not posted in the city's ordinance archive as of compilation. [VERIFY] [VERIFY instrument number not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. The July 16, 2026 City Council agenda (Item 3, New Business) confirms the ordinance considered and adopted that night was titled 'An Ordinance Imposing a Temporary Moratorium on the Acceptance, Processing and Approval of Applications for the Development, Construction, or Siting of Data Centers Within the Incorporated Areas of the City of Russellville... Establishing a Temporary Committee...', sponsored by Council Member Justin Keller; River Valley Radio and a Citizen Portal meeting summary confirm the council amended the sponsor's original 18-month proposal down to six months (6-2) and then adopted the amended ordinance (6-2). The resulting ad hoc committee (also reported as the 'Data Center Research Committee' / 'Zoning and Land Use Amendments Committee') was seated and was still actively meeting as of an Aug. 18, 2026 River Valley Radio report, with no report found of the moratorium being lifted or repealed early. The signed ordinance's assigned number, precise effective date, and sunset date still were not located in the city's online ordinance archive or on Municode as of 2026-09-23. [VERIFY] [VERIFY instrument number not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "reason": "Adds the city's own July 16, 2026 council agenda (a primary document) plus two independent news accounts of the adoption and the committee's continuing work, none of which report any change to the moratorium's six-month term; the ordinance's instrument number remains unlocated despite additional search of Municode and the city's site."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY]",
+          "resolution": "still_unverifiable",
+          "note": "Located the city's own July 16, 2026 council agenda naming the exact ordinance considered that night (agrees with the reported amendment/adoption), but no signed, numbered ordinance document was found on russellvillearkansas.org, russellvillefire.org/AgendaCenter, or library.municode.com/ar/russellville."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Checked library.municode.com/ar/russellville/ordinances/code_of_ordinances (index only, temporary ordinance not codified) and searched for 'Russellville Ordinance No. ... data center moratorium'; no instrument number located. Confirmed the underlying facts (18-month proposal amended to 6 months, 6-2 vote twice, ad hoc committee formed and meeting through August 2026) via the city's own agenda plus River Valley Radio and Citizen Portal reporting."
+        }
+      ],
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "url": "http://www.russellvillefire.org/AgendaCenter/ViewFile/Agenda/_07162026-1164",
+          "title": "Russellville City Council Agenda, July 16, 2026",
+          "publisher": "City of Russellville",
+          "document_date": "2026-07-16",
+          "source_type": "agenda",
+          "supports": "Confirms the exact title of the data-center moratorium ordinance considered and adopted on July 16, 2026, sponsored by Council Member Justin Keller.",
+          "quote": "Item 3. Consideration of an Ordinance Imposing a Temporary Moratorium on the Acceptance, Processing and Approval of Applications for the Development, Construction, or Siting of Data Centers Within the Incorporated Areas of the City of Russellville, Arkansas, Establishing a Temporary Committee to Study, Address and Provide Recommended Legislation to Regulate Data Centers in the City and for Other Purposes. Sponsored by Councilmember, Justin Keller"
+        },
+        {
+          "url": "https://www.rivervalleyradio.com/russellville-approves-six-month-halt-on-new-data-centers-while-regulations-are-developed/",
+          "title": "Data centers placed on buffering mode by Russellville Council",
+          "publisher": "River Valley Radio",
+          "document_date": "2026-07",
+          "source_type": "news",
+          "supports": "Confirms the 6-2 amendment from 18 months to six months and the 6-2 final adoption vote, with named councilmembers.",
+          "quote": "The ordinance, sponsored by Council Member Justin Keller, originally proposed an 18-month moratorium. After discussion, the council amended the measure to reduce the moratorium to six months before approving it by a 6-2 vote."
+        },
+        {
+          "url": "https://citizenportal.ai/articles/8553804/arkansas/pope-county/russellville-city/council-adopts-sixmonth-moratorium-on-data-centers-creates-ad-hoc-committee-to-draft-regulations",
+          "title": "Council adopts six-month moratorium on data centers, creates ad hoc committee",
+          "publisher": "Citizen Portal",
+          "document_date": "2026-07",
+          "source_type": "news",
+          "supports": "Confirms the July 16 adoption, the amendment from 18 to six months, and the roll-call votes.",
+          "quote": "The Russellville City Council on July 16 adopted an ordinance placing a temporary moratorium on the acceptance, processing and approval of data-center applications within city limits ... The final ordinance was approved after council members amended the sponsor's original 18-month proposal to a six-month moratorium; the amendment and final motion passed by roll call (6-2)."
+        },
+        {
+          "url": "https://arkansasadvocate.com/2026/08/11/outside-of-little-rock-arkansas-counties-and-cities-move-ahead-on-data-center-moratoriums/",
+          "title": "Outside of Little Rock, Arkansas counties and cities move ahead on data center moratoriums",
+          "publisher": "Arkansas Advocate",
+          "document_date": "2026-08-11",
+          "source_type": "news",
+          "supports": "Statewide roundup confirming Russellville's six-month pause remained the reported status as of August 11, 2026.",
+          "quote": "Russellville passed a six-month pause on approving the facilities last month."
+        },
+        {
+          "url": "https://aigridwatch.com/states/arkansas",
+          "title": "AI GridWatch: Arkansas",
+          "publisher": "AI GridWatch",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Independently tracks Russellville's moratorium as 'Enacted' with a six-month pause on data center approvals.",
+          "quote": "Russellville | Local | Enacted expires 2027-01-31 | 6-month pause on data center approvals"
+        }
+      ],
+      "notes": "aigridwatch's own listed expiry (2027-01-31) differs slightly from the inventory's computed_expiry (2027-01-12, 180 days from 2026-07-16); aigridwatch's page states its expiry values are 'derived, not asserted,' so the inventory's own 180-day computation from the confirmed 2026-07-16 enactment date is retained rather than overwritten."
+    },
+    {
+      "moratorium_id": "ar-union-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "affected_projects": {
+          "from": "",
+          "to": "A proposed data center development called the 'Union County Campus' in El Dorado, tied to Paradox Data LLC. On June 25, 2026, Fort Lauderdale-based Z Squared Inc. announced a binding letter of intent to acquire a majority ownership interest in Paradox Data LLC; per SEC filings, the transaction had not closed as of the reporting reviewed. The site has an existing 8-MW utility connection, a roughly 10-acre parcel under a binding purchase contract, and company documents describing a potential campus of up to 170 acres and a long-term target of as much as 150 MW combining utility power and on-site natural-gas generation. The June 30, 2026 emergency Quorum Court meeting that adopted the moratorium was held amid heavy public interest in this proposal.",
+          "reason": "South Arkansas Now's full report on the June 30, 2026 vote (which it livestreamed) identifies a specific, named pending proposal -- the Union County Campus / Paradox Data LLC transaction -- discussed at the meeting that adopted the moratorium. This corrects the prior record, which stated no specific application had been identified."
+        },
+        "current_status": {
+          "from": "Active per local reporting; a signed or codified copy of Ordinance 1795 was not located online, so the effective dates and duration rely on the local news report. [VERIFY] [VERIFY primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23; set to run through 2027-07-09 absent further action. Confirmed by South Arkansas Now's report of its own livestream coverage of the June 30, 2026 emergency Quorum Court meeting (Ordinance No. 1795, unanimous vote, emergency clause, term July 10, 2026 - July 9, 2027) and independently corroborated by AI GridWatch's specialty tracker, which cites the same ordinance number and end date. A signed or codified copy of Ordinance 1795 itself was still not located online as of 2026-09-23 (eldoradonews.com's original report is paywalled), so the record continues to rest on detailed contemporaneous news accounts rather than the ordinance document. [VERIFY] [VERIFY primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "reason": "Refreshes the 'as of' date and adds South Arkansas Now's fuller livestream-based report and AI GridWatch's independent tracker entry, both of which name Ordinance No. 1795 and its term, but a primary ordinance document was still not located, so the underlying VERIFY concern is only partly resolved."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY]",
+          "resolution": "still_unverifiable",
+          "note": "eldoradonews.com's original June 30, 2026 report (the earliest news account) is paywalled and returned only copyright boilerplate when fetched; no county-hosted or Municode copy of Ordinance 1795 was found."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Found South Arkansas Now's detailed report of its own livestream of the June 30 meeting (a stronger news source than a wire pickup, since the outlet covered the meeting directly) and AI GridWatch's independently sourced tracker entry, both naming Ordinance No. 1795 and the July 10, 2026-July 9, 2027 term. No signed ordinance PDF was located, so this remains news-sourced rather than primary-document confirmed."
+        }
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://southarkansasnow.com/union-county-approves-one-year-pause-on-new-data-center-development/",
+          "title": "Union County Approves One-Year Pause on New Data Center Development",
+          "publisher": "South Arkansas Now",
+          "document_date": "2026-06-30",
+          "source_type": "news",
+          "supports": "Confirms Ordinance No. 1795, unanimous vote, emergency clause, July 10, 2026-July 9, 2027 term, and identifies the Union County Campus / Paradox Data LLC proposal as the subject of public discussion at the meeting.",
+          "quote": "South Arkansas Now livestreamed the meeting as county officials and residents discussed the issue before the court voted on Ordinance No. 1795. ... The pause is scheduled to run from July 10, 2026, through July 9, 2027. ... The public discussion follows the announcement of a proposed data center project known as the Union County Campus in El Dorado. Z Squared Inc., a Fort Lauderdale-based computing infrastructure company, announced June 25 that it had entered into a binding letter of intent to acquire a majority ownership interest in Paradox Data LLC."
+        },
+        {
+          "url": "https://www.magnoliareporter.com/news_and_business/union_county/article_477112ee-e294-4eba-8a41-aaafc5b94d0b.html",
+          "title": "South Arkansas Now: Union County approves one-year pause on new data center development",
+          "publisher": "Magnolia Reporter",
+          "document_date": "2026-06-30",
+          "source_type": "news",
+          "supports": "Independent syndication confirming the unanimous vote, one-year term, and emergency clause.",
+          "quote": "Union County Judge Mike Loftin called the special meeting for 10 a.m. Tuesday, June 30, 2026 ... Following the discussion, every member of the Quorum Court voted in favor of the ordinance. The measure establishes a one-year moratorium on new data center development in Union County."
+        },
+        {
+          "url": "https://arkansasadvocate.com/2026/08/11/outside-of-little-rock-arkansas-counties-and-cities-move-ahead-on-data-center-moratoriums/",
+          "title": "Outside of Little Rock, Arkansas counties and cities move ahead on data center moratoriums",
+          "publisher": "Arkansas Advocate",
+          "document_date": "2026-08-11",
+          "source_type": "news",
+          "supports": "Statewide roundup confirming Union County's one-year pause remained the reported status as of August 11, 2026.",
+          "quote": "Union and Carroll counties each passed a one-year pause in June."
+        },
+        {
+          "url": "https://aigridwatch.com/states/arkansas",
+          "title": "AI GridWatch: Arkansas",
+          "publisher": "AI GridWatch",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Independently cites Ordinance 1795 and the July 10, 2026-July 9, 2027 term.",
+          "quote": "Union County | Local | Enacted expires 2027-07-09 | Ordinance 1795: 1-year moratorium (Jul 10, 2026 - Jul 9, 2027), unanimous; studying water, electricity, utilities, emergency services, property and zoning impacts"
+        }
+      ],
+      "notes": "eldoradonews.com (the earliest news report, cited by the original packet context) is paywalled; South Arkansas Now's own account of the same meeting was used instead and provided richer detail, including the previously unidentified Union County Campus / Paradox Data LLC project."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Arkansas",
+      "jurisdiction": "Independence County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-08-10 (Independence County Quorum Court unanimous adoption of Ordinance No. 2026-21 at its regular August meeting, reported the next day as a Monday-night vote)",
+      "date_enacted_iso": "2026-08-10",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Five-year moratorium on construction of commercial data centers, effective immediately under an emergency clause; runs through Aug. 31, 2031",
+      "duration_days": 1825,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2031-08-31",
+      "legal_basis": "Ordinance No. 2026-21, adopted with an emergency clause",
+      "trigger": "Preemptive pause adopted with no data center project currently proposed in the county; Justices of the Peace cited the heavy water and electricity consumption of commercial data centers, lack of transparency in land acquisition, and a recent wind-turbine development dispute (a company holding turbine contracts predating the county's 2025 wind moratorium) as reasons to act before any project arrives.",
+      "trigger_categories": ["regulatory_gap", "water", "grid_energy"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. Adopted 2026-08-10 by unanimous vote under an emergency clause; runs through 2031-08-31, or until the Quorum Court determines a path forward and adopts applicable rules and regulations. No specific data center project had been proposed in the county at adoption.",
+      "enacted_status": "active",
+      "affected_projects": "None identified; officials said no data center had been proposed in Independence County at the time of adoption.",
+      "outcome": "Preemptive five-year moratorium adopted while the Quorum Court studies commercial data centers and drafts future rules and regulations; the longest data-center moratorium term reported in Arkansas as of this pass.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.whiterivernow.com/2026/08/11/independence-county-quorum-court-places-5-year-moratorium-on-data-centers/",
+          "title": "Independence County Quorum Court places 5-year moratorium on data centers",
+          "publisher": "White River Now",
+          "document_date": "2026-08-11",
+          "source_type": "news",
+          "supports": "Confirms the Monday-night (Aug. 10, 2026) unanimous vote, the five-year term running to Aug. 31, 2031, and that no data center is currently proposed in the county.",
+          "quote": "On Monday night, the Independence County Quorum Court passed an ordinance placing a five-year moratorium on commercial data centers within the county ‘to investigate the nature of commercial Data Centers and to explore the negative impact of any such project’. The moratorium ends Aug. 31, 2031."
+        },
+        {
+          "url": "https://www.noticeregistry.com/arkansas/notice/ordinance-272870",
+          "title": "Ordinance: Independence County, AR — Moratorium on commercial data centers",
+          "publisher": "NoticeRegistry (reproducing the published legal notice)",
+          "document_date": "2026-08-21",
+          "source_type": "ordinance",
+          "supports": "Reproduces the verbatim text of Ordinance No. 2026-21 as published, confirming the instrument number and its emergency-clause moratorium purpose.",
+          "quote": "Ordinance No. 2026-21 BE IT ENACTED BY THE QUORUM COURT OF THE COUNTY OF INDEPENDENCE, IN THE STATE OF ARKANSAS, AN ORDINANCE ENTITLED: AN ORDINANCE PLACING A MORATORIUM ON THE CONSTRUCTION OF COMMERCIAL DATA CENTERS AND TO DECLARE AN EMERGENCY"
+        },
+        {
+          "url": "https://arkansasadvocate.com/2026/08/11/outside-of-little-rock-arkansas-counties-and-cities-move-ahead-on-data-center-moratoriums/",
+          "title": "Outside of Little Rock, Arkansas counties and cities move ahead on data center moratoriums",
+          "publisher": "Arkansas Advocate",
+          "document_date": "2026-08-11",
+          "source_type": "news",
+          "supports": "Confirms the five-year term as the longest adopted in the state and quotes county officials on the reasoning.",
+          "quote": "Independence County’s quorum court unanimously passed a five-year moratorium on Monday, the latest — and longest — adopted in the state."
+        },
+        {
+          "url": "https://savrn.com/data-center-moratorium-tracker/arkansas",
+          "title": "Arkansas Data Center Moratorium Tracker",
+          "publisher": "SAVRN",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Independently tracks the five-year moratorium as in force through 2031, citing water-supply strain.",
+          "quote": "Independence County 2026-08 In force Five-year data center moratorium. The Quorum Court unanimously adopted a five-year moratorium running through Aug. 31, 2031 - the longest adopted in Arkansas - citing water supply strain."
+        },
+        {
+          "url": "https://aigridwatch.com/states/arkansas",
+          "title": "AI GridWatch: Arkansas",
+          "publisher": "AI GridWatch",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Independently tracks the moratorium as enacted, preemptive, with no project currently proposed.",
+          "quote": "Independence County | Local | Enacted expires 2031-08-11 | 5-year moratorium, unanimous — the longest in Arkansas. Preemptive; no project currently proposed"
+        }
+      ],
+      "notes": "AI GridWatch's own listed expiry (2031-08-11) differs from White River Now's direct account of the ordinance ('ends Aug. 31, 2031'); AI GridWatch states expiry values are derived from the enactment date, not asserted from the ordinance text, so the White River Now / NoticeRegistry end date (2031-08-31) is used here."
+    },
+    {
+      "state": "Arkansas",
+      "jurisdiction": "Madison County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-08-17 (Madison County Quorum Court, 8-0 vote, regular meeting)",
+      "date_enacted_iso": "2026-08-17",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Three-year moratorium on data centers, digital asset (cryptocurrency) mining businesses, and other large-scale computer/server operations; effective immediately under an emergency clause; runs through Aug. 31, 2029",
+      "duration_days": 1095,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2029-08-31",
+      "legal_basis": "Ordinance approved by the Madison County Quorum Court, 8-0 vote, Aug. 17, 2026 (instrument number not located in sources reviewed)",
+      "trigger": "Preemptive pause adopted with no known data center project in development; two public hearings preceded the vote; the county wants time to study data centers and develop regulations addressing their potential costs and benefits",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center", "cryptocurrency_mining"],
+      "current_status": "Active as of 2026-09-23. Adopted 2026-08-17 by unanimous 8-0 vote after two prior public hearings; effective immediately under an emergency clause and runs through 2029-08-31, the second-longest data-center moratorium term reported in Arkansas after Independence County's. No known data center project was in development in the county at adoption.",
+      "enacted_status": "active",
+      "affected_projects": "None identified; no known project in development at adoption.",
+      "outcome": "Preemptive three-year moratorium on data centers and digital-asset mining businesses adopted while the county studies regulations.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://mcrecordonline.com/stories/measure-effective-immediately-after-jps-vote-8-0-for-approval,148654",
+          "title": "County enacts 3-year moratorium on data centers - Measure effective immediately after JPs vote 8-0 for approval",
+          "publisher": "Madison County Record",
+          "document_date": "2026-08-19",
+          "source_type": "news",
+          "supports": "Local paper of record confirming the Aug. 17, 2026 8-0 vote and immediate effect.",
+          "quote": "The Madison County Quorum Court approved a three-year moratorium on data centers during its regular meeting on Monday, Aug. 17."
+        },
+        {
+          "url": "https://katv.com/news/local/madison-county-quorum-court-approves-three-year-moratorium-on-data-centers",
+          "title": "Madison County Quorum Court approves three-year moratorium on data centers",
+          "publisher": "KATV",
+          "document_date": "2026-08-25",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 17 vote, the Aug. 31, 2029 end date, that the moratorium covers data centers and digital asset mining, and that two public hearings preceded the vote.",
+          "quote": "the moratorium was approved on Aug. 17 and will remain in place through Aug. 31, 2029. It applies to date centers, digital asset mining businesses and other large-scale computer or server operations. ... Prior to the meeting, the county had hosted two previous public hearings on the proposal."
+        },
+        {
+          "url": "https://arkansasadvocate.com/2026/08/24/map-more-arkansas-communities-putting-data-centers-on-hold/",
+          "title": "MAP: More Arkansas communities putting data centers on hold",
+          "publisher": "Arkansas Advocate",
+          "document_date": "2026-08-24",
+          "source_type": "news",
+          "supports": "Confirms Madison County's three-year moratorium as the second-longest in the state, with no known project in development.",
+          "quote": "Madison County joined four other counties in passing a three-year moratorium on data center projects last week, though it doesn’t have any known projects in development. The pause is the second-longest in the state; only Independence County’s is longer."
+        },
+        {
+          "url": "https://savrn.com/data-center-moratorium-tracker/arkansas",
+          "title": "Arkansas Data Center Moratorium Tracker",
+          "publisher": "SAVRN",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Independently tracks the three-year moratorium as in force, covering data centers and digital asset mining.",
+          "quote": "Madison County 2026-08 In force Three-year moratorium on data centers and digital asset mining. The Quorum Court approved an ordinance on Aug. 17, 2026 imposing a moratorium on data centers, digital asset mining businesses and other large-scale computer or server operations through Aug. 31, 2029."
+        },
+        {
+          "url": "https://aigridwatch.com/states/arkansas",
+          "title": "AI GridWatch: Arkansas",
+          "publisher": "AI GridWatch",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Independently tracks the moratorium as enacted, expiring 2029-08-31, preemptive with no project proposed.",
+          "quote": "Madison County | County | Enacted expires 2029-08-31 | Three-year moratorium on data centers, digital asset mining, and large-scale computer/server operations; emergency clause, effective immediately. Preemptive -- no project proposed."
+        }
+      ]
+    }
+  ]
+}

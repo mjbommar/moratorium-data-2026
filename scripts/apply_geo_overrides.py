@@ -34,6 +34,60 @@ INV = REPO / "data" / "moratorium_inventory.csv"
 
 # moratorium_id -> override
 OVERRIDES: dict[str, dict] = {
+    "ak-houston-undated": {
+        "latitude": "61.630278",
+        "longitude": "-149.818055",
+        "why": (
+            "Neither geocoder resolved bare 'Houston, Alaska' (Texas wins the name). The instrument is the City of Houston in the Matanuska-Susitna Borough (Ordinance 26-20). Resolved by hand with Nominatim on 2026-09-23."
+        ),
+    },
+    "ca-patterson-2026": {
+        "latitude": "37.471623",
+        "longitude": "-121.129695",
+        "why": (
+            "Bare 'Patterson, California' failed both geocoders. The row is the City of Patterson, Stanislaus County (its council adopted the 2026-07-16 urgency ordinance). Resolved by hand with Nominatim on 2026-09-23."
+        ),
+    },
+    "ga-chatham-county-2026": {
+        "latitude": "31.966889",
+        "longitude": "-81.062601",
+        "why": (
+            "'Chatham County, Georgia' failed the Census geocoder (it resolves places, not counties) and Nominatim ranked North Carolina's Chatham County first in bulk mode. The instrument is the Savannah-area county. Resolved by hand with Nominatim on 2026-09-23."
+        ),
+    },
+    "ga-toccoa-2026": {
+        "latitude": "34.577437",
+        "longitude": "-83.332881",
+        "why": (
+            "Bare 'Toccoa' failed both geocoders; the row is the City of Toccoa, Stephens County. Resolved by hand with Nominatim on 2026-09-23."
+        ),
+    },
+    "ky-boyd-county-fiscal-court-2026": {
+        "latitude": "38.360893",
+        "longitude": "-82.694593",
+        "why": (
+            "'Fiscal Court' is the Kentucky county legislative body, not a place, and defeated both geocoders. The referent is Boyd County (Ashland area). Resolved by hand with Nominatim on 2026-09-23."
+        ),
+    },
+    "oh-swancreek-township-fulton-county-2026": {
+        "latitude": "41.537719",
+        "longitude": "-83.940839",
+        "why": (
+            "The township spells itself 'Swancreek' but the gazetteer entry is 'Swan Creek Township, Fulton County'; neither geocoder bridged the spelling. Resolved by hand with Nominatim on 2026-09-23."
+        ),
+    },
+    "mi-park-township-2026": {
+        "jurisdiction": "Park Township (St. Joseph County)",
+        "latitude": "42.016737",
+        "longitude": "-85.586519",
+        "why": (
+            "Michigan has a Park Township in Ottawa County (Holland area) and another in "
+            "St. Joseph County. The moratorium's own record is park-township.org, whose "
+            "May 13 and September 9, 2026 board minutes carry St. Joseph County reports, so "
+            "the St. Joseph County township is the referent. Automated geocoding had "
+            "returned the Ottawa County township at 42.812025 / -86.174118 (2026-09-23 refresh)."
+        ),
+    },
     "mi-lyon-township-2026": {
         "jurisdiction": "Lyon Charter Township (Oakland County)",
         "latitude": "42.476464",

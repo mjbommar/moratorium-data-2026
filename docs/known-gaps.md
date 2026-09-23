@@ -6,7 +6,7 @@ We're confident in what's in this dataset, but here's an honest accounting of wh
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **182 of the 533 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`), down from 123 of 222 in v2026.04.4 after a targeted verification pass.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **214 of the 1053 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`), down from 123 of 222 in v2026.04.4 after a targeted verification pass.
 
 ### Records behind authentication or CAPTCHA gates
 
@@ -45,14 +45,31 @@ The machine-readable record is `data/sweep_coverage.json`, derived by
 `scripts/update_sweep_coverage.py` and mirrored into `summary_stats.json` under
 `sweep_coverage`.
 
+### Coverage of the August–September 2026 pass (2026-09-23)
+
+Every state was searched for new instruments on 2026-09-23, sector by sector,
+and 520 were added, so the inventory is far more complete for August and
+September than any earlier month outside the sweep window. But this was a
+**discovery search, not a month-by-month sweep**: an agent searched a state as
+a whole rather than each month in turn, and small jurisdictions whose only
+record is a Facebook post or a paywalled weekly can still be missed. Treat
+August–September counts as lower bounds, and the May–July window as the only
+one where absence is a finding. `data/sweep_coverage.json` records the pass under
+`discovery_passes`, separate from the systematic `windows`, with that caveat. Three states have no local instrument
+after this search: Hawaii, West Virginia (state law HB 2014 preempts local
+regulation of large data centers), and Wyoming (Cheyenne rejected its proposal).
+
 ### Extension and rescission events after the cutoff
 
-Any moratorium extended, replaced, or rescinded after **2026-07-31** won't be
-reflected until the next release. In v2026.07 we re-researched every row whose
-recorded term had provably expired and every pending row older than 60 days, so
-the backlog of stale statuses is cleared as of the snapshot date — but 244
+Any moratorium extended, replaced, or rescinded after **2026-09-23** won't be
+reflected until the next release. In this pass we re-researched every row whose
+recorded term had provably expired, every extension without a recorded end
+date, every pending row older than 60 days, and every row carrying a `[VERIFY]`
+marker, so the backlog of stale statuses is cleared as of the snapshot date. 899
 instruments are currently in force and many carry sunsets in the next few
-months.
+months; five in-force rows (Appling County GA, Cedartown GA, Waterford Township
+MI, Seward County NE, East Whiteland Township PA) had already passed their
+computed expiry without an extension we could locate.
 
 ### Disagreement with a sibling dataset (added v2026.07)
 
@@ -125,7 +142,7 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Geocoding caveats (added v2026.04.2)
 
-531 of 533 instruments are geocoded to WGS84 lat/lon via OSM Nominatim. The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
+1051 of 1053 instruments are geocoded to WGS84 lat/lon via OSM Nominatim. The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
 
 **Within-state name ambiguity.** Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:
 

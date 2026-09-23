@@ -1,0 +1,232 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "oh-richfield-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Richfield Township's own February 17, 2026 regular meeting minutes (a primary source, saved from richfieldtwp.com) confirm the trustees adopted 'Resolution 021726-01' establishing a 12-month moratorium on data center facilities, energy-producing/storage facilities, and commercial/industrial high-energy-use facilities at that meeting, resolving the previously unverified adoption date."
+        },
+        "current_status": {
+          "from": "Active; no rescission or repeal found in the township's own February 2026 minutes or subsequent public records checked.",
+          "to": "Active as of 2026-09-23. Confirmed via Richfield Township's own February 17, 2026 meeting minutes (primary source), which record Trustee Loeffler presenting 'a resolution establishing a temporary moratorium' with the stated scope (data center facilities, energy-producing/storage facilities, commercial/industrial high-energy-use facilities in all zoning districts) and reference 'attached resolution 021726-01 adopting the resolution establishing a 12-month moratorium.' No rescission, repeal, or amendment was found in the township's subsequent March 18, 2026 meeting minutes (the most recent written minutes located), which instead note a trustee's report from a Lake Erie Regional Meeting discussing data centers regionally with no mention of repealing the township's own pause. Note: Richfield Township is in Lucas County (Anthony Wayne-area, near Whitehouse/Waterville), distinct from the separate Village of Richfield in Summit County, which passed its own, unrelated data center moratorium (Ordinance 18-2026) around the same time; some search results conflate the two.",
+          "reason": "Refreshes the 'as of' date, upgrades the source basis from 'subsequent public records checked' (unspecified) to the township's own primary-source February 17 and March 18, 2026 meeting minutes, and adds a disambiguation note distinguishing this Lucas County township from the unrelated Village of Richfield in Summit County."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://richfieldtwp.com/wp-content/uploads/2026/03/February-17-2026-meeting-final.pdf",
+          "title": "Board of Richfield Township Trustees Regular Meeting Minutes, February 17, 2026",
+          "publisher": "Richfield Township, Lucas County, Ohio",
+          "document_date": "2026-02-17",
+          "source_type": "minutes",
+          "supports": "Primary confirmation of the exact adoption date, Resolution 021726-01, and the moratorium's scope (data centers, energy-producing/storage facilities, high-energy-use commercial/industrial facilities), adopted as an emergency measure citing the lack of a zoning inspector.",
+          "quote": "Trustee Loeffler provided a resolution establishing a temporary moratorium. ... See attached resolution 021726-01 adopting the resolution establishing a 12-month moratorium."
+        },
+        {
+          "url": "https://richfieldtwp.com/wp-content/uploads/2026/03/March-18.-2026-Minutes.pdf",
+          "title": "Board of Richfield Township Trustees Regular Meeting Minutes, March 18, 2026",
+          "publisher": "Richfield Township, Lucas County, Ohio",
+          "document_date": "2026-03-18",
+          "source_type": "minutes",
+          "supports": "Most recent written minutes located; contains no item repealing, amending, or discussing the February 17 moratorium, only a trustee report referencing regional data-center discussion at a Lake Erie Regional Meeting.",
+          "quote": "She attending the following minutes. Lake Erie Regional Meeting. Discussion focused on: Data centers. Brownfield redevelopment. Regional infrastructure in the Toledo area."
+        }
+      ],
+      "notes": "Could not locate written township meeting minutes dated after March 18, 2026 (only later meeting audio files are posted on richfieldtwp.com); a WTOL article on the same moratorium (wtol.com/.../where-do-northwest-ohio-municipalities-stand-on-data-centers) returned only an Akamai bot-check page with no article text on two fetch attempts (direct and browser mode) and was not cited as evidence for that reason."
+    },
+    {
+      "moratorium_id": "oh-south-bloomfield-2025",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "The 180-day moratorium (Ordinance 2025-28) expired on its own terms around 2026-06-13 with no extension found. The same day the moratorium passed, Council also adopted Ordinance 2025-26, 'An Ordinance to Adopt the 2025 Edition of the Village of South Bloomfield Planning and Zoning Book,' a comprehensive rewrite; the moratorium's own recitals acknowledge the village lacked adequate 'processes, resources, utilities, and infrastructure' for data centers at the time.",
+          "to": "Confirmed as of 2026-09-23: the 180-day moratorium (Ordinance 2025-28) expired on its own terms around 2026-06-13. Independent reporting from The Ohio Newsroom/Statehouse News Bureau (2026-02-26) and Scioto Post (2026-03) both describe South Bloomfield as having 'preemptively eliminat[ed] all areas of industrial zoning, in order to avoid applications from data centers,' corroborating the row's existing 'outcome' (new 2025 zoning book that does not list data centers as a permitted use). No extension or replacement moratorium was found; the village's approach has moved from a temporary pause to eliminating the zoning category itself.",
+          "reason": "Refreshes the 'as of' date and adds two independent news sources (Ohio Newsroom/Statehouse News Bureau and Scioto Post) found during this pass that corroborate the row's existing outcome text; no substantive change to the recorded facts was found."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.statenews.org/section/the-ohio-newsroom/2026-02-26/ohio-towns-are-pushing-back-against-data-centers-to-varying-degrees-of-success",
+          "title": "Ohio towns are pushing back against data centers, to varying degrees of success",
+          "publisher": "The Ohio Newsroom / Statehouse News Bureau",
+          "document_date": "2026-02-26",
+          "source_type": "news",
+          "supports": "Confirms South Bloomfield eliminated all industrial zoning to preemptively block data center applications, consistent with the row's recorded 'replaced' outcome.",
+          "quote": "South Bloomfield recently eliminated all areas of industrial zoning, in order to avoid applications from data centers."
+        },
+        {
+          "url": "https://www.sciotopost.com/scioto-township-enacts-12-month-data-center-moratorium-amid-statewide-tech-surge/",
+          "title": "Scioto Township Enacts 12-Month Data Center Moratorium Amid Statewide Tech Surge",
+          "publisher": "Scioto Post",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Independent, more recent (Sept. 2026) corroboration that South Bloomfield's elimination of industrial zoning to block data centers remains the reference example cited for neighboring townships.",
+          "quote": "The Village of South Bloomfield has been the front of data center resistance, preemptively eliminating all areas of industrial zoning, in order to avoid applications from data centers."
+        }
+      ],
+      "notes": "Attempted to fetch southbloomfieldoh.com's own 'Ordinances & Resolutions' page (which a search snippet showed listing both Ordinance 2025-26 'Adopt the 2025 Planning and Zoning Book' and Ordinance 2025-28 'Moratorium on Processing of Permits for Data Centers') but the site has an invalid TLS certificate on the direct fetch and returned only ad-tech tracking-pixel content in browser mode, so it was not usable as citable evidence; relied on the two independently reported news sources instead, which corroborate each other."
+    },
+    {
+      "moratorium_id": "oh-spencer-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Spencer Township's own March 5, 2026 regular meeting minutes (primary source, spencertownship.org) record the trustees' unanimous roll-call adoption of 'Resolution 2026-03-05' that day, resolving the previously unverified adoption date."
+        },
+        "current_status": {
+          "from": "Active; no rescission found in the adopting meeting's minutes or in subsequent web search as of this pass.",
+          "to": "Active as of 2026-09-23. Confirmed via Spencer Township's own March 5, 2026 meeting minutes (primary source): 'Jeff Stopar, Legal Counsel, prepared a moratorium Resolution 2026-03-05 imposing a temporary moratorium on the approval, establishment or construction of advanced manufacturing facilities or uses within Spencer township for 12 months. After discussion, Trustee Hood made a motion to approve the Resolution, Trustee Havens seconded. Roll call vote: Trustee Kester: yes, Trustee Havens: yes, Trustee Hood: yes.' The same minutes note the township had separately already adopted a related zoning text amendment; Trustee Hood clarified that the text amendment did not substitute for continued due diligence on advanced manufacturing/data center uses. No rescission, extension, or replacement was found in the township's July 9, 2026 meeting minutes (the most recent written minutes located), the only other 2026 written minutes checked beyond the adopting meeting.",
+          "reason": "Refreshes the 'as of' date and cites Spencer Township's own March 5, 2026 meeting minutes (primary source) confirming the vote details, plus the July 9, 2026 minutes showing no subsequent repeal or amendment; no substantive change to the moratorium's status was found."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://spencertownship.org/minutes/2026/03_05_26.pdf",
+          "title": "Spencer Township Trustee Meeting Minutes, March 5, 2026",
+          "publisher": "Spencer Township, Lucas County, Ohio",
+          "document_date": "2026-03-05",
+          "source_type": "minutes",
+          "supports": "Primary confirmation of the exact adoption date, Resolution 2026-03-05, its 12-month term covering 'advanced manufacturing facilities or uses,' and the unanimous 3-0 roll-call vote (Kester, Havens, Hood).",
+          "quote": "Jeff Stopar, Legal Counsel, prepared a moratorium Resolution 2026-03-05 imposing a temporary moratorium on the approval, establishment or construction of advanced manufacturing facilities or uses within Spencer township for 12 months. ... Roll call vote: Trustee Kester: yes, Trustee Havens: yes, Trustee Hood: yes."
+        },
+        {
+          "url": "http://spencertownship.org/minutes/2026/07_09_26.pdf",
+          "title": "Spencer Township Trustee Meeting Minutes, July 9, 2026",
+          "publisher": "Spencer Township, Lucas County, Ohio",
+          "document_date": "2026-07-09",
+          "source_type": "minutes",
+          "supports": "Most recent written township minutes located; contains no item repealing, amending, or extending the March 5 moratorium.",
+          "quote": ""
+        }
+      ],
+      "notes": "Spencer Township is in Lucas County (Anthony Wayne-area, near Whitehouse), adjoining Richfield Township. Only audio recordings (not text minutes) are posted for Spencer Township meetings after July 9, 2026, so more recent written confirmation could not be checked; no news coverage of a repeal or change was found in searches through 2026-09-23."
+    },
+    {
+      "moratorium_id": "oh-tallmadge-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_status": {
+          "from": "Active. Council minutes for April 13, 2026 confirm the public hearing closed at 6:30 p.m. with no public comment, and Ordinance 2026-38 was then adopted by a 7-0 vote (motion by Kline, seconded by Pavlik) the same evening, satisfying the three-fourths-vote/immediate-enactment requirement.",
+          "to": "Active as of 2026-09-23; Ordinance 2026-38 (six-month moratorium, public hearing closed 6:30 p.m. with no comment, adopted 7-0 the same evening on 2026-04-13) remains in effect through its stated October 10, 2026 expiration. On 2026-09-10, Tallmadge City Council's Planning & Zoning Committee opened a first reading of Ordinance 2026-74, which would extend the moratorium for an additional 12 months effective 2026-10-13 (i.e., immediately upon the current moratorium's expiration), following a public hearing scheduled for 2026-10-08. As of this pass Ordinance 2026-74 has not been adopted: the filed ordinance text shows blank 'Passed,' vote-tally, and readings fields, and reporting on the September 10 committee session confirms 'The ordinance did not receive a vote tonight and remains at first reading while staff and the law department continue review.' A regional real-estate industry brief (Akron Cleveland Association of Realtors, 'Local Lineup,' 2026-09-10) characterized the item as already 'extended,' but the underlying agenda and ordinance documents show it is still pending as of 2026-09-23.",
+          "reason": "Adds the September 2026 development of a proposed 12-month extension (Ordinance 2026-74), sourced from the ordinance's own draft text and committee-meeting reporting, while clarifying it remains unadopted (first reading only) as of 2026-09-23; the original ordinance's adoption facts are unchanged."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.tallmadgeoh.gov/DocumentCenter/View/8384/2026-074",
+          "title": "Ordinance 2026-74 (draft): Extending the Moratorium on Acceptance of Any Zoning Application for Data Centers Within the City of Tallmadge",
+          "publisher": "City of Tallmadge, Ohio",
+          "document_date": "2026-08-31",
+          "source_type": "ordinance",
+          "supports": "Primary text of the proposed 12-month extension, its effective date (2026-10-13), and confirmation it is still an unsigned/unpassed draft (blank Passed, readings, and vote fields) referencing an October 8, 2026 public hearing that had not yet occurred as of 2026-09-23.",
+          "quote": "SECTION 1. That Council hereby extends the moratorium, for twelve months effective October 13, 2026 ... WHEREAS, a public hearing was held on this matter by Council on October 8, 2026, at 6:01 p.m. ... Passed: ______________ ... Readings: lst __________ 2d __________ 3d __________"
+        },
+        {
+          "url": "https://citizenportal.ai/articles/9931113/ohio/summit-county/tallmadge/tallmadge-city-council-meeting/council-opens-first-reading-to-extend-moratorium-on-data-center-zoning-applications",
+          "title": "Council opens first reading to extend moratorium on data-center zoning applications",
+          "publisher": "CitizenPortal.ai (Tallmadge City Council meeting coverage)",
+          "document_date": "2026-09-10",
+          "source_type": "news",
+          "supports": "Confirms Ordinance 2026-74 received only a first reading at the September 10, 2026 Planning & Zoning Committee session, with no vote taken and further legal/technical review pending.",
+          "quote": "The ordinance did not receive a vote tonight and remains at first reading while staff and the law department continue review."
+        },
+        {
+          "url": "https://www.tallmadgeoh.gov/DocumentCenter/View/7360/2026-38",
+          "title": "Ordinance 2026-38: Imposing a Six-Month Moratorium on Acceptance of Any Zoning Application for Data Centers Within the City of Tallmadge",
+          "publisher": "City of Tallmadge, Ohio",
+          "document_date": "2026-02-17",
+          "source_type": "ordinance",
+          "supports": "Primary text of the original moratorium confirming its six-month term and the April 13, 2026 public hearing date already recorded in the row.",
+          "quote": "SECTION 1. That Council hereby approves a temporary moratorium, for a period of six months from the effective date of this ordinance ... WHEREAS, a public hearing was held on this matter by Council on April 13, 2026 at 6:01 p.m."
+        },
+        {
+          "url": "https://akronclevelandrealtors.com/news/the-local-lineup-9-10-housing-policy-brief/",
+          "title": "The Local Lineup: 9/10 Housing Policy Brief",
+          "publisher": "Akron Cleveland Association of REALTORS",
+          "document_date": "2026-09-10",
+          "source_type": "other",
+          "supports": "Secondary industry brief describing Ordinance 2026-74 as an extension of the Tallmadge moratorium; cited here to show the (premature) characterization but not relied on for the legal status determination, which rests on the primary ordinance and committee-meeting reporting above.",
+          "quote": "Data Center Zoning Moratorium Extended (Ord. 2026-74): Tallmadge City Council extended its moratorium on accepting new zoning applications for data centers, with immediate enactment."
+        }
+      ],
+      "notes": "Because Ordinance 2026-74 was still at first reading with no vote as of 2026-09-23 and its own text schedules the operative public hearing for October 8, 2026 (a future date relative to today), this was recorded as 'corrected' (added pending-extension context) rather than 'status_changed'; enacted_status remains 'active' since the extension has not yet been legally adopted."
+    },
+    {
+      "moratorium_id": "oh-ashville-2025",
+      "outcome": "corrected",
+      "changes": {
+        "current_status": {
+          "from": "Extended via Ordinance 2026-14, adopted as an emergency measure at the 2026-07-06 Council meeting, imposing another 180-day moratorium (through approximately 2027-01-02); succeeds the original Ordinance 2025-13 (expired 2026-06-20).",
+          "to": "Extended via Ordinance 2026-14, adopted as an emergency measure at the 2026-07-06 Council meeting, imposing another 180-day moratorium (through approximately 2027-01-02); succeeds the original Ordinance 2025-13 (expired 2026-06-20). Active as of 2026-09-23; unaffected by the separate dispute below over the EdgeConneX development agreement. Separately, the underlying EdgeConneX development agreement (Resolution 06-2026, adopted 2026-04-06 as an emergency measure and exempted from the village's own data center moratorium) remains contested. The Ohio Supreme Court ruled 2026-08-07 (State ex rel. McNamara-Smith v. Grube) that Ashville's fiscal officer improperly refused to certify a citizen referendum petition against Resolution 06-2026 because the emergency declaration was not adequately justified; the Pickaway County Board of Elections then voted unanimously to place the referendum on the 2026-11-03 general-election ballot. Village Council subsequently introduced Resolution 16-2026 to repeal Resolution 06-2026 outright and moot the referendum; a 2026-09-08 motion to waive the second and third readings and pass it immediately fell short of the five-vote supermajority required (final tally of 4 in favor, after Mayor Clark broke an initial 3-3 tie, which the council's own rules held insufficient), and at the 2026-09-21 meeting Council instead advanced the repeal to a third reading scheduled for 2026-10-05. As of 2026-09-23, Resolution 06-2026 has not been repealed and the referendum remains scheduled for the November ballot.",
+          "reason": "Adds the September 2026 Ohio Supreme Court ruling, Board of Elections referendum placement, and Council's stalled repeal attempt (Resolution 16-2026) affecting the separate EdgeConneX development agreement (Resolution 06-2026); the moratorium itself (Ordinance 2026-14) is unaffected and its extension terms are unchanged."
+        },
+        "outcome": {
+          "from": "Resolution 06-2026 authorized a development/consultant-funding agreement (Term Summary, Exhibit A) with EdgeConneX/PowerConneX, allocating $39,300 for GAI Consultants' independent technical review of the proposed project. It did not repeal the moratorium, which was instead independently extended by Ordinance 2026-14 on 2026-07-06.",
+          "to": "Resolution 06-2026 authorized a development/consultant-funding agreement (Term Summary, Exhibit A) with EdgeConneX/PowerConneX, allocating $39,300 for GAI Consultants' independent technical review of the proposed project. It did not repeal the moratorium, which was instead independently extended by Ordinance 2026-14 on 2026-07-06. As of 2026-09-23, Resolution 06-2026 itself remains legally intact but contested: the Ohio Supreme Court ordered the village to certify a citizen referendum against it (decided 2026-08-07), the referendum is on the 2026-11-03 ballot, and a Council attempt to repeal Resolution 06-2026 and moot that vote (Resolution 16-2026) has twice failed to gather the votes needed to advance quickly and is now set for a third reading on 2026-10-05.",
+          "reason": "Updates the outcome narrative with the September 2026 referendum/repeal developments around Resolution 06-2026, found during this pass via the Ohio Supreme Court ruling, Ballotpedia's referendum tracker, and Circleville Herald's meeting coverage; the underlying facts about the $39,300 GAI Consultants agreement and the independent Ordinance 2026-14 extension are unchanged."
+        }
+      },
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "url": "https://ocj.com/2026/09/what-did-the-supreme-court-rule-about-the-ashville-data-center/",
+          "title": "What did the Supreme Court rule about the Ashville Data Center?",
+          "publisher": "Ohio Ag Net / Ohio's Country Journal",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Explains the Ohio Supreme Court's August 7, 2026 ruling ordering certification of the referendum petition against Resolution 06-2026 and the Pickaway County Board of Elections' role in placing it on the ballot.",
+          "quote": "The Court ruled that the Ashville fiscal officer could not refuse to certify the opponents' petition against the data center plan because the village adopted its agreement with the company as emergency legislation. The Court ordered the Village fiscal officer to submit the petition to the board of elections for placement on the Nov. 3 general election ballot."
+        },
+        {
+          "url": "https://ballotpedia.org/Ashville,_Ohio,_Data_Center_EdgeConneX_Development_Term_Summary_Referendum_(November_2026)",
+          "title": "Ashville, Ohio, Data Center EdgeConneX Development Term Summary Referendum (November 2026)",
+          "publisher": "Ballotpedia",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Confirms the referendum's current status is 'On the ballot' for the November 3, 2026 election and reproduces the certified ballot language for Resolution 06-2026.",
+          "quote": "Election date November 3, 2026 ... Status On the ballot ... Shall the resolution enacting approval of a development and supply agreement term summary with EdgeConneX be approved?"
+        },
+        {
+          "url": "https://www.circlevilleherald.com/news/village-of-ashville-s-resolution-06-2026-up-for-repeal/article_4721f2e1-828c-429f-aeef-536f7f7fe8ff.html",
+          "title": "Village of Ashville's Resolution 06-2026 up for repeal",
+          "publisher": "Circleville Herald",
+          "document_date": "2026-09-08",
+          "source_type": "news",
+          "supports": "Details the September 8, 2026 first reading of the repeal resolution (16-2026), extensive public comment opposing it, and the failed vote to waive the second and third readings.",
+          "quote": "Teeters made a motion to waive the second and third readings of the resolution. ... Burke, Teeters, and Scoby voted yes. Rainey, Martin, and Darryl Glick voted no. In the case of the tie, Mayor Clark voted yes. ... 'I stand corrected. You cannot wave a second and third reading without a 5 to 1 vote. At this point, this motion has not passed.'"
+        },
+        {
+          "url": "https://www.circlevilleherald.com/news/referendum-petition-language-on-board-of-elections-ballot-proofs/article_d7981670-c993-4566-a261-e15ead5dd172.html",
+          "title": "Referendum Petition language on Board of Elections ballot proofs",
+          "publisher": "Circleville Herald",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Confirms that as of the September 21, 2026 council meeting, the repeal resolution was moved to a third reading scheduled for October 5, 2026, and that the referendum remains on the November 3 ballot with certified language.",
+          "quote": "That evening, they voted 3-3 to waive the three readings, with council members Dave Rainey, Jeff Martin, and Darryl Glick voting no. At the September 21 meeting, the Council agreed to move the resolution to a third reading at their next Council meeting – Monday, October 5, 2026."
+        },
+        {
+          "url": "https://www.sciotopost.com/ashville-moves-to-repeal-edgeconnex-agreement-following-supreme-court-order-and-citizen-petition/",
+          "title": "Ashville Moves to Repeal EdgeConneX Agreement Following Supreme Court Order and Citizen Petition",
+          "publisher": "Scioto Post",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Background on the referendum fight, the Supreme Court case name (State ex rel. McNamara-Smith v. Grube), and Council's intent in introducing the repeal resolution.",
+          "quote": "In response, local citizens Laura McNamara-Smith, Brian Thomas Meyers, and Allison Meade filed a mandamus lawsuit directly with the Supreme Court of Ohio (State ex rel. McNamara-Smith v. Grube)."
+        }
+      ],
+      "notes": "The moratorium itself (Ordinance 2026-14, through ~2027-01-02) is a separate legal instrument from Resolution 06-2026 (the EdgeConneX development-agreement term summary) and is not affected by the referendum/repeal fight over the latter; this pass only updates the 'current_status' and 'outcome' narrative fields with the September 2026 developments around Resolution 06-2026, and does not change enacted_status or current_end_date_iso."
+    }
+  ]
+}

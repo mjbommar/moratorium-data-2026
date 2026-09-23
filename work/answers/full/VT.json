@@ -1,0 +1,67 @@
+{
+ "state_abbrev": "VT",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 agent",
+ "decisions": [],
+ "new_candidates": [
+  {
+   "state": "Vermont",
+   "jurisdiction": "Morristown",
+   "jurisdiction_type": "Town",
+   "date_enacted": "2026-08-31 (Select Board and Village Board of Trustees joint unanimous vote, dated interim zoning bylaw)",
+   "date_enacted_iso": "2026-08-31",
+   "date_enacted_uncertainty": "exact",
+   "duration": "Two years from adoption, as an interim zoning bylaw",
+   "duration_days": 730,
+   "duration_kind": "fixed_days",
+   "current_end_date_iso": "2028-08-31",
+   "legal_basis": "Interim zoning bylaw adopted unanimously by the Morristown Select Board and Village of Morrisville Board of Trustees, dated 2026-08-31, following a selectboard proposal and two public hearings in August 2026",
+   "trigger": "Town bylaws are silent on data centers and 'high-impact uses'; board wants time for the planning commission to study electric-grid, water, noise, and hazardous-waste impacts before any application is filed, prompted in part by community reaction to a separate large industrial-park/quarry proposal",
+   "trigger_categories": [
+    "regulatory_gap",
+    "grid_energy",
+    "water",
+    "noise"
+   ],
+   "sectors": [
+    "data_center",
+    "general"
+   ],
+   "current_status": "Active as of 2026-09-23. The interim zoning bylaw (dated 2026-08-31) blocks consideration of applications for data centers and other defined 'high-impact uses' -- facilities that consume 10+ megawatts of power from any source, use 57,600+ gallons of water per day, discharge hazardous waste, add more than 10 acres of impervious surface, or emit more than 70 decibels of persistent noise -- for two years, with an exemption for small data centers necessary for the administrative/operational support of an existing business, hospital, school, municipal service, or residence. Intended to give the planning commission time to draft permanent zoning addressing such uses; runs through approximately 2028-08-31.",
+   "enacted_status": "active",
+   "affected_projects": "None named; officials and residents confirmed no data center has been proposed in Morristown and few parcels are large enough to host one, but the board called the moratorium precautionary.",
+   "outcome": "Adopted unanimously by the Select Board and Village Board of Trustees on 2026-08-31 after a public hearing with dozens of residents, most supportive; Morristown is the third Vermont community (after Royalton's permanent five-year ban and South Burlington's zoning amendment) to restrict data centers.",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.vtcng.com/news_and_citizen/news/local_news/morristown-bans-data-centers-large-facilities/article_81243704-61e5-4703-a953-e17e6b30a956.html",
+     "title": "Morristown bans data centers, large facilities",
+     "publisher": "News & Citizen (Vermont Community Newspaper Group)",
+     "document_date": "2026-09-03",
+     "source_type": "news",
+     "supports": "Confirms the two-year moratorium, the 'high-impact use' definition (10+ MW power, 57,600+ gallons water/day), the unanimous vote, and that it followed a selectboard proposal and two public hearings.",
+     "quote": "Monday night, the town's selectboard and village board of trustees enacted a two-year moratorium on the massive facilities popping up over the country. ... the decision to adopt the interim bylaws was unanimous."
+    },
+    {
+     "url": "https://citizenportal.ai/articles/9754412/vermont/lamoille-county/morristown/morristown-select-board-adopts-twoyear-interim-moratorium-on-data-centers-and-highimpact-uses",
+     "title": "Morristown Select Board adopts two-year interim moratorium on data centers and high-impact uses",
+     "publisher": "citizenportal.ai (local meeting summary)",
+     "document_date": "2026-08-31",
+     "source_type": "minutes",
+     "supports": "Confirms the exact adoption date (August 31, 2026), the unanimous voice vote, and board discussion of the statutory hazardous-waste definition used in the bylaw.",
+     "quote": "The Morristown Select Board voted unanimously Aug. 31 to adopt an interim zoning bylaw imposing a moratorium on data centers and other defined 'high-impact uses' while the planning commission studies potential impacts and drafts zoning changes."
+    },
+    {
+     "url": "https://www.sevendaysvt.com/news/constructiondevelopment/absent-state-action-vermont-towns-move-to-block-data-centers/",
+     "title": "Absent State Action, Vermont Towns Move to Block Data Centers",
+     "publisher": "Seven Days",
+     "document_date": "2026-09-09",
+     "source_type": "news",
+     "supports": "Confirms Morristown is the third Vermont town to restrict data centers (after Royalton's permanent ban and South Burlington's zoning amendment), gives the full 'high-impact use' definition and exemption, and quotes selectboard chair Don McDowell on the two-year rationale.",
+     "quote": "Morristown's new rules will for two years block consideration of applications for data centers or 'high-impact uses.' ... 'One of the reasons for this moratorium being put in place is to get out in front of this and give ourselves two years to breathe,' said Don McDowell, chair of the selectboard."
+    }
+   ],
+   "notes": "Royalton (five-year voter-approved ban) and South Burlington (zoning-code amendment banning centers over 20,000 sq ft) are permanent restrictions, not time-limited moratoria, and are excluded from this candidate list per the rule that a permanent ban is not a new moratorium row unless itself framed as a moratorium."
+  }
+ ]
+}

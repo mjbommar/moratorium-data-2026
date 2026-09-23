@@ -1,0 +1,194 @@
+{
+  "state_abbrev": "OR",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "Oregon",
+      "jurisdiction": "Salem",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-09-21 (City Council unanimous vote at a special session)",
+      "date_enacted_iso": "2026-09-21",
+      "date_enacted_uncertainty": "exact",
+      "duration": "120 days from adoption (2026-09-21 to 2027-01-19); Oregon law allows extensions of up to 300 additional days with additional findings.",
+      "duration_days": 120,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-01-19",
+      "legal_basis": "Moratorium ordinance adopted by the Salem City Council on 2026-09-21, following an August 3, 2026 council vote to move forward with the moratorium and a resolution to begin updating zoning/land-use code; required 45-day notice to the Oregon Department of Land Conservation and Development preceded formal adoption.",
+      "trigger": "specific_project",
+      "trigger_categories": [
+        "specific_project",
+        "water",
+        "grid_energy",
+        "infrastructure_capacity",
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23. Moratorium halts construction of all data centers (as a primary use) and accessory data centers with facility capacity greater than 2 megawatts, effective 2026-09-21 through 2027-01-19. City Attorney Dan Atchison based the moratorium on a compelling need to prevent public harm, citing the city's water supply risk from the impending deep drawdown of the Detroit Reservoir (serving roughly 220,000 water customers). The moratorium does not block Verrus's already-filed land use application for a 600,000-square-foot data center (filed late July 2026, before the moratorium), since Oregon law generally requires applications to be reviewed under rules in effect when filed, but the city attorney confirmed construction itself can be prohibited during the moratorium.",
+      "enacted_status": "active",
+      "affected_projects": "Verrus Group filed a land use application in late July 2026 for a roughly 600,000-square-foot data center in Salem; the application proceeds under pre-moratorium review rules, but the moratorium bars construction while it is in effect.",
+      "outcome": "City Council unanimously adopted a 120-day moratorium halting data center construction while the city develops permanent zoning and land-use regulations.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.statesmanjournal.com/story/news/local/2026/09/21/salem-unanimously-passes-moratorium-on-data-centers/91875871007/",
+          "title": "Salem City Council votes to place moratorium on data centers",
+          "publisher": "Statesman Journal",
+          "document_date": "2026-09-21",
+          "source_type": "news",
+          "supports": "Confirms the September 21, 2026 unanimous adoption, the moratorium's scope (all data centers as primary use, and accessory data centers over 2 MW), its term (through January 19, 2027, extendable up to 300 more days), and the water-supply rationale cited by the city attorney.",
+          "quote": "Salem City Council voted unanimously on Sept. 21 to place a moratorium on data centers in Salem. The moratorium begins immediately and lasts until Jan. 19, 2027. The state allows extensions of up to 300 days with additional findings. ... The moratorium applies to all data centers as a primary use and accessory data centers with facility capacity greater than two megawatts."
+        }
+      ],
+      "notes": "No jurisdiction disambiguation needed; Salem is not currently in the Oregon inventory. A secondary aggregator (kxl.com) misdated the vote as 'Monday, September 22'; September 22, 2026 is a Tuesday, while September 21, 2026 is a Monday, matching the Statesman Journal's dateline and internal day-of-week reference, which is treated here as authoritative."
+    },
+    {
+      "state": "Oregon",
+      "jurisdiction": "Woodburn",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-09-14 (City Council unanimous 6-0 vote)",
+      "date_enacted_iso": "2026-09-14",
+      "date_enacted_uncertainty": "exact",
+      "duration": "120 days from adoption (2026-09-14 to 2027-01-12); the City Manager stated the council could extend it to up to six months total.",
+      "duration_days": 120,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-01-12",
+      "legal_basis": "Moratorium ordinance adopted by the Woodburn City Council on 2026-09-14; the city filed the required 45-day notice of intent to consider a moratorium with the Oregon Department of Land Conservation and Development on 2026-07-30 before the council could act.",
+      "trigger": "specific_project",
+      "trigger_categories": [
+        "specific_project",
+        "regulatory_gap",
+        "grid_energy",
+        "water"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23. Moratorium prevents city planning staff from considering any new data center land-use application, effective 2026-09-14 through 2027-01-12. Adopted after the city learned that data center developer Verrus (which had separately applied to build in Salem, where its application drew significant public resistance) was exploring development of a data center on a 237-acre privately owned Southwest Industrial Reserve Area parcel brought into Woodburn's urban growth boundary in 2025; Woodburn had not received a formal application as of adoption. The city separately adopted an ordinance in June 2026 designating data centers as a conditional use in that industrial reserve area, and has hired a consultant (Thomas Consulting Group) to help review and potentially revise its development code for data centers.",
+      "enacted_status": "active",
+      "affected_projects": "No formal application received; city staff learned that data center developer Verrus was exploring a site 'in or near Woodburn,' including the 237-acre Southwest Industrial Reserve Area.",
+      "outcome": "City Council unanimously adopted a 120-day moratorium on considering new data center applications while the city reviews and potentially revises its development code.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.statesmanjournal.com/story/news/local/2026/09/15/woodburn-oregon-places-120-day-moratorium-on-new-data-centers-in-city/91765659007/",
+          "title": "Woodburn places 120-day moratorium on new data centers in city",
+          "publisher": "Statesman Journal",
+          "document_date": "2026-09-15",
+          "source_type": "news",
+          "supports": "Confirms the September 14, 2026 unanimous 6-0 Council vote, the moratorium's effect (bars consideration of new data center applications until after January 12, 2027), the July 30, 2026 DLCD notice requirement, the June 2026 conditional-use ordinance, and the Verrus developer-interest trigger.",
+          "quote": "Woodburn City Council on Sept. 14 voted to adopt a 120-day moratorium on considering an application for data centers. ... The city council's action, which came by a unanimous 6-0 vote, means the city's planning staff can't consider any applications put forth for a new data center until after Jan. 12, 2027."
+        },
+        {
+          "url": "https://katu.com/news/local/new-data-center-in-hillsboro-could-be-200-feet-away-from-high-school-portland-oregon-tech-controversy-environment-politics-local-community",
+          "title": "New data center in Hillsboro could be 200 feet away from high school",
+          "publisher": "KATU",
+          "document_date": "2026-08-24",
+          "source_type": "news",
+          "supports": "Independent contemporaneous confirmation that Woodburn had adopted a moratorium alongside Hillsboro and Salem, cited in coverage of the broader Oregon data-center moratorium wave.",
+          "quote": "Along with Hillsboro, Salem and Woodburn have adopted moratoriums as well."
+        }
+      ],
+      "notes": "No jurisdiction disambiguation needed; Woodburn is not currently in the Oregon inventory."
+    },
+    {
+      "state": "Oregon",
+      "jurisdiction": "Clackamas County",
+      "jurisdiction_type": "County",
+      "date_enacted": "",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed countywide moratorium on new data centers, intended by its sponsor (Commissioner Diana Helm) to last until the Oregon Legislature takes up the issue in its 2027 session. The Board of Commissioners voted unanimously on approximately 2026-08-04/08-05 to begin the formal process for a moratorium; Oregon law requires 45 days' notice to the Department of Land Conservation and Development before a public hearing on the proposed moratorium can be held. As of a September 15, 2026 news report, Clackamas County was still described as merely 'considering' a moratorium (alongside Salem, which adopted its own that month); no report of a final Board vote to adopt the moratorium was found as of 2026-09-23.",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "current_end_date_iso": "",
+      "legal_basis": "Board of Commissioners motion (approx. 2026-08-04/08-05) directing staff to begin the formal 45-day notice process required under Oregon law before adopting a data center moratorium; no ordinance number exists because the moratorium itself had not been adopted as of this pass.",
+      "trigger": "Commissioner Diana Helm reversed an earlier position welcoming data centers, citing conversations with people in the AI/data-center industry who recommended the county not allow them; commissioners cited a desire to act proactively (no land-use application for a new data center had been filed in the county, which has only one existing data center, operated by Siemens in Wilsonville) and cited Hillsboro's and Salem's moratoria as models.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "grid_energy",
+        "water"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Pending as of 2026-09-23. The Board of Commissioners voted unanimously in early August 2026 to start the formal process for a countywide data center moratorium; because Oregon law requires 45 days' notice to DLCD before a public hearing, the earliest possible adoption was not before roughly mid/late September 2026, and no report of a completed final vote was found as of this pass (a September 15, 2026 article still described the county as 'considering' the moratorium). No data center land-use application had been filed in the county as of this pass.",
+      "enacted_status": "pending",
+      "affected_projects": "None; county officials stated no land-use application for a data center had been filed, and the only existing data center in the county is operated by Siemens on its Wilsonville campus.",
+      "outcome": "Board of Commissioners voted unanimously to begin the formal process for a countywide data center moratorium; not yet adopted as of this pass.",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://www.opb.org/article/2026/08/05/clackamas-county-to-consider-data-center-moratorium/",
+          "title": "Clackamas County to consider data center moratorium",
+          "publisher": "Oregon Public Broadcasting",
+          "document_date": "2026-08-05",
+          "source_type": "news",
+          "supports": "Confirms Commissioner Diana Helm's reversal and stated goal of a moratorium lasting until the 2027 legislative session, that the commission indicated it would vote on a moratorium 'next week,' and that no land-use application for a data center had been filed in the county.",
+          "quote": "Helm said at Tuesday's meeting that it was her goal to enact a countywide moratorium on data centers to last until state lawmakers have a chance to take up the matter in the 2027 legislative session. ... During Tuesday's meeting, the commission indicated they will vote on a moratorium -- or a temporary prohibition on new data centers -- next week."
+        },
+        {
+          "url": "https://www.thecooldown.com/green-tech/clackamas-county-oregon-data-center-moratorium-process/",
+          "title": "Oregon county starts data center moratorium process, but 45-day gap leaves an opening",
+          "publisher": "The Cool Down (reporting on OregonLive)",
+          "document_date": "2026-08",
+          "source_type": "news",
+          "supports": "Confirms the Board of Commissioners voted unanimously to start the formal process, and that Oregon law requires 45 days' notice to the state before a public hearing on the moratorium can be held, meaning the pause could not take effect immediately.",
+          "quote": "According to OregonLive, the Clackamas County Board of Commissioners voted unanimously to start the formal process for a moratorium on data center applications. ... County officials must give the state 45 days' notice before a public hearing on the proposed moratorium can be held."
+        },
+        {
+          "url": "https://www.kptv.com/2026/09/15/woodburn-pauses-new-data-center-projects-120-days/",
+          "title": "Woodburn pauses new data center projects for 120 days",
+          "publisher": "KPTV",
+          "document_date": "2026-09-15",
+          "source_type": "news",
+          "supports": "As of September 15, 2026 -- roughly six weeks after the county began its 45-day notice process -- this contemporaneous report still described Clackamas County as merely 'considering' a moratorium, alongside Salem, which had not yet adopted its own moratorium at that point either.",
+          "quote": "Clackamas County and Salem are also considering moratoriums."
+        }
+      ],
+      "notes": "No jurisdiction disambiguation needed; Clackamas County is not currently in the Oregon inventory. Given Salem in fact adopted its moratorium six days after this September 15 report, it is plausible Clackamas County adopted its own moratorium shortly after this research pass (2026-09-23); the coordinator should re-check for a final Board vote before merge."
+    },
+    {
+      "state": "Oregon",
+      "jurisdiction": "Crook County",
+      "jurisdiction_type": "County",
+      "date_enacted": "",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed temporary moratorium on new commercial solar farm development (term not specified in captured sources). The Board of County Commissioners voted 2-1 (date not precisely established in captured sources, reported in late June 2026) to hold public meetings and prepare documents for a potential moratorium; officials said 'the ordinance could begin to take shape' by summer 2026. No report of a final adoption vote was found as of 2026-09-23.",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "current_end_date_iso": "",
+      "legal_basis": "Board of County Commissioners motion (2-1 vote, reported ~2026-06-30) directing staff to hold public meetings and prepare moratorium documents; no ordinance number exists because a moratorium had not been adopted as of this pass.",
+      "trigger": "Community concern over the pace and scale of new utility-scale solar development clustered along George Millican Road (south of Highway 126 near the Prineville Airport), including impacts on wildlife migration.",
+      "trigger_categories": [
+        "land_use_compatibility",
+        "environmental",
+        "agricultural_preservation"
+      ],
+      "sectors": [
+        "solar"
+      ],
+      "current_status": "Pending as of 2026-09-23. The Crook County (Oregon) Board of Commissioners voted 2-1 (reported in late June 2026) to begin the process toward a potential moratorium on new commercial solar farm development, directing staff to hold public meetings and prepare draft documents. County leaders indicated the ordinance could take shape by summer 2026, but no report of a final Board vote adopting a moratorium, nor any further update on the process, was found in this pass.",
+      "enacted_status": "pending",
+      "affected_projects": "None specifically named as blocked; existing solar farms are clustered along George Millican Road.",
+      "outcome": "Board of County Commissioners voted 2-1 to begin the process toward a potential moratorium on new commercial solar farm development; not yet adopted as of this pass.",
+      "confidence": 0.45,
+      "evidence": [
+        {
+          "url": "https://www.centraloregondaily.com/news/prineville/crook-county-moves-toward-halting-new-solar-farms/article_cbc945dc-f603-4c78-a3aa-66573029d393.html",
+          "title": "Crook County weighs moratorium on new solar farms",
+          "publisher": "Central Oregon Daily",
+          "document_date": "2026-06",
+          "source_type": "news",
+          "supports": "Confirms the 2-1 Board of Commissioners vote to hold public meetings and prepare documents toward a potential solar development moratorium, the George Millican Road solar cluster context, and that the ordinance could take shape by summer 2026.",
+          "quote": "The Crook County Board of Commissioners voted this week to hold public meetings and prepare documents for a potential moratorium. The measure passed 2-1. County leaders say the ordinance could begin to take shape this summer."
+        }
+      ],
+      "notes": "Confidence kept low (0.45, just above the merge-discard threshold) because only a single, brief news report was located, with no confirmation the moratorium was ever formally adopted. No jurisdiction disambiguation needed relative to the Oregon inventory: Crook County is not currently in it. CAUTION for the coordinator: an initial search also surfaced a September 17, 2026 'Crook County' solar-permit public-hearing legal notice that on closer inspection was for Crook County, WYOMING (Sundance, WY), not Crook County, Oregon (Prineville) -- a namesake collision. That evidence was discarded and is NOT cited here; do not conflate the two counties. Several low-quality aggregator/SEO sites (returnamexico.com, swanhurst.org, ymcatacoma.org, filios.org) also repeated this Oregon story without adding new facts and were not used as evidence."
+    }
+  ]
+}

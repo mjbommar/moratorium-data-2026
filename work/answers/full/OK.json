@@ -1,0 +1,464 @@
+{
+  "state_abbrev": "OK",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "ok-broken-arrow-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-07-31",
+          "to": "Active as of 2026-09-23; still running through at least Dec. 31, 2026 with no change adopted. City Manager Michael Spurgeon gave a public update at the Aug. 18, 2026 City Council meeting confirming the moratorium 'will remain in effect until at least Dec. 31, 2026' and announcing a new Data Center Study Committee (led by Deputy City Attorney James Walters) to draft the eventual ordinance. As of late August 2026, no data center proposal was imminent (an earlier 51-acre site's letter of intent expired unrenewed), and Spurgeon said he may seek Council approval to extend the moratorium another six months, but no extension had been adopted as of 2026-09-23.",
+          "reason": "Refreshes the 'as of' date with the most recent confirmation found (Aug. 18-19, 2026 City Council update and Aug. 26, 2026 Broken Arrow Sentinel report); no change to the moratorium's terms occurred, only a status update and possible future extension being contemplated."
+        }
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.pubt.io/view/3E74139A1C711171CD918E7F4BCA00946304A6A2",
+          "title": "City Council Highlights 8.18.2026",
+          "publisher": "City of Broken Arrow, OK (via Public Technologies)",
+          "document_date": "2026-08-19",
+          "source_type": "other",
+          "supports": "Official city council-meeting recap confirming the data center moratorium remains in effect until at least Dec. 31, 2026 and that a Data Center Study Committee was created.",
+          "quote": "At the City Council meeting, City Manager Michael Spurgeon provided an update on the data center moratorium, which will remain in effect until at least Dec. 31, 2026."
+        },
+        {
+          "url": "https://basentinel.com/broken-arrow-data-center-not-imminent-moratorium-could-be-extended/",
+          "title": "Broken Arrow: data center not imminent, moratorium could be extended",
+          "publisher": "Broken Arrow Sentinel",
+          "document_date": "2026-08-26",
+          "source_type": "news",
+          "supports": "Confirms the moratorium 'expires at year's end,' describes the lapsed 51-acre proposal, and reports Spurgeon may seek a further 6-month extension (not yet adopted).",
+          "quote": "The City Council approved a moratorium in June on any data center proposals that expires at year's end so city officials could investigate the impacts of large-scale data centers on local resources... It's conceivable that he may ask the City Council to extend the moratorium another 6 months."
+        },
+        {
+          "url": "https://library.municode.com/ok/broken_arrow/ordinances/code_of_ordinances?nodeId=1430664",
+          "title": "Ordinance No. 3929",
+          "publisher": "Broken Arrow, OK Municode Library",
+          "document_date": "2026-06-15",
+          "source_type": "ordinance",
+          "supports": "Confirms Ordinance No. 3929 is the codified data-center moratorium instrument, matching the existing legal_basis text.",
+          "quote": "AN ORDINANCE AMENDING APPENDIX A - ZONING ORDINANCE, CHAPTER 6 - CODE ADMINISTRATION, BY ADDING A NEW DIVISION 6-4, DATA CENTER MORATORIUM; DECLARING A TEMPORARY MORATORIUM ON THE ACCEPTANCE, PROCESSI[NG]..."
+        }
+      ],
+      "notes": "No extension has been formally adopted as of 2026-09-23; Spurgeon's comments about a possible 6-month extension are forward-looking, not yet enacted, so enacted_status remains 'active' rather than 'extended'."
+    },
+    {
+      "moratorium_id": "ok-edmond-2026",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "Edmond city ordinance/resolution adopted by unanimous council vote (ordinance number not located; Edmond's own AgendaCenter/site search did not surface the item).",
+          "to": "Ordinance No. 4091 (City of Edmond), adopted 6/8/26 by a 5-0 Council vote with an emergency clause; declares a moratorium until December 31, 2026 on rezoning requests and building permits for data centers, defined as AI-computing facilities contracting for 75 MW or more of electric load per facility or in aggregate behind a single point of interconnection.",
+          "reason": "Confirmed via the City of Edmond's own Municode ordinance page and the signed ordinance PDF hosted on the city's destinyhosted.com agenda portal, both primary sources; resolves the prior VERIFY marker."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31; runs through 2026-12-31. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23; runs through 2026-12-31 or the effective date of a duly-adopted data-center regulation, whichever is earlier, per Section 3 of Ordinance No. 4091. No amendment, extension, or repeal was found in city records or news coverage through 2026-09-23.",
+          "reason": "Resolves the VERIFY marker using the city's own Municode ordinance record (primary source, not news-only) and refreshes the 'as of' date; no substantive change to the moratorium's terms was found."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "resolution": "confirmed",
+          "note": "Ordinance No. 4091 confirmed via library.municode.com/ok/edmond (city's official Municode page, listing 'Ordinance No. 4091 uncodified, Adopted 6/8/26') and via the signed ordinance PDF at public.destinyhosted.com/edmondocs/2026/CC/20260608_31022/23121_Ordinance.pdf, both primary sources."
+        }
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://library.municode.com/ok/edmond/ordinances/code_of_ordinances?nodeId=1429000",
+          "title": "Ordinance No. 4091 | Code of Ordinances | Edmond, OK",
+          "publisher": "City of Edmond / Municode Library",
+          "document_date": "2026-06-08",
+          "source_type": "ordinance",
+          "supports": "Official Municode record confirming Ordinance No. 4091, adopted 6/8/26, is the data-center moratorium instrument.",
+          "quote": "Ordinance No. 4091 uncodified. Adopted 6/8/26. AN ORDINANCE DECLARING A MORATORIUM UNTIL DECEMBER 31, 2026 ON THE ACCEPTANCE OF APPLICATIONS FOR THE PROCESSING AND ISSUANCE OF REZONING REQUESTS AND BUILDING PERMITS..."
+        },
+        {
+          "url": "https://public.destinyhosted.com/edmondocs/2026/CC/20260608_31022/23121_Ordinance.pdf",
+          "title": "Ordinance No. 4091 (signed text)",
+          "publisher": "City of Edmond",
+          "document_date": "2026-06-08",
+          "source_type": "ordinance",
+          "supports": "Full ordinance text: 75 MW data-center definition, Dec. 31, 2026 expiration (or earlier adoption of regulations), appeals process, emergency clause.",
+          "quote": "This moratorium shall be effective immediately upon adoption of this ordinance and shall remain in full force and effect until December 31, 2026, or the effective date of an duly adopted regulations applicable to data centers, after which it shall automatically expire and be null and void..."
+        }
+      ],
+      "notes": "None."
+    },
+    {
+      "moratorium_id": "ok-luther-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-07-31 per the published ordinance text",
+          "to": "Active as of 2026-09-23. The June 17, 2026 ordinance originally paused new applications through Dec. 31, 2026 and separately paused approvals of the then-pending Beltline Energy application only through Sept. 1, 2026; at the same June 17 meeting the Board of Trustees amended the ordinance to extend the pause on approving existing/pending applications (including Beltline Energy) to match the Dec. 31, 2026 date, so both tracks now run through Dec. 31, 2026. No further extension, repeal, or replacement was found as of 2026-09-23; a Sept. 8, 2026 Luther Register News article still describes it as 'the six-month moratorium the board approved.'",
+          "reason": "Resolves an internal tension in the town's own published public notice, which set two different end dates (Dec. 31, 2026 for new applications; Sept. 1, 2026 for existing applications) in its original text, by adding KOSU's contemporaneous reporting that the Board amended the ordinance at the same meeting to apply the later Dec. 31, 2026 date to both tracks. Refreshes the 'as of' date; no change to enacted_status."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.kosu.org/luther-data-center-moratorium",
+          "title": "Luther joins growing list of Oklahoma communities with data center moratoriums",
+          "publisher": "KOSU",
+          "document_date": "2026-06-17",
+          "source_type": "news",
+          "supports": "Reports the Board of Trustees voted to enact the moratorium through Dec. 31, 2026 and then amended it at the same meeting to apply the same Dec. 31 date to existing/pending applications, including the Beltline Energy site.",
+          "quote": "The Luther trustees voted to enact a six-month moratorium on rezoning or permitting for new data center proposals, set to expire on Dec. 31. They amended the original ordinance to establish the same moratorium for existing proposals, including the Beltline Energy site. The law, as initially drafted, would have only paused consideration of pending applications until Sept. 1, or for roughly 90 days."
+        },
+        {
+          "url": "https://journalrecord.com/public-notice/search-detail?detail=4189468&indexgroup=business",
+          "title": "Town of Luther data-center moratorium ordinance (public notice)",
+          "publisher": "The Journal Record",
+          "document_date": "2026-06-25",
+          "source_type": "ordinance",
+          "supports": "Published text of the ordinance as noticed, showing the original Dec. 31, 2026 (new applications) / Sept. 1, 2026 (existing applications) dates and the June 17, 2026 passage date; the KOSU report above documents the same-meeting amendment reconciling the two dates.",
+          "quote": "A Moratorium until December 31, 2026, is hereby declared on the acceptance of new applications... A Moratorium until September 1, 2026, is hereby declared on the approval of existing applications... PASSED AND APPROVED and the Emergency Clause ruled upon separately this 17th day of June, 2026."
+        },
+        {
+          "url": "https://111things.com/local-headlines/luther-seeks-environmental-review-as-proposed-data-center-project-faces-new-town-restrictions/",
+          "title": "Luther seeks environmental review as proposed data-center project faces new town restrictions",
+          "publisher": "111things.com (Interactive News, aggregating APA/Journal Record/Luther Register News/KOSU)",
+          "document_date": "2026-08",
+          "source_type": "news",
+          "supports": "Independent confirmation that Luther's moratorium on new applications runs through Dec. 31, 2026, and that the town was pursuing an environmental review of the Beltline Energy site through November 2026, consistent with the pause remaining in force.",
+          "quote": "A published town ordinance declares a moratorium through December 31, 2026, on accepting new applications for properties proposed for data-center use... The ordinance separately places a moratorium on approvals for existing applications through September 1, 2026. The action is a temporary regulatory pause, not a final rejection of the proposed project."
+        },
+        {
+          "url": "https://lutherregister.news/2026/09/08/open-seat-on-the-luther-board-of-trustees/",
+          "title": "Open Seat on the Luther Board of Trustees",
+          "publisher": "Luther Register News",
+          "document_date": "2026-09-08",
+          "source_type": "news",
+          "supports": "Late-breaking (Sept. 8, 2026) confirmation that the moratorium remains understood locally as in force, describing it as 'the six-month moratorium the board approved.'",
+          "quote": "The proposed data center sparked months of community conversation, including a six-month moratorium the board approved during..."
+        }
+      ],
+      "notes": "The town's own published public-notice ordinance text (journalrecord.com) sets two different dates for the two tracks it covers, one of which (Sept. 1, 2026) has since passed; KOSU's June 17 reporting on the same Board of Trustees meeting is the basis for treating both tracks as extended to Dec. 31, 2026. No primary adopted-ordinance PDF (post-amendment, signed) was located to independently confirm the amendment language verbatim, so confidence is held at 0.85 rather than higher."
+    },
+    {
+      "moratorium_id": "ok-norman-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-07-31",
+          "to": "Active as of 2026-09-23; runs through June 9, 2027 or the effective date of new data-center zoning regulations, whichever is earlier, per Ordinance No. O-2526-70. No amendment, extension, or repeal was found in city records or news coverage through 2026-09-23.",
+          "reason": "Confirms via the adopted ordinance PDF (City of Norman's meeting-documents host) that the moratorium's terms match the existing record exactly; refreshes the 'as of' date."
+        }
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/normanok-meet-72426e3e5b8c42009e3aeaac17771ca8/ITEM-Attachment-001-093cd31f987e49a2b5c00ab7b9dace53.pdf",
+          "title": "Ordinance No. O-2526-70",
+          "publisher": "City of Norman",
+          "document_date": "2026-06-23",
+          "source_type": "ordinance",
+          "supports": "Full ordinance text confirming the June 9, 2027 expiration date, the 250,000 gallons/day evaporative-cooling threshold, and the emergency clause.",
+          "quote": "A Moratorium until June 9, 2027, is hereby declared on the acceptance, processing, and approval of applications for rezonings, administrative approvals, permits, and building permits that would authorize the construction, expansion, or operation of a data center utilizing an evaporative cooling system projected to consume more than 250,000 gallons of potable water per day."
+        },
+        {
+          "url": "https://www.kgou.org/politics-and-government/2026-06-25/norman-city-council-enacts-data-center-moratorium",
+          "title": "Norman City Council enacts data center moratorium",
+          "publisher": "KGOU",
+          "document_date": "2026-06-25",
+          "source_type": "news",
+          "supports": "Confirms the unanimous June 23, 2026 vote and that no data-center proposal was pending in Norman at adoption.",
+          "quote": "On Tuesday evening, the Norman City Council voted unanimously to enact a moratorium on the approval of permits for data centers within city limits... Norman joins multiple cities across Oklahoma, including most recently Luther and Broken Arrow, to enact data center moratoriums."
+        }
+      ],
+      "notes": "None."
+    },
+    {
+      "moratorium_id": "ok-oklahoma-city-2026",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "Emergency ordinance introduced and adopted unanimously by City Council on 2026-04-21 as Council Agenda Item XI.U; amended 2026-05-19 by a 7-2 Council vote to add a 75 MW threshold and named facility exemptions. The assigned ordinance number(s) could not be confirmed via a primary source actually accessed in this pass — direct attempts to reach library.municode.com/ok/oklahoma_city and okc.gov's ordinance PDF both returned HTTP 403 [VERIFY assigned ordinance number(s) from the Office of the City Clerk for both the original 2026-04-21 ordinance and the 2026-05-19 amendment]",
+          "to": "Ordinance No. 28,071 (City of Oklahoma City), introduced, read, and passed with emergency on 2026-04-21 (Council Agenda Item XI.U), signed by the Mayor the same day; exempts pending rezoning applications PUD-2105 and PUD-2124. Amended 2026-05-19 by a 7-2 Council vote (per a City Manager memo amending Ordinance No. 28,071, adding a Section 7 definition limiting the moratorium to data centers with net-new electrical loads greater than 75 MW and a further exemption for the proposed project at 7725 N. Reno Ave. conditioned on potable-water use being limited to domestic/irrigation/fire-protection purposes); the specific ordinance number assigned to the May 19, 2026 amendment itself was not located.",
+          "reason": "Ordinance No. 28,071 and its adoption/amendment details are confirmed by a City Council agenda-packet PDF (containing the signed, dated original ordinance text plus the May 19, 2026 City Manager's amendment memorandum), a primary source, resolving the prior VERIFY marker for the original ordinance number. The specific number of the amending ordinance itself remains unconfirmed."
+        },
+        "current_status": {
+          "from": "Active, as amended. On 2026-05-19, City Council voted 7-2 to amend the moratorium to allow data centers using up to 75 megawatts of electricity to apply for zoning and construction permits, and carved out two named exemptions: the Scale Datacenters facility on the Expand Energy (formerly Chesapeake) campus (serving Cerebras AI), and the Rack59 Data Center at 7725 W. Reno Ave. As of the most recent reporting reviewed (dated 2026-06-25), no comprehensive data-center zoning use-unit had been adopted, so the underlying moratorium (through 2026-12-31 or earlier zoning adoption) remains in force. No source dated in July 2026 was located to independently confirm currency as of 2026-07-31.",
+          "to": "Active, as amended, as of 2026-09-23; runs through Dec. 31, 2026 or the effective date of new data-center zoning-code amendments, whichever is earlier (Ordinance No. 28,071, Section 4). The May 19, 2026 amendment (7-2 vote) limited the moratorium to data centers with net-new electrical loads over 75 MW and added exemptions for the Expand Energy campus facility (serving Cerebras AI) and a facility at 7725 N. Reno Ave. No comprehensive data-center zoning use-unit had been adopted as of 2026-09-23 in any source reviewed in this pass, so the moratorium (as amended) remains in force; no further amendment or repeal was found.",
+          "reason": "Refreshes the 'as of' date to 2026-09-23 using the ordinance's own text plus the May 19 amendment memo (primary sources); no comprehensive zoning replacement was found in searches through September 2026, so the pause continues under its original Dec. 31, 2026 end date."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY assigned ordinance number(s) from the Office of the City Clerk for both the original 2026-04-21 ordinance and the 2026-05-19 amendment]",
+          "resolution": "corrected",
+          "note": "The original ordinance number, 28,071, is confirmed via a City Council agenda packet PDF containing the signed ordinance text ('ORDINANCE NO. 28.071', published in The Journal Record April 22, 2026) plus the City Manager's 5/19/2026 memo referring to 'amending Ordinance No. 28,071.' The specific ordinance number assigned to the May 19, 2026 amendment itself was not located in this pass (Municode's 2026 Oklahoma City ordinances listing did not surface it directly), so that narrower part of the marker remains open; marked 'corrected' because the more important original-ordinance-number gap is now filled."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/normanok-meet-93d3b31223804fc4803505685c728db2/ITEM-Attachment-001-f8b815b5a3914095ad34820661bee242.pdf",
+          "title": "Ordinance No. 28,071 and May 19, 2026 amendment memorandum (City Council agenda packet)",
+          "publisher": "City of Oklahoma City",
+          "document_date": "2026-04-21",
+          "source_type": "ordinance",
+          "supports": "Signed text of Ordinance No. 28,071 (adopted/signed April 21, 2026, published in The Journal Record April 22, 2026) and the City Manager's May 19, 2026 memo describing the amendment's substance (75 MW threshold, 7725 N. Reno Ave. exemption).",
+          "quote": "ORDINANCE NO. 28.071 ... ORDINANCE DECLARING A MORATORIUM UNTIL DECEMBER 31, 2026, ON THE ACCEPTANCE OF NEW APPLICATIONS FOR PROCESSING OF AND ISSUANCE OF REZONING REQUESTS AND PERMITS... Ordinance No. 28,071 was adopted with an emergency on April 21, 2026... Version 1 clarifies that the moratorium is intended to address data centers with net new electrical loads of greater than 75MW..."
+        },
+        {
+          "url": "https://www.okc.gov/News-articles/Oklahoma-City-Council-approves-moratorium-on-new-data-centers",
+          "title": "Oklahoma City Council approves moratorium on new data centers",
+          "publisher": "City of OKC",
+          "document_date": "2026-04-21",
+          "source_type": "other",
+          "supports": "City's own press release confirming the unanimous April 21, 2026 adoption and Dec. 31, 2026 (or earlier zoning adoption) end date.",
+          "quote": "The Oklahoma City Council today unanimously approved a temporary moratorium on new data centers within city limits... The moratorium takes effect immediately and will remain in place until either December 31, 2026, or earlier if amendments to the City's Zoning..."
+        },
+        {
+          "url": "https://111things.com/local-headlines/okc-keeps-data-center-moratorium-adds-two-project-exemptions/",
+          "title": "OKC keeps data-center moratorium, adds two project exemptions",
+          "publisher": "111things.com (Interactive News, aggregating City of OKC / KOSU)",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "September 2026 summary confirming the moratorium (as amended May 19, 2026) remains the operative rule through Dec. 31, 2026 with no comprehensive zoning replacement yet adopted.",
+          "quote": "Oklahoma City will continue pausing most new data-center applications and permits through the end of 2026, but selected projects can move forward after the City Council added two exemptions to its temporary moratorium... Until then, the moratorium remains the default rule for new data-center activity inside the city."
+        }
+      ],
+      "notes": "The agenda-packet PDF gives the exempted May 19 amendment address as '7725 N. Reno Ave.'; the existing inventory record (from an earlier pass) describes the same Rack59 exemption as '7725 W. Reno Ave.' This is a minor address-direction discrepancy between sources that was not independently resolved with a third source in this pass; left the current_status text as previously recorded ('7725 W. Reno Ave.') rather than override it on a single primary-source PDF that may itself contain a typo, and flagging it here for a future pass to check against the City Clerk's assigned amendment ordinance number."
+    },
+    {
+      "moratorium_id": "ok-pawhuska-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active",
+          "to": "Active as of 2026-09-23; runs through Dec. 31, 2026 or earlier adoption of data-center regulations. The pause halted the proposed Buckley Bros Holdings conversion of a vacant 200,000-sq-ft carpet mill into an 8-10 MW AI data center; as of an Aug. 31, 2026 status check, 'no progress on the project can begin... until January 2027' and no relocation announcement had been made. No amendment, extension, or repeal was found in news coverage through 2026-09-23.",
+          "reason": "Refreshes the 'as of' date with the most recent confirmation found (a News on 6 status page updated through Aug. 31, 2026) and a September 2026 statewide roundup (cantrellfirm.com) both describing the moratorium as still running through Dec. 31, 2026; no change to the moratorium's terms was found."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.newson6.com/data-centers-in-oklahoma/pawhuska-data-center-oklahoma",
+          "title": "What to Know: Pawhuska Data Center",
+          "publisher": "News on 6",
+          "document_date": "2026-08-31",
+          "source_type": "news",
+          "supports": "Confirms the moratorium runs through Dec. 31, 2026 and that the Buckley Bros Holdings project remains paused with no progress possible until January 2027.",
+          "quote": "City leaders discussed the proposal, but Pawhuska's Public Works Authority voted 3-2 earlier this month for a full moratorium through December 31 of 2026... With the moratorium in effect, no progress on the project can begin on the project until January 2027."
+        },
+        {
+          "url": "https://cantrellfirm.com/blog/data-center-notice-adjacent-landowners-oklahoma/",
+          "title": "A Data Center Bought the Land Next Door. Now What?",
+          "publisher": "Cantrell Law Firm",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "September 2026 statewide roundup listing Pawhuska's moratorium (Apr. 2026 to Dec. 31, 2026) as still current, and noting it followed the Public Works Authority's declining a utility load guarantee for the proposed 10 MW conversion.",
+          "quote": "Pawhuska | Full pause on data center consideration, adopted after the Public Works Authority declined a utility load guarantee for a proposed 10 megawatt conversion project. | Apr 2026 | Dec 31, 2026"
+        }
+      ],
+      "notes": "News on 6 attributes the vote to Pawhuska's Public Works Authority (3-2) rather than describing a full City Council vote on the resolution; this is consistent with, not contradictory to, the existing 'Resolution 2026-04-01' legal_basis, which was not independently re-verified against a primary ordinance/resolution text in this pass."
+    },
+    {
+      "moratorium_id": "ok-tulsa-2026",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "Tulsa City Council File/Ordinance No. 26-196 (final substitute version \"26-196-3\"), confirmed via direct review of the City of Tulsa's CouncilDocuments records: reviewed by the Urban Development committee and Council on 2026-03-11, and by the Budget/Special Projects committee and Council on 2026-03-25 (adoption). The city's own record title reads \"Ordinance declaring a 365-day Moratorium,\" in tension with news reporting (Tulsa Flyer) describing the final passed duration as 9 months; this discrepancy was not resolved with a directly-opened primary text of the signed ordinance in this pass.",
+          "to": "Tulsa City Council File/Ordinance No. 26-196 (final substitute version \"26-196-3\"), reviewed by the Urban Development committee and Council on 2026-03-11 and adopted by the Budget/Special Projects committee and Council on 2026-03-25. A redlined draft of the ordinance (marked 'JCB 3/25/26') shows the bill's caption and Section 4 term were amended from a flat '365-DAY' moratorium to a fixed expiration of 'December 31, 2026, or on the effective date of an ordinance amending data center regulations..., whichever is earlier'; the amendment also renumbered sections to add a Section 4 '60-DAY REPORTS' requirement for the Planning Office. This resolves the tension between the city's caption text and Tulsa Flyer's '9 months' reporting: the final adopted term is the Dec. 31, 2026 calendar date, not a literal 365-day count from adoption.",
+          "reason": "A City Council agenda-packet PDF containing the redlined draft ordinance (tracked changes showing '365-DAY' struck through and replaced with the Dec. 31, 2026 date) is a primary source that resolves the discrepancy the prior pass flagged but could not resolve."
+        },
+        "current_status": {
+          "from": "Active",
+          "to": "Active as of 2026-09-23; runs through Dec. 31, 2026 (the term as actually adopted, notwithstanding the ordinance's '365-day' caption -- see legal_basis) or the effective date of new data-center zoning regulations, whichever is earlier. An Aug. 24, 2026 Tulsa Flyer report confirms the moratorium 'went into effect March 25 and expires Dec. 31,' that the Planning Office's first 60-day report has been produced and recommends reclassifying data centers by square footage and widening setbacks from 250 to 1,500 feet, and that final zoning recommendations are due to Council in November 2026, after which Council could adopt them or extend the moratorium. No extension or repeal had occurred as of 2026-09-23.",
+          "reason": "Refreshes the 'as of' date and resolves the duration ambiguity using the primary redlined-ordinance source plus contemporaneous news describing the review's progress; no change to enacted_status."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/normanok-meet-93d3b31223804fc4803505685c728db2/ITEM-Attachment-001-f8b815b5a3914095ad34820661bee242.pdf",
+          "title": "Redlined draft Ordinance declaring a data center moratorium (Tulsa TR 2026-38 agenda packet)",
+          "publisher": "City of Tulsa",
+          "document_date": "2026-03-25",
+          "source_type": "ordinance",
+          "supports": "Shows the tracked-changes edit from a '365-DAY' moratorium caption to a fixed Dec. 31, 2026 expiration date in Section 4 (Effective Dates), resolving the '365-day vs. 9-month' discrepancy; also documents the Project Anthem Phase 1 and Phase 2 (zoning case Z-7851) exemptions and the 60-day Planning Office reporting requirement.",
+          "quote": "AN ORDINANCE DECLARING A 365-DA¥—MORATORIUM UNTIL DECEMBER 31, 2026, ON THE ACCEPTANCE OF APPLICATIONS FOR... Section 4[5]. EFFECTIVE DATES. This Moratorium shall become effective immediately upon its adoption... and shall remain in full force and effect through March 1[1]December 31, 202[7]6, or on the effective date of an ordinance amending data center regulations..."
+        },
+        {
+          "url": "https://tulsaflyer.org/2026/08/24/government/post/tulsa-pause-data-centers-expires-this-year/",
+          "title": "Tulsa's pause on data centers expires this year. What's next?",
+          "publisher": "Tulsa Flyer",
+          "document_date": "2026-08-24",
+          "source_type": "news",
+          "supports": "Confirms the moratorium 'went into effect March 25 and expires Dec. 31,' describes the Planning Office's first 60-day report and recommendations, and notes final zoning recommendations are due to Council in November 2026.",
+          "quote": "The moratorium went into effect March 25 and expires Dec. 31. It followed community backlash to Project Anthem, a $1 billion, 340-acre data center being developed by Meta in east Tulsa... The final zoning recommendations are due in November, which will go to the full council for review. The council could then adopt the recommendations or possibly extend the moratorium, if more research is needed."
+        },
+        {
+          "url": "https://cantrellfirm.com/blog/data-center-notice-adjacent-landowners-oklahoma/",
+          "title": "A Data Center Bought the Land Next Door. Now What?",
+          "publisher": "Cantrell Law Firm",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Independently corroborates that the adopted term was 'roughly 270 days, cut down from a proposed 365,' consistent with a March 25 to Dec. 31, 2026 span rather than a literal 365-day count.",
+          "quote": "Tulsa | Pause on new data center permits, roughly 270 days, cut down from a proposed 365. Both phases of Project Anthem exempt. Planning office reports to council every 60 days. | Mar 25, 2026 | Dec 31, 2026"
+        }
+      ],
+      "notes": "The redlined PDF is a tracked-changes draft rather than the final clean signed ordinance, but its edits are unambiguous and are corroborated by two independent secondary sources describing the same ~270-day / Dec. 31, 2026 term, so confidence is held at 0.85 rather than higher pending a clean signed copy."
+    },
+    {
+      "moratorium_id": "ok-seminole-nation-of-oklahoma-2026",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "Tribal Council resolution [resolution number needed]",
+          "to": "General Council of the Seminole Nation of Oklahoma, Tribal Resolution TR 2026-38, 'A Verbal Resolution... Implementing a Moratorium on the Advancement of Generative Artificial Intelligence Technology and Hyperscale Data Center Development within the Jurisdiction of the Seminole Nation of Oklahoma,' passed and approved at Mekusukey Mission on March 7, 2026 by a vote of 24 Yes, 0 No, 0 Abstaining (quorum of 15 present).",
+          "reason": "The full signed resolution text (TR 2026-38), including its vote tally and adoption details, was located in a City of Norman public agenda-packet PDF that had captured it as a reference document; this is a primary source (the resolution's own certified text) that fills the resolution-number gap the prior pass flagged."
+        },
+        "current_status": {
+          "from": "Active per Native News Online and Honor the Earth statements; no captured Tribal Council action rescinding or amending the 2026-03-07 resolution as of 2026-04-29 [VERIFY: no public Tribal Council minutes posted on Seminole Nation website]",
+          "to": "Active as of 2026-09-23. TR 2026-38 bars 'any inquiries, discussions, and/or developments concerning any entity seeking to develop a data center of any size within the Seminole Nation... during the moratorium period,' with no stated end date (open-ended by design, per KGOU/KOSU reporting on the resolution's drafting history). Multiple independent sources through Aug. 20, 2026 (KOSU, Turtle Talk blog, Current Tribal Law) continue to describe the moratorium as in force, with no rescission, amendment, or replacement framework identified as of 2026-09-23. No Tribal Council minutes confirming continued force were located on the Seminole Nation's own website in this pass either.",
+          "reason": "Adds the full certified resolution text (primary source) and several independent secondary sources spanning June-August 2026 that continue to describe the moratorium as active, substantially strengthening the confirmation the prior VERIFY marker sought, though a Tribal Council minutes record was still not found."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no public Tribal Council minutes posted on Seminole Nation website]",
+          "resolution": "still_unverifiable",
+          "note": "sno-nsn.gov was checked again via search; no posted Tribal/General Council minutes discussing the data-center moratorium were located. However, the resolution's own certified text (TR 2026-38) was found, and independent reporting through Aug. 20, 2026 (KOSU 'Tribes navigate data center boom in Oklahoma,' turtletalk.blog 'Data Centers in Indian Country') continues to describe the moratorium as in force with no reported rescission, so confidence in 'still active' is now higher even though the narrow marker (absence of posted minutes) remains true."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/normanok-meet-93d3b31223804fc4803505685c728db2/ITEM-Attachment-001-f8b815b5a3914095ad34820661bee242.pdf",
+          "title": "TR 2026-38, A Verbal Resolution of the General Council of the Seminole Nation of Oklahoma",
+          "publisher": "Seminole Nation of Oklahoma",
+          "document_date": "2026-03-07",
+          "source_type": "resolution",
+          "supports": "Full certified resolution text and vote tally (24-0-0) establishing the moratorium's scope (advancement of generative AI technology and hyperscale data center development) and its open-ended 'moratorium period' language.",
+          "quote": "NOW THEREFORE BE IT RESOLVED THAT, the General Council of the Seminole Nation of Oklahoma does hereby implement a moratorium on the advancement of generative Artificial Intelligence (AI) technology and hyperscale data center development within the jurisdiction of the Seminole Nation of Oklahoma including but not limited to its tribal lands and territories... FURTHER RESOLVED, that any inquiries, discussions, and/or developments concerning any entity seeking to develop a data center of any size within the Seminole Nation are barred during the moratorium period. PASSED AND APPROVED... this 7th day of March 2026... by a vote of 24 Yes, 0 No, 0 Abstaining."
+        },
+        {
+          "url": "https://turtletalk.blog/2026/08/20/data-centers-in-indian-country/",
+          "title": "Data Centers in Indian Country",
+          "publisher": "Turtle Talk (Indian Law blog)",
+          "document_date": "2026-08-20",
+          "source_type": "news",
+          "supports": "Aug. 20, 2026 survey of tribal data-center policy still lists the Seminole Nation's March 7, 2026 moratorium as current, quoting the same resolution language.",
+          "quote": "Seminole Nation of Oklahoma: On March 7, 2026, the Tribal Council unanimously voted for a moratorium on generative-AI and hyperscale data center development within its jurisdiction. The resolution also bars 'any inquiries, discussions and/or developments concerning any entity seeking to develop a data center of any size within the Seminole Nation during the moratorium period.'"
+        },
+        {
+          "url": "https://www.kosu.org/show/stateimpact-oklahoma/2026-06-25/as-data-centers-eye-oklahoma-tribes-weigh-the-costs",
+          "title": "Tribes navigate data center boom in Oklahoma",
+          "publisher": "KOSU",
+          "document_date": "2026-06-25",
+          "source_type": "news",
+          "supports": "June 25, 2026 reporting describing the Seminole Nation as one of the first tribal governments in the country to ban AI data centers on the reservation, with no indication of rescission.",
+          "quote": "In March, the Seminole Nation of Oklahoma became one of the first tribal governments in the country to ban AI data centers on the reservation."
+        }
+      ],
+      "notes": "Confidence held at 0.85 (not higher) because no Tribal Council minutes or a Seminole Nation government web page directly confirming continued force as of September 2026 was located; the confirmation rests on the resolution's own certified text plus independent journalism through Aug. 20, 2026."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Oklahoma",
+      "jurisdiction": "Choctaw",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-07-21, Choctaw City Council, 6-1 vote (Councilman Cody Brewer dissenting on principle, not disagreement); accompanying emergency clause passed 6-1 (Councilman Brent Pendergraft dissenting)",
+      "date_enacted_iso": "2026-07-21",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months from the July 21, 2026 adoption date",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-07-21",
+      "legal_basis": "Choctaw City Council ordinance/resolution (specific instrument number not located in captured coverage), imposing a 12-month moratorium on accepting data center applications within city limits, adopted with an accompanying emergency clause making it effective immediately",
+      "trigger": "Preemptive pause; no data center had submitted plans to build in Choctaw at adoption. Council discussed drafting an outright ban on data centers but opted for a one-year pause to evaluate possible further restrictions instead.",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. 12-month moratorium adopted July 21, 2026, running through approximately July 21, 2027, while the city studies future data-center regulation; no developer had submitted plans in Choctaw at adoption or as of this pass.",
+      "enacted_status": "active",
+      "affected_projects": "None; no data centers had submitted plans to build in Choctaw as of adoption.",
+      "outcome": "Choctaw City Council approved a 12-month moratorium on data centers within city limits after discussing, and rejecting in favor of the pause, a proposed outright ban.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.centraloklahomaweeklies.com/2026/07/30/city-puts-moratorium-on-data-centers/",
+          "title": "City puts moratorium on data centers",
+          "publisher": "Choctaw Times / Central Oklahoma Weeklies",
+          "document_date": "2026-07-30",
+          "source_type": "news",
+          "supports": "Reports the July 21, 2026 City Council vote (6-1) adopting a 12-month moratorium, the accompanying emergency clause vote (6-1), and direct quotes from Councilman Brewer, Councilman Pendergraft, and Mayor Chad Allcox.",
+          "quote": "Choctaw City Council approved a 12-month moratorium on data centers within the city limits July 21 allowing city leaders time to evaluate possible further restrictions on the construction of data centers... Both agenda items passed meaning the moratorium went into effect immediately."
+        },
+        {
+          "url": "https://cantrellfirm.com/blog/data-center-notice-adjacent-landowners-oklahoma/",
+          "title": "A Data Center Bought the Land Next Door. Now What?",
+          "publisher": "Cantrell Law Firm",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Independent September 2026 roundup corroborating the July 21, 2026 adoption date and July 2027 expiration, and expressly distinguishing this Choctaw (Oklahoma County) from the unrelated Choctaw County in southeast Oklahoma.",
+          "quote": "Choctaw (Oklahoma County) | Twelve month pause on accepting data center applications. Council discussed an outright ban and chose the pause instead. No data center had submitted plans in the city... | Jul 21, 2026 | Jul 2027"
+        }
+      ],
+      "notes": "The City of Choctaw (Oklahoma County, in the OKC metro) should not be confused with Choctaw County (a separate county government roughly 200 miles southeast); no Choctaw County moratorium was found. No primary ordinance/resolution PDF was located in this pass, so confidence is held at 0.8 on two independent, detailed news sources rather than higher."
+    },
+    {
+      "state": "Oklahoma",
+      "jurisdiction": "Shawnee",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-08-17 (Monday), Shawnee City Commission, unanimous 7-0 vote; resolution sponsored by Commissioner Chris Odneal",
+      "date_enacted_iso": "2026-08-17",
+      "date_enacted_uncertainty": "exact",
+      "duration": "From adoption through December 31, 2027",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "current_end_date_iso": "2027-12-31",
+      "legal_basis": "Shawnee City Commission resolution (specific resolution/instrument number not located in captured coverage), sponsored by Commissioner Chris Odneal, freezing new data center applications through Dec. 31, 2027",
+      "trigger": "Preemptive pause to allow city staff to study how large-scale data centers might strain local power and water systems, and to update city regulations, before accepting new proposals; city staff had initially estimated a 90-day study period would suffice, but Commissioners opted for a longer runway through the end of 2027. Discussions ahead of the vote also touched on land-use questions involving the Citizen Potawatomi Nation, whose tribal headquarters are in Shawnee.",
+      "trigger_categories": ["regulatory_gap", "infrastructure_capacity", "grid_energy", "water"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. Moratorium adopted Aug. 17, 2026 on a unanimous 7-0 vote, effective immediately, freezing new data-center applications through Dec. 31, 2027; does not affect any data center projects already operating or under construction in Shawnee. Staff committed to reporting findings within 90 days of adoption.",
+      "enacted_status": "active",
+      "affected_projects": "None named; no current applications were pending at adoption. Applies only to new applications going forward, not to any existing operating or under-construction projects.",
+      "outcome": "Shawnee City Commission adopted a moratorium freezing new data center applications through the end of 2027, directing staff to study power and water impacts and update city regulations before the pause lifts.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://hoodline.com/2026/08/shawnee-freezes-new-data-center-deals-through-2027-in-7-0-vote/",
+          "title": "Shawnee Freezes New Data Center Deals Through 2027 in 7-0 Vote",
+          "publisher": "Hoodline",
+          "document_date": "2026-08",
+          "source_type": "news",
+          "supports": "Reports the unanimous 7-0 vote, the sponsor (Commissioner Chris Odneal), the Dec. 31, 2027 end date, the extension from an initially proposed 90-day study period, and that the pause does not affect existing/under-construction projects.",
+          "quote": "Shawnee city commissioners voted 7-0 on Monday to freeze new data center applications through the end of 2027... The measure was sponsored by Commissioner Chris Odneal... City staff had initially estimated a 90-day study period would be enough, but commissioners opted for a much longer runway, pushing the pause out to December 31, 2027..."
+        },
+        {
+          "url": "https://www.news9.com/data-centers-in-oklahoma/shawnee-approves-temporary-moratorium-on-new-data-centers",
+          "title": "Shawnee approves temporary moratorium on new data centers",
+          "publisher": "News 9",
+          "document_date": "2026-08",
+          "source_type": "news",
+          "supports": "Independent corroboration of the moratorium taking effect immediately and running through the end of 2027.",
+          "quote": "The city of Shawnee has approved a temporary moratorium on new data centers, putting new proposals on hold through the end of 2027... The moratorium takes effect immediately and will remain in place through the end of 2027."
+        },
+        {
+          "url": "https://mytownview.com/oklahoma/pottawatomie/shawnee/meetings/20675-commission-meeting-city-of-shawnee-oklahoma-2026-08-17",
+          "title": "Commission Meeting City of Shawnee, Oklahoma - Aug 17, 2026",
+          "publisher": "MyTownView (meeting-summary aggregator)",
+          "document_date": "2026-08-17",
+          "source_type": "minutes",
+          "supports": "Confirms the exact Aug. 17, 2026 meeting date, the unanimous 7-0 vote, the resolution's sponsor, and staff's commitment to report findings within 90 days.",
+          "quote": "The board approved a temporary moratorium on data centers until December 31, 2027, following public comment from residents concerned about utility impacts and the need for a public vote. The resolution, brought by Commissioner O'Neal, was supported by staff noting pending studies and no current applications, with a commitment to report findings within 90 days. The vote was unanimous at 7-0."
+        }
+      ],
+      "notes": "No primary resolution/ordinance PDF was located in this pass; relying on three independent secondary sources (two news outlets plus a meeting-summary aggregator) that agree on the date, vote, and term. duration_days left null because the term is expressed as a fixed calendar end date (Dec. 31, 2027) rather than a day count from adoption."
+    }
+  ]
+}

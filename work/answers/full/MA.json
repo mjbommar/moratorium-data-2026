@@ -1,0 +1,368 @@
+{
+  "state_abbrev": "MA",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "ma-gill-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "jurisdiction": {
+          "from": "Gill (proposal, not enacted as of 2026-04-29)",
+          "to": "Gill",
+          "reason": "The proposal was adopted at the May 4, 2026 Annual Town Meeting; the parenthetical no longer applies."
+        },
+        "date_enacted": {
+          "from": "Not enacted; Annual Town Meeting scheduled 2026-05-04",
+          "to": "2026-05-04, Gill Annual Town Meeting (Part 1), Article 7, approved unanimously",
+          "reason": "Greenfield Recorder's May 5, 2026 town-meeting report and the Town of Gill's own Summer 2026 newsletter both confirm Article 7 (the BESS/data-center moratorium) passed unanimously at the May 4, 2026 Annual Town Meeting."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-05-04",
+          "reason": "Confirmed adoption date from the primary town warrant/newsletter and contemporaneous news coverage."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "The adoption date is stated explicitly in the town's own newsletter and in the adopted bylaw text (\"in effect starting on May 4, 2026, upon adoption at Town Meeting\")."
+        },
+        "duration": {
+          "from": "Proposed 2026-05-04 to 2027-05-03, if adopted",
+          "to": "One-year moratorium in effect May 4, 2026 through May 3, 2027 (or earlier, if superseding zoning regulations are adopted first), covering Building-Integrated Energy Storage Systems (BESS) with an aggregate capacity of 50 kWh or more, and Data Centers.",
+          "reason": "Exact text of adopted Section 18 (\"The moratorium will be in effect starting on May 4, 2026, upon adoption at Town Meeting. The moratorium will be in place until May 3, 2027...\") confirms the proposed term was adopted as written."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-05-03",
+          "reason": "Adopted Section 18 states the moratorium \"will be in place until May 3, 2027.\""
+        },
+        "legal_basis": {
+          "from": "Proposed Section 18, Building-Integrated Energy Storage Systems (BESS) and Data Centers",
+          "to": "Gill Zoning Bylaws Section 18, Building-Integrated Energy Storage Systems (BESS) and Data Centers, adopted as Article 7 of the May 4, 2026 Annual Town Meeting warrant (Part 1)",
+          "reason": "Confirms the bylaw section was actually adopted, not merely proposed."
+        },
+        "current_status": {
+          "from": "Proposed",
+          "to": "Active as of 2026-09-23. Adopted unanimously as Article 7 at the May 4, 2026 Annual Town Meeting (Part 1), establishing a one-year moratorium on Building-Integrated Energy Storage Systems (BESS) of 50 kWh or more and on Data Centers, running through 2027-05-03 or earlier supersession by new zoning. Town Counsel Donna MacNicol told voters before the vote that the BESS portion was unlikely to survive Attorney General review because standalone BESS is treated as a protected/solar-adjacent use under G.L. c. 48, Section 3, and recommended splitting the article into two motions; voters instead approved the combined article as written (several Massachusetts towns, including Blandford, Worthington, and Wendell, had similar BESS moratoria disapproved by the AGO's Municipal Law Unit in 2026). No Attorney General Municipal Law Unit decision specific to this Gill bylaw was located as of 2026-09-23. The Gill Planning Board's Sept. 17, 2026 meeting agenda lists 'Review Data Centers for bylaw updates,' consistent with continuing work toward permanent regulations during the moratorium period.",
+          "reason": "Updates status to reflect adoption, the town counsel's contemporaneous legal caveat about the BESS portion, and confirmation the moratorium remains in force with no AG decision found."
+        },
+        "affected_projects": {
+          "from": "Proposed to bar special permits, site plan approvals, building permits, zoning permits, certificates of occupancy, and other approvals for BESS or data centers townwide",
+          "to": "Adopted as proposed: bars special permits, site plan approvals, building permits, zoning permits, certificates of occupancy, or other discretionary/ministerial approvals for Building-Integrated Energy Storage Systems (BESS, 50 kWh or more) or Data Centers townwide during the moratorium. No specific project is named; none was pending in Gill as of adoption.",
+          "reason": "Reflects that the restriction moved from proposed to adopted, per the signed bylaw text."
+        },
+        "outcome": {
+          "from": "If adopted, Planning Board would study regulations for consideration at spring 2027 Town Meeting.",
+          "to": "Adopted unanimously at the May 4, 2026 Annual Town Meeting. The Planning Board is now studying BESS and Data Center regulations for consideration at a future Town Meeting (per the Sept. 17, 2026 Planning Board agenda item 'Review Data Centers for bylaw updates'); no such regulations had been adopted as of 2026-09-23.",
+          "reason": "Reflects the adoption and the town's ongoing regulation-drafting process."
+        }
+      },
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "url": "https://recorder.com/2026/05/05/gill-voters-approve-school-roof/",
+          "title": "$3.78M Gill Elementary School roof replacement heads to ballot box",
+          "publisher": "Greenfield Recorder",
+          "document_date": "2026-05-05",
+          "source_type": "news",
+          "supports": "Confirms unanimous adoption at the May 4, 2026 Annual Town Meeting of Article 7, a one-year moratorium on data center/BESS development, and Town Counsel's warning that the BESS portion was unlikely to survive AG review.",
+          "quote": "Article 7 adopts a one-year moratorium on the development of data centers or battery energy storage systems... Each of these bylaw changes passed unanimously... Town Counsel Donna MacNicol explained the one pertaining to battery energy storage systems will likely not be accepted by the state Attorney General's Office."
+        },
+        {
+          "url": "https://gillmass.org/files/GillNews_2026_2SUMMER.pdf",
+          "title": "The Gill Newsletter, Summer 2026 Edition",
+          "publisher": "Town of Gill, MA",
+          "document_date": "2026-06",
+          "source_type": "other",
+          "supports": "Official town newsletter confirming all four proposed zoning bylaws, including the BESS/Data Center one-year moratorium (50 kWh threshold), passed unanimously at the 2026 Annual Town Meeting.",
+          "quote": "We are very proud to announce that all four of our proposed zoning bylaws passed unanimously at this year's Town Meeting! ... BESS and Data Centers; a one-year moratorium on energy storage and data centers 50kWh or more."
+        },
+        {
+          "url": "https://gillmass.org/files/BESS_and_Data_Centers_Bylaw_4-16-2026.pdf",
+          "title": "Proposed Changes to Gill Zoning Bylaws: Building-Integrated Energy Storage Systems (BESS) and Data Centers",
+          "publisher": "Town of Gill, MA (Planning Board)",
+          "document_date": "2026-04-16",
+          "source_type": "other",
+          "supports": "Full text of adopted Section 18: 50 kWh BESS threshold, data center definition, list of barred approvals, and the exact term (\"in effect starting on May 4, 2026... in place until May 3, 2027\").",
+          "quote": "The moratorium will be in effect starting on May 4, 2026, upon adoption at Town Meeting. The moratorium will be in place until May 3, 2027, or such time prior when zoning regulations superseding any provision of this section are duly adopted."
+        },
+        {
+          "url": "https://gillmass.org/d/43939/Planning-Board-Meeting",
+          "title": "Planning Board Meeting, Thu, Sep 17, 2026",
+          "publisher": "Town of Gill, MA",
+          "document_date": "2026-09-17",
+          "source_type": "agenda",
+          "supports": "Confirms the Planning Board is still actively working on data-center bylaw updates as of September 2026, consistent with the moratorium's stated purpose.",
+          "quote": "Review Data Centers for bylaw updates; Review Food Trucks and Short-term Rentals for bylaw updates; Review Farmland Protection Planning status."
+        }
+      ],
+      "notes": "Could not locate a Massachusetts Attorney General Municipal Law Unit decision specific to Gill's bylaw (approving or disapproving either the BESS or data-center portion) as of 2026-09-23; town counsel's pre-vote prediction that the BESS portion would likely be rejected remains unconfirmed either way."
+    },
+    {
+      "moratorium_id": "ma-heath-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "Not enacted; Annual Town Meeting scheduled 2026-05-09",
+          "to": "Not enacted at the May 9, 2026 Annual Town Meeting or since. The proposed Section 6.11 BESS/Data Center moratorium article, publicly noticed for a March 11, 2026 Planning Board hearing, was dropped before the final Annual Town Meeting warrant was signed (2026-04-14) and does not appear among the warrant's 22 articles.",
+          "reason": "The Town of Heath's own signed FY27 Annual Town Meeting & Election Warrant (posted April 14, 2026; meeting held May 9, 2026) contains Articles 1-22, none of which is a BESS/data-center zoning bylaw; Greenfield Recorder's town-meeting coverage independently confirms 22 warrant articles were voted, with only Article 20 (meeting-posting bylaw) rejected."
+        },
+        "duration": {
+          "from": "Proposed one year from effective date",
+          "to": "No moratorium has been adopted. The one-year term proposed in the March 11, 2026 public-hearing draft (new Section 6.11) never reached an Annual or Special Town Meeting vote as of 2026-09-23.",
+          "reason": "Confirms the proposal remains unenacted; there is no operative duration."
+        },
+        "current_status": {
+          "from": "Proposed",
+          "to": "Still not enacted as of 2026-09-23. The proposed Section 6.11 BESS/Data Center moratorium, noticed for a March 11, 2026 Planning Board public hearing, was withdrawn before the final May 9, 2026 Annual Town Meeting warrant was signed: the town's own signed warrant (FINAL_SIGNED_2026_ATM-ATE_WARRANT) lists only 22 articles, none addressing BESS or data centers, and Greenfield Recorder confirms voters took up 'nearly all 22 warrant articles,' with only the meeting-posting bylaw (Article 20) defeated. At its April 1, 2026 meeting, the Planning Board discussed whether to 'work on a moratorium, or go straight to creating the bylaws' via Special Town Meeting instead. By its May 6, 2026 meeting (three days before Annual Town Meeting), the Board was discussing scheduling a further public hearing on 'a moratorium for large scale battery storage systems' (data centers no longer named in that agenda item). No subsequent public-hearing notice, warrant article, or Town Meeting vote on a BESS or data-center moratorium was located through 2026-09-23; the town's website listed no Special Town Meeting scheduled as of the research date.",
+          "reason": "Corrects the record to reflect that the proposal was withdrawn/never voted, rather than remaining an open item awaiting a Town Meeting decision as the packet's questions implied."
+        },
+        "outcome": {
+          "from": "If adopted and later approved by the Attorney General, Planning Board would study BESS and data center zoning during the moratorium.",
+          "to": "Proposal did not reach a Town Meeting vote; it was withdrawn before the final Annual Town Meeting warrant was set. The Planning Board continued discussing a possible BESS-only moratorium, or proceeding straight to permanent bylaws, as of May 2026, but no further public hearing, warrant article, or vote was found through 2026-09-23.",
+          "reason": "Reflects the actual outcome (non-enactment/withdrawal) rather than the hypothetical adoption outcome in the original text."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://townofheath.org/files/FINAL_SIGNED_2026_ATM-ATE_WARRANT-rotated.pdf",
+          "title": "Town of Heath 2026 Annual Town Meeting & Election Warrant (final signed)",
+          "publisher": "Town of Heath, MA",
+          "document_date": "2026-04-14",
+          "source_type": "other",
+          "supports": "The final, signed Annual Town Meeting warrant lists Articles 1-22 in full; no article proposes a BESS/data-center zoning bylaw or moratorium.",
+          "quote": "Article 20: To see if the Town will vote to amend the General Bylaws of the Town of Heath Section 1, Conduct of Town Election... Article 21: To see if the Town will vote to accept and approve the petitioned article... Article 22: To see if there is any other business for discussion to come before the Town Meeting"
+        },
+        {
+          "url": "https://recorder.com/2026/05/11/heath-voters-support-school-budget/",
+          "title": "Heath OKs school funding, rejects bylaw change on meeting postings",
+          "publisher": "Greenfield Recorder",
+          "document_date": "2026-05-11",
+          "source_type": "news",
+          "supports": "Confirms 22 warrant articles were voted at the May 9, 2026 Annual Town Meeting, with only the meeting-postings bylaw (Article 20) defeated; no mention of a BESS/data-center article at all.",
+          "quote": "Seventy-seven voters approved nearly all 22 warrant articles at Saturday's Annual Town Meeting... The only defeated warrant article was a 'housekeeping' issue outlined in Article 20"
+        },
+        {
+          "url": "https://townofheath.org/files/PB_Agenda_04-01-2026.pdf",
+          "title": "Meeting Agenda - Town of Heath Planning Board, April 1, 2026",
+          "publisher": "Town of Heath, MA",
+          "document_date": "2026-04-01",
+          "source_type": "agenda",
+          "supports": "Shows the Planning Board reconsidering its approach ('Do we work on a moratorium, or go straight to creating the bylaws for a STM?') three weeks after the March 11 public hearing and before the final warrant was signed.",
+          "quote": "Discuss Bylaws for Solar and Battery Storage - Do we work on a moratorium, or go straight to creating the bylaws for a STM?"
+        },
+        {
+          "url": "https://townofheath.org/files/PB_Agenda_05_06_2026.pdf",
+          "title": "Meeting Agenda - Town of Heath Planning Board, May 6, 2026",
+          "publisher": "Town of Heath, MA",
+          "document_date": "2026-05-06",
+          "source_type": "agenda",
+          "supports": "Confirms that three days before Annual Town Meeting, no moratorium had been scheduled for a vote; the Board was still discussing scheduling a future public hearing.",
+          "quote": "Discuss the schedule for a public hearing on a moratorium for large scale battery storage systems."
+        }
+      ],
+      "notes": "No evidence of a Heath Special Town Meeting on this topic was found through 2026-09-23 (the town's public meeting listing showed no such event scheduled). enacted_status is left as 'pending' since the town may still revive the proposal, but current_status now reflects that it did not pass at the town meeting the packet flagged and has not been rescheduled."
+    },
+    {
+      "moratorium_id": "ma-everett-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Adopted. The Everett City Council enrolled the Section 37 (Docklands Innovation District) zoning amendment on 2026-06-08 and ordained (finally passed) it on 2026-06-22, converting data centers from a by-right to a restricted use with a combined footprint/power cap (the lesser of 20,000 square feet or 5 megawatts), required closed-loop cooling, funding of electric-system upgrades, backup generators, a minimum setback from housing, and a resident hiring preference.",
+          "to": "Adopted and still in force as of 2026-09-23. The Everett City Council enrolled the Section 37 (Docklands Innovation District) zoning amendment on 2026-06-08 and ordained (finally passed) it on 2026-06-22, converting data centers from a by-right to a restricted use with a combined footprint/power cap (the lesser of 20,000 square feet or 5 megawatts), required closed-loop cooling, funding of electric-system upgrades, backup generators, a minimum setback from housing, and a resident hiring preference. A statewide roundup (Hoodline, Aug. 26, 2026) independently confirms the Docklands cap remains in effect (\"Everett caps facilities in its Docklands Innovation District at 20,000 square feet or 5 megawatts\"); no repeal or further amendment was found.",
+          "reason": "Refreshes the as-of date with an independent September-adjacent source confirming the Section 37 restriction is still in force; no substantive change found. (This row is a standing zoning restriction, not a time-limited moratorium, so there is no expiry to track.)"
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://hoodline.com/2026/08/massachusetts-ballot-push-would-let-towns-veto-data-centers-by-2-3-vote/",
+          "title": "Massachusetts Data Center Ballot Initiative Explained",
+          "publisher": "Hoodline",
+          "document_date": "2026-08-26",
+          "source_type": "news",
+          "supports": "Independently confirms, as of late August 2026, that Everett's Docklands Innovation District data-center cap (20,000 sq ft or 5 MW) remains in force as part of a statewide roundup of municipal approaches.",
+          "quote": "Everett caps facilities in its Docklands Innovation District at 20,000 square feet or 5 megawatts."
+        }
+      ],
+      "notes": "No repeal, sunset, or further Section 37 amendment was found. This restriction (a standing zoning cap, not a moratorium) has no scheduled end date to verify."
+    },
+    {
+      "moratorium_id": "ma-lowell-2026",
+      "outcome": "corrected",
+      "changes": {
+        "affected_projects": {
+          "from": "New data center construction and development citywide; new expansion of existing data centers. The Markley Group Lowell facility (352,000 sq ft) is the central local controversy. MW capacity of the existing Markley Lowell facility is not publicly disclosed in captured records [VERIFY: Markley Lowell facility MW not publicly disclosed; the Boston Markley facility is reported at 30 MW in operator materials, but Lowell-specific MW not located].",
+          "to": "New data center construction and development citywide; new expansion of existing data centers. The Markley Group Lowell facility (352,000 sq ft) is the central local controversy; per the Inflect data-center listing platform (cited by InsideLowell), the facility's current capacity is approximately 40 MW, with a stated build-out plan to 50 MW, consistent with Markley's own 2016 public statements about the site's planned 50MW build-out. Markley separately sued the city over the moratorium and reached an agreement allowing it to proceed with expansion plans that predate the moratorium (per WGBH, Aug. 11, 2026); in an unrelated environmental-justice lawsuit over MassDEP air permits, a Superior Court judge paused installation of four new diesel backup generators at the facility on 2026-08-10, litigation that remained pending as of 2026-09-23.",
+          "reason": "Resolves the VERIFY marker with a third-party but corroborated capacity estimate, and adds two material developments (the moratorium-related settlement and the separate court-ordered generator pause) found during this pass."
+        },
+        "current_status": {
+          "from": "Active",
+          "to": "Active as of 2026-09-23. The 360-day moratorium (enacted 2026-03-10) remains in force. Markley Group sued the city over the moratorium and reached a settlement permitting it to proceed with expansion plans that predate the moratorium, so the pause has not halted all Markley-related construction activity at the site. Separately, in an unrelated case (a resident-led environmental-justice challenge to MassDEP's air permits for the facility), a Superior Court judge paused Markley's installation of four new diesel backup generators on 2026-08-10; that litigation was ongoing as of 2026-09-23.",
+          "reason": "Refreshes the as-of date and adds the moratorium-lawsuit settlement and the separate court-ordered generator pause, both material to understanding the moratorium's practical effect."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: Markley Lowell facility MW not publicly disclosed; the Boston Markley facility is reported at 30 MW in operator materials, but Lowell-specific MW not located]",
+          "resolution": "corrected",
+          "note": "InsideLowell's September 2025 analysis (re-surfaced and reviewed in this pass) cites the Inflect data-center listing platform for a current capacity of approximately 40 MW at the Lowell facility, with a stated 50 MW build-out plan; Data Center Knowledge and Data Center Dynamics independently reported Markley's own 2016 announcement of a planned 50MW Lowell build-out. This is a third-party estimate rather than a figure Markley itself has published for current operating capacity, but it is corroborated across independent sources and is more specific than the prior Boston-facility comparison, so the marker is resolved."
+        }
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://insidelowell.com/markley-back-for-more-fuel-storage-approval/",
+          "title": "Markley Back for More Fuel Storage Approval",
+          "publisher": "InsideLowell",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Cites the Inflect data-center listing platform for the Lowell facility's current (~40 MW) and planned (50 MW) capacity, and documents the diesel fuel storage expansion request and community concerns.",
+          "quote": "Current capacity of the data center according to Inflect is at 40 MW, with the total plan to be at 50 megawatt capacity"
+        },
+        {
+          "url": "https://www.wgbh.org/news/local/2026-08-11/court-orders-pause-lowell-data-center-expansion",
+          "title": "Court orders pause on Lowell data center expansion",
+          "publisher": "GBH News",
+          "document_date": "2026-08-11",
+          "source_type": "news",
+          "supports": "Confirms Markley sued the city over the March 2026 moratorium and settled to allow pre-existing expansion plans to proceed, and separately reports the Aug. 10, 2026 Superior Court order pausing four new diesel generators pending the residents' environmental-justice suit over MassDEP air permits.",
+          "quote": "In March, Lowell's City Council unanimously passed a 360-day temporary ban on the construction, development and expansion of new data centers in the city. But Markley sued and came to an agreement allowing the company to move forward with expansion plans pre-dating the moratorium."
+        }
+      ],
+      "notes": "The 40 MW/50 MW figure is a third-party estimate (Inflect platform, as reported by InsideLowell), not a figure Markley has itself disclosed publicly for current operations; treated as sufficient to resolve the VERIFY marker given independent corroboration of the 50MW planned build-out from Markley's own past public statements."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Massachusetts",
+      "jurisdiction": "Greenfield",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-09-16, Greenfield City Council, unanimous roll-call vote; resolution proposed by Precinct 7 Councilor Sarah Bolduc",
+      "date_enacted_iso": "2026-09-16",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year from adoption. If the Planning Board has not delivered zoning recommendations within that year, the City Council may extend the moratorium by an additional 180 days, during which the Council itself must draft zoning changes.",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-09-16",
+      "legal_basis": "Greenfield City Council resolution establishing a one-year moratorium on data centers (specific ordinance/resolution number not stated in sources reviewed)",
+      "trigger": "Governor Healey's Sept. 8, 2026 executive order (No. 658) requiring local approval before state permitting of data centers; unanimous recommendations from the Planning Board (4-1) and Economic Development Committee (4-0); desire to study land-use, public-safety, infrastructure, and wildlife/natural-resource impacts of data centers before any project is proposed.",
+      "trigger_categories": ["regulatory_gap", "infrastructure_capacity", "environmental", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. Adopted unanimously by roll-call vote on 2026-09-16, tasking the Planning Board with reviewing zoning codes and researching community, public-safety, infrastructure, and environmental/wildlife impacts of data centers; runs through approximately 2027-09-16, extendable by 180 days by Council vote if the Planning Board has not reported back in time.",
+      "enacted_status": "active",
+      "affected_projects": "None named; no data center project was pending in Greenfield as of adoption.",
+      "outcome": "Greenfield City Council adopted a one-year moratorium on data center development, directing the Planning Board to study zoning, infrastructure, and environmental impacts and report back before any permanent regulations are considered.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://recorder.com/2026/09/17/greenfield-data-centers-moratorium-adopted/",
+          "title": "Greenfield City Council adopts one-year moratorium on data centers",
+          "publisher": "Greenfield Recorder",
+          "document_date": "2026-09-17",
+          "source_type": "news",
+          "supports": "Confirms the unanimous roll-call vote adopting the one-year moratorium, its 180-day extension mechanism, and that the Planning Board will study zoning impacts during the pause.",
+          "quote": "City Council voted unanimously on Wednesday to adopt a one-year moratorium on data centers... if the Planning Board is unable to put forth recommendations in that time frame, City Council can extend the moratorium by 180 days"
+        },
+        {
+          "url": "https://recorder.com/2026/09/09/greenfield-city-council-to-consider-data-center-moratorium-following-governors-order/",
+          "title": "Greenfield City Council to consider data center moratorium following governor's order",
+          "publisher": "Greenfield Recorder",
+          "document_date": "2026-09-09",
+          "source_type": "news",
+          "supports": "Confirms the Planning Board (4-1) and Economic Development Committee (4-0) recommendations preceding the vote, the councilor who proposed it, and the trigger of Gov. Healey's Sept. 8, 2026 executive order.",
+          "quote": "the Greenfield Economic Development Committee voted to recommend the City Council pass a one-year moratorium on data center construction... proposed by Precinct 7 Councilor Sarah Bolduc"
+        }
+      ],
+      "notes": "No city-hosted ordinance/resolution PDF was located via bc-web in this pass; relying on Greenfield Recorder's direct meeting coverage (two independent articles, both citing named officials and quoting the vote) for the vote and terms."
+    },
+    {
+      "state": "Massachusetts",
+      "jurisdiction": "Chesterfield",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-06-24, Chesterfield Special Town Meeting (voters approved; unanimous per the Daily Hampshire Gazette's July 7, 2026 roundup)",
+      "date_enacted_iso": "2026-06-24",
+      "date_enacted_uncertainty": "exact",
+      "duration": "From adoption (2026-06-24) through 2026-09-30, while the town studies siting/design standards for battery energy storage systems (BESS); a permanent BESS zoning bylaw, finalized by the Planning Board on 2026-09-15, was scheduled for a vote at a further Special Town Meeting on 2026-09-30.",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "current_end_date_iso": "2026-09-30",
+      "legal_basis": "Chesterfield Special Town Meeting warrant article adopting a temporary moratorium on construction of battery energy storage systems (BESS); specific article/bylaw number not located in sources reviewed",
+      "trigger": "Town wanted time to study where BESS can be built and what rules should govern them -- public safety, fire protection, drinking water, farm/forest impacts, and rural character -- amid a wave of BESS/solar development proposals in neighboring Hilltowns (Worthington, Plainfield) ahead of new state fast-track solar-permitting rules effective 2026-10-01.",
+      "trigger_categories": ["regulatory_gap", "fire_safety", "water", "agricultural_preservation", "land_use_compatibility"],
+      "sectors": ["battery_storage"],
+      "current_status": "Approaching its scheduled end as of 2026-09-23. The June 24, 2026 temporary moratorium on BESS construction runs through 2026-09-30; that same evening the town has scheduled a further Special Town Meeting to vote on a permanent BESS zoning bylaw (finalized by the Planning Board on 2026-09-15), which if adopted would supersede the moratorium and would still require Attorney General approval. As of the July 7, 2026 Gazette roundup, the June 24 moratorium itself 'now awaits approval from the attorney general's office'; no confirmation that the AG approved or disapproved the temporary moratorium was located in this pass.",
+      "enacted_status": "active",
+      "affected_projects": "None specifically named; adopted proactively amid regional BESS/solar development pressure, not in response to a pending local application.",
+      "outcome": "Chesterfield voters approved a temporary moratorium on large-scale standalone battery energy storage system construction at a June 24, 2026 Special Town Meeting to allow time to draft a permanent BESS zoning bylaw; that permanent bylaw was finalized by the Planning Board on 2026-09-15 for a vote at a Sept. 30, 2026 Special Town Meeting.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://gazettenet.com/2026/07/07/hilltown-digest-special-town-meetings-in-three-towns-approve-key-measures/",
+          "title": "Hilltown Digest: Special Town Meetings in three towns approve key measures",
+          "publisher": "Daily Hampshire Gazette",
+          "document_date": "2026-07-07",
+          "source_type": "news",
+          "supports": "Confirms the June 24, 2026 Special Town Meeting vote approving a temporary BESS moratorium through Sept. 30, 2026, its purpose, and that it awaits Attorney General approval.",
+          "quote": "In Chesterfield, voters at June 24's special Town Meeting approved a temporary moratorium on construction of battery energy storage systems, or BESS, through Sept. 30, 2026. The moratorium now awaits approval from the attorney general's office."
+        },
+        {
+          "url": "https://gazettenet.com/2026/09/16/chesterfield-finalizes-battery-storage-bylaw/",
+          "title": "Chesterfield finalizes battery storage bylaw",
+          "publisher": "Daily Hampshire Gazette",
+          "document_date": "2026-09-16",
+          "source_type": "news",
+          "supports": "Confirms the Planning Board finalized a permanent BESS zoning bylaw on 2026-09-15 ahead of a Sept. 30, 2026 Special Town Meeting vote, timed to precede the moratorium's Sept. 30 end date and the state's Oct. 1 fast-track solar rules.",
+          "quote": "On Sep. 30, a special Town Meeting will be held in Town Hall... If the bylaw passes during the meeting, it will be forwarded to the state attorney general's office for a stamp of approval."
+        }
+      ],
+      "notes": "Attorney General Municipal Law Unit approval/disapproval status of the June 24, 2026 temporary moratorium itself was not confirmed in sources reviewed; the AGO disapproved similar standalone-BESS moratoria in several neighboring Massachusetts towns in 2026 (Blandford, Worthington, Wendell), so this may be a live issue, but no Chesterfield-specific AG decision was found. The moratorium's scheduled end date (2026-09-30) falls one week after this research pass."
+    },
+    {
+      "state": "Massachusetts",
+      "jurisdiction": "Leominster",
+      "jurisdiction_type": "City",
+      "date_enacted": "Not yet enacted as of 2026-09-23. Two petitions (data centers; battery energy storage systems), filed by Council President Claire M. Freda, were unanimously advanced by the City Council to a public hearing held 2026-09-14; the Council then unanimously granted more time and scheduled a further hearing/vote for 2026-09-28.",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "If adopted, would pause data center and battery storage facility construction from adoption through 2027-07-31.",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "current_end_date_iso": "",
+      "legal_basis": "City Council petitions for a one-year-equivalent moratorium (through July 31, 2027) on data centers and battery energy storage facilities; would also require Mayor Dean Mazzarella's approval before taking effect. Petition instrument number not confirmed in sources reviewed.",
+      "trigger": "Community and Council concern over AI data centers' potential environmental and buffer-zone impacts, and over battery storage facility fire risk; no data center or large-scale battery storage project is currently proposed in Leominster. Part of a regional wave of central Massachusetts data-center/BESS moratoria (Fitchburg, Athol).",
+      "trigger_categories": ["regulatory_gap", "environmental", "fire_safety"],
+      "sectors": ["data_center", "battery_storage"],
+      "current_status": "Pending as of 2026-09-23. The City Council held a public hearing on the combined data-center/BESS moratorium petitions on 2026-09-14; the Planning Board had not yet delivered its recommendation, and the Council unanimously granted more time, scheduling a further hearing/vote for 2026-09-28 (five days after this research pass). Mayor Mazzarella has not indicated support and has publicly cautioned against rushing the petitions.",
+      "enacted_status": "pending",
+      "affected_projects": "None; city officials confirmed no data center or large-scale battery storage project is currently proposed or approved in Leominster.",
+      "outcome": "Proposed moratorium (through July 31, 2027) on data centers and battery energy storage facilities remains under Council review; a further hearing/vote is scheduled for 2026-09-28 after the Sept. 14, 2026 public hearing was postponed pending Planning Board input.",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://newslinklive.com/2026/09/22/leominster-city-council-delays-data-center-moratorium-vote-as-residents-raise-concerns-about-ai-and-the-environment/",
+          "title": "Leominster City Council delays data center moratorium vote as residents raise concerns about AI and the environment",
+          "publisher": "News Link Live",
+          "document_date": "2026-09-22",
+          "source_type": "news",
+          "supports": "Confirms the Sept. 14, 2026 public hearing, that the Council postponed a decision pending the Planning Board's recommendation, and scheduled a further hearing for Sept. 28, 2026; names the petitioner (Council President Claire Freda) and the proposed end date (July 31, 2027).",
+          "quote": "Council President Claire Freda submitted the petition, which would establish a moratorium beginning upon adoption and continuing through July 31, 2027... Later in the meeting, the council unanimously granted further time on the data center moratorium petition and scheduled another hearing on Sept. 28"
+        },
+        {
+          "url": "https://www.masslive.com/centralmass/2026/07/central-mass-city-takes-steps-to-pause-data-centers-battery-storage-sites.html",
+          "title": "Leominster considers data center, battery storage moratorium until 2027",
+          "publisher": "MassLive",
+          "document_date": "2026-07",
+          "source_type": "news",
+          "supports": "Confirms the two petitions (data centers and battery storage), the July 2026 unanimous Council vote to hold the required public hearing, that no data center or battery storage project currently exists or is proposed in Leominster, and that Mayor Mazzarella's approval would also be required.",
+          "quote": "The petitions, filed by Council President Claire M. Freda, would pause data centers and battery storage facilities construction until July 31, 2027... Before the moratorium can go into effect, the petition would need to be approved by Leominster Mayor Dean J. Mazzarella."
+        }
+      ],
+      "notes": "Not yet adopted as of 2026-09-23; included per process guidance covering formally proposed instruments with a scheduled hearing/vote (public hearing already held 2026-09-14, vote rescheduled to 2026-09-28)."
+    }
+  ]
+}

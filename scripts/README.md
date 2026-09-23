@@ -12,6 +12,10 @@ You don't need any of this to **use** the data — just download the CSVs from [
 | [`moratorium_maps/`](moratorium_maps/) | Python module that regenerates every map in [`figures/`](../figures/) from the inventory CSV plus the static state-classification dictionaries embedded in `data.py`. |
 | `validate_dataset.py` | Checks the shipped CSVs against every rule in [`docs/codebook.md`](../docs/codebook.md) — closed vocabularies, date/duration consistency, ID uniqueness, geocoding bounds, `[VERIFY]` accounting, and agreement with `summary_stats.json`. Exits nonzero on error. |
 | `normalize_vocab.py` | Idempotent normalizer for closed-vocabulary spellings. Reports every cell it changes; refuses to coerce values it has no declared mapping for. |
+| `show_rows.py` | Prints inventory rows for a state or one `moratorium_id` as JSON, so an answer file's `from` values are copied exactly rather than retyped. |
+| `save_source.py` | Archives a cited URL through bc-web (HTTP, then browser escalation for JS portals and Cloudflare) into `work/sources/<ST>/`: PDF plus extracted text with page-level OCR, or HTML plus markdown, plus a manifest line with the body hash. Run with the bc-modules interpreter. |
+| `check_evidence_archived.py` | Merge gate: reports every evidence URL in an answer file that has no successful manifest entry. Exits nonzero if any is missing. |
+| `gate_answer.sh` | Runs the three gates on one answer file: schema, `apply_research.py --dry-run` conflicts, archived evidence. |
 | `build_worklist.py` | Emits the set of rows needing research as of a given date (expired-but-in-force, stale pending, `[VERIFY]` backlog, unverified dates). |
 | `make_packets.py` / `make_legislation_packets.py` | Split a worklist into per-state research packets. |
 | `apply_research.py` / `apply_legislation.py` | The only scripts that write research findings into the CSVs. Both require explicit answer-file paths, refuse any change whose `from` value no longer matches the file, and write an audit log to `work/audit/`. |
@@ -62,10 +66,10 @@ Rows go stale on a schedule — a moratorium expires on a known date whether or 
 anyone updates the row. To refresh:
 
 ```bash
-make worklist TODAY=2026-08-19   # what needs research, split into per-state packets
+make worklist TODAY=2026-09-23   # what needs research, split into per-state packets
 #   ... researchers write JSON decision files into work/answers/ ...
-make apply    TODAY=2026-08-19   # merge, normalize, geocode, validate
-make all      TODAY=2026-08-19   # regenerate artifacts
+make apply    TODAY=2026-09-23   # merge, normalize, geocode, validate
+make all      TODAY=2026-09-23   # regenerate artifacts
 ```
 
 Research never edits a CSV. It emits decision files conforming to

@@ -1,0 +1,827 @@
+{
+ "state_abbrev": "CA",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 agent",
+ "decisions": [
+  {
+   "moratorium_id": "ca-coachella-2026",
+   "outcome": "status_changed",
+   "new_enacted_status": "replaced",
+   "changes": {
+    "date_enacted_uncertainty": {
+     "from": "range",
+     "to": "exact",
+     "reason": "The adopted Ordinance No. 1231 (WHEREAS recitals) states plainly: 'on June 4, 2026, the City Council adopted Urgency Ordinance No. 1229 establishing a temporary moratorium on Data Center development within the City for 45 days pursuant to Government Code Section 65858,' resolving the prior date range."
+    },
+    "legal_basis": {
+     "from": "Interim urgency zoning ordinance (California Gov. Code section 65858 pattern)",
+     "to": "Interim Urgency Ordinance No. 1229 (adopted 2026-06-04, 45-day pause); extended by Urgency Ordinance No. 1230 (adopted 2026-07-08/09, 10 months 15 days); superseded by Ordinance No. 1231, adding Chapter 17.92 to the Coachella Municipal Code to permanently prohibit data center uses citywide (first reading 2026-08-12, second reading/adoption 2026-08-26, effective 30 days after adoption).",
+     "reason": "Ordinance No. 1231's recitals and certification page name all three instrument numbers and dates; KESQ and KVCR confirm the Aug. 12 first reading and Aug. 26 second-reading adoption."
+    },
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2026-09-25",
+     "reason": "Ordinance No. 1231, Section 6, states the ordinance 'shall take effect thirty (30) days after adoption'; adoption (second reading) was 2026-08-26, making the permanent prohibition (and the end of the moratorium period it replaces) effective on or about 2026-09-25."
+    },
+    "outcome": {
+     "from": "Moratorium adopted and later extended; city pursuing a permanent ban",
+     "to": "Moratorium adopted (Ord. 1229) and extended 10 months 15 days (Ord. 1230); superseded by a permanent citywide prohibition on data centers (Ord. 1231), adopted 2026-08-26 and effective 2026-09-25. Coachella is the first Coachella Valley city and second California city (after Monterey Park) to permanently ban data centers.",
+     "reason": "Reflects the final permanent-ban outcome confirmed by primary ordinance text and multiple news sources."
+    },
+    "current_status": {
+     "from": "As of 2026-07-31, reported as extended (not expired or rescinded); city staff directed to draft a permanent data center ban. No source reviewed indicates the pause has lapsed. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+     "to": "Replaced as of 2026-09-23. The City Council adopted Ordinance No. 1231 on 2026-08-26 (second reading), permanently prohibiting data center uses citywide (with limited exceptions for accessory server/IT rooms); effective 2026-09-25, thirty days after adoption. Mayor Figueroa has also voiced support for a future ballot measure to entrench the ban, but no such measure had been placed on a ballot as of this pass.",
+     "reason": "Resolves the VERIFY marker with the primary ordinance (instrument numbers 1229/1230/1231) and updates status to reflect the permanent ban."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+     "resolution": "corrected",
+     "note": "The adopted Ordinance No. 1231 (city Municode/mccmeetingspublic PDF) names the moratorium instruments Urgency Ordinance No. 1229 (2026-06-04) and No. 1230 (2026-07-08), and is itself the permanent-ban ordinance that superseded them, adopted 2026-08-26."
+    }
+   ],
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/coachelaca-meet-c521a48a6b144a8c8b17a7d9dcd84d46/ITEM-Attachment-001-dab00342152f408db0e328b9a6846b01.pdf",
+     "title": "Ordinance No. 1231 (City of Coachella)",
+     "publisher": "City of Coachella",
+     "document_date": "2026-08-12",
+     "source_type": "ordinance",
+     "supports": "Confirms Ordinance Nos. 1229 (2026-06-04, 45-day moratorium) and 1230 (2026-07-08, 10-month-15-day extension), and that Ordinance 1231 permanently prohibits data centers citywide, effective 30 days after adoption.",
+     "quote": "WHEREAS, on June 4, 2026, the City Council adopted Urgency Ordinance No. 1229 establishing a temporary moratorium on Data Center development within the City for 45 days pursuant to Government Code Section 65858; and WHEREAS, on July 8, 2026, the City Council adopted Urgency Ordinance No. 1230 ... to extend the moratorium ... for an additional 10 months and 15 days"
+    },
+    {
+     "url": "https://kesq.com/news/2026/08/25/coachella-city-council-passes-permanent-ban-on-data-centers/",
+     "title": "Coachella City Council passes permanent ban on data centers",
+     "publisher": "KESQ",
+     "document_date": "2026-08-25",
+     "source_type": "news",
+     "supports": "Confirms second-reading adoption of Ordinance No. 1231 on Aug. 26 (published Aug. 25 previewing the vote), effective 30 days after the vote; first reading Aug. 12.",
+     "quote": "The ordinance will go into effect 30 days after Wednesday's vote. Coachella is now the first city in the Coachella Valley to enact a permanent prohibition"
+    },
+    {
+     "url": "https://www.kvcrnews.org/local-news/2026-08-28/coachella-becomes-second-california-city-to-ban-data-centers-as-opposition-swells-in-golden-state",
+     "title": "Coachella becomes second California city to ban data centers as opposition swells in Golden State",
+     "publisher": "KVCR News",
+     "document_date": "2026-08-28",
+     "source_type": "news",
+     "supports": "Confirms the Aug. 26 council vote permanently banning large-scale data centers citywide, and that Coachella is the second California city (after Monterey Park) to do so.",
+     "quote": "Coachella City Council voted on Wednesday night to permanently ban large-scale data centers within city limits, becoming the latest California city to do so"
+    },
+    {
+     "url": "https://kvcr.org/news/local/2026-07-09/coachella-extends-data-center-moratorium-as-city-moves-toward-possible-ban",
+     "title": "Coachella extends data center moratorium as city moves toward possible ban",
+     "publisher": "KVCR News",
+     "document_date": "2026-07-09",
+     "source_type": "news",
+     "supports": "Confirms the unanimous July 8/9, 2026 extension of the moratorium by 10 months and 15 days.",
+     "quote": "The council voted unanimously to extend the moratorium for an additional 10 months and 15 days."
+    },
+    {
+     "url": "https://www.desertsun.com/story/money/business/2026/08/12/coachella-data-center-ban-permanent/91248390007/",
+     "title": "Coachella decides to ban data centers permanently",
+     "publisher": "Palm Springs Desert Sun",
+     "document_date": "2026-08-12",
+     "source_type": "news",
+     "supports": "Corroborates the permanent-ban ordinance process following community backlash to the Stronghold-related data center proposal.",
+     "quote": "Coachella is joining a growing number of cities that have permanently banned data centers within their boundaries"
+    }
+   ],
+   "notes": "This row's underlying instrument (moratorium) has been superseded by a permanent zoning prohibition; the coordinator may wish to fold jurisdiction-level tracking forward into a distinct 'permanent ban' record, per the same pattern used for Monterey Park."
+  },
+  {
+   "moratorium_id": "ca-desert-hot-springs-2026",
+   "outcome": "corrected",
+   "changes": {
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2028-05-22",
+     "reason": "The adopted extension ordinance (Desert Hot Springs staff report SR-26-173 / signed extension ordinance) states: 'For a period of 22 months and 15 days from July 7, 2026, commencing on the date of adoption of this Ordinance, no use permit, variance, building permit, or any other entitlement for use shall be accepted, processed, approved or issued...' 22 months 15 days from 2026-07-07 computes to approximately 2028-05-22, matching news reports describing the pause as running 'as long as two years.'"
+    },
+    "current_status": {
+     "from": "Extended on 2026-07-07 to the full two-year statutory maximum (22 months 15 days beyond the initial 45 days); active as of the extension.",
+     "to": "Active as of 2026-09-23; extended on 2026-07-07 (Council vote) to run 22 months and 15 days from that date, or approximately 2028-05-22, the full Gov. Code section 65858 two-year statutory ceiling from the original 2026-06-16 adoption. No permanent zoning ordinance or further extension/rescission was found in sources reviewed through 2026-09-23; Greater Palm Springs Business Insider (Sept. 2026) confirms the moratorium remains in force ('Desert Hot Springs has extended its moratorium for as long as two years').",
+     "reason": "Refreshes the as-of date and confirms continued force via the primary extension ordinance and a September 2026 secondary source."
+    }
+   },
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://cityofdhs.civicweb.net/document/117389/Extension%20of%20Urgency%20Interim%20Ordinance%20of%20the%20C.pdf?handle=872897AA33C84CE2801E18571954240B",
+     "title": "Extension of Urgency Interim Ordinance / Staff Report SR-26-173",
+     "publisher": "City of Desert Hot Springs",
+     "document_date": "2026-07-07",
+     "source_type": "ordinance",
+     "supports": "Signed extension ordinance text: 22 months and 15 days from July 7, 2026 adoption date; confirms the underlying June 16, 2026 45-day ordinance.",
+     "quote": "For a period of 22 months and 15 days from July 7, 2026, commencing on the date of adoption of this Ordinance, no use permit, variance, building permit, or any other entitlement for use shall be accepted, processed, approved or issued for the establishment or operation of a data center"
+    },
+    {
+     "url": "https://gpsbusinessinsider.com/data-center-restrictions-spread-in-gps/",
+     "title": "As Data Center Restrictions Spread, Power Costs Narrow Greater Palm Springs' Options Even Further",
+     "publisher": "Greater Palm Springs Business Insider",
+     "document_date": "2026-09",
+     "source_type": "news",
+     "supports": "Confirms as of September 2026 that Desert Hot Springs' moratorium remains extended for up to two years.",
+     "quote": "Desert Hot Springs has given itself two years to decide."
+    }
+   ],
+   "notes": "No further extension, rescission, or permanent ordinance was found for Desert Hot Springs as of 2026-09-23."
+  },
+  {
+   "moratorium_id": "ca-el-monte-2026",
+   "outcome": "confirmed_unchanged",
+   "changes": {
+    "current_status": {
+     "from": "Active under Interim Urgency Ordinance No. 3065 (the 10-month-15-day extension of Ord. 3063), adopted by a 7-0 vote on 2026-04-22 following a public hearing and receipt of the Gov. Code section 65858(d) report. Direct review of subsequent El Monte City Council minutes through 2026-07-08 (the most recent minutes located) found no further extension and no permanent data-center zoning ordinance adopted.",
+     "to": "Active as of 2026-09-23. A Sept. 17-18, 2026 CNS/ABC7 report on the new LA County unincorporated-area data center prohibition describes El Monte (along with Baldwin Park) as having 'voted to implement a yearlong ban on data centers proposed within their city limits' in late April 2026, consistent with this row's Ord. 3063/3065 term reaching the Gov. Code 65858(a) one-year ceiling. No rescission, expiration, or permanent-ordinance replacement was found in sources reviewed through 2026-09-23.",
+     "reason": "Refreshes the as-of date with independent September 2026 confirmation that the pause remains in force; no primary city source with a more precise update was located this pass."
+    }
+   },
+   "confidence": 0.75,
+   "evidence": [
+    {
+     "url": "https://abc7.com/post/la-county-issues-temporary-ban-data-centers-unincorporated-areas/19852541/",
+     "title": "LA County issues temporary ban on data centers in unincorporated areas",
+     "publisher": "ABC7 Los Angeles / City News Service",
+     "document_date": "2026-09-17",
+     "source_type": "news",
+     "supports": "Confirms El Monte's (and Baldwin Park's) 'yearlong ban' on data centers remained a point of regional reference as of mid-September 2026.",
+     "quote": "In late April, the city councils of El Monte and Baldwin Park also voted to implement a yearlong ban on data centers proposed within their city limits."
+    }
+   ],
+   "notes": "No new primary source (minutes, agenda) for El Monte specifically was located past the 2026-07-08 minutes already on file; this pass relies on a secondary regional roundup for the refresh."
+  },
+  {
+   "moratorium_id": "ca-imperial-county-2026",
+   "outcome": "status_changed",
+   "new_enacted_status": "rescinded",
+   "changes": {
+    "legal_basis": {
+     "from": "Board of Supervisors resolution/ordinance (exact instrument number not confirmed in this pass)",
+     "to": "County Ordinance No. 1616 (adopted 2026-06-16, initial 45-day moratorium) and County Ordinance No. 1618 (adopted 2026-07-14, extension of ~10 months 15 days); both ordinances were set aside by court order effective 2026-09-11 (see current_status).",
+     "reason": "The Superior Court judgment (reported by The Desert Review, citing the case record) names the two ordinance numbers directly."
+    },
+    "outcome": {
+     "from": "Special committee tasked with recommending land use and zoning regulations for data centers.",
+     "to": "Moratorium (Ordinances 1616 and 1618) adopted and extended to run through mid-2027, then invalidated by the Imperial County Superior Court (Judge Jeffrey B. Jones) in Imperial Valley Computer Manufacturing, LLC v. County of Imperial: judgment entered 2026-09-04, peremptory writ of mandate issued 2026-09-11 ordering the County to set aside and cease enforcing both ordinances because their findings did not satisfy Gov. Code section 65858's 'current and immediate threat' standard. The County has 30 days after service of the writ to file a return; county officials say they are preparing a new moratorium that addresses the court's findings. The Data Center Advisory Committee process continues separately.",
+     "reason": "Reflects the litigation outcome that ended the moratorium's legal effect."
+    },
+    "current_status": {
+     "from": "Extended and active as of 2026-08-19. Imperial County's Board extended the initial 45-day emergency pause to a one-year moratorium while the Data Center Advisory Committee evaluates zoning and land-use policy; reporting describes the pause as running into June 2027.",
+     "to": "Rescinded by court order as of 2026-09-23. Imperial County Superior Court Judge Jeffrey B. Jones entered judgment 2026-09-04 in favor of developer Imperial Valley Computer Manufacturing, LLC, finding neither Ordinance 1616 (the original moratorium) nor Ordinance 1618 (its ~10-month-15-day extension) made the causal finding of a 'current and immediate threat to public health, safety, or welfare' required by Gov. Code section 65858. A peremptory writ of mandate issued 2026-09-11 directs the County and Board of Supervisors to set aside both ordinances and stop using them to withhold, suspend, or refuse data-center permits. The County has said (per KYMA, 2026-09-22) it is working on a new moratorium addressing the court's concerns; no replacement had been adopted as of 2026-09-23. The Data Center Advisory Committee, created alongside the moratorium, continues to meet (inaugural meeting 2026-09-17) and is unaffected by the ruling. Separately, a different judge (L. Brooks Anderholt) has ordered a full CEQA environmental review of the underlying data center project in a related case, so the project itself remains stalled notwithstanding the moratorium's invalidation.",
+     "reason": "Documents the court-ordered end of the moratorium's legal force, the developer who successfully challenged it, and the county's stated intent to re-adopt a corrected version."
+    }
+   },
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "url": "https://www.thedesertreview.com/business/judge-strikes-down-county-freeze-on-data-center-approvals/article_e04f6dab-f223-497e-8f1f-3c8b48511d8c.html",
+     "title": "Judge strikes down County freeze on data center approvals",
+     "publisher": "The Desert Review",
+     "document_date": "2026-09",
+     "source_type": "news",
+     "supports": "Details of the Sept. 4, 2026 judgment and Sept. 11, 2026 peremptory writ of mandate ordering the County to set aside Ordinance Nos. 1616 and 1618; explains the Gov. Code 65858 'current and immediate threat' defect found by the court.",
+     "quote": "A peremptory writ of mandate issued Sept. 11 commands the County and Board of Supervisors to set aside Ordinance Nos. 1616 and 1618 and stop using them to withhold, suspend, or refuse permits for data-center facilities in unincorporated areas."
+    },
+    {
+     "url": "https://www.thedesertreview.com/news/imperial-county-reviews-next-steps-after-court-sets-aside-data-center-moratorium/article_6bdd6cc7-da32-492f-a2c5-14290871428d.html",
+     "title": "Imperial County reviews next steps after court sets aside data center moratorium",
+     "publisher": "The Desert Review",
+     "document_date": "2026-08",
+     "source_type": "news",
+     "supports": "County's own Aug. 28, 2026 press-release statement acknowledging the court's tentative ruling and stating it 'respects the court's ruling' while continuing to evaluate policy options.",
+     "quote": "The Superior Court recently ruled that the findings supporting the moratorium did not sufficiently address all applicable requirements under state law and directed that the moratorium be set aside"
+    },
+    {
+     "url": "https://kyma.com/dsw-living/data-centers/2026/09/22/imperial-county-judge-rules-on-data-center-freeze/",
+     "title": "Imperial County judge rules on data center freeze",
+     "publisher": "KYMA",
+     "document_date": "2026-09-22",
+     "source_type": "news",
+     "supports": "Most recent (Sept. 22, 2026) confirmation that the moratorium remains struck down and the county is preparing a replacement.",
+     "quote": "The county now said it is working on a new moratorium that addresses the court's concerns."
+    },
+    {
+     "url": "https://www.thedesertreview.com/news/imperial-county-data-center-advisory-committee-holds-first-meeting/article_85b44d47-7b3d-47c3-9728-a9e10358a1c4.html",
+     "title": "Imperial County data center advisory committee holds first meeting",
+     "publisher": "The Desert Review",
+     "document_date": "2026-09-17",
+     "source_type": "news",
+     "supports": "Confirms the Data Center Advisory Committee (created alongside the moratorium) is continuing to meet independent of the moratorium's court-ordered invalidation.",
+     "quote": "The Imperial County Data Center Advisory Committee held its first meeting Thursday, electing officers and completing its initial organizational work"
+    }
+   ],
+   "notes": "'rescinded' is used here as the closest codebook value for a moratorium ended by court-ordered writ of mandate rather than voluntary council repeal; the coordinator may want a distinct 'invalidated by court' status if one exists. The county's stated intent to adopt a corrected replacement moratorium was not yet realized as of 2026-09-23 and is not recorded as a new_candidate pending actual adoption."
+  },
+  {
+   "moratorium_id": "ca-indio-2026",
+   "outcome": "corrected",
+   "changes": {
+    "duration": {
+     "from": "Initial 45 days from 2026-06-03; extended by City Council vote on 2026-07-15. The extension's length and precise end date were not stated in the sources reviewed. [VERIFY]",
+     "to": "Initial 45 days from 2026-06-03 (Urgency Ordinance No. 1838); extended 90 days by unanimous City Council vote on 2026-07-15, keeping the pause in force through 2026-10-16 while staff drafts a permanent ban ordinance for Planning Commission and Council consideration.",
+     "reason": "Riverside Record and NBC Palm Springs both report the July 15 vote extended the moratorium by 90 days, through October 16."
+    },
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2026-10-16",
+     "reason": "NBC Palm Springs (2026-07-16): 'keeping new applications on hold through October 16th while the city works out permanent rules.'"
+    },
+    "current_status": {
+     "from": "Extended by City Council vote on 2026-07-15; the Planning Commission separately recommended a permanent prohibition on 2026-06-24 (advisory only). Precise extension end date not confirmed. [VERIFY] [VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+     "to": "Active as of 2026-09-23. The City Council voted unanimously on 2026-07-15 to extend the moratorium 90 days, through 2026-10-16, and directed staff to draft a permanent ban ordinance; staff's stated goal was a Planning Commission hearing in August and a Council vote in September, with a permanent ban taking effect in late October or early November 2026. As of the most recent secondary source reviewed (Desert Oasis Insider, September 2026), 'Indio's temporary moratorium currently runs through October 16,' with no adoption of the permanent ban yet confirmed in this pass; staff had indicated a further short extension would be sought if the permanent-ban schedule slipped.",
+     "reason": "Resolves the VERIFY markers with two independent news sources giving the exact extension length and end date; confirms the pause remains active and has not yet been replaced by a permanent ordinance."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "duration",
+     "marker": "[VERIFY]",
+     "resolution": "corrected",
+     "note": "Riverside Record and NBC Palm Springs both confirm a 90-day extension adopted 2026-07-15, running through 2026-10-16."
+    },
+    {
+     "field": "current_status",
+     "marker": "[VERIFY]",
+     "resolution": "corrected",
+     "note": "Same 90-day/October 16 extension confirms current_status; no permanent ordinance had been adopted as of this pass."
+    },
+    {
+     "field": "current_status",
+     "marker": "[VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "Only news coverage (Riverside Record, NBC Palm Springs, Desert Oasis Insider) was located; no Indio-hosted agenda, minutes, or ordinance PDF for the July 15 extension could be retrieved in this pass (indio.org's news page covers only the original June 3 item)."
+    }
+   ],
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://riversiderecord.org/indio-takes-another-step-toward-permanent-data-center-ban/",
+     "title": "Indio Takes Another Step Toward Permanent Data Center Ban",
+     "publisher": "The Riverside Record",
+     "document_date": "2026-07",
+     "source_type": "news",
+     "supports": "Confirms the unanimous July 15, 2026 vote extending the moratorium 90 days and directing staff to draft a permanent ban ordinance; describes the staff timeline (August Planning Commission, September Council, late Oct/early Nov effective date).",
+     "quote": "The Indio City Council last week voted unanimously to extend its temporary moratorium on data centers for 90 days and directed city staff to draft an ordinance permanently banning the use in all zones."
+    },
+    {
+     "url": "https://www.nbcpalmsprings.com/2026/07/16/indio-city-council-extends-data-center-moratorium-with-planning-commission-already-recommending-a-full-ban",
+     "title": "Indio City Council Extends Data Center Moratorium, With Planning Commission Already Recommending A Full Ban",
+     "publisher": "NBC Palm Springs",
+     "document_date": "2026-07-16",
+     "source_type": "news",
+     "supports": "Confirms the extension keeps the pause in force 'through October 16th' while the city drafts permanent rules.",
+     "quote": "Indio's City Council voted unanimously Wednesday night to extend its moratorium on data center projects, keeping new applications on hold through October 16th while the city works out permanent rules."
+    },
+    {
+     "url": "https://desertoasisinsider.shop/blogs/things-to-know/coachella-valley-data-centers-bans-moratoriums",
+     "title": "Coachella Valley Data Centers: Bans & Moratoriums",
+     "publisher": "Desert Oasis Insider",
+     "document_date": "2026-09",
+     "source_type": "news",
+     "supports": "September 2026 status roundup confirming Indio's moratorium is still running through October 16 with no permanent ordinance yet adopted.",
+     "quote": "Indio's temporary moratorium currently runs through October 16. The council directed staff to prepare a permanent-ban ordinance; no data-center application had been filed when the extension was considered"
+    }
+   ],
+   "notes": "enacted_status remains 'extended' (no status flip), so outcome is recorded as 'corrected' rather than 'status_changed.'"
+  },
+  {
+   "moratorium_id": "ca-oakley-2026",
+   "outcome": "corrected",
+   "changes": {
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2027-04-14",
+     "reason": "City Attorney Derek Cole, quoted by ContraCosta.news (2026-05-16 and 2026-07-20 articles), confirmed the May 12, 2026 extension (10 months 15 days) 'would take Oakley to April 14, 2027.'"
+    },
+    "current_status": {
+     "from": "Active under a first extension: the Oakley City Council adopted an urgency ordinance on 2026-05-12 (5-0 vote) extending the original 45-day moratorium by 10 months and 15 days. Under Gov. Code 65858(a), combined with the initial 45-day term this reaches the statutory one-year ceiling from initial adoption (2026-04-14), placing the current expiration at approximately 2027-04-13/14. No permanent data-center zoning ordinance had been adopted by Oakley as of the most recent primary record reviewed (2026-05-12 minutes); a joint Council/Planning Commission work session on data centers was reported by Contra Costa News for 2026-07-21, but that report was not independently corroborated with a primary agenda in this pass.",
+     "to": "Active as of 2026-09-23. The May 12, 2026 extension (10 months 15 days, 5-0 vote) runs the moratorium through 2027-04-14, per City Attorney Derek Cole's public statements. A joint City Council/Planning Commission work session was held 2026-07-21 (confirmed via the city's own posted staff report) to gather input on whether/where data centers should be allowed; no formal action was taken at that session, and the Mayor and staff indicated a goal of introducing permanent zoning standards 'by the end of this year' (2026). No permanent ordinance had been adopted and no further extension or rescission was found in sources reviewed through 2026-09-23.",
+     "reason": "Confirms the July 21, 2026 work session via the city's own staff report (previously only a secondary report), refreshes the as-of date, and adds the confirmed end date."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "legal_basis",
+     "marker": "[VERIFY exact assigned ordinance number for the April 14, 2026 urgency ordinance and its May 12, 2026 extension]",
+     "resolution": "still_unverifiable",
+     "note": "A third-party AI-summarized legal-notice aggregator (NoticeRegistry.com) states 'Oakley adopted Urgency Ordinance 9-26 on May 12, 2026,' but this could not be corroborated against a city-hosted ordinance, ecode360 disposition table, or news article giving the same number, and NoticeRegistry's own disclaimer states its summaries are AI-generated and may be inaccurate. Multiple ContraCosta.news and Mercury News articles on the April 14 and May 12 actions do not state an ordinance number. The marker is kept as still_unverifiable pending a primary source."
+    }
+   ],
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://contracosta.news/2026/05/16/oakley-agrees-to-extend-moratorium-on-data-centers-for-1-year/",
+     "title": "Oakley Agrees to Extend Moratorium on Data Centers For 1-Year",
+     "publisher": "ContraCosta.news",
+     "document_date": "2026-05-16",
+     "source_type": "news",
+     "supports": "Confirms the 5-0 vote to extend the moratorium by 10 months and 15 days on May 12/13, 2026, and City Attorney Derek Cole's statement that the extension runs to April 14, 2027.",
+     "quote": "According to City Attorney Derek Cole, two meetings ago the council imposed the moratorium ... Tuesday was the first extension which would take Oakley to April 14, 2027."
+    },
+    {
+     "url": "https://contracosta.news/2026/07/20/oakley-to-host-work-session-on-data-centers/",
+     "title": "Oakley to Host Work Session on Data Centers",
+     "publisher": "ContraCosta.news",
+     "document_date": "2026-07-20",
+     "source_type": "news",
+     "supports": "Confirms the moratorium remains in effect through April 14, 2027 as of the July 21, 2026 joint work session, and that no formal ban had been adopted; links the city's own staff report for the session.",
+     "quote": "Currently, the city is operating under an 'emergency ordinance' which has a moratorium on data centers through Oakley to April 14, 2027"
+    },
+    {
+     "url": "https://www.noticeregistry.com/california/notice/ordinance-oakley-967294",
+     "title": "May 20, 2026 Ordinance: 3231 Main Street, Oakley, CA",
+     "publisher": "NoticeRegistry.com",
+     "document_date": "2026-05-20",
+     "source_type": "other",
+     "supports": "Weak, AI-summarized secondary indication of an ordinance number ('Urgency Ordinance 9-26') for the May 12, 2026 extension; not independently corroborated.",
+     "quote": "Oakley adopted Urgency Ordinance 9-26 on May 12, 2026, temporarily halting processing and approval of new data center land-use applications citywide"
+    }
+   ]
+  },
+  {
+   "moratorium_id": "ca-calipatria-undated",
+   "outcome": "corrected",
+   "changes": {
+    "duration": {
+     "from": "Proposed five-year (1,825 day) moratorium on new large-scale data center development; not yet adopted as of the sources reviewed",
+     "to": "The originally proposed five-year (1,825-day) interim urgency moratorium (introduced 2026-05-12) was never brought back for a formal adoption vote. Instead, the City Council pivoted to pursuing a permanent prohibition: on 2026-07-14 the Council voted 3-2 (Chavez and Amezcua dissenting) to advance a resolution/ordinance permanently prohibiting the establishment and operation of data centers within city limits, directing staff to publish the full ordinance text and schedule a public hearing. As of a September 2026 public statement by Mayor Michael Luellen, staff had still not brought the drafted permanent ban back to the Council for a final vote.",
+     "reason": "KPBS (2026-08-04) and IVPressOnline reporting document the pivot from the proposed temporary moratorium to a permanent-ban track; the Mayor's own September 2026 public statement confirms the item remains unresolved at the staff level."
+    },
+    "current_status": {
+     "from": "As of the 2026-05-12 vote, the City Council had only directed staff to advertise and hold public hearings on the proposed ordinance; no adoption vote or enactment was identified in subsequent sources reviewed through 2026-07-31. [VERIFY instrument number; adoption date not confirmed at confidence 0.45 in the 2026-07 refresh]",
+     "to": "Still pending/unresolved as of 2026-09-23. The original five-year moratorium proposal was never adopted. On 2026-07-14 the City Council voted 3-2 to advance a permanent citywide data-center ban and directed staff to prepare the full ordinance for a public hearing; that item had not returned to the Council for a final vote as of a public statement by Mayor Michael Luellen (undated, September 2026 context), who listed 'Data center ban: Requests to present a permanent data center ban to the council have not been fulfilled' among directives he says city staff has left unaddressed for months. No instrument number, hearing date, or adoption exists to confirm. [VERIFY instrument number; adoption date still unconfirmed]",
+     "reason": "Updates the record with the July 14, 2026 pivot to a permanent-ban proposal and the most recent (September 2026) confirmation that it remains stalled at the staff level, unresolved as of the research date."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY instrument number; adoption date not confirmed at confidence 0.45 in the 2026-07 refresh]",
+     "resolution": "still_unverifiable",
+     "note": "Confirmed the underlying proposal was never adopted, and that the city pivoted to a permanent-ban proposal that was itself not yet finalized as of September 2026 (per the Mayor's own public statement). No instrument number exists because no ordinance has been adopted."
+    }
+   ],
+   "confidence": 0.75,
+   "evidence": [
+    {
+     "url": "https://www.kpbs.org/news/environment/2026/08/04/after-months-of-public-outcry-imperial-valley-cities-are-hitting-the-brakes-on-data-centers",
+     "title": "After months of public outcry, Imperial Valley cities are hitting the brakes on data centers",
+     "publisher": "KPBS Public Media",
+     "document_date": "2026-08-04",
+     "source_type": "news",
+     "supports": "Confirms the City Council never formally adopted the originally proposed moratorium, and instead voted 3-2 on July 14, 2026 to advance a stricter permanent-ban ordinance.",
+     "quote": "The town of around 6,500 was the first to consider a potential moratorium on the large-scale computing facilities back in May. But the Calipatria City Council never formally voted to approve it. Instead, the city has been developing an even stricter ordinance that would outlaw data centers within city limits ... On July 14, the council voted 3-2 to advance that potential ban"
+    },
+    {
+     "url": "https://kyma.com/dsw-living/data-centers/2026/07/15/calipatria-to-bring-back-vote-on-data-center-ban/",
+     "title": "Calipatria to bring back vote on data center ban",
+     "publisher": "KYMA",
+     "document_date": "2026-07-15",
+     "source_type": "news",
+     "supports": "Confirms the 3-2 vote to move forward with a data-center ban, with the proposal to return for a final vote at a later meeting.",
+     "quote": "The Calipatria City Council has voted to move forward with bringing back a vote to ban new data centers in city limits ... The proposal will return for a final vote at an upcoming meeting."
+    },
+    {
+     "url": "https://www.ivpressonline.com/news/calipatria-mayor-pledges-to-block-warrants-over-unfulfilled-council-directives/article_a72463b7-fd3c-4712-8f92-6d17cb9f15e2.html",
+     "title": "Calipatria Mayor pledges to block warrants over unfulfilled council directives",
+     "publisher": "Imperial Valley Press",
+     "document_date": "2026-09",
+     "source_type": "news",
+     "supports": "Confirms as of September 2026 the permanent data-center ban still has not been brought back to the Council for a final vote.",
+     "quote": "Data center ban: Requests to present a permanent data center ban to the council have not been fulfilled."
+    }
+   ],
+   "notes": "enacted_status remains 'pending'; no instrument or adoption date exists to promote this to 'active'."
+  },
+  {
+   "moratorium_id": "ca-irwindale-undated",
+   "outcome": "status_changed",
+   "new_enacted_status": "replaced",
+   "changes": {
+    "current_status": {
+     "from": "Adopted minutes or a signed ordinance confirming whether Ordinance 819 passed on 2026-05-27 were not located in sources reviewed through 2026-07-31. [VERIFY adoption date not confirmed at confidence 0.4 in the 2026-07 refresh]",
+     "to": "Replaced as of 2026-09-23. Whether Draft Urgency Ordinance 819 (the proposed 45-day moratorium) was ever formally adopted at the 2026-05-27 hearing could not be confirmed in this pass either; no news coverage or minutes referencing Ordinance 819's disposition were located. What is confirmed is that the City subsequently directed staff and legal counsel to prepare a permanent prohibition: the City Council unanimously approved Ordinance No. 821, adding Chapter 17.42 (Artificial Intelligence (AI) Data Centers & Associated Uses) to the Irwindale Municipal Code, on first reading 2026-08-26 and second reading/final adoption 2026-09-09; the ordinance takes effect 2026-10-09. This permanent citywide prohibition resolves the pending question regardless of Ordinance 819's status.",
+     "reason": "Confirms the city's final outcome (a permanent zoning ban, Ordinance 821) via a news report and a government-contracts aggregator describing the ordinance's scope and status, even though Ordinance 819's own adoption could not be separately confirmed."
+    },
+    "legal_basis": {
+     "from": "Draft Urgency Ordinance 819 (full draft text in the May 27, 2026 agenda packet); adoption requires a four-fifths Council vote under Gov. Code section 65858",
+     "to": "Draft Urgency Ordinance 819 (proposed 45-day moratorium, scheduled for a 2026-05-27 hearing; disposition unconfirmed) was superseded by Ordinance No. 821, adding Chapter 17.42 to Title 17 (Zoning) of the Irwindale Municipal Code to permanently prohibit the establishment and operation of AI data centers citywide; first reading 2026-08-26, adopted 2026-09-09 (unanimous), effective 2026-10-09.",
+     "reason": "SGV Tribune and a government-contracts summary (cleat.ai) both describe Ordinance 821's scope, adoption date, and effective date."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY adoption date not confirmed at confidence 0.4 in the 2026-07 refresh]",
+     "resolution": "corrected",
+     "note": "Ordinance 819's own adoption status remains unconfirmed, but the city's ultimate action -- a permanent ban, Ordinance No. 821, adopted 2026-09-09 -- is confirmed by SGV Tribune and resolves the practical status of this row."
+    }
+   ],
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.sgvtribune.com/2026/09/16/irwindale-approves-data-center-ban-adding-to-growing-list-of-san-gabriel-valley-cities/",
+     "title": "Irwindale approves data center ban, adding to growing list of San Gabriel Valley cities",
+     "publisher": "San Gabriel Valley Tribune",
+     "document_date": "2026-09-16",
+     "source_type": "news",
+     "supports": "Confirms the Sept. 9, 2026 unanimous adoption of Ordinance No. 821 (a permanent data-center ban), first reading Aug. 26, effective Oct. 9, 2026.",
+     "quote": "The Irwindale City Council unanimously approved a data center ban through an ordinance on Wednesday, Sept. 9, in effect 30 days after adoption. ... The unanimous vote on Ordinance No. 821 followed a first reading on Aug. 26. ... The ordinance will take effect on Oct. 9."
+    },
+    {
+     "url": "https://www.cleat.ai/government/contracts/ordinance-no-821-to-establish-an-ordinance-adding-chapter-17-42-artificial-intelligence-ai-data-centers-and-associated-uses-to-the-irwindale-municipal-code-fzpj",
+     "title": "Ordinance No. 821, to Establish an Ordinance adding Chapter 17.42 Artificial Intelligence (AI) Data Centers & Associated Uses to the Irwindale Municipal Code",
+     "publisher": "CLEAT.ai (government contracts aggregator)",
+     "document_date": "2026-09",
+     "source_type": "other",
+     "supports": "Describes Ordinance 821's scope: prohibiting AI data centers and associated uses citywide, managed by the Community Development Director.",
+     "quote": "Ordinance No. 821 is a city-initiated proposed amendment to the Irwindale Municipal Code designed to establish Chapter 17.42 ... The primary objective of this ordinance is to prohibit the establishment and operation of Artificial Intelligence data centers and their associated uses throughout the entire City of Irwindale, California."
+    },
+    {
+     "url": "https://www.dailynews.com/2026/09/18/la-county-issues-temporary-ban-on-mega-data-centers-with-ordinance-in-the-works/",
+     "title": "LA County issues temporary ban on mega data centers with ordinance in the works",
+     "publisher": "Los Angeles Daily News",
+     "document_date": "2026-09-18",
+     "source_type": "news",
+     "supports": "Independently corroborates the Sept. 9, 2026 Irwindale ordinance as part of a regional roundup.",
+     "quote": "Most recently, the Irwindale City Council unanimously approved a data center ban through an ordinance on Sept. 9, in effect 30 days after adoption."
+    }
+   ],
+   "notes": "Could not confirm whether the originally proposed interim Ordinance 819 (45-day moratorium) was ever formally adopted in May/June 2026; the city's CivicClerk portal for that meeting returned only a JS shell and no cached minutes text was found describing the vote outcome. The practical resolution (Ordinance 821, a permanent ban) is confirmed regardless."
+  },
+  {
+   "moratorium_id": "ca-imperial-2026",
+   "outcome": "status_changed",
+   "new_enacted_status": "extended",
+   "changes": {
+    "duration": {
+     "from": "45 days from 2026-06-03 (statutory term would run to approximately 2026-07-18 under Gov. Code section 65858); no extension of this City of Imperial ordinance was identified in sources reviewed through 2026-07-31. This is a distinct instrument and jurisdiction from the Imperial County Board of Supervisors' moratorium (already in the inventory as ca-imperial-county-2026), which was separately extended to one year.",
+     "to": "Initial 45 days from 2026-06-03 (Interim Urgency Ordinance No. 834). Contrary to the prior 'expired' classification, the City Council held a public hearing 2026-07-15 and unanimously (5-0) adopted Urgency Ordinance No. 835, extending Ordinance No. 834 for up to 10 months and 15 days under Gov. Code section 65858, so that -- as multiple sources independently confirm -- the City of Imperial's pause on data centers, high-performance computing facilities, and battery energy storage systems (BESS) runs through approximately May 2027. This remains a distinct instrument and jurisdiction from the Imperial County Board of Supervisors' moratorium (ca-imperial-county-2026, since rescinded by court order), which covers unincorporated county land, not the City of Imperial.",
+     "reason": "KPBS (2026-08-04), Hoodline, and a citizenportal.ai summary of the July 15, 2026 council meeting all confirm Ordinance No. 835 extended the pause; the prior 'expired' call rested only on the absence of a found extension, which this pass corrects."
+    },
+    "current_end_date_iso": {
+     "from": "",
+     "to": "2027-05-30",
+     "reason": "The Notice of Public Hearing (published by the city, July 2, 2026) states the extension is 'for a period of up to ten (10) months and fifteen (15) days' from the July 15, 2026 hearing/adoption date, which computes to approximately 2027-05-30; this matches KPBS's and Hoodline's description of the pause running 'through May 2027.' The exact day is calculated, not quoted verbatim, from a primary notice."
+    },
+    "sectors": {
+     "from": "[\"data_center\",\"battery_storage\"]",
+     "to": "[\"data_center\",\"battery_storage\"]",
+     "reason": "No change; the extension notice explicitly confirms the pause continues to cover 'Data Centers, High-Performance Computing Facilities, Battery Energy Storage Systems (BESS), Utility-Scale Energy Storage Facilities, Utility Support Infrastructure' consistent with the existing sectors value."
+    },
+    "current_status": {
+     "from": "No extension or permanent ordinance specific to the City of Imperial (distinct from Imperial County) was identified in sources reviewed through 2026-07-31; the 45-day term would have lapsed around 2026-07-18. [VERIFY details not confirmed at confidence 0.55 in the 2026-07 refresh]",
+     "to": "Active/extended as of 2026-09-23 -- correcting the prior 'expired' classification. Following a July 15, 2026 public hearing, the City Council unanimously (5-0) adopted Urgency Ordinance No. 835, extending Interim Urgency Ordinance No. 834 by up to 10 months and 15 days (to approximately 2027-05-30/through May 2027), continuing the pause on data centers, high-performance computing facilities, and battery energy storage systems (BESS) citywide while staff finishes defining data-center categories, mapping feasible industrial sites, and evaluating environmental and labor impacts. KPBS ('the city of Imperial has also temporarily frozen all data center development through May 2027') and Hoodline both independently confirm this as of August 2026, and no further change was found through 2026-09-23. This is unrelated to, and unaffected by, the Imperial County Superior Court's September 2026 order setting aside the separate Imperial County Board of Supervisors moratorium (ca-imperial-county-2026), which governs unincorporated county land only.",
+     "reason": "Corrects the prior 'expired' call, which rested on an absence-of-evidence inference the process guidance cautions against; multiple independent primary and secondary sources confirm the City actually extended the pause."
+    }
+   },
+   "verify_resolutions": [
+    {
+     "field": "current_status",
+     "marker": "[VERIFY details not confirmed at confidence 0.55 in the 2026-07 refresh]",
+     "resolution": "corrected",
+     "note": "Confirmed via the City of Imperial's own published Notice of Public Hearing (July 2, 2026) plus KPBS, citizenportal.ai's meeting summary, and Hoodline that the City Council extended the moratorium (Ordinance 835 extending Ordinance 834) through approximately May 2027, rather than letting it expire."
+    }
+   ],
+   "confidence": 0.88,
+   "evidence": [
+    {
+     "url": "https://calexicochronicle.com/wp-content/uploads/2026/07/City-of-Imperial-Public-Hearing-9447.pdf",
+     "title": "Notice of Public Hearing -- Extension of Interim Urgency Ordinance No. 834",
+     "publisher": "City of Imperial",
+     "document_date": "2026-07-02",
+     "source_type": "agenda",
+     "supports": "Official city notice confirming the July 15, 2026 hearing to extend Ordinance 834 for up to 10 months 15 days, covering data centers, high-performance computing facilities, and BESS.",
+     "quote": "The purpose of the public hearing is to consider extending Interim Urgency Ordinance No. 834 ... The proposed extension would extend the moratorium for a period of up to ten (10) months and fifteen (15) days, in accordance with California Government Code Section 65858"
+    },
+    {
+     "url": "https://citizenportal.ai/articles/8545066/california/imperial-county/imperial-city/imperial-council-extends-temporary-moratorium-on-data-centers-amid-labor-siting-and-environmental-study",
+     "title": "Imperial council extends temporary moratorium on data centers amid labor, siting and environmental study",
+     "publisher": "citizenportal.ai",
+     "document_date": "2026-07",
+     "source_type": "other",
+     "supports": "Confirms the 5-0 unanimous vote adopting Urgency Ordinance No. 835, extending Ordinance No. 834.",
+     "quote": "The Imperial City Council on Wednesday unanimously approved Urgency Ordinance No. 835, extending an interim 45-day moratorium on data-center development ... a councilmember moved to adopt Ordinance 835 to extend Ordinance 834; the motion was seconded and carried 5-0."
+    },
+    {
+     "url": "https://www.kpbs.org/news/environment/2026/08/04/after-months-of-public-outcry-imperial-valley-cities-are-hitting-the-brakes-on-data-centers",
+     "title": "After months of public outcry, Imperial Valley cities are hitting the brakes on data centers",
+     "publisher": "KPBS Public Media",
+     "document_date": "2026-08-04",
+     "source_type": "news",
+     "supports": "Independently confirms the City of Imperial extended its moratorium through May 2027.",
+     "quote": "The city of Imperial has also temporarily frozen all data center development through May 2027. In early June, the Imperial City Council approved an emergency moratorium that paused all data center projects for 45 days. Last month, the council voted to extend that pause into next year as well."
+    },
+    {
+     "url": "https://hoodline.com/2026/08/imperial-valley-slams-brakes-on-ai-data-centers-amid-power-water-fears/",
+     "title": "Imperial Valley Slams Brakes On AI Data Centers Amid Power, Water",
+     "publisher": "Hoodline",
+     "document_date": "2026-08",
+     "source_type": "news",
+     "supports": "Further independent confirmation that Imperial (the city) extended its development pause through May 2027.",
+     "quote": "Imperial has extended its development pause through May 2027, according to KPBS."
+    }
+   ],
+   "notes": "This is a significant correction: the 2026-07 refresh classified this row as 'expired' based on not finding an extension; this pass found the extension (Ordinance 835) via four independent sources, including the city's own public hearing notice. The exact end date (2027-05-30) is calculated from 'up to 10 months 15 days' from the July 15, 2026 hearing/adoption date and should be treated as approximate."
+  }
+ ],
+ "new_candidates": [
+  {
+   "state": "California",
+   "jurisdiction": "Palm Springs",
+   "jurisdiction_type": "City",
+   "date_enacted": "2026-08-26, Palm Springs City Council unanimous adoption of an urgency ordinance (item brought forward by Councilmember Grace Garner)",
+   "date_enacted_iso": "2026-08-26",
+   "date_enacted_uncertainty": "exact",
+   "duration": "45 days from adoption, effective immediately as an urgency ordinance; council discussed the possibility of extending for up to two years, consistent with the Gov. Code section 65858 pattern used elsewhere in the Coachella Valley.",
+   "duration_days": 45,
+   "duration_kind": "fixed_days",
+   "current_end_date_iso": "2026-10-10",
+   "legal_basis": "Urgency ordinance adopted under California Gov. Code section 65858",
+   "trigger": "Regional wave of Coachella Valley moratoria/bans (Coachella, Desert Hot Springs, Indio); city's zoning/municipal code does not currently define or regulate data center uses; concerns over water, electricity, infrastructure, and land impacts of large-scale facilities.",
+   "trigger_categories": [
+    "regulatory_gap",
+    "water",
+    "grid_energy",
+    "infrastructure_capacity",
+    "land_use_compatibility"
+   ],
+   "sectors": [
+    "data_center"
+   ],
+   "current_status": "Active as of 2026-09-23. 45-day urgency moratorium on new large-scale data center applications, adopted 2026-08-26, in effect through approximately 2026-10-10 (KESQ) while the city's planning department incorporates data center definitions into an ongoing zoning code update; city planners indicated fall 2026 community outreach on the issue.",
+   "enacted_status": "active",
+   "affected_projects": "None named; city officials stated no active data center application was pending.",
+   "outcome": "45-day urgency moratorium adopted while the city updates its zoning code, which currently does not define data center uses.",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://kesq.com/news/2026/08/26/palm-springs-city-council-approves-temporary-data-center-moratorium/",
+     "title": "Palm Springs City Council approves temporary data center moratorium",
+     "publisher": "KESQ",
+     "document_date": "2026-08-26",
+     "source_type": "news",
+     "supports": "Confirms unanimous adoption of the 45-day urgency ordinance on Aug. 26, 2026, and that the moratorium runs through Oct. 10.",
+     "quote": "Palm Springs City Council members unanimously approved a temporary moratorium on new large-scale data center projects Wednesday night. ... The Palm Springs data center moratorium will remain in effect through Oct. 10."
+    },
+    {
+     "url": "https://www.kvcrnews.org/local-news/2026-08-28/coachella-becomes-second-california-city-to-ban-data-centers-as-opposition-swells-in-golden-state",
+     "title": "Coachella becomes second California city to ban data centers as opposition swells in Golden State",
+     "publisher": "KVCR News",
+     "document_date": "2026-08-28",
+     "source_type": "news",
+     "supports": "Independently corroborates the Aug. 26, 2026 Palm Springs vote and quotes Planning Director Chris Hadwin on the absence of existing data-center zoning definitions.",
+     "quote": "Just a few miles west, the Palm Springs City Council also voted on Wednesday to enact a 45-day moratorium on data centers. They have the option to extend the ordinance for up to two years, if needed."
+    },
+    {
+     "url": "https://riversiderecord.org/coachella-palm-springs-data-center-ban-moratorium/",
+     "title": "Coachella, Palm Springs Take Action On Data Centers",
+     "publisher": "The Riverside Record",
+     "document_date": "2026-08",
+     "source_type": "news",
+     "supports": "Confirms the scope of the moratorium (prohibits accepting, processing, or approving applications/permits related to data centers).",
+     "quote": "The 45-day moratorium prohibits the city from accepting, processing or approving any applications or permits related to data centers"
+    }
+   ],
+   "notes": "No city-hosted ordinance PDF was located via bc-web in this pass; relying on three independent news sources for adoption date, term, and end date."
+  },
+  {
+   "state": "California",
+   "jurisdiction": "Los Angeles County",
+   "jurisdiction_type": "County",
+   "date_enacted": "2026-09-17, effective date of a memorandum signed by Amy Bodek, Director of the Department of Regional Planning, implementing Board of Supervisors direction from an April 14, 2026 motion by Supervisor Hilda Solis",
+   "date_enacted_iso": "2026-09-17",
+   "date_enacted_uncertainty": "exact",
+   "duration": "Interim administrative prohibition on processing/approving large-scale (hyperscale) AI data centers in unincorporated county zones, in effect until the Board of Supervisors adopts a permanent zoning ordinance. A motion to formally initiate that ordinance was scheduled for a Community Services Cluster Agenda Review on 2026-09-23, with a Board of Supervisors hearing expected around 2026-10-06.",
+   "duration_days": null,
+   "duration_kind": "until_event",
+   "current_end_date_iso": "",
+   "legal_basis": "Department of Regional Planning Director's memorandum (interim planning guidance), issued pursuant to and implementing the Board of Supervisors' unanimous April 14, 2026 motion (Solis) directing staff to study and recommend data-center zoning code amendments; a formal ordinance was in preparation as of this pass, not yet adopted by the Board.",
+   "trigger": "San Gabriel Valley community concerns over health, environmental, water, and electricity impacts of hyperscale AI data centers (following the Monterey Park/SDCF controversy and other regional moratoria); Board of Supervisors motion directing a zoning study; noise, air-quality, and utility-rate concerns cited by county Public Health and Public Works directors.",
+   "trigger_categories": [
+    "regulatory_gap",
+    "water",
+    "grid_energy",
+    "noise",
+    "environmental",
+    "land_use_compatibility"
+   ],
+   "sectors": [
+    "data_center"
+   ],
+   "current_status": "Active as of 2026-09-23. On Sept. 17, 2026, LA County's Department of Regional Planning director issued a memorandum imposing an immediate, interim prohibition on new hyperscale AI data center development in all zones of unincorporated county territory (about 1 million of the county's 10 million residents), pending Board of Supervisors adoption of a formal ordinance. A motion to formally initiate that ordinance was on the agenda for a Sept. 23, 2026 Community Services Cluster Agenda Review meeting, with Board consideration expected around Oct. 6, 2026. Smaller enterprise/accessory/sole-source data centers are not covered by the prohibition.",
+   "enacted_status": "active",
+   "affected_projects": "No hyperscale data centers currently sited in unincorporated county areas as of the memo; about 74 data centers operate elsewhere within LA County (mostly in incorporated cities), unaffected by the county action.",
+   "outcome": "Interim administrative ban imposed via Regional Planning Director memorandum while the Board of Supervisors moves to adopt a permanent zoning ordinance banning hyperscale AI data centers in unincorporated areas.",
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://www.dailynews.com/2026/09/18/la-county-issues-temporary-ban-on-mega-data-centers-with-ordinance-in-the-works/",
+     "title": "LA County issues temporary ban on mega data centers with ordinance in the works",
+     "publisher": "Los Angeles Daily News",
+     "document_date": "2026-09-18",
+     "source_type": "news",
+     "supports": "Confirms the Sept. 17, 2026 effective date of the Regional Planning director's memorandum, its scope (hyperscale data centers, all unincorporated zones), the Sept. 23 agenda review and expected Oct. 6 Board hearing, and that smaller enterprise/sole-source centers are exempt.",
+     "quote": "The L.A. County Department of Regional Planning enacted a moratorium on large scale data centers, also known as hyperscale data centers serving generative AI, that went into effect for all zones in unincorporated county areas on Thursday, Sept. 17. Signed by Amy Bodek, director of Regional Planning, the memo puts in place a temporary ban until an ordinance is prepared, vetted and goes before the Board of Supervisors."
+    },
+    {
+     "url": "https://abc7.com/post/la-county-issues-temporary-ban-data-centers-unincorporated-areas/19852541/",
+     "title": "LA County issues temporary ban on data centers in unincorporated areas",
+     "publisher": "ABC7 Los Angeles / City News Service",
+     "document_date": "2026-09-17",
+     "source_type": "news",
+     "supports": "Confirms the memorandum, cites Board Chair Hilda Solis's April 2026 motion as the underlying authority, and describes intent to bring a formal zoning amendment before the Board.",
+     "quote": "Los Angeles County's planning director Thursday ordered an immediate prohibition on the development of large-scale data centers that power artificial intelligence in unincorporated areas of the county."
+    },
+    {
+     "url": "https://planning.lacounty.gov/long-range-planning/data-centers/",
+     "title": "Data Centers",
+     "publisher": "Los Angeles County Department of Regional Planning",
+     "document_date": "2026-09",
+     "source_type": "other",
+     "supports": "Official county planning page confirming the April 14, 2026 Board motion directing the study and recommendations on data-center zoning.",
+     "quote": "On April 14, 2026, the Los Angeles (County) Board of Supervisors adopted a motion directing the Department of Regional Planning and Department of Public Health, in collaboration with other departments, to provide [findings and recommendations on data centers]"
+    }
+   ],
+   "notes": "Unusual instrument type: an administrative director's memorandum rather than a council/board-adopted ordinance or resolution. Recorded as 'active' with moderated confidence because it functions as an immediate, county-wide halt on hyperscale data center approvals, but a formal Board-adopted ordinance was still pending as of 2026-09-23. The coordinator may want a distinct sub-type flag for administratively-imposed (non-legislative) pauses."
+  },
+  {
+   "state": "California",
+   "jurisdiction": "Baldwin Park",
+   "jurisdiction_type": "City",
+   "date_enacted": "2026-03-04, Baldwin Park City Council adoption of an urgency ordinance establishing a 45-day moratorium; extended following a 2026-04-15 public hearing",
+   "date_enacted_iso": "2026-03-04",
+   "date_enacted_uncertainty": "exact",
+   "duration": "Initial 45 days from 2026-03-04; extended following an April 15, 2026 public hearing under Gov. Code section 65858, bringing the total pause to approximately one year ('yearlong ban') per regional reporting.",
+   "duration_days": 365,
+   "duration_kind": "fixed_days",
+   "current_end_date_iso": "2027-03-04",
+   "legal_basis": "Urgency ordinance adopted under California Gov. Code section 65858, extended via public hearing on 2026-04-15 (exact extension ordinance number not located in this pass)",
+   "trigger": "Regional San Gabriel Valley wave of data center moratoria/bans (Monterey Park, El Monte, Montebello); city seeking time to study impacts and develop zoning standards for data center uses before any application is filed.",
+   "trigger_categories": [
+    "regulatory_gap",
+    "land_use_compatibility"
+   ],
+   "sectors": [
+    "data_center"
+   ],
+   "current_status": "Active as of 2026-09-23. A 45-day urgency moratorium on new data centers was adopted March 4, 2026 and extended (public hearing April 15, 2026) to a yearlong pause, per the City's own social media announcement and an official Coachella city staff presentation citing regional precedents. A September 2026 CNS/ABC7 regional roundup on the new LA County ordinance still describes Baldwin Park (with El Monte) as having 'voted to implement a yearlong ban on data centers proposed within their city limits,' indicating the pause remained a live reference point as of that date; no adoption of a permanent ordinance or rescission was found in this pass.",
+   "enacted_status": "active",
+   "affected_projects": "None identified.",
+   "outcome": "45-day moratorium adopted and extended to approximately one year while the city develops data-center zoning standards.",
+   "confidence": 0.72,
+   "evidence": [
+    {
+     "url": "https://abc7.com/post/la-county-issues-temporary-ban-data-centers-unincorporated-areas/19852541/",
+     "title": "LA County issues temporary ban on data centers in unincorporated areas",
+     "publisher": "ABC7 Los Angeles / City News Service",
+     "document_date": "2026-09-17",
+     "source_type": "news",
+     "supports": "Confirms the yearlong ban was adopted 'in late April' 2026 and remained a regional reference point as of September 2026.",
+     "quote": "In late April, the city councils of El Monte and Baldwin Park also voted to implement a yearlong ban on data centers proposed within their city limits."
+    },
+    {
+     "url": "https://kesq.b-cdn.net/2026/06/ITEM-Attachment-001-9c65ab855b23448b9e9f99cb1087e791.pdf",
+     "title": "City of Coachella -- Temporary Moratorium on Data Centers (staff presentation)",
+     "publisher": "City of Coachella",
+     "document_date": "2026-06-04",
+     "source_type": "staff_report",
+     "supports": "Official Coachella staff presentation's statewide-roundup table confirms Baldwin Park's March 4, 2026 45-day moratorium and its April 15, 2026 extension public hearing.",
+     "quote": "Baldwin Park: 45-Day Moratorium; Moratorium Extended. March 4, 2026. An urgency ordinance was adopted establishing a 45-day moratorium on the approval, establishment, or operation of data centers in the City. On April 15th, the City Council held a public hearing to extend the urgency ordinance."
+    },
+    {
+     "url": "https://www.instagram.com/p/DXQP2zvlKM2/",
+     "title": "Baldwin Park is taking proactive steps to protect our community (official city post)",
+     "publisher": "City of Baldwin Park",
+     "document_date": "2026-04",
+     "source_type": "other",
+     "supports": "City's own social media confirms the March 4, 2026 adoption date and April 15, 2026 extension vote.",
+     "quote": "On March 4, 2026, the City Council adopted a 45-day moratorium on new data centers. On April 15, 2026, we voted to extend that moratorium"
+    }
+   ],
+   "notes": "No independent news article (beyond regional roundups) or city-hosted ordinance text was located; confidence held at 0.72 given reliance on a regional CNS wire story, an official-but-secondary city staff presentation from a different jurisdiction (Coachella), and the city's own Instagram post rather than a primary ordinance document."
+  },
+  {
+   "state": "California",
+   "jurisdiction": "Richmond",
+   "jurisdiction_type": "City",
+   "date_enacted": "2026-09-15, Richmond City Council adoption of an urgency ordinance (regular meeting)",
+   "date_enacted_iso": "2026-09-15",
+   "date_enacted_uncertainty": "exact",
+   "duration": "45 days from the date of adoption, effective immediately as an urgency ordinance (four-fifths vote), extendable under Gov. Code section 65858.",
+   "duration_days": 45,
+   "duration_kind": "fixed_days",
+   "current_end_date_iso": "2026-10-30",
+   "legal_basis": "Urgency Ordinance of the City Council of the City of Richmond, California, Establishing a 45-Day Temporary Moratorium on the Establishment of New Data Centers, adopted pursuant to Gov. Code sections 36937 and 65858",
+   "trigger": "City's municipal code does not specifically define or regulate data centers; council directed staff in April 2026 to return with a proposed moratorium; concerns over electricity/water use, noise, air quality, and the city's limited industrial land.",
+   "trigger_categories": [
+    "regulatory_gap",
+    "water",
+    "grid_energy",
+    "noise",
+    "infrastructure_capacity"
+   ],
+   "sectors": [
+    "data_center"
+   ],
+   "current_status": "Active as of 2026-09-23. 45-day urgency moratorium adopted 2026-09-15, prohibiting the establishment, construction, conversion, or expansion of any data center citywide (with an exception for subordinate-use data/server rooms and existing lawfully-operating facilities). No pending data center applications were reported by the city as of adoption. Richmond is described as the second city in Contra Costa County (after Oakley) to adopt a data center moratorium.",
+   "enacted_status": "active",
+   "affected_projects": "None; city reported no pending data center applications.",
+   "outcome": "45-day urgency moratorium adopted while staff studies potential regulations and permanent zoning standards for data centers.",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "url": "https://pub-richmond.escribemeetings.com/filestream.ashx?DocumentId=63014",
+     "title": "Urgency Ordinance of the City Council of the City of Richmond, California, Establishing a 45-Day Temporary Moratorium on the Establishment of New Data Centers",
+     "publisher": "City of Richmond",
+     "document_date": "2026-09-15",
+     "source_type": "ordinance",
+     "supports": "Full signed/certified ordinance text: 45-day term from date of adoption, scope (prohibits new data center approvals/permits), exceptions for subordinate server rooms and existing facilities, and certification of passage at the September 15, 2026 regular meeting.",
+     "quote": "This ordinance shall be in effect from the date of adoption for a period of forty-five (45) days, unless it is extended pursuant to Government Code section 65858 ... I hereby certify that the foregoing Urgency Ordinance of the City Council of Richmond was duly passed and adopted at a regular meeting thereof held September 15, 2026"
+    },
+    {
+     "url": "https://richmondstandard.com/community/2026/09/16/richmond-city-council-approves-45-day-moratorium-on-new-data-centers/",
+     "title": "Richmond City Council approves 45-day moratorium on new data centers",
+     "publisher": "Richmond Standard",
+     "document_date": "2026-09-16",
+     "source_type": "news",
+     "supports": "Confirms the Sept. 15/16, 2026 adoption, that the council directed staff in April to return with a proposed moratorium, and that the city currently has no pending data center applications.",
+     "quote": "The Richmond City Council voted to approve a 45-day moratorium on new data centers Tuesday, giving the city time to study their potential impacts and consider permanent regulations."
+    },
+    {
+     "url": "https://ccpulse.org/2026/09/20/richmond-second-in-contra-costa-to-pass-data-center-moratorium/",
+     "title": "Richmond 2nd in Contra Costa to Pass Data Center Moratorium",
+     "publisher": "CC Pulse",
+     "document_date": "2026-09-20",
+     "source_type": "news",
+     "supports": "Independently corroborates the adoption and notes Richmond is the second Contra Costa County city (after Oakley) to adopt such a moratorium.",
+     "quote": "Richmond 2nd in Contra Costa to Pass Data Center Moratorium"
+    }
+   ],
+   "notes": "Primary ordinance text obtained directly from the city's eScribe meeting portal."
+  },
+  {
+   "state": "California",
+   "jurisdiction": "Patterson",
+   "jurisdiction_type": "City",
+   "date_enacted": "2026-07-16, Patterson City Council adoption of an initial 45-day moratorium; extended by unanimous (4-0) vote on 2026-08-18",
+   "date_enacted_iso": "2026-07-16",
+   "date_enacted_uncertainty": "exact",
+   "duration": "Initial 45 days from 2026-07-16; extended by a 4-0 City Council vote on 2026-08-18 through 2027-07-15. State law caps the total moratorium period at two years.",
+   "duration_days": 45,
+   "duration_kind": "fixed_days",
+   "current_end_date_iso": "2027-07-15",
+   "legal_basis": "Temporary urgency moratorium ordinance on data center construction, adopted 2026-07-16 and extended by City Council vote 2026-08-18 (exact ordinance numbers not located in this pass)",
+   "trigger": "Study of potential effects of data center development on public utilities (water, energy infrastructure), air quality, and noise levels in nearby communities; city in early stages of determining how to regulate data centers long-term.",
+   "trigger_categories": [
+    "regulatory_gap",
+    "water",
+    "grid_energy",
+    "noise",
+    "infrastructure_capacity"
+   ],
+   "sectors": [
+    "data_center"
+   ],
+   "current_status": "Active as of 2026-09-23. Initial 45-day moratorium on data center construction adopted 2026-07-16; extended unanimously (4-0) on 2026-08-18 through 2027-07-15 while the city studies utility, air-quality, and noise impacts before considering permanent regulations. City attorney described the city as being in 'the very early stages' of determining a regulatory approach.",
+   "enacted_status": "extended",
+   "affected_projects": "None named in sources reviewed.",
+   "outcome": "45-day moratorium adopted and extended through July 2027 while the city studies data center impacts and considers permanent regulations.",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://www.kcra.com/article/patterson-extend-data-center-moratorium/73470335",
+     "title": "Patterson extends data center moratorium through July 2027",
+     "publisher": "KCRA",
+     "document_date": "2026-08-18",
+     "source_type": "news",
+     "supports": "Confirms the initial July 16, 2026 45-day pause and the unanimous (4-0) August 18, 2026 extension through July 15, 2027.",
+     "quote": "The 4-0 vote extends the moratorium through July 15, 2027. The council initially approved a 45-day pause on July 16, 2026."
+    },
+    {
+     "url": "https://www.cbsnews.com/sacramento/news/patterson-extends-data-center-moratorium/",
+     "title": "Patterson extends data center moratorium through July 2027",
+     "publisher": "CBS Sacramento",
+     "document_date": "2026-08-18",
+     "source_type": "news",
+     "supports": "Independently corroborates the extension vote and end date.",
+     "quote": "The Patterson City Council unanimously voted Tuesday night to extend a temporary moratorium on data center construction"
+    },
+    {
+     "url": "https://www.kvcrnews.org/local-news/2026-08-28/coachella-becomes-second-california-city-to-ban-data-centers-as-opposition-swells-in-golden-state",
+     "title": "Coachella becomes second California city to ban data centers as opposition swells in Golden State",
+     "publisher": "KVCR News",
+     "document_date": "2026-08-28",
+     "source_type": "news",
+     "supports": "Lists Patterson among California cities that have passed data center moratoriums, corroborating the KCRA/CBS reporting.",
+     "quote": "Other cities across the state who have passed moratoriums include Baldwin Park, El Monte, Desert Hot Springs, Indio and Patterson."
+    }
+   ],
+   "notes": "No city-hosted ordinance PDF located in this pass; relying on two independent TV-news wire reports (KCRA/CBS Sacramento share the same underlying story) plus one corroborating regional roundup."
+  }
+ ]
+}

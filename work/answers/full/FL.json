@@ -1,0 +1,938 @@
+{
+  "state_abbrev": "FL",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "fl-lynn-haven-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "expired",
+      "changes": {
+        "current_status": {
+          "from": "Active interim pause; the separate one-year ordinance had not been shown as finally adopted in the reviewed sources.",
+          "to": "Expired 2026-08-22; Resolution 2026-06-561 provided by its own terms that it would remain in effect only until the earlier of (a) City Commission adoption of the separate 'Moratorium Ordinance,' (b) the Commission formally declining to adopt it, or (c) 60 days from the resolution's 2026-06-23 adoption. Review of the City's official agenda/minutes packets for every City Commission meeting from 2026-07-14 through 2026-09-22 (plus special meetings 2026-09-16 and 2026-09-21) found no Data Center/AI Data Center Moratorium Ordinance ever placed on an agenda for either reading, and no news coverage of its adoption, decline, or extension. The 60-day clock therefore ran out on 2026-08-22 without the city having adopted, declined, or extended the pause.",
+          "reason": "The primary source (signed Resolution 2026-06-561) sets an unconditional 60-day outer limit from 2026-06-23 adoption (i.e., 2026-08-22). A systematic check of the city's Legacy Agenda Center and its successor CivicClerk portal for all seven intervening City Commission meetings (2026-07-14, 07-28, 08-11, 08-25, 09-08, 09-22) plus two special meetings (09-16, 09-21) shows the promised 'Moratorium Ordinance' was never introduced, and no news source reports it was adopted, declined, or that the interim resolution was extended. Under the process guidance this supports 'expired' at reduced confidence given the silence-based inference."
+        }
+      },
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.cityoflynnhaven.gov/AgendaCenter/ViewFile/Agenda/_06232026-1365",
+          "title": "Resolution No. 2026-06-561",
+          "publisher": "City of Lynn Haven",
+          "document_date": "2026-06-23",
+          "source_type": "resolution",
+          "supports": "Signed resolution text: interim pause on data-center/AI data-center applications remains in effect until the earlier of Moratorium Ordinance adoption, formal decline, or 60 days from 2026-06-23 adoption (i.e. 2026-08-22).",
+          "quote": "this Resolution shall remain in effect until the earlier of: (a) the date on which the City Commission adopts the Moratorium Ordinance; (b) the date on which the City Commission formally declines to adopt the Moratorium Ordinance; or (c) sixty (60) days from the date of adoption of this Resolution"
+        },
+        {
+          "url": "https://citizenportal.ai/articles/8333747/florida/bay-county/lynn-haven/lynn-haven-commission-enacts-temporary-moratorium-on-data-ai-data-centers",
+          "title": "Lynn Haven commission enacts temporary moratorium on data, AI data centers",
+          "publisher": "citizenportal.ai",
+          "document_date": "2026-06-23",
+          "source_type": "news",
+          "supports": "Confirms the June 23 resolution was an interim step ahead of a still-to-be-drafted ordinance; no effective date or sunset stated in the motion as read.",
+          "quote": "No specific effective date or sunset was included in the motion as read; the commission framed the item as an initial, preventive measure while ordinance language is developed."
+        },
+        {
+          "url": "https://lynnhavenfl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1034,plainText=false)",
+          "title": "07/28/26 City Commission Agenda Packet",
+          "publisher": "City of Lynn Haven (CivicClerk)",
+          "document_date": "2026-07-28",
+          "source_type": "agenda",
+          "supports": "No Data Center/AI Data Center Moratorium Ordinance item appears on the 2026-07-28 City Commission agenda.",
+          "quote": "Final Reading of Ordinance 1176-AR Comprehensive Plan Amendment ... First Reading only of Ordinance 1191 ... First Reading of Ordinance 1192"
+        },
+        {
+          "url": "https://lynnhavenfl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1057,plainText=false)",
+          "title": "08/11/26 Agenda Packet w/ ADDENDUM",
+          "publisher": "City of Lynn Haven (CivicClerk)",
+          "document_date": "2026-08-11",
+          "source_type": "agenda",
+          "supports": "No Data Center/AI Data Center Moratorium Ordinance item on the 2026-08-11 agenda (the date the 60-day resolution's clock was still running).",
+          "quote": "Final reading of Ordinance 1192 Amending Ch.42 Updating Code of Conduct in City Parks"
+        },
+        {
+          "url": "https://lynnhavenfl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1079,plainText=false)",
+          "title": "08/25/26 City Commission Agenda Packet",
+          "publisher": "City of Lynn Haven (CivicClerk)",
+          "document_date": "2026-08-25",
+          "source_type": "agenda",
+          "supports": "No Data Center/AI Data Center Moratorium Ordinance item on the first City Commission meeting after the resolution's 2026-08-22 sixty-day deadline had passed.",
+          "quote": "Final reading of Ordinance 1192 Amending Ch.42 Updating Code of Conduct in City Parks"
+        },
+        {
+          "url": "https://lynnhavenfl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1104,plainText=false)",
+          "title": "09/08/26 Agenda Cover",
+          "publisher": "City of Lynn Haven (CivicClerk)",
+          "document_date": "2026-09-08",
+          "source_type": "agenda",
+          "supports": "No Data Center/AI Data Center Moratorium Ordinance item on the 2026-09-08 City Commission agenda cover.",
+          "quote": "(agenda cover items reviewed; no data center or moratorium item listed)"
+        },
+        {
+          "url": "https://lynnhavenfl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1117,plainText=false)",
+          "title": "09/22/26 Agenda Packet",
+          "publisher": "City of Lynn Haven (CivicClerk)",
+          "document_date": "2026-09-22",
+          "source_type": "agenda",
+          "supports": "No Data Center/AI Data Center Moratorium Ordinance item on the most recent City Commission agenda before this research pass (2026-09-22); the only 'moratorium' text hit in the packet concerns an unrelated city hiring freeze.",
+          "quote": "there is already a hiring moratorium, reduced training, etc."
+        }
+      ],
+      "notes": "The resolution's own 60-day term, the absence of the promised ordinance from seven subsequent Commission agendas, and the absence of any news coverage of adoption/decline/extension together support 'expired' rather than 'unresolvable,' per the process guidance allowing this inference at confidence <=0.7 when a fixed end date has passed and official sources show no extension. Could not confirm the city ever formally acknowledged the lapse (no rescission or expiration notice found), so confidence is capped at 0.6."
+    },
+    {
+      "moratorium_id": "fl-pensacola-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "date_enacted": {
+          "from": "First reading passed 7-0 on 2026-07-16; second reading required before adoption. Not yet finally enacted as of the compilation date.",
+          "to": "First reading passed 7-0 on 2026-07-16; adopted on second and final reading by a 7-0 vote at the 2026-08-13 City Council Regular Meeting as Ordinance No. 11-26 (agenda item 'Proposed Ordinance No. 13-26').",
+          "reason": "City Council official meeting minutes for 2026-08-13 record the second-reading adoption vote 7-0 and give the enacted ordinance number."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-08-13",
+          "reason": "Date of the second-reading adoption vote per official City Council minutes."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Confirmed against official City Council minutes."
+        },
+        "legal_basis": {
+          "from": "Pensacola Proposed Ordinance No. 13-26 (first reading only; second reading required for adoption)",
+          "to": "City of Pensacola Ordinance No. 11-26 (introduced as Proposed Ordinance No. 13-26; adopted 2026-08-13 on second reading, 7-0)",
+          "reason": "Official minutes give both the proposed-ordinance agenda number and the enacted ordinance number."
+        },
+        "current_status": {
+          "from": "Pending second reading as of the chronology's coverage window (through 2026-07-31); not yet adopted.",
+          "to": "Active as of 2026-09-23; the one-year moratorium on large-scale data centers and large-load-customer facilities (50 MW+) was adopted on second and final reading 2026-08-13 by a 7-0 vote (Ordinance No. 11-26).",
+          "reason": "Updates status to reflect confirmed final adoption, sourced to official minutes and corroborating news."
+        }
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://pensacolafl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5114,plainText=false)",
+          "title": "City Council Regular Meeting Minutes 08/13/2026",
+          "publisher": "City of Pensacola",
+          "document_date": "2026-08-13",
+          "source_type": "minutes",
+          "supports": "Second-reading adoption vote 7-0 of Proposed Ordinance No. 13-26, enacted as Ordinance No. 11-26.",
+          "quote": "18. 26-839 PROPOSED ORDINANCE NO.13-26 \u2014 TEMPORARY MORATORIUM ON LARGE-SCALE DATA CENTERS AND LARGE LOAD CUSTOMER FACILITIES ... (Ordinance No. 11-26) ... The motion passed by the following vote: Yes: 7 No: 0"
+        },
+        {
+          "url": "https://www.pnj.com/story/news/local/pensacola/2026/07/17/pensacola-approves-one-year-ban-on-ai-data-centers/90940449007/",
+          "title": "Pensacola approves one-year ban on AI data centers",
+          "publisher": "Pensacola News Journal",
+          "document_date": "2026-07-17",
+          "source_type": "news",
+          "supports": "Confirms the 2026-07-16 vote was only the first of two required readings.",
+          "quote": "The July 16 vote is the first of two required votes to make the ban official."
+        },
+        {
+          "url": "https://www.noticeregistry.com/florida/notice/public-hearing-pensacola-11640997",
+          "title": "Aug 3, 2026 Public Hearing: 222 West Main Street, Pensacola, Florida",
+          "publisher": "NoticeRegistry",
+          "document_date": "2026-08-03",
+          "source_type": "other",
+          "supports": "Public notice referencing the scheduled final reading and adoption hearing.",
+          "quote": "The City of Pensacola will hold a final reading and adoption hearing on August 13, 2026 at 5:30 p.m. for two proposed ordinances"
+        }
+      ],
+      "notes": "No VERIFY markers on this row."
+    },
+    {
+      "moratorium_id": "fl-pinellas-park-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "date_enacted": {
+          "from": "Placed on first reading 2026-07-21; public hearing scheduled for 2026-08-11 (after the compilation window). Not yet finally enacted.",
+          "to": "Placed on first reading 2026-07-21; adopted unanimously at the 2026-08-11 public hearing as Ordinance 2026-22.",
+          "reason": "Multiple news sources report the City Council's unanimous 2026-08-11 vote adopting the ordinance."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-08-11",
+          "reason": "Date of the unanimous council vote adopting Ordinance 2026-22."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Confirmed via two independent news sources."
+        },
+        "legal_basis": {
+          "from": "Pinellas Park Ordinance 2026-22 (first reading only; not yet adopted)",
+          "to": "Pinellas Park Ordinance 2026-22, adopted 2026-08-11",
+          "reason": "News sources give the enacted ordinance number and adoption date."
+        },
+        "current_status": {
+          "from": "Pending; the city reported it would not consider data center proposals while the measure proceeds. Public hearing scheduled 2026-08-11, after the compilation window. [VERIFY adoption date not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23; the City Council voted unanimously 2026-08-11 to adopt Ordinance 2026-22, a 12-month moratorium on data centers and 'large load customer facilities' (50 MW+ anticipated monthly peak load). The pause ends at the earlier of a land development code amendment or 12 months (i.e. on or about 2026-08-11-2027).",
+          "reason": "Resolves the VERIFY marker; confirmed via baynews9.com and a detailed local explainer (pinellascommunity.com) describing the adopted ordinance's terms."
+        },
+        "affected_projects": {
+          "from": "American Tower data-processing facility proposal, 10700 76th Court N.",
+          "to": "American Tower Corporation's proposed ~17,653 sq ft data-processing facility east of Belcher Road (10700 76th Court N.); American Tower's counsel asked the council for a continuance to negotiate regulations, which the council declined.",
+          "reason": "Adds detail on the project and its outcome from the adoption-hearing coverage."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://baynews9.com/fl/tampa/news/2026/08/11/pinellas-park-leaders-ok-one-year-moratorium-on-data-centers",
+          "title": "Pinellas Park leaders OK one-year moratorium on data centers",
+          "publisher": "Bay News 9 / Spectrum News",
+          "document_date": "2026-08-11",
+          "source_type": "news",
+          "supports": "Unanimous City Council vote 2026-08-11 to impose the one-year moratorium after the American Tower proposal.",
+          "quote": "Pinellas Park City Council voted unanimously to impose a one-year moratorium on new data center development after American Tower Corporation proposed a 17,000-square-foot data processing facility east of Belcher Road."
+        },
+        {
+          "url": "https://pinellascommunity.com/posts/pinellas-will-put-it-in-writing-no-large-data-centers-in-the-unincorporated-county",
+          "title": "Pinellas Will Put It in Writing: No Large Data Centers in the Unincorporated County",
+          "publisher": "Pinellas County Community Website",
+          "document_date": "2026-08-25",
+          "source_type": "news",
+          "supports": "Gives the ordinance number, adoption date, and its terms (50 MW threshold; ends at LDC amendment or 12 months, whichever first).",
+          "quote": "The city council voted unanimously on Aug. 11 to adopt Ordinance 2026-22, a 12-month moratorium on data centers and what the ordinance calls \u201clarge load customer facilities,\u201d defined as any development with an anticipated monthly peak electric load of 50 megawatts or more. The pause ends when the city adopts a land development code amendment or after 12 months, whichever comes first."
+        }
+      ],
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY adoption date not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "resolution": "confirmed",
+          "note": "Adoption confirmed via two independent news sources (Bay News 9 and pinellascommunity.com), both reporting the unanimous 2026-08-11 vote adopting Ordinance 2026-22."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "moratorium_id": "fl-palm-beach-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active interim intake freeze pending adoption of a formal moratorium ordinance. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. The July 7 interim intake freeze remains in force. The formal one-year moratorium ordinance (defining a 'large-scale' facility at 50 MW+ peak demand, with site-wide load aggregation to prevent parcel-splitting, and carve-outs for hurricane-damaged parcels) passed first reading unanimously 7-0 on 2026-08-27; the Board is scheduled to hold the second and final public hearing and possible formal adoption on 2026-09-24 (i.e., the day after this research date), so the ordinance had not yet been finally adopted as of 2026-09-23. [VERIFY instrument number for the July 7 interim zoning-in-progress directive; still not located in an official numbered document]",
+          "reason": "Adds confirmed detail on the formal ordinance's progress (unanimous first reading 2026-08-27; final vote scheduled 2026-09-24) found via the county's own reporting and multiple news outlets; the underlying enacted_status and July 7 start date are unchanged."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.wlrn.org/government-politics/2026-08-27/palm-beach-county-artificial-intelligence-data-centers",
+          "title": "Palm Beach County commissioners put a halt on massive artificial intelligence data centers",
+          "publisher": "WLRN",
+          "document_date": "2026-08-27",
+          "source_type": "news",
+          "supports": "7-0 first-reading vote 2026-08-27 on the formal moratorium ordinance; second hearing/possible adoption scheduled 2026-09-24.",
+          "quote": "Palm Beach County commissioners voted 7-0 today to move toward an official one-year moratorium on massive artificial intelligence data centers ... The board is scheduled to reconvene on Sept. 24 for a second hearing and potential formal adoption of the plan."
+        },
+        {
+          "url": "https://gotowncrier.com/2026/09/county-commissioners-support-data-center-moratorium-plan/",
+          "title": "County Commissioners Support Data Center Moratorium Plan",
+          "publisher": "Town-Crier Newspaper",
+          "document_date": "2026-09-04",
+          "source_type": "news",
+          "supports": "Confirms unanimous first-reading approval 2026-08-27 and that the second and final reading is scheduled for 2026-09-24, with terms (50 MW threshold, anti-fragmentation language, hurricane-affected-parcel exemption).",
+          "quote": "The board unanimously approved the moratorium ordinance. Commissioners will consider the second and final reading on the matter Thursday, Sept. 24."
+        }
+      ],
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Checked WLRN, Town-Crier, CBS12, WFLX, WPBF, and Sun-Sentinel coverage of the July 7 zoning-in-progress directive and the August 27 first reading; none publishes a numbered resolution/ordinance for the original July 7 interim freeze (it is consistently described as a staff/zoning-in-progress directive). The follow-on formal ordinance itself remains unadopted as of 2026-09-23 (final vote set for 2026-09-24), so no instrument number exists yet for it either."
+        }
+      ],
+      "notes": "Second/final reading is scheduled for 2026-09-24, one day after this research pass; outcome may change again in the next refresh."
+    },
+    {
+      "moratorium_id": "fl-madison-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active one-year moratorium. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Confirmed via the county's local newspaper of record (Greene Publishing / Madison County Carrier) and a Suwannee Riverkeeper (WWALS) report that tracked the ordinance through both readings: first reading 2026-07-08, second reading and 4-0 final adoption 2026-07-22, imposing a one-year moratorium on construction and permitting of large-scale data center facilities. No subsequent extension, repeal, or replacement found. [VERIFY instrument/ordinance number: the enacted ordinance's assigned number was still not located in a signed county document as of 2026-09-23]",
+          "reason": "Confirms the July 22 adoption via two independent local sources beyond the original national-outlet-only sourcing, and refreshes the 'as of' date."
+        }
+      },
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.greenepublishing.com/county-commission-passes-data-center-moratorium/",
+          "title": "County Commission passes data center moratorium",
+          "publisher": "Greene Publishing (Madison County Carrier)",
+          "document_date": "2026-07-23",
+          "source_type": "news",
+          "supports": "Local paper of record confirms the 2026-07-22 unanimous vote imposing a one-year moratorium on construction/permitting of large-scale data centers.",
+          "quote": "During the regular meeting of the Madison County Board of County Commissioners on Wednesday, July 22, the Commissioners voted unanimously to impose a one-year moratorium on the construction and permitting of large-scale data centers."
+        },
+        {
+          "url": "https://wwals.net/2026/07/17/datacenter-moratorium-proposed-hamilton-county-bocc-2026-07-08/",
+          "title": "Datacenter Moratorium Proposed \u2013 Madison County BOCC 2026-07-08",
+          "publisher": "WWALS Watershed Coalition / Suwannee RIVERKEEPER",
+          "document_date": "2026-07-23",
+          "source_type": "news",
+          "supports": "Confirms first reading 2026-07-08 and a 4:0 final passage vote on 2026-07-23 (reported update date for the 2026-07-22 meeting).",
+          "quote": "Update 2026-07-23: Madison County BOCC passed the datacenter moratorium 4:0."
+        }
+      ],
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "The draft ordinance circulated ahead of the vote (in the county's July 8 agenda packet, archived via WWALS) left the ordinance number blank ('ORDINANCE NO. 2026-____'); no subsequently filed signed copy with the assigned number was located despite checking the county's Diligent agenda portal and both local-news accounts of the adoption. Underlying facts of adoption (date, vote, duration) are now confirmed by two independent local sources rather than only prior news-only sourcing, so the broader claim is resolved even though the exact instrument number is not."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "moratorium_id": "fl-pasco-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active one-year moratorium. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Confirmed via WUSF (public radio) and the county's own pre-adoption ordinance text (agenda packet), which sets a 12-month duration 'or until such time as repealed by the Board, whichever occurs first.' No extension, repeal, or replacement found through 2026-09-23.",
+          "reason": "Adds a primary-source ordinance text (Section 5, Duration of Temporary Moratorium) confirming the 12-month/until-repealed term, and refreshes the 'as of' date."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.panamacity.gov/AgendaCenter/ViewFile/Item/17177?fileID=36990",
+          "title": "Board of County Commissioners Ordinance \u2013 Pasco County temporary moratorium on Data Center Facilities",
+          "publisher": "Pasco County Board of County Commissioners",
+          "document_date": "2026",
+          "source_type": "ordinance",
+          "supports": "Pre-adoption text of the moratorium ordinance, Section 5 setting the 12-month duration.",
+          "quote": "The duration of this temporary moratorium shall be 12 months, or until such time as repealed by the Board, whichever occurs first, and may be extended by resolution of the Board to the extent permitted by law."
+        },
+        {
+          "url": "https://www.wusf.org/politics-issues/2026-07-15/pasco-county-one-year-moratorium-large-data-centers",
+          "title": "Pasco County enacts a one-year moratorium on large data centers",
+          "publisher": "WUSF",
+          "document_date": "2026-07-15",
+          "source_type": "news",
+          "supports": "Confirms the unanimous 2026-07-15 (reported) adoption of the 12-month moratorium.",
+          "quote": "Pasco County Commissioners approved a one-year moratorium on large-scale data centers on Tuesday."
+        }
+      ],
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "The county's own agenda-packet copy of the ordinance (hosted, oddly, under a shared CivicPlus AgendaCenter file path at panamacity.gov but containing Pasco County's ordinance text) left the 'ORDINANCE NO.' line blank as of the pre-adoption draft; no separately numbered, signed copy was located. The underlying facts (12-month duration, adoption) are now confirmed by a primary-source ordinance text plus WUSF, addressing the substance of the marker even though the exact number remains unconfirmed."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "moratorium_id": "fl-santa-rosa-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active 12-month moratorium. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Confirmed via the county's own BOCC Special Rezoning Meeting agenda (2026-07-23) and the Santa Rosa Press Gazette (local paper of record), both corroborating the PNJ reporting that the ordinance was adopted at the 2026-07-23 special meeting. [VERIFY instrument/ordinance number: still not located in a signed county document as of 2026-09-23]",
+          "reason": "Adds the official meeting agenda plus a local-paper source beyond the prior national-outlet-only sourcing."
+        }
+      },
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://santarosacofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3015,plainText=false)",
+          "title": "Santa Rosa County BOCC Special Rezoning Meeting Agenda, 2026-07-23",
+          "publisher": "Santa Rosa County Development Services",
+          "document_date": "2026-07-23",
+          "source_type": "agenda",
+          "supports": "Official agenda item for adoption of the one-year data-center/large-load-customer moratorium ordinance at the 2026-07-23 special meeting.",
+          "quote": "Proposed Ordinance that places a temporary, one-year moratorium on the acceptance, review, or approval of applications for development permits, development orders, rezoning, site plans, and other county approvals for large-scale data centers and large load customer facilities within the unincorporated areas of Santa Rosa County"
+        },
+        {
+          "url": "https://srpressgazette.com/santa-rosa-county-adopts-12-month-data-center-ban/",
+          "title": "Santa Rosa County adopts 12-month data center ban",
+          "publisher": "Santa Rosa Press Gazette",
+          "document_date": "2026-07-29",
+          "source_type": "news",
+          "supports": "Local paper of record confirms the adopted 12-month pause on large-scale data centers and other high-demand users.",
+          "quote": "The Santa Rosa County Board of County Commissioners adopted a 12-month ban on large-scale data centers and other high-demand users in the county\u2019s unincorporated areas, pausing new applications while county staff study potential effects on the local area."
+        },
+        {
+          "url": "https://www.pnj.com/story/news/local/santa-rosa/2026/07/08/data-center-moratorium-would-ban-santa-rosa-consideration-for-one-year/90849010007/",
+          "title": "Data center moratorium in Santa Rosa County up for consideration",
+          "publisher": "Pensacola News Journal",
+          "document_date": "2026-07-08",
+          "source_type": "news",
+          "supports": "Establishes the two-hearing process (first hearing 2026-07-09, second 2026-07-23) leading to adoption.",
+          "quote": "Santa Rosa County Commissioners on July 9 will hold the first of two public hearings required before adoption"
+        }
+      ],
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Retrieved the county's own CivicClerk agenda for the 2026-07-23 special rezoning meeting where the ordinance was adopted, but the agenda item does not carry an assigned ordinance number, and the full ~50MB agenda packet exceeded the fetch tool's size cap so it could not be searched for a signed copy. The Santa Rosa Press Gazette (paywalled) confirms adoption but likewise does not give an instrument number. Underlying adoption facts are now confirmed via an official agenda plus a local paper, addressing the substance of the marker even though the exact ordinance number is not resolved."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "moratorium_id": "fl-sarasota-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active freeze through approximately July 2027 pending permanent rules. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23; the Commission's 2026-07-08 vote directed an immediate halt on acceptance, review and approval of hyperscale (50 MW+) data-center applications until at least July 2027 while permanent rules are developed. Commissioners Neunder and Smith indicated in July they would return in August seeking a permanent ban, but no subsequent vote finalizing a permanent ban or amending the freeze was found through 2026-09-23. [VERIFY instrument number: still no numbered resolution/ordinance located; the action continues to be reported only as a Commission vote/administrative freeze]",
+          "reason": "Adds detail from mysuncoast.com/WWSB (Suncoast Searchlight republication) on the freeze's scope and the county's stated intent to revisit for a permanent ban, and confirms no further action has yet finalized that intent."
+        }
+      },
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.mysuncoast.com/2026/07/09/sarasota-county-blocks-hyperscale-data-centers-least-one-year/",
+          "title": "Sarasota County blocks hyperscale data centers for at least one year",
+          "publisher": "WWSB / Suncoast Searchlight",
+          "document_date": "2026-07-09",
+          "source_type": "news",
+          "supports": "Confirms the 2026-07-08 vote halting acceptance/review/approval of hyperscale (50 MW+) data centers until at least July 2027, following the XF Group inquiry on Cattlemen Road; commissioners signaled intent to seek a permanent ban when they return from August recess.",
+          "quote": "Commissioners voted on Wednesday to halt the \u201cacceptance, review and approval\u201d of any major data centers until at least July 2027 ... Commissioners Neunder and Smith indicated they would return in August looking for a way to ban hyperscale data centers forever."
+        }
+      ],
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Checked mysuncoast.com/WWSB, Suncoast Searchlight, WUSF, WGCU, the Herald-Tribune, and Reddit coverage of the July 8 vote; none identifies a numbered resolution or ordinance for the freeze, and it is consistently described only as a Commission vote directing staff. No follow-up September coverage was found confirming a permanent ban was subsequently adopted, so the marker remains unresolved."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "moratorium_id": "fl-zephyrhills-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active one-year moratorium effective 2026-06-22. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Confirmed directly against the City of Zephyrhills' official Code of Ordinances index (Municode), which lists 'Ordinance No. 1523-26 ... Adopted 6/22/26' establishing the temporary moratorium; the intervening ordinances adopted through 2026-08-24 (Nos. 1524-26 through 1528-26) are unrelated (mobile food vending, stormwater, sanitation/water rates, LDC procedures), confirming the moratorium has not been repealed or replaced.",
+          "reason": "Resolves the VERIFY marker with a primary official source (the city's codified ordinance index) rather than news alone, and confirms no later ordinance has touched the moratorium."
+        }
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://library.municode.com/fl/zephyrhills",
+          "title": "Code of Ordinances | Zephyrhills, FL | Municode Library",
+          "publisher": "City of Zephyrhills / Municode",
+          "document_date": "2026-08-24",
+          "source_type": "other",
+          "supports": "Official codified ordinance index confirms Ordinance No. 1523-26 (the data-center moratorium) adopted 6/22/26 and lists all later ordinances through 8/24/26, none of which amend or repeal it.",
+          "quote": "Ordinance No. 1523-26 Adopted 6/22/26 AN ORDINANCE OF THE CITY OF ZEPHYRHILLS, FLORIDA ESTABLISHING A TEMPORARY MORATORIUM ON THE ACCEPTANCE, PROCESSING, REVIEW, APPROVAL, OR ISSUANCE OF BUILDING PERMITS, REZONINGS, SITE PLANS, CONDITIONAL USE APPROVALS, VARIANCES, COMPREHENSIVE PLAN AMENDMENTS, OR OTHER CITY APPROVALS FOR THE CONSTRUCTION, ESTABLISHMENT, EXPANSION, OR INTENSIFICATION OF DATA CENTERS, DATA CENTER FACILITIES, LARGE-SCALE DATA CENTERS, AND LARGE LOAD CUSTOMER FACILITIES WITHIN THE MUNICIPAL LIMITS OF CITY OF ZEPHYRHILLS."
+        }
+      ],
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "resolution": "confirmed",
+          "note": "Confirmed against the city's own codified Municode ordinance index, a primary/official source, which lists Ordinance No. 1523-26 as adopted 6/22/26 and shows no later ordinance amending or repealing it through 8/24/26."
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Florida",
+      "jurisdiction": "Bay County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Approved by the Board of County Commissioners 2026-07-07 (reported 2026-07-08).",
+      "date_enacted_iso": "2026-07-07",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six-month moratorium on data centers requiring 5 MW of power or more in unincorporated Bay County, while staff reviews and updates land development regulations; may be extended another six months if permanent rules are not ready.",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Bay County Board of County Commissioners ordinance (specific ordinance number not located in reviewed sources); adopted 2026-07-07.",
+      "trigger": "Months of public discussion and comment on proposed AI data centers in unincorporated Bay County.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "specific_project"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23; six-month pause on data centers of 5 MW or more, set to run roughly through early January 2027, while planning staff update land development regulations.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Six-month moratorium adopted; permanent regulations expected before it expires, or a further six-month extension possible.",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.wjhg.com/2026/07/08/bay-county-approves-six-month-moratorium-ai-data-centers/",
+          "title": "Bay County approves six-month moratorium on AI data centers",
+          "publisher": "WJHG/WECP",
+          "document_date": "2026-07-08",
+          "source_type": "news",
+          "supports": "Six-month moratorium approved 2026-07-07/08, applying to data centers of 5 MW or more, with possible six-month extension.",
+          "quote": "After months of discussion about proposed data centers in unincorporated Bay County, commissioners approved a six-month moratorium on certain AI data centers. County Attorney Brian Leebrick said the pause applies to any data center that would require more than five megawatts of power or more."
+        }
+      ],
+      "notes": "This is a distinct county-level action from the City of Lynn Haven's own resolution (fl-lynn-haven-2026) and the City of Panama City's separate ordinance (both cities sit within Bay County)."
+    },
+    {
+      "state": "Florida",
+      "jurisdiction": "Panama City",
+      "jurisdiction_type": "City",
+      "date_enacted": "Adopted on second/final reading by the City Commission 2026-09-23 (Ordinance 3313); first public hearing held 2026-09-08.",
+      "date_enacted_iso": "2026-09-23",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One-year moratorium on new data center proposals, giving city staff 12 months to study impacts and develop permanent zoning rules; does not apply to existing facilities or routine maintenance.",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "City of Panama City Ordinance 3313",
+      "trigger": "Regulatory-gap/precautionary; part of a wave of Bay County-area moratoria.",
+      "trigger_categories": [
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23 (adopted the same day); one-year pause on new large-scale data center proposals.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "One-year moratorium adopted on second reading.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.wjhg.com/2026/09/23/panama-city-approves-one-year-ban-new-data-center-proposals/",
+          "title": "Panama City approves one-year ban on new data center proposals",
+          "publisher": "WJHG/WECP",
+          "document_date": "2026-09-23",
+          "source_type": "news",
+          "supports": "City Commission approved a one-year ban on new data center proposals on 2026-09-23; does not apply to existing facilities or routine maintenance.",
+          "quote": "Panama City commissioners are pausing large-scale data centers, approving a one-year ban on new proposals. The freeze gives city staff 12 months to study the potential impacts and develop permanent zoning rules ... City leaders said the temporary ban does not apply to existing facilities or routine maintenance."
+        },
+        {
+          "url": "https://www.wjhg.com/2026/09/09/panama-city-considers-one-year-moratorium-data-centers/",
+          "title": "Panama City considers one-year moratorium on data centers",
+          "publisher": "WJHG/WECP",
+          "document_date": "2026-09-09",
+          "source_type": "news",
+          "supports": "Confirms the 2026-09-08 first public hearing on the proposed ordinance (Ordinance 3313), the first of two required hearings.",
+          "quote": "Panama City commissioners held a public hearing Tuesday on a proposed one-year moratorium for large-scale data centers ... Tuesday\u2019s hearing was the first of two on the issue."
+        }
+      ],
+      "notes": "Ordinance number (3313) taken from search-result snippets of the city's own AgendaCenter item and contemporaneous TV-news social posts (WKRG, WMBB) describing 'Ordinance 3313'; the agenda PDF itself (panamacity.gov) exceeded the fetch tool's size cap so could not be archived directly, but the ordinance number is corroborated across multiple independent outlets."
+    },
+    {
+      "state": "Florida",
+      "jurisdiction": "Flagler County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Adopted on second reading by the Board of County Commissioners 2026-08-03 (Monday), unanimous.",
+      "date_enacted_iso": "2026-08-03",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One-year moratorium on new data center development in unincorporated Flagler County while the county researches the industry and develops zoning/land development regulations. Amended before final passage to remove the 'large-scale'/'large load customer facility' qualifiers so the pause applies to all data centers, not only large ones.",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-08-03",
+      "legal_basis": "Flagler County ordinance (adopted on second reading 2026-08-03; specific ordinance number not located in reviewed sources).",
+      "trigger": "Months of discussion about the rapid growth of the data-center industry and resident concerns about impacts on electrical infrastructure, water, noise, and land use.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "grid_energy",
+        "water",
+        "noise",
+        "land_use_compatibility"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23; one-year moratorium applying only to unincorporated Flagler County (does not affect projects within municipal boundaries such as Palm Coast).",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "One-year moratorium adopted on second reading, broadened at final passage to cover all data centers rather than only large-scale ones.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.observerlocalnews.com/news/2026/aug/03/flagler-county-approves-one-year-data-center-moratorium/",
+          "title": "Flagler County approves one-year data-center moratorium",
+          "publisher": "Palm Coast Observer / Ormond Beach Observer",
+          "document_date": "2026-08-03",
+          "source_type": "news",
+          "supports": "Unanimous second-reading adoption 2026-08-03 of a one-year moratorium on new data-center development in unincorporated Flagler County, amended to remove 'large-scale' language so it covers all data centers.",
+          "quote": "Flagler County commissioners unanimously approved a one-year moratorium on new data centers in unincorporated Flagler County on Monday ... The ordinance, approved on second reading, temporarily prohibits new data center development while the county evaluates how such facilities could affect electrical infrastructure, water resources, noise, land use and surrounding communities."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "state": "Florida",
+      "jurisdiction": "Leon County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Commissioners directed staff in July 2026 to pursue an ordinance; the proposed ordinance passed its first of two required public hearings unanimously 2026-09-15. The second and final public hearing/vote is scheduled for 2026-10-13 and had not occurred as of this research date.",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed 18-month moratorium on large-load customer facilities, including large-scale data centers, in unincorporated Leon County, to give staff time to study impacts on electricity/water supplies, utility rates, the environment, and surrounding communities and to develop regulations; staff plans to report findings by September 2027.",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "current_end_date_iso": "",
+      "legal_basis": "Proposed Leon County ordinance (first reading passed 2026-09-15; not yet adopted).",
+      "trigger": "Proposal originated with Commission Chairman Christian Caban after SB 484 took effect 2026-07-01; county code and the Tallahassee-Leon County 2050 Comprehensive Plan lack provisions addressing large-load customers/data centers.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "grid_energy",
+        "water"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Pending as of 2026-09-23; first reading passed unanimously 2026-09-15, with the second and final public hearing scheduled for 2026-10-13. County staff report no approved or pending large-scale data-center applications in unincorporated Leon County as of this filing.",
+      "enacted_status": "pending",
+      "affected_projects": "",
+      "outcome": "First reading passed unanimously; final adoption pending as of 2026-09-23.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://fox49.tv/news/local/leon-county-moves-toward-18-month-data-center-moratorium",
+          "title": "Leon County moves toward 18-month data center moratorium",
+          "publisher": "Fox 49 (WTXL)",
+          "document_date": "2026-09-15",
+          "source_type": "news",
+          "supports": "First-reading unanimous approval 2026-09-15 of an 18-month moratorium; second/final public hearing scheduled 2026-10-13.",
+          "quote": "County commissioners unanimously advanced an 18-month moratorium on applications for large-load customer facilities, including large-scale data centers. A second and final public hearing is scheduled for Oct. 13."
+        },
+        {
+          "url": "https://tallahasseereports.com/2026/09/11/leon-county-to-hold-public-hearing-on-18-month-data-center-moratorium/",
+          "title": "Leon County to Hold Public Hearing on 18-Month Data Center Moratorium",
+          "publisher": "Tallahassee Reports",
+          "document_date": "2026-09-11",
+          "source_type": "news",
+          "supports": "Explains the two-hearing process: first hearing 2026-09-15, second and final hearing recommended for 2026-10-13; county directed staff in July to pursue the moratorium following SB 484.",
+          "quote": "County staff recommends commissioners conduct the first hearing and schedule the second and final public hearing for Oct. 13 at 6 p.m. The Sept. 15 hearing is required before the ordinance can be adopted."
+        }
+      ],
+      "notes": "An earlier 2026-07-14 commission discussion (widely reported at the time as the county having 'passed' an 18-month moratorium) was in fact only a direction to staff to begin drafting the ordinance, not adoption; the ordinance's own two required public hearings did not begin until September. Recorded here as pending rather than active given the final vote had not occurred as of 2026-09-23."
+    },
+    {
+      "state": "Florida",
+      "jurisdiction": "Franklin County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Commissioners voted unanimously to approve the moratorium 2026-07-15 (Wednesday morning), after directing staff in June to prepare it.",
+      "date_enacted_iso": "2026-07-15",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One-year moratorium on large-scale AI data center proposals, while commissioners consider a permanent ban.",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Franklin County Board of County Commissioners ordinance (specific ordinance number not located in reviewed sources); adopted 2026-07-15.",
+      "trigger": "Precautionary; more than one commissioner stated an eventual goal of a permanent ban.",
+      "trigger_categories": [
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23; one-year moratorium on large-scale AI data center proposals adopted 2026-07-15.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "One-year moratorium adopted unanimously.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.aol.com/articles/franklin-county-approves-1-ai-031331000.html",
+          "title": "Franklin County approves 1-year AI data center moratorium",
+          "publisher": "WMBB via AOL",
+          "document_date": "2026-07-16",
+          "source_type": "news",
+          "supports": "Unanimous vote 2026-07-15 (Wednesday) approving a one-year moratorium on large-scale AI data center proposals.",
+          "quote": "Franklin County commissioners approved a one-year moratorium on large-scale AI data center proposals Wednesday morning. Commissioners voted unanimously to pass the moratorium."
+        }
+      ],
+      "notes": "A June 3, 2026 WJHG story ('Franklin County commissioners vote AI data centers') covers an earlier direction-to-staff vote, not final adoption; final adoption is dated to the July 15 unanimous vote per the AOL/WMBB report."
+    },
+    {
+      "state": "Florida",
+      "jurisdiction": "DeSoto County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Commissioners approved the moratorium unanimously (4-0, one commissioner recused) 2026-07-28 (Tuesday).",
+      "date_enacted_iso": "2026-07-28",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One-year moratorium on new data-center applications in DeSoto County; explicitly does not apply to rezoning applications already pending for DCIP Group's 800-plus-acre data-center project (which can continue to move forward).",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "DeSoto County Board of County Commissioners ordinance (specific ordinance number not located in reviewed sources); adopted 2026-07-28.",
+      "trigger": "Intense public opposition to DCIP Group's proposed data-center campus (initially a 34-acre rezoning at a decommissioned power plant, since expanded with an 800-plus-acre rezoning request and stated intent to build on up to 1,300 acres).",
+      "trigger_categories": [
+        "specific_project",
+        "water",
+        "environmental"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23; one-year moratorium adopted 2026-07-28, with DCIP Group's pending rezoning applications exempted from its coverage.",
+      "enacted_status": "active",
+      "affected_projects": "DCIP Group data-center campus (decommissioned power-plant site; pending rezoning of 800+ additional acres; company has said it hopes to build more than a dozen facilities across roughly 1,300 acres) -- exempted from the moratorium.",
+      "outcome": "One-year moratorium adopted, county attorney limited scope to one year and excluded pending applications rather than following the Planning Commission's recommendation of a two-year moratorium covering the DCIP Group applications.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wgcu.org/top-story/2026-07-29/desoto-approves-data-center-moratorium-but-controversial-project-can-advance",
+          "title": "DeSoto approves data center moratorium, but controversial project can advance",
+          "publisher": "WGCU / Suncoast Searchlight",
+          "document_date": "2026-07-29",
+          "source_type": "news",
+          "supports": "Unanimous (4-0, one recusal) 2026-07-28 vote adopting a one-year moratorium that exempts DCIP Group's pending rezoning applications.",
+          "quote": "DeSoto County commissioners approved a one-year moratorium on data centers Tuesday, but it won\u2019t apply to rezoning applications tied to an 800-plus-acre data center project proposed earlier this year. The unanimous vote by four commissioners \u2014 the fifth recused himself \u2014 follows months of intense public opposition"
+        },
+        {
+          "url": "https://www.mysuncoast.com/2026/07/09/sarasota-county-blocks-hyperscale-data-centers-least-one-year/",
+          "title": "Sarasota County blocks hyperscale data centers for at least one year",
+          "publisher": "WWSB / Suncoast Searchlight",
+          "document_date": "2026-07-09",
+          "source_type": "news",
+          "supports": "Corroborates that DeSoto County was moving toward its own data-center moratorium around the same time as Sarasota County's action, tied to the DCIP Group project.",
+          "quote": "The move comes as data center developments become a flashpoint for local governments across the country, including neighboring DeSoto County, which approved a similar moratorium this week."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "state": "Florida",
+      "jurisdiction": "Lake County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Board of County Commissioners voted unanimously to adopt the ordinance 2026-09-09 (Tuesday).",
+      "date_enacted_iso": "2026-09-09",
+      "date_enacted_uncertainty": "exact",
+      "duration": "90-day pause on accepting any applications for large-scale data centers in unincorporated Lake County, to give commissioners time to create new zoning and development regulations (including a possible conditional-use-permit requirement).",
+      "duration_days": 90,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2026-12-08",
+      "legal_basis": "Lake County ordinance citing Senate Bill 484 local authority (specific ordinance number not located in reviewed sources); adopted 2026-09-09.",
+      "trigger": "Regulatory gap; county wants a conditional-use-permit process so a data center is not a guaranteed right.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "grid_energy",
+        "water"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23; 90-day pause adopted 2026-09-09, running to approximately early December 2026.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "90-day moratorium adopted, a shorter and later instrument than the one-year moratorium the Board had directed staff to draft in late June.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.cfpublic.org/politics/2026-09-09/lake-county-presses-pause-on-accepting-data-center-applications",
+          "title": "Lake County presses pause on accepting data center applications",
+          "publisher": "Central Florida Public Media",
+          "document_date": "2026-09-09",
+          "source_type": "news",
+          "supports": "Unanimous 2026-09-09 vote adopting a 90-day pause on large-scale data-center applications in unincorporated Lake County, citing SB 484 authority.",
+          "quote": "The Lake County Commission voted unanimously Tuesday evening to approve a 90-day pause on accepting any applications for large-scale data centers in unincorporated parts of the county. The ordinance aims to give commissioners time to create new zoning and development regulations."
+        }
+      ],
+      "notes": "In late June 2026, the Board had directed staff to draft a one-year moratorium (widely previewed for a July 14 vote); the ordinance actually adopted in September was instead a 90-day pause. Note: several search results for 'Lake County' data-center moratoriums (dailyherald.com, lakecountyil.gov, lakemchenryscanner.com) refer to Lake County, Illinois and were excluded."
+    },
+    {
+      "state": "Florida",
+      "jurisdiction": "Manatee County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Commissioners directed staff to draft the ordinance 2026-07-28; the Board of County Commissioners applied the Pending Ordinance Doctrine and adopted Ordinance No. 26-42 on 2026-09-22 (first noticed for public hearing 2026-09-04; Planning Commission review 2026-09-17).",
+      "date_enacted_iso": "2026-09-22",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Twelve-month moratorium on submission and acceptance of applications for building permits, site plans, development orders, development agreements, special permit uses, rezonings, and comprehensive plan amendments related to 'Data Center Facilities' in unincorporated Manatee County, or until repealed, whichever occurs first; may be extended by Board resolution.",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-09-22",
+      "legal_basis": "Manatee County Ordinance No. 26-42",
+      "trigger": "SB 484 (effective 2026-07-01) established local authority over large-load customers; county's land development code and comprehensive plan do not adequately address data centers.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "grid_energy",
+        "water"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23 (adopted the day before); twelve-month moratorium running through approximately 2027-09-22.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Twelve-month moratorium ordinance (No. 26-42) adopted.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://zeta.creativecirclecdn.com/bradenton/files/20260922-162036-98a-document%20%282%29.pdf",
+          "title": "Ordinance No. 26-42, An Ordinance of Manatee County, Florida Establishing a Temporary Moratorium ...",
+          "publisher": "Manatee County (via Bradenton Herald document hosting)",
+          "document_date": "2026-09-22",
+          "source_type": "ordinance",
+          "supports": "Primary ordinance text: 12-month moratorium on Data Center Facilities applications in unincorporated Manatee County, adopted via the Pending Ordinance Doctrine on 2026-09-22.",
+          "quote": "WHEREAS, on September 22, 2026, the Board of County Commissioners applied the Pending Ordinance Doctrine to this Data Center Facilities Moratorium Ordinance, which was first noticed by publication for public hearing on September 4, 2026 ... SECTION 5. Duration of Temporary Moratorium. The duration of this temporary moratorium shall be twelve (12) months, or until such time as repealed by the Board, whichever occurs first"
+        },
+        {
+          "url": "https://www.yourobserver.com/news/2026/sep/22/manatee-ordinance-data-center-moratorium/",
+          "title": "Manatee issues one-year ban on data centers",
+          "publisher": "Your Observer",
+          "document_date": "2026-09-22",
+          "source_type": "news",
+          "supports": "Confirms the ordinance's scope, 12-month term starting 2026-09-22, and that staff directed to draft it followed the July 28 Commission meeting.",
+          "quote": "The moratorium will prevent \u201clarge-load customers or facilities with substantial electrical, water, wastewater or other utility demands\u201d from submitting applications for building permits, site plans, rezones or comprehensive plan amendments for one year, starting Sept. 22."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "state": "Florida",
+      "jurisdiction": "North Port",
+      "jurisdiction_type": "City",
+      "date_enacted": "City Commission voted 4-1 to advance the ordinance on first reading 2026-09-08 (after a nearly seven-hour public hearing beginning 2026-08-31); adopted on second and final reading by a 3-2 vote 2026-09-22 (Commissioners Stokes, Langdon and Mayor Emrich in favor; Commissioners Petrow and Duval against).",
+      "date_enacted_iso": "2026-09-22",
+      "date_enacted_uncertainty": "exact",
+      "duration": "18-month moratorium on the acceptance and approval of new data-center applications. As finally adopted, the ordinance excludes (does not apply to) the roughly 896,000-square-foot data-center facility already proposed for the Yorkshire-area 'Deep Park' development: staff may still accept, process and review that application, but the city cannot approve it without a City Commission vote. The ordinance also allows any developer to request an 'extraordinary hardship' exception (e.g., permits already issued, substantial expenditure already made), decided case-by-case by the Commission.",
+      "duration_days": 548,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "City of North Port ordinance (specific ordinance number not located in reviewed sources); adopted on second/final reading 2026-09-22.",
+      "trigger": "A roughly 896,000 sq ft ('Deep Park') data-center application, part of a larger 282-acre mixed-use development, submitted 2026-07-20 after a non-disclosure agreement (entered August 2025) expired; hundreds of residents packed multiple public hearings (2026-08-31 and 2026-09-22) in opposition, citing water, noise, and infrastructure concerns.",
+      "trigger_categories": [
+        "specific_project",
+        "water",
+        "noise",
+        "grid_energy"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23 (adopted the day before, 3-2); 18-month moratorium on new data-center applications, but the already-pending ~896,000 sq ft Deep Park data-center application is excluded from the pause (city staff may still process it; Commission approval is still required) rather than being retroactively swept in.",
+      "enacted_status": "active",
+      "affected_projects": "The 'Deep Park' data-center proposal: roughly 896,000 sq ft of buildings (about 123,200 sq ft of office space) on land near Yorkshire Street/Oleander Drive, part of a broader 282-acre 'employment epicenter' development; excluded from the moratorium's coverage as finally adopted.",
+      "outcome": "18-month moratorium adopted 3-2 on second/final reading 2026-09-22; the pending Deep Park application was excluded from coverage after the city attorney warned that including it could expose the city to litigation.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.winknews.com/news/state/north-port-approves-pause-on-data-center-development/article_63820957-94de-4532-88e7-e2f8973cff34.html",
+          "title": "North Port city hall packed as residents fight to slow data center growth",
+          "publisher": "WINK News",
+          "document_date": "2026-09-22",
+          "source_type": "news",
+          "supports": "Final-adoption report: 3-2 vote 2026-09-22 approving an 18-month moratorium that excludes the pending ~896,000 sq ft data-center application (staff can still process it; Commission approval still required) and includes an 'extraordinary hardship' exception process.",
+          "quote": "Commissioners passed an 18-month moratorium on the acceptance and approval of applications for data centers in a 3-2 vote Tuesday night. The legislation excludes a roughly 900,000-square foot data center facility proposed in a remote part of the city. It allows staff to accept, process, and review the application. But the city cannot approve development without an OK from the city commission."
+        },
+        {
+          "url": "https://www.wgcu.org/government-politics/2026-09-04/seven-hours-400-comments-packed-city-hall-north-port-moves-to-halt-data-centers",
+          "title": "Seven hours, 400 comments, packed City Hall: North Port moves to halt data centers",
+          "publisher": "WGCU",
+          "document_date": "2026-09-04",
+          "source_type": "news",
+          "supports": "Describes the August 31 public hearing and 4-1 vote advancing the 18-month moratorium to a second reading.",
+          "quote": "Nearly seven hours passed from the beginning of public comments to the commission\u2019s vote to advance an 18-month data center moratorium."
+        }
+      ],
+      "notes": "duration_days uses 548 (18 months) as an approximation; the ordinance text was not located to confirm an exact day count. An earlier (2026-09-04) WGCU preview of the first reading suggested the moratorium might reach the pending Deep Park application retroactively; the final adopted ordinance (WINK News, 2026-09-22) instead excludes that specific application from coverage, so the WGCU source is cited here only for the first-reading procedural history, not for the final scope."
+    },
+    {
+      "state": "Florida",
+      "jurisdiction": "Washington County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Board of County Commissioners voted unanimously to approve the moratorium 2026-08-20 (Thursday), following a public hearing.",
+      "date_enacted_iso": "2026-08-20",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One-year moratorium on data-center development in unincorporated Washington County (municipalities Chipley, Wausau, and Caryville are not covered, as they control their own development). A facility is defined as a data center if more than 5% of a building's gross floor area is used for computer systems/hardware/racks, in addition to an electrical-usage threshold, with anti-fragmentation language to prevent splitting a project across smaller buildings. May be extended by a further ordinance if permanent regulations are not ready in time.",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Washington County ordinance (specific ordinance number not located in reviewed sources); adopted 2026-08-20.",
+      "trigger": "Regulatory gap; county comprehensive plan and land development code do not adequately address data-center infrastructure and public-safety impacts.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "grid_energy"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23; one-year moratorium adopted 2026-08-20, applies only to unincorporated Washington County.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "One-year moratorium adopted unanimously.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://washingtoncounty.news/2026/08/21/county-approves-one-year-moratorium-on-data-center-applications/",
+          "title": "County approves one-year moratorium on data-center applications",
+          "publisher": "Washington County News",
+          "document_date": "2026-08-21",
+          "source_type": "news",
+          "supports": "Detailed report of the public hearing and unanimous vote adopting the one-year moratorium, including the 5%-of-floor-area definition, anti-fragmentation language, and that it applies only to unincorporated areas.",
+          "quote": "The board then voted to approve the moratorium. The motion passed unanimously. The moratorium applies to unincorporated Washington County and provides the county with a one-year period to study data-center development and develop amendments to its land-use regulations."
+        },
+        {
+          "url": "https://www.yahoo.com/news/us/articles/washington-county-sets-1-moratorium-212016113.html",
+          "title": "Washington County sets 1 year moratorium on data centers",
+          "publisher": "WMBB via Yahoo",
+          "document_date": "2026-08-20",
+          "source_type": "news",
+          "supports": "Confirms the unanimous vote approving a one-year moratorium, dated Thursday (2026-08-20).",
+          "quote": "WASHINGTON COUNTY, Fla. (WMBB) - Washington County Commissioners unanimously approved a one-year moratorium on data center developments Thu"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "state": "Florida",
+      "jurisdiction": "Marion County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Board of County Commissioners voted 4-1 on the substantive motion, then 5-0 on a subsequent procedural vote to adopt the ordinance, at a public hearing 2026-09-15/16 (hearing held 2026-09-15 at the McPherson Governmental Campus; reported 2026-09-16).",
+      "date_enacted_iso": "2026-09-15",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12-month (365-day) moratorium on accepting or processing applications for major commercial data centers, AI processing hubs, and cryptocurrency-mining operations, applying to development permits, site plans, rezonings, and conditional-use permits; exempts smaller facilities using under 50 megawatts, which may still proceed through the county's standard Special Use Permit process.",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Marion County Board of County Commissioners ordinance (specific ordinance number not located in reviewed sources); adopted 2026-09-15.",
+      "trigger": "Concerns over water consumption from the Floridan Aquifer (including Outstanding Florida Springs Silver Springs and Rainbow Springs), power-grid strain, noise, and county staff's stated lack of readiness/criteria to evaluate large data-center applications; balanced against a proposed roughly $10 billion facility that proponents said could generate significant tax revenue and jobs.",
+      "trigger_categories": [
+        "water",
+        "grid_energy",
+        "noise",
+        "environmental",
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center",
+        "cryptocurrency_mining"
+      ],
+      "current_status": "Active as of 2026-09-23; 12-month moratorium adopted 2026-09-15, with an exemption for facilities under 50 MW that can still apply via Special Use Permit.",
+      "enacted_status": "active",
+      "affected_projects": "An unnamed proposed data-center facility reported by proponents at the hearing as a roughly $10 billion project that could generate about $155 million in tax revenue.",
+      "outcome": "12-month moratorium adopted (4-1 substantive vote; 5-0 procedural adoption vote), with exemptions for sub-50-MW facilities that drew a dissenting vote from Commissioner Kathy Bryant, who opposed the carve-out.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ocala-news.com/2026/09/16/marion-county-approves-12-month-moratorium-on-large-scale-data-centers/",
+          "title": "Marion County approves 12-month moratorium on large-scale data centers",
+          "publisher": "Ocala-News.com",
+          "document_date": "2026-09-16",
+          "source_type": "news",
+          "supports": "Detailed report of the 2026-09-15 public hearing: 4-1 substantive vote (Commissioner Bryant dissenting) then 5-0 procedural adoption vote imposing a 365-day pause on large-scale data centers, AI processing hubs, and cryptocurrency mining, with a sub-50-MW exemption processed via Special Use Permit.",
+          "quote": "Marion County commissioners voted on Tuesday to enact a 12-month temporary moratorium on accepting or processing applications for large-scale data centers, carving out exemptions for smaller facilities utilizing under 50 megawatts ... The vote on the motion was 4 to 1, with Commissioner Kathy Bryant the lone \u201cno.\u201d A subsequent procedural vote to adopt the ordinance passed unanimously 5-0."
+        }
+      ],
+      "notes": "Sectors include cryptocurrency_mining because the adopted pause explicitly covers cryptocurrency-mining operations alongside data centers and AI processing hubs, per the news report of the ordinance's scope."
+    }
+  ]
+}

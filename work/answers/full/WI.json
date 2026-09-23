@@ -1,0 +1,818 @@
+{
+  "state_abbrev": "WI",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "wi-manitowoc-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active. The final ordinance (No. 2026/2028-10) states it 'shall be effective upon publication' and is dated/signed April 28, 2026 by the County Board Chair and County Executive; the 18-month term (running to approximately late October 2027) had not lapsed as of the 2026-07-31 research date and no repeal was found.",
+          "to": "Active as of 2026-09-23. Confirmed directly against the final adopted ordinance text (No. 2026/2028-10, county code Sec. 8.495): an earlier planning-commission draft (2026-PZ-9A4, 04/27/2026) specified 12 months, but WPR and the final adopted text (2026-PZ-9A6, dated 04/29/2026, published by the Town of Two Rivers as \"adopted by the Manitowoc County Board 4-28-2026\") confirm the County Board amended the term from 12 to 18 months on the floor before final passage. The 18-month term (from publication ~April 28-29, 2026, running to approximately late October 2027) had not lapsed as of 2026-09-23, and no repeal, rescission, or amendment was found in subsequent county records or news coverage.",
+          "reason": "Strengthens sourcing with the actual final adopted ordinance text (previously only summarized) and documents/resolves an apparent 12-vs-18-month discrepancy between an earlier draft and the final adopted version, confirming the CSV's 18-month figure is correct."
+        }
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://townoftworivers.wi.gov/CMS/files/2026/Moratorium%20as%20adopted%20by%20the%20Manitowc%20County%20Board%204.28.2026.pdf",
+          "title": "Ordinance Amending Manitowoc County Code Ch. 8 Enacting a Moratorium on Data Centers (as adopted 4-28-2026), No. 2026/2028-10",
+          "publisher": "Manitowoc County, via Town of Two Rivers",
+          "document_date": "2026-04-28",
+          "source_type": "ordinance",
+          "supports": "Final adopted ordinance text confirming the 18-month term and ordinance number 2026/2028-10, matching the inventory's legal_basis field exactly.",
+          "quote": "The moratorium shall be in effect for a period of 18 months from the date this ordinance is published (i.e. its effective date) or until the County Board adopts and the County Executive approves amendments to this ordinance or rescinds this moratorium, or both."
+        },
+        {
+          "url": "https://www.wpr.org/news/manitowoc-county-board-approves-18-month-data-center-moratorium",
+          "title": "Manitowoc County Board approves 18-month data center moratorium",
+          "publisher": "Wisconsin Public Radio",
+          "document_date": "2026-04-28",
+          "source_type": "news",
+          "supports": "Confirms the board amended the ordinance from 12 to 18 months on the floor before unanimous adoption April 28, 2026.",
+          "quote": "During the meeting, the board amended the ordinance to extend the moratorium from 12 months to 18 months, and to clarify the ordinance's definition of a data center."
+        }
+      ],
+      "notes": "No [VERIFY] markers on this item. An earlier-dated draft PDF (2026-PZ-9A4, 3/09 and 4/27/2026 versions) found during research states \"12 months,\" which could mislead a future researcher; the final adopted text and contemporaneous news confirm 18 months is correct, so I flagged and resolved this rather than silently noting it."
+    },
+    {
+      "moratorium_id": "wi-door-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "May 26, 2026 (County Board adoption of Resolution 2026-41); the same resolution is also described as approved by voice vote on June 23, 2026 in a subsequent agenda packet, and the two sources could not be fully reconciled to a single enactment date",
+          "to": "May 26, 2026 (Door County Board of Supervisors adoption of Resolution 2026-41 by voice vote, per the board's own official meeting minutes). The county's June 23, 2026 agenda packet includes, as routine business, \"Approval of Minutes of the May 26, 2026 County Board Meeting\" — this procedural minutes-approval item is what the 2026-07 refresh apparently mistook for a second/later adoption; the resolution itself was adopted only once, on May 26, 2026.",
+          "reason": "The county's own official June 23, 2026 agenda packet reproduces the full May 26, 2026 meeting minutes verbatim, including the Resolution 2026-41 motion, vote, and discussion, resolving the prior ambiguity between the two dates with a primary source."
+        },
+        "date_enacted_uncertainty": {
+          "from": "range",
+          "to": "exact",
+          "reason": "The exact adoption date (May 26, 2026) is now confirmed by the county's own official board minutes rather than inferred from conflicting secondary reports."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31. [VERIFY details not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Confirmed via Door County's own official board minutes (reproduced in the June 23, 2026 agenda packet): Resolution 2026-41 was adopted by voice vote at the May 26, 2026 County Board meeting, imposing a moratorium on data centers and battery energy storage systems in unincorporated Door County \"for a period of up to twelve (12) months from the date of this resolution,\" i.e. through approximately 2027-05-26, with the Board retaining the right to extend by separate action. No extension, repeal, or rescission was found as of 2026-09-23.",
+          "reason": "Resolves the [VERIFY] marker with the county's own official minutes (a primary source), which also clarifies the date_enacted ambiguity noted above."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY details not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "resolution": "confirmed",
+          "note": "Door County's own official board minutes for the May 26, 2026 meeting (reproduced verbatim in the county's June 23, 2026 agenda packet PDF, co.door.wi.gov) show the full text of Resolution 2026-41, the motion (Thayse/Shaw), and that it \"carried by voice vote.\" This resolves both the general confirmation the marker sought and the separate date ambiguity between May 26 and June 23."
+        }
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.co.door.wi.gov/AgendaCenter/ViewFile/Agenda/_06232026-2112",
+          "title": "Door County Board of Supervisors Agenda, June 23, 2026 (includes May 26, 2026 meeting minutes)",
+          "publisher": "Door County, Wisconsin",
+          "document_date": "2026-06-23",
+          "source_type": "minutes",
+          "supports": "Full text of Resolution 2026-41 as adopted by voice vote at the May 26, 2026 County Board meeting, and confirmation that the June 23 agenda's only related action was routine approval of the May 26 minutes.",
+          "quote": "2026-41 Data Center and Battery Energy Storage System Development Moratorium. Motion by Thayse, seconded by Shaw to approve Resolution 2026-41 – Imposing a moratorium on the development of Data Centers and Battery Energy Storage Systems within the unincorporated areas of Door County ... The moratorium shall be in effect within the unincorporated areas of Door County for a period of up to twelve (12) months from the date of this resolution ... Motion carried by voice vote."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "wi-la-crosse-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "La Crosse County Board data center moratorium resolution; final adopted resolution text and number not located in the county's public packet",
+          "to": "Resolution No. 6-6/26 (La Crosse County Board of Supervisors), \"Re: Temporary Moratorium on Data Centers,\" adopted June 18, 2026 by a voice vote of 26 ayes, 2 nays (Supervisors J. Fimreite and K. Schlimgen), 2 excused, per the county's own official June 18, 2026 board meeting minutes.",
+          "reason": "The county's own official board minutes (found on lacrossecounty.org) name the resolution number and confirm the exact vote breakdown, resolving the previously unlocated instrument number."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Confirmed via the county's own official board minutes for the June 18, 2026 meeting: Resolution No. 6-6/26 was adopted 26-2 (2 excused), imposing an 18-month moratorium on data center applications effective from the resolution's publication date (running to approximately December 2026-2027, i.e. through Dec. 2027 per News 8000's account that it \"runs through December 2027\"). No extension, repeal, or replacement was found as of 2026-09-23.",
+          "reason": "Resolves the [VERIFY] marker with the county's own official minutes (a primary source) rather than news-only evidence, and refreshes the confirmation date."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "resolution": "confirmed",
+          "note": "La Crosse County's own official June 18, 2026 board meeting minutes (lacrossecounty.org, CB061826M.pdf) name the instrument as Resolution No. 6-6/26 and record the exact vote (26 ayes, 2 nays - Fimreite and Schlimgen, 2 excused), matching and confirming the news-only figure previously cited (26-2 per WIZM)."
+        }
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://www.lacrossecounty.org/Minutes%20and%20Agendas/Attachments/2026/CountyBoard/Jul/CB061826M.pdf",
+          "title": "La Crosse County Board of Supervisors Monthly Meeting Proceedings, June 18, 2026",
+          "publisher": "La Crosse County, Wisconsin",
+          "document_date": "2026-06-18",
+          "source_type": "minutes",
+          "supports": "Full text of Resolution No. 6-6/26 as adopted, with the exact roll-call/voice vote breakdown.",
+          "quote": "RESOLUTION NO. 6-6/26 RE: TEMPORARY MORATORIUM ON DATA CENTERS ... The moratorium shall be in effect for a period of 18 months from the date this resolution is published ... Motion by D. Pierce/M. Kruse to approve. ... The motion to approve passed on a voice vote with 26 ayes, 2 nays - J. Fimreite and K. Schlimgen, 2 excused - J. Drazkowski and S. Duffrin."
+        },
+        {
+          "url": "https://www.news8000.com/lifestyle/technology/la-crosse-county-approves-18-month-moratorium-on-data-center-applications/article_36a1161a-8951-45c2-b83c-4b0f1e70f19d.html",
+          "title": "La Crosse County approves 18-month moratorium on data center applications",
+          "publisher": "News 8000 (WKBT)",
+          "document_date": "2026-06-19",
+          "source_type": "news",
+          "supports": "Confirms the moratorium runs through December 2027 and describes the study committee process.",
+          "quote": "The moratorium takes effect immediately and runs through December 2027, unless the county adopts an ordinance change before that date."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "wi-village-of-wrightstown-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "June 16, 2026 (Village Board unanimous approval, per NBC 26)",
+          "to": "July 7, 2026 (Village Board unanimous, 6-0, approval of a year-long moratorium ordinance on all zoning and planning activities related to data centers, per NBC 26 and Ballotpedia). This followed a separate, earlier June 16, 2026 action in which the Board voted 6-0 to impose a shorter, interim pause on data-center zoning and planning activity specifically until the August 11, 2026 advisory referendum was certified; the July 7 ordinance extended that interim pause into a full one-year moratorium.",
+          "reason": "NBC 26's contemporaneous reporting on the July 7, 2026 vote states explicitly that \"the ordinance approved Tuesday officially extends that pause into a one-year moratorium,\" and Ballotpedia's sourced timeline separately documents both the June 16 interim-pause vote and the July 7 year-long-moratorium vote as two distinct Board actions. The CSV's June 16 date and 365-day/one-year duration together describe the July 7 action, not the June 16 one; the enactment date needed to be moved to match the duration already on file."
+        },
+        "date_enacted_iso": {
+          "from": "2026-06-16",
+          "to": "2026-07-07",
+          "reason": "Same as above: the one-year moratorium (matching the existing 365-day duration_days value) was adopted July 7, 2026, not June 16, 2026."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31, pending confirmation of the underlying ordinance text. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. The Village Board adopted a one-year moratorium on all zoning and planning activities related to data centers on July 7, 2026 (6-0), extending a shorter interim pause the Board had adopted June 16, 2026 pending the outcome of an August 11, 2026 advisory referendum. That referendum was held as scheduled and was defeated: of 1,184 votes cast, 87.25% (1,033) voted \"No\" on whether the Village should authorize, support, or facilitate public resources or infrastructure for a large-scale data center development (a non-binding result that does not itself alter the moratorium). No repeal, rescission, or replacement of the July 7 moratorium ordinance was found as of 2026-09-23. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "reason": "Refreshes the confirmation date, corrects the enactment date/sequence, and adds the confirmed August 11, 2026 referendum result; the instrument-number portion of the marker is retained because no ordinance number was located despite searching the village's site and multiple news accounts."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Could not locate an ordinance number for either the June 16, 2026 interim-pause vote or the July 7, 2026 one-year-moratorium vote on the Village of Wrightstown's website or in any of the several news accounts reviewed (WBAY, NBC 26, WFRV/AOL, Ballotpedia). I did, however, resolve a separate and more consequential problem: the CSV's date_enacted/date_enacted_iso (June 16) actually describes a different, shorter interim action than the one-year moratorium whose duration (365 days) is recorded in the CSV; see the date_enacted change above."
+        }
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.nbc26.com/news/local-news/wrightstown-adopts-a-one-year-moratorium-on-data-center-projects",
+          "title": "Wrightstown adopts a one-year moratorium on data center projects",
+          "publisher": "NBC 26",
+          "document_date": "2026-07-07",
+          "source_type": "news",
+          "supports": "Confirms the July 7, 2026 unanimous vote adopting a one-year moratorium, and that it extends the earlier June 16 interim pause tied to the referendum.",
+          "quote": "The Village of Wrightstown passed a one-year moratorium on data center projects Tuesday night, a village official confirmed. Board members unanimously approved the yearlong moratorium during a board meeting Tuesday evening ... The move comes after the board passed a resolution last month temporarily pausing planning for future data center projects until an advisory referendum in August. The ordinance approved Tuesday officially extends that pause into a one-year moratorium."
+        },
+        {
+          "url": "https://ballotpedia.org/Wrightstown,_Wisconsin,_Authorize_Municipal_Infrastructure_and_Services_for_Large-Scale_Data_Center_Development_Advisory_Question_(August_2026)",
+          "title": "Wrightstown Data Center Development Advisory Question",
+          "publisher": "Ballotpedia",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Documents both the June 16, 2026 interim-pause vote (6-0) and the separate July 7, 2026 year-long-moratorium vote (6-0), and reports the certified August 11, 2026 referendum result (87.25% No, 1,033 of 1,184 votes).",
+          "quote": "On June 16, 2026, the Wrightstown Village Board voted 6-0 to place a moratorium on all zoning and planning activities related to data centers until after the referendum vote is certified. On July 7, 2026, the Board voted 6-0 to implement a year-long moratorium on all zoning and planning activities related to data centers."
+        },
+        {
+          "url": "https://www.greenbaypressgazette.com/story/news/politics/elections/2026/08/12/wrightstown-overwhelmingly-opposes-ai-data-centers-in-referendum-vote/91155456007/",
+          "title": "Wrightstown overwhelmingly opposes AI data centers in referendum vote",
+          "publisher": "Green Bay Press Gazette",
+          "document_date": "2026-08-12",
+          "source_type": "news",
+          "supports": "Confirms the certified August 11, 2026 referendum result.",
+          "quote": "Of the 1,184 votes cast, about 87% of villagers, equaling 1,033 votes, voted “No” in the non-binding referendum question meant to take the village’s temperature on artificial intelligence data centers and advise officials’ future policy-making; 151 voted yes."
+        }
+      ]
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "La Crosse",
+      "jurisdiction_type": "City",
+      "date_enacted": "August 13, 2026 (Common Council unanimous final vote, following City Plan Commission advancement August 3, 2026 and a Judiciary & Administration Committee public hearing August 5, 2026)",
+      "date_enacted_iso": "2026-08-13",
+      "date_enacted_uncertainty": "exact",
+      "duration": "18 months",
+      "duration_days": 548,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "City of La Crosse data center moratorium ordinance (ordinance number not located in reviewed sources)",
+      "trigger": "City is following La Crosse County's lead (the county adopted its own 18-month moratorium in June 2026); city lacks zoning language addressing data centers and wants time to study environmental, economic, and health impacts alongside the county's ad hoc study committee.",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; adopted unanimously by the Common Council August 13, 2026. Applies to facilities that can store, process, retrieve, or distribute more than 1 petabyte of data or consume more than 2 megawatts of electricity; runs 18 months or until the city adopts zoning amendments recommended by the county's ad hoc committee or city staff, or rescinds the moratorium.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted 18-month moratorium on new data center development within city limits, paralleling La Crosse County's own 18-month county moratorium.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wxow.com/news/la-crosse-approves-temporary-data-center-moratorium/article_93946494-9e4e-42c2-8544-bde8be69900b.html",
+          "title": "La Crosse approves temporary data center moratorium",
+          "publisher": "WXOW",
+          "document_date": "2026-08-14",
+          "source_type": "news",
+          "supports": "Confirms the Common Council's unanimous final vote on Thursday, August 13, 2026.",
+          "quote": "The La Crosse Common Council voted unanimously Thursday to approve a temporary moratorium on data centers. The ordinance does not ban data centers. It pauses consideration of potential projects while the city defines data centers in its zoning code."
+        },
+        {
+          "url": "https://www.news8000.com/news/local-news/la-crosse/la-crosse-city-plan-commission-advances-18-month-moratorium-on-data-center-development/article_30c5ee0a-61f9-48e3-9b24-ec2f90ae5e17.html",
+          "title": "La Crosse City Plan Commission advances 18-month moratorium on data center development",
+          "publisher": "News 8000 (WKBT)",
+          "document_date": "2026-08-01",
+          "source_type": "news",
+          "supports": "Details the process (Plan Commission advancement Aug. 3, public hearing Aug. 5, Council vote scheduled Aug. 13), the 18-month term, and the petabyte/megawatt threshold definition.",
+          "quote": "Final action on the moratorium will be determined by the Common Council on Thursday, August 13 at 6 p.m. ... If the council approves the moratorium, it will take effect immediately and remain in place for 18 months."
+        }
+      ]
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Sauk County",
+      "jurisdiction_type": "County",
+      "date_enacted": "September 15, 2026 (County Board approval, 27-1 vote)",
+      "date_enacted_iso": "2026-09-15",
+      "date_enacted_uncertainty": "exact",
+      "duration": "18 months",
+      "duration_days": 548,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Sauk County data center moratorium ordinance (ordinance number not located in reviewed sources)",
+      "trigger": "County has no specific zoning mechanism for data centers; officials want time to research the industry and draft zoning guardrails before any project comes forward; explicitly applies only in areas under county zoning authority.",
+      "trigger_categories": ["regulatory_gap", "agricultural_preservation", "water", "grid_energy"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; adopted 27-1 on September 15, 2026. Legal counsel drafted the measure with an 18-month term (rather than 12) based on case law treating 12-18 months as a reasonable moratorium period; applies only in areas where Sauk County has zoning authority, not within cities/villages.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted 18-month moratorium on new data center applications/zoning approvals in county-zoned areas.",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.wmtv15news.com/2026/09/16/sauk-county-approves-18-month-moratorium-new-data-centers/",
+          "title": "Sauk County approves 18-month moratorium on new data centers",
+          "publisher": "WMTV15 News",
+          "document_date": "2026-09-16",
+          "source_type": "news",
+          "supports": "Reports the 27-1 vote, the 18-month term and the reasoning for choosing 18 over 12 months, and the scope limitation to county-zoned areas.",
+          "quote": "The Sauk County Board approved the moratorium 27-1 Tuesday night. It temporarily stops the county from accepting applications or granting zoning approvals for data centers in areas under county zoning."
+        }
+      ],
+      "notes": "Only one news source located in the time available; no county-published ordinance text found on saukcountywi.gov."
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "St. Croix County",
+      "jurisdiction_type": "County",
+      "date_enacted": "September 1, 2026 (County Board of Supervisors approval, 18-0 vote)",
+      "date_enacted_iso": "2026-09-01",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "St. Croix County data center moratorium ordinance (ordinance number not located in reviewed sources), adopted alongside related zoning-definition amendments for data centers",
+      "trigger": "Public concern following a smaller data center (Metered Mining) receiving a conditional use permit in the Village of Hammond and subsequent litigation; county currently defines large-scale data centers as those demanding 10 megawatts or more but lacks a comprehensive regulatory framework.",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility", "legal_or_litigation"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; adopted 18-0 on September 1, 2026. Applies only to county-zoned towns and unincorporated areas (the towns of Forest, Hudson, St. Joseph, and Troy, plus incorporated cities/villages such as Hammond, are exempt because they are not under county general zoning). The county's Community Development Committee is developing permanent standards, referencing an October 2026 Wisconsin Counties Association model ordinance.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted 12-month moratorium on medium- and large-scale data centers in county-zoned areas.",
+      "confidence": 0.72,
+      "evidence": [
+        {
+          "url": "https://www.hudsonstarobserver.com/news/st-croix-county-board-of-supervisors-approves-data-center-moratorium-unanimously/article_ffb0d3f1-77a5-43c7-8ba5-e9fd44b1aa32.html",
+          "title": "St. Croix County Board of Supervisors unanimously approves data center moratorium",
+          "publisher": "Hudson Star-Observer",
+          "document_date": "2026-09-01",
+          "source_type": "news",
+          "supports": "Reports the 18-0 vote on September 1, 2026, the one-year term, the scope limitation excluding four towns and incorporated municipalities, and the county's ongoing work on permanent zoning standards.",
+          "quote": "The St. Croix County Board of Supervisors voted 18-0 for a one-year moratorium on medium- and large-scale data centers Tuesday, preventing the developments from coming before the board until it establishes what regulatory and zoning standards should be applied."
+        }
+      ],
+      "notes": "Only one directly-quoted news source archived successfully; a second source (baldwin-bulletin.com) was paywalled and returned no article text even with browser-mode fetch."
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Chippewa County",
+      "jurisdiction_type": "County",
+      "date_enacted": "August 11, 2026 (County Board of Supervisors, first and second readings held same night, 18-0 vote)",
+      "date_enacted_iso": "2026-08-11",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Chippewa County data center moratorium ordinance (ordinance number not located in reviewed sources), enacted via the county's zoning ordinances",
+      "trigger": "County has no zoning defining data centers or specific regulations for them; extensive electrical, water, and infrastructure demand concerns cited.",
+      "trigger_categories": ["regulatory_gap", "infrastructure_capacity", "water", "grid_energy"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; adopted 18-0 and effective immediately August 11, 2026. Because it was enacted through the county's zoning ordinance, it applies only to the six townships that have adopted county zoning: Anson, Eagle Point, Lafayette, Wheaton, Woodmohr, and the Town of Hallie; does not apply to land within cities, villages, or other townships.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted 12-month moratorium on data center development in county-zoned townships.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wqow.com/news/chippewa-county-passes-12-month-moratorium-on-data-centers/article_12befe7c-593e-480a-a968-37b000dff40b.html",
+          "title": "Chippewa County passes 12 month moratorium on data centers",
+          "publisher": "WQOW",
+          "document_date": "2026-08-12",
+          "source_type": "news",
+          "supports": "Confirms the 18-0 vote, immediate effective date, and the specific list of six townships to which the moratorium applies.",
+          "quote": "The moratorium passed the County Board with an 18-0 vote and takes effect immediately. ... it only applies to the six townships that have adopted county zoning: Anson, Eagle Point, Lafayette, Wheaton, Woodmohr, and the Town of Hallie."
+        },
+        {
+          "url": "https://www.baldwin-bulletin.com/news/chippewa-county-passes-pause-on-datacenters/article_6cd23cff-8d9e-4312-bc75-c453e47b4ef1.html",
+          "title": "Chippewa County Passes Pause on DataCenters",
+          "publisher": "Baldwin Bulletin",
+          "document_date": "2026-08",
+          "source_type": "news",
+          "supports": "Independent corroboration that the Board passed the 12-month pause during its August 11 meeting after a first reading the same night.",
+          "quote": "The Chippewa County Board of Supervisors unanimously voted to pass a 12-month pause on data centers in the county during their August 11 meeting, opting to pass the proposal after a first reading by th[e board]."
+        }
+      ]
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Oneida County",
+      "jurisdiction_type": "County",
+      "date_enacted": "August 18, 2026 (County Board unanimous voice vote)",
+      "date_enacted_iso": "2026-08-18",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Oneida County Ordinance OA-02-2026 (data center moratorium; per county Planning & Zoning Committee's public hearing document naming \"Dilley-Waterhouse-Jones-OA-02-2026\")",
+      "trigger": "County has no existing ordinance addressing data centers; board wants time to educate itself and draft rules before any proposal arrives; no known data center plans exist in the county currently.",
+      "trigger_categories": ["regulatory_gap", "water"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; adopted unanimously August 18, 2026, for a one-year period that can be extended if regulation drafting takes longer. Does not apply to the un-zoned areas of Sugar Camp, Monico, and Enterprise, nor to the City of Rhinelander (separate zoning authority).",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted one-year moratorium on new data center applications, permits, and approvals.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.wxpr.org/energy-environment/2026-08-19/oneida-county-passes-one-year-data-center-moratorium",
+          "title": "Oneida County passes one-year data center moratorium",
+          "publisher": "WXPR",
+          "document_date": "2026-08-19",
+          "source_type": "news",
+          "supports": "Confirms the unanimous Tuesday (Aug. 18, 2026) vote, one-year term, geographic exclusions, and links to the county's own moratorium/definition document.",
+          "quote": "The County Board voted unanimously Tuesday to pass a data center moratorium until regulations for them can be drawn up. ... The moratorium does not include the un-zoned areas of Sugar Camp, Monico, and Enterprise. It also doesn't include the City of Rhinelander which does its own zoning."
+        }
+      ]
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Winnebago County",
+      "jurisdiction_type": "County",
+      "date_enacted": "August 18, 2026 (County Board voice vote, one dissenting supervisor)",
+      "date_enacted_iso": "2026-08-18",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Winnebago County data center moratorium ordinance (ordinance number not located in reviewed sources), enacted under Wis. Stat. § 59.69(4)",
+      "trigger": "No county mechanism to regulate data centers; concerns over energy/water use, noise pollution, and utility rate impacts amid a wave of similar Wisconsin county and city moratoria.",
+      "trigger_categories": ["regulatory_gap", "grid_energy", "water", "noise"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; passed in a voice vote at the Aug. 18, 2026 meeting, with District 24 Supervisor Andy Buck as the lone apparent dissenter (his prior motion to shorten the term to 6 months failed). Applies only in the four townships where the county has general zoning authority: Algoma, Omro, Neenah, and Nekimi; cities such as Oshkosh, Neenah, and Menasha must adopt their own regulations.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted 12-month moratorium on new data center development in the four county-zoned townships.",
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "url": "https://www.postcrescent.com/story/news/local/oshkosh/2026/08/19/winnebago-county-data-center-moratorium-ai-zoning/91373019007/",
+          "title": "Winnebago County adopts 12-month data center moratorium",
+          "publisher": "Post-Crescent (USA Today Network-Wisconsin)",
+          "document_date": "2026-08-19",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 18, 2026 voice vote, the failed amendment to shorten the term, the four affected townships, and the statutory authority (Wis. Stat. 59.69(4)) discussion.",
+          "quote": "The new zoning laws didn't face much resistance, with the Winnebago County Board resoundingly passing the moratorium in a voice vote at the Aug. 18 meeting, where District 24 Supervisor Andy Buck appeared to be the lone dissenter. ... This specific moratorium will affect only four townships — Algoma, Omro, Neenah and Nekimi."
+        }
+      ]
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Marathon County",
+      "jurisdiction_type": "County",
+      "date_enacted": "August 25, 2026 (County Board approval)",
+      "date_enacted_iso": "2026-08-25",
+      "date_enacted_uncertainty": "exact",
+      "duration": "At least 12 months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Marathon County zoning code amendment (ordinance) enacting a data center moratorium, citing Wis. Stat. § 59.02 and § 59.69 (ordinance number not located in reviewed sources)",
+      "trigger": "High electrical demand, utility infrastructure requirements, cooling/mechanical systems, noise, emergency power generation, and land-use compatibility concerns associated with data center development; 7 of 18 affected townships responded to a staff survey in support before passage.",
+      "trigger_categories": ["regulatory_gap", "infrastructure_capacity", "noise", "grid_energy", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; approved August 25, 2026, applying to the 18 townships governed by county zoning (Brighton, Easton, Eau Pleine, Elderon, Frankfort, Green Valley, Guenther, Hewitt, Holton, Hull, Knowlton, Marathon, McMillan, Reid, Rib Falls, Plover, Spencer, and Wien). Applies to proposed facilities where data center operation is a primary use and cumulative gross floor area exceeds 5,000 square feet; exempts previously issued approvals, ordinary maintenance, and emergency utility restoration. Staff must report progress to the Environmental Resources Committee six months after passage.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted at-least-12-month moratorium on data center-related zoning approvals in the 18 county-zoned townships.",
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "url": "https://wausaupilotandreview.com/2026/09/21/what-to-know-about-marathon-countys-12-month-data-center-moratorium-2/",
+          "title": "What to know about Marathon County's 12-month data center moratorium",
+          "publisher": "Wausau Pilot & Review / Wausau Daily Herald (USA Today Network-Wisconsin)",
+          "document_date": "2026-09-21",
+          "source_type": "news",
+          "supports": "Detailed account of the Aug. 25, 2026 approval, the full list of 18 affected townships, the 5,000-sq-ft threshold, exemptions, and statutory authority.",
+          "quote": "The Marathon County Board approved on Aug. 25 a 12-month moratorium on data center development in townships governed by county zoning. ... Marathon County towns that use county zoning include the towns of Brighton, Easton, Eau Pleine, Elderon, Frankfort, Green Valley, Guenther, Hewitt, Holton, Hull, Knowlton, Marathon, McMillan, Reid, Rib Falls, Plover, Spencer and Wien."
+        }
+      ]
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Bellevue",
+      "jurisdiction_type": "Village",
+      "date_enacted": "August 12, 2026 (Village Board unanimous vote following a public hearing that evening)",
+      "date_enacted_iso": "2026-08-12",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months (extendable up to an additional 6 months)",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Village of Bellevue data center moratorium ordinance (ordinance number not located in reviewed sources)",
+      "trigger": "No active data center proposal pending, but the village acted proactively amid concerns raised in nearby communities (Wrightstown, Manitowoc County) about environmental impact, noise, water supply, and electrical costs.",
+      "trigger_categories": ["regulatory_gap", "environmental", "noise", "water"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; adopted unanimously August 12, 2026 after a public hearing the same evening. Gives the village board time to review an ordinance that could further regulate or ban data center development; may be extended up to an additional 6 months.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted 12-month moratorium on data center development.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.nbc26.com/bellevue/village-of-bellevue-bans-data-center-development-for-12-months",
+          "title": "Village of Bellevue bans data center development for 12 months",
+          "publisher": "NBC 26",
+          "document_date": "2026-08-12",
+          "source_type": "news",
+          "supports": "Confirms the unanimous vote at the August 12, 2026 public hearing and the possibility of a 6-month extension.",
+          "quote": "The Bellevue Village Board voted unanimously to enact a one-year moratorium on data centers after a public hearing Wednesday night. ... The moratorium lasts 12 months, but there is a possibility that the board could extend the ban for another six months."
+        },
+        {
+          "url": "https://www.thecooldown.com/green-tech/bellevue-village-data-center-moratorium/",
+          "title": "Wisconsin village imposes 1-year data center moratorium after residents push back against higher bills, noise",
+          "publisher": "The Cool Down",
+          "document_date": "2026-08",
+          "source_type": "news",
+          "supports": "Independent corroboration of the unanimous vote and the village's rationale.",
+          "quote": "The Bellevue Village Board unanimously approving a 12-month moratorium on data centers following a public hearing where residents spoke."
+        }
+      ]
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Oshkosh",
+      "jurisdiction_type": "City",
+      "date_enacted": "September 8, 2026 (Common Council unanimous vote)",
+      "date_enacted_iso": "2026-09-08",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Oshkosh Common Council data center moratorium ordinance (ordinance number not located in reviewed sources)",
+      "trigger": "City wants time to study data centers and develop informed, consistent zoning and regulatory standards; part of a coordinated Fox Valley effort with Winnebago County and the East Central Wisconsin Regional Planning Commission.",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; adopted unanimously September 8, 2026. Does not establish permanent regulations or predetermine the outcome of the city's study; temporarily preserves the status quo while staff complete their work.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted a one-year moratorium on data centers while the city develops zoning and regulatory standards.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.wbay.com/2026/09/09/oshkosh-common-council-passes-temporary-moratorium-data-centers/",
+          "title": "Oshkosh Common Council passes temporary moratorium on data centers",
+          "publisher": "WBAY",
+          "document_date": "2026-09-09",
+          "source_type": "news",
+          "supports": "Confirms the unanimous vote and describes the moratorium's temporary, status-quo-preserving purpose.",
+          "quote": "The Oshkosh Common Council has passed an ordinance calling for a temporary moratorium on data centers to be put in place. The decision was unanimous."
+        }
+      ],
+      "notes": "Only one archived source located; The Advance-Titan (advancetitan.com) also reported the vote as unanimous and year-long but was not separately fetched."
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Tigerton",
+      "jurisdiction_type": "Village",
+      "date_enacted": "September 15, 2026 (Village Board, following a public hearing that drew more than 70 residents)",
+      "date_enacted_iso": "2026-09-15",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Village of Tigerton data center moratorium ordinance (ordinance number not located in reviewed sources)",
+      "trigger": "At least one developer inquiry (Blake Simpson) about a proposed data center in the village; officials wanted time to establish zoning policies before any application; Shawano County's own June 2026 moratorium does not cover Tigerton because the village has its own zoning.",
+      "trigger_categories": ["regulatory_gap", "specific_project", "noise"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; set by the Village Board September 15, 2026 for one year or until the village establishes data-center-specific zoning policies, whichever comes first.",
+      "enacted_status": "active",
+      "affected_projects": "An inquiry from a developer (Blake Simpson) described as smaller in scale than large data centers built elsewhere in the state (e.g. Port Washington); no formal application filed as of the moratorium's adoption.",
+      "outcome": "Adopted one-year moratorium on data centers pending village zoning policy development.",
+      "confidence": 0.72,
+      "evidence": [
+        {
+          "url": "https://newmedia-wi.com/tigerton-puts-moratorium-data-centers",
+          "title": "Tigerton puts moratorium on data centers",
+          "publisher": "NEW Media Inc.",
+          "document_date": "2026-09-18",
+          "source_type": "news",
+          "supports": "Detailed account of the September 15, 2026 public hearing and moratorium, its one-year/until-zoning-policy term, and the developer inquiry that prompted it.",
+          "quote": "The Tigerton Village Board set a moratorium on data centers Sept. 15, giving officials time to learn about all the requirements such as infrastructure needs and how it would impact village resources if such a facility would be built within its borders. The moratorium will be for one year or until the village is able to set up zoning policies specifically for data centers."
+        }
+      ]
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Dodge County",
+      "jurisdiction_type": "County",
+      "date_enacted": "August 18, 2026 (County Board of Supervisors, 29-2 vote, following an Aug. 10, 2026 Land and Resources and Parks Committee public hearing and unanimous committee approval)",
+      "date_enacted_iso": "2026-08-18",
+      "date_enacted_uncertainty": "exact",
+      "duration": "18 months",
+      "duration_days": 548,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Dodge County data center moratorium ordinance (ordinance number not located in reviewed sources)",
+      "trigger": "Concerns about groundwater and environmental impacts from a Meta data center under construction in Beaver Dam (within the county); supervisor Cathy Houchin sought an impact study alongside the moratorium.",
+      "trigger_categories": ["regulatory_gap", "water", "environmental", "specific_project"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; adopted 29-2 (Supervisors Jayme Klockow and Robert Ballweg dissenting; 2 absent) on August 18, 2026, applying to County Zoned unincorporated areas. Does not affect incorporated areas such as Beaver Dam, where the Meta data center is located.",
+      "enacted_status": "active",
+      "affected_projects": "The moratorium does not apply to the Meta data center under construction in the City of Beaver Dam (incorporated, not county-zoned), which prompted the push for the moratorium and an accompanying environmental impact study of the county's groundwater.",
+      "outcome": "Adopted 18-month moratorium on data center construction in county-zoned unincorporated areas.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wdtimes.com/news/local/dodge-county-board-of-supervisors-pass-data-center-moratorium/article_5acb0fcc-3a3a-4922-92a8-792cbf7c0ec8.html",
+          "title": "Dodge County Board of Supervisors pass data center moratorium",
+          "publisher": "Watertown Daily Times",
+          "document_date": "2026-08-18",
+          "source_type": "news",
+          "supports": "Confirms the 29-2 vote on Aug. 18, 2026, the preceding Aug. 10 committee public hearing and unanimous committee approval, the 18-month term, and the Beaver Dam/Meta context.",
+          "quote": "While supervisors voted 29-2 for the moratorium, Jayme Klockow and Robert Ballweg voted against it. Two supervisors, Nicholas Christian and Haley Justmann were absent from Tuesday's meeting. ... This follows an Aug. 10 public hearing held by the Dodge County Land and Resources and Parks Committee, where its members passed an 18-month moratorium on data center development in Dodge County."
+        },
+        {
+          "url": "https://www.co.dodge.wi.gov/p/~board/county-news/post/dodge-county-to-hold-public-hearing-for-data-center-moratorium",
+          "title": "Dodge County to hold Public Hearing for Data Center Moratorium",
+          "publisher": "Dodge County, Wisconsin",
+          "document_date": "2026-08",
+          "source_type": "other",
+          "supports": "County's own notice confirming the public hearing on the proposed moratorium for county-zoned unincorporated areas.",
+          "quote": "Dodge County residents are invited to participate in a public hearing regarding a proposed temporary moratorium on new data center development in County Zoned unincorporated areas of Dodge County."
+        }
+      ]
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Vilas County",
+      "jurisdiction_type": "County",
+      "date_enacted": "",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed 12 months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Proposed Vilas County ordinance (draft; number not yet assigned per reviewed sources), Zoning & Planning Committee public hearing held 2026-09-23 under Wis. Stat. §§ 59.02(2), 59.03(2)(a), and 59.69",
+      "trigger": "County currently lacks local zoning regulations for data centers, battery energy storage systems, or large-scale solar; officials cite fire hazards (BESS), noise/vibration from cooling units, light pollution, water/air quality, stormwater runoff, and traffic impacts.",
+      "trigger_categories": ["regulatory_gap", "fire_safety", "noise", "water", "environmental"],
+      "sectors": ["data_center", "battery_storage", "solar"],
+      "current_status": "Pending as of 2026-09-23. The Vilas County Zoning & Planning Committee held a public hearing on the proposed ordinance on 2026-09-23 (the date of this research); the full County Board of Supervisors is scheduled to vote at its October 27, 2026 meeting. As drafted, the moratorium would freeze acceptance, review, or approval of development permits for data centers, BESS, and solar energy systems exceeding one acre, for 12 months, with exemptions for solar installations of one acre or less, ordinary maintenance/repairs, emergency utility restoration, and projects already holding valid county permits.",
+      "enacted_status": "pending",
+      "affected_projects": "",
+      "outcome": "Public hearing held on a proposed 12-month moratorium on data centers, battery energy storage systems, and solar energy systems over one acre; County Board vote scheduled for 2026-10-27.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://presqueislewi.gov/wp-content/uploads/2026/09/Public-Hearing-Vilas-County.pdf",
+          "title": "Public Hearing Notice, Vilas County Zoning & Planning Committee",
+          "publisher": "Vilas County, Wisconsin",
+          "document_date": "2026-08-14",
+          "source_type": "other",
+          "supports": "Official public hearing notice confirming the proposed ordinance's scope (solar systems over one acre, BESS, and data centers), 12-month term, and the September 23, 2026 hearing date.",
+          "quote": "The hearing will be on a proposed ordinance to implement a twelve (12) month moratorium on the acceptance, consideration, or approval of any application or permit to develop, construct, enlarge or operate a solar energy system (SES) exceeding one acre in size, any battery energy storage system (BESS), or any data center."
+        },
+        {
+          "url": "https://www.vcnewsreview.com/stories/public-hearing-set-sept-23-on-possible-vilas-data-center-ban,354090",
+          "title": "Public hearing set Sept. 23 on possible Vilas data center ban",
+          "publisher": "Vilas County News-Review",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Confirms the Sept. 23, 2026 public hearing date, the Oct. 27, 2026 scheduled County Board vote, the proposed exemptions, and the statutory authority cited.",
+          "quote": "A public hearing on the proposed ordinance is scheduled for Sept. 23 at 9 a.m. at the Vilas County Courthouse, giving residents and community stakeholders an opportunity to provide input. Following the public comment period, the Vilas County Board of Supervisors is set to vote on the proposal at its Oct. 27 meeting."
+        }
+      ],
+      "notes": "As of the 2026-09-23 research date, this had not yet been adopted; it is recorded as pending. A later researcher should check whether the October 27, 2026 County Board vote passed the ordinance."
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Cassville",
+      "jurisdiction_type": "Town",
+      "date_enacted": "April 16, 2026 (town electors voted 44-0 that evening to authorize the Town Board to exercise village powers/zoning authority, and the Board adopted the data center ban ordinance the same evening)",
+      "date_enacted_iso": "2026-04-16",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Up to two years",
+      "duration_days": 730,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Town of Cassville (Grant County) data center ban ordinance, adopted using newly authorized village/zoning powers (ordinance number not located in reviewed sources)",
+      "trigger": "A proposed roughly $1 billion, approximately 500-acre data center campus by an undisclosed developer (drawn by the town's proximity to the Cardinal-Hickory Creek high-voltage transmission line); residents opposed the secrecy and scale of the project and mobilized to give the town board zoning authority to block it.",
+      "trigger_categories": ["specific_project", "regulatory_gap", "agricultural_preservation", "property_values"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; enacted April 16, 2026. Prohibits data centers in the town for up to two years and also restricts land-use changes (e.g., building a residence on farmland) without town board approval. The county cannot preempt the town's zoning authority in this instance. As of the reporting reviewed, the previously scouted developer had gone quiet, with no application filed.",
+      "enacted_status": "active",
+      "affected_projects": "An anonymous developer's proposed ~$1 billion, 400-500 megawatt data center campus (roughly 500 acres) near the Cardinal-Hickory Creek transmission line; the developer reportedly went quiet after the town's action and was also considering sites in Indiana and North Dakota.",
+      "outcome": "Town electors authorized village/zoning powers and the Town Board adopted a two-year ban on data centers, blocking the proposed project.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://wisconsinwatch.org/2026/04/wisconsin-data-center-rural-town-cassville-rejects-plan-driftless-area-zoning/",
+          "title": "In rural Wisconsin, a town rejects a plan to build a massive data center",
+          "publisher": "Wisconsin Watch",
+          "document_date": "2026-04-30",
+          "source_type": "news",
+          "supports": "Detailed, on-the-ground account of the April 16, 2026 electors' vote (44-0) authorizing zoning power, the same-evening ordinance banning data centers for up to two years, and the specific project it targeted.",
+          "quote": "The board of the town of Cassville, in Grant County, Wisconsin, discussed an ordinance on April 16, 2026, that would ban data centers in the township. That evening, town electors authorized the town supervisors to exercise zoning authority. ... The unanimous outcome — 44 ballots in favor of banning data centers, none against ... Cassville's new ordinance prohibits data centers in the town for up to two years and prevents land use changes, such as constructing a residence on a farm field, without the town board's approval."
+        },
+        {
+          "url": "https://dailyreporter.com/2026/06/05/wisconsin-counties-impose-moratoriums-on-hyperscale-data-centers/",
+          "title": "More hurdles for Wisconsin data center projects",
+          "publisher": "Wisconsin Daily Reporter / WisPolitics-State Affairs",
+          "document_date": "2026-06-05",
+          "source_type": "news",
+          "supports": "Independent corroboration that the town voted unanimously in April to ban data centers for two years across the town's 36 square miles.",
+          "quote": "Town leaders ultimately voted unanimously in April to pass an ordinance banning data centers for two years from the 36 square miles bordering the Mississippi."
+        }
+      ]
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Westport",
+      "jurisdiction_type": "Town",
+      "date_enacted": "April 6, 2026 (Town Board regular meeting)",
+      "date_enacted_iso": "2026-04-06",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Ordinance 26-01 (Town of Westport, Dane County), \"Establishing a Temporary Moratorium on the Consideration and/or Issuance of Permits for [Data Centers and Telecommunication Centers]\"",
+      "trigger": "Modeled on a similar moratorium passed by the City of Madison; adopted amid growing data center prospecting activity in Dane County.",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; adopted April 6, 2026 on a motion by Werner, seconded by Crowell, with Supervisor Manering dissenting (she wanted the ordinance to apply to all data centers regardless of size). Applies to data centers exceeding 10,000 square feet; covers a one-year moratorium on considering or issuing permits for data centers and telecommunication centers.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted 12-month moratorium (Ordinance 26-01) on permits for data centers exceeding 10,000 square feet.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.townofwestport.org/AgendaCenter/ViewFile/Minutes/_04062026-126",
+          "title": "Town of Westport Town Board Minutes, April 6, 2026",
+          "publisher": "Town of Westport, Wisconsin",
+          "document_date": "2026-04-06",
+          "source_type": "minutes",
+          "supports": "Official town minutes recording the adoption of Ordinance 26-01, its 12-month/10,000-sq-ft terms, the motion/second, and Manering's dissent.",
+          "quote": "The board approved Ordinance 26-01 which includes a 12-month moratorium on data centers exceeding 10,000 square feet, on a motion by Werner, second Crowell, with Manering dissenting based on her wish to have the Ordinance apply to all data centers regardless of size."
+        },
+        {
+          "url": "https://www.hngnews.com/tribune_enterprise/news/local/westport-enacts-data-center-moratorium/article_41bd7395-3dc5-4617-8fbd-72dcc27142f3.html",
+          "title": "Westport enacts data center moratorium",
+          "publisher": "Hometown News Group (hngnews.com)",
+          "document_date": "2026-04",
+          "source_type": "news",
+          "supports": "News corroboration of the town's action.",
+          "quote": "The Town of Westport is the latest Wisconsin community to implement a moratorium on large data center or telecommunications centers construction."
+        }
+      ]
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Baldwin",
+      "jurisdiction_type": "Village",
+      "date_enacted": "Reported passed by around early June 2026, per multiple statewide roundups; exact vote date not confirmed in sources successfully archived",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Approximately one year (per Village President Lance Van Damme's stated intent)",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "current_end_date_iso": "",
+      "legal_basis": "Village of Baldwin (St. Croix County) data center moratorium (ordinance/resolution number not located in reviewed sources)",
+      "trigger": "Prompted by data center-related developments in nearby Hammond (St. Croix County); Village President Lance Van Damme said the board wanted a moratorium to give the board time to consider regulations.",
+      "trigger_categories": ["regulatory_gap", "specific_project"],
+      "sectors": ["data_center"],
+      "current_status": "Reported as passed, but I was unable to confirm the specifics (exact date, vote, and term) with an archived source; the primary local article (Baldwin Bulletin) was paywalled even under a browser-mode fetch and returned no article text. Listed at low confidence pending a coordinator follow-up.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Village Board reported to have adopted a data center moratorium of roughly one year, prompted by developments in the neighboring Village of Hammond.",
+      "confidence": 0.45,
+      "evidence": [
+        {
+          "url": "https://dailyreporter.com/2026/06/05/wisconsin-counties-impose-moratoriums-on-hyperscale-data-centers/",
+          "title": "More hurdles for Wisconsin data center projects",
+          "publisher": "Wisconsin Daily Reporter / WisPolitics-State Affairs",
+          "document_date": "2026-06-05",
+          "source_type": "news",
+          "supports": "Statewide roundup listing Baldwin (St. Croix County) among Wisconsin communities that had passed data center moratoriums by early June 2026.",
+          "quote": "Madison, the town of Cassville, Westport in Dane County, Baldwin in St. Croix County and Manitowoc County have all passed moratoriums ranging from one to two years."
+        },
+        {
+          "url": "https://www.apg-wi.com/rice_lake_chronotype/news/data-center-moratoriums-on-the-rise/article_55747d7a-12df-433d-9b5d-eec35435a881.html",
+          "title": "Data center moratoriums on the rise",
+          "publisher": "APG of Wisconsin (Rice Lake Chronotype)",
+          "document_date": "2026-06",
+          "source_type": "news",
+          "supports": "A second, independently-published statewide roundup with the same Baldwin listing, corroborating the dailyreporter.com item (both appear to draw on the same WisPolitics-State Affairs wire copy, so this should be treated as limited independent corroboration).",
+          "quote": "Madison, the town of Cassville, Westport in Dane County, Baldwin in St. Croix County and Manitowoc County have all passed moratoriums ranging from one to two years."
+        }
+      ],
+      "notes": "I could not archive baldwin-bulletin.com's dedicated article on this (\"Village Board making sure data centers aren't coming to Baldwin\") despite both a standard and a browser-mode fetch; the site returned only navigation chrome, consistent with a hard paywall rather than a JS-rendering issue. A coordinator with different tooling/access should try to confirm the exact date and term directly, or contact the Village Clerk."
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Greenville",
+      "jurisdiction_type": "Village",
+      "date_enacted": "July 13, 2026 (Village Board approval, 5-0 vote)",
+      "date_enacted_iso": "2026-07-13",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Ordinance 15-26 (Village of Greenville, Outagamie County), \"Temporary Moratorium on Data Centers,\" adopted pursuant to Wis. Stat. § 66.1002, following the Village Board's Resolution 20-26 stating intent to enact the moratorium and a May 18, 2026 Plan Commission recommendation",
+      "trigger": "Plan Commission and Village Board wanted to get ahead of potential data center proposals and avoid being \"surprised\"; part of a wave of similar actions among nearby Fox Valley/Northeast Wisconsin municipalities.",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; adopted 5-0 on July 13, 2026. Prohibits issuance of zoning certificates for data centers with floor area greater than 10,000 square feet for 12 months following the effective date, or until a data-center ordinance is adopted, whichever is earlier; extendable up to 6 additional months per Wis. Stat. § 66.1002(3)(b)2. Village staff are directed to draft permanent data-center regulations before the moratorium expires.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted 12-month moratorium (Ordinance 15-26) on data centers over 10,000 square feet.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://fox11online.com/resources/pdf/3084b2b6-7ef9-48e2-bd50-20922f9b3560-GreenvilleDataCentermoratoriumresolution.pdf",
+          "title": "Village of Greenville Ordinance 15-26, Temporary Moratorium on Data Centers",
+          "publisher": "Village of Greenville, Wisconsin",
+          "document_date": "2026-07-13",
+          "source_type": "ordinance",
+          "supports": "Full ordinance text confirming the 12-month term, 10,000-sq-ft threshold, statutory authority, and July 13, 2026 adoption date.",
+          "quote": "Adopted by the Village Board of the Village of Greenville this 13th day of July 2026. ... This moratorium shall be in effect for twelve (12) months following the effective date of this ordinance or until an ordinance related to data centers is adopted and takes effect, whichever is earlier."
+        },
+        {
+          "url": "https://fox11online.com/news/local/greenville-approves-temporary-data-center-moratorium",
+          "title": "Greenville approves temporary data center moratorium",
+          "publisher": "Fox 11 (WLUK)",
+          "document_date": "2026-07-14",
+          "source_type": "news",
+          "supports": "Confirms the 5-0 vote on Monday, July 13, 2026, and the 10,000-square-foot threshold.",
+          "quote": "The Greenville village board approved a one-year data center moratorium on Monday ... The board approved the measure 5-0 ... The center prohibits the building of a data center of 10,000 or more square feet."
+        }
+      ]
+    },
+    {
+      "state": "Wisconsin",
+      "jurisdiction": "Milwaukee",
+      "jurisdiction_type": "City",
+      "date_enacted": "",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed one year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Proposed Milwaukee Common Council ordinance imposing a one-year data center moratorium, sponsored by Alderwoman Marina Dimitrijevic with Alex Brower, Russell W. Stamper II, and Robert Bauman; endorsed by the Zoning Code Technical Committee August 10, 2026",
+      "trigger": "Milwaukee's zoning code does not currently treat data centers as a distinct land use; sponsor wants rules in place before a major data center proposal is submitted, following controversy over a since-withdrawn data center component of a Midtown Center Walmart-site redevelopment.",
+      "trigger_categories": ["regulatory_gap", "grid_energy", "water", "environmental"],
+      "sectors": ["data_center"],
+      "current_status": "Pending as of 2026-09-23. The City Plan Commission is scheduled to hold its hearing and make a recommendation on September 28, 2026; the proposal still requires Common Council approval before taking effect. If adopted, the moratorium would bar city departments/boards/commissions from accepting or processing most new data center applications for one year after passage or until the zoning code is amended to specifically regulate data centers, whichever is first, with an exception for planned-development-district properties and a proposed (contested) tribal-land exemption for the Forest County Potawatomi Community.",
+      "enacted_status": "pending",
+      "affected_projects": "A 19,000-square-foot \"computer research facility\" that opponents characterized as a data center was initially part of a proposed Midtown Center (former Walmart site) redevelopment; the developer later removed it from the plan.",
+      "outcome": "Zoning Code Technical Committee endorsed the proposed one-year data center moratorium (Aug. 10, 2026); City Plan Commission hearing scheduled Sept. 28, 2026; Common Council vote still required.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://urbanmilwaukee.com/2026/09/17/milwaukees-data-center-moratorium-heads-to-first-public-hearing/",
+          "title": "Milwaukee's Data Center Moratorium Heads To First Public Hearing",
+          "publisher": "Urban Milwaukee",
+          "document_date": "2026-09-17",
+          "source_type": "news",
+          "supports": "Detailed account of the proposal's status, sponsors, terms, exemptions, and the Sept. 28, 2026 City Plan Commission hearing, plus the still-pending Common Council approval requirement.",
+          "quote": "The City Plan Commission is scheduled to consider the temporary ban on Sept. 28, according to a newly published agenda. The hearing is another step toward imposing a one-year pause while city officials finish writing permanent regulations ... The proposal would still need approval from the Common Council before it could take effect."
+        }
+      ],
+      "notes": "Not yet adopted as of the research date; recorded as pending. A later pass should check whether the Plan Commission and then the Common Council approved it."
+    }
+  ]
+}

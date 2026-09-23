@@ -6,10 +6,10 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 
 > 📄 **Working paper:** [April 2026 updated draft (PDF, 6 MB, 116 pages)](paper/moratorium-nation-2026-04-30.pdf) · [first edition on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6242898). 50-state legal authority survey, 44-clause taxonomy, 13-section model ordinance template.
 
-> **As of August 19, 2026, 533 local moratorium instruments are tracked across 42 states.**
-> 🟢 **429 currently in force** (active or extended) · 🟡 **34 pending or proposed** (not yet adopted) · ⚪ **70 expired, replaced, or rescinded** (no longer in force)
+> **As of September 23, 2026, 1053 local moratorium instruments are tracked across 47 states.**
+> 🟢 **899 currently in force** (active or extended) · 🟡 **60 pending or proposed** (not yet adopted) · ⚪ **94 expired, replaced, or rescinded** (no longer in force)
 >
-> Top states by total instruments: Michigan (64), Ohio (53), Georgia (47), North Carolina (40), Iowa (30), Tennessee (24), Indiana (20), Washington (19), Wisconsin (16), Kentucky (15).
+> Top states by total instruments: Ohio (159), Michigan (141), North Carolina (70), Georgia (69), Iowa (54), Tennessee (43), Washington (36), Wisconsin (33), Kentucky (31), Indiana (28).
 >
 > ✅ **Coverage note:** **all 50 states** were swept month by month for May–July 2026, so counts inside that window are complete rather than lower bounds. Ten states recorded no adoption in it — a finding, not a gap. Earlier periods were not swept this way. See [known gaps](docs/known-gaps.md).
 
@@ -59,20 +59,20 @@ For more, see the [FAQ](docs/FAQ.md).
 
 ## The headline numbers
 
-As of **August 19, 2026**:
+As of **September 23, 2026**:
 
-- **533 moratorium instruments** tracked in our cleaned inventory
-  - **429 currently in force** (381 active + 48 extended)
-  - **34 pending or proposed** (public hearings scheduled, awaiting adoption)
-  - **37 replaced** by permanent regulations
-  - **27 expired** without a documented replacement
-  - **6 rescinded** before their original expiration
-- **42 states** have at least one moratorium; **8 states** have none we've identified. Florida, Nevada, New Mexico, South Carolina, and Texas entered the dataset in v2026.07
-- **Top 10 states by instrument count**: Michigan (64), Ohio (53), Georgia (47), North Carolina (40), Iowa (30), Tennessee (24), Indiana (20), Washington (19), Wisconsin (16), Kentucky (15)
-- **Sectors covered**: most moratoria target **data centers** (~93% mention them); a substantial share also cover **cryptocurrency mining**, with smaller numbers covering **battery storage**, **solar**, and **wind**
+- **1053 moratorium instruments** tracked in our cleaned inventory
+  - **899 currently in force** (788 active + 111 extended)
+  - **60 pending or proposed** (public hearings scheduled, awaiting adoption)
+  - **66 replaced** by permanent regulations
+  - **20 expired** without a documented replacement
+  - **8 rescinded** before their original expiration
+- **47 states** have at least one moratorium; **3 states** (Hawaii, West Virginia, Wyoming) have none we've identified after a targeted search. Alaska, Arizona, Delaware, Rhode Island, and Vermont entered the dataset in the September 2026 refresh
+- **Top 10 states by instrument count**: Ohio (159), Michigan (141), North Carolina (70), Georgia (69), Iowa (54), Tennessee (43), Washington (36), Wisconsin (33), Kentucky (31), Indiana (28)
+- **Sectors covered**: most moratoria target **data centers** (~95% mention them); a substantial share also cover **cryptocurrency mining**, with smaller numbers covering **battery storage**, **solar**, and **wind**
 - **438 state-level bills** tracked in 2025–2026, plus **2 binding non-bill state-policy actions**. These include moratorium proposals, local-moratorium authority/preemption, permitting limits, and utility-grid restrictions. Filter the typed `policy_instrument_type`, `policy_mechanism`, `legal_effect_status`, and `scope_of_action` columns rather than treating every state row as a moratorium.
-- **348 moratorium texts** read line-by-line and coded against a 44-clause taxonomy (the confidence-≥-0.4 subset of the 526 successful structured extractions in [`data/structured_extractions.jsonl`](data/structured_extractions.jsonl)). ⚠️ This cohort covers 211 jurisdictions and was collected **before 2026-04-28** — it was not re-run in v2026.07, so the clause-level percentages describe roughly half the current inventory. See [known gaps](docs/known-gaps.md)
-- **531 of 533 instruments geocoded** with WGS84 lat/lon (99.6% coverage); the 2 blanks are aggregate meta-rows that aren't real geographic points. Coordinates triple-checked across 89 verifications with **zero confirmed errors** ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
+- **348 moratorium texts** read line-by-line and coded against a 44-clause taxonomy (the confidence-≥-0.4 subset of the 526 successful structured extractions in [`data/structured_extractions.jsonl`](data/structured_extractions.jsonl)). ⚠️ This cohort covers 211 jurisdictions and was collected **before 2026-04-28** — it was not re-run in v2026.07, so the clause-level percentages describe roughly a third of the current inventory. See [known gaps](docs/known-gaps.md)
+- **1051 of 1053 instruments geocoded** with WGS84 lat/lon (99.6% coverage); the 2 blanks are aggregate meta-rows that aren't real geographic points. Coordinates triple-checked across 89 verifications with **zero confirmed errors** ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
 
 Full state-by-state breakdown: [**states/README.md**](states/README.md).
 
@@ -143,7 +143,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-This is a working dataset that will be refreshed periodically. The working snapshot is current through **2026-08-19**; the latest tagged release is **v2026.07**.
+This is a working dataset that will be refreshed periodically. The working snapshot is current through **2026-09-23**; the latest tagged release is **v2026.07**.
 
 ---
 

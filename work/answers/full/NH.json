@@ -1,0 +1,81 @@
+{
+  "state_abbrev": "NH",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "nh-town-of-nottingham-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-09-08",
+          "reason": "Nottingham voters approved the ordinance at a September 8, 2026 special town election (held with the state primary), 1,335 to 143, per NHPR, Fosters.com, and the town's own official ballot/election-results PDF."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "The town's own posted special-election results confirm the exact vote date."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-09-08",
+          "reason": "The adopted ordinance and official ballot question state a 12-month term from adoption by the legislative body (voters); adoption was 2026-09-08, so the term runs through approximately 2027-09-08."
+        },
+        "date_enacted": {
+          "from": "Planning Board voted 5-0-0 on 2026-07-01 to adopt the proposed ordinance as written and advance it to the town's legislative body; the signed ordinance states it takes effect only upon adoption by the legislative body (voters), scheduled for a special election on 2026-09-08",
+          "to": "Planning Board voted 5-0-0 on 2026-07-01 to adopt and advance the proposed ordinance; Nottingham voters ratified it at a September 8, 2026 special town election (held with the state primary) by a vote of 1,335 to 143, per the town's official election results.",
+          "reason": "Records the completed voter-ratification step, which the earlier refresh could only describe as scheduled."
+        },
+        "duration": {
+          "from": "12 months from voter adoption, if the ordinance is approved",
+          "to": "12 months from voter adoption on 2026-09-08 (to approximately 2027-09-08).",
+          "reason": "The conditional 'if approved' language is resolved now that voters have approved the ordinance."
+        },
+        "legal_basis": {
+          "from": "Nottingham Planning Board vote (5-0-0), July 1, 2026, adopting a signed 'Temporary Moratorium on Data Centers Ordinance' under RSA 674:23 (interim growth management); requires ratification by the town's legislative body (voters) before taking legal effect",
+          "to": "Nottingham Planning Board vote (5-0-0), July 1, 2026, adopting a signed 'Temporary Moratorium on Data Centers Ordinance' under RSA 674:23 (interim growth management); ratified by Nottingham voters 1,335-143 at the September 8, 2026 special town election, at which point it took legal effect.",
+          "reason": "Confirms enactment following the required legislative-body vote."
+        },
+        "current_status": {
+          "from": "Pending, not yet in legal effect as of the July 31, 2026 research date. The Planning Board has adopted and signed the ordinance and advanced it to Nottingham's legislative body; it becomes binding only if voters approve it at the special election scheduled for September 8, 2026 (held together with the state primary). If adopted, it would apply in every zoning district to data center land-use and building applications for 12 months and would stop acceptance, processing, or approval of listed applications.",
+          "to": "Active as of 2026-09-23. Nottingham voters approved the Temporary Moratorium on Data Centers Ordinance 1,335-143 at the September 8, 2026 special town election. The ordinance is now in legal effect townwide for 12 months (through approximately September 8, 2027), prohibiting acceptance, processing, or approval of permits or approvals for the establishment, construction, expansion, or operation of data centers in every zoning district. No repeal or amendment was found in sources reviewed through 2026-09-23.",
+          "reason": "Reflects the completed voter approval and the ordinance's operative status."
+        }
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://www.nhpr.org/politics/2026-09-09/nottingham-voters-approve-moratorium-data-centers-nh-newhampshire",
+          "title": "Nottingham voters overwhelmingly approve moratorium on data centers",
+          "publisher": "New Hampshire Public Radio",
+          "document_date": "2026-09-09",
+          "source_type": "news",
+          "supports": "Confirms the September 8, 2026 special-election vote (1,335-143) approving the 12-month townwide data-center moratorium.",
+          "quote": "Nottingham residents voted overwhelmingly Tuesday in favor of a 12-month moratorium on any data center development within town limits. ... The vote was 1,335 in favor, to 143 against."
+        },
+        {
+          "url": "https://www.fosters.com/story/news/local/2026/09/10/nottingham-data-centers-moratorium-approved-voters/91688887007/",
+          "title": "Nottingham data centers moratorium approved by town's voters",
+          "publisher": "Foster's Daily Democrat",
+          "document_date": "2026-09-10",
+          "source_type": "news",
+          "supports": "Independently corroborates the September 8, 2026 vote and 1,335-143 margin.",
+          "quote": "Nottingham residents voted overwhelmingly Sept. 8 in favor of a 12-month moratorium on any data center development within town limits. ... The vote was 1,335 in favor, to 143 against."
+        },
+        {
+          "url": "https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/news/2026_nottingham_special_town_election_results.pdf",
+          "title": "Official Ballot, Special Town Election, September 8, 2026",
+          "publisher": "Town of Nottingham, New Hampshire",
+          "document_date": "2026-09-08",
+          "source_type": "other",
+          "supports": "Official ballot text of the ballot question, confirming the ordinance's 12-month term under RSA 674:23 and Planning Board approval (5-0-0).",
+          "quote": "Shall the Town of Nottingham adopt a Temporary Moratorium on Data Centers Ordinance pursuant to RSA 674:23, which would prohibit the acceptance, processing, approval, or issuance of permits or approvals for the establishment, construction, expansion, or operation of data centers within the Town for a period of twelve (12) months ... Approved by Planning Board (5-0-0)"
+        }
+      ],
+      "notes": "No new NH moratorium candidates were found in this pass beyond the packet item; Rochester, NH adopted a permanent citywide zoning prohibition on data centers (not a temporary moratorium) around early August 2026, so it was not added as a new_candidate per the process rule that permanent bans are not new moratorium rows."
+    }
+  ],
+  "new_candidates": []
+}

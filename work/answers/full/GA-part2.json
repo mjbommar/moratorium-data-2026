@@ -1,0 +1,943 @@
+{
+  "state_abbrev": "GA",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "ga-stephens-county-undated",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "Original enactment date not confirmed in this pass; extended through 2026-10-14 by a unanimous vote reported 2026-05-26",
+          "to": "Adopted April 14, 2026 by unanimous Board of Commissioners vote (Resolution for a moratorium barring the acceptance of land use applications for data centers; per the county's signed April 14, 2026 meeting minutes, approved April 28, 2026). Extended through 2026-10-14 by a unanimous vote at the May 26, 2026 meeting (moved the expiration from July 14, 2026 to Oct. 14, 2026).",
+          "reason": "The county's own signed minutes for the April 14, 2026 meeting (posted on stephenscountyga.gov) show the moratorium resolution as a New Business item approved by unanimous vote, giving a primary-source adoption date that was previously unconfirmed. A WNEG radio report and a secondary summary of the May 26, 2026 meeting both confirm the extension moved the expiration from July 14 to Oct. 14, 2026, consistent with an original ~90-day term from April 14."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-04-14",
+          "reason": "Primary source: Stephens County BOC signed minutes for the April 14, 2026 regular meeting, New Business item 1, 'Resolution for a moratorium barring the acceptance of land use applications for data centers,' vote unanimous."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Matches the precision of the now-confirmed date_enacted_iso (YYYY-MM-DD) per the county's signed minutes."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-10-14",
+          "reason": "The moratorium is duration_kind 'until_date'; the May 26, 2026 extension set a fixed operative end date of Oct. 14, 2026, confirmed by both a WNEG radio report ('Commissioners unanimously approved extending the moratorium on data centers until October 14') and a secondary meeting summary giving the same date and noting it moved from a prior July 14, 2026 expiration."
+        },
+        "current_status": {
+          "from": "Extended through 2026-10-14; county officials said no data center applications had been received [VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23; extended through 2026-10-14 by unanimous vote at the May 26, 2026 meeting. A Called Work Session on the proposed data center ordinance was held June 2, 2026; no adopted final ordinance, repeal, or further extension was located in county materials or local reporting reviewed through 2026-09-23. The county has not received any applications for data centers. The Oct. 14, 2026 expiration has not yet passed as of this review.",
+          "reason": "Resolves the VERIFY marker: the primary April 14, 2026 minutes confirm the original adoption and vote; WNEG's May 26, 2026 and June 2, 2026 reporting confirm the extension and ongoing ordinance-drafting work session. No source located showing a numbered resolution/ordinance identifier, so that narrower point remains open (see verify_resolutions)."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "resolution": "corrected",
+          "note": "Adoption date confirmed as 2026-04-14 via the county's own signed BOC minutes (stephenscountyga.gov/wp-content/uploads/2026/04/04-14-2026-Minutes.pdf), a primary source. No specific resolution number/identifier was given in the minutes or in WNEG radio's May 26 and citizenportal.ai's summary coverage, so the narrow 'instrument number' point remains unresolved, but the substantive adoption-date question is resolved."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://stephenscountyga.gov/wp-content/uploads/2026/04/04-14-2026-Minutes.pdf",
+          "title": "Stephens County Board of Commissioners Meeting Minutes, April 14, 2026",
+          "publisher": "Stephens County, Georgia",
+          "document_date": "2026-04-14",
+          "source_type": "minutes",
+          "supports": "Primary confirmation of the original moratorium's adoption date and unanimous vote.",
+          "quote": "Resolution for a moratorium barring the acceptance of land use applications for data centers. Motion to approve: Commissioner Simmons Second: Vice-Chairman Oglesby ... Vote: Unanimous ... Approved this 28th day of April, 2026."
+        },
+        {
+          "url": "https://wnegradio.com/stephens-county-commission-extends-moratorium-on-data-centers/",
+          "title": "Stephens County Commission extends Moratorium on Data Centers",
+          "publisher": "WNEG Radio",
+          "document_date": "2026-05-26",
+          "source_type": "news",
+          "supports": "Confirms the May 26, 2026 unanimous vote extending the moratorium to October 14, and that no data center applications had been received.",
+          "quote": "Commissioners unanimously approved extending the moratorium on data centers until October 14. ... The county has not received any applications for data centers."
+        },
+        {
+          "url": "https://citizenportal.ai/articles/8084203/georgia/school-districts/stephens-county/stephens-county-commissioners-extend-datacenter-moratorium-approve-five-rezoning-requests-and-several-county-purchases",
+          "title": "Stephens County commissioners extend data-center moratorium, approve five rezoning requests and several county purchases",
+          "publisher": "citizenportal.ai",
+          "document_date": "2026-05-26",
+          "source_type": "news",
+          "supports": "Confirms the extension moved the expiration from July 14, 2026 to Oct. 14, 2026, and that a work session on ordinance text was scheduled for June 2, 2026.",
+          "quote": "Staff recommended, and the board approved, a three-month extension of the county's moratorium on accepting data-center land-use applications, moving the expiration from July 14, 2026 to Oct. 14, 2026."
+        }
+      ],
+      "notes": "No source located for a numbered resolution identifier or for a final ordinance vote after the June 2, 2026 work session; as of 2026-09-23 the Oct. 14, 2026 deadline has not yet passed."
+    },
+    {
+      "moratorium_id": "ga-covington-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "changes": {
+        "legal_basis": {
+          "from": "Resolution of the Mayor and Council of the City of Covington enacting a limited moratorium until 2026-07-04 on the acceptance of applications for Data Center Development; ratified by motion at 2026-01-20 regular meeting (minutes confirm action; resolution-number not stated in minutes) [VERIFY exact resolution number]",
+          "to": "Original moratorium resolution adopted 2026-01-05, ratified 2026-01-20, and extended by council action multiple times (to Aug. 4, 2026 per the June 1, 2026 agenda; then to Oct. 20, 2026 per the July 6, 2026 agenda). Superseded by a permanent ordinance amending Covington Municipal Code Section 16.20.195 (Data Center) within Chapter 16.20 (Supplemental Use Provisions), given first reading and public hearing Aug. 3, 2026 and adopted on final reading Aug. 17, 2026. A resolution number for the original moratorium was not located.",
+          "reason": "The City of Covington's own council agendas (cityofcovington.org) for June 1, 2026 ('extending until August 4, 2026, a limited moratorium...') and July 6, 2026 ('request to extend the moratorium for data centers ... Anticipated date of extension to end of Tuesday, October 20, 2026') are primary sources documenting the extension chronology. The Aug. 3, 2026 agenda item 8 ('Public Hearing and 1st reading of Ordinance 16.20.195 draft Data Center ordinance') identifies the specific code section adopted, and a Rockdale Citizen letter to the editor dated Aug. 19, 2026 states the amended data center ordinance was adopted by the council 'Monday night' (Aug. 17, 2026)."
+        },
+        "current_status": {
+          "from": "Active as of 2026-04-29",
+          "to": "Replaced as of 2026-09-23. The city adopted a permanent Data Center ordinance (Covington Municipal Code Sec. 16.20.195) on final reading Aug. 17, 2026, after a first reading and public hearing on Aug. 3, 2026. The now-redundant moratorium (last extended through Oct. 20, 2026) was placed on the Sept. 1, 2026 council agenda for formal revocation, 'now that the related ordinance has been adopted.'",
+          "reason": "Direct evidence from the city's own posted agendas: the Aug. 3, 2026 agenda documents the ordinance's first reading; a Rockdale Citizen letter to the editor (Aug. 19, 2026) confirms the council 'adopted' the amended data center ordinance at its Aug. 17, 2026 meeting; the Sept. 1, 2026 agenda item 9 explicitly ties the moratorium's revocation to the newly adopted ordinance."
+        },
+        "duration": {
+          "from": "Until 2026-07-04",
+          "to": "Originally until 2026-07-04; extended by council action to Aug. 4, 2026 (per the June 1, 2026 agenda) and again to Oct. 20, 2026 (per the July 6, 2026 agenda), before being superseded by the permanent data center ordinance adopted Aug. 17, 2026.",
+          "reason": "Chronology drawn from the City of Covington's own posted council meeting agendas for June 1 and July 6, 2026, which are primary sources for each extension's new target date."
+        },
+        "outcome": {
+          "from": "Code rewrite under consideration",
+          "to": "Permanent data center ordinance (Covington Municipal Code Sec. 16.20.195) adopted on final reading Aug. 17, 2026, after multiple moratorium extensions; the council's Sept. 1, 2026 agenda proposed formally revoking the now-superseded moratorium.",
+          "reason": "Updates the outcome field to reflect that the 'code rewrite' previously described as 'under consideration' was completed and adopted."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY exact resolution number]",
+          "resolution": "still_unverifiable",
+          "note": "Checked the city's posted council agendas for Jan. 5 and Jan. 20, 2026 and the council meeting minutes page (cityofcovington.org/index.php?section=Council-Meetings); minutes for meetings after July 6, 2026 (including Aug. 3, Aug. 17, and Sept. 1, 2026) are marked 'COMING SOON' as of 2026-09-23, so no numbered resolution or ordinance identifier could be confirmed for either the original moratorium or its extensions."
+        }
+      ],
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "url": "https://www.cityofcovington.org/index.php?section=visit-calendar&evtid=1474",
+          "title": "Covington City Council Meeting Agenda, June 1, 2026",
+          "publisher": "City of Covington, Georgia",
+          "document_date": "2026-06-01",
+          "source_type": "agenda",
+          "supports": "Confirms the moratorium was extended to August 4, 2026.",
+          "quote": "Discussion of extending until August 4, 2026, a limited moratorium on the acceptance of applications for Data Center Development."
+        },
+        {
+          "url": "https://www.cityofcovington.org/index.php?section=visit-calendar&evtid=1476",
+          "title": "Covington City Council Meeting Agenda, July 6, 2026",
+          "publisher": "City of Covington, Georgia",
+          "document_date": "2026-07-06",
+          "source_type": "agenda",
+          "supports": "Confirms a request to extend the data center moratorium to October 20, 2026 to allow additional Planning Commission review before the ordinance reached Mayor and Council.",
+          "quote": "Discussion of request to extend the moratorium for data centers to allow additional Planning Commission meeting for Data Center ordinance update before bringing to Mayor and Council. Anticipated date of extension to end of Tuesday, October 20, 2026."
+        },
+        {
+          "url": "https://www.cityofcovington.org/index.php?section=visit-calendar&evtid=1477",
+          "title": "Covington City Council Meeting Agenda, August 3, 2026",
+          "publisher": "City of Covington, Georgia",
+          "document_date": "2026-08-03",
+          "source_type": "agenda",
+          "supports": "Documents the first reading and public hearing of the permanent Data Center ordinance (Sec. 16.20.195).",
+          "quote": "Discussion of Public Hearing and 1st reading of Ordinance 16.20.195 draft Data Center ordinance. \"AN ORDINANCE OF THE CITY OF COVINGTON, GEORGIA ... TO ADOPT SECTION 16.20.195 (DATA CENTER) WITHIN CHAPTER 16.20 (SUPPLEMENTAL USE PROVISIONS)...\""
+        },
+        {
+          "url": "https://www.rockdalecitizen.com/opinion/letter-to-the-editor-covington-data-center-ordinance-a-great-start/article_d0db754c-8ba5-459b-8c3a-cebca5d9876d.html",
+          "title": "LETTER TO THE EDITOR: Covington data center ordinance a great start",
+          "publisher": "Rockdale Citizen",
+          "document_date": "2026-08-19",
+          "source_type": "news",
+          "supports": "Confirms the council adopted the amended data center ordinance at its Aug. 17, 2026 meeting.",
+          "quote": "I want to thank the City of Covington Planning & Development staff, planning commission members, and the mayor and council for listening to our suggestions and concerns during the development of the amended data center ordinance the council adopted Monday night."
+        },
+        {
+          "url": "https://www.cityofcovington.org/index.php?section=calendar&evtid=1479",
+          "title": "Covington City Council Meeting Agenda, September 1, 2026",
+          "publisher": "City of Covington, Georgia",
+          "document_date": "2026-09-01",
+          "source_type": "agenda",
+          "supports": "Shows the council was set to formally revoke the moratorium because the related data center ordinance had already been adopted.",
+          "quote": "Discussion regarding revocation of the current moratorium for Data Centers which is set to remain in effect through October 20, 2026, now that the related ordinance has been adopted."
+        }
+      ],
+      "notes": "Minutes for the Aug. 3, Aug. 17, and Sept. 1, 2026 meetings were not yet posted to the city's official minutes page as of 2026-09-23, so the Sept. 1 revocation vote itself (only an agenda item) could not be independently confirmed as passed; the ordinance adoption on Aug. 17 is corroborated by a dated secondary source (the letter to the editor)."
+    },
+    {
+      "moratorium_id": "ga-marietta-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-12-31",
+          "reason": "Multiple independent local news sources confirm the operative end date of the six-month moratorium as December 31, 2026: eastcobbnews.com ('The Marietta moratorium on data centers expires on Dec. 31') and mdjonline.com search results referencing the same date; this matches the free-text duration already on file ('6 months, through December 31, 2026') but had not been captured in the structured end-date field."
+        },
+        "current_status": {
+          "from": "Adopted; does not apply to the Powers Ferry Place application or the previously approved Bells Ferry Road center [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23; set to expire Dec. 31, 2026. Confirmed via eastcobbnews.com's Aug. 12, 2026 reporting on the Marietta City Council's 5-2 vote (also Aug. 12, 2026) to approve a data center at 1155 Powers Ferry Place, which explicitly notes that vote occurred despite -- and is excluded from -- the six-month data center moratorium the council passed the prior month. No repeal, extension, or replacement of the moratorium itself was located as of 2026-09-23. [VERIFY instrument number: no numbered resolution/ordinance identifier for the moratorium was located in city materials or news coverage reviewed]",
+          "reason": "Refreshes the 'as of' date and substantiates the end date and continued force of the moratorium using a second independent news source beyond the original single-source citation, partially addressing (but not fully resolving) the instrument-number portion of the VERIFY marker."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Checked additional local coverage (eastcobbnews.com, mdjonline.com) and Marietta's public council agenda references via search; found no numbered resolution or ordinance identifier for the moratorium itself, only news accounts of the vote and its Dec. 31, 2026 end date. Two independent local outlets now corroborate the substance, raising confidence, but the marker is left in place since no primary instrument was located."
+        }
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://eastcobbnews.com/marietta-city-council-approves-data-center-off-delk-road/",
+          "title": "Marietta City Council approves data center off Delk Road",
+          "publisher": "East Cobb News",
+          "document_date": "2026-08-12",
+          "source_type": "news",
+          "supports": "Confirms the six-month moratorium's Dec. 31, 2026 expiration and that the Powers Ferry Place data center vote was carved out of it.",
+          "quote": "At last month's meeting, Marietta also voted for a six-month moratorium on considering other data centers ... The Marietta moratorium on data centers expires on Dec. 31."
+        }
+      ],
+      "notes": "No primary ordinance/resolution text for the Marietta moratorium was located; reliance remains on independent local news coverage."
+    },
+    {
+      "moratorium_id": "ga-paulding-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Adopted unanimously; not independently re-checked past publication",
+          "to": "Active as of 2026-09-23. Confirmed via Spectrum News (Aug. 3, 2026): commissioners unanimously approved the moratorium through Jan. 1, 2027, and it does not affect applications already submitted before the vote. No extension, repeal, or replacement located as of 2026-09-23.",
+          "reason": "Refreshes the 'as of' date and substantiates the term with an independent news source found during this pass; no substantive change to the moratorium's terms was found."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://spectrumlocalnews.com/ga/georgia/news/2026/08/03/paulding-county-hits-pause-on-new-data-centers",
+          "title": "Paulding County hits pause on new data centers",
+          "publisher": "Spectrum News",
+          "document_date": "2026-08-03",
+          "source_type": "news",
+          "supports": "Confirms the moratorium's Jan. 1, 2027 end date and that it does not apply to applications submitted before the vote.",
+          "quote": "Commissioners unanimously approved a temporary moratorium through Jan. 1, 2027. ... The moratorium does not affect any applications already submitted before last Tuesday's vote."
+        }
+      ],
+      "notes": "No newer coverage located suggesting an extension, repeal, or replacement of this moratorium as of 2026-09-23."
+    },
+    {
+      "moratorium_id": "ga-decatur-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-07-31. Decatur County BOC minutes through the June 23, 2026 meeting show no repeal, extension, or replacement of the moratorium.",
+          "to": "Active as of 2026-09-23. No repeal, extension, or replacement of the moratorium was located in county materials or local news coverage reviewed through this date; the Board's study committee process described in the Post-Searchlight's April 14, 2026 report on the moratorium's adoption remains the most recent primary account located.",
+          "reason": "Refreshes the 'as of' date; the underlying indefinite moratorium (no fixed end date) remains the most current information found, corroborated by an additional local news source."
+        }
+      },
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://thepostsearchlight.com/2026/04/14/county-approves-moratorium/",
+          "title": "County approves moratorium on motocross complexes, data centers",
+          "publisher": "The Post-Searchlight",
+          "document_date": "2026-04-14",
+          "source_type": "news",
+          "supports": "Corroborates the April 14, 2026 adoption of the indefinite moratorium and the county's committee/study process, matching the existing record.",
+          "quote": "The Decatur County Board of Commissioners has approved a moratorium on any future motocross complexes or data centers and will create a committee to research the topic."
+        }
+      ],
+      "notes": "No newer public reporting located on the committee's findings or any change in the moratorium's status since the last refresh."
+    },
+    {
+      "moratorium_id": "ga-pike-county-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "changes": {
+        "duration": {
+          "from": "Not confirmed [VERIFY: primary minutes not located on Pike County website as of 2026-04-29]",
+          "to": "The September 2025 Board action was an informal supportive motion, not a fixed-term moratorium instrument; it was superseded by a permanent Unified Development Code text amendment adding data center regulations and requirements, which received a first reading and, per the Board's signed minutes, a second reading approved 5-0 at the Dec. 10, 2025 regular meeting.",
+          "reason": "Primary source: Pike County Board of Commissioners' signed minutes (Minute Book 44, Dec. 10, 2025), item 9(n), document a second-reading vote adopting UDC data center regulations; the water-planning.georgia.gov state agency slide deck independently lists 'Pike County (through June 2026)' among 'Known Current Local Government Moratorium Efforts,' consistent with a temporary pause that was later replaced by permanent standards."
+        },
+        "legal_basis": {
+          "from": "Pike County moratorium action referenced in GPB 2025-10-22 statewide reporting [VERIFY: primary resolution not retrieved]",
+          "to": "Pike County Unified Development Code, Article 14 (M-1 Manufacturing-Light), Sec. 1403.A.5 and related sections, adding minimum lot area, buffer, noise, decommissioning bond, fire-suppression, and emergency-response-plan standards specific to data centers. Adopted via a text amendment given second reading and approved 5-0 by the Board of Commissioners on Dec. 10, 2025, per the Board's signed minutes (Minute Book 44).",
+          "reason": "Primary source located and archived: the Board's own Dec. 10, 2025 minutes record the motion, second, and unanimous 5-0 vote adopting the data center text amendment; the amended Article 14 ordinance text on the county's own website (pikecoga.com) independently confirms the substantive data center standards now codified."
+        },
+        "current_status": {
+          "from": "Unknown [VERIFY: no replacement ordinance or extension located on county website as of 2026-04-29]",
+          "to": "Replaced. As of 2026-09-23, Pike County's Unified Development Code (Article 14, M-1 Manufacturing-Light) contains detailed permanent data center standards (minimum 10-acre lot, 50-foot buffer, 65 dB sound limit, decommissioning bond, Emergency Response Plan requirements), adopted via a text amendment approved on second reading by a 5-0 Board of Commissioners vote on Dec. 10, 2025. No separate, dated moratorium resolution predating that action was located; a June 2026 county newsletter item confirms commissioners reiterated that no data center project is currently proposed, under review, or being negotiated in the county.",
+          "reason": "Resolves the VERIFY marker using the Board's own primary minutes and the county's published, amended zoning ordinance text, both archived during this pass."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY exact date — GPB 2025-10-22 quotes Pike County Commissioner James Jenkins on the September 2025 motion but does not give an exact date]",
+          "resolution": "still_unverifiable",
+          "note": "No primary minutes for a September 2025 Board meeting were located during this pass; the Board's Dec. 10, 2025 minutes (which were located and archived) reference the September 2025 action only indirectly. The exact September 2025 date remains unconfirmed, though it is now understood to have been superseded by the Dec. 10, 2025 permanent ordinance regardless."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY: primary minutes not located on Pike County website as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Located and archived the Board's Dec. 10, 2025 minutes (pike.novusagenda.com), which show the September 2025 pause was followed by a permanent text amendment rather than a further-dated temporary moratorium."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: primary resolution not retrieved]",
+          "resolution": "corrected",
+          "note": "Located and archived both the Board's Dec. 10, 2025 minutes documenting the adopting vote and the county's own amended Article 14 UDC ordinance text (pikecoga.com) containing the substantive data center regulations."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no replacement ordinance or extension located on county website as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "The replacement ordinance was located: Pike County's Article 14 (M-1 Manufacturing-Light) UDC text, amended via the Dec. 10, 2025 second-reading vote, now governs data centers in the county."
+        }
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://pike.novusagenda.com/AgendaPublic/DisplayAgendaPDF.ashx?MinutesMeetingID=1777",
+          "title": "Pike County Board of Commissioners Meeting Minutes, December 10, 2025",
+          "publisher": "Pike County, Georgia",
+          "document_date": "2025-12-10",
+          "source_type": "minutes",
+          "supports": "Primary confirmation of the second-reading, 5-0 adoption of the UDC text amendment adding data center regulations.",
+          "quote": "n. Second Reading of Text Amendment to multiple articles of the Unified Development Code to add regulations and requirements for Data Centers. ... Motion/second by Commissioners Guy/Daniel to approve the second reading of Text Amendment to add regulations and requirements for Data Centers, motion carried 5-0."
+        },
+        {
+          "url": "https://www.pikecoga.com/uploads/1/3/3/6/133643513/article_14.___m-1_manufacturing_light-amended.pdf",
+          "title": "Article 14. M-1 Manufacturing-Light (amended)",
+          "publisher": "Pike County, Georgia, Code of Ordinances",
+          "document_date": "2025-12-10",
+          "source_type": "ordinance",
+          "supports": "Codified text of the data center standards now in force (minimum lot area, buffers, noise, decommissioning bond, emergency response plan).",
+          "quote": "a. Minimum lot area of ten (10) acres is required for all data centers. b. There shall be established a 50-foot wide planted or natural buffer along the entire perimeter of the ... h. Data Centers shall not produce sound that exceeds 65 decibels..."
+        },
+        {
+          "url": "https://waterplanning.georgia.gov/document/document/webinar-6-data-centers/download",
+          "title": "Data Center Development from a Water Perspective (webinar slides)",
+          "publisher": "Georgia Environmental Protection Division / water planning",
+          "source_type": "other",
+          "supports": "Independently lists Pike County among Georgia counties with a current local data center moratorium effort, corroborating that a temporary pause existed before the permanent ordinance took effect.",
+          "quote": "Known Current Local Government Efforts Across Georgia ... Current Moratoriums ... Pike County (through June 2026)"
+        }
+      ],
+      "notes": "The September 2025 GPB-reported 'motion' by Commissioner Jenkins appears, per subsequent Board minutes, to have led directly into the UDC text-amendment process that concluded Dec. 10, 2025, rather than a separately dated, fixed-term moratorium resolution; no such standalone resolution was located despite the additional search."
+    },
+    {
+      "moratorium_id": "ga-bulloch-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Extended to Dec. 31, 2026 by a 5-0 Board of Commissioners vote at the May 5, 2026 meeting (public hearing held same night). Commissioners simultaneously took a separate 5-0 vote to initiate a zoning-amendment process toward an outright ban on data centers in unincorporated Bulloch County.",
+          "to": "Active as of 2026-09-23; moratorium remains in effect through Dec. 31, 2026. The proposed outright ban text amendment (tabled 3-2 on Aug. 4, 2026) was brought back and rejected 4-3 (with Chairman David Bennett's tiebreaker vote) at the Sept. 1-2, 2026 meeting, leaving the existing moratorium in place. The Board separately voted 6-0 to establish a 21-member 'Working Group on Data Centers,' with commissioner nominees due by the Sept. 15, 2026 meeting.",
+          "reason": "Refreshes the 'as of' date and substantiates continued force of the moratorium and the outcome of the subsequent ban proposal using the Statesboro Herald's primary local reporting on the Sept. 1-2, 2026 Board of Commissioners meeting."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: news reporting (WJCL) confirms board action; resolution number not located on county website as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Checked additional local reporting (Statesboro Herald, Grice Connect, The Georgia Virtue) on the county's Aug.-Sept. 2026 data center actions; none cite a specific resolution number for the original Feb. 17, 2026 moratorium or its extensions."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.statesboroherald.com/local/county-commission-by-4-3-vote-with-chairs-tiebreaker-kills-proposal-for-data-center-ban/",
+          "title": "County commission, by 4-3 vote with chair's tiebreaker, kills proposal for data center ban",
+          "publisher": "Statesboro Herald",
+          "document_date": "2026-09-02",
+          "source_type": "news",
+          "supports": "Confirms the moratorium remains in effect through Dec. 31, 2026, that the outright-ban text amendment was rejected 4-3, and that a 21-member data center Working Group was established.",
+          "quote": "First, the Bulloch County government's moratorium, previously extended to Dec. 31, against a data center locating anywhere in the county unincorporated area remains in effect. ... the Board of Commissioners voted 4-3 Tuesday night to kill that 'ban' proposal."
+        }
+      ],
+      "notes": "No change to the moratorium's own terms; the county instead pursued and then rejected a separate permanent zoning-ban text amendment, leaving the moratorium as the operative instrument."
+    },
+    {
+      "moratorium_id": "ga-camden-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "On or about late April - early May 2026 (reported as adopted 'Tuesday' in a May 2, 2026 article); exact calendar date not confirmed",
+          "to": "May 5, 2026 (Tuesday), per GPB/The Current reporting on the Camden County Board of Commissioners meeting, which is corroborated by the earlier May 2, 2026 article reporting the vote was scheduled for 'Tuesday.'",
+          "reason": "GPB's May 6, 2026 article, published in partnership with The Current, states the Board 'voted Tuesday' (i.e., May 5, 2026) to adopt the six-month moratorium, resolving the previously uncertain exact date."
+        },
+        "date_enacted_iso": {
+          "from": "2026-05",
+          "to": "2026-05-05",
+          "reason": "See date_enacted change; GPB's report gives the specific weekday/date of the Board's vote."
+        },
+        "date_enacted_uncertainty": {
+          "from": "month_only",
+          "to": "exact",
+          "reason": "Matches the precision of the now-confirmed date_enacted_iso (YYYY-MM-DD)."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-11-01",
+          "reason": "duration_kind is fixed_days with duration_days=180; 180 days from the confirmed adoption date of 2026-05-05 computes to 2026-11-01."
+        },
+        "current_status": {
+          "from": "Adopted; described by GPB as the first coastal Georgia county to adopt such a moratorium [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23; adopted by a Camden County Board of Commissioners vote on May 5, 2026, with the ordinance excluding sections 4, 5, 6, and 7 of the originally proposed resolution. GPB (in partnership with The Current) reports Camden as the first coastal Georgia county to adopt such a moratorium. No numbered resolution identifier was located in GPB's reporting or elsewhere. [VERIFY instrument number: still not located as of 2026-09-23]",
+          "reason": "GPB's May 6, 2026 article is a reporting-partnership piece (GPB/The Current) with direct quotes from named commissioners describing the vote in detail, raising it above a bare news-only citation, though a numbered resolution/ordinance identifier still was not found."
+        },
+        "legal_basis": {
+          "from": "Camden County Board of Commissioners resolution adopting a 6-month moratorium on data centers",
+          "to": "Camden County Board of Commissioners resolution adopting a 6-month moratorium on data centers, adopted May 5, 2026 with the exclusion of sections 4, 5, 6, and 7 of the proposal as originally drafted by District 3 Commissioner Cody Smith.",
+          "reason": "GPB's reporting specifies that the adopted ordinance excluded certain numbered sections of the original draft resolution, a level of detail not previously captured."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "GPB's May 6, 2026 article (a GPB/The Current reporting partnership piece with named-commissioner quotes) substantially strengthens the sourcing beyond a single news article, but no numbered resolution or ordinance identifier for the Camden County moratorium was located during this pass."
+        }
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.gpb.org/news/2026/05/06/camden-becomes-first-county-on-the-coast-adopt-data-center-moratorium",
+          "title": "Camden becomes first county on the coast to adopt data center moratorium",
+          "publisher": "Georgia Public Broadcasting / The Current",
+          "document_date": "2026-05-06",
+          "source_type": "news",
+          "supports": "Confirms the May 5, 2026 ('Tuesday') vote date, the 6-month term, and that sections 4-7 of the original draft were excluded from the adopted version.",
+          "quote": "The Camden County Board of Commissioners voted Tuesday to adopt a 6-month moratorium on data centers amid growing statewide concern about the energy-hungry operations. ... The ordinance was adopted with the exclusion of sections 4, 5, 6, and 7."
+        }
+      ],
+      "notes": "No numbered resolution identifier located; the exact end date (2026-11-01) is a computed value from the now-confirmed adoption date and the existing 180-day duration_days field, not independently stated in a source."
+    },
+    {
+      "moratorium_id": "ga-coweta-county-2025",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Replaced. 180-day moratorium expired 2025-11-03; permanent data center ordinance adopted December 16, 2025 per official county .gov page.",
+          "to": "Replaced, as of 2026-09-23. 180-day moratorium expired 2025-11-03; permanent data center ordinance adopted December 16, 2025. That ordinance's approval of the 'Project Sail' rezoning is now under active litigation: 17 Coweta County residents (Bockrath, et al.) filed a Petition for Review/Appeal and Request for Declaratory Judgment in Coweta County Superior Court on May 5, 2026, against the county and developer Atlas Development, LLC, seeking to void the rezoning. As of the most recent case-status information located (dated after May 2026), the case remains active with no reported ruling.",
+          "reason": "Adds corroborated detail on the post-ordinance litigation status (Project Sail lawsuit) without changing the underlying 'replaced' determination, which remains accurate."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://thecitizen.com/2026/05/11/coweta-residents-sue-to-block-project-sail-data-center/",
+          "title": "Coweta Residents Sue to Block Project Sail Data Center",
+          "publisher": "The Citizen",
+          "document_date": "2026-05-11",
+          "source_type": "news",
+          "supports": "Confirms the May 2026 lawsuit filing against the county and Atlas Development over the Project Sail rezoning approved under the post-moratorium ordinance.",
+          "quote": "A group of Coweta County residents has filed a lawsuit seeking to overturn the county's approval of the proposed Project Sail data center campus, alleging commissioners violated zoning procedures, ignored..."
+        },
+        {
+          "url": "https://ailawsuittracker.com/cases/bockrath-v-coweta-county-project-sail/",
+          "title": "Bockrath v. Coweta County (Project Sail data center)",
+          "publisher": "AI Lawsuit Tracker",
+          "source_type": "other",
+          "supports": "Corroborates the May 5, 2026 filing date, party names, and that the case status remains active with no docket number publicly reported.",
+          "quote": "Filed: May 5, 2026 ... Status: Active — Petition for Review/Appeal and Request for Declaratory Judgment filed May 5, 2026"
+        }
+      ],
+      "notes": "The litigation does not itself change the moratorium's already-'replaced' status; it is documented here because it directly concerns the post-moratorium ordinance's central approved project."
+    },
+    {
+      "moratorium_id": "ga-dekalb-county-2025",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Extended multiple times beyond 2026-06-23. On June 9, 2026 the Board of Commissioners voted 5-2 to extend the moratorium 100 days, through Sept. 30, 2026. On June 23, 2026, after an initial 5-2 vote to defer to Aug. 11, the Commission reconsidered and unanimously denied a separate set of proposed permanent land-use/zoning regulations for data centers from the Planning & Sustainability Department. On July 7, 2026 the Commission voted to extend the moratorium again; the resolution (sponsored by Commissioners Mereda Davis Johnson and Robert Patrick) states the moratorium now ends March 30, 2027 unless further extended.",
+          "to": "Active as of 2026-09-23; extended multiple times, most recently by the July 7, 2026 vote setting the moratorium to run through March 30, 2027 unless further extended. Independently corroborated by decaturish.com and WABE, both reporting the moratorium's extension to early 2027, and by a Capital B Atlanta report noting the county 'can't process any new data center applications until March 30, 2027.' A developer sued the county over the moratorium in August 2026.",
+          "reason": "Refreshes the 'as of' date and adds independent corroborating sources for the March 30, 2027 end date found during this pass; no substantive change to the moratorium's terms was found."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY exact resolution numbers — Rough Draft Atlanta and DeKalb planning portal confirm 2025-12-16 extension date and June 23, 2026 expiration but final file numbers not posted to public site as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Checked decaturish.com, WABE, and Capital B Atlanta coverage of the July 7, 2026 extension; none cite a specific resolution/file number, only the sponsoring commissioners (Mereda Davis Johnson and Robert Patrick) and the March 30, 2027 end date."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.decaturish.com/news/dekalb/dekalb-extends-data-center-moratorium-through-early-2027/article_22c7d964-ee2f-49f5-a879-9abaabbd6b45.html",
+          "title": "DeKalb extends data center moratorium through early 2027",
+          "publisher": "Decaturish",
+          "source_type": "news",
+          "supports": "Independently confirms the moratorium's extension into early 2027.",
+          "quote": "DeKalb County commissioners voted July 7 to approve a resolution to extend a moratorium on new data center development through early next year while officials..."
+        },
+        {
+          "url": "https://atlanta.capitalbnews.org/dekalb-county-ellenwood-data-center-rejected/",
+          "title": "A Black DeKalb Community Fought a Massive Data Center for ...",
+          "publisher": "Capital B Atlanta",
+          "source_type": "news",
+          "supports": "Confirms the March 30, 2027 date as the current moratorium end date.",
+          "quote": "While the county can't process any new data center applications until March 30, 2027, the fight is far from over."
+        }
+      ],
+      "notes": "No numbered resolution identifier located for the July 7, 2026 extension despite additional searching."
+    },
+    {
+      "moratorium_id": "ga-douglas-county-2025",
+      "outcome": "corrected",
+      "changes": {
+        "current_status": {
+          "from": "Expired absent extension [VERIFY: no county extension or replacement ordinance located on Douglas County site as of 2026-04-29]",
+          "to": "Expired as of 2026-09-23; no extension, repeal, or replacement instrument was located. The county has instead handled subsequent data center proposals through its normal rezoning process: on July 8, 2026 the Douglas County Commission voted 4-1 to reject a rezoning request for a 4.4-million-square-foot data center project near the I-20 Liberty Road exit, following a contested public hearing, rather than reinstating any moratorium.",
+          "reason": "Resolves the VERIFY marker with an on-point primary/official-record-based news account (Fox 5 Atlanta, citing official Douglas County Commission voting records) confirming the county is using ordinary zoning votes rather than an active or renewed moratorium, consistent with the 'expired absent extension' determination."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no county extension or replacement ordinance located on Douglas County site as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Fox 5 Atlanta's July 8, 2026 report (sourced to official Douglas County Commission voting records) shows the county handling a major data center proposal via a standard rezoning vote (denied 4-1), with no mention of any moratorium extension or reinstatement, supporting that the original 90-day moratorium (2025-03-18 to 2025-06-16) has simply lapsed."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY: no primary source confirming Amazon link captured]",
+          "resolution": "still_unverifiable",
+          "note": "No primary source confirming an Amazon link to Douglas County land activity was located in this pass; the newly documented Liberty Road/I-20 project is separately identified as a distinct 700-plus-acre, 4.4 million square foot proposal with no stated developer name tying it to Amazon."
+        }
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.fox5atlanta.com/news/douglas-county-leaders-just-killed-massive-data-center-project",
+          "title": "Douglas County leaders just killed a massive data center project",
+          "publisher": "FOX 5 Atlanta",
+          "document_date": "2026-07-08",
+          "source_type": "news",
+          "supports": "Confirms the county denied a large data center rezoning through its ordinary process in July 2026, with no moratorium mentioned as in force.",
+          "quote": "The Douglas County Commission voted 4-1 to reject a rezoning request that would have cleared the way for a 4.4 million-square-foot data center. ... The Source: The information in this story was gathered from the official voting records of the Douglas County Commission..."
+        }
+      ],
+      "notes": "The July 2026 Liberty Road project denial is a separate rezoning matter handled under ordinary process, not a moratorium action; it is cited only to corroborate that no moratorium was reinstated."
+    },
+    {
+      "moratorium_id": "ga-griffin-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Replaced. On May 26, 2026 the Griffin Board of Commissioners voted unanimously to approve amendments to the Unified Development Code (UDC) establishing special-use-permit regulation of data centers in Planned Industrial Districts (PID). Minor facilities (up to 10,000 sq ft) and major facilities (10,000-275,000 sq ft) are allowed with setback/buffer/noise/water-use and decommissioning-bond conditions; hyperscale/campus data centers (500,000+ sq ft) are prohibited. This permanent ordinance superseded the Jan. 13, 2026 moratorium ahead of its scheduled July 12, 2026 expiration.",
+          "to": "Replaced, as of 2026-09-23. On May 26, 2026 the Griffin Board of Commissioners voted unanimously to approve amendments to the Unified Development Code (UDC) establishing special-use-permit regulation of data centers in Planned Industrial Districts (PID), confirmed directly by the Griffin Daily News. Minor facilities (up to 10,000 sq ft) and major facilities (10,001-275,000 sq ft) are allowed with setback (1,000/1,500 ft from residences), buffer, noise, Tier 4F generator, decommissioning-bond, and development-agreement conditions; hyperscale/campus data centers are prohibited. This permanent ordinance superseded the Jan. 13, 2026 moratorium ahead of its scheduled July 12, 2026 expiration. No further amendment or repeal located as of 2026-09-23.",
+          "reason": "Adds direct primary-adjacent local news confirmation (Griffin Daily News) of the May 26, 2026 vote and additional detail on the ordinance's setback and generator standards, refreshing the 'as of' date without changing the underlying determination."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.griffindailynews.com/news/city-of-grifin-commissioners-approve-data-center-ordinance/article_3f730561-73ca-5e91-8d06-6c5fc962c5a0.html",
+          "title": "City of Griffin commissioners approve data center ordinance",
+          "publisher": "Griffin Daily News",
+          "source_type": "news",
+          "supports": "Confirms the May 26, 2026 unanimous vote and details the ordinance's special-use-permit structure, size tiers, setbacks, and generator standards.",
+          "quote": "GRIFFIN — The City of Griffin Board of Commissioners voted unanimously to approve amendments to the Unified Development Code (UDC) to provide for the regulation of data centers by special use permit in Planned Industrial Districts (PID) at their May 26 meeting."
+        }
+      ],
+      "notes": "No numbered resolution/ordinance identifier for either the original Jan. 13, 2026 moratorium or the May 26, 2026 UDC amendment was located in this local newspaper's coverage; the VERIFY marker on legal_basis is left in place as still_unverifiable, and legal_basis text is unchanged."
+    },
+    {
+      "moratorium_id": "ga-jones-county-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "changes": {
+        "date_enacted": {
+          "from": "2025-09-16 zoning amendments (subsequently rescinded after notice defects); follow-on moratorium action in late 2025 [VERIFY: Jones County cryptocurrency-and-data-center ordinance text saved at research/_web/jones_county_cryptocurrency_and_data_center_ordinance_78407.md; Macon Telegraph reporting confirms rescission; primary minutes for replacement moratorium not located as of 2026-04-29]",
+          "to": "2025-09-16 zoning amendments (subsequently rescinded after notice defects). The county's own account (reported by The Jones County News, a local outlet, citing county officials) states commissioners 'initially approved a moratorium on data centers in October of 2025' to allow further research before adopting permanent zoning language; that moratorium/work-session period concluded with the unanimous adoption of a permanent M-2 Data Center text amendment at a called meeting on January 16, 2026.",
+          "reason": "The Jones County News' report on litigation over the industrial park ('Lawsuit stalls progress at industrial park') directly states the county's own understanding of the timeline: an October 2025 moratorium, followed by three work sessions, followed by the January 16, 2026 permanent ordinance -- resolving the ambiguity in 'follow-on moratorium action in late 2025' to a specific month, though not an exact day."
+        },
+        "duration": {
+          "from": "90 days reported in news coverage [VERIFY: primary minutes not located]",
+          "to": "The October 2025 moratorium/work-session period ran until the Board adopted a permanent text amendment (rather than a further dated moratorium) at a called meeting on January 16, 2026, unanimously (5-0).",
+          "reason": "Macon Telegraph (macon.com) coverage of the January 16, 2026 meeting confirms the unanimous 5-0 vote and that it followed 'sessions throughout December' to workshop the amendment language, consistent with the county's own October 2025-to-January 2026 timeline; no separate 90-day fixed term for a standalone moratorium instrument was located."
+        },
+        "legal_basis": {
+          "from": "Jones County zoning amendments adopted 2025-09-16 (rescinded due to notice defects under Georgia Zoning Procedures Law) and follow-on moratorium [VERIFY exact resolution]",
+          "to": "Jones County M-2 Data Center Ordinance (comprehensive land use plan / land use amendment adding data centers as a conditional use in M-2 industrial zoning), adopted unanimously (5-0) at a called Board of Commissioners meeting on January 16, 2026, replacing the rescinded September 2025 zoning amendments and the intervening October 2025 moratorium.",
+          "reason": "Macon Telegraph's January 16, 2026 report and 41NBC's March 4, 2026 report on the subsequent lawsuit both independently confirm the ordinance's formal name ('M-2 Data Center Ordinance'), its conditional-use structure, and the unanimous 5-0 adoption vote."
+        },
+        "current_status": {
+          "from": "Prior ordinances rescinded; county restarted process [VERIFY current status: no replacement ordinance located on county website as of 2026-04-29]",
+          "to": "Replaced, as of 2026-09-23. The January 16, 2026 M-2 Data Center Ordinance (conditional use in M-2 industrial zoning, with 200-foot setbacks, 400-foot setbacks for noise-generating buildings, up to 200-foot buffers, 55/45 dB noise limits, and closed-loop cooling requirements) remains in force but is under active legal challenge: 17 Jones County residents filed a declaratory-judgment lawsuit in February 2026 seeking to void the ordinance on due-process and Georgia Zoning Procedures Law grounds; the county filed a motion to dismiss in March 2026, and as of a Jones County Development Authority meeting reported by The Jones County News, the judge had not yet set a hearing on that motion, with the attorney estimating a 2027 timeline. The litigation has effectively frozen marketing of the underlying Griswoldville Industrial Park site.",
+          "reason": "Resolves the VERIFY marker with primary-adjacent local reporting (The Jones County News, Macon Telegraph, 41NBC) documenting both the ordinance's continued legal force and the status of the pending litigation against it."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY: Jones County cryptocurrency-and-data-center ordinance text saved at research/_web/jones_county_cryptocurrency_and_data_center_ordinance_78407.md; Macon Telegraph reporting confirms rescission; primary minutes for replacement moratorium not located as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "The follow-on moratorium action is now dated to October 2025 (per The Jones County News' account of county officials' own timeline), rather than left as an unspecified 'late 2025.' An exact day was not located."
+        },
+        {
+          "field": "duration",
+          "marker": "[VERIFY: primary minutes not located]",
+          "resolution": "corrected",
+          "note": "No standalone dated moratorium minutes were located, but the county's own account (via The Jones County News) and Macon Telegraph's coverage of the January 16, 2026 vote together establish that the pause ran from October 2025 through the January 16, 2026 permanent ordinance, rather than a fixed 90-day term."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY exact resolution]",
+          "resolution": "corrected",
+          "note": "Identified the replacement instrument by name and structure (the M-2 Data Center Ordinance / comprehensive land use plan amendment adopted Jan. 16, 2026), via Macon Telegraph and 41NBC reporting, though no numbered ordinance/resolution identifier was located."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY current status: no replacement ordinance located on county website as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Replacement ordinance located and its current (litigated but still-in-force) status documented via The Jones County News' report on the pending lawsuit and motion to dismiss."
+        }
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.macon.com/news/politics-government/article314355379.html",
+          "title": "Jones County approves data center text amendment amid outcry",
+          "publisher": "Macon Telegraph",
+          "document_date": "2026-01-16",
+          "source_type": "news",
+          "supports": "Confirms the unanimous 5-0 adoption of the M-2 conditional-use data center ordinance on January 16, 2026, and that a similar amendment approved in September was rescinded weeks later.",
+          "quote": "The Jones County Board of Commissioners unanimously passed a text amendment Friday night allowing data centers in industrial zones ... A similar text amendment was approved in September, but was rescinded just a few weeks later over concerns that it wasn't properly passed into law."
+        },
+        {
+          "url": "https://www.41nbc.com/jones-county-residents-file-lawsuit-challenging-m2-data-center-ordinance/",
+          "title": "Jones County residents file lawsuit challenging M-2 data center ordinance",
+          "publisher": "41NBC/WMGT",
+          "document_date": "2026-03-04",
+          "source_type": "news",
+          "supports": "Confirms the M-2 Data Center Ordinance name, the January 16, 2026 unanimous 5-0 vote, and the February 2026 declaratory-judgment lawsuit against it.",
+          "quote": "Residents in Jones County have filed a declaratory action challenging the M-2 Data Center Ordinance passed earlier this year on January 16."
+        },
+        {
+          "url": "https://www.jcnews.com/news/lawsuit-stalls-progress-industrial-park",
+          "title": "Lawsuit stalls progress at industrial park",
+          "publisher": "The Jones County News",
+          "source_type": "news",
+          "supports": "Provides the county's own account of the October 2025 moratorium, confirms the ordinance remains in force under litigation, that the county moved to dismiss in March 2026, and that a hearing was not expected until around 2027.",
+          "quote": "Jones County Commissioners initially approved a moratorium on data centers in October of 2025 so that more research could be done before adopting zoning language that would set parameters for a future facility. ... The county filed a motion to dismiss the lawsuit in March, but Brown said the judge wants to set a hearing on the motion. 'You're probably talking 2027,' he said."
+        }
+      ],
+      "notes": "No numbered resolution/ordinance identifier for either the October 2025 moratorium or the January 16, 2026 M-2 Data Center Ordinance was located despite the additional search; the ordinance's continued validity is itself the subject of unresolved litigation as of 2026-09-23."
+    },
+    {
+      "moratorium_id": "ga-kingsland-camden-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Reported active as of 2026-05-11; the signed 365-day resolution itself was not located, only a city civic alert and a superseded 90-day draft ordinance [VERIFY details not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23; the 365-day moratorium runs through 2027-05-11. Independently corroborated by the Tribune & Georgian (St. Marys, Georgia), a local newspaper, which reported on May 15, 2026 that the Kingsland City Council 'voted unanimously' on Monday (May 11, 2026) to pause data centers for one year, following advocacy from One Hundred Miles' South Coast Advocate at that meeting. A separate, earlier draft resolution located on the city's own document center (temporarily suspending the original Ordinance No. 2026-03 for 90 days pending further public input) corresponds to the previously noted 'superseded 90-day draft ordinance' and predates the formal 365-day moratorium vote. No repeal, extension, or replacement of the 365-day moratorium was located as of 2026-09-23.",
+          "reason": "Adds an independent local newspaper (Tribune & Georgian) confirming the May 11, 2026 unanimous vote date, and clarifies that the previously found '90-day draft ordinance' was a distinct, earlier interim suspension resolution rather than the final instrument, without resolving the instrument-number question."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY details not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "The Tribune & Georgian's May 15, 2026 article independently confirms the May 11, 2026 unanimous council vote to pause data centers for one year, raising confidence above a single-source citation. However, the signed 365-day resolution/ordinance number was still not located on kingslandgeorgia.com; only an earlier, separately dated draft resolution temporarily suspending Ordinance No. 2026-03 for 90 days (unsigned template, date blank) was found, which appears to be an interim step that preceded the formal 365-day vote rather than the final instrument itself."
+        }
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.tribune-georgian.com/local-news-newsletter/moratorium",
+          "title": "Moratorium: Kingsland City Council pauses data centers for 1 year",
+          "publisher": "Tribune & Georgian",
+          "document_date": "2026-05-15",
+          "source_type": "news",
+          "supports": "Independently confirms the May 11, 2026 ('Monday evening') unanimous City Council vote to pause data centers for one year.",
+          "quote": "On Monday evening, Kingsland City Council voted unanimously to initiate ... One Hundred Miles' South Coast Advocate Kat Montgomery speaks Monday night in favor of a moratorium on data centers in Kingsland."
+        },
+        {
+          "url": "https://kingslandgeorgia.com/DocumentCenter/View/12289",
+          "title": "Resolution No. 2026 (draft, undated) - temporary suspension of Ordinance No. 2026-03",
+          "publisher": "City of Kingsland, Georgia",
+          "source_type": "resolution",
+          "supports": "Documents a distinct, earlier 90-day temporary suspension of the original Kingsland Data Center Ordinance (No. 2026-03), corresponding to the 'superseded 90-day draft ordinance' previously noted; this is not the final 365-day resolution.",
+          "quote": "The effectiveness and enforcement of Ordinance No. 2026-03, known as the Kingsland Data Center Ordinance, are hereby temporarily suspended for a period of ninety (90) days from the effective date of this Resolution..."
+        }
+      ],
+      "notes": "The signed, numbered 365-day resolution was not located; the document found at kingslandgeorgia.com/DocumentCenter/View/12289 is an unsigned, undated draft for an earlier 90-day suspension of the predecessor ordinance, not the operative 365-day instrument this row tracks."
+    },
+    {
+      "moratorium_id": "ga-lagrange-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "changes": {
+        "legal_basis": {
+          "from": "LaGrange City Council 180-day moratorium resolution, adopted 2025-09-23 (per Ledger-Enquirer reporting cited in GPB 2025-10-22) [VERIFY: primary resolution number not located on LaGrange city website as of 2026-04-29]",
+          "to": "LaGrange City Council 180-day moratorium resolution, adopted 2025-09-23. After the moratorium expired, and following months of council debate over a more restrictive draft ordinance, the Council voted 3-2 on April 18, 2026 to introduce and approve a substitute ordinance requiring a special-use permit (SUP) for all data centers (regardless of size) in industrial zoning, rather than adopting the more prescriptive size-based zoning restrictions originally proposed.",
+          "reason": "LaGrange Daily News' April 18, 2026 report on the council's work session and evening vote is a direct, on-point local news account of the ordinance that succeeded the moratorium, resolving the prior uncertainty about what, if anything, followed the moratorium's expiration."
+        },
+        "current_status": {
+          "from": "Expired about 2026-03-22 unless extended [VERIFY: no extension or replacement located as of 2026-04-29]",
+          "to": "Replaced, as of 2026-09-23. The 180-day moratorium expired about 2026-03-22. On April 18, 2026 the City Council voted 3-2 to adopt a substitute ordinance requiring a special-use permit for all data centers in industrial zoning (rather than the previously drafted blanket setback/buffer rules), which the Council and city attorney described as allowing case-by-case conditions on noise, buffers, and distance. That process is being actively used: on September 9, 2026 the Council unanimously denied a special-use permit for a proposed second data center (Farpoint's Lafayette Logistics Center, off Old Hutchinson Mill Road) after a contested public hearing.",
+          "reason": "Resolves the VERIFY marker: LaGrange did not simply let the moratorium lapse without further action; it adopted a permanent (though flexible, SUP-based) ordinance, which the city has since applied at least once to deny a specific data center proposal, both documented in LaGrange Daily News reporting."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: primary resolution number not located on LaGrange city website as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Located detailed LaGrange Daily News (lagrangenews.com) coverage of the April 18, 2026 substitute-ordinance vote establishing the special-use-permit requirement that replaced the moratorium; no specific ordinance number was given in that coverage, but the substantive instrument and its adoption date/vote are now confirmed."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: no extension or replacement located as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Confirmed the moratorium was followed by a permanent substitute ordinance (April 18, 2026) rather than simply lapsing; further confirmed the ordinance is actively enforced via a September 9, 2026 SUP denial."
+        }
+      ],
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "url": "https://www.lagrangenews.com/news/lagrange-punts-on-data-center-restrictions-deciding-to-handle-them-on-a-case-by-case-basis-via-special-use-permit-d85cb4d1",
+          "title": "LaGrange punts on data center restrictions, deciding to handle them on a case-by-case basis via special-use permit",
+          "publisher": "LaGrange Daily News",
+          "document_date": "2026-04-18",
+          "source_type": "news",
+          "supports": "Confirms the April 18, 2026 3-2 council vote adopting a substitute ordinance requiring special-use permits for all data centers, replacing the more restrictive draft.",
+          "quote": "At the evening meeting, the council voted 3-2 to introduce a substitute ordinance to limit data centers to industrial zoning, but require a special-use permit for all, which could effectively regulate size, buffers, noise and distance requirements via conditions. ... The substitute data center ordinance was then approved 3-2..."
+        },
+        {
+          "url": "https://www.lagrangenews.com/news/lagrange-council-votes-to-deny-special-use-permit-for-data-center-1be5e673",
+          "title": "LaGrange Council votes to deny special-use permit for data center",
+          "publisher": "LaGrange Daily News",
+          "document_date": "2026-09-10",
+          "source_type": "news",
+          "supports": "Confirms the April 2026 SUP ordinance is being actively applied: the council unanimously denied an SUP for a second data center proposal in September 2026.",
+          "quote": "Ultimately, the council voted unanimously to deny the SUP for the potential data center on the Farpoint property. ... you have heard through a moratorium in the last year all of the things about data centers..."
+        }
+      ],
+      "notes": "No numbered ordinance/resolution identifier located for either the original moratorium or the April 2026 substitute ordinance."
+    },
+    {
+      "moratorium_id": "ga-monroe-county-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "changes": {
+        "duration": {
+          "from": "Through 2026-03-03 (next regular Board of Commissioners meeting in March 2026) [VERIFY: minutes for 2026-03-03 meeting not yet posted on Monroe County website as of 2026-04-29; agenda confirms data-center P&Z hearing 2026-02-23 and BOC hearing 2026-03-03]",
+          "to": "Ran from the December 2025 adoption through the Board's consideration of a permanent Unified Development Ordinance (UDO) amendment; the amendment was tabled at the March 3, 2026 meeting for further revision and ultimately adopted at the April 7, 2026 meeting.",
+          "reason": "Macon Telegraph's March 4, 2026 report on the March 3, 2026 meeting confirms the Board tabled the amendment that night (rather than voting to let the moratorium simply lapse), and a Monroe County Board of Commissioners Facebook post together with the county's own posted meeting-document listing ('04-07-26 C. Data Center Ordinance Amendment') confirm the amendment was brought back and unanimously approved on April 7, 2026."
+        },
+        "legal_basis": {
+          "from": "Resolution on Data Center Moratorium prepared by Brandon Bowen of Jenkins, Bowen & Walker, P.C., approved 4-1 on 2025-12-16 (resolution number not stated in approved minutes) [VERIFY exact resolution number]",
+          "to": "Resolution on Data Center Moratorium prepared by Brandon Bowen of Jenkins, Bowen & Walker, P.C., approved 4-1 on 2025-12-16, superseded by a permanent ordinance amending the Monroe County Unified Development Ordinance (restricting data centers to Special Use in M-1 zoning; adding setback, buffer, generator, lighting, sound, and utility standards), posted by the county as agenda item '04-07-26 C. Data Center Ordinance Amendment' and, per a county Facebook post, unanimously approved by the Board of Commissioners on April 7, 2026.",
+          "reason": "Located and archived the county's own posted ordinance text (monroecoga.org, 'C-Data-Center-Ordinance-Amendment.pdf,' uploaded April 6, 2026 as a supporting meeting document) containing the substantive Special Use / M-1 zoning restriction and detailed standards, plus corroborating county social media confirmation of the April 7, 2026 unanimous adoption vote."
+        },
+        "current_status": {
+          "from": "Status after 2026-03-03 unconfirmed [VERIFY: post-expiration meeting minutes not yet posted as of 2026-04-29]",
+          "to": "Replaced, as of 2026-09-23. After the March 3, 2026 meeting tabled the proposed amendment for revision (adding a larger 500-foot buffer with 100 feet of natural growth, a well-water ban, and Tier 4 generator requirements), the Monroe County Board of Commissioners unanimously approved the revised Unified Development Ordinance amendment on April 7, 2026, restricting data centers to Special Use in M-1 zoning countywide with detailed setback, buffer, noise, lighting, and utility standards. No further extension, repeal, or replacement of that ordinance was located as of 2026-09-23.",
+          "reason": "Resolves the VERIFY marker using the county's own posted ordinance document and a Board of Commissioners social media confirmation of the April 7, 2026 adoption vote, combined with the Macon Telegraph's March 3, 2026 meeting coverage describing the specific revisions commissioners requested before final passage."
+        },
+        "affected_projects": {
+          "from": "Forsyth Technology Campus (now annexed into City of Forsyth) concept reportedly involving large acreage and millions of square feet [VERIFY exact acreage / square footage from primary developer filings — Monroe County minutes reference DRI but do not specify project size]",
+          "to": "A ~950-acre rezoning off Rumble Road for a data center was approved in November 2024, and Google purchased the property for $42 million in September 2025 for a potential development; because that project had not yet been constructed, county officials stated the new April 7, 2026 UDO standards would apply to it as well as to future projects. The Forsyth Technology Campus concept (now annexed into the City of Forsyth) is a separate matter reported in the same period.",
+          "reason": "Macon Telegraph's March 4, 2026 article gives specific, sourced figures (950 acres, $42 million, Google as purchaser, November 2024 rezoning, September 2025 purchase) for the Rumble Road project referenced in the county's own moratorium/ordinance deliberations, resolving part of the VERIFY marker even though it does not give exact figures for the separately named Forsyth Technology Campus."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "duration",
+          "marker": "[VERIFY: minutes for 2026-03-03 meeting not yet posted on Monroe County website as of 2026-04-29; agenda confirms data-center P&Z hearing 2026-02-23 and BOC hearing 2026-03-03]",
+          "resolution": "corrected",
+          "note": "Macon Telegraph's March 4, 2026 article (a direct, on-the-record account of the March 3, 2026 meeting) confirms the Board tabled the vote to its next meeting (later determined to be April 7, 2026) rather than letting the moratorium lapse without action."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY exact resolution number]",
+          "resolution": "corrected",
+          "note": "Located and archived the county's own posted ordinance text and confirmed the April 7, 2026 unanimous adoption vote via a Monroe County Board of Commissioners social media post; no formal ordinance number was stated in either source."
+        },
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: post-expiration meeting minutes not yet posted as of 2026-04-29]",
+          "resolution": "corrected",
+          "note": "Confirmed the county did not simply let the moratorium lapse: it adopted a permanent Special-Use/M-1 zoning ordinance amendment on April 7, 2026, per the county's own posted document and a Board of Commissioners social media confirmation of the unanimous vote."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY exact acreage / square footage from primary developer filings — Monroe County minutes reference DRI but do not specify project size]",
+          "resolution": "corrected",
+          "note": "Macon Telegraph reporting gives specific figures for the Rumble Road project (950 acres, Google purchase for $42 million in September 2025) directly tied to the county's data center ordinance deliberations; figures for the separately named Forsyth Technology Campus were not independently verified in this pass."
+        }
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.macon.com/news/local/article314923179.html",
+          "title": "Monroe County commissioners table data center amendment",
+          "publisher": "Macon Telegraph",
+          "document_date": "2026-03-03",
+          "source_type": "news",
+          "supports": "Confirms the March 3, 2026 meeting tabled the UDO amendment for revision (larger buffer, well-water ban, Tier 4 generators) rather than the moratorium simply lapsing, and gives Rumble Road project figures (950 acres, Google's $42 million purchase).",
+          "quote": "The Monroe County Board of Commissioners tabled a proposed amendment setting new rules around data centers Tuesday night ... Monroe County has had a moratorium on new data centers since December 2025 ... A proposal to rezone about 950 acres off Rumble Road for a data center was approved in November 2024, and Google purchased the property for a staggering $42 million in September 2025..."
+        },
+        {
+          "url": "https://www.monroecoga.org/wp-content/uploads/2026/04/C-Data-Center-Ordinance-Amendment.pdf",
+          "title": "An Ordinance of Monroe County, Georgia Providing that the Unified Development Ordinance be Amended (Data Center)",
+          "publisher": "Monroe County, Georgia",
+          "document_date": "2026-04",
+          "source_type": "ordinance",
+          "supports": "Primary text of the adopted ordinance restricting data centers to Special Use in M-1 zoning and setting generator, lighting, sound, and utility standards; posted as a supporting document for the April 7, 2026 meeting.",
+          "quote": "Section 2.02.02 of the Monroe County Unified Development Ordinance, entitled 'TABLE OF PERMITTED USES' is hereby amended such that the row for Data Center shall be marked as 'SU' for Special Use in the column for the M-1 zoning classification. Data Centers shall not be permitted in any other zoning district, except as provided herein."
+        },
+        {
+          "url": "https://www.monroecoga.org/document/data-center-ordinance-amendment/",
+          "title": "04-07-26 C. Data Center Ordinance Amendment",
+          "publisher": "Monroe County, Georgia",
+          "document_date": "2026-04-06",
+          "source_type": "agenda",
+          "supports": "County's own document listing shows the ordinance amendment was a supporting document posted April 6, 2026 for the April 7, 2026 Board of Commissioners meeting.",
+          "quote": "04-07-26 C. Data Center Ordinance Amendment ... April 6, 2026 ... File Type: pdf ... Categories: (04) April 2026 - Supporting Meeting Documents"
+        }
+      ],
+      "notes": "The archived county ordinance PDF's own signature block has a blank adoption date ('Adopted this ___ day of ___, 2026'), consistent with it being the agenda-packet draft version voted on rather than the final signed copy; the April 7, 2026 adoption date rests on the county's own document-posting date (April 6, 2026, for the April 7 meeting) plus corroborating county social media confirmation, not a signed instrument."
+    },
+    {
+      "moratorium_id": "ga-social-circle-2025",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "Social Circle City Council moratorium action [VERIFY: primary minutes not located on city website as of 2026-04-29; original Covington News articles return 404]",
+          "to": "Social Circle City Council moratorium action (original term and one extension); superseded by Ordinance No. 2026-ORD-2, amending Section 3.4.6 of the City of Social Circle's Uniform Development Code (originally adopted as Ordinance 2023-3 on June 20, 2023) to add detailed data-center-specific standards (50-acre minimum site, perimeter fencing, 1,000-foot residential setback, 500-foot buffer, infrastructure/utility impact studies, and 60/50 dB noise limits). Adopted by the Mayor and Council at a regular called meeting on January 20, 2026, effective the same day.",
+          "reason": "Located and archived the signed, dated ordinance itself (Ordinance No. 2026-ORD-2, via mcclibraryfunctions.azurewebsites.us, the city's Municode-hosted ordinance library), which gives an exact adoption date, effective date, and the Mayor's and City Clerk's signature block -- a primary source that was previously unavailable."
+        },
+        "outcome": {
+          "from": "New rules require special-use permits even in industrial zones, with lot-size, screening, impact-study, emergency-plan, and noise standards [VERIFY final ordinance number against Social Circle UDO]",
+          "to": "New rules require special-use permits even in industrial zones, with lot-size, screening, impact-study, emergency-plan, and noise standards, codified as Ordinance No. 2026-ORD-2 amending Section 3.4.6 of the Uniform Development Code, adopted January 20, 2026.",
+          "reason": "Resolves the VERIFY marker with the exact ordinance number and adoption date from the signed ordinance text."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "date_enacted",
+          "marker": "[VERIFY exact date — Covington News reporting (URL no longer accessible 2026-04-29) referenced 90-day initial moratorium; primary council minutes not retrieved in this pass]",
+          "resolution": "still_unverifiable",
+          "note": "The replacement ordinance's own adoption date (January 20, 2026) was confirmed, but no primary source for the exact date of the original September 2025 moratorium itself was located in this pass."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY: primary minutes not located on city website as of 2026-04-29; original Covington News articles return 404]",
+          "resolution": "corrected",
+          "note": "Located and archived the signed final ordinance (Ordinance No. 2026-ORD-2) that replaced the moratorium, via the city's Municode ordinance library."
+        },
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY against primary council records]",
+          "resolution": "still_unverifiable",
+          "note": "No primary council record confirming the specific Fairplay/Cannon Drive project references was located in this pass; the ordinance text itself does not name specific projects."
+        },
+        {
+          "field": "outcome",
+          "marker": "[VERIFY final ordinance number against Social Circle UDO]",
+          "resolution": "corrected",
+          "note": "Confirmed as Ordinance No. 2026-ORD-2, amending UDC Section 3.4.6, adopted January 20, 2026, via the signed ordinance text."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/15592/1418473/pdf",
+          "title": "Ordinance No. 2026-ORD-2",
+          "publisher": "City of Social Circle, Georgia",
+          "document_date": "2026-01-20",
+          "source_type": "ordinance",
+          "supports": "Signed, dated ordinance amending UDC Section 3.4.6 to add data center standards, adopted and effective January 20, 2026.",
+          "quote": "The effective date of this Ordinance shall be January 20, 2026. SO ORDAINED this 20th day of January, 2026. ... David Keener, Mayor ... Adopted by the City Council at a regular called meeting on January 20, 2026."
+        }
+      ],
+      "notes": "The exact date of the original September 2025 moratorium remains unverified; the replacement ordinance's own date is now firmly established."
+    },
+    {
+      "moratorium_id": "ga-troup-county-2025",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Replaced. The 90-day moratorium (adopted 2025-09-16) was extended twice: 90 days on 2025-12-02 (to 2026-03-16), and a further 90 days on 2026-02-17 (to 2026-06-14), per the county's official public notice. Troup County's own agenda system shows a final zoning text amendment on 'Data Centers and Cryptocurrency or Data Mining Facilities' reached '3rd Reading - Vote Eligible' status at the May 5, 2026 Board meeting, with ordinance text providing to repeal conflicting prior ordinances and resolutions; secondary news coverage (LaGrange Daily News, via a forum repost) describes a unanimous vote around May 8, 2026 adopting the final ordinance and lifting the moratorium. The May 5, 2026 meeting minutes were not yet posted to independently confirm the exact vote date/tally, so some residual uncertainty remains on the precise adoption date.",
+          "to": "Replaced, as of 2026-09-23. The Troup County Board of Commissioners unanimously approved the final data center zoning ordinance and lifted the moratorium at a regular meeting, per direct LaGrange Daily News coverage of the vote (County Attorney Mark DeGennaro noted at that meeting that the moratorium was still in force, through June 12, 2026, at the time of the vote). The adopted ordinance restricts all data centers to industrial zoning via special-use permit, requires closed-loop cooling and public water/sewer connection, sets a 1,500-foot setback from sensitive receptors (residences, schools, daycares, hospitals, places of worship, parks, and related site improvements), Tier 4 backup generators, and a 40-foot maximum height. No further change located as of 2026-09-23.",
+          "reason": "LaGrange Daily News' direct, on-the-record coverage of the final vote (independent of the forum-repost source previously cited) confirms the unanimous adoption and describes the ordinance's substantive terms in detail, and directly quotes the county attorney confirming the moratorium (extended to June 12, 2026) was still technically in force at the moment of the vote, which lifted it."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "affected_projects",
+          "marker": "[VERIFY against developer filings — figures appear in news but not in primary documents captured]",
+          "resolution": "still_unverifiable",
+          "note": "No primary developer filing for Project West's reported figures ($9.7 billion, 513 acres, ~600 MW) was located in this pass."
+        }
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.lagrangenews.com/news/commissioners-approve-data-center-ordinance-lift-moratorium-2b6e15ed",
+          "title": "Commissioners approve data center ordinance, lift moratorium",
+          "publisher": "LaGrange Daily News",
+          "source_type": "news",
+          "supports": "Direct, on-the-record confirmation that the Troup County Board of Commissioners unanimously adopted the final data center zoning ordinance and lifted the moratorium, with the county attorney confirming the moratorium was still in force (through June 12, 2026) at the time of the vote.",
+          "quote": "After a few late changes, the Troup County Board of Commissioners voted unanimously to approve the new zoning ordinance to regulate data centers in unincorporated Troup County ... DeGennaro explained that the moratorium would still be in place until June 12, so if the board wanted to make that change, there is certainly time to do so. ... Ultimately, the commissioners approved the draft data center ordinance ... and lifted the moratorium."
+        }
+      ],
+      "notes": "This LaGrange Daily News article does not carry an on-page publication date in the archived text; it corroborates the prior 'around May 8, 2026' estimate and, via the county attorney's June 12, 2026 reference, is consistent with the vote occurring in the weeks before that date."
+    },
+    {
+      "moratorium_id": "ga-walker-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "duration": {
+          "from": "30 days; county announced plan to consider a further 180-day extension after an August 6 public hearing",
+          "to": "Original 30 days (2026-07-09 to approximately 2026-08-08); the Board of Commissioners voted unanimously on Aug. 6, 2026 to extend the moratorium 180 days, through Feb. 2, 2027, and to establish a Data Center Development Standards Study Committee, which the Board asked to complete its work by Dec. 4, 2026.",
+          "reason": "Walker County's own local newspaper coverage (Discover Walker) and the Chattanooga Times Free Press both confirm the Board voted at its Aug. 6, 2026 meeting ('last Thursday' per the Aug. 10 Discover Walker article) to extend the moratorium 180 days, with an explicit new end date of Feb. 2, 2027, superseding the prior CSV text that only described the extension as 'announced' rather than adopted."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-02-02",
+          "reason": "Discover Walker's Aug. 10, 2026 article states directly: 'The moratorium applies only to unincorporated areas of Walker County and will remain in effect until February 2, 2027,' repeated later in the same article as the operative end date."
+        },
+        "current_status": {
+          "from": "The documented 30-day moratorium expired on approximately 2026-08-08. Walker County's official July notice said the Board would consider a 180-day extension after a public hearing; no adopted extension instrument was located in the County's published materials reviewed through 2026-08-19. [VERIFY: signed resolution or later extension record not located]",
+          "to": "Extended and active as of 2026-09-23. The Board of Commissioners voted unanimously at its Aug. 6, 2026 meeting to extend the data center moratorium 180 days, through Feb. 2, 2027, and created a Data Center Development Standards Study Committee (chaired by the Economic Development Director, vice-chaired by the Planning Director, with two members per district commissioner plus the Chamber of Commerce president), tasked to complete its work by Dec. 4, 2026. The moratorium applies only to unincorporated Walker County; municipalities within the county must act separately. No data center companies had been named as interested parties as of the extension vote.",
+          "reason": "Resolves the VERIFY marker: the extension was in fact adopted (not merely proposed) at the Aug. 6, 2026 meeting, confirmed by both the Chattanooga Times Free Press and Discover Walker, correcting the prior record's premature 'expired' determination."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: signed resolution or later extension record not located]",
+          "resolution": "corrected",
+          "note": "Located two independent local news accounts (Chattanooga Times Free Press and Discover Walker) of the Aug. 6, 2026 Board of Commissioners meeting confirming the unanimous vote extending the moratorium 180 days through Feb. 2, 2027, and establishing a study committee. No numbered resolution/ordinance identifier was located, but the extension's adoption itself is now confirmed by two independent sources."
+        }
+      ],
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "url": "https://www.timesfreepress.com/news/2026/aug/09/walker-county-extends-data-center-moratorium-by/",
+          "title": "Walker County extends data center moratorium by 180 days, creates study group",
+          "publisher": "Chattanooga Times Free Press",
+          "document_date": "2026-08-09",
+          "source_type": "news",
+          "supports": "Confirms the Board of Commissioners voted unanimously to extend the moratorium by 180 days and create an impact study group.",
+          "quote": "The Walker County Board of Commissioners voted unanimously Thursday to extend the county's data center moratorium by 180 days and create an impact study group."
+        },
+        {
+          "url": "https://www.discoverwalker.com/local/walker-county-extends-data-center-moratorium-creates-study-committee/",
+          "title": "Walker County Extends Data Center Moratorium, Creates Study Committee",
+          "publisher": "Discover Walker",
+          "document_date": "2026-08-10",
+          "source_type": "news",
+          "supports": "Confirms the extension's specific new end date (Feb. 2, 2027), that it applies only to unincorporated areas, and details of the newly formed study committee and its Dec. 4, 2026 deadline.",
+          "quote": "Commissioners approved the extension at last Thursday's commission meeting. The moratorium applies only to unincorporated areas of Walker County and will remain in effect until February 2, 2027. ... The Board of Commissioners has asked the committee to complete its work by December 4, 2026."
+        }
+      ],
+      "notes": "The prior record's 'expired' determination was premature: the county adopted the 180-day extension it had only announced as under consideration, before the original 30-day term lapsed. duration_days is left at the original '30' per the existing convention in this dataset (e.g., Bulloch, DeKalb) of keeping the initial fixed term while current_end_date_iso tracks the latest operative extension date."
+    }
+  ]
+}

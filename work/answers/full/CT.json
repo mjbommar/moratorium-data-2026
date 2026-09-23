@@ -1,0 +1,184 @@
+{
+  "state_abbrev": "CT",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "ct-new-haven-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "date_enacted": {
+          "from": "Not yet adopted as of 2026-07-06; proposed by Board of Alders Majority Leader Richard Furlow as a communication on the Monday Board of Alders agenda, to proceed next to an aldermanic committee for a public hearing before returning to the full board for a final vote.",
+          "to": "Introduced 2026-07-06 as a communication by Board of Alders Majority Leader Richard Furlow (item LM-2026-0285). The Legislation Committee held a public hearing and gave a Favorable Report on 2026-08-04 (per the item's official Legistar history). The item was on the full Board of Alders' agenda for its 2026-09-08 meeting (a Tuesday, since the Board's usual Monday date fell on Labor Day). Yale Daily News reported the Board voted unanimously that Tuesday to adopt the 12-month moratorium; this is treated as the adoption date, though it could not be independently corroborated with a second source (see notes on residual uncertainty).",
+          "reason": "The Legistar legislative history (item LM-2026-0285) confirms the committee referral (7/6/2026) and Favorable Report (8/4/2026) dates; the September 8, 2026 Board of Alders meeting agenda (fetched directly) confirms the item was before the full board that day; Yale Daily News reported the unanimous adoption vote occurring on a Tuesday, matching 9/8/2026."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-09-08",
+          "reason": "Best-supported adoption date per the sources above; see notes for the residual uncertainty in this date given access limitations on the primary reporting source."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "A specific calendar date is now identified, though confidence in it is moderate rather than high (see notes)."
+        },
+        "duration": {
+          "from": "Proposed 12 months",
+          "to": "12 months from adoption (ordinance text: 'A TEMPORARY TWELVE (12) MONTH MORATORIUM ON DATA CENTER DEVELOPMENT WITHIN THE CITY OF NEW HAVEN'), per the official ordinance language on file with the City/Town Clerk (Legistar file LM-2026-0285).",
+          "reason": "Matches the ordinance's own title/text, obtained directly from newhaven-ct.legistar.com."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-09-08",
+          "reason": "Computed as 12 months from the adoption date (2026-09-08); approximate, since the exact effective date within the ordinance text (e.g., upon publication vs. upon passage) was not independently confirmed."
+        },
+        "legal_basis": {
+          "from": "Proposed Board of Alders resolution/ordinance (introduced as a communication; not yet referred to committee as of 2026-07-06)",
+          "to": "Ordinance Amendment of the New Haven Board of Alders establishing a temporary twelve (12) month moratorium on data center development within the City of New Haven (Legistar file LM-2026-0285), introduced 2026-07-06, Legislation Committee Favorable Report 2026-08-04, before the full Board of Alders 2026-09-08.",
+          "reason": "Reflects the item's full legislative history and gives its formal file number, obtained directly from the city's own Legistar system."
+        },
+        "current_status": {
+          "from": "Pending; introduced 2026-07-06, awaiting aldermanic committee referral and public hearing before a final Board of Alders vote.",
+          "to": "Active as of 2026-09-23 (moderate confidence). The Legislation Committee gave a Favorable Report on 2026-08-04 and the item (LM-2026-0285) was on the full Board of Alders' September 8, 2026 agenda. Yale Daily News reported (headline and lede snippet) that the Board voted unanimously that Tuesday to adopt the 12-month data center moratorium. This could not be independently corroborated: the Yale Daily News article itself returned a bot-detection (Kasada) challenge on both a direct and a browser-mode fetch, so only the search-engine snippet could be read; New Haven Independent, which had covered every earlier stage of this item in detail, published no follow-up story on the Sept. 8 vote; and the official September 8, 2026 Board of Alders meeting agenda (fetched directly from newhaven-ct.legistar.com) groups LM-2026-0285 together with several unrelated items under a 'Legislation. Leave to withdraw' heading, which -- taken literally -- would mean the Legislation Committee's report on this batch recommended withdrawal rather than passage. This agenda-formatting ambiguity is inconsistent with the item's own recorded 8/4/2026 'Favorable Report' status and could reflect a template/carryover artifact in how the city's agenda software groups items, rather than an actual disposition of LM-2026-0285 specifically. Because no direct, unambiguous confirmation of the final vote result could be obtained, this decision is recorded with moderate rather than high confidence.",
+          "reason": "Updates status per the best available (though imperfect) evidence that the moratorium was adopted; documents the specific access and interpretation limitations encountered."
+        }
+      },
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://newhaven-ct.legistar.com/LegislationDetail.aspx?ID=8127684&GUID=07E27309-E322-4750-8482-9ABB380614E9&Options=&Search=",
+          "title": "City of New Haven - File #: LM-2026-0285",
+          "publisher": "City of New Haven",
+          "document_date": "2026-08-04",
+          "source_type": "legislature",
+          "supports": "Official legislative history: referred to Legislation Committee 7/6/2026, Favorable Report 8/4/2026; full ordinance text (12-month moratorium).",
+          "quote": "ORDINANCE AMENDMENT OF THE NEW HAVEN BOARD OF ALDERS ESTABLISHING A TEMPORARY TWELVE (12) MONTH MORATORIUM ON DATA CENTER DEVELOPMENT WITHIN THE CITY OF NEW HAVEN. | 8/4/2026 | 2 | Legislation Committee | Favorable Report"
+        },
+        {
+          "url": "https://newhaven-ct.legistar.com/View.ashx?M=A&ID=1440010&GUID=501E8D91-4B5D-4A15-857C-36BD3856DBCE",
+          "title": "Board of Alders Meeting Agenda, September 8, 2026",
+          "publisher": "City of New Haven",
+          "document_date": "2026-09-08",
+          "source_type": "agenda",
+          "supports": "Confirms LM-2026-0285 (the data center moratorium ordinance) was listed on the full Board of Alders' Sept. 8, 2026 meeting agenda under committee reports.",
+          "quote": "LM-2026-0285 ORDINANCE AMENDMENT OF THE NEW HAVEN BOARD OF ALDERS ESTABLISHING A TEMPORARY TWELVE (12) MONTH MORATORIUM ON DATA CENTER DEVELOPMENT WITHIN THE CITY OF NEW HAVEN."
+        },
+        {
+          "url": "https://www.newhavenindependent.org/2026/09/08/alder-proposal-urges-yale-to-reject-trump-deal/",
+          "title": "Alder Proposal Urges Yale To Reject Potential Trump Deal",
+          "publisher": "New Haven Independent",
+          "document_date": "2026-09-08",
+          "source_type": "news",
+          "supports": "Independently confirms the full Board of Alders met on Tuesday, September 8, 2026 (the Monday slot having been displaced by Labor Day), establishing the date of the meeting at which LM-2026-0285 was before the full board.",
+          "quote": "That proposal is included on the agenda for Tuesday's full Board of Alders meeting."
+        },
+        {
+          "url": "https://www.newhavenindependent.org/2026/07/06/12-month-pause-pitched-for-data-center-dev/",
+          "title": "12-Month Pause Pitched For Data Center Dev",
+          "publisher": "New Haven Independent",
+          "document_date": "2026-07-06",
+          "source_type": "news",
+          "supports": "Primary reporting on the original introduction of the proposal, confirming Furlow's sponsorship, the 12-month term, and that no data center is currently proposed in New Haven.",
+          "quote": "Board of Alders Majority Leader Richard Furlow has proposed a 12-month moratorium on data center development in New Haven — to give the city time to come up with zoning regulations regarding if and where such resource-intensive uses should be allowed."
+        }
+      ],
+      "notes": "Attempted to fetch yaledailynews.com/articles/alders-unanimously-pass-yearlong-data-center-freeze-within-city-limits directly and in browser mode; both attempts returned a Kasada bot-detection challenge (tool failure: 'challenge: kasada challenge'), so only a search-engine snippet ('The Board of Alders voted on Tuesday to impose a twelve-month moratorium on the development of data centers in New Haven...') could be read, not the full article. Because the underlying vote result could not be confirmed from an unblocked primary or secondary source, and the official Sept. 8 agenda's own committee-report grouping is ambiguous/possibly an artifact, this decision is flagged for a future pass to re-attempt the Yale Daily News fetch (e.g., via a different browser engine) or to check Board of Alders meeting minutes/video once posted."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Connecticut",
+      "jurisdiction": "Trumbull",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-09-09, Trumbull Town Council, unanimous voice vote at a public hearing/regular meeting",
+      "date_enacted_iso": "2026-09-09",
+      "date_enacted_uncertainty": "exact",
+      "duration": "2 years, effective immediately upon adoption",
+      "duration_days": 730,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2028-09-09",
+      "legal_basis": "Resolution TC31-65 (Trumbull Town Council), amending the Trumbull Municipal Code: 'The Town hereby adopts a two-year moratorium on the establishment and development of any new data centers within the Town of Trumbull.' Public hearing held at the same September 9, 2026 Town Council meeting.",
+      "trigger": "specific_project concerns: 365 Data Centers (Norwalk) and Aphorio Carter (a data center division of private equity firm Carter Funds) announced in May 2026 plans for a 200 MW pipeline of AI-ready data centers, naming Trumbull's decades-old former Nasdaq data center at 80 Merritt Blvd. as a likely site for modernization into a 'high density, AI-ready' facility; a resident petition and advocacy group (Trumbull AI Data Center Watch) pushed for a moratorium and had sought (unsuccessfully) to have it cover the 80 Merritt Blvd. project itself.",
+      "trigger_categories": ["specific_project", "regulatory_gap", "grid_energy", "noise", "water"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. The Town Council unanimously adopted Resolution TC31-65 on 2026-09-09, imposing a 2-year moratorium (effective immediately) on the 'establishment and development' of any new data centers in Trumbull. The moratorium does NOT apply to the modernization/upgrade of the town's existing 80 Merritt Blvd. data center (a 15 MW facility in operation 50+ years, now being converted to AI-ready use by 365 Data Centers), which the town characterizes as a renovation rather than new construction; residents have petitioned unsuccessfully to have that project included and are considering a signature drive (requiring roughly 2,400 voters) to force a referendum.",
+      "enacted_status": "active",
+      "affected_projects": "80 Merritt Blvd. (former Nasdaq data center, 15 MW capacity) -- explicitly excluded from the moratorium's scope as an existing-facility modernization, not a new data center; First Selectman Vicki Tesoro reported the operator (365 Data Centers/Aphorio Carter) agreed to no increase in electrical draw, noise, or water use, and no expansion of the building footprint, as part of ongoing negotiations.",
+      "outcome": "2-year moratorium on new data center establishment/development adopted unanimously; does not reach the town's existing (and currently most active) data center project, which continues as a modernization outside the moratorium's scope.",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://www.trumbull-ct.gov/AgendaCenter/ViewFile/Agenda/_09092026-6197",
+          "title": "Trumbull Town Council Agenda, September 9, 2026 (with full resolutions)",
+          "publisher": "Town of Trumbull, Connecticut",
+          "document_date": "2026-09-09",
+          "source_type": "agenda",
+          "supports": "Primary source: full text of Resolution TC31-65 adopting the two-year moratorium on new data centers, listed for public hearing and action at the Sept. 9, 2026 Town Council meeting.",
+          "quote": "RESOLUTION TC31-65: BE IT RESOLVED AND ORDAINED That the Trumbull Municipal Code be and the same is hereby amended by inclusion of the following: The Town hereby adopts a two-year moratorium on the establishment and development of any new data centers within the Town of Trumbull. (Public Hearing Town Council September 9, 2026)"
+        },
+        {
+          "url": "https://westfaironline.com/latest-news/trumbull-town-council-oks-moratorium-on-new-data-centers/",
+          "title": "Trumbull Town Council OKs moratorium on new data centers",
+          "publisher": "Westfair Communications",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Confirms the unanimous voice vote, effective-immediately term, scope (new data centers only, not the 80 Merritt Blvd. modernization), and detailed public hearing testimony.",
+          "quote": "TRUMBULL – The Trumbull Town Council took a tepid step Wednesday toward regulating data centers in town by approving a two-year moratorium effective immediately of building such facilities... the resolution approved unanimously by the council by voice vote only places a moratorium on all new data centers built. The resolution does not pertain to the work being done at the Trumbull Corporate Park on Merritt Boulevard."
+        },
+        {
+          "url": "https://ctmirror.org/2026/09/11/trumbull-ai-data-center-moratorium/",
+          "title": "Trumbull could become home to one of CT's first AI data centers despite new 2-year moratorium",
+          "publisher": "CT Mirror / Connecticut Public",
+          "document_date": "2026-09-11",
+          "source_type": "news",
+          "supports": "Independently confirms the Sept. 9, 2026 adoption date, the moratorium's scope exclusion for the existing 80 Merritt Blvd. facility, and resident reaction including a possible referendum petition drive.",
+          "quote": "A decades-old data center in Trumbull could become one of the first AI data centers in Connecticut, despite the town passing a new 2-year moratorium on Wednesday. ... Trumbull's moratorium only applies to the 'establishment and development' of new data centers, not the proposed upgrades to the town's current facility..."
+        }
+      ],
+      "notes": "None."
+    },
+    {
+      "state": "Connecticut",
+      "jurisdiction": "Cromwell",
+      "jurisdiction_type": "Town",
+      "date_enacted": "Not yet adopted as of 2026-09-23. Application #26-25 (a text amendment to Cromwell Zoning Regulations Section 4.2.E. to impose a 12-month moratorium on data centers) was introduced by Planning and Zoning Commission Chair Kelly; on 2026-08-18 the Commission voted 5-1 (Commissioner Michael Cannata dissenting) only to accept the application and schedule it for a public hearing at a Special Meeting on 2026-09-24 -- one day after this research date.",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed 12 months",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "current_end_date_iso": "",
+      "legal_basis": "Proposed text amendment (Application #26-25) to Cromwell Zoning Regulations Section 4.2.E.; not yet adopted. Public hearing scheduled for a Special Meeting of the Planning and Zoning Commission on 2026-09-24.",
+      "trigger": "regulatory_gap: the town's zoning regulations have no definition or standards for a data center use; the moratorium proposal was introduced to pause any data center application while regulations are developed alongside a broader, already-contracted zoning-regulations rewrite (consultant IMEG). Commissioner Cannata opposed the moratorium, citing an unnamed prospective applicant who has worked with the town for nine months and already secured a property option.",
+      "trigger_categories": ["regulatory_gap", "specific_project"],
+      "sectors": ["data_center"],
+      "current_status": "Pending as of 2026-09-23. At its August 18, 2026 regular meeting, the Cromwell Planning and Zoning Commission voted 5-1 to accept Application #26-25 (the proposed 12-month data center moratorium text amendment) and schedule it for a public hearing at a Special Meeting on September 24, 2026 -- the Commission did not adopt the moratorium at the August 18 meeting itself. Staff confirmed no data center application is currently pending, though one commissioner referenced an interested prospective applicant. A secondary aggregator (mytownview.com) inaccurately described this August 18 procedural vote as the Commission having 'approved' and 'passed' the moratorium itself; the official filed minutes make clear only the scheduling of a hearing was voted on.",
+      "enacted_status": "pending",
+      "affected_projects": "An unnamed prospective data center applicant, described by Commissioner Cannata as having worked with the town for approximately nine months and secured an option on a property, was cited during discussion; no formal application has been filed.",
+      "outcome": "Planning and Zoning Commission voted 5-1 to schedule a public hearing (Sept. 24, 2026) on a proposed 12-month data center moratorium text amendment; the moratorium itself has not been adopted as of this research date.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.cromwellct.gov/DocumentCenter/View/5915/081826-Minutes-filed-with-Clerk",
+          "title": "Cromwell Planning and Zoning Commission Regular Meeting Minutes, August 18, 2026",
+          "publisher": "Town of Cromwell, Connecticut",
+          "document_date": "2026-08-18",
+          "source_type": "minutes",
+          "supports": "Official minutes: text of Application #26-25 (12-month moratorium proposal), discussion, and the 5-1 vote to schedule (not adopt) a public hearing for September 24, 2026.",
+          "quote": "The proposed timeframe for the Moratorium is twelve (12) months. ... A motion was made by Andrew Holt, seconded by Vincenzo Marfella, to accept and schedule Application #26-25 for a Public Hearing at a Special Meeting on September 24, 2026. Chair Kelly, Vincenzo Marfella, Andrew Holt, Nick Demetriades, Richard Nordmann approved; Michael Cannata opposed. The motion passed, 5 to 1."
+        },
+        {
+          "url": "https://mytownview.com/connecticut/middlesex/cromwell/meetings/18243-planning-and-zoning-commission-2026-08-18",
+          "title": "Planning and Zoning Commission - Aug 18, 2026 | Cromwell, CT",
+          "publisher": "mytownview.com",
+          "document_date": "2026-08-18",
+          "source_type": "other",
+          "supports": "Secondary (AI-generated) meeting summary; checked and found to overstate the outcome (describes the item as 'approved'/'passed' when the official minutes show only a hearing was scheduled). Retained as evidence of the discrepancy, not as a source for the moratorium's status.",
+          "quote": "The Cromwell Planning and Zoning Commission approved a text amendment to establish a moratorium on data centers, passing it with a 4-1 vote after debate that included opposition from Commissioner Mike Canada."
+        }
+      ],
+      "notes": "The public hearing (and possible adoption vote) is scheduled for 2026-09-24, one day after this research pass; a subsequent research pass should check whether the moratorium was adopted at or after that hearing. enacted_status is 'pending' because only a procedural scheduling vote, not an adoption vote, has occurred."
+    }
+  ]
+}

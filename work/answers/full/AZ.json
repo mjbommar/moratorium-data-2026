@@ -1,0 +1,76 @@
+{
+ "state_abbrev": "AZ",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 agent",
+ "decisions": [],
+ "new_candidates": [
+  {
+   "state": "Arizona",
+   "jurisdiction": "Pima County",
+   "jurisdiction_type": "County",
+   "date_enacted": "2026-08-11 (Board of Supervisors adopted an addendum-item resolution at its regular meeting, 3-2 vote)",
+   "date_enacted_iso": "2026-08-11",
+   "date_enacted_uncertainty": "exact",
+   "duration": "120 days from adoption (2026-08-11 to approximately 2026-12-09), to give county staff time to finalize a zoning code text amendment establishing data-center-specific regulations; Supervisor Heinz's floor amendment provided the moratorium could return to the board for possible extension before the 120-day limit.",
+   "duration_days": 120,
+   "duration_kind": "fixed_days",
+   "current_end_date_iso": "2026-12-09",
+   "legal_basis": "Resolution adopted by the Pima County Board of Supervisors at its August 11, 2026 regular meeting, added as an addendum item at the request of Board Chair Jennifer Allen (District 3); no separately reported resolution number located in captured sources.",
+   "trigger": "Pima County Development Services was already drafting a data-center zoning code text amendment (process initiated by a September 2025 BOS vote) when a second, undisclosed data-center project ('Project Gravel,' an 8-building, 160-acre facility near Sahuarita) surfaced via a public-records request; the moratorium bars new data center permit applications while the code amendment is finalized, and (as amended) applies to facilities that have not yet submitted a permit application, so it does not affect the previously permitted 'Project Blue' facility.",
+   "trigger_categories": [
+    "regulatory_gap",
+    "water",
+    "grid_energy",
+    "specific_project",
+    "land_use_compatibility"
+   ],
+   "sectors": [
+    "data_center"
+   ],
+   "current_status": "Active as of 2026-09-23. 120-day moratorium on the acceptance/issuance of new data center permits in unincorporated Pima County, adopted 3-2 (Supervisors Christy and Scott dissenting) on 2026-08-11 and running to approximately 2026-12-09, while Development Services finalizes a zoning code text amendment. The department is seeking public comment (online survey; a September 28, 2026 open house; proposed rules going to the Planning and Zoning Commission on October 28, 2026) on a related, permanent zoning code amendment that would define data centers (facilities using more than 20 MW), require closed-loop cooling, and set review/design standards; that permanent amendment is expected in December 2026, around when the moratorium runs out.",
+   "enacted_status": "active",
+   "affected_projects": "'Project Gravel,' an undisclosed, 8-building/160-acre data center proposal on land known as Kerley Industrial Park, west of Sahuarita town limits; county officials confirmed the moratorium (as amended to cover unsubmitted permits) would affect this project but not the previously permitted 'Project Blue' data center near the Pima County Fairgrounds.",
+   "outcome": "Board of Supervisors adopted a 120-day moratorium on new data center permit applications in unincorporated Pima County while the county finalizes a data-center zoning code amendment.",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://pima.legistar.com/View.ashx?M=F&ID=15752236&GUID=02831C6A-519E-414F-A373-238BB2EE5AB2",
+     "title": "BOS_MoratoriumDataCenters_Dist3Submittal (addendum-item request memo)",
+     "publisher": "Pima County Board of Supervisors, District 3 (Chair Jennifer Allen)",
+     "document_date": "2026-08-04",
+     "source_type": "agenda",
+     "supports": "Primary source: District 3's addendum-item memo requesting the Board place a 120-day data center moratorium item on the August 11, 2026 meeting agenda, and describing the ongoing zoning code text amendment process it is meant to bridge.",
+     "quote": "Discussion/direction/action: Establishing a 120-day moratorium on data centers in unincorporated Pima County. Directing the County Administrator to work with PCAO and county departments to develop a resolution declaring a moratorium on data centers in unincorporated Pima County until the County has completed its zoning code text amendment process."
+    },
+    {
+     "url": "https://www.gvnews.com/news/local/county-pauses-new-data-centers-as-project-eyes-land-near-sahuarita/article_cb38f969-1373-4bb6-b699-d51eb97492cc.html",
+     "title": "County pauses new data centers as project eyes land near Sahuarita",
+     "publisher": "Green Valley News & Sun",
+     "document_date": "2026-09-22",
+     "source_type": "news",
+     "supports": "Confirms the moratorium was adopted (not merely directed to be drafted) 3-2 on August 11, 2026, describes Supervisor Heinz's floor amendment narrowing it to unsubmitted permits and adding a return-for-extension provision, and confirms the 'Project Gravel'/'Project Blue' distinction and the December zoning-code-amendment timeline.",
+     "quote": "County supervisors narrowly OK'd a 120-day moratorium for new applications and permits for data centers in unincorporated Pima County while staff works to update the zoning code... The moratorium will give county staff time to develop zoning code amendments with data center-focused regulations, which is expected in December."
+    },
+    {
+     "url": "https://www.sonorandesert.org/2026/08/26/data-centers-update/",
+     "title": "Data centers in the Sonoran Desert",
+     "publisher": "Coalition for Sonoran Desert Protection",
+     "document_date": "2026-08-26",
+     "source_type": "news",
+     "supports": "Independent confirmation, from an advocacy organization tracking the vote, that the Board of Supervisors approved the 120-day moratorium on August 11, 2026.",
+     "quote": "Update: Pima County Board of Supervisors Approves 120-day Moratorium on New Data Centers. On August 11, 2026, the Pima County Board of Supervisors approved a 120-day moratorium on new data centers, allowing County staff time to finalize updates to the zoning code that will establish regulations for data center development."
+    },
+    {
+     "url": "https://www.tucsonsentinel.com/local/report/081126_pima_data_moratorium/pima-county-moves-forward-possible-data-center-moratorium",
+     "title": "Pima County moves forward on possible data center moratorium",
+     "publisher": "Tucson Sentinel",
+     "document_date": "2026-08-11",
+     "source_type": "news",
+     "supports": "Same-day report on the 3-2 vote (Christy and Scott dissenting), giving background on the Project Blue land sale and the legal 'taking' concerns that led the county toward a conditional-use-permit approach rather than an outright ban.",
+     "quote": "The Pima County Board of Supervisors voted 3-2 to have county staff begin drafting a 120-day moratorium on data center approvals until an anticipated fall vote on an ordinance regulating these projects."
+    }
+   ],
+   "notes": "No jurisdiction disambiguation needed; Pima County is not currently in the Arizona inventory. Same-day wire copy (tucsonsentinel.com) initially described the Aug. 11 vote as authorizing staff to 'begin drafting' the moratorium, but subsequent reporting (gvnews.com, sonorandesert.org, kvoa.com) and the decoded body text of the Sept. 22 gvnews.com article make clear the board actually adopted the moratorium resolution that night, amended on the floor by Supervisor Heinz. No specific resolution number was found in captured sources; the coordinator may find one via a further Pima County Legistar/BOS minutes search."
+  }
+ ]
+}

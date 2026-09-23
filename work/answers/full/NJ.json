@@ -1,0 +1,125 @@
+{
+  "state_abbrev": "NJ",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "nj-galloway-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted_iso": {
+          "from": "2026-06-16",
+          "to": "2026-07-14",
+          "reason": "The Township's own July 14, 2026 Council agenda (ordinance/resolution statements) lists Ordinance 2172-2026 as up for second reading/final passage at that meeting, and the Township's public-notices listing shows a 'Publication Final Passage Ordinance #2172-2026 Temporary Moratorium of Data Centers' dated July 15, 2026 (the day after adoption). June 16, 2026 was the ordinance's introduction/first-reading meeting, not final passage."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-01-10",
+          "reason": "The ordinance imposes a six-month (180-day) moratorium; 180 days from the corrected final-passage date of 2026-07-14 is 2027-01-10."
+        },
+        "date_enacted": {
+          "from": "2026-06-16 (date set for final passage per the June-published introduction notice for Ordinance 2172-2026); the official final-passage affidavit was posted 2026-07-15 and does not itself state the adoption date",
+          "to": "2026-06-16 was the ordinance's introduction/first reading (per the June 16, 2026 Council agenda listing Ordinance 2172-2026 for public hearing). Final passage occurred at the July 14, 2026 Council meeting (per that meeting's official agenda/ordinance statements) and the Township's public notice titled 'Publication Final Passage Ordinance #2172-2026 Temporary Moratorium of Data Centers' was posted July 15, 2026.",
+          "reason": "Corrects the adoption date using the Township's own council agendas, which are primary sources, rather than inferring it from the introduction notice."
+        },
+        "current_status": {
+          "from": "Reported as finally passed; active as of 2026-07-31 absent further action found in sources reviewed [VERIFY details not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Ordinance 2172-2026 was introduced June 16, 2026 and finally passed at the Council's July 14, 2026 meeting (notice published July 15, 2026), establishing a six-month moratorium on the approval, development, construction, expansion, and operation of data centers while the Planning Board and Environmental Commission study the issue. The moratorium is set to run through approximately January 10, 2027. No extension, repeal, or permanent ordinance was found in sources reviewed through 2026-09-23.",
+          "reason": "Resolves the prior VERIFY marker with the Township's own council agendas (primary source) rather than news-only evidence, and refreshes the as-of date."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY details not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "resolution": "corrected",
+          "note": "Confirmed final passage using the Township of Galloway's own July 14, 2026 Council agenda (which lists Ordinance 2172-2026 for second reading/public hearing) and the Township's public-notices index (which lists the 'Publication Final Passage' notice for Ordinance #2172-2026 dated July 15, 2026), corroborated by a secondary news summary (111things.com) of the same notice. This also corrected the adoption date, which the prior refresh had guessed as June 16, 2026 (actually the introduction date)."
+        }
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://ww.gtnj.org/index.php/i-want-to/find-council-meeting-agendas/2026-1/2884-7-14-2026-agenda?format=html",
+          "title": "Township of Galloway Council Agenda - July 14, 2026",
+          "publisher": "Township of Galloway, New Jersey",
+          "document_date": "2026-07-14",
+          "source_type": "agenda",
+          "supports": "Official council agenda listing Ordinance 2172-2026 ('Ordinance Establishing a Temporary 6-month Moratorium of Data Centers') among the ordinances up for action at the July 14, 2026 meeting.",
+          "quote": "2172-2026- Ordinance Establishing a Temporary 6-month Moratorium of Data Centers. This ordinance establishes a temporary six (6) month moratorium development of Data Centers pending further study, review and recommendation by the Galloway Township Planning Board."
+        },
+        {
+          "url": "https://ww.gtnj.org/index.php/i-want-to/find-council-meeting-agendas/2026-1/2860-6-16-2026-revised-agenda/file",
+          "title": "Township of Galloway Revised Council Agenda - June 16, 2026",
+          "publisher": "Township of Galloway, New Jersey",
+          "document_date": "2026-06-16",
+          "source_type": "agenda",
+          "supports": "Shows Ordinance 2172-2026 was on the June 16, 2026 agenda under 'Ordinances for Introduction' (first reading), establishing that June 16 was the introduction date, not final passage.",
+          "quote": "2172-2026- Ordinance Establishing a Temporary 6-month Moratorium of Data Centers"
+        },
+        {
+          "url": "https://111things.com/local-headlines/galloway-township-gives-final-passage-to-temporary-data-center-moratorium/",
+          "title": "Galloway Township Gives Final Passage to Temporary Data-Center Moratorium",
+          "publisher": "Interactive News (111things.com)",
+          "document_date": "2026-08-11",
+          "source_type": "news",
+          "supports": "Reports, citing the Township's own public-notices page, that Ordinance 2172-2026 was listed as finally passed on July 15, 2026 (the notice date, one day after the July 14 council vote).",
+          "quote": "Ordinance 2172-2026 was listed as finally passed on July 15, 2026, on the township's public-notices page. The notice identifies the measure as a temporary data-center moratorium."
+        }
+      ],
+      "notes": "The Township's public-notices/ordinances document library (gtnj.org) is a Joomla portal that serves only an empty shell to automated fetches (even in browser mode); the July 14 and June 16 council agenda PDFs, which are cached/mirrored copies with full text, were used instead as primary sources, corroborated by the news summary of the notice itself."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "New Jersey",
+      "jurisdiction": "Mullica Township",
+      "jurisdiction_type": "Township",
+      "date_enacted": "Introduced (first reading) August 25, 2026 by the Mullica Township Committee; referred to the Planning Board and Environmental Commission for study and recommendation, as required before final adoption; not yet finally passed as of the September 22, 2026 Committee meeting agenda, which does not list it for second reading.",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Six (6) months from final adoption, if adopted as introduced.",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Ordinance No. 09-2026 (Township of Mullica), 'Establishing a Temporary Six (6) Month Moratorium on the Approval, Development, Construction, Expansion, and Operation of Data Centers Within the Township of Mullica Pending Further Study, Review, and Recommendations by the Mullica Township Planning Board and Environmental Commission, and Amending and Supplementing Section 144-9 of the Township's Code,' introduced August 25, 2026.",
+      "trigger": "Regulatory gap; the Township referred the question to its Planning Board and Environmental Commission to study infrastructure, water, noise, stormwater, traffic, zoning, and emergency-response impacts before any data center could be approved.",
+      "trigger_categories": ["regulatory_gap", "water", "noise", "infrastructure_capacity"],
+      "sectors": ["data_center"],
+      "current_status": "Pending as of 2026-09-23. Ordinance 09-2026 was introduced (first reading) at the Township Committee's August 25, 2026 meeting and referred to the Planning Board and Environmental Commission, consistent with New Jersey's Municipal Land Use Law referral process for a zoning-related ordinance. The Committee's September 22, 2026 meeting agenda does not list Ordinance 09-2026 for a second reading/public hearing, so final adoption had not occurred as of that meeting; the next regular Committee meeting is scheduled for October 27, 2026.",
+      "enacted_status": "pending",
+      "affected_projects": "None named; no data-center application was reported pending in the Township.",
+      "outcome": "Township Committee introduced a six-month moratorium ordinance on data centers August 25, 2026 and referred it to the Planning Board and Environmental Commission; not yet finally adopted as of 2026-09-23.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.mullicatownship.org/ordinance-no-09-2026-establishing-a-temporary-six-6-month-moratorium-on-the-approval-development-construction-expansion-and-operation-of-data-centers-within-the-township-of-mullica-pending-furt/",
+          "title": "Ordinance No. 09-2026 Establishing a Temporary Six (6) Month Moratorium on ... Data Centers Within the Township of Mullica",
+          "publisher": "Township of Mullica, New Jersey",
+          "document_date": "2026-08-27",
+          "source_type": "ordinance",
+          "supports": "Official township posting of the introduced ordinance (first reading), confirming its full title, six-month term, and referral to the Planning Board and Environmental Commission.",
+          "quote": "ORDINANCE NO. 09-2026 ESTABLISHING A TEMPORARY SIX (6) MONTH MORATORIUM ON THE APPROVAL, DEVELOPMENT, CONSTRUCTION, EXPANSION, AND OPERATION OF DATA CENTERS WITHIN THE TOWNSHIP OF MULLICA PENDING FURTHER STUDY, REVIEW, AND RECOMMENDATIONS BY THE MULLICA TOWNSHIP PLANNING BOARD AND ENVIRONMENTAL COMMISSION"
+        },
+        {
+          "url": "https://www.hammontongazette.com/news/neighbors/mullica-twp-introduces-data-center-ban-ordinance/article_242f0876-7864-4805-8f58-fe922b551ad8.html",
+          "title": "Mullica Twp. introduces data center ban ordinance",
+          "publisher": "The Hammonton Gazette",
+          "document_date": "2026-09-07",
+          "source_type": "news",
+          "supports": "Confirms the ordinance was introduced at the August 25, 2026 township meeting and was referred to the Planning Board and Environmental Commission before it can be finally adopted.",
+          "quote": "MULLICA TWP.—During the August 25 township meeting, Mullica Township council members introduced a new ordinance for a six-month moratorium on data centers. However, the planning board and environmental commission"
+        },
+        {
+          "url": "https://mullicatownship.org/wp-content/uploads/2026/09/9.22.26-Regular-Meeting-Agenda.pdf",
+          "title": "Township of Mullica Committee Meeting Agenda - September 22, 2026",
+          "publisher": "Township of Mullica, New Jersey",
+          "document_date": "2026-09-22",
+          "source_type": "agenda",
+          "supports": "Official September 22, 2026 committee meeting agenda, which does not include Ordinance 09-2026 among its resolutions or ordinance items, confirming final adoption had not yet occurred as of that meeting.",
+          "quote": "The next Regular Township Committee Meeting is scheduled to be held on Tuesday October 27, 2026, at 7:00pm"
+        }
+      ],
+      "notes": "date_enacted_iso is left blank because final adoption had not occurred as of the most recent (Sept. 22, 2026) Committee meeting found; the Hammonton Gazette's fuller article text was not retrievable (the saved page returned only a subscription/comment-form shell), so the introduction date and referral were confirmed from the township's own ordinance posting instead."
+    }
+  ]
+}

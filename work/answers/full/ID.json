@@ -1,0 +1,116 @@
+{
+ "state_abbrev": "ID",
+ "researched_as_of": "2026-09-23",
+ "researcher": "claude-sonnet-5 agent",
+ "decisions": [],
+ "new_candidates": [
+  {
+   "state": "Idaho",
+   "jurisdiction": "Bannock County",
+   "jurisdiction_type": "County",
+   "date_enacted": "2026-07-30 (Board of County Commissioners signed the emergency moratorium ordinance)",
+   "date_enacted_iso": "2026-07-30",
+   "date_enacted_uncertainty": "exact",
+   "duration": "180 days from adoption (2026-07-30 to 2027-01-26)",
+   "duration_days": 180,
+   "duration_kind": "fixed_days",
+   "current_end_date_iso": "2027-01-26",
+   "legal_basis": "Emergency moratorium ordinance, Instrument # 22609310, adopted under Idaho Code Section 67-6523 by the Bannock County Board of Commissioners (Jeff Hough, Chairman; Ernie Moser and Ken Bullock, Commissioners); signed 2026-07-30.",
+   "trigger": "Board found an imminent peril to public health, safety, and welfare from continued unregulated siting of data centers, citing water quality, environmental impact, viewsheds, decommissioning bonds, electrical grid impact, and aquifer impacts; adopted alongside an April 13, 2026 statewide drought emergency declaration by the Idaho Department of Water Resources; gives county time to draft a standalone data center ordinance (separate from an ongoing, years-long Land Use and Development Ordinance rewrite that did not originally address data centers).",
+   "trigger_categories": [
+    "regulatory_gap",
+    "water",
+    "environmental",
+    "grid_energy",
+    "land_use_compatibility"
+   ],
+   "sectors": [
+    "data_center"
+   ],
+   "current_status": "Active as of 2026-09-23. Moratorium on the receipt, processing, and approval of data center permit applications in unincorporated Bannock County, effective 2026-07-30 through 2027-01-26. Does not apply to any permit already issued or requested before adoption, and does not apply within city limits (including Pocatello, where a separate, contested $2.6 billion Lex Developments data center proposal for the former Hoku polysilicon plant site is working through the city's own permitting/appeal process). Commissioner Jeff Hough is separately convening a regional work group with Power, Oneida, Franklin, and Caribou counties to draft model data-center ordinances for neighboring jurisdictions, expected to begin public hearings around January 2027.",
+   "enacted_status": "active",
+   "affected_projects": "No specific project named as pending in unincorporated county jurisdiction at adoption; the moratorium does not affect the separately-pending, city-jurisdiction Lex Developments/Hoku-site data center proposal in Pocatello.",
+   "outcome": "Board of Commissioners adopted a 180-day emergency moratorium on data center permits in unincorporated Bannock County while staff drafts a standalone data center ordinance.",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "url": "https://www.bannockcounty.gov/wp-content/uploads/2026/07/Data-Center-Moratorium_Final.pdf",
+     "title": "Emergency moratorium ordinance (Instrument # 22609310)",
+     "publisher": "Bannock County Board of Commissioners",
+     "document_date": "2026-07-30",
+     "source_type": "ordinance",
+     "supports": "Primary source: full ordinance text, findings of imminent peril, 180-day term running from the date of passage, exemptions for already-issued/requested permits, and commissioner signatures dated July 30, 2026.",
+     "quote": "a moratorium is hereby imposed upon the receipt, processing, and approval of applications for data centers. This moratorium shall be in place for a period of one hundred and eighty (180) days following adoption of this moratorium. ... DATED this 30th day of July, 2026."
+    },
+    {
+     "url": "https://www.bannockcounty.gov/datacenter/",
+     "title": "Data Center Ordinance (county informational page)",
+     "publisher": "Bannock County",
+     "document_date": "2026-08",
+     "source_type": "other",
+     "supports": "Official county confirmation of the moratorium's effective and end dates and its jurisdictional scope (unincorporated county only).",
+     "quote": "the Board of Commissioners enacted a 180-day moratorium on any permits for data center projects on July 30, 2026. Until the moratorium ends on January 26, 2027, applications for any data center projects within county jurisdiction will not be accepted by Bannock County."
+    },
+    {
+     "url": "https://www.idahostatejournal.com/news/local/ai-arrival-county-officials-race-to-set-ai-data-center-rules-as-pocatello-permit-fight/article_1bd8d9b7-0fed-49bc-ab9b-3a764de2c41f.html",
+     "title": "AI Arrival: County officials race to set AI data center rules as Pocatello permit fight heads to a vote",
+     "publisher": "Idaho State Journal",
+     "document_date": "2026-09",
+     "source_type": "news",
+     "supports": "Confirms the moratorium's scope (unincorporated county only) and describes Commissioner Hough's regional work group with neighboring counties, and the status of the separate Pocatello city-jurisdiction Lex Developments/Hoku-site proposal.",
+     "quote": "The effort comes as Bannock County's temporary moratorium on new data centers, which applies only to unincorporated parts of the county, leaves the surrounding region without any local ordinances specifically addressing the facilities. \"Everybody's exposed, except for Bannock County, because we have the moratorium,\" Hough said."
+    }
+   ],
+   "notes": "No jurisdiction disambiguation needed; Bannock County is not currently in the Idaho inventory (only Kootenai County, id-kootenai-county-2025, already 'replaced')."
+  },
+  {
+   "state": "Idaho",
+   "jurisdiction": "Elmore County",
+   "jurisdiction_type": "County",
+   "date_enacted": "2026-07-02 (Board of County Commissioners regular meeting; Resolution No. 952-26 adopted unanimously, Corbus/Rodgers/Hofer all AYE)",
+   "date_enacted_iso": "2026-07-02",
+   "date_enacted_uncertainty": "exact",
+   "duration": "182 days from adoption (2026-07-02 to 2026-12-31)",
+   "duration_days": 182,
+   "duration_kind": "fixed_days",
+   "current_end_date_iso": "2026-12-31",
+   "legal_basis": "Resolution No. 952-26, \"Emergency Moratorium on the Issuance of Permits for Data Center Development within [unincorporated] Elmore County,\" adopted by the Elmore County Board of Commissioners on 2026-07-02.",
+   "trigger": "Commissioners cited concerns over water use, noise, land-use impacts, and the absence of existing county regulation specific to data centers.",
+   "trigger_categories": [
+    "regulatory_gap",
+    "water",
+    "noise",
+    "land_use_compatibility"
+   ],
+   "sectors": [
+    "data_center"
+   ],
+   "current_status": "Active as of 2026-09-23. Emergency moratorium on the issuance of permits for data center development in unincorporated Elmore County, adopted unanimously 2026-07-02, running 182 days to approximately 2026-12-31.",
+   "enacted_status": "active",
+   "affected_projects": "None named in captured county minutes or press coverage.",
+   "outcome": "Board of County Commissioners unanimously adopted Resolution No. 952-26, a 182-day emergency moratorium on data center development permits in unincorporated Elmore County.",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "url": "https://elmorecounty.org/wp-content/uploads/2026july2.pdf",
+     "title": "Elmore County Board of Commissioners meeting minutes, July 2, 2026",
+     "publisher": "Elmore County, Idaho",
+     "document_date": "2026-07-02",
+     "source_type": "minutes",
+     "supports": "Primary source: official meeting minutes recording the unanimous adoption of Resolution No. 952-26, an emergency moratorium on data center development permits in unincorporated Elmore County.",
+     "quote": "Abbey Germaine asked the Board for consideration of Resolution 952-26, Emergency Moratorium on the Issuance of Permits for Data Center Development within Elmore County. ... Motion by Corbus, second by Rodgers, to approve Resolution No. 952-26, adopting an emergency moratorium on the issuance of permits for data center development within unincorporated Elmore County. CORBUS-AYE RODGERS-AYE HOFER-AYE Motion carried and so ordered."
+    },
+    {
+     "url": "https://www.mountainhomenews.com/opinion/elmore-county-commission-issues-moratorium-on-data-center-permits-ac5302d2",
+     "title": "Elmore County Commissioners issue Moratorium on Data Center Permits",
+     "publisher": "Mountain Home News",
+     "document_date": "2026-07-02",
+     "source_type": "news",
+     "supports": "News corroboration of the unanimous vote and the 182-day term, and the commissioners' stated concerns (water use, noise, land impacts, absence of existing regulation).",
+     "quote": "Elmore County Commissioners unanimously approved a 182-day moratorium on new data center permits, citing concerns over water use, noise, land impacts and regulation."
+    }
+   ],
+   "notes": "No jurisdiction disambiguation needed; Elmore County is not currently in the Idaho inventory. The Elmore County Growth and Development Dept. was also separately handling an unrelated development agreement (Idaho Power's Mayfield Substation) at the same July 2 meeting -- not related to data centers."
+  }
+ ]
+}

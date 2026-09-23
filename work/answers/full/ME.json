@@ -1,0 +1,440 @@
+{
+  "state_abbrev": "ME",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "me-sanford-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted_uncertainty": {
+          "from": "range",
+          "to": "exact",
+          "reason": "The Portland Press Herald's own May 19, 2026 report on the initial vote confirms the City Council approved the 91-day emergency moratorium at its Tuesday, May 19, 2026 meeting, resolving the prior date range to an exact date."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "180",
+          "reason": "The currently operative term is the 180-day extension the City Council adopted 2026-08-04 (reported 2026-08-05), which is a fixed-length term with a known end date, so duration_kind is updated to fixed_days accordingly."
+        },
+        "duration_kind": {
+          "from": "until_event",
+          "to": "fixed_days",
+          "reason": "The current operative moratorium term is a fixed 180-day extension (2026-08-04 to 2027-01-31) rather than an open-ended, event-triggered pause; the task force's work could still lead to a further 180-day extension, but the presently operative term itself has a fixed end date."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-01-31",
+          "reason": "The Portland Press Herald's Aug. 5, 2026 report states the 180-day extension approved Aug. 4, 2026 makes the moratorium 'expire on Jan. 31' (2027)."
+        },
+        "duration": {
+          "from": "Initial 91-day emergency pause extended by City Council for an additional 180 days on 2026-08-04.",
+          "to": "Initial 91-day emergency pause (2026-05-19 to 2026-08-18) extended by City Council for an additional 180 days on 2026-08-04, now running through 2027-01-31. The Aug. 5, 2026 Press Herald report notes a city agenda-packet misprint had listed the initial moratorium's expiration as Aug. 12 rather than the correct Aug. 18; that misprint has no bearing on the currently operative extended term. Deputy Mayor Maura Herlihy said the moratorium could be extended another 180 days if the city's new Industrial Development Standards Task Force has not finished its work by Jan. 31, 2027.",
+          "reason": "Adds the confirmed initial end date, corrects a reported misprint, and notes the possibility of a further extension, per the Portland Press Herald's Aug. 5, 2026 report."
+        },
+        "legal_basis": {
+          "from": "Emergency moratorium order; exact citation not located",
+          "to": "Emergency moratorium order adopted by City Council vote 2026-05-19 (91 days) and extended by a further City Council vote 2026-08-04 (180 days); no numbered order/ordinance citation was located in Portland Press Herald reporting or Sanford's own site despite additional search. The extension was accompanied by City Council appointment (June 2026) of an Industrial Development Standards Task Force (Deputy Mayor Maura Herlihy; Councilor Cheeny Plante; representatives of the planning board, water district, sewerage district, and Industrial Development Corporation; and four Sanford-Springvale residents) to survey existing municipal standards and propose ordinance amendments.",
+          "reason": "Adds confirmed procedural detail (both council votes, the task force's composition and charge) from two dedicated Portland Press Herald articles; the specific order/ordinance number remains unlocated."
+        },
+        "current_status": {
+          "from": "Extended and active as of 2026-08-19. Sanford City Council unanimously extended the emergency data-center moratorium by 180 days on 2026-08-04. [VERIFY: signed extension order/ordinance number not located]",
+          "to": "Extended and active as of 2026-09-23. Sanford City Council unanimously extended the emergency data-center moratorium by 180 days on 2026-08-04, now running through 2027-01-31; the extension continues to halt the proposed Sanford Woods Industrial and Technical Campus data center (part of a 1,000+-acre project along the Mousam River) while the city's Industrial Development Standards Task Force (appointed June 2026) works to propose new ordinance standards. The task force's goal is to complete its work by the Jan. 31, 2027 expiration; the moratorium could be extended a further 180 days if that work is not finished by then. No signed order/ordinance number was located despite additional search of Portland Press Herald reporting and the city's public materials. [VERIFY: signed extension order/ordinance number not located]",
+          "reason": "Refreshes the 'as of' date, adds the confirmed 2027-01-31 end date and task-force status from two dedicated Portland Press Herald articles (the initial May 19, 2026 vote and the Aug. 4-5, 2026 extension), and confirms the moratorium remains in force with no lapse or rescission found."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: signed extension order/ordinance number not located]",
+          "resolution": "still_unverifiable",
+          "note": "Read two dedicated Portland Press Herald articles (the May 19, 2026 initial-vote report and the Aug. 5, 2026 extension report), both of which describe the votes, term lengths, and task force in detail but do not cite a signed order or ordinance number for either the initial or extended moratorium. No city-hosted copy of the order was located in this pass."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.pressherald.com/2026/05/19/sanford-imposes-emergency-data-center-moratorium-halting-mousam-river-project/",
+          "title": "Sanford imposes emergency data center moratorium, halting Mousam River project",
+          "publisher": "Portland Press Herald",
+          "document_date": "2026-05-19",
+          "source_type": "news",
+          "supports": "Confirms the exact May 19, 2026 unanimous vote for a 91-day emergency moratorium, effective immediately, expiring Aug. 18, 2026, halting the Sanford Woods project.",
+          "quote": "The council voted unanimously in favor of the 91-day moratorium, which puts a pause on the acceptance, approval or issuance of permits for any large scale data center proposal in the city. The moratorium takes effect immediately and will remain in place until Aug. 18."
+        },
+        {
+          "url": "https://www.pressherald.com/2026/08/05/sanford-extends-data-center-moratorium-for-180-days/",
+          "title": "Sanford extends data center moratorium for 180 days",
+          "publisher": "Portland Press Herald",
+          "document_date": "2026-08-05",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 4, 2026 unanimous 180-day extension vote, the corrected Jan. 31, 2027 expiration, the agenda-packet misprint, and the Industrial Development Standards Task Force's composition and charge.",
+          "quote": "The Sanford City Council voted unanimously Tuesday night to extend an emergency moratorium on data centers for 180 days. With the extension, the moratorium will expire on Jan. 31. ... Brink, the mayor, said the task force's goal is to work through to the end of January, when the new moratorium expires. Herlihy, the deputy mayor, said if the work is not completed by then, the moratorium could be extended for another 180 days."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "me-gorham-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_status": {
+          "from": "Active per local reporting as of 2026-07-31; the enacted ordinance text was not located in the town's current web archive, so its exact application language remains unverified [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Confirmed by two independent Portland Press Herald articles (2026-06-03/04 and 2026-09-03) plus a secondary report (The Cool Down): the Gorham Town Council unanimously approved (7-0) a 180-day moratorium on data center proposals on 2026-06-02, with no known project pending. On 2026-09-01, the Council voted to direct the Planning Board to hold a public hearing and determine whether to make the data-center ban permanent by amending the town's land use and development code; that permanent-ban process (a separate action from this moratorium) was still pending as of 2026-09-23, and the Planning Board would need to vote on the code change before any permanent ban takes effect. No enacted ordinance text or instrument number was located despite additional search of Portland Press Herald reporting and secondary coverage. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "reason": "Refreshes the 'as of' date, adds a second independent Portland Press Herald article confirming continued force as of Sept. 3, 2026, and adds the significant update that the Council is now pursuing a permanent ban via the Planning Board, while confirming the underlying 180-day moratorium itself remains the operative instrument for this row."
+        },
+        "outcome": {
+          "from": "",
+          "to": "180-day moratorium on data center proposals adopted 2026-06-02; on 2026-09-01 the Town Council directed the Planning Board to hold a public hearing on making the data-center ban permanent through a land use and development code amendment. If the permanent ban is adopted, this row's outcome would become 'replaced' in a future pass; as of 2026-09-23 the permanent ban had not been adopted.",
+          "reason": "Populates the previously empty outcome field with the confirmed sequence of events and flags the pending permanent-ban process for a future pass to resolve."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Read three independent news sources (two Portland Press Herald articles from different months, plus The Cool Down's report citing the Press Herald) describing the same 7-0 vote, 180-day term, and no known project; none cites an ordinance/order number, and no Gorham-hosted copy of the enacted moratorium text was located in this pass."
+        }
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.pressherald.com/2026/06/03/gorham-approves-data-center-moratorium/",
+          "title": "Gorham approves data center moratorium",
+          "publisher": "Portland Press Herald",
+          "document_date": "2026-06-03",
+          "source_type": "news",
+          "supports": "Confirms the 7-0 unanimous vote for a 180-day moratorium on data center proposals, adopted June 2, 2026 (referred to in the article as 'Tuesday'), and that no data center project is currently proposed in Gorham.",
+          "quote": "The Gorham Town Council on Tuesday approved a moratorium that will prevent data center proposals from being developed for 180 days. ... The council unanimously passed the moratorium, 7-0. Town Councilor Seven Siegel said it could be extended another 180 days if the town deems it necessary. 'There are no plans for any data centers right now.'"
+        },
+        {
+          "url": "https://www.pressherald.com/2026/09/03/gorham-weighing-action-on-ice-cooperation-data-centers-and-ai-cameras/",
+          "title": "Gorham weighing action on ICE cooperation, data centers and AI cameras",
+          "publisher": "Portland Press Herald",
+          "document_date": "2026-09-03",
+          "source_type": "news",
+          "supports": "Confirms the moratorium remained in force as of Sept. 1-3, 2026, and that the Council directed the Planning Board to hold a public hearing on making the data-center ban permanent via a land use and development code amendment.",
+          "quote": "After approving a moratorium temporarily banning data centers in Gorham in June, the council on Tuesday directed the planning board to hold a public hearing and determine whether the ban should become permanent. The planning board would need to vote on changing the town's land use and development code before the ban goes into effect. ... None have been proposed in Gorham."
+        },
+        {
+          "url": "https://www.thecooldown.com/green-tech/gorham-data-center-moratorium-development/",
+          "title": "Gorham halts data center proposals for 180 days after warnings over water, power, and noise",
+          "publisher": "The Cool Down",
+          "document_date": "2026-06",
+          "source_type": "news",
+          "supports": "Independent secondary report corroborating the 7-0 vote, 180-day term, and June 2, 2026 adoption date.",
+          "quote": "For the next six months, Gorham officials will study what regulations, if any, should govern large artificial intelligence facilities after the Town Council unanimously backed a moratorium on new data center proposals on June 2."
+        }
+      ]
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Maine",
+      "jurisdiction": "Gray",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-08-18 (Town Council adoption); the ordinance is expressly retroactive to a Date of Applicability of 2026-07-14",
+      "date_enacted_iso": "2026-08-18",
+      "date_enacted_uncertainty": "exact",
+      "duration": "180 days from the Date of Applicability (2026-07-14), per the ordinance text, running through approximately 2027-01-10",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-01-10",
+      "legal_basis": "Town of Gray Ordinance Establishing a Temporary Moratorium on Data Centers, enacted August 18, 2026 under 30-A M.R.S. § 4356",
+      "trigger": "Preemptive; the Town Council cited a recent, unevaluated increase in large-scale Data Center development nationally and in Maine, and found existing comprehensive plan/ordinances inadequate to prevent serious public harm from siting, noise, environmental, and public-facility impacts",
+      "trigger_categories": ["regulatory_gap", "infrastructure_capacity", "noise", "environmental"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. The Town Council unanimously adopted the moratorium ordinance on 2026-08-18 (following public comment on Aug. 4), expressly retroactive to a 'Date of Applicability' of 2026-07-14, and running 180 days from that date (through approximately 2027-01-10). No specific data center project was cited as the trigger.",
+      "enacted_status": "active",
+      "affected_projects": "None identified; the ordinance is framed as preemptive/proactive rather than responding to a specific pending application.",
+      "outcome": "Temporary 180-day moratorium ordinance adopted to give the Town Council time to develop zoning standards and regulations for data centers.",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://www.graymaine.org/DocumentCenter/View/1435",
+          "title": "Town of Gray Ordinance Establishing a Temporary Moratorium on Data Centers",
+          "publisher": "Town of Gray, Maine",
+          "document_date": "2026-08-18",
+          "source_type": "ordinance",
+          "supports": "Primary ordinance text: enactment date, retroactive Date of Applicability (2026-07-14), and 180-day duration.",
+          "quote": "TOWN OF GRAY ORDINANCE ESTABLISHING A TEMPORARY MORATORIUM ON DATA CENTERS Enacted August 18, 2026 ... this Moratorium Ordinance shall govern and apply to all proceedings and applications for Data Centers that were or are pending before the Town at any time on or after July 14, 2026 (the “Date of Applicability”) ... This Moratorium shall remain in full force and effect for a period of 180 days from the Date of Applicability."
+        },
+        {
+          "url": "https://www.pressherald.com/2026/08/06/gray-joins-growing-list-of-towns-with-data-center-moratoriums/",
+          "title": "Gray joins growing list of towns with data center moratoriums",
+          "publisher": "Portland Press Herald",
+          "document_date": "2026-08-06",
+          "source_type": "news",
+          "supports": "Confirms the unanimous Town Council vote (public comment Aug. 4), the July 14 retroactive date, and the 180-day term.",
+          "quote": "It took less than 10 minutes of debate for the Gray Town Council to unanimously approve a temporary moratorium on the construction of data centers. ... The moratorium is retroactive to July 14 and is set to last 180 days, giving the Town Council time to develop a set of standards and regulations for the town's zoning ordinance."
+        }
+      ],
+      "notes": "The ordinance's own enactment date (Aug. 18, 2026, per the primary document) differs from the Press Herald's report of the public-comment/vote date (Aug. 4, 2026); date_enacted_iso uses the ordinance's own stated enactment date."
+    },
+    {
+      "state": "Maine",
+      "jurisdiction": "Ellsworth",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-08-17 (City Council adoption, following a public hearing)",
+      "date_enacted_iso": "2026-08-17",
+      "date_enacted_uncertainty": "exact",
+      "duration": "180 days from the effective date, per the ordinance text, running through approximately 2027-02-13; extendable",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-02-13",
+      "legal_basis": "City of Ellsworth Data Center Moratorium Ordinance, enacted pursuant to 30-A M.R.S. §§ 3001 and 4356 (Council Order #082603)",
+      "trigger": "Preemptive; the City cited a recent increase in large-scale data center development nationally and in Maine and found its Unified Development Ordinance (Chapter 56) lacks specific standards addressing data center siting, water/power use, noise, and decommissioning",
+      "trigger_categories": ["regulatory_gap", "infrastructure_capacity", "noise"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. The City Council held a public hearing and adopted the Data Center Moratorium Ordinance on 2026-08-17 by a reported 4-1 vote (per SAVRN's tracker), effective immediately for 180 days (through approximately 2027-02-13). No data center applications had been received by the city as of the public-hearing stage.",
+      "enacted_status": "active",
+      "affected_projects": "None identified; the city's communications director stated no data center construction applications had been received.",
+      "outcome": "Temporary 180-day moratorium ordinance adopted to give the Planning Board and City staff time to study data centers and develop recommendations for permanent regulation.",
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "url": "https://www.ellsworthmaine.gov/wp-content/uploads/2026/08/August-Packet.pdf",
+          "title": "City of Ellsworth August 17, 2026 Council Packet (Data Center Moratorium Ordinance, Council Order #082603)",
+          "publisher": "City of Ellsworth, Maine",
+          "document_date": "2026-08-17",
+          "source_type": "ordinance",
+          "supports": "Primary draft ordinance text prepared for the Aug. 17, 2026 Council meeting: 180-day term, 30-A M.R.S. §§ 3001/4356 authority, immediate effective date upon adoption.",
+          "quote": "TO: City Council FROM: Planning Department DATE: August 17, 2026 SUBJECT: Request to adopt a Data Center Moratorium Ordinance ... As written, this ordinance is set to last 180 days ... Effective Date and Purpose: This Moratorium Ordinance shall take effect immediately upon its adoption by the City Council and shall remain in effect for one hundred and eighty (180) days from its effective date."
+        },
+        {
+          "url": "https://www.bangordailynews.com/2026/08/13/hancock/hancock-government/ellsworth-temporary-ban-data-centers-joam40zk0w/",
+          "title": "Ellsworth weighs temporary ban on data center development",
+          "publisher": "Bangor Daily News",
+          "document_date": "2026-08-13",
+          "source_type": "news",
+          "supports": "Confirms the Council was set to vote following an Aug. 17 (Monday) public hearing, and that no applications had been received.",
+          "quote": "The Ellsworth City Council could vote on a potential moratorium on data center developments on Monday following a public hearing on the matter. The city has not received any applications to construct a data center, according to Amy Kenney, the city's communications director."
+        },
+        {
+          "url": "https://savrn.com/data-center-moratorium-tracker/maine",
+          "title": "Maine Data Center Moratorium Tracker",
+          "publisher": "SAVRN",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Independently reports the vote as 4-1 and the term as running through Feb. 13, 2027, consistent with an Aug. 17, 2026 enactment plus 180 days.",
+          "quote": "Ellsworth 2026-08 In force Local moratorium on data centers through February 13, 2027. 180-day moratorium approved 4-1; preemptive, no data center inquiries received."
+        }
+      ],
+      "notes": "ellsworthamerican.com's own article (headlined 'Ellsworth City Council approves data center moratorium') could not be fetched past a cookie/subscription wall in this pass (archived text contains only a form, no article body), so it is not cited as evidence here despite being the likely original source for the 4-1 vote count; the draft ordinance and two other independent sources corroborate the date and term."
+    },
+    {
+      "state": "Maine",
+      "jurisdiction": "Dixfield",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-09-14 (special town meeting, secret ballot vote 35-3)",
+      "date_enacted_iso": "2026-09-14",
+      "date_enacted_uncertainty": "exact",
+      "duration": "180 days, effective immediately upon the town meeting vote",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-03-13",
+      "legal_basis": "Town meeting vote (special town meeting at Ludden Memorial Library), Select Board-recommended moratorium ordinance",
+      "trigger": "Preemptive; residents raised rumors of a possible data center (including one unconfirmed rumor tied to the former Twin River Lumber site on Main Street), though the Select Board confirmed no permit applications had been filed; adopted to allow the town to gather information and develop ordinances/regulations",
+      "trigger_categories": ["regulatory_gap", "other"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. Residents voted 35-3 by secret ballot at a Sept. 14, 2026 special town meeting to enact a 180-day moratorium, effective immediately. The planning board is charged with using the term to research data centers and draft an ordinance for the Select Board's and town's later consideration.",
+      "enacted_status": "active",
+      "affected_projects": "None confirmed; Select Board member Pete Holman stated no one had requested permits for a data center, despite resident rumors.",
+      "outcome": "180-day moratorium adopted by direct town-meeting vote to allow the planning board to study data centers and develop a future ordinance.",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "url": "https://www.sunjournal.com/2026/09/15/dixfield-oks-180-day-moratorium-on-data-centers/",
+          "title": "Dixfield OKs 180-day moratorium on data centers",
+          "publisher": "Sun Journal",
+          "document_date": "2026-09-15",
+          "source_type": "news",
+          "supports": "Confirms the Sept. 14, 2026 special town meeting, the 35-3 secret-ballot vote, the 180-day term effective immediately, and that no permit applications had been filed for a data center.",
+          "quote": "DIXFIELD — After some debate and many questions, residents voted decisively Sept. 14 to enact a 180-day moratorium on data centers while town officials gather information about them. The secret ballot vote was 35-3, and the moratorium took effect immediately."
+        }
+      ]
+    },
+    {
+      "state": "Maine",
+      "jurisdiction": "Eastport",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-08-12 (City Council unanimous vote)",
+      "date_enacted_iso": "2026-08-12",
+      "date_enacted_uncertainty": "exact",
+      "duration": "180 days unless extended or terminated by the council, or until the two pending citizen-initiated data-center ordinances have been reviewed and decided, whichever occurs first",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-02-08",
+      "legal_basis": "Eastport City Council motion/ordinance (moved by Councilor Karen Raye), adopted 2026-08-12",
+      "trigger": "Specific proposed project: DeepGreen Holdings LLC's proposed underwater, tidal-powered AI data center in the Bay of Fundy/Western Passage (FERC preliminary-permit application filed February 2026), opposed by residents, the Eastport Coalition for Healthy Oceans (ECHO), and Passamaquoddy tribal officials; the moratorium gives the Council time to consult with the Planning Board on two citizen-initiated ordinances aimed at the project",
+      "trigger_categories": ["specific_project", "environmental", "legal_or_litigation"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. The City Council voted unanimously on 2026-08-12 to adopt a 180-day moratorium prohibiting any application, permit, license, or approval related to a commercial or industrial data center or AI computing facility, explicitly including land-based, underwater, and partially/fully submerged facilities, directly halting the DeepGreen underwater data center proposal. The Planning Board held a special public hearing on the related citizen-initiated ordinances on 2026-08-24; as of this pass, those ordinances (a permanent ban and a separate voter-approval requirement) remained under review, with the permanent-ban question expected before the Council at a special meeting.",
+      "enacted_status": "active",
+      "affected_projects": "DeepGreen Holdings LLC's proposed underwater AI data center in the Western Passage/Bay of Fundy off Eastport (DeepGreen Western Passage SVP), a FERC preliminary-permit applicant scaled down from an original 400-acre/51-MW/170-turbine proposal to a 27.1-acre/15-MW/16-to-34-turbine proposal as of this pass; no preliminary permit had been granted.",
+      "outcome": "180-day moratorium adopted specifically to halt the DeepGreen underwater data center proposal while the city reviews citizen-initiated ordinances that would permanently restrict or require voter approval for data center development.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.wabi.tv/2026/08/14/eastport-council-unanimously-adopts-moratorium-deepgreen-underwater-data-center-proposal/",
+          "title": "Eastport council unanimously adopts moratorium on DeepGreen underwater data center proposal",
+          "publisher": "The Maine Monitor (via WABI)",
+          "document_date": "2026-08-14",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 12, 2026 unanimous council vote, the 180-day term (or until the citizen ordinances are decided), the scope covering underwater/submerged facilities, and the DeepGreen project details.",
+          "quote": "The City Council voted unanimously Wednesday to enact a 180-day moratorium that halts all progress on a proposed underwater artificial intelligence data center planned for waters off Eastport. ... Councilor Karen Raye made a motion for the council to adopt a moratorium to temporarily prohibit any 'application, permit, license or approval related to the establishment, construction, expansion or operation of a commercial or industrial data center or artificial intelligence computing facility.' The moratorium specifies that facilities on land, underwater, partially or fully submerged, and any co-occurring infrastructure are included in the ban, which will last 180 days unless extended or terminated by the council or until the citizen-initiated ordinances have been reviewed and decided."
+        }
+      ],
+      "notes": "Distinct from the separate citizen-initiated permanent-ban and voter-approval ordinances discussed in the same reporting, which the city's legal counsel called potentially 'unenforceable and unlawful' in part; only the Council-adopted temporary moratorium described above is recorded as a new_candidate here, consistent with the project's rule that permanent bans are recorded only when framed as a moratorium themselves."
+    },
+    {
+      "state": "Maine",
+      "jurisdiction": "Warren",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-07-08 (special town meeting)",
+      "date_enacted_iso": "2026-07-08",
+      "date_enacted_uncertainty": "exact",
+      "duration": "180 days from the date of enactment; the Select Board may extend for additional 180-day periods after notice and public hearing under 30-A M.R.S.A. § 4356(2)-(3)",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-01-04",
+      "legal_basis": "Town of Warren Moratorium on Data Center and Data Center Accessory Development, adopted by special town meeting vote 2026-07-08 pursuant to 30-A M.R.S.A. § 4356",
+      "trigger": "Preemptive; the town cited the absence of specific data center standards in its Land Use Ordinance/Comprehensive Plan, the experience of Wiscasset and Lewiston with inadequate regulatory frameworks, and a desire to protect the Georges River watershed and electrical infrastructure",
+      "trigger_categories": ["regulatory_gap", "water", "grid_energy", "agricultural_preservation"],
+      "sectors": ["data_center", "battery_storage"],
+      "current_status": "Active as of 2026-09-23. Voters approved the moratorium in near-unanimous fashion (per SAVRN, roughly 60 residents attended, nearly double normal turnout) at a special town meeting on 2026-07-08, prohibiting Data Center and Data Center Accessory Use (including battery energy storage systems as an accessory use) townwide for 180 days from enactment, renewable in further 180-day increments. No data center applications had been filed in Warren.",
+      "enacted_status": "active",
+      "affected_projects": "None identified; adopted preemptively.",
+      "outcome": "180-day moratorium on data centers and accessory uses (including BESS, substations, cooling towers, and on-site generation accessory to a data center) adopted by town meeting vote to allow the town to develop permanent land use regulations.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://warrenmaine.org/vertical/sites/%7BD9FADE7C-8E80-4B50-BF17-C27AAF9FCBCB%7D/uploads/MORATORIUM_ORDINANCE_DATA_CTR_7_8_26.pdf",
+          "title": "Town of Warren Moratorium on Data Center and Data Center Accessory Development",
+          "publisher": "Town of Warren, Maine",
+          "document_date": "2026-07-08",
+          "source_type": "ordinance",
+          "supports": "Primary ordinance text: 30-A M.R.S.A. § 4356 authority, definitions (including Data Center Accessory Use covering battery energy storage systems), 180-day term from date of enactment, and Select Board's authority to extend in further 180-day increments.",
+          "quote": "This Moratorium shall be effective for a period of one hundred eighty (180) days from its date of enactment. In accordance with 30-A M.R.S.A. §4356(2) and (3), the Select Board may extend this Moratorium for additional periods of up to one hundred eighty (180) days each, after notice and public hearing ... 'Data Center Accessory Use' means any use or structure that is secondary and incidental to a Data Center, including but not limited to: electrical substations; generators; cooling towers; water storage, treatment, or pumping facilities; wastewater treatment facilities; battery energy storage systems; on-site power generation facilities; security structures; and administrative buildings associated with data center operations."
+        },
+        {
+          "url": "https://savrn.com/data-center-moratorium-tracker/maine",
+          "title": "Maine Data Center Moratorium Tracker",
+          "publisher": "SAVRN",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Independently confirms the near-unanimous July 8, 2026 special town meeting vote, turnout of about 60 residents, and that the moratorium is renewable in 180-day increments with no pending applications.",
+          "quote": "Town of Warren (180-day data center moratorium) 2026-07 In force ... A special town meeting approved a 180-day data center moratorium in near-unanimous fashion, with about 60 residents attending -- nearly double normal turnout -- and the moratorium is renewable in further 180-day increments. No data center applications have been filed in Warren."
+        }
+      ],
+      "notes": "midcoastvillager.com's own reporting on the July 8 vote and the preceding March 27 Select Board decision to schedule it could not be fetched past a cookie/subscription wall in this pass; the primary ordinance document and SAVRN's independent tracker entry are used instead."
+    },
+    {
+      "state": "Maine",
+      "jurisdiction": "Peru",
+      "jurisdiction_type": "Town",
+      "date_enacted": "",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed 180-day moratorium on the development and permitting of data centers, to take effect immediately if approved by voters",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "current_end_date_iso": "",
+      "legal_basis": "Not yet enacted; to be decided by townwide referendum vote on 2026-11-03",
+      "trigger": "Preemptive; Select Board Chair Gail Belyea confirmed that as of 2026-09-15 no one has proposed building a data center in the town; the moratorium would give the Select Board and planning board time to study impacts on water use, electrical grid capacity, noise, and environmental/government resources",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Pending as of 2026-09-23. Peru voters will decide on Nov. 3, 2026 whether to approve a 180-day moratorium on data center development and permitting; if passed, it would take effect immediately. No data center has been proposed in the town.",
+      "enacted_status": "pending",
+      "affected_projects": "None; no data center proposed in the town as of the reporting reviewed.",
+      "outcome": "Proposed moratorium placed on the November 2026 town ballot; not yet adopted.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.sunjournal.com/2026/09/22/peru-to-vote-on-data-center-moratorium-in-november/",
+          "title": "Peru to vote on data center moratorium in November",
+          "publisher": "Sun Journal",
+          "document_date": "2026-09-22",
+          "source_type": "news",
+          "supports": "Confirms the Nov. 3, 2026 ballot vote on a proposed 180-day moratorium, immediate effect if passed, and that no data center has been proposed.",
+          "quote": "PERU — Peru voters will decide in November on a proposed 180-day moratorium on the development and permitting of data centers. ... Select Board Chair Gail Belyea said that as of Sept. 15, no one has proposed building a data center in the town. If passed Nov. 3, the moratorium would be effective immediately."
+        }
+      ]
+    },
+    {
+      "state": "Maine",
+      "jurisdiction": "Bethel",
+      "jurisdiction_type": "Town",
+      "date_enacted": "",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed 180-day moratorium on data centers; not yet adopted as of 2026-09-23",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "current_end_date_iso": "",
+      "legal_basis": "Not yet enacted; a public hearing on the proposed 180-day moratorium was scheduled for 2026-09-30",
+      "trigger": "Preemptive, per regional reporting on the wave of Maine municipal data-center moratoriums following the governor's veto of a statewide pause",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Pending as of 2026-09-23. The Town of Bethel scheduled a public hearing for 2026-09-30 to take comments on a proposed 180-day moratorium on data centers. Bangor Daily News (2026-08-17) had separately reported that Bethel's select board voted to put a data-center-ban question to voters in November; the town's own notice describes a public hearing process rather than a ballot question, so it is unclear from sources reviewed whether the moratorium will be decided by the Select Board directly or by referendum. No adoption had occurred as of this pass.",
+      "enacted_status": "pending",
+      "affected_projects": "Not identified in sources reviewed.",
+      "outcome": "Proposed 180-day moratorium; public hearing scheduled for 2026-09-30; not yet adopted.",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://bethelmaine.org/news/public-hearing-on-september-30-2026",
+          "title": "Public Hearing",
+          "publisher": "Town of Bethel, Maine",
+          "document_date": "2026-09-17",
+          "source_type": "agenda",
+          "supports": "Confirms a Sept. 30, 2026 public hearing on a proposed 180-day data center moratorium.",
+          "quote": "The Town of Bethel has scheduled a Public Hearing to take questions and comments concerning the 180-day moratorium on Data Centers on Wednesday, September 30, 2026, at 6:00pm in the Bethel Town Office meeting room at 19 Main Street."
+        },
+        {
+          "url": "https://www.bangordailynews.com/2026/08/17/politics/state-politics/small-maine-towns-weighing-data-center-bans-joam40zk0w/",
+          "title": "Even small Maine towns are weighing data center bans",
+          "publisher": "Bangor Daily News",
+          "document_date": "2026-08-17",
+          "source_type": "news",
+          "supports": "Reports that Bethel's select board voted to put a temporary data-center-ban question to voters in November 2026.",
+          "quote": "Bethel, a growing regional hub in western Maine's mountains, will also vote on whether to pass a temporary ban on data center development. Its select board voted last month to put the question on the town's ballot in November."
+        }
+      ],
+      "notes": "Confidence is capped at moderate given the apparent discrepancy between BDN's 'ballot question in November' framing and the town's own Sept. 30 public-hearing notice; a future pass should confirm which process governs and whether the moratorium has been adopted."
+    },
+    {
+      "state": "Maine",
+      "jurisdiction": "Dover-Foxcroft",
+      "jurisdiction_type": "Town",
+      "date_enacted": "",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed six-month (180-day) ban on large-scale data center development; extendable beyond six months",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "current_end_date_iso": "",
+      "legal_basis": "Not yet enacted as of 2026-09-23; drafted with assistance from Maine Conservation Voters and pushed by Carole Boothroyd, chair of the town's Climate Action Advisory Committee",
+      "trigger": "Preemptive; Select Board Chair Stephen Grammont said the town is unlikely to attract a data center given limited infrastructure, but cited concern about developers surprising towns with projects (as happened in Jay), and said the ban would give the town cover while the state's Data Center Advisory Council studies regulation",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Pending as of 2026-09-23. Per Bangor Daily News (2026-09-21), the Select Board was 'on track to pass a six-month ban on large-scale data center development by the end of September' 2026, but no vote had been confirmed as of this pass.",
+      "enacted_status": "pending",
+      "affected_projects": "None; no data center proposed in the town.",
+      "outcome": "Proposed six-month ban on large-scale data center development, drafted with support from an environmental advocacy group; Select Board vote expected by the end of September 2026 but not confirmed as of this pass.",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://www.bangordailynews.com/2026/09/21/politics/state-politics/dover-foxcroft-data-center-ban-joam40zk0w/",
+          "title": "Why this conservative Maine town is trying to ban data centers",
+          "publisher": "Bangor Daily News",
+          "document_date": "2026-09-21",
+          "source_type": "news",
+          "supports": "Confirms the Select Board is on track to pass a six-month ban by the end of September 2026, drafted with Maine Conservation Voters' assistance, and that it could be extended beyond six months.",
+          "quote": "But with support from a statewide environmental group, the rural community's Select Board is on track to pass a six-month ban on large-scale data center development by the end of September. ... Boothroyd and Somers said Dover-Foxcroft's proposed ban, which could be extended beyond six months, is meant to give the town cover while the state's Data Center Advisory Council studies ways to regulate the projects."
+        }
+      ],
+      "notes": "A future pass after Sept. 30, 2026 should confirm whether the Select Board adopted the moratorium as expected."
+    }
+  ]
+}

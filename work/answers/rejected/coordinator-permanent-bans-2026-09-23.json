@@ -1,0 +1,235 @@
+{
+ "coordinator": "Claude Fable 5.1 coordinator",
+ "researched_as_of": "2026-09-23",
+ "reason": "Permanent bans or ban proposals, not temporary pauses; excluded per codebook scope (see docs/codebook.md, 'What counts as a moratorium').",
+ "removed": [
+  {
+   "state": "Idaho",
+   "jurisdiction": "Sandpoint",
+   "jurisdiction_type": "City",
+   "date_enacted": "2026-09-16 (City Council adopted a zoning code amendment prohibiting large data centers)",
+   "date_enacted_iso": "2026-09-16",
+   "date_enacted_uncertainty": "exact",
+   "duration": "Permanent zoning code amendment (not a fixed-term pause), prohibiting standalone data centers larger than 5,000 square feet citywide. Followed a City Council directive to staff on 2026-07-15 to draft the ban; the Planning and Zoning Commission unanimously rejected an initial draft on 2026-08-18 over definitional concerns and referred it back to Council, which then adopted a revised amendment on 2026-09-16.",
+   "duration_days": null,
+   "duration_kind": "indefinite",
+   "current_end_date_iso": "",
+   "legal_basis": "Zoning code amendment adopted by the Sandpoint City Council on 2026-09-16, prohibiting data centers exceeding 5,000 square feet as a land use (previously permitted, without a specific definition, in the city's Industrial Technology Park zoning district).",
+   "trigger": "Councilor Pam Duquette discovered that Sandpoint's Industrial zoning code specifically permitted data centers in the Industrial Technology Park district (roughly 19 parcels east of the airport) and sought to preemptively close that door before any developer applied, citing electricity and water demand; a concurrent state law (Idaho HB 895) newly requires closed-loop cooling for data centers statewide.",
+   "trigger_categories": [
+    "regulatory_gap",
+    "grid_energy",
+    "water",
+    "land_use_compatibility"
+   ],
+   "sectors": [
+    "data_center"
+   ],
+   "current_status": "Active as of 2026-09-23 (permanent). Sandpoint's zoning code now prohibits standalone data centers larger than 5,000 square feet within city limits. City Planner Bill Dean and commissioners noted the size/land constraints of the city's only eligible industrial zone would have precluded a large ('hyperscale') facility from being built in the city regardless; the ban is aimed at foreclosing any use of the Industrial Technology Park district for a data center as that zone is redeveloped. No data center had been proposed in Sandpoint at any point in this process.",
+   "enacted_status": "active",
+   "affected_projects": "None named; no data center had been proposed within Sandpoint city limits at any point in this process.",
+   "outcome": "City Council adopted a zoning amendment permanently prohibiting data centers over 5,000 square feet within city limits.",
+   "confidence": 0.8,
+   "evidence": [
+    {
+     "url": "https://bonnercountydailybee.com/news/2026/sep/18/council-approves-data-center-ban/",
+     "title": "Council approves data center ban",
+     "publisher": "Bonner County Daily Bee",
+     "document_date": "2026-09-18",
+     "source_type": "news",
+     "supports": "Confirms City Council's approval (Wednesday, i.e. 2026-09-16) of the amendment banning data centers over 5,000 square feet, and summarizes the public hearing debate.",
+     "quote": "The Sandpoint City Council approved an amendment to prohibit large data centers over 5,000 square feet in the city Wednesday. The decision follows direction given by the council to city staff July 15 to define and bring forward an appropriate code to prohibit larger scale AI data centers..."
+    },
+    {
+     "url": "https://sandpointreader.com/sandpoint-pz-rejects-draft-data-center-ban/",
+     "title": "Sandpoint P&Z rejects draft data center ban",
+     "publisher": "Sandpoint Reader",
+     "document_date": "2026-08-20",
+     "source_type": "news",
+     "supports": "Confirms the July 15, 2026 Council directive to staff to draft the ban, and the Planning & Zoning Commission's unanimous August 18, 2026 vote to deny the initial draft and refer it back to Council, establishing the sequence culminating in the September 16 adoption.",
+     "quote": "Sandpoint Planning and Zoning commissioners voted unanimously Aug. 18 to deny a draft ordinance regulating data centers, referring the issue back to City Council. ... The Sandpoint City Council directed staff at its July 15 meeting to propose a definition of 'data center' so the term could be incorporated into an ordinance that would ban them from within city limits."
+    },
+    {
+     "url": "https://sandpointreader.com/sandpoint-looking-to-ban-data-centers-within-city-limits/",
+     "title": "Sandpoint looking to ban data centers within city limits",
+     "publisher": "Sandpoint Reader",
+     "document_date": "2026-07",
+     "source_type": "news",
+     "supports": "Original report on the July 15, 2026 Council vote directing staff to draft the ban and background on the zoning loophole it was meant to close.",
+     "quote": "City Council members voted unanimously at their July 15 meeting to direct staff to propose a definition of \"data center\" so that the term can be applied to a future ordinance that would ban that type of development within city limits."
+    }
+   ],
+   "notes": "Recorded as a permanent prohibition ('active'/indefinite), consistent with how this inventory already tracks other adopted permanent data-center bans; not a fixed-term moratorium. No jurisdiction disambiguation needed; Sandpoint is not currently in the Idaho inventory. Separately, Coeur d'Alene's City Council (Kootenai County) unanimously passed a non-binding announcement on 2026-08-05 that it would not approve data center proposals 'until further analysis, study, and policy review,' but city officials explicitly stated any actual proposal would still go through normal due process -- this was treated as political messaging rather than a legal permitting pause and is NOT included as a candidate here; the coordinator may wish to revisit if Coeur d'Alene later adopts a binding measure (evidence not archived, since not used to support a decision).",
+   "_source_file": "ID.json"
+  },
+  {
+   "state": "Hawaii",
+   "jurisdiction": "Hawaii County",
+   "jurisdiction_type": "County",
+   "date_enacted": "",
+   "date_enacted_iso": "",
+   "date_enacted_uncertainty": "unverified",
+   "duration": "Proposed permanent zoning-code clarification (Bill 170) confirming that industrial-scale data centers are not a permitted use anywhere in Hawaii County (not a fixed-term pause). Introduced by Hamakua Councilmember Heather Kimball; the Council's Policy Committee on Planning, Land Use, and Economic Development voted unanimously on 2026-07-08 to forward it to the county's Windward and Leeward Planning Commissions for review. The Windward Planning Commission voted 4-0 on 2026-09-03 to defer action to its next meeting (2026-10-01); the Leeward Planning Commission's next meeting is 2026-10-15. Both commissions have until 2026-11-04 to forward a recommendation to the full Council (silence counts as a negative recommendation); no final Council vote had occurred as of 2026-09-23.",
+   "duration_days": null,
+   "duration_kind": "indefinite",
+   "current_end_date_iso": "",
+   "legal_basis": "Bill 170 (Hawaii County), introduced by Councilmember Heather Kimball; would add a zoning-code definition of 'data center' distinct from the existing, already-permitted 'data processing facility' definition, making explicit that data centers are excluded from the uses permitted under Hawaii County Code Section 25-4-4 (industrial-commercial mixed-use district). Not yet enacted.",
+   "trigger": "Councilmember Kimball cited industry statements of an intent to build roughly 3,000 U.S. data centers by decade's end, including 'in every state,' and sought to close a perceived zoning loophole (the 'campusing loophole,' i.e., splitting a large facility across adjacent parcels to evade review) before any developer files a permit application; Hawaii County's Planning Director stated he was not aware of any pending data center permit application, only informal inquiries. More than 40 pieces of testimony were submitted, mostly in favor, citing water and electricity costs, noise, and grid-capacity concerns on an isolated island system.",
+   "trigger_categories": [
+    "regulatory_gap",
+    "water",
+    "grid_energy",
+    "noise",
+    "land_use_compatibility"
+   ],
+   "sectors": [
+    "data_center"
+   ],
+   "current_status": "Pending as of 2026-09-23. Bill 170 would amend Hawaii County's zoning code to distinguish 'data centers' (industrial-scale AI/computing facilities) from already-permitted 'data processing facilities,' making explicit that data centers are not a permitted use anywhere in the county absent a further state or county land-use change; existing university (UH Hilo) and telecom (Hawaiian Telcom, Kawaihae) data facilities are exempted/grandfathered. The Council committee forwarded the bill unanimously on 2026-07-08 for planning-commission review. The Windward Planning Commission deferred action 4-0 on 2026-09-03 to its 2026-10-01 meeting; the Leeward Planning Commission's next hearing is 2026-10-15; both commissions must report to the full Council by 2026-11-04. County Planning Director Jeff Darrow has instead proposed allowing data centers under 10,000 sq ft (or an electricity-use threshold) by right in the general industrial district, with larger facilities requiring a discretionary use permit, rather than an outright ban -- an alternative the commissions are weighing alongside Kimball's bill.",
+   "enacted_status": "pending",
+   "affected_projects": "None named; Hawaii County's Planning Director stated no data center permit application has been filed, only informal developer inquiries.",
+   "outcome": "County Council committee forwarded a bill to clarify/confirm that data centers are not a permitted zoning use; still under Planning Commission review as of this pass, with a Council decision not expected before November 2026.",
+   "confidence": 0.6,
+   "evidence": [
+    {
+     "url": "https://www.bigislandvideonews.com/2026/07/08/hawai%CA%BBi-county-council-forwards-data-center-bill-to-planning-commissions/",
+     "title": "Hawai'i County Council Forwards Data Center Bill To Planning Commissions",
+     "publisher": "Big Island Video News",
+     "document_date": "2026-07-08",
+     "source_type": "news",
+     "supports": "Confirms the July 8, 2026 unanimous committee vote forwarding Bill 170, the bill's purpose (clarifying that data centers are not a permitted use under County Code Section 25-4-4), and that no data center permit application had been filed.",
+     "quote": "The Council Policy Committee on Planning, Land Use, and Economic Development voted to forward Bill 170 to the Hawai'i County planning commissions... Bill 170 aims to distinguish data processing facilities, which are permitted in industrial-commercial mixed-use zoning districts, from data centers, which are not permitted in the County pursuant to Section 25-4-4 of the Hawai'i County Code."
+    },
+    {
+     "url": "https://www.govtech.com/artificial-intelligence/hawaii-county-defers-ai-data-center-ban-until-october",
+     "title": "Hawaii County Defers AI Data Center Ban Until October",
+     "publisher": "Government Technology (via Honolulu Star-Advertiser/Tribune Content Agency)",
+     "document_date": "2026-09-09",
+     "source_type": "news",
+     "supports": "Confirms the Windward Planning Commission's 4-0 vote on September 3, 2026 to defer action to October 1, 2026; the Leeward Planning Commission's October 15, 2026 meeting date; the November 4, 2026 deadline for the commissions to report to Council; and the Planning Director's alternative size/permit-threshold proposal.",
+     "quote": "The Windward Planning Commission on Hawaii island has deferred action until October on a bill intended to ban artificial intelligence data centers. ... The commissions have until Nov. 4 to forward a recommendation to the Council. If they fail to do so, it will be considered a negative recommendation. The next Windward Planning Commission meeting is Oct. 1. The next Leeward Planning Commission meeting is Oct. 15."
+    },
+    {
+     "url": "https://www.hawaiipublicradio.org/local-news/2026-07-08/hawaii-county-moves-to-block-data-centers",
+     "title": "Hawai'i County moves to block data centers",
+     "publisher": "Hawai'i Public Radio",
+     "document_date": "2026-07-08",
+     "source_type": "news",
+     "supports": "Independent confirmation of the bill's mechanics, the exemption for UH Hilo's and Hawaiian Telcom's existing facilities, and the Planning Director's statement that only informal inquiries (no formal permit request) had been received.",
+     "quote": "The bill states that data centers \"are not a permitted use in the County.\" ... Hawai'i County Planning Director Jeff Darrow told council members that he was not aware of any formal data center permitting requests, though he noted that there had been inquiries about the process. \"As of this point, there's only been talk,\" he said."
+    }
+   ],
+   "notes": "This is a proposed PERMANENT zoning clarification/prohibition, not a fixed-term pause; recorded as 'pending' consistent with how this inventory already treats other not-yet-adopted permanent prohibition proposals (e.g., the Perris, CA candidate in work/answers/full/CA.json). The bill's own text frames it as confirming an existing default prohibition (unlisted uses are unpermitted under County Code) rather than creating a new one, so it is a borderline case; it is included because press coverage, testimony, and the coordinating council office all frame it squarely as the county's answer to the national data-center-moratorium wave, and it is working through a live legislative process with a defined near-term timeline (commissions report to Council by 2026-11-04). No other Hawaii jurisdiction (Honolulu, Maui, Kauai) or sector (battery storage, solar, wind, cryptocurrency mining) turned up any enacted or proposed moratorium in this pass; see final report for queries run.",
+   "_source_file": "HI.json"
+  },
+  {
+   "state": "Arizona",
+   "jurisdiction": "Flagstaff",
+   "jurisdiction_type": "City",
+   "date_enacted": "",
+   "date_enacted_iso": "",
+   "date_enacted_uncertainty": "unverified",
+   "duration": "Proposed permanent citywide prohibition on data centers as a primary land use in any zoning category (not a fixed-term pause). The Planning and Zoning Commission narrowly endorsed the ban proposal 4-3 (with one abstention counted as an affirmative vote under the city charter) at its March 25, 2026 meeting, alongside a competing, staff-recommended conditional-use-permit (CUP) alternative. The City Council was originally scheduled to vote May 5, 2026, but on 2026-05-05 postponed the item indefinitely 'until later this year' for a 'comprehensive evaluation'; no new hearing or vote date had been set as of 2026-09-23.",
+   "duration_days": null,
+   "duration_kind": "indefinite",
+   "current_end_date_iso": "",
+   "legal_basis": "Draft zoning code text amendment (two competing versions: an outright prohibition and a conditional-use-permit requirement) recommended for Council consideration by the Flagstaff Planning and Zoning Commission on 2026-03-25; no ordinance number exists because neither version has been adopted by the City Council.",
+   "trigger": "City staff identified the absence of any zoning-code definition or regulation of data centers as a 'hole' to be addressed proactively; public concern (including a March 2026 NAU panel on data centers on Southwest Native lands, and a separate contested data center proposal north of Flagstaff near Page) focused on electricity and water demand and noise, even though no developer has yet proposed building a data center within Flagstaff city limits.",
+   "trigger_categories": [
+    "regulatory_gap",
+    "grid_energy",
+    "water",
+    "noise",
+    "land_use_compatibility"
+   ],
+   "sectors": [
+    "data_center"
+   ],
+   "current_status": "Pending as of 2026-09-23. Flagstaff's zoning code does not currently mention or regulate data centers. City staff proposed a conditional-use-permit process; the Planning and Zoning Commission instead narrowly endorsed (4-3, one abstention counted affirmative) a competing draft that would prohibit data centers outright as a primary use in any zoning category, at its March 25, 2026 meeting. The City Council, not bound by the commission's recommendation, twice postponed considering either version (from April 7 to May 5, then indefinitely on 2026-05-05), with the zoning code manager citing insufficient public engagement on the ban-focused draft and stating the item would return to the Planning and Zoning Commission and to Council 'later this year' after a 'comprehensive evaluation.' No developer has proposed building a data center within Flagstaff city limits as of this pass; a separate, unrelated data center proposal near Page (north of Flagstaff, outside city jurisdiction) has drawn local political controversy.",
+   "enacted_status": "pending",
+   "affected_projects": "None named; city officials repeatedly stated no developer has proposed a data center within Flagstaff city limits, and note the city currently has no parcels large enough to accommodate a 'hyperscale' facility.",
+   "outcome": "Planning and Zoning Commission recommended a citywide data center ban (March 2026); City Council indefinitely postponed a decision between that ban and a staff-recommended conditional-use-permit alternative (May 2026); no Council vote has occurred as of this pass.",
+   "confidence": 0.55,
+   "evidence": [
+    {
+     "url": "https://azdailysun.com/news/local/business/development/flagstaff-s-planning-and-zoning-commission-endorses-data-center-ban-in-split-decision/article_1e437b68-57c1-4baa-8fd2-ce1e70ec5655.html",
+     "title": "Flagstaff's Planning and Zoning Commission endorses data center ban in split decision",
+     "publisher": "Arizona Daily Sun",
+     "document_date": "2026-04-07",
+     "source_type": "news",
+     "supports": "Confirms the March 25, 2026 4-3 Planning and Zoning Commission vote (with an abstention counted as affirmative under city charter rules) endorsing an outright ban on data centers as a primary land use, versus a staff-recommended CUP alternative; confirms the City Council is not bound by the recommendation and had a vote scheduled for early May.",
+     "quote": "The Flagstaff Planning and Zoning Commission narrowly endorsed a proposal to ban data centers within the city in a 4-3 vote last week, setting the stage for what could be a contentious Flagstaff City Council discussion and vote in early May. ... Mandino's abstention thus tipped the balance in favor of recommending a blanket prohibition on data centers as a primary land use in any zoning category."
+    },
+    {
+     "url": "https://azdailysun.com/news/local/flagstaff-city-council-again-delays-decision-on-data-center-regulations/article_dbfa8e57-87e3-4034-aa05-d8768021bc7f.html",
+     "title": "Flagstaff City Council again delays decision on data center regulations",
+     "publisher": "Arizona Daily Sun",
+     "document_date": "2026-05-10",
+     "source_type": "news",
+     "supports": "Confirms the Council indefinitely postponed its May 5, 2026 vote on both the ban and CUP proposals, with no new date set, and quotes the zoning code manager on why (insufficient public engagement on the ban-focused draft) and staff's plan to bring it back to the Planning and Zoning Commission and Council 'later this year.'",
+     "quote": "First it was April, then it was May, now it's unknown. After postponing the date of a vote on potential data center development restrictions by a month, the Flagstaff City Council agreed this week to further postpone any decision, without establishing a definite timeline. ... The council's agenda for the evening noted that the item will return 'later this year.'"
+    },
+    {
+     "url": "https://azbex.com/local-news/flagstaff-planning-and-zoning-commission-moves-forward-with-data-center-ban/",
+     "title": "Flagstaff Planning and Zoning Commission Moves Forward with Data Center Ban",
+     "publisher": "AZBEX",
+     "document_date": "2026-04-10",
+     "source_type": "news",
+     "supports": "Independent trade-press corroboration of the Planning and Zoning Commission's recommendation to ban data center development.",
+     "quote": "The Flagstaff Planning and Zoning Commission recommended approval of a proposal to ban data center development on a 4-3 vote during its recent meeting."
+    }
+   ],
+   "notes": "Recorded as 'pending' consistent with how this inventory treats other not-yet-adopted permanent prohibition proposals (e.g., the Perris, CA candidate in work/answers/full/CA.json). No confirmation found that the item has returned to Council as of 2026-09-23; a follow-up search for 'Flagstaff data center council September 2026' returned only the same spring/summer coverage and an unrelated Flagstaff building/energy/wildfire code item (2026-09-14), suggesting the data center item was still pending as of the research date. If the Council later adopts either version, note the CUP alternative (permanent, non-prohibitive regulation) would not itself constitute a moratorium row; only the outright-ban version would be the relevant instrument, and only once adopted.",
+   "_source_file": "AZ.json"
+  },
+  {
+   "state": "California",
+   "jurisdiction": "Perris",
+   "jurisdiction_type": "City",
+   "date_enacted": "",
+   "date_enacted_uncertainty": "unverified",
+   "duration": "Proposed permanent citywide prohibition on data centers (not a fixed-term pause); Planning Commission recommended the Council adopt the ban at a meeting held Wednesday, 2026-09-16 (reported 2026-09-17); no Council adoption vote confirmed as of 2026-09-23.",
+   "duration_days": null,
+   "duration_kind": "indefinite",
+   "current_end_date_iso": "",
+   "legal_basis": "Draft ordinance to prohibit data centers citywide; City Council directed planning staff to draft the ordinance on 2026-06-10 (unanimous vote), following which the Planning Commission reviewed and recommended it on 2026-09-16/17; no ordinance number exists because it has not yet been adopted.",
+   "trigger": "Regional wave of Southern California data center bans/moratoria; concerns over electricity (up to 100 MW) and water demand (200,000 gallons to several million gallons/day) of large-scale facilities; resident opposition to a proposed 'edge data center' at the state-owned Southern California Fair and Events Center near Lake Perris (Global Stack).",
+   "trigger_categories": [
+    "regulatory_gap",
+    "water",
+    "grid_energy",
+    "specific_project"
+   ],
+   "sectors": [
+    "data_center"
+   ],
+   "current_status": "Pending as of 2026-09-23. On 2026-06-10 the City Council voted unanimously to direct planning staff to draft an ordinance banning data centers citywide, following which Councilwoman Marisela Nava referred the proposal to the Planning Commission for review. The Planning Commission recommended the Council adopt a citywide ban at its meeting reported 2026-09-17, urging clear definitions of data center size and environmental impacts; no data center is currently proposed within Perris city limits, though residents separately oppose a proposed Global Stack 'edge data center' at the adjacent, state-owned fairgrounds (outside city jurisdiction). No final City Council vote on the ban ordinance had occurred as of this pass; press coverage describes Perris as poised to become 'the fourth California city -- after Monterey Park, Coachella and Calexico -- to ban data centers.'",
+   "enacted_status": "pending",
+   "affected_projects": "No data center currently proposed within Perris city limits; a separate Global Stack 'edge data center' proposal at the state-owned fairgrounds near Lake Perris is not subject to city jurisdiction.",
+   "outcome": "City Council directed staff to draft a permanent citywide data-center ban (June 2026); Planning Commission recommended adoption (September 2026); final Council vote pending as of this pass.",
+   "confidence": 0.7,
+   "evidence": [
+    {
+     "url": "https://kvcr.org/news/local/2026-06-10/perris-takes-first-step-toward-citywide-data-center-ban",
+     "title": "Perris takes first step toward citywide data center ban",
+     "publisher": "KVCR News",
+     "document_date": "2026-06-10",
+     "source_type": "news",
+     "supports": "Confirms the unanimous June 10, 2026 Council vote directing staff to draft a citywide ban ordinance and referring it to the Planning Commission.",
+     "quote": "Perris' City Council voted on Tuesday night to direct planning staff to draft an ordinance to ban data centers citywide. ... Ultimately, the council voted unanimously to direct staff to pursue a citywide ban."
+    },
+    {
+     "url": "https://www.kvcrnews.org/local-news/2026-09-17/perris-planning-commission-recommends-data-center-ban-as-residents-oppose-state-fairgrounds-project",
+     "title": "Perris planning commission recommends data center ban as residents oppose state fairgrounds project",
+     "publisher": "KVCR News",
+     "document_date": "2026-09-17",
+     "source_type": "news",
+     "supports": "Confirms the Planning Commission's recommendation (meeting Wednesday, Sept. 16, 2026) that the Council adopt a citywide ban, and that no final Council vote had occurred; describes Perris as potentially the fourth California city to ban data centers.",
+     "quote": "The City of Perris' planning commission is recommending a citywide ban on data centers. ... Perris could become the fourth California city -- after Monterey Park, Coachella and Calexico -- to ban data centers."
+    }
+   ],
+   "notes": "This is a proposed PERMANENT prohibition rather than a temporary pause, recorded here as 'pending' consistent with how this inventory already tracks other not-yet-adopted California prohibition proposals (e.g., ca-calipatria-undated, ca-irwindale-undated before its Sept. 2026 adoption). If the Council later adopts the ban, the coordinator should promote this to 'active'/'replaced' with an instrument number.",
+   "_source_file": "CA.json"
+  }
+ ]
+}

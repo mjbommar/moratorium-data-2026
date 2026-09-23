@@ -1,0 +1,153 @@
+{
+  "state_abbrev": "UT",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "ut-grand-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Grand County's own signed, approved July 7, 2026 Commission meeting minutes (posted to the Utah Public Notice Website) confirm the unanimous adoption at that meeting."
+        },
+        "legal_basis": {
+          "from": "Temporary land use regulation approved by County Commission 7-0 vote; a separate adopted ordinance PDF was not located as of compilation",
+          "to": "Item 15, 'Ordinance - Temporary land use regulation - Data Centers,' approved 7-0 (Commissioner Bill Winfield's motion seconded, all present commissioners voting yes) at the Grand County Commission's July 7, 2026 regular meeting, per the county's own signed meeting minutes; pauses acceptance and processing of applications, permits, and licenses for data centers, data center power plants, and associated digital infrastructure for up to 180 days. County staff refer to the instrument as a 'temporary land use regulation' rather than 'moratorium' on the advice of the county's land-use attorney, though it functions as a moratorium. No separately numbered ordinance document (e.g., 'Ordinance No. ___') was found; the minutes themselves are the primary record of adoption.",
+          "reason": "Confirms the vote, its unanimity, the motion language, and the 180-day cap directly from the county's own signed minutes, resolving the prior news-only sourcing."
+        },
+        "current_status": {
+          "from": "Reported active as of 2026-07-31, per the official meeting portal and independent news coverage; formal ordinance text not located as of compilation. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Confirmed via Grand County's own signed July 7, 2026 Commission meeting minutes: the Commission voted 7-0 to adopt the ordinance/temporary land use regulation pausing acceptance and processing of data center, data center power plant, and associated digital infrastructure applications for up to 180 days (through approximately January 3, 2027), effective immediately. Staff described it as 'not a ban' and confirmed no data center applications were pending at adoption. No extension, replacement, or rescission was found in sources reviewed through 2026-09-23. A distinct, unrelated moratorium reported by SkyHiNews.com running through June 2027 refers to Grand County, Colorado, not this Grand County, Utah row.",
+          "reason": "Resolves the VERIFY marker with the county's own primary-source minutes rather than news-only evidence, and flags a same-name jurisdiction in a different state that could otherwise cause confusion."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "resolution": "corrected",
+          "note": "Located and read Grand County's own signed, approved minutes for the July 7, 2026 Commission meeting (posted on the state's Public Meeting Notice website), which record item 15, 'Ordinance - Temporary land use regulation - Data Centers,' passing 7-0. No separately numbered ordinance document was found beyond the minutes themselves, so a distinct 'instrument number' remains unconfirmed, but the substantive VERIFY concern (that the adoption rested only on news coverage) is resolved by this primary source."
+        }
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.utah.gov/pmn/files/1483571.pdf",
+          "title": "Grand County Commission Regular Meeting Minutes, July 7, 2026 (approved and signed)",
+          "publisher": "Grand County, Utah (via Utah Public Notice Website)",
+          "document_date": "2026-07-07",
+          "source_type": "minutes",
+          "supports": "Official signed minutes recording the 7-0 vote adopting the 'Ordinance - Temporary land use regulation - Data Centers,' pausing acceptance and processing of applications for data centers, data center power plants, and associated digital infrastructure for up to 180 days, effective immediately.",
+          "quote": "15. Ordinance - Temporary land use regulation - Data Centers (Planning and Zoning Director Andrew Jackson) ... Motion by Commissioner McGann to approve the Ordinance pausing the County's acceptance and processing of applications for data centers, data center power plants, and associated digital infrastructure for up to 180 days. Motion seconded by Commissioner Winfield ... Motion passes 7-0"
+        },
+        {
+          "url": "https://www.moabtimes.com/articles/grand-county-pauses-data-center-applications-to-develop-new-land-use-rules/",
+          "title": "Grand County pauses data center applications to develop new land-use rules",
+          "publisher": "Moab Times-Independent",
+          "document_date": "2026-07",
+          "source_type": "news",
+          "supports": "Corroborates the unanimous July 7, 2026 adoption of the 180-day pause, that no data center applications were pending, and county staff's characterization of the action as 'a limited, time-bounded pause' and 'not a ban.'",
+          "quote": "The Grand County Commission unanimously approved the 180-day temporary land use regulation July 7, giving the county time to develop standards for data center development, a type of use not currently defined or regulated in the county's Land Use Code."
+        },
+        {
+          "url": "https://www.utah.gov/pmn/sitemap/notice/1093241.html",
+          "title": "Grand County Commission - Regular Meeting, July 7, 2026 (public notice)",
+          "publisher": "Grand County, Utah (via Utah Public Notice Website)",
+          "document_date": "2026-07-02",
+          "source_type": "agenda",
+          "supports": "Official meeting notice listing agenda item 15 as 'Ordinance - Temporary land use regulation - Data Centers' and confirming the meeting date and location, and linking the later-posted signed minutes.",
+          "quote": "15. Ordinance - Temporary land use regulation - Data Centers"
+        }
+      ],
+      "notes": "A moratorium reported by SkyHiNews.com as running 'until June 2027,' adopted by a 'Grand County Board of Commissioners' at a June 9 meeting, refers to Grand County, Colorado (SkyHiNews is a Colorado outlet); it does not describe this Utah row and was excluded per the process guidance on cross-state jurisdiction-name confusion."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Utah",
+      "jurisdiction": "Sanpete County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-08-04, Sanpete County Commission regular meeting, following a recommendation from the Sanpete County Planning Commission.",
+      "date_enacted_iso": "2026-08-04",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months from adoption (to approximately 2027-01-31); county officials described the moratorium as renewable 'six months at a time' as long as the county shows it is working toward permanent regulations.",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-01-31",
+      "legal_basis": "Temporary land use regulation/moratorium approved by the Sanpete County Commission on August 4, 2026, under Utah's temporary land use regulation statute; mirrors a similar six-month moratorium the county adopted on commercial solar farm development in June 2026. No separately numbered ordinance was identified in sources reviewed.",
+      "trigger": "County code contains no ordinance governing data centers; commissioners wanted time to draft and adopt land-use standards before any development proposal could be submitted under existing (silent) county code.",
+      "trigger_categories": ["regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. The Sanpete County Commission approved a six-month moratorium on new data center development at its August 4, 2026 meeting, giving Planning and Zoning staff time to draft land-use regulations for the industry; no data center application was reported pending at adoption. No extension or replacement was found in sources reviewed through 2026-09-23.",
+      "enacted_status": "active",
+      "affected_projects": "None named; no data center application was reported pending in the county at adoption.",
+      "outcome": "Sanpete County Commission adopted a six-month moratorium on new data center development, directing Planning and Zoning staff to draft permanent land-use regulations.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://sanpetemessenger.com/sanpete-county-hits-pause-on-data-centers-for-6-months/",
+          "title": "Sanpete County hits pause on data centers for 6 months",
+          "publisher": "Sanpete Messenger",
+          "document_date": "2026-08",
+          "source_type": "news",
+          "supports": "Confirms the August 4, 2026 Commission vote approving a six-month data center moratorium, following a Planning Commission recommendation, and that the county code has no data center provisions.",
+          "quote": "The Sanpete County Commission approved a six-month moratorium on new data center development Tuesday, Aug. 4, giving county officials time to draft and adopt land-use regulations for the emerging industry before any proposals can move forward."
+        }
+      ],
+      "notes": "Only one independent news source (Sanpete Messenger, the county's paper of record) was located reporting this action; no county-hosted ordinance or minutes document was found via bc-web in this pass, so confidence is held at 0.8 rather than higher."
+    },
+    {
+      "state": "Utah",
+      "jurisdiction": "Clearfield",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-09-08, Clearfield City Council regular meeting, 4-0 vote (Councilmember Danielle King absent).",
+      "date_enacted_iso": "2026-09-08",
+      "date_enacted_uncertainty": "exact",
+      "duration": "180 days from adoption (to approximately 2027-03-07).",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-03-07",
+      "legal_basis": "Temporary land use regulation/moratorium on data center development approved by Clearfield City Council 4-0 on September 8, 2026, following an August 25, 2026 work-session discussion (recorded in the city's own signed minutes) in which the city attorney confirmed the Council could adopt a 180-day temporary land use regulation while a pending zoning-determination request for a data center at Freeport Center Building J8 was evaluated.",
+      "trigger": "regulatory_gap; a pending zoning-determination request for a proposed data center in the Freeport Center's M-1 Manufacturing Zone (Building J8) exposed that Clearfield's code has no definition or zoning classification for 'data center,' prompting the Council to pause while it studies electrical demand, water consumption, noise, and other impacts and considers pending state legislation.",
+      "trigger_categories": ["regulatory_gap", "specific_project", "water", "noise", "grid_energy"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. The Clearfield City Council voted 4-0 on September 8, 2026 to adopt a 180-day moratorium prohibiting data center development in the city (through approximately March 7, 2027) while officials study whether special zoning guidelines are warranted. No data center proposal was found to be barred outright by the action; a pending zoning-determination request at the Freeport Center (Building J8) prompted the pause. No extension or replacement was found in sources reviewed through 2026-09-23.",
+      "enacted_status": "active",
+      "affected_projects": "A pending zoning-determination request (not yet a formal application) for a proposed data center in Building J8 at the Freeport Center, M-1 Manufacturing Zone; city staff's preliminary review found the use did not clearly fit existing warehouse or manufacturing classifications.",
+      "outcome": "Clearfield City Council adopted a 180-day moratorium on data center development after a zoning-determination request exposed a gap in the city's zoning code.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ksl.com/article/51622427/clearfield-leaders-ok-180-day-moratorium-on-data-center-development",
+          "title": "Clearfield leaders OK 180-day moratorium on data center development",
+          "publisher": "KSL.com",
+          "document_date": "2026-09-11",
+          "source_type": "news",
+          "supports": "Confirms the 4-0 Tuesday (September 8, 2026) vote adopting a 180-day data center moratorium, the city's rationale (no proposal pending, code gap), and context among other Utah counties/cities that have adopted similar pauses.",
+          "quote": "Tuesday's vote by the Clearfield City Council prohibits data center development in the city in the next 180 days as city officials study whether new guidelines are warranted to govern their creation and operation. ... Tuesday's measure passed 4-0, with the four city council members present voting for it."
+        },
+        {
+          "url": "https://www.standard.net/news/local/2026/sep/09/clearfield-city-council-passes-data-center-moratorium-in-wake-of-grandiose-scale-of-stratos/",
+          "title": "Clearfield City Council passes data center moratorium in wake of 'grandiose scale of Stratos'",
+          "publisher": "Standard-Examiner",
+          "document_date": "2026-09-09",
+          "source_type": "news",
+          "supports": "Independently corroborates the September 8, 2026 adoption of the 180-day moratorium.",
+          "quote": "CLEARFIELD – The highly controversial Box Elder County Stratos"
+        },
+        {
+          "url": "https://www.utah.gov/pmn/files/1485679.pdf",
+          "title": "Clearfield City Council Work Session Minutes, August 25, 2026 (approved and signed)",
+          "publisher": "City of Clearfield, Utah (via Utah Public Notice Website)",
+          "document_date": "2026-08-25",
+          "source_type": "minutes",
+          "supports": "Official signed minutes of the August 25, 2026 work session in which staff and the city attorney discussed a pending Freeport Center data-center zoning-determination request and confirmed the Council could adopt a 180-day temporary land use regulation; directs staff to bring the matter back for Council action (which occurred September 8, 2026).",
+          "quote": "Councilmember Peterson asked whether the City could adopt a temporary land use regulation before the current applicant obtained an entitlement. Mr. Allen explained that the City had received only a zoning determination request, which was not an entitlement application, and confirmed that the Council could adopt a temporary land use regulation. He stated that such a regulation could remain in effect for 180 days"
+        }
+      ],
+      "notes": "The August 25, 2026 minutes document background discussion only; the actual September 8, 2026 adoption vote is confirmed by two independent news outlets (KSL.com and the Standard-Examiner) rather than a located primary minutes/ordinance document for that later meeting."
+    }
+  ]
+}

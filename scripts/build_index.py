@@ -35,8 +35,9 @@ SWEEP = REPO / "data" / "sweep_coverage.json"
 VERIFY_RE = re.compile(r"\[VERIFY", re.IGNORECASE)
 
 # Human-facing label for the current release; bump with the release.
-RELEASE_LABEL = "August 19, 2026"
-RELEASE_DATE = "19 August 2026"
+RELEASE_LABEL = "September 23, 2026"
+RELEASE_DATE = "23 September 2026"
+RELEASE_ISO = "2026-09-23"
 
 NUMBER_WORDS = {
     10: "Ten", 11: "Eleven", 12: "Twelve", 13: "Thirteen",
@@ -143,29 +144,32 @@ def changes_section(f: dict) -> str:
     """
     return f"""{CHANGES_START}
 <section class="release-notes">
-  <div class="stamp">Data refresh &middot; 19 August 2026</div>
-  <h2>The August picture</h2>
-  <p class="lede">Local governments are still using temporary pauses, but the fastest-moving
-  policy layer is now state government. The local inventory contains {f['rows']} instruments
+  <div class="stamp">Data refresh &middot; {RELEASE_DATE}</div>
+  <h2>The September picture</h2>
+  <p class="lede">The inventory roughly doubled in one pass, and almost none of that is new
+  policy: it is jurisdictions that had already acted and that single-source coverage had
+  missed. The local inventory contains {f['rows']} instruments
   across {f['states']} states; {f['in_force']} remain in force.</p>
 
   <h3>What changed in this refresh</h3>
   <ul>
-    <li><strong>The status review reduced the recorded in-force total by six.</strong>
-      The current mix is {f['active']} active and {f['extended']} extended, with
-      {f['expired']} expired, {f['replaced']} replaced, and {f['rescinded']} rescinded.
-      That movement reflects elapsed terms and documented outcomes, not a six-place wave
-      of repeals.</li>
-    <li><strong>{f['august_adoptions']} local adoption is confirmed for August so far:</strong>
-      Lakeland, Florida adopted Ordinance 26-018 on August 3. Parma Township, Michigan was
-      also added after its primary public notice was located.</li>
-    <li><strong>Extensions now carry a current end date.</strong> The tracker keeps the original
-      term for provenance but uses <code>current_end_date_iso</code> for the operative extension,
-      preventing the original deadline from being mistaken for a present-day lapse.</li>
+    <li><strong>Every stale row was rechecked against primary sources.</strong>
+      296 rows were flagged by the worklist (expired on paper, extension without a recorded
+      end, stale proposals, open `[VERIFY]` markers) and every one was decided: 84 status
+      changes, 141 corrections, 75 confirmations, 6 left unresolvable with the portals
+      checked on record. The current mix is {f['active']} active and {f['extended']} extended,
+      with {f['expired']} expired, {f['replaced']} replaced, and {f['rescinded']} rescinded.</li>
+    <li><strong>520 instruments were added after a statewide search of all 50 states.</strong>
+      Ohio (159) and Michigan (141) each now hold more instruments than the whole inventory
+      did in April. Alaska, Arizona, Delaware, Rhode Island and Vermont enter the dataset;
+      only Hawaii, West Virginia and Wyoming have no local instrument after a targeted search.</li>
+    <li><strong>Every cited source is archived.</strong> 2,817 pages and PDFs behind this
+      pass were fetched and stored with their hashes, and the merge refuses any finding whose
+      evidence is not on file. Links can rot; the record behind each row no longer depends on them.</li>
   </ul>
 
   <h3>State restrictions are a separate policy layer</h3>
-  <p>The state tracker now distinguishes {f['bills']} bills from
+  <p>The state tracker distinguishes {f['bills']} bills from
   {f['state_policy_actions'] - f['bills']} binding non-bill actions, with
   {f['bills_enacted']} enacted bills. <a href="https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops">New York Executive Order 62</a>
   holds specified state-agency permits in abeyance while a statewide environmental review
@@ -173,14 +177,15 @@ def changes_section(f: dict) -> str:
   pauses ERCOT interconnection progress pending an audit. Pennsylvania
   <a href="https://www.palegis.us/legislation/bills/2025/sb1345">SB 1345</a> would authorize
   municipal pauses, while <a href="https://www.palegis.us/legislation/bills/2025/sb1359">SB 1359</a>
-  proposes a statewide moratorium; both remain proposals. The typed policy fields preserve
-  those legal differences.</p>
+  proposes a statewide moratorium; both remain proposals. The state tracker was not
+  re-researched in this pass.</p>
 
   <h3>How to read the coverage</h3>
   <p>All {f['swept_count']} states received a month-by-month sweep for May through July, so that
-  window is the most comparable part of the series. August is current only through the 19th
-  and is not a completed monthly sweep. Pre-May totals remain lower bounds because they came
-  from document search and opportunistic discovery.
+  window is the most comparable part of the series. The September pass searched every state
+  as a whole rather than month by month, so August and September counts are far more complete
+  than before but remain lower bounds, and September is current only through the 23rd. Pre-May
+  totals came from document search and opportunistic discovery.
   <a href="docs/known-gaps.html">Known gaps</a> records the coverage boundaries.</p>
 </section>
 {CHANGES_END}"""
@@ -210,6 +215,15 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
         ("og:description",
          r'(<meta property="og:description" content=")\d+( local moratoria across )\d+( states)',
          rf"\g<1>{f['rows']}\g<2>{f['states']}\g<3>"),
+        ("og:description date",
+         r'(state policy actions\. Open data, current through )[A-Z][a-z]+ \d{1,2}, \d{4}(\.")',
+         rf"\g<1>{RELEASE_LABEL}\g<2>"),
+        ("twitter description date",
+         r'(state policy actions\. Updated )[A-Z][a-z]+ \d{1,2}, \d{4}(\.")',
+         rf"\g<1>{RELEASE_LABEL}\g<2>"),
+        ("json-ld dateModified",
+         r'("dateModified": ")\d{4}-\d{2}-\d{2}(")',
+         rf"\g<1>{RELEASE_ISO}\g<2>"),
         ("og state-policy count",
          r'(<meta property="og:description" content="[^\n]+, plus )\d+( state policy actions\.)',
          rf"\g<1>{f['state_policy_actions']}\g<2>"),
@@ -268,9 +282,9 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          r'<p class="caption">(?:A handful of Washington|Washington logged|Every bar before).*?(?:</p>\s*<p class="source">.*?</p>|</p>)',
          '<p class="caption">Every bar before 2022 is Washington. Cheap hydro power pulled crypto '
          'miners into the Columbia Basin, and ten Washington jurisdictions paused them in 2018. '
-         'Then the map went quiet for four years. Data centers restarted it: 7 moratoria in 2023, '
-         '6 in 2024, 59 in 2025, and 294 in the first seven months of 2026. June alone '
-         'accounted for 80. August is shown only through August 19 and should not be read as '
+         'Then the map went quiet for four years. Data centers restarted it: 9 moratoria in 2023, '
+         '10 in 2024, 76 in 2025, and 797 in the first eight months of 2026. June alone '
+         'accounted for 170. September is shown only through September 23 and should not be read as '
          'a completed month.</p>\n'
          '  <p class="source">Source: <a href="data/moratorium_inventory.csv" download>'
          'moratorium_inventory.csv</a>, columns <code>date_enacted_iso</code> and '

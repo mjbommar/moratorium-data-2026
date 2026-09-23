@@ -71,7 +71,7 @@ We manually reviewed every extraction record to:
 - Resolve `[VERIFY]` flags by re-checking primary sources via real-Chrome browser sessions
 - Add moratoria identified through news coverage but missed by automated extraction
 
-As of the 2026-08-19 working snapshot the cleaned inventory has **533 instruments across 42 states** (`data/moratorium_inventory.csv`). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.
+As of the 2026-09-23 working snapshot the cleaned inventory has **1053 instruments across 47 states** (`data/moratorium_inventory.csv`). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.
 
 ### Phase 4: Geocoding (added v2026.04.2)
 
@@ -80,7 +80,7 @@ Each row in the cleaned inventory was assigned WGS84 latitude and longitude coor
 1. **Primary geocoder: OSM Nominatim.** Free, open-source, with reasonable U.S. administrative boundary coverage. Rate-limited to 1 request/second per the public API usage policy.
 2. **Fallback: U.S. Census Geocoder.** Used when Nominatim returns no result. The Census Geocoder is authoritative for U.S. jurisdictions but works best for street addresses; for "Jurisdiction, State" queries we found Nominatim more reliable.
 
-Of 533 rows, 531 (99.6%) are successfully geocoded. The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
+Of 1053 rows, 1051 (99.6%) are successfully geocoded. The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
 
 After geocoding, a triple-check audit ran 89 verifications across three independent methods:
 
@@ -101,7 +101,7 @@ Each correction used article-context disambiguation (`legal_basis`, `trigger`, a
 
 Right — the numbers can be confusing. Here's the difference:
 
-- **Inventory (n=533):** the cleaned, deduplicated count of unique moratorium **instruments** (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.
+- **Inventory (n=1053):** the cleaned, deduplicated count of unique moratorium **instruments** (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.
 - **Structured-extraction cohort (n=348):** the count of confidence-filtered structured **extractions**. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.
 
 The two numbers measure different things and do not need to match. The 533 is the headline count of moratoria; the 348 is the size of the line-coded sample used for clause-prevalence percentages.
@@ -172,6 +172,41 @@ enforces the codebook's one valid `duration_days`/`duration_kind` combination;
 `geocode_inventory.py` plus declared overrides fill coordinates; the generators
 rebuild every artifact; then the validator runs again.
 
+### The 2026-09-23 pass: an agent swarm with an evidence archive
+
+The September refresh ran the cycle above at full scale for the first time, and
+added two things the v2026.07 procedure lacked.
+
+**A written, tested procedure for the researchers.** `work/research-process.md`
+gives each agent one state, its packet, the exact search and fetch commands,
+the decision rules (when a row is `expired` versus `unresolvable`, what counts
+as a pending instrument, what is a permanent ban and therefore out of scope),
+and the output contract. It was piloted on Nevada (Sonnet 5) and Alabama (Opus
+5.5) and revised from their reports before 29 more agents ran it. Each agent
+handled the two tasks separately: *Process A* rechecks every packet row against
+primary sources; *Process B* searches the whole state, sector by sector, for
+instruments the inventory lacks, including statewide roundups whose full
+jurisdiction lists sit in embedded map data.
+
+**An archive of every cited source.** `scripts/save_source.py` fetches a URL
+through bc-web (plain HTTP first, then a real browser for JavaScript portals and
+Cloudflare), stores the PDF plus extracted text (page-level OCR for scans) or the
+HTML plus readability markdown under `work/sources/<ST>/`, and appends a manifest
+line with the final URL, status, tier used, and body hash.
+`scripts/check_evidence_archived.py` is a merge gate: an answer file citing a
+URL that is not in the manifest with non-empty text is refused. The result is
+that every value in the September snapshot traces to a page we hold a copy of,
+not a link that may rot.
+
+Coverage of the pass: all 296 worklist rows decided, 520 candidates admitted
+across all 50 states, 2,817 sources archived, 1,565 field changes applied with
+zero conflicts. Three quality rules came out of the pilots and are now in the
+procedure: always qualify a jurisdiction name with its state (Wells, Nevada is
+not Wells, Maine), treat a `--site` search that returns unrelated pages as no
+result rather than a result, and keep helper files in a private folder because
+the agents share a scratchpad (one agent's build script overwrote another
+state's answer file once; the file was rebuilt and re-gated).
+
 A property worth preserving: every step is **idempotent**. Re-running the merge
 over already-applied answers is a clean no-op, which is what makes incremental
 application safe when different states' research lands at different times.
@@ -209,6 +244,9 @@ The original document corpus (~12 GB) is not in this repository (it's hosted sep
 | Document discovery (through v2026.04) | OpenAI Codex CLI with web-search | `gpt-5.5` at medium reasoning effort |
 | State-month chronology (v2026.07 sweep) | OpenAI Codex CLI with web-search | `gpt-5.6-sol` at high reasoning effort |
 | Status, verification, and legislation research (v2026.07) | Claude Code subagents | `claude-sonnet-5` |
+| Row recheck and statewide discovery (2026-09-23 pass) | Claude Code subagents coordinated by `claude-fable-5-1` | `claude-sonnet-5` (47 answer files), `claude-opus-5-5` (7 largest packets) |
+| Web search (2026-09-23 pass) | bc-web `search --fuse` (Exa + Google via SerpAPI, reciprocal rank fusion) | n/a |
+| Source archiving (2026-09-23 pass) | `scripts/save_source.py` over bc-web, pdftotext, Tesseract | n/a |
 | SerpAPI ordinance search | `google-search-results` Python package | n/a |
 | Document download | Playwright + stealth wrappers | n/a |
 | OCR (image-based PDFs) | EasyOCR + Tesseract | n/a |
@@ -229,6 +267,12 @@ inheriting them from the operator's interactive config, and refuses a batch abov
 25 calls without an explicit `--yes`. Both defaults are deliberately modest:
 state-month research is retrieval and summarization against public records, and
 raising the reasoning tier buys very little on that kind of work.
+
+The 2026-09-23 pass cost about 10.8 million tokens across 31 Claude Code
+research agents (a median of roughly 350,000 tokens and 130 tool calls per
+state agent, 10 to 50 minutes each), plus roughly 3,000 Exa and SerpAPI queries.
+The expensive step is reading sources, not searching: each agent fetched and
+read on the order of 50 to 250 pages.
 
 Anyone reproducing the sweep should scope it first -- `--only`, `--start`, and
 `--end` narrow the run, and `--dry-run` prints the work plan without spending

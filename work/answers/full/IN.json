@@ -1,0 +1,782 @@
+{
+  "state_abbrev": "IN",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "in-shelby-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "changes": {
+        "current_status": {
+          "from": "Active. The county moratorium covers unincorporated qualified-data-center applications and was unaffected by the City of Shelbyville's separate annexation, rezoning, and EDA for the Prologis project, which proceeded through municipal authority",
+          "to": "Replaced as of 2026-09-23. The temporary moratorium (Resolution 2026-02) ran through 2026-08-22. Before it lapsed without a permanent ordinance, the Shelby County Plan Commission issued a final favorable recommendation on the Data Center Overlay Text District Amendment on 2026-08-13, and the Board of Commissioners unanimously (3-0) adopted the permanent ordinance -- Ordinance 2026-17, creating a data center overlay district within the county's Unified Development Ordinance -- on 2026-08-24. The permanent ordinance applies to unincorporated Shelby County and does not affect the separate City of Shelbyville-Prologis project.",
+          "reason": "The Shelby County Commissioners adopted the permanent data-center overlay ordinance (Ordinance 2026-17) on 2026-08-24, replacing the temporary moratorium that expired 2026-08-22, per the Addison Times' meeting report and the Shelby News' Aug. 13 Plan Commission report."
+        },
+        "outcome": {
+          "from": "County board to include public, commissioner, council, and plan commission representatives and work with outside counsel on ordinance language",
+          "to": "Board of Commissioners unanimously (3-0) adopted Ordinance 2026-17 on 2026-08-24, creating a permanent Data Center Overlay Text Amendment to the county's Unified Development Ordinance, after three rounds of Ordinance Review Committee review and three rounds of Plan Commission review.",
+          "reason": "Reflects the permanent ordinance that replaced the temporary moratorium tracked by this row."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://addisontimes.substack.com/p/tuesday-august-25-2026",
+          "title": "Tuesday, August 25, 2026",
+          "publisher": "The Addison Times",
+          "document_date": "2026-08-25",
+          "source_type": "news",
+          "supports": "Board of Commissioners unanimously adopted Ordinance 2026-17, the permanent data center overlay ordinance, on Monday Aug. 24, 2026, replacing the moratorium.",
+          "quote": "Shelby County Commissioners unanimously approved new restrictions on data centers Monday... The commissioners approved Ordinance 2026-17, creating a data center overlay district within the county's Unified Development Ordinance. The regulations apply to unincorporated Shelby County and do not affect the proposed data center project within the city of Shelbyville... The ordinance passed 3-0."
+        },
+        {
+          "url": "https://www.shelbynews.com/news/county-plan-commission-issues-favorable-recommendation-on-data-center-ordinance/article_10e3e0f7-3af8-5e6b-b2cd-8f31452d42c3.html",
+          "title": "County Plan Commission issues favorable recommendation on data center ordinance",
+          "publisher": "Shelby News",
+          "document_date": "2026-08-13",
+          "source_type": "news",
+          "supports": "Confirms the final draft ordinance was heading to the Board of Commissioners on Aug. 24, and that the temporary moratorium's term ended Aug. 23.",
+          "quote": "This will be the final draft of the proposed ordinance, and it will go to the Board of Commissioners Aug. 24 for approval. The data center moratorium ends Aug. 23, so the Plan Commission held a special meeting Wednesday to get the last kinks worked out and have the proposal ready for the commissioners prior to the end of the moratorium."
+        }
+      ],
+      "notes": "giant.fm's article on the same vote (https://www.giant.fm/shelby-county/news/local-news/shelby-co-commissioners-approve-data-center-ordinance/) was saved via save_source.py but only its weather-widget boilerplate loaded even in browser mode; it is not cited as evidence."
+    },
+    {
+      "moratorium_id": "in-indianapolis-marion-county-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "date_enacted": {
+          "from": "Not yet finally enacted as of 2026-07-31; City-County Council committee approved 10-3 on 2026-07-13, pending full Council and Metropolitan Development Commission approval",
+          "to": "2026-08-19 (Metropolitan Development Commission final unanimous 6-0 approval); the full City-County Council had voted 23-1 to advance the measure on 2026-08-10",
+          "reason": "The moratorium received final approval from the Metropolitan Development Commission on Aug. 19, 2026, after the full City-County Council advanced it 23-1 on Aug. 10, 2026."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-08-19",
+          "reason": "Date of the Metropolitan Development Commission's final unanimous vote, which made the moratorium effective immediately per Fox59 and IBJ."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Matches the exact MDC vote date reported by multiple outlets."
+        },
+        "duration": {
+          "from": "Proposed to run through the end of 2027",
+          "to": "Effective through no later than Dec. 31, 2027",
+          "reason": "Final adopted term, per Fox59 and IBJ reporting on the Aug. 19, 2026 MDC vote."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "",
+          "reason": "Term is expressed as a calendar end date, not a day count; duration_kind is until_date so duration_days remains empty."
+        },
+        "duration_kind": {
+          "from": "until_date",
+          "to": "until_date",
+          "reason": "No change in kind; now backed by an adopted instrument rather than a proposal."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-12-31",
+          "reason": "The adopted moratorium runs through no later than Dec. 31, 2027, per Fox59 and IBJ."
+        },
+        "legal_basis": {
+          "from": "Proposed amendment to Metropolitan Development Commission data center regulations, sponsored by City-County Council President Maggie Lewis; a separate, parallel Metropolitan Development Commission proceeding (initial 5-3 vote 2026-07-01) is developing permanent data-center zoning rules for the same jurisdiction",
+          "to": "Proposal 238-2026, a zoning text amendment and moratorium, advanced by the City-County Council 23-1 on 2026-08-10 (sponsored by Council President Maggie Lewis, supported by Mayor Joe Hogsett) and given final unanimous (6-0) approval by the Metropolitan Development Commission on 2026-08-19",
+          "reason": "Reflects the adopted instrument and final vote counts in place of the earlier proposal-stage description."
+        },
+        "current_status": {
+          "from": "Pending as of 2026-07-31: a City-County Council committee approved the moratorium proposal 10-3 along party lines on 2026-07-13, with Mayor Joe Hogsett's public support. It still requires full City-County Council approval, after which it must return to the nine-member Metropolitan Development Commission (five mayoral appointees, four council appointees) for final approval.",
+          "to": "Active as of 2026-09-23. The City-County Council voted 23-1 on 2026-08-10 to advance the moratorium, and the Metropolitan Development Commission gave final unanimous (6-0) approval on 2026-08-19, effective immediately and running through no later than Dec. 31, 2027. The three previously approved projects (DC Blox on the east side, Metrobloks in Martindale-Brightwood, and Sabey Corp. in southwest Marion County) remain exempt. The administration is convening an advisory committee (consultant selection Sept. 2026; industry research Oct. 2026; committee recommendations and a revised zoning ordinance by Aug. 2027).",
+          "reason": "Updates the record to reflect final adoption, replacing the pending-stage description."
+        },
+        "outcome": {
+          "from": "Pending full Council and Metropolitan Development Commission approval as of this research date",
+          "to": "City-County Council advanced the moratorium 23-1 on 2026-08-10; Metropolitan Development Commission gave final unanimous approval 2026-08-19, making Marion County's moratorium effective immediately through no later than Dec. 31, 2027.",
+          "reason": "Reflects final adoption."
+        }
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://fox59.com/news/metropolitan-development-commission-unanimously-approves-data-center-moratorium/",
+          "title": "Metropolitan Development Commission unanimously approves data center moratorium",
+          "publisher": "Fox59 (Indianapolis)",
+          "document_date": "2026-08-19",
+          "source_type": "news",
+          "supports": "6-0 MDC vote on Aug. 19, 2026 finalizing the moratorium through no later than Dec. 31, 2027; exempts three previously approved data centers; describes the advisory-committee timeline.",
+          "quote": "The temporary moratorium passed unanimously 6-0 and will be effective through no later than Dec. 31, 2027, making Marion County the latest municipality to temporarily halt the construction of new data centers."
+        },
+        {
+          "url": "https://www.ibj.com/articles/indianapolis-data-center-moratorium-receives-final-approval",
+          "title": "Indianapolis data center moratorium receives final approval",
+          "publisher": "Indianapolis Business Journal",
+          "document_date": "2026-08-19",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 10, 2026 City-County Council vote (23-1) and the Aug. 19 MDC final unanimous approval; names the three exempt projects.",
+          "quote": "The Metropolitan Development Commission on Wednesday unanimously approved a data center moratorium for Indianapolis through the end of 2027... The three data centers that have already gone through the zoning approval process are exempt from the moratorium. Those projects are the DC Blox data center on the east side, the Metrobloks project in Martindale-Brightwood and Sabey Corp.'s project in southwestern Marion County."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "in-valparaiso-porter-county-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "legal_basis": {
+          "from": "Ordinance No. 16, 2026, advanced 7-0 on first reading by the City Council on 2026-07-13 and referred to the Plan Commission; a public hearing was scheduled for 2026-08-04",
+          "to": "Ordinance No. 16-2026, \"An Ordinance Establishing a Temporary Moratorium on New Data Center Development,\" adopted by the Valparaiso Common Council on 2026-08-10",
+          "reason": "The full, signed ordinance text (Ordinance No. 16-2026) was located on the city's DocumentCenter and confirms adoption; the draft text in circulation still shows blank vote-count/date lines, but news reporting confirms the Council acted Monday, Aug. 10, 2026."
+        },
+        "date_enacted": {
+          "from": "",
+          "to": "2026-08-10 (Common Council adoption, reported as \"Monday night\")",
+          "reason": "Per the Munster Times/nwitimes report syndicated by Spot On Indiana."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-08-10",
+          "reason": "Matches the reported Monday-night adoption date."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Confirmed by both the ordinance's Section 6 effective-date clause and news coverage of the vote."
+        },
+        "duration": {
+          "from": "",
+          "to": "Automatically expires upon the effective date of Unified Development Ordinance amendments governing data centers, unless repealed or extended by the Common Council, or by July 31, 2028, whichever occurs first (reported by local media as lasting roughly two years)",
+          "reason": "Section 4 of the adopted ordinance text."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "",
+          "reason": "The ordinance sets a calendar backstop date (July 31, 2028), not a day count from adoption, so duration_kind is until_date and duration_days remains empty."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "until_date",
+          "reason": "The ordinance names a specific calendar backstop end date (July 31, 2028) in addition to the UDO-amendment trigger."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2028-07-31",
+          "reason": "Section 4 of Ordinance No. 16-2026 sets this as the outer backstop date if not superseded sooner by adoption of UDO data center regulations."
+        },
+        "current_status": {
+          "from": "Pending as of 2026-07-31. No moratorium took effect from the July 13, 2026 first-reading referral; a Plan Commission public hearing was scheduled for August 4, 2026, after which the proposal would return to the Council for a further vote. [VERIFY duration; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. The Valparaiso Common Council adopted Ordinance No. 16-2026 on 2026-08-10, following the July 13 first reading and an August Plan Commission hearing. The moratorium bars new data center land-use approvals and permits (with exceptions for existing lawful uses, routine maintenance, and vested rights) until the Council adopts Unified Development Ordinance amendments governing data centers, or by July 31, 2028, whichever comes first.",
+          "reason": "Resolves the VERIFY marker: the ordinance text (city DocumentCenter) and news coverage of the Aug. 10, 2026 vote together confirm adoption, duration, and end date."
+        },
+        "outcome": {
+          "from": "City Council unanimously advanced Ordinance No. 16, 2026 on first reading and referred it to the Plan Commission.",
+          "to": "Common Council adopted Ordinance No. 16-2026, establishing a temporary moratorium on new data center development with no fixed near-term end date beyond the July 31, 2028 backstop.",
+          "reason": "Reflects final adoption."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY duration; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "resolution": "confirmed",
+          "note": "Located the signed ordinance text (Ordinance No. 16-2026) on the City of Valparaiso's official DocumentCenter, which states the duration (until UDO amendments are adopted, or by July 31, 2028, whichever is sooner). News coverage (Spot On Indiana/Munster Times) confirms the Aug. 10, 2026 adoption date."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ci.valparaiso.in.us/DocumentCenter/View/12013/Ordinance-16-2026-Data-Center-Moratorium",
+          "title": "Ordinance No. 16-2026 (Data Center Moratorium)",
+          "publisher": "City of Valparaiso, Indiana",
+          "document_date": "2026",
+          "source_type": "ordinance",
+          "supports": "Full text of the adopted moratorium ordinance, including its purpose, scope, exceptions, and Section 4 duration clause (until UDO amendment or July 31, 2028, whichever first).",
+          "quote": "This Ordinance shall take effect upon passage as provided by law and shall automatically expire upon the effective date of amendments to the Unified Development Ordinance establishing regulations governing data center development, unless repealed or extended by the Common Council; or by July 31, 2028."
+        },
+        {
+          "url": "https://spotonindiana.com/northwest-indiana/2584507/valparaiso-passes-data-center.html",
+          "title": "Valparaiso passes data center moratorium without end date, a stop-gap to craft regulations",
+          "publisher": "Spot On Indiana / The Munster Times",
+          "document_date": "2026-08-11",
+          "source_type": "news",
+          "supports": "Confirms the Council adopted the moratorium on Monday night (Aug. 10, 2026) and that it is expected to last roughly two years.",
+          "quote": "Valparaiso leaders implemented a moratorium on data centers Monday night, likely lasting for about two years while the city crafts regulations governing their construction."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "in-warrick-county-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "legal_basis": {
+          "from": "Area Plan Commission recommendation only, made at a 2026-07-13 hearing; requires County Commission approval, not confirmed as of 2026-07-31",
+          "to": "Warrick County Area Plan Commission recommendation (2026-08-10 monthly meeting) approved by the Warrick County Board of Commissioners at a special meeting on 2026-08-11",
+          "reason": "The county revised its approach after the July 13 hearing: the APC recommended a new, shorter 180-day deferral ordinance (rather than the December 2026 date discussed in July), which the Commissioners adopted Aug. 11, 2026."
+        },
+        "date_enacted": {
+          "from": "",
+          "to": "2026-08-11 (Board of Commissioners unanimous vote, special meeting at Friedman Park Events Center)",
+          "reason": "Per the Courier & Press and WNIN reporting on the special meeting."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-08-11",
+          "reason": "Matches the confirmed vote date."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Confirmed by two independent local news outlets."
+        },
+        "duration": {
+          "from": "Proposed through December 2026",
+          "to": "180 days from passage (through approx. 2027-02-07), or until the Board of Commissioners approves data center language for the Comprehensive Zoning Ordinance, whichever occurs first",
+          "reason": "The final adopted ordinance uses a 180-day deferral period, not the December 2026 date recommended at the July 13 hearing (per the Post-Dispatch/Clarion's report of the APC's Aug. 10 recommendation and Commissioners' Aug. 11 vote)."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "180",
+          "reason": "Explicit 180-day deferral period stated in reporting on the adopted ordinance."
+        },
+        "duration_kind": {
+          "from": "until_date",
+          "to": "fixed_days",
+          "reason": "The adopted ordinance sets a 180-day fixed deferral period (with an early-termination trigger), matching the fixed_days convention used elsewhere in this inventory for similarly structured county moratoria (e.g., Boone, Fulton)."
+        },
+        "current_status": {
+          "from": "Pending as of 2026-07-31. At a three-hour July 13, 2026 hearing with nearly 200 attendees, the Area Plan Commission tabled its own proposed data center ordinance and separately recommended a moratorium on all data center projects through December 2026. The recommendation requires County Commission approval, which had not been confirmed as of this research date. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Following the tabled ordinance from the July 13, 2026 hearing, the Warrick County Area Plan Commission recommended a new 180-day \"strategic deferral period\" ordinance at its Aug. 10, 2026 meeting, and the Board of Commissioners unanimously adopted it the next day, Aug. 11, 2026, at a special meeting. The ordinance bars data center permit applications for 180 days from passage or until the Board approves Comprehensive Zoning Ordinance language for data centers, whichever is sooner; it also creates a committee to study data centers. As of the vote, no data center applications had been filed, though county officials disclosed a preliminary inquiry (\"Project Zora,\" ~1,200 acres near Lynnville) that its developer represented would not result in a permit application before January 2027. [VERIFY exact ordinance/instrument number: not stated in the news coverage reviewed as of 2026-09-23]",
+          "reason": "Resolves the adoption-date portion of the marker; the specific ordinance number was not located in the sources reviewed, so that portion of the marker is retained."
+        },
+        "outcome": {
+          "from": "Area Plan Commission recommended, but did not itself enact, a moratorium on all data center projects through December 2026.",
+          "to": "Board of Commissioners unanimously adopted a 180-day deferral ordinance on data center permit applications on 2026-08-11, following the Area Plan Commission's Aug. 10 recommendation.",
+          "reason": "Reflects final adoption of the (revised, shorter) deferral period."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Adoption date (2026-08-11) is now confirmed by two independent local news outlets (Courier & Press, WNIN) describing the Board of Commissioners' special meeting vote. The specific ordinance/instrument number was not stated in any source reviewed (Courier & Press, pdclarion.com, WNIN); that part of the marker remains open."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.courierpress.com/story/news/local/2026/08/11/warrick-county-board-of-commissioners-votes-on-data-center-moratorium/91250866007/",
+          "title": "Warrick County Board of Commissioners votes on data center moratorium",
+          "publisher": "Evansville Courier & Press",
+          "document_date": "2026-08-11",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 11, 2026 unanimous Commissioners' vote and the 180-day duration.",
+          "quote": "The Warrick County Board of Commissioners voted unanimously Tuesday to pause any data center development for 180 days."
+        },
+        {
+          "url": "https://www.pdclarion.com/warrick_news/news/county-passes-180-day-moratorium-on-data-centers/article_636e5a74-1c91-5d01-bf58-30c393b37040.html",
+          "title": "County passes 180-day moratorium on data centers",
+          "publisher": "The Rockport Democrat / Warrick County Post-Dispatch",
+          "document_date": "2026-08-11",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 10 APC recommendation, the Aug. 11 Commissioners' unanimous vote, and the 180-day-from-passage or until-regulations-adopted duration.",
+          "quote": "The deferral period is 180 days from passage or until the Board of Commissioners approves language regulating data centers for the Comprehensive Zoning Ordinance."
+        },
+        {
+          "url": "https://news.wnin.org/2026-08-12/warrick-county-commission-is-first-to-pause-data-centers-with-local-ordinance",
+          "title": "Warrick County Commission is first to pause data centers with local ordinance",
+          "publisher": "WNIN",
+          "document_date": "2026-08-12",
+          "source_type": "news",
+          "supports": "Confirms Warrick was the first Indiana county to pass an official (not just recommended) data center rule, that it went into effect on passage, and background on the \"Project Zora\" preliminary inquiry.",
+          "quote": "The ordinance went into affect upon passage."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "in-huntington-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active",
+          "to": "Active as of 2026-09-23. An Aug. 13, 2026 Plan Commission workshop on green energy/data center development standards confirmed the moratorium (enacted 2026-02-23 on data centers, battery storage, and carbon sequestration) remained in effect, with Plan Commission Director Kim Hostetler stating there were still no active data center project proposals in the county. County Commissioner Rob Miller said the county \"has paused data center development.\" Continued Plan Commission/public process activity through September 2026 (community meetings, a since-cancelled Sept. 22 Plan Commission meeting) indicates the permanent UDO data-center regulations were still being drafted, with no replacement ordinance located in sources reviewed as of this date.",
+          "reason": "Refreshes the 'as of' date and adds corroborating evidence (Aug. 13, 2026 workshop coverage) confirming the moratorium remained in force with no active proposals or replacement ordinance; no substantive change to the moratorium's terms was found."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.21alivenews.com/2026/08/13/huntington-county-holds-green-energy-workshop-amid-data-center-concerns/",
+          "title": "Huntington County holds green energy workshop amid data center concerns",
+          "publisher": "21Alive/WPTA (Fort Wayne)",
+          "document_date": "2026-08-13",
+          "source_type": "news",
+          "supports": "Confirms the Feb. 2026 moratorium remained in force as of Aug. 13, 2026, that no active data center proposals existed, and that the county was still developing green-energy/data-center standards.",
+          "quote": "The meeting follows a temporary moratorium enacted earlier this year on data centers, battery storage systems, and carbon capture projects in the county. The moratorium was put in place to allow time to develop new rules around the construction of those facilities... Miller said that although Huntington County has paused data center development, residents have not stopped sharing their concerns."
+        }
+      ],
+      "notes": "Searched for a September 2026 Huntington County data center ordinance adoption; found only continuing process activity (a Sept. 8-12 meeting-week reference and a cancelled Sept. 22 Plan Commission meeting), no evidence the moratorium ended or was replaced."
+    },
+    {
+      "moratorium_id": "in-miami-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-07-31. The Plan Commission favorably recommended a permanent regulatory ordinance on 2026-05-13, and a June 8, 2026 public hearing took comment on the draft. The Board of Commissioners noticed consideration of a permanent zoning ordinance for its 2026-07-20 meeting, describing the temporary moratorium as still in effect since May 4; no adopted July ordinance or termination of the moratorium was located in sources reviewed.",
+          "to": "Replaced as of 2026-09-23. At its 2026-07-20 meeting, the Miami County Board of Commissioners unanimously (3-0) approved a permanent data center regulatory ordinance amending the county zoning ordinance, ending the temporary moratorium that had been in force since 2026-05-04. The permanent ordinance permits data centers by-right in I-1, I-2, B-2, and B-3 districts and by special exception in Agricultural districts, and sets standards including a 55 dB sound limit at the property line, closed-loop or air-only cooling, underground utilities, 6-foot security fencing, and mandatory fire-department training.",
+          "reason": "The July 20, 2026 vote (Plain Dealer report) confirms the Board of Commissioners adopted a permanent regulatory ordinance, replacing the temporary moratorium this row tracks."
+        },
+        "outcome": {
+          "from": "Board of Commissioners adopted an open-ended temporary moratorium effective on adoption; the county subsequently held hearings on a permanent data center ordinance (May 13, June 8, and noticed for July 20, 2026) without a confirmed final vote as of this research date.",
+          "to": "Board of Commissioners unanimously (3-0) adopted a permanent data center zoning ordinance on 2026-07-20, replacing the temporary moratorium in force since 2026-05-04.",
+          "reason": "Reflects final adoption of the permanent ordinance."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.plaindealerin.com/miami-county-data-center-vote-passes-to-boos-and-outbursts/article_2b3fa6d7-f9bd-59ed-b1e8-2aa9a7737335.html",
+          "title": "Miami County: Data center vote passes to boos and outbursts",
+          "publisher": "The Plain Dealer (Peru, IN)",
+          "document_date": "2026-07-20",
+          "source_type": "news",
+          "supports": "Confirms the July 20, 2026 unanimous adoption of a permanent data-center regulatory zoning ordinance by the Miami County Commissioners, and lists key ordinance standards.",
+          "quote": "PERU -- Tensions flared and Miami County Commissioners faced boos and outbursts July 20 after approving a data center regulation ordinance. The ordinance, amending the zoning ordinance to regulate data center development in the county, was unanimously approved by Commissioners Fred Musselman, Brenda Weaver and Mark Horner."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "in-fayette-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Status as of 2026-07-31 could not be confirmed beyond the May 5, 2026 news report. Contemporary coverage said county action hinged on the City of Connersville approving the same measure at its May 18, 2026 meeting; the signed ordinance, the City of Connersville's action, final effective date, and exact geographic scope were not located in sources reviewed, and no later event confirming or contradicting enactment was found. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. The News-Examiner's May 2026 coverage of the Connersville Common Council meeting confirms the City of Connersville also agreed to a one-year moratorium on data center consideration, described as \"an identical measure\" to the county's May 5 ordinance, resolving the contingency the county's moratorium depended on. No news of extension, repeal, or a replacement ordinance was found as of 2026-09-23. [VERIFY exact ordinance/instrument number: still not located in county or city sources reviewed]",
+          "reason": "Confirms via a second News-Examiner article that Connersville adopted its concurrence, which the original May 5 report said the county's moratorium was contingent on. This resolves the substantive open question (whether Connersville acted) but not the narrower instrument-number question, so that part of the marker is retained."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Confirmed via a second, independent News-Examiner article that the Connersville Common Council agreed to \"an identical\" one-year moratorium, resolving the open question of whether the county's measure (contingent on city concurrence) actually took effect. The specific ordinance/resolution number was not located on co.fayette.in.us, the City of Connersville's site, or in any news coverage reviewed."
+        }
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.newsexaminer.com/news/city-loses-2-67m-gallons-of-water-in-line-break-agrees-to-data-center-moratorium/article_7cf8aa06-78e3-5152-9196-9bdb42c0ee3d.html",
+          "title": "City loses 2.67M gallons of water in line break, agrees to data center moratorium",
+          "publisher": "The Connersville News-Examiner",
+          "document_date": "2026-05",
+          "source_type": "news",
+          "supports": "Confirms the Connersville Common Council agreed to a one-year moratorium on data center consideration, identical to the county's May 5, 2026 measure, resolving the contingency described in the original May 5 report.",
+          "quote": "At its meeting, the Common Council agreed to place a one-year moratorium on consideration of data centers. The Fayette County Commissioners had approved an identical measure at its May 5 meeting, after the Area Plan Commission asked for a year to study how to implement policies regulating where data centers could be built in the county."
+        },
+        {
+          "url": "https://www.newsexaminer.com/news/commissioners-put-the-brakes-on-data-centers/article_9656df1d-2bd9-5df9-924d-4d6670aee9cd.html",
+          "title": "Commissioners put the brakes on data centers",
+          "publisher": "The Connersville News-Examiner",
+          "document_date": "2026-05-05",
+          "source_type": "news",
+          "supports": "Original May 5, 2026 report of the county's one-year moratorium ordinance, contingent on City of Connersville concurrence at its May 18 meeting.",
+          "quote": "The Fayette County Commissioners have issued a year-long moratorium on the approval of data centers to begin May 18. The commissioners approved the ordinance Tuesday, May 5."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "in-new-albany-floyd-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-07-31 per the city's announcement of Common Council passage of Ordinance Z-26-02 on third reading, July 16, 2026, following a June 9, 2026 mayoral proposal and a June 23, 2026 Plan Commission recommendation to proceed. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Confirmed via the City of New Albany's own official announcement (newalbanycityhall.com, an official/primary source rather than news-only): the Common Council approved Ordinance Z-26-02, a one-year ban on new data center construction within the city (renewable after one year), at Mayor Jeff Gahan's request, sponsored by Councilperson Elaine Murphy. No extension, repeal, or replacement was found as of 2026-09-23.",
+          "reason": "Resolves the VERIFY marker using the city's own official announcement page (an official/primary source rather than news-only) and refreshes the 'as of' date; no substantive change to the ordinance's terms was found."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "resolution": "confirmed",
+          "note": "The City of New Albany's own official city-hall website (newalbanycityhall.com) confirms Ordinance Z-26-02 by name and describes its terms, resolving the prior news-only sourcing concern."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://newalbanycityhall.com/home/2026/7/21/city-council-passes-mayor-gahans-new-data-center-ban",
+          "title": "City Council Passes Mayor Gahan's New Data Center Ban",
+          "publisher": "City of New Albany, Indiana",
+          "document_date": "2026-07-21",
+          "source_type": "other",
+          "supports": "Official city confirmation of Ordinance Z-26-02, a one-year (renewable) ban on new data center construction, sponsored by Councilperson Elaine Murphy at Mayor Gahan's request.",
+          "quote": "At the request of Mayor Gahan, the New Albany City Council has approved a 1 year ban on the construction of new data centers within the City of New Albany... Under the new law, no new data center can be constructed within the City of New Albany. The ban will remain in effect for up to one year and could be renewed after that."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "in-madison-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "duration": {
+          "from": "Six months from adoption (2026-06-16)",
+          "to": "One year from adoption (2026-06-16), extended from the original six months by a unanimous Board of Commissioners vote on 2026-08-04",
+          "reason": "The Planning Commission recommended extending the moratorium to a full year on 2026-07-15; Commissioners voted to extend it on 2026-08-04, per Indiana Public Radio."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "365",
+          "reason": "Extension brings the total moratorium period to a full year from the original 2026-06-16 adoption date."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31. On 2026-07-15, the Planning Commission recommended extending the moratorium to a full year, with County Commissioner consideration scheduled for 2026-08-04; that extension had not been enacted as of 2026-07-31.",
+          "to": "Active (extended) as of 2026-09-23. The Madison County Commissioners unanimously approved extending the data center moratorium to a full year (through approximately 2027-06-16) at their 2026-08-04 meeting, following the Planning Commission's 2026-07-15 recommendation. Officials are using the period to draft zoning rules for data center projects, which could include a permanent ban; a new committee (two Planning Commission members, two citizen appointees) was formed to research the issue.",
+          "reason": "Reflects the Aug. 4, 2026 extension vote reported by Indiana Public Radio, moving the moratorium from six months to a full year."
+        },
+        "outcome": {
+          "from": "Board of Commissioners unanimously adopted Ordinance 2026-BC-O-05, imposing an immediate six-month moratorium and staying pending applications.",
+          "to": "Board of Commissioners unanimously adopted Ordinance 2026-BC-O-05 (six-month moratorium, effective 2026-06-16), then unanimously voted on 2026-08-04 to extend it to a full year following the Planning Commission's recommendation.",
+          "reason": "Reflects the extension vote."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://indianapublicradio.org/news/2026/08/madison-county-full-year-data-center-moratorium/",
+          "title": "Madison County commissioners extend data center moratorium for full year",
+          "publisher": "Indiana Public Radio",
+          "document_date": "2026-08",
+          "source_type": "news",
+          "supports": "Confirms the Board of Commissioners unanimously approved extending the moratorium to a full year, following the Planning Commission's recommendation, and describes the new research committee.",
+          "quote": "Commissioners in Madison County have voted to extend a moratorium on data center projects for a full year... \"Staff supports the moratorium and believe it will provide the county with protection against the issues associated with these facilities,\" says Larry Strange with the Madison County Planning Commission. He gave the commission's official recommendation before the moratorium extension was unanimously approved."
+        },
+        {
+          "url": "https://www.heraldbulletin.com/news/local_news/data-center-moratorium-extended-to-one-year/article_82164de5-76f2-47a6-9781-60eef99ac845.html",
+          "title": "Data center moratorium extended to one year",
+          "publisher": "The Herald Bulletin (Anderson, IN)",
+          "document_date": "2026-08-04",
+          "source_type": "news",
+          "supports": "Independent local-paper corroboration (by-lined Ken de la Bastide, Aug. 4, 2026) of the extension to one year; full article body did not render (navigation/weather boilerplate only), so only the headline and byline metadata are used here.",
+          "quote": "Data center moratorium extended to one year"
+        }
+      ],
+      "notes": "This row is outside the IN.json packet (priority items) but was checked because it surfaced directly during Process B discovery searches for other Indiana counties' data center activity."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Indiana",
+      "jurisdiction": "Fort Wayne",
+      "jurisdiction_type": "City",
+      "date_enacted": "",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Proposed 365-day (one-year) moratorium on city approvals related to new data center development; not yet adopted",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "current_end_date_iso": "",
+      "legal_basis": "Ordinance(s) introduced by Councilwoman Rohli Booker in September 2026, including a proposed 365-day data center moratorium and a directive for the Department of Planning Services to create a comprehensive data center development standard; a related task-force proposal from Councilman Russ Jehl was withdrawn",
+      "trigger": "Council concern about the pace of data center development in the city, following the Google data center already under construction in southeast Fort Wayne",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Pending as of 2026-09-23. Fort Wayne City Council introduced a proposed 365-day data center moratorium (with amendments) in September 2026; the existing Google data center project in southeast Fort Wayne is explicitly excluded. The Council took up amendments and public comment on Sept. 22-23, 2026 but postponed a final vote for three weeks; it is scheduled to reconsider the matter on Oct. 13, 2026.",
+      "enacted_status": "pending",
+      "affected_projects": "Would not affect the existing Google data center project under construction in southeast Fort Wayne",
+      "outcome": "Council postponed a final vote on the moratorium ordinance to Oct. 13, 2026, pending further review of proposed amendments",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.21alivenews.com/2026/09/23/vote-fort-wayne-data-center-moratorium-held-3-weeks/",
+          "title": "Vote on Fort Wayne data center moratorium held for 3 weeks",
+          "publisher": "21Alive/WPTA (Fort Wayne)",
+          "document_date": "2026-09-23",
+          "source_type": "news",
+          "supports": "Confirms the moratorium ordinance is still pending as of 2026-09-23, with a vote postponed to Oct. 13, 2026, and that it would not impact the existing Google data center project.",
+          "quote": "A vote on a proposed one-year data center moratorium in Fort Wayne will be held for three weeks after a vote from the Fort Wayne City Council... Multiple amendments were proposed during the Tuesday meeting, with councilmembers indicating they wanted more time to review the changes before a final vote. The council is scheduled to take up the matter again on Oct. 13."
+        },
+        {
+          "url": "https://www.wboi.org/government/2026-09-09/fort-wayne-city-councilwoman-introduces-ordinances-to-rein-in-future-data-center-development",
+          "title": "Fort Wayne city councilwoman introduces ordinances to rein in future data center development",
+          "publisher": "WBOI (NPR, Fort Wayne)",
+          "document_date": "2026-09-09",
+          "source_type": "news",
+          "supports": "Describes the origin of the proposal: Councilwoman Rohli Booker's moratorium ordinance introduced after Councilman Russ Jehl withdrew his separate task-force request.",
+          "quote": "Fort Wayne City Councilman Russ Jehl withdrew his request for the creation of a data center task force Tuesday night... That came after Councilwoman Rohli Booker introduced ordinances that would put a 365-day moratorium on new data center projects."
+        }
+      ],
+      "notes": "Vote pending as of the researched_as_of date (2026-09-23); this candidate should be rechecked after the scheduled Oct. 13, 2026 Council meeting."
+    },
+    {
+      "state": "Indiana",
+      "jurisdiction": "Jeffersonville",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-08-03 (City Council adoption, all three readings suspended and passed in a single session)",
+      "date_enacted_iso": "2026-08-03",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year; council suspended its normal rules to complete all three ordinance readings in a single session, pushing the expiration to mid-2027",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Jeffersonville City Council ordinance, adopted 8-0 on 2026-08-03, halting approval of new data center development for one year",
+      "trigger": "Resident opposition and newly disclosed utility/financial terms tied to the Meta data center under construction at River Ridge Commerce Center; council sought time to draft a Special Data Center Overlay District and permanent zoning standards (closed industrial zones to new data centers, requiring berms/buffers near residential areas)",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility", "specific_project", "noise"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. The Jeffersonville City Council voted 8-0 on 2026-08-03 to halt approval of new data center development for one year, suspending normal council rules to complete all three ordinance readings in a single session. The moratorium does not affect the Meta data center under construction at River Ridge Commerce Center, which sits outside city zoning jurisdiction under a decades-old interlocal agreement giving the River Ridge Development Authority zoning control.",
+      "enacted_status": "active",
+      "affected_projects": "Does not affect the Meta data center project at River Ridge Commerce Center (outside city zoning jurisdiction)",
+      "outcome": "City Council adopted a one-year moratorium on new data center development within city zoning jurisdiction",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wave3.com/2026/08/04/jeffersonville-passes-year-long-data-center-moratorium-amid-resident-outcry-major-utility-disclosures/",
+          "title": "Jeffersonville passes year-long data center moratorium amid resident outcry and major utility disclosures",
+          "publisher": "WAVE 3 News (Louisville)",
+          "document_date": "2026-08-03",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 3, 2026 8-0 vote, the suspension of normal council rules to pass all three readings at once, the one-year term (\"pushes expiration to mid-2027\"), and that the Meta project at River Ridge is exempt.",
+          "quote": "Jeffersonville City Council passed a swift blow to new data center development. With a vote of 8-0, the council halted development for new data centers for one year. The council suspended its standard rules to push the ordinance through three required readings in a single session... This pushes the expiration to mid-2027."
+        },
+        {
+          "url": "https://www.newsandtribune.com/news/jeffersonville-city-council-approves-one-year-moratorium-for-data-centers/article_c39dd353-1c15-4b9d-8d00-462c2da7506b.html",
+          "title": "Jeffersonville City Council approves one-year moratorium for data centers",
+          "publisher": "News and Tribune (Jeffersonville, IN)",
+          "document_date": "2026-08-04",
+          "source_type": "news",
+          "supports": "Independent corroboration of the 8-0 vote approving the one-year moratorium.",
+          "quote": "The Jeffersonville City Council approved a one-year moratorium on data centers. Before the 8-0 vote, a few residents spoke to the council during the comment section to express their thoughts on the potential moratorium and data centers."
+        }
+      ]
+    },
+    {
+      "state": "Indiana",
+      "jurisdiction": "Elkhart",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-08-27 (Common Council special meeting, unanimous 9-0 vote)",
+      "date_enacted_iso": "2026-08-27",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Through December 31, 2027, or until the city adopts data center/BESS development standards",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "current_end_date_iso": "2027-12-31",
+      "legal_basis": "Elkhart Common Council ordinance, adopted 9-0 at a special meeting on 2026-08-27, pausing acceptance of new data center and battery energy storage system (BESS) applications",
+      "trigger": "Council sought time to develop city standards addressing electrical grid capacity, water and air impacts, sound, and setbacks before accepting new hyperscale data center and BESS applications",
+      "trigger_categories": ["regulatory_gap", "grid_energy", "water", "noise"],
+      "sectors": ["data_center", "battery_storage"],
+      "current_status": "Active as of 2026-09-23. The Elkhart Common Council voted 9-0 at an Aug. 27, 2026 special meeting to pause acceptance of new data center and battery energy storage system applications through Dec. 31, 2027, or until the city adopts development standards, while staff research electrical grid, water, and air impacts. Applies only within the city of Elkhart, not surrounding Elkhart County.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Common Council adopted a moratorium on data center and battery storage facility applications through Dec. 31, 2027",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.wvpe.org/wvpe-news/2026-08-28/elkhart-city-council-passes-data-center-battery-storage-pause-9-0",
+          "title": "Elkhart city council passes data center, battery storage pause 9-0",
+          "publisher": "WVPE (NPR, Elkhart/South Bend)",
+          "document_date": "2026-08-28",
+          "source_type": "news",
+          "supports": "Confirms the 9-0 vote at the Aug. 27, 2026 special meeting and the purpose (studying grid, water, air impacts).",
+          "quote": "The Elkhart Common Council has passed a data center and battery energy storage system moratorium while the city develops rules for those types of development. The council voted 9-0 Thursday to pause considering any new hyperscale data center applications for at least six months while city staff develops standards for everything from electrical grid capacity to water and air impacts."
+        },
+        {
+          "url": "https://abc57.com/news/elkhart-city-council-to-go-forward-with-data-center-moratorium-after-unanimous-vote",
+          "title": "Elkhart City Council to go forward with data center moratorium after unanimous vote",
+          "publisher": "ABC57 (South Bend/Elkhart)",
+          "document_date": "2026-08-27",
+          "source_type": "news",
+          "supports": "Confirms the moratorium runs \"through December 31, 2027\" and applies only within city limits, not the county.",
+          "quote": "The vote, turning out to be a unanimous 9-0 decision, will now put a pause on data center and battery energy storage facility applications through December 31, 2027... this moratorium will only be in play for the city of Elkhart, not the county or any other surrounding areas because of jurisdictional control."
+        }
+      ],
+      "notes": "One source (WVPE) described the pause as lasting \"at least six months\"; two independent sources (ABC57, and multiple Facebook/TV posts from 16 News Now and WNDU) give the more specific Dec. 31, 2027 end date, which is used here as the more precise and more widely corroborated figure."
+    },
+    {
+      "state": "Indiana",
+      "jurisdiction": "Grant County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-03-16 (Board of Commissioners unanimous adoption)",
+      "date_enacted_iso": "2026-03-16",
+      "date_enacted_uncertainty": "exact",
+      "duration": "24 months from adoption (through approx. 2028-03-16), or until a Grant County zoning ordinance amendment addressing data centers is adopted, whichever occurs first",
+      "duration_days": 731,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Ordinance 4-2026, adopted unanimously by the Grant County Board of Commissioners on 2026-03-16, citing IC 36-7-2-8 and IC 36-8-4-603",
+      "trigger": "Halt issuance/receipt of improvement-location permits and related applications for data centers in unincorporated Grant County while the Area Planning Commission studies definitions and drafts zoning standards for siting, installation, operation, and drainage",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. Grant County Ordinance 4-2026, adopted unanimously on 2026-03-16, halts issuance of improvement-location permits and related applications for data center structures in unincorporated Grant County for 24 months or until a zoning amendment addressing data centers is adopted, whichever is sooner. As of late July 2026, an Area Plan Commission subcommittee (three citizen members, four APC members) was still drafting ordinance language, including whether to cover cryptocurrency mining, with no permanent ordinance adopted as of the sources reviewed.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Board of Commissioners adopted a 24-month moratorium on data center improvement-location permits in unincorporated Grant County",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/7682692/Indiana/Grant-County/Grant-County-adopts-24-month-moratorium-on-data-center-permits",
+          "title": "Grant County adopts 24-month moratorium on data-center permits",
+          "publisher": "Citizen Portal (meeting-summary aggregator, sourced from the Grant County Commissioners' March 16, 2026 meeting)",
+          "document_date": "2026-03-16",
+          "source_type": "news",
+          "supports": "Detailed summary of the March 16, 2026 Commissioners' meeting: unanimous adoption of Ordinance 4-2026, its 24-month/whichever-first duration, statutory citations, and the ongoing Area Planning Commission process.",
+          "quote": "The Grant County Board of Commissioners on March 16 adopted Ordinance 4-2026 imposing a 24-month temporary moratorium on improvement-location permits for data centers in unincorporated areas while the Area Planning Commission studies definitions and zoning changes... The ordinance will remain in effect for 24 months or until an amendment to the Grant County zoning ordinance addressing data centers is adopted, whichever occurs first."
+        }
+      ],
+      "notes": "The Chronicle-Tribune's own reporting (\"Comms. sign official data center moratorium\" and \"Commissioners pass data center moratorium\") could not be read past its weather-widget boilerplate even after saving; Citizen Portal's meeting summary is used instead and confidence is set at 0.65 to reflect reliance on a single aggregator source rather than a directly read primary document or a readable news article."
+    },
+    {
+      "state": "Indiana",
+      "jurisdiction": "Wabash County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-08-31 (Board of Commissioners unanimous 3-0 vote, described as \"last Monday\" in a Sept. 9, 2026 report)",
+      "date_enacted_iso": "2026-08-31",
+      "date_enacted_uncertainty": "exact",
+      "duration": "In effect until the Wabash County Zoning Ordinance is amended to address data centers, or for 18 months from adoption (through approx. 2028-02-29), whichever occurs sooner",
+      "duration_days": 547,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Wabash County Board of Commissioners ordinance imposing a temporary moratorium on improvement-location permits for data center development, adopted 3-0 on 2026-08-31 following an Area Plan Commission favorable recommendation",
+      "trigger": "The county's 2022 Zoning Ordinance (Ordinance No. 2022-85-14) does not regulate data centers; the moratorium bars applications/permits for data center structures in all zoning districts of unincorporated Wabash County (and, upon local adoption, the towns of LaFontaine, Lagro, and Roann) while the Zoning Ordinance is amended",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. The Wabash County Board of Commissioners voted 3-0 on 2026-08-31 to adopt a temporary moratorium on data center improvement-location permits and applications in all zoning districts of unincorporated Wabash County, in effect until the Zoning Ordinance is amended to regulate data centers or for 18 months from adoption, whichever is sooner.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Board of Commissioners unanimously adopted a temporary moratorium on data center permits, following the Plan Commission's favorable recommendation",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.in.gov/counties/wabash/files/ordinances/Proposed-Data-Center-Moratorium.pdf",
+          "title": "THE WABASH COUNTY PLAN COMMISSION: Proposal to Impose a Temporary Moratorium on the Issuance of Improvement Location Permits for the Development of Data Centers",
+          "publisher": "Wabash County, Indiana",
+          "document_date": "2026",
+          "source_type": "ordinance",
+          "supports": "Full proposed ordinance text, including the moratorium's scope (all zoning districts, unincorporated county and, upon local adoption, the towns of LaFontaine, Lagro, and Roann) and its 18-month/whichever-first duration clause.",
+          "quote": "This Ordinance shall remain in effect until the Zoning Ordinance is amended to provide regulations related to data center projects within Wabash County, or for a period of eighteen (18) months from the date of adoption, whichever occurs sooner."
+        },
+        {
+          "url": "https://www.plaindealerin.com/news/data-center-moratorium-approved/article_a65e7da7-f0b7-50c6-a6ae-b77ca20ab685.html",
+          "title": "Data center moratorium approved",
+          "publisher": "The Plain Dealer (Peru, IN)",
+          "document_date": "2026-09-09",
+          "source_type": "news",
+          "supports": "Confirms the Board of Commissioners' unanimous 3-0 vote adopting the moratorium, dated to \"last Monday\" (Aug. 31, 2026) relative to the Sept. 9, 2026 publication date.",
+          "quote": "WABASH COUNTY -- A moratorium is now in place on data center projects in Wabash County. The move was unanimously approved, 3-0, by the Wabash County Board of Commissioners. Their vote came last Monday. In attendance was Wabash County Plan Commission Director Brian Campbell, who spoke in favor of the moratorium."
+        }
+      ]
+    },
+    {
+      "state": "Indiana",
+      "jurisdiction": "Owen County",
+      "jurisdiction_type": "County",
+      "date_enacted": "",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Planning Commission recommended a one-year moratorium on data center development and zoning applications; not yet adopted by the Board of Commissioners",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "current_end_date_iso": "",
+      "legal_basis": "Owen County Planning Commission recommendation (undated, prior to Sept. 2026) forwarding a draft moratorium resolution to the Board of Commissioners, alongside a separate draft standards-based data center development ordinance",
+      "trigger": "Urgency tied to state House Bill 10001 permit-deadline language, and local concerns about water use, noise, and light from potential data center development; at an Aug. 20, 2026 Commissioners meeting, public comment favored a permanent ban over a temporary moratorium",
+      "trigger_categories": ["regulatory_gap", "water", "noise", "legal_or_litigation"],
+      "sectors": ["data_center"],
+      "current_status": "Pending as of 2026-09-23. The Owen County Planning Commission voted to recommend that the Board of Commissioners adopt a one-year moratorium on data center development and zoning applications, while continuing to draft a separate standards-based ordinance (closed-loop water systems, light and noise limits, decommissioning requirements). At an Aug. 20, 2026 Commissioners meeting, the board agreed to gather more information and send both a moratorium option and a permanent-ban option forward; no final commissioner vote adopting either was located in sources reviewed as of this date.",
+      "enacted_status": "pending",
+      "affected_projects": "No specific proposed data center identified in sources reviewed",
+      "outcome": "Planning Commission recommended a one-year moratorium to the Board of Commissioners; the Board had not taken final action as of the sources reviewed",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/10008009/Indiana/Owen-County/Owen-County-planning-commission-recommends-oneyear-moratorium-on-datacenter-development-sends-draft-ordinances-for-review",
+          "title": "Owen County planning commission recommends one-year moratorium on data-center development, sends draft ordinances for review",
+          "publisher": "Citizen Portal (meeting-summary aggregator)",
+          "document_date": "2026",
+          "source_type": "news",
+          "supports": "Describes the Planning Commission's vote to recommend a one-year moratorium to the county commissioners, alongside continued work on a standards-based ordinance.",
+          "quote": "The Owen County Planning Commission voted to recommend that the county commissioners adopt a one-year moratorium on data-center development and zoning applications while the planning commission refines two draft documents: a moratorium resolution and a proposed development ordinance..."
+        },
+        {
+          "url": "https://mytownview.com/indiana/owen/meetings/co-1064-owen-county-commisssioners-2026-08-20",
+          "title": "Owen County Commissioners meeting summary, Aug. 20, 2026",
+          "publisher": "MyTownView (meeting-summary aggregator)",
+          "document_date": "2026-08-20",
+          "source_type": "minutes",
+          "supports": "Confirms that as of Aug. 20, 2026 the Board of Commissioners had not adopted either a moratorium or ban, and was still gathering information / awaiting the Planning Commission's review.",
+          "quote": "The Owen County Board of Commissioners addressed a proposed data center ordinance, with public comment heavily favoring a permanent ban over a temporary moratorium due to concerns about water usage, noise pollution, and state override of local control. Commissioner Norm Warner stated the ordinance must first go to the planning commission for review, and the board agreed to gather more information and send both options forward."
+        }
+      ],
+      "notes": "A Reddit post (r/bloomington) claimed the Owen County Commissioners \"just APPROVED a 12 month moratorium,\" but no news article, government page, or other independent source confirming a final commissioners' vote was found; given the Aug. 20, 2026 meeting summary shows the matter still pending, this candidate is recorded as pending rather than active, at reduced confidence."
+    },
+    {
+      "state": "Indiana",
+      "jurisdiction": "Gary",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-09-16 (Mayor's executive order)",
+      "date_enacted_iso": "2026-09-16",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year from the executive order",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Executive Order signed by Gary Mayor Eddie D. Melton on 2026-09-16, pausing approval of new data center development in the city",
+      "trigger": "Resident opposition raised at Common Council forums (March and June 2026); concerns about electric grid reliability heightened by the Aug. 11, 2026 derecho that caused widespread NIPSCO outages in Gary, and about NIPSCO's multi-gigawatt data center supply contracts with Amazon and Google",
+      "trigger_categories": ["grid_energy", "infrastructure_capacity", "regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. Mayor Eddie D. Melton signed an executive order on 2026-09-16 pausing approval of new data center development in Gary for one year, while the city studies effects on the electric grid, water resources, infrastructure, economic development, and quality of life. The scope extends beyond city limits to any data center that would connect to or increase demand on city-owned or -operated infrastructure/utilities. Gary currently has no operating data centers within city limits.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Mayor issued a one-year executive-order moratorium on new data center development",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://gary.capitalbnews.org/gary-data-center-moratorium/",
+          "title": "Gary Mayor Orders One-Year Data Center Moratorium",
+          "publisher": "Capital B Gary",
+          "document_date": "2026-09-17",
+          "source_type": "news",
+          "supports": "Detailed report of the Sept. 16, 2026 executive order: its one-year term, scope (including infrastructure connections beyond city limits), and the stated rationale (grid reliability concerns following the Aug. 11 derecho, NIPSCO's data-center supply contracts).",
+          "quote": "Mayor Eddie Melton has issued an executive order to pause new data center development in the city for one year... Wednesday's executive order pauses approval of new data center projects while the city studies the industry's potential effects on the electric grid, water resources, infrastructure, economic development, and residents' quality of life. The scope notably extends beyond the city limits and applies to any data center, wherever it is located, that would connect to or increase demand on infrastructure or utilities owned or operated by the city."
+        }
+      ],
+      "notes": "This is a mayoral executive order rather than a council ordinance; legal_basis and jurisdiction_type reflect that. Inside Indiana Business also reported this (https://www.insideindianabusiness.com/articles/gary-mayor-orders-one-year-data-center-moratorium, dated Wednesday, September 16, 2026), corroborating the date, but its saved article text was corrupted/unreadable and so is not cited as an evidence quote."
+    },
+    {
+      "state": "Indiana",
+      "jurisdiction": "Steuben County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-09-15 (Board of Commissioners, formalizing an August 2026 Plan Commission recommendation)",
+      "date_enacted_iso": "2026-09-15",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months from adoption",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Resolution adopted by the Steuben County Board of Commissioners on 2026-09-15, formalizing an August 2026 Steuben County Plan Commission recommendation for a six-month moratorium on data center construction",
+      "trigger": "Give local officials time to draft a permanent zoning ordinance governing where data centers may be built; heightened by utility companies' active discussions of routing high-transmission electric lines through the county",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility", "grid_energy"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. The Steuben County Board of Commissioners formally enacted a six-month moratorium on data center construction on 2026-09-15, adopting a resolution that concurs with the Plan Commission's August 2026 recommendation, to give the county time to draft a permanent siting ordinance.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Board of Commissioners formalized a six-month moratorium on data center construction",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://wtvbam.com/2026/09/16/981590/",
+          "title": "Steuben County places six month moratorium on DATA Centers",
+          "publisher": "WTVB (The Voice of Branch County)",
+          "document_date": "2026-09-16",
+          "source_type": "news",
+          "supports": "Confirms the Sept. 15, 2026 Board of Commissioners vote formalizing the six-month moratorium, following the August 2026 Plan Commission recommendation.",
+          "quote": "ANGOLA, IN (WTVB) -- The Steuben County Board of Commissioners officially on Tuesday officially enacted a six-month moratorium on data center construction. The formalized resolution adopts an August recommendation from the Steuben County Plan Commission, temporarily pausing new developments to give local officials time to draft a permanent zoning ordinance governing where these facilities can build."
+        }
+      ],
+      "notes": "kpcnews.com (the Angola, IN Herald Republican) ran two matching headlines (\"Commissioners approve data center moratorium\" and \"6-month data center moratorium in place in Steuben County\") corroborating the same facts, but the saved pages returned only site navigation, not article text, so they are not cited as evidence quotes."
+    }
+  ]
+}

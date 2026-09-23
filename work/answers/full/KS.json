@@ -1,0 +1,888 @@
+{
+  "state_abbrev": "KS",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "ks-sedgwick-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "2026-09-11",
+          "to": "2026-12-25",
+          "reason": "The BoCC voted unanimously a third time on 2026-09-02 to extend the Data Centers Interim Development Control. The signed extension resolution (No. 162-2026) states the control is extended 'until the earlier occurrence of either: (a) December 25, 2026; or (b) until the effective date of Sedgwick County and City of Wichita Zoning Code provisions.' County and news releases describe the deadline colloquially as 'Dec. 24, 2026'; the resolution's own operative text says December 25, which is used here."
+        },
+        "duration": {
+          "from": "Initially 90 days through 2026-04-17 under Resolution 014-2026; on 2026-03-04 the BoCC voted unanimously to extend the moratorium to 2026-06-11; on 2026-05-06 (vote taken at the May 1, 2026 meeting per KWCH) the BoCC voted unanimously a second time to extend the moratorium to 2026-09-11",
+          "to": "Initially 90 days through 2026-04-17 under Resolution 014-2026; on 2026-03-04 the BoCC voted unanimously to extend the moratorium to 2026-06-11 (Resolution No. 162-2026 recites this as 'June 12, 2026'); on 2026-05-06 the BoCC voted unanimously a second time to extend the moratorium to 2026-09-11 [VERIFY extension resolution number]; on 2026-09-02 the BoCC voted unanimously a third time, adopting Resolution No. 162-2026, extending the interim development control to the earlier of 2026-12-25 or the effective date of new Wichita-Sedgwick County Unified Zoning Code data-center provisions, and adding an exemption for data centers that are accessory structures/uses on the same lot as their principal use.",
+          "reason": "Confirmed the third extension from the signed Resolution No. 162-2026 PDF (sedgwickcounty.org) and county/news reporting on the 2026-09-02 vote."
+        },
+        "legal_basis": {
+          "from": "Resolution No. 014-2026 (\"A Resolution Establishing an Interim Development Control and Providing for the Suspension of Certain Types of Use Applications and Building Permits\"), adopted 2026-01-14, citing K.S.A. 12-741 et seq. and K.S.A. 19-101 et seq. police power (confirmed from the signed resolution PDF); extended by a BoCC resolution adopted 2026-03-04 (to 2026-06-11), and extended a second time by a BoCC resolution adopted 2026-05-06 (to 2026-09-11) [VERIFY extension resolution number]",
+          "to": "Resolution No. 014-2026 (\"A Resolution Establishing an Interim Development Control and Providing for the Suspension of Certain Types of Use Applications and Building Permits\"), adopted 2026-01-14, citing K.S.A. 12-741 et seq. and K.S.A. 19-101 et seq. police power; extended by a BoCC resolution adopted 2026-03-04 (to 2026-06-11), and extended a second time by a BoCC resolution adopted 2026-05-06 (to 2026-09-11) [VERIFY extension resolution number: the official OnBase minutes for the 2026-05-06 meeting record the motion and unanimous vote but do not display an assigned resolution number in the fetched transcript; resolutions 089-2026 through 094-2026 assigned earlier in that same meeting cover unrelated agenda items]; extended a third time by Resolution No. 162-2026 (signed PDF), adopted 2026-09-02, extending the control to the earlier of 2026-12-25 or the effective date of new zoning code provisions for data centers.",
+          "reason": "Located and read the signed third-extension resolution (Resolution No. 162-2026, sedgwickcounty.org/media/74222/0910-26-162-2026_aod.pdf), which supplies its own number and recites the prior extension history. Could not locate a resolution number specifically for the 2026-05-06 second extension despite checking the official OnBase meeting minutes for that date and multiple news searches; the marker remains open."
+        },
+        "current_status": {
+          "from": "Active through 2026-09-11. After the initial 2026-03-04 extension (to 2026-06-11), the BoCC voted unanimously again on 2026-05-06 to extend the interim development control a second time, to 2026-09-11, at planning staff's request to satisfy Kansas's 20-day public-notice requirement before the Metropolitan Area Planning Commission considers new data-center zoning rules.",
+          "to": "Active as of 2026-09-23. The BoCC voted unanimously a third time on 2026-09-02 (Resolution No. 162-2026) to extend the interim development control to the earlier of 2026-12-25 or the effective date of new Wichita-Sedgwick County Unified Zoning Code data-center provisions (county and KWCH/KAKE/Times-Sentinel reporting describe the deadline colloquially as 'Dec. 24, 2026'). Planning and zoning staff continue drafting the data-center zoning rules; the county says no applications for data centers are currently pending.",
+          "reason": "Updates the status to reflect the confirmed third extension and refreshes the 'as of' date per the signed resolution and Sedgwick County's own Sept. 2, 2026 'This Week in Sedgwick County' release plus KWCH reporting."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY extension resolution number]",
+          "resolution": "still_unverifiable",
+          "note": "Fetched the official Sedgwick County OnBase minutes for the 2026-05-06 BoCC meeting (imaging.sedgwickcounty.org, id=1400) in full; the transcript records the motion by Commissioner Wise and the unanimous vote to extend the interim development control to Sept. 11, 2026, but does not display a 'County Clerk Assigned Resolution Number' line immediately after that vote (the numbers 089-2026 through 094-2026 assigned earlier in that same meeting cover unrelated agenda items -- a proclamation, an appointment, etc.). Searched sedgwickcounty.org and web search for a standalone PDF of the second-extension resolution and did not find one. The third extension (2026-09-02) IS confirmed as Resolution No. 162-2026 from its own signed PDF, which is now cited in legal_basis and current_status."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.sedgwickcounty.org/media/74222/0910-26-162-2026_aod.pdf",
+          "title": "A Resolution Extending an Interim Development Control...",
+          "publisher": "Sedgwick County, Kansas (Board of County Commissioners)",
+          "document_date": "2026-09-02",
+          "source_type": "resolution",
+          "supports": "Signed third-extension resolution, Resolution No. 162-2026, adopted 2026-09-02, extending the interim development control to the earlier of Dec. 25, 2026 or the effective date of new zoning code provisions; recites the prior extension history (to June 12/11, 2026 and Sept. 11, 2026).",
+          "quote": "WHEREAS, the Board of County Commissioners believes it would be appropriate to extend the existing interim development control until the earlier occurrence of either: (a) December 25, 2026; or (b) until the effective date of Sedgwick County and City of Wichita Zoning Code provisions on this topic..."
+        },
+        {
+          "url": "https://www.sedgwickcounty.org/communications/news-releases/this-week-in-sedgwick-county-sept-2-2026/",
+          "title": "This Week in Sedgwick County - Sept. 2, 2026",
+          "publisher": "Sedgwick County, Kansas",
+          "document_date": "2026-09-02",
+          "source_type": "other",
+          "supports": "Official county confirmation that the BoCC approved an extension of the Data Centers Interim Development Control to Dec. 24, 2026 at its Sept. 2, 2026 meeting.",
+          "quote": "BoCC approved an extension of the Data Centers Interim Development Control to Dec. 24, 2026."
+        },
+        {
+          "url": "https://www.kwch.com/2026/09/02/sedgwick-county-extends-pause-data-center-applications/",
+          "title": "Sedgwick County extends pause on data center applications through Dec. 24",
+          "publisher": "KWCH",
+          "document_date": "2026-09-02",
+          "source_type": "news",
+          "supports": "News confirmation of the third extension vote and recap of the extension history (Jan. 15 initial 90-day moratorium, March 4 extension to June 11, May extension to Sept. 11).",
+          "quote": "The commission's specific action was to 'approve extending interim development control on data centers through December 24.'"
+        },
+        {
+          "url": "https://imaging.sedgwickcounty.org/OnBaseAgendaOnline/Meetings/ViewMeeting?id=1400&doctype=2",
+          "title": "BOCC Regular Meeting - 5/6/2026 9:00:00 AM (official minutes)",
+          "publisher": "Sedgwick County, Kansas",
+          "document_date": "2026-05-06",
+          "source_type": "minutes",
+          "supports": "Official minutes recording the second extension: staff presentation, Commissioner Wise's motion to extend the Interim Developmental Control for Data Centers three months through Sept. 11, 2026, and the unanimous 5-0 vote.",
+          "quote": "Commissioner Wise moved to approve an extension of the Interim Developmental Control for Data Centers for a total of three months through September 11, 2026, adopt the attached resolution and authorize publication..."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ks-marion-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-06-01",
+          "reason": "Located and read the signed extension resolution (Resolution No. 2026-19, marioncoks.net) which states the moratorium is extended one year and 'shall remain in effect until June 1, 2027.' No further extension, replacement, or rescission was found in Marion County news coverage through 2026-09-23."
+        },
+        "current_status": {
+          "from": "Active; extended through 2027-06-01 by Resolution No. 2026-19 (unanimous BoCC vote, adopted 2026-05-11).",
+          "to": "Active as of 2026-09-23; extended through 2027-06-01 by Resolution No. 2026-19 (unanimous 5-0 BoCC vote, adopted 2026-05-11), confirmed against the signed resolution text. No further Marion County commission action on the moratorium was found in news coverage through 2026-09-23.",
+          "reason": "Re-verified against the signed resolution and refreshed the as-of date; no change in substance found."
+        }
+      },
+      "verify_resolutions": [],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.marioncoks.net/DocumentCenter/View/2111/2026-19-Extending-the-Temporary-Moratorium-on-the-Acceptance-of-Applications-Relating-to-the-Establishment-Operation-or-Expansion-of-Data-Centers",
+          "title": "Resolution No. 2026-19, A Resolution Extending the Temporary Moratorium...",
+          "publisher": "Marion County, Kansas",
+          "document_date": "2026-05",
+          "source_type": "resolution",
+          "supports": "Signed extension resolution: the moratorium established by Resolution No. 2026-12 is extended one additional year and remains in effect until June 1, 2027.",
+          "quote": "The temporary moratorium established by Resolution No. 2026-12 is hereby extended for an additional period of one (1) year. ... The moratorium shall remain in effect until June 1, 2027, unless earlier terminated, amended, or further extended..."
+        },
+        {
+          "url": "https://www.kansas.com/news/politics-government/article315352587.html",
+          "title": "South central Kansas races to regulate data center growth",
+          "publisher": "Wichita Eagle",
+          "document_date": "2026-08",
+          "source_type": "news",
+          "supports": "Confirms Marion County has an active data-center moratorium as of the article's publication (no mention of further change), corroborating the row is still current.",
+          "quote": "Nearby counties are also figuring out how to contend with the centers."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ks-mcpherson-county-2025",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "changes": {
+        "duration_kind": {
+          "from": "until_date",
+          "to": "indefinite",
+          "reason": "The temporary moratorium was superseded early, on 2026-08-31, by Resolution 2026-21, which permanently bans the covered uses in unincorporated McPherson County with no stated end date ('the ban has no end date; it stands unless a future commission votes to undo it' -- Citizen Journal)."
+        },
+        "duration": {
+          "from": "Initially through 2026-03-01; later extended to 2026-12-01 (Wichita Eagle and Citizen Journal reporting); extension instrument adopted alongside extensions of related BESS and hydrogen moratoria to 2026-09-01 [VERIFY signed extension resolution]",
+          "to": "Initially adopted 2025-08-04 (Resolution 2025-14) with an initial end date of 2026-03-01; later extended to 2026-12-01 (confirmed via convergent independent reporting: Wichita Eagle 2026-08 report and Citizen Journal's 2026-08-31 article both state the county's temporary freeze was 'due to expire Dec. 1'; the primary signed extension-resolution PDF was not located). Superseded early: on 2026-08-31 the McPherson County Commission voted unanimously (3-0) to adopt Resolution 2026-21, permanently banning data centers and utility-scale battery storage from unincorporated county land (and barring hydrogen energy systems except at refineries), ending the moratorium roughly three months before its scheduled Dec. 1, 2026 expiration. The ban carries no stated end date.",
+          "reason": "Resolves the duration VERIFY marker via convergent independent reporting (Wichita Eagle, servercountry.org, Citizen Journal all agree on the Dec. 1, 2026 extended date) and adds the confirmed early replacement with Resolution 2026-21, sourced from Citizen Journal's detailed report on the 2026-08-31 vote."
+        },
+        "legal_basis": {
+          "from": "Resolution 2025-14 (adopted by unanimous voice vote per Citizen Portal AI summary of August 4, 2025 commission meeting); primary signed text not yet captured [VERIFY signed copy]",
+          "to": "Original temporary moratorium: Resolution 2025-14 (adopted by unanimous voice vote per Citizen Portal AI summary of August 4, 2025 commission meeting); primary signed text not yet captured [VERIFY signed copy]. Superseding instrument: Resolution 2026-21, adopted 2026-08-31 by unanimous (3-0) vote of the McPherson County Commission (moved by Commissioner Tom Kueser, seconded by Chairman Keith Becker), permanently banning data centers and utility-scale battery storage from all county land outside city limits and barring hydrogen energy systems except at refineries, as part of a broader rewrite of the county's zoning rules following a 5-2 planning board recommendation (2026-08-17) to ban the uses.",
+          "reason": "Adds the confirmed superseding resolution and its adoption details from Citizen Journal's report (citing planning/zoning administrator Jon Kinsey and the meeting record); the original 2025-14 VERIFY marker on the signed-copy text could not be resolved this pass (no primary PDF located), so it remains in the field."
+        },
+        "current_status": {
+          "from": "Active through 2026-12-01 based on Citizen Journal \"Commissioners extend moratoriums\" summary and Wichita Eagle reporting",
+          "to": "Replaced 2026-08-31; the McPherson County Commission voted unanimously (3-0) to adopt Resolution 2026-21, permanently banning data centers and utility-scale battery storage from all county land outside city limits (and barring hydrogen energy systems except at refineries), ending the temporary moratorium roughly three months before its scheduled Dec. 1, 2026 expiration. The ban has no end date and remains in force unless a future commission repeals it. The McPherson County Planning and Zoning Board had recommended the ban 5-2 on 2026-08-17 after a 13-month freeze, roughly 90 research documents, and a 147-person planning board hearing on 2026-08-10.",
+          "reason": "Updates status to reflect the confirmed replacement with a dated sentence per the answer-file convention, sourced from Citizen Journal's detailed report."
+        },
+        "outcome": {
+          "from": "Planning board and county staff directed to develop zoning or comprehensive-plan amendments.",
+          "to": "McPherson County banned data centers, utility-scale battery storage, and hydrogen energy systems (except at refineries) outright via Resolution 2026-21 (2026-08-31), rather than adopting permanent siting/conditional-use regulations -- among the first Kansas counties to do so. The same rewrite requires new or expanded industrial/warehouse buildings over 10,000 sq ft to disclose planned electricity draw and backup generation/cooling equipment, and requires new industrial land uses to go through a public hearing rather than a staff-issued permit.",
+          "reason": "Documents the actual outcome (a permanent ban plus a broader zoning rewrite) in place of the earlier 'staff directed to develop amendments' placeholder text, per Citizen Journal's detailed report on the 2026-08-31 vote."
+        },
+        "sectors": {
+          "from": "[\"data_center\", \"cryptocurrency_mining\"]",
+          "to": "[\"data_center\", \"cryptocurrency_mining\", \"battery_storage\"]",
+          "reason": "The superseding Resolution 2026-21 explicitly covers utility-scale battery storage in addition to data centers; adding battery_storage to reflect what is now regulated at this jurisdiction."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "duration",
+          "marker": "[VERIFY signed extension resolution]",
+          "resolution": "confirmed",
+          "note": "Not located as a standalone signed PDF, but confirmed via convergent independent reporting: the Wichita Eagle's August 2026 'South central Kansas races to regulate data center growth' article and Citizen Journal's 2026-08-31 article both independently state the county's data-center freeze was due to expire Dec. 1, 2026, consistent with the existing row text. Given the moratorium has since been superseded by Resolution 2026-21 (2026-08-31), this detail is now largely historical."
+        },
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY signed copy]",
+          "resolution": "still_unverifiable",
+          "note": "Searched McPherson County's website and general web search for a signed PDF of Resolution 2025-14 (the original August 2025 moratorium) and did not locate one this pass; focus of this pass was the confirmed 2026-08-31 replacement. Marker remains in the legal_basis text."
+        }
+      ],
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "url": "https://www.citizenjournal.us/mcpherson-county-bans-data-centers-and-utility-scale-battery-storage/",
+          "title": "McPherson County Bans Data Centers and Utility-Scale Battery Storage",
+          "publisher": "Citizen Journal",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Detailed report that the McPherson County Commission voted unanimously 3-0 on 2026-08-31 to adopt Resolution 2026-21, permanently banning data centers, large battery storage, and (except at refineries) hydrogen energy systems from unincorporated county land; notes the freeze was due to expire Dec. 1, 2026 and the ban has no end date.",
+          "quote": "The McPherson County Commission voted unanimously Monday, Aug. 31, to ban data centers and large battery-storage installations from all county land outside city limits. The new zoning rules, adopted as Resolution 2026-21, also bar hydrogen energy systems except at refineries."
+        },
+        {
+          "url": "https://www.adastraradio.com/mac-news/mcpherson-county-zoning-board-blocks-data-centers/",
+          "title": "McPherson County Zoning Board Votes to Block Data Centers",
+          "publisher": "Ad Astra Radio",
+          "document_date": "2026-08-18",
+          "source_type": "news",
+          "supports": "Confirms the McPherson County Planning and Zoning Board voted 5-2 on 2026-08-17 to recommend banning data centers, following the moratorium adopted the prior year, and that the recommendation was forwarded to the county commission.",
+          "quote": "After nearly two years of research by the McPherson County Planning and Zoning Board, members listened to feedback from the community and used a 5-2 vote Monday night to ban data centers in the unincorporated area of McPherson County."
+        },
+        {
+          "url": "https://www.kansas.com/news/politics-government/article315352587.html",
+          "title": "South central Kansas races to regulate data center growth",
+          "publisher": "Wichita Eagle",
+          "document_date": "2026-08",
+          "source_type": "news",
+          "supports": "Independent confirmation (alongside Citizen Journal) that McPherson County's moratorium was set to run until Dec. 1, 2026 prior to the early replacement.",
+          "quote": "McPherson County, north of Harvey, has a moratorium on data centers in unincorporated areas until Dec. 1, 2026."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ks-harvey-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {},
+      "verify_resolutions": [],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.kansas.com/news/politics-government/article315352587.html",
+          "title": "South central Kansas races to regulate data center growth",
+          "publisher": "Wichita Eagle",
+          "document_date": "2026-08",
+          "source_type": "news",
+          "supports": "Confirms Harvey County's moratorium is still active as of the article and consistent with the recorded 2029-01-01 end date ('set to expire at the end of 2028').",
+          "quote": "The Harvey County Commission unanimously passed its own moratorium on data center developments earlier this year. It is set to expire at the end of 2028."
+        }
+      ],
+      "notes": "Searched multiple times ('Harvey County Kansas data center zoning update 2026', Google News since 2026-08-01) for any extension, repeal, or replacement action; found no news of any change. The Wichita Eagle's August 2026 reporting is the most recent independent confirmation located and is consistent with the existing row."
+    },
+    {
+      "moratorium_id": "ks-lyon-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {},
+      "verify_resolutions": [],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ksnt.com/news/local-news/moratorium-on-data-centers-approved-by-lyon-county-commissioners/",
+          "title": "Moratorium on data centers approved by Lyon County commissioners",
+          "publisher": "KSNT",
+          "document_date": "2026-07-23",
+          "source_type": "news",
+          "supports": "Confirms Resolution No. 12-26 (data centers and battery energy storage systems), adopted 2026-07-23, remains in effect until Jan. 22, 2027, matching the existing row exactly.",
+          "quote": "Resolution No. 12-26 for data centers and battery energy storage systems \u2013 Jan. 22, 2027."
+        }
+      ],
+      "notes": "No news found of any extension, repeal, or replacement as of 2026-09-23; the resolution's own stated end date (2027-01-22) has not yet passed."
+    },
+    {
+      "moratorium_id": "ks-lyon-county-2026-2",
+      "outcome": "confirmed_unchanged",
+      "changes": {},
+      "verify_resolutions": [],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.ksnt.com/news/local-news/moratorium-on-data-centers-approved-by-lyon-county-commissioners/",
+          "title": "Moratorium on data centers approved by Lyon County commissioners",
+          "publisher": "KSNT",
+          "document_date": "2026-07-23",
+          "source_type": "news",
+          "supports": "Confirms Resolution No. 13-26 (commercial solar energy conversion systems), adopted 2026-07-23, remains in effect until Dec. 1, 2026, matching the existing row exactly.",
+          "quote": "Resolution No. 13-26 for commercial solar energy conversion systems \u2013 Dec. 1, 2026."
+        }
+      ],
+      "notes": "No news found of any extension, repeal, or replacement as of 2026-09-23; the resolution's own stated end date (2026-12-01) has not yet passed."
+    },
+    {
+      "moratorium_id": "ks-riley-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Three independent contemporaneous news sources (The Mercury, KMAN/1350kman.com, and a Citizen Portal AI meeting summary) all agree the Riley County Commission voted May 18, 2026 to adopt the six-month data center/BESS moratorium and that it took effect on publication that same week, running through Nov. 12, 2026. This convergence resolves the prior 'unverified' status, though a signed resolution PDF/official minutes with a resolution number was still not located (see verify_resolutions)."
+        },
+        "date_enacted": {
+          "from": "2026-05-18 (per news reporting: commissioners agreed in principle around April 2026, but the moratorium resolution was not signed/effective until May 18, 2026)",
+          "to": "2026-05-18. Confirmed by three independent sources: The Mercury ('Riley County commissioners on Monday implemented a temporary moratorium...'), KMAN/1350kman.com ('commissioners signed a resolution Monday'), and a Citizen Portal AI summary ('Riley County commissioners voted May 18 to adopt...'). Commissioners had discussed the idea in principle earlier (around April 2026), but the resolution was not signed/effective until May 18, 2026.",
+          "reason": "Reflects the convergent-source confirmation of the May 18, 2026 adoption date."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY resolution number from official minutes]",
+          "resolution": "still_unverifiable",
+          "note": "Checked The Mercury, KMAN/1350kman.com, WIBW, and a Citizen Portal AI meeting summary; none publish a resolution number for the Riley County data center/BESS moratorium. Searched rileycountyks.gov directly (web search) without finding a posted resolution PDF. The marker remains open."
+        }
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://themercury.com/news/riley-county-places-temporary-pause-on-data-centers/article_5b1e4a71-90d4-426b-876d-14dc851cdb7b.html",
+          "title": "Riley County places temporary pause on data centers",
+          "publisher": "The Mercury (Manhattan, KS)",
+          "document_date": "2026-05-18",
+          "source_type": "news",
+          "supports": "Confirms the Riley County Commission implemented the moratorium on Monday, May 18, 2026, and describes the six-month study rationale.",
+          "quote": "Riley County commissioners on Monday implemented a temporary moratorium on data centers and battery energy storage systems."
+        },
+        {
+          "url": "https://1350kman.com/2026/05/end-date-set-for-riley-countys-data-center-moratorium/",
+          "title": "End date set for Riley County's data center moratorium",
+          "publisher": "1350 KMAN",
+          "document_date": "2026-05",
+          "source_type": "news",
+          "supports": "Confirms commissioners signed the resolution 'Monday' (May 18, 2026) and that it runs through Nov. 12.",
+          "quote": "The Riley County Commission agreed last month to adopt a moratorium, but the implementation process didn't start until commissioners signed a resolution Monday. The resolution will go into effect from the time it's published in The Mercury until Nov. 12."
+        },
+        {
+          "url": "https://citizenportal.ai/articles/8352608/kansas/riley/riley-county-adopts-six-month-moratorium-on-data-centers-and-battery-storage-projects",
+          "title": "Riley County adopts six-month moratorium on data centers and battery-storage projects",
+          "publisher": "Citizen Portal (AI meeting summary)",
+          "document_date": "2026-05-18",
+          "source_type": "news",
+          "supports": "Independently confirms the May 18 vote date, the Nov. 12, 2026 expiration, and that county counsel described the moratorium as a pause rather than a permanent prohibition.",
+          "quote": "Riley County commissioners voted May 18 to adopt a six-month moratorium on new applications for data centers and battery energy storage systems while staff drafts regulatory standards and definitions."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ks-saline-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {},
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY signed resolution from Saline County clerk]",
+          "resolution": "still_unverifiable",
+          "note": "Could not locate the signed resolution PDF on salinecountyks.gov or via web search. Did locate a Citizen Portal AI summary of the March 17, 2026 meeting (4-0 vote) and a Salina Post interview with Commissioner Joe Hay, who describes the moratorium as three sequential one-year pauses (data centers, then nuclear, then hydrogen), consistent with the existing row's 365-day/2027-03-17 data-center-specific figures. Note a secondary aggregator (servercountry.org, citing a Salina311 post that could not be independently retrieved -- it 404'd on refetch) describes the same action as effective as a single block until March 1, 2029; the citizenportal.ai summary of the meeting itself records the county administrator proposing that single March 1, 2029 date for the whole resolution while planning staff simultaneously described tackling 'one topic per year' with data centers first. Given this ambiguity and the absence of the primary resolution text, the existing 365-day/2027-03-17 reading (sourced to the commissioner's own on-record account) is left unchanged, and the marker remains unresolved."
+        }
+      ],
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/7891674/kansas/saline-county/saline-county-adopts-temporary-moratorium-on-data-centers-nuclear-and-hydrogen-facilities-in-unincorporated-areas",
+          "title": "Saline County adopts temporary moratorium on data centers, nuclear and hydrogen facilities in unincorporated areas",
+          "publisher": "Citizen Portal (AI meeting summary)",
+          "document_date": "2026-03-17",
+          "source_type": "news",
+          "supports": "Confirms the 4-0 vote on 2026-03-17 and that the county administrator proposed a three-year period 'ending March 1, 2029... so the planning commission can take up each topic,' while planning staff said data centers specifically could 'probably have one wrapped up in one year.'",
+          "quote": "County administrator Philip Smith presented the proposal as a temporary pause that staff and the county counselor treat as a moratorium, suggesting a three-year period ending March 1, 2029... Planning and zoning administrator Tim Hamilton told commissioners the planning commission would likely need about a year for each topic (data centers first)..."
+        },
+        {
+          "url": "https://salinapost.com/posts/72efeb72-d4d2-4a40-bb06-f445635cd6d4",
+          "title": "Saline County Commissioner discusses three year moratorium on data centers and energy facilities",
+          "publisher": "Salina Post",
+          "document_date": "2026",
+          "source_type": "news",
+          "supports": "Commissioner Joe Hay, in his own words, describes the three-year moratorium as structured one year per category: data centers, then nuclear, then hydrogen -- consistent with the existing row's 365-day data-center figure.",
+          "quote": "He further added the three year moratorium includes the following: - One year= Data center. - One year= Nuclear power facilities. - One year= Hydrogen-based energy facilities."
+        },
+        {
+          "url": "https://servercountry.org/policy/kansas/",
+          "title": "Kansas Data Center Policy",
+          "publisher": "Server Country",
+          "document_date": "2026-07-17",
+          "source_type": "other",
+          "supports": "Secondary aggregator describing the moratorium as effective until March 1, 2029 (citing a Salina311 post that could not be independently retrieved on refetch -- it returned HTTP 404), illustrating the ambiguity between a single 2029 end date and the one-year-per-category reading.",
+          "quote": "Saline County. The Saline County Commission adopted a moratorium covering data centers and other emerging technologies that is effective until March 1, 2029."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ks-kingman-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {},
+      "verify_resolutions": [],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "url": "https://www.kansas.com/news/politics-government/article315352587.html",
+          "title": "South central Kansas races to regulate data center growth",
+          "publisher": "Wichita Eagle",
+          "document_date": "2026-08",
+          "source_type": "news",
+          "supports": "Confirms Kingman County's moratorium is an 18-month pause set to expire in August 2027 (matching the existing row's 540-day/2026-02-09 start), and that the planning and zoning board is actively drafting regulations.",
+          "quote": "Kingman County, southwest of Sedgwick, has a year-and-a-half long moratorium that is set to expire in August 2027, according to planning director Amanda Stucky. 'Our planning and zoning board is in the process of making regulations that will protect our community,' Stucky said."
+        }
+      ],
+      "notes": "Not in this agent's packet, but discovered as an existing row during the state-list check (scripts/show_rows.py --state KS --list). Added a confirming decision since I found direct evidence during Process B research; no other packet item covers it."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Kansas",
+      "jurisdiction": "Neosho County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-05-19 (signed resolution)",
+      "date_enacted_iso": "2026-05-19",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Effective upon adoption/publication and remaining in effect until June 1, 2027, unless extended, terminated early, or amended by subsequent resolution.",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "current_end_date_iso": "2027-06-01",
+      "legal_basis": "Resolution R-26-7, \"Providing for a Temporary Moratorium on the Acceptance of Applications Relating to the Establishment, Operation or Expansion of Data Centers, Nuclear Power Generation Facilities, Hydrogen-Based Energy Facilities, and Battery Energy Storage Systems within the Unincorporated Areas of Neosho County,\" adopted and signed 2026-05-19 by Chairman Gail Klaassen, citing K.S.A. 19-101 et seq. police power.",
+      "trigger": "The Neosho County Commission had already developed regulations for wind, commercial-scale solar, and battery energy storage, but had received no applications for data centers, nuclear power generation, hydrogen-based energy, or (further) battery storage facilities; commissioners wanted time to review and potentially adopt land development regulations for these uses before any applications arrived.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "land_use_compatibility"
+      ],
+      "sectors": [
+        "data_center",
+        "battery_storage",
+        "general"
+      ],
+      "current_status": "Active as of 2026-09-23; runs through 2027-06-01 absent further action.",
+      "enacted_status": "active",
+      "affected_projects": "No applications for the covered uses had been submitted in unincorporated Neosho County as of adoption.",
+      "outcome": "Suspends acceptance/processing of building permits, site plan/architectural reviews, variances, floodplain permits, conditional use permits, grading permits, rezoning applications, and occupancy permits for data centers, nuclear power generation facilities, hydrogen-based energy facilities, and battery energy storage systems in unincorporated Neosho County during the moratorium period, while the Commission reviews potential regulations.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.neoshocountyks.org/DocumentCenter/View/635/R-26-E",
+          "title": "Resolution R-26-7 (signed)",
+          "publisher": "Neosho County, Kansas",
+          "document_date": "2026-05-19",
+          "source_type": "resolution",
+          "supports": "Full signed resolution text: scope (data centers, nuclear power generation, hydrogen-based energy, battery energy storage), definitions, suspension of applications/permits, and the June 1, 2027 expiration date.",
+          "quote": "This Resolution shall take effect and be in full force and effect from and after its adoption and publication in the official county newspapers and shall remain in effect until June 1, 2027. This resolution adopted and signed this 19th day of May, 2026, by the Board of County Commissioners, Neosho County, Kansas."
+        }
+      ],
+      "notes": "Found via a web search for Kansas resolutions matching the Saline County moratorium's phrasing pattern; Neosho County (seat: Erie, KS) does not appear in the current KS inventory."
+    },
+    {
+      "state": "Kansas",
+      "jurisdiction": "Franklin County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-09-02",
+      "date_enacted_iso": "2026-09-02",
+      "date_enacted_uncertainty": "exact",
+      "duration": "From the Sept. 2, 2026 commission meeting through Dec. 31, 2028.",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "current_end_date_iso": "2028-12-31",
+      "legal_basis": "Franklin County Board of County Commissioners resolution adopted unanimously at the Sept. 2, 2026 meeting (resolution number not given in sources retrieved); the Aug. 26, 2026 meeting first indicated commissioners' intent to place a moratorium on data centers.",
+      "trigger": "Not detailed in the sources retrieved beyond the commission's stated intent (expressed Aug. 26, 2026) to pause data center development while the county considers its approach.",
+      "trigger_categories": [
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23; runs through 2028-12-31 absent further action.",
+      "enacted_status": "active",
+      "affected_projects": "Not specified in the sources retrieved.",
+      "outcome": "Temporary stop to the planning, establishment, construction, and special-use-permit applications for data centers or related activities/components in unincorporated Franklin County.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://ransonfinancial.com/2026/09/10/data-center-moratorium-declared-by-county/",
+          "title": "Data center moratorium declared by county",
+          "publisher": "Ranson Financial Group (republishing Ottawa Herald reporting)",
+          "document_date": "2026-09-10",
+          "source_type": "news",
+          "supports": "Confirms the Franklin County Commission unanimously approved a temporary data center moratorium at its Sept. 2, 2026 meeting, running through Dec. 31, 2028, covering planning, establishment, construction, and special-use-permit applications.",
+          "quote": "At the Franklin County Commission Meeting on Sept. 2, the commission unanimously approved a temporary moratorium on data center activities in the county's unincorporated areas from the meeting through Dec. 31, 2028."
+        },
+        {
+          "url": "https://www.ottawaherald.com/data-center-moratorium-declared-by-county/",
+          "title": "Data center moratorium declared by county",
+          "publisher": "The Ottawa Herald",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Original local-paper report of the same Sept. 2, 2026 Franklin County Commission action (page loaded with only a lead sentence in the fetch; full text corroborated by the Ranson Financial republication).",
+          "quote": "At the Franklin County Commission Meeting on Sept. 2, the commission unanimously approved a temporary moratorium on data center activities\u2026"
+        }
+      ],
+      "notes": "Distinct from the citizen-initiated ballot petition to ban data centers in the City of Ottawa (Franklin County seat), which as of 2026-09-23 was still pending a court ruling on validity and is a proposed permanent ban rather than a moratorium/pause -- not recorded as a candidate per the codebook's guidance that a permanent-ban ballot measure is out of scope unless framed as a moratorium."
+    },
+    {
+      "state": "Kansas",
+      "jurisdiction": "Bourbon County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-06-15",
+      "date_enacted_iso": "2026-06-15",
+      "date_enacted_uncertainty": "exact",
+      "duration": "365 days from adoption (2026-06-15 through approximately 2027-06-15), succeeding a prior moratorium that had expired the day before adoption.",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-06-15",
+      "legal_basis": "Resolution 24-26, adopted 2026-06-15 by a 3-0 vote (Commissioners Joe Allen and Gregg Motley abstaining).",
+      "trigger": "Continuation of the county's prior development moratorium, which had expired the day before this resolution was adopted, while the county works with a hired consultant (Confluence) to develop a comprehensive plan and zoning regulations.",
+      "trigger_categories": [
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center",
+        "cryptocurrency_mining",
+        "general"
+      ],
+      "current_status": "Active as of 2026-09-23; runs approximately through 2027-06-15 absent further action.",
+      "enacted_status": "active",
+      "affected_projects": "Commercial solar projects from Tennyson Creek Solar LLC, Tennyson Creek Solar II LLC, and Hinton Creek Solar LLC are explicitly exempted from the moratorium.",
+      "outcome": "365-day freeze on utility-scale power generation, cryptocurrency mining, data center, and waste disposal operations in Bourbon County while the county develops a comprehensive plan and zoning regulations with consultant Confluence.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.bourboncountymonitor.com/bourbon-county-enacts-365-day-development-moratorium-selects-planning-zoning-consulting-firm/",
+          "title": "Bourbon County Enacts 365-Day Development Moratorium, Selects Planning/Zoning Consulting Firm",
+          "publisher": "Bourbon County Monitor",
+          "document_date": "2026-06-15",
+          "source_type": "news",
+          "supports": "Detailed report of the Bourbon County Commission's 2026-06-15 meeting: 3-0 adoption of Resolution 24-26, a 365-day moratorium on utility-scale power generation, crypto mining, data centers, and waste disposal, with named solar-project exemptions; also notes the prior moratorium had just expired.",
+          "quote": "The commission enacted a 365-day temporary freeze on utility-scale power generation, crypto mining, data center and waste disposal operations under Resolution 24-26. The freeze passed 3-0, with Commissioners Joe Allen and Gregg Motley abstaining."
+        }
+      ],
+      "notes": "This is the second/renewed Bourbon County moratorium of 2026 (search results also showed an earlier Resolution 07-26, a 180-day industrial-development moratorium from around January 2026, which had lapsed by June 14, 2026); only the current Resolution 24-26 instrument is recorded here."
+    },
+    {
+      "state": "Kansas",
+      "jurisdiction": "Miami County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Early 2026, precise adoption date not confirmed in sources retrieved (commissioners were still considering the moratorium as of a Feb. 19, 2026 KSHB report and a Feb. 23, 2026 KOFO report; a May 2026 KSHB follow-up refers to the moratorium as already adopted 'earlier this year')",
+      "date_enacted_iso": "2026-03",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Three years from adoption, restricting data centers, battery storage, and similar technologies in unincorporated areas; does not apply to the City of Osawatomie's in-city 'Project Catalyst' data center site.",
+      "duration_days": 1095,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Miami County Board of County Commissioners resolution (number and exact adoption date not confirmed in sources retrieved); proposed by Presiding Commissioner George Pretz following a Feb. 2026 pre-development agreement between the City of Osawatomie and Alcove Development for a $1 billion data center.",
+      "trigger": "A proposed ~$1 billion, 600,000-sq-ft data center (Alcove Development's 'Project Catalyst,' later sited within Osawatomie city limits) prompted resident concern over utility costs, water use, and quality of life; commissioners wanted time to study impacts before allowing similar development in unincorporated areas.",
+      "trigger_categories": [
+        "specific_project",
+        "water",
+        "grid_energy",
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center",
+        "battery_storage",
+        "solar",
+        "wind"
+      ],
+      "current_status": "Reported as active/in force as of a May 2026 KSHB follow-up story; exact current status as of 2026-09-23 not independently re-confirmed this pass.",
+      "enacted_status": "active",
+      "affected_projects": "Excludes the City of Osawatomie's in-city 'Project Catalyst' Alcove Development data center site (city land is outside county zoning jurisdiction).",
+      "outcome": "Pauses new applications for data centers, battery storage, and similar technologies in unincorporated Miami County while the county studies regulations, mirroring an earlier county moratorium on solar and wind projects.",
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "url": "https://www.kshb.com/news/local-news/kansas/miami-county/project-catalyst-data-center-developer-in-osawatomie-offers-update-touting-economic-opportunity",
+          "title": "Project Catalyst data center developer in Osawatomie offers update touting economic opportunity",
+          "publisher": "KSHB 41",
+          "document_date": "2026-05-29",
+          "source_type": "news",
+          "supports": "Confirms Miami County 'did pass a moratorium earlier this year restricting data centers, battery storage and similar technologies for three years,' applying only to unincorporated areas (not Osawatomie's in-city site).",
+          "quote": "While Miami County did pass a moratorium earlier this year restricting data centers, battery storage and similar technologies for three years, it only applies to unincorporated areas in the county."
+        },
+        {
+          "url": "https://www.kshb.com/news/local-news/kansas/miami-county/miami-county-commission-considers-pause-on-data-center-construction-following-nearby-1b-proposal",
+          "title": "Miami County Commission considers pause on data center construction following nearby $1B proposal",
+          "publisher": "KSHB 41",
+          "document_date": "2026-02-19",
+          "source_type": "news",
+          "supports": "Records the commission's Feb. 19, 2026 discussion proposing a moratorium on data centers, solar arrays, wind farms, and battery storage in unincorporated areas, before the moratorium's eventual adoption.",
+          "quote": "Presiding Commissioner George Pretz acknowledged he 'knew enough to be dangerous about data centers' and asked his colleagues at Wednesday's commission meeting to consider a moratorium on data centers, solar arrays, wind farms and battery storage facilities in unincorporated areas of the county."
+        },
+        {
+          "url": "https://servercountry.org/policy/kansas/",
+          "title": "Kansas Data Center Policy",
+          "publisher": "Server Country",
+          "document_date": "2026-07-17",
+          "source_type": "other",
+          "supports": "Independent secondary confirmation of the three-year Miami County moratorium's scope and the Osawatomie/Project Catalyst carve-out.",
+          "quote": "Miami County. Miami County adopted a three-year moratorium restricting data centers, battery storage, and similar technologies in unincorporated areas; the restriction does not apply to Osawatomie's in-city Project Catalyst site."
+        }
+      ],
+      "notes": "Could not locate the exact adoption date, resolution number, or a signed primary source despite multiple searches (the Miami County Republic/republic-online.com's coverage is geo-blocked from this research environment, and a Facebook post from the paper describing the unanimous vote could not be fetched). Confidence lowered to 0.5 accordingly; the scope and existence of the moratorium are corroborated by two independent KSHB stories and one policy aggregator."
+    },
+    {
+      "state": "Kansas",
+      "jurisdiction": "El Dorado",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-07-13",
+      "date_enacted_iso": "2026-07-13",
+      "date_enacted_uncertainty": "exact",
+      "duration": "From adoption at a July 13, 2026 special meeting through November 30, 2026.",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "current_end_date_iso": "2026-11-30",
+      "legal_basis": "El Dorado City Commission resolution, adopted 4-1 at a special meeting on 2026-07-13 (resolution number not confirmed in sources retrieved), providing an interim moratorium on the development of data centers and battery energy storage systems.",
+      "trigger": "A citizen-initiated petition (certified 2026-06-25 by the Butler County Clerk) sought to adopt an ordinance prohibiting 'high-impact' data centers (>10 MW peak load or >100,000 gal/day water draw) and Tier 2/Tier 3 battery energy storage systems; the City Commission voted to seek a declaratory judgment on whether the petition was a valid citizen-initiative subject, and adopted the interim moratorium to hold the status quo while that litigation proceeds.",
+      "trigger_categories": [
+        "legal_or_litigation",
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center",
+        "battery_storage"
+      ],
+      "current_status": "Active as of 2026-09-23; runs through 2026-11-30 absent further action. The underlying citizen-petition litigation (declaratory judgment sought from the District Court of Butler County) remained pending as of the sources retrieved.",
+      "enacted_status": "active",
+      "affected_projects": "No pending data center or BESS development proposal identified in sources retrieved; the moratorium is explicitly framed as holding the status quo during the petition litigation.",
+      "outcome": "Suspends development of data centers and battery storage systems in El Dorado through Nov. 30, 2026, 'demonstrat[ing] the City Commission's willingness to allow the process to proceed without considering a development proposal for the uses described in the petition ordinance' while the city seeks a declaratory judgment on the petition's validity.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "http://www.eldoks.gov/m/NewsFlash/Home/Detail/665",
+          "title": "Official Statement on Decision Regarding Citizen-Initiated Petition",
+          "publisher": "City of El Dorado, Kansas",
+          "document_date": "2026-07-14",
+          "source_type": "other",
+          "supports": "Official city statement: at the July 13, 2026 special meeting, the City Commission voted to seek a declaratory judgment on the citizen petition and also adopted a resolution imposing a moratorium on data center and battery storage development through November 30, 2026.",
+          "quote": "In addition to the decision to seek a declaratory judgment, the City Commission also adopted a resolution providing a moratorium on the development of data centers and battery storage systems. The moratorium extends through November 30, 2026..."
+        },
+        {
+          "url": "https://mytownview.com/kansas/butler/el-dorado/meetings/20952-el-dorado-ks-city-commission-2026-07-13",
+          "title": "El Dorado, KS City Commission - Jul 13, 2026",
+          "publisher": "MyTownView (meeting summary)",
+          "document_date": "2026-07-13",
+          "source_type": "minutes",
+          "supports": "Confirms the moratorium was approved 4-1 at the same special meeting where the commission voted 5-0 to seek a declaratory judgment on the citizen petition.",
+          "quote": "Instead, a motion declaring the petition invalid and seeking a declaratory judgment passed unanimously, 5-0, and the commission followed with an interim development moratorium covering data centers and battery energy storage systems, approved 4-1."
+        }
+      ],
+      "notes": "The underlying citizen-initiated petition ordinance (a permanent ban) is a separate, not-yet-adopted instrument now heading toward possible city commission action or a special election depending on the pending court ruling; per the codebook's guidance on permanent bans, only the enacted interim moratorium is recorded here as a candidate."
+    },
+    {
+      "state": "Kansas",
+      "jurisdiction": "Marysville",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-09 (City Council vote unanimous; exact day not confirmed -- reported as adopted in a 'pre-ordinance 19-54' per a Citizen Portal AI meeting summary, with the ordinance text appearing in the Marysville Advocate the same week)",
+      "date_enacted_iso": "2026-09",
+      "date_enacted_uncertainty": "month_only",
+      "duration": "12 months from adoption; exact start date not confirmed, so the end date cannot be reliably computed.",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Marysville City Council pre-ordinance 19-54, adopted unanimously (voice vote per Citizen Portal AI summary).",
+      "trigger": "Not detailed beyond staff/council wanting time to study land-use implications and coordination with Marshall County; Marysville's mayor had separately written to Marshall County in July 2026 asking the county to join the city in enacting a moratorium.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "land_use_compatibility"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Reported as active as of the sources retrieved (a Sept. 2026 aggregator entry); exact status as of 2026-09-23 not independently re-confirmed.",
+      "enacted_status": "active",
+      "affected_projects": "Not specified in sources retrieved.",
+      "outcome": "12-month pause on new data center development applications in Marysville to allow staff and council time to study potential impacts and land-use policy options, including whether extraterritorial or county-level coordination is needed.",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/10001092/kansas/marshall-county/marysville/marysville-council-enacts-12-month-moratorium-on-data-centers-to-allow-further-review",
+          "title": "Marysville council enacts 12-month moratorium on data centers to allow further review",
+          "publisher": "Citizen Portal (AI meeting summary)",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Confirms the Marysville City Council approved a 12-month moratorium (pre-ordinance 19-54) on new data center development by voice vote, to give staff/council time to study land-use implications and county coordination.",
+          "quote": "Council approved a 12-month moratorium (pre-ordinance 19-54) on data center development to give staff and council time to study land-use implications and coordination with the county; the moratorium was approved by voice vote."
+        },
+        {
+          "url": "https://www.marysvilleonline.net/news/city-approves-data-center-moratorium/article_07fd9137-6541-44fa-ae26-551b2e200177.html",
+          "title": "City approves data center moratorium",
+          "publisher": "Marysville Advocate (marysvilleonline.net)",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Local-paper headline confirming the city approved a data center moratorium; the full article text was behind a subscription wall and could not be retrieved this pass.",
+          "quote": "A 12-month temporary moratorium on data centers, spelled out in an ordinance that appears on page 6A of this week's Advocate, was adopted unanimously Monday by the Marysville City Council."
+        }
+      ],
+      "notes": "The Marysville Advocate article's lead sentence (visible in a search-engine snippet, reproduced above as its quote) supplies 'adopted unanimously Monday,' but the underlying page text could not be fetched (subscription wall) to confirm which Monday/exact date, hence date_enacted_uncertainty is month_only and confidence is capped at 0.55."
+    },
+    {
+      "state": "Kansas",
+      "jurisdiction": "South Hutchinson",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-05-26",
+      "date_enacted_iso": "2026-05-26",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year from adoption (2026-05-26 through 2027-05-26).",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-05-26",
+      "legal_basis": "South Hutchinson City Council ordinance, adopted unanimously at the May 26, 2026 council meeting (ordinance number not confirmed in sources retrieved).",
+      "trigger": "A surge of companies proposing data centers nationally prompted the city to act proactively and cautiously before creating permanent rules; this was reported as the first pause on data center/BESS development in the eastern part of Reno County.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "land_use_compatibility"
+      ],
+      "sectors": [
+        "data_center",
+        "battery_storage"
+      ],
+      "current_status": "Active as of 2026-09-23; runs through 2027-05-26 absent further action. As of a July 23, 2026 follow-up report, the city had begun public-input meetings (an informational session held 2026-07-16) and was researching other cities' data centers as part of the moratorium-period study.",
+      "enacted_status": "active",
+      "affected_projects": "None identified in sources retrieved.",
+      "outcome": "One-year pause on data center and battery energy storage system development within South Hutchinson city limits and its extraterritorial zoning jurisdiction, directing the planning commission and staff to review zoning regulations, research other municipalities' standards, and report findings by the end of the moratorium period.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.hutchnews.com/story/news/local/2026/07/23/south-hutchinson-places-moratorium-while-seeking-input-on-data-centers/90958360007/",
+          "title": "South Hutchinson places moratorium while seeking input on data centers",
+          "publisher": "The Hutchinson News",
+          "document_date": "2026-07-23",
+          "source_type": "news",
+          "supports": "Confirms the South Hutch City Council unanimously voted, at its May 26, 2026 meeting, to adopt a one-year moratorium on data centers and BESS within city limits and its extraterritorial zoning jurisdiction, and describes subsequent public-input steps.",
+          "quote": "During its May 26 meeting, the South Hutch City Council unanimously voted to adopt a one-year moratorium on data centers and battery energy storage systems, or BESS, within city limits and its extraterritorial zoning jurisdiction."
+        },
+        {
+          "url": "https://ransonfinancial.com/2026/05/28/south-hutch-puts-halt-on-data-centers-bess-passes-moratorium/",
+          "title": "South Hutch puts halt on data centers, BESS, passes moratorium",
+          "publisher": "Ranson Financial Group (republishing Hutchinson Tribune reporting)",
+          "document_date": "2026-05-28",
+          "source_type": "news",
+          "supports": "Independent, contemporaneous confirmation that the moratorium passed at the council's Monday (May 26, 2026) meeting, describing it as the first such pause in eastern Reno County.",
+          "quote": "Data centers and battery energy storage systems will not be developed in South Hutchinson for at least one year, after the South Hutchinson City Council approved a moratorium at its meeting Monday evening at South Hutchinson City Hall."
+        }
+      ],
+      "notes": "An earlier attempt was reportedly tabled on 2026-05-12 per a Hutchinson Tribune headline found in search results ('South Hutch tables data center moratorium'); the ordinance was adopted two weeks later, on 2026-05-26."
+    },
+    {
+      "state": "Kansas",
+      "jurisdiction": "Shawnee County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-08-13",
+      "date_enacted_iso": "2026-08-13",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months from adoption (2026-08-13 through 2027-02-17).",
+      "duration_days": null,
+      "duration_kind": "until_date",
+      "current_end_date_iso": "2027-02-17",
+      "legal_basis": "Shawnee County Board of County Commissioners resolution, adopted 2-1 on 2026-08-13 (Commissioners Kevin Cook and Aaron Mays in favor, Commissioner Bill Riphahn opposed; filed by the County Counselor on Cook's behalf); the resolution's 'Data Center' definition incorporates Shawnee County Home Rule Resolution No. HR-2026003.",
+      "trigger": "A pending Compass Datacenters Conditional Use Permit application (filed 2026-07-24; found incomplete by county Land Use & Development staff on 2026-08-04) drew public controversy; Commissioner Cook cited a resident's concern about a lack of transparency and wanted to prevent any application from being approved before the board completes its review of county data-center regulations.",
+      "trigger_categories": [
+        "specific_project",
+        "regulatory_gap"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23; runs through 2027-02-17. The resolution does not stop the pending Compass Datacenters application from being reviewed/evaluated or from a Planning Commission public hearing, but bars the Board of County Commissioners from any final approval/denial until the moratorium ends; the county may resume accepting new data center applications beginning Feb. 18, 2027 absent a further resolution.",
+      "enacted_status": "active",
+      "affected_projects": "Compass Datacenters' pending Conditional Use Permit application near Topeka (filed July 24, 2026); the county may continue reviewing/evaluating that application during the moratorium but the Board cannot take final action on it until Feb. 18, 2027 or later.",
+      "outcome": "Six-month pause on final Board action on data center land-use applications in Shawnee County (new applications may still be filed and reviewed by staff/Planning Commission, but not finally approved or denied) while the county studies its data-center regulations and hires an outside engineering firm.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.cjonline.com/story/news/local/2026/08/13/shawnee-county-halts-new-data-center-projects-for-6-months/91276422007/",
+          "title": "Shawnee County halts new data center projects for 6 months",
+          "publisher": "Topeka Capital-Journal (cjonline.com)",
+          "document_date": "2026-08-13",
+          "source_type": "news",
+          "supports": "Detailed report: 2-1 vote on Aug. 13, 2026 adopting the resolution; describes its scope (no final action on data center land-use applications, including the pending Compass Datacenters CUP, until Feb. 17, 2027); cites the Data Center definition from Shawnee County Home Rule Resolution No. HR-2026003.",
+          "quote": "The six-month moratorium period will expire on Feb. 17, 2027. It took effect Aug. 13. ... The Board of County Commissioners shall not approve, deny, or otherwise take final action on the case of Compass Data Centers."
+        },
+        {
+          "url": "https://www.wibw.com/2026/08/13/shawnee-co-commissioners-approve-moratorium-new-data-centers/",
+          "title": "Shawnee County commissioners approve temporary moratorium for new data center applications",
+          "publisher": "WIBW",
+          "document_date": "2026-08-13",
+          "source_type": "news",
+          "supports": "Independent confirmation of the 2-1 vote (Cook and Mays in favor, Riphahn opposed) and that Compass Datacenters may still resubmit its application during the moratorium.",
+          "quote": "Shawnee County commissioners voted 2-1 Thursday to put a temporary moratorium in place for data center applications until next year."
+        }
+      ],
+      "notes": "This is a narrower 'no final action' moratorium rather than a blanket application-acceptance freeze; it is nonetheless framed by the county and by news coverage as a moratorium."
+    },
+    {
+      "state": "Kansas",
+      "jurisdiction": "Dickinson County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-07-30",
+      "date_enacted_iso": "2026-07-30",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Structured as 12 months per covered category, staggered: data centers expire 2027-07-30, battery energy storage systems expire 2028-07-30, and renewable energy facilities (e.g., wind, solar) expire 2029-07-30; the resolution as a whole 'shall ... remain in full force ... until July 30, 2029.'",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-07-30",
+      "legal_basis": "Resolution # 073026, signed and passed 2026-07-30 by Chairman Kenny Roelofsen and Vice Chair Lynn Peterson, citing K.S.A. 12-741 et seq. and K.S.A. 19-101 et seq. police power; excludes uses already defined/enabled under Article 21 of the county zoning regulations and off-grid, on-site residential/commercial renewable installations.",
+      "trigger": "The county's Comprehensive Plan would generally allow incorporating provisions for data centers, BESS, and alternative energy technology into zoning regulations, but commissioners wanted a strategic pause to evaluate potential impacts on current and future property owners before adopting standards; no applications for these uses had been filed as of the July 2026 Planning Commission recommendation.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "land_use_compatibility"
+      ],
+      "sectors": [
+        "data_center",
+        "battery_storage",
+        "solar",
+        "wind"
+      ],
+      "current_status": "Active as of 2026-09-23; the data-center-specific component runs through 2027-07-30, with BESS and renewable-energy components running longer (through 2028-07-30 and 2029-07-30 respectively) under the same resolution.",
+      "enacted_status": "active",
+      "affected_projects": "None identified as pending in the resolution or sources retrieved.",
+      "outcome": "Suspends acceptance/processing of Conditional Use Permit applications and construction/erection permits for commercial data centers, BESS, and renewable energy projects (other than those already covered by Article 21 of the zoning code) in unincorporated Dickinson County, directing the Planning and Zoning Board to review and update the zoning regulations for each use category over its respective term.",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://www.dkcoks.gov/media/res/073026.pdf?v=1788220800108",
+          "title": "Resolution # 073026 (signed)",
+          "publisher": "Dickinson County, Kansas",
+          "document_date": "2026-07-30",
+          "source_type": "resolution",
+          "supports": "Full signed resolution text establishing the staggered 12-month-per-category moratorium on data centers, BESS, and renewable energy technology, with the July 30, 2027/2028/2029 expiration dates for each category and the July 30, 2029 overall term.",
+          "quote": "The Dickinson County Planning and Zoning Board is directed to review and update the Dickinson County Zoning Regulations for a period of three (3) years, or 12 months for each of the following: Data Centers to expire on July 30, 2027, Battery Energy Storage Systems to expire on July 30, 2028 and Renewable energy facilities to expire on July 30, 2029..."
+        },
+        {
+          "url": "https://kclyradio.com/blog/dickinson-county-approves-three-year-moratorium-on-data-centers-battery-storage-and-renewable-energy-projects/",
+          "title": "Dickinson County Approves Three-Year Moratorium On Data Centers, Battery Storage And Renewable Energy Projects",
+          "publisher": "KCLY Radio",
+          "document_date": "2026",
+          "source_type": "news",
+          "supports": "Commission chairman Kenny Roelofsen describes the moratorium as exploratory (not a ban), with one of the three areas addressed per year, matching the resolution's staggered structure.",
+          "quote": "Roelofsen said the county will focus on one of the three areas per year, with the moratorium on each area ending after that year."
+        }
+      ]
+    },
+    {
+      "state": "Kansas",
+      "jurisdiction": "Lawrence",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-07-14",
+      "date_enacted_iso": "2026-07-14",
+      "date_enacted_uncertainty": "exact",
+      "duration": "24 months from adoption or until the city repeals it, whichever comes first (2026-07-14 through approximately 2028-07-14).",
+      "duration_days": 730,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2028-07-14",
+      "legal_basis": "Lawrence City Commission action, adopted unanimously (5-0) on 2026-07-14, imposing a 24-month moratorium on data center uses within city limits alongside initiation of two Land Development Code text amendments (one requiring a special use permit for data centers instead of by-right development, one directing staff to study water/environmental, energy, utility-cost, noise/light, and setback issues).",
+      "trigger": "The current Land Development Code allowed data centers in industrial districts by right, with no special approval required; a large crowd of residents urged restrictions, and commissioners wanted time for planning staff to develop new rules (a 12-month option was considered but the commission chose 24 months 'to ensure planning staff had more time'). No specific data center proposal was pending in Lawrence at adoption.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "land_use_compatibility",
+        "grid_energy",
+        "water"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Active as of 2026-09-23; runs through approximately 2028-07-14 or until repealed. As of a Sept. 21, 2026 follow-up report, the Planning Commission was recommending additional layers to the data-center approval process as part of the same text-amendment process begun in July.",
+      "enacted_status": "active",
+      "affected_projects": "None identified as pending at adoption; director of planning and development Jeff Crick said he was not aware of any proposals to develop a data center in Lawrence.",
+      "outcome": "24-month freeze on data center uses within Lawrence city limits while planning staff draft a special-use-permit requirement and study issues (water, energy/utility costs, noise, light, setbacks) for a new data center ordinance; includes a narrow property-owner exception process reviewed against the intent of the pending text amendment.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www2.ljworld.com/news/city-government/2026/jul/14/lawrence-city-commission-starts-process-of-developing-data-center-rules-imposes-24-month-moratorium/",
+          "title": "Lawrence City Commission starts process of developing data center rules, imposes 24-month moratorium",
+          "publisher": "Lawrence Journal-World",
+          "document_date": "2026-07-14",
+          "source_type": "news",
+          "supports": "Detailed report of the July 14, 2026 unanimous vote imposing a 24-month moratorium on data center uses and initiating two text amendments (special use permit requirement; study of impacts), including quotes from the mayor, vice mayor, deputy city attorney, and planning director.",
+          "quote": "The City Commission on Tuesday, after hearing from a crowd of advocates, voted unanimously to initiate two text amendments on data centers in the city's Land Development Code and to impose a 24-month moratorium on data center uses within the city limits... It will last for 24 months or until the city repeals it, whichever comes first."
+        }
+      ]
+    },
+    {
+      "state": "Kansas",
+      "jurisdiction": "Leavenworth County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-05-13",
+      "date_enacted_iso": "2026-05-13",
+      "date_enacted_uncertainty": "exact",
+      "duration": "90 days from adoption (2026-05-13 through approximately 2026-08-11), passed 4-1.",
+      "duration_days": 90,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2026-08-11",
+      "legal_basis": "Leavenworth County Commission resolution, adopted 4-1 at the May 13, 2026 meeting, pausing acceptance of data-center applications in unincorporated county areas and directing planning staff to prepare data-center regulations.",
+      "trigger": "Project Bluestem, a proposed ~600-megawatt (developer statements later cited up to 1.2-gigawatt) hyperscale data center on 1,000+ acres south of Tonganoxie (Cloverleaf Infrastructure/Tailgate Ranch site), drew sustained community opposition (Citizens Against Bluestem) over noise, air quality, health, and infrastructure concerns.",
+      "trigger_categories": [
+        "specific_project",
+        "noise",
+        "infrastructure_capacity",
+        "grid_energy"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Expired 2026-08-11. An extension to Jan. 31, 2027 failed 3-2 at the Aug. 5, 2026 commission meeting; at an Aug. 13, 2026 meeting the commission voted 4-1 to 'revisit' imposing a hold on any decisions until after three new commissioners take office in January 2027, but had not formally re-enacted a moratorium as of the sources retrieved (Sept. 18, 2026 reporting describes Project Bluestem as still in the early stages of the county application process, with no active moratorium mentioned). No applications had been filed for the project as of the sources retrieved.",
+      "enacted_status": "expired",
+      "affected_projects": "Project Bluestem (Cloverleaf Infrastructure), a proposed hyperscale data center south of Tonganoxie; no application had been filed as of the sources retrieved.",
+      "outcome": "90-day pause on data-center applications in unincorporated Leavenworth County lapsed without a successful extension; three sitting commissioners (two of whom did not seek re-election) opted to defer any renewed pause or decision on Project Bluestem to the incoming commission taking office in January 2027, rather than formally re-adopting a moratorium.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www2.ljworld.com/news/general-news/2026/aug/13/leavenworth-co-officials-reverse-course-slow-down-on-data-center-proposed-for-site-near-tonganoxie/",
+          "title": "Leavenworth Co. officials reverse course, slow down on data center proposed for site near Tonganoxie",
+          "publisher": "Lawrence Journal-World",
+          "document_date": "2026-08-13",
+          "source_type": "news",
+          "supports": "Details the 90-day moratorium's scheduled expiration, the failed 3-2 extension vote on Aug. 5, 2026, and the Aug. 13, 2026 4-1 vote to revisit a hold before the new commission takes office, without formally re-enacting a moratorium.",
+          "quote": "A push to extend a moratorium on data centers in unincorporated areas of the county failed Aug. 5 at a Leavenworth County Commission meeting, but the board now plans to revisit a hold on any plans until after the new commission takes office in January. ... The 90-day moratorium was set to end last week..."
+        },
+        {
+          "url": "https://servercountry.org/policy/kansas/",
+          "title": "Kansas Data Center Policy",
+          "publisher": "Server Country",
+          "document_date": "2026-07-17",
+          "source_type": "other",
+          "supports": "Independent secondary confirmation of the 90-day moratorium, its 4-1 adoption at the May 13, 2026 meeting, and its purpose (pause applications, direct staff to prepare regulations).",
+          "quote": "Leavenworth County. The Leavenworth County Commission approved a 90-day moratorium on accepting data-center applications and directed planning staff to prepare data-center regulations; the motion passed 4-1 at the May 13, 2026 meeting."
+        }
+      ],
+      "notes": "Recorded as expired: the original 90-day instrument lapsed and was not renewed, even though county officials continue discussing a future hold. Not currently an active moratorium as of 2026-09-23 per the sources retrieved."
+    }
+  ]
+}

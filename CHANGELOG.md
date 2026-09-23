@@ -1,5 +1,80 @@
 # Changelog
 
+## 2026-09-23 — agent-swarm refresh: every row rechecked, 520 instruments added
+
+This working snapshot updates the tracker through **2026-09-23**. It is newer
+than the latest tagged release, v2026.07, and keeps that release's figures below
+as a historical snapshot.
+
+### Current headline numbers
+
+| Measure | 2026-08-19 | 2026-09-23 |
+|---|---|---|
+| Local moratorium instruments | 533 | **1053** |
+| Currently in force (active + extended) | 429 | **899** |
+| Pending / proposed | 34 | **60** |
+| Past (replaced + expired + rescinded) | 70 | **94** |
+| Rows carrying `[VERIFY]` markers | 182 | **214** |
+| States with at least one local instrument | 42 | **47** |
+| State bills tracked | 438 | 438 |
+
+The local status mix is 788 active, 111 extended, 60 pending, 66 replaced, 20
+expired, and 8 rescinded. Alaska, Arizona, Delaware, Rhode Island, and Vermont
+enter the dataset; only Hawaii, West Virginia, and Wyoming have no local
+instrument after a targeted search. Ohio (159) and Michigan (141) now lead, each
+having more instruments than the whole inventory held in April.
+
+### What the pass did
+
+Every one of the 296 rows the worklist flagged as of 2026-09-23 (expired-on-paper,
+extension without a recorded end, stale pending, open-ended, `[VERIFY]` backlog,
+unverified date) was rechecked, plus ten rows outside the worklist that
+discovery turned up news about: 84 status changes, 141 corrections, 75
+confirmations, 6 left unresolvable with the portals checked recorded. Notable
+corrections: Durham County, NC's moratorium was adopted 2026-08-24, not 06-22;
+the City of Imperial, CA was extended through May 2027, not expired; Minneapolis
+runs six months, not a year; Imperial County, CA's ordinances were struck down by
+a court on 2026-09-11 and are now `rescinded`.
+
+Every state was then searched for instruments the inventory lacked, across all
+five sectors. 520 candidates were admitted. Weakly evidenced rows carry a
+`[VERIFY]` marker naming what is missing, as before. Four candidates that turned
+out to be permanent bans or ban proposals rather than pauses (Perris, CA;
+Sandpoint, ID; Hawaii County, HI; Flagstaff, AZ) were recorded in
+`work/answers/rejected/` and not added.
+
+### Method and provenance
+
+The pass was run by 31 Claude Code research agents (Sonnet 5 for most states,
+Opus 5.5 for the six largest packets), one state or state group each, following
+a written procedure (`work/research-process.md`) that was tested on Nevada and
+Alabama before fan-out. Search ran through bc-web (Exa and Google via SerpAPI,
+fused by reciprocal rank). **Every URL cited as evidence was archived**: 2,817
+fetches into `work/sources/<ST>/`, 589 of them PDFs (258 needed OCR), 249 needing
+a real browser. The extracted text and per-state manifests (with body hashes)
+are tracked; raw PDFs and HTML stay on disk. `scripts/check_evidence_archived.py`
+refuses an answer file that cites an unarchived page. The merge applied 1,565
+field changes with zero conflicts (`work/audit/apply-20260923T090003.json`).
+
+New helpers: `scripts/save_source.py` (archive a URL through bc-web with OCR and
+docx extraction), `scripts/show_rows.py` (exact field values for answer files),
+`scripts/check_evidence_archived.py`, `scripts/gate_answer.sh`. The candidate
+dedup rule now treats a new instrument in a jurisdiction whose prior row has
+already ended as a new row (Coweta County, GA). Seven geocoding overrides were
+declared, including Park Township, MI, which had been placed in the wrong county.
+
+### Known limits of this snapshot
+
+September is current only through the 23rd. Several votes fell on or just after
+the reference date (Palm Beach County FL 09-24, Memphis 10-06, Raleigh 10-06,
+Fort Wayne 10-13, Leon County FL 10-13) and are recorded as `pending`. Five
+in-force rows have a computed expiry just before 2026-09-23 with no extension yet
+located (Appling County GA, Cedartown GA, Waterford Township MI, Seward County
+NE, East Whiteland Township PA); the validator flags them. The May–July 2026
+month-by-month sweep remains the only completed comparable window; this pass was
+a discovery search, not a month-by-month sweep, so counts for August–September
+are still lower bounds.
+
 ## 2026-08-19 — currency, state-policy, and publication refresh
 
 This working snapshot updates the tracker through **2026-08-19**. It is newer
@@ -10,14 +85,14 @@ below as a historical snapshot.
 
 | Measure | 2026-08-19 snapshot |
 |---|---|
-| Local moratorium instruments | **533** |
-| Currently in force (active + extended) | **429** |
-| Pending / proposed | **34** |
-| Past (replaced + expired + rescinded) | **70** |
-| Rows carrying `[VERIFY]` markers | **182** |
+| Local moratorium instruments | **1053** |
+| Currently in force (active + extended) | **899** |
+| Pending / proposed | **60** |
+| Past (replaced + expired + rescinded) | **94** |
+| Rows carrying `[VERIFY]` markers | **214** |
 | State bills tracked | **438** |
 | State policy actions, including non-bill instruments | **440** |
-| States with at least one local instrument | **42** |
+| States with at least one local instrument | **47** |
 
 The local status mix is 381 active, 48 extended, 34 pending, 37 replaced, 27
 expired, and 6 rescinded. The review reduced the recorded in-force total by six

@@ -1,0 +1,66 @@
+{
+  "state_abbrev": "AK",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "Alaska",
+      "jurisdiction": "Houston",
+      "jurisdiction_type": "City",
+      "date_enacted": "",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration": "Ordinance No. 26-20 proposes a temporary two-year moratorium; introduced on the consent agenda at the September 10, 2026 regular council meeting, which set a public hearing and action vote for October 8, 2026. No adoption vote had occurred as of 2026-09-23. A separate, differently-worded ordinance to block data center construction failed 4-2 at the August 13, 2026 council meeting; Ordinance 26-20 is a distinct, later measure.",
+      "duration_days": 730,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Ordinance No. 26-20, City of Houston, Alaska (introduced 2026-09-10; public hearing/vote scheduled 2026-10-08)",
+      "trigger": "specific_project",
+      "trigger_categories": [
+        "specific_project",
+        "regulatory_gap",
+        "grid_energy",
+        "land_use_compatibility"
+      ],
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Pending as of 2026-09-23. Ordinance 26-20, establishing a temporary two-year moratorium on the acceptance, processing, approval, or issuance of permits as well as construction, establishment, and operation of data centers within Houston city limits, was introduced on the council's September 10, 2026 consent agenda; a public hearing and council action vote are scheduled for October 8, 2026. The introduction followed an August 13, 2026 meeting at which a differently drafted anti-data-center ordinance failed 4-2, and coincides with council opposition to a proposed ~20,000-acre state land transfer to AIDEA (Alaska Industrial Development and Export Authority) near Houston that could host data centers.",
+      "enacted_status": "pending",
+      "affected_projects": "No specific data center project is proposed or approved within Houston city limits; concern centers on a proposed AIDEA industrial/energy district on state land bordering Houston, Willow, and Meadow Lakes that lists data centers among possible future uses.",
+      "outcome": "Two-year data center moratorium ordinance introduced 2026-09-10; hearing and vote scheduled 2026-10-08.",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://cms2.revize.com/revize/houstonak/9.10.26%20Regular%20Council%20Meeting%20Agenda.pdf?t=202609042115400",
+          "title": "Regular City Council Meeting Agenda, September 10, 2026",
+          "publisher": "City of Houston, Alaska",
+          "document_date": "2026-09-10",
+          "source_type": "agenda",
+          "supports": "Primary source: lists Ordinance No. 26-20, a temporary two-year moratorium on data center permits/construction, introduced under the consent agenda's 'Introduction of Ordinances' with public hearing set for October 8, 2026.",
+          "quote": "ORDINANCE NO. 26-20: AN ORDINANCE OF THE HOUSTON CITY COUNCIL ESTABLISHING A TEMPORARY TWO-YEAR MORATORIUM ON THE ACCEPTANCE, PROCESSING, APPROVAL, OR ISSUANCE OF PERMITS AS WELL AS CONSTRUCTION, ESTABLISHMENT, AND OPERATION OF DATA CENTERS WITHIN THE CITY LIMITS OF HOUSTON, ALASKA... Council introduces the ordinances and sets public hearing for October 2026."
+        },
+        {
+          "url": "https://alaskabeacon.com/2026/09/16/alaska-senators-question-legality-of-state-land-transfer-for-possible-mat-su-data-centers/",
+          "title": "Alaska senators question legality of state land transfer for possible Mat-Su data centers",
+          "publisher": "Alaska Beacon",
+          "document_date": "2026-09-16",
+          "source_type": "news",
+          "supports": "Confirms Houston council introduced a two-year data center construction moratorium to be heard October 8, 2026, and provides context on the AIDEA land-transfer dispute driving it.",
+          "quote": "Meanwhile, the nearby Houston city council voted unanimously last month to oppose the land transfer. It also introduced a two-year moratorium on the construction of new data centers to be heard at a meeting on Oct. 8."
+        },
+        {
+          "url": "https://www.matsusentinel.com/zero-transparency-houston-officials-oppose-land-transfer-process-linked-to-data-centers/",
+          "title": "'Zero transparency': Houston officials oppose land transfer process linked to data centers",
+          "publisher": "Mat-Su Sentinel",
+          "document_date": "2026-08-14",
+          "source_type": "news",
+          "supports": "Documents the earlier, distinct August 13, 2026 council vote in which a data-center-blocking ordinance failed 4-2, and a councilmember's stated intent to propose a longer-term moratorium while zoning rules are drafted -- background distinguishing that failed measure from the later Ordinance 26-20.",
+          "quote": "An ordinance to block data center construction within Houston city limits failed 4-2, with council members Callie Courtney and Lisa Johansen voting yes. ... Brasel said he plans to propose a resolution imposing a long-term moratorium on data center construction while such zoning rules are crafted."
+        }
+      ],
+      "notes": "Distinguish from the August 13, 2026 vote (a different, unnamed ordinance) that failed 4-2 at the same city council; Ordinance 26-20 is the later, separately numbered measure introduced 2026-09-10 for an October 8, 2026 hearing. If adopted on 2026-10-08, current_end_date_iso would be approximately 2028-10-08 (730 days from adoption); left blank here pending that vote. No jurisdiction disambiguation needed: no other 'Houston' currently in the Alaska inventory."
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "state_abbrev": "NV",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "nv-reno-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-08-31",
+          "reason": "The city's own 'Initiatives and Updates' page states the June 1, 2026 final moratorium resolution 'is in effect through August 31, 2027, or until a time that adequate regulations are adopted,' matching RGJ and Nevada Current reporting on the 6-1 council vote. The draft resolution as originally noticed would have run only through December 31, 2026; Councilmember Devon Reese's floor motion extended it to August 31, 2027 before adoption."
+        },
+        "legal_basis": {
+          "from": "City Council resolution",
+          "to": "City Council resolution adopted 2026-06-01 under Reno Municipal Code (RMC) Section 1.07.010 moratorium procedures, applying to data center conditional-use-permit applications as defined in RMC 18.09.301 and required by RMC 18.03.206; a preceding 30-day 'pending moratorium' was adopted 2026-05-14. No numbered 'Resolution No.' for the final moratorium was located in city materials or news coverage as of 2026-09-23.",
+          "reason": "reno.gov's official page and a June 1, 2026 council preview (thebarberbrief.substack.com, citing the agenda) both identify the specific municipal code authority (RMC 1.07.010) and the two-stage pending/final resolution process, which is more precise than the prior generic 'City Council resolution' text."
+        },
+        "current_status": {
+          "from": "Active/extended as of 2026-07-31; set to run until 2027-08-31 or adoption of new regulations. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Active/extended as of 2026-09-23. Confirmed via the City of Reno's own official Development Services 'Initiatives and Updates' page (primary/official source, not just news): the final moratorium resolution, adopted 2026-06-01 on a 6-1 vote (Councilmember Kathleen Taylor dissenting), runs through 2027-08-31 or until new data center regulations are adopted, whichever is earlier. [VERIFY instrument/resolution number: still not published in city materials, reno.legistar.com, or the news coverage reviewed as of 2026-09-23]",
+          "reason": "Resolves the substance of the prior VERIFY marker (the claim rested on news-only evidence) using the city's own official webpage, and refreshes the 'as of' date. The specific numbered resolution could not be located despite checking reno.gov, reno.legistar.com, and multiple news outlets, so that narrower part of the marker is left in place per the still_unverifiable rule."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Confirmed the underlying claim (2026-06-01 adoption, 6-1 vote, Aug 31 2027 end date, RMC 1.07.010 authority) via the City of Reno's own official 'Initiatives and Updates' page, which is a primary/official source rather than news-only. Also checked reno.legistar.com directly and via search (the site returned no usable Legistar item for this meeting through bc-web), the city's June 1, 2026 council presentation PDF, and RGJ/Nevada Current/KUNR/KOLO reporting. None of these publish a numbered 'Resolution No.' for the final moratorium, so the instrument-number portion of the marker remains open."
+        }
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.reno.gov/business-development/development-services/initiatives-and-updates.php",
+          "title": "Data Center Text Amendment and Moratorium",
+          "publisher": "City of Reno",
+          "document_date": "2026-09",
+          "source_type": "other",
+          "supports": "Official city confirmation that the June 1, 2026 final moratorium resolution runs through August 31, 2027 or until new regulations are adopted.",
+          "quote": "On June 1, 2026, City Council approved of a final moratorium resolution related to data center development. The moratorium is in effect through August 31, 2027, or until a time that adequate regulations are adopted."
+        },
+        {
+          "url": "https://www.rgj.com/story/news/2026/06/01/reno-to-accept-no-new-data-center-applications-until-2027-council-says/90362117007/",
+          "title": "Reno to accept no new data center applications until 2027, council says",
+          "publisher": "Reno Gazette-Journal",
+          "document_date": "2026-06-01",
+          "source_type": "news",
+          "supports": "6-1 vote extending the pause to Aug. 31, 2027; Taylor dissenting; Reese's motion to extend past year-end.",
+          "quote": "The Reno City Council approved an extended pause on data center applications until Aug. 31, 2027. ... The council voted 6-1 to extend the pause they approved in May."
+        },
+        {
+          "url": "https://nevadacurrent.com/2026/06/03/reno-city-council-extends-data-center-moratorium-promises-effort-is-not-political/",
+          "title": "Reno City Council extends data center moratorium, promises effort is not political",
+          "publisher": "Nevada Current",
+          "document_date": "2026-06-03",
+          "source_type": "news",
+          "supports": "Corroborates the 6-1 vote, the Aug. 31, 2027 end date, and that the pause halts acceptance/processing/approval of new applications.",
+          "quote": "The moratorium, approved Monday, will remain in place until Aug. 31, 2027, or until the city adopts new data center regulations."
+        },
+        {
+          "url": "https://thebarberbrief.substack.com/p/read-by-june-1-reno-city-council",
+          "title": "Read by June 1: Reno City Council preview",
+          "publisher": "The Barber Brief (Alicia Barber)",
+          "document_date": "2026-06-01",
+          "source_type": "other",
+          "supports": "Cites the June 1, 2026 council agenda item text identifying RMC Section 1.07.010 as the legal basis and RMC 18.09.301/18.03.206 as the data center CUP definitions, and that the draft end date was originally Dec 31, 2026.",
+          "quote": "Item C.1 - Resolution implementing a final moratorium under the procedures provided by Reno Municipal Code (RMC) Section 1.07.010 to impose a moratorium until December 31, 2026, or until the City Council adopts a new ordinance regarding data center regulations, whichever is earlier..."
+        }
+      ],
+      "notes": "reno.legistar.com was checked directly and via bc-web site-restricted search but did not return a usable meeting/legislation record for this item; the underlying Legistar item number/resolution number could not be located."
+    },
+    {
+      "moratorium_id": "nv-humboldt-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-07-31; set to expire 2027-07-13 absent further action",
+          "to": "Active as of 2026-09-23; set to expire 2027-07-13 absent further action or extension. Continued force confirmed by the Nevada Independent's statewide roundup (last updated Aug. 26, 2026) and by the recitals of White Pine County Resolution 2026-18 (adopted July 22, 2026), both of which describe the Humboldt County moratorium as presently in effect.",
+          "reason": "Refreshes the 'as of' date and adds corroborating sources found during this pass; no substantive change to the moratorium's terms was found."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.greatbasinsun.com/article/954,nevada-communities-weigh-data-center-development",
+          "title": "Nevada Communities Weigh Data Center Development",
+          "publisher": "Great Basin Sun",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Confirms Humboldt County's July 6, 2026 moratorium, its July 13, 2027 end date, and that it excludes Winnemucca city limits.",
+          "quote": "Humboldt County also passed a temporary moratorium concerning data centers. On July 6, county commissioners adopted a temporary moratorium on data center applications in Humboldt County through July 13, 2027... the moratorium does not apply within Winnemucca city limits."
+        },
+        {
+          "url": "https://thenevadaindependent.com/article/how-has-your-city-or-county-regulated-data-centers-heres-the-latest-in-nevada",
+          "title": "How has your city or county regulated data centers? Here's the latest in Nevada",
+          "publisher": "The Nevada Independent",
+          "document_date": "2026-08-26",
+          "source_type": "news",
+          "supports": "Statewide roundup, updated Aug. 26, 2026, listing Humboldt County's moratorium as in force through July 13, 2027.",
+          "quote": "Humboldt County commissioners adopted a temporary moratorium on data center applications in unincorporated parts of the county at their July 6 meeting. The pause is set to run through July 13, 2027, unless commissioners vote to extend it."
+        },
+        {
+          "url": "https://www.whitepinecounty.net/DocumentCenter/View/13924/Resolution-2026-18",
+          "title": "Resolution No. 2026-18",
+          "publisher": "White Pine County, Nevada",
+          "document_date": "2026-07-22",
+          "source_type": "resolution",
+          "supports": "A peer county's adopted resolution (July 22, 2026) cites Humboldt County's moratorium as an ongoing peer action.",
+          "quote": "Humboldt County, which adopted a temporary moratorium on July 6, 2026, running through July 13, 2027, while updating its Regional Master Plan and drafting a data center ordinance"
+        }
+      ],
+      "notes": "Searches for 'Humboldt County' + data centers repeatedly surfaced unrelated results for Humboldt County, California (Eureka, Arcata); those were excluded."
+    },
+    {
+      "moratorium_id": "nv-nye-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-07-31. A follow-on permanent ordinance (Nye County Bill No. 2026-11, adding Nye County Code Chapter 17.13 'Data Centers,' a prohibition in unincorporated areas without an elected town board) had a public hearing scheduled for 2026-08-04; that draft bill's recitals state the Board 'has recently approved a temporary moratorium on data centers while permanent regulations are developed,' corroborating that the June moratorium remained in force as of the bill's July 7, 2026 agenda item.",
+          "to": "Active as of 2026-09-23. The countywide temporary moratorium adopted June 2, 2026 remains in force outside Hydrographic Basin 162, per Nevada Current (2026-08-20): 'Following a county-wide moratorium on any new data center applications... which will remain in effect until the county adopts local data center regulations.' On August 18, 2026 the Board separately voted 5-0 to permanently ban data center construction/operation within Basin 162 (Pahrump Valley) -- reported as Nevada's first outright local data-center ban -- while directing staff to bring county-wide siting regulations (Bill No. 2026-14) for the remainder of the county. A September 14, 2026 special meeting/public hearing on Bill No. 2026-14 was canceled (announced 2026-09-04): 'The proposed bill remains under review. No new hearing date has been scheduled at this time' (Nye County Public Communications Manager Arnold Knightly, via Pahrump Valley Times). As of 2026-09-23 no new hearing date had been announced, so the temporary countywide moratorium continues to govern areas outside Basin 162.",
+          "reason": "Updates the record with the August 18, 2026 Basin 162 ban and the September 2026 status of the county-wide permanent ordinance (Bill No. 2026-14), both found during this pass, while confirming the underlying temporary moratorium this row tracks is still in force as of 2026-09-23."
+        },
+        "outcome": {
+          "from": "Countywide moratorium on new data center applications adopted; permanent prohibition ordinance in process",
+          "to": "Countywide moratorium on new data center applications adopted 2026-06-02 and still in force outside Hydrographic Basin 162 as of 2026-09-23; a separate permanent ban on data centers within Basin 162 (Pahrump Valley) was adopted 2026-08-18, and a county-wide permanent siting ordinance (Bill No. 2026-14) for the rest of the county remains under review with no hearing scheduled.",
+          "reason": "Reflects the bifurcated outcome that has emerged since the June moratorium: a permanent ban for one hydrographic basin plus a still-pending, still-paused process for the rest of the county."
+        },
+        "affected_projects": {
+          "from": "Proposed 'Blackjack Data Center' and a large Pahrump-area data center proposal covered in local reporting through July 2026",
+          "to": "Manse Technology Campus (formerly 'Project Blackjack'), a proposed ~900-acre, $18.4B Gigawatt Development Partners LLC data center campus in the Pahrump area, is now blocked by the August 18, 2026 Basin 162 ban; per KTNV (2026-09), 'given the ban, [it] appears to no longer be feasible, at least not where it was originally proposed.'",
+          "reason": "Updates the named project's status now that the Basin 162 ban has taken effect."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://nevadacurrent.com/2026/08/20/nye-county-totally-bans-data-centers-in-over-appropriated-water-basin/",
+          "title": "Nye County totally bans data centers in over-appropriated water basin",
+          "publisher": "Nevada Current",
+          "document_date": "2026-08-20",
+          "source_type": "news",
+          "supports": "Confirms the countywide June moratorium remains in effect, and reports the Aug. 18, 2026 5-0 vote banning data centers in Hydrographic Basin 162; blocks the Manse Technology Campus.",
+          "quote": "The vote comes after county commissioners approved a temporary county-wide moratorium in June on any new data center applications, which will remain in effect until the county adopts local data center regulations."
+        },
+        {
+          "url": "https://pvtimes.com/news/special-meeting-on-data-center-regulations-canceled-190135/",
+          "title": "Nye County Board of Commissioners' special meeting on data center regulations canceled",
+          "publisher": "Pahrump Valley Times",
+          "document_date": "2026-09-04",
+          "source_type": "news",
+          "supports": "Confirms the Sept. 14, 2026 special meeting/hearing on Bill No. 2026-14 (county-wide permanent regulations outside Basin 162) was canceled with no new date set, as of Sept. 4, 2026.",
+          "quote": "The proposed bill remains under review. No new hearing date has been scheduled at this time."
+        },
+        {
+          "url": "https://www.ktnv.com/news/local-news/data-vs-desert/what-steps-are-southern-nevada-leaders-taking-or-not-taking-to-regulate-the-growing-data-center-industry",
+          "title": "What steps are Southern Nevada leaders taking -- or not taking -- to regulate the growing data center industry",
+          "publisher": "KTNV (Data vs. Desert series)",
+          "document_date": "2026-09-11",
+          "source_type": "news",
+          "supports": "Confirms both the temporary moratorium and the Basin 162 ban, the status of Bill No. 2026-14 as of the Sept. 14 meeting's cancellation, and that the Manse Technology Campus is no longer feasible as originally sited.",
+          "quote": "Multiple policy proposals have gone before commissioners in recent months, including a temporary moratorium on new data centers, which was enacted... Since the ban does not apply countywide... commissioners are also looking to create regulations... That was expected to be discussed at a special county meeting on Sept. 14, but that has since been canceled."
+        }
+      ],
+      "notes": "The Aug. 18, 2026 Basin 162 action is a permanent zoning ban rather than a temporary pause, so it was not added as a separate new_candidate; it is documented here as an update to the existing Nye County row since it is a direct outgrowth of the same June 2026 moratorium process."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Nevada",
+      "jurisdiction": "White Pine County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-07-22, White Pine County Board of County Commissioners, adopted at a duly noticed public meeting (per the signed resolution's adoption clause)",
+      "date_enacted_iso": "2026-07-22",
+      "date_enacted_uncertainty": "exact",
+      "duration": "180 calendar days from the effective date (adoption), renewable by Board resolution for one additional period of up to 180 days after a noticed public hearing.",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-01-18",
+      "legal_basis": "Resolution No. 2026-18 (White Pine County), imposing a temporary moratorium on acceptance, processing, and approval of land use applications for data center development, under NRS 244.137-244.146 and NRS 278.250/278.260",
+      "trigger": "Preemptive pause after White Pine County was identified at an April 24, 2026 Nevada Legislature Joint Interim Committee on Public Lands meeting as a target for data center development (with BLM officials present), combined with concerns over the Steptoe Valley aquifer, limited rural electric infrastructure, and the lack of data-center-specific zoning standards in Title 17.",
+      "trigger_categories": ["regulatory_gap", "water", "grid_energy", "infrastructure_capacity"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. 180-day moratorium adopted July 22, 2026 (Resolution No. 2026-18), running through approximately January 18, 2027 while staff study water supply, grid capacity, and road impacts and draft a Title 17 data-center ordinance; renewable for one further 180-day period.",
+      "enacted_status": "active",
+      "affected_projects": "None named; the county had not yet received formal data center applications as of the resolution's adoption, but was reportedly identified as an industry target.",
+      "outcome": "White Pine County Board of Commissioners adopted Resolution 2026-18, a 180-day moratorium on data center land use applications, directing staff to study water, power, and infrastructure impacts and draft data-center-specific zoning regulations.",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://www.whitepinecounty.net/DocumentCenter/View/13924/Resolution-2026-18",
+          "title": "Resolution No. 2026-18",
+          "publisher": "White Pine County, Nevada",
+          "document_date": "2026-07-22",
+          "source_type": "resolution",
+          "supports": "Signed, adopted text of the moratorium resolution, including its findings, scope, and July 22, 2026 adoption date.",
+          "quote": "PASSED AND ADOPTED by the Board of County Commissioners of White Pine County, Nevada, at a duly noticed public meeting held on the 22nd day of July 2026"
+        },
+        {
+          "url": "https://www.whitepinecounty.net/DocumentCenter/View/13919/3a1d",
+          "title": "Discussion/For Possible Action: Data Center Moratorium (agenda backup packet)",
+          "publisher": "White Pine County, Nevada",
+          "document_date": "2026-07-13",
+          "source_type": "staff_report",
+          "supports": "Draft resolution text (180-day duration, renewal, exceptions) and staff justification/background presented ahead of the July 22, 2026 vote.",
+          "quote": "Section 4. Duration. The Moratorium shall be in effect for a period of one hundred eighty (180) calendar days from the effective date of this Resolution..."
+        },
+        {
+          "url": "https://elynews.com/2026/07/30/joint-white-pine-county-commission-road-commission-and-liquor-board-meeting/",
+          "title": "County enacts 180-day data center moratorium",
+          "publisher": "Ely News",
+          "document_date": "2026-07-30",
+          "source_type": "news",
+          "supports": "Confirms adoption of Resolution 2026-18 at the July 22, 2026 meeting and the 180-day term.",
+          "quote": "During their July 22 regular meeting, the White Pine County Board of Commissioners approved Resolution 2026-18, imposing a temporary 180-day moratorium on accepting, processing or approving land-use applications for data center development."
+        }
+      ],
+      "notes": "PDF is scanned; text extracted via OCR (tesseract) at 150-200 dpi."
+    },
+    {
+      "state": "Nevada",
+      "jurisdiction": "Wells",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-06-23, Wells City Council, unanimous vote (4-0, Councilman Richard Peltier absent) on Resolution No. 26-06",
+      "date_enacted_iso": "2026-06-23",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months from the effective date (adoption), unless earlier repealed, modified, extended, or superseded by Council action.",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2027-06-23",
+      "legal_basis": "Resolution No. 26-06 (City of Wells), establishing a temporary moratorium on acceptance, processing, approval, and issuance of land use applications, development approvals, business licenses, building permits, and related entitlements for data centers",
+      "trigger": "Preemptive/precautionary pause; city stated no data center projects were proposed or approved in Wells at adoption, but wanted time to study land use, infrastructure, water, electricity, noise, and emergency-response impacts before any proposal arrives.",
+      "trigger_categories": ["regulatory_gap", "water", "grid_energy", "infrastructure_capacity"],
+      "sectors": ["data_center", "cryptocurrency_mining"],
+      "current_status": "Active as of 2026-09-23. 12-month moratorium adopted June 23, 2026 (Resolution No. 26-06), running through approximately June 23, 2027 unless repealed, modified, extended, or superseded by the Council.",
+      "enacted_status": "active",
+      "affected_projects": "None; the city stated there were no approved data center projects within Wells at the time of adoption.",
+      "outcome": "Wells City Council adopted a 12-month moratorium on data center land use applications, business licenses, and building permits, directing staff to work with Elko County and neighboring jurisdictions on regulations, zoning requirements, and development standards.",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://bloximages.chicago2.vip.townnews.com/elkodaily.com/content/tncms/assets/v3/editorial/2/fe/2fe5cdef-9ea9-4c4f-855b-616da45e833a/6a7521a676bda.pdf.pdf",
+          "title": "Resolution No. 26-06",
+          "publisher": "City of Wells, Nevada",
+          "document_date": "2026-06-23",
+          "source_type": "resolution",
+          "supports": "Full signed resolution text: definition of data center (including cryptocurrency mining equipment), scope of the moratorium, 12-month duration, exceptions, and the June 23, 2026 unanimous adoption vote.",
+          "quote": "PASSED and ADOPTED by the City Council of the City of Wells on June 23, 2026... AYES: Mayor Gary Pollock, Vice-Mayor Jonathan Goolsby, Councilman Chris Micheli, Councilwoman CR Beth Savedra. NAYES: NONE. ABSENT: Councilman Richard Peltier."
+        },
+        {
+          "url": "https://elkodaily.com/news/local/article_469250a1-b14b-4ddf-b2a3-5824807b2674.html",
+          "title": "City of Wells pushes back against data center construction",
+          "publisher": "Elko Daily Free Press",
+          "document_date": "2026-06-25",
+          "source_type": "news",
+          "supports": "Confirms unanimous Council approval of Resolution 26-06 and describes the moratorium's purpose and scope.",
+          "quote": "The Wells Board of Council has voted unanimously to approve Resolution 26-06, establishing a temporary moratorium on data centers within the City of Wells."
+        },
+        {
+          "url": "https://thenevadaindependent.com/article/how-has-your-city-or-county-regulated-data-centers-heres-the-latest-in-nevada",
+          "title": "How has your city or county regulated data centers? Here's the latest in Nevada",
+          "publisher": "The Nevada Independent",
+          "document_date": "2026-08-26",
+          "source_type": "news",
+          "supports": "Statewide roundup independently corroborates Wells' late-June 2026 moratorium.",
+          "quote": "Wells, a small city in rural northeast Nevada, passed a moratorium on data center approvals in late June pending recommendations from city staff."
+        }
+      ],
+      "notes": "PDF of the signed resolution is scanned; text extracted via OCR (tesseract) at 200 dpi. The article text on elkodaily.com/spotonnevada.com is served ROT47-obfuscated by the CMS; bc-web fetch returned the obfuscated text, which was decoded locally to confirm it matched the OCR'd resolution."
+    },
+    {
+      "state": "Nevada",
+      "jurisdiction": "Fallon Paiute-Shoshone Tribe",
+      "jurisdiction_type": "Tribal",
+      "date_enacted": "2026-05-26, Fallon Business Council, per the meeting agenda item 'Data Center Ban - Resolution #26-F-112' (agenda item filed by Chairman Phil Johnson) at the Fallon Business Council Regular Meeting 2",
+      "date_enacted_iso": "2026-05-26",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Permanent; no stated end date or review/sunset provision found.",
+      "duration_days": null,
+      "duration_kind": "indefinite",
+      "current_end_date_iso": "",
+      "legal_basis": "Fallon Business Council Resolution #26-F-112",
+      "trigger": "Preemptive protection of tribal water and land resources; tribal council secretary Phil Johnson introduced the resolution.",
+      "trigger_categories": ["water", "land_use_compatibility", "other"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23 (permanent). Reported by KUNR as the first tribal government in the Truckee River region to ban data centers on its lands, via a resolution introduced by tribal council secretary Phil Johnson.",
+      "enacted_status": "active",
+      "affected_projects": "None named; no data centers are sited on Fallon Paiute-Shoshone lands.",
+      "outcome": "Fallon Paiute-Shoshone Tribe adopted a resolution permanently banning data centers on tribal lands.",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://fpst.portal.civicclerk.com/event/477/files/report/4635",
+          "title": "Fallon Business Council Regular Meeting 2 - May 26, 2026 (agenda)",
+          "publisher": "Fallon Paiute Shoshone Tribe",
+          "document_date": "2026-05-26",
+          "source_type": "agenda",
+          "supports": "Official Business Council meeting agenda listing the item 'Data Center Ban - Resolution #26-F-112 - Phil Johnson' for the May 26, 2026 meeting.",
+          "quote": "Data Center Ban - Resolution #26-F-112 - Phil Johnson"
+        },
+        {
+          "url": "https://www.kunr.org/energy-and-environment/2026-09-02/northern-nevada-tribes-speak-out-against-data-centers",
+          "title": "Northern Nevada tribes speak out against data centers",
+          "publisher": "KUNR",
+          "document_date": "2026-09-02",
+          "source_type": "news",
+          "supports": "Reports the resolution was adopted, describing it as the first tribal ban on data centers in the region, and quotes its text.",
+          "quote": "In May, the Fallon Paiute Shoshone Tribe became the first in the region to ban the centers on their lands. The resolution brought by tribal council secretary Philip Johnson began with the quote, 'Only when the last tree has been cut down, the last fish caught, and the last river poisoned will we realize that money cannot be eaten.'"
+        }
+      ],
+      "notes": "Could not locate the adopted resolution text itself (tribal records are not fully public); relying on the official meeting agenda (primary, confirms the item and resolution number were before the Council) plus KUNR's reporting that it passed. Confidence held at 0.65 because the vote/adoption itself is confirmed only by secondary reporting, not a published adopted-resolution document."
+    },
+    {
+      "state": "Nevada",
+      "jurisdiction": "Pyramid Lake Paiute Tribe",
+      "jurisdiction_type": "Tribal",
+      "date_enacted": "2026-08-21, Pyramid Lake Paiute Tribal Council vote",
+      "date_enacted_iso": "2026-08-21",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Permanent; no stated end date found.",
+      "duration_days": null,
+      "duration_kind": "indefinite",
+      "current_end_date_iso": "",
+      "legal_basis": "Pyramid Lake Paiute Tribal Council resolution (permanent moratorium/ban on data centers); specific PL resolution number not located in the Tribe's published 2026 resolution index as of 2026-09-23.",
+      "trigger": "Protection of Pyramid Lake water resources and the endangered Cui-ui and threatened Lahontan cutthroat trout from upstream Truckee River watershed data center water demand; concerns about grid reliability given existing rolling brownouts on the reservation. Began as a community-led proposal to the Tribal Council.",
+      "trigger_categories": ["water", "environmental", "grid_energy"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23 (permanent). Reported by KUNR and Wyoming Public Media/KUNC as a permanent moratorium/ban on data centers on Pyramid Lake Paiute homelands, adopted by Tribal Council vote on August 21, 2026.",
+      "enacted_status": "active",
+      "affected_projects": "None sited on Pyramid Lake Paiute lands; the Tribe and the Water Over Data Alliance are separately opposing data center growth across the wider Truckee River watershed (e.g., Storey County facilities).",
+      "outcome": "Pyramid Lake Paiute Tribal Council passed a permanent moratorium/ban on data centers on tribal homelands, citing water sovereignty and protection of the Cui-ui and Lahontan cutthroat trout.",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.kunr.org/energy-and-environment/2026-09-02/northern-nevada-tribes-speak-out-against-data-centers",
+          "title": "Northern Nevada tribes speak out against data centers",
+          "publisher": "KUNR",
+          "document_date": "2026-09-02",
+          "source_type": "news",
+          "supports": "Reports the August 21, 2026 Tribal Council vote banning data centers on Pyramid Lake Paiute homelands.",
+          "quote": "Earlier this summer, tribal members proposed a permanent moratorium on the centers within the reservation to the Tribal Council. And on August 21, the data center ban passed, Harry said."
+        },
+        {
+          "url": "https://www.wyomingpublicmedia.org/2026-09-14/nevada-tribes-and-the-fight-against-data-centers",
+          "title": "Nevada tribes and the fight against data centers",
+          "publisher": "Wyoming Public Media / KUNC",
+          "document_date": "2026-09-14",
+          "source_type": "news",
+          "supports": "Independent second source corroborating the August 21, 2026 permanent moratorium vote.",
+          "quote": "On August 21, the Tribal Council passed a permanent moratorium on data centers on Pyramid Lake Paiute homelands."
+        }
+      ],
+      "notes": "Checked the Tribe's own published resolution index (plpt.nsn.us/pyramid-lake-council-resolutions/) but the visible 2026 list did not show an entry with 'data center' in the title (list may not be complete or the item may use different wording); could not confirm the specific PL resolution number from a primary document."
+    }
+  ]
+}

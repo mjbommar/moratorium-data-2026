@@ -1,0 +1,618 @@
+{
+  "state_abbrev": "SC",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "sc-chesterfield-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-07-31; regular ordinance replacing an April 6, 2026 emergency moratorium, in effect until 2028-01-01 or earlier adoption of permanent regulations.",
+          "to": "Active as of 2026-09-23; regular ordinance (No. 25-26-23) replacing an April 6, 2026 emergency moratorium, in effect until 2028-01-01 or earlier adoption of permanent regulations. Confirmed against the county's own ordinance text (\"shall remain in effect until January 1, 2028, or until such time as the County adopts regulations governing these uses, whichever occurs first\") and the county's current ordinances index, which lists no later ordinance amending or repealing 25-26-23 through its most recent entry (09/14/2026).",
+          "reason": "Refreshes the confirmation date and cites the primary ordinance text directly (previously summarized only from CSV context); the county's public ordinances list was checked through its newest entry and shows no subsequent action on data centers."
+        }
+      },
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "url": "https://www.chesterfieldcountysc.com/_files/ugd/bbbea3_1bea1565d6784e8badf4f098e6a2073f.pdf",
+          "title": "Ordinance No. 25-26-23 (Data Center Moratorium)",
+          "publisher": "Chesterfield County, South Carolina",
+          "document_date": "2026-06-01",
+          "source_type": "ordinance",
+          "supports": "Full ordinance text imposing the moratorium and its January 1, 2028 (or earlier regulation-adoption) end date.",
+          "quote": "This moratorium shall take effect immediately upon adoption and shall remain in effect until January 1, 2028, or until such time as the County adopts regulations governing these uses, whichever occurs first."
+        },
+        {
+          "url": "https://www.chesterfieldcountysc.com/ordinances",
+          "title": "Ordinances | Chesterfield County",
+          "publisher": "Chesterfield County, South Carolina",
+          "document_date": "2026-09-23",
+          "source_type": "other",
+          "supports": "Current, complete list of county ordinances through 09/14/2026 showing no later ordinance amending or repealing 25-26-23.",
+          "quote": "25-26-23 | Ordinance Imposing a Temporary Moratorium on Data Centers | 06/01/2026"
+        }
+      ],
+      "notes": "No [VERIFY] markers on this item. Confirmed unchanged; only the confirmation date was refreshed."
+    },
+    {
+      "moratorium_id": "sc-chester-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "Chester County Council data center moratorium ordinance; adopted ordinance number and full text not located in reviewed county records",
+          "to": "Ordinance 2026-14 (Chester County Council), \"Declaring a temporary, countywide pause on the acceptance, processing, and approval of applications regarding data centers and data center-related developments; directing the study and preparation of data center development standards; invoking the pending ordinance doctrine\"; first reading and public hearing June 15/July 20, 2026 per the county's own July 20, 2026 council agenda packet, third reading approved July 20, 2026.",
+          "reason": "The county's own agenda packet for the July 20, 2026 meeting names the ordinance number and full title, resolving the previously unlocated instrument number."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31, per news reporting. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23; confirmed via the county's own July 20, 2026 council agenda packet (Ordinance 2026-14, public hearing and 3rd reading that date) and WBTV news coverage of the unanimous vote. The 180-day term (from July 20, 2026) runs to approximately 2027-01-16 and had not lapsed as of 2026-09-23; no extension, repeal, or replacement was found. The county's June 18, 2026 press release also notes the pause followed the county's separately adopted data-center zoning regulations (CCTA26-06).",
+          "reason": "Resolves the [VERIFY] marker with the county's own agenda packet naming Ordinance 2026-14, and refreshes the confirmation date; no change in enacted status was found."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "resolution": "confirmed",
+          "note": "Chester County's own July 20, 2026 council agenda packet (chestercountysc.gov) names the instrument as Ordinance 2026-14, shows the public hearing and 3rd reading on the county's official agenda for that date, and matches the WBTV account of a unanimous vote."
+        }
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://chestercountysc.gov/wp-content/uploads/2026/01/07.20.2026-agenda-packet_RedactedPublic_Redacted.pdf",
+          "title": "Chester County Council Meeting Agenda, July 20, 2026",
+          "publisher": "Chester County, South Carolina",
+          "document_date": "2026-07-20",
+          "source_type": "agenda",
+          "supports": "Names Ordinance 2026-14 by number and full title, and shows both the public hearing and 3rd (final) reading scheduled for July 20, 2026.",
+          "quote": "Ordinance 2026-14 Declaring a temporary, countywide pause on the acceptance, processing, and approval of applications regarding data centers and data center-related developments; directing the study and preparation of data center development standards; invoking the pending ordinance doctrine; and providing for other related matters."
+        },
+        {
+          "url": "https://www.wbtv.com/2026/07/21/chester-county-council-approves-6-month-data-center-moratorium/",
+          "title": "Chester County Council approves 6-month data center moratorium",
+          "publisher": "WBTV",
+          "document_date": "2026-07-21",
+          "source_type": "news",
+          "supports": "Confirms the unanimous vote and the ordinance's quoted purpose language.",
+          "quote": "CHESTER COUNTY, S.C. (WBTV) - Chester County Council unanimously approved a six-month data center moratorium on Monday."
+        },
+        {
+          "url": "https://chestercountysc.gov/chester-county-council-approves-1st-reading-of-6-month-data-center-pause/",
+          "title": "Chester County Council Approves 1st Reading of 6 Month Data Center Pause",
+          "publisher": "Chester County, South Carolina (official press release)",
+          "document_date": "2026-06-18",
+          "source_type": "other",
+          "supports": "County's own account of the first reading (June 15, 2026 meeting) and that the pause follows the county's already-adopted data-center zoning regulations.",
+          "quote": "CHESTER, S.C – During the June 15th, 2026, Chester County Council Meeting, Council voted to approve the first reading of a six-month pause on the acceptance of data center applications."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "sc-greenwood-county-2026",
+      "outcome": "confirmed_unchanged",
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-07-31. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Confirmed via three independent news organizations (Index-Journal, twice, including an Aug. 21, 2026 follow-up reporting that the county has since formed a data-center ad hoc committee under the moratorium; and Fox Carolina) all describing the same July 21, 2026 4-3 third-reading vote on Ordinance 2026-25. No county-published ordinance document was located despite searching greenwoodcounty-sc.gov directly; the [VERIFY] marker is left in place because it specifically calls for a primary (non-news) source. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "reason": "Refreshes the confirmation date and strengthens sourcing with a third independent news organization and a post-adoption follow-up story confirming the moratorium remains in force; a primary county document was still not located, so the marker is retained per the still_unverifiable rule."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Checked greenwoodcounty-sc.gov (County Council and Administration pages) directly and via search; no ordinance text or agenda packet for Ordinance 2026-25 was found on the county's site. The claim is nonetheless corroborated by three independent professional news organizations (Index-Journal x2, Fox Carolina) with consistent vote counts, dates, and an Aug. 21, 2026 follow-up confirming the moratorium is still operative (ad hoc committee formed under it). Marker retained because it specifically asks for a primary source, which was not found."
+        }
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "url": "https://www.indexjournal.com/news/greenwood-county-council-passes-one-year-moratorium/article_c5a2e436-a698-4d1e-ac19-881415107eac.html",
+          "title": "Greenwood County Council passes one year moratorium",
+          "publisher": "Index-Journal",
+          "document_date": "2026-07-21",
+          "source_type": "news",
+          "supports": "Reports the 4-3 third-reading vote approving Ordinance 2026-25, first introduced June 16 and given second reading July 7.",
+          "quote": "Council approved Ordinance 2026-25 on third reading with a 4-3 vote, temporarily halting the approval of data centers and related infrastructure in Greenwood County. ... The moratorium takes effect immediately and will remain in place for one year."
+        },
+        {
+          "url": "https://www.foxcarolina.com/2026/07/21/greenwood-co-council-approves-final-reading-one-year-moratorium-data-centers/",
+          "title": "Greenwood Co. Council approves final reading of one-year moratorium on data centers",
+          "publisher": "Fox Carolina",
+          "document_date": "2026-07-21",
+          "source_type": "news",
+          "supports": "Independent corroboration of the 4-3 third-reading vote and one-year term.",
+          "quote": "Councilmembers voted 4-3 on Tuesday on the third and final reading of the ordinance."
+        },
+        {
+          "url": "https://www.indexjournal.com/news/industry-takes-notice-site-selectors-already-asking-about-greenwood-county-s-12-month-pause-as/article_01923c78-87a6-48b0-b917-b3d67da31f4e.html",
+          "title": "Industry takes notice: Site selectors already asking about Greenwood County's 12-month pause",
+          "publisher": "Index-Journal",
+          "document_date": "2026-08-21",
+          "source_type": "news",
+          "supports": "Confirms the moratorium remains in force weeks after adoption and describes its ongoing economic-development impact.",
+          "quote": "But Greenwood County's recently adopted 12-month moratorium on data centers raises a different question: What happens to economic development when a county deliberately hits pause?"
+        }
+      ]
+    },
+    {
+      "moratorium_id": "sc-newberry-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "County council ordinance/resolution",
+          "to": "Ordinance No. 06-01-2026 (Newberry County Council)",
+          "reason": "The county's own published ordinance PDF names the instrument as Ordinance No. 06-01-2026, resolving the previously unlocated instrument number."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31; unanimously reconfirmed by the council on 2026-07-16. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23. Confirmed via the county's own published Ordinance No. 06-01-2026, which declares a temporary, 12-month-or-less moratorium on Data Centers, and via FOX Carolina/WIS coverage of the council's July 16, 2026 unanimous reconfirmation and an Island Packet county-by-county roundup listing Newberry's moratorium as \"Adopted June 1.\" No extension, repeal, or replacement was found as of 2026-09-23.",
+          "reason": "Resolves the [VERIFY] marker with the county's own published ordinance text and refreshes the confirmation date; no change in enacted status was found."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]",
+          "resolution": "confirmed",
+          "note": "Located the county's own published ordinance PDF (newberrycounty.gov), Ordinance No. 06-01-2026, declaring the moratorium; corroborated by FOX Carolina/WIS coverage of the July 16, 2026 unanimous reconfirmation vote and an Island Packet statewide roundup dating Newberry's adoption to June 1."
+        }
+      ],
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "url": "https://www.newberrycounty.gov/sites/default/files/uploads/documents/ordinance-06-01-2026.pdf",
+          "title": "Ordinance No. 06-01-2026",
+          "publisher": "Newberry County, South Carolina",
+          "document_date": "2026-07",
+          "source_type": "ordinance",
+          "supports": "Full ordinance text declaring a temporary, 12-month-or-less moratorium on Data Centers in Newberry County.",
+          "quote": "The Newberry County Council does hereby declare a temporary moratorium on Data Centers for twelve (12) months or less, and shall not accept any application or permit for a Data Center..."
+        },
+        {
+          "url": "https://www.foxcarolina.com/2026/07/16/newberry-county-council-unanimously-confirms-year-long-moratorium-data-centers/",
+          "title": "Newberry County Council unanimously confirms year-long moratorium on data centers",
+          "publisher": "WIS (via Fox Carolina syndication)",
+          "document_date": "2026-07-16",
+          "source_type": "news",
+          "supports": "Confirms the council's July 16, 2026 unanimous reconfirmation of the 12-month moratorium.",
+          "quote": "On Wednesday night, Newberry County Council unanimously confirmed a 12-month moratorium on accepting new permits for data centers."
+        },
+        {
+          "url": "https://www.islandpacket.com/news/local/community/beaufort-news/article317167591.html",
+          "title": "Data centers prompt call for moratorium in Beaufort County",
+          "publisher": "Island Packet",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Statewide roundup dating Newberry County's 1-year moratorium adoption to June 1, consistent with the ordinance filename/number.",
+          "quote": "1-year moratoriums * Greenwood County: Adopted July 21. * Newberry County: Adopted June 1."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "sc-colleton-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "changes": {
+        "legal_basis": {
+          "from": "Ordinance 26-O-04 (Colleton County Council)",
+          "to": "Ordinance 26-O-04 (Colleton County Council), partially repealed as of 2026-09-14 for areas west of Interstate 95 and land already zoned Light/Industrial/Heavy Industrial, by a new ordinance establishing a \"Digital Infrastructure Overlay District\" (which also repeals and replaces the county's separate data-center zoning ordinance, No. 25-O-10) and a companion zoning-map amendment, both adopted on third reading 2026-09-14.",
+          "reason": "Colleton County Council adopted permanent zoning regulations (the overlay district) on third reading Sept. 14, 2026 that expressly repeal the moratorium in the areas the new ordinance covers, per the county's own agenda and live5news/postandcourier coverage of the vote."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31; the Southern Environmental Law Center agreed to pause related litigation for the moratorium period.",
+          "to": "Partially superseded as of 2026-09-14. Colleton County Council unanimously adopted (third reading) a Digital Infrastructure Overlay District ordinance permitting data centers and battery energy storage systems, subject to conditions (300+ acre minimum, 65 dB noise cap, 200-ft buffers, closed-loop cooling), west of Interstate 95 and on land already zoned Light/Industrial/Industrial/Heavy Industrial; the moratorium (Ordinance 26-O-04) is repealed with respect to those areas but continues to apply elsewhere in the county (east of I-95, non-industrial-zoned land) through its original ~180-day term (adopted 2026-07-06, running to approximately 2027-01-02) absent further council action.",
+          "reason": "Reflects the Sept. 14, 2026 council action, which is a status change (partial replacement by permanent regulation) rather than a simple confirmation."
+        },
+        "sectors": {
+          "from": "[\"data_center\"]",
+          "to": "[\"data_center\",\"battery_storage\"]",
+          "reason": "The new Digital Infrastructure Overlay District ordinance explicitly covers both data centers and battery energy storage systems, per postandcourier.com and a Post and Courier social-media summary of the Sept. 14, 2026 vote."
+        },
+        "outcome": {
+          "from": "Adopted six-month moratorium on data center special exceptions/conditional uses.",
+          "to": "Adopted six-month moratorium in July 2026 (Ordinance 26-O-04); on 2026-09-14 the county partially repealed that moratorium and replaced it, for areas west of I-95 and already-industrial-zoned land, with a Digital Infrastructure Overlay District permitting data centers and battery storage under conditions (minimum 300 acres, 65 dB noise cap, 200-ft buffers, closed-loop cooling); the moratorium remains in force elsewhere in the county pending its original term.",
+          "reason": "Reflects the Sept. 14, 2026 partial replacement of the moratorium by permanent zoning regulation, per the county's own agenda and news coverage cited below."
+        }
+      },
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "url": "https://www.colletoncounty.org/sites/default/files/uploads/agendas/9-14-26-special-called-meeting.pdf",
+          "title": "Colleton County Council Special Called Meeting Agenda, September 14, 2026",
+          "publisher": "Colleton County, South Carolina",
+          "document_date": "2026-09-14",
+          "source_type": "agenda",
+          "supports": "Shows third reading of the Digital Infrastructure Overlay District ordinance (repealing and replacing Ordinance No. 25-O-10) and companion zoning-map ordinance on the county's own official agenda.",
+          "quote": "Third Reading of an Ordinance (1) Amending the Text of the Zoning Ordinance and Land Development Regulations of Colleton County, South Carolina to Authorize the Establishment of a Digital Infrastructure Overlay District ... (2) Repealing and Replacing the Provisions of Ordinance No. 25-O-10 Pertaining to Data Centers"
+        },
+        {
+          "url": "https://www.live5news.com/2026/09/15/colleton-county-approves-controversial-data-center-rules-despite-pushback/",
+          "title": "Colleton County approves controversial data center rules despite pushback",
+          "publisher": "WCSC Live 5 News",
+          "document_date": "2026-09-15",
+          "source_type": "news",
+          "supports": "Confirms the unanimous vote, the partial repeal language (west of I-95 and industrial-zoned areas), and the ordinance's conditions.",
+          "quote": "The Moratorium shall be repealed with respect to (i) areas of the County west of Interstate 95; and (ii) areas of the County that, as of the effective date hereof, are zoned Light Industrial (LID), Industrial (ID), and Heavy Industrial (HID)"
+        },
+        {
+          "url": "https://www.postandcourier.com/rising-waters/data-center-colleton-county-zoning/article_7e2de544-6b94-4578-885a-1150ed570bf2.html",
+          "title": "Colleton County creates zoning overlay for data centers",
+          "publisher": "Post and Courier",
+          "document_date": "2026-08-10",
+          "source_type": "news",
+          "supports": "Reports the Aug. 10, 2026 first-reading vote advancing the overlay ordinance, and that it covers data centers and battery energy storage systems and would repeal the county's prior data-center-specific zoning ordinance.",
+          "quote": "The ordinances in question amend the county's comprehensive plan to include information on digital infrastructure facilities, in this case data centers and battery energy storage systems."
+        }
+      ],
+      "notes": "This row was not in my assigned packet, but Process B searches surfaced a material status change, so I am reporting it per the research-process instructions (decisions may be added for rows outside the packet). The replacement is partial/geographically limited; I used new_enacted_status=replaced as the closest codebook fit and spelled out the partial nature in current_status/outcome text since the codebook has no partial-replacement value."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "South Carolina",
+      "jurisdiction": "Anderson County",
+      "jurisdiction_type": "County",
+      "date_enacted": "August 18, 2026 (County Council third reading, per county's own Aug. 18, 2026 agenda packet and Fox Carolina/WYFF4/WSPA coverage of the unanimous-report vote; first reading was a special called meeting June 29, 2026)",
+      "date_enacted_iso": "2026-08-18",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Ordinance No. 2026-037 (Anderson County Council)",
+      "trigger": "County has no regulatory framework or zoning structure for data centers; concern over strain on the electric power grid, water supply, and local infrastructure from inadequately regulated development of multiple data centers.",
+      "trigger_categories": ["regulatory_gap", "infrastructure_capacity", "grid_energy"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; adopted on third reading Aug. 18, 2026 and confirmed via the county's own agenda packet and multiple news organizations. No pending items or new applications for data centers may be accepted, processed, or approved for the moratorium's term.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted six-month moratorium on acceptance, processing, or approval of data center development applications.",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "url": "https://www.andersoncountysc.org/wp-content/uploads/2026/08/8.18.2026-County-Council-Agenda-Packet.pdf",
+          "title": "Anderson County Council Regular Meeting Agenda, August 18, 2026",
+          "publisher": "Anderson County, South Carolina",
+          "document_date": "2026-08-18",
+          "source_type": "agenda",
+          "supports": "Shows Ordinance 2026-037 on the county's own official agenda as an ordinance third reading imposing a moratorium on data-center development applications.",
+          "quote": "2026-037: An Ordinance imposing a moratorium on the acceptance, processing, or approval of development applications for data centers and all other land use or development approvals for data centers; and other matters related thereto."
+        },
+        {
+          "url": "https://www.foxcarolina.com/2026/08/20/anderson-county-council-approves-final-reading-six-month-data-center-moratorium/",
+          "title": "Anderson County council approves final reading of six-month data center moratorium",
+          "publisher": "Fox Carolina",
+          "document_date": "2026-08-20",
+          "source_type": "news",
+          "supports": "Confirms passage of the third and final reading and quotes the ordinance's findings.",
+          "quote": "Anderson County Council passed a six-month moratorium on data centers Tuesday night. County administrator Rusty Burns confirmed that council passed the third and final reading of the moratorium."
+        }
+      ],
+      "notes": "First reading was at a June 29, 2026 special called meeting (Ordinance 2026-037), per andersoncountysc.org agenda archive; not independently re-fetched since the Aug. 18 packet and news coverage sufficiently establish final adoption."
+    },
+    {
+      "state": "South Carolina",
+      "jurisdiction": "Spartanburg County",
+      "jurisdiction_type": "County",
+      "date_enacted": "September 21, 2026 (County Council third and final reading, 5-1 vote, per Post and Courier and Fox Carolina; first reading occurred in late June 2026)",
+      "date_enacted_iso": "2026-09-21",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year (12 months)",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Spartanburg County Council data center moratorium ordinance (ordinance number not located in reviewed sources); amended before third reading to exempt data centers of 65 IT megawatts or less that are sited in an established industrial park or former industrial site and meet specified conditions",
+      "trigger": "Public outcry over power grid strain, water resources, and air quality; moratorium was first proposed in response to the Lightstone Group's proposed data center on Jones Road (a 60-megawatt facility on a former industrial site).",
+      "trigger_categories": ["grid_energy", "water", "environmental", "specific_project", "regulatory_gap"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; adopted on third reading Sept. 21, 2026 by a 5-1 vote (Coker dissenting). The moratorium applies to data centers exceeding a combined 65 IT-megawatt electrical load; data centers at or below that threshold sited in a named industrial park or former industrial site, that do not self-generate power (except emergency backup), may still be approved under specified conditions. Does not apply to the already-approved Valara data center or to cryptocurrency mining.",
+      "enacted_status": "active",
+      "affected_projects": "Lightstone Group's proposed Jones Road data center (the original trigger); does not apply to the already-approved Valara data center under construction on South Pine Street.",
+      "outcome": "Adopted one-year moratorium on new data center development, with amendments exempting facilities of 65 megawatts or less on qualifying industrial sites.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.postandcourier.com/spartanburg/politics/spartanburg-county-data-center-moratorium/article_9c5b5c7b-2bfd-41f0-8a87-ad048ba9187a.html",
+          "title": "Spartanburg exempts small data centers from moratorium law",
+          "publisher": "Post and Courier",
+          "document_date": "2026-09-22",
+          "source_type": "news",
+          "supports": "Reports the Sept. 21, 2026 final-reading vote and the amendments defining the 65 MW threshold, industrial-site exemption, and applicability.",
+          "quote": "SPARTANBURG — County Council has given final approval to a moratorium on new data centers, but that 12-month pause won't apply to facilities smaller than 65 megawatts and many that want to set up on industrial sites."
+        },
+        {
+          "url": "https://www.foxcarolina.com/2026/09/22/spartanburg-county-council-passes-data-center-moratorium-with-several-amendments/",
+          "title": "Spartanburg County Council passes data center moratorium with several amendments",
+          "publisher": "Fox Carolina",
+          "document_date": "2026-09-22",
+          "source_type": "news",
+          "supports": "Independent corroboration of the 5-1 vote, the amendments, and their conditions.",
+          "quote": "SPARTANBURG COUNTY, S.C. (FOX Carolina) - Spartanburg County Council voted 5-1 Monday night to approve a one-year freeze on new data centers, adopting several key amendments that define what facilities can still move forward."
+        }
+      ],
+      "notes": "Could not locate an ordinance number or the county's own published ordinance text on spartanburgcounty.org in the time available; confidence reflects two independent, detailed news accounts with direct ordinance quotes rather than a primary document."
+    },
+    {
+      "state": "South Carolina",
+      "jurisdiction": "Fairfield County",
+      "jurisdiction_type": "County",
+      "date_enacted": "September 14, 2026 (County Council final vote approving Ordinance 856, per WLTX; first reading was at a July 20, 2026 special called meeting)",
+      "date_enacted_iso": "2026-09-14",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Twelve months",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Ordinance No. 856 (Fairfield County Council)",
+      "trigger": "Inquiries regarding data center development; county lacks a regulatory framework or zoning ordinance structure sufficient to manage the industry's scale and impact.",
+      "trigger_categories": ["regulatory_gap", "grid_energy", "water", "infrastructure_capacity"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; adopted Sept. 14, 2026. The county will not accept or act on new data center applications or permits for 12 months from the ordinance's effective date, pending a comprehensive study and any resulting regulatory framework.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted twelve-month moratorium on data center permitting, construction, and development.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.fairfieldsc.com/uploads/uploads/Ordinance_856_-_Data_Center_Moratorium.pdf",
+          "title": "Ordinance No. 856, Data Center Moratorium",
+          "publisher": "Fairfield County, South Carolina",
+          "document_date": "2026-09",
+          "source_type": "ordinance",
+          "supports": "Full ordinance text declaring a 12-month temporary moratorium on data centers in Fairfield County.",
+          "quote": "AN ORDINANCE AUTHORIZING FAIRFIELD COUNTY COUNCIL TO DECLARE A TWELVE MONTH TEMPORARY MORATORIUM ON DATA CENTERS IN FAIRFIELD COUNTY, SOUTH CAROLINA, TO INVOKE THE PENDING ORDINANCE DOCTRINE"
+        },
+        {
+          "url": "https://www.thestate.com/news/politics-government/article317114740.html",
+          "title": "Local pause efforts on data centers grow across SC counties",
+          "publisher": "The State",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Confirms Fairfield's moratorium and quotes its comprehensive-study requirement.",
+          "quote": "In Fairfield County, which granted initial approval to a 12-month moratorium in August, are planning to research data centers over the next year through town halls, work sessions with experts and visits to existing facilities."
+        }
+      ]
+    },
+    {
+      "state": "South Carolina",
+      "jurisdiction": "Laurens County",
+      "jurisdiction_type": "County",
+      "date_enacted": "September 14, 2026 (County Council third and final reading, 6-0 vote, per Fox Carolina/WYFF4)",
+      "date_enacted_iso": "2026-09-14",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Laurens County Council data center moratorium ordinance (ordinance number not located in reviewed sources); sponsored by Vice Chairman Matthew Brownlee",
+      "trigger": "County is unzoned; council wants time for public input, planning, and expert testimony before deciding how and where data centers should be regulated.",
+      "trigger_categories": ["regulatory_gap", "grid_energy", "water", "environmental"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23; adopted 6-0 on Sept. 14, 2026. Applies only to unincorporated Laurens County; the cities of Laurens and Clinton retain control over data centers within their own limits.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted one-year moratorium on new data center development in unincorporated Laurens County.",
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "url": "https://www.foxcarolina.com/2026/09/14/laurens-county-council-votes-approve-one-year-data-center-pause/",
+          "title": "Laurens County approves one-year data center pause",
+          "publisher": "Fox Carolina",
+          "document_date": "2026-09-14",
+          "source_type": "news",
+          "supports": "Reports the 6-0 third-reading vote and quotes sponsor Vice Chairman Matthew Brownlee on the moratorium's purpose and unincorporated-area scope.",
+          "quote": "Laurens County Council voted on Monday to approve a one-year pause on data centers. The council unanimously approved the third and final reading of the moratorium with a vote of six to zero."
+        },
+        {
+          "url": "https://www.wyff4.com/article/laurens-county-blocks-data-center-development/73732782",
+          "title": "Laurens County blocks new data center development for one year",
+          "publisher": "WYFF",
+          "document_date": "2026-09-14",
+          "source_type": "news",
+          "supports": "Independent corroboration of the 6-0 vote and one-year term.",
+          "quote": "Laurens County Council voted 6-0 Monday night to approve a one-year moratorium on new data center development in the county's unincorporated areas."
+        }
+      ],
+      "notes": "Could not locate an ordinance number on the county's site in the time available."
+    },
+    {
+      "state": "South Carolina",
+      "jurisdiction": "Kershaw County",
+      "jurisdiction_type": "County",
+      "date_enacted": "On or about September 22, 2026 (County Council third and final reading, per WIS reporting published Sept. 23, 2026; first and second readings passed Aug. 25 and Sept. 8, 2026, respectively)",
+      "date_enacted_iso": "2026-09-22",
+      "date_enacted_uncertainty": "range",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Kershaw County Council data center/cryptocurrency mining/data processing facilities moratorium ordinance (ordinance number not located in reviewed sources)",
+      "trigger": "Growing public interest and discussion about the potential impact of data centers on the community; residents raised AI/technology growth concerns during the public hearing.",
+      "trigger_categories": ["regulatory_gap", "other"],
+      "sectors": ["data_center", "cryptocurrency_mining"],
+      "current_status": "Active as of 2026-09-23; council passed third and final reading unanimously (with one member voting remotely), giving the county a one-year window to study the industry and develop regulations for data centers, cryptocurrency mining operations, and data processing facilities.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted one-year moratorium on data centers, cryptocurrency mining operations, and data processing facilities.",
+      "confidence": 0.72,
+      "evidence": [
+        {
+          "url": "https://www.wistv.com/2026/09/23/kershaw-county-council-passes-temporary-moratorium-data-centers/",
+          "title": "Kershaw County Council passes temporary moratorium on data centers",
+          "publisher": "WIS",
+          "document_date": "2026-09-23",
+          "source_type": "news",
+          "supports": "Reports the unanimous third and final reading, its one-year term, and that the first and second readings passed Aug. 25 and Sept. 8, 2026.",
+          "quote": "Kershaw County Council voted to pass a third and final reading of an ordinance establishing a temporary moratorium on data centers, cryptocurrency mining operations and data processing facilities. ... The first and second readings were passed on Aug. 25 and Sept 8, respectively."
+        },
+        {
+          "url": "https://kccurrent.com/article/kershaw-county-council-advances-12-month-data-center-moratorium-20260909",
+          "title": "Kershaw County Council advances 12-month data center moratorium",
+          "publisher": "The Kershaw County Current",
+          "document_date": "2026-09-09",
+          "source_type": "news",
+          "supports": "Confirms the Aug. 25, 2026 first reading and Sept. 8, 2026 unanimous second reading, the ordinance's scope (data centers, data processing facilities, cryptocurrency mining), and its pending-ordinance-doctrine trigger.",
+          "quote": "Kershaw County Council unanimously approved the second reading of a proposed 12-month moratorium on data centers Tuesday, Sept. 8, giving county officials more time to study the rapidly growing industry and develop local regulations."
+        }
+      ],
+      "notes": "Exact adoption date inferred from the WIS story's publication date (Sept. 23, 2026, the day of the vote or the day after); could not locate an ordinance number or the county's own published ordinance text in the time available."
+    },
+    {
+      "state": "South Carolina",
+      "jurisdiction": "Orangeburg County",
+      "jurisdiction_type": "County",
+      "date_enacted": "September 8, 2026 (County Council third reading and public hearing, per the county's own official Sept. 8, 2026 agenda; first reading was at a July 23, 2026 special called meeting)",
+      "date_enacted_iso": "2026-09-08",
+      "date_enacted_uncertainty": "exact",
+      "duration": "One year",
+      "duration_days": 365,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Orangeburg County Council data center/data processing facility/cryptocurrency mining moratorium ordinance (ordinance number not located in reviewed sources); third reading and public hearing held 2026-09-08 per the county's own agenda",
+      "trigger": "Concerns over data center impacts on residents raised at town halls in July/August 2026; county sought time to study and develop rules before further data center development.",
+      "trigger_categories": ["regulatory_gap", "environmental", "other"],
+      "sectors": ["data_center", "cryptocurrency_mining"],
+      "current_status": "Active as of 2026-09-23; adopted on third reading and public hearing Sept. 8, 2026, per the county's own agenda and WLTX news coverage. Data centers are prohibited in Orangeburg County for a year following adoption.",
+      "enacted_status": "active",
+      "affected_projects": "",
+      "outcome": "Adopted one-year moratorium halting acceptance, review, or action on rezoning, special exceptions, special use permits, building permits, site plans, and incentive approvals for data centers, data processing facilities, and cryptocurrency mining operations.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.orangeburgcounty.org/AgendaCenter/ViewFile/Agenda/_09082026-563",
+          "title": "Orangeburg County Council Agenda, September 8, 2026",
+          "publisher": "Orangeburg County, South Carolina",
+          "document_date": "2026-09-08",
+          "source_type": "agenda",
+          "supports": "Shows the data center moratorium ordinance on third reading and public hearing on the county's own official agenda, with its full title.",
+          "quote": "An Ordinance Declaring a Temporary Moratorium on the Acceptance of, Review of, and/or Action Upon Applications for Rezoning, Special Exceptions, Special Use Permits, Building Permits, Site Plans, Plan of Development for Siting, Economic Incentives, Fee in Lieu of Taxes or Any Other Form of Incentive, That Would Authorize or Permit the Development or Construction of Data Centers, Data Processing Facilities, Cryptocurrency Mining Operations or Any Other Uses Associated with Data Processing Facilities Within Orangeburg County"
+        },
+        {
+          "url": "https://www.yahoo.com/news/videos/orangeburg-county-just-hit-pause-000040099.html",
+          "title": "Orangeburg County just hit pause on new data centers",
+          "publisher": "WLTX (via Yahoo News syndication)",
+          "document_date": "2026-09-13",
+          "source_type": "news",
+          "supports": "Confirms the moratorium was approved, giving county leaders time to study appropriate rules.",
+          "quote": "Orangeburg County Council approved a moratorium on new data center development, giving leaders time to study what rules should apply."
+        }
+      ],
+      "notes": "Could not locate an ordinance number for the final adopted text; the one-year duration is corroborated by a Times and Democrat social-media summary (\"Data centers in Orangeburg County will be prohibited for a year\") though the underlying article was not separately archived."
+    },
+    {
+      "state": "South Carolina",
+      "jurisdiction": "Clarendon County",
+      "jurisdiction_type": "County",
+      "date_enacted": "September 14, 2026 (County Council third and final reading and public hearing, per WIS; second reading was at an Aug. 24, 2026 special called meeting, first reading Aug. 10, 2026)",
+      "date_enacted_iso": "2026-09-14",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Six months",
+      "duration_days": 180,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "",
+      "legal_basis": "Ordinance 2026-18 (Clarendon County Council)",
+      "trigger": "County's Unified Development Code does not specifically define data centers or battery energy storage systems; council sought to close a loophole after learning of a proposed \"Project 59\" data center in the county industrial park, and to give time to set standards for setbacks, buffers, noise, lighting, and emergency access.",
+      "trigger_categories": ["regulatory_gap", "specific_project", "land_use_compatibility", "noise"],
+      "sectors": ["data_center", "battery_storage"],
+      "current_status": "Active as of 2026-09-23; adopted unanimously on third and final reading Sept. 14, 2026, following a public hearing. Pauses land-use and development approvals for data centers and battery storage facilities outside areas zoned Industrial I or Industrial II; does not affect the proposed Project 59 data center, which is sited in an Industrial I district and received a conditional-use determination from county planning staff.",
+      "enacted_status": "active",
+      "affected_projects": "Proposed \"Project 59\" data center in the county industrial park (Santee Electric Cooperative / developer identified as \"Five Nines\"); this project is not paused by the moratorium because it is sited in an Industrial I district.",
+      "outcome": "Adopted six-month moratorium on data center and battery energy storage system approvals outside industrially zoned areas.",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "url": "https://www.wistv.com/2026/09/15/clarendon-county-council-advances-third-final-reading-data-center-moratorium/",
+          "title": "Clarendon County Council advances third, final reading of data center moratorium",
+          "publisher": "WIS",
+          "document_date": "2026-09-15",
+          "source_type": "news",
+          "supports": "Confirms the unanimous third and final reading passed Sept. 14, 2026, with a preceding public hearing.",
+          "quote": "The Clarendon County Council passed its third and final reading for a moratorium pausing future data center development in the county. The moratorium was unanimously passed with no one opposed."
+        },
+        {
+          "url": "https://manninglive.com/stories/data-center-moratorium-advances-amid-questions-about-public-notice,196495",
+          "title": "Data center moratorium advances amid questions about public notice",
+          "publisher": "Manning Live",
+          "document_date": "2026-08-25",
+          "source_type": "news",
+          "supports": "Names the ordinance (2026-18), describes its scope (data centers and battery storage outside Industrial I/II), the Project 59 exclusion, and the Aug. 24 second-reading vote and Sept. 14 third-reading/public-hearing schedule.",
+          "quote": "Council unanimously gave second reading to Ordinance 2026-18 during a special called meeting. A public hearing is expected before third and final reading at council's Sept. 14 regular meeting. The moratorium would temporarily pause land-use and development approvals for data centers and battery storage facilities outside areas zoned Industrial I or Industrial II."
+        }
+      ]
+    },
+    {
+      "state": "South Carolina",
+      "jurisdiction": "Sumter County",
+      "jurisdiction_type": "County",
+      "date_enacted": "An emergency 60-day moratorium (Ordinance 26-1049) covering solar, BESS, and data centers was approved and took effect immediately at the June 23, 2026 County Council meeting. Companion 180-day moratorium ordinances tailored to each use (Solar: Ordinance 26-1050; BESS: Ordinance 26-1051; Data Centers: Ordinance 26-1052) received second reading, with no public hearing held, at a July 21, 2026 special called meeting. No source reviewed confirmed a third-reading/final-adoption date for 26-1050/1051/1052.",
+      "date_enacted_iso": "2026-06-23",
+      "date_enacted_uncertainty": "range",
+      "duration": "60 days (Ordinance 26-1049, emergency, effective immediately June 23, 2026); a further 180 days is proposed for each of the three companion ordinances (26-1050 solar, 26-1051 BESS, 26-1052 data centers) but final adoption was not confirmed",
+      "duration_days": null,
+      "duration_kind": "unknown",
+      "current_end_date_iso": "",
+      "legal_basis": "Emergency Ordinance 26-1049 (60-day moratorium on BESS, data centers, and solar farms, approved June 23, 2026); companion Ordinances 26-1050 (Solar), 26-1051 (BESS), and 26-1052 (Data Centers), each proposing a 180-day moratorium, given second reading July 21, 2026 per the county's own special-called-meeting agenda",
+      "trigger": "County has no zoning provisions for battery energy storage systems or data centers; follows public opposition to, and council's rejection of, a proposed 1,700-acre solar farm.",
+      "trigger_categories": ["regulatory_gap", "specific_project", "land_use_compatibility"],
+      "sectors": ["data_center", "battery_storage", "solar"],
+      "current_status": "Uncertain as of 2026-09-23. The 60-day emergency moratorium (26-1049) took effect June 23, 2026 and would have lapsed around Aug. 22, 2026 absent further action. Companion 180-day ordinances for each sector (26-1050/1051/1052) passed second reading July 21, 2026 without a public hearing; no source reviewed (county website, news search) confirmed a third reading or final adoption date. By Sept. 8, 2026 the county had moved to a first reading of separate, permanent data-center zoning standards (OA-26-01), and a Sept.-dated Island Packet statewide roundup categorized \"Sumter County\" as still \"Proposed\" among 6-month moratoriums, consistent with final adoption of 26-1050/1051/1052 not having been confirmed.",
+      "enacted_status": "pending",
+      "affected_projects": "A proposed 1,700-acre solar farm that county council rejected, which prompted the moratorium push.",
+      "outcome": "Approved an emergency 60-day pause on solar, BESS, and data center applications in June 2026; advanced (second reading) three parallel 180-day moratorium ordinances in July 2026 whose final adoption could not be confirmed as of this research date.",
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "url": "https://www.sumtercountysc.gov/our_council/council_news_.php",
+          "title": "County Council Updates",
+          "publisher": "Sumter County, South Carolina",
+          "document_date": "2026-09-23",
+          "source_type": "other",
+          "supports": "County's own news page confirming the June 23, 2026 emergency 60-day moratorium (Ordinance 26-1049) on BESS, data centers, and solar farms, and that it took effect immediately.",
+          "quote": "Sumter County Council approved an emergency 60-day moratorium on battery energy storage systems (BESS), data centers and solar farms. Emergency Ordinance 26-1049 went into effect immediately after it was approved."
+        },
+        {
+          "url": "https://www.sumtercountysc.gov/Council Documents/Agendas/7.21.26_special_called.pdf",
+          "title": "Sumter County Council Special Called Meeting Agenda, July 21, 2026",
+          "publisher": "Sumter County, South Carolina",
+          "document_date": "2026-07-21",
+          "source_type": "agenda",
+          "supports": "Names the three companion ordinance numbers and titles (Solar 26-1050, BESS 26-1051, Data Center 26-1052) as items for second reading, with no public hearing scheduled.",
+          "quote": "2. Second Reading On The Following Moratoria Ordinances: (a) Ordinance 26-1050, Solar Moratorium ... (b) Ordinance 26-1051, BESS Moratorium ... (c) Ordinance 26-1052, Data Center Moratorium"
+        },
+        {
+          "url": "https://wach.com/news/local/sumter-county-moves-toward-temporary-pause-on-solar-farms-data-centers-battery-sites",
+          "title": "Sumter County moves toward temporary pause on solar farms, data centers, battery sites",
+          "publisher": "WACH",
+          "document_date": "2026-07-21",
+          "source_type": "news",
+          "supports": "Confirms the second-reading vote on all three 180-day ordinances and that one final reading remained before they could take effect.",
+          "quote": "County Council approved the second reading of three proposed moratorium ordinances that would halt new applications for solar projects, battery energy storage facilities and data centers. ... The proposed moratoriums still need one final reading before they can take effect."
+        },
+        {
+          "url": "https://www.sumtersc.gov/sites/default/files/uploads/Departments/Planning/BoardsCommissions/PC/2026/August/oa-26-01-data-centers-county.pdf",
+          "title": "Sumter City-County Planning Commission staff report, OA-26-01, Data Centers (County)",
+          "publisher": "Sumter City-County Planning Commission",
+          "document_date": "2026-08-26",
+          "source_type": "staff_report",
+          "supports": "Shows the county was, by late August 2026, pursuing a separate permanent zoning-standards amendment for data centers (distinct from the 180-day moratorium track), consistent with the moratorium's final-adoption status remaining unresolved.",
+          "quote": "OA-26-01, Data Centers (County) ... Request: Amend Articles 3, 4, 8, and 10 of the Sumter County Zoning & Development Standards Ordinance in order to adopt comprehensive standards for the establishment of data centers in Sumter County."
+        },
+        {
+          "url": "https://www.islandpacket.com/news/local/community/beaufort-news/article317167591.html",
+          "title": "Data centers prompt call for moratorium in Beaufort County",
+          "publisher": "Island Packet",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "A September-dated statewide roundup lists Sumter County under 6-month moratoriums as \"Proposed\" rather than adopted, corroborating that final adoption of the 180-day ordinances was not confirmed.",
+          "quote": "6-month moratoriums * Chesterfield County: Adopted June 1. * Colleton County: Adopted July 6. * Chester County: Adopted July 16. * Orangeburg County. Proposed. * Clarendon County: Proposed. * Sumter County: Proposed."
+        }
+      ],
+      "notes": "Genuinely could not resolve whether the 180-day moratorium ordinances (26-1050/1051/1052) received final (third-reading) adoption despite an extensive search of sumtercountysc.gov (Agendas/Minutes and Codified Ordinances pages are JS-rendered and did not yield a usable listing even in browser mode) and multiple news searches through 2026-09-23; enacted_status set to pending and confidence kept at 0.5 to reflect this. A coordinator following up should check the county's Codified Ordinances page directly (requires JS rendering) or call the Clerk to Council for the third-reading date."
+    }
+  ]
+}

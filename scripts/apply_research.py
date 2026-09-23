@@ -90,6 +90,9 @@ def slugify(text: str) -> str:
     return SLUG_RE.sub("-", text.lower()).strip("-")
 
 
+TERMINAL_STATUSES = {"replaced", "expired", "rescinded"}
+
+
 def instrument_key(legal_basis: str) -> str:
     """Normalized instrument identifier extracted from `legal_basis`.
 
@@ -277,7 +280,7 @@ def make_moratorium_id(candidate: dict, taken: set[str]) -> str:
     return f"{base}-{n}"
 
 
-def verify_note_for(candidate: dict) -> str:
+def verify_note_for(candidate: dict, researched_as_of: str = "") -> str:
     """A [VERIFY] marker describing what a weakly-evidenced new row still needs.
 
     A row admitted on news-only evidence deserves the same machine-visible
@@ -298,7 +301,8 @@ def verify_note_for(candidate: dict) -> str:
     detail = "; ".join(gaps) if gaps else "details"
     conf = candidate.get("confidence")
     conf_txt = f" at confidence {conf}" if conf is not None else ""
-    return f"[VERIFY {detail} not confirmed{conf_txt} in the 2026-07 refresh]"
+    label = researched_as_of[:7] if researched_as_of else "2026-07"
+    return f"[VERIFY {detail} not confirmed{conf_txt} in the {label} refresh]"
 
 
 def build_row(candidate: dict, mid: str, activity_level: str) -> dict:
@@ -529,8 +533,20 @@ def main() -> int:
                 and slugify(r["jurisdiction"]) == slugify(cand["jurisdiction"])
             ]
             dupe = None
+            cand_year = (cand.get("date_enacted_iso") or "")[:4]
             for existing in same_jurisdiction:
                 existing_instrument = instrument_key(existing["legal_basis"])
+                # A jurisdiction whose earlier instrument has already ended
+                # (replaced/expired/rescinded) and that adopts a new one in a
+                # later year has two rows, not a duplicate -- e.g. Coweta County,
+                # GA: a 2025 moratorium replaced by an ordinance, then a fresh
+                # 180-day pause in June 2026 to revisit that ordinance.
+                existing_year = (existing.get("date_enacted_iso") or "")[:4]
+                if (
+                    existing["enacted_status"] in TERMINAL_STATUSES
+                    and cand_year and existing_year and cand_year > existing_year
+                ):
+                    continue
                 # Distinct, identifiable instruments in the same jurisdiction are
                 # distinct rows (see instrument_key). Only treat as a duplicate
                 # when the instruments match, or when either side is unidentifiable.
@@ -555,7 +571,7 @@ def main() -> int:
             row = build_row(cand, mid, activity_by_state.get(cand["state"], "Low"))
             conf = cand.get("confidence")
             if conf is not None and conf < args.verify_threshold:
-                marker = verify_note_for(cand)
+                marker = verify_note_for(cand, data.get("researched_as_of", ""))
                 row["current_status"] = (row["current_status"] + " " + marker).strip()
                 recompute_verify(row)
                 stats["candidate_flagged_for_verification"] += 1

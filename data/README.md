@@ -68,4 +68,4 @@ Most `date_enacted` values are ISO format (`YYYY-MM-DD`). Some are `YYYY-MM` (da
 
 ## Updates
 
-This data is refreshed through **August 19, 2026**. Each refresh is tagged as a release on GitHub. The current version is shown in [`../CITATION.cff`](../CITATION.cff).
+This data is refreshed through **September 23, 2026**. Each refresh is tagged as a release on GitHub. The current version is shown in [`../CITATION.cff`](../CITATION.cff).

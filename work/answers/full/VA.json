@@ -1,0 +1,195 @@
+{
+  "state_abbrev": "VA",
+  "researched_as_of": "2026-09-23",
+  "researcher": "claude-sonnet-5 agent",
+  "decisions": [
+    {
+      "moratorium_id": "va-city-of-chesapeake-2026",
+      "outcome": "corrected",
+      "changes": {
+        "current_status": {
+          "from": "Active as of the July 31, 2026 research date. The resolution temporarily defers Planning Commission recommendations and City Council consideration of discretionary land-use applications (e.g., rezonings, conditional use permits) for proposed data centers, for 8 months from adoption (to approximately 2027-03-21) or until Council takes final action on PLN-COMP-2026-002, whichever occurs first. It does not stop administrative or by-right processing.",
+          "to": "Active as of 2026-09-23. The Resolution 26-R-042 deferral remains in force, running 8 months from its July 21, 2026 adoption (to approximately 2027-03-21) or until Council takes final action on comprehensive plan amendment PLN-COMP-2026-002, whichever occurs first. On August 18, 2026 the City Council separately and unanimously adopted a zoning ordinance amendment that removes data centers from by-right development, requires a conditional use permit for all future data center proposals in the M-1/M-2 industrial districts, and prohibits data centers from drawing groundwater; this closed a loophole that could have let a data center proceed administratively despite the moratorium, but it is a permanent zoning change layered on top of, not a replacement for, the still-active Resolution 26-R-042 deferral. The zoning change was prompted partly by Praetorian Fund's August 2026 purchase of the Frank Williams Farm Tract (Coastal Virginia Commerce Park); because that site does not connect to public utilities, city officials confirmed the moratorium independently applies to it. No repeal, extension, or expiration of the moratorium itself was found in sources reviewed through 2026-09-23.",
+          "reason": "Refreshes the as-of date and folds in the August 18, 2026 zoning ordinance amendment (a permanent regulatory change that supplements, rather than supersedes, the existing moratorium) per the process guidance to document such updates within the existing row rather than as a new instrument."
+        }
+      },
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "url": "https://www.whro.org/local-government/2026-07-22/chesapeake-city-council-approves-8-month-hold-on-data-center-applications",
+          "title": "Chesapeake City Council approves 8-month hold on data center applications",
+          "publisher": "WHRO",
+          "document_date": "2026-07-22",
+          "source_type": "news",
+          "supports": "Confirms the unanimous July 21, 2026 adoption of the resolution deferring data center conditional-use-permit and zoning-change applications for 8 months, linking to the city's own posted resolution document.",
+          "quote": "The council unanimously passed a resolution at its Tuesday meeting that delayed consideration for conditional use permit or zoning change applications for data centers."
+        },
+        {
+          "url": "https://www.whro.org/business-growth/2026-08-18/chesapeake-moves-to-restrict-data-center-development-virginia-beach-presses-pause",
+          "title": "Chesapeake moves to restrict data center development, Virginia Beach presses pause",
+          "publisher": "WHRO",
+          "document_date": "2026-08-18",
+          "source_type": "news",
+          "supports": "Confirms the August 18, 2026 unanimous vote closing the by-right loophole (removing by-right use, requiring conditional use permits, banning groundwater connections), while noting the underlying eight-month moratorium adopted in July remains in effect; also describes the Frank Williams Farm Tract/Praetorian Fund context and that the moratorium independently covers that site.",
+          "quote": "Chesapeake City Council closed a loophole in the city's zoning code that could have allowed for data center development despite the eight-month moratorium on them the city adopted last month ... But because the site doesn't connect to public utilities, the current moratorium applies to data center development there, city officials confirmed during the meeting."
+        }
+      ],
+      "notes": "No decision was filed for the other existing Virginia row (va-fluvanna-county-2025, outcome=replaced) because no new information about it was found in this pass; it was outside the packet."
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Virginia",
+      "jurisdiction": "Virginia Beach",
+      "jurisdiction_type": "City",
+      "date_enacted": "2026-08-18, Virginia Beach City Council, unanimous vote.",
+      "date_enacted_iso": "2026-08-18",
+      "date_enacted_uncertainty": "exact",
+      "duration": "12 months from adoption, or until City Council takes final action on an ordinance regulating data centers, whichever occurs first (to approximately 2027-08-18).",
+      "duration_days": null,
+      "duration_kind": "until_event",
+      "current_end_date_iso": "2027-08-18",
+      "legal_basis": "Resolution adopted by Virginia Beach City Council on August 18, 2026, pausing the issuance of permits related to any new data center for 12 months or until Council takes final action on an ordinance regulating data centers, whichever occurs first; follows planning staff's finding that data centers are currently classified, by default, as wholesaling/warehousing/storage/distribution uses permitted by right in industrial districts.",
+      "trigger": "City zoning ordinance does not specifically define or regulate data centers; concerns raised over resource consumption (water, electricity), noise, and land-use compatibility, following an informal June 2026 Council statement opposing large-scale/hyperscale data centers.",
+      "trigger_categories": ["regulatory_gap", "water", "grid_energy", "noise", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. Virginia Beach City Council unanimously adopted a 12-month moratorium on new data center permits on August 18, 2026, the same night Chesapeake City Council closed its by-right loophole. The moratorium does not affect existing facilities such as Globalinx's subsea-cable colocation operations, and is intended to apply to future larger-scale and hyperscale data center proposals while the city studies zoning definitions, setbacks, and noise standards. No repeal, extension, or replacement ordinance was found in sources reviewed through 2026-09-23.",
+      "enacted_status": "active",
+      "affected_projects": "No large-scale storage/computing data center currently operates in Virginia Beach; existing subsea-cable landing and carrier-neutral colocation facilities (e.g., Globalinx) are not affected.",
+      "outcome": "Virginia Beach City Council unanimously adopted a 12-month moratorium on new data center permits while it develops zoning definitions and regulations for the industry.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.pilotonline.com/2026/08/19/virginia-beach-approves-data-center-moratorium/",
+          "title": "Virginia Beach approves 1-year data center moratorium",
+          "publisher": "The Virginian-Pilot",
+          "document_date": "2026-08-19",
+          "source_type": "news",
+          "supports": "Confirms the unanimous August 18, 2026 adoption of a 12-month moratorium on new data center permits, that it excludes existing subsea-cable/colocation facilities, and that it runs 12 months or until a regulating ordinance is finalized, whichever is first.",
+          "quote": "In the meantime, the City Council on Tuesday unanimously agreed to establish a 12-month moratorium on any new data center permits while the evaluation is underway. ... The moratorium pauses the issuance of permits related to any new data center for 12 months or until the City Council takes final action on an ordinance regulating data centers, whichever occurs first."
+        },
+        {
+          "url": "https://www.wtkr.com/news/in-the-community/virginia-beach/virginia-beach-city-council-approves-12-month-moratorium-on-new-data-center-applications",
+          "title": "Virginia Beach city council approves 12-month moratorium on new data center applications",
+          "publisher": "WTKR",
+          "document_date": "2026-08-18",
+          "source_type": "news",
+          "supports": "Independently corroborates the unanimous vote pausing new data center applications for at least a year, and that the resolution does not affect existing facilities like Globalinx.",
+          "quote": "City council voted unanimously in favor of pausing new data center applications for at least the next year, or until an ordinance regulating data centers is put in place."
+        },
+        {
+          "url": "https://www.whro.org/business-growth/2026-08-18/chesapeake-moves-to-restrict-data-center-development-virginia-beach-presses-pause",
+          "title": "Chesapeake moves to restrict data center development, Virginia Beach presses pause",
+          "publisher": "WHRO",
+          "document_date": "2026-08-18",
+          "source_type": "news",
+          "supports": "Further corroborates the same-night August 18, 2026 Virginia Beach vote and its 12-month/until-ordinance term.",
+          "quote": "Also Tuesday, Virginia Beach City Council followed suit, voting unanimously to temporarily ban considering permits for new data centers. The pause in Virginia Beach will last 12 months or until the city addresses data centers in its zoning."
+        }
+      ],
+      "notes": "The city's Laserfiche/edocs.vbgov.com agenda portal serves only page-image thumbnails to automated fetches (no extractable resolution number or text), so this candidate rests on three independent, consistent news accounts rather than a primary ordinance document; confidence held at 0.8 accordingly."
+    },
+    {
+      "state": "Virginia",
+      "jurisdiction": "Loudoun County",
+      "jurisdiction_type": "County",
+      "date_enacted": "2026-09-16, Loudoun County Board of Supervisors, 7-1-1 vote (Supervisor opposed on the base pause; a separate 7-1-1 vote with Supervisor Briskman opposed approved a grid-reliability substation exception), per the Board's own press release.",
+      "date_enacted_iso": "2026-09-16",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Open-ended; in effect while the Board continues Phase 2 of its Data Center Standards and Locations initiative (zoning ordinance and comprehensive plan amendments), which is anticipated to be completed in 2027. County staff are to return with a formal resolution memorializing the pause at the Board's October 20, 2026 Business Meeting.",
+      "duration_days": null,
+      "duration_kind": "until_event",
+      "current_end_date_iso": "",
+      "legal_basis": "Board of Supervisors action taken September 16, 2026 enacting a temporary pause on Board consideration of certain legislative (Special Exception) applications for data centers and substations, pending a formal resolution to be brought to the Board's October 20, 2026 Business Meeting; per the County Attorney, Virginia law does not permit a blanket moratorium on administrative applications, so the pause applies only to legislative applications and does not affect roughly 17 land-use cases (11+ million square feet) 'grandfathered' under the county's March 2025 Data Center Grandfathering Resolution, which continue through the by-right administrative process.",
+      "trigger": "Regulatory gap and community pressure over rapid data center growth in the county (\"Data Center Alley\"); effort led by Algonkian District Supervisor Juli Briskman, tied to the county's ongoing Phase 2 Data Center Standards and Locations initiative (begun September 2025) addressing data center/substation siting, noise, building heights, on-site power generation, and battery storage standards.",
+      "trigger_categories": ["regulatory_gap", "grid_energy", "land_use_compatibility", "noise", "infrastructure_capacity"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. The Board of Supervisors voted 7-1-1 on September 16, 2026 to enact, effective immediately, a temporary pause on Board consideration of certain legislative data center and substation applications while Phase 2 of its Data Center Standards and Locations initiative continues; a companion 7-1-1 vote (Briskman opposed) approved an exception allowing consideration of applications involving a 'grid reliability' substation during the pause. The pause does not apply to administratively processed, 'grandfathered' data center cases. A formal resolution memorializing the pause is scheduled to come before the Board at its October 20, 2026 Business Meeting; separately, the Board is set to receive legal analysis on October 6, 2026 on whether the 2025 grandfathering exceptions can be ended for cases that have not yet achieved vested rights.",
+      "enacted_status": "active",
+      "affected_projects": "At least 17 land-use cases representing more than 11 million square feet of data center development are 'grandfathered' under the county's March 2025 resolution and continue through by-right administrative review, unaffected by this pause.",
+      "outcome": "Loudoun County Board of Supervisors enacted an immediate, open-ended pause on Board consideration of most new legislative data center and substation applications while it completes Phase 2 of its data center zoning and siting standards.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.loudoun.gov/DocumentCenter/View/222331/Statement---Loudoun-Board-Enacts-Pause-on-Data-Centers",
+          "title": "Loudoun Board Enacts Pause on Data Centers",
+          "publisher": "Loudoun County, Virginia (Office of Supervisor Juli Briskman)",
+          "document_date": "2026-09-16",
+          "source_type": "other",
+          "supports": "Official county press release confirming the September 16, 2026 7-1-1 vote enacting an immediate pause on legislative data center/substation applications, the companion grid-reliability-substation exception vote, the scope (excludes ~17 grandfathered administrative cases), and that a formal memorializing resolution is scheduled for the October 20, 2026 Business Meeting.",
+          "quote": "LEESBURG, VA, Sept. 16, 2026 – The Loudoun County Board of Supervisors voted Tuesday to enact a temporary pause on Board consideration of certain legislative applications for data centers and substations ... The pause takes effect immediately and will remain in place while the Board continues its work on Phase 2 of the Data Center Standards and Locations initiative ... County staff will return to the Board at its October 20 Business Meeting with a formal resolution memorializing the pause."
+        },
+        {
+          "url": "https://www.washingtonexaminer.com/policy/technology/4729241/loudoun-county-virginia-one-year-data-center-development-pause/",
+          "title": "Loudoun County puts pause on new data center developments",
+          "publisher": "Washington Examiner",
+          "document_date": "2026-09-16",
+          "source_type": "news",
+          "supports": "Corroborates the 7-1-1 vote, and quotes Board Chair Phyllis Randall that the pause is effective September 15/16, 2026 and does not cause pending applications to become inactive.",
+          "quote": "The Loudoun County Board of Supervisors authorized its staff to draft a resolution that would pause data center applications for 12 months. The measure passed in a 7-1-1 vote."
+        },
+        {
+          "url": "https://www.fox5dc.com/news/loudoun-county-supervisors-advance-12-month-data-center-moratorium",
+          "title": "Loudoun County supervisors advance 12-month data center moratorium",
+          "publisher": "FOX 5 DC",
+          "document_date": "2026-09-15",
+          "source_type": "news",
+          "supports": "Independently corroborates the September 15/16, 2026 vote and describes remaining procedural steps (formal resolution) and community reaction, including union concerns about jobs.",
+          "quote": "The Loudoun County Board of Supervisors advanced a proposed 12-month pause on new data center projects. ... The resolution will require a final vote. The Board of Supervisors is expected to take up the conversation again on Oct. 13."
+        }
+      ],
+      "notes": "News coverage from September 15-16, 2026 (FOX 5, Washington Examiner) is somewhat inconsistent on whether the September 16 action was itself the enactment or only an 'advance' toward a later final vote; this entry follows the county's own September 16, 2026 press release, which states unambiguously that the Board 'voted ... to enact' the pause, effective immediately, with an October 20, 2026 Business Meeting reserved only for a formal resolution 'memorializing' (not adopting) the already-enacted pause. duration_days is left null and duration_kind set to until_event because the pause is tied to completion of Phase 2 (anticipated in 2027) rather than a stated fixed number of days; a numeric '12-month' framing appears in some news accounts but the county's own release does not state a fixed end date."
+    },
+    {
+      "state": "Virginia",
+      "jurisdiction": "Front Royal",
+      "jurisdiction_type": "Town",
+      "date_enacted": "2026-07-06, Front Royal Town Council work session, 6-0 vote (Vice Mayor Amber F. Veitenthal and Councilmembers DeDomenico-Payne, Ingram, Rappaport, Sealock, and Wood; Mayor Cockrell present but votes only to break ties), per the town's own approved council minutes.",
+      "date_enacted_iso": "2026-07-06",
+      "date_enacted_uncertainty": "exact",
+      "duration": "90 days from adoption (to approximately 2026-10-04).",
+      "duration_days": 90,
+      "duration_kind": "fixed_days",
+      "current_end_date_iso": "2026-10-04",
+      "legal_basis": "Resolution Establishing a Temporary Ninety (90) Day Moratorium on the Acceptance of Data Center Land Use Applications, adopted 6-0 by Front Royal Town Council at its July 6, 2026 work session. Town Attorney George Sonnett advised the moratorium was structured as an administrative action (rather than a legislative zoning-ordinance amendment) because, in his opinion, Virginia law does not authorize a legislative moratorium through the zoning ordinance.",
+      "trigger": "The town sought to preserve the status quo while it drafts a permanent zoning text amendment to define data centers separately from 'technology' uses and prohibit data centers in all town zoning districts; no data center application had been received as of adoption.",
+      "trigger_categories": ["regulatory_gap", "land_use_compatibility"],
+      "sectors": ["data_center"],
+      "current_status": "Active as of 2026-09-23. The Town Council's July 6, 2026 resolution imposing a 90-day moratorium on accepting data center land-use applications (rezonings, special uses, site development plans) remains in force, with its term running through approximately October 4, 2026. The companion permanent zoning-ordinance prohibition has not yet been adopted: a September 8, 2026 work session reviewed revised ordinance language from outside legal counsel, and the Council decided against setting a public hearing date that month over concerns about the wording, so the permanent measure remains pending as of this research date.",
+      "enacted_status": "active",
+      "affected_projects": "None named; Town Manager Joseph Petty confirmed no data center applications had been received as of the July 6, 2026 vote.",
+      "outcome": "Front Royal Town Council adopted a 90-day administrative moratorium on data center land-use applications while it drafts a permanent zoning prohibition.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.frontroyalva.com/AgendaCenter/ViewFile/Minutes/_07062026-1476",
+          "title": "Front Royal Town Council Work Session Minutes, July 6, 2026",
+          "publisher": "Town of Front Royal, Virginia",
+          "document_date": "2026-07-06",
+          "source_type": "minutes",
+          "supports": "Official town minutes recording the 6-0 roll-call vote adopting the 90-day moratorium resolution, the town attorney's legal rationale, and that no data center applications had been received.",
+          "quote": "Vice Mayor Veitenthal moved, seconded by Councilman Wood, that Council adopt the Resolution Establishing a Temporary Ninety (90) Day Moratorium on the Acceptance of Data Center Land Use Applications as presented. Vote: Yes – Councilmembers Rappaport, DeDomenico-Payne, Ingram, Wood, Sealock, Vice Mayor Veitenthal No – None"
+        },
+        {
+          "url": "https://www.nvdaily.com/nvdaily/council-oks-moratorium-on-data-center-applications/article_8bbfc9ce-d84e-5dd8-a4be-e8f9ee95cc94.html",
+          "title": "Council OKs moratorium on data-center applications",
+          "publisher": "The Northern Virginia Daily",
+          "document_date": "2026-07-07",
+          "source_type": "news",
+          "supports": "Corroborates the July 6, 2026 vote, quotes the resolution's recitals, and explains the town attorney's administrative-versus-legislative rationale.",
+          "quote": "The Front Royal Town Council temporarily stopped the application process for data-center development. ... council members ... voted at a work session on Monday to adopt a resolution imposing a 90-day moratorium on accepting land-use applications for data centers."
+        },
+        {
+          "url": "https://www.nvdaily.com/nvdaily/council-delays-hearing-on-data-center-ban-over-concerns-about-wording/article_df9ef623-589f-5de8-9097-82fb9f34dbe5.html",
+          "title": "Council delays hearing on data-center ban over concerns about wording",
+          "publisher": "The Northern Virginia Daily",
+          "document_date": "2026-09",
+          "source_type": "news",
+          "supports": "Confirms that as of a September 2026 work session, the companion permanent zoning ban had not been finalized and a public hearing date had been postponed, indicating the temporary moratorium remains the operative pause.",
+          "quote": "Front Royal leaders took another look at a proposed data-center ban on Tuesday but decided against setting the public hearing date for later this month."
+        }
+      ],
+      "notes": "Because the moratorium's 90-day term (through approximately October 4, 2026) is close to expiring and the permanent zoning ordinance remains unresolved as of the September 8, 2026 work session, the coordinator may want to flag this row for near-term re-verification of whether the moratorium was extended, allowed to lapse, or superseded by the permanent ordinance."
+    }
+  ]
+}

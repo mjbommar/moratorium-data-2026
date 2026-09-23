@@ -61,6 +61,7 @@ apply:
 	$(PYTHON) scripts/apply_research.py --answers-dir work/answers/chronology
 	$(PYTHON) scripts/apply_research.py --answers-dir work/answers/gaps
 	$(PYTHON) scripts/apply_research.py --answers-dir work/answers/decisions
+	$(PYTHON) scripts/apply_research.py --answers-dir work/answers/full
 	$(PYTHON) scripts/apply_legislation.py --answers-dir work/answers/legislation
 	$(PYTHON) scripts/normalize_vocab.py
 	$(PYTHON) scripts/reconcile_durations.py
