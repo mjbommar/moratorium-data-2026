@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Expanded data contracts · Moratorium Nation</title>
+<meta name="description" content="Expanded data contracts — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/ballot-results.html">Ballots</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / Docs</div>
+  <h1 id="expanded-candidate-data-contracts-version-100">Expanded candidate data contracts, version 1.0.0</h1>
+<p>These additive contracts describe research candidates and reviewed canonical expanded
+records. They do not modify the legacy inventory or state-policy CSVs. The existing codebook's
+moratorium grain and exclusion of permanent bans remain unchanged. A successful
+validation is structural consistency, not proof of legal effect, source accuracy,
+identity, completeness, or permission to publish. An initial <a href="expanded-promotion.html">reviewed snapshot writer</a> now supplies separate
+identity, evidence, field-review and atomic-publication gates; reviewed canonical
+records include Eliot and Sabattus, with explicit result supersession. See the
+<a href="ballot-results.html">generated results view</a>. Identity decisions have a separate
+<a href="expanded-identity-registry.html">append-only registry</a>.</p>
+<h2 id="files-and-validation">Files and validation</h2>
+<p><a href="../work/schemas/expanded/1.0.0.json">JSON Schema 2020-12</a> contains a named
+<code>$defs</code> schema for each JSONL table. Every record has <code>schema_version: "1.0.0"</code>.
+Use UTF-8, one object per line, in files named <code>&lt;table&gt;.jsonl</code>. Missing tables are
+allowed and mean no records supplied, not that the universe was searched. Unknown
+JSONL filenames and duplicate IDs within a table fail. Examples in
+<a href="../work/schemas/expanded/fixtures/synthetic/jurisdictions.jsonl">synthetic jurisdiction fixture</a> are entirely
+invented; <code>ZZ</code> and <code>example.invalid</code> are deliberately fictitious.</p>
+<pre><code class="language-sh">~/projects/bc/bc-modules/.venv/bin/python scripts/expanded_data.py \
+  work/schemas/expanded/fixtures/synthetic
+~/projects/bc/bc-modules/.venv/bin/python -m unittest discover -s tests -p test_expanded_data.py -v
+</code></pre>
+<p>Use <code>--moratoria data/moratorium_inventory.csv</code> and/or <code>--state-actions
+ data/state_legislation.csv</code> when tagged references use those legacy types. The
+validator reads these CSVs only to resolve their ID columns; missing files,
+columns, or IDs fail. Restrictions resolve to the supplied JSONL records. The CLI
+is read-only and returns 0 for valid input and 1 for invalid input. Its certified
+count is <strong>current explicitly certified result observations</strong>, not measures or
+legal instruments; independent observations may describe the same measure. Only
+explicit supersession removes an observation from that count. It is a diagnostic,
+not a public tally. Missing rows and unresolved references cannot establish absence.</p>
+<h2 id="grains-and-semantics">Grains and semantics</h2>
+<p>The table definitions are <code>jurisdictions</code>, <code>elections</code>, <code>ballot_measures</code>,
+<code>measure_provisions</code>, <code>measure_results</code>, <code>local_restrictions</code>, <code>instrument_events</code>,
+<code>measure_instrument_links</code>, <code>source_documents</code>, <code>claims</code>, <code>review_decisions</code>,
+<code>search_runs</code>, <code>search_attempts</code>, <code>search_sightings</code>, and <code>coverage_observations</code>.
+Each table's singular ID field is its key. IDs are opaque and must be allocated
+from a reviewed, collision-checked registry; the
+<a href="expanded-identity-registry.html">identity registry</a> now supplies explicit UUID allocation,
+observation aliases and merge/split lineage. It performs no identity inference and
+does not promote domain records. Names and titles
+are not keys. Distinct same-name governments must have distinct IDs. This first
+validator requires a measure and its election to use the same jurisdiction ID;
+overlapping administrative and electoral jurisdictions need a future explicit
+relationship contract rather than a guessed equivalence.</p>
+<p>A measure has independent lifecycle, bindingness, yes-direction and referendum
+polarity. Provisions capture mechanisms, covered uses, exemptions, and thresholds
+with original unit, measurement basis, aggregation and scope. An election result
+is an observation with separate reported and calculated outcomes and explicit
+certification. A complete precinct count does not certify a result. For a
+mechanically calculated outcome this version uses the stated denominator, threshold
+and strict or inclusive comparison. It reverses restricts/facilitates for a defeated
+question; mixed, neutral and unresolved remain as stated. A direction is not a
+legal-effect assertion. Unspecified totals stay null, never zero. The validator
+allows optional <code>outcome_direction_basis</code> to distinguish <code>calculated</code> (the default
+for legacy candidates), <code>reported</code>, and <code>unresolved</code>. A reported basis requires a
+<code>source_reported</code> value method for <code>reported_outcome</code> and a matching claim scoped
+to that exact result observation. It does not invent a passage rule, certify the
+result, establish legal effect, or override contradictory calculable arithmetic.
+The validator
+checks arithmetic only when inputs are available, and compares reported percentages
+to the chosen denominator with 0.11 percentage point rounding tolerance.
+Optional <code>yes_no_votes</code> records the arithmetic sum without inventing total valid
+votes or turnout; <code>blank_votes</code> remains distinct from overvotes and undervotes.
+<code>value_methods</code> identifies text, OCR, visual review, source reporting or derivation
+per result field with supporting claim IDs. Optional provision/restriction
+<code>duration</code> retains calendar months/years versus days, the legal anchor and its
+uncertain date; it does not automatically calculate an operative expiration.
+Complicated passage rules should remain <code>unknown</code> and be described in evidence;
+they cannot be represented or calculated completely by this first increment.</p>
+<p><code>instrument</code> is a tagged reference (<code>moratorium</code>, <code>restriction</code>, or <code>state_action</code>)
+so legacy identifiers do not collide. Accepted measure-to-instrument relations
+require a current accepted decision scoped to that exact relation, and each
+supporting claim needs its own current accepted decision scoped to its predicate.
+Claims identify the document version and their subject. Accepted decisions require
+supporting claim IDs, and those claims must address the target. A claim decision
+uses that claim itself as its supporting ID; this records review of the source
+assertion, not independent corroboration. Superseded decisions do not count as
+current; competing successors fail. An advisory measure cannot itself enact or
+uphold an instrument through an accepted link. Independent subsequent adoption
+requires its own event and evidence. An advisory result never creates an active
+moratorium: this validator generates no instrument or status at all.</p>
+<p>Source records distinguish payload and extracted-text hashes and retain retrieval,
+access and publication classification. Create a new document ID when bytes change;
+old claims keep their original document reference. Search ledgers retain attempts,
+errors, retries, sightings, run scope and spend; null spend means unknown, not free.
+Coverage observations describe a bounded search, not proof of absence. These
+contracts do not check URL bodies, quote spans, rights, reviewer competence or
+whether the cited source actually supports a claim.</p>
+<p><code>scripts/audit_refresh_returns.py</code> adds a separate pre-review check against retained
+bounded-client artifacts: declared source hashes, independently located excerpts,
+and candidate seed coverage against the frozen discovery list. A payload-only
+document with null text hash can pass payload accounting but cannot prove a text
+claim. Visual claims require their own reviewed source/page/render provenance;
+an unlocated text quote is not automatically a visual claim. The audit does not
+promote candidates or establish legal effect, and its success cannot substitute
+for substantive review. Frozen seeds describe that source list, not a full census.
+Earlier pilot evidence is reusable only through its pinned input manifest and
+fresh body/text hash checks. The audit explicitly records universal newline
+decoding where required to reproduce the original pilot text hash; it does not
+silently replace source bytes. Additional omission leads have their own frozen
+registry and bounded recovery jobs, distinct from the initial 50-seed list.</p>
+<p><code>scripts/build_ballot_census.py</code> compiles terminal ballot packets into a separate
+review snapshot. Every packet gets its own ID namespace, including claim subjects,
+result revisions and value-method claim references; external legacy instrument IDs
+and free-form source values remain unchanged. Explicit identity decisions pin both
+measure records before grouping aliases. Grouping does not delete observations or
+accept legal effect. A reviewed input overlay must match its review receipt's
+output hashes. The builder refuses to overwrite snapshots and records input and
+expanded-output hashes. Combined unreviewed claims remain private until excerpt
+and evidence review; the public census manifest is not canonical ballot promotion.</p>
+<p>Visual transcription reviews require a pinned claim, values, source PDF hash,
+page and rendering parameters. <code>visual_claim_review.py</code> rehashes the retained PDF
+and reproduces the approved page-image hash. This verifies the reviewed rendering
+chain, not the reviewer judgement, election certification or legal effect. The
+return audit reports visual verification separately from located text evidence.
+Reviewed overlays are audited separately from unmodified worker returns. Each
+overlay must match its receipt's output hashes; accepted claim decisions are
+checked against verified evidence. An accepted result transcription does not
+accept the measure's bindingness or legal implementation.</p>
+<h2 id="dates-and-limitations">Dates and limitations</h2>
+<p><code>date_bounds</code> has inclusive earliest/latest possible <strong>dates</strong>, precision and
+original text. <code>day</code> requires equal non-null bounds; unknown precision requires
+null bounds. Jurisdiction validity and coverage periods use <code>[start, end)</code>;
+convert source-inclusive end dates only with evidence and retain original wording.
+Full timestamps require a UTC offset and are kept distinct from date-only facts.
+Adoption, effective date and applicability start are separate. When known bounds
+establish retroactivity, require an explanation and an applicability-start claim;
+validation does not adjudicate that claim. Null or overlapping bounds do not imply
+chronology. Duration remains source text; calendar months and years are not
+converted into 30/365-day terms, and expiry is not calculated. The legacy
+<code>duration_days</code> field has historical conversion assumptions described in the
+codebook and is not reinterpreted here.</p>
+<p>This is a first contract increment, not the P1 pilot exit: it does not validate
+all legal chronology or certification evidence, infer external instrument status,
+verify accepted claims, reconcile independent result revisions, model all legal
+passage rules, or implement authoritative IDs, migrations, CSV exports, review
+application, atomic promotion, source capture, or release. A source-backed pilot,
+identity registry, broader review gates and transaction design remain required
+before canonical use. Certification and active-status counts must be derived from
+reviewed, scoped evidence and a declared cutoff, never from these diagnostic counts.</p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

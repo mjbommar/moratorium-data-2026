@@ -1,57 +1,58 @@
-# Reviewed ballot measures
+# Reviewed ballot records: scope and interpretation
 
-The first canonical expanded cohort covers **Eliot, Maine, Question 5**, at the
-November 3, 2026 special municipal referendum. It is an initial reviewed subset;
-other measures in the research census still require identity and fact review.
-There is no claim of a complete November election census or a new release here.
+The [generated results view](ballot-results.md) follows the pinned canonical
+publication. It is a reviewed subset, not the complete November election census.
+Each displayed row is a current result observation, and multiple observations of
+one measure remain separate. Blank, other-vote and turnout categories are not
+filled with zero when the source omits them.
 
-The official sample ballot asks whether the Town of Eliot Data Center Moratorium
-Ordinance should be enacted and directs preparation of permanent land-use standards.
-Its proposed mechanism is a binding temporary moratorium, including data centers
-used for cryptocurrency mining and artificial-intelligence computing, with an
-accessory-equipment exception. The proposed term is 180 days from effectiveness,
-subject to earlier repeal, modification or permanent standards. These are proposed
-mechanism classifications, not a finding of present enforceability.
-[Official sample ballot](https://www.eliotme.gov/DocumentCenter/View/3950/Sample-Ballot---Town-PDF),
-[official proposed ordinance](https://www.eliotme.gov/DocumentCenter/View/3909/Ballot-Question-5----Proposed-Ordinance---Data-Center-Moratorium-PDF).
+The November 5 initial cohorts cover Eliot Question 5 and Sabattus's Data Center
+Moratorium question at the November 3, 2026 elections. Both questions ask enactment
+of a temporary ordinance. Their bindingness and restrictive yes direction describe
+the proposed mechanism; neither is a finding of present enforceability.
+[Official Eliot sample ballot](https://www.eliotme.gov/DocumentCenter/View/3950/Sample-Ballot---Town-PDF),
+[official Sabattus sample ballot](https://storage.googleapis.com/juniper-media-library/571/2026/10/Nov%202026%20Sabattus%20Sample%20Ballot.pdf).
 
-The signed moderator's return records:
+The signed returns certify the respective counts. Sabattus's clerk certifies on
+November 4; the return omits total ballots and blank votes. Eliot's moderator return
+is dated November 3 and reports blanks and total ballots separately. Certification
+of election results remains distinct from certification or implementation of an
+ordinance.
+[Eliot return, PDF page 3](https://www.eliotme.gov/DocumentCenter/View/3997/Election-Results-November-3-2026---Eliot-Maine-PDF),
+[Sabattus clerk return](https://storage.googleapis.com/juniper-media-library/571/2026/11/Sabattus%20-%20Clerk%20Return%20of%20Votes%20-%20Municipal%20Election.pdf).
 
-| Observation | Votes |
-|---|---:|
-| Yes | 2,965 |
-| No | 909 |
-| Blank | 183 |
-| Total ballots cast | 4,057 |
-| Derived yes plus no | 3,874 |
+A separate secondary report supplies reported approval for both questions. The
+canonical records distinguish that reported outcome from a calculated passage rule.
+No denominator, threshold or legal passage rule is invented from vote arithmetic.
+The earlier Eliot official-source-only observation remains unchanged; an explicit
+successor adds the reported approval. Supersession removes the earlier observation
+from the current view, not from history.
+[Secondary approval report](https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/).
 
-The moderator explicitly certifies the results, with signatures dated November 3.
-Unreported undervotes, overvotes and other categories remain null. The current
-canonical observation retains an unknown passage threshold and calculated outcome;
-it does not infer a legal passage rule solely from vote arithmetic. Reported outcome
-is also unresolved in this official-source-only batch; the separately retained
-secondary-source approval claim has not been promoted with it.
-[Official return, PDF page 3](https://www.eliotme.gov/DocumentCenter/View/3997/Election-Results-November-3-2026---Eliot-Maine-PDF).
+Eliot's proposed ordinance specifies 180 days from effectiveness and an accessory
+server-equipment exception. Paragraph 5 refers both to voter enactment and seven
+days after adoption. Sabattus's question summarizes a nominal May 2, 2027 endpoint
+(180 days), subject to extension or repeal by municipal officers; its operative
+mechanism/definition, applicability and effective-date clauses require ordinance
+review. The question summary is not substituted for executed operative text.
+[Eliot official proposed text](https://www.eliotme.gov/DocumentCenter/View/3909/Ballot-Question-5----Proposed-Ordinance---Data-Center-Moratorium-PDF).
 
-Paragraph 5 of the proposed ordinance mentions both enactment by voters and seven
-days after adoption. Exact operative dates, subsequent implementation and the
-measure/instrument relationship remain unresolved. No local restriction, instrument
-event or measure/instrument link is accepted in this cohort, and no extra in-force
-moratorium is added to the legacy inventory because of this publication.
+No current legal-force restriction, instrument event or measure/instrument link has
+been accepted in these initial cohorts, and their publication does not add active
+legacy moratorium rows. Other jurisdictions, earlier and future elections, legal
+implementation, passage rules and the full freshness accounting remain work in progress.
 
-The canonical JSONL tables are available through `data/expanded/<table>.jsonl` in a
-checkout. Resolve that directory once when reading multiple tables. The immutable
-[first snapshot](../data/expanded-snapshots/0d3783df2c0d66dabd7c36163910b9dfd4d88a6ff056032735975f97bb7fa906/)
-contains all fifteen tables plus the publication plan and evidence receipt. It has
-one jurisdiction, election, measure, provision and result observation, four source
-documents, fifteen independently verified visual claims and fifty-five scoped review
-decisions. Observation time remains separate from the election and certification
-dates. Retained source bodies have hashes even where their client text extraction
-was empty; visual review is not full-document extraction coverage.
+Canonical tables are available at `data/expanded/<table>.jsonl` in a checkout.
+Resolve the directory once when reading several tables. The immutable
+[first Eliot snapshot](../data/expanded-snapshots/0d3783df2c0d66dabd7c36163910b9dfd4d88a6ff056032735975f97bb7fa906/publication.json)
+and [Sabattus/result-update snapshot](../data/expanded-snapshots/7b960c58dd52c2f643647e306616966d4590a652c0b9caf11c108ea2edc3f421/publication.json)
+preserve the exact tables, source versions and publication plans. Visual source
+review is not a claim of full-document extraction coverage.
 
-The [review packet](../work/research/2026-11-05/eliot-promotion/) pins each published
-record, field disposition, source rendering and identity allocation. The
-[publication receipt](../work/audit/eliot-canonical-publication-2026-11-05.json) and
-[identical replay receipt](../work/audit/eliot-canonical-replay-2026-11-05.json)
-record local canonical publication. GitHub release, public CSV projection, site views,
-additional measures and the full freshness accounting remain separate work.
+The [Sabattus review packet](../work/research/2026-11-05/sabattus-promotion/publication-plan.json) and
+[publication receipt](../work/audit/sabattus-canonical-publication-2026-11-05.json)
+record local publication. The [replay receipt](../work/audit/sabattus-canonical-replay-2026-11-05.json)
+and [offline consistency check](../work/audit/sabattus-publication-consistency-2026-11-05.json)
+validate retained publication behavior; they do not reacquire sources or establish
+current legal force. GitHub release, full public exports, remaining measures and
+consumer updates retain the separate release gates.

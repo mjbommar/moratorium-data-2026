@@ -15,6 +15,8 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 >
 > ✅ **Coverage note:** **all 50 states** were swept month by month for May–July 2026, so counts inside that window are complete rather than lower bounds. Ten states recorded no adoption in it — a finding, not a gap. Earlier periods were not swept this way. See [known gaps](docs/known-gaps.md).
 
+[Reviewed ballot results](docs/ballot-results.md) are tracked separately from the legacy moratorium counts. Legal-effect review remains record-specific.
+
 ![Moratorium counts by state](figures/png/map-moratorium-counts.png)
 
 ---

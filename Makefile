@@ -1,10 +1,11 @@
 # Moratorium Data 2026 -- build and refresh targets.
 #
-# Everything published in this repository is derived from two CSVs:
+# Legacy inventory artifacts are derived from two canonical CSVs:
 #   data/moratorium_inventory.csv
 #   data/state_legislation.csv
-# Every other artifact is generated. `make all` rebuilds them; `make validate`
-# is the gate that keeps them honest.
+# Reviewed ballot tables use data/expanded and its immutable snapshot history.
+# `make check` validates generated outputs and the expanded publication.
+# `make validate` checks the legacy CSV contracts.
 #
 #   make install     install Python dependencies
 #   make validate    check the CSVs against docs/codebook.md (exit 1 on error)
@@ -39,6 +40,7 @@ check: validate
 	$(PYTHON) scripts/check_docs_numbers.py
 	$(PYTHON) scripts/expanded_identity.py --registry data/identities/expanded.jsonl --check
 	$(PYTHON) scripts/check_expanded_publication.py
+	$(PYTHON) scripts/build_ballot_summary.py --check
 	$(PYTHON) scripts/build_index.py --check
 	$(PYTHON) scripts/classify_sources.py --check
 
@@ -79,6 +81,7 @@ apply:
 data:
 	$(PYTHON) scripts/build_summary_stats.py
 	$(PYTHON) scripts/build_geojson.py
+	$(PYTHON) scripts/build_ballot_summary.py
 
 figures: data/geo/cb_2023_us_state_5m/cb_2023_us_state_5m.shp
 	$(PYTHON) -m scripts.generate_tables

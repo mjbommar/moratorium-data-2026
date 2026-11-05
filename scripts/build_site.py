@@ -24,6 +24,11 @@ PAGES: list[tuple[str, str, str, int]] = [
     ("docs/methodology.md",  "docs/methodology.html",  "Methodology",               1),
     ("docs/codebook.md",     "docs/codebook.html",     "Codebook",                  1),
     ("docs/known-gaps.md",   "docs/known-gaps.html",   "Known gaps and limitations", 1),
+    ("docs/expanded-promotion.md", "docs/expanded-promotion.html", "Expanded publication", 1),
+    ("docs/expanded-data-contracts.md", "docs/expanded-data-contracts.html", "Expanded data contracts", 1),
+    ("docs/expanded-identity-registry.md", "docs/expanded-identity-registry.html", "Expanded identities", 1),
+    ("docs/ballot-results.md", "docs/ballot-results.html", "Reviewed ballot results", 1),
+    ("docs/ballot-measures.md", "docs/ballot-measures.html", "Ballot records and scope", 1),
     ("data/README.md",       "data/index.html",        "Data files",                 1),
     ("states/README.md",     "states/index.html",      "Browse by state",            1),
 ]
@@ -219,6 +224,7 @@ PAGE_TEMPLATE = """<!doctype html>
     <nav>
       <a href="{home}">Map</a>
       <a href="{prefix}states/index.html">States</a>
+      <a href="{prefix}docs/ballot-results.html">Ballots</a>
       <a href="{prefix}docs/FAQ.html">FAQ</a>
       <a href="{prefix}docs/methodology.html">Methodology</a>
       <a href="{prefix}paper/moratorium-nation-2026-04-30.pdf">Paper</a>

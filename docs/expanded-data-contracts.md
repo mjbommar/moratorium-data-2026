@@ -5,8 +5,9 @@ records. They do not modify the legacy inventory or state-policy CSVs. The exist
 moratorium grain and exclusion of permanent bans remain unchanged. A successful
 validation is structural consistency, not proof of legal effect, source accuracy,
 identity, completeness, or permission to publish. An initial [reviewed snapshot writer](expanded-promotion.md) now supplies separate
-identity, evidence, field-review and atomic-publication gates; the first reviewed canonical
-batch contains Eliot Question 5 and its signed result observation. Identity decisions have a separate
+identity, evidence, field-review and atomic-publication gates; reviewed canonical
+records include Eliot and Sabattus, with explicit result supersession. See the
+[generated results view](ballot-results.md). Identity decisions have a separate
 [append-only registry](expanded-identity-registry.md).
 
 ## Files and validation
@@ -16,7 +17,7 @@ batch contains Eliot Question 5 and its signed result observation. Identity deci
 Use UTF-8, one object per line, in files named `<table>.jsonl`. Missing tables are
 allowed and mean no records supplied, not that the universe was searched. Unknown
 JSONL filenames and duplicate IDs within a table fail. Examples in
-[fixtures/synthetic](../work/schemas/expanded/fixtures/synthetic/) are entirely
+[synthetic jurisdiction fixture](../work/schemas/expanded/fixtures/synthetic/jurisdictions.jsonl) are entirely
 invented; `ZZ` and `example.invalid` are deliberately fictitious.
 
 ```sh

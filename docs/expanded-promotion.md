@@ -1,13 +1,12 @@
 # Expanded-table publication protocol
 
 `scripts/expanded_promotion.py` supplies the first implementation of explicit
-reviewed snapshot publication. The first real canonical batch now contains Eliot Question 5, its proposed
-mechanism and the signed result return. It includes one jurisdiction, election,
-measure, provision and result observation, four sources, fifteen verified claims
-and fifty-five scoped review decisions. Operative dates and the measure/instrument
-link remain unresolved. Other census records remain candidates. Broader behavioral
-calibration, additional ballot reviews, public exports and release work remain open;
-this batch does not close P3 or P6.
+reviewed snapshot publication. Canonical publication has been exercised on Eliot and Sabattus, including an
+explicit successor result observation that preserves the original. The
+[generated results view](ballot-results.md) supplies current counts. Earlier
+generations remain immutable history. Operative legal intervals and instrument
+links remain unresolved. Other census candidates, broader calibration, exports and
+release work remain open; these initial batches do not close P3 or P6.
 
 The canonical path is `data/expanded`, a relative symlink to a complete immutable
 generation in `data/expanded-snapshots/<snapshot-sha256>/`. Every generation contains

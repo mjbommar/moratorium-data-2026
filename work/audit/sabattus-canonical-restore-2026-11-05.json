@@ -1,0 +1,30 @@
+{
+  "scope": "Portable two-generation restore, offline consistency and exact replay. Source acquisition and human/agent source judgments are not repeated.",
+  "check": {
+    "state": "consistent",
+    "snapshot_sha256": "7b960c58dd52c2f643647e306616966d4590a652c0b9caf11c108ea2edc3f421",
+    "generations_checked": 2,
+    "records": {
+      "jurisdictions": 2,
+      "elections": 2,
+      "ballot_measures": 2,
+      "measure_provisions": 2,
+      "measure_results": 3,
+      "local_restrictions": 0,
+      "instrument_events": 0,
+      "measure_instrument_links": 0,
+      "source_documents": 7,
+      "claims": 26,
+      "review_decisions": 118,
+      "search_runs": 0,
+      "search_attempts": 0,
+      "search_sightings": 0,
+      "coverage_observations": 0
+    },
+    "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+  },
+  "replay": {
+    "state": "already_applied",
+    "sha256": "7b960c58dd52c2f643647e306616966d4590a652c0b9caf11c108ea2edc3f421"
+  }
+}

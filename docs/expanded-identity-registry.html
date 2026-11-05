@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Expanded identities · Moratorium Nation</title>
+<meta name="description" content="Expanded identities — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/ballot-results.html">Ballots</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / Docs</div>
+  <h1 id="expanded-identity-registry">Expanded identity registry</h1>
+<p>The authoritative identity history is <code>data/identities/expanded.jsonl</code>. It is
+separate from the legacy CSV primary keys and the canonical domain tables
+in <code>data/expanded/&lt;table&gt;.jsonl</code>. The registry does not change ballot facts,
+certification, legal force, or legacy instrument counts. Canonical records include reviewed Eliot and Sabattus questions and result
+observations; identity decisions alone never promote their facts. Remaining candidate
+review snapshots are research inputs, not canonical domain records.</p>
+<p><code>scripts/expanded_identity.py</code> applies explicit reviewer decisions. Names, titles,
+election dates, question numbers and similar wording never trigger an automatic
+match. A reviewer supplies an opaque UUID for each new entity and event. Preserve
+legacy moratorium/project/state-action IDs exactly; this registry allocates only
+expanded identities. The <a href="expanded-promotion.html">domain publisher</a> must resolve candidate references
+through these reviewed mappings and independently enforce field/evidence review.</p>
+<p>An observation alias contains a namespace, its source record ID, and the SHA-256
+of the record serialized as UTF-8 JSON with sorted keys, <code>ensure_ascii=False</code>, and
+compact separators. Different record versions have distinct fingerprints and
+require separate explicit identity decisions. A repeated fingerprint cannot be
+silently assigned to another canonical identity. Two aliases sharing a name or
+source ID are not automatically equivalent. Reference each immutable snapshot's
+manifest when reviewing its aliases.</p>
+<h2 id="decision-protocol-100">Decision protocol 1.0.0</h2>
+<p>A plan contains exactly <code>schema_version</code>, <code>expected_sha256</code> and <code>events</code>. The
+expected hash is SHA-256 of the entire previous registry file, or null for an
+absent registry. Events contain exactly:</p>
+<ul>
+<li><code>schema_version</code>: <code>1.0.0</code>.</li>
+<li><code>event_id</code>: a new opaque UUID.</li>
+<li><code>action</code>: <code>allocate</code>, <code>alias</code>, <code>merge</code> or <code>split</code>.</li>
+<li><code>table</code>: one of the expanded contract's fifteen table names.</li>
+<li><code>inputs</code> and <code>outputs</code>: canonical UUID lists.</li>
+<li><code>aliases</code>: observation alias objects (<code>namespace</code>, <code>source_id</code>, <code>record_sha256</code>).</li>
+<li><code>assignments</code>: split dispositions (<code>alias</code>, <code>canonical_id</code>).</li>
+<li><code>reviewer</code>, timezone-bearing <code>reviewed_at</code>, and <code>rationale</code>.</li>
+<li><code>evidence</code>: at least one URL, <code>body_sha256</code>, and document <code>locator</code>.</li>
+</ul>
+<p>Allocation creates one unused ID with at least one pinned observation. Alias adds
+observations to one active ID. Merge takes at least two active IDs from the same
+table and retains one as survivor. Earlier IDs and events remain in history;
+references to merged IDs resolve to the survivor. IDs are never reused.</p>
+<p>Split retires one active ID and creates at least two unused IDs. Every alias
+currently resolving solely to the old identity, including aliases inherited from
+a prior merge, needs an explicit assignment. An assignment to a new ID resolves
+that observation. A null assignment preserves ambiguity: lookup returns all
+possible successors. Historical references to the split identity also return
+multiple successors; callers must not arbitrarily select one. New entity facts
+and rewritten foreign keys need their own subsequent review and import.</p>
+<h2 id="preview-apply-and-recovery">Preview, apply and recovery</h2>
+<pre><code class="language-sh">python3 scripts/expanded_identity.py \
+  --registry data/identities/expanded.jsonl --plan REVIEWED_PLAN.json
+python3 scripts/expanded_identity.py \
+  --registry data/identities/expanded.jsonl --plan REVIEWED_PLAN.json --apply
+</code></pre>
+<p><code>python3 scripts/expanded_identity.py --registry data/identities/expanded.jsonl
+--check</code> validates the retained registry without a plan; <code>make check</code> includes it.</p>
+<p>Dry-run is the default and writes no registry or lock. Apply locks a separate
+stable lock file, validates all existing history and all new events, compares the
+reviewed baseline hash, then appends events through an atomic file replacement
+with file and directory fsync. Earlier bytes remain unchanged. A conflict anywhere
+prevents partial registry writes. Writers using this interface serialize through
+the same lock; a competing plan against an old baseline must be reviewed again.</p>
+<p>Replaying an already-recorded identical plan is a no-op, even when later history
+exists. This confirms historical application, not that an entity remains active.
+Reusing an event ID with changed content fails. Retained plans, hashes and Git
+history support review and recovery. Do not truncate history to undo a decision:
+use a reviewed subsequent merge, split or alias decision as applicable.</p>
+<p>These checks validate identity mechanics and explicit provenance references, not
+source authenticity or reviewer judgment. They do not download evidence or verify
+that a document supports the proposed identity. The coordinator must inspect the
+pinned source bodies before preparing a plan. Eliot's initial plan uses the signed
+special-referendum warrant and pins both reviewed candidate and combined snapshot
+aliases. It accepts only identity, not every field in those candidate records.</p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

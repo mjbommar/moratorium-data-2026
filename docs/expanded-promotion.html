@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Expanded publication · Moratorium Nation</title>
+<meta name="description" content="Expanded publication — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/ballot-results.html">Ballots</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / Docs</div>
+  <h1 id="expanded-table-publication-protocol">Expanded-table publication protocol</h1>
+<p><code>scripts/expanded_promotion.py</code> supplies the first implementation of explicit
+reviewed snapshot publication. Canonical publication has been exercised on Eliot and Sabattus, including an
+explicit successor result observation that preserves the original. The
+<a href="ballot-results.html">generated results view</a> supplies current counts. Earlier
+generations remain immutable history. Operative legal intervals and instrument
+links remain unresolved. Other census candidates, broader calibration, exports and
+release work remain open; these initial batches do not close P3 or P6.</p>
+<p>The canonical path is <code>data/expanded</code>, a relative symlink to a complete immutable
+generation in <code>data/expanded-snapshots/&lt;snapshot-sha256&gt;/</code>. Every generation contains
+all fifteen <code>&lt;table&gt;.jsonl</code> files and <code>publication.json</code>. This preserves the planned
+<code>data/expanded/&lt;table&gt;.jsonl</code> interface while allowing a single atomic pointer swap
+instead of fifteen independently visible table replacements. Git must retain both
+the relative symlink and its referenced generation. Old generations remain available.
+Readers must resolve the directory once before opening multiple tables;
+<code>expanded_data.validate</code> and <code>read_snapshot</code> do this. Consumers that independently
+resolve each filename during a publication can mix generations and need adaptation.</p>
+<p>A plan is one explicit JSON file with exactly:</p>
+<ul>
+<li><code>schema_version</code>: <code>1.0.0</code>.</li>
+<li><code>expected_sha256</code>: fingerprint of the previous canonical snapshot, or null.</li>
+<li><code>registry_sha256</code>: SHA-256 of the complete reviewed identity registry.</li>
+<li><code>snapshot_sha256</code>: fingerprint of the complete proposed snapshot.</li>
+<li><code>reviewer</code>, timezone-bearing <code>reviewed_at</code>, and <code>rationale</code>.</li>
+<li><code>record_reviews</code>: exactly one publication review for every supplied record.</li>
+</ul>
+<p>Each record review contains exactly <code>table</code>, <code>id</code>, <code>record_sha256</code>,
+<code>previous_sha256</code>, <code>accepted_fields</code>, <code>unresolved_fields</code> and <code>publication</code>.
+Record fingerprints use sorted-key compact UTF-8 JSON, with <code>ensure_ascii=False</code>.
+The baseline fingerprint is null for a new record. Both field lists must be unique,
+disjoint and together cover every field except the primary ID and schema version.
+Unresolved fields must contain null, <code>unknown</code>, <code>unresolved</code>, an empty list or an
+empty object; populated factual assertions cannot hide behind an unresolved label.
+Publication requires an explicit rights disposition of <code>public_record</code>,
+<code>reviewed_excerpt</code> or <code>reviewed_metadata</code>. These are human review decisions, not an
+automatic licensing determination. Never mark a publisher's full article as an
+approved excerpt.</p>
+<p>Every record ID must be allocated for its table in the identity registry. Retired
+or ambiguous IDs cannot receive new facts. An unchanged historical record may
+retain its earlier ID; no merge silently rewrites its facts. All existing records
+must remain present. Historical observations, claims and review decisions cannot
+be rewritten; corrections use new records and explicit supersession. Mutable
+entity records require the exact previous-record fingerprint.</p>
+<p>Every accepted field of a jurisdiction, election, measure, provision, result,
+restriction, instrument event or measure/instrument link needs one current scoped
+accepted review decision. The supporting claims may transcribe source wording used in a reviewed
+interpretation, such as classifying bindingness. The structural validator requires
+acceptance of each supporting claim at its own predicate and checks its subject
+against the exact decision target. A field decision never automatically accepts
+a supporting claim or a different field. <code>claim_ids</code> is a mechanically checked reference
+list and does not need a separate factual field decision. Record publication reviews
+pin source/claim/review/search metadata separately; they never establish legal force.</p>
+<p>All source versions and all claim quotations must independently match retained
+bounded-client evidence or a verified visual-review receipt. Evidence directories
+are explicit CLI inputs, not recursively discovered. Integrity errors fail the whole
+batch. Visual receipts must use canonical claim fingerprints; candidate receipts
+cannot be reused after changing IDs without a separately verified mapping/review.</p>
+<pre><code class="language-sh">~/projects/bc/bc-modules/.venv/bin/python scripts/expanded_promotion.py \
+  --candidate REVIEWED_TABLE_DIRECTORY --plan REVIEWED_PLAN.json \
+  --evidence-directory PRIVATE_RETAINED_JOB_DIRECTORY
+# Add --apply only for the reviewed batch intended for canonical publication.
+</code></pre>
+<p>Dry-run is the default and writes no publication, staging directory or lock. Apply
+locks the stable publication lock and takes a shared lock on the identity registry's
+stable lock while rechecking all gates. It writes/fsyncs a complete generation,
+renames/fsyncs that generation, then atomically replaces the relative pointer and
+fsyncs its parent. The publication receipt retains the exact plan and verified
+quote/source hashes without private text paths. No API calls or automatic retries
+occur. A retained exact snapshot and identical plan replay as a no-op; altered
+acceptance text is not an identical replay.</p>
+<p>An interruption before the pointer swap leaves the previous publication intact
+(or absent during initialization). A completed but unreferenced generation is
+retained for inspection; automatic retry refuses to overwrite it. Compare its
+fifteen table hashes, publication plan and receipt against the intended plan before
+recovering. Do not delete the active generation or silently redirect the pointer.
+Failures before publication can leave ignored lock files or private staging debris;
+they do not justify claiming a partial batch was accepted.</p>
+<p>This is local canonical publication. It does not create a Git commit, GitHub release,
+public export or website deployment. Those retain the separate P6 gates.</p>
+<h2 id="offline-publication-checks">Offline publication checks</h2>
+<p><code>make check</code> now runs <code>scripts/check_expanded_publication.py</code>. It resolves the
+relative canonical pointer once, checks the exact fifteen-table contract and byte
+fingerprints, validates all tables and references, checks the retained plan and
+claim-proof coverage, and rechecks record/field acceptance against the identity
+registry version pinned at publication. A valid later registry append does not
+rewrite or invalidate that earlier baseline. Predecessor snapshots are checked
+recursively; missing or cyclic history fails. Tables and receipts must be retained
+regular files in the generation directory.</p>
+<p>This read-only check needs no private acquisition files and writes no lock or
+publication. It detects inconsistent byte, plan, proof, identity-history and pointer
+changes, including alterations that leave the candidate schema valid. It does not
+reacquire evidence, repeat PDF rendering or visual judgment, authenticate a reviewer,
+or establish that a legal status is current. Self-consistent fingerprints are not
+a cryptographic signature. Git review, source verification and the separate release
+manifest/remote-verification gates remain required.</p>
+<p>Regression tests exercise the first immutable real snapshot in a temporary copy,
+including byte drift, missing tables, changed review partitions, missing/wrong-source
+proofs, false support flags, appended versus altered identity history, nonportable
+pointers, redirected files, unsupported plans and cyclic predecessors.</p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

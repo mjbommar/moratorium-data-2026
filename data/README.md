@@ -68,15 +68,17 @@ Most `date_enacted` values are ISO format (`YYYY-MM-DD`). Some are `YYYY-MM` (da
 
 ## Updates
 
-This data is refreshed through **September 23, 2026**. Each refresh is tagged as a release on GitHub. The current version is shown in [`../CITATION.cff`](../CITATION.cff).
+The September 23, 2026 edition is a historical baseline. The November refresh is in progress; source/status dates vary by record. These local review batches have not been published as a new GitHub Release. Citation/version reconciliation remains part of the final release work.
 
 ## Reviewed ballot records
 
-The first canonical expanded batch is Eliot, Maine, Question 5 (November 3, 2026).
-It preserves a signed return with 2,965 yes, 909 no and 183 blank votes, and reviewed
-proposed ordinance provisions. Operative dates and the legal instrument link remain
-unresolved; these records do not increase legacy in-force moratorium totals. This
-is an initial reviewed subset, not the full election census. See
-[ballot records and scope](../docs/ballot-measures.md) and the
-[publication protocol](../docs/expanded-promotion.md). The relative
-`data/expanded` pointer and its `data/expanded-snapshots` target must travel together.
+Canonical expanded records include reviewed Eliot and Sabattus ballot questions,
+certified vote-count observations and separately sourced reports of approval.
+[The generated results view](../docs/ballot-results.md) supplies current record and
+observation counts; explicit supersession retains earlier observations. Unreported
+blank/turnout categories remain unknown. Operative dates and instrument links remain
+unresolved; electoral approval does not automatically increase in-force moratorium
+totals. This is a reviewed subset, not the full election census. See
+[scope and interpretation](../docs/ballot-measures.md) and the
+[publication protocol](../docs/expanded-promotion.md). The relative `data/expanded`
+pointer and its `data/expanded-snapshots` target must travel together.

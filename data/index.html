@@ -180,6 +180,7 @@
     <nav>
       <a href="../index.html">Map</a>
       <a href="../states/index.html">States</a>
+      <a href="../docs/ballot-results.html">Ballots</a>
       <a href="../docs/FAQ.html">FAQ</a>
       <a href="../docs/methodology.html">Methodology</a>
       <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
@@ -277,16 +278,18 @@ assert len(records) == 348
 <h2 id="a-note-on-dates">A note on dates</h2>
 <p>Most <code>date_enacted</code> values are ISO format (<code>YYYY-MM-DD</code>). Some are <code>YYYY-MM</code> (day uncertain), <code>YYYY</code> (only year known), or include qualifying notes (<code>reported</code>, <code>[VERIFY]</code>, <code>proposed</code>). When parsing programmatically, expect to handle both clean and messy values. The <a href="https://github.com/mjbommar/moratorium-data-2026/tree/main/examples">repository's <code>examples/</code> directory</a> has working code.</p>
 <h2 id="updates">Updates</h2>
-<p>This data is refreshed through <strong>September 23, 2026</strong>. Each refresh is tagged as a release on GitHub. The current version is shown in <a href="../CITATION.cff"><code>../CITATION.cff</code></a>.</p>
+<p>The September 23, 2026 edition is a historical baseline. The November refresh is in progress; source/status dates vary by record. These local review batches have not been published as a new GitHub Release. Citation/version reconciliation remains part of the final release work.</p>
 <h2 id="reviewed-ballot-records">Reviewed ballot records</h2>
-<p>The first canonical expanded batch is Eliot, Maine, Question 5 (November 3, 2026).
-It preserves a signed return with 2,965 yes, 909 no and 183 blank votes, and reviewed
-proposed ordinance provisions. Operative dates and the legal instrument link remain
-unresolved; these records do not increase legacy in-force moratorium totals. This
-is an initial reviewed subset, not the full election census. See
-<a href="../docs/ballot-measures.html">ballot records and scope</a> and the
-<a href="../docs/expanded-promotion.html">publication protocol</a>. The relative
-<code>data/expanded</code> pointer and its <code>data/expanded-snapshots</code> target must travel together.</p>
+<p>Canonical expanded records include reviewed Eliot and Sabattus ballot questions,
+certified vote-count observations and separately sourced reports of approval.
+<a href="../docs/ballot-results.html">The generated results view</a> supplies current record and
+observation counts; explicit supersession retains earlier observations. Unreported
+blank/turnout categories remain unknown. Operative dates and instrument links remain
+unresolved; electoral approval does not automatically increase in-force moratorium
+totals. This is a reviewed subset, not the full election census. See
+<a href="../docs/ballot-measures.html">scope and interpretation</a> and the
+<a href="../docs/expanded-promotion.html">publication protocol</a>. The relative <code>data/expanded</code>
+pointer and its <code>data/expanded-snapshots</code> target must travel together.</p>
 </main>
 
 <footer>
