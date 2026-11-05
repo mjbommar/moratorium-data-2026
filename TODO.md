@@ -90,6 +90,7 @@ Exit: accepted pilot report and separately authorized bounded collection scope.
 ## P5 — Reviewed collection and migration
 
 - [ ] Freeze the full-refresh scope matrix, execution-time cutoff and required sibling/consumer dispositions (plan section 9.1).
+- [x] Add a hashed per-record collection/edit accounting snapshot for both canonical inventories, keeping unresolved worker returns, queued jobs, pilot exclusions and apply-ledger changes separate (`scripts/build_refresh_accounting.py`, `work/audit/refresh-record-accounting-2026-11-05.md`). This is not the completed source/current-force freshness funnel.
 - [ ] Re-research every existing local inventory ID and publish confirmed/changed/unresolved/not-attempted freshness accounting.
 - [ ] Re-research every state-policy ID and discover new state actions across all 50 states and existing sectors.
 - [ ] Search new local instruments across all 50 states/sectors and document actual jurisdiction/time coverage.
