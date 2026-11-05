@@ -1,0 +1,94 @@
+[
+  {
+    "job": {
+      "id": "recovery-ballot-il-001",
+      "spec": "/home/mjbommar/projects/personal/moratorium-data-2026/work/jobs/2026-11-05-recovery/recovery-ballot-il-001.json",
+      "records": 2,
+      "caps": {
+        "search_total": 8,
+        "exa": 4,
+        "serpapi": 4,
+        "fetch": 16
+      }
+    },
+    "spec": {
+      "id": "recovery-ballot-il-001",
+      "prompt_file": "/home/mjbommar/projects/personal/moratorium-data-2026/work/jobs/2026-11-05-recovery/recovery-ballot-il-001.txt",
+      "owned_paths": [
+        "/data0/moratorium-refresh-2026/recovery/recovery-ballot-il-001"
+      ],
+      "reasoning_effort": "medium",
+      "frozen_seed_ids": [
+        "lead-aaac22c336a16d916ff1",
+        "lead-90b50f969c21059ea15b"
+      ],
+      "seed_registry_sha256": "ece718005139af8d2430db1cd5895766a6819b762ff38ac41d852eee20105018"
+    },
+    "prompt": "You are a distributed Codex CLI worker, gpt-6.1-terra. Cutoff 2026-11-05.\nRead docs/research-and-ballot-expansion-plan.md and work/research/2026-11-05/pilot-review.md.\nEdit ONLY your assigned output directory. No canonical CSV edits, commits/pushes,\nexternal LLM calls, more jobs, or changes to other workers' files. Network access\nONLY through ~/projects/bc/bc-modules/.venv/bin/python scripts/research_client.py\n--directory /data0/moratorium-refresh-2026/recovery/recovery-ballot-il-001 search QUERY --backend exa|serpapi|googlenews|gdelt, or fetch URL\n--mode auto|browser. Read client-config.json. Do not use built-in search, curl,\nrequests or direct library calls to bypass persistent caps. Existing archived\nevidence can be read, including the Maine/Ohio pilot and work/sources. Reuse it\nwhere the same source observation already settles a claim. Keep raw responses and\nbodies private. No conclusions from snippets alone. Exact substantive quotes >=12\nchars need text artifact/hash/span or explicit page/visual proof. Preserve gaps,\nunsuccessful searches, publication vs event dates, original units and distinct\nsame-name governments. Do not infer legal force, certification, project cancellation\nor a citywide ban from sentiment or a defeated pro-development vote. Record calls,\nunpriced SerpAPI costs, failures, source dates and per-record dispositions in run.json.\nStop within25minutes; explicitly identify unattempted work rather than calling it\nresearched. Write a concise report.md, not full copyrighted article text.\n\nResearch each ballot seed (discovery source is not canonical evidence). Confirm\nactual jurisdiction/government type, election, designation, exact wording, bindingness,\nyes-vote direction, mechanism, threshold/exemptions/calendar duration and result.\nSeek official ballot/warrant, referral/petition qualification, original returns,\ncertification and adopted legal text. Keep unofficial figures and pending future\nelections distinct. Compare full current inventory for predecessor/same-instrument\ncandidates; do not duplicate instruments. Reconcile source-list omissions discovered\nalong the way. Write candidates.json (JSON array with seed_id, fields and field-level\nsource/evidence/status), PLUS expanded/*.jsonl using named contracts in\nwork/schemas/expanded/1.0.0.json. Use seed IDs as provisional measure IDs until identity\nreview; every ID reference must resolve. Preserve supported observations even when\nlegal effect remains unresolved. Use explicit unknown/null for missing fields, but\ndo not blank known supported values merely to pass a validator. Source records must\nhash original payload bytes and exact text, retain actual retrieval time, and label\nauthority/access. Claims are source-qualified; don't invent accepted legal reviews.\nValidate expanded/ with scripts/expanded_data.py and legacy CSV reference options.\nIf validation cannot be met, report exact schema gaps without false acceptance.\n\nRecovery assignment: these are unverified omission leads, not accepted measures. Read their origin job reports and retained sources before spending new fetches. Find each exact electorate, actual ballot and observed returns. Do not conflate Emporia Questions 2 and 3, or Granite City Township and the city. If a lead is mistaken, retain a sourced rejected/unresolved disposition. Preserve raw client text; OCR must go to separate files with explicit source-body hash, method and page lineage. Use the expanded schema including optional outcome_direction_basis; reported basis needs a scoped reported_outcome claim and source_reported value method. Never invent a numerical passage rule. Produce candidate records for all assigned seed IDs, with no accepted legal review decisions. Preserve a legal/identity gap when evidence is insufficient.\n\nOwned output: /data0/moratorium-refresh-2026/recovery/recovery-ballot-il-001\nPacket: /data0/moratorium-refresh-2026/recovery/recovery-ballot-il-001/packet.json\n",
+    "prompt_sha256": "cb50b1f8c35e6c4593b40e03e38afd42c00666550c8c9d6978193a5a0d43da8e",
+    "packet_sha256": "afa9a97557f247ea7395d4fd04ec9629250bcb90ae133705798fd7d28bef8d67",
+    "client_config_sha256": "718cf718f4c8e5586522d748ed3778db576c7e5f09b26fc3b088f567f5d4ec87"
+  },
+  {
+    "job": {
+      "id": "recovery-ballot-ks-001",
+      "spec": "/home/mjbommar/projects/personal/moratorium-data-2026/work/jobs/2026-11-05-recovery/recovery-ballot-ks-001.json",
+      "records": 2,
+      "caps": {
+        "search_total": 8,
+        "exa": 4,
+        "serpapi": 4,
+        "fetch": 16
+      }
+    },
+    "spec": {
+      "id": "recovery-ballot-ks-001",
+      "prompt_file": "/home/mjbommar/projects/personal/moratorium-data-2026/work/jobs/2026-11-05-recovery/recovery-ballot-ks-001.txt",
+      "owned_paths": [
+        "/data0/moratorium-refresh-2026/recovery/recovery-ballot-ks-001"
+      ],
+      "reasoning_effort": "medium",
+      "frozen_seed_ids": [
+        "lead-b172c1870e4b5f1c77ab",
+        "lead-fe0c6ecaab763f83199b"
+      ],
+      "seed_registry_sha256": "ece718005139af8d2430db1cd5895766a6819b762ff38ac41d852eee20105018"
+    },
+    "prompt": "You are a distributed Codex CLI worker, gpt-6.1-terra. Cutoff 2026-11-05.\nRead docs/research-and-ballot-expansion-plan.md and work/research/2026-11-05/pilot-review.md.\nEdit ONLY your assigned output directory. No canonical CSV edits, commits/pushes,\nexternal LLM calls, more jobs, or changes to other workers' files. Network access\nONLY through ~/projects/bc/bc-modules/.venv/bin/python scripts/research_client.py\n--directory /data0/moratorium-refresh-2026/recovery/recovery-ballot-ks-001 search QUERY --backend exa|serpapi|googlenews|gdelt, or fetch URL\n--mode auto|browser. Read client-config.json. Do not use built-in search, curl,\nrequests or direct library calls to bypass persistent caps. Existing archived\nevidence can be read, including the Maine/Ohio pilot and work/sources. Reuse it\nwhere the same source observation already settles a claim. Keep raw responses and\nbodies private. No conclusions from snippets alone. Exact substantive quotes >=12\nchars need text artifact/hash/span or explicit page/visual proof. Preserve gaps,\nunsuccessful searches, publication vs event dates, original units and distinct\nsame-name governments. Do not infer legal force, certification, project cancellation\nor a citywide ban from sentiment or a defeated pro-development vote. Record calls,\nunpriced SerpAPI costs, failures, source dates and per-record dispositions in run.json.\nStop within25minutes; explicitly identify unattempted work rather than calling it\nresearched. Write a concise report.md, not full copyrighted article text.\n\nResearch each ballot seed (discovery source is not canonical evidence). Confirm\nactual jurisdiction/government type, election, designation, exact wording, bindingness,\nyes-vote direction, mechanism, threshold/exemptions/calendar duration and result.\nSeek official ballot/warrant, referral/petition qualification, original returns,\ncertification and adopted legal text. Keep unofficial figures and pending future\nelections distinct. Compare full current inventory for predecessor/same-instrument\ncandidates; do not duplicate instruments. Reconcile source-list omissions discovered\nalong the way. Write candidates.json (JSON array with seed_id, fields and field-level\nsource/evidence/status), PLUS expanded/*.jsonl using named contracts in\nwork/schemas/expanded/1.0.0.json. Use seed IDs as provisional measure IDs until identity\nreview; every ID reference must resolve. Preserve supported observations even when\nlegal effect remains unresolved. Use explicit unknown/null for missing fields, but\ndo not blank known supported values merely to pass a validator. Source records must\nhash original payload bytes and exact text, retain actual retrieval time, and label\nauthority/access. Claims are source-qualified; don't invent accepted legal reviews.\nValidate expanded/ with scripts/expanded_data.py and legacy CSV reference options.\nIf validation cannot be met, report exact schema gaps without false acceptance.\n\nRecovery assignment: these are unverified omission leads, not accepted measures. Read their origin job reports and retained sources before spending new fetches. Find each exact electorate, actual ballot and observed returns. Do not conflate Emporia Questions 2 and 3, or Granite City Township and the city. If a lead is mistaken, retain a sourced rejected/unresolved disposition. Preserve raw client text; OCR must go to separate files with explicit source-body hash, method and page lineage. Use the expanded schema including optional outcome_direction_basis; reported basis needs a scoped reported_outcome claim and source_reported value method. Never invent a numerical passage rule. Produce candidate records for all assigned seed IDs, with no accepted legal review decisions. Preserve a legal/identity gap when evidence is insufficient.\n\nOwned output: /data0/moratorium-refresh-2026/recovery/recovery-ballot-ks-001\nPacket: /data0/moratorium-refresh-2026/recovery/recovery-ballot-ks-001/packet.json\n",
+    "prompt_sha256": "58b550f819a97995204603c188dc5152e3b802f372a72d97fe742c3246cd94c8",
+    "packet_sha256": "2022cb5db101bf658d5eceb2a0752388d0a3bbe1f5441b94130c42c0abb2bda7",
+    "client_config_sha256": "718cf718f4c8e5586522d748ed3778db576c7e5f09b26fc3b088f567f5d4ec87"
+  },
+  {
+    "job": {
+      "id": "recovery-ballot-me-001",
+      "spec": "/home/mjbommar/projects/personal/moratorium-data-2026/work/jobs/2026-11-05-recovery/recovery-ballot-me-001.json",
+      "records": 4,
+      "caps": {
+        "search_total": 16,
+        "exa": 8,
+        "serpapi": 8,
+        "fetch": 32
+      }
+    },
+    "spec": {
+      "id": "recovery-ballot-me-001",
+      "prompt_file": "/home/mjbommar/projects/personal/moratorium-data-2026/work/jobs/2026-11-05-recovery/recovery-ballot-me-001.txt",
+      "owned_paths": [
+        "/data0/moratorium-refresh-2026/recovery/recovery-ballot-me-001"
+      ],
+      "reasoning_effort": "medium",
+      "frozen_seed_ids": [
+        "lead-6a5d96ef247af22d389d",
+        "lead-c1e9a2d7a5b6b4384cf0",
+        "lead-4f9cd7773e0da533307f",
+        "lead-217612cd4c82afc1ce43"
+      ],
+      "seed_registry_sha256": "ece718005139af8d2430db1cd5895766a6819b762ff38ac41d852eee20105018"
+    },
+    "prompt": "You are a distributed Codex CLI worker, gpt-6.1-terra. Cutoff 2026-11-05.\nRead docs/research-and-ballot-expansion-plan.md and work/research/2026-11-05/pilot-review.md.\nEdit ONLY your assigned output directory. No canonical CSV edits, commits/pushes,\nexternal LLM calls, more jobs, or changes to other workers' files. Network access\nONLY through ~/projects/bc/bc-modules/.venv/bin/python scripts/research_client.py\n--directory /data0/moratorium-refresh-2026/recovery/recovery-ballot-me-001 search QUERY --backend exa|serpapi|googlenews|gdelt, or fetch URL\n--mode auto|browser. Read client-config.json. Do not use built-in search, curl,\nrequests or direct library calls to bypass persistent caps. Existing archived\nevidence can be read, including the Maine/Ohio pilot and work/sources. Reuse it\nwhere the same source observation already settles a claim. Keep raw responses and\nbodies private. No conclusions from snippets alone. Exact substantive quotes >=12\nchars need text artifact/hash/span or explicit page/visual proof. Preserve gaps,\nunsuccessful searches, publication vs event dates, original units and distinct\nsame-name governments. Do not infer legal force, certification, project cancellation\nor a citywide ban from sentiment or a defeated pro-development vote. Record calls,\nunpriced SerpAPI costs, failures, source dates and per-record dispositions in run.json.\nStop within25minutes; explicitly identify unattempted work rather than calling it\nresearched. Write a concise report.md, not full copyrighted article text.\n\nResearch each ballot seed (discovery source is not canonical evidence). Confirm\nactual jurisdiction/government type, election, designation, exact wording, bindingness,\nyes-vote direction, mechanism, threshold/exemptions/calendar duration and result.\nSeek official ballot/warrant, referral/petition qualification, original returns,\ncertification and adopted legal text. Keep unofficial figures and pending future\nelections distinct. Compare full current inventory for predecessor/same-instrument\ncandidates; do not duplicate instruments. Reconcile source-list omissions discovered\nalong the way. Write candidates.json (JSON array with seed_id, fields and field-level\nsource/evidence/status), PLUS expanded/*.jsonl using named contracts in\nwork/schemas/expanded/1.0.0.json. Use seed IDs as provisional measure IDs until identity\nreview; every ID reference must resolve. Preserve supported observations even when\nlegal effect remains unresolved. Use explicit unknown/null for missing fields, but\ndo not blank known supported values merely to pass a validator. Source records must\nhash original payload bytes and exact text, retain actual retrieval time, and label\nauthority/access. Claims are source-qualified; don't invent accepted legal reviews.\nValidate expanded/ with scripts/expanded_data.py and legacy CSV reference options.\nIf validation cannot be met, report exact schema gaps without false acceptance.\n\nRecovery assignment: these are unverified omission leads, not accepted measures. Read their origin job reports and retained sources before spending new fetches. Find each exact electorate, actual ballot and observed returns. Do not conflate Emporia Questions 2 and 3, or Granite City Township and the city. If a lead is mistaken, retain a sourced rejected/unresolved disposition. Preserve raw client text; OCR must go to separate files with explicit source-body hash, method and page lineage. Use the expanded schema including optional outcome_direction_basis; reported basis needs a scoped reported_outcome claim and source_reported value method. Never invent a numerical passage rule. Produce candidate records for all assigned seed IDs, with no accepted legal review decisions. Preserve a legal/identity gap when evidence is insufficient.\n\nOwned output: /data0/moratorium-refresh-2026/recovery/recovery-ballot-me-001\nPacket: /data0/moratorium-refresh-2026/recovery/recovery-ballot-me-001/packet.json\n",
+    "prompt_sha256": "9f47c932fd4f4928542a3f973cf33b1e1b9b543678607077fd5680825995c119",
+    "packet_sha256": "3896abc9268a5bd27edfc77adc0989dfba9e44926ee32a07b3fefecf6e64121a",
+    "client_config_sha256": "81054a09b74d9d8084ad685827de7f78fe43c5a5bfb18fbf30b5feff988957b7"
+  }
+]

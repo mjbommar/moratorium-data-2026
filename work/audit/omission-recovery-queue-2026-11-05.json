@@ -1,0 +1,47 @@
+{
+  "prepared_at": "2026-11-05T17:50:16.487722+00:00",
+  "model": "gpt-6.1-terra",
+  "lead_registry": "work/research/2026-11-05/ballot-discovery/additional-ballot-leads.jsonl",
+  "lead_registry_sha256": "ece718005139af8d2430db1cd5895766a6819b762ff38ac41d852eee20105018",
+  "new_jobs": [
+    {
+      "id": "recovery-ballot-il-001",
+      "spec": "/home/mjbommar/projects/personal/moratorium-data-2026/work/jobs/2026-11-05-recovery/recovery-ballot-il-001.json",
+      "records": 2,
+      "caps": {
+        "search_total": 8,
+        "exa": 4,
+        "serpapi": 4,
+        "fetch": 16
+      }
+    },
+    {
+      "id": "recovery-ballot-ks-001",
+      "spec": "/home/mjbommar/projects/personal/moratorium-data-2026/work/jobs/2026-11-05-recovery/recovery-ballot-ks-001.json",
+      "records": 2,
+      "caps": {
+        "search_total": 8,
+        "exa": 4,
+        "serpapi": 4,
+        "fetch": 16
+      }
+    },
+    {
+      "id": "recovery-ballot-me-001",
+      "spec": "/home/mjbommar/projects/personal/moratorium-data-2026/work/jobs/2026-11-05-recovery/recovery-ballot-me-001.json",
+      "records": 4,
+      "caps": {
+        "search_total": 16,
+        "exa": 8,
+        "serpapi": 8,
+        "fetch": 32
+      }
+    }
+  ],
+  "full_queue": "/home/mjbommar/projects/personal/moratorium-data-2026/work/jobs/2026-11-05-recovery/complete-queue-v3.json",
+  "full_queue_sha256": "176be2a6cf709b787737ad214182d6887462d6c1646e4c235a0ecd9a7a652b69",
+  "additional_search_cap": 32,
+  "additional_fetch_cap": 64,
+  "concurrency": 3,
+  "cost_limit": "Logical attempt caps only; SerpAPI price unknown. No automatic retries or canonical promotion."
+}

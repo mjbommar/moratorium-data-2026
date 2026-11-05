@@ -101,6 +101,11 @@ claim. Visual claims require their own reviewed source/page/render provenance;
 an unlocated text quote is not automatically a visual claim. The audit does not
 promote candidates or establish legal effect, and its success cannot substitute
 for substantive review. Frozen seeds describe that source list, not a full census.
+Earlier pilot evidence is reusable only through its pinned input manifest and
+fresh body/text hash checks. The audit explicitly records universal newline
+decoding where required to reproduce the original pilot text hash; it does not
+silently replace source bytes. Additional omission leads have their own frozen
+registry and bounded recovery jobs, distinct from the initial 50-seed list.
 
 ## Dates and limitations
 

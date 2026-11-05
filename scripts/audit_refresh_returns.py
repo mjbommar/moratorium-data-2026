@@ -2,8 +2,9 @@
 """Read-only census of job returns, schema/ID coverage and located evidence.
 
 This is a mechanical pre-review gate, never a legal acceptance or promotion tool.
-Only exact-hash client text is considered quote proof; new OCR requires a separate
-explicit derivation record, not an untracked text file with a plausible name.
+Client text and explicitly pinned reusable evidence are verified before locating
+quotes; new OCR requires a separate explicit derivation record, not an untracked
+text file with a plausible name.
 """
 import argparse
 from collections import Counter, defaultdict
@@ -83,15 +84,63 @@ def audit_expanded_evidence(records, index):
             verified[sid]=matches if source['text_sha256'] is not None else []
     for claim in values('claims'):
         sid=claim['source_document_id'];quote=claim['quote']
-        location=None; artifact=None
+        location=None; artifact=None; decoding=None
         for version in verified.get(sid, []):
             location=locate_quote(version['text'], quote)
             if location is not None:
-                artifact=version['text_artifact'];break
+                artifact=version['text_artifact'];decoding=version.get('text_decoding','exact UTF-8 extraction');break
         proofs.append({'claim_id':claim['claim_id'],'source_document_id':sid,
                        'quote_located':location is not None,
-                       'verified_span':location,'verified_text_artifact':artifact})
+                       'verified_span':location,'verified_text_artifact':artifact,
+                       'verified_text_decoding':decoding})
     return issues,proofs
+
+
+def pinned_evidence_index(base, manifest, manifest_sha256, sources):
+    """Resolve reusable source versions only through a pinned artifact manifest.
+
+    A worker's copied source metadata is not proof that the original exists.
+    Rehash both body and text at their retained paths before returning a version.
+    """
+    raw=manifest.read_bytes()
+    if hashlib.sha256(raw).hexdigest()!=manifest_sha256:
+        raise ValueError('Reusable evidence manifest drift')
+    paths=defaultdict(list)
+    for name,digest in json.loads(raw).items():
+        path=base/name
+        if not path.absolute().is_relative_to(base.absolute()) or '..' in Path(name).parts:
+            raise ValueError('Reusable artifact outside manifest base')
+        paths[digest].append(path)
+    index=defaultdict(list);issues=[]
+    def resolve(digest):
+        for path in paths.get(digest,[]):
+            if path.is_file() and hashlib.sha256(path.read_bytes()).hexdigest()==digest:return path
+        return None
+    def resolve_text(digest):
+        direct=resolve(digest)
+        if direct is not None:return direct,direct.read_bytes().decode('utf-8'),'pinned UTF-8 text'
+        # The original pilot hashes Python read_text() output, including universal
+        # newline decoding of HTML fallback artifacts. Reproduce that documented
+        # transform only after verifying the exact original file hash.
+        for expected,candidates in paths.items():
+            for path in candidates:
+                if path.suffix not in ('.txt','.html') or not path.is_file():continue
+                raw=path.read_bytes()
+                if hashlib.sha256(raw).hexdigest()!=expected:continue
+                text=path.read_text(encoding='utf-8')
+                if hashlib.sha256(text.encode('utf-8')).hexdigest()==digest:
+                    return path,text,'pinned UTF-8 text with universal newline decoding'
+        return None,None,None
+    for source in sources:
+        body=resolve(source['body_sha256']);text,decoded,method=resolve_text(source['text_sha256'])
+        if body is None or text is None:
+            issues.append({'source_document_id':source['source_document_id'],
+                           'error':'Pinned reusable body/text missing or drifted'});continue
+        index[source['url']].append({'attempt_id':'reused:'+source['source_document_id'],
+            'body_sha256':source['body_sha256'],'text_sha256':source['text_sha256'],
+            'text':decoded,'text_artifact':str(text),'text_decoding':method,
+            'body_artifact':str(body),'evidence_origin':'pinned earlier pilot'})
+    return index,issues
 
 
 def seed_assignments(path):
@@ -115,6 +164,10 @@ def audit(queue_path,runs):
     from bc_core.text import locate_quote
     from expanded_data import validate as expanded_validate
     queue=json.loads(queue_path.read_text());jobs=[]
+    from normalize_ballot_pilot import MANIFEST_SHA256
+    pilot=ROOT/'work/research/2026-11-05'
+    reused,reuse_issues=pinned_evidence_index(pilot,pilot/'normalized-pilot/expected-inputs.json',
+        MANIFEST_SHA256,load_lines(pilot/'normalized-pilot/source_documents.jsonl'))
     ballot_assignments=seed_assignments(ROOT/'work/research/2026-11-05/ballot-discovery/ballot-seeds.jsonl')
     schemas={name:json.loads((ROOT/'work/schemas'/file).read_text()) for name,file in
              [('inventory','research_decision.schema.json'),('state_policy','legislation_decision.schema.json')]}
@@ -131,6 +184,7 @@ def audit(queue_path,runs):
         idx,issues,counts=evidence_index(directory)
         row.update(attempt_counts=counts,evidence_integrity_issues=issues,
                    successful_source_versions=len({v['attempt_id'] for versions in idx.values() for v in versions}))
+        for url,versions in reused.items():idx[url].extend(versions)
         # A URL and final URL can point to the same observation; this is diagnostic,
         # never a denominator of independent supporting sources.
         table=spec.get('table')
@@ -166,8 +220,12 @@ def audit(queue_path,runs):
             row['evidence_proofs']=proofs
             row['mechanically_review_ready']=not (row['schema_errors'] or row['missing_ids'] or
                 row['extra_ids'] or row['duplicate_ids'] or issues or any(not x['quote_located'] for x in proofs))
-        elif job['id'].startswith('ballot-'):
-            expected=ballot_assignments[job['id']]
+        elif job['id'].startswith(('ballot-','recovery-ballot-')):
+            expected=spec['frozen_seed_ids'] if job['id'].startswith('recovery-ballot-') else ballot_assignments[job['id']]
+            if job['id'].startswith('recovery-ballot-'):
+                registry=ROOT/'work/research/2026-11-05/ballot-discovery/additional-ballot-leads.jsonl'
+                if hashlib.sha256(registry.read_bytes()).hexdigest()!=spec['seed_registry_sha256']:
+                    row['checks'].append('omission seed registry drift')
             candidate_path=directory/'candidates.json'
             coverage=candidate_id_coverage(expected,json.loads(candidate_path.read_text())) if candidate_path.exists() else candidate_id_coverage(expected,[])
             row['seed_coverage']=coverage
@@ -188,6 +246,7 @@ def audit(queue_path,runs):
     return {'observed_at':dt.datetime.now(dt.timezone.utc).isoformat(),'queue':str(queue_path),
             'job_states':dict(Counter(x['cli_state'] for x in jobs)),
             'not_started_jobs':len(queue['jobs'])-len(jobs),'jobs':jobs,
+            'reusable_evidence_issues':reuse_issues,
             'scope':'Mechanical pre-review only. No source authority, legal-effect, field-support or substantive acceptance asserted.'}
 
 
