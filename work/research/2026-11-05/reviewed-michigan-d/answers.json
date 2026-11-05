@@ -1,0 +1,525 @@
+{
+  "state_abbrev": "MI",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "mi-marengo-township-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://marengomi.gov/wp-content/uploads/2026/02/2026-1-Data-Center-Moratorium.pdf",
+          "source_type": "ordinance",
+          "document_date": "2026-02-24",
+          "supports": "Ordinance sets a one-year calendar term, subject to extension or implementation of regulations.",
+          "quote": "(1) year, subject to a future extension by resolution, or the Township\u2019s implementation of regulations"
+        }
+      ],
+      "notes": "Historical ordinance reviewed; effective publication date and later regulations or termination remain unverified. Current force is unresolved.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Ordinance specifies one year, not a fixed 365-day period."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "One year is a calendar term; do not encode as fixed days."
+        },
+        "duration": {
+          "from": "One year, subject to extension by resolution",
+          "to": "One calendar year, subject to future extension by resolution or implementation of data-center regulations.",
+          "reason": "Preserve the source alternate regulatory endpoint as well as the original calendar unit."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; Ordinance No. 2026-1, adopted 2026-02-24, imposes a one-year moratorium on the permitting, consideration, approval, location, erection, construction, and/or installation of all data centers in the Township, subject to extension by resolution.",
+          "to": "Ordinance 2026-1 specifies one year, subject to a future extension or implementation of data-center regulations. The alternate regulatory endpoint is preserved. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.]",
+          "reason": "Bound original-term/adoption evidence separately from current-force review."
+        }
+      }
+    },
+    {
+      "moratorium_id": "mi-mason-township-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.masontownship.org/wp-content/uploads/2026/05/05-02-2026-Special-Meeting-1.pdf",
+          "source_type": "minutes",
+          "document_date": "2026-05-02",
+          "supports": "Adopted text ends on the earlier of the 12-month term or qualifying local or state regulations.",
+          "quote": "whichever date occurs first."
+        },
+        {
+          "url": "https://www.masontownship.org/wp-content/uploads/2026/05/05-02-2026-Special-Meeting-1.pdf",
+          "source_type": "minutes",
+          "document_date": "2026-05-02",
+          "supports": "Section 6 states immediate effectiveness upon publication after adoption; no specific publication date established.",
+          "quote": "upon publication, after adoption."
+        }
+      ],
+      "notes": "The minutes incorporate the ordinance and state effective June 8. Whether later regulations triggered earlier termination is unresolved.",
+      "changes": {
+        "duration": {
+          "from": "12 months from the 2026-06-08 effective date unless terminated earlier; the board may extend it",
+          "to": "12 months from the effective date or until qualifying new or amended township ordinances or state regulations addressing data centers become effective, whichever occurs first; board may extend by resolution",
+          "reason": "Section 2 supplies an earlier termination event."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Twelve months is a calendar term."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Calendar months are not fixed days."
+        },
+        "legal_basis": {
+          "from": "Ordinance 2026-01, adopted at a special meeting by 5-0 roll-call vote, under the Michigan Zoning Enabling Act (PA 110 of 2006)",
+          "to": "Mason Township Ordinance No. 2026-01; minutes cite 1945 PA 246, MCL 41.181 et seq.",
+          "reason": "The incorporated text cites PA 246, not PA 110."
+        },
+        "outcome": {
+          "from": "Adopted 5-0 at a special meeting; bars the township from accepting/processing data center applications and issuing related permits or approvals",
+          "to": "Adopted 5-0; ordinance pauses acceptance or processing of data center applications",
+          "reason": "The operative clause addresses applications; a separate general permit prohibition was not substantiated."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31; moratorium began running 2026-06-08 and is due to run through approximately 2027-06-08 unless terminated or extended earlier",
+          "to": "The May 2 minutes and ordinance text identify Ordinance 2026-01 under 1945 PA 246, MCL 41.181 et seq., with a twelve-month term from effectiveness or earlier qualifying local/state regulations. Later operative changes remain unresolved. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.] The text states immediate effectiveness upon publication after adoption; the old June 8 date is not established, and the clerk submission date is not treated as publication.",
+          "reason": "Bound original-term/adoption evidence separately from current-force review."
+        },
+        "date_enacted": {
+          "from": "2026-05-02 (special meeting, 5-0 roll-call vote); effective 2026-06-08",
+          "to": "2026-05-02 (special meeting, 5-0 roll call); ordinance states immediate effectiveness upon publication after adoption; publication date not verified.",
+          "reason": "The retained operative text says immediate effect upon publication. May 9 clerk submission is not established publication, and the prior June 8 effective-date assertion is unsupported here."
+        }
+      }
+    },
+    {
+      "moratorium_id": "mi-meridian-township-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.meridian.mi.us/media/xsqa0l04/632026-zoning-amendment-2026-03-data-center-moratorium.pdf",
+          "source_type": "other",
+          "document_date": "2026-06-03",
+          "supports": "Official notice identifies the adopted ordinance and its six-month term.",
+          "quote": "Ordinance 2026-03 to establish a six month moratorium on data center applications in the"
+        }
+      ],
+      "notes": "Official notice confirms adoption, not continued force. Publication/effective date, later regulations and extensions require further review.",
+      "changes": {
+        "legal_basis": {
+          "from": "Board of Trustees resolution, unanimous vote; specific resolution number not confirmed in this pass",
+          "to": "Charter Township of Meridian Ordinance 2026-03, adopted May 19, 2026",
+          "reason": "Official legal notice identifies ordinance 2026-03."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Notice specifies six months."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Six months cannot be converted to a fixed 180-day term."
+        },
+        "current_status": {
+          "from": "Active as of late May 2026",
+          "to": "The Township Clerk notice states final adoption of Ordinance 2026-03 on May 19, establishing a six-month data-center moratorium. This is an ordinance rather than an unidentified board resolution. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.]",
+          "reason": "Bound original-term/adoption evidence separately from current-force review."
+        }
+      }
+    },
+    {
+      "moratorium_id": "mi-monitor-charter-township-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://monitortwp.gov/wp-content/uploads/2026/04/S-Mar-26-2026.pdf",
+          "source_type": "minutes",
+          "document_date": "2026-03-26",
+          "supports": "Minutes record adoption of Ordinance 67-U and a one-year calendar term.",
+          "quote": "Moratorium on Data Center Construction and Approval for a period of one year within the Charter"
+        }
+      ],
+      "notes": "Minutes establish adoption and term; publication, effective date, and later actions remain unverified.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Minutes specify one year."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "One year is a calendar term."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; Ordinance 67-U (adopted 2026-03-26) imposes a one-year moratorium on data center construction and approval; the publication/effective date and thus the exact end date (about late March/April 2027) were not located.",
+          "to": "The March 26 board minutes record adoption of Ordinance 67-U for one year. Exact operative anchor and later actions remain unresolved. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.]",
+          "reason": "Bound original-term/adoption evidence separately from current-force review."
+        }
+      }
+    },
+    {
+      "moratorium_id": "mi-new-buffalo-township-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://newbuffalotownship.org/assets/files/meetings/04-09-2026-special-board-meeting/minutes/2026.04.09-NBT-Minutes-Special-Meeting.pdf",
+          "source_type": "minutes",
+          "document_date": "2026-04-09",
+          "supports": "April 9 minutes identify the resolution and ordinance and adoption; OCR text, verified against scan.",
+          "quote": "20260409 which imposes a moratorium on the issuance of permits, licenses or approvals for"
+        }
+      ],
+      "notes": "April 9 signed minutes correct the reported April 8 date; OCR derived separately. Actual ordinance term, effective date and subsequent action need primary text.",
+      "changes": {
+        "date_enacted": {
+          "from": "2026-04-08 (resolution at special board meeting)",
+          "to": "2026-04-09 (special board meeting; Resolution 20260409 adopted Ordinance 20260409)",
+          "reason": "Signed special meeting minutes."
+        },
+        "date_enacted_iso": {
+          "from": "2026-04-08",
+          "to": "2026-04-09",
+          "reason": "Signed minutes date the meeting April 9."
+        },
+        "legal_basis": {
+          "from": "Township Board resolution halting permits, licenses, and approvals for data centers (number not located)",
+          "to": "Resolution 20260409 adopting Ordinance 20260409, imposing a moratorium on issuance of permits, licenses or approvals for data centers",
+          "reason": "Signed minutes identify both instruments."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; one-year moratorium adopted 2026-04-08. In Aug. 2026 the board denied a permit for a storage yard linked to the data center project.",
+          "to": "Signed April 9 special-meeting minutes record four affirmative votes adopting Resolution 20260409, which adopts Ordinance 20260409. This corrects the prior April 8 date. The minutes do not establish the operative term or effective date. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.]",
+          "reason": "Bound original-term/adoption evidence separately from current-force review."
+        },
+        "duration": {
+          "from": "One year from adoption",
+          "to": "Term not established by the April 9 minutes; ordinance text requires verification.",
+          "reason": "The signed minutes do not specify the term; operative ordinance has not been reviewed."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "unknown",
+          "reason": "The signed minutes do not specify the term; operative ordinance has not been reviewed."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The signed minutes do not specify the term; operative ordinance has not been reviewed."
+        },
+        "date_enacted_uncertainty": {
+          "from": "exact",
+          "to": "exact",
+          "reason": "Signed minutes and meeting header establish April 9 adoption; this is not an effective-date finding."
+        }
+      }
+    },
+    {
+      "moratorium_id": "mi-niles-charter-township-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.nilestwpmi.gov/6-1-2026%20bd%20minutes.pdf?t=202607191629080",
+          "source_type": "minutes",
+          "document_date": "2026-06-01",
+          "supports": "Minutes record adoption of Ordinance No. 90 and the application pause.",
+          "quote": "2nd Grimes to Adopt Ordinance No. 90. Discussion. Moratorium on accepting any applications for Data Centers."
+        },
+        {
+          "url": "https://www.heraldpalladium.com/leaderpub/communities/niles/niles-charter-township-approves-data-center-moratorium/article_a3b4e7b1-9192-5bc8-9a4c-5d434b0d85c4.html",
+          "source_type": "news",
+          "document_date": "2026-06-10",
+          "supports": "News reports a 12-month term; ordinance text remains unreviewed.",
+          "quote": "approved a moratorium of 12 months on the granting of permits for data centers"
+        }
+      ],
+      "notes": "Minutes identify Ordinance 90 and adoption; original ordinance text, effective date, duration and later action remain unresolved.",
+      "changes": {
+        "legal_basis": {
+          "from": "Niles Charter Township Board moratorium on granting permits for data centers (instrument number not located); companion zoning-ordinance moratorium amendment initiated by the Planning Commission 2026-06-09 with a hearing set for 2026-07-14",
+          "to": "Niles Charter Township Ordinance No. 90, adopted June 1, 2026; companion zoning amendment was separately initiated by the Planning Commission",
+          "reason": "Board minutes identify Ordinance 90."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; the Board approved a 12-month moratorium on data center permits on 2026-06-01 (to about 2027-06-01); final action on the companion zoning amendment was pending county review as of June 2026. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+          "to": "June 1 official minutes record adoption of Ordinance 90 pausing acceptance of data-center applications. News reports a twelve-month term. A separately initiated zoning amendment is not treated as the same instrument. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.]",
+          "reason": "Bound original-term/adoption evidence separately from current-force review."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "News reports twelve months; the ordinance itself remains to be reviewed."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Twelve months is not a fixed-day term."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+          "resolution": "corrected",
+          "note": "June 1 board minutes identify Ordinance 90; operative term and current status remain unresolved."
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "moratorium_id": "mi-northville-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The source uses a calendar term rather than a fixed day count."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Preserve calendar months or years without converting them to days."
+        },
+        "date_enacted": {
+          "from": "2026-01-07",
+          "to": "2026-01-05 (City Council approval, reported January 7)",
+          "reason": "January 7 news reports January 5 council approval of a data-center moratorium; the official staff proposal identifies the same scope."
+        },
+        "date_enacted_iso": {
+          "from": "2026-01-07",
+          "to": "2026-01-05",
+          "reason": "January 7 news reports January 5 council approval of a data-center moratorium; the official staff proposal identifies the same scope."
+        },
+        "sectors": {
+          "from": "[\"general\"]",
+          "to": "[\"data_center\"]",
+          "reason": "January 7 news reports January 5 council approval of a data-center moratorium; the official staff proposal identifies the same scope."
+        },
+        "legal_basis": {
+          "from": "City Council moratorium ordinance; number not identified [CITE]",
+          "to": "City Council action reported adopted January 5, 2026; staff attachment proposes a resolution. [VERIFY executed instrument form and number; do not assume an ordinance from the earlier narrative.]",
+          "reason": "Separate secondary adoption report from the staff proposed form and unknown executed instrument."
+        },
+        "current_status": {
+          "from": "Active through approximately January 2027",
+          "to": "Local reporting published January 7 identifies the City Council vote as January 5 and the scope as data centers, not an unspecified general infrastructure pause. The staff attachment proposes a resolution; executed instrument form/number remains unverified. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.]",
+          "reason": "Bound original-term/adoption evidence separately from current-force review."
+        }
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.hometownlife.com/story/news/2026/01/07/northville-adopts-moratorium-on-data-centers/88068028007/",
+          "source_type": "news",
+          "document_date": "2026-01-07",
+          "quote": "The one-year moratorium, unanimously approved Jan. 5 by the City Council",
+          "supports": "Reports January 5 adoption and data-center scope."
+        },
+        {
+          "url": "https://northville.community.diligentoneplatform.com/document/d2348e24-881e-4b9d-b786-282e93f9644f/",
+          "source_type": "agenda",
+          "document_date": "2026-01-05",
+          "quote": "Analysis: The attached resolution would impose a temporary moratorium of 12 months",
+          "supports": "Staff proposal; not itself proof of adoption."
+        }
+      ],
+      "notes": "Historical correction only; current force and later actions were not established as of the cutoff."
+    },
+    {
+      "moratorium_id": "mi-norvell-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The source uses a calendar term rather than a fixed day count."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Preserve calendar months or years without converting them to days."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; 12-month moratorium adopted 2026-06-08, running to roughly mid-June 2027.",
+          "to": "June 8 minutes record adoption of Resolution 2026-06; the retained project-specific draft specifies twelve months with a possible earlier regulatory endpoint. Final executed terms and operative interval remain unresolved. OCR covers pages 1-6 of one 67-page packet and pages 62-67 of another, not full-document extraction. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.]",
+          "reason": "Bound original-term/adoption evidence separately from current-force review."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://norvelltwp-mi.gov/wp-content/uploads/2026/06/June-Combined-Board-Packet.pdf",
+          "source_type": "minutes",
+          "document_date": "2026-06-08",
+          "quote": "Treasurer Sauers to approve the adoption of Resolution 2026-06, A Moratorium on Approval of Data Centers,",
+          "supports": "June 8 minutes record adoption; OCR."
+        },
+        {
+          "url": "https://norvelltwp-mi.gov/wp-content/uploads/2026/06/Combined-Board-Packet-06.08.26.pdf",
+          "source_type": "resolution",
+          "document_date": "2026-05-18",
+          "quote": "The moratorium imposed by this Resolution shall remain in effect for 12 months",
+          "supports": "Draft term subject to earlier amendments; OCR page 66."
+        }
+      ],
+      "notes": "Historical correction only; current force and later actions were not established as of the cutoff. Effective date depends on publication; regulatory amendments can end it earlier."
+    },
+    {
+      "moratorium_id": "mi-oneida-charter-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "The source uses a calendar term rather than a fixed day count."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Preserve calendar months or years without converting them to days."
+        },
+        "duration": {
+          "from": "Six months from 2026-01-24 (to 2026-07-24), subject to extension by resolution or earlier adoption of regulations; extended six months to 2027-01-24",
+          "to": "Original term six calendar months from effectiveness January 24, 2026; Resolution 2026-07-14 extends through and including January 24, 2027, unless terminated earlier under its terms.",
+          "reason": "Retain the explicit inclusive upper date and earlier-termination provision rather than converting six months to a fixed day count."
+        },
+        "current_status": {
+          "from": "Extended; active as of 2026-09-23. Resolution No. 2026-07-14 (adopted 2026-07-14) extended the moratorium from its 2026-07-24 expiry to 2027-01-24 while the Planning Commission drafts data center zoning amendments.",
+          "to": "The original ordinance specifies six months; Resolution 2026-07-14 extends it through and including January 24, 2027, unless terminated earlier. The signed certification records July 14 adoption. Later termination, amendment or extension remains unresolved. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.]",
+          "reason": "Bound original-term/adoption evidence separately from current-force review."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://oneidatownship.org/wp-content/uploads/2026/01/Ordinance-no.-2026-1.pdf",
+          "source_type": "ordinance",
+          "document_date": "2026-01-13",
+          "quote": "An ordinance to enact a temporary moratorium for a period of six (6) months,",
+          "supports": "Original calendar term; OCR page 1."
+        },
+        {
+          "url": "https://oneidatownship.org/wp-content/uploads/2026/08/Resolution-2026-07-14-Data-Center-Moratorium-Extension.pdf",
+          "source_type": "resolution",
+          "document_date": "2026-07-14",
+          "quote": "hereby extended for an additional six (6) months, through and including January 24, 2027,",
+          "supports": "Extension subject to earlier termination; OCR page 2."
+        }
+      ],
+      "notes": "Historical correction only; current force and later actions were not established as of the cutoff. Extension runs through and including January 24, 2027 unless terminated earlier under its terms; subsequent action unverified."
+    },
+    {
+      "moratorium_id": "mi-orion-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "The source uses a calendar term rather than a fixed day count."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Preserve calendar months or years without converting them to days."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31",
+          "to": "The June 15 official minutes record approval of a temporary six-month data-center moratorium. Exact operative anchor and later actions remain unresolved. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.]",
+          "reason": "Bound original-term/adoption evidence separately from current-force review."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.oriontownship.org/Board%20of%20Trustees/2026/Minutes%20BOT%20June%2015,2026.pdf?t=202607071107000",
+          "source_type": "minutes",
+          "document_date": "2026-06-15",
+          "quote": "Lovat, seconded by Clerk Dalrymple, to apapprove the Resolution imposing a temporary, six (6)",
+          "supports": "Six-month resolution adopted; text extraction repeats letters in apapprove."
+        }
+      ],
+      "notes": "Historical correction only; current force and later actions were not established as of the cutoff."
+    },
+    {
+      "moratorium_id": "mi-oshtemo-charter-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The source uses a calendar term rather than a fixed day count."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Preserve calendar months or years without converting them to days."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; one-year moratorium adopted 2026-03-10, effective on publication; township prioritizing BESS ordinance first.",
+          "to": "The March 10 second-reading packet describes a one-year data-center moratorium, until amended or repealed. Later reporting describes a proposed extension; no approved later extension is established here. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.]",
+          "reason": "Bound original-term/adoption evidence separately from current-force review."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.oshtemo.org/files/assets/public/v/1/boards-and-committees/township-board/agenda-packets/tb-agenda-packet-3-10-26.pdf",
+          "source_type": "agenda",
+          "document_date": "2026-03-10",
+          "quote": "The Township hereby imposes a one year Moratorium (until otherwise amended or repealed) on the",
+          "supports": "Second-reading packet gives term; later action remains unverified."
+        }
+      ],
+      "notes": "Historical correction only; current force and later actions were not established as of the cutoff. October 27 reporting describes a proposed extension, not an approved one; subsequent action unverified."
+    },
+    {
+      "moratorium_id": "mi-oshtemo-charter-township-2025",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The source uses a calendar term rather than a fixed day count."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Preserve calendar months or years without converting them to days."
+        },
+        "current_end_date_iso": {
+          "from": "2026-11-25",
+          "to": "",
+          "reason": "The information page states one year from an adoption history, not an independently established effective-date anchor and exact endpoint."
+        },
+        "duration": {
+          "from": "One year (expires 2026-11-25) or until a zoning ordinance addresses energy storage; board plans extension",
+          "to": "One calendar year; adoption reported November 25, 2025. Effective-date anchor, earlier regulatory trigger, proposed extension and exact current endpoint require operative-text review.",
+          "reason": "Do not retain a computed adoption-anniversary endpoint as an established operative date."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; set to expire 2026-11-25. Board announced in July 2026 it plans to extend it; draft Energy Systems Ordinance under Planning Commission review since 2026-08-13.",
+          "to": "The township information page reports adoption of a one-year energy-storage moratorium on November 25, 2025. It does not establish the original effective-date anchor or an exact current endpoint; a proposed extension is not an approved one. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.]",
+          "reason": "Bound original-term/adoption evidence separately from current-force review."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://www.oshtemo.org/About-Oshtemo/PA233-BESS",
+          "source_type": "other",
+          "document_date": "",
+          "quote": "On November 25, 2025, the township adopted a one-year moratorium on energy storage development.",
+          "supports": "Township historical account; page date not established."
+        }
+      ],
+      "notes": "Historical correction only; current force and later actions were not established as of the cutoff. October 27 reporting describes a proposed extension, not an approved one; subsequent action unverified."
+    }
+  ],
+  "new_candidates": []
+}
