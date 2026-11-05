@@ -9,21 +9,21 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
-| Allen County | County | 2025-01 | battery storage | ⚪ Replaced |
+| Allen County | County | 2025-01-14 | battery storage | ⚪ Replaced |
 | Bourbon County | County | 2026-06-15 | data center, cryptocurrency mining, general | 🟢 Active |
 | Brown County | County | 2026-03-02 | data center, battery storage, solar, cryptocurrency mining | 🟢 Active |
 | Dickinson County | County | 2026-07-30 | data center, battery storage, solar, wind | 🟢 Active |
 | El Dorado | City | 2026-07-13 | data center, battery storage | 🟢 Active |
-| Franklin County | County | 2026-09-02 | data center | 🟢 Active |
-| Geary County | County | 2026-06-22 | data center | 🟢 Active |
-| Harvey County | County | 2026-01-13 | data center | 🟢 Active |
+| Franklin County | County | 2026-09-02 | data center, cryptocurrency mining | 🟢 Active |
+| Geary County | County | 2026-06-22 | data center, battery storage, solar, wind, cryptocurrency mining | 🟢 Active |
+| Harvey County | County | 2026-01-13 | data center, cryptocurrency mining | 🟢 Active |
 | Kingman County | County | 2026-02-09 | data center | 🟢 Active |
-| Lawrence | City | 2026-07-14 | data center | 🟢 Active |
+| Lawrence | City | 2026-07-21 | data center | 🟢 Active |
 | Leavenworth County | County | 2026-05-13 | data center | ⚪ Expired |
 | Lyon County | County | 2026-07-23 | data center, battery storage | 🟢 Active |
 | Lyon County | County | 2026-07-23 | solar | 🟢 Active |
 | Marion County | County | 2026-03-02 | data center, battery storage | 🟢 Extended |
-| Marysville | City | 2026-09 | data center | 🟢 Active |
+| Marysville | City | 2026-09-14 | data center | 🟢 Active |
 | McPherson County | County | 2025-08-04 | data center, cryptocurrency mining, battery storage | ⚪ Replaced |
 | Miami County | County | 2026-03 | data center, battery storage, solar, wind | 🟢 Active |
 | Neosho County | County | 2026-05-19 | data center, battery storage, general | 🟢 Active |
@@ -42,16 +42,16 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 
 - **Type:** County
 - **Status:** ⚪ Replaced
-- **Date enacted:** 2025-01 (Commissioners approved a 180-day moratorium)
-- **Normalized date:** `2025-01` (month_only)
+- **Date enacted:** 2025-01-14 (Board of County Commissioners, Resolution 202502)
+- **Normalized date:** `2025-01-14` (exact)
 - **Duration:** 180-day moratorium, replaced by permanent regulations
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ks-allen-county-2025`
-- **Legal basis:** Board-approved 180-day moratorium (reduced from a proposed 12-month version), replaced by a Board-adopted BESS resolution on 2025-06-10
+- **Legal basis:** Resolution 202502, approved 2025-01-14 for 180 days with an option to extend another 180 days. A 2025-06-10 BESS standards resolution is reported; whether it legally superseded the pause requires the adopted text.
 - **What prompted it:** Mission Clean Energy proposal for a 300 MW BESS facility near Savonburg and Elsmore; no BESS-specific zoning standards existed.
 - **Affected projects:** Mission Clean Energy 300 MW BESS proposal (did not proceed in Allen County).
-- **Detailed status:** Replaced. Commissioners approved a 180-day moratorium in January 2025 at the Planning and Zoning Board's request; on 2025-06-10 the Board of Commissioners approved a permanent resolution establishing BESS standards (special-use permitting, 1,000-ft resident notification), superseding the moratorium. The original proposal that prompted it, Mission Clean Energy's 300 MW facility, did not proceed.
+- **Detailed status:** January 14, 2025 minutes record approval of Resolution 202502 for 180 days with an option to extend another 180 days. The prior inventory reports June 10 BESS standards. [VERIFY: actual legal replacement, intervening extensions and later actions; replaced classification retained provisionally.]
 - **Outcome:** Permanent special-use BESS regulations in effect as of 2025-06-10.
 
 ### Bourbon County
@@ -60,14 +60,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-06-15
 - **Normalized date:** `2026-06-15` (exact)
-- **Duration:** 365 days from adoption (2026-06-15 through approximately 2027-06-15), succeeding a prior moratorium that had expired the day before adoption.
+- **Duration:** 365 days or until the county adopts applicable zoning regulations, whichever occurs first, according to the June 15, 2026 minutes.
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining, general
 - **Moratorium ID:** `ks-bourbon-county-2026`
 - **Legal basis:** Resolution 24-26, adopted 2026-06-15 by a 3-0 vote (Commissioners Joe Allen and Gregg Motley abstaining).
 - **What prompted it:** Continuation of the county's prior development moratorium, which had expired the day before this resolution was adopted, while the county works with a hired consultant (Confluence) to develop a comprehensive plan and zoning regulations.
 - **Affected projects:** Commercial solar projects from Tennyson Creek Solar LLC, Tennyson Creek Solar II LLC, and Hinton Creek Solar LLC are explicitly exempted from the moratorium.
-- **Detailed status:** Active as of 2026-09-23; runs approximately through 2027-06-15 absent further action.
+- **Detailed status:** June 15 minutes specify 365 days or earlier applicable zoning regulations. [VERIFY: subsequent regulations, other amendments and present legal force.]
 - **Outcome:** 365-day freeze on utility-scale power generation, cryptocurrency mining, data center, and waste disposal operations in Bourbon County while the county develops a comprehensive plan and zoning regulations with consultant Confluence.
 
 ### Brown County
@@ -83,7 +83,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Resolution 2026-10 (motion by Chairman Heinen, seconded by Commissioner Pollock, motion carried unanimously per official minutes)
 - **What prompted it:** County counselor Austin Parker framed the pause under police powers to study public health, public safety, and welfare impacts of data centers, battery energy storage systems, solar energy, chip manufacturing, and cryptocurrency projects, on recommendation of the Brown County Planning Commission.
 - **Affected projects:** Projects involving data centers, BESS, solar energy, chip manufacturing, and cryptocurrency operations in Brown County.
-- **Detailed status:** Active
+- **Detailed status:** Resolution 2026-10 states eighteen months from execution or earlier regulations, with publication required for effectiveness. [VERIFY: publication, precise operative interval and later actions/current legal force.]
 - **Outcome:** Planning Commission to consider recommendations for regulation.
 
 ### Dickinson County
@@ -92,14 +92,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-07-30
 - **Normalized date:** `2026-07-30` (exact)
-- **Duration:** Structured as 12 months per covered category, staggered: data centers expire 2027-07-30, battery energy storage systems expire 2028-07-30, and renewable energy facilities (e.g., wind, solar) expire 2029-07-30; the resolution as a whole 'shall ... remain in full force ... until July 30, 2029.'
-- **Current end date:** `2027-07-30`
+- **Duration:** Resolution 073026 directs zoning review for three years, with category dates of July 30, 2027 for data centers, July 30, 2028 for BESS, and July 30, 2029 for renewable energy; the resolution states it remains in force until July 30, 2029, subject to amendment. The relationship between the category review dates and the operative moratorium requires clarification.
+- **Current end date:** `—`
 - **Sectors:** data center, battery storage, solar, wind
 - **Moratorium ID:** `ks-dickinson-county-2026`
 - **Legal basis:** Resolution # 073026, signed and passed 2026-07-30 by Chairman Kenny Roelofsen and Vice Chair Lynn Peterson, citing K.S.A. 12-741 et seq. and K.S.A. 19-101 et seq. police power; excludes uses already defined/enabled under Article 21 of the county zoning regulations and off-grid, on-site residential/commercial renewable installations.
 - **What prompted it:** The county's Comprehensive Plan would generally allow incorporating provisions for data centers, BESS, and alternative energy technology into zoning regulations, but commissioners wanted a strategic pause to evaluate potential impacts on current and future property owners before adopting standards; no applications for these uses had been filed as of the July 2026 Planning Commission recommendation.
 - **Affected projects:** None identified as pending in the resolution or sources retrieved.
-- **Detailed status:** Active as of 2026-09-23; the data-center-specific component runs through 2027-07-30, with BESS and renewable-energy components running longer (through 2028-07-30 and 2029-07-30 respectively) under the same resolution.
+- **Detailed status:** Resolution 073026 contains category dates in its zoning-review direction and an overall force clause through July 30, 2029. [VERIFY: legal relationship of the category dates to the permitting pause, publication date, later amendments and present legal force; no single operative endpoint asserted.]
 - **Outcome:** Suspends acceptance/processing of Conditional Use Permit applications and construction/erection permits for commercial data centers, BESS, and renewable energy projects (other than those already covered by Article 21 of the zoning code) in unincorporated Dickinson County, directing the Planning and Zoning Board to review and update the zoning regulations for each use category over its respective term.
 
 ### El Dorado
@@ -126,12 +126,12 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Normalized date:** `2026-09-02` (exact)
 - **Duration:** From the Sept. 2, 2026 commission meeting through Dec. 31, 2028.
 - **Current end date:** `2028-12-31`
-- **Sectors:** data center
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `ks-franklin-county-2026`
-- **Legal basis:** Franklin County Board of County Commissioners resolution adopted unanimously at the Sept. 2, 2026 meeting (resolution number not given in sources retrieved); the Aug. 26, 2026 meeting first indicated commissioners' intent to place a moratorium on data centers.
+- **Legal basis:** Franklin County Board of County Commissioners Resolution 26-27, adopted September 2, 2026; on August 26 the commissioners indicated an intent to place a moratorium on data centers.
 - **What prompted it:** Not detailed in the sources retrieved beyond the commission's stated intent (expressed Aug. 26, 2026) to pause data center development while the county considers its approach.
 - **Affected projects:** Not specified in the sources retrieved.
-- **Detailed status:** Active as of 2026-09-23; runs through 2028-12-31 absent further action.
+- **Detailed status:** September 2 minutes record adoption of Resolution 26-27; its data-center definition expressly includes cryptocurrency or bitcoin mining. [VERIFY: publication/effectiveness and subsequent amendments/current legal force.]
 - **Outcome:** Temporary stop to the planning, establishment, construction, and special-use-permit applications for data centers or related activities/components in unincorporated Franklin County.
 
 ### Geary County
@@ -142,12 +142,12 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** One year from adoption
 - **Current end date:** `—`
-- **Sectors:** data center
+- **Sectors:** data center, battery storage, solar, wind, cryptocurrency mining
 - **Moratorium ID:** `ks-geary-county-2026`
-- **Legal basis:** County resolution (exact number not stated in the source retrieved)
+- **Legal basis:** Geary County Resolution 6-22-2026, adopted June 22, 2026, according to county commission minutes.
 - **What prompted it:** Concerns about data center infrastructure demands on water and power, and resource competition with local farmers and ranchers.
 - **Affected projects:** Not specified in the source retrieved.
-- **Detailed status:** Active as of 2026-07-31 (adopted 2026-06-22, after this dataset's 2026-04-28 coverage cutoff)
+- **Detailed status:** June 22 minutes record adoption of Resolution 6-22-2026 for twelve months, covering alternative-energy and data-center applications. Local reporting describes wind, solar, BESS and cryptocurrency mining. [VERIFY: signed final scope, thresholds/exemptions, effective date and later actions/current legal force; detailed sector mapping remains report-qualified.]
 - **Outcome:** Directs county planning/zoning staff to study data center impacts during the pause.
 
 ### Harvey County
@@ -158,12 +158,12 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Normalized date:** `2026-01-13` (exact)
 - **Duration:** Through 2029-01-01, unless amended, extended, or terminated earlier
 - **Current end date:** `—`
-- **Sectors:** data center
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `ks-harvey-county-2026`
 - **Legal basis:** Resolution 2026-04
 - **What prompted it:** Questions and concerns about regulating data centers in unincorporated areas; unknown impacts on current and future property owners; need to review the comprehensive plan and unified development code.
 - **Affected projects:** No application had been submitted when enacted.
-- **Detailed status:** Active
+- **Detailed status:** The reviewed resolution includes cryptocurrency or bitcoin mining in its data-center definition and requires publication for effectiveness. [VERIFY: publication date, early termination/amendment and present legal force; a scheduled 2029 endpoint alone is insufficient.]
 - **Outcome:** Planning and zoning staff and the Planning Commission were directed to review and update the comprehensive plan and code.
 
 ### Kingman County
@@ -179,23 +179,23 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Resolution 2026-R9
 - **What prompted it:** Kingman County zoning already allowed data centers by special use permit, but planning and zoning boards requested review of all data-center zoning code provisions and public concerns had been raised.
 - **Affected projects:** Any data center special use permit or zoning/use modification submitted after the effective date.
-- **Detailed status:** Active
+- **Detailed status:** The February 12 newspaper page reproduces Resolution 2026-R9 with an eighteen-month term from effectiveness and a publication requirement. [VERIFY: official-paper status, executed text, actual effective date and subsequent actions/current legal force.]
 - **Outcome:** County officials and planning boards must consider amendments and additions to zoning code provisions governing data center applications and guidelines.
 
 ### Lawrence
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-07-14
-- **Normalized date:** `2026-07-14` (exact)
-- **Duration:** 24 months from adoption or until the city repeals it, whichever comes first (2026-07-14 through approximately 2028-07-14).
+- **Date enacted:** 2026-07-21 (second and final reading of Ordinance No. 10221; July 14 was earlier commission action).
+- **Normalized date:** `2026-07-21` (exact)
+- **Duration:** 24 calendar months; the exact effective-date anchor and any earlier repeal require the enacted ordinance and later-action review.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ks-lawrence-2026`
-- **Legal basis:** Lawrence City Commission action, adopted unanimously (5-0) on 2026-07-14, imposing a 24-month moratorium on data center uses within city limits alongside initiation of two Land Development Code text amendments (one requiring a special use permit for data centers instead of by-right development, one directing staff to study water/environmental, energy, utility-cost, noise/light, and setback issues).
+- **Legal basis:** Lawrence Ordinance No. 10221, adopted on second and final reading July 21, 2026 by a 5-0 vote, establishes a 24-month moratorium on development of data center uses within the city.
 - **What prompted it:** The current Land Development Code allowed data centers in industrial districts by right, with no special approval required; a large crowd of residents urged restrictions, and commissioners wanted time for planning staff to develop new rules (a 12-month option was considered but the commission chose 24 months 'to ensure planning staff had more time'). No specific data center proposal was pending in Lawrence at adoption.
 - **Affected projects:** None identified as pending at adoption; director of planning and development Jeff Crick said he was not aware of any proposals to develop a data center in Lawrence.
-- **Detailed status:** Active as of 2026-09-23; runs through approximately 2028-07-14 or until repealed. As of a Sept. 21, 2026 follow-up report, the Planning Commission was recommending additional layers to the data-center approval process as part of the same text-amendment process begun in July.
+- **Detailed status:** Ordinance No. 10221 adopted July 21, 2026 for 24 months; current legal force and operative end date remain to be verified against enacted text and subsequent actions. [VERIFY: enacted text, publication/effective date, operative endpoint and later actions.]
 - **Outcome:** 24-month freeze on data center uses within Lawrence city limits while planning staff draft a special-use-permit requirement and study issues (water, energy/utility costs, noise, light, setbacks) for a new data center ordinance; includes a narrow property-owner exception process reviewed against the intent of the pending text amendment.
 
 ### Leavenworth County
@@ -266,16 +266,16 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-09 (City Council vote unanimous; exact day not confirmed -- reported as adopted in a 'pre-ordinance 19-54' per a Citizen Portal AI meeting summary, with the ordinance text appearing in the Marysville Advocate the same week)
-- **Normalized date:** `2026-09` (month_only)
-- **Duration:** 12 months from adoption; exact start date not confirmed, so the end date cannot be reliably computed.
+- **Date enacted:** 2026-09-14 (date of city council meeting; adoption reported by September 16 Marysville Advocate).
+- **Normalized date:** `2026-09-14` (exact)
+- **Duration:** 12 calendar months from effective date, unless earlier repealed or superseded; the publication date and operative end date require confirmation.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ks-marysville-2026`
-- **Legal basis:** Marysville City Council pre-ordinance 19-54, adopted unanimously (voice vote per Citizen Portal AI summary).
+- **Legal basis:** Ordinance No. 1954, as identified in the September 14 city agenda draft; adoption reported by the Marysville Advocate. The executed ordinance and publication should be verified.
 - **What prompted it:** Not detailed beyond staff/council wanting time to study land-use implications and coordination with Marshall County; Marysville's mayor had separately written to Marshall County in July 2026 asking the county to join the city in enacting a moratorium.
 - **Affected projects:** Not specified in sources retrieved.
-- **Detailed status:** Reported as active as of the sources retrieved (a Sept. 2026 aggregator entry); exact status as of 2026-09-23 not independently re-confirmed. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** Adoption reported September 16, 2026; effective publication date and legal status as of November 5 require verification. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh] [VERIFY: executed Ordinance 1954, publication/effective date and later actions; adoption and exact September 14 date remain news-qualified.]
 - **Outcome:** 12-month pause on new data center development applications in Marysville to allow staff and council time to study potential impacts and land-use policy options, including whether extraterritorial or county-level coordination is needed.
 
 ### McPherson County
@@ -332,14 +332,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-05-18. Confirmed by three independent sources: The Mercury ('Riley County commissioners on Monday implemented a temporary moratorium...'), KMAN/1350kman.com ('commissioners signed a resolution Monday'), and a Citizen Portal AI summary ('Riley County commissioners voted May 18 to adopt...'). Commissioners had discussed the idea in principle earlier (around April 2026), but the resolution was not signed/effective until May 18, 2026.
 - **Normalized date:** `2026-05-18` (exact)
-- **Duration:** Six months: effective 2026-05-18 through 2026-11-12, per KMAN (1350kman.com) and WIBW reporting on the signed resolution
-- **Current end date:** `—`
+- **Duration:** Original resolution was reported to run until November 12, 2026 after publication; county planning page now reports a moratorium through May 14, 2027. The later instrument and precise effective dates remain to be verified.
+- **Current end date:** `2027-05-14`
 - **Sectors:** data center, battery storage
 - **Moratorium ID:** `ks-riley-county-2026`
 - **Legal basis:** County Commission moratorium action [VERIFY resolution number from official minutes]
 - **What prompted it:** County commissioners wanted time to study data center and BESS impacts before making a firm policy decision; concerns included high electricity consumption, utility bills, and cooling water.
 - **Affected projects:** Data centers and battery energy storage systems.
-- **Detailed status:** Active
+- **Detailed status:** County planning page retrieved November 5, 2026 reports a data-center and BESS moratorium through May 14, 2027 and says proposals cannot be accepted or reviewed. Earlier May reporting gave November 12, 2026. [VERIFY: instrument establishing the later date, adoption/publication and subsequent legal status; no extension vote or instrument inferred from the discrepancy. Active classification retained provisionally.]
 - **Outcome:** Study period for potential county policy or zoning standards.
 
 ### Saline County
@@ -387,7 +387,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Resolution No. 049-2026, interim development control suspending BESS Conditional Use applications
 - **What prompted it:** Zoning code allows BESS as a Renewable Energy System subject to Conditional Use review, but no BESS-specific regulations/standards exist.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. Adopted by the Board of County Commissioners on 2026-03-11 for one year, through 2027-03-11, suspending BESS Conditional Use and Building Permit applications in unincorporated Sedgwick County while land development regulations are reviewed.
+- **Detailed status:** Resolution No. 049-2026 was adopted 2026-03-11 and published 2026-03-19. It suspends specified BESS applications in unincorporated Sedgwick County, including primary uses and ancillary systems of at least 600 kWh. The published resolution states it remains in effect until the earlier of March 12, 2027, or adoption and publication of BESS zoning provisions; it also permits earlier amendment or termination. Current force as of 2026-11-05 was not established. [VERIFY: precise boundary interpretation of until March 12 versus county summary through March 11, adopted text correspondence and later actions.]
 - **Outcome:** —
 
 ### Sedgwick County
@@ -403,7 +403,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Resolution No. 120-2026, interim development control suspending large-scale solar applications
 - **What prompted it:** County previously imposed a solar (SECS) moratorium in 2023 and expanded regulations in 2024; commissioners wanted more time before acting on two pending large-scale solar applications.
 - **Affected projects:** Two previously-submitted large-scale solar project applications (exempted from the pause).
-- **Detailed status:** Active as of 2026-09-23. Adopted 5-0 on 2026-06-17, in effect through 2026-12-11. Does not affect two solar applications already on file, expected before the commission in August 2026.
+- **Detailed status:** Resolution 120-2026 specifies adoption and publication as effectiveness conditions and a December 11, 2026 scheduled end. [VERIFY: publication and later amendments/termination/current legal force; existing-application exceptions not independently rechecked.]
 - **Outcome:** —
 
 ### Shawnee County

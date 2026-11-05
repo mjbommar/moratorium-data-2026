@@ -30,13 +30,15 @@ Morgan County and Plainfield, Illinois, now carry news-qualified extension obser
 
 Indiana source review identifies Boone Ordinance 2026-08 and Dearborn Ordinance 2026-004, records Clark and Merrillville's stated endpoints, and preserves calendar terms. Pulaski's February 2 adoption replaces an internally inconsistent January chronology on news-qualified evidence. Wabash's text distinguishes county adoption from separate town adoptions; Shelby's original outer limit is August 23, not August 22. Tippecanoe's original dated term is retained without treating codification as proof of no later extension. Remaining scope, final-text and current-force questions stay flagged.
 
+Kansas source review corrects thirteen records, including Lawrence's July 21 final reading, Marysville's news-qualified September 14 adoption, Allen County's January 14, 2025 adoption, covered-use definitions and calendar terms. Riley's current county page reports May 14, 2027, but bounded native-domain Exa and bc-web/pydoll follow-up did not establish an extension instrument; its active classification is retained provisionally. Dickinson's category review dates and overall 2029 force clause remain unresolved, so its single 2027 endpoint is removed. Later legal-force gaps remain flagged.
+
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1293** |
 | In force (active or extended) | **1067** |
 | Proposed, not yet voted on | **73** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **336** |
+| Rows we still want to confirm (`[VERIFY]`) | **347** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
