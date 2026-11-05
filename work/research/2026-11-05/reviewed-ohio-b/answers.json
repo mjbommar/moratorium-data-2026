@@ -1,0 +1,192 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "oh-bellevue-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.bellevueohio.gov/Documents/Government/City%20Council/Agenda%20and%20Minutes/2026/6-8-26%20Minutes.pdf?t=202606171510150",
+          "source_type": "minutes",
+          "document_date": "2026-06-08",
+          "supports": "Council minutes record the calendar-month term.",
+          "quote": "USE OR CHANGE OF USE THAT WOULD ALLOW DATA CENTERS FOR A PERIOD OF TWELVE (12) MONTHS\nFROM THE EFFECTIVE DATE OF THIS ORDINANCE"
+        }
+      ],
+      "notes": "Calendar-term encoding corrected; current force and effective-date anchor remain unresolved.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Minutes state twelve months from effective date, not 365 fixed days."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Do not convert a calendar-month term into fixed days."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; 12-month moratorium adopted 2026-06-08 runs to about 2027-06-08.",
+          "to": "June 8 minutes record Ordinance 15-26 with a twelve-month term from effectiveness and final adoption by a 6-1 vote. Actual effectiveness and later action were not established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Distinguish adoption, posted wording, duration units and later legal force."
+        }
+      }
+    },
+    {
+      "moratorium_id": "oh-berea-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.cityofberea.org/DocumentCenter/View/5618/2026-33-MoratoriumData-Centers",
+          "source_type": "ordinance",
+          "document_date": "2026-06-15",
+          "supports": "The signed city ordinance identifies the instrument as 2026-33 and states its permit scope and maximum term.",
+          "quote": "IMPOSING A TEMPORARY MORATORIUM, NOT TO EXCEED ONE YEAR, ON THE\nGRANTING/ISSUING ANY PERMITS FOR DATA CENTERS"
+        },
+        {
+          "url": "https://www.cityofberea.org/DocumentCenter/View/5618/2026-33-MoratoriumData-Centers",
+          "source_type": "ordinance",
+          "document_date": "2026-06-15",
+          "supports": "Section 2 uses recommends; its legal effect is not adjudicated.",
+          "quote": "SECTION 2. That Council of the City of Berea recommends a temporary moratorium not\nto exceed one year on the granting/issuing of any permits"
+        }
+      ],
+      "notes": "Coordinator visually read the June 15 passage and approval dates; section 2 recommends wording is retained without adjudicating legal effect.",
+      "changes": {
+        "legal_basis": {
+          "from": "City Council emergency ordinance; Ordinance 6-6",
+          "to": "City of Berea Ordinance No. 2026-33, emergency measure concerning a temporary data-center permit moratorium",
+          "reason": "The official signed ordinance identifies the instrument as 2026-33; 6-6 is not its ordinance number."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The ordinance uses a term of up to one year, not 365 fixed days."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "An upper limit of one year is not a fixed 365-day term."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31; runs through approximately 2027-06-15",
+          "to": "Signed Ordinance 2026-33 records June 15 passage and mayoral approval. Its title states a temporary permit moratorium not to exceed one year, while section 2 says Council recommends that moratorium. The legal effect of this wording, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Distinguish adoption, posted wording, duration units and later legal force."
+        },
+        "duration": {
+          "from": "Up to 1 year",
+          "to": "Not to exceed one year; section 2 uses recommends. Actual operative interval and later action unresolved.",
+          "reason": "Preserve the upper limit and operative-wording ambiguity."
+        }
+      }
+    },
+    {
+      "moratorium_id": "oh-blanchester-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.blanvillage.com/_files/ugd/06e39b_12d5f04dc599499cb342df0366771c23.pdf",
+          "source_type": "ordinance",
+          "document_date": "2026-03-12",
+          "supports": "The adopted ordinance states two years from effect.",
+          "quote": "to the authorization or establishment of any computer data center within Village of Blanchester for two\nyears from the date this Ordinance takes effect."
+        }
+      ],
+      "notes": "Corrects calendar term only. Section 3 says immediately or earliest date allowed by law; effective-date anchor and later action remain unresolved.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Ordinance sets two years from the effective date, not a fixed day count."
+        },
+        "duration_days": {
+          "from": "731",
+          "to": "",
+          "reason": "Two calendar years cannot be encoded as a universal fixed day count."
+        },
+        "current_status": {
+          "from": "Listed on village 2026 documents page; full text not captured because site output was incomplete",
+          "to": "Ordinance 2026.007 states two years from effectiveness, with section 3 stating immediately or the earliest date allowed by law. Actual effectiveness, publication conditions and later action were not established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Distinguish adoption, posted wording, duration units and later legal force."
+        }
+      }
+    },
+    {
+      "moratorium_id": "oh-new-carlisle-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://newcarlisleohio.gov/wp-content/uploads/2026/02/CouncilPacket-2026-0217.pdf",
+          "source_type": "ordinance",
+          "supports": "Draft ordinance specifies a twelve-month term from effectiveness.",
+          "quote": "occupancy, building or other permits or applications relating to Data Centers is hereby\n\nimposed for twelve (12) months from the effective date of this Ordinance.",
+          "document_date": "2026-02-17"
+        },
+        {
+          "url": "https://newcarlisleohio.gov/wp-content/uploads/2026/02/CouncilPacket-2026-0302.pdf",
+          "source_type": "minutes",
+          "supports": "February 17 minutes record passage.",
+          "quote": "Accepted 6-0-1 ex: Establish a moratorium on data centers.",
+          "document_date": "2026-03-02"
+        }
+      ],
+      "notes": "Draft text plus subsequent meeting minutes support adoption and calendar term; final signed ordinance and later actions needed for current force and precise effectiveness.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The contemporaneous official text states twelve months, not a fixed 365-day term."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Twelve calendar months cannot be expressed as a fixed day count."
+        },
+        "current_status": {
+          "from": "Active through approximately 2027-03-04",
+          "to": "February 17 minutes in the March 2 packet record Ordinance 2026-06 accepted 6-0 with one excused. The February 17 packet draft explicitly states twelve months from effectiveness for data centers. Final executed wording, actual effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Distinguish adoption, posted wording, duration units and later legal force."
+        }
+      },
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "oh-clay-township-montgomery-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://irp.cdn-website.com/b671b9b1/files/uploaded/04.07.26+Regular+meeting+minutes.pdf",
+          "source_type": "minutes",
+          "supports": "Approval motion, twelve-month calendar term, data-center application scope and all-yes roll call; OCR twelve/parenthesis errors resolved by page 4 visual comparison.",
+          "quote": "Angela Howell made a motion to approve Resolution 2026-016 which imposes a temporary moratorium\non the acceptance and processing of applications for the establishment or expansion of data centers\nwithin Clay Township for a period of tweive (12} months according to ORC Sections 519.01, 519.02,\n519.12, Seconded by Dale Winner.\n\nRoll: All yes",
+          "document_date": "2026-04-07"
+        }
+      ],
+      "notes": "Minutes support adoption and calendar term; later actions and exact effective date remain unresolved. OCR is preserved separately.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The contemporaneous official text states twelve months, not a fixed 365-day term."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Twelve calendar months cannot be expressed as a fixed day count."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; 12-month moratorium adopted 2026-04-07 runs to about 2027-04-07.",
+          "to": "April 7 minutes record a motion approving Resolution 2026-016 for twelve months, covering acceptance and processing of establishment or expansion applications for data centers; roll call records all yes. Actual effectiveness and later action were not established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Distinguish adoption, posted wording, duration units and later legal force."
+        }
+      },
+      "confidence": 0.9
+    }
+  ],
+  "new_candidates": []
+}

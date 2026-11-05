@@ -377,7 +377,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Ordinance No. 15-26 (City of Bellevue), emergency, imposing a temporary moratorium on the establishment or conversion of buildings into data centers for 12 months
 - **What prompted it:** Time for city administration and council to review federal codes, Ohio statutes and the city's codified ordinances relative to data centers.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-06-08 runs to about 2027-06-08.
+- **Detailed status:** June 8 minutes record Ordinance 15-26 with a twelve-month term from effectiveness and final adoption by a 6-1 vote. Actual effectiveness and later action were not established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Council adopted a 12-month moratorium on establishing, converting, developing or constructing data centers while it reviews applicable law and its code.
 
 ### Berea
@@ -386,14 +386,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-06-15 (emergency measure)
 - **Normalized date:** `2026-06-15` (exact)
-- **Duration:** Up to 1 year
+- **Duration:** Not to exceed one year; section 2 uses recommends. Actual operative interval and later action unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-berea-2026`
-- **Legal basis:** City Council emergency ordinance; Ordinance 6-6
+- **Legal basis:** City of Berea Ordinance No. 2026-33, emergency measure concerning a temporary data-center permit moratorium
 - **What prompted it:** Study of infrastructure, utilities, environmental effects, resident concerns, and long-term planning implications of data centers
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; runs through approximately 2027-06-15
+- **Detailed status:** Signed Ordinance 2026-33 records June 15 passage and mayoral approval. Its title states a temporary permit moratorium not to exceed one year, while section 2 says Council recommends that moratorium. The legal effect of this wording, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Council approved Ordinance 6-6, an emergency measure imposing a moratorium of up to one year on permits and permit applications for data centers
 
 ### Blanchester
@@ -409,7 +409,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Ordinance 2026.007, "Ordinance Establishing Data Center Moratorium"
 - **What prompted it:** General council concern that the village electric grid could not support a data center's power needs, plus unresolved questions about energy sourcing raised at a council-attended data-center webinar; no specific project or applicant was pending.
 - **Affected projects:** Not specified
-- **Detailed status:** Listed on village 2026 documents page; full text not captured because site output was incomplete
+- **Detailed status:** Ordinance 2026.007 states two years from effectiveness, with section 3 stating immediately or the earliest date allowed by law. Actual effectiveness, publication conditions and later action were not established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** No data-center-related zoning or council action has followed the March 12, 2026 adoption; council minutes for April 9, May 14, and June 11, 2026 (the most recent available) contain no further mention of data centers or the moratorium.
 
 ### Boardman Township
@@ -665,7 +665,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Ordinance 2026-06
 - **What prompted it:** Lack of zoning classifications for data centers; energy, water, utility, environmental, neighborhood, and long-term planning concerns
 - **Affected projects:** No specific project identified
-- **Detailed status:** Active through approximately 2027-03-04
+- **Detailed status:** February 17 minutes in the March 2 packet record Ordinance 2026-06 accepted 6-0 with one excused. The February 17 packet draft explicitly states twelve months from effectiveness for data centers. Final executed wording, actual effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Study period for planning, zoning, and business regulation decisions
 
 ### City of Norton
@@ -713,7 +713,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Clay Township (Montgomery County) Trustee Resolution 2026-016 under R.C. 519.01, 519.02, 519.12
 - **What prompted it:** Zoning resolution lacks data center (NAICS 518) regulations; concerns over land use, electrical demand, water, transportation and public safety.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-04-07 runs to about 2027-04-07.
+- **Detailed status:** April 7 minutes record a motion approving Resolution 2026-016 for twelve months, covering acceptance and processing of establishment or expansion applications for data centers; roll call records all yes. Actual effectiveness and later action were not established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Zoning commission directed to review the zoning resolution and recommend data center regulations during the moratorium.
 
 ### Clayton

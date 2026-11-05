@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Five further Ohio corrections preserve Bellevue and Blanchester calendar terms, correct Berea to Ordinance 2026-33 with its one-year upper limit and unresolved recommends wording, distinguish New Carlisle’s data-center clause from an identical solar-term excerpt, and confirm Clay Township’s unanimous Resolution 2026-016 approval from scanned minutes. Actual operative intervals and later legal force remain flagged.
+
 Six Ohio corrections record Brimfield’s passed extension through the stated April 6, 2027 endpoint, Broadview Heights Resolution 2026-92 and its earlier-ending condition, Amherst’s amended proposal rather than final adoption, Athens Township’s unsigned clean text, Aurora’s calendar term and Avon Lake’s explicit June 22, 2027 endpoint. Effective intervals and later legal force remain qualified.
 
 Le Ray’s filing copy identifies September 14, 2023 adoption and a six-month term; precise BESS scope remains qualified. Leyden’s original filing stamp and later June 2026 regulatory-law certification are distinguished from a demonstrated replacement of the pause. New York return accounting covers all 150 existing IDs: 54 bounded corrections, one deferred Chester identity proposal and 95 unresolved returns pending disposition review. None is counted as fully verified for current legal force by this accounting.
@@ -92,7 +94,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1068** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **154** |
-| Rows we still want to confirm (`[VERIFY]`) | **517** |
+| Rows we still want to confirm (`[VERIFY]`) | **522** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
