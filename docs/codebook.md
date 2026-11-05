@@ -50,7 +50,7 @@ This is the column most users want for filtering. The values:
 - **`replaced`** — moratorium has expired and a permanent ordinance has been adopted in its place (~37 rows)
 - **`expired`** — moratorium has lapsed without a documented replacement (~20 rows)
 - **`rescinded`** — moratorium was affirmatively repealed before its expiration date (~6 rows)
-- **`pending`** — moratorium has been proposed but is not yet in force (~35 rows; e.g., a public hearing is scheduled but the vote hasn't happened)
+- **`pending`** — moratorium is proposed or enacted with a future effective date; it is not yet classified as in force. This legacy category alone does not establish whether a vote has occurred
 
 To filter to "moratoria currently in force":
 
@@ -71,7 +71,7 @@ enacted = df[~df["enacted_status"].eq("pending")]
 - **Several instruments adopted at once** are recorded as separate rows, because the grain of this table is the *instrument*, not the jurisdiction or the meeting. Shelby County, Iowa adopted four separate resolutions on 2026-03-17 — 2026-14 (solar), 2026-15 (battery storage), 2026-16 (data centers and cryptocurrency mining), and 2026-17 (wind) — and those are four rows sharing a date and a jurisdiction but differing in `legal_basis` and `sectors`. Deduplicate on `legal_basis`, not on jurisdiction alone.
 - **Extensions of the same instrument** (e.g., Resolution X adopts a 6-month moratorium, Resolution X-A extends it 6 more months) are recorded as updates to the original row's `current_status` and `enacted_status`, not as new rows.
 - **Successive new instruments** are recorded as separate rows. If a county adopts a moratorium, lets it lift or expire, and then later adopts a *new* moratorium, each is a separate row. Oliver County, ND has three such phases — three separate moratoria, three rows, distinguished by `(Phase 1)` / `(Phase 2)` / `(Phase 3)` in the `jurisdiction` field and by the `-p1` / `-p2` / `-p3` suffix on `moratorium_id`.
-- **Pending moratoria** (proposed but not yet adopted) are intentionally included with `enacted_status = pending` because the public proposal is itself politically meaningful. Filter on `enacted_status` if you want enacted-only counts.
+- **Pending moratoria** include proposals and enacted instruments with future effective dates. They use `enacted_status = pending`; this legacy field alone cannot identify all enacted instruments. Use the reviewed adoption and effective-date evidence to distinguish legislative stage from legal force.
 - **`[VERIFY]` flags** mark fields where we couldn't fully confirm the value from primary sources. Most often this is because the local government hasn't posted minutes or signed-ordinance text online yet.
 
 ## `data/state_legislation.csv`
@@ -138,7 +138,7 @@ Top-level keys:
 - `total_state_policy_actions`: 440 — all state-policy rows, including binding non-bill actions
 - `states_with_moratoria`: 47
 - `states_without_moratoria`: 3
-- `moratoria_with_verify_tags`: 357 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
+- `moratoria_with_verify_tags`: 369 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
 - `moratoria_without_verify_tags`: 232
 - `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 533 rows by `enacted_status`
 - `sweep_coverage`: which states received a systematic month-by-month sweep for the release's window, plus `swept_states_with_no_adoptions_in_window`. **Read this before interpreting a state's absence.** A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that `swept_states_with_no_adoptions_in_window` is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from [`data/sweep_coverage.json`](../data/sweep_coverage.json)

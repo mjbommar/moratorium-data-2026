@@ -347,7 +347,7 @@ the working count is not a completed deduplicated instrument census.</p>
 <li><strong><code>replaced</code></strong> — moratorium has expired and a permanent ordinance has been adopted in its place (~37 rows)</li>
 <li><strong><code>expired</code></strong> — moratorium has lapsed without a documented replacement (~20 rows)</li>
 <li><strong><code>rescinded</code></strong> — moratorium was affirmatively repealed before its expiration date (~6 rows)</li>
-<li><strong><code>pending</code></strong> — moratorium has been proposed but is not yet in force (~35 rows; e.g., a public hearing is scheduled but the vote hasn't happened)</li>
+<li><strong><code>pending</code></strong> — moratorium is proposed or enacted with a future effective date; it is not yet classified as in force. This legacy category alone does not establish whether a vote has occurred</li>
 </ul>
 <p>To filter to "moratoria currently in force":</p>
 <pre><code class="language-python">in_force = df[df[&quot;enacted_status&quot;].isin([&quot;active&quot;, &quot;extended&quot;])]
@@ -362,7 +362,7 @@ the working count is not a completed deduplicated instrument census.</p>
 <li><strong>Several instruments adopted at once</strong> are recorded as separate rows, because the grain of this table is the <em>instrument</em>, not the jurisdiction or the meeting. Shelby County, Iowa adopted four separate resolutions on 2026-03-17 — 2026-14 (solar), 2026-15 (battery storage), 2026-16 (data centers and cryptocurrency mining), and 2026-17 (wind) — and those are four rows sharing a date and a jurisdiction but differing in <code>legal_basis</code> and <code>sectors</code>. Deduplicate on <code>legal_basis</code>, not on jurisdiction alone.</li>
 <li><strong>Extensions of the same instrument</strong> (e.g., Resolution X adopts a 6-month moratorium, Resolution X-A extends it 6 more months) are recorded as updates to the original row's <code>current_status</code> and <code>enacted_status</code>, not as new rows.</li>
 <li><strong>Successive new instruments</strong> are recorded as separate rows. If a county adopts a moratorium, lets it lift or expire, and then later adopts a <em>new</em> moratorium, each is a separate row. Oliver County, ND has three such phases — three separate moratoria, three rows, distinguished by <code>(Phase 1)</code> / <code>(Phase 2)</code> / <code>(Phase 3)</code> in the <code>jurisdiction</code> field and by the <code>-p1</code> / <code>-p2</code> / <code>-p3</code> suffix on <code>moratorium_id</code>.</li>
-<li><strong>Pending moratoria</strong> (proposed but not yet adopted) are intentionally included with <code>enacted_status = pending</code> because the public proposal is itself politically meaningful. Filter on <code>enacted_status</code> if you want enacted-only counts.</li>
+<li><strong>Pending moratoria</strong> include proposals and enacted instruments with future effective dates. They use <code>enacted_status = pending</code>; this legacy field alone cannot identify all enacted instruments. Use the reviewed adoption and effective-date evidence to distinguish legislative stage from legal force.</li>
 <li><strong><code>[VERIFY]</code> flags</strong> mark fields where we couldn't fully confirm the value from primary sources. Most often this is because the local government hasn't posted minutes or signed-ordinance text online yet.</li>
 </ul>
 <h2 id="datastate_legislationcsv"><code>data/state_legislation.csv</code></h2>
@@ -506,7 +506,7 @@ records the governing session context per state in the audit log under
 <li><code>total_state_policy_actions</code>: 440 — all state-policy rows, including binding non-bill actions</li>
 <li><code>states_with_moratoria</code>: 47</li>
 <li><code>states_without_moratoria</code>: 3</li>
-<li><code>moratoria_with_verify_tags</code>: 357 — rows with at least one <code>[VERIFY]</code> flag remaining in any field (matches <code>has_verify_tags = True</code> in the inventory CSV)</li>
+<li><code>moratoria_with_verify_tags</code>: 369 — rows with at least one <code>[VERIFY]</code> flag remaining in any field (matches <code>has_verify_tags = True</code> in the inventory CSV)</li>
 <li><code>moratoria_without_verify_tags</code>: 232</li>
 <li><code>enacted_status_breakdown</code>: <code>{active, extended, replaced, expired, rescinded, pending}</code> — the breakdown of the 533 rows by <code>enacted_status</code></li>
 <li><code>sweep_coverage</code>: which states received a systematic month-by-month sweep for the release's window, plus <code>swept_states_with_no_adoptions_in_window</code>. <strong>Read this before interpreting a state's absence.</strong> A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that <code>swept_states_with_no_adoptions_in_window</code> is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from <a href="../data/sweep_coverage.json"><code>data/sweep_coverage.json</code></a></li>
