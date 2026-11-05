@@ -18,7 +18,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 | Cherokee County (high-impact facilities; cryptocurrency mining; data-center-adjacent) | County | 2023-10-02 | cryptocurrency mining, data center | ⚪ Expired |
 | City of Asheville | City | 2026-06-23 | data center | 🟢 Active |
 | City of Boiling Spring Lakes | City | 2026-06-02 | data center, cryptocurrency mining | 🟢 Active |
-| City of Brevard | City | 2026-03-16 | data center | ⚪ Replaced |
+| City of Brevard | City | 2026-03-16 | data center, cryptocurrency mining | ⚪ Replaced |
 | City of Greensboro | City | 2026-08-18 | data center | 🟢 Active |
 | City of Hendersonville | City | 2026-09-03 | data center | 🟢 Active |
 | City of Kings Mountain | City | 2026-02-24 | data center | 🟢 Extended |
@@ -231,14 +231,14 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Status:** ⚪ Replaced
 - **Date enacted:** 2026-03-16 (City Council Regular Meeting per agenda item J(4) "Proposed Moratorium on Data Centers and Similar High-Intensity Land Uses")
 - **Normalized date:** `2026-03-16` (exact)
-- **Duration:** 90 days, City Manager Wilson Hooper presented end date of "running through July 2[, 2026]" per Hendersonville Times-News reporting; March 16 + 90 days = June 14, but city's planned 90-day window ran past that to July 2 (Council's adopted end-date prevails over arithmetic).
-- **Current end date:** `—`
-- **Sectors:** data center
+- **Duration:** Ordinance 2026-11 specifies expiration July 2, 2026 unless ended earlier by City Council; later extensions or earlier termination have not been ruled out.
+- **Current end date:** `2026-07-02`
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-brevard-2026`
-- **Legal basis:** City Council moratorium on data centers and similar high-intensity land uses adopted under N.C.G.S. 160D-107 (Brevard's land-use authority); March 16, 2026 City Council Regular Meeting agenda packet (cityofbrevard.com AgendaCenter ID _03162026-1793) lists item J(4) as "Proposed Moratorium on Data Centers and Similar High-Intensity Land Uses" with no instrument number on the published agenda. [Evidence ceiling: as of 2026-04-30, Brevard's AgendaCenter has the meeting agenda but no signed-ordinance PDF or post-meeting minutes for the 2026-03-16 session.]
+- **Legal basis:** Brevard Ordinance 2026-11, adopted March 16, 2026, imposes a temporary moratorium on applications for data centers, cryptomining facilities, server farms and similar facilities; N.C.G.S. 160D-107.
 - **What prompted it:** Past documented data center inquiries; lack of land-use standards for high-resource, noisy, large-format facilities.
 - **Affected projects:** No active project identified by city officials.
-- **Detailed status:** Lapsed/superseded: temporary moratorium (Ord. 2026-11) ran through its own term (~2026-07-02); permanent zoning ordinance Ord. 2026-19 (adopted 2026-05-18) now regulates data centers as a conditional industrial use.
+- **Detailed status:** Signed Ordinance 2026-11, adopted March 16, states July 2, 2026 expiry unless ended earlier and covers data centers, cryptomining, server farms and similar infrastructure. The later replacement classification is retained provisionally; no complete subsequent-action review established its operative interval. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Resolved: Council adopted Ord. 2026-19 on 2026-05-18, restricting data centers to industrial zoning districts and requiring case-by-case conditional rezoning.
 
 ### City of Greensboro
@@ -587,10 +587,10 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-madison-county-2023`
-- **Legal basis:** Madison County Limited Moratorium on Data Processing Facilities, adopted June 13, 2023 (per County Manager Rod Honeycutt press release, confirmed by EasyOCR of `madison-county-crypto-moratorium-2023.pdf`); enacted under N.C.G.S. 160D-107. [Evidence ceiling: county press release is a notice, not the operative instrument; the signed resolution/ordinance text would be in the June 13, 2023 BOC minutes which the small county Weebly site does not archive online.]
+- **Legal basis:** Madison County Board of Commissioners approved the limited moratorium on data processing facilities on June 13, 2023, according to county minutes, referring to attachment 5.4. The operative instrument and later actions require further review.
 - **What prompted it:** Growing prevalence of data processing/crypto mining facilities; need to study infrastructure, energy, environmental, and economic impacts before regulating.
 - **Affected projects:** Data processing facilities and crypto mining operations countywide.
-- **Detailed status:** Expired by its 12-month term (June 2024) without a captured replacement ordinance. The Madison County Planning and Zoning page, refetched with a real Chrome browser on 2026-04-30, lists exactly five published ordinances — Land Use, Watershed Protection, Mountain Ridge Protection, Noise, and Subdivision — and does not list any data-processing-facility or cryptocurrency-specific ordinance. Mountain Xpress and BPR site searches return no Madison County replacement-ordinance article. On this evidence the moratorium most likely lapsed without replacement.
+- **Detailed status:** June 13, 2023 county minutes record unanimous adoption of the limited data-processing moratorium, referring to attachment 5.4. News quotes the county manager describing twelve months. Only pages 1-2 of the 73-page packet were substantively reviewed; the operative attachment and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Pending verification — county planned to study impacts and develop regulations; replacement text not located in captured fetches; the absence of a listed instrument on Madison County's Planning page suggests the moratorium may have lapsed without a replacement, but this cannot be confirmed without access to BOC minutes (not posted online by Madison County).
 
 ### McDowell County

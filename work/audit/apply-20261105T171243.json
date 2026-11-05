@@ -1,0 +1,102 @@
+{
+  "applied_at": "20261105T171243",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-north-carolina-e/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 2,
+    "fields_changed": 11
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "nc-brevard-2026",
+      "column": "duration",
+      "before": "90 days, City Manager Wilson Hooper presented end date of \"running through July 2[, 2026]\" per Hendersonville Times-News reporting; March 16 + 90 days = June 14, but city's planned 90-day window ran past that to July 2 (Council's adopted end-date prevails over arithmetic).",
+      "after": "Ordinance 2026-11 specifies expiration July 2, 2026 unless ended earlier by City Council; later extensions or earlier termination have not been ruled out.",
+      "reason": "The adopted instrument specifies a date, not a 90-day term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "nc-brevard-2026",
+      "column": "duration_days",
+      "before": "90",
+      "after": "",
+      "reason": "The instrument specifies a calendar date rather than 90 days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "nc-brevard-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "until_date",
+      "reason": "The instrument specifies July 2, 2026 unless ended earlier.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "nc-brevard-2026",
+      "column": "sectors",
+      "before": "[\"data_center\"]",
+      "after": "[\"data_center\", \"cryptocurrency_mining\"]",
+      "reason": "The ordinance explicitly covers cryptomining facilities.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "nc-brevard-2026",
+      "column": "legal_basis",
+      "before": "City Council moratorium on data centers and similar high-intensity land uses adopted under N.C.G.S. 160D-107 (Brevard's land-use authority); March 16, 2026 City Council Regular Meeting agenda packet (cityofbrevard.com AgendaCenter ID _03162026-1793) lists item J(4) as \"Proposed Moratorium on Data Centers and Similar High-Intensity Land Uses\" with no instrument number on the published agenda. [Evidence ceiling: as of 2026-04-30, Brevard's AgendaCenter has the meeting agenda but no signed-ordinance PDF or post-meeting minutes for the 2026-03-16 session.]",
+      "after": "Brevard Ordinance 2026-11, adopted March 16, 2026, imposes a temporary moratorium on applications for data centers, cryptomining facilities, server farms and similar facilities; N.C.G.S. 160D-107.",
+      "reason": "The signed ordinance is now available on the city portal.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "nc-brevard-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-07-02",
+      "reason": "Explicit original scheduled endpoint, not proof of actual expiration or absence of replacement.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "nc-brevard-2026",
+      "column": "current_status",
+      "before": "Lapsed/superseded: temporary moratorium (Ord. 2026-11) ran through its own term (~2026-07-02); permanent zoning ordinance Ord. 2026-19 (adopted 2026-05-18) now regulates data centers as a conditional industrial use.",
+      "after": "Signed Ordinance 2026-11, adopted March 16, states July 2, 2026 expiry unless ended earlier and covers data centers, cryptomining, server farms and similar infrastructure. The later replacement classification is retained provisionally; no complete subsequent-action review established its operative interval. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Keep historical adoption/term support distinct from later legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "nc-madison-county-2023",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "12 months is a calendar term, not necessarily 365 days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "nc-madison-county-2023",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "News reports a 12-month term; preserve its units.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "nc-madison-county-2023",
+      "column": "legal_basis",
+      "before": "Madison County Limited Moratorium on Data Processing Facilities, adopted June 13, 2023 (per County Manager Rod Honeycutt press release, confirmed by EasyOCR of `madison-county-crypto-moratorium-2023.pdf`); enacted under N.C.G.S. 160D-107. [Evidence ceiling: county press release is a notice, not the operative instrument; the signed resolution/ordinance text would be in the June 13, 2023 BOC minutes which the small county Weebly site does not archive online.]",
+      "after": "Madison County Board of Commissioners approved the limited moratorium on data processing facilities on June 13, 2023, according to county minutes, referring to attachment 5.4. The operative instrument and later actions require further review.",
+      "reason": "County minutes were located; the prior assertion that these minutes were not online is incorrect.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "nc-madison-county-2023",
+      "column": "current_status",
+      "before": "Expired by its 12-month term (June 2024) without a captured replacement ordinance. The Madison County Planning and Zoning page, refetched with a real Chrome browser on 2026-04-30, lists exactly five published ordinances \u2014 Land Use, Watershed Protection, Mountain Ridge Protection, Noise, and Subdivision \u2014 and does not list any data-processing-facility or cryptocurrency-specific ordinance. Mountain Xpress and BPR site searches return no Madison County replacement-ordinance article. On this evidence the moratorium most likely lapsed without replacement.",
+      "after": "June 13, 2023 county minutes record unanimous adoption of the limited data-processing moratorium, referring to attachment 5.4. News quotes the county manager describing twelve months. Only pages 1-2 of the 73-page packet were substantively reviewed; the operative attachment and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Keep historical adoption/term support distinct from later legal force.",
+      "source": "answers.json"
+    }
+  ]
+}

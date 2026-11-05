@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Brevard’s signed Ordinance 2026-11 corrects its original endpoint and cryptomining scope; Madison’s June 2023 minutes correct the earlier claim that its minutes were unavailable, with the operative attachment still unreviewed. North Carolina return accounting covers 69 existing IDs: 20 bounded corrections applied, one proposal deferred and 48 unresolved returns pending disposition review. None is counted as fully verified for current legal force by this accounting.
+
 Scanned-source review corrects Woodfin and Cherokee calendar terms and Yadkin’s twenty-four-month term, explicit August 17, 2028 outer endpoint, cryptocurrency scope and municipal-ETJ exclusion. Cherokee’s March 2025 report deadline conflicts with its October 2023 signature chronology; the discrepancy and later legal force remain unresolved.
 
 Newport’s signed ORD 2026-01 resolves September 10 adoption/effectiveness and its conditional September 10, 2027 outer endpoint; visual review corrects an extracted 2016/2026 instrument-number error. Warren and Watauga calendar terms remain news-qualified. McDowell’s historical two-month term is distinguished from its later replacement account, with continuity still unresolved.
@@ -52,7 +54,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **461** |
+| Rows we still want to confirm (`[VERIFY]`) | **463** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
