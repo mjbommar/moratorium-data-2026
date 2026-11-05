@@ -1,0 +1,64 @@
+{
+  "reviewed_at": "2026-11-05T19:17:09.146397+00:00",
+  "reviewer": "coordinator",
+  "source_job": "recovery-ballot-me-001",
+  "previous_review_receipt": "work/audit/maine-certified-returns-review-2026-11-05.json",
+  "input_hashes": {
+    "claims.jsonl": "5850df4af927e4ba57816192fc6438404ee6e15b133c406e5859ff7d5d41f15a",
+    "measure_results.jsonl": "26968289e2693f8eb88752acbd295e715fd80985b11424ec4a1edd25bc298060",
+    "elections.jsonl": "f532e859fbe7f1068edf1d47c27ac044373520d564fad923d7d04f4d66c02486",
+    "review_decisions.jsonl": "6d01dcb90ea3bfefb2287fb68a9a7b6e1ee96941234b383665ccf001e32690aa",
+    "source_documents.jsonl": "29f35f95c52b66e05f3d1eb1cc0b7bcd00cc74a1d70ed54c85f46e4efbc660c1",
+    "jurisdictions.jsonl": "f6a891ccf36415ec1704c9fb1b368881b4bffae079e815d96dff8340164ade4d",
+    "measure_provisions.jsonl": "2ed2955f72ef126e13d46baa5f17e156edf803b871d2116723d085d1db8b42bf",
+    "ballot_measures.jsonl": "79540d6914e9a7b3689db87a5eb466c251fd4ee88425033a7151c52457504552"
+  },
+  "output_hashes": {
+    "claims.jsonl": "b7504a3c32234e3991e56251608010fcf53f9c7c74d04762e0793e022f937a58",
+    "measure_results.jsonl": "26968289e2693f8eb88752acbd295e715fd80985b11424ec4a1edd25bc298060",
+    "elections.jsonl": "f532e859fbe7f1068edf1d47c27ac044373520d564fad923d7d04f4d66c02486",
+    "review_decisions.jsonl": "d1f571c5d325d53c1885804fb3ad7df39f5b3914cfe3a2c59f920c5d90b2509b",
+    "source_documents.jsonl": "29f35f95c52b66e05f3d1eb1cc0b7bcd00cc74a1d70ed54c85f46e4efbc660c1",
+    "jurisdictions.jsonl": "f6a891ccf36415ec1704c9fb1b368881b4bffae079e815d96dff8340164ade4d",
+    "measure_provisions.jsonl": "e3b5703fa36798fa66c647307d233ee2bab6d6625e58ad475df808459c9c104e",
+    "ballot_measures.jsonl": "830c7c24a3822a283474bd37072999b0eda9b0aa11397c54d52a05f1151e43b6"
+  },
+  "changes": [
+    {
+      "table": "ballot_measures",
+      "id": "lead-c1e9a2d7a5b6b4384cf0",
+      "field": "bindingness",
+      "from": "unresolved",
+      "to": "binding"
+    },
+    {
+      "table": "ballot_measures",
+      "id": "lead-c1e9a2d7a5b6b4384cf0",
+      "field": "placement_method",
+      "from": "unknown",
+      "to": "governing_body_referral"
+    },
+    {
+      "table": "ballot_measures",
+      "id": "lead-c1e9a2d7a5b6b4384cf0",
+      "field": "scope_note",
+      "from": "Candidate only; legal effect and identity review pending. Proposed term 180 days from effective date; proposed text has wording on enactment and seven days after adoption requiring legal interpretation.",
+      "to": "Official sample ballot Question 5 asks enactment, supported by signed warrant Article 5 and certified official proposed text. Proposed term is 180 days from effective date, subject to earlier repeal/modification or supersession. Paragraph 5 mentions voter enactment and seven days after adoption; operative effective date, later implementation and instrument link remain unresolved."
+    },
+    {
+      "table": "measure_provisions",
+      "id": "provision-eliot",
+      "field": "bindingness",
+      "from": "unresolved",
+      "to": "binding"
+    }
+  ],
+  "new_source_claims": [
+    "coordinator-eliot-wording",
+    "coordinator-eliot-covered_uses",
+    "coordinator-eliot-term",
+    "coordinator-eliot-effective_date_text",
+    "coordinator-eliot-official_proposed_text"
+  ],
+  "scope": "Eliot official question/proposed-text review and classification only. Exact effective date, current legal force, full passage rule and canonical promotion remain unresolved. No inventory rows or legal instrument links created."
+}

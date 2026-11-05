@@ -100,6 +100,7 @@ Exit: accepted pilot report and separately authorized bounded collection scope.
 - [ ] Acquire ballot/warrant text, qualification/referral records and official return/certification evidence.
 - [ ] Keep unofficial, certified, recounted and amended results as distinct observations.
 - [ ] Check exact wording, passage rules and reverse/mixed polarity for every included measure.
+- [x] Review Eliot Question 5 against the official sample ballot, signed warrant and certified proposed text; pin five visual source passages and classify the enactment question, while leaving its effective date and legal-force interval unresolved (`work/research/2026-11-05/ballot-census-review/eliot-review.md`).
 - [ ] Verify post-vote legal implementation, effective/applicability dates, exemptions and challenges.
 - [ ] Match prior pending instruments before creating new moratorium rows.
 - [ ] Record bans and other restrictions separately, with explicit predecessor/replacement links.
