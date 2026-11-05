@@ -1,0 +1,62 @@
+{
+  "scope": "Extraction-lineage repair only. Original worker outputs unchanged; no source or legal claims accepted.",
+  "reason": "Worker build_outputs.py ev() overwrote client text with content.text_full. Restored text re-derived from retained bc-web FetchResult and body matched original ledger hash before mutation. Alternate bytes retained and explicitly registered.",
+  "repairs": [
+    {
+      "attempt_id": "9ffc2f9455014fc0a13fba225d4f416b",
+      "source_body_sha256": "43026304b90ffefd84b4bf0f4ec7e1c80d5c2310ea11b1dfc26f28c1a4573f1a",
+      "restored_client_text_sha256": "8169869e030b5dd30638aa33ef6a715ceadbcf87dd48fc50ea8303c8e3ba5936",
+      "alternate_whole_page_sha256": "ee412df8326e0a2f113b7aa1ce9cb293fe93cb9890401d5823aa29dffdda6999",
+      "alternate_artifact": "9ffc2f9455014fc0a13fba225d4f416b-whole-page.private.txt"
+    },
+    {
+      "attempt_id": "97268f6fbfc34e3bb13a131b20dc6665",
+      "source_body_sha256": "cc182cb917480ac54f7d5bca193a27e282d2e9aa8c72908d5f53300784243654",
+      "restored_client_text_sha256": "8c716d95c7934b9ac7cea09bb68e1acd4a5331fdb7f117ee419b192b581b08f9",
+      "alternate_whole_page_sha256": "2a1e3c8a4e458122fd44889052bdd1bb6973b6de3e135c2b8bb15863deffb394",
+      "alternate_artifact": "97268f6fbfc34e3bb13a131b20dc6665-whole-page.private.txt"
+    },
+    {
+      "attempt_id": "63acb03a5bc34181af874cde9a461f66",
+      "source_body_sha256": "d31108f4c858c89a19ccbb778c57cf1f58a0852a2d41b36f12ebf49fec427d51",
+      "restored_client_text_sha256": "054d0723a6840e8fbd9f2693edc82b0d5926574a646feb9d8c57c45a5bb4cc12",
+      "alternate_whole_page_sha256": "dc86d673b0f6fcd31636620b466945c49fd150d8c07e27497900333d4da8edf7",
+      "alternate_artifact": "63acb03a5bc34181af874cde9a461f66-whole-page.private.txt"
+    },
+    {
+      "attempt_id": "d1dbeb2eb5164541a3af3d7b96d4802d",
+      "source_body_sha256": "3b3de06d20dc9560095af52ad0ff037921c1fc3d7bb28bd5ed76d9e2fd3265fa",
+      "restored_client_text_sha256": "02b1fe11056ed728567c2062f79fcf29cc5d8c8fd822653196776157418798bd",
+      "alternate_whole_page_sha256": "98a9e3b916b097b0ef0032e8bf3e22c35d1966ed0906ac5e20030a5c5d4a2a8e",
+      "alternate_artifact": "d1dbeb2eb5164541a3af3d7b96d4802d-whole-page.private.txt"
+    },
+    {
+      "attempt_id": "b660e7e276714c82a3023f3a619b8def",
+      "source_body_sha256": "b00af17b9f5b669ac02914840e1d947ece8f6f4c8d04af7c31436942db35245a",
+      "restored_client_text_sha256": "0095b9e30633f560556a06a805036d54aa220f65e035404a6907c761c68d995f",
+      "alternate_whole_page_sha256": "edb059ec46ec484629f64efa926ec20df49ca0a0a7c0830b354a414d9a11e710",
+      "alternate_artifact": "b660e7e276714c82a3023f3a619b8def-whole-page.private.txt"
+    },
+    {
+      "attempt_id": "996c382efb3f40f7afec38871b50d78b",
+      "source_body_sha256": "fd8a67e55737e77fb8ba9e4f6847078b7c733e2ed503f5bcda4a74304c72989b",
+      "restored_client_text_sha256": "10b3159916c20218266ead4f072bad4760be2f22ac53e6c851d3c6291372a736",
+      "alternate_whole_page_sha256": "a22a15666cde2d31c4fe05cab075814749bee8a2eab37b09bb27ea910790598b",
+      "alternate_artifact": "996c382efb3f40f7afec38871b50d78b-whole-page.private.txt"
+    },
+    {
+      "attempt_id": "f23d3d0dec6444468d99e20d78455d23",
+      "source_body_sha256": "20bbc95e1f745b01554527b35470122d3e51f2004aab9f895c5bbc36cf9a1bbf",
+      "restored_client_text_sha256": "fa8367efdf09acaeead4c668de7703f84606da305d967ccaf76e6c9adf6cb80c",
+      "alternate_whole_page_sha256": "e7d4934473e238db04c63ba3d8f418ad9a12f944e5dd4eb5f0a15648c4a73556",
+      "alternate_artifact": "f23d3d0dec6444468d99e20d78455d23-whole-page.private.txt"
+    },
+    {
+      "attempt_id": "30c2920dcf7345dbba85723744aeb720",
+      "source_body_sha256": "a29501aa36a03ff733b197fe2155d04b3466ac5f2feac46ec2ff38f9eaea737c",
+      "restored_client_text_sha256": "51f601cb211ea2ce42c9db3eaebdad730fb8c265f33db2e160fc6b39102f01d1",
+      "alternate_whole_page_sha256": "f24b78de22bd1aa1e65fbab3eb783718b6085703935effe5239cc8449d86c861",
+      "alternate_artifact": "30c2920dcf7345dbba85723744aeb720-whole-page.private.txt"
+    }
+  ]
+}

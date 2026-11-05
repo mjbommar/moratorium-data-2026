@@ -18,13 +18,15 @@ Humboldt County's certified October 6 adoption replaces its pending account. Mor
 
 New Haven's official ordinance history corrects approval to September 22 and identifies OR-2026-0035. Conflicting effective-date provisions leave publication/filing and expiry unresolved; the unsupported September 8, 2027 endpoint is removed. New Haven and historical Groton now use calendar terms without guessed day counts. Validation explicitly flags in-force calendar terms whose exact endpoint remains unknown.
 
+Washington County, Colorado's signed Resolution 16-2026 ended its BESS moratorium on April 14, correcting an active classification. Logan County's duration summary now distinguishes the February 17 termination of data-center, BESS and solar components from the April 7 termination of the wind component. These historical corrections do not verify the present regulatory text.
+
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1292** |
-| In force (active or extended) | **1067** |
+| In force (active or extended) | **1066** |
 | Proposed, not yet voted on | **74** |
-| Ended (replaced, expired, or rescinded) | **151** |
-| Rows we still want to confirm (`[VERIFY]`) | **309** |
+| Ended (replaced, expired, or rescinded) | **152** |
+| Rows we still want to confirm (`[VERIFY]`) | **308** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

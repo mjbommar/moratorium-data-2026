@@ -1,0 +1,100 @@
+{
+  "state_abbrev": "CO",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra return",
+  "decisions": [
+    {
+      "moratorium_id": "co-washington-county-2023",
+      "outcome": "status_changed",
+      "new_enacted_status": "replaced",
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "replaced",
+          "reason": "Resolution 16-2026 expressly ends BESS moratorium and adopts regulations."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-04-14",
+          "reason": "Resolution effective on April 14 approval."
+        },
+        "current_status": {
+          "from": "Status as of 2026-09-23 uncertain. The county has repeatedly extended a moratorium on accepting/processing/approving BESS applications since 2023 (Resolution 88-2023); the last confirmed extension resolution (adopted 2025-11-25) ran the moratorium to 2026-06-30. Whether the county extended it again after that date was not confirmed within the research budget. [VERIFY details not confirmed at confidence 0.55 in the 2026-09 refresh]",
+          "to": "Replaced. Resolution 16-2026, approved April 14, 2026, adopted BESS zoning regulations and expressly ended the BESS moratorium under Resolution 59-2025.",
+          "reason": "County resolution is decisive."
+        },
+        "legal_basis": {
+          "from": "Resolution 88-2023 and subsequent extension resolutions; last confirmed extension adopted 2025-11-25",
+          "to": "Resolution 88-2023 and subsequent extensions, including Resolution 59-2025; superseded by Resolution 16-2026, approved April 14, 2026.",
+          "reason": "Signed Resolution 16-2026 section 3 and approval page."
+        },
+        "outcome": {
+          "from": "County developing BESS regulations",
+          "to": "Resolution 16-2026 adopted BESS zoning regulations and expressly ended the moratorium under Resolution 59-2025 on passage and approval.",
+          "reason": "Signed Resolution 16-2026 section 3 and approval page."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://washingtoncounty.colorado.gov/sites/g/files/lrnvjt1191/files/16-Approval-for-BESS-Regulations.pdf",
+          "source_type": "resolution",
+          "supports": "Resolution 16-2026 ends BESS moratorium on approval; OCR pages 1-3.",
+          "quote": "approval ending the moratorium for Battery Energy Storage Systems, Resolution 59-\n2025.",
+          "document_date": "2026-04-14"
+        },
+        {
+          "url": "https://washingtoncounty.colorado.gov/sites/g/files/lrnvjt1191/files/16-Approval-for-BESS-Regulations.pdf",
+          "source_type": "resolution",
+          "document_date": "2026-04-14",
+          "quote": "APPROVED this 14'day of April, 2026.",
+          "supports": "OCR approval date, independently checked against rendered signed page 2."
+        }
+      ],
+      "confidence": 0.95,
+      "notes": "Historical termination, not current regulations review. Resolution section 3 and signed approval page visually checked. Exhibit cover says regulations approved March 31; resolution approval is April 14 and section 3 controls the recorded termination date."
+    },
+    {
+      "moratorium_id": "co-logan-county-2025",
+      "outcome": "corrected",
+      "changes": {
+        "duration": {
+          "from": "180 days as adopted; replaced by Resolution 2026-5 (effective 2026-02-17) before the full term elapsed",
+          "to": "180 days as adopted; the data center, battery and solar components were rescinded effective February 17, 2026, and the wind component was rescinded effective April 7, 2026.",
+          "reason": "Four subsequent resolutions rescind their respective components."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://logancountyco.gov/DocumentCenter/View/1044",
+          "source_type": "resolution",
+          "supports": "Data center component rescinded in Resolution 2026-5; OCR pages 1-3.",
+          "quote": "permits related to the operation of Data Center facilities is hereby rescinded.",
+          "document_date": "2026-02-17"
+        },
+        {
+          "url": "https://logancountyco.gov/DocumentCenter/View/1043",
+          "source_type": "resolution",
+          "supports": "BESS component rescinded in Resolution 2026-4; OCR pages 1-3.",
+          "quote": "permits related to the operation of Battery Energy Storage System facilities is hereby\nrescinded.",
+          "document_date": "2026-02-17"
+        },
+        {
+          "url": "https://logancountyco.gov/DocumentCenter/View/1045",
+          "source_type": "resolution",
+          "supports": "Solar component rescinded in Resolution 2026-6; OCR pages 1-3.",
+          "quote": "permits related to the operation of Solar Energy (Community Solar Garden) facilities\nis hereby rescinded.",
+          "document_date": "2026-02-17"
+        },
+        {
+          "url": "https://logancountyco.gov/DocumentCenter/View/1083",
+          "source_type": "resolution",
+          "supports": "Wind component rescinded by Resolution 2026-11; OCR pages 1-3.",
+          "quote": "pennits related to the operation of Wind Energy Facilities is hereby rescinded.",
+          "document_date": "2026-04-07"
+        }
+      ],
+      "confidence": 0.95,
+      "notes": "Rescission clauses checked in first three OCR pages of each resolution. Other project details were not independently verified."
+    }
+  ]
+}

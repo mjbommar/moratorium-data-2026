@@ -3,7 +3,7 @@
 
 Every local infrastructure moratorium in the inventory for Colorado, current through **November 5, 2026**.
 
-**30 instruments** — 25 in force, 2 pending, 3 past.
+**30 instruments** — 24 in force, 2 pending, 4 past.
 
 State policy is tracked separately: **4 actions** (4 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -37,7 +37,7 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 | Phillips County | County | 2026-02-27 | data center | 🟢 Extended |
 | Saguache County | County | 2026-05-05 | data center | 🟢 Active |
 | South Fork | Town | 2026-06-18 | data center | 🟢 Active |
-| Washington County | County | 2023 | battery storage | 🟢 Active |
+| Washington County | County | 2023 | battery storage | ⚪ Replaced |
 | Woodland Park | City | 2026-07-16 | data center | 🟢 Active |
 
 ## Detailed entries
@@ -336,7 +336,7 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 - **Status:** ⚪ Replaced
 - **Date enacted:** 2025-10-21
 - **Normalized date:** `2025-10-21` (exact)
-- **Duration:** 180 days as adopted; replaced by Resolution 2026-5 (effective 2026-02-17) before the full term elapsed
+- **Duration:** 180 days as adopted; the data center, battery and solar components were rescinded effective February 17, 2026, and the wind component was rescinded effective April 7, 2026.
 - **Current end date:** `—`
 - **Sectors:** data center, battery storage, solar, wind
 - **Moratorium ID:** `co-logan-county-2025`
@@ -493,18 +493,18 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 ### Washington County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Status:** ⚪ Replaced
 - **Date enacted:** 2023 (original Resolution 88-2023; repeatedly extended)
 - **Normalized date:** `2023` (year_only)
 - **Duration:** Repeatedly extended in 7-month increments
-- **Current end date:** `—`
+- **Current end date:** `2026-04-14`
 - **Sectors:** battery storage
 - **Moratorium ID:** `co-washington-county-2023`
-- **Legal basis:** Resolution 88-2023 and subsequent extension resolutions; last confirmed extension adopted 2025-11-25
+- **Legal basis:** Resolution 88-2023 and subsequent extensions, including Resolution 59-2025; superseded by Resolution 16-2026, approved April 14, 2026.
 - **What prompted it:** County developing battery energy storage system regulations
 - **Affected projects:** None identified
-- **Detailed status:** Status as of 2026-09-23 uncertain. The county has repeatedly extended a moratorium on accepting/processing/approving BESS applications since 2023 (Resolution 88-2023); the last confirmed extension resolution (adopted 2025-11-25) ran the moratorium to 2026-06-30. Whether the county extended it again after that date was not confirmed within the research budget. [VERIFY details not confirmed at confidence 0.55 in the 2026-09 refresh]
-- **Outcome:** County developing BESS regulations
+- **Detailed status:** Replaced. Resolution 16-2026, approved April 14, 2026, adopted BESS zoning regulations and expressly ended the BESS moratorium under Resolution 59-2025.
+- **Outcome:** Resolution 16-2026 adopted BESS zoning regulations and expressly ended the moratorium under Resolution 59-2025 on passage and approval.
 
 ### Woodland Park
 

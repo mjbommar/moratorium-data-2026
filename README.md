@@ -9,7 +9,7 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 > **As of November 5, 2026, 1292 local moratorium instruments are tracked across 47 states.**
 > Working snapshot: the full November refresh is in progress. Status dates vary by record; these are recorded classifications, not a claim that every instrument was freshly verified.
 >
-> 🟢 **1067 currently in force** (active or extended) · 🟡 **74 pending or proposed** (not yet adopted) · ⚪ **151 expired, replaced, or rescinded** (no longer in force)
+> 🟢 **1066 currently in force** (active or extended) · 🟡 **74 pending or proposed** (not yet adopted) · ⚪ **152 expired, replaced, or rescinded** (no longer in force)
 >
 > Top states by total instruments: Ohio (160), New York (150), Michigan (145), Georgia (70), North Carolina (69), Iowa (57), Tennessee (45), Washington (42), Wisconsin (40), Florida (35).
 >
@@ -64,9 +64,9 @@ For more, see the [FAQ](docs/FAQ.md).
 Working snapshot during the **November 5, 2026** refresh (record-level source dates vary):
 
 - **1292 moratorium instruments** tracked in our cleaned inventory
-  - **1067 currently in force** (893 active + 174 extended)
+  - **1066 currently in force** (892 active + 174 extended)
   - **74 pending or proposed** (public hearings scheduled, awaiting adoption)
-  - **93 replaced** by permanent regulations
+  - **94 replaced** by permanent regulations
   - **50 expired** without a documented replacement
   - **8 rescinded** before their original expiration
 - **47 states** have at least one moratorium. We searched the other **3 states** (Hawaii, West Virginia, and Wyoming) and found none. Alaska, Arizona, Delaware, Rhode Island, and Vermont joined the list in the September 2026 update
