@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Five New York corrections identify Newfield Local Law 2 of 2026, North Hempstead’s conditional November 18 code lapse and Oyster Bay’s compound adoption/filing anchor. North Tonawanda and Oswego inferred endpoints are cleared: posted proposal wording and renewal authority do not establish adopted extensions or their effective dates. Legacy classifications remain provisional pending complete later-action review.
+
 New York review corrects Hempstead’s lapse to February 25, 2027 with document-stated September 18 effectiveness, Islip’s explicit February 28, 2028 endpoint and Manlius’s news-qualified July 8 vote date rather than July 9 publication. Publication conditions, intervening gaps and later legal force remain qualified.
 
 Four further New York corrections preserve Gardiner’s later-of filing/July 23 anchor, Glen Cove’s explicit April 28, 2027 outer endpoint, Greig’s twelve-month term with ambiguous effectiveness wording, and Halfmoon’s actual 180-day extension rather than a stale month-only tracker summary. Filing dates, later action and current legal force remain unresolved.
@@ -72,7 +74,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **490** |
+| Rows we still want to confirm (`[VERIFY]`) | **495** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
