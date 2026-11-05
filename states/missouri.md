@@ -63,8 +63,8 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Benton County Commission order enacting a six-month moratorium on data centers, adopted 2026-08-10; the county has no planning and zoning code, and the county attorney has argued a due-diligence/public-health rationale for the pause.
 - **What prompted it:** Commissioners responded to citizen concerns about a proposed data center after a developer (Trent Overhue / NSI6 LLC) began seeking to acquire land in the county specifically because it lacked planning and zoning restrictions.
 - **Affected projects:** A roughly 12-acre data center project (two ~20,000-sq-ft buildings) on Old Highway 65 pursued by developer Trent Overhue through NSI6 LLC.
-- **Detailed status:** Nominally active as of 2026-09-23 but under active legal challenge. Developer Trent Overhue/NSI6 LLC closed on a roughly 12-acre parcel Sept. 9, 2026 and began clearing land; a Sept. 8, 2026 temporary restraining order against county enforcement of the moratorium as to that project was extended by the court on Sept. 21, 2026 pending a ruling on a preliminary injunction. The county disputes that NSI6 LLC (which it says did not legally exist until Aug. 13, 2026, three days after the moratorium) is entitled to rely on the pre-moratorium status quo. No final ruling had been reported as of 2026-09-23.
-- **Outcome:** Benton County commissioners issued a six-month moratorium on data centers on 2026-08-10; the developer whose project the moratorium affects sued and obtained a temporary restraining order (granted 2026-09-08, extended 2026-09-21) while a preliminary-injunction ruling is pending.
+- **Detailed status:** October 8 reporting describes an October 6 preliminary injunction against enforcement in the NSI 6 lawsuit. The order, project-specific versus broader scope, and later docket were not obtained. This is not a finding that the moratorium is enforceable county-wide or finally invalidated. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]
+- **Outcome:** County commissioners adopted a moratorium August 10; October reporting describes a preliminary injunction in the NSI 6 lawsuit, with exact scope and later judicial disposition unresolved.
 
 ### Cedar County
 
@@ -104,15 +104,15 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-05-18 (Columbia City Council; Ordinance No. 026318 / Council Bill B121-26, second read and passed 2026-05-18; first read 2026-05-04).
 - **Normalized date:** `2026-05-18` (exact)
-- **Duration:** One year from enactment: 2026-05-18 to 2027-05-18, per the City of Columbia's Legistar record for Ordinance No. 026318; comobuz.com (Sept. 11, 2026) separately describes this as 'an administrative hold on data center conditional use permit applications through May 2027.'
-- **Current end date:** `2027-05-18`
+- **Duration:** From passage until April 1, 2027, under section 2 of Ordinance No. 026318, subject to the ordinance’s exceptions.
+- **Current end date:** `2027-04-01`
 - **Sectors:** data center
 - **Moratorium ID:** `mo-city-of-columbia-2026`
 - **Legal basis:** Columbia Ordinance No. 026318 (Council Bill B121-26), 'Establishing an administrative delay on the acceptance or processing of applications relating to the establishment or expansion of a data center facility; providing an exception for acceptance and processing of an application under certain circumstances,' passed 2026-05-18 (introduced/first read 2026-05-04). It followed the 2026-04-06 ordinance that created a zoning definition for 'data center' and classified the use as conditional in the General Industrial (IG) zoning district (Case #74-2026).
 - **What prompted it:** Regulatory gap: council defined data centers in zoning code in April 2026, then paused new data-center construction while the Planning & Zoning Commission drafts permanent regulations (commission meetings continuing through at least November 2026, with a council vote expected in 2027).
 - **Affected projects:** Not specified in sources reviewed.
-- **Detailed status:** Active as of 2026-09-23; the administrative delay (Ordinance No. 026318) runs through May 2027. Planning and Zoning Commission review of permanent data-center standards is ongoing and running behind its original schedule: as of a Sept. 11, 2026 work session on water-use standards, the next step (electric utility demand) is scheduled for October, with a P&Z work session on draft amendments expected no earlier than Nov. 5, 2026, a public hearing no earlier than Dec. 10, 2026, and City Council consideration as early as Jan. 19, 2027 -- all comfortably before the May 2027 expiration of the administrative delay.
-- **Outcome:** City Council placed a moratorium preventing new data centers from being built while permanent zoning regulations are drafted.
+- **Detailed status:** Section 2 of Ordinance 026318 states a delay from passage until April 1, 2027, subject to exceptions. This corrects the earlier one-year/May 18, 2027 description; later modification or termination remains unresolved. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]
+- **Outcome:** City Council adopted an administrative delay on acceptance or processing of specified data center applications until April 1, 2027, subject to exceptions.
 
 ### City of Independence
 
@@ -175,7 +175,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Council Bill 2026-147, enacted 2026-06-29 as Ordinance No. 28306 -- although, per a since-filed lawsuit, the ordinance was filed by the City Clerk using resolution-style 'be it resolved' language rather than 'be it ordained,' which the plaintiff argues is itself a charter defect. It imposes a 120-day administrative delay on data center applications/approvals set to expire 2026-11-17.
 - **What prompted it:** Pause on development, building, site-plan, variance, stormwater, conditional-use, occupancy, public-utility, and large-load electric applications for data centers while the City Manager studies recommendations
 - **Affected projects:** Exempts projects whose Southwest Power Pool study process had already begun with required fees submitted, and permits council-approved exceptions
-- **Detailed status:** Active as of 2026-09-23; set to expire 2026-11-17 absent extension. City Manager David Cameron has indicated city staff will seek a council vote to extend the moratorium. On 2026-09-17, NSI A.1 LLC (developer Trent Overhue, also a party to moratorium disputes in Benton County and involved in a Webster County data center) sued the City of Springfield in Greene County Circuit Court, arguing the moratorium (Ordinance 28306) was improperly enacted as an 'administrative delay'/interim zoning measure without the notice-and-hearing process Missouri law requires for zoning changes, and separately alleging a City Charter defect in how the measure was filed. NSI is asking the court to invalidate the moratorium, or at least lift it as applied to its pre-development application for a data-processing use at 2900 S. National Ave. No ruling had been reported as of 2026-09-23.
+- **Detailed status:** The October 23 city document schedules a November 16 vote on a proposed extension through February 24, 2027. No approved extension is established. Local reporting describes denial of the plaintiff’s temporary restraining order on October 23; denial is not a final judgment on validity or an exhaustive later-docket review. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]
 - **Outcome:** City Council approved Council Bill 2026-147, imposing a 120-day administrative delay on specified data center applications and approvals
 
 ### City of St. Charles
@@ -191,8 +191,8 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Resolution 25-014
 - **What prompted it:** Public opposition to a proposed data center, concern that data centers were treated as warehouse uses under Chapter 400, and concerns about water consumption, power consumption, noise, and other effects.
 - **Affected projects:** Project Cumulus, reported as a roughly $1 billion CRG/Clayco proposal near Highway 370; the developer withdrew the zoning application before any council vote (confirmed by St. Charles February 9, 2026 P&Z staff packet, which states "applications were received by the City of St. Charles proposing a new Data Center off Elm Point Road and Hwy 370 ... that project was withdrawn by the applicant and ultimately did not move forward").
-- **Detailed status:** Superseded: on 2026-05-20 the City Council voted 7-1 to make the data-center prohibition permanent, adopting text-amendment TA-2026-01 defining data centers, excluding them from the warehouse-use category, and barring them from permitting or conditional-use approval in any zoning district city-wide. The temporary Resolution 25-014 moratorium is therefore no longer the operative instrument as of the 2026-07-31 research date.
-- **Outcome:** TA-2026-01 was ultimately approved: the City Council passed the permanent data-center ban 7-1 on 2026-05-20 (two members absent), defining data centers, excluding them from the warehouse-use category, and prohibiting permitting/conditional-use approval for them in all zoning districts. The specific 2026-04-13 Planning and Zoning Commission vote tally that preceded Council action was not independently located -- no separate minutes document for that meeting has been posted, and no news account reporting that specific vote was found -- but the case clearly advanced favorably from P&Z to Council given the subsequent 2026-05-20 passage.
+- **Detailed status:** The permanent-ban ordinance certificate records City Council passage May 19 and mayoral approval May 20, 2026; its effectiveness clause refers to passage and approval. The planning commission recommendation was April 13. The exact termination/overlap relationship with temporary Resolution 25-014 remains unverified here; legacy replaced classification is not a new legal-link acceptance. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]
+- **Outcome:** City Council passed the permanent data-center prohibition May 19, 2026, followed by mayoral approval May 20. The ordinance recites the planning commission April 13 recommendation, 7-3. The permanent instrument and its exact legal relationship to Resolution 25-014 require separate treatment.
 
 ### City of St. Joseph
 
@@ -230,16 +230,16 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 
 - **Type:** County
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-06-22 (Jackson County Legislature final passage vote, 8 in favor and 1 excused). Per KCTV5, the measure then went to County Executive Phil LeVota, who had 10 days to sign or veto; no veto was reported in any subsequent coverage found in this pass, but independent confirmation of the Executive's signature was not obtained.
+- **Date enacted:** 2026-06-22 (legislative passage); signed by County Executive June 25, 2026, effective immediately on signature.
 - **Normalized date:** `2026-06-22` (exact)
-- **Duration:** 180 days, amended up from the original 120-day Ordinance 6074 proposal introduced 2026-04-06 by Legislator Sean E. Smith. The Legislature had also been considering a competing 365-day version (Ordinance 6087, sponsored by Legislative Chair Manny Abarca) before settling on the 180-day term that passed 8-1 on 2026-06-22.
+- **Duration:** 180 days under final Ordinance 6074, amended from the introduced 120-day proposal; effective-date clause anchors effectiveness to executive signature. Exact endpoint and later actions unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center, battery storage
 - **Moratorium ID:** `mo-jackson-county-2026`
-- **Legal basis:** Ordinance 6074, introduced 2026-04-06 by Legislator Sean E. Smith (120-day version); a competing 365-day version (Ordinance 6087, sponsored by Legislative Chair Manny Abarca) was also considered in committee as of 2026-06-01. The full County Legislature passed a 180-day moratorium on data-center and Battery Energy Storage System (BESS) land-use applications by an 8-1 vote (one member excused) on 2026-06-22. Per KCTV5, the ordinance then went to County Executive Phil LeVota, who had 10 days to sign or veto; no veto was reported in subsequent coverage found in this pass, but the Executive's signature was not independently confirmed, and the exact ordinance/file number of the version that received final passage (whether an amended Ordinance 6074 or a substitute) was not confirmed from a primary Legistar record, which returned an access error to automated fetch.
+- **Legal basis:** Jackson County Ordinance 6074, introduced April 6, 2026, amended to 180 days, passed June 22, 2026, and signed June 25, 2026.
 - **What prompted it:** Rapid emergence of data center and battery energy storage system applications; perceived gaps in the Jackson County Unified Development Code; infrastructure, environmental, public safety, and public notice concerns.
 - **Affected projects:** Would apply to Jackson County's acceptance, processing, and approval of rezoning applications, CUPs, SUPs, site plans, and building permits for data centers or BESS facilities, per Ordinance 6074 text. The ordinance contains no project-specific exemption language. The Nebius EastGate project sits in the City of Independence, which exercises municipal zoning authority over its incorporated territory; the county-level moratorium therefore does not reach city-issued Independence approvals (confirmed from Ordinance 6074 text downloaded from Jackson County Legistar 2026-04-29).
-- **Detailed status:** Adopted by the County Legislature (8 in favor, 1 excused) on 2026-06-22 as a 180-day moratorium on data-center and BESS land-use applications, for the purpose of developing long-term policy, County Code provisions, and enhanced public-notice requirements. Whether the measure was signed by County Executive Phil LeVota, became law without signature, or was vetoed was not independently confirmed in this pass; no veto was reported in any subsequent coverage found.
+- **Detailed status:** Ordinance 6074 passed June 22 with eight yeas, zero nays and one excused, as recorded in its certificate. The executive signature is dated June 25, and the text states immediate effectiveness upon that signature. Later legal changes and current force remain unresolved. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]
 - **Outcome:** If adopted, the county would use the pause to draft long-term code provisions and enhanced public notice requirements.
 
 ### Marion County
@@ -271,7 +271,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** County Commission order and ordinance dated 2026-07-21
 - **What prompted it:** Pause on data center construction, conversion, establishment, new operation, expansion, and related permits in unincorporated Nodaway County
 - **Affected projects:** Exempts existing operations and projects where physical on-site construction had already begun
-- **Detailed status:** Active per primary county order
+- **Detailed status:** The retained county order specifies six calendar months from adoption, with a conditional extension provision. Original term evidence does not establish later continuation. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]
 - **Outcome:** County Commission signed an order imposing a six-month moratorium in unincorporated Nodaway County on data center construction, conversion, establishment, new operation, expansion, and related permits
 
 ### Oak Grove
@@ -351,7 +351,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** County Bill 5505
 - **What prompted it:** Pause on approvals for larger data centers (exceeding 5 MW, 100,000 square feet, or multiple buildings on a campus) while county studies health, safety, infrastructure, and regulatory issues
 - **Affected projects:** County officials said no data center proposal was then pending
-- **Detailed status:** Active per county council approval
+- **Detailed status:** The county’s November 4 notice describes the moratorium as continuing to the end of January and says another six-month extension requires a council vote. The proposed further extension is not treated as approved. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]
 - **Outcome:** County Council approved Bill No. 5505, imposing a six-month moratorium on large-scale data centers countywide (incorporated and unincorporated areas)
 
 ### Stone County
@@ -383,7 +383,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Order 2026-03
 - **What prompted it:** County study of legal authority and potential impacts of data centers, solar, wind, and battery energy storage system facilities in unincorporated Webster County
 - **Affected projects:** Not intended to stop the existing data center under construction on Rifle Range Road
-- **Detailed status:** Active per primary county order
+- **Detailed status:** The county account describes adoption of a temporary six-month moratorium for certain developments in unincorporated areas. Exact operative interval, applicability and later legal changes remain unresolved. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]
 - **Outcome:** County Commission adopted Order 2026-03, a six-month moratorium on data centers, solar facilities, wind facilities, and battery energy storage systems in unincorporated Webster County
 
 ---

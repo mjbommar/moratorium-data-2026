@@ -1,0 +1,293 @@
+{
+  "state_abbrev": "MO",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "mo-benton-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.kmmo.com/2026/10/08/preliminary-injunction-granted-against-benton-countys-moratorium-on-data-centers/",
+          "source_type": "news",
+          "supports": "News reports a preliminary injunction, not repeal or final judgment.",
+          "quote": "issued the injunction Tuesday, Oct. 6",
+          "document_date": "2026-10-08"
+        }
+      ],
+      "notes": "Injunction scope and any later court proceedings require the actual order and docket; do not infer rescission.",
+      "changes": {
+        "current_status": {
+          "from": "Nominally active as of 2026-09-23 but under active legal challenge. Developer Trent Overhue/NSI6 LLC closed on a roughly 12-acre parcel Sept. 9, 2026 and began clearing land; a Sept. 8, 2026 temporary restraining order against county enforcement of the moratorium as to that project was extended by the court on Sept. 21, 2026 pending a ruling on a preliminary injunction. The county disputes that NSI6 LLC (which it says did not legally exist until Aug. 13, 2026, three days after the moratorium) is entitled to rely on the pre-moratorium status quo. No final ruling had been reported as of 2026-09-23.",
+          "to": "October 8 reporting describes an October 6 preliminary injunction against enforcement in the NSI 6 lawsuit. The order, project-specific versus broader scope, and later docket were not obtained. This is not a finding that the moratorium is enforceable county-wide or finally invalidated. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]",
+          "reason": "Keep bounded source-supported events separate from final enforceability/current-force acceptance."
+        },
+        "outcome": {
+          "from": "Benton County commissioners issued a six-month moratorium on data centers on 2026-08-10; the developer whose project the moratorium affects sued and obtained a temporary restraining order (granted 2026-09-08, extended 2026-09-21) while a preliminary-injunction ruling is pending.",
+          "to": "County commissioners adopted a moratorium August 10; October reporting describes a preliminary injunction in the NSI 6 lawsuit, with exact scope and later judicial disposition unresolved.",
+          "reason": "Do not equate a reported interim injunction with a final judgment or established county-wide enforcement status."
+        }
+      },
+      "confidence": 0.65
+    },
+    {
+      "moratorium_id": "mo-city-of-columbia-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://gocolumbiamo.legistar.com/View.ashx?M=F&ID=15490053&GUID=8C0F93B6-7EDB-40F3-AF70-687E49526892",
+          "source_type": "ordinance",
+          "supports": "Enacted ordinance states the actual endpoint.",
+          "quote": "accepted or processed by the City from the date of passage of this ordinance until\n\nApril 1, 2027.",
+          "document_date": "2026-05-18"
+        }
+      ],
+      "notes": "Ordinance specifies April 1, 2027 rather than the prior inferred one-year May endpoint. Later amendments, termination or extension were not established.",
+      "changes": {
+        "duration": {
+          "from": "One year from enactment: 2026-05-18 to 2027-05-18, per the City of Columbia's Legistar record for Ordinance No. 026318; comobuz.com (Sept. 11, 2026) separately describes this as 'an administrative hold on data center conditional use permit applications through May 2027.'",
+          "to": "From passage until April 1, 2027, under section 2 of Ordinance No. 026318, subject to the ordinance\u2019s exceptions.",
+          "reason": "The enacted text supersedes the earlier staff recommendation of one year."
+        },
+        "current_end_date_iso": {
+          "from": "2027-05-18",
+          "to": "2027-04-01",
+          "reason": "Section 2 explicitly states April 1, 2027; later action not verified."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; the administrative delay (Ordinance No. 026318) runs through May 2027. Planning and Zoning Commission review of permanent data-center standards is ongoing and running behind its original schedule: as of a Sept. 11, 2026 work session on water-use standards, the next step (electric utility demand) is scheduled for October, with a P&Z work session on draft amendments expected no earlier than Nov. 5, 2026, a public hearing no earlier than Dec. 10, 2026, and City Council consideration as early as Jan. 19, 2027 -- all comfortably before the May 2027 expiration of the administrative delay.",
+          "to": "Section 2 of Ordinance 026318 states a delay from passage until April 1, 2027, subject to exceptions. This corrects the earlier one-year/May 18, 2027 description; later modification or termination remains unresolved. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]",
+          "reason": "Keep bounded source-supported events separate from final enforceability/current-force acceptance."
+        },
+        "outcome": {
+          "from": "City Council placed a moratorium preventing new data centers from being built while permanent zoning regulations are drafted.",
+          "to": "City Council adopted an administrative delay on acceptance or processing of specified data center applications until April 1, 2027, subject to exceptions.",
+          "reason": "Reflects the enacted ordinance\u2019s scope and endpoint."
+        },
+        "duration_kind": {
+          "from": "until_date",
+          "to": "until_date",
+          "reason": "The operative section specifies a fixed April 1 endpoint, not one calendar year."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "",
+          "reason": "Do not retain an unsupported fixed-day interpretation of an explicit until-date term."
+        }
+      }
+    },
+    {
+      "moratorium_id": "mo-city-of-springfield-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.springfieldmo.gov/DocumentCenter/View/78519/Oct-23-2026",
+          "source_type": "staff_report",
+          "supports": "The extension was scheduled for a future vote as of this document.",
+          "quote": "City Council is scheduled to vote Nov. 16 on proposals",
+          "document_date": "2026-10-23"
+        },
+        {
+          "url": "https://sgfcitizen.org/government/crime/judge-denies-springfield-data-center-restraining-order/",
+          "source_type": "news",
+          "supports": "News reports denial of temporary relief, not a final ruling.",
+          "quote": "denied the plaintiff\u2019s motion for a temporary restraining order.",
+          "document_date": "2026-10-23"
+        }
+      ],
+      "notes": "The proposed extension is not an adopted extension. Court order and later docket were not retrieved.",
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-09-23; set to expire 2026-11-17 absent extension. City Manager David Cameron has indicated city staff will seek a council vote to extend the moratorium. On 2026-09-17, NSI A.1 LLC (developer Trent Overhue, also a party to moratorium disputes in Benton County and involved in a Webster County data center) sued the City of Springfield in Greene County Circuit Court, arguing the moratorium (Ordinance 28306) was improperly enacted as an 'administrative delay'/interim zoning measure without the notice-and-hearing process Missouri law requires for zoning changes, and separately alleging a City Charter defect in how the measure was filed. NSI is asking the court to invalidate the moratorium, or at least lift it as applied to its pre-development application for a data-processing use at 2900 S. National Ave. No ruling had been reported as of 2026-09-23.",
+          "to": "The October 23 city document schedules a November 16 vote on a proposed extension through February 24, 2027. No approved extension is established. Local reporting describes denial of the plaintiff\u2019s temporary restraining order on October 23; denial is not a final judgment on validity or an exhaustive later-docket review. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]",
+          "reason": "Keep bounded source-supported events separate from final enforceability/current-force acceptance."
+        }
+      }
+    },
+    {
+      "moratorium_id": "mo-jackson-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://jacksonco.legistar.com/LegislationDetail.aspx?GUID=8F716A18-B731-4CB4-9A9F-3AB14D43993B&ID=7968370&Options=&Search=",
+          "source_type": "legislature",
+          "quote": "6/22/2026 1 County Legislature adopt Pass",
+          "supports": "Ordinance 6074 legislative adoption",
+          "document_date": "2026-06-22",
+          "publisher": "Jackson County Legislature"
+        },
+        {
+          "url": "https://jacksonco.legistar.com/View.ashx?M=F&ID=15655813&GUID=0E7EB87A-562C-4F13-9059-44761E95DF12",
+          "source_type": "ordinance",
+          "quote": "This Ordinance shall be effective immediately upon its signature by the",
+          "supports": "Effective immediately upon executive signature; signed page visually dated June 25, 2026",
+          "document_date": "2026-06-25",
+          "publisher": "Jackson County Legislature"
+        }
+      ],
+      "notes": "Executive signature dated June 25 confirmed on page 3; no current force or subsequent action established.",
+      "changes": {
+        "date_enacted": {
+          "from": "2026-06-22 (Jackson County Legislature final passage vote, 8 in favor and 1 excused). Per KCTV5, the measure then went to County Executive Phil LeVota, who had 10 days to sign or veto; no veto was reported in any subsequent coverage found in this pass, but independent confirmation of the Executive's signature was not obtained.",
+          "to": "2026-06-22 (legislative passage); signed by County Executive June 25, 2026, effective immediately on signature.",
+          "reason": "Official signed Ordinance 6074, page 3; dates visually reviewed."
+        },
+        "legal_basis": {
+          "from": "Ordinance 6074, introduced 2026-04-06 by Legislator Sean E. Smith (120-day version); a competing 365-day version (Ordinance 6087, sponsored by Legislative Chair Manny Abarca) was also considered in committee as of 2026-06-01. The full County Legislature passed a 180-day moratorium on data-center and Battery Energy Storage System (BESS) land-use applications by an 8-1 vote (one member excused) on 2026-06-22. Per KCTV5, the ordinance then went to County Executive Phil LeVota, who had 10 days to sign or veto; no veto was reported in subsequent coverage found in this pass, but the Executive's signature was not independently confirmed, and the exact ordinance/file number of the version that received final passage (whether an amended Ordinance 6074 or a substitute) was not confirmed from a primary Legistar record, which returned an access error to automated fetch.",
+          "to": "Jackson County Ordinance 6074, introduced April 6, 2026, amended to 180 days, passed June 22, 2026, and signed June 25, 2026.",
+          "reason": "Official Legistar record and signed adopted ordinance resolve the instrument identity and executive action."
+        },
+        "current_status": {
+          "from": "Adopted by the County Legislature (8 in favor, 1 excused) on 2026-06-22 as a 180-day moratorium on data-center and BESS land-use applications, for the purpose of developing long-term policy, County Code provisions, and enhanced public-notice requirements. Whether the measure was signed by County Executive Phil LeVota, became law without signature, or was vetoed was not independently confirmed in this pass; no veto was reported in any subsequent coverage found.",
+          "to": "Ordinance 6074 passed June 22 with eight yeas, zero nays and one excused, as recorded in its certificate. The executive signature is dated June 25, and the text states immediate effectiveness upon that signature. Later legal changes and current force remain unresolved. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]",
+          "reason": "Keep bounded source-supported events separate from final enforceability/current-force acceptance."
+        },
+        "duration": {
+          "from": "180 days, amended up from the original 120-day Ordinance 6074 proposal introduced 2026-04-06 by Legislator Sean E. Smith. The Legislature had also been considering a competing 365-day version (Ordinance 6087, sponsored by Legislative Chair Manny Abarca) before settling on the 180-day term that passed 8-1 on 2026-06-22.",
+          "to": "180 days under final Ordinance 6074, amended from the introduced 120-day proposal; effective-date clause anchors effectiveness to executive signature. Exact endpoint and later actions unresolved.",
+          "reason": "Remove the old 8-1 description: the signed certificate says eight yeas, zero nays, one excused. Keep vote arithmetic separate from the moratorium term."
+        }
+      }
+    },
+    {
+      "moratorium_id": "mo-nodaway-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://npr.brightspotcdn.com/4d/cb/80416d864e0fb193d24fecf0cf1f/nodcomm072126moratorium.pdf",
+          "source_type": "ordinance",
+          "quote": "period of six (6) months from the date of adoption of this Order.",
+          "supports": "Original six-calendar-month term",
+          "document_date": "2026-07-21",
+          "publisher": "Nodaway County Commission"
+        }
+      ],
+      "notes": "Order is historical; later termination or extension not ruled out.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The signed order specifies six months, not 180 fixed days."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Six calendar months cannot be represented as 180 fixed days."
+        },
+        "current_status": {
+          "from": "Active per primary county order",
+          "to": "The retained county order specifies six calendar months from adoption, with a conditional extension provision. Original term evidence does not establish later continuation. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]",
+          "reason": "Keep bounded source-supported events separate from final enforceability/current-force acceptance."
+        }
+      }
+    },
+    {
+      "moratorium_id": "mo-st-charles-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "current_status": {
+          "from": "Active per county council approval",
+          "to": "The county\u2019s November 4 notice describes the moratorium as continuing to the end of January and says another six-month extension requires a council vote. The proposed further extension is not treated as approved. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]",
+          "reason": "Keep bounded source-supported events separate from final enforceability/current-force acceptance."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Six months is a calendar term."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Six months is not a fixed 180-day term."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.sccmo.org/m/newsflash/Home/Detail/2794",
+          "source_type": "other",
+          "document_date": "2026-11-04",
+          "supports": "County reports its pause continuing and a proposed extension; no extension vote established.",
+          "quote": "The moratorium expires at the end of January, so County Executive Steve Ehlmann is asking the council to extend it another six months, which takes another vote of the council."
+        },
+        {
+          "url": "https://www.stlpr.org/government-politics-issues/2026-07-14/st-charles-county-officials-approve-half-year-ban-on-data-center-projects-alter-senior-tax-freeze",
+          "source_type": "news",
+          "document_date": "2026-07-14",
+          "supports": "Reports adoption of six-month term.",
+          "quote": "the council approved a six-month ban on large-scale data center developments."
+        }
+      ],
+      "notes": "County notice does not state a precise January day or establish an adopted extension; original bill effective-date mechanics not resolved."
+    },
+    {
+      "moratorium_id": "mo-webster-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.86,
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Official statement describes a six-month term."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "A six-month term is not a fixed 180-day term."
+        },
+        "current_status": {
+          "from": "Active per primary county order",
+          "to": "The county account describes adoption of a temporary six-month moratorium for certain developments in unincorporated areas. Exact operative interval, applicability and later legal changes remain unresolved. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]",
+          "reason": "Keep bounded source-supported events separate from final enforceability/current-force acceptance."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://webstercountymo.gov/county-adopts-six-month-moratorium/",
+          "source_type": "other",
+          "document_date": "2026-06-16",
+          "supports": "Official historical adoption and calendar-month duration.",
+          "quote": "the Webster County Commission adopted a temporary six-month moratorium relating to certain developments in the unincorporated areas of Webster County"
+        }
+      ],
+      "notes": "The June order was retrieved as a scanned PDF with no extracted text; later modifications and November status remain unresolved. This correction is not a confirmation of present force."
+    },
+    {
+      "moratorium_id": "mo-st-charles-2025",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "changes": {
+        "outcome": {
+          "from": "TA-2026-01 was ultimately approved: the City Council passed the permanent data-center ban 7-1 on 2026-05-20 (two members absent), defining data centers, excluding them from the warehouse-use category, and prohibiting permitting/conditional-use approval for them in all zoning districts. The specific 2026-04-13 Planning and Zoning Commission vote tally that preceded Council action was not independently located -- no separate minutes document for that meeting has been posted, and no news account reporting that specific vote was found -- but the case clearly advanced favorably from P&Z to Council given the subsequent 2026-05-20 passage.",
+          "to": "City Council passed the permanent data-center prohibition May 19, 2026, followed by mayoral approval May 20. The ordinance recites the planning commission April 13 recommendation, 7-3. The permanent instrument and its exact legal relationship to Resolution 25-014 require separate treatment.",
+          "reason": "Separate legislative passage, mayoral approval, recommendation and the unverified prior-pause termination relationship."
+        },
+        "current_status": {
+          "from": "Superseded: on 2026-05-20 the City Council voted 7-1 to make the data-center prohibition permanent, adopting text-amendment TA-2026-01 defining data centers, excluding them from the warehouse-use category, and barring them from permitting or conditional-use approval in any zoning district city-wide. The temporary Resolution 25-014 moratorium is therefore no longer the operative instrument as of the 2026-07-31 research date.",
+          "to": "The permanent-ban ordinance certificate records City Council passage May 19 and mayoral approval May 20, 2026; its effectiveness clause refers to passage and approval. The planning commission recommendation was April 13. The exact termination/overlap relationship with temporary Resolution 25-014 remains unverified here; legacy replaced classification is not a new legal-link acceptance. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]",
+          "reason": "Keep bounded source-supported events separate from final enforceability/current-force acceptance."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://ecode360.com/ST3435/laws/LF2691431.pdf",
+          "source_type": "ordinance",
+          "document_date": "2026-05",
+          "supports": "Ordinance recites the April 13 planning commission recommendation, 7 in favor and 3 against.",
+          "quote": "13,\n\n2026, at which time the Commission voted in favor (7 in favor. 3 againsi) for\n\na\n\nrecommendation to forward the text amendment to the City Council submitted."
+        },
+        {
+          "url": "https://www.stlpr.org/2026-05-20/st-charles-passes-a-ban-on-data-centers",
+          "source_type": "news",
+          "document_date": "2026-05-20",
+          "supports": "A May 20 report dates the council vote to Tuesday May 19.",
+          "quote": "The city council voted Tuesday night to pass a measure effectively banning large-scale data center developments within city limits."
+        }
+      ],
+      "notes": "The temporary instrument and the subsequent permanent zoning restriction are distinct. This corrects historical facts, not confirmation of current legal status. The text-extracted ordinance approval date is visually degraded."
+    }
+  ],
+  "new_candidates": []
+}
