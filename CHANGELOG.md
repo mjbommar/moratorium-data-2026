@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Five New York corrections preserve Sherburne, Southeast, Thurston and Van Buren calendar terms, identify Thurston Local Law 5 of 2026 and clear Mayville’s unsupported June 30, 2027 endpoint. The tracker supplies only a month-level renewal claim; filing, operative intervals and later force remain unresolved.
+
 Marcellus’s tracker-based active classification is corrected to rescinded using the municipal code publisher’s adopted August 5 termination index and linked resolution; blank vote fields and exact effectiveness remain flagged. Oneonta’s indexed May 13 adoption and state-filing condition replace the May 15 operative-start claim and stale pending jurisdiction label. These corrections do not establish complete later legal-force histories.
 
 Four New York scope/term corrections preserve East Fishkill’s alternative ancillary-use/special-permit exceptions, Stockport’s conflicting term anchors, Southold’s news-qualified calendar term and Spafford’s secondary-reported term. Spafford’s BESS act is kept distinct from its data-center law; original text, filing and later force remain unresolved.
@@ -80,7 +82,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1068** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **154** |
-| Rows we still want to confirm (`[VERIFY]`) | **501** |
+| Rows we still want to confirm (`[VERIFY]`) | **506** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

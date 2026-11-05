@@ -2287,7 +2287,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Town Board resolution adopting a 6-month moratorium on the construction of battery storage facilities (Town of Sherburne, no zoning code; local law number not stated in the minutes)
 - **What prompted it:** NexAmp's proposed 40-megawatt, 13-pod lithium-ion battery energy storage facility on Knapp Road, opposed by over 700 petition signers and the volunteer fire department
 - **Affected projects:** NexAmp's proposed 40 MW battery energy storage facility on Knapp Road
-- **Detailed status:** A September 3, 2026 news account states the Town has now passed 'two moratoriums' and was preparing to adopt a permanent BESS siting law (banning lithium-ion batteries at such facilities, capping facility size at 1 MW, requiring 24-hour on-site staffing) at its September 9, 2026 board meeting -- indicating the original six-month moratorium (to 2026-07-14) was extended by a second moratorium before being superseded by permanent regulation.
+- **Detailed status:** January 14 minutes record an all-ayes motion approving a six-month pause on construction of battery storage facilities. The later report of two moratoria does not itself establish renewal or replacement. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Six-month moratorium, extended once, apparently followed by a permanent BESS siting law adopted around September 9, 2026
 
 ### Town of Southeast
@@ -2303,7 +2303,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Local Law No. 3 of 2026
 - **What prompted it:** Pause on acceptance or further review of building permit and site plan applications for electronic data storage facilities drawing significant electricity from public utilities
 - **Affected projects:** —
-- **Detailed status:** Active per primary local law text; can be ended early or extended by another local law
+- **Detailed status:** The retrieved code moratorium table lists Local Law 3-2026, May 21 adoption and six months for the described electric data-storage uses. The table does not establish later amendments, the full operative text or a verified effective-date anchor. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Town Board adopted Local Law No. 3 of 2026, a six-month moratorium
 
 ### Town of Thurston
@@ -2316,10 +2316,10 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `ny-town-of-thurston-2026`
-- **Legal basis:** Resolution 20 and Local Law No. 5 of 2026
+- **Legal basis:** Town of Thurston Local Law 5 of 2026, adopted unanimously May 20, establishing a two-year moratorium on cryptocurrency mining operations and data processing centers; filing/effectiveness unverified.
 - **What prompted it:** Moratorium on commercial cryptocurrency mining operations and data processing centers; stops acceptance of applications and issuance of permits during the pause
 - **Affected projects:** —
-- **Detailed status:** Active per primary local law and meeting minutes
+- **Detailed status:** May 20 minutes record unanimous adoption of Local Law 5 of 2026 for a two-year cryptocurrency-mining/data-processing-center moratorium. Filed wording, effective date and later acts were not independently established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Town Board adopted Resolution 20 and Local Law No. 5 of 2026 by a 5-0 roll-call vote, imposing a two-year moratorium
 
 ### Town of Tyre
@@ -2351,7 +2351,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Local Law 2-2026
 - **What prompted it:** Moratorium on the development or construction of commercial cryptocurrency mining operations, data mining, data processing centers, and data storage facilities, townwide
 - **Affected projects:** Previously approved facilities and town-owned property exempt; modification/alteration/enlargement of previously approved facilities prohibited during the moratorium
-- **Detailed status:** Active per primary board packet
+- **Detailed status:** June 3 minutes reproduce the adopted twelve-month data-storage moratorium measured from effectiveness, with renewal/earlier-ending provisions. Filing and later action were not independently established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Town Board unanimously enacted Local Law 2-2026, a 12-month moratorium, and formed a committee to work on battery-storage and data-center rules
 
 ### Town of Watson
@@ -2409,13 +2409,13 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Date enacted:** One-year moratorium passed at village board meeting reported June 2025; renewed for a further term reported by tracker as enacted May 2026
 - **Normalized date:** `2025-06` (month_only)
 - **Duration:** 12 months, since renewed
-- **Current end date:** `2027-06-30`
+- **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-village-of-mayville-2025`
 - **Legal basis:** Village of Mayville local law (BESS moratorium)
 - **What prompted it:** Comprehensive Plan update in progress jointly with Town of Chautauqua
 - **Affected projects:** —
-- **Detailed status:** Extended, active as of 2026-09-23. The original one-year BESS moratorium was passed by the Village Board and reported in local news in June 2025 ('Mayville leaders passed a one-year moratorium on new battery energy storage systems'), enacted while the village and the Town of Chautauqua jointly finished a Comprehensive Plan update. A tracker (Carina Energy), in its September 2026 monthly update, reports the moratorium was renewed in May 2026 and now runs through June 2027. No primary source (Village Board minutes or the local-law text itself) for the May 2026 renewal was located in this pass; the instrument number remains unconfirmed.
+- **Detailed status:** June 2025 reporting describes original approval of a one-year BESS pause. An industry tracker claims May 2026 enactment and June 2027 expiry, but does not identify an operative renewal or exact final day. The prior June 30, 2027 endpoint is cleared; renewal and actual interval remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** One-year moratorium on new BESS in the village while the joint Village/Town Comprehensive Plan is completed; renewed for a further term.
 
 ### Village of Wilson
