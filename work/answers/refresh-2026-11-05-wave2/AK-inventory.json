@@ -1,0 +1,96 @@
+{
+  "state_abbrev": "AK",
+  "researched_as_of": "2026-11-05",
+  "researcher": "gpt-6.1-terra",
+  "decisions": [
+    {
+      "moratorium_id": "ak-houston-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "date_enacted": {
+          "from": "",
+          "to": "2026-10-08",
+          "reason": "Signed ordinance records adoption October 8."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-10-08",
+          "reason": "The ordinance identifies the adoption date."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Adoption date is explicit, distinct from the undated mayoral signature."
+        },
+        "duration": {
+          "from": "Ordinance No. 26-20 proposes a temporary two-year moratorium; introduced on the consent agenda at the September 10, 2026 regular council meeting, which set a public hearing and action vote for October 8, 2026. No adoption vote had occurred as of 2026-09-23. A separate, differently-worded ordinance to block data center construction failed 4-2 at the August 13, 2026 council meeting; Ordinance 26-20 is a distinct, later measure.",
+          "to": "Two calendar years from the effective date, unless repealed earlier or extended by subsequent ordinance. Effective upon passage and mayoral signature; signature date is not specified in the signed document.",
+          "reason": "Section 6 defines the term and its anchor."
+        },
+        "duration_days": {
+          "from": "730",
+          "to": "",
+          "reason": "Two years is a calendar term, not a fixed 730-day term."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Calendar-year terms now have an explicit vocabulary value; no fixed730-day approximation."
+        },
+        "legal_basis": {
+          "from": "Ordinance No. 26-20, City of Houston, Alaska (introduced 2026-09-10; public hearing/vote scheduled 2026-10-08)",
+          "to": "City of Houston Ordinance No. 26-20, adopted 2026-10-08 and signed by the mayor (signature date not stated).",
+          "reason": "City-published executed ordinance."
+        },
+        "enacted_status": {
+          "from": "pending",
+          "to": "active",
+          "reason": "Adoption and signature establish commencement under section 6; no later action was identified in the limited review. Current force remains provisional."
+        },
+        "current_status": {
+          "from": "Pending as of 2026-09-23. Ordinance 26-20, establishing a temporary two-year moratorium on the acceptance, processing, approval, or issuance of permits as well as construction, establishment, and operation of data centers within Houston city limits, was introduced on the council's September 10, 2026 consent agenda; a public hearing and council action vote are scheduled for October 8, 2026. The introduction followed an August 13, 2026 meeting at which a differently drafted anti-data-center ordinance failed 4-2, and coincides with council opposition to a proposed ~20,000-acre state land transfer to AIDEA (Alaska Industrial Development and Export Authority) near Houston that could host data centers.",
+          "to": "Adopted unanimously on 2026-10-08 and signed by the mayor. Section 6 makes the ordinance effective upon passage and signature for two years from that effective date, subject to earlier repeal or extension. The signature is undated; exact effective and expiration dates and any subsequent action remain unverified. [VERIFY exact signature/effective date and later status; final-page footer reads25-20 while title/header reads26-20]",
+          "reason": "Executed ordinance establishes adoption and the effective-date rule; the review did not establish signature date or comprehensively check later actions."
+        },
+        "outcome": {
+          "from": "Two-year data center moratorium ordinance introduced 2026-09-10; hearing and vote scheduled 2026-10-08.",
+          "to": "Ordinance 26-20 adopted unanimously on 2026-10-08; the mayor signed the published ordinance. Exact signature and expiration dates are unverified.",
+          "reason": "Executed ordinance supersedes the earlier scheduled-hearing account."
+        }
+      },
+      "confidence": 0.86,
+      "evidence": [
+        {
+          "url": "https://houstonak.us/Ordinance%2026-20%20Data%20Center%20Moratorium%20.pdf?t=202610151816350",
+          "title": "Houston Ordinance 26-20",
+          "publisher": "City of Houston, Alaska",
+          "document_date": "2026-10-08",
+          "source_type": "ordinance",
+          "supports": "Adoption date and unanimous vote as printed on the executed ordinance.",
+          "quote": "Adoption: October 8, 2026\n\nVote: Passed Unanimously"
+        },
+        {
+          "url": "https://houstonak.us/Ordinance%2026-20%20Data%20Center%20Moratorium%20.pdf?t=202610151816350",
+          "title": "Houston Ordinance 26-20, section 6",
+          "publisher": "City of Houston, Alaska",
+          "document_date": "2026-10-08",
+          "source_type": "ordinance",
+          "supports": "Effectiveness requires both passage and mayoral signature.",
+          "quote": "This ordinance shall take effect immediately upon being passed and signed by the Mayor."
+        },
+        {
+          "url": "https://houstonak.us/Ordinance%2026-20%20Data%20Center%20Moratorium%20.pdf?t=202610151816350",
+          "title": "Houston Ordinance 26-20, section 6",
+          "publisher": "City of Houston, Alaska",
+          "document_date": "2026-10-08",
+          "source_type": "ordinance",
+          "supports": "Two-year term runs from effective date, subject to repeal or extension.",
+          "quote": "temporary moratorium established by this ordinance shall remain in effect for two (2) years from\n181 its effective date"
+        }
+      ],
+      "notes": "The mayoral signature is visible but undated; do not calculate a precise effective date or expiry. Active is a provisional legacy classification based on the signed adopted ordinance, not proof that no subsequent repeal or amendment exists. Search coverage was limited; the Google query used the wrong city domain. See report. Coordinator visually checked PDF pages1 and5. The document header is26-20, but the last-page footer reads25-20; retain that identity caveat. No precise expiry calculated."
+    }
+  ],
+  "new_candidates": []
+}

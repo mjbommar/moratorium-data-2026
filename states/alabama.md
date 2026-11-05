@@ -357,13 +357,13 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-08-18 (Tuesday), Westover City Council unanimous vote on the moratorium ordinance (tabled at the previous meeting)
+- **Date enacted:** 2026-08-18 (Tuesday), Westover City Council unanimous vote on Resolution #2026-08-18-2125 (previously tabled)
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** Six months
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `al-westover-2026`
-- **Legal basis:** Westover City Council ordinance imposing a six-month moratorium on data centers (ordinance number not located)
+- **Legal basis:** Westover City Council Resolution #2026-08-18-2125 declaring a six-month moratorium on data centers
 - **What prompted it:** Resident opposition to a proposed data center on roughly 450 acres along U.S. Highway 280 and Cheshire Drive after the city's MOU with the developer fell through; time to study zoning and impacts.
 - **Affected projects:** Proposed ~450-acre data center site along Highway 280 / Cheshire Drive (effect of the moratorium on it not stated).
 - **Detailed status:** Active as of 2026-09-23 per local reporting; six-month moratorium approved unanimously 2026-08-18. The Planning Commission is researching zoning changes.

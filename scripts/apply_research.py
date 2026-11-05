@@ -201,6 +201,11 @@ def enforce_duration_invariant(row: dict) -> str | None:
     """
     kind = row["duration_kind"]
     days = row["duration_days"].strip()
+    if kind == "calendar_term":
+        if days:
+            row["duration_days"] = ""
+            return "duration_days cleared: calendar term is not a fixed-day count"
+        return None
     if kind == "fixed_days" and not days:
         return None  # reconcile_durations derives the value from the text
     if kind != "fixed_days" and days:
@@ -439,7 +444,7 @@ def main() -> int:
                 # sets it again, rewriting the CSV on every otherwise-no-op pass.
                 if column == "duration_days" and change["to"].strip():
                     kind = (dec.get("changes") or {}).get("duration_kind", {}).get("to") or row["duration_kind"]
-                    if kind != "fixed_days" and not FIXED_TERM_HINT.search(row["duration"] or ""):
+                    if kind == "calendar_term" or (kind != "fixed_days" and not FIXED_TERM_HINT.search(row["duration"] or "")):
                         stats["skipped_duration_invariant"] += 1
                         continue
                 if canon(current) != canon(change["from"]) and not args.allow_drift:

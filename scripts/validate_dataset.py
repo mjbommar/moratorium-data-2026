@@ -48,7 +48,7 @@ JURISDICTION_TYPES = {
 ACTIVITY_LEVELS = {"None", "Low", "Medium", "High"}
 ENACTED_STATUSES = {"active", "extended", "replaced", "expired", "rescinded", "pending"}
 DATE_UNCERTAINTY = {"exact", "month_only", "year_only", "range", "unverified"}
-DURATION_KINDS = {"fixed_days", "until_date", "until_event", "indefinite", "unknown"}
+DURATION_KINDS = {"fixed_days", "calendar_term", "until_date", "until_event", "indefinite", "unknown"}
 SECTORS = {"data_center", "battery_storage", "solar", "wind", "cryptocurrency_mining", "general"}
 TRIGGER_CATEGORIES = {
     "specific_project", "regulatory_gap", "infrastructure_capacity", "environmental",

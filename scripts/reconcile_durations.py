@@ -125,7 +125,7 @@ def main() -> int:
                 changes.append(f"  {label}: fixed_days but no parseable term -> duration_kind=unknown")
 
         elif kind != "fixed_days" and days:
-            if UNTIL_DATE_HINT.search(text) or kind in {"until_date", "indefinite"}:
+            if UNTIL_DATE_HINT.search(text) or kind in {"calendar_term", "until_date", "indefinite"}:
                 # An end date is not a term length; the codebook says drop it.
                 row["duration_days"] = ""
                 changes.append(f"  {label}: {kind} carried duration_days={days} -> cleared (ends on a date)")

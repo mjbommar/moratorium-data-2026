@@ -310,12 +310,12 @@
 </tr>
 <tr>
 <td><code>duration_days</code></td>
-<td>LLM-extracted numeric duration of the original moratorium in days (NOT including extensions). <code>30 days</code> → <code>30</code>. <code>6 months</code> → <code>180</code>. <code>1 year</code> / <code>12 months</code> → <code>365</code>. Empty when the moratorium runs <code>until permanent regulations adopted</code>, <code>indefinite</code>, or otherwise not a fixed time period — see <code>duration_kind</code>.</td>
+<td>Numeric duration of the original moratorium when the source specifies a day count (NOT including extensions): <code>30 days</code> → <code>30</code>. Calendar months and years use <code>calendar_term</code> with this field empty; do not convert them to guessed day counts or expiry dates. Legacy rows may retain approximations such as six months → 180 or one year → 365 pending individual review. Empty for event-based, indefinite, or unknown terms — see <code>duration_kind</code>.</td>
 <td><code>365</code></td>
 </tr>
 <tr>
 <td><code>duration_kind</code></td>
-<td>Closed-vocab categorical: <code>fixed_days</code> (a fixed time period), <code>until_date</code> (ends on a specific calendar date with no fixed length), <code>until_event</code> (ends when permanent regulations are adopted or some other event occurs), <code>indefinite</code> (no scheduled end), <code>unknown</code>.</td>
+<td>Closed-vocab categorical: <code>fixed_days</code> (a fixed day count), <code>calendar_term</code> (calendar months or years, preserving the original term and anchor in <code>duration</code>), <code>until_date</code> (ends on a specific calendar date with no fixed length), <code>until_event</code> (ends when permanent regulations are adopted or some other event occurs), <code>indefinite</code> (no scheduled end), <code>unknown</code>. <code>calendar_term</code> requires empty <code>duration_days</code>; a supported exact endpoint goes in <code>current_end_date_iso</code>. Older <code>fixed_days</code> rows can still contain legacy month/year approximations pending individual review; do not use those as precise legal expiry calculations.</td>
 <td><code>fixed_days</code></td>
 </tr>
 <tr>

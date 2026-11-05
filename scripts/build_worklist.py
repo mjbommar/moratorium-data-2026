@@ -87,6 +87,8 @@ def computed_expiry(row: dict) -> dt.date | None:
             return dt.date.fromisoformat(explicit)
         except ValueError:
             return None
+    if row.get("duration_kind") == "calendar_term":
+        return None  # Calendar anchor/arithmetic require supported evidence.
     start = parse_iso(row["date_enacted_iso"])
     raw = row["duration_days"].strip()
     if start is None or not raw:
@@ -120,6 +122,8 @@ def classify(row: dict, today: dt.date, pending_age: int) -> list[str]:
         expiry = computed_expiry(row)
         if not (status == "extended" and not explicit_end) and expiry is not None and expiry < today:
             buckets.append("expired_in_force")
+        elif kind == "calendar_term" and not explicit_end:
+            buckets.append("calendar_end_unverified")
         elif kind == "until_date":
             buckets.append("until_date_stale")
         elif kind in {"until_event", "indefinite", "unknown"}:

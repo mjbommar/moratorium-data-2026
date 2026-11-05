@@ -48,7 +48,7 @@ check: validate
 worklist:
 	$(PYTHON) scripts/build_worklist.py --today $(TODAY) --pretty
 	$(PYTHON) scripts/make_packets.py --worklist work/worklist-$(TODAY).json \
-		--buckets expired_in_force,until_date_stale,stale_pending --tag status
+		--buckets expired_in_force,until_date_stale,calendar_end_unverified,stale_pending --tag status
 	$(PYTHON) scripts/make_packets.py --worklist work/worklist-$(TODAY).json \
 		--buckets verify_backlog,unverified_date --tag verify \
 		--exclude-dir work/packets/status --max-items 12

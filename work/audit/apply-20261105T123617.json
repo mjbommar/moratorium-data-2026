@@ -1,0 +1,36 @@
+{
+  "applied_at": "20261105T123617",
+  "answer_files": [
+    "work/answers/refresh-2026-11-05-wave2/AL-inventory.json"
+  ],
+  "stats": {
+    "outcome:unresolvable": 4,
+    "outcome:corrected": 1,
+    "fields_changed": 2
+  },
+  "conflicts": [],
+  "skipped": [
+    "AL-inventory.json: al-somerville-2026 unresolvable",
+    "AL-inventory.json: al-springville-2026 unresolvable",
+    "AL-inventory.json: al-tarrant-2026 unresolvable",
+    "AL-inventory.json: al-birmingham-2026 unresolvable"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "al-westover-2026",
+      "column": "date_enacted",
+      "before": "2026-08-18 (Tuesday), Westover City Council unanimous vote on the moratorium ordinance (tabled at the previous meeting)",
+      "after": "2026-08-18 (Tuesday), Westover City Council unanimous vote on Resolution #2026-08-18-2125 (previously tabled)",
+      "reason": "Official minutes identify the action as a resolution.",
+      "source": "AL-inventory.json"
+    },
+    {
+      "moratorium_id": "al-westover-2026",
+      "column": "legal_basis",
+      "before": "Westover City Council ordinance imposing a six-month moratorium on data centers (ordinance number not located)",
+      "after": "Westover City Council Resolution #2026-08-18-2125 declaring a six-month moratorium on data centers",
+      "reason": "Official minutes identify the instrument and unanimous adoption.",
+      "source": "AL-inventory.json"
+    }
+  ]
+}
