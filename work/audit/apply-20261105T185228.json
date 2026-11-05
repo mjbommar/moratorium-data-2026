@@ -1,0 +1,98 @@
+{
+  "applied_at": "20261105T185228",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-ohio-r/answers.json"
+  ],
+  "stats": {
+    "outcome:status_changed": 1,
+    "status_changed": 1,
+    "fields_changed": 9,
+    "outcome:corrected": 1,
+    "verify_corrected": 1,
+    "verify_resolved_via_field_rewrite": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "oh-rittman-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "September 28 minutes record adoption of Ordinance 8544 extending by 180 days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-rittman-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; 180-day moratorium adopted 2026-04-13 runs to about 2026-10-10. Minutes say the matter would come back to council in October; no extension found yet.",
+      "after": "September 28 minutes in the October 12 packet record Ordinance 8544 granting an additional 180 days. A motion for 540 days failed, followed by all-yea adoption of the 180-day extension. Exact operative anchors, continuity, endpoint and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Distinguish passed and failed motions, original dates, operative anchors and later force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-rittman-2026",
+      "column": "outcome",
+      "before": "City to research and update its Planning and Zoning Code for data centers; matter to return in October 2026.",
+      "after": "The city extended the original 180-day moratorium by an additional 180 days on September 28, 2026; later zoning action is unverified.",
+      "reason": "Official minutes record the extension.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-rittman-2026",
+      "column": "duration",
+      "before": "180 days; council may rescind earlier",
+      "after": "Original 180-day pause; September 28 Ordinance 8544 grants an additional 180 days. Proposed 540 days failed. Operative endpoint and later action unresolved.",
+      "reason": "Preserve explicit extension unit without inferring its operative anchor.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-south-point-2026",
+      "column": "date_enacted",
+      "before": "2026-05-12 (Village Council regular May meeting, third reading, 4-2 vote; per Ironton Tribune report of Sunday 2026-05-17 saying 'passed on Tuesday')",
+      "after": "2026-05-05 (South Point Village Council adopted Resolution 26-04 after a third reading and a six-month amendment, 4-2; official minutes).",
+      "reason": "May 5 council minutes and April 7 identification of the resolution.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-south-point-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-05-12",
+      "after": "2026-05-05",
+      "reason": "Official minutes date adoption May 5.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-south-point-2026",
+      "column": "legal_basis",
+      "before": "Village of South Point ordinance (number not published), a six-month moratorium on AI data centers, passed on third reading",
+      "after": "Resolution 26-04 imposing a moratorium on AI data centers, adopted May 5, 2026 after amendment to six months; operative signed text and effective date not retrieved.",
+      "reason": "April 7 minutes identify the resolution and May 5 minutes record the amendment and adoption.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-south-point-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23 (presumed); six-month moratorium passed 2026-05-12. Because it passed on third reading without a reported emergency clause, it likely took effect about 30 days later and would run to roughly mid-November to mid-December 2026. No extension or repeal found. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.62 in the 2026-09 refresh]",
+      "after": "April 7 minutes identify Resolution 26-04 as the AI data-center measure. May 5 minutes record a unanimous amendment to six months followed by 4-2 adoption at third reading. The final executed text, effective anchor, exact operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Distinguish passed and failed motions, original dates, operative anchors and later force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-south-point-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The source expresses a calendar-month or year term, not a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-south-point-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "A calendar term cannot be represented as a fixed day count.",
+      "source": "answers.json"
+    }
+  ]
+}

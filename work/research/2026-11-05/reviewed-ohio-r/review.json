@@ -1,0 +1,152 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "oh-inventory-014": "ec9bd3354df4e47fe3ff819cb73bcace7b0a5363027eb0fa0a46689caada7dd5"
+  },
+  "reviewed_answers_sha256": "9b965f27f643fa7f8ee123bca759649291021067de1717acd659e88bf81a4809",
+  "scope": "Two deferred scanned Ohio records. Rittman extension is in packet page 3, not OCR-relative page 2; OCR covers only packet pages 2-6 of 55. Original Rittman April evidence omitted because not re-reviewed here. South Point April identity and May 5 six-month amendment/adoption visually compared. Complete later force, effective anchors and continuity remain unresolved. Native extractions preserved.",
+  "located_evidence": [
+    {
+      "moratorium_id": "oh-rittman-2026",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5250/Cor/872f163a-5c35-4f7f-ad39-5e76154f8512/2026-10-12-City-Council-Meeting-Agenda.pdf?disposition=inline",
+      "quote": "a. Ord. No. 8544 An Ordinance of the Council of the City of Rittman,\n\nWayne and Medina Counties and State of Ohio, Extending a Moratorium on the\nreceipt, processing, issuance and approval of any application for a zoning certificate\nfor NICS 518-Data processing, hosting and related services (Data Centers) under the\nCity\u2019s Planning and Zoning Code for an additional 180 days; and declaring an |\n| emergency. Three Readings. Ord. No. 8544 was read on first reading. Nelson moved to |\n\nsuspend the rules, all Yeas on roll call and motion carried. Huff moved to adopt. Council\n| discussed the additional review period, available land, possible future data-center\n\ndevelopment, limited employment, water and sewer capacity, and potential conditions or\n\nrevenue associated with a project. Huff moved to extend the moratorium to 540 days. Upon |\n| roll call Schumacher - No, Huff\u2014 Yes, Shows \u2014 No, Nelson \u2014 No, Sweigert \u2014 No, Hayward |\n\n| \u2014No and motion fails. Huff moved to adopt the 180-day extension, all Yeas on roll call and\n| motion carried.",
+      "located": [
+        {
+          "attempt_id": "b0182b9e1618438ebbd5bfdb5aeeea0e",
+          "body_sha256": "c4cb95382442a8288f4d29fa5c6fb4b274fac072b5be39f31596a0c8db0079b1",
+          "text_sha256": "925ee2bd4833b66b5344c6beae85c92e68abdc7bc5d948bdcab3ebcaedce5716",
+          "span": [
+            2253,
+            3294
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-south-point-2026",
+      "url": "https://villageofsouthpoint.com/wp-content/uploads/2026/06/April-7-Minutes.pdf",
+      "quote": "as follows Resolution 26-04 A Resolution imposing a moratorium upon AI Data Centers.",
+      "located": [
+        {
+          "attempt_id": "1165bc784fd94033af1b49f631cfbf35",
+          "body_sha256": "99f53deb2560e62108d2febbf2c366d7dcace9596126beb3d751d7de3a875acc",
+          "text_sha256": "51e65829d9d7b3df2166d0fd595cc87ef052db35f71940de545ee0eeea74f7fd",
+          "span": [
+            2682,
+            2766
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-south-point-2026",
+      "url": "https://villageofsouthpoint.com/wp-content/uploads/2026/06/May-5-Regular-Meeting-Minutes.pdf",
+      "quote": "A third reading was held for Resolution 26-04. Mrs. Chapman made a motion to amend\nResolution 26-04 changing Section | to a period of 6 months. Mrs. Daniel seconded the\nmotion, Roll Call, All yes, Motion carried 6-0.\n\nMrs. Chapman made a motion to adopt Resolution 26-04. Mrs. Daniel seconded the motion.\nRoll Call, Mrs. Daniel, yes; Mrs. Chapman, yes; Mr. Payne, no; Mr. Austin, no; Mr. McCoy,\nyes; Mr. Classing, yes. Motion carried 4-2.",
+      "located": [
+        {
+          "attempt_id": "60b7a30edcae410cbfa20d1f1f396335",
+          "body_sha256": "165a93cbda910ba852c936999383b5114e56290cf9f7a9fdb8c3f02ebbc899d0",
+          "text_sha256": "9f181c6b24b895256335939e526a08d8f0145a6bf30f6d4353686671cae81d65",
+          "span": [
+            993,
+            1431
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-south-point-2026",
+      "url": "https://villageofsouthpoint.com/wp-content/uploads/2026/06/May-5-Regular-Meeting-Minutes.pdf",
+      "quote": "Held: Tuesday, May 5, 2026",
+      "located": [
+        {
+          "attempt_id": "60b7a30edcae410cbfa20d1f1f396335",
+          "body_sha256": "165a93cbda910ba852c936999383b5114e56290cf9f7a9fdb8c3f02ebbc899d0",
+          "text_sha256": "9f181c6b24b895256335939e526a08d8f0145a6bf30f6d4353686671cae81d65",
+          "span": [
+            63,
+            89
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "b0182b9e1618438ebbd5bfdb5aeeea0e",
+      "page": 3,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "a80727a1927e9e9d9f7b2a05fba6171bc212cfdf318dceb956d6e52be5fa7f6b"
+    },
+    {
+      "attempt_id": "1165bc784fd94033af1b49f631cfbf35",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "cc579b0813f21aa0372a4d97dde34e8c2d3f3377850197d6913425cbe6aaa10d"
+    },
+    {
+      "attempt_id": "60b7a30edcae410cbfa20d1f1f396335",
+      "page": 1,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "578a1c2503c4a3a36713aef7e47e913aac576e3ec333dd3252ea74e8ee29d9a4"
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "b0182b9e1618438ebbd5bfdb5aeeea0e",
+      "source_body_sha256": "c4cb95382442a8288f4d29fa5c6fb4b274fac072b5be39f31596a0c8db0079b1",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-014/b0182b9e1618438ebbd5bfdb5aeeea0e.ocr.private.txt",
+      "derived_text_sha256": "925ee2bd4833b66b5344c6beae85c92e68abdc7bc5d948bdcab3ebcaedce5716",
+      "method": "pdftoppm 26.01.0 at 150 dpi; tesseract 5.5.0; coordinator visual comparison limited to listed receipt pages",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:52:17.449193+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    },
+    {
+      "attempt_id": "1165bc784fd94033af1b49f631cfbf35",
+      "source_body_sha256": "99f53deb2560e62108d2febbf2c366d7dcace9596126beb3d751d7de3a875acc",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-014/1165bc784fd94033af1b49f631cfbf35.ocr.private.txt",
+      "derived_text_sha256": "51e65829d9d7b3df2166d0fd595cc87ef052db35f71940de545ee0eeea74f7fd",
+      "method": "pdftoppm 26.01.0 at 150 dpi; tesseract 5.5.0; coordinator visual comparison limited to listed receipt pages",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:52:17.449946+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    },
+    {
+      "attempt_id": "60b7a30edcae410cbfa20d1f1f396335",
+      "source_body_sha256": "165a93cbda910ba852c936999383b5114e56290cf9f7a9fdb8c3f02ebbc899d0",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-014/60b7a30edcae410cbfa20d1f1f396335.ocr.private.txt",
+      "derived_text_sha256": "9f181c6b24b895256335939e526a08d8f0145a6bf30f6d4353686671cae81d65",
+      "method": "pdftoppm 26.01.0 at 150 dpi; tesseract 5.5.0; coordinator visual comparison limited to listed receipt pages",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:52:17.450845+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ]
+}

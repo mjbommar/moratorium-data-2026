@@ -123,12 +123,12 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Ravenna | City | 2026-04-20 | data center, cryptocurrency mining | 🟢 Active |
 | Richfield | Village | 2026-03-03 | data center | 🟢 Extended |
 | Richfield Township (Lucas County) | Township | 2026-02-17 | data center | 🟢 Active |
-| Rittman | City | 2026-04-13 | data center | 🟢 Active |
+| Rittman | City | 2026-04-13 | data center | 🟢 Extended |
 | Scioto Township (Pickaway County) | Township | 2026-03-05 | data center | 🟢 Active |
 | Shalersville Township | Township | 2025-11 | data center | 🟢 Extended |
 | Shawnee Township | Township | 2026-04-13 | data center, battery storage, solar | 🟢 Active |
 | South Bloomfield | Village | 2025-12-15 | data center | ⚪ Replaced |
-| South Point | Village | 2026-05-12 | data center | 🟢 Active |
+| South Point | Village | 2026-05-05 | data center | 🟢 Active |
 | Spencer Township (Lucas County) | Township | 2026-03-05 | data center | 🟢 Active |
 | Sprigg Township | Township | 2026-03-02 | data center | 🟢 Active |
 | Springfield | City | 2026-07-14 | data center | 🟢 Active |
@@ -1999,18 +1999,18 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 ### Rittman
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** 2026-04-13 (city council adopted Ordinance No. 8519 on third reading, all yeas; per approved minutes of the 2026-04-13 meeting)
 - **Normalized date:** `2026-04-13` (exact)
-- **Duration:** 180 days; council may rescind earlier
+- **Duration:** Original 180-day pause; September 28 Ordinance 8544 grants an additional 180 days. Proposed 540 days failed. Operative endpoint and later action unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-rittman-2026`
 - **Legal basis:** City of Rittman Ordinance No. 8519 (declared an emergency): 180-day moratorium on receipt, processing, issuance and approval of zoning certificates for NAICS 518 data processing, hosting and related services (data centers)
 - **What prompted it:** Planning and Zoning Code needs review and updating to ensure proper development and that the city has processes, resources and infrastructure for data center demand.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; 180-day moratorium adopted 2026-04-13 runs to about 2026-10-10. Minutes say the matter would come back to council in October; no extension found yet.
-- **Outcome:** City to research and update its Planning and Zoning Code for data centers; matter to return in October 2026.
+- **Detailed status:** September 28 minutes in the October 12 packet record Ordinance 8544 granting an additional 180 days. A motion for 540 days failed, followed by all-yea adoption of the 180-day extension. Exact operative anchors, continuity, endpoint and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** The city extended the original 180-day moratorium by an additional 180 days on September 28, 2026; later zoning action is unverified.
 
 ### Scioto Township (Pickaway County)
 
@@ -2080,16 +2080,16 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 
 - **Type:** Village
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-05-12 (Village Council regular May meeting, third reading, 4-2 vote; per Ironton Tribune report of Sunday 2026-05-17 saying 'passed on Tuesday')
-- **Normalized date:** `2026-05-12` (exact)
+- **Date enacted:** 2026-05-05 (South Point Village Council adopted Resolution 26-04 after a third reading and a six-month amendment, 4-2; official minutes).
+- **Normalized date:** `2026-05-05` (exact)
 - **Duration:** Six months
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-south-point-2026`
-- **Legal basis:** Village of South Point ordinance (number not published), a six-month moratorium on AI data centers, passed on third reading
+- **Legal basis:** Resolution 26-04 imposing a moratorium on AI data centers, adopted May 5, 2026 after amendment to six months; operative signed text and effective date not retrieved.
 - **What prompted it:** A presentation by a consultant for StrataX, a renewable-powered 'micro' data center developer interested in a site in the village industrial park (fly-ash field). Council wanted time to study legal, fiscal and health issues and revenue capture.
 - **Affected projects:** StrataX micro data center concept (solar plus battery storage) presented by Dean Green of Grain Consulting on 2026-04-07 for a site in South Point.
-- **Detailed status:** Active as of 2026-09-23 (presumed); six-month moratorium passed 2026-05-12. Because it passed on third reading without a reported emergency clause, it likely took effect about 30 days later and would run to roughly mid-November to mid-December 2026. No extension or repeal found. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.62 in the 2026-09 refresh]
+- **Detailed status:** April 7 minutes identify Resolution 26-04 as the AI data-center measure. May 5 minutes record a unanimous amendment to six months followed by 4-2 adoption at third reading. The final executed text, effective anchor, exact operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Study of legal options (zoning, reporting, siting conditions, revenue-sharing) for AI and micro data centers.
 
 ### Spencer Township (Lucas County)

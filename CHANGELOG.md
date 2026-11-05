@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Rittman’s September 28 minutes confirm Ordinance 8544 and an additional 180 days after a failed 540-day motion. South Point’s primary minutes correct adoption to May 5, identify Resolution 26-04 and distinguish the unanimous six-month amendment from 4-2 adoption. Both scans were visually reviewed; exact operative intervals and later force remain unresolved.
+
 Five Ohio corrections identify Ravenna Ordinance 2026-067 and preserve Richfield Township, Scioto and Shawnee calendar terms. Shalersville’s reported October 20 additional six-month extension supersedes its unsupported November 1 endpoint; no new endpoint is calculated. Source quality, operative intervals and later legal-force gaps remain explicit.
 
 Prairie Township’s unanimously adopted July 22 Amendment 1 extends its endpoint to April 15, 2027, replacing the stale October date; the interleaved extraction was checked visually against page 7. Plain City’s twelve-month term preserves its pre-existing-entitlements exception from the staff memorandum. Operative timing, endpoint inclusivity and later force remain unresolved.
@@ -124,7 +126,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1068** |
 | Pending or not yet effective | **70** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **571** |
+| Rows we still want to confirm (`[VERIFY]`) | **572** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
