@@ -1289,7 +1289,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Trustee action reported by The Press/Muck Rack excerpt [CITE primary text not captured]
 - **What prompted it:** Facebook post linking a Tracy Road/Latcha Road property listing as a potential data center site
 - **Affected projects:** Property at 0 Tracy Road (corner of Tracy and Latcha Roads, Walbridge-area mailing address) marketed via an 8-page listing PDF attributed to JLL (Jones Lang LaSalle) as a potential data-center site; the listing was shared in local Facebook groups. No formal zoning application or site plan had been filed with Lake Township as of the trustees' vote.
-- **Detailed status:** Reported active
+- **Detailed status:** March 9 reporting describes March 3 approval of a twelve-month data-center pause in the Lake Township containing the Tracy/Latcha Road site with a Walbridge mailing address, distinct from Stark County Lake Township. Final instrument, actual effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** No replacement zoning captured
 
 ### Lakeview
@@ -1305,7 +1305,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Village of Lakeview (Logan County) Resolution No. 2026-07, a resolution to enact a twelve-month moratorium on the receipt, processing, issuance or approval of data centers
 - **What prompted it:** Preemptive: regional data center activity in Logan County; zoning officer beginning LUC-recommended zoning updates.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-05-04 runs to about 2027-05-04.
+- **Detailed status:** The village ordinance/resolution index lists Resolution 2026-07 as a twelve-month data-center moratorium. The index is not the full enacted text or evidence of continued force; adoption record, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Pause while the village updates zoning ordinances.
 
 ### Liberty Township (Wood County)
@@ -1337,7 +1337,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Ordinance 198-26, 'An ordinance enacting an eighteen-month moratorium on the establishment, development, processing, review and approval of stand-alone data center development within the City of Lima and on new requests for City supplied water for data center developments outside the corporate limits'
 - **What prompted it:** Rapid growth of data center interest in Ohio. Lima's zoning code predates data centers, and demand for city water from outside developments (the city already supplies water to Google's American Township data center) prompted the pause.
 - **Affected projects:** Excludes the existing water agreement for the Google data center under construction in American Township. No project named inside the city.
-- **Detailed status:** Active as of 2026-09-23; 18-month moratorium adopted 2026-09-14 runs to about 2028-03-15 unless council adopts standards sooner.
+- **Detailed status:** The September 14 agenda identifies proposed Ordinance 198-26 as an eighteen-month data-center pause. September 15 reporting states passage with six votes and one abstention and describes possible earlier termination upon appropriate standards. Final executed text, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** City departments to study land use, setbacks, electric demand, water capacity, community benefits and infrastructure cost allocation, then recommend standards to council.
 
 ### Madison Township (Lake County)
@@ -1401,7 +1401,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Mayfield Village Ordinance No. 2026-12 (emergency), 12-month temporary moratorium on rezonings, variances, conditional use permits, zoning/building permits and certificates of occupancy for data centers
 - **What prompted it:** Growing national/local interest in data centers; village wants time to review pending studies and financial, safety, environmental and land-use impacts (noise, acreage, 'rapid deployment' tent data centers). Data centers not currently permitted in any district.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium adopted 2026-06-22 runs to about 2027-06-22.
+- **Detailed status:** The posted final Ordinance 2026-12 states twelve months from effectiveness in section 1. The operative clause was visually compared because text extraction duplicates characters. Exact operative interval and later amendments, termination or extension remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Village is studying data center size, acreage, noise, employment and zoning with a plan to report findings to residents.
 
 ### McDonald
@@ -1410,14 +1410,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-09-16 (village council special meeting, emergency ordinance, 5-0; per WKBN/Tribune Chronicle/WFMJ)
 - **Normalized date:** `2026-09-16` (exact)
-- **Duration:** 12 months (maximum), terminable earlier by council
+- **Duration:** Not more than one year from the effective date; ends earlier upon adoption of ordinances addressing data centers or council ordinance terminating the moratorium.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-mcdonald-2026`
-- **Legal basis:** Emergency ordinance of McDonald Village Council (ordinance number not published in sources found)
+- **Legal basis:** Village of McDonald Ordinance No. 3340-26, an emergency ordinance imposing a moratorium on data center applications for up to one year, subject to earlier termination.
 - **What prompted it:** Oppidan proposal to build 8-12 data center buildings on the 360-acre former McDonald Steel site; strong resident opposition; village wants zoning in place for the mill property.
 - **Affected projects:** Oppidan data center campus proposed for the former McDonald Steel property (8-12 data center buildings, 2-4 administrative buildings, ~250 jobs).
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium adopted 2026-09-16 as an emergency ordinance runs to about 2027-09-16 unless council ends it earlier.
+- **Detailed status:** Posted Ordinance 3340-26 states termination at the earliest of ordinances addressing data centers, a council termination ordinance, or one year from effectiveness. Actual effectiveness, occurrence of those conditions and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Village will not accept, process or consider data center applications for up to 12 months while planning commission, council and administration review data centers and update zoning for the mill property.
 
 ### Miamisburg

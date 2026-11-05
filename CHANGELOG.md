@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Five Ohio term corrections distinguish the Walbridge-area Lake Township from Stark County, Lakeview’s index from operative text and Lima’s agenda from news-reported adoption. Mayfield’s twelve-month clause is visually verified despite duplicated extraction characters. McDonald Ordinance 3340-26 preserves both earlier legislative termination conditions and its one-year outer limit; later legal force remains unresolved.
+
 Ironton’s adopted repeal condition and subsequent May 14 zoning adoption correct its pause to replaced, with the precise operative transition unresolved. Lake Township’s October extension is recorded on news-qualified evidence. Hudson’s calendar term and optional extension are distinguished; Kent’s one-year upper limit and recommends wording remain explicit without adjudicating legal effect.
 
 Fairfield and Hamilton Township scans confirm calendar terms and signed original actions. Fairfield’s six months begin at the earliest effective date allowed by law, not an assumed adoption-day anchor. Hamilton’s explicit May 20, 2027 endpoint and exemption for pre-effective applications or permits are preserved; later action and endpoint inclusivity remain unresolved.
@@ -106,7 +108,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1067** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **541** |
+| Rows we still want to confirm (`[VERIFY]`) | **546** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
