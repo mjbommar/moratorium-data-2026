@@ -1,0 +1,155 @@
+{
+  "state_abbrev": "NM",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra return",
+  "decisions": [
+    {
+      "moratorium_id": "nm-grant-county-undated",
+      "outcome": "corrected",
+      "confidence": 0.65,
+      "changes": {
+        "date_enacted": {
+          "from": "",
+          "to": "2026-10-22, Board of County Commissioners, 4-1 per contemporaneous reporting.",
+          "reason": "News reports adoption on Thursday; official notice identifies the October 22 meeting and ordinance."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-10-22",
+          "reason": "Official meeting notice and contemporaneous reporting."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Official meeting notice and contemporaneous reporting."
+        },
+        "duration": {
+          "from": "Proposed one-year moratorium, on the 2026-09-24 commission agenda (not yet voted as of this research pass)",
+          "to": "One year; reported effective November 21, 2026.",
+          "reason": "Reported effectiveness is later than adoption."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "calendar_term",
+          "reason": "Reported as one year, not a fixed day count."
+        },
+        "legal_basis": {
+          "from": "Resolution R-26-54, Notice of Intent to Consider an Ordinance Establishing a Temporary One-Year Moratorium Prohibiting Data Centers and Direct Supporting Infrastructure within the Unincorporated Area",
+          "to": "Ordinance No. O-26-03, temporary one-year moratorium on data centers and direct supporting infrastructure in unincorporated Grant County; Resolution R-26-54 was the prior notice of intent.",
+          "reason": "Official October 22 meeting notice names the proposed ordinance; reporting establishes adoption."
+        },
+        "current_status": {
+          "from": "Pending as of 2026-09-23. Commissioner Nancy Stephens is sponsoring Resolution R-26-54 (Notice of Intent to Consider an Ordinance Establishing a one-year data-center moratorium), scheduled for the Board of Commissioners' regular meeting on 2026-09-24 (the day after this research pass). Outcome not yet known. [VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]",
+          "to": "October 23 reporting describes October 22 adoption of a one-year moratorium, 4-1, with effectiveness reported November 21, 2026. The official meeting transmittal identifies proposed Ordinance O-26-03; R-26-54 was the prior notice of intent. Signed adopted text and recording were not reviewed. Pending/not-yet-effective classification is retained at the November 5 cutoff. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate adoption, recording/effectiveness, statutory jurisdiction and later force."
+        },
+        "outcome": {
+          "from": "",
+          "to": "Commission adopted the one-year moratorium 4-1, according to October 23 reporting.",
+          "reason": "Contemporaneous meeting reporting."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.grantcountynm.gov/DocumentCenter/View/2778/20261022-2nd-Regular-Meeting---Transmittal-Sheet",
+          "source_type": "agenda",
+          "quote": "Consideration of Grant County Ordinance No. O-26-03",
+          "supports": "Official notice identifies the ordinance and scheduled meeting, not adoption.",
+          "document_date": "2026-10-15"
+        },
+        {
+          "url": "https://searchlightnm.org/grant-county-commissioners-approve-data-center-moratorium/",
+          "source_type": "news",
+          "quote": "It will be in effect from Nov. 21, 2026, to Nov. 21, 2027, unless the county decides to repeal or extend it.",
+          "supports": "Reporting distinguishes adoption from future effectiveness; verify signed text before relying on end date.",
+          "document_date": "2026-10-23"
+        },
+        {
+          "url": "https://searchlightnm.org/grant-county-commissioners-approve-data-center-moratorium/",
+          "source_type": "news",
+          "quote": "passed 4-1",
+          "supports": "Reported adoption vote; not official final-text acceptance.",
+          "document_date": "2026-10-23"
+        }
+      ],
+      "notes": "Legacy pending status retained because effectiveness is reported after cutoff; this code conflates enacted and effective states. No calculated expiry entered."
+    },
+    {
+      "moratorium_id": "nm-santa-fe-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "duration_days": {
+          "from": "540",
+          "to": "",
+          "reason": "Ordinance section 10 uses an eighteen-month term from effectiveness, not 540 fixed days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Ordinance section 10 uses an eighteen-month term from effectiveness, not 540 fixed days."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31; the county stated no data center proposal was then pending in Santa Fe County",
+          "to": "Signed Ordinance 2026-06, adopted June 30, states eighteen months from effectiveness and immediate effect upon recordation, subject to its court-contingency clause. Page 6 bears a July 9, 2026 clerk-recorded stamp. Later amendments, litigation and the full operative interval were not established; no expiry is inferred from calendar arithmetic. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate adoption, recording/effectiveness, statutory jurisdiction and later force."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.santafecountynm.gov/documents/ordinances/Ordinance_2026-06.pdf",
+          "source_type": "ordinance",
+          "quote": "This Data Center Moratorium Ordinance is repealed eighteen (18) months from its",
+          "supports": "Signed ordinance section 10 establishes calendar-month repeal; effective upon recordation, subject to stated contingency.",
+          "document_date": "2026-06-30"
+        }
+      ],
+      "notes": "Coordinator visually reviewed page 6 including July 9 recorded stamp, June 30 adoption clause and court contingency. No complete later-action review."
+    },
+    {
+      "moratorium_id": "nm-sierra-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "changes": {
+        "duration_days": {
+          "from": "540",
+          "to": "",
+          "reason": "Resolution states 18 months, not 540 fixed days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Resolution states 18 months."
+        },
+        "current_end_date_iso": {
+          "from": "2028-01-21",
+          "to": "",
+          "reason": "The reviewed resolution does not expressly state this end date or a clear term anchor."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Sierra County Commissioners unanimously amended and adopted Resolution No. 2026-51 at their July 21, 2026 meeting, imposing an 18-month moratorium on new data centers in the county (through approximately 2028-01-21). As of September 3, 2026, New Mexico Commissioner of Public Lands Stephanie Garcia Richard publicly stated the moratorium also applies to the Spaceport America property (on state trust land) and that she would not approve a proposed Aetherion/Green Data sublease there while it remains in force, and Sierra County Commissioner Sandy Jones told the Albuquerque Journal (reporting published in early September 2026) he would not support efforts to amend or narrow the moratorium despite a developer's lobbying. No rescission, amendment, or replacement was found in sources reviewed through 2026-09-23.",
+          "to": "Signed July 21 Resolution 2026-51 imposes an eighteen-month moratorium on approval of or support for data-center development to the extent permitted by law, and expressly states the county possesses no regulatory authority over Spaceport America property. This corrects the prior unqualified applicability account; no adjudication of state/county jurisdiction is inferred. The prior January 21, 2028 endpoint lacked an established source anchor and is cleared. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate adoption, recording/effectiveness, statutory jurisdiction and later force."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.sierraco.org/wp-content/uploads/Resolution-2026-51-18-month-Moratorium-opposing-Data-Center.pdf",
+          "source_type": "resolution",
+          "quote": "authority over development occurring upon Spaceport America property: and",
+          "supports": "Resolution states a jurisdictional limitation; preceding retained line says county possesses no regulatory authority.",
+          "document_date": "2026-07-21"
+        },
+        {
+          "url": "https://www.sierraco.org/wp-content/uploads/Resolution-2026-51-18-month-Moratorium-opposing-Data-Center.pdf",
+          "source_type": "resolution",
+          "quote": "l8 month moratorium the approval of data",
+          "supports": "Retained extraction of operative calendar-month term; scanned text has extraction errors.",
+          "document_date": "2026-07-21"
+        }
+      ],
+      "notes": "The prior assertion that the moratorium applies to Spaceport reflects a reported land commissioner view and conflicts with the resolution\u2019s express jurisdiction statement; no adjudication of state-land authority is inferred."
+    }
+  ],
+  "new_candidates": []
+}

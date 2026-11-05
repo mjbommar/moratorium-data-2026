@@ -10,7 +10,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | Colfax County | County | 2026-08-25 | data center | 🟢 Active |
-| Grant County | County | Unverified | data center | 🟡 Pending |
+| Grant County | County | 2026-10-22 | data center | 🟡 Pending |
 | Rio Communities | City | 2026-08-26 | data center, general | 🟢 Active |
 | Santa Fe County | County | 2026-06-30 | data center | 🟢 Active |
 | Sierra County | County | 2026-07-21 | data center | 🟢 Active |
@@ -38,17 +38,17 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 
 - **Type:** County
 - **Status:** 🟡 Pending
-- **Date enacted:** —
-- **Normalized date:** `—` (unverified)
-- **Duration:** Proposed one-year moratorium, on the 2026-09-24 commission agenda (not yet voted as of this research pass)
+- **Date enacted:** 2026-10-22, Board of County Commissioners, 4-1 per contemporaneous reporting.
+- **Normalized date:** `2026-10-22` (exact)
+- **Duration:** One year; reported effective November 21, 2026.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nm-grant-county-undated`
-- **Legal basis:** Resolution R-26-54, Notice of Intent to Consider an Ordinance Establishing a Temporary One-Year Moratorium Prohibiting Data Centers and Direct Supporting Infrastructure within the Unincorporated Area
+- **Legal basis:** Ordinance No. O-26-03, temporary one-year moratorium on data centers and direct supporting infrastructure in unincorporated Grant County; Resolution R-26-54 was the prior notice of intent.
 - **What prompted it:** Secretive Site Layer 1 LLC data center/gas-generation proposal near Hachita and Playas, disclosed via an air-quality permit legal notice; community opposition and transparency concerns; modeled on Socorro County's ordinance.
 - **Affected projects:** Site Layer 1, LLC data center/natural-gas generation proposal near Hachita and Playas.
-- **Detailed status:** Pending as of 2026-09-23. Commissioner Nancy Stephens is sponsoring Resolution R-26-54 (Notice of Intent to Consider an Ordinance Establishing a one-year data-center moratorium), scheduled for the Board of Commissioners' regular meeting on 2026-09-24 (the day after this research pass). Outcome not yet known. [VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]
-- **Outcome:** —
+- **Detailed status:** October 23 reporting describes October 22 adoption of a one-year moratorium, 4-1, with effectiveness reported November 21, 2026. The official meeting transmittal identifies proposed Ordinance O-26-03; R-26-54 was the prior notice of intent. Signed adopted text and recording were not reviewed. Pending/not-yet-effective classification is retained at the November 5 cutoff. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** Commission adopted the one-year moratorium 4-1, according to October 23 reporting.
 
 ### Rio Communities
 
@@ -79,7 +79,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Legal basis:** Ordinance 2026-06 (Santa Fe County), an immediate 18-month moratorium on data center development, amended at adoption to lower the coverage threshold from 100 MW to 1 MW
 - **What prompted it:** Development of permanent standards addressing groundwater, electricity and grid reliability, noise, waste heat, environmental justice, monitoring, and public participation
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; the county stated no data center proposal was then pending in Santa Fe County
+- **Detailed status:** Signed Ordinance 2026-06, adopted June 30, states eighteen months from effectiveness and immediate effect upon recordation, subject to its court-contingency clause. Page 6 bears a July 9, 2026 clerk-recorded stamp. Later amendments, litigation and the full operative interval were not established; no expiry is inferred from calendar arithmetic. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Sierra County
@@ -89,13 +89,13 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Date enacted:** Reportedly 2026-07-21, Board of County Commissioners, unanimous vote amending agenda item Resolution 2026-51 during the meeting
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** 18 months from adoption (2026-07-21), to approximately 2028-01-21, confirmed by Resolution No. 2026-51 as named in KRQE and gpkmedia.com/Sierra County Sentinel reporting and listed on the Sierra County Clerk's resolutions index.
-- **Current end date:** `2028-01-21`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nm-sierra-county-2026`
 - **Legal basis:** Resolution No. 2026-51 (Sierra County Board of County Commissioners), adopted unanimously July 21, 2026 by amending a draft resolution that originally only opposed large-scale data center development into an operative 18-month moratorium; named as 'Resolution 2026-51' by KRQE, the Sierra County Sentinel (gpkmedia.com), and a KRQE Facebook post, and listed on the Sierra County Clerk's online resolutions index dated 07/21/2026.
 - **What prompted it:** Concern about a possible data center at Spaceport America
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. Sierra County Commissioners unanimously amended and adopted Resolution No. 2026-51 at their July 21, 2026 meeting, imposing an 18-month moratorium on new data centers in the county (through approximately 2028-01-21). As of September 3, 2026, New Mexico Commissioner of Public Lands Stephanie Garcia Richard publicly stated the moratorium also applies to the Spaceport America property (on state trust land) and that she would not approve a proposed Aetherion/Green Data sublease there while it remains in force, and Sierra County Commissioner Sandy Jones told the Albuquerque Journal (reporting published in early September 2026) he would not support efforts to amend or narrow the moratorium despite a developer's lobbying. No rescission, amendment, or replacement was found in sources reviewed through 2026-09-23.
+- **Detailed status:** Signed July 21 Resolution 2026-51 imposes an eighteen-month moratorium on approval of or support for data-center development to the extent permitted by law, and expressly states the county possesses no regulatory authority over Spaceport America property. This corrects the prior unqualified applicability account; no adjudication of state/county jurisdiction is inferred. The prior January 21, 2028 endpoint lacked an established source anchor and is cleared. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Socorro County
