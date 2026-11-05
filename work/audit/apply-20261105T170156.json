@@ -1,0 +1,46 @@
+{
+  "applied_at": "20261105T170156",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-montana/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 1,
+    "fields_changed": 4
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "mt-missoula-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "The county describes a one-year term, not a specified day count; codebook reserves duration_days for source-specified days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mt-missoula-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The county identifies a one-year term, subject to earlier replacement.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mt-missoula-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-07-08",
+      "reason": "Preserve the county-stated endpoint while distinguishing it from a renewed current-force verification.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mt-missoula-county-2026",
+      "column": "current_status",
+      "before": "Active as of the July 31, 2026 research date. Prohibits permitting new or expanded data centers in zoned and unzoned areas of unincorporated Missoula County outside the City of Missoula. Effective July 9, 2026; expires July 8, 2027, or sooner if replaced by permanent zoning. Adopted unanimously after a public hearing at which 30 members of the public spoke, all in support.",
+      "after": "The county project page reports a one-year moratorium adopted July 9, 2026, ending July 8, 2027 unless replaced sooner by new zoning regulations. This source-supported term does not establish the absence of subsequent action. [VERIFY: operative resolution, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve the county-stated endpoint while distinguishing it from a renewed current-force verification.",
+      "source": "answers.json"
+    }
+  ]
+}

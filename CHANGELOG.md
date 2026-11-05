@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Missoula County’s project page supplies a one-year term and explicit July 8, 2027 endpoint, replacing an unsupported 365-day representation. The operative resolution and later legal force remain flagged; Butte’s proposal and reported abeyance are not treated as adoption.
+
 The comprehensive refresh is underway. Five California extension observations and
 six Maine state-policy corrections have been applied after source review. Three
 California status checks remain unresolved. These working totals do not mean that
@@ -42,7 +44,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **443** |
+| Rows we still want to confirm (`[VERIFY]`) | **444** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

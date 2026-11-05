@@ -37,13 +37,13 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Date enacted:** 2026-07-09 (Board of County Commissioners unanimous adoption after a public hearing)
 - **Normalized date:** `2026-07-09` (exact)
 - **Duration:** One year from adoption (2026-07-09 to 2027-07-08), or until replaced sooner by permanent zoning
-- **Current end date:** `—`
+- **Current end date:** `2027-07-08`
 - **Sectors:** data center
 - **Moratorium ID:** `mt-missoula-county-2026`
 - **Legal basis:** Interim zoning overlay resolution adopted unanimously by the Missoula County Board of County Commissioners on July 9, 2026, under Mont. Code Ann. Section 76-2-206
 - **What prompted it:** County commissioners directed to study an asserted emergency and possible mitigation measures related to data center development pressure in unincorporated county areas
 - **Affected projects:** No specific named project identified in the captured record; applies prospectively countywide in unincorporated areas.
-- **Detailed status:** Active as of the July 31, 2026 research date. Prohibits permitting new or expanded data centers in zoned and unzoned areas of unincorporated Missoula County outside the City of Missoula. Effective July 9, 2026; expires July 8, 2027, or sooner if replaced by permanent zoning. Adopted unanimously after a public hearing at which 30 members of the public spoke, all in support.
+- **Detailed status:** The county project page reports a one-year moratorium adopted July 9, 2026, ending July 8, 2027 unless replaced sooner by new zoning regulations. This source-supported term does not establish the absence of subsequent action. [VERIFY: operative resolution, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Enacted one-year interim zoning moratorium on new or expanded data centers in unincorporated Missoula County.
 
 ---

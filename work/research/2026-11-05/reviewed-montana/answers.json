@@ -1,0 +1,47 @@
+{
+  "state_abbrev": "MT",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra return",
+  "decisions": [
+    {
+      "moratorium_id": "mt-missoula-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The county describes a one-year term, not a specified day count; codebook reserves duration_days for source-specified days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The county identifies a one-year term, subject to earlier replacement."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-07-08",
+          "reason": "Preserve the county-stated endpoint while distinguishing it from a renewed current-force verification."
+        },
+        "current_status": {
+          "from": "Active as of the July 31, 2026 research date. Prohibits permitting new or expanded data centers in zoned and unzoned areas of unincorporated Missoula County outside the City of Missoula. Effective July 9, 2026; expires July 8, 2027, or sooner if replaced by permanent zoning. Adopted unanimously after a public hearing at which 30 members of the public spoke, all in support.",
+          "to": "The county project page reports a one-year moratorium adopted July 9, 2026, ending July 8, 2027 unless replaced sooner by new zoning regulations. This source-supported term does not establish the absence of subsequent action. [VERIFY: operative resolution, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve the county-stated endpoint while distinguishing it from a renewed current-force verification."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://missoulacountyvoice.com/data-center-interim-zoning",
+          "title": "Data Center Interim Zoning",
+          "publisher": "Missoula County",
+          "document_date": "2026-10-22",
+          "source_type": "other",
+          "supports": "County page, last updated October 22, reports adoption of a one-year moratorium and its conditional expiry.",
+          "quote": "The moratorium is effective for one year unless replaced by new zoning regulations. The expiration date of the moratorium is July 8, 2027."
+        }
+      ],
+      "notes": "Correction addresses term representation only. County page says July 9 adoption and July 8, 2027 expiration unless replaced; the original resolution was not retrieved and the page predates the research cutoff. No claim that every aspect or legal status was independently confirmed on November 5."
+    }
+  ],
+  "new_candidates": []
+}
