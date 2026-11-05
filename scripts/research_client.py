@@ -110,6 +110,7 @@ async def execute(args):
             finally:
                 await searcher.close()
             metadata.update(query=args.query, hits=len(result.hits), cost_usd=result.cost_usd,
+                            publication_window={'since':args.since,'until':args.until},max_results=args.max_results,
                             unpriced=result.cost_usd is None, exchanges=exchanges,
                             retry_policy="single provider attempt; failures retain reservation")
             if args.domains:
@@ -121,9 +122,12 @@ async def execute(args):
             from bc_web import Retriever
             from bc_web.settings import BcWebSettings
             from bc_research.pipeline import document_text
+            controls={"engine":"pydoll","headless":False} if args.mode=='browser' else {}
+            if args.settle_ms is not None:controls['settle_ms']=args.settle_ms
+            if args.wait_for_selector:controls['wait_for_selector']=args.wait_for_selector
             async with Retriever(BcWebSettings(timeout_ms=45000)) as r:
                 result = await asyncio.wait_for(r.fetch(args.url, mode=args.mode,
-                    **({"engine": "pydoll", "headless": False} if args.mode == "browser" else {})), timeout=85)
+                    **controls), timeout=85)
             payload = result.model_dump(mode="json", exclude={"raw", "pdf"})
             raw = result.raw or (result.html or "").encode()
             text, title = document_text(result)
@@ -133,6 +137,7 @@ async def execute(args):
                             ok=result.ok, title=title, chars=len(text),
                             body_sha256=hashlib.sha256(raw).hexdigest(),
                             text_sha256=hashlib.sha256(text.encode()).hexdigest())
+            if args.mode=='browser':metadata['browser_controls']=controls
         target = stem.with_suffix(stem.suffix + ".json")
         with target.open("x") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2)
@@ -156,7 +161,11 @@ if __name__ == "__main__":
     q.add_argument("--until", help="Publication date upper bound, not legal event cutoff")
     q.add_argument("--domain",dest="domains",action="append",default=[],help="Native backend include_domains filter; repeat for multiple domains. Exa sends includeDomains, SerpAPI compiles site operators. Returned hosts are diagnosed.")
     f = s.add_parser("fetch"); f.add_argument("url"); f.add_argument("--mode", choices=["http", "auto", "browser"], default="auto")
+    f.add_argument('--settle-ms',type=int,choices=range(0,15001),metavar='0..15000',help='Bounded additional browser settle time for JavaScript portals')
+    f.add_argument('--wait-for-selector',help='Wait for a known rendered CSS selector in explicit browser mode')
     args=p.parse_args()
     if args.action=='search' and args.domains and args.backend not in ('exa','serpapi'):
         p.error('--domain is supported only for Exa and SerpAPI in this client')
+    if args.action=='fetch' and (args.settle_ms is not None or args.wait_for_selector) and args.mode!='browser':
+        p.error('browser wait controls require --mode browser')
     asyncio.run(execute(args))

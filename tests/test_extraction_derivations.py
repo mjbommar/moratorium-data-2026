@@ -14,6 +14,32 @@ archive=module('archive_research_attempts');derivation=module('register_text_der
 
 
 class DerivationTests(unittest.TestCase):
+    def test_signed_download_capability_stays_out_of_public_manifest(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);job=root/'job';job.mkdir();body=b'Public ordinance text.'
+            signed='https://example.blob.core.windows.net/docs/ordinance.pdf?sp=rw&sig=fake-signature'
+            for suffix,raw in [('body',body),('txt',body),('json',b'{}')]:
+                (job/f'abc.private.{suffix}').write_bytes(raw)
+            e={'attempt_id':'abc','kind':'fetch','state':'finished','ok':True,'chars':len(body),
+               'artifact':str(job/'abc.private.json'),'url':signed,'final_url':signed,'status':200,
+               'finished_at':'2026-11-05T12:00:00Z','body_sha256':hashlib.sha256(body).hexdigest(),
+               'text_sha256':hashlib.sha256(body).hexdigest()}
+            (job/'attempts.private.jsonl').write_text(json.dumps(e)+'\n')
+            (job/'source-link-provenance.json').write_text(json.dumps({'abc':{
+                'portal_url':'https://example.portal.civicclerk.com/event/1','document_label':'Ordinance',
+                'download_url':signed}}))
+            with patch.object(archive,'ROOT',root):
+                result=archive.import_attempts(job,'CA',apply=True)
+                manifest=(root/'work/sources/CA/manifest.jsonl').read_text()
+                self.assertNotIn('fake-signature',manifest)
+                self.assertEqual(result['sources'][0]['url'],'https://example.blob.core.windows.net/docs/ordinance.pdf')
+                self.assertEqual(result['sources'][0]['retrieval_url_sha256'],hashlib.sha256(signed.encode()).hexdigest())
+                self.assertEqual(archive.import_attempts(job,'CA')['new_sources'],0)
+            ordinary='https://example.gov/filestream?DocumentId=123'
+            self.assertEqual(archive.public_source_url(ordinary),ordinary)
+            self.assertEqual(archive.public_source_url(signed.replace('.windows.net','.usgovcloudapi.net')),
+                             'https://example.blob.core.usgovcloudapi.net/docs/ordinance.pdf')
+
     def test_ocr_keeps_retrieval_text_and_checks_derived_bytes(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);job=root/'job';job.mkdir()

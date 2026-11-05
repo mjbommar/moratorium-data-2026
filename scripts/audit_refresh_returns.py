@@ -283,6 +283,33 @@ def audit(queue_path,runs):
                         evidence_proofs=proofs,accepted_claim_count=len(accepted),
                         accepted_claims_without_verified_evidence=sorted(accepted-verified),
                         scope='Source assertion/transcription reviews only; no legal acceptance or canonical promotion.')
+        elif job['id'].startswith('discovery-'):
+            required=('answers.json','candidates.json','coverage.json','run.json','report.md')
+            row['return_file_hashes']={name:hashlib.sha256((directory/name).read_bytes()).hexdigest()
+                                      for name in required if (directory/name).exists()}
+            row['checks'].extend('missing '+name for name in required if not (directory/name).exists())
+            expected_sectors={'data_center','battery_storage','solar','wind','cryptocurrency_mining'}
+            labels=set()
+            def sector_labels(value):
+                if isinstance(value,dict):
+                    labels.update(set(value)&expected_sectors)
+                    for child in value.values():sector_labels(child)
+                elif isinstance(value,list):
+                    for child in value:sector_labels(child)
+                elif isinstance(value,str) and value in expected_sectors:labels.add(value)
+            try:
+                coverage=json.loads((directory/'coverage.json').read_text())
+                sector_labels(coverage)
+                row['sector_labels_present_in_return']=sorted(labels)
+                row['sector_labels_not_found']=sorted(expected_sectors-labels)
+                answer=json.loads((directory/'answers.json').read_text())
+                validator=Draft202012Validator(schemas['inventory'],format_checker=FormatChecker())
+                row['schema_errors']=[f"{'/'.join(map(str,e.absolute_path))}: {e.message}" for e in validator.iter_errors(answer)]
+                row['local_candidate_proposals']=len(answer.get('new_candidates',[]))
+            except (OSError,ValueError,TypeError) as exc:
+                row['checks'].append('discovery return parse: '+type(exc).__name__)
+            row['discovery_review_status']='pending substantive coverage, identity and legal review'
+            row['coverage_limit']='Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.'
         jobs.append(row)
     return {'observed_at':dt.datetime.now(dt.timezone.utc).isoformat(),'queue':str(queue_path),
             'job_states':dict(Counter(x['cli_state'] for x in jobs)),

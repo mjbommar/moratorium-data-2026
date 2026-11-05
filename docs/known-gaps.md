@@ -1,12 +1,22 @@
 # Known gaps and limitations
 
-We're confident in what's in this dataset, but here's an honest accounting of what we know we're missing.
+The November refresh is in progress. This page records evidence and coverage limits;
+record-level observations and `[VERIFY]` markers identify unresolved work.
 
 ## What we know we don't have
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **306 of the 1292 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`), The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **308 of the 1292 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
+
+### November discovery and search limits
+
+All 50 state-discovery jobs have returned. Their sector labels and answer schemas
+pass mechanical checks; proposals still require source, identity and legal review.
+The bounded searches are not a census of every local government. Site-filtered
+searches with returned hosts outside the intended scope cannot establish absence
+of official records. Deficient searches and private candidate material remain in
+the review queue; only reviewed changes enter the public inventory.
 
 ### Records behind authentication or CAPTCHA gates
 
@@ -89,7 +99,7 @@ rechecked four kinds of rows. We looked at rows past their end date and
 extensions with no new end date. We also looked at proposals more than 60 days
 old and rows with a `[VERIFY]` note.
 
-1066 moratoria are in force, and many end in the next few months. The data
+1067 moratoria are in force, and many end in the next few months. The data
 check still flags eleven rows that look out of date. Eight of them, in
 Cedartown, Georgia and seven New York towns, have passed their end date. We
 could not find out what happened next, so each carries a `[VERIFY]` note. The

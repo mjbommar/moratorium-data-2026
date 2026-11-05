@@ -1,0 +1,1738 @@
+{
+  "observed_at": "2026-11-05T18:55:19.765222+00:00",
+  "states_returned": 50,
+  "all_five_sector_labels_present": 50,
+  "local_candidate_proposals": 185,
+  "provider_reservations": {
+    "serpapi": 350,
+    "exa": 250,
+    "googlenews": 50,
+    "gdelt": 50,
+    "fetch": 672
+  },
+  "state_returns_with_integrity_issues": 1,
+  "states": [
+    {
+      "job_id": "discovery-ak",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "serpapi": 7,
+        "exa": 5,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "a4b62aac2562578f9bb4c66f6f504557f1aace1c1612c0f7f2e3b2c01fae334e",
+        "candidates.json": "731efbc852ea88e2ecc42296be02512a1873259c9f108be7ecd99e5433bbf418",
+        "coverage.json": "b0a453ce045bf2583952472f496391ca875cdc42b9aa204587a73e4160588854",
+        "run.json": "a13825e3bae3f8490a3d6d4c0f026532eb03e96e44e656d360eb6fc3c7400695",
+        "report.md": "d2ab362a389bcb34db2fdd0fe72eb32450396a0061dcb93d1ce8d9da6388c243"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 2,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 13,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-al",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "b6e254f6a91f7dc6937ca15433d3c9ac8c29f473bb22765439ab7bf23647aa62",
+        "candidates.json": "b671039dbb3f57fde8e41e1427367d8a4c900c5acdf9173581901f7ebd1097f8",
+        "coverage.json": "64a1278cbd6f3cdd28c5d103a62349b9e385ddbdfa99a215fe2f4ab450978866",
+        "run.json": "d183ea3625c755f925c10a036956bf7d7ac3cac0d8ab23cf6f3d35963820b4e5",
+        "report.md": "10704afc3e253251b7036e7b98d59492f825d6bdd0cc5097a98972327810ea6b"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 2,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 8,
+      "verified_fetch_versions": 7,
+      "site_operator_diagnostics": {
+        "no_returned_url_in_declared_sites": 1,
+        "partly_outside_declared_sites": 2
+      }
+    },
+    {
+      "job_id": "discovery-ar",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 15,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "7e988eebea3c5281a5bc8ea109398055d1ac64f92ce2c22b34c6f7611c6ae161",
+        "candidates.json": "0f740f76ba800f9bd64f6118b4ea7f04493dbfb48aac025b2611b239fd20e61f",
+        "coverage.json": "30cc27364514af1a9a4e6539715a247e852ac7a084f03a3fd1c1a152ae08ce53",
+        "run.json": "2a2f41a2cb5f1c86c11425bff73d07a39c677860a18e47d4e2119715e14a099c",
+        "report.md": "3e0792f3616807bbda59b23667c592acbdb7143a88013aea062e4a95e564d107"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 3,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 14,
+      "site_operator_diagnostics": {
+        "no_returned_url_in_declared_sites": 3,
+        "all_returned_urls_in_declared_sites": 1
+      }
+    },
+    {
+      "job_id": "discovery-az",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "87d0b94dab68103c243cf966699696e03707e87de95cebf2ea1539a13ff86188",
+        "candidates.json": "fd9fd202af44b95916cb13ac4614cf52c04a3f66381e555aa09b572c0d7936ce",
+        "coverage.json": "703f2d5ee7e676cfc31e1c89886458a1f407c114634b43a5d6b9b01331f8df52",
+        "run.json": "001a1af9005b485ea9bc015ba131ccc6170b57c9b93bfb9e6950d89306c63d82",
+        "report.md": "8b2ecc61955097dd0b8451850c2fbd4b5bc14bc37ba2aa005fd415c05185d7b2"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 1,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {
+        "no_returned_url_in_declared_sites": 1
+      }
+    },
+    {
+      "job_id": "discovery-ca",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 15,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "ad0f391c7fcedb938cd3c7732f93e324ac0267ca065fb173ae3d1f0f06ba9360",
+        "candidates.json": "6ad2c27e64746b4b34cf82efd623c05c961ca551bc9b418e0075cb66a8250e1b",
+        "coverage.json": "6f5ec1d1928bf3e13fc42a7910ffda2a75145879b95c172afd246833db879909",
+        "run.json": "e1e001a51bd582409d5bcf3ed7026b355a4e07d096a3faa90b0eb5c27ecd1e0b",
+        "report.md": "aa4ba1cde760e44fd53b5411dd62fcd57f45913f964770f45d6d7de992508398"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 6,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-co",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "57e62eca5f944bce95cb805ebcb4e59dc485cd68cfeb3c5a30f91bf81d052834",
+        "candidates.json": "b33b6a80ae2a5764f89d8fcb00cad8af6c8aee2b163f1209710185512e68aec5",
+        "coverage.json": "7fb48bc76709a054a5169e820e92dad288c16705194e1269d560335f2436dafd",
+        "run.json": "ae6b47565f81f28bbceac83b52a1d6dac6af3b7d4a0440c4194720f271a3b7c2",
+        "report.md": "bf1983015df90049f8a69a93e9afbd9cf1efa8ae14ed388a54d1b592d80df4e6"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 9,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-ct",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 10,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "3f78e71c99535761ec78624c85008fbece2ebb562bb669e7fc37c9d2bb8ee95f",
+        "candidates.json": "9d90bad1eb15a5c3ff44e8c1bb687d3fc2da76e0a17a92f3bb705746dd29ce63",
+        "coverage.json": "f21ecd7706d869dfa9a94e2d2cd8a8fdfff68c27f619ddd5ba06ab4907a41179",
+        "run.json": "66e602864425b9609d8714dd132a3513b95d5a3258cc4640f120e3010fd13ac0",
+        "report.md": "8fdc93c218f40a1b673ea8c7da25fe5e440c750c48cba4e6021d5e37c49eadc9"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 1,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 10,
+      "site_operator_diagnostics": {
+        "all_returned_urls_in_declared_sites": 1
+      }
+    },
+    {
+      "job_id": "discovery-de",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "526ff38f72cf80692e8c7c015b3a91b77ae8795a1fa6c8facff2f5288a7acaf0",
+        "candidates.json": "f9d0a5918144ac4e75b2f5937b9062e7db0eef0ab3d53afce9a7a292f7803c42",
+        "coverage.json": "d1640234cfdc8c1ddd384338d45aed1a4e80c83afc49a0fc601f5b5a951c4297",
+        "run.json": "cba5acfe39de487aa20efe27d5c953fd82bf0d39e44884df98ec6285479a932b",
+        "report.md": "ce59b4c334fcbe5eefa519e6e246fc149d0546f90d064c8ac7eadc80c53c4105"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 2,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {
+        "no_returned_url_in_declared_sites": 1
+      }
+    },
+    {
+      "job_id": "discovery-fl",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "4585008486e1d1a34d6e80dbbb72bd22889c281562bd7ba1c1ea35107595e186",
+        "candidates.json": "1feb4dda023389c58a6aca395375ee69bd404bbf46131fdbc7d48696b2a98260",
+        "coverage.json": "7564c04e7a0d77062e94f4eaaae457b64dd455d81da3c7660878eea4f4a4d47d",
+        "run.json": "11f4ef65fd747d4a1c89c18e46595a42bb215c379ff8c463ff6b7007090f5b93",
+        "report.md": "cc0b55f8d0827f2e71cf1e428c15a84c886accf988ab01e0f77427c1cb66ae8e"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 1,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-ga",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 14
+      },
+      "return_file_hashes": {
+        "answers.json": "038a1cd00852a7310fc8337aed6de2b95dae72dc51407908b954a3f82b9e7784",
+        "candidates.json": "8458b42866672310765caccec5413206b31bb2bc8c31f25d96ad62a502a50e16",
+        "coverage.json": "a19d6a784e873f78ac28469e4327638d26b8be9ab3da41259cd9b193d638edf6",
+        "run.json": "e34832941e17bc80b3f980c996d8981cbac2fa956eaeb3b1434a44ccbf519111",
+        "report.md": "a9b4299817853f9f51048157109098a0494d51cc27dbc87ca92bc54e81be8ee7"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 6,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 13,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-hi",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "a936f684ba24fe7594e1666b0cd5441841e11c36b6f358c847cbb95aa8dbdd86",
+        "candidates.json": "519be08c6d6db7ee52b445a7f83151caa80760e3abdfb066733880500ce1caa0",
+        "coverage.json": "79368cd1ce111b2dcc7382bf6fc9f85540a6fa9a955cceb5133593d14bae486f",
+        "run.json": "8b00e7e55c1b1ba604165233664e72275897de0092f8cc72d193097b324b2874",
+        "report.md": "2afa348ac5bf93a57da22d912129e2744ce22643c353f538e3ced45938a8fb98"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 0,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-ia",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 14,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "65dfb48017f31f5de403cdf8dddf5917f318fb359a6e4b5a5b39bbc5c2e07f8f",
+        "candidates.json": "58d1f312e27df7b2bd6167c3da22898db07a3d24fc534640d198e573ea0dc845",
+        "coverage.json": "42c0fdacbf087e5a58208318186795213de8c65068b3a66020fe1ed592240db2",
+        "run.json": "fd59931d6c5316da818b7f55ac0ec7e28b2df63344ad55e5b3eec922519efe90",
+        "report.md": "532bca1db0cb2085fcb69b9fc3e6bab0e80b787bdc4be111ee8e919cacf2d04c"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 6,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 14,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-id",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "b5fdf75737c721eb6a9eb091e698d8d3cdce6c1e5690cfe5aa915f92728f10e1",
+        "candidates.json": "19ddc8fc44f9b9b40109eebddba4c2ce5ebf757ecacfa6670687acc5e50e3926",
+        "coverage.json": "c0c040ed461a80d8b4bdd279707953f04ae28ac8d8748a440309f355147cb7ae",
+        "run.json": "3ef958fbe0f8809f6e2d370b8ceb7ca456a33ac5a18ecd44aa79efb5d4c1451b",
+        "report.md": "d9f4fd4c9215892f590b9d05e5e6a484a8bb6fbd1994e144181fcd8cf5310fa9"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 5,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-il",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "2530ccbdb094c2497e9e786a0d1417334f840ccca3e4bff7811d78ba9ed110e3",
+        "candidates.json": "8ab2a76fd8bb6b45c0d8cd4ab9388afca6c29c4c20fdf5ef25f1e857849a0fde",
+        "coverage.json": "14c8308a81ebcb8d695003a6dac983303783aff5dacb41aad772fd86a06898a6",
+        "run.json": "3b620e7c06804bfd9514ec8a0ecfce0d90239d65cc6f4d04ba0e05801f64f8cc",
+        "report.md": "cd11ad2cc04fbf08acdb62e46b96ea2c4edf584dbf407106cf5196c4304bb506"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 5,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-in",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "3b06ce7d82717e40b9c09e18b31ea0885223b1f612bea2cff59c6cdda9c1faac",
+        "candidates.json": "7081a6311dcc773aad92b4774b4c81c4612c0009af73767b1738d57f81999430",
+        "coverage.json": "713c726c301e6d8b26b3fb534de13c2d94e68d0bfcf78e3166830dac26c74791",
+        "run.json": "b0065576c7f3823eca61540b7ef7db917f3dfb27ac0e1122fc7fcc1179a2eb05",
+        "report.md": "abd5c93697d50e04654d7e829801671458e9f0c4d3b294052106b98ad6d04e30"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 8,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-ks",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 15,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "816381cc2f7ef44a1e19d57e51f51bbc47826b44067bcc1a417b6d5d346e14a3",
+        "candidates.json": "004f8f4125bf32f5574ea1be6ca64eee4185be6a2738c3caf507964a69261200",
+        "coverage.json": "b51635112351471f293eff982342993a96d2787636f4440d8f6d12cd273659dc",
+        "run.json": "24184971051433cdcf94eed609449146232afcff5a7064fc9d6fe2e9e68518be",
+        "report.md": "391b23e723ff81ea38f7c0ce4a674f8c1b400aaca35ee4db613bb94b46a03db2"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 5,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-ky",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "9b746311fc75880f98419de55e64c76d70708149360a4d4c23cfd752f5da8d6c",
+        "candidates.json": "209f0aec72908a0752a3b28a3b0c5364288337314ab514aa2b87a7a8012f0a65",
+        "coverage.json": "f10cb58cdf4aef92148d17d3937f476d55c4513b289c4725d5cfbfd24bcbc1a5",
+        "run.json": "c75093ba987e4d19a66f857d4ec9ea7b72441027f449aff17793c46e60bcff18",
+        "report.md": "d1138bf89a9f4330a508a7c81c879142c0b430b53bdd5c95caf3e7be17099d13"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 6,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-la",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 15,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "3881d495ad86f03a03f4b6c4db4f6bcc22267580cf50ce4c1c21072063ae6e45",
+        "candidates.json": "ff7438f771095e55195fce2a82e4d300cf33ac60840ab4f5f49c0efc75feacf9",
+        "coverage.json": "042a80e09a7c0422e272e7dba1ef9a8c9f98c941e0d5e080be74def0d68fe965",
+        "run.json": "62aa88783a97403100a76560259b0b238dc16d8da000afe6158200d151e7a9cd",
+        "report.md": "c620d4722e65a2aacfb2e6c88be35d93b892e841ad2e99dd9d2647ed635a8d20"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 4,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-ma",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "75600f12679d2ac234102c9e6ff791066476184b5ad3541333321024637cdc63",
+        "candidates.json": "d90413ccb435d5d3580dae5e4072b2891b601cd1db00cbe2cc65a8f39f125d7b",
+        "coverage.json": "0e6108bb8fe3280dcbdf0f0ddbbbe48dcbadcf72672b5ade3505d1300ea56b2e",
+        "run.json": "1debd21a649ce45e4038ac7b3b86f797d2f6ef3b6de52b5ee90a8c6bd67fa23a",
+        "report.md": "305c412f175ae51c60eb3dafd15d5d5b6afbe283c14e9fd140ba51a0217e87ae"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 8,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 14,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-md",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 8
+      },
+      "return_file_hashes": {
+        "answers.json": "1aff4d8f4a2f5dd3292e323d7f6e4f03b8451311798566bec8581f1e12d36c05",
+        "candidates.json": "b85bf1a00dc1bb0e82b001364bb469cc8870da2532c31f3fa21606aa82fbfd20",
+        "coverage.json": "02bd5140790479906df7c4e980b449dcea18389ae3218d0759c524c635610295",
+        "run.json": "f51173d7d6d1b1d3f5ec2a5e27d4b84067537768e35718a2f7ce8d82036abd5d",
+        "report.md": "eedf3c4475cb295677be07b2bff74cb7f6847e53c3fd152acf5ed1608a5ab98b"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 4,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 8,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-me",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 14
+      },
+      "return_file_hashes": {
+        "answers.json": "678f984b4968b88c538555c8f9ac777413cfcd2fbb87d414662afa9974766e39",
+        "candidates.json": "7e3b2ec337c5d392c8a9989e123245062b80fe4e8a5f9d72e3f5d4b72a7c6181",
+        "coverage.json": "bf71aceca8ddd2305df279fbaa5a377eb3c256744a2aa40735687d48f81e5d7c",
+        "run.json": "7ba852f9650b8ee8335b0d527648d46c0b2ab1ddad796ccefb298c249b73b57f",
+        "report.md": "09c78dfb4a0c15e2febecdbb7d14b6a46d4de1b9e2bb20793ad8645f8db8c659"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 16,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 13,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-mi",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 15,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "23952d0eea91dde420b1faac78f7211f370015199ef1a388eec6de3bbf47432f",
+        "candidates.json": "d5710ab96632d27b413e3a371059135a1c545e1cb2b6c9885481b8907d2c5888",
+        "coverage.json": "515a223ba870b02500d8aedbe3b027d82e1f0fb32f74ab2d12b09e75b543a37b",
+        "run.json": "e80dd725c120a79ab6be069b102ca017759ef596bd2d9a5e2754c67483f70f35",
+        "report.md": "66e6a420fc83543b0638002ff52f88eb7fa8f62d0a0e239ace465cd053c6c55c"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 9,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-mn",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 11
+      },
+      "return_file_hashes": {
+        "answers.json": "d7dc2633c4cfd806dfe918cf9299010010ccd499a0e8772d91b434d8459df66e",
+        "candidates.json": "4e6d890d501330bc6f1dcae8f9992b3a9b1623824378d5db41f2724a4390fa02",
+        "coverage.json": "92f1b6417f13d9924a600a91c11e5f4dc86c6725eadfd4f93b3b22d85d7d9daf",
+        "run.json": "d8c39b15f2bffecd7fb2ae08eb5893432c0ba696a46cc63fdb37493d1a1d35f4",
+        "report.md": "d16a3d8ab0dce3034a9e6181aad6950855eb2d7abe067057bae9b0870bf553e0"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 6,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 11,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-mo",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 11
+      },
+      "return_file_hashes": {
+        "answers.json": "285f1d293c74cd27bfa8baec757306ef2523d95b5b18acc00a63da230280f6e5",
+        "candidates.json": "4d2753b4bc815c56ea0b6cefcda6ab2e31501370f44340f23609d1b092024121",
+        "coverage.json": "0cdc8e2a24fabff21b084be7013abb93c0cd4420540eef9730bff78b18d81af6",
+        "run.json": "d2b66046b497cdccb90b6cb4f080b4fac60c018551b9320e470c7869b22ededf",
+        "report.md": "2f7886b82cbd275643ba8d2c63b57d21e84fef0899cdcb377d6ae23667e57ac2"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 1,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 10,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-ms",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 10
+      },
+      "return_file_hashes": {
+        "answers.json": "694522e9eac34b638fad95da27db2ccbcfcaff8587a085662aeff24617aed073",
+        "candidates.json": "633c1bc59f0b11510ef68c2855958eab8383fe96c6651463fa2ac634a95bdc2e",
+        "coverage.json": "d08920ad0e85b0ccfda8b68f4fe8d930e4de39f919d370d9709824a16d28c6c2",
+        "run.json": "59330737568676b4a9d0c15e198c6d1ba8f59cfb3593c9a889ab392801c5d2e9",
+        "report.md": "19498fde6f3301b723ffdf701572fea000f1d0aa1316956a386929a888260b66"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 0,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 10,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-mt",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 15,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "739d3743f2db6202b0c2218bf3d19be6d42d65f1b33f993a2f5af38cf5945d6b",
+        "candidates.json": "3edd8ff8a54d1796c6383c46f9cdf9d704305bddccdf806bca2cf681a03f3fdc",
+        "coverage.json": "ddbe449e54d214d80b5b52aa5ec82db590efccbf70668c5efc5079b02fccb0a2",
+        "run.json": "0ca08660c454af912cf84f49c7942b4081c945d491bb2e966b060895fd28efcd",
+        "report.md": "d9e22162b221e99cd4eacfc15f3a7c7218044800977d5c074c381c71d6066d46"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 1,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-nc",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 12
+      },
+      "return_file_hashes": {
+        "answers.json": "33df9d248a10353fefba693c5a1ce069167fc5ab368516e51b4c8c1a7caea1ee",
+        "candidates.json": "a2fbadfd2369e362108f66d615179445cb9c61eea5787342e5607700b39cfa67",
+        "coverage.json": "928b7e589c36b490ea74c88b58e4714c9c001ae8dca44064d66e2fc57d7d0034",
+        "run.json": "87159cceb687ae6fa64d63cff1e3d10265d7c51c281cdedfd0d571c0b8ac161d",
+        "report.md": "20125cd731731979349abf582b07631c809bf3af2a440a57d6a2ff0c7a94c2fb"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 4,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 12,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-nd",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 7,
+        "gdelt": 1,
+        "googlenews": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "b9e5dbaa70ab5bbbca952219b08406193f8e299d360653eecfebf21e3ad44e4a",
+        "candidates.json": "b68855f6bc6b2ee3dfe642d7fcdfce7b2cb68b73201430bbaa22306c5f4e2445",
+        "coverage.json": "0ffd4cda8b447ad41d697a310ed9385645fbd02301fba78cc4db68d7e8b38ad1",
+        "run.json": "ca4ff63667e622262cfc78b14aa7490f4b4309e65ab0e22c1c4fd9f22312d471",
+        "report.md": "8a0135bf1b797184e71f433ed9e802dd49ec035e73ebd2047f730f6ae8dae68c"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 5,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 7,
+      "site_operator_diagnostics": {
+        "no_returned_url_in_declared_sites": 1
+      }
+    },
+    {
+      "job_id": "discovery-ne",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "93c382e807080a4fd08d96025e24fd347cbe332050702782987d7162e6d5e40a",
+        "candidates.json": "7f8f39c22e8eb69f440c83cc44723279593399415655585926601bb699ec64fc",
+        "coverage.json": "10c73143b1b9449b66a4ea2ae90cfe2a5ae8941bbfe8cb8b168e05d030d117e3",
+        "run.json": "7b18b648a88027efedbe9eb80985d1e9f6a6a11f6fbac78f67887a15fb06d625",
+        "report.md": "f66abc95163726be64d8d8dcfcfb90a11d0241b0a56b64fde427af2916e388e2"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 3,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-nh",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 6,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "e0d30457bf349217be2ba021e5dcacb16ef195ffe2b24d1446fc7bab5b516782",
+        "candidates.json": "0d0497fd742786a61b60d496963fc076e060579a8a8d3215081d5d70d1b17074",
+        "coverage.json": "cd12ae360b55373ce9cf543bec528d8b8fcd6b93ef71f67d36f5a15f4214066c",
+        "run.json": "0e5f4618c41eb4a7594f093571f0a4df5d1a9987b378a23a60f56b21af5edc40",
+        "report.md": "edb2fdbfe07b19a48b71b294038c1a96722e26ac439f45dff9393dcea9d51a8a"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 1,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 6,
+      "site_operator_diagnostics": {
+        "no_returned_url_in_declared_sites": 1
+      }
+    },
+    {
+      "job_id": "discovery-nj",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "serpapi": 7,
+        "exa": 5,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 8
+      },
+      "return_file_hashes": {
+        "answers.json": "10a73857270b3c07d4eec4cf1a2ae0c765f6697e8e7a0bca10638384d28013d4",
+        "candidates.json": "328dfbca3c4e85f909262f4421aaeff91e461d2391249e205d160a8dd6634c01",
+        "coverage.json": "48a60eb47b77f76323212fcfec205222108a0402909de304f87a3048389247bc",
+        "run.json": "d95817bd30ffa81686112193cbe492c51ac5a99fdae6f2f6ee68a79e09f1875f",
+        "report.md": "d2cb6283f1e69b4097df3c64a8859ee2e622e6d9408e9d9536003b6328a909a1"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 2,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 8,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-nm",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "e149ed380b49191518bb2c5357fdaae534091ecf41cdf38fc249e473978894b7",
+        "candidates.json": "250e6bdab5b3ed291033976c63fb3192d319755cb861756ba3aca14627f9b889",
+        "coverage.json": "56427b699ecee5bbeafed7ce7c282f5718dbbb555f810b9650aa58f05665dd65",
+        "run.json": "21f1471e9f06f3782707207bcd3ab3009a8adaf2f82edc3e271978f8588aa9c6",
+        "report.md": "050863dca10b5cfceab5ecb51527317153c2e9549b6d98436cb823663b1e9ff7"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 3,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {
+        "partly_outside_declared_sites": 2,
+        "no_returned_url_in_declared_sites": 2
+      }
+    },
+    {
+      "job_id": "discovery-nv",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "1235ab17e1c81fb4513f9906d0935e7289aaca5756a58245659877bac2cb26f4",
+        "candidates.json": "b99f6a014ab5842f6ec0cfce89afbfe13b0151f6fec1097c66eaf5a3da051e82",
+        "coverage.json": "fb94ba97116b8ac8747fedacb7f99a3b60d149d629077df235f89efe2b0ff220",
+        "run.json": "66e221c169f284480adb73aeb674e6121af6845686e1e4fb65a89d3a145f89c2",
+        "report.md": "37af6b8bb4890815dc7efa885e10feec88aa1663ebd9c2c39eb0a0359246df40"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 0,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-ny",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "ee15c63f26832e6008d03df199014cebc1e42f9ba958022be1609f0a3c6e5e7a",
+        "candidates.json": "8a749d64b7579b35542dbe2a43eadb5e51624e126c38a06b909880de110df39a",
+        "coverage.json": "da2cc745aa5aabd1211b79542ebe6ad475e5156481d487fc4bc30ff275f38ac1",
+        "run.json": "103f8bd31237cbe81d0c555ba05f56742a702262a9776d837a93fc4dfe8275a5",
+        "report.md": "6894c18e21c11f3a95e6ab814fdb1a18c7618cd1d5b683f290d03abc37c1881f"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 10,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-oh",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "a354e803993b1548c6d10f8ee544d416611b603f4999d53b60e82b371d4c6da8",
+        "candidates.json": "4c474f96e7b50a33516c1c0340baa03df8563cfe903891ccc374a0df261d71b1",
+        "coverage.json": "3749c992f2ef8d92a6cbfa6d37aa5157931b03df33cfc14fb35c4d0617cfaac2",
+        "run.json": "1757794248a354c2f0e0842b34f588c84d8ee7622cec882bb622977f1dbe4e19",
+        "report.md": "0d0f9ef43a4d2bd2e4cbd426057394b8310a3ca2dfe86075a51cb47e0700be81"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 0,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 14,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-ok",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "serpapi": 7,
+        "exa": 5,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "eae76f3567622f2ff78b67a3289bc63602b0295ce03934a37175d638805375c1",
+        "candidates.json": "c475865282e5623e5901cb1797f3ab63d5912c927f97e4b3aaf7af278acace1b",
+        "coverage.json": "c4cf1a10cbaa649aa66395223076f288ccda206123f965ae7cc5cb4959899263",
+        "run.json": "415992e4b13e11b3585e7c3c87ca641c3105b4a551c2addf7bd5375e1df86fa3",
+        "report.md": "1da9448108fd351311231f4267591d0f5a7914f90f03212ae8bda95f76104680"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 1,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 14,
+      "site_operator_diagnostics": {
+        "partly_outside_declared_sites": 1
+      }
+    },
+    {
+      "job_id": "discovery-or",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 15,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "061f4dbc2020c414e750d6f1e6f557bf25edf199bf9025e6f3bca9d4c9341ff1",
+        "candidates.json": "1d8bb44239a13ebba1e30ef4cc55bc08fbd2f36cbe5d7bb651959f11af100e48",
+        "coverage.json": "1085b0b69335eefcbacf77d8a583d8b43e5b17c469185a027068be918b073eae",
+        "run.json": "c794ba73b1a01e3e4fd4a11a8d467f931cdc53a3782427b9eaf2807ea79bf515",
+        "report.md": "e50db7a310e71769ac0aa25a83623b41329c9326e02b009731ae584a471c574b"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 1,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-pa",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 11,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "430979d399db43498e9e7c614b3a9b605d4f6e66923a97bc88023778f059602a",
+        "candidates.json": "f0f7ad920ac8cc95d87726a91cda6ff3219a322cdf8a0a3722f70fe49a0e3850",
+        "coverage.json": "ddd673b63ca824111ae83453ab83fd72dc4ef48002e6c968395297bb898af63a",
+        "run.json": "9dfb5c1f3dcd9041c4221662ec93beeac9632b68fce3c6a0a811fb098a901080",
+        "report.md": "e640dbc80b93d4171783701020c7df4a1d810419f6d496632afa35bdb8285685"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 6,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 11,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-ri",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "fetch": 15,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "717866e381a646f183961c4fcfcd4c604f71e38b21de956ebae39d190697482a",
+        "candidates.json": "94bd0894a9e96eca7baaf44144ad9e87f7a544b7af9ac69ef45b3b0b93145087",
+        "coverage.json": "10db5e54e2ae6ae0541b2a908457973cce70de998a13583710b2bc7048d8da29",
+        "run.json": "266b1a5635cffa6daa364be8584c2377561f65e80b6ca8f64ba7be43f9908d0d",
+        "report.md": "f43e152ad7d9610e0c52c9687af16f3455fa4c698af3acfcc0d94550e70caa1a"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 6,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-sc",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "66a371dc5ef41973101778dab3edde94be092a41f81c617a585f355f5b62cc03",
+        "candidates.json": "470863a45012088e67126fb532ca6ff8700729d008a2afa30714bb691071d1f9",
+        "coverage.json": "86e80ad1540b8806c1011c4837c5eeaba6a8ad4e0df87f355178378b8523fdcf",
+        "run.json": "040651525dd3b4b77643d86810b35a46d1ef9483714811530f5403b88a4119f9",
+        "report.md": "3cb69c306a083dc0f91d36d6b7e0d17c06b3ed50976d9d81fc84d8e37bd761c1"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 3,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-sd",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "117e564d0e597379526675a6d04db9dae22f55a8dd61cdf09de85c48c2ac0241",
+        "candidates.json": "6ad3272f5e6430ea7e1f1a6246447c0271ce63e7b53880e225864df29c517212",
+        "coverage.json": "10715ffcf6ca1dddf4aa4920a429bbfd9754e02c8058612048cc7debaf9cfed2",
+        "run.json": "a5559e3c71f1ab7831f1faed8209bf2894b1da45b8c120f53978a11c57278367",
+        "report.md": "2d91abd09cb33956466e1e4d580890cf3a6623fca558b447af044f4106654f41"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 1,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 12,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-tn",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 10,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "3daaa8469c133d6052003a24c05c70eb43ca9cc740d5fcf1dda9d78383521d6d",
+        "candidates.json": "54603d463112e3c0fa4dbe2cfb7991b321aedf02cff33a00cfee5eeafbc0bd9f",
+        "coverage.json": "4ce40a490c6b6a851cdedc383a93156c53c64722e1f0e826438c6d48237f9403",
+        "run.json": "bf58a0578be18cc1e3444a70a289da200e23c190a21bdb689fa9610a2fc28de2",
+        "report.md": "3a4b8b3284cee598355b0fa4e2940c9859f73e91f80636e74721bda44f346914"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 4,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 9,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-tx",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "gdelt": 1,
+        "googlenews": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "83fe0545618bdfb0c4bed53e0aae994da2b2418298aceac21b93a33cc0154916",
+        "candidates.json": "6d231322aaa75a79c8a51c5b376c258a9be8a72bc79478d40965106c7c37a1bf",
+        "coverage.json": "79f19cc6cc9f2dd9577a0caad8211700f62819f38f8a14db4d9dfd5fba59f224",
+        "run.json": "17d5d65859d22484c64470a0c1f9e8b19854d9abcbdf5d804aeffade92a6bbd7",
+        "report.md": "45e30426362b47b2461210daf58eb06eaec6aa1db9e37974ed23e8d0bbcb38bc"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 2,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-ut",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 12,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "51875b4b423e31126da7e797c15a1dfb5c306e2932af673912048742924a5186",
+        "candidates.json": "6d091f43c1c3f9a4aec7b6f7a5e0c79d7a5d772155ef2e9c803363b6c22be3a7",
+        "coverage.json": "2bd7eda704d833a71281da424ef545a5837ed1b19aeffb1b586629e4e494f252",
+        "run.json": "16aab9c8a7e159ae3660aa6dbce1f7068d319e5d18b83fb3dd77700948bc6ce2",
+        "report.md": "e8aa975d85e404cb3795dc357aa60af55fd66c416053bad75434b64ad6c6a777"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 1,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 12,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-va",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 15,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "226f7dde6d23d0d2c81f5994bf13bfd5f2cae6f5273220f27aca222d622a3dce",
+        "candidates.json": "14f1e45c93c87fcdffa951cce96d5850c3276eba24e68f7bf02210ea5b598533",
+        "coverage.json": "a170f1e89a82ad8023175e38c0a70d3113075bedc60f4d1dd8c32d44bb3fb9df",
+        "run.json": "24442af92da6e794dcbe691eb5e35bc5b6b4e4af6b100a2569109ebc4404a153",
+        "report.md": "23d2f09f31de6c3cd00285fc128f54091e2e7efa0d62bd9808bc45c8aa81ba1d"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 2,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-vt",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 8
+      },
+      "return_file_hashes": {
+        "answers.json": "51adf6ad7a1560e92272ebfdbf72441cdce87abb78aabca0bd20d7e97ff377b0",
+        "candidates.json": "f0d049b70478c6f77a8f4ba59686d4bb17b12ef91918307a82f1bdb0d05eaa6c",
+        "coverage.json": "1c616942bdbc82b1047434964db3fd973d7383a2f9711f8797d0e05349ea2186",
+        "run.json": "2268c56e198c48eae9ae0433d6f63876e339991985e35627b032be379a692f4a",
+        "report.md": "698187a8140dcfbe1ad0fd35389136ffa7cb05d149d28b2e5bf12b7d16cc3ae6"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 0,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 8,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-wa",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "6158eb2dc229d6c4c3ad82e58cc0506c876042edccf4de559d751863a47a1757",
+        "candidates.json": "2e3e972c81ad3548abccd13ea5ec2790ee689ce8c8f4b6bb811082a47d171cb3",
+        "coverage.json": "0c2dd79945fd68fd9c8fb2c8aee8f376bb6baec5e46e5ebbea5b24fe0c3179e4",
+        "run.json": "b88a18392ffc2f44fa3e49476b8972e8ff55aff04d6ca41565b39e629ec11155",
+        "report.md": "bb75688d9b8aae8a67c628fc2d6433c7ee4f9bf907edf99398cd86bbb9d12951"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 7,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 14,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-wi",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "fetch": 11,
+        "googlenews": 1,
+        "gdelt": 1
+      },
+      "return_file_hashes": {
+        "answers.json": "6846948bc8d606da66281f483bb04b7f2c06d60569391e91f160954ec4798343",
+        "candidates.json": "f9c62fa7ae1c577958e95fb63ade734a574096341d3bb213e10bedb8ad5a82ce",
+        "coverage.json": "a2c1f59b392d0e9080b3dde8d25e8f0f7cca14e659369d9da94db52fc8282b54",
+        "run.json": "9394dc02aa577c06ade43627901dfd9af9a2df044219f6ed785a9629c5c7d2ec",
+        "report.md": "8e7252e7f740c175a56f8fe5a5a745e392e7c7dc5eda52a10f42f356788001e5"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 5,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 11,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-wv",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "021e1fab79e008f9130ecbd1670aa14f31ac587a02ec4c8e3f1c14d00cfc01e5",
+        "candidates.json": "be879a960b1630670042755b8414ce7fc786a05a895fd101042852cdee868cc7",
+        "coverage.json": "9966ac14502b5e079cddb0eaacd8d6cf37e52685cc0a9df6f3897411de724f99",
+        "run.json": "a2feb5a07f211818b85c7dcb7bd7bca44cfa502699cbd2b3995036f8fcec0459",
+        "report.md": "883ed800d4a53b14ff0b7331b929453ddf1156c30989440254f4657d10cbadf8"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 0,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    },
+    {
+      "job_id": "discovery-wy",
+      "cli_state": "finished",
+      "attempt_counts": {
+        "exa": 5,
+        "serpapi": 7,
+        "googlenews": 1,
+        "gdelt": 1,
+        "fetch": 15
+      },
+      "return_file_hashes": {
+        "answers.json": "71d371e9c8ea036e8198dfc1b015f104dba9b8ebb16c0c667af087e81483ca84",
+        "candidates.json": "f727c8c75f6738c4e99365701d3368ea23110a918011ccfe554ecac6a52da048",
+        "coverage.json": "f1177f83b39b26cf7cb174b4a8eb9e35c01cf8e36aefe8686ff65320ed1876d3",
+        "run.json": "7f361c998178ed278635aa662d3a4be3bc35fdbe00f8d61be27c5ea92f6ecc38",
+        "report.md": "cc44d44802054c99b183131e4d6d45d516e86ab4338acd8dac02de7d73bd7421"
+      },
+      "sector_labels_present_in_return": [
+        "battery_storage",
+        "cryptocurrency_mining",
+        "data_center",
+        "solar",
+        "wind"
+      ],
+      "sector_labels_not_found": [],
+      "local_candidate_proposals": 1,
+      "discovery_review_status": "pending substantive coverage, identity and legal review",
+      "coverage_limit": "Sector labels are metadata presence only, not proof of adequate searches, negative findings or a jurisdiction census.",
+      "checks": [],
+      "schema_error_count": 0,
+      "evidence_integrity_issue_count": 0,
+      "verified_fetch_versions": 15,
+      "site_operator_diagnostics": {}
+    }
+  ],
+  "scope": "Mechanical return census only. Proposals are not accepted additions and may duplicate existing records or each other. Sector labels, successful transport and CLI completion do not establish source correctness, legal effect, adequate searches or absence. Site-operator mismatches require follow-up; all substantive state/sector review remains open."
+}

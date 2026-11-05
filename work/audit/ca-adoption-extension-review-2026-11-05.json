@@ -1,0 +1,56 @@
+{
+  "reviewed_at": "2026-11-05T18:52:06.935442+00:00",
+  "answer": "work/answers/refresh-2026-11-05-wave3/CA-adoption-and-extension.json",
+  "original_answer_sha256": "e93ecb0e41630dd454e6bad9bab8c9f4fc5a5675007eb58841066dce0e60444e",
+  "morgan_hill_searches": 1,
+  "morgan_hill_fetches": 4,
+  "browser_attempts": [
+    {
+      "attempt_id": "7d004961832e47bca3d74d9d89c8cbbf",
+      "chars": 1720,
+      "controls": {
+        "engine": "pydoll",
+        "headless": false,
+        "settle_ms": 5000
+      }
+    }
+  ],
+  "morgan_hill_derivation": [
+    {
+      "attempt_id": "f2f5245b49d04d31be990c92179b613d",
+      "source_body_sha256": "eb83fe3ac1db53f28588b12bea2ac8dd58a8a62c886366be0ea6b7f401ee2d35",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/coordinator/morgan-hill/original-reviewed-pages.private.txt",
+      "derived_text_sha256": "009c6737a7624ef9bf578cd172ac18f739f45fa9ce2c905e119c947f4b75e6f7",
+      "method": "Coordinator pdftoppm 120 dpi and Tesseract, executed Ordinance 2377 pages 1 and 3; both visually reviewed including September 16 adoption and September 21 clerk certificate",
+      "pages": [
+        1,
+        3
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T18:50:02.323440+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ],
+  "humboldt_derivation": [
+    {
+      "attempt_id": "69dd40cfce754e359f6ffd2f392f5378",
+      "source_body_sha256": "67471737c646e8b5ad3c3bbcefcee86164f759775c889695a1f0e7b950e7c807",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/ca-inventory-001/coordinator-humboldt-review/reviewed-pages.private.txt",
+      "derived_text_sha256": "3ae33eca17f3a1aedaf8e49d2a3c3801516b67fd1aa8792a4b0114cba8f6ddd8",
+      "method": "Coordinator pdftoppm 120 dpi plus Tesseract on original PDF pages 1, 4 and 5; adoption, immediate effect and 45-day term visually checked; other pages not transcribed",
+      "pages": [
+        1,
+        4,
+        5
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T18:40:05.247055+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ],
+  "scope": "Humboldt certified adoption; Morgan Hill original executed adoption; Indio and Morgan Hill extension observations retain source-specific limits. No absence finding or permanent-ban inference. Raw original client text unchanged."
+}

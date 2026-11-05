@@ -8,8 +8,16 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
+from urllib.parse import urlsplit, urlunsplit, parse_qs
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def public_source_url(url):
+    parts=urlsplit(url)
+    if (parts.hostname or '').endswith(('.blob.core.windows.net','.blob.core.usgovcloudapi.net')) and 'sig' in parse_qs(parts.query):
+        return urlunsplit((parts.scheme,parts.netloc,parts.path,'',''))
+    return url
 
 
 def import_attempts(directory, state, apply=False, raw_root=None):
@@ -46,17 +54,25 @@ def import_attempts(directory, state, apply=False, raw_root=None):
         elif hashlib.sha256(text_bytes).hexdigest()!=e['text_sha256']:
             raise ValueError(f"Evidence text drifted without reviewed derivation: {e['attempt_id']}")
         if not text.strip():continue
-        if (e["url"], e["body_sha256"]) in seen:
+        public_url=public_source_url(e['url']);final_url=public_source_url(e['final_url'])
+        if (public_url, e["body_sha256"]) in seen:
             continue
-        key = hashlib.sha256(e["url"].encode()).hexdigest()[:16] + "-" + e["body_sha256"][:12]
+        key = hashlib.sha256(public_url.encode()).hexdigest()[:16] + "-" + e["body_sha256"][:12]
         ext = "pdf" if raw.startswith(b"%PDF-") else "bin"
         raw_path, text_path = dest / f"{key}.{ext}", dest / f"{key}.txt"
-        row = {"url": e["url"], "final_url": e["final_url"], "status": e["status"], "ok": True,
+        row = {"url": public_url, "final_url": final_url, "status": e["status"], "ok": True,
                "fetched_at": e["finished_at"], "key": key, "sha256": e["body_sha256"],
                "text_sha256": hashlib.sha256(text_bytes).hexdigest(), "text_chars": len(text), "title": e.get("title"),
                "text_method": "bc_research.pipeline.document_text via bounded research client",
                "files": [str(x.relative_to(ROOT)) for x in [raw_path, text_path]],
                "attempt_id": e["attempt_id"], "published": False}
+        if public_url!=e['url'] or final_url!=e['final_url']:
+            row['retrieval_url_sha256']=hashlib.sha256(e['url'].encode()).hexdigest()
+            row['access_note']='Retrieved through a publicly linked signed download; refresh via its public portal. The unsigned resource identifier may not be directly retrievable.'
+            context=directory/'source-link-provenance.json'
+            if context.exists():
+                supplied=json.loads(context.read_text()).get(e['attempt_id'],{})
+                row['source_link_context']={k:supplied[k] for k in ('portal_url','document_label') if k in supplied}
         if derivation: row['text_derivation']=derivation
         if apply:
             dest.mkdir(parents=True, exist_ok=True)
@@ -76,7 +92,7 @@ def import_attempts(directory, state, apply=False, raw_root=None):
                 f.write(f"\n/{key}.*\n")
             with manifest.open("a") as f:
                 f.write(json.dumps(row, ensure_ascii=False) + "\n")
-        seen.add((e["url"], e["body_sha256"]))
+        seen.add((public_url, e["body_sha256"]))
         added.append(row)
     return {"apply": apply, "new_sources": len(added), "sources": added}
 

@@ -91,6 +91,7 @@ Exit: accepted pilot report and separately authorized bounded collection scope.
 - [ ] Re-research every existing local inventory ID and publish confirmed/changed/unresolved/not-attempted freshness accounting.
 - [ ] Re-research every state-policy ID and discover new state actions across all 50 states and existing sectors.
 - [ ] Search new local instruments across all 50 states/sectors and document actual jurisdiction/time coverage.
+- [x] Receive and mechanically audit all 50 state-discovery returns: five sector labels and schema-valid answers per state, 185 local proposals pending substantive review (`work/audit/state-discovery-returns-2026-11-05.json`). This does not close the preceding coverage task.
 - [ ] Review site-operator search scope diagnostics and repair deficient official-record searches before accepting any negative coverage finding (`work/audit/search-scope-diagnostics-2026-11-05.json`).
 - [ ] Define and budget the project/disclosure refresh scope separately; retain dated snapshots where full recollection is outside scope.
 - [ ] Seed candidate lists from Ballotpedia, Duane Morris, Redbud and independently found official sources.

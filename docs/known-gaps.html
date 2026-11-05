@@ -191,10 +191,18 @@
 <main class="doc">
   <div class="breadcrumb"><a href="../index.html">Home</a> / Docs</div>
   <h1 id="known-gaps-and-limitations">Known gaps and limitations</h1>
-<p>We're confident in what's in this dataset, but here's an honest accounting of what we know we're missing.</p>
+<p>The November refresh is in progress. This page records evidence and coverage limits;
+record-level observations and <code>[VERIFY]</code> markers identify unresolved work.</p>
 <h2 id="what-we-know-we-dont-have">What we know we don't have</h2>
 <h3 id="small-township-records-that-arent-online">Small-township records that aren't online</h3>
-<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>306 of the 1292 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>), The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.</p>
+<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>308 of the 1292 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.</p>
+<h3 id="november-discovery-and-search-limits">November discovery and search limits</h3>
+<p>All 50 state-discovery jobs have returned. Their sector labels and answer schemas
+pass mechanical checks; proposals still require source, identity and legal review.
+The bounded searches are not a census of every local government. Site-filtered
+searches with returned hosts outside the intended scope cannot establish absence
+of official records. Deficient searches and private candidate material remain in
+the review queue; only reviewed changes enter the public inventory.</p>
 <h3 id="records-behind-authentication-or-captcha-gates">Records behind authentication or CAPTCHA gates</h3>
 <p>Some primary sources (notably the NC eCourts portal at <code>portal-nc.tylertech.cloud</code>, several Legistar instances, and certain Granicus-archived meetings) are protected by Akamai-style human-verification challenges that defeat automated retrieval. For affected entries, we use the best secondary source (county press releases, local news) and document the evidence ceiling.</p>
 <h3 id="coverage-of-the-mayjuly-2026-window-v202607">Coverage of the May–July 2026 window (v2026.07)</h3>
@@ -283,7 +291,7 @@ happened after September 23, 2026 is not in this update. Before that date we
 rechecked four kinds of rows. We looked at rows past their end date and
 extensions with no new end date. We also looked at proposals more than 60 days
 old and rows with a <code>[VERIFY]</code> note.</p>
-<p>1066 moratoria are in force, and many end in the next few months. The data
+<p>1067 moratoria are in force, and many end in the next few months. The data
 check still flags eleven rows that look out of date. Eight of them, in
 Cedartown, Georgia and seven New York towns, have passed their end date. We
 could not find out what happened next, so each carries a <code>[VERIFY]</code> note. The

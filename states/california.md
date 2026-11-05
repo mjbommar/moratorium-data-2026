@@ -3,7 +3,7 @@
 
 Every local infrastructure moratorium in the inventory for California, current through **November 5, 2026**.
 
-**34 instruments** — 24 in force, 1 pending, 9 past.
+**34 instruments** — 25 in force, 0 pending, 9 past.
 
 State policy is tracked separately: **13 actions** (13 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -21,7 +21,7 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 | Eureka | City | 2026-09-01 | data center | 🟢 Active |
 | Gilroy | City | 2026-09-14 | data center | 🟢 Extended |
 | Hayward | City | 2026-10-20 | data center | 🟢 Active |
-| Humboldt County | County | Unverified | data center | 🟡 Pending |
+| Humboldt County | County | 2026-10-06 | data center | 🟢 Active |
 | Imperial | City | 2026-06-03 | data center, battery storage | 🟢 Extended |
 | Imperial County | County | 2026-06-16 | data center | 🔴 Rescinded |
 | Indio | City | 2026-06-03 | data center | 🟢 Extended |
@@ -31,7 +31,7 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 | Mendocino County | County | 2026-09-01 | data center, cryptocurrency mining | 🟢 Extended |
 | Montebello | City | 2026-02-11 | data center | ⚪ Expired |
 | Monterey Park | City | 2026-01-21 | data center | ⚪ Replaced |
-| Morgan Hill | City | 2026-08-26 | data center, battery storage | 🟢 Active |
+| Morgan Hill | City | 2026-09-16 | data center, battery storage | 🟢 Extended |
 | Morro Bay | City | 2025-01-28 | battery storage | 🟢 Extended |
 | Oakley | City | 2026-04-14 | data center | 🟢 Extended |
 | Orange County | County | 2025-01-28 | battery storage | ⚪ Replaced |
@@ -241,17 +241,17 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 ### Humboldt County
 
 - **Type:** County
-- **Status:** 🟡 Pending
-- **Date enacted:** —
-- **Normalized date:** `—` (unverified)
-- **Duration:** Proposed one-year moratorium; not yet adopted as of 2026-09-23
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-10-06 (Humboldt County Board of Supervisors adopted Ordinance 2794, effective immediately)
+- **Normalized date:** `2026-10-06` (exact)
+- **Duration:** 45 days from adoption, unless extended under Government Code section 65858.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-humboldt-county-undated`
-- **Legal basis:** —
-- **What prompted it:** Board directed staff on 2026-07-15 to prepare a one-year data center moratorium ordinance, choosing a moratorium over a permanent ban partly because of an existing small data center (trans-Pacific cable landing point) in Arcata.
+- **Legal basis:** Humboldt County Ordinance 2794; California Government Code sections 25123(d) and 65858
+- **What prompted it:** On July 14, 2026, the Board directed preparation of a temporary moratorium while developing data-center regulations.
 - **Affected projects:** —
-- **Detailed status:** Pending as of 2026-09-23. Board of Supervisors directed staff on 2026-07-15 to draft a one-year moratorium; no adopted ordinance was found in this pass, more than two months later. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Detailed status:** Ordinance 2794 was adopted October 6, 2026 by a 4-1 vote, effective immediately for 45 days unless extended. It concerns new data-center applications in unincorporated Humboldt County. [VERIFY subsequent action and any amendment-specific exemptions; no later extension was established in this bounded review.]
 - **Outcome:** —
 
 ### Imperial
@@ -290,16 +290,16 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 
 - **Type:** City
 - **Status:** 🟢 Extended
-- **Date enacted:** 2026-06-03 (City Council unanimous adoption of Urgency Ordinance No. 1838); extended by a further City Council vote on 2026-07-15
+- **Date enacted:** 2026-06-03 (Urgency Ordinance No. 1838); extended July 15 and October 7, 2026
 - **Normalized date:** `2026-06-03` (exact)
-- **Duration:** Initial 45 days from 2026-06-03 (Urgency Ordinance No. 1838); extended 90 days by unanimous City Council vote on 2026-07-15, keeping the pause in force through 2026-10-16 while staff drafts a permanent ban ordinance for Planning Commission and Council consideration.
-- **Current end date:** `2026-10-16`
+- **Duration:** Initial 45 days; first extended 90 days through October 16, 2026; October 7 second extension for one year following expiration, through October 16, 2027, unless earlier terminated.
+- **Current end date:** `2027-10-16`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-indio-2026`
 - **Legal basis:** Urgency Ordinance No. 1838, adopted under California Gov. Code section 65858
 - **What prompted it:** Pause on establishment, expansion, or intensification of data center uses to allow review of regulations and consideration of a longer moratorium or permanent prohibition; city reported no active data center applications
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. The City Council voted unanimously on 2026-07-15 to extend the moratorium 90 days, through 2026-10-16, and directed staff to draft a permanent ban ordinance; staff's stated goal was a Planning Commission hearing in August and a Council vote in September, with a permanent ban taking effect in late October or early November 2026. As of the most recent secondary source reviewed (Desert Oasis Insider, September 2026), 'Indio's temporary moratorium currently runs through October 16,' with no adoption of the permanent ban yet confirmed in this pass; staff had indicated a further short extension would be sought if the permanent-ban schedule slipped.
+- **Detailed status:** The Riverside Record reports the Council voted unanimously October 7, 2026 to extend the temporary moratorium for up to one year. The City packet proposed Ordinance 1838-Ext2 with an end through October 16, 2027 unless earlier terminated or superseded by effective permanent controls. [VERIFY signed adopted second extension, exact operative endpoint and any subsequent permanent ban; the proposal and report do not establish final text or later force.]
 - **Outcome:** —
 
 ### Irwindale
@@ -401,17 +401,17 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 ### Morgan Hill
 
 - **Type:** City
-- **Status:** 🟢 Active
-- **Date enacted:** 2026-08-26 (City Council unanimous)
-- **Normalized date:** `2026-08-26` (exact)
-- **Duration:** 45-day interim urgency ordinance; extendable in two phases up to two years total
+- **Status:** 🟢 Extended
+- **Date enacted:** September 16, 2026, unanimous adoption of Interim Ordinance 2377, New Series; clerk-certified September 21.
+- **Normalized date:** `2026-09-16` (exact)
+- **Duration:** Initial 45 days from September 16, 2026, effective immediately under Ordinance 2377. Local reporting states a 22-month-15-day extension approved October 21; operative extension endpoint remains unverified.
 - **Current end date:** `—`
 - **Sectors:** data center, battery storage
 - **Moratorium ID:** `ca-morgan-hill-2026`
-- **Legal basis:** Interim urgency ordinance (Govt. Code 65858) blocking new data center and grid-scale BESS applications
+- **Legal basis:** Interim Ordinance 2377, New Series, adopted September 16, 2026 under Government Code section 65858; October 21 extension reported, adopted extension number and text not independently recovered.
 - **What prompted it:** No zoning standards specific to either use; concern over loopholes like Gilroy's staff-level AWS approval; industrial zones close to residential areas.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23. Adopted unanimously 2026-08-26, effective immediately for 45 days.
+- **Detailed status:** Executed Ordinance 2377 establishes September 16, 2026 adoption, immediate effect and an original 45-day term for freestanding data centers and grid-scale BESS. The Morgan Hill Times reports a unanimous October 21 extension for 22 months and 15 days. [VERIFY adopted extension ordinance, operative endpoint and later action; original September 16 adoption is confirmed by the executed copy, replacing the earlier August 26 account.]
 - **Outcome:** —
 
 ### Morro Bay

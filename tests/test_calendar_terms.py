@@ -11,6 +11,13 @@ apply=module('apply_research');worklist=module('build_worklist')
 
 
 class CalendarTerms(unittest.TestCase):
+    def test_unknown_extension_endpoint_does_not_reuse_original_expiry(self):
+        row={'enacted_status':'extended','duration_kind':'fixed_days','duration_days':'45',
+             'date_enacted_iso':'2026-08-26','current_end_date_iso':''}
+        self.assertIsNone(worklist.computed_expiry(row))
+        row['current_end_date_iso']='2028-09-16'
+        self.assertEqual(worklist.computed_expiry(row),dt.date(2028,9,16))
+
     def test_calendar_year_does_not_become_730_days(self):
         row={'duration_kind':'calendar_term','duration_days':'730','duration':'Two calendar years from signature',
              'date_enacted_iso':'2026-10-08','current_end_date_iso':''}

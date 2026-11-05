@@ -80,13 +80,15 @@ def parse_iso(value: str) -> dt.date | None:
 
 
 def computed_expiry(row: dict) -> dt.date | None:
-    """Current known end, otherwise date_enacted_iso + duration_days."""
+    """Current known end; original-term arithmetic only before an extension."""
     explicit = (row.get("current_end_date_iso") or "").strip()
     if explicit:
         try:
             return dt.date.fromisoformat(explicit)
         except ValueError:
             return None
+    if row.get('enacted_status')=='extended':
+        return None  # The original term does not date the operative extension.
     if row.get("duration_kind") == "calendar_term":
         return None  # Calendar anchor/arithmetic require supported evidence.
     start = parse_iso(row["date_enacted_iso"])

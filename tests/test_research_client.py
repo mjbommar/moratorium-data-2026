@@ -4,6 +4,8 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+import subprocess
+import sys
 
 spec = importlib.util.spec_from_file_location("client", Path(__file__).resolve().parents[1] / "scripts/research_client.py")
 client = importlib.util.module_from_spec(spec)
@@ -11,6 +13,16 @@ spec.loader.exec_module(client)
 
 
 class ClientTests(unittest.TestCase):
+    def test_unsupported_controls_do_not_consume_a_reservation(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            p=Path(tmp);(p/'client-config.json').write_text(json.dumps({'caps':{'fetch':1,'search_total':1,'gdelt':1}}))
+            script=Path(__file__).resolve().parents[1]/'scripts/research_client.py'
+            for args in (['fetch','https://example.invalid','--mode','http','--settle-ms','5000'],
+                         ['search','query','--backend','gdelt','--domain','example.invalid']):
+                result=subprocess.run([sys.executable,str(script),'--directory',str(p),*args],capture_output=True,text=True)
+                self.assertEqual(result.returncode,2)
+                self.assertFalse((p/'attempts.private.jsonl').exists())
+
     def test_site_diagnostic_uses_hostname_not_url_substrings(self):
         r=client.search_scope('site:example.gov moratorium',[
             {'url':'https://records.example.gov/ordinance'},

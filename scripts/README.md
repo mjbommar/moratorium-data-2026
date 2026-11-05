@@ -116,3 +116,10 @@ multiple verified hosts. SerpAPI translates the same option to site operators;
 this client rejects the option for other backends. Use retained official links to
 identify hosts, archives, attachments and pagination, and keep publication-date
 filters separate from legal event dates.
+
+For a JavaScript portal that yields an empty shell, explicit browser mode accepts
+`--settle-ms 5000` or `--wait-for-selector CSS`. The controls are recorded and the
+same persistent cap still applies; unsupported mode/control combinations fail
+before reserving a paid attempt. Azure signed download capabilities stay in private
+retrieval artifacts. The archive publishes unsigned resource identifiers, private
+retrieval-URL hashes and reviewed portal/document context instead.

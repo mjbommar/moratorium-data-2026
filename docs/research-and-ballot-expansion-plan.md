@@ -342,6 +342,19 @@ document/resource hosts. Government query parameters may identify a document; re
 tracking parameters without collapsing distinct resources. HTML success with a login,
 challenge, or empty app shell is not document acquisition.
 
+For delayed JavaScript portals, use explicit headful pydoll mode with bounded
+settling or a known rendered selector (`research_client.py fetch ... --mode browser
+--settle-ms 5000`, optionally `--wait-for-selector`). Record those controls and
+inspect substantive content before following the actual attachment links. A second
+attempt with diagnosed rendering controls is an explicit recovery, not an automatic
+retry. Preserve the initial shell/failed result and its consumed reservation.
+
+Some public portals issue transient signed download links. Retain the exact private
+retrieval URL and response bytes privately, while public provenance uses the unsigned
+resource identifier, a hash of the retrieval URL, and the stable public portal and
+document label needed to refresh access. Do not publish transient download capabilities
+or present an unsigned identifier as necessarily anonymously retrievable.
+
 For PDF/image returns, preserve page count, page numbers, OCR engine/version and
 text confidence. Inspect tables and headers; visual checking is necessary when OCR
 or extraction cannot reliably associate vote columns with the right question. Do not
