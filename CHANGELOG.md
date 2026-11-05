@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Scanned-source review corrects Woodfin and Cherokee calendar terms and Yadkin’s twenty-four-month term, explicit August 17, 2028 outer endpoint, cryptocurrency scope and municipal-ETJ exclusion. Cherokee’s March 2025 report deadline conflicts with its October 2023 signature chronology; the discrepancy and later legal force remain unresolved.
+
 Newport’s signed ORD 2026-01 resolves September 10 adoption/effectiveness and its conditional September 10, 2027 outer endpoint; visual review corrects an extracted 2016/2026 instrument-number error. Warren and Watauga calendar terms remain news-qualified. McDowell’s historical two-month term is distinguished from its later replacement account, with continuity still unresolved.
 
 Six further North Carolina corrections distinguish Rowan’s signed May 4 adoption from its April 20 hearing, Cumberland’s explicit December 15 termination clause, Gates’s cryptocurrency coverage and calendar term, Pasquotank’s conditional solar endpoint, Surry’s cryptocurrency definition and Bailey’s news-qualified ten-month term. Source-stated outer endpoints are projected without implying no later change; current-force gaps remain flagged.
@@ -50,7 +52,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **458** |
+| Rows we still want to confirm (`[VERIFY]`) | **461** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

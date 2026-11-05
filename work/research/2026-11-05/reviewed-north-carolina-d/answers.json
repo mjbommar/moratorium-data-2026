@@ -1,0 +1,126 @@
+{
+  "state_abbrev": "NC",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra return",
+  "decisions": [
+    {
+      "moratorium_id": "nc-town-of-woodfin-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.woodfin-nc.gov/Document%20Center/Ordinance%20%26%20Resolutions/Ordinance/2026/2026.05.19%20Ordinance%202026-04%20Establishing%20a%20Temporary%20Moratorium%20on%20new%20Data%20Centers.pdf?t=202605200959420",
+          "source_type": "ordinance",
+          "supports": "Twelve calendar months from the effective date, with early repeal possible.",
+          "quote": "This moratorium shall remain in effect for a period of twelve (12)\nmonths from the effective date of this Ordinance unless repealed earlier by the Town Council.",
+          "document_date": "2026-05-19"
+        }
+      ],
+      "notes": "Limited historical term correction only; this does not confirm status at the research cutoff. Historical source read; current legal force, replacement, extension or repeal not established at the cutoff. See report and run ledger.",
+      "confidence": 0.9,
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Source expresses the original period in months or years; earlier termination provisions remain applicable."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Calendar periods must not be represented as fixed day counts."
+        },
+        "current_status": {
+          "from": "Active as of researched_as_of; official minutes record no public comments at the hearing",
+          "to": "The signed May 19, 2026 ordinance states twelve months from effectiveness unless repealed earlier. Publication/filing and later actions were not independently established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate original clause review from a full later-action/legal-force finding."
+        }
+      }
+    },
+    {
+      "moratorium_id": "nc-yadkin-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.yadkincountync.gov/DocumentCenter/View/7026/Ordinance-for-Temporary-Data-Center-Moratorium",
+          "source_type": "ordinance",
+          "supports": "Twenty-four-month original term and earlier amendment provision.",
+          "quote": "whichever comes first. This twenty-four (24) month moratorium is necessary to allow\nYadkin County Planning staff sufficient time to study these uses and their impacts,",
+          "document_date": "2026-08-17"
+        },
+        {
+          "url": "https://www.yadkincountync.gov/DocumentCenter/View/7026/Ordinance-for-Temporary-Data-Center-Moratorium",
+          "source_type": "ordinance",
+          "supports": "Scope includes cryptocurrency mining and excludes municipal extraterritorial jurisdictions.",
+          "quote": "unincorporated jurisdiction Yadkin County and outside any municipal extraterritorial\njurisdictions for data centers, data processing facilities, cryptocurrency mining, and any\nother uses associated with data processing facilities for a period of twenty-four (24)\nmonths",
+          "document_date": "2026-08-17"
+        }
+      ],
+      "notes": "Limited historical term correction only; this does not confirm status at the research cutoff. Historical source read; current legal force, replacement, extension or repeal not established at the cutoff. See report and run ledger.",
+      "confidence": 0.9,
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Source expresses the original period in months or years; earlier termination provisions remain applicable."
+        },
+        "duration_days": {
+          "from": "731",
+          "to": "",
+          "reason": "Calendar periods must not be represented as fixed day counts."
+        },
+        "sectors": {
+          "from": "[\"data_center\"]",
+          "to": "[\"data_center\",\"cryptocurrency_mining\"]",
+          "reason": "Signed ordinance expressly includes cryptocurrency mining as a covered use."
+        },
+        "duration": {
+          "from": "Two years (to about 2028-08-17); unincorporated areas only",
+          "to": "Twenty-four months, from 2026-08-17 to 2028-08-17 or until a zoning text amendment addressing the covered uses, whichever comes first; applies in unincorporated county outside municipal extraterritorial jurisdictions.",
+          "reason": "The adopted text specifies its term, early termination and geographic scope."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2028-08-17",
+          "reason": "Explicit outer endpoint in sections 1 and 2; earlier zoning-amendment condition remains."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; two-year moratorium adopted 2026-08-17 applying to unincorporated Yadkin County (not Yadkinville or other towns).",
+          "to": "The signed August 17, 2026 ordinance covers data processing and cryptocurrency mining in unincorporated county outside municipal ETJs; it states twenty-four months to August 17, 2028 or an earlier specified zoning amendment. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate original clause review from a full later-action/legal-force finding."
+        }
+      }
+    },
+    {
+      "moratorium_id": "nc-cherokee-county-2023",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.cherokeecounty-nc.gov/DocumentCenter/View/2109/High-Impact-Facility-Moratorium-10-2-",
+          "source_type": "ordinance",
+          "supports": "Original one-calendar-year term or earlier land-use ordinance.",
+          "quote": "last for (1) one calendar year therefrom or until such time as\nthe Cherokee County Board of Commissioners enacts a high-\nimpact land use ordinance.",
+          "document_date": "2023-10-02"
+        }
+      ],
+      "notes": "Limited historical term correction only; this does not confirm status at the research cutoff. Historical source read; current legal force, replacement, extension or repeal not established at the cutoff. See report and run ledger.",
+      "confidence": 0.9,
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Source expresses the original period in months or years; earlier termination provisions remain applicable."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Calendar periods must not be represented as fixed day counts."
+        },
+        "current_status": {
+          "from": "Expired \u2014 per BPR (2026-04-10), the Cherokee County moratorium \"had been expired for a year\" by January 2026; Commissioner Ben Adams asked the board to renew the moratorium and add AI data centers, but the board did not act, and Adams is now pursuing planning-board-led ordinance work (per Cherokee Scout). One former crypto mine in Marble (Core Scientific) is converting to a hyperscaler-class AI data center.",
+          "to": "The signed October 2, 2023 document states one calendar year from adoption or earlier high-impact land-use ordinance. Its March 2025 planning-report deadline is internally inconsistent with that chronology; no different adoption date or bridging extension is inferred. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate original clause review from a full later-action/legal-force finding."
+        }
+      }
+    }
+  ],
+  "new_candidates": []
+}

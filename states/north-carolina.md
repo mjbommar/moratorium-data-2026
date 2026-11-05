@@ -77,7 +77,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 | Vance County | County | 2026-09-14 | data center | 🟢 Active |
 | Warren County | County | 2026-08-19 | data center | 🟢 Active |
 | Watauga County | County | 2026-04-21 | data center | 🟢 Active |
-| Yadkin County | County | 2026-08-17 | data center | 🟢 Active |
+| Yadkin County | County | 2026-08-17 | data center, cryptocurrency mining | 🟢 Active |
 
 ## Detailed entries
 
@@ -190,7 +190,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Legal basis:** High-Impact Facility Moratorium adopted under N.C.G.S. 160D-107(a) and 160D-107(d); ordinance text recites Cherokee County Comprehensive Plan adoption September 18, 2023 and finds at least 3 crypto mining sites in the county; covered uses include asphalt facilities; bulk inflammable, chemical, biological-waste or explosive storage; cryptocurrency mining server farms; unenclosed data storage facilities with powered cooling; facilities with generators ≥600 kW fossil-fuel power; solid-waste management/disposal facilities; commercial incinerators; bulk concrete production; nuclear/toxic-material storage or disposal; and privately operated prisons. Scope: unincorporated Cherokee County, excluding lands within the Qualla Boundary of the Eastern Band of Cherokee Indians. The county does not have land-use zoning, so the moratorium operated through permit gating only. PDF stored at `research/_originals/cherokee-county-high-impact-facility-moratorium-2023.pdf`; OCR text in `research/_web/cherokee-county-high-impact-facility-moratorium-2023-ocr.md`.
 - **What prompted it:** Existing cryptocurrency mining noise and electricity concerns in the Murphy/Marble area.
 - **Affected projects:** Cryptocurrency mining/high-impact facilities; the Marble facility has converted from crypto to AI workloads.
-- **Detailed status:** Expired — per BPR (2026-04-10), the Cherokee County moratorium "had been expired for a year" by January 2026; Commissioner Ben Adams asked the board to renew the moratorium and add AI data centers, but the board did not act, and Adams is now pursuing planning-board-led ordinance work (per Cherokee Scout). One former crypto mine in Marble (Core Scientific) is converting to a hyperscaler-class AI data center.
+- **Detailed status:** The signed October 2, 2023 document states one calendar year from adoption or earlier high-impact land-use ordinance. Its March 2025 planning-report deadline is internally inconsistent with that chronology; no different adoption date or bridging extension is inferred. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** No moratorium currently in force; planning board reconvened to develop possible ordinance without zoning.
 
 ### City of Asheville
@@ -1118,7 +1118,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Legal basis:** Ordinance 2026-04
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Active as of researched_as_of; official minutes record no public comments at the hearing
+- **Detailed status:** The signed May 19, 2026 ordinance states twelve months from effectiveness unless repealed earlier. Publication/filing and later actions were not independently established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Vance County
@@ -1175,14 +1175,14 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-08-17, Board of Commissioners 5-0 adoption after a public hearing; Commissioner Cliff Collins moved to lengthen the proposed 12-month term to two years
 - **Normalized date:** `2026-08-17` (exact)
-- **Duration:** Two years (to about 2028-08-17); unincorporated areas only
-- **Current end date:** `—`
-- **Sectors:** data center
+- **Duration:** Twenty-four months, from 2026-08-17 to 2028-08-17 or until a zoning text amendment addressing the covered uses, whichever comes first; applies in unincorporated county outside municipal extraterritorial jurisdictions.
+- **Current end date:** `2028-08-17`
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-yadkin-county-2026`
 - **Legal basis:** Yadkin County data center moratorium ordinance, N.C.G.S. 160D-107 (ordinance number not located)
 - **What prompted it:** Concern over water use, energy demand, farmland and rural character; WhiteFiber announced a potential Yadkinville data center project
 - **Affected projects:** WhiteFiber potential data center project in Yadkinville (inside town limits, not covered).
-- **Detailed status:** Active as of 2026-09-23; two-year moratorium adopted 2026-08-17 applying to unincorporated Yadkin County (not Yadkinville or other towns).
+- **Detailed status:** The signed August 17, 2026 ordinance covers data processing and cryptocurrency mining in unincorporated county outside municipal ETJs; it states twenty-four months to August 17, 2028 or an earlier specified zoning amendment. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Two-year moratorium adopted.
 
 ---
