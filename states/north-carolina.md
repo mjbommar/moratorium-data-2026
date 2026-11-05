@@ -68,7 +68,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 | Town of Hot Springs | Town | 2026-07-13 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Mayodan | Town | 2026-05-11 | data center, cryptocurrency mining, solar | ⚪ Replaced |
 | Town of Nashville | Town | 2026-08-04 | data center, cryptocurrency mining | 🟢 Active |
-| Town of Newport | Town | 2026-09 | data center, cryptocurrency mining | 🟢 Active |
+| Town of Newport | Town | 2026-09-10 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Spring Hope | Town | 2026-05-04 | data center | 🟢 Active |
 | Town of Waxhaw | Town | 2026-08-11 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Wendell | Town | 2026-04-13 | data center, cryptocurrency mining | 🟢 Active |
@@ -622,7 +622,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Legal basis:** January 8, 2024 Board minutes state the adopted cryptocurrency ordinance ended the moratorium.
 - **What prompted it:** Cryptocurrency mine noise, natural resources, and electric grid concerns.
 - **Affected projects:** Cryptocurrency mines; residential cryptocurrency mining remained allowed under the replacement ordinance, according to minutes.
-- **Detailed status:** Replaced
+- **Detailed status:** May 15, 2023 minutes record approval of a two-month moratorium; January 8, 2024 minutes describe adoption of an ordinance intended to end the moratorium. Bridging extensions, exact continuity and operative replacement text remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Commissioners adopted an ordinance prohibiting establishment of cryptocurrency mines, effective 2024-01-08.
 
 ### Nash County
@@ -1029,16 +1029,16 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 
 - **Type:** Town
 - **Status:** 🟢 Active
-- **Date enacted:** September 2026 (reported 2026-09-16), Town Council approval of a temporary moratorium; exact meeting date not located
-- **Normalized date:** `2026-09` (month_only)
-- **Duration:** At least one year
-- **Current end date:** `—`
+- **Date enacted:** 2026-09-10, Town Council adoption; ordinance effective September 10, 2026
+- **Normalized date:** `2026-09-10` (exact)
+- **Duration:** Up to twelve months, commencing 2026-09-10 and expiring no later than 2027-09-10 or upon approval of UDO amendments
+- **Current end date:** `2027-09-10`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-town-of-newport-2026`
-- **Legal basis:** Town of Newport moratorium on data centers, data processing facilities, cryptocurrency mining operations and associated uses in town limits and ETJ (ordinance number not located)
+- **Legal basis:** Town of Newport Ordinance ORD 2026-01, adopted September 10, 2026; N.C.G.S. 160D-107; covers data centers, data processing facilities, cryptocurrency mining and associated uses within town limits and ETJ.
 - **What prompted it:** UDO does not address data centers; comprehensive UDO rewrite under way
 - **Affected projects:** None; no active proposals.
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium approved in mid-September 2026 while the UDO is rewritten.
+- **Detailed status:** Signed Ordinance ORD 2026-01 states September 10, 2026 adoption and effectiveness, with an outer September 10, 2027 expiry or earlier approval of specified UDO amendments. Accessory equipment supporting a permitted principal use is excepted, subject to ordinance conditions. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** One-year moratorium adopted.
 
 ### Town of Spring Hope
@@ -1150,7 +1150,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Legal basis:** Ordinance imposing a 12-month moratorium on development approvals for data centers and related high-impact facilities (number not located)
 - **What prompted it:** County targeted for its water and land and lacks a data center ordinance
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-08-19 (to about 2027-08-19).
+- **Detailed status:** Local reporting describes approval of a twelve-month data-center moratorium. The adopted text and later actions were not established by this review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** 12-month moratorium adopted.
 
 ### Watauga County
@@ -1166,7 +1166,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Legal basis:** County data center moratorium proposed under N.C.G.S. 160D-107. [Evidence ceiling: Watauga County's BOC agendas/minutes archives at wataugacounty.org/App_Pages/Dept/BOC/{agendas,minutes}.aspx confirmed via real-Chrome fetch on 2026-04-30 to contain zero 2026 records.]
 - **What prompted it:** Regional data center concern after March 23 Boone action; Director Walker testified small data centers can consume 1–10 MW (700–7,000 homes) and large facilities use 1.5 million gallons of water per day, with Watauga lacking the power capacity to absorb such load.
 - **Affected projects:** None named in Watauga Democrat reporting.
-- **Detailed status:** Active as of 2026-09-23; the Board of Commissioners unanimously adopted a one-year countywide data center moratorium on 2026-04-21 (to about 2027-04-21). No rescission or replacement found; the county still has not posted 2026 Board minutes online (latest posted minutes are from July 2025).
+- **Detailed status:** Local reporting describes unanimous approval of a one-year data-center moratorium. The adopted text and later actions were not established by this review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Pending UDO process; commissioners directed staff to develop comprehensive regulations within the moratorium year.
 
 ### Yadkin County

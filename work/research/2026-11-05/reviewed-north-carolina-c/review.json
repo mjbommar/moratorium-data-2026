@@ -1,0 +1,108 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "nc-inventory-007": "0152757bde64908978f2b7e26cb2ce999810a8bd95cc97a2749096033f5fe0c5",
+    "nc-inventory-008": "20830d9b68aaa0b900e20b97fadde060da180a79efd22ed62a933b8e753318b4",
+    "nc-inventory-009": "5eb0cd5da62095646ade80279c96b4450a5667e6159198547a69b27bc1bcf758"
+  },
+  "reviewed_answers_sha256": "b23f434f7bbb696966b5aef4e1b5e1619ad8b16241e9524a3675708d0e06a711",
+  "scope": "Four bounded corrections. Newport signed original instrument resolves adoption, conditional outer endpoint and visual instrument-number error. Warren/Watauga term representations remain news-qualified. McDowell historical two-month term does not establish unbroken continuation through January 2024. Other scanned North Carolina sources remain pending extraction/visual review.",
+  "located_evidence": [
+    {
+      "moratorium_id": "nc-town-of-newport-2026",
+      "url": "https://newporttownnc.civicpluswebopen.com/media/4046",
+      "quote": "Section 1: A temporary moratorium is hereby imposed commencing on September 10,2026, and expiring",
+      "located": [
+        {
+          "attempt_id": "4fbb4d9192d94beaa96b8dcc96d9be81",
+          "body_sha256": "96cd878341e0565fff15c76712c49ff98948969b8896a98cfc27f2204c63663f",
+          "text_sha256": "ae8f8abcbe3ae16e16a8ed25f7223c2c7565ce871da47d128a0193ebf288b230",
+          "span": [
+            1256,
+            1353
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nc-warren-county-2026",
+      "url": "https://www.warrenrecord.com/news/article_ed6cc94d-a087-4574-ae12-af7e6147aa78.html",
+      "quote": "approved an ordinance imposing a 12-month moratorium on development approvals for data centers and related high-impact facilities.",
+      "located": [
+        {
+          "attempt_id": "22ec170d6af248f3950df2ddc92a06c3",
+          "body_sha256": "5cd91ba9cfa7a5e556a75fe210d528c68b4e40382fca780bc7f34afaa17741fa",
+          "text_sha256": "76789090c5e4c7eed1f32e6c60f9039d0e23d67b6ee8e4d1dea9c84e4bc47242",
+          "span": [
+            41,
+            171
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nc-watauga-county-2026",
+      "url": "https://www.wataugademocrat.com/news/county-commissioners-pass-a-one-year-data-center-moratorium-for-watauga-county/article_012ca886-b088-4aee-8321-6b0f851fcdca.html",
+      "quote": "The Watauga County Board of Commissioners unanimously passed a data center moratorium for one year.",
+      "located": [
+        {
+          "attempt_id": "54aaac73601b4fed971c869a738386ef",
+          "body_sha256": "b8e1b35119e20249a8e21b67138e5ac2d868e0c2e162796a00e982bb032c71ae",
+          "text_sha256": "6e6cae6ca26202c0fc63e73d4f5908ffaa3632074974c21087b0dc3205d892f2",
+          "span": [
+            10,
+            109
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nc-mcdowell-county-2026",
+      "url": "https://mcdowellnc.gov/commissioners/meeting-minutes/2023/May%2015%2C%202023.pdf",
+      "quote": "Vice-Chairman Walker made a motion to approve the two-month recommended\n\nmoratorium as presented by staff, seconded by Commissioner Ellis. By a vote of 4-0, the motion\n\npassed.",
+      "located": [
+        {
+          "attempt_id": "d5e0b76062d8487e95dd8d1b3ff61460",
+          "body_sha256": "689ee5f0d73ec2753edc7c89f59bbc8d076854829092728f38b23dbe16135da1",
+          "text_sha256": "f94867b15fb27274b3297a9b2adb355e4f82261613126e2733abd1f8748ab84b",
+          "span": [
+            1689,
+            1865
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nc-mcdowell-county-2026",
+      "url": "https://mcdowellnc.gov/commissioners/meeting-minutes/2024/January%208%2C%202024%20Regular%20Session%20Minutes.pdf",
+      "quote": "of 1/8/24, which would also end the moratorium.",
+      "located": [
+        {
+          "attempt_id": "fa452548ee06403ca279440d23343540",
+          "body_sha256": "388f7d877cf77708b351f784aee7af1aa31f9ccba6231a817812c2505c7c654f",
+          "text_sha256": "2753f8b748421cef082ab2f7f9246b7a3c476e0e96e452db1c71ff6c32725c44",
+          "span": [
+            3722,
+            3769
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "4fbb4d9192d94beaa96b8dcc96d9be81",
+      "page": 1,
+      "render": "pdftoppm PNG -singlefile -scale-to 1300",
+      "render_sha256": "eafac56234eda7057ad6dc7036b80d3938b1707cd754e038d3104291117c43dd",
+      "finding": "ORD 2026-01, not OCR 2016-01; September 10 commencement and conditional outer endpoint; accessory exception."
+    },
+    {
+      "attempt_id": "4fbb4d9192d94beaa96b8dcc96d9be81",
+      "page": 3,
+      "render": "pdftoppm PNG -singlefile -scale-to 1300",
+      "render_sha256": "dfe886053d657e904d374a97add04e696c2663c6f4a6f0c5e669b028a81ebe65",
+      "finding": "September 10, 2026 adoption/effectiveness, signed mayor and clerk."
+    }
+  ]
+}

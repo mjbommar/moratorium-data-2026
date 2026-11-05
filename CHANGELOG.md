@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Newport’s signed ORD 2026-01 resolves September 10 adoption/effectiveness and its conditional September 10, 2027 outer endpoint; visual review corrects an extracted 2016/2026 instrument-number error. Warren and Watauga calendar terms remain news-qualified. McDowell’s historical two-month term is distinguished from its later replacement account, with continuity still unresolved.
+
 Six further North Carolina corrections distinguish Rowan’s signed May 4 adoption from its April 20 hearing, Cumberland’s explicit December 15 termination clause, Gates’s cryptocurrency coverage and calendar term, Pasquotank’s conditional solar endpoint, Surry’s cryptocurrency definition and Bailey’s news-qualified ten-month term. Source-stated outer endpoints are projected without implying no later change; current-force gaps remain flagged.
 
 North Carolina review confirms Charlotte’s October 26 extension approval, with November 6 commencement and an October 18, 2027 outer limit subject to earlier regulations. Jackson County’s minutes identify O2026-02; McDowell and Orange minutes support calendar terms, while Northampton’s 32-month term remains news-qualified. Later legal-force gaps stay explicit.
@@ -48,7 +50,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **454** |
+| Rows we still want to confirm (`[VERIFY]`) | **458** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
