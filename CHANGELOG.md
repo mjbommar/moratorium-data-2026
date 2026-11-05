@@ -22,13 +22,15 @@ Washington County, Colorado's signed Resolution 16-2026 ended its BESS moratoriu
 
 Florida corrections document Minneola's July 21 second-reading approval (Ordinance 2026-17), replacing its pending classification provisionally, and Manatee's October 8 adoption and October 12 state filing (26-42), replacing the September adoption account. North Port's pending-application exception permits processing/review but retains the approval pause in the reviewed second-reading text. Zephyrhills, Marion and Nassau calendar terms no longer use guessed day counts; Lynn Haven's exact ending and later actions remain unresolved rather than inferred from agenda silence. Current-force and final-text gaps remain flagged.
 
+Georgia/Iowa lifecycle reviews update Putnam and Johnson County extensions, a news-qualified Stephens County extension, and Covington's recorded revocation. Dubuque County's July 6 Resolution 26-151 is added as a distinct temporary successor; its May 26 predecessor (26-107) is classified rescinded under the existing codebook. Publication and current-force questions remain flagged. The successor uses the existing county centroid with recorded provenance. New-row imports now retain explicitly supplied end dates, with a replay regression test.
+
 | Measure | Working inventory |
 |---|---|
-| Moratoria in the list | **1292** |
+| Moratoria in the list | **1293** |
 | In force (active or extended) | **1067** |
 | Proposed, not yet voted on | **73** |
-| Ended (replaced, expired, or rescinded) | **152** |
-| Rows we still want to confirm (`[VERIFY]`) | **314** |
+| Ended (replaced, expired, or rescinded) | **153** |
+| Rows we still want to confirm (`[VERIFY]`) | **319** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

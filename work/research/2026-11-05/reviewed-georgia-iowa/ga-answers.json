@@ -1,0 +1,170 @@
+{
+  "state_abbrev": "GA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "ga-putnam-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "confidence": 0.9,
+      "changes": {
+        "duration": {
+          "from": "Three months from 2026-08-18 (to about 2026-11-18)",
+          "to": "Initially August 7 to November 6, 2026; extended until November 17, 2026.",
+          "reason": "Signed resolution and county update."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "until_date",
+          "reason": "Resolution specifies end and extension specifies a later date."
+        },
+        "duration_days": {
+          "from": "90",
+          "to": "",
+          "reason": "The instrument specifies dates rather than a 90-day duration."
+        },
+        "current_end_date_iso": {
+          "from": "2026-11-18",
+          "to": "2026-11-17",
+          "reason": "County reports extension to November 17."
+        },
+        "legal_basis": {
+          "from": "Board of Commissioners moratorium on new data centers, battery energy storage facilities and solar farms (instrument number not published)",
+          "to": "Putnam County Board of Commissioners Resolution 2026.8.7, adopted August 7, 2026; county reports extension October 21, 2026.",
+          "reason": "Signed resolution and county update."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; three-month moratorium on new data centers, battery storage and solar farms effective 2026-08-18, running to about 2026-11-18; town halls planned with a possible October vote on permanent regulations. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+          "to": "The county reports that commissioners extended the moratorium until November 17, 2026 at their October 21 meeting; the signed original resolution began August 7 and covered consideration of land development permits for data centers, battery energy storage systems and solar energy systems. The extension instrument and exact end-of-day wording have not been reviewed. [VERIFY: adopted extension instrument, exact endpoint wording and later actions.]",
+          "reason": "County notice and signed original."
+        },
+        "date_enacted": {
+          "from": "2026-08-07 adoption vote (3-1, Hersey opposed, Wooten absent) per the county's own CivicAlert and the Eatonton Messenger; the amended three-month moratorium took effect 2026-08-18",
+          "to": "2026-08-07, Putnam County Board of Commissioners Resolution 2026.8.7; extended October 21, 2026 according to county notice.",
+          "reason": "Signed resolution and county notice."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Signed dated resolution."
+        },
+        "enacted_status": {
+          "from": "active",
+          "to": "extended",
+          "reason": "County reports extension."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.putnamcountyga.us/DocumentCenter/View/1226",
+          "source_type": "resolution",
+          "document_date": "2026-08-07",
+          "quote": "shall terminate on November 6, 2026 at",
+          "supports": "Original end, subject to extension; OCR page 2."
+        },
+        {
+          "url": "https://www.putnamcountyga.us/m/newsflash/Home/Detail/20",
+          "source_type": "other",
+          "document_date": "2026-08-12",
+          "quote": "extended the moratorium until November 17, 2026.",
+          "supports": "County update reports October 21 extension; update date not separately given."
+        }
+      ],
+      "notes": "Resolution OCR is retained with derivation metadata. The county notice was originally posted August 12 and later updated; observation November 5.",
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+          "resolution": "corrected",
+          "note": "Signed resolution identifies Resolution 2026.8.7; extension instrument remains unreviewed."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ga-stephens-county-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "confidence": 0.75,
+      "changes": {
+        "duration": {
+          "from": "Extended through 2026-10-14",
+          "to": "Extended until January 14, 2027, according to October 13 local reporting.",
+          "reason": "Local report of second extension."
+        },
+        "current_end_date_iso": {
+          "from": "2026-10-14",
+          "to": "2027-01-14",
+          "reason": "Local report of second extension; exact inclusive wording not established."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; extended through 2026-10-14 by unanimous vote at the May 26, 2026 meeting. A Called Work Session on the proposed data center ordinance was held June 2, 2026; no adopted final ordinance, repeal, or further extension was located in county materials or local reporting reviewed through 2026-09-23. The county has not received any applications for data centers. The Oct. 14, 2026 expiration has not yet passed as of this review.",
+          "to": "On October 13, 2026 commissioners unanimously extended the data-center land-use application moratorium until January 14, 2027, according to WNEG; the county agenda listed the extension, but the adopted minutes or resolution were not located. [VERIFY: adopted extension text, exact endpoint wording and later actions; extension remains news-qualified.]",
+          "reason": "News report and official agenda."
+        },
+        "date_enacted": {
+          "from": "Adopted April 14, 2026 by unanimous Board of Commissioners vote (Resolution for a moratorium barring the acceptance of land use applications for data centers; per the county's signed April 14, 2026 meeting minutes, approved April 28, 2026). Extended through 2026-10-14 by a unanimous vote at the May 26, 2026 meeting (moved the expiration from July 14, 2026 to Oct. 14, 2026).",
+          "to": "Adopted April 14, 2026 by unanimous Board of Commissioners vote (Resolution for a moratorium barring the acceptance of land use applications for data centers; per the county's signed April 14, 2026 meeting minutes, approved April 28, 2026). Extended through 2026-10-14 by a unanimous vote at the May 26, 2026 meeting (moved the expiration from July 14, 2026 to Oct. 14, 2026). Local reporting says the board extended it again on October 13, 2026 until January 14, 2027.",
+          "reason": "Preserve original and add reported subsequent action."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://stephenscountyga.gov/wp-content/uploads/2026/10/10-13-2026-Revised-Agenda-Packet.pdf",
+          "source_type": "agenda",
+          "document_date": "2026-10-13",
+          "quote": "Extension on Data Centers Moratorium",
+          "supports": "Agenda item only; does not prove adoption."
+        },
+        {
+          "url": "https://wnegradio.com/stephens-county-commission-extends-moratorium-on-data-centers-2/",
+          "source_type": "news",
+          "document_date": "2026-10-13",
+          "quote": "extended it for a second time until January 14, 2027.",
+          "supports": "News reports the adopted extension and date."
+        }
+      ],
+      "notes": "Adoption and precise end wording require official minutes or resolution; no current-force claim inferred beyond the report."
+    },
+    {
+      "moratorium_id": "ga-covington-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "rescinded",
+      "changes": {
+        "enacted_status": {
+          "from": "replaced",
+          "to": "rescinded",
+          "reason": "September 1 council minutes record affirmative revocation before the scheduled end."
+        },
+        "current_status": {
+          "from": "Replaced as of 2026-09-23. The city adopted a permanent Data Center ordinance (Covington Municipal Code Sec. 16.20.195) on final reading Aug. 17, 2026, after a first reading and public hearing on Aug. 3, 2026. The now-redundant moratorium (last extended through Oct. 20, 2026) was placed on the Sept. 1, 2026 council agenda for formal revocation, 'now that the related ordinance has been adopted.'",
+          "to": "The council unanimously approved revocation of the data center moratorium on 2026-09-01 after adoption of the related ordinance. The moratorium had been scheduled through 2026-10-20; the minutes do not specify a separate effective date for revocation. [VERIFY: separate operative effective date, if any; original extension history not reverified.]",
+          "reason": "September 1 council minutes record affirmative revocation before the scheduled end."
+        },
+        "outcome": {
+          "from": "Permanent data center ordinance (Covington Municipal Code Sec. 16.20.195) adopted on final reading Aug. 17, 2026, after multiple moratorium extensions; the council's Sept. 1, 2026 agenda proposed formally revoking the now-superseded moratorium.",
+          "to": "The council unanimously approved revocation of the data center moratorium on 2026-09-01 after adoption of the related ordinance.",
+          "reason": "September 1 council minutes record affirmative revocation before the scheduled end."
+        },
+        "duration": {
+          "from": "Originally until 2026-07-04; extended by council action to Aug. 4, 2026 (per the June 1, 2026 agenda) and again to Oct. 20, 2026 (per the July 6, 2026 agenda), before being superseded by the permanent data center ordinance adopted Aug. 17, 2026.",
+          "to": "Originally until 2026-07-04; extended to 2026-08-04 and then scheduled through 2026-10-20. The council approved revocation on 2026-09-01 after adoption of the related ordinance.",
+          "reason": "September 1 council minutes record affirmative revocation before the scheduled end."
+        }
+      },
+      "confidence": 0.96,
+      "evidence": [
+        {
+          "url": "https://cityofcovington.org/ckeditorfiles/files/2026_CityCouncil_0901_Minutes.pdf",
+          "source_type": "minutes",
+          "supports": "Council voted to revoke the data center moratorium before the scheduled end; source gives no separate effective date.",
+          "quote": "the revocation of the current moratorium for Data Centers which was set to remain in effect\n     through October 20, 2026, now that the related ordinance has been adopted.\n\n     Motion carried unanimously.",
+          "document_date": "2026-09-01",
+          "publisher": "City of Covington"
+        }
+      ],
+      "notes": "Minutes dated 2026-09-01, retrieved 2026-11-05. The source uses the word revocation; no separate effective date is given. The original planned duration and extension dates are retained from the baseline, not independently confirmed here."
+    }
+  ],
+  "new_candidates": []
+}

@@ -1,0 +1,132 @@
+{
+  "state_abbrev": "IA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "ia-dubuque-county-2026",
+      "outcome": "status_changed",
+      "evidence": [
+        {
+          "url": "https://www.dubuquecountyiowa.gov/DocumentCenter/View/8281/DubCo_Resolution_DC-Moratorium_2026-07-06-signed-PDF",
+          "source_type": "resolution",
+          "document_date": "2026-07-06",
+          "supports": "July 6 resolution explicitly rescinds and supersedes May resolution.",
+          "quote": "rescinds the Board\u2019s earlier moratorium resolution #26-107 adopted May 26, 2026, and is"
+        }
+      ],
+      "notes": "Resolution 26-151 separately states its moratorium commences May 26, 2026 and runs through May 26, 2027, subject to conditions; effectiveness is upon adoption and publication. Later action remains unverified. Preserve ID for May instrument; do not silently merge the July replacement. Original classified rescinded under the existing codebook because the resolution expressly rescinds it before its term ends; replacement is another temporary moratorium, not permanent regulations. The successor is added in the same batch.",
+      "changes": {
+        "legal_basis": {
+          "from": "Board of Supervisors vote (2-1: McDonough and Pothoff for, Kenniker against) approving a 12-month moratorium on data centers; specific resolution number not located in this pass.",
+          "to": "Resolution 26-107 adopted May 26, 2026; rescinded and superseded by Resolution 26-151 adopted July 6, 2026.",
+          "reason": "Signed July resolution identifies and replaces May resolution."
+        },
+        "current_status": {
+          "from": "Reported active as of the May 26, 2026 vote; not independently confirmed against a primary document in this pass.",
+          "to": "Resolution 26-151, adopted July 6, 2026, expressly rescinds and supersedes Resolution 26-107. The July replacement is a distinct moratorium instrument, recorded separately as ia-dubuque-county-2026-2. [VERIFY: publication and exact operative replacement date; later actions.]",
+          "reason": "Express replacement in signed resolution."
+        },
+        "outcome": {
+          "from": "Board rejected a shorter staff-proposed 120-day pause in favor of a 12-month moratorium on data centers.",
+          "to": "Rescinded and superseded by the new temporary moratorium in Resolution 26-151, adopted July 6, 2026; successor ia-dubuque-county-2026-2.",
+          "reason": "Signed successor expressly rescinds earlier Resolution 26-107; replacement is temporary rather than permanent regulations."
+        }
+      },
+      "new_enacted_status": "rescinded",
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "ia-johnson-county-2025",
+      "outcome": "status_changed",
+      "evidence": [
+        {
+          "url": "https://johnsoncountyiowa.gov/datacenters",
+          "source_type": "other",
+          "document_date": "Undated page; dated event 2026-10-15",
+          "supports": "County reports October 15 extension and new scheduled expiry; page also retains stale old deadline.",
+          "quote": "The moratorium is now set to expire at end of day Aug. 8, 2027."
+        },
+        {
+          "url": "https://d2kbkoa27fdvtw.cloudfront.net/johnson-county/7efa6d3bcf4ded5daf293dea5b04565b0.pdf",
+          "source_type": "agenda",
+          "document_date": "2026-10-15",
+          "supports": "Proposed extension timing; adoption independently reported by county page.",
+          "quote": "expiration to 11:59:59 p.m. CT on Sunday, August 8, 2027."
+        }
+      ],
+      "notes": "Official page reports adopted extension and current effect; its Active Applications section separately retains a stale November 2026 date. Agenda is a proposal, not proof of adoption.",
+      "new_enacted_status": "extended",
+      "confidence": 0.96,
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "extended",
+          "reason": "County reports the October 15 vote to extend."
+        },
+        "duration": {
+          "from": "Through 2026-11-08 at 11:59 p.m. CT unless extended or ended earlier",
+          "to": "Extended through 2027-08-08, end of day; original term through 2026-11-08.",
+          "reason": "County reports extension; agenda supplies proposed 11:59:59 p.m. CT endpoint."
+        },
+        "current_end_date_iso": {
+          "from": "2026-11-08",
+          "to": "2027-08-08",
+          "reason": "County reports new scheduled end."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; scheduled to expire 2026-11-08 at 11:59 p.m. CT. Supervisors indicated they would likely consider an extension in early October 2026 while a permanent data center ordinance (and a possible outright ban, pending legal review) is drafted; no extension vote had been reported as of 2026-09-23.",
+          "to": "County reports the data center moratorium in effect through August 8, 2027, following an October 15, 2026 extension vote. The county page also retains an outdated November 8, 2026 date in its applications section. [VERIFY: executed extension instrument and later amendments; overview and dated October 15 entry control this observation, not the stale applications-section date.]",
+          "reason": "County current overview and dated extension entry."
+        }
+      }
+    }
+  ],
+  "new_candidates": [
+    {
+      "state": "Iowa",
+      "jurisdiction": "Dubuque County",
+      "jurisdiction_type": "County",
+      "date_enacted": "Resolution 26-151 adopted July 6, 2026; electronic signatures dated July 7. Effectiveness requires adoption and publication; stated commencement is May 26, 2026.",
+      "date_enacted_iso": "2026-07-06",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Stated commencement May 26, 2026 through May 26, 2027, unless earlier terminated or lawfully extended. Expiration alone does not authorize covered applications; termination conditions and required planning deliverables apply. [VERIFY: publication date, operative applicability and subsequent actions.]",
+      "duration_kind": "until_date",
+      "current_end_date_iso": "2027-05-26",
+      "legal_basis": "Dubuque County Resolution 26-151, adopted July 6, 2026, expressly rescinding and superseding Resolution 26-107 (legacy ID ia-dubuque-county-2026).",
+      "trigger": "County received increasing data-center inquiries and sought comprehensive standards for utility, water, transportation, emergency response, agricultural and fiscal effects before authorizing development.",
+      "trigger_categories": [
+        "regulatory_gap",
+        "infrastructure_capacity",
+        "water",
+        "agricultural_preservation"
+      ],
+      "sectors": [
+        "data_center",
+        "cryptocurrency_mining"
+      ],
+      "current_status": "Adopted July 6, 2026 as the replacement for Resolution 26-107. The signed text specifies a May 26, 2027 scheduled endpoint and conditions for termination. [VERIFY: publication required for effectiveness, exact operative start, later actions and present legal force; active classification remains provisional.]",
+      "enacted_status": "active",
+      "affected_projects": "Specific projects not reviewed; applies to covered data centers and supporting infrastructure in unincorporated Dubuque County.",
+      "outcome": "Separate successor temporary moratorium; predecessor ia-dubuque-county-2026 is rescinded, not an additional active instrument.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.dubuquecountyiowa.gov/DocumentCenter/View/8281/DubCo_Resolution_DC-Moratorium_2026-07-06-signed-PDF",
+          "source_type": "resolution",
+          "document_date": "2026-07-06",
+          "quote": "The moratorium commences on May 26, 2026, and remains in effect through May 26, 2027, unless",
+          "supports": "Stated commencement and scheduled endpoint; publication and legal applicability remain unresolved."
+        },
+        {
+          "url": "https://www.dubuquecountyiowa.gov/DocumentCenter/View/8281/DubCo_Resolution_DC-Moratorium_2026-07-06-signed-PDF",
+          "source_type": "resolution",
+          "document_date": "2026-07-06",
+          "quote": "This Resolution becomes effective immediately upon adoption and publication as required by Iowa",
+          "supports": "Publication is an explicit effectiveness requirement; no publication date found in this pass."
+        }
+      ],
+      "notes": "Distinct instrument and stable ID allocated by reviewed import, expected ia-dubuque-county-2026-2. No new jurisdiction identity inferred. Subsequent coordinate backfill may reuse the existing county centroid with explicit provenance."
+    }
+  ]
+}

@@ -7,7 +7,7 @@ record-level observations and `[VERIFY]` markers identify unresolved work.
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **314 of the 1292 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **319 of the 1293 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
 
 ### November discovery and search limits
 
@@ -178,7 +178,7 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Geocoding caveats (added v2026.04.2)
 
-1289 of 1292 instruments are geocoded to WGS84 lat/lon via Nominatim, the place-name search service of OpenStreetMap (OSM). The 3 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and the newly added Hayward record awaiting coordinate review.
+1290 of 1293 instruments are geocoded to WGS84 lat/lon via Nominatim, the place-name search service of OpenStreetMap (OSM). The 3 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and the newly added Hayward record awaiting coordinate review.
 
 **Within-state name ambiguity.** Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:
 

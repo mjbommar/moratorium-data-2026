@@ -29,7 +29,7 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 | Clayton County | County | 2025-09-03 | data center | 🟢 Extended |
 | Cobb County | County | 2026-02-24 | data center | 🟢 Extended |
 | Colquitt County | County | 2026-06-02 | data center | 🟢 Extended |
-| Covington | City | 2026-01-05 | data center | ⚪ Replaced |
+| Covington | City | 2026-01-05 | data center | 🔴 Rescinded |
 | Coweta County | County | 2025-05-06 | data center | ⚪ Replaced |
 | Coweta County | County | 2026-06-16 | data center | 🟢 Active |
 | Crawford County | County | 2026-01-06 | data center | 🟢 Extended |
@@ -66,7 +66,7 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 | Paulding County | County | 2026-07-28 | data center | 🟢 Active |
 | Pike County | County | 2025-09 | data center | ⚪ Replaced |
 | Polk County | County | 2026-03-03 | data center | ⚪ Replaced |
-| Putnam County | County | 2026-08-07 | data center, battery storage, solar | 🟢 Active |
+| Putnam County | County | 2026-08-07 | data center, battery storage, solar | 🟢 Extended |
 | Rockdale County | County | 2026-01-13 | data center, battery storage | 🟢 Extended |
 | Roswell | City | 2026-01-12 | data center | ⚪ Expired |
 | Savannah | City | 2026-08-27 | data center | 🟢 Active |
@@ -405,18 +405,18 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 ### Covington
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Status:** 🔴 Rescinded
 - **Date enacted:** 2026-01-05; ratified 2026-01-20
 - **Normalized date:** `2026-01-05` (exact)
-- **Duration:** Originally until 2026-07-04; extended by council action to Aug. 4, 2026 (per the June 1, 2026 agenda) and again to Oct. 20, 2026 (per the July 6, 2026 agenda), before being superseded by the permanent data center ordinance adopted Aug. 17, 2026.
+- **Duration:** Originally until 2026-07-04; extended to 2026-08-04 and then scheduled through 2026-10-20. The council approved revocation on 2026-09-01 after adoption of the related ordinance.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-covington-2026`
 - **Legal basis:** Original moratorium resolution adopted 2026-01-05, ratified 2026-01-20, and extended by council action multiple times (to Aug. 4, 2026 per the June 1, 2026 agenda; then to Oct. 20, 2026 per the July 6, 2026 agenda). Superseded by a permanent ordinance amending Covington Municipal Code Section 16.20.195 (Data Center) within Chapter 16.20 (Supplemental Use Provisions), given first reading and public hearing Aug. 3, 2026 and adopted on final reading Aug. 17, 2026. A resolution number for the original moratorium was not located.
 - **What prompted it:** New annexation and development requests; concern that data centers were treated by-right in industrial zones
 - **Affected projects:** New requests paused; two annexation matters moved toward rejection
-- **Detailed status:** Replaced as of 2026-09-23. The city adopted a permanent Data Center ordinance (Covington Municipal Code Sec. 16.20.195) on final reading Aug. 17, 2026, after a first reading and public hearing on Aug. 3, 2026. The now-redundant moratorium (last extended through Oct. 20, 2026) was placed on the Sept. 1, 2026 council agenda for formal revocation, 'now that the related ordinance has been adopted.'
-- **Outcome:** Permanent data center ordinance (Covington Municipal Code Sec. 16.20.195) adopted on final reading Aug. 17, 2026, after multiple moratorium extensions; the council's Sept. 1, 2026 agenda proposed formally revoking the now-superseded moratorium.
+- **Detailed status:** The council unanimously approved revocation of the data center moratorium on 2026-09-01 after adoption of the related ordinance. The moratorium had been scheduled through 2026-10-20; the minutes do not specify a separate effective date for revocation. [VERIFY: separate operative effective date, if any; original extension history not reverified.]
+- **Outcome:** The council unanimously approved revocation of the data center moratorium on 2026-09-01 after adoption of the related ordinance.
 
 ### Coweta County
 
@@ -997,17 +997,17 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 ### Putnam County
 
 - **Type:** County
-- **Status:** 🟢 Active
-- **Date enacted:** 2026-08-07 adoption vote (3-1, Hersey opposed, Wooten absent) per the county's own CivicAlert and the Eatonton Messenger; the amended three-month moratorium took effect 2026-08-18
-- **Normalized date:** `2026-08-07` (unverified)
-- **Duration:** Three months from 2026-08-18 (to about 2026-11-18)
-- **Current end date:** `2026-11-18`
+- **Status:** 🟢 Extended
+- **Date enacted:** 2026-08-07, Putnam County Board of Commissioners Resolution 2026.8.7; extended October 21, 2026 according to county notice.
+- **Normalized date:** `2026-08-07` (exact)
+- **Duration:** Initially August 7 to November 6, 2026; extended until November 17, 2026.
+- **Current end date:** `2026-11-17`
 - **Sectors:** data center, battery storage, solar
 - **Moratorium ID:** `ga-putnam-county-2026`
-- **Legal basis:** Board of Commissioners moratorium on new data centers, battery energy storage facilities and solar farms (instrument number not published)
+- **Legal basis:** Putnam County Board of Commissioners Resolution 2026.8.7, adopted August 7, 2026; county reports extension October 21, 2026.
 - **What prompted it:** Need to study and adopt regulations for data centers, solar and battery storage; public concern for Lake Sinclair and water resources
 - **Affected projects:** None named; two existing large solar fields unaffected
-- **Detailed status:** Active as of 2026-09-23; three-month moratorium on new data centers, battery storage and solar farms effective 2026-08-18, running to about 2026-11-18; town halls planned with a possible October vote on permanent regulations. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Detailed status:** The county reports that commissioners extended the moratorium until November 17, 2026 at their October 21 meeting; the signed original resolution began August 7 and covered consideration of land development permits for data centers, battery energy storage systems and solar energy systems. The extension instrument and exact end-of-day wording have not been reviewed. [VERIFY: adopted extension instrument, exact endpoint wording and later actions.]
 - **Outcome:** Commissioners adopted a three-month moratorium on data centers, BESS and solar farms while revising the county's draft ordinance.
 
 ### Rockdale County
@@ -1094,16 +1094,16 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 
 - **Type:** County
 - **Status:** 🟢 Extended
-- **Date enacted:** Adopted April 14, 2026 by unanimous Board of Commissioners vote (Resolution for a moratorium barring the acceptance of land use applications for data centers; per the county's signed April 14, 2026 meeting minutes, approved April 28, 2026). Extended through 2026-10-14 by a unanimous vote at the May 26, 2026 meeting (moved the expiration from July 14, 2026 to Oct. 14, 2026).
+- **Date enacted:** Adopted April 14, 2026 by unanimous Board of Commissioners vote (Resolution for a moratorium barring the acceptance of land use applications for data centers; per the county's signed April 14, 2026 meeting minutes, approved April 28, 2026). Extended through 2026-10-14 by a unanimous vote at the May 26, 2026 meeting (moved the expiration from July 14, 2026 to Oct. 14, 2026). Local reporting says the board extended it again on October 13, 2026 until January 14, 2027.
 - **Normalized date:** `2026-04-14` (exact)
-- **Duration:** Extended through 2026-10-14
-- **Current end date:** `2026-10-14`
+- **Duration:** Extended until January 14, 2027, according to October 13 local reporting.
+- **Current end date:** `2027-01-14`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-stephens-county-undated`
 - **Legal basis:** Board of Commissioners vote extending the moratorium barring acceptance of land-use applications for data centers
 - **What prompted it:** regulatory_gap
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; extended through 2026-10-14 by unanimous vote at the May 26, 2026 meeting. A Called Work Session on the proposed data center ordinance was held June 2, 2026; no adopted final ordinance, repeal, or further extension was located in county materials or local reporting reviewed through 2026-09-23. The county has not received any applications for data centers. The Oct. 14, 2026 expiration has not yet passed as of this review.
+- **Detailed status:** On October 13, 2026 commissioners unanimously extended the data-center land-use application moratorium until January 14, 2027, according to WNEG; the county agenda listed the extension, but the adopted minutes or resolution were not located. [VERIFY: adopted extension text, exact endpoint wording and later actions; extension remains news-qualified.]
 - **Outcome:** Board of Commissioners unanimously extended the moratorium barring data center land-use applications through 2026-10-14
 
 ### Terrell County

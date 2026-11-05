@@ -21,6 +21,34 @@ def module(name):
 
 
 class ApplyGuards(unittest.TestCase):
+    def test_distinct_successor_keeps_endpoint_and_replay_does_not_duplicate(self):
+        m=module('apply_research')
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);(root/'data').mkdir();path=root/'data/moratorium_inventory.csv'
+            with (ROOT/'data/moratorium_inventory.csv').open(newline='') as f:
+                reader=csv.DictReader(f);fields=reader.fieldnames;row=next(reader)
+            row.update(jurisdiction='Synthetic County',moratorium_id='zz-synthetic-2026',
+                       legal_basis='Resolution 2026-1',enacted_status='replaced')
+            with path.open('w',newline='') as f:
+                writer=csv.DictWriter(f,fieldnames=fields);writer.writeheader();writer.writerow(row)
+            answer=root/'answer.json';answer.write_text(json.dumps({
+                'state_abbrev':row['state_abbrev'],'researched_as_of':'2026-11-05','decisions':[],
+                'new_candidates':[{'state':row['state'],'jurisdiction':row['jurisdiction'],
+                    'jurisdiction_type':'County','legal_basis':'Resolution 2026-2',
+                    'date_enacted_iso':'2026-07-06','duration_kind':'until_date',
+                    'current_end_date_iso':'2027-05-26','enacted_status':'active','confidence':.9,
+                    'evidence':[{'url':'https://example.invalid','source_type':'resolution','supports':'synthetic fixture'}]}]}))
+            with patch.object(m,'REPO',root),patch.object(m,'INV',path),patch.object(m,'AUDIT_DIR',root/'audit'),patch.object(sys,'argv',['apply_research','--answers',str(answer)]),contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(m.main(),0)
+                first=path.read_bytes()
+                self.assertEqual(m.main(),0)
+                self.assertEqual(path.read_bytes(),first)
+            with path.open(newline='') as f:result=list(csv.DictReader(f))
+            self.assertEqual(len(result),2)
+            successor=next(r for r in result if r['legal_basis']=='Resolution 2026-2')
+            self.assertEqual(successor['current_end_date_iso'],'2027-05-26')
+            self.assertEqual(result[0]['moratorium_id'],row['moratorium_id'])
+
     def run_case(self, name, stale=False, dry=False, candidate=False):
         m = module(name)
         is_policy = name == 'apply_legislation'

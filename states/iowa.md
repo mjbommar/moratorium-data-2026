@@ -3,7 +3,7 @@
 
 Every local infrastructure moratorium in the inventory for Iowa, current through **November 5, 2026**.
 
-**57 instruments** — 52 in force, 2 pending, 3 past.
+**58 instruments** — 52 in force, 2 pending, 4 past.
 
 State policy is tracked separately: **12 actions** (12 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -29,7 +29,8 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Clayton County | County | 2025-02-25 | cryptocurrency mining, data center | 🟢 Extended |
 | Des Moines County | County | 2026-05-19 | data center, cryptocurrency mining | 🟢 Active |
 | Dickinson County | County | 2026-05-12 | data center, cryptocurrency mining, solar, battery storage | 🟢 Active |
-| Dubuque County | County | 2026-05-26 | data center | 🟢 Active |
+| Dubuque County | County | 2026-05-26 | data center | 🔴 Rescinded |
+| Dubuque County | County | 2026-07-06 | data center, cryptocurrency mining | 🟢 Active |
 | Emmet County | County | 2024-10-15 | wind | ⚪ Replaced |
 | Emmet County | County | 2025-01-28 | battery storage, solar | 🟢 Extended |
 | Emmet County | County | 2026-08-25 | data center | 🟢 Active |
@@ -41,7 +42,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Jackson County | County | 2024-09-17 | cryptocurrency mining, data center | 🟢 Extended |
 | Jackson County | County | 2024-01-02 | battery storage | 🟢 Extended |
 | Jefferson County | County | 2026-08-11 | data center | 🟢 Active |
-| Johnson County | County | 2025-11-06 | data center | 🟢 Active |
+| Johnson County | County | 2025-11-06 | data center | 🟢 Extended |
 | Jones County | County | 2024-10-15 | data center, battery storage, cryptocurrency mining | ⚪ Replaced |
 | Lee County | County | 2026-06-16 | data center | 🟢 Active |
 | Linn County | County | 2026-07-01 | data center | 🟢 Active |
@@ -392,18 +393,34 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 ### Dubuque County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Status:** 🔴 Rescinded
 - **Date enacted:** 2026-05-26 -- Board of Supervisors special meeting; per KCRG, Supervisor McDonough moved to extend an originally proposed 120-day period to 12 months.
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** 12 months
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ia-dubuque-county-2026`
-- **Legal basis:** Board of Supervisors vote (2-1: McDonough and Pothoff for, Kenniker against) approving a 12-month moratorium on data centers; specific resolution number not located in this pass.
+- **Legal basis:** Resolution 26-107 adopted May 26, 2026; rescinded and superseded by Resolution 26-151 adopted July 6, 2026.
 - **What prompted it:** County was considering a separate data-center ordinance; board members wanted a longer pause than the staff-proposed 120 days.
 - **Affected projects:** —
-- **Detailed status:** Reported active as of the May 26, 2026 vote; not independently confirmed against a primary document in this pass.
-- **Outcome:** Board rejected a shorter staff-proposed 120-day pause in favor of a 12-month moratorium on data centers.
+- **Detailed status:** Resolution 26-151, adopted July 6, 2026, expressly rescinds and supersedes Resolution 26-107. The July replacement is a distinct moratorium instrument, recorded separately as ia-dubuque-county-2026-2. [VERIFY: publication and exact operative replacement date; later actions.]
+- **Outcome:** Rescinded and superseded by the new temporary moratorium in Resolution 26-151, adopted July 6, 2026; successor ia-dubuque-county-2026-2.
+
+### Dubuque County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** Resolution 26-151 adopted July 6, 2026; electronic signatures dated July 7. Effectiveness requires adoption and publication; stated commencement is May 26, 2026.
+- **Normalized date:** `2026-07-06` (exact)
+- **Duration:** Stated commencement May 26, 2026 through May 26, 2027, unless earlier terminated or lawfully extended. Expiration alone does not authorize covered applications; termination conditions and required planning deliverables apply. [VERIFY: publication date, operative applicability and subsequent actions.]
+- **Current end date:** `2027-05-26`
+- **Sectors:** data center, cryptocurrency mining
+- **Moratorium ID:** `ia-dubuque-county-2026-2`
+- **Legal basis:** Dubuque County Resolution 26-151, adopted July 6, 2026, expressly rescinding and superseding Resolution 26-107 (legacy ID ia-dubuque-county-2026).
+- **What prompted it:** County received increasing data-center inquiries and sought comprehensive standards for utility, water, transportation, emergency response, agricultural and fiscal effects before authorizing development.
+- **Affected projects:** Specific projects not reviewed; applies to covered data centers and supporting infrastructure in unincorporated Dubuque County.
+- **Detailed status:** Adopted July 6, 2026 as the replacement for Resolution 26-107. The signed text specifies a May 26, 2027 scheduled endpoint and conditions for termination. [VERIFY: publication required for effectiveness, exact operative start, later actions and present legal force; active classification remains provisional.]
+- **Outcome:** Separate successor temporary moratorium; predecessor ia-dubuque-county-2026 is rescinded, not an additional active instrument.
 
 ### Emmet County
 
@@ -584,17 +601,17 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 ### Johnson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** 2025-11-06
 - **Normalized date:** `2025-11-06` (exact)
-- **Duration:** Through 2026-11-08 at 11:59 p.m. CT unless extended or ended earlier
-- **Current end date:** `2026-11-08`
+- **Duration:** Extended through 2027-08-08, end of day; original term through 2026-11-08.
+- **Current end date:** `2027-08-08`
 - **Sectors:** data center
 - **Moratorium ID:** `ia-johnson-county-2025`
 - **Legal basis:** Resolution No. 11-06-25-01
 - **What prompted it:** Potential burden on power and water resources, area-character concerns, and need for Unified Development Ordinance amendments.
 - **Affected projects:** Applies to rezoning, subdivision, site plan approvals, and building permits for data centers in unincorporated county; no project MW listed.
-- **Detailed status:** Active as of 2026-09-23; scheduled to expire 2026-11-08 at 11:59 p.m. CT. Supervisors indicated they would likely consider an extension in early October 2026 while a permanent data center ordinance (and a possible outright ban, pending legal review) is drafted; no extension vote had been reported as of 2026-09-23.
+- **Detailed status:** County reports the data center moratorium in effect through August 8, 2027, following an October 15, 2026 extension vote. The county page also retains an outdated November 8, 2026 date in its applications section. [VERIFY: executed extension instrument and later amendments; overview and dated October 15 entry control this observation, not the stale applications-section date.]
 - **Outcome:** County is drafting permanent UDO standards on siting, noise, water use, and review process. As of July 22-23, 2026, Johnson County supervisors and the Planning and Zoning Commission were still discussing policy direction for a proposed data-center ordinance (described as one of the more restrictive in eastern Iowa, covering water use, geographic limits, and closed-loop cooling); no ordinance had been adopted. The moratorium remains in effect through 2026-11-08 per Resolution No. 11-06-25-01.
 
 ### Jones County

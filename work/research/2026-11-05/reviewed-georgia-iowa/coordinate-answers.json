@@ -1,0 +1,32 @@
+{
+  "state_abbrev": "IA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator same-jurisdiction coordinate backfill",
+  "decisions": [
+    {
+      "moratorium_id": "ia-dubuque-county-2026-2",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "latitude": {
+          "from": "",
+          "to": "42.469299",
+          "reason": "Reuse the existing Dubuque County centroid for a distinct instrument at the same county; no new geocoding or jurisdiction identity claim."
+        },
+        "longitude": {
+          "from": "",
+          "to": "-90.874205",
+          "reason": "Reuse the existing Dubuque County centroid for a distinct instrument at the same county; no new geocoding or jurisdiction identity claim."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.dubuquecountyiowa.gov/DocumentCenter/View/8281/DubCo_Resolution_DC-Moratorium_2026-07-06-signed-PDF",
+          "source_type": "resolution",
+          "supports": "Same county instrument identity; coordinates are inherited from the unchanged baseline county centroid, not extracted from this legal source."
+        }
+      ],
+      "notes": "Coordinate provenance: copied from ia-dubuque-county-2026 for the same Dubuque County jurisdiction; baseline coordinates not independently re-geocoded."
+    }
+  ]
+}

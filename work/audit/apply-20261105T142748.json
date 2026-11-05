@@ -1,0 +1,30 @@
+{
+  "applied_at": "20261105T142748",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-georgia-iowa/coordinate-answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 1,
+    "fields_changed": 2
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "ia-dubuque-county-2026-2",
+      "column": "latitude",
+      "before": "",
+      "after": "42.469299",
+      "reason": "Reuse the existing Dubuque County centroid for a distinct instrument at the same county; no new geocoding or jurisdiction identity claim.",
+      "source": "coordinate-answers.json"
+    },
+    {
+      "moratorium_id": "ia-dubuque-county-2026-2",
+      "column": "longitude",
+      "before": "",
+      "after": "-90.874205",
+      "reason": "Reuse the existing Dubuque County centroid for a distinct instrument at the same county; no new geocoding or jurisdiction identity claim.",
+      "source": "coordinate-answers.json"
+    }
+  ]
+}

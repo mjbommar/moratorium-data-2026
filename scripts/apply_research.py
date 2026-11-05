@@ -334,6 +334,7 @@ def build_row(candidate: dict, mid: str, activity_level: str) -> dict:
         "date_enacted_uncertainty": candidate.get("date_enacted_uncertainty", "unverified"),
         "duration_days": "" if days in (None, "") else str(int(days)),
         "duration_kind": candidate.get("duration_kind", "unknown"),
+        "current_end_date_iso": candidate.get("current_end_date_iso", ""),
         "sectors": json.dumps(candidate.get("sectors", ["data_center"]), separators=(",", ":")),
         "trigger_categories": json.dumps(candidate.get("trigger_categories", []), separators=(",", ":")),
     })
