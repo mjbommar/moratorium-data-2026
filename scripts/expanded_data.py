@@ -187,10 +187,20 @@ def check_result(r,w,rows,err):
     if r['reported_outcome'] in ('approved','defeated','tied') and expected != 'unknown' and r['reported_outcome'] != expected: err(w,'reported outcome contradicts calculated passage rule')
     m=rows['ballot_measures'].get(r['measure_id'])
     direction='unresolved'
-    if m and r['calculated_outcome'] in ('approved','defeated'):
+    basis=r.get('outcome_direction_basis','calculated')
+    outcome=r['calculated_outcome'] if basis=='calculated' else r['reported_outcome'] if basis=='reported' else 'unknown'
+    if basis=='reported':
+        method=r.get('value_methods',{}).get('reported_outcome',{})
+        target={'table':'measure_results','id':r['result_observation_id']}
+        supporting=[rows['claims'].get(cid,{}) for cid in method.get('claim_ids',[])]
+        if (method.get('method')!='source_reported' or not any(
+            c.get('subject')==target and c.get('predicate')=='reported_outcome'
+            and c.get('value')==outcome for c in supporting)):
+            err(w,'reported direction basis requires an outcome claim scoped to this result observation')
+    if m and outcome in ('approved','defeated'):
         direction=m['yes_direction']
-        if r['calculated_outcome']=='defeated': direction={'restricts':'facilitates','facilitates':'restricts'}.get(direction,direction)
-    if r['outcome_direction'] != 'unresolved' and r['outcome_direction'] != direction: err(w,'outcome direction contradicts calculated outcome and yes polarity')
+        if outcome=='defeated': direction={'restricts':'facilitates','facilitates':'restricts'}.get(direction,direction)
+    if r['outcome_direction'] != 'unresolved' and r['outcome_direction'] != direction: err(w,'outcome direction contradicts its outcome basis and yes polarity')
 
 
 def main():

@@ -30,6 +30,21 @@ class ExpandedContracts(unittest.TestCase):
         self.assertEqual(self.validate(), [])
         self.tables['measure_results'][0]['outcome_direction'] = 'facilitates'
         self.assertTrue(any('direction' in e for e in self.validate()))
+    def test_reported_direction_requires_scoped_outcome_evidence(self):
+        r=self.tables['measure_results'][0]
+        r.update(yes_votes=None,calculated_outcome='unknown',reported_outcome='defeated',
+                 source_yes_percent=None,outcome_direction='restricts',outcome_direction_basis='reported')
+        self.assertTrue(any('outcome claim' in e for e in self.validate()))
+        c=self.claim({'table':'measure_results','id':r['result_observation_id']},'reported_outcome')
+        c['value']='defeated';self.tables['claims']=[c]
+        r['value_methods']={'reported_outcome':{'method':'source_reported','claim_ids':['c'],'note':None}}
+        self.assertEqual(self.validate(),[])
+        r['outcome_direction']='facilitates'
+        self.assertTrue(any('direction' in e for e in self.validate()))
+        r['outcome_direction']='restricts';c['value']='approved'
+        self.assertTrue(any('outcome claim' in e for e in self.validate()))
+        r.update(yes_votes=40,reported_outcome='approved',outcome_direction='facilitates')
+        self.assertTrue(any('reported outcome contradicts' in e for e in self.validate()))
     def test_uncertified_complete_count_is_not_certification(self):
         r=self.tables['measure_results'][0]
         self.assertEqual(r['certification_status'], 'unofficial'); self.assertEqual(self.validate(), [])

@@ -1,0 +1,399 @@
+{
+  "reviewed_at": "2026-11-05T17:45:45.258956+00:00",
+  "reviewer": "coordinator",
+  "source_job": "ballot-oh-001",
+  "input_hashes": {
+    "ballot_measures.jsonl": "746fddc1dc04550123823108432747050d8c3b32d00e8df4238da3fe3b725c58",
+    "claims.jsonl": "fe138e28bae9c086f215dd623d71c67d2861344966587ea3e4ee8b32c0aaf166",
+    "coverage_observations.jsonl": "59d40a08a68a63cb814374b88d6153a919371b8c93e0421bae375c0d3cfb5830",
+    "elections.jsonl": "4befe9becd923c9c8a2edc236769ce52065389be66e653d30dfb6fc96306d544",
+    "jurisdictions.jsonl": "d21d256294e500af8f41494c1566fe71a7eda9721b7d46c420ffb53d62b02bf3",
+    "measure_provisions.jsonl": "081887023eef5e82038110fc78840c7af66031d7241b250793a5c0b777dbd0f8",
+    "measure_results.jsonl": "5bdc6c486228988874e369318410b94d4afb2eabff1b9fed9a3f66dfca85323f",
+    "search_attempts.jsonl": "b625fe8d2cec3ae912bde33be4e665e5cfdbff82fa8e022d56fdd4565995fe95",
+    "search_runs.jsonl": "b5f085527832e0baa3f21841d463ccd9b29a964cab1e4b804c0154ac9172f544",
+    "source_documents.jsonl": "f36635c74c01547085fe19b5730bb311fc8c3431196c29982cbf61a6c693e80f"
+  },
+  "output_hashes": {
+    "ballot_measures.jsonl": "746fddc1dc04550123823108432747050d8c3b32d00e8df4238da3fe3b725c58",
+    "claims.jsonl": "a68d4072560c62374c706f1496cb3d401c3938ce41b40b53b260b5dbdf469900",
+    "coverage_observations.jsonl": "59d40a08a68a63cb814374b88d6153a919371b8c93e0421bae375c0d3cfb5830",
+    "elections.jsonl": "4befe9becd923c9c8a2edc236769ce52065389be66e653d30dfb6fc96306d544",
+    "jurisdictions.jsonl": "d21d256294e500af8f41494c1566fe71a7eda9721b7d46c420ffb53d62b02bf3",
+    "measure_provisions.jsonl": "081887023eef5e82038110fc78840c7af66031d7241b250793a5c0b777dbd0f8",
+    "measure_results.jsonl": "59f17b2f8f189d070bbee3d205403d287a4f9d8e25990e7f303db247af8a866d",
+    "search_attempts.jsonl": "b625fe8d2cec3ae912bde33be4e665e5cfdbff82fa8e022d56fdd4565995fe95",
+    "search_runs.jsonl": "b5f085527832e0baa3f21841d463ccd9b29a964cab1e4b804c0154ac9172f544",
+    "source_documents.jsonl": "f36635c74c01547085fe19b5730bb311fc8c3431196c29982cbf61a6c693e80f"
+  },
+  "changes": [
+    {
+      "table": "measure_results",
+      "id": "result-bp-e99a2287017cc1a5",
+      "before": {
+        "schema_version": "1.0.0",
+        "result_observation_id": "result-bp-e99a2287017cc1a5",
+        "measure_id": "bp-e99a2287017cc1a5",
+        "source_document_id": "86afcec302e94919abc4a5b4e68f2c65",
+        "observed_at": "2026-11-05T17:10:35.329555+00:00",
+        "published_at": null,
+        "yes_votes": 330,
+        "no_votes": 1468,
+        "other_votes": null,
+        "valid_votes": null,
+        "ballots_cast": null,
+        "registered_voters": null,
+        "undervotes": null,
+        "overvotes": null,
+        "precincts_reporting": null,
+        "precincts_total": null,
+        "source_yes_percent": 18.35,
+        "percentage_denominator": "valid_votes",
+        "passage_threshold": null,
+        "threshold_comparison": "unknown",
+        "reported_outcome": "defeated",
+        "calculated_outcome": "unknown",
+        "outcome_direction": "restricts",
+        "reporting_status": "unknown",
+        "certification_status": "unofficial",
+        "certification_date": null,
+        "supersedes_id": null,
+        "yes_no_votes": 1798,
+        "value_methods": {
+          "yes_no_votes": {
+            "method": "derived",
+            "claim_ids": [
+              "bp-e99a2287017cc1a5-result-2"
+            ],
+            "note": "Sum of source-reported yes and no; not overall turnout."
+          }
+        }
+      },
+      "after": {
+        "schema_version": "1.0.0",
+        "result_observation_id": "result-bp-e99a2287017cc1a5",
+        "measure_id": "bp-e99a2287017cc1a5",
+        "source_document_id": "86afcec302e94919abc4a5b4e68f2c65",
+        "observed_at": "2026-11-05T17:10:35.329555+00:00",
+        "published_at": null,
+        "yes_votes": 330,
+        "no_votes": 1468,
+        "other_votes": null,
+        "valid_votes": null,
+        "ballots_cast": null,
+        "registered_voters": null,
+        "undervotes": null,
+        "overvotes": null,
+        "precincts_reporting": null,
+        "precincts_total": null,
+        "source_yes_percent": 18.35,
+        "percentage_denominator": "valid_votes",
+        "passage_threshold": null,
+        "threshold_comparison": "unknown",
+        "reported_outcome": "defeated",
+        "calculated_outcome": "unknown",
+        "outcome_direction": "restricts",
+        "reporting_status": "unknown",
+        "certification_status": "unofficial",
+        "certification_date": null,
+        "supersedes_id": null,
+        "yes_no_votes": 1798,
+        "value_methods": {
+          "yes_no_votes": {
+            "method": "derived",
+            "claim_ids": [
+              "bp-e99a2287017cc1a5-result-2"
+            ],
+            "note": "Sum of source-reported yes and no; not overall turnout."
+          },
+          "reported_outcome": {
+            "method": "source_reported",
+            "claim_ids": [
+              "result-bp-e99a2287017cc1a5-reported-outcome-review"
+            ],
+            "note": "Reported outcome basis; counts and passage-rule gaps remain unchanged. Ashville alternative-count observations retain the same source-reported election outcome without conflating vote snapshots."
+          }
+        },
+        "outcome_direction_basis": "reported"
+      },
+      "added_claim_id": "result-bp-e99a2287017cc1a5-reported-outcome-review"
+    },
+    {
+      "table": "measure_results",
+      "id": "result-bp-1ea389c4894805fa",
+      "before": {
+        "schema_version": "1.0.0",
+        "result_observation_id": "result-bp-1ea389c4894805fa",
+        "measure_id": "bp-1ea389c4894805fa",
+        "source_document_id": "06fe2769bc624a2a9f2cccfbebe739fc",
+        "observed_at": "2026-11-05T17:11:42.359833+00:00",
+        "published_at": null,
+        "yes_votes": 3823,
+        "no_votes": 2083,
+        "other_votes": null,
+        "valid_votes": null,
+        "ballots_cast": null,
+        "registered_voters": null,
+        "undervotes": null,
+        "overvotes": null,
+        "precincts_reporting": null,
+        "precincts_total": null,
+        "source_yes_percent": 64.73,
+        "percentage_denominator": "valid_votes",
+        "passage_threshold": null,
+        "threshold_comparison": "unknown",
+        "reported_outcome": "approved",
+        "calculated_outcome": "unknown",
+        "outcome_direction": "restricts",
+        "reporting_status": "unknown",
+        "certification_status": "unofficial",
+        "certification_date": null,
+        "supersedes_id": null,
+        "yes_no_votes": 5906,
+        "value_methods": {
+          "yes_no_votes": {
+            "method": "derived",
+            "claim_ids": [
+              "bp-1ea389c4894805fa-result-9"
+            ],
+            "note": "Sum of source-reported yes and no; not overall turnout."
+          }
+        }
+      },
+      "after": {
+        "schema_version": "1.0.0",
+        "result_observation_id": "result-bp-1ea389c4894805fa",
+        "measure_id": "bp-1ea389c4894805fa",
+        "source_document_id": "06fe2769bc624a2a9f2cccfbebe739fc",
+        "observed_at": "2026-11-05T17:11:42.359833+00:00",
+        "published_at": null,
+        "yes_votes": 3823,
+        "no_votes": 2083,
+        "other_votes": null,
+        "valid_votes": null,
+        "ballots_cast": null,
+        "registered_voters": null,
+        "undervotes": null,
+        "overvotes": null,
+        "precincts_reporting": null,
+        "precincts_total": null,
+        "source_yes_percent": 64.73,
+        "percentage_denominator": "valid_votes",
+        "passage_threshold": null,
+        "threshold_comparison": "unknown",
+        "reported_outcome": "approved",
+        "calculated_outcome": "unknown",
+        "outcome_direction": "restricts",
+        "reporting_status": "unknown",
+        "certification_status": "unofficial",
+        "certification_date": null,
+        "supersedes_id": null,
+        "yes_no_votes": 5906,
+        "value_methods": {
+          "yes_no_votes": {
+            "method": "derived",
+            "claim_ids": [
+              "bp-1ea389c4894805fa-result-9"
+            ],
+            "note": "Sum of source-reported yes and no; not overall turnout."
+          },
+          "reported_outcome": {
+            "method": "source_reported",
+            "claim_ids": [
+              "result-bp-1ea389c4894805fa-reported-outcome-review"
+            ],
+            "note": "Reported outcome basis; counts and passage-rule gaps remain unchanged. Ashville alternative-count observations retain the same source-reported election outcome without conflating vote snapshots."
+          }
+        },
+        "outcome_direction_basis": "reported"
+      },
+      "added_claim_id": "result-bp-1ea389c4894805fa-reported-outcome-review"
+    },
+    {
+      "table": "measure_results",
+      "id": "result-bp-943b35c1711302a4",
+      "before": {
+        "schema_version": "1.0.0",
+        "result_observation_id": "result-bp-943b35c1711302a4",
+        "measure_id": "bp-943b35c1711302a4",
+        "source_document_id": "80611dad6904466792360d3994de26ff",
+        "observed_at": "2026-11-05T17:11:22.170347+00:00",
+        "published_at": null,
+        "yes_votes": 2015,
+        "no_votes": 429,
+        "other_votes": null,
+        "valid_votes": null,
+        "ballots_cast": null,
+        "registered_voters": null,
+        "undervotes": 98,
+        "overvotes": 0,
+        "precincts_reporting": null,
+        "precincts_total": null,
+        "source_yes_percent": 82.45,
+        "percentage_denominator": "valid_votes",
+        "passage_threshold": null,
+        "threshold_comparison": "unknown",
+        "reported_outcome": "approved",
+        "calculated_outcome": "unknown",
+        "outcome_direction": "restricts",
+        "reporting_status": "unknown",
+        "certification_status": "unofficial",
+        "certification_date": null,
+        "supersedes_id": null,
+        "yes_no_votes": 2444,
+        "value_methods": {
+          "yes_no_votes": {
+            "method": "derived",
+            "claim_ids": [
+              "bp-943b35c1711302a4-result-12"
+            ],
+            "note": "Sum of source-reported yes and no; not overall turnout."
+          }
+        }
+      },
+      "after": {
+        "schema_version": "1.0.0",
+        "result_observation_id": "result-bp-943b35c1711302a4",
+        "measure_id": "bp-943b35c1711302a4",
+        "source_document_id": "80611dad6904466792360d3994de26ff",
+        "observed_at": "2026-11-05T17:11:22.170347+00:00",
+        "published_at": null,
+        "yes_votes": 2015,
+        "no_votes": 429,
+        "other_votes": null,
+        "valid_votes": null,
+        "ballots_cast": null,
+        "registered_voters": null,
+        "undervotes": 98,
+        "overvotes": 0,
+        "precincts_reporting": null,
+        "precincts_total": null,
+        "source_yes_percent": 82.45,
+        "percentage_denominator": "valid_votes",
+        "passage_threshold": null,
+        "threshold_comparison": "unknown",
+        "reported_outcome": "approved",
+        "calculated_outcome": "unknown",
+        "outcome_direction": "restricts",
+        "reporting_status": "unknown",
+        "certification_status": "unofficial",
+        "certification_date": null,
+        "supersedes_id": null,
+        "yes_no_votes": 2444,
+        "value_methods": {
+          "yes_no_votes": {
+            "method": "derived",
+            "claim_ids": [
+              "bp-943b35c1711302a4-result-12"
+            ],
+            "note": "Sum of source-reported yes and no; not overall turnout."
+          },
+          "reported_outcome": {
+            "method": "source_reported",
+            "claim_ids": [
+              "result-bp-943b35c1711302a4-reported-outcome-review"
+            ],
+            "note": "Reported outcome basis; counts and passage-rule gaps remain unchanged. Ashville alternative-count observations retain the same source-reported election outcome without conflating vote snapshots."
+          }
+        },
+        "outcome_direction_basis": "reported"
+      },
+      "added_claim_id": "result-bp-943b35c1711302a4-reported-outcome-review"
+    },
+    {
+      "table": "measure_results",
+      "id": "result-bp-e99a2287017cc1a5-aggregate",
+      "before": {
+        "schema_version": "1.0.0",
+        "result_observation_id": "result-bp-e99a2287017cc1a5-aggregate",
+        "measure_id": "bp-e99a2287017cc1a5",
+        "source_document_id": "4d4f943cec774ebb9fbf472fdfd3ad74",
+        "observed_at": "2026-11-05T17:10:35.428961+00:00",
+        "published_at": null,
+        "yes_votes": 331,
+        "no_votes": 1469,
+        "other_votes": null,
+        "valid_votes": null,
+        "ballots_cast": null,
+        "registered_voters": null,
+        "undervotes": null,
+        "overvotes": null,
+        "precincts_reporting": null,
+        "precincts_total": null,
+        "source_yes_percent": 18.4,
+        "percentage_denominator": "valid_votes",
+        "passage_threshold": null,
+        "threshold_comparison": "unknown",
+        "reported_outcome": "defeated",
+        "calculated_outcome": "unknown",
+        "outcome_direction": "restricts",
+        "reporting_status": "unknown",
+        "certification_status": "unofficial",
+        "certification_date": null,
+        "supersedes_id": null,
+        "yes_no_votes": 1800,
+        "value_methods": {
+          "yes_no_votes": {
+            "method": "derived",
+            "claim_ids": [
+              "bp-e99a2287017cc1a5-alternate-result"
+            ],
+            "note": "Aggregate source as-of 2026-11-03 22:22:33 -05:00; its result differs from Scioto Post."
+          }
+        }
+      },
+      "after": {
+        "schema_version": "1.0.0",
+        "result_observation_id": "result-bp-e99a2287017cc1a5-aggregate",
+        "measure_id": "bp-e99a2287017cc1a5",
+        "source_document_id": "4d4f943cec774ebb9fbf472fdfd3ad74",
+        "observed_at": "2026-11-05T17:10:35.428961+00:00",
+        "published_at": null,
+        "yes_votes": 331,
+        "no_votes": 1469,
+        "other_votes": null,
+        "valid_votes": null,
+        "ballots_cast": null,
+        "registered_voters": null,
+        "undervotes": null,
+        "overvotes": null,
+        "precincts_reporting": null,
+        "precincts_total": null,
+        "source_yes_percent": 18.4,
+        "percentage_denominator": "valid_votes",
+        "passage_threshold": null,
+        "threshold_comparison": "unknown",
+        "reported_outcome": "defeated",
+        "calculated_outcome": "unknown",
+        "outcome_direction": "restricts",
+        "reporting_status": "unknown",
+        "certification_status": "unofficial",
+        "certification_date": null,
+        "supersedes_id": null,
+        "yes_no_votes": 1800,
+        "value_methods": {
+          "yes_no_votes": {
+            "method": "derived",
+            "claim_ids": [
+              "bp-e99a2287017cc1a5-alternate-result"
+            ],
+            "note": "Aggregate source as-of 2026-11-03 22:22:33 -05:00; its result differs from Scioto Post."
+          },
+          "reported_outcome": {
+            "method": "source_reported",
+            "claim_ids": [
+              "result-bp-e99a2287017cc1a5-aggregate-reported-outcome-review"
+            ],
+            "note": "Reported outcome basis; counts and passage-rule gaps remain unchanged. Ashville alternative-count observations retain the same source-reported election outcome without conflating vote snapshots."
+          }
+        },
+        "outcome_direction_basis": "reported"
+      },
+      "added_claim_id": "result-bp-e99a2287017cc1a5-aggregate-reported-outcome-review"
+    }
+  ],
+  "schema_errors": [],
+  "source_issues": [],
+  "located_claims": 18,
+  "scope": "Reviewed outcome-basis repair in candidate overlay only. Does not promote any measure, establish passage rule, certify results or accept legal-effect links. Original worker files preserved."
+}

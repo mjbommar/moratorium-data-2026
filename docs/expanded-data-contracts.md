@@ -55,6 +55,12 @@ mechanically calculated outcome this version uses the stated denominator, thresh
 and strict or inclusive comparison. It reverses restricts/facilitates for a defeated
 question; mixed, neutral and unresolved remain as stated. A direction is not a
 legal-effect assertion. Unspecified totals stay null, never zero. The validator
+allows optional `outcome_direction_basis` to distinguish `calculated` (the default
+for legacy candidates), `reported`, and `unresolved`. A reported basis requires a
+`source_reported` value method for `reported_outcome` and a matching claim scoped
+to that exact result observation. It does not invent a passage rule, certify the
+result, establish legal effect, or override contradictory calculable arithmetic.
+The validator
 checks arithmetic only when inputs are available, and compares reported percentages
 to the chosen denominator with 0.11 percentage point rounding tolerance.
 Optional `yes_no_votes` records the arithmetic sum without inventing total valid
