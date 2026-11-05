@@ -69,7 +69,7 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 | Howard Charter Township (Cass County) | Township | Unverified | data center, battery storage | 🟡 Pending |
 | Howell Township | Township | 2025-11-20 | data center | ⚪ Expired |
 | Huron County | County | 2026-05-27 | data center | 🟢 Active |
-| Huron County (solar and battery storage) | County | 2026-05-12 | solar, battery storage | 🟢 Extended |
+| Huron County (solar and battery storage) | County | 2026-05 | solar, battery storage | 🟢 Extended |
 | Independence Township | Township | 2026-07-21 | data center | 🟢 Active |
 | Kalamazoo | City | 2026-08-17 | data center, battery storage, cryptocurrency mining | 🟢 Active |
 | Kalamazoo Township | Township | 2026-07-27 | data center | 🟢 Active |
@@ -83,7 +83,7 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 | Lincoln Township (Berrien County) | Township | 2026-06-09 | data center | 🟢 Active |
 | Lodi Township | Township | 2026-02-03 | data center | 🟢 Extended |
 | Lyndon Township | Township | 2026-05-12 | data center | 🟢 Active |
-| Lyon Charter Township (Oakland County) | Township | 2026-05 | data center | 🟢 Active |
+| Lyon Charter Township (Oakland County) | Township | 2026-03-02 | data center | 🟢 Active |
 | Lyon Township | Township | 2026-05 | data center | 🟢 Active |
 | Manchester Township | Township | 2025-10-14 | data center | 🟢 Active |
 | Marengo Township | Township | 2026-02-24 | data center | 🟢 Active |
@@ -986,7 +986,7 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Legal basis:** Board of Trustees motion adopted 2026-07-13 approving a 6-month moratorium on data center applications (no ordinance or resolution number recorded in the minutes)
 - **What prompted it:** Would allow research and drafting of permanent rules
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. The Board unanimously approved a six-month data center moratorium on 2026-07-13; the August 2026 zoning report states the 6-month moratorium is in effect while the township attorney drafts ordinance language.
+- **Detailed status:** The August zoning report describes a six-month data-center moratorium then in effect; that historical report does not establish later continuation. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** Board adopted a six-month moratorium on data center applications; Planning Commission and township attorney (Mika Meyers PLC) drafting permanent data center standards
 
 ### Hart
@@ -996,13 +996,13 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Date enacted:** 2026-05-26 (7-0 City Council vote, following a 2026-05-07 Planning Commission hearing that recommended it 7-0)
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** Six months
-- **Current end date:** `—`
+- **Current end date:** `2026-11-26`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `mi-hart-2026`
 - **Legal basis:** Ordinance 2026-02, adding Section 1242.07 to the city code
 - **What prompted it:** Proactive pause on city consideration of applications for data centers and digital mining uses
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; adopted 2026-05-26, due to run to approximately 2026-11-26 absent extension
+- **Detailed status:** The published code states a six-month term terminating November 26, 2026 unless previously terminated, extended or otherwise altered by Council. The stated endpoint is conditional; later council actions remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** City Council adopted Ordinance 2026-02 by 7-0 vote; creates a six-month moratorium on city consideration of data center and digital mining applications
 
 ### Hayes Township (Charlevoix County)
@@ -1034,7 +1034,7 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Legal basis:** Ordinance No. 2026-06-02, Zoning Ordinance Amendment: Temporary Moratorium Authority, Data Center Temporary Moratorium and Temporary Large Renewable Energy Projects Moratorium (adopted 2026-06-09, effective 2026-07-02), under PA 246 of 1945 and PA 110 of 2006
 - **What prompted it:** Public concerns about impacts of data centers and large renewable energy projects on health, safety, welfare and land uses
 - **Affected projects:** None identified
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium on applications for data centers and large renewable energy projects (solar and storage 50 MW+, wind 100 MW+, hybrids 50 MW+) effective 2026-07-02 runs to 2027-07-02 unless zoning amendments take effect sooner or it is extended.
+- **Detailed status:** Ordinance 2026-06-02 describes one year from effectiveness, with an earlier regulatory trigger and extension provision. This original term does not establish later continuation. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** Township to draft zoning amendments for data centers and each type of large renewable energy project
 
 ### Holly Township
@@ -1121,8 +1121,8 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 
 - **Type:** County
 - **Status:** 🟢 Extended
-- **Date enacted:** 2026-05-12 (Board of Commissioners, unanimous); extended 2026-08-11 (30 days, 6-1), ~2026-09-08 (14 days, unanimous) and 2026-09-22 (to 2026-12-29, 6-1)
-- **Normalized date:** `2026-05-12` (exact)
+- **Date enacted:** May 2026 (May 12 proposed agenda; later reporting says initial approval May 13; exact day unresolved). September 22 extension reported through December 29, 2026; intervening actions not independently reverified here.
+- **Normalized date:** `2026-05` (month_only)
 - **Duration:** 3 months, extended three times; now through 2026-12-29
 - **Current end date:** `2026-12-29`
 - **Sectors:** solar, battery storage
@@ -1130,7 +1130,7 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Legal basis:** Board of Commissioners resolution imposing a 3-month moratorium on special use permits for Utility Scale Solar Energy Facilities and Battery Energy Storage Systems (May 12, 2026 agenda, Legislative item 2); extension resolutions of 2026-08-11, early September 2026 and 2026-09-22
 - **What prompted it:** Planning commission needs time to recommend additional standards for the county solar and battery zoning ordinance (setbacks, acreage cap, host agreement, decommissioning)
 - **Affected projects:** Ranger Power 150 MW Pinesap Solar (Rubicon Township); counsel advised its pre-moratorium application is governed by the current ordinance
-- **Detailed status:** Extended; active as of 2026-09-23. On 2026-09-22 the Board of Commissioners extended the moratorium a third time, to 2026-12-29, while the solar and battery ordinance amendments go to public hearing.
+- **Detailed status:** September reporting describes a third extension approved September 22 to December 29, 2026. It says the initial three-month moratorium was approved May 13, whereas the retained proposed agenda is dated May 12. Initial adoption day, final resolution text and later actions require verification; extension endpoint remains news-qualified. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** Planning commission completed review of ordinance amendments 2026-09-16; draft to commission 2026-10-07, public hearing expected November
 
 ### Independence Township
@@ -1146,7 +1146,7 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Legal basis:** Township Board resolution adopted 2026-07-21 (number not located)
 - **What prompted it:** Township unprepared to regulate a data center; the supervisor cited nearby Springfield Township approaches and an MTA training session
 - **Affected projects:** None identified
-- **Detailed status:** Active as of 2026-09-23; the six-month moratorium adopted 2026-07-21 runs to about 2027-01-21 while the planning commission reviews zoning standards. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** Local reporting describes unanimous approval of a six-month data-center moratorium. The final resolution identity, operative anchor and subsequent actions remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** Planning commission and consultants directed to develop data-center standards
 
 ### Kalamazoo
@@ -1178,7 +1178,7 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Legal basis:** Charter Township of Kalamazoo Ordinance No. 647, moratorium on data centers
 - **What prompted it:** Data centers not currently permitted in the township; proactive study given Michigan's attractiveness for data centers and pending state legislation
 - **Affected projects:** None identified
-- **Detailed status:** Active as of 2026-09-23; Ordinance No. 647 took effect on publication after the 2026-07-27 adoption and runs 12 months unless regulations are adopted earlier.
+- **Detailed status:** The retained Ordinance 647 text describes twelve months or earlier effectiveness of new data-center regulations; contemporaneous reporting distinguishes adoption of data-center Ordinance 647 from battery-storage Ordinance 646. Exact operative anchor and later actions remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** Planning Commission to study data centers as a land use
 
 ### Kalamazoo Township
@@ -1207,26 +1207,26 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `mi-lake-township-2026`
-- **Legal basis:** Board-adopted moratorium (ordinance number not located; the official ordinances page did not contain the adopted text as of 2026-07-31)
+- **Legal basis:** Lake Township Ordinance No. 2026-01, adopted July 16, 2026
 - **What prompted it:** Halts approval, construction, expansion, zoning permits, and licenses for data centers
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. The Planning Commission began drafting a permanent 'high resource demand facilities' ordinance at its Aug. 12, 2026 meeting (Chairman Bob Siver's draft, informed by Carlisle/Wortman recommendations); no formal action was taken and the six-month moratorium (through ~January 2027) remains in effect. [VERIFY instrument number not confirmed at confidence 0.6 in the 2026-07 refresh]
+- **Detailed status:** The July official minutes identify adoption of Ordinance 2026-01, with all four recorded members voting in favor. Local reporting describes a six-month term. This pass does not establish subsequent permanent-regulation adoption or current force. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** Township board unanimously adopted a six-month moratorium, effective immediately upon adoption
 
 ### Lansing
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-07-13 (7-1 City Council vote); effective 2026-07-27
+- **Date enacted:** 2026-07-13 (City Council adoption); published City Clerk summary states effective 2026-07-28.
 - **Normalized date:** `2026-07-13` (exact)
-- **Duration:** 182 days from the effective date, reported to run through 2027-01-25
+- **Duration:** 182 days from the effective date; City Clerk summary states July 28, 2026 effectiveness. Exact endpoint convention and later actions unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `mi-lansing-2026`
-- **Legal basis:** Chapter 878 of the city code
+- **Legal basis:** Lansing Ordinance No. 1359, adding Chapter 878 of the city code
 - **What prompted it:** Bars issuance of building permits for data centers and processing of zoning amendment applications that would permit a data center as a principal or accessory use
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; effective since 2026-07-27, reported to run through 2027-01-25
+- **Detailed status:** July council proceedings identify Ordinance 1359 adding Chapter 878. The published City Clerk summary states effectiveness July 28, 2026, rather than July 27 in the prior narrative. The ordinance term is 182 days from effectiveness; no exact endpoint convention or later continuation is inferred. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** City Council voted 7-1 to add Chapter 878, a 182-day moratorium on data center building permits and enabling zoning amendments
 
 ### Lenox Township
@@ -1258,7 +1258,7 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Legal basis:** Board of Trustees one-year moratorium on data center conditional use applications (instrument number not located)
 - **What prompted it:** Proactive; planning commission drafting data center regulations
 - **Affected projects:** None; no application received
-- **Detailed status:** Active as of 2026-09-23 (presumed); one-year moratorium adopted March 2026; no later action located. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Detailed status:** March reporting describes a one-year data-center moratorium approved earlier that month. The executed instrument, exact adoption/effective dates and subsequent actions remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** Planning Commission drafting ordinance
 
 ### Lima Township
@@ -1290,7 +1290,7 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Legal basis:** Lima Township Resolution 2026-12, temporary moratorium on power generating facilities
 - **What prompted it:** Consumers Energy option on ~120 acres off S. Lima Center Road for a possible 1.4 GW natural-gas power plant
 - **Affected projects:** Potential Consumers Energy 1.4-gigawatt natural gas plant
-- **Detailed status:** Active as of 2026-09-23; Resolution 2026-12 (2026-06-12) pauses establishing, permitting, approval or construction of any power generating facilities for 12 months (to about 2027-06-12) or until a regulatory ordinance is enacted.
+- **Detailed status:** Contemporaneous reporting describes a twelve-month moratorium on power-generating facilities. Original operative terms and any earlier regulatory trigger need executed-text and later-action review. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** Township, attorneys and consultants to draft zoning rules for power generating facilities
 
 ### Lincoln Township (Berrien County)
@@ -1306,7 +1306,7 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Legal basis:** Data center moratorium ordinance, under the Michigan Zoning Enabling Act (PA 110 of 2006)
 - **What prompted it:** Adopted while a Planning Commission subgroup studied data center regulation
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31
+- **Detailed status:** Contemporaneous reporting describes a ten-month data-center moratorium. The final instrument, operative anchor and subsequent actions remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** Township Board adopted a ten-month data center moratorium, all six members present voting yes
 
 ### Lodi Township
@@ -1338,23 +1338,23 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Legal basis:** Resolution 26-06, under the Michigan Zoning Enabling Act (PA 110 of 2006)
 - **What prompted it:** Proactive pause on new data center development applications; no specific pending project identified in the record reviewed
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; effective since 2026-05-27
+- **Detailed status:** The township notice describes twelve months or earlier effectiveness of data-center regulations. Later regulatory action and the current operative interval remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** Adopted; imposes a 12-month (or until-regulated) moratorium on new data center development applications
 
 ### Lyon Charter Township (Oakland County)
 
 - **Type:** Township
 - **Status:** 🟢 Active
-- **Date enacted:** May 2026
-- **Normalized date:** `2026-05` (month_only)
-- **Duration:** 180 days
+- **Date enacted:** 2026-03-02 (Resolution No. 2026-07; board synopsis)
+- **Normalized date:** `2026-03-02` (exact)
+- **Duration:** Resolution 2026-07 as approved March 2 states a term through September 8, 2026; predecessor and later-action relationships unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `mi-lyon-township-2026`
-- **Legal basis:** Township-adopted moratorium on new data center applications; specific resolution/ordinance number not confirmed in this pass
+- **Legal basis:** Lyon Charter Township Resolution No. 2026-07, moratorium on approvals and permits for data processing centers and large land users
 - **What prompted it:** Rapid regional data center development pressure; enacted while the previously-approved 'Project Flex' hyperscale campus (~1.8 million sq ft) continues toward final approval
 - **Affected projects:** Project Flex (~1.8 million-square-foot hyperscale data center campus), already approved and unaffected by the moratorium; applies to new/future data center applications
-- **Detailed status:** Active as of late June 2026; does not apply to the already-approved Project Flex development, whose Planning Commission review was reported as continuing (scheduled for review as late as August 24, 2026 per one source)
+- **Detailed status:** The March 2 board synopsis records 7-0 approval of amended Resolution 2026-07 covering data-processing centers and large land users, with a term through September 8, 2026. The relationship to any predecessor moratorium, later extension or replacement, and present legal force remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** New data center applications paused while the previously-approved Project Flex proceeds separately
 
 ### Lyon Township

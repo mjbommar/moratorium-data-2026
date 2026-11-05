@@ -1,0 +1,416 @@
+{
+  "applied_at": "20261105T154801",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-michigan-c/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 13,
+    "fields_changed": 50,
+    "verify_confirmed": 1,
+    "verify_resolved_via_field_rewrite": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "mi-haring-township-undated",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The retained primary source expresses the term in calendar months or years.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-haring-township-undated",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "A calendar term is not a fixed count of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-haring-township-undated",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23. The Board unanimously approved a six-month data center moratorium on 2026-07-13; the August 2026 zoning report states the 6-month moratorium is in effect while the township attorney drafts ordinance language.",
+      "after": "The August zoning report describes a six-month data-center moratorium then in effect; that historical report does not establish later continuation. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]",
+      "reason": "Bound source-supported historical terms/events separately from current-force verification.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-hart-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The retained primary source expresses the term in calendar months or years.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-hart-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "A calendar term is not a fixed count of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-hart-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-11-26",
+      "reason": "Published code explicitly states this conditional endpoint; no absence of later amendment or extension is asserted.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-hart-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31; adopted 2026-05-26, due to run to approximately 2026-11-26 absent extension",
+      "after": "The published code states a six-month term terminating November 26, 2026 unless previously terminated, extended or otherwise altered by Council. The stated endpoint is conditional; later council actions remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]",
+      "reason": "Bound source-supported historical terms/events separately from current-force verification.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-hillsdale-township-hillsdale-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The retained primary source expresses the term in calendar months or years.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-hillsdale-township-hillsdale-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "A calendar term is not a fixed count of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-hillsdale-township-hillsdale-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; one-year moratorium on applications for data centers and large renewable energy projects (solar and storage 50 MW+, wind 100 MW+, hybrids 50 MW+) effective 2026-07-02 runs to 2027-07-02 unless zoning amendments take effect sooner or it is extended.",
+      "after": "Ordinance 2026-06-02 describes one year from effectiveness, with an earlier regulatory trigger and extension provision. This original term does not establish later continuation. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]",
+      "reason": "Bound source-supported historical terms/events separately from current-force verification.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-huron-county-solar-and-battery-storage-2026",
+      "column": "duration_days",
+      "before": "90",
+      "after": "",
+      "reason": "Three calendar months is not a fixed 90 days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-huron-county-solar-and-battery-storage-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The agenda specifies three months.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-huron-county-solar-and-battery-storage-2026",
+      "column": "date_enacted",
+      "before": "2026-05-12 (Board of Commissioners, unanimous); extended 2026-08-11 (30 days, 6-1), ~2026-09-08 (14 days, unanimous) and 2026-09-22 (to 2026-12-29, 6-1)",
+      "after": "May 2026 (May 12 proposed agenda; later reporting says initial approval May 13; exact day unresolved). September 22 extension reported through December 29, 2026; intervening actions not independently reverified here.",
+      "reason": "Do not treat the proposed agenda date as proof of the exact adoption day when reporting differs.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-huron-county-solar-and-battery-storage-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-05-12",
+      "after": "2026-05",
+      "reason": "Retain supported month precision pending reconciliation of May 12 agenda and May 13 reported adoption.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-huron-county-solar-and-battery-storage-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "exact",
+      "after": "month_only",
+      "reason": "Exact initial adoption day remains unresolved.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-huron-county-solar-and-battery-storage-2026",
+      "column": "current_status",
+      "before": "Extended; active as of 2026-09-23. On 2026-09-22 the Board of Commissioners extended the moratorium a third time, to 2026-12-29, while the solar and battery ordinance amendments go to public hearing.",
+      "after": "September reporting describes a third extension approved September 22 to December 29, 2026. It says the initial three-month moratorium was approved May 13, whereas the retained proposed agenda is dated May 12. Initial adoption day, final resolution text and later actions require verification; extension endpoint remains news-qualified. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]",
+      "reason": "Bound source-supported historical terms/events separately from current-force verification.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-independence-township-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Six months is a calendar term, not 180 days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-independence-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "News reports six months.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-independence-township-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; the six-month moratorium adopted 2026-07-21 runs to about 2027-01-21 while the planning commission reviews zoning standards. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+      "after": "Local reporting describes unanimous approval of a six-month data-center moratorium. The final resolution identity, operative anchor and subsequent actions remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]",
+      "reason": "Bound source-supported historical terms/events separately from current-force verification.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-kalamazoo-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Twelve calendar months is not a fixed 365 days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-kalamazoo-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The ordinance specifies twelve months.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-kalamazoo-township-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; Ordinance No. 647 took effect on publication after the 2026-07-27 adoption and runs 12 months unless regulations are adopted earlier.",
+      "after": "The retained Ordinance 647 text describes twelve months or earlier effectiveness of new data-center regulations; contemporaneous reporting distinguishes adoption of data-center Ordinance 647 from battery-storage Ordinance 646. Exact operative anchor and later actions remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]",
+      "reason": "Bound source-supported historical terms/events separately from current-force verification.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lake-township-2026",
+      "column": "legal_basis",
+      "before": "Board-adopted moratorium (ordinance number not located; the official ordinances page did not contain the adopted text as of 2026-07-31)",
+      "after": "Lake Township Ordinance No. 2026-01, adopted July 16, 2026",
+      "reason": "Official board minutes identify the instrument.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lake-township-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23. The Planning Commission began drafting a permanent 'high resource demand facilities' ordinance at its Aug. 12, 2026 meeting (Chairman Bob Siver's draft, informed by Carlisle/Wortman recommendations); no formal action was taken and the six-month moratorium (through ~January 2027) remains in effect. [VERIFY instrument number not confirmed at confidence 0.6 in the 2026-07 refresh]",
+      "after": "The July official minutes identify adoption of Ordinance 2026-01, with all four recorded members voting in favor. Local reporting describes a six-month term. This pass does not establish subsequent permanent-regulation adoption or current force. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]",
+      "reason": "Bound source-supported historical terms/events separately from current-force verification.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lake-township-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Six months is not a fixed 180 days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lake-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The reported term is six months.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lansing-2026",
+      "column": "legal_basis",
+      "before": "Chapter 878 of the city code",
+      "after": "Lansing Ordinance No. 1359, adding Chapter 878 of the city code",
+      "reason": "The city council proceedings identify the ordinance.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lansing-2026",
+      "column": "date_enacted",
+      "before": "2026-07-13 (7-1 City Council vote); effective 2026-07-27",
+      "after": "2026-07-13 (City Council adoption); published City Clerk summary states effective 2026-07-28.",
+      "reason": "Use the clerk-published effective date rather than the prior unsupported July 27 narrative.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lansing-2026",
+      "column": "duration",
+      "before": "182 days from the effective date, reported to run through 2027-01-25",
+      "after": "182 days from the effective date; City Clerk summary states July 28, 2026 effectiveness. Exact endpoint convention and later actions unresolved.",
+      "reason": "Do not carry forward an endpoint calculated from the prior effective-date narrative.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lansing-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31; effective since 2026-07-27, reported to run through 2027-01-25",
+      "after": "July council proceedings identify Ordinance 1359 adding Chapter 878. The published City Clerk summary states effectiveness July 28, 2026, rather than July 27 in the prior narrative. The ordinance term is 182 days from effectiveness; no exact endpoint convention or later continuation is inferred. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]",
+      "reason": "Bound source-supported historical terms/events separately from current-force verification.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-leoni-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "One calendar year is not a fixed 365-day term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-leoni-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source reports one year.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-leoni-township-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23 (presumed); one-year moratorium adopted March 2026; no later action located. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+      "after": "March reporting describes a one-year data-center moratorium approved earlier that month. The executed instrument, exact adoption/effective dates and subsequent actions remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]",
+      "reason": "Bound source-supported historical terms/events separately from current-force verification.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lima-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The source describes months, not a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lima-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "A calendar-month term is not a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lima-township-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; Resolution 2026-12 (2026-06-12) pauses establishing, permitting, approval or construction of any power generating facilities for 12 months (to about 2027-06-12) or until a regulatory ordinance is enacted.",
+      "after": "Contemporaneous reporting describes a twelve-month moratorium on power-generating facilities. Original operative terms and any earlier regulatory trigger need executed-text and later-action review. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]",
+      "reason": "Bound source-supported historical terms/events separately from current-force verification.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lincoln-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The source describes months, not a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lincoln-township-2026",
+      "column": "duration_days",
+      "before": "300",
+      "after": "",
+      "reason": "A calendar-month term is not a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lincoln-township-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31",
+      "after": "Contemporaneous reporting describes a ten-month data-center moratorium. The final instrument, operative anchor and subsequent actions remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]",
+      "reason": "Bound source-supported historical terms/events separately from current-force verification.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lyndon-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The source describes months, not a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lyndon-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "A calendar-month term is not a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lyndon-township-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31; effective since 2026-05-27",
+      "after": "The township notice describes twelve months or earlier effectiveness of data-center regulations. Later regulatory action and the current operative interval remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]",
+      "reason": "Bound source-supported historical terms/events separately from current-force verification.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lyon-township-2026",
+      "column": "date_enacted",
+      "before": "May 2026",
+      "after": "2026-03-02 (Resolution No. 2026-07; board synopsis)",
+      "reason": "The township board synopsis documents the vote on March 2.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lyon-township-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-05",
+      "after": "2026-03-02",
+      "reason": "Township board synopsis date.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lyon-township-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact",
+      "reason": "Township board synopsis date.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lyon-township-2026",
+      "column": "legal_basis",
+      "before": "Township-adopted moratorium on new data center applications; specific resolution/ordinance number not confirmed in this pass",
+      "after": "Lyon Charter Township Resolution No. 2026-07, moratorium on approvals and permits for data processing centers and large land users",
+      "reason": "Township board synopsis identifies the resolution and amendment.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lyon-township-2026",
+      "column": "duration",
+      "before": "180 days",
+      "after": "Resolution 2026-07 as approved March 2 states a term through September 8, 2026; predecessor and later-action relationships unresolved.",
+      "reason": "Use the explicit resolution term rather than the old unsupported 180-day description.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lyon-township-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "No fixed 180-day term is established by the reviewed synopsis.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lyon-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "until_date",
+      "reason": "The synopsis explicitly names a September 8 endpoint; no assertion of current force or latest end date.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-lyon-township-2026",
+      "column": "current_status",
+      "before": "Active as of late June 2026; does not apply to the already-approved Project Flex development, whose Planning Commission review was reported as continuing (scheduled for review as late as August 24, 2026 per one source)",
+      "after": "The March 2 board synopsis records 7-0 approval of amended Resolution 2026-07 covering data-processing centers and large land users, with a term through September 8, 2026. The relationship to any predecessor moratorium, later extension or replacement, and present legal force remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]",
+      "reason": "Bound source-supported historical terms/events separately from current-force verification.",
+      "source": "answers.json"
+    }
+  ]
+}
