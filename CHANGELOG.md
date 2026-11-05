@@ -16,13 +16,15 @@ Further reviewed corrections identify Oakley's original Ordinance 6-26, Richmond
 
 Humboldt County's certified October 6 adoption replaces its pending account. Morgan Hill's executed Ordinance 2377 corrects the original adoption date to September 16; its later extension and Indio's second extension remain qualified pending their adopted final texts. All 50 state-discovery jobs have returned for substantive review.
 
+New Haven's official ordinance history corrects approval to September 22 and identifies OR-2026-0035. Conflicting effective-date provisions leave publication/filing and expiry unresolved; the unsupported September 8, 2027 endpoint is removed. New Haven and historical Groton now use calendar terms without guessed day counts. Validation explicitly flags in-force calendar terms whose exact endpoint remains unknown.
+
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1292** |
 | In force (active or extended) | **1067** |
 | Proposed, not yet voted on | **74** |
 | Ended (replaced, expired, or rescinded) | **151** |
-| Rows we still want to confirm (`[VERIFY]`) | **308** |
+| Rows we still want to confirm (`[VERIFY]`) | **309** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

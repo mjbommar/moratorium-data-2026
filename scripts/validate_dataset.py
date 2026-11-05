@@ -309,6 +309,12 @@ def check_inventory(rows: list[dict], fieldnames: list[str], today: dt.date, rep
             if kind == "fixed_days":
                 rep.error("duration.kind", f"{where}: duration_kind=fixed_days but duration_days empty")
 
+        if kind == "calendar_term" and row["enacted_status"] in IN_FORCE and not current_end:
+            rep.warn(
+                "duration.calendar_end_unverified",
+                f"{where}: in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions",
+            )
+
         # --- expiration drift (warning, drives the worklist) ------------------
         # Only `active` rows are checked. The codebook defines duration_days as
         # the ORIGINAL term, excluding extensions, so an `extended` row is

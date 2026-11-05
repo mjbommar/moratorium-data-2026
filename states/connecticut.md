@@ -12,7 +12,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 | Cromwell | Town | Unverified | data center | 🟡 Pending |
 | Groton | Town | 2022-06-14 | data center | ⚪ Replaced |
 | Morris | Town | 2026-05 | battery storage, data center | 🟢 Active |
-| New Haven | City | 2026-09-08 | data center | 🟢 Active |
+| New Haven | City | 2026-09-22 | data center | 🟢 Active |
 | Trumbull | Town | 2026-09-09 | data center | 🟢 Active |
 | West Haven | City | 2026-06-08 | data center | 🟢 Active |
 
@@ -70,17 +70,17 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** Introduced 2026-07-06 as a communication by Board of Alders Majority Leader Richard Furlow (item LM-2026-0285). The Legislation Committee held a public hearing and gave a Favorable Report on 2026-08-04 (per the item's official Legistar history). The item was on the full Board of Alders' agenda for its 2026-09-08 meeting (a Tuesday, since the Board's usual Monday date fell on Labor Day). Yale Daily News reported the Board voted unanimously that Tuesday to adopt the 12-month moratorium; this is treated as the adoption date, though it could not be independently corroborated with a second source (see notes on residual uncertainty).
-- **Normalized date:** `2026-09-08` (exact)
-- **Duration:** 12 months from adoption (ordinance text: 'A TEMPORARY TWELVE (12) MONTH MORATORIUM ON DATA CENTER DEVELOPMENT WITHIN THE CITY OF NEW HAVEN'), per the official ordinance language on file with the City/Town Clerk (Legistar file LM-2026-0285).
-- **Current end date:** `2027-09-08`
+- **Date enacted:** Board of Alders approved OR-2026-0035 on 2026-09-22; the official history records the 2026-09-08 action as noted.
+- **Normalized date:** `2026-09-22` (exact)
+- **Duration:** Twelve calendar months from the effective date unless sooner repealed or extended. Section 4 says effective upon adoption; Section 9 says upon publication and filing. The publication and filing dates were not established.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ct-new-haven-undated`
-- **Legal basis:** Ordinance Amendment of the New Haven Board of Alders establishing a temporary twelve (12) month moratorium on data center development within the City of New Haven (Legistar file LM-2026-0285), introduced 2026-07-06, Legislation Committee Favorable Report 2026-08-04, before the full Board of Alders 2026-09-08.
+- **Legal basis:** New Haven Board of Alders ordinance OR-2026-0035, approved 2026-09-22 (Legistar ID 8127684). Section 4 says effective upon adoption; section 9 says upon publication and filing. [VERIFY: publication/filing dates and operative effective date.]
 - **What prompted it:** Proactive/regulatory-gap: the city has no zoning framework for data centers and wants to develop one before any project is proposed, drawing on approaches used by Groton, Morris, and West Haven, Connecticut.
 - **Affected projects:** None. New Haven's Deputy Director of Zoning stated there are no current proposals or plans by any entity to build a data center in New Haven.
-- **Detailed status:** Active as of 2026-09-23 (moderate confidence). The Legislation Committee gave a Favorable Report on 2026-08-04 and the item (LM-2026-0285) was on the full Board of Alders' September 8, 2026 agenda. Yale Daily News reported (headline and lede snippet) that the Board voted unanimously that Tuesday to adopt the 12-month data center moratorium. This could not be independently corroborated: the Yale Daily News article itself returned a bot-detection (Kasada) challenge on both a direct and a browser-mode fetch, so only the search-engine snippet could be read; New Haven Independent, which had covered every earlier stage of this item in detail, published no follow-up story on the Sept. 8 vote; and the official September 8, 2026 Board of Alders meeting agenda (fetched directly from newhaven-ct.legistar.com) groups LM-2026-0285 together with several unrelated items under a 'Legislation. Leave to withdraw' heading, which -- taken literally -- would mean the Legislation Committee's report on this batch recommended withdrawal rather than passage. This agenda-formatting ambiguity is inconsistent with the item's own recorded 8/4/2026 'Favorable Report' status and could reflect a template/carryover artifact in how the city's agenda software groups items, rather than an actual disposition of LM-2026-0285 specifically. Because no direct, unambiguous confirmation of the final vote result could be obtained, this decision is recorded with moderate rather than high confidence.
-- **Outcome:** Proposed 12-month moratorium to allow the city's economic development department to convene a working group evaluating opportunities and impacts before any zoning framework is adopted.
+- **Detailed status:** Approved by the Board of Alders on 2026-09-22. The publication and filing dates and any later amendment or repeal were not established in this research pass; current legal force and expiration remain unverified. [VERIFY: publication and filing, effective date, and subsequent amendments or repeal.]
+- **Outcome:** The Board of Alders approved a twelve-month data center moratorium and directed the Department of Economic Development to convene a working group.
 
 ### Trumbull
 
