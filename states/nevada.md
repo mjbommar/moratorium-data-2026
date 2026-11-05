@@ -10,7 +10,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | Humboldt County | County | 2026-07-06 | data center | 🟢 Active |
-| Lander County | County | 2024 | solar, wind, battery storage | ⚪ Expired |
+| Lander County | County | 2024-11-14 | solar, wind, battery storage | ⚪ Expired |
 | Nye County | County | 2023 | solar, battery storage | ⚪ Replaced |
 | Nye County | County | 2026-06-02 | data center, cryptocurrency mining | 🟢 Active |
 | Reno | City | 2026-06-01 | data center | 🟢 Extended |
@@ -29,18 +29,18 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nv-humboldt-county-2026`
-- **Legal basis:** Bill No. 05-18-26 (Humboldt County), a temporary moratorium on the acceptance, processing, and approval of applications for new data center facilities in unincorporated Humboldt County; does not apply within the city of Winnemucca
+- **Legal basis:** Bill No. 05-18-26, adopted as Ordinance No. 07-06-26 (Humboldt County), a temporary moratorium on the acceptance, processing, and approval of applications for new data center facilities in unincorporated Humboldt County; does not apply within the city of Winnemucca
 - **What prompted it:** Precautionary pause pending regulation; no data center proposal or development application was pending when the measure passed
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; set to expire 2027-07-13 absent further action or extension. Continued force confirmed by the Nevada Independent's statewide roundup (last updated Aug. 26, 2026) and by the recitals of White Pine County Resolution 2026-18 (adopted July 22, 2026), both of which describe the Humboldt County moratorium as presently in effect.
+- **Detailed status:** July 6 official minutes record second-reading approval under Ordinance 07-06-26 and a modification to section one, item two, naming July 13, 2027. The exact operative ending/effective-date clauses and later actions remain unreviewed; no canonical endpoint projection is added from the minutes alone. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Lander County
 
 - **Type:** County
 - **Status:** ⚪ Expired
-- **Date enacted:** Resolution 2024-09 (original 9-month moratorium; exact 2024 adoption date not confirmed)
-- **Normalized date:** `2024` (year_only)
+- **Date enacted:** 2024-11-14, Lander County Commission approved Resolution 2024-09 (date reported in July 24, 2025 county staff report).
+- **Normalized date:** `2024-11-14` (exact)
 - **Duration:** 9 months originally; extended 6 months by Resolution 2025-11 (adopted 2025-07-24) through Jan. 24, 2026
 - **Current end date:** `—`
 - **Sectors:** solar, wind, battery storage
@@ -48,7 +48,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Resolution 2024-09 (original), extended by Resolution 2025-11 (adopted 2025-07-24, through 2026-01-24)
 - **What prompted it:** Time to study standards for renewable energy generation facility siting (solar, wind, storage)
 - **Affected projects:** —
-- **Detailed status:** Expired 2026-01-24 (last confirmed extension); Lander County's moratorium on renewable energy generation facilities (including battery storage), originally Resolution 2024-09, was extended six months by Resolution 2025-11 (adopted 2025-07-24) through Jan. 24, 2026. No further extension confirmed as of 2026-09-23. [VERIFY details not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Detailed status:** The July 24, 2025 county staff report states the original moratorium was approved November 14, 2024. The extension material in that packet is proposed, not proof of adoption; bridging continuation, BESS scope and actual expiry remain unresolved. The legacy expired classification is retained provisionally. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Term lapsed; status after Jan. 24, 2026 not confirmed
 
 ### Nye County
@@ -105,14 +105,14 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-06-23, Wells City Council, unanimous vote (4-0, Councilman Richard Peltier absent) on Resolution No. 26-06
 - **Normalized date:** `2026-06-23` (exact)
-- **Duration:** 12 months from the effective date (adoption), unless earlier repealed, modified, extended, or superseded by Council action.
+- **Duration:** Section 8 states “twelve months (12) days” from effectiveness, unless earlier repealed, modified, extended or superseded. The contradictory units require clarification.
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nv-wells-2026`
 - **Legal basis:** Resolution No. 26-06 (City of Wells), establishing a temporary moratorium on acceptance, processing, approval, and issuance of land use applications, development approvals, business licenses, building permits, and related entitlements for data centers
 - **What prompted it:** Preemptive/precautionary pause; city stated no data center projects were proposed or approved in Wells at adoption, but wanted time to study land use, infrastructure, water, electricity, noise, and emergency-response impacts before any proposal arrives.
 - **Affected projects:** None; the city stated there were no approved data center projects within Wells at the time of adoption.
-- **Detailed status:** Active as of 2026-09-23. 12-month moratorium adopted June 23, 2026 (Resolution No. 26-06), running through approximately June 23, 2027 unless repealed, modified, extended, or superseded by the Council.
+- **Detailed status:** Resolution 26-06 is reported adopted June 23. Its scanned section 8 literally states twelve months (12) days from effectiveness, with earlier-change conditions. This review does not resolve that contradiction or establish a June 23, 2027 endpoint. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Wells City Council adopted a 12-month moratorium on data center land use applications, business licenses, and building permits, directing staff to work with Elko County and neighboring jurisdictions on regulations, zoning requirements, and development standards.
 
 ### White Pine County

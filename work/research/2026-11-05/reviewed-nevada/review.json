@@ -1,0 +1,63 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": "24f883c96af65a056abb5065b2d9731686fe1d11c74b961f8549726d671aa34e",
+  "reviewed_answers_sha256": "3148a80f6372e14e497caf23b65f0f0458e08ebd8c3ed63005b1cce38391189b",
+  "scope": "Three bounded Nevada corrections. Wells worker calendar-term proposal changed to unknown because the source has contradictory units. Humboldt proposed endpoint projection deferred pending operative section; ordinance identity accepted. Lander original approval date accepted from staff report, proposed extension not treated as adoption. No full legal-force census.",
+  "located_evidence": [
+    {
+      "moratorium_id": "nv-humboldt-county-2026",
+      "url": "https://www.humboldtcountynv.gov/DocumentCenter/View/8814/HCC-070626",
+      "quote": "temporary moratorium on data center  facilities with the inclusion of  modification to section\n\none item two to present the date of  July 13, 2027.\n\n(Ordinance No. 07-06-26)",
+      "located": [
+        {
+          "attempt_id": "5c2debbad4524d43b5f791d3b217bfbe",
+          "body_sha256": "286c7ef6f7d9888a5ed826577796d02140bef7f78ab9807b3cf672b0593e000f",
+          "text_sha256": "a0c6f18639107a59c86cb225df924f8e8cbe9a2b6474473d2e8a050c27c3f32f",
+          "span": [
+            19423,
+            19596
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nv-wells-2026",
+      "url": "https://bloximages.chicago2.vip.townnews.com/elkodaily.com/content/tncms/assets/v3/editorial/2/fe/2fe5cdef-9ea9-4c4f-855b-616da45e833a/6a7521a676bda.pdf.pdf",
+      "quote": "This moratorium shall remain in effect for twelve months (12) days",
+      "located": [
+        {
+          "attempt_id": "4414fc71f5a54a09b1981a0ed2b16c48",
+          "body_sha256": "77a833dad23f9ef4264b2ffcf4b32f1f2fbb7029e951cc7bf02d9d4c004133fa",
+          "text_sha256": "44b20c39b6018cc1ac522795c7978d766e5a07ea72dd7dd38b347d629710fc70",
+          "span": [
+            7748,
+            7814
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nv-lander-county-2024",
+      "url": "https://cms1files.revize.com/landercounty25/07-24-25%20Packet%20(1).pdf",
+      "quote": "THE ORIGINAL MORATORIUM WAS APPROVED BY THE COMMISSIONERS ON NOVEMBER 14, 2024.",
+      "located": [
+        {
+          "attempt_id": "1f7321db04ea42dcbf820017eb8db590",
+          "body_sha256": "4271e25e99788fd2975dbe6059b47aa83c43d380bb0c443abdad8849b1871c0b",
+          "text_sha256": "bafdb1daec37dbb2c2a92a4ec03e3b34826d0966f3315e6c9b94530534754dc5",
+          "span": [
+            18711,
+            18790
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparison": {
+    "attempt_id": "4414fc71f5a54a09b1981a0ed2b16c48",
+    "page": 4,
+    "render": "pdftoppm PNG -singlefile -scale-to 1500",
+    "render_sha256": "fa28063e3dc4d7f66f49da8b9f254fcfb1b74a989ff477f91bf1f760cf741a75",
+    "finding": "Contradictory twelve months (12) days is present in source, not merely an OCR error."
+  }
+}

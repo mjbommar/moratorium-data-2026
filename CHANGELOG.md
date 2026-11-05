@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Nevada review identifies Humboldt Ordinance 07-06-26 and Lander’s staff-reported November 14, 2024 original approval. Wells’s scanned duration literally reads “twelve months (12) days”; the fixed-day representation is cleared and its term kind is unresolved. Humboldt’s proposed endpoint projection is deferred pending the operative section, and later legal force remains flagged.
+
 New Mexico review records Grant’s news-qualified October 22 adoption separately from its reported future November 21 effectiveness. Santa Fe’s eighteen-month term runs from effectiveness, with a July 9 clerk-recorded stamp and court contingency. Sierra’s signed resolution expressly disclaims county regulatory authority over Spaceport America property; its unsupported January 21, 2028 endpoint is cleared, with later legal force unresolved.
 
 Nottingham’s stale pending-vote outcome is corrected from NHPR reporting, with the town-hosted twelve-month ballot and matching handwritten totals visually reviewed; certification and legal implementation remain unresolved. Galloway’s unsupported January 10 endpoint is cleared, and its blank affidavit execution fields are distinguished from sworn final-passage evidence. Sayreville’s eighteen-month term and final reading are separated from unverified mayoral approval/publication and later legal force.
@@ -62,7 +64,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **473** |
+| Rows we still want to confirm (`[VERIFY]`) | **475** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
