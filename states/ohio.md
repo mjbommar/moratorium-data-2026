@@ -138,7 +138,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Streetsboro | City | 2026-04-27 | data center, cryptocurrency mining | 🟢 Active |
 | Sunbury | City | 2026-04-15 | data center | 🟢 Active |
 | Swancreek Township (Fulton County) | Township | 2026-05 | data center, solar | 🟢 Active |
-| Tallmadge | City | 2026-04-13 | data center | 🟢 Active |
+| Tallmadge | City | 2026-04-13 | data center | 🟢 Extended |
 | Tiffin | City | 2026-04-20 | data center | 🟢 Active |
 | Trenton Township (Delaware County) | Township | 2026-04-01 | data center | 🟢 Active |
 | Twinsburg | City | 2026-04-14 | data center | 🟢 Active |
@@ -2105,7 +2105,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Resolution 2026-03-05, imposing a 12-month moratorium on 'the approval, establishment or construction of advanced manufacturing facilities or uses' within Spencer Township, prepared by Legal Counsel Jeff Stopar and adopted by unanimous roll-call vote (Kester, Havens, Hood).
 - **What prompted it:** Anthony Wayne area data center concern
 - **Affected projects:** Not specified
-- **Detailed status:** Active as of 2026-09-23. Confirmed via Spencer Township's own March 5, 2026 meeting minutes (primary source): 'Jeff Stopar, Legal Counsel, prepared a moratorium Resolution 2026-03-05 imposing a temporary moratorium on the approval, establishment or construction of advanced manufacturing facilities or uses within Spencer township for 12 months. After discussion, Trustee Hood made a motion to approve the Resolution, Trustee Havens seconded. Roll call vote: Trustee Kester: yes, Trustee Havens: yes, Trustee Hood: yes.' The same minutes note the township had separately already adopted a related zoning text amendment; Trustee Hood clarified that the text amendment did not substitute for continued due diligence on advanced manufacturing/data center uses. No rescission, extension, or replacement was found in the township's July 9, 2026 meeting minutes (the most recent written minutes located), the only other 2026 written minutes checked beyond the adopting meeting.
+- **Detailed status:** March 5 minutes record unanimous approval of Resolution 2026-03-05, a twelve-month pause on approval, establishment or construction of advanced manufacturing facilities or uses. The reviewed passage does not define data-center coverage. Full operative text, data-center applicability, effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** No replacement zoning captured
 
 ### Sprigg Township
@@ -2239,17 +2239,17 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 ### Tallmadge
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** 2026-04-13
 - **Normalized date:** `2026-04-13` (unverified)
-- **Duration:** 6 months or until code changes/revocation
+- **Duration:** Original six months; extension twelve months effective October 13, 2026, subject to earlier code amendment or revocation.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-tallmadge-2026`
 - **Legal basis:** Ordinance 2026-38
 - **What prompted it:** Current zoning code may not address energy and water consumption, land use, building quality, aesthetics, lighting, noise, location, and environmental effects
 - **Affected projects:** No pending applications reported
-- **Detailed status:** Active as of 2026-09-23; Ordinance 2026-38 (six-month moratorium, public hearing closed 6:30 p.m. with no comment, adopted 7-0 the same evening on 2026-04-13) remains in effect through its stated October 10, 2026 expiration. On 2026-09-10, Tallmadge City Council's Planning & Zoning Committee opened a first reading of Ordinance 2026-74, which would extend the moratorium for an additional 12 months effective 2026-10-13 (i.e., immediately upon the current moratorium's expiration), following a public hearing scheduled for 2026-10-08. As of this pass Ordinance 2026-74 has not been adopted: the filed ordinance text shows blank 'Passed,' vote-tally, and readings fields, and reporting on the September 10 committee session confirms 'The ordinance did not receive a vote tonight and remains at first reading while staff and the law department continue review.' A regional real-estate industry brief (Akron Cleveland Association of Realtors, 'Local Lineup,' 2026-09-10) characterized the item as already 'extended,' but the underlying agenda and ordinance documents show it is still pending as of 2026-09-23.
+- **Detailed status:** October 8 minutes record 6-0 adoption of Ordinance 2026-74. Posted text describes twelve months effective October 13, subject to earlier code amendments or revocation; execution and mayoral approval fields are blank. Final executed wording, effectiveness, continuity with the original pause and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Review of zoning and business regulations; hardship appeal process included (ORC Chapter 2506 appeal pathway)
 
 ### Tiffin

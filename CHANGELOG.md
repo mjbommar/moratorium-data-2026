@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Tallmadge’s October 8 minutes confirm 6-0 adoption of extension Ordinance 2026-74; its posted twelve-month October 13 start and earlier-ending conditions remain qualified by blank execution fields. Spencer’s minutes confirm a twelve-month advanced-manufacturing pause without independently defining data-center applicability. Both relevant scan pages were visually reviewed; later legal force remains unresolved.
+
 St. Marys’s minutes preserve the twelve-month term and recorded abstention. Upper Sandusky’s July 6 minutes identify Ordinance 77-14 and its six-month data-center/accessory-power scope. Twinsburg’s blank execution fields leave its enacted term unresolved despite posted conditional twelve-month wording. Later operative intervals and force remain flagged.
 
 Rittman’s September 28 minutes confirm Ordinance 8544 and an additional 180 days after a failed 540-day motion. South Point’s primary minutes correct adoption to May 5, identify Resolution 26-04 and distinguish the unanimous six-month amendment from 4-2 adoption. Both scans were visually reviewed; exact operative intervals and later force remain unresolved.
@@ -128,7 +130,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1068** |
 | Pending or not yet effective | **70** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **575** |
+| Rows we still want to confirm (`[VERIFY]`) | **577** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

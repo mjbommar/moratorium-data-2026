@@ -1,0 +1,80 @@
+{
+  "applied_at": "20261105T185648",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-ohio-t/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 1,
+    "fields_changed": 7,
+    "outcome:status_changed": 1,
+    "status_changed": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "oh-spencer-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Official minutes state a term in calendar months, not fixed days; this corrects duration encoding only.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-spencer-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Official minutes state a term in calendar months, not fixed days; this corrects duration encoding only.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-spencer-township-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23. Confirmed via Spencer Township's own March 5, 2026 meeting minutes (primary source): 'Jeff Stopar, Legal Counsel, prepared a moratorium Resolution 2026-03-05 imposing a temporary moratorium on the approval, establishment or construction of advanced manufacturing facilities or uses within Spencer township for 12 months. After discussion, Trustee Hood made a motion to approve the Resolution, Trustee Havens seconded. Roll call vote: Trustee Kester: yes, Trustee Havens: yes, Trustee Hood: yes.' The same minutes note the township had separately already adopted a related zoning text amendment; Trustee Hood clarified that the text amendment did not substitute for continued due diligence on advanced manufacturing/data center uses. No rescission, extension, or replacement was found in the township's July 9, 2026 meeting minutes (the most recent written minutes located), the only other 2026 written minutes checked beyond the adopting meeting.",
+      "after": "March 5 minutes record unanimous approval of Resolution 2026-03-05, a twelve-month pause on approval, establishment or construction of advanced manufacturing facilities or uses. The reviewed passage does not define data-center coverage. Full operative text, data-center applicability, effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-tallmadge-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "October 8 council minutes document adoption of Ordinance 2026-74.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-tallmadge-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "The extension and original are calendar-month terms, not fixed days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-tallmadge-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Ordinance uses months and permits earlier termination.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-tallmadge-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; Ordinance 2026-38 (six-month moratorium, public hearing closed 6:30 p.m. with no comment, adopted 7-0 the same evening on 2026-04-13) remains in effect through its stated October 10, 2026 expiration. On 2026-09-10, Tallmadge City Council's Planning & Zoning Committee opened a first reading of Ordinance 2026-74, which would extend the moratorium for an additional 12 months effective 2026-10-13 (i.e., immediately upon the current moratorium's expiration), following a public hearing scheduled for 2026-10-08. As of this pass Ordinance 2026-74 has not been adopted: the filed ordinance text shows blank 'Passed,' vote-tally, and readings fields, and reporting on the September 10 committee session confirms 'The ordinance did not receive a vote tonight and remains at first reading while staff and the law department continue review.' A regional real-estate industry brief (Akron Cleveland Association of Realtors, 'Local Lineup,' 2026-09-10) characterized the item as already 'extended,' but the underlying agenda and ordinance documents show it is still pending as of 2026-09-23.",
+      "after": "October 8 minutes record 6-0 adoption of Ordinance 2026-74. Posted text describes twelve months effective October 13, subject to earlier code amendments or revocation; execution and mayoral approval fields are blank. Final executed wording, effectiveness, continuity with the original pause and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-tallmadge-2026",
+      "column": "duration",
+      "before": "6 months or until code changes/revocation",
+      "after": "Original six months; extension twelve months effective October 13, 2026, subject to earlier code amendment or revocation.",
+      "reason": "October 8 adopted extension and its posted text.",
+      "source": "answers.json"
+    }
+  ]
+}

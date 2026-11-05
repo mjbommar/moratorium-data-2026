@@ -1,0 +1,119 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "oh-inventory-015": "0f43fbdb5ce93dd4d8d4b3f31f876955d9d6c7c9e44fb9d8d499c2eb5988ffaf",
+    "oh-inventory-016": "d13da65ee8ba9191b79c827b7f3cbff006de0f8544093351670d87ee319c03b6"
+  },
+  "reviewed_answers_sha256": "e449f3e5d0ed537d7f4d6643b9c56d222dfaa0edfe819694e7b1baab226470a6",
+  "scope": "Two deferred Ohio scanned records. Tallmadge October 8 adoption distinguished from posted unexecuted term/effectiveness; no guessed endpoint. Spencer broad advanced-manufacturing scope retained without asserting that the reviewed minutes define data centers. Only page 2 visually compared in each PDF. Native extractions retained separately; later force unresolved.",
+  "located_evidence": [
+    {
+      "moratorium_id": "oh-spencer-township-2026",
+      "url": "https://spencertownship.org/minutes/2026/03_05_26.pdf",
+      "quote": "Jeff Stopar, Legal Counsel, prepared a moratorium Resolution 2026-03-05 imposing a\ntemporary moratorium on the approval, establishment or construction of advanced\nmanufacturing facilities or uses within Spencer township for 12 months. After discussion,\nTrustee Hood made a motion to approve the Resolution, Trustee Havens seconded. Roll call\nvote: Trustee Kester: yes, Trustee Havens: yes, Trustee Hood: yes.",
+      "located": [
+        {
+          "attempt_id": "d05bcd2f53b54e128ae6fbdaf6dc80db",
+          "body_sha256": "d1147b3dc146f5dacf97db1ff5741351b985b88c2b87ca24a04141cc720a69cb",
+          "text_sha256": "1357d8ba14bf41a2bd5b37f01c2120c7f5548c1e438884a4a659b2b1f67c5e6f",
+          "span": [
+            1854,
+            2262
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-tallmadge-2026",
+      "url": "https://www.tallmadgeoh.gov/AgendaCenter/ViewFile/Minutes/_10082026-1479",
+      "quote": "Motion to adopt ordinance 2026-74 by Pavlik, seconded by Epstein. All were in\nfavor. Motion carried by a vote of 6-0.",
+      "located": [
+        {
+          "attempt_id": "6befd8a49a344c0cbe87be29a549fca5",
+          "body_sha256": "cbc4d98e35009ffd377851b7791b9701a502edc2accd271fc705fcacacca49b0",
+          "text_sha256": "b87d5d9106319df82e8426fcc0a45804d1f9ac14d1c9aaef9f0943f3e69670d8",
+          "span": [
+            2112,
+            2229
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-tallmadge-2026",
+      "url": "https://www.tallmadgeoh.gov/DocumentCenter/View/8384/2026-074",
+      "quote": "SECTION 1. That Council hereby extends the moratorium, for twelve months effective October 13, 2026, that the City\n\nshall not accept, process, or approve any new applications or issue any new permits, licenses, variances, or any zoning\n\napplications from or for data centers within the City of Tallmadge.\n\nSECTION 2. The moratorium shall be in effect for a period of twelve months from the effective date of this ordinance\n\nor until changes are enacted to amend the Codified Ordinances of the City of Tallmadge to address data centers or until\n\nCouncil approves legislation explicitly revoking this moratorium, whichever occurs first. Council reserves the right to\n\nextend this moratorium if reasonable and necessary.",
+      "located": [
+        {
+          "attempt_id": "e4a1b5c0338c4120a3199f2423426442",
+          "body_sha256": "700036abc10e04064f9157df879f299962aa3a123fb8d19235a6ce7c63862990",
+          "text_sha256": "9a95e0a2a9951e681fadc6d15fae15f85a1c6ae10696d3868c0ed2367ffd2e8a",
+          "span": [
+            1873,
+            2590
+          ]
+        }
+      ]
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "d05bcd2f53b54e128ae6fbdaf6dc80db",
+      "source_body_sha256": "d1147b3dc146f5dacf97db1ff5741351b985b88c2b87ca24a04141cc720a69cb",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-015/d05bcd2f53b54e128ae6fbdaf6dc80db.derived.private.txt",
+      "derived_text_sha256": "1357d8ba14bf41a2bd5b37f01c2120c7f5548c1e438884a4a659b2b1f67c5e6f",
+      "method": "Separately retained PDF OCR; coordinator visually compared page 2",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:56:37.387393+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    },
+    {
+      "attempt_id": "6befd8a49a344c0cbe87be29a549fca5",
+      "source_body_sha256": "cbc4d98e35009ffd377851b7791b9701a502edc2accd271fc705fcacacca49b0",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-016/tallmadge-minutes-ocr.private.txt",
+      "derived_text_sha256": "b87d5d9106319df82e8426fcc0a45804d1f9ac14d1c9aaef9f0943f3e69670d8",
+      "method": "Separately retained PDF OCR; coordinator visually compared page 2",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:56:37.389406+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "d05bcd2f53b54e128ae6fbdaf6dc80db",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "ecb73d022d8bf8392e7d13e30224c26bafd7606085aad78fc86cb74177e25a61"
+    },
+    {
+      "attempt_id": "6befd8a49a344c0cbe87be29a549fca5",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "3cb98044790ce289c0a6ee0b38cc6e49dca720df76fdbc1bde279b958c225426"
+    }
+  ]
+}
