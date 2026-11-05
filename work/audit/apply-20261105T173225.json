@@ -1,0 +1,142 @@
+{
+  "applied_at": "20261105T173225",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-new-york-b/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 6,
+    "fields_changed": 16
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "ny-clymer-2024",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "A reported 12-month term is not a fixed 365 days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-clymer-2024",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The source reports an annual extension.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-clymer-2024",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23, extended in February 2026 for another 12 months, through January 31, 2027. Town Supervisor Brian Willink said the town intends to keep extending the moratorium one year at a time until the state acts.",
+      "after": "February 17 reporting describes approval of another twelve-month BESS moratorium extension through January 31, 2027; the adopted law, filing and later action were not reviewed. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Keep historical clauses and amendments distinct from full current-force acceptance.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-concord-2024",
+      "column": "duration_kind",
+      "before": "until_date",
+      "after": "calendar_term",
+      "reason": "June extension is expressed as six months from its effective date.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-concord-2024",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23. Extended most recently at the June 11, 2026 Town Board meeting for six months (to approximately December 2026); the board had previously passed one-year extensions in the summers of 2024 and 2025.",
+      "after": "June 11 minutes reproduce Local Law 2 of 2026 extending the BESS moratorium for six months from effectiveness, unless earlier terminated. They identify a prior Local Law 2 of 2025; the legacy 2024 row identity and original act require reconciliation. State filing and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Keep historical clauses and amendments distinct from full current-force acceptance.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-concord-2024-2",
+      "column": "legal_basis",
+      "before": "Town of Concord solar energy moratorium (a separate local law from the BESS moratorium, extended in parallel)",
+      "after": "Town of Concord solar energy moratorium, extended by Local Law No. 3 of 2026 and amended by Local Law No. 5 of 2026.",
+      "reason": "July town minutes identify the 2026 extension and amendment.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-concord-2024-2",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23. Extended alongside the Concord BESS moratorium at the June 11, 2026 Town Board meeting for six months. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+      "after": "June 11 adopted Local Law 3 of 2026 extends the solar moratorium six months from effectiveness. July 29 minutes record Local Law 5 of 2026 allowing residential tier 1 roof-mounted and tier 2 ground-mounted systems during the moratorium. Filing and subsequent changes remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Keep historical clauses and amendments distinct from full current-force acceptance.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-concord-2024-2",
+      "column": "duration_kind",
+      "before": "until_date",
+      "after": "calendar_term",
+      "reason": "Six months from effective date is a calendar term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-cortlandt-2024",
+      "column": "current_status",
+      "before": "Reported active as of 2026-09-23 by two independent trackers, giving a current expiration of 2026-07-31 (EticaAG: extended 2025-12-09 to 2026-07-31, 7 months). The town's own extension chain (through Local Law No. 2 of 2025, adopted 2025-04-22) confirms at least three extensions by that date, awaiting Westchester County notification legislation and state guidance.",
+      "after": "July 21 resolution adopts Local Law 1 of 2026 extending the new commercial BESS moratorium through December 31, 2026 unless terminated earlier. The law requires state filing for effectiveness; filing receipt and later actions were not reviewed. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Keep historical clauses and amendments distinct from full current-force acceptance.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-cortlandt-2024",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-12-31",
+      "reason": "The July 2026 adopted extension specifies this end date, subject to earlier termination.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-denmark-lewis-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "The ordinance specifies twelve calendar months, not 365 fixed days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-denmark-lewis-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The term runs twelve months from state filing.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-denmark-lewis-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23, running to approximately February 2027. Does not apply to individual landowner/farmer/small-business on-site solar; scope covers medium/large solar, Tier 1 & 2 BESS, and CAESS.",
+      "after": "County-hosted Local Law 1 of 2026 states twelve months from effectiveness for the renewable-energy/storage moratorium, with effectiveness on state filing. The retained copy does not establish filing, the complete operative interval or later actions. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Keep historical clauses and amendments distinct from full current-force acceptance.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-east-greenbush-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Six months is a calendar term, not 180 fixed days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-east-greenbush-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Contemporaneous news and draft text describe six months.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-east-greenbush-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23 (approximate end date; exact effective date depends on state filing). Bars establishment, construction, or operation of any data center townwide, with an exemption for pre-existing, lawfully approved and permitted data centers.",
+      "after": "July 15 reporting describes a unanimous vote for a six-month data-center moratorium. The official posted law was labeled draft; final adopted wording, filing and any subsequent action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Keep historical clauses and amendments distinct from full current-force acceptance.",
+      "source": "answers.json"
+    }
+  ]
+}

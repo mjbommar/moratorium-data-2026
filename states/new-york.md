@@ -623,7 +623,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Town of Clymer battery storage moratorium (all-BESS scope)
 - **What prompted it:** Awaiting New York State guidance on BESS safety hazards
 - **Affected projects:** No specific project named
-- **Detailed status:** Active as of 2026-09-23, extended in February 2026 for another 12 months, through January 31, 2027. Town Supervisor Brian Willink said the town intends to keep extending the moratorium one year at a time until the state acts.
+- **Detailed status:** February 17 reporting describes approval of another twelve-month BESS moratorium extension through January 31, 2027; the adopted law, filing and later action were not reviewed. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 2024, extended annually
 
 ### Collins
@@ -655,7 +655,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Town of Concord battery energy storage system moratorium (Local Law No. 3-2024, extended by Local Law No. 2-2025 and a June 2026 six-month extension)
 - **What prompted it:** —
 - **Affected projects:** No specific project named
-- **Detailed status:** Active as of 2026-09-23. Extended most recently at the June 11, 2026 Town Board meeting for six months (to approximately December 2026); the board had previously passed one-year extensions in the summers of 2024 and 2025.
+- **Detailed status:** June 11 minutes reproduce Local Law 2 of 2026 extending the BESS moratorium for six months from effectiveness, unless earlier terminated. They identify a prior Local Law 2 of 2025; the legacy 2024 row identity and original act require reconciliation. State filing and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted, extended repeatedly
 
 ### Concord
@@ -668,10 +668,10 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Current end date:** `—`
 - **Sectors:** solar
 - **Moratorium ID:** `ny-concord-2024-2`
-- **Legal basis:** Town of Concord solar energy moratorium (a separate local law from the BESS moratorium, extended in parallel)
+- **Legal basis:** Town of Concord solar energy moratorium, extended by Local Law No. 3 of 2026 and amended by Local Law No. 5 of 2026.
 - **What prompted it:** —
 - **Affected projects:** No specific project named
-- **Detailed status:** Active as of 2026-09-23. Extended alongside the Concord BESS moratorium at the June 11, 2026 Town Board meeting for six months. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Detailed status:** June 11 adopted Local Law 3 of 2026 extends the solar moratorium six months from effectiveness. July 29 minutes record Local Law 5 of 2026 allowing residential tier 1 roof-mounted and tier 2 ground-mounted systems during the moratorium. Filing and subsequent changes remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted, extended repeatedly
 
 ### Corning
@@ -697,13 +697,13 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Date enacted:** 2024, Local Law Number 2-2024 (original moratorium)
 - **Normalized date:** `2024` (year_only)
 - **Duration:** Extended repeatedly (Local Law Number 10-2024; Local Law No. 2 of 2025, adopted 2025-04-22, through 2025-12-31; Local Law No. 7 of 2025; Local Law 2026-01)
-- **Current end date:** `—`
+- **Current end date:** `2026-12-31`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-cortlandt-2024`
 - **Legal basis:** Town of Cortlandt moratorium for new Battery Energy Storage Systems (originally Local Law 2-2024, most recently extended by Local Law 2026-01)
 - **What prompted it:** Significant developer interest in siting BESS in Cortlandt; the town code lacks BESS-specific provisions
 - **Affected projects:** No specific project named
-- **Detailed status:** Reported active as of 2026-09-23 by two independent trackers, giving a current expiration of 2026-07-31 (EticaAG: extended 2025-12-09 to 2026-07-31, 7 months). The town's own extension chain (through Local Law No. 2 of 2025, adopted 2025-04-22) confirms at least three extensions by that date, awaiting Westchester County notification legislation and state guidance.
+- **Detailed status:** July 21 resolution adopts Local Law 1 of 2026 extending the new commercial BESS moratorium through December 31, 2026 unless terminated earlier. The law requires state filing for effectiveness; filing receipt and later actions were not reviewed. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted, extended at least four times
 
 ### Denmark (Lewis County)
@@ -719,7 +719,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Town of Denmark Local Law No. 1 of 2026, establishing a twelve-month moratorium on commercial solar energy systems, battery energy storage systems (BESS), and compressed air energy storage systems (CAESS)
 - **What prompted it:** Town needed time to review and amend zoning/Town Code to reflect its developing Comprehensive Plan and properly regulate commercial solar/BESS/CAESS
 - **Affected projects:** No specific project named
-- **Detailed status:** Active as of 2026-09-23, running to approximately February 2027. Does not apply to individual landowner/farmer/small-business on-site solar; scope covers medium/large solar, Tier 1 & 2 BESS, and CAESS.
+- **Detailed status:** County-hosted Local Law 1 of 2026 states twelve months from effectiveness for the renewable-energy/storage moratorium, with effectiveness on state filing. The retained copy does not establish filing, the complete operative interval or later actions. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted
 
 ### East Greenbush
@@ -735,7 +735,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Local Law No. 3 of 2026 (Town of East Greenbush), 'A Local Law Imposing a Moratorium on Applications for Permits, Site Plans or Other Land Use Approvals for Data Centers.' The town's posted PDF is titled 'Draft Local Law #3 of 2026,' but CBS6/WRGB's contemporaneous report confirms the Town Board's unanimous adoption on July 15, 2026.
 - **What prompted it:** General, preemptive townwide pause; Town Supervisor Jack Conway cited concerns about a possible legal challenge to Governor Hochul's Executive Order 62 and a desire for an independent local 'layer of protection' against data center development.
 - **Affected projects:** None named; general preemptive moratorium not tied to a specific proposal.
-- **Detailed status:** Active as of 2026-09-23 (approximate end date; exact effective date depends on state filing). Bars establishment, construction, or operation of any data center townwide, with an exemption for pre-existing, lawfully approved and permitted data centers.
+- **Detailed status:** July 15 reporting describes a unanimous vote for a six-month data-center moratorium. The official posted law was labeled draft; final adopted wording, filing and any subsequent action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Town Board unanimously passed a six-month moratorium (extendable to one year) on all data center development and operation within the town.
 
 ### Eden
