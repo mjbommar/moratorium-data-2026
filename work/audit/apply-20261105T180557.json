@@ -1,0 +1,118 @@
+{
+  "applied_at": "20261105T180557",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-new-york-m/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 2,
+    "fields_changed": 13
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "ny-le-ray-undated",
+      "column": "date_enacted",
+      "before": "",
+      "after": "Local Law 6 of 2023, adopted September 14, 2023; effective after filing with the Secretary of State.",
+      "reason": "Filing copy and attached law identify adoption and effectiveness separately.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-le-ray-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2023-09-14",
+      "reason": "Filing certification identifies adoption date.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-le-ray-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Filing certification identifies adoption date.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-le-ray-undated",
+      "column": "legal_basis",
+      "before": "Town of Le Ray local law (\"LL - Moratorium EnergyBattery\")",
+      "after": "Town of Le Ray Local Law 6 of 2023, townwide renewable-energy facilities moratorium; BESS definitions/permit wording are present, but precise coverage and later instruments require separate review.",
+      "reason": "Town filing copy identifies the law.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-le-ray-undated",
+      "column": "duration",
+      "before": "6 months (as proposed)",
+      "after": "Six months from effective date.",
+      "reason": "The adopted law states six calendar months.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-le-ray-undated",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "The primary instrument states a calendar-month term; a fixed-day approximation is inaccurate.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-le-ray-undated",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The primary instrument states a calendar-month term; a fixed-day approximation is inaccurate.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-le-ray-undated",
+      "column": "current_status",
+      "before": "Reported expired by industry tracker (2025-08-18); a public-hearing notice confirms the Town proposed a townwide six-month moratorium on renewable energy facilities and battery energy storage, and the Town Board's law page lists an adopted \"LL - Moratorium EnergyBattery.pdf.\" [VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]",
+      "after": "Filing certification identifies September 14, 2023 adoption of Local Law 6. The text states six months from effectiveness and effectiveness after state filing. It defines battery storage and refers to wind/solar and renewable-energy facilities; precise BESS scope and later instruments remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Distinguish original adoption, filing, later regulatory acts and demonstrated termination relationships.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-leyden-lewis-county-2024",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "The primary instrument states a calendar-month term; a fixed-day approximation is inaccurate.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-leyden-lewis-county-2024",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The primary instrument states a calendar-month term; a fixed-day approximation is inaccurate.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-leyden-lewis-county-2024",
+      "column": "date_enacted",
+      "before": "Local Law #1 of 2024, 'Establishing a Townwide Twelve (12) Month Moratorium for all Large Solar Energy Systems and/or Medium/Large Battery Energy Storage Systems,' duly passed by the Leyden Town Board on May 14, 2024. Superseded by Local Law #1 of 2026, 'Amending-Replacing Local Law #2-2022 Regulating Solar Energy Systems and Battery Energy Storage Systems (BESS),' a permanent regulatory law following a June 9, 2026 public hearing.",
+      "after": "Local Law 1 of 2024, adopted May 14, 2024, established a twelve-month moratorium; the town adopted Local Law 1 of 2026 regulating solar and battery storage on June 9, 2026.",
+      "reason": "Avoid claiming the 2026 law legally superseded the pause without a demonstrated provision.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-leyden-lewis-county-2024",
+      "column": "legal_basis",
+      "before": "Town of Leyden Local Law #1 of 2024, 'Establishing a Townwide Twelve (12) Month Moratorium for all Large Solar Energy Systems and/or Medium/Large Battery Energy Storage Systems' (filed with Lewis County Planning); superseded by Local Law #1 of 2026, 'Amending-Replacing Local Law #2-2022 Regulating Solar Energy Systems and Battery Energy Storage Systems (BESS)'.",
+      "after": "Town of Leyden Local Law 1 of 2024, townwide twelve-month moratorium for large solar and medium/large battery storage.",
+      "reason": "The 2026 law amends/replaces the 2022 solar law; a legal replacement of the 2024 moratorium is not established.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "ny-leyden-lewis-county-2024",
+      "column": "current_status",
+      "before": "Replaced. Local Law #1 of 2024 (a 12-month moratorium, adopted 2024-05-14) expired on its own terms around 2025-05-14, well before the reference date. The Town Board subsequently held a June 9, 2026 public hearing and adopted Local Law #1 of 2026, a permanent law amending and replacing the 2022 Solar Law to regulate both solar energy systems and battery energy storage systems. The Town's current official laws page (townofleydenny.gov/government/laws) lists this permanent law and no longer lists any moratorium law. A tracker (Carina Energy) still lists Leyden as an active UTILITY_SCALE moratorium as of September 2026, but this appears to be stale relative to the Town's own site.",
+      "after": "Local Law 1 of 2024 states twelve months from effectiveness, unless ended earlier; its filing copy bears a May 30, 2024 state-records stamp. The later law certification records June 9, 2026 adoption of a separate solar/BESS regulatory law. Only its first three of 36 pages were reviewed, so direct replacement of the earlier moratorium and continuity remain unresolved; legacy replaced classification remains provisional. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Distinguish original adoption, filing, later regulatory acts and demonstrated termination relationships.",
+      "source": "answers.json"
+    }
+  ]
+}
