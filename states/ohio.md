@@ -1958,10 +1958,10 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `oh-ravenna-2026`
-- **Legal basis:** City Council ordinance/paperwork reported by Record-Courier [CITE primary text not captured]
+- **Legal basis:** City of Ravenna Ordinance No. 2026-067, adopted April 20, 2026, establishing a one-year temporary moratorium on approval of new data centers; emergency clause adopted.
 - **What prompted it:** Property owner interest in a data center at a former GE manufacturing site and gap in zoning code
 - **Affected projects:** Potential State Route 14/former GE site; existing 500-server bitcoin mining operation reported on property
-- **Detailed status:** Active
+- **Detailed status:** April 20 special minutes identify Ordinance 2026-067, a one-year new-data-center approval pause, and record all-aye adoption and emergency-clause votes. Committee discussion describes possible earlier regulations or extension. Final operative text, effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Study and drafting of zoning code for data centers, server farms, and cryptocurrency mining facilities
 
 ### Richfield
@@ -1993,7 +1993,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Resolution 021726-01, a 12-month moratorium on data center facilities, energy-producing/storage facilities, and commercial/industrial high-energy-use facilities in all zoning districts, adopted as an emergency measure (citing the lack of a zoning inspector).
 - **What prompted it:** Anthony Wayne area data center concern
 - **Affected projects:** Not specified
-- **Detailed status:** Active as of 2026-09-23. Confirmed via Richfield Township's own February 17, 2026 meeting minutes (primary source), which record Trustee Loeffler presenting 'a resolution establishing a temporary moratorium' with the stated scope (data center facilities, energy-producing/storage facilities, commercial/industrial high-energy-use facilities in all zoning districts) and reference 'attached resolution 021726-01 adopting the resolution establishing a 12-month moratorium.' No rescission, repeal, or amendment was found in the township's subsequent March 18, 2026 meeting minutes (the most recent written minutes located), which instead note a trustee's report from a Lake Erie Regional Meeting discussing data centers regionally with no mention of repealing the township's own pause. Note: Richfield Township is in Lucas County (Anthony Wayne-area, near Whitehouse/Waterville), distinct from the separate Village of Richfield in Summit County, which passed its own, unrelated data center moratorium (Ordinance 18-2026) around the same time; some search results conflate the two.
+- **Detailed status:** February 17 minutes identify Resolution 021726-01 as a twelve-month pause covering data-center facilities, energy-producing/storage facilities and commercial/industrial high-energy-use facilities. The discussion also cites the zoning-inspector vacancy. Full operative text, actual effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** No replacement zoning captured
 
 ### Rittman
@@ -2025,7 +2025,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Trustee resolution reported by Scioto Post [CITE: resolution number not posted to township website 2026-04-29]
 - **What prompted it:** Rapid AI/data center expansion and township zoning concerns; current zoning code has "little to no language" addressing such facilities
 - **Affected projects:** No specific project identified
-- **Detailed status:** Reported active
+- **Detailed status:** March 6 news reports trustees maintained a twelve-month data-center application pause after debate over six months. Final resolution, effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Zoning language review expected during 12-month moratorium
 
 ### Shalersville Township
@@ -2034,14 +2034,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Extended
 - **Date enacted:** 2025-11 (Board of Trustees; exact vote date not found; per trustee chairman's account reported by Weekly Villager, June 2026); extended six months in early April 2026 (Record-Courier)
 - **Normalized date:** `2025-11` (month_only)
-- **Duration:** Six months (Nov 2025 to about May 2026), extended by six months in April 2026 to early November 2026; trustees said Aug. 18, 2026 they would extend another six months if needed
-- **Current end date:** `2026-11-01`
+- **Duration:** Six months originally, extended six months in April 2026; a further six-month extension was reported adopted October 20, 2026.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-shalersville-township-2025`
 - **Legal basis:** Board of Trustees resolution (township zoning, R.C. Chapter 519) imposing a six-month moratorium on data center applications; six-month extension resolution April 2026 (numbers not found)
 - **What prompted it:** Proposed 257-acre data center campus by Geis Construction and Bitdeer near Beck Road/SR 44 north of the Ohio Turnpike; trustees wanted time to write conditional-use standards for lights, noise, landscaping, building size, utilities, water and fire suppression.
 - **Affected projects:** Geis Construction / Bitdeer 257-acre data center campus (Turnpike Commerce Park area, SR 44 / Beck Road); trustees denied Geis's request to lift the moratorium in April 2026.
-- **Detailed status:** Active (extended) as of 2026-09-23; six-month moratorium from November 2025 was extended six months in April 2026 and runs to early November 2026; trustees said on 2026-08-18 they would extend again if the noise study is not done.
+- **Detailed status:** October 23 reporting states trustees unanimously adopted another six-month extension on October 20, with the prior pause scheduled to expire November 3. The actual effective anchor, continuity, operative endpoint and subsequent action remain unresolved; no new endpoint is calculated. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Trustees imposed and then extended the moratorium while the zoning commission amended conditional-use rules for data centers (including Sept. 10, 2026 amendments on noise/light-industrial uses) and commissioned a noise study.
 
 ### Shawnee Township
@@ -2057,7 +2057,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Trustee resolution reported by WLIO [CITE primary text not captured]
 - **What prompted it:** Zoning board recommendation and resident concern over data centers, battery energy storage systems, and solar energy fields
 - **Affected projects:** No specific project identified
-- **Detailed status:** Active
+- **Detailed status:** Archived April reporting describes an eighteen-month pause on data centers, battery energy storage and solar fields, approved by trustees. Final operative text, actual effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Study period for multi-sector land-use regulations
 
 ### South Bloomfield
