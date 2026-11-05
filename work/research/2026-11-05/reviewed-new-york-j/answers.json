@@ -1,0 +1,146 @@
+{
+  "state_abbrev": "NY",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "ny-wilton-2026",
+      "outcome": "corrected",
+      "confidence": 0.86,
+      "evidence": [
+        {
+          "url": "https://townofwilton.ny.gov/government/meeting-minutes/town-board-minutes-06-04-26/",
+          "source_type": "minutes",
+          "supports": "Board minutes identify and record approval of Local Law 3",
+          "quote": "NOW, THEREFORE, BE IT RESOLVED, to approve Local Law\n\n\n#3, a moratorium on Battery Energy",
+          "document_date": "2026-06-04"
+        },
+        {
+          "url": "https://townofwilton.ny.gov/government/meeting-agendas/town-board-agenda-05-07-26-bess-moratorium-czrc-approved/",
+          "source_type": "agenda",
+          "supports": "Committee-approved draft sets a twelve-month period from effective date; final enacted text and filing date not established",
+          "quote": "months thereafter (the \u201cMoratorium Period\u201d), no application shall be accepted",
+          "document_date": "2026-05-07"
+        }
+      ],
+      "notes": "Adoption and number supported by June 4 minutes; draft is not the final enacted law. State filing/effective date, later action, and tracker expiry remain unverified.",
+      "changes": {
+        "date_enacted": {
+          "from": "~June 2026 (twelve-month local law; exact adoption date not confirmed beyond the May 7, 2026 committee-approved draft)",
+          "to": "2026-06-04 (Town Board adoption of Local Law No. 3 of 2026; effective date not independently verified)",
+          "reason": "June 4, 2026 board minutes record adoption and number; twelve months in draft is a calendar term and its filing/effective date is unverified."
+        },
+        "date_enacted_iso": {
+          "from": "2026-06",
+          "to": "2026-06-04",
+          "reason": "June 4, 2026 board minutes record adoption and number; twelve months in draft is a calendar term and its filing/effective date is unverified."
+        },
+        "date_enacted_uncertainty": {
+          "from": "month_only",
+          "to": "exact",
+          "reason": "June 4, 2026 board minutes record adoption and number; twelve months in draft is a calendar term and its filing/effective date is unverified."
+        },
+        "legal_basis": {
+          "from": "Local Law (Town of Wilton BESS Moratorium Law, CZRC-approved draft posted 2026-05-07)",
+          "to": "Town of Wilton Local Law No. 3 of 2026 (BESS moratorium; adopted 2026-06-04)",
+          "reason": "June 4, 2026 board minutes record adoption and number; twelve months in draft is a calendar term and its filing/effective date is unverified."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "June 4, 2026 board minutes record adoption and number; twelve months in draft is a calendar term and its filing/effective date is unverified."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "unknown",
+          "reason": "Committee draft states calendar months but final adopted term not verified; no fixed-day assertion is retained."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23 per industry tracker (expires 2027-06-15); primary source is the CZRC-approved draft local law text, which does not itself show a signed adoption date. [VERIFY instrument number not confirmed at confidence 0.65 in the 2026-09 refresh]",
+          "to": "June 4 minutes record Resolution 162 approving Local Law 3 of 2026, a BESS moratorium, 4-0. The committee-approved draft states twelve months from effectiveness; final filed text, operative starting date and later acts remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-backed adoption/amendment/expiry observations from a full later legal-force review."
+        },
+        "duration": {
+          "from": "12 months",
+          "to": "Committee-approved draft states twelve months from effectiveness; final adopted term and effective-date anchor not independently verified.",
+          "reason": "Distinguish reviewed draft wording from accepted adoption evidence."
+        }
+      }
+    },
+    {
+      "moratorium_id": "ny-southampton-2023",
+      "outcome": "status_changed",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://ecode360.com/37935122",
+          "source_type": "ordinance",
+          "supports": "Official codification lists the 2023 battery moratorium as expired May 27, 2025.",
+          "quote": "Moratorium on Battery Energy Storage Systems\n\n5-27-2025\n\n314"
+        }
+      ],
+      "notes": "Code identifies this moratorium and lists expiry May 27, 2025; evidence does not establish that June zoning ended it.",
+      "new_enacted_status": "expired",
+      "changes": {
+        "enacted_status": {
+          "from": "replaced",
+          "to": "expired",
+          "reason": "The municipal code lists this specific moratorium as expired on May 27, 2025; it does not say June zoning terminated it."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2025-05-27",
+          "reason": "The municipal code lists this specific moratorium as expired on May 27, 2025; it does not say June zoning terminated it."
+        },
+        "current_status": {
+          "from": "Replaced: the Town Board adopted a new permanent BESS code (Chapter 330, Article XXXIII) on 2025-06-10, ending the moratorium chain that ran from August 2023 through March 2025.",
+          "to": "The town code expired-moratorium table lists the BESS pause adopted August 22, 2023 and amended through March 11, 2025 as expired May 27, 2025. This corrects the claim that June zoning adoption ended it; subsequent instruments and the full intervening regulatory history were not reviewed. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-backed adoption/amendment/expiry observations from a full later legal-force review."
+        },
+        "outcome": {
+          "from": "Moratorium on BESS, adopted Aug 2023 and amended three times, replaced by permanent BESS zoning code in June 2025.",
+          "to": "Battery energy storage moratorium expired May 27, 2025, according to the Town code.",
+          "reason": "The municipal code lists this specific moratorium as expired on May 27, 2025; it does not say June zoning terminated it."
+        }
+      }
+    },
+    {
+      "moratorium_id": "ny-dryden-2024",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://ecode360.com/DR3901/laws/LF2566760.pdf",
+          "source_type": "ordinance",
+          "supports": "Filed extension changes an eighteen-month term to twenty months.",
+          "quote": "Replace the phrase \"eighteen ( 18)\" with \"twenty (20).\"",
+          "document_date": "2026-01-19"
+        }
+      ],
+      "notes": "Calendar months are not fixed 30-day periods. Replacement and purported permanent zoning outcome remain unverified in this pass.",
+      "changes": {
+        "duration_days": {
+          "from": "548",
+          "to": "",
+          "reason": "The filed extension specifies calendar months, not a fixed day count."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The filed extension specifies calendar months, not a fixed day count."
+        },
+        "duration": {
+          "from": "18 months as initially adopted under Local Law No. 2 of 2024 (2024-07-31 to approximately 2026-01-31); extended to 20 months (through approximately 2026-03-31) by Local Law No. 1 of 2026, which the signed, clerk-filed Local Law Filing shows was duly passed by the Town Board on 2026-01-15 and certified/filed with the NY Department of State on 2026-01-19 (ecode360 filing LF2566760); the extended moratorium was in turn superseded, before its extended term expired, by permanent zoning Local Law No. 2 of 2026, adopted 2026-02-19.",
+          "to": "Original eighteen-month term amended to twenty months by the retrieved January 2026 law; effective anchor and actual termination/replacement remain unverified.",
+          "reason": "Preserve the enacted amendment units without inferring an ending date."
+        },
+        "current_status": {
+          "from": "Replaced by permanent zoning action adopted 2026-02-19; moratorium term otherwise would have expired in early 2026",
+          "to": "The retrieved January 2026 amendment changes the term of Local Law 2 of 2024 from eighteen months to twenty months, with other provisions retained until expiry or legislative termination. Effective filing, actual continuity and the reported permanent-zoning replacement require further review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-backed adoption/amendment/expiry observations from a full later legal-force review."
+        }
+      }
+    }
+  ],
+  "new_candidates": []
+}

@@ -113,7 +113,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 | Schroeppel | Town | 2026-02-10 | solar | 🟢 Active |
 | Smithtown | Town | 2024-09-20 | battery storage | 🟢 Extended |
 | Somerset | Town | 2024 | battery storage | ⚪ Replaced |
-| Southampton | Town | 2023-08-22 | battery storage | ⚪ Replaced |
+| Southampton | Town | 2023-08-22 | battery storage | ⚪ Expired |
 | Southold | Town | 2023-01-31 | battery storage | 🟢 Extended |
 | Southport | Town | 2025-02-11 | battery storage, solar | 🟢 Extended |
 | Spafford | Town | 2026-05-14 | battery storage | 🟢 Active |
@@ -156,7 +156,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 | Warwick | Town | 2023 | battery storage | ⚪ Replaced |
 | West Bloomfield | Town | 2024-09-11 | battery storage, solar | 🟢 Active |
 | Westfield | Town | 2024 | battery storage | 🟢 Active |
-| Wilton | Town | 2026-06 | battery storage | 🟢 Active |
+| Wilton | Town | 2026-06-04 | battery storage | 🟢 Active |
 | Yonkers | City | 2024-07-16 | battery storage | 🟢 Active |
 | Yorktown | Town | Unverified | battery storage | ⚪ Expired |
 
@@ -1829,18 +1829,18 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 ### Southampton
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Status:** ⚪ Expired
 - **Date enacted:** 2023-08-22
 - **Normalized date:** `2023-08-22` (exact)
 - **Duration:** Amended 2024-02-15 (LL1-2024), 2024-07-23 (LL15-2024), 2025-03-11 (LL10-2025)
-- **Current end date:** `—`
+- **Current end date:** `2025-05-27`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-southampton-2023`
 - **Legal basis:** Former Chapter 314, Moratorium on Battery Energy Storage Systems (adopted by L.L. No. 28-2023), amended by L.L. 1-2024, L.L. 15-2024, L.L. 10-2025
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Replaced: the Town Board adopted a new permanent BESS code (Chapter 330, Article XXXIII) on 2025-06-10, ending the moratorium chain that ran from August 2023 through March 2025.
-- **Outcome:** Moratorium on BESS, adopted Aug 2023 and amended three times, replaced by permanent BESS zoning code in June 2025.
+- **Detailed status:** The town code expired-moratorium table lists the BESS pause adopted August 22, 2023 and amended through March 11, 2025 as expired May 27, 2025. This corrects the claim that June zoning adoption ended it; subsequent instruments and the full intervening regulatory history were not reviewed. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** Battery energy storage moratorium expired May 27, 2025, according to the Town code.
 
 ### Southold
 
@@ -2072,14 +2072,14 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Status:** ⚪ Replaced
 - **Date enacted:** 2024-07-31
 - **Normalized date:** `2024-07-31` (exact)
-- **Duration:** 18 months as initially adopted under Local Law No. 2 of 2024 (2024-07-31 to approximately 2026-01-31); extended to 20 months (through approximately 2026-03-31) by Local Law No. 1 of 2026, which the signed, clerk-filed Local Law Filing shows was duly passed by the Town Board on 2026-01-15 and certified/filed with the NY Department of State on 2026-01-19 (ecode360 filing LF2566760); the extended moratorium was in turn superseded, before its extended term expired, by permanent zoning Local Law No. 2 of 2026, adopted 2026-02-19.
+- **Duration:** Original eighteen-month term amended to twenty months by the retrieved January 2026 law; effective anchor and actual termination/replacement remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `ny-dryden-2024`
 - **Legal basis:** Local Law No. 2 of 2024; draft Local Law No. 1 of 2026 extension; Local Law No. 2 of 2026 replacement zoning definitions
 - **What prompted it:** Proposed commercial cryptocurrency/data-processing use in Freeville area, regulatory gap, and stated concern for natural, historic, cultural, and electrical resources
 - **Affected projects:** New York Metro Cloud LLC proposed use (cryptocurrency hosting/mining) at 2186 Dryden Road in Freeville. No MW/power-capacity figure appears in any available record; federal court filings (Bartolini v. Town of Dryden, N.D.N.Y. lead case 3:24-cv-01380, member 3:24-cv-01383, plus related S.D.N.Y. dockets 7:24-cv-07062 and 7:24-cv-05925) describe the site as a 0.24-acre parcel with approximately 3,000 square feet of interior space in a converted Quonset-style building -- consistent with a small hosting operation rather than a utility-scale, megawatt-rated data center, which explains why no MW figure exists rather than it simply being unreported.
-- **Detailed status:** Replaced by permanent zoning action adopted 2026-02-19; moratorium term otherwise would have expired in early 2026
+- **Detailed status:** The retrieved January 2026 amendment changes the term of Local Law 2 of 2024 from eighteen months to twenty months, with other provisions retained until expiry or legislative termination. Effective filing, actual continuity and the reported permanent-zoning replacement require further review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Town adopted a 2026 zoning law defining data centers, accessory data centers, cryptocurrency, and cryptocurrency data mines, while taking no action to add data centers or cryptocurrency facilities to the allowable-use chart. This appears to prohibit principal data center and cryptocurrency data mine uses unless later code amendments allow them.
 
 ### Town of Dunkirk (Chautauqua County)
@@ -2518,16 +2518,16 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 
 - **Type:** Town
 - **Status:** 🟢 Active
-- **Date enacted:** ~June 2026 (twelve-month local law; exact adoption date not confirmed beyond the May 7, 2026 committee-approved draft)
-- **Normalized date:** `2026-06` (month_only)
-- **Duration:** 12 months
+- **Date enacted:** 2026-06-04 (Town Board adoption of Local Law No. 3 of 2026; effective date not independently verified)
+- **Normalized date:** `2026-06-04` (exact)
+- **Duration:** Committee-approved draft states twelve months from effectiveness; final adopted term and effective-date anchor not independently verified.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-wilton-2026`
-- **Legal basis:** Local Law (Town of Wilton BESS Moratorium Law, CZRC-approved draft posted 2026-05-07)
+- **Legal basis:** Town of Wilton Local Law No. 3 of 2026 (BESS moratorium; adopted 2026-06-04)
 - **What prompted it:** Absence of a comprehensive BESS permitting/zoning framework in Town Code
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23 per industry tracker (expires 2027-06-15); primary source is the CZRC-approved draft local law text, which does not itself show a signed adoption date. [VERIFY instrument number not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Detailed status:** June 4 minutes record Resolution 162 approving Local Law 3 of 2026, a BESS moratorium, 4-0. The committee-approved draft states twelve months from effectiveness; final filed text, operative starting date and later acts remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Twelve-month moratorium on siting/construction of BESS facilities while the Code and Zoning Revision Committee drafts permanent BESS standards.
 
 ### Yonkers

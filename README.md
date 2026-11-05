@@ -68,8 +68,8 @@ Working snapshot during the **November 5, 2026** refresh (record-level source da
 - **1293 moratorium instruments** tracked in our cleaned inventory
   - **1068 currently in force** (885 active + 183 extended)
   - **71 pending or not yet effective** (proposed or enacted with a future effective date)
-  - **94 replaced** by permanent regulations
-  - **49 expired** without a documented replacement
+  - **93 replaced** by permanent regulations
+  - **50 expired** without a documented replacement
   - **11 rescinded** before their original expiration
 - **47 states** have at least one moratorium. We searched the other **3 states** (Hawaii, West Virginia, and Wyoming) and found none. Alaska, Arizona, Delaware, Rhode Island, and Vermont joined the list in the September 2026 update
 - **Top 10 states by instrument count**: Ohio (160), New York (150), Michigan (145), Georgia (70), North Carolina (69), Iowa (57), Tennessee (45), Washington (42), Wisconsin (40), Florida (35)
