@@ -28,7 +28,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Boston Heights | Village | 2025-11-12 | data center | 🟢 Active |
 | Braceville Township | Township | 2026-06-02 | data center | 🟢 Active |
 | Bridgewater Township (Williams County) | Township | 2026-09 | data center | 🟢 Active |
-| Brimfield Township | Township | 2026-04-20 | data center | 🟢 Active |
+| Brimfield Township | Township | 2026-04-20 | data center | 🟢 Extended |
 | Broadview Heights | City | 2026-06-22 | data center, cryptocurrency mining | 🟢 Active |
 | Brooklyn | City | 2026-06 | data center | 🟢 Active |
 | Buckeye Lake | Village | 2026-07-27 | data center | 🟢 Active |
@@ -210,14 +210,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟡 Pending
 - **Date enacted:** Pending: Building and Lands Committee unanimously recommended the moratorium legislation to full City Council on 2026-09-22; next council meeting 2026-09-28
 - **Normalized date:** `—` (unverified)
-- **Duration:** As written: until June 30, 2027 with an automatic six-month extension (council members discussed removing the automatic extension)
+- **Duration:** Proposal amended September 28, 2026 to end December 31, 2027 with no automatic six-month extension; subsequent disposition unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-amherst-undated`
 - **Legal basis:** Proposed City of Amherst (Lorain County) legislation (sponsored by Ward 1 Council member Brian Dembinski) prohibiting data centers larger than 2.5 MW during zoning review
 - **What prompted it:** Opposition to a proposed 45-megawatt data center at the Nordson property, which needed a zoning variance (BZA hearing, late July 2026); industrial zoning code review underway.
 - **Affected projects:** Proposed 45 MW data center at the Nordson property (variance rejected by the Board of Zoning Appeals).
-- **Detailed status:** Pending as of 2026-09-23: recommended by the Building and Lands Committee on 2026-09-22; headed to full City Council (meeting 2026-09-28). [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Detailed status:** September 28 minutes record a 7-0 amendment of the proposal to December 31, 2027, removing the automatic six-month extension, and sending it to second reading. This is not final adoption; subsequent disposition remains unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Pause on data centers above 2.5 MW while the industrial zoning code review committee updates regulations.
 
 ### Archbold
@@ -274,14 +274,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-08-01 (Board of Trustees special session, Saturday; Resolution 08-01-2026 adopted unanimously)
 - **Normalized date:** `2026-08-01` (exact)
-- **Duration:** 12 months from the effective date, unless repealed earlier or superseded by zoning amendments
+- **Duration:** Posted clean resolution states twelve months from effectiveness, subject to earlier repeal/replacement; actual adopted term not established.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-athens-township-athens-county-2026`
 - **Legal basis:** Athens Township Trustees Resolution 08-01-2026, temporary moratorium on receipt, processing or approval of zoning certificate applications for data center development in the zoned portion of the township (The Plains), under R.C. 519.02
 - **What prompted it:** A New York developer is considering about 300 acres on U.S. 33 across from Athens High School, in Athens and Dover townships. The zoning code does not address data centers.
 - **Affected projects:** Proposed data center (New York developer, reported as Saadia Holding LLC) on about 300 acres along U.S. 33 across from Athens High School. Part of that land is in unzoned areas.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-08-01 runs to about 2027-08-01 (applies to the zoned portion of the township).
+- **Detailed status:** The township-posted clean resolution text states twelve months from effectiveness, subject to earlier repeal/replacement, but mover, vote and signature fields are blank. Final adopted text, actual vote and operative interval remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Zoning Commission directed to study and draft data center amendments (districts, setbacks, noise, water, electrical, generators, decommissioning).
 
 ### Aurora
@@ -297,7 +297,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** City of Aurora (Portage County) Ordinance 2026-117 (emergency), moratorium on filing, consideration and issuance of zoning/occupancy permits involving data centers
 - **What prompted it:** Precaution: the zoning code does not permit data centers, but the administration wanted time for a zoning-code consultant to review whether more rules are needed; regional Portage County data center controversy.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; 12-month emergency moratorium adopted 2026-06-30 runs to about 2027-06-30 unless ended earlier by code amendments.
+- **Detailed status:** Posted Ordinance 2026-117 states twelve months from effectiveness or earlier applicable code changes. Actual effectiveness and subsequent amendments/termination were not independently established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** City to study and possibly adopt data center regulations as part of its zoning code review.
 
 ### Avon
@@ -329,7 +329,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** City of Avon Lake Ordinance 26-60, a one-year moratorium on the development or construction of data centers
 - **What prompted it:** The zoning code has no data center definition, so a facility would fall under general industrial use. The council president cited aggressive data center developers entering Ohio communities, and the legislature had not acted.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium passed 2026-06-22 runs to 2027-06-22 unless shortened by council.
+- **Detailed status:** Posted Ordinance 26-60 states a moratorium beginning at effectiveness and running through June 22, 2027. This is an explicit endpoint rather than a fixed 365-day term; actual commencement and later changes remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Study, plan and draft data center regulations, possibly making data centers a conditional use needing Planning Commission and council review; build an economic development strategy.
 
 ### Barberton
@@ -479,17 +479,17 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 ### Brimfield Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** 2026-04-20 (Board of Trustees regular meeting, Motion #2026-177 adopting resolution, 3-0; per official minutes)
 - **Normalized date:** `2026-04-20` (exact)
-- **Duration:** Six (6) months.
-- **Current end date:** `—`
+- **Duration:** Original six-month term; September 21 motion 2026-349 extends the moratorium six months from October 6, 2026 to April 6, 2027. Later action and endpoint inclusivity unverified.
+- **Current end date:** `2027-04-06`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-brimfield-township-2026`
 - **Legal basis:** Brimfield Township (Portage County) Board of Trustees resolution (Motion #2026-177), six-month moratorium on the operation/location of any new data center
 - **What prompted it:** Need to study data center impacts on health, safety, utilities and infrastructure and to add a data center section to the zoning code.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; six-month moratorium adopted 2026-04-20 runs to about 2026-10-17/20; as of 2026-09-21 the Zoning Commission planned to request a six-month extension while it finishes draft data center zoning.
+- **Detailed status:** September 21 minutes, motion 2026-349, record a passed six-month extension from October 6, 2026 to April 6, 2027, with all three trustees voting yes. This corrects the account that an extension was merely planned. Endpoint inclusivity and later modification were not independently established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Zoning Commission drafting data center restrictions and siting rules; extension request expected.
 
 ### Broadview Heights
@@ -502,10 +502,10 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `oh-broadview-heights-2026`
-- **Legal basis:** City of Broadview Heights council resolution imposing a six-month moratorium on accepting for filing, consideration, review and approval of new applications for data centers, crypto-mining facilities and substantially similar uses (number not located)
+- **Legal basis:** City of Broadview Heights Resolution 2026-92 imposing a six-month moratorium on accepting for filing, consideration, review and approval of new applications for data centers, crypto-mining facilities and substantially similar uses; it ends earlier if the applicable ordinance amendments are enacted.
 - **What prompted it:** Proactive. Council wants attorneys to review zoning for utility and infrastructure safeguards before any proposal arrives; concerns about utility costs.
 - **Affected projects:** None.
-- **Detailed status:** Active as of 2026-09-23; six-month moratorium adopted 2026-06-22 runs to about 2026-12-19.
+- **Detailed status:** June 22 minutes record adoption of Resolution 2026-92. The retained resolution states six months from enactment or earlier applicable ordinance amendments, whichever occurs first; its execution fields are blank. Later ordinance history and actual ending were not established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** City attorneys reviewing the zoning code to add data center and crypto-mining standards.
 
 ### Brooklyn
