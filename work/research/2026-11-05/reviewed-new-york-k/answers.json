@@ -1,0 +1,203 @@
+{
+  "state_abbrev": "NY",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra return",
+  "decisions": [
+    {
+      "moratorium_id": "ny-gloversville-2025",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://ecode360.com/GL0052/laws/LF2304254.pdf",
+          "source_type": "ordinance",
+          "supports": "Original calendar-month term, not 180 fixed days.",
+          "quote": "For a period o of six (6) months following the adoption",
+          "document_date": "2025-03-11"
+        }
+      ],
+      "notes": "County planning minutes of March 17, 2026 describe a proposed city restriction and a one-year moratorium; the original law states six months. Later extensions and final adoption require verification.",
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "The primary instrument states a calendar-month term; a fixed-day approximation is inaccurate."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The primary instrument states a calendar-month term; a fixed-day approximation is inaccurate."
+        },
+        "legal_basis": {
+          "from": "City of Gloversville local law establishing a moratorium on industrial solar and battery energy storage systems, later superseded by a permanent ban",
+          "to": "City of Gloversville Local Law 03-2025 (Intro LL-1), moratorium on industrial solar and battery energy storage systems; later restriction reported.",
+          "reason": "Law text identifies the original instrument; later ban needs its own final text."
+        },
+        "current_status": {
+          "from": "Replaced. The Common Council later voted to permanently ban battery-energy-storage systems and utility-scale solar facilities city-wide, citing safety (BESS) and space (solar) concerns. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]",
+          "to": "Local Law 03-2025 states an original six-month solar/BESS moratorium. Later county planning review describes a proposed city restriction; adopted permanent-ban text, intervening extensions and operative replacement were not established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate historical term/identity evidence and conditional cancellation from verified operative force."
+        }
+      },
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "ny-harrison-undated",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://ecode360.com/HA0224/laws/LF2415773.pdf",
+          "source_type": "ordinance",
+          "supports": "Original six-calendar-month term; extraction is imperfect.",
+          "quote": "MORATORIUM  PERIOD\n\n\nThe he  moratorium  period  shall  be be  in  effect t for r a  period  of f six  (6)  months"
+        }
+      ],
+      "notes": "The filed copy appears to record March 6, 2025 adoption and March 11 filing, but extraction of the filing form and number is imperfect; later extensions and present force remain unresolved.",
+      "changes": {
+        "duration": {
+          "from": "",
+          "to": "Six months from the effective date, unless extended by Town Board resolution.",
+          "reason": "Section 95 states the term and extension mechanism."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "calendar_term",
+          "reason": "The primary instrument states a calendar-month term; a fixed-day approximation is inaccurate."
+        },
+        "current_status": {
+          "from": "Reported expired by industry tracker (2025-09-06); town code compilation confirms a codified BESS moratorium section existed. [VERIFY instrument number; duration; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+          "to": "The retained local law states six months from effectiveness, with extension by Town Board resolution. Imperfect extraction of its filing form does not establish a reliable adoption/filing date or later action. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate historical term/identity evidence and conditional cancellation from verified operative force."
+        }
+      },
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "ny-johnstown-2024",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://cms7files1.revize.com/townofjohnstownny/2025%20Resolution%20Setting%20Public%20Hearing.pdf",
+          "source_type": "resolution",
+          "supports": "Town identifies original solar/BESS law and term.",
+          "quote": "by Local Law 2 of 2024, the Town of Johnstown enacted a six (6) month\n\nmoratorium",
+          "document_date": "2025-02-10"
+        },
+        {
+          "url": "https://www.dailygazette.com/leader_herald/news/govt_politics/johnstown-battery-energy-storage-moratorium-town-hall-approval/article_01c0470a-9a32-49cc-96d3-ff61d08f7133.html",
+          "source_type": "news",
+          "supports": "March 2026 reporting of an extension; this does not establish operative dates.",
+          "quote": "The town of Johnstown will extend",
+          "document_date": "2026-03-10"
+        },
+        {
+          "url": "https://www.dailygazette.com/leader_herald/news/govt_politics/johnstown-battery-energy-storage-moratorium-town-hall-approval/article_01c0470a-9a32-49cc-96d3-ff61d08f7133.html",
+          "source_type": "news",
+          "supports": "Reported later calendar term, not a filing/operative-date finding.",
+          "quote": "for 12 months",
+          "document_date": "2026-03-10"
+        }
+      ],
+      "notes": "March 2026 county review discusses proposed BESS and wind extensions; the March 10 news account reports an extension. Effective dates and later actions remain unresolved. Do not infer current expiry.",
+      "changes": {
+        "legal_basis": {
+          "from": "Town of Johnstown local law (BESS/wind moratorium)",
+          "to": "Town of Johnstown Local Law 2 of 2024, establishing a solar farm and battery storage moratorium; Local Law 4 of 2024 extended it. Later battery and wind extensions require separate verification.",
+          "reason": "2025 Town resolution identifies both laws."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The row describes twelve months; it is a calendar term, not a fixed 365-day period."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The described extension is in months."
+        },
+        "current_status": {
+          "from": "Reported expired by industry tracker (2025-08-03); Daily Gazette reporting confirms the Town of Johnstown enacted a solar/battery storage moratorium and later extended it 12 months (covering wind facilities too) to allow completion of a comprehensive plan. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+          "to": "The February 2025 town hearing resolution recites original Local Law 2 of 2024 for solar and BESS and extension Law 4 of 2024. March 2026 news describes another twelve-month battery/wind extension; separate instruments, filing dates and exact continuation remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate historical term/identity evidence and conditional cancellation from verified operative force."
+        }
+      },
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "ny-mamaroneck-village-2024",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.villageofmamaroneckny.gov/DocumentCenter/View/1656/Local-Law-14-2025-Extend-moratorium-on-battery-energy-storage-system-applications-and-permits-amending-Chapter-342-PDF",
+          "source_type": "ordinance",
+          "supports": "Local Law 14-2025 extended the moratorium to May 1, 2026.",
+          "quote": "of Mamaroneck is extended until May 1, 2026.",
+          "document_date": "2025"
+        }
+      ],
+      "notes": "This establishes an extension, not whether the moratorium was lifted or further extended afterward.",
+      "changes": {
+        "duration": {
+          "from": "Extended to 2025-11-01 by Local Law 11-2025; further extended by Local Law 14-2025",
+          "to": "Extended to November 1, 2025, and by Local Law 14-2025 until May 1, 2026; later actions not established.",
+          "reason": "The text of Local Law 14-2025 specifies May 1, 2026."
+        },
+        "current_status": {
+          "from": "Lifted per industry tracker; moratorium on acceptance/processing of BESS applications and permits (effective 2024-10-31) was extended twice (to 2025-11-01 via LL11-2025, then further via LL14-2025) before being lifted.",
+          "to": "Retrieved Local Law 14-2025 extends the BESS moratorium until May 1, 2026. That historical provision does not establish whether it was further extended, terminated or replaced afterward. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate historical term/identity evidence and conditional cancellation from verified operative force."
+        }
+      },
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "ny-montgomery-2025",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://ecode360.com/MO0967/document/753136221.pdf",
+          "source_type": "minutes",
+          "supports": "The introductory 2025 law discussed here is the zoning removal, not the original moratorium.",
+          "quote": "Attorney Frank explained the Board had a Public Hearing on Introductory Local Law No. 1 of 2025,",
+          "document_date": "2025-02-25"
+        },
+        {
+          "url": "https://ecode360.com/MO0967/document/753136221.pdf",
+          "source_type": "minutes",
+          "supports": "Attorney described conditional effect upon filing; filing date not established.",
+          "quote": "it\n\nwill cancel out the moratorium once the law is filed with the New York State Department of State.",
+          "document_date": "2025-02-25"
+        }
+      ],
+      "notes": "Minutes say the zoning law would cancel the moratorium upon filing, but filing and original instrument are not established. Packet coordinates appear inconsistent with the Orange County town and need separate geographic validation.",
+      "changes": {
+        "date_enacted": {
+          "from": "Introductory Local Law No. 1 of 2025 (original moratorium)",
+          "to": "Original moratorium date and instrument not verified; Introductory Local Law 1 of 2025 concerned removal of battery storage as a permitted use.",
+          "reason": "Board minutes identify the subject of the introductory law."
+        },
+        "legal_basis": {
+          "from": "Town of Montgomery Local Law No. 2 of 2025 (removing battery storage systems from the zoning code), following Introductory Local Law No. 1 of 2025",
+          "to": "Original moratorium instrument unverified; Town of Montgomery, Orange County, Local Law 2 of 2025 addressed removal of BESS as a specially permitted use.",
+          "reason": "Introductory Local Law 1 of 2025 was the zoning measure, rather than the original moratorium."
+        },
+        "date_enacted_iso": {
+          "from": "2025",
+          "to": "",
+          "reason": "The dated zoning action does not establish the original moratorium adoption year."
+        },
+        "date_enacted_uncertainty": {
+          "from": "year_only",
+          "to": "unverified",
+          "reason": "The dated zoning action does not establish the original moratorium adoption year."
+        },
+        "current_status": {
+          "from": "Lifted per industry tracker; a 2025 moratorium/zoning pause was followed by Local Law No. 2 of 2025, which removed battery storage systems from the zoning code entirely (i.e., replaced with a restrictive permanent provision rather than an extended pause). [VERIFY instrument number; duration not confirmed at confidence 0.55 in the 2026-09 refresh]",
+          "to": "February 25, 2025 minutes identify Introductory Local Law 1 as a zoning measure removing BESS as a permitted use, adopted as Local Law 2. The attorney states it would cancel the existing moratorium upon state filing. Original moratorium identity/date, actual filing and cancellation remain unverified. The legacy coordinate match also requires geographic review for this Orange County town. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate historical term/identity evidence and conditional cancellation from verified operative force."
+        }
+      },
+      "confidence": 0.9
+    }
+  ],
+  "new_candidates": []
+}

@@ -83,7 +83,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 | Milton (Saratoga County) | Town | 2024-12 | battery storage, solar | 🟢 Extended |
 | Mina | Town | 2025-05-02 | battery storage | 🟢 Extended |
 | Mohawk (Montgomery County) | Town | 2026-08-13 | data center | 🟢 Active |
-| Montgomery | Town | 2025 | battery storage | ⚪ Replaced |
+| Montgomery | Town | Unverified | battery storage | ⚪ Replaced |
 | Mount Kisco | Village | 2024-08 | battery storage | ⚪ Replaced |
 | New Castle | Town | 2025-02-11 | battery storage | 🟢 Extended |
 | Newfane | Town | 2026-02 | battery storage | ⚪ Expired |
@@ -940,10 +940,10 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Current end date:** `—`
 - **Sectors:** battery storage, solar
 - **Moratorium ID:** `ny-gloversville-2025`
-- **Legal basis:** City of Gloversville local law establishing a moratorium on industrial solar and battery energy storage systems, later superseded by a permanent ban
+- **Legal basis:** City of Gloversville Local Law 03-2025 (Intro LL-1), moratorium on industrial solar and battery energy storage systems; later restriction reported.
 - **What prompted it:** Public safety concerns (BESS) and space/redevelopment-goal concerns (utility-scale solar)
 - **Affected projects:** —
-- **Detailed status:** Replaced. The Common Council later voted to permanently ban battery-energy-storage systems and utility-scale solar facilities city-wide, citing safety (BESS) and space (solar) concerns. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** Local Law 03-2025 states an original six-month solar/BESS moratorium. Later county planning review describes a proposed city restriction; adopted permanent-ban text, intervening extensions and operative replacement were not established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Temporary moratorium superseded by a permanent ban
 
 ### Greenwood
@@ -1000,14 +1000,14 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Status:** ⚪ Expired
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
-- **Duration:** —
+- **Duration:** Six months from the effective date, unless extended by Town Board resolution.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-harrison-undated`
 - **Legal basis:** Harrison Town Code (former) 235-95, Moratorium of battery energy storage systems
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Reported expired by industry tracker (2025-09-06); town code compilation confirms a codified BESS moratorium section existed. [VERIFY instrument number; duration; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Detailed status:** The retained local law states six months from effectiveness, with extension by Town Board resolution. Imperfect extraction of its filing form does not establish a reliable adoption/filing date or later action. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** BESS moratorium codified at former Town Code 235-95, reported expired.
 
 ### Hartwick
@@ -1116,10 +1116,10 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Current end date:** `—`
 - **Sectors:** battery storage, wind
 - **Moratorium ID:** `ny-johnstown-2024`
-- **Legal basis:** Town of Johnstown local law (BESS/wind moratorium)
+- **Legal basis:** Town of Johnstown Local Law 2 of 2024, establishing a solar farm and battery storage moratorium; Local Law 4 of 2024 extended it. Later battery and wind extensions require separate verification.
 - **What prompted it:** Nexamp BESS project proposal; need to complete Comprehensive Plan update
 - **Affected projects:** —
-- **Detailed status:** Reported expired by industry tracker (2025-08-03); Daily Gazette reporting confirms the Town of Johnstown enacted a solar/battery storage moratorium and later extended it 12 months (covering wind facilities too) to allow completion of a comprehensive plan. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Detailed status:** The February 2025 town hearing resolution recites original Local Law 2 of 2024 for solar and BESS and extension Law 4 of 2024. March 2026 news describes another twelve-month battery/wind extension; separate instruments, filing dates and exact continuation remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** BESS and wind moratorium enacted after a Nexamp BESS proposal, extended 12 months, since expired per tracker.
 
 ### Kent (Putnam County)
@@ -1256,14 +1256,14 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Status:** ⚪ Expired
 - **Date enacted:** 2024-10-31 (effective date of original moratorium, section 342-84.5)
 - **Normalized date:** `2024-10-31` (exact)
-- **Duration:** Extended to 2025-11-01 by Local Law 11-2025; further extended by Local Law 14-2025
+- **Duration:** Extended to November 1, 2025, and by Local Law 14-2025 until May 1, 2026; later actions not established.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-mamaroneck-village-2024`
 - **Legal basis:** Code of the Village of Mamaroneck 342-84.5, as extended by Local Law 11-2025 and Local Law 14-2025
 - **What prompted it:** Consultant study of BESS zoning constraints
 - **Affected projects:** —
-- **Detailed status:** Lifted per industry tracker; moratorium on acceptance/processing of BESS applications and permits (effective 2024-10-31) was extended twice (to 2025-11-01 via LL11-2025, then further via LL14-2025) before being lifted.
+- **Detailed status:** Retrieved Local Law 14-2025 extends the BESS moratorium until May 1, 2026. That historical provision does not establish whether it was further extended, terminated or replaced afterward. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Moratorium on BESS application processing, effective Oct 2024, extended twice, since lifted.
 
 ### Manlius
@@ -1350,16 +1350,16 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 
 - **Type:** Town
 - **Status:** ⚪ Replaced
-- **Date enacted:** Introductory Local Law No. 1 of 2025 (original moratorium)
-- **Normalized date:** `2025` (year_only)
+- **Date enacted:** Original moratorium date and instrument not verified; Introductory Local Law 1 of 2025 concerned removal of battery storage as a permitted use.
+- **Normalized date:** `—` (unverified)
 - **Duration:** —
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-montgomery-2025`
-- **Legal basis:** Town of Montgomery Local Law No. 2 of 2025 (removing battery storage systems from the zoning code), following Introductory Local Law No. 1 of 2025
+- **Legal basis:** Original moratorium instrument unverified; Town of Montgomery, Orange County, Local Law 2 of 2025 addressed removal of BESS as a specially permitted use.
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Lifted per industry tracker; a 2025 moratorium/zoning pause was followed by Local Law No. 2 of 2025, which removed battery storage systems from the zoning code entirely (i.e., replaced with a restrictive permanent provision rather than an extended pause). [VERIFY instrument number; duration not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** February 25, 2025 minutes identify Introductory Local Law 1 as a zoning measure removing BESS as a permitted use, adopted as Local Law 2. The attorney states it would cancel the existing moratorium upon state filing. Original moratorium identity/date, actual filing and cancellation remain unverified. The legacy coordinate match also requires geographic review for this Orange County town. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** 2025 pause on BESS, followed by permanent removal of BESS from the town's zoning code.
 
 ### Mount Kisco
