@@ -872,14 +872,14 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Status:** 🟢 Extended
 - **Date enacted:** 2025, original moratorium (exact date not located)
 - **Normalized date:** `2025` (year_only)
-- **Duration:** Extended six months on 2026-06-30
+- **Duration:** Six months from the later of state filing or July 23, 2026, under Local Law 2 of 2026; filing date not established.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-gardiner-2025`
-- **Legal basis:** Town of Gardiner moratorium on battery energy storage systems
+- **Legal basis:** Town of Gardiner Local Law 2 of 2026, extending the battery energy storage systems moratorium
 - **What prompted it:** The town's 2008 zoning law does not address utility-scale BESS siting, noise, or screening
 - **Affected projects:** No specific project named
-- **Detailed status:** Active as of 2026-09-23, extended six months at a June 30, 2026 special Town Board meeting to give officials time to finish drafting a permanent BESS law; a full draft was expected in September/October 2026 with a public hearing to follow in November and a possible vote in December 2026.
+- **Detailed status:** June 30 minutes record adoption of Local Law 2 of 2026. Its six-month BESS moratorium runs from the later of state filing or July 23, 2026; filing and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted, extended
 
 ### German Flatts
@@ -904,14 +904,14 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Status:** 🟢 Extended
 - **Date enacted:** 2025-05-13 (per EticaAG, a 12-month term originally through 2026-05-13)
 - **Normalized date:** `2025-05-13` (unverified)
-- **Duration:** Extended to May 2027 per Carina Energy's regional summary
-- **Current end date:** `—`
+- **Duration:** Local Law 03-2026 provides through April 28, 2027 unless further extended
+- **Current end date:** `2027-04-28`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-glen-cove-2025`
-- **Legal basis:** City of Glen Cove moratorium on battery energy storage systems
+- **Legal basis:** City of Glen Cove Local Law 04-2025, extended by Local Law 03-2026
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Reported active as of 2026-09-23 by two independent trackers; Carina Energy's Long Island regional summary states Glen Cove was 'extended to May 2027.' [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** April 14 minutes record adoption of Local Law 03-2026 extending Local Law 04-2025, with an April 28, 2027 outer endpoint unless extended. State filing is the effectiveness condition; the filing date and later actions were not independently established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted, extended
 
 ### Glenville
@@ -975,7 +975,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Town of Greig Local Law 2026-01, a moratorium on commercial renewable energy systems (solar, wind energy primary systems, battery energy storage systems, and compressed air energy storage systems)
 - **What prompted it:** Town needed time to complete its Comprehensive Plan (adopted 2026-03-25) and align zoning/BESS regulations with it, per NYSERDA's BESS Model Law guidance
 - **Affected projects:** No specific project named
-- **Detailed status:** Active as of 2026-09-23. Carina Energy's tracker gives a current expiration of 2027-01-14. Does not apply to individual landowner/farmer/small-business on-site solar or to on-site BESS under 600 kWh. A separate, later Town of Greig moratorium on nuclear power plants and large data facilities (Local Law 2026-3, filed July 2026, expiring 2027-06-10) is a distinct instrument not included here.
+- **Detailed status:** Town-hosted Local Law 2026-01 states twelve months from effectiveness for commercial renewable-energy/storage systems. Its effective-date wording refers to adoption and/or state filing; the actual operative anchor, certification year and later actions require further review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted
 
 ### Halfmoon
@@ -984,14 +984,14 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Status:** 🟢 Extended
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
-- **Duration:** Extended to August 2026 per Carina Energy's regional summary
+- **Duration:** 180 days from effectiveness under Local Law 4 of 2026; filing and subsequent extension disposition not established.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-halfmoon-undated`
-- **Legal basis:** —
+- **Legal basis:** Town of Halfmoon Local Law No. 4 of 2026, extending the moratorium on battery energy storage system facilities
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy, extended to August 2026 per the page's Capital Region regional summary; no dedicated town-level primary or news source was located within this pass's research budget. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Detailed status:** Town Local Law 4 of 2026 specifies a 180-day BESS moratorium extension from effectiveness and requires state filing. This text does not establish a specific ending date or the outcome of any later extension proposal. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Reported extended by tracker only
 
 ### Harrison

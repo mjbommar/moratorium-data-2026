@@ -1,0 +1,165 @@
+{
+  "state_abbrev": "NY",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra return",
+  "decisions": [
+    {
+      "moratorium_id": "ny-gardiner-2025",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Six months is a calendar term, not 180 fixed days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Local Law 2 of 2026 specifies six months from a later-of anchor."
+        },
+        "legal_basis": {
+          "from": "Town of Gardiner moratorium on battery energy storage systems",
+          "to": "Town of Gardiner Local Law 2 of 2026, extending the battery energy storage systems moratorium",
+          "reason": "June 30 minutes identify the extension."
+        },
+        "duration": {
+          "from": "Extended six months on 2026-06-30",
+          "to": "Six months from the later of state filing or July 23, 2026, under Local Law 2 of 2026; filing date not established.",
+          "reason": "Preserve the actual source-specified anchor and units without inferred endpoint."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23, extended six months at a June 30, 2026 special Town Board meeting to give officials time to finish drafting a permanent BESS law; a full draft was expected in September/October 2026 with a public hearing to follow in November and a possible vote in December 2026.",
+          "to": "June 30 minutes record adoption of Local Law 2 of 2026. Its six-month BESS moratorium runs from the later of state filing or July 23, 2026; filing and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-supported extension terms from filing/later-force acceptance."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://files.heygov.com/townofgardiner.org/meetings/me_01kvrr6p8vdv3wgtx37a3rdz0f/june-30.pdf",
+          "title": "Town Board special meeting and Local Law 2 of 2026",
+          "source_type": "minutes",
+          "document_date": "2026-06-30",
+          "quote": "A. For a period of six (6) months from the date that this local law is filed with the Secretary of\n\nState of the State of New York or July 23, 2026, whichever is later",
+          "supports": "Six calendar months from the later of filing or July 23; adoption is recorded in the minutes."
+        }
+      ],
+      "notes": "Filing date and later action were not located; no current-force confirmation."
+    },
+    {
+      "moratorium_id": "ny-glen-cove-2025",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "City of Glen Cove moratorium on battery energy storage systems",
+          "to": "City of Glen Cove Local Law 04-2025, extended by Local Law 03-2026",
+          "reason": "Council minutes identify both laws."
+        },
+        "duration": {
+          "from": "Extended to May 2027 per Carina Energy's regional summary",
+          "to": "Local Law 03-2026 provides through April 28, 2027 unless further extended",
+          "reason": "Adopted text gives an explicit end date; effective upon filing."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-04-28",
+          "reason": "The adopted extension specifies April 28, 2027, absent further extension."
+        },
+        "current_status": {
+          "from": "Reported active as of 2026-09-23 by two independent trackers; Carina Energy's Long Island regional summary states Glen Cove was 'extended to May 2027.' [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+          "to": "April 14 minutes record adoption of Local Law 03-2026 extending Local Law 04-2025, with an April 28, 2027 outer endpoint unless extended. State filing is the effectiveness condition; the filing date and later actions were not independently established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-supported extension terms from filing/later-force acceptance."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://cdn.townweb.com/glencoveny.gov/wp-content/uploads/2026/05/2026-04-14-Minutes.pdf",
+          "title": "City Council minutes, Local Law 03-2026",
+          "source_type": "minutes",
+          "document_date": "2026-04-14",
+          "quote": "Until April 28, 2027, after which date this law shall lapse",
+          "supports": "Extension text sets a date unless extended; minutes also record adoption and filing is the effective-date condition."
+        }
+      ],
+      "notes": "Adoption recorded April 14, 2026; filing and later action not independently verified."
+    },
+    {
+      "moratorium_id": "ny-greig-lewis-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The law uses twelve calendar months rather than 365 fixed days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The town law specifies twelve months; filing and adoption language needs further review."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Carina Energy's tracker gives a current expiration of 2027-01-14. Does not apply to individual landowner/farmer/small-business on-site solar or to on-site BESS under 600 kWh. A separate, later Town of Greig moratorium on nuclear power plants and large data facilities (Local Law 2026-3, filed July 2026, expiring 2027-06-10) is a distinct instrument not included here.",
+          "to": "Town-hosted Local Law 2026-01 states twelve months from effectiveness for commercial renewable-energy/storage systems. Its effective-date wording refers to adoption and/or state filing; the actual operative anchor, certification year and later actions require further review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-supported extension terms from filing/later-force acceptance."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://townofgreig.gov/application/files/8917/7092/1633/2026_Local_Law_1_Moratorium.pdf",
+          "title": "Town of Greig Local Law 2026-01",
+          "source_type": "ordinance",
+          "document_date": "2026",
+          "quote": "(CAESS) is established for a period of twelve (12) months from the effective date of this\nLocal Law.",
+          "supports": "Term in calendar months; effective-date language uses adoption and/or filing."
+        }
+      ],
+      "notes": "Official scanned law OCR; adoption/filing effective-date wording is ambiguous. No later action verified."
+    },
+    {
+      "moratorium_id": "ny-halfmoon-undated",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "",
+          "to": "Town of Halfmoon Local Law No. 4 of 2026, extending the moratorium on battery energy storage system facilities",
+          "reason": "The retrieved local law identifies the extension."
+        },
+        "current_status": {
+          "from": "Reported active as of 2026-09-23 by Carina Energy, extended to August 2026 per the page's Capital Region regional summary; no dedicated town-level primary or news source was located within this pass's research budget. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+          "to": "Town Local Law 4 of 2026 specifies a 180-day BESS moratorium extension from effectiveness and requires state filing. This text does not establish a specific ending date or the outcome of any later extension proposal. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-supported extension terms from filing/later-force acceptance."
+        },
+        "duration": {
+          "from": "Extended to August 2026 per Carina Energy's regional summary",
+          "to": "180 days from effectiveness under Local Law 4 of 2026; filing and subsequent extension disposition not established.",
+          "reason": "Preserve the actual source-specified anchor and units without inferred endpoint."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "180",
+          "reason": "Preserve the actual source-specified anchor and units without inferred endpoint."
+        },
+        "duration_kind": {
+          "from": "until_date",
+          "to": "fixed_days",
+          "reason": "Preserve the actual source-specified anchor and units without inferred endpoint."
+        }
+      },
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "url": "https://ecode360.com/HA2075/laws/LF2635626.pdf",
+          "title": "Town of Halfmoon Local Law 4 of 2026",
+          "source_type": "ordinance",
+          "document_date": "2026",
+          "quote": "a) Fora period of 180 days from the effective date of this local law, no application for",
+          "supports": "Filed text describes a 180-day extension, but this alone does not settle later action."
+        }
+      ],
+      "notes": "August hearing is a proposal; subsequent adoption and effective date not verified."
+    }
+  ],
+  "new_candidates": []
+}
