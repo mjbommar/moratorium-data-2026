@@ -13,7 +13,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 | Beaufort County | County | Unverified | data center | 🟡 Pending |
 | Buncombe County (cryptocurrency mining; data-center-adjacent) | County | 2023-05-02 | cryptocurrency mining | ⚪ Replaced |
 | Camden County | County | 2026-08-03 | data center, cryptocurrency mining | 🟢 Active |
-| Charlotte | City | 2026-06-08 | data center | 🟢 Active |
+| Charlotte | City | 2026-06-08 | data center | 🟢 Extended |
 | Chatham County | County | 2026-02-11 | data center, cryptocurrency mining | 🟢 Active |
 | Cherokee County (high-impact facilities; cryptocurrency mining; data-center-adjacent) | County | 2023-10-02 | cryptocurrency mining, data center | ⚪ Expired |
 | City of Asheville | City | 2026-06-23 | data center | 🟢 Active |
@@ -148,17 +148,17 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 ### Charlotte
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** 2026-06-08, unanimous City Council vote
 - **Normalized date:** `2026-06-08` (exact)
-- **Duration:** 150 days, through November 5, 2026
-- **Current end date:** `2026-11-05`
+- **Duration:** Initially 150 days through November 5, 2026; extension commences November 6, 2026 and ends no later than October 18, 2027, or upon earlier adoption of applicable standards and policies.
+- **Current end date:** `2027-10-18`
 - **Sectors:** data center
 - **Moratorium ID:** `nc-charlotte-2026`
 - **Legal basis:** Ordinance Imposing a Temporary Moratorium on Acceptance, Processing, and Approval of Applications for New Telecommunications and Data Storage Facilities within the City of Charlotte and its ETJ pursuant to N.C.G.S. 160D-107, adopted 2026-06-08 after a 2026-05-26 legislative hearing; ordinance-book number not shown on the posted copy
 - **What prompted it:** Public concern over electricity rates, water consumption, noise, and neighborhood impacts tied to a proposed American Towers data center in east Charlotte; a May 26, 2026 public hearing drew 50-plus speakers
 - **Affected projects:** Proposed American Towers data center, east Charlotte
-- **Detailed status:** Active as of 2026-09-23; the 150-day moratorium runs through 2026-11-05 (or earlier adoption of new data center rules). A proposed nine-month extension (to about 2027-08-05) was endorsed by the Transportation, Planning and Development Committee on 2026-09-08; on 2026-09-14 staff gave only an update to the full council, and a public hearing and council vote are required before Nov. 5. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]
+- **Detailed status:** City sources confirm October 26 approval of an extension commencing November 6, 2026, ending no later than October 18, 2027 or earlier Council approval of new regulations/policies. The original period runs through November 5, subject to its terms. Extension adoption is distinct from commencement. [VERIFY: ordinance-book number, any later modification, judicial developments and current legal force.]
 - **Outcome:** 150-day moratorium on new data-center development/rezoning petitions to allow time for policy development
 
 ### Chatham County
@@ -555,10 +555,10 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nc-jackson-county-2026`
-- **Legal basis:** Jackson County data center moratorium ordinance (number not located), N.C.G.S. 160D-107; bars zoning, development, building and demolition permits, related site plans and rezonings for data centers in the county's planning jurisdiction
+- **Legal basis:** Jackson County Ordinance O2026-02; N.C.G.S. 160D-107; bars zoning, development, building and demolition permits, related site plans and rezonings for data centers in the county's planning jurisdiction
 - **What prompted it:** UDO lacks a data center definition; county wants to study benefits and impacts before a proposal arrives and avoid nonconformity problems
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23 through 2027-08-18; planning board study through January 2027, draft UDO changes from February, planning board hearing by 2027-06-30.
+- **Detailed status:** August 18 minutes record unanimous adoption of Ordinance O2026-02, a one-year data-center moratorium. [VERIFY: operative text and interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** One-year moratorium with a work plan toward UDO data center regulations.
 
 ### Lincolnton
@@ -606,7 +606,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Legal basis:** McDowell County data center moratorium (number not located), N.C.G.S. 160D-107
 - **What prompted it:** Water consumption, grid demand, noise, air pollution and health concerns; county wants development standards before any project
 - **Affected projects:** None; no project approved or pending.
-- **Detailed status:** Active as of 2026-09-23; six-month moratorium adopted 2026-08-31 while staff and the planning board draft rules. Separate from the county's 2023 cryptocurrency-mining moratorium (row nc-mcdowell-county-2026, replaced).
+- **Detailed status:** August 31 minutes record a 5-0 vote for a six-month data-center moratorium; no exact expiry is inferred from this calendar term. [VERIFY: operative text and interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Six-month moratorium adopted.
 
 ### McDowell County (cryptocurrency mining; data-center-adjacent)
@@ -654,7 +654,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Legal basis:** Board of Commissioners moratorium ordinance covering unincorporated areas; ordinance/resolution number not located in reviewed sources; N.C.G.S. 160D-107 procedure implied for a development moratorium of this length
 - **What prompted it:** Residents petitioned (about 300 signatures) for a longer pause than the initially proposed 12 months; county committed to forming an advisory committee
 - **Affected projects:** —
-- **Detailed status:** Active as of researched_as_of; runs through January 4, 2029 unless amended
+- **Detailed status:** May 8 reporting describes unanimous May 4 approval of a 32-month moratorium, with a reported January 4, 2029 endpoint subject to earlier change. The enacted text was not reviewed. [VERIFY: operative text and interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Orange County
@@ -670,7 +670,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Legal basis:** Ordinance establishing one-year moratorium on large-scale data centers; N.C.G.S. 160D-107
 - **What prompted it:** March 2026 board direction and staff study of electricity demand, water usage, land-use compatibility, environmental impacts, resident utility costs, and water quality.
 - **Affected projects:** Large-scale data centers, AI data centers, cryptocurrency mining facilities, data processing facilities, and similar operations.
-- **Detailed status:** Active
+- **Detailed status:** April 21 minutes record unanimous approval of an ordinance applying a one-year data-center moratorium. [VERIFY: operative text and interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Pending. Staff directed to prepare UDO amendments defining and regulating large-scale data centers and related uses.
 
 ### Pasquotank County
