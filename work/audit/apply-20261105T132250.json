@@ -1,0 +1,95 @@
+{
+  "applied_at": "20261105T132250",
+  "answer_files": [
+    "work/answers/refresh-2026-11-05-wave3/CA-san-francisco.json"
+  ],
+  "stats": {
+    "outcome:status_changed": 1,
+    "status_changed": 1,
+    "fields_changed": 9
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "ca-san-francisco-undated",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "Official record shows passage and mayoral approval.",
+      "source": "CA-san-francisco.json"
+    },
+    {
+      "moratorium_id": "ca-san-francisco-undated",
+      "column": "date_enacted",
+      "before": "",
+      "after": "Board passage October 6, 2026; mayoral approval and enactment October 16, 2026 (Board file 261021, Ordinance 215-26).",
+      "reason": "Board legislative record.",
+      "source": "CA-san-francisco.json"
+    },
+    {
+      "moratorium_id": "ca-san-francisco-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-10-16",
+      "reason": "Official enactment date.",
+      "source": "CA-san-francisco.json"
+    },
+    {
+      "moratorium_id": "ca-san-francisco-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Official enactment date.",
+      "source": "CA-san-francisco.json"
+    },
+    {
+      "moratorium_id": "ca-san-francisco-undated",
+      "column": "duration",
+      "before": "Proposed 45-day moratorium; introduced but not adopted as of 2026-09-23",
+      "after": "45 days; effective October 16 through November 30, 2026, unless extended, according to the Planning Department.",
+      "reason": "Official planning summary.",
+      "source": "CA-san-francisco.json"
+    },
+    {
+      "moratorium_id": "ca-san-francisco-undated",
+      "column": "duration_days",
+      "before": "",
+      "after": "45",
+      "reason": "Official planning summary.",
+      "source": "CA-san-francisco.json"
+    },
+    {
+      "moratorium_id": "ca-san-francisco-undated",
+      "column": "duration_kind",
+      "before": "unknown",
+      "after": "fixed_days",
+      "reason": "45-day temporary moratorium.",
+      "source": "CA-san-francisco.json"
+    },
+    {
+      "moratorium_id": "ca-san-francisco-undated",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-11-30",
+      "reason": "Planning summary; conditional on no extension.",
+      "source": "CA-san-francisco.json"
+    },
+    {
+      "moratorium_id": "ca-san-francisco-undated",
+      "column": "legal_basis",
+      "before": "Proposed urgency ordinance introduced by Supervisor Shamann Walton (co-sponsors Chan, Fielder, Chen) on 2026-09-14/15",
+      "after": "Urgency Ordinance 215-26, Board File 261021, under Government Code section 65858.",
+      "reason": "Official Board file identifies enacted instrument.",
+      "source": "CA-san-francisco.json"
+    },
+    {
+      "moratorium_id": "ca-san-francisco-undated",
+      "column": "current_status",
+      "before": "Pending as of 2026-09-23. Introduced 2026-09-14/15; as of 2026-09-22 press coverage still described it as 'just proposed,' not yet voted on by the Board of Supervisors. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+      "after": "Board passed Ordinance 215-26 on October 6, 2026; the mayor signed approval October 16, triggering immediate effect under section 5. San Francisco Planning identifies a 45-day citywide moratorium effective October 16 through November 30, 2026, unless extended. [VERIFY later extension, replacement or other action; this review establishes enactment and the supported scheduled end, not exhaustive subsequent legal history.]",
+      "reason": "Official legislative record and planning summary resolve the proposal status.",
+      "source": "CA-san-francisco.json"
+    }
+  ]
+}

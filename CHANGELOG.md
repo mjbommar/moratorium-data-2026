@@ -10,11 +10,13 @@ is still a review-stage dataset, not a completed ballot census or legal-effect m
 
 Further working changes include the Westover instrument correction, four California historical corrections, verified Monterey Park election observations, and Hayward Ordinance 26-09 added from the Council action record and City announcement. Hayward's final adopted term and later history remain flagged. Houston, Alaska's signed October 8 adoption now replaces the pending classification; its two-year calendar term has no guessed exact expiry. Candidate ballot reviews and the omission-recovery queue remain separate from canonical promotion.
 
+San Francisco's signed final Ordinance 215-26 confirms Board passage October 6 and mayoral approval October 16, replacing its pending entry. The Planning Department lists November 30 as the scheduled end unless extended; later changes remain flagged. Eliot and Sabattus have six scoped ballot-result source reviews in the private candidate snapshot, without legal-effect promotion.
+
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1292** |
-| In force (active or extended) | **1065** |
-| Proposed, not yet voted on | **76** |
+| In force (active or extended) | **1066** |
+| Proposed, not yet voted on | **75** |
 | Ended (replaced, expired, or rescinded) | **151** |
 | Rows we still want to confirm (`[VERIFY]`) | **303** |
 | States with at least one | **47** |

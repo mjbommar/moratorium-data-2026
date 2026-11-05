@@ -3,7 +3,7 @@
 
 Every local infrastructure moratorium in the inventory for California, current through **November 5, 2026**.
 
-**34 instruments** — 23 in force, 2 pending, 9 past.
+**34 instruments** — 24 in force, 1 pending, 9 past.
 
 State policy is tracked separately: **13 actions** (13 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -38,7 +38,7 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 | Palm Springs | City | 2026-08-26 | data center | 🟢 Active |
 | Patterson | City | 2026-07-16 | data center | 🟢 Extended |
 | Richmond | City | 2026-09-15 | data center | 🟢 Active |
-| San Francisco | City | Unverified | data center | 🟡 Pending |
+| San Francisco | City | 2026-10-16 | data center | 🟢 Active |
 | San Juan Capistrano | City | 2025-03-18 | battery storage | 🟢 Active |
 | Solano County | County | 2024-01-23 | battery storage | ⚪ Replaced |
 | Tulare County | County | 2026-08-18 | data center | 🟢 Extended |
@@ -513,17 +513,17 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 ### San Francisco
 
 - **Type:** City
-- **Status:** 🟡 Pending
-- **Date enacted:** —
-- **Normalized date:** `—` (unverified)
-- **Duration:** Proposed 45-day moratorium; introduced but not adopted as of 2026-09-23
-- **Current end date:** `—`
+- **Status:** 🟢 Active
+- **Date enacted:** Board passage October 6, 2026; mayoral approval and enactment October 16, 2026 (Board file 261021, Ordinance 215-26).
+- **Normalized date:** `2026-10-16` (exact)
+- **Duration:** 45 days; effective October 16 through November 30, 2026, unless extended, according to the Planning Department.
+- **Current end date:** `2026-11-30`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-san-francisco-undated`
-- **Legal basis:** Proposed urgency ordinance introduced by Supervisor Shamann Walton (co-sponsors Chan, Fielder, Chen) on 2026-09-14/15
+- **Legal basis:** Urgency Ordinance 215-26, Board File 261021, under Government Code section 65858.
 - **What prompted it:** Data centers regulated under a 2001 'internet service exchange' Planning Code definition predating generative AI; concern over water, energy, pollution, noise impacts especially in Bayview/SoMa.
 - **Affected projects:** —
-- **Detailed status:** Pending as of 2026-09-23. Introduced 2026-09-14/15; as of 2026-09-22 press coverage still described it as 'just proposed,' not yet voted on by the Board of Supervisors. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** Board passed Ordinance 215-26 on October 6, 2026; the mayor signed approval October 16, triggering immediate effect under section 5. San Francisco Planning identifies a 45-day citywide moratorium effective October 16 through November 30, 2026, unless extended. [VERIFY later extension, replacement or other action; this review establishes enactment and the supported scheduled end, not exhaustive subsequent legal history.]
 - **Outcome:** —
 
 ### San Juan Capistrano

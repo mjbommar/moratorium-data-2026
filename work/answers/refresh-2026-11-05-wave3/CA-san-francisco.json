@@ -1,0 +1,105 @@
+{
+  "state_abbrev": "CA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator",
+  "decisions": [
+    {
+      "moratorium_id": "ca-san-francisco-undated",
+      "outcome": "status_changed",
+      "evidence": [
+        {
+          "url": "https://sfgov.legistar.com/LegislationDetail.aspx?GUID=AF7EB213-B55E-4BC5-9F8F-0F965226CB04&ID=8217305",
+          "title": "Board file 261021",
+          "publisher": "San Francisco Board of Supervisors",
+          "document_date": "2026-10-16",
+          "source_type": "legislature",
+          "supports": "Official legislative record shows passed ordinance 215-26 and mayoral approval.",
+          "quote": "Enactment date: 10/16/2026 Enactment #: 215-26"
+        },
+        {
+          "url": "https://files.sfplanning.org/documents/legislation/2026-008443PCA_Interim_Zoning_Moratorium_Data_Centers.pdf",
+          "title": "Interim Zoning Moratorium for Data Centers",
+          "publisher": "San Francisco Planning Department",
+          "document_date": "",
+          "source_type": "other",
+          "supports": "Planning summary identifies effective date and end date absent extension.",
+          "quote": "Effective Date: October 16, 2026 until November 30, 2026, unless extended"
+        },
+        {
+          "url": "https://sfgov.legistar.com/View.ashx?M=F&ID=16074405&GUID=0D64F8D0-CC14-4381-B478-34110A8F73EE",
+          "title": "Signed final Ordinance 215-26, section 5",
+          "publisher": "San Francisco Board of Supervisors",
+          "document_date": "2026-10-16",
+          "source_type": "ordinance",
+          "supports": "Immediate effect upon enactment; signed final page visually checked for October 16 mayoral approval.",
+          "quote": "This ordinance shall become effective immediately"
+        },
+        {
+          "url": "https://sfgov.legistar.com/View.ashx?M=F&ID=16074405&GUID=0D64F8D0-CC14-4381-B478-34110A8F73EE",
+          "title": "Signed final Ordinance 215-26, clerk certification",
+          "publisher": "San Francisco Board of Supervisors",
+          "document_date": "2026-10-16",
+          "source_type": "ordinance",
+          "supports": "Board passage was October 6, distinct from mayoral approval October 16.",
+          "quote": "File Number: 261021 Date Passed: October 06, 2026"
+        }
+      ],
+      "notes": "Official file shows enactment and approval October 16; planning summary identifies effect through November 30 absent extension. The stable ID is retained. Coordinator retrieved signed final ordinance and visually checked PDF page 9: mayor signature and approval date 10/16/2026, and clerk certification of October 6 passage. Date fields reflect final enactment; distinct Board passage preserved in prose. Original proposal-marker details resolved by final instrument, with a new later-status verification marker retained.",
+      "changes": {
+        "enacted_status": {
+          "from": "pending",
+          "to": "active",
+          "reason": "Official record shows passage and mayoral approval."
+        },
+        "date_enacted": {
+          "from": "",
+          "to": "Board passage October 6, 2026; mayoral approval and enactment October 16, 2026 (Board file 261021, Ordinance 215-26).",
+          "reason": "Board legislative record."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-10-16",
+          "reason": "Official enactment date."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Official enactment date."
+        },
+        "duration": {
+          "from": "Proposed 45-day moratorium; introduced but not adopted as of 2026-09-23",
+          "to": "45 days; effective October 16 through November 30, 2026, unless extended, according to the Planning Department.",
+          "reason": "Official planning summary."
+        },
+        "duration_days": {
+          "from": "",
+          "to": "45",
+          "reason": "Official planning summary."
+        },
+        "duration_kind": {
+          "from": "unknown",
+          "to": "fixed_days",
+          "reason": "45-day temporary moratorium."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2026-11-30",
+          "reason": "Planning summary; conditional on no extension."
+        },
+        "legal_basis": {
+          "from": "Proposed urgency ordinance introduced by Supervisor Shamann Walton (co-sponsors Chan, Fielder, Chen) on 2026-09-14/15",
+          "to": "Urgency Ordinance 215-26, Board File 261021, under Government Code section 65858.",
+          "reason": "Official Board file identifies enacted instrument."
+        },
+        "current_status": {
+          "from": "Pending as of 2026-09-23. Introduced 2026-09-14/15; as of 2026-09-22 press coverage still described it as 'just proposed,' not yet voted on by the Board of Supervisors. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+          "to": "Board passed Ordinance 215-26 on October 6, 2026; the mayor signed approval October 16, triggering immediate effect under section 5. San Francisco Planning identifies a 45-day citywide moratorium effective October 16 through November 30, 2026, unless extended. [VERIFY later extension, replacement or other action; this review establishes enactment and the supported scheduled end, not exhaustive subsequent legal history.]",
+          "reason": "Official legislative record and planning summary resolve the proposal status."
+        }
+      },
+      "new_enacted_status": "active",
+      "confidence": 0.95
+    }
+  ],
+  "new_candidates": []
+}

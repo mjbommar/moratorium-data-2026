@@ -189,6 +189,8 @@ def audit(queue_path,runs):
     for rel in json.loads(visual_registry.read_text()) if visual_registry.exists() else []:
         review=json.loads((ROOT/rel).read_text())
         visual_reviews[review['job_id']][review['claim_id']]=review
+    overlay_registry=pilot/'ballot-discovery/reviewed-inputs.json'
+    overlays=json.loads(overlay_registry.read_text()) if overlay_registry.exists() else {}
     ballot_assignments=seed_assignments(ROOT/'work/research/2026-11-05/ballot-discovery/ballot-seeds.jsonl')
     schemas={name:json.loads((ROOT/'work/schemas'/file).read_text()) for name,file in
              [('inventory','research_decision.schema.json'),('state_policy','legislation_decision.schema.json')]}
@@ -263,6 +265,24 @@ def audit(queue_path,runs):
                         or any(not p['evidence_verified'] for p in proofs))
                 except Exception as e:row['checks'].append('expanded validator: '+type(e).__name__+': '+str(e)[:200])
             else:row['checks'].append('missing expanded ledgers')
+            if job['id'] in overlays:
+                overlay=overlays[job['id']];path=ROOT/overlay['directory']
+                receipt=json.loads((ROOT/overlay['receipt']).read_text())
+                expected=receipt['output_hashes']
+                actual={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in path.glob('*.jsonl')}
+                reviewed={'directory':str(path),'receipt':overlay['receipt']}
+                row['reviewed_candidate_overlay']=reviewed
+                if actual!=expected:reviewed['error']='reviewed overlay hash drift'
+                else:
+                    errors,records=expanded_validate(path,ROOT/'data/moratorium_inventory.csv',ROOT/'data/state_legislation.csv')
+                    source_issues,proofs=audit_expanded_evidence(records,idx,visual_reviews.get(job['id']))
+                    accepted={d['target']['id'] for d in records['review_decisions'].values()
+                              if d['disposition']=='accepted' and d['target']['table']=='claims'}
+                    verified={p['claim_id'] for p in proofs if p['evidence_verified']}
+                    reviewed.update(schema_errors=errors,source_issues=source_issues,
+                        evidence_proofs=proofs,accepted_claim_count=len(accepted),
+                        accepted_claims_without_verified_evidence=sorted(accepted-verified),
+                        scope='Source assertion/transcription reviews only; no legal acceptance or canonical promotion.')
         jobs.append(row)
     return {'observed_at':dt.datetime.now(dt.timezone.utc).isoformat(),'queue':str(queue_path),
             'job_states':dict(Counter(x['cli_state'] for x in jobs)),

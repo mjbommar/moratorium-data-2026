@@ -122,6 +122,10 @@ page and rendering parameters. `visual_claim_review.py` rehashes the retained PD
 and reproduces the approved page-image hash. This verifies the reviewed rendering
 chain, not the reviewer judgement, election certification or legal effect. The
 return audit reports visual verification separately from located text evidence.
+Reviewed overlays are audited separately from unmodified worker returns. Each
+overlay must match its receipt's output hashes; accepted claim decisions are
+checked against verified evidence. An accepted result transcription does not
+accept the measure's bindingness or legal implementation.
 
 ## Dates and limitations
 

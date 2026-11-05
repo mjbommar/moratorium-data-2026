@@ -1,0 +1,605 @@
+{
+  "reviewed_at": "2026-11-05T18:18:45.819936+00:00",
+  "reviewer": "coordinator",
+  "source_job": "recovery-ballot-me-001",
+  "input_hashes": {
+    "ballot_measures.jsonl": "79540d6914e9a7b3689db87a5eb466c251fd4ee88425033a7151c52457504552",
+    "claims.jsonl": "0ea8ec862b4b8016b912d172bd26bdc7d21c1a886e72de64a30fa216751c140f",
+    "elections.jsonl": "f532e859fbe7f1068edf1d47c27ac044373520d564fad923d7d04f4d66c02486",
+    "jurisdictions.jsonl": "f6a891ccf36415ec1704c9fb1b368881b4bffae079e815d96dff8340164ade4d",
+    "measure_provisions.jsonl": "2ed2955f72ef126e13d46baa5f17e156edf803b871d2116723d085d1db8b42bf",
+    "measure_results.jsonl": "316dd19c9a562ddd6582cfbf2c452cd5d8698ceff29dec3652d993790e6ae241",
+    "source_documents.jsonl": "29f35f95c52b66e05f3d1eb1cc0b7bcd00cc74a1d70ed54c85f46e4efbc660c1"
+  },
+  "output_hashes": {
+    "ballot_measures.jsonl": "79540d6914e9a7b3689db87a5eb466c251fd4ee88425033a7151c52457504552",
+    "claims.jsonl": "5850df4af927e4ba57816192fc6438404ee6e15b133c406e5859ff7d5d41f15a",
+    "elections.jsonl": "f532e859fbe7f1068edf1d47c27ac044373520d564fad923d7d04f4d66c02486",
+    "jurisdictions.jsonl": "f6a891ccf36415ec1704c9fb1b368881b4bffae079e815d96dff8340164ade4d",
+    "measure_provisions.jsonl": "2ed2955f72ef126e13d46baa5f17e156edf803b871d2116723d085d1db8b42bf",
+    "measure_results.jsonl": "26968289e2693f8eb88752acbd295e715fd80985b11424ec4a1edd25bc298060",
+    "review_decisions.jsonl": "6d01dcb90ea3bfefb2287fb68a9a7b6e1ee96941234b383665ccf001e32690aa",
+    "source_documents.jsonl": "29f35f95c52b66e05f3d1eb1cc0b7bcd00cc74a1d70ed54c85f46e4efbc660c1"
+  },
+  "changes": [
+    {
+      "table": "claims",
+      "id": "claim-9",
+      "before": {
+        "schema_version": "1.0.0",
+        "claim_id": "claim-9",
+        "subject": {
+          "table": "measure_results",
+          "id": "result-eliot"
+        },
+        "predicate": "reported_outcome",
+        "value": "approved",
+        "source_document_id": "src-e8192b04fffb478ab2178611a402dae8",
+        "quote": null,
+        "span": "paragraphs 1-4 and Sabattus paragraph",
+        "temporal_support": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown",
+          "original_text": null
+        },
+        "extraction_provenance": "text; news source reports approval, not legal effect"
+      },
+      "after": {
+        "schema_version": "1.0.0",
+        "claim_id": "claim-9",
+        "subject": {
+          "table": "measure_results",
+          "id": "result-eliot"
+        },
+        "predicate": "reported_outcome",
+        "value": "approved",
+        "source_document_id": "src-e8192b04fffb478ab2178611a402dae8",
+        "quote": "More than 76% backed moratoriums in Eliot",
+        "span": "Unicode text offsets [661,702) in retained SHA256 9f95d3dec77ff8d09ea3ba085e6215bffb7a9804965ba1b205744b8cbbeac39c",
+        "temporal_support": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown",
+          "original_text": null
+        },
+        "extraction_provenance": "Coordinator located secondary source report of approval; does not establish legal implementation."
+      }
+    },
+    {
+      "table": "claims",
+      "id": "claim-19",
+      "before": {
+        "schema_version": "1.0.0",
+        "claim_id": "claim-19",
+        "subject": {
+          "table": "measure_results",
+          "id": "result-sabattus"
+        },
+        "predicate": "reported_outcome",
+        "value": "approved",
+        "source_document_id": "src-e8192b04fffb478ab2178611a402dae8",
+        "quote": null,
+        "span": "paragraphs 1-4 and Sabattus paragraph",
+        "temporal_support": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown",
+          "original_text": null
+        },
+        "extraction_provenance": "text; news source reports approval, not legal effect"
+      },
+      "after": {
+        "schema_version": "1.0.0",
+        "claim_id": "claim-19",
+        "subject": {
+          "table": "measure_results",
+          "id": "result-sabattus"
+        },
+        "predicate": "reported_outcome",
+        "value": "approved",
+        "source_document_id": "src-e8192b04fffb478ab2178611a402dae8",
+        "quote": "In Sabattus, the proposal to ban data centers for 180 days also passed",
+        "span": "Unicode text offsets [1282,1352) in retained SHA256 9f95d3dec77ff8d09ea3ba085e6215bffb7a9804965ba1b205744b8cbbeac39c",
+        "temporal_support": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown",
+          "original_text": null
+        },
+        "extraction_provenance": "Coordinator located secondary source report of approval; does not establish legal implementation."
+      }
+    },
+    {
+      "table": "claims",
+      "id": "coordinator-eliot-certification",
+      "before": null,
+      "after": {
+        "schema_version": "1.0.0",
+        "claim_id": "coordinator-eliot-certification",
+        "subject": {
+          "table": "measure_results",
+          "id": "result-eliot"
+        },
+        "predicate": "certification",
+        "value": {
+          "certification_status": "certified",
+          "certification_date": "2026-11-03"
+        },
+        "source_document_id": "src-6854cef93a76432f899c373f09854336",
+        "quote": null,
+        "span": "PDF page 3: certification statement, signature and date",
+        "temporal_support": {
+          "earliest": "2026-11-03",
+          "latest": "2026-11-03",
+          "precision": "day",
+          "original_text": "2026-11-03"
+        },
+        "extraction_provenance": "Coordinator visually reviewed independently rendered retained PDF. Source certification statement, not independent legal-effect acceptance."
+      }
+    },
+    {
+      "table": "claims",
+      "id": "coordinator-sabattus-certification",
+      "before": null,
+      "after": {
+        "schema_version": "1.0.0",
+        "claim_id": "coordinator-sabattus-certification",
+        "subject": {
+          "table": "measure_results",
+          "id": "result-sabattus"
+        },
+        "predicate": "certification",
+        "value": {
+          "certification_status": "certified",
+          "certification_date": "2026-11-04"
+        },
+        "source_document_id": "src-1c79af5ac79343b89bd71fa5f1dadf45",
+        "quote": null,
+        "span": "PDF page 1: certification statement, signature and date",
+        "temporal_support": {
+          "earliest": "2026-11-04",
+          "latest": "2026-11-04",
+          "precision": "day",
+          "original_text": "2026-11-04"
+        },
+        "extraction_provenance": "Coordinator visually reviewed independently rendered retained PDF. Source certification statement, not independent legal-effect acceptance."
+      }
+    },
+    {
+      "table": "measure_results",
+      "id": "result-eliot",
+      "before": {
+        "schema_version": "1.0.0",
+        "result_observation_id": "result-eliot",
+        "measure_id": "lead-c1e9a2d7a5b6b4384cf0",
+        "source_document_id": "src-6854cef93a76432f899c373f09854336",
+        "observed_at": "2026-11-05T17:55:02.568614Z",
+        "yes_votes": 2965,
+        "no_votes": 909,
+        "other_votes": null,
+        "valid_votes": null,
+        "ballots_cast": 4057,
+        "registered_voters": null,
+        "undervotes": null,
+        "overvotes": null,
+        "precincts_reporting": null,
+        "precincts_total": null,
+        "source_yes_percent": null,
+        "percentage_denominator": "unknown",
+        "passage_threshold": null,
+        "threshold_comparison": "unknown",
+        "reported_outcome": "approved",
+        "calculated_outcome": "unknown",
+        "outcome_direction": "restricts",
+        "outcome_direction_basis": "reported",
+        "reporting_status": "unknown",
+        "certification_status": "certified",
+        "certification_date": "2026-11-03",
+        "supersedes_id": null,
+        "blank_votes": 183,
+        "yes_no_votes": 3874,
+        "value_methods": {
+          "yes_votes": {
+            "method": "visual",
+            "claim_ids": [
+              "claim-8"
+            ],
+            "note": null
+          },
+          "no_votes": {
+            "method": "visual",
+            "claim_ids": [
+              "claim-8"
+            ],
+            "note": null
+          },
+          "reported_outcome": {
+            "method": "source_reported",
+            "claim_ids": [
+              "claim-9"
+            ],
+            "note": "Newspaper reports approval; no passage rule determined."
+          }
+        }
+      },
+      "after": {
+        "schema_version": "1.0.0",
+        "result_observation_id": "result-eliot",
+        "measure_id": "lead-c1e9a2d7a5b6b4384cf0",
+        "source_document_id": "src-6854cef93a76432f899c373f09854336",
+        "observed_at": "2026-11-05T17:55:02.568614Z",
+        "yes_votes": 2965,
+        "no_votes": 909,
+        "other_votes": null,
+        "valid_votes": null,
+        "ballots_cast": 4057,
+        "registered_voters": null,
+        "undervotes": null,
+        "overvotes": null,
+        "precincts_reporting": null,
+        "precincts_total": null,
+        "source_yes_percent": null,
+        "percentage_denominator": "unknown",
+        "passage_threshold": null,
+        "threshold_comparison": "unknown",
+        "reported_outcome": "approved",
+        "calculated_outcome": "unknown",
+        "outcome_direction": "restricts",
+        "outcome_direction_basis": "reported",
+        "reporting_status": "unknown",
+        "certification_status": "certified",
+        "certification_date": "2026-11-03",
+        "supersedes_id": null,
+        "blank_votes": 183,
+        "yes_no_votes": 3874,
+        "value_methods": {
+          "yes_votes": {
+            "method": "visual",
+            "claim_ids": [
+              "claim-8"
+            ],
+            "note": null
+          },
+          "no_votes": {
+            "method": "visual",
+            "claim_ids": [
+              "claim-8"
+            ],
+            "note": null
+          },
+          "reported_outcome": {
+            "method": "source_reported",
+            "claim_ids": [
+              "claim-9"
+            ],
+            "note": "Newspaper reports approval; no passage rule determined."
+          },
+          "certification_status": {
+            "method": "visual",
+            "claim_ids": [
+              "coordinator-eliot-certification"
+            ],
+            "note": "Signed source certification and date visually reviewed; operative ordinance remains unresolved."
+          },
+          "certification_date": {
+            "method": "visual",
+            "claim_ids": [
+              "coordinator-eliot-certification"
+            ],
+            "note": "Signed source certification and date visually reviewed; operative ordinance remains unresolved."
+          },
+          "blank_votes": {
+            "method": "visual",
+            "claim_ids": [
+              "claim-8"
+            ],
+            "note": "Source records this separately from yes/no votes."
+          },
+          "ballots_cast": {
+            "method": "visual",
+            "claim_ids": [
+              "claim-8"
+            ],
+            "note": "Source records this separately from yes/no votes."
+          },
+          "yes_no_votes": {
+            "method": "derived",
+            "claim_ids": [
+              "claim-8"
+            ],
+            "note": "Yes plus No; does not include blank votes or establish turnout."
+          }
+        }
+      }
+    },
+    {
+      "table": "measure_results",
+      "id": "result-sabattus",
+      "before": {
+        "schema_version": "1.0.0",
+        "result_observation_id": "result-sabattus",
+        "measure_id": "lead-217612cd4c82afc1ce43",
+        "source_document_id": "src-1c79af5ac79343b89bd71fa5f1dadf45",
+        "observed_at": "2026-11-05T17:55:00.849487Z",
+        "yes_votes": 1565,
+        "no_votes": 791,
+        "other_votes": null,
+        "valid_votes": null,
+        "ballots_cast": null,
+        "registered_voters": null,
+        "undervotes": null,
+        "overvotes": null,
+        "precincts_reporting": null,
+        "precincts_total": null,
+        "source_yes_percent": null,
+        "percentage_denominator": "unknown",
+        "passage_threshold": null,
+        "threshold_comparison": "unknown",
+        "reported_outcome": "approved",
+        "calculated_outcome": "unknown",
+        "outcome_direction": "restricts",
+        "outcome_direction_basis": "reported",
+        "reporting_status": "unknown",
+        "certification_status": "certified",
+        "certification_date": "2026-11-04",
+        "supersedes_id": null,
+        "blank_votes": null,
+        "yes_no_votes": 2356,
+        "value_methods": {
+          "yes_votes": {
+            "method": "visual",
+            "claim_ids": [
+              "claim-18"
+            ],
+            "note": null
+          },
+          "no_votes": {
+            "method": "visual",
+            "claim_ids": [
+              "claim-18"
+            ],
+            "note": null
+          },
+          "reported_outcome": {
+            "method": "source_reported",
+            "claim_ids": [
+              "claim-19"
+            ],
+            "note": "Newspaper reports approval; no passage rule determined."
+          }
+        }
+      },
+      "after": {
+        "schema_version": "1.0.0",
+        "result_observation_id": "result-sabattus",
+        "measure_id": "lead-217612cd4c82afc1ce43",
+        "source_document_id": "src-1c79af5ac79343b89bd71fa5f1dadf45",
+        "observed_at": "2026-11-05T17:55:00.849487Z",
+        "yes_votes": 1565,
+        "no_votes": 791,
+        "other_votes": null,
+        "valid_votes": null,
+        "ballots_cast": null,
+        "registered_voters": null,
+        "undervotes": null,
+        "overvotes": null,
+        "precincts_reporting": null,
+        "precincts_total": null,
+        "source_yes_percent": null,
+        "percentage_denominator": "unknown",
+        "passage_threshold": null,
+        "threshold_comparison": "unknown",
+        "reported_outcome": "approved",
+        "calculated_outcome": "unknown",
+        "outcome_direction": "restricts",
+        "outcome_direction_basis": "reported",
+        "reporting_status": "unknown",
+        "certification_status": "certified",
+        "certification_date": "2026-11-04",
+        "supersedes_id": null,
+        "blank_votes": null,
+        "yes_no_votes": 2356,
+        "value_methods": {
+          "yes_votes": {
+            "method": "visual",
+            "claim_ids": [
+              "claim-18"
+            ],
+            "note": null
+          },
+          "no_votes": {
+            "method": "visual",
+            "claim_ids": [
+              "claim-18"
+            ],
+            "note": null
+          },
+          "reported_outcome": {
+            "method": "source_reported",
+            "claim_ids": [
+              "claim-19"
+            ],
+            "note": "Newspaper reports approval; no passage rule determined."
+          },
+          "certification_status": {
+            "method": "visual",
+            "claim_ids": [
+              "coordinator-sabattus-certification"
+            ],
+            "note": "Signed source certification and date visually reviewed; operative ordinance remains unresolved."
+          },
+          "certification_date": {
+            "method": "visual",
+            "claim_ids": [
+              "coordinator-sabattus-certification"
+            ],
+            "note": "Signed source certification and date visually reviewed; operative ordinance remains unresolved."
+          },
+          "blank_votes": {
+            "method": "unknown",
+            "claim_ids": [],
+            "note": "Not reported; not inferred as zero."
+          },
+          "ballots_cast": {
+            "method": "unknown",
+            "claim_ids": [],
+            "note": "Not reported; not inferred as zero."
+          },
+          "yes_no_votes": {
+            "method": "derived",
+            "claim_ids": [
+              "claim-18"
+            ],
+            "note": "Yes plus No; does not include blank votes or establish turnout."
+          }
+        }
+      }
+    },
+    {
+      "table": "review_decisions",
+      "id": "coordinator-review-claim-8",
+      "before": null,
+      "after": {
+        "schema_version": "1.0.0",
+        "disposition": "accepted",
+        "reviewer": "coordinator",
+        "method": "scoped source review",
+        "decided_at": "2026-11-05T18:18:45.819936+00:00",
+        "supersedes_id": null,
+        "decision_id": "coordinator-review-claim-8",
+        "target": {
+          "table": "claims",
+          "id": "claim-8"
+        },
+        "scope": "vote_counts",
+        "claim_ids": [
+          "claim-8"
+        ],
+        "rationale": "Reviewed source transcription/assertion only; no acceptance of moratorium legal effect, operative dates or instrument relationship."
+      }
+    },
+    {
+      "table": "review_decisions",
+      "id": "coordinator-review-coordinator-eliot-certification",
+      "before": null,
+      "after": {
+        "schema_version": "1.0.0",
+        "disposition": "accepted",
+        "reviewer": "coordinator",
+        "method": "scoped source review",
+        "decided_at": "2026-11-05T18:18:45.819936+00:00",
+        "supersedes_id": null,
+        "decision_id": "coordinator-review-coordinator-eliot-certification",
+        "target": {
+          "table": "claims",
+          "id": "coordinator-eliot-certification"
+        },
+        "scope": "certification",
+        "claim_ids": [
+          "coordinator-eliot-certification"
+        ],
+        "rationale": "Reviewed source transcription/assertion only; no acceptance of moratorium legal effect, operative dates or instrument relationship."
+      }
+    },
+    {
+      "table": "review_decisions",
+      "id": "coordinator-review-claim-9",
+      "before": null,
+      "after": {
+        "schema_version": "1.0.0",
+        "disposition": "accepted",
+        "reviewer": "coordinator",
+        "method": "scoped source review",
+        "decided_at": "2026-11-05T18:18:45.819936+00:00",
+        "supersedes_id": null,
+        "decision_id": "coordinator-review-claim-9",
+        "target": {
+          "table": "claims",
+          "id": "claim-9"
+        },
+        "scope": "reported_outcome",
+        "claim_ids": [
+          "claim-9"
+        ],
+        "rationale": "Reviewed source transcription/assertion only; no acceptance of moratorium legal effect, operative dates or instrument relationship."
+      }
+    },
+    {
+      "table": "review_decisions",
+      "id": "coordinator-review-claim-18",
+      "before": null,
+      "after": {
+        "schema_version": "1.0.0",
+        "disposition": "accepted",
+        "reviewer": "coordinator",
+        "method": "scoped source review",
+        "decided_at": "2026-11-05T18:18:45.819936+00:00",
+        "supersedes_id": null,
+        "decision_id": "coordinator-review-claim-18",
+        "target": {
+          "table": "claims",
+          "id": "claim-18"
+        },
+        "scope": "vote_counts",
+        "claim_ids": [
+          "claim-18"
+        ],
+        "rationale": "Reviewed source transcription/assertion only; no acceptance of moratorium legal effect, operative dates or instrument relationship."
+      }
+    },
+    {
+      "table": "review_decisions",
+      "id": "coordinator-review-coordinator-sabattus-certification",
+      "before": null,
+      "after": {
+        "schema_version": "1.0.0",
+        "disposition": "accepted",
+        "reviewer": "coordinator",
+        "method": "scoped source review",
+        "decided_at": "2026-11-05T18:18:45.819936+00:00",
+        "supersedes_id": null,
+        "decision_id": "coordinator-review-coordinator-sabattus-certification",
+        "target": {
+          "table": "claims",
+          "id": "coordinator-sabattus-certification"
+        },
+        "scope": "certification",
+        "claim_ids": [
+          "coordinator-sabattus-certification"
+        ],
+        "rationale": "Reviewed source transcription/assertion only; no acceptance of moratorium legal effect, operative dates or instrument relationship."
+      }
+    },
+    {
+      "table": "review_decisions",
+      "id": "coordinator-review-claim-19",
+      "before": null,
+      "after": {
+        "schema_version": "1.0.0",
+        "disposition": "accepted",
+        "reviewer": "coordinator",
+        "method": "scoped source review",
+        "decided_at": "2026-11-05T18:18:45.819936+00:00",
+        "supersedes_id": null,
+        "decision_id": "coordinator-review-claim-19",
+        "target": {
+          "table": "claims",
+          "id": "claim-19"
+        },
+        "scope": "reported_outcome",
+        "claim_ids": [
+          "claim-19"
+        ],
+        "rationale": "Reviewed source transcription/assertion only; no acceptance of moratorium legal effect, operative dates or instrument relationship."
+      }
+    }
+  ],
+  "visual_review_receipts": [
+    "work/audit/eliot-claim-8-visual-review-2026-11-05.json",
+    "work/audit/eliot-coordinator-eliot-certification-visual-review-2026-11-05.json",
+    "work/audit/sabattus-claim-18-visual-review-2026-11-05.json",
+    "work/audit/sabattus-coordinator-sabattus-certification-visual-review-2026-11-05.json"
+  ],
+  "scope": "Six accepted source-transcription/reporting claims for two result observations; candidate overlay only. No canonical measure IDs, instrument creation, accepted legal links or current-force assertion. Original worker bytes preserved."
+}

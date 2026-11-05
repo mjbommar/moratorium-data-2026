@@ -1,11 +1,11 @@
 {
-  "observed_at": "2026-11-05T18:08:16.672585+00:00",
+  "observed_at": "2026-11-05T18:19:46.149246+00:00",
   "queue": "work/jobs/2026-11-05-recovery/complete-queue-v3.json",
   "job_states": {
-    "finished": 56,
+    "finished": 65,
     "running": 3
   },
-  "not_started_jobs": 274,
+  "not_started_jobs": 265,
   "scope": "Mechanical pre-review only. No source authority, legal-effect, field-support or substantive acceptance asserted.",
   "reusable_evidence_issues": [],
   "jobs": [
@@ -57,8 +57,16 @@
       "integrity_issue_count": 0,
       "unmatched_source_version_count": 0,
       "unlocated_text_claim_count": 19,
-      "verified_visual_claim_count": 0,
-      "unverified_claim_count": 19
+      "verified_visual_claim_count": 2,
+      "unverified_claim_count": 17,
+      "reviewed_candidate_overlay": {
+        "receipt": "work/audit/maine-certified-returns-review-2026-11-05.json",
+        "accepted_claim_count": 6,
+        "accepted_claims_without_verified_evidence": [],
+        "scope": "Source assertion/transcription reviews only; no legal acceptance or canonical promotion.",
+        "schema_error_count": 0,
+        "source_issue_count": 0
+      }
     },
     {
       "job_id": "ballot-ar-001",
@@ -279,7 +287,15 @@
       "unmatched_source_version_count": 0,
       "unlocated_text_claim_count": 0,
       "verified_visual_claim_count": 0,
-      "unverified_claim_count": 0
+      "unverified_claim_count": 0,
+      "reviewed_candidate_overlay": {
+        "receipt": "work/audit/ohio-outcome-basis-review-2026-11-05.json",
+        "accepted_claim_count": 0,
+        "accepted_claims_without_verified_evidence": [],
+        "scope": "Source assertion/transcription reviews only; no legal acceptance or canonical promotion.",
+        "schema_error_count": 0,
+        "source_issue_count": 0
+      }
     },
     {
       "job_id": "ballot-oh-002",
@@ -660,7 +676,7 @@
     },
     {
       "job_id": "discovery-mt",
-      "cli_state": "running",
+      "cli_state": "finished",
       "checks": [],
       "schema_error_count": 0,
       "integrity_issue_count": 0,
@@ -671,7 +687,7 @@
     },
     {
       "job_id": "discovery-nc",
-      "cli_state": "running",
+      "cli_state": "finished",
       "checks": [],
       "schema_error_count": 0,
       "integrity_issue_count": 0,
@@ -682,6 +698,105 @@
     },
     {
       "job_id": "discovery-nd",
+      "cli_state": "finished",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_text_claim_count": 0,
+      "verified_visual_claim_count": 0,
+      "unverified_claim_count": 0
+    },
+    {
+      "job_id": "discovery-ne",
+      "cli_state": "finished",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_text_claim_count": 0,
+      "verified_visual_claim_count": 0,
+      "unverified_claim_count": 0
+    },
+    {
+      "job_id": "discovery-nh",
+      "cli_state": "finished",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_text_claim_count": 0,
+      "verified_visual_claim_count": 0,
+      "unverified_claim_count": 0
+    },
+    {
+      "job_id": "discovery-nj",
+      "cli_state": "finished",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_text_claim_count": 0,
+      "verified_visual_claim_count": 0,
+      "unverified_claim_count": 0
+    },
+    {
+      "job_id": "discovery-nm",
+      "cli_state": "finished",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_text_claim_count": 0,
+      "verified_visual_claim_count": 0,
+      "unverified_claim_count": 0
+    },
+    {
+      "job_id": "discovery-nv",
+      "cli_state": "finished",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_text_claim_count": 0,
+      "verified_visual_claim_count": 0,
+      "unverified_claim_count": 0
+    },
+    {
+      "job_id": "discovery-ny",
+      "cli_state": "finished",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_text_claim_count": 0,
+      "verified_visual_claim_count": 0,
+      "unverified_claim_count": 0
+    },
+    {
+      "job_id": "discovery-oh",
+      "cli_state": "running",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_text_claim_count": 0,
+      "verified_visual_claim_count": 0,
+      "unverified_claim_count": 0
+    },
+    {
+      "job_id": "discovery-ok",
+      "cli_state": "running",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_text_claim_count": 0,
+      "verified_visual_claim_count": 0,
+      "unverified_claim_count": 0
+    },
+    {
+      "job_id": "discovery-or",
       "cli_state": "running",
       "checks": [],
       "schema_error_count": 0,

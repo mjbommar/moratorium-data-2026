@@ -1,5 +1,12 @@
 # Combined ballot census review snapshot
 
+`current-snapshot.json` points to v2. Its manifest is `v2-manifest.json`; the
+original `manifest.json` remains the v1 receipt. V2 adds six scoped source reviews
+for Eliot and Sabattus result counts, signed certification dates and reported
+approval. The complete v2 payload is private at the path in the pointer. These
+reviews accept source assertions/transcriptions, not operative moratorium dates
+or measure-to-instrument links. Logical groups are unchanged.
+
 This combines all 22 terminal ballot jobs: the original 50 discovery seeds plus
 eight omission leads. It preserves 58 measure-observation records in 56 logical
 seed groups. Two Illinois recovery observations describe the same township
