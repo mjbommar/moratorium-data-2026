@@ -32,13 +32,15 @@ Indiana source review identifies Boone Ordinance 2026-08 and Dearborn Ordinance 
 
 Kansas source review corrects thirteen records, including Lawrence's July 21 final reading, Marysville's news-qualified September 14 adoption, Allen County's January 14, 2025 adoption, covered-use definitions and calendar terms. Riley's current county page reports May 14, 2027, but bounded native-domain Exa and bc-web/pydoll follow-up did not establish an extension instrument; its active classification is retained provisionally. Dickinson's category review dates and overall 2029 force clause remain unresolved, so its single 2027 endpoint is removed. Later legal-force gaps remain flagged.
 
+Kentucky review updates fourteen records. Lexington's official October 8 extension runs through October 31, 2027, correcting both stale status and a worker date-field typo. Breckinridge's signed adoption is December 15, 2025; Cave City's minutes give May 20, 2026; Jessamine's unsupported August 4 date is cleared. Oldham's October 6 regulations vote is recorded without inferring the prior moratorium's termination. Scott's extension remains news-qualified, and publication, final-text, litigation and later-action gaps remain flagged.
+
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1293** |
 | In force (active or extended) | **1067** |
 | Proposed, not yet voted on | **73** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **347** |
+| Rows we still want to confirm (`[VERIFY]`) | **354** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
