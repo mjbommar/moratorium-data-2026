@@ -31,7 +31,7 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 | Miami County | County | 2026-05-04 | data center | ⚪ Replaced |
 | New Albany (Floyd County) | City | 2026-07-16 | data center | 🟢 Active |
 | Owen County | County | Unverified | data center | 🟡 Pending |
-| Pulaski County | County | 2026-01-20 | data center | 🟢 Active |
+| Pulaski County | County | 2026-02-02 | data center | 🟢 Active |
 | Putnam County | County | 2025-11-17 | data center, solar, wind | 🟢 Active |
 | Shelby County | County | 2026-02-23 | data center | ⚪ Replaced |
 | Starke County | County | 2025-12-15 | data center | 🟢 Active |
@@ -71,10 +71,10 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `in-boone-county-2026`
-- **Legal basis:** Board of Commissioners ordinance adopting a one-year moratorium, following the Area Plan Commission's 6-0 recommendation (first made 2026-05-06, reaffirmed after a 2026-06-03 public hearing); ordinance file not linked or located in sources reviewed
+- **Legal basis:** Boone County Board of Commissioners Ordinance 2026-08, approved 3-0 on June 15, 2026, after Area Plan Commission recommendations.
 - **What prompted it:** Pause new data center development in unincorporated areas while the county reviews its comprehensive plan and zoning rules
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; existing facilities are unaffected per the official county release.
+- **Detailed status:** June 15, 2026 commissioners minutes record approval of Ordinance 2026-08, 3-0. [VERIFY: executed ordinance, full exemptions, effective/end dates and subsequent actions/current legal force.]
 - **Outcome:** Board of Commissioners unanimously adopted a one-year moratorium on new data center development, pausing filing, processing, review, and acceptance of applications in unincorporated areas.
 
 ### Clark County
@@ -83,14 +83,14 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** Late August 2026 (Thursday meeting; article published Aug. 31, 2026)
 - **Normalized date:** `2026-08-27` (exact)
-- **Duration:** One year
-- **Current end date:** `—`
+- **Duration:** Twelve calendar months from August 27, 2026 to August 27, 2027, unless earlier terminated or superseded by a UDO amendment regulating data centers.
+- **Current end date:** `2027-08-27`
 - **Sectors:** data center
 - **Moratorium ID:** `in-clark-county-2026`
 - **Legal basis:** Ordinance approved by the Clark County Commissioners (unincorporated county); ordinance number not confirmed
 - **What prompted it:** Plan Commission recommendation to study zoning impact of data centers
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium on data center construction in unincorporated Clark County, unanimously approved by the Commissioners following a Plan Commission recommendation. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Detailed status:** The county UDO amended August 27, 2026 describes a data-center application pause in unincorporated Clark County and the Town of Borden, with a scheduled August 27, 2027 end unless earlier terminated or superseded. Complete applications already on file and vested rights are excepted. [VERIFY: adopting instrument number and later actions/current legal force.]
 - **Outcome:** Adopted
 
 ### Dearborn County
@@ -103,10 +103,10 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** solar, battery storage, data center
 - **Moratorium ID:** `in-dearborn-county-2026`
-- **Legal basis:** Board of Commissioners action on Plan Commission recommendation, effective 2026-02-25; ordinance or resolution number not captured in publicly accessible Dearborn County records (CivicClerk portal renders client-side) as of 2026-04-29
+- **Legal basis:** Dearborn County Commissioners Ordinance 2026-004, approved February 24, 2026 on the Plan Commission recommendation; minutes describe a moratorium not to exceed one year.
 - **What prompted it:** Resident opposition to possible commercial solar projects and need to review zoning rules for commercial solar, battery storage, and data centers
 - **Affected projects:** No data center application identified; Linea Energy solar proposal in Manchester Township was part of broader context
-- **Detailed status:** Active
+- **Detailed status:** February 24, 2026 commissioners minutes record approval of Ordinance 2026-004 and describe a strategic moratorium not exceeding one year, referring to commercial solar and data centers. [VERIFY: final operative text, baseline battery-storage coverage, effective/end dates and subsequent actions/current legal force.]
 - **Outcome:** County to collect feedback and consider zoning changes
 
 ### DeKalb County
@@ -340,13 +340,13 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Date enacted:** 2026-05-26 (Town Council vote 7-0); effective 2026-06-01
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** One year, June 1, 2026 through May 31, 2027
-- **Current end date:** `—`
+- **Current end date:** `2027-05-31`
 - **Sectors:** data center
 - **Moratorium ID:** `in-merrillville-lake-county-2026`
 - **Legal basis:** Town Council vote (7-0) imposing a one-year moratorium on data center project approvals; ordinance or resolution number not captured in sources reviewed
 - **What prompted it:** Allow study of hyperscale data center impacts before long-term decisions
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; effective June 1, 2026 through May 31, 2027 per the town's official data-center information page and official meeting minutes.
+- **Detailed status:** The town data-center page describes the moratorium as effective June 1, 2026 through May 31, 2027. [VERIFY: complete executed instrument, any earlier-ending provisions and subsequent actions/current legal force; adoption vote not independently rechecked.]
 - **Outcome:** Town Council voted 7-0 to impose a one-year moratorium on data center project approvals; the town also held a June 11, 2026 educational meeting.
 
 ### Miami County
@@ -401,16 +401,16 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 
 - **Type:** County
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-01-20 (commissioner voice vote); effective 2026-01-26
-- **Normalized date:** `2026-01-20` (exact)
+- **Date enacted:** 2026-02-02 (commissioner vote reported by Pulaski County Journal; effective date unverified)
+- **Normalized date:** `2026-02-02` (exact)
 - **Duration:** 12 months
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `in-pulaski-county-2026`
-- **Legal basis:** Moratorium adopted by commissioner voice vote on 2026-01-20 after a 5-0 favorable recommendation from the Plan Commission at its 2026-01-26 hearing; signed ordinance or resolution number not captured in publicly available Pulaski County records as of 2026-04-29
+- **Legal basis:** Commissioners approved a 12-month data center moratorium on 2026-02-02 following the Plan Commission recommendation on 2026-01-26, according to Pulaski County Journal; signed instrument and effective date not obtained
 - **What prompted it:** No data center ordinance in county code; desire to draft language on setbacks, size tiers, lighting, noise, decommissioning, water use, and public safety before applications arrive
 - **Affected projects:** No active application confirmed; no MW/GW affected
-- **Detailed status:** Active
+- **Detailed status:** Pulaski County Journal reports unanimous commissioner approval of a twelve-month data-center moratorium on February 2, 2026, following a January 26 planning recommendation. This corrects the internally inconsistent prior January vote chronology. [VERIFY: adopted instrument, effective date, term anchor and subsequent actions/current legal force; adoption date remains news-qualified and the full story is paywalled.]
 - **Outcome:** APC and county staff expected to prepare UDO amendments
 
 ### Putnam County
@@ -435,14 +435,14 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Status:** ⚪ Replaced
 - **Date enacted:** 2026-02-23
 - **Normalized date:** `2026-02-23` (exact)
-- **Duration:** 6 months
+- **Duration:** Until the earlier of the effective date of a local ordinance governing Qualified Data Center developments or August 23, 2026
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `in-shelby-county-2026`
 - **Legal basis:** Resolution 2026-02
 - **What prompted it:** County desire to create a local ordinance and advisory group before accepting qualified data center applications
 - **Affected projects:** County pause on qualified data center applications; separate City of Shelbyville-Prologis project proceeded through city annexation and rezoning
-- **Detailed status:** Replaced as of 2026-09-23. The temporary moratorium (Resolution 2026-02) ran through 2026-08-22. Before it lapsed without a permanent ordinance, the Shelby County Plan Commission issued a final favorable recommendation on the Data Center Overlay Text District Amendment on 2026-08-13, and the Board of Commissioners unanimously (3-0) adopted the permanent ordinance -- Ordinance 2026-17, creating a data center overlay district within the county's Unified Development Ordinance -- on 2026-08-24. The permanent ordinance applies to unincorporated Shelby County and does not affect the separate City of Shelbyville-Prologis project.
+- **Detailed status:** Resolution 2026-02 specifies an end at the earlier of a governing data-center ordinance taking effect or August 23, 2026, correcting the baseline August 22 date. The prior inventory separately reported adoption of permanent Ordinance 2026-17 on August 24; that later act was not reverified here. [VERIFY: actual termination, intervening extension, permanent ordinance and later actions; replaced classification retained provisionally.]
 - **Outcome:** Board of Commissioners unanimously (3-0) adopted Ordinance 2026-17 on 2026-08-24, creating a permanent Data Center Overlay Text Amendment to the county's Unified Development Ordinance, after three rounds of Ordinance Review Committee review and three rounds of Plan Commission review.
 
 ### Starke County
@@ -506,7 +506,7 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Legal basis:** Ordinance No. 2025-20-CM (codified as Tippecanoe County Code Ch. 164)
 - **What prompted it:** Impact of large-scale ground-mounted solar on drainage, agricultural capacity, and decommissioning adequacy
 - **Affected projects:** —
-- **Detailed status:** Expired 2026-06-15; one-year moratorium on large-scale (10+ acre) ground-mounted solar energy systems in unincorporated Tippecanoe County. No extension or replacement ordinance found as of 2026-09-23; the moratorium text remains codified at Ch. 164 but its stated term has lapsed.
+- **Detailed status:** Codified original text specifies June 16, 2025 through June 15, 2026 for the covered solar moratorium. [VERIFY: any extension, replacement or other later action; expired classification retained provisionally, not newly confirmed by codification alone.]
 - **Outcome:** Term lapsed; not renewed as of research date
 
 ### Valparaiso (Porter County)
@@ -531,14 +531,14 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-08-31 (Board of Commissioners unanimous 3-0 vote, described as "last Monday" in a Sept. 9, 2026 report)
 - **Normalized date:** `2026-08-31` (exact)
-- **Duration:** In effect until the Wabash County Zoning Ordinance is amended to address data centers, or for 18 months from adoption (through approx. 2028-02-29), whichever occurs sooner
+- **Duration:** Until a zoning amendment regulates data centers or eighteen calendar months from adoption, whichever occurs sooner. Section 3 makes county effectiveness upon adoption and effectiveness in LaFontaine, Lagro and Roann conditional on adoption by their legislative bodies. [VERIFY: town adoptions and later actions; no guessed February 2028 endpoint.]
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `in-wabash-county-2026`
 - **Legal basis:** Wabash County Board of Commissioners ordinance imposing a temporary moratorium on improvement-location permits for data center development, adopted 3-0 on 2026-08-31 following an Area Plan Commission favorable recommendation
 - **What prompted it:** The county's 2022 Zoning Ordinance (Ordinance No. 2022-85-14) does not regulate data centers; the moratorium bars applications/permits for data center structures in all zoning districts of unincorporated Wabash County (and, upon local adoption, the towns of LaFontaine, Lagro, and Roann) while the Zoning Ordinance is amended
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. The Wabash County Board of Commissioners voted 3-0 on 2026-08-31 to adopt a temporary moratorium on data center improvement-location permits and applications in all zoning districts of unincorporated Wabash County, in effect until the Zoning Ordinance is amended to regulate data centers or for 18 months from adoption, whichever is sooner.
+- **Detailed status:** Signed Ordinance 2026-85-08 sets an eighteen-month upper bound or earlier zoning amendment, and applies upon adoption in the unincorporated county; the three named towns require their own legislative adoption. [VERIFY: subsequent terminating amendment, town adoptions and present legal force.]
 - **Outcome:** Board of Commissioners unanimously adopted a temporary moratorium on data center permits, following the Plan Commission's favorable recommendation
 
 ### Warrick County

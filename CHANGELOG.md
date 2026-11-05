@@ -28,13 +28,15 @@ Further Iowa/Illinois source review identifies Cascade Resolution 57-26, City of
 
 Morgan County and Plainfield, Illinois, now carry news-qualified extension observations rather than stale active-original-term accounts. Their exact new endpoints are left blank. Sterling's September 8 minutes identify Ordinance 2026-09-23 and its approval vote; final operative terms and later actions remain flagged.
 
+Indiana source review identifies Boone Ordinance 2026-08 and Dearborn Ordinance 2026-004, records Clark and Merrillville's stated endpoints, and preserves calendar terms. Pulaski's February 2 adoption replaces an internally inconsistent January chronology on news-qualified evidence. Wabash's text distinguishes county adoption from separate town adoptions; Shelby's original outer limit is August 23, not August 22. Tippecanoe's original dated term is retained without treating codification as proof of no later extension. Remaining scope, final-text and current-force questions stay flagged.
+
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1293** |
 | In force (active or extended) | **1067** |
 | Proposed, not yet voted on | **73** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **329** |
+| Rows we still want to confirm (`[VERIFY]`) | **336** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
