@@ -23,7 +23,7 @@ Exit: reproducible baseline manifest with unrelated work preserved.
 - [x] Define versioned result observations, vote denominators, passage rules and certification states.
 - [x] Define non-moratorium local restrictions without widening the legacy inventory denominator.
 - [x] Define typed measure–instrument links, instrument events, claims and scoped review decisions.
-- [ ] Define stable ID allocation, aliases, collision checks and merge/split lineage.
+- [x] Define and test explicit UUID allocation, pinned observation aliases, collision checks and append-only merge/split lineage (`docs/expanded-identity-registry.md`). Domain-fact import remains separate.
 - [x] Preserve existing moratorium/project/state-action IDs and document tagged references.
 - [x] Separate lifecycle, result, certification, bindingness, mechanism and yes-vote direction.
 - [x] Define date bounds, precision, local timestamps, retroactivity, calendar durations and end conditions.

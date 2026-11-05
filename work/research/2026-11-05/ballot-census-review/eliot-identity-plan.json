@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0.0",
+  "expected_sha256": null,
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "event_id": "745849b8-897b-4b72-a2b9-75a58e65cb44",
+      "action": "allocate",
+      "table": "jurisdictions",
+      "inputs": [],
+      "outputs": [
+        "e096b8df-fdd7-449e-87c5-7673ca814d68"
+      ],
+      "aliases": [
+        {
+          "namespace": "recovery-ballot-me-001:reviewed-question-v1",
+          "source_id": "jur-me-eliot",
+          "record_sha256": "258283862d713b5cbd2b13350653135ba98f5d98cae1f5c06e5cbe9508c574fd"
+        },
+        {
+          "namespace": "ballot-census-v3",
+          "source_id": "recovery-ballot-me-001::jur-me-eliot",
+          "record_sha256": "05f772f332514769d5ac13229ee6d07b83effd3bf51f564acdadd05e4ad0d729"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T19:38:38.495383+00:00",
+      "rationale": "Warrant page 1 identifies the Town of Eliot, York County, Maine, and town-qualified electorate.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Signed special referendum warrant pages 1-2; town/state/election context and Article 5."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "21df1be1-9742-4a43-9c92-01cf497a04d0",
+      "action": "allocate",
+      "table": "elections",
+      "inputs": [],
+      "outputs": [
+        "d6f31abb-04c8-444e-be0c-13027a731a31"
+      ],
+      "aliases": [
+        {
+          "namespace": "recovery-ballot-me-001:reviewed-question-v1",
+          "source_id": "election-me-eliot-20261103",
+          "record_sha256": "1b5a04ca5aeccf1adb0ee21d6c19ed8c502e20de96076d6d359d6b602c55f1a4"
+        },
+        {
+          "namespace": "ballot-census-v3",
+          "source_id": "recovery-ballot-me-001::election-me-eliot-20261103",
+          "record_sha256": "f97841fffc917c311626c2d01699d9d167198923fdf35f693c864de8c8eecc73"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T19:38:38.503852+00:00",
+      "rationale": "Warrant page 1 identifies the town special referendum November 3, 2026, with secret-ballot voting on Articles 1-6; not a generic statewide election identity.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Signed special referendum warrant pages 1-2; town/state/election context and Article 5."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d2f05b63-97a0-4272-b088-c5e1aca5f0b1",
+      "action": "allocate",
+      "table": "ballot_measures",
+      "inputs": [],
+      "outputs": [
+        "17ff85b1-a03b-400f-8d45-c6bc022ac8fb"
+      ],
+      "aliases": [
+        {
+          "namespace": "recovery-ballot-me-001:reviewed-question-v1",
+          "source_id": "lead-c1e9a2d7a5b6b4384cf0",
+          "record_sha256": "9540eb97b3e2e1e1ce79af5c0017773bacf4f635a97ff5df5ca2868c38a4692b"
+        },
+        {
+          "namespace": "ballot-census-v3",
+          "source_id": "recovery-ballot-me-001::lead-c1e9a2d7a5b6b4384cf0",
+          "record_sha256": "24ddc60073d9000fdca639b47d5574939537cc3e3f4a256eee32e82c0bd7ea1b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T19:38:38.506451+00:00",
+      "rationale": "Warrant page 2 Article 5 and official sample ballot Question 5 identify the same moratorium enactment question, town electorate and November 3 election. No instrument-effect or passage-rule acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Signed special referendum warrant pages 1-2; town/state/election context and Article 5."
+        }
+      ]
+    }
+  ]
+}

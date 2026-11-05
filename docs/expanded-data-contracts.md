@@ -4,7 +4,9 @@ These additive contracts describe research candidates, not accepted facts, and d
 not modify the legacy inventory or state-policy CSVs. The existing codebook's
 moratorium grain and exclusion of permanent bans remain unchanged. A successful
 validation is structural consistency, not proof of legal effect, source accuracy,
-identity, completeness, or permission to publish. There is no promotion or writer.
+identity, completeness, or permission to publish. There is no domain-fact promotion
+writer. Identity decisions have a separate
+[append-only registry](expanded-identity-registry.md).
 
 ## Files and validation
 
@@ -39,8 +41,10 @@ The table definitions are `jurisdictions`, `elections`, `ballot_measures`,
 `measure_instrument_links`, `source_documents`, `claims`, `review_decisions`,
 `search_runs`, `search_attempts`, `search_sightings`, and `coverage_observations`.
 Each table's singular ID field is its key. IDs are opaque and must be allocated
-from a reviewed, collision-checked registry; this increment checks duplicates but
-provides no allocator, merge/split workflow, or identity inference. Names and titles
+from a reviewed, collision-checked registry; the
+[identity registry](expanded-identity-registry.md) now supplies explicit UUID allocation,
+observation aliases and merge/split lineage. It performs no identity inference and
+does not promote domain records. Names and titles
 are not keys. Distinct same-name governments must have distinct IDs. This first
 validator requires a measure and its election to use the same jurisdiction ID;
 overlapping administrative and electoral jurisdictions need a future explicit

@@ -37,6 +37,7 @@ check: validate
 	$(PYTHON) scripts/build_summary_stats.py --check
 	$(PYTHON) scripts/build_geojson.py --check
 	$(PYTHON) scripts/check_docs_numbers.py
+	$(PYTHON) scripts/expanded_identity.py --registry data/identities/expanded.jsonl --check
 	$(PYTHON) scripts/build_index.py --check
 	$(PYTHON) scripts/classify_sources.py --check
 
