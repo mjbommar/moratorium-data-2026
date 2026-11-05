@@ -100,7 +100,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Muhlenberg Township (Pickaway County) | Township | 2026-02-02 | data center | 🟢 Active |
 | New Franklin | City | 2026-05-20 | data center | 🟢 Active |
 | Newton Falls | Village | 2026-09-02 | data center | 🟢 Active |
-| Niles | City | 2026-05-20 | data center | 🟢 Active |
+| Niles | City | 2026-05-20 | data center | 🟢 Extended |
 | North Perry | Village | 2026-06-04 | data center | 🟢 Active |
 | North Ridgeville | City | 2026-05-18 | data center, cryptocurrency mining | 🟢 Active |
 | North Royalton | City | 2026-07-21 | data center | 🟢 Active |
@@ -1561,7 +1561,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Village of Mount Gilead Ordinance 2027, temporary moratorium not to exceed one year on new permits and on receipt/processing of permit applications for data centers
 - **What prompted it:** Preemptive amid Morrow County data center opposition; village is also updating its zoning code (2026 zoning code update RFQ).
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; moratorium of up to one year passed 2026-08-17 on third reading (not shown as an emergency, so likely effective about 30 days after passage), running to roughly August-September 2027.
+- **Detailed status:** August 17 minutes record final passage of Ordinance 2027, a permit/application pause not exceeding one year, with five ayes. Actual effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Pause on data center permits while the village reviews zoning.
 
 ### Mount Orab
@@ -1593,7 +1593,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Muhlenberg Township (Pickaway County) Trustee Resolution 2026-10, 12-month moratorium on receipt, processing, issuance or approval of zoning certificate applications for data centers
 - **What prompted it:** Pacifico Energy requested a zoning change application to build a data center and gas power plant on London Road; petition of 700+ residents; concerns about wells, Big Darby Creek and wildlife area.
 - **Affected projects:** Pacifico Energy data center and power plant proposal, London Road, Muhlenberg Township (Darbyville area).
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-02-02 runs to 2027-02-03 per trustee statement.
+- **Detailed status:** February 6 news describes Resolution 2026-10, a twelve-month data-center zoning-certificate pause, and states its motion passed unanimously. Final instrument, operative anchor and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Pause to update township zoning and await state action (HB 646 study commission).
 
 ### New Franklin
@@ -1625,23 +1625,23 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Emergency ordinance of Newton Falls council imposing a 12-month moratorium on data center permits (number not found)
 - **What prompted it:** Preemptive planning: village not prepared for a large data center; zoning code lacks data center standards; council cited Lordstown's experience. No project pending.
 - **Affected projects:** None; council member said he was not aware of anyone wanting to bring a data center to the village.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium on data center permits adopted 2026-09-02 runs to about 2027-09-02.
+- **Detailed status:** September 4 news reports Council approval of a twelve-month data-center permit pause and a 4-0 emergency reading at the preceding Wednesday meeting. Final instrument, effectiveness and later action remain unresolved; the separate cannabis measure is not this pause. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Zoning department and village/city manager to research zoning, infrastructure and utilities needs; one council member favors a later outright ban.
 
 ### Niles
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** 2026-05-20 (city council vote, unanimous, emergency; per WKBN/WFMJ 2026-05-20 and Tribune Chronicle 2026-05-21)
 - **Normalized date:** `2026-05-20` (exact)
-- **Duration:** 180 days (six months)
+- **Duration:** Original reported 180-day term; November 4 Council action reportedly grants an additional 180 days. Extension effective anchor and operative endpoint unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-niles-2026`
 - **Legal basis:** Emergency ordinance of Niles City Council placing a 180-day moratorium on granting/issuing permits and receiving/processing applications for data centers (number not found)
 - **What prompted it:** Bitdeer (Whitetail Creek LLC) proposal for a data center at 1047 Belmont Ave. (former Ohio Edison plant) with a request to annex Weathersfield Township land into Niles; city zoning had no data center regulations.
 - **Affected projects:** Bitdeer data center proposed at 1047 Belmont Ave. (Weathersfield Township/Niles).
-- **Detailed status:** Active as of 2026-09-23; 180-day moratorium adopted 2026-05-20 runs to about 2026-11-16 while the city drafts restrictive data center zoning with consultant CodeCraft Planning Studio.
+- **Detailed status:** November 5 news reports Council approved an additional 180-day data-center moratorium extension at its November 4 meeting. Signed final ordinance, actual effectiveness, continuity, early termination and operative endpoint remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** City hired consultant CodeCraft Planning Studio (May 6) to draft data center zoning language during the pause.
 
 ### North Perry
@@ -1657,7 +1657,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** North Perry Village Council resolution (number not published) imposing a 12-month moratorium on granting permits for data centers
 - **What prompted it:** No data center zoning regulations; other area communities adopting moratoriums; opposition to the Province Group data center proposed in neighboring Perry Village.
 - **Affected projects:** None in the village. Context: the Province Group data center proposed in Perry Village.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-06-04 runs to about 2027-06-04 while the Planning Commission updates the zoning code. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.62 in the 2026-09 refresh]
+- **Detailed status:** June 8 news reports unanimous June 4 approval of a twelve-month data-center permit pause. Final ordinance, operative anchor and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** The Planning Commission will review and update the zoning code to regulate data center construction and operation. The mayor suggested hiring an independent expert.
 
 ### North Ridgeville
@@ -1673,7 +1673,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** City of North Ridgeville Ordinance No. 2026-57 (emergency), a 12-month moratorium on planning, zoning and building approvals for data centers, cryptocurrency-mining facilities and similar uses
 - **What prompted it:** Preemptive. National growth of AI/cloud data centers. Demand on water and wastewater systems: the city-owned wastewater plant could need major upgrades. Wanted to block applications before regulations exist.
 - **Affected projects:** None. No developer had approached the city.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-05-18 (effective immediately) runs to about 2027-05-18.
+- **Detailed status:** June 4 third-party reporting describes a mid-May twelve-month data-center/crypto-mining pause; its account also describes an up-to-twelve-month limit and earlier termination possibility. Primary instrument, actual operative term and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Administration to analyze infrastructure capacity and zoning approaches and recommend code changes, with public hearings, before the pause ends.
 
 ### North Royalton

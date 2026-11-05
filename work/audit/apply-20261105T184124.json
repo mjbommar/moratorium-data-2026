@@ -1,0 +1,161 @@
+{
+  "applied_at": "20261105T184124",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-ohio-l/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 5,
+    "fields_changed": 17,
+    "outcome:status_changed": 1,
+    "status_changed": 1,
+    "verify_still_open": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "oh-mount-gilead-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states a calendar-month or year term, not a fixed number of days; preserve the term without converting it to 30-day months or 365-day years.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-mount-gilead-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Source states a calendar-month or year term, not a fixed number of days; preserve the term without converting it to 30-day months or 365-day years.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-mount-gilead-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; moratorium of up to one year passed 2026-08-17 on third reading (not shown as an emergency, so likely effective about 30 days after passage), running to roughly August-September 2027.",
+      "after": "August 17 minutes record final passage of Ordinance 2027, a permit/application pause not exceeding one year, with five ayes. Actual effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-muhlenberg-township-pickaway-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states a calendar-month or year term, not a fixed number of days; preserve the term without converting it to 30-day months or 365-day years.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-muhlenberg-township-pickaway-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Source states a calendar-month or year term, not a fixed number of days; preserve the term without converting it to 30-day months or 365-day years.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-muhlenberg-township-pickaway-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; 12-month moratorium adopted 2026-02-02 runs to 2027-02-03 per trustee statement.",
+      "after": "February 6 news describes Resolution 2026-10, a twelve-month data-center zoning-certificate pause, and states its motion passed unanimously. Final instrument, operative anchor and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-newton-falls-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states a calendar-month or year term, not a fixed number of days; preserve the term without converting it to 30-day months or 365-day years.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-newton-falls-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Source states a calendar-month or year term, not a fixed number of days; preserve the term without converting it to 30-day months or 365-day years.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-newton-falls-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; 12-month moratorium on data center permits adopted 2026-09-02 runs to about 2027-09-02.",
+      "after": "September 4 news reports Council approval of a twelve-month data-center permit pause and a 4-0 emergency reading at the preceding Wednesday meeting. Final instrument, effectiveness and later action remain unresolved; the separate cannabis measure is not this pause. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-niles-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; 180-day moratorium adopted 2026-05-20 runs to about 2026-11-16 while the city drafts restrictive data center zoning with consultant CodeCraft Planning Studio.",
+      "after": "November 5 news reports Council approved an additional 180-day data-center moratorium extension at its November 4 meeting. Signed final ordinance, actual effectiveness, continuity, early termination and operative endpoint remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-niles-2026",
+      "column": "duration",
+      "before": "180 days (six months)",
+      "after": "Original reported 180-day term; November 4 Council action reportedly grants an additional 180 days. Extension effective anchor and operative endpoint unresolved.",
+      "reason": "Preserve explicit day units and distinguish later extension from original term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-niles-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "A contemporaneous report says the November 4 council meeting approved a further 180-day extension. The official November 4 agenda lists the extension as proposed, not as proof of passage. Obtain the signed ordinance or minutes to establish number, effective date, exact end and any early termination.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-north-perry-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states a calendar-month or year term, not a fixed number of days; preserve the term without converting it to 30-day months or 365-day years.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-north-perry-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Source states a calendar-month or year term, not a fixed number of days; preserve the term without converting it to 30-day months or 365-day years.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-north-perry-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; 12-month moratorium adopted 2026-06-04 runs to about 2027-06-04 while the Planning Commission updates the zoning code. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.62 in the 2026-09 refresh]",
+      "after": "June 8 news reports unanimous June 4 approval of a twelve-month data-center permit pause. Final ordinance, operative anchor and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-north-ridgeville-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states a calendar-month or year term, not a fixed number of days; preserve the term without converting it to 30-day months or 365-day years.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-north-ridgeville-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Source states a calendar-month or year term, not a fixed number of days; preserve the term without converting it to 30-day months or 365-day years.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-north-ridgeville-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; 12-month moratorium adopted 2026-05-18 (effective immediately) runs to about 2027-05-18.",
+      "after": "June 4 third-party reporting describes a mid-May twelve-month data-center/crypto-mining pause; its account also describes an up-to-twelve-month limit and earlier termination possibility. Primary instrument, actual operative term and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    }
+  ]
+}
