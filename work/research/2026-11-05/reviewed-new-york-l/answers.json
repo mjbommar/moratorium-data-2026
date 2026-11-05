@@ -1,0 +1,214 @@
+{
+  "state_abbrev": "NY",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "ny-newstead-2024",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www4.erie.gov/newstead/sites/www4.erie.gov.newstead/files/2024-07/7-8-2024-tb.pdf",
+          "source_type": "minutes",
+          "supports": "Board approved original BESS moratorium; minutes separately identify wind law #3.",
+          "quote": "#2 of 2024 that will impose a six-month moratorium on Battery Energy Storage Systems",
+          "document_date": "2024-07-08"
+        },
+        {
+          "url": "https://www4.erie.gov/newstead/sites/www4.erie.gov.newstead/files/2025-12/12-8-2025-tb.pdf",
+          "source_type": "minutes",
+          "supports": "The board recorded approval of a later BESS moratorium; continuity and later changes are not established.",
+          "quote": "Approval- Local Law #5 - 6-month Moratorium on BESS:",
+          "document_date": "2025-12-08"
+        }
+      ],
+      "notes": "The two law numbers and six-month original term are supported. Later 2025 action does not establish continuity or current status; source law text needed to establish original solar scope and legal dates.",
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "The board approved a six-month term; no 180-day term is established by the minutes."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The board described the original term in months, not fixed days."
+        },
+        "current_status": {
+          "from": "Reported expired by industry tracker (2026-03-31); Town Board adopted six-month moratoria on BESS/solar-with-storage and on wind energy conversion systems on 2024-07-08; whether it was extended through 2026 was not independently confirmed. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+          "to": "July 8, 2024 minutes record Local Law 2 establishing a six-month BESS moratorium; wind Law 3 is separate. December 8, 2025 minutes record later BESS Law 5. The complete continuation, original solar scope and later operative interval remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate adoption, filing, exact source units and authorized versus adopted extensions."
+        }
+      }
+    },
+    {
+      "moratorium_id": "ny-pendleton-2025",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://pendletonny.gov/wp-content/uploads/2025/07/MINUTES-TB-Regular-Meeting-6.9.25-FINAL.pdf",
+          "source_type": "minutes",
+          "supports": "Minutes record approval of the original law at the June 9, 2025 meeting.",
+          "quote": "Storage Facility is approved. This resolution shall take effect immediately.",
+          "document_date": "2025-06-09"
+        },
+        {
+          "url": "https://pendletonny.gov/wp-content/uploads/2025/12/MINUTES-TB-Work-Session-12.22.25-PENDING-APPROVAL.pdf",
+          "source_type": "minutes",
+          "supports": "Draft December minutes identify adoption date and describe a motion to extend; no resolution vote is recorded in the extracted text.",
+          "quote": "WHEREAS, on June 9, 2025, the Town Board of the Town of Pendleton",
+          "document_date": "2025-12-22"
+        },
+        {
+          "url": "https://ecode360.com/PE1345/laws/LF2398315.pdf",
+          "source_type": "ordinance",
+          "supports": "Text specifies 180 days, with an adoption-date anchor and a separate filing effectiveness provision.",
+          "quote": "Section 4: Imposition of Moratorium. For a period of one hundred and eighty ( 180) days from",
+          "document_date": "2025"
+        }
+      ],
+      "notes": "Corrected adoption date only. Draft December minutes record a motion and text of a three-month extension after an asserted December 6 lapse, but do not provide a vote on that resolution. Later permanent standards and current status remain unverified.",
+      "changes": {
+        "date_enacted": {
+          "from": "Local Law No. 2 of 2025 (public hearing 2025-06-09)",
+          "to": "2025-06-09 (Town Board adoption of Local Law No. 2 of 2025; effectiveness upon state filing)",
+          "reason": "Town meeting minutes identify June 9 adoption; the law provides a separate filing effectiveness rule."
+        },
+        "date_enacted_iso": {
+          "from": "2025-06",
+          "to": "2025-06-09",
+          "reason": "Town meeting minutes identify the adoption date."
+        },
+        "date_enacted_uncertainty": {
+          "from": "month_only",
+          "to": "exact",
+          "reason": "Town meeting minutes identify the adoption date."
+        },
+        "current_status": {
+          "from": "Reported expired by industry tracker (2025-12-27), consistent with a six-month term from the June 2025 adoption; the Town has since adopted a permanent BESS standards/permitting local law.",
+          "to": "June 9, 2025 minutes record approval of Local Law 2. The law specifies 180 days from adoption and separately requires state filing for effectiveness. December draft minutes describe a proposed three-month extension but do not establish its vote; later permanent standards and force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate adoption, filing, exact source units and authorized versus adopted extensions."
+        }
+      }
+    },
+    {
+      "moratorium_id": "ny-town-of-watson-2025",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "date_enacted": {
+          "from": "Local Law No. 2 for the year 2025, filed with Lewis County Planning around June 2025 following an April 2025 request for a 6-month moratorium",
+          "to": "Adoption date not established; Local Law No. 2 of 2025 was filed with the Secretary of State on May 23, 2025.",
+          "reason": "Department of State filing receipt identifies filing, not adoption."
+        },
+        "date_enacted_iso": {
+          "from": "2025-06",
+          "to": "",
+          "reason": "The prior June 2025 month is not an established adoption date."
+        },
+        "date_enacted_uncertainty": {
+          "from": "month_only",
+          "to": "unverified",
+          "reason": "Adoption date not established."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Six calendar months are not a fixed 180-day term."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The ordinance specifies six months."
+        },
+        "current_status": {
+          "from": "Likely replaced. Per Lewis County's own project timeline, the Town of Watson amended its Zoning Law on November 12, 2025 to establish permanent regulations for Compressed Air Energy Storage Systems (submitted to the NYS Department of State for filing), which would supersede the temporary moratorium's CAES component; it is not confirmed whether the moratorium's separate Tier 2 BESS provisions were also addressed by permanent regulation or simply lapsed at the end of the original six-month term (~December 2025). [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]",
+          "to": "The state receipt dated May 28 confirms Local Law 2 of 2025 was filed May 23. The law states six months from effectiveness; filing is not proof of the original adoption date. The prior June adoption-month projection is cleared; later extensions/replacement remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate adoption, filing, exact source units and authorized versus adopted extensions."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://lewiscountyny.gov/wp-content/uploads/2025/06/25-Moratorium-Energy-Storage.pdf",
+          "title": "Local Law 2 of 2025",
+          "publisher": "Town of Watson / NY Department of State",
+          "source_type": "ordinance",
+          "quote": "Local Law 2 of the year 2025 was filed with this office on 5/23/2025.",
+          "supports": "Filing date, not the adoption date; six-month term also appears in the OCR text.",
+          "document_date": "2025-05-28"
+        }
+      ],
+      "notes": "Current replacement or later extension remains unresolved; this is a limited historical correction, not confirmation of enacted_status."
+    },
+    {
+      "moratorium_id": "ny-village-of-wilson-2024",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "date_enacted": {
+          "from": "2024-09-19",
+          "to": "2024-10-17",
+          "reason": "September board tabled the measure; October minutes record approval."
+        },
+        "date_enacted_iso": {
+          "from": "2024-09-19",
+          "to": "2024-10-17",
+          "reason": "October minutes record approval."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Twelve months is a calendar term, not a fixed 365 days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "October minutes describe twelve months."
+        },
+        "current_status": {
+          "from": "Reported expired by industry tracker (2026-03-31); the Village Board adopted a new Chapter 178 BESS moratorium (Local Law #5) at its 2024-09-19 meeting, and as of May 2026 was still weighing a permanent Tier 2 BESS zoning law rather than having adopted one.",
+          "to": "September 19, 2024 minutes table the battery moratorium; October 17 minutes record unanimous approval and a twelve-month term with possible six-month extension. Actual filing, extensions and the relationship to later BESS regulations remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate adoption, filing, exact source units and authorized versus adopted extensions."
+        },
+        "outcome": {
+          "from": "BESS moratorium adopted Sept 2024, still in force/under consideration for replacement as of mid-2026.",
+          "to": "Battery moratorium approved October 17, 2024; later legal status unresolved.",
+          "reason": "September and October minutes establish the sequence, not current force."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://villageofwilson.org/application/files/3517/3163/4640/September_19_2024.pdf",
+          "title": "September 19, 2024 board minutes",
+          "publisher": "Village of Wilson",
+          "source_type": "minutes",
+          "quote": "Battery Moratorium has been tabled until next month.",
+          "supports": "The September meeting tabled the measure.",
+          "document_date": "2024-09-19"
+        },
+        {
+          "url": "https://villageofwilson.org/application/files/7317/3163/4639/October_17_2024.pdf",
+          "title": "October 17, 2024 board minutes",
+          "publisher": "Village of Wilson",
+          "source_type": "minutes",
+          "quote": "Discuss tabled new Local Law - Chapter 178 - Battery Moratorium",
+          "supports": "The board revisited the tabled battery moratorium and approved it at this meeting.",
+          "document_date": "2024-10-17"
+        },
+        {
+          "url": "https://villageofwilson.org/application/files/7317/3163/4639/October_17_2024.pdf",
+          "title": "October 17, 2024 board minutes",
+          "publisher": "Village of Wilson",
+          "source_type": "minutes",
+          "quote": "Trustee Martin stated this moratorium is for twelve (12) months, and we can extend it for an additional six (6) months.",
+          "supports": "Recorded calendar term; later extension is only authorized here.",
+          "document_date": "2024-10-17"
+        }
+      ],
+      "notes": "Current enacted_status remains unverified and is not confirmed by this correction. May 2026 minutes report approval of a separate BESS local law; text and effective date were not verified."
+    }
+  ],
+  "new_candidates": []
+}

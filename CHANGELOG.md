@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Four New York corrections distinguish Newstead’s original calendar term from its later BESS action, confirm Pendleton’s June 9 adoption while retaining its explicit 180-day unit, separate Watson’s May 23 filing from its unverified adoption date and correct Wilson’s approval to October 17 after September tabling. Effective intervals and later force remain unresolved.
+
 Five further New York corrections distinguish Gloversville, Harrison and Johnstown calendar terms/instruments, document Mamaroneck’s May 1, 2026 extension and separate Montgomery’s original moratorium from its 2025 zoning measure. Montgomery’s unsupported original adoption year is cleared; filing-conditioned cancellation and geographic matching remain flagged.
 
 Southampton’s code-listed May 27, 2025 expiry replaces the unsupported claim that June zoning ended its BESS pause. Wilton’s June 4 Local Law 3 approval is confirmed from minutes while its final term remains unresolved beyond the draft. Dryden’s filed amendment changes eighteen months to twenty; effective anchors, continuity and later force remain flagged.
@@ -86,7 +88,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1068** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **154** |
-| Rows we still want to confirm (`[VERIFY]`) | **509** |
+| Rows we still want to confirm (`[VERIFY]`) | **511** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
