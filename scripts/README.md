@@ -109,3 +109,10 @@ explicit `site:` operators. Such calls do not support negative official-record
 findings. Retrospective diagnostics are in
 `work/audit/search-scope-diagnostics-2026-11-05.json`; the check is not full query
 semantics or keyword-relevance validation and does not trigger automatic retries.
+
+`research_client.py search QUERY --backend exa --domain HOST` uses native Exa
+`includeDomains` and records a returned-host diagnostic. Repeat `--domain` for
+multiple verified hosts. SerpAPI translates the same option to site operators;
+this client rejects the option for other backends. Use retained official links to
+identify hosts, archives, attachments and pagination, and keep publication-date
+filters separate from legal event dates.

@@ -12,13 +12,15 @@ Further working changes include the Westover instrument correction, four Califor
 
 San Francisco's signed final Ordinance 215-26 confirms Board passage October 6 and mayoral approval October 16, replacing its pending entry. The Planning Department lists November 30 as the scheduled end unless extended; later changes remain flagged. Eliot and Sabattus have six scoped ballot-result source reviews in the private candidate snapshot, without legal-effect promotion.
 
+Further reviewed corrections identify Oakley's original Ordinance 6-26, Richmond's certified October 20 extension (14-26 N.S.), and Tulare County's explicitly reported August 6, 2027 endpoint. Palm Springs's extension and endpoint remain news-qualified pending its adopted text. Verification flags preserve those limits.
+
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1292** |
 | In force (active or extended) | **1066** |
 | Proposed, not yet voted on | **75** |
 | Ended (replaced, expired, or rescinded) | **151** |
-| Rows we still want to confirm (`[VERIFY]`) | **303** |
+| Rows we still want to confirm (`[VERIFY]`) | **306** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

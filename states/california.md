@@ -35,9 +35,9 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 | Morro Bay | City | 2025-01-28 | battery storage | 🟢 Extended |
 | Oakley | City | 2026-04-14 | data center | 🟢 Extended |
 | Orange County | County | 2025-01-28 | battery storage | ⚪ Replaced |
-| Palm Springs | City | 2026-08-26 | data center | 🟢 Active |
+| Palm Springs | City | 2026-08-26 | data center | 🟢 Extended |
 | Patterson | City | 2026-07-16 | data center | 🟢 Extended |
-| Richmond | City | 2026-09-15 | data center | 🟢 Active |
+| Richmond | City | 2026-09-15 | data center | 🟢 Extended |
 | San Francisco | City | 2026-10-16 | data center | 🟢 Active |
 | San Juan Capistrano | City | 2025-03-18 | battery storage | 🟢 Active |
 | Solano County | County | 2024-01-23 | battery storage | ⚪ Replaced |
@@ -440,7 +440,7 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Current end date:** `2027-04-14`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-oakley-2026`
-- **Legal basis:** Urgency ordinance adopted by a 5-0 vote at the April 14, 2026 Oakley City Council meeting (item 6.1), per published minutes; extended by a second urgency ordinance adopted 5-0 on 2026-05-12 (item 5.2). Ordinance No. 5-26, adopted at the same April 14 meeting, is confirmed to be a different, unrelated ordinance (administrative citation-hearing procedures) — not the data center moratorium. The moratorium ordinance was introduced under a placeholder number and its final assigned ordinance number was not stated in the minutes obtained [VERIFY exact assigned ordinance number for the April 14, 2026 urgency ordinance and its May 12, 2026 extension]
+- **Legal basis:** Urgency Ordinance No. 6-26 adopted April 14, 2026; extended by a second urgency ordinance adopted May 12, 2026. [VERIFY May 12 extension ordinance number and subsequent Council action; original April 14 instrument number is established.]
 - **What prompted it:** Bridgehead Industrial Project public testimony and removal of data centers from that project; Oakley Municipal Code did not define or regulate data center land uses
 - **Affected projects:** Bridgehead Industrial Project removed data center as a permissible use before approval
 - **Detailed status:** Active as of 2026-09-23. The May 12, 2026 extension (10 months 15 days, 5-0 vote) runs the moratorium through 2027-04-14, per City Attorney Derek Cole's public statements. A joint City Council/Planning Commission work session was held 2026-07-21 (confirmed via the city's own posted staff report) to gather input on whether/where data centers should be allowed; no formal action was taken at that session, and the Mayor and staff indicated a goal of introducing permanent zoning standards 'by the end of this year' (2026). No permanent ordinance had been adopted and no further extension or rescission was found in sources reviewed through 2026-09-23.
@@ -465,17 +465,17 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 ### Palm Springs
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** 2026-08-26, Palm Springs City Council unanimous adoption of an urgency ordinance (item brought forward by Councilmember Grace Garner)
 - **Normalized date:** `2026-08-26` (exact)
-- **Duration:** 45 days from adoption, effective immediately as an urgency ordinance; council discussed the possibility of extending for up to two years, consistent with the Gov. Code section 65858 pattern used elsewhere in the Coachella Valley.
-- **Current end date:** `—`
+- **Duration:** Initial 45 days from August 26, 2026; extended by 22 months and 15 days through August 25, 2028, according to local reporting.
+- **Current end date:** `2028-08-25`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-palm-springs-2026`
 - **Legal basis:** Urgency ordinance adopted under California Gov. Code section 65858
 - **What prompted it:** Regional wave of Coachella Valley moratoria/bans (Coachella, Desert Hot Springs, Indio); city's zoning/municipal code does not currently define or regulate data center uses; concerns over water, electricity, infrastructure, and land impacts of large-scale facilities.
 - **Affected projects:** None named; city officials stated no active data center application was pending.
-- **Detailed status:** Active as of 2026-09-23. 45-day urgency moratorium on new large-scale data center applications, adopted 2026-08-26, in effect through approximately 2026-10-10 (KESQ) while the city's planning department incorporates data center definitions into an ongoing zoning code update; city planners indicated fall 2026 community outreach on the issue.
+- **Detailed status:** Local reporting published October 1 states the Council extended the moratorium September 30, 2026 through August 25, 2028. The City notice describes an additional 22 months and 15 days. [VERIFY signed adopted extension, ordinance number, exact operative endpoint and later actions; the City notice says to adopt and is not by itself proof of the Council vote.]
 - **Outcome:** 45-day urgency moratorium adopted while the city updates its zoning code, which currently does not define data center uses.
 
 ### Patterson
@@ -497,17 +497,17 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 ### Richmond
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** 2026-09-15, Richmond City Council adoption of an urgency ordinance (regular meeting)
 - **Normalized date:** `2026-09-15` (exact)
-- **Duration:** 45 days from the date of adoption, effective immediately as an urgency ordinance (four-fifths vote), extendable under Gov. Code section 65858.
-- **Current end date:** `—`
+- **Duration:** Initial 45-day moratorium under Ordinance 13-26 N.S.; Ordinance 14-26 N.S. extends it by 22 months and 15 days, with an explicit end through September 15, 2028 unless terminated earlier.
+- **Current end date:** `2028-09-15`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-richmond-2026`
-- **Legal basis:** Urgency Ordinance of the City Council of the City of Richmond, California, Establishing a 45-Day Temporary Moratorium on the Establishment of New Data Centers, adopted pursuant to Gov. Code sections 36937 and 65858
+- **Legal basis:** Urgency Ordinance 13-26 N.S. adopted September 15, 2026; amended, restated and superseded by Urgency Ordinance 14-26 N.S., adopted October 20, 2026, extending the same moratorium under Government Code section 65858.
 - **What prompted it:** City's municipal code does not specifically define or regulate data centers; council directed staff in April 2026 to return with a proposed moratorium; concerns over electricity/water use, noise, air quality, and the city's limited industrial land.
 - **Affected projects:** None; city reported no pending data center applications.
-- **Detailed status:** Active as of 2026-09-23. 45-day urgency moratorium adopted 2026-09-15, prohibiting the establishment, construction, conversion, or expansion of any data center citywide (with an exception for subordinate-use data/server rooms and existing lawfully-operating facilities). No pending data center applications were reported by the city as of adoption. Richmond is described as the second city in Contra Costa County (after Oakley) to adopt a data center moratorium.
+- **Detailed status:** The Council adopted Urgency Ordinance 14-26 N.S. on October 20, 2026, amending, restating and superseding Ordinance 13-26 N.S. while extending the same temporary data-center pause. Section 7 states it remains in effect through and including September 15, 2028, expiring at midnight unless terminated earlier; section 10 makes it immediately effective upon adoption. [VERIFY any subsequent amendment, repeal, litigation or other action beyond the reviewed certified ordinance.]
 - **Outcome:** 45-day urgency moratorium adopted while staff studies potential regulations and permanent zoning standards for data centers.
 
 ### San Francisco
@@ -564,14 +564,14 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Status:** 🟢 Extended
 - **Date enacted:** 2026-08-18 (Board of Supervisors, 4-1, Townsend dissenting); extended 5-0 on 2026-09-22 by 10 months 15 days
 - **Normalized date:** `2026-08-18` (exact)
-- **Duration:** 45-day urgency ordinance, extended 10 months 15 days on 2026-09-22
-- **Current end date:** `—`
+- **Duration:** Initial 45-day urgency ordinance, extended September 22, 2026 by 10 months and 15 days; county sources state through August 6, 2027.
+- **Current end date:** `2027-08-06`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-tulare-county-2026`
 - **Legal basis:** Interim ordinance (Govt. Code 65858) on acceptance/processing/approval of permits for large-scale data centers in unincorporated county
 - **What prompted it:** Triggered by Global Stack USA edge-computing proposal at the county fairgrounds; groundwater/SGMA limits, electricity demand, land use, generator noise.
 - **Affected projects:** Global Stack USA edge-node proposal at county fairgrounds.
-- **Detailed status:** Active as of 2026-09-23. Adopted 4-1 on 2026-08-18 (45 days); extended 5-0 on 2026-09-22 by 10 months 15 days to 2027-08-17, the maximum extension available without seeking a further extension. Supervisors separately took a 3-2 position opposing data center development countywide with an exception for enterprise facilities.
+- **Detailed status:** The county states its September 22, 2026 extension of the moratorium on new data center development in unincorporated Tulare County runs through August 6, 2027. The county notice likewise gives August 6; this differs from the earlier inventory date of August 17. [VERIFY signed extension and reconcile calendar-term chronology; use the explicit county-reported endpoint rather than recomputing from approximate terms.]
 - **Outcome:** Staff continuing study of zoning, CUP, setback, noise, water/energy and backup-power standards.
 
 ### Vacaville

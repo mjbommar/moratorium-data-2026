@@ -104,6 +104,7 @@ async def execute(args):
                 options = {}
                 if args.since: options['start_date'] = dt.date.fromisoformat(args.since)
                 if args.until: options['end_date'] = dt.date.fromisoformat(args.until)
+                if args.domains: options['include_domains'] = args.domains
                 result = await searcher.search(args.query, backend=args.backend, max_results=args.max_results, **options)
                 payload = result.model_dump(mode="json")
             finally:
@@ -111,7 +112,10 @@ async def execute(args):
             metadata.update(query=args.query, hits=len(result.hits), cost_usd=result.cost_usd,
                             unpriced=result.cost_usd is None, exchanges=exchanges,
                             retry_policy="single provider attempt; failures retain reservation")
-            if args.backend=='serpapi':
+            if args.domains:
+                metadata['include_domains']=args.domains
+                metadata['query_scope_check']=search_scope(' '.join('site:'+d for d in args.domains),payload['hits'])
+            elif args.backend=='serpapi':
                 metadata['query_scope_check']=search_scope(args.query,payload['hits'])
         else:
             from bc_web import Retriever
@@ -150,5 +154,9 @@ if __name__ == "__main__":
     q.add_argument("--max-results", type=int, choices=range(1, 21), default=6)
     q.add_argument("--since", help="Publication date lower bound; omit for undated official pages")
     q.add_argument("--until", help="Publication date upper bound, not legal event cutoff")
+    q.add_argument("--domain",dest="domains",action="append",default=[],help="Native backend include_domains filter; repeat for multiple domains. Exa sends includeDomains, SerpAPI compiles site operators. Returned hosts are diagnosed.")
     f = s.add_parser("fetch"); f.add_argument("url"); f.add_argument("--mode", choices=["http", "auto", "browser"], default="auto")
-    asyncio.run(execute(p.parse_args()))
+    args=p.parse_args()
+    if args.action=='search' and args.domains and args.backend not in ('exa','serpapi'):
+        p.error('--domain is supported only for Exa and SerpAPI in this client')
+    asyncio.run(execute(args))

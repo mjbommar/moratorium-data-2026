@@ -274,6 +274,16 @@ Use `Searcher.search_many` with named variants rather than sending identical pro
 to every backend. Exa receives semantic descriptions; Google receives exact phrases,
 aliases, official designations, boolean combinations and domain filters.
 
+Use native domain controls where supported: `research_client.py search ...
+--backend exa --domain <verified-host>` sends Exa `includeDomains`, rather than
+assuming that Google-style operators constrain semantic retrieval. SerpAPI's
+`include_domains` compiles to site operators. Retain the intended domains and
+diagnose returned URL hosts for both. An empty or out-of-scope response does not
+establish absence; repair deficient searches before accepting negative coverage.
+Obtain hosts and records-platform links from retained official sources rather
+than guessing municipal domains. Follow actual archive, attachment and pagination
+links to original records; a stale informational page may lag a later ordinance.
+
 Illustrative query families, to be rendered from registry values:
 
 | Intent | Examples |
