@@ -889,7 +889,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Resolution 38-26 (City of Fairborn), placing 12-month temporary moratoriums on data centers, self-storage facilities, gas stations, convenience stores and car washes (adopted 2026-08-17)
 - **What prompted it:** Limited remaining commercial/industrial land; water consumption and noise from data centers; review of zoning standards.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium (Resolution 38-26) adopted 2026-08-17 runs to about 2027-08-17. A separate, earlier 180-day data center (crypto-mining) moratorium, Ordinance 25-22 of 2022-09-06, expired in March 2023.
+- **Detailed status:** August 17 council transcript identifies Resolution 38-26, a twelve-month pause covering data centers and other stated land uses, with authority for up to six additional months. Six affirmative responses precede the statement that it is duly adopted. Discussion contemplates earlier permanent regulations; final operative wording, actual extension and later action remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Planning Board and Council to review and recommend zoning amendments for these uses.
 
 ### Fairfield Township (Butler County)
@@ -937,7 +937,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Ordinance 2026-042
 - **What prompted it:** Public concern over power demand, water use, infrastructure strain, and possible data center interest in/near Hancock County
 - **Affected projects:** No specific developer or project has been publicly named; council and news coverage describe only general regional data-center interest near Hancock County, distinct from the separately discussed Shady Grove/Marion Township annexation area.
-- **Detailed status:** Active
+- **Detailed status:** April 22 news reports 9-1 passage and reproduces Ordinance 2026-042 with twelve months from effectiveness. This is a secondary reproduction rather than an independently obtained executed municipal instrument; effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** City study of federal, state, and local codes and possible zoning language; Findlay Ordinance 2026-042 passed 9-1 with third reading waived (per 1063thefox.com 2026-04-22 reporting)
 
 ### Freedom Township (Portage County)
@@ -953,7 +953,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Freedom Township (Portage County) Board of Trustees motion 03.18.26.04 imposing a one-year moratorium on data centers (no separate resolution text located)
 - **What prompted it:** Regional Planning advised townships cannot deny data centers outright but can set zoning conditions; concerns over limited infrastructure and water-table impacts.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium adopted 2026-03-19 runs to about 2027-03-19.
+- **Detailed status:** Minutes headed March 19, 2026 record a one-year data-center motion and three yes votes. Its printed motion identifier is 03.18.26.04, inconsistent with that meeting date. Actual effectiveness and later action remain unresolved; this is Portage County, not the separate Wood County township. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Zoning commission to draft data center zoning conditions during the year.
 
 ### Freedom Township (Wood County)
@@ -985,7 +985,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Ordinance No. 2026-16 (Village of Garrettsville), emergency, imposing a twelve-month moratorium on acceptance of any zoning application for data centers
 - **What prompted it:** Preemptive pause while the village reviews zoning; council cited that current zoning may not address energy and water use, land use, building quality, aesthetics, lighting, noise, location and environmental impacts, amid a wave of Portage County moratoriums (Ravenna, Streetsboro, Shalersville, Windham) and large AI data center proposals.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-08-12 runs to about 2027-08-12 unless ended earlier by new data center regulations.
+- **Detailed status:** The village notice states Council approved Ordinance 2026-16 on August 12, 2026 and describes a twelve-month pause on acceptance of data-center zoning applications. The notice offers the full text at village offices; final operative wording, actual effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Village council adopted a 12-month moratorium on accepting, processing or approving data center zoning applications, permits and approvals while it considers data center zoning regulations; hardship appeal to the BZA provided.
 
 ### Geneva
@@ -1001,7 +1001,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** City of Geneva emergency ordinance imposing a 12-month moratorium on the acceptance and processing of applications for zoning and/or occupancy permit approvals for data centers (ordinance number not located)
 - **What prompted it:** Preemptive. There were concerns about statewide data center growth and a possible project in nearby Perry, and no data center zoning. Water, noise and health concerns were raised.
 - **Affected projects:** None. The council president said there were no plans for a data center in Geneva.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-06-08 (emergency) runs to about 2027-06-08.
+- **Detailed status:** June 10 news reports approval of a twelve-month data-center pause by a 6-1 emergency vote, distinct from the six-month cannabis measure. Official instrument identity, effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Pause while the planning committee and planning commission develop data center regulations.
 
 ### Girard
