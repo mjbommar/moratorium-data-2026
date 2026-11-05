@@ -1,0 +1,155 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "oh-clinton-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://clintonoh.gov/wp-content/uploads/2026/07/June-16-2026.pdf",
+          "source_type": "minutes",
+          "document_date": "2026-06-16",
+          "quote": "The moratorium has a time limit - six months.",
+          "supports": "Meeting discussion records six-month term; the minutes also record adoption of R-26-06."
+        },
+        {
+          "url": "https://clintonoh.gov/wp-content/uploads/2026/07/June-16-2026.pdf",
+          "source_type": "minutes",
+          "document_date": "2026-06-16",
+          "quote": "Rita Joseph made a motion to adopt Resolution No. R-26-06. Second by Mr. Goch.\n\nRoil Call: Joseph, Blankenship, Goch and Knepper voted yes. Boggs and Henry voted no. Four\nto two.",
+          "supports": "Recorded adoption motion and roll call; no independent conclusion about procedural legal effect."
+        }
+      ],
+      "notes": "Minutes substantiate adoption and six-month discussion, but original signed resolution and later actions have not been reviewed.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Source states a calendar term rather than a fixed number of days."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "A calendar term should not be represented as a fixed-day legal duration."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; six-month moratorium adopted 2026-06-16 runs to about mid-December 2026.",
+          "to": "June 16 minutes discuss a six-month term and record 4-2 votes on waiving readings and adopting Resolution R-26-06. Final signed text, procedural effectiveness, operative interval, actual renewal and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Visually reviewed original action and term; do not assert complete later legal history."
+        }
+      },
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "oh-cortland-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.cortlandoh.gov/wp-content/uploads/O-21-26.pdf",
+          "source_type": "ordinance",
+          "document_date": "2026-06-01",
+          "quote": "Section 1, That a twelve (12) month moratorium is hereby established within the City of Cortland",
+          "supports": "Signed ordinance establishes calendar-month term and identifies O-21-26."
+        },
+        {
+          "url": "https://www.cortlandoh.gov/wp-content/uploads/O-21-26.pdf",
+          "source_type": "ordinance",
+          "document_date": "2026-06-01",
+          "quote": "Section 2. \"Data Center\" is defined as a facility used for storage, management, and dissemination of\ndigital data, which houses computer, telecommunications, and/or network equipment, systems, servers,\nappliances, and other associated components related to digital data operations, and/or a facility designed\nor modified to house networked computers and data and transaction processing equipment and related\ninfrastructure support equipment, including but not limited to power and cooling equipment to provide\ndata and transaction processing services, outsource information technology services, and computer\nequipment colocation services, as weil as server farms, cloud computing hubs, colocation centers, and\nfacilities used for cryptocurrency mining, blockchain processing, and high-density computing.",
+          "supports": "Definition explicitly includes cryptocurrency mining."
+        },
+        {
+          "url": "https://www.cortlandoh.gov/wp-content/uploads/O-21-26.pdf",
+          "source_type": "ordinance",
+          "document_date": "2026-06-01",
+          "quote": "Section 4, This Ordinance having the procedural rules suspended shall take effect immediately as being\nin the best interest of the public health, safety, and welfare of the residents of the City of Cortland, Ohio.",
+          "supports": "Immediate-effect clause; June 1 passage and approval visually reviewed separately."
+        }
+      ],
+      "notes": "Ordinance defines data centers to include cryptocurrency mining; later action and precise current legal force remain unverified.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Source states a calendar term rather than a fixed number of days."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "A calendar term should not be represented as a fixed-day legal duration."
+        },
+        "legal_basis": {
+          "from": "City Council emergency ordinance (ordinance number not confirmed in sources reviewed) [VERIFY]",
+          "to": "City of Cortland Ordinance O-21-26, passed June 1, 2026, imposing a moratorium not to exceed one year and declaring an emergency.",
+          "reason": "Official signed ordinance."
+        },
+        "sectors": {
+          "from": "[\"data_center\"]",
+          "to": "[\"data_center\", \"cryptocurrency_mining\"]",
+          "reason": "Section 2 expressly includes facilities used for cryptocurrency mining."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; one-year emergency moratorium on data center zoning permits and applications passed 2026-06-01, running to about 2027-06-01. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Signed Ordinance O-21-26 records June 1, 2026 passage and mayoral approval. Section 1 establishes twelve months, the title says not to exceed one year, section 2 includes cryptocurrency mining and section 4 states immediate effect following suspension of procedural rules. Later amendment, termination and current legal force remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Visually reviewed original action and term; do not assert complete later legal history."
+        },
+        "duration": {
+          "from": "12 months",
+          "to": "Twelve months under section 1; title states not to exceed one year. Section 4 states immediate effect; later action unverified.",
+          "reason": "Preserve operative calendar wording and title upper limit."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY]",
+          "resolution": "corrected",
+          "note": "Ordinance O-21-26 obtained and reviewed."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "oh-eastlake-2025",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://eastlakeohio.com/wp-content/uploads/2025/12/2025-M-11-25.pdf",
+          "source_type": "minutes",
+          "document_date": "2025-11-25",
+          "quote": "A Resolution declaring a five (5) year moratorium on permitting any data centers within the City of",
+          "supports": "Minutes record five-year resolution and unanimous adoption."
+        },
+        {
+          "url": "https://eastlakeohio.com/wp-content/uploads/2025/12/2025-M-11-25.pdf",
+          "source_type": "minutes",
+          "document_date": "2025-11-25",
+          "quote": "MOTION: Mr. Kasunick to adopt. Mr. Semick second.\nROLL CALL: Yeas unanimous.\nMotion carried. Legislation is adopted as Resolution No.: 2025-103",
+          "supports": "Recorded adoption motion and roll call; no independent conclusion about procedural legal effect."
+        }
+      ],
+      "notes": "2025 minutes establish adoption and the five-year term; later amendment or repeal has not been excluded.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Source states a calendar term rather than a fixed number of days."
+        },
+        "duration_days": {
+          "from": "1825",
+          "to": "",
+          "reason": "A calendar term should not be represented as a fixed-day legal duration."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; five-year moratorium adopted 2025-11-25 runs to about 2030-11-25.",
+          "to": "November 25, 2025 minutes identify the five-year data-center permit moratorium as Resolution 2025-103 and record unanimous adoption among members present. Final operative text, actual effectiveness and later amendment or repeal remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Visually reviewed original action and term; do not assert complete later legal history."
+        }
+      },
+      "confidence": 0.9
+    }
+  ],
+  "new_candidates": []
+}

@@ -48,7 +48,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Cleveland | City | 2026-07-15 | data center | 🟢 Extended |
 | Clinton | Village | 2026-06-16 | data center | 🟢 Active |
 | Commercial Point | Village | 2026-05-04 | data center | 🟢 Active |
-| Cortland | City | 2026-06-01 | data center | 🟢 Active |
+| Cortland | City | 2026-06-01 | data center, cryptocurrency mining | 🟢 Active |
 | Defiance | City | 2026-09-01 | data center | 🟢 Active |
 | Eastlake | City | 2025-11-25 | data center | 🟢 Active |
 | Ellsworth Township | Township | 2026-06-10 | data center | 🟢 Active |
@@ -777,7 +777,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Resolution No. R-26-06 (Village of Clinton), a resolution implementing a moratorium on the development of data centers within the village and declaring an emergency
 - **What prompted it:** Resident request for quick action on data centers so council and legal department can develop permanent regulations.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; six-month moratorium adopted 2026-06-16 runs to about mid-December 2026.
+- **Detailed status:** June 16 minutes discuss a six-month term and record 4-2 votes on waiving readings and adopting Resolution R-26-06. Final signed text, procedural effectiveness, operative interval, actual renewal and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Council adopted a six-month, renewable moratorium on issuing permits for data center development while it works on permanent legislation.
 
 ### Commercial Point
@@ -802,14 +802,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-06-01 (emergency passage)
 - **Normalized date:** `2026-06-01` (exact)
-- **Duration:** 12 months
+- **Duration:** Twelve months under section 1; title states not to exceed one year. Section 4 states immediate effect; later action unverified.
 - **Current end date:** `2027-06-01`
-- **Sectors:** data center
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `oh-cortland-2026`
-- **Legal basis:** City Council emergency ordinance (ordinance number not confirmed in sources reviewed) [VERIFY]
+- **Legal basis:** City of Cortland Ordinance O-21-26, passed June 1, 2026, imposing a moratorium not to exceed one year and declaring an emergency.
 - **What prompted it:** Desire to review the planning and zoning code before permitting data centers
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; one-year emergency moratorium on data center zoning permits and applications passed 2026-06-01, running to about 2027-06-01. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]
+- **Detailed status:** Signed Ordinance O-21-26 records June 1, 2026 passage and mayoral approval. Section 1 establishes twelve months, the title says not to exceed one year, section 2 includes cryptocurrency mining and section 4 states immediate effect following suspension of procedural rules. Later amendment, termination and current legal force remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Council gave emergency passage to a one-year moratorium stopping applications and zoning permits for data centers
 
 ### Defiance
@@ -841,7 +841,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** City of Eastlake Resolution No. 2025-103 (emergency), a five-year moratorium on permitting any data centers
 - **What prompted it:** Preemptive, based on regional concerns about data center noise and low-frequency sound, chemically treated cooling water discharged near Lake Erie, and power demand.
 - **Affected projects:** None identified.
-- **Detailed status:** Active as of 2026-09-23; five-year moratorium adopted 2025-11-25 runs to about 2030-11-25.
+- **Detailed status:** November 25, 2025 minutes identify the five-year data-center permit moratorium as Resolution 2025-103 and record unanimous adoption among members present. Final operative text, actual effectiveness and later amendment or repeal remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Long-term pause on data center permits. Residents urged the city to zone data centers out entirely.
 
 ### Ellsworth Township

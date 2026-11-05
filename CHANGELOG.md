@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Scanned Ohio review corrects Clinton, Cortland and Eastlake calendar terms. Cortland’s signed O-21-26 confirms June 1 passage/approval and explicit cryptocurrency-mining coverage. Clinton’s recorded 4-2 votes are preserved without adjudicating procedural effectiveness; Eastlake’s minutes identify Resolution 2025-103 and unanimous adoption among members present. Later legal force remains unresolved.
+
 Cleveland’s enacted October extension replaces the stale original-term account; its January 29, 2027 outer endpoint remains subject to earlier regulations. Clearcreek Resolution 5688 and three news-qualified calendar terms (Commercial Point, Defiance and Ellsworth) are corrected. Defiance’s inferred endpoint is cleared and its separate November ballot result remains unresolved.
 
 Five further Ohio corrections preserve Bellevue and Blanchester calendar terms, correct Berea to Ordinance 2026-33 with its one-year upper limit and unresolved recommends wording, distinguish New Carlisle’s data-center clause from an identical solar-term excerpt, and confirm Clay Township’s unanimous Resolution 2026-016 approval from scanned minutes. Actual operative intervals and later legal force remain flagged.
@@ -96,7 +98,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1068** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **154** |
-| Rows we still want to confirm (`[VERIFY]`) | **526** |
+| Rows we still want to confirm (`[VERIFY]`) | **528** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
