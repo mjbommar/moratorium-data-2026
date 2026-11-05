@@ -142,7 +142,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Tiffin | City | 2026-04-20 | data center | 🟢 Active |
 | Trenton Township (Delaware County) | Township | 2026-04-01 | data center | 🟢 Active |
 | Twinsburg | City | 2026-04-14 | data center | 🟢 Active |
-| Upper Sandusky | City | 2026-07 | data center | 🟢 Active |
+| Upper Sandusky | City | 2026-07-06 | data center | 🟢 Active |
 | Urbana | City | 2026-03-03 | data center | 🟢 Active |
 | Vandalia | City | 2026-04-20 | data center | 🟢 Active |
 | Vermilion | City | 2026-04-20 | data center | 🟢 Active |
@@ -2185,7 +2185,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** City Council Emergency Resolution 2026-08
 - **What prompted it:** Resident Dakota Humphries raised environmental, utility, infrastructure, privacy, and economic concerns at a May 11 meeting; city officials said no developer had contacted the city
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; runs through approximately 2027-06-22
+- **Detailed status:** June 22 minutes record passage of Resolution 2026-08 as an emergency, with Gilliland abstaining. Its title describes twelve months from effectiveness. Final operative text, actual effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Council passed Emergency Resolution 2026-08 with one abstention, imposing a 12-month moratorium on establishing or converting buildings to data centers and on development or construction that would allow the use, while the city reviews federal, state, and local rules
 
 ### Streetsboro
@@ -2290,30 +2290,30 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-04-14 (City Council, unanimous, rules suspended, adopted as emergency; per approved 4/14/26 council minutes)
 - **Normalized date:** `2026-04-14` (exact)
-- **Duration:** Not to exceed twelve (12) months
+- **Duration:** Posted unexecuted text states twelve months from effectiveness or earlier code amendments/revocation; final enacted term unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-twinsburg-2026`
 - **Legal basis:** Ordinance No. 2026-065 (City of Twinsburg), emergency, establishing a moratorium on accepting for filing and issuing zoning and/or occupancy permits for any building, structure, use or change of use involving data centers as a principal use
 - **What prompted it:** Resident concern over rumored data center activity (energy demand, environmental effects incl. pollinators, water, wastewater capacity); time to study and set zoning regulations.
 - **Affected projects:** None; city FAQ states there is no active proposal.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-04-14 runs to about 2027-04-14.
+- **Detailed status:** Posted Ordinance 2026-065 text describes twelve months from effectiveness or earlier code amendments/revocation. Passage, vote, mayoral approval, effectiveness and posting fields are blank. The final enacted term, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Council adopted a one-year moratorium covering zoning and occupancy applications and 'similar use' pathways while the city studies regulations (law director estimated 2-5 months of study).
 
 ### Upper Sandusky
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-07 (city council approved six-month moratorium in July 2026 per the city's 2026-08-25 press release; Daily Chief Union reported passage on 2026-07-08, so likely at the 2026-07-06 meeting; OCJ map says August 2026)
-- **Normalized date:** `2026-07` (month_only)
+- **Date enacted:** 2026-07-06 (City Council adopted Ordinance No. 77-14, per meeting minutes)
+- **Normalized date:** `2026-07-06` (exact)
 - **Duration:** Six months
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-upper-sandusky-2026`
-- **Legal basis:** City of Upper Sandusky council legislation (number not found) imposing a six-month moratorium on acceptance and processing of new data center developments and accessory power facilities
+- **Legal basis:** City of Upper Sandusky Ordinance No. 77-14 imposing a temporary six-month moratorium on acceptance and processing of applications for new data center developments and accessory power generation facilities intended primarily to serve data centers.
 - **What prompted it:** Proposal (Smartland Energy) for a ~$600M data center north of the city with a 150 MW natural gas power plant; city reviewing rules for 'high resource demand' development.
 - **Affected projects:** Proposed data center plus 150 MW gas-fired power plant north of Upper Sandusky (Smartland Energy).
-- **Detailed status:** Active as of 2026-09-23; six-month moratorium approved in July 2026 runs to about January 2027 while the Planning Commission considers standards for 'High Resource Demand Facilities.'
+- **Detailed status:** July 6 minutes identify Ordinance 77-14 and record all-yes adoption after suspension of separate readings. The title states six months covering new data-center developments, accessory power facilities primarily serving them and related uses. Final operative text, actual effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Planning Commission reviewing zoning to define and regulate High Resource Demand Facilities.
 
 ### Urbana

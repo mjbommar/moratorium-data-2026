@@ -1,0 +1,126 @@
+{
+  "applied_at": "20261105T185433",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-ohio-s/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 3,
+    "fields_changed": 14
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "oh-st-marys-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Official minutes state a term in calendar months, not fixed days; this corrects duration encoding only.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-st-marys-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Official minutes state a term in calendar months, not fixed days; this corrects duration encoding only.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-st-marys-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31; runs through approximately 2027-06-22",
+      "after": "June 22 minutes record passage of Resolution 2026-08 as an emergency, with Gilliland abstaining. Its title describes twelve months from effectiveness. Final operative text, actual effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-twinsburg-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "The ordinance specifies twelve months rather than a fixed 365 days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-twinsburg-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "unknown",
+      "reason": "Blank execution fields leave actual enacted term unresolved; posted text states a conditional calendar term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-twinsburg-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; 12-month moratorium adopted 2026-04-14 runs to about 2027-04-14.",
+      "after": "Posted Ordinance 2026-065 text describes twelve months from effectiveness or earlier code amendments/revocation. Passage, vote, mayoral approval, effectiveness and posting fields are blank. The final enacted term, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-twinsburg-2026",
+      "column": "duration",
+      "before": "Not to exceed twelve (12) months",
+      "after": "Posted unexecuted text states twelve months from effectiveness or earlier code amendments/revocation; final enacted term unresolved.",
+      "reason": "Do not treat blank execution fields as final adopted term verification.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-upper-sandusky-2026",
+      "column": "date_enacted",
+      "before": "2026-07 (city council approved six-month moratorium in July 2026 per the city's 2026-08-25 press release; Daily Chief Union reported passage on 2026-07-08, so likely at the 2026-07-06 meeting; OCJ map says August 2026)",
+      "after": "2026-07-06 (City Council adopted Ordinance No. 77-14, per meeting minutes)",
+      "reason": "Official minutes.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-upper-sandusky-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-07",
+      "after": "2026-07-06",
+      "reason": "Official minutes.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-upper-sandusky-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact",
+      "reason": "Official minutes.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-upper-sandusky-2026",
+      "column": "legal_basis",
+      "before": "City of Upper Sandusky council legislation (number not found) imposing a six-month moratorium on acceptance and processing of new data center developments and accessory power facilities",
+      "after": "City of Upper Sandusky Ordinance No. 77-14 imposing a temporary six-month moratorium on acceptance and processing of applications for new data center developments and accessory power generation facilities intended primarily to serve data centers.",
+      "reason": "Ordinance title and adoption in minutes.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-upper-sandusky-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Six months is a calendar term, not 180 fixed days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-upper-sandusky-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Ordinance title in minutes specifies six months.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-upper-sandusky-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; six-month moratorium approved in July 2026 runs to about January 2027 while the Planning Commission considers standards for 'High Resource Demand Facilities.'",
+      "after": "July 6 minutes identify Ordinance 77-14 and record all-yes adoption after suspension of separate readings. The title states six months covering new data-center developments, accessory power facilities primarily serving them and related uses. Final operative text, actual effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force.",
+      "source": "answers.json"
+    }
+  ]
+}

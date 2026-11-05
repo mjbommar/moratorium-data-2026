@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+St. Marys’s minutes preserve the twelve-month term and recorded abstention. Upper Sandusky’s July 6 minutes identify Ordinance 77-14 and its six-month data-center/accessory-power scope. Twinsburg’s blank execution fields leave its enacted term unresolved despite posted conditional twelve-month wording. Later operative intervals and force remain flagged.
+
 Rittman’s September 28 minutes confirm Ordinance 8544 and an additional 180 days after a failed 540-day motion. South Point’s primary minutes correct adoption to May 5, identify Resolution 26-04 and distinguish the unanimous six-month amendment from 4-2 adoption. Both scans were visually reviewed; exact operative intervals and later force remain unresolved.
 
 Five Ohio corrections identify Ravenna Ordinance 2026-067 and preserve Richfield Township, Scioto and Shawnee calendar terms. Shalersville’s reported October 20 additional six-month extension supersedes its unsupported November 1 endpoint; no new endpoint is calculated. Source quality, operative intervals and later legal-force gaps remain explicit.
@@ -126,7 +128,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1068** |
 | Pending or not yet effective | **70** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **572** |
+| Rows we still want to confirm (`[VERIFY]`) | **575** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

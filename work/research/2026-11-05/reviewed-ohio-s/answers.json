@@ -1,0 +1,128 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "oh-st-marys-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.cityofstmarys.net/AgendaCenter/ViewFile/Minutes/_06222026-181",
+          "source_type": "minutes",
+          "document_date": "2026-06-22",
+          "supports": "The city minutes describe a twelve-month term anchored to effectiveness.",
+          "quote": "Allow Data Centers for a Period of Twelve ( 12) Months From the Effective Date of This Resolution"
+        }
+      ],
+      "notes": "Historical calendar-term correction only; effective date and later actions/current force are not established by the June minutes.",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Official minutes state a term in calendar months, not fixed days; this corrects duration encoding only."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Official minutes state a term in calendar months, not fixed days; this corrects duration encoding only."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31; runs through approximately 2027-06-22",
+          "to": "June 22 minutes record passage of Resolution 2026-08 as an emergency, with Gilliland abstaining. Its title describes twelve months from effectiveness. Final operative text, actual effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force."
+        }
+      }
+    },
+    {
+      "moratorium_id": "oh-twinsburg-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The ordinance specifies twelve months rather than a fixed 365 days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "unknown",
+          "reason": "Blank execution fields leave actual enacted term unresolved; posted text states a conditional calendar term."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; 12-month moratorium adopted 2026-04-14 runs to about 2027-04-14.",
+          "to": "Posted Ordinance 2026-065 text describes twelve months from effectiveness or earlier code amendments/revocation. Passage, vote, mayoral approval, effectiveness and posting fields are blank. The final enacted term, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force."
+        },
+        "duration": {
+          "from": "Not to exceed twelve (12) months",
+          "to": "Posted unexecuted text states twelve months from effectiveness or earlier code amendments/revocation; final enacted term unresolved.",
+          "reason": "Do not treat blank execution fields as final adopted term verification."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://mytwinsburg.com/DocumentCenter/View/11167/2026-065-Establishing-Moratorium-for-Data-Centers",
+          "source_type": "ordinance",
+          "supports": "Twelve-month text subject to earlier amendment or revocation; execution fields blank.",
+          "quote": "months from the effective date of this Ordinance or until changes are enacted to amend the"
+        }
+      ],
+      "confidence": 0.9,
+      "notes": "Historical text correction only; later zoning action and current force are unverified."
+    },
+    {
+      "moratorium_id": "oh-upper-sandusky-2026",
+      "outcome": "corrected",
+      "changes": {
+        "date_enacted": {
+          "from": "2026-07 (city council approved six-month moratorium in July 2026 per the city's 2026-08-25 press release; Daily Chief Union reported passage on 2026-07-08, so likely at the 2026-07-06 meeting; OCJ map says August 2026)",
+          "to": "2026-07-06 (City Council adopted Ordinance No. 77-14, per meeting minutes)",
+          "reason": "Official minutes."
+        },
+        "date_enacted_iso": {
+          "from": "2026-07",
+          "to": "2026-07-06",
+          "reason": "Official minutes."
+        },
+        "date_enacted_uncertainty": {
+          "from": "month_only",
+          "to": "exact",
+          "reason": "Official minutes."
+        },
+        "legal_basis": {
+          "from": "City of Upper Sandusky council legislation (number not found) imposing a six-month moratorium on acceptance and processing of new data center developments and accessory power facilities",
+          "to": "City of Upper Sandusky Ordinance No. 77-14 imposing a temporary six-month moratorium on acceptance and processing of applications for new data center developments and accessory power generation facilities intended primarily to serve data centers.",
+          "reason": "Ordinance title and adoption in minutes."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Six months is a calendar term, not 180 fixed days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Ordinance title in minutes specifies six months."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; six-month moratorium approved in July 2026 runs to about January 2027 while the Planning Commission considers standards for 'High Resource Demand Facilities.'",
+          "to": "July 6 minutes identify Ordinance 77-14 and record all-yes adoption after suspension of separate readings. The title states six months covering new data-center developments, accessory power facilities primarily serving them and related uses. Final operative text, actual effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://uppersanduskyoh.com/Agendas%20%26%20Minutes/2026/City%20Council%202026/07-06-2026%20City%20Council%20Minutes.pdf",
+          "source_type": "minutes",
+          "supports": "Instrument title, six-month scope, reading suspension and all-yes adoption; identifier retained as printed.",
+          "quote": "A motion was made by Mr. Moore, seconded by Mr. Korte, to place Ordinance No. 77-14\n\nentitled, \u201cAN ORDINANCE ESTABLISHING A TEMPORARY SIX (6) MONTH\n\nMORATORIUM ON THE ACCEPTANCE AND PROCESSING OF APPLICATIONS\n\nFOR NEW DATA CENTER DEVELOPMENTS, ACCESSORY POWER\n\nGENERATION FACILITIES INTENDED PRIMARILY TO SERVE DATA CENTERS,\n\nAND RELATED USES WITHIN THE CITY OF UPPER SANDUSKY TO ALLOW FOR\n\nA COMPREHENSIVE REVIEW OF THE CITY'S ZONING REGULATIONS, AND\n\nDECLARING THIS ACT AN EMERGENCY.\u201d, on its first reading by title only. Upon\n\nRoll Call, all members voted Yes; the President declared the motion carried. The Clerk read\n\nOrdinance No. 77-14 for the first time by title only.\n\nA motion was made by Mr. M Moore, seconded by Mrs. Niederkohr, to suspend the rules of the\n\nMunicipal Charter calling for separate readings on different days. Upon Roll Call, all\n\nmembers voted Yes; the President declared the motion carried.\n\nA motion was made by Mr. Walker, seconded by Mr. Moore, to place Ordinance No. 77-14\n\non its second reading by title only. Upon Roll Call, all members voted Yes; the President\n\ndeclared the motion carried. The Clerk read Ordinance No. 77-14 for the second time by title\n\nonly.\n\nA motion was made by Mr. Moore, seconded by Mr. Korte, for the adoption of Ordinance\n\nNo. 77-14. Upon Roll Call, all members voted Yes. The President declared the motion\n\ncarried and Ordinance No. 77-14 was duly adopted.",
+          "document_date": "2026-07-06"
+        }
+      ],
+      "confidence": 0.9,
+      "notes": "Corrects historical facts only; instrument effective date, later amendments, and current force remain unverified."
+    }
+  ],
+  "new_candidates": []
+}
