@@ -1,0 +1,62 @@
+{
+  "applied_at": "20261105T183823",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-ohio-j/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 2,
+    "fields_changed": 6
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "oh-madison-township-lake-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The recorded original term is in calendar months or years, not a fixed day count; current status remains unresolved.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-madison-township-lake-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Remove the legacy fixed-day approximation for a calendar term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-madison-township-lake-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; 12-month moratorium adopted 2026-05-28 runs to about 2027-05-28.",
+      "after": "May 28 minutes record Resolution 26-074, a twelve-month data-center pause, with Sill, White and Wayman voting yes. Standalone operative text, actual effective anchor and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate calendar terms and documented original action from unverified later force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-maumee-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The recorded original term is in calendar months or years, not a fixed day count; current status remains unresolved.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-maumee-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Remove the legacy fixed-day approximation for a calendar term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-maumee-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; Resolution 005-2026 (passed 6-0 as an emergency 2026-02-02) runs to about 2027-02-02. Council appointed a Moratorium Research Committee in May 2026.",
+      "after": "Signed Resolution 005-2026 records February 2 passage by six yes votes and no no votes, with mayoral signature. Section 2 states twelve months following effectiveness and allows Council to lift or extend the pause; its opening effectiveness sentence is grammatically incomplete. Section 7 states immediate effect upon passage and mayoral approval. Section 1 exempts repair/replacement of existing data centers and data centers contained in existing businesses. Exact operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate calendar terms and documented original action from unverified later force.",
+      "source": "answers.json"
+    }
+  ]
+}

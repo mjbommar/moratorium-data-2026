@@ -1,0 +1,133 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "oh-inventory-009": "336bafec13647f46ceed980d4386582cf8d5608cfe8b1b747b5700979b72cdba"
+  },
+  "reviewed_answers_sha256": "161db6cd14f78c2dbe8675980f595b954a82b379df4081a12c23fe90c66dc99d",
+  "scope": "Two deferred scanned Ohio calendar terms. Madison page 1 motion and three yes votes reviewed. Maumee pages 2-3 operative term, exceptions, early lifting/extension authority, malformed opening effectiveness sentence and signed passage reviewed. No exact mayoral approval date inferred from undated signature, and no source wording silently repaired. Original native extraction preserved; later force unresolved.",
+  "located_evidence": [
+    {
+      "moratorium_id": "oh-madison-township-lake-county-2026",
+      "url": "https://www.madisontownship.net/_files/ugd/a25612_bb64f2133a1044e1bed1be54f9d02cf3.pdf",
+      "quote": "Mr. Sill presented a motion to approve Resolution #26-074, seconded by Mr. White.",
+      "located": [
+        {
+          "attempt_id": "f0d4dbd610ca4d2286cbd33cb9073c4e",
+          "body_sha256": "07f5b129b614b20b8277f934fafde6b71447db0d3618882b46d2a6c609c5d091",
+          "text_sha256": "4cc2cd1a86dceaedb36406333f7a43b9c6eeb82266b5a32d2e35360d65e3d230",
+          "span": [
+            2417,
+            2498
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-madison-township-lake-county-2026",
+      "url": "https://www.madisontownship.net/_files/ugd/a25612_bb64f2133a1044e1bed1be54f9d02cf3.pdf",
+      "quote": "moratorium of twelve (12) months on the establishing, permitting, consideration, approval,",
+      "located": [
+        {
+          "attempt_id": "f0d4dbd610ca4d2286cbd33cb9073c4e",
+          "body_sha256": "07f5b129b614b20b8277f934fafde6b71447db0d3618882b46d2a6c609c5d091",
+          "text_sha256": "4cc2cd1a86dceaedb36406333f7a43b9c6eeb82266b5a32d2e35360d65e3d230",
+          "span": [
+            2221,
+            2311
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-maumee-2026",
+      "url": "https://www.maumee.org/DocumentCenter/View/286/RES-005-2026-signed-PDF",
+      "quote": "Section 2 - That this moratorium shall become effective on the date that this\nresolution, following its passage by the Council, shall remain in effect for twelve (12) months\nfollowing the date upon which it became effective unless extended upon a majority vote of\nthe Council, if the Council finds such continuance is required to allow sufficient time for the\nadministration to complete its study and recommend what action, if any, the City of Maumee\nshould take to safeguard the public health, safety and welfare through the provision of\nadequate planning, zoning, land use, or other regulatory controls that are specifically\napplicable to activities covered under this resolution. City Council may also lift the\nMoratorium prior to its expiration.",
+      "located": [
+        {
+          "attempt_id": "5fc68f37fbc649dd84caa98123613ceb",
+          "body_sha256": "b1f787eda147a875f62b1f1996520752eb015836eb93fb0c44e1e0b6102be9e9",
+          "text_sha256": "629ee933bbc49c708bd3bb01acf25189adfbefcfd5370284992b2c68cd0447f4",
+          "span": [
+            3817,
+            4566
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-maumee-2026",
+      "url": "https://www.maumee.org/DocumentCenter/View/286/RES-005-2026-signed-PDF",
+      "quote": "Section 7 - That this resolution is hereby declared to be an emergency measure\nimmediately necessary for the preservation of the public health, safety and welfare of the\ncitizens of the City of Maumee, the immediate emergency being the necessity to impose a\ntemporary moratorium on the consideration, approval or authorization of any applications\nfor any activities set forth herein in the City of Maumee to give City officials adequate time to\nconsider what, if any, changes are required to current ordinances to adequately protect the\npublic health, safety and welfare of the community; therefore, this resolution shall be in full\nforce and effect immediately upon its passage and approval by the Mayor.",
+      "located": [
+        {
+          "attempt_id": "5fc68f37fbc649dd84caa98123613ceb",
+          "body_sha256": "b1f787eda147a875f62b1f1996520752eb015836eb93fb0c44e1e0b6102be9e9",
+          "text_sha256": "629ee933bbc49c708bd3bb01acf25189adfbefcfd5370284992b2c68cd0447f4",
+          "span": [
+            6208,
+            6913
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "f0d4dbd610ca4d2286cbd33cb9073c4e",
+      "page": 1,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "ce18398bf072dacb179cf4c0c6aa7feefef4e5e22766c685562004d9268ae197"
+    },
+    {
+      "attempt_id": "5fc68f37fbc649dd84caa98123613ceb",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "5ee22cb800b03200202da940989d0b4ac29af9a7b54ab7e387a2d6c5668b8f60"
+    },
+    {
+      "attempt_id": "5fc68f37fbc649dd84caa98123613ceb",
+      "page": 3,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "43904d03af991f7e0c8f550fc9a8207a19f420c2779f3aaf0ab86b9a2d5fc73d"
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "f0d4dbd610ca4d2286cbd33cb9073c4e",
+      "source_body_sha256": "07f5b129b614b20b8277f934fafde6b71447db0d3618882b46d2a6c609c5d091",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-009/f0d4dbd610ca4d2286cbd33cb9073c4e.ocr.private.txt",
+      "derived_text_sha256": "4cc2cd1a86dceaedb36406333f7a43b9c6eeb82266b5a32d2e35360d65e3d230",
+      "method": "Separately retained PDF OCR; coordinator visually compared listed operative/adoption pages",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:38:15.268289+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    },
+    {
+      "attempt_id": "5fc68f37fbc649dd84caa98123613ceb",
+      "source_body_sha256": "b1f787eda147a875f62b1f1996520752eb015836eb93fb0c44e1e0b6102be9e9",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-009/5fc68f37fbc649dd84caa98123613ceb.ocr.private.txt",
+      "derived_text_sha256": "629ee933bbc49c708bd3bb01acf25189adfbefcfd5370284992b2c68cd0447f4",
+      "method": "Separately retained PDF OCR; coordinator visually compared listed operative/adoption pages",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:38:15.273074+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ]
+}

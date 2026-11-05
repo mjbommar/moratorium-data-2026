@@ -1353,7 +1353,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Madison Township (Lake County) Board of Trustees Resolution #26-074, a 12-month moratorium on establishing, permitting, approving, locating, constructing or installing any data center
 - **What prompted it:** Regional opposition to the Province Group hyperscale data center proposed in nearby Perry Village. Trustees said the cons outweigh the pros.
 - **Affected projects:** None in the township. Context: the Province Group data center proposed at Champion Farm in Perry Village.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-05-28 runs to about 2027-05-28.
+- **Detailed status:** May 28 minutes record Resolution 26-074, a twelve-month data-center pause, with Sill, White and Wayman voting yes. Standalone operative text, actual effective anchor and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Study whether to limit or prohibit data centers. The solicitor advised the board to adopt a follow-up resolution (policy or prohibition) within the 12 months.
 
 ### Massillon
@@ -1385,7 +1385,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Resolution No. 005-2026, 'A Resolution Imposing a Temporary Moratorium on the Establishment, Conversion of Other Structures or Buildings into a Data Center ... for a Period of Twelve (12) Months', passed 6-0 as an emergency measure.
 - **What prompted it:** Data center siting concern near Fallen Timbers and regional concern over large facilities
 - **Affected projects:** No specific developer, applicant, or parcel is named in the resolution; it defines data centers generically (AI, enterprise, managed-services, colocation, cloud, and edge data centers exceeding 5,000 sq ft) and applies city-wide, not to a disclosed project.
-- **Detailed status:** Active as of 2026-09-23; Resolution 005-2026 (passed 6-0 as an emergency 2026-02-02) runs to about 2027-02-02. Council appointed a Moratorium Research Committee in May 2026.
+- **Detailed status:** Signed Resolution 005-2026 records February 2 passage by six yes votes and no no votes, with mayoral signature. Section 2 states twelve months following effectiveness and allows Council to lift or extend the pause; its opening effectiveness sentence is grammatically incomplete. Section 7 states immediate effect upon passage and mayoral approval. Section 1 exempts repair/replacement of existing data centers and data centers contained in existing businesses. Exact operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Ordinance No. 036-2025 (passed 2026-01-05, 7-0), enacted before the moratorium, amended Maumee Codified Ordinances Section 1125.10 to add 'Data Centers' as a Conditional Use in the C-4 Office, Laboratory, and Research District (not a 'manufacturing' district as previously described). Resolution 005-2026 directs further city study of broader zoning, building, and business-regulation changes.
 
 ### Mayfield Village
