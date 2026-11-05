@@ -39,10 +39,10 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1293** |
-| In force (active or extended) | **1068** |
+| In force (active or extended) | **1069** |
 | Pending or not yet effective | **71** |
-| Ended (replaced, expired, or rescinded) | **154** |
-| Rows we still want to confirm (`[VERIFY]`) | **418** |
+| Ended (replaced, expired, or rescinded) | **153** |
+| Rows we still want to confirm (`[VERIFY]`) | **428** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
