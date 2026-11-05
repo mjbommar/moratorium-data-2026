@@ -78,7 +78,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 | Lysander (Onondaga County) | Town | 2023-09-21 | battery storage | 🟢 Extended |
 | Mamakating | Town | Unverified | data center | 🟡 Pending |
 | Mamaroneck Village | Village | 2024-10-31 | battery storage | ⚪ Expired |
-| Manlius | Town | 2026-07-09 | data center, cryptocurrency mining | 🟢 Active |
+| Manlius | Town | 2026-07-08 | data center, cryptocurrency mining | 🟢 Active |
 | Mentz | Town | 2025-06 | battery storage | 🟢 Active |
 | Milton (Saratoga County) | Town | 2024-12 | battery storage, solar | 🟢 Extended |
 | Mina | Town | 2025-05-02 | battery storage | 🟢 Extended |
@@ -1032,14 +1032,14 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Status:** 🟢 Active
 - **Date enacted:** Process began with a Feb 25, 2025 Town Board resolution calling a March 11, 2025 public hearing on a local law to enact Chapter 101B; the underlying enactment established a one-year BESS moratorium later extended twice
 - **Normalized date:** `2025-03` (month_only)
-- **Duration:** Originally ~one year; extended by L.L. No. 9-2026 (adopted 2026-01-13, effective 2026-01-27) to August 25, 2026, then extended again by L.L. No. 75-2026 (adopted 2026-09-09, unanimous) for one more year
-- **Current end date:** `—`
+- **Duration:** Originally approximately one year; Local Law No. 9-2026 extended the term to August 25, 2026. Local Law No. 75-2026, effective September 18, 2026, specifies a lapse after February 25, 2027, unless extended.
+- **Current end date:** `2027-02-25`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-hempstead-2025`
 - **Legal basis:** Town Code Chapter 101B; most recent extension Local Law No. 75-2026 (Resolution No. 801-2026), adopted 2026-09-09
 - **What prompted it:** Town-wide moratorium on battery energy storage system facility applications pending safety/zoning review; a Sept 2026 hearing drew a supporting letter from the Island Park Schools superintendent
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. Chapter 101B's prior term (extended to August 25, 2026 by L.L. No. 9-2026) had lapsed, but on September 9, 2026 the Town Board unanimously adopted Local Law No. 75-2026 (Resolution No. 801-2026), amending Section 101-B-3 to reimpose a one-year moratorium on BESS facility approvals.
+- **Detailed status:** Local Law 75-2026 states September 9 adoption, September 18 effectiveness and a February 25, 2027 lapse date unless extended. This corrects the prior claim of a one-year reimposition; the gap between earlier lapse and this amendment, and subsequent actions, were not fully reviewed. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Ongoing moratorium series; most recently re-extended September 2026
 
 ### Huntington
@@ -1096,14 +1096,14 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-08-11, per the Islip Bulletin
 - **Normalized date:** `2026-08-11` (exact)
-- **Duration:** 18 months
-- **Current end date:** `—`
+- **Duration:** Through February 28, 2028, under Town Code § 68-761.
+- **Current end date:** `2028-02-28`
 - **Sectors:** data center
 - **Moratorium ID:** `ny-islip-2026`
 - **Legal basis:** Town of Islip Town Code Chapter 68-761, an 18-month moratorium on data center development
 - **What prompted it:** Public backlash to proposed data centers; second Long Island town (after Brookhaven) to adopt a data-center moratorium
 - **Affected projects:** No specific project named
-- **Detailed status:** Active as of 2026-09-23, running to approximately February 2028.
+- **Detailed status:** The August 11 adoption resolution identifies Local Law 5 of 2026, Town Code 68-761. The codified text states a moratorium through February 28, 2028. The adopted section conditions effectiveness on publication plus ten days; publication evidence and subsequent acts were not fully reviewed. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted
 
 ### Johnstown
@@ -1270,8 +1270,8 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 
 - **Type:** Town
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-07-09 -- Town Board vote, 7-0.
-- **Normalized date:** `2026-07-09` (exact)
+- **Date enacted:** 2026-07-08 -- Town Board vote, 7-0, reported July 9.
+- **Normalized date:** `2026-07-08` (exact)
 - **Duration:** One year
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
@@ -1279,7 +1279,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Manlius Town Board local law/resolution (unanimous, 7-0)
 - **What prompted it:** Concerns about rising utility bills and outages, water supply, and environmental impact from data processing centers and commercial cryptocurrency mining.
 - **Affected projects:** None named in the source reviewed.
-- **Detailed status:** Adopted; one-year moratorium in effect.
+- **Detailed status:** July 9 reporting describes a unanimous 7-0 Wednesday-night vote, corresponding to July 8, for a one-year data-processing/cryptomining moratorium. Final adopted text, filing and operative interval were not established by this review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** The Manlius Town Board unanimously (7-0) approved a one-year moratorium on data processing centers and commercial cryptocurrency mining operations.
 
 ### Mentz

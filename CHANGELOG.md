@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+New York review corrects Hempstead’s lapse to February 25, 2027 with document-stated September 18 effectiveness, Islip’s explicit February 28, 2028 endpoint and Manlius’s news-qualified July 8 vote date rather than July 9 publication. Publication conditions, intervening gaps and later legal force remain qualified.
+
 Four further New York corrections preserve Gardiner’s later-of filing/July 23 anchor, Glen Cove’s explicit April 28, 2027 outer endpoint, Greig’s twelve-month term with ambiguous effectiveness wording, and Halfmoon’s actual 180-day extension rather than a stale month-only tracker summary. Filing dates, later action and current legal force remain unresolved.
 
 Six further New York corrections record Cortlandt’s adopted December 31, 2026 outer endpoint, Concord’s BESS/solar calendar extensions and residential solar exceptions, Denmark’s calendar term, and news-qualified Clymer/East Greenbush term units. State filing and later force remain unresolved; Concord’s original legacy identity versus its recited 2025 law is flagged for reconciliation.
@@ -70,7 +72,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **487** |
+| Rows we still want to confirm (`[VERIFY]`) | **490** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
