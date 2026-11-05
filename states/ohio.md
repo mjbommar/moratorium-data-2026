@@ -905,7 +905,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Fairfield Township (Butler County) Resolution No. 26-85, 'Resolution Imposing a Six-Month Data Center Moratorium for Fairfield Township'
 - **What prompted it:** Proactive. No data center inquiries, but regional activity (the Amazon Web Services data center near Trenton, other Butler County moratoriums). The township wants to study impacts on infrastructure, utilities and environmental resources and to draft regulations.
 - **Affected projects:** None; the administrator said no one has approached the township.
-- **Detailed status:** Active as of 2026-09-23; six-month moratorium adopted 2026-09-08 runs to about 2027-03-07.
+- **Detailed status:** Resolution 26-85 records September 8, 2026 adoption, with three signed yes votes and fiscal-officer authentication. Section 1 states six months following effectiveness; section 9 states the earliest period allowed by law. Establishment and expansion applications are covered; actual effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Study of impacts and preparation of data center regulations and siting rules.
 
 ### Fayette County
@@ -1074,14 +1074,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-05-20 (Board of Trustees regular session; Resolution 26-0520B adopted as emergency, effective on passage; per certified resolution)
 - **Normalized date:** `2026-05-20` (exact)
-- **Duration:** Twelve months from the effective date, expiring May 20, 2027
+- **Duration:** Twelve months from effectiveness; section 1 explicitly states May 20, 2027 expiry. Pre-effective applications/permits are exempt under section 3; later action unverified.
 - **Current end date:** `2027-05-20`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-hamilton-township-warren-county-2026`
 - **Legal basis:** Hamilton Township (Warren County) Trustee Resolution 26-0520B (emergency) under limited home-rule and R.C. 519.02
 - **What prompted it:** Large-scale data centers raise concerns about grid reliability, rising electricity prices, water and utility availability, noise, aesthetics and safety; township needs time to consider zoning text amendments.
 - **Affected projects:** None named; applications/permits submitted before the effective date are exempt.
-- **Detailed status:** Active as of 2026-09-23; Resolution 26-0520B suspends zoning permits/approvals for new Large-Scale Data Centers until 2027-05-20.
+- **Detailed status:** Signed and certified Resolution 26-0520B records May 20, 2026 adoption with three aye votes and states effectiveness upon passage. Sections 1-2 suspend approvals for new large-scale data centers and expansion of existing facilities through the explicit May 20, 2027 endpoint. Section 3 exempts applications submitted or permits issued before effectiveness. Later action and endpoint inclusivity remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Township staff directed to investigate impacts and possible zoning text amendments; auxiliary (accessory) data centers excluded.
 
 ### Henry Township (Wood County)

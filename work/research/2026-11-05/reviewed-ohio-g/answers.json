@@ -1,0 +1,86 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "oh-fairfield-township-butler-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.fairfieldtwp.org/media/meetings-and-minutes/26-85.pdf",
+          "source_type": "resolution",
+          "document_date": "2026-09-08",
+          "supports": "Adopted resolution anchors a six-month calendar term to its effective date.",
+          "quote": "For a period of six (6) months following the effective date of the Resolution"
+        },
+        {
+          "url": "https://www.fairfieldtwp.org/media/meetings-and-minutes/26-85.pdf",
+          "source_type": "resolution",
+          "document_date": "2026-09-08",
+          "supports": "Section 9 does not establish a known immediate operative start.",
+          "quote": "This resolution shall take effect at the earliest period allowed by law."
+        }
+      ],
+      "notes": "Resolution states earliest period allowed by law; effective date and subsequent actions not established. Observed 2026-11-05; historical source does not establish current force.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The documented term is expressed in calendar months or a year, not a fixed number of days."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Remove the unsupported fixed-day conversion of a calendar term."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; six-month moratorium adopted 2026-09-08 runs to about 2027-03-07.",
+          "to": "Resolution 26-85 records September 8, 2026 adoption, with three signed yes votes and fiscal-officer authentication. Section 1 states six months following effectiveness; section 9 states the earliest period allowed by law. Establishment and expansion applications are covered; actual effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Distinguish signed adoption, stated effectiveness and term from unresolved later force."
+        }
+      }
+    },
+    {
+      "moratorium_id": "oh-hamilton-township-warren-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Source describes a term in calendar months or years; it does not establish a fixed number of days."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Calendar term cannot be represented as an invariant fixed-day duration."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; Resolution 26-0520B suspends zoning permits/approvals for new Large-Scale Data Centers until 2027-05-20.",
+          "to": "Signed and certified Resolution 26-0520B records May 20, 2026 adoption with three aye votes and states effectiveness upon passage. Sections 1-2 suspend approvals for new large-scale data centers and expansion of existing facilities through the explicit May 20, 2027 endpoint. Section 3 exempts applications submitted or permits issued before effectiveness. Later action and endpoint inclusivity remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Distinguish signed adoption, stated effectiveness and term from unresolved later force."
+        },
+        "duration": {
+          "from": "Twelve months from the effective date, expiring May 20, 2027",
+          "to": "Twelve months from effectiveness; section 1 explicitly states May 20, 2027 expiry. Pre-effective applications/permits are exempt under section 3; later action unverified.",
+          "reason": "Preserve source-stated endpoint and prior-application exception."
+        }
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.hamilton-township.org/media/user/resolutions/26-0520B%20Data%20Center%20Moratorium.pdf",
+          "source_type": "resolution",
+          "document_date": "2026-05-20",
+          "quote": "SECTION 1. The issuance of any and all zoning permits and other approvals allowing the development,\nconstruction, or operation of any new Large-Scale Data Centers is hereby suspended for a period of twelve (12)\nmonths from the effective date of this Resolution\u2014which suspension shall expire on May 20, 2027 (the\n\u201cMoratorium\u2019\u201d).\n\nSECTION 2. To the extent there are any existing Large-Scale Data Centers in Hamilton Township as of\nthe effective date of this Resolution, the issuance of any and all zoning permits and other approvals allowing the\nexpansion or enlargement of such existing facilities is hereby suspended for the period of the Moratorium.\n\nSECTION 3. The Moratorium shall not apply to applications or zoning permits related to the\n\ndevelopment, construction, or operation of a Large-Scale Data Center where such applications or permits were\nsubmitted or issued prior to the effective date of this Resolution.",
+          "supports": "Operative calendar term, explicit endpoint, expansion coverage and prior-application/permit exception.",
+          "title": "Resolution 26-0520B",
+          "publisher": "Hamilton Township, Warren County"
+        }
+      ],
+      "notes": "Official signed resolution establishes original adoption, effective-on-passage clause, and explicit expiry; no full search of subsequent local actions was possible."
+    }
+  ],
+  "new_candidates": []
+}

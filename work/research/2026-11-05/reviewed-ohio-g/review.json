@@ -1,0 +1,121 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "oh-inventory-006": "7b347ee1790e5008292dca0daeaa85033625e4f3c91a5f6f46042a59a798de64",
+    "oh-inventory-007": "7c736db9184a0f1817104f299921fb58ca93fdc058f638599e7345ca2fe3a2ed"
+  },
+  "reviewed_answers_sha256": "afd25514b3cd279dac24851590af29f1d93c773dfe445d658e9a6022e83bc68a",
+  "scope": "Two deferred Ohio scanned resolutions. Only pages 2-3 visually compared in each document. Original empty native text preserved. Fairfield handwritten authentication September 8 and three yes votes read visually; actual earliest-lawful effectiveness unknown. Hamilton three ayes, signed May 20 certification, upon-passage clause, explicit endpoint and pre-effective application/permit exception reviewed. Later force and endpoint inclusivity unresolved.",
+  "located_evidence": [
+    {
+      "moratorium_id": "oh-fairfield-township-butler-county-2026",
+      "url": "https://www.fairfieldtwp.org/media/meetings-and-minutes/26-85.pdf",
+      "quote": "For a period of six (6) months following the effective date of the Resolution",
+      "located": [
+        {
+          "attempt_id": "293a966f78b34066941c9625296a448c",
+          "body_sha256": "36d738d73164a6845fc427b1398009d93b265ad3c681e0cef0523dc375474e22",
+          "text_sha256": "d0637a3888583c9c1b14585f4e3fc19434e42a7620b9ca598c8b2e551168807b",
+          "span": [
+            3479,
+            3556
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-fairfield-township-butler-county-2026",
+      "url": "https://www.fairfieldtwp.org/media/meetings-and-minutes/26-85.pdf",
+      "quote": "This resolution shall take effect at the earliest period allowed by law.",
+      "located": [
+        {
+          "attempt_id": "293a966f78b34066941c9625296a448c",
+          "body_sha256": "36d738d73164a6845fc427b1398009d93b265ad3c681e0cef0523dc375474e22",
+          "text_sha256": "d0637a3888583c9c1b14585f4e3fc19434e42a7620b9ca598c8b2e551168807b",
+          "span": [
+            5953,
+            6025
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-hamilton-township-warren-county-2026",
+      "url": "https://www.hamilton-township.org/media/user/resolutions/26-0520B%20Data%20Center%20Moratorium.pdf",
+      "quote": "SECTION 1. The issuance of any and all zoning permits and other approvals allowing the development,\nconstruction, or operation of any new Large-Scale Data Centers is hereby suspended for a period of twelve (12)\nmonths from the effective date of this Resolution\u2014which suspension shall expire on May 20, 2027 (the\n\u201cMoratorium\u2019\u201d).\n\nSECTION 2. To the extent there are any existing Large-Scale Data Centers in Hamilton Township as of\nthe effective date of this Resolution, the issuance of any and all zoning permits and other approvals allowing the\nexpansion or enlargement of such existing facilities is hereby suspended for the period of the Moratorium.\n\nSECTION 3. The Moratorium shall not apply to applications or zoning permits related to the\n\ndevelopment, construction, or operation of a Large-Scale Data Center where such applications or permits were\nsubmitted or issued prior to the effective date of this Resolution.",
+      "located": [
+        {
+          "attempt_id": "4edf3964ca544665990f47504a7f0a29",
+          "body_sha256": "b886c111dabdc33bd5bae907b7cb4f6e6c121a6b8a91a1d909f9148400ccf276",
+          "text_sha256": "e26d3f230c3f13cc5e749157440ecd6b1c2ad519ab0bc06fa6cb447055d3c49c",
+          "span": [
+            3113,
+            4033
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "293a966f78b34066941c9625296a448c",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "462e7bed9f02b667b01bc3136c8ec84f1d91ea709f36dcd4fa7d83bb0b69646b"
+    },
+    {
+      "attempt_id": "293a966f78b34066941c9625296a448c",
+      "page": 3,
+      "render": "pdftoppm PNG -singlefile -scale-to 1300",
+      "render_sha256": "fb1700f1020403cfa67a0f16875da9dd89d9a5b19b8024ff9f7d1aa6130e4718"
+    },
+    {
+      "attempt_id": "4edf3964ca544665990f47504a7f0a29",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "b3a489447e37ec39b4406afefc23fd0870cf2951f15fe831805fed7f73621fef"
+    },
+    {
+      "attempt_id": "4edf3964ca544665990f47504a7f0a29",
+      "page": 3,
+      "render": "pdftoppm PNG -singlefile -scale-to 1300",
+      "render_sha256": "6ac75deb206ada02dbca13d1196120f352dc15c3a90d2e942ad5ef100ae49cdb"
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "293a966f78b34066941c9625296a448c",
+      "source_body_sha256": "36d738d73164a6845fc427b1398009d93b265ad3c681e0cef0523dc375474e22",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-006/293a966f78b34066941c9625296a448c.ocr.private.txt",
+      "derived_text_sha256": "d0637a3888583c9c1b14585f4e3fc19434e42a7620b9ca598c8b2e551168807b",
+      "method": "PDF OCR retained separately; operative and execution pages visually compared by coordinator",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:34:19.029345+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    },
+    {
+      "attempt_id": "4edf3964ca544665990f47504a7f0a29",
+      "source_body_sha256": "b886c111dabdc33bd5bae907b7cb4f6e6c121a6b8a91a1d909f9148400ccf276",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-007/hamilton-ocr.private.txt",
+      "derived_text_sha256": "e26d3f230c3f13cc5e749157440ecd6b1c2ad519ab0bc06fa6cb447055d3c49c",
+      "method": "PDF OCR retained separately; operative and execution pages visually compared by coordinator",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:34:19.031716+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ]
+}
