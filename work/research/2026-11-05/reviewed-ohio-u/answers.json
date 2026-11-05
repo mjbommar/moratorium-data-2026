@@ -1,0 +1,99 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "oh-vienna-township-2026",
+      "outcome": "status_changed",
+      "evidence": [
+        {
+          "url": "https://www.viennatownship.com/wp-content/uploads/2026/10/August-3rd-2026.pdf",
+          "source_type": "minutes",
+          "supports": "Trustees approved the 60-day extension to October 16.",
+          "quote": "Motion 26-0803-5: Motion to approve a 60 day extension of the data center moratorium to October 16, 2026.",
+          "document_date": "2026-08-03"
+        },
+        {
+          "url": "https://www.tribtoday.com/news/local-news/2026/10/vienna-trustees-reject-zoning-language-for-data-centers/",
+          "source_type": "news",
+          "supports": "Reports the October 26 meeting approved another 180-day moratorium; underlying resolution and anchor remain to be checked.",
+          "quote": "and approved another 180-day moratorium.",
+          "document_date": "2026-10-28"
+        }
+      ],
+      "new_enacted_status": "extended",
+      "changes": {
+        "current_status": {
+          "from": "Extended; active as of 2026-09-23. Original 180-day moratorium (adopted 2026-02-17) was extended on 2026-08-03 by 60 days, from Aug. 16 to Oct. 16, 2026, while the Trumbull County Planning Commission reviews the township's data center zoning text.",
+          "to": "August 3 minutes record a sixty-day extension to October 16. October 28 news reports another 180-day moratorium approved at the October 26 meeting, with Pegg opposing. Final adopted text, actual effective anchor, continuity with the preceding pause, operative endpoint and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-stated historical action from unverified current legal force."
+        },
+        "current_end_date_iso": {
+          "from": "2026-10-16",
+          "to": "",
+          "reason": "October 16 is no longer a reliable current end date after the reported further pause; its new anchor is not established."
+        }
+      },
+      "notes": "Further extension supported by contemporary reporting; obtain adopted resolution before specifying exact end or current legal force.",
+      "confidence": 0.65
+    },
+    {
+      "moratorium_id": "oh-washington-township-2025",
+      "outcome": "status_changed",
+      "evidence": [
+        {
+          "url": "https://wtwpdublinoh.gov/cdn/2026.09.08-Minutes.pdf",
+          "source_type": "minutes",
+          "supports": "Scoped operative extension, Tier 2-4 limitation, own adoption roll call and resolution identifier; generic adoption phrase elsewhere refers to unrelated personnel resolution.",
+          "quote": "Section 1: The Board hereby extends its large scale data center (Data Center Tiers 2-4)\n\ndevelopment moratorium six months, from September 8, 2026 to March 9, 2027.\n\nSection 2: It is hereby found and determined that all formal actions of this Board concerning and\n\nrelating to the passage of this Resolution were taken in an open meeting of this Board,\n\nand that all deliberations of this Board and of any of its committees that resulted in\n\nsuch formal action were in meetings open to the public in compliance with all legal\n\nrequirements, including Ohio Revised Code Section 121.22.\n\nMr. Kranstuber seconded the motion, and the roll was called, and all members of the Washington\n\nTownship Trustees who were present voting Aye. Resolution adopted September 8, 2026.\n\n#2026.09.08.015",
+          "document_date": "2026-09-08"
+        }
+      ],
+      "new_enacted_status": "extended",
+      "changes": {
+        "duration": {
+          "from": "90 days initial (2025-12-09 to 2026-03-09), then extended six months to 2026-09-05 by Resolution #2026.02.10.005, adopted unanimously (roll call, all present voting Aye) at the February 10, 2026 trustee meeting.",
+          "to": "90 days initial; six-month extension to September 5, 2026, followed by a six-month extension from September 8, 2026 to March 9, 2027 under Resolution #2026.09.08.015.",
+          "reason": "September 8 minutes record the resolution and its stated term."
+        },
+        "legal_basis": {
+          "from": "Board of Trustees Motion #2025.12.09.001 (90-day initial moratorium, 2025-12-09), extended by Resolution #2026.02.10.005 (2026-02-10), citing R.C. 519.02 (township zoning authority).",
+          "to": "Board of Trustees Motion #2025.12.09.001; Resolution #2026.02.10.005; Resolution #2026.09.08.015, adopted September 8, 2026.",
+          "reason": "The meeting minutes record a further extension."
+        },
+        "current_status": {
+          "from": "Original term ended 2026-09-05 (per Resolution #2026.02.10.005). As of 2026-09-23 a further extension is pending confirmation: the trustees' 2026-09-08 agenda listed a 'Resolution Extending Data Center Development Moratorium within the Unincorporated Territory of the Township', and the administrator said on 2026-08-11 he would present it; the 2026-09-08 minutes (to be approved 2026-09-22) are not yet posted, so adoption and the new term are unconfirmed. [VERIFY: 2026-09-08 extension resolution adoption and new end date]",
+          "to": "September 8 minutes record adopted Resolution 2026.09.08.015 extending the large-scale data-center pause for Tiers 2-4 from September 8, 2026 to March 9, 2027, with all members present voting aye. The preceding recorded term ended September 5; continuity across that interval, endpoint inclusivity and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-stated historical action from unverified current legal force."
+        },
+        "current_end_date_iso": {
+          "from": "2026-09-05",
+          "to": "2027-03-09",
+          "reason": "The adopted resolution expressly states March 9, 2027."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "until_date",
+          "reason": "Adopted extension states explicit March 9, 2027 endpoint."
+        },
+        "duration_days": {
+          "from": "90",
+          "to": "",
+          "reason": "Original fixed days do not encode the later expressly dated extension."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY: 2026-09-08 extension resolution adoption and new end date]",
+          "resolution": "confirmed",
+          "note": "Minutes record adoption and the stated March 9, 2027 end."
+        }
+      ],
+      "notes": "The original resolution ended September 5; the later resolution specifies September 8 as its start. No inference about the intervening days.",
+      "confidence": 0.9
+    }
+  ],
+  "new_candidates": []
+}

@@ -2387,13 +2387,13 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-02-17 (trustee vote 2-1 on 180-day moratorium resolution, per Trustee Haddle quoted by Tribune Chronicle 2026-08-04); extended 60 days on 2026-08-03 (Monday meeting)
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** 180 days (to 2026-08-16), extended 60 days to 2026-10-16
-- **Current end date:** `2026-10-16`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-vienna-township-2026`
 - **Legal basis:** Trustee resolution (Vienna Township, Trumbull County) under R.C. 519, adapted from Hubbard Township's moratorium; extension resolution August 2026
 - **What prompted it:** Preemptive: allow zoning commission to draft data center regulations; followed Hubbard Township's moratorium.
 - **Affected projects:** None named.
-- **Detailed status:** Extended; active as of 2026-09-23. Original 180-day moratorium (adopted 2026-02-17) was extended on 2026-08-03 by 60 days, from Aug. 16 to Oct. 16, 2026, while the Trumbull County Planning Commission reviews the township's data center zoning text.
+- **Detailed status:** August 3 minutes record a sixty-day extension to October 16. October 28 news reports another 180-day moratorium approved at the October 26 meeting, with Pegg opposing. Final adopted text, actual effective anchor, continuity with the preceding pause, operative endpoint and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Zoning commission drafted data center regulations (sent to Trumbull County Planning Commission in August 2026); moratorium extended to cover the review period.
 
 ### Village of Ashville
@@ -2466,14 +2466,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Extended
 - **Date enacted:** 2025-12-09
 - **Normalized date:** `2025-12-09` (exact)
-- **Duration:** 90 days initial (2025-12-09 to 2026-03-09), then extended six months to 2026-09-05 by Resolution #2026.02.10.005, adopted unanimously (roll call, all present voting Aye) at the February 10, 2026 trustee meeting.
-- **Current end date:** `2026-09-05`
+- **Duration:** 90 days initial; six-month extension to September 5, 2026, followed by a six-month extension from September 8, 2026 to March 9, 2027 under Resolution #2026.09.08.015.
+- **Current end date:** `2027-03-09`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-washington-township-2025`
-- **Legal basis:** Board of Trustees Motion #2025.12.09.001 (90-day initial moratorium, 2025-12-09), extended by Resolution #2026.02.10.005 (2026-02-10), citing R.C. 519.02 (township zoning authority).
+- **Legal basis:** Board of Trustees Motion #2025.12.09.001; Resolution #2026.02.10.005; Resolution #2026.09.08.015, adopted September 8, 2026.
 - **What prompted it:** Resident and trustee concerns over grid strain, water use, fire safety, noise, and compatibility with residential land use
 - **Affected projects:** No pending applications identified in captured township records
-- **Detailed status:** Original term ended 2026-09-05 (per Resolution #2026.02.10.005). As of 2026-09-23 a further extension is pending confirmation: the trustees' 2026-09-08 agenda listed a 'Resolution Extending Data Center Development Moratorium within the Unincorporated Territory of the Township', and the administrator said on 2026-08-11 he would present it; the 2026-09-08 minutes (to be approved 2026-09-22) are not yet posted, so adoption and the new term are unconfirmed. [VERIFY: 2026-09-08 extension resolution adoption and new end date]
+- **Detailed status:** September 8 minutes record adopted Resolution 2026.09.08.015 extending the large-scale data-center pause for Tiers 2-4 from September 8, 2026 to March 9, 2027, with all members present voting aye. The preceding recorded term ended September 5; continuity across that interval, endpoint inclusivity and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Legal review and possible zoning work; final extension record not captured
 
 ### Washington Township (Montgomery County)

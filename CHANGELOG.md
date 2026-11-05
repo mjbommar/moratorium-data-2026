@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Washington Township’s adopted Resolution 2026.09.08.015 records a Tier 2–4 extension from September 8 to March 9, 2027; continuity from the prior September 5 ending is not assumed. A generic adoption excerpt matching an unrelated personnel action is replaced by the moratorium’s own passage. Vienna’s reported October 26 further 180 days clears its stale October 16 endpoint without a guessed successor; later force remains unresolved.
+
 Tallmadge’s October 8 minutes confirm 6-0 adoption of extension Ordinance 2026-74; its posted twelve-month October 13 start and earlier-ending conditions remain qualified by blank execution fields. Spencer’s minutes confirm a twelve-month advanced-manufacturing pause without independently defining data-center applicability. Both relevant scan pages were visually reviewed; later legal force remains unresolved.
 
 St. Marys’s minutes preserve the twelve-month term and recorded abstention. Upper Sandusky’s July 6 minutes identify Ordinance 77-14 and its six-month data-center/accessory-power scope. Twinsburg’s blank execution fields leave its enacted term unresolved despite posted conditional twelve-month wording. Later operative intervals and force remain flagged.
@@ -130,7 +132,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1068** |
 | Pending or not yet effective | **70** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **577** |
+| Rows we still want to confirm (`[VERIFY]`) | **578** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
