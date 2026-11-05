@@ -29,7 +29,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | North Branch | City | 2026-07 | data center, cryptocurrency mining, general | 🟢 Active |
 | North Mankato | City | 2026-09-21 | data center | 🟢 Active |
 | Otsego | City | 2026-07-27 | data center | 🟢 Active |
-| Pine County | County | 2026-07 | data center | 🟢 Extended |
+| Pine County | County | 2026-07-07 | data center | 🟢 Extended |
 | Plymouth | City | 2026-09-08 | data center | 🟢 Active |
 | Rice | City | Unverified | data center | 🟡 Pending |
 | Rosemount | City | 2026-04-21 | data center | 🟢 Active |
@@ -242,18 +242,18 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `mn-le-sueur-county-2026`
-- **Legal basis:** 12-month interim ordinance adopted under Minn. Stat. Sec. 462.355, subd. 4 (specific ordinance number not stated in sources reviewed)
+- **Legal basis:** 12-month interim ordinance adopted under Minn. Stat. §§ 394.21–394.37, including § 394.34 (specific ordinance number not stated in the minutes).
 - **What prompted it:** County study of energy, water, noise, heat, air emissions, wastewater and stormwater, emergency response, siting, taxation, and infrastructure impacts of data centers
 - **Affected projects:** County officials reported no data center proposal was then pending
-- **Detailed status:** Active per primary county agenda item and official notice
+- **Detailed status:** The May 26 minutes reproduce a twelve-month interim ordinance from adoption and invoke Minn. Stat. 394.34. This source correction is not a complete later-action or current-force review. [VERIFY: final operative interval, later amendments/extension/repeal/replacement and current legal force; classification remains provisional.]
 - **Outcome:** County Board adopted a 12-month interim ordinance barring establishment, construction, permitting, or acceptance and processing of land-use applications for data centers in unincorporated areas; became effective 2026-06-04
 
 ### Lonsdale
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** Approximately 2026-04-30 (a Thursday city council meeting, described as eight days after an April 22, 2026 Capitol rally calling for a statewide moratorium)
-- **Normalized date:** `2026-04-30` (range)
+- **Date enacted:** 2026-04-30 (City Council approval of Interim Ordinance 2026-342).
+- **Normalized date:** `2026-04-30` (exact)
 - **Duration:** One year.
 - **Current end date:** `—`
 - **Sectors:** data center
@@ -261,7 +261,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Interim Ordinance No. 2026-342, restricting the location, establishment, or construction of data centers, adopted 5-0 by the Lonsdale City Council on April 30, 2026 (motion by James Vosejpka, seconded by Brian Wermerskirchen) on the recommendation of City Attorney/Community Development Planner Cory Hinz-Ibarra, for a one-year term, under Minn. Stat. Sec. 462.355; no public hearing was required
 - **What prompted it:** Concerns over water and energy usage and business practices such as requests that city officials sign nondisclosure agreements; council wanted more information before considering any long-term approach (permanent ban vs. regulation).
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; the April 30, 2026 adoption date is now confirmed (Interim Ordinance 2026-342, 5-0 vote), so the one-year term runs through approximately 2027-04-30. Restricts the location, establishment, or construction of data centers within Lonsdale for one year while the city gathers state-level studies and other information.
+- **Detailed status:** The official June city newsletter identifies approval of Interim Ordinance 2026-342 at the April 30 meeting, replacing the earlier approximate adoption-date description. Executed terms and subsequent legal force remain unresolved. [VERIFY: final operative interval, later amendments/extension/repeal/replacement and current legal force; classification remains provisional.]
 - **Outcome:** One-year interim ordinance passed restricting data center location, establishment, or construction, on the city attorney's recommendation, without a public hearing (though the mayor opened the floor for comment; no one spoke).
 
 ### Mankato
@@ -309,7 +309,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Ordinance No. 509, Authorizing a Study and Imposing a Moratorium on Data Centers, adopted 3-1 by the Minnetrista City Council on August 3, 2026 (Council Member Cathleen Reffkin absent), under Minn. Stat. Sec. 462.355, subd. 4.
 - **What prompted it:** Preemptive: the city had received no data center applications but wanted to get ahead of the issue as proposals emerged elsewhere in the metro area; the city currently has no ordinances governing data centers.
 - **Affected projects:** None named; no data center application pending as of adoption.
-- **Detailed status:** Active as of 2026-09-23. One-year moratorium (through approximately 2027-08-03) on the establishment, construction, relocation, and expansion of data centers while the city studies whether comprehensive plan, zoning, or other official-control amendments are needed. Council Member Brian Govern voted against the moratorium (while supporting the study), arguing data centers could be an opportunity for the city.
+- **Detailed status:** The retained staff proposal describes a one-year interim moratorium; contemporaneous reporting describes 3-1 council approval. Final operative text, publication anchor and later actions remain unresolved. [VERIFY: final operative interval, later amendments/extension/repeal/replacement and current legal force; classification remains provisional.]
 - **Outcome:** Ordinance No. 509 adopted 3-1, authorizing a study and imposing a one-year moratorium on data centers.
 
 ### North Branch
@@ -350,30 +350,30 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** Adopted by the Otsego City Council on July 27, 2026, by a 5-0 vote (Ordinance 2026-11), following a public hearing the same night and a 7-0 Planning Commission recommendation on July 6, 2026.
 - **Normalized date:** `2026-07-27` (exact)
-- **Duration:** Up to one year from adoption (through 2027-07-27); the moratorium will be lifted earlier if the city completes its data center study and adopts new zoning regulations first. The city has a one-time option to extend the moratorium up to an additional six months if needed (per City Planner Dan Licht and hometownsource.com reporting).
-- **Current end date:** `2027-07-27`
+- **Duration:** Up to one calendar year; planner describes earlier end on completed study plus adopted regulations. Exact effective-date anchor, endpoint and extension authority require executed-text review.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `mn-otsego-2026`
 - **Legal basis:** Ordinance 2026-11, an interim ordinance imposing a moratorium and authorizing a study of official controls for data centers, adopted 5-0 by the Otsego City Council on July 27, 2026 under Minn. Stat. Sec. 462.355, subd. 4; recommended 7-0 by the Planning Commission at its July 6, 2026 special meeting.
 - **What prompted it:** City has not received any data center site-plan applications but sought to study the use pre-emptively; Planning Commission found the existing Zoning Ordinance (which permits data centers in the B-4, I-1, and I-2 districts) may be inadequate given the changing nature of such uses
 - **Affected projects:** None; the City has not received any data center site-plan application as of the July 27, 2026 adoption, per City Planner Dan Licht.
-- **Detailed status:** Active as of 2026-09-23. Ordinance 2026-11 was adopted 5-0 by the City Council on July 27, 2026 following a public hearing; it runs up to one year (through approximately 2027-07-27) or until the city's data center study is complete and new zoning regulations are adopted, whichever occurs first.
+- **Detailed status:** The July 27 minutes record 5-0 adoption of Ordinance 2026-11 and the planner describes expiry in one year or earlier completed study plus adopted regulations. The official newsletter says up to one year. No exact endpoint or extension authority is promoted from these materials. [VERIFY: final operative interval, later amendments/extension/repeal/replacement and current legal force; classification remains provisional.]
 - **Outcome:** Adopted: the Otsego City Council voted 5-0 on July 27, 2026 to adopt Ordinance 2026-11, imposing a one-year moratorium on data center land uses and directing staff to study official controls and impacts (water, noise, setbacks, lighting, safety) before drafting permanent zoning regulations.
 
 ### Pine County
 
 - **Type:** County
 - **Status:** 🟢 Extended
-- **Date enacted:** 2026-07 (Board adopted a 6-month interim moratorium); extended to 12 months on 2026-08-18 (Ordinance 2026-15)
-- **Normalized date:** `2026-07` (month_only)
-- **Duration:** 6-month interim moratorium extended to 12 months
+- **Date enacted:** 2026-07-07 (original six-month ordinance); reaffirmed for twelve months effective 2026-08-18
+- **Normalized date:** `2026-07-07` (exact)
+- **Duration:** Original July 7 ordinance: six calendar months from adoption. August 18 reaffirmation: twelve calendar months from adoption, until express repeal or effective new data-center zoning, with effectiveness August 18, 2026.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `mn-pine-county-2026`
-- **Legal basis:** Ordinance 2026-15, interim moratorium on data center development, applying countywide to townships and cities that have opted into county zoning
+- **Legal basis:** Pine County Ordinance 2026-15 adopted July 7, 2026, and reaffirmed August 18, 2026. It excludes incorporated cities unless governed by county zoning, and townships that have adopted data-center rules addressing energy use, water use, and localized impacts.
 - **What prompted it:** Zoning board to study siting, setbacks, and regulation; an earlier version failed for lack of a second on 2026-04-07.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. Board adopted a six-month interim moratorium in July 2026 (an earlier version had failed 2026-04-07 for lack of a second); extended to 12 months at an 2026-08-18 public hearing under Ordinance 2026-15, running through roughly 2027-08-18 unless repealed or superseded by new zoning. Applies to townships and cities that have opted into county zoning; other cities are not covered.
+- **Detailed status:** The original Ordinance 2026-15 was adopted July 7 for six months. The August 18 reaffirmation records a twelve-month term from adoption and effectiveness August 18, subject to earlier repeal or effective new zoning. Incorporated cities are excluded unless governed by county zoning; townships with specified energy/water/local-impact rules are excluded. Later actions and present force remain unresolved. [VERIFY: final operative interval, later amendments/extension/repeal/replacement and current legal force; classification remains provisional.]
 - **Outcome:** Zoning board studying data center regulations, possibly via a working group.
 
 ### Plymouth
@@ -421,7 +421,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Ordinance No. 2026-03, 'An Interim Ordinance Authorizing a Study and Imposing a Moratorium on Data Centers,' adopted by the Rosemount City Council April 21, 2026 under Minn. Stat. Sec. 462.355, subd. 4
 - **What prompted it:** City determined its Zoning Ordinance (Title 11) does not impose express rules or standards specific to data centers, amid a statewide increase in developer interest in Minnesota data center sites
 - **Affected projects:** Not specified in the ordinance itself; news coverage (South Metro Scoop) references resident concern about a possible second Meta data center facility
-- **Detailed status:** Active; one-year term runs to approximately April 21, 2027
+- **Detailed status:** The adopted interim ordinance states one year from effectiveness, with possible earlier repeal or permanent zoning action. Exact operative interval and later actions remain unresolved. [VERIFY: final operative interval, later amendments/extension/repeal/replacement and current legal force; classification remains provisional.]
 - **Outcome:** City staff, consultants, and Planning Commission directed to study data centers and recommend possible zoning amendments
 
 ### St. Joseph
@@ -485,7 +485,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Interim Ordinance No. 26-2, 'Resolution Adopting an Interim Zoning Ordinance Instituting an Emergency Moratorium on Data Centers,' adopted by the Wright County Board of Commissioners May 19, 2026 under Minn. Stat. Sec. 394.34; recorded with the Wright County Recorder May 20, 2026 as Document #A1603075
 - **What prompted it:** County Office of Planning and Zoning began receiving data center development inquiries and permit pressure; County Zoning Ordinance does not expressly regulate data centers
 - **Affected projects:** Not specified in the ordinance
-- **Detailed status:** Active; one-year term runs to approximately May 19, 2027
+- **Detailed status:** The May packet describes a one-year term from the date of the instrument, unless earlier terminated; the county account reports unanimous approval of an emergency moratorium for county townships. Final adopted terms, operative interval and later actions remain unresolved. [VERIFY: final operative interval, later amendments/extension/repeal/replacement and current legal force; classification remains provisional.]
 - **Outcome:** County staff and Planning Commission directed to study data centers and propose amendments to the County's official controls
 
 ---
