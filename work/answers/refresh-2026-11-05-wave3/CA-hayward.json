@@ -1,0 +1,69 @@
+{
+  "state_abbrev": "CA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "California",
+      "jurisdiction": "Hayward",
+      "jurisdiction_type": "City",
+      "sectors": [
+        "data_center"
+      ],
+      "date_enacted": "October 20, 2026, Council adoption of interim urgency Ordinance 26-09; City announcement published October 21.",
+      "date_enacted_iso": "2026-10-20",
+      "date_enacted_uncertainty": "exact",
+      "duration": "Presented draft specifies 45 days from immediate effect unless extended; final adopted term not independently verified because action includes a modification.",
+      "duration_kind": "unknown",
+      "duration_days": null,
+      "enacted_status": "active",
+      "legal_basis": "Interim urgency Ordinance 26-09 under Government Code section 65858; October 20, 2026 Council action on file LB 26-015 records adoption including a modification.",
+      "trigger": "Council study of energy and water supplies, air quality, industrial noise, emergency response capacity and economic development impacts of new data centers.",
+      "trigger_categories": [
+        "environmental",
+        "noise",
+        "infrastructure_capacity",
+        "regulatory_gap"
+      ],
+      "current_status": "Adopted October 20, 2026; the City announced October 21 that the Council unanimously enacted an immediate moratorium on consideration and approval of new data centers. Council action identifies ORD 26-09 and seven affirmative votes. [VERIFY final adopted text and term, modifications, subsequent action and current force after the October 21 observation; the presented draft is unsigned and must not be treated as the final ordinance.]",
+      "outcome": "Temporary moratorium adopted; no permanent prohibition or project cancellation inferred.",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://hayward.legistar.com/LegislationDetail.aspx?GUID=2D407310-FB5E-43DB-B1B9-4A9BD75D1B4F&ID=8291024",
+          "title": "Council file LB 26-015",
+          "source_type": "minutes",
+          "document_date": "2026-10-20",
+          "supports": "Adoption date and modified action.",
+          "quote": "10/20/2026 City Council adopt the following including a modification Pass"
+        },
+        {
+          "url": "https://hayward.legistar.com/HistoryDetail.aspx?ID=37917674&GUID=563D35B1-345F-4E02-B0A2-0E73D6DDE972",
+          "title": "Council action details, retrieved through pydoll browser",
+          "source_type": "minutes",
+          "document_date": "2026-10-20",
+          "supports": "Instrument identifier, adopted motion, and recorded affirmative votes.",
+          "quote": "ORD 26-09. The motion carried by the following vote:"
+        },
+        {
+          "url": "https://www.hayward-ca.gov/discover/news/oct26/hayward-city-council-enacts-immediate-moratorium-new-data-centers",
+          "title": "City announcement October 21",
+          "source_type": "other",
+          "document_date": "2026-10-21",
+          "supports": "City reports unanimous adoption and immediate effect.",
+          "quote": "The Hayward City Council voted unanimously on Tuesday to enact an immediate moratorium on consideration and approval of new data centers."
+        },
+        {
+          "url": "https://hayward.legistar.com/View.ashx?M=F&ID=16071529&GUID=8E34E177-EBE9-481E-84FB-7FEEF9061D48",
+          "title": "Agenda Attachment II, unsigned presented ordinance",
+          "source_type": "ordinance",
+          "document_date": "2026-10-20",
+          "supports": "Draft term only, not verified as final adopted text.",
+          "quote": "WHEREAS, this Ordinance is intended to be of limited duration of 45 days unless"
+        }
+      ],
+      "notes": "Coordinator reviewed original action record using headful pydoll and retained source text. Discovery baseline and current inventory have no Hayward row. Active reflects the supported adopted immediate pause; latest source observation October 21, not a claim of complete November 5 legal-history review. Draft has blank number/signatures; final number comes from action details. No numeric expiry or day count inferred. Fresh Exa and SerpAPI used; broad OR-domain query returned poor-scope leads and no negative conclusion is drawn. NoticeRegistry yielded disclosure boilerplate only and was not substantive evidence."
+    }
+  ]
+}

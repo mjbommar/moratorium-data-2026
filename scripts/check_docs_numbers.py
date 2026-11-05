@@ -24,6 +24,7 @@ import json
 import re
 import sys
 from collections import Counter
+from decimal import Decimal
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
@@ -39,7 +40,7 @@ def load(path: Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
-def facts() -> dict[str, int]:
+def facts() -> dict[str, int | float]:
     inv, leg = load(INV), load(LEG)
     c = Counter(r["enacted_status"] for r in inv)
     # Sweep coverage drifted once already: the prose said 15 while the data said
@@ -53,6 +54,10 @@ def facts() -> dict[str, int]:
     return {
         "rows": len(inv),
         "in_force": c["active"] + c["extended"],
+        "active": c["active"],
+        "extended": c["extended"],
+        "ungeocoded": sum(not r['latitude'].strip() for r in inv),
+        "geocoded_percent": round(100*sum(bool(r['latitude'].strip()) for r in inv)/len(inv),1),
         "active": c["active"],
         "extended": c["extended"],
         "replaced": c["replaced"],
@@ -84,6 +89,11 @@ CLAIMS: list[tuple[str, str, str, str]] = [
     ("README.md", r"\*\*(\d+) pending or proposed\*\* \(not yet adopted\)", "pending", "README headline pending"),
     ("README.md", r"\*\*(\d+) expired, replaced, or rescinded\*\*", "past", "README headline past"),
     ("README.md", r"- \*\*([\d,]+) moratorium instruments\*\* tracked in our cleaned inventory", "rows", "README detail row count"),
+    ("README.md", r"- \*\*([\d,]+) currently in force\*\* \(\d+ active", "in_force", "README detail in-force"),
+    ("README.md", r"currently in force\*\* \((\d+) active", "active", "README detail active"),
+    ("README.md", r"currently in force\*\* \(\d+ active \+ (\d+) extended", "extended", "README detail extended"),
+    ("README.md", r"lat/lon \(([\d.]+)% coverage\)", "geocoded_percent", "README geocoded percentage"),
+    ("README.md", r"the (\d+) blanks comprise", "ungeocoded", "README coordinate gaps"),
     ("README.md", r"- \*\*(\d+) states\*\* have at least one moratorium", "states", "README detail state count"),
     ("README.md", r"- \*\*([\d,]+) state-level bills\*\* tracked", "bills", "README bill count"),
     ("README.md", r"\*\*(\d+) of [\d,]+ instruments geocoded\*\*", "geocoded", "README geocoded count"),
@@ -92,6 +102,7 @@ CLAIMS: list[tuple[str, str, str, str]] = [
     ("docs/methodology.md", r"cleaned inventory has \*\*[\d,]+ instruments across (\d+) states\*\*", "states", "methodology inventory states"),
     ("docs/methodology.md", r"Of ([\d,]+) rows, [\d,]+ \([\d.]+%\) are successfully geocoded", "rows", "methodology geocode denominator"),
     ("docs/methodology.md", r"Of [\d,]+ rows, ([\d,]+) \([\d.]+%\) are successfully geocoded", "geocoded", "methodology geocode numerator"),
+    ("docs/methodology.md", r"Of [\d,]+ rows, [\d,]+ \(([\d.]+)%\) are successfully geocoded", "geocoded_percent", "methodology geocode percentage"),
     ("docs/methodology.md", r"\*\*Inventory \(n=([\d,]+)\):\*\*", "rows", "methodology cohort comparison rows"),
     ("docs/codebook.md", r"\*\*One row per moratorium instrument\.\*\* ([\d,]+) rows total", "rows", "codebook inventory rows"),
     ("docs/codebook.md", r"`total_local_moratoria`: ([\d,]+)", "rows", "codebook total_local_moratoria"),
@@ -103,6 +114,8 @@ CLAIMS: list[tuple[str, str, str, str]] = [
     ("docs/known-gaps.md", r"\*\*(\d+) of (?:the )?[\d,]+ inventory rows\*\* have at least one such evidence-ceiling note", "verify_rows", "known-gaps verify rows"),
     ("docs/known-gaps.md", r"\*\*[\d,]+ of (?:the )?([\d,]+) inventory rows\*\* have at least one such evidence-ceiling note", "rows", "known-gaps verify denominator"),
     ("docs/known-gaps.md", r"(\d+) of [\d,]+ instruments are geocoded", "geocoded", "known-gaps geocoded"),
+    ("docs/known-gaps.md", r"The (\d+) blanks comprise", "ungeocoded", "known-gaps coordinate gaps"),
+    ("docs/known-gaps.md", r"(\d+) moratoria are in force", "in_force", "known-gaps current in-force"),
     ("docs/known-gaps.md", r"[\d,]+ of ([\d,]+) instruments are geocoded", "rows", "known-gaps geocoded denominator"),
     # CHANGELOG claims are checked against the NEWEST entry only (see
     # changelog_head below). Older entries are history: their numbers were true
@@ -161,9 +174,9 @@ def main() -> int:
             problems.append(f"{filename}: could not locate claim -- {label} (pattern may need updating)")
             continue
         checked += 1
-        claimed = int(m.group(1).replace(",", ""))
+        claimed = Decimal(m.group(1).replace(",", ""))
         actual = data[key]
-        if claimed == actual:
+        if claimed == Decimal(str(actual)):
             continue
         if args.fix:
             # Replace only the digits inside the capture span, so the sentence

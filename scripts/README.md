@@ -4,6 +4,10 @@ Code that regenerates this dataset's tables and figures from the source data fil
 
 You don't need any of this to **use** the data — just download the CSVs from [`data/`](../data/). These scripts are here for transparency and so anyone can re-run the analysis.
 
+Discovery candidates may omit a status while research is incomplete. CSV promotion
+requires an explicit reviewed `enacted_status`; the importer never defaults a new
+candidate to active. `gate_answer.sh` stops on schema, dry-run or archive failure.
+
 ## What's in here
 
 | Folder / file | What it does |

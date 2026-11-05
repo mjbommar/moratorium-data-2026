@@ -328,7 +328,7 @@ def build_row(candidate: dict, mid: str, activity_level: str) -> dict:
         "outcome": candidate.get("outcome", ""),
         "cite_count": "0",
         "activity_level": activity_level,
-        "enacted_status": candidate.get("enacted_status", "active"),
+        "enacted_status": candidate["enacted_status"],
         "moratorium_id": mid,
         "date_enacted_iso": iso,
         "date_enacted_uncertainty": candidate.get("date_enacted_uncertainty", "unverified"),
@@ -538,6 +538,9 @@ def main() -> int:
             if conf is not None and conf < args.min_confidence:
                 skipped.append(f"{path.name}: candidate {cand['jurisdiction']} confidence {conf}")
                 stats["candidate_low_confidence"] += 1
+                continue
+            if not cand.get("enacted_status"):
+                conflicts.append(f"{path.name}: candidate {cand['jurisdiction']!r} requires an explicitly reviewed enacted_status; no default active status")
                 continue
             abbrev = STATE_ABBREV.get(cand["state"], "")
             cand_instrument = instrument_key(cand.get("legal_basis", ""))

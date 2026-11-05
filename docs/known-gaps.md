@@ -6,7 +6,7 @@ We're confident in what's in this dataset, but here's an honest accounting of wh
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **301 of the 1291 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`), down from 123 of 222 in v2026.04.4 after a targeted verification pass.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **302 of the 1292 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`), The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
 
 ### Records behind authentication or CAPTCHA gates
 
@@ -89,7 +89,7 @@ rechecked four kinds of rows. We looked at rows past their end date and
 extensions with no new end date. We also looked at proposals more than 60 days
 old and rows with a `[VERIFY]` note.
 
-1063 moratoria are in force, and many end in the next few months. The data
+1064 moratoria are in force, and many end in the next few months. The data
 check still flags eleven rows that look out of date. Eight of them, in
 Cedartown, Georgia and seven New York towns, have passed their end date. We
 could not find out what happened next, so each carries a `[VERIFY]` note. The
@@ -168,7 +168,7 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Geocoding caveats (added v2026.04.2)
 
-1289 of 1291 instruments are geocoded to WGS84 lat/lon via Nominatim, the place-name search service of OpenStreetMap (OSM). The 2 blanks are aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) that aren't real geographic points.
+1289 of 1292 instruments are geocoded to WGS84 lat/lon via Nominatim, the place-name search service of OpenStreetMap (OSM). The 3 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and the newly added Hayward record awaiting coordinate review.
 
 **Within-state name ambiguity.** Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:
 

@@ -6,10 +6,10 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 
 > 📄 **Working paper:** [April 2026 updated draft (PDF, 6 MB, 116 pages)](paper/moratorium-nation-2026-04-30.pdf) · [first edition on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6242898). 50-state legal authority survey, 44-clause taxonomy, 13-section model ordinance template.
 
-> **As of November 5, 2026, 1291 local moratorium instruments are tracked across 47 states.**
+> **As of November 5, 2026, 1292 local moratorium instruments are tracked across 47 states.**
 > Working snapshot: the full November refresh is in progress. Status dates vary by record; these are recorded classifications, not a claim that every instrument was freshly verified.
 >
-> 🟢 **1063 currently in force** (active or extended) · 🟡 **77 pending or proposed** (not yet adopted) · ⚪ **151 expired, replaced, or rescinded** (no longer in force)
+> 🟢 **1064 currently in force** (active or extended) · 🟡 **77 pending or proposed** (not yet adopted) · ⚪ **151 expired, replaced, or rescinded** (no longer in force)
 >
 > Top states by total instruments: Ohio (160), New York (150), Michigan (145), Georgia (70), North Carolina (69), Iowa (57), Tennessee (45), Washington (42), Wisconsin (40), Florida (35).
 >
@@ -63,8 +63,8 @@ For more, see the [FAQ](docs/FAQ.md).
 
 Working snapshot during the **November 5, 2026** refresh (record-level source dates vary):
 
-- **1291 moratorium instruments** tracked in our cleaned inventory
-  - **1063 currently in force** (892 active + 171 extended)
+- **1292 moratorium instruments** tracked in our cleaned inventory
+  - **1064 currently in force** (893 active + 171 extended)
   - **77 pending or proposed** (public hearings scheduled, awaiting adoption)
   - **93 replaced** by permanent regulations
   - **50 expired** without a documented replacement
@@ -74,7 +74,7 @@ Working snapshot during the **November 5, 2026** refresh (record-level source da
 - **Sectors covered**: most moratoria are about **data centers** (about 84% mention them). **Battery storage** comes next (about 19%). Most of those are New York town pauses added in September 2026. Smaller numbers cover **cryptocurrency mining**, **solar**, and **wind**
 - **438 state-level bills** tracked in 2025–2026, plus **2 binding non-bill state-policy actions**. These include moratorium proposals, local-moratorium authority/preemption, permitting limits, and utility-grid restrictions. Filter the typed `policy_instrument_type`, `policy_mechanism`, `legal_effect_status`, and `scope_of_action` columns rather than treating every state row as a moratorium.
 - **348 moratorium texts** read line-by-line and coded against a 44-clause taxonomy (the confidence-≥-0.4 subset of the 526 successful structured extractions in [`data/structured_extractions.jsonl`](data/structured_extractions.jsonl)). ⚠️ This cohort covers 211 jurisdictions and was collected **before 2026-04-28** — it was not re-run in v2026.07, so the clause-level percentages describe only about a quarter of the current inventory. See [known gaps](docs/known-gaps.md)
-- **1289 of 1291 instruments geocoded** with WGS84 lat/lon (99.6% coverage); the 2 blanks are aggregate meta-rows that aren't real geographic points. In September 2026 we found 37 rows placed in the wrong county, because many townships share a name, and fixed them ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
+- **1289 of 1292 instruments geocoded** with WGS84 lat/lon (99.8% coverage); the 3 blanks comprise two aggregate meta-rows and Hayward, whose coordinates await review. In September 2026 we found 37 rows placed in the wrong county, because many townships share a name, and fixed them ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
 
 Full state-by-state breakdown: [**states/README.md**](states/README.md).
 

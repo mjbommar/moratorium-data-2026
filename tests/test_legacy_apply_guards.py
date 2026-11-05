@@ -21,7 +21,7 @@ def module(name):
 
 
 class ApplyGuards(unittest.TestCase):
-    def run_case(self, name, stale=False, dry=False):
+    def run_case(self, name, stale=False, dry=False, candidate=False):
         m = module(name)
         is_policy = name == 'apply_legislation'
         with tempfile.TemporaryDirectory() as tmp:
@@ -42,7 +42,13 @@ class ApplyGuards(unittest.TestCase):
                 decisions=[{'moratorium_id':row['moratorium_id'],'outcome':'corrected',
                     'changes':{'trigger':{'from':row['trigger'],'to':'valid proposed edit','reason':'fixture'},
                                'outcome':{'from':'stale expected value','to':'bad','reason':'fixture'}},'evidence':[{'url':'https://example.invalid','source_type':'other','supports':'fixture'}]}]
-            answer=root/'answers.json';answer.write_text(json.dumps({'state_abbrev':row['state_abbrev'],'researched_as_of':'2026-11-05','decisions':decisions}))
+            payload={'state_abbrev':row['state_abbrev'],'researched_as_of':'2026-11-05','decisions':decisions}
+            if candidate:
+                payload['decisions']=[]
+                payload['new_candidates']=[{'state':row['state'],'jurisdiction':'Synthetic Missing Status',
+                    'jurisdiction_type':'City','confidence':0.9,'sectors':['data_center'],
+                    'evidence':[{'url':'https://example.invalid','source_type':'other','supports':'fixture'}]}]
+            answer=root/'answers.json';answer.write_text(json.dumps(payload))
             if stale:
                 changed=dict(row); changed['sponsors']='concurrent edit'
                 with csv_path.open('w',newline='') as f:
@@ -59,6 +65,9 @@ class ApplyGuards(unittest.TestCase):
 
     def test_inventory_conflict_prevents_partial_write(self):
         self.run_case('apply_research')
+
+    def test_candidate_without_reviewed_status_cannot_default_active(self):
+        self.run_case('apply_research',candidate=True)
 
     def test_policy_invalid_key_prevents_partial_write(self):
         self.run_case('apply_legislation')

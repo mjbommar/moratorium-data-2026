@@ -3,7 +3,7 @@
 
 Every local infrastructure moratorium in the inventory for California, current through **November 5, 2026**.
 
-**33 instruments** — 22 in force, 2 pending, 9 past.
+**34 instruments** — 23 in force, 2 pending, 9 past.
 
 State policy is tracked separately: **13 actions** (13 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -20,6 +20,7 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 | Escondido | City | 2026-08-26 | data center | 🟢 Extended |
 | Eureka | City | 2026-09-01 | data center | 🟢 Active |
 | Gilroy | City | 2026-09-14 | data center | 🟢 Extended |
+| Hayward | City | 2026-10-20 | data center | 🟢 Active |
 | Humboldt County | County | Unverified | data center | 🟡 Pending |
 | Imperial | City | 2026-06-03 | data center, battery storage | 🟢 Extended |
 | Imperial County | County | 2026-06-16 | data center | 🔴 Rescinded |
@@ -220,6 +221,22 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Affected projects:** Does not affect the already-approved Amazon (AWS) data center under construction in northeast Gilroy; covers any future application including a possible second AWS facility.
 - **Detailed status:** The City reports that the Council unanimously extended the moratorium on 2026-10-19 by 10 months and 15 days through 2027-09-03. Documented extension reviewed 2026-11-05; later termination or amendment not independently ruled out.
 - **Outcome:** City to develop objective zoning/siting/operational standards for data centers.
+
+### Hayward
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** October 20, 2026, Council adoption of interim urgency Ordinance 26-09; City announcement published October 21.
+- **Normalized date:** `2026-10-20` (exact)
+- **Duration:** Presented draft specifies 45 days from immediate effect unless extended; final adopted term not independently verified because action includes a modification.
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ca-hayward-2026`
+- **Legal basis:** Interim urgency Ordinance 26-09 under Government Code section 65858; October 20, 2026 Council action on file LB 26-015 records adoption including a modification.
+- **What prompted it:** Council study of energy and water supplies, air quality, industrial noise, emergency response capacity and economic development impacts of new data centers.
+- **Affected projects:** —
+- **Detailed status:** Adopted October 20, 2026; the City announced October 21 that the Council unanimously enacted an immediate moratorium on consideration and approval of new data centers. Council action identifies ORD 26-09 and seven affirmative votes. [VERIFY final adopted text and term, modifications, subsequent action and current force after the October 21 observation; the presented draft is unsigned and must not be treated as the final ordinance.]
+- **Outcome:** Temporary moratorium adopted; no permanent prohibition or project cancellation inferred.
 
 ### Humboldt County
 
