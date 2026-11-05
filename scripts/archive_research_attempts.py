@@ -28,7 +28,20 @@ def import_attempts(directory, state, apply=False, raw_root=None):
     dest = ROOT / "work/sources" / state
     manifest = dest / "manifest.jsonl"
     old = [json.loads(x) for x in manifest.read_text().splitlines() if x.strip()] if manifest.exists() else []
-    seen = {(x["url"], x.get("sha256")) for x in old}
+    seen = set()
+    body_versions = {}
+    for previous in old:
+        body_key = (previous["url"], previous.get("sha256"))
+        body_versions.setdefault(body_key, []).append(previous["key"])
+        text_hash = previous.get("text_sha256")
+        if not text_hash:
+            for filename in previous.get("files", []):
+                candidate = ROOT / filename
+                if candidate.suffix == ".txt" and candidate.is_file():
+                    text_hash = hashlib.sha256(candidate.read_bytes()).hexdigest()
+                    break
+        if text_hash:
+            seen.add((*body_key, text_hash))
     added = []
     derivations_path=directory/'reviewed-derivations.json'
     derivations={x['attempt_id']:x for x in json.loads(derivations_path.read_text())} if derivations_path.exists() else {}
@@ -55,9 +68,14 @@ def import_attempts(directory, state, apply=False, raw_root=None):
             raise ValueError(f"Evidence text drifted without reviewed derivation: {e['attempt_id']}")
         if not text.strip():continue
         public_url=public_source_url(e['url']);final_url=public_source_url(e['final_url'])
-        if (public_url, e["body_sha256"]) in seen:
+        text_hash = hashlib.sha256(text_bytes).hexdigest()
+        body_key = (public_url, e["body_sha256"])
+        if (*body_key, text_hash) in seen:
             continue
         key = hashlib.sha256(public_url.encode()).hexdigest()[:16] + "-" + e["body_sha256"][:12]
+        prior_keys = body_versions.get(body_key, [])
+        if prior_keys:
+            key += "-" + text_hash[:12]
         ext = "pdf" if raw.startswith(b"%PDF-") else "bin"
         raw_path, text_path = dest / f"{key}.{ext}", dest / f"{key}.txt"
         row = {"url": public_url, "final_url": final_url, "status": e["status"], "ok": True,
@@ -73,6 +91,7 @@ def import_attempts(directory, state, apply=False, raw_root=None):
             if context.exists():
                 supplied=json.loads(context.read_text()).get(e['attempt_id'],{})
                 row['source_link_context']={k:supplied[k] for k in ('portal_url','document_label') if k in supplied}
+        if prior_keys: row['extraction_variant_of'] = list(prior_keys)
         if derivation: row['text_derivation']=derivation
         if apply:
             dest.mkdir(parents=True, exist_ok=True)
@@ -92,7 +111,8 @@ def import_attempts(directory, state, apply=False, raw_root=None):
                 f.write(f"\n/{key}.*\n")
             with manifest.open("a") as f:
                 f.write(json.dumps(row, ensure_ascii=False) + "\n")
-        seen.add((public_url, e["body_sha256"]))
+        seen.add((*body_key, text_hash))
+        body_versions.setdefault(body_key, []).append(key)
         added.append(row)
     return {"apply": apply, "new_sources": len(added), "sources": added}
 

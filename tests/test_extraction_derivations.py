@@ -61,6 +61,36 @@ class DerivationTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError,'Derived text drift'):
                     archive.import_attempts(job,'AK')
 
+    def test_new_extraction_preserves_original_and_legacy_replay(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);job=root/'job';job.mkdir();body=b'%PDF-original'
+            original=b'Imperfect extraction'
+            for suffix,raw in [('body',body),('txt',original),('json',b'{}')]:
+                (job/f'abc.private.{suffix}').write_bytes(raw)
+            e={'attempt_id':'abc','kind':'fetch','state':'finished','ok':True,
+               'artifact':str(job/'abc.private.json'),'url':'https://example.gov/law',
+               'final_url':'https://example.gov/law','status':200,'finished_at':'2026-11-05T12:00:00Z',
+               'body_sha256':hashlib.sha256(body).hexdigest(),
+               'text_sha256':hashlib.sha256(original).hexdigest()}
+            (job/'attempts.private.jsonl').write_text(json.dumps(e)+'\n')
+            with patch.object(archive,'ROOT',root):
+                first=archive.import_attempts(job,'MD',apply=True)['sources'][0]
+                manifest=root/'work/sources/MD/manifest.jsonl'
+                # Older archives did not record the extracted-text hash.
+                legacy=dict(first);legacy.pop('text_sha256')
+                manifest.write_text(json.dumps(legacy)+'\n')
+                baseline=manifest.read_bytes()
+                self.assertEqual(archive.import_attempts(job,'MD',apply=True)['new_sources'],0)
+                derived=job/'reviewed.private.txt';derived.write_text('Reviewed complete extraction')
+                derivation.register(job,'abc',derived,'pdftotext -layout',[1],'test reviewer')
+                second=archive.import_attempts(job,'MD',apply=True)['sources'][0]
+                self.assertNotEqual(first['key'],second['key'])
+                self.assertEqual(second['extraction_variant_of'],[first['key']])
+                self.assertTrue(manifest.read_bytes().startswith(baseline))
+                self.assertEqual((root/first['files'][1]).read_bytes(),original)
+                self.assertEqual((root/second['files'][1]).read_bytes(),derived.read_bytes())
+                self.assertEqual(archive.import_attempts(job,'MD',apply=True)['new_sources'],0)
+
     def test_unreviewed_text_replacement_is_not_evidence(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);job=root/'job';job.mkdir();raw=b'payload'
