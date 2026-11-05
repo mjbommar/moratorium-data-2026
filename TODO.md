@@ -69,7 +69,7 @@ Exit: read-only dry-run and bounded acquisition produce auditable plans and atte
 - [x] Implement explicit-file, dry-run, conflict-safe, atomic and idempotent ballot promotion; exercise the first real Eliot batch and exact replay (`scripts/expanded_promotion.py`, `work/research/2026-11-05/eliot-promotion/`).
 - [ ] Complete broader promotion/recovery calibration and the remaining ballot identity/fact reviews; the initial Eliot batch does not close P3.
 - [ ] Extend evidence archive/publication gates to new records and source payload types.
-- [ ] Add behavioral regression checks from plan section 11 (initial subset implemented; full gate coverage pending).
+- [ ] Add behavioral regression checks from plan section 11 (initial subset includes offline publication/receipt drift, historical identity baselines and portable-pointer checks; full gate coverage pending).
 
 Exit: every accepted pilot assertion traces to reviewed evidence; unresolved cases stay unresolved.
 

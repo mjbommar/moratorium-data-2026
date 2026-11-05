@@ -1,0 +1,29 @@
+{
+  "state": "consistent",
+  "snapshot_sha256": "0d3783df2c0d66dabd7c36163910b9dfd4d88a6ff056032735975f97bb7fa906",
+  "generations_checked": 1,
+  "records": {
+    "jurisdictions": 1,
+    "elections": 1,
+    "ballot_measures": 1,
+    "measure_provisions": 1,
+    "measure_results": 1,
+    "local_restrictions": 0,
+    "instrument_events": 0,
+    "measure_instrument_links": 0,
+    "source_documents": 4,
+    "claims": 15,
+    "review_decisions": 55,
+    "search_runs": 0,
+    "search_attempts": 0,
+    "search_sightings": 0,
+    "coverage_observations": 0
+  },
+  "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation.",
+  "validation": {
+    "unit_tests": 76,
+    "make_check": "passed",
+    "checker_sha256": "82e01c371cee4f107ffac6a3e78a67a07ab5223be4ec4c8355290af541222236",
+    "scope": "Initial offline gate and rejection tests only; the wider release completion audit remains open."
+  }
+}

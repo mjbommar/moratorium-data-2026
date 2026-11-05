@@ -38,7 +38,7 @@ check: validate
 	$(PYTHON) scripts/build_geojson.py --check
 	$(PYTHON) scripts/check_docs_numbers.py
 	$(PYTHON) scripts/expanded_identity.py --registry data/identities/expanded.jsonl --check
-	$(PYTHON) scripts/expanded_data.py data/expanded --moratoria data/moratorium_inventory.csv --state-actions data/state_legislation.csv
+	$(PYTHON) scripts/check_expanded_publication.py
 	$(PYTHON) scripts/build_index.py --check
 	$(PYTHON) scripts/classify_sources.py --check
 

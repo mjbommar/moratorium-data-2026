@@ -70,6 +70,15 @@ class PublicationTests(unittest.TestCase):
         self.publish(apply=True);plan=copy.deepcopy(self.plan);plan['rationale']='changed acceptance'
         with self.assertRaisesRegex(ValueError,'Replay plan differs'):self.publish(plan,True)
 
+    def test_changed_retained_plan_cannot_hide_behind_original_hash(self):
+        self.publish(apply=True)
+        path=self.destination.resolve()/'publication.json'
+        receipt=json.loads(path.read_text())
+        receipt['plan']['rationale']='Changed retained plan after publication'
+        path.write_text(json.dumps(receipt)+'\n')
+        with self.assertRaisesRegex(ValueError,'receipt drift'):
+            self.publish(apply=True)
+
     def test_concurrent_identical_publication_has_one_apply_one_replay(self):
         with ThreadPoolExecutor(max_workers=2) as pool:
             states=list(pool.map(lambda _:self.publish(apply=True)['state'],range(2)))

@@ -105,8 +105,7 @@ def review_gate(rows, registry, plan, proofs, previous):
         require(set(records) <= set(rows[table]), 'Records cannot silently disappear: '+table)
 
 
-def publish(destination, candidate, registry_path, plan, evidence_directories,
-            apply=False, visual_reviews=None, moratoria=None, state_actions=None):
+def validate_plan(plan):
     require(set(plan) == {'schema_version', 'expected_sha256', 'registry_sha256', 'snapshot_sha256',
                           'reviewer', 'reviewed_at', 'rationale', 'record_reviews'}, 'Invalid plan fields')
     require(plan['schema_version'] == '1.0.0', 'Unsupported plan version')
@@ -114,6 +113,11 @@ def publish(destination, candidate, registry_path, plan, evidence_directories,
             'Explicit reviewer and rationale required')
     require(datetime.fromisoformat(plan['reviewed_at'].replace('Z', '+00:00')).tzinfo is not None,
             'Review timestamp must include timezone')
+
+
+def publish(destination, candidate, registry_path, plan, evidence_directories,
+            apply=False, visual_reviews=None, moratoria=None, state_actions=None):
+    validate_plan(plan)
     # Canonical publication only creates/swaps a symlink; it never replaces a directory.
     require(not destination.exists() or destination.is_symlink(), 'Destination must be absent or a snapshot pointer')
     require(not destination.is_symlink() or destination.exists(), 'Dangling snapshot pointer')
@@ -146,6 +150,8 @@ def publish(destination, candidate, registry_path, plan, evidence_directories,
             require(current_files == files, 'Published snapshot bytes are not canonical')
             retained = json.loads((destination.resolve()/'publication.json').read_text())
             require(retained['plan_sha256'] == digest(encode(plan).encode()), 'Replay plan differs from publication')
+            require(retained['plan'] == plan and retained['sha256'] == target_hash
+                    and retained['schema_version'] == '1.0.0', 'Retained publication receipt drift')
             # The originally applied baseline was already validated; do not reinterpret it.
             return {'state': 'already_applied', 'sha256': target_hash}
         index = {}

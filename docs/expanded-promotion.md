@@ -89,3 +89,27 @@ they do not justify claiming a partial batch was accepted.
 
 This is local canonical publication. It does not create a Git commit, GitHub release,
 public export or website deployment. Those retain the separate P6 gates.
+
+## Offline publication checks
+
+`make check` now runs `scripts/check_expanded_publication.py`. It resolves the
+relative canonical pointer once, checks the exact fifteen-table contract and byte
+fingerprints, validates all tables and references, checks the retained plan and
+claim-proof coverage, and rechecks record/field acceptance against the identity
+registry version pinned at publication. A valid later registry append does not
+rewrite or invalidate that earlier baseline. Predecessor snapshots are checked
+recursively; missing or cyclic history fails. Tables and receipts must be retained
+regular files in the generation directory.
+
+This read-only check needs no private acquisition files and writes no lock or
+publication. It detects inconsistent byte, plan, proof, identity-history and pointer
+changes, including alterations that leave the candidate schema valid. It does not
+reacquire evidence, repeat PDF rendering or visual judgment, authenticate a reviewer,
+or establish that a legal status is current. Self-consistent fingerprints are not
+a cryptographic signature. Git review, source verification and the separate release
+manifest/remote-verification gates remain required.
+
+Regression tests exercise the first immutable real snapshot in a temporary copy,
+including byte drift, missing tables, changed review partitions, missing/wrong-source
+proofs, false support flags, appended versus altered identity history, nonportable
+pointers, redirected files, unsupported plans and cyclic predecessors.
