@@ -1,0 +1,106 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "oh-inventory-012": "1bbfdb0e88f088840873015df0393f0bc5436bcbf5b99b39ea602632bcf50203"
+  },
+  "reviewed_answers_sha256": "36dbcd5e94a724358592499eaf8f60a8c73cae2c142797cac6cad5b8f595ce71",
+  "scope": "Two deferred Ohio scan term corrections. North Royalton page 1 and Painesville packet page 15 visually compared. Native extraction remains unchanged; no guessed operative anchor, calculated endpoint, exercise of extension authority or complete later force asserted. Only listed pages visually reviewed.",
+  "located_evidence": [
+    {
+      "moratorium_id": "oh-north-royalton-2026",
+      "url": "https://cms7files.revize.com/northroyalton/Government/Legislation/2026/26-118%20TEMPORARY%20MORATORIUM%20ON%20DATA%20CENTERS%20FOR%20ONE%20YEAR.pdf?t=202607221231330",
+      "quote": "year from the effective date of this Ordinance",
+      "located": [
+        {
+          "attempt_id": "222b9120b2d2479b901006238c8d5d9d",
+          "body_sha256": "85aa4e9743d74cbd7d5b773593317cb6254415f863307d730f44a102e41c93c3",
+          "text_sha256": "277fb7e2eb48fc29905c6dc3c278f99be9725a531426f718c55aa71081eab8a0",
+          "span": [
+            3124,
+            3170
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-painesville-township-2026",
+      "url": "https://painesvilletwp.com/wp-content/uploads/2026/06/05.12.2026.pdf",
+      "quote": "Section 1: This Board declares a moratorium on the issuance and processing of any\npermits for the development of any type of data center, or related use, within Painesville\nTownship for a period of twelve (12) months from the effective date hereof, or such other period\nas may be approved by the Board of Trustees of Painesville Township based upon the results of\nany studies conducted or submitted to it.",
+      "located": [
+        {
+          "attempt_id": "cd66361824ce48b6bb947183ff7e86fd",
+          "body_sha256": "35fb050cf2027b093b917b690bd790b24d6670ea4f10638b91a75097bf9e0a90",
+          "text_sha256": "927dce1c94794e82e1034e3d0500475032b56fb17227803fc709078918655016",
+          "span": [
+            30715,
+            31120
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "222b9120b2d2479b901006238c8d5d9d",
+      "page": 1,
+      "render": "pdftoppm PNG -singlefile -scale-to 1300",
+      "render_sha256": "f778d42717d2a5d633875262e2e1036e9b299b42230405a985574085d2c08cd8"
+    },
+    {
+      "attempt_id": "cd66361824ce48b6bb947183ff7e86fd",
+      "page": 15,
+      "render": "pdftoppm PNG -singlefile -scale-to 1300",
+      "render_sha256": "5b0264367f14afb5ff090efa3ed63d1617deb405d8bf6aaa0f82e7962ab32996"
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "222b9120b2d2479b901006238c8d5d9d",
+      "source_body_sha256": "85aa4e9743d74cbd7d5b773593317cb6254415f863307d730f44a102e41c93c3",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-012/222b9120b2d2479b901006238c8d5d9d.ocr.private.txt",
+      "derived_text_sha256": "277fb7e2eb48fc29905c6dc3c278f99be9725a531426f718c55aa71081eab8a0",
+      "method": "Separately retained PDF OCR; coordinator visually compared listed operative/adoption pages",
+      "pages": [
+        1,
+        2
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:46:18.020802+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    },
+    {
+      "attempt_id": "cd66361824ce48b6bb947183ff7e86fd",
+      "source_body_sha256": "35fb050cf2027b093b917b690bd790b24d6670ea4f10638b91a75097bf9e0a90",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-012/cd66361824ce48b6bb947183ff7e86fd.ocr.private.txt",
+      "derived_text_sha256": "927dce1c94794e82e1034e3d0500475032b56fb17227803fc709078918655016",
+      "method": "Separately retained PDF OCR; coordinator visually compared listed operative/adoption pages",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:46:18.032671+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ]
+}

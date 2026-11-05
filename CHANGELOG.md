@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+North Royalton and Painesville Township scanned operative clauses confirm calendar terms from effectiveness. Painesville’s alternative trustee-approved period is preserved as authority rather than an actual extension. Exact operative intervals and later legal force remain unresolved; the original extraction artifacts are retained separately from reviewed OCR.
+
 Perry Village’s October 8 adoption replaces its pending entry using the official publication notice and visually reviewed signed Ordinance 2026-13. The one-year calendar term, Champion Farm and ancillary-server-room exceptions are preserved; separate mayoral approval timing and later force remain unresolved. Ontario’s minutes confirm Ordinance 26-13, its six-month AI data-center scope and seven-aye adoption.
 
 Mount Orab’s scanned minutes identify original Ordinance 1339 and August 18 Ordinance 1349 granting an additional 180 days. The original title literally conflicts, saying ONE HUNDRED AND EIGHT (180) DAYS; no original operative interval is inferred. New Franklin’s six-month Resolution 26-R-28 records 6-1 adoption, distinct from unanimous reading waiver. Later legal force remains unresolved.
@@ -118,7 +120,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1068** |
 | Pending or not yet effective | **70** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **562** |
+| Rows we still want to confirm (`[VERIFY]`) | **564** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

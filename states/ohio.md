@@ -1689,7 +1689,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** City of North Royalton Ordinance No. 26-118 (emergency), temporary one-year moratorium on zoning, occupancy, conditional use and building permit applications for new data centers in all zoning districts
 - **What prompted it:** Zoning code does not address data centers (high electrical demand, continuous operation, cooling); also wants to classify similar high-intensity computing uses such as cryptocurrency mining.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium passed 2026-07-21 runs to about 2027-07-21.
+- **Detailed status:** Posted Ordinance 26-118 section 1 states one year from effectiveness for data-center applications and approvals in all zoning districts. Its emergency clause conditions immediate effect on the required Council vote and mayoral approval. Exact operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Administration, Council and Planning Commission to review and possibly amend the zoning code for data centers.
 
 ### Northfield Center Township
@@ -1753,7 +1753,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Painesville Township Trustee Resolution 2026-057, an immediate zoning moratorium for data center uses (township zoning under R.C. 519)
 - **What prompted it:** Preemptive. The zoning resolution does not define or regulate data centers. Concerns about land-use compatibility, electric and water demand, noise, heat and few jobs. The Perry Village data center proposal nearby.
 - **Affected projects:** None. No company had approached the township.
-- **Detailed status:** Active as of 2026-09-23; 12-month zoning moratorium adopted 2026-05-12 runs to about 2027-05-12.
+- **Detailed status:** Posted Resolution 2026-057 section 1 states twelve months from effectiveness or another period approved by the trustees based on studies. This authority does not demonstrate an actual later extension; exact operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Township to draft zoning resolution text to define and regulate data centers during the moratorium.
 
 ### Paris Township (Union County)
