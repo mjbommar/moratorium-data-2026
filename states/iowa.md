@@ -224,10 +224,10 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ia-city-of-cascade-2026`
-- **Legal basis:** Cascade City Council motion/moratorium of 2026-06-22 (form of instrument not reported)
+- **Legal basis:** Cascade City Council Resolution #57-26 approving a 12-month moratorium on data center construction within city limits.
 - **What prompted it:** Potential data center development (Simple Mining) discussed with the Cascade Economic Development Corp.; residents sought time for ordinances and public input.
 - **Affected projects:** Planned Simple Mining data center in Cascade's industrial park (redacted agreement with Cascade Economic Development Corp.).
-- **Detailed status:** Active as of 2026-09-23 per the June 2026 adoption; in July 2026 the council considered forming an advisory committee to draft data center rules.
+- **Detailed status:** Council minutes record approval of Resolution 57-26 on June 22, 2026, for a twelve-month data-center construction moratorium, with four ayes and one nay. [VERIFY: executed resolution, effective-date anchor, later amendments or termination and present legal force.]
 - **Outcome:** —
 
 ### City of Dubuque
@@ -236,14 +236,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-09-21 -- City Council unanimously adopted a six-month moratorium ordinance on hyperscale data centers at its Monday meeting (after delaying an earlier version to refine thresholds and annexation language).
 - **Normalized date:** `2026-09-21` (exact)
-- **Duration:** Six months
+- **Duration:** Six calendar months from effectiveness; the ordinance says effective upon publication, with extension, amendment or repeal possible. [VERIFY: publication date and later actions.]
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ia-city-of-dubuque-2026`
-- **Legal basis:** City of Dubuque temporary moratorium ordinance on hyperscale data centers (ordinance number not published in coverage); hyperscale = >100,000 sq ft, >75 MW, >=50 gpm cooling/operational water, or >=5,000 servers
+- **Legal basis:** Dubuque Ordinance 37-26: hyperscale means gross floor area exceeding 100,000 square feet, electrical demand exceeding 75 MW, 5,000 or more servers, or cooling or operational water use of 50 gallons per minute or more.
 - **What prompted it:** Evaluate utility infrastructure and whether/how land proposed for hyperscale data centers could be annexed or served by public utilities; resident survey opposition.
 - **Affected projects:** None; no annexation petition, site plan or utility request had been presented.
-- **Detailed status:** Active as of 2026-09-23; six-month hold on hyperscale data center applications and utility requests adopted 2026-09-21 while the City Attorney drafts a long-term ordinance.
+- **Detailed status:** Ordinance 37-26 was adopted September 21, 2026 and establishes a six-month pause for facilities meeting any of its hyperscale criteria. The ordinance takes effect upon publication. [VERIFY: publication date, later actions and present legal force.]
 - **Outcome:** —
 
 ### City of Fairfax
@@ -268,14 +268,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-08-24 -- City Council voted 6-0 to pass a data center moratorium ordinance, waiving second and third readings; effective upon publication (Thursday, Aug. 27).
 - **Normalized date:** `2026-08-24` (exact)
-- **Duration:** 12 months from publication, with an optional 6-month extension
+- **Duration:** Twelve calendar months, as identified in the August 24, 2026 final-reading minutes. [VERIFY: final ordinance text, publication/term anchor and any extension provision.]
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ia-city-of-fairfield-2026`
-- **Legal basis:** City of Fairfield data center moratorium ordinance (ordinance number not published in coverage), recommended by the Planning and Zoning Commission after an Aug. 17 hearing
+- **Legal basis:** Fairfield Ordinance No. 1287 establishing a twelve-month moratorium on applications related to data center construction or development.
 - **What prompted it:** Time to study data center impacts and city codes, following Jefferson County's Aug. 11 moratorium.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium effective on publication (about 2026-08-27).
+- **Detailed status:** August 24, 2026 minutes record passage through the third and final reading of Ordinance 1287, establishing a twelve-month data-center moratorium. [VERIFY: publication and effective date, final ordinance terms, later actions and present legal force.]
 - **Outcome:** —
 
 ### City of Marshalltown
@@ -445,13 +445,13 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2025-01-28 (Board of Supervisors adopted Resolution 25-05, 4-0 with one absent, per official minutes); continued by Resolution 25-36 (Sept. 2025, to 2026-03-31), Resolution 26-13 (2026-03-24, to 2026-09-30) and Resolution 26-28 (2026-09-22, to 2026-12-31)
 - **Normalized date:** `2025-01-28` (exact)
 - **Duration:** Until 2025-09-30 at 11:59 p.m. (Resolution 25-05), unless ended earlier on completion of zoning amendments; continued to 2026-03-31, then 2026-09-30, then 2026-12-31
-- **Current end date:** `—`
+- **Current end date:** `2026-12-31`
 - **Sectors:** battery storage, solar
 - **Moratorium ID:** `ia-emmet-county-2025`
 - **Legal basis:** Resolution 25-05 (2025-01-28), 'Temporary Moratorium on the Construction of USSES and BESS in the Unincorporated Areas of Emmet County, Iowa'; continued by Resolutions 25-36, 26-13 and 26-28
 - **What prompted it:** Board wants ordinances regulating construction, operation and decommissioning of utility-scale solar and battery storage (safety, neighbouring property, county roads) before any are built.
 - **Affected projects:** None named.
-- **Detailed status:** Extended as of 2026-09-23; the USSES/BESS construction moratorium adopted 2025-01-28 has been continued three times, most recently by Resolution 26-28 (signed 2026-09-22), to 2026-12-31 at 11:59 p.m., while the county drafts solar and battery-storage zoning rules.
+- **Detailed status:** Resolution 26-28, signed September 22, 2026, continues the USSES and BESS construction moratoria until December 31, 2026 at 11:59 p.m., unless extended. The Board reserves earlier termination on completion of zoning amendments and satisfactory resolution of identified issues. [VERIFY: subsequent early termination, extension or replacement and present legal force.]
 - **Outcome:** County drafting solar (and BESS) ordinance; board may end the moratorium early when zoning amendments are complete.
 
 ### Emmet County
@@ -492,14 +492,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-03-31
 - **Normalized date:** `2026-03-31` (exact)
-- **Duration:** Temporary; end date not captured
+- **Duration:** Eighteen months effective immediately, or until passage of an ordinance in relation to data center development, whichever comes first.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ia-franklin-county-2026`
 - **Legal basis:** Ordinance 2026A — "AN ORDINANCE AUTHORIZING A MORATORIUM ON NEW PERMIT APPLICATIONS FOR DEVELOPMENT OF DATA CENTER PROJECTS WITHIN THE UNINCORPORATED AREA OF FRANKLIN COUNTY, IOWA" (public hearing notice published in Hampton Chronicle 2026-03-18; first/second readings waived; third reading approved and ordinance adopted by unanimous vote of Lukensmeyer, McVicker, Vanness on 2026-03-31)
 - **What prompted it:** County evaluation of impacts and planning needs for data center projects in unincorporated areas.
 - **Affected projects:** New permit applications for data center projects in unincorporated Franklin County; no project names or MW listed.
-- **Detailed status:** Active as of 2026-09-23. Ordinance 2026A (adopted 2026-03-31) remains in force; Franklin County's July-August 2026 actions (Ordinances 2026B/2026C and Board recaps through Aug. 18) did not adopt data center regulations, so the moratorium's termination trigger has not occurred.
+- **Detailed status:** The adopted notice for Ordinance 2026A, passed March 31, 2026, specifies an immediate eighteen-month moratorium or earlier passage of a data-center development ordinance. [VERIFY: subsequent terminating ordinance, other amendments and present legal force; earlier partial agenda checks do not establish absence of later action.]
 - **Outcome:** No replacement ordinance identified.
 
 ### Henry County
@@ -573,13 +573,13 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** January 2, 2024 (original); extended Sept. 10, 2024 and Dec. 23, 2025
 - **Normalized date:** `2024-01-02` (exact)
 - **Duration:** Extended through August 31, 2027
-- **Current end date:** `—`
+- **Current end date:** `2027-08-31`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ia-jackson-county-2024-2`
 - **Legal basis:** Resolution #1004-01-02-2024 (original); extended by Resolution #1063-09-10-2024 (to 2025-06-30) and Resolution #1157-12-23-2025 (to 2027-08-31)
 - **What prompted it:** County lacks a Utility-Scale Battery Energy Storage Systems ordinance; Planning and Zoning Commission needs time to draft one
 - **Affected projects:** None named
-- **Detailed status:** Active/extended as of 2026-09-23, through Aug. 31, 2027.
+- **Detailed status:** December 23, 2025 minutes record unanimous approval of Resolution 1157-12-23-2025 extending the utility-scale BESS moratorium until August 31, 2027. [VERIFY: later termination, replacement or other amendments and present legal force.]
 - **Outcome:** Board reserves the right to terminate early upon adoption of a BESS ordinance
 
 ### Jefferson County

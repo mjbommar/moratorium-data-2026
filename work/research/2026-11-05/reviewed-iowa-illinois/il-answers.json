@@ -1,0 +1,54 @@
+{
+  "state_abbrev": "IL",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "il-city-of-troy-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.troyil.us/AgendaCenter/ViewFile/Minutes/_09212026-1020",
+          "title": "City Council minutes",
+          "source_type": "minutes",
+          "supports": "Minutes report passage of the motion to approve Ordinance 2026-57.",
+          "quote": "Vote:  Motion passed. (Aye = 7; Nay = 0)",
+          "document_date": "2026-09-21"
+        },
+        {
+          "url": "https://www.timestribunenews.com/2026/09/24/troy-city-council-extends-data-center-moratorium-until-march-2027/",
+          "title": "Troy City Council extends data center moratorium",
+          "source_type": "news",
+          "supports": "Contemporaneous report describes a six-month extension.",
+          "quote": "the Troy City Council approved an ordinance for another six month moratorium",
+          "document_date": "2026-09-24"
+        }
+      ],
+      "notes": "Minutes establish extension adoption; original expiration, exact new end date, operative text, and later actions remain unresolved. Existing extended status is retained. The minutes repeat the same motion label under unrelated subsequent resolutions; this review uses the first ordinance item, explicitly titled Ordinance 2026-57.",
+      "changes": {
+        "current_status": {
+          "from": "As of 2026-09-23: the original moratorium (Ordinance 2026-24) expired 2026-08-28. The Planning Commission unanimously recommended (5-0, 2026-09-10) extending it, and the City Council's September 21, 2026 agenda included Ordinance 2026-57 to adopt that extension (per the city's own AgendaCenter). Minutes confirming the Council's vote on Sept. 21 had not yet been posted to the city's website as of this research pass, so the extension's final adoption is treated as highly likely but not independently confirmed by minutes; no source reports the extension failing or the moratorium being allowed to lapse.",
+          "to": "On September 21, 2026, City Council approved Ordinance 2026-57 extending the moratorium established by Ordinance 2026-24, by a 7-0 vote. A September 24 news report described a further six-month moratorium; the signed text, exact end date, and later actions were not verified. [VERIFY: signed extension, original termination date, new effective date and endpoint, and present legal force.]",
+          "reason": "Council minutes confirm the vote that the baseline said remained unconfirmed."
+        },
+        "duration": {
+          "from": "Original 6-month moratorium (Ordinance 2026-24, adopted March 2026) expired 2026-08-28. Planning Commission voted 5-0 on 2026-09-10 to recommend an extension; City Council placed the extension (Ordinance 2026-57) on its September 21, 2026 agenda. The September 17, 2026 Troy Times Tribune reported city officials intended to extend the moratorium 'until next March' (i.e., through approximately March 2027) to allow the city to see the outcome of the state legislature's fall veto session on data center regulation.",
+          "to": "Earlier coverage described an original six-month term. Council minutes confirm approval of extension Ordinance 2026-57 on September 21, 2026; September 24 news describes a further six-month moratorium. [VERIFY: original ending, executed extension, effective-date anchor and exact current endpoint.]",
+          "reason": "Do not leave the confirmed vote described as a future agenda item or infer the end from six-month reporting."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Terms are reported as six calendar months; the extension vote alone does not supply a fixed day count."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Do not convert a reported six-month term into 180 fixed days."
+        }
+      },
+      "confidence": 0.9
+    }
+  ],
+  "new_candidates": []
+}

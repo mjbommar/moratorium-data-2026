@@ -24,13 +24,15 @@ Florida corrections document Minneola's July 21 second-reading approval (Ordinan
 
 Georgia/Iowa lifecycle reviews update Putnam and Johnson County extensions, a news-qualified Stephens County extension, and Covington's recorded revocation. Dubuque County's July 6 Resolution 26-151 is added as a distinct temporary successor; its May 26 predecessor (26-107) is classified rescinded under the existing codebook. Publication and current-force questions remain flagged. The successor uses the existing county centroid with recorded provenance. New-row imports now retain explicitly supplied end dates, with a replay regression test.
 
+Further Iowa/Illinois source review identifies Cascade Resolution 57-26, City of Dubuque Ordinance 37-26 and Fairfield Ordinance 1287, preserving their calendar terms. Emmet's solar/BESS and Jackson's BESS endpoints are recorded from official continuation documents, and Franklin's explicit eighteen-month upper bound replaces an event-only account. Troy's September 21 extension vote is confirmed in minutes; its reported six-month term does not supply a verified exact endpoint. Publication, final-text and later-action gaps remain flagged.
+
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1293** |
 | In force (active or extended) | **1067** |
 | Proposed, not yet voted on | **73** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **319** |
+| Rows we still want to confirm (`[VERIFY]`) | **326** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
