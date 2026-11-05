@@ -38,14 +38,14 @@ State policy is tracked separately: **16 actions** (16 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-06-16 was the ordinance's introduction/first reading (per the June 16, 2026 Council agenda listing Ordinance 2172-2026 for public hearing). Final passage occurred at the July 14, 2026 Council meeting (per that meeting's official agenda/ordinance statements) and the Township's public notice titled 'Publication Final Passage Ordinance #2172-2026 Temporary Moratorium of Data Centers' was posted July 15, 2026.
 - **Normalized date:** `2026-07-14` (exact)
-- **Duration:** Six months (180 days) while the Planning Board and Environmental Commission study data centers
-- **Current end date:** `2027-01-10`
+- **Duration:** Six months while the Planning Board and Environmental Commission study data centers
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nj-galloway-township-2026`
 - **Legal basis:** Ordinance 2172-2026 (Township of Galloway), a temporary moratorium on the approval, development, construction, expansion, and operation of data centers, introduced 2026-05-12 and finally passed per the township's own final-passage affidavit
 - **What prompted it:** Planning Board and Environmental Commission to study data center land use and make recommendations before further approvals proceed
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. Ordinance 2172-2026 was introduced June 16, 2026 and finally passed at the Council's July 14, 2026 meeting (notice published July 15, 2026), establishing a six-month moratorium on the approval, development, construction, expansion, and operation of data centers while the Planning Board and Environmental Commission study the issue. The moratorium is set to run through approximately January 10, 2027. No extension, repeal, or permanent ordinance was found in sources reviewed through 2026-09-23.
+- **Detailed status:** The township-hosted affidavit form identifies Ordinance 2172-2026 as a six-month data-center moratorium and states a July 15 posting date. Clerk signature and notary fields are blank; the form alone does not establish sworn execution, final-passage approval, operative effectiveness or current legal force. The prior January 10, 2027 endpoint was an unsupported 180-day calculation and is cleared. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Mullica Township
@@ -77,7 +77,7 @@ State policy is tracked separately: **16 actions** (16 bills) in [`state_legisla
 - **Legal basis:** Ordinance 15-26 (Borough of Sayreville), a temporary prohibition on data center development in every zone, including the Hercules Redevelopment Area, for 18 months, introduced 2026-06-15 and adopted on final reading 2026-07-20
 - **What prompted it:** Study of electric-grid, water, stormwater, fiscal, land-use, noise, and environmental effects of data center development
 - **Affected projects:** —
-- **Detailed status:** Enacted per the borough's official adoption notice; active as of 2026-07-31
+- **Detailed status:** Ordinance 15-26 states eighteen months commencing at adoption. The official notice records July 20 final reading and submission to the mayor for approval or disapproval. The retained ordinance leaves mayoral approval blank and conditions effectiveness on final adoption, publication and mayoral approval; those conditions and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ---

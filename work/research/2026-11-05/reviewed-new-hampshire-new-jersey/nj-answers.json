@@ -1,0 +1,88 @@
+{
+  "state_abbrev": "NJ",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra return",
+  "decisions": [
+    {
+      "moratorium_id": "nj-galloway-township-2026",
+      "outcome": "corrected",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://gtnj.org/index.php/i-want-to/find-a-form-or-document/public-notices-1/municipal-clerk-notices/2886-affidavit-of-electronic-publication-2172-2026-2nd-notice/file",
+          "source_type": "other",
+          "supports": "Township-hosted affidavit form identifies instrument title and six-month term; blank execution fields do not establish sworn final-passage evidence.",
+          "quote": "ESTABLISHING A TEMPORARY SIX (6) MONTH MORATORIUM ON THE APPROVAL, DEVELOPMENT, CONSTRUCTION, EXPANSION, AND OPERATION OF DATA CENTERS",
+          "document_date": "2026-07-15"
+        }
+      ],
+      "changes": {
+        "duration": {
+          "from": "Six months (180 days) while the Planning Board and Environmental Commission study data centers",
+          "to": "Six months while the Planning Board and Environmental Commission study data centers",
+          "reason": "The official notice specifies months, not 180 days."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Six calendar months cannot be represented as a fixed 180 days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Notice states six months."
+        },
+        "current_end_date_iso": {
+          "from": "2027-01-10",
+          "to": "",
+          "reason": "The prior date was calculated as 180 days, without an established legal starting anchor."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Ordinance 2172-2026 was introduced June 16, 2026 and finally passed at the Council's July 14, 2026 meeting (notice published July 15, 2026), establishing a six-month moratorium on the approval, development, construction, expansion, and operation of data centers while the Planning Board and Environmental Commission study the issue. The moratorium is set to run through approximately January 10, 2027. No extension, repeal, or permanent ordinance was found in sources reviewed through 2026-09-23.",
+          "to": "The township-hosted affidavit form identifies Ordinance 2172-2026 as a six-month data-center moratorium and states a July 15 posting date. Clerk signature and notary fields are blank; the form alone does not establish sworn execution, final-passage approval, operative effectiveness or current legal force. The prior January 10, 2027 endpoint was an unsupported 180-day calculation and is cleared. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Distinguish source wording, reported approval, certification/publication and operative force."
+        }
+      },
+      "notes": "Full ordinance and final-passage minutes still needed; correction does not confirm active status."
+    },
+    {
+      "moratorium_id": "nj-sayreville-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.sayreville.com/uppages/ORD%5F%2015%2D26%20BANNING%20DATA%20CENTERS%20FOR%2018%20MONTHS%2EPDF",
+          "source_type": "ordinance",
+          "supports": "Ordinance specifies an 18-month calendar term anchored to adoption; effective date also requires publication and mayoral approval.",
+          "quote": "For a period of eighteen (18) months, commencing as of the date of adoption",
+          "document_date": "2026-07-20"
+        },
+        {
+          "url": "https://www.sayreville.com/documents/Ad-adoption-15-26.pdf",
+          "source_type": "other",
+          "supports": "Official notice confirms final reading and submission to the mayor, not approval.",
+          "quote": "reading at a meeting of the Mayor and Borough Council of the Borough of\n\nSayreville held July 20, 2026 and was thereafter submitted to the Mayor for their\n\napproval or disapproval.",
+          "document_date": "2026-07-20"
+        }
+      ],
+      "changes": {
+        "duration_days": {
+          "from": "540",
+          "to": "",
+          "reason": "Eighteen months are a calendar term, not 540 fixed days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The ordinance expressly states eighteen months."
+        },
+        "current_status": {
+          "from": "Enacted per the borough's official adoption notice; active as of 2026-07-31",
+          "to": "Ordinance 15-26 states eighteen months commencing at adoption. The official notice records July 20 final reading and submission to the mayor for approval or disapproval. The retained ordinance leaves mayoral approval blank and conditions effectiveness on final adoption, publication and mayoral approval; those conditions and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Distinguish source wording, reported approval, certification/publication and operative force."
+        }
+      },
+      "notes": "Final reading July 20 confirmed; submitted for mayoral action. The copy leaves approval blank and requires publication and approval for effectiveness. Current force is not freshly confirmed."
+    }
+  ]
+}

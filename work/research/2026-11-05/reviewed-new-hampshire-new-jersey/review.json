@@ -1,0 +1,107 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "nh-inventory-001": "14715926bab9e44e6712cf7dff96350286d131b82aa4b53b8666242375a8be3e",
+    "nj-inventory-001": "e55b642727cf35d9d3c4bba1912d065f28b1beea5c5ac8852d29a1c0d519748b"
+  },
+  "reviewed_answers_sha256": {
+    "nh-answers.json": "5ca7c439c76145f2c8ec50cae8ce86fccebf1aaa36a48f03b8a5541f4dd2ced7",
+    "nj-answers.json": "20f2dd25ccb34da7f656215ca4db719d779473115179f85351063d52368a3a6a"
+  },
+  "scope": "Three bounded legacy corrections. Nottingham reported approval and twelve-month wording do not establish certification/legal force. Galloway unsigned affidavit form does not independently prove final passage; inferred endpoint cleared. Sayreville final-reading notice differs from mayoral approval/effectiveness.",
+  "located_evidence": [
+    {
+      "moratorium_id": "nh-town-of-nottingham-undated",
+      "url": "https://www.nhpr.org/politics/2026-09-09/nottingham-voters-approve-moratorium-data-centers-nh-newhampshire",
+      "quote": "The vote was 1,335 in favor, to 143 against.",
+      "located": [
+        {
+          "attempt_id": "a665599fc1434bafbfc08b0d3d34d571",
+          "body_sha256": "eb5173009e8ca7976772b99563bb720b0ed6c968a2c5e2c55cdf677bc83ed6f9",
+          "text_sha256": "cb52596673d02f404d77193bbcaa9b85f5d9fd2757ab866fa8c2ca6712bf3f08",
+          "span": [
+            296,
+            340
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nh-town-of-nottingham-undated",
+      "url": "https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/news/2026_nottingham_special_town_election_results.pdf",
+      "quote": "twelve (12) months, to allow the Town time to study potential impacts and develop appropriate",
+      "located": [
+        {
+          "attempt_id": "b1d30040af1643dca47a896e79ade567",
+          "body_sha256": "f1c1bed1630997e84ed738982ea71364a32d72c205815e1d0605cc87f948209c",
+          "text_sha256": "985a6c715a1c172b7e0c46e9b2e3e26ad0b2ef53ac89503cf8cd8b91bbd9b1c3",
+          "span": [
+            559,
+            652
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nj-galloway-township-2026",
+      "url": "https://gtnj.org/index.php/i-want-to/find-a-form-or-document/public-notices-1/municipal-clerk-notices/2886-affidavit-of-electronic-publication-2172-2026-2nd-notice/file",
+      "quote": "ESTABLISHING A TEMPORARY SIX (6) MONTH MORATORIUM ON THE APPROVAL, DEVELOPMENT, CONSTRUCTION, EXPANSION, AND OPERATION OF DATA CENTERS",
+      "located": [
+        {
+          "attempt_id": "02003f7399f041c39a9f38d807c59146",
+          "body_sha256": "aece0c759ba61642b8ac2dde3c32b78d8d6adc6ab7ac30fc4d13ccb12b88d439",
+          "text_sha256": "da3930e26abeda194fa32b8f332c949c027f26c2c674cefea7a6019bab891d17",
+          "span": [
+            411,
+            545
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nj-sayreville-2026",
+      "url": "https://www.sayreville.com/uppages/ORD%5F%2015%2D26%20BANNING%20DATA%20CENTERS%20FOR%2018%20MONTHS%2EPDF",
+      "quote": "For a period of eighteen (18) months, commencing as of the date of adoption",
+      "located": [
+        {
+          "attempt_id": "93b59ce1da6c4dd19b9f2f87323fd024",
+          "body_sha256": "45f03cbfbbd952571a8d6352c4a4bfaedd7d92b470787e7105f1cb4f0f0a2a31",
+          "text_sha256": "da713c124fb7776ca10e72790a9a471e348b357efed16f1930ea2e682acb2018",
+          "span": [
+            283,
+            358
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "nj-sayreville-2026",
+      "url": "https://www.sayreville.com/documents/Ad-adoption-15-26.pdf",
+      "quote": "reading at a meeting of the Mayor and Borough Council of the Borough of\n\nSayreville held July 20, 2026 and was thereafter submitted to the Mayor for their\n\napproval or disapproval.",
+      "located": [
+        {
+          "attempt_id": "6e77afec65534a06bed744fea0c458a3",
+          "body_sha256": "cd60af2eb6f653d3c3099d09b4933caea0e687f9fbcc602cf5c8d2f4d2dec2dd",
+          "text_sha256": "0301f6989e0a26e947d28d17a287e331b355f7cf60ad93b3d2919802fdc8e332",
+          "span": [
+            139,
+            319
+          ]
+        }
+      ]
+    }
+  ],
+  "nottingham_visual_review": {
+    "attempt_id": "b1d30040af1643dca47a896e79ade567",
+    "page": 1,
+    "render": "pdftoppm PNG -singlefile -scale-to 1600",
+    "render_sha256": "129822f9ac1c603aa48069117a286d7f30629bc3a2a805b01716274ea0bc5597",
+    "observations": [
+      "September 8, 2026 special town election",
+      "twelve-month proposed enactment question",
+      "handwritten 1335 yes and 143 no",
+      "sample ballot heading; no explicit result certification statement"
+    ],
+    "scope": "Visual source review only; no canonical expanded ballot promotion in this batch."
+  }
+}

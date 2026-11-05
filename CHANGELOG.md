@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Nottingham’s stale pending-vote outcome is corrected from NHPR reporting, with the town-hosted twelve-month ballot and matching handwritten totals visually reviewed; certification and legal implementation remain unresolved. Galloway’s unsupported January 10 endpoint is cleared, and its blank affidavit execution fields are distinguished from sworn final-passage evidence. Sayreville’s eighteen-month term and final reading are separated from unverified mayoral approval/publication and later legal force.
+
 Scanned Nebraska review corrects Broken Bow, Butler and Cherry calendar terms. Broken Bow’s signed September 8 zoning ordinance is recorded separately from its unverified effective commencement and the moratorium’s conditional ending. Butler’s earlier plan/zoning condition and Cherry’s broader conditional-use-permit scope remain explicit; later legal force stays flagged.
 
 North Dakota/Nebraska review corrects Williams and news-qualified Gage calendar terms, establishes Johnson County’s May 5 approval from minutes and clears Red Willow’s inferred September 22, 2027 endpoint. Red Willow’s August 24 minutes support an additional twelve-month extension, but its exact anchor and later legal force remain unresolved.
@@ -58,7 +60,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **468** |
+| Rows we still want to confirm (`[VERIFY]`) | **471** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

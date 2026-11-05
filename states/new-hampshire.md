@@ -43,8 +43,8 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Legal basis:** Nottingham Planning Board vote (5-0-0), July 1, 2026, adopting a signed 'Temporary Moratorium on Data Centers Ordinance' under RSA 674:23 (interim growth management); ratified by Nottingham voters 1,335-143 at the September 8, 2026 special town election, at which point it took legal effect.
 - **What prompted it:** Local opposition to a withdrawn Nottingham Business Park data center concept (145 Old Turnpike Road) and an online petition that drew more than 25,000 signatures
 - **Affected projects:** Would apply townwide to data center applications, including any resubmission of the withdrawn Nottingham Business Park (145 Old Turnpike Road) concept.
-- **Detailed status:** Active as of 2026-09-23. Nottingham voters approved the Temporary Moratorium on Data Centers Ordinance 1,335-143 at the September 8, 2026 special town election. The ordinance is now in legal effect townwide for 12 months (through approximately September 8, 2027), prohibiting acceptance, processing, or approval of permits or approvals for the establishment, construction, expansion, or operation of data centers in every zoning district. No repeal or amendment was found in sources reviewed through 2026-09-23.
-- **Outcome:** Not yet enacted; awaiting a September 8, 2026 town legislative-body vote.
+- **Detailed status:** NHPR reports September 8, 2026 approval of the twelve-month data-center moratorium, 1,335 yes to 143 no. The town-hosted sample ballot bears the same handwritten totals and twelve-month wording; no explicit result certification statement is supplied on the page. Operative ordinance, effective-date anchor and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** Nottingham voters approved the proposed 12-month data-center moratorium at the September 8, 2026 special town election, 1,335 to 143, according to NHPR.
 
 ---
 

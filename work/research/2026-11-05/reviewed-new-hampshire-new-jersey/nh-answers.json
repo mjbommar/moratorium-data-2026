@@ -1,0 +1,56 @@
+{
+  "state_abbrev": "NH",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra return",
+  "decisions": [
+    {
+      "moratorium_id": "nh-town-of-nottingham-undated",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "outcome": {
+          "from": "Not yet enacted; awaiting a September 8, 2026 town legislative-body vote.",
+          "to": "Nottingham voters approved the proposed 12-month data-center moratorium at the September 8, 2026 special town election, 1,335 to 143, according to NHPR.",
+          "reason": "Correct the stale pending-vote description using the contemporaneous report; current legal force remains unverified."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The town ballot describes twelve months, not a fixed number of days."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Twelve calendar months is not a fixed 365-day duration."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Nottingham voters approved the Temporary Moratorium on Data Centers Ordinance 1,335-143 at the September 8, 2026 special town election. The ordinance is now in legal effect townwide for 12 months (through approximately September 8, 2027), prohibiting acceptance, processing, or approval of permits or approvals for the establishment, construction, expansion, or operation of data centers in every zoning district. No repeal or amendment was found in sources reviewed through 2026-09-23.",
+          "to": "NHPR reports September 8, 2026 approval of the twelve-month data-center moratorium, 1,335 yes to 143 no. The town-hosted sample ballot bears the same handwritten totals and twelve-month wording; no explicit result certification statement is supplied on the page. Operative ordinance, effective-date anchor and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Distinguish source wording, reported approval, certification/publication and operative force."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.nhpr.org/politics/2026-09-09/nottingham-voters-approve-moratorium-data-centers-nh-newhampshire",
+          "title": "Nottingham voters overwhelmingly approve moratorium on data centers",
+          "publisher": "New Hampshire Public Radio",
+          "document_date": "2026-09-09",
+          "source_type": "news",
+          "supports": "Reports the vote count and approval; not an official certification or proof of present force.",
+          "quote": "The vote was 1,335 in favor, to 143 against."
+        },
+        {
+          "url": "https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/news/2026_nottingham_special_town_election_results.pdf",
+          "title": "Special town election ballot",
+          "publisher": "Town of Nottingham",
+          "document_date": "2026-09-08",
+          "source_type": "other",
+          "supports": "Ballot question specifies a twelve-month period. The archived OCR does not reliably transcribe handwritten counts.",
+          "quote": "twelve (12) months, to allow the Town time to study potential impacts and develop appropriate"
+        }
+      ],
+      "notes": "Historical vote and term corrected only; current force, later actions, precise expiry and certification remain unresolved. Town ballot archived September 23; identical PDF retrieved November 5 but extraction empty."
+    }
+  ],
+  "new_candidates": []
+}

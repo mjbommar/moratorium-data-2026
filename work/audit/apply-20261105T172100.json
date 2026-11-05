@@ -1,0 +1,111 @@
+{
+  "applied_at": "20261105T172100",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-new-hampshire-new-jersey/nh-answers.json",
+    "work/research/2026-11-05/reviewed-new-hampshire-new-jersey/nj-answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 3,
+    "fields_changed": 12
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "nh-town-of-nottingham-undated",
+      "column": "outcome",
+      "before": "Not yet enacted; awaiting a September 8, 2026 town legislative-body vote.",
+      "after": "Nottingham voters approved the proposed 12-month data-center moratorium at the September 8, 2026 special town election, 1,335 to 143, according to NHPR.",
+      "reason": "Correct the stale pending-vote description using the contemporaneous report; current legal force remains unverified.",
+      "source": "nh-answers.json"
+    },
+    {
+      "moratorium_id": "nh-town-of-nottingham-undated",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The town ballot describes twelve months, not a fixed number of days.",
+      "source": "nh-answers.json"
+    },
+    {
+      "moratorium_id": "nh-town-of-nottingham-undated",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Twelve calendar months is not a fixed 365-day duration.",
+      "source": "nh-answers.json"
+    },
+    {
+      "moratorium_id": "nh-town-of-nottingham-undated",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23. Nottingham voters approved the Temporary Moratorium on Data Centers Ordinance 1,335-143 at the September 8, 2026 special town election. The ordinance is now in legal effect townwide for 12 months (through approximately September 8, 2027), prohibiting acceptance, processing, or approval of permits or approvals for the establishment, construction, expansion, or operation of data centers in every zoning district. No repeal or amendment was found in sources reviewed through 2026-09-23.",
+      "after": "NHPR reports September 8, 2026 approval of the twelve-month data-center moratorium, 1,335 yes to 143 no. The town-hosted sample ballot bears the same handwritten totals and twelve-month wording; no explicit result certification statement is supplied on the page. Operative ordinance, effective-date anchor and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Distinguish source wording, reported approval, certification/publication and operative force.",
+      "source": "nh-answers.json"
+    },
+    {
+      "moratorium_id": "nj-galloway-township-2026",
+      "column": "duration",
+      "before": "Six months (180 days) while the Planning Board and Environmental Commission study data centers",
+      "after": "Six months while the Planning Board and Environmental Commission study data centers",
+      "reason": "The official notice specifies months, not 180 days.",
+      "source": "nj-answers.json"
+    },
+    {
+      "moratorium_id": "nj-galloway-township-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Six calendar months cannot be represented as a fixed 180 days.",
+      "source": "nj-answers.json"
+    },
+    {
+      "moratorium_id": "nj-galloway-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Notice states six months.",
+      "source": "nj-answers.json"
+    },
+    {
+      "moratorium_id": "nj-galloway-township-2026",
+      "column": "current_end_date_iso",
+      "before": "2027-01-10",
+      "after": "",
+      "reason": "The prior date was calculated as 180 days, without an established legal starting anchor.",
+      "source": "nj-answers.json"
+    },
+    {
+      "moratorium_id": "nj-galloway-township-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23. Ordinance 2172-2026 was introduced June 16, 2026 and finally passed at the Council's July 14, 2026 meeting (notice published July 15, 2026), establishing a six-month moratorium on the approval, development, construction, expansion, and operation of data centers while the Planning Board and Environmental Commission study the issue. The moratorium is set to run through approximately January 10, 2027. No extension, repeal, or permanent ordinance was found in sources reviewed through 2026-09-23.",
+      "after": "The township-hosted affidavit form identifies Ordinance 2172-2026 as a six-month data-center moratorium and states a July 15 posting date. Clerk signature and notary fields are blank; the form alone does not establish sworn execution, final-passage approval, operative effectiveness or current legal force. The prior January 10, 2027 endpoint was an unsupported 180-day calculation and is cleared. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Distinguish source wording, reported approval, certification/publication and operative force.",
+      "source": "nj-answers.json"
+    },
+    {
+      "moratorium_id": "nj-sayreville-2026",
+      "column": "duration_days",
+      "before": "540",
+      "after": "",
+      "reason": "Eighteen months are a calendar term, not 540 fixed days.",
+      "source": "nj-answers.json"
+    },
+    {
+      "moratorium_id": "nj-sayreville-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The ordinance expressly states eighteen months.",
+      "source": "nj-answers.json"
+    },
+    {
+      "moratorium_id": "nj-sayreville-2026",
+      "column": "current_status",
+      "before": "Enacted per the borough's official adoption notice; active as of 2026-07-31",
+      "after": "Ordinance 15-26 states eighteen months commencing at adoption. The official notice records July 20 final reading and submission to the mayor for approval or disapproval. The retained ordinance leaves mayoral approval blank and conditions effectiveness on final adoption, publication and mayoral approval; those conditions and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Distinguish source wording, reported approval, certification/publication and operative force.",
+      "source": "nj-answers.json"
+    }
+  ]
+}
