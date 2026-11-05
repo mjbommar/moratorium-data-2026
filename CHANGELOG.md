@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Five Ohio calendar-term corrections cover Miamisburg, Middleburg Heights, Middlefield, Monclova and Monroeville. Monroeville’s March 10 minutes support the adopted cryptocurrency-mining amendment. Official announcements/indexes, agenda proposals and operative text remain distinguished; Middleburg’s unreadable execution details and all later legal-force gaps stay flagged.
+
 Madison Township (Lake County) minutes confirm Resolution 26-074 and three yes votes for a twelve-month pause. Maumee’s signed Resolution 005-2026 preserves its twelve-month term, early-lifting/extension authority and existing-data-center exceptions; its incomplete section 2 effectiveness sentence and passage-plus-mayoral-approval condition remain qualified. Exact operative intervals and later force are unresolved.
 
 Five Ohio term corrections distinguish the Walbridge-area Lake Township from Stark County, Lakeview’s index from operative text and Lima’s agenda from news-reported adoption. Mayfield’s twelve-month clause is visually verified despite duplicated extraction characters. McDonald Ordinance 3340-26 preserves both earlier legislative termination conditions and its one-year outer limit; later legal force remains unresolved.
@@ -110,7 +112,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1067** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **548** |
+| Rows we still want to confirm (`[VERIFY]`) | **553** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

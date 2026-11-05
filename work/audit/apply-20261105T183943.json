@@ -1,0 +1,150 @@
+{
+  "applied_at": "20261105T183943",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-ohio-k/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 5,
+    "fields_changed": 17
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "oh-miamisburg-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states months or years, not a fixed day count; codebook requires calendar_term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-miamisburg-2026",
+      "column": "duration_days",
+      "before": "270",
+      "after": "",
+      "reason": "Remove the legacy approximation for a calendar term; the term is retained in duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-miamisburg-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; nine-month moratorium adopted 2026-09-01 runs to about June 2027.",
+      "after": "The city September 2 announcement reports a unanimous 6-0 September 1 vote for a nine-month data-center development pause. Final operative text, actual effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-middleburg-heights-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states months or years, not a fixed day count; codebook requires calendar_term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-middleburg-heights-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Remove the legacy approximation for a calendar term; the term is retained in duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-middleburg-heights-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; 12-month moratorium passed about 2026-06-23 runs to about 2027-06-23.",
+      "after": "Posted Ordinance 2026-42 section 1 states twelve months from effectiveness; the title says not to exceed twelve months. The emergency clause requires a two-thirds Council vote and mayoral approval for immediate effect. Execution dates and votes are not reliably readable in retained extraction; actual operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-middlefield-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states months or years, not a fixed day count; codebook requires calendar_term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-middlefield-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Remove the legacy approximation for a calendar term; the term is retained in duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-middlefield-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; 12-month moratorium passed 2026-07-09 runs to about 2027-07-09.",
+      "after": "The village ordinance index lists Ordinance 26-136 as a twelve-month pause on acceptance of data-center zoning applications. The index does not independently establish final executed wording, actual operative interval or later action. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-monclova-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states months or years, not a fixed day count; codebook requires calendar_term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-monclova-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Remove the legacy approximation for a calendar term; the term is retained in duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-monclova-township-2026",
+      "column": "current_status",
+      "before": "Active through approximately 2027-02-17",
+      "after": "The February 17 read-into-record document includes a resolution stating twelve months from effectiveness and effectiveness immediately upon adoption. Its extracted adoption block lists three yes votes. Final instrument identity, precise operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-monroeville-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states months or years, not a fixed day count; codebook requires calendar_term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-monroeville-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Remove the legacy approximation for a calendar term; the term is retained in duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-monroeville-2026",
+      "column": "sectors",
+      "before": "[\"data_center\"]",
+      "after": "[\"data_center\",\"cryptocurrency_mining\"]",
+      "reason": "March 10 minutes report adoption of Resolution 2026-02 to add crypto mining to the prior measure.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-monroeville-2026",
+      "column": "legal_basis",
+      "before": "Village of Monroeville Resolution 2026-01 (emergency), temporary moratorium on establishing data centers or converting structures into data centers",
+      "after": "Village of Monroeville Resolution 2026-01; amended by Resolution 2026-02 adopted March 10, 2026, to include cryptocurrency mining centers",
+      "reason": "Council minutes report the amendment and its purpose.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-monroeville-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; one-year moratorium adopted 2026-02-24 runs to about 2027-02-24. Council is holding work sessions on overlay or conditional-use zoning for data centers, and a non-binding advisory vote on data centers has been discussed.",
+      "after": "The February 24 agenda describes Resolution 2026-01 with twelve months from effectiveness. March 10 minutes record adoption of Resolution 2026-02 and the mayor explanation that it amends the prior resolution to include cryptocurrency mining. Final operative text, exact effective anchors and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    }
+  ]
+}

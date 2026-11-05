@@ -92,7 +92,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Middlefield | Village | 2026-07-09 | data center | 🟢 Active |
 | Monclova Township | Township | 2026-02-17 | data center | 🟢 Active |
 | Monroe Township (Adams County) | Township | 2026-03 | data center, general | 🟢 Active |
-| Monroeville | Village | 2026-02-24 | data center | 🟢 Active |
+| Monroeville | Village | 2026-02-24 | data center, cryptocurrency mining | 🟢 Active |
 | Montgomery Township (Ashland County) | Township | 2026-06-17 | data center | 🟢 Active |
 | Morgan Township (Butler County) | Township | 2026-03 | data center | 🟢 Active |
 | Mount Gilead | Village | 2026-08-17 | data center | 🟢 Active |
@@ -1433,7 +1433,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** City of Miamisburg Council legislation imposing a nine-month moratorium on data center development (ordinance/resolution number not located)
 - **What prompted it:** Community concern over a potential large-scale data center at the former DP&L Hutchings Power Station site (owned by Frontier Industrial Corp.) being marketed to developers; city lacks development regulations for data centers.
 - **Affected projects:** Former DP&L Hutchings Power Station site (Frontier Industrial Corp.), marketed as potential data center location; no formal proposal.
-- **Detailed status:** Active as of 2026-09-23; nine-month moratorium adopted 2026-09-01 runs to about June 2027.
+- **Detailed status:** The city September 2 announcement reports a unanimous 6-0 September 1 vote for a nine-month data-center development pause. Final operative text, actual effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** City to evaluate data center impacts and develop regulations and development standards during the pause.
 
 ### Middleburg Heights
@@ -1449,7 +1449,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** City of Middleburg Heights Ordinance No. 2026-42 (emergency), moratorium on filing/issuing zoning and occupancy permits for data centers, not to exceed 12 months
 - **What prompted it:** Increased interest in data centers in Ohio municipalities; city needs time to review state codes and local ordinances and draft regulations.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium passed about 2026-06-23 runs to about 2027-06-23.
+- **Detailed status:** Posted Ordinance 2026-42 section 1 states twelve months from effectiveness; the title says not to exceed twelve months. The emergency clause requires a two-thirds Council vote and mayoral approval for immediate effect. Execution dates and votes are not reliably readable in retained extraction; actual operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Administration, Planning Commission and Council to study and draft data center regulations.
 
 ### Middlefield
@@ -1465,7 +1465,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Village of Middlefield Ordinance 26-136 (emergency), twelve-month moratorium on accepting any zoning application for data centers
 - **What prompted it:** Concern about strain on water and power; state legislation (HB 646) stalled.
 - **Affected projects:** None named; mayor noted at least one 50-acre parcel in the village.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium passed 2026-07-09 runs to about 2027-07-09.
+- **Detailed status:** The village ordinance index lists Ordinance 26-136 as a twelve-month pause on acceptance of data-center zoning applications. The index does not independently establish final executed wording, actual operative interval or later action. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Village to decide during the 12 months whether to regulate, permit or prohibit data centers; extension possible.
 
 ### Monclova Township
@@ -1481,7 +1481,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Resolution 02172026-01
 - **What prompted it:** Resident concern over a 200-acre Black Road site, annexation risk to Maumee, and need to retain local zoning control
 - **Affected projects:** Potential 200-acre Black Road-area data center site (per Trustee statements in February 2026 board minutes)
-- **Detailed status:** Active through approximately 2027-02-17
+- **Detailed status:** The February 17 read-into-record document includes a resolution stating twelve months from effectiveness and effectiveness immediately upon adoption. Its extracted adoption block lists three yes votes. Final instrument identity, precise operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Residents and zoning officials studying model standards and possible zoning amendments
 
 ### Monroe Township (Adams County)
@@ -1508,12 +1508,12 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Normalized date:** `2026-02-24` (exact)
 - **Duration:** Twelve (12) months from the effective date (emergency, effective immediately)
 - **Current end date:** `—`
-- **Sectors:** data center
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `oh-monroeville-2026`
-- **Legal basis:** Village of Monroeville Resolution 2026-01 (emergency), temporary moratorium on establishing data centers or converting structures into data centers
+- **Legal basis:** Village of Monroeville Resolution 2026-01; amended by Resolution 2026-02 adopted March 10, 2026, to include cryptocurrency mining centers
 - **What prompted it:** Roughly $1.3M in unpaid electric bills from the Gray Matter cryptocurrency mining operation in the Fort Monroe industrial park (now in receivership), plus Decimal Digital's purchase of ~50 acres for a proposed AI data center. Concerns about electric rates, water, noise.
 - **Affected projects:** Decimal Digital proposed AI data center on ~50 acres in the Fort Monroe Industrial Park. The existing Gray Matter-related Bitcoin mining site at 17 Fort Monroe Industrial Parkway is in receivership.
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium adopted 2026-02-24 runs to about 2027-02-24. Council is holding work sessions on overlay or conditional-use zoning for data centers, and a non-binding advisory vote on data centers has been discussed.
+- **Detailed status:** The February 24 agenda describes Resolution 2026-01 with twelve months from effectiveness. March 10 minutes record adoption of Resolution 2026-02 and the mayor explanation that it amends the prior resolution to include cryptocurrency mining. Final operative text, exact effective anchors and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Review of federal/state codes and village ordinances; council work sessions on zoning (overlay district or conditional use), FAQ, possible advisory ballot.
 
 ### Montgomery Township (Ashland County)
