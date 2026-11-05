@@ -195,7 +195,7 @@
 record-level observations and <code>[VERIFY]</code> markers identify unresolved work.</p>
 <h2 id="what-we-know-we-dont-have">What we know we don't have</h2>
 <h3 id="small-township-records-that-arent-online">Small-township records that aren't online</h3>
-<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>383 of the 1293 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.</p>
+<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>390 of the 1293 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.</p>
 <h3 id="legacy-instrument-identities">Legacy instrument identities</h3>
 <p>The working inventory still contains identities requiring reconciliation.
 <code>ma-leominster-undated</code> combines separate BESS and data-center petitions, each
@@ -204,7 +204,12 @@ split remain unresolved. <code>la-new-orleans-2026</code> requires review of the
 between the January motion hold and the later interim-zoning ordinance annotated
 adopted in the council docket. We have not inferred a merger, replacement date or
 additional active instrument. The <a href="../work/research/2026-11-05/reviewed-louisiana-massachusetts/review.json">review receipt</a>
-records these follow-ups. Current record counts are working inventory totals, not
+records these follow-ups. <code>mi-elmwood-township-tuscola-county-2026</code> also combines
+a February ordinance with June Resolution 2026.06.17.A; separate identities, original
+terms and the exact successor relationship require executed-text review. The June
+news report does not establish the original ordinance term.
+<a href="../work/research/2026-11-05/reviewed-michigan-b/review.json">The Michigan review</a>
+records that limitation. Current record counts are working inventory totals, not
 proof that every legacy row satisfies the intended one-instrument grain.</p>
 <h3 id="november-discovery-and-search-limits">November discovery and search limits</h3>
 <p>All 50 state-discovery jobs have returned. Their sector labels and answer schemas

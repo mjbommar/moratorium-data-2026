@@ -1,0 +1,296 @@
+{
+  "applied_at": "20261105T154243",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-michigan-b/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 7,
+    "fields_changed": 34,
+    "outcome:status_changed": 1,
+    "status_changed": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "mi-dorr-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states a calendar-month term; a fixed 365- or 180-day duration is not equivalent. This is a narrow normalization correction, not a current-force finding.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-dorr-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Source states a calendar-month term; a fixed 365- or 180-day duration is not equivalent. This is a narrow normalization correction, not a current-force finding.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-dorr-township-2026",
+      "column": "current_status",
+      "before": "Reported adopted in late February 2026 for 12 months; presumed active as of 2026-09-23 (no repeal found). [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+      "after": "The February 26 minutes record a 6-0 vote authorizing the Clerk to sign Ordinance 01-260 imposing a twelve-month pause on new or expanded data centers; operative commencement and later actions remain unresolved. [VERIFY: final operative interval, later modification/replacement/repeal and present legal force; classification remains provisional.]",
+      "reason": "Distinguish bounded instrument/term evidence from a full current-force review.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-eagle-township-clinton-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states a calendar-month term; a fixed 365- or 180-day duration is not equivalent. This is a narrow normalization correction, not a current-force finding.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-eagle-township-clinton-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Source states a calendar-month term; a fixed 365- or 180-day duration is not equivalent. This is a narrow normalization correction, not a current-force finding.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-eagle-township-clinton-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; runs 12 months from 2026-02-18 (to about 2027-02-18) or until data center zoning amendments take effect.",
+      "after": "Resolution 02-17-2026-06 specifies twelve months or earlier effectiveness of data-center zoning regulations. Only pages 1-6 of the retained 85-page payload were OCR-reviewed; this is not full-document extraction coverage. [VERIFY: final operative interval, later modification/replacement/repeal and present legal force; classification remains provisional.]",
+      "reason": "Distinguish bounded instrument/term evidence from a full current-force review.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-east-lansing-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states a calendar-month term; a fixed 365- or 180-day duration is not equivalent. This is a narrow normalization correction, not a current-force finding.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-east-lansing-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Source states a calendar-month term; a fixed 365- or 180-day duration is not equivalent. This is a narrow normalization correction, not a current-force finding.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-east-lansing-2026",
+      "column": "legal_basis",
+      "before": "City Council moratorium action of 2026-03-17 and extension of 2026-08-11 (instrument numbers not located)",
+      "after": "City Council Policy Resolution 2026-8 and extension Policy Resolution 2026-45",
+      "reason": "The August 11 city synopsis names both resolutions.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-east-lansing-2026",
+      "column": "current_end_date_iso",
+      "before": "2027-03-17",
+      "after": "",
+      "reason": "The old endpoint was presented as approximate or is unsupported by the reviewed operative text/endpoint convention; no exact current expiry is promoted.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-east-lansing-2026",
+      "column": "current_status",
+      "before": "Extended; active as of 2026-09-23 through 2027-03-17 after the council's unanimous 2026-08-11 extension; draft zoning language expected fall 2026.",
+      "after": "The official council synopsis records 5-0 approval of Policy Resolution 2026-45 extending the six-month moratorium under PR2026-8 by six months. The exact extension endpoint and any later actions are not established by that synopsis. [VERIFY: final operative interval, later modification/replacement/repeal and present legal force; classification remains provisional.]",
+      "reason": "Distinguish bounded instrument/term evidence from a full current-force review.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-east-lansing-2026",
+      "column": "duration",
+      "before": "6 months, extended by 6 months to 2027-03-17",
+      "after": "Six calendar months under PR2026-8, extended by six calendar months under PR2026-45; exact extension endpoint and operative interval unresolved.",
+      "reason": "Keep supported extension evidence separate from unverified original term, identity and endpoint assertions.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-elmwood-township-tuscola-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "unknown",
+      "reason": "Evidence for the later resolution/extension does not independently establish the original instrument term; preserve identity/term uncertainty rather than converting a successor term into the original typed duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-elmwood-township-tuscola-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Source states a calendar-month term; a fixed 365- or 180-day duration is not equivalent. This is a narrow normalization correction, not a current-force finding.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-elmwood-township-tuscola-county-2026",
+      "column": "current_end_date_iso",
+      "before": "2027-06-17",
+      "after": "",
+      "reason": "The old endpoint was presented as approximate or is unsupported by the reviewed operative text/endpoint convention; no exact current expiry is promoted.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-elmwood-township-tuscola-county-2026",
+      "column": "current_status",
+      "before": "Extended as of 2026-09-23. The original nine-month data center moratorium ordinance (adopted 2026-02-18) was superseded, before its own term would have expired, by Resolution No. 2026.06.17.A, adopted 2026-06-17, imposing a fresh 12-month moratorium on data centers AND cryptocurrency mining facilities, running to approximately 2027-06-17. Township officials said the June resolution re-grounds the pause under the Michigan Zoning Enabling Act to be 'more legally defensible if challenged in court.'",
+      "after": "Local reporting describes adoption of Resolution 2026.06.17.A on June 17 for twelve months covering data centers and cryptocurrency mining. The legacy row combines the earlier February ordinance with this later resolution; original term, legal successor relationship and separate instrument identities require reconciliation. No exact current endpoint promoted. [VERIFY: final operative interval, later modification/replacement/repeal and present legal force; classification remains provisional.]",
+      "reason": "Distinguish bounded instrument/term evidence from a full current-force review.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-elmwood-township-tuscola-county-2026",
+      "column": "duration",
+      "before": "Nine months (amended down from a proposed 12 months) under the original Feb. 18, 2026 ordinance; superseded before expiry by a fresh 12-month moratorium under Resolution No. 2026.06.17.A, adopted June 17, 2026, which also added cryptocurrency mining facilities to the covered uses",
+      "after": "Legacy combined record reports nine months for the February ordinance and twelve months for June Resolution 2026.06.17.A; separate original/successor terms and identities require reconciliation.",
+      "reason": "Keep supported extension evidence separate from unverified original term, identity and endpoint assertions.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-elmwood-township-tuscola-county-2026",
+      "column": "legal_basis",
+      "before": "Township ordinance/resolution enacting a temporary nine-month moratorium on data centers, adopted 2026-02-18 (ordinance number not reported); superseded before its expiry by Resolution No. 2026.06.17.A, adopted 2026-06-17, imposing a fresh 12-month moratorium on data centers and cryptocurrency mining facilities, adopted alongside a reaffirmation of the Planning Commission's establishment under the Michigan Planning Enabling Act, to make the moratorium 'more legally defensible if challenged in court'",
+      "after": "Legacy record identifies a February 18, 2026 ordinance followed by Resolution 2026.06.17.A, reported adopted June 17 for data centers and cryptocurrency mining. [VERIFY executed texts, separate instrument identities and exact successor relationship.]",
+      "reason": "Keep supported extension evidence separate from unverified original term, identity and endpoint assertions.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-erie-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The original ordinance uses a calendar year or months rather than fixed days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-erie-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "A calendar term cannot be encoded as a fixed 365-day duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-erie-township-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; one-year moratorium under Ordinance No. 132 (effective date listed as 2026-03-16 on the ordinance, running to about 2027-03-16). Planning Commission reviewing a draft data center ordinance (September 15 draft).",
+      "after": "Ordinance 132 specifies one year from effectiveness or earlier effectiveness of a data-center zoning amendment, whichever first. Later regulatory action and present force have not been established. [VERIFY: final operative interval, later modification/replacement/repeal and present legal force; classification remains provisional.]",
+      "reason": "Distinguish bounded instrument/term evidence from a full current-force review.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-fenton-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The original ordinance uses a calendar year or months rather than fixed days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-fenton-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "A calendar term cannot be encoded as a fixed 365-day duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-fenton-township-2026",
+      "column": "current_end_date_iso",
+      "before": "2027-02-22",
+      "after": "",
+      "reason": "The old endpoint was presented as approximate or is unsupported by the reviewed operative text/endpoint convention; no exact current expiry is promoted.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-fenton-township-2026",
+      "column": "duration",
+      "before": "12 months (effective 2026-02-22, to approximately 2027-02-22)",
+      "after": "Twelve calendar months; ordinance lists effectiveness February 22, 2026. Exact endpoint convention and later action unresolved.",
+      "reason": "Do not keep an approximate derived date as an independently established exact endpoint.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-fenton-township-2026",
+      "column": "legal_basis",
+      "before": "Charter Township of Fenton Ordinance No. 867, interim zoning ordinance imposing a 12-month blanket prohibition on the establishment and use of data centers (introduced 2026-02-03, adopted 2026-02-17, effective 2026-02-22); violations are misdemeanors",
+      "after": "Charter Township of Fenton Ordinance No. 867, adopted February 17, 2026; publication and effective dates listed February 22, 2026. The document introduction field reads February 3, 2025; prior narrative said 2026 [VERIFY introduction year].",
+      "reason": "Separate clearly recorded adoption/effectiveness from the conflicting introduction year.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-fenton-township-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; Ordinance No. 867, adopted 2026-02-17 and effective 2026-02-22, bars the establishment and use of data centers for 12 months (to about 2027-02-22) while the Planning Commission prepares permanent regulations. No repeal or permanent ordinance was found.",
+      "after": "Ordinance 867 describes twelve months and records adoption February 17 and publication/effectiveness February 22, 2026. Its introduction field reads February 3, 2025, conflicting with the prior narrative year; exact endpoint convention and later regulatory action remain unresolved. [VERIFY: final operative interval, later modification/replacement/repeal and present legal force; classification remains provisional.]",
+      "reason": "Distinguish bounded instrument/term evidence from a full current-force review.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-frenchtown-charter-township-monroe-county-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "October 13 board minutes record adoption of an additional six-month extension.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-frenchtown-charter-township-monroe-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "unknown",
+      "reason": "Evidence for the later resolution/extension does not independently establish the original instrument term; preserve identity/term uncertainty rather than converting a successor term into the original typed duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-frenchtown-charter-township-monroe-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Calendar months cannot be represented accurately by a fixed day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-frenchtown-charter-township-monroe-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23 (presumed); six-month moratorium under Zoning Ordinance No. 300-19 adopted 2026-04-28 runs to roughly late October/November 2026 depending on its post-publication effective date; no extension or permanent ordinance found.",
+      "after": "Official October 13 minutes record Motion 26.303 passing 6-0 to extend the technology/data-center/high-resource-demand moratorium for six months from expiration of the existing moratorium. The original executed term, prior expiry anchor and resulting extension endpoint remain unresolved. [VERIFY: final operative interval, later modification/replacement/repeal and present legal force; classification remains provisional.]",
+      "reason": "Distinguish bounded instrument/term evidence from a full current-force review.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-frenchtown-charter-township-monroe-county-2026",
+      "column": "duration",
+      "before": "Six months (the maximum allowed by Zoning Ordinance No. 300, Section 7.13, per the township attorney), with the right to extend",
+      "after": "Original term previously reported as six months; executed Ordinance 300-19 and its precise operative anchor remain unverified. The October 13 extension is documented separately in current_status.",
+      "reason": "Keep supported extension evidence separate from unverified original term, identity and endpoint assertions.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-gibraltar-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "The official resolution states twelve months, not a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-gibraltar-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The official resolution specifies a twelve-month calendar term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-gibraltar-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; Resolution #26-072 runs to about 2027-03-09. Raeden Acquisitions and CAL Realty sued the city in federal court (E.D. Mich., filed 2026-08-17), alleging the moratorium is unlawful.",
+      "after": "Resolution 26-072 states twelve months from effectiveness, subject to extension or termination by council resolution. Exact operative dates, later actions and effects of litigation remain unresolved. [VERIFY: final operative interval, later modification/replacement/repeal and present legal force; classification remains provisional.]",
+      "reason": "Distinguish bounded instrument/term evidence from a full current-force review.",
+      "source": "answers.json"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ record-level observations and `[VERIFY]` markers identify unresolved work.
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **383 of the 1293 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **390 of the 1293 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
 
 ### Legacy instrument identities
 
@@ -18,7 +18,12 @@ split remain unresolved. `la-new-orleans-2026` requires review of the relationsh
 between the January motion hold and the later interim-zoning ordinance annotated
 adopted in the council docket. We have not inferred a merger, replacement date or
 additional active instrument. The [review receipt](../work/research/2026-11-05/reviewed-louisiana-massachusetts/review.json)
-records these follow-ups. Current record counts are working inventory totals, not
+records these follow-ups. `mi-elmwood-township-tuscola-county-2026` also combines
+a February ordinance with June Resolution 2026.06.17.A; separate identities, original
+terms and the exact successor relationship require executed-text review. The June
+news report does not establish the original ordinance term.
+[The Michigan review](../work/research/2026-11-05/reviewed-michigan-b/review.json)
+records that limitation. Current record counts are working inventory totals, not
 proof that every legacy row satisfies the intended one-instrument grain.
 
 ### November discovery and search limits
