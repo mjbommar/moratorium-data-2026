@@ -3,7 +3,7 @@
 
 Every local infrastructure moratorium in the inventory for Florida, current through **November 5, 2026**.
 
-**35 instruments** — 27 in force, 7 pending, 1 past.
+**35 instruments** — 28 in force, 6 pending, 1 past.
 
 State policy is tracked separately: **6 actions** (6 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -25,10 +25,10 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 | Levy County | County | 2026-09-08 | data center | 🟢 Active |
 | Lynn Haven | City | 2026-06-23 | data center | ⚪ Expired |
 | Madison County | County | 2026-07-22 | data center | 🟢 Active |
-| Manatee County | County | 2026-09-22 | data center | 🟢 Active |
+| Manatee County | County | 2026-10-08 | data center | 🟢 Active |
 | Marion County | County | 2026-09-15 | data center, cryptocurrency mining | 🟢 Active |
 | Martin County | County | Unverified | data center | 🟡 Pending |
-| Minneola | City | Unverified | data center | 🟡 Pending |
+| Minneola | City | 2026-07-21 | data center | 🟢 Active |
 | Nassau County | County | 2026-06-08 | data center, cryptocurrency mining | 🟢 Active |
 | North Port | City | 2026-09-22 | data center | 🟢 Active |
 | Orange County | County | Unverified | data center | 🟡 Pending |
@@ -284,7 +284,7 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Legal basis:** City of Lynn Haven Resolution 2026-06-561
 - **What prompted it:** Adopted while a separate one-year moratorium ordinance (staff directed to draft it on 2026-06-09) proceeded through the adoption process; this resolution is a distinct interim instrument from that still-pending ordinance.
 - **Affected projects:** —
-- **Detailed status:** Expired 2026-08-22; Resolution 2026-06-561 provided by its own terms that it would remain in effect only until the earlier of (a) City Commission adoption of the separate 'Moratorium Ordinance,' (b) the Commission formally declining to adopt it, or (c) 60 days from the resolution's 2026-06-23 adoption. Review of the City's official agenda/minutes packets for every City Commission meeting from 2026-07-14 through 2026-09-22 (plus special meetings 2026-09-16 and 2026-09-21) found no Data Center/AI Data Center Moratorium Ordinance ever placed on an agenda for either reading, and no news coverage of its adoption, decline, or extension. The 60-day clock therefore ran out on 2026-08-22 without the city having adopted, declined, or extended the pause.
+- **Detailed status:** Resolution 2026-06-561, adopted 2026-06-23, directed an interim pause until the earliest of adoption of the separate moratorium ordinance, formal decline to adopt it, or 60 days after adoption. Its original terms therefore set an outer limit of 2026-08-22, subject to any intervening amendment; the exact termination date and any subsequent action require verification. [VERIFY: earlier triggering event, subsequent amendment and exact ending date; expired classification remains provisional.]
 - **Outcome:** —
 
 ### Madison County
@@ -307,17 +307,17 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 
 - **Type:** County
 - **Status:** 🟢 Active
-- **Date enacted:** Commissioners directed staff to draft the ordinance 2026-07-28; the Board of County Commissioners applied the Pending Ordinance Doctrine and adopted Ordinance No. 26-42 on 2026-09-22 (first noticed for public hearing 2026-09-04; Planning Commission review 2026-09-17).
-- **Normalized date:** `2026-09-22` (exact)
-- **Duration:** Twelve-month moratorium on submission and acceptance of applications for building permits, site plans, development orders, development agreements, special permit uses, rezonings, and comprehensive plan amendments related to 'Data Center Facilities' in unincorporated Manatee County, or until repealed, whichever occurs first; may be extended by Board resolution.
+- **Date enacted:** October 8, 2026; the first public hearing was September 22, when the Board applied the pending ordinance doctrine.
+- **Normalized date:** `2026-10-08` (exact)
+- **Duration:** Twelve calendar months from effectiveness, or earlier repeal; extensions require Board action. Adopted October 8, 2026, effective upon state filing October 12, 2026. [VERIFY: later actions and current operative endpoint.]
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `fl-manatee-county-2026`
-- **Legal basis:** Manatee County Ordinance No. 26-42
+- **Legal basis:** Manatee County Ordinance No. 26-42, adopted October 8, 2026; effective upon state filing on October 12, 2026.
 - **What prompted it:** SB 484 (effective 2026-07-01) established local authority over large-load customers; county's land development code and comprehensive plan do not adequately address data centers.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23 (adopted the day before); twelve-month moratorium running through approximately 2027-09-22.
-- **Outcome:** Twelve-month moratorium ordinance (No. 26-42) adopted.
+- **Detailed status:** Ordinance No. 26-42 was adopted October 8, 2026 and filed with the Florida Department of State October 12, 2026. It establishes a twelve-month moratorium, or until repealed, whichever occurs first; subsequent legal status remains unverified as of 2026-11-05. [VERIFY: subsequent amendment, repeal or extension and present legal force.]
+- **Outcome:** Ordinance No. 26-42 adopted October 8, 2026; effective upon state filing October 12, 2026.
 
 ### Marion County
 
@@ -332,7 +332,7 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Legal basis:** Marion County Board of County Commissioners ordinance (specific ordinance number not located in reviewed sources); adopted 2026-09-15.
 - **What prompted it:** Concerns over water consumption from the Floridan Aquifer (including Outstanding Florida Springs Silver Springs and Rainbow Springs), power-grid strain, noise, and county staff's stated lack of readiness/criteria to evaluate large data-center applications; balanced against a proposed roughly $10 billion facility that proponents said could generate significant tax revenue and jobs.
 - **Affected projects:** An unnamed proposed data-center facility reported by proponents at the hearing as a roughly $10 billion project that could generate about $155 million in tax revenue.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-09-15, with an exemption for facilities under 50 MW that can still apply via Special Use Permit.
+- **Detailed status:** Ordinance adopted September 15, 2026; the clerk record states state filing and notice receipt on September 25, 2026. Section 10 makes effectiveness depend on receipt of the state filing acknowledgment. Section 7 specifies twelve months from and including effectiveness or earlier qualifying regulations. [VERIFY: subsequent regulations or amendments and present legal force; original precise endpoint not inferred.]
 - **Outcome:** 12-month moratorium adopted (4-1 substantive vote; 5-0 procedural adoption vote), with exemptions for sub-50-MW facilities that drew a dissenting vote from Commissioner Kathy Bryant, who opposed the carve-out.
 
 ### Martin County
@@ -354,18 +354,18 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 ### Minneola
 
 - **Type:** City
-- **Status:** 🟡 Pending
-- **Date enacted:** —
-- **Normalized date:** `—` (unverified)
-- **Duration:** 1 year (proposed)
+- **Status:** 🟢 Active
+- **Date enacted:** City Council approved Ordinance 2026-17 on second reading July 21, 2026, 5-0 (official minutes, item 6).
+- **Normalized date:** `2026-07-21` (exact)
+- **Duration:** Twelve-month moratorium on approvals for data centers and similar large-load facilities, as described in the July 21 second-reading minutes. [VERIFY: adopted final text, term anchor and earlier termination conditions.]
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `fl-minneola-undated`
-- **Legal basis:** —
+- **Legal basis:** City of Minneola Ordinance 2026-17; approved on second reading July 21, 2026. [VERIFY: signed final instrument and operative effective date.]
 - **What prompted it:** Water and power-use zoning standards not yet drafted; coordinating with Lake County
 - **Affected projects:** —
-- **Detailed status:** Pending as of 2026-09-23; City Council advanced a one-year moratorium ordinance in step with Lake County; language reportedly modeled on other Florida ordinances; a final vote had not been confirmed as of the most recent source reviewed. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
-- **Outcome:** Advanced; final vote status unconfirmed
+- **Detailed status:** City Council approved Ordinance 2026-17 on second reading July 21, 2026, 5-0; the minutes describe a twelve-month moratorium. The prior pending account is superseded by this documented adoption. [VERIFY: signed final text, effective date, subsequent actions and present legal force; active classification remains provisional.]
+- **Outcome:** Ordinance 2026-17 approved on second reading, 5-0, July 21, 2026; permanent regulations were to be developed during the temporary pause.
 
 ### Nassau County
 
@@ -380,7 +380,7 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Legal basis:** Nassau County Ordinance No. 2026-044, "Imposing a Temporary Moratorium on the Acceptance, Review, or Approval of Applications for Development Permits, Development Orders, Rezoning, or Site Plans Related to Data Centers, Data Processing Facilities, Data Mining or Cryptocurrency Mining Operations ... Within Unincorporated Nassau County, Florida."
 - **What prompted it:** Board directed staff to draft the moratorium in April 2026 to allow time to study and adopt comprehensive-plan and land-development-code provisions for data centers before accepting further applications; a companion resolution (2026-102) created a Fact-Finding Committee on Data Center Development that met repeatedly through June 2026.
 - **Affected projects:** No specific pending project named in the ordinance itself; adopted preemptively alongside the Fact-Finding Committee on Data Center Development.
-- **Detailed status:** Active as of 2026-07-31. Checked the June 22, July 13, and July 27, 2026 BOCC agendas; no repeal, amendment, or extension item found. Applies only to unincorporated Nassau County.
+- **Detailed status:** The county data-center page identifies Ordinance 2026-044, approved June 8, 2026, and an up-to-twelve-month pause on covered applications. The original term is expressed in calendar months. [VERIFY: final executed text, subsequent regulations or amendments and present legal force.]
 - **Outcome:** Ordinance adopted on final hearing 2026-06-08; moratorium in effect for up to 12 months or until permanent Data Center Facility regulations are adopted, whichever is sooner.
 
 ### North Port
@@ -393,11 +393,11 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `fl-north-port-2026`
-- **Legal basis:** City of North Port ordinance (specific ordinance number not located in reviewed sources); adopted on second/final reading 2026-09-22.
+- **Legal basis:** City of North Port Ordinance No. 2026-25; city legislative record lists final action September 22, 2026.
 - **What prompted it:** A roughly 896,000 sq ft ('Deep Park') data-center application, part of a larger 282-acre mixed-use development, submitted 2026-07-20 after a non-disclosure agreement (entered August 2025) expired; hundreds of residents packed multiple public hearings (2026-08-31 and 2026-09-22) in opposition, citing water, noise, and infrastructure concerns.
-- **Affected projects:** The 'Deep Park' data-center proposal: roughly 896,000 sq ft of buildings (about 123,200 sq ft of office space) on land near Yorkshire Street/Oleander Drive, part of a broader 282-acre 'employment epicenter' development; excluded from the moratorium's coverage as finally adopted.
-- **Detailed status:** Active as of 2026-09-23 (adopted the day before, 3-2); 18-month moratorium on new data-center applications, but the already-pending ~896,000 sq ft Deep Park data-center application is excluded from the pause (city staff may still process it; Commission approval is still required) rather than being retroactively swept in.
-- **Outcome:** 18-month moratorium adopted 3-2 on second/final reading 2026-09-22; the pending Deep Park application was excluded from coverage after the city attorney warned that including it could expose the city to litigation.
+- **Affected projects:** The baseline identifies the pending application as the Deep Park proposal, about 896,000 sq ft near Yorkshire Street/Oleander Drive. The second-reading text identifies Application PSD-26-03382 and permits acceptance, processing and review while keeping approval or issuance paused absent further Commission action. [VERIFY: project identity/size and final signed text.]
+- **Detailed status:** Adopted September 22, 2026. The second-reading text exempts the pending application from acceptance, processing and review restrictions, but retains the moratorium on its approval or issuance absent further Commission action. Subsequent legal status remains unverified as of November 5, 2026. [VERIFY: separately signed final text, later actions and present legal force.]
+- **Outcome:** Ordinance 2026-25 is recorded as passed September 22, 2026. The second-reading text provides an eighteen-month moratorium; its pending-application exception permits processing and review, while approval remains paused without further Commission action. [VERIFY: signed final text and subsequent legal status.]
 
 ### Orange County
 
@@ -597,14 +597,14 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** Final approval 2026-06-22 by City Council, following a unanimous first reading 2026-06-08.
 - **Normalized date:** `2026-06-22` (exact)
-- **Duration:** One-year moratorium on city approvals for data centers, large-scale data centers, and large-load customer facilities.
+- **Duration:** Twelve calendar months from effective date, or an earlier date provided by City Council ordinance (section 6).
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `fl-zephyrhills-2026`
 - **Legal basis:** City of Zephyrhills Ordinance 1523-26
 - **What prompted it:** Precautionary measure; city staff said no data center proposal was pending at the time of adoption.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. Confirmed directly against the City of Zephyrhills' official Code of Ordinances index (Municode), which lists 'Ordinance No. 1523-26 ... Adopted 6/22/26' establishing the temporary moratorium; the intervening ordinances adopted through 2026-08-24 (Nos. 1524-26 through 1528-26) are unrelated (mobile food vending, stormwater, sanitation/water rates, LDC procedures), confirming the moratorium has not been repealed or replaced.
+- **Detailed status:** Ordinance 1523-26 passed second reading and received mayoral approval June 22, 2026. Section 13 makes effectiveness depend on second passage and mayoral signing; section 6 sets twelve months from effectiveness or an earlier date set by ordinance. [VERIFY: subsequent repeal, replacement, amendment or extension and current legal force.]
 - **Outcome:** —
 
 ---

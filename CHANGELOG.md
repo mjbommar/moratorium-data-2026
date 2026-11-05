@@ -20,13 +20,15 @@ New Haven's official ordinance history corrects approval to September 22 and ide
 
 Washington County, Colorado's signed Resolution 16-2026 ended its BESS moratorium on April 14, correcting an active classification. Logan County's duration summary now distinguishes the February 17 termination of data-center, BESS and solar components from the April 7 termination of the wind component. These historical corrections do not verify the present regulatory text.
 
+Florida corrections document Minneola's July 21 second-reading approval (Ordinance 2026-17), replacing its pending classification provisionally, and Manatee's October 8 adoption and October 12 state filing (26-42), replacing the September adoption account. North Port's pending-application exception permits processing/review but retains the approval pause in the reviewed second-reading text. Zephyrhills, Marion and Nassau calendar terms no longer use guessed day counts; Lynn Haven's exact ending and later actions remain unresolved rather than inferred from agenda silence. Current-force and final-text gaps remain flagged.
+
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1292** |
-| In force (active or extended) | **1066** |
-| Proposed, not yet voted on | **74** |
+| In force (active or extended) | **1067** |
+| Proposed, not yet voted on | **73** |
 | Ended (replaced, expired, or rescinded) | **152** |
-| Rows we still want to confirm (`[VERIFY]`) | **308** |
+| Rows we still want to confirm (`[VERIFY]`) | **314** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
