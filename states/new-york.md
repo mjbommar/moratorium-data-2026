@@ -106,7 +106,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 | Prattsburgh | Town | 2024 | battery storage, solar | 🟢 Active |
 | Putnam Valley | Town | 2024-07-26 | battery storage, solar, wind | ⚪ Expired |
 | Ripley | Town | Unverified | battery storage | ⚪ Expired |
-| Rose | Town | 2025 | battery storage, solar | 🟢 Active |
+| Rose | Town | 2025-05-20 | battery storage, solar | 🟢 Active |
 | Rotterdam | Town | 2024 | battery storage | ⚪ Expired |
 | Royalton | Town | 2024-03 | battery storage | ⚪ Replaced |
 | Salem | Town | 2025-10-08 | battery storage | 🟢 Active |
@@ -1567,7 +1567,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Local Law No. 3 of 2025 (original, adopted following the 2025-03-24 hearing; filed 2025-05-05, expired 2025-11-05); further extended by Local Law No. 14 of 2025 (Common Council agenda 2025-11-24)
 - **What prompted it:** City-wide moratorium on large-scale Battery Energy Storage Systems (over 80 kWh) applications and permits pending study of fire, safety, and siting standards
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23 per Local Law No. 14 of 2025's six-month extension (adopted around 2025-11-24, running to approximately 2026-05-24); not independently re-confirmed for any further extension since. A tracker (Carina Energy) lists Peekskill, Westchester County as active with expiration 2026-05-31, closely consistent with this term.
+- **Detailed status:** November 24, 2025 Council minutes record approval of Local Law 14 of 2025, a six-month BESS moratorium extension. This does not prove force after its term; filing and later extensions/replacement remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Six-month large-scale BESS moratorium, extended once by six more months
 
 ### Pendleton
@@ -1608,14 +1608,14 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Status:** 🟢 Active
 - **Date enacted:** Originally imposed by Local Law No. 23 of 2024 (commercial solar); extended by Local Law #3 of 2025 (introduced 2025-05-08) and again by a third local law reported by the Leader Herald as covering solar, battery, and wind installations
 - **Normalized date:** `2024` (year_only)
-- **Duration:** Series of extensions since 2024; the Leader Herald reported the third enactment in a 14-month span as of its (undated but 2025) publication
+- **Duration:** Series of terms since 2024; February 6, 2026 reporting describes a third, one-year moratorium after two six-month terms. Operative term and later action require primary-source verification.
 - **Current end date:** `—`
 - **Sectors:** battery storage, solar, wind
 - **Moratorium ID:** `ny-perth-fulton-county-2024`
 - **Legal basis:** Local Law No. 23 of 2024 (original, commercial solar); extended by Local Law #3 of 2025 (Resolution #66, introduced 2025-05-08); further extended/broadened to cover battery and wind per Leader Herald coverage
 - **What prompted it:** Town-wide pause on new commercial solar, battery storage, and wind installations to allow the Town Board to update and revise siting regulations
 - **Affected projects:** Perth CS III, LLC proposed solar farm (Active Solar Special Use Permit) along County Highway 107, referenced in a 2026-04-01 NYSDEC environmental notice
-- **Detailed status:** Reported active in Leader Herald/dailygazette.com coverage of the town's third moratorium enactment in 14 months, covering solar, battery, and wind installations; this is a separate instrument from the Town's 2026-06-04 one-year data-center-only moratorium already in the inventory (ny-perth-2026). Not independently re-confirmed for an exact current end date as of 2026-09-23; a tracker (Carina Energy) lists Perth as an active ALL_BESS moratorium expiring 2027-01-21, which was not verified against a primary source. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Detailed status:** January county planning minutes describe a proposed twelve-month renewable-energy moratorium. February 6, 2026 reporting describes Thursday adoption of the third moratorium after two six-month terms. Operative town text and the relationship among successive acts remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Third extension of a commercial solar moratorium first imposed in 2024, since broadened to also cover battery storage and wind
 
 ### Port Chester
@@ -1640,14 +1640,14 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
-- **Duration:** Not yet defined; a resolution has been drafted but not put to a Town Board vote
+- **Duration:** A proposed 12-month moratorium was reported ahead of a November 5, 2026 hearing; adoption and operative term remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ny-potsdam-undated`
-- **Legal basis:** —
+- **Legal basis:** Proposed Local Law 2026-5, according to local reporting; adoption and filing unverified.
 - **What prompted it:** Concerns about the electric grid's ability to handle new data center demand, raised by Councilman Pat Brady after a NYISO 'Future Proofing the Grid' webinar
 - **Affected projects:** No specific project named
-- **Detailed status:** Pending as of 2026-09-23. Councilman Pat Brady proposed a local moratorium at the July 14, 2026 Town Board meeting and drafted a resolution, which he shared with the board and the town supervisor; the board planned to discuss scheduling a public hearing at its August meeting. No adoption or public hearing has been confirmed in subsequent coverage. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Detailed status:** Local reporting identifies proposed Local Law 2026-5 and a twelve-month moratorium with a November 5 hearing scheduled at 4:30 p.m. The hearing outcome, adoption and filing were not observed by this review; pending classification remains. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Proposed only; not adopted
 
 ### Pound Ridge
@@ -1672,14 +1672,14 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Status:** 🟢 Active
 - **Date enacted:** Public hearing noticed October 21, 2024 on a proposed six-month moratorium; adoption date and any extensions not independently confirmed
 - **Normalized date:** `2024` (year_only)
-- **Duration:** Six months as proposed; likely extended given the tracker's 2026 expiration claim
+- **Duration:** Six months proposed in 2024; a nine-month extension was adopted April 21, 2025. Filing and later extensions remain unverified.
 - **Current end date:** `—`
 - **Sectors:** battery storage, solar
 - **Moratorium ID:** `ny-prattsburgh-2024`
-- **Legal basis:** Town of Prattsburgh proposed local law establishing a six-month moratorium on Industrial Solar Energy Facilities and Battery Energy Storage Facilities (noticed for public hearing October 2024; referred to Steuben County committees per County Legislature resolution)
+- **Legal basis:** Proposed six-month 2024 solar and battery moratorium; Town Board minutes dated April 21, 2025 record adoption of a nine-month extension. Local law number, filing and later actions unverified.
 - **What prompted it:** Town-wide pause on industrial solar and BESS facility applications
 - **Affected projects:** —
-- **Detailed status:** Reported active per a tracker (Carina Energy) listing Prattsburgh, Steuben County as active with an expiration of 2026-08-31; final adoption of the October 2024 proposed law and any subsequent extensions were not independently confirmed from a primary Town source. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Detailed status:** April 21, 2025 minutes record adoption of a nine-month solar/BESS extension, with a 3-2 roll call shown. Original act identity, filed operative text, effective anchor and later extensions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Proposed six-month moratorium on industrial solar and BESS facilities, noticed for public hearing October 2024
 
 ### Putnam Valley
@@ -1718,16 +1718,16 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 
 - **Type:** Town
 - **Status:** 🟢 Active
-- **Date enacted:** Referred to the Wayne County Planning Board, which found 'no county impact' at its May 28, 2025 meeting; the Town's own adoption date was not independently located
-- **Normalized date:** `2025` (year_only)
+- **Date enacted:** 2025-05-20, Town Board adopted Local Law 1-2025, per town minutes.
+- **Normalized date:** `2025-05-20` (exact)
 - **Duration:** Not confirmed from the documents located
 - **Current end date:** `—`
 - **Sectors:** battery storage, solar
 - **Moratorium ID:** `ny-rose-2025`
-- **Legal basis:** Town of Rose proposed moratorium on the construction of large-scale solar farms and battery storage units (referred to Wayne County Planning Board as a GML 239 matter)
+- **Legal basis:** Local Law 1-2025 establishing a moratorium on major solar farms and large battery energy storage systems, adopted by Town Board May 20, 2025; effective filing and term unverified.
 - **What prompted it:** Town-wide pause on large-scale solar and battery storage construction
 - **Affected projects:** —
-- **Detailed status:** Reported active per a tracker (Carina Energy) listing Rose, Wayne County as active with an expiration of 2026-07-03; the underlying Town local law and its exact adoption date/term were not independently located, only the county referral record showing the Town's intent to impose the moratorium as of May 2025. [VERIFY instrument number not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Detailed status:** May 20, 2025 town minutes record adoption of Local Law 1-2025 by Resolution 13-2025 for major solar farms and large BESS. The operative term, filing and later acts remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Moratorium on large-scale solar farms and battery storage units
 
 ### Rotterdam
@@ -1791,7 +1791,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Local Law 1 of 2026, imposing a one-year moratorium on commercial free-standing solar systems within the Town of Schroeppel
 - **What prompted it:** Town-wide pause on commercial free-standing solar development pending regulatory review
 - **Affected projects:** Nexamp Solar Company's Phoenix-Oxbow Solar Project off Hoag Drive in the Village of Phoenix (a positive SEQRA determination was issued December 2025); Nexamp separately sought a waiver related to a Bankrupt Road site
-- **Detailed status:** Active as of 2026-09-23. A July 17, 2026 news account confirms the Town remains under this 12-month solar moratorium (passed in February) while separately adopting a data-center moratorium (July 14, 2026) and seeking public input at an August 11, 2026 hearing on a proposed, separate 12-month moratorium on battery energy storage systems (Local Law #3) that was not confirmed adopted as of this pass. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** February 10 minutes record unanimous approval of Local Law 1 of 2026 for a one-year moratorium on commercial free-standing solar systems. Filed wording, effectiveness and later acts remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** One-year moratorium on commercial free-standing solar systems
 
 ### Smithtown

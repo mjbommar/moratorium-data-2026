@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Six New York corrections distinguish Peekskill’s historical six-month extension from current force, correct Perth’s reported chronology, retain Potsdam as a proposal with an unobserved November 5 hearing outcome, identify Prattsburgh’s adopted nine-month extension and Rose’s May 20, 2025 adoption, and correct Schroeppel’s one-year calendar term. Filing, intervening acts and later force remain unresolved.
+
 Five New York corrections identify Newfield Local Law 2 of 2026, North Hempstead’s conditional November 18 code lapse and Oyster Bay’s compound adoption/filing anchor. North Tonawanda and Oswego inferred endpoints are cleared: posted proposal wording and renewal authority do not establish adopted extensions or their effective dates. Legacy classifications remain provisional pending complete later-action review.
 
 New York review corrects Hempstead’s lapse to February 25, 2027 with document-stated September 18 effectiveness, Islip’s explicit February 28, 2028 endpoint and Manlius’s news-qualified July 8 vote date rather than July 9 publication. Publication conditions, intervening gaps and later legal force remain qualified.
@@ -74,7 +76,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **495** |
+| Rows we still want to confirm (`[VERIFY]`) | **496** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
