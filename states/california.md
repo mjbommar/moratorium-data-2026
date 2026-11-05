@@ -14,7 +14,7 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 | Calaveras County | County | 2026-08-25 | data center | 🟢 Active |
 | City of Angels (Calaveras County) | City | 2026-08-18 | data center | 🟢 Extended |
 | Coachella | City | 2026-06-04 | data center | ⚪ Replaced |
-| Covina | City | 2025-03 | battery storage | ⚪ Replaced |
+| Covina | City | 2025-05-06 | battery storage | ⚪ Replaced |
 | Desert Hot Springs | City | 2026-06-16 | data center | 🟢 Extended |
 | El Monte | City | 2026-03-18 | data center | 🟢 Extended |
 | Escondido | City | 2026-08-26 | data center | 🟢 Extended |
@@ -22,7 +22,7 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 | Gilroy | City | 2026-09-14 | data center | 🟢 Extended |
 | Humboldt County | County | Unverified | data center | 🟡 Pending |
 | Imperial | City | 2026-06-03 | data center, battery storage | 🟢 Extended |
-| Imperial County | County | 2026-06-17 | data center | 🔴 Rescinded |
+| Imperial County | County | 2026-06-16 | data center | 🔴 Rescinded |
 | Indio | City | 2026-06-03 | data center | 🟢 Extended |
 | Irwindale | City | Unverified | data center | ⚪ Replaced |
 | Lake Elsinore | City | 2026-08-25 | data center | 🟢 Extended |
@@ -129,13 +129,13 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 
 - **Type:** City
 - **Status:** ⚪ Replaced
-- **Date enacted:** 2025-03 (approx.; Ordinance 25-01, 45 days), extended by Ordinance 25-04 (effective 2025-05-06, through 2026-05-06)
-- **Normalized date:** `2025-03` (month_only)
+- **Date enacted:** 2025-05-06 (Ordinance 25-01, 45 days); extended 2025-06-17 by Ordinance 25-04.
+- **Normalized date:** `2025-05-06` (exact)
 - **Duration:** 45-day urgency ordinance extended 10 months 15 days; repealed early by permanent zoning ordinance
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ca-covina-2025`
-- **Legal basis:** Ordinance 25-01 (original), extended by Ordinance 25-04; repealed and replaced by Ordinance 25-10 (Zoning Code Amendment ZCA 25-2), introduced 2025-09-02
+- **Legal basis:** Urgency Ordinance 25-01 adopted May 6, 2025; extended by Urgency Ordinance 25-04 adopted June 17, 2025. Ordinance 25-10 was proposed to repeal Ordinance 25-04; its final adoption and effective date require verification.
 - **What prompted it:** Inquiries about siting BESS in the industrial area; city zoning code had no BESS land-use category.
 - **Affected projects:** 522, 534 & 680 Edna Place BESS project under Planning Commission review by June 2026.
 - **Detailed status:** Replaced. The moratorium (Ordinance 25-01, extended by 25-04 through May 2026) was repealed ahead of schedule when the Council introduced Ordinance 25-10 on 2025-09-02, adding a BESS definition and making BESS a conditionally permitted use in the M-1 Light Manufacturing zone and repealing Ordinance 25-04; the Planning Commission had recommended this 5-0-0 on 2025-08-12. Effective date of the permanent ordinance not independently confirmed in this pass, but the city was actively processing a BESS project application (522/534/680 Edna Place) by mid-2026, confirming the moratorium had ended. [VERIFY details not confirmed at confidence 0.55 in the 2026-09 refresh]
@@ -257,8 +257,8 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 
 - **Type:** County
 - **Status:** 🔴 Rescinded
-- **Date enacted:** 2026-06-17
-- **Normalized date:** `2026-06-17` (exact)
+- **Date enacted:** 2026-06-16 (Ordinance 1616).
+- **Normalized date:** `2026-06-16` (exact)
 - **Duration:** Extended to a one-year moratorium on 2026-07-14; reported to run into June 2027 while the County's advisory committee develops recommendations.
 - **Current end date:** `—`
 - **Sectors:** data center
@@ -266,8 +266,8 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Legal basis:** County Ordinance No. 1616 (adopted 2026-06-16, initial 45-day moratorium) and County Ordinance No. 1618 (adopted 2026-07-14, extension of ~10 months 15 days); both ordinances were set aside by court order effective 2026-09-11 (see current_status).
 - **What prompted it:** Months of public opposition to a large proposed data center complex projected to consume about 750,000 gallons of water daily and more electricity than the entire county used in 2024
 - **Affected projects:** A proposed large-scale data center complex; the developer (reported as Sebastian Rucci) indicated plans to challenge the decision in court.
-- **Detailed status:** Rescinded by court order as of 2026-09-23. Imperial County Superior Court Judge Jeffrey B. Jones entered judgment 2026-09-04 in favor of developer Imperial Valley Computer Manufacturing, LLC, finding neither Ordinance 1616 (the original moratorium) nor Ordinance 1618 (its ~10-month-15-day extension) made the causal finding of a 'current and immediate threat to public health, safety, or welfare' required by Gov. Code section 65858. A peremptory writ of mandate issued 2026-09-11 directs the County and Board of Supervisors to set aside both ordinances and stop using them to withhold, suspend, or refuse data-center permits. The County has said (per KYMA, 2026-09-22) it is working on a new moratorium addressing the court's concerns; no replacement had been adopted as of 2026-09-23. The Data Center Advisory Committee, created alongside the moratorium, continues to meet (inaugural meeting 2026-09-17) and is unaffected by the ruling. Separately, a different judge (L. Brooks Anderholt) has ordered a full CEQA environmental review of the underlying data center project in a related case, so the project itself remains stalled notwithstanding the moratorium's invalidation.
-- **Outcome:** Moratorium (Ordinances 1616 and 1618) adopted and extended to run through mid-2027, then invalidated by the Imperial County Superior Court (Judge Jeffrey B. Jones) in Imperial Valley Computer Manufacturing, LLC v. County of Imperial: judgment entered 2026-09-04, peremptory writ of mandate issued 2026-09-11 ordering the County to set aside and cease enforcing both ordinances because their findings did not satisfy Gov. Code section 65858's 'current and immediate threat' standard. The County has 30 days after service of the writ to file a return; county officials say they are preparing a new moratorium that addresses the court's findings. The Data Center Advisory Committee process continues separately.
+- **Detailed status:** Ordinances 1616 and 1618 were repealed and set aside by the Board on October 6, 2026 in compliance with the court writ; the county said the urgency repeal took effect immediately. A separate October 6 moratorium was reported in local news; its later status was not verified.
+- **Outcome:** The Board repealed and set aside Ordinances 1616 and 1618 on October 6, 2026, in compliance with the Superior Court writ. A separate 45-day moratorium was reported adopted that day; its later status is unresolved.
 
 ### Indio
 
@@ -378,8 +378,8 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Legal basis:** Ordinance No. 2272; extension Ordinance No. 2274; Gov. Code sections 36937 and 65858
 - **What prompted it:** 1977 Saturn Street data center proposal and broader concern over energy use, noise, air quality, aesthetics, property values, neighborhood quality of life, CEQA review, and whether permanent regulations or a citywide ban are needed
 - **Affected projects:** 1977 Saturn Street proposal by HMC StratCap (SheppardMullin counsel); local CEQA/project records described about 49.9 MW maximum load, 36 MW critical load, 14 backup diesel generators, and roughly 218,400 to 247,480 sq ft in different documents. Per *San Gabriel Valley Tribune* (2026-04-01), HMC StratCap formally withdrew the Saturn Street application after community pushback; city officials confirmed on 2026-04-20 that HMC StratCap still owns the parcel and has not communicated future plans for the site.
-- **Detailed status:** Active; permanent citywide data center prohibition in place. Measure NDC passed at the June 2, 2026 special election (10,388 Yes / 1,372 No, per the LA County Registrar-Recorder's certified canvass); results certified by the City Clerk on June 30, 2026 and declared by City Council Resolution No. 2026-R56 on July 1, 2026 (unanimous, 5-0). Companion Ordinance No. 2280 (General Plan amendment prohibiting all data centers citywide) was adopted by Council on July 2, 2026, effective on or about July 11, 2026 (10 days after election-result certification, per Elections Code section 9217).
-- **Outcome:** Moratorium extended through 2027-01-21 (superseded in practice by permanent action); permanent citywide prohibition codified by ordinance on 2026-04-20; voters ratified the prohibition via Measure NDC on 2026-06-02 (10,388 Yes / 1,372 No), with results certified July 1, 2026 and companion Ordinance No. 2280 adopted July 2, 2026.
+- **Detailed status:** Urgency Ordinance 2276 adopted April 20, 2026 established a citywide data center prohibition effective immediately upon adoption. Ordinance 2279 adopted May 6 ties its effective date to Measure NDC. Measure NDC passed June 2 with 10,388 Yes and 1,372 No; the clerk certified the canvass June 30 and Council declared adoption by Resolution 2026-R56 on July 1. The attached proposition bears a July 2 adoption date and specifies effect 10 days after Council certification. Exact termination of the separate temporary moratorium and subsequent legal changes remain unresolved.
+- **Outcome:** Permanent prohibition adopted by urgency Ordinance 2276 on April 20, 2026; Ordinance 2279 adopted May 6 to implement Measure NDC. Measure NDC approved June 2 (10,388 Yes / 1,372 No); clerk certificate dated June 30 and Council declaration July 1. The temporary moratorium termination and later legal status require verification.
 
 ### Morgan Hill
 
@@ -535,11 +535,11 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ca-solano-county-2024`
-- **Legal basis:** Urgency ordinance (extended 2024-02-27) enacting a pause on large-scale BESS approvals; replaced by a permanent BESS zoning ordinance adopted 2025-08-26
+- **Legal basis:** Interim Ordinance 2024-1852-U adopted January 23, 2024, extended by 2024-1852-U-E, and amended August 26, 2025 to lift the pause in specified industrial and manufacturing districts. The Board adopted permanent zoning amendment ZT-25-02 on November 4, 2025.
 - **What prompted it:** Safety concerns near the Vaca-Dixon substation in Vacaville; farmland protection.
 - **Affected projects:** —
-- **Detailed status:** Replaced. The two-year moratorium adopted 2024-01-23 (extended 2024-02-27) was superseded when the Board of Supervisors adopted permanent BESS zoning regulations on 2025-08-26.
-- **Outcome:** Permanent BESS zoning ordinance in effect as of 2025-08-26.
+- **Detailed status:** On August 26, 2025 the Board amended the interim ordinance to lift the pause in specified manufacturing and industrial districts while retaining it in other districts. On November 4, 2025 the Board adopted permanent BESS zoning regulations. The interim ordinance had been scheduled to expire January 23, 2026 unless repealed earlier; its exact termination and the permanent ordinance effective date require verification.
+- **Outcome:** Interim BESS restrictions were partially relaxed on August 26, 2025; permanent BESS zoning was adopted November 4, 2025. The precise termination of the remaining interim restrictions is unresolved.
 
 ### Tulare County
 

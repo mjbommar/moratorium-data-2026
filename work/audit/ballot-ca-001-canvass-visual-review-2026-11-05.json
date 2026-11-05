@@ -1,0 +1,22 @@
+{
+  "job_id": "ballot-ca-001",
+  "claim_id": "m-canvass-visual",
+  "claim_sha256": "aae160710c3f634ea113e5d5c9457aa3ca34c33f7d602ceb5e31d8bcb03d0c4b",
+  "source_document_id": "5fd1ffce296c46fda0f42fde69a78ac0",
+  "source_body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+  "render_sha256": "5cf52762f2bf09e5b6ab5a9d6ed50ed0a53deaa22222fdc3e5f0956bd367947f",
+  "pdf_page": 8,
+  "printed_page": "1282",
+  "render_method": "pdftoppm -f 8 -l 8 -r 120 -singlefile -png; independently rerendered and byte-identical to inspected worker image",
+  "reviewer": "coordinator",
+  "reviewed_at": "2026-11-05T17:41:28.006240+00:00",
+  "disposition": "accepted_visual_values",
+  "values": {
+    "yes": 10388,
+    "no": 1372,
+    "ballots_cast": 12381,
+    "registered_voters": 32781
+  },
+  "locator": "Grand total row; Registration, Ballots Cast, YES and NO columns",
+  "scope": "Visual transcription only. No acceptance of legal effect or predecessor termination."
+}

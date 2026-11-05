@@ -3,10 +3,14 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from audit_refresh_returns import audit_expanded_evidence
+from audit_refresh_returns import audit_expanded_evidence, candidate_id_coverage
 
 
 class ExpandedEvidenceAudit(unittest.TestCase):
+    def test_returned_count_alone_cannot_prove_seed_coverage(self):
+        coverage=candidate_id_coverage(['a','b','c'],[{'seed_id':'a'},{'seed_id':'a'},{'seed_id':'x'}])
+        self.assertEqual(coverage,{'missing_seed_ids':['b','c'],'extra_seed_ids':['x'],'duplicate_seed_ids':['a']})
+
     def fixture(self):
         source={'source_document_id':'s1','url':'https://example.gov/results',
                 'body_sha256':'body','text_sha256':'text'}
@@ -45,3 +49,10 @@ class ExpandedEvidenceAudit(unittest.TestCase):
         issues,proofs=audit_expanded_evidence(records,index)
         self.assertEqual(issues,[])
         self.assertTrue(proofs[0]['quote_located'])
+
+    def test_payload_only_source_does_not_prove_a_text_claim(self):
+        records,index=self.fixture()
+        records['source_documents'][0]['text_sha256']=None
+        issues,proofs=audit_expanded_evidence(records,index)
+        self.assertEqual(issues,[])
+        self.assertFalse(proofs[0]['quote_located'])

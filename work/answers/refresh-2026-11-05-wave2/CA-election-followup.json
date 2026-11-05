@@ -1,0 +1,51 @@
+{
+  "state_abbrev": "CA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator",
+  "decisions": [
+    {
+      "moratorium_id": "ca-monterey-park-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "title": "Resolution 2026-R56 and attached certified canvass",
+          "source_type": "resolution",
+          "document_date": "2026-07-01",
+          "quote": "Accordingly, Measure NDC garnered the required majority vote required for adoption.",
+          "supports": "Council declared Measure NDC adopted; distinguishes declaration from clerk certification."
+        },
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "title": "Clerk certificate in Resolution 2026-R56 attachments",
+          "source_type": "other",
+          "document_date": "2026-06-30",
+          "quote": "City of Monterey Park, California, this 30th day of June, 2026.",
+          "supports": "Clerk certification date."
+        },
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "title": "Los Angeles County June 2 election results",
+          "source_type": "other",
+          "document_date": "2026-06-02",
+          "quote": "YES 10,388 88.33%\nNO 1,372 11.67%",
+          "supports": "Question votes; independently visually cross-checked against final official canvass PDF page 8, printed page 1282."
+        }
+      ],
+      "notes": "Follow-up to wave2 correction using independent ballot-lane official sources. Coordinator visually inspected the certified grand-total row and reproduced its render from the source PDF with identical SHA256. Visual review receipt in work/audit/ballot-ca-001-canvass-visual-review-2026-11-05.json. This preserves the distinction between clerk certification and Council declaration; does not infer interim termination or present a ballot vote as a new moratorium.",
+      "changes": {
+        "current_status": {
+          "from": "The City adopted urgency Ordinance 2276 on April 20, 2026 establishing a citywide data center prohibition effective immediately upon adoption, and adopted Ordinance 2279 on May 6, 2026 to implement Measure NDC, with its effective date tied to the measure. The election result, certification, and precise termination of the temporary moratorium require independent verification.",
+          "to": "Urgency Ordinance 2276 adopted April 20, 2026 established a citywide data center prohibition effective immediately upon adoption. Ordinance 2279 adopted May 6 ties its effective date to Measure NDC. Measure NDC passed June 2 with 10,388 Yes and 1,372 No; the clerk certified the canvass June 30 and Council declared adoption by Resolution 2026-R56 on July 1. The attached proposition bears a July 2 adoption date and specifies effect 10 days after Council certification. Exact termination of the separate temporary moratorium and subsequent legal changes remain unresolved.",
+          "reason": "Official certification, declaration and county results resolve the earlier election uncertainty."
+        },
+        "outcome": {
+          "from": "The City adopted urgency Ordinance 2276 on April 20, 2026 and Ordinance 2279 on May 6, 2026. The latter ties its effective date to Measure NDC; election result and legal relationship to the temporary ordinance require verification.",
+          "to": "Permanent prohibition adopted by urgency Ordinance 2276 on April 20, 2026; Ordinance 2279 adopted May 6 to implement Measure NDC. Measure NDC approved June 2 (10,388 Yes / 1,372 No); clerk certificate dated June 30 and Council declaration July 1. The temporary moratorium termination and later legal status require verification.",
+          "reason": "Official certification, declaration and county results resolve the earlier election uncertainty."
+        }
+      }
+    }
+  ],
+  "new_candidates": []
+}

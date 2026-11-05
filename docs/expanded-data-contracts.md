@@ -87,6 +87,15 @@ Coverage observations describe a bounded search, not proof of absence. These
 contracts do not check URL bodies, quote spans, rights, reviewer competence or
 whether the cited source actually supports a claim.
 
+`scripts/audit_refresh_returns.py` adds a separate pre-review check against retained
+bounded-client artifacts: declared source hashes, independently located excerpts,
+and candidate seed coverage against the frozen discovery list. A payload-only
+document with null text hash can pass payload accounting but cannot prove a text
+claim. Visual claims require their own reviewed source/page/render provenance;
+an unlocated text quote is not automatically a visual claim. The audit does not
+promote candidates or establish legal effect, and its success cannot substitute
+for substantive review. Frozen seeds describe that source list, not a full census.
+
 ## Dates and limitations
 
 `date_bounds` has inclusive earliest/latest possible **dates**, precision and

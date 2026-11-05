@@ -74,11 +74,13 @@ def audit_expanded_evidence(records, index):
         sid=source['source_document_id']
         matches=[v for v in index.get(source['url'], [])
                  if v['body_sha256']==source['body_sha256']
-                 and v['text_sha256']==source['text_sha256']]
+                 and (source['text_sha256'] is None or v['text_sha256']==source['text_sha256'])]
         if not matches:
             issues.append({'source_document_id':sid,'error':'declared source version not found in verified client evidence'})
         else:
-            verified[sid]=matches
+            # A retained scanned payload can legitimately have no declared text
+            # version. Its body is accounted for, but cannot prove a text quote.
+            verified[sid]=matches if source['text_sha256'] is not None else []
     for claim in values('claims'):
         sid=claim['source_document_id'];quote=claim['quote']
         location=None; artifact=None
@@ -92,11 +94,28 @@ def audit_expanded_evidence(records, index):
     return issues,proofs
 
 
+def seed_assignments(path):
+    seeds=load_lines(path); result={}
+    for state in sorted({s['state_abbrev_reported'] for s in seeds}):
+        rows=[s for s in seeds if s['state_abbrev_reported']==state]
+        for i in range(0,len(rows),4):
+            result[f'ballot-{state.lower()}-{i//4+1:03}']=[s['seed_id'] for s in rows[i:i+4]]
+    return result
+
+
+def candidate_id_coverage(expected,candidates):
+    returned=[c['seed_id'] for c in candidates]
+    return {'missing_seed_ids':sorted(set(expected)-set(returned)),
+            'extra_seed_ids':sorted(set(returned)-set(expected)),
+            'duplicate_seed_ids':sorted(k for k,v in Counter(returned).items() if v>1)}
+
+
 def audit(queue_path,runs):
     from jsonschema import Draft202012Validator,FormatChecker
     from bc_core.text import locate_quote
     from expanded_data import validate as expanded_validate
     queue=json.loads(queue_path.read_text());jobs=[]
+    ballot_assignments=seed_assignments(ROOT/'work/research/2026-11-05/ballot-discovery/ballot-seeds.jsonl')
     schemas={name:json.loads((ROOT/'work/schemas'/file).read_text()) for name,file in
              [('inventory','research_decision.schema.json'),('state_policy','legislation_decision.schema.json')]}
     for job in queue['jobs']:
@@ -148,6 +167,11 @@ def audit(queue_path,runs):
             row['mechanically_review_ready']=not (row['schema_errors'] or row['missing_ids'] or
                 row['extra_ids'] or row['duplicate_ids'] or issues or any(not x['quote_located'] for x in proofs))
         elif job['id'].startswith('ballot-'):
+            expected=ballot_assignments[job['id']]
+            candidate_path=directory/'candidates.json'
+            coverage=candidate_id_coverage(expected,json.loads(candidate_path.read_text())) if candidate_path.exists() else candidate_id_coverage(expected,[])
+            row['seed_coverage']=coverage
+            if len(expected)!=job['records']:row['checks'].append('frozen seed assignment count disagrees with queue')
             path=directory/'expanded'
             if path.exists():
                 try:
@@ -156,7 +180,7 @@ def audit(queue_path,runs):
                     source_issues,proofs=audit_expanded_evidence(records,idx)
                     row['expanded_source_issues']=source_issues
                     row['expanded_evidence_proofs']=proofs
-                    row['mechanically_review_ready']=not (errors or source_issues or issues
+                    row['mechanically_review_ready']=not (errors or source_issues or issues or row['checks'] or any(coverage.values())
                         or any(not p['quote_located'] for p in proofs))
                 except Exception as e:row['checks'].append('expanded validator: '+type(e).__name__+': '+str(e)[:200])
             else:row['checks'].append('missing expanded ledgers')

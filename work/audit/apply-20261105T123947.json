@@ -1,0 +1,124 @@
+{
+  "applied_at": "20261105T123947",
+  "answer_files": [
+    "work/answers/refresh-2026-11-05-wave2/CA-inventory.json"
+  ],
+  "stats": {
+    "outcome:unresolvable": 4,
+    "outcome:corrected": 4,
+    "fields_changed": 13
+  },
+  "conflicts": [],
+  "skipped": [
+    "CA-inventory.json: ca-coachella-2026 unresolvable",
+    "CA-inventory.json: ca-irwindale-undated unresolvable",
+    "CA-inventory.json: ca-montebello-2026 unresolvable",
+    "CA-inventory.json: ca-orange-county-2025 unresolvable"
+  ],
+  "changes": [
+    {
+      "moratorium_id": "ca-covina-2025",
+      "column": "date_enacted",
+      "before": "2025-03 (approx.; Ordinance 25-01, 45 days), extended by Ordinance 25-04 (effective 2025-05-06, through 2026-05-06)",
+      "after": "2025-05-06 (Ordinance 25-01, 45 days); extended 2025-06-17 by Ordinance 25-04.",
+      "reason": "Signed Ordinance 25-04 recites original adoption and certifies its own date.",
+      "source": "CA-inventory.json"
+    },
+    {
+      "moratorium_id": "ca-covina-2025",
+      "column": "date_enacted_iso",
+      "before": "2025-03",
+      "after": "2025-05-06",
+      "reason": "Signed extension recites May 6.",
+      "source": "CA-inventory.json"
+    },
+    {
+      "moratorium_id": "ca-covina-2025",
+      "column": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact",
+      "reason": "Original date established in signed extension.",
+      "source": "CA-inventory.json"
+    },
+    {
+      "moratorium_id": "ca-covina-2025",
+      "column": "legal_basis",
+      "before": "Ordinance 25-01 (original), extended by Ordinance 25-04; repealed and replaced by Ordinance 25-10 (Zoning Code Amendment ZCA 25-2), introduced 2025-09-02",
+      "after": "Urgency Ordinance 25-01 adopted May 6, 2025; extended by Urgency Ordinance 25-04 adopted June 17, 2025. Ordinance 25-10 was proposed to repeal Ordinance 25-04; its final adoption and effective date require verification.",
+      "reason": "Corrects chronology while retaining uncertainty over proposed repeal.",
+      "source": "CA-inventory.json"
+    },
+    {
+      "moratorium_id": "ca-imperial-county-2026",
+      "column": "date_enacted",
+      "before": "2026-06-17",
+      "after": "2026-06-16 (Ordinance 1616).",
+      "reason": "County October announcement identifies the adoption date.",
+      "source": "CA-inventory.json"
+    },
+    {
+      "moratorium_id": "ca-imperial-county-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-06-17",
+      "after": "2026-06-16",
+      "reason": "County announcement identifies the adoption date.",
+      "source": "CA-inventory.json"
+    },
+    {
+      "moratorium_id": "ca-imperial-county-2026",
+      "column": "current_status",
+      "before": "Rescinded by court order as of 2026-09-23. Imperial County Superior Court Judge Jeffrey B. Jones entered judgment 2026-09-04 in favor of developer Imperial Valley Computer Manufacturing, LLC, finding neither Ordinance 1616 (the original moratorium) nor Ordinance 1618 (its ~10-month-15-day extension) made the causal finding of a 'current and immediate threat to public health, safety, or welfare' required by Gov. Code section 65858. A peremptory writ of mandate issued 2026-09-11 directs the County and Board of Supervisors to set aside both ordinances and stop using them to withhold, suspend, or refuse data-center permits. The County has said (per KYMA, 2026-09-22) it is working on a new moratorium addressing the court's concerns; no replacement had been adopted as of 2026-09-23. The Data Center Advisory Committee, created alongside the moratorium, continues to meet (inaugural meeting 2026-09-17) and is unaffected by the ruling. Separately, a different judge (L. Brooks Anderholt) has ordered a full CEQA environmental review of the underlying data center project in a related case, so the project itself remains stalled notwithstanding the moratorium's invalidation.",
+      "after": "Ordinances 1616 and 1618 were repealed and set aside by the Board on October 6, 2026 in compliance with the court writ; the county said the urgency repeal took effect immediately. A separate October 6 moratorium was reported in local news; its later status was not verified.",
+      "reason": "Official county announcement identifies actual repeal; separate reported action must not be conflated with original.",
+      "source": "CA-inventory.json"
+    },
+    {
+      "moratorium_id": "ca-imperial-county-2026",
+      "column": "outcome",
+      "before": "Moratorium (Ordinances 1616 and 1618) adopted and extended to run through mid-2027, then invalidated by the Imperial County Superior Court (Judge Jeffrey B. Jones) in Imperial Valley Computer Manufacturing, LLC v. County of Imperial: judgment entered 2026-09-04, peremptory writ of mandate issued 2026-09-11 ordering the County to set aside and cease enforcing both ordinances because their findings did not satisfy Gov. Code section 65858's 'current and immediate threat' standard. The County has 30 days after service of the writ to file a return; county officials say they are preparing a new moratorium that addresses the court's findings. The Data Center Advisory Committee process continues separately.",
+      "after": "The Board repealed and set aside Ordinances 1616 and 1618 on October 6, 2026, in compliance with the Superior Court writ. A separate 45-day moratorium was reported adopted that day; its later status is unresolved.",
+      "reason": "Update the original ordinance history without assigning it the new action.",
+      "source": "CA-inventory.json"
+    },
+    {
+      "moratorium_id": "ca-monterey-park-2026",
+      "column": "current_status",
+      "before": "Active; permanent citywide data center prohibition in place. Measure NDC passed at the June 2, 2026 special election (10,388 Yes / 1,372 No, per the LA County Registrar-Recorder's certified canvass); results certified by the City Clerk on June 30, 2026 and declared by City Council Resolution No. 2026-R56 on July 1, 2026 (unanimous, 5-0). Companion Ordinance No. 2280 (General Plan amendment prohibiting all data centers citywide) was adopted by Council on July 2, 2026, effective on or about July 11, 2026 (10 days after election-result certification, per Elections Code section 9217).",
+      "after": "The City adopted urgency Ordinance 2276 on April 20, 2026 establishing a citywide data center prohibition effective immediately upon adoption, and adopted Ordinance 2279 on May 6, 2026 to implement Measure NDC, with its effective date tied to the measure. The election result, certification, and precise termination of the temporary moratorium require independent verification.",
+      "reason": "The signed ordinances replace unsupported references to Ordinance 2280 and a July 2 adoption.",
+      "source": "CA-inventory.json"
+    },
+    {
+      "moratorium_id": "ca-monterey-park-2026",
+      "column": "outcome",
+      "before": "Moratorium extended through 2027-01-21 (superseded in practice by permanent action); permanent citywide prohibition codified by ordinance on 2026-04-20; voters ratified the prohibition via Measure NDC on 2026-06-02 (10,388 Yes / 1,372 No), with results certified July 1, 2026 and companion Ordinance No. 2280 adopted July 2, 2026.",
+      "after": "The City adopted urgency Ordinance 2276 on April 20, 2026 and Ordinance 2279 on May 6, 2026. The latter ties its effective date to Measure NDC; election result and legal relationship to the temporary ordinance require verification.",
+      "reason": "Signed ordinance dates and identifiers.",
+      "source": "CA-inventory.json"
+    },
+    {
+      "moratorium_id": "ca-solano-county-2024",
+      "column": "legal_basis",
+      "before": "Urgency ordinance (extended 2024-02-27) enacting a pause on large-scale BESS approvals; replaced by a permanent BESS zoning ordinance adopted 2025-08-26",
+      "after": "Interim Ordinance 2024-1852-U adopted January 23, 2024, extended by 2024-1852-U-E, and amended August 26, 2025 to lift the pause in specified industrial and manufacturing districts. The Board adopted permanent zoning amendment ZT-25-02 on November 4, 2025.",
+      "reason": "Contemporaneous board legislative records distinguish interim amendment and later permanent action.",
+      "source": "CA-inventory.json"
+    },
+    {
+      "moratorium_id": "ca-solano-county-2024",
+      "column": "current_status",
+      "before": "Replaced. The two-year moratorium adopted 2024-01-23 (extended 2024-02-27) was superseded when the Board of Supervisors adopted permanent BESS zoning regulations on 2025-08-26.",
+      "after": "On August 26, 2025 the Board amended the interim ordinance to lift the pause in specified manufacturing and industrial districts while retaining it in other districts. On November 4, 2025 the Board adopted permanent BESS zoning regulations. The interim ordinance had been scheduled to expire January 23, 2026 unless repealed earlier; its exact termination and the permanent ordinance effective date require verification.",
+      "reason": "Corrects conflation of partial interim amendment with adoption of permanent regulations.",
+      "source": "CA-inventory.json"
+    },
+    {
+      "moratorium_id": "ca-solano-county-2024",
+      "column": "outcome",
+      "before": "Permanent BESS zoning ordinance in effect as of 2025-08-26.",
+      "after": "Interim BESS restrictions were partially relaxed on August 26, 2025; permanent BESS zoning was adopted November 4, 2025. The precise termination of the remaining interim restrictions is unresolved.",
+      "reason": "Board action records identify distinct actions.",
+      "source": "CA-inventory.json"
+    }
+  ]
+}

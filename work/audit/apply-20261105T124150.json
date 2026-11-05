@@ -1,0 +1,30 @@
+{
+  "applied_at": "20261105T124150",
+  "answer_files": [
+    "work/answers/refresh-2026-11-05-wave2/CA-election-followup.json"
+  ],
+  "stats": {
+    "outcome:corrected": 1,
+    "fields_changed": 2
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "ca-monterey-park-2026",
+      "column": "current_status",
+      "before": "The City adopted urgency Ordinance 2276 on April 20, 2026 establishing a citywide data center prohibition effective immediately upon adoption, and adopted Ordinance 2279 on May 6, 2026 to implement Measure NDC, with its effective date tied to the measure. The election result, certification, and precise termination of the temporary moratorium require independent verification.",
+      "after": "Urgency Ordinance 2276 adopted April 20, 2026 established a citywide data center prohibition effective immediately upon adoption. Ordinance 2279 adopted May 6 ties its effective date to Measure NDC. Measure NDC passed June 2 with 10,388 Yes and 1,372 No; the clerk certified the canvass June 30 and Council declared adoption by Resolution 2026-R56 on July 1. The attached proposition bears a July 2 adoption date and specifies effect 10 days after Council certification. Exact termination of the separate temporary moratorium and subsequent legal changes remain unresolved.",
+      "reason": "Official certification, declaration and county results resolve the earlier election uncertainty.",
+      "source": "CA-election-followup.json"
+    },
+    {
+      "moratorium_id": "ca-monterey-park-2026",
+      "column": "outcome",
+      "before": "The City adopted urgency Ordinance 2276 on April 20, 2026 and Ordinance 2279 on May 6, 2026. The latter ties its effective date to Measure NDC; election result and legal relationship to the temporary ordinance require verification.",
+      "after": "Permanent prohibition adopted by urgency Ordinance 2276 on April 20, 2026; Ordinance 2279 adopted May 6 to implement Measure NDC. Measure NDC approved June 2 (10,388 Yes / 1,372 No); clerk certificate dated June 30 and Council declaration July 1. The temporary moratorium termination and later legal status require verification.",
+      "reason": "Official certification, declaration and county results resolve the earlier election uncertainty.",
+      "source": "CA-election-followup.json"
+    }
+  ]
+}
