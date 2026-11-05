@@ -26,13 +26,15 @@ Georgia/Iowa lifecycle reviews update Putnam and Johnson County extensions, a ne
 
 Further Iowa/Illinois source review identifies Cascade Resolution 57-26, City of Dubuque Ordinance 37-26 and Fairfield Ordinance 1287, preserving their calendar terms. Emmet's solar/BESS and Jackson's BESS endpoints are recorded from official continuation documents, and Franklin's explicit eighteen-month upper bound replaces an event-only account. Troy's September 21 extension vote is confirmed in minutes; its reported six-month term does not supply a verified exact endpoint. Publication, final-text and later-action gaps remain flagged.
 
+Morgan County and Plainfield, Illinois, now carry news-qualified extension observations rather than stale active-original-term accounts. Their exact new endpoints are left blank. Sterling's September 8 minutes identify Ordinance 2026-09-23 and its approval vote; final operative terms and later actions remain flagged.
+
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1293** |
 | In force (active or extended) | **1067** |
 | Proposed, not yet voted on | **73** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **326** |
+| Rows we still want to confirm (`[VERIFY]`) | **329** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

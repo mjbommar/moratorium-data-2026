@@ -1,0 +1,96 @@
+{
+  "applied_at": "20261105T144236",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-illinois-extensions/answers.json"
+  ],
+  "stats": {
+    "outcome:status_changed": 2,
+    "status_changed": 2,
+    "fields_changed": 8,
+    "outcome:corrected": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "il-morgan-county-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "October 26 news reports a six-month extension.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "il-morgan-county-2026",
+      "column": "current_status",
+      "before": "Active",
+      "after": "On October 26, 2026 WLDS reported the board unanimously approved a six-month extension of the data-center moratorium. Operative text and precise end date remain unverified. [VERIFY: adopted extension text, effective date, exact endpoint and later actions; extension remains news-qualified.]",
+      "reason": "Report of subsequent board action.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "il-morgan-county-2026",
+      "column": "duration",
+      "before": "6 months",
+      "after": "Originally six months; WLDS reported a further six-month extension approved October 26, 2026. The operative extension text and end date remain unverified.",
+      "reason": "Preserves calendar units.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "il-morgan-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Six calendar months cannot be represented as a fixed 180 days without the operative interval.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "il-morgan-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source expresses duration in months, not days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "il-plainfield-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "Two news accounts report extension.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "il-plainfield-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; original term runs through approximately October 18, 2026. The Mayor said in April 2026 it was 'highly likely' the moratorium would be extended multiple times before the village reaches regulatory clarity.",
+      "after": "On October 5, 2026 trustees voted to extend the data-center moratorium by 180 days, according to local news reports. The extension ordinance and exact end date have not been independently verified. [VERIFY: adopted extension text, effective date, exact endpoint and later actions; extension remains news-qualified.]",
+      "reason": "October reporting supersedes September observation.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "il-plainfield-2026",
+      "column": "duration",
+      "before": "180-day moratorium on the receipt, processing, approval, and permitting of applications for data centers and warehouses primarily used for storing computing infrastructure.",
+      "after": "Original 180-day pause on receipt, processing, approval and permitting of data center and computing-infrastructure warehouse applications; a further 180-day extension was reported approved October 5, 2026. The exact end date remains unverified.",
+      "reason": "October reporting documents extension.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "il-sterling-2026",
+      "column": "legal_basis",
+      "before": "City of Sterling ordinance/motion establishing a 180-day moratorium on data center and BESS applications (specific ordinance number not published in sources reviewed)",
+      "after": "City of Sterling Ordinance 2026-09-23, establishing a temporary moratorium on data centers and battery energy storage systems in all zoning districts, approved September 8, 2026.",
+      "reason": "Council minutes supply the ordinance number and vote.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "il-sterling-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23. The Sterling Plan Commission was scheduled to discuss data centers, BESS facilities, and possible comprehensive-plan amendments at a meeting moved to Sept. 24, 2026.",
+      "after": "September 8, 2026 minutes reproduced in the September 21 Council packet record approval of Ordinance 2026-09-23 on data centers and BESS in all zoning districts, with six ayes and no nays. [VERIFY: final ordinance terms, effective date, expiry and subsequent actions/current legal force.]",
+      "reason": "The minutes identify the act and approval, not its complete operative terms or present force.",
+      "source": "answers.json"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "state_abbrev": "IL",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra return",
+  "decisions": [
+    {
+      "moratorium_id": "il-morgan-county-2026",
+      "outcome": "status_changed",
+      "evidence": [
+        {
+          "url": "https://morgancounty-il.com/wp/april-27-2026-meeting-minutes/",
+          "publisher": "Morgan County",
+          "document_date": "2026-04-27",
+          "source_type": "minutes",
+          "supports": "Records original motion and term.",
+          "quote": "Chr. Wankel said next is the Chr. would like to make a motion to approve the idea of a hard 6-month moratorium."
+        },
+        {
+          "url": "https://wlds.com/six-month-moratorium-extension-for-data-centers/",
+          "publisher": "WLDS",
+          "document_date": "2026-10-26",
+          "source_type": "news",
+          "supports": "Reports board approval of six-month extension.",
+          "quote": "commissioners approved a six month extension of a moratorium on data centers in the county."
+        }
+      ],
+      "notes": "Extension reported by WLDS; operative text, anchor and any later action not independently established. Six months retained as calendar term, no inferred end date.",
+      "new_enacted_status": "extended",
+      "confidence": 0.65,
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "extended",
+          "reason": "October 26 news reports a six-month extension."
+        },
+        "current_status": {
+          "from": "Active",
+          "to": "On October 26, 2026 WLDS reported the board unanimously approved a six-month extension of the data-center moratorium. Operative text and precise end date remain unverified. [VERIFY: adopted extension text, effective date, exact endpoint and later actions; extension remains news-qualified.]",
+          "reason": "Report of subsequent board action."
+        },
+        "duration": {
+          "from": "6 months",
+          "to": "Originally six months; WLDS reported a further six-month extension approved October 26, 2026. The operative extension text and end date remain unverified.",
+          "reason": "Preserves calendar units."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Six calendar months cannot be represented as a fixed 180 days without the operative interval."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Source expresses duration in months, not days."
+        }
+      }
+    },
+    {
+      "moratorium_id": "il-plainfield-2026",
+      "outcome": "status_changed",
+      "evidence": [
+        {
+          "url": "https://www.shawlocal.com/the-herald-news/2026/10/07/plainfield-extends-its-moratorium-on-data-centers/",
+          "publisher": "Shaw Local",
+          "document_date": "2026-10-07",
+          "source_type": "news",
+          "supports": "Reports 180-day extension.",
+          "quote": "extended a moratorium on data center proposals by another 180 days"
+        },
+        {
+          "url": "https://patch.com/illinois/plainfield/plainfield-village-board-extends-moratorium-data-centers",
+          "publisher": "Patch",
+          "document_date": "2026-10-14",
+          "source_type": "news",
+          "supports": "Dates the extension vote.",
+          "quote": "trustees voted Oct. 5 to extend the pause."
+        }
+      ],
+      "notes": "Primary extension text, effective date and expiry not retrieved; reports establish a further 180-day vote, not its exact end.",
+      "new_enacted_status": "extended",
+      "confidence": 0.65,
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "extended",
+          "reason": "Two news accounts report extension."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; original term runs through approximately October 18, 2026. The Mayor said in April 2026 it was 'highly likely' the moratorium would be extended multiple times before the village reaches regulatory clarity.",
+          "to": "On October 5, 2026 trustees voted to extend the data-center moratorium by 180 days, according to local news reports. The extension ordinance and exact end date have not been independently verified. [VERIFY: adopted extension text, effective date, exact endpoint and later actions; extension remains news-qualified.]",
+          "reason": "October reporting supersedes September observation."
+        },
+        "duration": {
+          "from": "180-day moratorium on the receipt, processing, approval, and permitting of applications for data centers and warehouses primarily used for storing computing infrastructure.",
+          "to": "Original 180-day pause on receipt, processing, approval and permitting of data center and computing-infrastructure warehouse applications; a further 180-day extension was reported approved October 5, 2026. The exact end date remains unverified.",
+          "reason": "October reporting documents extension."
+        }
+      }
+    },
+    {
+      "moratorium_id": "il-sterling-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://sterlingil.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3755,plainText=false)",
+          "publisher": "City of Sterling",
+          "document_date": "2026-09-08",
+          "source_type": "minutes",
+          "supports": "The September 8 minutes in the September 21 packet record the ordinance and vote.",
+          "quote": "Alderman Baker made a motion to Approve Ordinance 2026-09-23 Establishing a Temporary\n\nMoratorium on Data Centers and Battery Energy Storage Systems in All Zoning Districts;"
+        }
+      ],
+      "notes": "The retained September 21 council packet includes the September 8 minutes. The specific expiry and current force were not independently verified.",
+      "confidence": 0.85,
+      "changes": {
+        "legal_basis": {
+          "from": "City of Sterling ordinance/motion establishing a 180-day moratorium on data center and BESS applications (specific ordinance number not published in sources reviewed)",
+          "to": "City of Sterling Ordinance 2026-09-23, establishing a temporary moratorium on data centers and battery energy storage systems in all zoning districts, approved September 8, 2026.",
+          "reason": "Council minutes supply the ordinance number and vote."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. The Sterling Plan Commission was scheduled to discuss data centers, BESS facilities, and possible comprehensive-plan amendments at a meeting moved to Sept. 24, 2026.",
+          "to": "September 8, 2026 minutes reproduced in the September 21 Council packet record approval of Ordinance 2026-09-23 on data centers and BESS in all zoning districts, with six ayes and no nays. [VERIFY: final ordinance terms, effective date, expiry and subsequent actions/current legal force.]",
+          "reason": "The minutes identify the act and approval, not its complete operative terms or present force."
+        }
+      }
+    }
+  ]
+}

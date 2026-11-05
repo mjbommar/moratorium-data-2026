@@ -29,9 +29,9 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 | Logan County | County | 2026-05-19 | data center | 🔴 Rescinded |
 | Macon County | County | Unverified | data center | 🟡 Pending |
 | Mattoon | City | 2026-09-01 | data center | 🟢 Active |
-| Morgan County | County | 2026-04-27 | data center | 🟢 Active |
+| Morgan County | County | 2026-04-27 | data center | 🟢 Extended |
 | Ottawa | City | 2026-03-03 | data center | 🟢 Extended |
-| Plainfield | Village | 2026-04-21 | data center | 🟢 Active |
+| Plainfield | Village | 2026-04-21 | data center | 🟢 Extended |
 | Robinson | City | Unverified | solar | 🟢 Extended |
 | Rockford | City | 2026-08-03 | data center | 🟢 Active |
 | Sterling | City | 2026-09-08 | data center, battery storage | 🟢 Active |
@@ -366,17 +366,17 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 ### Morgan County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** 2026-04-27
 - **Normalized date:** `2026-04-27` (exact)
-- **Duration:** 6 months
+- **Duration:** Originally six months; WLDS reported a further six-month extension approved October 26, 2026. The operative extension text and end date remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `il-morgan-county-2026`
 - **Legal basis:** County Board resolution imposing a hard 6-month data center moratorium, moved by Chairman Wankel after the matter was discussed with State's Attorney Gray Noll prior to the meeting, adopted by unanimous roll-call vote (Commissioners Wood and Woods, Chairman Wankel) on April 27, 2026.
 - **What prompted it:** County commissioners and residents sought time to study health, financial, resource, farmland, and community impacts and to draft standards before any application is filed.
 - **Affected projects:** New data center applications; no applications or expressed project interest had been received by the county as of the reported vote.
-- **Detailed status:** Active
+- **Detailed status:** On October 26, 2026 WLDS reported the board unanimously approved a six-month extension of the data-center moratorium. Operative text and precise end date remain unverified. [VERIFY: adopted extension text, effective date, exact endpoint and later actions; extension remains news-qualified.]
 - **Outcome:** Pending. County officials stated the pause is intended for standards and requirements, with possible adjustment after state action.
 
 ### Ottawa
@@ -398,17 +398,17 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 ### Plainfield
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** Plainfield Village Board voted unanimously to pass the moratorium ordinance; reported by Patch on 2026-04-21 as a Monday-night vote (i.e., on or about 2026-04-20/21).
 - **Normalized date:** `2026-04-21` (exact)
-- **Duration:** 180-day moratorium on the receipt, processing, approval, and permitting of applications for data centers and warehouses primarily used for storing computing infrastructure.
+- **Duration:** Original 180-day pause on receipt, processing, approval and permitting of data center and computing-infrastructure warehouse applications; a further 180-day extension was reported approved October 5, 2026. The exact end date remains unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `il-plainfield-2026`
 - **Legal basis:** Village of Plainfield ordinance establishing a 180-day moratorium on data centers and computing-infrastructure warehouses (specific ordinance number not published in sources reviewed)
 - **What prompted it:** Concern over rapid data-center development converting valuable farmland in nearby towns (Joliet, Yorkville, Minooka); the Mayor said the industry is 'in its infancy' and the village wants time to develop a new unified development ordinance addressing data centers.
 - **Affected projects:** None named; several nearby communities (Joliet, Yorkville, Minooka) have already approved data centers.
-- **Detailed status:** Active as of 2026-09-23; original term runs through approximately October 18, 2026. The Mayor said in April 2026 it was 'highly likely' the moratorium would be extended multiple times before the village reaches regulatory clarity.
+- **Detailed status:** On October 5, 2026 trustees voted to extend the data-center moratorium by 180 days, according to local news reports. The extension ordinance and exact end date have not been independently verified. [VERIFY: adopted extension text, effective date, exact endpoint and later actions; extension remains news-qualified.]
 - **Outcome:** Pause to allow staff, elected officials, and consultants to study best practices and develop a new unified development ordinance addressing data centers.
 
 ### Robinson
@@ -453,10 +453,10 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** data center, battery storage
 - **Moratorium ID:** `il-sterling-2026`
-- **Legal basis:** City of Sterling ordinance/motion establishing a 180-day moratorium on data center and BESS applications (specific ordinance number not published in sources reviewed)
+- **Legal basis:** City of Sterling Ordinance 2026-09-23, establishing a temporary moratorium on data centers and battery energy storage systems in all zoning districts, approved September 8, 2026.
 - **What prompted it:** The city had received 'numerous requests' to locate BESS facilities within city limits, including downtown buildings, and had no regulatory framework in place; a 23-page draft ordinance covering data centers and BESS was reviewed by the Plan Commission on July 23, 2026.
 - **Affected projects:** No data center location inquiries reported within city limits; multiple BESS facility inquiries reported, including in downtown buildings.
-- **Detailed status:** Active as of 2026-09-23. The Sterling Plan Commission was scheduled to discuss data centers, BESS facilities, and possible comprehensive-plan amendments at a meeting moved to Sept. 24, 2026.
+- **Detailed status:** September 8, 2026 minutes reproduced in the September 21 Council packet record approval of Ordinance 2026-09-23 on data centers and BESS in all zoning districts, with six ayes and no nays. [VERIFY: final ordinance terms, effective date, expiry and subsequent actions/current legal force.]
 - **Outcome:** Moratorium buys time for city staff to develop a formal ordinance and plan for responding to BESS and data center development requests.
 
 ### Tazewell County
