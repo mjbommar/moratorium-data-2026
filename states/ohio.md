@@ -3,7 +3,7 @@
 
 Working inventory for Ohio, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**160 instruments** — 149 in force, 3 pending, 8 past.
+**160 instruments** — 148 in force, 3 pending, 9 past.
 
 State policy is tracked separately: **12 actions** (12 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -70,14 +70,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Howland Township | Township | 2026-06-10 | data center | 🟢 Active |
 | Hubbard Township | Township | 2026-02-10 | data center | 🟢 Active |
 | Hudson | City | 2026-07-14 | data center | 🟢 Active |
-| Ironton | City | 2026-02-12 | data center | 🟢 Active |
+| Ironton | City | 2026-02-12 | data center | ⚪ Replaced |
 | Jackson | City | 2026-07-13 | data center | 🟢 Active |
 | Jackson Township (Clermont County) | Township | 2026-03-02 | data center | 🟢 Active |
 | Jackson Township (Franklin County) | Township | 2026-05-12 | data center | 🟢 Active |
 | Jefferson | Village | 2026-08-17 | data center | 🟢 Active |
 | Jerome Township | Township | 2025-09-03 | data center | ⚪ Replaced |
 | Kent | City | 2026-04-15 | data center | 🟢 Active |
-| Lake Township (Stark County) | Township | 2026-04-27 | data center | 🟢 Active |
+| Lake Township (Stark County) | Township | 2026-04-27 | data center | 🟢 Extended |
 | Lake Township (Wood County) | Township | 2026-03-03 | data center | 🟢 Active |
 | Lakeview | Village | 2026-05-04 | data center | 🟢 Active |
 | Liberty Township (Wood County) | Township | 2026 | data center | 🟢 Active |
@@ -1145,13 +1145,13 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** City Council legislation (six-month stay/moratorium on filing, review and approval of new data center applications), adopted on consent agenda 2026-07-14; legislation number not found
 - **What prompted it:** Preemptive: give staff time to study impacts on the electric grid, water and sewer, telecommunications, noise and tax revenue and recommend zoning standards before any project is proposed.
 - **Affected projects:** None proposed.
-- **Detailed status:** Active as of 2026-09-23; six-month moratorium adopted 2026-07-14 runs to about mid-January 2027, extendable six months.
+- **Detailed status:** The official legislative file records July 14, 2026 Council approval on the consent agenda and describes a six-month stay with an option for a further six months by motion. Final operative wording, actual exercise of extension authority and later action remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Council paused new data center applications for six months while staff study impacts and draft zoning/regulatory standards.
 
 ### Ironton
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Status:** ⚪ Replaced
 - **Date enacted:** 2026-02-12 (Ordinance 26-01 adopted, third reading, as amended)
 - **Normalized date:** `2026-02-12` (exact)
 - **Duration:** Until Ordinance 26-09 (zoning legislation) is passed, at which point it is automatically repealed
@@ -1161,7 +1161,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Ordinance 26-01 (as amended to add Section 3, tying automatic repeal to passage of Ordinance 26-09)
 - **What prompted it:** Rapid data center development interest (Vertiv and others); city working on zoning legislation
 - **Affected projects:** None identified
-- **Detailed status:** Active as of 2026-09-23 unless Ordinance 26-09 (the city's data center zoning legislation) has since passed, in which case Ordinance 26-01 is automatically repealed per its own Section 3 -- whether 26-09 has passed was not confirmed within the research budget.
+- **Detailed status:** February 12 minutes record adoption of amended Ordinance 26-01 with automatic repeal once Ordinance 26-09 passes. May 14 minutes record unanimous adoption of amended Ordinance 26-09 regulating data centers. Contemporaneous news describes a further 30-day transition. The pause is classified as replaced; the exact operative repeal date, final text and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** City Council working on companion data center zoning ordinance (26-09)
 
 ### Jackson
@@ -1250,20 +1250,20 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-04-15
 - **Normalized date:** `2026-04-15` (exact)
-- **Duration:** Not to exceed 1 year
+- **Duration:** Not to exceed one year; section 2 uses recommends. Actual operative interval and later action unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-kent-2026`
 - **Legal basis:** Ordinance 2026-31
 - **What prompted it:** Energy, water, infrastructure capacity, environmental, resident, and planning concerns
 - **Affected projects:** Any AI/data center permit or application within city limits
-- **Detailed status:** Active
+- **Detailed status:** The posted signed ordinance describes a temporary term not to exceed one year; section 2 says Council recommends the moratorium and section 6 states immediate effect after passage. The legal effect of recommends wording, precise operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Community Development, Planning Commission, and Council review of data center impacts and zoning
 
 ### Lake Township (Stark County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** 2026-04-27 (Board of Lake Township Trustees regular session; Resolution 26-177, roll call 3-0; per official minutes)
 - **Normalized date:** `2026-04-27` (exact)
 - **Duration:** Six (6) months
@@ -1273,7 +1273,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Lake Township (Stark County) Trustee Resolution 26-177, six-month moratorium on the operation/location of any new data center
 - **What prompted it:** Data centers controversial in Ohio; need to study impacts on health, safety, utilities and infrastructure; letters from residents/Randolph Zoning Commission about data center regulations.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; six-month moratorium adopted 2026-04-27 expires about 2026-10-24 (six calendar months = 2026-10-27) unless extended.
+- **Detailed status:** April 27 minutes record the six-month data-center moratorium with three yes votes. October 30 local news reports trustees approved an October 26 extension through April 27, 2027. The extension instrument, precise operative terms and later action remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Trustees to consider adding a dedicated data center section to the Lake Township Zoning Code during the moratorium.
 
 ### Lake Township (Wood County)

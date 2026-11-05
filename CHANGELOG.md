@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Ironton’s adopted repeal condition and subsequent May 14 zoning adoption correct its pause to replaced, with the precise operative transition unresolved. Lake Township’s October extension is recorded on news-qualified evidence. Hudson’s calendar term and optional extension are distinguished; Kent’s one-year upper limit and recommends wording remain explicit without adjudicating legal effect.
+
 Fairfield and Hamilton Township scans confirm calendar terms and signed original actions. Fairfield’s six months begin at the earliest effective date allowed by law, not an assumed adoption-day anchor. Hamilton’s explicit May 20, 2027 endpoint and exemption for pre-effective applications or permits are preserved; later action and endpoint inclusivity remain unresolved.
 
 Five news-qualified Ohio corrections preserve Girard, Grafton, Grove City, Howland and Hubbard Township calendar terms and clear four unsupported calculated endpoints. Grove City’s proposed cryptocurrency language is not promoted as final scope. Hubbard’s inconsistent vote account and October trustee statement remain qualified, distinct from the City of Hubbard ballot measure. Green Township’s conflicting county identity is deferred.
@@ -101,10 +103,10 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1293** |
-| In force (active or extended) | **1068** |
+| In force (active or extended) | **1067** |
 | Pending or not yet effective | **71** |
-| Ended (replaced, expired, or rescinded) | **154** |
-| Rows we still want to confirm (`[VERIFY]`) | **537** |
+| Ended (replaced, expired, or rescinded) | **155** |
+| Rows we still want to confirm (`[VERIFY]`) | **541** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

@@ -1,0 +1,176 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "oh-hudson-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://hudson.legistar.com/LegislationDetail.aspx?FullText=1&GUID=174FFD64-3514-4A69-BA03-F8F390F11884&ID=8086181",
+          "source_type": "staff_report",
+          "quote": "City Council approved on the consent agenda",
+          "supports": "Council approval 2026-07-14; six-month stay described in same legislative file.",
+          "document_date": "2026-07-14"
+        },
+        {
+          "url": "https://hudson.legistar.com/LegislationDetail.aspx?FullText=1&GUID=174FFD64-3514-4A69-BA03-F8F390F11884&ID=8086181",
+          "source_type": "staff_report",
+          "quote": "A RESOLUTION DECLARING A SIX (6) MONTH STAY ON THE FILING, CONSIDERATION, REVIEW, AND/OR APPROVAL OF ALL NEW APPLICATIONS FOR DATA CENTERS AND RELATED ACTIVITIES IN THE CITY OF HUDSON; AND DECLARING AN EMERGENCY.\n\nBrief Description: A resolution establishing a six-month stay (or freeze) on the establishment, expansion, and approval of \u201cdata centers\u201d and related uses within the City to allow City Council and staff to continue studying and developing appropriate planning, zoning, and business regulations governing such facilities. City Council will also have the option of extending the first six months for another six months by simple motion.",
+          "supports": "Six-month stay and optional further six months, not demonstrated extension.",
+          "document_date": "2026-07-14"
+        }
+      ],
+      "confidence": 0.9,
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Official legislative file specifies six months."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Six calendar months are not necessarily 180 days."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; six-month moratorium adopted 2026-07-14 runs to about mid-January 2027, extendable six months.",
+          "to": "The official legislative file records July 14, 2026 Council approval on the consent agenda and describes a six-month stay with an option for a further six months by motion. Final operative wording, actual exercise of extension authority and later action remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-stated historical action from unverified current legal force."
+        }
+      },
+      "notes": "Correction limited to duration units; current force and exact instrument number not established by the retained text."
+    },
+    {
+      "moratorium_id": "oh-ironton-2026",
+      "outcome": "status_changed",
+      "evidence": [
+        {
+          "url": "https://irontonohio.org/city-council-meeting-minutes-2-12-26/",
+          "source_type": "minutes",
+          "quote": "the moratorium will be automatically repealed once Ordinance 26-09 is passed",
+          "supports": "Council adopted amended 26-01 with automatic repeal condition.",
+          "document_date": "2026-02-12"
+        },
+        {
+          "url": "https://irontonohio.org/city-council-meeting-minutes-5-14-26/",
+          "source_type": "minutes",
+          "quote": "Amended Ordinance No. 26-09 \u2014 An Ordinance of the City Council of Ironton, Ohio, to Amend the Ironton Zoning Code to Define and Add Specific Requirements for Data Centers and Data Center Accessory Uses \u2014 third reading. Mr. Harvey noted that Amended Ordinance No. 26-09 received a favorable recommendation from the Planning Commission and followed all necessary steps to reach third reading. Mr. Harvey moved, seconded by Mr. Hock, to adopt Amended Ordinance No. 26-09. Motion passed unanimously. ADOPTED.",
+          "supports": "Detailed minutes record favorable Planning Commission recommendation, third reading, motion and unanimous adoption.",
+          "document_date": "2026-05-14"
+        },
+        {
+          "url": "https://www.wsaz.com/2026/05/15/new-zoning-code-passes-regarding-data-center-placement/",
+          "source_type": "news",
+          "quote": "The moratorium is in effect for another 30 days.",
+          "supports": "Contemporaneous account of transition; effective date uncertain.",
+          "document_date": "2026-05-15"
+        }
+      ],
+      "confidence": 0.9,
+      "new_enacted_status": "replaced",
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-09-23 unless Ordinance 26-09 (the city's data center zoning legislation) has since passed, in which case Ordinance 26-01 is automatically repealed per its own Section 3 -- whether 26-09 has passed was not confirmed within the research budget.",
+          "to": "February 12 minutes record adoption of amended Ordinance 26-01 with automatic repeal once Ordinance 26-09 passes. May 14 minutes record unanimous adoption of amended Ordinance 26-09 regulating data centers. Contemporaneous news describes a further 30-day transition. The pause is classified as replaced; the exact operative repeal date, final text and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-stated historical action from unverified current legal force."
+        },
+        "enacted_status": {
+          "from": "active",
+          "to": "replaced",
+          "reason": "Zoning ordinance adopted; moratorium was conditioned on its passage."
+        }
+      },
+      "notes": "The legal classification reflects the later zoning ordinance and automatic repeal condition. No exact end date is asserted; a contemporaneous report describes a 30-day transition."
+    },
+    {
+      "moratorium_id": "oh-kent-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.kentohio.gov/media/yrhjyjrn/2026-31-data-center-moratorium_signed.pdf",
+          "source_type": "ordinance",
+          "quote": "exceed one year from the passage of this Ordinance",
+          "supports": "Term is calendar year and maximum, not 365 fixed days."
+        },
+        {
+          "url": "https://www.kentohio.gov/media/yrhjyjrn/2026-31-data-center-moratorium_signed.pdf",
+          "source_type": "ordinance",
+          "quote": "SECTION 2: That Council of the City of Kent recommends a temporary moratorium not to\n\nexceed one year on the granting/issuing of any permits, as well as the receipt and processing\n\nof applications for permits, under the Kent Codified Ordinances for proposed Data Centers\n\nwithin the jurisdictional boundaries of the City of Kent.",
+          "supports": "Section 2 uses recommends and an upper limit of one year; legal effect unresolved."
+        }
+      ],
+      "confidence": 0.9,
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Ordinance specifies no more than one year, not 365 fixed days."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Calendar year is not a fixed 365-day term."
+        },
+        "current_status": {
+          "from": "Active",
+          "to": "The posted signed ordinance describes a temporary term not to exceed one year; section 2 says Council recommends the moratorium and section 6 states immediate effect after passage. The legal effect of recommends wording, precise operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-stated historical action from unverified current legal force."
+        },
+        "duration": {
+          "from": "Not to exceed 1 year",
+          "to": "Not to exceed one year; section 2 uses recommends. Actual operative interval and later action unresolved.",
+          "reason": "Preserve maximum rather than represent a fixed one-year term."
+        }
+      },
+      "notes": "The correction is limited to the term; no subsequent-action search establishes current force."
+    },
+    {
+      "moratorium_id": "oh-lake-township-stark-county-2026",
+      "outcome": "status_changed",
+      "evidence": [
+        {
+          "url": "https://www.laketwpstarkco.com/documents/Minutes/2026/04-27-2026.pdf",
+          "source_type": "minutes",
+          "quote": "operation/location of any new Data Center in Lake Township to allow time to assess",
+          "supports": "Minutes identify original pause; six-month term immediately precedes quote.",
+          "document_date": "2026-04-27"
+        },
+        {
+          "url": "https://www.yourohionews.com/hartville/lake-township-extends-data-center-moratorium/1091912",
+          "source_type": "news",
+          "quote": "The trustees approved a resolution extending the township's existing moratorium on data centers through April 27, 2027.",
+          "supports": "Reported Oct. 26 extension; official resolution and exact legal wording not retrieved.",
+          "document_date": "2026-10-30"
+        }
+      ],
+      "confidence": 0.65,
+      "new_enacted_status": "extended",
+      "changes": {
+        "current_status": {
+          "from": "Active as of 2026-09-23; six-month moratorium adopted 2026-04-27 expires about 2026-10-24 (six calendar months = 2026-10-27) unless extended.",
+          "to": "April 27 minutes record the six-month data-center moratorium with three yes votes. October 30 local news reports trustees approved an October 26 extension through April 27, 2027. The extension instrument, precise operative terms and later action remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-stated historical action from unverified current legal force."
+        },
+        "enacted_status": {
+          "from": "active",
+          "to": "extended",
+          "reason": "October 30 report describes trustees approving an extension."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Original official minutes specify six months, not 180 fixed days."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Calendar months are not fixed 180-day periods."
+        }
+      },
+      "notes": "Extension is reported by local news; official extension resolution and its precise terms remain outstanding. No calculated end date entered."
+    }
+  ],
+  "new_candidates": []
+}
