@@ -97,7 +97,7 @@ unless it actually pauses local permitting.
 | `chamber_of_origin` | Originating chamber: `House`, `Senate`, `Assembly` (California and New Jersey lower chambers), `Joint`, or `unknown`. | `Assembly` |
 | `policy_action_id` | Stable machine identifier for the policy instrument. Unlike the legacy display `bill` value, this never depends on a title format. | `ny-executive-order-no-62-2026` |
 | `policy_instrument_type` | Legal form: `bill`, `executive_order`, `governor_directive`, `agency_order`, `regulation`, or `statute`. | `executive_order` |
-| `policy_mechanism` | Typed effect: `statewide_moratorium`, `local_moratorium_authorization`, `local_moratorium_preemption`, `permitting_restriction`, `utility_large_load_restriction`, `incentive_restriction`, `reporting_disclosure`, or `other`. | `utility_large_load_restriction` |
+| `policy_mechanism` | Typed effect: `statewide_moratorium`, `local_moratorium_authorization`, `local_moratorium_preemption`, `permitting_restriction`, `utility_large_load_restriction`, `incentive_restriction`, `incentive_support`, `reporting_disclosure`, or `other`. `incentive_support` covers creation or expansion of fiscal incentives, including failed proposals; it does not imply enactment. Restricting incentive eligibility is a separate mechanism. | `utility_large_load_restriction` |
 | `legal_effect_status` | Current operative state: `proposed`, `in_force`, `expired`, `superseded`, `failed`, `withdrawn`, or `unknown`. An enacted temporary measure is `unknown` until its current legal effect is checked. | `in_force` |
 | `scope_of_action` | Primary authority/surface affected: `statewide`, `state_agency`, `local_government`, `utility_grid`, `fiscal`, `mixed`, or `unknown`. | `state_agency` |
 | `effective_date_iso` | Date the binding action took effect, if applicable. | `2026-07-14` |
@@ -132,7 +132,7 @@ Top-level keys:
 - `total_state_policy_actions`: 440 — all state-policy rows, including binding non-bill actions
 - `states_with_moratoria`: 47
 - `states_without_moratoria`: 3
-- `moratoria_with_verify_tags`: 300 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
+- `moratoria_with_verify_tags`: 301 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
 - `moratoria_without_verify_tags`: 232
 - `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 533 rows by `enacted_status`
 - `sweep_coverage`: which states received a systematic month-by-month sweep for the release's window, plus `swept_states_with_no_adoptions_in_window`. **Read this before interpreting a state's absence.** A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that `swept_states_with_no_adoptions_in_window` is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from [`data/sweep_coverage.json`](../data/sweep_coverage.json)

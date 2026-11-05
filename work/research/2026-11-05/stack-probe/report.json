@@ -1,0 +1,129 @@
+{
+  "started_at": "2026-11-05T16:25:20.017650+00:00",
+  "stages": {
+    "bc_spec_and_bc_evidence_queries": {
+      "cell_id": "moratorium-pilot:ca-hayward-city:moratorium:any",
+      "queries": {
+        "official_en": {
+          "query": "(\"data center\" OR moratorium) site:hayward-ca.gov",
+          "max_results": 5,
+          "backend": "serpapi",
+          "include_domains": [],
+          "exclude_domains": [],
+          "start_date": null,
+          "end_date": null,
+          "exa_type": "auto",
+          "category": null,
+          "include_text": false,
+          "include_highlights": true,
+          "include_summary": false,
+          "text_max_chars": 4000,
+          "engine": "google",
+          "country": "us",
+          "language": "en",
+          "location": null,
+          "safe": null,
+          "start": 0,
+          "include_raw": false
+        },
+        "semantic_exa": {
+          "query": "Hayward California city council October 2026 data center moratorium adopted",
+          "max_results": 5,
+          "backend": "exa",
+          "include_domains": [],
+          "exclude_domains": [],
+          "start_date": null,
+          "end_date": null,
+          "exa_type": "auto",
+          "category": null,
+          "include_text": false,
+          "include_highlights": true,
+          "include_summary": false,
+          "text_max_chars": 4000,
+          "engine": "google",
+          "country": null,
+          "language": null,
+          "location": null,
+          "safe": null,
+          "start": 0,
+          "include_raw": false
+        }
+      }
+    },
+    "search_many": {
+      "hits": 10,
+      "errors": "{}"
+    },
+    "bc_research_search": {
+      "candidates": 10
+    },
+    "pydoll_0": {
+      "url": "https://www.hayward-ca.gov/discover/news/oct26/hayward-city-council-enacts-immediate-moratorium-new-data-centers",
+      "ok": true,
+      "status": 200,
+      "chars": 2094,
+      "body_sha256": "5f04248a7ed9978431b560cb5a8812433f1249b9919be1b55d8b0abf94ae641f",
+      "text_sha256": "0cae34b953670567fd55f025bfd0625e0cfb31bf7326f2458307a8c642227968",
+      "quote_probe": {
+        "quote": "The Hayward City Council voted unanimously on Tuesday to enact an immediate moratorium on consideration and approval of new data centers.",
+        "span": [
+          0,
+          137
+        ],
+        "verified": true
+      },
+      "attempts": [
+        {
+          "tier": "browser",
+          "engine": "pydoll",
+          "headless": false,
+          "status": 200,
+          "elapsed_ms": 1715,
+          "outcome": "ok",
+          "note": "",
+          "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+          "honest_bot": false
+        }
+      ]
+    },
+    "pydoll_1": {
+      "url": "https://ballotpedia.org/Data_center-related_ballot_measures,_2026",
+      "ok": true,
+      "status": 200,
+      "chars": 31251,
+      "body_sha256": "021933fdf43ab9f2ec6adda5f15422f0c0509d1de094b5bfbf980ca1741d9192",
+      "text_sha256": "cc1f7adb01a9bf509a8d2c293eab5d46b83e8d9dd9240f8de83701ad3687fe37",
+      "quote_probe": {
+        "quote": "From Ballotpedia",
+        "span": [
+          0,
+          16
+        ],
+        "verified": true
+      },
+      "attempts": [
+        {
+          "tier": "browser",
+          "engine": "pydoll",
+          "headless": false,
+          "status": 200,
+          "elapsed_ms": 2515,
+          "outcome": "ok",
+          "note": "",
+          "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+          "honest_bot": false
+        }
+      ]
+    }
+  },
+  "model_calls": 0,
+  "cost_note": "SerpAPI unknown plan rate: call-bounded, not claimed free or dollar-bounded.",
+  "chrome": "/snap/bin/chromium",
+  "search_budget": {
+    "counts": {
+      "search": 3
+    },
+    "known_usd": 0.014
+  },
+  "finished_at": "2026-11-05T16:25:28.645416+00:00"
+}

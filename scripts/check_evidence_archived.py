@@ -61,14 +61,22 @@ def cited_urls(answer: dict) -> list[tuple[str, str, str]]:
     """
     out = []
     for d in answer.get("decisions", []):
-        st = d["moratorium_id"][:2].upper()
+        identifier = d.get("moratorium_id") or d.get("bill_key")
+        if not identifier:
+            raise ValueError("decision has no moratorium_id or bill_key")
+        st = identifier[:2].upper()
         for ev in d.get("evidence", []):
-            out.append((d["moratorium_id"], ev["url"], st))
+            out.append((identifier, ev["url"], st))
     for c in answer.get("new_candidates", []):
         raw = c.get("state", "")
         st = raw.upper() if len(raw) == 2 else STATE_ABBREV.get(raw, answer["state_abbrev"])
         for ev in c.get("evidence", []):
             out.append((f"candidate {c['jurisdiction']}", ev["url"], st))
+    for c in answer.get("new_bills", []):
+        raw = c.get("state", "")
+        st = raw.upper() if len(raw) == 2 else STATE_ABBREV.get(raw, answer["state_abbrev"])
+        for ev in c.get("evidence", []):
+            out.append((f"new state action {c['bill']}", ev["url"], st))
     return out
 
 

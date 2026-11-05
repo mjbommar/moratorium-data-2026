@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-11-05T17:09:38.392847+00:00",
+  "goal_status": "active",
+  "dispatcher_pid": 1411634,
+  "dispatcher_live": true,
+  "queue": "/home/mjbommar/projects/personal/moratorium-data-2026/work/jobs/2026-11-05-discovery/complete-queue.json",
+  "queue_counts": {
+    "active": 3,
+    "pending": 309,
+    "terminal": 18
+  },
+  "workers": [
+    {
+      "job": "ballot-nd-001",
+      "pid": 1461966,
+      "exists": true
+    },
+    {
+      "job": "ballot-nh-001",
+      "pid": 1462007,
+      "exists": true
+    },
+    {
+      "job": "ballot-nv-001",
+      "pid": 1482197,
+      "exists": true
+    }
+  ],
+  "canonical_changes_applied": {
+    "local_records": 5,
+    "state_policy_records": 6,
+    "unresolved_reviewed_local_records": 3
+  },
+  "ballot_pilot": {
+    "measures": 9,
+    "source_documents": 13,
+    "located_claims": 90,
+    "certified_result_observations": 1,
+    "canonical_promotion": false
+  },
+  "publication_status": "not published; full research/review/prose/release still required"
+}

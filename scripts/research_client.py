@@ -1,0 +1,136 @@
+#!/usr/bin/env python3
+"""Bounded bc-web research client with persistent, pre-call reservations.
+
+Use this from research jobs instead of ad-hoc Searcher loops. Interrupted attempts
+still consume their cap; repeating a command cannot reset spend or overwrite evidence.
+Limits are specified once by the coordinator in a job's client-config.json.
+"""
+import argparse
+import asyncio
+import datetime as dt
+import fcntl
+import hashlib
+import json
+from pathlib import Path
+import uuid
+
+
+def timestamp():
+    return dt.datetime.now(dt.timezone.utc).isoformat()
+
+
+def reserve(directory, kind):
+    config = json.loads((directory / "client-config.json").read_text())
+    ledger = directory / "attempts.private.jsonl"
+    with ledger.open("a+") as f:
+        fcntl.flock(f, fcntl.LOCK_EX)
+        f.seek(0)
+        events = [json.loads(x) for x in f if x.strip()]
+        reserved = [x for x in events if x["state"] == "reserved"]
+        count = sum(x["kind"] == kind for x in reserved)
+        if count >= config["caps"].get(kind, 0):
+            raise RuntimeError(f"Persistent {kind} cap reached: {count}")
+        if kind in ("exa", "serpapi", "googlenews", "gdelt"):
+            total = sum(x["kind"] in ("exa", "serpapi", "googlenews", "gdelt") for x in reserved)
+            if total >= config["caps"].get("search_total", 0):
+                raise RuntimeError(f"Persistent total search cap reached: {total}")
+        attempt = {"attempt_id": uuid.uuid4().hex, "kind": kind, "state": "reserved", "reserved_at": timestamp(),
+                   "client_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+                   "config_sha256": hashlib.sha256((directory / "client-config.json").read_bytes()).hexdigest()}
+        f.seek(0, 2); f.write(json.dumps(attempt) + "\n"); f.flush()
+        return attempt
+
+
+def finish(directory, attempt, **fields):
+    with (directory / "attempts.private.jsonl").open("a") as f:
+        fcntl.flock(f, fcntl.LOCK_EX)
+        f.write(json.dumps({**attempt, **fields, "state": "finished", "finished_at": timestamp()}) + "\n")
+
+
+async def execute(args):
+    directory = args.directory.resolve()
+    kind = args.backend if args.action == "search" else "fetch"
+    attempt = reserve(directory, kind)
+    stem = directory / (attempt["attempt_id"] + ".private")
+    metadata = {"attempt_id": attempt["attempt_id"], "kind": kind}
+    try:
+        if args.action == "search":
+            from bc_web.search import Searcher
+            from bc_web.settings import BcWebSettings
+            settings = BcWebSettings(search_throttle_retries=0)
+            exchanges = []
+            # Retain every decoded HTTP exchange, including failed/retried responses.
+            # Redact actual credential values before any payload reaches disk.
+            def sink(exchange):
+                body = exchange.body
+                original_hash = hashlib.sha256(body).hexdigest()
+                for field in ("exa_api_key", "serpapi_api_key"):
+                    secret = getattr(settings, field, None)
+                    if secret:
+                        body = body.replace(secret.get_secret_value().encode(), b"[REDACTED]")
+                target = directory / f"{attempt['attempt_id']}-response-{len(exchanges):03}.private.body"
+                with target.open("xb") as f:
+                    f.write(body)
+                exchanges.append({"artifact": str(target), "status": exchange.status,
+                    "original_body_sha256": original_hash,
+                    "stored_body_sha256": hashlib.sha256(body).hexdigest(),
+                    "redacted": body != exchange.body})
+                with (directory / "exchanges.private.jsonl").open("a") as f:
+                    f.write(json.dumps({"attempt_id": attempt["attempt_id"], **exchanges[-1]}) + "\n")
+            searcher = Searcher(settings, on_response=sink)
+            # One reserved operation must not silently fan out into provider retries.
+            # bc-web exposes the backend instance, but not ordinary search retries
+            # through settings in the pinned revision.
+            backend = searcher.backend(args.backend)
+            backend.retries = 0
+            backend.throttle_retries = 0
+            try:
+                options = {}
+                if args.since: options['start_date'] = dt.date.fromisoformat(args.since)
+                if args.until: options['end_date'] = dt.date.fromisoformat(args.until)
+                result = await searcher.search(args.query, backend=args.backend, max_results=args.max_results, **options)
+                payload = result.model_dump(mode="json")
+            finally:
+                await searcher.close()
+            metadata.update(query=args.query, hits=len(result.hits), cost_usd=result.cost_usd,
+                            unpriced=result.cost_usd is None, exchanges=exchanges,
+                            retry_policy="single provider attempt; failures retain reservation")
+        else:
+            from bc_web import Retriever
+            from bc_web.settings import BcWebSettings
+            from bc_research.pipeline import document_text
+            async with Retriever(BcWebSettings(timeout_ms=45000)) as r:
+                result = await asyncio.wait_for(r.fetch(args.url, mode=args.mode,
+                    **({"engine": "pydoll", "headless": False} if args.mode == "browser" else {})), timeout=85)
+            payload = result.model_dump(mode="json", exclude={"raw", "pdf"})
+            raw = result.raw or (result.html or "").encode()
+            text, title = document_text(result)
+            stem.with_suffix(stem.suffix + ".body").write_bytes(raw)
+            stem.with_suffix(stem.suffix + ".txt").write_text(text)
+            metadata.update(url=args.url, final_url=result.final_url, status=result.status,
+                            ok=result.ok, title=title, chars=len(text),
+                            body_sha256=hashlib.sha256(raw).hexdigest(),
+                            text_sha256=hashlib.sha256(text.encode()).hexdigest())
+        target = stem.with_suffix(stem.suffix + ".json")
+        with target.open("x") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        metadata["artifact"] = str(target)
+        finish(directory, attempt, outcome="response", **metadata)
+        print(json.dumps(metadata, indent=2))
+    except Exception as exc:
+        # Never log raw transport exceptions: provider URLs may contain API keys.
+        finish(directory, attempt, outcome="error", error_type=type(exc).__name__)
+        raise RuntimeError(f"Attempt {attempt['attempt_id']} failed: {type(exc).__name__}; cap reservation retained") from None
+
+
+if __name__ == "__main__":
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument("--directory", type=Path, required=True)
+    s = p.add_subparsers(dest="action", required=True)
+    q = s.add_parser("search"); q.add_argument("query")
+    q.add_argument("--backend", choices=["exa", "serpapi", "googlenews", "gdelt"], required=True)
+    q.add_argument("--max-results", type=int, choices=range(1, 21), default=6)
+    q.add_argument("--since", help="Publication date lower bound; omit for undated official pages")
+    q.add_argument("--until", help="Publication date upper bound, not legal event cutoff")
+    f = s.add_parser("fetch"); f.add_argument("url"); f.add_argument("--mode", choices=["http", "auto", "browser"], default="auto")
+    asyncio.run(execute(p.parse_args()))

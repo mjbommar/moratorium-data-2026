@@ -1,0 +1,277 @@
+{
+  "as_of": "2026-11-05",
+  "researcher": "gpt-6.1-terra Codex CLI",
+  "bc_modules_revision": "f6187344c697334dbca3f037fd0a670a995f59c8",
+  "client_config": "client-config.json",
+  "caps": {
+    "search_total": 12,
+    "exa": 6,
+    "serpapi": 6,
+    "fetch": 16
+  },
+  "cap_use": {
+    "exa": 6,
+    "serpapi": 6,
+    "fetch": 16,
+    "search_total": 12
+  },
+  "priced_exa_usd": 0.042,
+  "serpapi_cost_usd": null,
+  "cost_note": "SerpAPI unpriced; total actual cost unknown.",
+  "attempts": [
+    {
+      "attempt_id": "cd5ec371adee43b494ce45abfc897a8e",
+      "kind": "exa",
+      "outcome": "response",
+      "query": "Maine legislature LD 1259 SP 380 125th 2011 data center status",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/cd5ec371adee43b494ce45abfc897a8e.private.json",
+      "finished_at": "2026-11-05T16:30:51.357991+00:00"
+    },
+    {
+      "attempt_id": "392571d8504647769009b874de7f84c1",
+      "kind": "serpapi",
+      "outcome": "response",
+      "query": "Maine legislature LD 192 HP 169 125th green data center status",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/392571d8504647769009b874de7f84c1.private.json",
+      "finished_at": "2026-11-05T16:30:52.662118+00:00"
+    },
+    {
+      "attempt_id": "db675a1b67d849a2bd558c76d603bb6c",
+      "kind": "exa",
+      "outcome": "response",
+      "query": "Maine legislature LD 1722 HP 1202 128th 2018 data center",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/db675a1b67d849a2bd558c76d603bb6c.private.json",
+      "finished_at": "2026-11-05T16:30:53.526372+00:00"
+    },
+    {
+      "attempt_id": "70d6bce76d4646e79cfc4fdc582c5df7",
+      "kind": "serpapi",
+      "outcome": "response",
+      "query": "Maine LD 307 132nd veto sustained amendment H-1051 data center 2026",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/70d6bce76d4646e79cfc4fdc582c5df7.private.json",
+      "finished_at": "2026-11-05T16:30:54.932993+00:00"
+    },
+    {
+      "attempt_id": "8007911328274df79d16a5032de9fcac",
+      "kind": "exa",
+      "outcome": "response",
+      "query": "Maine LD 713 public law 2026 chapter 768 data center tax current law",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/8007911328274df79d16a5032de9fcac.private.json",
+      "finished_at": "2026-11-05T16:30:55.763166+00:00"
+    },
+    {
+      "attempt_id": "5f128e836abf4773ba7731cebd4e1fe1",
+      "kind": "serpapi",
+      "outcome": "response",
+      "query": "Maine LD 912 public law 2025 chapter 85 25 percent data center statute",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/5f128e836abf4773ba7731cebd4e1fe1.private.json",
+      "finished_at": "2026-11-05T16:30:56.879409+00:00"
+    },
+    {
+      "attempt_id": "4e893f52ff5e41569979c8c875faba80",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=1259&snum=125",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/4e893f52ff5e41569979c8c875faba80.private.json",
+      "finished_at": "2026-11-05T16:31:09.238611+00:00"
+    },
+    {
+      "attempt_id": "4866839bf66747e88e66b9c29e206876",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=192&snum=125",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/4866839bf66747e88e66b9c29e206876.private.json",
+      "finished_at": "2026-11-05T16:31:11.146458+00:00"
+    },
+    {
+      "attempt_id": "a976092d3e6440b2a60697b46d57f636",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=1722&snum=128",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/a976092d3e6440b2a60697b46d57f636.private.json",
+      "finished_at": "2026-11-05T16:31:12.816158+00:00"
+    },
+    {
+      "attempt_id": "972d559d65e1440f827d1e4874eff7a6",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=307&snum=132",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/972d559d65e1440f827d1e4874eff7a6.private.json",
+      "finished_at": "2026-11-05T16:31:14.125675+00:00"
+    },
+    {
+      "attempt_id": "67271901650d49e1b79488c8e7674ed2",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=713&snum=132",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/67271901650d49e1b79488c8e7674ed2.private.json",
+      "finished_at": "2026-11-05T16:31:16.745441+00:00"
+    },
+    {
+      "attempt_id": "77b3904258204c13914ad5649803f75a",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=912&snum=132",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/77b3904258204c13914ad5649803f75a.private.json",
+      "finished_at": "2026-11-05T16:31:19.350035+00:00"
+    },
+    {
+      "attempt_id": "5a3a429293474ce4a99b44386ba9dc03",
+      "kind": "exa",
+      "outcome": "response",
+      "query": "site:legislature.maine.gov \"LD 307\" \"H-1051\" veto",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/5a3a429293474ce4a99b44386ba9dc03.private.json",
+      "finished_at": "2026-11-05T16:31:55.057350+00:00"
+    },
+    {
+      "attempt_id": "034f7911e4c44e50bbcf8cf6effb6cd0",
+      "kind": "exa",
+      "outcome": "response",
+      "query": "site:legislature.maine.gov \"35-A\" \"25%\" \"data centers\" 102",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/034f7911e4c44e50bbcf8cf6effb6cd0.private.json",
+      "finished_at": "2026-11-05T16:31:57.192837+00:00"
+    },
+    {
+      "attempt_id": "035019af61f840249f9ea9b3f05e6c6a",
+      "kind": "serpapi",
+      "outcome": "response",
+      "query": "Maine legislature non emergency laws 2026 July 29 effective date",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/035019af61f840249f9ea9b3f05e6c6a.private.json",
+      "finished_at": "2026-11-05T16:31:58.218699+00:00"
+    },
+    {
+      "attempt_id": "55507617441e490dbf1f86381403154f",
+      "kind": "exa",
+      "outcome": "response",
+      "query": "Maine data center moratorium state bill 2026 2025 legislature",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/55507617441e490dbf1f86381403154f.private.json",
+      "finished_at": "2026-11-05T16:31:59.013048+00:00"
+    },
+    {
+      "attempt_id": "8776b1a6d20a47af918ff551a501cb81",
+      "kind": "serpapi",
+      "outcome": "response",
+      "query": "Maine DECD data center financial incentives report November 2026 LD 713",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/8776b1a6d20a47af918ff551a501cb81.private.json",
+      "finished_at": "2026-11-05T16:32:00.028078+00:00"
+    },
+    {
+      "attempt_id": "4f7e9bc111e848deabb986debea51667",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?paper=HP0207&SessionID=16",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/4f7e9bc111e848deabb986debea51667.private.json",
+      "finished_at": "2026-11-05T16:32:15.372309+00:00"
+    },
+    {
+      "attempt_id": "3b4a17f1fff74c9d9fd2306a3df53675",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?paper=HP0452&SessionID=16",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/3b4a17f1fff74c9d9fd2306a3df53675.private.json",
+      "finished_at": "2026-11-05T16:32:16.722251+00:00"
+    },
+    {
+      "attempt_id": "ace506bcb8964a268b3db2cb9e044e0f",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?paper=SP0402&SessionID=16",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/ace506bcb8964a268b3db2cb9e044e0f.private.json",
+      "finished_at": "2026-11-05T16:32:18.139335+00:00"
+    },
+    {
+      "attempt_id": "f6c1ac59ab974006ae5583f51ab287d3",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0207&item=14&snum=132",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/f6c1ac59ab974006ae5583f51ab287d3.private.json",
+      "finished_at": "2026-11-05T16:32:19.883867+00:00"
+    },
+    {
+      "attempt_id": "a667446f385e4a4a8593bc8838413c74",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0452&item=5&snum=132",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/a667446f385e4a4a8593bc8838413c74.private.json",
+      "finished_at": "2026-11-05T16:32:21.998577+00:00"
+    },
+    {
+      "attempt_id": "a07060c3e6e541d29d38e55c1b2f58b0",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/legis/bills/getPDF.asp?paper=SP0402&item=3&snum=132",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/a07060c3e6e541d29d38e55c1b2f58b0.private.json",
+      "finished_at": "2026-11-05T16:32:24.217616+00:00"
+    },
+    {
+      "attempt_id": "2dd46b687f394ce888a6f39df05fdb33",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/statutes/35-A/title35-Asec102.html",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/2dd46b687f394ce888a6f39df05fdb33.private.json",
+      "finished_at": "2026-11-05T16:32:25.480659+00:00"
+    },
+    {
+      "attempt_id": "a825bae4ce98400eacda557d85dbe901",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/statutes/36/title36sec691.html",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/a825bae4ce98400eacda557d85dbe901.private.json",
+      "finished_at": "2026-11-05T16:32:26.775309+00:00"
+    },
+    {
+      "attempt_id": "dd15eadd7b4a42398b8cc42e460d6777",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/legis/bills/bills_125th/billtexts/SP038001.asp",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/dd15eadd7b4a42398b8cc42e460d6777.private.json",
+      "finished_at": "2026-11-05T16:32:28.080692+00:00"
+    },
+    {
+      "attempt_id": "eaa7b589c4254327ad6c8ed8736d2c78",
+      "kind": "fetch",
+      "outcome": "response",
+      "url": "https://legislature.maine.gov/legis/bills/bills_125th/billtexts/HP016901.asp",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/eaa7b589c4254327ad6c8ed8736d2c78.private.json",
+      "finished_at": "2026-11-05T16:32:29.404344+00:00"
+    },
+    {
+      "attempt_id": "7e7c6b0e39b34dada41adedeb194df29",
+      "kind": "serpapi",
+      "outcome": "response",
+      "query": "\"July 29, 2026\" \"Maine\" \"laws\" legislature effective",
+      "artifact": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/me-policy-wave1/7e7c6b0e39b34dada41adedeb194df29.private.json",
+      "finished_at": "2026-11-05T16:33:13.502068+00:00"
+    }
+  ],
+  "field_uncertainties": {
+    "LD 1259": {
+      "policy_mechanism": "incentive_restriction is nearest available vocabulary for a proposed incentive, rather than incentive restriction in ordinary wording."
+    },
+    "LD 1722": {
+      "policy_mechanism": "incentive_restriction is closest available fiscal enum; proposal would expand incentives."
+    },
+    "LD 192": {
+      "mechanism": "Concept draft; program details unspecified."
+    },
+    "LD 307": {
+      "key_provisions": "C-A H-881 underlying text not fetched; threshold, end date, council details not independently verified in this run. H-1051 alone adjusts funding.",
+      "current_effect": "Vetoed bill failed; no inference about separate legislation."
+    },
+    "LD 713": {
+      "legal_effect_status": "Unknown for November 5; codified section extracted October 5, later changes not excluded.",
+      "effective_date_iso": "General effective date not verified from direct official source.",
+      "report": "Submission and contents not verified.",
+      "sponsors": "Chamber summary endpoint returned unrelated record, while adopted amendment names Sayre; lead sponsor not adjudicated.",
+      "identity": "Chapter PDF labels 2025 chapter 768 despite 2026 approval; packet bill key retained."
+    },
+    "LD 912": {
+      "legal_effect_status": "Unknown for November 5; statute extraction October 5; later changes not excluded.",
+      "scope": "Geographic and control-area qualifications matter; 25 percent is loss of a statutory exception, not a universal cap."
+    }
+  },
+  "acquisition_failures": [
+    "No transport failures observed; unrelated LD 713 chamber-summary payload is an identity/content mismatch. LD 307 underlying C-A and current Dirigo section not acquired within fetch cap. Search for report and official effective date returned no relevant direct evidence."
+  ],
+  "discovery": "One broad Exa query found LD 307 already in packet; no claim of statewide completeness."
+}

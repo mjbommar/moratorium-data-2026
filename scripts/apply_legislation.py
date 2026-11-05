@@ -63,7 +63,7 @@ POLICY_INSTRUMENT_TYPES = {"bill", "executive_order", "governor_directive", "age
 POLICY_MECHANISMS = {
     "statewide_moratorium", "local_moratorium_authorization",
     "local_moratorium_preemption", "permitting_restriction",
-    "utility_large_load_restriction", "incentive_restriction",
+    "utility_large_load_restriction", "incentive_restriction", "incentive_support",
     "reporting_disclosure", "other",
 }
 LEGAL_EFFECT_STATUSES = {"proposed", "in_force", "expired", "superseded", "failed", "withdrawn", "unknown"}
@@ -147,6 +147,8 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--min-confidence", type=float, default=0.4)
     ap.add_argument("--no-new-bills", action="store_true")
+    ap.add_argument("--baseline", type=Path,
+                    help="JSON array of exact source rows; refuse stale research against a changed row")
     args = ap.parse_args()
 
     paths = [Path(p) for p in args.answers] if args.answers else sorted(Path(args.answers_dir).glob("*.json"))
@@ -171,6 +173,16 @@ def main() -> int:
     action_ids = {r.get("policy_action_id", "") for r in rows if r.get("policy_action_id", "")}
 
     by_key = {f"{r['state_abbrev'].upper()}:{r['bill']}": r for r in rows}
+    baseline = None
+    if args.baseline:
+        snapshot = json.loads(args.baseline.read_text(encoding="utf-8"))
+        if not isinstance(snapshot, list):
+            print("ERROR: baseline must be an array of source rows")
+            return 2
+        baseline = {f"{r['state_abbrev'].upper()}:{r['bill']}": r for r in snapshot}
+        if len(baseline) != len(snapshot):
+            print("ERROR: duplicate baseline keys")
+            return 2
 
     audit: list[dict] = []
     conflicts: list[str] = []
@@ -210,6 +222,17 @@ def main() -> int:
             if conf is not None and conf < args.min_confidence:
                 stats["skipped_low_confidence"] += 1
                 continue
+
+            fields = dec.get("fields") or {}
+            if baseline is not None:
+                expected = baseline.get(key)
+                # Idempotent replay is allowed only when every proposed value is
+                # already present AND all other baseline cells remain unchanged.
+                after = dict(expected or {})
+                after.update(fields)
+                if expected is None or (row != expected and row != after):
+                    conflicts.append(f"{path.name}: stale or missing baseline for {key}")
+                    continue
 
             for column, value in (dec.get("fields") or {}).items():
                 if column not in fieldnames:
@@ -308,6 +331,10 @@ def main() -> int:
             print(f"  {c}")
         if len(conflicts) > 25:
             print(f"  ... and {len(conflicts) - 25} more")
+
+    if conflicts:
+        print("\nRefusing the entire batch: resolve conflicts before retrying.")
+        return 1
 
     if args.dry_run:
         print("\nDry run — nothing written.")

@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-11-05T17:16:46.656762+00:00",
+  "checks": [
+    {
+      "command": [
+        "make",
+        "check",
+        "PYTHON=.venv/bin/python",
+        "TODAY=2026-11-05"
+      ],
+      "returncode": 0,
+      "log": "work/audit/refresh-check-0-2026-11-05.log"
+    },
+    {
+      "command": [
+        "/home/mjbommar/projects/bc/bc-modules/.venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "log": "work/audit/refresh-check-1-2026-11-05.log"
+    }
+  ],
+  "scope": "23 focused tests and existing repository checks; full-plan completion is not established."
+}

@@ -1,0 +1,394 @@
+{
+  "reference_date": "2026-11-05",
+  "completed_at_utc": "2026-11-05T16:25:58.152619+00:00",
+  "status": "incomplete candidates only",
+  "limits": {
+    "requested_search_calls": 8,
+    "requested_serpapi_calls": 4,
+    "requested_fetches": 12,
+    "actual_search_calls": 12,
+    "actual_serpapi_calls": 6,
+    "actual_fetches": 12
+  },
+  "incident": "After first six searches, a script edit used unavailable python rather than the specified interpreter; the following command still ran and repeated all six calls. Second run overwrote first response artifacts. Six retained files are the second responses; first responses are not recoverable. No more searches executed.",
+  "searches_retained_second_run": [
+    {
+      "artifact": "search-01.private.json",
+      "query": "Piqua Ohio 2026 charter amendment data center prohibition ballot election results Miami County",
+      "backend": "exa",
+      "cost_usd": 0.007,
+      "hits": 10
+    },
+    {
+      "artifact": "search-02.private.json",
+      "query": "Piqua Ohio November 2026 charter amendment data center ballot issue results Miami board elections",
+      "backend": "serpapi",
+      "cost_usd": null,
+      "hits": 8
+    },
+    {
+      "artifact": "search-03.private.json",
+      "query": "Grove City Ohio Issue 28 November 2026 ballot charter development voter approval results Franklin county",
+      "backend": "exa",
+      "cost_usd": 0.007,
+      "hits": 10
+    },
+    {
+      "artifact": "search-04.private.json",
+      "query": "\"Grove City\" \"Issue 28\" 2026 ballot results development",
+      "backend": "serpapi",
+      "cost_usd": null,
+      "hits": 9
+    },
+    {
+      "artifact": "search-05.private.json",
+      "query": "Wilmington Ohio November 2026 four rezoning referendums ballot issues election Clinton county data center results",
+      "backend": "exa",
+      "cost_usd": 0.007,
+      "hits": 10
+    },
+    {
+      "artifact": "search-06.private.json",
+      "query": "Wilmington Ohio 2026 election rezoning referendum four issues Clinton board elections results",
+      "backend": "serpapi",
+      "cost_usd": null,
+      "hits": 9
+    }
+  ],
+  "searches_first_run": "same six backend/query pairs; results were overwritten; stdout showed all succeeded",
+  "cost": {
+    "exa_reported_usd_each": 0.007,
+    "exa_calls": 6,
+    "exa_reported_total_usd": 0.042,
+    "serpapi_calls_unpriced": 6,
+    "serpapi_usd": null,
+    "total_usd": null,
+    "note": "SerpAPI unknown is not zero; provider-reported Exa charges only."
+  },
+  "fetches": [
+    {
+      "name": "clinton-elections",
+      "url": "https://www.boe.ohio.gov/clinton/",
+      "status": 200,
+      "ok": true,
+      "final_url": "https://www.boe.ohio.gov/clinton/",
+      "content_type": "text/html",
+      "fetched_at": "2026-11-05T16:25:09.900785+00:00",
+      "error": null,
+      "attempts": [
+        {
+          "tier": "http",
+          "engine": null,
+          "headless": null,
+          "status": 200,
+          "elapsed_ms": 197,
+          "outcome": "ok",
+          "note": "",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+          "honest_bot": false
+        }
+      ],
+      "body_sha256": "0a35308c73e1e9f6deea8dd258698e403e30a50acd2086e22e437e740e81ef1a",
+      "text_sha256": "1d42d26f7aa7608c29c7b1e55df22277f5b5cf82b79446e1b762492c1d6e4747",
+      "text_chars": 696
+    },
+    {
+      "name": "clinton-results",
+      "url": "https://www.boe.ohio.gov/clinton/c/elecres/20261103results.pdf",
+      "status": 200,
+      "ok": true,
+      "final_url": "https://www.boe.ohio.gov/clinton/c/elecres/20261103results.pdf",
+      "content_type": "application/pdf",
+      "fetched_at": "2026-11-05T16:24:53.894786+00:00",
+      "error": null,
+      "attempts": [
+        {
+          "tier": "http",
+          "engine": null,
+          "headless": null,
+          "status": 200,
+          "elapsed_ms": 167,
+          "outcome": "non_html",
+          "note": "non-HTML body",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 YaBrowser/26.8.0.0 Safari/537.36",
+          "honest_bot": false
+        }
+      ],
+      "body_sha256": "5cfff145c261a87c96cbbd187c5b9132ef05132f617c3b5d087959c250c28c80",
+      "text_sha256": "a96cb82fda0f18d08f429c75c8e5c5e5d04cec21deaa8bfd4380ca0a89faacdb",
+      "text_chars": 18263
+    },
+    {
+      "name": "franklin-elections",
+      "url": "https://vote.franklincountyohio.gov/",
+      "status": 200,
+      "ok": true,
+      "final_url": "https://vote.franklincountyohio.gov/home",
+      "content_type": "text/html; charset=utf-8",
+      "fetched_at": "2026-11-05T16:25:10.473509+00:00",
+      "error": null,
+      "attempts": [
+        {
+          "tier": "http",
+          "engine": null,
+          "headless": null,
+          "status": 200,
+          "elapsed_ms": 323,
+          "outcome": "ok",
+          "note": "",
+          "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+          "honest_bot": false
+        }
+      ],
+      "body_sha256": "6accfefef02985c12ddc71369f138c8b98b3d40faf20bc4a9fa351b67622f60f",
+      "text_sha256": "b31b467209d4781a6d9c961b8eb60a68f2d502a0dacb2ebb5962e95e2411acc4",
+      "text_chars": 791
+    },
+    {
+      "name": "grove-ballotbrief",
+      "url": "https://theballotbrief.com/state/ohio/franklin-county/question/28-grove-city-charter-amendment-community-consent-for-large-developments-by",
+      "status": 200,
+      "ok": true,
+      "final_url": "https://theballotbrief.com/state/ohio/franklin-county/question/28-grove-city-charter-amendment-community-consent-for-large-developments-by",
+      "content_type": "text/html;charset=UTF-8",
+      "fetched_at": "2026-11-05T16:25:10.713182+00:00",
+      "error": null,
+      "attempts": [
+        {
+          "tier": "http",
+          "engine": null,
+          "headless": null,
+          "status": 200,
+          "elapsed_ms": 232,
+          "outcome": "ok",
+          "note": "",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 YaBrowser/26.8.0.0 Safari/537.36",
+          "honest_bot": false
+        }
+      ],
+      "body_sha256": "c365eabd24ef31e3233393bc24dc511efa4564cd3c39a1101ce465c28d4277b0",
+      "text_sha256": "89fe147908a9b55012aaad1da57164789ae6f3f6a8029ccce808355164dbcc87",
+      "text_chars": 2124
+    },
+    {
+      "name": "grove-ballotpedia",
+      "url": "https://ballotpedia.org/Grove_City,_Ohio,_Issue_28,_Voter_Approval_Requirements_for_Certain_Developments_Initiative_(November_2026)",
+      "status": 202,
+      "ok": false,
+      "final_url": "https://ballotpedia.org/Grove_City,_Ohio,_Issue_28,_Voter_Approval_Requirements_for_Certain_Developments_Initiative_(November_2026)",
+      "content_type": "text/html; charset=UTF-8",
+      "fetched_at": "2026-11-05T16:24:54.034642+00:00",
+      "error": "challenge: aws_waf challenge",
+      "attempts": [
+        {
+          "tier": "http",
+          "engine": null,
+          "headless": null,
+          "status": 202,
+          "elapsed_ms": 18,
+          "outcome": "challenge",
+          "note": "aws_waf challenge",
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+          "honest_bot": false
+        }
+      ],
+      "body_sha256": "9662717030f94cde72ff86cc1b63b23fb274f6a48e736d52380e244e1897ec28",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_chars": 0
+    },
+    {
+      "name": "grove-news",
+      "url": "https://www.wosu.org/politics-government/2026-11-04/grove-city-approves-issue-28-to-force-votes-on-developments-including-data-centers",
+      "status": 200,
+      "ok": true,
+      "final_url": "https://www.wosu.org/politics-government/2026-11-04/grove-city-approves-issue-28-to-force-votes-on-developments-including-data-centers",
+      "content_type": "text/html;charset=UTF-8",
+      "fetched_at": "2026-11-05T16:24:54.844199+00:00",
+      "error": null,
+      "attempts": [
+        {
+          "tier": "http",
+          "engine": null,
+          "headless": null,
+          "status": 200,
+          "elapsed_ms": 360,
+          "outcome": "ok",
+          "note": "",
+          "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+          "honest_bot": false
+        }
+      ],
+      "body_sha256": "a19c20b4bbb5692415a8399de44caf331832b39e697a502d9d06138ebbccc9eb",
+      "text_sha256": "9808a5416e25f55cffe279fe227b00f13391db82ebf8aa521221fd395bba056f",
+      "text_chars": 1841
+    },
+    {
+      "name": "grove-petition",
+      "url": "https://protectgrovecity.org/updates/",
+      "status": 200,
+      "ok": true,
+      "final_url": "https://protectgrovecity.org/updates/",
+      "content_type": "text/html; charset=UTF-8",
+      "fetched_at": "2026-11-05T16:25:11.458706+00:00",
+      "error": null,
+      "attempts": [
+        {
+          "tier": "http",
+          "engine": null,
+          "headless": null,
+          "status": 200,
+          "elapsed_ms": 734,
+          "outcome": "ok",
+          "note": "",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+          "honest_bot": false
+        }
+      ],
+      "body_sha256": "b13a58808347f322e279e7a703a8bcc16cb8ea0491b7a29e7037bc27f857f4a9",
+      "text_sha256": "1c2ebcc0d8e0e6ceab87770c8435ae06ab52a68515a9301a2f8f362635e78582",
+      "text_chars": 3160
+    },
+    {
+      "name": "miami-elections",
+      "url": "https://www.boe.ohio.gov/miami/",
+      "status": 200,
+      "ok": true,
+      "final_url": "https://www.boe.ohio.gov/miami/",
+      "content_type": "text/html",
+      "fetched_at": "2026-11-05T16:25:10.141807+00:00",
+      "error": null,
+      "attempts": [
+        {
+          "tier": "http",
+          "engine": null,
+          "headless": null,
+          "status": 200,
+          "elapsed_ms": 230,
+          "outcome": "ok",
+          "note": "",
+          "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+          "honest_bot": false
+        }
+      ],
+      "body_sha256": "73e904573549c3943c4942830edff8bb15d5d1d9deb98125989dafab93afcc23",
+      "text_sha256": "fc5f7f84458972b391141f521788fec4439a740c7ae5d9e6b0b9b3af4c132aea",
+      "text_chars": 6750
+    },
+    {
+      "name": "piqua-ballotpedia",
+      "url": "https://ballotpedia.org/Piqua,_Ohio,_Prohibit_Data_Center_Construction_Initiative_(November_2026)",
+      "status": 202,
+      "ok": false,
+      "final_url": "https://ballotpedia.org/Piqua,_Ohio,_Prohibit_Data_Center_Construction_Initiative_(November_2026)",
+      "content_type": "text/html; charset=UTF-8",
+      "fetched_at": "2026-11-05T16:24:54.011650+00:00",
+      "error": "challenge: aws_waf challenge",
+      "attempts": [
+        {
+          "tier": "http",
+          "engine": null,
+          "headless": null,
+          "status": 202,
+          "elapsed_ms": 76,
+          "outcome": "challenge",
+          "note": "aws_waf challenge",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+          "honest_bot": false
+        }
+      ],
+      "body_sha256": "e93a56047519d7e4c2f98615072d5eb970b6d459e6d5598790f46e305cfcb4ef",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_chars": 0
+    },
+    {
+      "name": "piqua-local",
+      "url": "https://miamivalleytoday.com/piqua-commissioners-ousted-in-recall-effort-data-center-ban-approved/",
+      "status": 200,
+      "ok": true,
+      "final_url": "https://miamivalleytoday.com/piqua-commissioners-ousted-in-recall-effort-data-center-ban-approved/",
+      "content_type": "text/html; charset=UTF-8",
+      "fetched_at": "2026-11-05T16:25:11.811680+00:00",
+      "error": null,
+      "attempts": [
+        {
+          "tier": "http",
+          "engine": null,
+          "headless": null,
+          "status": 200,
+          "elapsed_ms": 340,
+          "outcome": "ok",
+          "note": "",
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+          "honest_bot": false
+        }
+      ],
+      "body_sha256": "149240c71b538a1646c2796ad8f85052559aef4176a6d3de8045771531126247",
+      "text_sha256": "42607ccdbe38705da57cc1912208e4c926a8fa83746ddbceef36273b8cb161c1",
+      "text_chars": 3872
+    },
+    {
+      "name": "piqua-news",
+      "url": "https://www.wyso.org/government-politics-news/2026-11-04/piqua-voters-reject-data-centers-recall-city-commissioners",
+      "status": 200,
+      "ok": true,
+      "final_url": "https://www.wyso.org/government-politics-news/2026-11-04/piqua-voters-reject-data-centers-recall-city-commissioners",
+      "content_type": "text/html;charset=UTF-8",
+      "fetched_at": "2026-11-05T16:24:55.593791+00:00",
+      "error": null,
+      "attempts": [
+        {
+          "tier": "http",
+          "engine": null,
+          "headless": null,
+          "status": 200,
+          "elapsed_ms": 733,
+          "outcome": "ok",
+          "note": "",
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+          "honest_bot": false
+        }
+      ],
+      "body_sha256": "7f4215c6e8a533ed04ed288d3ace97cdcda58ee9e01d6b43eb6cef9f9ddfadd4",
+      "text_sha256": "a683eb136a90deb10f4f49a94782cb41dbe58e7ef85043afe21a77886a92ad6c",
+      "text_chars": 2928
+    },
+    {
+      "name": "wilmington-news",
+      "url": "https://www.wnewsj.com/2026/11/03/wilmington-voters-reject-four-rezoning-ordinances/",
+      "status": 200,
+      "ok": true,
+      "final_url": "https://www.wnewsj.com/2026/11/03/wilmington-voters-reject-four-rezoning-ordinances/",
+      "content_type": "text/html; charset=UTF-8",
+      "fetched_at": "2026-11-05T16:24:54.457076+00:00",
+      "error": null,
+      "attempts": [
+        {
+          "tier": "http",
+          "engine": null,
+          "headless": null,
+          "status": 200,
+          "elapsed_ms": 408,
+          "outcome": "ok",
+          "note": "",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "honest_bot": false
+        }
+      ],
+      "body_sha256": "f2215a8b54b82a71ac825d42efb3a546cdf4851c8983861daaf5219effb44993",
+      "text_sha256": "01cf626ca44bca2b6956177bb0c1d8b32a9ae85c38190ee9d3eda439bc779f0c",
+      "text_chars": 2281
+    }
+  ],
+  "bc_modules_revision": "f6187344c697334dbca3f037fd0a670a995f59c8",
+  "inputs": {
+    "plan_sha256": "3ba7a10730bed30a5607e69418bca4b572fbaa85cec0baeb777f8be84e458fa2",
+    "inventory_sha256": "7d6d252da231ec8e00fb4bba37489629f931cc9bd2bdaae796ee9c6d77e3f4c7"
+  },
+  "external_model_api_calls": 0,
+  "rights": "All bodies, extracted text and search response files private pending classification.",
+  "failures": [
+    "Piqua and Grove City Ballotpedia returned HTTP 202 and no extracted text.",
+    "No official primary ballot wording recovered; Miami and Franklin primary returns not retrieved.",
+    "Exceeded requested search limits; first search responses overwritten."
+  ]
+}

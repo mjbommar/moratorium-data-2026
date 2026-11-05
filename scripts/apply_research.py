@@ -377,6 +377,9 @@ def main() -> int:
     print(f"Loading {len(paths)} answer file(s)...")
     answers = load_answers(paths, schema)
     print(f"  {len(answers)} file(s) passed validation")
+    if len(answers) != len(paths):
+        print("ERROR: refusing batch because an answer file failed validation")
+        return 1
 
     rows, fieldnames = read_inventory()
     by_id = {r["moratorium_id"]: r for r in rows}
@@ -649,6 +652,10 @@ def main() -> int:
             print(f"  {s}")
         if len(skipped) > 15:
             print(f"  ... and {len(skipped) - 15} more")
+
+    if conflicts:
+        print("\nRefusing the entire batch: resolve conflicts before retrying.")
+        return 1
 
     if args.dry_run:
         print("\nDry run — nothing written.")

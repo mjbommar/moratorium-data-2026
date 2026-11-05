@@ -1,0 +1,133 @@
+{
+  "recorded_at": "2026-11-05T16:22:49.344043+00:00",
+  "research_as_of": "2026-11-05",
+  "files": {
+    "data/moratorium_inventory.csv": {
+      "resolved_path": "/home/mjbommar/projects/personal/moratorium-data-2026/data/moratorium_inventory.csv",
+      "sha256": "7d6d252da231ec8e00fb4bba37489629f931cc9bd2bdaae796ee9c6d77e3f4c7",
+      "rows": 1291,
+      "columns": [
+        "state",
+        "state_abbrev",
+        "jurisdiction",
+        "jurisdiction_type",
+        "date_enacted",
+        "duration",
+        "legal_basis",
+        "trigger",
+        "current_status",
+        "affected_projects",
+        "outcome",
+        "has_verify_tags",
+        "verify_count",
+        "cite_count",
+        "activity_level",
+        "enacted_status",
+        "moratorium_id",
+        "latitude",
+        "longitude",
+        "date_enacted_iso",
+        "date_enacted_uncertainty",
+        "duration_days",
+        "duration_kind",
+        "current_end_date_iso",
+        "sectors",
+        "trigger_categories"
+      ]
+    },
+    "data/state_legislation.csv": {
+      "resolved_path": "/home/mjbommar/projects/personal/moratorium-data-2026/data/state_legislation.csv",
+      "sha256": "01b6def1c452388ffe134266d0dc0e91a729b2e4bfb483afdfc451bdbb75d847",
+      "rows": 440,
+      "columns": [
+        "state",
+        "state_abbrev",
+        "bill",
+        "sponsors",
+        "party",
+        "status",
+        "key_provisions",
+        "activity_level",
+        "bill_status_category",
+        "last_action_date_iso",
+        "chamber_of_origin",
+        "policy_instrument_type",
+        "policy_mechanism",
+        "legal_effect_status",
+        "scope_of_action",
+        "effective_date_iso",
+        "end_condition",
+        "primary_source_url",
+        "policy_action_id"
+      ]
+    },
+    "../servercountry.org/public/data/all_projects.csv": {
+      "resolved_path": "/home/mjbommar/projects/personal/servercountry.org/public/data/all_projects.csv",
+      "sha256": "9e87a39ef55b34713218f93278439a5ae4d9a402c3d2cce200392c0674cd1da2",
+      "rows": 1048,
+      "columns": [
+        "projectName",
+        "state",
+        "city",
+        "county",
+        "region",
+        "status",
+        "sponsors",
+        "operators",
+        "tenants",
+        "totalSquareFeet",
+        "powerCapacityMW",
+        "itLoadMW",
+        "investmentUSD",
+        "sizeNotes",
+        "announcedDate",
+        "constructionStartDate",
+        "expectedCompletionDate",
+        "actualCompletionDate",
+        "numberOfPhases",
+        "purpose",
+        "renewableEnergy",
+        "pueTarget",
+        "waterCooling",
+        "certifications",
+        "sustainabilityNotes",
+        "economicImpact_jobs",
+        "economicImpact_taxRevenue",
+        "economicImpact_notes",
+        "incentives_type",
+        "incentives_value",
+        "challenges",
+        "notes",
+        "lastUpdated"
+      ]
+    }
+  },
+  "repositories": {
+    "moratorium-data-2026": {
+      "head": "dbaab04d84f8d679ba5a3d57bf45f32186109222",
+      "status": "?? TODO.md\n?? docs/research-and-ballot-expansion-plan.md\n?? scripts/refresh_jobs.py"
+    },
+    "moratorium-paper": {
+      "head": "018044661f1d561ebf79b5cca94eae34fee9ae8a",
+      "status": ""
+    },
+    "servercountry.org": {
+      "head": "87fab2fc6c3e572e03a8355771d70a35025df5ab",
+      "status": ""
+    },
+    "datacenter-paper-2026": {
+      "head": "3e823f1b7f709b86011432f9fb1110bee485df11",
+      "status": ""
+    },
+    "datacenter-data-integration": {
+      "head": "16ce7827c99d38b158d143be9d77e06b340679fe",
+      "status": ""
+    }
+  },
+  "bc_modules": {
+    "head": "f6187344c697334dbca3f037fd0a670a995f59c8",
+    "status": ""
+  },
+  "cli_model": "gpt-6.1-terra",
+  "limitation": "File snapshot; no record status independently refreshed yet."
+}

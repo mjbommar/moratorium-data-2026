@@ -6,7 +6,9 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 
 > 📄 **Working paper:** [April 2026 updated draft (PDF, 6 MB, 116 pages)](paper/moratorium-nation-2026-04-30.pdf) · [first edition on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6242898). 50-state legal authority survey, 44-clause taxonomy, 13-section model ordinance template.
 
-> **As of September 23, 2026, 1291 local moratorium instruments are tracked across 47 states.**
+> **As of November 5, 2026, 1291 local moratorium instruments are tracked across 47 states.**
+> Working snapshot: the full November refresh is in progress. Status dates vary by record; these are recorded classifications, not a claim that every instrument was freshly verified.
+>
 > 🟢 **1063 currently in force** (active or extended) · 🟡 **77 pending or proposed** (not yet adopted) · ⚪ **151 expired, replaced, or rescinded** (no longer in force)
 >
 > Top states by total instruments: Ohio (160), New York (150), Michigan (145), Georgia (70), North Carolina (69), Iowa (57), Tennessee (45), Washington (42), Wisconsin (40), Florida (35).
@@ -59,10 +61,10 @@ For more, see the [FAQ](docs/FAQ.md).
 
 ## The headline numbers
 
-As of **September 23, 2026**:
+Working snapshot during the **November 5, 2026** refresh (record-level source dates vary):
 
 - **1291 moratorium instruments** tracked in our cleaned inventory
-  - **1063 currently in force** (897 active + 166 extended)
+  - **1063 currently in force** (892 active + 171 extended)
   - **77 pending or proposed** (public hearings scheduled, awaiting adoption)
   - **93 replaced** by permanent regulations
   - **50 expired** without a documented replacement
@@ -143,7 +145,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-This is a working dataset, and we update it often. This copy is current through **September 23, 2026**. The latest tagged release is still **v2026.07**.
+This is a working dataset, and we update it often. The previous comprehensive working snapshot was dated **September 23, 2026**; selective November corrections are now included, and the full refresh remains in progress. Remote refs checked November 5 show **v2026.04.2** as the latest tag and no published GitHub Release; the v2026.07 label below and in historical notes describes an unpublished working snapshot. Full-refresh publication is pending.
 
 ---
 
@@ -175,7 +177,7 @@ moratorium-data-2026/
 ├── paper/                         # working paper PDF (April 2026 draft)
 ├── states/                        # 50-state index + per-state pages
 ├── data/                          # canonical CSVs and JSON
-│   ├── moratorium_inventory.csv   # the 533-row local-moratorium table
+│   ├── moratorium_inventory.csv   # the 1291-row local-moratorium table
 │   ├── state_legislation.csv      # 440-row state-policy tracker (438 bills + 2 actions)
 │   ├── summary_stats.json         # top-level aggregates
 │   ├── structured_extractions.jsonl  # 864 lines (526 successful + 338 errors)

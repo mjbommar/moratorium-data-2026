@@ -149,9 +149,12 @@ def main() -> int:
         if not path.exists():
             problems.append(f"{filename}: file not found")
             continue
-        text = path.read_text(encoding="utf-8")
+        original = path.read_text(encoding="utf-8")
+        text = original
+        offset = 0
         if filename == "CHANGELOG.md":
             text = changelog_head(text)
+            offset = original.find(text)
         m = re.search(pattern, text)
         if not m:
             missing += 1
@@ -165,8 +168,8 @@ def main() -> int:
         if args.fix:
             # Replace only the digits inside the capture span, so the sentence
             # around them is never touched.
-            start, end = m.span(1)
-            path.write_text(text[:start] + str(actual) + text[end:], encoding="utf-8")
+            start, end = (offset + value for value in m.span(1))
+            path.write_text(original[:start] + str(actual) + original[end:], encoding="utf-8")
             fixed.append(f"{filename}: {label} {claimed} -> {actual}")
         else:
             problems.append(f"{filename}: {label} says {claimed}, data says {actual}")

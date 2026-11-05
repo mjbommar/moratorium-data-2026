@@ -314,7 +314,7 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
         ("status snapshot",
          r'(This working snapshot is current through <strong>)[^<]+(</strong>\. '
          r'The latest tagged release remains <strong>)v[\d.]+(</strong>\.)',
-         rf'\g<1>{RELEASE_DATE}\g<2>v2026.07\g<3>'),
+         rf'\g<1>{RELEASE_DATE}\g<2>v2026.04.2\g<3>'),
     ]
 
 

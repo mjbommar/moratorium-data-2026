@@ -79,7 +79,7 @@ POLICY_INSTRUMENT_TYPES = {"bill", "executive_order", "governor_directive", "age
 POLICY_MECHANISMS = {
     "statewide_moratorium", "local_moratorium_authorization",
     "local_moratorium_preemption", "permitting_restriction",
-    "utility_large_load_restriction", "incentive_restriction",
+    "utility_large_load_restriction", "incentive_restriction", "incentive_support",
     "reporting_disclosure", "other",
 }
 LEGAL_EFFECT_STATUSES = {"proposed", "in_force", "expired", "superseded", "failed", "withdrawn", "unknown"}

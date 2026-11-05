@@ -1,0 +1,248 @@
+{
+  "state_abbrev": "CA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "gpt-6.1-terra CLI",
+  "decisions": [
+    {
+      "moratorium_id": "ca-arcata-2026",
+      "outcome": "unresolvable",
+      "confidence": 0.25,
+      "evidence": [
+        {
+          "url": "https://lostcoastoutpost.com/loco-media/loco-media/agendizer/attachment/26925/1.pdf",
+          "title": "Proposed Ordinance 1595",
+          "document_date": "2026-10-28",
+          "source_type": "agenda",
+          "supports": "Proposed Ordinance 1595 extends through September 15, 2027, but the vote fields and signature are blank."
+        }
+      ],
+      "notes": "Agenda ordinance contains an unfilled vote certificate; the meeting page contains fictional AI narrative and cannot establish action. Obtain signed ordinance or minutes."
+    },
+    {
+      "moratorium_id": "ca-calaveras-county-2026",
+      "outcome": "unresolvable",
+      "confidence": 0.25,
+      "evidence": [
+        {
+          "url": "https://citizenportal.ai/articles/10170263/california/calaveras-county/calaveras-supervisors-extend-temporary-moratorium-on-datacenter-development",
+          "title": "Citizen Portal meeting report",
+          "document_date": "2026-09-22",
+          "source_type": "other",
+          "supports": "Automated meeting report asserts 5-0 extension September 22; underlying minutes or ordinance not obtained."
+        },
+        {
+          "url": "https://aigridwatch.com/communities/calaveras-county-ca",
+          "title": "AI Grid Watch county tracker",
+          "document_date": "2026-11-04",
+          "source_type": "other",
+          "supports": "Tracker asserts expired based on automatic initial-term calculation and cautions extensions need checking."
+        }
+      ],
+      "notes": "An automated meeting report claims an extension; the tracker derives expiry from the initial term. Obtain board minutes or adopted ordinance to resolve the conflict and end date."
+    },
+    {
+      "moratorium_id": "ca-city-of-angels-calaveras-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "extended",
+          "reason": "Extension adoption documented in cited evidence."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Adopted 5-0 on 2026-08-18, 45 days, set to expire 2026-10-02. A staff report for the 2026-09-15 Council meeting recommended adopting Ordinance 560 to extend the moratorium through 2027-08-17 (10 months 15 days); whether that extension was actually adopted was not confirmed in this pass.",
+          "to": "The City Council adopted Ordinance 560 4-0 on 2026-09-15, extending Ordinance 559 from 2026-10-02 through 2027-08-17.",
+          "reason": "Later adoption documented in cited evidence."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-08-17",
+          "reason": "The cited primary or corroborating source states this date; not a 30-day-month calculation."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://mccmeetings.blob.core.usgovcloudapi.net/anglscmpca-pubu/MEET-Minutes-b1dd575fb7ab478e8d87463057d9884e.pdf",
+          "title": "City Council minutes",
+          "document_date": "2026-09-15",
+          "source_type": "minutes",
+          "supports": "September 15 council approved Ordinance 560, 4-0, extending through August 17, 2027."
+        },
+        {
+          "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/anglscmpca-meet-b1dd575fb7ab478e8d87463057d9884e/ITEM-Attachment-001-f0fc3048d4a444b08e76e621fe98d5d8.pdf",
+          "title": "Ordinance 560 agenda text",
+          "document_date": "2026-09-15",
+          "source_type": "ordinance",
+          "supports": "Agenda attachment specifies October 2 anchor and August 17, 2027 end; minutes establish adoption."
+        }
+      ],
+      "notes": "Later termination, replacement or further amendments through the cutoff were not independently ruled out. Duration_days retains the initial-term baseline; review legacy field semantics before applying."
+    },
+    {
+      "moratorium_id": "ca-escondido-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "extended",
+          "reason": "Extension adoption documented in cited evidence."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Adopted 5-0 on 2026-08-26; staff expected to report back by Oct. 10 with findings; can be extended 10 months 15 days, then up to one more year.",
+          "to": "The City Council unanimously approved a 10-month, 15-day extension on 2026-10-07; the ordinance text specifies close of business 2027-08-22.",
+          "reason": "Later adoption documented in cited evidence."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-08-22",
+          "reason": "The cited primary or corroborating source states this date; not a 30-day-month calculation."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://thecoastnews.com/escondido-extends-data-center-moratorium/",
+          "title": "Escondido extends data center moratorium",
+          "document_date": "2026-10-13",
+          "source_type": "news",
+          "supports": "Reports unanimous October 7 extension and August 22, 2027 end."
+        },
+        {
+          "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/escondidca-meet-7699b019eb8840cfab1347d7b26c4a55/ITEM-Attachment-002-90203f5dd50648ab90df56ac95de220e.pdf",
+          "title": "Ordinance 2026-19 agenda text",
+          "document_date": "2026-10-07",
+          "source_type": "ordinance",
+          "supports": "Proposed ordinance 2026-19 specifies close of business August 22, 2027; agenda text alone does not prove adoption."
+        }
+      ],
+      "notes": "Later termination, replacement or further amendments through the cutoff were not independently ruled out. Duration_days retains the initial-term baseline; review legacy field semantics before applying."
+    },
+    {
+      "moratorium_id": "ca-eureka-2026",
+      "outcome": "unresolvable",
+      "confidence": 0.25,
+      "evidence": [
+        {
+          "url": "https://eureka.granicus.com/GeneratedAgendaViewer.php?clip_id=1914&view_id=3",
+          "title": "Eureka council agenda",
+          "document_date": "2026-10-06",
+          "source_type": "agenda",
+          "supports": "October 6 agenda includes proposed Bill 1063-C.S.; agenda itself does not record the vote."
+        },
+        {
+          "url": "https://www.sidekick.news/articles/eureka-extends-data-center-moratorium-2026-10-18",
+          "title": "Sidekick meeting account",
+          "document_date": "2026-10-18",
+          "source_type": "other",
+          "supports": "AI-generated account asserts October 6 adoption; underlying vote record not read."
+        }
+      ],
+      "notes": "The official agenda establishes a hearing, not a vote. AI-generated secondary reporting claims an extension; obtain minutes or adopted ordinance and confirm the end date."
+    },
+    {
+      "moratorium_id": "ca-gilroy-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "extended",
+          "reason": "Extension adoption documented in cited evidence."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Adopted unanimously 2026-09-14, effective immediately for 45 days; staff to report back before expiration.",
+          "to": "The City reports that the Council unanimously extended the moratorium on 2026-10-19 by 10 months and 15 days through 2027-09-03.",
+          "reason": "Later adoption documented in cited evidence."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-09-03",
+          "reason": "The cited primary or corroborating source states this date; not a 30-day-month calculation."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://cityofgilroy.org/DocumentCenter/View/21058/City-of-Gilroy-Email-Express-102326-",
+          "title": "Gilroy City Email Express",
+          "document_date": "2026-10-23",
+          "source_type": "other",
+          "supports": "City reports October 19 unanimous extension through September 3, 2027."
+        }
+      ],
+      "notes": "Later termination, replacement or further amendments through the cutoff were not independently ruled out. Duration_days retains the initial-term baseline; review legacy field semantics before applying."
+    },
+    {
+      "moratorium_id": "ca-lake-elsinore-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "extended",
+          "reason": "Extension adoption documented in cited evidence."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Adopted unanimously 2026-08-25, effective immediately for 45 days.",
+          "to": "The City Clerk certified that the Council adopted Ordinance 2026-1540 on 2026-10-06, 5-0, extending Ordinance 2026-1539 by 10 months and 15 days.",
+          "reason": "Later adoption documented in cited evidence."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://www.lake-elsinore.org/DocumentCenter/View/5797/Urgency-Ordinance-2026-1540-Extending-Moratorium-on-Data-Centers-October-6-2026",
+          "title": "Notice of adoption of urgency ordinance",
+          "document_date": "2026-10-06",
+          "source_type": "other",
+          "supports": "City clerk certifies October 6 adoption of Ordinance 2026-1540 by 5-0, extending the initial term by 10 months and 15 days."
+        }
+      ],
+      "notes": "Later termination, replacement or further amendments through the cutoff were not independently ruled out. Duration_days retains the initial-term baseline; review legacy field semantics before applying."
+    },
+    {
+      "moratorium_id": "ca-mendocino-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "extended",
+          "reason": "Extension adoption documented in cited evidence."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Adopted 5-0 on 2026-09-01, effective immediately for 45 days to 2026-10-16.",
+          "to": "The Board adopted Ordinance 4562 on 2026-10-06, 4-1, extending the moratorium through 2028-08-21. The posted ordinance and contemporaneous reporting conflict on the 3-MW threshold; verify the signed final text.",
+          "reason": "Later adoption documented in cited evidence."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2028-08-21",
+          "reason": "The cited primary or corroborating source states this date; not a 30-day-month calculation."
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "url": "https://mendocino.legistar1.com/daystar.legistar6.sdk.ws/View.ashx?M=F&GovernmentGUID=MEND&LogicalFileName=e9530218-39d7-452c-a17d-eadb2c766007.pdf&From=Granicus&Format=pdf",
+          "title": "Ordinance 4562",
+          "document_date": "2026-10-06",
+          "source_type": "ordinance",
+          "supports": "Posted ordinance 4562 records October 6 adoption 4-1, immediate effect and August 21, 2028 end; threshold conflicts with reporting."
+        },
+        {
+          "url": "https://mendovoice.com/2026/10/mendocino-county-supervisors-extend-data-center-moratorium-to-2028-with-a-3-megawatt-exception/",
+          "title": "Mendocino Voice report",
+          "document_date": "2026-10-06",
+          "source_type": "news",
+          "supports": "Reports 4-1 adoption and a less-than-3-MW exception, conflicting with the posted text."
+        }
+      ],
+      "notes": "Later termination, replacement or further amendments through the cutoff were not independently ruled out. Duration_days retains the initial-term baseline; review legacy field semantics before applying."
+    }
+  ],
+  "new_candidates": []
+}

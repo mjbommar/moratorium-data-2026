@@ -1,0 +1,82 @@
+.venv/bin/python scripts/validate_dataset.py --today 2026-11-05
+Dataset validation — 1291 inventory rows, 440 legislation rows, as of 2026-11-05
+------------------------------------------------------------------------
+
+WARN  date.missing  (20)
+    line 46 (CA Irwindale): no date_enacted_iso on a non-pending row
+    line 232 (IL Robinson): no date_enacted_iso on a non-pending row
+    line 575 (MI Wales Township): no date_enacted_iso on a non-pending row
+    line 689 (NY Allen (Allegany County)): no date_enacted_iso on a non-pending row
+    line 708 (NY Campbell): no date_enacted_iso on a non-pending row
+    line 710 (NY Carlton): no date_enacted_iso on a non-pending row
+    line 712 (NY Carrollton): no date_enacted_iso on a non-pending row
+    line 717 (NY Collins): no date_enacted_iso on a non-pending row
+    line 720 (NY Corning): no date_enacted_iso on a non-pending row
+    line 725 (NY Elba): no date_enacted_iso on a non-pending row
+    line 728 (NY Essex County): no date_enacted_iso on a non-pending row
+    line 730 (NY Freedom (Cattaraugus County)): no date_enacted_iso on a non-pending row
+    line 731 (NY Gainesville): no date_enacted_iso on a non-pending row
+    line 737 (NY Greenwood): no date_enacted_iso on a non-pending row
+    line 739 (NY Halfmoon): no date_enacted_iso on a non-pending row
+    line 740 (NY Harrison): no date_enacted_iso on a non-pending row
+    line 749 (NY Le Ray): no date_enacted_iso on a non-pending row
+    line 784 (NY Ripley): no date_enacted_iso on a non-pending row
+    line 830 (NY Virgil): no date_enacted_iso on a non-pending row
+    line 837 (NY Yorktown): no date_enacted_iso on a non-pending row
+
+WARN  status.drift  (43)
+    line 31 (CA Arcata): active but computed expiry 2026-10-31 < 2026-11-05
+    line 33 (CA Calaveras County): active but computed expiry 2026-10-09 < 2026-11-05
+    line 40 (CA Eureka): active but computed expiry 2026-10-16 < 2026-11-05
+    line 52 (CA Morgan Hill): active but computed expiry 2026-10-10 < 2026-11-05
+    line 56 (CA Palm Springs): active but computed expiry 2026-10-10 < 2026-11-05
+    line 58 (CA Richmond): active but computed expiry 2026-10-30 < 2026-11-05
+    line 147 (GA Camden County): active but computed expiry 2026-11-01 < 2026-11-05
+    line 149 (GA Cedartown): active but computed expiry 2026-09-22 < 2026-11-05
+    line 181 (GA Lowndes County): active but computed expiry 2026-10-24 < 2026-11-05
+    line 229 (IL Morgan County): active but computed expiry 2026-10-24 < 2026-11-05
+    line 231 (IL Plainfield): active but computed expiry 2026-10-18 < 2026-11-05
+    line 243 (IN DeKalb County): active but computed expiry 2026-10-10 < 2026-11-05
+    line 393 (ME Bangor): active but computed expiry 2026-10-10 < 2026-11-05
+    line 462 (MI Casco Township (Allegan County)): active but computed expiry 2026-10-17 < 2026-11-05
+    line 489 (MI Frenchtown Charter Township (Monroe Coun): active but computed expiry 2026-10-25 < 2026-11-05
+    line 522 (MI Lyon Charter Township (Oakland County)): active but computed expiry 2026-10-28 < 2026-11-05
+    line 523 (MI Lyon Township): active but computed expiry 2026-10-28 < 2026-11-05
+    line 578 (MI Waterford Township): active but computed expiry 2026-09-19 < 2026-11-05
+    line 630 (MO City of Springfield): active but computed expiry 2026-10-27 < 2026-11-05
+    line 651 (NE Custer County): active but computed expiry 2026-09-30 < 2026-11-05
+    ... and 23 more
+------------------------------------------------------------------------
+0 error(s), 63 warning(s)
+.venv/bin/python scripts/build_summary_stats.py --check
+summary_stats.json is current
+.venv/bin/python scripts/build_geojson.py --check
+site/moratoria.geojson is current
+.venv/bin/python scripts/check_docs_numbers.py
+Data as shipped:
+  rows           1291
+  in_force       1063
+  pending        77
+  past           151
+  states         47
+  verify_rows    301
+  geocoded       1289
+  bills          438
+  bills_typed    438
+  bills_enacted  84
+
+All 34 documented numbers match the data.
+.venv/bin/python scripts/build_index.py --check
+Data: 1291 instruments, 1063 in force, 77 pending, 47 states, 1289 geocoded, 438 bills
+
+index.html is already current.
+.venv/bin/python scripts/classify_sources.py --check
+Sources by decision:
+   1471  cited as news
+    960  never cited
+    723  government host
+    310  cited as a public record
+    214  not a public record
+     68  news or third-party host (reviewed)
+
+No private source text is tracked by git.

@@ -1,0 +1,5 @@
+# Published CSVs intentionally retain the existing CRLF interchange format.
+*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Evidence text retains the source parser's exact whitespace and hashed bytes.
+work/sources/** -whitespace

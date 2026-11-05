@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-11-05 — working refresh in progress (unreleased)
+
+The comprehensive refresh is underway. Five California extension observations and
+six Maine state-policy corrections have been applied after source review. Three
+California status checks remain unresolved. These working totals do not mean that
+every record has been freshly verified through November 5. The ballot-model pilot
+is still a review-stage dataset, not a completed ballot census or legal-effect map.
+
+| Measure | Working inventory |
+|---|---|
+| Moratoria in the list | **1291** |
+| In force (active or extended) | **1063** |
+| Proposed, not yet voted on | **77** |
+| Ended (replaced, expired, or rescinded) | **151** |
+| Rows we still want to confirm (`[VERIFY]`) | **301** |
+| States with at least one | **47** |
+
+Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
+are no published GitHub Releases. Historical references below to `v2026.07` retain
+their original wording but describe a working version label rather than a verified
+remote tag/release. The new release and hosted-copy updates remain pending.
+
 ## 2026-09-23 — every row rechecked, then checked four more ways
 
 This snapshot brings the tracker up to **September 23, 2026**. It is newer than

@@ -1,0 +1,237 @@
+{
+  "reference_date": "2026-11-05",
+  "completed_at_local": "2026-11-05T11:26:36.666385-05:00",
+  "model": "gpt-6.1-terra (requested; runtime model not independently introspected)",
+  "python": "3.14.9",
+  "python_executable": "/home/mjbommar/projects/bc/bc-modules/.venv/bin/python",
+  "bc_modules_git_revision": "f6187344c697334dbca3f037fd0a670a995f59c8",
+  "bc_modules_git_status": "clean at start",
+  "package_versions": {
+    "bc-web": "0.5.0",
+    "pydoll-python": "2.27.0",
+    "pydantic": "2.13.5"
+  },
+  "search_attempts": [
+    {
+      "n": 1,
+      "backend": "exa",
+      "query": "Peru Maine November 3 2026 Article 2 data center moratorium election results town warrant",
+      "ok": true,
+      "cost_usd": 0.007,
+      "hits": 10
+    },
+    {
+      "n": 2,
+      "backend": "serpapi",
+      "query": "Peru Maine November 3 2026 Article 2 moratorium election results warrant",
+      "ok": true,
+      "cost_usd": null,
+      "hits": 10
+    },
+    {
+      "n": 3,
+      "backend": "exa",
+      "query": "Wells Maine November 3 2026 Article 5 data center moratorium election results",
+      "ok": true,
+      "cost_usd": 0.007,
+      "hits": 10
+    },
+    {
+      "n": 4,
+      "backend": "serpapi",
+      "query": "Wells Maine November 3 2026 Article 5 data center moratorium results",
+      "ok": true,
+      "cost_usd": null,
+      "hits": 9
+    },
+    {
+      "n": 5,
+      "backend": "exa",
+      "query": "Wiscasset Maine November 3 2026 Question 2 data center election results town ballot",
+      "ok": true,
+      "cost_usd": 0.007,
+      "hits": 10
+    },
+    {
+      "n": 6,
+      "backend": "serpapi",
+      "query": "Wiscasset Maine November 3 2026 question 2 data center election results town ballot",
+      "ok": true,
+      "cost_usd": null,
+      "hits": 9
+    },
+    {
+      "n": 7,
+      "backend": "exa",
+      "query": "site:wiscasset.gov November 3 2026 town warrant question 2 data center moratorium",
+      "ok": true,
+      "cost_usd": 0.007,
+      "hits": 10
+    },
+    {
+      "n": 8,
+      "backend": "serpapi",
+      "query": "site:townofperumaine.org \"2026\" \"election\" results November moratorium",
+      "ok": true,
+      "cost_usd": null,
+      "hits": 2
+    }
+  ],
+  "fetch_attempts": [
+    {
+      "name": "wells-warrant",
+      "url": "https://wellstown.org/DocumentCenter/View/8514/November-3-2026-Special-Town-Meeting-Warrant?bidId=",
+      "status": 200,
+      "ok": true,
+      "engine": "curl_cffi",
+      "bytes": 388330,
+      "sha256": "44a827d74c282cf6e81164b182f55256f4dd8fd1583c1de2a1a1ee125fd4ebd2",
+      "artifact": "wells-warrant.private.pdf",
+      "error": null,
+      "final_url": "https://wellstown.org/DocumentCenter/View/8514/November-3-2026-Special-Town-Meeting-Warrant?bidId="
+    },
+    {
+      "name": "wells-results",
+      "url": "https://www.wellstown.org/DocumentCenter/View/8559/November-3-2026-Official-Election-Results?bidId=",
+      "status": 200,
+      "ok": true,
+      "engine": "curl_cffi",
+      "bytes": 469098,
+      "sha256": "5f5e3d76054063a7fdcf7a2505bf4698aeac074c0ad18b5354abed45258d1d95",
+      "artifact": "wells-results.private.pdf",
+      "error": null,
+      "final_url": "https://www.wellstown.org/DocumentCenter/View/8559/November-3-2026-Official-Election-Results?bidId="
+    },
+    {
+      "name": "wells-ordinance",
+      "url": "https://www.wellstown.org/AgendaCenter/ViewFile/Item/6565?fileID=16871",
+      "status": 200,
+      "ok": true,
+      "engine": "curl_cffi",
+      "bytes": 205029,
+      "sha256": "2a3f1bfa9a6931a2d6babfbf8c1f80f3ae05f9c0a596844e746420645b63011a",
+      "artifact": "wells-ordinance.private.pdf",
+      "error": null,
+      "final_url": "https://www.wellstown.org/AgendaCenter/ViewFile/Item/6565?fileID=16871"
+    },
+    {
+      "name": "peru-town",
+      "url": "https://townofperumaine.org/temporary-moratorium-of-the-development-and-permitting-of-data-centers-to-be-on-the-november-2026-ballot/",
+      "status": 200,
+      "ok": true,
+      "engine": "curl_cffi",
+      "bytes": 156597,
+      "sha256": "946e250e41a1f04a8a5c43eb744fcf1982cfdd694b5daa7b755c18d1d964e34c",
+      "artifact": "peru-town.private.html",
+      "error": null,
+      "final_url": "https://townofperumaine.org/temporary-moratorium-of-the-development-and-permitting-of-data-centers-to-be-on-the-november-2026-ballot/"
+    },
+    {
+      "name": "peru-elections",
+      "url": "https://townofperumaine.org/category/elections/",
+      "status": 200,
+      "ok": true,
+      "engine": "curl_cffi",
+      "bytes": 158287,
+      "sha256": "57a159a3db84e17b9d1d6d1c02c32a86674a54fd426656996a2d4914f0c4244a",
+      "artifact": "peru-elections.private.html",
+      "error": null,
+      "final_url": "https://townofperumaine.org/category/elections/"
+    },
+    {
+      "name": "wiscasset-results",
+      "url": "https://www.wiscasset.gov/m/newsflash/Home/Detail/211",
+      "status": 200,
+      "ok": true,
+      "engine": "pydoll",
+      "bytes": 114430,
+      "sha256": "ec882047290849c14230e55c12969e4d0daf4bf9518c64242ffa7aa49a2154a9",
+      "artifact": "wiscasset-results.private.html",
+      "error": null,
+      "final_url": "https://www.wiscasset.gov/m/newsflash/Home/Detail/211"
+    },
+    {
+      "name": "wiscasset-ballotpedia",
+      "url": "https://ballotpedia.org/Wiscasset,_Maine,_Question_2,_Data_Center_Moratorium_Measure_(November_2026)",
+      "status": 202,
+      "ok": false,
+      "engine": "curl_cffi",
+      "bytes": 2039,
+      "sha256": "bd456c10f7137c07a8cce1dc5bbeccce76b81bf6969c5a2c8f586ec67a0fd921",
+      "artifact": "wiscasset-ballotpedia.private.html",
+      "error": "challenge: aws_waf challenge",
+      "final_url": "https://ballotpedia.org/Wiscasset,_Maine,_Question_2,_Data_Center_Moratorium_Measure_(November_2026)"
+    },
+    {
+      "name": "peru-ballotpedia",
+      "url": "https://ballotpedia.org/Peru,_Maine,_Article_2,_Moratorium_on_Data_Center_Development_and_Permitting_Measure_(November_2026)",
+      "status": 202,
+      "ok": false,
+      "engine": "curl_cffi",
+      "bytes": 2039,
+      "sha256": "4ac3ee72ae9a9242537cd86500f94b81228cbb425cf044942d68408633a35939",
+      "artifact": "peru-ballotpedia.private.html",
+      "error": "challenge: aws_waf challenge",
+      "final_url": "https://ballotpedia.org/Peru,_Maine,_Article_2,_Moratorium_on_Data_Center_Development_and_Permitting_Measure_(November_2026)"
+    },
+    {
+      "name": "peru-ordinance",
+      "url": "https://townofperumaine.org/wp-content/uploads/2026/09/Temporary-Moratorium-of-the-Development-and-Permitting-of-Data-Centers.pdf",
+      "status": 200,
+      "ok": true,
+      "engine": "curl_cffi",
+      "bytes": 55272,
+      "sha256": "623ff9149e67c5e2c022022b21573a1655f686f76ec683c5725d88c3bab68bd2",
+      "artifact": "peru-ordinance.private.pdf",
+      "error": null,
+      "final_url": "https://townofperumaine.org/wp-content/uploads/2026/09/Temporary-Moratorium-of-the-Development-and-Permitting-of-Data-Centers.pdf"
+    },
+    {
+      "name": "wiscasset-guide",
+      "url": "https://www.wiscasset.gov/DocumentCenter/View/1735/Special-Town-Meeting-Voter-Guide---November-3-2026",
+      "status": 200,
+      "ok": true,
+      "engine": "curl_cffi",
+      "bytes": 58663,
+      "sha256": "4ac4384a885beda21d5f435effe3663b395e3e855217306df70a4b24d7c191bb",
+      "artifact": "wiscasset-guide.private.pdf",
+      "error": null,
+      "final_url": "https://www.wiscasset.gov/DocumentCenter/View/1735/Special-Town-Meeting-Voter-Guide---November-3-2026"
+    },
+    {
+      "name": "peru-news",
+      "url": "https://www.sunjournal.com/2026/11/03/peru-backs-food-sovereignty-data-center-ballot-questions/",
+      "status": 200,
+      "ok": true,
+      "engine": "curl_cffi",
+      "bytes": 226493,
+      "sha256": "f1f5d56a649a56e52cb1781795833efe91889d39bcfa9b40a13921093de76f9e",
+      "artifact": "peru-news.private.html",
+      "error": null,
+      "final_url": "https://www.sunjournal.com/2026/11/03/peru-backs-food-sovereignty-data-center-ballot-questions/"
+    }
+  ],
+  "call_counts": {
+    "search": 8,
+    "serpapi": 4,
+    "fetch": 11
+  },
+  "costs": {
+    "exa_reported_usd": 0.028,
+    "serpapi_cost_usd": null,
+    "note": "SerpAPI returned no price for four successful searches; actual charges unknown. Failed or transport calls may also incur charges. No model API calls."
+  },
+  "failures": [
+    "Ballotpedia Peru and Wiscasset HTTP 202 AWS WAF challenge",
+    "Wells results and Peru ordinance scanned; OCR used; Wells relevant totals visually checked",
+    "Wiscasset exact ballot and full ordinance, Peru official results and certification not located"
+  ],
+  "outputs": [
+    "candidates.jsonl",
+    "report.md",
+    "run.json",
+    "*.private.* evidence and search results",
+    "collection scripts"
+  ],
+  "rights": "All fetched bodies, extracted text, page images, and provider results retained privately pending classification."
+}

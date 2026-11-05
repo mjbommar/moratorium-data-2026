@@ -1,0 +1,197 @@
+{
+  "state_abbrev": "ME",
+  "researched_as_of": "2026-11-05",
+  "researcher": "gpt-6.1-terra Codex CLI",
+  "decisions": [
+    {
+      "bill_key": "ME:LD 1259 / SP 380, 125th Legislature",
+      "outcome": "corrected",
+      "fields": {
+        "policy_mechanism": "incentive_support",
+        "scope_of_action": "fiscal",
+        "primary_source_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=1259&snum=125",
+        "key_provisions": "Proposed a sales tax refund or exemption for eligible computer data center purchases, subject to job and other eligibility requirements; the bill failed."
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=1259&snum=125",
+          "source_type": "legislature_bill_page",
+          "supports": "Official bill identity, disposition, committee and amendment history as applicable.",
+          "title": "LD 1259 bill history",
+          "quote": "Documents and DispositionLD 1259, SP 380Printed Document PDF Quick"
+        },
+        {
+          "url": "https://legislature.maine.gov/legis/bills/bills_125th/billtexts/SP038001.asp",
+          "source_type": "bill_text",
+          "supports": "Proposed sales tax refund or exemption and job requirements.",
+          "title": "LD 1259 introduced text",
+          "quote": "An Act To Encourage Computer Data Center Development"
+        }
+      ],
+      "notes": "Incentive proposal, not a statewide moratorium; last recorded disposition is final. Coordinator correction: incentive_support is now an explicit vocabulary value; creation of tax relief is not an incentive restriction."
+    },
+    {
+      "bill_key": "ME:LD 1722 / HP 1202, 128th Legislature",
+      "outcome": "corrected",
+      "fields": {
+        "policy_mechanism": "incentive_support",
+        "scope_of_action": "fiscal",
+        "primary_source_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=1722&snum=128",
+        "key_provisions": "Proposed a sales tax refund or exemption for eligible computer data center purchases, subject to job and other eligibility requirements; the bill failed."
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=1722&snum=128",
+          "source_type": "legislature_bill_page",
+          "supports": "Official bill identity, disposition, committee and amendment history as applicable.",
+          "title": "LD 1722 bill history",
+          "quote": "Documents and DispositionLD 1722, HP 1202Printed Document PDF Quick"
+        },
+        {
+          "url": "https://legislature.maine.gov/legis/bills/bills_128th/billtexts/HP120201.asp",
+          "source_type": "bill_text",
+          "supports": "Indexed official bill text in search artifact describes the proposed tax incentive.",
+          "title": "LD 1722 introduced text",
+          "quote": "An Act To Encourage Computer Data Center Development by Providing a Sales Tax Refund or Exemption"
+        }
+      ],
+      "notes": "Incentive proposal, not a statewide moratorium; introduced text obtained in Exa search artifact, not separately fetched. Coordinator correction: incentive_support is now an explicit vocabulary value; creation of tax relief is not an incentive restriction."
+    },
+    {
+      "bill_key": "ME:LD 192 / HP 169, 125th Legislature",
+      "outcome": "corrected",
+      "fields": {
+        "policy_mechanism": "other",
+        "scope_of_action": "statewide",
+        "primary_source_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=192&snum=125",
+        "key_provisions": "Concept draft proposed a program to encourage a renewable-energy-powered data center; it did not enact a moratorium."
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=192&snum=125",
+          "source_type": "legislature_bill_page",
+          "supports": "Official bill identity, disposition, committee and amendment history as applicable.",
+          "title": "LD 192 bill history",
+          "quote": "Documents and DispositionLD 192, HP 169Document PDF Quick"
+        },
+        {
+          "url": "https://legislature.maine.gov/legis/bills/bills_125th/billtexts/HP016901.asp",
+          "source_type": "bill_text",
+          "supports": "Concept draft proposes an encouragement program.",
+          "title": "LD 192 introduced text",
+          "quote": "First Regular Session - 125th Maine Legislature"
+        }
+      ],
+      "notes": "Concept draft with no detailed enacted restriction."
+    },
+    {
+      "bill_key": "ME:LD 307 / HP 207, 132nd Legislature",
+      "outcome": "corrected",
+      "fields": {
+        "policy_mechanism": "statewide_moratorium",
+        "scope_of_action": "mixed",
+        "primary_source_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=307&snum=132"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=307&snum=132",
+          "source_type": "legislature_bill_page",
+          "supports": "Official bill identity, disposition, committee and amendment history as applicable.",
+          "title": "LD 307 bill history",
+          "quote": "Referred to Committee on Energy, Utilities and Technology on Jan 30, 2025."
+        },
+        {
+          "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?paper=HP0207&SessionID=16",
+          "source_type": "legislature_bill_page",
+          "supports": "House veto override vote 72–65; veto sustained and bill dead on April 29, 2026.",
+          "title": "LD 307 chamber summary",
+          "quote": "Reference Committee Energy, Utilities and Technology"
+        },
+        {
+          "url": "https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0207&item=14&snum=132",
+          "source_type": "bill_text",
+          "supports": "Adopted H-1051 adjusts funding for council facilitation.",
+          "title": "LD 307 H-1051",
+          "quote": "34 Department of Energy Resources, to provide an amount not to exceed $100,000 to the"
+        }
+      ],
+      "notes": "C-A H-881 and H-B H-1051 adopted; H-1051 funding amendment fetched, underlying C-A text not separately acquired. Threshold and deadline in prior row remain to be independently checked against C-A. Failed bill cannot create current moratorium."
+    },
+    {
+      "bill_key": "ME:LD 713 / HP 452, 132nd Legislature; Public Law 2026, c. 768",
+      "outcome": "corrected",
+      "fields": {
+        "policy_mechanism": "incentive_restriction",
+        "scope_of_action": "fiscal",
+        "primary_source_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=713&snum=132",
+        "key_provisions": "Public Law 2025, chapter 768 excludes property in data centers beginning operations on or after August 1, 2026 from the business equipment exemption; excludes data-center services from the Dirigo eligible-sector definition and separately excludes data-center businesses beginning operations on or after that date; directs an incentives study and report due November 4, 2026.",
+        "status": "Signed by Governor 2026-04-23; official chapter citation Public Law 2025, c. 768 (132nd Legislature, enacted in 2026)."
+      },
+      "confidence": 0.86,
+      "evidence": [
+        {
+          "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=713&snum=132",
+          "source_type": "legislature_bill_page",
+          "supports": "Official bill identity, disposition, committee and amendment history as applicable.",
+          "title": "LD 713 bill history",
+          "quote": "Referred to Committee on Taxation on Feb 20, 2025."
+        },
+        {
+          "url": "https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0452&item=5&snum=132",
+          "source_type": "bill_text",
+          "supports": "Approved chapter text sets out distinct business equipment and Dirigo exclusions and study deadline.",
+          "title": "Public Law 2025 chapter 768",
+          "quote": "An Act to Exclude Data Centers from the Business Equipment Tax"
+        },
+        {
+          "url": "https://legislature.maine.gov/statutes/36/title36sec691.html",
+          "source_type": "other",
+          "supports": "Codified business-equipment exclusion, page data extracted October 5, 2026.",
+          "title": "Title 36 section 691",
+          "quote": "1. Definitions. As used in this subchapter, unless the context otherwise indicates, the following terms have the following meanings."
+        }
+      ],
+      "notes": "Chapter is conventionally Public Law 2025, c. 768, though approved in 2026; bill identity retained verbatim. Title 36 page extracted October 5; later repeal or changes, Dirigo codification, effective date and study submission as of November 5 remain unverified. Chamber-summary endpoint returned an unrelated LD 713 record and was not relied upon. Historical display bill label retains its stable matching key pending alias migration; official citation is stated in status and provisions."
+    },
+    {
+      "bill_key": "ME:LD 912 / SP 402, 132nd Legislature; Public Law 2025, c. 85",
+      "outcome": "corrected",
+      "fields": {
+        "policy_mechanism": "utility_large_load_restriction",
+        "scope_of_action": "utility_grid",
+        "primary_source_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=912&snum=132",
+        "effective_date_iso": "2025-05-23"
+      },
+      "confidence": 0.86,
+      "evidence": [
+        {
+          "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=912&snum=132",
+          "source_type": "legislature_bill_page",
+          "supports": "Official bill identity, disposition, committee and amendment history as applicable.",
+          "title": "LD 912 bill history",
+          "quote": "Referred to Committee on Energy, Utilities and Technology on Mar 5, 2025."
+        },
+        {
+          "url": "https://legislature.maine.gov/legis/bills/getPDF.asp?paper=SP0402&item=3&snum=132",
+          "source_type": "bill_text",
+          "supports": "Emergency chapter approved May 23, 2025, effective on approval; creates a geographically specific exception and data-center threshold.",
+          "title": "Public Law 2025 chapter 85",
+          "quote": "An Act to Limit the Amount of Electricity That May Be Provided to Data"
+        },
+        {
+          "url": "https://legislature.maine.gov/statutes/35-A/title35-Asec102.html",
+          "source_type": "other",
+          "supports": "Codifies threshold provision; page data extracted October 5, 2026.",
+          "title": "Title 35-A section 102",
+          "quote": "As used in this Title, unless the context otherwise indicates, the following terms have the following meanings. [PL 1987, c. 141, Pt. A, §6 (NEW).]"
+        }
+      ],
+      "notes": "Emergency effective on approval. October 5 statute extraction corroborates text but does not rule out subsequent change through November 5; current legal_effect_status remains unknown."
+    }
+  ],
+  "new_bills": []
+}

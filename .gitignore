@@ -22,3 +22,21 @@ work/sources/**/*.html
 work/sources/**/*.pdf
 work/sources/**/*.png
 work/sources/**/*.bin
+
+# Refresh worker raw logs and unclassified provider/source payloads.
+work/job-runs/
+work/research/**/*.private*
+# Worker OCR/conversion helpers may choose ordinary filenames; no raw research
+# text, document, image or HTML body is public until imported/classified.
+work/research/**/*.txt
+work/research/**/*.pdf
+work/research/**/*.png
+work/research/**/*.html
+work/research/**/*.body
+work/research/**/*.bin
+
+work/research/2026-11-05/full
+
+work/jobs/2026-11-05-full/
+
+work/jobs/2026-11-05-discovery/

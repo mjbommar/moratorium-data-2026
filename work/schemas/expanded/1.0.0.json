@@ -1,0 +1,1614 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mjbommar/moratorium-data-2026/work/schemas/expanded/1.0.0.json",
+  "title": "Expanded research records 1.0.0",
+  "description": "Each JSONL record validates against the named table definition.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/jurisdictions"
+    },
+    {
+      "$ref": "#/$defs/elections"
+    },
+    {
+      "$ref": "#/$defs/ballot_measures"
+    },
+    {
+      "$ref": "#/$defs/measure_provisions"
+    },
+    {
+      "$ref": "#/$defs/measure_results"
+    },
+    {
+      "$ref": "#/$defs/local_restrictions"
+    },
+    {
+      "$ref": "#/$defs/instrument_events"
+    },
+    {
+      "$ref": "#/$defs/measure_instrument_links"
+    },
+    {
+      "$ref": "#/$defs/source_documents"
+    },
+    {
+      "$ref": "#/$defs/claims"
+    },
+    {
+      "$ref": "#/$defs/review_decisions"
+    },
+    {
+      "$ref": "#/$defs/search_runs"
+    },
+    {
+      "$ref": "#/$defs/search_attempts"
+    },
+    {
+      "$ref": "#/$defs/search_sightings"
+    },
+    {
+      "$ref": "#/$defs/coverage_observations"
+    }
+  ],
+  "$defs": {
+    "subject": {
+      "type": "object",
+      "properties": {
+        "table": {
+          "enum": [
+            "jurisdictions",
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results",
+            "local_restrictions",
+            "instrument_events",
+            "measure_instrument_links",
+            "claims"
+          ]
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "table",
+        "id"
+      ],
+      "additionalProperties": false
+    },
+    "instrument": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "moratorium",
+            "restriction",
+            "state_action"
+          ]
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "kind",
+        "id"
+      ],
+      "additionalProperties": false
+    },
+    "date_bounds": {
+      "type": "object",
+      "properties": {
+        "earliest": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "latest": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "precision": {
+          "enum": [
+            "day",
+            "month",
+            "year",
+            "range",
+            "unknown"
+          ]
+        },
+        "original_text": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "earliest",
+        "latest",
+        "precision",
+        "original_text"
+      ],
+      "additionalProperties": false
+    },
+    "threshold": {
+      "type": "object",
+      "properties": {
+        "operator": {
+          "enum": [
+            "lt",
+            "le",
+            "eq",
+            "ge",
+            "gt",
+            "unknown"
+          ]
+        },
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "unit": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "measurement_basis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "aggregation_rule": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "scope": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "operator",
+        "value",
+        "unit",
+        "measurement_basis",
+        "aggregation_rule",
+        "scope"
+      ],
+      "additionalProperties": false
+    },
+    "jurisdictions": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "jurisdiction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "state": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "government_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "county": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "authoritative_ids": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "boundary_reference": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "valid_from": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "valid_until": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
+      },
+      "required": [
+        "schema_version",
+        "jurisdiction_id",
+        "name",
+        "state",
+        "government_type",
+        "county",
+        "authoritative_ids",
+        "aliases",
+        "boundary_reference",
+        "valid_from",
+        "valid_until"
+      ],
+      "additionalProperties": false
+    },
+    "elections": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "election_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "jurisdiction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "election_date": {
+          "$ref": "#/$defs/date_bounds"
+        },
+        "administering_authority": {
+          "type": "string",
+          "minLength": 1
+        },
+        "election_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "official_result_urls": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schema_version",
+        "election_id",
+        "jurisdiction_id",
+        "election_date",
+        "administering_authority",
+        "election_type",
+        "official_result_urls"
+      ],
+      "additionalProperties": false
+    },
+    "ballot_measures": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "measure_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "jurisdiction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "election_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "designation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "wording": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "placement_method": {
+          "enum": [
+            "citizen_initiative",
+            "citizen_referendum",
+            "governing_body_referral",
+            "town_meeting_article",
+            "other",
+            "unknown"
+          ]
+        },
+        "placement_source_term": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "legal_basis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "lifecycle": {
+          "enum": [
+            "petition_announced",
+            "collecting_signatures",
+            "submitted",
+            "qualified",
+            "scheduled",
+            "withdrawn",
+            "disqualified",
+            "litigated",
+            "voted",
+            "canceled",
+            "unknown"
+          ]
+        },
+        "bindingness": {
+          "enum": [
+            "binding",
+            "advisory",
+            "mixed",
+            "unresolved"
+          ]
+        },
+        "sectors": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "data_center",
+              "battery_storage",
+              "solar",
+              "wind",
+              "cryptocurrency_mining",
+              "general"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "yes_direction": {
+          "enum": [
+            "restricts",
+            "facilitates",
+            "mixed",
+            "neutral_procedural",
+            "unresolved"
+          ]
+        },
+        "referendum_yes_effect": {
+          "enum": [
+            "upholds",
+            "repeals",
+            "not_applicable",
+            "unresolved"
+          ]
+        },
+        "scope_note": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "measure_id",
+        "jurisdiction_id",
+        "election_id",
+        "designation",
+        "wording",
+        "title",
+        "placement_method",
+        "lifecycle",
+        "bindingness",
+        "sectors",
+        "yes_direction",
+        "referendum_yes_effect"
+      ],
+      "additionalProperties": false
+    },
+    "measure_provisions": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "provision_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "measure_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mechanism": {
+          "enum": [
+            "temporary_permitting_pause",
+            "permanent_prohibition",
+            "time_limited_ban",
+            "size_resource_limit",
+            "voter_approval_requirement",
+            "financial_guarantee",
+            "zoning_change",
+            "rezoning_reversal",
+            "development_agreement_approval",
+            "development_agreement_reversal",
+            "financing_tax_authorization",
+            "advisory_support",
+            "advisory_opposition",
+            "other",
+            "unresolved"
+          ]
+        },
+        "bindingness": {
+          "enum": [
+            "binding",
+            "advisory",
+            "mixed",
+            "unresolved"
+          ]
+        },
+        "covered_uses": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "thresholds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/threshold"
+          }
+        },
+        "exemptions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "geography": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "implementation_requirements": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "duration": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/calendar_duration"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "provision_id",
+        "measure_id",
+        "mechanism",
+        "bindingness",
+        "covered_uses",
+        "thresholds",
+        "exemptions",
+        "geography",
+        "implementation_requirements",
+        "claim_ids"
+      ],
+      "additionalProperties": false
+    },
+    "measure_results": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "result_observation_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "measure_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_document_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "published_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "yes_votes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "no_votes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "other_votes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "valid_votes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "ballots_cast": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "registered_voters": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "undervotes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "overvotes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "precincts_reporting": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "precincts_total": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "source_yes_percent": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "percentage_denominator": {
+          "enum": [
+            "valid_votes",
+            "ballots_cast",
+            "registered_voters",
+            "unknown"
+          ]
+        },
+        "passage_threshold": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "threshold_comparison": {
+          "enum": [
+            "greater_than",
+            "at_least",
+            "unknown"
+          ]
+        },
+        "reported_outcome": {
+          "enum": [
+            "approved",
+            "defeated",
+            "tied",
+            "pending",
+            "unknown"
+          ]
+        },
+        "calculated_outcome": {
+          "enum": [
+            "approved",
+            "defeated",
+            "tied",
+            "unknown"
+          ]
+        },
+        "outcome_direction": {
+          "enum": [
+            "restricts",
+            "facilitates",
+            "mixed",
+            "neutral_procedural",
+            "unresolved"
+          ]
+        },
+        "reporting_status": {
+          "enum": [
+            "partial",
+            "complete",
+            "unknown"
+          ]
+        },
+        "certification_status": {
+          "enum": [
+            "unofficial",
+            "certified",
+            "recount_pending",
+            "amended_certification",
+            "unknown"
+          ]
+        },
+        "certification_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "supersedes_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "blank_votes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "yes_no_votes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "value_methods": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "method",
+              "claim_ids",
+              "note"
+            ],
+            "properties": {
+              "method": {
+                "enum": [
+                  "text",
+                  "ocr",
+                  "visual",
+                  "source_reported",
+                  "derived",
+                  "unknown"
+                ]
+              },
+              "claim_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              },
+              "note": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "schema_version",
+        "result_observation_id",
+        "measure_id",
+        "source_document_id",
+        "observed_at",
+        "yes_votes",
+        "no_votes",
+        "other_votes",
+        "valid_votes",
+        "ballots_cast",
+        "registered_voters",
+        "undervotes",
+        "overvotes",
+        "precincts_reporting",
+        "precincts_total",
+        "source_yes_percent",
+        "percentage_denominator",
+        "passage_threshold",
+        "threshold_comparison",
+        "reported_outcome",
+        "calculated_outcome",
+        "outcome_direction",
+        "reporting_status",
+        "certification_status",
+        "certification_date",
+        "supersedes_id"
+      ],
+      "additionalProperties": false
+    },
+    "local_restrictions": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "restriction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "jurisdiction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "proposed",
+            "in_force",
+            "expired",
+            "repealed",
+            "superseded",
+            "unknown"
+          ]
+        },
+        "provisions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "adoption": {
+          "$ref": "#/$defs/date_bounds"
+        },
+        "effective": {
+          "$ref": "#/$defs/date_bounds"
+        },
+        "applicability_start": {
+          "$ref": "#/$defs/date_bounds"
+        },
+        "retroactivity_explanation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "end": {
+          "$ref": "#/$defs/date_bounds"
+        },
+        "duration_original": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "duration": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/calendar_duration"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "restriction_id",
+        "jurisdiction_id",
+        "title",
+        "status",
+        "provisions",
+        "adoption",
+        "effective",
+        "applicability_start",
+        "retroactivity_explanation",
+        "end",
+        "duration_original",
+        "claim_ids"
+      ],
+      "additionalProperties": false
+    },
+    "instrument_events": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "event_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "instrument": {
+          "$ref": "#/$defs/instrument"
+        },
+        "action": {
+          "type": "string",
+          "minLength": 1
+        },
+        "occurrence": {
+          "$ref": "#/$defs/date_bounds"
+        },
+        "observed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "published_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schema_version",
+        "event_id",
+        "instrument",
+        "action",
+        "occurrence",
+        "observed_at",
+        "published_at",
+        "claim_ids"
+      ],
+      "additionalProperties": false
+    },
+    "measure_instrument_links": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "link_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "measure_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "instrument": {
+          "$ref": "#/$defs/instrument"
+        },
+        "relation": {
+          "enum": [
+            "enacts",
+            "proposes",
+            "advises",
+            "upholds",
+            "repeals",
+            "amends",
+            "conditions",
+            "requires_implementation",
+            "succeeds_prior_pause"
+          ]
+        },
+        "provision_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "review_status": {
+          "enum": [
+            "accepted",
+            "rejected",
+            "unresolved"
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "link_id",
+        "measure_id",
+        "instrument",
+        "relation",
+        "provision_ids",
+        "claim_ids",
+        "review_status"
+      ],
+      "additionalProperties": false
+    },
+    "source_documents": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "source_document_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "body_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "text_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "published_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "retrieval_method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "extraction_version": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "access_classification": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publication_classification": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "source_document_id",
+        "url",
+        "body_sha256",
+        "text_sha256",
+        "retrieved_at",
+        "published_date",
+        "retrieval_method",
+        "extraction_version",
+        "access_classification",
+        "publication_classification"
+      ],
+      "additionalProperties": false
+    },
+    "claims": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "claim_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subject": {
+          "$ref": "#/$defs/subject"
+        },
+        "predicate": {
+          "type": "string",
+          "minLength": 1
+        },
+        "value": {},
+        "source_document_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "quote": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "span": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "temporal_support": {
+          "$ref": "#/$defs/date_bounds"
+        },
+        "extraction_provenance": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "claim_id",
+        "subject",
+        "predicate",
+        "value",
+        "source_document_id",
+        "quote",
+        "span",
+        "temporal_support",
+        "extraction_provenance"
+      ],
+      "additionalProperties": false
+    },
+    "review_decisions": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "decision_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target": {
+          "$ref": "#/$defs/subject"
+        },
+        "disposition": {
+          "enum": [
+            "accepted",
+            "rejected",
+            "unresolved"
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decided_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "supersedes_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "decision_id",
+        "target",
+        "disposition",
+        "scope",
+        "claim_ids",
+        "reviewer",
+        "method",
+        "rationale",
+        "decided_at",
+        "supersedes_id"
+      ],
+      "additionalProperties": false
+    },
+    "search_runs": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "run_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "started_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "ended_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "search_space_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sampling_seed": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tool_versions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "schema_version",
+        "run_id",
+        "started_at",
+        "ended_at",
+        "search_space_version",
+        "sampling_seed",
+        "scope",
+        "tool_versions"
+      ],
+      "additionalProperties": false
+    },
+    "search_attempts": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "attempt_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "run_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "query_cell": {
+          "type": "string",
+          "minLength": 1
+        },
+        "backend": {
+          "type": "string",
+          "minLength": 1
+        },
+        "query": {
+          "type": "string",
+          "minLength": 1
+        },
+        "started_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "window_start": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "window_end": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "response_reference": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "error": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "spend": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "currency": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "retry_of": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "outcome": {
+          "enum": [
+            "success",
+            "error",
+            "partial",
+            "interrupted"
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "attempt_id",
+        "run_id",
+        "query_cell",
+        "backend",
+        "query",
+        "started_at",
+        "window_start",
+        "window_end",
+        "response_reference",
+        "error",
+        "spend",
+        "currency",
+        "retry_of",
+        "outcome"
+      ],
+      "additionalProperties": false
+    },
+    "search_sightings": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "sighting_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "attempt_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rank": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "seen_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "source_document_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "sighting_id",
+        "attempt_id",
+        "rank",
+        "url",
+        "seen_at",
+        "source_document_id"
+      ],
+      "additionalProperties": false
+    },
+    "coverage_observations": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "coverage_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "run_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "jurisdiction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sector": {
+          "enum": [
+            "data_center",
+            "battery_storage",
+            "solar",
+            "wind",
+            "cryptocurrency_mining",
+            "general"
+          ]
+        },
+        "period_start": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "period_end": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "intent": {
+          "type": "string",
+          "minLength": 1
+        },
+        "endpoints_checked": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "completeness": {
+          "enum": [
+            "complete_bounded",
+            "partial",
+            "not_started",
+            "unknown"
+          ]
+        },
+        "remaining_gaps": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schema_version",
+        "coverage_id",
+        "run_id",
+        "jurisdiction_id",
+        "sector",
+        "period_start",
+        "period_end",
+        "intent",
+        "endpoints_checked",
+        "completeness",
+        "remaining_gaps"
+      ],
+      "additionalProperties": false
+    },
+    "calendar_duration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "unit",
+        "anchor",
+        "anchor_date",
+        "original_text"
+      ],
+      "properties": {
+        "value": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "unit": {
+          "enum": [
+            "days",
+            "calendar_months",
+            "calendar_years",
+            "unknown"
+          ]
+        },
+        "anchor": {
+          "enum": [
+            "adoption",
+            "effective_date",
+            "applicability_date",
+            "specified_date",
+            "unknown"
+          ]
+        },
+        "anchor_date": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/date_bounds"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "original_text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
