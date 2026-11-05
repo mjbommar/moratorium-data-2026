@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Marcellus’s tracker-based active classification is corrected to rescinded using the municipal code publisher’s adopted August 5 termination index and linked resolution; blank vote fields and exact effectiveness remain flagged. Oneonta’s indexed May 13 adoption and state-filing condition replace the May 15 operative-start claim and stale pending jurisdiction label. These corrections do not establish complete later legal-force histories.
+
 Four New York scope/term corrections preserve East Fishkill’s alternative ancillary-use/special-permit exceptions, Stockport’s conflicting term anchors, Southold’s news-qualified calendar term and Spafford’s secondary-reported term. Spafford’s BESS act is kept distinct from its data-center law; original text, filing and later force remain unresolved.
 
 Six New York corrections distinguish Peekskill’s historical six-month extension from current force, correct Perth’s reported chronology, retain Potsdam as a proposal with an unobserved November 5 hearing outcome, identify Prattsburgh’s adopted nine-month extension and Rose’s May 20, 2025 adoption, and correct Schroeppel’s one-year calendar term. Filing, intervening acts and later force remain unresolved.
@@ -75,10 +77,10 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1293** |
-| In force (active or extended) | **1069** |
+| In force (active or extended) | **1068** |
 | Pending or not yet effective | **71** |
-| Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **499** |
+| Ended (replaced, expired, or rescinded) | **154** |
+| Rows we still want to confirm (`[VERIFY]`) | **501** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

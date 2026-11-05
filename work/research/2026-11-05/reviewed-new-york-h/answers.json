@@ -1,0 +1,126 @@
+{
+  "state_abbrev": "NY",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra return",
+  "decisions": [
+    {
+      "moratorium_id": "ny-town-of-marcellus-2026",
+      "outcome": "status_changed",
+      "evidence": [
+        {
+          "url": "https://ecode360.com/MA3903/laws",
+          "source_type": "other",
+          "supports": "Municipal code publisher indexes the termination under adopted legislation.",
+          "quote": "Terminating Moratorium on Battery Storage Systems - 2026-08-05 pdf\n\n2026-08-05"
+        },
+        {
+          "url": "https://ecode360.com/MA3903/laws/LF2776948.pdf",
+          "source_type": "resolution",
+          "supports": "Text of termination; names and yes/no votes are blank in this copy.",
+          "quote": "Town Board hereby enacts this resolution terminating the moratorium",
+          "document_date": "2026-08-05"
+        },
+        {
+          "url": "https://ecode360.com/MA3903/laws/LF2715500.pdf",
+          "source_type": "ordinance",
+          "supports": "Adopted law defines a calendar-month term.",
+          "quote": "This moratorium shall be in effect for a period of twelve ( 12) months from the",
+          "document_date": "2026-05-06"
+        }
+      ],
+      "notes": "The code index labels the August 5 termination as adopted. The linked resolution copy has blank mover, seconder and vote fields; actual vote and executed copy remain unverified. No separate effective date is asserted.",
+      "new_enacted_status": "rescinded",
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "rescinded",
+          "reason": "Municipal code index lists adopted termination."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. A tracker (Carina Energy) independently reports the Town of Marcellus enacted an ALL_BESS moratorium in May 2026 running through May 2027, consistent with adoption at the May 6, 2026 meeting following the April 15, 2026 public hearing.",
+          "to": "The municipal code publisher lists August 5, 2026 termination of the BESS moratorium in its adopted-legislation index. The linked resolution identifies Local Law 1 of 2026 and says it terminates the moratorium, but mover/seconder and vote fields are blank. Legacy status is corrected to rescinded on this published-index evidence; executed vote record, precise effective date and later acts remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Distinguish published adopted-legislation evidence from executed vote detail, filing and later force."
+        },
+        "legal_basis": {
+          "from": "Local Law No. A of 2026, A Local Law Imposing a Twelve (12) Month Moratorium on Battery Energy Storage Systems within the Town of Marcellus",
+          "to": "Local Law No. 1 of 2026 imposed a twelve-month battery energy storage moratorium; a resolution indexed as adopted 2026-08-05 terminated it.",
+          "reason": "Adopted law and termination identify Local Law No. 1."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The law describes twelve months, subject to early termination."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The reviewed law states a calendar term rather than a fixed day count."
+        }
+      },
+      "confidence": 0.65
+    },
+    {
+      "moratorium_id": "ny-oneonta-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://ecode360.com/ON0907/laws",
+          "source_type": "other",
+          "supports": "Municipal code publisher dates adoption of the moratorium law.",
+          "quote": "L.L. No. 3-2026 pdf\n\n2026-05-13\n\nMoratorium (NCM)"
+        },
+        {
+          "url": "https://ecode360.com/ON0907/laws/LF2815385.pdf",
+          "source_type": "ordinance",
+          "supports": "Filing, rather than the adoption date, anchors effect.",
+          "quote": "This Local Law shall take effect immediately upon filing with the NNew York Department ofState"
+        }
+      ],
+      "notes": "Index and filing identify May 13 adoption, not May 15. Filing image text does not reliably establish a complete filing date; do not infer present force or exact expiry.",
+      "changes": {
+        "date_enacted": {
+          "from": "Adopted 2026-05-15 by a unanimous Town Board vote.",
+          "to": "Adopted 2026-05-13, according to the municipal code publisher and local law filing.",
+          "reason": "The index and filing identify May 13."
+        },
+        "date_enacted_iso": {
+          "from": "2026-05-15",
+          "to": "2026-05-13",
+          "reason": "Municipal code index dates adoption May 13."
+        },
+        "current_status": {
+          "from": "Adopted; a 12-month moratorium has been in effect since 2026-05-15 on the development, construction, and operation of data centers and commercial cryptocurrency mining operations.",
+          "to": "The municipal code publisher lists May 13, 2026 adoption of Local Law 3 of 2026 for data centers and commercial cryptomining. The retained law states effectiveness on state filing and a one-year term, subject to early repeal; filing date and later acts remain unverified. The prior May 15 operative-start assertion is not retained. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Distinguish published adopted-legislation evidence from executed vote detail, filing and later force."
+        },
+        "duration": {
+          "from": "Proposed 1 year",
+          "to": "One year from effective date, subject to earlier repeal.",
+          "reason": "Filed law states a one-year term."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The law states one year, not a fixed 365-day term."
+        },
+        "jurisdiction": {
+          "from": "Town of Oneonta (Otsego County) - proposed, pending",
+          "to": "Town of Oneonta (Otsego County)",
+          "reason": "The local law was adopted, so the proposed, pending label is stale."
+        },
+        "legal_basis": {
+          "from": "Proposed local law: \"Moratorium on the Development, Construction, and Operation of Data Centers and Commercial Cryptocurrency Mining Operations\"",
+          "to": "Local Law No. 3 of 2026, Moratorium on the Development, Construction, and Operation of Data Centers and Commercial Cryptocurrency Mining Operations.",
+          "reason": "Municipal code index and local law filing identify the adopted instrument."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The reviewed law states a calendar term rather than a fixed day count."
+        }
+      },
+      "confidence": 0.85
+    }
+  ],
+  "new_candidates": []
+}

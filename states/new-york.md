@@ -3,7 +3,7 @@
 
 Working inventory for New York, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**150 instruments** — 111 in force, 5 pending, 34 past.
+**150 instruments** — 110 in force, 5 pending, 35 past.
 
 State policy is tracked separately: **11 actions** (10 bills and 1 non-bill action) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -135,9 +135,9 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 | Town of Lewis (Lewis County) | Town | 2026-03-16 | solar, battery storage, wind | 🟢 Active |
 | Town of Lewiston (Niagara County) - proposed, public hearing held | Town | 2026-04-13 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Lysander (Onondaga County) - drafting authorized | Town | 2026-05-07 | data center | 🟢 Active |
-| Town of Marcellus | Town | 2026-05-06 | battery storage | 🟢 Active |
+| Town of Marcellus | Town | 2026-05-06 | battery storage | 🔴 Rescinded |
 | Town of Northampton | Town | 2026-03 | battery storage | 🟢 Active |
-| Town of Oneonta (Otsego County) - proposed, pending | Town | 2026-05-15 | data center, cryptocurrency mining | 🟢 Active |
+| Town of Oneonta (Otsego County) | Town | 2026-05-13 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Orangetown | Town | 2026-08-25 | battery storage, data center | 🟢 Active |
 | Town of Poughkeepsie | Town | 2024-02 | battery storage | ⚪ Replaced |
 | Town of Salina | Town | 2026-05-27 | data center, cryptocurrency mining | 🟢 Active |
@@ -2181,17 +2181,17 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 ### Town of Marcellus
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Status:** 🔴 Rescinded
 - **Date enacted:** Introduced March 18, 2026; public hearing held April 15, 2026; presented for adoption at the May 6, 2026 Town Board meeting
 - **Normalized date:** `2026-05-06` (exact)
 - **Duration:** Twelve months
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-town-of-marcellus-2026`
-- **Legal basis:** Local Law No. A of 2026, A Local Law Imposing a Twelve (12) Month Moratorium on Battery Energy Storage Systems within the Town of Marcellus
+- **Legal basis:** Local Law No. 1 of 2026 imposed a twelve-month battery energy storage moratorium; a resolution indexed as adopted 2026-08-05 terminated it.
 - **What prompted it:** Fire-safety concerns about lithium-ion battery storage systems, prompting the Town Board to commission research on hazards in coordination with the fire department
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. A tracker (Carina Energy) independently reports the Town of Marcellus enacted an ALL_BESS moratorium in May 2026 running through May 2027, consistent with adoption at the May 6, 2026 meeting following the April 15, 2026 public hearing.
+- **Detailed status:** The municipal code publisher lists August 5, 2026 termination of the BESS moratorium in its adopted-legislation index. The linked resolution identifies Local Law 1 of 2026 and says it terminates the moratorium, but mover/seconder and vote fields are blank. Legacy status is corrected to rescinded on this published-index evidence; executed vote record, precise effective date and later acts remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Twelve-month, town-wide moratorium on all battery energy storage systems
 
 ### Town of Northampton
@@ -2210,20 +2210,20 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** Active as of 2026-09-23. Adopted in March 2026 as a one-year, town-wide moratorium on new BESS construction/permits/approvals; extendable by Town Board resolution.
 - **Outcome:** One-year, town-wide moratorium on new BESS facilities
 
-### Town of Oneonta (Otsego County) - proposed, pending
+### Town of Oneonta (Otsego County)
 
 - **Type:** Town
 - **Status:** 🟢 Active
-- **Date enacted:** Adopted 2026-05-15 by a unanimous Town Board vote.
-- **Normalized date:** `2026-05-15` (exact)
-- **Duration:** Proposed 1 year
+- **Date enacted:** Adopted 2026-05-13, according to the municipal code publisher and local law filing.
+- **Normalized date:** `2026-05-13` (exact)
+- **Duration:** One year from effective date, subject to earlier repeal.
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `ny-oneonta-2026`
-- **Legal basis:** Proposed local law: "Moratorium on the Development, Construction, and Operation of Data Centers and Commercial Cryptocurrency Mining Operations"
+- **Legal basis:** Local Law No. 3 of 2026, Moratorium on the Development, Construction, and Operation of Data Centers and Commercial Cryptocurrency Mining Operations.
 - **What prompted it:** Eco-Yotta Inc. proposal associated with 357 County Road 9 and requested rezoning of about 150 acres of farmland, plus resident opposition
 - **Affected projects:** Eco-Yotta Inc. data center proposal at 357 County Road 9; MW not identified in captured records [CITE]
-- **Detailed status:** Adopted; a 12-month moratorium has been in effect since 2026-05-15 on the development, construction, and operation of data centers and commercial cryptocurrency mining operations.
+- **Detailed status:** The municipal code publisher lists May 13, 2026 adoption of Local Law 3 of 2026 for data centers and commercial cryptomining. The retained law states effectiveness on state filing and a one-year term, subject to early repeal; filing date and later acts remain unverified. The prior May 15 operative-start assertion is not retained. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Draft local law would stop town-level approvals and use of land or structures for data centers and commercial cryptocurrency mining during the moratorium, with exemptions for specified public, education, medical, and low-power uses.
 
 ### Town of Orangetown
