@@ -25,8 +25,8 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 | Brasher | Town | 2024 | battery storage | 🟢 Extended |
 | Buffalo | City | Unverified | data center, cryptocurrency mining | 🟡 Pending |
 | Busti | Town | 2024 | battery storage | 🟢 Active |
-| Byron | Town | 2026-04-09 | battery storage | 🟢 Extended |
-| Byron | Town | 2026-04-09 | solar | 🟢 Extended |
+| Byron | Town | 2026-04-08 | battery storage | 🟢 Extended |
+| Byron | Town | 2026-04-08 | solar | 🟢 Extended |
 | Cameron | Town | 2024-10 | battery storage, solar | 🟢 Active |
 | Camillus | Town | 2026-03-10 | battery storage | 🟢 Active |
 | Campbell | Town | Unverified | battery storage | 🟢 Active |
@@ -328,15 +328,15 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Status:** 🟢 Extended
 - **Date enacted:** 2025-05-06 (second Berne solar moratorium; the first was 2019)
 - **Normalized date:** `2025-05-06` (exact)
-- **Duration:** Originally one year; extended six months on 2026-03-11 (through 2026-11-06, adding a battery energy storage system ban); extended a further six months on 2026-09-09
+- **Duration:** Originally twelve months; March 11, 2026 Resolution No. 35 extended it through November 6, 2026. A further six-month extension was proposed in September 2026; adoption and filing have not been verified.
 - **Current end date:** `—`
 - **Sectors:** solar, battery storage
 - **Moratorium ID:** `ny-berne-2025`
-- **Legal basis:** Town of Berne moratorium on commercial solar facilities (extended to add battery energy storage systems on 2026-03-11)
+- **Legal basis:** Town of Berne Local Law No. 1 of 2025, covering solar energy and battery energy storage systems, extended by Resolution No. 35 of 2026.
 - **What prompted it:** A proposed 4.25 MW TJA Energy solar facility and a proposed 3.8 MW RIC Energy solar facility
 - **Affected projects:** TJA Energy's 4.25 MW solar proposal (Switzkill/Canaday Hill Roads); RIC Energy's 3.8 MW solar proposal (28 Jansen Lane)
-- **Detailed status:** Active as of 2026-09-23, extended for a further six months at the September 9, 2026 Town Board meeting (unanimous vote). Two board members (Casey Miller and Melanie LaCour) are drafting permanent solar/BESS legislation, not yet completed as of that meeting.
-- **Outcome:** Adopted, extended repeatedly
+- **Detailed status:** May 6, 2025 minutes adopt Local Law 1 of 2025 with solar and BESS scope. September 2026 minutes describe the March Resolution 35 extension through November 6 and a proposed further extension; October 14 draft minutes record a hearing. The claimed September further adoption, filing and later force are not established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** Adopted and extended; a further extension was proposed in 2026.
 
 ### Bethlehem
 
@@ -415,15 +415,15 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Local Law 3 of 2026 (extending prior commercial BESS moratorium)
 - **What prompted it:** Awaiting NYSERDA BESS safety working group final report; town amending land use regulations
 - **Affected projects:** —
-- **Detailed status:** ACTIVE as of 2026-09-23 -- CORRECTS the tracker claim (EXPIRED 2024-12-03). The Busti Town Board approved Local Law 3 of 2026 on 2026-07-13 (approx.), extending the commercial BESS moratorium through 2027-06-30, following an earlier extension reported June 2025.
+- **Detailed status:** July 1 reporting describes approval at the preceding Monday meeting, June 29, and identifies Local Law 3 of 2026 as extending the commercial BESS moratorium through June 30, 2027. The meeting date is inferred from the dated report; filed text, effectiveness and later action remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Commercial BESS moratorium, repeatedly extended; most recently through June 30, 2027.
 
 ### Byron
 
 - **Type:** Town
 - **Status:** 🟢 Extended
-- **Date enacted:** 2026-04-09 per The Batavian coverage of the April 9, 2026 public hearing and same-night unanimous Town Board vote
-- **Normalized date:** `2026-04-09` (exact)
+- **Date enacted:** 2026-04-08, reported as Wednesday in The Batavian article published April 9, 2026; both companion laws were adopted that evening.
+- **Normalized date:** `2026-04-08` (exact)
 - **Duration:** Six months, extendable; extended again by the Town Board on 2026-09-09
 - **Current end date:** `—`
 - **Sectors:** battery storage
@@ -431,15 +431,15 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Town of Byron local law imposing a temporary moratorium on battery energy storage system facilities (cited as Local Law #3 of 2026 in the 2026-09-09 extension hearing agenda)
 - **What prompted it:** Land use, fire safety, environmental and emergency-response concerns about commercial BESS facilities on farmland
 - **Affected projects:** No specific project named; preemptive pause on commercial BESS applications
-- **Detailed status:** Active as of 2026-09-23. Adopted 2026-04-09 for six months; the Town Board held a public hearing 2026-09-09 on Local Law #3 of 2026, an extension of the BESS moratorium, and a LinkedIn tracking post (Craig Sanders) confirms the extension was approved.
+- **Detailed status:** April 9 reporting describes unanimous approval on the preceding Wednesday, April 8, of companion BESS and renewable-energy moratorium laws. The September 9 agenda schedules proposed extension hearings; it is not an adoption record. Filing, effectiveness and actual extension disposition remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted, then extended
 
 ### Byron
 
 - **Type:** Town
 - **Status:** 🟢 Extended
-- **Date enacted:** 2026-04-09, companion local law adopted the same night as the BESS moratorium
-- **Normalized date:** `2026-04-09` (exact)
+- **Date enacted:** 2026-04-08, reported as Wednesday in The Batavian article published April 9, 2026; both companion laws were adopted that evening.
+- **Normalized date:** `2026-04-08` (exact)
 - **Duration:** Six months, extendable; extended again 2026-09-09
 - **Current end date:** `—`
 - **Sectors:** solar
@@ -447,7 +447,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Town of Byron local law imposing a temporary moratorium on renewable energy projects (cited as Local Law #2 of 2026 in the 2026-09-09 extension hearing agenda); applies to applications submitted after 2026-03-01
 - **What prompted it:** Town wanted time to review code and determine whether additional regulation of renewable energy projects was needed
 - **Affected projects:** No specific project named
-- **Detailed status:** Active as of 2026-09-23. Adopted 2026-04-09; extension hearing held 2026-09-09 (Local Law #2 of 2026).
+- **Detailed status:** April 9 reporting describes unanimous approval on the preceding Wednesday, April 8, of companion BESS and renewable-energy moratorium laws. The September 9 agenda schedules proposed extension hearings; it is not an adoption record. Filing, effectiveness and actual extension disposition remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted, then extended
 
 ### Cameron
@@ -476,10 +476,10 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-camillus-2026`
-- **Legal basis:** Town of Camillus Local Law No. A-2026, a twelve-month moratorium on all battery energy storage systems (Tier 1 and Tier 2)
+- **Legal basis:** Town of Camillus Local Law No. 1 of 2026, enacted from proposed Local Law A-2026, a twelve-month moratorium on battery energy storage systems with specified exclusions and relief.
 - **What prompted it:** Town-wide pause pending development of BESS siting standards
 - **Affected projects:** No specific project named
-- **Detailed status:** Active as of 2026-09-23, running to approximately March 2027. Applies to all BESS regardless of tier (Carina Energy classifies it ALL_BESS scope).
+- **Detailed status:** March 10 minutes enact proposed A-2026 as Local Law 1 of 2026, a twelve-month BESS moratorium with previously approved and town-owned-property exclusions and stated relief. Filing/effectiveness, renewal and early termination remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted
 
 ### Campbell
