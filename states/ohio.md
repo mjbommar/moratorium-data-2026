@@ -45,7 +45,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Clay Township (Montgomery County) | Township | 2026-04-07 | data center | 🟢 Active |
 | Clayton | City | 2026-07-16 | data center, cryptocurrency mining | 🟢 Active |
 | Clearcreek Township (Warren County) | Township | 2026-07-27 | data center | 🟢 Active |
-| Cleveland | City | 2026-07-15 | data center | 🟢 Active |
+| Cleveland | City | 2026-07-15 | data center | 🟢 Extended |
 | Clinton | Village | 2026-06-16 | data center | 🟢 Active |
 | Commercial Point | Village | 2026-05-04 | data center | 🟢 Active |
 | Cortland | City | 2026-06-01 | data center | 🟢 Active |
@@ -742,27 +742,27 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-clearcreek-township-warren-county-2026`
-- **Legal basis:** Clearcreek Township (Warren County) trustee resolution imposing a one-year moratorium on issuance of permits for data centers (number not found)
+- **Legal basis:** Clearcreek Township (Warren County) Resolution 5688, adopted July 27, 2026, declaring an emergency and imposing a one-year data-center permit moratorium.
 - **What prompted it:** Preemptive: need for further study and concerns about infrastructure impacts; no developer had approached the township.
 - **Affected projects:** None; described as preemptive.
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium on data center permits adopted 2026-07-27 runs to about 2027-07-27.
+- **Detailed status:** July 27 minutes identify Resolution 5688, a one-year data-center permit moratorium declaring an emergency, with all three trustees voting yea. Actual effectiveness and later action were not established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Township to study data centers and future regulation during the pause.
 
 ### Cleveland
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** 2026-07-15 (Ordinance 556-2026 passed by full Council, 14-1). Councilmember Charles Slife's original 2026-04-28 proposal called for a one-year pause; the Utilities Committee (chaired by Brian Kazy) reduced it to three months before the full Council vote.
 - **Normalized date:** `2026-07-15` (exact)
-- **Duration:** 3 months (through approximately 2026-10-16), extendable by Council for an additional 3 months; reduced from the originally proposed 1 year
-- **Current end date:** `—`
+- **Duration:** Originally three months from July 20, 2026, subject to earlier regulatory action; extended from October 20, 2026 until the earlier of new or amended regulations or January 29, 2027.
+- **Current end date:** `2027-01-29`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-cleveland-2026`
-- **Legal basis:** Ordinance 556-2026, following Councilmember Charles Slife's initial proposal; advanced by the Utilities Committee (chaired by Brian Kazy) and passed by full Council 2026-07-15, 14-1
+- **Legal basis:** Ordinance 556-2026, passed July 15 and effective July 20, 2026; extended by Ordinance 1246-2026, effective October 19, 2026.
 - **What prompted it:** Water and power use, outages, low permanent job creation, and zoning/infrastructure review
 - **Affected projects:** Future permits within city limits if enacted
-- **Detailed status:** Active; a three-month moratorium on new standalone/principal-use data center projects and expansions took effect upon passage on 2026-07-15, running through approximately 2026-10-16. Excludes operation of existing data centers and colocated/edge/enterprise facilities.
-- **Outcome:** Adopted. A Data Center working group is developing zoning/regulatory recommendations addressing land use, power needs, environmental standards, jobs, and community benefits, with policy reforms expected to be introduced by mid-September 2026.
+- **Detailed status:** Official legislative file records Ordinance 1246-2026 passed and effective October 19, 2026. Section 1 extends the standalone/principal-use data-center moratorium from October 20, 2026 until the earlier of qualifying new or amended regulations or January 29, 2027. The preamble states original Ordinance 556-2026 became effective July 20. Whether an earlier terminating regulation subsequently took effect remains unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** Council adopted a temporary moratorium and extended it by Ordinance 1246-2026; the extension ends on the earlier of qualifying new regulations or January 29, 2027.
 
 ### Clinton
 
@@ -793,7 +793,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Village of Commercial Point Ordinance 2026-09, 18-month moratorium on data center development under R.C. 715.01 and 713.02, declared an emergency
 - **What prompted it:** K-Nova II, LLC's 'Project Cosmos' major site plan (end user Amazon Data Services) filed April 1, 2026 on land zoned exclusively for data centers; resident opposition over noise, grid strain and water.
 - **Affected projects:** K-Nova II 'Project Cosmos' data center (Amazon Data Services), Rickenbacker Exchange Industrial Park expansion (~267 acres).
-- **Detailed status:** Active but under legal challenge as of 2026-09-23; 18-month moratorium adopted 2026-05-04 (to about November 2027); K-Nova II filed a mandamus action in the Ohio Supreme Court (May 19, 2026) arguing vested rights, and residents separately sued over the 2024 rezoning (Pickaway C.P. 2026-CI-0139).
+- **Detailed status:** May 11 reporting describes third reading and 5-1 approval of Ordinance 2026-09, an eighteen-month data-center development moratorium. Final executed text, actual effectiveness, litigation and later action remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Village suspended review of the K-Nova application and offered to refund its $534,121.85 fee; developer refused and sued.
 
 ### Cortland
@@ -819,13 +819,13 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-09-01 (City Council vote, emergency ordinance; signed by Mayor Mike McCann the same night, effective immediately; per Crescent-News)
 - **Normalized date:** `2026-09-01` (exact)
 - **Duration:** Six months (amended down from the originally drafted 12 months)
-- **Current end date:** `2027-02-28`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-defiance-undated`
 - **Legal basis:** Emergency ordinance of Defiance City Council placing a six-month moratorium on 'the acceptance, review, processing and approval of applications for data center development' within city limits (adopted 7-0 on re-vote, 2026-09-01; ordinance number not reported). Council separately passed an emergency ordinance placing a charter amendment banning data centers over 25 MW on the 2026-11-03 ballot; a zoning text amendment hearing is set for 2026-10-06.
 - **What prompted it:** City officials began researching data center zoning gaps in February 2026; no pending data center applications were reported, but a nearby property proposed for annexation (west of the Menards store) drew organized resident opposition.
 - **Affected projects:** No pending data center applications reported; resident opposition led by Rebecca Rupp centers on a property proposed for annexation west of the Menards store.
-- **Detailed status:** Active as of 2026-09-23; six-month emergency moratorium adopted 2026-09-01, running to about 2027-02-28. Voters decide a charter-amendment data center ban (>25 MW) on 2026-11-03.
+- **Detailed status:** September 2 reporting describes the six-month pause ultimately adopted 7-0 with an emergency clause after procedural reconsideration. Signed final wording, effective anchor and later action remain unverified. The separate November 3 charter-amendment ballot result and its relationship to the pause remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Council adopted a six-month moratorium (after a procedural re-vote, 7-0 with emergency clause) and put a charter-amendment ban on the November 3, 2026 ballot; a public hearing on data center/power-generating facility zoning text amendments is set for 2026-10-06.
 
 ### Eastlake
@@ -857,7 +857,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Ellsworth Township (Mahoning County) Board of Trustees data center moratorium (instrument number not located)
 - **What prompted it:** Preemptive; to review township zoning as it pertains to data centers; no applications received.
 - **Affected projects:** None; no data center zoning applications received.
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium enacted 2026-06-10 runs to about 2027-06-10. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** June 16 reporting attributes June 10 passage/enactment to the zoning inspector and describes a one-year term with possible future renewal. The official instrument, effectiveness, actual renewal and later action remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Pause while officials review zoning and research data centers.
 
 ### Fairborn

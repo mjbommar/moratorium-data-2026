@@ -1,0 +1,192 @@
+{
+  "applied_at": "20261105T182832",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-ohio-c/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 4,
+    "fields_changed": 21,
+    "outcome:status_changed": 1,
+    "status_changed": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "oh-clearcreek-township-warren-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states a calendar term rather than a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-clearcreek-township-warren-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "A calendar term should not be represented as a fixed-day legal duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-clearcreek-township-warren-county-2026",
+      "column": "legal_basis",
+      "before": "Clearcreek Township (Warren County) trustee resolution imposing a one-year moratorium on issuance of permits for data centers (number not found)",
+      "after": "Clearcreek Township (Warren County) Resolution 5688, adopted July 27, 2026, declaring an emergency and imposing a one-year data-center permit moratorium.",
+      "reason": "Trustee minutes identify resolution and unanimous roll call.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-clearcreek-township-warren-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; one-year moratorium on data center permits adopted 2026-07-27 runs to about 2027-07-27.",
+      "after": "July 27 minutes identify Resolution 5688, a one-year data-center permit moratorium declaring an emergency, with all three trustees voting yea. Actual effectiveness and later action were not established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "current_status",
+      "before": "Active; a three-month moratorium on new standalone/principal-use data center projects and expansions took effect upon passage on 2026-07-15, running through approximately 2026-10-16. Excludes operation of existing data centers and colocated/edge/enterprise facilities.",
+      "after": "Official legislative file records Ordinance 1246-2026 passed and effective October 19, 2026. Section 1 extends the standalone/principal-use data-center moratorium from October 20, 2026 until the earlier of qualifying new or amended regulations or January 29, 2027. The preamble states original Ordinance 556-2026 became effective July 20. Whether an earlier terminating regulation subsequently took effect remains unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "duration",
+      "before": "3 months (through approximately 2026-10-16), extendable by Council for an additional 3 months; reduced from the originally proposed 1 year",
+      "after": "Originally three months from July 20, 2026, subject to earlier regulatory action; extended from October 20, 2026 until the earlier of new or amended regulations or January 29, 2027.",
+      "reason": "October extension states both conditional periods.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "until_event",
+      "reason": "Extension terminates upon earlier regulatory action or specified date.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "duration_days",
+      "before": "93",
+      "after": "",
+      "reason": "Calendar and event-based terms are not fixed days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "legal_basis",
+      "before": "Ordinance 556-2026, following Councilmember Charles Slife's initial proposal; advanced by the Utilities Committee (chaired by Brian Kazy) and passed by full Council 2026-07-15, 14-1",
+      "after": "Ordinance 556-2026, passed July 15 and effective July 20, 2026; extended by Ordinance 1246-2026, effective October 19, 2026.",
+      "reason": "Official extension and legislative record.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "outcome",
+      "before": "Adopted. A Data Center working group is developing zoning/regulatory recommendations addressing land use, power needs, environmental standards, jobs, and community benefits, with policy reforms expected to be introduced by mid-September 2026.",
+      "after": "Council adopted a temporary moratorium and extended it by Ordinance 1246-2026; the extension ends on the earlier of qualifying new regulations or January 29, 2027.",
+      "reason": "Official ordinance.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-01-29",
+      "reason": "Explicit outer endpoint in section 1, subject to earlier qualifying regulation; not an unconditional operative expiry.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-cleveland-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "Extension enacted; current applicability remains conditional on whether earlier-triggering data-center regulations became effective after October 19. Do not treat January 29 as an unconditional expiry.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-commercial-point-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states a calendar term rather than a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-commercial-point-2026",
+      "column": "duration_days",
+      "before": "548",
+      "after": "",
+      "reason": "A calendar term should not be represented as a fixed-day legal duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-commercial-point-2026",
+      "column": "current_status",
+      "before": "Active but under legal challenge as of 2026-09-23; 18-month moratorium adopted 2026-05-04 (to about November 2027); K-Nova II filed a mandamus action in the Ohio Supreme Court (May 19, 2026) arguing vested rights, and residents separately sued over the 2024 rezoning (Pickaway C.P. 2026-CI-0139).",
+      "after": "May 11 reporting describes third reading and 5-1 approval of Ordinance 2026-09, an eighteen-month data-center development moratorium. Final executed text, actual effectiveness, litigation and later action remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-defiance-undated",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states a calendar term rather than a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-defiance-undated",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "A calendar term should not be represented as a fixed-day legal duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-defiance-undated",
+      "column": "current_end_date_iso",
+      "before": "2027-02-28",
+      "after": "",
+      "reason": "Six calendar months should not be converted to a 180-day fixed end; signed ordinance and later action need review.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-defiance-undated",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; six-month emergency moratorium adopted 2026-09-01, running to about 2027-02-28. Voters decide a charter-amendment data center ban (>25 MW) on 2026-11-03.",
+      "after": "September 2 reporting describes the six-month pause ultimately adopted 7-0 with an emergency clause after procedural reconsideration. Signed final wording, effective anchor and later action remain unverified. The separate November 3 charter-amendment ballot result and its relationship to the pause remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-ellsworth-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Source states a calendar term rather than a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-ellsworth-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "A calendar term should not be represented as a fixed-day legal duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-ellsworth-township-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; one-year moratorium enacted 2026-06-10 runs to about 2027-06-10. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+      "after": "June 16 reporting attributes June 10 passage/enactment to the zoning inspector and describes a one-year term with possible future renewal. The official instrument, effectiveness, actual renewal and later action remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    }
+  ]
+}
