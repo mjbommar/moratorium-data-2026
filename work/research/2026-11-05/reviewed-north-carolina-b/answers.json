@@ -1,0 +1,249 @@
+{
+  "state_abbrev": "NC",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "nc-cumberland-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "until_date",
+          "reason": "Adopted ordinance sets a specific end date, with earlier rescission possible."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "The legal instrument specifies an end date, not a fixed 180-day term."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23 through 2026-12-15; applies in the county's zoning jurisdiction. Proposed permanent data center regulations were presented to the Joint Planning Board in September 2026, with the Board of Commissioners aiming to adopt rules by the Dec. 15 expiration.",
+          "to": "The signed June 15 ordinance states effectiveness upon adoption through December 15, 2026 unless rescinded sooner. [VERIFY: later amendments/extensions/repeal, judicial developments and current legal force; operative implementation where not established by the reviewed source.]",
+          "reason": "Keep historical source support separate from full legal-force verification."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.cumberlandcountync.gov/docs/default-source/planning-documents/data-center-moratorium-6-15-2026.pdf?sfvrsn=bc0683d8_0",
+          "source_type": "ordinance",
+          "supports": "Adopted text states a date and allows earlier rescission.",
+          "quote": "This moratorium shall be effective upon its adoption, and extend through December 15, 2026, if",
+          "document_date": "2026-06-15"
+        }
+      ],
+      "notes": "Narrow term correction only; current force as of cutoff is not independently established by an exhaustive later-action review.",
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "nc-gates-county-2025",
+      "outcome": "corrected",
+      "changes": {
+        "sectors": {
+          "from": "[\"data_center\"]",
+          "to": "[\"data_center\",\"cryptocurrency_mining\"]",
+          "reason": "The adopted ordinance expressly includes cryptocurrency mining facilities."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The adopted ordinance specifies one year, not a fixed day count."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Avoid converting the one-year calendar term to a fixed number of days."
+        },
+        "current_status": {
+          "from": "Active. Ordinance in force from December 17, 2025 through December 17, 2026, per the signed, executed instrument now posted by the county.",
+          "to": "The December 17, 2025 ordinance covers data centers and cryptocurrency mining and states a one-year term through December 17, 2026, subject to earlier change. [VERIFY: later amendments/extensions/repeal, judicial developments and current legal force; operative implementation where not established by the reviewed source.]",
+          "reason": "Keep historical source support separate from full legal-force verification."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://gatescounty.govoffice2.com/vertical/Sites/%7BC4993D33-7F3A-4388-B179-2EC1739C7E2E%7D/uploads/moratorium.adopted.12.17.2025.pdf",
+          "source_type": "ordinance",
+          "supports": "Original ordinance expressly covers cryptocurrency mining.",
+          "quote": "cryptocurrency mining facility, or other high-impact data processing facility.",
+          "document_date": "2025-12-17"
+        },
+        {
+          "url": "https://gatescounty.govoffice2.com/vertical/Sites/%7BC4993D33-7F3A-4388-B179-2EC1739C7E2E%7D/uploads/moratorium.adopted.12.17.2025.pdf",
+          "source_type": "ordinance",
+          "supports": "The original term is one year.",
+          "quote": "A temporary moratorium is hereby imposed for a period of one (1) year from the effective date of",
+          "document_date": "2025-12-17"
+        }
+      ],
+      "notes": "These are narrow corrections to original scope and duration; later termination, extension, modification, and current force were not established. The instrument allows earlier change.",
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "nc-pasquotank-county-solar-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.pasquotankcountync.org/s/07-20-26-commissioner-minutes.pdf",
+          "source_type": "minutes",
+          "supports": "Adopted solar application pause; outside date subject to earlier amendment.",
+          "quote": "or until the Board approves zoning ordinance amendments addressing solar farm development,",
+          "document_date": "2026-07-20"
+        }
+      ],
+      "notes": "The adopted ordinance gives an outside date of July 19, 2027, or earlier upon specified zoning amendment. No exhaustive later-action review; do not treat the end as unconditional.",
+      "changes": {
+        "duration": {
+          "from": "12 months (to about 2027-07-20)",
+          "to": "12 months, commencing July 20, 2026 and expiring no later than July 19, 2027, or earlier upon approval of zoning ordinance amendments regarding solar farms.",
+          "reason": "Adopted ordinance states an outside date and earlier termination condition."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Ordinance specifies twelve months, not fixed days."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "No fixed-day duration is stated."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; 12-month moratorium on new solar farms adopted 2026-07-20 while the UDO solar provisions are revised. Confirmed by the Daily Advance (Pasquotank's paper of record), which directly reports the July 20 commissioners' vote and distinguishes it from the county's separate May 2026 data-center moratorium (nc-pasquotank-county-2026). Ordinance/resolution number still not located.",
+          "to": "July 20 minutes record approval of a solar-development moratorium through July 19, 2027 or earlier approval of specified zoning amendments. [VERIFY: later amendments/extensions/repeal, judicial developments and current legal force; operative implementation where not established by the reviewed source.]",
+          "reason": "Keep historical source support separate from full legal-force verification."
+        }
+      },
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "nc-rowan-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.rowancountync.gov/DocumentCenter/View/57271",
+          "source_type": "ordinance",
+          "supports": "The signed ordinance sets the commencement and outside expiration; page 4 states adoption May 4.",
+          "quote": "This Moratorium shall commence on May 4, 2026 and expire no later than\nMay 4, 2027.",
+          "document_date": "2026-05-04"
+        },
+        {
+          "url": "https://www.rowancountync.gov/DocumentCenter/View/57271",
+          "source_type": "ordinance",
+          "supports": "Signed adoption clause, also visually reviewed.",
+          "quote": "Adopted by the Rowan County Board of Commissioners, this the 4t day of May 2026.",
+          "document_date": "2026-05-04"
+        }
+      ],
+      "notes": "The signed ordinance distinguishes the April 20 hearing from May 4 adoption and permits earlier termination. Later actions remain unresolved.",
+      "changes": {
+        "date_enacted": {
+          "from": "2026-04-20 (Monday). Rowan County's CivicClerk portal (rowancountync.portal.civicclerk.com) shows a Board of Commissioners Regular Meeting on \"Monday Apr 20, 2026 6:00 PM EDT\" with the agenda packet posted April 21, 2026 at 8:32 AM \u2014 consistent with the Legislative Hearing Notice's announcement of the April 20 hearing and inconsistent with the .md's prior reading of WBTV. WBTV's article is dated 2026-04-21 (publication date, not meeting date) and the WBTV text does not in fact say \"Tuesday April 21\"; it just reports the unanimous vote without naming a day.",
+          "to": "2026-05-04 (signed adopted ordinance; April 20, 2026 legislative hearing)",
+          "reason": "Signed ordinance page 4 establishes adoption date."
+        },
+        "date_enacted_iso": {
+          "from": "2026-04-20",
+          "to": "2026-05-04",
+          "reason": "Signed ordinance states May 4 adoption."
+        },
+        "duration": {
+          "from": "1 year",
+          "to": "One year from May 4, 2026, expiring no later than May 4, 2027; the Board may terminate early by majority resolution.",
+          "reason": "Signed ordinance sections I and IV."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "One year is a calendar term."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "No fixed-day duration is specified."
+        },
+        "legal_basis": {
+          "from": "Adopted under N.C.G.S. 160D-107 following Legislative Hearing Notice issued April 6, 2026 by Clerk Sarah Pack; the Notice expressly limits the hearing to 1 hour of public comment and exempts EDC Charlotte LLC parcels. [Evidence ceiling: Rowan County's CivicClerk portal indexes the April 20 meeting agenda, but the adopted-ordinance number was not included in the captured agenda-listing as of 2026-04-30; would require pulling the post-meeting minutes when published.]",
+          "to": "Ordinance of the Rowan County Board of Commissioners imposing a one-year moratorium on the development of data centers, adopted May 4, 2026 under N.C.G.S. 160D-107; April 20 was the legislative hearing. The ordinance exempts qualifying property and identifies seven parcels.",
+          "reason": "Signed ordinance establishes the instrument and adoption date."
+        },
+        "current_status": {
+          "from": "Active per WBTV; commissioners vote unanimous",
+          "to": "The signed ordinance states May 4 adoption and commencement, with a May 4, 2027 outer expiry subject to early termination. April 20 was the legislative hearing. [VERIFY: later amendments/extensions/repeal, judicial developments and current legal force; operative implementation where not established by the reviewed source.]",
+          "reason": "Keep historical source support separate from full legal-force verification."
+        }
+      },
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "nc-surry-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.co.surry.nc.us/document_center/Development%20Services/Ordinance%20Extending%20the%20Temporary%20Moratorium%20on%20Dev%20Approvals%20for%20Data%20Cetners%20July%2020,%202026.pdf?t=202607211605340",
+          "source_type": "ordinance",
+          "supports": "Extension definition includes cryptocurrency mining.",
+          "quote": "include \"cryptocurrency\n\nmining\"",
+          "document_date": "2026-07-20"
+        }
+      ],
+      "notes": "The county page repeats the 2028 date but is undated and does not exclude subsequent action; the sector correction is independent of current force.",
+      "changes": {
+        "sectors": {
+          "from": "[\"data_center\"]",
+          "to": "[\"data_center\", \"cryptocurrency_mining\"]",
+          "reason": "The extension definition expressly includes cryptocurrency mining."
+        },
+        "current_status": {
+          "from": "Extended; active as of 2026-09-23 and set to expire 2028-07-20. The county's Development Services moratorium page and the posted July 20, 2026 extension ordinance confirm the extension; a data center steering committee is advising the Board.",
+          "to": "The July 20 extension text explicitly includes cryptocurrency mining within its data-center definition. [VERIFY: later amendments/extensions/repeal, judicial developments and current legal force; operative implementation where not established by the reviewed source.]",
+          "reason": "Keep historical source support separate from full legal-force verification."
+        }
+      },
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "nc-town-of-bailey-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.springhopeenterprise.com/news/bailey-board-adopts-data-center-moratorium-363ab088",
+          "source_type": "news",
+          "supports": "Report identifies the resolution presented at the adoption meeting.",
+          "quote": "presented Resolution 2026-02 during the Bailey Board of Commissioners meeting on Monday, May 18."
+        },
+        {
+          "url": "https://www.springhopeenterprise.com/news/bailey-board-adopts-data-center-moratorium-363ab088",
+          "source_type": "news",
+          "supports": "Reported approval and calendar term.",
+          "quote": "Commissioners voted 3-1 to impose a 10-month moratorium"
+        }
+      ],
+      "notes": "Resolution number is contemporaneous reporting, not the instrument itself; later actions and effective date remain unverified.",
+      "changes": {
+        "legal_basis": {
+          "from": "Board of Commissioners moratorium on accepting, processing, or approving data center applications in the town and its extraterritorial jurisdiction; ordinance/resolution number not located in reviewed sources",
+          "to": "Board of Commissioners moratorium on accepting, processing, or approving data center applications in the town and its extraterritorial jurisdiction; contemporaneous local reporting identifies the resolution presented as Resolution 2026-02.",
+          "reason": "Local reporting identifies the resolution; adopted text has not been located."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The reported term is ten months rather than fixed days."
+        },
+        "duration_days": {
+          "from": "300",
+          "to": "",
+          "reason": "Ten calendar months cannot be represented as 300 fixed days."
+        },
+        "current_status": {
+          "from": "Active as of researched_as_of",
+          "to": "Local reporting describes May 18 adoption of a ten-month moratorium and identifies the presented instrument as Resolution 2026-02; the adopted instrument was not obtained. [VERIFY: later amendments/extensions/repeal, judicial developments and current legal force; operative implementation where not established by the reviewed source.]",
+          "reason": "Keep historical source support separate from full legal-force verification."
+        }
+      },
+      "confidence": 0.65
+    }
+  ],
+  "new_candidates": []
+}

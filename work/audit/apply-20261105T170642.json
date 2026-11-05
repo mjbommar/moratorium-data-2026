@@ -1,0 +1,38 @@
+{
+  "applied_at": "20261105T170642",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-north-carolina-b/endpoints.json"
+  ],
+  "stats": {
+    "outcome:corrected": 3,
+    "fields_changed": 3
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "nc-gates-county-2025",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-12-17",
+      "reason": "Use explicit date in reviewed text rather than infer an endpoint from calendar arithmetic.",
+      "source": "endpoints.json"
+    },
+    {
+      "moratorium_id": "nc-pasquotank-county-solar-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-07-19",
+      "reason": "Use explicit date in reviewed text rather than infer an endpoint from calendar arithmetic.",
+      "source": "endpoints.json"
+    },
+    {
+      "moratorium_id": "nc-rowan-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2027-05-04",
+      "reason": "Use explicit date in reviewed text rather than infer an endpoint from calendar arithmetic.",
+      "source": "endpoints.json"
+    }
+  ]
+}

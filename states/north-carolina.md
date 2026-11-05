@@ -33,7 +33,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 | Durham | City | 2026-05-04 | data center, cryptocurrency mining | 🟢 Extended |
 | Durham County | County | 2026-08-24 | data center, cryptocurrency mining | 🟢 Active |
 | Edgecombe County | County | 2026-08-03 | data center | 🟢 Active |
-| Gates County | County | 2025-12-17 | data center | 🟢 Active |
+| Gates County | County | 2025-12-17 | data center, cryptocurrency mining | 🟢 Active |
 | Guilford County | County | Unverified | data center | 🟡 Pending |
 | Halifax County | County | Unverified | data center | 🟡 Pending |
 | Harnett County | County | 2026-05-04 | data center, cryptocurrency mining | 🟢 Active |
@@ -48,8 +48,8 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 | Orange County | County | 2026-04-21 | data center, cryptocurrency mining | 🟢 Active |
 | Pasquotank County | County | 2026-05-18 | data center, cryptocurrency mining | 🟢 Active |
 | Pasquotank County (solar) | County | 2026-07-20 | solar | 🟢 Active |
-| Rowan County | County | 2026-04-20 | data center | 🟢 Active |
-| Surry County | County | 2026-06-01 | data center | 🟢 Extended |
+| Rowan County | County | 2026-05-04 | data center | 🟢 Active |
+| Surry County | County | 2026-06-01 | data center, cryptocurrency mining | 🟢 Extended |
 | Swain County | County | 2026-04-21 | data center | 🟢 Active |
 | Town of Apex | Town | 2026-04-14 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Bailey | Town | 2026-05-18 | data center | 🟢 Active |
@@ -398,7 +398,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Legal basis:** Board of Commissioners moratorium on data center site-plan review and zoning and building permits; instrument number not located in reviewed sources
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23 through 2026-12-15; applies in the county's zoning jurisdiction. Proposed permanent data center regulations were presented to the Joint Planning Board in September 2026, with the Board of Commissioners aiming to adopt rules by the Dec. 15 expiration.
+- **Detailed status:** The signed June 15 ordinance states effectiveness upon adoption through December 15, 2026 unless rescinded sooner. [VERIFY: later amendments/extensions/repeal, judicial developments and current legal force; operative implementation where not established by the reviewed source.]
 - **Outcome:** —
 
 ### Davie County
@@ -472,13 +472,13 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Date enacted:** 2025-12-17, confirmed by the signed, dated ordinance now posted on the county website at the same URL that previously held only a blank-field draft.
 - **Normalized date:** `2025-12-17` (exact)
 - **Duration:** 1 year
-- **Current end date:** `—`
-- **Sectors:** data center
+- **Current end date:** `2026-12-17`
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-gates-county-2025`
 - **Legal basis:** Ordinance imposing temporary moratorium on development approvals for data centers and related high-impact facilities; N.C.G.S. 160D-107
 - **What prompted it:** Developer inquiries in northeast North Carolina; county findings cite energy use, utility strain, noise, water use, hazardous materials, e-waste, and rural/agricultural land compatibility.
 - **Affected projects:** No named project in captured ordinance draft; WUNC reports the county acted after staff heard developers were exploring northeastern North Carolina.
-- **Detailed status:** Active. Ordinance in force from December 17, 2025 through December 17, 2026, per the signed, executed instrument now posted by the county.
+- **Detailed status:** The December 17, 2025 ordinance covers data centers and cryptocurrency mining and states a one-year term through December 17, 2026, subject to earlier change. [VERIFY: later amendments/extensions/repeal, judicial developments and current legal force; operative implementation where not established by the reviewed source.]
 - **Outcome:** Pending. Ordinance sets a 12-month work plan for impact study, draft UDO amendments, public workshops, Planning Board review, and final hearings.
 
 ### Guilford County
@@ -695,30 +695,30 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-07-20, Board of Commissioners vote to implement a 12-month moratorium on new solar farm construction
 - **Normalized date:** `2026-07-20` (exact)
-- **Duration:** 12 months (to about 2027-07-20)
-- **Current end date:** `—`
+- **Duration:** 12 months, commencing July 20, 2026 and expiring no later than July 19, 2027, or earlier upon approval of zoning ordinance amendments regarding solar farms.
+- **Current end date:** `2027-07-19`
 - **Sectors:** solar
 - **Moratorium ID:** `nc-pasquotank-county-solar-2026`
 - **Legal basis:** Pasquotank County solar farm moratorium (instrument number not located)
 - **What prompted it:** Commissioners want to reduce the maximum solar farm acreage (currently 15,000 acres) and update UDO solar standards
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium on new solar farms adopted 2026-07-20 while the UDO solar provisions are revised. Confirmed by the Daily Advance (Pasquotank's paper of record), which directly reports the July 20 commissioners' vote and distinguishes it from the county's separate May 2026 data-center moratorium (nc-pasquotank-county-2026). Ordinance/resolution number still not located.
+- **Detailed status:** July 20 minutes record approval of a solar-development moratorium through July 19, 2027 or earlier approval of specified zoning amendments. [VERIFY: later amendments/extensions/repeal, judicial developments and current legal force; operative implementation where not established by the reviewed source.]
 - **Outcome:** 12-month solar moratorium; UDO revision under way.
 
 ### Rowan County
 
 - **Type:** County
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-04-20 (Monday). Rowan County's CivicClerk portal (rowancountync.portal.civicclerk.com) shows a Board of Commissioners Regular Meeting on "Monday Apr 20, 2026 6:00 PM EDT" with the agenda packet posted April 21, 2026 at 8:32 AM — consistent with the Legislative Hearing Notice's announcement of the April 20 hearing and inconsistent with the .md's prior reading of WBTV. WBTV's article is dated 2026-04-21 (publication date, not meeting date) and the WBTV text does not in fact say "Tuesday April 21"; it just reports the unanimous vote without naming a day.
-- **Normalized date:** `2026-04-20` (exact)
-- **Duration:** 1 year
-- **Current end date:** `—`
+- **Date enacted:** 2026-05-04 (signed adopted ordinance; April 20, 2026 legislative hearing)
+- **Normalized date:** `2026-05-04` (exact)
+- **Duration:** One year from May 4, 2026, expiring no later than May 4, 2027; the Board may terminate early by majority resolution.
+- **Current end date:** `2027-05-04`
 - **Sectors:** data center
 - **Moratorium ID:** `nc-rowan-county-2026`
-- **Legal basis:** Adopted under N.C.G.S. 160D-107 following Legislative Hearing Notice issued April 6, 2026 by Clerk Sarah Pack; the Notice expressly limits the hearing to 1 hour of public comment and exempts EDC Charlotte LLC parcels. [Evidence ceiling: Rowan County's CivicClerk portal indexes the April 20 meeting agenda, but the adopted-ordinance number was not included in the captured agenda-listing as of 2026-04-30; would require pulling the post-meeting minutes when published.]
+- **Legal basis:** Ordinance of the Rowan County Board of Commissioners imposing a one-year moratorium on the development of data centers, adopted May 4, 2026 under N.C.G.S. 160D-107; April 20 was the legislative hearing. The ordinance exempts qualifying property and identifies seven parcels.
 - **What prompted it:** Public concern over data center siting (notably the Long Ferry Road project on land owned by an unnamed data-center developer) and need to study land-use standards.
 - **Affected projects:** Hearing notice expressly exempts projects/properties prohibited from inclusion by N.C.G.S. 160D-107(c), including EDC Charlotte LLC parcels 603-112, 603-113, 603-114, 603-116, 603-118, 603-045, and 603-061. WBTV separately reports the Long Ferry Road site preparation (a power substation, ~400 acres) cannot be included in the moratorium under state law.
-- **Detailed status:** Active per WBTV; commissioners vote unanimous
+- **Detailed status:** The signed ordinance states May 4 adoption and commencement, with a May 4, 2027 outer expiry subject to early termination. April 20 was the legislative hearing. [VERIFY: later amendments/extensions/repeal, judicial developments and current legal force; operative implementation where not established by the reviewed source.]
 - **Outcome:** Pending UDO study.
 
 ### Surry County
@@ -729,12 +729,12 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Normalized date:** `2026-06-01` (exact)
 - **Duration:** Initially 60 days (from 2026-06-01); extended 2026-07-20 through and including midnight 2028-07-20 unless earlier terminated or modified
 - **Current end date:** `2028-07-20`
-- **Sectors:** data center
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-surry-county-2026`
 - **Legal basis:** Ordinance Imposing a Temporary Moratorium on Development Approvals for Data Centers and Related High-Impact Facilities in All Areas Subject to Surry County Zoning Authority and Jurisdiction (adopted 2026-06-01, unnumbered); extended by the Ordinance Extending the Temporary Moratorium on Development Approvals for Data Centers (adopted 2026-07-20, unnumbered), N.C.G.S. 160D-107
 - **What prompted it:** County had no pending data center application, but officials said existing regulations did not address energy, water, and noise impacts
 - **Affected projects:** —
-- **Detailed status:** Extended; active as of 2026-09-23 and set to expire 2028-07-20. The county's Development Services moratorium page and the posted July 20, 2026 extension ordinance confirm the extension; a data center steering committee is advising the Board.
+- **Detailed status:** The July 20 extension text explicitly includes cryptocurrency mining within its data-center definition. [VERIFY: later amendments/extensions/repeal, judicial developments and current legal force; operative implementation where not established by the reviewed source.]
 - **Outcome:** —
 
 ### Swain County
@@ -779,10 +779,10 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nc-town-of-bailey-2026`
-- **Legal basis:** Board of Commissioners moratorium on accepting, processing, or approving data center applications in the town and its extraterritorial jurisdiction; ordinance/resolution number not located in reviewed sources
+- **Legal basis:** Board of Commissioners moratorium on accepting, processing, or approving data center applications in the town and its extraterritorial jurisdiction; contemporaneous local reporting identifies the resolution presented as Resolution 2026-02.
 - **What prompted it:** Dissenting commissioner argued the definition was too broad
 - **Affected projects:** —
-- **Detailed status:** Active as of researched_as_of
+- **Detailed status:** Local reporting describes May 18 adoption of a ten-month moratorium and identifies the presented instrument as Resolution 2026-02; the adopted instrument was not obtained. [VERIFY: later amendments/extensions/repeal, judicial developments and current legal force; operative implementation where not established by the reviewed source.]
 - **Outcome:** —
 
 ### Town of Boone

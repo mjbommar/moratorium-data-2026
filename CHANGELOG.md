@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Six further North Carolina corrections distinguish Rowan’s signed May 4 adoption from its April 20 hearing, Cumberland’s explicit December 15 termination clause, Gates’s cryptocurrency coverage and calendar term, Pasquotank’s conditional solar endpoint, Surry’s cryptocurrency definition and Bailey’s news-qualified ten-month term. Source-stated outer endpoints are projected without implying no later change; current-force gaps remain flagged.
+
 North Carolina review confirms Charlotte’s October 26 extension approval, with November 6 commencement and an October 18, 2027 outer limit subject to earlier regulations. Jackson County’s minutes identify O2026-02; McDowell and Orange minutes support calendar terms, while Northampton’s 32-month term remains news-qualified. Later legal-force gaps stay explicit.
 
 Missoula County’s project page supplies a one-year term and explicit July 8, 2027 endpoint, replacing an unsupported 365-day representation. The operative resolution and later legal force remain flagged; Butte’s proposal and reported abeyance are not treated as adoption.
@@ -46,7 +48,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **448** |
+| Rows we still want to confirm (`[VERIFY]`) | **454** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
