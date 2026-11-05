@@ -7,7 +7,7 @@ record-level observations and `[VERIFY]` markers identify unresolved work.
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **372 of the 1293 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **383 of the 1293 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
 
 ### Legacy instrument identities
 
@@ -29,6 +29,17 @@ The bounded searches are not a census of every local government. Site-filtered
 searches with returned hosts outside the intended scope cannot establish absence
 of official records. Deficient searches and private candidate material remain in
 the review queue; only reviewed changes enter the public inventory.
+
+### Conflicting dates and retained payload limits
+
+Cascade Charter Township Resolution 024-2026 has a May 27 adoption date in the
+legacy record, while the freshly retained signed minutes label the meeting May 28.
+The November review retains only May 2026 precision pending reconciliation. Those
+minutes confirm the six-month term and unanimous vote, but not a complete later-action
+history. An older packet's text remains in the archive while its original PDF is
+unavailable at the reviewed local archive path; the new correction uses the retained
+signed minutes instead. Brighton's September 21 minutes separately confirm an actual
+six-month adoption; the MTA sample in its agenda packet alone was insufficient.
 
 ### Records behind authentication or CAPTCHA gates
 

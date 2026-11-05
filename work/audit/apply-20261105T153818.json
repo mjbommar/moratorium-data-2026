@@ -1,0 +1,41 @@
+{
+  "applied_at": "20261105T153818",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-michigan-a/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 11,
+    "already_applied": 43,
+    "verify_already_resolved": 1,
+    "outcome:status_changed": 1,
+    "fields_changed": 3
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "mi-cascade-charter-township-kent-county-2026-2",
+      "column": "date_enacted",
+      "before": "2026-05-27 (Township Board unanimously adopted Resolution 024-2026, effective immediately upon adoption)",
+      "after": "May 2026 (Resolution 024-2026; reviewed signed minutes footer says May 28 while the prior record says May 27; exact day unresolved)",
+      "reason": "Do not preserve an exact May 27 typed date while the signed minutes label the meeting May 28; retain only supported month precision pending reconciliation.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-cascade-charter-township-kent-county-2026-2",
+      "column": "date_enacted_iso",
+      "before": "2026-05-27",
+      "after": "2026-05",
+      "reason": "Do not preserve an exact May 27 typed date while the signed minutes label the meeting May 28; retain only supported month precision pending reconciliation.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "mi-cascade-charter-township-kent-county-2026-2",
+      "column": "date_enacted_uncertainty",
+      "before": "exact",
+      "after": "month_only",
+      "reason": "Do not preserve an exact May 27 typed date while the signed minutes label the meeting May 28; retain only supported month precision pending reconciliation.",
+      "source": "answers.json"
+    }
+  ]
+}
