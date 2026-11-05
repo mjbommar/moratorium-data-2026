@@ -93,6 +93,7 @@ Exit: accepted pilot report and separately authorized bounded collection scope.
 - [ ] Search new local instruments across all 50 states/sectors and document actual jurisdiction/time coverage.
 - [ ] Define and budget the project/disclosure refresh scope separately; retain dated snapshots where full recollection is outside scope.
 - [ ] Seed candidate lists from Ballotpedia, Duane Morris, Redbud and independently found official sources.
+- [x] Compile all 22 terminal ballot jobs into a candidate review snapshot: 58 observations, 56 logical seed groups, pinned inputs and explicit Illinois duplicate identities (`work/research/2026-11-05/ballot-census-review/`). Evidence, census completeness and legal promotion remain open.
 - [ ] Reconcile 41/44/45 November tallies by record-level set differences and explicit inclusion rules.
 - [ ] Acquire ballot/warrant text, qualification/referral records and official return/certification evidence.
 - [ ] Keep unofficial, certified, recounted and amended results as distinct observations.

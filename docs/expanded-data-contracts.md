@@ -107,6 +107,16 @@ decoding where required to reproduce the original pilot text hash; it does not
 silently replace source bytes. Additional omission leads have their own frozen
 registry and bounded recovery jobs, distinct from the initial 50-seed list.
 
+`scripts/build_ballot_census.py` compiles terminal ballot packets into a separate
+review snapshot. Every packet gets its own ID namespace, including claim subjects,
+result revisions and value-method claim references; external legacy instrument IDs
+and free-form source values remain unchanged. Explicit identity decisions pin both
+measure records before grouping aliases. Grouping does not delete observations or
+accept legal effect. A reviewed input overlay must match its review receipt's
+output hashes. The builder refuses to overwrite snapshots and records input and
+expanded-output hashes. Combined unreviewed claims remain private until excerpt
+and evidence review; the public census manifest is not canonical ballot promotion.
+
 ## Dates and limitations
 
 `date_bounds` has inclusive earliest/latest possible **dates**, precision and

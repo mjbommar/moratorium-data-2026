@@ -21,6 +21,7 @@ candidate to active. `gate_answer.sh` stops on schema, dry-run or archive failur
 | `save_source.py` | Archives a cited URL through bc-web (HTTP, then browser escalation for JS portals and Cloudflare) into `work/sources/<ST>/`: PDF plus extracted text with page-level OCR, or HTML plus markdown, plus a manifest line with the body hash. Run with the bc-modules interpreter. |
 | `check_evidence_archived.py` | Merge gate: reports every evidence URL in an answer file that has no successful manifest entry. Exits nonzero if any is missing. |
 | `gate_answer.sh` | Runs the three gates on one answer file: schema, `apply_research.py --dry-run` conflicts, archived evidence. |
+| `build_ballot_census.py` | Combines terminal ballot packets in a private review snapshot with separate ID namespaces, pinned overlays and explicit identity grouping. Never promotes records or overwrites a snapshot. |
 | `build_worklist.py` | Emits the set of rows needing research as of a given date (expired-but-in-force, stale pending, `[VERIFY]` backlog, unverified dates). |
 | `make_packets.py` / `make_legislation_packets.py` | Split a worklist into per-state research packets. |
 | `apply_research.py` / `apply_legislation.py` | The only scripts that write research findings into the CSVs. Both require explicit answer-file paths, refuse any change whose `from` value no longer matches the file, and write an audit log to `work/audit/`. |

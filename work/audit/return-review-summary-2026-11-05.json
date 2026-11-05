@@ -1,14 +1,59 @@
 {
-  "observed_at": "2026-11-05T17:51:12.092861+00:00",
+  "observed_at": "2026-11-05T18:05:21.637076+00:00",
   "queue": "work/jobs/2026-11-05-recovery/complete-queue-v3.json",
   "job_states": {
-    "finished": 45,
+    "finished": 54,
     "running": 3
   },
-  "not_started_jobs": 285,
+  "not_started_jobs": 276,
   "scope": "Mechanical pre-review only. No source authority, legal-effect, field-support or substantive acceptance asserted.",
   "reusable_evidence_issues": [],
   "jobs": [
+    {
+      "job_id": "recovery-ballot-il-001",
+      "cli_state": "finished",
+      "mechanically_review_ready": false,
+      "checks": [],
+      "seed_coverage": {
+        "missing_seed_ids": [],
+        "extra_seed_ids": [],
+        "duplicate_seed_ids": []
+      },
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 5,
+      "unlocated_claim_count": 17
+    },
+    {
+      "job_id": "recovery-ballot-ks-001",
+      "cli_state": "finished",
+      "mechanically_review_ready": false,
+      "checks": [],
+      "seed_coverage": {
+        "missing_seed_ids": [],
+        "extra_seed_ids": [],
+        "duplicate_seed_ids": []
+      },
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 2,
+      "unlocated_claim_count": 8
+    },
+    {
+      "job_id": "recovery-ballot-me-001",
+      "cli_state": "finished",
+      "mechanically_review_ready": false,
+      "checks": [],
+      "seed_coverage": {
+        "missing_seed_ids": [],
+        "extra_seed_ids": [],
+        "duplicate_seed_ids": []
+      },
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 1,
+      "unlocated_claim_count": 19
+    },
     {
       "job_id": "ballot-ar-001",
       "cli_state": "finished",
@@ -449,7 +494,7 @@
     },
     {
       "job_id": "discovery-la",
-      "cli_state": "running",
+      "cli_state": "finished",
       "checks": [],
       "schema_error_count": 0,
       "integrity_issue_count": 0,
@@ -458,7 +503,7 @@
     },
     {
       "job_id": "discovery-ma",
-      "cli_state": "running",
+      "cli_state": "finished",
       "checks": [],
       "schema_error_count": 0,
       "integrity_issue_count": 0,
@@ -467,6 +512,60 @@
     },
     {
       "job_id": "discovery-md",
+      "cli_state": "finished",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_claim_count": 0
+    },
+    {
+      "job_id": "discovery-me",
+      "cli_state": "finished",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_claim_count": 0
+    },
+    {
+      "job_id": "discovery-mi",
+      "cli_state": "finished",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_claim_count": 0
+    },
+    {
+      "job_id": "discovery-mn",
+      "cli_state": "finished",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_claim_count": 0
+    },
+    {
+      "job_id": "discovery-mo",
+      "cli_state": "running",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_claim_count": 0
+    },
+    {
+      "job_id": "discovery-ms",
+      "cli_state": "running",
+      "checks": [],
+      "schema_error_count": 0,
+      "integrity_issue_count": 0,
+      "unmatched_source_version_count": 0,
+      "unlocated_claim_count": 0
+    },
+    {
+      "job_id": "discovery-mt",
       "cli_state": "running",
       "checks": [],
       "schema_error_count": 0,
