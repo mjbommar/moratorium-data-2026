@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Scanned Nebraska review corrects Broken Bow, Butler and Cherry calendar terms. Broken Bow’s signed September 8 zoning ordinance is recorded separately from its unverified effective commencement and the moratorium’s conditional ending. Butler’s earlier plan/zoning condition and Cherry’s broader conditional-use-permit scope remain explicit; later legal force stays flagged.
+
 North Dakota/Nebraska review corrects Williams and news-qualified Gage calendar terms, establishes Johnson County’s May 5 approval from minutes and clears Red Willow’s inferred September 22, 2027 endpoint. Red Willow’s August 24 minutes support an additional twelve-month extension, but its exact anchor and later legal force remain unresolved.
 
 Brevard’s signed Ordinance 2026-11 corrects its original endpoint and cryptomining scope; Madison’s June 2023 minutes correct the earlier claim that its minutes were unavailable, with the operative attachment still unreviewed. North Carolina return accounting covers 69 existing IDs: 20 bounded corrections applied, one proposal deferred and 48 unresolved returns pending disposition review. None is counted as fully verified for current legal force by this accounting.
@@ -56,7 +58,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **465** |
+| Rows we still want to confirm (`[VERIFY]`) | **468** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

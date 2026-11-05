@@ -64,7 +64,7 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Legal basis:** Ordinance 1314
 - **What prompted it:** No existing regulations governing data centers; city wants time to draft zoning rules
 - **Affected projects:** None identified
-- **Detailed status:** Active as of 2026-09-23; six-month moratorium on accepting, processing or approving applications for high-density data processing facilities, data centers and digital asset mining operations, runs to on or about 2027-01-14 or until permanent regulations take effect, whichever first.
+- **Detailed status:** Signed Ordinance 1314, passed/approved July 14, states six months from effectiveness or earlier effective permanent regulations. Its commencement requires passage, mayoral approval and publication. Signed zoning Ordinance 1317 was passed/approved September 8, but its effective-date section states no actual commencement rule. Publication, effectiveness and whether the moratorium ended under its condition remain unresolved; the legacy active classification is provisional. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** City drafting data center zoning regulations
 
 ### Butler County
@@ -80,7 +80,7 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Legal basis:** Resolution 2026-07 (Butler County Board of Supervisors), mirroring the Planning Commission's Resolution 2026-04 but striking language that would have excluded projects already under construction
 - **What prompted it:** Butler County has no zoning; a countywide survey (~800 responses) found roughly 90% support for a moratorium on the top land uses of concern (wind, solar, data centers, battery storage, landfill), following years of unregulated development including the in-progress Sandhills Energy solar project.
 - **Affected projects:** Sandhills Energy solar project (in development since 2019, construction reportedly started February 2026, ~$15M invested/$100M in equipment orders per company representative Brian Boerner) was initially covered by the moratorium as adopted, then later exempted after the company threatened litigation.
-- **Detailed status:** Active as of 2026-09-23, though modified: adopted 2026-03-16 as a 9-month moratorium (through approximately 2026-12-15) on wind, solar, data center, battery storage, and landfill land uses while the county completes a comprehensive plan and zoning regulations (targeted for completion around September 2026). Per Flatwater Free Press, after the threat of a lawsuit the county later exempted the ongoing Sandhills Energy solar project (which had been under development since 2019) from the moratorium.
+- **Detailed status:** Signed Resolution 2026-07 dated March 16 states nine months or earlier completion/adoption of county zoning regulations and comprehensive plan. Adoption minutes remove the proposed exclusion for projects under construction. A later solar exemption, amendments and operative ending were not established by this review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** 9-month countywide land-use moratorium adopted covering wind, solar, data centers, battery storage, and landfills, later amended to exempt an in-progress solar project.
 
 ### Cass County
@@ -112,7 +112,7 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Legal basis:** Board of Commissioners motion (2-1 vote); no separate ordinance or resolution number identified
 - **What prompted it:** County zoning rules did not address data centers; disagreement among commissioners about whether Nebraska law clearly authorizes such a moratorium.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; six-month pause on all conditional use permits effective 2026-07-14.
+- **Detailed status:** July 14 official minutes record a carried 2-1 motion imposing a six-month moratorium on conditional use permits effective that day. This is broader than data centers. The recorded motion does not establish later amendments or termination. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Custer County
