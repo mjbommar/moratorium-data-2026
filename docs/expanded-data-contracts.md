@@ -117,6 +117,12 @@ output hashes. The builder refuses to overwrite snapshots and records input and
 expanded-output hashes. Combined unreviewed claims remain private until excerpt
 and evidence review; the public census manifest is not canonical ballot promotion.
 
+Visual transcription reviews require a pinned claim, values, source PDF hash,
+page and rendering parameters. `visual_claim_review.py` rehashes the retained PDF
+and reproduces the approved page-image hash. This verifies the reviewed rendering
+chain, not the reviewer judgement, election certification or legal effect. The
+return audit reports visual verification separately from located text evidence.
+
 ## Dates and limitations
 
 `date_bounds` has inclusive earliest/latest possible **dates**, precision and

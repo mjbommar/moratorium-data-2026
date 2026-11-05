@@ -1,0 +1,95 @@
+{
+  "applied_at": "20261105T131201",
+  "answer_files": [
+    "work/answers/refresh-2026-11-05-wave2/AK-inventory.json"
+  ],
+  "stats": {
+    "outcome:status_changed": 1,
+    "fields_changed": 9,
+    "status_changed": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "ak-houston-undated",
+      "column": "date_enacted",
+      "before": "",
+      "after": "2026-10-08",
+      "reason": "Signed ordinance records adoption October 8.",
+      "source": "AK-inventory.json"
+    },
+    {
+      "moratorium_id": "ak-houston-undated",
+      "column": "date_enacted_iso",
+      "before": "",
+      "after": "2026-10-08",
+      "reason": "The ordinance identifies the adoption date.",
+      "source": "AK-inventory.json"
+    },
+    {
+      "moratorium_id": "ak-houston-undated",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Adoption date is explicit, distinct from the undated mayoral signature.",
+      "source": "AK-inventory.json"
+    },
+    {
+      "moratorium_id": "ak-houston-undated",
+      "column": "duration",
+      "before": "Ordinance No. 26-20 proposes a temporary two-year moratorium; introduced on the consent agenda at the September 10, 2026 regular council meeting, which set a public hearing and action vote for October 8, 2026. No adoption vote had occurred as of 2026-09-23. A separate, differently-worded ordinance to block data center construction failed 4-2 at the August 13, 2026 council meeting; Ordinance 26-20 is a distinct, later measure.",
+      "after": "Two calendar years from the effective date, unless repealed earlier or extended by subsequent ordinance. Effective upon passage and mayoral signature; signature date is not specified in the signed document.",
+      "reason": "Section 6 defines the term and its anchor.",
+      "source": "AK-inventory.json"
+    },
+    {
+      "moratorium_id": "ak-houston-undated",
+      "column": "duration_days",
+      "before": "730",
+      "after": "",
+      "reason": "Two years is a calendar term, not a fixed 730-day term.",
+      "source": "AK-inventory.json"
+    },
+    {
+      "moratorium_id": "ak-houston-undated",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Calendar-year terms now have an explicit vocabulary value; no fixed730-day approximation.",
+      "source": "AK-inventory.json"
+    },
+    {
+      "moratorium_id": "ak-houston-undated",
+      "column": "legal_basis",
+      "before": "Ordinance No. 26-20, City of Houston, Alaska (introduced 2026-09-10; public hearing/vote scheduled 2026-10-08)",
+      "after": "City of Houston Ordinance No. 26-20, adopted 2026-10-08 and signed by the mayor (signature date not stated).",
+      "reason": "City-published executed ordinance.",
+      "source": "AK-inventory.json"
+    },
+    {
+      "moratorium_id": "ak-houston-undated",
+      "column": "enacted_status",
+      "before": "pending",
+      "after": "active",
+      "reason": "Adoption and signature establish commencement under section 6; no later action was identified in the limited review. Current force remains provisional.",
+      "source": "AK-inventory.json"
+    },
+    {
+      "moratorium_id": "ak-houston-undated",
+      "column": "current_status",
+      "before": "Pending as of 2026-09-23. Ordinance 26-20, establishing a temporary two-year moratorium on the acceptance, processing, approval, or issuance of permits as well as construction, establishment, and operation of data centers within Houston city limits, was introduced on the council's September 10, 2026 consent agenda; a public hearing and council action vote are scheduled for October 8, 2026. The introduction followed an August 13, 2026 meeting at which a differently drafted anti-data-center ordinance failed 4-2, and coincides with council opposition to a proposed ~20,000-acre state land transfer to AIDEA (Alaska Industrial Development and Export Authority) near Houston that could host data centers.",
+      "after": "Adopted unanimously on 2026-10-08 and signed by the mayor. Section 6 makes the ordinance effective upon passage and signature for two years from that effective date, subject to earlier repeal or extension. The signature is undated; exact effective and expiration dates and any subsequent action remain unverified. [VERIFY exact signature/effective date and later status]",
+      "reason": "Executed ordinance establishes adoption and the effective-date rule; the review did not establish signature date or comprehensively check later actions.",
+      "source": "AK-inventory.json"
+    },
+    {
+      "moratorium_id": "ak-houston-undated",
+      "column": "outcome",
+      "before": "Two-year data center moratorium ordinance introduced 2026-09-10; hearing and vote scheduled 2026-10-08.",
+      "after": "Ordinance 26-20 adopted unanimously on 2026-10-08; the mayor signed the published ordinance. Exact signature and expiration dates are unverified.",
+      "reason": "Executed ordinance supersedes the earlier scheduled-hearing account.",
+      "source": "AK-inventory.json"
+    }
+  ]
+}

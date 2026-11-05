@@ -103,3 +103,9 @@ If you want access for replication purposes, contact [Michael](mailto:michael.bo
 ## License
 
 The code in this folder is licensed under [MIT](../LICENSE-code).
+
+Bounded SerpAPI calls record a diagnostic when returned URL hosts do not match
+explicit `site:` operators. Such calls do not support negative official-record
+findings. Retrospective diagnostics are in
+`work/audit/search-scope-diagnostics-2026-11-05.json`; the check is not full query
+semantics or keyword-relevance validation and does not trigger automatic retries.

@@ -54,12 +54,13 @@ def evidence_index(directory):
         elif hashlib.sha256(txt).hexdigest()!=e['text_sha256']:
             issues.append({'attempt_id':e['attempt_id'],'error':'text hash drift; explicit derivation required'});continue
         entry={'attempt_id':e['attempt_id'],'text':txt.decode('utf-8'),'text_artifact':str(text),
+               'body_artifact':str(body),
                'body_sha256':e['body_sha256'],'text_sha256':hashlib.sha256(txt).hexdigest()}
         for url in set([e['url'],e.get('final_url') or e['url']]):index[url].append(entry)
     return index,issues,dict(totals)
 
 
-def audit_expanded_evidence(records, index):
+def audit_expanded_evidence(records, index, visual_reviews=None):
     """Match each declared source version and quote to retained, verified bytes.
 
     This deliberately does not accept a URL alone as proof of a source version.
@@ -89,8 +90,14 @@ def audit_expanded_evidence(records, index):
             location=locate_quote(version['text'], quote)
             if location is not None:
                 artifact=version['text_artifact'];decoding=version.get('text_decoding','exact UTF-8 extraction');break
+        visual=False
+        if visual_reviews and claim['claim_id'] in visual_reviews:
+            from visual_claim_review import verify
+            source=next(s for s in values('source_documents') if s['source_document_id']==sid)
+            visual=verify(claim,source,index,visual_reviews[claim['claim_id']])
         proofs.append({'claim_id':claim['claim_id'],'source_document_id':sid,
                        'quote_located':location is not None,
+                       'visual_verified':visual,'evidence_verified':location is not None or visual,
                        'verified_span':location,'verified_text_artifact':artifact,
                        'verified_text_decoding':decoding})
     return issues,proofs
@@ -168,6 +175,20 @@ def audit(queue_path,runs):
     pilot=ROOT/'work/research/2026-11-05'
     reused,reuse_issues=pinned_evidence_index(pilot,pilot/'normalized-pilot/expected-inputs.json',
         MANIFEST_SHA256,load_lines(pilot/'normalized-pilot/source_documents.jsonl'))
+    # Ballot recovery workers may reuse earlier workers' retained observations.
+    # Shared availability does not erase integrity issues in the owning packet.
+    for job in queue['jobs']:
+        if not job['id'].startswith(('ballot-','recovery-ballot-')):continue
+        status_path=runs/job['id']/'status.json'
+        if not status_path.exists() or json.loads(status_path.read_text())['state'] not in ('finished','failed'):continue
+        spec=json.loads(Path(job['spec']).read_text())
+        shared,_,_=evidence_index(Path(spec['owned_paths'][0]))
+        for url,versions in shared.items():reused[url].extend(versions)
+    visual_registry=ROOT/'work/audit/visual-claim-reviews-2026-11-05.json'
+    visual_reviews=defaultdict(dict)
+    for rel in json.loads(visual_registry.read_text()) if visual_registry.exists() else []:
+        review=json.loads((ROOT/rel).read_text())
+        visual_reviews[review['job_id']][review['claim_id']]=review
     ballot_assignments=seed_assignments(ROOT/'work/research/2026-11-05/ballot-discovery/ballot-seeds.jsonl')
     schemas={name:json.loads((ROOT/'work/schemas'/file).read_text()) for name,file in
              [('inventory','research_decision.schema.json'),('state_policy','legislation_decision.schema.json')]}
@@ -235,11 +256,11 @@ def audit(queue_path,runs):
                 try:
                     errors,records=expanded_validate(path,ROOT/'data/moratorium_inventory.csv',ROOT/'data/state_legislation.csv')
                     row['expanded_schema_errors']=errors;row['expanded_counts']={k:len(v) for k,v in records.items()}
-                    source_issues,proofs=audit_expanded_evidence(records,idx)
+                    source_issues,proofs=audit_expanded_evidence(records,idx,visual_reviews.get(job['id']))
                     row['expanded_source_issues']=source_issues
                     row['expanded_evidence_proofs']=proofs
                     row['mechanically_review_ready']=not (errors or source_issues or issues or row['checks'] or any(coverage.values())
-                        or any(not p['quote_located'] for p in proofs))
+                        or any(not p['evidence_verified'] for p in proofs))
                 except Exception as e:row['checks'].append('expanded validator: '+type(e).__name__+': '+str(e)[:200])
             else:row['checks'].append('missing expanded ledgers')
         jobs.append(row)

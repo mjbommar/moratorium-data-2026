@@ -1,0 +1,1536 @@
+{
+  "observed_at": "2026-11-05T18:12:40.580050+00:00",
+  "serpapi_response_calls_scanned": 279,
+  "explicit_site_query_calls": 70,
+  "diagnostic_counts": {
+    "empty_result_set": 3,
+    "no_returned_url_in_declared_sites": 58,
+    "all_returned_urls_in_declared_sites": 6,
+    "partly_outside_declared_sites": 3
+  },
+  "calls": [
+    {
+      "job_id": "ca-inventory-001",
+      "attempt_id": "d1d1c47d98724b3a8fc7297901857814",
+      "query": "site:cityofdhs.org data center moratorium ordinance 2026",
+      "artifact_sha256": "7e85f29825332d1c07e76633fb5781fb7073fc1541544befd13fb38f7b2a6704",
+      "diagnostic": {
+        "status": "empty_result_set",
+        "declared_sites": [
+          "cityofdhs.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 0,
+        "observed_hosts": [],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-001",
+      "attempt_id": "c7bc9518070744e3b80dfba532d5c955",
+      "query": "site:indio.org data center moratorium ordinance 2026",
+      "artifact_sha256": "bc183c82c5a56d5468718b27a418f24b3f4b433b781d4e5d3e0e0a992d9b9bbc",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "indio.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "opc.maryland.gov",
+          "stackpath.ie",
+          "www.datacenterdynamics.com",
+          "www.globalactionplan.org.uk",
+          "www.linkedin.com",
+          "www.lowelltwp.org"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-001",
+      "attempt_id": "046e74d9a76a42fa91155ce5a8992ff2",
+      "query": "site:elmonteca.gov data center moratorium ordinance 2026",
+      "artifact_sha256": "c793b5f3c1763f18a8330d752fbd406f253921277c08a2fe11b24df52840b119",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "elmonteca.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "datacenters.ainowinstitute.org",
+          "www.facebook.com",
+          "www.scribd.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-001",
+      "attempt_id": "8fdb051d48aa4288af8125130361b933",
+      "query": "site:morganhill.ca.gov data center battery storage moratorium ordinance 2026",
+      "artifact_sha256": "ff9fedb97268c34b3e27d80f87b518cb325d723ff65a2533b49181f02fc66fa8",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "morganhill.ca.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "cloud.google.com",
+          "developer.chrome.com",
+          "developer.mozilla.org",
+          "www.energystorage.org",
+          "www.hpe.com",
+          "www.sciencedirect.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-001",
+      "attempt_id": "d28c79d398fe45e991fb2216ef7fedad",
+      "query": "site:cityofimperial.org \"data center\" ordinance 835 2026",
+      "artifact_sha256": "11e9ec7b0e9bdab614d590f2e95d42a24177d1f6df0da416ef0069b04507d5f8",
+      "diagnostic": {
+        "status": "all_returned_urls_in_declared_sites",
+        "declared_sites": [
+          "cityofimperial.org"
+        ],
+        "matching_hits": 6,
+        "nonmatching_hits": 0,
+        "observed_hosts": [
+          "cityofimperial.org",
+          "www.cityofimperial.org"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-001",
+      "attempt_id": "9d559c5dad8248ba8269d8295eaffb37",
+      "query": "site:baldwinpark.com data center moratorium ordinance 2026",
+      "artifact_sha256": "4053062b5a83392755ef3eadb8bd74f5a1181bc13202d92ce4f8422f648f9baa",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "baldwinpark.com"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "civiciq.com",
+          "datacenters.ainowinstitute.org",
+          "www.facebook.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-001",
+      "attempt_id": "518f2a127d864f738c47081bd567d3d7",
+      "query": "site:humboldtgov.org data center moratorium ordinance 2026",
+      "artifact_sha256": "60e10ecb8beef18eb78649e819ad716de4e96270455f0f8bd9971102a69580f8",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "humboldtgov.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "datacenters.ainowinstitute.org",
+          "opc.maryland.gov",
+          "www.facebook.com",
+          "www.thebanner.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-001",
+      "attempt_id": "dcf17ef02da5411f99f382b74d1d0b0f",
+      "query": "site:planning.lacounty.gov \"data center\" 2026 moratorium",
+      "artifact_sha256": "bde8013219b43c26faf8ad1457e0fcb4e446d4454a1931c6dbfdb420e3368469",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "planning.lacounty.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "thetechcapital.com",
+          "www.chicagobuildexpo.com",
+          "www.facebook.com",
+          "www.instituteforenergyresearch.org",
+          "www.reddit.com",
+          "www.yahoo.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-002",
+      "attempt_id": "9191e836e1bf45dfb3478664c8c07b96",
+      "query": "site:ci.patterson.ca.us data center moratorium ordinance 2026",
+      "artifact_sha256": "919f4032e90e08e046492e768350d28e31652884dd1725131723440329d713e3",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "ci.patterson.ca.us"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "ballotpedia.org",
+          "citizenportal.ai",
+          "civiciq.com",
+          "datacenters.ainowinstitute.org",
+          "www.facebook.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-002",
+      "attempt_id": "f33de597d6bc4b39bb6bd2727231bc8d",
+      "query": "site:morrobayca.gov battery storage moratorium ordinance 2026",
+      "artifact_sha256": "29b391649a5d1f998967b375f731ad68d908e42818e510875edcafd307f560d2",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "morrobayca.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "howtostoreelectricity.com",
+          "kwhi.com",
+          "nextgpower.com",
+          "vacaville.granicus.com",
+          "www.jdsupra.com",
+          "www.linkedin.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-002",
+      "attempt_id": "8e9734d8021d4ca2832fa5c559e63ffc",
+      "query": "site:ci.oakley.ca.us data center moratorium ordinance 2026",
+      "artifact_sha256": "ec32102e7b42c4be84e9f0b9e695c588306ac1949bbb03ead8e726e08012d822",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "ci.oakley.ca.us"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "bouldercolorado.gov",
+          "library.municode.com",
+          "www.chicago.gov",
+          "www.merriam-webster.com",
+          "www.phoenix.gov"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-002",
+      "attempt_id": "031ec294e8d84759acc6bc5ff601d40b",
+      "query": "site:palmspringsca.gov data center moratorium ordinance 2026",
+      "artifact_sha256": "bd00a090f249235c205f3cb32dd578c831b6845f232c36dc5bfb7ca9ace05405",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "palmspringsca.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "datacenters.ainowinstitute.org",
+          "www.facebook.com",
+          "www.scribd.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-002",
+      "attempt_id": "55f515ec48644ff2bf50c2085dd11312",
+      "query": "site:ci.richmond.ca.us data center moratorium ordinance 2026",
+      "artifact_sha256": "9453b3a13eb7ffe6325391ef672a6314e6c7c9b45f9cab7e832026fd858d8e92",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "ci.richmond.ca.us"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "data.gov",
+          "data.un.org",
+          "en.wikipedia.org",
+          "www.data.ai",
+          "www.mdpi.com",
+          "www.merriam-webster.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-002",
+      "attempt_id": "3c94ec1831a04f87a4a22667c40e8951",
+      "query": "site:sfbos.org data center moratorium Walton 2026 ordinance",
+      "artifact_sha256": "e9699aa4569adb7ff2c0dc18f1442ef9c4e28a85e73d92f19374076b96dde51e",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "sfbos.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "datacenters.ainowinstitute.org",
+          "files.sfplanning.org",
+          "www.facebook.com",
+          "www.huntington.in.us"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-002",
+      "attempt_id": "f414d89a75d248209189b57e504d6f6d",
+      "query": "site:sanjuancapistrano.org battery storage moratorium 1124 ordinance 2026",
+      "artifact_sha256": "4edb6ba1f648f2c6defd13c5952fc8189a939e3233e9ac59dcb0558b945ac6f4",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "sanjuancapistrano.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "renewablenw.org",
+          "www.facebook.com",
+          "www.goskagit.com",
+          "www.jdsupra.com",
+          "www.publicpower.org"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-002",
+      "attempt_id": "9fa8d899b9f347eeb2270afad0bf612f",
+      "query": "site:tularecounty.ca.gov data center moratorium ordinance September 2026",
+      "artifact_sha256": "45e66ceb810557bc7b0766c966f2924c540fb47ee271dea5a12419d593e217aa",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "tularecounty.ca.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "datacenters.ainowinstitute.org",
+          "www.jdsupra.com",
+          "www.scribd.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-001",
+      "attempt_id": "8431341abb444a8cba70aae98bb1285c",
+      "query": "site:annistonal.gov data center moratorium 2026 ordinance",
+      "artifact_sha256": "9e2fc2a93d250c6c02ecc746975a5689dc7c593b3c40dd6dcce6d9b9de080323",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "annistonal.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "hudsoncountyview.com",
+          "opc.maryland.gov",
+          "www.facebook.com",
+          "www.jdsupra.com",
+          "www.spokesman.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-001",
+      "attempt_id": "4846d098bdf94618a711c8efd3ea7e42",
+      "query": "site:cityofcalera.org data center moratorium July 2026 council",
+      "artifact_sha256": "5929f1564dccd25761187e24dde344539352b0c65e6bfa888d79874a5fb7ed28",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "cityofcalera.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "datacenters.ainowinstitute.org",
+          "www.facebook.com",
+          "www.jdsupra.com",
+          "www.masslive.com",
+          "www.thebanner.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-001",
+      "attempt_id": "54e06f85de684aaf9870599152d7c318",
+      "query": "site:cityofchelsea.com 2026-07-21-1407 data center moratorium",
+      "artifact_sha256": "b2caba43557087f1756e78c96446ca8aca414bf761411376e0a9c6e354d5fcd7",
+      "diagnostic": {
+        "status": "all_returned_urls_in_declared_sites",
+        "declared_sites": [
+          "cityofchelsea.com"
+        ],
+        "matching_hits": 6,
+        "nonmatching_hits": 0,
+        "observed_hosts": [
+          "cityofchelsea.com",
+          "www.cityofchelsea.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-001",
+      "attempt_id": "2a53044546f547588b784e48f1bc3068",
+      "query": "site:cullmanal.gov \"2026-116\" data center moratorium",
+      "artifact_sha256": "1c5fd9e5e8e14837d10ee3937620c73e6419f0c3323b3997c5faadc999113cad",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "cullmanal.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "sherwood.news",
+          "techjacksolutions.com",
+          "wisevoter.com",
+          "www.masslive.com",
+          "www.youarecurrent.com",
+          "x.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-001",
+      "attempt_id": "d338dcb14963454083f6fc5c9c404c17",
+      "query": "site:fairfieldal.gov \"1174\" data center moratorium",
+      "artifact_sha256": "04ddb85ae80eedfe16428e0a39398b4791092b48308f1cf898f9ee88c9c0489f",
+      "diagnostic": {
+        "status": "empty_result_set",
+        "declared_sites": [
+          "fairfieldal.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 0,
+        "observed_hosts": [],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-001",
+      "attempt_id": "aeba8c34ee2d4b498d19308642e280d2",
+      "query": "site:cityoffoley.org data center moratorium 2026 ordinance",
+      "artifact_sha256": "c6c83684c1caf4e64e15c0b496640221f98f6d6e1aab8d0d9a97f9b523ccc26a",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "cityoffoley.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "opc.maryland.gov",
+          "www.9news.com",
+          "www.facebook.com",
+          "www.jdsupra.com",
+          "www.scribd.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-001",
+      "attempt_id": "3d27b5eb2f444fd2a4dbf4bf7d2722f9",
+      "query": "site:fortpayne.org data center moratorium 2026 council",
+      "artifact_sha256": "9b446301b87b6d8b4c1637d62706d336414b8c3a1c8ee5303035a94cf8c6004a",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "fortpayne.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "publicleadershipinstitute.org",
+          "www.congress.gov",
+          "www.instagram.com",
+          "www.reddit.com",
+          "www.sfgate.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-001",
+      "attempt_id": "424ddd4ba56f48f79bea154e4ea8f09f",
+      "query": "site:harpersvilleal.gov data center moratorium ordinance 2026",
+      "artifact_sha256": "3d014917428faf21d3dbb1aba6270b2c28663d1de0d9c76fcfd8a00de8c45c70",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "harpersvilleal.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "datacenters.ainowinstitute.org",
+          "www.datacenterbans.com",
+          "www.facebook.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-003",
+      "attempt_id": "963275642af341298cc738d25f9a12db",
+      "query": "site:coachella.org ordinance 1229 1230 1231 data center moratorium 2026",
+      "artifact_sha256": "f3474ec187f581e176b8bdc423d31da88257f191fefb46b19ab8903549d7c51c",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "coachella.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "ceqanet.lci.ca.gov",
+          "citizenportal.ai",
+          "civiciq.com",
+          "www.facebook.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-003",
+      "attempt_id": "94949ca404104b0da0166b51ee2f0ee6",
+      "query": "site:covinaca.gov ordinance 25-04 25-10 battery storage moratorium",
+      "artifact_sha256": "d161dcb33b076d0e06aaa5eaaa538c21174c60116e406f2dd68a9f51a60ec404",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "covinaca.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "www.facebook.com",
+          "www.warrencounty.in.gov"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-003",
+      "attempt_id": "d298177066fc4be2b4630dd52869537b",
+      "query": "site:imperialcounty.org ordinance 1616 1618 data center moratorium court",
+      "artifact_sha256": "8a52d6f84cc399a55c067554c2e42126cbc4206d01bd1545300d9917f8d12fd0",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "imperialcounty.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "1618asianfusion.com",
+          "en.wikipedia.org",
+          "www.ncbi.nlm.nih.gov",
+          "www.oklegislature.gov",
+          "www.reddit.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-003",
+      "attempt_id": "47d0b34800bd4c619a4360e698baeda1",
+      "query": "site:irwindaleca.gov ordinance 819 821 data center moratorium 2026",
+      "artifact_sha256": "f37c439d4a8771330f23286ec7c6403b530d8638f42874562c091839df6c2fd1",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "irwindaleca.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "hartandcooley.com",
+          "statutes.capitol.texas.gov",
+          "www.821rva.com",
+          "www.reddit.com",
+          "www.rfc-editor.org",
+          "www.youtube.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-003",
+      "attempt_id": "117479cd1bb24c40bd96860e7de69d25",
+      "query": "site:montebelloca.gov 2491 data center moratorium ordinance 2026",
+      "artifact_sha256": "a40631b83b895109e50e77ce656b64e3d70474d210e18ece8c7e9dde85a63a30",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "montebelloca.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "www.facebook.com",
+          "www.midfloridanewspapers.com",
+          "www.scribd.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-003",
+      "attempt_id": "7026db6d2d884cf39437ba66871ccf3c",
+      "query": "site:montereypark.ca.gov ordinance 2272 2274 measure NDC moratorium",
+      "artifact_sha256": "e6af33e19aa034db31bab03e0bc3e480111cffe8fba700373934dcb7e789228c",
+      "diagnostic": {
+        "status": "all_returned_urls_in_declared_sites",
+        "declared_sites": [
+          "montereypark.ca.gov"
+        ],
+        "matching_hits": 2,
+        "nonmatching_hits": 0,
+        "observed_hosts": [
+          "www.montereypark.ca.gov"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-003",
+      "attempt_id": "e6181429338e4b3da65cd61297bbf2c7",
+      "query": "site:ocgov.com battery storage moratorium ordinance 25-017 2025",
+      "artifact_sha256": "166bd813e55eaf47a6ddf0d7bd62fc6152c3956bf371830c5be073334b41492b",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "ocgov.com"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "municipality-management.s3.us-east-2.amazonaws.com",
+          "www.facebook.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ca-inventory-003",
+      "attempt_id": "2a5d95cc1e704eee8d1908970cb6f8b5",
+      "query": "site:solanocounty.com battery storage moratorium ordinance 2025 2024",
+      "artifact_sha256": "9ba7b16b893b9e17ae7963da25ecd0b089d000efa0c5093d3c4c85bc317cfd38",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "solanocounty.com"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "cdn.ymaws.com",
+          "ceqanet.lci.ca.gov",
+          "citizenportal.ai",
+          "www.energy-storage.news",
+          "www.facebook.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-003",
+      "attempt_id": "c9908f7b5cee46bca558518e5121c738",
+      "query": "site:birminghamal.gov data center moratorium ordinance 2026 zoning council",
+      "artifact_sha256": "3007e4932b77b55fa405404d4a61bb10c8ddfaca8ccd50febc92b9073462d19a",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "birminghamal.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "www.facebook.com",
+          "www.midfloridanewspapers.com",
+          "www.scribd.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-003",
+      "attempt_id": "9ced8c4d4fea4e0d9a524cbf691d88c6",
+      "query": "site:gov Springville Alabama city council data center moratorium July 2026 ordinance",
+      "artifact_sha256": "a92a560c68367a82a157dad03da9e4b95fc722d55d50c174203a86d7c8c1c035",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "www.facebook.com",
+          "www.therandolphleader.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-003",
+      "attempt_id": "d43d418ff9de49f4bf910d097dd24f18",
+      "query": "site:gov Tarrant Alabama ordinance 1177 data center moratorium council",
+      "artifact_sha256": "012e9fa39706a4f3e89a6a9946cacf53e14bed5a5208d6d32f28acff49363f13",
+      "diagnostic": {
+        "status": "partly_outside_declared_sites",
+        "declared_sites": [
+          "gov"
+        ],
+        "matching_hits": 1,
+        "nonmatching_hits": 5,
+        "observed_hosts": [
+          "arctic-council.org",
+          "www.cdacouncil.org",
+          "www.dfwworld.org",
+          "www.npfmc.org",
+          "www.sba.gov",
+          "www.ssrc.org"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-003",
+      "attempt_id": "2ac97ddf10554c76afceb009c61e4e39",
+      "query": "site:gov Somerville Alabama town council data center moratorium 2026 ordinance",
+      "artifact_sha256": "e03668ccb0b8ebf7f1faafffbde3a25d8138e6288e17f3088e4415910fa4b029",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "www.facebook.com",
+          "www.lowelltwp.org"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ar-inventory-001",
+      "attempt_id": "776b89a5a0324273b49c73f0e4e4e914",
+      "query": "site:unioncountyar.com ordinance 1795 data center moratorium 2026",
+      "artifact_sha256": "2f38d9266c8ba08e0a9dd077b75f0efed2d9c8d9e975d14835f241bc22e2f681",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "unioncountyar.com"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "opc.maryland.gov",
+          "readthereporter.com",
+          "scorepropertygroup.com",
+          "www.linkedin.com",
+          "www.therandolphleader.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ar-inventory-001",
+      "attempt_id": "ff52df09e34a4f6a885afcefd8dc0c6b",
+      "query": "site:independencecounty.com data center moratorium ordinance 2026",
+      "artifact_sha256": "750136a15e7f9f1a89fefe9c6c7ac3ee89dd9507e5e9c8d5190f1aeeb55ac5b2",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "independencecounty.com"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "civiciq.com",
+          "stackpath.ie",
+          "townofpaonia.colorado.gov",
+          "www.datacenterdynamics.com",
+          "www.globalactionplan.org.uk",
+          "www.linkedin.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ar-inventory-001",
+      "attempt_id": "1ef26083fdda49a4a7e17b01ac9f90b0",
+      "query": "site:harrisonar.gov ordinance 1515 moratorium repeal 2023",
+      "artifact_sha256": "cbc350ab4f5e7e32b009c354ec7127a999f65512bdca274eee2ce4d587338b24",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "harrisonar.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "emiratitimes.com",
+          "go.rti.org",
+          "legistarweb-production.s3.amazonaws.com",
+          "www.frontlinepss.com",
+          "www.instagram.com",
+          "www.khaleejtimes.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ar-inventory-001",
+      "attempt_id": "ba9d7182c65c447f9b718a1102df4d61",
+      "query": "site:russellvillearkansas.org 2026 data center moratorium ordinance July",
+      "artifact_sha256": "ea32b0504071fab4c2c12427bde8ecaf280ce36f663a29a85839529fa7d7d7c9",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "russellvillearkansas.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "datacenters.ainowinstitute.org",
+          "opc.maryland.gov",
+          "www.chicagobuildexpo.com",
+          "www.jdsupra.com",
+          "www.theaiconsultingnetwork.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ar-inventory-001",
+      "attempt_id": "a6d4118be0c24dec85b3de2931fa2ce8",
+      "query": "site:madisoncountyar.gov 2026 data center moratorium ordinance quorum",
+      "artifact_sha256": "3e56f44c6156bc6de06e3d5a04a88e02d1a3170a17666b354a78328c6f435de1",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "madisoncountyar.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "github.com",
+          "nvd.nist.gov",
+          "openai.com",
+          "www.cve.org",
+          "www.theiacp.org"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ar-inventory-001",
+      "attempt_id": "b077690543d64544b9777ab98545400a",
+      "query": "site:carrollcountyar.gov 2026 data center moratorium ordinance quorum",
+      "artifact_sha256": "9b118b99e053650e3d55233693158461586af881b43e434d1a556bc46d1b0749",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "carrollcountyar.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "civicclerk.blob.core.windows.net",
+          "readthereporter.com",
+          "stopohiodatacenters.org",
+          "www.facebook.com",
+          "www.yahoo.com",
+          "www.youarecurrent.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ak-inventory-001",
+      "attempt_id": "315f5ffbd55b4fccb5a7cd9d10822f05",
+      "query": "site:houston-ak.gov \"26-20\" \"2026\" council data center",
+      "artifact_sha256": "48200a650c90a0b9176876d4bcf65f1ef462009ba1021e08847414a9fecdf4e7",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "houston-ak.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "bebeez.eu",
+          "www.dbta.com",
+          "www.linkedin.com",
+          "www.luminik.io",
+          "www.worldteleport.org"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-002",
+      "attempt_id": "e6652cd3884241a2941af0fbf97b184d",
+      "query": "Morgan County Alabama resolution 26-302 data center moratorium site:co.morgan.al.us",
+      "artifact_sha256": "19b27b2cb33e20c3b9b0541c9ed89b49a01b507cea6d9abf9db45afe517a0f87",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "co.morgan.al.us"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "birminghamwatch.org",
+          "citizenportal.ai",
+          "www.facebook.com",
+          "www.youtube.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-002",
+      "attempt_id": "6a3a52b151a3471c97a0e320ae1ba06c",
+      "query": "Leeds Alabama council data center moratorium 2026 site:leedalabama.gov OR site:leedsalabama.gov",
+      "artifact_sha256": "21e6bb6d52f800124c4947979dda5151420e0611ada0a35c12797b0ddbecebb7",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "leedalabama.gov",
+          "leedsalabama.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "irp.cdn-website.com",
+          "www.instagram.com",
+          "www.therandolphleader.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-002",
+      "attempt_id": "ffd4a654298b4a54af0c432b07cde582",
+      "query": "Pinson Alabama data center moratorium council 2026 site:thecityofpinson.com OR site:pinsonalabama.org",
+      "artifact_sha256": "7326f27a5fef6865bbc75b00876947cb76791095a517831ff52633bd57624454",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "pinsonalabama.org",
+          "thecityofpinson.com"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "www.bizjournals.com",
+          "www.facebook.com",
+          "www.instagram.com",
+          "www.wbrc.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-002",
+      "attempt_id": "43f216f4cbe0463f99c3a2df515ee306",
+      "query": "Homewood Alabama data center moratorium 2026 site:homewoodal.gov",
+      "artifact_sha256": "9f25eee1d34f6089885aa964ad760639e0234e1b5acc665f86243d4a9c90e31e",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "homewoodal.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "www.birminghamtimes.com",
+          "www.facebook.com",
+          "www.wbhm.org",
+          "www.wbrc.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-002",
+      "attempt_id": "afd3df68b1474f90a843132c25fcc684",
+      "query": "Prichard Alabama data center moratorium council 2026 site:cityofprichard.org OR site:thecityofprichard.org",
+      "artifact_sha256": "146689a3e77d792c53cbf00d17f50d25e2e5c97dc55fca8da3fd2696cc8b9ece",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "cityofprichard.org",
+          "thecityofprichard.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "www.facebook.com",
+          "www.instagram.com",
+          "www.therandolphleader.com",
+          "www.trussvilletribune.com",
+          "www.wbrc.com",
+          "www.youtube.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-002",
+      "attempt_id": "40597ee1be8c4b75ab3f8718b2d3d7d3",
+      "query": "Rogersville Alabama data center moratorium town council 2026 site:rogersvillealabama.com OR site:rogersvilleal.gov",
+      "artifact_sha256": "c6cdf1299d0a4e061de19c92e9eaa03a12189f2c786b9bfbc2b0e6bc22c9d435",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "rogersvilleal.gov",
+          "rogersvillealabama.com"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "irp.cdn-website.com",
+          "www.facebook.com",
+          "www.theloadreport.com",
+          "www.wkrg.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-002",
+      "attempt_id": "e7a872f7dd60480e82819a2d8410db1f",
+      "query": "Helena Alabama data center moratorium 2026 site:cityofhelena.org",
+      "artifact_sha256": "26ea7a862832195e5fac4b4404f339d039dc45b5d20e374ce458cbfcc95f4af9",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "cityofhelena.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "centersantafe.org",
+          "department.va.gov",
+          "getcenter.com",
+          "www.pewresearch.org",
+          "www.youtube.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "al-inventory-002",
+      "attempt_id": "ba16c52464ed470aadf7b737cbc6b57d",
+      "query": "Hueytown Alabama city council moratorium data center 2026 site:hueytownal.gov",
+      "artifact_sha256": "d4c449478524dc94a37a18ecd25a59f0ad75445612f0ab5587d17348551895fe",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "hueytownal.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "www.instagram.com",
+          "www.tiktok.com",
+          "www.townofgurleyal.com",
+          "www.yahoo.com",
+          "www.youtube.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "az-inventory-001",
+      "attempt_id": "6e95240f1f864d9492ab5a2bd5d18eb2",
+      "query": "site:pima.gov August 11 2026 data center moratorium 120 days board supervisors",
+      "artifact_sha256": "a58c84c8ac8d8b38ff42af23e3b505662914f7a9fc54f5bfa4107ef27e792995",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "pima.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "okenergytoday.com",
+          "www.facebook.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "discovery-al",
+      "attempt_id": "64a4c83936074f6cb60735495f927c3b",
+      "query": "Alabama city council data center moratorium ordinance 2026 site:gov",
+      "artifact_sha256": "4621763ca641cb9bc3ce163798495143a1d02a6a13e13858da05b8e4255b8d3e",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 10,
+        "observed_hosts": [
+          "abc3340.com",
+          "birminghamwatch.org",
+          "irp.cdn-website.com",
+          "www.birminghamtimes.com",
+          "www.facebook.com",
+          "www.instagram.com",
+          "www.reddit.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "discovery-al",
+      "attempt_id": "aefe04e96a364c41a2239e1c2d95ebe0",
+      "query": "Alabama county solar farm moratorium ordinance zoning site:gov",
+      "artifact_sha256": "0be2ca42eef394765e33ab991185e4351e43591f3e2c1c1e1b6083c534084d5f",
+      "diagnostic": {
+        "status": "partly_outside_declared_sites",
+        "declared_sites": [
+          "gov"
+        ],
+        "matching_hits": 1,
+        "nonmatching_hits": 9,
+        "observed_hosts": [
+          "en.wikipedia.org",
+          "farmpalmsprings.com",
+          "farmrio.com",
+          "farmusa.org",
+          "grantsfarm.com",
+          "nationaldairyfarm.com",
+          "www.farm-bloomington.com",
+          "www.farmbluffton.com",
+          "www.fsa.usda.gov",
+          "www.youtube.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "discovery-al",
+      "attempt_id": "bc89f2cd39594838844983380c20de75",
+      "query": "Alabama county wind farm moratorium ordinance zoning site:gov",
+      "artifact_sha256": "f4e4e54829f8bdda9e9ae6009e3f10fc4bf84101ed702cc991fe1ab8db43789e",
+      "diagnostic": {
+        "status": "partly_outside_declared_sites",
+        "declared_sites": [
+          "gov"
+        ],
+        "matching_hits": 1,
+        "nonmatching_hits": 9,
+        "observed_hosts": [
+          "blogs.law.columbia.edu",
+          "www.energy.gov",
+          "www.facebook.com",
+          "www.fayette-co-oh.com",
+          "www.getbasepoint.com",
+          "www.newsweek.com",
+          "www.scribd.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "discovery-ar",
+      "attempt_id": "f64ea854dca04f059a5b3a9b221b7d76",
+      "query": "Arkansas data center moratorium county ordinance 2026 site:gov OR site:ar.gov",
+      "artifact_sha256": "774bb480432417900a8ce40cf2191532c292cb5c3d59091a541f260f7d301eb7",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "ar.gov",
+          "gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "armoneyandpolitics.com",
+          "www.arkleg.state.ar.us",
+          "www.facebook.com",
+          "www.instagram.com",
+          "www.reddit.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "discovery-ar",
+      "attempt_id": "8785977f5eee42129f581526a589a339",
+      "query": "Arkansas battery storage moratorium ordinance county city site:gov OR site:ar.gov",
+      "artifact_sha256": "2b08860e07f3fd5c91cc7b7a5a6278271825b467527f25ec4ea2e89feed1a6d4",
+      "diagnostic": {
+        "status": "all_returned_urls_in_declared_sites",
+        "declared_sites": [
+          "ar.gov",
+          "gov"
+        ],
+        "matching_hits": 6,
+        "nonmatching_hits": 0,
+        "observed_hosts": [
+          "aviationweather.gov",
+          "ladwp.gov",
+          "nystateofhealth.ny.gov",
+          "studentaid.gov",
+          "www.bls.gov",
+          "www.marylandhealthconnection.gov"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "discovery-ar",
+      "attempt_id": "d28c9eacbcac4de9b91e6f8870aa1f39",
+      "query": "Arkansas solar moratorium ordinance county site:gov OR site:ar.gov",
+      "artifact_sha256": "e89619c101ea8b714882cba3f9405b2c7c8593af171a4c7d65d8d1c86e1e9ee3",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "ar.gov",
+          "gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "ezel.ai",
+          "modelclimatelaws.org",
+          "www.facebook.com",
+          "www.kait8.com",
+          "www.lexology.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "discovery-ar",
+      "attempt_id": "9706bdc20f784137b4d5439bbe9d6b1b",
+      "query": "Arkansas cryptocurrency mining moratorium ordinance county site:gov OR site:ar.gov",
+      "artifact_sha256": "6ae6725ce988e5f9f27d7e79f26ebb721cd133421e7ba266f8990179f9c6222b",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "ar.gov",
+          "gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "katv.com",
+          "www.facebook.com",
+          "www.kait8.com",
+          "www.ky3.com",
+          "www.youtube.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "discovery-az",
+      "attempt_id": "8a56fb1c483e4408936bf62aa363f1e7",
+      "query": "site:apachecountyaz.gov renewable energy moratorium ordinance 2026",
+      "artifact_sha256": "b16b01a53d0a34360b35bc3e8e5ba058ea7a1072d4e30939db80af9b6d974756",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "apachecountyaz.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "moenvironment.org",
+          "www.climatesolutionslaw.com",
+          "www.facebook.com",
+          "www.jdsupra.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "discovery-de",
+      "attempt_id": "7acfe43c16954cd5a1c2d8e929bd2af1",
+      "query": "site:cityofdover.gov \"large energy use\" moratorium ordinance",
+      "artifact_sha256": "49ec64d3e04af4aa2f3bf74ff86d7d675464c52c937e2f284405c0dbdc9b8e2d",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "cityofdover.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "datacenters.ainowinstitute.org",
+          "townofhampden.wi.gov",
+          "www.facebook.com",
+          "www.instagram.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "discovery-ct",
+      "attempt_id": "a649e3de5d6c4ba5b62012109604b57e",
+      "query": "site:portal.ct.gov 2026 ballot question data center solar battery referendum town",
+      "artifact_sha256": "377e646032a58b5bcdb5eeb6577177936fe6a9da72e7f767c4bd211adb927e50",
+      "diagnostic": {
+        "status": "all_returned_urls_in_declared_sites",
+        "declared_sites": [
+          "portal.ct.gov"
+        ],
+        "matching_hits": 2,
+        "nonmatching_hits": 0,
+        "observed_hosts": [
+          "portal.ct.gov"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ballot-oh-004",
+      "attempt_id": "64f91ff48e044ab8874ca27ad11f4f7b",
+      "query": "site:boe.ohio.gov/adams 2026 general election sprigg township proposed zoning plan results",
+      "artifact_sha256": "1490a55d00a3b7e25f48a42cb854c7fab534a3bde9124cc4c3882ab305a83b31",
+      "diagnostic": {
+        "status": "all_returned_urls_in_declared_sites",
+        "declared_sites": [
+          "boe.ohio.gov"
+        ],
+        "matching_hits": 2,
+        "nonmatching_hits": 0,
+        "observed_hosts": [
+          "www.boe.ohio.gov"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "ballot-me-001",
+      "attempt_id": "8bbbcf42d37449819dfdb92cff90c82b",
+      "query": "site:northberwick.org November 3 2026 data center question 2 warrant results",
+      "artifact_sha256": "5634ebca55b9d05cbf3289000038a6182e8a4e7b6fad58e9bc75813150526f4a",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "northberwick.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "diginomica.com",
+          "macaubusiness.com",
+          "orangeslices.ai",
+          "thetimesweekly.com",
+          "www.reuters.com",
+          "www.universalhub.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "discovery-nd",
+      "attempt_id": "3c35fd35ae8e44e7ad9b3f7ff1a53379",
+      "query": "site:ndlegis.gov data center battery solar wind cryptocurrency 2025 2026 legislation moratorium",
+      "artifact_sha256": "3e18008cc6deb07474e74462d7aa8883632b23a3985d4fe36cb1c75d16b3a41a",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "ndlegis.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "en.wikipedia.org",
+          "globalenergymonitor.org",
+          "wind.nasa.gov",
+          "www.merriam-webster.com",
+          "www.windbuffalo.com",
+          "www.wkrg.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "discovery-nh",
+      "attempt_id": "c937a5d8df004b69bfd5abc66004dcca",
+      "query": "site:keenenh.gov \"moratorium\" \"data centers\" ordinance planning board 2026",
+      "artifact_sha256": "96b1033157e62278123db0e570bc86811645ae2cc79f0db18da2efbae9c786e6",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "keenenh.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "library.municode.com",
+          "planning.lacity.gov",
+          "www.boston.gov",
+          "www.cambridgema.gov",
+          "www.chicago.gov",
+          "www.merriam-webster.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "recovery-ballot-me-001",
+      "attempt_id": "deb226e649804d44b023eba7a4efcadf",
+      "query": "site:freedomme.org 2026 election results moratorium ballot",
+      "artifact_sha256": "9b1c789b40f6c2c5094e1012121d0b1397ff846eff8ce9140dfe3e053fd72ba0",
+      "diagnostic": {
+        "status": "empty_result_set",
+        "declared_sites": [
+          "freedomme.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 0,
+        "observed_hosts": [],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "hayward",
+      "attempt_id": "52ca19801eff40979954d4bc7cecf59c",
+      "query": "site:hayward-ca.gov OR site:hayward.legistar.com \"moratorium\" \"data centers\" \"2026\" \"ordinance\"",
+      "artifact_sha256": "1428276a7c67583bd256857bfae96105e8a8edcc651a64028284c63b714ab0d6",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "hayward-ca.gov",
+          "hayward.legistar.com"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "civiciq.com",
+          "www.facebook.com",
+          "www.yahoo.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "hayward",
+      "attempt_id": "000d412d840c4aa3a162c5436ea4c490",
+      "query": "site:hayward.legistar.com \"data centers\" \"10/20/2026\"",
+      "artifact_sha256": "7e63667ffdb4feb94b9e94c38045301461e63b3b62093a11ffe2cac61d17005d",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "hayward.legistar.com"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "datacenters.halttheharm.net",
+          "dataxconnect.com",
+          "ionanalytics.com",
+          "www.aterio.io",
+          "www.instagram.com",
+          "www.linkedin.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "job_id": "houston",
+      "attempt_id": "b044704f15d24851ba222e1f357d1e84",
+      "query": "site:houstonak.us \"26-20\" moratorium repeal amendment",
+      "artifact_sha256": "942554512264bff7c4218fdc73d3825e76f217bd9673799e89f05c906025b008",
+      "diagnostic": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "houstonak.us"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "deep-sea-conservation.org",
+          "www.federalregister.gov",
+          "www.insurance.ca.gov",
+          "www.merriam-webster.com",
+          "www.youtube.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    }
+  ],
+  "scope": "Retrospective URL-host diagnostic for retained bounded-client SerpAPI responses only. A query can carry an explicit site operator while returned hosts do not match. This is not evidence of absence, a causal attribution to the provider, complete keyword relevance analysis or validation of ambiguous OR branches. No calls retried and no legal claims accepted."
+}

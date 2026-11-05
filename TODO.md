@@ -91,6 +91,7 @@ Exit: accepted pilot report and separately authorized bounded collection scope.
 - [ ] Re-research every existing local inventory ID and publish confirmed/changed/unresolved/not-attempted freshness accounting.
 - [ ] Re-research every state-policy ID and discover new state actions across all 50 states and existing sectors.
 - [ ] Search new local instruments across all 50 states/sectors and document actual jurisdiction/time coverage.
+- [ ] Review site-operator search scope diagnostics and repair deficient official-record searches before accepting any negative coverage finding (`work/audit/search-scope-diagnostics-2026-11-05.json`).
 - [ ] Define and budget the project/disclosure refresh scope separately; retain dated snapshots where full recollection is outside scope.
 - [ ] Seed candidate lists from Ballotpedia, Duane Morris, Redbud and independently found official sources.
 - [x] Compile all 22 terminal ballot jobs into a candidate review snapshot: 58 observations, 56 logical seed groups, pinned inputs and explicit Illinois duplicate identities (`work/research/2026-11-05/ballot-census-review/`). Evidence, census completeness and legal promotion remain open.

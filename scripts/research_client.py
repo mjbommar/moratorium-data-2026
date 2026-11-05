@@ -12,11 +12,27 @@ import fcntl
 import hashlib
 import json
 from pathlib import Path
+import re
+from urllib.parse import urlsplit
 import uuid
 
 
 def timestamp():
     return dt.datetime.now(dt.timezone.utc).isoformat()
+
+
+def search_scope(query,hits):
+    sites=sorted(set(m.group(1).lower().strip('.') for m in re.finditer(
+        r'(?<![-\w])site:([a-z0-9.-]+)',query,re.I)))
+    sites=[s for s in sites if s]
+    if not sites:return {'status':'not_evaluated','declared_sites':[]}
+    hosts=[(urlsplit(h['url']).hostname or '').lower() for h in hits]
+    matched=sum(any(host==s or host.endswith('.'+s) for s in sites) for host in hosts)
+    state=('empty_result_set' if not hits else 'no_returned_url_in_declared_sites' if not matched
+           else 'all_returned_urls_in_declared_sites' if matched==len(hits) else 'partly_outside_declared_sites')
+    return {'status':state,'declared_sites':sites,'matching_hits':matched,
+            'nonmatching_hits':len(hits)-matched,'observed_hosts':sorted(set(hosts)),
+            'scope':'Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources.'}
 
 
 def reserve(directory, kind):
@@ -95,6 +111,8 @@ async def execute(args):
             metadata.update(query=args.query, hits=len(result.hits), cost_usd=result.cost_usd,
                             unpriced=result.cost_usd is None, exchanges=exchanges,
                             retry_policy="single provider attempt; failures retain reservation")
+            if args.backend=='serpapi':
+                metadata['query_scope_check']=search_scope(args.query,payload['hits'])
         else:
             from bc_web import Retriever
             from bc_web.settings import BcWebSettings

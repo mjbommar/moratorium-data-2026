@@ -11,6 +11,19 @@ spec.loader.exec_module(client)
 
 
 class ClientTests(unittest.TestCase):
+    def test_site_diagnostic_uses_hostname_not_url_substrings(self):
+        r=client.search_scope('site:example.gov moratorium',[
+            {'url':'https://records.example.gov/ordinance'},
+            {'url':'https://example.gov.evil.test/path/example.gov'}])
+        self.assertEqual(r['status'],'partly_outside_declared_sites')
+        self.assertEqual(r['matching_hits'],1)
+
+    def test_site_diagnostic_does_not_treat_scope_failure_as_absence(self):
+        r=client.search_scope('site:example.gov repeal',[{'url':'https://dictionary.test/repeal'}])
+        self.assertEqual(r['status'],'no_returned_url_in_declared_sites')
+        self.assertEqual(client.search_scope('site:example.gov repeal',[])['status'],'empty_result_set')
+        self.assertEqual(client.search_scope('moratorium -site:example.gov',[])['status'],'not_evaluated')
+
     def test_interrupted_reservation_cannot_reset_budget(self):
         with tempfile.TemporaryDirectory() as d:
             p = Path(d)

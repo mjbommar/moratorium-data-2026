@@ -8,15 +8,15 @@ California status checks remain unresolved. These working totals do not mean tha
 every record has been freshly verified through November 5. The ballot-model pilot
 is still a review-stage dataset, not a completed ballot census or legal-effect map.
 
-Further working changes include the Westover instrument correction, four California historical corrections, verified Monterey Park election observations, and Hayward Ordinance 26-09 added from the Council action record and City announcement. Hayward's final adopted term and later history remain flagged. Candidate ballot reviews and the omission-recovery queue remain separate from canonical promotion.
+Further working changes include the Westover instrument correction, four California historical corrections, verified Monterey Park election observations, and Hayward Ordinance 26-09 added from the Council action record and City announcement. Hayward's final adopted term and later history remain flagged. Houston, Alaska's signed October 8 adoption now replaces the pending classification; its two-year calendar term has no guessed exact expiry. Candidate ballot reviews and the omission-recovery queue remain separate from canonical promotion.
 
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1292** |
-| In force (active or extended) | **1064** |
-| Proposed, not yet voted on | **77** |
+| In force (active or extended) | **1065** |
+| Proposed, not yet voted on | **76** |
 | Ended (replaced, expired, or rescinded) | **151** |
-| Rows we still want to confirm (`[VERIFY]`) | **302** |
+| Rows we still want to confirm (`[VERIFY]`) | **303** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
