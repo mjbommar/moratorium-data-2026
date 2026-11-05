@@ -1,0 +1,58 @@
+{
+  "state_abbrev": "ND",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "nd-williams-county-2023",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "The county staff report states six months; the legacy day count is an approximation, not a source-specified fixed-day duration."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Original duration is six calendar months, with a separately documented later extension."
+        },
+        "current_status": {
+          "from": "Replaced",
+          "to": "A January 2024 county staff report describes the original June 20, 2023 permit moratorium as six months. Later data-center zoning amendments are separate events; the complete transition from moratorium to regulations was not established by this review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Bound historical source support separately from current-force acceptance."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "legal_basis",
+          "marker": "[VERIFY 2023 motion/resolution number from Williams County clerk's archived June 20, 2023 and November 7, 2023 minutes \u2014 not on current public page as of 2026-04-29]",
+          "resolution": "still_unverifiable",
+          "note": "Staff report records the actions but does not supply an original motion or resolution number; the relevant 2023 original minutes were not recovered."
+        }
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://williamsnd.civicweb.net/document/163758/Williams%20County%20Zoning%20Ordinance%20and%20Subdivisio.pdf?handle=4766A89FF8304B71BCF049C5C518DE6D",
+          "title": "Staff report for January 2, 2024 commission meeting",
+          "publisher": "Williams County",
+          "document_date": "2024-01-02",
+          "source_type": "staff_report",
+          "supports": "Original permit moratorium was expressed in months rather than fixed days.",
+          "quote": "On June 20, 2023, The Williams County Board of County Commission instituted a 6-month"
+        },
+        {
+          "url": "https://www.williamsnd.com/documents/zoning-ordinance-and-subdivision-regulations/",
+          "title": "Zoning Ordinance and Subdivision Regulations",
+          "publisher": "Williams County",
+          "source_type": "other",
+          "supports": "County lists the later data-center amendments; this webpage observation is not the original adoption record.",
+          "quote": "August 20, 2024: Amended to add Data Centers (Chapter 6-16) to other conditional uses in an Agricultural District"
+        }
+      ],
+      "notes": "Correction is limited to original term representation. The staff report states extension to February 22, 2024; the January 2024 regulation and August 2024 agricultural amendment are separate events. No new effective-end date is inferred."
+    }
+  ],
+  "new_candidates": []
+}

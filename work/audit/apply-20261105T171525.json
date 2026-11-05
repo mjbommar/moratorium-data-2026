@@ -1,0 +1,152 @@
+{
+  "applied_at": "20261105T171525",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-dakota-nebraska-a/nd-answers.json",
+    "work/research/2026-11-05/reviewed-dakota-nebraska-a/ne-answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 4,
+    "fields_changed": 17,
+    "verify_still_open": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "nd-williams-county-2023",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "The county staff report states six months; the legacy day count is an approximation, not a source-specified fixed-day duration.",
+      "source": "nd-answers.json"
+    },
+    {
+      "moratorium_id": "nd-williams-county-2023",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Original duration is six calendar months, with a separately documented later extension.",
+      "source": "nd-answers.json"
+    },
+    {
+      "moratorium_id": "nd-williams-county-2023",
+      "column": "current_status",
+      "before": "Replaced",
+      "after": "A January 2024 county staff report describes the original June 20, 2023 permit moratorium as six months. Later data-center zoning amendments are separate events; the complete transition from moratorium to regulations was not established by this review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Bound historical source support separately from current-force acceptance.",
+      "source": "nd-answers.json"
+    },
+    {
+      "moratorium_id": "ne-gage-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "The reported 12-month term is a calendar term; 365 fixed days is not equivalent.",
+      "source": "ne-answers.json"
+    },
+    {
+      "moratorium_id": "ne-gage-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Reported in months; operative text and current force remain unverified.",
+      "source": "ne-answers.json"
+    },
+    {
+      "moratorium_id": "ne-gage-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23. The Gage County Board of Supervisors voted (unanimously, per KLKN) on 2026-09-16 to adopt a 12-month moratorium on data center permits, superseding the 8-month moratorium the Board had passed in August 2026 and departing from the Planning and Zoning Commission's recommended 18 months. Supervisors said the moratorium could be extended if more time is needed.",
+      "after": "September 16 reporting describes approval of a twelve-month data-center permit moratorium. The operative resolution, effective-date anchor and later actions were not reviewed. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Bound historical source support separately from current-force acceptance.",
+      "source": "ne-answers.json"
+    },
+    {
+      "moratorium_id": "ne-johnson-county-2026",
+      "column": "date_enacted",
+      "before": "Before 2026-07-16 (exact date and resolution number not located)",
+      "after": "2026-05-05, Johnson County Board of Commissioners",
+      "reason": "County meeting minutes record approval.",
+      "source": "ne-answers.json"
+    },
+    {
+      "moratorium_id": "ne-johnson-county-2026",
+      "column": "date_enacted_iso",
+      "before": "2026",
+      "after": "2026-05-05",
+      "reason": "County meeting minutes record approval.",
+      "source": "ne-answers.json"
+    },
+    {
+      "moratorium_id": "ne-johnson-county-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "year_only",
+      "after": "exact",
+      "reason": "County meeting minutes date the vote.",
+      "source": "ne-answers.json"
+    },
+    {
+      "moratorium_id": "ne-johnson-county-2026",
+      "column": "duration",
+      "before": "Not documented",
+      "after": "One year, as approved May 5, 2026; effective-date anchor and later actions not established.",
+      "reason": "County meeting minutes state one-year term.",
+      "source": "ne-answers.json"
+    },
+    {
+      "moratorium_id": "ne-johnson-county-2026",
+      "column": "duration_kind",
+      "before": "unknown",
+      "after": "calendar_term",
+      "reason": "The minutes state one year.",
+      "source": "ne-answers.json"
+    },
+    {
+      "moratorium_id": "ne-johnson-county-2026",
+      "column": "current_status",
+      "before": "Reported as one of the first wave of Nebraska county data center moratoria (adopted before 2026-07-16), per Nebraska Public Media; the county's own resolution/ordinance and exact date were not located within the research budget. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]",
+      "after": "May 5, 2026 official minutes record a carried motion approving a one-year data-center moratorium, with Weber, Agena and Borrenpohl voting yes and none voting no. Operative instrument, effective-date anchor and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Bound historical source support separately from current-force acceptance.",
+      "source": "ne-answers.json"
+    },
+    {
+      "moratorium_id": "ne-red-willow-county-2025",
+      "column": "current_status",
+      "before": "Active/extended as of 2026-09-23. Two days before the original term's 2026-09-22 expiration, the Board adopted Resolution No. 1612 at its August 24, 2026 meeting, extending the data center zoning moratorium for an additional 12 months (to approximately 2027-09-22, computed from the original expiry since the resolution text says 'extend' rather than restate a new term; the official minutes do not themselves state the new numeric end date). Local reporting (McCook Gazette, McCook News Now) independently confirms the extension. No repeal, rescission, or permanent replacement ordinance was found.",
+      "after": "August 24, 2026 minutes record unanimous consent-agenda approval of Resolution 1612, Book 25, Page 2, extending the data-center zoning moratorium for an additional twelve months. The resolution text, term anchor and exact extension endpoint were not obtained; the prior September 22, 2027 endpoint was inferred and is cleared. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Bound historical source support separately from current-force acceptance.",
+      "source": "ne-answers.json"
+    },
+    {
+      "moratorium_id": "ne-red-willow-county-2025",
+      "column": "outcome",
+      "before": "Extended for an additional 12 months by Resolution No. 1612 (adopted 2026-08-24), two days ahead of the original 2026-09-22 expiration; the Board's Comprehensive Plan/zoning-update contractor (West Central Nebraska Development District) had not finished the county's data-center zoning regulations, so commissioners extended the pause rather than let it lapse. No replacement ordinance has been adopted as of 2026-09-23.",
+      "after": "August 24, 2026 minutes record approval of an additional twelve-month data-center zoning moratorium extension under Resolution 1612; exact interval and later legal force remain unresolved.",
+      "reason": "Retain the source-stated calendar extension without converting it to days or inventing its anchor/endpoint.",
+      "source": "ne-answers.json"
+    },
+    {
+      "moratorium_id": "ne-red-willow-county-2025",
+      "column": "current_end_date_iso",
+      "before": "2027-09-22",
+      "after": "",
+      "reason": "Retain the source-stated calendar extension without converting it to days or inventing its anchor/endpoint.",
+      "source": "ne-answers.json"
+    },
+    {
+      "moratorium_id": "ne-red-willow-county-2025",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Retain the source-stated calendar extension without converting it to days or inventing its anchor/endpoint.",
+      "source": "ne-answers.json"
+    },
+    {
+      "moratorium_id": "ne-red-willow-county-2025",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Retain the source-stated calendar extension without converting it to days or inventing its anchor/endpoint.",
+      "source": "ne-answers.json"
+    }
+  ]
+}

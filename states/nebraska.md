@@ -24,7 +24,7 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 | Hayes County | County | 2026 | data center | 🟢 Active |
 | Hitchcock County | County | 2025-02-03 | data center, cryptocurrency mining | ⚪ Replaced |
 | Hitchcock County | County | Unverified | wind, solar, battery storage, cryptocurrency mining, data center, general | 🟡 Pending |
-| Johnson County | County | 2026 | data center | 🟢 Active |
+| Johnson County | County | 2026-05-05 | data center | 🟢 Active |
 | Kearney County | County | 2026 | data center | 🟢 Active |
 | Logan County | County | 2026-07-15 | data center, cryptocurrency mining, wind, solar, battery storage | 🟢 Active |
 | McPherson County | County | 2026-06-10 | wind, solar, battery storage, cryptocurrency mining, data center, general | 🟢 Active |
@@ -192,7 +192,7 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Legal basis:** Board of Supervisors resolution (specific resolution number not located in sources reviewed)
 - **What prompted it:** County has no data-center-specific regulations; Board wanted time to develop them following a contested public process (a June 2026 Planning and Zoning Commission hearing drew 170+ people and a Sept. 3, 2026 supervisors' hearing drew 120+ people, most urging an 18-month or longer term).
 - **Affected projects:** None named; officials stated no permit application was pending. Tenaska (an Omaha-based energy developer also behind projects in Cass and Otoe counties) was referenced as active in the region.
-- **Detailed status:** Active as of 2026-09-23. The Gage County Board of Supervisors voted (unanimously, per KLKN) on 2026-09-16 to adopt a 12-month moratorium on data center permits, superseding the 8-month moratorium the Board had passed in August 2026 and departing from the Planning and Zoning Commission's recommended 18 months. Supervisors said the moratorium could be extended if more time is needed.
+- **Detailed status:** September 16 reporting describes approval of a twelve-month data-center permit moratorium. The operative resolution, effective-date anchor and later actions were not reviewed. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** 12-month data center permit moratorium adopted to allow time to develop county-specific data center regulations; supersedes the county's prior 8-month moratorium from August 2026.
 
 ### Garfield County
@@ -279,16 +279,16 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 
 - **Type:** County
 - **Status:** 🟢 Active
-- **Date enacted:** Before 2026-07-16 (exact date and resolution number not located)
-- **Normalized date:** `2026` (year_only)
-- **Duration:** Not documented
+- **Date enacted:** 2026-05-05, Johnson County Board of Commissioners
+- **Normalized date:** `2026-05-05` (exact)
+- **Duration:** One year, as approved May 5, 2026; effective-date anchor and later actions not established.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ne-johnson-county-2026`
 - **Legal basis:** —
 - **What prompted it:** County studying data center regulations
 - **Affected projects:** None identified
-- **Detailed status:** Reported as one of the first wave of Nebraska county data center moratoria (adopted before 2026-07-16), per Nebraska Public Media; the county's own resolution/ordinance and exact date were not located within the research budget. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Detailed status:** May 5, 2026 official minutes record a carried motion approving a one-year data-center moratorium, with Weber, Agena and Borrenpohl voting yes and none voting no. Operative instrument, effective-date anchor and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Reported to have a data center moratorium in place; primary source not located
 
 ### Kearney County
@@ -362,14 +362,14 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Date enacted:** 2025-09-22
 - **Normalized date:** `2025-09-22` (exact)
 - **Duration:** 12 months (2025-09-22 to 2026-09-22); extended for an additional 12 months by Resolution No. 1612, Book 25, Page 2, adopted 2026-08-24.
-- **Current end date:** `2027-09-22`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ne-red-willow-county-2025`
 - **Legal basis:** Resolution No. 1577, Book 24, Page 84, Adopt 12 Month Zoning Moratorium on Data Centers
 - **What prompted it:** The captured board minutes record adoption but do not include detailed findings. Later local discussion in earlier captures referenced noise and public-power/rate implications.
 - **Affected projects:** Not identified in captured primary records. [CITE]
-- **Detailed status:** Active/extended as of 2026-09-23. Two days before the original term's 2026-09-22 expiration, the Board adopted Resolution No. 1612 at its August 24, 2026 meeting, extending the data center zoning moratorium for an additional 12 months (to approximately 2027-09-22, computed from the original expiry since the resolution text says 'extend' rather than restate a new term; the official minutes do not themselves state the new numeric end date). Local reporting (McCook Gazette, McCook News Now) independently confirms the extension. No repeal, rescission, or permanent replacement ordinance was found.
-- **Outcome:** Extended for an additional 12 months by Resolution No. 1612 (adopted 2026-08-24), two days ahead of the original 2026-09-22 expiration; the Board's Comprehensive Plan/zoning-update contractor (West Central Nebraska Development District) had not finished the county's data-center zoning regulations, so commissioners extended the pause rather than let it lapse. No replacement ordinance has been adopted as of 2026-09-23.
+- **Detailed status:** August 24, 2026 minutes record unanimous consent-agenda approval of Resolution 1612, Book 25, Page 2, extending the data-center zoning moratorium for an additional twelve months. The resolution text, term anchor and exact extension endpoint were not obtained; the prior September 22, 2027 endpoint was inferred and is cleared. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** August 24, 2026 minutes record approval of an additional twelve-month data-center zoning moratorium extension under Resolution 1612; exact interval and later legal force remain unresolved.
 
 ### Seward County
 
