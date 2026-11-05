@@ -1011,13 +1011,13 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-07-13 (third and final reading, emergency ordinance; effective upon Mayor Mark Zuppo's signature; per WFMJ and Tribune Chronicle)
 - **Normalized date:** `2026-07-13` (exact)
 - **Duration:** 12 months
-- **Current end date:** `2027-07-13`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-girard-undated`
 - **Legal basis:** Girard City Council emergency ordinance imposing a 12-month moratorium on data center permits (passed on third reading 2026-07-13; ordinance number not confirmed; a third-party tracker lists it as 'Ordinance No. 53-36')
 - **What prompted it:** Councilwoman Lily Martuccio cited unknown effects of data centers on communities, including water contamination and noise complaints reported elsewhere
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; one-year emergency moratorium on data center permits passed 2026-07-13, running to about 2027-07-13. [VERIFY instrument number]
+- **Detailed status:** July 13 news reports passage of a twelve-month data-center pause and says effectiveness requires final approval and mayoral signature. The actual signature date, operative interval, ordinance number and later action remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Council passed a one-year data center moratorium on 2026-07-13 to review zoning and the general development plan; council members plan to tour a data center.
 
 ### Grafton
@@ -1027,13 +1027,13 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-05-19 (emergency ordinance)
 - **Normalized date:** `2026-05-19` (exact)
 - **Duration:** Five years, per Spectrum News reporting; the adopted ordinance number and full text were not located on the village's official ordinance page during this review [VERIFY]
-- **Current end date:** `2031-05-18`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-grafton-2026`
 - **Legal basis:** Village Council emergency ordinance 'Establishing a Temporary Moratorium on Data Center Development in the Village of Grafton' (on the 2026-05-19 agenda with suspension and emergency; ordinance number blank on the agenda) [VERIFY]
 - **What prompted it:** Community opposition reflected in village polling and the mayor's recommendation for a pause on data center development
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; emergency ordinance adopted 2026-05-19 (five-year term per Spectrum News and the Chronicle-Telegram). [VERIFY instrument number not confirmed at confidence 0.6 in the 2026-07 refresh]
+- **Detailed status:** May 21 news reports a five-year data-center development moratorium approved at the May 19 meeting. The official May 19 agenda schedules the proposal with its number blank; it does not establish enacted wording. Final instrument, effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Council enacted an emergency ordinance establishing a temporary moratorium on data center development; Spectrum News reported a five-year term
 
 ### Green Township (Harrison County)
@@ -1065,7 +1065,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** City Council emergency ordinance; Ordinance C-22-26, passed 6-1
 - **What prompted it:** Resident concern following reports of an in-development Stream Data Centers project near Rensch Road/Harrisburg Pike, though the city attorney said no application had been filed; council sought time for policy review, infrastructure analysis, and public engagement
 - **Affected projects:** Stream Data Centers site near Rensch Road/Harrisburg Pike (no application filed as of May 2026)
-- **Detailed status:** Active as of 2026-07-31; runs through approximately 2027-06-01
+- **Detailed status:** June 1 reporting describes 6-1 approval and a one-year pause. The official packet contains proposed C-22-26 with a twelve-month term and cryptocurrency language, but executed final wording and later action remain unresolved; proposed sector language is not promoted as enacted scope. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 6-1 as an emergency measure; imposes a 12-month moratorium on establishment, development, processing, review, and approval of high-density computing facilities
 
 ### Hamilton Township (Warren County)
@@ -1107,13 +1107,13 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-06-10
 - **Normalized date:** `2026-06-10` (exact)
 - **Duration:** 6 months, renewable for another 6 months, and reasonably extendable to complete the study and adopt amendments
-- **Current end date:** `2026-12-07`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-howland-township-2026`
 - **Legal basis:** Township trustee resolution under R.C. Chapter 519 (resolution number not confirmed in sources reviewed) [VERIFY]
 - **What prompted it:** Desire to study data center impacts before approving zoning certificates, conditional use permits, variances, rezonings, and other approvals
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; six-month moratorium adopted 2026-06-10 runs to about 2026-12-07 and may be renewed for six months. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]
+- **Detailed status:** June 11 news reports a six-month pause approved at the preceding Wednesday meeting, with possible additional renewal. Actual effective anchor, operative endpoint, resolution number and later action remain unverified; renewal authority is not an actual extension. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Trustees approved a six-month moratorium covering new applications for zoning certificates, conditional use permits, variances, rezonings, and other data center approvals in all township zoning districts
 
 ### Hubbard Township
@@ -1123,13 +1123,13 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-02-10 (Tuesday vote per Vindicator reporting; trustees voted 2-1 with Trustee Monica Baker abstaining)
 - **Normalized date:** `2026-02-10` (exact)
 - **Duration:** 12 months
-- **Current end date:** `2027-02-10`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-hubbard-township-2026`
 - **Legal basis:** Trustee resolution drafted by township legal counsel and reviewed by Trumbull County Planning Commission [CITE: primary resolution text not posted to township site 2026-04-29]
 - **What prompted it:** Desire to act before permit filings and allow zoning commission and public engagement
 - **Affected projects:** No specific project identified
-- **Detailed status:** Active as of 2026-09-23; one-year trustee moratorium on data centers adopted 2-1 (Trustee Baker abstaining) on 2026-02-10, running to about 2027-02-10. Still listed active on the OCJ map (2026-09-17).
+- **Detailed status:** February news reports a one-year pause, with inconsistent vote accounting (2-1 plus an abstention). October reporting attributes continued effect to a trustee while proposed zoning changes were rejected. Primary roll call, operative dates and subsequent legal force remain unverified; this township is distinct from the City of Hubbard ballot measure. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Reported intent to use moratorium period for zoning work and public process; committee may also weigh pros/cons
 
 ### Hudson

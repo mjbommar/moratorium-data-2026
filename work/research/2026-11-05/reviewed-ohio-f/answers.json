@@ -1,0 +1,225 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "oh-girard-undated",
+      "outcome": "corrected",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Source describes a term in calendar months or years; it does not establish a fixed number of days."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Calendar term cannot be represented as an invariant fixed-day duration."
+        },
+        "current_end_date_iso": {
+          "from": "2027-07-13",
+          "to": "",
+          "reason": "Computed date is not established by the located operative instrument and effective-date anchor; later actions also remain unresolved."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; one-year emergency moratorium on data center permits passed 2026-07-13, running to about 2027-07-13. [VERIFY instrument number]",
+          "to": "July 13 news reports passage of a twelve-month data-center pause and says effectiveness requires final approval and mayoral signature. The actual signature date, operative interval, ordinance number and later action remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-stated historical action from unverified current legal force."
+        }
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.wfmj.com/news/local-news/girard/girard-council-enacts-12-month-data-center-moratorium/article_e24789a7-49c3-4d58-ab08-702876e6f8cd.html",
+          "source_type": "news",
+          "document_date": "2026-07-13",
+          "quote": "vote to pass the data center moratorium. It will be in place for 12 months.",
+          "supports": "Reports passage and original 12-month term; signature timing and subsequent action not established.",
+          "title": "Girard Council enacts 12-month data center moratorium",
+          "publisher": "WFMJ"
+        }
+      ],
+      "notes": "Adoption reported July 13; actual mayoral signature/effect date, ordinance number and later actions unresolved."
+    },
+    {
+      "moratorium_id": "oh-grafton-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Source describes a term in calendar months or years; it does not establish a fixed number of days."
+        },
+        "duration_days": {
+          "from": "1825",
+          "to": "",
+          "reason": "Calendar term cannot be represented as an invariant fixed-day duration."
+        },
+        "current_end_date_iso": {
+          "from": "2031-05-18",
+          "to": "",
+          "reason": "Computed date is not established by the located operative instrument and effective-date anchor; later actions also remain unresolved."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; emergency ordinance adopted 2026-05-19 (five-year term per Spectrum News and the Chronicle-Telegram). [VERIFY instrument number not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "May 21 news reports a five-year data-center development moratorium approved at the May 19 meeting. The official May 19 agenda schedules the proposal with its number blank; it does not establish enacted wording. Final instrument, effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-stated historical action from unverified current legal force."
+        }
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://villageofgrafton.org/wp-content/uploads/2026/05/5.19.2026-Meeting-Agenda.pdf",
+          "source_type": "agenda",
+          "document_date": "2026-05-19",
+          "quote": "ESTABLISHING A TEMPORARY MORATORIUM\n\nON DATA CENTER DEVELOPMENT IN THE VILLAGE OF GRAFTON",
+          "supports": "Proposal scheduled, number blank; agenda alone does not prove adoption.",
+          "title": "May 19 meeting agenda",
+          "publisher": "Village of Grafton"
+        },
+        {
+          "url": "https://spectrumnews1.com/oh/columbus/news/2026/05/21/grafton-data-center-development",
+          "source_type": "news",
+          "document_date": "2026-05-21",
+          "quote": "has put a five-year moratorium on data center development.",
+          "supports": "Reports adoption and five-year term; not operative ordinance.",
+          "title": "Grafton puts 5-year halt on data center development",
+          "publisher": "Spectrum News 1"
+        }
+      ],
+      "notes": "Five-year term is news-reported; adopted text, number, effective anchor and later actions unresolved."
+    },
+    {
+      "moratorium_id": "oh-grove-city-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Source describes a term in calendar months or years; it does not establish a fixed number of days."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Calendar term cannot be represented as an invariant fixed-day duration."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31; runs through approximately 2027-06-01",
+          "to": "June 1 reporting describes 6-1 approval and a one-year pause. The official packet contains proposed C-22-26 with a twelve-month term and cryptocurrency language, but executed final wording and later action remain unresolved; proposed sector language is not promoted as enacted scope. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-stated historical action from unverified current legal force."
+        }
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://grovecityoh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=6027,plainText=false)",
+          "source_type": "agenda",
+          "document_date": "2026-06-01",
+          "quote": "SECTION 3. A twelve (12) month moratorium is hereby established on the processing, review,",
+          "supports": "Proposed ordinance text in official June 1 agenda; adoption requires separate evidence.",
+          "title": "Council agenda and packet",
+          "publisher": "Grove City"
+        },
+        {
+          "url": "https://abc6onyourside.com/news/local/grove-city-council-approves-1-year-pause-on-data-centers-after-packed-meeting",
+          "source_type": "news",
+          "document_date": "2026-06-01",
+          "quote": "The legislation temporarily halts new data center development in the city for one year",
+          "supports": "Reports one-year term; preceding paragraph reports 6-1 passage. Final executed text remains unverified.",
+          "title": "Grove City Council approves 1-year pause",
+          "publisher": "WSYX"
+        }
+      ],
+      "notes": "Official packet contains proposed C-22-26 and includes cryptocurrency mining; adoption is reported by news, but an executed final instrument and subsequent actions were not located. Do not add sector until final text verified."
+    },
+    {
+      "moratorium_id": "oh-howland-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Source describes a term in calendar months or years; it does not establish a fixed number of days."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Calendar term cannot be represented as an invariant fixed-day duration."
+        },
+        "current_end_date_iso": {
+          "from": "2026-12-07",
+          "to": "",
+          "reason": "Computed date is not established by the located operative instrument and effective-date anchor; later actions also remain unresolved."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; six-month moratorium adopted 2026-06-10 runs to about 2026-12-07 and may be renewed for six months. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "June 11 news reports a six-month pause approved at the preceding Wednesday meeting, with possible additional renewal. Actual effective anchor, operative endpoint, resolution number and later action remain unverified; renewal authority is not an actual extension. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-stated historical action from unverified current legal force."
+        }
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.tribtoday.com/news/local-news/2026/06/howland-oks-data-center-moratorium/",
+          "source_type": "news",
+          "document_date": "2026-06-11",
+          "quote": "Trustees at Wednesday's regular meeting approved a six-month moratorium",
+          "supports": "Reports adoption and six-month term, but not a 180-day term or effective-date anchor.",
+          "title": "Howland OKs data center moratorium",
+          "publisher": "Tribune Chronicle"
+        }
+      ],
+      "notes": "News reports six months and possible renewal; actual effective date, resolution number, subsequent action and operative end remain unverified."
+    },
+    {
+      "moratorium_id": "oh-hubbard-township-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Source describes a term in calendar months or years; it does not establish a fixed number of days."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Calendar term cannot be represented as an invariant fixed-day duration."
+        },
+        "current_end_date_iso": {
+          "from": "2027-02-10",
+          "to": "",
+          "reason": "Computed date is not established by the located operative instrument and effective-date anchor; later actions also remain unresolved."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; one-year trustee moratorium on data centers adopted 2-1 (Trustee Baker abstaining) on 2026-02-10, running to about 2027-02-10. Still listed active on the OCJ map (2026-09-17).",
+          "to": "February news reports a one-year pause, with inconsistent vote accounting (2-1 plus an abstention). October reporting attributes continued effect to a trustee while proposed zoning changes were rejected. Primary roll call, operative dates and subsequent legal force remain unverified; this township is distinct from the City of Hubbard ballot measure. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-stated historical action from unverified current legal force."
+        }
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.tribtoday.com/news/local-news/2026/10/hubbard-township-rejects-data-center-zoning-language/",
+          "source_type": "news",
+          "document_date": "2026-10",
+          "quote": "Trustee Jason Tedrow said Thursday evening that the township\u2019s moratorium is still in effect",
+          "supports": "October trustee statement reported in news; later changes not ruled out.",
+          "title": "Hubbard Township rejects data center zoning language",
+          "publisher": "Tribune Chronicle"
+        },
+        {
+          "url": "https://www.tribtoday.com/news/local-news/2026/02/hubbard-township-oks-moratorium-on-data-centers/",
+          "source_type": "news",
+          "document_date": "2026-02",
+          "quote": "Trustees on Tuesday voted 2-1 to approve a resolution placing a one-year moratorium on data centers entering the township.",
+          "supports": "Reports one-year resolution; same source also reports one abstention, so vote accounting needs primary verification.",
+          "title": "Hubbard Township OKs moratorium",
+          "publisher": "Tribune Chronicle"
+        }
+      ],
+      "notes": "October report relays trustee statement of force then, not as-of-cutoff verification. News reports 2-1 plus a separate abstention; confirm roll call in primary minutes."
+    }
+  ],
+  "new_candidates": []
+}

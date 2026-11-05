@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Five news-qualified Ohio corrections preserve Girard, Grafton, Grove City, Howland and Hubbard Township calendar terms and clear four unsupported calculated endpoints. Grove City’s proposed cryptocurrency language is not promoted as final scope. Hubbard’s inconsistent vote account and October trustee statement remain qualified, distinct from the City of Hubbard ballot measure. Green Township’s conflicting county identity is deferred.
+
 Five Ohio calendar-term corrections distinguish Fairborn’s adopted twelve-month pause from extension authority, preserve Freedom Township (Portage County)’s meeting-date/motion-number discrepancy, and identify Garrettsville’s council approval notice as distinct from full operative text. Findlay and Geneva remain news-qualified; later legal force stays unresolved.
 
 Scanned Ohio review corrects Clinton, Cortland and Eastlake calendar terms. Cortland’s signed O-21-26 confirms June 1 passage/approval and explicit cryptocurrency-mining coverage. Clinton’s recorded 4-2 votes are preserved without adjudicating procedural effectiveness; Eastlake’s minutes identify Resolution 2025-103 and unanimous adoption among members present. Later legal force remains unresolved.
@@ -100,7 +102,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1068** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **154** |
-| Rows we still want to confirm (`[VERIFY]`) | **533** |
+| Rows we still want to confirm (`[VERIFY]`) | **535** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
