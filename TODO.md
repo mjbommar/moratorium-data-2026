@@ -66,7 +66,7 @@ Exit: read-only dry-run and bounded acquisition produce auditable plans and atte
 - [ ] Add contradiction/support alerts without using model/NLI confidence as legal acceptance.
 - [ ] Require reviewed candidates for instrument/entity/event merges; protect distinct acts and questions.
 - [ ] Extend decision schemas with record fingerprints, scope, supersession and evidence claim references.
-- [ ] Implement explicit-file, dry-run, conflict-safe, atomic and idempotent ballot decision application.
+- [ ] Complete real reviewed-record integration and recovery validation of explicit-file ballot promotion (`scripts/expanded_promotion.py`; initial atomic snapshot, identity/evidence/field-review gates implemented; no real canonical promotion yet).
 - [ ] Extend evidence archive/publication gates to new records and source payload types.
 - [ ] Add behavioral regression checks from plan section 11 (initial subset implemented; full gate coverage pending).
 

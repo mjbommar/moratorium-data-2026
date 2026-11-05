@@ -13,6 +13,7 @@ IDS = {'jurisdictions':'jurisdiction_id', 'elections':'election_id', 'ballot_mea
 
 
 def validate(directory, moratoria=None, state_actions=None):
+    directory = directory.resolve()  # Pin one immutable publication generation.
     schema = json.loads(SCHEMA.read_text())
     Draft202012Validator.check_schema(schema)
     errors, rows = [], {name: {} for name in IDS}
