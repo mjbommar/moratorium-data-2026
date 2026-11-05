@@ -1570,14 +1570,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Extended
 - **Date enacted:** 2026-03-03 (confirmed via WLWT 2026-04 reporting: "On March 3, village leaders voted to impose a six-month moratorium on data center projects")
 - **Normalized date:** `2026-03-03` (exact)
-- **Duration:** 180 days
+- **Duration:** August 18 Ordinance 1349 grants an additional 180 days. March 3 minutes conflict on the original term: ONE HUNDRED AND EIGHT (180) DAYS. Actual operative interval and later action unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-mount-orab-2026`
-- **Legal basis:** Village council ordinance [CITE: ordinance number not posted on Mt.Orab village website 2026-04-29; village site has minimal online presence]
+- **Legal basis:** Village of Mount Orab Ordinance #1339, adopted March 3, 2026; extended by Ordinance #1349, adopted August 18, 2026, for an additional 180 days.
 - **What prompted it:** Resident backlash over a roughly 1,200-acre mega-site data center proposal (DB STU LLC; State Route 32 site valued $43M+) and nondisclosure agreements signed by elected officials
 - **Affected projects:** DB STU LLC ~1,200-acre State Route 32 mega-site in Brown County
-- **Detailed status:** Active as of 2026-09-23 (reported). The original 180-day moratorium adopted 2026-03-03 ran to about 2026-08-30; the Ohio Capital Journal's statewide moratorium map (data as of 2026-09-17) lists Mount Orab council as having passed a new 180-day data center moratorium in August 2026, expiring February 2027. The ordinance number and exact adoption date of the August measure were not located. Meanwhile the Planning Commission held a 2026-09-16 public hearing on a draft 'High Tech Overlay' that would regulate (not ban) data centers on the DB STU LLC mega-site; no council vote yet.
+- **Detailed status:** March 3 minutes record adoption of Ordinance 1339; its printed title conflicts, saying ONE HUNDRED AND EIGHT (180) DAYS. August 18 minutes record third-reading approval of Ordinance 1349 extending 1339 for an additional one-hundred eighty days, with five yeas. Original term ambiguity, effective anchors, continuity, operative endpoint and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Moratorium renewed for 180 days in August 2026 (per OCJ map); Planning Commission drafting a High Tech Overlay district to regulate data centers on the mega-site (public hearing 2026-09-16, no vote); state transparency debate and Rep. Adam Bird's HB 695 NDA-ban legislation followed.
 
 ### Muhlenberg Township (Pickaway County)
@@ -1609,7 +1609,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Resolution No. 26-R-28 (City of New Franklin), declaring a 6-month stay on the filing, consideration, review and/or approval of all new applications for data centers and related activities; effective immediately upon passage
 - **What prompted it:** Concerns over data centers' electricity and water use and fit with the community; data centers are a conditional use in the new land-use code and the city has little suitable land.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; six-month stay adopted 2026-05-20 runs to about mid-November 2026 (2026-11-16 to 2026-11-20).
+- **Detailed status:** May 20 minutes record Resolution 26-R-28, a six-month data-center application stay declaring immediate effect upon passage. Adoption roll call lists six yes votes and Cotts no, distinct from unanimous waiver of readings. Final operative text, precise interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Council adopted a six-month stay on new data center applications.
 
 ### Newton Falls

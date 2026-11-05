@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Mount Orab’s scanned minutes identify original Ordinance 1339 and August 18 Ordinance 1349 granting an additional 180 days. The original title literally conflicts, saying ONE HUNDRED AND EIGHT (180) DAYS; no original operative interval is inferred. New Franklin’s six-month Resolution 26-R-28 records 6-1 adoption, distinct from unanimous reading waiver. Later legal force remains unresolved.
+
 Niles’s reported November 4 extension preserves its explicit additional 180-day unit without guessing an effective anchor or endpoint. Mount Gilead’s final reading and five ayes confirm its one-year upper limit. Muhlenberg, Newton Falls and North Perry calendar terms remain news-qualified; North Ridgeville’s weaker third-party account remains explicit. Later legal force is unresolved.
 
 Five Ohio calendar-term corrections cover Miamisburg, Middleburg Heights, Middlefield, Monclova and Monroeville. Monroeville’s March 10 minutes support the adopted cryptocurrency-mining amendment. Official announcements/indexes, agenda proposals and operative text remain distinguished; Middleburg’s unreadable execution details and all later legal-force gaps stay flagged.
@@ -114,7 +116,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1067** |
 | Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **558** |
+| Rows we still want to confirm (`[VERIFY]`) | **560** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

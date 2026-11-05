@@ -1,0 +1,143 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "oh-inventory-011": "8e9d4d5c170c3cc4117d70a985b3d666a403f82d00581e4b6a44e3fcc4e5e3b2"
+  },
+  "reviewed_answers_sha256": "9c975c93e852191bc002a9c2d9b6ad36455e54864d7a93583d26f3c4208b489b",
+  "scope": "Two deferred Ohio scanned records. Mount Orab March 3 original adoption page 1 and August 18 extension page 6 visually compared. Literal original-title ONE HUNDRED AND EIGHT (180) conflict retained; extension explicit additional 180 days independently supported, no anchor guessed. New Franklin page 2 distinguishes unanimous reading waiver from six yes/one no adoption. Original empty native extractions preserved; later force unresolved.",
+  "located_evidence": [
+    {
+      "moratorium_id": "oh-mount-orab-2026",
+      "url": "https://www.mtoraboh.us/images/vom/CouncilMeetings/Minutes/2026/March%202026%20.pdf",
+      "quote": "PROCESSING OF APPLICATIONS FOR PERMITS FOR DATA CENTERS WITHIN THE\nCORPORATE LIMITS OF THE VILLAGE OF MOUNT ORAB",
+      "located": [
+        {
+          "attempt_id": "1ba5f181b4344e759cec825a04cc0bde",
+          "body_sha256": "f66c40e240af59a54f779417b946bbd7fd709cbcd60bf3c23ce60359c6a34481",
+          "text_sha256": "d4c946bf07e789e0b7fecd3dd2d73b3a81aebba2fb23a4b8042c4d43ab002a9d",
+          "span": [
+            813,
+            925
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-mount-orab-2026",
+      "url": "https://www.mtoraboh.us/images/vom/CouncilMeetings/Minutes/August2026CouncilMinutes.pdf",
+      "quote": "ORDINANCE #1349 EXTENDING THE TEMPORARY ZONING CODE MORATORIUM\nENACTED THROUGH ORDINANCE#1339 FOR AN ADDITIONAL ONE-HUNDRED\n\nEIGHTY DAYS THIRD READING\n\nCouncilman Waits moved to accept Ordinance #1349 extending the temporary\nzoning code moratorium enacted through Ordinance #1339. Councilwoman Howell\nseconded the motion.\n\nAroll call vote was administered by Mayor Ogden. Howell Yea, Carnahan Yea, Lang\nYea, Vineyard Yea, Waits Yea. Motion carried.",
+      "located": [
+        {
+          "attempt_id": "332d51f6adad4ebe80572f0dc9e02a54",
+          "body_sha256": "7e75b0d042826a098985e1e6ec5eecb2405e43e44106983366bbf44fba1e2e8a",
+          "text_sha256": "d0312c7f99aefa4f57ccdd035a4083374d8dee870b557a952cfea3ed3a853d05",
+          "span": [
+            8252,
+            8700
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-new-franklin-2026",
+      "url": "https://www.newfranklin.org/AgendaCenter/ViewFile/Minutes/_05202026-164",
+      "quote": "7-D Resolution No.: 26-R-28 Sponsor: Mayor Rector\nCommunity Development Committee: Mr. Klusty\nA RESOLUTION DECLARING A 6-MONTH STAY ON THE FILING,\n\nCONSIDERATION, REVIEW, AND/OR APPROVAL OF ALL NEW\nAPPLICATIONS FOR DATA CENTERS AND RELATED ACTIVITIES IN THE\nCITY OF NEW FRANKLIN; AND DECLARING THAT THIS RESOLUTION\nSHALL BE EFFECTIVE IMMEDIATELY UPON PASSAGE\n\nIt was moved by Mr. Klusty and seconded by Mr. Powell to waive the three-reading rule.\n\nROLL CALL: YES: Cotts, Shaffer, Jones, Powell, Klusty, Wolff, Allman\n\nIt was moved by Mr. Klusty and seconded by Mr. Powell to adopt Resolution 26-R-28.\n\nROLL CALL: YES: Shaffer, Jones, Powell, Klusty, Wolff, Allman\nNO:  Cotts",
+      "located": [
+        {
+          "attempt_id": "15acf1d0f82548a2b1cb4015f32afea3",
+          "body_sha256": "715037ac9eb0f30e19c9b2e6440e923aaba6378a5c55f3aa5a725ba893174c9c",
+          "text_sha256": "4c1ea1d774da68ff0cbdf6c624aef801105dad2d197b923db473f52305d4e533",
+          "span": [
+            2646,
+            3320
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "1ba5f181b4344e759cec825a04cc0bde",
+      "page": 1,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "6f7f43522199625be48ca501bfb6643199ace2ee511abc612b41846c50fb601a"
+    },
+    {
+      "attempt_id": "332d51f6adad4ebe80572f0dc9e02a54",
+      "page": 6,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "7ff043bdb59cac4cbe2a0fad38b41f82aa91d23568c3600f823535cfb5264de2"
+    },
+    {
+      "attempt_id": "15acf1d0f82548a2b1cb4015f32afea3",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "2bbadac13e4dad5fd33077fad00424453315201fe59a168c09a4da07019dc9b8"
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "332d51f6adad4ebe80572f0dc9e02a54",
+      "source_body_sha256": "7e75b0d042826a098985e1e6ec5eecb2405e43e44106983366bbf44fba1e2e8a",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-011/332d51f6adad4ebe80572f0dc9e02a54.ocr.private.txt",
+      "derived_text_sha256": "d0312c7f99aefa4f57ccdd035a4083374d8dee870b557a952cfea3ed3a853d05",
+      "method": "Separately retained PDF OCR; coordinator visually compared listed operative/adoption pages",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:43:00.165107+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    },
+    {
+      "attempt_id": "1ba5f181b4344e759cec825a04cc0bde",
+      "source_body_sha256": "f66c40e240af59a54f779417b946bbd7fd709cbcd60bf3c23ce60359c6a34481",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-011/1ba5f181b4344e759cec825a04cc0bde.ocr.private.txt",
+      "derived_text_sha256": "d4c946bf07e789e0b7fecd3dd2d73b3a81aebba2fb23a4b8042c4d43ab002a9d",
+      "method": "Separately retained PDF OCR; coordinator compared original adoption page",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:43:00.166482+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    },
+    {
+      "attempt_id": "15acf1d0f82548a2b1cb4015f32afea3",
+      "source_body_sha256": "715037ac9eb0f30e19c9b2e6440e923aaba6378a5c55f3aa5a725ba893174c9c",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-011/15acf1d0f82548a2b1cb4015f32afea3.ocr.private.txt",
+      "derived_text_sha256": "4c1ea1d774da68ff0cbdf6c624aef801105dad2d197b923db473f52305d4e533",
+      "method": "Separately retained PDF OCR; coordinator visually compared listed operative/adoption pages",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:43:00.170956+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ]
+}
