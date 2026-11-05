@@ -1855,7 +1855,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Town of Southold moratorium on Battery Energy Storage System (BESS) facilities
 - **What prompted it:** A proposed 60 MW lithium-ion BESS and LIPA substation on a 27-acre Oregon Road site (Key Capture Energy)
 - **Affected projects:** Key Capture Energy's proposed 60 MW BESS/LIPA substation on Oregon Road, Cutchogue
-- **Detailed status:** Active as of 2026-09-23, extended through approximately April 2027 to allow the town's BESS Task Force to reconvene and draft permanent regulations aligned with new state fire-code guidance. The Town Board's decision overrode an April 8, 2026 Suffolk County Planning Commission staff report recommending against the extension.
+- **Detailed status:** April 24 reporting describes unanimous approval of a twelve-month BESS moratorium extension through April 2027. Adopted text, state filing and the exact endpoint were not reviewed. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Repeatedly extended
 
 ### Southport
@@ -1880,14 +1880,14 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Status:** 🟢 Active
 - **Date enacted:** Adopted 2026-05-14 by unanimous roll-call vote (Resolution 46-2026)
 - **Normalized date:** `2026-05-14` (exact)
-- **Duration:** Twelve months from effective date
+- **Duration:** Secondary meeting-derived account describes twelve months; original BESS law, effective anchor and later actions unverified.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-spafford-2026`
 - **Legal basis:** Local Law No. 1-2026 (Resolution 46-2026), a town-wide 12-month moratorium on the siting, placement, installation, construction, modification or enlargement of battery energy storage systems
 - **What prompted it:** Town Board sought time for zoning and regulatory review of BESS siting, safety, and community concerns
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. Adopted unanimously (Moran, Brayman, Parsons, Wise, O'Connell all voting yes) at a May 14, 2026 public hearing; takes effect immediately and expires after 12 months unless renewed or rescinded earlier. Excludes battery systems already approved or on Town-owned property.
+- **Detailed status:** A secondary meeting-derived account reports May 14 adoption of BESS Local Law 1-2026 with a twelve-month term. This is not the enacted instrument or independent confirmation; the retrieved eCode law concerns data centers and must not be conflated with the BESS act. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Twelve-month, town-wide moratorium on all battery energy storage systems, adopted unanimously
 
 ### Stanford
@@ -1912,14 +1912,14 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Status:** 🟢 Active
 - **Date enacted:** Town Board public hearing noticed for 2026-06-09 on Local Law 1-2026; the Town's Zoning Review Committee had been meeting on battery storage since at least late 2024
 - **Normalized date:** `2026-06` (month_only)
-- **Duration:** Not confirmed from the documents located
+- **Duration:** Three calendar months; the town-posted text contains conflicting language on the term anchor.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-stockport-2026`
 - **Legal basis:** Local Law 1-2026, Moratorium on Battery Storage Systems, Town of Stockport
 - **What prompted it:** Town-wide pause on BESS applications pending a zoning review that began with a Battery Storage Committee in late 2024
 - **Affected projects:** —
-- **Detailed status:** The Town's own public notices page lists a June 9, 2026 Town Board public hearing notice and a document titled 'Local Law 1-2026 Moratorium on Battery Storage Systems,' but the underlying documents (hosted as Google Drive file links) could not be fetched as text, so the exact adoption date, term, and current status were not independently confirmed as of 2026-09-23. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Detailed status:** Town-posted text titled Local Law 1 of 2026 states a three-month BESS moratorium. Section 4 uses effectiveness as the term anchor while section 9 refers to passage/adoption and state filing. Adoption, filing, operative starting date and subsequent extensions require confirmation. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Town Board noticed and apparently adopted a BESS moratorium (Local Law 1-2026) around June 2026
 
 ### Syracuse
@@ -2111,8 +2111,8 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Legal basis:** Local Law No. 3 of 2026 (Town of East Fishkill), titled 'A Local Law to Extend, Consolidate and Impose a Moratorium on Certain Properties Within the Town of East Fishkill,' adopted by the Town Board on 2026-06-25 by unanimous vote (5-0: Supervisor D'Alessandro and Councilpersons Franco, Marinaro, Arco, and Flores all AYE); the signed local law, certified by Town Clerk Peter J. Cassidy, is posted as 'L.L. No. 3-2026' in the Town's ecode360 new-laws ledger.
 - **What prompted it:** Opposition to a possible 1,000 MW project associated with Treetop Development; the supervisor said no formal application had been filed with the town
 - **Affected projects:** Possible 1,000 MW project associated with Treetop Development (no formal application filed as of vote)
-- **Detailed status:** Active per official meeting packet and WAMC report
-- **Outcome:** Town Board unanimously adopted a moratorium under which data centers over 20 MW would not be permitted or considered until July 1, 2029
+- **Detailed status:** Local Law 3 of 2026 states data centers are not permitted or considered for three years, except qualifying ancillary uses under 20 MW or eligibility for an Economic Development Special Permit. It states a July 1, 2029 endpoint. Filing, operative effectiveness and later actions remain unresolved; the simple over-20-MW summary omitted alternative exceptions. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** Town Board adopted a moratorium stating that data centers are not permitted or considered for three years, except where ancillary to an existing or permitted use and under 20 MW, or eligible for an Economic Development Special Permit; Local Law No. 3 of 2026 states that it is in effect until July 1, 2029.
 
 ### Town of Highland
 
