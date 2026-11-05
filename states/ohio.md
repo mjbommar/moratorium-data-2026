@@ -3,7 +3,7 @@
 
 Working inventory for Ohio, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**160 instruments** — 148 in force, 3 pending, 9 past.
+**160 instruments** — 149 in force, 2 pending, 9 past.
 
 State policy is tracked separately: **12 actions** (12 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -109,7 +109,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Ontario | City | 2026-05-06 | data center | 🟢 Active |
 | Painesville Township | Township | 2026-05-12 | data center | 🟢 Active |
 | Paris Township (Union County) | Township | 2026-02 | data center | ⚪ Replaced |
-| Perry | Village | Unverified | data center | 🟡 Pending |
+| Perry | Village | 2026-10-08 | data center | 🟢 Active |
 | Perry Township (Lake County) | Township | 2026-07-28 | data center | 🟢 Active |
 | Pierce Township | Township | 2026-02-11 | data center | 🟢 Extended |
 | Pioneer | Village | 2026-09-14 | data center | 🟢 Active |
@@ -1737,7 +1737,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Ordinance No. 26-13 (City of Ontario), emergency, imposing a six-month moratorium on applications for licensing, zoning, occupancy or other permits relating to data centers supporting artificial intelligence
 - **What prompted it:** Preemptive measure after a data center controversy in a neighboring community (Mansfield) and developer approaches to property owners; officials want to see findings of the state data center study commission (HB 646).
 - **Affected projects:** None pending; council said one property owner had been approached.
-- **Detailed status:** Active as of 2026-09-23; six-month moratorium adopted 2026-05-06 runs to early November 2026 (about 2026-11-02 to 2026-11-06).
+- **Detailed status:** May 6 minutes record Ordinance 26-13, a six-month application/permit pause concerning data centers supporting artificial intelligence, adopted with seven ayes and zero nays after suspension of separate readings. Final operative text, actual effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Council adopted a six-month moratorium on AI data center applications; can be revisited/renewed.
 
 ### Painesville Township
@@ -1775,18 +1775,18 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 ### Perry
 
 - **Type:** Village
-- **Status:** 🟡 Pending
-- **Date enacted:** Pending: Ordinance No. 2026-13 had its first reading 2026-08-13 (read, not voted) and was on the 2026-09-10 agenda for second reading; no adoption record found as of 2026-09-23
-- **Normalized date:** `—` (unverified)
-- **Duration:** One (1) year from the effective date (as drafted); emergency clause, effective on passage and mayoral approval
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-10-08 (Village Council approved Ordinance 2026-13; signed by acting mayor, with no separate approval date shown)
+- **Normalized date:** `2026-10-08` (exact)
+- **Duration:** One (1) year from the effective date; effective upon passage and mayoral approval
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-perry-undated`
-- **Legal basis:** Village of Perry (Lake County) proposed Ordinance No. 2026-13, a one-year moratorium on accepting and approving applications for data centers, excluding the Champion Farm property, declaring an emergency
+- **Legal basis:** Village of Perry (Lake County) Ordinance No. 2026-13, a one-year moratorium on acceptance and approval of data center applications, excluding Champion Farm, declaring an emergency
 - **What prompted it:** The Province Group hyperscale data center proposal at the village-owned Champion Farm. The village refused a tax abatement (July 2026) and the acting mayor cited Ohio's changed stance on data centers. Infrastructure, power, water and environmental review.
 - **Affected projects:** Province Group hyperscale data center at Champion Farm (U.S. 20), which is expressly exempted from the moratorium while its purchase agreement is pending. The acting mayor said the site would be added if Province does not buy it.
-- **Detailed status:** Pending as of 2026-09-23. Ordinance 2026-13 was read a first time 2026-08-13 and scheduled for a second reading 2026-09-10; the next regular meeting is 2026-09-24. No adoption record found.
-- **Outcome:** If adopted, a one-year pause on data center applications village-wide (except Champion Farm) to study whether zoning changes are needed.
+- **Detailed status:** The signed Ordinance 2026-13 and official publication notice record October 8, 2026 Council adoption. Its one-year term runs from effectiveness, requiring passage and mayoral approval; the acting mayor signed without a separate approval date. Champion Farm parcels and small-scale ancillary server rooms are excluded. Precise operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** A one-year pause on data center applications, excluding Champion Farm, to study zoning changes.
 
 ### Perry Township (Lake County)
 
