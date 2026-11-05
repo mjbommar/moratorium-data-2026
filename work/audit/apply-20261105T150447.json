@@ -1,0 +1,137 @@
+{
+  "applied_at": "20261105T150447",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-louisiana-massachusetts/la-answers.json",
+    "work/research/2026-11-05/reviewed-louisiana-massachusetts/ma-answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 4,
+    "fields_changed": 15,
+    "verify_corrected": 1,
+    "verify_resolved_via_field_rewrite": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "la-iberville-parish-2026",
+      "column": "legal_basis",
+      "before": "Iberville Parish Council moratorium ordinance on battery energy storage systems",
+      "after": "Iberville Parish Council Ordinance IPC# 007-26, adopted July 15, 2026, imposing a two-year moratorium on the location and construction of Battery Energy Storage Systems in unincorporated Iberville Parish.",
+      "reason": "The parish minutes reproduce the ordinance and identify its number and geographic scope.",
+      "source": "la-answers.json"
+    },
+    {
+      "moratorium_id": "la-iberville-parish-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The ordinance states a term in years, not a fixed-day count.",
+      "source": "la-answers.json"
+    },
+    {
+      "moratorium_id": "la-iberville-parish-2026",
+      "column": "duration_days",
+      "before": "730",
+      "after": "",
+      "reason": "The ordinance specifies two years; a fixed-day conversion is not the legal term and the calendar-term invariant clears this field.",
+      "source": "la-answers.json"
+    },
+    {
+      "moratorium_id": "la-iberville-parish-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; the Parish Council voted unanimously on 2026-07-15 to adopt a two-year moratorium on the location and construction of Battery Energy Storage Systems, to allow time to study safety/environmental/health impacts and develop zoning regulations. Parish officials noted the moratorium could end earlier if concerns are resolved.",
+      "after": "July 15, 2026 parish minutes reproduce Ordinance IPC# 007-26, a two-year BESS moratorium in unincorporated Iberville Parish. [VERIFY: effective-date anchor, later amendments or rescission, project applicability and present legal force.]",
+      "reason": "Original instrument identified; no fresh confirmation of continuing force.",
+      "source": "la-answers.json"
+    },
+    {
+      "moratorium_id": "la-new-orleans-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; refreshes the as-of date only, no substantive change. The City Planning Commission's staff released draft permanent regulations in August 2026 that would ban data centers over 100,000 square feet or 20 MW citywide, while permitting smaller facilities (up to 20,000 sq ft / 5 MW in commercial districts) subject to a 500-foot residential buffer and utility pre-review. At its Aug. 25, 2026 meeting, the Commission deferred a final vote on these recommendations to October 2026 after several commissioners and the East New Orleans Neighborhood Advisory Commission argued for stricter limits (larger buffers, added protections for schools/senior facilities, water-usage specifics) and more community input. No final City Council action on either the interim or permanent zoning dockets was found in sources reviewed through 2026-09-23, so the interim citywide data-center permitting hold (adopted 2026-01-28, one-year term subject to a possible 180-day extension) remains the operative instrument.",
+      "after": "The city council legislative file for Zoning Docket 37/26, Calendar No. 35,512, lists the Data Center Interim Zoning District ordinance on the August 20, 2026 agenda and annotates it ADOPTED. The file does not show a final action date in its action table. On October 15, 2026, Axios reported that the planning commission had failed to advance permanent data-center recommendations after a split vote. The ordinance\u2019s effective date, subsequent changes, and present legal force remain unresolved. [VERIFY: executed interim ordinance, exact action/effective date, relationship to the January motion hold, subsequent changes and present legal force; no merge or new instrument count inferred.]",
+      "reason": "The official council file contradicts the baseline assertion that no final action on the interim docket was found; the later article documents the planning commission\u2019s separate permanent-rules process.",
+      "source": "la-answers.json"
+    },
+    {
+      "moratorium_id": "ma-leominster-undated",
+      "column": "date_enacted",
+      "before": "Not yet enacted as of 2026-09-23. Two petitions (data centers; battery energy storage systems), filed by Council President Claire M. Freda, were unanimously advanced by the City Council to a public hearing held 2026-09-14; the Council then unanimously granted more time and scheduled a further hearing/vote for 2026-09-28.",
+      "after": "On 2026-09-28 the City Council voted 8-0 to grant each of petitions 02-27 (battery storage) and 03-27 (data centers). Mayoral approval and the legal effective date remain unverified.",
+      "reason": "September 28 official City Council minutes record the votes; approval and effect remain unresolved.",
+      "source": "ma-answers.json"
+    },
+    {
+      "moratorium_id": "ma-leominster-undated",
+      "column": "legal_basis",
+      "before": "City Council petitions for a one-year-equivalent moratorium (through July 31, 2027) on data centers and battery energy storage facilities; would also require Mayor Dean Mazzarella's approval before taking effect. Petition instrument number not confirmed in sources reviewed.",
+      "after": "Separate City Council petitions 02-27 (BESS) and 03-27 (data centers), each granted September 28, 2026. [VERIFY: final instrument identities, any required approval and operative legal effect; combined legacy identity requires migration.]",
+      "reason": "September 28 official City Council minutes record the votes; approval and effect remain unresolved.",
+      "source": "ma-answers.json"
+    },
+    {
+      "moratorium_id": "ma-leominster-undated",
+      "column": "current_status",
+      "before": "Pending as of 2026-09-23. The City Council held a public hearing on the combined data-center/BESS moratorium petitions on 2026-09-14; the Planning Board had not yet delivered its recommendation, and the Council unanimously granted more time, scheduling a further hearing/vote for 2026-09-28 (five days after this research pass). Mayor Mazzarella has not indicated support and has publicly cautioned against rushing the petitions. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+      "after": "September 28, 2026 minutes record separate 8-0 votes granting Petition 02-27 (BESS) and Petition 03-27 (data centers), each describing a moratorium through July 31, 2027. [VERIFY: final operative instrument form, any required mayoral action, legal effectiveness and subsequent actions. Two distinct petitions require a reviewed split of this combined legacy row; pending classification is provisional, not confirmation that council consideration remains pending.]",
+      "reason": "September 28 official City Council minutes record the votes; approval and effect remain unresolved.",
+      "source": "ma-answers.json"
+    },
+    {
+      "moratorium_id": "ma-leominster-undated",
+      "column": "outcome",
+      "before": "Proposed moratorium (through July 31, 2027) on data centers and battery energy storage facilities remains under Council review; a further hearing/vote is scheduled for 2026-09-28 after the Sept. 14, 2026 public hearing was postponed pending Planning Board input.",
+      "after": "The City Council granted the BESS and data-center petitions on 2026-09-28, each by 8-0. The subsequent approval and legal effectiveness are unresolved.",
+      "reason": "September 28 official City Council minutes record the votes; approval and effect remain unresolved.",
+      "source": "ma-answers.json"
+    },
+    {
+      "moratorium_id": "ma-malden-2026",
+      "column": "legal_basis",
+      "before": "Malden City Council ordinance amendment (a second, unverified report cites zoning code sections 12.32.050, 12.12.030, 12.32.060, and 12.32.030)",
+      "after": "City Council Order 252-26, adopted May 5, 2026; a separate later zoning ordinance requires independent review.",
+      "reason": "Official legislative record identifies the May 5 instrument as an order.",
+      "source": "ma-answers.json"
+    },
+    {
+      "moratorium_id": "ma-malden-2026",
+      "column": "date_enacted",
+      "before": "City Council vote reported 2026-05-05 (unanimous, per Neighborhood View); a second outlet describes a June 16, 2026 effective date, consistent with a two-reading enrollment/ordainment process, but that detail was not independently verified.",
+      "after": "May 5, 2026 (City Council adoption of Order 252-26).",
+      "reason": "Official legislative action table.",
+      "source": "ma-answers.json"
+    },
+    {
+      "moratorium_id": "ma-malden-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "range",
+      "after": "exact",
+      "reason": "Official legislative action table.",
+      "source": "ma-answers.json"
+    },
+    {
+      "moratorium_id": "ma-malden-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The order specifies one year, not a fixed number of days.",
+      "source": "ma-answers.json"
+    },
+    {
+      "moratorium_id": "ma-malden-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "A calendar year is not a fixed-day term.",
+      "source": "ma-answers.json"
+    },
+    {
+      "moratorium_id": "ma-malden-2026",
+      "column": "current_status",
+      "before": "Adopted; one-year pause on data centers to allow Economic Development Committee study.",
+      "after": "The city legislative record identifies Order 252-26 as adopted May 5, 2026. The order says effective upon adoption and expiring one year from adoption. [VERIFY: subsequent zoning ordinance interaction, later amendments/termination and present legal force.]",
+      "reason": "Distinguish this adopted order from a separately reported later ordinance; no merger or later-force conclusion inferred.",
+      "source": "ma-answers.json"
+    }
+  ]
+}

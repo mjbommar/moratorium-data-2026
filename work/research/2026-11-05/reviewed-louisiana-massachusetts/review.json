@@ -1,0 +1,111 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "la-inventory-001": "1c1ff9ea63b1c2196dedd9266ea129f941992a673925ca2219d58e0dad1feee8",
+    "ma-inventory-001": "e4cd8bb4f9544c625bdacdc1bb5b84f4d988950447fd63e83e36d1753377635e",
+    "ma-inventory-002": "cf03114c4ffb82a3b500c8d37806e6c718ab88d2750fd4d0b9d08be512354459"
+  },
+  "reviewed_answers_sha256": {
+    "la-answers.json": "d50b8e983d052af735cb7ecdcb0b1f7988b88bea1099b86bb6e2a2110d1a1918",
+    "ma-answers.json": "cc5b764c67d2e7b37baf106a14b15c23703de7728ce01035aafa3fcef711d40d"
+  },
+  "scope": "Four bounded corrections; no current-force census or new instrument promotion. Leominster has two distinct petitions pending identity migration and effectiveness review; New Orleans docket annotation does not establish an operative date or relationship to prior hold; Malden order is not merged with later zoning acts.",
+  "located_evidence": [
+    {
+      "moratorium_id": "la-iberville-parish-2026",
+      "url": "https://ibervilleparish.com/?mdocs-file=5854",
+      "located": [
+        {
+          "attempt_id": "880ff80af4274c1d9e82adc7de7ff81f",
+          "body_sha256": "62318e8efb41dedf34d4723373b62c100d3be2b3b376039d769a61b14a16064a",
+          "text_sha256": "8d8ab4839a874c98edf862062ab49291c53172ccae0b0010cacc4c9b26b8aef5"
+        }
+      ]
+    },
+    {
+      "moratorium_id": "la-new-orleans-2026",
+      "url": "https://cityofno.legistar.com/LegislationDetail.aspx?GUID=8D3010F2-EFCA-4270-8C6E-5583AF4F2105&ID=8167372",
+      "located": [
+        {
+          "attempt_id": "766b75165400438885830c15236209bb",
+          "body_sha256": "9ffd2417b55f72b3e7b4336dde1fd813f57d086d1fd07978dac555e83da6a17f",
+          "text_sha256": "936dd9299033ea446528d52f0f7655936415ec6cac5efe3fb34e33f97dfe7304"
+        }
+      ]
+    },
+    {
+      "moratorium_id": "la-new-orleans-2026",
+      "url": "https://www.axios.com/local/new-orleans/2026/10/15/data-centers-new-orleans-regulations",
+      "located": [
+        {
+          "attempt_id": "e109226ae7804e4b91a0d6db5c5f81df",
+          "body_sha256": "3c80966ea947d6f1b5cd40e3ab35b99cb3e2c9f96e563f4a41e585fa3b45efe5",
+          "text_sha256": "bb78df582b200ca6efe839d9e33480d75da9cb7960f2dfe4b13eb09087a71535"
+        }
+      ]
+    },
+    {
+      "moratorium_id": "la-new-orleans-2026",
+      "url": "https://cityofno.legistar.com/LegislationDetail.aspx?GUID=8D3010F2-EFCA-4270-8C6E-5583AF4F2105&ID=8167372",
+      "located": [
+        {
+          "attempt_id": "766b75165400438885830c15236209bb",
+          "body_sha256": "9ffd2417b55f72b3e7b4336dde1fd813f57d086d1fd07978dac555e83da6a17f",
+          "text_sha256": "936dd9299033ea446528d52f0f7655936415ec6cac5efe3fb34e33f97dfe7304"
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ma-leominster-undated",
+      "url": "https://www.leominster-ma.gov/AgendaCenter/ViewFile/Minutes/_09282026-2143",
+      "located": [
+        {
+          "attempt_id": "993fe594a0264ab28e82c2ba807a6a83",
+          "body_sha256": "082eab6c3e920f911b732aadd014effcb21c6f8f6953682fd07d75bf5623332d",
+          "text_sha256": "2c0ce9a6e3706018262a0ad002be13397bc58367bc6e302b41fe0474c89412c7"
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ma-leominster-undated",
+      "url": "https://www.leominster-ma.gov/AgendaCenter/ViewFile/Minutes/_09282026-2143",
+      "located": [
+        {
+          "attempt_id": "993fe594a0264ab28e82c2ba807a6a83",
+          "body_sha256": "082eab6c3e920f911b732aadd014effcb21c6f8f6953682fd07d75bf5623332d",
+          "text_sha256": "2c0ce9a6e3706018262a0ad002be13397bc58367bc6e302b41fe0474c89412c7"
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ma-malden-2026",
+      "url": "https://cityofmalden.legistar.com/LegislationDetail.aspx?GUID=2658D776-FCCC-4848-9315-AB3B08493B11&ID=7996590",
+      "located": [
+        {
+          "attempt_id": "0453394643744b568adfa2b01b4e5059",
+          "body_sha256": "841a0be4695537c59d38cff9cb1ba19ee9bb501323056dcdd2ac449877190bde",
+          "text_sha256": "97fee98a53683d74e294ad69622317c0c32027e1965928d25914c9ce80f5c96e"
+        }
+      ]
+    }
+  ],
+  "identity_followups": [
+    {
+      "legacy_id": "ma-leominster-undated",
+      "issue": "Combined legacy row covers distinct petitions 02-27 BESS and 03-27 data centers; review final instruments and split lineage before claiming a deduplicated instrument census."
+    },
+    {
+      "legacy_id": "la-new-orleans-2026",
+      "issue": "Review adopted interim zoning ordinance and relationship to January motion hold; do not infer replacement, merger or an extra active instrument."
+    }
+  ],
+  "validation": {
+    "dataset_errors": 0,
+    "dataset_warnings": 89,
+    "documented_count_checks": 49,
+    "rendered_pages": 53,
+    "archived_distinct_cited_urls": 5,
+    "located_evidence_excerpts": 7,
+    "identity_registry_check": "passed"
+  }
+}

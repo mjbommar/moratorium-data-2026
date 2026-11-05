@@ -108,6 +108,7 @@ Exit: accepted pilot report and separately authorized bounded collection scope.
 - [ ] Reconcile earlier 2026 measures and stage upcoming December measures separately from November totals.
 - [ ] Refresh council-adopted moratoria and expiry/extension worklists alongside election work.
 - [ ] Backfill jurisdiction/source links and document legacy calendar-duration compatibility.
+- [ ] Reconcile Leominster petitions 02-27/03-27 into distinct instrument identities with preserved legacy lineage, and resolve the New Orleans January motion/interim-ordinance relationship (`reviewed-louisiana-massachusetts/review.json`).
 - [ ] Produce row-level explanations for every change to legacy summary counts.
 
 Exit: every seed has a documented disposition; evidence gaps are visible rather than silently omitted.

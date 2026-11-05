@@ -106,7 +106,7 @@ Each correction used article-context disambiguation (`legal_basis`, `trigger`, a
 
 Right — the numbers can be confusing. Here's the difference:
 
-- **Inventory (n=1293):** the cleaned, deduplicated count of unique moratorium **instruments** (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.
+- **Inventory (n=1293):** the working inventory of moratorium **instrument records**, with [identity-reconciliation gaps](known-gaps.md#legacy-instrument-identities) still under review. One DeKalb County resolution = 1 row, even if there are 5 documents about it.
 - **Structured-extraction cohort (n=348):** the count of confidence-filtered structured **extractions**. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.
 
 The two numbers measure different things and do not need to match. The current working count is 1293 moratorium instruments; the historical line-coded sample of 348 extractions is used for clause-prevalence percentages. These older extraction records have not been recollected to match the current inventory.

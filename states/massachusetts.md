@@ -127,17 +127,17 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 
 - **Type:** City
 - **Status:** 🟡 Pending
-- **Date enacted:** Not yet enacted as of 2026-09-23. Two petitions (data centers; battery energy storage systems), filed by Council President Claire M. Freda, were unanimously advanced by the City Council to a public hearing held 2026-09-14; the Council then unanimously granted more time and scheduled a further hearing/vote for 2026-09-28.
+- **Date enacted:** On 2026-09-28 the City Council voted 8-0 to grant each of petitions 02-27 (battery storage) and 03-27 (data centers). Mayoral approval and the legal effective date remain unverified.
 - **Normalized date:** `—` (unverified)
 - **Duration:** If adopted, would pause data center and battery storage facility construction from adoption through 2027-07-31.
 - **Current end date:** `—`
 - **Sectors:** data center, battery storage
 - **Moratorium ID:** `ma-leominster-undated`
-- **Legal basis:** City Council petitions for a one-year-equivalent moratorium (through July 31, 2027) on data centers and battery energy storage facilities; would also require Mayor Dean Mazzarella's approval before taking effect. Petition instrument number not confirmed in sources reviewed.
+- **Legal basis:** Separate City Council petitions 02-27 (BESS) and 03-27 (data centers), each granted September 28, 2026. [VERIFY: final instrument identities, any required approval and operative legal effect; combined legacy identity requires migration.]
 - **What prompted it:** Community and Council concern over AI data centers' potential environmental and buffer-zone impacts, and over battery storage facility fire risk; no data center or large-scale battery storage project is currently proposed in Leominster. Part of a regional wave of central Massachusetts data-center/BESS moratoria (Fitchburg, Athol).
 - **Affected projects:** None; city officials confirmed no data center or large-scale battery storage project is currently proposed or approved in Leominster.
-- **Detailed status:** Pending as of 2026-09-23. The City Council held a public hearing on the combined data-center/BESS moratorium petitions on 2026-09-14; the Planning Board had not yet delivered its recommendation, and the Council unanimously granted more time, scheduling a further hearing/vote for 2026-09-28 (five days after this research pass). Mayor Mazzarella has not indicated support and has publicly cautioned against rushing the petitions. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
-- **Outcome:** Proposed moratorium (through July 31, 2027) on data centers and battery energy storage facilities remains under Council review; a further hearing/vote is scheduled for 2026-09-28 after the Sept. 14, 2026 public hearing was postponed pending Planning Board input.
+- **Detailed status:** September 28, 2026 minutes record separate 8-0 votes granting Petition 02-27 (BESS) and Petition 03-27 (data centers), each describing a moratorium through July 31, 2027. [VERIFY: final operative instrument form, any required mayoral action, legal effectiveness and subsequent actions. Two distinct petitions require a reviewed split of this combined legacy row; pending classification is provisional, not confirmation that council consideration remains pending.]
+- **Outcome:** The City Council granted the BESS and data-center petitions on 2026-09-28, each by 8-0. The subsequent approval and legal effectiveness are unresolved.
 
 ### Lowell
 
@@ -159,16 +159,16 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** City Council vote reported 2026-05-05 (unanimous, per Neighborhood View); a second outlet describes a June 16, 2026 effective date, consistent with a two-reading enrollment/ordainment process, but that detail was not independently verified.
-- **Normalized date:** `2026-05-05` (range)
+- **Date enacted:** May 5, 2026 (City Council adoption of Order 252-26).
+- **Normalized date:** `2026-05-05` (exact)
 - **Duration:** One year
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ma-malden-2026`
-- **Legal basis:** Malden City Council ordinance amendment (a second, unverified report cites zoning code sections 12.32.050, 12.12.030, 12.32.060, and 12.32.030)
+- **Legal basis:** City Council Order 252-26, adopted May 5, 2026; a separate later zoning ordinance requires independent review.
 - **What prompted it:** The city had no existing ordinance addressing data centers; the Council acted preemptively, before any specific project proposal, to give its Economic Development Committee time to study infrastructure, environmental, and health impacts.
 - **Affected projects:** None named; general/preemptive moratorium.
-- **Detailed status:** Adopted; one-year pause on data centers to allow Economic Development Committee study.
+- **Detailed status:** The city legislative record identifies Order 252-26 as adopted May 5, 2026. The order says effective upon adoption and expiring one year from adoption. [VERIFY: subsequent zoning ordinance interaction, later amendments/termination and present legal force.]
 - **Outcome:** One-year moratorium on data centers adopted unanimously by the City Council.
 
 ### Northampton

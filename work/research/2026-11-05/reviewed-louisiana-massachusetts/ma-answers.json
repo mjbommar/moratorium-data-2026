@@ -1,0 +1,107 @@
+{
+  "state_abbrev": "MA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "ma-leominster-undated",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.leominster-ma.gov/AgendaCenter/ViewFile/Minutes/_09282026-2143",
+          "source_type": "minutes",
+          "document_date": "2026-09-28",
+          "supports": "Council voted to grant the BESS petition; OCR derived from scanned official minutes.",
+          "quote": "The City Council voted 8-0 to GRANT Petition 02-27."
+        },
+        {
+          "url": "https://www.leominster-ma.gov/AgendaCenter/ViewFile/Minutes/_09282026-2143",
+          "source_type": "minutes",
+          "document_date": "2026-09-28",
+          "supports": "Council voted to grant the data-center petition; OCR derived from scanned official minutes.",
+          "quote": "The City Council voted 8-0 to GRANT Petition 03-27."
+        }
+      ],
+      "notes": "Council vote is documented, but mayoral approval, effective date, and later legal status remain unresolved.",
+      "changes": {
+        "date_enacted": {
+          "from": "Not yet enacted as of 2026-09-23. Two petitions (data centers; battery energy storage systems), filed by Council President Claire M. Freda, were unanimously advanced by the City Council to a public hearing held 2026-09-14; the Council then unanimously granted more time and scheduled a further hearing/vote for 2026-09-28.",
+          "to": "On 2026-09-28 the City Council voted 8-0 to grant each of petitions 02-27 (battery storage) and 03-27 (data centers). Mayoral approval and the legal effective date remain unverified.",
+          "reason": "September 28 official City Council minutes record the votes; approval and effect remain unresolved."
+        },
+        "legal_basis": {
+          "from": "City Council petitions for a one-year-equivalent moratorium (through July 31, 2027) on data centers and battery energy storage facilities; would also require Mayor Dean Mazzarella's approval before taking effect. Petition instrument number not confirmed in sources reviewed.",
+          "to": "Separate City Council petitions 02-27 (BESS) and 03-27 (data centers), each granted September 28, 2026. [VERIFY: final instrument identities, any required approval and operative legal effect; combined legacy identity requires migration.]",
+          "reason": "September 28 official City Council minutes record the votes; approval and effect remain unresolved."
+        },
+        "current_status": {
+          "from": "Pending as of 2026-09-23. The City Council held a public hearing on the combined data-center/BESS moratorium petitions on 2026-09-14; the Planning Board had not yet delivered its recommendation, and the Council unanimously granted more time, scheduling a further hearing/vote for 2026-09-28 (five days after this research pass). Mayor Mazzarella has not indicated support and has publicly cautioned against rushing the petitions. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+          "to": "September 28, 2026 minutes record separate 8-0 votes granting Petition 02-27 (BESS) and Petition 03-27 (data centers), each describing a moratorium through July 31, 2027. [VERIFY: final operative instrument form, any required mayoral action, legal effectiveness and subsequent actions. Two distinct petitions require a reviewed split of this combined legacy row; pending classification is provisional, not confirmation that council consideration remains pending.]",
+          "reason": "September 28 official City Council minutes record the votes; approval and effect remain unresolved."
+        },
+        "outcome": {
+          "from": "Proposed moratorium (through July 31, 2027) on data centers and battery energy storage facilities remains under Council review; a further hearing/vote is scheduled for 2026-09-28 after the Sept. 14, 2026 public hearing was postponed pending Planning Board input.",
+          "to": "The City Council granted the BESS and data-center petitions on 2026-09-28, each by 8-0. The subsequent approval and legal effectiveness are unresolved.",
+          "reason": "September 28 official City Council minutes record the votes; approval and effect remain unresolved."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+          "resolution": "corrected",
+          "note": "Petition numbers and council vote date established from primary minutes; new markers retain effectiveness and identity-migration questions."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ma-malden-2026",
+      "outcome": "corrected",
+      "confidence": 0.82,
+      "changes": {
+        "legal_basis": {
+          "from": "Malden City Council ordinance amendment (a second, unverified report cites zoning code sections 12.32.050, 12.12.030, 12.32.060, and 12.32.030)",
+          "to": "City Council Order 252-26, adopted May 5, 2026; a separate later zoning ordinance requires independent review.",
+          "reason": "Official legislative record identifies the May 5 instrument as an order."
+        },
+        "date_enacted": {
+          "from": "City Council vote reported 2026-05-05 (unanimous, per Neighborhood View); a second outlet describes a June 16, 2026 effective date, consistent with a two-reading enrollment/ordainment process, but that detail was not independently verified.",
+          "to": "May 5, 2026 (City Council adoption of Order 252-26).",
+          "reason": "Official legislative action table."
+        },
+        "date_enacted_uncertainty": {
+          "from": "range",
+          "to": "exact",
+          "reason": "Official legislative action table."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The order specifies one year, not a fixed number of days."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "A calendar year is not a fixed-day term."
+        },
+        "current_status": {
+          "from": "Adopted; one-year pause on data centers to allow Economic Development Committee study.",
+          "to": "The city legislative record identifies Order 252-26 as adopted May 5, 2026. The order says effective upon adoption and expiring one year from adoption. [VERIFY: subsequent zoning ordinance interaction, later amendments/termination and present legal force.]",
+          "reason": "Distinguish this adopted order from a separately reported later ordinance; no merger or later-force conclusion inferred."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://cityofmalden.legistar.com/LegislationDetail.aspx?GUID=2658D776-FCCC-4848-9315-AB3B08493B11&ID=7996590",
+          "source_type": "other",
+          "supports": "Order 252-26 identifies its own effective anchor; action table says adopted May 5.",
+          "quote": "This moratorium will be effective upon, and will expire one year from, the date of the adoption of this order.",
+          "document_date": "2026-05-05"
+        }
+      ],
+      "notes": "This corrects identity and original term only; no conclusion about subsequent ordinance interaction or current force."
+    }
+  ],
+  "new_candidates": []
+}

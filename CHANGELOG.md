@@ -34,13 +34,15 @@ Kansas source review corrects thirteen records, including Lawrence's July 21 fin
 
 Kentucky review updates fourteen records. Lexington's official October 8 extension runs through October 31, 2027, correcting both stale status and a worker date-field typo. Breckinridge's signed adoption is December 15, 2025; Cave City's minutes give May 20, 2026; Jessamine's unsupported August 4 date is cleared. Oldham's October 6 regulations vote is recorded without inferring the prior moratorium's termination. Scott's extension remains news-qualified, and publication, final-text, litigation and later-action gaps remain flagged.
 
+Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order 252-26, corrects their term representation, records Leominster's two separate September 28 petition approvals, and preserves New Orleans's adopted-annotation/action-date distinction. Leominster's combined legacy identity and the New Orleans motion/ordinance relationship require reconciliation before claiming a fully deduplicated instrument census. No new legal-force status is inferred.
+
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1293** |
 | In force (active or extended) | **1067** |
 | Proposed, not yet voted on | **73** |
 | Ended (replaced, expired, or rescinded) | **153** |
-| Rows we still want to confirm (`[VERIFY]`) | **354** |
+| Rows we still want to confirm (`[VERIFY]`) | **357** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

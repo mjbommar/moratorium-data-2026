@@ -273,7 +273,7 @@ their original cohorts, not a fresh audit of every current row.</p>
 <h2 id="why-the-inventory-n1293-and-the-historical-extraction-cohort-n348-differ">Why the inventory (n=1293) and the historical extraction cohort (n=348) differ</h2>
 <p>Right — the numbers can be confusing. Here's the difference:</p>
 <ul>
-<li><strong>Inventory (n=1293):</strong> the cleaned, deduplicated count of unique moratorium <strong>instruments</strong> (one per local-government action). One DeKalb County resolution = 1 row, even if there are 5 documents about it.</li>
+<li><strong>Inventory (n=1293):</strong> the working inventory of moratorium <strong>instrument records</strong>, with <a href="known-gaps.html#legacy-instrument-identities">identity-reconciliation gaps</a> still under review. One DeKalb County resolution = 1 row, even if there are 5 documents about it.</li>
 <li><strong>Structured-extraction cohort (n=348):</strong> the count of confidence-filtered structured <strong>extractions</strong>. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.</li>
 </ul>
 <p>The two numbers measure different things and do not need to match. The current working count is 1293 moratorium instruments; the historical line-coded sample of 348 extractions is used for clause-prevalence percentages. These older extraction records have not been recollected to match the current inventory.</p>
