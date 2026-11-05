@@ -1,0 +1,2224 @@
+{
+  "schema_version": "1.0.0",
+  "expected_sha256": "6b96ce8489452417805488177f1de5b9b9b69cdd34102c33b583d3394cc4f9ff",
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "event_id": "599c9983-848e-4729-b030-d3419dc600f7",
+      "action": "alias",
+      "table": "jurisdictions",
+      "inputs": [
+        "e096b8df-fdd7-449e-87c5-7673ca814d68"
+      ],
+      "outputs": [
+        "e096b8df-fdd7-449e-87c5-7673ca814d68"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "e096b8df-fdd7-449e-87c5-7673ca814d68",
+          "record_sha256": "ffdecc2ad97d7e941e86d44f43a87d8e90d5d0f3933eaa8c3fa05939c578591e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "5e4679a5-ba72-4295-8023-5ccef34ee86d",
+      "action": "alias",
+      "table": "elections",
+      "inputs": [
+        "d6f31abb-04c8-444e-be0c-13027a731a31"
+      ],
+      "outputs": [
+        "d6f31abb-04c8-444e-be0c-13027a731a31"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "d6f31abb-04c8-444e-be0c-13027a731a31",
+          "record_sha256": "b356075d6facf6876dcd65be38de81ed5d2eb7a41b9e17fe8b2aa484e3750c5f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "525e9ea4-e16a-413f-a4af-65dadc18d7bf",
+      "action": "alias",
+      "table": "ballot_measures",
+      "inputs": [
+        "17ff85b1-a03b-400f-8d45-c6bc022ac8fb"
+      ],
+      "outputs": [
+        "17ff85b1-a03b-400f-8d45-c6bc022ac8fb"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "17ff85b1-a03b-400f-8d45-c6bc022ac8fb",
+          "record_sha256": "44cefbf983df32175dba64112812dd8eea6c980f769dc3e3283466a443334cde"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "604f90a8-16a9-440d-a546-8c10b246e749",
+      "action": "allocate",
+      "table": "measure_provisions",
+      "inputs": [],
+      "outputs": [
+        "3a257fb1-ac3d-46e9-ac59-18850f66adac"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "3a257fb1-ac3d-46e9-ac59-18850f66adac",
+          "record_sha256": "45193ed28085fd78bd969284a3314edb2daa009b5183dc296a995096d522c4e4"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "08039a9c-cc42-4c0d-8897-e86ce5cfdaef",
+      "action": "allocate",
+      "table": "measure_results",
+      "inputs": [],
+      "outputs": [
+        "c4b5f9de-35c9-43b4-b347-6712e190f318"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "c4b5f9de-35c9-43b4-b347-6712e190f318",
+          "record_sha256": "2bee362ffce3e66a88935b393fbd682769213fabf26680d05a0b00e502aca7a5"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3997/Election-Results-November-3-2026---Eliot-Maine-PDF",
+          "body_sha256": "65c3a00c9ca1e5ad930ca37dcb0068e2d4dd1f936a72913480c42f49c794c4ac",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "14913fd9-f367-4afb-a930-9e374a726e19",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "02632098-999b-4490-a210-fdbdc0897421"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "02632098-999b-4490-a210-fdbdc0897421",
+          "record_sha256": "82b532653448f6ec5ac11f45c02ff9e68ffc1b6fcfe07ee867a90ebc5236c755"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "340b9018-a9d3-42c3-b849-a34ba1202607",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "847844db-cb62-444c-b216-7332fe18d398"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "847844db-cb62-444c-b216-7332fe18d398",
+          "record_sha256": "cf3f013f43b417dadbb07995a767e365b3c6229fb6447c50eed97b198e0a4621"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3950/Sample-Ballot---Town-PDF",
+          "body_sha256": "da723d7cb3b1b574185e227d72a9f4b19dca4b960025cc01dc9efa0009057bb7",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "004fb30d-a1ca-4a94-8bca-443b3f4d7da9",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "806e1fda-bba4-446c-9d74-7d7d08b72994"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "806e1fda-bba4-446c-9d74-7d7d08b72994",
+          "record_sha256": "73c6970c70126dd36b22fe930ae296be69af074b0ded74de4623229eaec8d779"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3909/Ballot-Question-5----Proposed-Ordinance---Data-Center-Moratorium-PDF",
+          "body_sha256": "7de84424d0ab4435a934ced14ad75c06276e24ba554f6eabe0d6e53e590043bb",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6dfd40db-b959-4458-b989-ca1dc2f46a7f",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "743c986f-8366-4d09-8c5d-5e849dc72dfe"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "743c986f-8366-4d09-8c5d-5e849dc72dfe",
+          "record_sha256": "ed8383e84e91654219cc26702501f6404c296662aabc44712c52115bd8eb4d55"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3997/Election-Results-November-3-2026---Eliot-Maine-PDF",
+          "body_sha256": "65c3a00c9ca1e5ad930ca37dcb0068e2d4dd1f936a72913480c42f49c794c4ac",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "4ac2511c-7c00-4d16-88ce-0c98c8964aeb",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "b0313610-b5de-4ae2-a287-701d2691b8de"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "b0313610-b5de-4ae2-a287-701d2691b8de",
+          "record_sha256": "4c7f36f6bc9e968665c4b25ab117382f00b04cf6f66ece0add5ad035c246c9ae"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "visual: Warrant page 1: addressee and town/county/state"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a299210b-302b-4d36-b595-78d973b427da",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "4221e6b4-5c79-4ac6-aa11-b60b542d4f91"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "4221e6b4-5c79-4ac6-aa11-b60b542d4f91",
+          "record_sha256": "343e286044429b6bdeb6ac4f390a52651ccd39bd1970964d1128126860b5b391"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "visual: Warrant page 1: special referendum heading and date"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "444a5962-e9fd-4dbf-8683-82a33bd1ec6b",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "b16b7f41-4ecd-4740-b2d1-45a147b6c09b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "b16b7f41-4ecd-4740-b2d1-45a147b6c09b",
+          "record_sha256": "b36be2feadc40e2d93f017d5055f09cbffa907016aa1169092bbba4ac35978ad"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3997/Election-Results-November-3-2026---Eliot-Maine-PDF",
+          "body_sha256": "65c3a00c9ca1e5ad930ca37dcb0068e2d4dd1f936a72913480c42f49c794c4ac",
+          "locator": "visual: Official return PDF page 3 heading"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6fd92382-a0a5-419e-9639-8559d63520db",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "ebb5bd82-6f8c-423b-9a36-80f006f69204"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "ebb5bd82-6f8c-423b-9a36-80f006f69204",
+          "record_sha256": "6af7b0cb36276a1815c081841c55880f4363c6e4a337884a03d21269cf3b49b9"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3950/Sample-Ballot---Town-PDF",
+          "body_sha256": "da723d7cb3b1b574185e227d72a9f4b19dca4b960025cc01dc9efa0009057bb7",
+          "locator": "visual: Sample ballot page 2, Question 5"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "992f3b4a-ec1f-4652-9ad1-d410e912d321",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "f430481d-da79-43ec-8a57-9dc3f42525f3"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "f430481d-da79-43ec-8a57-9dc3f42525f3",
+          "record_sha256": "42f79d36b4c09a5a788a539f511159db7b5db37598f778333373a2769593ca78"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "visual: Warrant page 1 heading; identity separately reviewed against Question 5"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a88d4f52-4d6e-4f59-8a51-0366480957d8",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "a90bcc74-4091-404a-b75b-30986fff2e23"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "a90bcc74-4091-404a-b75b-30986fff2e23",
+          "record_sha256": "d7b513ec2039442263c16b2f4079b015e1bd92febcde747d42b2ebbd9da1c4a9"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3909/Ballot-Question-5----Proposed-Ordinance---Data-Center-Moratorium-PDF",
+          "body_sha256": "7de84424d0ab4435a934ced14ad75c06276e24ba554f6eabe0d6e53e590043bb",
+          "locator": "visual: Proposed ordinance paragraph 2"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "edea1b2a-d883-4087-9ab9-0fbb36ff366c",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "d53c8baa-7194-4f63-97e8-c6a60955b5ef"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "d53c8baa-7194-4f63-97e8-c6a60955b5ef",
+          "record_sha256": "597f1494e365e7d7f21f7a95dd728fdb220d58c45c2c3dc1debfd2f2d0ad117a"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3909/Ballot-Question-5----Proposed-Ordinance---Data-Center-Moratorium-PDF",
+          "body_sha256": "7de84424d0ab4435a934ced14ad75c06276e24ba554f6eabe0d6e53e590043bb",
+          "locator": "visual: Proposed ordinance paragraph 5; operative interpretation unresolved"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "7b07c940-b9c5-4d7b-919c-1078d818e1e0",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "6f0bac20-e391-481f-be7f-ae3228c75474"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "6f0bac20-e391-481f-be7f-ae3228c75474",
+          "record_sha256": "7caabfc44b21f1f8cfaa2b70dcb0bf2cd4e252b0b57b86a732ba610488e6f50e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3909/Ballot-Question-5----Proposed-Ordinance---Data-Center-Moratorium-PDF",
+          "body_sha256": "7de84424d0ab4435a934ced14ad75c06276e24ba554f6eabe0d6e53e590043bb",
+          "locator": "visual: Municipal officers signed certification of proposed text; Select Board vote August 27, 2026"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "3d1552e2-c621-4f09-b2e1-3e63d35bc420",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "c995d399-d736-4cb1-8bf4-ea99c20f4bd2"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "c995d399-d736-4cb1-8bf4-ea99c20f4bd2",
+          "record_sha256": "f932657402993ddbd33bda71dd1726ad1df6ceb617998727ffd567d720c9428e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3997/Election-Results-November-3-2026---Eliot-Maine-PDF",
+          "body_sha256": "65c3a00c9ca1e5ad930ca37dcb0068e2d4dd1f936a72913480c42f49c794c4ac",
+          "locator": "visual: Official signed return page 3, Question 5 and total votes cast"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "54a5a619-5412-474c-9871-7af1cf1d036b",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "cb98446e-0117-463e-ba5b-a893efd6e7b3"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "cb98446e-0117-463e-ba5b-a893efd6e7b3",
+          "record_sha256": "576dc765851623f97e3515315629696d3ef13b61206d32507e1348bbda91d95f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3909/Ballot-Question-5----Proposed-Ordinance---Data-Center-Moratorium-PDF",
+          "body_sha256": "7de84424d0ab4435a934ced14ad75c06276e24ba554f6eabe0d6e53e590043bb",
+          "locator": "visual: Proposed ordinance paragraph 2"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d40ffa88-eba6-48a9-b9ce-0cc8bfb853dc",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "0cba8fe5-c047-49a1-b517-e841c7506f9f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "0cba8fe5-c047-49a1-b517-e841c7506f9f",
+          "record_sha256": "67bdf73018faba58c27173988ac07af7128ae62b9fb2ed50f57382a7701d318c"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3909/Ballot-Question-5----Proposed-Ordinance---Data-Center-Moratorium-PDF",
+          "body_sha256": "7de84424d0ab4435a934ced14ad75c06276e24ba554f6eabe0d6e53e590043bb",
+          "locator": "visual: Proposed ordinance paragraph 4; proposed term, not current legal force"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "99d4461b-f333-4a9e-b4be-60a70186bb92",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "46bf470b-8f82-4a6f-8e42-12a36719220c"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "46bf470b-8f82-4a6f-8e42-12a36719220c",
+          "record_sha256": "0ead3f5d40933a70991fc13ea8db6c538f21d0deb15afc22678af194607efa11"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3909/Ballot-Question-5----Proposed-Ordinance---Data-Center-Moratorium-PDF",
+          "body_sha256": "7de84424d0ab4435a934ced14ad75c06276e24ba554f6eabe0d6e53e590043bb",
+          "locator": "visual: Proposed ordinance paragraph 5"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "937b1c4b-3ad6-414f-ae0a-55cc9851f7a1",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "f189cc69-ab4d-4b63-8bd5-9de28bb4c863"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "f189cc69-ab4d-4b63-8bd5-9de28bb4c863",
+          "record_sha256": "52171afbeeb51e05e448c5455ff220820fa5e1d575a776fbb2c883efc9ae7c8c"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3909/Ballot-Question-5----Proposed-Ordinance---Data-Center-Moratorium-PDF",
+          "body_sha256": "7de84424d0ab4435a934ced14ad75c06276e24ba554f6eabe0d6e53e590043bb",
+          "locator": "visual: Proposed ordinance paragraph 3"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "be911366-1b02-4a7f-b6d7-8bc10ffc2be9",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "abe2fe44-256e-4148-b599-7fa676d6fa88"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "abe2fe44-256e-4148-b599-7fa676d6fa88",
+          "record_sha256": "46c95e69a8219df8097ffef17659112f38b0ac6eb2c500a1a6b32546bb1d575e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3997/Election-Results-November-3-2026---Eliot-Maine-PDF",
+          "body_sha256": "65c3a00c9ca1e5ad930ca37dcb0068e2d4dd1f936a72913480c42f49c794c4ac",
+          "locator": "visual: Official signed return page 3, Question 5 and total votes cast"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "bc74a137-de95-4ad4-ab83-83ce96e8a264",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "2fd0e495-31e4-41e2-b0cc-67d10a564ba5"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "2fd0e495-31e4-41e2-b0cc-67d10a564ba5",
+          "record_sha256": "80e9206f07ee262b4af52631b76561d5d172353a2a8bafafc72c7f7fcd17f4b1"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3997/Election-Results-November-3-2026---Eliot-Maine-PDF",
+          "body_sha256": "65c3a00c9ca1e5ad930ca37dcb0068e2d4dd1f936a72913480c42f49c794c4ac",
+          "locator": "visual: Moderator certification statement, signatures and November 3 date"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "dfe6d33b-6792-4e64-ba61-28b56c81a0ef",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "a8169725-557f-41de-87b3-47902933373f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "a8169725-557f-41de-87b3-47902933373f",
+          "record_sha256": "5e4247442cea9ec6c97e19c87d39cc0056719d5fc18fe380ba28745ecff41b7d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "c32cee60-a593-4a6b-af42-1bafd6f5266a",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "6bf4fa66-e7f9-49e7-8b95-bf0eaf47334a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "6bf4fa66-e7f9-49e7-8b95-bf0eaf47334a",
+          "record_sha256": "89b6d1949a4ee6efed57adae9508fc5f1734db6bf9ada48216ea0a3c6031a90c"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ab4c8a30-ec4c-4f01-87a1-8eb8571a90fc",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "64a67390-1491-45ed-9a48-d7b91a1d8575"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "64a67390-1491-45ed-9a48-d7b91a1d8575",
+          "record_sha256": "bf97c39941c4c7a6bb4812c2bf76afe11dbaf0b38c6b7e941b6e9ac1ac539b54"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "0dadf064-0fc2-41f6-ba78-522f53f9a1df",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "f37ab5d6-0da3-4c52-819c-034a9bc03198"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "f37ab5d6-0da3-4c52-819c-034a9bc03198",
+          "record_sha256": "dcc7d017fc6f305b7a0d4e60f3e7b5037198725661ba5169674a21b6f2690379"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "50194af5-9aa8-499a-a9b0-c2618e8088ea",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "5111d6a3-2c7e-451c-84b9-f2b9999a4511"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "5111d6a3-2c7e-451c-84b9-f2b9999a4511",
+          "record_sha256": "4405dbaeace79ebf2f5b01cbd5084326a6d75fe40f628926d813788367974faa"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "cb4aa1dd-6469-40e4-a6f7-f8ecf1b3f728",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "1fffb7a6-91c0-4592-bac5-d3311fdf3a5b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "1fffb7a6-91c0-4592-bac5-d3311fdf3a5b",
+          "record_sha256": "ce545b4f3c755a4de0792399e997552f3af8a0c787190d73363f4caf49b712f0"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "c3781d3e-f883-4ab7-b34f-b0a68f04b610",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "5309d293-f577-455e-9ea7-3db688a4e36d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "5309d293-f577-455e-9ea7-3db688a4e36d",
+          "record_sha256": "1ee9f09a002a6e344e63fa68430fb686b0ca287b5db384443e423bb3f01e0658"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "28838a92-211f-4742-9151-5cc8442f891e",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "d32cdec8-0f3b-46f8-9b1e-64ead08f672f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "d32cdec8-0f3b-46f8-9b1e-64ead08f672f",
+          "record_sha256": "d643e96ad0a5eb82ff61f22e08ed131396cd633f002a18579e84b65e05f1b0fa"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a7817052-6665-4d98-b0ea-6977546564c4",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "8cdc2fe6-2100-4f58-8155-d14bf5ea3652"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "8cdc2fe6-2100-4f58-8155-d14bf5ea3652",
+          "record_sha256": "cf8de7301fcef619395060f659ec3d061750080a78f860c47824a72b171cb2d5"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "928690c4-493d-462a-bb5c-12fa7bf4d974",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "87833949-2aef-491c-a875-17a738207308"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "87833949-2aef-491c-a875-17a738207308",
+          "record_sha256": "26b2c4f0ca19107b338c5c07fc66b4d5473580220fe71a8cd45d5ac62087576d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d5644273-2ba7-4b1f-a187-1cef3c233b7f",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "b5783070-f427-4e06-aab3-058f6156eefd"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "b5783070-f427-4e06-aab3-058f6156eefd",
+          "record_sha256": "627008f13fa3b41c31167771620536847f7df70d07993a7e4f3b116ab059ce1b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "c9f2d944-5fd8-4486-8d55-23fd47d2989c",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "49fbb245-6cbc-472a-81ea-d49153a6426c"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "49fbb245-6cbc-472a-81ea-d49153a6426c",
+          "record_sha256": "00e9a9e3b20bcde9ace2c42d19096103f05809d481d29d625f5405dfe6f1fdb7"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "212276e1-74c7-4d18-9bb2-19acdddf7da0",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "3f753a4e-a727-4919-8343-d10c270009e8"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "3f753a4e-a727-4919-8343-d10c270009e8",
+          "record_sha256": "6e5bed1cbcd840feec4e5e7c4a55d66cddae2161f8dca796923b71207e618da3"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "33640934-84a6-41ac-981d-da980cd5bb86",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "18bd5b98-13e0-4803-9d29-6dc52858bf7b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "18bd5b98-13e0-4803-9d29-6dc52858bf7b",
+          "record_sha256": "97f3f60c33a351944645de9fdc2c924fb708351bc08889bf64906b188537f571"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "300116f2-9cd8-4024-b84e-379fb6125a92",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "3f50bd51-3778-445f-99ce-5fa03bedab45"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "3f50bd51-3778-445f-99ce-5fa03bedab45",
+          "record_sha256": "4c40e63405e2e1267e846d25474425ab3afb596bebf01a30e96e14d6a26ab48d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f2c80c61-eab6-4619-a73b-2004eea93b29",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "2391122a-1649-48a6-ad1a-2e10f896f462"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "2391122a-1649-48a6-ad1a-2e10f896f462",
+          "record_sha256": "f88c539afc9cb607ade092bc3638329216b0b1f2853e6b4b50797c1c98ed7a7c"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6b0dd0f7-d126-410a-94de-01798c0ed164",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "9d47526a-0caf-4f2c-9642-8617f1e6026c"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "9d47526a-0caf-4f2c-9642-8617f1e6026c",
+          "record_sha256": "355fc30c77055a1d7b8b1a9d6cea1a0aee0027a2c683f2854e3a8cc96b8f9d28"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8981a7ae-7bb8-4011-a99b-e0b92d534af8",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "a740488f-7642-496c-911f-f537c860b5ab"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "a740488f-7642-496c-911f-f537c860b5ab",
+          "record_sha256": "54732ab7586b83258b86ca52a54d46038158b3f4c4dacf625ede774c06bd4673"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "53d69f1b-d019-4a8b-b80b-bc1b6b17c420",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "7ed82d6b-5e0a-440d-ba6b-f3dff179799f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "7ed82d6b-5e0a-440d-ba6b-f3dff179799f",
+          "record_sha256": "1009154c09417b40deb54f473021ec5059d27dbf4092d517a521cb156b02279a"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "bb89acf5-8739-4b00-8b60-933e9c6c4dd5",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "f48b3110-340a-46dc-a949-fa7485ad3a35"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "f48b3110-340a-46dc-a949-fa7485ad3a35",
+          "record_sha256": "6317cd20562a85f461a57319ac721662b96d0d9b2a3c7063b53f40df11d6f76e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f422cbc4-60d9-4aa1-b681-fee9cdcd4ef1",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "063e4644-4747-42fc-b39d-59de3630792b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "063e4644-4747-42fc-b39d-59de3630792b",
+          "record_sha256": "5eee76d145d12ff7c9e9d52377151fadf41dad178aad29249764880db14290d0"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "815a337f-3a51-4ad1-947d-4e0ec9287128",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "6e7ffebd-0fc3-4534-90d7-2bc21b78bcdd"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "6e7ffebd-0fc3-4534-90d7-2bc21b78bcdd",
+          "record_sha256": "7fd3e7d35fd702aee41d38581e0582a4b0f9bd6dd48f5536a3a6bf28773d5713"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "3b7ef0c5-3182-4621-8883-4aca9c0393a7",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "53e2ce06-be2b-4b0d-8e77-3b805201db7b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "53e2ce06-be2b-4b0d-8e77-3b805201db7b",
+          "record_sha256": "8c6bcc31ef2aefa4cc9c9db1d139e46f2d4984420c386aa608352010c663aa25"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d9d07137-8f05-4196-b83c-ec68602dabc8",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "ba6d44ca-62ed-436b-88c9-8856b86db540"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "ba6d44ca-62ed-436b-88c9-8856b86db540",
+          "record_sha256": "262d0433a50721724865825f6bc8980568cb4600d352578596b08b18c3b3e949"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "29931251-a13c-488f-b6db-60de219ed488",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "5ca0bc18-adc0-41d9-8f0d-e16d1b32213f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "5ca0bc18-adc0-41d9-8f0d-e16d1b32213f",
+          "record_sha256": "6b34776ec13993020ec7ef91d65192bd34952f0a2460a2960294d4f78afacabb"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f86088c2-e8ad-4b2d-b36f-b48fe71d0f0a",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "d494c22b-e77c-4235-a985-a764da13e9db"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "d494c22b-e77c-4235-a985-a764da13e9db",
+          "record_sha256": "f6dabb9f75a3d50607d34818dec9008d74c8dc75fab581504cf8930b98cdb251"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "fab1325f-2827-40c4-9300-5db26b038116",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "faf58e00-70bf-4f1f-9051-93d4d62db63f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "faf58e00-70bf-4f1f-9051-93d4d62db63f",
+          "record_sha256": "c0c9277acd98d50c0c4cc0764e2e47ebf8a039a8f896087cd781298e498d9080"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "e4281d47-c9bf-40d0-be31-3ea5eea98cde",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "5dfa761b-cebf-42cc-abb0-a5a65d94fbcc"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "5dfa761b-cebf-42cc-abb0-a5a65d94fbcc",
+          "record_sha256": "b8b51f1c9fc23b2168cf27e0ed1a7e13a93963b4535df833af410f19b8f073f7"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "558e57fb-eaef-4e3a-89a4-0730a930fc8e",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "92998f73-dcda-4352-8a72-b8a62a5c4e27"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "92998f73-dcda-4352-8a72-b8a62a5c4e27",
+          "record_sha256": "dd7c636b75d817b8f18f1d63eda6e58198c0bc14977a74d4d0b0d90b7c8beb40"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "fe4c27f2-6f1a-4b0e-bc03-49cfdb9a5611",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "e853779e-238d-4544-a0e7-bc84c13aaaef"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "e853779e-238d-4544-a0e7-bc84c13aaaef",
+          "record_sha256": "46055ffebf58d3f899ae47afeaea12e465b912405955fa53c39a08fce4f6bc1f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "fbaf34df-81fd-4445-85c6-a2135cc6d9ba",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "b506a1be-fea8-44ea-a542-da26482c3638"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "b506a1be-fea8-44ea-a542-da26482c3638",
+          "record_sha256": "0e7b2c495c411484efd15f261fe60abd768e8980ef13115a06721425144ff0a4"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "c1a1491c-19ec-4b52-bb16-dfd1d206ab26",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "1125d7ef-c9b2-42ae-816d-7774a55711c7"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "1125d7ef-c9b2-42ae-816d-7774a55711c7",
+          "record_sha256": "4c85ff90e40b0b6a9ce5dc03c08060240724d86e8f97a0874f3d1dc1d20ee98d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6581ebc6-6a52-4131-9af6-a76b59e58fba",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "65e8cf67-d5f6-4af2-b2ed-4c18312c28d1"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "65e8cf67-d5f6-4af2-b2ed-4c18312c28d1",
+          "record_sha256": "27b18ba81fa404cd2373bd6c543775bf3310b9615aa76f629db23fe9efc282b9"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "3895a3d5-9b74-4d61-8c6e-22de1ed1ef13",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "0929857b-d0a9-46db-a145-971a6ee280d2"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "0929857b-d0a9-46db-a145-971a6ee280d2",
+          "record_sha256": "b81cd99bbe17aedf8e2a6ab467639b063e053bd40ebec63a0a63e74e3f6ecfa6"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "9260bd3a-23fc-4603-a34e-68dc810c6a7b",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "996dc063-1eab-41cc-b320-469bc5caad2a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "996dc063-1eab-41cc-b320-469bc5caad2a",
+          "record_sha256": "88055d17cc248b39830af04c8fa7cf0e6e7f2d704f104a751c43bc106adc7278"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "2c78e08c-4854-4647-9a00-b6febf6356af",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "7a68b679-3a92-4d7f-a1a3-c688f0d7412e"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "7a68b679-3a92-4d7f-a1a3-c688f0d7412e",
+          "record_sha256": "bc99433395fa77c5476779a97f82eed0dccddb988d83bd9c9526df5cc95dab2d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "c1b01fdc-f629-4fc5-b9b7-dd6432d91cb8",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "89ad2d8d-16ab-4ef0-a0a4-d82c052b8b99"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "89ad2d8d-16ab-4ef0-a0a4-d82c052b8b99",
+          "record_sha256": "3a492448a20dfb937a2baddf9e3f024b294c5834bfce99492554f55c5082418b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "35a065af-a4dd-4b83-94a6-e54a36c248b5",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "a8c67a6e-1f8d-42f8-9e0a-dae67399eb26"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "a8c67a6e-1f8d-42f8-9e0a-dae67399eb26",
+          "record_sha256": "e7b821ff53af307aa85b1e4f87706cad1a476d0cb1d2508ebdbe9ee16a1dedae"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "2ed7641f-0999-46bf-984b-82c18813c067",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "7ed62c04-1e5f-4084-a68d-e4ae2c34400d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "7ed62c04-1e5f-4084-a68d-e4ae2c34400d",
+          "record_sha256": "c7adeeebf914eb01ad890da0e8a9c171f1ac9f20b28d08144a6b4a8222d9abb1"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "49e011f5-54c4-43df-8260-f5e3585479a7",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "60af4012-c5d4-4996-91c9-654f39156e53"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "60af4012-c5d4-4996-91c9-654f39156e53",
+          "record_sha256": "dfccd896b21a4db8957491a5fe07322f59c04a18625e987a77f31dc98060be22"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "fe7d0240-8c9c-4246-90ae-87bc1b9c9b72",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "0ff71ffb-81f4-4db6-8621-b86251ebe510"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "0ff71ffb-81f4-4db6-8621-b86251ebe510",
+          "record_sha256": "0b9852a1f3ae422ccb6b7d894ac2cc052b468a6239cf132d41db18b8c01855d2"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a405c062-c193-4efa-8a69-a9a0abb3f25e",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "b41307f3-487f-4dd0-9772-9c83c1ad8309"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "b41307f3-487f-4dd0-9772-9c83c1ad8309",
+          "record_sha256": "748c92b0fe1ee1110a97007134acb7344339ba69c4dd352cd972d91d5b4d56f8"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "97b43d44-073e-4768-998d-98d800f75266",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "7cac1475-f53b-4072-b0b9-26e783d4f728"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "7cac1475-f53b-4072-b0b9-26e783d4f728",
+          "record_sha256": "034ca70dcf622b4d56f9b3777954c62bdc93c2766668ff24ef292f305f0d4b6d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "523a92eb-aa10-4fdf-ac37-7d799ea93f84",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "32ac5c57-c0d4-4b61-aae7-caf65d13e743"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "32ac5c57-c0d4-4b61-aae7-caf65d13e743",
+          "record_sha256": "d5f5aafe67a2b273baa14ee62cfaee4ba1a102008040027b25e52c85f50d1518"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "7f0dcd05-a1f0-4524-9fe9-50a0691921e2",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "71a461ea-11a4-44e9-82d7-e3f2635aaf8f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "71a461ea-11a4-44e9-82d7-e3f2635aaf8f",
+          "record_sha256": "806a520ab6e6ac0bf4a5ce23ebb8451d08aa25535c05f1fca6e77726d0167d6f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "39371bba-04ff-49c8-85b4-819561ebb277",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "cc2ceb28-255b-411d-86f5-16c0095a03ff"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "cc2ceb28-255b-411d-86f5-16c0095a03ff",
+          "record_sha256": "d2f543474f2c9ce5cd840e4020a5c7b956d04518ba58cc5978e542e61ca08e08"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "702cb79f-ec6f-49a9-a319-e0469b0a6a2f",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "5e94dcd3-5721-4a21-9882-a280fa9ff41f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "5e94dcd3-5721-4a21-9882-a280fa9ff41f",
+          "record_sha256": "56a8a18224347b83674e1d0d726ad3f47cefecb3f98a11bc180a8164e98d48fe"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "24b09164-0640-431c-8abe-25c1ce76fa41",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "492496f5-26e7-4832-baf5-8ac9ec90328a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "492496f5-26e7-4832-baf5-8ac9ec90328a",
+          "record_sha256": "50cfd47bb2310f39deeff996a12b78b44069bf53664db7de454d022e3d5b7cb9"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "9af3325b-7609-4f23-a331-467ea732ac97",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "acf8d6cf-edf7-4d21-9595-36001896e0ad"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "acf8d6cf-edf7-4d21-9595-36001896e0ad",
+          "record_sha256": "171bbc02ec132666015ef66fcc53e72af9003cf38cf099af16e632e36506848d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "3e48fe59-dd5e-4599-8f36-33b6ceffe9de",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "7e255c3b-ba50-4c5a-b7ad-b77cc915c2fa"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "7e255c3b-ba50-4c5a-b7ad-b77cc915c2fa",
+          "record_sha256": "3422106cb6516feb8bc7d970baf59177dfe0a10bc95590b5a40c1428056ba5d5"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "9b251d4f-d144-4c58-b977-a30eca542b5f",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "df6c763c-dd86-4f49-9b1a-801d287fd35c"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "df6c763c-dd86-4f49-9b1a-801d287fd35c",
+          "record_sha256": "cb87bd5e35a37a27f580b42854017689a90d4ecc8c3dfa600413579a0663b4e5"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "c4af111a-4a01-429f-8dd4-1c629d9f2a68",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "8ebcb338-db6f-4cb2-b708-68331f15307c"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "8ebcb338-db6f-4cb2-b708-68331f15307c",
+          "record_sha256": "86f594b5c4fa17afce61a5cd80d59d45a125932359ab3afe4e8c98a8948611e8"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "9504fee1-98de-41e6-ab6c-27bb153f0be8",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "40db6e16-b3ea-4e51-9e90-6b6f5567ccbc"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "40db6e16-b3ea-4e51-9e90-6b6f5567ccbc",
+          "record_sha256": "8b0a54c5d4a49a587837e90b603491086eb6c7dd422659d3437d2c0aa4a9115e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "eea78c8a-dff8-4639-9ed0-39dcd777dec6",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "0f6e1fc4-1919-4a77-91e6-51ebd157dc88"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "0f6e1fc4-1919-4a77-91e6-51ebd157dc88",
+          "record_sha256": "1751268f1c4bc9e1f1651ca50b19dcecbbe05d9e2b03caa2ce9ddbccd38bf3ed"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "1aadc51a-cd6c-4cc0-8ca7-4352753d229c",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "6683cc17-3676-4e80-b7c1-1d7e9b18a0c7"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-eliot-first-canonical-v1",
+          "source_id": "6683cc17-3676-4e80-b7c1-1d7e9b18a0c7",
+          "record_sha256": "c04e23b7efd047be51bcb58f465f2f4acbf680dabc48abab333876cd6b5af616"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+      "rationale": "Explicit identity allocation or canonical-record alias for first Eliot reviewed batch; distinct source versions, claims, field reviews and result observation retain distinct IDs. This identity decision does not itself accept domain facts.",
+      "evidence": [
+        {
+          "url": "https://www.eliotme.gov/DocumentCenter/View/3904/Town-Special-Referendum-Warrant-PDF",
+          "body_sha256": "e4694c7db89048febad3bb472dcbb48db4f7ed4da333c79e3d21ad12af2d5b74",
+          "locator": "Eliot special referendum November 3, 2026; Question 5; source and review provenance pinned in canonical batch."
+        }
+      ]
+    }
+  ]
+}

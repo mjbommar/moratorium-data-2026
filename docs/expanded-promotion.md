@@ -1,11 +1,13 @@
 # Expanded-table publication protocol
 
 `scripts/expanded_promotion.py` supplies the first implementation of explicit
-reviewed snapshot publication. It has not yet promoted real ballot facts. The
-Eliot and census research snapshots remain candidates, and canonical expanded
-records are still absent. Initial transaction and rejection tests pass; real
-reviewed-record replay, public exports and broader behavioral calibration remain
-required before this closes P3 or P6.
+reviewed snapshot publication. The first real canonical batch now contains Eliot Question 5, its proposed
+mechanism and the signed result return. It includes one jurisdiction, election,
+measure, provision and result observation, four sources, fifteen verified claims
+and fifty-five scoped review decisions. Operative dates and the measure/instrument
+link remain unresolved. Other census records remain candidates. Broader behavioral
+calibration, additional ballot reviews, public exports and release work remain open;
+this batch does not close P3 or P6.
 
 The canonical path is `data/expanded`, a relative symlink to a complete immutable
 generation in `data/expanded-snapshots/<snapshot-sha256>/`. Every generation contains
@@ -47,9 +49,11 @@ entity records require the exact previous-record fingerprint.
 
 Every accepted field of a jurisdiction, election, measure, provision, result,
 restriction, instrument event or measure/instrument link needs one current scoped
-accepted review decision. Its supporting claims must include that field's predicate
-or `source_excerpt:<field>`. The structural validator additionally requires scoped
-acceptance of supporting claims. `claim_ids` is a mechanically checked reference
+accepted review decision. The supporting claims may transcribe source wording used in a reviewed
+interpretation, such as classifying bindingness. The structural validator requires
+acceptance of each supporting claim at its own predicate and checks its subject
+against the exact decision target. A field decision never automatically accepts
+a supporting claim or a different field. `claim_ids` is a mechanically checked reference
 list and does not need a separate factual field decision. Record publication reviews
 pin source/claim/review/search metadata separately; they never establish legal force.
 

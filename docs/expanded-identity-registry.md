@@ -1,17 +1,17 @@
 # Expanded identity registry
 
 The authoritative identity history is `data/identities/expanded.jsonl`. It is
-separate from the legacy CSV primary keys and the future canonical domain tables
+separate from the legacy CSV primary keys and the canonical domain tables
 in `data/expanded/<table>.jsonl`. The registry does not change ballot facts,
-certification, legal force, or legacy instrument counts. Canonical ballot tables
-have not yet been populated or published. Candidate review snapshots remain
-research inputs, not public domain records.
+certification, legal force, or legacy instrument counts. The first canonical ballot batch contains Eliot Question 5 and its signed result
+observation; identity decisions alone never promote its facts. Remaining candidate
+review snapshots are research inputs, not canonical domain records.
 
 `scripts/expanded_identity.py` applies explicit reviewer decisions. Names, titles,
 election dates, question numbers and similar wording never trigger an automatic
 match. A reviewer supplies an opaque UUID for each new entity and event. Preserve
 legacy moratorium/project/state-action IDs exactly; this registry allocates only
-expanded identities. A future domain importer must resolve candidate references
+expanded identities. The [domain publisher](expanded-promotion.md) must resolve candidate references
 through these reviewed mappings and independently enforce field/evidence review.
 
 An observation alias contains a namespace, its source record ID, and the SHA-256

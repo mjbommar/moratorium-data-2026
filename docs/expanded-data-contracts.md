@@ -1,12 +1,12 @@
 # Expanded candidate data contracts, version 1.0.0
 
-These additive contracts describe research candidates, not accepted facts, and do
-not modify the legacy inventory or state-policy CSVs. The existing codebook's
+These additive contracts describe research candidates and reviewed canonical expanded
+records. They do not modify the legacy inventory or state-policy CSVs. The existing codebook's
 moratorium grain and exclusion of permanent bans remain unchanged. A successful
 validation is structural consistency, not proof of legal effect, source accuracy,
 identity, completeness, or permission to publish. An initial [reviewed snapshot writer](expanded-promotion.md) now supplies separate
-identity, evidence, field-review and atomic-publication gates; real canonical ballot
-facts have not yet been promoted. Identity decisions have a separate
+identity, evidence, field-review and atomic-publication gates; the first reviewed canonical
+batch contains Eliot Question 5 and its signed result observation. Identity decisions have a separate
 [append-only registry](expanded-identity-registry.md).
 
 ## Files and validation

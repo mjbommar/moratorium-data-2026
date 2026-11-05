@@ -69,3 +69,14 @@ Most `date_enacted` values are ISO format (`YYYY-MM-DD`). Some are `YYYY-MM` (da
 ## Updates
 
 This data is refreshed through **September 23, 2026**. Each refresh is tagged as a release on GitHub. The current version is shown in [`../CITATION.cff`](../CITATION.cff).
+
+## Reviewed ballot records
+
+The first canonical expanded batch is Eliot, Maine, Question 5 (November 3, 2026).
+It preserves a signed return with 2,965 yes, 909 no and 183 blank votes, and reviewed
+proposed ordinance provisions. Operative dates and the legal instrument link remain
+unresolved; these records do not increase legacy in-force moratorium totals. This
+is an initial reviewed subset, not the full election census. See
+[ballot records and scope](../docs/ballot-measures.md) and the
+[publication protocol](../docs/expanded-promotion.md). The relative
+`data/expanded` pointer and its `data/expanded-snapshots` target must travel together.

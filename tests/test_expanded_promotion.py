@@ -104,7 +104,7 @@ class PublicationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'Unreferenced snapshot exists'):
             self.publish(apply=True)
 
-    def test_field_acceptance_requires_matching_predicate_and_exact_record(self):
+    def test_field_acceptance_binds_exact_record_and_allows_reviewed_interpretation(self):
         data=rows();key=str(UUID(int=1));cid=str(UUID(int=2));did=str(UUID(int=3))
         data['jurisdictions'][key]={'schema_version':'1.0.0','jurisdiction_id':key,'name':'Synthetic'}
         data['claims'][cid]={'schema_version':'1.0.0','claim_id':cid,'predicate':'name',
@@ -129,7 +129,10 @@ class PublicationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'fingerprint changed'):
             m.review_gate(data,registry,plan,proofs,rows())
         refresh();data['claims'][cid]['predicate']='unrelated';refresh()
-        with self.assertRaisesRegex(ValueError,'predicate-scoped evidence'):
+        # Source transcription and reviewed interpretation have distinct scopes.
+        m.review_gate(data,registry,plan,proofs,rows())
+        data['review_decisions'][did]['scope']='other_field';refresh()
+        with self.assertRaisesRegex(ValueError,'scoped acceptance'):
             m.review_gate(data,registry,plan,proofs,rows())
 
     def test_source_quote_proofs_cannot_be_skipped(self):

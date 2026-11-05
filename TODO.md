@@ -66,7 +66,8 @@ Exit: read-only dry-run and bounded acquisition produce auditable plans and atte
 - [ ] Add contradiction/support alerts without using model/NLI confidence as legal acceptance.
 - [ ] Require reviewed candidates for instrument/entity/event merges; protect distinct acts and questions.
 - [ ] Extend decision schemas with record fingerprints, scope, supersession and evidence claim references.
-- [ ] Complete real reviewed-record integration and recovery validation of explicit-file ballot promotion (`scripts/expanded_promotion.py`; initial atomic snapshot, identity/evidence/field-review gates implemented; no real canonical promotion yet).
+- [x] Implement explicit-file, dry-run, conflict-safe, atomic and idempotent ballot promotion; exercise the first real Eliot batch and exact replay (`scripts/expanded_promotion.py`, `work/research/2026-11-05/eliot-promotion/`).
+- [ ] Complete broader promotion/recovery calibration and the remaining ballot identity/fact reviews; the initial Eliot batch does not close P3.
 - [ ] Extend evidence archive/publication gates to new records and source payload types.
 - [ ] Add behavioral regression checks from plan section 11 (initial subset implemented; full gate coverage pending).
 

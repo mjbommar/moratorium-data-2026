@@ -1,0 +1,1735 @@
+{
+  "schema_version": "1.0.0",
+  "sha256": "0d3783df2c0d66dabd7c36163910b9dfd4d88a6ff056032735975f97bb7fa906",
+  "plan_sha256": "0bb620cfa05ea20019dda3e40c0616e51b2f92a3ee44f2f1f7f51afae40d2f4a",
+  "plan": {
+    "schema_version": "1.0.0",
+    "expected_sha256": null,
+    "registry_sha256": "74f6117fe408df568e3b652f1fa8ad4b288b639ff8c2c3ff2d6c9e5940a5c949",
+    "snapshot_sha256": "0d3783df2c0d66dabd7c36163910b9dfd4d88a6ff056032735975f97bb7fa906",
+    "reviewer": "coordinator",
+    "reviewed_at": "2026-11-05T20:27:56.917737+00:00",
+    "rationale": "First real expanded canonical batch: Eliot Question 5, signed official result counts/certification and proposed mechanism only. No current-force instrument or legal-effect link accepted. Other ballot candidates remain outside this batch.",
+    "record_reviews": [
+      {
+        "table": "jurisdictions",
+        "id": "e096b8df-fdd7-449e-87c5-7673ca814d68",
+        "record_sha256": "ffdecc2ad97d7e941e86d44f43a87d8e90d5d0f3933eaa8c3fa05939c578591e",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "county",
+          "government_type",
+          "name",
+          "state"
+        ],
+        "unresolved_fields": [
+          "aliases",
+          "authoritative_ids",
+          "boundary_reference",
+          "valid_from",
+          "valid_until"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "elections",
+        "id": "d6f31abb-04c8-444e-be0c-13027a731a31",
+        "record_sha256": "b356075d6facf6876dcd65be38de81ed5d2eb7a41b9e17fe8b2aa484e3750c5f",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "administering_authority",
+          "election_date",
+          "election_type",
+          "jurisdiction_id",
+          "official_result_urls"
+        ],
+        "unresolved_fields": [],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "ballot_measures",
+        "id": "17ff85b1-a03b-400f-8d45-c6bc022ac8fb",
+        "record_sha256": "44cefbf983df32175dba64112812dd8eea6c980f769dc3e3283466a443334cde",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "bindingness",
+          "designation",
+          "election_id",
+          "jurisdiction_id",
+          "lifecycle",
+          "placement_method",
+          "referendum_yes_effect",
+          "scope_note",
+          "sectors",
+          "title",
+          "wording",
+          "yes_direction"
+        ],
+        "unresolved_fields": [],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "measure_provisions",
+        "id": "3a257fb1-ac3d-46e9-ac59-18850f66adac",
+        "record_sha256": "45193ed28085fd78bd969284a3314edb2daa009b5183dc296a995096d522c4e4",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "bindingness",
+          "claim_ids",
+          "covered_uses",
+          "duration",
+          "exemptions",
+          "geography",
+          "implementation_requirements",
+          "measure_id",
+          "mechanism"
+        ],
+        "unresolved_fields": [
+          "thresholds"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "measure_results",
+        "id": "c4b5f9de-35c9-43b4-b347-6712e190f318",
+        "record_sha256": "2bee362ffce3e66a88935b393fbd682769213fabf26680d05a0b00e502aca7a5",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "ballots_cast",
+          "blank_votes",
+          "certification_date",
+          "certification_status",
+          "measure_id",
+          "no_votes",
+          "observed_at",
+          "source_document_id",
+          "value_methods",
+          "yes_no_votes",
+          "yes_votes"
+        ],
+        "unresolved_fields": [
+          "calculated_outcome",
+          "other_votes",
+          "outcome_direction",
+          "outcome_direction_basis",
+          "overvotes",
+          "passage_threshold",
+          "percentage_denominator",
+          "precincts_reporting",
+          "precincts_total",
+          "registered_voters",
+          "reported_outcome",
+          "reporting_status",
+          "source_yes_percent",
+          "supersedes_id",
+          "threshold_comparison",
+          "undervotes",
+          "valid_votes"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "source_documents",
+        "id": "02632098-999b-4490-a210-fdbdc0897421",
+        "record_sha256": "82b532653448f6ec5ac11f45c02ff9e68ffc1b6fcfe07ee867a90ebc5236c755",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "access_classification",
+          "body_sha256",
+          "extraction_version",
+          "publication_classification",
+          "retrieval_method",
+          "retrieved_at",
+          "text_sha256",
+          "url"
+        ],
+        "unresolved_fields": [
+          "published_date"
+        ],
+        "publication": "public_record"
+      },
+      {
+        "table": "source_documents",
+        "id": "847844db-cb62-444c-b216-7332fe18d398",
+        "record_sha256": "cf3f013f43b417dadbb07995a767e365b3c6229fb6447c50eed97b198e0a4621",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "access_classification",
+          "body_sha256",
+          "extraction_version",
+          "publication_classification",
+          "retrieval_method",
+          "retrieved_at",
+          "text_sha256",
+          "url"
+        ],
+        "unresolved_fields": [
+          "published_date"
+        ],
+        "publication": "public_record"
+      },
+      {
+        "table": "source_documents",
+        "id": "806e1fda-bba4-446c-9d74-7d7d08b72994",
+        "record_sha256": "73c6970c70126dd36b22fe930ae296be69af074b0ded74de4623229eaec8d779",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "access_classification",
+          "body_sha256",
+          "extraction_version",
+          "publication_classification",
+          "retrieval_method",
+          "retrieved_at",
+          "text_sha256",
+          "url"
+        ],
+        "unresolved_fields": [
+          "published_date"
+        ],
+        "publication": "public_record"
+      },
+      {
+        "table": "source_documents",
+        "id": "743c986f-8366-4d09-8c5d-5e849dc72dfe",
+        "record_sha256": "ed8383e84e91654219cc26702501f6404c296662aabc44712c52115bd8eb4d55",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "access_classification",
+          "body_sha256",
+          "extraction_version",
+          "publication_classification",
+          "retrieval_method",
+          "retrieved_at",
+          "text_sha256",
+          "url"
+        ],
+        "unresolved_fields": [
+          "published_date"
+        ],
+        "publication": "public_record"
+      },
+      {
+        "table": "claims",
+        "id": "b0313610-b5de-4ae2-a287-701d2691b8de",
+        "record_sha256": "4c7f36f6bc9e968665c4b25ab117382f00b04cf6f66ece0add5ad035c246c9ae",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "claims",
+        "id": "4221e6b4-5c79-4ac6-aa11-b60b542d4f91",
+        "record_sha256": "343e286044429b6bdeb6ac4f390a52651ccd39bd1970964d1128126860b5b391",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "claims",
+        "id": "b16b7f41-4ecd-4740-b2d1-45a147b6c09b",
+        "record_sha256": "b36be2feadc40e2d93f017d5055f09cbffa907016aa1169092bbba4ac35978ad",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "claims",
+        "id": "ebb5bd82-6f8c-423b-9a36-80f006f69204",
+        "record_sha256": "6af7b0cb36276a1815c081841c55880f4363c6e4a337884a03d21269cf3b49b9",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "claims",
+        "id": "f430481d-da79-43ec-8a57-9dc3f42525f3",
+        "record_sha256": "42f79d36b4c09a5a788a539f511159db7b5db37598f778333373a2769593ca78",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "claims",
+        "id": "a90bcc74-4091-404a-b75b-30986fff2e23",
+        "record_sha256": "d7b513ec2039442263c16b2f4079b015e1bd92febcde747d42b2ebbd9da1c4a9",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "claims",
+        "id": "d53c8baa-7194-4f63-97e8-c6a60955b5ef",
+        "record_sha256": "597f1494e365e7d7f21f7a95dd728fdb220d58c45c2c3dc1debfd2f2d0ad117a",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "claims",
+        "id": "6f0bac20-e391-481f-be7f-ae3228c75474",
+        "record_sha256": "7caabfc44b21f1f8cfaa2b70dcb0bf2cd4e252b0b57b86a732ba610488e6f50e",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "claims",
+        "id": "c995d399-d736-4cb1-8bf4-ea99c20f4bd2",
+        "record_sha256": "f932657402993ddbd33bda71dd1726ad1df6ceb617998727ffd567d720c9428e",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "claims",
+        "id": "cb98446e-0117-463e-ba5b-a893efd6e7b3",
+        "record_sha256": "576dc765851623f97e3515315629696d3ef13b61206d32507e1348bbda91d95f",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "claims",
+        "id": "0cba8fe5-c047-49a1-b517-e841c7506f9f",
+        "record_sha256": "67bdf73018faba58c27173988ac07af7128ae62b9fb2ed50f57382a7701d318c",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "claims",
+        "id": "46bf470b-8f82-4a6f-8e42-12a36719220c",
+        "record_sha256": "0ead3f5d40933a70991fc13ea8db6c538f21d0deb15afc22678af194607efa11",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "claims",
+        "id": "f189cc69-ab4d-4b63-8bd5-9de28bb4c863",
+        "record_sha256": "52171afbeeb51e05e448c5455ff220820fa5e1d575a776fbb2c883efc9ae7c8c",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "claims",
+        "id": "abe2fe44-256e-4148-b599-7fa676d6fa88",
+        "record_sha256": "46c95e69a8219df8097ffef17659112f38b0ac6eb2c500a1a6b32546bb1d575e",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "claims",
+        "id": "2fd0e495-31e4-41e2-b0cc-67d10a564ba5",
+        "record_sha256": "80e9206f07ee262b4af52631b76561d5d172353a2a8bafafc72c7f7fcd17f4b1",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "extraction_provenance",
+          "predicate",
+          "source_document_id",
+          "span",
+          "subject",
+          "temporal_support",
+          "value"
+        ],
+        "unresolved_fields": [
+          "quote"
+        ],
+        "publication": "reviewed_excerpt"
+      },
+      {
+        "table": "review_decisions",
+        "id": "a8169725-557f-41de-87b3-47902933373f",
+        "record_sha256": "5e4247442cea9ec6c97e19c87d39cc0056719d5fc18fe380ba28745ecff41b7d",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "6bf4fa66-e7f9-49e7-8b95-bf0eaf47334a",
+        "record_sha256": "89b6d1949a4ee6efed57adae9508fc5f1734db6bf9ada48216ea0a3c6031a90c",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "64a67390-1491-45ed-9a48-d7b91a1d8575",
+        "record_sha256": "bf97c39941c4c7a6bb4812c2bf76afe11dbaf0b38c6b7e941b6e9ac1ac539b54",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "f37ab5d6-0da3-4c52-819c-034a9bc03198",
+        "record_sha256": "dcc7d017fc6f305b7a0d4e60f3e7b5037198725661ba5169674a21b6f2690379",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "5111d6a3-2c7e-451c-84b9-f2b9999a4511",
+        "record_sha256": "4405dbaeace79ebf2f5b01cbd5084326a6d75fe40f628926d813788367974faa",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "1fffb7a6-91c0-4592-bac5-d3311fdf3a5b",
+        "record_sha256": "ce545b4f3c755a4de0792399e997552f3af8a0c787190d73363f4caf49b712f0",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "5309d293-f577-455e-9ea7-3db688a4e36d",
+        "record_sha256": "1ee9f09a002a6e344e63fa68430fb686b0ca287b5db384443e423bb3f01e0658",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "d32cdec8-0f3b-46f8-9b1e-64ead08f672f",
+        "record_sha256": "d643e96ad0a5eb82ff61f22e08ed131396cd633f002a18579e84b65e05f1b0fa",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "8cdc2fe6-2100-4f58-8155-d14bf5ea3652",
+        "record_sha256": "cf8de7301fcef619395060f659ec3d061750080a78f860c47824a72b171cb2d5",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "87833949-2aef-491c-a875-17a738207308",
+        "record_sha256": "26b2c4f0ca19107b338c5c07fc66b4d5473580220fe71a8cd45d5ac62087576d",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "b5783070-f427-4e06-aab3-058f6156eefd",
+        "record_sha256": "627008f13fa3b41c31167771620536847f7df70d07993a7e4f3b116ab059ce1b",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "49fbb245-6cbc-472a-81ea-d49153a6426c",
+        "record_sha256": "00e9a9e3b20bcde9ace2c42d19096103f05809d481d29d625f5405dfe6f1fdb7",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "3f753a4e-a727-4919-8343-d10c270009e8",
+        "record_sha256": "6e5bed1cbcd840feec4e5e7c4a55d66cddae2161f8dca796923b71207e618da3",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "18bd5b98-13e0-4803-9d29-6dc52858bf7b",
+        "record_sha256": "97f3f60c33a351944645de9fdc2c924fb708351bc08889bf64906b188537f571",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "3f50bd51-3778-445f-99ce-5fa03bedab45",
+        "record_sha256": "4c40e63405e2e1267e846d25474425ab3afb596bebf01a30e96e14d6a26ab48d",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "2391122a-1649-48a6-ad1a-2e10f896f462",
+        "record_sha256": "f88c539afc9cb607ade092bc3638329216b0b1f2853e6b4b50797c1c98ed7a7c",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "9d47526a-0caf-4f2c-9642-8617f1e6026c",
+        "record_sha256": "355fc30c77055a1d7b8b1a9d6cea1a0aee0027a2c683f2854e3a8cc96b8f9d28",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "a740488f-7642-496c-911f-f537c860b5ab",
+        "record_sha256": "54732ab7586b83258b86ca52a54d46038158b3f4c4dacf625ede774c06bd4673",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "7ed82d6b-5e0a-440d-ba6b-f3dff179799f",
+        "record_sha256": "1009154c09417b40deb54f473021ec5059d27dbf4092d517a521cb156b02279a",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "f48b3110-340a-46dc-a949-fa7485ad3a35",
+        "record_sha256": "6317cd20562a85f461a57319ac721662b96d0d9b2a3c7063b53f40df11d6f76e",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "063e4644-4747-42fc-b39d-59de3630792b",
+        "record_sha256": "5eee76d145d12ff7c9e9d52377151fadf41dad178aad29249764880db14290d0",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "6e7ffebd-0fc3-4534-90d7-2bc21b78bcdd",
+        "record_sha256": "7fd3e7d35fd702aee41d38581e0582a4b0f9bd6dd48f5536a3a6bf28773d5713",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "53e2ce06-be2b-4b0d-8e77-3b805201db7b",
+        "record_sha256": "8c6bcc31ef2aefa4cc9c9db1d139e46f2d4984420c386aa608352010c663aa25",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "ba6d44ca-62ed-436b-88c9-8856b86db540",
+        "record_sha256": "262d0433a50721724865825f6bc8980568cb4600d352578596b08b18c3b3e949",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "5ca0bc18-adc0-41d9-8f0d-e16d1b32213f",
+        "record_sha256": "6b34776ec13993020ec7ef91d65192bd34952f0a2460a2960294d4f78afacabb",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "d494c22b-e77c-4235-a985-a764da13e9db",
+        "record_sha256": "f6dabb9f75a3d50607d34818dec9008d74c8dc75fab581504cf8930b98cdb251",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "faf58e00-70bf-4f1f-9051-93d4d62db63f",
+        "record_sha256": "c0c9277acd98d50c0c4cc0764e2e47ebf8a039a8f896087cd781298e498d9080",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "5dfa761b-cebf-42cc-abb0-a5a65d94fbcc",
+        "record_sha256": "b8b51f1c9fc23b2168cf27e0ed1a7e13a93963b4535df833af410f19b8f073f7",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "92998f73-dcda-4352-8a72-b8a62a5c4e27",
+        "record_sha256": "dd7c636b75d817b8f18f1d63eda6e58198c0bc14977a74d4d0b0d90b7c8beb40",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "e853779e-238d-4544-a0e7-bc84c13aaaef",
+        "record_sha256": "46055ffebf58d3f899ae47afeaea12e465b912405955fa53c39a08fce4f6bc1f",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "b506a1be-fea8-44ea-a542-da26482c3638",
+        "record_sha256": "0e7b2c495c411484efd15f261fe60abd768e8980ef13115a06721425144ff0a4",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "1125d7ef-c9b2-42ae-816d-7774a55711c7",
+        "record_sha256": "4c85ff90e40b0b6a9ce5dc03c08060240724d86e8f97a0874f3d1dc1d20ee98d",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "65e8cf67-d5f6-4af2-b2ed-4c18312c28d1",
+        "record_sha256": "27b18ba81fa404cd2373bd6c543775bf3310b9615aa76f629db23fe9efc282b9",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "0929857b-d0a9-46db-a145-971a6ee280d2",
+        "record_sha256": "b81cd99bbe17aedf8e2a6ab467639b063e053bd40ebec63a0a63e74e3f6ecfa6",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "996dc063-1eab-41cc-b320-469bc5caad2a",
+        "record_sha256": "88055d17cc248b39830af04c8fa7cf0e6e7f2d704f104a751c43bc106adc7278",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "7a68b679-3a92-4d7f-a1a3-c688f0d7412e",
+        "record_sha256": "bc99433395fa77c5476779a97f82eed0dccddb988d83bd9c9526df5cc95dab2d",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "89ad2d8d-16ab-4ef0-a0a4-d82c052b8b99",
+        "record_sha256": "3a492448a20dfb937a2baddf9e3f024b294c5834bfce99492554f55c5082418b",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "a8c67a6e-1f8d-42f8-9e0a-dae67399eb26",
+        "record_sha256": "e7b821ff53af307aa85b1e4f87706cad1a476d0cb1d2508ebdbe9ee16a1dedae",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "7ed62c04-1e5f-4084-a68d-e4ae2c34400d",
+        "record_sha256": "c7adeeebf914eb01ad890da0e8a9c171f1ac9f20b28d08144a6b4a8222d9abb1",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "60af4012-c5d4-4996-91c9-654f39156e53",
+        "record_sha256": "dfccd896b21a4db8957491a5fe07322f59c04a18625e987a77f31dc98060be22",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "0ff71ffb-81f4-4db6-8621-b86251ebe510",
+        "record_sha256": "0b9852a1f3ae422ccb6b7d894ac2cc052b468a6239cf132d41db18b8c01855d2",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "b41307f3-487f-4dd0-9772-9c83c1ad8309",
+        "record_sha256": "748c92b0fe1ee1110a97007134acb7344339ba69c4dd352cd972d91d5b4d56f8",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "7cac1475-f53b-4072-b0b9-26e783d4f728",
+        "record_sha256": "034ca70dcf622b4d56f9b3777954c62bdc93c2766668ff24ef292f305f0d4b6d",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "32ac5c57-c0d4-4b61-aae7-caf65d13e743",
+        "record_sha256": "d5f5aafe67a2b273baa14ee62cfaee4ba1a102008040027b25e52c85f50d1518",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "71a461ea-11a4-44e9-82d7-e3f2635aaf8f",
+        "record_sha256": "806a520ab6e6ac0bf4a5ce23ebb8451d08aa25535c05f1fca6e77726d0167d6f",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "cc2ceb28-255b-411d-86f5-16c0095a03ff",
+        "record_sha256": "d2f543474f2c9ce5cd840e4020a5c7b956d04518ba58cc5978e542e61ca08e08",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "5e94dcd3-5721-4a21-9882-a280fa9ff41f",
+        "record_sha256": "56a8a18224347b83674e1d0d726ad3f47cefecb3f98a11bc180a8164e98d48fe",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "492496f5-26e7-4832-baf5-8ac9ec90328a",
+        "record_sha256": "50cfd47bb2310f39deeff996a12b78b44069bf53664db7de454d022e3d5b7cb9",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "acf8d6cf-edf7-4d21-9595-36001896e0ad",
+        "record_sha256": "171bbc02ec132666015ef66fcc53e72af9003cf38cf099af16e632e36506848d",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "7e255c3b-ba50-4c5a-b7ad-b77cc915c2fa",
+        "record_sha256": "3422106cb6516feb8bc7d970baf59177dfe0a10bc95590b5a40c1428056ba5d5",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "df6c763c-dd86-4f49-9b1a-801d287fd35c",
+        "record_sha256": "cb87bd5e35a37a27f580b42854017689a90d4ecc8c3dfa600413579a0663b4e5",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "8ebcb338-db6f-4cb2-b708-68331f15307c",
+        "record_sha256": "86f594b5c4fa17afce61a5cd80d59d45a125932359ab3afe4e8c98a8948611e8",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "40db6e16-b3ea-4e51-9e90-6b6f5567ccbc",
+        "record_sha256": "8b0a54c5d4a49a587837e90b603491086eb6c7dd422659d3437d2c0aa4a9115e",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "0f6e1fc4-1919-4a77-91e6-51ebd157dc88",
+        "record_sha256": "1751268f1c4bc9e1f1651ca50b19dcecbbe05d9e2b03caa2ce9ddbccd38bf3ed",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      },
+      {
+        "table": "review_decisions",
+        "id": "6683cc17-3676-4e80-b7c1-1d7e9b18a0c7",
+        "record_sha256": "c04e23b7efd047be51bcb58f465f2f4acbf680dabc48abab333876cd6b5af616",
+        "previous_sha256": null,
+        "accepted_fields": [
+          "claim_ids",
+          "decided_at",
+          "disposition",
+          "method",
+          "rationale",
+          "reviewer",
+          "scope",
+          "target"
+        ],
+        "unresolved_fields": [
+          "supersedes_id"
+        ],
+        "publication": "reviewed_metadata"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "claim_id": "0cba8fe5-c047-49a1-b517-e841c7506f9f",
+      "source_document_id": "806e1fda-bba4-446c-9d74-7d7d08b72994",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    },
+    {
+      "claim_id": "2fd0e495-31e4-41e2-b0cc-67d10a564ba5",
+      "source_document_id": "743c986f-8366-4d09-8c5d-5e849dc72dfe",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    },
+    {
+      "claim_id": "4221e6b4-5c79-4ac6-aa11-b60b542d4f91",
+      "source_document_id": "02632098-999b-4490-a210-fdbdc0897421",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    },
+    {
+      "claim_id": "46bf470b-8f82-4a6f-8e42-12a36719220c",
+      "source_document_id": "806e1fda-bba4-446c-9d74-7d7d08b72994",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    },
+    {
+      "claim_id": "6f0bac20-e391-481f-be7f-ae3228c75474",
+      "source_document_id": "806e1fda-bba4-446c-9d74-7d7d08b72994",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    },
+    {
+      "claim_id": "a90bcc74-4091-404a-b75b-30986fff2e23",
+      "source_document_id": "806e1fda-bba4-446c-9d74-7d7d08b72994",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    },
+    {
+      "claim_id": "abe2fe44-256e-4148-b599-7fa676d6fa88",
+      "source_document_id": "743c986f-8366-4d09-8c5d-5e849dc72dfe",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    },
+    {
+      "claim_id": "b0313610-b5de-4ae2-a287-701d2691b8de",
+      "source_document_id": "02632098-999b-4490-a210-fdbdc0897421",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    },
+    {
+      "claim_id": "b16b7f41-4ecd-4740-b2d1-45a147b6c09b",
+      "source_document_id": "743c986f-8366-4d09-8c5d-5e849dc72dfe",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    },
+    {
+      "claim_id": "c995d399-d736-4cb1-8bf4-ea99c20f4bd2",
+      "source_document_id": "743c986f-8366-4d09-8c5d-5e849dc72dfe",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    },
+    {
+      "claim_id": "cb98446e-0117-463e-ba5b-a893efd6e7b3",
+      "source_document_id": "806e1fda-bba4-446c-9d74-7d7d08b72994",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    },
+    {
+      "claim_id": "d53c8baa-7194-4f63-97e8-c6a60955b5ef",
+      "source_document_id": "806e1fda-bba4-446c-9d74-7d7d08b72994",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    },
+    {
+      "claim_id": "ebb5bd82-6f8c-423b-9a36-80f006f69204",
+      "source_document_id": "847844db-cb62-444c-b216-7332fe18d398",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    },
+    {
+      "claim_id": "f189cc69-ab4d-4b63-8bd5-9de28bb4c863",
+      "source_document_id": "806e1fda-bba4-446c-9d74-7d7d08b72994",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    },
+    {
+      "claim_id": "f430481d-da79-43ec-8a57-9dc3f42525f3",
+      "source_document_id": "02632098-999b-4490-a210-fdbdc0897421",
+      "quote_located": false,
+      "visual_verified": true,
+      "evidence_verified": true,
+      "verified_span": null,
+      "verified_text_decoding": null
+    }
+  ]
+}
