@@ -1,0 +1,83 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "oh-plain-city-undated",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://cms3.revize.com/revize/plaincityoh/Government/Council%20Packets/2026/09.28.2026%20Council%20Regular%20Meeting%20Packet.pdf",
+          "source_type": "staff_report",
+          "document_date": "2026-09-28",
+          "supports": "Reported calendar term and pre-existing-entitlements exception.",
+          "quote": "On August 10, 2026, Plain City Village Council voted to establish a 12-month moratorium on new data center\n\ndevelopment applications for properties lacking pre-existing data center entitlements."
+        }
+      ],
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "A 12-month calendar term is not a fixed-day term."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Official staff report states a 12-month term."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; Ordinance 37-2026 (one-year moratorium on accepting development applications that include data centers) adopted unanimously 2026-08-10, running to about 2027-08-10.",
+          "to": "The September 28 Development Director memorandum reports August 10 Council approval of a twelve-month pause on new data-center development applications for properties lacking pre-existing data-center entitlements. Final operative text, precise effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-stated historical action from unverified current legal force."
+        }
+      },
+      "notes": "The September staff report confirms historical adoption, not the absence of subsequent amendment or repeal; current force remains unverified."
+    },
+    {
+      "moratorium_id": "oh-prairie-township-franklin-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://prairietownship.org/AgendaCenter/ViewFile/Minutes/_07222026-1036",
+          "source_type": "minutes",
+          "document_date": "2026-07-22",
+          "supports": "Extension description and adopted motion with three ayes; interleaved native extraction resolved by page 7 visual comparison.",
+          "quote": "Data Center Moratorium (Res 18-26 Amendment 1): Mr. Jewell asked the Board to adopt Resolution 18-26\n\nAmendment \u201cesolution twelve-month moratorium the\n\n1, Rto enact a on receipt, processing, issuance, or\n\ndata \u201d Amendment extend\n\napproval of any application for a zoning permit for a center.This will the\n\nmoratorium end date to April 15, 2027. This extension will grant additional time for the Board, staff, and\n\nlegal counsel to review, evaluate, revise, and implement certain text revisions to the Zoning Resolution and\n\nto best address the recent growth of data center demand in and around Prairie Township. Specifically, we\n\nare looking at EPA regulations that potentially allow dumping directly into surface drainage (including\n\nstreams, lakes, and rivers), data center impact on livestock, and infrasound. The additional time would\n\npermit us to reach out to professionals and experts in fields related to these items.\n\nComments/Issues: None\n\nd Board \u201c\n\nMr. Stormont movethat the adopt Resolution 18-26 Amendment 1, Resolution to enact a\n\ntwelve-month moratorium on the receipt, processing, issuance, or approval of any application for a\n\ndata \u201d Pritchard seconded. CALL Pritchard,\n\nzoning permit for a center.Mr. ROLL Votes: Mr. Aye; Ms.\n\nSchmelzer, Aye; Mr. Stormont, Aye. Motion passed."
+        }
+      ],
+      "changes": {
+        "enacted_status": {
+          "from": "active",
+          "to": "extended",
+          "reason": "July 22 trustee minutes record the extension."
+        },
+        "duration": {
+          "from": "Six months, until 11:59 p.m. October 15, 2026",
+          "to": "Original six-month pause; July 22 Resolution 18-26 Amendment 1 describes twelve months and extends the endpoint to April 15, 2027. Endpoint inclusivity and later action unresolved.",
+          "reason": "July 22 minutes record a twelve-month moratorium and extension."
+        },
+        "current_end_date_iso": {
+          "from": "2026-10-15",
+          "to": "2027-04-15",
+          "reason": "July 22 minutes state the extended end date."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; six-month moratorium adopted 2026-04-15 expires 2026-10-15 unless extended; data center zoning amendments in draft (open houses June 25 and July 7).",
+          "to": "July 22 minutes record unanimous adoption of Resolution 18-26 Amendment 1 and explicitly state extension of the data-center zoning-permit moratorium endpoint to April 15, 2027. The amended text is described as a twelve-month moratorium; endpoint inclusivity, precise operative anchors and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate source-stated historical action from unverified current legal force."
+        },
+        "duration_kind": {
+          "from": "until_date",
+          "to": "until_date",
+          "reason": "Minutes explicitly state April 15, 2027 extended endpoint."
+        }
+      },
+      "notes": "The minutes document an extension, not proof against a later repeal or further amendment."
+    }
+  ],
+  "new_candidates": []
+}

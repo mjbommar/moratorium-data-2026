@@ -1,0 +1,49 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "oh-inventory-013": "62e5029d00a1371295c03594b0a303344ebc8ad1f66d470a70577b1a225779b8"
+  },
+  "reviewed_answers_sha256": "e21bb4c3ae0e9aa55f6797f8a0e7e59ca148b11061e6b188aa2e37d1686f6bab",
+  "scope": "Plain City calendar term with pre-existing-entitlements exception; Prairie Township unanimously adopted extension to explicit April 15, 2027 endpoint. Prairie native text interleaving visually checked on page 7; original extraction preserved. No complete later legal-force history or endpoint inclusivity established. Six unresolved returns in this worker batch remain pending disposition.",
+  "located_evidence": [
+    {
+      "moratorium_id": "oh-plain-city-undated",
+      "url": "https://cms3.revize.com/revize/plaincityoh/Government/Council%20Packets/2026/09.28.2026%20Council%20Regular%20Meeting%20Packet.pdf",
+      "quote": "On August 10, 2026, Plain City Village Council voted to establish a 12-month moratorium on new data center\n\ndevelopment applications for properties lacking pre-existing data center entitlements.",
+      "located": [
+        {
+          "attempt_id": "c2bfbf27a77248c185245fc5b933c08d",
+          "body_sha256": "17e9255acdb95e9cccca5cafca24f5b8655a99e6e26514794adecccee967f96d",
+          "text_sha256": "37877e287ca110a877513cc294393a08a06f56fd8d99c1154c8a4474719151e0",
+          "span": [
+            13738,
+            13932
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-prairie-township-franklin-county-2026",
+      "url": "https://prairietownship.org/AgendaCenter/ViewFile/Minutes/_07222026-1036",
+      "quote": "Data Center Moratorium (Res 18-26 Amendment 1): Mr. Jewell asked the Board to adopt Resolution 18-26\n\nAmendment \u201cesolution twelve-month moratorium the\n\n1, Rto enact a on receipt, processing, issuance, or\n\ndata \u201d Amendment extend\n\napproval of any application for a zoning permit for a center.This will the\n\nmoratorium end date to April 15, 2027. This extension will grant additional time for the Board, staff, and\n\nlegal counsel to review, evaluate, revise, and implement certain text revisions to the Zoning Resolution and\n\nto best address the recent growth of data center demand in and around Prairie Township. Specifically, we\n\nare looking at EPA regulations that potentially allow dumping directly into surface drainage (including\n\nstreams, lakes, and rivers), data center impact on livestock, and infrasound. The additional time would\n\npermit us to reach out to professionals and experts in fields related to these items.\n\nComments/Issues: None\n\nd Board \u201c\n\nMr. Stormont movethat the adopt Resolution 18-26 Amendment 1, Resolution to enact a\n\ntwelve-month moratorium on the receipt, processing, issuance, or approval of any application for a\n\ndata \u201d Pritchard seconded. CALL Pritchard,\n\nzoning permit for a center.Mr. ROLL Votes: Mr. Aye; Ms.\n\nSchmelzer, Aye; Mr. Stormont, Aye. Motion passed.",
+      "located": [
+        {
+          "attempt_id": "cc5ca86ebe674aa899a4f940f15db55b",
+          "body_sha256": "01b7060fdc747f5080c620dac0d4433465ae37e4c40a06fe3ef3441c3a5052d9",
+          "text_sha256": "b41090efb05946fff906a99aaf95de87998228841bf3560673a0ef5ed0a68dd9",
+          "span": [
+            14332,
+            15628
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparison": {
+    "attempt_id": "cc5ca86ebe674aa899a4f940f15db55b",
+    "page": 7,
+    "render": "pdftoppm PNG -singlefile -scale-to 1400",
+    "render_sha256": "f758e234bc6bbf68ec41f41c352dfd8d91d2cbda51949d6b368ca9ddda4e5c4b",
+    "finding": "Amendment 1 extension April 15, 2027 and three-aye adoption verified despite interleaved extraction."
+  }
+}

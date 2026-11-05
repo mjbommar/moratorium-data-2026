@@ -118,7 +118,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Plain Township (Wood County) | Township | 2026-03 | data center | 🟢 Active |
 | Pleasant Township (Franklin County) | Township | 2026-02-24 | data center | 🟢 Active |
 | Portage Township (Wood County) | Township | 2026-03 | data center | 🟢 Active |
-| Prairie Township (Franklin County) | Township | 2026-04-15 | data center | 🟢 Active |
+| Prairie Township (Franklin County) | Township | 2026-04-15 | data center | 🟢 Extended |
 | Providence Township | Township | 2026-04-15 | data center | 🟢 Active |
 | Ravenna | City | 2026-04-20 | data center, cryptocurrency mining | 🟢 Active |
 | Richfield | Village | 2026-03-03 | data center | 🟢 Extended |
@@ -1849,7 +1849,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Ordinance 37-2026, 'Establishing a Temporary Moratorium on Data Center Development Within the Corporate Limits of the Village of Plain City and Declaring an Emergency' (adopted 2026-08-10); does not apply to applications filed before 2026-08-05 or to land already zoned for data center use.
 - **What prompted it:** Council-directed preparation of moratorium legislation on new data center applications
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; Ordinance 37-2026 (one-year moratorium on accepting development applications that include data centers) adopted unanimously 2026-08-10, running to about 2027-08-10.
+- **Detailed status:** The September 28 Development Director memorandum reports August 10 Council approval of a twelve-month pause on new data-center development applications for properties lacking pre-existing data-center entitlements. Final operative text, precise effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Council enacted a one-year moratorium (Ord. 37-2026) to research and develop data center zoning regulations.
 
 ### Plain Township (Stark County)
@@ -1919,17 +1919,17 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 ### Prairie Township (Franklin County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** 2026-04-15 (Board of Trustees adopted Resolution 18-26; effective immediately)
 - **Normalized date:** `2026-04-15` (exact)
-- **Duration:** Six months, until 11:59 p.m. October 15, 2026
-- **Current end date:** `2026-10-15`
+- **Duration:** Original six-month pause; July 22 Resolution 18-26 Amendment 1 describes twelve months and extends the endpoint to April 15, 2027. Endpoint inclusivity and later action unresolved.
+- **Current end date:** `2027-04-15`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-prairie-township-franklin-county-2026`
 - **Legal basis:** Prairie Township (Franklin County) Trustee Resolution No. 18-26, six-month moratorium on zoning permits for data centers
 - **What prompted it:** Karis Critical CMH LLC evaluating 127 acres in Prairie and Brown townships (Big Darby watershed) for a data center; strain on land, power and water; noise; pending HB 646.
 - **Affected projects:** Karis Critical CMH LLC site around 535 Cole Road (127 acres, Big Darby Creek watershed).
-- **Detailed status:** Active as of 2026-09-23; six-month moratorium adopted 2026-04-15 expires 2026-10-15 unless extended; data center zoning amendments in draft (open houses June 25 and July 7).
+- **Detailed status:** July 22 minutes record unanimous adoption of Resolution 18-26 Amendment 1 and explicitly state extension of the data-center zoning-permit moratorium endpoint to April 15, 2027. The amended text is described as a twelve-month moratorium; endpoint inclusivity, precise operative anchors and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Zoning Commission and consultants drafting data center text amendments to the zoning resolution.
 
 ### Providence Township

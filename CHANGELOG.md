@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Prairie Township’s unanimously adopted July 22 Amendment 1 extends its endpoint to April 15, 2027, replacing the stale October date; the interleaved extraction was checked visually against page 7. Plain City’s twelve-month term preserves its pre-existing-entitlements exception from the staff memorandum. Operative timing, endpoint inclusivity and later force remain unresolved.
+
 North Royalton and Painesville Township scanned operative clauses confirm calendar terms from effectiveness. Painesville’s alternative trustee-approved period is preserved as authority rather than an actual extension. Exact operative intervals and later legal force remain unresolved; the original extraction artifacts are retained separately from reviewed OCR.
 
 Perry Village’s October 8 adoption replaces its pending entry using the official publication notice and visually reviewed signed Ordinance 2026-13. The one-year calendar term, Champion Farm and ancillary-server-room exceptions are preserved; separate mayoral approval timing and later force remain unresolved. Ontario’s minutes confirm Ordinance 26-13, its six-month AI data-center scope and seven-aye adoption.
@@ -120,7 +122,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1068** |
 | Pending or not yet effective | **70** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **564** |
+| Rows we still want to confirm (`[VERIFY]`) | **566** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

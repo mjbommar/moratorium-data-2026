@@ -1,0 +1,73 @@
+{
+  "applied_at": "20261105T184820",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-ohio-p/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 1,
+    "fields_changed": 6,
+    "outcome:status_changed": 1,
+    "status_changed": 1,
+    "already_applied": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "oh-plain-city-undated",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "A 12-month calendar term is not a fixed-day term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-plain-city-undated",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Official staff report states a 12-month term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-plain-city-undated",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; Ordinance 37-2026 (one-year moratorium on accepting development applications that include data centers) adopted unanimously 2026-08-10, running to about 2027-08-10.",
+      "after": "The September 28 Development Director memorandum reports August 10 Council approval of a twelve-month pause on new data-center development applications for properties lacking pre-existing data-center entitlements. Final operative text, precise effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-prairie-township-franklin-county-2026",
+      "column": "enacted_status",
+      "before": "active",
+      "after": "extended",
+      "reason": "July 22 trustee minutes record the extension.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-prairie-township-franklin-county-2026",
+      "column": "duration",
+      "before": "Six months, until 11:59 p.m. October 15, 2026",
+      "after": "Original six-month pause; July 22 Resolution 18-26 Amendment 1 describes twelve months and extends the endpoint to April 15, 2027. Endpoint inclusivity and later action unresolved.",
+      "reason": "July 22 minutes record a twelve-month moratorium and extension.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-prairie-township-franklin-county-2026",
+      "column": "current_end_date_iso",
+      "before": "2026-10-15",
+      "after": "2027-04-15",
+      "reason": "July 22 minutes state the extended end date.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-prairie-township-franklin-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; six-month moratorium adopted 2026-04-15 expires 2026-10-15 unless extended; data center zoning amendments in draft (open houses June 25 and July 7).",
+      "after": "July 22 minutes record unanimous adoption of Resolution 18-26 Amendment 1 and explicitly state extension of the data-center zoning-permit moratorium endpoint to April 15, 2027. The amended text is described as a twelve-month moratorium; endpoint inclusivity, precise operative anchors and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate source-stated historical action from unverified current legal force.",
+      "source": "answers.json"
+    }
+  ]
+}
