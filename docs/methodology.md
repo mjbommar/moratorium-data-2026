@@ -76,7 +76,7 @@ We manually reviewed every extraction record to:
 - Resolve `[VERIFY]` flags by re-checking primary sources via real-Chrome browser sessions
 - Add moratoria identified through news coverage but missed by automated extraction
 
-During the November 5, 2026 working refresh the cleaned inventory has **1311 instruments across 47 states** (`data/moratorium_inventory.csv`). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.
+During the November 5, 2026 working refresh the cleaned inventory has **1314 instruments across 47 states** (`data/moratorium_inventory.csv`). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.
 
 ### Phase 4: Geocoding (added v2026.04.2)
 
@@ -85,7 +85,7 @@ Each row in the cleaned inventory was assigned WGS84 latitude and longitude coor
 1. **Primary geocoder: OSM Nominatim.** Free, open-source, with reasonable U.S. administrative boundary coverage. Rate-limited to 1 request/second per the public API usage policy.
 2. **Fallback: U.S. Census Geocoder.** Used when Nominatim returns no result. The Census Geocoder is authoritative for U.S. jurisdictions but works best for street addresses; for "Jurisdiction, State" queries we found Nominatim more reliable.
 
-Of 1311 rows, 1290 (98.4%) are successfully geocoded. The 21 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and nineteen newly added instruments whose coordinates remain unreviewed: Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County, Sarpy County, Pequot Lakes, the historical Talbot County solar record and East Windsor. Dubuque County's new successor instrument reuses the existing county centroid with recorded provenance; this was not a new geocoder query.
+Of 1314 rows, 1290 (98.2%) are successfully geocoded. The 24 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and twenty-two newly added instruments whose coordinates remain unreviewed: Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County, Sarpy County, Pequot Lakes, the historical Talbot County solar record, East Windsor, two historical Phillips County records and Fort Collins. Dubuque County's new successor instrument reuses the existing county centroid with recorded provenance; this was not a new geocoder query.
 
 After geocoding, a triple-check audit ran 89 verifications across three independent methods:
 
@@ -102,14 +102,14 @@ Across all 89 verifications, **zero confirmed wrong geocodes** (after the 4 manu
 
 Each correction used article-context disambiguation (`legal_basis`, `trigger`, and news-source mentions). The historical sample does not establish an accuracy rate for the expanded current inventory. The script is `scripts/geocode_inventory.py`; re-run after adding new rows to fill in their coordinates.
 
-## Why the inventory (n=1311) and the historical extraction cohort (n=348) differ
+## Why the inventory (n=1314) and the historical extraction cohort (n=348) differ
 
 Right — the numbers can be confusing. Here's the difference:
 
-- **Inventory (n=1311):** the working inventory of moratorium **instrument records**, with [identity-reconciliation gaps](known-gaps.md#legacy-instrument-identities) still under review. One DeKalb County resolution = 1 row, even if there are 5 documents about it.
+- **Inventory (n=1314):** the working inventory of moratorium **instrument records**, with [identity-reconciliation gaps](known-gaps.md#legacy-instrument-identities) still under review. One DeKalb County resolution = 1 row, even if there are 5 documents about it.
 - **Structured-extraction cohort (n=348):** the count of confidence-filtered structured **extractions**. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.
 
-The two numbers measure different things and do not need to match. The current working count is 1311 moratorium instruments; the historical line-coded sample of 348 extractions is used for clause-prevalence percentages. These older extraction records have not been recollected to match the current inventory.
+The two numbers measure different things and do not need to match. The current working count is 1314 moratorium instruments; the historical line-coded sample of 348 extractions is used for clause-prevalence percentages. These older extraction records have not been recollected to match the current inventory.
 
 ## What we don't claim
 

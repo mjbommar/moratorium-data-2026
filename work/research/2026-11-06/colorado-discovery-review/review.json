@@ -1,0 +1,311 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "baseline_commit": "2e8c355510f9950764b461f2fa6c6349fc703459",
+  "baseline_inventory_sha256": "fb83178f29b9769f7d2a19f7a7df00694f2cb5b30207a32269e804db91ad4fd2",
+  "candidates": [
+    {
+      "candidate_key": "discovery-co:0",
+      "candidate_sha256": "110079dba5987e4b7d95dc839694236e9c92b68c247d11bbbfaed27b934891d3",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "reviewed_historical_instrument_added",
+      "rationale": "All four recorded PDF pages inspected. Resolution 2025-09-30-01 signed/attested September 30, 2025 with immediate effect; October 20 amendment and signed February 27, 2026 extension through August 27, 2026. Original March 30 endpoint is superseded within this retained document. Solar definition exceeds five acres and supplies offsite customers. BESS exemption combines less than 25 MWh energy capacity with 5 MW discharge and less. Distinct from county data-center instrument. Accept historical latest-recorded-term classification only; subsequent action and current force remain unverified.",
+      "source_checks": [
+        {
+          "attempt_id": "84b3ce6b767a46189d9fde506fc76826",
+          "url": "https://phillipscounty.colorado.gov/sites/g/files/lrnvjt1351/files/Resolution%202025-09-30-01%20Amended%202.27.26.pdf",
+          "body_sha256": "f193ff0586b012bf42820bc5a4d0aff94d2d03b82baf74791946b37f4d68754d",
+          "text_sha256": "0799f18bb80f61a782f1b1d4b1e5ce3908489d0992a6029452baafaea60e234a",
+          "excerpt_location_check": {
+            "worker_span": [
+              177,
+              254
+            ],
+            "worker_span_matches_unicode_characters": false,
+            "located_unicode_span": [
+              175,
+              252
+            ],
+            "quote_sha256": "02498810660a3c5f8364d33bc5426e8a8eb3a30a5c9018a37c8755b1970eecff",
+            "scope": "Exact worker excerpt located against pinned original text; offsets explicitly distinguish worker coordinates from Unicode positions.",
+            "worker_span_matches_utf8_bytes": true
+          },
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 4,
+            "render_command": "pdftoppm -scale-to 1450 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "97c92aee72fe7e894950666907450db3df3d5712ac47f637bd1ac1c2e61c7d57"
+              },
+              {
+                "page": 2,
+                "image_sha256": "13e39353aad6957491a5307e6cca7a9a35348b50d97ad71dbf60121ca448e80c"
+              },
+              {
+                "page": 3,
+                "image_sha256": "46ce87ca3a475b8af185c5834c8b47d0064fe13cf65fbac47433e2b05e3706b5"
+              },
+              {
+                "page": 4,
+                "image_sha256": "e52ca7c6fa93005761e491fbdb1375f5f14afa151d671742104f2600170b3098"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-co:1",
+      "candidate_sha256": "2bd799b0e39859acfda93d835975dedeb11f748d72b085780a284e1832b3c924",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "reviewed_historical_instrument_added",
+      "rationale": "All five recorded PDF pages inspected. Signed/attested wind Resolution 2024-06-18-02 adopted unanimously June 18, 2024, original September 18, 2024 23:59 end; signed extensions through January 31, 2025, September 30, 2025, March 18, 2026 and August 27, 2026. Last signed February 27, 2026. Wind permit-processing restrictions are distinct from county solar/storage and data-center instruments. Preserve latest recorded endpoint without claiming complete continuity, no later extension or present force.",
+      "source_checks": [
+        {
+          "attempt_id": "0236047c8d684bd3baa5b944316904ce",
+          "url": "https://phillipscounty.colorado.gov/sites/g/files/lrnvjt1351/files/Resolution%202024-06-18-02%20Amended%202.27.26.pdf",
+          "body_sha256": "10074f51cdc82a74d0bd35953db0796b998d51472d18c8f12698717f8f68d6d2",
+          "text_sha256": "c81127e29fe87433d21ba3b2037cb3368bd9a277c1e30b06685b32122e160fb2",
+          "excerpt_location_check": {
+            "worker_span": [
+              927,
+              1006
+            ],
+            "worker_span_matches_unicode_characters": false,
+            "located_unicode_span": [
+              876,
+              955
+            ],
+            "quote_sha256": "4fac3fa0e4670193898043c2f6e23c1e1df71997116189cc1ff21860e5fb69d3",
+            "scope": "Exact worker excerpt located against pinned original text; offsets explicitly distinguish worker coordinates from Unicode positions.",
+            "worker_span_matches_utf8_bytes": false
+          },
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 5,
+            "render_command": "pdftoppm -scale-to 1450 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "b61c3c880809b978fbb231e05b4ce5d10e7d52357d74530c2d4831716eed8502"
+              },
+              {
+                "page": 2,
+                "image_sha256": "848df52e7f10f5091e1416e2d6ee366fc3e08413388eaebd8ece35c684237ec1"
+              },
+              {
+                "page": 3,
+                "image_sha256": "f9322782b22212913f08ab6a7c1a800c75f733ce0982015ec7ecbfb962cdea0c"
+              },
+              {
+                "page": 4,
+                "image_sha256": "b06f1b5e28c60bf69103ea54b67b05fd08851e93444ba84a121ecdcb7e8ab8d8"
+              },
+              {
+                "page": 5,
+                "image_sha256": "ae80f49414090dc4a5e23bf71214568871fca3816ca30ca9da0adb02a5e3d277"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-co:2",
+      "candidate_sha256": "cb0cffd593134cb6d0adfa6d7bb964113e1d1d9e66e4971eedacf625f870b1dd",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_original_act_and_later_history",
+      "rationale": "Complete official Mesa County announcement reports January 9 six-month commercial-solar pause or earlier termination, with January 30, 2024 open house context. Year of adoption and operative anchor are not independently stated in the adoption sentence; do not turn surrounding year into exact legal date. Recover original resolution, effective date, earlier-ending action and later history.",
+      "source_checks": [
+        {
+          "attempt_id": "87698ac8071540c1b4673e6770e13906",
+          "url": "https://www.mesacounty.us/news/commissioners/commissioners-approve-resolution-imposing-temporary-moratorium-submission",
+          "body_sha256": "2fe00d51bb508ee47079a4e309234657e0dd16d97b6ea603873f6289656021a7",
+          "text_sha256": "10ca5667756db518bcc704170f2e54ef74d88a7b4fadcf6edf1b81c6b50ae205",
+          "excerpt_location_check": {
+            "worker_span": [
+              5,
+              200
+            ],
+            "worker_span_matches_unicode_characters": true,
+            "located_unicode_span": [
+              5,
+              200
+            ],
+            "quote_sha256": "7750d0bfd0b90e6d128f3ca2412bd2ecc7a833bac0bbc7d0699a6e0fd87963ba",
+            "scope": "Exact worker excerpt located against pinned original text; offsets explicitly distinguish worker coordinates from Unicode positions.",
+            "worker_span_matches_utf8_bytes": true
+          },
+          "read_scope": "Complete retained extracted article/notice text"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-co:4",
+      "candidate_sha256": "e5d5decfdb8bed8340b2d0751d0e22b0607f02b3f1380a74ed91f98d2422b118",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_original_act_and_operative_interval",
+      "rationale": "Complete Alamosa Citizen report describes unanimous city data-center/utility-scale BESS moratorium and July 31, 2027 endpoint or earlier new regulations. It also discusses applications during the next two weeks; reported approval is not an established immediate operative start. Original city ordinance, exact adoption/effectiveness and later action required. Do not merge city with Rio Grande County or infer a permanent ban from councilor preferences.",
+      "source_checks": [
+        {
+          "attempt_id": "5c87bd92f355423f922f2b2659b874e5",
+          "url": "https://www.alamosacitizen.com/alamosa-places-1-year-moratorium-on-data-centers-large-battery-storage-systems/",
+          "body_sha256": "d582260a1108f8153e6fbd34e0b9e8a87c93f61aed1e820524c9a29518e3a83c",
+          "text_sha256": "d8774495685fffed5434c312c6bf2b7ceb866dd94b07d29013754ff02a2dc60d",
+          "excerpt_location_check": {
+            "worker_span": [
+              212,
+              364
+            ],
+            "worker_span_matches_unicode_characters": true,
+            "located_unicode_span": [
+              212,
+              364
+            ],
+            "quote_sha256": "01b0ebd7597b430f3c19bc4684cb5858b58846371553cba5f81eafc7e61bf90c",
+            "scope": "Exact worker excerpt located against pinned original text; offsets explicitly distinguish worker coordinates from Unicode positions.",
+            "worker_span_matches_utf8_bytes": false
+          },
+          "read_scope": "Complete retained extracted article/notice text"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-co:5",
+      "candidate_sha256": "ed3d0cbcced72f872ec0398052dfa3210ba927bab8bb54c15b8b8dedcf4cd323",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_primary_instrument_and_date_conflict",
+      "rationale": "Accessible automated Washington County recap is dated September 28, 2026 but reports September 29 adoption of Resolution 49-2026 through December 29, 2026. Full story is signup-gated. Preserve publication/event conflict, obtain official wind resolution and later action; do not merge with county battery-storage Resolution 88-2023.",
+      "source_checks": [
+        {
+          "attempt_id": "019d14b285eb4c50b82a8a5419deb9c5",
+          "url": "https://citizenportal.ai/articles/10637710/colorado/washington-county/commissioners-impose-temporary-moratorium-on-wind-energy-applications",
+          "body_sha256": "047ae8d2a1ab5cc8a7df189b8cf14852088fce69957d5b207680645c7d2ff342",
+          "text_sha256": "e7d09eb80ecff727bc77f15a46fede38dec60b7ffaaf141d50a8bd9e42b55efa",
+          "excerpt_location_check": {
+            "worker_span": [
+              75,
+              270
+            ],
+            "worker_span_matches_unicode_characters": true,
+            "located_unicode_span": [
+              75,
+              270
+            ],
+            "quote_sha256": "10c72835f04cb0a5cfb8b837e4e483bd5359136d0a1417fa05a844908afe947b",
+            "scope": "Exact worker excerpt located against pinned original text; offsets explicitly distinguish worker coordinates from Unicode positions.",
+            "worker_span_matches_utf8_bytes": true
+          },
+          "read_scope": "Accessible opening before signup gate; not full story"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-co:6",
+      "candidate_sha256": "2bc242319ab8c819782539f890e8eece58ac60898b4f58b60821a146f5b9ca7c",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_final_act_and_effective_dates",
+      "rationale": "Full retained Thornton notice page lists September 9 page date, September 8 first reading and September 22 second reading under Approved Ordinances. Category and scheduled/readings fields do not supply an explicit final vote, ordinance number, operative term or effect. Preserve distinct source stages and obtain full adopted act and vote/publication history.",
+      "source_checks": [
+        {
+          "attempt_id": "173d524cabfe477998111da4e4561ff4",
+          "url": "https://www.thorntonco.gov/government/public-notices/approved-ordinances/ordinance-establishing-temporary-moratorium",
+          "body_sha256": "f7bf3b20212e4fa7e12260778440256521bffe838443c6273e3982770fc87d76",
+          "text_sha256": "7e8151dedc114b38085196581d96c32517cee494ce5332cab08a08a293721d59",
+          "excerpt_location_check": {
+            "worker_span": [
+              6268,
+              6463
+            ],
+            "worker_span_matches_unicode_characters": true,
+            "located_unicode_span": [
+              6268,
+              6463
+            ],
+            "quote_sha256": "8446f82431bdd1a3e056fba3f84dd887b09d84bbe37ba414e0b4c9fd30647982",
+            "scope": "Exact worker excerpt located against pinned original text; offsets explicitly distinguish worker coordinates from Unicode positions.",
+            "worker_span_matches_utf8_bytes": false
+          },
+          "read_scope": "Complete retained extracted article/notice text"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-co:7",
+      "candidate_sha256": "a50fc8785bd926e9f5e80820dc01247d42d03cd1daef9335eae7540aa6caf9a1",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "reviewed_pending_proposal_added",
+      "rationale": "Both Fort Collins Ordinance 147, 2026 attachment pages inspected: blank mayor/clerk signature lines; printed October 20 first reading, November 3 final passage and November 13 effectiveness are document recitals, not authenticated final action. Proposed retroactive October 6 start tied to separately unreviewed Resolution 2026-117 and April 6, 2027 end-of-day endpoint are not accepted operative dates. Principal-use centers and accessory centers with proposed peak electrical demand more than 10 MW are distinct trigger branches. Accept source-stage proposal only.",
+      "source_checks": [
+        {
+          "attempt_id": "5341603325c6419db42c3370f9b7f7aa",
+          "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-598bc75958fb449185d8e1246cf812dc/ITEM-Attachment-003-430c66a2a1bb4d1bb33b0d1412480f6f.pdf",
+          "body_sha256": "39c5b67ca06932ddf7e5e44134e4d1eb250b74754a298d5d4f511e829423c3b3",
+          "text_sha256": "5a87234f4eba1fc000e37357427d8fd636629d5fcbdcd33654bf73bef51fd66c",
+          "excerpt_location_check": {
+            "worker_span": [
+              27,
+              222
+            ],
+            "worker_span_matches_unicode_characters": true,
+            "located_unicode_span": [
+              27,
+              222
+            ],
+            "quote_sha256": "70c9ab0e497b1b69565b1666fb7885eda519ef207874c6ec753fa995cd099e6d",
+            "scope": "Exact worker excerpt located against pinned original text; offsets explicitly distinguish worker coordinates from Unicode positions.",
+            "worker_span_matches_utf8_bytes": true
+          },
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 2,
+            "render_command": "pdftoppm -scale-to 1450 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "9e555ee352010bd39416c6c4e8c8d4eee91460706fbe28185efbc6bb65932895"
+              },
+              {
+                "page": 2,
+                "image_sha256": "f5f22c82cf8275d123fa2ebcc8491f137a61307a2625bc407e7b08f8e038490d"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-co:8",
+      "candidate_sha256": "102cfb988021e4625bb86dfa6e6e05707e126b3e50c0042bbb790e2affd10dda",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_primary_county_instrument",
+      "rationale": "Same complete Alamosa article briefly reports Rio Grande commissioners approved a one-year data-center pause on Wednesday. Separate county identity from Alamosa city; city July 31, 2027 endpoint and BESS scope cannot be assigned to county. Recover county resolution, exact vote, scope, operative interval and later action. Shared article is not independent corroboration.",
+      "source_checks": [
+        {
+          "attempt_id": "5c87bd92f355423f922f2b2659b874e5",
+          "url": "https://www.alamosacitizen.com/alamosa-places-1-year-moratorium-on-data-centers-large-battery-storage-systems/",
+          "body_sha256": "d582260a1108f8153e6fbd34e0b9e8a87c93f61aed1e820524c9a29518e3a83c",
+          "text_sha256": "d8774495685fffed5434c312c6bf2b7ceb866dd94b07d29013754ff02a2dc60d",
+          "excerpt_location_check": {
+            "worker_span": [
+              3628,
+              3823
+            ],
+            "worker_span_matches_unicode_characters": true,
+            "located_unicode_span": [
+              3628,
+              3823
+            ],
+            "quote_sha256": "f0bfc3ca55ce29b1393fd48e24c6495b7add38701b7fa18b0dd7f0cdb389dddf",
+            "scope": "Exact worker excerpt located against pinned original text; offsets explicitly distinguish worker coordinates from Unicode positions.",
+            "worker_span_matches_utf8_bytes": false
+          },
+          "read_scope": "Complete retained extracted article/notice text"
+        }
+      ]
+    }
+  ],
+  "scope": "Eight remaining Colorado coordinator reviews; three scoped additions and five withheld. Seven distinct original source versions, eleven PDF pages. Shared Alamosa/Rio Grande reporting retained as common lineage; no fresh acquisition or current-force renewal."
+}

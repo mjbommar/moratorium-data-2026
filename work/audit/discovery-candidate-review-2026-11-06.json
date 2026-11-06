@@ -1,5 +1,5 @@
 {
-  "inventory_sha256": "fb83178f29b9769f7d2a19f7a7df00694f2cb5b30207a32269e804db91ad4fd2",
+  "inventory_sha256": "66c137c88a318cf7f879c14ce202719167fe7a4ae958c5a6f96b3b503b77eae5",
   "returned_answer_sha256": {
     "discovery-ak": "a4b62aac2562578f9bb4c66f6f504557f1aace1c1612c0f7f2e3b2c01fae334e",
     "discovery-al": "b6e254f6a91f7dc6937ca15433d3c9ac8c29f473bb22765439ab7bf23647aa62",
@@ -53,8 +53,8 @@
     "discovery-wy": "71d371e9c8ea036e8198dfc1b015f104dba9b8ebb16c0c667af087e81483ca84"
   },
   "candidate_count": 185,
-  "reviewed_pending_additions": 7,
-  "unreviewed_count": 105,
+  "reviewed_pending_additions": 8,
+  "unreviewed_count": 97,
   "candidates": [
     {
       "candidate_key": "discovery-ak:0",
@@ -304,11 +304,13 @@
       "jurisdiction": "Phillips County",
       "proposed_instrument_label": "Resolution 2025-09-30-01",
       "same_name_inventory_ids": [
+        "co-phillips-county-2024",
+        "co-phillips-county-2025",
         "co-phillips-county-2026"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "reviewed_historical_instrument_added",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "next_step": "Recover remaining act, operative anchors and subsequent legal history as specified in coordinator rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -323,11 +325,13 @@
       "jurisdiction": "Phillips County",
       "proposed_instrument_label": "Resolution 2024-06-18-02",
       "same_name_inventory_ids": [
+        "co-phillips-county-2024",
+        "co-phillips-county-2025",
         "co-phillips-county-2026"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "reviewed_historical_instrument_added",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "next_step": "Recover remaining act, operative anchors and subsequent legal history as specified in coordinator rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -342,9 +346,9 @@
       "jurisdiction": "Mesa County",
       "proposed_instrument_label": "Unnumbered instrument; official text or action record required",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_original_act_and_later_history",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "next_step": "Recover remaining act, operative anchors and subsequent legal history as specified in coordinator rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -378,9 +382,9 @@
       "jurisdiction": "Alamosa",
       "proposed_instrument_label": "Unnumbered instrument; official text or action record required",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_original_act_and_operative_interval",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "next_step": "Recover remaining act, operative anchors and subsequent legal history as specified in coordinator rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -397,9 +401,9 @@
       "same_name_inventory_ids": [
         "co-washington-county-2023"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_instrument_and_date_conflict",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "next_step": "Recover remaining act, operative anchors and subsequent legal history as specified in coordinator rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -414,9 +418,9 @@
       "jurisdiction": "Thornton",
       "proposed_instrument_label": "Unnumbered instrument; official text or action record required",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_final_act_and_effective_dates",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "next_step": "Recover remaining act, operative anchors and subsequent legal history as specified in coordinator rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "unresolved",
@@ -430,10 +434,12 @@
       "state_abbrev": "CO",
       "jurisdiction": "Fort Collins",
       "proposed_instrument_label": "Ordinance 147, 2026",
-      "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "same_name_inventory_ids": [
+        "co-fort-collins-undated"
+      ],
+      "disposition": "reviewed_pending_proposal_added",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "next_step": "Recover remaining act, operative anchors and subsequent legal history as specified in coordinator rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "unresolved",
@@ -448,9 +454,9 @@
       "jurisdiction": "Rio Grande County",
       "proposed_instrument_label": "Unnumbered instrument; official text or action record required",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_county_instrument",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "next_step": "Recover remaining act, operative anchors and subsequent legal history as specified in coordinator rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -3300,9 +3306,9 @@
   "reviewed_prepared_not_applied": 0,
   "reviewed_city_reported_adoption_additions": 2,
   "worker_reviewed_count": 183,
-  "unreviewed_count_scope": "105 candidates await coordinator substantive processing; 61 reviewed cases remain withheld. Historical original-term and pending-proposal classifications do not renew current legal force.",
+  "unreviewed_count_scope": "97 candidates await coordinator substantive processing; 66 reviewed cases remain withheld. Historical latest-recorded-term and pending-proposal classifications do not renew current legal force.",
   "worker_review_baseline_sha256": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1",
-  "reviewed_historical_additions": 7,
-  "reviewed_withheld_cases": 61,
-  "current_inventory_sha256": "fb83178f29b9769f7d2a19f7a7df00694f2cb5b30207a32269e804db91ad4fd2"
+  "reviewed_historical_additions": 9,
+  "reviewed_withheld_cases": 66,
+  "current_inventory_sha256": "66c137c88a318cf7f879c14ce202719167fe7a4ae958c5a6f96b3b503b77eae5"
 }

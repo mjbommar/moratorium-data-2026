@@ -3,7 +3,7 @@
 
 Working inventory for Colorado, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**31 instruments** — 25 in force, 2 pending, 4 past.
+**34 instruments** — 25 in force, 3 pending, 6 past.
 
 State policy is tracked separately: **4 actions** (4 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -19,6 +19,7 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 | Commerce City | City | Unverified | data center | 🟡 Pending |
 | Delta County | County | 2026-07-07 | data center | 🟢 Active |
 | Denver | City | 2026-05-18 | data center | 🟢 Active |
+| Fort Collins | City | Unverified | data center | 🟡 Pending |
 | Fremont County (Unincorporated) | County | 2024-06-11 | battery storage, solar | ⚪ Expired |
 | Grand County | County | 2025-06-24 | solar, wind, battery storage | 🟢 Active |
 | Grand County | County | 2026-06-09 | data center | 🟢 Active |
@@ -35,6 +36,8 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 | Montrose County | County | 2026-07-01 | data center | 🟢 Active |
 | Monument | Town | 2026-07-20 | data center | 🟢 Active |
 | Paonia | Town | 2026-08-11 | data center | 🟢 Active |
+| Phillips County | County | 2024-06-18 | wind | ⚪ Expired |
+| Phillips County | County | 2025-09-30 | solar, battery storage | ⚪ Expired |
 | Phillips County | County | 2026-02-27 | data center | 🟢 Extended |
 | Saguache County | County | 2026-05-05 | data center | 🟢 Active |
 | South Fork | Town | 2026-06-18 | data center | 🟢 Active |
@@ -202,6 +205,22 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 - **Affected projects:** Existing and already permitted projects would not be stopped. CoreSite DE3 phase one at 4900 Race Street is under construction; future phases had not been permitted as of captured reporting.
 - **Detailed status:** Active as of 2026-09-23. Denver's own official city page confirms the moratorium runs 'from May 21, 2026 to May 21, 2027.' The city has begun forming a 20+ member community Working Group (facilitated by Group14 Engineering and the Civic Consulting Collaborative) to recommend post-moratorium zoning, building, and energy code changes; applications were open August 21-September 4, 2026, and the Working Group's first meeting is scheduled for October 9, 2026. Denver's own page states the moratorium 'will be extended' if the Working Group needs more time. No repeal, early amendment, or Denver Zoning Code/Municipal Code data-center text amendment that would end the moratorium early was found as of 2026-09-23.
 - **Outcome:** If enacted, Denver would use the pause for a working group and possible amendments to zoning, building, energy, green/climate, and municipal code provisions.
+
+### Fort Collins
+
+- **Type:** City
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Proposed retroactive October 6, 2026 start through end of April 6, 2027; no operative interval accepted
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `co-fort-collins-undated`
+- **Legal basis:** Unsigned Ordinance 147, 2026 attachment; recites separate Resolution 2026-117
+- **What prompted it:** City studies data-center land-use rules during a proposed temporary application pause.
+- **Affected projects:** —
+- **Detailed status:** Source-stage pending proposal from unsigned Ordinance 147, 2026 attachment. [VERIFY actual final passage, execution, publication/effectiveness, separate Resolution 2026-117, subsequent action, current legal status and coordinates]
+- **Outcome:** —
 
 ### Fremont County (Unincorporated)
 
@@ -458,6 +477,38 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 - **Affected projects:** None named; adopted preemptively, citing Delta County's similar moratorium.
 - **Detailed status:** Active as of 2026-09-23. One-year moratorium under Resolution 15-26, adopted August 11, 2026, refusing data center applications through August 11, 2027.
 - **Outcome:** Town Board unanimously adopted Resolution 15-26, pausing data center applications for one year and directing staff to draft permanent data-center regulations.
+
+### Phillips County
+
+- **Type:** County
+- **Status:** ⚪ Expired
+- **Date enacted:** 2024-06-18
+- **Normalized date:** `2024-06-18` (exact)
+- **Duration:** Original three-calendar-month term to September 18, 2024 at 23:59; successive recorded extensions through August 27, 2026
+- **Current end date:** `2026-08-27`
+- **Sectors:** wind
+- **Moratorium ID:** `co-phillips-county-2024`
+- **Legal basis:** Resolution 2024-06-18-02 and recorded extensions through February 27, 2026
+- **What prompted it:** County studies wind-farm siting and land-use requirements.
+- **Affected projects:** —
+- **Detailed status:** Historical latest-recorded-term classification: signed/attested unanimous June 18, 2024 resolution and signed extensions through August 27, 2026. [VERIFY any later action, complete operative continuity, current restrictions and coordinates]
+- **Outcome:** —
+
+### Phillips County
+
+- **Type:** County
+- **Status:** ⚪ Expired
+- **Date enacted:** 2025-09-30
+- **Normalized date:** `2025-09-30` (exact)
+- **Duration:** Original six-calendar-month term through March 30, 2026; recorded signed extension through August 27, 2026
+- **Current end date:** `2026-08-27`
+- **Sectors:** solar, battery storage
+- **Moratorium ID:** `co-phillips-county-2025`
+- **Legal basis:** Resolution 2025-09-30-01, amended October 20, 2025 and extended February 27, 2026
+- **What prompted it:** County reviews utility-scale solar and battery-storage land-use regulation.
+- **Affected projects:** —
+- **Detailed status:** Historical latest-recorded-term classification: signed/attested September 30, 2025 resolution, immediate effect, and signed February 27, 2026 extension through August 27, 2026. [VERIFY subsequent amendments/extensions, earlier termination, present restrictions and coordinates]
+- **Outcome:** —
 
 ### Phillips County
 

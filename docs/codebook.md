@@ -4,7 +4,7 @@ This document defines every column in every data file. Read this before doing an
 
 ## `data/moratorium_inventory.csv`
 
-**One row per moratorium instrument.** 1311 rows total in the November 5, 2026 working refresh. Record-level review is incomplete; this count does not certify current legal force for every row.
+**One row per moratorium instrument.** 1314 rows total in the November 5, 2026 working refresh. Record-level review is incomplete; this count does not certify current legal force for every row.
 
 This is the intended grain. Legacy combined candidates and motion/ordinance
 relationships still require [identity reconciliation](known-gaps.md#legacy-instrument-identities);
@@ -30,7 +30,7 @@ the working count is not a completed deduplicated instrument census.
 | `enacted_status` | **Closed-vocab status bucket** derived from the free-text fields. One of: `active`, `extended`, `replaced`, `expired`, `rescinded`, `pending`. See breakdown below. | `active` |
 | `moratorium_id` | **Stable identifier** of the form `<state-abbrev>-<jurisdiction-slug>-<year>`, with `-pN` appended for explicitly-numbered phases (e.g., Oliver County) or `-N` appended for repeat instruments at the same jurisdiction in the same year. When no adoption year is established, the year segment is the literal `undated`. Use this column as a primary key when joining with future releases. | `mi-pittsfield-township-2025` |
 | `latitude` | WGS84 latitude of the jurisdiction's centroid. Geocoded via OSM Nominatim (with U.S. Census Geocoder fallback). For counties, the centroid is the county; for cities/towns/villages/townships, the centroid is the local government boundary. Six decimal places (~10 cm precision); blank if geocoding failed. | `42.238500` |
-| `longitude` | WGS84 longitude of the jurisdiction's centroid (see `latitude`). Negative for U.S. jurisdictions. | `-83.706840` |
+| `longitude` | WGS84 longitude of the jurisdiction's centroid (see `latitude`). Negative for U.S. jurisdictions. | `-83.706870` |
 | `date_enacted_iso` | LLM-extracted clean date the moratorium was adopted, in ISO form. `YYYY-MM-DD` when the day is known, `YYYY-MM` when only the month is known, `YYYY` when only the year is known, empty when the moratorium has not been adopted (pending) or the date cannot be determined. For phased moratoria, the initial adoption date of THIS phase. | `2026-04-22` |
 | `date_enacted_uncertainty` | Closed-vocab confidence flag for `date_enacted_iso`: `exact`, `month_only`, `year_only`, `range`, `unverified`. | `exact` |
 | `duration_days` | Numeric duration of the original moratorium when the source specifies a day count (NOT including extensions): `30 days` → `30`. Calendar months and years use `calendar_term` with this field empty; do not convert them to guessed day counts or expiry dates. Legacy rows may retain approximations such as six months → 180 or one year → 365 pending individual review. Empty for event-based, indefinite, or unknown terms — see `duration_kind`. | `365` |
@@ -133,14 +133,14 @@ A single JSON object with top-level aggregates. Useful for embedding live counts
 
 Top-level keys:
 
-- `total_local_moratoria`: 1311 — total rows in the inventory
+- `total_local_moratoria`: 1314 — total rows in the inventory
 - `total_state_bills`: 440 — rows using the legacy `bill` type in state_legislation.csv, including resolution subtypes awaiting migration
 - `total_state_policy_actions`: 442 — all state-policy rows, including binding non-bill actions
 - `states_with_moratoria`: 47
 - `states_without_moratoria`: 3
-- `moratoria_with_verify_tags`: 684 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
+- `moratoria_with_verify_tags`: 687 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
 - `moratoria_without_verify_tags`: 232
-- `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 1311 working inventory rows by `enacted_status`
+- `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 1314 working inventory rows by `enacted_status`
 - `sweep_coverage`: which states received a systematic month-by-month sweep for the release's window, plus `swept_states_with_no_adoptions_in_window`. **Read this before interpreting a state's absence.** A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that `swept_states_with_no_adoptions_in_window` is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from [`data/sweep_coverage.json`](../data/sweep_coverage.json)
 - `top_states_by_moratoria`: list of `[state_name, count]` pairs, top 15
 - `top_states_by_bills`: list of `[state_name, bill_count]` pairs, top 15

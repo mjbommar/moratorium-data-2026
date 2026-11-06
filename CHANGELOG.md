@@ -2,6 +2,8 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
+Colorado review adds two historical Phillips County instruments: wind Resolution 2024-06-18-02 and solar/storage Resolution 2025-09-30-01, each with signed extensions through August 27, 2026. Later action remains unverified. Fort Collins Ordinance 147, 2026 adds a source-stage pending proposal from an unsigned attachment; printed passage/effective dates and retroactivity are not accepted as operative. Five other Colorado candidates remain withheld.
+
 Talbot County’s signed/enrolled Resolution 329 adds a historical five-calendar-month solar processing pause adopted and effective April 26, 2022. The September 26 endpoint is derived from the original term; subsequent actions remain unverified. East Windsor’s unsigned Ordinance 2026-06 adds a pending data-center proposal; its proposed December 31, 2027 sunset is not an operative endpoint. Four other Maryland/New Jersey candidates remain withheld with specific evidence gaps.
 
 Pequot Lakes adds a city-reported active data-center moratorium from its September 8 staff report identifying Ordinance 26-08 and reporting July 15, 2027 expiry. Adoption/effectiveness and full operative text remain unverified; the agenda date is not enactment.
@@ -44,18 +46,18 @@ remain unknown; no adoption event, in-force ban or headline-count increase is
 inferred. The public results view displays relationship review separately from
 legal status. All earlier records remain unchanged.
 
-Current totals are 1,311 local instruments (1,075 classified active or extended,
-74 pending, 162 past) and 442 state-policy records (95 classified enacted).
+Current totals are 1,314 local instruments (1,075 classified active or extended,
+75 pending, 164 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1311** |
+| Moratoria in the list | **1314** |
 | Classified active or extended | **1075** |
-| Pending or not yet effective | **74** |
-| Ended (replaced, expired, or rescinded) | **162** |
-| Rows we still want to confirm (`[VERIFY]`) | **684** |
+| Pending or not yet effective | **75** |
+| Ended (replaced, expired, or rescinded) | **164** |
+| Rows we still want to confirm (`[VERIFY]`) | **687** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained

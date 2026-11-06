@@ -1,21 +1,22 @@
 {
   "state": "consistent_with_explicit_scope_limits",
-  "ledger_sha256": "750a8620b85cd92ace4036da76d1326041ac2b438f426551e9c43ae01a91bdab",
-  "inventory_sha256": "fb83178f29b9769f7d2a19f7a7df00694f2cb5b30207a32269e804db91ad4fd2",
+  "ledger_sha256": "c9d32d262e271c1652f4d1ba623e6191b8ebe2bda3b20123a7d1dae9e18f57c0",
+  "inventory_sha256": "66c137c88a318cf7f879c14ce202719167fe7a4ae958c5a6f96b3b503b77eae5",
   "candidate_count": 185,
   "buckets": {
-    "reviewed_addition": 18,
-    "awaiting_coordinator_review": 105,
-    "reviewed_withheld": 61,
+    "reviewed_addition": 21,
+    "awaiting_coordinator_review": 97,
+    "reviewed_withheld": 66,
     "covered_existing": 1
   },
-  "reviewed_count": 80,
-  "packet_count": 20,
+  "reviewed_count": 88,
+  "packet_count": 21,
   "packet_sha256": {
     "work/research/2026-11-06/alaska-discovery-review/review.json": "239328a58cf236e6a297200210e129b2f89e52974a592c533610948e2f379f53",
     "work/research/2026-11-06/discovery-coordinator-wave1/review.json": "d4f5c6ccc8b36b547c37b8f79ed8e633abc01d16f67b957c23161fd6d5253c09",
     "work/audit/discovery-distributed-review-2026-11-06.json": "8961e4074c2c9c2de10cd2a1b7120001044167355d6ce0353d17b408bd06433b",
     "work/research/2026-11-06/california-discovery-review/review.json": "20ff797246948d1d0c3f1efa18075ea24ae5b83fd605a72a52c59a13938a424b",
+    "work/research/2026-11-06/colorado-discovery-review/review.json": "87a7e6a55d6c27cec5d8d84138413146670e0402a2f2c70f813d033798d22a66",
     "work/research/2026-11-06/brighton-chicago-discovery-review/review.json": "842b46a5630711a9594521a1a83bc5267c7a99c4e0abc5854ccfbf8f964d56b9",
     "work/research/2026-11-06/iowa-discovery-review/review.json": "f4af91a4cf719875ba73827caee6bfdcadfdb22d4cad9906a9f94a2a437a29b0",
     "work/research/2026-11-06/idaho-discovery-review/review.json": "06b6485376a0fbaed1146a1a9f9f99d8a68cdb0aa4b5bb8a02837d4903f0d6c9",
@@ -33,11 +34,11 @@
     "work/research/2026-11-06/washington-discovery-review/review.json": "5121f6ea614245670c9a3d251f3a33fb5c47fd342ef6b584c75a2d8e14bd1b0a",
     "work/research/2026-11-06/sun-prairie-discovery-review/review.json": "c2cf80d4b1f0a117e4b0979f1e72b5dcbcf8605391dd1f7c3370a30abf6595c5"
   },
-  "explicit_candidate_fingerprint_checks": 74,
+  "explicit_candidate_fingerprint_checks": 82,
   "alternate_packet_layout_checks": 6,
-  "distinct_review_source_versions": 80,
-  "source_versions_reverified": 80,
-  "original_discovery_source_versions_reverified": 78,
+  "distinct_review_source_versions": 87,
+  "source_versions_reverified": 87,
+  "original_discovery_source_versions_reverified": 85,
   "followup_source_versions_reverified": 2,
   "source_versions_deferred_to_specific_receipts": 0,
   "verified_original_versions": [
@@ -53,6 +54,22 @@
       "attempt_id": "011eab10cfc94c4f9997e05af74562e4",
       "body_sha256": "1a0ed0d73c753cc2e93a869b3e6955dd191d3f7a7655a9c7c792e44a27c8d059",
       "text_sha256": "8b801746be591c68e461af5a2976c33ead636e2f590b41bbf3d6d86d79c46630",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
+      "attempt_id": "019d14b285eb4c50b82a8a5419deb9c5",
+      "body_sha256": "047ae8d2a1ab5cc8a7df189b8cf14852088fce69957d5b207680645c7d2ff342",
+      "text_sha256": "e7d09eb80ecff727bc77f15a46fede38dec60b7ffaaf141d50a8bd9e42b55efa",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
+      "attempt_id": "0236047c8d684bd3baa5b944316904ce",
+      "body_sha256": "10074f51cdc82a74d0bd35953db0796b998d51472d18c8f12698717f8f68d6d2",
+      "text_sha256": "c81127e29fe87433d21ba3b2037cb3368bd9a277c1e30b06685b32122e160fb2",
       "review_text_kind": "original extraction",
       "acquisition_scope": "original discovery",
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
@@ -125,6 +142,14 @@
       "attempt_id": "1662214fc74e4366aa2b069dc7ed292c",
       "body_sha256": "a9b4d16e8ad1daf7413c6a6edfa342e0d18341971e33846acbe90db65dbe6354",
       "text_sha256": "fda531bc7042593df40016b94c652706998934341e26ae72c7af9646dcc89e28",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
+      "attempt_id": "173d524cabfe477998111da4e4561ff4",
+      "body_sha256": "f7bf3b20212e4fa7e12260778440256521bffe838443c6273e3982770fc87d76",
+      "text_sha256": "7e8151dedc114b38085196581d96c32517cee494ce5332cab08a08a293721d59",
       "review_text_kind": "original extraction",
       "acquisition_scope": "original discovery",
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
@@ -266,6 +291,14 @@
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
     },
     {
+      "attempt_id": "5341603325c6419db42c3370f9b7f7aa",
+      "body_sha256": "39c5b67ca06932ddf7e5e44134e4d1eb250b74754a298d5d4f511e829423c3b3",
+      "text_sha256": "5a87234f4eba1fc000e37357427d8fd636629d5fcbdcd33654bf73bef51fd66c",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
       "attempt_id": "55253f02db76407787a9e2750d8f10a1",
       "body_sha256": "a709ae8be9a70aff148789d673ea022286ceeca6544cdd23e581811aa9fa81d1",
       "text_sha256": "354257cae647f2799607947a59a682f16289d447c97592f246074b230739397a",
@@ -295,6 +328,14 @@
       "text_sha256": "afe9354a4a7ec7c3cdc418ac79972a042a0c4ed4d422907cb50763f4f26d6f85",
       "review_text_kind": "original extraction",
       "acquisition_scope": "explicit Illinois followup",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
+      "attempt_id": "5c87bd92f355423f922f2b2659b874e5",
+      "body_sha256": "d582260a1108f8153e6fbd34e0b9e8a87c93f61aed1e820524c9a29518e3a83c",
+      "text_sha256": "d8774495685fffed5434c312c6bf2b7ceb866dd94b07d29013754ff02a2dc60d",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
     },
     {
@@ -378,6 +419,14 @@
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
     },
     {
+      "attempt_id": "84b3ce6b767a46189d9fde506fc76826",
+      "body_sha256": "f193ff0586b012bf42820bc5a4d0aff94d2d03b82baf74791946b37f4d68754d",
+      "text_sha256": "0799f18bb80f61a782f1b1d4b1e5ce3908489d0992a6029452baafaea60e234a",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
       "attempt_id": "85942aa79d624b688841264dae54aced",
       "body_sha256": "0fb13335302d94293b23e6012cc09a4dd3e1348b578cd9d8c018689a10f2631f",
       "text_sha256": "dc574c68affbeee4f1b2081266fd609a5f7585569c4e365fbf4c4816cb0ef96a",
@@ -389,6 +438,14 @@
       "attempt_id": "87456e789cc64eed83e354048194d584",
       "body_sha256": "80067f81509fecad7590b22a1fa7a55856a44505f951d211b35075f1be206501",
       "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
+      "attempt_id": "87698ac8071540c1b4673e6770e13906",
+      "body_sha256": "2fe00d51bb508ee47079a4e309234657e0dd16d97b6ea603873f6289656021a7",
+      "text_sha256": "10ca5667756db518bcc704170f2e54ef74d88a7b4fadcf6edf1b81c6b50ae205",
       "review_text_kind": "original extraction",
       "acquisition_scope": "original discovery",
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
@@ -773,11 +830,75 @@
       "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
     },
     {
+      "candidate_key": "discovery-co:0",
+      "bucket": "reviewed_addition",
+      "disposition": "reviewed_historical_instrument_added",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "review_packet_sha256": "87a7e6a55d6c27cec5d8d84138413146670e0402a2f2c70f813d033798d22a66",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-co:1",
+      "bucket": "reviewed_addition",
+      "disposition": "reviewed_historical_instrument_added",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "review_packet_sha256": "87a7e6a55d6c27cec5d8d84138413146670e0402a2f2c70f813d033798d22a66",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-co:2",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_original_act_and_later_history",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "review_packet_sha256": "87a7e6a55d6c27cec5d8d84138413146670e0402a2f2c70f813d033798d22a66",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
       "candidate_key": "discovery-co:3",
       "bucket": "reviewed_addition",
       "disposition": "reviewed_reported_active_added",
       "review_packet": "work/research/2026-11-06/brighton-chicago-discovery-review/review.json",
       "review_packet_sha256": "842b46a5630711a9594521a1a83bc5267c7a99c4e0abc5854ccfbf8f964d56b9",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-co:4",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_original_act_and_operative_interval",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "review_packet_sha256": "87a7e6a55d6c27cec5d8d84138413146670e0402a2f2c70f813d033798d22a66",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-co:5",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_primary_instrument_and_date_conflict",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "review_packet_sha256": "87a7e6a55d6c27cec5d8d84138413146670e0402a2f2c70f813d033798d22a66",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-co:6",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_final_act_and_effective_dates",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "review_packet_sha256": "87a7e6a55d6c27cec5d8d84138413146670e0402a2f2c70f813d033798d22a66",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-co:7",
+      "bucket": "reviewed_addition",
+      "disposition": "reviewed_pending_proposal_added",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "review_packet_sha256": "87a7e6a55d6c27cec5d8d84138413146670e0402a2f2c70f813d033798d22a66",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-co:8",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_primary_county_instrument",
+      "review_packet": "work/research/2026-11-06/colorado-discovery-review/review.json",
+      "review_packet_sha256": "87a7e6a55d6c27cec5d8d84138413146670e0402a2f2c70f813d033798d22a66",
       "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
     },
     {
