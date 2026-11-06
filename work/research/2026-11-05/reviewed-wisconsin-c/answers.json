@@ -1,0 +1,55 @@
+{
+  "state_abbrev": "WI",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wi-beetown-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://townofbeetown.com/assets/files/2026/05/interim-zoning-ordianace.pdf",
+          "source_type": "ordinance",
+          "supports": "Interim ordinance specifies an earlier-event or two-year term; quote is OCR from the two-page scan.",
+          "quote": "zoning ordinance or two (2) years from the effective date hereof, whichever occurs"
+        },
+        {
+          "url": "https://townofbeetown.com/assets/files/2026/05/interim-zoning-ordianace.pdf",
+          "source_type": "ordinance",
+          "supports": "Exception unavailable for a large-scale data center; OCR from scan.",
+          "quote": "No exception shall be\ngranted for a large-scale data center."
+        }
+      ],
+      "notes": "Coordinator page 2 visual review resolves handwritten dates; original OCR remains unchanged. Scope limited to original action and calendar-term correction; later zoning/end condition unresolved.",
+      "changes": {
+        "duration_days": {
+          "from": "730",
+          "to": "",
+          "reason": "Calendar years or months cannot be represented as a fixed number of days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The source describes a calendar term and permits earlier termination."
+        },
+        "date_enacted": {
+          "from": "April 17, 2026",
+          "to": "May 7, 2026 adoption; signed copy records posting May 8 and effectiveness May 9. Dates visually verified, not inferred from OCR.",
+          "reason": "Handwritten signed page 2 corrects the legacy April 17 date."
+        },
+        "date_enacted_iso": {
+          "from": "2026-04-17",
+          "to": "2026-05-07",
+          "reason": "Signed page 2 adoption line visually verified."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23.",
+          "to": "The signed interim-zoning copy records May 7 adoption, May 8 posting and May 9 effectiveness, read visually because handwritten OCR is unreliable. It becomes void upon adoption and publication of zoning or two years from effectiveness, whichever first; no exception may be granted for a large-scale data center. Later zoning adoption, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "confidence": 0.9
+    }
+  ],
+  "new_candidates": []
+}

@@ -10,7 +10,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | Baldwin | Village | 2026-06 | data center | 🟢 Active |
-| Beetown | Town | 2026-04-17 | data center | 🟢 Active |
+| Beetown | Town | 2026-05-07 | data center | 🟢 Active |
 | Bellevue | Village | 2026-08-12 | data center | 🟢 Active |
 | Cassville | Town | 2026-04-16 | data center | 🟢 Active |
 | Chippewa County | County | 2026-08-11 | data center | 🟢 Active |
@@ -72,8 +72,8 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 
 - **Type:** Town
 - **Status:** 🟢 Active
-- **Date enacted:** April 17, 2026
-- **Normalized date:** `2026-04-17` (exact)
+- **Date enacted:** May 7, 2026 adoption; signed copy records posting May 8 and effectiveness May 9. Dates visually verified, not inferred from OCR.
+- **Normalized date:** `2026-05-07` (exact)
 - **Duration:** Null and void upon adoption of a comprehensive zoning ordinance, or two years from the effective date, whichever occurs first
 - **Current end date:** `—`
 - **Sectors:** data center
@@ -81,7 +81,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Ordinance No. 04172026
 - **What prompted it:** Town withdrew from Grant County zoning and has no zoning ordinance in effect; a $1B+ data center was proposed nearby
 - **Affected projects:** Collapsed/proposed $1 billion-plus data center in Grant County
-- **Detailed status:** Active as of 2026-09-23.
+- **Detailed status:** The signed interim-zoning copy records May 7 adoption, May 8 posting and May 9 effectiveness, read visually because handwritten OCR is unreliable. It becomes void upon adoption and publication of zoning or two years from effectiveness, whichever first; no exception may be granted for a large-scale data center. Later zoning adoption, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** No exceptions may be granted for a large-scale data center during the interim period
 
 ### Bellevue

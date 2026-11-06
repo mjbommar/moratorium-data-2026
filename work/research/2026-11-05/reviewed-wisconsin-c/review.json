@@ -1,0 +1,68 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "wi-inventory-001": "9a11eb45ee8d3cc4c1092c775a00a42dfeb582674a7a6e2116fdb2281d4cd1e7"
+  },
+  "reviewed_answers_sha256": "393a2affe0897b2b4b650a63233691abdd84a8412ad5a2738d23c134f022faa6",
+  "scope": "Beetown signed interim-zoning original date and calendar-term correction. Page 2 visual dates May 7 adoption, May 8 posting and May 9 effectiveness override unreliable OCR without editing original extraction. Conditional two-year duration does not establish absence of earlier zoning adoption/publication or present force.",
+  "located_evidence": [
+    {
+      "moratorium_id": "wi-beetown-2026",
+      "url": "https://townofbeetown.com/assets/files/2026/05/interim-zoning-ordianace.pdf",
+      "quote": "zoning ordinance or two (2) years from the effective date hereof, whichever occurs",
+      "located": [
+        {
+          "attempt_id": "be4b3a8405574e13aa4ad4869a6cc5c7",
+          "body_sha256": "6a3a110d901aea64eb04b977dff21888ed738d0953f2a0f250a9c0588d12d48c",
+          "text_sha256": "51229548742eacc53bd2ae1f3d2d6927f4c75f81337cc4223adf8ffe1180b393",
+          "span": [
+            2668,
+            2750
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "wi-beetown-2026",
+      "url": "https://townofbeetown.com/assets/files/2026/05/interim-zoning-ordianace.pdf",
+      "quote": "No exception shall be\ngranted for a large-scale data center.",
+      "located": [
+        {
+          "attempt_id": "be4b3a8405574e13aa4ad4869a6cc5c7",
+          "body_sha256": "6a3a110d901aea64eb04b977dff21888ed738d0953f2a0f250a9c0588d12d48c",
+          "text_sha256": "51229548742eacc53bd2ae1f3d2d6927f4c75f81337cc4223adf8ffe1180b393",
+          "span": [
+            1559,
+            1619
+          ]
+        }
+      ]
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "be4b3a8405574e13aa4ad4869a6cc5c7",
+      "source_body_sha256": "6a3a110d901aea64eb04b977dff21888ed738d0953f2a0f250a9c0588d12d48c",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/wi-inventory-001/beetown-combined.derived.private.txt",
+      "derived_text_sha256": "51229548742eacc53bd2ae1f3d2d6927f4c75f81337cc4223adf8ffe1180b393",
+      "method": "Concatenated retained per-page OCR; page 2 independently rendered and visually compared, handwritten dates not reliable in OCR",
+      "pages": [
+        1,
+        2
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T01:06:34.288789+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "be4b3a8405574e13aa4ad4869a6cc5c7",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1600",
+      "render_sha256": "37bc2b7959f127b6f62c5bffc99f74075f635e27afea6e749c25bc2c5248e1e7"
+    }
+  ]
+}
