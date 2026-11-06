@@ -1,0 +1,271 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "scope": "Seven retained source versions and twelve scoped claims; no canonical publication or current force acceptance. All document bodies reviewed; visual evidence recorded in companion reviews.",
+  "sources": [
+    {
+      "source_document_id": "downe-review-sample",
+      "url": "https://cumberlandcountyclerknj.gov/wp-content/uploads/2026/09/Downe-Sample-Ballot-2026-General-Election.pdf",
+      "body_sha256": "ef4f87b18e59ab0aa3301c1cdfd3bcdd2fcfa4ab9a902896a030c93f88761d42",
+      "text_sha256": "4bb1d40fa0d04582181e3462e0c4811296954fd67d4d7d7f9db333755197f4fa",
+      "retrieved_at": "2026-11-06T11:02:37.897529+00:00",
+      "attempt_id": "d35f6bd6bb704449b5cccfd62725f893",
+      "source_role": "County-hosted official sample ballot, both pages visually reviewed"
+    },
+    {
+      "source_document_id": "downe-review-july",
+      "url": "https://downetwpnj.org/wp-content/uploads/docs/mayor/resolutions/2026/R-099-2026-Resolution-to-Establish-a-Ballot-Measure-to-Consider-a-Ban-on-Data-Centers.pdf",
+      "body_sha256": "a36c5bd6c8f92842175d69c3736a573d2391226c9b947e54e2375d9d8fca6e7d",
+      "text_sha256": "82a82da85aa67f2e197422332506fc45b2cd818790cf7712ac357ad19a145fa5",
+      "retrieved_at": "2026-11-06T11:06:14.341155+00:00",
+      "attempt_id": "88898dd16c174fd583e35e6cac5441d5",
+      "source_role": "Township R-99-2026; all2pages OCR and visually reviewed; source recitals attributed"
+    },
+    {
+      "source_document_id": "downe-review-august",
+      "url": "https://downetwpnj.org/wp-content/uploads/docs/mayor/resolutions/2026/R-111-2026-Resolution-Approving-a-Ballot-Question-Relating-to-Banning-Data-Centers-in-Downe-Township.pdf",
+      "body_sha256": "ec9c8562115fc1fa65f2c45d3273e4eceb6ca774b4b72222982f81c59815a833",
+      "text_sha256": "3af239c80b819167811a45e307888606a59f4225cf8256146ad914c1ec2c53e0",
+      "retrieved_at": "2026-11-06T11:06:14.285014+00:00",
+      "attempt_id": "ab349efa549f406299ed1c2af71d5b21",
+      "source_role": "Township R-111-2026; all2pages OCR and visually reviewed, attached question"
+    },
+    {
+      "source_document_id": "downe-review-ordinance",
+      "url": "https://downetwpnj.org/wp-content/uploads/2026/08/Ordinance-2026-04-Data-Center-Ban-Ordinance.pdf",
+      "body_sha256": "b387c99d162f5ec7838f65b296a5c443622929c085319b7dcd234f8db6011b8b",
+      "text_sha256": "5d446039ee1f7982cd74544f9435208dec4be2235abfff8967231e4dec66593b",
+      "retrieved_at": "2026-11-06T11:09:27.066106+00:00",
+      "attempt_id": "07622891f9934b2b9595e302746b8422",
+      "source_role": "Earlier5page ordinance packet; full OCR/visual review; not accepted final operative text"
+    },
+    {
+      "source_document_id": "downe-review-revised-intro",
+      "url": "https://downetwpnj.org/revised-legal-ad-ordinance-2026-04-intro-4/",
+      "body_sha256": "d536c8167aa02902cebc85c60c51e08247c0091a3546f9fedd5291cf6afae963",
+      "text_sha256": "28a4d32674718bcfd6f92725f5b46b0b89b18f66ee0c7b196ed253b86e2a440b",
+      "retrieved_at": "2026-11-06T11:11:14.646818+00:00",
+      "attempt_id": "e63fa252366844bab07de3df690219d4",
+      "source_role": "Township revised introduction notice; full DOC conversion and visual review"
+    },
+    {
+      "source_document_id": "downe-review-passage",
+      "url": "https://downetwpnj.org/notice-of-final-passage-ordinance-2026-04/",
+      "body_sha256": "80df4ba0584673746b76bd100078d30833ed008ef9f1530069fac0d00861ced2",
+      "text_sha256": "026ac8c8c84ffefc93428605fa5657bd810dfd84c996848e3037fd5b7490efa3",
+      "retrieved_at": "2026-11-06T11:11:14.649959+00:00",
+      "attempt_id": "ba23ec7e1ab340d9ad8e878791d0aafb",
+      "source_role": "Township final-passage notice; full DOC conversion and visual review; no effective date"
+    },
+    {
+      "source_document_id": "downe-review-return",
+      "url": "https://www.nj.com/cumberland/2026/11/nj-election-day-2026-cumberland-county-live-results.html",
+      "body_sha256": "263ec6f200f0d3463e71cec3b6e118fea55d620b5de59e9d3257eb68d8bda518",
+      "text_sha256": "76b1806cc74734e6e979631e0115840a7decae34e5c4ffa5cd4de39ace890c4b",
+      "retrieved_at": "2026-11-05T17:07:02.803108+00:00",
+      "attempt_id": "388734c52725464aa38ad90fa99692bb",
+      "source_role": "NJ.com secondary election return; not certified official canvass"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "downe-review-01",
+      "source_document_id": "downe-review-sample",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-0be552b8685036dc"
+      },
+      "predicate": "sample_ballot_wording",
+      "value": {
+        "wording": "Do you support data centers in the Township of Downe.",
+        "designation": "Public Question",
+        "scope": "Exact English sample version, including period. November3date and Township of Downe visually checked; not cast ballot or canvass."
+      },
+      "quote": "Do you support data centers in the Township of Downe.",
+      "span": "utf8-text-codepoints:2601:2654"
+    },
+    {
+      "claim_id": "downe-review-02",
+      "source_document_id": "downe-review-sample",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-0be552b8685036dc"
+      },
+      "predicate": "sample_ballot_sentiment",
+      "value": {
+        "bindingness": "advisory",
+        "yes_direction": "facilitates",
+        "no_direction": "opposes data centers",
+        "scope": "Interpretive statement gauges sentiment; no ordinance enactment or project authorization. Printed what typo retained in separate full review."
+      },
+      "quote": "This referendum seeks to gauge the public sentiment",
+      "span": "utf8-text-codepoints:2753:2804"
+    },
+    {
+      "claim_id": "downe-review-03",
+      "source_document_id": "downe-review-july",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-0be552b8685036dc"
+      },
+      "predicate": "petition_origin_as_recited",
+      "value": {
+        "resolution": "R-99-2026",
+        "adopted_as_printed": "2026-07-13",
+        "submitted_signatures_as_recited": 240,
+        "scope": "Recites registered-voter petition and county-clerk sufficiency exceeding15percent. Not independent verification of signatures, threshold applicability or legal bindingness."
+      },
+      "quote": "petition containing 240 signatures",
+      "span": "utf8-text-codepoints:396:430"
+    },
+    {
+      "claim_id": "downe-review-04",
+      "source_document_id": "downe-review-july",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-0be552b8685036dc"
+      },
+      "predicate": "earlier_binding_initiative_recital",
+      "value": {
+        "origin": "Citizen petition motivating subsequent committee referral",
+        "scope": "July resolution recites binding initiative and concurrent proposed non-permitted-use ordinance; retain historical tension with later sentiment ballot. No adopted ban inferred."
+      },
+      "quote": "a binding\nreferendum to adopt a Municipal Ordinance",
+      "span": "utf8-text-codepoints:847:898"
+    },
+    {
+      "claim_id": "downe-review-05",
+      "source_document_id": "downe-review-august",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-0be552b8685036dc"
+      },
+      "predicate": "governing_body_referral",
+      "value": {
+        "resolution": "R-111-2026",
+        "adopted_as_printed": "2026-08-17",
+        "placement_method": "governing_body_referral",
+        "scope": "Township committee directs ballot question and authorizes clerk/mayor forwarding. Earlier petition history separately retained. Five committee yes marks visually inspected, not election votes."
+      },
+      "quote": "ballot question related to banning all Data Centers",
+      "span": "utf8-text-codepoints:977:1028"
+    },
+    {
+      "claim_id": "downe-review-06",
+      "source_document_id": "downe-review-august",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-0be552b8685036dc"
+      },
+      "predicate": "attached_question_version",
+      "value": {
+        "wording": "DO YOU SUPPORT DATA CENTERS IN THE TOWNSHIP OF DOWNE.",
+        "election_date": "2026-11-03",
+        "scope": "Attached page2 states November3general election; agreement with sample substantive wording/yes direction, capitalization/layout differ."
+      },
+      "quote": "DO YOU SUPPORT DATA CENTERS IN THE TOWNSHIP OF DOWNE.",
+      "span": "utf8-text-codepoints:2045:2098"
+    },
+    {
+      "claim_id": "downe-review-07",
+      "source_document_id": "downe-review-august",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-0be552b8685036dc"
+      },
+      "predicate": "attached_interpretive_statement",
+      "value": {
+        "classification": "Sentiment question; no means opposition",
+        "scope": "Retains literal printed what typo; no legal prohibition created by advisory vote."
+      },
+      "quote": "This referendum seeks to gauge the public sentiment",
+      "span": "utf8-text-codepoints:2133:2184"
+    },
+    {
+      "claim_id": "downe-review-08",
+      "source_document_id": "downe-review-ordinance",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-0be552b8685036dc"
+      },
+      "predicate": "earlier_ordinance_version_limits",
+      "value": {
+        "ordinance": "2026-04",
+        "scope": "Complete5pages visually reviewed. Title describes all-zone non-permitted use, but body identified recitals/purpose/findings, severability, conditional effect and referral. No distinct operative prohibition clause identified in this version. Final-adoption record fields blank; first-reading votes not final votes."
+      },
+      "quote": "SECTION 1: PURPOSE AND FINDINGS",
+      "span": "utf8-text-codepoints:6082:6113"
+    },
+    {
+      "claim_id": "downe-review-09",
+      "source_document_id": "downe-review-ordinance",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-0be552b8685036dc"
+      },
+      "predicate": "conditional_effect",
+      "value": {
+        "scope": "Effect requires final passage and publication as required by law; no actual effective date accepted. Earlier packet August17template retained, not actual final adoption."
+      },
+      "quote": "The Ordinance shall take effect upon final passage and publication as",
+      "span": "utf8-text-codepoints:7467:7536"
+    },
+    {
+      "claim_id": "downe-review-10",
+      "source_document_id": "downe-review-revised-intro",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-0be552b8685036dc"
+      },
+      "predicate": "revised_hearing_schedule",
+      "value": {
+        "first_reading_date": "2026-07-13",
+        "scheduled_hearing_date": "2026-10-19",
+        "scheduled_time": "18:30",
+        "scope": "Notice schedules hearing/final consideration, not evidence it happened alone."
+      },
+      "quote": "Monday, October 19, 2026 at 6:30 p.m.",
+      "span": "utf8-text-codepoints:700:737"
+    },
+    {
+      "claim_id": "downe-review-11",
+      "source_document_id": "downe-review-passage",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-0be552b8685036dc"
+      },
+      "predicate": "reported_separate_ordinance_adoption",
+      "value": {
+        "ordinance": "2026-04",
+        "reported_adoption_date": "2026-10-19",
+        "reported_time": "18:30",
+        "scope": "Township final-passage notice reports adoption after hearing. Predates November3vote; not enacted by that vote. No dated final-passage publication affidavit, current operative text, effective date, final vote count or litigation status accepted."
+      },
+      "quote": "October 19, 2026 at 6:30pm",
+      "span": "utf8-text-codepoints:760:786"
+    },
+    {
+      "claim_id": "downe-review-12",
+      "source_document_id": "downe-review-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-0be552b8685036dc"
+      },
+      "predicate": "secondary_reported_return",
+      "value": {
+        "yes_votes": 62,
+        "no_votes": 425,
+        "precinct_reporting_percent": 100.0,
+        "scope": "NJ.com named Downe public question. Secondary return only, certification unknown; no ballots/registered/blank/under/over or official outcome inferred."
+      },
+      "quote": "Downe Township Public Question\n\nDo you support data centers in the Township of Downe.\n\n100.0% of precincts reporting\n\nYes \u2014 62\n\n\u2713 No \u2014 425",
+      "span": "utf8-text-codepoints:3567:3705"
+    }
+  ],
+  "visual_reviews": {},
+  "unresolved": [
+    "Official canvass/certification",
+    "Final operative ordinance text, publication date and force history",
+    "Independent petition sufficiency and statutory applicability"
+  ]
+}

@@ -35,3 +35,7 @@ The actual notice links redirect to legacy Word DOC files, so both were converte
 The revised introduction notice schedules the hearing for October 19, 2026. The separate final-passage notice directly reports that Ordinance 2026-04 was adopted after hearing on October 19 at 6:30 p.m., following July 13 introduction. This supports **reported October 19 adoption**, superseding reliance on the older packet’s August 17 template. The ordinance landing link still returns exactly the old five-page PDF, so the operative-text gap remains.
 
 The notice supplies no dated final-passage publication proof, effective date or final vote count. Its reported adoption precedes the November 3 advisory vote; the vote cannot be described as the act that enacted this ordinance. Keep the electoral record and separately adopted ordinance distinct pending final-text and legal-force review.
+
+## Evidence acceptance packet
+
+`review.json` contains seven exact source versions and twelve scoped claims. `verification.json` records successful independent quote/version checks through bc-core and the retained acquisition/derivation index. `verify.py` rechecks all twelve claims plus the seven archived source versions; its successful result is recorded in `validation.json`. Archive import leaves source bodies and full text private. These checks support the reviewed claims only, not official certification, complete force history or canonical publication.
