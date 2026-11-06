@@ -126,3 +126,9 @@ The subsequent [Brownfield promotion packet](../brownfield-promotion/README.md)
 records scoped publication of its question, proposed terms and town tally.
 Certification and operative legal interpretation remain unresolved. Freedom's
 canonical promotion remains pending.
+
+The subsequent [Freedom promotion packet](../freedom-promotion/README.md)
+records source-qualified publication of the photographed question/results and
+official linked draft terms. Account authority, certification, operative duration
+and later legal force remain unresolved. Earlier packets retain their
+stage-specific scope.

@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Freedom adds a tenth source-qualified expanded measure with Article 3 wording, 331 yes / 115 no, VOIDS 24 and a circled 470 source total. Account affiliation/certification and operative duration remain unresolved. Public citations are now distinct from exact acquisition URLs; evidence identity still uses the original URL and hashes. Legacy counts are unchanged.
+
 Brownfield adds a ninth reviewed expanded measure with 671 yes / 191 no and a separate 862 ballots-counted source total. The proposed 5,000-square-foot definition, literal less-than power wording and September 16 duration anchor remain explicit without resolving legal application. Certification/outcome/current force remain unknown; legacy counts are unchanged.
 
 Native JPEG visual evidence now pins original bytes, stored dimensions and EXIF orientation with strict decoding. Real Brownfield/Freedom tallies pass the evidence audit, including Freedom’s unmapped source category and total. This verification increment changes no canonical measure, certification or legacy count.

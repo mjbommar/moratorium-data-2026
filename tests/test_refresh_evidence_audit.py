@@ -52,6 +52,15 @@ class ExpandedEvidenceAudit(unittest.TestCase):
                  'text_artifact':'retained.txt'}
         return {'source_documents':[source],'claims':[claim]}, {source['url']:[version]}
 
+    def test_citation_url_never_substitutes_for_acquired_source_url(self):
+        records,index=self.fixture();source=records['source_documents'][0]
+        source['citation_url']='https://example.gov/durable-post'
+        issues,proofs=audit_expanded_evidence(records,index)
+        self.assertFalse(issues);self.assertTrue(proofs[0]['evidence_verified'])
+        index[source['citation_url']]=index.pop(source['url'])
+        issues,proofs=audit_expanded_evidence(records,index)
+        self.assertTrue(issues);self.assertFalse(proofs[0]['evidence_verified'])
+
     def test_matching_url_does_not_substitute_for_matching_payload(self):
         records,index=self.fixture()
         records['source_documents'][0]['body_sha256']='different'

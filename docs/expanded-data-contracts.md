@@ -6,7 +6,7 @@ moratorium grain and exclusion of permanent bans remain unchanged. A successful
 validation is structural consistency, not proof of legal effect, source accuracy,
 identity, completeness, or permission to publish. An initial [reviewed snapshot writer](expanded-promotion.md) now supplies separate
 identity, evidence, field-review and atomic-publication gates; reviewed canonical
-records include Eliot, Sabattus, Canterbury, Nottingham, Wiscasset, North Berwick, Wells, Peru and Brownfield, with explicit result supersession. See the
+records include Eliot, Sabattus, Canterbury, Nottingham, Wiscasset, North Berwick, Wells, Peru, Brownfield and Freedom, with explicit result supersession. See the
 [generated results view](ballot-results.md). Identity decisions have a separate
 [append-only registry](expanded-identity-registry.md).
 
@@ -168,3 +168,12 @@ application, atomic promotion, source capture, or release. A source-backed pilot
 identity registry, broader review gates and transaction design remain required
 before canonical use. Certification and active-status counts must be derived from
 reviewed, scoped evidence and a declared cutoff, never from these diagnostic counts.
+
+## Durable citations and acquisition identity
+
+Source documents may carry an optional HTTP(S) `citation_url` for a reviewed,
+durable public citation, such as the parent post of a CDN-hosted image. Public
+summaries prefer it for navigation. The original `url` and body/text hashes still
+identify the acquired version; a citation URL never supplies substitute evidence
+or authenticates its publisher. Earlier snapshots without this field retain their
+existing URLs and remain unchanged.

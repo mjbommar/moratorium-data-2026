@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-05",
   "reviewer": "coordinator",
-  "canonical_snapshot": "bd20cc6c7c76e624f517cc3c181729a5f2d6e11d7e607775957f25d77654113a",
+  "canonical_snapshot": "a06a38e5c85ecf6d505cccf5fa36f8b5d501da7c90096edb40a03f595e202302",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 9,
-    "groups_pending_candidate_review": 47
+    "groups_with_scoped_canonical_publication": 10,
+    "groups_pending_candidate_review": 46
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -723,9 +723,11 @@
           "staged_measure_id": "recovery-ballot-me-001::lead-6a5d96ef247af22d389d"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "25984627-a01d-4f92-a9ab-b8852f9c54b9",
+      "publication_plan": "work/research/2026-11-05/freedom-promotion/publication-plan.json",
+      "publication_plan_sha256": "b9c4704cf0f2c2a67ec3f323ebf270f7f3998e143a5572e23602613c69bd649c",
+      "canonical_record_sha256": "6632434ce2b2c89930f8979fab08092b26af79c68085b899825594621f6b5aeb"
     },
     {
       "logical_group_id": "lead-b172c1870e4b5f1c77ab",

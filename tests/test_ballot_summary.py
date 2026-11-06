@@ -45,4 +45,10 @@ class BallotSummaryTests(unittest.TestCase):
         self.assertIn('circled total: 2380 (question row)',text)
         self.assertIn('1565 | 791 | unknown | unknown',text)
 
+    def test_durable_citation_is_displayed_without_replacing_acquisition_url(self):
+        source=self.rows['source_documents'][self.result['source_document_id']]
+        original=source['url'];source['citation_url']='https://example.gov/durable-post'
+        self.assertIn('](<https://example.gov/durable-post>)',render(self.rows,SNAPSHOT))
+        self.assertEqual(source['url'],original)
+
 if __name__=='__main__':unittest.main()

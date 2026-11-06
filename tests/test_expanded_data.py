@@ -92,6 +92,13 @@ class ExpandedContracts(unittest.TestCase):
         r['source_vote_totals'][0]['scope']=' '
         self.assertTrue(any('nonblank' in e for e in self.validate()))
 
+    def test_durable_citation_requires_http_url(self):
+        source=self.tables['source_documents'][0]
+        source['citation_url']='https://example.gov/post'
+        self.assertEqual(self.validate(),[])
+        source['citation_url']='javascript:alert(1)'
+        self.assertTrue(self.validate())
+
     def test_fixture_and_reverse_polarity(self):
         self.assertEqual(self.validate(), [])
         self.tables['measure_results'][0]['outcome_direction'] = 'facilitates'

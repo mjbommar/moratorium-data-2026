@@ -1198,6 +1198,19 @@
         "publication_classification": {
           "type": "string",
           "minLength": 1
+        },
+        "citation_url": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https?://"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reviewed durable public citation; acquisition url/body/text hashes remain the evidence identity."
         }
       },
       "required": [

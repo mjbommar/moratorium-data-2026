@@ -121,6 +121,17 @@ legal application remains unresolved. The proposed 180 days run from September
 [tally](https://www.brownfieldmaine.gov/DocumentCenter/View/1000/Referendum-Results),
 [proposed ordinance](https://brownfieldme.civicpluswebopen.com/media/6701).
 
+Freedom's source-qualified tally photograph identifies November 3 Article 3,
+asking adoption of the Data Center Moratorium Ordinance. It shows 331 yes / 115
+no, plus VOIDS 24 and a circled 470 total. The latter observations remain separate
+from standard vote categories and denominators. The public account is named
+Freedom Town Office, but affiliation and certification have not been independently
+authenticated. The town-linked draft has blank adoption/applicability dates and
+no operative expiration clause; its at-least-180-day preamble study need is not
+an accepted term. Passage outcome and current legal force remain unresolved.
+[Source tally post](https://www.facebook.com/FreedomMaineTownOffice/posts/secret-ballot-election-results/1459298219642313/),
+[official town-linked draft](https://www.freedomme.org/_files/ugd/8d8f5c_be3f789c00ae4e1eb75f14bae34aac9e.pdf).
+
 No current legal-force restriction, instrument event or measure/instrument link has
 been accepted in these initial cohorts, and their publication does not add active
 legacy moratorium rows. Other jurisdictions, earlier and future elections, legal

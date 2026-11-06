@@ -14,6 +14,10 @@ def cell(value):
     return str(value).replace('|',r'\|').replace('\n',' ')
 
 
+def citation(source):
+    return source.get('citation_url') or source['url']
+
+
 def render(rows, snapshot):
     results=list(rows['measure_results'].values())
     superseded={r['supersedes_id'] for r in results if r['supersedes_id']}
@@ -36,7 +40,7 @@ def render(rows, snapshot):
         election=rows['elections'][measure['election_id']]
         source=rows['source_documents'][result['source_document_id']]
         title=jurisdiction['name']+', '+jurisdiction['state']+' — '+(measure['designation'] or measure['title'] or 'undesignated')
-        label=f"[{title}](<{source['url']}>)"
+        label=f"[{title}](<{citation(source)}>)"
         date=election['election_date']['earliest'] if election['election_date']['precision']=='day' else (election['election_date']['original_text'] or 'unknown')
         cert=result['certification_status']+((' '+result['certification_date']) if result['certification_date'] else '')
         values=[label,date,result['yes_votes'],result['no_votes'],result.get('blank_votes'),result['ballots_cast'],cert,result['reported_outcome']]
@@ -52,7 +56,7 @@ def render(rows, snapshot):
         notes=[cell(x['label'])+': '+str(x['count'])+' (unmapped category)' for x in categories]
         notes += [cell(x['label'])+': '+str(x['count'])+' ('+cell(x['scope'])+')' for x in totals]
         title=jurisdiction['name']+', '+jurisdiction['state']+' — '+(measure['designation'] or measure['title'] or 'undesignated')
-        source_notes.append('- ['+cell(title)+'](<'+source['url']+'>): '+'; '.join(notes)+'.')
+        source_notes.append('- ['+cell(title)+'](<'+citation(source)+'>): '+'; '.join(notes)+'.')
     if source_notes:
         lines += ['', 'Additional source labels and totals remain separate from blanks, valid votes and ballots cast.']+source_notes
     no_results=set(rows['ballot_measures'])-{r['measure_id'] for r in live}
@@ -67,7 +71,7 @@ def render(rows, snapshot):
     for result in sorted(live,key=order):
         measure=rows['ballot_measures'][result['measure_id']]
         jurisdiction=rows['jurisdictions'][measure['jurisdiction_id']]
-        sources={rows['source_documents'][rows['claims'][cid]['source_document_id']]['url']
+        sources={citation(rows['source_documents'][rows['claims'][cid]['source_document_id']])
                  for cid in result.get('value_methods',{}).get('reported_outcome',{}).get('claim_ids',[])}
         if sources:
             lines.append('- '+cell(jurisdiction['name'])+': '+', '.join('[reported-outcome source](<'+url+'>)' for url in sorted(sources))+'.')
