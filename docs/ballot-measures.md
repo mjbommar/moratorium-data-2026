@@ -157,6 +157,27 @@ silently merged with council Ordinance 2278 or prior moratoria 2272/2274.
 [Certification and ordinance packet](https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026),
 [publication scope](../work/research/2026-11-05/california-promotion/README.md).
 
+Four Madison County, Illinois, township questions ask whether construction and
+operation of new data centers should be permitted. The official sheet places
+Chouteau, Granite City, Nameoki and Venice Townships under an ADVISORY heading.
+A yes vote favors permission, so the records use advisory bindingness and a
+facilitating yes direction. The public results view displays these distinctions;
+the larger no counts do not become enacted prohibitions. Granite City Township
+is not the City of Granite City.
+[Official question sheet](https://www.madisoncountyil.gov/document_center/CountyClerk/2026%20Election/REFERENDA%20QUESTIONS.pdf?t=20260924105821428).
+
+The source-reported current yes/no counts are Chouteau 365/1,817, Granite City
+1,959/5,703, Nameoki 602/2,117 and Venice 311/978. Earlier and current official
+CSV observations remain separate, with explicit supersession even though the
+member bytes/counts match. The named-contest ballot and registration columns
+are retained without deriving blank or under/overvotes. Full precinct reporting
+does not establish certification or complete ballot accounting. Formal placement,
+outcomes, certification and later government actions remain open. The source
+review also retains an additional wind/solar zoning-control lead outside the
+frozen seed denominator; its electorate and policy direction need further review.
+[Versioned official report](https://results.enr.clarityelections.com//IL/Madison/127555/385789/reports/summary.zip),
+[publication scope](../work/research/2026-11-05/illinois-township-promotion/README.md).
+
 No current legal-force restriction, instrument event or measure/instrument link has
 been accepted in these initial cohorts, and their publication does not add active
 legacy moratorium rows. Other jurisdictions, earlier and future elections, legal

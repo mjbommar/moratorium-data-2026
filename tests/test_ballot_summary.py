@@ -29,6 +29,22 @@ class BallotSummaryTests(unittest.TestCase):
         text=render(self.rows,SNAPSHOT)
         self.assertIn('1565 | 791 | 0 | unknown',text)
 
+    def test_advisory_permission_direction_is_visible_next_to_counts(self):
+        measure=self.rows['ballot_measures'][self.result['measure_id']]
+        measure.update(bindingness='advisory',yes_direction='facilitates')
+        text=render(self.rows,SNAPSHOT)
+        self.assertIn('| Bindingness | Yes-vote direction |',text)
+        self.assertIn('| advisory | facilitates | 1565 | 791 |',text)
+        self.assertIn('do not by themselves enact a restriction or authorize a project',text)
+
+    def test_certification_does_not_resolve_measure_bindingness(self):
+        self.rows['ballot_measures'][self.result['measure_id']]['bindingness']='unresolved'
+        self.result.update(certification_status='certified',certification_date='2026-11-04')
+        text=render(self.rows,SNAPSHOT)
+        row=next(line for line in text.splitlines() if line.startswith('| [Sabattus'))
+        self.assertIn('| unresolved |',row)
+        self.assertIn('| certified 2026-11-04 |',row)
+
     def test_independent_live_observations_are_not_collapsed_or_summed(self):
         other=copy.deepcopy(self.result);other.update(result_observation_id='synthetic-independent',yes_votes=1564,no_votes=792,certification_status='unofficial',certification_date=None)
         self.rows['measure_results'][other['result_observation_id']]=other

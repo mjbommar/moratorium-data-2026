@@ -1,9 +1,10 @@
 # Madison County township advisory questions
 
 Scoped primary-source review of four distinct Illinois township questions on
-November 3. No canonical publication, enacted moratorium, development prohibition
-or instrument link is created by this packet. Granite City Township remains
-distinct from the City of Granite City.
+November 3. This packet records the initial review; their [subsequent canonical
+publication](../illinois-township-promotion/README.md) is separately recorded.
+Neither step creates an enacted moratorium, development prohibition or instrument
+link. Granite City Township remains distinct from the City of Granite City.
 
 | Township | Yes | No | Source ballots cast | Source registrations | Precincts reporting |
 |---|---:|---:|---:|---:|---:|
@@ -83,7 +84,8 @@ electorate, qualification and policy direction require review: supporting local
 zoning authority does not itself establish opposition to development or a ban.
 
 The four township reviews are linked to their existing frozen groups, including
-the already-reconciled Chouteau/Granite City duplicate observations. The ledger
-continues to report **12 scoped canonical publications / 44 pending groups**.
-These pending counts apply to the frozen baseline; the additional sector lead
-demonstrates why it must not be presented as a complete election census.
+the already-reconciled Chouteau/Granite City duplicate observations. At the initial
+review stage the ledger recorded **12 scoped publications / 44 pending groups**.
+The subsequent publication records **16 scoped publications / 40 pending groups**.
+These counts apply to the frozen baseline; the additional sector lead demonstrates
+why it must not be presented as a complete election census.

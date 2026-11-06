@@ -1,0 +1,58 @@
+{
+  "as_of": "2026-11-05",
+  "scope": "Four Illinois township advisory publications and public-view validation; full census and legal histories remain incomplete",
+  "snapshot_sha256": "f7826c506a2ec4742a5488f6a7b1e1e67e6b0c398e5d6bdb76e88b6606d37a08",
+  "records": {
+    "jurisdictions": 16,
+    "elections": 16,
+    "ballot_measures": 16,
+    "measure_provisions": 16,
+    "measure_results": 22,
+    "local_restrictions": 0,
+    "instrument_events": 0,
+    "measure_instrument_links": 0,
+    "source_documents": 44,
+    "claims": 142,
+    "review_decisions": 780,
+    "search_runs": 0,
+    "search_attempts": 0,
+    "search_sightings": 0,
+    "coverage_observations": 0
+  },
+  "current_measure_records": 16,
+  "current_result_observations": 16,
+  "current_certified_result_observations": 5,
+  "retained_result_observations": 22,
+  "advisory_current_rows": 4,
+  "frozen_census_published": 16,
+  "frozen_census_pending": 40,
+  "additional_wind_solar_lead": "Unallocated and outside frozen denominator; electorate/qualification review pending",
+  "replay_state": "already_applied",
+  "tests": {
+    "command": "/home/mjbommar/projects/bc/bc-modules/.venv/bin/python -m unittest discover -s tests",
+    "passed": 137,
+    "exit_code": 0,
+    "log_sha256": "1fa21a9dc5129e1cde2165e57494f0439661100acfda866c76b940067ad6202f"
+  },
+  "build": {
+    "command": "make data site check PYTHON=.venv/bin/python TODAY=2026-11-05",
+    "exit_code": 0,
+    "log_sha256": "77362f9de11b63c6ff9570744f9ca83405aa7825c8326a01178aea2ea4e76cb4"
+  },
+  "html_checks": {
+    "current_rows": 16,
+    "columns_per_row": 10,
+    "advisory_facilitating_rows": 4,
+    "certification_outcome_unknown_on_all_advisory_rows": true,
+    "html_sha256": "4ed9e6d4035404a0867e5a4b069c31d0040dcc751a32532775ea5434c369251b"
+  },
+  "unchanged_legacy_csv_sha256": {
+    "data/moratorium_inventory.csv": "afb55549e5ee43e72b61a466ef237b75779f231eb102366841e908970e16438c",
+    "data/state_legislation.csv": "0df633feac28eeb31182405d66dc97cca0b609dd2656b15ab929ad306443cbf6"
+  },
+  "limitations": [
+    "Official source-reported counts and precinct completion do not certify the election.",
+    "Advisory questions do not themselves enact development bans or permit authorization.",
+    "No remote push, GitHub release or deployment performed."
+  ]
+}

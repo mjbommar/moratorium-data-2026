@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Four Illinois township advisory questions bring the scoped expanded subset to sixteen measures. Chouteau, Granite City, Nameoki and Venice retain official CSV counts and explicit prior/current supersession, with advisory bindingness and a permission-favoring yes direction. The public table now shows bindingness and direction; no advisory vote adds a legacy moratorium or establishes an enacted ban. Certification and formal outcomes remain unresolved. The separate wind/solar zoning-control lead remains outside the frozen census denominator pending electorate/qualification review.
+
 California adds two scoped expanded measures, bringing the reviewed subset to twelve. Alhambra DB retains the November 5 county counts of 15,237 yes / 3,132 no and explicitly supersedes its older snapshot; certification/outcome remain unknown. Monterey Park NDC retains certified June counts of 10,388 yes / 1,372 no and source-reported approval, with county/clerk/council/ordinance dates kept separate. Neither permanent-prohibition measure adds a legacy moratorium or establishes current legal force. Historical evidence indexing now retains verified original text alongside later reviewed OCR.
 
 Freedom adds a tenth source-qualified expanded measure with Article 3 wording, 331 yes / 115 no, VOIDS 24 and a circled 470 source total. Account affiliation/certification and operative duration remain unresolved. Public citations are now distinct from exact acquisition URLs; evidence identity still uses the original URL and hashes. Legacy counts are unchanged.
