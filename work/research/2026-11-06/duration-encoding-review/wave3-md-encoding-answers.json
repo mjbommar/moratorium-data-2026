@@ -1,0 +1,32 @@
+{
+  "state_abbrev": "MD",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator original-term encoding review; retained sources inspected November 6",
+  "decisions": [
+    {
+      "moratorium_id": "md-federalsburg-2026",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Retained replacement-ban reporting explicitly describes the prior three-year moratorium. Normalize that historical original interval; do not treat it as the current restriction or change the replacement history.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Retained replacement-ban reporting explicitly describes the prior three-year moratorium. Normalize that historical original interval; do not treat it as the current restriction or change the replacement history.",
+          "from": "1095"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.wboc.com/news/federalsburg-becomes-first-eastern-shore-community-to-ban-data-centers/article_0c14f915-9216-4882-8efa-ceaeb920de1a.html",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-third-cohort.json."
+        }
+      ],
+      "notes": "Original-term encoding only; preserve all prose, dates, IDs, statuses, endpoints and relationships. No source reacquisition or legal-force renewal."
+    }
+  ]
+}

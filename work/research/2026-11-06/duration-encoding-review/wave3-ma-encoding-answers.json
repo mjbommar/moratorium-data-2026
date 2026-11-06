@@ -1,0 +1,57 @@
+{
+  "state_abbrev": "MA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator original-term encoding review; retained sources inspected November 6",
+  "decisions": [
+    {
+      "moratorium_id": "ma-gill-2026",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+          "from": "365"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://recorder.com/2026/05/05/gill-voters-approve-school-roof/",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-third-cohort.json."
+        }
+      ],
+      "notes": "Original-term encoding only; preserve all prose, dates, IDs, statuses, endpoints and relationships. No source reacquisition or legal-force renewal."
+    },
+    {
+      "moratorium_id": "ma-greenfield-2026",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+          "from": "365"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://recorder.com/2026/09/17/greenfield-data-centers-moratorium-adopted/",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-third-cohort.json."
+        }
+      ],
+      "notes": "Original-term encoding only; preserve all prose, dates, IDs, statuses, endpoints and relationships. No source reacquisition or legal-force renewal."
+    }
+  ]
+}

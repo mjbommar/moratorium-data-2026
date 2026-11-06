@@ -1,0 +1,82 @@
+{
+  "state_abbrev": "KY",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator original-term encoding review; retained sources inspected November 6",
+  "decisions": [
+    {
+      "moratorium_id": "ky-harrison-county-2026",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+          "from": "730"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.news-graphic.com/harrison_county/data-center-moratorium-approved/article_673addee-2c4b-4a8b-b8fa-5ed7fb229d5a.html",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-third-cohort.json."
+        }
+      ],
+      "notes": "Original-term encoding only; preserve all prose, dates, IDs, statuses, endpoints and relationships. No source reacquisition or legal-force renewal."
+    },
+    {
+      "moratorium_id": "ky-nicholasville-2026",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+          "from": "180"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.wkyt.com/2026/08/11/nicholasville-passes-six-month-moratorium-data-centers/",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-third-cohort.json."
+        }
+      ],
+      "notes": "Original-term encoding only; preserve all prose, dates, IDs, statuses, endpoints and relationships. No source reacquisition or legal-force renewal."
+    },
+    {
+      "moratorium_id": "ky-winchester-2026",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+          "from": "365"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.lex18.com/news/covering-kentucky/winchester-votes-unanimously-to-pause-data-center-development-for-one-year",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-third-cohort.json."
+        }
+      ],
+      "notes": "Original-term encoding only; preserve all prose, dates, IDs, statuses, endpoints and relationships. No source reacquisition or legal-force renewal."
+    }
+  ]
+}

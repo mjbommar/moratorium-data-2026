@@ -1,7 +1,7 @@
 # Working refresh: baseline comparison
 
 Baseline: `dbaab04d84f8d679ba5a3d57bf45f32186109222`, whose README describes September 23, 2026.
-The current comparison was generated from base revision `b23d1a5` and the working-tree
+The current comparison was generated from base revision `79dbf84` and the working-tree
 CSV bytes pinned in the JSON. This compares working data, not the last public
 release. The cohort cutoff remains November 5; later scoped reviews do not renew
 all-record legal-force freshness.
@@ -26,7 +26,7 @@ of bills or enacted state moratoria.
 
 Forty local records were added: `ak-fairbanks-north-star-borough-undated`, `ak-petersburg-borough-undated`, `ca-hayward-2026`, `co-brighton-undated`, `co-fort-collins-undated`, `co-phillips-county-2024`, `co-phillips-county-2025`, `de-kent-county-2022`, `de-kent-county-undated`, `ga-union-county-2026`, `ia-dubuque-county-2026-2`, `ia-sac-county-2025`, `ia-sioux-county-2023`, `id-blaine-county-undated`, `il-chicago-undated`, `il-stephenson-county-2026`, `in-vermillion-county-undated`, `in-zionsville-undated`, `ky-camargo-2026`, `la-bossier-parish-2022`, `ma-braintree-undated`, `ma-methuen-undated`, `md-talbot-county-2022`, `me-ashland-2024`, `me-bridgton-2022`, `mi-locke-township-2023`, `mi-locke-township-2023-2`, `mi-meridian-township-2026-2`, `mn-pequot-lakes-undated`, `nc-town-of-mooresville-undated`, `ne-sarpy-county-2020`, `nj-east-windsor-undated`, `nm-silver-city-2021`, `ny-massena-undated`, `ny-niagara-2024`, `sc-awendaw-undated`, `tn-orlinda-2026`, `wa-spokane-valley-2026`, `wa-whitman-county-2025`, `wi-sun-prairie-2026`. Two policy records were added:
 `ca-ab2469-2025-2026`, `nj-a4696-2026-2027`. No baseline IDs were removed. Among surviving baseline records,
-514 local and 30 policy records have changed fields.
+549 local and 30 policy records have changed fields.
 These are edit counts, not completed record reviews or counts of new enactments.
 The two Kent additions describe historical terms ending in 2022 and 2023; the wind
 adoption-year conflict remains explicit.

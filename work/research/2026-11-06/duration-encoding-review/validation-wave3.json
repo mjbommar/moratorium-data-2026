@@ -1,0 +1,197 @@
+{
+  "inventory_before_sha256": "1bc74c98556223016f4f460766d44e0a0bfbc271e8cf0c965ea8a1959b4e81f2",
+  "inventory_after_sha256": "09845105d5d2519325c11c19daa9e5cb4a3f2334c0309fd025c80ab8177f024c",
+  "coordinator_third_cohort": {
+    "records": 79,
+    "encoding_corrections_applied": 36,
+    "explicit_day_terms_retained": 3,
+    "withheld": 40
+  },
+  "cumulative_coordinator": {
+    "reviewed": 237,
+    "corrected": 107,
+    "retained": 13,
+    "withheld": 117,
+    "pending": 237
+  },
+  "changed_fields": [
+    "duration_kind",
+    "duration_days"
+  ],
+  "changed_field_count": 72,
+  "all_other_values_and_ids_unchanged": true,
+  "state_policy_and_expanded_data_unchanged": true,
+  "replay": {
+    "already_applied_fields": 72,
+    "rows_touched": 0
+  },
+  "tests": {
+    "native_tests": 213,
+    "result": "passed"
+  },
+  "build": {
+    "command": "make data site check PYTHON=.venv/bin/python TODAY=2026-11-05",
+    "errors": 0,
+    "warnings": 384,
+    "documented_numbers_matched": 53
+  },
+  "new_calendar_end_warning_ids": [
+    "ky-harrison-county-2026",
+    "ky-nicholasville-2026",
+    "ky-winchester-2026",
+    "ma-greenfield-2026",
+    "mi-allen-park-2026",
+    "mi-allendale-township-2026",
+    "mi-ann-arbor-charter-township-2026",
+    "mi-city-of-flint-2026",
+    "mi-colfax-township-huron-county-2026",
+    "mi-grand-blanc-township-2026",
+    "mi-green-lake-township-grand-traverse-county-2026",
+    "mi-groveland-township-2026",
+    "mi-hagar-township-2026",
+    "mi-houghton-2026",
+    "mi-oxford-township-2026",
+    "mi-romeo-2026",
+    "mi-saline-township-2026",
+    "mi-sherman-township-2026",
+    "mi-sterling-heights-2026",
+    "mi-superior-charter-township-2026",
+    "mi-taylor-undated",
+    "mi-warren-2026",
+    "mi-webster-township-2026",
+    "mi-wheeler-township-gratiot-county-2026",
+    "mn-blue-earth-county-2026",
+    "mn-hastings-2026",
+    "mn-north-branch-undated",
+    "mn-plymouth-2026"
+  ],
+  "warning_delta": {
+    "removed": [
+      [
+        "status.drift",
+        "line 606 (MI Waterford Township): active but computed expiry 2026-09-19 < 2026-11-05"
+      ]
+    ],
+    "added": [
+      [
+        "duration.calendar_end_unverified",
+        "line 390 (KY Harrison County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 402 (KY Nicholasville): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 408 (KY Winchester): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 461 (MA Greenfield): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 473 (MI Allen Park): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 474 (MI Allendale Township): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 475 (MI Ann Arbor Charter Township): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 490 (MI City of Flint): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 493 (MI Colfax Township (Huron County)): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 518 (MI Grand Blanc Township): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 520 (MI Green Lake Township (Grand Traverse Coun): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 521 (MI Groveland Township): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 523 (MI Hagar Township): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 529 (MI Houghton): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 570 (MI Oxford Township): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 585 (MI Saline Township): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 589 (MI Sherman Township (Huron County)): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 593 (MI Sterling Heights): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 596 (MI Superior Charter Township (Washtenaw Cou): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 598 (MI Taylor): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 602 (MI Village of Romeo): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 604 (MI Warren): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 608 (MI Webster Township): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 609 (MI Wheeler Township (Gratiot County)): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 622 (MN Blue Earth County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 631 (MN Hastings): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 638 (MN North Branch): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 643 (MN Plymouth): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ]
+    ]
+  },
+  "warning_disposition": "28 unknown current endpoints newly exposed. Waterford computed-expiry drift warning removed because original guessed 180 days is no longer used. No endpoint/status/date acceptance or legal-force renewal.",
+  "scope": "Original-term encoding only, not full freshness or legal-status verification.",
+  "logs_sha256": {
+    "wave3-tests.log": "4db1935e9add5d6b1c40f7ea57d3a8ac9593c751e622a99892d58898f4858b4a",
+    "wave3-build.log": "a0176efa182e972663d0b49943349ff2e01182fee73b1a45396a9c4a4a213b4e",
+    "wave3-replay.log": "d7782da0006c33eb3140e8889bc0102b7ac444191a1bd5a88fb8a8bae2386f00"
+  }
+}

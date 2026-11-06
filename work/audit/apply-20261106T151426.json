@@ -1,0 +1,594 @@
+{
+  "applied_at": "20261106T151426",
+  "answer_files": [
+    "work/research/2026-11-06/duration-encoding-review/wave3-ky-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/wave3-ma-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/wave3-md-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/wave3-mi-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/wave3-mn-encoding-answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 36,
+    "fields_changed": 72
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "ky-harrison-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-ky-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ky-harrison-county-2026",
+      "column": "duration_days",
+      "before": "730",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-ky-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ky-nicholasville-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-ky-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ky-nicholasville-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-ky-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ky-winchester-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-ky-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ky-winchester-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-ky-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ma-gill-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-ma-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ma-gill-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-ma-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ma-greenfield-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-ma-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ma-greenfield-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-ma-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "md-federalsburg-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Retained replacement-ban reporting explicitly describes the prior three-year moratorium. Normalize that historical original interval; do not treat it as the current restriction or change the replacement history.",
+      "source": "wave3-md-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "md-federalsburg-2026",
+      "column": "duration_days",
+      "before": "1095",
+      "after": "",
+      "reason": "Retained replacement-ban reporting explicitly describes the prior three-year moratorium. Normalize that historical original interval; do not treat it as the current restriction or change the replacement history.",
+      "source": "wave3-md-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-allen-park-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-allen-park-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-allendale-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-allendale-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-ann-arbor-charter-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-ann-arbor-charter-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-city-of-flint-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-city-of-flint-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-colfax-township-huron-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-colfax-township-huron-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-garfield-charter-township-grand-traverse-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-garfield-charter-township-grand-traverse-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-grand-blanc-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-grand-blanc-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-green-lake-township-grand-traverse-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-green-lake-township-grand-traverse-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-groveland-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-groveland-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-hagar-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-hagar-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-houghton-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-houghton-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-oxford-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-oxford-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-pontiac-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Later retained material explicitly describes the original six-month interval. Original term is separate from any proposed or adopted later extension; no extension adoption, execution or new endpoint is accepted here.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-pontiac-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Later retained material explicitly describes the original six-month interval. Original term is separate from any proposed or adopted later extension; no extension adoption, execution or new endpoint is accepted here.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-saline-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-saline-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-saugatuck-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Later retained material explicitly describes the original six-month interval. Original term is separate from any proposed or adopted later extension; no extension adoption, execution or new endpoint is accepted here.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-saugatuck-township-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Later retained material explicitly describes the original six-month interval. Original term is separate from any proposed or adopted later extension; no extension adoption, execution or new endpoint is accepted here.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-sherman-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-sherman-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-sterling-heights-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-sterling-heights-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-superior-charter-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-superior-charter-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-taylor-undated",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-taylor-undated",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-romeo-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-romeo-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-warren-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-warren-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-waterford-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Later retained material explicitly describes the original six-month interval. Original term is separate from any proposed or adopted later extension; no extension adoption, execution or new endpoint is accepted here.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-waterford-township-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Later retained material explicitly describes the original six-month interval. Original term is separate from any proposed or adopted later extension; no extension adoption, execution or new endpoint is accepted here.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-webster-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-webster-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-wheeler-township-gratiot-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-wheeler-township-gratiot-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-zeeland-charter-township-2026-2",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mi-zeeland-charter-township-2026-2",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mi-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mn-blue-earth-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mn-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mn-blue-earth-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mn-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mn-hastings-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mn-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mn-hastings-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mn-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mn-inver-grove-heights-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mn-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mn-inver-grove-heights-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mn-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mn-north-branch-undated",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mn-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mn-north-branch-undated",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mn-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mn-plymouth-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mn-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "mn-plymouth-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term clause or contemporaneous report specifies calendar months/years, not a day count. Correct only the typed representation of that reported interval; do not accept present force or new date/status claims.",
+      "source": "wave3-mn-encoding-answers.json"
+    }
+  ]
+}
