@@ -1,0 +1,29 @@
+{
+  "state": "review_adapter_validated",
+  "scope": "Review only. No canonical IDs, source acceptance, rank fusion or jurisdiction-wide completeness asserted. Missing query/window for failed or interrupted legacy reservations remains unknown.",
+  "ledger_sha256": "88253b2cc393fdd71600f384d11a9de66e57ac8c4f934549a88034975761ff7c",
+  "private_review_packet_sha256": "c3a54dde0bcd0f3e74feaf8f06721dd6e59cab8a9c96ecb593b89686fe208718",
+  "summary": {
+    "search_attempts": 3,
+    "successful_zero_hit_attempts": 0,
+    "failed_attempts": 0,
+    "interrupted_attempts": 0,
+    "partial_attempts": 0,
+    "priced_subtotal_usd": 0.014,
+    "unpriced_attempts": 1
+  },
+  "sightings": 18,
+  "verified_response_payloads": 3,
+  "verified_provider_exchanges": 3,
+  "native_tests": {
+    "count": 200,
+    "result": "passed"
+  },
+  "limitations": [
+    "Review transport only; canonical search tables remain unpublished.",
+    "Legacy failed/interrupted reservations did not retain query/window intent; these remain unknown.",
+    "Error-path exchanges in the separate private exchange ledger are not imported by this adapter.",
+    "No rank fusion, jurisdiction completeness or full-run price asserted.",
+    "Known Exa subtotal excludes one unpriced SerpAPI call."
+  ]
+}
