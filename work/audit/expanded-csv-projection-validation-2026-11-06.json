@@ -1,0 +1,23 @@
+{
+  "source_commit": "1172cb0998f0325535ce751e3c64956653f0d93d",
+  "source_snapshot": "6aa015d8410341a8a92121054fab1ed0f20b166ba0cdaa6ddf549efb90a8d301",
+  "projection_sha256": "f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73",
+  "tests": {
+    "native_unittest": 197,
+    "result": "passed"
+  },
+  "build": "make data site check passed; 53 documented numbers match",
+  "canonical_inputs_unchanged": true,
+  "bundle": {
+    "members": 476,
+    "archive": {
+      "name": "moratorium-data-working-candidate.tar.gz",
+      "bytes": 9509167,
+      "sha256": "6d76019cdd310dea7eefb9aa93f2b2cd168d2be40a5d47bc207c2b1b58102d6e"
+    },
+    "two_builds_byte_identical": true,
+    "clean_restore_all_members_verified": true,
+    "both_relative_pointers_resolve": true
+  },
+  "scope": "Working checkpoint only; not final release, inventory-wide freshness or deployment verification. CSV preserves source strings including whitespace; JSONL remains authoritative."
+}
