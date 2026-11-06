@@ -1,0 +1,30 @@
+{
+  "observed_at": "2026-11-06T13:12:47.335164+00:00",
+  "observations": [
+    {
+      "url": "https://servercountry.org/resources/for-townships/",
+      "final_url": "https://servercountry.org/resources/for-townships/",
+      "status": 200,
+      "sha256": "0b307e7e150aa340b7493cb73352a3773699f07ca7e3aa047053b58130f96e43",
+      "checks": {
+        "historical April 2026 edition": false,
+        "companion working dataset": false
+      }
+    },
+    {
+      "url": "https://fightadatacenter.com/chapters/zoning-and-moratoria/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://mjbommar.github.io/moratorium-data-2026/docs/ballot-results.html",
+      "final_url": "https://mjbommar.github.io/moratorium-data-2026/docs/ballot-results.html",
+      "status": 200,
+      "sha256": "99f1e703564d946ba901a63fb8cf419bda0f1fe3b9de782b736c13a9e467624c",
+      "checks": {
+        "Linked restriction records": true,
+        "proposes": true
+      }
+    }
+  ],
+  "scope": "Direct HTTP observations and exact content markers only. Not deployment-job success or comprehensive site validation."
+}

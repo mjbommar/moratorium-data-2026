@@ -1,0 +1,34 @@
+{
+  "url": "https://fightadatacenter.com/chapters/fight-at-city-hall/",
+  "status": 200,
+  "sha256": "af86f067f3ce42b7f8842b62e24ece954a40804d74e993d98ab250f319e5107b",
+  "working_dataset_resource_present": false,
+  "historical_paper_label_present": false,
+  "scope": "Actual chapter route HTTP content markers; deployment job metadata verified separately.",
+  "deployment_lookup": {
+    "github_deployments": "No records returned",
+    "amplify_searches": [
+      {
+        "profile": "personal",
+        "region": "us-east-1",
+        "matching_app_returned": false
+      },
+      {
+        "profile": "personal",
+        "region": "us-east-2",
+        "matching_app_returned": false
+      },
+      {
+        "profile": "personal",
+        "region": "us-west-2",
+        "matching_app_returned": false
+      },
+      {
+        "profile": "bc",
+        "region": "configured default",
+        "matching_app_returned": false
+      }
+    ],
+    "interpretation": "Bounded lookup did not identify the hosting job. Not proof no deployment exists, failed, or was never triggered."
+  }
+}

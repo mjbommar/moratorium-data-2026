@@ -190,6 +190,8 @@ Exit: every seed has a documented disposition; evidence gaps are visible rather 
 
 Completed closure increments (the broader gates below remain open):
 
+- [x] Verify Server Country Amplify job 43 BUILD/DEPLOY/VERIFY success for `195dd66` and the served historical-paper/working-data notices (`work/audit/servercountry-deployment-2026-11-06.json`). Fight a Data Center hosting verification remains open.
+
 - [x] Restore the public candidate into a clean directory and verify all 25 retained generations (`work/audit/restore-and-replay-validation-2026-11-06.json`); current code passes 149 tests.
 - [x] Verify deployed working landing page, canonical CSVs and ballot summary bytes, plus pydoll-rendered totals (`work/audit/pages-built-observation-2026-11-06.json`, `pages-browser-verification-2026-11-06.json`).
 - [x] Create an unpublished GitHub draft candidate and verify all downloaded asset bytes and 420 archive members (`work/audit/draft-release-rc1-2026-11-06.json`); final publication/tag remains open.
