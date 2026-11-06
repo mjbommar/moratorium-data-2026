@@ -1,0 +1,64 @@
+{
+  "scope": "Partial-source quote audit only; not full extraction, election-day confirmation or canonical publication.",
+  "source": {
+    "source_document_id": "clarksville-minutes-review",
+    "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f5788977-65d5-44a0-ad7b-893322285dcd/September-28%2C-2026-Special-Council-Minutes.pdf?disposition=inline",
+    "body_sha256": "1203554db8699a08a7456d63127076d7abdc45f2263d2db2e3d8b391b85a3ac6",
+    "text_sha256": "e13111be68f6ac7a854fc2704dc6142cfe8e3415e458755cfd5687de2a7e8f72"
+  },
+  "claims": [
+    {
+      "claim_id": "clarksville-election-call-review-0",
+      "source_document_id": "clarksville-minutes-review",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-fb9b5b60389eba0e"
+      },
+      "predicate": "election_call_resolution",
+      "value": "26-1146",
+      "quote": "Resolution 26-1146 passed 5-0.",
+      "span": "utf8-text-codepoints:4098:4128"
+    },
+    {
+      "claim_id": "clarksville-election-call-review-1",
+      "source_document_id": "clarksville-minutes-review",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6c5760a0a7af1e4e"
+      },
+      "predicate": "election_call_resolution",
+      "value": "26-1147",
+      "quote": "Resolution 26-1147 passed 5-0.",
+      "span": "utf8-text-codepoints:4735:4765"
+    }
+  ],
+  "errors": [],
+  "proofs": [
+    {
+      "claim_id": "clarksville-election-call-review-0",
+      "source_document_id": "clarksville-minutes-review",
+      "quote_located": true,
+      "visual_verified": false,
+      "evidence_verified": true,
+      "verified_span": [
+        4098,
+        4128
+      ],
+      "verified_text_artifact": "/data0/moratorium-refresh-2026/discovery/ballot-ar-001/reviewed-minutes-pages-4-5.private.txt",
+      "verified_text_decoding": "exact UTF-8 extraction"
+    },
+    {
+      "claim_id": "clarksville-election-call-review-1",
+      "source_document_id": "clarksville-minutes-review",
+      "quote_located": true,
+      "visual_verified": false,
+      "evidence_verified": true,
+      "verified_span": [
+        4735,
+        4765
+      ],
+      "verified_text_artifact": "/data0/moratorium-refresh-2026/discovery/ballot-ar-001/reviewed-minutes-pages-4-5.private.txt",
+      "verified_text_decoding": "exact UTF-8 extraction"
+    }
+  ]
+}

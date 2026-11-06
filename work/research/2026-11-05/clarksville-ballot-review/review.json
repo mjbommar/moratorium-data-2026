@@ -1,0 +1,109 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "reviewer": "coordinator",
+  "worker_job": "ballot-ar-001",
+  "seed_ids": [
+    "bp-6c5760a0a7af1e4e",
+    "bp-fb9b5b60389eba0e"
+  ],
+  "primary_source": {
+    "attempt_id": "9781b4c07aa2462097d7fc60e973b9f1",
+    "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f5788977-65d5-44a0-ad7b-893322285dcd/September-28%2C-2026-Special-Council-Minutes.pdf?disposition=inline",
+    "body_sha256": "1203554db8699a08a7456d63127076d7abdc45f2263d2db2e3d8b391b85a3ac6",
+    "original_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reviewed_ocr_sha256": "e13111be68f6ac7a854fc2704dc6142cfe8e3415e458755cfd5687de2a7e8f72",
+    "ocr_pages": [
+      4,
+      5
+    ],
+    "extraction_scope": "Partial OCR registered separately; original client artifacts unchanged."
+  },
+  "visual_comparisons": [
+    {
+      "pdf_page": 4,
+      "retained_render_sha256": "0ad64bfd407d298591cd307a2eff8bd29be32a3adbff8c23d6d0bac8c5c262d4",
+      "finding": "September28special meeting: SFARK1 referendum concerns Ordinance26-1008; council approves Resolution26-1146 5-0. Hatchbo introduction concerns Ordinance26-1007."
+    },
+    {
+      "pdf_page": 5,
+      "retained_render_sha256": "3438cf90a32e5202a10aecdaef7223514a4ac77f6fe70c6e7e5306460d55d8f8",
+      "finding": "Hatchbo resolution continues; Resolution26-1147 passes5-0; separate special-election ordinance item removed from agenda; mayor/clerk signatures. No final election date established in reviewed motion passages."
+    }
+  ],
+  "located_evidence": [
+    {
+      "quote": "Resolution 26-1146 passed 5-0.",
+      "span": "utf8-text-codepoints:4098:4128"
+    },
+    {
+      "quote": "Resolution 26-1147 passed 5-0.",
+      "span": "utf8-text-codepoints:4735:4765"
+    }
+  ],
+  "accepted_primary_observations": [
+    {
+      "company": "SF ARK1 LLC",
+      "challenged_ordinance": "26-1008",
+      "election_call_resolution": "26-1146",
+      "council_vote": {
+        "ayes": 5,
+        "nays": 0
+      },
+      "meeting_date": "2026-09-28"
+    },
+    {
+      "company": "Hatchbo LLC",
+      "challenged_ordinance": "26-1007",
+      "election_call_resolution": "26-1147",
+      "council_vote": {
+        "ayes": 5,
+        "nays": 0
+      },
+      "meeting_date": "2026-09-28"
+    }
+  ],
+  "secondary_observations": {
+    "url": "https://www.nwahomepage.com/election/your-local-election/clarksville-residents-to-vote-on-55b-in-bond-ordinances-for-data-center-in-december-special-election/",
+    "body_sha256": "ccda3e858128bd168591e1aa32e28214192fb4bc929f400896db76f414ed6fba",
+    "text_sha256": "0ca3921a12d1a6e4e8df0959504f510886e6475be39a82bba9f770fe02dc83b8",
+    "proposed_election_date": "2026-12-01",
+    "date_qualification": "September29news report expressly conditions date on Johnson County Election Commission approval; official election-day acceptance pending.",
+    "reported_bond_ceilings": [
+      {
+        "company": "Hatchbo LLC",
+        "amount": 50000000000,
+        "currency": "USD"
+      },
+      {
+        "company": "SF ARK1 LLC",
+        "amount": 5000000000,
+        "currency": "USD"
+      }
+    ],
+    "mechanism": "Reported bond-financing/PILOT authorization questions, not moratoria or prohibitions; exact operative ordinance/ballot terms unreviewed."
+  },
+  "rejected_date_inference": "5newsonline URL slug Dec8 is a lead only; both retained fetches contain Akamai challenge text, not article evidence of a changed date.",
+  "fresh_searches": [
+    {
+      "backend": "exa",
+      "attempt_id": "461e0a1b458147a79c29662117f57528",
+      "hits": 8,
+      "cost_usd": 0.007
+    },
+    {
+      "backend": "serpapi",
+      "attempt_id": "d8a7145504ea41beae2e2e4670f7c6ad",
+      "hits": 8,
+      "cost_usd": null,
+      "unpriced": true
+    }
+  ],
+  "remaining_gaps": [
+    "county-approved election date and current schedule",
+    "official ballot wording/designation and polarity",
+    "complete challenged ordinances and adopted election-call resolutions",
+    "bindingness, financing/PILOT terms and legal effect",
+    "canonical identity/field/publication gates"
+  ],
+  "scope": "Two future-election candidates, not November results or active moratoria. No canonical dataset/tally changes; no absence conclusion from bounded search."
+}
