@@ -1,0 +1,240 @@
+{
+  "as_of": "2026-11-05",
+  "iteration": "v1-union-value-calibration",
+  "scope": "Actual domain-extended bc-evidence extraction and replay; no canonical promotion",
+  "source_url": "https://townofperumaine.org/wp-content/uploads/2026/09/Temporary-Moratorium-of-the-Development-and-Permitting-of-Data-Centers.pdf",
+  "body_sha256": "623ff9149e67c5e2c022022b21573a1655f686f76ec683c5725d88c3bab68bd2",
+  "text_sha256": "0ba833e46e81af76239311f15b3083e00e4edeca93a618aad2c8a8ca1ca3ecbc",
+  "context_sha256": "12a4a9fca52b2048aa28c1a48f9c008169d0e91f3a3be6cda66d0acb9305a18c",
+  "model_identity": {
+    "agent_retries": 0,
+    "cache_instructions": false,
+    "domain_adapter_sha256": "4053cb7cc8f620eaa5a6ab6b51e953a3dc994ad8edf7b682f09ccb16a6f2824d",
+    "expanded_schema_sha256": "9c1e34002b624ed0e3a3bc30df8fdce28f196898bf6aa6f53a28c92bb6c918ce",
+    "flex_fallback": false,
+    "max_attempts": 1,
+    "max_model_requests": 1,
+    "max_tokens": 6000,
+    "model": "openai:gpt-6-sol",
+    "output_mode": "native",
+    "pricing": {
+      "cache_read": 0.4,
+      "cache_write": 5.0,
+      "input": 4.0,
+      "output": 15.0,
+      "source": "genai-prices"
+    },
+    "reasoning_effort": "low",
+    "service_tier": null,
+    "temperature": null,
+    "timeout_s": 90.0
+  },
+  "budget_policy": {
+    "max_usd": 0.5,
+    "pricing_basis": "Installed bc-llm price table, estimates rather than provider invoice",
+    "reservation_usd": 0.25
+  },
+  "chunks": [
+    {
+      "end": 1538,
+      "index": 0,
+      "start": 0,
+      "status": "succeeded",
+      "text_sha256": "0ba833e46e81af76239311f15b3083e00e4edeca93a618aad2c8a8ca1ca3ecbc"
+    }
+  ],
+  "full_text_chunk_coverage": true,
+  "candidates": [
+    {
+      "candidate_id": "c1c36b4602f6656569266741385e057db16568475e1c3e32e4b6aa3503e38cf7",
+      "target_table": "ballot_measures",
+      "target_field": "title",
+      "value": "Temporary Moratorium of the Development and Permitting of Data Centers",
+      "assertion_context": "proposed",
+      "exact_quote_spans": [
+        [
+          14,
+          84
+        ]
+      ],
+      "field_schema_errors": [],
+      "review_flags": [
+        "proposal_only"
+      ],
+      "review_status": "unreviewed",
+      "accepted": false
+    },
+    {
+      "candidate_id": "0dfd16a406e23fb8c41c2c982e266391649244878e241996f7985365a1575288",
+      "target_table": "ballot_measures",
+      "target_field": "scope_note",
+      "value": "Allows the Selectboard and Planning Board time to study impacts on local water usage, electrical grid capacity, noise levels, and environmental and Government resources.",
+      "assertion_context": "proposed",
+      "exact_quote_spans": [
+        [
+          98,
+          361
+        ]
+      ],
+      "field_schema_errors": [],
+      "review_flags": [
+        "proposal_only"
+      ],
+      "review_status": "unreviewed",
+      "accepted": false
+    },
+    {
+      "candidate_id": "19bfe2401d76a8ed41026c40c74f57551fc08ad0efd588f3402ee23170688cbe",
+      "target_table": "measure_provisions",
+      "target_field": "covered_uses",
+      "value": "Buildings designed or used to house and support high-performance computing infrastructure, servers, networking equipment, and associated data storage systems, including related cooling systems, backup power generation, and dedicated electrical infrastructure.",
+      "assertion_context": "proposed",
+      "exact_quote_spans": [
+        [
+          379,
+          710
+        ]
+      ],
+      "field_schema_errors": [
+        "'Buildings designed or used to house and support high-performance computing infrastructure, servers, networking equipment, and associated data storage systems, including related cooling systems, backup power generation, and dedicated electrical infrastructure.' is not of type 'array'"
+      ],
+      "review_flags": [
+        "field_schema_invalid",
+        "proposal_only"
+      ],
+      "review_status": "unreviewed",
+      "accepted": false
+    },
+    {
+      "candidate_id": "884b228e77dc680a53e398733732219aa9bf85f2f095e6777fefa6ed682cfe39",
+      "target_table": "measure_provisions",
+      "target_field": "mechanism",
+      "value": "Upon passage, a moratorium on acceptance, processing, and approval of building applications, site plans, building permits or other development approvals for construction or operation of data centers.",
+      "assertion_context": "proposed",
+      "exact_quote_spans": [
+        [
+          735,
+          1018
+        ]
+      ],
+      "field_schema_errors": [
+        "'Upon passage, a moratorium on acceptance, processing, and approval of building applications, site plans, building permits or other development approvals for construction or operation of data centers.' is not one of ['temporary_permitting_pause', 'permanent_prohibition', 'time_limited_ban', 'size_resource_limit', 'voter_approval_requirement', 'financial_guarantee', 'zoning_change', 'rezoning_reversal', 'development_agreement_approval', 'development_agreement_reversal', 'financing_tax_authorization', 'advisory_support', 'advisory_opposition', 'other', 'unresolved']"
+      ],
+      "review_flags": [
+        "field_schema_invalid",
+        "proposal_only"
+      ],
+      "review_status": "unreviewed",
+      "accepted": false
+    },
+    {
+      "candidate_id": "f54f957ac0dd968187b7697f12cc1dcd5509f0bc9697d3d28316b3638fda78c2",
+      "target_table": "measure_provisions",
+      "target_field": "geography",
+      "value": "Town of Peru",
+      "assertion_context": "proposed",
+      "exact_quote_spans": [
+        [
+          977,
+          1018
+        ]
+      ],
+      "field_schema_errors": [],
+      "review_flags": [
+        "proposal_only"
+      ],
+      "review_status": "unreviewed",
+      "accepted": false
+    },
+    {
+      "candidate_id": "5d77625d5016c76e0b591a61d937f3dd2f4cf1dfaeb9c907d1824ee06d3910b1",
+      "target_table": "measure_provisions",
+      "target_field": "exemptions",
+      "value": "Routine upgrades to existing telecommunication facilities.",
+      "assertion_context": "proposed",
+      "exact_quote_spans": [
+        [
+          1035,
+          1146
+        ]
+      ],
+      "field_schema_errors": [
+        "'Routine upgrades to existing telecommunication facilities.' is not of type 'array'"
+      ],
+      "review_flags": [
+        "field_schema_invalid",
+        "proposal_only"
+      ],
+      "review_status": "unreviewed",
+      "accepted": false
+    },
+    {
+      "candidate_id": "60be54a2d22edff965d5229c319aba430e90fd25505dd0d9254bc3c75f9e6bd6",
+      "target_table": "measure_provisions",
+      "target_field": "duration",
+      "value": {
+        "anchor": "effective_date",
+        "anchor_date": null,
+        "original_text": "This moratorium shall take effect immediately upon\npassage. Unless repealed, extended, or replaced by subsequent legislative action. This\nmoratorium shall automatically expire 180 days from the effective date.",
+        "unit": "days",
+        "value": 180
+      },
+      "assertion_context": "proposed",
+      "exact_quote_spans": [
+        [
+          1182,
+          1391
+        ]
+      ],
+      "field_schema_errors": [],
+      "review_flags": [
+        "proposal_only"
+      ],
+      "review_status": "unreviewed",
+      "accepted": false
+    },
+    {
+      "candidate_id": "9bcdd4b5d12ad6386a2d507470d3ce6f12fcd24284a4926d7127e0b1f126f519",
+      "target_table": "measure_provisions",
+      "target_field": "implementation_requirements",
+      "value": "Takes effect immediately upon passage; expires 180 days from the effective date unless repealed, extended, or replaced by subsequent legislative action.",
+      "assertion_context": "proposed",
+      "exact_quote_spans": [
+        [
+          1182,
+          1391
+        ]
+      ],
+      "field_schema_errors": [],
+      "review_flags": [
+        "proposal_only"
+      ],
+      "review_status": "unreviewed",
+      "accepted": false
+    }
+  ],
+  "unresolved_fields": [
+    "Election date, results, reporting and certification status.",
+    "Handwritten date and signatories.",
+    "Whether a ballot measure or election was involved; ballot designation, placement method, voter wording and yes direction.",
+    "Whether or when the proposal passed; actual effective and expiration dates; current legal force."
+  ],
+  "paid_backend_calls": 1,
+  "estimated_cost_usd": 0.045502,
+  "replay_additional_calls": 0,
+  "private_workspace": "/data0/moratorium-refresh-2026/full-document-pilot/peru-proposal-domain-v1",
+  "candidate_output_sha256": "9f2fa0ace829af5950b1a410b3c931629c2b1fd9909774040b577823ba9f9a8b",
+  "domain_review_complete": false,
+  "canonical_records_written": 0,
+  "calibration_findings": [
+    "Three of eight candidates fail canonical field schemas: covered_uses and exemptions returned as strings, mechanism returned as prose.",
+    "Invalid candidates retained for review; no coercion, promotion or silent repair.",
+    "Refine provider-facing field/value types before a second bounded calibration run."
+  ],
+  "bc_modules_revision": "f6187344c697334dbca3f037fd0a670a995f59c8",
+  "bc_modules_dirty": false,
+  "source_ocr_limitations": [
+    "Complete one-page OCR supplied, with printed clauses visually reviewed.",
+    "Handwritten date/signatures contain errors and are not accepted as dates/identities."
+  ]
+}

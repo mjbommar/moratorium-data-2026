@@ -63,6 +63,7 @@ Exit: read-only dry-run and bounded acquisition produce auditable plans and atte
 - [ ] Record all chunk coverage, extraction ceilings, failures and resumable status.
 - [x] Add and test a resumable wrapper around actual bc-evidence `extract_document()` with pinned contexts, per-chunk coverage, durable call reservations and validated caches (`scripts/extract_document_resumable.py`). Dollar controls and a real pilot are recorded below; domain-typed extraction remains open.
 - [x] Add durable dollar reservations/settlement with persistent stops for unpriced or over-reservation results; run a real one-page Peru proposal extraction and cached replay (five located claims, one backend call; `work/research/2026-11-05/full-document-peru-pilot/`). Domain-typed extraction and broader cohorts remain open.
+- [x] Implement field-specific electoral/proposal extraction transport and review-only candidate validation; calibrate two actual Peru model passes, reject invalid field shapes and withhold inferred voter polarity without ballot wording (`work/research/2026-11-05/domain-peru-pilot/`). Broader document/result cohorts, restriction/event adapters and substantive acceptance remain open.
 - [ ] Preserve exact quotes, offsets, date/value support and raw-versus-text hashes.
 - [ ] Build review packets for identity, wording, vote totals, polarity, bindingness and legal effect separately.
 - [ ] Group syndication/common upstream result feeds before assessing independent support.

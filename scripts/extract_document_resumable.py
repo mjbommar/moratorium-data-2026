@@ -41,7 +41,8 @@ def save(path, value):
 
 
 async def run(directory, doc, cells, *, backend, model_identity, question, today,
-              max_calls, role='extractor', max_chunks=None, budget_policy=None):
+              max_calls, role='extractor', max_chunks=None, budget_policy=None,
+              chunk_output_type=None):
     """Run actual bc-evidence map/reduce with cached typed calls and coverage.
 
     ``model_identity`` must include the resolved provider/model/settings, not just
@@ -73,11 +74,14 @@ async def run(directory, doc, cells, *, backend, model_identity, question, today
         if budget_policy['reservation_usd'] > budget_policy['max_usd']:
             raise ValueError('Per-call reservation exceeds run budget')
     source = Path(extractor.__file__)
+    if chunk_output_type is not None and not issubclass(chunk_output_type, extractor.ChunkExtraction):
+        raise ValueError('Domain output must extend bc-evidence ChunkExtraction')
     prompt_files = sorted((source.parent / 'prompts').glob('extract*'))
     context = dict(document=doc, cells=cells, model_identity=model_identity,
                    question=question, today=today.isoformat(), role=role,
                    max_calls=max_calls, max_chunks=max_chunks,
                    budget_policy=budget_policy,
+                   chunk_schema=chunk_output_type.model_json_schema() if chunk_output_type else None,
                    adapter_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                    chunker_sha256=hashlib.sha256(Path(inspect.getfile(chunk_text)).read_bytes()).hexdigest(),
                    extractor_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
@@ -123,6 +127,8 @@ async def run(directory, doc, cells, *, backend, model_identity, question, today
 
         class CachedBackend:
             async def generate(self, **kwargs):
+                if chunk_output_type is not None and kwargs['stage'] == 'extract':
+                    kwargs = {**kwargs, 'output_type': chunk_output_type}
                 output_type = kwargs['output_type']
                 request = {k: v for k, v in kwargs.items() if k != 'output_type'}
                 request['schema'] = output_type.model_json_schema()

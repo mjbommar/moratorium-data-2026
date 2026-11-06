@@ -1,0 +1,25 @@
+{
+  "as_of": "2026-11-05",
+  "scope": "Domain transport and review contracts, with live Peru calibration receipts separately linked",
+  "command": "/home/mjbommar/projects/bc/bc-modules/.venv/bin/python -m unittest discover -s tests",
+  "exit_code": 0,
+  "tests_passed": 134,
+  "domain_tests": 11,
+  "source_hashes": {
+    "scripts/extract_document_resumable.py": "693710f68e296ae9488193097797ff0b9f5fd20b22bd40d49c48043574fdc1b0",
+    "scripts/extract_domain_candidates.py": "a16c59cb8609faa15b3ea61c14a2ee1b7a88e0317d91031a2b0b3e180ffd2cdc",
+    "tests/test_domain_extraction.py": "ab2875252e467f755ab3ee36ef73130c589728107a1ae954a2d7762c86f8f715",
+    "work/schemas/extraction/1.0.0.json": "5541fe0adf35d9ffc309422cbc25ae364e8c74434b10f149ea303eb576552e9a"
+  },
+  "live_runs": [
+    "work/research/2026-11-05/domain-peru-pilot/v1-calibration.json",
+    "work/research/2026-11-05/domain-peru-pilot/v2-calibration.json"
+  ],
+  "source_review": "work/research/2026-11-05/domain-peru-pilot/review.json",
+  "canonical_records_written": 0,
+  "limitations": [
+    "Contract tests do not establish model factual accuracy.",
+    "Actual calibration exposed invalid field shapes and an unsupported voter-polarity inference; neither was promoted.",
+    "Full extraction and legal review across the complete inventory remain open."
+  ]
+}
