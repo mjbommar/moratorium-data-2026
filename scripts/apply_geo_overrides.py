@@ -34,6 +34,20 @@ INV = REPO / "data" / "moratorium_inventory.csv"
 
 # moratorium_id -> override
 OVERRIDES: dict[str, dict] = {
+    "oh-perry-undated": {
+        "latitude": "41.763674",
+        "longitude": "-81.143013",
+        "why": (
+            "The reviewed Ordinance 2026-13 belongs to Perry village in Lake County, "
+            "as independently confirmed by https://perryvillageohio.com/. The 2025 "
+            "Census Ohio Gazetteer identifies Perry village GEOID 3961882 and this "
+            "internal point (not a geometric centroid or legal boundary): "
+            "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_39.txt. "
+            "Corrects the prior 39.637029,-82.204437 wrong-location result; distinct "
+            "from North Perry village, Perry Heights CDP and Perry Township. "
+            "Primary review: work/research/2026-11-06/perry-geography-review/."
+        ),
+    },
     "mi-caledonia-township-undated": {
         "latitude": "42.812169",
         "longitude": "-85.487564",

@@ -50,6 +50,16 @@ measures. No further broad discovery is needed to describe this cohort honestly.
 
 The [disposition ledger](../work/audit/ballot-release-dispositions-2026-11-06.json) pins each review packet and next evidence requirement. These gaps do not establish current legal force or a complete national ballot census.
 
+### Perry village geography correction
+
+The November 6 geography review corrected `oh-perry-undated` from an unrelated
+point to the Census Bureau’s 2025 internal point for Perry village, Lake County,
+Ohio (GEOID 3961882). The official village site independently confirms the county.
+Only latitude/longitude and the corresponding map feature changed; legal status,
+source dates, endpoints and headline counts did not. A declared override prevents
+regression. This representative point is not a parcel location or boundary and
+does not establish project applicability. See the [primary review](../work/research/2026-11-06/perry-geography-review/README.md).
+
 ### November discovery and search limits
 
 All 50 state-discovery jobs have returned. Their sector labels and answer schemas

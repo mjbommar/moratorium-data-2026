@@ -1,0 +1,58 @@
+{
+  "moratorium_id": "oh-perry-undated",
+  "census_record": {
+    "USPS": "OH",
+    "GEOID": "3961882",
+    "GEOIDFQ": "1600000US3961882",
+    "ANSICODE": "01086431",
+    "NAME": "Perry village",
+    "LSAD": "47",
+    "FUNCSTAT": "A",
+    "ALAND": "5878815",
+    "AWATER": "0",
+    "ALAND_SQMI": "2.27",
+    "AWATER_SQMI": "0.",
+    "INTPTLAT": "41.763674",
+    "INTPTLONG": "-81.143013"
+  },
+  "sources": [
+    {
+      "attempt_id": "0dc6e5ab84a74907b9000e1ee29b998c",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_39.txt",
+      "final_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_39.txt",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "16e26fd4318ca79918ab0445d494840eaa5fe8540c3f8ba79437ae4ebfec0c17",
+      "text_sha256": "16e26fd4318ca79918ab0445d494840eaa5fe8540c3f8ba79437ae4ebfec0c17"
+    },
+    {
+      "attempt_id": "8f39e3dfc75e45dbb0b66822edba8df0",
+      "url": "https://perryvillageohio.com/",
+      "final_url": "https://perryvillageohio.com/",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "0374c49b314d0133d1268355681f4523dcf0fa7104a3bc980e0e579a71ae4100",
+      "text_sha256": "02c7ac2f294dc379d81687e319e404585025c626e54a92c9bb5cf686b0a19c98"
+    }
+  ],
+  "quote": "OH|3961882|1600000US3961882|01086431|Perry village|47|A|5878815|0|2.27|0.|41.763674|-81.143013",
+  "inventory_before_sha256": "5e426b46072a44b008391e4931ba8679602543cd73478fdfe77c1ec70b3944b2",
+  "scope": "Coordinate correction only; not current legal force, project applicability or changed instrument identity.",
+  "apply_receipt": "work/audit/apply-20261106T081729.json",
+  "changed_fields": {
+    "oh-perry-undated": [
+      "latitude",
+      "longitude"
+    ]
+  },
+  "all_other_rows_preserved": true,
+  "inventory_after_sha256": "b96ad81cfdd2ff222be12a6d638e90329b6eda18ea1d130675c12f128ae2511b",
+  "geojson_check": {
+    "only_changed_feature": "oh-perry-undated",
+    "coordinates": [
+      -81.143013,
+      41.763674
+    ],
+    "all_other_features_preserved": true
+  }
+}

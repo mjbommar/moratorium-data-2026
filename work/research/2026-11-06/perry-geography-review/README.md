@@ -1,0 +1,5 @@
+# Perry village geography correction
+
+The official village homepage identifies Lake County. The U.S. Census Bureau 2025 Ohio Gazetteer uniquely identifies Perry village, GEOID 3961882 / ANSI01086431, with internal point 41.763674,-81.143013. North Perry village and Perry Heights CDP are distinct entries. The legacy inventory’s prior39.637029,-82.204437 point was not this village.
+
+Two coordinate fields were corrected through expected-prior-value application, with no other row, stable ID, status, date, count or legal-force change. The declared override prevents a later automated geocode from restoring the bad point. This is a Census internal representative point, not a computed geometric centroid, parcel location, jurisdiction polygon or proof of project/legal applicability. Primary versions were retained through bounded bc-web; Exa supplied contextual leads but no coordinate authority. Full build/check passed with zero errors and 282 warnings; all 49 checked numbers match. Source/archive/quote and row/feature preservation checks pass.

@@ -1,0 +1,42 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-11-06",
+  "researcher": "Coordinator official Census and village geography review",
+  "decisions": [
+    {
+      "moratorium_id": "oh-perry-undated",
+      "outcome": "corrected",
+      "confidence": 0.99,
+      "evidence": [
+        {
+          "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_39.txt",
+          "source_type": "other",
+          "publisher": "U.S. Census Bureau",
+          "supports": "2025 Ohio Gazetteer Perry village GEOID3961882 internal point; distinct from North Perry village and Perry Heights CDP. Representative point, not parcel boundary or applicability.",
+          "quote": "OH|3961882|1600000US3961882|01086431|Perry village|47|A|5878815|0|2.27|0.|41.763674|-81.143013"
+        },
+        {
+          "url": "https://perryvillageohio.com/",
+          "source_type": "other",
+          "publisher": "Village of Perry, Ohio",
+          "supports": "Official village website identifies Lake County, consistent with reviewed Ordinance2026-13 jurisdiction.",
+          "quote": "The Village of Perry Ohio is located in Lake County Ohio"
+        }
+      ],
+      "notes": "Coordinates only. Census internal representative point, not a computed geometric centroid or applicability boundary. Legal classification, dates and endpoints unchanged.",
+      "changes": {
+        "latitude": {
+          "from": "39.637029",
+          "to": "41.763674",
+          "reason": "Official village identifies LakeCounty; Census2025Perry village GEOID3961882 provides internal point, correcting prior wrong-location geocode."
+        },
+        "longitude": {
+          "from": "-82.204437",
+          "to": "-81.143013",
+          "reason": "Official village identifies LakeCounty; Census2025Perry village GEOID3961882 provides internal point, correcting prior wrong-location geocode."
+        }
+      }
+    }
+  ],
+  "new_candidates": []
+}

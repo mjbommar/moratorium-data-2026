@@ -1,0 +1,30 @@
+{
+  "applied_at": "20261106T081729",
+  "answer_files": [
+    "work/research/2026-11-06/perry-geography-review/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 1,
+    "fields_changed": 2
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "oh-perry-undated",
+      "column": "latitude",
+      "before": "39.637029",
+      "after": "41.763674",
+      "reason": "Official village identifies LakeCounty; Census2025Perry village GEOID3961882 provides internal point, correcting prior wrong-location geocode.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-perry-undated",
+      "column": "longitude",
+      "before": "-82.204437",
+      "after": "-81.143013",
+      "reason": "Official village identifies LakeCounty; Census2025Perry village GEOID3961882 provides internal point, correcting prior wrong-location geocode.",
+      "source": "answers.json"
+    }
+  ]
+}
