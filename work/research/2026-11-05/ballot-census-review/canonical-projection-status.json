@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-05",
   "reviewer": "coordinator",
-  "canonical_snapshot": "8647bfbfc9114b6856905b8f891b936d50481100af7de4c203e06fb29e97aafe",
+  "canonical_snapshot": "bd20cc6c7c76e624f517cc3c181729a5f2d6e11d7e607775957f25d77654113a",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 8,
-    "groups_pending_candidate_review": 48
+    "groups_with_scoped_canonical_publication": 9,
+    "groups_pending_candidate_review": 47
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -708,9 +708,11 @@
           "staged_measure_id": "recovery-ballot-me-001::lead-4f9cd7773e0da533307f"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "beabeb87-13d4-4453-893e-bf8939c3ade7",
+      "publication_plan": "work/research/2026-11-05/brownfield-promotion/publication-plan.json",
+      "publication_plan_sha256": "3a243eec88e6593445a9665b9a8acd6d3ce0c558adb6919926f8dbd78a5211a9",
+      "canonical_record_sha256": "adee9ecfdf815c72db78d30bd6c49f62f7227b4258cc78cdacba5f527c3bc31c"
     },
     {
       "logical_group_id": "lead-6a5d96ef247af22d389d",

@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Brownfield adds a ninth reviewed expanded measure with 671 yes / 191 no and a separate 862 ballots-counted source total. The proposed 5,000-square-foot definition, literal less-than power wording and September 16 duration anchor remain explicit without resolving legal application. Certification/outcome/current force remain unknown; legacy counts are unchanged.
+
 Native JPEG visual evidence now pins original bytes, stored dimensions and EXIF orientation with strict decoding. Real Brownfield/Freedom tallies pass the evidence audit, including Freedom’s unmapped source category and total. This verification increment changes no canonical measure, certification or legacy count.
 
 Expanded result contracts now preserve original source vote categories and scoped totals separately from standard counts and denominators. Exact result/source/claim matching is required. Freedom’s VOIDS category and circled total pass a private candidate exercise; canonical data remains unchanged by this schema increment.

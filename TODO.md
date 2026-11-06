@@ -86,6 +86,7 @@ Exit: read-only dry-run and bounded acquisition produce auditable plans and atte
 - [x] Recover Freedom’s source-qualified Article 3 tally photograph, preserving 24 VOIDS and 470 source total; correct tracker-count versus news-approval provenance (`maine-remaining-ballot-review/freedom-recovery-review.json`).
 - [x] Add evidence-scoped source vote categories/totals without automatic mapping or denominator inference; exercise Freedom VOIDS24/circled470 and separate public summary rendering.
 - [x] Support strict original-JPEG visual evidence with EXIF orientation and stored dimensions; exercise Brownfield/Freedom counts and Freedom source categories through the evidence audit (`maine-native-jpeg-review/`).
+- [x] Publish Brownfield’s Article 1 question, proposed terms and original-JPEG tally, retaining its scoped source total and unresolved power-clause interpretation; reconcile nine published / 47 pending groups (`brownfield-promotion/`).
 - [ ] Complete broader promotion/recovery calibration and the remaining ballot identity/fact reviews; the initial Eliot batch does not close P3.
 - [ ] Extend evidence archive/publication gates to new records and source payload types.
 - [ ] Add behavioral regression checks from plan section 11 (initial subset includes offline publication/receipt drift, historical identity baselines and portable-pointer checks; full gate coverage pending).

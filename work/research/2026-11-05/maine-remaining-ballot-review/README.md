@@ -121,3 +121,8 @@ implements and tests original-byte/dimension/orientation verification for the
 Brownfield and Freedom images, including Freedom's source-category claims.
 That implementation gap is closed. This does not publish either measure,
 authenticate Freedom's account affiliation or resolve operative legal histories.
+
+The subsequent [Brownfield promotion packet](../brownfield-promotion/README.md)
+records scoped publication of its question, proposed terms and town tally.
+Certification and operative legal interpretation remain unresolved. Freedom's
+canonical promotion remains pending.

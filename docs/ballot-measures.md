@@ -109,6 +109,18 @@ voter enactment or an operative interval.
 [pre-election proposal notice](https://townofperumaine.org/temporary-moratorium-of-the-development-and-permitting-of-data-centers-to-be-on-the-november-2026-ballot/),
 [proposed ordinance](https://townofperumaine.org/wp-content/uploads/2026/09/Temporary-Moratorium-of-the-Development-and-Permitting-of-Data-Centers.pdf).
 
+Brownfield's November 3 warrant Article 1 asks approval of a temporary moratorium;
+the town tally labels it Question 1 and shows 671 yes / 191 no. Its separate
+862 ballots-counted declaration is preserved with its source label and scope,
+without assigning a ballots-cast denominator. Certification and blanks remain
+unknown. Proposed text uses at least 5,000 square feet aggregate defined area
+and literal less-than 250 kW computing / less-than 1 MW service wording, whose
+legal application remains unresolved. The proposed 180 days run from September
+16 applicability, distinct from Town Meeting adoption/effectiveness.
+[Official Brownfield warrant](https://brownfieldme.civicpluswebopen.com/media/6711),
+[tally](https://www.brownfieldmaine.gov/DocumentCenter/View/1000/Referendum-Results),
+[proposed ordinance](https://brownfieldme.civicpluswebopen.com/media/6701).
+
 No current legal-force restriction, instrument event or measure/instrument link has
 been accepted in these initial cohorts, and their publication does not add active
 legacy moratorium rows. Other jurisdictions, earlier and future elections, legal

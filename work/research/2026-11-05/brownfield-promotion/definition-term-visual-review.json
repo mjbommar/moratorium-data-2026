@@ -1,0 +1,61 @@
+{
+  "job_id": "recovery-ballot-me-001",
+  "claim_id": "ad530915-6c29-48af-9b68-b724f310d533",
+  "claim_sha256": "9940a59a6833c2e47bb357eb1662bca9b7da46df3c0792eaab8c48ad3a8b5f80",
+  "source_document_id": "b587efe7-e610-4165-b50f-3348e07181b3",
+  "source_body_sha256": "c30d66fdfbbe67d6afdea9f1f5437cd46000adb5b30fdf803b0c94bf0afc3ec5",
+  "render_sha256": "c39978a4740d7f3472011a6944a905af38550360dd2fe462a08a17b4c85644a2",
+  "pdf_page": 3,
+  "render_parameters": {
+    "renderer": "pdftoppm",
+    "page": 3,
+    "dpi": 145
+  },
+  "reviewer": "coordinator",
+  "reviewed_at": "2026-11-06T02:49:11.718498+00:00",
+  "disposition": "accepted_visual_values",
+  "values": {
+    "thresholds": [
+      {
+        "operator": "ge",
+        "value": 5000,
+        "unit": "square feet",
+        "measurement_basis": "Aggregate defined Data Center Area including computing/infrastructure floor space, cooling/maintenance corridors and associated impervious surfaces",
+        "aggregation_rule": "aggregate area",
+        "scope": "proposed definition"
+      },
+      {
+        "operator": "lt",
+        "value": 250,
+        "unit": "kW",
+        "measurement_basis": "computing power limit; unusual text",
+        "aggregation_rule": null,
+        "scope": "Literal draft definition wording; application/legal interpretation unresolved"
+      },
+      {
+        "operator": "lt",
+        "value": 1,
+        "unit": "MW",
+        "measurement_basis": "total electrical service; unusual text",
+        "aggregation_rule": null,
+        "scope": "Literal draft definition wording; application/legal interpretation unresolved"
+      }
+    ],
+    "duration": {
+      "value": 180,
+      "unit": "days",
+      "anchor": "applicability_date",
+      "anchor_date": {
+        "earliest": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day",
+        "original_text": "September 16, 2026"
+      },
+      "original_text": "180 days"
+    },
+    "geography": "Brownfield town",
+    "mechanism": "temporary_permitting_pause"
+  },
+  "locator": "Official warrant/proposed ordinance page3",
+  "scope": "Source observations and proposed terms only; names/attestation do not establish dated certification or operative legal force."
+}
