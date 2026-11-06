@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Milwaukee’s pending proposal is updated to File 251924 Substitute 2, passed October 13 (13-0), signed October 14, published October 16 and effective October 17. Final text prohibits new data centers/enlargement, excepts planned development districts, and uses the lesser of one year after passage or zoning-code regulation. The retained linked zoning file does not record passage; exhaustive later-force and project-applicability review remain open.
+
 All 333 distributed gpt-6.1-terra jobs are terminal, with zero queued/running jobs. The fresh mechanical audit accounts for returns covering 1,283 assigned local and 434 assigned state-policy records, including 782 and 65 unresolved outcomes respectively. Historical apply receipts cover 430 local IDs and six policy IDs; these counts are edits, not completed freshness reviews. Ballot census, full evidence extraction, current-force review and publication remain open.
 
 Door County’s May 26 minutes, included in the June 23 packet, establish a carried vote and up-to-twelve-month term. Greenville’s reproduced text provides twelve months or earlier effective regulations; final execution/publication remains unresolved, so actual term classification is unknown. Unsupported fixed-day encodings are cleared without inferring later extensions or current force.
@@ -217,10 +219,10 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1293** |
-| In force (active or extended) | **1070** |
-| Pending or not yet effective | **68** |
+| In force (active or extended) | **1071** |
+| Pending or not yet effective | **67** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **654** |
+| Rows we still want to confirm (`[VERIFY]`) | **655** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

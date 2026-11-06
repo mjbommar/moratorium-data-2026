@@ -3,7 +3,7 @@
 
 Working inventory for Wisconsin, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**40 instruments** — 38 in force, 2 pending, 0 past.
+**40 instruments** — 39 in force, 1 pending, 0 past.
 
 State policy is tracked separately: **7 actions** (7 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -31,7 +31,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 | Manitowoc County | County | 2026-04-28 | data center | 🟢 Active |
 | Marathon County | County | 2026-08-25 | data center | 🟢 Active |
 | Middleton | City | 2026-06-16 | data center | 🟢 Active |
-| Milwaukee | City | Unverified | data center | 🟡 Pending |
+| Milwaukee | City | 2026-10-13 | data center | 🟢 Active |
 | Monroe County | County | 2026-07-21 | data center, battery storage | 🟢 Active |
 | Oneida County | County | 2026-08-18 | data center | 🟢 Active |
 | Oshkosh | City | 2026-09-08 | data center | 🟢 Active |
@@ -407,18 +407,18 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 ### Milwaukee
 
 - **Type:** City
-- **Status:** 🟡 Pending
-- **Date enacted:** —
-- **Normalized date:** `—` (unverified)
-- **Duration:** Proposed one year
+- **Status:** 🟢 Active
+- **Date enacted:** October 13, 2026 (Common Council passage; effective October 17, 2026)
+- **Normalized date:** `2026-10-13` (exact)
+- **Duration:** Lesser of one year after passage or until the zoning code is amended to regulate data centers
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-milwaukee-undated`
-- **Legal basis:** Proposed Milwaukee Common Council ordinance imposing a one-year data center moratorium, sponsored by Alderwoman Marina Dimitrijevic with Alex Brower, Russell W. Stamper II, and Robert Bauman; endorsed by the Zoning Code Technical Committee August 10, 2026
+- **Legal basis:** Milwaukee Common Council File 251924, Substitute 2, passed October 13, 2026; signed October 14 and published October 16.
 - **What prompted it:** Milwaukee's zoning code does not currently treat data centers as a distinct land use; sponsor wants rules in place before a major data center proposal is submitted, following controversy over a since-withdrawn data center component of a Midtown Center Walmart-site redevelopment.
 - **Affected projects:** A 19,000-square-foot "computer research facility" that opponents characterized as a data center was initially part of a proposed Midtown Center (former Walmart site) redevelopment; the developer later removed it from the plan.
-- **Detailed status:** Pending as of 2026-09-23. The City Plan Commission is scheduled to hold its hearing and make a recommendation on September 28, 2026; the proposal still requires Common Council approval before taking effect. If adopted, the moratorium would bar city departments/boards/commissions from accepting or processing most new data center applications for one year after passage or until the zoning code is amended to specifically regulate data centers, whichever is first, with an exception for planned-development-district properties and a proposed (contested) tribal-land exemption for the Forest County Potawatomi Community.
-- **Outcome:** Zoning Code Technical Committee endorsed the proposed one-year data center moratorium (Aug. 10, 2026); City Plan Commission hearing scheduled Sept. 28, 2026; Common Council vote still required.
+- **Detailed status:** Official File 251924 Substitute 2 records October 13 passage 13-0, October 14 mayor signature, October 16 publication and October 17 effectiveness. Final text prohibits new data centers/enlargement, exempts planned development districts, excludes accessory server facilities from its definition, and lasts the lesser of one year after passage or effective zoning-code regulation. The retained File 260142 record shows no passage, but complete later-action/current-force and project-applicability review remains unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** Common Council passed Substitute 2 on October 13, 2026, 13-0.
 
 ### Monroe County
 
