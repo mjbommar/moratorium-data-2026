@@ -1,0 +1,106 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "reviewer": "coordinator",
+  "worker_job": "ballot-nh-001",
+  "seed_id": "bp-a88984ba1d631380",
+  "sources": [
+    {
+      "attempt_id": "0086ad1306a744b5b1a4c6fee3e658b1",
+      "url": "https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/news/2026_nottingham_special_town_election_results.pdf",
+      "body_sha256": "f1c1bed1630997e84ed738982ea71364a32d72c205815e1d0605cc87f948209c",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "attempt_id": "dbb9b64f3b8548ae8715f945ee0b80aa",
+      "url": "https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/news/nottingham_temporary_moratorium_on_data_centers_ordinance_final_signed.pdf",
+      "body_sha256": "6a68684c195468a9af053675799e98393cdcb70efdf63ddc242138ff1df02b10",
+      "native_text_sha256": "29dfd8462a2cab4133a294ea7497c32bc42c1236c289f05cfb4b86b2a46d1be3"
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "0086ad1306a744b5b1a4c6fee3e658b1",
+      "page": 1,
+      "render_sha256": "51f64bd336cbbd624112cc01a02385a7e3bc11dd99d713c3c499a6ae3419f581",
+      "render_artifact": "/data0/moratorium-refresh-2026/nottingham-review/nottingham-results-page-1.private.png",
+      "render_parameters": {
+        "renderer": "worker-retained image",
+        "page": 1,
+        "dpi": null
+      },
+      "finding": "Marked SAMPLE BALLOT; special town election Nottingham New Hampshire September 8 2026; twelve-month ballot question; handwritten yes 1335/no 143; Planning Board approval notation 5-0-0. No dated result certification."
+    },
+    {
+      "attempt_id": "dbb9b64f3b8548ae8715f945ee0b80aa",
+      "page": 2,
+      "render_sha256": "01d0f7a07642e8b548e69b5aca721da53ea541d7a16f8d0a1f04daa5d4efa86c",
+      "render_artifact": "/data0/moratorium-refresh-2026/nottingham-review/nottingham-proposal-2.png",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 140
+      },
+      "finding": "Definition exclusion requires all three embedded/accessory conditions: at most 25 percent floor area, serves on-site owner enterprise and not primarily third-party services, no third-party data-service leasing. Separate telecommunications-provider exclusion. Permitting pause covers enumerated approvals in all zoning districts."
+    },
+    {
+      "attempt_id": "dbb9b64f3b8548ae8715f945ee0b80aa",
+      "page": 3,
+      "render_sha256": "604d36c3d554659ec50ef1c1e28665b1352c27666e9d98571a1e91c7ef26dd4a",
+      "render_artifact": "/data0/moratorium-refresh-2026/nottingham-review/nottingham-proposal-3.png",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 140
+      },
+      "finding": "Scope principal/accessory uses; twelve months from adoption unless legislative body repeals earlier; effective upon legislative-body adoption. No adoption date supplied on this page."
+    },
+    {
+      "attempt_id": "dbb9b64f3b8548ae8715f945ee0b80aa",
+      "page": 7,
+      "render_sha256": "4cda5c671a73a2bee3864e03a69433dca418c6aa317a9b656ece300a82271d9f",
+      "render_artifact": "/data0/moratorium-refresh-2026/nottingham-review/nottingham-proposal-7.png",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 7,
+        "dpi": 140
+      },
+      "finding": "Planning Board Vote July 1 2026 lists five in favor, none opposed, none abstained; signature lines include board chair and members/alternates. Not an election certification or voter-adoption execution block."
+    }
+  ],
+  "located_evidence": [
+    {
+      "attempt_id": "dbb9b64f3b8548ae8715f945ee0b80aa",
+      "quote": "This moratorium shall remain in effect for a period of twelve (12) months from the date of\n\nadoption, unless repealed earlier by the legislative body.",
+      "span": "utf8-text-codepoints:3060:3210"
+    }
+  ],
+  "accepted_source_observations": {
+    "election_date": "2026-09-08",
+    "yes_votes": 1335,
+    "no_votes": 143,
+    "yes_no_sum": 1478,
+    "yes_no_sum_is_turnout": false,
+    "proposed_duration": {
+      "value": 12,
+      "unit": "calendar_months",
+      "anchor": "adoption",
+      "earlier_end": "legislative-body repeal"
+    },
+    "planning_board_vote_date": "2026-07-01",
+    "planning_board_vote": {
+      "in_favor": 5,
+      "opposed": 0,
+      "abstained": 0
+    }
+  },
+  "unresolved": [
+    "formal referral and bindingness legal review",
+    "dated election certification",
+    "passage rule and independently calculated outcome",
+    "total ballots, blanks, invalid votes and turnout",
+    "voter-adoption execution and operative interval",
+    "later amendments or repeal",
+    "legacy instrument linkage and full current legal-force history"
+  ],
+  "scope": "Official source review, not canonical promotion or full bc-evidence extraction. Native proposal text has reading-order defects; clauses were checked visually."
+}
