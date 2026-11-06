@@ -267,9 +267,9 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Source-body availability checkpoint
 
-The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-nm-mt-or-2026-11-06.json)
-covers 6,501 manifest entries, with hash-matching bodies available through listed
-paths for 3,058 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-wa-review-2026-11-06.json)
+covers 6,504 manifest entries, with hash-matching bodies available through listed
+paths for 3,061 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.
@@ -376,3 +376,7 @@ For any specific row you want to use in a publication, **always read the `verify
 ## Illinois source-stage and sector distinctions
 
 The [Illinois action review](../work/research/2026-11-06/illinois-action-review/README.md) recovers Fulton County’s September 8, 2026 full-board approval (14–0) of a six-month data-center/commercial-crypto extension. Exact operative anchors, original ordinance and subsequent actions remain unresolved; the board date is not an inferred extension start. Tilton’s approved September 18, 2025 minutes identify O2025-0918A and a 3–2 commercial-solar vote, with June 1, 2026 expiry stated in discussion. The secondary report’s wind coverage and six-month term are not accepted. Operative ordinance text and later actions remain needed. Edgar’s accessible 2023 news opening describes lifting an older pause but does not recover its original instrument. No canonical records or headline counts change from these scoped dispositions.
+
+## Washington work plans and utility authority
+
+The [Washington notice review](../work/research/2026-11-06/washington-discovery-review/README.md) distinguishes Millwood’s January 2027 extension hearing in a work plan from an adopted extension, and Winlock’s published ordinance summary from full operative text. A retained three-page Chelan PUD confirming-resolution text has a blank number and unsigned execution lines; it recites a March 2018 electric-service motion but does not establish ratification. Its utility-service authority is distinct from the City of Chelan’s land-use ordinance. These scoped reviews do not change inventory or ballot counts.

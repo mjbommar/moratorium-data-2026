@@ -1,0 +1,95 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "canonical_changes": 0,
+  "inventory_sha256": "ac171e96f6261c7f0a2f00bb69576f20b909f6504ddcd68a3003f43a9d274a86",
+  "candidates": [
+    {
+      "candidate_key": "discovery-wa:0",
+      "candidate_sha256": "83fda6960b789854e04dcb2c55a43f3f2ff213e19925eb33bb258520e6aec43a",
+      "worker_review_sha256": "c856748141315b442af8c4e5a6b2eaf6014f2d95e2b9f23222aced0266e05bc0",
+      "coordinator_disposition": "held_original_operative_dates_and_planned_extension",
+      "rationale": "The complete city page posted October 29, 2026 reports July enactment of six-month Ordinance 559 and an August 25 work-plan hearing. January 12, 2027 extension hearing appears in a work plan and is not an adopted extension. Full operative ordinance, exact adoption/effectiveness and later actions remain unresolved; no six-month endpoint or preaccepted extension is inferred.",
+      "source_checks": [
+        {
+          "attempt_id": "1662214fc74e4366aa2b069dc7ed292c",
+          "url": "https://www.millwoodwa.us/planning-building/page/data-center-moratorium",
+          "body_sha256": "a9b4d16e8ad1daf7413c6a6edfa342e0d18341971e33846acbe90db65dbe6354",
+          "text_sha256": "fda531bc7042593df40016b94c652706998934341e26ae72c7af9646dcc89e28",
+          "quote": "In July 2026, the City of Millwood enacted a six (6) month moratorium",
+          "quote_span": [
+            45,
+            114
+          ],
+          "review_method": "Complete retained HTML text read; original body/text hashes and exact located excerpt checked."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-wa:1",
+      "candidate_sha256": "844744a8af004f9e7c1718204d96b5ea0183a9045b21e3eb90b4df6dadd7620b",
+      "worker_review_sha256": "c856748141315b442af8c4e5a6b2eaf6014f2d95e2b9f23222aced0266e05bc0",
+      "coordinator_disposition": "held_full_ordinance_and_later_actions",
+      "rationale": "The published city legal notice reports Ordinance 1202 adopted September 23, 2026, effective immediately, imposing a six-month citywide new/expanded data-center application pause. September 29 is publication; November 9 is a future hearing date at the cutoff, not an extension or second adoption. Full definitions, operative wording, exclusions and later actions remain unreviewed. No full-text or current-force claim accepted from the summary.",
+      "source_checks": [
+        {
+          "attempt_id": "d4a8345535124573aad432a7cc80705f",
+          "url": "https://chronline.com/classifieds/classifieds/138349-ordinance-1202-legal-public-notice-city-of-winlock-public-notice-is-hereby-given-that-the,409062",
+          "body_sha256": "b130ad5a608649db5519815f35a7889540e076fd942da765c6793512a6129673",
+          "text_sha256": "3e3218ce967f7e9fa90da9f5861229887c196e5b682c176e2ffcb1e7dfe111a1",
+          "quote": "the Winlock City Council adopted Ordinance No. 1202 on September 23, 2026",
+          "quote_span": [
+            197,
+            270
+          ],
+          "review_method": "Complete retained HTML text read; original body/text hashes and exact located excerpt checked."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-wa:6",
+      "candidate_sha256": "8a8315c76c0642019399e5e06b094cb5d97bf96441dff2fce222e1817f7de5f4",
+      "worker_review_sha256": "c856748141315b442af8c4e5a6b2eaf6014f2d95e2b9f23222aced0266e05bc0",
+      "coordinator_disposition": "held_utility_motion_and_unsigned_ratification",
+      "rationale": "All three PDF pages inspected. Blank resolution number and president/commissioner/attestation lines establish this is an unexecuted confirming-resolution text, dated April 2, 2018, that recites a March 19 electric-service application motion for crypto loads. Both above-5-MW and at-or-below-5-MW loads appear, with paid/approved-application exclusions. It is not a land-use act or the City of Chelan Ordinance 2018-1538; do not allocate the URL suffix as a resolution number. Executed motion/ratification and later service policies remain needed.",
+      "source_checks": [
+        {
+          "attempt_id": "b3f17495cd5842cd91109f44fd07342a",
+          "url": "https://mrsc.org/getmedia/652e2bec-a50d-4ec1-8b05-7ef489239f98/s77p8CCPUDr18-14234",
+          "body_sha256": "2d35e4de7ccafb212173af61893bdf837f568358a11df7fff6ad0fd89094c7a6",
+          "text_sha256": "b4376764fc9c7f9619b0ba05482c0cb0d7c30e235b75d548d0861e8c2ea0e7d1",
+          "quote": "Commission passed the following motion during its",
+          "quote_span": [
+            595,
+            644
+          ],
+          "visual_review": {
+            "scope": "Every PDF page directly inspected",
+            "render_command": "pdftoppm -scale-to 1600 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "pages": [
+              {
+                "page": 1,
+                "image_sha256": "35b9d856d30447f2eb428d638d48fe458ef41bdf15fa6525d31a385a14f196b5"
+              },
+              {
+                "page": 2,
+                "image_sha256": "c8d09c57fb9b22e9a03c0011f181b2dd0d6e2207f04792cba9a6d352a2d25b83"
+              },
+              {
+                "page": 3,
+                "image_sha256": "1c2947f235d9e7599cffe027160a51a137c6003e358fdabe6693a8332ff3946a"
+              }
+            ],
+            "blank_fields": [
+              "resolution number",
+              "president signature",
+              "vice president signature",
+              "secretary signature",
+              "commissioner signatures"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
