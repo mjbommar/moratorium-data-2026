@@ -9,3 +9,5 @@ The official Legistar file reports referral Ordinance 2026-O-18 passed August 3.
 Section 13 ties an approved charter amendment’s effect to official result certification unless a later particular date applies. Section 17 makes the referral ordinance effective upon council adoption. These two clocks must not be conflated. No August 3, election-day or current in-force ban is accepted. Proposed subsection(m) also differs from subsection(l) in the legislative staff summary; preserve versions pending final charter text.
 
 All eight claims pass quote/version checks. Raw browser/source text remains private; the archive and verifier pin exact versions. Final ballot, certification, charter filing, actual force history and visual legal-body review remain unresolved.
+
+Visual follow-up: proposal pages 5, 6, 8 and 9 were inspected against 125-DPI renders, confirming the complete Amendment 4 clauses and continuation, majority/repeal rules, certification gate and blank adoption/signature block. `proposal-visual-review.json` pins each render. The Section 8 technical-revision clause and final ballot version still require reconciliation before exact final wording is asserted.
