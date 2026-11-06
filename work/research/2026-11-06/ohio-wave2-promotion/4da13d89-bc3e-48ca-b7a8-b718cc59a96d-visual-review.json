@@ -1,0 +1,41 @@
+{
+  "claim_id": "4da13d89-bc3e-48ca-b7a8-b718cc59a96d",
+  "source_document_id": "a5a858be-4f90-40d7-b324-879c89ffe8b2",
+  "claim_sha256": "99cd7c952f4de98f8414eb878fec3a5d8986e85cf244b458d1b88a47127d6936",
+  "disposition": "accepted_visual_values",
+  "reviewer": "coordinator",
+  "values": {
+    "tests": [
+      {
+        "metric": "project footprint",
+        "comparison": ">=",
+        "value": 50,
+        "unit": "contiguous acres"
+      },
+      {
+        "metric": "peak electrical power draw or designed draw",
+        "comparison": ">",
+        "value": 20,
+        "unit": "MW"
+      },
+      {
+        "metric": "daily water consumption or projected consumption",
+        "comparison": ">",
+        "value": 500000,
+        "unit": "gallons per day"
+      }
+    ],
+    "logic": "One or more alternative tests",
+    "aggregation": "Common ownership/development agreement/operational purpose; contiguous or separated by road/utility corridor/right-of-way; all phases; same/related-entity development within one mile of a prior approval proposed within five years; footprint includes anticipated township annexation land",
+    "scope": "Proposed Section [X].02(A), not an operative threshold or annexation finding."
+  },
+  "source_body_sha256": "8bbe03f439cfa8cebc3d621730805d7ea4d58f0c3910addf2c7e965fbd47d30f",
+  "pdf_page": 3,
+  "render_parameters": {
+    "renderer": "pdftoppm",
+    "page": 3,
+    "dpi": 150
+  },
+  "render_sha256": "76615676d7dde2e98c5f435da5948c98ba2bd0733d9e43f386675f96167b3ab9",
+  "reviewed_at": "2026-11-06T07:11:59.585463+00:00"
+}

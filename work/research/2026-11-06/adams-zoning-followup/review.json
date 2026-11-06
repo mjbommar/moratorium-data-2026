@@ -1,0 +1,226 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "scope": "Targeted plan recovery and Sprigg primary-return correction. No canonical publication, accepted plan/data-center scope or legal force.",
+  "sources": [
+    {
+      "source_document_id": "adams-followup-official-return",
+      "url": "https://www.boe.ohio.gov/adams/c/elecres/20261103results.pdf",
+      "body_sha256": "31fc6b83465f0af7c26f1b4d0d8c90401dea38b5f2c3acfcd6c2e8ee78fc2a4c",
+      "text_sha256": "39f8cdb5069de69885806297838688b581a0428a568fde73e74dcb94ab9bbe72",
+      "retrieved_at": "2026-11-05T17:11:48.381418+00:00",
+      "attempt_id": "65ce9a8cee1a41af9f0063450a9e21f4"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "adams-followup-01",
+      "source_document_id": "adams-followup-official-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f911c9d773a7b0e7"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 330,
+        "no_votes": 297,
+        "source_yes_label": "For the Zoning Resolution",
+        "source_no_label": "Against the Zoning Resolution",
+        "source_total_votes": 627,
+        "source_times_cast": "646 / 1156; 55.88%",
+        "precincts_reporting": 1,
+        "precincts_total": 1,
+        "source_clock": "11/3/2026 11:11:45 PM; timezone unspecified",
+        "scope": "Sprigg Township zoning contest, physical page 12 / printed page 10. Earlier wave2 worker narrative misreported negative votes as397; source says297. Nineteen difference from Times Cast not assigned to blanks/undervotes."
+      },
+      "quote": null,
+      "span": "pdf-page:12"
+    },
+    {
+      "claim_id": "adams-followup-02",
+      "source_document_id": "adams-followup-official-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f911c9d773a7b0e7"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total Votes",
+        "count": 627,
+        "scope": "Township of Sprigg Proposed Zoning Plan"
+      },
+      "quote": null,
+      "span": "pdf-page:12"
+    },
+    {
+      "claim_id": "adams-followup-03",
+      "source_document_id": "adams-followup-official-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f911c9d773a7b0e7"
+      },
+      "predicate": "source_vote_category",
+      "value": {
+        "label": "Unresolved Write-In",
+        "count": 0,
+        "scope": "Township of Sprigg Proposed Zoning Plan"
+      },
+      "quote": null,
+      "span": "pdf-page:12"
+    },
+    {
+      "claim_id": "adams-followup-04",
+      "source_document_id": "adams-followup-official-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f911c9d773a7b0e7"
+      },
+      "predicate": "source_reporting_status",
+      "value": {
+        "report_label": "Unofficial Certification of Results",
+        "certification_status": "unofficial",
+        "signed_date": "2026-11-03",
+        "scope": "Signed cover concerns submitted unofficial results; no final certified canvass/date accepted."
+      },
+      "quote": null,
+      "span": "pdf-page:1"
+    }
+  ],
+  "visual_reviews": {
+    "adams-followup-01": {
+      "claim_id": "adams-followup-01",
+      "source_document_id": "adams-followup-official-return",
+      "claim_sha256": "62cbeaf48b5e27fc07ce425fe989df35120d377e00e2fd211db5a380d9c0c866",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 330,
+        "no_votes": 297,
+        "source_yes_label": "For the Zoning Resolution",
+        "source_no_label": "Against the Zoning Resolution",
+        "source_total_votes": 627,
+        "source_times_cast": "646 / 1156; 55.88%",
+        "precincts_reporting": 1,
+        "precincts_total": 1,
+        "source_clock": "11/3/2026 11:11:45 PM; timezone unspecified",
+        "scope": "Sprigg Township zoning contest, physical page 12 / printed page 10. Earlier wave2 worker narrative misreported negative votes as397; source says297. Nineteen difference from Times Cast not assigned to blanks/undervotes."
+      },
+      "source_body_sha256": "31fc6b83465f0af7c26f1b4d0d8c90401dea38b5f2c3acfcd6c2e8ee78fc2a4c",
+      "pdf_page": 12,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 12,
+        "dpi": 140
+      },
+      "render_sha256": "af51b85a94590dfc0d9aad5cdeb4aa25fee9e33ccc21a8820cd142a2f7e31296"
+    },
+    "adams-followup-02": {
+      "claim_id": "adams-followup-02",
+      "source_document_id": "adams-followup-official-return",
+      "claim_sha256": "174c3120b8a519ce35147a44fc6dd55c9f753a3c965e9291acb17d6dce8754c8",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total Votes",
+        "count": 627,
+        "scope": "Township of Sprigg Proposed Zoning Plan"
+      },
+      "source_body_sha256": "31fc6b83465f0af7c26f1b4d0d8c90401dea38b5f2c3acfcd6c2e8ee78fc2a4c",
+      "pdf_page": 12,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 12,
+        "dpi": 140
+      },
+      "render_sha256": "af51b85a94590dfc0d9aad5cdeb4aa25fee9e33ccc21a8820cd142a2f7e31296"
+    },
+    "adams-followup-03": {
+      "claim_id": "adams-followup-03",
+      "source_document_id": "adams-followup-official-return",
+      "claim_sha256": "44d32ce585294c047baf0249ec17a879c7728ba94267c6ae0e4676f36c797125",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Unresolved Write-In",
+        "count": 0,
+        "scope": "Township of Sprigg Proposed Zoning Plan"
+      },
+      "source_body_sha256": "31fc6b83465f0af7c26f1b4d0d8c90401dea38b5f2c3acfcd6c2e8ee78fc2a4c",
+      "pdf_page": 12,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 12,
+        "dpi": 140
+      },
+      "render_sha256": "af51b85a94590dfc0d9aad5cdeb4aa25fee9e33ccc21a8820cd142a2f7e31296"
+    },
+    "adams-followup-04": {
+      "claim_id": "adams-followup-04",
+      "source_document_id": "adams-followup-official-return",
+      "claim_sha256": "6ac79a203d77529dc2e1b161a9d34a2885568beb5ab2c3a9f5beb61dcaa60aad",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "report_label": "Unofficial Certification of Results",
+        "certification_status": "unofficial",
+        "signed_date": "2026-11-03",
+        "scope": "Signed cover concerns submitted unofficial results; no final certified canvass/date accepted."
+      },
+      "source_body_sha256": "31fc6b83465f0af7c26f1b4d0d8c90401dea38b5f2c3acfcd6c2e8ee78fc2a4c",
+      "pdf_page": 1,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 1,
+        "dpi": 140
+      },
+      "render_sha256": "02b7881c6bda6c92be6e5a239a5bd4796f277cd2f5fdfe32f1005a11ba822b60"
+    }
+  },
+  "unaccepted_leads": [
+    {
+      "attempt_id": "cc905c026ea8403e80ef533fc38f93e0",
+      "url": "https://www.noticeregistry.com/ohio/notice/public-hearing-sprigg-336245",
+      "body_sha256": "117cd506cffdd5a7d16585f90fe200ee0f8bf176a9ede3e03d5eef6f741b1800",
+      "text_sha256": "2ee619a622a0ea191ef28ac32c1df327e0338f7c45dd4dc9d0c50f30f31c3bd7",
+      "retrieved_at": "2026-11-06T07:18:06.323349+00:00",
+      "classification": "Unverified commercial purported notice reproduction plus AI summaries; not primary",
+      "accepted_for_infrastructure_classification": false
+    },
+    {
+      "attempt_id": "4de7c1f70a4b4e2aa011a3ad03717e57",
+      "url": "https://www.noticeregistry.com/ohio/notice/public-hearing-monroe-336146",
+      "body_sha256": "a2454038e4a3f6b39a946f4456789eb83d9d1ac9727b0ed10afda426cf61099a",
+      "text_sha256": "fc87cf7735123a0d311e84a1f07fbbedd3f261b0351cf7911e36404de30fe685",
+      "retrieved_at": "2026-11-06T07:18:06.390436+00:00",
+      "classification": "Unverified commercial purported notice reproduction plus AI summaries; not primary",
+      "accepted_for_infrastructure_classification": false
+    },
+    {
+      "attempt_id": "dc150ab303884521ad745c72f551eeae",
+      "url": "https://ballotpedia.org/Monroe_Township,_Ohio,_Zoning_Regulations_Initiative_(November_2026)",
+      "body_sha256": "cf61248c49c56d1b07b7fb96d99cb8938c9ee2e27260892ed38140db1c67843d",
+      "text_sha256": "418a73eee279335a6f8cb946e7e23c86ebbee9e5d29676f8bf27efa7acc83855",
+      "retrieved_at": "2026-11-06T07:18:12.029490+00:00",
+      "classification": "Secondary ballot summary; not complete zoning plan",
+      "accepted_for_infrastructure_classification": false
+    }
+  ],
+  "measures": [
+    {
+      "seed_id": "bp-7e46ffbc672db401",
+      "name": "Monroe Township, Adams County",
+      "status": "Primary counts already reviewed; complete plan and infrastructure scope pending"
+    },
+    {
+      "seed_id": "bp-f911c9d773a7b0e7",
+      "name": "Sprigg Township, Adams County",
+      "status": "Primary counts corrected/reviewed; complete plan and infrastructure scope pending"
+    }
+  ],
+  "unresolved": [
+    "Authenticate original BOE/newspaper notices, rather than commercial reproductions",
+    "Obtain complete zoning plans and their infrastructure provisions",
+    "Actual qualification/referral instruments, final certified canvasses and operative implementation",
+    "Do not label general zoning-plan approval as a data-center prohibition without text"
+  ]
+}
