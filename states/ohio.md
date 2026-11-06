@@ -690,14 +690,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** ⚪ Expired
 - **Date enacted:** 2025-12-08
 - **Normalized date:** `2025-12-08` (exact)
-- **Duration:** 182 days (6 months); amended down from an originally proposed 12 months (365 days) at the same meeting before adoption
+- **Duration:** Six months (182 days), as expressly amended and adopted in December 8, 2025 minutes; operative interval and later action unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-waterville-2025`
 - **Legal basis:** Resolution 34-25, "A RESOLUTION IMPOSING A MORATORIUM ON THE ISSUANCE OR GRANTING OF APPLICATIONS OR PERMITS FOR DATA CENTERS AND ANCILLARY FACILITIES IN THE CITY OF WATERVILLE OHIO," adopted 2025-12-08 as amended from a proposed 12 months down to 6 months (182 days), by unanimous 7-0 roll call.
 - **What prompted it:** Community concern and desire to study impacts after prior zoning allowed data centers in M-1 manufacturing districts
 - **Affected projects:** No specific city project identified; concern tied to broader Anthony Wayne area data center activity
-- **Detailed status:** Resolution 34-25 (as amended, a 182-day/6-month term from its 2025-12-08 adoption) expired on approximately 2026-06-08. No extension, replacement, or repeal was found in Council minutes of 2026-05-11, 2026-06-01 (special), or 2026-06-08 (the meeting closest to the expiration date itself); the latter's minutes cover other business at length with no mention of data centers.
+- **Detailed status:** December 8, 2025 minutes record unanimous amendment of Resolution 34-25 to six months (182 days), followed by unanimous adoption as amended. Both calendar and day wording are retained rather than silently equated; final operative text, actual effective interval and later action remain unresolved. This is Waterville City, distinct from Waterville Township. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Mayor and staff researching data centers; possible conditional-use process under review
 
 ### Clay Township (Montgomery County)
@@ -2723,13 +2723,13 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-05-18 (emergency reading)
 - **Normalized date:** `2026-05-18` (exact)
 - **Duration:** 12 months, expiring 2027-05-18
-- **Current end date:** `—`
+- **Current end date:** `2027-05-18`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-yellow-springs-2026`
 - **Legal basis:** Village Council emergency ordinance; Ordinance 2026-08
 - **What prompted it:** Pause on zoning permits/approvals for new data centers with aggregate monthly demand or peak load above 2 MW, and for expansions of existing facilities crossing that threshold; council narrowed the proposal at a May 4 work session before adopting it May 18
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; runs through 2027-05-18 unless repealed or replaced earlier
+- **Detailed status:** The May 21 published Ordinance 2026-08 text states twelve months from effectiveness and explicitly May 18, 2027 expiry. Its operative scope covers data centers above 2 MW aggregate monthly demand or peak load, including expansion crossing that threshold. Auxiliary centers and pre-effective applications/permits are excluded under section 3. Actual operative interval, endpoint inclusivity and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted by emergency reading; bars zoning permits/approvals for new or expanded data centers above 2 MW aggregate demand for 12 months, with exemptions for auxiliary data centers and applications/permits already submitted or issued
 
 ---

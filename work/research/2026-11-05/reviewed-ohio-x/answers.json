@@ -1,0 +1,77 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "oh-yellow-springs-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://ysnews.com/news/2026/05/ordinance-2026-08",
+          "source_type": "other",
+          "document_date": "2026-05-21",
+          "supports": "Published ordinance operative threshold, explicit endpoint, expansion rule and section 3 exceptions.",
+          "quote": "SECTION 1. The issuance of any and all zoning permits and other approvals allowing the development, construction, or operation of any new Data Centers with an aggregate monthly demand or peak load greater than 2 megawatts is hereby suspended for a period of twelve (12) months from the effective date of this Ordinance, which suspension shall expire on May 18, 2027 (the \u201cMoratorium\u201d).\n\nSECTION 2. To the extent there are any existing Data Centers in the Village of Yellow Springs as of the effective date of this Ordinance, the issuance of any and all zoning permits and other approvals allowing the expansion or enlargement of such existing facilities which would create an aggregate monthly demand or peak load greater than 2 megawatts is hereby suspended for the period of the Moratorium. If such expansion would not create an aggregate monthly demand or peak load greater than 2 megawatts then such zoning permits or approvals for expansion can be processed and are not impacted by this moratorium.\n\nSECTION 3. The Moratorium shall not apply to Auxiliary Data Centers and applications or zoning permits related to the development, construction, or operation of a Data Center where such applications or permits were submitted or issued prior to the effective date of this Ordinance."
+        }
+      ],
+      "confidence": 0.9,
+      "notes": "Correction is limited to the original term representation; current legal force and later changes remain unverified. Historical instrument or notice observed 2026-11-05.",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Original term is expressed in calendar months or years, not a fixed count of days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "until_date",
+          "reason": "Published ordinance states explicit May 18, 2027 endpoint."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31; runs through 2027-05-18 unless repealed or replaced earlier",
+          "to": "The May 21 published Ordinance 2026-08 text states twelve months from effectiveness and explicitly May 18, 2027 expiry. Its operative scope covers data centers above 2 MW aggregate monthly demand or peak load, including expansion crossing that threshold. Auxiliary centers and pre-effective applications/permits are excluded under section 3. Actual operative interval, endpoint inclusivity and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-05-18",
+          "reason": "Explicit published endpoint; later action and endpoint inclusivity unresolved."
+        }
+      }
+    },
+    {
+      "moratorium_id": "oh-waterville-2025",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://waterville.org/wp-content/uploads/2026/04/12.8.25-Council-Meeting-Minutes-Final.pdf",
+          "source_type": "minutes",
+          "document_date": "2025-12-08",
+          "quote": "Mr. Rozic made a motion to amend Resolution 34-25 from a period of twelve months\n\n(365 days) to a period of six months (182 days). Mr. Bruno seconded the motion.\n\nRoll Call: Mr. Wagner \u2013 \u2013 yes, Mr. Frey \u2013 \u2013 yes, Mr. Rozic \u2013 \u2013 yes, Mr. Borowski \u2013 \u2013 yes,\n\nMr. Bruno \u2013 \u2013 yes, Mrs. Duncan \u2013 \u2013 yes and Mayor Pedro \u2013 \u2013 yes.  The motion passed\n\nunanimously\n\nMr. Wagner moved to adopt Resolution 34-25 as amended. Mr. Borowski seconded\n\nthe motion.\n\nRoll Call: Mr. Wagner \u2013 \u2013 yes, Mr. Frey \u2013 \u2013 yes, Mr. Rozic \u2013 \u2013 yes, Mr. Borowski \u2013 \u2013 yes,\n\nMr. Bruno \u2013 \u2013 yes, Mrs. Duncan \u2013 \u2013 yes and Mayor Pedro \u2013 \u2013 yes.  The motion passed\n\nunanimously",
+          "supports": "Explicit six months (182 days) amendment and adopted-as-amended roll calls; not inferred conversion."
+        }
+      ],
+      "notes": "Only the clear internal 180 versus 182 discrepancy is corrected. The minutes also call it six months; the actual instrument and later legal status remain to be checked.",
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "182",
+          "reason": "Official minutes expressly record six months (182 days), and adoption as amended."
+        },
+        "current_status": {
+          "from": "Resolution 34-25 (as amended, a 182-day/6-month term from its 2025-12-08 adoption) expired on approximately 2026-06-08. No extension, replacement, or repeal was found in Council minutes of 2026-05-11, 2026-06-01 (special), or 2026-06-08 (the meeting closest to the expiration date itself); the latter's minutes cover other business at length with no mention of data centers.",
+          "to": "December 8, 2025 minutes record unanimous amendment of Resolution 34-25 to six months (182 days), followed by unanimous adoption as amended. Both calendar and day wording are retained rather than silently equated; final operative text, actual effective interval and later action remain unresolved. This is Waterville City, distinct from Waterville Township. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force."
+        },
+        "duration": {
+          "from": "182 days (6 months); amended down from an originally proposed 12 months (365 days) at the same meeting before adoption",
+          "to": "Six months (182 days), as expressly amended and adopted in December 8, 2025 minutes; operative interval and later action unresolved.",
+          "reason": "Preserve both source-stated units without converting calendar months to days."
+        }
+      }
+    }
+  ],
+  "new_candidates": []
+}
