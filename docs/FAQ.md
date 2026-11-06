@@ -10,7 +10,7 @@ A list of every local-government moratorium we could identify in the United Stat
 - **Solar farms** (utility-scale)
 - **Wind farms** (utility-scale)
 
-Each row is one moratorium adopted or proposed by one local government (a city, county, township, etc.). The working snapshot covers 2018 through September 23, 2026, with a sharp acceleration in 2025–2026. September is a partial month; the completed 50-state comparison window runs from May through July 2026.
+The legacy inventory aims for one local moratorium instrument per row, including adopted and proposed actions. Some combined identities still need reconciliation. The working cohort cutoff is November 5, 2026, but source dates vary by record. Searches across all states do not establish complete coverage, including for the previously searched May–July window. Ballot measures are a separate layer.
 
 ## What is a moratorium?
 
@@ -43,13 +43,13 @@ Three reasons:
 
 ## How was this dataset compiled?
 
-Three phases:
+The original April collection used three phases; these document and extraction counts describe that historical cohort, not the November inventory:
 
 1. **Document collection.** AI-assisted research agents scanned municipal websites, agenda portals, board meeting minutes, planning commission records, state legislative databases, and news coverage across all 50 states. We collected approximately 4,400 original documents (PDFs, HTML pages, Word files), totaling ~12 GB.
 2. **Classification.** Each document was classified by type (ordinance, resolution, agenda, news article, etc.) and tagged for whether it was moratorium-related. About 709 documents are moratorium-related.
 3. **Structured extraction.** From the 709 moratorium documents, we used a large language model with a detailed schema to extract structured data: jurisdiction, dates, duration, sectors covered, exemptions, and 40+ other clause-level features. After confidence filtering, 348 instruments are coded line-by-line.
 
-Each extracted record was manually reviewed for jurisdiction names and state codes; the resulting cleaned inventory has 223 rows.
+The original extraction review checked jurisdiction names and state codes. The current working inventory has 1293 rows; this does not mean the historical clause-extraction process was rerun for every current row.
 
 For full methodology, see [`methodology.md`](methodology.md).
 
@@ -79,9 +79,7 @@ If you publish something based on this data, we'd love to hear about it — drop
 
 ## How often is this updated?
 
-The current snapshot is **April 2026**. Refreshes are roughly quarterly. Each refresh is a tagged release on GitHub (`v2026.04`, `v2026.10`, …) so you can pin your analysis to a specific version.
-
-The moratorium wave is still accelerating: 130+ moratoria were enacted in just the first four months of 2026. Expect this dataset to grow.
+The November working refresh remains unreleased. Existing remote tags are `v2026.04`, `v2026.04.1` and `v2026.04.2`; the November 6 check found no published GitHub Releases. Pin a commit for working-data analysis. Citation and publication metadata will be reconciled when the release is finalized; no DOI is asserted.
 
 ## Who built this?
 
@@ -93,10 +91,21 @@ Open an issue with the specific row and your reasoning. Classification rules are
 
 ## What's next on this dataset?
 
-1. **A landing page** with a searchable, filterable table (planned for the next release).
-2. **A Zenodo deposit** with a permanent DOI per release.
-3. **Geocoding** of each jurisdiction so the data plays nicely with mapping tools.
-4. **Outcome tracking** — following each moratorium from enactment through replacement, extension, expiration, or rescission.
+The landing page, state pages and geocoded exports already exist. Remaining work
+includes source-qualified status/expiry review, unresolved ballot qualification
+and implementation, instrument-identity reconciliation, consumer updates and a
+verified versioned release. [Known gaps](known-gaps.md) records evidence limits.
+
+## How should I interpret ballot measures?
+
+The expanded publication contains 49 reviewed measures, including advisory
+questions, temporary pauses, permanent restrictions and zoning questions. Seven
+additional candidate groups remain unresolved. A yes vote has different effects
+across measures; read the recorded wording, bindingness and yes direction.
+An unofficial result, certified vote count and legally operative restriction are
+separate observations. Ballot approval does not automatically increase the local
+moratorium count. See [reviewed results](ballot-results.md) and
+[scope and interpretation](ballot-measures.md).
 
 ## Other questions?
 

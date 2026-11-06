@@ -198,7 +198,7 @@ include reviewed additions and corrections; they do not mean every record was
 verified through that date. Historical collection and geocode audits describe
 their original cohorts, not a fresh audit of every current row.</p>
 <h2 id="what-we-set-out-to-do">What we set out to do</h2>
-<p>Every U.S. local government has the legal authority to pause new development of certain kinds for a defined period. When a city council, county commission, or township board uses that authority, they typically do it through a public ordinance or resolution that is published online (sometimes), posted in a meeting agenda (often), and recorded in board minutes (almost always, eventually).</p>
+<p>This inventory records local actions described in ordinances, resolutions, agendas, minutes and reporting. Source authority, final adoption, effectiveness and subsequent legal events are reviewed separately; a source description or recorded classification does not establish current enforceability.</p>
 <p>Our goal: <strong>identify every such moratorium adopted in the U.S. that targets data centers, battery storage, solar, wind, or cryptocurrency mining</strong> — and capture enough structured information about each one to support cross-jurisdictional comparison.</p>
 <h2 id="how-we-did-it">How we did it</h2>
 <p>Three phases.</p>
@@ -556,7 +556,36 @@ opened and read somewhere between 50 and 250 pages.</p>
 <code>--end</code> narrow the run, and <code>--dry-run</code> prints the work plan without spending
 anything.</p>
 <h2 id="updates">Updates</h2>
-<p>Each refresh of the dataset is a tagged GitHub release (<code>v2026.04</code>, <code>v2026.07</code>, ...) with a corresponding <a href="https://doi.org/">Zenodo DOI</a> (planned). Refresh cadence is roughly quarterly while the moratorium wave is active.</p>
+<p>The November working refresh is not a published release. Remote inspection on November 6 found the three April tags (<code>v2026.04</code>, <code>v2026.04.1</code>, <code>v2026.04.2</code>) and no published GitHub Releases. Historical version labels elsewhere in this methodology describe prior work; they do not prove a matching remote tag or DOI. No new DOI is asserted.</p>
+<h2 id="november-collection-and-evidence-review">November collection and evidence review</h2>
+<p>The original November queue contains 333 distributed Codex CLI jobs using
+<code>gpt-6.1-terra</code>. All are terminal; the <a href="../work/audit/refresh-record-accounting-2026-11-06.html">collection accounting</a>
+reports mechanical readiness separately from substantive acceptance. Job completion,
+a valid answer schema or a located quote does not renew current legal-force findings.</p>
+<p>Bounded source acquisition uses the shared <code>bc-modules</code> client: Exa search for
+leads, bc-web HTTP retrieval and pydoll browser retrieval for rendered portals.
+Attempt ledgers retain request outcomes, provider costs, content hashes and source
+versions. Challenged or failed acquisitions remain failures. Search hits do not
+establish qualification, adoption, certification or absence.</p>
+<p>Client extraction, OCR and visually reviewed transcriptions remain distinct
+artifacts. Derived text is registered against the successful original body hash;
+it does not replace the original extraction. Relevant scanned pages are visually
+inspected, with page/render hashes pinned in review packets. Drafts, blank signature
+fields, publication conditions and source arithmetic discrepancies remain explicit.
+The <a href="../work/research/2026-11-06/elmwood-instrument-review/index.html">Elmwood review</a>
+and <a href="../work/research/2026-11-06/frenchtown-instrument-review/index.html">Frenchtown review</a>
+illustrate these distinctions.</p>
+<p>Legacy corrections pass expected-prior-value checks through the apply scripts.
+Expanded ballot records pass schema, identity, evidence and append-only publication
+gates, preserving superseded result observations. Current publication includes 49
+measures; seven frozen candidate groups retain explicit unresolved dispositions.
+The expanded restriction/event/link tables are not a completed migration of all
+legacy instruments. The <a href="expanded-data-contracts.html">contracts</a> define intended
+relationships; empty tables do not establish absence of restrictions.</p>
+<p>Release candidates pin committed inputs and check every archived member hash.
+Repeat-build equality proves byte reproducibility, not factual completeness.
+Remote release assets and hosted deployment require separate post-publication
+verification. The April paper and historical graphics retain their original cohorts.</p>
 </main>
 
 <footer>

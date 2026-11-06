@@ -9,7 +9,7 @@ their original cohorts, not a fresh audit of every current row.
 
 ## What we set out to do
 
-Every U.S. local government has the legal authority to pause new development of certain kinds for a defined period. When a city council, county commission, or township board uses that authority, they typically do it through a public ordinance or resolution that is published online (sometimes), posted in a meeting agenda (often), and recorded in board minutes (almost always, eventually).
+This inventory records local actions described in ordinances, resolutions, agendas, minutes and reporting. Source authority, final adoption, effectiveness and subsequent legal events are reviewed separately; a source description or recorded classification does not establish current enforceability.
 
 Our goal: **identify every such moratorium adopted in the U.S. that targets data centers, battery storage, solar, wind, or cryptocurrency mining** — and capture enough structured information about each one to support cross-jurisdictional comparison.
 
@@ -329,4 +329,40 @@ anything.
 
 ## Updates
 
-Each refresh of the dataset is a tagged GitHub release (`v2026.04`, `v2026.07`, ...) with a corresponding [Zenodo DOI](https://doi.org/) (planned). Refresh cadence is roughly quarterly while the moratorium wave is active.
+The November working refresh is not a published release. Remote inspection on November 6 found the three April tags (`v2026.04`, `v2026.04.1`, `v2026.04.2`) and no published GitHub Releases. Historical version labels elsewhere in this methodology describe prior work; they do not prove a matching remote tag or DOI. No new DOI is asserted.
+
+
+## November collection and evidence review
+
+The original November queue contains 333 distributed Codex CLI jobs using
+`gpt-6.1-terra`. All are terminal; the [collection accounting](../work/audit/refresh-record-accounting-2026-11-06.md)
+reports mechanical readiness separately from substantive acceptance. Job completion,
+a valid answer schema or a located quote does not renew current legal-force findings.
+
+Bounded source acquisition uses the shared `bc-modules` client: Exa search for
+leads, bc-web HTTP retrieval and pydoll browser retrieval for rendered portals.
+Attempt ledgers retain request outcomes, provider costs, content hashes and source
+versions. Challenged or failed acquisitions remain failures. Search hits do not
+establish qualification, adoption, certification or absence.
+
+Client extraction, OCR and visually reviewed transcriptions remain distinct
+artifacts. Derived text is registered against the successful original body hash;
+it does not replace the original extraction. Relevant scanned pages are visually
+inspected, with page/render hashes pinned in review packets. Drafts, blank signature
+fields, publication conditions and source arithmetic discrepancies remain explicit.
+The [Elmwood review](../work/research/2026-11-06/elmwood-instrument-review/README.md)
+and [Frenchtown review](../work/research/2026-11-06/frenchtown-instrument-review/README.md)
+illustrate these distinctions.
+
+Legacy corrections pass expected-prior-value checks through the apply scripts.
+Expanded ballot records pass schema, identity, evidence and append-only publication
+gates, preserving superseded result observations. Current publication includes 49
+measures; seven frozen candidate groups retain explicit unresolved dispositions.
+The expanded restriction/event/link tables are not a completed migration of all
+legacy instruments. The [contracts](expanded-data-contracts.md) define intended
+relationships; empty tables do not establish absence of restrictions.
+
+Release candidates pin committed inputs and check every archived member hash.
+Repeat-build equality proves byte reproducibility, not factual completeness.
+Remote release assets and hosted deployment require separate post-publication
+verification. The April paper and historical graphics retain their original cohorts.

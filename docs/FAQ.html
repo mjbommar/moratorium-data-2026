@@ -201,7 +201,7 @@
 <li><strong>Solar farms</strong> (utility-scale)</li>
 <li><strong>Wind farms</strong> (utility-scale)</li>
 </ul>
-<p>Each row is one moratorium adopted or proposed by one local government (a city, county, township, etc.). The working snapshot covers 2018 through September 23, 2026, with a sharp acceleration in 2025–2026. September is a partial month; the completed 50-state comparison window runs from May through July 2026.</p>
+<p>The legacy inventory aims for one local moratorium instrument per row, including adopted and proposed actions. Some combined identities still need reconciliation. The working cohort cutoff is November 5, 2026, but source dates vary by record. Searches across all states do not establish complete coverage, including for the previously searched May–July window. Ballot measures are a separate layer.</p>
 <h2 id="what-is-a-moratorium">What is a moratorium?</h2>
 <p>A moratorium is a temporary pause that a local government places on accepting or approving permit applications for certain kinds of new development. Common features:</p>
 <ul>
@@ -224,13 +224,13 @@
 <li><strong>Local democracy.</strong> Moratoria are one of the most visible ways local governments push back against industries that have political support at the state and federal level. Tracking them maps a real political phenomenon.</li>
 </ol>
 <h2 id="how-was-this-dataset-compiled">How was this dataset compiled?</h2>
-<p>Three phases:</p>
+<p>The original April collection used three phases; these document and extraction counts describe that historical cohort, not the November inventory:</p>
 <ol>
 <li><strong>Document collection.</strong> AI-assisted research agents scanned municipal websites, agenda portals, board meeting minutes, planning commission records, state legislative databases, and news coverage across all 50 states. We collected approximately 4,400 original documents (PDFs, HTML pages, Word files), totaling ~12 GB.</li>
 <li><strong>Classification.</strong> Each document was classified by type (ordinance, resolution, agenda, news article, etc.) and tagged for whether it was moratorium-related. About 709 documents are moratorium-related.</li>
 <li><strong>Structured extraction.</strong> From the 709 moratorium documents, we used a large language model with a detailed schema to extract structured data: jurisdiction, dates, duration, sectors covered, exemptions, and 40+ other clause-level features. After confidence filtering, 348 instruments are coded line-by-line.</li>
 </ol>
-<p>Each extracted record was manually reviewed for jurisdiction names and state codes; the resulting cleaned inventory has 223 rows.</p>
+<p>The original extraction review checked jurisdiction names and state codes. The current working inventory has 1293 rows; this does not mean the historical clause-extraction process was rerun for every current row.</p>
 <p>For full methodology, see <a href="methodology.html"><code>methodology.md</code></a>.</p>
 <h2 id="how-accurate-is-the-data">How accurate is the data?</h2>
 <p><strong>Confident on:</strong> state, jurisdiction, jurisdiction type, sectors covered, approximate enactment date.</p>
@@ -245,19 +245,25 @@
 <p>Yes. The data is published under <a href="../LICENSE-data">Creative Commons Attribution 4.0</a>. You can reuse, redistribute, remix, and even use it commercially, as long as you credit the source. Suggested citation is in the <a href="../index.html#how-to-cite">README</a>.</p>
 <p>If you publish something based on this data, we'd love to hear about it — drop a note in <a href="https://github.com/mjbommar/moratorium-data-2026/discussions">Discussions</a> or email Michael directly.</p>
 <h2 id="how-often-is-this-updated">How often is this updated?</h2>
-<p>The current snapshot is <strong>April 2026</strong>. Refreshes are roughly quarterly. Each refresh is a tagged release on GitHub (<code>v2026.04</code>, <code>v2026.10</code>, …) so you can pin your analysis to a specific version.</p>
-<p>The moratorium wave is still accelerating: 130+ moratoria were enacted in just the first four months of 2026. Expect this dataset to grow.</p>
+<p>The November working refresh remains unreleased. Existing remote tags are <code>v2026.04</code>, <code>v2026.04.1</code> and <code>v2026.04.2</code>; the November 6 check found no published GitHub Releases. Pin a commit for working-data analysis. Citation and publication metadata will be reconciled when the release is finalized; no DOI is asserted.</p>
 <h2 id="who-built-this">Who built this?</h2>
 <p><a href="mailto:michael.bommarito@gmail.com">Michael J. Bommarito</a>, with substantial AI-assisted research. Methodology is fully documented and reproducible.</p>
 <h2 id="what-if-i-disagree-with-how-something-is-classified">What if I disagree with how something is classified?</h2>
 <p>Open an issue with the specific row and your reasoning. Classification rules are documented in <a href="codebook.html"><code>codebook.md</code></a>; we'll either update the row or document the disagreement.</p>
 <h2 id="whats-next-on-this-dataset">What's next on this dataset?</h2>
-<ol>
-<li><strong>A landing page</strong> with a searchable, filterable table (planned for the next release).</li>
-<li><strong>A Zenodo deposit</strong> with a permanent DOI per release.</li>
-<li><strong>Geocoding</strong> of each jurisdiction so the data plays nicely with mapping tools.</li>
-<li><strong>Outcome tracking</strong> — following each moratorium from enactment through replacement, extension, expiration, or rescission.</li>
-</ol>
+<p>The landing page, state pages and geocoded exports already exist. Remaining work
+includes source-qualified status/expiry review, unresolved ballot qualification
+and implementation, instrument-identity reconciliation, consumer updates and a
+verified versioned release. <a href="known-gaps.html">Known gaps</a> records evidence limits.</p>
+<h2 id="how-should-i-interpret-ballot-measures">How should I interpret ballot measures?</h2>
+<p>The expanded publication contains 49 reviewed measures, including advisory
+questions, temporary pauses, permanent restrictions and zoning questions. Seven
+additional candidate groups remain unresolved. A yes vote has different effects
+across measures; read the recorded wording, bindingness and yes direction.
+An unofficial result, certified vote count and legally operative restriction are
+separate observations. Ballot approval does not automatically increase the local
+moratorium count. See <a href="ballot-results.html">reviewed results</a> and
+<a href="ballot-measures.html">scope and interpretation</a>.</p>
 <h2 id="other-questions">Other questions?</h2>
 <p><a href="https://github.com/mjbommar/moratorium-data-2026/issues/new?template=question.md">Open a question issue</a> or email <a href="mailto:michael.bommarito@gmail.com">Michael</a>.</p>
 </main>
