@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+California follow-up corrects SB 978’s March 23 amended proposal: the solar/wind/battery-only backup clause is struck out; surviving tariff, cost-shift and labor provisions now replace the stale summary. Six primary history URLs are added. Three retained terminal dispositions are confirmed, while ultimate disposition of AB 2170, AB 222 and SB 978 remains unresolved. Counts are unchanged. See [review packet](work/research/2026-11-06/ca-policy-wave2/README.md).
+
 November 6 California review confirms six September 21 enactments, corrects their final-text summaries and SB 57’s optional-assessment wording, and adds missing Chapter 436 / AB 2469 water-and-workforce permitting conditions. The state tracker now has 441 actions (439 bills plus two non-bill actions), including 91 enacted bills, up from 84. Ordinary January 1, 2027 effective dates remain separate from implementation dates; no local moratorium count changes. See [review packet](work/research/2026-11-06/ca-policy-wave1/README.md).
 
 November 6 Missouri field review corrects HB 3369 to local-government scope and HB 3390 to mixed scope, adds three official source URLs, and records SB 4’s official bill-level August 28, 2025 effective date. All seven assigned disposition/current-force reviews remain open; no legacy counts or ballot records change. See [review packet](work/research/2026-11-06/mo-policy-wave1/README.md).
