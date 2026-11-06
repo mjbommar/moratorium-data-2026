@@ -3,7 +3,7 @@
 
 Working inventory for Georgia, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**70 instruments** — 50 in force, 0 pending, 20 past.
+**71 instruments** — 50 in force, 0 pending, 21 past.
 
 State policy is tracked separately: **9 actions** (9 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -77,6 +77,7 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 | Thomas County | County | 2026-01-20 | data center | 🟢 Active |
 | Toccoa | City | 2026-07-27 | data center | 🟢 Active |
 | Troup County | County | 2025-09-16 | data center | ⚪ Replaced |
+| Union County | County | 2026-04-16 | data center, cryptocurrency mining | ⚪ Expired |
 | Walker County | County | 2026-07-09 | data center | 🟢 Extended |
 | Warner Robins | City | 2026-07-20 | data center | 🟢 Active |
 
@@ -1169,6 +1170,22 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Affected projects:** Project West, reported about $9.7 billion, 513 acres, and nearly 600 MW [VERIFY against developer filings — figures appear in news but not in primary documents captured]
 - **Detailed status:** Replaced, as of 2026-09-23. The Troup County Board of Commissioners unanimously approved the final data center zoning ordinance and lifted the moratorium at a regular meeting, per direct LaGrange Daily News coverage of the vote (County Attorney Mark DeGennaro noted at that meeting that the moratorium was still in force, through June 12, 2026, at the time of the vote). The adopted ordinance restricts all data centers to industrial zoning via special-use permit, requires closed-loop cooling and public water/sewer connection, sets a 1,500-foot setback from sensitive receptors (residences, schools, daycares, hospitals, places of worship, parks, and related site improvements), Tier 4 backup generators, and a 40-foot maximum height. No further change located as of 2026-09-23.
 - **Outcome:** UDO review and possible extension
+
+### Union County
+
+- **Type:** County
+- **Status:** ⚪ Expired
+- **Date enacted:** 2026-04-16
+- **Normalized date:** `2026-04-16` (exact)
+- **Duration:** Original 120-day term from April 16, 2026, or until repealed by adoption of new regulations or ordinances; exact endpoint/later actions unverified
+- **Current end date:** `—`
+- **Sectors:** data center, cryptocurrency mining
+- **Moratorium ID:** `ga-union-county-2026`
+- **Legal basis:** Resolution R-2026-26 (operative title also describes an ordinance)
+- **What prompted it:** County evaluates development and use standards for cryptocurrency sites, data mining sites and data centers.
+- **Affected projects:** —
+- **Detailed status:** Signed/attested R-2026-26 adopted April 16, 2026, effective 19:00 that date, with original 120-day term or regulatory repeal. Historical original-term classification only. [VERIFY exact endpoint, repeal/new rules, extensions, later restrictions, current legal force and coordinates]
+- **Outcome:** —
 
 ### Walker County
 

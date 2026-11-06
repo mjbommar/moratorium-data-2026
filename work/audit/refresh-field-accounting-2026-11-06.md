@@ -4,7 +4,7 @@ The selected November5and6applyreceipts cover the current CSV inputs by hash. Th
 
 | Dataset | Current records | Records with applied changes | Last applied field values tracked | Match current CSV |
 |---|---:|---:|---:|---:|
-| inventory | 1316 | 471 | 1728 | 1728 |
+| inventory | 1317 | 472 | 1728 | 1728 |
 | state_policy | 442 | 32 | 116 | 116 |
 
 Every record changed since the September baseline, including newly added records, has at least one selected apply receipt. This is row-level edit coverage, not proof that each field or legal interval was reviewed. Last-value equality means no later value drift from those applied events; it is not source reacceptance. Derived `has_verify_tags` and `verify_count` changes remain separate from explicit field events.

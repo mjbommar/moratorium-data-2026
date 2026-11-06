@@ -1020,6 +1020,7 @@
       "work/audit/apply-20261106T122321.json": "2e86d059f42a7ec80788a5ec7cdb21e0d2f56b22757fc9ccd9e5cd876e8347a7",
       "work/audit/apply-20261106T122908.json": "2c41ed885f8156ba730ac313c4fe284c496e97bc2356edf1788eff50826ce27c",
       "work/audit/apply-20261106T123409.json": "e82611c1fbe5126728ec99a498d54a7b77e98faeb5ea3b5cc3bc5ef74dded55c",
+      "work/audit/apply-20261106T123927.json": "e34990a0c15250aaa6de5a6156d7854d88005bf38e2c028920a8e144f04cdaea",
       "work/audit/apply-legislation-20261105T114314.json": "222b8a24cbb2138216bd3e87d508fc67d5a3bafac2674429a58099a189e8204b",
       "work/audit/apply-legislation-20261106T000259.json": "563c37c423b64cc6d3eb8fe74f13b278bf8de357ec02c766e79c5d59a69b39a5",
       "work/audit/apply-legislation-20261106T000919.json": "c596af153305ab0135f215ac66482fce77d0dc38613ddf2a33d39a238dbcc3ea",
@@ -1028,7 +1029,7 @@
       "work/audit/apply-legislation-20261106T002343.json": "cce6016ebcee83046dcca9422bea0e45d3fed3379ae19232fdc174c7798eacdc",
       "work/audit/apply-legislation-20261106T084519.json": "2b8d7a459a25ac991a8a7ddde95f14b8c770f48cf86ceeb32677f8b814b81638"
     },
-    "moratorium_inventory.csv": "4ce203b589826a2cf3992e88422c110375462049d2d98f098408fdf8daae23f7",
+    "moratorium_inventory.csv": "92b009d417782b39c0a6423d7d9d44d060ee19030250a572784239492e8adf2a",
     "state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038"
   },
   "scope": "Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. This is not the completed freshness funnel required for release.",
@@ -1038,16 +1039,16 @@
   "not_started_jobs": 0,
   "tables": {
     "inventory": {
-      "total": 1316,
+      "total": 1317,
       "collection_counts": {
         "returned_unresolved": 782,
         "returned_other_outcome": 501,
-        "not_assigned_in_this_queue": 25,
+        "not_assigned_in_this_queue": 26,
         "excluded_completed_pilot": 8
       },
       "editorial_counts": {
         "no_refresh_apply_change": 845,
-        "has_refresh_apply_change": 471
+        "has_refresh_apply_change": 472
       },
       "records": [
         {
@@ -5773,6 +5774,18 @@
           ],
           "refresh_apply_receipts": [],
           "editorial_stage": "no_refresh_apply_change",
+          "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
+          "applied_field_lineage": []
+        },
+        {
+          "record_id": "ga-union-county-2026",
+          "state": "GA",
+          "collection_stage": "not_assigned_in_this_queue",
+          "jobs": [],
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T123927.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
           "applied_field_lineage": []
         },

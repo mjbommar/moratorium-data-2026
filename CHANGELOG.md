@@ -2,6 +2,8 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
+Union County GA R-2026-26 adds a historical 120-day data-center/cryptocurrency application-permit pause adopted April 16, 2026 with 19:00 effectiveness. Full signed-scan review and separately registered OCR support the record; exact endpoint and later regulatory repeal/extensions remain unverified. Seven other Alabama/Georgia candidates remain withheld with specific action, scope or source-history gaps.
+
 Indiana review adds two official source-stage pending proposals: Vermillion County’s unsigned data-center ordinance and Zionsville’s unsigned Resolution 2026-25 initiating a four-sector zoning amendment. Vermillion’s compound latest-of-date/calendar-term and earlier regulatory ending condition are preserved without a guessed endpoint. Zionsville referral is not zoning enactment. Six other Indiana candidates remain withheld.
 
 Colorado review adds two historical Phillips County instruments: wind Resolution 2024-06-18-02 and solar/storage Resolution 2025-09-30-01, each with signed extensions through August 27, 2026. Later action remains unverified. Fort Collins Ordinance 147, 2026 adds a source-stage pending proposal from an unsigned attachment; printed passage/effective dates and retroactivity are not accepted as operative. Five other Colorado candidates remain withheld.
@@ -48,18 +50,18 @@ remain unknown; no adoption event, in-force ban or headline-count increase is
 inferred. The public results view displays relationship review separately from
 legal status. All earlier records remain unchanged.
 
-Current totals are 1,316 local instruments (1,075 classified active or extended,
-77 pending, 164 past) and 442 state-policy records (95 classified enacted).
+Current totals are 1,317 local instruments (1,075 classified active or extended,
+77 pending, 165 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1316** |
+| Moratoria in the list | **1317** |
 | Classified active or extended | **1075** |
 | Pending or not yet effective | **77** |
-| Ended (replaced, expired, or rescinded) | **164** |
-| Rows we still want to confirm (`[VERIFY]`) | **689** |
+| Ended (replaced, expired, or rescinded) | **165** |
+| Rows we still want to confirm (`[VERIFY]`) | **690** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained

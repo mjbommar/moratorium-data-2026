@@ -1,0 +1,33 @@
+{
+  "state": "passed",
+  "baseline_commit": "398d38e9d9cd56f8fa728fe3cf5ca03c07295c69",
+  "prior_rows_field_identical": 1316,
+  "current_rows": 1317,
+  "new_ids": [
+    "ga-union-county-2026"
+  ],
+  "reviewed_candidates": 8,
+  "distinct_original_body_text_pairs_hash_verified": 9,
+  "separate_ocr_registered_page_text_and_image_pairs_verified": 2,
+  "pdf_pages_visually_reviewed": 7,
+  "html_scope": "Complete Baldwin item/two Alabama articles/Grady WCTV report; Liberty/Pembroke relevant sections only; Bacon/Fannin accessible automated openings/related summaries, not gated full stories.",
+  "canonical_inventory_sha256": "92b009d417782b39c0a6423d7d9d44d060ee19030250a572784239492e8adf2a",
+  "review_sha256": "e0451f3489a44982659c3376b5d3087d54f3bd6d2cf38dff470a26ece00bb5e7",
+  "apply_receipt": "work/audit/apply-20261106T123927.json",
+  "remaining_unreviewed": 81,
+  "reviewed_withheld_cases": 79,
+  "dataset_validation": {
+    "errors": 0,
+    "warnings": 287
+  },
+  "documented_number_checks": 49,
+  "replay": {
+    "rows_added": 0,
+    "duplicate_candidates": 1
+  },
+  "native_store_receipt_sha256": "d77c6bf1530fe7c20753b41a744359c077726aa8b39969563ca17fc741d9e69c",
+  "coordinator_accounting_sha256": "ec44aa292a7a23534335c30739e9f5dbca273eb084c11c7e980a8b6bcfc948f8",
+  "accounting_replay": "byte-identical",
+  "full_build_exit_code": 0,
+  "scope": "Scoped source/data/build checks only; no full freshness, current-force, consumer or release completion claim. Legacy replay currently falls back to jurisdiction/sector because R-prefixed number is not parsed; no distinct candidate was merged here."
+}

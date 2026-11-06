@@ -1,18 +1,19 @@
 {
   "state": "consistent_with_explicit_scope_limits",
-  "ledger_sha256": "da355c627307acebe2d884e1258b916d8e65a7eb5bffe91a964fd3141f9d8341",
-  "inventory_sha256": "4ce203b589826a2cf3992e88422c110375462049d2d98f098408fdf8daae23f7",
+  "ledger_sha256": "a72657a0d931102c5285589154b9bc786b33451189792f2d09c1495d1f6c1217",
+  "inventory_sha256": "92b009d417782b39c0a6423d7d9d44d060ee19030250a572784239492e8adf2a",
   "candidate_count": 185,
   "buckets": {
-    "reviewed_addition": 23,
-    "awaiting_coordinator_review": 89,
-    "reviewed_withheld": 72,
-    "covered_existing": 1
+    "reviewed_addition": 24,
+    "reviewed_withheld": 79,
+    "covered_existing": 1,
+    "awaiting_coordinator_review": 81
   },
-  "reviewed_count": 96,
-  "packet_count": 22,
+  "reviewed_count": 104,
+  "packet_count": 23,
   "packet_sha256": {
     "work/research/2026-11-06/alaska-discovery-review/review.json": "239328a58cf236e6a297200210e129b2f89e52974a592c533610948e2f379f53",
+    "work/research/2026-11-06/alabama-georgia-discovery-review/review.json": "e0451f3489a44982659c3376b5d3087d54f3bd6d2cf38dff470a26ece00bb5e7",
     "work/research/2026-11-06/discovery-coordinator-wave1/review.json": "d4f5c6ccc8b36b547c37b8f79ed8e633abc01d16f67b957c23161fd6d5253c09",
     "work/audit/discovery-distributed-review-2026-11-06.json": "8961e4074c2c9c2de10cd2a1b7120001044167355d6ce0353d17b408bd06433b",
     "work/research/2026-11-06/california-discovery-review/review.json": "20ff797246948d1d0c3f1efa18075ea24ae5b83fd605a72a52c59a13938a424b",
@@ -35,11 +36,11 @@
     "work/research/2026-11-06/washington-discovery-review/review.json": "5121f6ea614245670c9a3d251f3a33fb5c47fd342ef6b584c75a2d8e14bd1b0a",
     "work/research/2026-11-06/sun-prairie-discovery-review/review.json": "c2cf80d4b1f0a117e4b0979f1e72b5dcbcf8605391dd1f7c3370a30abf6595c5"
   },
-  "explicit_candidate_fingerprint_checks": 90,
+  "explicit_candidate_fingerprint_checks": 98,
   "alternate_packet_layout_checks": 6,
-  "distinct_review_source_versions": 94,
-  "source_versions_reverified": 94,
-  "original_discovery_source_versions_reverified": 92,
+  "distinct_review_source_versions": 103,
+  "source_versions_reverified": 103,
+  "original_discovery_source_versions_reverified": 101,
   "followup_source_versions_reverified": 2,
   "source_versions_deferred_to_specific_receipts": 0,
   "verified_original_versions": [
@@ -140,6 +141,14 @@
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
     },
     {
+      "attempt_id": "119acd32e0364d70bcb860aed13f21cf",
+      "body_sha256": "0a8c6a2132c830aa87bedd5260ca00b0500e17dd735d91af3beeed19b75d2c5f",
+      "text_sha256": "18c6d29475e6fef14c09f73697545aafff1722d6e4a91df2668377753695da43",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
       "attempt_id": "130d2993eb844fedbf169cb441c9d8cd",
       "body_sha256": "044c72b2d34a73c653bb07bc66e4521453d229eee5ca8c3d1711d1681aaeb6fc",
       "text_sha256": "470baf295c2187f82fef2bc338aa14b0c30d409a0db272a9c1656d41a62c2bf5",
@@ -159,6 +168,14 @@
       "attempt_id": "173d524cabfe477998111da4e4561ff4",
       "body_sha256": "f7bf3b20212e4fa7e12260778440256521bffe838443c6273e3982770fc87d76",
       "text_sha256": "7e8151dedc114b38085196581d96c32517cee494ce5332cab08a08a293721d59",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
+      "attempt_id": "20b475731e624a70b994caf89fb89644",
+      "body_sha256": "9bd8daba3283e2380f3b6935dadd6ec97ede34ee0f118adecf4cf90e2be1361d",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "review_text_kind": "original extraction",
       "acquisition_scope": "original discovery",
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
@@ -548,6 +565,14 @@
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
     },
     {
+      "attempt_id": "97268f6fbfc34e3bb13a131b20dc6665",
+      "body_sha256": "cc182cb917480ac54f7d5bca193a27e282d2e9aa8c72908d5f53300784243654",
+      "text_sha256": "8c716d95c7934b9ac7cea09bb68e1acd4a5331fdb7f117ee419b192b581b08f9",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
       "attempt_id": "97331128979f45b7b0d1a2d20a8e3fc6",
       "body_sha256": "ed63c1d88fdf758c4134cff3ca6d7ef8fb6bc1bacb8e07f799eda8a07133eeec",
       "text_sha256": "9a79dd91fd6a7836b2f76fa6e1085e8f41e7310cbb72e5f48c4f4550f6cd85dc",
@@ -588,6 +613,14 @@
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
     },
     {
+      "attempt_id": "9ffc2f9455014fc0a13fba225d4f416b",
+      "body_sha256": "43026304b90ffefd84b4bf0f4ec7e1c80d5c2310ea11b1dfc26f28c1a4573f1a",
+      "text_sha256": "8169869e030b5dd30638aa33ef6a715ceadbcf87dd48fc50ea8303c8e3ba5936",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
       "attempt_id": "a4b772e402384586a342e56aff861435",
       "body_sha256": "82fd070e58de73bc71aea3c4f0131550ee1f2d1792190065f1c3ff2e9fa00edb",
       "text_sha256": "7e134d136488cd845a7dbc825eeaf8bfaf8ba1c708520af898c3e3c67dae0abb",
@@ -623,6 +656,14 @@
       "attempt_id": "ba72877dbcc0413fb3b6e333e817826e",
       "body_sha256": "624d60b3b158373ca3420d87eae7a1075d31577100a895bae1b787d3dd43f9c0",
       "text_sha256": "c008b8880b3298825e46c1ba1a92adcec29ce6ea34d3fafd96d80d06773d2732",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
+      "attempt_id": "ba8eb27c2b984b28b2f5dce69c3b1850",
+      "body_sha256": "31b2207959ba24ca404901f0fe5c1b436a1ad2d6bcdde7bbdd02e74b7e4aa741",
+      "text_sha256": "765935622dc1d4d43e07469a0bef3349e22ab2b4a6cf35517fa7fec5afb5e9fa",
       "review_text_kind": "original extraction",
       "acquisition_scope": "original discovery",
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
@@ -676,6 +717,14 @@
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
     },
     {
+      "attempt_id": "d1dbeb2eb5164541a3af3d7b96d4802d",
+      "body_sha256": "3b3de06d20dc9560095af52ad0ff037921c1fc3d7bb28bd5ed76d9e2fd3265fa",
+      "text_sha256": "02b1fe11056ed728567c2062f79fcf29cc5d8c8fd822653196776157418798bd",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
       "attempt_id": "d4a8345535124573aad432a7cc80705f",
       "body_sha256": "b130ad5a608649db5519815f35a7889540e076fd942da765c6793512a6129673",
       "text_sha256": "3e3218ce967f7e9fa90da9f5861229887c196e5b682c176e2ffcb1e7dfe111a1",
@@ -711,6 +760,14 @@
       "attempt_id": "de4404fe3c34480cbea82f337881af48",
       "body_sha256": "9cb9134421d62aa3a71c70f86f3be4c650222adf497457aca3910a2d804bcd28",
       "text_sha256": "acfd57aef646100b1885118bbc0f50ede0e606b0a33e2b324eaceced9e5fb742",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
+      "attempt_id": "df2d84b6740b4c9dbae306e1fc183a69",
+      "body_sha256": "52e33475c54f2ec83c19f9e68e8bd77c5be598b376bbe48753625271af8bcdcb",
+      "text_sha256": "1e38919cbb664df487bb61ef26f0f20d89103c423b642ac1c6a68b784214d371",
       "review_text_kind": "original extraction",
       "acquisition_scope": "original discovery",
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
@@ -764,9 +821,25 @@
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
     },
     {
+      "attempt_id": "f1a4f262bf9d4a8aa1ee181f1265d3a2",
+      "body_sha256": "606d9d756b6b046043379906a83f9655df45d979287697c98cd47960ee010ccb",
+      "text_sha256": "bbce0ab4990095d9e0367861549436b31ba5cd25b35e5bec002d76807a2577a3",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
       "attempt_id": "f2283ae275b14a249a0f14cfe470264b",
       "body_sha256": "3019e956c93078993d94ee0bb345f7cb9746cd1477c579bf75c1e17b1f6c8428",
       "text_sha256": "5130780dc81868e10ec336e0cbb7fbbfa9c71d17228b477cf7ac39431a3f272c",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
+      "attempt_id": "f86d74c25b974446af8b425b6f5c98d4",
+      "body_sha256": "de17d95aa136706f3bedbc13da20072a83a12b219b71b6ee435d93d52be30e5c",
+      "text_sha256": "823677dafa4d1bb7b3d996828dedaacf8121142aee2f57746b30c2629b0af821",
       "review_text_kind": "original extraction",
       "acquisition_scope": "original discovery",
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
@@ -813,6 +886,22 @@
       "review_packet": "work/research/2026-11-06/alaska-discovery-review/review.json",
       "review_packet_sha256": "239328a58cf236e6a297200210e129b2f89e52974a592c533610948e2f379f53",
       "check_scope": "Historical alternate packet layout: existence/hash checked only; no candidate-fingerprint or source verification asserted here."
+    },
+    {
+      "candidate_key": "discovery-al:0",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_final_act_and_operative_history",
+      "review_packet": "work/research/2026-11-06/alabama-georgia-discovery-review/review.json",
+      "review_packet_sha256": "e0451f3489a44982659c3376b5d3087d54f3bd6d2cf38dff470a26ece00bb5e7",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-al:1",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_original_act_and_replacement_relationship",
+      "review_packet": "work/research/2026-11-06/alabama-georgia-discovery-review/review.json",
+      "review_packet_sha256": "e0451f3489a44982659c3376b5d3087d54f3bd6d2cf38dff470a26ece00bb5e7",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
     },
     {
       "candidate_key": "discovery-ar:0",
@@ -988,6 +1077,54 @@
       "disposition": "held_primary_action_evidence",
       "review_packet": "work/research/2026-11-06/discovery-coordinator-wave1/review.json",
       "review_packet_sha256": "d4f5c6ccc8b36b547c37b8f79ed8e633abc01d16f67b957c23161fd6d5253c09",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-ga:0",
+      "bucket": "reviewed_addition",
+      "disposition": "reviewed_historical_instrument_added",
+      "review_packet": "work/research/2026-11-06/alabama-georgia-discovery-review/review.json",
+      "review_packet_sha256": "e0451f3489a44982659c3376b5d3087d54f3bd6d2cf38dff470a26ece00bb5e7",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-ga:1",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_operative_resolution_and_extension",
+      "review_packet": "work/research/2026-11-06/alabama-georgia-discovery-review/review.json",
+      "review_packet_sha256": "e0451f3489a44982659c3376b5d3087d54f3bd6d2cf38dff470a26ece00bb5e7",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-ga:2",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_primary_instrument_and_later_history",
+      "review_packet": "work/research/2026-11-06/alabama-georgia-discovery-review/review.json",
+      "review_packet_sha256": "e0451f3489a44982659c3376b5d3087d54f3bd6d2cf38dff470a26ece00bb5e7",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-ga:3",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_primary_act_and_start_vote_distinction",
+      "review_packet": "work/research/2026-11-06/alabama-georgia-discovery-review/review.json",
+      "review_packet_sha256": "e0451f3489a44982659c3376b5d3087d54f3bd6d2cf38dff470a26ece00bb5e7",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-ga:4",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_primary_city_instrument_and_dates",
+      "review_packet": "work/research/2026-11-06/alabama-georgia-discovery-review/review.json",
+      "review_packet_sha256": "e0451f3489a44982659c3376b5d3087d54f3bd6d2cf38dff470a26ece00bb5e7",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-ga:5",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_original_instrument_and_extension",
+      "review_packet": "work/research/2026-11-06/alabama-georgia-discovery-review/review.json",
+      "review_packet_sha256": "e0451f3489a44982659c3376b5d3087d54f3bd6d2cf38dff470a26ece00bb5e7",
       "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
     },
     {

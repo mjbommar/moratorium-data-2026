@@ -1,0 +1,278 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "baseline_commit": "398d38e9d9cd56f8fa728fe3cf5ca03c07295c69",
+  "baseline_inventory_sha256": "4ce203b589826a2cf3992e88422c110375462049d2d98f098408fdf8daae23f7",
+  "candidates": [
+    {
+      "candidate_key": "discovery-al:0",
+      "candidate_sha256": "a2b4a56c1bc8d076104561f5145f8620eaf03a5251c994b21607065ce970a1ae",
+      "worker_review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76",
+      "coordinator_disposition": "held_final_act_and_operative_history",
+      "rationale": "Complete retained Baldwin Legistar item has Agenda Ready/Addendum status, October 6 agenda date and blank final-action field, recommending Resolution 2027-020. Complete Gulf Coast Media report says unanimous approval and immediate effect, but does not supply signed text/exceptions or independently precise operative interval. Scope is county-zoned areas, not every unincorporated or municipal parcel. Obtain adopted resolution/minutes and later history; no automatic assignment of all renewable technologies or 2013 wind-act identity.",
+      "source_checks": [
+        {
+          "attempt_id": "9ffc2f9455014fc0a13fba225d4f416b",
+          "url": "https://baldwincountyal.legistar.com/LegislationDetail.aspx?GUID=785402D7-8E7F-40F0-A444-43A5CF4BCF2C&ID=8282739&Options=&Search=",
+          "body_sha256": "43026304b90ffefd84b4bf0f4ec7e1c80d5c2310ea11b1dfc26f28c1a4573f1a",
+          "text_sha256": "8169869e030b5dd30638aa33ef6a715ceadbcf87dd48fc50ea8303c8e3ba5936",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              129,
+              227
+            ],
+            "quote_sha256": "2f834fb14d4516cf99bd717fcc3cc7d1fc21075a3fe1a530979e8f5e9766ee77",
+            "scope": "Worker excerpt located against correct original or separately registered OCR text; raw quote private."
+          },
+          "read_scope": "Complete retained extracted notice/article text"
+        },
+        {
+          "attempt_id": "97268f6fbfc34e3bb13a131b20dc6665",
+          "url": "https://gulfcoastmedia.com/stories/baldwin-county-commission-approves-180-day-moratorium-on-rezoning-data-centers-and-renewable,351953",
+          "body_sha256": "cc182cb917480ac54f7d5bca193a27e282d2e9aa8c72908d5f53300784243654",
+          "text_sha256": "8c716d95c7934b9ac7cea09bb68e1acd4a5331fdb7f117ee419b192b581b08f9",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              14,
+              174
+            ],
+            "quote_sha256": "bd6be7940ed27b171bfd88e110149a3f3b463dd4d7c9ca97708562e9736a1bdd",
+            "scope": "Worker excerpt located against correct original or separately registered OCR text; raw quote private."
+          },
+          "read_scope": "Complete retained extracted notice/article text"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-al:1",
+      "candidate_sha256": "3978f44c8e091970dceaaebf4bf2c0a14daf141471f157bc2de62c77c387145d",
+      "worker_review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76",
+      "coordinator_disposition": "held_original_act_and_replacement_relationship",
+      "rationale": "Complete retained 2013 AL.com report describes February 180-day wind-construction moratorium, greater-than-five-kW scope and stated August 17 expiry, followed by two separate wind ordinances for zoned versus unzoned unincorporated areas. Original moratorium, actual vote/effectiveness and exact replacement relationship remain unverified. Do not turn elapsed age or news description into a proven legal transition; distinct from 2026 broader pause.",
+      "source_checks": [
+        {
+          "attempt_id": "d1dbeb2eb5164541a3af3d7b96d4802d",
+          "url": "https://www.al.com/live/2013/08/baldwin_county_wind_farm_ban_p.html",
+          "body_sha256": "3b3de06d20dc9560095af52ad0ff037921c1fc3d7bb28bd5ed76d9e2fd3265fa",
+          "text_sha256": "02b1fe11056ed728567c2062f79fcf29cc5d8c8fd822653196776157418798bd",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              1130,
+              1229
+            ],
+            "quote_sha256": "088d9726ce2b9be8630e2075ecb5bbbea48477bf94389b93850f2bf8549f1124",
+            "scope": "Worker excerpt located against correct original or separately registered OCR text; raw quote private."
+          },
+          "read_scope": "Complete retained extracted notice/article text"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ga:0",
+      "candidate_sha256": "e1e47bcb07f018073e4db966256bb56db0fb58d47be04d9cc11f38f376ebb890",
+      "worker_review_sha256": "86e140ff74409bdc7d5ba69ff75b676475f294c7604b9ce30027e850025be686",
+      "coordinator_disposition": "reviewed_historical_instrument_added",
+      "rationale": "Both Union R-2026-26 scanned pages visually inspected: sole commissioner signature, clerk attestation and seal; April 16, 2026 adoption with 19:00 effectiveness. Imposes 120-day application/development/building-permit pause for cryptocurrency, data-mining sites and data centers, or until repealed by new regulations/ordinances. Original machine extraction empty; registered page OCR separately verified. Accept historical original-fixed-term classification; no exact endpoint, earlier repeal, later extension or present force accepted.",
+      "source_checks": [
+        {
+          "attempt_id": "20b475731e624a70b994caf89fb89644",
+          "url": "https://www.unioncountyga.gov/DocumentCenter/View/855/R-2026-26-1",
+          "body_sha256": "9bd8daba3283e2380f3b6935dadd6ec97ede34ee0f118adecf4cf90e2be1361d",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "review_text_derivation": {
+            "text_sha256": "d3e391071413b24cbf80d6e1ee219b1ee3574b47e874ff022e5738e68324e9c7",
+            "registry_sha256": "c8be98b6d2736a330d140872cf73c3e843d4626bc207d238f8170cb9d141b049",
+            "page": 2,
+            "all_registered_page_text_and_image_hashes_verified": 2,
+            "scope": "Separate registered OCR for empty original extraction, not substituted original text."
+          },
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              513,
+              664
+            ],
+            "quote_sha256": "ed82a11f28c153a2ff241774d43591c2b75cdc1f4b291616791e9fe469fadb56",
+            "scope": "Worker excerpt located against correct original or separately registered OCR text; raw quote private."
+          },
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 2,
+            "render_command": "pdftoppm -scale-to 1450 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "0c8a884cf318843a5942dc93ba3d1a1bba55cbec1c77892f012a7ec22dc0e810"
+              },
+              {
+                "page": 2,
+                "image_sha256": "699a7ca7eb6c63c98ae441951a33fd42c8a7279c1d0b2577f4316ea7a76e6f07"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ga:1",
+      "candidate_sha256": "061cc3403d2adde00c6b3ee4f60d0f070f9d45a079b1e20e8f80768b7e1ce4ab",
+      "worker_review_sha256": "86e140ff74409bdc7d5ba69ff75b676475f294c7604b9ce30027e850025be686",
+      "coordinator_disposition": "held_operative_resolution_and_extension",
+      "rationale": "All five Grady January 6 minutes/agenda PDF pages visually inspected. Page 2 records approved short-term solar-permit resolution motion FA01-02-26 in unincorporated county; FA code is motion identifier, not authenticated resolution number. Page 3 plans January 22 hearing; page 5 execution lines blank. Complete WCTV report says six-month extension and August 6 endpoint, but operative resolution/initial term, primary extension and later history remain needed.",
+      "source_checks": [
+        {
+          "attempt_id": "df2d84b6740b4c9dbae306e1fc183a69",
+          "url": "https://gradycountyga.gov/wp-content/uploads/2026/03/GCBOC_January-6-2026_Minutes.pdf",
+          "body_sha256": "52e33475c54f2ec83c19f9e68e8bd77c5be598b376bbe48753625271af8bcdcb",
+          "text_sha256": "1e38919cbb664df487bb61ef26f0f20d89103c423b642ac1c6a68b784214d371",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              2678,
+              2866
+            ],
+            "quote_sha256": "5b3e381090c9bb030fb20d9b19449f9025185b9ecf66cff18ef01c0ab77284c2",
+            "scope": "Worker excerpt located against correct original or separately registered OCR text; raw quote private."
+          },
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 5,
+            "render_command": "pdftoppm -scale-to 1450 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "47c45ca14678b0418a68b1523e14970ed51a235712d7621d64e0511022cf5f72"
+              },
+              {
+                "page": 2,
+                "image_sha256": "22795830593ca7c0c0a9ca9714163fd0beb07b64e7143cb87601dd14f7c7250b"
+              },
+              {
+                "page": 3,
+                "image_sha256": "02f7673e9097a3e4cc6d1463476d3a91c33409ff4c37ddc61a0b2776c889695b"
+              },
+              {
+                "page": 4,
+                "image_sha256": "fca4c94928b127561afa8ddd98a7afc82af0c0e7f79ddaf8f1b94892576149b5"
+              },
+              {
+                "page": 5,
+                "image_sha256": "d9aee965a3e45c3d7e422aa5beee6f955ca6b35c31ab0ba088b261d780930f8a"
+              }
+            ]
+          }
+        },
+        {
+          "attempt_id": "f1a4f262bf9d4a8aa1ee181f1265d3a2",
+          "url": "https://www.wctv.tv/2026/02/05/grady-county-commissioners-extend-moratorium-solar-farm-permits/",
+          "body_sha256": "606d9d756b6b046043379906a83f9655df45d979287697c98cd47960ee010ccb",
+          "text_sha256": "bbce0ab4990095d9e0367861549436b31ba5cd25b35e5bec002d76807a2577a3",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              124,
+              173
+            ],
+            "quote_sha256": "d091e0275cb4d33fd9bfaa6dc48dffeb6846e4c7e9360e7fc8ad75d0b0bf0b4c",
+            "scope": "Worker excerpt located against correct original or separately registered OCR text; raw quote private."
+          },
+          "read_scope": "Complete retained extracted notice/article text"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ga:2",
+      "candidate_sha256": "6a9535d48534cf97a323646c0708ce77cb0baa795325d05413d9cc0bb405af3b",
+      "worker_review_sha256": "86e140ff74409bdc7d5ba69ff75b676475f294c7604b9ce30027e850025be686",
+      "coordinator_disposition": "held_primary_instrument_and_later_history",
+      "rationale": "Accessible automated Bacon County recap reports November 18, 2025 ninety-day commercial-solar pause and advisory committee; full story signup-gated. Recover original act, adoption/effectiveness, exact scope and extensions/replacement. Do not infer an exact expiry or absence of present restrictions from elapsed time.",
+      "source_checks": [
+        {
+          "attempt_id": "ba8eb27c2b984b28b2f5dce69c3b1850",
+          "url": "https://citizenportal.ai/articles/7654856/georgia/bacon-county/bacon-county-pauses-commercial-solar-approvals-with-90-day-moratorium-and-forms-advisory-committee",
+          "body_sha256": "31b2207959ba24ca404901f0fe5c1b436a1ad2d6bcdde7bbdd02e74b7e4aa741",
+          "text_sha256": "765935622dc1d4d43e07469a0bef3349e22ab2b4a6cf35517fa7fec5afb5e9fa",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              75,
+              153
+            ],
+            "quote_sha256": "7259e7165e9d570a604fa99cb4e95ded3a2d5c8d5645f3261750e305f0a4bca1",
+            "scope": "Worker excerpt located against correct original or separately registered OCR text; raw quote private."
+          },
+          "read_scope": "Accessible recap opening/related summaries only; not full gated story"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ga:3",
+      "candidate_sha256": "5c44ed51a6d17beecd88b17926c39cf113b1497b3a804646418913cbe01a0838",
+      "worker_review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3",
+      "coordinator_disposition": "held_primary_act_and_start_vote_distinction",
+      "rationale": "Relevant retained Statesboro Herald sections report Liberty County unanimous 120-day moratorium beginning October 15; beginning date is not established vote date. Obtain signed county instrument, precise scope/exceptions, operative anchors and later history. Same article as Pembroke is common lineage; no independent support or automatic project applicability.",
+      "source_checks": [
+        {
+          "attempt_id": "f86d74c25b974446af8b425b6f5c98d4",
+          "url": "https://www.statesboroherald.com/local/southeast-georgia-confronts-data-center-wave/",
+          "body_sha256": "de17d95aa136706f3bedbc13da20072a83a12b219b71b6ee435d93d52be30e5c",
+          "text_sha256": "823677dafa4d1bb7b3d996828dedaacf8121142aee2f57746b30c2629b0af821",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              2629,
+              2725
+            ],
+            "quote_sha256": "f2fbd710a38b63df09bdc38e7d52e678ea19c7c21985c3c88d5eee636c6beefd",
+            "scope": "Worker excerpt located against correct original or separately registered OCR text; raw quote private."
+          },
+          "read_scope": "Relevant Liberty/Pembroke regional-report sections; not full article"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ga:4",
+      "candidate_sha256": "b89d44c7cd8bd02c06851e5e5933b9b9fbfe13c5d5b8160aa9f177c38dd9f240",
+      "worker_review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3",
+      "coordinator_disposition": "held_primary_city_instrument_and_dates",
+      "rationale": "Relevant retained Statesboro Herald sections report Pembroke city 180-day data-center pause in first week of October. Distinct from Bryan County and Liberty County; exact adoption/effectiveness, instrument, exemptions and later force unreviewed. Shared regional article is not independent corroboration. Mayor views are not operative legal prohibitions.",
+      "source_checks": [
+        {
+          "attempt_id": "f86d74c25b974446af8b425b6f5c98d4",
+          "url": "https://www.statesboroherald.com/local/southeast-georgia-confronts-data-center-wave/",
+          "body_sha256": "de17d95aa136706f3bedbc13da20072a83a12b219b71b6ee435d93d52be30e5c",
+          "text_sha256": "823677dafa4d1bb7b3d996828dedaacf8121142aee2f57746b30c2629b0af821",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              2949,
+              3040
+            ],
+            "quote_sha256": "4709920dc8f26c3f7a20637a6215821afaaaed8d7fd82035617ea91ec5b26fe2",
+            "scope": "Worker excerpt located against correct original or separately registered OCR text; raw quote private."
+          },
+          "read_scope": "Relevant Liberty/Pembroke regional-report sections; not full article"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ga:5",
+      "candidate_sha256": "1156616b2744d89a31e0703236cbebe3a35eef8db78cc77b2f42507b7ef339b4",
+      "worker_review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3",
+      "coordinator_disposition": "held_original_instrument_and_extension",
+      "rationale": "Accessible automated Fannin recap describes voice-vote crypto application moratorium extension through December 31, 2026; original adoption and actual extension text absent. Related data-center extension and undefined development/distribution/storage transcript item cannot be merged into crypto identity or treated as independently corroborated acts. Obtain original and extension instruments, exact scope and later history; full gated story not reviewed.",
+      "source_checks": [
+        {
+          "attempt_id": "119acd32e0364d70bcb860aed13f21cf",
+          "url": "https://citizenportal.ai/articles/10308517/georgia/fannin-county/fannin-county-pauses-crypto-and-bitcoin-mining-applications-through-dec-31-2026",
+          "body_sha256": "0a8c6a2132c830aa87bedd5260ca00b0500e17dd735d91af3beeed19b75d2c5f",
+          "text_sha256": "18c6d29475e6fef14c09f73697545aafff1722d6e4a91df2668377753695da43",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              1434,
+              1594
+            ],
+            "quote_sha256": "8c20127772f38ea0c613aac91e54f2986051e1b690a2ffe7ceba25d1e5a5b52a",
+            "scope": "Worker excerpt located against correct original or separately registered OCR text; raw quote private."
+          },
+          "read_scope": "Accessible recap opening/related summaries only; not full gated story"
+        }
+      ]
+    }
+  ],
+  "scope": "Eight Alabama/Georgia coordinator reviews; one historical original-term addition and seven withheld. Nine distinct original sources, seven PDF pages; OCR separately registered. No fresh acquisition/current-force renewal."
+}

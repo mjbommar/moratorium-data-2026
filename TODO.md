@@ -14,7 +14,7 @@ Complete phases in dependency order; retain evidence and unresolved dispositions
 - [x] Pin the inspected bc-modules revision, package versions and runtime/dependency configuration.
 - [x] Confirm dataset ownership and exact consumer paths across public, research, site and integration repositories.
 - [x] Establish admitted durable archive and local NVMe database paths; run storage preflight before bulk writes.
-- [x] Map 6,564 current legacy manifest entries to native observations or explicit path gaps; import 3,121 verified-body versions after private CAS link recovery, retaining 3,443 listed-path gaps (initial mapping and subsequent migration/recovery deltas). Of those gaps, 119 are failed acquisitions without a recorded body hash. Other private stores remain incompletely searched; this does not close the full P3 archive gate.
+- [x] Map 6,573 current legacy manifest entries to native observations or explicit path gaps; import 3,130 verified-body versions after private CAS link recovery, retaining 3,443 listed-path gaps (initial mapping and subsequent migration/recovery deltas). Of those gaps, 119 are failed acquisitions without a recorded body hash. Other private stores remain incompletely searched; this does not close the full P3 archive gate.
 - [x] Record the November 5 working-cohort cutoff, record-specific source/legal-force limits and historical 348-extraction/211-jurisdiction pre-April-28 cohort in README, methodology and known gaps; no inventory-wide legal-force renewal is claimed.
 
 Exit: reproducible baseline manifest with unrelated work preserved.
@@ -281,7 +281,7 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Review five North Dakota candidates using three complete retained reports and two Stark PDF pages. Preserve Bowman sector-vote versus instrument-count distinction, Durbin/Harmony identity and Stark’s printed year conflict; no canonical changes (`work/research/2026-11-06/north-dakota-discovery-review/`). Ledger: 117 unreviewed, fifty-two reviewed withheld cases.
 
-- [x] Reconcile all 185 discovery candidates against 22 review packets; verify 90 explicit candidate fingerprints and 94 distinct original/review-text source versions, while retaining six alternate-layout scope limits. Distinguish 23 additions, one covered instrument, 72 reviewed withheld cases and 89 awaiting review (`work/audit/discovery-coordinator-accounting-2026-11-06.md`). This is mechanical accounting, not final freshness or legal-force acceptance.
+- [x] Reconcile all 185 discovery candidates against 23 review packets; verify 98 explicit candidate fingerprints and 103 distinct original/review-text source versions, while retaining six alternate-layout scope limits. Distinguish 24 additions, one covered instrument, 79 reviewed withheld cases and 81 awaiting review (`work/audit/discovery-coordinator-accounting-2026-11-06.md`). This is mechanical accounting, not final freshness or legal-force acceptance.
 
 - [x] Review six Minnesota candidates using ten PDF pages and two report portions; add Pequot Lakes city-reported active from official staff report, preserving unknown adoption and all 1,308 prior rows. Correct Foley signed-copy claim, retain Traverse date and Pipestone effective-date conflicts (`work/research/2026-11-06/minnesota-discovery-review/`). Ledger: 111 unreviewed, fifty-seven reviewed withheld cases.
 
@@ -290,3 +290,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Review eight remaining Colorado candidates, eleven PDF pages and four distinct accessible HTML source texts. Add two distinct Phillips County historical instruments with signed August 27, 2026 extension endpoints and Fort Collins’ unsigned pending proposal; preserve all 1,311 prior rows and five withheld histories (`work/research/2026-11-06/colorado-discovery-review/`). Ledger: 97 unreviewed, 66 reviewed withheld.
 
 - [x] Review eight Indiana candidates, all eight PDF pages and four distinct retained HTML sources at their accessible scope. Add Vermillion County and Zionsville official pending proposals, preserve compound duration/referral stages and all 1,314 prior rows; retain six primary/action-history gaps (`work/research/2026-11-06/indiana-discovery-review/`). Ledger: 89 unreviewed, 72 reviewed withheld.
+
+- [x] Review eight Alabama/Georgia candidates against nine distinct original sources and seven PDF pages; add Union County’s signed historical original-term instrument with separately registered OCR, preserving all 1,316 prior rows. Retain seven scoped act/action/history gaps and shared regional-news lineage (`work/research/2026-11-06/alabama-georgia-discovery-review/`). Ledger: 81 unreviewed, 79 reviewed withheld.
