@@ -1,0 +1,74 @@
+{
+  "status": "applied_build_tests_and_replay_passed",
+  "source": {
+    "attempt_id": "5071717b99d44e4c9e7e766a80cc565b",
+    "url": "https://www.njleg.state.nj.us/bill-search/2026/S3379",
+    "body_sha256": "a5fbb4f1738cd6ea96ed448ff642c7dfdcfb56f239520e4cd6b8558970c13cc5",
+    "text_sha256": "237827d777657a650da172253f301a8e8b03f77f257c757af5ed6fc12e03749c",
+    "reviewed_text_sha256": "3ba136d86b1064962ba9fdffd4e26aae95087b8bf663f7542cc071ea6ccd9a5a"
+  },
+  "derivation": {
+    "attempt_id": "5071717b99d44e4c9e7e766a80cc565b",
+    "source_body_sha256": "a5fbb4f1738cd6ea96ed448ff642c7dfdcfb56f239520e4cd6b8558970c13cc5",
+    "source_text_sha256": "237827d777657a650da172253f301a8e8b03f77f257c757af5ed6fc12e03749c",
+    "derived_text_sha256": "3ba136d86b1064962ba9fdffd4e26aae95087b8bf663f7542cc071ea6ccd9a5a",
+    "method": "Complete rendered DOM text with scripts/styles removed; preserves Primary Sponsor heading omitted by original extraction. Original client text unchanged.",
+    "pages": [
+      1
+    ],
+    "reviewer": "coordinator",
+    "review_status": "accepted_derivation",
+    "reviewed_at": "2026-11-06T13:44:32.467794+00:00",
+    "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+  },
+  "primary_sponsor_quote": "Primary Sponsor:\nRuiz, M. Teresa\nMukherji, Raj\nVenezia, Michael\nHaider, Shama A.\nBagolie, Rosaura",
+  "acquisition_limits": {
+    "chapter_pdf": {
+      "attempt_id": "496483f440ad49c0bfaae88341734bd5",
+      "kind": "fetch",
+      "url": "https://pub.njleg.state.nj.us/Bills/2026/AL26/75_.PDF",
+      "final_url": "https://pub.njleg.state.nj.us/Bills/2026/AL26/75_.PDF",
+      "status": 404,
+      "ok": false,
+      "title": "File or directory not found.",
+      "chars": 160,
+      "body_sha256": "dc1d54dab6ec8c00f70137927504e4f222c8395f10760b6beecfcfa94e08249f",
+      "text_sha256": "c2c031937695909ac067eb36a95b05f7bed1f57d5fb8d588bc149b579c17e09b"
+    },
+    "chapter_index": {
+      "attempt_id": "25899e21369a40ed8e91a790cadc4d96",
+      "kind": "fetch",
+      "url": "https://www.njleg.state.nj.us/chapter-laws",
+      "final_url": "https://www.njleg.state.nj.us/chapter-laws",
+      "status": 200,
+      "ok": true,
+      "title": "Chapter Laws | NJ Legislature",
+      "chars": 2367,
+      "body_sha256": "44f48c3065ac76820126fba1262a5624ff7fb8a3cf3d89b5c227ce605ace49f3",
+      "text_sha256": "fe197ac867cc6ca38a6dd04a56ada60b28801bf8b4c495d0e08d0bf1b97eab87",
+      "browser_controls": {
+        "engine": "pydoll",
+        "headless": false,
+        "settle_ms": 1500
+      }
+    }
+  },
+  "state_policy_before_sha256": "27eee237f17c11843bc81736c5333563483a4bf450b0aa95b0f553162585b5e5",
+  "scope": "One sponsor field correction only; signed final text, effective date, implementation and later legal force unresolved.",
+  "apply_receipt": "work/audit/apply-legislation-20261106T084519.json",
+  "changed_fields": {
+    "nj-s3379-a4096-a4696-2026-2027": [
+      "sponsors"
+    ]
+  },
+  "all_other_rows_preserved": true,
+  "state_policy_after_sha256": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038",
+  "quote_verification": {
+    "span": [
+      1200,
+      1297
+    ],
+    "quote_sha256": "4ef46f9a3885b5a78981fcffaaa03c3a7a67399d94d0114bcca42fba393037bd",
+    "archived_version_matches": true
+  }
+}

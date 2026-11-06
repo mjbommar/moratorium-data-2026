@@ -41,6 +41,7 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
+        "sponsors": { "type": "string", "minLength": 1, "description": "Source-supported sponsor attribution correction; distinguish primary sponsors from co-sponsors." },
         "status": {
           "type": "string",
           "description": "Replacement free-text status, written in the tracker's existing style: action plus ISO date."

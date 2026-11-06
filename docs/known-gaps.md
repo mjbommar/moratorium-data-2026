@@ -73,6 +73,17 @@ jurisdiction, boundary or project applicability. The [review packet](../work/res
 and [post-review screen](../work/audit/ohio-place-coordinate-postreview-2026-11-06.json)
 preserve the evidence and limits.
 
+### New Jersey chapter 75 and implementation
+
+The S3379/A4096 history records approval as P.L.2026, c.75 on August 27.
+The authenticated chapter and its effectiveness/implementation remain unresolved:
+a direct chapter PDF returned 404, and the official chapter-laws index still
+showed a partial Loading view after a bounded browser acquisition. Neither
+response proves document absence. The second reprint's immediate-effect wording
+is not substituted for authenticated final text. A separate primary-sponsor
+correction uses the full rendered bill-history DOM; it does not change legal
+status, effect dates or headline counts. See the [follow-up packet](../work/research/2026-11-06/nj-chapter75-followup/README.md).
+
 ### November discovery and search limits
 
 All 50 state-discovery jobs have returned. Their sector labels and answer schemas
