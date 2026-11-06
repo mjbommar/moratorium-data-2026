@@ -1,0 +1,822 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "scope": "Five voted candidate measures plus separately identified excluded initiative. Five primary/code source versions and one secondary version/nineteen scoped claims. No canonical publication or actual operative force accepted.",
+  "sources": [
+    {
+      "source_document_id": "oh5-review-urbana-return",
+      "url": "https://www.boe.ohio.gov/champaign/c/elecres/20261103results.pdf",
+      "body_sha256": "a3f3f13047fb96adcfab004cde4668c912c0bcab2d3b295a8b0e9df0489dcf43",
+      "text_sha256": "c18597b9c8b0fc217fce52f011d82615165edca4bc932d0b713cacf700fc9d20",
+      "retrieved_at": "2026-11-05T17:18:20.521940+00:00",
+      "attempt_id": "b57a80b5d33442a38b4738fcc9fb6eea"
+    },
+    {
+      "source_document_id": "oh5-review-wilmington-ballot",
+      "url": "https://www.boe.ohio.gov/clinton/c/upload/Election_SampleBallots.pdf",
+      "body_sha256": "431e97f2275de13c9777db0f439017e34b89c651cb3f8f6cbcc7f348d8791af7",
+      "text_sha256": "9fbd2980e7c553de80b3dfa70fb44f3d4da1073df9757646abffe15e2b5eb700",
+      "retrieved_at": "2026-11-05T17:19:30.235188+00:00",
+      "attempt_id": "c5d2f440637c4677a5caccd83edf9930"
+    },
+    {
+      "source_document_id": "oh5-review-wilmington-return",
+      "url": "https://www.boe.ohio.gov/clinton/c/elecres/20261103results.pdf",
+      "body_sha256": "5cfff145c261a87c96cbbd187c5b9132ef05132f617c3b5d087959c250c28c80",
+      "text_sha256": "47919ab34e833e4dbe921584baf5a6547bf833bde5e945189bf31eb0b595731a",
+      "retrieved_at": "2026-11-06T08:40:33.914715+00:00",
+      "attempt_id": "f18453ffc83444a98db789218ff5861a"
+    },
+    {
+      "source_document_id": "oh5-review-court-opinion",
+      "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+      "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+      "text_sha256": "e7090c0c9fd93f85b31c980cfc7e2136041b7323695c0630f57870538f1d09a1",
+      "retrieved_at": "2026-11-06T08:42:16.551387+00:00",
+      "attempt_id": "102f8724b04545539c437b6ae371f005"
+    },
+    {
+      "source_document_id": "oh5-review-urbana-code-overview",
+      "url": "https://codelibrary.amlegal.com/codes/urbana/latest/overview",
+      "body_sha256": "afc1383f8c2aabbb9bfec9b99fb62568e4a26e9629707fef20ea2698c9c58e35",
+      "text_sha256": "c804e5b2f3ed08fb3c10577ad9d85075b7b37227f5d768937f6c9127d8e629da",
+      "retrieved_at": "2026-11-06T08:45:50.626970+00:00",
+      "attempt_id": "4722a3df049c4b1f8785ad8e14cee7dc"
+    },
+    {
+      "source_document_id": "oh5-review-urbana-news-transcription",
+      "url": "https://www.urbanacitizen.com/2026/10/26/anti-data-center-issue-requires-yes-for-passage/",
+      "body_sha256": "9151c477d3a166a618100337cc54b08677059619dec700d6f907b64f309a7684",
+      "text_sha256": "a2e68c0e2f52480d4a9c1b1cc23a3af655e1636884c2bf97a6904aced76adf7f",
+      "retrieved_at": "2026-11-06T08:45:46.121765+00:00",
+      "attempt_id": "989ab5c683cd4823b92af69015b78363"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ohio-wave5-review-01",
+      "source_document_id": "oh5-review-urbana-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e302df1c8d4340f1"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 2978,
+        "no_votes": 877,
+        "source_yes_percent": 77.25,
+        "registered_voters": 7197,
+        "precincts_reporting": 8,
+        "precincts_total": 8,
+        "source_total": 3855,
+        "report_label": "2026G_Summary Report - Unofficial",
+        "source_clock": "2026-11-03 22:12:08; timezone unspecified",
+        "source_turnout_percent": 55.44,
+        "scope": "Named Urbana charter Data Centers contest, not mayoral recall or mayor election. County15807 ballots/26379 registration/31precincts not city. No ballots/blank/under/over inferred from rounded turnout."
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "ohio-wave5-review-02",
+      "source_document_id": "oh5-review-urbana-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e302df1c8d4340f1"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total",
+        "count": 3855,
+        "scope": "Urbana City Charter Amendment - Data Centers"
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "ohio-wave5-review-03",
+      "source_document_id": "oh5-review-wilmington-ballot",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-69327f4efb97924c"
+      },
+      "predicate": "official_ballot_question",
+      "value": {
+        "electorate": "City of Wilmington",
+        "ordinance": "O-26-04",
+        "wording": "Shall Ordinance No. O-26-04 proposing to change the zoning of real property located on SR 730 (119.373 Acres) in the City of Wilmington, Ohio, be approved?",
+        "placement_source_term": "By Petition",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "yes_effect": "A YES vote approves the ordinance.",
+        "no_effect": "A NO vote rejects the ordinance.",
+        "parcel_acres": "119.373",
+        "parcel_location": "SR 730",
+        "zoning_from": "RR (Rural Residential)",
+        "zoning_to": "LI (Light Industrial)",
+        "source_described_council_adoption": "2026-02-19",
+        "scope": "Physical page2, one Wilmington1-A sample style. Description and acreage identify parcel-specific rezoning, not MW threshold, citywide data-center ban, effective date or project approval. Ballot reports council adoption; signed original ordinance not independently reviewed."
+      },
+      "quote": null,
+      "span": "pdf-page:2"
+    },
+    {
+      "claim_id": "ohio-wave5-review-04",
+      "source_document_id": "oh5-review-wilmington-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-69327f4efb97924c"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 739,
+        "no_votes": 2885,
+        "registered_voters": 7383,
+        "source_total": 3624,
+        "source_turnout_percent": 50.89,
+        "report_label": "Clinton County Unofficial Canvass - Summary Report - Final",
+        "source_clock": "2026-11-03 23:01:17; timezone unspecified",
+        "scope": "Named ordinance referendum only. Final is a report label, not certification. County15623 ballots/27368 registered/36precincts not municipal contest totals. No yes percentage, municipal precinct count, ballots, blanks, under/over or formal legal outcome inferred. AB/ED/EV/PR are source columns, not over/undervotes."
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "ohio-wave5-review-05",
+      "source_document_id": "oh5-review-wilmington-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-69327f4efb97924c"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total",
+        "count": 3624,
+        "scope": "Wilmington Referendum Ordinance O-26-04"
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "ohio-wave5-review-06",
+      "source_document_id": "oh5-review-wilmington-ballot",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-8722fc9b4338440b"
+      },
+      "predicate": "official_ballot_question",
+      "value": {
+        "electorate": "City of Wilmington",
+        "ordinance": "O-26-05",
+        "wording": "Shall Ordinance No. O-26-05 proposing to change the zoning of real property located at 1957 SR 730 (65.29 acres) in the City of Wilmington, Ohio, be approved?",
+        "placement_source_term": "By Petition",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "yes_effect": "A YES vote approves the ordinance.",
+        "no_effect": "A NO vote rejects the ordinance.",
+        "parcel_acres": "65.29",
+        "parcel_location": "1957 SR 730",
+        "zoning_from": "RR (Rural Residential)",
+        "zoning_to": "LI (Light Industrial)",
+        "source_described_council_adoption": "2026-02-19",
+        "scope": "Physical page2, one Wilmington1-A sample style. Description and acreage identify parcel-specific rezoning, not MW threshold, citywide data-center ban, effective date or project approval. Ballot reports council adoption; signed original ordinance not independently reviewed."
+      },
+      "quote": null,
+      "span": "pdf-page:2"
+    },
+    {
+      "claim_id": "ohio-wave5-review-07",
+      "source_document_id": "oh5-review-wilmington-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-8722fc9b4338440b"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 732,
+        "no_votes": 2886,
+        "registered_voters": 7383,
+        "source_total": 3618,
+        "source_turnout_percent": 50.89,
+        "report_label": "Clinton County Unofficial Canvass - Summary Report - Final",
+        "source_clock": "2026-11-03 23:01:17; timezone unspecified",
+        "scope": "Named ordinance referendum only. Final is a report label, not certification. County15623 ballots/27368 registered/36precincts not municipal contest totals. No yes percentage, municipal precinct count, ballots, blanks, under/over or formal legal outcome inferred. AB/ED/EV/PR are source columns, not over/undervotes."
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "ohio-wave5-review-08",
+      "source_document_id": "oh5-review-wilmington-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-8722fc9b4338440b"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total",
+        "count": 3618,
+        "scope": "Wilmington Referendum Ordinance O-26-05"
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "ohio-wave5-review-09",
+      "source_document_id": "oh5-review-wilmington-ballot",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-fe9281f5575a2ecc"
+      },
+      "predicate": "official_ballot_question",
+      "value": {
+        "electorate": "City of Wilmington",
+        "ordinance": "O-26-06",
+        "wording": "Shall Ordinance No. O-26-06 proposing to change the zoning of real property located on McGuinn Road (191.12 acres) in the City of Wilmington, Ohio, be approved?",
+        "placement_source_term": "By Petition",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "yes_effect": "A YES vote approves the ordinance.",
+        "no_effect": "A NO vote rejects the ordinance.",
+        "parcel_acres": "191.12",
+        "parcel_location": "McGuinn Road",
+        "zoning_from": "RR (Rural Residential)",
+        "zoning_to": "LI (Light Industrial)",
+        "source_described_council_adoption": "2026-02-19",
+        "scope": "Physical page2, one Wilmington1-A sample style. Description and acreage identify parcel-specific rezoning, not MW threshold, citywide data-center ban, effective date or project approval. Ballot reports council adoption; signed original ordinance not independently reviewed."
+      },
+      "quote": null,
+      "span": "pdf-page:2"
+    },
+    {
+      "claim_id": "ohio-wave5-review-10",
+      "source_document_id": "oh5-review-wilmington-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-fe9281f5575a2ecc"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 724,
+        "no_votes": 2887,
+        "registered_voters": 7383,
+        "source_total": 3611,
+        "source_turnout_percent": 50.89,
+        "report_label": "Clinton County Unofficial Canvass - Summary Report - Final",
+        "source_clock": "2026-11-03 23:01:17; timezone unspecified",
+        "scope": "Named ordinance referendum only. Final is a report label, not certification. County15623 ballots/27368 registered/36precincts not municipal contest totals. No yes percentage, municipal precinct count, ballots, blanks, under/over or formal legal outcome inferred. AB/ED/EV/PR are source columns, not over/undervotes."
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "ohio-wave5-review-11",
+      "source_document_id": "oh5-review-wilmington-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-fe9281f5575a2ecc"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total",
+        "count": 3611,
+        "scope": "Wilmington Referendum Ordinance O-26-06"
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "ohio-wave5-review-12",
+      "source_document_id": "oh5-review-wilmington-ballot",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-2b078533cd352d45"
+      },
+      "predicate": "official_ballot_question",
+      "value": {
+        "electorate": "City of Wilmington",
+        "ordinance": "O-26-07",
+        "wording": "Shall Ordinance No. O-26-07 proposing to change the zoning of real property located on US 68 South (170.11 acres) in Wilmington, Ohio, be approved?",
+        "placement_source_term": "By Petition",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "yes_effect": "A YES vote approves the ordinance.",
+        "no_effect": "A NO vote rejects the ordinance.",
+        "parcel_acres": "170.11",
+        "parcel_location": "US 68 South",
+        "zoning_from": "RR (Rural Residential)",
+        "zoning_to": "LI (Light Industrial)",
+        "source_described_council_adoption": "2026-02-19",
+        "scope": "Physical page2, one Wilmington1-A sample style. Description and acreage identify parcel-specific rezoning, not MW threshold, citywide data-center ban, effective date or project approval. Ballot reports council adoption; signed original ordinance not independently reviewed."
+      },
+      "quote": null,
+      "span": "pdf-page:2"
+    },
+    {
+      "claim_id": "ohio-wave5-review-13",
+      "source_document_id": "oh5-review-wilmington-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-2b078533cd352d45"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 716,
+        "no_votes": 2909,
+        "registered_voters": 7383,
+        "source_total": 3625,
+        "source_turnout_percent": 50.89,
+        "report_label": "Clinton County Unofficial Canvass - Summary Report - Final",
+        "source_clock": "2026-11-03 23:01:17; timezone unspecified",
+        "scope": "Named ordinance referendum only. Final is a report label, not certification. County15623 ballots/27368 registered/36precincts not municipal contest totals. No yes percentage, municipal precinct count, ballots, blanks, under/over or formal legal outcome inferred. AB/ED/EV/PR are source columns, not over/undervotes."
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "ohio-wave5-review-14",
+      "source_document_id": "oh5-review-wilmington-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-2b078533cd352d45"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total",
+        "count": 3625,
+        "scope": "Wilmington Referendum Ordinance O-26-07"
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "ohio-wave5-review-15",
+      "source_document_id": "oh5-review-court-opinion",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "candidate:wilmington-ch1161-2026"
+      },
+      "predicate": "separate_proposed_initiative_scope",
+      "value": {
+        "proponents": [
+          "Quintin Koger Kidd",
+          "Susan Croutwater"
+        ],
+        "proposal": "New Chapter1161 of Wilmington zoning code: data-center/data-center-campus standards",
+        "scope": "Separate citizen initiative with noise, lighting, emissions, generator testing, water/discharge and heat standards plus private enforcement provision; not any of four parcel rezoning referendums. Full original proposal not independently acquired."
+      },
+      "quote": "{\u00b6 1} Relators, Quintin Koger Kidd and Susan Croutwater, filed with city\n\nofficials for the City of Wilmington an initiative petition setting forth a proposed\n\nordinance that would add a new chapter to the Wilmington Zoning Code. The\n\nproposed ordinance would regulate data centers and data-center campuses by\n\nestablishing certain standards for noise, lighting, airborne emissions, generator\u0002\n\ntesting frequency, water use and discharge, and heat generation, among other\n\nthings. It would further make noncompliance with any of those standards a\n\nviolation of the n new chapter and confer on persons living within certain distances a\n\n\u201cprivate right of action\u201d against the data-center owner or operator to enforce\n\ncompliance with the new chapter.",
+      "span": "utf8-text-codepoints:2015:2763"
+    },
+    {
+      "claim_id": "ohio-wave5-review-16",
+      "source_document_id": "oh5-review-court-opinion",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "candidate:wilmington-ch1161-2026"
+      },
+      "predicate": "qualification_history_as_reported_by_court",
+      "value": {
+        "petition_transmitted": "2026-07-13",
+        "boe_valid_signature_determination": {
+          "date": "2026-07-28",
+          "count": 425
+        },
+        "auditor_sufficiency_certification": "2026-08-04",
+        "boe_declines_placement": "2026-08-12",
+        "boe_reaffirms_after_hearing": "2026-08-26",
+        "scope": "Court procedural account; sufficient signatures/auditor certification did not establish final ballot placement. Underlying petition, board minutes and auditor instrument not independently recovered."
+      },
+      "quote": "{\u00b6 8} Relators transmitted the petition papers to the board on July 13, 2026.\n\nOn July 28, the board determined that the petition contained 425 valid signatures\n\n3. R.C. Ch. 713 generally authorizes a municipal legislative authority to establish a planning\n\ncommission for the purpose of adopting and administering zoning regulations. See Schomaeker v.\n\nFirst Natl. Bank of Ottawa, 66 Ohio St.2d 304, 306 (1981); R.C. 713.01.\n\n4. The \u201cseparation distances\u201d are, broadly speaking, between 1,000 and 2,000 feet, measured from\n\nthe data-center structure to existing residences, residential-zoning boundaries, sensitive receptors,\n\nor public-water-supply intakes.\n\n4\n\nand communicated that determination to the Wilmington city auauditor. Two days\n\nlater, Wilmington Law Director Desmond Cullimore sent a letter asking the board\n\nto determine whether the proposed ordinance was within the city\u2019s authority to\n\nenact by initiative. Cullimore, citing our decision in State ex rel. Bolzenius v.\n\nPreisse, 2018-Ohio-3708, expressed the view that the proposed ordinance was not\n\nwithin the city\u2019s initiative power because proposed Section 1161.25 purported to\n\n\u201cconfer a private right of action on affected residents.\u201d\n\n{\u00b6 9} On August 4, the city auditor certified the sufficiency and validity of\n\nthe petition and transmitted the petition papers and related materials to the board.\n\nIn her certification letter, the auditor disclaimed making any determination\n\n\u201cregarding whether the proposed measure falls within the municipal initiative\n\npower.\u201d\n\n{\u00b6 10} On August 12, the board held a special meeting regarding the\n\ninitiative petition to enact Ch. 1161 of the Wilmington Zoning Code. The board\n\nnoted that Section 1161.25 of the proposed ordinance would do the following:\n\n\u201c[give] designated residents and property owners the right to sue data-center\n\napplicants, owners, and operators; establish[] pre-suit notice requirements; create[]\n\nlimitation and repose periods; authorize[] declaratory and injunctive relief,\n\noperational suspension, mitigation orders, and civil penalties; and permit[] attorney\n\nand expert-witness fees.\u201d In view of w what Section 1161.25 would do and in reliance\n\non the advice of outside legal counsel, the board concluded that \u201cthe Initiative . . .\n\ncreates a new private civil cause of action that Wilmington lacks legislative\n\nauthority to enact.\u201d The board voted unanimously to not certify the initiative\n\npetition for placement of the proposed ordinance on the November 3 general\u0002\n\nelection ballot.\n\n{\u00b6 11} Kidd requested that the board hold a hearing to reconsider its\n\ndetermination, and, on August 26, the board held a hearing at which Kidd presented\n\nevidence and argument in support of his position that the initiative petition should\n\n5\n\nbe certified. However, the board ultimately reaffirmed its determination and\n\ndeclined to certify the initiative petition for placement of the proposed ordinance\n\non the November 3 general-election ballot.",
+      "span": "utf8-text-codepoints:6949:9926"
+    },
+    {
+      "claim_id": "ohio-wave5-review-17",
+      "source_document_id": "oh5-review-court-opinion",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "candidate:wilmington-ch1161-2026"
+      },
+      "predicate": "mandamus_disposition",
+      "value": {
+        "case": "State ex rel. Kidd v. Clinton Cty. Bd. of Elections",
+        "case_number": "2026-1165",
+        "slip_opinion": "2026-Ohio-3663",
+        "decision_date": "2026-09-18",
+        "disposition": "Writ denied",
+        "requested_relief": "Compel Board to certify petition and submit proposed ordinance at November3 election",
+        "scope": "Holding of recovered slip opinion; subject to formal revision. Not a defeated voted measure, not a finding all data-center regulation unlawful, and not proof of later legal history or a final election result."
+      },
+      "quote": "{\u00b6 28} For the foregoing reasons, we deny relators\u2019 request for a writ of\n\nmandamus compelling the board to certify the sufficiency and validity of the\n\ninitiative petition and submit the proposed ordinance to the electors at the\n\nNovember 3, 2026 general election.\n\nWrit denied.\n\n__________________",
+      "span": "utf8-text-codepoints:25414:25713"
+    },
+    {
+      "claim_id": "ohio-wave5-review-18",
+      "source_document_id": "oh5-review-urbana-code-overview",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e302df1c8d4340f1"
+      },
+      "predicate": "published_code_cutoff",
+      "value": {
+        "local_legislation_through": "2026-07-21",
+        "state_legislation_through": "2026-03-25",
+        "scope": "Official city links this code host. Its local cutoff predates election; this overview cannot establish November implementation or adopted charter text."
+      },
+      "quote": "Local legislation current through July 21, 2026 | State legislation current through March 25, 2026",
+      "span": "utf8-text-codepoints:14:112"
+    },
+    {
+      "claim_id": "ohio-wave5-review-19",
+      "source_document_id": "oh5-review-urbana-news-transcription",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e302df1c8d4340f1"
+      },
+      "predicate": "secondary_reported_exception",
+      "value": {
+        "source_class": "Local newspaper transcription attributed to proposed ballot text",
+        "reported_exception": "Dedicated computing for one organization/enterprise, wholly owned by that enterprise, enterprise not otherwise in digital information services business, aggregate monthly demand or peak load <7.5MW from any energy source or combination",
+        "scope": "Conjunctive exception as reported by secondary source; not a general7.5MW definition and no25MW threshold imported. Exact official ballot/full proposal remains unrecovered; no primary wording, operative exemption or effect date accepted."
+      },
+      "quote": "whose sole purpose is to serve as a dedicated facility that supports the computing needs of a single organization or enterprise",
+      "span": "utf8-text-codepoints:2664:2791"
+    }
+  ],
+  "visual_reviews": {
+    "ohio-wave5-review-01": {
+      "claim_id": "ohio-wave5-review-01",
+      "source_document_id": "oh5-review-urbana-return",
+      "claim_sha256": "a5062a688d8cb2e2297c73a6ffd41ed94983b9fee1c45583cb4b10a9d6fce810",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 2978,
+        "no_votes": 877,
+        "source_yes_percent": 77.25,
+        "registered_voters": 7197,
+        "precincts_reporting": 8,
+        "precincts_total": 8,
+        "source_total": 3855,
+        "report_label": "2026G_Summary Report - Unofficial",
+        "source_clock": "2026-11-03 22:12:08; timezone unspecified",
+        "source_turnout_percent": 55.44,
+        "scope": "Named Urbana charter Data Centers contest, not mayoral recall or mayor election. County15807 ballots/26379 registration/31precincts not city. No ballots/blank/under/over inferred from rounded turnout."
+      },
+      "source_body_sha256": "a3f3f13047fb96adcfab004cde4668c912c0bcab2d3b295a8b0e9df0489dcf43",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "127cdc06c9248f4b2af3a8c51464a2068c50e1d876933c7cac6a89dcaffddf62"
+    },
+    "ohio-wave5-review-02": {
+      "claim_id": "ohio-wave5-review-02",
+      "source_document_id": "oh5-review-urbana-return",
+      "claim_sha256": "e00a1582d060312c010cf085784023238f1d9db8f121e1d179755d645ee731d9",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total",
+        "count": 3855,
+        "scope": "Urbana City Charter Amendment - Data Centers"
+      },
+      "source_body_sha256": "a3f3f13047fb96adcfab004cde4668c912c0bcab2d3b295a8b0e9df0489dcf43",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "127cdc06c9248f4b2af3a8c51464a2068c50e1d876933c7cac6a89dcaffddf62"
+    },
+    "ohio-wave5-review-03": {
+      "claim_id": "ohio-wave5-review-03",
+      "source_document_id": "oh5-review-wilmington-ballot",
+      "claim_sha256": "af4d852750cf0fb65e771e849419fb415b010a2df07889ebe1e680ace12483f3",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "electorate": "City of Wilmington",
+        "ordinance": "O-26-04",
+        "wording": "Shall Ordinance No. O-26-04 proposing to change the zoning of real property located on SR 730 (119.373 Acres) in the City of Wilmington, Ohio, be approved?",
+        "placement_source_term": "By Petition",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "yes_effect": "A YES vote approves the ordinance.",
+        "no_effect": "A NO vote rejects the ordinance.",
+        "parcel_acres": "119.373",
+        "parcel_location": "SR 730",
+        "zoning_from": "RR (Rural Residential)",
+        "zoning_to": "LI (Light Industrial)",
+        "source_described_council_adoption": "2026-02-19",
+        "scope": "Physical page2, one Wilmington1-A sample style. Description and acreage identify parcel-specific rezoning, not MW threshold, citywide data-center ban, effective date or project approval. Ballot reports council adoption; signed original ordinance not independently reviewed."
+      },
+      "source_body_sha256": "431e97f2275de13c9777db0f439017e34b89c651cb3f8f6cbcc7f348d8791af7",
+      "pdf_page": 2,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 150
+      },
+      "render_sha256": "9eb9f26d09676f04bc5ce7138ab7d7ea323d2de8a6fbafccca55f6aaaef3481c"
+    },
+    "ohio-wave5-review-04": {
+      "claim_id": "ohio-wave5-review-04",
+      "source_document_id": "oh5-review-wilmington-return",
+      "claim_sha256": "d0b7fc29271ec53ac20349bb6a05f706d88744d0732ed13a263a6d4f428f3ec1",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 739,
+        "no_votes": 2885,
+        "registered_voters": 7383,
+        "source_total": 3624,
+        "source_turnout_percent": 50.89,
+        "report_label": "Clinton County Unofficial Canvass - Summary Report - Final",
+        "source_clock": "2026-11-03 23:01:17; timezone unspecified",
+        "scope": "Named ordinance referendum only. Final is a report label, not certification. County15623 ballots/27368 registered/36precincts not municipal contest totals. No yes percentage, municipal precinct count, ballots, blanks, under/over or formal legal outcome inferred. AB/ED/EV/PR are source columns, not over/undervotes."
+      },
+      "source_body_sha256": "5cfff145c261a87c96cbbd187c5b9132ef05132f617c3b5d087959c250c28c80",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "3945ac86915e99adeebf086ec725ea743192a5653653e1583ea1e9843a58711c"
+    },
+    "ohio-wave5-review-05": {
+      "claim_id": "ohio-wave5-review-05",
+      "source_document_id": "oh5-review-wilmington-return",
+      "claim_sha256": "acb3361c10a2f1bf2ac11f6f94278386ac242bd0243a0fcc9606995ca941ad9f",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total",
+        "count": 3624,
+        "scope": "Wilmington Referendum Ordinance O-26-04"
+      },
+      "source_body_sha256": "5cfff145c261a87c96cbbd187c5b9132ef05132f617c3b5d087959c250c28c80",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "3945ac86915e99adeebf086ec725ea743192a5653653e1583ea1e9843a58711c"
+    },
+    "ohio-wave5-review-06": {
+      "claim_id": "ohio-wave5-review-06",
+      "source_document_id": "oh5-review-wilmington-ballot",
+      "claim_sha256": "c00e83c88dc3050843f1cdbbb252e32c610ab56acf28f73f96768e0eb50f3ec4",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "electorate": "City of Wilmington",
+        "ordinance": "O-26-05",
+        "wording": "Shall Ordinance No. O-26-05 proposing to change the zoning of real property located at 1957 SR 730 (65.29 acres) in the City of Wilmington, Ohio, be approved?",
+        "placement_source_term": "By Petition",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "yes_effect": "A YES vote approves the ordinance.",
+        "no_effect": "A NO vote rejects the ordinance.",
+        "parcel_acres": "65.29",
+        "parcel_location": "1957 SR 730",
+        "zoning_from": "RR (Rural Residential)",
+        "zoning_to": "LI (Light Industrial)",
+        "source_described_council_adoption": "2026-02-19",
+        "scope": "Physical page2, one Wilmington1-A sample style. Description and acreage identify parcel-specific rezoning, not MW threshold, citywide data-center ban, effective date or project approval. Ballot reports council adoption; signed original ordinance not independently reviewed."
+      },
+      "source_body_sha256": "431e97f2275de13c9777db0f439017e34b89c651cb3f8f6cbcc7f348d8791af7",
+      "pdf_page": 2,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 150
+      },
+      "render_sha256": "9eb9f26d09676f04bc5ce7138ab7d7ea323d2de8a6fbafccca55f6aaaef3481c"
+    },
+    "ohio-wave5-review-07": {
+      "claim_id": "ohio-wave5-review-07",
+      "source_document_id": "oh5-review-wilmington-return",
+      "claim_sha256": "cb12a46d1f81a7309b721906ce7a84129d7e2d58eecb8bc274bb344e6195fd6b",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 732,
+        "no_votes": 2886,
+        "registered_voters": 7383,
+        "source_total": 3618,
+        "source_turnout_percent": 50.89,
+        "report_label": "Clinton County Unofficial Canvass - Summary Report - Final",
+        "source_clock": "2026-11-03 23:01:17; timezone unspecified",
+        "scope": "Named ordinance referendum only. Final is a report label, not certification. County15623 ballots/27368 registered/36precincts not municipal contest totals. No yes percentage, municipal precinct count, ballots, blanks, under/over or formal legal outcome inferred. AB/ED/EV/PR are source columns, not over/undervotes."
+      },
+      "source_body_sha256": "5cfff145c261a87c96cbbd187c5b9132ef05132f617c3b5d087959c250c28c80",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "3945ac86915e99adeebf086ec725ea743192a5653653e1583ea1e9843a58711c"
+    },
+    "ohio-wave5-review-08": {
+      "claim_id": "ohio-wave5-review-08",
+      "source_document_id": "oh5-review-wilmington-return",
+      "claim_sha256": "5535022b9ba90f5a587c3f8dedc8700642aca47aa1f0b5912db73e4ddee85664",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total",
+        "count": 3618,
+        "scope": "Wilmington Referendum Ordinance O-26-05"
+      },
+      "source_body_sha256": "5cfff145c261a87c96cbbd187c5b9132ef05132f617c3b5d087959c250c28c80",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "3945ac86915e99adeebf086ec725ea743192a5653653e1583ea1e9843a58711c"
+    },
+    "ohio-wave5-review-09": {
+      "claim_id": "ohio-wave5-review-09",
+      "source_document_id": "oh5-review-wilmington-ballot",
+      "claim_sha256": "7212393f5ff388db2238c60615acbcf342ddacae1f598c3187819ffe62a9198f",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "electorate": "City of Wilmington",
+        "ordinance": "O-26-06",
+        "wording": "Shall Ordinance No. O-26-06 proposing to change the zoning of real property located on McGuinn Road (191.12 acres) in the City of Wilmington, Ohio, be approved?",
+        "placement_source_term": "By Petition",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "yes_effect": "A YES vote approves the ordinance.",
+        "no_effect": "A NO vote rejects the ordinance.",
+        "parcel_acres": "191.12",
+        "parcel_location": "McGuinn Road",
+        "zoning_from": "RR (Rural Residential)",
+        "zoning_to": "LI (Light Industrial)",
+        "source_described_council_adoption": "2026-02-19",
+        "scope": "Physical page2, one Wilmington1-A sample style. Description and acreage identify parcel-specific rezoning, not MW threshold, citywide data-center ban, effective date or project approval. Ballot reports council adoption; signed original ordinance not independently reviewed."
+      },
+      "source_body_sha256": "431e97f2275de13c9777db0f439017e34b89c651cb3f8f6cbcc7f348d8791af7",
+      "pdf_page": 2,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 150
+      },
+      "render_sha256": "9eb9f26d09676f04bc5ce7138ab7d7ea323d2de8a6fbafccca55f6aaaef3481c"
+    },
+    "ohio-wave5-review-10": {
+      "claim_id": "ohio-wave5-review-10",
+      "source_document_id": "oh5-review-wilmington-return",
+      "claim_sha256": "a669ec3078edb8315d313008df6c1fe61b41ac1327a6631b8af108b90f7a3790",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 724,
+        "no_votes": 2887,
+        "registered_voters": 7383,
+        "source_total": 3611,
+        "source_turnout_percent": 50.89,
+        "report_label": "Clinton County Unofficial Canvass - Summary Report - Final",
+        "source_clock": "2026-11-03 23:01:17; timezone unspecified",
+        "scope": "Named ordinance referendum only. Final is a report label, not certification. County15623 ballots/27368 registered/36precincts not municipal contest totals. No yes percentage, municipal precinct count, ballots, blanks, under/over or formal legal outcome inferred. AB/ED/EV/PR are source columns, not over/undervotes."
+      },
+      "source_body_sha256": "5cfff145c261a87c96cbbd187c5b9132ef05132f617c3b5d087959c250c28c80",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "3945ac86915e99adeebf086ec725ea743192a5653653e1583ea1e9843a58711c"
+    },
+    "ohio-wave5-review-11": {
+      "claim_id": "ohio-wave5-review-11",
+      "source_document_id": "oh5-review-wilmington-return",
+      "claim_sha256": "ceeb84d5c99d9f1b3771faf94b540ea8edf35fdc65d101c8b8a19f51d12caae3",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total",
+        "count": 3611,
+        "scope": "Wilmington Referendum Ordinance O-26-06"
+      },
+      "source_body_sha256": "5cfff145c261a87c96cbbd187c5b9132ef05132f617c3b5d087959c250c28c80",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "3945ac86915e99adeebf086ec725ea743192a5653653e1583ea1e9843a58711c"
+    },
+    "ohio-wave5-review-12": {
+      "claim_id": "ohio-wave5-review-12",
+      "source_document_id": "oh5-review-wilmington-ballot",
+      "claim_sha256": "76c3e6655e39d56096e449e56148c231b79030a869c8cc18e5659d718921b719",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "electorate": "City of Wilmington",
+        "ordinance": "O-26-07",
+        "wording": "Shall Ordinance No. O-26-07 proposing to change the zoning of real property located on US 68 South (170.11 acres) in Wilmington, Ohio, be approved?",
+        "placement_source_term": "By Petition",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "yes_effect": "A YES vote approves the ordinance.",
+        "no_effect": "A NO vote rejects the ordinance.",
+        "parcel_acres": "170.11",
+        "parcel_location": "US 68 South",
+        "zoning_from": "RR (Rural Residential)",
+        "zoning_to": "LI (Light Industrial)",
+        "source_described_council_adoption": "2026-02-19",
+        "scope": "Physical page2, one Wilmington1-A sample style. Description and acreage identify parcel-specific rezoning, not MW threshold, citywide data-center ban, effective date or project approval. Ballot reports council adoption; signed original ordinance not independently reviewed."
+      },
+      "source_body_sha256": "431e97f2275de13c9777db0f439017e34b89c651cb3f8f6cbcc7f348d8791af7",
+      "pdf_page": 2,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 150
+      },
+      "render_sha256": "9eb9f26d09676f04bc5ce7138ab7d7ea323d2de8a6fbafccca55f6aaaef3481c"
+    },
+    "ohio-wave5-review-13": {
+      "claim_id": "ohio-wave5-review-13",
+      "source_document_id": "oh5-review-wilmington-return",
+      "claim_sha256": "54c9babfacd18063c30a7e7071ef65308f28b3970c5da2199563a5d69e48ef86",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 716,
+        "no_votes": 2909,
+        "registered_voters": 7383,
+        "source_total": 3625,
+        "source_turnout_percent": 50.89,
+        "report_label": "Clinton County Unofficial Canvass - Summary Report - Final",
+        "source_clock": "2026-11-03 23:01:17; timezone unspecified",
+        "scope": "Named ordinance referendum only. Final is a report label, not certification. County15623 ballots/27368 registered/36precincts not municipal contest totals. No yes percentage, municipal precinct count, ballots, blanks, under/over or formal legal outcome inferred. AB/ED/EV/PR are source columns, not over/undervotes."
+      },
+      "source_body_sha256": "5cfff145c261a87c96cbbd187c5b9132ef05132f617c3b5d087959c250c28c80",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "3945ac86915e99adeebf086ec725ea743192a5653653e1583ea1e9843a58711c"
+    },
+    "ohio-wave5-review-14": {
+      "claim_id": "ohio-wave5-review-14",
+      "source_document_id": "oh5-review-wilmington-return",
+      "claim_sha256": "692ec8482749a9a424101b721f242625752415a96973ef622d6f3b822bc4231f",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total",
+        "count": 3625,
+        "scope": "Wilmington Referendum Ordinance O-26-07"
+      },
+      "source_body_sha256": "5cfff145c261a87c96cbbd187c5b9132ef05132f617c3b5d087959c250c28c80",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "3945ac86915e99adeebf086ec725ea743192a5653653e1583ea1e9843a58711c"
+    }
+  },
+  "measures": [
+    {
+      "seed_id": "bp-e302df1c8d4340f1",
+      "name": "Urbana"
+    },
+    {
+      "seed_id": "bp-69327f4efb97924c",
+      "name": "Wilmington O-26-04"
+    },
+    {
+      "seed_id": "bp-8722fc9b4338440b",
+      "name": "Wilmington O-26-05"
+    },
+    {
+      "seed_id": "bp-fe9281f5575a2ecc",
+      "name": "Wilmington O-26-06"
+    },
+    {
+      "seed_id": "bp-2b078533cd352d45",
+      "name": "Wilmington O-26-07"
+    }
+  ],
+  "separate_excluded_initiative": "candidate:wilmington-ch1161-2026",
+  "unresolved": [
+    "Urbana primary ballot and full charter definition/exceptions/placement",
+    "Wilmington original ordinances and independently verified project/infrastructure associations",
+    "Final certified canvasses, implementation, post-election legal effect and litigation",
+    "Separate excluded initiative original text and underlying qualification instruments; no voted result",
+    "Only Wilmington sample style1-A physically reviewed; all96 master pages not substantively reviewed"
+  ]
+}
