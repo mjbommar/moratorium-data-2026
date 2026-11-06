@@ -1,0 +1,142 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "reviewer": "coordinator",
+  "seed_id": "bp-6d363093df2c1d61",
+  "worker_job": "ballot-me-001",
+  "sources": [
+    {
+      "attempt_id": "f7e43cb460d34ab88eda4ca80c1c357b",
+      "url": "https://www.townofnorthberwick.org/DocumentCenter/View/1639/2026-Election--Town-Results",
+      "body_sha256": "b37fa555e6cd7185d6fba490e14520ee010780cdebdaa78b8b026a8736acaee7",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "finished_at": "2026-11-05T17:03:22.064994+00:00"
+    },
+    {
+      "attempt_id": "bafd8a2c6ab442b6b2bc9c383c35d3cc",
+      "url": "https://www.townofnorthberwick.org/DocumentCenter/View/1601/Town-Referdum-November-4-2026",
+      "body_sha256": "43c9c68cdc19e733994f9d1af69b99240ecdc2f9a92a99961e87f6d590373cc6",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "finished_at": "2026-11-05T17:03:22.012789+00:00"
+    },
+    {
+      "attempt_id": "50e9bb5844aa465ba3710c2c1961c3e3",
+      "url": "https://www.townofnorthberwick.org/DocumentCenter/View/1615/November-2026-Referendum",
+      "body_sha256": "a3de6dc7853d48b00510a1ade88dcecfc2b5b6a2e01f51261e3c285f39d4c90d",
+      "text_sha256": "d7f2ae048e754bafafd080e8acbfa23e4a7d0dde6b9f2acdb50563d7c382e08e",
+      "finished_at": "2026-11-05T17:02:41.788795+00:00"
+    },
+    {
+      "attempt_id": "ca777490bd3b45359705444b2e120732",
+      "url": "https://www.townofnorthberwick.org/AgendaCenter/ViewFile/Minutes/_08182026-89",
+      "body_sha256": "dda85d630fbd49b69f645d27889e2782faa5d118591380116d86e81dc373f668",
+      "text_sha256": "0a45a8574ac9f8cb31df9b499217c55536fc9f9d2ba0734990a76c3843e78241",
+      "finished_at": "2026-11-05T17:03:06.006321+00:00"
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "f7e43cb460d34ab88eda4ca80c1c357b",
+      "page": 1,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 1,
+        "dpi": 160
+      },
+      "render_sha256": "320862957b22e75eeac2ec01d45b529e978f2ff74267fcd8d9ff080ee6b57ca9",
+      "finding": "Question 2 yes 2114/no 582; Certified 11/3/2026; signed Christine M. Dudley Town Clerk. No blanks or total ballots shown."
+    },
+    {
+      "attempt_id": "bafd8a2c6ab442b6b2bc9c383c35d3cc",
+      "page": 1,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 1,
+        "dpi": 160
+      },
+      "render_sha256": "7bd1a274b168a509269ab564337596b03cdf291763f12faa75b06bdfe171f099",
+      "finding": "Sample ballot local election Tuesday November 3 2026, Question 2 enactment of proposed zoning amendment to define/prohibit data centers. URL slug November-4 does not override printed election date."
+    },
+    {
+      "attempt_id": "50e9bb5844aa465ba3710c2c1961c3e3",
+      "page": 20,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 20,
+        "dpi": 150
+      },
+      "render_sha256": "34928fa3dedae99fed1c67dfaa45619f5947cf4bed4b7fe6043a1915945418a9",
+      "finding": "Two-part data-center definition, aggregate data center area at least 25000 square feet; accessory server/IT exclusion strictly below 25000. Area includes specified computing infrastructure and associated impervious surfaces."
+    },
+    {
+      "attempt_id": "50e9bb5844aa465ba3710c2c1961c3e3",
+      "page": 21,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 21,
+        "dpi": 150
+      },
+      "render_sha256": "09269ae24532d33cb048e811c9fa0cbd5ce3ce2ee06b104a912a5fa7e431200e",
+      "finding": "Data Center row NO in all eleven listed land-use-table district columns; intent to prohibit in all zoning districts."
+    },
+    {
+      "attempt_id": "ca777490bd3b45359705444b2e120732",
+      "page": 1,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 1,
+        "dpi": 140
+      },
+      "render_sha256": "67ec4136b1bd600ba07e0365a966317e2b4e0f7247133d89148126577fb04fe9",
+      "finding": "August 18 minutes: Planning Board August 13 advancement reported; Select Board motion to approve November ballot questions seconded and approved 3-0."
+    }
+  ],
+  "located_evidence": [
+    {
+      "attempt_id": "50e9bb5844aa465ba3710c2c1961c3e3",
+      "quote": "aggregate data center area of 25,000 square feet or greater.",
+      "span": "utf8-text-codepoints:32592:32652"
+    },
+    {
+      "attempt_id": "50e9bb5844aa465ba3710c2c1961c3e3",
+      "quote": "any other impervious surfaces associated with a data center, including but not limited to access ways,",
+      "span": "utf8-text-codepoints:33500:33602"
+    },
+    {
+      "attempt_id": "ca777490bd3b45359705444b2e120732",
+      "quote": "Selectperson Reed motioned to approve the ballot questions for the November\n\nballot. Selectperson Hall seconded the motion. VOTE: 3-0.",
+      "span": "utf8-text-codepoints:1117:1251"
+    }
+  ],
+  "accepted_source_observations": {
+    "election_date": "2026-11-03",
+    "designation": "Question 2",
+    "wording": "Shall an Ordinance entitled \"Proposed Zoning Ordinance Amendment to Define and Prohibit Data Centers\" be enacted?",
+    "yes_votes": 2114,
+    "no_votes": 582,
+    "yes_no_votes": 2696,
+    "ballots_cast": null,
+    "blank_votes": null,
+    "certification_status": "certified",
+    "certification_date": "2026-11-03",
+    "certifying_authority": "Christine M. Dudley, Town Clerk",
+    "proposed_mechanism": "permanent_prohibition",
+    "threshold": {
+      "operator": "ge",
+      "value": 25000,
+      "unit": "square feet",
+      "measurement_basis": "Aggregate defined Data Center Area, including specified computing/infrastructure floor space and associated impervious surfaces",
+      "aggregation_rule": "aggregate",
+      "scope": "Second of two cumulative data-center definition conditions"
+    },
+    "accessory_exclusion": "Accessory server rooms/IT infrastructure only if aggregate accessory-use area is less than 25000 square feet",
+    "placement_source_term": "Select Board approved November ballot questions 3-0 on August 18"
+  },
+  "unresolved": [
+    "legal bindingness and passage rule/calculated outcome",
+    "executed adopted text and operative date",
+    "later amendments/repeal and current legal force",
+    "legacy restriction identity/instrument link",
+    "canonical field-review, identity and publication gates"
+  ],
+  "scope": "Scoped official-source review. Proposed pages20/21 reviewed; not full review/extraction of all21 pages. Certified counts do not by themselves accept an operative prohibition. No legacy inventory count changes."
+}
