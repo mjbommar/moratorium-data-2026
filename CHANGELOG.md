@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Covington’s signed October 27 renewal takes effect November 7, after the refresh cutoff; continuous coverage from the prior six-month renewal is not established. Enumclaw Ordinance 2833 passage is corrected to February 23, distinct from the March 9 packet and its separately recorded February 24 approval/March 4 publication. Effective-date interactions, continuity and later force remain unresolved.
+
 Burien and Duvall operative calendar terms replace unsupported 365-day encodings. Burien Ordinance 905 states one year from effectiveness and defines its capacity threshold in MVA. Duvall Ordinance 1353 states twelve months in the operative clause and work plan despite a six-month title; that discrepancy and later legal-force questions remain explicit.
 
 Clearfield’s signed Ordinance 2026-13 corrects the vote account: King voted aye and Thompson was absent. The stated 180 days runs from an unspecified effective date; the five-page copy lacks an express operative prohibition section, requiring scope and effective-anchor review. Utah accounting reconciles all nine existing IDs: one bounded correction applied and eight other returns awaiting disposition. Later force remains unresolved.
@@ -188,7 +190,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1070** |
 | Pending or not yet effective | **68** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **626** |
+| Rows we still want to confirm (`[VERIFY]`) | **628** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

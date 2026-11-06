@@ -266,17 +266,17 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 
 - **Type:** City
 - **Status:** 🟢 Extended
-- **Date enacted:** 2024-05-14 (original 12-month BESS moratorium, Ordinance No. 07-2024); renewed six months at a time by Ordinance No. 03-2025, No. 09-2025, and most recently No. 02-2026 (adopted 2026-04-14)
+- **Date enacted:** 2024-05-14 (original 12-month BESS moratorium, Ordinance No. 07-2024); renewed six months at a time by Ordinance No. 03-2025, No. 09-2025, and most recently No. 02-2026 (adopted 2026-04-14); Ordinance No. 09-2026 adopted 2026-10-27, effective 2026-11-07.
 - **Normalized date:** `2024-05-14` (exact)
-- **Duration:** Initial 12 months, renewed in successive six-month increments; the current renewal (Ordinance No. 02-2026) was adopted 2026-04-14 concurrently with a public hearing
+- **Duration:** Ordinance 02-2026 states six months from April 25 effectiveness; Ordinance 09-2026 renews for six months from November 7 effectiveness unless earlier repealed, renewed or modified. Applicability at the November 5 cutoff unresolved.
 - **Current end date:** `2026-10-25`
 - **Sectors:** battery storage
 - **Moratorium ID:** `wa-covington-2024`
-- **Legal basis:** Covington Ordinance No. 07-2024 (2024-05-14, original 12-month BESS moratorium under RCW 35A.63.220/36.70A.390), renewed by Ordinance No. 03-2025, No. 09-2025, and most recently No. 02-2026 (adopted 2026-04-14, six-month renewal with public hearing held the same day)
+- **Legal basis:** Covington Ordinance No. 07-2024 (2024-05-14, original 12-month BESS moratorium under RCW 35A.63.220/36.70A.390), renewed by Ordinance No. 03-2025, No. 09-2025, and most recently No. 02-2026 (adopted 2026-04-14, six-month renewal with public hearing held the same day); Ordinance 09-2026, adopted 2026-10-27 and effective 2026-11-07, renews Ordinance 02-2026.
 - **What prompted it:** BESS facilities present fire, explosion, hazardous-chemical, noise, visual, and wildlife-impact risks not addressed by the City's outdated 'Utility Facility' zoning definition (CMC 18.20.050/18.125.040); City wants to align with King County's BESS siting standards and Dept. of Ecology guidance before permitting such facilities
 - **Affected projects:** Not identified; moratorium is preemptive/study-driven rather than tied to a specific pending project
-- **Detailed status:** Active as of 2026-09-23. BESS permit-application moratorium continuously renewed since May 2024; the current six-month renewal (Ordinance No. 02-2026, adopted 2026-04-14) runs through approximately 2026-10-14 absent a further renewal or repeal.
-- **Outcome:** City of Covington has continuously renewed a battery energy storage system permitting moratorium since Ordinance No. 07-2024 (2024-05-14); most recently renewed by Ordinance No. 02-2026 on 2026-04-14 for an additional six months.
+- **Detailed status:** Ordinance 02-2026 states April 25 effectiveness and a six-month term. Signed Ordinance 09-2026 records October 27 adoption, November 2 publication and November 7 effectiveness, renewing for six months from that date unless earlier repealed, renewed or modified. The renewal is not yet effective at the November 5 cutoff. Any intervening restriction, continuity and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** The City adopted Ordinance 09-2026 on October 27, 2026, to renew Ordinance 02-2026 for six months from its November 7, 2026 effective date. Continuity across the intervening period has not been established.
 
 ### Douglas County
 
@@ -314,17 +314,17 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 
 - **Type:** City
 - **Status:** 🟢 Extended
-- **Date enacted:** 2025-02-24, first reading of Ordinance No. 2806 (the original 12-month BESS moratorium; confirmed via a 2025-04-14 public hearing). Extended 12 additional months from Ordinance 2806's Feb. 24, 2026 expiration by Ordinance No. 2833, which had its public hearing/first reading 2026-02-09 and was adopted 7-0 on second reading 2026-03-09 (not Feb. 23 as previously recorded)
+- **Date enacted:** 2025-02-24, first reading of Ordinance No. 2806 (the original 12-month BESS moratorium; confirmed via a 2025-04-14 public hearing). Extended 12 additional months from Ordinance 2806's Feb. 24, 2026 expiration by Ordinance No. 2833, which had its public hearing/first reading 2026-02-09 and was adopted 7-0 on second reading 2026-02-23
 - **Normalized date:** `2025-02-24` (exact)
-- **Duration:** Originally 12 months (Ordinance 2806); extended 12 additional months from the Feb. 24, 2026 expiration by Ordinance 2833 (adopted on second reading 2026-03-09), running through approximately 2027-02-24
+- **Duration:** Ordinance 2833, passed February 23, 2026, states twelve additional months from Ordinance 2806 expiration February 24, 2026; effective-date/publication interaction and continuity require review.
 - **Current end date:** `2027-02-24`
 - **Sectors:** battery storage
 - **Moratorium ID:** `wa-enumclaw-2025`
-- **Legal basis:** Enumclaw Ordinance No. 2806, adopted on first reading 2025-02-24, imposing a 12-month moratorium on acceptance/processing/approval of BESS facility applications; confirmed via a 2025-04-14 public hearing. Extended 12 additional months from the Feb. 24, 2026 expiration by Ordinance No. 2833, which had its public hearing/first reading 2026-02-09 and was adopted 7-0 on second reading at the March 9, 2026 council meeting (per official minutes; not Feb. 23 as previously recorded, and not 'the same number' -- 2833 is a distinct ordinance number from the original 2806)
+- **Legal basis:** Enumclaw Ordinance No. 2806, adopted on first reading 2025-02-24, imposing a 12-month moratorium on acceptance/processing/approval of BESS facility applications; confirmed via a 2025-04-14 public hearing. Extended 12 additional months from the Feb. 24, 2026 expiration by Ordinance No. 2833, which had its public hearing/first reading 2026-02-09 and was adopted 7-0 on second reading at the February 23, 2026 council meeting (per February 23 minutes included in the March 9 packet; 2833 is distinct from original 2806)
 - **What prompted it:** Concern over a BESS proposed in a residential neighborhood near Matson Middle School in unincorporated King County (which Covington's City Council formally opposed in a letter); fire, health, and environmental risk concerns raised by residents
 - **Affected projects:** A BESS proposed in a residential neighborhood near Matson Middle School, in unincorporated King County near Enumclaw (not within city limits)
-- **Detailed status:** Active as of 2026-09-23. The original 12-month moratorium (Ordinance 2806, adopted 2025-02-24) was extended 12 additional months from its Feb. 24, 2026 expiration by Ordinance 2833, adopted 7-0 on second reading at the March 9, 2026 council meeting (public hearing/first reading held 2026-02-09); runs through approximately 2027-02-24 absent further action.
-- **Outcome:** Enumclaw City Council adopted a 12-month BESS moratorium (Ordinance 2806) on 2025-02-24; following a 2026-02-09 public hearing/first reading, the Council adopted an extension (Ordinance 2833) 7-0 on second reading at the March 9, 2026 meeting, extending the moratorium 12 additional months from the original Feb. 24, 2026 expiration date.
+- **Detailed status:** February 23 minutes in the March 9 packet record Ordinance 2833 second-reading approval 7-0. The signed ordinance records February 23 passage, February 24 approval and March 4 publication; its effective clause requires five days after passage, approval and publication. The term states twelve additional months from Ordinance 2806 expiration February 24, 2026. Continuity, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** Enumclaw City Council adopted a 12-month BESS moratorium (Ordinance 2806) on 2025-02-24; following a 2026-02-09 public hearing/first reading, the Council adopted an extension (Ordinance 2833) 7-0 on second reading at the February 23, 2026 meeting, extending the moratorium 12 additional months from the original Feb. 24, 2026 expiration date.
 
 ### Federal Way
 

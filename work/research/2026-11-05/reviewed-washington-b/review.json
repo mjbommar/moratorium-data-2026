@@ -1,0 +1,104 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "wa-inventory-001": "a4952c1673d701416a3408e77d242c1eebe42f68c97002b659a8a36911134ebe"
+  },
+  "reviewed_answers_sha256": "3c69b6ec66c5e3f38decec1c4bf714984510a961083d5b70e5087835b2a8fcf4",
+  "scope": "Two Washington renewal chronology corrections. Covington future November 7 effective date not treated as operative on November 5; prior April 25 six-month term does not establish continuity. Enumclaw February 23 adoption distinguished from March 9 packet, February 24 approval and March 4 publication, visually checked on signed ordinance page 5. No inferred effective date or continuous force from retrospective term anchor.",
+  "located_evidence": [
+    {
+      "moratorium_id": "wa-covington-2024",
+      "url": "https://www.covingtonwa.gov/Ordinance%20No.%2009-2026.pdf?t=20261028223454733",
+      "quote": "EFFECTIVE: November 7, 2026",
+      "located": [
+        {
+          "attempt_id": "139e8c25f75344a1afcbb63dc2d039a4",
+          "body_sha256": "012d1e479a884fe5a5fb1a3013d6f19377e95a43d8809f68eb3c14b4b0320357",
+          "text_sha256": "dffd9813daa35875c1a4fd4733e6a84bc13e06c534b8c06835a43e987c7a1f8c",
+          "span": [
+            12890,
+            12917
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "wa-covington-2024",
+      "url": "https://www.covingtonwa.gov/Ordinance%20No.%2009-2026.pdf?t=20261028223454733",
+      "quote": "renewed for a period of six months from the effective date of this ordinance, unless earlier",
+      "located": [
+        {
+          "attempt_id": "139e8c25f75344a1afcbb63dc2d039a4",
+          "body_sha256": "012d1e479a884fe5a5fb1a3013d6f19377e95a43d8809f68eb3c14b4b0320357",
+          "text_sha256": "dffd9813daa35875c1a4fd4733e6a84bc13e06c534b8c06835a43e987c7a1f8c",
+          "span": [
+            10777,
+            10869
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "wa-covington-2024",
+      "url": "https://cms2.revize.com/revize/cityofcovington/Ordinance%20No.%2002-2026.pdf?t=20260514192038871",
+      "quote": "EFFECTIVE: April 25, 2026",
+      "located": [
+        {
+          "attempt_id": "1f079713f568453a9f62deffcb777799",
+          "body_sha256": "03afa45d9a44888b3c87c85f529b4ac6fb207a8c198a76efab008b80e1766e5f",
+          "text_sha256": "e0f5bfbb0a5c60e653c7e8bd95ee9d11ec528ff744c4f10cdafa0c53b194b92b",
+          "span": [
+            12740,
+            12765
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "wa-enumclaw-2025",
+      "url": "https://www.cityofenumclaw.net/AgendaCenter/ViewFile/Agenda/_03092026-2327?packet=true",
+      "quote": "LAFLEUR MOVED TO APPROVE ORDINANCE NO. 2833, BESS MORATORIUM\n\nEXTENSION. KOOPMAN FRAZIER SECONDED. MOTION CARRIED 7-0.",
+      "located": [
+        {
+          "attempt_id": "1ec702e61241425880c282b049702cde",
+          "body_sha256": "61329223d64faf51f5726d093113062dfd29b89d0c22575090cc2afdfb0ac7ec",
+          "text_sha256": "3953982cfd9196f27960b1e16ffb3b8caa8cd3eafbb23757d679826206210f5d",
+          "span": [
+            12451,
+            12569
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "wa-enumclaw-2025",
+      "url": "https://ecode360.com/EN4429/laws/LF2621887.pdf",
+      "quote": "This moratorium shall be extended for twelve (12) additional months from the expiration",
+      "located": [
+        {
+          "attempt_id": "2f4521a5acbc40d7b25489769bd3ff1b",
+          "body_sha256": "a5c7c9b079305f30a2657d1ef9b83ea388403ce54d658dd6dab23ce9e6d8b5a7",
+          "text_sha256": "877b93de3aa2ec05bca0bff8affc58113f4ece90b1dd5855f039266007a43a58",
+          "span": [
+            3956,
+            4043
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "139e8c25f75344a1afcbb63dc2d039a4",
+      "page": 5,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "25657256f2bf69f3db0cd0165678cffbc669527aba03c192ad6f2ae7c829c86d"
+    },
+    {
+      "attempt_id": "2f4521a5acbc40d7b25489769bd3ff1b",
+      "page": 5,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "8dba433bd0491dedd4a6b782c9ef37496f4e731997de1c2c9d8ada7aa7bb8cb2"
+    }
+  ]
+}
