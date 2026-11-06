@@ -91,6 +91,7 @@ Exit: accepted pilot report and separately authorized bounded collection scope.
 
 - [ ] Freeze the full-refresh scope matrix, execution-time cutoff and required sibling/consumer dispositions (plan section 9.1).
 - [x] Add a hashed per-record collection/edit accounting snapshot for both canonical inventories, keeping unresolved worker returns, queued jobs, pilot exclusions and apply-ledger changes separate (`scripts/build_refresh_accounting.py`, `work/audit/refresh-record-accounting-2026-11-05.md`). This is not the completed source/current-force freshness funnel.
+- [x] Finish and mechanically audit all 333 distributed `gpt-6.1-terra` queue jobs, with zero running/queued jobs and hashed terminal execution receipt (`work/audit/distributed-queue-terminal-2026-11-05.json`). This records returns for 1,283 assigned local and 434 assigned state-policy IDs; it does not complete substantive review or legal-force verification.
 - [ ] Re-research every existing local inventory ID and publish confirmed/changed/unresolved/not-attempted freshness accounting.
 - [ ] Re-research every state-policy ID and discover new state actions across all 50 states and existing sectors.
 - [ ] Search new local instruments across all 50 states/sectors and document actual jurisdiction/time coverage.

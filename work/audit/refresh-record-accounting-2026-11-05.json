@@ -1,8 +1,8 @@
 {
-  "observed_at": "2026-11-06T00:37:43.466012+00:00",
+  "observed_at": "2026-11-06T01:11:56.217393+00:00",
   "input_sha256": {
     "queue": "176be2a6cf709b787737ad214182d6887462d6c1646e4c235a0ecd9a7a652b69",
-    "return_audit": "c9e8a4e60cd574c6a77fdfb1dd03e1a7b0705e0107752b544308877a215a4b4e",
+    "return_audit": "967578960ec512ad3af77ea3fa377f8f21dfe17456707b4c35a063df5a788012",
     "job_specs": {
       "recovery-ballot-il-001": "ef39ad44e2dd74e95cd533fdf5173ad2fa0c3ba2741644e470ee4f32fcf3c052",
       "recovery-ballot-ks-001": "b9e931e9ed7fcebf790bc15cdab29a38846094a54bf7292e76afa7afb3a821c8",
@@ -594,7 +594,12 @@
       "va-state-policy-003": "e8bf7b95a34c34341933d1dd90a282f26be18db9855bd91752393d62bf01ef80",
       "vt-state-policy-001": "1d4589f25cca01d8471afab7173e83529e90eea37764bfc9459bc8ce32eeae3c",
       "wa-state-policy-001": "9b1b1a211fd1f097e8f6dedcb7c6f1b56b097b23a846abe5c11d118c39014ed2",
-      "wi-state-policy-001": "45a92abac187cf6a73df34722d510fdba93e0a378272d2364fdf23da27ee7dba"
+      "wi-state-policy-001": "45a92abac187cf6a73df34722d510fdba93e0a378272d2364fdf23da27ee7dba",
+      "wv-state-policy-001": "556b4091413a213d280f4e5f43977809be04258ed6e4aba9cb5fa9dc73859763",
+      "wv-state-policy-002": "cac357d0dfc95671c57a40b3a7b89e3081d6773fe464d288970592344c0f42ca",
+      "wv-state-policy-003": "79eeb824fb4f77ae3a95e7aff3bcfb4c1fff16daac1c11bca34284f068453024",
+      "wy-state-policy-001": "0b56666ec2dfe80ccc81cb2bfddeb87986803838500ceb2d8c7ba7c2cb4c6a40",
+      "wy-state-policy-002": "5de0a2ccd09e7037a76e86aa24ecd773c6d8bf8899ab56ca483d0684c8933e43"
     },
     "packets": {
       "ak-inventory-001": "1de89fc198bcb6ed22b2cb5e532e9bd26411a174aafcf35258d46359999529d6",
@@ -956,17 +961,40 @@
       "work/audit/apply-20261105T193517.json": "78083063b7cd6756440edfee0185a73537601552f21f86a960a295355772047b",
       "work/audit/apply-20261105T193621.json": "6f760b25c6e5071d902a2469d551eea6ba6be4d93fd91ffa3dce8db31b662420",
       "work/audit/apply-20261105T193740.json": "67ae77bccd219622eebb4f56829d628588afa7bdda771b6c801dfa22d48c7be9",
+      "work/audit/apply-20261105T193851.json": "87eabb8c6f89d8282763061b6b4669871222210fe666b02e9a3268b1135d2cd8",
+      "work/audit/apply-20261105T193951.json": "10d3c4737bad9c0864565f7518adf5925690af2a648af81d71311b23d1eb3be3",
+      "work/audit/apply-20261105T194112.json": "de989b76abadaac9080ce640ca19d8b94794e1231884b63f09f0345f00a5550b",
+      "work/audit/apply-20261105T194219.json": "4c2347f60f3efbbff0f77104b05bb9f77aebfb573f6d4b19c63515120139fdfe",
+      "work/audit/apply-20261105T194320.json": "ee04df965ba2f6a1ef95dd6afa23e5e9a611fb0461662a47553919d7b254c4c2",
+      "work/audit/apply-20261105T194454.json": "27c22f29b626fda3569577389e4f67b33ad3ee09b72ffa5d0155e3228b79013c",
+      "work/audit/apply-20261105T194602.json": "73dd8d23091c1138aa18ddad0a679e7b137ee4f0d3aa95121a231d11d7af70b4",
+      "work/audit/apply-20261105T194721.json": "987de8b476e0ebb412b5e9bbaeb8c08658825bc30d9fe6fe1f5b47a10e4bc143",
+      "work/audit/apply-20261105T194826.json": "33f81c42c2f3ec9d168a61ca4ca6fe7d895c532fa9c31a691842b2f0d9fed625",
+      "work/audit/apply-20261105T194947.json": "d6bbd870a21829301ba7da927990f0f405a8962aae65ebc53b902a3f08de7ed5",
+      "work/audit/apply-20261105T195115.json": "4c1dbf685b4485ed38b05e4c43cc9a15dbc0f4a44a684a73d9ee3e274933699a",
+      "work/audit/apply-20261105T195220.json": "b61cf2df096c1d4793379ea43ff782145090b3e6999285436afabb9766d1992f",
+      "work/audit/apply-20261105T195344.json": "dffbe50ddfe2a7add2a0f2124db22fb420e68e286fbba08655f5f5604dd7ac8e",
+      "work/audit/apply-20261105T195441.json": "a5fe2baed78a429e76e2d6d32c8c4dbe92b486ccb00602fa5a0b5ad1d051467e",
+      "work/audit/apply-20261105T195550-recovered-spokane.json": "57d83190a88f60d814a0982e6ac8b3aa9715e9fc27cac54aab191dc1a9cc49d5",
+      "work/audit/apply-20261105T195550.json": "21917ed60b321fe19c3734ae3103308d633f6e9ed87035099edea09a7e8a739c",
+      "work/audit/apply-20261105T195854.json": "71a9a7556cc956ffdfb63ac5b1e49910d76ce69b0775868589367351f026ccc1",
+      "work/audit/apply-20261105T200030.json": "f273f868b79bed3002b5a09bc818783b93901c3fc356b285eda299ccd5923cd0",
+      "work/audit/apply-20261105T200136.json": "c71d0aad0a92f6f42a887d88ec45c26ecb2e19f70044a609c278ae8e47e07264",
+      "work/audit/apply-20261105T200317.json": "e01f97103c8a03417015fcefded7dd11e39cb852c3de4e7d1bac6bdd99e89909",
+      "work/audit/apply-20261105T200511.json": "b54a61275bb2e37a1bdc05d9af4f2a59877318942fa3a2d19ad53bb84b389a38",
+      "work/audit/apply-20261105T200634.json": "200c66f88fb1b793dc48d2a4112c3f575405076d3b178aa010efdf0516cbe69c",
+      "work/audit/apply-20261105T200757.json": "e4b0cb9330b24768f2fe78ab9a12f27feb5188ec1b2b7c3454470040156a3093",
+      "work/audit/apply-20261105T201101.json": "ad8632d53460e2fde1a10752f6165fee4dff0897b5e15ae016a72707997b7cf5",
       "work/audit/apply-legislation-20261105T114314.json": "222b8a24cbb2138216bd3e87d508fc67d5a3bafac2674429a58099a189e8204b"
     },
-    "moratorium_inventory.csv": "d20c1da7f136a5d74039a303410e2bbf3b699281739da0c53e1857e752586a34",
+    "moratorium_inventory.csv": "0a6d09a3bfbbfa22934a7b04d5ff97232a6e46a5056fc59c56f5773317a452f1",
     "state_legislation.csv": "0df633feac28eeb31182405d66dc97cca0b609dd2656b15ab929ad306443cbf6"
   },
   "scope": "Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. This is not the completed freshness funnel required for release.",
   "job_counts": {
-    "finished": 328,
-    "running": 3
+    "finished": 333
   },
-  "not_started_jobs": 2,
+  "not_started_jobs": 0,
   "tables": {
     "inventory": {
       "total": 1293,
@@ -977,8 +1005,8 @@
         "not_assigned_in_this_queue": 2
       },
       "editorial_counts": {
-        "no_refresh_apply_change": 907,
-        "has_refresh_apply_change": 386
+        "no_refresh_apply_change": 863,
+        "has_refresh_apply_change": 430
       },
       "records": [
         {
@@ -20193,8 +20221,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T194320.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -20325,8 +20355,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T193851.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -20338,7 +20370,7 @@
               "job_id": "tn-inventory-004",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -20354,7 +20386,7 @@
               "job_id": "tn-inventory-004",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -20370,7 +20402,7 @@
               "job_id": "tn-inventory-004",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -20386,7 +20418,7 @@
               "job_id": "tn-inventory-004",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -20402,11 +20434,13 @@
               "job_id": "tn-inventory-004",
               "collection_stage": "returned_other_outcome",
               "worker_outcome": "corrected",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T193951.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -20418,11 +20452,13 @@
               "job_id": "tn-inventory-004",
               "collection_stage": "returned_other_outcome",
               "worker_outcome": "corrected",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T194454.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -20434,7 +20470,7 @@
               "job_id": "tn-inventory-004",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -20450,11 +20486,13 @@
               "job_id": "tn-inventory-004",
               "collection_stage": "returned_other_outcome",
               "worker_outcome": "corrected",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T193951.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -20469,8 +20507,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T194219.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -20485,8 +20525,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T194112.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -20517,8 +20559,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T194219.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -20565,8 +20609,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T194112.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -20581,8 +20627,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T194112.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -20629,8 +20677,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T194320.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -20661,8 +20711,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T194602.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -20818,7 +20870,7 @@
               "job_id": "ut-inventory-001",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -20834,7 +20886,7 @@
               "job_id": "ut-inventory-001",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -20850,11 +20902,13 @@
               "job_id": "ut-inventory-001",
               "collection_stage": "returned_other_outcome",
               "worker_outcome": "corrected",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T194721.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -20866,7 +20920,7 @@
               "job_id": "ut-inventory-001",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -20882,7 +20936,7 @@
               "job_id": "ut-inventory-001",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -20898,7 +20952,7 @@
               "job_id": "ut-inventory-001",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -20914,7 +20968,7 @@
               "job_id": "ut-inventory-001",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -20930,7 +20984,7 @@
               "job_id": "ut-inventory-001",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -21109,8 +21163,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T194826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21157,8 +21213,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195854.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21173,8 +21231,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195550.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21205,8 +21265,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T200030.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21221,8 +21283,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195854.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21285,8 +21349,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T194947.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21317,8 +21383,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T194826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21333,8 +21401,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T194947.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21349,8 +21419,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195115.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21397,8 +21469,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195220.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21413,8 +21487,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195115.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21429,8 +21505,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195115.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21445,8 +21523,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195220.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21477,8 +21557,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195344.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21493,8 +21575,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195344.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21509,8 +21593,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195344.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21525,8 +21611,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195441.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21541,8 +21629,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195441.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21573,8 +21663,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195854.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21605,8 +21697,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195344.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21621,8 +21715,10 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T200136.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21685,8 +21781,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T195550-recovered-spokane.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21746,7 +21844,7 @@
               "job_id": "wi-inventory-001",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -21762,11 +21860,13 @@
               "job_id": "wi-inventory-001",
               "collection_stage": "returned_other_outcome",
               "worker_outcome": "corrected",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T200634.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21778,11 +21878,13 @@
               "job_id": "wi-inventory-001",
               "collection_stage": "returned_other_outcome",
               "worker_outcome": "corrected",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T200511.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21794,7 +21896,7 @@
               "job_id": "wi-inventory-001",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -21810,11 +21912,13 @@
               "job_id": "wi-inventory-001",
               "collection_stage": "returned_other_outcome",
               "worker_outcome": "corrected",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T200317.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21826,11 +21930,13 @@
               "job_id": "wi-inventory-001",
               "collection_stage": "returned_other_outcome",
               "worker_outcome": "corrected",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T200317.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21842,7 +21948,7 @@
               "job_id": "wi-inventory-001",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -21858,7 +21964,7 @@
               "job_id": "wi-inventory-001",
               "collection_stage": "returned_unresolved",
               "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": false
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -21877,8 +21983,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T200757.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21893,8 +22001,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T200757.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21909,8 +22019,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T201101.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21941,8 +22053,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T200757.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -21957,8 +22071,10 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261105T201101.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting"
         },
         {
@@ -22382,11 +22498,9 @@
     "state_policy": {
       "total": 440,
       "collection_counts": {
-        "returned_other_outcome": 346,
-        "returned_unresolved": 61,
-        "excluded_completed_pilot": 6,
-        "running": 18,
-        "queued": 9
+        "returned_other_outcome": 369,
+        "returned_unresolved": 65,
+        "excluded_completed_pilot": 6
       },
       "editorial_counts": {
         "no_refresh_apply_change": 434,
@@ -28862,13 +28976,13 @@
         {
           "record_id": "wv-hb-2014-2025",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wv-state-policy-001",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -28878,13 +28992,13 @@
         {
           "record_id": "wv-hb-3137-2025",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wv-state-policy-001",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -28894,13 +29008,13 @@
         {
           "record_id": "wv-hb-4822-2026",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_unresolved",
           "jobs": [
             {
               "job_id": "wv-state-policy-001",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_unresolved",
+              "worker_outcome": "unresolvable",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -28910,13 +29024,13 @@
         {
           "record_id": "wv-hb-4832-2026",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_unresolved",
           "jobs": [
             {
               "job_id": "wv-state-policy-001",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_unresolved",
+              "worker_outcome": "unresolvable",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -28926,13 +29040,13 @@
         {
           "record_id": "wv-hb-4854-2026",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wv-state-policy-001",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -28942,13 +29056,13 @@
         {
           "record_id": "wv-hb-4948-2026",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_unresolved",
           "jobs": [
             {
               "job_id": "wv-state-policy-001",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_unresolved",
+              "worker_outcome": "unresolvable",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -28958,13 +29072,13 @@
         {
           "record_id": "wv-hb-4983-2026",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wv-state-policy-001",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -28974,13 +29088,13 @@
         {
           "record_id": "wv-hb-5032-2026",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_unresolved",
           "jobs": [
             {
               "job_id": "wv-state-policy-001",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_unresolved",
+              "worker_outcome": "unresolvable",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -28990,13 +29104,13 @@
         {
           "record_id": "wv-hb-5590-2026",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wv-state-policy-002",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -29006,13 +29120,13 @@
         {
           "record_id": "wv-hb-5620-2026",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wv-state-policy-002",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -29022,13 +29136,13 @@
         {
           "record_id": "wv-sb-583-2025",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wv-state-policy-002",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -29038,13 +29152,13 @@
         {
           "record_id": "wv-sb-623-2026",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wv-state-policy-002",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -29054,13 +29168,13 @@
         {
           "record_id": "wv-sb-652-2026",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wv-state-policy-002",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -29070,13 +29184,13 @@
         {
           "record_id": "wv-sb-658-2026",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wv-state-policy-002",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -29086,13 +29200,13 @@
         {
           "record_id": "wv-sb-695-2026",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wv-state-policy-002",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -29102,13 +29216,13 @@
         {
           "record_id": "wv-sb-803-2025",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wv-state-policy-002",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -29118,13 +29232,13 @@
         {
           "record_id": "wv-sb-857-2025",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wv-state-policy-003",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -29134,13 +29248,13 @@
         {
           "record_id": "wv-sb-907-2025",
           "state": "WV",
-          "collection_stage": "running",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wv-state-policy-003",
-              "collection_stage": "running",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],
@@ -29262,12 +29376,12 @@
         {
           "record_id": "wy-hb0064-2013",
           "state": "WY",
-          "collection_stage": "queued",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wy-state-policy-001",
-              "collection_stage": "queued",
-              "worker_outcome": null,
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
               "job_mechanical_evidence_gate": false
             }
           ],
@@ -29278,12 +29392,12 @@
         {
           "record_id": "wy-hb0067-2010",
           "state": "WY",
-          "collection_stage": "queued",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wy-state-policy-001",
-              "collection_stage": "queued",
-              "worker_outcome": null,
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
               "job_mechanical_evidence_gate": false
             }
           ],
@@ -29294,12 +29408,12 @@
         {
           "record_id": "wy-hb0088-2021",
           "state": "WY",
-          "collection_stage": "queued",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wy-state-policy-001",
-              "collection_stage": "queued",
-              "worker_outcome": null,
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
               "job_mechanical_evidence_gate": false
             }
           ],
@@ -29310,12 +29424,12 @@
         {
           "record_id": "wy-hb0117-2011",
           "state": "WY",
-          "collection_stage": "queued",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wy-state-policy-001",
-              "collection_stage": "queued",
-              "worker_outcome": null,
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
               "job_mechanical_evidence_gate": false
             }
           ],
@@ -29326,12 +29440,12 @@
         {
           "record_id": "wy-hb0155-2026",
           "state": "WY",
-          "collection_stage": "queued",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wy-state-policy-001",
-              "collection_stage": "queued",
-              "worker_outcome": null,
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
               "job_mechanical_evidence_gate": false
             }
           ],
@@ -29342,12 +29456,12 @@
         {
           "record_id": "wy-hb0325-2025",
           "state": "WY",
-          "collection_stage": "queued",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wy-state-policy-001",
-              "collection_stage": "queued",
-              "worker_outcome": null,
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
               "job_mechanical_evidence_gate": false
             }
           ],
@@ -29358,12 +29472,12 @@
         {
           "record_id": "wy-sf0076-2026",
           "state": "WY",
-          "collection_stage": "queued",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wy-state-policy-001",
-              "collection_stage": "queued",
-              "worker_outcome": null,
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
               "job_mechanical_evidence_gate": false
             }
           ],
@@ -29374,12 +29488,12 @@
         {
           "record_id": "wy-sf0091-2026",
           "state": "WY",
-          "collection_stage": "queued",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wy-state-policy-001",
-              "collection_stage": "queued",
-              "worker_outcome": null,
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
               "job_mechanical_evidence_gate": false
             }
           ],
@@ -29390,13 +29504,13 @@
         {
           "record_id": "wy-sf0193-2025",
           "state": "WY",
-          "collection_stage": "queued",
+          "collection_stage": "returned_other_outcome",
           "jobs": [
             {
               "job_id": "wy-state-policy-002",
-              "collection_stage": "queued",
-              "worker_outcome": null,
-              "job_mechanical_evidence_gate": false
+              "collection_stage": "returned_other_outcome",
+              "worker_outcome": "corrected",
+              "job_mechanical_evidence_gate": true
             }
           ],
           "refresh_apply_receipts": [],

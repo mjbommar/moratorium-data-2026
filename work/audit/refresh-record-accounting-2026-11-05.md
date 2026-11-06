@@ -1,15 +1,15 @@
 # Refresh collection and edit accounting
 
-Snapshot: 2026-11-06T00:37:43.466012+00:00. Later jobs and reviews may change these counts.
+Snapshot: 2026-11-06T01:11:56.217393+00:00. All 333 distributed jobs have finished; substantive review remains incomplete.
 
 This is mechanical collection and edit accounting, not the completed release freshness funnel. Schema-valid decisions, located quotes and edits do not establish source authority, complete field coverage or current legal force. Each collection column sums independently to its dataset total.
 
 | Collection stage | Local inventory | State policy |
 |---|---:|---:|
-| Schema-valid unresolved return | 782 | 61 |
-| Schema-valid other worker outcome | 501 | 346 |
-| In running jobs | 0 | 18 |
-| Queued | 0 | 9 |
+| Schema-valid unresolved return | 782 | 65 |
+| Schema-valid other worker outcome | 501 | 369 |
+| In running jobs | 0 | 0 |
+| Queued | 0 | 0 |
 | Excluded as completed pilot | 8 | 6 |
 | Outside this queue | 2 | 0 |
 | Terminal without complete valid return | 0 | 0 |
@@ -17,8 +17,8 @@ This is mechanical collection and edit accounting, not the completed release fre
 
 | Edit-ledger observation | Local inventory | State policy |
 |---|---:|---:|
-| Has a November 5 apply-ledger change | 386 | 6 |
-| No matching November 5 apply-ledger change | 907 | 434 |
+| Has a November 5 apply-ledger change | 430 | 6 |
+| No matching November 5 apply-ledger change | 863 | 434 |
 
 The edit dimension counts records with at least one logged change. It does not count completed reviews or confirm that every field is current. Both inventory and legislation ledger formats are included; older receipts are excluded.
 

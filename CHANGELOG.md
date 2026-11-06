@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+All 333 distributed gpt-6.1-terra jobs are terminal, with zero queued/running jobs. The fresh mechanical audit accounts for returns covering 1,283 assigned local and 434 assigned state-policy records, including 782 and 65 unresolved outcomes respectively. Historical apply receipts cover 430 local IDs and six policy IDs; these counts are edits, not completed freshness reviews. Ballot census, full evidence extraction, current-force review and publication remain open.
+
 Door County’s May 26 minutes, included in the June 23 packet, establish a carried vote and up-to-twelve-month term. Greenville’s reproduced text provides twelve months or earlier effective regulations; final execution/publication remains unresolved, so actual term classification is unknown. Unsupported fixed-day encodings are cleared without inferring later extensions or current force.
 
 Dane, Dodge and Green County calendar terms replace unsupported day counts. Dane’s release identifies Sub 1 to 2026 RES-039 before executive consideration, Dodge’s report limits coverage to thirteen county-zoning towns, and Green’s administrator summary identifies Ordinance 26-0703. Final operative details and later force remain unresolved.
