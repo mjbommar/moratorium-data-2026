@@ -1,0 +1,141 @@
+{
+  "state_abbrev": "WA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wa-north-bend-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://northbendwa.gov/m/newsflash/Home/Detail/2666",
+          "source_type": "other",
+          "quote": "On May 19, 2026, the North Bend City Council voted unanimously to approve an ordinance enacting a 12-month moratorium related to Battery Energy Systems (BESS) storage within city limits.",
+          "supports": "Adoption and calendar term; not evidence of current force."
+        }
+      ],
+      "notes": "Original adoption supported; current legal status remains unresolved.",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The source expresses a calendar term; do not substitute a fixed number of days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The source expresses a calendar term; do not substitute a fixed number of days."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. 12-month BESS permitting moratorium adopted 2026-05-19; the City also formally objected to the Jupiter Power BESS siting via a letter to the Washington Utilities and Transportation Commission (filed before the May 26, 2026 comment deadline).",
+          "to": "The city announcement reports unanimous May 19 adoption of a twelve-month BESS moratorium within city limits. Its separate objection to a proposed facility in unincorporated King County does not extend the moratorium jurisdiction. Final operative wording and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    },
+    {
+      "moratorium_id": "wa-pasco-undated",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://classifieds.mcclatchy.com/marketplace/tricity/advert/-Notices_236246",
+          "source_type": "other",
+          "quote": "imposing a six-month moratorium on the acceptance and processing of Business licenses and/or development permit applications",
+          "supports": "City published ordinance summary gives calendar term.",
+          "document_date": "2026-07-26"
+        }
+      ],
+      "notes": "Published city summary supports a six-month term; official document portal did not yield readable ordinance text; later action unresolved.",
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "The source expresses a calendar term; do not substitute a fixed number of days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The source expresses a calendar term; do not substitute a fixed number of days."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Confirmed via the City of Pasco's own Laserfiche records portal (Ordinance No. 4850, adopted 2026-07-20) and Tri-City Herald reporting on the required 2026-09-08 public hearing, at which no formal extension or other action was taken; the six-month term runs to approximately 2027-01-20 absent further Council action. City staff plan to present a recommended data-center ordinance to Council no later than December 2026.",
+          "to": "The city published summary identifies Ordinance 4850 and a six-month application moratorium for new data centers and specified high-density computing uses, with immediate effect upon adoption. Full ordinance, exact operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    },
+    {
+      "moratorium_id": "wa-pierce-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.piercecountywa.gov/m/newsflash/home/detail/7241",
+          "source_type": "other",
+          "quote": "The emergency moratorium takes effect once the Executive signs it and will remain in place for one year, unless extended or lifted by the Council.",
+          "supports": "Calendar-year term conditional on signature; historic announcement.",
+          "document_date": "2026-08-26"
+        },
+        {
+          "url": "https://online.co.pierce.wa.us/cfapps/council/iview/proposal.cfm?proposal_num=O2026-557",
+          "source_type": "legislature",
+          "quote": "Effective: August 27, 2026",
+          "supports": "Legislative record identifies the effective date; the separate news item misprints the number."
+        }
+      ],
+      "notes": "Official legislative portal identifies O2026-557 and effective date August 27; council news text says 2026-577 but links to 557. No current-status confirmation.",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The source expresses a calendar term; do not substitute a fixed number of days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The source expresses a calendar term; do not substitute a fixed number of days."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Prohibits filing, processing, or approval of permits for new and expanded data centers exceeding 10 megawatts in unincorporated Pierce County for up to one year from the Executive's signature; a public hearing is scheduled for 2026-10-20. No hyperscale data center applications were pending as of adoption; the Planning & Public Works Department is developing permanent regulations.",
+          "to": "The legislative record identifies O2026-557, August 25 passage and August 27 effectiveness; the council announcement describes a one-year term unless extended or lifted but misprints the instrument as 2026-577. October 20 hearing outcome, final operative details and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    },
+    {
+      "moratorium_id": "wa-skagit-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.skagitcounty.net/Common/Documents/LFDocs/COMMISSIONERS000039/00/00/0b/00000b44.pdf",
+          "source_type": "ordinance",
+          "quote": "The moratorium created by this ordinance shall be effective for six( 6) months.",
+          "supports": "Ordinance specifies calendar months.",
+          "document_date": "2026-06-01"
+        }
+      ],
+      "notes": "Signed ordinance supplies original six-month term; renewal, replacement and current force not established.",
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "The source expresses a calendar term; do not substitute a fixed number of days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The source expresses a calendar term; do not substitute a fixed number of days."
+        },
+        "current_status": {
+          "from": "In effect in unincorporated Skagit County (outside incorporated cities and towns); a public hearing required under RCW 36.70A.390 was held 2026-07-14.",
+          "to": "The original ordinance states immediate effect upon passage and six months, with renewal permitted after a subsequent hearing and findings and an exception for vested applications. Later renewal, replacement, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    }
+  ],
+  "new_candidates": []
+}

@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+North Bend, Pasco, Pierce County and Skagit County calendar terms replace unsupported fixed-day encodings. North Bend’s city-limits pause remains distinct from its nearby-project objection; Pasco evidence is a published ordinance summary. Pierce’s legislative record identifies O2026-557 and August 27 effectiveness despite the announcement’s 577 misprint. Later hearings, amendments and current force remain unresolved.
+
 La Conner’s conditional term is corrected from an unconditional six-month minimum to its hearing/findings, earlier-task-completion and council-termination provisions. Mount Vernon’s September 23 Ordinance 3946 adoption is recorded while the minutes’ additional-six-month description conflicts with the unexecuted packet’s maximum measured from Ordinance 3943. Unsupported fixed-day encodings are cleared; final term and later force remain unresolved.
 
 Federal Way, Marysville and Lincoln County calendar terms replace unsupported fixed-day encodings. Federal Way’s signed execution records July 7 adoption/effectiveness; Lincoln’s clerk notice fixes adoption at September 8. Marysville’s immediate-effect duration section conflicts with its five-days-after-publication clause, so the effective anchor remains unresolved. Later legal force remains unverified.
@@ -194,7 +196,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1070** |
 | Pending or not yet effective | **68** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **633** |
+| Rows we still want to confirm (`[VERIFY]`) | **637** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
