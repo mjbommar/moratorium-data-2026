@@ -1,0 +1,105 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "scope": "Selected official-certificate scope only; no certification of Wrightstown measure accepted.",
+  "sources": [
+    {
+      "source_document_id": "wi-canvass-scope-outagamie",
+      "url": "https://www.outagamie.gov/files/a9870bc9-3f2d-4fe4-9839-273fe383170f/August-11-2026-Partisan-Primary-Election-Official-Canvass-Results-County-Contests.pdf",
+      "body_sha256": "9349509335ae193a58044704e2306d97629ad422e0f126821ea70ed20410bdea",
+      "text_sha256": "f91a79768c16e9ec08d8852e405e5057276aa9596198561e40f4d22f9b1176d3",
+      "retrieved_at": "2026-11-06T09:19:16.761412+00:00",
+      "attempt_id": "c169113b2129484e9b4ce68021b993b7",
+      "source_role": "Official scanned county-contest canvass; selected scope/certificate pages reviewed, no Wrightstown result certification inferred"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "wi-canvass-scope-01",
+      "source_document_id": "wi-canvass-scope-outagamie",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-600aa3ed4c4fee20"
+      },
+      "predicate": "canvass_selected_scope_page",
+      "value": {
+        "document": "2026PartisanPrimary OutagamieCounty SummaryStatement of Board of Canvassers",
+        "selected_contests": [
+          "CountySheriff partisan nominations",
+          "CountyClerk of CircuitCourt partisan nominations"
+        ],
+        "report_generated_clock": "8/18/2026 2:01:40PM; timezone unspecified",
+        "scope": "Physicalpage1 of28, printed1of3. ALL CONTESTS is a document heading, not proof this certifies every municipal referendum. No named Wrightstown result on selected page; no complete-document absence claim."
+      },
+      "quote": null,
+      "span": "pdf-page:1"
+    },
+    {
+      "claim_id": "wi-canvass-scope-02",
+      "source_document_id": "wi-canvass-scope-outagamie",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-600aa3ed4c4fee20"
+      },
+      "predicate": "document_certificate_scope",
+      "value": {
+        "document_certificate_date": "2026-08-18",
+        "document_certificate": "Board certifies attached tabular statement and summary compiled from original returns",
+        "scope": "Physicalpage28. Certificate page does not itself identify Wrightstown referendum or its vote totals. This date is not accepted as village referendum certification date. Full28page OCR is an extraction diagnostic, not full legal or visual review."
+      },
+      "quote": null,
+      "span": "pdf-page:28"
+    }
+  ],
+  "visual_reviews": {
+    "wi-canvass-scope-01": {
+      "claim_id": "wi-canvass-scope-01",
+      "source_document_id": "wi-canvass-scope-outagamie",
+      "claim_sha256": "bd6a876bc3ae9bd13da12811cca5bc9a5e2d5d992ac97fa60f19dc34b65f6f24",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "document": "2026PartisanPrimary OutagamieCounty SummaryStatement of Board of Canvassers",
+        "selected_contests": [
+          "CountySheriff partisan nominations",
+          "CountyClerk of CircuitCourt partisan nominations"
+        ],
+        "report_generated_clock": "8/18/2026 2:01:40PM; timezone unspecified",
+        "scope": "Physicalpage1 of28, printed1of3. ALL CONTESTS is a document heading, not proof this certifies every municipal referendum. No named Wrightstown result on selected page; no complete-document absence claim."
+      },
+      "source_body_sha256": "9349509335ae193a58044704e2306d97629ad422e0f126821ea70ed20410bdea",
+      "pdf_page": 1,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 1,
+        "dpi": 150
+      },
+      "render_sha256": "2b5db33f15e0b1a2f827abfa23c87513da83316de30997a6fc57e4ea75856313"
+    },
+    "wi-canvass-scope-02": {
+      "claim_id": "wi-canvass-scope-02",
+      "source_document_id": "wi-canvass-scope-outagamie",
+      "claim_sha256": "fb6386e5a3f071df8ddd253d1830e9c1d2b3f037d5e6d744dea6186d34ccaa50",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "document_certificate_date": "2026-08-18",
+        "document_certificate": "Board certifies attached tabular statement and summary compiled from original returns",
+        "scope": "Physicalpage28. Certificate page does not itself identify Wrightstown referendum or its vote totals. This date is not accepted as village referendum certification date. Full28page OCR is an extraction diagnostic, not full legal or visual review."
+      },
+      "source_body_sha256": "9349509335ae193a58044704e2306d97629ad422e0f126821ea70ed20410bdea",
+      "pdf_page": 28,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 28,
+        "dpi": 150
+      },
+      "render_sha256": "ccd631b2620896689ab0f5c3de61df42fef83fd28083bf7bbde91f31b51ac0a3"
+    }
+  },
+  "unresolved": [
+    "Named municipal referendum final canvass and certification date",
+    "Exact final ballot and complete village/county qualification history",
+    "Selected pages do not establish exhaustive absence from all attachments"
+  ]
+}
