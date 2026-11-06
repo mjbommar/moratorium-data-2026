@@ -86,7 +86,22 @@ def render(rows, snapshot):
         lines += ['', 'Reviewed accounting discrepancies below retain source values without filling unknown vote categories.']+accounting_notes
     no_results=set(rows['ballot_measures'])-{r['measure_id'] for r in live}
     if no_results:
-        lines += ['',f'{len(no_results)} reviewed measures have no current result observation; absence is not a defeated or unqualified measure.']
+        noun='measure has' if len(no_results)==1 else 'measures have'
+        lines += ['',f'{len(no_results)} reviewed {noun} no current result observation; absence is not a defeated or unqualified measure.']
+        lines += ['', '| Measure | Election | Lifecycle |', '|---|---|---|']
+        for mid in sorted(no_results):
+            measure=rows['ballot_measures'][mid]
+            jurisdiction=rows['jurisdictions'][measure['jurisdiction_id']]
+            election=rows['elections'][measure['election_id']]
+            title=jurisdiction['name']+', '+jurisdiction['state']+' — '+(measure['designation'] or measure['title'] or 'undesignated')
+            supporting=sorted((c for c in rows['claims'].values()
+                               if c['subject']=={'table':'ballot_measures','id':mid}
+                               and c['source_document_id'] in rows['source_documents']),
+                              key=lambda c:c['claim_id'])
+            label=(f"[{title}](<{citation(rows['source_documents'][supporting[0]['source_document_id']])}>)"
+                   if supporting else title)
+            date=election['election_date']['earliest'] if election['election_date']['precision']=='day' else (election['election_date']['original_text'] or 'unknown')
+            lines.append('| '+' | '.join(cell(v) for v in [label,date,measure['lifecycle'].replace('_',' ')])+' |')
     lines += ['', 'Reported outcomes and certification are separate from calculated passage rules, operative dates and legal force. '
               'A reported approval does not automatically add an in-force legacy moratorium. '
               'See [scope and interpretation](ballot-measures.md) for unresolved legal implementation.','',

@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-06",
   "reviewer": "coordinator",
-  "canonical_snapshot": "35c63b2af3624ce09b79a9b2916876c40273dfebcac6247d77664c08bf5106a3",
+  "canonical_snapshot": "90ec9c224b51b95389719843e1b7cab2f6470fe4f8736e0d378a25b8531ede0f",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 44,
-    "groups_pending_candidate_review": 12
+    "groups_with_scoped_canonical_publication": 46,
+    "groups_pending_candidate_review": 10
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -791,12 +791,14 @@
           "staged_measure_id": "ballot-nd-001::bp-e0efdc31b0b81e45"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "c090f5d2-9808-47f2-a893-2cfb434abd20",
+      "publication_plan": "work/research/2026-11-06/north-dakota-ballot-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/north-dakota-ballot-primary-review/review.json",
       "primary_review_packet_sha256": "22afc8a16d54ae489d0459993261f8e5a7182792265b2b6e3ac54b6d71d7ecc5",
-      "primary_review_status": "scoped_primary_review_not_published"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "publication_plan_sha256": "9239262a23c1fc87a86fe888e191ea5e21258c2f5c46569c2b28aa4ec4c35910",
+      "canonical_record_sha256": "75408ee4da1615501bd74d0193a788ee520ccfaf8846503a3ae4f35ee9f08c4f"
     },
     {
       "logical_group_id": "bp-e302df1c8d4340f1",
@@ -875,12 +877,14 @@
           "staged_measure_id": "ballot-nd-001::bp-f7852025abec20c9"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "9c3fc4c8-b492-452f-894a-142b317c3c8f",
+      "publication_plan": "work/research/2026-11-06/north-dakota-ballot-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/north-dakota-ballot-primary-review/review.json",
       "primary_review_packet_sha256": "22afc8a16d54ae489d0459993261f8e5a7182792265b2b6e3ac54b6d71d7ecc5",
-      "primary_review_status": "scoped_primary_review_not_published"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "publication_plan_sha256": "9239262a23c1fc87a86fe888e191ea5e21258c2f5c46569c2b28aa4ec4c35910",
+      "canonical_record_sha256": "02166163c1e429eb38ad91e58eb18db30363d7c37a79cc6a2e0404bba0916ee8"
     },
     {
       "logical_group_id": "bp-f911c9d773a7b0e7",

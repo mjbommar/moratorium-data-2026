@@ -11,6 +11,22 @@ from build_ballot_summary import render
 SNAPSHOT='7b960c58dd52c2f643647e306616966d4590a652c0b9caf11c108ea2edc3f421'
 
 class BallotSummaryTests(unittest.TestCase):
+    def test_scheduled_measure_is_listed_without_creating_a_result(self):
+        measure=copy.deepcopy(self.rows['ballot_measures'][self.result['measure_id']])
+        measure.update(measure_id='future-measure',election_id='future-election',
+                       designation='Future ordinance',lifecycle='scheduled')
+        election=copy.deepcopy(self.rows['elections'][self.rows['ballot_measures'][self.result['measure_id']]['election_id']])
+        election.update(election_id='future-election',election_date=dict(
+            earliest='2026-12-15',latest='2026-12-15',precision='day',original_text='December15'))
+        self.rows['ballot_measures']['future-measure']=measure
+        self.rows['elections']['future-election']=election
+        text=render(self.rows,SNAPSHOT)
+        self.assertIn('3 reviewed measure records · 2 current result observations',text)
+        self.assertIn('1 reviewed measure has no current result observation',text)
+        self.assertIn('Future ordinance | 2026-12-15 | scheduled |',text)
+        self.assertNotIn('2026-12-15 | scheduled | 0',text)
+        self.assertEqual(len(self.rows['measure_results']),3)
+
     def test_named_county_parts_remain_visible_and_are_never_summed(self):
         self.result.update(yes_votes=106, no_votes=899,
                            reporting_scope={'kind':'jurisdiction_part','description':'Brown County portion'})
