@@ -1008,10 +1008,11 @@
       "work/audit/apply-legislation-20261106T000919.json": "c596af153305ab0135f215ac66482fce77d0dc38613ddf2a33d39a238dbcc3ea",
       "work/audit/apply-legislation-20261106T001307.json": "6832f3ce36620eb25de3eaa6147fc6e61e8c165a46c45530be53b7ef9eb30ac2",
       "work/audit/apply-legislation-20261106T001755.json": "5f86e35f128c450612a699ff1f23f8c6c12fa7c06734bbb64548c5cf2da2bfb6",
-      "work/audit/apply-legislation-20261106T002343.json": "cce6016ebcee83046dcca9422bea0e45d3fed3379ae19232fdc174c7798eacdc"
+      "work/audit/apply-legislation-20261106T002343.json": "cce6016ebcee83046dcca9422bea0e45d3fed3379ae19232fdc174c7798eacdc",
+      "work/audit/apply-legislation-20261106T084519.json": "2b8d7a459a25ac991a8a7ddde95f14b8c770f48cf86ceeb32677f8b814b81638"
     },
     "moratorium_inventory.csv": "ef4a688ec8571fbd9c16369fee717d9e7a3986f098284b0f0dca7a1dbf998121",
-    "state_legislation.csv": "27eee237f17c11843bc81736c5333563483a4bf450b0aa95b0f553162585b5e5"
+    "state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038"
   },
   "scope": "Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. This is not the completed freshness funnel required for release.",
   "job_counts": {
@@ -41386,7 +41387,8 @@
             }
           ],
           "refresh_apply_receipts": [
-            "work/audit/apply-legislation-20261106T002343.json"
+            "work/audit/apply-legislation-20261106T002343.json",
+            "work/audit/apply-legislation-20261106T084519.json"
           ],
           "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
@@ -41438,6 +41440,13 @@
               "last_receipt": "work/audit/apply-legislation-20261106T002343.json",
               "last_applied_value_sha256": "01f98a7d9ad6e83c01e52a68085d5480077f5560078aead4facc7a73b4b106f6",
               "current_value_sha256": "01f98a7d9ad6e83c01e52a68085d5480077f5560078aead4facc7a73b4b106f6",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "sponsors",
+              "last_receipt": "work/audit/apply-legislation-20261106T084519.json",
+              "last_applied_value_sha256": "ca5f2dd0e1910ab1b8bdaaa27b364cbe67c4863a0270fe16c347b607b9fbdc6d",
+              "current_value_sha256": "ca5f2dd0e1910ab1b8bdaaa27b364cbe67c4863a0270fe16c347b607b9fbdc6d",
               "current_matches_last_applied_value": true
             },
             {
@@ -44749,8 +44758,8 @@
         }
       ],
       "field_lineage_counts": {
-        "last_applied_field_values": 115,
-        "matching_current_values": 115,
+        "last_applied_field_values": 116,
+        "matching_current_values": 116,
         "differing_current_values": 0
       }
     }
