@@ -1,0 +1,46 @@
+{
+  "applied_at": "20261105T202241",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-wisconsin-l/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 1,
+    "fields_changed": 4
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "wi-village-of-hobart-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The ordinance states twelve calendar months from publication or effectiveness, subject to an earlier end.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-village-of-hobart-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Twelve calendar months is not a fixed 365-day term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-village-of-hobart-2026",
+      "column": "duration",
+      "before": "One year",
+      "after": "12 months from effective date, or until an amendment to the zoning chapter related to data centers is adopted and takes effect, whichever occurs earlier; extendable by six months",
+      "reason": "Section 295-389 specifies an earlier end and possible extension.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-village-of-hobart-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31.",
+      "after": "Signed and clerk-certified Ordinance 2026-07 records July 7 adoption. Section 295-389 specifies twelve months from effectiveness or earlier effective data-center zoning amendment, with possible six-month extension by action. Effect requires passage and publication; actual publication, later amendments and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ]
+}

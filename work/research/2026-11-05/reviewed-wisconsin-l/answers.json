@@ -1,0 +1,46 @@
+{
+  "state_abbrev": "WI",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wi-village-of-hobart-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.hobartwi.gov/_files/ugd/644190_b6362b7e53b64f89ac40bcd923ee5a32.pdf",
+          "source_type": "ordinance",
+          "supports": "The adopted text states twelve months and a possible earlier end on effective regulations.",
+          "quote": "This ordinance shall remain in effect for a period of twelve (12) months from its effective date or until an",
+          "document_date": "2026-07-07",
+          "publisher": "Village of Hobart"
+        }
+      ],
+      "notes": "Corrects the term and records earlier termination condition. The village lists a separate data-center ordinance as proposed; no later operative status was verified.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The ordinance states twelve calendar months from publication or effectiveness, subject to an earlier end."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Twelve calendar months is not a fixed 365-day term."
+        },
+        "duration": {
+          "from": "One year",
+          "to": "12 months from effective date, or until an amendment to the zoning chapter related to data centers is adopted and takes effect, whichever occurs earlier; extendable by six months",
+          "reason": "Section 295-389 specifies an earlier end and possible extension."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31.",
+          "to": "Signed and clerk-certified Ordinance 2026-07 records July 7 adoption. Section 295-389 specifies twelve months from effectiveness or earlier effective data-center zoning amendment, with possible six-month extension by action. Effect requires passage and publication; actual publication, later amendments and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    }
+  ],
+  "new_candidates": []
+}

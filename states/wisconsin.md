@@ -634,14 +634,14 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** July 7, 2026 (Village Board 4-1 approval of Ordinance 2026-07)
 - **Normalized date:** `2026-07-07` (exact)
-- **Duration:** One year
+- **Duration:** 12 months from effective date, or until an amendment to the zoning chapter related to data centers is adopted and takes effect, whichever occurs earlier; extendable by six months
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-village-of-hobart-2026`
 - **Legal basis:** Ordinance 2026-07 (Village of Hobart)
 - **What prompted it:** Pause on data center development to allow the village to draft regulatory rules and standards.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31.
+- **Detailed status:** Signed and clerk-certified Ordinance 2026-07 records July 7 adoption. Section 295-389 specifies twelve months from effectiveness or earlier effective data-center zoning amendment, with possible six-month extension by action. Effect requires passage and publication; actual publication, later amendments and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted one-year moratorium on data center development.
 
 ### Village of Wrightstown

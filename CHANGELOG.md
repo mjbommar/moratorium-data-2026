@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Hobart’s signed, clerk-certified Ordinance 2026-07 confirms a twelve-month or earlier-regulation term and possible six-month extension; actual publication and later force remain unresolved. Wisconsin accounting reconciles all 40 existing IDs: 22 bounded corrections applied, Hampden’s conflicting instrument identity deferred and 17 other returns awaiting disposition. No complete current-force history is asserted.
+
 New Denmark’s town-hosted Resolution 2026-04 identifies the one-year term. Ashwaubenon and Cottage Grove posted calendar wording replaces unsupported day counts while incomplete execution/publication leaves actual term classifications unknown. Cottage Grove’s early-end condition includes final rejection, not only approval, of regulation. Later legal force remains unresolved.
 
 Sauk’s preliminary eighteen-month/publication wording remains distinct from news-reported 27-1 adoption; final executed term is unresolved. Shawano’s county-posted text and reported June 24 adoption preserve a twelve-month term, participating-town jurisdiction and valid-approval exception. Unsupported day conversions are cleared; later operative intervals and force remain unresolved.
@@ -232,7 +234,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1071** |
 | Pending or not yet effective | **67** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **665** |
+| Rows we still want to confirm (`[VERIFY]`) | **666** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

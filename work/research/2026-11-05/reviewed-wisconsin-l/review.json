@@ -1,0 +1,59 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "wi-inventory-005": "8a21c5ef2a3a99548cc439a3a0107b7100b59e4072e3c298b7232562d27a623f"
+  },
+  "reviewed_answers_sha256": "05d3a076690d76c651d0e38c5d980b77f9a7866d0b927de7379e5a30104cd2de",
+  "scope": "Hobart signed/clerk-certified original calendar-term correction. Three-page OCR retained separately; page 2 term/execution and page 3 certification visually compared. Passage/publication requirement not converted to adoption-only effective date. Optional extension not presumed adopted and no complete later legal-force history established.",
+  "located_evidence": [
+    {
+      "moratorium_id": "wi-village-of-hobart-2026",
+      "url": "https://www.hobartwi.gov/_files/ugd/644190_b6362b7e53b64f89ac40bcd923ee5a32.pdf",
+      "quote": "This ordinance shall remain in effect for a period of twelve (12) months from its effective date or until an",
+      "located": [
+        {
+          "attempt_id": "3edc6ae7133f4ef6812d5c41b156e501",
+          "body_sha256": "27d509698ca4324bdbfed1f3be999e98cad385d97027ef7a631cf92b4e4af735",
+          "text_sha256": "70e53726f753084cd7099f63cd4a54c1c5b962332a2d089b593ea76eb49d9286",
+          "span": [
+            2719,
+            2827
+          ]
+        }
+      ]
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "3edc6ae7133f4ef6812d5c41b156e501",
+      "source_body_sha256": "27d509698ca4324bdbfed1f3be999e98cad385d97027ef7a631cf92b4e4af735",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/wi-inventory-005/hobart-combined.derived.private.txt",
+      "derived_text_sha256": "70e53726f753084cd7099f63cd4a54c1c5b962332a2d089b593ea76eb49d9286",
+      "method": "Concatenated retained page OCR, pdftoppm 200 dpi and tesseract 5.5.0; coordinator visually compared term/execution page 2 and clerk certification page 3",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T01:22:40.877667+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "3edc6ae7133f4ef6812d5c41b156e501",
+      "page": 2,
+      "render": "Worker pdftoppm PNG 200 dpi",
+      "render_sha256": "cfd6db15be2c1e541332b0964029ec9501cfcd47c672797ddad4a0baa9c77e5c"
+    },
+    {
+      "attempt_id": "3edc6ae7133f4ef6812d5c41b156e501",
+      "page": 3,
+      "render": "Worker pdftoppm PNG 200 dpi",
+      "render_sha256": "b072b6c568c65b0464c520ccff3051ac3214ff24e117c86c75aeaee903d7eef1"
+    }
+  ]
+}

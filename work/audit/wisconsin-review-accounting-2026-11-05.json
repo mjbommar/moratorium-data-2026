@@ -1,0 +1,414 @@
+{
+  "date": "2026-11-05",
+  "created_at": "2026-11-06T01:22:54.328387+00:00",
+  "scope": "Wisconsin existing local inventory return-versus-bounded-review accounting. Not complete acquisition, freshness, legal-force verification, ballot census or state-policy accounting.",
+  "canonical_inventory_sha256": "afb55549e5ee43e72b61a466ef237b75779f231eb102366841e908970e16438c",
+  "worker_answer_hashes": {
+    "wi-inventory-001": "9a11eb45ee8d3cc4c1092c775a00a42dfeb582674a7a6e2116fdb2281d4cd1e7",
+    "wi-inventory-002": "fce0da1a0505efbd609ed25736b1f1921a3af4f07df2bb6431eacac6db6bd972",
+    "wi-inventory-003": "1000511fce01d84e509e16e562d700f29c07d68d7d53653dc987a2ea26648700",
+    "wi-inventory-004": "ea975be9de6440f061c0957649299296bed742bd67b18a298e60713f79745073",
+    "wi-inventory-005": "8a21c5ef2a3a99548cc439a3a0107b7100b59e4072e3c298b7232562d27a623f"
+  },
+  "accepted_packet_hashes": {
+    "work/research/2026-11-05/reviewed-wisconsin-a/answers.json": "95a3fffb35dcfce3a439ac9792c464ee6c2f30360cc4efdebc1a48d46d4e8801",
+    "work/research/2026-11-05/reviewed-wisconsin-b/answers.json": "5cf280d70210f7bc4b42e5f67477f1984f7094c8c1a663426c5458d775df10b0",
+    "work/research/2026-11-05/reviewed-wisconsin-c/answers.json": "393a2affe0897b2b4b650a63233691abdd84a8412ad5a2738d23c134f022faa6",
+    "work/research/2026-11-05/reviewed-wisconsin-d/answers.json": "f29e9418ccf267fe9baf9ec4e0e208446653dc9ce600a1bb167579a0f0a4ac33",
+    "work/research/2026-11-05/reviewed-wisconsin-e/answers.json": "2c7ad7b13f47af6a40391db0d530a9c8bfc53e733b468180e756c2822e536368",
+    "work/research/2026-11-05/reviewed-wisconsin-f/answers.json": "e0277657e732f85cba6459516c094f1ba0b61a72543f8550045fecb9e47224f2",
+    "work/research/2026-11-05/reviewed-wisconsin-g/answers.json": "819ca67d5b03c077ea84f7b9ae4b09c05af4e1a490a6faf01c09fa9d0ce88401",
+    "work/research/2026-11-05/reviewed-wisconsin-h/answers.json": "9234d56c95ce20a65c60b94af0d3cf4142cdc60f3a0a794197da39d9c44eed2c",
+    "work/research/2026-11-05/reviewed-wisconsin-i/answers.json": "c3fb7b5a152a3bec1ce260a3169e9f7349d7bcd4b9935bbeef08b2368cc44928",
+    "work/research/2026-11-05/reviewed-wisconsin-j/answers.json": "93fdc0c12eed3b931ff3473c2b14c5f9335d8cb36416fb21e54d222f42b39476",
+    "work/research/2026-11-05/reviewed-wisconsin-k/answers.json": "abb602787706e6d75965f8c391ca36e208216577c79b1e40d102fb4f4500987c",
+    "work/research/2026-11-05/reviewed-wisconsin-l/answers.json": "05d3a076690d76c651d0e38c5d980b77f9a7866d0b927de7379e5a30104cd2de"
+  },
+  "apply_receipt_hashes": {
+    "work/audit/apply-20261105T200317.json": "e01f97103c8a03417015fcefded7dd11e39cb852c3de4e7d1bac6bdd99e89909",
+    "work/audit/apply-20261105T200511.json": "b54a61275bb2e37a1bdc05d9af4f2a59877318942fa3a2d19ad53bb84b389a38",
+    "work/audit/apply-20261105T200634.json": "200c66f88fb1b793dc48d2a4112c3f575405076d3b178aa010efdf0516cbe69c",
+    "work/audit/apply-20261105T200757.json": "e4b0cb9330b24768f2fe78ab9a12f27feb5188ec1b2b7c3454470040156a3093",
+    "work/audit/apply-20261105T201101.json": "ad8632d53460e2fde1a10752f6165fee4dff0897b5e15ae016a72707997b7cf5",
+    "work/audit/apply-20261105T201401.json": "f1315fd2359294e484013cc1742db95e9dfc6ccf278ec329fe73b5c78712c79b",
+    "work/audit/apply-20261105T201510.json": "fcb71247f83745fcc20743848a5e20d2c1ff236f69072faa34c54e655424d6c1",
+    "work/audit/apply-20261105T201701.json": "7c365234eecde36ba959e37334e5de549d589ca77e09c18ef74afbfffb9ad6c9",
+    "work/audit/apply-20261105T201823.json": "305e137888dc5a3dd1e9756e178c86498d18ce0b725cc97516770d7dc286ae35",
+    "work/audit/apply-20261105T201943.json": "04e061ea5756399aee5dd4a263f311804e0e374418b162d418d3ae1140f07875",
+    "work/audit/apply-20261105T202107.json": "2115e6ac73ef228b5a1df76ac1be50af272d9b724a12bade890d5b2ff449ebb7",
+    "work/audit/apply-20261105T202241.json": "b61c1de02a8d084592dc451a8381f8e9795928c2773406ffd78404396730c6d9"
+  },
+  "canonical_records": 40,
+  "returned_records": 40,
+  "review_dispositions": {
+    "other_return_pending_disposition_review": 17,
+    "bounded_correction_applied": 22,
+    "proposal_deferred_for_identity_or_process_review": 1
+  },
+  "current_force_verification": {
+    "verified": 0,
+    "unresolved": 40
+  },
+  "records": [
+    {
+      "moratorium_id": "wi-baldwin-undated",
+      "worker_job": "wi-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-beetown-2026",
+      "worker_job": "wi-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-c/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-bellevue-2026",
+      "worker_job": "wi-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-b/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-cassville-2026",
+      "worker_job": "wi-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-chippewa-county-2026",
+      "worker_job": "wi-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-a/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-madison-2026",
+      "worker_job": "wi-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-a/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-city-of-sheboygan-2026",
+      "worker_job": "wi-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-city-of-superior-2026",
+      "worker_job": "wi-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-dane-county-2026",
+      "worker_job": "wi-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-d/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-dodge-county-2026",
+      "worker_job": "wi-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-d/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-door-county-2026",
+      "worker_job": "wi-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-e/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-grant-county-2026",
+      "worker_job": "wi-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-green-county-2026",
+      "worker_job": "wi-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-d/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-greenville-2026",
+      "worker_job": "wi-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-e/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-hampden-2026",
+      "worker_job": "wi-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "proposal_deferred_for_identity_or_process_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Hampden minutes and posted scan carry conflicting instrument numbers; OCR lineage and coordinator visual identity review required before promotion."
+    },
+    {
+      "moratorium_id": "wi-hampden-2026-2",
+      "worker_job": "wi-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-janesville-rock-county-town-2026",
+      "worker_job": "wi-inventory-003",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-h/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-la-crosse-2026",
+      "worker_job": "wi-inventory-003",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-la-crosse-county-2026",
+      "worker_job": "wi-inventory-003",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-g/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-manitowoc-county-2026",
+      "worker_job": "wi-inventory-003",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-h/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-marathon-county-2026",
+      "worker_job": "wi-inventory-003",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-middleton-2026",
+      "worker_job": "wi-inventory-003",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-g/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-milwaukee-undated",
+      "worker_job": "wi-inventory-003",
+      "worker_outcome": "status_changed",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-f/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-monroe-county-2026",
+      "worker_job": "wi-inventory-003",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-oneida-county-2026",
+      "worker_job": "wi-inventory-004",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-i/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-oshkosh-2026",
+      "worker_job": "wi-inventory-004",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-polk-county-2026",
+      "worker_job": "wi-inventory-004",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-i/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-sauk-county-2026",
+      "worker_job": "wi-inventory-004",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-j/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-sawyer-county-2026",
+      "worker_job": "wi-inventory-004",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-shawano-county-2026",
+      "worker_job": "wi-inventory-004",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-j/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-st-croix-county-2026",
+      "worker_job": "wi-inventory-004",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-tigerton-2026",
+      "worker_job": "wi-inventory-004",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-town-of-new-denmark-2026",
+      "worker_job": "wi-inventory-005",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-k/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-vilas-county-undated",
+      "worker_job": "wi-inventory-005",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-village-of-ashwaubenon-2026",
+      "worker_job": "wi-inventory-005",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-k/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-village-of-cottage-grove-2026",
+      "worker_job": "wi-inventory-005",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-k/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-village-of-hobart-2026",
+      "worker_job": "wi-inventory-005",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-wisconsin-l/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wi-village-of-wrightstown-2026",
+      "worker_job": "wi-inventory-005",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-westport-2026",
+      "worker_job": "wi-inventory-005",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wi-winnebago-county-2026",
+      "worker_job": "wi-inventory-005",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    }
+  ]
+}
