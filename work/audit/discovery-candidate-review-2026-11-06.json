@@ -54,7 +54,7 @@
   },
   "candidate_count": 185,
   "reviewed_pending_additions": 4,
-  "unreviewed_count": 171,
+  "unreviewed_count": 167,
   "candidates": [
     {
       "candidate_key": "discovery-ak:0",
@@ -215,9 +215,9 @@
       "jurisdiction": "San Diego",
       "proposed_instrument_label": null,
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_operative_instrument_and_dates",
+      "review_packet": "work/research/2026-11-06/california-discovery-review/review.json",
+      "next_step": "Recover the adopted ordinance and action record, exact operative dates and later actions.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -234,9 +234,9 @@
       "same_name_inventory_ids": [
         "ca-baldwin-park-2026"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_distinct_sector_primary_instrument",
+      "review_packet": "work/research/2026-11-06/california-discovery-review/review.json",
+      "next_step": "Recover signed BESS ordinance and subsequent actions; do not merge with the data-center record or infer expiry from age.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -270,9 +270,9 @@
       "same_name_inventory_ids": [
         "ca-solano-county-2024"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_distinct_historical_extension_outcome",
+      "review_packet": "work/research/2026-11-06/california-discovery-review/review.json",
+      "next_step": "Recover original ordinance, final action on 2021-1819U-E and later termination/replacement history.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -287,9 +287,9 @@
       "jurisdiction": "San Bernardino County",
       "proposed_instrument_label": null,
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_historical_lifting_date_conflict",
+      "review_packet": "work/research/2026-11-06/california-discovery-review/review.json",
+      "next_step": "Recover original solar urgency ordinance and December 2013 adopted replacement/action records; distinguish approval, adoption and effectiveness.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -3283,5 +3283,5 @@
   "unreviewed_count_scope": "171 candidates still await coordinator substantive processing; six reviewed cases are explicitly withheld and the earlier Kent22-07 relationship remains open. Reviewed does not mean every fact or legal interval is resolved.",
   "worker_review_baseline_sha256": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1",
   "reviewed_historical_additions": 2,
-  "reviewed_withheld_cases": 6
+  "reviewed_withheld_cases": 9
 }

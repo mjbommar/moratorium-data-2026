@@ -1,0 +1,154 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "inventory_sha256": "5736fac2bba0ef390a6a30981c1e4cf261487b58e29c86df3ad777e72d78537f",
+  "scope": "Coordinator review of retained complete HTML text for four candidates; no network reacquisition, canonical edits, renewed legal-force acceptance or PDF visual review.",
+  "candidates": [
+    {
+      "candidate_key": "discovery-ca:1",
+      "candidate_sha256": "abbd79b162bf0e71e79def1789804e215d3b6dd374e8a7e890aef6b703647f50",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_operative_instrument_and_dates",
+      "rationale": "The official CEQAnet notice reports adoption of a citywide data-center moratorium, but October 29 is explicitly its received/posted date. R-317004 appears in environmental-exemption reasoning and is not accepted as the moratorium ordinance number. This notice does not establish the ordinance adoption/effectiveness date, duration, or current disposition.",
+      "next_evidence_requirement": "Recover the adopted ordinance and action record, exact operative dates and later actions.",
+      "retained_source_versions": [
+        {
+          "attempt_id": "98902831e2c04b35886cd61dea1fe6f1",
+          "url": "https://ceqanet.lci.ca.gov/2026101138",
+          "body_sha256": "880f275f835df8c8459a4dbd858e9b4b0a8d5b54e3016a668d4ceca27c02f028",
+          "text_sha256": "2197bb469cc000b23031af0819438937ae79aa80600c465bc0fc401bdee66f74",
+          "excerpt": "Received\n\n10/29/2026\n\nPosted\n\n10/29/2026",
+          "excerpt_span": [
+            345,
+            385
+          ]
+        }
+      ],
+      "same_name_inventory_records": []
+    },
+    {
+      "candidate_key": "discovery-ca:2",
+      "candidate_sha256": "0966929e99b59ebe1aaa069699923a278e6ed45a88745037d88537f3c56a6fc5",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_distinct_sector_primary_instrument",
+      "rationale": "The retained news report describes June 3 adoption of a 45-day commercial/utility-scale BESS urgency pause, with residential, EV and existing-facility exclusions. This differs in sector and timing from the existing data-center row. The report alone does not establish the final numbered ordinance or subsequent extension, replacement or expiry.",
+      "next_evidence_requirement": "Recover signed BESS ordinance and subsequent actions; do not merge with the data-center record or infer expiry from age.",
+      "retained_source_versions": [
+        {
+          "attempt_id": "ba9bad30a2fc4733a6013580c09afc1f",
+          "url": "https://midvalleynews.com/baldwin-park-battery-storage-moratorium/",
+          "body_sha256": "a9787716d196b70aeeb2967c14a2ec485aa175f07536efb5085324c29093fafc",
+          "text_sha256": "7f358d50dbe37613a0ce043c3bebeb99bfacfe3087241979ed2b96fe1f532a7c",
+          "excerpt": "The interim urgency ordinance, adopted June 3, establishes a 45-day moratorium",
+          "excerpt_span": [
+            266,
+            344
+          ]
+        }
+      ],
+      "same_name_inventory_records": [
+        {
+          "state": "California",
+          "state_abbrev": "CA",
+          "jurisdiction": "Baldwin Park",
+          "jurisdiction_type": "City",
+          "date_enacted": "2026-03-04, Baldwin Park City Council adoption of an urgency ordinance establishing a 45-day moratorium; extended following a 2026-04-15 public hearing",
+          "duration": "Initial 45 days from 2026-03-04; on 2026-04-15 the City Council held a public hearing and extended the urgency ordinance for an additional 10 months and 15 days under Gov. Code section 65858 -- the standard first extension under that statute -- bringing the pause to one year from original adoption (through approximately 2027-03-04).",
+          "legal_basis": "Urgency ordinance adopted under California Gov. Code section 65858, extended via public hearing on 2026-04-15 (exact extension ordinance number not located in this pass)",
+          "trigger": "Regional San Gabriel Valley wave of data center moratoria/bans (Monterey Park, El Monte, Montebello); city seeking time to study impacts and develop zoning standards for data center uses before any application is filed.",
+          "current_status": "Extended, active as of 2026-09-23. The original 45-day urgency moratorium (adopted 2026-03-04) was extended on 2026-04-15 for 10 months and 15 days under Gov. Code section 65858, bringing the pause through approximately 2027-03-04. Confirmed by a City of Coachella staff report citing the Baldwin Park action as regional precedent and by a citizenportal.ai report that the Council 'approved an urgency ordinance (one-reading) extending a moratorium on approval, establishment or operation of data centers' unanimously (3-0). No adoption of permanent zoning regulations, rescission, or further extension beyond the one-year mark was found in this pass; the exact extension-ordinance number was not located.",
+          "affected_projects": "None identified.",
+          "outcome": "45-day moratorium adopted and extended to approximately one year while the city develops data-center zoning standards.",
+          "has_verify_tags": "False",
+          "verify_count": "0",
+          "cite_count": "0",
+          "activity_level": "Medium",
+          "enacted_status": "extended",
+          "moratorium_id": "ca-baldwin-park-2026",
+          "latitude": "34.085474",
+          "longitude": "-117.961176",
+          "date_enacted_iso": "2026-03-04",
+          "date_enacted_uncertainty": "exact",
+          "duration_days": "45",
+          "duration_kind": "fixed_days",
+          "current_end_date_iso": "2027-03-04",
+          "sectors": "[\"data_center\"]",
+          "trigger_categories": "[\"regulatory_gap\",\"land_use_compatibility\"]"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ca:4",
+      "candidate_sha256": "9d4647dc73b04ce46467c3a6885d7436e860e00eebcf93328fdc90f5ad8b581e",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_distinct_historical_extension_outcome",
+      "rationale": "County staff report expressly identifies adopted April 6, 2021 Ordinance 2021-1819U, a 45-day wind moratorium through May 21, 2021. Its 22-month-and-15-day extension is a recommendation/proposal, not an accepted final action. This is distinct from the 2024 BESS row. No current-force or complete historical-disposition claim is accepted.",
+      "next_evidence_requirement": "Recover original ordinance, final action on 2021-1819U-E and later termination/replacement history.",
+      "retained_source_versions": [
+        {
+          "attempt_id": "892e92e9cfad4b68ad8cd4559b4b7061",
+          "url": "https://solano.legistar.com/LegislationDetail.aspx?FullText=1&GUID=B62AA3FB-0981-4F49-A6E5-79F3F760274F&ID=4939044",
+          "body_sha256": "d692fb8c89b705587c13247af8d17b1229f7ccf038ffddbc6f6bc04fdf4ca8c9",
+          "text_sha256": "bc2c9a09a648b3a5e8fdd151fc3064202d03c61bd168fc11b1926663ed98232b",
+          "excerpt": "The Board of Supervisors enacted Ordinance No. 2021-1819U prohibiting new commercial wind turbine generators and wind farms within the unincorporated areas of the County for 45 days (through May 21, 2021)",
+          "excerpt_span": [
+            1178,
+            1382
+          ]
+        }
+      ],
+      "same_name_inventory_records": [
+        {
+          "state": "California",
+          "state_abbrev": "CA",
+          "jurisdiction": "Solano County",
+          "jurisdiction_type": "County",
+          "date_enacted": "2024-01-23 (Board of Supervisors)",
+          "duration": "Two-year urgency pause on large-scale BESS project approvals, replaced by permanent ordinance",
+          "legal_basis": "Interim Ordinance 2024-1852-U adopted January 23, 2024, extended by 2024-1852-U-E, and amended August 26, 2025 to lift the pause in specified industrial and manufacturing districts. The Board adopted permanent zoning amendment ZT-25-02 on November 4, 2025.",
+          "trigger": "Safety concerns near the Vaca-Dixon substation in Vacaville; farmland protection.",
+          "current_status": "On August 26, 2025 the Board amended the interim ordinance to lift the pause in specified manufacturing and industrial districts while retaining it in other districts. On November 4, 2025 the Board adopted permanent BESS zoning regulations. The interim ordinance had been scheduled to expire January 23, 2026 unless repealed earlier; its exact termination and the permanent ordinance effective date require verification.",
+          "affected_projects": "",
+          "outcome": "Interim BESS restrictions were partially relaxed on August 26, 2025; permanent BESS zoning was adopted November 4, 2025. The precise termination of the remaining interim restrictions is unresolved.",
+          "has_verify_tags": "False",
+          "verify_count": "0",
+          "cite_count": "0",
+          "activity_level": "Medium",
+          "enacted_status": "replaced",
+          "moratorium_id": "ca-solano-county-2024",
+          "latitude": "38.221894",
+          "longitude": "-121.916355",
+          "date_enacted_iso": "2024-01-23",
+          "date_enacted_uncertainty": "exact",
+          "duration_days": "",
+          "duration_kind": "until_event",
+          "current_end_date_iso": "",
+          "sectors": "[\"battery_storage\"]",
+          "trigger_categories": "[\"regulatory_gap\",\"fire_safety\",\"agricultural_preservation\"]"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ca:5",
+      "candidate_sha256": "dc8f0cfd3758841b979783c6585ed735c07ca26d702e42004eb6582dd3a8ca79",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_historical_lifting_date_conflict",
+      "rationale": "County announcement reports a June solar moratorium and says a new ordinance effectively lifts it, but later says adoption is expected December 17 with effectiveness 30 days later. The December 3 publication is not accepted as the lifting date. This internal action-stage ambiguity prevents a precise historical end-date classification.",
+      "next_evidence_requirement": "Recover original solar urgency ordinance and December 2013 adopted replacement/action records; distinguish approval, adoption and effectiveness.",
+      "retained_source_versions": [
+        {
+          "attempt_id": "67339b2697d54e05b82a85f11de39190",
+          "url": "https://main.sbcounty.gov/2013/12/03/citizens-praise-supervisors-and-county-land-use-staff-for-work-on-solar-energy-ordinance/",
+          "body_sha256": "cb3f3eacf381c2cca4d957c50966acad826925c9b72371b3ed97d441f7a42640",
+          "text_sha256": "a1387d596d51eb8faf92fcbdd27ffd2b3f32ae9bae06428990f9e781848a93eb",
+          "excerpt": "The Board is expected to adopt the ordinance on December 17 and it would go into effect 30 days later.",
+          "excerpt_span": [
+            1091,
+            1193
+          ]
+        }
+      ],
+      "same_name_inventory_records": []
+    }
+  ]
+}
