@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Door County’s May 26 minutes, included in the June 23 packet, establish a carried vote and up-to-twelve-month term. Greenville’s reproduced text provides twelve months or earlier effective regulations; final execution/publication remains unresolved, so actual term classification is unknown. Unsupported fixed-day encodings are cleared without inferring later extensions or current force.
+
 Dane, Dodge and Green County calendar terms replace unsupported day counts. Dane’s release identifies Sub 1 to 2026 RES-039 before executive consideration, Dodge’s report limits coverage to thirteen county-zoning towns, and Green’s administrator summary identifies Ordinance 26-0703. Final operative details and later force remain unresolved.
 
 Beetown’s signed handwritten dates correct original adoption from April 17 to May 7, with May 8 posting and May 9 effectiveness read visually rather than from unreliable OCR. Its two-year or earlier zoning-adoption/publication condition replaces unsupported 730-day coding. Later satisfaction of the end condition and current force remain unresolved.
@@ -216,7 +218,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1070** |
 | Pending or not yet effective | **68** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **652** |
+| Rows we still want to confirm (`[VERIFY]`) | **654** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

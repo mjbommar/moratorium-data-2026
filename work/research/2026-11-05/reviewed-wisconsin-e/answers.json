@@ -1,0 +1,72 @@
+{
+  "state_abbrev": "WI",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wi-door-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.co.door.wi.gov/AgendaCenter/ViewFile/Agenda/_06232026-2112",
+          "source_type": "minutes",
+          "document_date": "2026-05-26",
+          "supports": "Original term, as reproduced in the June 23 packet.",
+          "quote": "moratorium shall be in effect within the unincorporated areas of Door County for a period of up to twelve (12) months"
+        }
+      ],
+      "notes": "Original evidence is historical; later termination, replacement, or current force as of cutoff remains unresolved. No status change inferred.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Original term is stated in calendar months, not a fixed number of days."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "A calendar-month term cannot be represented as a fixed day count."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Confirmed via Door County's own official board minutes (reproduced in the June 23, 2026 agenda packet): Resolution 2026-41 was adopted by voice vote at the May 26, 2026 County Board meeting, imposing a moratorium on data centers and battery energy storage systems in unincorporated Door County \"for a period of up to twelve (12) months from the date of this resolution,\" i.e. through approximately 2027-05-26, with the Board retaining the right to extend by separate action. No extension, repeal, or rescission was found as of 2026-09-23.",
+          "to": "May 26 minutes reproduced in the June 23 packet record a carried voice vote for a data-center/BESS moratorium in unincorporated areas, with a term up to twelve months from the resolution date and possible extension by separate action. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "wi-greenville-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://fox11online.com/resources/pdf/3084b2b6-7ef9-48e2-bd50-20922f9b3560-GreenvilleDataCentermoratoriumresolution.pdf",
+          "source_type": "ordinance",
+          "document_date": "2026-07-13",
+          "supports": "Full posted term and earlier-regulations condition; optional extension not treated as adopted.",
+          "quote": "4) Duration of Moratorium. This moratorium shall be in effect for twelve (12) months following\n\nthe effective date of this ordinance or until an ordinance related to data centers is adopted and\n\ntakes effect, whichever is earlier. This moratorium ordinance may be amended by the Village\n\nprior to its expiration for an additional time period of up to 6 months pursuant to Wis. Stat.\n\n\u00a766.1002(3)(b)2."
+        }
+      ],
+      "notes": "Original evidence is historical; later termination, replacement, or current force as of cutoff remains unresolved. No status change inferred.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "unknown",
+          "reason": "Posted text states conditional calendar term, but final execution/publication not established in this review."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "A calendar-month term cannot be represented as a fixed day count."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; adopted 5-0 on July 13, 2026. Prohibits issuance of zoning certificates for data centers with floor area greater than 10,000 square feet for 12 months following the effective date, or until a data-center ordinance is adopted, whichever is earlier; extendable up to 6 additional months per Wis. Stat. \u00a7 66.1002(3)(b)2. Village staff are directed to draft permanent data-center regulations before the moratorium expires.",
+          "to": "The reproduced ordinance text states twelve months following effectiveness or earlier effective data-center regulations, with a possible additional period up to six months by amendment. It states adoption July 13 and effect upon passage/publication; final execution/publication, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "confidence": 0.9
+    }
+  ],
+  "new_candidates": []
+}

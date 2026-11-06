@@ -225,7 +225,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Resolution 2026-41 (Door County Board of Supervisors)
 - **What prompted it:** Pause on development of data centers and battery energy storage systems in unincorporated Door County to allow investigation, planning, and regulation of potential impacts; Board may extend by separate action.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. Confirmed via Door County's own official board minutes (reproduced in the June 23, 2026 agenda packet): Resolution 2026-41 was adopted by voice vote at the May 26, 2026 County Board meeting, imposing a moratorium on data centers and battery energy storage systems in unincorporated Door County "for a period of up to twelve (12) months from the date of this resolution," i.e. through approximately 2027-05-26, with the Board retaining the right to extend by separate action. No extension, repeal, or rescission was found as of 2026-09-23.
+- **Detailed status:** May 26 minutes reproduced in the June 23 packet record a carried voice vote for a data-center/BESS moratorium in unincorporated areas, with a term up to twelve months from the resolution date and possible extension by separate action. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 12-month pause on data centers and battery storage systems in unincorporated Door County.
 
 ### Grant County
@@ -273,7 +273,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Ordinance 15-26 (Village of Greenville, Outagamie County), "Temporary Moratorium on Data Centers," adopted pursuant to Wis. Stat. § 66.1002, following the Village Board's Resolution 20-26 stating intent to enact the moratorium and a May 18, 2026 Plan Commission recommendation
 - **What prompted it:** Plan Commission and Village Board wanted to get ahead of potential data center proposals and avoid being "surprised"; part of a wave of similar actions among nearby Fox Valley/Northeast Wisconsin municipalities.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; adopted 5-0 on July 13, 2026. Prohibits issuance of zoning certificates for data centers with floor area greater than 10,000 square feet for 12 months following the effective date, or until a data-center ordinance is adopted, whichever is earlier; extendable up to 6 additional months per Wis. Stat. § 66.1002(3)(b)2. Village staff are directed to draft permanent data-center regulations before the moratorium expires.
+- **Detailed status:** The reproduced ordinance text states twelve months following effectiveness or earlier effective data-center regulations, with a possible additional period up to six months by amendment. It states adoption July 13 and effect upon passage/publication; final execution/publication, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 12-month moratorium (Ordinance 15-26) on data centers over 10,000 square feet.
 
 ### Hampden
