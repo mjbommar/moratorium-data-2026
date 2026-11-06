@@ -12,8 +12,8 @@ Complete phases in dependency order; retain evidence and unresolved dispositions
 - [x] Pin the inspected bc-modules revision, package versions and runtime/dependency configuration.
 - [x] Confirm dataset ownership and exact consumer paths across public, research, site and integration repositories.
 - [x] Establish admitted durable archive and local NVMe database paths; run storage preflight before bulk writes.
-- [ ] Inventory existing source manifests and define a reversible mapping to bc-store observations.
-- [ ] Record current legal-status cutoff and clause-extraction cohort limitations.
+- [x] Inventory all 6,455 legacy manifest entries and define exact manifest-line/native-observation mappings; replay 2,756 verified-body entries and retain 3,699 explicit original-body gaps (`work/audit/legacy-source-migration-2026-11-06/`). This does not close missing-payload recovery or the full P3 archive gate.
+- [x] Record the November 5 working-cohort cutoff, record-specific source/legal-force limits and historical 348-extraction/211-jurisdiction pre-April-28 cohort in README, methodology and known gaps; no inventory-wide legal-force renewal is claimed.
 
 Exit: reproducible baseline manifest with unrelated work preserved.
 

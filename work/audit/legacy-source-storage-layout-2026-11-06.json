@@ -1,0 +1,34 @@
+{
+  "description": "Task-specific measured layout; / is nvme0n1p1, /data0 is sda1 per lsblk 2026-11-05. No preexisting compatibility links altered.",
+  "mounts": [
+    {
+      "path": "/data0",
+      "device_major": 8,
+      "device_minor": 1,
+      "minimum_free_bytes": 53687091200
+    }
+  ],
+  "links": [
+    {
+      "source": "/home/mjbommar/.cache/moratorium-refresh-2026/pilot-store/blobs",
+      "target": "/data0/moratorium-refresh-2026/pilot-store-blobs",
+      "mount": "/data0"
+    },
+    {
+      "source": "/home/mjbommar/.cache/moratorium-refresh-2026/legacy-source-store/blobs",
+      "target": "/data0/moratorium-refresh-2026/legacy-source-store-blobs",
+      "mount": "/data0"
+    }
+  ],
+  "bulk_roots": [
+    "/data0/moratorium-refresh-2026"
+  ],
+  "active_sqlite_mounts": [
+    {
+      "path": "/",
+      "device_major": 259,
+      "device_minor": 1,
+      "minimum_free_bytes": 10737418240
+    }
+  ]
+}

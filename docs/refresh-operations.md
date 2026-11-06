@@ -90,6 +90,33 @@ exercises this path and preserves the unresolved chapter discrepancy.
 
 ## Restore and release preparation
 
+### Legacy source archive bridge
+
+`scripts/bridge_legacy_sources.py --output PRIVATE_REPORT.json` inventories all
+legacy manifests, preserving manifest/line fingerprints, original URLs and hashes,
+retrieval times, publication flags and extraction lineage. It verifies retained
+files before proposing imports. Missing original bodies remain explicit gaps;
+an expected hash does not make a payload available. Historical missing filenames
+do not by themselves establish that a source never existed or that a later source
+version is missing.
+
+After the storage preflight, add `--store PRIVATE_STORE --apply` to replay eligible
+versions into native bc-store. Keep active SQLite on admitted local NVMe, route
+`blobs` through the existing external-storage layout, and retain all material
+privately. Original source rights flags are metadata, not permission to publish
+the store. Exact manifest lines are retained as separate metadata derivations;
+text variants have hash-specific producers. Shared native source/kind/time
+identities may share one observation only when the body hash agrees. Conflicting
+bodies, invalid timestamps and asserted-text drift require review.
+
+The [November bridge receipt](../work/audit/legacy-source-migration-2026-11-06/validation.json)
+records 6,455 manifest entries, 2,756 verified-body imports and 3,699 explicit body
+gaps. Two extraction versions share a native observation, giving 2,755 observations.
+Replay is identical and original manifests are unchanged. The retained SQLite
+backup covers metadata; it is not an independent full-blob restore. Importing
+bytes does not renew facts, establish current legal force, complete extraction or
+change any publication flag.
+
 `scripts/build_release_candidate.py` builds public assets from a committed revision.
 Its archive includes retained expanded generations and the relative `data/expanded`
 pointer. Restore into a new empty directory with a symlink-aware extractor, retain
