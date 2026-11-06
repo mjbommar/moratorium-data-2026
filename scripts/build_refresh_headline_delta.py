@@ -14,6 +14,14 @@ for name,filename,key,status in [('local','moratorium_inventory.csv','moratorium
  a,b=parse(before),parse(after)
  changed=[{'record_id':i,'fields':{f:{'before':a[i][f],'after':b[i][f]} for f in a[i] if a[i][f]!=b[i][f]}} for i in sorted(a.keys()&b.keys()) if a[i]!=b[i]]
  report['tables'][name]={'path':str(p),'baseline_sha256':hashlib.sha256(before).hexdigest(),'current_sha256':hashlib.sha256(after).hexdigest(),'before_total':len(a),'after_total':len(b),'before_status_counts':dict(collections.Counter(r[status] for r in a.values())),'after_status_counts':dict(collections.Counter(r[status] for r in b.values())),'added_ids':sorted(b.keys()-a.keys()),'removed_ids':sorted(a.keys()-b.keys()),'changed_existing_records':changed}
+registry=Path('data/identities/legacy-moratoria.jsonl')
+if registry.exists():
+ from legacy_moratorium_identity import load_aliases
+ current_ids={r['moratorium_id'] for r in csv.DictReader(Path('data/moratorium_inventory.csv').open())}
+ aliases=load_aliases(Path('data/moratorium_inventory.csv'),current_ids)
+ removed=report['tables']['local']['removed_ids']
+ assert all(i in aliases for i in removed), 'Unexplained baseline ID removal'
+ report['legacy_identity_retirements']={'path':str(registry),'sha256':hashlib.sha256(registry.read_bytes()).hexdigest(),'aliases':aliases,'removed_baseline_ids':removed,'scope':'Explicit duplicate retirements; original IDs and full row observations retained. Historical baseline count is not backcast.'}
 projection=Path('work/research/2026-11-05/ballot-census-review/canonical-projection-status.json')
 p=json.loads(projection.read_text());snap=Path('data/expanded').resolve()
 assert p['canonical_snapshot']==snap.name

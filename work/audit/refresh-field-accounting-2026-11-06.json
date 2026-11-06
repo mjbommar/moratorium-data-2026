@@ -1045,7 +1045,7 @@
       "work/audit/apply-legislation-20261106T002343.json": "cce6016ebcee83046dcca9422bea0e45d3fed3379ae19232fdc174c7798eacdc",
       "work/audit/apply-legislation-20261106T084519.json": "2b8d7a459a25ac991a8a7ddde95f14b8c770f48cf86ceeb32677f8b814b81638"
     },
-    "moratorium_inventory.csv": "95b0a00e29692b8d60255759bb3c54e5771e162430800b571936c2f46603a824",
+    "moratorium_inventory.csv": "bc5b2917ef203369af22c980438d6130ac7f326a7f4bc474e77db6e7a9a12ecd",
     "state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038"
   },
   "scope": "Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. This is not the completed freshness funnel required for release.",
@@ -1055,15 +1055,15 @@
   "not_started_jobs": 0,
   "tables": {
     "inventory": {
-      "total": 1331,
+      "total": 1330,
       "collection_counts": {
-        "returned_unresolved": 782,
+        "returned_unresolved": 781,
         "returned_other_outcome": 501,
         "not_assigned_in_this_queue": 40,
         "excluded_completed_pilot": 8
       },
       "editorial_counts": {
-        "no_refresh_apply_change": 628,
+        "no_refresh_apply_change": 627,
         "has_refresh_apply_change": 703
       },
       "records": [
@@ -38944,23 +38944,6 @@
               "current_matches_last_applied_value": true
             }
           ]
-        },
-        {
-          "record_id": "wa-seattle-2026-2",
-          "state": "WA",
-          "collection_stage": "returned_unresolved",
-          "jobs": [
-            {
-              "job_id": "wa-inventory-003",
-              "collection_stage": "returned_unresolved",
-              "worker_outcome": "unresolvable",
-              "job_mechanical_evidence_gate": true
-            }
-          ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
-          "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
         },
         {
           "record_id": "wa-skagit-county-2026",

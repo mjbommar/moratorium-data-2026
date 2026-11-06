@@ -34,6 +34,11 @@ def build(destination, revision):
              'work/schemas/expanded/1.0.0.json'}
     if 'data/expanded-csv' in names:
         exact.update({'data/expanded-csv', 'data/README.md'})
+    if 'data/identities/legacy-moratoria.jsonl' in names:
+        exact.update({'data/identities/legacy-moratoria.jsonl', 'docs/legacy-moratorium-identities.md',
+                      'scripts/legacy_moratorium_identity.py', 'scripts/preview_legacy_identity.py',
+                      'work/research/2026-11-06/seattle-identity-review/retirement-plan.json',
+                      'work/research/2026-11-06/seattle-identity-review/retirement-validation.json'})
     selected = sorted(n for n in names if n in exact or n.startswith(('data/expanded-snapshots/', 'data/expanded-csv-snapshots/')))
     assert exact <= set(selected), exact-set(selected)
     manifest = {'schema_version': '1.0.0', 'candidate_status': 'unreleased_preparation',

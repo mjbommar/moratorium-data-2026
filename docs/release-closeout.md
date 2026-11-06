@@ -19,9 +19,11 @@ Sources: [discovery accounting](../work/audit/discovery-coordinator-accounting-2
 
 ## Current closure checkpoint
 
-The frozen discovery review now has zero candidates awaiting coordinator review: 38 additions, one covered existing instrument and 146 reviewed withheld. The current inventory contains 1,331 local records (1,080 classified active/extended, 79 pending and 172 past) and 442 state-policy records. The expanded ballot subset contains 50 measures, 56 retained results and 50 current observations, including five certified observations. These classifications and review dispositions do not establish inventory-wide current enforceability or complete election coverage.
+The frozen discovery review now has zero candidates awaiting coordinator review: 38 additions, one covered existing instrument and 146 reviewed withheld. The current inventory contains 1,330 local records (1,079 classified active/extended, 79 pending and 172 past) and 442 state-policy records. The expanded ballot subset contains 50 measures, 56 retained results and 50 current observations, including five certified observations. These classifications and review dispositions do not establish inventory-wide current enforceability or complete election coverage.
 
 Public CSV projections now preserve retained results separately from current observations; immutable download manifests and both portable data pointers passed deterministic bundle/clean-restore checks. The search provenance adapter preserves response hashes, original ordering, error/interruption exchanges and unpriced spend. New reservations persist query/window intent before transport. These close specific implementation increments; remaining TODO gates, final copy/consumer reconciliation, final immutable publication and deployment verification remain required. The starting table above is a historical checkpoint.
+
+The Seattle duplicate is now explicitly retired with both IDs and full original rows retained in the [legacy alias registry](legacy-moratorium-identities.md). No surviving fields changed; separate field reconciliation remains qualified. This correction is reflected in current counts, builds and release-bundle selection. Downstream snapshots and final publication remain open.
 
 ## Execution order
 

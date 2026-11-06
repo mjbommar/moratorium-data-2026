@@ -44,7 +44,11 @@ def validate(directory, moratoria=None, state_actions=None):
             with path.open(newline='', encoding='utf-8-sig') as f:
                 reader = csv.DictReader(f)
                 if field not in (reader.fieldnames or []): raise ValueError(f'missing column {field}')
-                return {r[field] for r in reader if r[field]}
+                ids = {r[field] for r in reader if r[field]}
+                if field == 'moratorium_id':
+                    from legacy_moratorium_identity import load_aliases
+                    ids |= set(load_aliases(path, ids))
+                return ids
         except (OSError, ValueError) as exc:
             err(str(path), str(exc)); return set()
     external = {'moratorium': ext_ids(moratoria, 'moratorium_id'), 'state_action': ext_ids(state_actions, 'policy_action_id')}

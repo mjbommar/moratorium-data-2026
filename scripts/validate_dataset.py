@@ -516,6 +516,11 @@ def main() -> int:
     stats = json.loads(STATS.read_text(encoding="utf-8"))
 
     check_inventory(inv, inv_cols, today, rep)
+    from legacy_moratorium_identity import load_aliases
+    try:
+        load_aliases(INV, {r['moratorium_id'] for r in inv})
+    except (ValueError, OSError, KeyError) as exc:
+        rep.error('identity.registry', str(exc))
     check_legislation(leg, leg_cols, rep)
     check_summary_stats(inv, leg, stats, rep)
 

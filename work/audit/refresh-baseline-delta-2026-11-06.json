@@ -1,14 +1,14 @@
 {
   "baseline_commit": "dbaab04d84f8d679ba5a3d57bf45f32186109222",
-  "current_commit": "2c63207582dc1ba5a28b4f4ce8701502fddc4126",
+  "current_commit": "47bae35a58ca6d5f2ef2a574d2f251b77beaf5a7",
   "scope": "Working inventory comparison, not a public-release comparison or complete legal-force verification. Ballot measures have a separate denominator.",
   "tables": {
     "local": {
       "path": "data/moratorium_inventory.csv",
       "baseline_sha256": "7d6d252da231ec8e00fb4bba37489629f931cc9bd2bdaae796ee9c6d77e3f4c7",
-      "current_sha256": "95b0a00e29692b8d60255759bb3c54e5771e162430800b571936c2f46603a824",
+      "current_sha256": "bc5b2917ef203369af22c980438d6130ac7f326a7f4bc474e77db6e7a9a12ecd",
       "before_total": 1291,
-      "after_total": 1331,
+      "after_total": 1330,
       "before_status_counts": {
         "active": 897,
         "replaced": 93,
@@ -18,7 +18,7 @@
         "expired": 50
       },
       "after_status_counts": {
-        "active": 888,
+        "active": 887,
         "replaced": 94,
         "pending": 79,
         "rescinded": 12,
@@ -67,7 +67,9 @@
         "wa-whitman-county-2025",
         "wi-sun-prairie-2026"
       ],
-      "removed_ids": [],
+      "removed_ids": [
+        "wa-seattle-2026-2"
+      ],
       "changed_existing_records": [
         {
           "record_id": "ak-houston-undated",
@@ -15736,6 +15738,17 @@
         }
       ]
     }
+  },
+  "legacy_identity_retirements": {
+    "path": "data/identities/legacy-moratoria.jsonl",
+    "sha256": "4f8f926755498442254f9a68272d68ecf62b7f7af731a598d7973f9e654b504b",
+    "aliases": {
+      "wa-seattle-2026-2": "wa-seattle-2026"
+    },
+    "removed_baseline_ids": [
+      "wa-seattle-2026-2"
+    ],
+    "scope": "Explicit duplicate retirements; original IDs and full row observations retained. Historical baseline count is not backcast."
   },
   "ballot_scope": {
     "snapshot": "3b01a2f4d33e79fff6c4b0bd7e463ceabdc65f95e1b7f0af1c4daf61a4722947",

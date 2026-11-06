@@ -1,0 +1,65 @@
+{
+  "schema_version": "legacy-moratorium-retirement-1",
+  "preview_plan": {
+    "schema_version": "legacy-identity-preview-1",
+    "inventory_sha256": "95b0a00e29692b8d60255759bb3c54e5771e162430800b571936c2f46603a824",
+    "reviewer": "coordinator",
+    "reviewed_at": "2026-11-06T20:59:32.683999+00:00",
+    "merges": [
+      {
+        "canonical_id": "wa-seattle-2026",
+        "alias_ids": [
+          "wa-seattle-2026-2"
+        ],
+        "record_sha256": {
+          "wa-seattle-2026": "8dcd292f59124c3f2ebb168fa64f04bb7139c97c0ba11790ba80b8c35b38415b",
+          "wa-seattle-2026-2": "568c2afea653493342c2f6c388ab03fdf8bad847b28c59a3d5f966e20121fc61"
+        },
+        "evidence": [
+          {
+            "url": "https://clerk.seattle.gov/~archives/Ordinances/Ord_127447.pdf",
+            "body_sha256": "67ba32830dc4e494921171e35e03cb8ffc5a0656d25894194df84b2b16cc18b3",
+            "locator": "Reviewed Seattle identity packet; original ordinance title/execution and clerk legislative summary."
+          },
+          {
+            "url": "https://clerk.seattle.gov/~archives/ordinances/Ord_127447_LegSum.pdf",
+            "body_sha256": "1d317e8439a8a542710981a3d62176a3f1bb373f88d552e83b9391e13c306f4a",
+            "locator": "Reviewed Seattle identity packet; original ordinance title/execution and clerk legislative summary."
+          }
+        ],
+        "rationale": "Primary records identify one ordinance with two existing legacy rows. Preserve both ID references through explicit alias handling; do not merge fields automatically or renew legal force."
+      }
+    ]
+  },
+  "event_id": "cedeb99b-e6ed-4eab-b0d7-b0c5b4e0b765",
+  "expected_registry_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "inventory_after_sha256": "bc5b2917ef203369af22c980438d6130ac7f326a7f4bc474e77db6e7a9a12ecd",
+  "retired_record": {
+    "state": "Washington",
+    "state_abbrev": "WA",
+    "jurisdiction": "Seattle",
+    "jurisdiction_type": "City",
+    "date_enacted": "2026-06-09, City Council adoption (Council Bill 121214 and companion Resolution 32204)",
+    "duration": "365 days from the effective date of Ordinance No. 127447 (effective 2026-06-11), automatically expiring at the end of that period unless renewed for one or more six-month periods under RCW 36.70A.390 or terminated earlier by Council",
+    "legal_basis": "Seattle Ordinance No. 127447 (Council Bill 121214), passed by the City Council 2026-06-09 by a 3/4 vote and approved by Mayor Katie Wilson 2026-06-11; amends SMC 23.84A.008 to define 'data center' and adopts the moratorium under RCW 36.70A.390, with a companion work plan (Attachment A) and companion Resolution 32204 (policy framework)",
+    "trigger": "",
+    "current_status": "Active as of 2026-09-23. Confirmed via the City's official ordinance text (Ord. No. 127447) and City Council press release: the moratorium on filing/acceptance/processing/approval of applications for new or expanded large-scale (>20 MVA) data centers took effect 2026-06-11 and runs 365 days (through approximately 2027-06-11) unless renewed in six-month increments under RCW 36.70A.390 or ended earlier by Council. The required public hearing was held 2026-07-15 before the Land Use and Sustainability Committee (hearing only, no vote); no extension or termination has been found as of 2026-09-23.",
+    "affected_projects": "New large data center siting citywide",
+    "outcome": "Council unanimously adopted legislation placing a temporary freeze on new data center siting pending impact studies",
+    "has_verify_tags": "False",
+    "verify_count": "0",
+    "cite_count": "0",
+    "activity_level": "Medium",
+    "enacted_status": "active",
+    "moratorium_id": "wa-seattle-2026-2",
+    "latitude": "47.603832",
+    "longitude": "-122.330062",
+    "date_enacted_iso": "2026-06-09",
+    "date_enacted_uncertainty": "exact",
+    "duration_days": "365",
+    "duration_kind": "fixed_days",
+    "current_end_date_iso": "2027-06-11",
+    "sectors": "[\"data_center\"]",
+    "trigger_categories": "[\"regulatory_gap\",\"infrastructure_capacity\"]"
+  }
+}

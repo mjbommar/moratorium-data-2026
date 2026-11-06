@@ -3,7 +3,7 @@
 
 Working inventory for Washington, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**44 instruments** — 31 in force, 0 pending, 13 past.
+**43 instruments** — 30 in force, 0 pending, 13 past.
 
 State policy is tracked separately: **5 actions** (5 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -41,7 +41,6 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 | Puyallup | City | 2026-06-02 | battery storage | 🟢 Active |
 | Renton | City | 2022-04 | battery storage | ⚪ Expired |
 | Renton | City | 2026-08-17 | data center | 🟢 Active |
-| Seattle | City | 2026-06-09 | data center | 🟢 Active |
 | Skagit County | County | 2024-09-23 | battery storage | ⚪ Expired |
 | Skagit County | County | 2026-06-01 | data center | 🟢 Active |
 | Skamania County | County | 2026-08-18 | data center | 🟢 Active |
@@ -567,22 +566,6 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Affected projects:** New or expanded large data center siting citywide; no specific proposed project identified in reporting
 - **Detailed status:** Active as of 2026-09-23. Moratorium on filing, acceptance, processing, and approval of applications/permits for the siting, establishment, or expansion of large data centers, adopted 2026-08-17 for up to one year; does not apply to applications pending before the effective date or to maintenance/repair of existing facilities that do not expand footprint or utility capacity.
 - **Outcome:** Renton City Council unanimously approved a one-year moratorium on large data centers on 2026-08-17, following a June 1, 2026 council motion directing staff to begin drafting it.
-
-### Seattle
-
-- **Type:** City
-- **Status:** 🟢 Active
-- **Date enacted:** 2026-06-09, City Council adoption (Council Bill 121214 and companion Resolution 32204)
-- **Normalized date:** `2026-06-09` (exact)
-- **Duration:** 365 days from the effective date of Ordinance No. 127447 (effective 2026-06-11), automatically expiring at the end of that period unless renewed for one or more six-month periods under RCW 36.70A.390 or terminated earlier by Council
-- **Current end date:** `2027-06-11`
-- **Sectors:** data center
-- **Moratorium ID:** `wa-seattle-2026-2`
-- **Legal basis:** Seattle Ordinance No. 127447 (Council Bill 121214), passed by the City Council 2026-06-09 by a 3/4 vote and approved by Mayor Katie Wilson 2026-06-11; amends SMC 23.84A.008 to define 'data center' and adopts the moratorium under RCW 36.70A.390, with a companion work plan (Attachment A) and companion Resolution 32204 (policy framework)
-- **What prompted it:** —
-- **Affected projects:** New large data center siting citywide
-- **Detailed status:** Active as of 2026-09-23. Confirmed via the City's official ordinance text (Ord. No. 127447) and City Council press release: the moratorium on filing/acceptance/processing/approval of applications for new or expanded large-scale (>20 MVA) data centers took effect 2026-06-11 and runs 365 days (through approximately 2027-06-11) unless renewed in six-month increments under RCW 36.70A.390 or ended earlier by Council. The required public hearing was held 2026-07-15 before the Land Use and Sustainability Committee (hearing only, no vote); no extension or termination has been found as of 2026-09-23.
-- **Outcome:** Council unanimously adopted legislation placing a temporary freeze on new data center siting pending impact studies
 
 ### Skagit County
 

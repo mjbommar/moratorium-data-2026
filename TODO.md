@@ -26,7 +26,7 @@ Exit: reproducible baseline manifest with unrelated work preserved.
 - [x] Define non-moratorium local restrictions without widening the legacy inventory denominator.
 - [x] Define typed measure–instrument links, instrument events, claims and scoped review decisions.
 - [x] Define and test explicit UUID allocation, pinned observation aliases, collision checks and append-only merge/split lineage (`docs/expanded-identity-registry.md`). Domain-fact import remains separate.
-- [x] Preserve existing moratorium/project/state-action IDs and document tagged references.
+- [x] Preserve existing moratorium/project/state-action IDs and document tagged references. The reviewed Seattle duplicate retirement retains both full original rows and permanent IDs in the append-only legacy alias registry, with lookup and validation compatibility (`docs/legacy-moratorium-identities.md`); final downstream snapshot reconciliation remains open.
 - [x] Separate lifecycle, result, certification, bindingness, mechanism and yes-vote direction.
 - [x] Define date bounds, precision, local timestamps, retroactivity, calendar durations and end conditions.
 - [x] Define threshold units, operators, aggregation, exemptions and measurement basis.

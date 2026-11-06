@@ -1,17 +1,17 @@
 # Working refresh: baseline comparison
 
 Baseline: `dbaab04d84f8d679ba5a3d57bf45f32186109222`, whose README describes September 23, 2026.
-The current comparison was generated from base revision `2c63207` and the working-tree
+The current comparison was generated from base revision `47bae35` and the working-tree
 CSV bytes pinned in the JSON. This compares working data, not the last public
 release. The cohort cutoff remains November 5; later scoped reviews do not renew
 all-record legal-force freshness.
 
 | Metric | Baseline | Current | Delta |
 |---|---:|---:|---:|
-| Local instruments | 1291 | 1331 | +40 |
-| Active | 897 | 888 | -9 |
+| Local instruments | 1291 | 1330 | +39 |
+| Active | 897 | 887 | -10 |
 | Extended | 166 | 192 | +26 |
-| Active plus extended | 1063 | 1080 | +17 |
+| Active plus extended | 1063 | 1079 | +16 |
 | Pending | 77 | 79 | +2 |
 | Replaced | 93 | 94 | +1 |
 | Rescinded | 8 | 12 | +4 |
@@ -25,7 +25,7 @@ subtypes remain inside the legacy bill category; it is not a verified denominato
 of bills or enacted state moratoria.
 
 Forty local records were added: `ak-fairbanks-north-star-borough-undated`, `ak-petersburg-borough-undated`, `ca-hayward-2026`, `co-brighton-undated`, `co-fort-collins-undated`, `co-phillips-county-2024`, `co-phillips-county-2025`, `de-kent-county-2022`, `de-kent-county-undated`, `ga-union-county-2026`, `ia-dubuque-county-2026-2`, `ia-sac-county-2025`, `ia-sioux-county-2023`, `id-blaine-county-undated`, `il-chicago-undated`, `il-stephenson-county-2026`, `in-vermillion-county-undated`, `in-zionsville-undated`, `ky-camargo-2026`, `la-bossier-parish-2022`, `ma-braintree-undated`, `ma-methuen-undated`, `md-talbot-county-2022`, `me-ashland-2024`, `me-bridgton-2022`, `mi-locke-township-2023`, `mi-locke-township-2023-2`, `mi-meridian-township-2026-2`, `mn-pequot-lakes-undated`, `nc-town-of-mooresville-undated`, `ne-sarpy-county-2020`, `nj-east-windsor-undated`, `nm-silver-city-2021`, `ny-massena-undated`, `ny-niagara-2024`, `sc-awendaw-undated`, `tn-orlinda-2026`, `wa-spokane-valley-2026`, `wa-whitman-county-2025`, `wi-sun-prairie-2026`. Two policy records were added:
-`ca-ab2469-2025-2026`, `nj-a4696-2026-2027`. No baseline IDs were removed. Among surviving baseline records,
+`ca-ab2469-2025-2026`, `nj-a4696-2026-2027`. One baseline duplicate row, `wa-seattle-2026-2`, was explicitly retired into `wa-seattle-2026`; both permanent IDs and full original rows remain available in the [identity registry](../../docs/legacy-moratorium-identities.md). Thus 40 additions minus one retirement produce the net increase of 39; the historical published denominator is preserved rather than silently backcast. Among surviving baseline records,
 663 local and 30 policy records have changed fields.
 These are edit counts, not completed record reviews or counts of new enactments.
 The two Kent additions describe historical terms ending in 2022 and 2023; the wind

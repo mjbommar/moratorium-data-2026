@@ -4,7 +4,7 @@ The selected November5and6applyreceipts cover the current CSV inputs by hash. Th
 
 | Dataset | Current records | Records with applied changes | Last applied field values tracked | Match current CSV |
 |---|---:|---:|---:|---:|
-| inventory | 1331 | 703 | 2189 | 2189 |
+| inventory | 1330 | 703 | 2189 | 2189 |
 | state_policy | 442 | 32 | 116 | 116 |
 
 Every record changed since the September baseline, including newly added records, has at least one selected apply receipt. This is row-level edit coverage, not proof that each field or legal interval was reviewed. Last-value equality means no later value drift from those applied events; it is not source reacceptance. Derived `has_verify_tags` and `verify_count` changes remain separate from explicit field events.
@@ -20,3 +20,5 @@ python3 scripts/build_refresh_accounting.py \
   --receipt-date 20261105 --receipt-date 20261106 --include-fields \
   --output work/audit/refresh-field-accounting-2026-11-06.json
 ```
+
+The separate Seattle identity retirement removes one unchanged duplicate from the current-row denominator. Both preimages and IDs remain in the alias registry; this is not an apply-receipt field change. The 703 surviving records with applied edits and 2,189 tracked fields are unchanged.

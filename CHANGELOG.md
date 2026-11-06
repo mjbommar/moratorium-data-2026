@@ -2,7 +2,7 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
-Completed the frozen 474-record duration review: 230 calendar-unit encoding corrections applied, 21 explicit-day originals retained and 223 cases withheld with source requirements. All dates, status, prose and IDs are preserved; zero cases await this queue’s coordinator review. Two hundred newly visible calendar-end warnings retain unknown current endpoints rather than guessed expiry dates. The separate Seattle apparent duplicate-identity question remains open before final freeze; no unique-instrument count adjustment or full freshness claim is accepted.
+Completed the frozen 474-record duration review: 230 calendar-unit encoding corrections applied, 21 explicit-day originals retained and 223 cases withheld with source requirements. All dates, status, prose and IDs are preserved; zero cases await this queue’s coordinator review. Two hundred newly visible calendar-end warnings retain unknown current endpoints rather than guessed expiry dates. The subsequent Seattle primary-source identity review confirms one ordinance in two rows. The reviewed retirement preserves both IDs/full original rows in an append-only registry and changes no survivor fields. Current counts include this one correction: 1,330 local records, 1,079 classified active/extended; this is not a full freshness or unique-instrument census claim.
 
 
 Mooresville adds a town-reported active twelve-month data-center pause; its separate unsigned posted ordinance does not establish executed terms or an operative endpoint. Awendaw Ordinance 2026-34 adds an unsigned data-center/crypto proposal, preserving separate facility-demand and expansion-increase thresholds and blank operative dates. Seven other Carolina/Virginia histories remain withheld.
@@ -82,15 +82,15 @@ have coordinator dispositions: 38 additions, one covered existing instrument and
 146 withheld with evidence requirements. Jay solar ballot is separately reviewed and published outside the original frozen
 cohort, with primary return and operative legal history unresolved.
 
-Current totals are 1,331 local instruments (1,080 classified active or extended,
+Current totals are 1,330 local instruments (1,079 classified active or extended,
 79 pending, 172 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1331** |
-| Classified active or extended | **1080** |
+| Moratoria in the list | **1330** |
+| Classified active or extended | **1079** |
 | Pending or not yet effective | **79** |
 | Ended (replaced, expired, or rescinded) | **172** |
 | Rows we still want to confirm (`[VERIFY]`) | **704** |

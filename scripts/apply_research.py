@@ -411,7 +411,9 @@ def main() -> int:
 
     rows, fieldnames = read_inventory()
     by_id = {r["moratorium_id"]: r for r in rows}
-    taken_ids = set(by_id)
+    from legacy_moratorium_identity import load_aliases, resolve
+    aliases = load_aliases(INV, set(by_id))
+    taken_ids = set(by_id) | set(aliases)
     # Activity level is a per-state attribute; reuse the state's existing value
     # so a new row does not invent one.
     activity_by_state = {r["state"]: r["activity_level"] for r in rows}
@@ -429,6 +431,9 @@ def main() -> int:
             stats[f"outcome:{dec['outcome']}"] += 1
             row = by_id.get(mid)
             if row is None:
+                if mid in aliases:
+                    conflicts.append(f"{path.name}: retired ID {mid!r} resolves to {resolve(mid, aliases)!r}; submit an explicit reviewed change against that current row")
+                    continue
                 conflicts.append(f"{path.name}: unknown moratorium_id {mid!r}")
                 stats["skipped_unknown_id"] += 1
                 continue

@@ -6,7 +6,7 @@ Canonical records and reproducible derived downloads for this project.
 
 | File | What it is | Size | Format |
 |------|------------|------|--------|
-| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1331 local-moratorium instruments. **Start here.** | 1,693,356 bytes | CSV |
+| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1330 local-moratorium instruments. **Start here.** | 1,691,731 bytes | CSV |
 | [`state_legislation.csv`](state_legislation.csv) | 442 state-policy records in 2025–2026; mechanisms and legal effects vary | 245,914 bytes | CSV |
 | [`summary_stats.json`](summary_stats.json) | Top-level aggregates (counts by state, by status, etc.) | ~12 KB | JSON |
 | [`structured_extractions.jsonl`](structured_extractions.jsonl) | 864 lines: 526 successful clause extractions + 338 LLM-call errors retained for transparency | ~2 MB | JSONL |
@@ -24,7 +24,7 @@ The inventory CSV includes normalized fields alongside legacy descriptions. Usef
 - **`enacted_status`** — closed-vocab status: `active`, `extended`, `replaced`, `expired`, `rescinded`, or `pending`. Filter to `active` + `extended` for records classified active or extended. These classifications do not prove freshly verified current legal force.
 - **`moratorium_id`** — stable identifier (`<state>-<jurisdiction>-<year>`, with phase suffixes for repeat instruments). Use this as a primary key when joining with future releases of this dataset.
 - **`current_end_date_iso`** — current fixed endpoint after any extension. Use it for expiry monitoring; `duration_days` preserves the original instrument's term.
-- **`latitude` / `longitude`** — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 1290 of 1331 rows have coordinates; nonblank coordinates do not establish correct jurisdiction identity or legal applicability. See [geocoding caveats](../docs/known-gaps.md#geocoding-caveats-added-v2026042).
+- **`latitude` / `longitude`** — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 1289 of 1330 rows have coordinates; nonblank coordinates do not establish correct jurisdiction identity or legal applicability. See [geocoding caveats](../docs/known-gaps.md#geocoding-caveats-added-v2026042).
 
 ## Quick examples
 
@@ -129,3 +129,5 @@ together. Run `python3 scripts/build_expanded_csv.py` to regenerate or add `--ch
 to detect changed bytes, stale links or a mismatched source generation. The same
 checks run under `make data` and `make check`. Edit reviewed JSONL through the
 publication process, then regenerate; do not treat CSV edits as canonical changes.
+
+Reviewed duplicate retirements and original rows are retained in [`identities/legacy-moratoria.jsonl`](identities/legacy-moratoria.jsonl). Resolve historical IDs using the [legacy lookup rules](../docs/legacy-moratorium-identities.md); current CSV totals exclude retired duplicate rows.
