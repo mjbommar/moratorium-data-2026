@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Wiscasset Question 2 adds a fifth reviewed expanded measure with unofficial 1,363 yes / 712 no. Question-specific ballots cast and blanks remain unknown. Proposed six-month enactment terms are separate from November 3 retroactive coverage and conditional 180-day extensions. The duration vocabulary adds an explicit enactment anchor. Certification, outcome and operative force remain unresolved; legacy counts are unchanged.
+
 Nottingham’s September 8 ballot adds a fourth reviewed expanded measure, with proposed twelve-calendar-month/adoption terms, conditional exclusions and town-posted 1,335 yes / 143 no. The marked document retains a SAMPLE BALLOT heading; certification, outcome and operative legal force remain unresolved. Planning Board proposal signatures are not voter-adoption execution. Legacy counts are unchanged.
 
 Canterbury’s March 10 Article 4 adds a third reviewed expanded-data measure: a proposed permanent zoning prohibition with town-posted 322 yes / 63 no. Certification, passage outcome and operative legal effect remain unresolved; no legacy moratorium count changes. Earlier canonical records and result history remain intact.

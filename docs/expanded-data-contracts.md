@@ -6,7 +6,7 @@ moratorium grain and exclusion of permanent bans remain unchanged. A successful
 validation is structural consistency, not proof of legal effect, source accuracy,
 identity, completeness, or permission to publish. An initial [reviewed snapshot writer](expanded-promotion.md) now supplies separate
 identity, evidence, field-review and atomic-publication gates; reviewed canonical
-records include Eliot, Sabattus, Canterbury and Nottingham, with explicit result supersession. See the
+records include Eliot, Sabattus, Canterbury, Nottingham and Wiscasset, with explicit result supersession. See the
 [generated results view](ballot-results.md). Identity decisions have a separate
 [append-only registry](expanded-identity-registry.md).
 
@@ -73,7 +73,9 @@ Optional `yes_no_votes` records the arithmetic sum without inventing total valid
 votes or turnout; `blank_votes` remains distinct from overvotes and undervotes.
 `value_methods` identifies text, OCR, visual review, source reporting or derivation
 per result field with supporting claim IDs. Optional provision/restriction
-`duration` retains calendar months/years versus days, the legal anchor and its
+`duration` distinguishes enactment, adoption, effectiveness and applicability anchors;
+no dates are equated without source/legal review. It retains calendar months/years
+versus days, the legal anchor and its
 uncertain date; it does not automatically calculate an operative expiration.
 Complicated passage rules should remain `unknown` and be described in evidence;
 they cannot be represented or calculated completely by this first increment.

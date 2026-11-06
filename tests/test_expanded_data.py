@@ -26,6 +26,20 @@ class ExpandedContracts(unittest.TestCase):
         return {'schema_version':'1.0.0','restriction_id':'r','jurisdiction_id':'synthetic-town','title':None,'status':'proposed','provisions':[],'adoption':date(),'effective':date(),'applicability_start':date(),'retroactivity_explanation':None,'end':date(),'duration_original':None,'claim_ids':[]}
     def claim(self,subject,predicate):
         return {'schema_version':'1.0.0','claim_id':'c','subject':subject,'predicate':predicate,'value':'synthetic','source_document_id':'synthetic-source','quote':'Synthetic quote','span':None,'temporal_support':date(),'extraction_provenance':'synthetic'}
+    def test_enactment_term_preserves_unknown_date(self):
+        # A six-month enactment term must not acquire an election/retroactivity date.
+        provision = {'schema_version': '1.0.0', 'provision_id': 'p',
+            'measure_id': 'synthetic-question', 'mechanism': 'temporary_permitting_pause',
+            'bindingness': 'unresolved', 'covered_uses': [], 'thresholds': [],
+            'exemptions': [], 'geography': None, 'implementation_requirements': None,
+            'claim_ids': []}
+        self.tables['measure_provisions'] = [provision]
+        provision['duration'] = {'value': 6, 'unit': 'calendar_months',
+            'anchor': 'enactment', 'anchor_date': None,
+            'original_text': 'six (6) months following its enactment'}
+        self.assertEqual(self.validate(), [])
+        self.assertIsNone(provision['duration']['anchor_date'])
+
     def test_fixture_and_reverse_polarity(self):
         self.assertEqual(self.validate(), [])
         self.tables['measure_results'][0]['outcome_direction'] = 'facilitates'

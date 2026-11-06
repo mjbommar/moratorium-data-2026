@@ -64,3 +64,8 @@ unofficial at 1,363 yes / 712 no, with blanks and question-specific ballots cast
 unknown. Enactment/certification, passage rule, later legal history and canonical
 publication review remain open; the earlier gaps for question wording, proposed
 operative text and compatible source retention have now been addressed.
+
+The subsequent [canonical promotion packet](../wiscasset-promotion/README.md)
+records publication of the reviewed fields, including the source-qualified
+unofficial result and unresolved operative dates. The initial review and recovery
+receipts above retain their original stage-specific scope.

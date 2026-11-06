@@ -3,7 +3,7 @@
 The authoritative identity history is `data/identities/expanded.jsonl`. It is
 separate from the legacy CSV primary keys and the canonical domain tables
 in `data/expanded/<table>.jsonl`. The registry does not change ballot facts,
-certification, legal force, or legacy instrument counts. Canonical records include reviewed Eliot, Sabattus, Canterbury and Nottingham questions and result
+certification, legal force, or legacy instrument counts. Canonical records include reviewed Eliot, Sabattus, Canterbury, Nottingham and Wiscasset questions and result
 observations; identity decisions alone never promote their facts. Remaining candidate
 review snapshots are research inputs, not canonical domain records.
 
