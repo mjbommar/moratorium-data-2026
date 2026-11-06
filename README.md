@@ -9,13 +9,15 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 > **As of November 5, 2026, 1293 local moratorium instruments are tracked across 47 states.**
 > Working snapshot: the full November refresh is in progress. Status dates vary by record; these are recorded classifications, not a claim that every instrument was freshly verified.
 >
-> 🟢 **1071 currently in force** (active or extended) · 🟡 **67 pending or not yet effective** (proposed or enacted with a future effective date) · ⚪ **155 expired, replaced, or rescinded** (no longer in force)
+> 🟢 **1071 classified active or extended** (current legal force remains record-specific) · 🟡 **67 pending or not yet effective** (proposed or enacted with a future effective date) · ⚪ **155 expired, replaced, or rescinded** (no longer in force)
 >
 > Top states by total instruments: Ohio (160), New York (150), Michigan (145), Georgia (70), North Carolina (69), Iowa (58), Tennessee (45), Washington (42), Wisconsin (40), Florida (35).
 >
-> ✅ **Coverage note:** **all 50 states** were swept month by month for May–July 2026, so counts inside that window are complete rather than lower bounds. Ten states recorded no adoption in it — a finding, not a gap. Earlier periods were not swept this way. See [known gaps](docs/known-gaps.md).
+> **Coverage note:** All 50 states were searched month by month for May–July 2026, but later discovery found additional instruments in that window. These are observed inventory counts, not a complete census. See [known gaps](docs/known-gaps.md).
 
-[Reviewed ballot results](docs/ballot-results.md) are tracked separately from the legacy moratorium counts. Legal-effect review remains record-specific.
+[Reviewed ballot results](docs/ballot-results.md) cover **49 measures**, tracked separately from the legacy moratorium counts; **7 additional candidate groups remain unresolved**. A vote, certification and an operative legal restriction are distinct observations. Legal-effect review remains record-specific.
+
+The linked April 2026 paper is a historical edition. Its figures and conclusions have not been synchronized to this November working dataset.
 
 ![Moratorium counts by state](figures/png/map-moratorium-counts.png)
 

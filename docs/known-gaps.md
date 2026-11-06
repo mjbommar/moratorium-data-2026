@@ -19,11 +19,16 @@ between the January motion hold and the later interim-zoning ordinance annotated
 adopted in the council docket. We have not inferred a merger, replacement date or
 additional active instrument. The [review receipt](../work/research/2026-11-05/reviewed-louisiana-massachusetts/review.json)
 records these follow-ups. `mi-elmwood-township-tuscola-county-2026` also combines
-a February ordinance with June Resolution 2026.06.17.A; separate identities, original
-terms and the exact successor relationship require executed-text review. The June
-news report does not establish the original ordinance term.
-[The Michigan review](../work/research/2026-11-05/reviewed-michigan-b/review.json)
-records that limitation. Current record counts are working inventory totals, not
+a February ordinance with June Resolution 2026.06.17.A. The township-hosted original
+ordinance and February minutes now confirm a nine-month original term from effectiveness,
+with publication required. The complete June resolution, publication date and exact
+successor relationship remain unresolved. The [Elmwood evidence review](../work/research/2026-11-06/elmwood-instrument-review/README.md)
+records the four descriptive corrections without assigning a calendar endpoint.
+Frenchtown's April 28 agenda packet includes a DRAFT Ordinance 300-19 with a six-month
+term and effectiveness seven days after publication; it is not an executed copy.
+The actual publication date and extension endpoint remain unresolved in the
+[Frenchtown review](../work/research/2026-11-06/frenchtown-instrument-review/README.md).
+Current record counts are working inventory totals, not
 proof that every legacy row satisfies the intended one-instrument grain.
 
 ### November discovery and search limits
