@@ -34,6 +34,10 @@ INV = REPO / "data" / "moratorium_inventory.csv"
 
 # moratorium_id -> override
 OVERRIDES: dict[str, dict] = {
+    "oh-ada-2026": {"latitude": "40.768139", "longitude": "-83.825211", "why": "Verified municipal identity against official Census2025Ohio place internal point and retained primary municipal source; previous point failed >25km screen. Internal representative point only, not boundary/applicability. Review: work/research/2026-11-06/ohio-municipal-geography-review/."},
+    "oh-clinton-2026": {"latitude": "40.928138", "longitude": "-81.631137", "why": "Verified municipal identity against official Census2025Ohio place internal point and retained primary municipal source; previous point failed >25km screen. Internal representative point only, not boundary/applicability. Review: work/research/2026-11-06/ohio-municipal-geography-review/."},
+    "oh-jefferson-2026": {"latitude": "41.738411", "longitude": "-80.768782", "why": "Verified municipal identity against official Census2025Ohio place internal point and retained primary municipal source; previous point failed >25km screen. Internal representative point only, not boundary/applicability. Review: work/research/2026-11-06/ohio-municipal-geography-review/."},
+    "oh-warren-2026": {"latitude": "41.239564", "longitude": "-80.816015", "why": "Verified municipal identity against official Census2025Ohio place internal point and retained primary municipal source; previous point failed >25km screen. Internal representative point only, not boundary/applicability. Review: work/research/2026-11-06/ohio-municipal-geography-review/."},
     "oh-perry-undated": {
         "latitude": "41.763674",
         "longitude": "-81.143013",

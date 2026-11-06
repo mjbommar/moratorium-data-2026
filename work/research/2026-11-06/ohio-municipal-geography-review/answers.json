@@ -1,0 +1,149 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-11-06",
+  "researcher": "Coordinator Census/municipal identity and Warren visual instrument review",
+  "decisions": [
+    {
+      "moratorium_id": "oh-ada-2026",
+      "outcome": "corrected",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_39.txt",
+          "source_type": "other",
+          "publisher": "U.S. Census Bureau",
+          "supports": "Exact Ohio incorporated place and internal representative point; not boundary or applicability.",
+          "quote": "OH|3900198|1600000US3900198|02397907|Ada village|47|A|5518320|0|2.131|0.|40.768139|-83.825211"
+        },
+        {
+          "url": "https://www.adaoh.gov/",
+          "source_type": "other",
+          "publisher": "Ada village municipal website",
+          "supports": "Independent municipal identity; same official domain as retained instrument where available.",
+          "quote": "Village of Ada Ohio"
+        }
+      ],
+      "changes": {
+        "latitude": {
+          "from": "38.839894",
+          "to": "40.768139",
+          "reason": "Exact-state/name/type Census2025place matched to independently reviewed municipal identity; corrects large point discrepancy without boundary/applicability inference."
+        },
+        "longitude": {
+          "from": "-83.505170",
+          "to": "-83.825211",
+          "reason": "Exact-state/name/type Census2025place matched to independently reviewed municipal identity; corrects large point discrepancy without boundary/applicability inference."
+        }
+      },
+      "notes": "Coordinates only; no status/date/count/current-force change."
+    },
+    {
+      "moratorium_id": "oh-clinton-2026",
+      "outcome": "corrected",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_39.txt",
+          "source_type": "other",
+          "publisher": "U.S. Census Bureau",
+          "supports": "Exact Ohio incorporated place and internal representative point; not boundary or applicability.",
+          "quote": "OH|3916182|1600000US3916182|01086998|Clinton village|47|A|9290344|233351|3.587|0.09|40.928138|-81.631137"
+        },
+        {
+          "url": "https://clintonoh.gov/",
+          "source_type": "other",
+          "publisher": "Clinton village municipal website",
+          "supports": "Independent municipal identity; same official domain as retained instrument where available.",
+          "quote": "Village of Clinton"
+        }
+      ],
+      "changes": {
+        "latitude": {
+          "from": "39.425987",
+          "to": "40.928138",
+          "reason": "Exact-state/name/type Census2025place matched to independently reviewed municipal identity; corrects large point discrepancy without boundary/applicability inference."
+        },
+        "longitude": {
+          "from": "-83.844579",
+          "to": "-81.631137",
+          "reason": "Exact-state/name/type Census2025place matched to independently reviewed municipal identity; corrects large point discrepancy without boundary/applicability inference."
+        }
+      },
+      "notes": "Coordinates only; no status/date/count/current-force change."
+    },
+    {
+      "moratorium_id": "oh-jefferson-2026",
+      "outcome": "corrected",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_39.txt",
+          "source_type": "other",
+          "publisher": "U.S. Census Bureau",
+          "supports": "Exact Ohio incorporated place and internal representative point; not boundary or applicability.",
+          "quote": "OH|3938500|1600000US3938500|02398292|Jefferson village|47|A|6454588|0|2.492|0.|41.738411|-80.768782"
+        },
+        {
+          "url": "https://jeffersonohio.gov/",
+          "source_type": "other",
+          "publisher": "Jefferson village municipal website",
+          "supports": "Independent municipal identity; same official domain as retained instrument where available.",
+          "quote": "Welcome to the Village of Jefferson, OH, the County Seat of Ashtabula County"
+        }
+      ],
+      "changes": {
+        "latitude": {
+          "from": "40.379294",
+          "to": "41.738411",
+          "reason": "Exact-state/name/type Census2025place matched to independently reviewed municipal identity; corrects large point discrepancy without boundary/applicability inference."
+        },
+        "longitude": {
+          "from": "-80.784762",
+          "to": "-80.768782",
+          "reason": "Exact-state/name/type Census2025place matched to independently reviewed municipal identity; corrects large point discrepancy without boundary/applicability inference."
+        }
+      },
+      "notes": "Coordinates only; no status/date/count/current-force change."
+    },
+    {
+      "moratorium_id": "oh-warren-2026",
+      "outcome": "corrected",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_39.txt",
+          "source_type": "other",
+          "publisher": "U.S. Census Bureau",
+          "supports": "Warren city Ohio GEOID3980892internal point.",
+          "quote": "OH|3980892|1600000US3980892|01087046|Warren city|25|A|41326256|420851|15.956|0.162|41.239564|-80.816015"
+        },
+        {
+          "url": "https://cms3.revize.com/revize/warrenoh/Documents/Government/City%20Council/13625-2026.pdf",
+          "source_type": "ordinance",
+          "publisher": "City of Warren, Ohio",
+          "supports": "Both pages identify CityofWarrenOhio; visual handwritten identifier13625/2026; no new current-force assertion.",
+          "quote": "MAYOR, CITY OF WARREN, OH"
+        }
+      ],
+      "changes": {
+        "latitude": {
+          "from": "39.420398",
+          "to": "41.239564",
+          "reason": "Both visually inspected pages identify CityofWarrenOhio; exact Census2025Warren city point distinguishes it from prior southwestOhio point."
+        },
+        "longitude": {
+          "from": "-84.180897",
+          "to": "-80.816015",
+          "reason": "Both visually inspected pages identify CityofWarrenOhio; exact Census2025Warren city point distinguishes it from prior southwestOhio point."
+        },
+        "legal_basis": {
+          "from": "Ordinance of Warren City Council establishing a one-year moratorium on data centers larger than 1,000 sq ft and directing the mayor to form a Data Center Review Committee (number not found)",
+          "to": "City of Warren, Ohio Ordinance No. 13625/2026, establishing a one-year moratorium on data centers larger than 1,000 square feet and directing the mayor to establish a Select Data Center Review Committee; signed two-page municipal instrument.",
+          "reason": "Both primary pages visually inspected; handwritten ordinance number13625/2026 and title directly resolve previously unlocated instrument identifier. No operative endpoint or later legal history accepted."
+        }
+      },
+      "notes": "Coordinates and bounded legal-instrument identifier only; full later history and operative interval unreviewed. The newly fetched generic warren.org text is not treated as government authority."
+    }
+  ],
+  "new_candidates": []
+}

@@ -60,6 +60,19 @@ source dates, endpoints and headline counts did not. A declared override prevent
 regression. This representative point is not a parcel location or boundary and
 does not establish project applicability. See the [primary review](../work/research/2026-11-06/perry-geography-review/README.md).
 
+### Ohio municipal coordinate follow-up
+
+A bounded exact-name city/village comparison against the retained 2025 Ohio
+Gazetteer flagged Ada, Clinton, Jefferson and Warren at 151–350 km from their
+Census internal points. Primary municipal identity review supported four point
+corrections and Warren's previously unlocated Ordinance No. 13625/2026 identifier.
+Other fields, dates, classifications and headline counts remain unchanged.
+The repeated screen has 94 exact municipal matches within 25 km and one unmatched
+name. Townships/counties are excluded; a nearby point does not prove the right
+jurisdiction, boundary or project applicability. The [review packet](../work/research/2026-11-06/ohio-municipal-geography-review/README.md)
+and [post-review screen](../work/audit/ohio-place-coordinate-postreview-2026-11-06.json)
+preserve the evidence and limits.
+
 ### November discovery and search limits
 
 All 50 state-discovery jobs have returned. Their sector labels and answer schemas

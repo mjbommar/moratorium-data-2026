@@ -1,0 +1,86 @@
+{
+  "applied_at": "20261106T082807",
+  "answer_files": [
+    "work/research/2026-11-06/ohio-municipal-geography-review/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 4,
+    "fields_changed": 9
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "oh-ada-2026",
+      "column": "latitude",
+      "before": "38.839894",
+      "after": "40.768139",
+      "reason": "Exact-state/name/type Census2025place matched to independently reviewed municipal identity; corrects large point discrepancy without boundary/applicability inference.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-ada-2026",
+      "column": "longitude",
+      "before": "-83.505170",
+      "after": "-83.825211",
+      "reason": "Exact-state/name/type Census2025place matched to independently reviewed municipal identity; corrects large point discrepancy without boundary/applicability inference.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-clinton-2026",
+      "column": "latitude",
+      "before": "39.425987",
+      "after": "40.928138",
+      "reason": "Exact-state/name/type Census2025place matched to independently reviewed municipal identity; corrects large point discrepancy without boundary/applicability inference.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-clinton-2026",
+      "column": "longitude",
+      "before": "-83.844579",
+      "after": "-81.631137",
+      "reason": "Exact-state/name/type Census2025place matched to independently reviewed municipal identity; corrects large point discrepancy without boundary/applicability inference.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-jefferson-2026",
+      "column": "latitude",
+      "before": "40.379294",
+      "after": "41.738411",
+      "reason": "Exact-state/name/type Census2025place matched to independently reviewed municipal identity; corrects large point discrepancy without boundary/applicability inference.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-jefferson-2026",
+      "column": "longitude",
+      "before": "-80.784762",
+      "after": "-80.768782",
+      "reason": "Exact-state/name/type Census2025place matched to independently reviewed municipal identity; corrects large point discrepancy without boundary/applicability inference.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-warren-2026",
+      "column": "latitude",
+      "before": "39.420398",
+      "after": "41.239564",
+      "reason": "Both visually inspected pages identify CityofWarrenOhio; exact Census2025Warren city point distinguishes it from prior southwestOhio point.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-warren-2026",
+      "column": "longitude",
+      "before": "-84.180897",
+      "after": "-80.816015",
+      "reason": "Both visually inspected pages identify CityofWarrenOhio; exact Census2025Warren city point distinguishes it from prior southwestOhio point.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "oh-warren-2026",
+      "column": "legal_basis",
+      "before": "Ordinance of Warren City Council establishing a one-year moratorium on data centers larger than 1,000 sq ft and directing the mayor to form a Data Center Review Committee (number not found)",
+      "after": "City of Warren, Ohio Ordinance No. 13625/2026, establishing a one-year moratorium on data centers larger than 1,000 square feet and directing the mayor to establish a Select Data Center Review Committee; signed two-page municipal instrument.",
+      "reason": "Both primary pages visually inspected; handwritten ordinance number13625/2026 and title directly resolve previously unlocated instrument identifier. No operative endpoint or later legal history accepted.",
+      "source": "answers.json"
+    }
+  ]
+}

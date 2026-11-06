@@ -2454,7 +2454,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-warren-2026`
-- **Legal basis:** Ordinance of Warren City Council establishing a one-year moratorium on data centers larger than 1,000 sq ft and directing the mayor to form a Data Center Review Committee (number not found)
+- **Legal basis:** City of Warren, Ohio Ordinance No. 13625/2026, establishing a one-year moratorium on data centers larger than 1,000 square feet and directing the mayor to establish a Select Data Center Review Committee; signed two-page municipal instrument.
 - **What prompted it:** Council concerns over noise, strain on local utilities and the environment; existing zoning not designed for large-scale data centers; follows other Trumbull County moratoria. Originally introduced in May as a push toward an outright ban.
 - **Affected projects:** None; mayor said no company had approached the city as of July 22.
 - **Detailed status:** Active as of 2026-09-23; one-year moratorium approved 2026-09-09 (effective date not confirmed, so end is approximately September/October 2027); Data Center Review Committee must report within nine months.

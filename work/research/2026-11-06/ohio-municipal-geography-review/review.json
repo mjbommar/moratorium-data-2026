@@ -1,0 +1,84 @@
+{
+  "status": "applied_build_and_evidence_checks_passed",
+  "inventory_before_sha256": "b96ad81cfdd2ff222be12a6d638e90329b6eda18ea1d130675c12f128ae2511b",
+  "census_sha256": "16e26fd4318ca79918ab0445d494840eaa5fe8540c3f8ba79437ae4ebfec0c17",
+  "municipal_sources": [
+    {
+      "url": "https://www.adaoh.gov/",
+      "attempt_id": "7f6e8895704e42f3b332df27c4c0b32a",
+      "body_sha256": "a6ee089d32c7b678711260f7d7014e07b99a22a17ff5a91bf67ef63c77cf5ae2",
+      "text_sha256": "4901a33a2e0c15368209d9b88dce51da66cf402c7b7db36068b58268ce09aa16"
+    },
+    {
+      "url": "https://clintonoh.gov/",
+      "attempt_id": "1ee68b69df79450897263668d890486b",
+      "body_sha256": "e65404541a45a6001282858b9760887c27a6a2d3dd5b9e94b785e00d55fe19a3",
+      "text_sha256": "07c0b3d26072bdab79cea854babe66809356e710ea2c681e26624e13f6eefa4d"
+    },
+    {
+      "url": "https://jeffersonohio.gov/",
+      "attempt_id": "da6d715a620c456280b1f70799a3506b",
+      "body_sha256": "1641a7fa040f08359317ab124d855eeb9bc7902a5675b5bf226c0720188fa15f",
+      "text_sha256": "0db462614d53784d177b5594a98ffa920636592a980926c11eb1edc53f5e9198"
+    }
+  ],
+  "warren_derivation": {
+    "attempt_id": "0ad93622e7984ad7b7d959b5e07a40c0",
+    "source_body_sha256": "14f96ce009955370a93ef0d3e61e6891a151f228e8ac775c77adca9f849fc031",
+    "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "derived_text_sha256": "deb152bf27d369c47528b0d5111024350a77d6c9de1dd23cf40603a4e51ba5ac",
+    "method": "Selected manual visual transcription from both125DPIpages; original empty extraction retained; no current-force finding",
+    "pages": [
+      1,
+      2
+    ],
+    "reviewer": "coordinator",
+    "review_status": "accepted_derivation",
+    "reviewed_at": "2026-11-06T13:27:33.394851+00:00",
+    "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+  },
+  "visual_reviews": [
+    {
+      "page": 1,
+      "dpi": 125,
+      "render_sha256": "c45c2bdaa426f07fef0f08b57fee6e884200346a8096f172e05d7b44b9792f78",
+      "scope": "Fullpagevisuallyread; jurisdiction/title/identifier accepted only, no current-force finding."
+    },
+    {
+      "page": 2,
+      "dpi": 125,
+      "render_sha256": "8c75fb4c10eaef735766911e4cef401470064634f14117a43a58d8cc8d59b639",
+      "scope": "Fullpagevisuallyread; jurisdiction/title/identifier accepted only, no current-force finding."
+    }
+  ],
+  "scope": "Four geography corrections and one Warren identifier correction only. Dates/status/counts/applicability unchanged.",
+  "apply_receipt": "work/audit/apply-20261106T082807.json",
+  "changed_fields": {
+    "oh-ada-2026": [
+      "latitude",
+      "longitude"
+    ],
+    "oh-clinton-2026": [
+      "latitude",
+      "longitude"
+    ],
+    "oh-jefferson-2026": [
+      "latitude",
+      "longitude"
+    ],
+    "oh-warren-2026": [
+      "legal_basis",
+      "latitude",
+      "longitude"
+    ]
+  },
+  "all_other_rows_preserved": true,
+  "inventory_after_sha256": "ef4a688ec8571fbd9c16369fee717d9e7a3986f098284b0f0dca7a1dbf998121",
+  "geojson_changed_ids": [
+    "oh-ada-2026",
+    "oh-clinton-2026",
+    "oh-jefferson-2026",
+    "oh-warren-2026"
+  ],
+  "all_other_geojson_features_preserved": true
+}
