@@ -1,0 +1,58 @@
+{
+  "state_abbrev": "MO",
+  "researched_as_of": "2026-11-06",
+  "researcher": "Coordinator primary-source review of distributed gpt-6.1-terra return mo-state-policy-001",
+  "decisions": [
+    {
+      "bill_key": "MO:HB 3369 (2026)",
+      "outcome": "corrected",
+      "fields": {
+        "scope_of_action": "local_government",
+        "primary_source_url": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/7252H.02I.pdf"
+      },
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "url": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/7252H.02I.pdf",
+          "source_type": "bill_text",
+          "supports": "Introduced section 82.1070(3), page 2, limits the pause to agencies in a city not within a county."
+        }
+      ],
+      "notes": "Bounded field correction only. Disposition, last action and current legal force were not independently refreshed; existing classifications remain inherited."
+    },
+    {
+      "bill_key": "MO:HB 3390 (2026)",
+      "outcome": "corrected",
+      "fields": {
+        "scope_of_action": "mixed",
+        "primary_source_url": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/7234H.01I.pdf"
+      },
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "url": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/7234H.01I.pdf",
+          "source_type": "bill_text",
+          "supports": "Introduced text combines political-subdivision siting approval, utility treatment, economic incentives and industrial water permits; page 5 directly confirms incentive and water provisions."
+        }
+      ],
+      "notes": "Bounded field correction only. Disposition, last action and current legal force were not independently refreshed; existing classifications remain inherited."
+    },
+    {
+      "bill_key": "MO:SB 4 (2025)",
+      "outcome": "corrected",
+      "fields": {
+        "effective_date_iso": "2025-08-28",
+        "primary_source_url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?billid=66&year=2025"
+      },
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?billid=66&year=2025",
+          "source_type": "legislature_bill_page",
+          "supports": "Official bill metadata explicitly labels Effective Date as August 28, 2025; this does not establish current force of every section."
+        }
+      ],
+      "notes": "Bounded field correction only. Disposition, last action and current legal force were not independently refreshed; existing classifications remain inherited."
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+November 6 Missouri field review corrects HB 3369 to local-government scope and HB 3390 to mixed scope, adds three official source URLs, and records SB 4’s official bill-level August 28, 2025 effective date. All seven assigned disposition/current-force reviews remain open; no legacy counts or ballot records change. See [review packet](work/research/2026-11-06/mo-policy-wave1/README.md).
+
 Four Illinois township advisory questions bring the scoped expanded subset to sixteen measures. Chouteau, Granite City, Nameoki and Venice retain official CSV counts and explicit prior/current supersession, with advisory bindingness and a permission-favoring yes direction. The public table now shows bindingness and direction; no advisory vote adds a legacy moratorium or establishes an enacted ban. Certification and formal outcomes remain unresolved. The separate wind/solar zoning-control lead remains outside the frozen census denominator pending electorate/qualification review.
 
 California adds two scoped expanded measures, bringing the reviewed subset to twelve. Alhambra DB retains the November 5 county counts of 15,237 yes / 3,132 no and explicitly supersedes its older snapshot; certification/outcome remain unknown. Monterey Park NDC retains certified June counts of 10,388 yes / 1,372 no and source-reported approval, with county/clerk/council/ordinance dates kept separate. Neither permanent-prohibition measure adds a legacy moratorium or establishes current legal force. Historical evidence indexing now retains verified original text alongside later reviewed OCR.
