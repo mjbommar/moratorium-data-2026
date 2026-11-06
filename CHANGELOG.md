@@ -2,7 +2,7 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
-Corrected 187 original-duration encodings from guessed day counts to calendar terms after independent source review across five cohorts. Preserved all dates, status, prose and IDs; 17 explicit-day originals were retained and 191 cases withheld. All 474 Terra review recommendations are terminal, but 79 records still require coordinator review. One hundred sixty newly visible calendar-end warnings retain unknown current endpoints rather than calculating guessed expiry dates.
+Completed the frozen 474-record duration review: 230 calendar-unit encoding corrections applied, 21 explicit-day originals retained and 223 cases withheld with source requirements. All dates, status, prose and IDs are preserved; zero cases await this queue’s coordinator review. Two hundred newly visible calendar-end warnings retain unknown current endpoints rather than guessed expiry dates. The separate Seattle apparent duplicate-identity question remains open before final freeze; no unique-instrument count adjustment or full freshness claim is accepted.
 
 
 Mooresville adds a town-reported active twelve-month data-center pause; its separate unsigned posted ordinance does not establish executed terms or an operative endpoint. Awendaw Ordinance 2026-34 adds an unsigned data-center/crypto proposal, preserving separate facility-demand and expansion-increase thresholds and blank operative dates. Seven other Carolina/Virginia histories remain withheld.

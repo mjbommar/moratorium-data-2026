@@ -1,0 +1,257 @@
+{
+  "inventory_before_sha256": "bdca88808ede5b263333a10fe8f752557c18076974b866ba2cfd25669f5abd78",
+  "inventory_after_sha256": "95b0a00e29692b8d60255759bb3c54e5771e162430800b571936c2f46603a824",
+  "coordinator_sixth_cohort": {
+    "records": 79,
+    "encoding_corrections_applied": 43,
+    "explicit_day_terms_retained": 4,
+    "withheld": 32
+  },
+  "cumulative_coordinator": {
+    "reviewed": 474,
+    "corrected": 230,
+    "retained": 21,
+    "withheld": 223,
+    "pending": 0
+  },
+  "changed_fields": [
+    "duration_kind",
+    "duration_days"
+  ],
+  "changed_field_count": 86,
+  "all_other_values_and_ids_unchanged": true,
+  "state_policy_and_expanded_data_unchanged": true,
+  "replay": {
+    "already_applied_fields": 86,
+    "rows_touched": 0
+  },
+  "tests": {
+    "native_tests": 213,
+    "result": "passed"
+  },
+  "build": {
+    "command": "make data site check PYTHON=.venv/bin/python TODAY=2026-11-05",
+    "errors": 0,
+    "warnings": 489,
+    "documented_numbers_matched": 53
+  },
+  "new_calendar_end_warning_ids": [
+    "oh-urbana-2026",
+    "oh-vermilion-township-erie-county-2026",
+    "oh-wellington-2026",
+    "oh-xenia-2026",
+    "ok-choctaw-2026",
+    "ri-westerly-2026",
+    "sc-greenwood-county-2026",
+    "sc-jasper-county-2026",
+    "sc-kershaw-county-2026",
+    "sc-spartanburg-county-2026",
+    "tn-anderson-county-2026",
+    "tn-bristol-2025",
+    "tn-cedar-hill-2026",
+    "tn-charleston-2026",
+    "tn-clinton-2026",
+    "tn-coffee-county-2026",
+    "tn-cumberland-county-2026",
+    "tn-dickson-county-2026",
+    "tn-grundy-county-2026",
+    "tn-knoxville-2026",
+    "tn-lafollette-2026",
+    "tn-loudon-2026",
+    "tn-loudon-county-2026",
+    "tn-maury-county-2026",
+    "tn-morgan-county-2026",
+    "ut-sanpete-county-2026",
+    "vt-morristown-2026",
+    "wa-bonney-lake-2026",
+    "wa-snohomish-county-2026",
+    "wa-spokane-2026",
+    "wi-cassville-2026",
+    "wi-city-of-superior-2026",
+    "wi-la-crosse-2026",
+    "wi-marathon-county-2026",
+    "wi-monroe-county-2026",
+    "wi-oshkosh-2026",
+    "wi-st-croix-county-2026",
+    "wi-tigerton-2026",
+    "wi-westport-2026",
+    "wi-winnebago-county-2026"
+  ],
+  "warning_delta": {
+    "removed": [
+      [
+        "status.drift",
+        "line 1249 (WA Bonney Lake): active but computed expiry 2026-10-11 < 2026-11-05"
+      ]
+    ],
+    "added": [
+      [
+        "duration.calendar_end_unverified",
+        "line 1086 (OH Urbana): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1089 (OH Vermilion Township (Erie County)): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1102 (OH Wellington): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1110 (OH Xenia): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1113 (OK Choctaw): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1153 (RI Westerly): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1161 (SC Greenwood County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1162 (SC Jasper County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1163 (SC Kershaw County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1168 (SC Spartanburg County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1175 (TN Anderson County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1177 (TN Bristol): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1179 (TN Cedar Hill): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1180 (TN Charleston): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1181 (TN Clinton): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1183 (TN Coffee County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1185 (TN Cumberland County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1186 (TN Dickson County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1188 (TN Grundy County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1195 (TN Knoxville): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1196 (TN LaFollette): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1197 (TN Loudon): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1198 (TN Loudon County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1199 (TN Maury County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1203 (TN Morgan County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1239 (UT Sanpete County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1241 (VT Morristown): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1249 (WA Bonney Lake): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1284 (WA Snohomish County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1286 (WA Spokane): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1295 (WI Cassville): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1299 (WI City of Superior): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1309 (WI La Crosse): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1312 (WI Marathon County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1315 (WI Monroe County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1317 (WI Oshkosh): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1322 (WI St. Croix County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1324 (WI Tigerton): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1331 (WI Westport): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1332 (WI Winnebago County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ]
+    ]
+  },
+  "warning_disposition": "40 unknown current endpoints newly exposed; Bonney Lake guessed-expiry drift warning removed. No new date/status/current-force acceptance.",
+  "scope": "Frozen duration queue reviewed, with 223 source-fact requirements and Seattle identity review still open. Full plan and final release are not complete.",
+  "logs_sha256": {
+    "wave6-tests.log": "96e9b8fac4984e8cee7607ba7cb35bc8069b8f32aa9658387a253e3c0a3598fe",
+    "wave6-build.log": "858aff8f734e9a126bf292a6222807acbb64d369214f276bdbff7b4a82ad9c70",
+    "wave6-replay.log": "7bd0b8af311c29be5a5058bfed7746c9f7a45ebce153b5937a22e77eea8cdc0f"
+  }
+}

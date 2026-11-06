@@ -1,0 +1,32 @@
+{
+  "state_abbrev": "VT",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator original-term encoding review; retained sources inspected November 6",
+  "decisions": [
+    {
+      "moratorium_id": "vt-morristown-2026",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Retained account describes a two-year interim zoning prohibition on application consideration. Normalize calendar unit only; interim bylaw mechanism and exceptions are not replaced by a generic permitting-pause assertion.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Retained account describes a two-year interim zoning prohibition on application consideration. Normalize calendar unit only; interim bylaw mechanism and exceptions are not replaced by a generic permitting-pause assertion.",
+          "from": "730"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.sevendaysvt.com/news/constructiondevelopment/absent-state-action-vermont-towns-move-to-block-data-centers/",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-sixth-cohort.json."
+        }
+      ],
+      "notes": "Original reported interval encoding only; every other field, status, date, identity, sector and relationship preserved. No source reacquisition or current-force renewal."
+    }
+  ]
+}

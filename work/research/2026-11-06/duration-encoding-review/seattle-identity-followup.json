@@ -1,0 +1,82 @@
+{
+  "state": "apparent_duplicate_instrument_requires_separate_identity_review",
+  "scope": "Both legacy records cite Seattle Ordinance 127447/CB121214 and the same retained original source. Encoding retained; no merge, retirement or headline adjustment accepted by duration review. Resolve before final unique-instrument freeze.",
+  "records": [
+    {
+      "record": {
+        "state": "Washington",
+        "state_abbrev": "WA",
+        "jurisdiction": "City of Seattle",
+        "jurisdiction_type": "City",
+        "date_enacted": "2026-06-09 (Seattle City Council unanimous final passage of Council Bill 121214 and companion Resolution 32204, under emergency designation); signed by Mayor Katie Wilson 2026-06-11; Ordinance No. 127447",
+        "duration": "365 days from the effective date (immediate, under emergency designation), automatically expiring thereafter unless renewed for one or more additional six-month periods in accordance with RCW 36.70A.390; a public hearing is required within 60 days of adoption.",
+        "legal_basis": "Seattle Ordinance No. 127447 (Council Bill 121214, amended), with companion Resolution 32204 (amended); adopted under the RCW 36.70A.390 interim-zoning-control procedure. Amends SMC 23.84A.008 to define \"data center\" as a facility used primarily for storing and processing digital data, with power capacity over 20 Megavolt-Amperes and requiring uninterruptible power, and imposes a moratorium on the filing, acceptance, processing, or approval of applications to establish or expand such uses.",
+        "trigger": "Five proposed large-scale data centers reportedly seeking Seattle City Light service, with combined maximum demand of 369 MW (about a third of Seattle's average daily power consumption); public concern over ratepayer, environmental justice, and power-supply impacts",
+        "current_status": "Active. Adopted by City Council 2026-06-09 (unanimous), signed by Mayor Wilson 2026-06-11. Companion Resolution 32204 directs a study/policy process (grid capacity, water use, utility rates, land use, jobs, and public health impacts) with reports and proposed permanent legislation due by January 2027. Two data center projects that were already vested under prior rules are not covered by the moratorium; new applications from companies including Prologis, Equinix, and Sabey are paused pending the study process. No source dated after early-to-mid summer 2026 was located to further update this status as of 2026-07-31.",
+        "affected_projects": "Five proposed Seattle data centers, 369 MW combined maximum demand, per Seattle Times report (2026-04-10) and GeekWire follow-up (2026-04-19)",
+        "outcome": "Moratorium enacted 2026-06-09; the city is using the pause and the companion Resolution 32204 working-group process to study grid, water, ratepayer, and environmental-justice impacts and to develop permanent siting/zoning rules, with reports and proposed permanent legislation due by January 2027.",
+        "has_verify_tags": "False",
+        "verify_count": "0",
+        "cite_count": "0",
+        "activity_level": "Medium",
+        "enacted_status": "active",
+        "moratorium_id": "wa-seattle-2026",
+        "latitude": "47.617708",
+        "longitude": "-122.344462",
+        "date_enacted_iso": "2026-06-09",
+        "date_enacted_uncertainty": "exact",
+        "duration_days": "365",
+        "duration_kind": "fixed_days",
+        "current_end_date_iso": "",
+        "sectors": "[\"data_center\"]",
+        "trigger_categories": "[\"specific_project\", \"infrastructure_capacity\", \"environmental\", \"grid_energy\"]"
+      },
+      "record_sha256": "8dcd292f59124c3f2ebb168fa64f04bb7139c97c0ba11790ba80b8c35b38415b"
+    },
+    {
+      "record": {
+        "state": "Washington",
+        "state_abbrev": "WA",
+        "jurisdiction": "Seattle",
+        "jurisdiction_type": "City",
+        "date_enacted": "2026-06-09, City Council adoption (Council Bill 121214 and companion Resolution 32204)",
+        "duration": "365 days from the effective date of Ordinance No. 127447 (effective 2026-06-11), automatically expiring at the end of that period unless renewed for one or more six-month periods under RCW 36.70A.390 or terminated earlier by Council",
+        "legal_basis": "Seattle Ordinance No. 127447 (Council Bill 121214), passed by the City Council 2026-06-09 by a 3/4 vote and approved by Mayor Katie Wilson 2026-06-11; amends SMC 23.84A.008 to define 'data center' and adopts the moratorium under RCW 36.70A.390, with a companion work plan (Attachment A) and companion Resolution 32204 (policy framework)",
+        "trigger": "",
+        "current_status": "Active as of 2026-09-23. Confirmed via the City's official ordinance text (Ord. No. 127447) and City Council press release: the moratorium on filing/acceptance/processing/approval of applications for new or expanded large-scale (>20 MVA) data centers took effect 2026-06-11 and runs 365 days (through approximately 2027-06-11) unless renewed in six-month increments under RCW 36.70A.390 or ended earlier by Council. The required public hearing was held 2026-07-15 before the Land Use and Sustainability Committee (hearing only, no vote); no extension or termination has been found as of 2026-09-23.",
+        "affected_projects": "New large data center siting citywide",
+        "outcome": "Council unanimously adopted legislation placing a temporary freeze on new data center siting pending impact studies",
+        "has_verify_tags": "False",
+        "verify_count": "0",
+        "cite_count": "0",
+        "activity_level": "Medium",
+        "enacted_status": "active",
+        "moratorium_id": "wa-seattle-2026-2",
+        "latitude": "47.603832",
+        "longitude": "-122.330062",
+        "date_enacted_iso": "2026-06-09",
+        "date_enacted_uncertainty": "exact",
+        "duration_days": "365",
+        "duration_kind": "fixed_days",
+        "current_end_date_iso": "2027-06-11",
+        "sectors": "[\"data_center\"]",
+        "trigger_categories": "[\"regulatory_gap\",\"infrastructure_capacity\"]"
+      },
+      "record_sha256": "568c2afea653493342c2f6c388ab03fdf8bad847b28c59a3d5f966e20121fc61"
+    }
+  ],
+  "source": {
+    "url": "https://clerk.seattle.gov/~archives/Ordinances/Ord_127447.pdf",
+    "body_sha256": "67ba32830dc4e494921171e35e03cb8ffc5a0656d25894194df84b2b16cc18b3",
+    "text_sha256": "10544f79aa00af6725bb443fc3294cbe80559117746a40c557d93b32b890defb",
+    "raw_text_character_span": [
+      7402,
+      7420
+    ]
+  },
+  "next_steps": [
+    "Compare complete original ordinance, legislative history and all row assertions.",
+    "Review stable-ID/alias and consumer implications before any explicit consolidation.",
+    "Keep raw record counts separate from verified unique-instrument totals."
+  ]
+}

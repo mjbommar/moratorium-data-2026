@@ -1,0 +1,32 @@
+{
+  "state_abbrev": "RI",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator original-term encoding review; retained sources inspected November 6",
+  "decisions": [
+    {
+      "moratorium_id": "ri-westerly-2026",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Inspected original-term clause or contemporaneous account expressly states calendar months/years, not a specified original day count. Normalize that reported unit without accepting new adoption, execution, date, expiration or current-force conclusions.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Inspected original-term clause or contemporaneous account expressly states calendar months/years, not a specified original day count. Normalize that reported unit without accepting new adoption, execution, date, expiration or current-force conclusions.",
+          "from": "365"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://ecode360.com/WE1997/laws/LF2762248.pdf",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-sixth-cohort.json."
+        }
+      ],
+      "notes": "Original reported interval encoding only; every other field, status, date, identity, sector and relationship preserved. No source reacquisition or current-force renewal."
+    }
+  ]
+}
