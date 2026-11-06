@@ -1,0 +1,41 @@
+{
+  "status": "partial acquisition review; no canonical change",
+  "sources": [
+    {
+      "attempt_id": "6ff536fde716471ea69212f48537280a",
+      "url": "https://www.frenchtownmi.gov/174/Zoning-Ordinances",
+      "final_url": "https://www.frenchtownmi.gov/174/Zoning-Ordinances",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "fd06b6651b7b06a65f70483eccd59ce20291f251d7b006fd61d43c129ec5f927",
+      "text_sha256": "2b9cbcb229905ec92d83c89bc439eece2d27287f616d468e791fc230e7f9c7fe"
+    },
+    {
+      "attempt_id": "377e196b8f4b493b85acdc25da56543f",
+      "url": "https://www.frenchtownmi.gov/DocumentCenter/View/763",
+      "final_url": "https://www.frenchtownmi.gov/DocumentCenter/View/763/Frenchtown-Zoning-Ordinance-August-24-2026?bidId=",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "8a30963417b399a575ca1bc3690fea55314df82a203d1107ed7c08e32d52d47e",
+      "text_sha256": "9ef65ade322233bf54dda699135f133b6e0f1549b24eeacbf7b67eac2645c281"
+    }
+  ],
+  "link_provenance": {
+    "parent_attempt_id": "6ff536fde716471ea69212f48537280a",
+    "href": "/DocumentCenter/View/763",
+    "child_attempt_id": "377e196b8f4b493b85acdc25da56543f"
+  },
+  "findings": [
+    {
+      "scope": "client text of linked compiled zoning ordinance, Section 7.13",
+      "observation": "General authority limits initial moratoria to six months, allows supported extensions, and requires ordinance or amendment adoption. This is not the executed technology-use Ordinance 300-19 or its publication notice."
+    }
+  ],
+  "unresolved": [
+    "Executed Ordinance 300-19",
+    "Actual publication and effective date",
+    "Complete October 13 extension instrument",
+    "Operative extension endpoint"
+  ],
+  "canonical_changes": 0
+}
