@@ -563,10 +563,10 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `tn-rhea-county-2026`
-- **Legal basis:** Rhea County Commission resolution enacting a temporary moratorium on the construction, development, establishment, or operation of data centers and cryptocurrency mining facilities (number not published)
+- **Legal basis:** Rhea County Commission Resolution #26-07-53 enacting a temporary moratorium on the construction, development, establishment, or operation of data centers and cryptocurrency mining facilities
 - **What prompted it:** Protect power grid, water systems, roads, and emergency services; preserve rural character; Regional Planning Commission to craft performance standards
 - **Affected projects:** None named
-- **Detailed status:** Active as of 2026-09-23; temporary moratorium in effect since 2026-07-21 while the Rhea County Regional Planning Commission studies standards.
+- **Detailed status:** July 21 commission minutes identify Resolution 26-07-53 and record the approval motion carried, all ayes, no nays, Fisher absent. The underlying resolution terms, exact operative interval and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Moratorium adopted unanimously
 
 ### Roane County

@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Rhea County’s scanned July 21 minutes visually confirm Resolution 26-07-53 and the carried approval motion, all ayes, no nays, Fisher absent. The accepted OCR derivative covers only the first eight pages of part 1 and does not establish the underlying resolution’s full terms or later force. Tennessee accounting now records 14 bounded corrections applied and 31 other returns awaiting disposition.
+
 Wilson County voting results identify Resolution 26-7-2 and unanimous passage; its six-month term remains news-qualified. Jonesborough’s original final passage is corrected to November 3, 2025, distinct from October first reading; later zoning approval alone does not establish repeal or supersession. Tennessee accounting reconciles all 45 existing IDs: 13 bounded corrections applied, one scanned-minute proposal deferred and 31 other returns awaiting disposition. No complete current-force history is asserted.
 
 Signed Shelbyville and Spring City instruments confirm calendar-year terms rather than fixed 365/730-day durations. Shelbyville’s July 7 adoption and express July 8, 2027 expiry coexist with twelve-month wording; that discrepancy is preserved. Spring City Ordinance 2026-11 records July 30 final passage and immediate effect. Later legal force remains unresolved.
@@ -180,7 +182,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **69** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **621** |
+| Rows we still want to confirm (`[VERIFY]`) | **622** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

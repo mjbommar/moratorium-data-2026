@@ -1,0 +1,57 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "tn-inventory-004": "40f4b6849caf1002a24f87cd26082135f4cdb2db68a3863609ef042cbef3aede"
+  },
+  "reviewed_answers_sha256": "54ef82df5ed6c931c3e6f85245794dee92b645c31779152de3c8f91ded153637",
+  "scope": "Rhea County instrument-number correction. Page 1 heading and scoped carried motion visually checked; no numerical vote inferred from all ayes. OCR covers only first eight pages of part 1, not full minutes or underlying resolution. Exact terms, subsequent actions and current force remain unresolved.",
+  "located_evidence": [
+    {
+      "moratorium_id": "tn-rhea-county-2026",
+      "url": "https://rheacountytn.org/wp-content/uploads/2026/09/rhea-co.-commission-meeting-7-21-2026-part-1-1.pdf",
+      "quote": "RESOLUTION #26-07-53 IMPOSING A TEMPORARY MORATORIUM ON THE CONSTRUCTION,\nDEVELOPMENT, ESTABLISHMENT, OR OPERATION OF DATA CENTERS AND CRYPTOCURRENCY MINING\nFACILITIES\n\nMotion Commissioner Cashman, second Commissioner Welch to approve Resolution #26-07-53\nResolution follows next pages.\n\nVOTED AYE: ALL NAY: NONE ABSENT: FISHER\n\nMOTION CARRIED",
+      "located": [
+        {
+          "attempt_id": "af6f297e705a4560a65865daccc6fcf2",
+          "body_sha256": "8dce6daeff4c0de0ff1df1ec22f3788a2a42ff0c55849ab919d18ec4eca24dfe",
+          "text_sha256": "da4b029271397c89074c322605d4d8951d5d49527b7b6cee6b8ba43c420fb6d3",
+          "span": [
+            1666,
+            2009
+          ]
+        }
+      ]
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "af6f297e705a4560a65865daccc6fcf2",
+      "source_body_sha256": "8dce6daeff4c0de0ff1df1ec22f3788a2a42ff0c55849ab919d18ec4eca24dfe",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/tn-inventory-004/rhea-part1-pages1-8.derived.txt",
+      "derived_text_sha256": "da4b029271397c89074c322605d4d8951d5d49527b7b6cee6b8ba43c420fb6d3",
+      "method": "Separately retained OCR of first eight pages only; coordinator visually compared page 1 instrument and carried motion",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T00:44:54.560991+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ],
+  "visual_comparison": {
+    "attempt_id": "af6f297e705a4560a65865daccc6fcf2",
+    "page": 1,
+    "render": "pdftoppm PNG -singlefile -scale-to 1400",
+    "render_sha256": "8ce78a30d05a6e0af5da2ead186e312f28718063678503c5902d0028c17755c2",
+    "finding": "Resolution 26-07-53 heading, approval motion, all ayes/no nays/Fisher absent and motion carried."
+  }
+}

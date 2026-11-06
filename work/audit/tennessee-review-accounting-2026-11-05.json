@@ -1,8 +1,8 @@
 {
   "date": "2026-11-05",
-  "created_at": "2026-11-06T00:43:30.761060+00:00",
+  "created_at": "2026-11-06T00:45:00.736620+00:00",
   "scope": "Tennessee existing local inventory return-versus-bounded-review accounting. Not complete acquisition, freshness, legal-force verification, ballot census or state-policy accounting.",
-  "canonical_inventory_sha256": "4ee39ac4fdb0ed6c8ccc0aa45ac20b086a5f33d6911cbce339ad5a115f7d1712",
+  "canonical_inventory_sha256": "d9544b2d09ee026977382852e3d2bb76d319a1dcfaeed29fab7174d88f5c2ead",
   "worker_answer_hashes": {
     "tn-inventory-001": "a4ccb2f40f784719cc2afcf6f8450a1b9519bbec37d6ff8103628820fc17cebd",
     "tn-inventory-002": "2b84a0bab4348ae472a4b0c2aeb0e7896f865bd7d7619b14be215388292b7f2d",
@@ -18,7 +18,8 @@
     "work/research/2026-11-05/reviewed-tennessee-d/answers.json": "1b372d9886b05c141416a73eb47d2a9221bbd3eed59efcfc49756f3a9d8da9ba",
     "work/research/2026-11-05/reviewed-tennessee-e/answers.json": "f5eb414c6a98fb951476e86cc521ae771e20c3d08d17c7a8124f446537653144",
     "work/research/2026-11-05/reviewed-tennessee-f/answers.json": "22df961d58104183a66a2dc3f8fdf2b067b8b47f1f3f5674be68c508248f58ac",
-    "work/research/2026-11-05/reviewed-tennessee-g/answers.json": "4fb7f0984ebe0b443c4da55a397fab60cbd4ad713e9f69d4f78532a82d4c9cb8"
+    "work/research/2026-11-05/reviewed-tennessee-g/answers.json": "4fb7f0984ebe0b443c4da55a397fab60cbd4ad713e9f69d4f78532a82d4c9cb8",
+    "work/research/2026-11-05/reviewed-tennessee-h/answers.json": "54ef82df5ed6c931c3e6f85245794dee92b645c31779152de3c8f91ded153637"
   },
   "apply_receipt_hashes": {
     "work/audit/apply-20261105T193621.json": "6f760b25c6e5071d902a2469d551eea6ba6be4d93fd91ffa3dce8db31b662420",
@@ -27,14 +28,14 @@
     "work/audit/apply-20261105T193951.json": "10d3c4737bad9c0864565f7518adf5925690af2a648af81d71311b23d1eb3be3",
     "work/audit/apply-20261105T194112.json": "de989b76abadaac9080ce640ca19d8b94794e1231884b63f09f0345f00a5550b",
     "work/audit/apply-20261105T194219.json": "4c2347f60f3efbbff0f77104b05bb9f77aebfb573f6d4b19c63515120139fdfe",
-    "work/audit/apply-20261105T194320.json": "ee04df965ba2f6a1ef95dd6afa23e5e9a611fb0461662a47553919d7b254c4c2"
+    "work/audit/apply-20261105T194320.json": "ee04df965ba2f6a1ef95dd6afa23e5e9a611fb0461662a47553919d7b254c4c2",
+    "work/audit/apply-20261105T194454.json": "27c22f29b626fda3569577389e4f67b33ad3ee09b72ffa5d0155e3228b79013c"
   },
   "canonical_records": 45,
   "returned_records": 45,
   "review_dispositions": {
     "other_return_pending_disposition_review": 31,
-    "bounded_correction_applied": 13,
-    "proposal_deferred_for_identity_or_process_review": 1
+    "bounded_correction_applied": 14
   },
   "current_force_verification": {
     "verified": 0,
@@ -306,10 +307,10 @@
       "moratorium_id": "tn-rhea-county-2026",
       "worker_job": "tn-inventory-004",
       "worker_outcome": "corrected",
-      "review_disposition": "proposal_deferred_for_identity_or_process_review",
-      "accepted_packet": null,
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-tennessee-h/answers.json",
       "current_force_verification": "unresolved",
-      "note": "Scanned Rhea minutes require coordinator OCR lineage and visual passage review before instrument-number promotion."
+      "note": "Accepted bounded fields only; no complete current-force history established."
     },
     {
       "moratorium_id": "tn-roane-county-undated",
