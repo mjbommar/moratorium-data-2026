@@ -207,14 +207,14 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** Third and final reading of Ordinance 26-0286 adopted 2026-08-11 on the Crossville City Council consent agenda (first reading 2026-07-14; second reading approved at the late-July meeting).
 - **Normalized date:** `2026-08-11` (exact)
-- **Duration:** 24 months from adoption (through about 2028-08-11)
+- **Duration:** Posted unsigned ordinance states twenty-four months from effectiveness, subject to amendment; final executed term unresolved.
 - **Current end date:** `2028-08-11`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `tn-crossville-undated`
 - **Legal basis:** Ordinance 26-0286, adding Title 14, Chapter 12 to the Crossville Municipal Code: a 24-month temporary moratorium on new data centers and high-density computing facilities (existing lawfully operating facilities and vested applications exempt)
 - **What prompted it:** Residents commented on environmental, infrastructure, noise, and water-supply concerns
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; Ordinance 26-0286 adopted on third and final reading 2026-08-11, imposing a 24-month moratorium (through about 2028-08-11) on new conditional use permits, site plans, and building approvals for data centers, server farms, and cryptocurrency mining facilities.
+- **Detailed status:** Legislative file 26-0286 records third-reading adoption August 11, 2026. Its unsigned, unnumbered ordinance attachment states twenty-four months from effectiveness, with repeal, extension or modification by amending ordinance. Final executed wording, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Cumberland County

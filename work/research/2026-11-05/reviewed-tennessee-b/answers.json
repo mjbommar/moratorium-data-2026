@@ -1,0 +1,51 @@
+{
+  "state_abbrev": "TN",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "tn-crossville-undated",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://crossvilletn.legistar.com/LegislationDetail.aspx?GUID=FD575490-71CD-4ADB-ACE9-253897F98DF0&ID=8124167&Options=&Search=",
+          "source_type": "legislature",
+          "quote": "8/11/2026 1 City Council adopted on third reading",
+          "supports": "Legislative file records final adoption.",
+          "document_date": "2026-08-11"
+        },
+        {
+          "url": "https://crossvilletn.legistar.com/View.ashx?M=F&ID=15663716&GUID=9BBE7DE7-6AA5-4DA5-825C-FFEFCF1E907A",
+          "source_type": "ordinance",
+          "quote": "a period of twenty-four (24) months from\n\nthe effective date of this Ordinance",
+          "supports": "Text of the calendar term; unsigned attachment."
+        }
+      ],
+      "notes": "Correct calendar-term encoding only; legislative file identifies adoption, attachment is unsigned, and later legal changes were not exhaustively ruled out.",
+      "changes": {
+        "duration_days": {
+          "from": "730",
+          "to": "",
+          "reason": "Ordinance specifies a calendar term rather than a fixed number of days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "unknown",
+          "reason": "Unsigned unnumbered attachment states calendar months; final adopted term not independently reproduced in legislative action record."
+        },
+        "duration": {
+          "from": "24 months from adoption (through about 2028-08-11)",
+          "to": "Posted unsigned ordinance states twenty-four months from effectiveness, subject to amendment; final executed term unresolved.",
+          "reason": "Distinguish draft term from recorded final-reading action."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; Ordinance 26-0286 adopted on third and final reading 2026-08-11, imposing a 24-month moratorium (through about 2028-08-11) on new conditional use permits, site plans, and building approvals for data centers, server farms, and cryptocurrency mining facilities.",
+          "to": "Legislative file 26-0286 records third-reading adoption August 11, 2026. Its unsigned, unnumbered ordinance attachment states twenty-four months from effectiveness, with repeal, extension or modification by amending ordinance. Final executed wording, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "confidence": 0.9
+    }
+  ],
+  "new_candidates": []
+}
