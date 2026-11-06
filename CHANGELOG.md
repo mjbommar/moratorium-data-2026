@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Clearfield’s signed Ordinance 2026-13 corrects the vote account: King voted aye and Thompson was absent. The stated 180 days runs from an unspecified effective date; the five-page copy lacks an express operative prohibition section, requiring scope and effective-anchor review. Utah accounting reconciles all nine existing IDs: one bounded correction applied and eight other returns awaiting disposition. Later force remains unresolved.
+
 Brownsville’s pending classification is updated from November 5 reporting of the November 4 decision, with Ordinance 2026-1826 identified from the official final-reading agenda. Reported next-day effectiveness remains qualified pending the signed text and official vote. Conflicting initial/additional 90-day language does not establish an adopted extension or permanent ban. Texas accounting covers all 11 existing IDs: one bounded correction applied and ten other returns awaiting disposition.
 
 Rhea County’s scanned July 21 minutes visually confirm Resolution 26-07-53 and the carried approval motion, all ayes, no nays, Fisher absent. The accepted OCR derivative covers only the first eight pages of part 1 and does not establish the underlying resolution’s full terms or later force. Tennessee accounting now records 14 bounded corrections applied and 31 other returns awaiting disposition.
@@ -184,7 +186,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1070** |
 | Pending or not yet effective | **68** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **623** |
+| Rows we still want to confirm (`[VERIFY]`) | **624** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

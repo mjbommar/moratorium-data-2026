@@ -1,0 +1,77 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "ut-inventory-001": "3732d110ace9958eec817c15c350022bf6aed8966d5ad3af180f15f7a5fbb008"
+  },
+  "reviewed_answers_sha256": "87e6359a94ee508400f69a9509aeea2da0ed827fc524e29b386c1e310200866c",
+  "scope": "Clearfield vote and instrument correction. Signed page 5 names King among ayes and Thompson absent. Five-page extraction read; duration/adoption page 4 and signed vote page 5 visually compared. Adoption notice is not itself the effective anchor. Missing express operative prohibition/effective-date clause requires further review; no current-force conclusion or inferred endpoint.",
+  "located_evidence": [
+    {
+      "moratorium_id": "ut-clearfield-2026",
+      "url": "https://www.utah.gov/pmn/files/1491347.pdf",
+      "quote": "AYE: Councilmembers King, Peterson, Ratchford, Wurth",
+      "located": [
+        {
+          "attempt_id": "bce80580f1714a3ab2656fcbf220ae74",
+          "body_sha256": "a5de56eca01201bf3829f052022ab608a4dd370708a10c88cb3d22d3ff7efa05",
+          "text_sha256": "19937666e07575eb64f96bf936b41e2b5d356bf72ab18b89a4f827da4f43a881",
+          "span": [
+            11269,
+            11321
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "ut-clearfield-2026",
+      "url": "https://www.utah.gov/pmn/sitemap/notice/1110213.html",
+      "quote": "Clearfield City Ordinance 2026-13 September 8, 2026",
+      "located": [
+        {
+          "attempt_id": "fa2c7d5dd3dd4b5eabaa2c6b358f7a79",
+          "body_sha256": "0b76ba4808b6bb7de7741d1f367c3b73bf263c957e1b4f48a8ce460a72f9621a",
+          "text_sha256": "7db14d185a3b4db5bb63cc6423f1d3a6c832b077f5300f5c241cffbc660de7b5",
+          "span": [
+            584,
+            635
+          ]
+        }
+      ]
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "bce80580f1714a3ab2656fcbf220ae74",
+      "source_body_sha256": "a5de56eca01201bf3829f052022ab608a4dd370708a10c88cb3d22d3ff7efa05",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/ut-inventory-001/bce80580f1714a3ab2656fcbf220ae74.derived-ocr.private.txt",
+      "derived_text_sha256": "19937666e07575eb64f96bf936b41e2b5d356bf72ab18b89a4f827da4f43a881",
+      "method": "Separately retained five-page PDF OCR; coordinator visually compared duration/adoption page 4 and signed vote page 5",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T00:47:20.826146+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "bce80580f1714a3ab2656fcbf220ae74",
+      "page": 4,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "9f64609e8cf5b0b92a4df73474a336d9bbb0a4a7d42f7be703fe06027ced0fd0"
+    },
+    {
+      "attempt_id": "bce80580f1714a3ab2656fcbf220ae74",
+      "page": 5,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "fbe3bab042bbdd1f09ca261bacc828d5fcbfd50255580f391ade3702eee8bd20"
+    }
+  ]
+}

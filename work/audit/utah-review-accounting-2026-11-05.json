@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-05",
+  "created_at": "2026-11-06T00:47:30.954040+00:00",
+  "scope": "Utah existing local inventory return-versus-bounded-review accounting. Not complete acquisition, freshness, legal-force verification, ballot census or state-policy accounting.",
+  "canonical_inventory_sha256": "b9487d83ad821838a9e760885db0ad5ea37af64654fdce61c3c04716569e2e96",
+  "worker_answer_hashes": {
+    "ut-inventory-001": "3732d110ace9958eec817c15c350022bf6aed8966d5ad3af180f15f7a5fbb008",
+    "ut-inventory-002": "ff790c8898528b3a6d8cf8567fedeb7b1f2f56d54f909e6dd31e080087878e59"
+  },
+  "accepted_packet_hashes": {
+    "work/research/2026-11-05/reviewed-utah-a/answers.json": "87e6359a94ee508400f69a9509aeea2da0ed827fc524e29b386c1e310200866c"
+  },
+  "apply_receipt_hashes": {
+    "work/audit/apply-20261105T194721.json": "987de8b476e0ebb412b5e9bbaeb8c08658825bc30d9fe6fe1f5b47a10e4bc143"
+  },
+  "canonical_records": 9,
+  "returned_records": 9,
+  "review_dispositions": {
+    "other_return_pending_disposition_review": 8,
+    "bounded_correction_applied": 1
+  },
+  "current_force_verification": {
+    "verified": 0,
+    "unresolved": 9
+  },
+  "records": [
+    {
+      "moratorium_id": "ut-box-elder-county-2026",
+      "worker_job": "ut-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "ut-cache-county-2026",
+      "worker_job": "ut-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "ut-clearfield-2026",
+      "worker_job": "ut-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-utah-a/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "ut-grand-county-2026",
+      "worker_job": "ut-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "ut-iron-county-2026",
+      "worker_job": "ut-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "ut-logan-2026",
+      "worker_job": "ut-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "ut-milford-2026",
+      "worker_job": "ut-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "ut-sanpete-county-2026",
+      "worker_job": "ut-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "ut-wayne-county-2026",
+      "worker_job": "ut-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    }
+  ]
+}

@@ -57,16 +57,16 @@ State policy is tracked separately: **8 actions** (8 bills) in [`state_legislati
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-09-08, Clearfield City Council regular meeting, 4-0 vote (Councilmember Danielle King absent).
+- **Date enacted:** 2026-09-08, Clearfield City Council adopted Ordinance 2026-13; the signed ordinance records four affirmative votes and Councilmember Thompson absent.
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 180 days from adoption (to approximately 2027-03-07).
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ut-clearfield-2026`
-- **Legal basis:** Temporary land use regulation/moratorium on data center development approved by Clearfield City Council 4-0 on September 8, 2026, following an August 25, 2026 work-session discussion (recorded in the city's own signed minutes) in which the city attorney confirmed the Council could adopt a 180-day temporary land use regulation while a pending zoning-determination request for a data center at Freeport Center Building J8 was evaluated.
+- **Legal basis:** Clearfield City Ordinance 2026-13, adopted September 8, 2026, establishes a temporary land use regulation regarding data center uses. The signed ordinance states a 180-day term from its effective date; the operative restriction and effective date require further review.
 - **What prompted it:** regulatory_gap; a pending zoning-determination request for a proposed data center in the Freeport Center's M-1 Manufacturing Zone (Building J8) exposed that Clearfield's code has no definition or zoning classification for 'data center,' prompting the Council to pause while it studies electrical demand, water consumption, noise, and other impacts and considers pending state legislation.
 - **Affected projects:** A pending zoning-determination request (not yet a formal application) for a proposed data center in Building J8 at the Freeport Center, M-1 Manufacturing Zone; city staff's preliminary review found the use did not clearly fit existing warehouse or manufacturing classifications.
-- **Detailed status:** Active as of 2026-09-23. The Clearfield City Council voted 4-0 on September 8, 2026 to adopt a 180-day moratorium prohibiting data center development in the city (through approximately March 7, 2027) while officials study whether special zoning guidelines are warranted. No data center proposal was found to be barred outright by the action; a pending zoning-determination request at the Freeport Center (Building J8) prompted the pause. No extension or replacement was found in sources reviewed through 2026-09-23.
+- **Detailed status:** Signed Ordinance 2026-13 records September 8 adoption, four affirmative votes including King, and Thompson absent. It states 180 days from its effective date unless terminated earlier. The five-page text does not specify that date or include an express operative prohibition section; its title, findings and city adoption notice describe a temporary data-center land-use regulation. Precise restriction, operative interval and later force require review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Clearfield City Council adopted a 180-day moratorium on data center development after a zoning-determination request exposed a gap in the city's zoning code.
 
 ### Grand County
