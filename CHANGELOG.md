@@ -2,6 +2,8 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
+Indiana review adds two official source-stage pending proposals: Vermillion County’s unsigned data-center ordinance and Zionsville’s unsigned Resolution 2026-25 initiating a four-sector zoning amendment. Vermillion’s compound latest-of-date/calendar-term and earlier regulatory ending condition are preserved without a guessed endpoint. Zionsville referral is not zoning enactment. Six other Indiana candidates remain withheld.
+
 Colorado review adds two historical Phillips County instruments: wind Resolution 2024-06-18-02 and solar/storage Resolution 2025-09-30-01, each with signed extensions through August 27, 2026. Later action remains unverified. Fort Collins Ordinance 147, 2026 adds a source-stage pending proposal from an unsigned attachment; printed passage/effective dates and retroactivity are not accepted as operative. Five other Colorado candidates remain withheld.
 
 Talbot County’s signed/enrolled Resolution 329 adds a historical five-calendar-month solar processing pause adopted and effective April 26, 2022. The September 26 endpoint is derived from the original term; subsequent actions remain unverified. East Windsor’s unsigned Ordinance 2026-06 adds a pending data-center proposal; its proposed December 31, 2027 sunset is not an operative endpoint. Four other Maryland/New Jersey candidates remain withheld with specific evidence gaps.
@@ -46,18 +48,18 @@ remain unknown; no adoption event, in-force ban or headline-count increase is
 inferred. The public results view displays relationship review separately from
 legal status. All earlier records remain unchanged.
 
-Current totals are 1,314 local instruments (1,075 classified active or extended,
-75 pending, 164 past) and 442 state-policy records (95 classified enacted).
+Current totals are 1,316 local instruments (1,075 classified active or extended,
+77 pending, 164 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1314** |
+| Moratoria in the list | **1316** |
 | Classified active or extended | **1075** |
-| Pending or not yet effective | **75** |
+| Pending or not yet effective | **77** |
 | Ended (replaced, expired, or rescinded) | **164** |
-| Rows we still want to confirm (`[VERIFY]`) | **687** |
+| Rows we still want to confirm (`[VERIFY]`) | **689** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained

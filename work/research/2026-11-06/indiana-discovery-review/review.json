@@ -1,0 +1,251 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "baseline_commit": "ae3fca18b0cc37ebfd1cbc81409e21d11fa6419c",
+  "baseline_inventory_sha256": "66c137c88a318cf7f879c14ce202719167fe7a4ae958c5a6f96b3b503b77eae5",
+  "candidates": [
+    {
+      "candidate_key": "discovery-in:0",
+      "candidate_sha256": "8d1d7dc85fc32f41db7a060b6e9ae9a970e47ac62c04aa51bb98d8b3a3ff0bbd",
+      "worker_review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1",
+      "coordinator_disposition": "held_original_act_and_operative_history",
+      "rationale": "Complete official Delaware County index identifies solar Ordinance 2025-05 by title only. Index title is not executed text, adoption date, operative duration or later history. Obtain original act and subsequent action; no canonical promotion from catalogue alone.",
+      "source_checks": [
+        {
+          "attempt_id": "86be6854f720440993fb844c98988e5f",
+          "url": "https://delawarecounty.in.gov/documents/ordinance-no-2025-05-an-ordinance-imposing-a-moratorium-on-filing-and-accepting-any-new-applications-for-solar-energy-facilites/",
+          "body_sha256": "c4c70327b312dd8de72e1e4e8891d8cb5593fe26739453aa6c3daf312e3af301",
+          "text_sha256": "fa41c13859e7b3829224c28700e777fd2c59f9ed679bd7b79d6158320bdd82d1",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              302,
+              430
+            ],
+            "quote_sha256": "ae389d8c62c96596283acd830110363b3b75f3dd2af0c55da6e6a9212bf9fffd",
+            "scope": "Exact worker excerpt located against pinned original text; raw quote remains private."
+          },
+          "read_scope": "Complete retained official index"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-in:1",
+      "candidate_sha256": "230623245fc4b848ab65e648f8715a4a57271bd5728967b8a7de0a4e60aa9307",
+      "worker_review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1",
+      "coordinator_disposition": "reviewed_pending_proposal_added",
+      "rationale": "All three Vermillion County draft pages visually inspected: number suffix, adoption day and signatures blank. Proposes new data-center application filing pause from adoption, with separate adoption/publication effectiveness clause. Compound term is September 17, 2027 or twelve calendar months from effectiveness at noon, whichever is greater, with earlier termination upon effective data-center regulations. No absolute operative end date, fixed-day duration, adoption or current force accepted.",
+      "source_checks": [
+        {
+          "attempt_id": "c6030a71bcfb4e67892e6d8f2b0086bd",
+          "url": "https://www.vermilliongov.us/wp-content/uploads/2026/09/Moratorium-for-Data-Centers-9.4-1.pdf",
+          "body_sha256": "47d5c66ae27a06a93e3cae3f15f89751b72141068a1b8a4856e2e34ffd09e913",
+          "text_sha256": "d397330fa5f3e85389a8d32e48aa5ffcf4183aa6f3ee4cb66ff980c04df0e022",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              6130,
+              6282
+            ],
+            "quote_sha256": "352d9c8e683893b8010d1404afa137acba3c721daeb9b23947435dbc845d2876",
+            "scope": "Exact worker excerpt located against pinned original text; raw quote remains private."
+          },
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 3,
+            "render_command": "pdftoppm -scale-to 1450 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "1cc5e1cf73409a84c9866477ccf5dc50faa890bfb0f7941af0f4e56a8734d132"
+              },
+              {
+                "page": 2,
+                "image_sha256": "a755eb7af0bc4732640877dd071eef5f02c03afd0760bfd61868d3c9567cb0ff"
+              },
+              {
+                "page": 3,
+                "image_sha256": "972f4c20d929c2b26ab72c32af8068091eb1dd481ed93156df40f06207205555"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-in:2",
+      "candidate_sha256": "009b87c0aa1bb8b023f3311b8ce9c883899f53406a89eef627a0fb63fe18c988",
+      "worker_review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1",
+      "coordinator_disposition": "held_primary_instrument_and_date_conflict",
+      "rationale": "Accessible automated Blackford BESS recap dated November 2, 2025 reports November 3 unanimous 3\u20130 Resolution 2025-R9 until a regulating ordinance is adopted. Full story is gated. Preserve date conflict and original-resolution gap; do not infer ongoing force from an event-based term or merge with data-center R10 or 2024 wind/solar draft.",
+      "source_checks": [
+        {
+          "attempt_id": "3665e815ab604c7babb53b920f4664fe",
+          "url": "https://citizenportal.ai/articles/8844902/indiana/blackford-county/blackford-county-adopts-resolution-barring-battery-storage-permits-until-ordinance-in-place",
+          "body_sha256": "5798323bd5becde47437b57784874c4567b4c1757620948b3e8b98d1e5a7201d",
+          "text_sha256": "2fe864903fecec674de1d7ede953e0f2d206a2f89ce2ee7e507476126a79ffa4",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              1442,
+              1608
+            ],
+            "quote_sha256": "a80810ed19a88706b2394a95ccde62d7ca95f65eb53e2878e00195e292d092aa",
+            "scope": "Exact worker excerpt located against pinned original text; raw quote remains private."
+          },
+          "read_scope": "Accessible recap opening/related-item summary only; not gated full story"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-in:3",
+      "candidate_sha256": "45535bef3ee7533f01d4b622df9d7b1ed01719e201c61bc402d20fc5fd34f1a6",
+      "worker_review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1",
+      "coordinator_disposition": "held_primary_instrument_and_date_conflict",
+      "rationale": "Related-item summary in the same retained Blackford page reports separate data-center Resolution 2025-R10 until permitting rules are adopted. It supplies no independent exact adoption date or later history and is not independent corroboration of BESS R9. Obtain original R10, actual meeting record and replacement/current-force history.",
+      "source_checks": [
+        {
+          "attempt_id": "3665e815ab604c7babb53b920f4664fe",
+          "url": "https://citizenportal.ai/articles/8844902/indiana/blackford-county/blackford-county-adopts-resolution-barring-battery-storage-permits-until-ordinance-in-place",
+          "body_sha256": "5798323bd5becde47437b57784874c4567b4c1757620948b3e8b98d1e5a7201d",
+          "text_sha256": "2fe864903fecec674de1d7ede953e0f2d206a2f89ce2ee7e507476126a79ffa4",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              4533,
+              4682
+            ],
+            "quote_sha256": "d55e3768ee4886eebe0db548ac63579ea0d600f482ab04c5c25f4c6ef9057906",
+            "scope": "Exact worker excerpt located against pinned original text; raw quote remains private."
+          },
+          "read_scope": "Accessible recap opening/related-item summary only; not gated full story"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-in:4",
+      "candidate_sha256": "bf7556373d9b99a1c39ffdf438d5a1425de8450fc875a3f07aa37fe8824c9276",
+      "worker_review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1",
+      "coordinator_disposition": "held_historical_draft_and_later_action",
+      "rationale": "Accessible November 17, 2024 automated Blackford recap reports wind/solar moratorium draft forwarded to county attorney and December 9 committee plan. Neither is adoption or proof the draft remains pending in November 2026. Recover draft, formal consideration and later disposition; preserve distinct sector/chronology from BESS and data-center resolutions.",
+      "source_checks": [
+        {
+          "attempt_id": "01eff5b6f63e45d5a7a0312acc0ba24d",
+          "url": "https://citizenportal.ai/articles/8778901/wind-and-solar-ordinance-committee-set-for-dec-9-commissioners-say-moratorium-is-with-attorney",
+          "body_sha256": "b7e0ef8106a85d485a1d2ac25775687e029de494f2ee088c2d3f61ef99a86cad",
+          "text_sha256": "b78476a50a598dd3b839f91eccd46dd1dc2d47f3423ac51701e124b0404afe73",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              485,
+              627
+            ],
+            "quote_sha256": "1920fcba3a67e19b15c07e27669d1cae362edcd842b46db2f45f3a3144e66ecb",
+            "scope": "Exact worker excerpt located against pinned original text; raw quote remains private."
+          },
+          "read_scope": "Accessible recap opening/related-item summary only; not gated full story"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-in:5",
+      "candidate_sha256": "1cc813019232e8e0dea435cd8547c3e4fab1ae9796ac1004f28ee11f47a9e708",
+      "worker_review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1",
+      "coordinator_disposition": "reviewed_pending_proposal_added",
+      "rationale": "All four Zionsville pages visually inspected. Resolution 2026-25 initiates proposed zoning amendment for Plan Commission consideration/recommendation; resolution referral and actual zoning enactment are separate stages. September 21 printed date has blank vote totals, council signatures, delivery, mayor approval/veto and attestation. Proposed one-calendar-year pause starts upon amendment passage/effectiveness. Four sectors retained with proposed definitions/exceptions, not every battery/onsite energy use. No adopted amendment or operative dates accepted.",
+      "source_checks": [
+        {
+          "attempt_id": "53f2d7f0849b4dbbb0fec863506e99e5",
+          "url": "https://www.zionsville-in.gov/AgendaCenter/ViewFile/Item/8691?fileID=16971",
+          "body_sha256": "072539312d6a6855a9f1da616facbe584f4b71e0fbe385fa7d0100688acff755",
+          "text_sha256": "9b56e91cc16024f134a8530f7db7b58296814a001f3909b5dc3da33c28353d5e",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              6729,
+              6849
+            ],
+            "quote_sha256": "8777f88893ab9707e0934556f70994b70a8e36c4de889b875469b80668389cd7",
+            "scope": "Exact worker excerpt located against pinned original text; raw quote remains private."
+          },
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 4,
+            "render_command": "pdftoppm -scale-to 1450 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "bd3cb8dc07d502db968e9d07f1569344c196e658d5f6f59c408cbc4a24be36bf"
+              },
+              {
+                "page": 2,
+                "image_sha256": "57bcaa976d50f9a39b789fcefb48a0cf37805ec0b2596f52eb4e51aaa6f7ebdf"
+              },
+              {
+                "page": 3,
+                "image_sha256": "09982c113ced58495c2d73963daa75b951f9d690b0a4081306b9bd77645ceb33"
+              },
+              {
+                "page": 4,
+                "image_sha256": "0b4a97910205079a1a7bf8ac498e31520b68759ae2fbf9c0243d9c698659395b"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-in:6",
+      "candidate_sha256": "40fd433ac939e628a462b0c97e97a28d1b212f3691afae5b7d1533fcd540896c",
+      "worker_review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1",
+      "coordinator_disposition": "held_citizen_request_and_formal_action",
+      "rationale": "Accessible automated Miami County recap reports attorney request on citizens behalf for one-year solar application pause, with proposed existing-complete-application exemption. Headline says tabled for attorney review but visible body does not establish the precise motion or formal ordinance. Publication date differs from related September 8 meeting context. Request is not adoption or a sufficiently authenticated official pending instrument; obtain minutes, exact motion, draft and later action. Distinct from May 2026 county data-center act.",
+      "source_checks": [
+        {
+          "attempt_id": "97331128979f45b7b0d1a2d20a8e3fc6",
+          "url": "https://citizenportal.ai/articles/10653582/indiana/miami-county/attorney-asks-for-one-year-moratorium-on-new-solar-applications-commissioners-record-motion-to-table-for-attorney-review",
+          "body_sha256": "ed63c1d88fdf758c4134cff3ca6d7ef8fb6bc1bacb8e07f799eda8a07133eeec",
+          "text_sha256": "9a79dd91fd6a7836b2f76fa6e1085e8f41e7310cbb72e5f48c4f4550f6cd85dc",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              1470,
+              1595
+            ],
+            "quote_sha256": "bbd49395efa999403a82947b97651264bf4b3a81fc34df522c6c9a8a5ac52610",
+            "scope": "Exact worker excerpt located against pinned original text; raw quote remains private."
+          },
+          "read_scope": "Accessible recap opening/related-item summary only; not gated full story"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-in:7",
+      "candidate_sha256": "497572e20d0ac4f2eb08d21218db62df20581fbc35cf0706983fdb9dd99835dd",
+      "worker_review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1",
+      "coordinator_disposition": "held_agenda_only_and_draft_text",
+      "rationale": "Complete one-page Alexandria October planning agenda visually inspected. Data Center Moratorium draft is an old-business item; adjacent Crypto Currency Mining Operation is a separate agenda item and cannot be assigned as moratorium sector. Filename October 26 is not a printed meeting day in the document. No actual draft terms, vote, adoption or operative history accepted; obtain draft and meeting action.",
+      "source_checks": [
+        {
+          "attempt_id": "930ef35bc31d4898a4ce0645f2f4049a",
+          "url": "https://www.in.gov/cities/alexandria/files/ALEX-PC-AGENDA-10262026.pdf",
+          "body_sha256": "cd3063aa5eec793c3bf2a687216268b377a653020e237ea583954589bf83a0a6",
+          "text_sha256": "4191f53418bba17f8de2fee03fb8833b2d58c11b23a09b9a14977bcb4af09efa",
+          "excerpt_location_check": {
+            "located_unicode_span": [
+              243,
+              271
+            ],
+            "quote_sha256": "0979a2718abc1e845bc769cf688a436d6d89aaecb6403537f4afc3bc806d13e5",
+            "scope": "Exact worker excerpt located against pinned original text; raw quote remains private."
+          },
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 1,
+            "render_command": "pdftoppm -scale-to 1450 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "1ecaffc399a2d6a92c30a01488a30fec56152309c1d4fb18f270c6927bacbe18"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Eight Indiana coordinator reviews; two official source-stage proposals and six withheld. Seven distinct original source versions and eight PDF pages; Blackford R9/R10 share one source. No new acquisition or current-force renewal."
+}

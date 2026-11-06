@@ -3,7 +3,7 @@
 
 Working inventory for Indiana, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**33 instruments** — 24 in force, 2 pending, 7 past.
+**35 instruments** — 24 in force, 4 pending, 7 past.
 
 State policy is tracked separately: **10 actions** (10 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -39,9 +39,11 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 | Steuben County | County | 2026-09-15 | data center | 🟢 Active |
 | Tippecanoe County | County | 2025-06-16 | solar | ⚪ Expired |
 | Valparaiso (Porter County) | City | 2026-08-10 | data center | 🟢 Active |
+| Vermillion County | County | Unverified | data center | 🟡 Pending |
 | Wabash County | County | 2026-08-31 | data center | 🟢 Active |
 | Warrick County | County | 2026-08-11 | data center | 🟢 Active |
 | White County | County | 2025-10-20 | data center | ⚪ Replaced |
+| Zionsville | Town | Unverified | data center, battery storage, solar, wind | 🟡 Pending |
 
 ## Detailed entries
 
@@ -525,6 +527,22 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Detailed status:** Active as of 2026-09-23. The Valparaiso Common Council adopted Ordinance No. 16-2026 on 2026-08-10, following the July 13 first reading and an August Plan Commission hearing. The moratorium bars new data center land-use approvals and permits (with exceptions for existing lawful uses, routine maintenance, and vested rights) until the Council adopts Unified Development Ordinance amendments governing data centers, or by July 31, 2028, whichever comes first.
 - **Outcome:** Common Council adopted Ordinance No. 16-2026, establishing a temporary moratorium on new data center development with no fixed near-term end date beyond the July 31, 2028 backstop.
 
+### Vermillion County
+
+- **Type:** County
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Proposed later of September 17, 2027 or twelve calendar months from effectiveness at noon; earlier termination upon effective data-center regulations
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `in-vermillion-county-undated`
+- **Legal basis:** Draft Ordinance 2026-___ (number suffix blank)
+- **What prompted it:** Local government proposes temporary application pause while studying land-use regulation.
+- **Affected projects:** —
+- **Detailed status:** Official unsigned draft supports source-stage pending data-center proposal only. [VERIFY actual adoption, publication/effectiveness, final text, subsequent action, legal status and coordinates]
+- **Outcome:** —
+
 ### Wabash County
 
 - **Type:** County
@@ -572,6 +590,22 @@ State policy is tracked separately: **10 actions** (10 bills) in [`state_legisla
 - **Affected projects:** Proposed White County project near Wolcott; no verified MW total in local ordinance capture
 - **Detailed status:** Replaced by permanent zoning framework. The captured updated 2008 Zoning Ordinance (through 2026-02-09) includes a dedicated Section 3.20 Data Centers; no separate termination ordinance for Ordinance No. 2025-10-20-02 was located in captured records as of 2026-04-29
 - **Outcome:** White County zoning now includes a dedicated Section 3.20 Data Centers with application, water, noise, setback, screening, and emergency-response requirements
+
+### Zionsville
+
+- **Type:** Town
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Proposed one calendar year from effectiveness of zoning amendment; no operative interval accepted
+- **Current end date:** `—`
+- **Sectors:** data center, battery storage, solar, wind
+- **Moratorium ID:** `in-zionsville-undated`
+- **Legal basis:** Draft initiating Resolution 2026-25 and proposed zoning amendment
+- **What prompted it:** Local government proposes temporary application pause while studying land-use regulation.
+- **Affected projects:** —
+- **Detailed status:** Unsigned initiating resolution proposes four-sector zoning amendment for Plan Commission consideration and recommendation. Source-stage pending proposal only. [VERIFY resolution execution/referral, actual zoning amendment adoption, effectiveness, later action, legal status and coordinates]
+- **Outcome:** —
 
 ---
 
