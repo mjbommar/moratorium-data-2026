@@ -196,7 +196,7 @@
 record-level observations and <code>[VERIFY]</code> markers identify unresolved work.</p>
 <h2 id="what-we-know-we-dont-have">What we know we don't have</h2>
 <h3 id="small-township-records-that-arent-online">Small-township records that aren't online</h3>
-<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>681 of the 1308 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.</p>
+<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>682 of the 1309 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.</p>
 <h3 id="legacy-instrument-identities">Legacy instrument identities</h3>
 <p>The working inventory still contains identities requiring reconciliation.
 <code>ma-leominster-undated</code> combines separate BESS and data-center petitions, each
@@ -397,7 +397,7 @@ happened after September 23, 2026 is not in this update. Before that date we
 rechecked four kinds of rows. We looked at rows past their end date and
 extensions with no new end date. We also looked at proposals more than 60 days
 old and rows with a <code>[VERIFY]</code> note.</p>
-<p>1074 moratoria are classified active or extended in the November 5 working cohort; this does not establish renewed current legal force. The following eleven-row discussion describes the historical September check, not the current validation warning count. That check flagged eleven rows that looked out of date. Eight of them, in
+<p>1075 moratoria are classified active or extended in the November 5 working cohort; this does not establish renewed current legal force. The following eleven-row discussion describes the historical September check, not the current validation warning count. That check flagged eleven rows that looked out of date. Eight of them, in
 Cedartown, Georgia and seven New York towns, have passed their end date. We
 could not find out what happened next, so each carries a <code>[VERIFY]</code> note. The
 other three are fine. Waterford Township, Michigan and East Whiteland Township,
@@ -490,9 +490,9 @@ from an earlier release.</p>
 </tbody>
 </table>
 <h2 id="source-body-availability-checkpoint">Source-body availability checkpoint</h2>
-<p>The November 6 <a href="../work/audit/legacy-source-migration-nd-review-2026-11-06.json">current archive checkpoint</a>
-covers 6,538 manifest entries, with hash-matching bodies available through listed
-paths for 3,095 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+<p>The November 6 <a href="../work/audit/legacy-source-migration-mn-review-2026-11-06.json">current archive checkpoint</a>
+covers 6,544 manifest entries, with hash-matching bodies available through listed
+paths for 3,101 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.</p>
@@ -512,7 +512,7 @@ The earlier solar Ordinance 22-07 copy is unsigned and contains editing markup;
 it remains a separate unmigrated historical source rather than an inferred merger.
 Retroactive effective dates are preserved separately from adoption dates.</p>
 <h2 id="geocoding-caveats-added-v2026042">Geocoding caveats (added v2026.04.2)</h2>
-<p>1290 of 1308 instruments have WGS84 reference points. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. Reference points do not establish legal boundaries or applicability. The 18 blanks comprise two aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County and Sarpy County awaiting coordinate review.</p>
+<p>1290 of 1309 instruments have WGS84 reference points. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. Reference points do not establish legal boundaries or applicability. The 19 blanks comprise two aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County, Sarpy County and Pequot Lakes awaiting coordinate review.</p>
 <p><strong>Within-state name ambiguity.</strong> Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:</p>
 <ul>
 <li>Lake Township, OH (Wood County, not Logan County)</li>
@@ -616,6 +616,8 @@ added in the checks were tested the same way, and none were misplaced.</p>
 <p>The <a href="../work/research/2026-11-06/plains-mountain-discovery-review/index.html">NE/UT/WY review</a> adds historical Sarpy Resolution 2020-039 after all four PDF pages were inspected. Page 2 contains signatures/attestation omitted from text extraction, correcting the worker’s contrary conclusion. January 28, 2020 adoption is separate from the stated January 14 start and March 18 latest endpoint; earlier effective regulation and later restrictions remain unresolved. Custer/Deuel’s gated generated summaries contain unreconciled chronology. Sanpete’s earlier solar pause is distinct from its data-center action, and Sweetwater’s 2012 extension report does not establish an original date or exact seasonal endpoint.</p>
 <h2 id="north-dakota-sector-votes-and-conflicting-notice-dates">North Dakota sector votes and conflicting notice dates</h2>
 <p>The <a href="../work/research/2026-11-06/north-dakota-discovery-review/index.html">North Dakota review</a> distinguishes Bowman planning-board votes from subsequent county approval, while withholding legal-instrument count and the unspecified year of May 31. Durbin’s reported broad industrial pause is distinct from Harmony Township and excludes high-voltage transmission lines discussed at the meeting. Mercer’s older wind pause is distinct from its 2026 data-center motion; a scheduled reconsideration is not repeal. Stark’s unsigned notice prints a September 2021 start and June 2021 termination; neither year is silently corrected. These five dispositions do not change canonical counts.</p>
+<h2 id="minnesota-execution-and-staff-report-scope">Minnesota execution and staff-report scope</h2>
+<p>The <a href="../work/research/2026-11-06/minnesota-discovery-review/index.html">Minnesota review</a> adds Pequot Lakes as city-reported active from a September 8 staff report identifying Ordinance 26-08 and July 15, 2027 expiry. Adoption/effectiveness and full operative text remain unverified; the agenda date is not enactment. Foley’s retained copy is unsigned despite the worker description. Traverse’s April 11/12 dates and publication requirement remain unresolved; Pipestone’s immediate-effect clause conflicts with its July 4 footer. Caledonia’s original act and Grant County’s final amended wind text remain needed.</p>
 </main>
 
 <footer>

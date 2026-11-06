@@ -3,7 +3,7 @@
 
 Working inventory for Minnesota, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**28 instruments** — 26 in force, 2 pending, 0 past.
+**29 instruments** — 27 in force, 2 pending, 0 past.
 
 State policy is tracked separately: **12 actions** (12 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -29,6 +29,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | North Branch | City | 2026-07 | data center, cryptocurrency mining, general | 🟢 Active |
 | North Mankato | City | 2026-09-21 | data center | 🟢 Active |
 | Otsego | City | 2026-07-27 | data center | 🟢 Active |
+| Pequot Lakes | City | Unverified | data center | 🟢 Active |
 | Pine County | County | 2026-07-07 | data center | 🟢 Extended |
 | Plymouth | City | 2026-09-08 | data center | 🟢 Active |
 | Rice | City | Unverified | data center | 🟡 Pending |
@@ -359,6 +360,22 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Affected projects:** None; the City has not received any data center site-plan application as of the July 27, 2026 adoption, per City Planner Dan Licht.
 - **Detailed status:** The July 27 minutes record 5-0 adoption of Ordinance 2026-11 and the planner describes expiry in one year or earlier completed study plus adopted regulations. The official newsletter says up to one year. No exact endpoint or extension authority is promoted from these materials. [VERIFY: final operative interval, later amendments/extension/repeal/replacement and current legal force; classification remains provisional.]
 - **Outcome:** Adopted: the Otsego City Council voted 5-0 on July 27, 2026 to adopt Ordinance 2026-11, imposing a one-year moratorium on data center land uses and directing staff to study official controls and impacts (water, noise, setbacks, lighting, safety) before drafting permanent zoning regulations.
+
+### Pequot Lakes
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** City staff reports automatic expiration July 15, 2027; original term and adoption/effectiveness anchors unverified
+- **Current end date:** `2027-07-15`
+- **Sectors:** data center
+- **Moratorium ID:** `mn-pequot-lakes-undated`
+- **Legal basis:** Ordinance 26-08 (identified in official September 8, 2026 staff report)
+- **What prompted it:** City studies data-center zoning and prepares planning recommendations.
+- **Affected projects:** —
+- **Detailed status:** Official September 8, 2026 city staff report identifies existing Ordinance 26-08 data-center moratorium and reports automatic July 15, 2027 expiry. City-reported active classification only. [VERIFY full adopted ordinance, adoption/effectiveness, definitions/exceptions, subsequent actions, current legal force and coordinates]
+- **Outcome:** —
 
 ### Pine County
 

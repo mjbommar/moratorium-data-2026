@@ -1,5 +1,5 @@
 {
-  "inventory_sha256": "d22078e7807b17d1eec1d508ecb9eee42c43d79a55278bf87f8405521a39270d",
+  "inventory_sha256": "8708faa55b80fadde8724c4591e25f0ff5a8f3d024f0f981045aa78fe4196a72",
   "returned_answer_sha256": {
     "discovery-ak": "a4b62aac2562578f9bb4c66f6f504557f1aace1c1612c0f7f2e3b2c01fae334e",
     "discovery-al": "b6e254f6a91f7dc6937ca15433d3c9ac8c29f473bb22765439ab7bf23647aa62",
@@ -54,7 +54,7 @@
   },
   "candidate_count": 185,
   "reviewed_pending_additions": 6,
-  "unreviewed_count": 117,
+  "unreviewed_count": 111,
   "candidates": [
     {
       "candidate_key": "discovery-ak:0",
@@ -1979,9 +1979,9 @@
       "jurisdiction": "Foley",
       "proposed_instrument_label": "Ordinance 452",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_execution_dates_or_final_history",
+      "review_packet": "work/research/2026-11-06/minnesota-discovery-review/review.json",
+      "next_step": "Recover full operative act, execution/publication and subsequent legal history as scoped in review rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-closure-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -1996,9 +1996,9 @@
       "jurisdiction": "Traverse County",
       "proposed_instrument_label": "interim ordinance",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_execution_dates_or_final_history",
+      "review_packet": "work/research/2026-11-06/minnesota-discovery-review/review.json",
+      "next_step": "Recover full operative act, execution/publication and subsequent legal history as scoped in review rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-closure-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -2013,9 +2013,9 @@
       "jurisdiction": "Pipestone",
       "proposed_instrument_label": "Ordinance 157 Fourth Series",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_execution_dates_or_final_history",
+      "review_packet": "work/research/2026-11-06/minnesota-discovery-review/review.json",
+      "next_step": "Recover full operative act, execution/publication and subsequent legal history as scoped in review rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-closure-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -2030,9 +2030,9 @@
       "jurisdiction": "Caledonia",
       "proposed_instrument_label": "Ordinance 2026-02",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_execution_dates_or_final_history",
+      "review_packet": "work/research/2026-11-06/minnesota-discovery-review/review.json",
+      "next_step": "Recover full operative act, execution/publication and subsequent legal history as scoped in review rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-closure-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -2047,9 +2047,9 @@
       "jurisdiction": "Grant County",
       "proposed_instrument_label": "interim ordinance, number unknown",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_execution_dates_or_final_history",
+      "review_packet": "work/research/2026-11-06/minnesota-discovery-review/review.json",
+      "next_step": "Recover full operative act, execution/publication and subsequent legal history as scoped in review rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-closure-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -2063,10 +2063,12 @@
       "state_abbrev": "MN",
       "jurisdiction": "Pequot Lakes",
       "proposed_instrument_label": "Ordinance 26-08",
-      "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "same_name_inventory_ids": [
+        "mn-pequot-lakes-undated"
+      ],
+      "disposition": "reviewed_city_reported_adoption_added",
+      "review_packet": "work/research/2026-11-06/minnesota-discovery-review/review.json",
+      "next_step": "Recover full operative act, execution/publication and subsequent legal history as scoped in review rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-closure-04",
         "worker_disposition": "distinct_supported_candidate",
@@ -3293,11 +3295,11 @@
   "scope": "Explicit closure queue for returned local candidates only. Exact normalized jurisdiction names assist routing, not entity matching, duplicate rejection, source acceptance or coverage proof. Original 333 jobs remain terminal; no collection rerun.",
   "covered_by_existing_instrument": 1,
   "reviewed_prepared_not_applied": 0,
-  "reviewed_city_reported_adoption_additions": 1,
+  "reviewed_city_reported_adoption_additions": 2,
   "worker_reviewed_count": 183,
-  "unreviewed_count_scope": "117 candidates await coordinator substantive processing; fifty-two reviewed cases remain withheld. Separate sector votes/shared reports do not establish separate canonical instruments or independent corroboration.",
+  "unreviewed_count_scope": "111 candidates await coordinator substantive processing; fifty-seven reviewed cases remain withheld. City staff-reported active status is not independent authentication of operative text or current force.",
   "worker_review_baseline_sha256": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1",
   "reviewed_historical_additions": 6,
-  "reviewed_withheld_cases": 52,
-  "current_inventory_sha256": "d22078e7807b17d1eec1d508ecb9eee42c43d79a55278bf87f8405521a39270d"
+  "reviewed_withheld_cases": 57,
+  "current_inventory_sha256": "8708faa55b80fadde8724c4591e25f0ff5a8f3d024f0f981045aa78fe4196a72"
 }

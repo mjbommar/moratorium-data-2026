@@ -1,0 +1,177 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "baseline_inventory_sha256": "d22078e7807b17d1eec1d508ecb9eee42c43d79a55278bf87f8405521a39270d",
+  "candidates": [
+    {
+      "candidate_key": "discovery-mn:0",
+      "candidate_sha256": "98d82f6fe7fed838d354ad3b6c094d304c90c12cca8c791d34df26159d16e3cb",
+      "worker_review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3",
+      "coordinator_disposition": "held_execution_dates_or_final_history",
+      "rationale": "Both Foley Ordinance 452 PDF pages inspected: mayor and administrator/attestation lines are blank, correcting worker signed description. Text prints July 14, 2020 adoption/immediate effect and one-calendar-year or earlier council determination, with solar definition excluding systems directly serving principal permitted property use. Execution/final action, publication and later history remain unresolved; do not infer expiry solely from old printed date.",
+      "source_checks": [
+        {
+          "attempt_id": "41437d196fa14ea9ae10b3a9ee7eefcd",
+          "url": "https://ci.foley.mn.us/wp-content/uploads/2020/07/Ord-452-Moritorium-on-Solar-Projects.pdf",
+          "body_sha256": "6fa0b7ddf4125213249179ace726bd95d165cdc80aa5a14342221871c051f864",
+          "text_sha256": "fb0774b38ac4a5fc679c6fc3376c77e382b24a2c5edc8c674487843956471a77",
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 2,
+            "render_command": "pdftoppm -scale-to 1500 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "2a2088353b83964a23642397f61f07b7d2db1127bab78a2570533db6df9a7470"
+              },
+              {
+                "page": 2,
+                "image_sha256": "e1b356877d03ef872d0d54a12a9281cd1caa2b02035e27722382c01a618c97f6"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-mn:1",
+      "candidate_sha256": "2b0116d13ab59468c65a9d16dc992bfe7fc11b3cb8350ec848ec4f5a31985522",
+      "worker_review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3",
+      "coordinator_disposition": "held_execution_dates_or_final_history",
+      "rationale": "All three Traverse hearing-minute pages inspected. Header says April 12, 2023, narrative records 5\u20130 passage, embedded ordinance prints April 11 and twelve months from adoption with effectiveness upon publication. Embedded and minutes signature lines are blank. Preserve actual date conflict and publication requirement; no exact adoption/effective/end date accepted. Recover executed act, publication and subsequent actions.",
+      "source_checks": [
+        {
+          "attempt_id": "0a8afc103c314ee3bf8c1ad359e1a853",
+          "url": "https://www.co.traverse.mn.us/wp-content/uploads/2014/08/04.12.2023-Public-Hearing-Minutes.pdf",
+          "body_sha256": "7a88ad8748d08f34cf925f71c48bce655f5870492f184142ba8a9bef9b35ebbf",
+          "text_sha256": "650e58e1c68eee47f3425153569c05c677ac629894b46e6c34998987390e893e",
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 3,
+            "render_command": "pdftoppm -scale-to 1500 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "4e3fc43951fbc4db9e66cae409d5c2f18b4d47ff079592baa9887997b7f5c853"
+              },
+              {
+                "page": 2,
+                "image_sha256": "c21cf13218513b34964e96d6130b839365ea2edaa4366b8c927d259d7b2643d0"
+              },
+              {
+                "page": 3,
+                "image_sha256": "ef4fc9340d935453b8d5022ea883d2044538dd6fc912f2d0ab3aafccabd89e45"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-mn:2",
+      "candidate_sha256": "1fd8a7090fb4d966fbd3086924d15aeaa1e4640f744476bdc5eb8f5f1f94928b",
+      "worker_review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3",
+      "coordinator_disposition": "held_execution_dates_or_final_history",
+      "rationale": "All four Pipestone Ordinance 157 Fourth Series pages inspected, including typed /s/ attestations. July 1, 2024 adoption and twelve-month/adoption or earlier repeal/regulation term coexist with immediate-on-adoption clause, July 3 publication footer and July 4 effective-date footer. Preserve legal-date conflict, solar/wind definitions and state-permitted/maintenance exceptions. Do not silently choose one effective date or assume later disposition.",
+      "source_checks": [
+        {
+          "attempt_id": "e68a1eb8aa1c4f738600f007408ff64c",
+          "url": "https://www.progressivepipestone.com/DocumentCenter/View/1919/Ordinance-157-Fourth-Series---Solar-and-Wind-Moratorium",
+          "body_sha256": "45d2e26a7acf37cbc6068a577368280049a65024bd9424827e696eefb9754c52",
+          "text_sha256": "ea12ed8abf8a731da75602b3e5273e64ab4ab071de741383072e5b2619874d2c",
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 4,
+            "render_command": "pdftoppm -scale-to 1500 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "7028f8dfb6137826dfc75fc18667c745ca26e1c84dd7421032b6a2b3e7543e6d"
+              },
+              {
+                "page": 2,
+                "image_sha256": "116b8a538132f2cbd75920cee77c1759dc4f3073dea23028478ba9c31d7ebd94"
+              },
+              {
+                "page": 3,
+                "image_sha256": "a810cf08c8d4efe3e8d5360140f38196f554a7bb82ed75f7d92e71321e19e61b"
+              },
+              {
+                "page": 4,
+                "image_sha256": "ab1593eee21abda3a490f0a2e2b9a5e316b28d55afb08f28bda127901f76e5a1"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-mn:3",
+      "candidate_sha256": "3b5510c365f38b59ddfd1194ba4e6dc410500e199d6e8980cd51851d18dd8eb0",
+      "worker_review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3",
+      "coordinator_disposition": "held_execution_dates_or_final_history",
+      "rationale": "Complete Caledonia report attributes October 26 approval of Ordinance 2026-02 and twelve-month data-center pause with earlier lifting possible and principal-use/accessory distinction. News reporting is not executed text, effectiveness or current-force confirmation. Recover original ordinance, final operative definitions/dates and later actions.",
+      "source_checks": [
+        {
+          "attempt_id": "8b3bbb2b249d4e89a6016f890181a867",
+          "url": "https://fillmorecountyjournal.com/caledonia-city-council-approves-12-month-data-center-moratorium/",
+          "body_sha256": "ea1aba15308ca036d2c3f1edfcdf8bf5bd21407f5daf3df6cab6f7165873f304",
+          "text_sha256": "2ef905d2beb91ead233b128a56b93a3d369299621cf68e549b51d8d2d2502715",
+          "quote": "At the October 26 regular meeting, the Caledonia City Council approved Ordinance 2026-02, establishing a moratorium on data centers within the city.",
+          "quote_span": [
+            323,
+            471
+          ],
+          "review_scope": "Complete Caledonia article read; Grant accessible article portion ends at Continue Reading."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-mn:4",
+      "candidate_sha256": "4bcc4039c32a125362113385b0088db059b40ff5bdddc2702fe085272c0a97dd",
+      "worker_review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3",
+      "coordinator_disposition": "held_execution_dates_or_final_history",
+      "rationale": "Accessible Grant County article reports a 4\u20131 wind pause vote after an August 19 hearing and an adopted existing-WECS exemption/repowering amendment. It ends at Continue Reading; no complete article claim. Grant County is not City of Grant. Unamended draft would not establish final exemption scope. Recover final adopted text, exact date/effectiveness and subsequent history.",
+      "source_checks": [
+        {
+          "attempt_id": "85942aa79d624b688841264dae54aced",
+          "url": "https://grantcountyherald.com/news/moratorium-on-new-wind-projects-passes/",
+          "body_sha256": "0fb13335302d94293b23e6012cc09a4dd3e1348b578cd9d8c018689a10f2631f",
+          "text_sha256": "dc574c68affbeee4f1b2081266fd609a5f7585569c4e365fbf4c4816cb0ef96a",
+          "quote": "With one amendment, the Grant County Board of Commissioners approved an interim ordinance placing a moratorium on new wind projects in the county for one year.",
+          "quote_span": [
+            45,
+            204
+          ],
+          "review_scope": "Complete Caledonia article read; Grant accessible article portion ends at Continue Reading."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-mn:5",
+      "candidate_sha256": "133b950b226103f7223204ccba6391e3bdd9be7f8639a618dd9238a031108255",
+      "worker_review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1",
+      "coordinator_disposition": "reviewed_city_reported_adoption_added",
+      "rationale": "Complete Pequot Lakes September 8, 2026 official staff report identifies Ordinance 26-08 Data Center Moratorium, treats it as already operating, and twice states July 15, 2027 expiry without further council action. Approval required and council action requested both say nothing at this time; agenda date is not enactment. Accept city-reported active classification and source-reported endpoint only, not full operative text, exact adoption/effectiveness or current-force renewal.",
+      "source_checks": [
+        {
+          "attempt_id": "e1121120003d4566897392902c294351",
+          "url": "https://www.pequotlakes-mn.gov/uploads/dm/83100/8.5_Data_Center_Moratorium.pdf",
+          "body_sha256": "bf4ced703d0655f3e5a7f847389efc7c345bd80a29a96757b9a3fa3d4cea0f22",
+          "text_sha256": "27473d4eb567a692cb91df35302dc4c5f5b6d3db20ae448142cb2fbb0a9c184b",
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 1,
+            "render_command": "pdftoppm -scale-to 1500 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "088a4ef5c24573b0f5cf373a20faf0d3d97405739b3be18e3559c36a57948acf"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

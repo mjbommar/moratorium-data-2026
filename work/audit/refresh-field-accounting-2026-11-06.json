@@ -1015,6 +1015,7 @@
       "work/audit/apply-20261106T113115.json": "dff142ebe85d4b68fb86ffc51758c3752859bf40941f6bd3599b85fdcc1459b2",
       "work/audit/apply-20261106T114417.json": "71a98c85c34315cf3c1d4a205969377d1263aa488270cb2d47a7d24329e8b96a",
       "work/audit/apply-20261106T115521.json": "529842c8e1e79a807e9e5f3fb548541e471806038652a08722b1ea2d00b95a15",
+      "work/audit/apply-20261106T121116.json": "0d852790c4935dca43dc3ecf85e991e2c6e7c7bed217b1f13f1beac37bb58ab6",
       "work/audit/apply-legislation-20261105T114314.json": "222b8a24cbb2138216bd3e87d508fc67d5a3bafac2674429a58099a189e8204b",
       "work/audit/apply-legislation-20261106T000259.json": "563c37c423b64cc6d3eb8fe74f13b278bf8de357ec02c766e79c5d59a69b39a5",
       "work/audit/apply-legislation-20261106T000919.json": "c596af153305ab0135f215ac66482fce77d0dc38613ddf2a33d39a238dbcc3ea",
@@ -1023,7 +1024,7 @@
       "work/audit/apply-legislation-20261106T002343.json": "cce6016ebcee83046dcca9422bea0e45d3fed3379ae19232fdc174c7798eacdc",
       "work/audit/apply-legislation-20261106T084519.json": "2b8d7a459a25ac991a8a7ddde95f14b8c770f48cf86ceeb32677f8b814b81638"
     },
-    "moratorium_inventory.csv": "d22078e7807b17d1eec1d508ecb9eee42c43d79a55278bf87f8405521a39270d",
+    "moratorium_inventory.csv": "8708faa55b80fadde8724c4591e25f0ff5a8f3d024f0f981045aa78fe4196a72",
     "state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038"
   },
   "scope": "Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. This is not the completed freshness funnel required for release.",
@@ -1033,16 +1034,16 @@
   "not_started_jobs": 0,
   "tables": {
     "inventory": {
-      "total": 1308,
+      "total": 1309,
       "collection_counts": {
         "returned_unresolved": 782,
         "returned_other_outcome": 501,
-        "not_assigned_in_this_queue": 17,
+        "not_assigned_in_this_queue": 18,
         "excluded_completed_pilot": 8
       },
       "editorial_counts": {
         "no_refresh_apply_change": 845,
-        "has_refresh_apply_change": 463
+        "has_refresh_apply_change": 464
       },
       "records": [
         {
@@ -16921,6 +16922,18 @@
               "current_matches_last_applied_value": true
             }
           ]
+        },
+        {
+          "record_id": "mn-pequot-lakes-undated",
+          "state": "MN",
+          "collection_stage": "not_assigned_in_this_queue",
+          "jobs": [],
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T121116.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
+          "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
+          "applied_field_lineage": []
         },
         {
           "record_id": "mn-pine-county-2026",

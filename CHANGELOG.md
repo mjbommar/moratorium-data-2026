@@ -2,6 +2,8 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
+Pequot Lakes adds a city-reported active data-center moratorium from its September 8 staff report identifying Ordinance 26-08 and reporting July 15, 2027 expiry. Adoption/effectiveness and full operative text remain unverified; the agenda date is not enactment.
+
 Sarpy Resolution 2020-039 adds a historical elapsed-term record after visual verification of signatures omitted from text extraction. January 28 adoption remains distinct from stated January 14 start and March 18 latest endpoint; earlier ending actions and later restrictions remain unverified.
 
 Blaine County’s Ordinance 2026-05 draft adds a source-stage pending data-center proposal. The 182-day plan deadline is not a moratorium term; adoption date, duration, endpoint and current procedural status remain unverified.
@@ -40,18 +42,18 @@ remain unknown; no adoption event, in-force ban or headline-count increase is
 inferred. The public results view displays relationship review separately from
 legal status. All earlier records remain unchanged.
 
-Current totals are 1,308 local instruments (1,074 classified active or extended,
+Current totals are 1,309 local instruments (1,075 classified active or extended,
 73 pending, 161 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1308** |
-| Classified active or extended | **1074** |
+| Moratoria in the list | **1309** |
+| Classified active or extended | **1075** |
 | Pending or not yet effective | **73** |
 | Ended (replaced, expired, or rescinded) | **161** |
-| Rows we still want to confirm (`[VERIFY]`) | **681** |
+| Rows we still want to confirm (`[VERIFY]`) | **682** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained
