@@ -1,0 +1,62 @@
+{
+  "applied_at": "20261105T194826",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-washington-a/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 2,
+    "fields_changed": 6
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "wa-burien-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "The ordinance specifies one year, not a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-burien-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Ordinance specifies a one-year term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-burien-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31; one-year moratorium effective 2026-06-29.",
+      "after": "Ordinance 905 records June 29 adoption and immediate effect upon passage. Section Four states one year from effectiveness, subject to extension or earlier termination. The operative definition uses capacity in excess of 20 MVA, not MW. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-duvall-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Operative text uses 12 months rather than fixed days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-duvall-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Operative text specifies 12 months.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-duvall-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23. Moratorium on BESS facility applications adopted 2026-06-02 (Ordinance No. 1353) for a confirmed 12-month term (running through approximately 2027-06-02), notwithstanding the ordinance's title reciting six months; a public hearing was held 2026-07-07.",
+      "after": "Ordinance 1353 records June 2 unanimous passage and immediate effect, authenticated June 3. Section 3 and the work plan specify twelve months, while the title says six months; the discrepancy is retained for review. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ]
+}

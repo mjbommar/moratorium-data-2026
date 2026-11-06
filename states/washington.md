@@ -99,7 +99,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Legal basis:** Ordinance 905; RCW 36.70A.390 interim zoning control
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; one-year moratorium effective 2026-06-29.
+- **Detailed status:** Ordinance 905 records June 29 adoption and immediate effect upon passage. Section Four states one year from effectiveness, subject to extension or earlier termination. The operative definition uses capacity in excess of 20 MVA, not MW. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### City of Chelan
@@ -307,7 +307,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Legal basis:** Duvall Ordinance No. 1353, adopted 2026-06-02 (signed 2026-06-03), establishing a temporary moratorium on BESS facility applications under RCW 35A.63.220/36.70A.390; public hearing held 2026-07-07
 - **What prompted it:** City's DMC 14.06.190 'subregional utility' definition and DMC 14.62.020 permitted/conditional uses not updated for BESS technology; broader Snoqualmie Valley regional concern over BESS siting, fire, and safety risk
 - **Affected projects:** Not identified
-- **Detailed status:** Active as of 2026-09-23. Moratorium on BESS facility applications adopted 2026-06-02 (Ordinance No. 1353) for a confirmed 12-month term (running through approximately 2027-06-02), notwithstanding the ordinance's title reciting six months; a public hearing was held 2026-07-07.
+- **Detailed status:** Ordinance 1353 records June 2 unanimous passage and immediate effect, authenticated June 3. Section 3 and the work plan specify twelve months, while the title says six months; the discrepancy is retained for review. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Duvall City Council unanimously adopted a temporary BESS moratorium (Ordinance No. 1353) on 2026-06-02, following Snoqualmie, North Bend, and Carnation's example; a public hearing was held 2026-07-07.
 
 ### Enumclaw
