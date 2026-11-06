@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Bloomington township adds a seventeenth scoped ballot record, with advisory wording and official 21,851 yes / 6,316 no. The township electorate remains distinct from the city named in the question; Area60/60 is not recast as precincts, and specimen true-copy certification is not result certification. The frozen census now has 17 published / 39 pending groups. No legacy counts change. See [publication packet](work/research/2026-11-06/bloomington-promotion/README.md).
+
 New Jersey review separates enacted S3379/A4096 from independently pending A4696, preserving the original stable policy ID and recording the split mapping. The tracker now has 442 actions / 440 bill rows / 94 enacted bills. Chapter 32’s BPU-set threshold ceiling is no greater than 50 MW, rather than a fixed 100 MW; chapter 98’s report-triggered expiration and chapter 335’s April 1 applicability are recorded. SR18 is explicitly nonbinding. Local totals are unchanged. See [review packet](work/research/2026-11-06/nj-policy-wave1/README.md).
 
 Delaware review confirms August 26 enactment/effectiveness of the HB 233 substitute and SB 312, supported by current code. The substitute’s NAICS 518210 threshold is 30 MW, and its 180-day tariff deadline follows regulation finalization. SB 205’s final committee status is retained while unsupported precise adjournment wording is removed. Enacted state bills increase from 91 to 93; local totals are unchanged. See [review packet](work/research/2026-11-06/de-policy-wave1/README.md).
