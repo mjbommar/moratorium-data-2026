@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+November 6 California review confirms six September 21 enactments, corrects their final-text summaries and SB 57’s optional-assessment wording, and adds missing Chapter 436 / AB 2469 water-and-workforce permitting conditions. The state tracker now has 441 actions (439 bills plus two non-bill actions), including 91 enacted bills, up from 84. Ordinary January 1, 2027 effective dates remain separate from implementation dates; no local moratorium count changes. See [review packet](work/research/2026-11-06/ca-policy-wave1/README.md).
+
 November 6 Missouri field review corrects HB 3369 to local-government scope and HB 3390 to mixed scope, adds three official source URLs, and records SB 4’s official bill-level August 28, 2025 effective date. All seven assigned disposition/current-force reviews remain open; no legacy counts or ballot records change. See [review packet](work/research/2026-11-06/mo-policy-wave1/README.md).
 
 Four Illinois township advisory questions bring the scoped expanded subset to sixteen measures. Chouteau, Granite City, Nameoki and Venice retain official CSV counts and explicit prior/current supersession, with advisory bindingness and a permission-favoring yes direction. The public table now shows bindingness and direction; no advisory vote adds a legacy moratorium or establishes an enacted ban. Certification and formal outcomes remain unresolved. The separate wind/solar zoning-control lead remains outside the frozen census denominator pending electorate/qualification review.

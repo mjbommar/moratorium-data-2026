@@ -128,6 +128,7 @@ Exit: accepted pilot report and separately authorized bounded collection scope.
 - [x] Finish and mechanically audit all 333 distributed `gpt-6.1-terra` queue jobs, with zero running/queued jobs and hashed terminal execution receipt (`work/audit/distributed-queue-terminal-2026-11-05.json`). This records returns for 1,283 assigned local and 434 assigned state-policy IDs; it does not complete substantive review or legal-force verification.
 - [ ] Re-research every existing local inventory ID and publish confirmed/changed/unresolved/not-attempted freshness accounting.
 - [ ] Re-research every state-policy ID and discover new state actions across all 50 states and existing sectors.
+- [x] Review six California enactments and SB 57’s final wording, and add missing AB 2469 using Exa, pydoll and chaptered text (`work/research/2026-11-06/ca-policy-wave1/README.md`); six other assigned California rows and current implementation remain open.
 - [x] Apply three bounded Missouri policy corrections with independently recovered primary sources (`work/research/2026-11-06/mo-policy-wave1/README.md`); all seven assigned disposition/current-force reviews remain open.
 - [ ] Search new local instruments across all 50 states/sectors and document actual jurisdiction/time coverage.
 - [x] Receive and mechanically audit all 50 state-discovery returns: five sector labels and schema-valid answers per state, 185 local proposals pending substantive review (`work/audit/state-discovery-returns-2026-11-05.json`). This does not close the preceding coverage task.

@@ -1,0 +1,54 @@
+{
+  "fresh_enactment_checks": [
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260AB1577",
+      "attempt_id": "f3c6ea2845cc48018996682901cc4a4a",
+      "body_sha256": "f1c3051c8f30e35b123dfafa30e9de0bc0dc0399d11088b4b72435224f46c3ed",
+      "text_sha256": "9166555f7067683d10fb109a441ef97ca753fa790a1d194397141403ecc81c22",
+      "first_history_action": "09/21/26 Chaptered by Secretary of State - Chapter 434, Statutes of 2026."
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260SB886",
+      "attempt_id": "1f63e1f29bcb4b9ea6001ba100b7a61b",
+      "body_sha256": "6042eaebb7567da2c79fe30e829737df437b72ee6dce9f9a1eb577ee2cbf9a97",
+      "text_sha256": "926eb8d7548f1b684a1eced89c3cb4a5e647c432cf5a1f42d6340a4ce364d2b9",
+      "first_history_action": "09/21/26 Chaptered by Secretary of State. Chapter 438, Statutes of 2026."
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260SB1168",
+      "attempt_id": "150dc0514a54403faad2b4eed053f4b6",
+      "body_sha256": "d06457aee1bced3edc9a4fd3249b900c92ddbff40a8717707d0697ba1aeaa147",
+      "text_sha256": "f53f56e5a3d23834e1c8d29872c6d92bd3e528f6a0d341d47103236939ee6053",
+      "first_history_action": "09/21/26 Chaptered by Secretary of State. Chapter 440, Statutes of 2026."
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260SB887",
+      "attempt_id": "ba846881aead4ba986de7679cbe23b95",
+      "body_sha256": "a38576a8fcf4bfd2eb025f3a7e60738a74c846638df4ee23cbffc5ea96634b13",
+      "text_sha256": "f51e070cfdd6e03829476551572e329dcf168bdd374f634731e4140199687d8e",
+      "first_history_action": "09/21/26 Chaptered by Secretary of State. Chapter 439, Statutes of 2026."
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260AB2383",
+      "attempt_id": "821c820dd384484c94c3cf8aec53a64f",
+      "body_sha256": "3b5a4cbe355de85b5629bdc51e75a09c7af273136c438535ee584669d378a19b",
+      "text_sha256": "d282cc036979f5957c30c808af12d70650ba4a464380820d7bf993ec72e30887",
+      "first_history_action": "09/21/26 Chaptered by Secretary of State - Chapter 435, Statutes of 2026."
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260AB2619",
+      "attempt_id": "8e831ce0b80b4981bfb2478af80127b0",
+      "body_sha256": "c17c26f8bb74dfc178ff56aa284a1a0ddb0cc4c2416ed6a796412674c7ebb944",
+      "text_sha256": "4f903fcbede67ead4d32ca06a0ebbfc764c33db8ee1230c719cb429f86436d0a",
+      "first_history_action": "09/21/26 Chaptered by Secretary of State - Chapter 437, Statutes of 2026."
+    }
+  ],
+  "build_command": "make data site check PYTHON=.venv/bin/python TODAY=2026-11-05",
+  "build_exit_code": 0,
+  "build_log_sha256": "0a501edb27a25f717a15a2c5daa4c438ed1f48804dc534edbdeeda8887e8df0e",
+  "validation_errors": 0,
+  "validation_warnings": 282,
+  "documented_numbers_checked": 49,
+  "replay": "Dry run: zero field changes, one existing new-bill duplicate safely skipped",
+  "scope": "Validation confirms structural/publication/count consistency; does not complete substantive current-force review."
+}
