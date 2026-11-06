@@ -6,7 +6,7 @@ moratorium grain and exclusion of permanent bans remain unchanged. A successful
 validation is structural consistency, not proof of legal effect, source accuracy,
 identity, completeness, or permission to publish. An initial [reviewed snapshot writer](expanded-promotion.md) now supplies separate
 identity, evidence, field-review and atomic-publication gates; reviewed canonical
-records include Eliot, Sabattus and Canterbury, with explicit result supersession. See the
+records include Eliot, Sabattus, Canterbury and Nottingham, with explicit result supersession. See the
 [generated results view](ballot-results.md). Identity decisions have a separate
 [append-only registry](expanded-identity-registry.md).
 

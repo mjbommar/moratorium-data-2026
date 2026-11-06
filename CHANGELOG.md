@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Nottingham’s September 8 ballot adds a fourth reviewed expanded measure, with proposed twelve-calendar-month/adoption terms, conditional exclusions and town-posted 1,335 yes / 143 no. The marked document retains a SAMPLE BALLOT heading; certification, outcome and operative legal force remain unresolved. Planning Board proposal signatures are not voter-adoption execution. Legacy counts are unchanged.
+
 Canterbury’s March 10 Article 4 adds a third reviewed expanded-data measure: a proposed permanent zoning prohibition with town-posted 322 yes / 63 no. Certification, passage outcome and operative legal effect remain unresolved; no legacy moratorium count changes. Earlier canonical records and result history remain intact.
 
 Hobart’s signed, clerk-certified Ordinance 2026-07 confirms a twelve-month or earlier-regulation term and possible six-month extension; actual publication and later force remain unresolved. Wisconsin accounting reconciles all 40 existing IDs: 22 bounded corrections applied, Hampden’s conflicting instrument identity deferred and 17 other returns awaiting disposition. No complete current-force history is asserted.

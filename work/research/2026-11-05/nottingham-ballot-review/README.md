@@ -43,6 +43,7 @@ at 140 DPI; this is scoped visual review, not full-document extraction coverage.
 
 `review.json` verifies both retained body/text hashes against the acquisition
 ledger and pins four reviewed image hashes. Raw sources/renders remain private.
-This packet does not promote an expanded record, change an inventory row or
-add to an active-moratorium tally. Certification, legal passage, operative dates,
+This source-review packet itself does not promote an expanded record or change
+an active-moratorium tally. The subsequent [promotion packet](../nottingham-promotion/README.md)
+records scoped canonical publication without a new legacy inventory row. Certification, legal passage, operative dates,
 later amendments/repeal and the legacy-instrument link remain unresolved.

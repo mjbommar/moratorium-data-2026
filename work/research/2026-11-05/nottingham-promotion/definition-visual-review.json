@@ -1,0 +1,40 @@
+{
+  "job_id": "ballot-nh-001",
+  "claim_id": "b221c268-a68b-45fc-9bd3-86dbedc68844",
+  "claim_sha256": "4cf020dcc80cd406293d5122f30f3dc6534ec6eb280d2ae6c5734d527a024cbd",
+  "source_document_id": "fe8eb837-9875-4e61-b77d-c5959ad603b9",
+  "source_body_sha256": "6a68684c195468a9af053675799e98393cdcb70efdf63ddc242138ff1df02b10",
+  "render_sha256": "c8b19092a69921a61ef5291b14d8a4ad555a8bd1b2288a66058b54fe88e28476",
+  "pdf_page": 2,
+  "render_parameters": {
+    "renderer": "pdftoppm",
+    "page": 2,
+    "dpi": 160
+  },
+  "reviewer": "coordinator",
+  "reviewed_at": "2026-11-06T01:37:41.007062+00:00",
+  "disposition": "accepted_visual_values",
+  "values": {
+    "covered_uses": [
+      "data centers"
+    ],
+    "thresholds": [
+      {
+        "operator": "le",
+        "value": 25,
+        "unit": "percent of gross floor area",
+        "measurement_basis": "all on-site buildings or portions attributable to computing use",
+        "aggregation_rule": null,
+        "scope": "one of several conditions for embedded or accessory computing exclusion"
+      }
+    ],
+    "exemptions": [
+      "Embedded/accessory computing only when all conditions hold: at most 25% of specified on-site gross floor area; serves on-site owner enterprise functions and not primarily third-party services; no third-party data-service leasing",
+      "Provider-owned/operated telecommunications, broadband, Internet, cable or wireless facilities primarily supporting telecommunications network operations or broadband Internet access"
+    ],
+    "geography": "All zoning districts in Town of Nottingham",
+    "mechanism": "temporary_permitting_pause"
+  },
+  "locator": "Special election marked SAMPLE BALLOT heading/question/counts on page 1, or proposed definition/prohibition on proposal page 2",
+  "scope": "Source transcription only; sample-ballot heading/signatures not accepted as dated result certification or proof of voter enactment."
+}

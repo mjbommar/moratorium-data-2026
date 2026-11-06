@@ -48,6 +48,19 @@ business/institutional and residential accessory-equipment exclusions.
 [Official Canterbury results](https://www.canterburynh.gov/wp-content/uploads/2026/03/Town-Meeting-Election-Results-3_10_26.pdf),
 [official proposed Article 4 text](https://www.canterburynh.gov/wp-content/uploads/2026/02/2026-Warrant-Article-4-Data-Centers.pdf).
 
+Nottingham's September 8, 2026 special-election question proposes a twelve-month
+permitting pause. The town-posted marked document retains a SAMPLE BALLOT
+heading and shows 1,335 yes / 143 no. The derived 1,478 is only yes plus no;
+certification and outcome remain unknown. Proposed text anchors twelve calendar
+months to adoption, with earlier legislative-body repeal. Its embedded/accessory
+computing exclusion requires all three conditions: the specified 25% floor-area
+cap, on-site enterprise service without primarily providing third-party services,
+and no leasing of data services to third parties. Proposal signatures record
+Planning Board support on July 1, not voter enactment. Bindingness, formal referral,
+operative adoption and later legal force remain unresolved.
+[Official Nottingham marked ballot](https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/news/2026_nottingham_special_town_election_results.pdf),
+[official proposed ordinance](https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/news/nottingham_temporary_moratorium_on_data_centers_ordinance_final_signed.pdf).
+
 No current legal-force restriction, instrument event or measure/instrument link has
 been accepted in these initial cohorts, and their publication does not add active
 legacy moratorium rows. Other jurisdictions, earlier and future elections, legal
