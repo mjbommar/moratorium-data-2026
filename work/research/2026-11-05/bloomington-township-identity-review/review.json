@@ -1,0 +1,172 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "reviewer": "coordinator",
+  "seed_id": "bp-97db52aa63a122b1",
+  "scope": "Primary government naming/electorate terms and proposed placement context; no final placement disposition, canonical allocation or legal-effect acceptance",
+  "sources": [
+    {
+      "source_document_id": "bloomington-identity-agenda",
+      "url": "https://bloomingtonil.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12760,plainText=false)",
+      "body_sha256": "ed0bc2ca71027f723f70ff5901d4ed4fa512488ef385d2efea3dfa5b697f9982",
+      "text_sha256": "9b3bfe5e9547064e1b33c66c779941c223fa6e5b8088ada4ac6e52f698ae7f34",
+      "retrieved_at": "2026-11-06T04:42:17.293526+00:00",
+      "attempt_id": "3600a4971e99403689e180389c543add"
+    },
+    {
+      "source_document_id": "bloomington-identity-government-home",
+      "url": "https://www.bloomingtonil.gov/",
+      "body_sha256": "8ce537e3d76c0eff82617996c20040220f9a17d6d7afa5b05d0811a3df9b1180",
+      "text_sha256": "e9e4629187d205efb5a13d40ab1abdb5fd1f79274626f9260dd55f8399e3d6c9",
+      "retrieved_at": "2026-11-06T04:44:23.793495+00:00",
+      "attempt_id": "f33fa9bfaabe4153802192582c63a283"
+    },
+    {
+      "source_document_id": "bloomington-identity-records-portal",
+      "url": "https://bloomingtonil.portal.civicclerk.com/",
+      "body_sha256": "62ff63acb26fb69290731b3debf799d6d9d73476af200646468639eb54d5ad08",
+      "text_sha256": "3b04e06e288b4c9b30d8e190d8b16cefe28f2e9d8b0a2be42abd77cf20f9de4e",
+      "retrieved_at": "2026-11-06T04:45:10.803539+00:00",
+      "attempt_id": "4a74d2124425412cae58bba14ba626db"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "bloomington-identity-review-01",
+      "source_document_id": "bloomington-identity-agenda",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-97db52aa63a122b1"
+      },
+      "predicate": "primary_government_identity_terms",
+      "value": {
+        "agenda_body": "Town of the City of Bloomington",
+        "intended_electorate": "City of Bloomington Township",
+        "government_type": "township",
+        "county": "McLean",
+        "state": "IL"
+      },
+      "quote": null,
+      "span": "pdf-page:1"
+    },
+    {
+      "claim_id": "bloomington-identity-review-02",
+      "source_document_id": "bloomington-identity-agenda",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-97db52aa63a122b1"
+      },
+      "predicate": "scheduled_special_town_meeting",
+      "value": "2026-06-01 18:00, source timezone not explicit",
+      "quote": "Monday, June 1, 2026 - 6:00 PM",
+      "span": "utf8-text-codepoints:226:256"
+    },
+    {
+      "claim_id": "bloomington-identity-review-03",
+      "source_document_id": "bloomington-identity-agenda",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-97db52aa63a122b1"
+      },
+      "predicate": "proposed_ballot_placement",
+      "value": {
+        "classification": "advisory public policy questions",
+        "intended_electorate": "City of Bloomington Township",
+        "intended_election": "2026-11-03",
+        "motion_disposition": "unverified"
+      },
+      "quote": "Shall the following advisory questions of public policy be placed on the ballot for\n     submission to the voters in the City of Bloomington Township in McLean County, in the\n     State of Illinois, for the November 3, 2026, election:",
+      "span": "utf8-text-codepoints:635:869"
+    },
+    {
+      "claim_id": "bloomington-identity-review-04",
+      "source_document_id": "bloomington-identity-agenda",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-97db52aa63a122b1"
+      },
+      "predicate": "proposed_wording",
+      "value": "Should the City of Bloomington implement a moratorium on the creation of any large-scale data centers?",
+      "quote": "C.    Should the City of Bloomington implement a moratorium on the creation of any\n           large-scale data centers?",
+      "span": "utf8-text-codepoints:1235:1354"
+    },
+    {
+      "claim_id": "bloomington-identity-review-05",
+      "source_document_id": "bloomington-identity-records-portal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-97db52aa63a122b1"
+      },
+      "predicate": "listed_government_body",
+      "value": "City of Bloomington Township Board of Trustees",
+      "quote": "City of Bloomington Township Board of Trustees",
+      "span": "utf8-text-codepoints:3794:3840"
+    },
+    {
+      "claim_id": "bloomington-identity-review-06",
+      "source_document_id": "bloomington-identity-government-home",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-97db52aa63a122b1"
+      },
+      "predicate": "official_records_portal_reference",
+      "value": "https://bloomingtonil.portal.civicclerk.com/",
+      "quote": "Board Portal",
+      "span": "utf8-text-codepoints:1180:1192"
+    }
+  ],
+  "visual_reviews": {
+    "bloomington-identity-review-01": {
+      "claim_id": "bloomington-identity-review-01",
+      "source_document_id": "bloomington-identity-agenda",
+      "claim_sha256": "699a2e878269f9b8f09c859597f142b3fd1f46aed0df936de6e1f0724f3b3fec",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "agenda_body": "Town of the City of Bloomington",
+        "intended_electorate": "City of Bloomington Township",
+        "government_type": "township",
+        "county": "McLean",
+        "state": "IL"
+      },
+      "source_body_sha256": "ed0bc2ca71027f723f70ff5901d4ed4fa512488ef385d2efea3dfa5b697f9982",
+      "pdf_page": 1,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 1,
+        "dpi": 150
+      },
+      "render_sha256": "701cf4da854266fce125ec36b885f1f045a245f34652b9974028e06e4e62e84a"
+    }
+  },
+  "publisher_reference_chain": {
+    "government_home_links_portal": true,
+    "portal_links_same_civicclerk_api_tenant": true,
+    "agenda_url": "https://bloomingtonil.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12760,plainText=false)"
+  },
+  "identity_interpretation": {
+    "primary_name": "City of Bloomington Township",
+    "primary_alternate_name": "Town of the City of Bloomington",
+    "government_type": "township",
+    "addressed_municipal_actor": "City of Bloomington",
+    "administration_role_from_prior_packet": "City of Bloomington Board of Election Commissioners",
+    "city_government_alias_accepted": false,
+    "boundary_equivalence_assumed": false,
+    "canonical_identity_allocated": false
+  },
+  "confirmed_scope": [
+    "Primary agenda explicitly names township voters in McLean County, Illinois for the November 3 election.",
+    "Proposed question matches the actual official specimen wording exactly after layout whitespace/agenda-label removal.",
+    "Portal separately lists City of Bloomington Township Board of Trustees."
+  ],
+  "unresolved": [
+    "Disposition/minutes of June 1 placement motion and actual qualification/certification record.",
+    "Exact statutory placement classification, original petition/certification route and boundary reference.",
+    "Election-result certification, formal outcome, later implementation and current legal force."
+  ],
+  "limits": [
+    "Agenda is not minutes or proof that a motion passed.",
+    "Record-administration, township government and city actor are distinct roles; no automatic city/township merge.",
+    "Only agenda page 1 substantively reviewed; ordered native text from both pages retained.",
+    "Portal reference-chase JavaScript resources are support artifacts, not accepted legal evidence."
+  ]
+}
