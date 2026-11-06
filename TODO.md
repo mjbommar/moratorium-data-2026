@@ -32,7 +32,7 @@ Exit: reproducible baseline manifest with unrelated work preserved.
 - [x] Define threshold units, operators, aggregation, exemptions and measurement basis.
 - [x] Define search/coverage provenance and independently tracked stage-completeness states.
 - [x] Decide authoritative JSONL/snapshot/identity paths and document all fifteen CSV projections plus the current-result view, with pinned generation manifests, unknown-value rules, atomic relative pointers, checked downloads and release inclusion (`docs/expanded-data-contracts.md`, `scripts/build_expanded_csv.py`). This does not close broader pilot review or legal/source migration.
-- [ ] Review schema examples against all pilot cases before implementing import/apply logic.
+- [ ] Review schema examples against all pilot cases before implementing import/apply logic. A retrospective seventeen-case review is now frozen and checked (`pilot-contract-review/`); the original ordering was not met and this does not close the pre-tuning/P4 gate.
 
 Exit: ballot cases fit without conflating votes, legal force or legacy counts.
 
@@ -116,8 +116,8 @@ Exit: every accepted pilot assertion traces to reviewed evidence; unresolved cas
 ## P4 — Pilot and calibration gate
 
 - [ ] Freeze a source-backed pilot and holdout set before prompt tuning.
-- [ ] Review Peru, Wells, Bloomington, Piqua, Grove City, Harwood, Wilmington and El Dorado.
-- [ ] Include earlier/December elections, failed qualification, changed results, mixed polarity and portal failure cases.
+- [x] Review Peru, Wells, Bloomington, Piqua, Grove City, Harwood, Wilmington and El Dorado against their scoped source packets and immutable canonical records. Freeze explicit expectations and unresolved fields rather than treating the plan descriptions as established facts (`work/research/2026-11-06/pilot-contract-review/`). This retrospective review does not close the P4 metrics/holdout gate.
+- [x] Include earlier/December elections, failed qualification, changed results, mixed polarity and portal failure cases in the seventeen-case fixture set. Clarksville retains its conditional/conflicting date; five artificial schema examples are explicitly labeled. No synthetic or unresolved candidate is counted as a canonical election (`pilot-contract-review/`).
 - [ ] Include a council-only adoption/extension and predecessor-pause/replacement-ban history.
 - [ ] Measure discovery recall, false exclusions, primary-source recovery and identity/quote/date/unit accuracy.
 - [ ] Report reviewer disagreement, unresolved facts, extraction completeness and spend per review-ready record.

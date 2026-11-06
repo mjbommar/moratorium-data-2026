@@ -1,0 +1,664 @@
+{
+  "schema_version": "pilot-contract-review-1",
+  "source_commit": "72657b9bd9330fc037f0ea88a35a6104dcaac3df",
+  "snapshot": "data/expanded-snapshots/3b01a2f4d33e79fff6c4b0bd7e463ceabdc65f95e1b7f0af1c4daf61a4722947",
+  "snapshot_sha256": "3b01a2f4d33e79fff6c4b0bd7e463ceabdc65f95e1b7f0af1c4daf61a4722947",
+  "table_sha256": {
+    "measure_results.jsonl": "c25912807fd712849090eb4ba4c1afcfed889d94b9f75d9472a7a092c77171f2",
+    "search_attempts.jsonl": "8c937fb5c240000c8888547cde04e062a0a8a8fd95be802cb61c87b13cb10cd9",
+    "claims.jsonl": "ab457bea46911cadf66f2a8f1f8af4d423ba534cdcc69faa6288c9b3ce6c5f0e",
+    "coverage_observations.jsonl": "e3445cd8461cbfb78ae35a80cffb95dfef631fc902dc3e4fcf82e1ff208031b9",
+    "review_decisions.jsonl": "ae110ed3c161a26e87ede72737717557516462ae2b12dbdd3b41cc1cd2652646",
+    "search_sightings.jsonl": "437b7ee6df59e50ea124439c1160ec56e31ed99fd7e195a490f887da18d83245",
+    "local_restrictions.jsonl": "834e0415e4714a5eb984843be966bf03d012f309d3a13e60b2084a2a3cff5188",
+    "measure_provisions.jsonl": "5a236f5c36ea24503cc2477695bb40aad3021e1f214353dd633c3592e564ab74",
+    "instrument_events.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "measure_instrument_links.jsonl": "e22daf9243548a4a1e0eb4fd685b0265b12436741ec764d0d20475a17451da4e",
+    "jurisdictions.jsonl": "03d5c37c757ccdb64c7a7b8f02ddb1d997f711dad1d626c225a35d3f4990636e",
+    "search_runs.jsonl": "229d89b883839612068c281fb5c4607bece6ff95bd92f6e466b120008aeaf6a3",
+    "source_documents.jsonl": "cfcd3f6f385cf6e93ac5265a437b5f8381120ff41842f4000543f6ae32c84bd5",
+    "ballot_measures.jsonl": "e72d086c9493ad6540e70f27506efdeb0d3c63905826704331d195463c0fbc10",
+    "elections.jsonl": "382419076fae6d0de4526f9055359bbbb14ddd8a4c58db9606d00b1c7a839676"
+  },
+  "schema_sha256": "12993c58309ce10c5c7d11ac27c384c0009e343952fecafb867c26118be94d97",
+  "chronology": "Retrospective contract review after prior tuning/publication. Not an independent unseen holdout or pre-bulk quality gate; those requirements remain open.",
+  "cases": [
+    {
+      "case_id": "amended-certification",
+      "kind": "synthetic_schema_example",
+      "fixture": "work/research/2026-11-06/pilot-contract-review/synthetic/amended-certification",
+      "fixture_sha256": {
+        "measure_results.jsonl": "44001305d124f0bcb8405a3a72b0f8117c44eeddc28efb9d0f1ce6d3f8a65ba5",
+        "jurisdictions.jsonl": "7974e3e085cac0ca52f1b739d0105032c5c06c63dc3c59344bc1d393a128a799",
+        "source_documents.jsonl": "322b8b1f7f56f78938a07d7384812e65cb99f76059f2d1252bcae9bd1dfbeb02",
+        "ballot_measures.jsonl": "d793b177b61ea43223b4c1288f8e9449ce017f7ad1d11c0f5b1b51e159461ba2",
+        "elections.jsonl": "bf136f4c42d69e338a341a29a8a4440ee99ba354e81fbbec76b06fa99cde0f57"
+      },
+      "records": {},
+      "evidence_files": [],
+      "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted.",
+      "assertions": []
+    },
+    {
+      "case_id": "bloomington",
+      "kind": "source_backed_snapshot",
+      "records": {
+        "jurisdictions": {
+          "c1da6b54-13d9-459c-8bb9-44e43fd90ecd": "4f6da9f786a48b370aece1aa74ee2e37c93841bf8f0554a8aedb2d2bdffc166c"
+        },
+        "elections": {
+          "de671fe9-8379-42f4-9bb0-823b3a20308f": "69f062b67d23e48e5b37d48a9eb77a092d75bdd887b9459d4afbb677ef6e6d2e"
+        },
+        "ballot_measures": {
+          "d3007aed-4bb9-47c7-a959-97ccc9d6004e": "a0138a58bb2a04365099b783395a5b566a7ff29dc7c717dc4a9c03c1c9223e27"
+        },
+        "measure_provisions": {
+          "f6a0b566-7810-4157-acbc-3d8f911db1b1": "156a841ac5bbf412df65f09d0f8df6796ce1df72a56552a0bcfb0fb5e2f02cd8"
+        },
+        "measure_results": {
+          "e888c420-a9f5-43f3-a6b3-2a5b60bf976f": "b9dce225a75fb8e0ae88f3bacab0ff60b0c27302214e29f8129604607bd393f4"
+        }
+      },
+      "evidence_files": [
+        {
+          "path": "work/research/2026-11-05/bloomington-township-identity-review/review.json",
+          "sha256": "a4d785d36e3d783284823fbfcea6f3d10de58fc1b1ac44e26e3bd77b138ed385"
+        },
+        {
+          "path": "work/research/2026-11-05/illinois-remaining-ballot-review/review.json",
+          "sha256": "586aeac4382cf346362794ac5aa45a8b70ffad5203027cb215af993e2fedf661"
+        }
+      ],
+      "limits": "Township electorate and advisory sentiment are distinct from city actor and operative law. Placement/qualification disposition and boundary source remain incomplete.",
+      "assertions": [
+        {
+          "table": "ballot_measures",
+          "id": "d3007aed-4bb9-47c7-a959-97ccc9d6004e",
+          "path": [
+            "bindingness"
+          ],
+          "equals": "advisory"
+        },
+        {
+          "table": "measure_results",
+          "id": "e888c420-a9f5-43f3-a6b3-2a5b60bf976f",
+          "path": [
+            "calculated_outcome"
+          ],
+          "equals": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "council-only",
+      "kind": "source_review_only",
+      "records": {},
+      "evidence_files": [
+        {
+          "path": "work/research/2026-11-06/seattle-identity-review/review.json",
+          "sha256": "bc88f1003930724f0b0269dde61ac0df57c55633af33770470ceb64beaf12716"
+        },
+        {
+          "path": "work/research/2026-11-06/seattle-identity-review/retirement-validation.json",
+          "sha256": "1c856cbb6f2a2c26779792cfd4fb5c6422665d4b6f0989aa3623747af65d371d"
+        }
+      ],
+      "limits": "Seattle original council adoption is distinct from mayoral approval and current force; duplicate ID resolves to one instrument. No ballot inferred.",
+      "assertions": []
+    },
+    {
+      "case_id": "december-pending",
+      "kind": "source_review_only",
+      "records": {},
+      "evidence_files": [
+        {
+          "path": "work/research/2026-11-05/clarksville-ballot-review/review.json",
+          "sha256": "90c60e18a6fb8633b21eb249bf61b3356486df5ad4e2e159877becc9d1ff8476"
+        },
+        {
+          "path": "work/research/2026-11-06/arkansas-ballot-primary-review/preliminary-review.json",
+          "sha256": "21701e166a31b85177985801fddd6af60edd9b1dd75c36ac9e408a239be8dc56"
+        }
+      ],
+      "limits": "Clarksville financing calls are distinct; December date remains conditional/conflicting. No canonical November result or accepted final December date.",
+      "assertions": []
+    },
+    {
+      "case_id": "december-shape",
+      "kind": "synthetic_schema_example",
+      "fixture": "work/research/2026-11-06/pilot-contract-review/synthetic/december-shape",
+      "fixture_sha256": {
+        "measure_results.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "jurisdictions.jsonl": "7974e3e085cac0ca52f1b739d0105032c5c06c63dc3c59344bc1d393a128a799",
+        "source_documents.jsonl": "322b8b1f7f56f78938a07d7384812e65cb99f76059f2d1252bcae9bd1dfbeb02",
+        "ballot_measures.jsonl": "4308397671b75a7c53d88a8b819c624737022fd91e24078346e5fd5df7b536bd",
+        "elections.jsonl": "99c4ed25afe5ce125632b1fd5769bf6aa357457b0527d947efe7324a7ef1d95e"
+      },
+      "records": {},
+      "evidence_files": [],
+      "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted.",
+      "assertions": []
+    },
+    {
+      "case_id": "earlier-election",
+      "kind": "source_backed_snapshot",
+      "records": {
+        "jurisdictions": {
+          "5a7dc369-67fa-408d-b1f5-c6737198e116": "8c524b4a5ee1e34ec852c881d38d099ed95f71c72eaecdc122a23191836bffe8"
+        },
+        "elections": {
+          "dd0da449-1c45-4017-9ae7-859ff9ceddcf": "e3ebbbbe681d8bde651e73950eb9e891ada13f63aab87fe29f7f5fb3faccfb99"
+        },
+        "ballot_measures": {
+          "5c04c593-949a-430b-88c0-c8e93b4618fd": "4db6d9e7be506b1648547122466fd2580859a732d830a2b333f97c1e5a5dcee5"
+        },
+        "measure_provisions": {
+          "22af8a91-bf02-4e6e-a7d7-171e3a4672ab": "ebaf60a06a503e5f89c98f5c1c1aa376d07e433d47b6e8dc139f41acc6d22a67"
+        },
+        "measure_results": {
+          "2dd57d11-090d-49e7-8509-2f5ac720af97": "2f45128cc00dd750f151ecbf47d58fc369cdf7dd9e88acbb8d88293fb67dc2f2"
+        }
+      },
+      "evidence_files": [
+        {
+          "path": "work/research/2026-11-05/canterbury-ballot-review/review.json",
+          "sha256": "09dcc770c18e7c742c8be4a9489f9d91cccaf736070ea7ae9fc0979409a69ee4"
+        }
+      ],
+      "limits": "Canterbury March10 question stays outside November totals; proposed prohibition does not establish operative law.",
+      "assertions": [
+        {
+          "table": "measure_results",
+          "id": "2dd57d11-090d-49e7-8509-2f5ac720af97",
+          "path": [
+            "calculated_outcome"
+          ],
+          "equals": "unknown"
+        },
+        {
+          "table": "elections",
+          "id": "dd0da449-1c45-4017-9ae7-859ff9ceddcf",
+          "path": [
+            "election_date",
+            "earliest"
+          ],
+          "equals": "2026-03-10"
+        }
+      ]
+    },
+    {
+      "case_id": "el-dorado",
+      "kind": "source_backed_snapshot",
+      "records": {
+        "jurisdictions": {
+          "0ef13278-49a7-44b2-a99a-3e59d6289c1d": "6647f1425d6dbe57b2a096ba0ee3331b9aac98c980073672a777563ade7090ea"
+        },
+        "elections": {
+          "01dad953-5ece-48f6-8d9a-7a3b0c5708d0": "7b44eeff7d1ddc1904c3cf4b6a65ed75e030e4e0fe6748ceae2d5134ae85579f"
+        },
+        "ballot_measures": {
+          "9423728f-58da-4777-8382-85b8ced2c024": "7aa922efedabf94f12bd7f299e53dfef6b0411338a39ae05877e4216da4608db"
+        },
+        "measure_provisions": {
+          "0fbddf4b-726e-4dc0-8736-c491e351fc98": "6e6a0d6b765cc607b5c3802acc13e4a434e507362169e698185d46e015dce926"
+        },
+        "measure_results": {
+          "253b0ab8-a027-4dfd-bf57-7ba22961fd1d": "bd839834e1f586d94fb3a5dacb63238378063b0925deaa1776bfed40856487d4"
+        }
+      },
+      "evidence_files": [
+        {
+          "path": "work/research/2026-11-06/kansas-ballot-review/review.json",
+          "sha256": "0b2c9030f865e641a09222ba6245391620109eb3419bb3faf4e88829324dceb9"
+        }
+      ],
+      "limits": "Mixed data-center/BESS scope is not mixed polarity. Ten-year notice differs from unsigned petition; no chosen expiry, current force or single BESS capacity shortcut. Proposed data-center definition explicitly includes cryptocurrency mining; the three-sector classification is supported by that proposal, not solely by the shorter notice.",
+      "assertions": [
+        {
+          "table": "ballot_measures",
+          "id": "9423728f-58da-4777-8382-85b8ced2c024",
+          "path": [
+            "sectors"
+          ],
+          "equals": [
+            "data_center",
+            "battery_storage",
+            "cryptocurrency_mining"
+          ]
+        },
+        {
+          "table": "measure_provisions",
+          "id": "0fbddf4b-726e-4dc0-8736-c491e351fc98",
+          "path": [
+            "duration"
+          ],
+          "equals": null
+        },
+        {
+          "table": "measure_results",
+          "id": "253b0ab8-a027-4dfd-bf57-7ba22961fd1d",
+          "path": [
+            "calculated_outcome"
+          ],
+          "equals": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "failed-qualification",
+      "kind": "synthetic_schema_example",
+      "fixture": "work/research/2026-11-06/pilot-contract-review/synthetic/failed-qualification",
+      "fixture_sha256": {
+        "measure_results.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "jurisdictions.jsonl": "7974e3e085cac0ca52f1b739d0105032c5c06c63dc3c59344bc1d393a128a799",
+        "source_documents.jsonl": "322b8b1f7f56f78938a07d7384812e65cb99f76059f2d1252bcae9bd1dfbeb02",
+        "ballot_measures.jsonl": "eb2b5f690aa8af3d5956bddb6854314f0c46306148b9cc7d13e1d756d51c9939",
+        "elections.jsonl": "bf136f4c42d69e338a341a29a8a4440ee99ba354e81fbbec76b06fa99cde0f57"
+      },
+      "records": {},
+      "evidence_files": [],
+      "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted.",
+      "assertions": []
+    },
+    {
+      "case_id": "grove-city",
+      "kind": "source_backed_snapshot",
+      "records": {
+        "jurisdictions": {
+          "1ad6161f-2212-4c8d-a6cc-f4645d280bc9": "3820ad64a91bac1be95744206a4bd48ae5f533d7cee873dbcee77e1b1a670975"
+        },
+        "elections": {
+          "8cc6ecf9-bf0c-4b88-bea6-6265a2127255": "9dab2cbbd2bb0ca377833b3ad5bd8433bd1ae29fb809042b7fa9689a31f9d7d6"
+        },
+        "ballot_measures": {
+          "8d5e74e3-2f82-43b2-98c9-fc844a630bf3": "b37f86fb7e83d32e6158eb123f5dbd262a6a2a02529beeb240ae1948a6fb70d3"
+        },
+        "measure_provisions": {
+          "eb2150df-4e2b-47c8-9e31-22087e3f9764": "3b4ac6aa3b6423f430dec55382a2243320b2ae24b9708e5ce42537eadf0ce7e4"
+        },
+        "measure_results": {
+          "3f70dc06-234d-42a5-9363-7315d6b08995": "af0b7caef83bf6201a421cc0a484db342821fb54b52424c01c524bf4fc880cb5"
+        }
+      },
+      "evidence_files": [
+        {
+          "path": "work/research/2026-11-06/ohio-ballot-wave5-review/review.json",
+          "sha256": "227b388ca3cf229d2c7e66226430cc6db0ad88103831f89acdfa79e33a77565d"
+        }
+      ],
+      "limits": "Binding describes the proposed voter-approval mechanism, not current law. Alternative thresholds, aggregation, expansion-version conflict and future-project passage rule remain distinct from amendment passage.",
+      "assertions": [
+        {
+          "table": "ballot_measures",
+          "id": "8d5e74e3-2f82-43b2-98c9-fc844a630bf3",
+          "path": [
+            "bindingness"
+          ],
+          "equals": "binding"
+        },
+        {
+          "table": "measure_results",
+          "id": "3f70dc06-234d-42a5-9363-7315d6b08995",
+          "path": [
+            "calculated_outcome"
+          ],
+          "equals": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "harwood",
+      "kind": "source_backed_snapshot",
+      "records": {
+        "jurisdictions": {
+          "140c2ebb-52f0-4404-adcd-6d877077edb9": "3a5af31116f12a94149ab07b6b27584e92e48a9ca2ae60f778ab07c7ee0b3501"
+        },
+        "elections": {
+          "6a6bae7a-0289-4e4b-ba73-4ad15fd4216d": "46113da58484daa3583b07f24b6a213b30ecf7825c3ce2f13719965e0f2cae02"
+        },
+        "ballot_measures": {
+          "c090f5d2-9808-47f2-a893-2cfb434abd20": "75408ee4da1615501bd74d0193a788ee520ccfaf8846503a3ae4f35ee9f08c4f"
+        },
+        "measure_provisions": {
+          "a83cfd23-a651-4651-b50a-11eeea110be1": "b11454071eca69ee6afb5029c76fdf82331f3eb29bfcb33ad2c4dfb25a132449"
+        },
+        "measure_results": {
+          "c7bdd365-a963-4fcd-a7c2-a8ae3cf69868": "1e5bad5b17d8ef163e12277c11db600b3116df137fa5b869f1ccaa6919bb8fab"
+        }
+      },
+      "evidence_files": [
+        {
+          "path": "work/research/2026-11-06/north-dakota-ballot-primary-review/review.json",
+          "sha256": "22afc8a16d54ae489d0459993261f8e5a7182792265b2b6e3ac54b6d71d7ecc5"
+        }
+      ],
+      "limits": "Counts favor no, but exact formal passage/outcome, polarity and operative legal effect are unresolved. Defeat must not be translated into a permit or project approval.",
+      "assertions": [
+        {
+          "table": "ballot_measures",
+          "id": "c090f5d2-9808-47f2-a893-2cfb434abd20",
+          "path": [
+            "bindingness"
+          ],
+          "equals": "unresolved"
+        },
+        {
+          "table": "measure_results",
+          "id": "c7bdd365-a963-4fcd-a7c2-a8ae3cf69868",
+          "path": [
+            "calculated_outcome"
+          ],
+          "equals": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "mixed-polarity",
+      "kind": "synthetic_schema_example",
+      "fixture": "work/research/2026-11-06/pilot-contract-review/synthetic/mixed-polarity",
+      "fixture_sha256": {
+        "measure_results.jsonl": "d0375fde71bf0584e8f48ea7d5ecaae6dc5c95710dbf0f12aa73701b8fad77a3",
+        "jurisdictions.jsonl": "7974e3e085cac0ca52f1b739d0105032c5c06c63dc3c59344bc1d393a128a799",
+        "source_documents.jsonl": "322b8b1f7f56f78938a07d7384812e65cb99f76059f2d1252bcae9bd1dfbeb02",
+        "ballot_measures.jsonl": "4386aa0110421509e47f307cabaec36d99306683b623b3f3e74f35b704cb1ba4",
+        "elections.jsonl": "bf136f4c42d69e338a341a29a8a4440ee99ba354e81fbbec76b06fa99cde0f57"
+      },
+      "records": {},
+      "evidence_files": [],
+      "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted.",
+      "assertions": []
+    },
+    {
+      "case_id": "peru",
+      "kind": "source_backed_snapshot",
+      "records": {
+        "jurisdictions": {
+          "15e404ff-94e2-466e-a23f-49387468e3d8": "14514bad0a6ff6b45c708961c70190d9d4edd82c5520f7db057c8a83da5fcb4f"
+        },
+        "elections": {
+          "1362ad74-e994-4339-9be0-62c4f21da549": "3d63138d87cca45e320983227a5d7ebfb0cec975c308f715cb38dfc7b9c77914"
+        },
+        "ballot_measures": {
+          "d4890c43-19ab-42e2-97bb-f2b35bcb66cc": "43ccc481a805a9d44814fa75240d4ca04ce4bbae31a4e4e7e71a8c65a0f13956"
+        },
+        "measure_provisions": {
+          "c6849155-5e3f-45cc-8be3-20eaa7916028": "716ed35ca2f87c4ca57582a8c4aef290143b7e00a46d1e288351967ee4c84664"
+        },
+        "measure_results": {
+          "d2e9dff3-6981-4f0b-acef-4a5d72173d6d": "c7490d452fea5e34eaf2b754bef6748f56b68d5f4d2e6166a6d4a71f280f5fe2"
+        }
+      },
+      "evidence_files": [
+        {
+          "path": "work/research/2026-11-05/peru-ballot-review/review.json",
+          "sha256": "d8840821e65500d9e5de9042c06e7890a6798d68dbb6b18b463c25ffaccac910"
+        },
+        {
+          "path": "work/research/2026-11-05/peru-native-image-review/verification.json",
+          "sha256": "5adc90de05a71e95c2b939ad2e1548181a7311fee273ffe481c7d4e319bd0970"
+        }
+      ],
+      "limits": "Plan description says binding voter-adopted pause. Current reviewed proposal and tally do not establish bindingness, polarity, passage or effective date; those remain unresolved.",
+      "assertions": [
+        {
+          "table": "ballot_measures",
+          "id": "d4890c43-19ab-42e2-97bb-f2b35bcb66cc",
+          "path": [
+            "bindingness"
+          ],
+          "equals": "unresolved"
+        },
+        {
+          "table": "measure_results",
+          "id": "d2e9dff3-6981-4f0b-acef-4a5d72173d6d",
+          "path": [
+            "calculated_outcome"
+          ],
+          "equals": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "piqua",
+      "kind": "source_backed_snapshot",
+      "records": {
+        "jurisdictions": {
+          "6c94e4d4-cf98-4a44-9137-9b6577a85581": "6fa7f261b6902a295733deb904aef9babb0d83b56be96c100d15a26b52c7a485"
+        },
+        "elections": {
+          "50c74b1d-a461-4586-bded-7934b570cc44": "b6848b81f0eb029f3a2a23f8397e06ef924ba797e6c3321e0b02c2f646623051"
+        },
+        "ballot_measures": {
+          "41e0e550-2b59-496b-832f-3bea57d9017c": "76215a6f8dc448d0d649d5b9735c042b4a32cd88c12f6960cfaeef7990702219"
+        },
+        "measure_provisions": {
+          "eb8267b7-0580-4c0e-ae3f-c13f5504c107": "a76b76a6017a4f80bdacb8d8327ad2ff976a08ab8f7f245aaef712f725c3eb97"
+        },
+        "measure_results": {
+          "8b10cd93-b582-4843-ad5f-40f34bd7d9c0": "5f4967b75fc58d3655914137aa99a06c70c3c25f288d811d09abc41ca18baa51"
+        }
+      },
+      "evidence_files": [
+        {
+          "path": "work/research/2026-11-06/ohio-ballot-wave3-review/review.json",
+          "sha256": "e1b5edf0f9699a54f01917007759425fa253f1fe13b5a722919691f5407f3cc3"
+        }
+      ],
+      "limits": "Official named contest and counts are retained; complete primary charter wording, yes direction, predecessor relationship and current law remain unresolved.",
+      "assertions": [
+        {
+          "table": "ballot_measures",
+          "id": "41e0e550-2b59-496b-832f-3bea57d9017c",
+          "path": [
+            "bindingness"
+          ],
+          "equals": "unresolved"
+        },
+        {
+          "table": "measure_results",
+          "id": "8b10cd93-b582-4843-ad5f-40f34bd7d9c0",
+          "path": [
+            "calculated_outcome"
+          ],
+          "equals": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "portal-failure",
+      "kind": "source_review_only",
+      "records": {},
+      "evidence_files": [
+        {
+          "path": "work/research/2026-11-06/ohio-ballot-wave3-review/review.json",
+          "sha256": "e1b5edf0f9699a54f01917007759425fa253f1fe13b5a722919691f5407f3cc3"
+        },
+        {
+          "path": "work/research/2026-11-06/ohio-ballot-wave3-review/retrievals.json",
+          "sha256": "ebcdd6c2ca58117b9a4ac0ff46b1abea122138b1d75d58855d1b046633ac435e"
+        }
+      ],
+      "limits": "Unselected Miami ballot form and Lucas 403 challenge are acquisition gaps, not absence of an official record.",
+      "assertions": []
+    },
+    {
+      "case_id": "predecessor-replacement",
+      "kind": "synthetic_schema_example",
+      "fixture": "work/research/2026-11-06/pilot-contract-review/synthetic/predecessor-replacement",
+      "fixture_sha256": {
+        "measure_results.jsonl": "30773b3d13a74a68a621156bb5805fe3c6fbe0ec9e283b659f3bc8552a1278a6",
+        "local_restrictions.jsonl": "29368a72a30ea5c04cbb9fc3e6d81052e3a166ff627d09ec79f1f0663d40c532",
+        "instrument_events.jsonl": "84fc0300337e32d5ba1df2623842db29f97ec697c060d4f988cd4b6c413cf898",
+        "jurisdictions.jsonl": "7974e3e085cac0ca52f1b739d0105032c5c06c63dc3c59344bc1d393a128a799",
+        "source_documents.jsonl": "322b8b1f7f56f78938a07d7384812e65cb99f76059f2d1252bcae9bd1dfbeb02",
+        "ballot_measures.jsonl": "55a01c61d365ad027833b24e789ce140ae758dcafcd7259b7bb58a047361ead1",
+        "elections.jsonl": "bf136f4c42d69e338a341a29a8a4440ee99ba354e81fbbec76b06fa99cde0f57",
+        "legacy.csv": "40d9f5b8576ed334b612b852b11b791605b8ddeb127114127249e80dde9c011b"
+      },
+      "records": {},
+      "evidence_files": [],
+      "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted.",
+      "assertions": []
+    },
+    {
+      "case_id": "wells",
+      "kind": "source_backed_snapshot",
+      "records": {
+        "jurisdictions": {
+          "cafcd714-bd42-40fb-9fd1-95c96b7dd933": "c3d0b76b510f997627ca7624aef9a4cddb4e9458abf2fa831b1a84e5d25fd469"
+        },
+        "elections": {
+          "1dd3daaa-7102-4912-9cf3-bb9121010f88": "c164eae69218a526bece9e910d3d478c640b2287099f1ad646c8ee40760b1522"
+        },
+        "ballot_measures": {
+          "b206b112-17bd-49ce-94c8-70d39807e53f": "1e77066e6c454dddbc357bc1b19dc4a6659b5651a901e9c58f3a8e6a0f932354"
+        },
+        "measure_provisions": {
+          "a7ca3623-5cc3-485d-abda-542a3d602f02": "51b4999f53ee924ea434c869ca55db7c1559ed2658ae9a2384a1bcf054701727"
+        },
+        "measure_results": {
+          "80c3ce90-631b-4a57-8dfb-b7d5d4306bee": "2b6178889431c1682799fb61a2a1dc23a0c4bd77d21f5b093e90b6bfda9c6430"
+        }
+      },
+      "evidence_files": [
+        {
+          "path": "work/research/2026-11-05/wells-ballot-review/review.json",
+          "sha256": "e00210180b73dfcb4c72e66bc1b7707f7ee1e2afd2d384d5af64155e0b871c3c"
+        }
+      ],
+      "limits": "Certified counts do not establish enactment. Proposed 180-day term anchors to June16 applicability, not election; defined area and retroactivity retain separate evidence.",
+      "assertions": [
+        {
+          "table": "measure_provisions",
+          "id": "a7ca3623-5cc3-485d-abda-542a3d602f02",
+          "path": [
+            "duration",
+            "anchor"
+          ],
+          "equals": "applicability_date"
+        },
+        {
+          "table": "measure_provisions",
+          "id": "a7ca3623-5cc3-485d-abda-542a3d602f02",
+          "path": [
+            "duration",
+            "anchor_date",
+            "earliest"
+          ],
+          "equals": "2026-06-16"
+        },
+        {
+          "table": "measure_results",
+          "id": "80c3ce90-631b-4a57-8dfb-b7d5d4306bee",
+          "path": [
+            "certification_status"
+          ],
+          "equals": "certified"
+        },
+        {
+          "table": "measure_results",
+          "id": "80c3ce90-631b-4a57-8dfb-b7d5d4306bee",
+          "path": [
+            "calculated_outcome"
+          ],
+          "equals": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "wilmington",
+      "kind": "source_backed_snapshot",
+      "records": {
+        "ballot_measures": {
+          "812715e9-2216-4bbf-8b69-a9d6cbd8e7ec": "eed2c033945beb175cdc1c08fb68d9d68c6af44d867719f9e242b69fbfc4c808",
+          "f447f7d9-53fe-49bf-ac3a-dec05cd3a7a0": "30805c8083cae90cd20bca037723bf15872a53087419b11660f73fbdcbbefe9a",
+          "fd0aaef5-9562-4deb-855c-540eec59c62a": "4d32cd91b2401a41c86c83beefe8299f1f1c88cfefcf2c6ff254d3f2d2e122e0",
+          "febb373a-2ff7-42e5-940a-30c76ed19266": "e068950646c40b3f6ad962a755f97507ad6c34f774383a42901b597a2ae3fbf4"
+        },
+        "measure_provisions": {
+          "4c5498c4-7427-4434-a247-f20c90ac069e": "dcbdb1f1b311705747a566b6fe0d539429a5b14d469309c9e37b95559fb7f979",
+          "0759fa26-47c1-45f9-8c99-0f1dc440f3c4": "58b00a943d6022d6ba185f31e560e8a3b9f566913c760b229148a6632b76e494",
+          "b9e3da6d-3071-4146-a522-45df0694b89f": "f28d4800db368c89c0f6f3cf7adf700cca5439f149f0fc5ebe6ca4f0071ccbcc",
+          "36e8710e-425a-4307-b237-0643d3d9831b": "e27eb584dce137235cd57ae732ce8ebf57e2c693aa5300088d1b211a426b0972"
+        },
+        "measure_results": {
+          "57488dc8-84d2-4f92-8475-626a6eb7c7f1": "c58b59dfaf64caed2cc65d170156e10dbf3f1ea570d95d364bbf21d91a83e6e9",
+          "1795affc-4394-44be-b4f0-e5cfece72f84": "df5193d0e7fa8f0062d60b52e49b7cf5cc73ac959bae7c1f5cd3c697e7f304ca",
+          "7cefa514-8af0-40ce-9c08-4b1796f93324": "be46e2d1877ce15e0eaba90b4b032fbdc25a3cd1f029e841e20e5ed545b7c7d4",
+          "9f21f1e4-244e-4e4c-949f-761a3617bf89": "af5bad82a23eb40be8c6b5e3c9f52340f10cec7d52f667a37d450bfdd36fb780"
+        }
+      },
+      "evidence_files": [
+        {
+          "path": "work/research/2026-11-06/ohio-ballot-wave5-review/review.json",
+          "sha256": "227b388ca3cf229d2c7e66226430cc6db0ad88103831f89acdfa79e33a77565d"
+        },
+        {
+          "path": "work/research/2026-11-06/wilmington-association-review/review.json",
+          "sha256": "f43af931f3cd53ad360a7cf3274e9fdaa610b6540b1148d0714e97bfc7ae62b7"
+        }
+      ],
+      "limits": "Four parcel measures share one city/election. Secondary project context is not a project identity/applicability/approval/cancellation finding.",
+      "assertions": [
+        {
+          "table": "measure_results",
+          "id": "1795affc-4394-44be-b4f0-e5cfece72f84",
+          "path": [
+            "calculated_outcome"
+          ],
+          "equals": "unknown"
+        },
+        {
+          "table": "measure_results",
+          "id": "57488dc8-84d2-4f92-8475-626a6eb7c7f1",
+          "path": [
+            "calculated_outcome"
+          ],
+          "equals": "unknown"
+        },
+        {
+          "table": "measure_results",
+          "id": "7cefa514-8af0-40ce-9c08-4b1796f93324",
+          "path": [
+            "calculated_outcome"
+          ],
+          "equals": "unknown"
+        },
+        {
+          "table": "measure_results",
+          "id": "9f21f1e4-244e-4e4c-949f-761a3617bf89",
+          "path": [
+            "calculated_outcome"
+          ],
+          "equals": "unknown"
+        }
+      ]
+    }
+  ],
+  "legacy_inputs_sha256": {
+    "data/moratorium_inventory.csv": "bc5b2917ef203369af22c980438d6130ac7f326a7f4bc474e77db6e7a9a12ecd",
+    "data/state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038"
+  },
+  "calibration_findings": [
+    {
+      "case_id": "el-dorado",
+      "field": "ballot_measures.sectors",
+      "status": "value_supported_field_evidence_needs_strengthening",
+      "finding": "Current scoped field acceptance cites the shorter notice wording. The explicit cryptocurrency-mining inclusion is in the unsigned proposal definition, not that notice. Located-source verification alone does not establish field-value entailment.",
+      "required_action": "Add a reviewed measure-scoped proposal-definition claim and a superseding sectors field decision before final field-lineage acceptance; preserve current three-sector value and all prior observations."
+    }
+  ],
+  "review_date": "2026-11-06",
+  "legacy_reference_fixtures": {
+    "moratoria": {
+      "path": "work/research/2026-11-06/pilot-contract-review/moratoria-reference-ids.csv",
+      "sha256": "456894ede37166cf4488ce7c217c9a0f15b74291b6cf5e0b2ce644e174d55a05",
+      "scope": "Historical reference IDs only, including retained moratorium aliases; not inventory rows, counts, current status or legal force."
+    },
+    "state_actions": {
+      "path": "work/research/2026-11-06/pilot-contract-review/state_actions-reference-ids.csv",
+      "sha256": "ec19c60682a2bfeca76aed3a8ba0fe6570758f1b1412ea2711c0feb92743ac6d",
+      "scope": "Historical reference IDs only, including retained moratorium aliases; not inventory rows, counts, current status or legal force."
+    }
+  }
+}

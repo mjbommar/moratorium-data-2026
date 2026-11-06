@@ -180,6 +180,9 @@ def validate(directory, moratoria=None, state_actions=None):
             if c and (c['subject'] != {'table':'measure_instrument_links','id':link['link_id']} or not accepted('claims',cid,c['predicate'])): err(w,f'claim {cid} lacks scoped acceptance for this link')
         measure=rows['ballot_measures'].get(link['measure_id'])
         if measure and measure['bindingness']=='advisory' and link['relation'] in ('enacts','upholds'): err(w,'advisory measure cannot itself enact or uphold an instrument')
+        if (measure and link['relation']=='enacts'
+                and measure['lifecycle'] in ('disqualified','withdrawn','canceled')):
+            err(w,'disqualified, withdrawn or canceled measure cannot itself enact an instrument; preserve proposed instruments separately')
     return errors, rows
 
 

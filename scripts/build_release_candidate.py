@@ -39,6 +39,9 @@ def build(destination, revision):
                       'scripts/legacy_moratorium_identity.py', 'scripts/preview_legacy_identity.py',
                       'work/research/2026-11-06/seattle-identity-review/retirement-plan.json',
                       'work/research/2026-11-06/seattle-identity-review/retirement-validation.json'})
+    sector_review = 'work/research/2026-11-06/el-dorado-sector-lineage/'
+    if sector_review+'sector-visual-review.json' in names:
+        exact.update(n for n in names if n.startswith(sector_review))
     selected = sorted(n for n in names if n in exact or n.startswith(('data/expanded-snapshots/', 'data/expanded-csv-snapshots/')))
     assert exact <= set(selected), exact-set(selected)
     manifest = {'schema_version': '1.0.0', 'candidate_status': 'unreleased_preparation',

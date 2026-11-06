@@ -187,6 +187,26 @@ class ExpandedContracts(unittest.TestCase):
         self.assertEqual(self.validate(), [])
         r['calculated_outcome']='defeated'
         self.assertTrue(any('calculated outcome' in e for e in self.validate()))
+
+    def test_failed_qualification_preserves_proposal_without_enacting_it(self):
+        measure=self.tables['ballot_measures'][0]
+        measure.update(bindingness='binding',lifecycle='disqualified')
+        self.tables['measure_results']=[]
+        self.tables['local_restrictions']=[self.restriction()]
+        link={'schema_version':'1.0.0','link_id':'l','measure_id':measure['measure_id'],
+              'instrument':{'kind':'restriction','id':'r'},'relation':'enacts','provision_ids':[],
+              'claim_ids':['c'],'review_status':'accepted'}
+        self.tables['measure_instrument_links']=[link]
+        self.tables['claims']=[self.claim({'table':'measure_instrument_links','id':'l'},'relation')]
+        base={'schema_version':'1.0.0','disposition':'accepted','claim_ids':['c'],'reviewer':'synthetic',
+              'method':'manual','rationale':'Synthetic scoped evidence','decided_at':'2026-11-04T13:00:00Z','supersedes_id':None}
+        self.tables['review_decisions']=[dict(base,decision_id='d1',target={'table':'claims','id':'c'},scope='relation'),
+                                       dict(base,decision_id='d2',target={'table':'measure_instrument_links','id':'l'},scope='enacts')]
+        for lifecycle in ('disqualified','withdrawn','canceled'):
+            measure['lifecycle']=lifecycle
+            self.assertTrue(any('cannot itself enact' in e for e in self.validate()))
+        link['relation']='proposes';self.tables['review_decisions'][1]['scope']='proposes'
+        self.assertEqual(self.validate(),[])
     def test_duplicate_ids_and_missing_foreign_key(self):
         self.tables['jurisdictions'].append(copy.deepcopy(self.tables['jurisdictions'][0]))
         self.tables['elections'][0]['jurisdiction_id']='missing'
