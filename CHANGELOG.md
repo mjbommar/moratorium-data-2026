@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Wells Article 5 adds a seventh reviewed expanded measure with 5,818 yes / 1,282 no / 459 blanks, certified November 4. The warrant’s 100,000-square-foot proposal remains distinct from an incomplete agenda draft; 180 days from June 16 applicability is separate from November enactment/effectiveness. Passage outcome and current legal force remain unresolved; legacy counts are unchanged.
+
 North Berwick Question 2 adds a sixth reviewed expanded measure with clerk-certified 2,114 yes / 582 no on November 3. The proposed permanent prohibition retains its cumulative computing-use/aggregate-area definition, associated impervious surfaces and strict accessory-use exclusion. Passage outcome and operative legal force remain unresolved; legacy moratorium counts are unchanged.
 
 Wiscasset Question 2 adds a fifth reviewed expanded measure with unofficial 1,363 yes / 712 no. Question-specific ballots cast and blanks remain unknown. Proposed six-month enactment terms are separate from November 3 retroactive coverage and conditional 180-day extensions. The duration vocabulary adds an explicit enactment anchor. Certification, outcome and operative force remain unresolved; legacy counts are unchanged.

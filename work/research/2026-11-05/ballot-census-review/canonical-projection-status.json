@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-05",
   "reviewer": "coordinator",
-  "canonical_snapshot": "0cd32c6c14759c5a4171038df2b90048c8234ad30413b277a43e1f80561745c3",
+  "canonical_snapshot": "6b182d661d9311c828ad3f2b5ce456f9f37557ab6c6819f60e255d8dbbb37cca",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 6,
-    "groups_pending_candidate_review": 50
+    "groups_with_scoped_canonical_publication": 7,
+    "groups_pending_candidate_review": 49
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -533,9 +533,11 @@
           "staged_measure_id": "ballot-me-001::bp-c2cb4e0f83c819e9"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "b206b112-17bd-49ce-94c8-70d39807e53f",
+      "publication_plan": "work/research/2026-11-05/wells-promotion/publication-plan.json",
+      "publication_plan_sha256": "804dae3dcee60de0ebe57d62a622f0541f168e1084635a20714d37350c5fe9d4",
+      "canonical_record_sha256": "1e77066e6c454dddbc357bc1b19dc4a6659b5651a901e9c58f3a8e6a0f932354"
     },
     {
       "logical_group_id": "bp-c61db186a09d54b0",

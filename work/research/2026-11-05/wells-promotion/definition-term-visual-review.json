@@ -1,0 +1,45 @@
+{
+  "job_id": "wells-recovery",
+  "claim_id": "0d312995-84ed-408c-9e67-f4d7324e5af7",
+  "claim_sha256": "807596c3b7fecace85e600dbcc5ed6f791db4ce457111625fbe0d03fc31fbb95",
+  "source_document_id": "3a79fdde-f141-4e45-8897-d64ce4d8cd8b",
+  "source_body_sha256": "44a827d74c282cf6e81164b182f55256f4dd8fd1583c1de2a1a1ee125fd4ebd2",
+  "render_sha256": "572ac493759a0937a03d9a6fa661d324e5e4f71bfd3008dc0dc0d7e814527ffb",
+  "pdf_page": 9,
+  "render_parameters": {
+    "renderer": "pdftoppm",
+    "page": 9,
+    "dpi": 145
+  },
+  "reviewer": "coordinator",
+  "reviewed_at": "2026-11-06T02:07:48.240091+00:00",
+  "disposition": "accepted_visual_values",
+  "values": {
+    "thresholds": [
+      {
+        "aggregation_rule": "aggregate",
+        "measurement_basis": "Aggregate defined Data Center Area: computing equipment/infrastructure floor space, cooling/maintenance corridors and associated impervious surfaces including access ways, parking lots, transmission corridors and accessory buildings/structures",
+        "operator": "ge",
+        "scope": "Second of two cumulative data-center definition conditions; warrant Appendix1 version",
+        "unit": "square feet",
+        "value": 100000
+      }
+    ],
+    "duration": {
+      "anchor": "applicability_date",
+      "anchor_date": {
+        "earliest": "2026-06-16",
+        "latest": "2026-06-16",
+        "original_text": "June 16, 2026",
+        "precision": "day"
+      },
+      "original_text": "180 days from the Date of Applicability",
+      "unit": "days",
+      "value": 180
+    },
+    "geography": "Town of Wells",
+    "mechanism": "temporary_permitting_pause"
+  },
+  "locator": "Reviewed Wells official source page 9",
+  "scope": "Source transcription or proposed provisions; result certification does not establish operative legal force."
+}

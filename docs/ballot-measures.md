@@ -85,6 +85,18 @@ columns. Result certification does not establish its operative legal interval.
 [signed results](https://www.townofnorthberwick.org/DocumentCenter/View/1639/2026-Election--Town-Results),
 [proposed definition and table, pages 20–21](https://www.townofnorthberwick.org/DocumentCenter/View/1615/November-2026-Referendum).
 
+Wells's November 3 Article 5 asks enactment of a retroactive data-center
+moratorium and incorporates warrant Appendix 1. The clerk certificate records
+5,818 yes / 1,282 no / 459 blanks, signed November 4. Total ballots cast remains
+unknown. The submitted proposal uses at least 100,000 square feet aggregate
+defined Data Center Area, including associated impervious surfaces. Its 180-day
+term runs from June 16 applicability, while effectiveness is conditioned on Town
+Meeting enactment. These clauses do not establish a new 180-day November term
+or prove the current legal interval. A separate agenda draft leaves its threshold
+blank; it is not substituted for the warrant version.
+[Official Wells warrant](https://wellstown.org/DocumentCenter/View/8514/November-3-2026-Special-Town-Meeting-Warrant?bidId=),
+[signed results](https://www.wellstown.org/DocumentCenter/View/8559/November-3-2026-Official-Election-Results?bidId=).
+
 No current legal-force restriction, instrument event or measure/instrument link has
 been accepted in these initial cohorts, and their publication does not add active
 legacy moratorium rows. Other jurisdictions, earlier and future elections, legal

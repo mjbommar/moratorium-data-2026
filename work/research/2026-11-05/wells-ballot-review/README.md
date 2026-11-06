@@ -51,3 +51,7 @@ Canonical identity/field/publication gates, bindingness and passage rule,
 executed enacted text/operative interval, later extensions/amendments/repeal,
 and the legacy-instrument link remain unresolved. This packet changes no
 canonical expanded row or legacy moratorium count.
+
+The subsequent [canonical promotion packet](../wells-promotion/README.md) records
+fresh matching source downloads, reproducible visual receipts and scoped
+publication. The unresolved operative legal history remains explicit.

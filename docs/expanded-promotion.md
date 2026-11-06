@@ -1,7 +1,7 @@
 # Expanded-table publication protocol
 
 `scripts/expanded_promotion.py` supplies the first implementation of explicit
-reviewed snapshot publication. Canonical publication has been exercised on Eliot, Sabattus, Canterbury, Nottingham, Wiscasset and North Berwick, including an
+reviewed snapshot publication. Canonical publication has been exercised on Eliot, Sabattus, Canterbury, Nottingham, Wiscasset, North Berwick and Wells, including an
 explicit successor result observation that preserves the original. The
 [generated results view](ballot-results.md) supplies current counts. Earlier
 generations remain immutable history. Operative legal intervals and instrument
