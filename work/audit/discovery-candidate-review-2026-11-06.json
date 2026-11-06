@@ -1,5 +1,5 @@
 {
-  "inventory_sha256": "68b6f113beabb8375bc932ef0fa612a1c83ec0ede04eec8f1398337a60ef4685",
+  "inventory_sha256": "ac171e96f6261c7f0a2f00bb69576f20b909f6504ddcd68a3003f43a9d274a86",
   "returned_answer_sha256": {
     "discovery-ak": "a4b62aac2562578f9bb4c66f6f504557f1aace1c1612c0f7f2e3b2c01fae334e",
     "discovery-al": "b6e254f6a91f7dc6937ca15433d3c9ac8c29f473bb22765439ab7bf23647aa62",
@@ -54,7 +54,7 @@
   },
   "candidate_count": 185,
   "reviewed_pending_additions": 5,
-  "unreviewed_count": 157,
+  "unreviewed_count": 152,
   "candidates": [
     {
       "candidate_key": "discovery-ak:0",
@@ -2098,9 +2098,9 @@
       "same_name_inventory_ids": [
         "mt-missoula-county-2026"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_historical_deferred_proposal",
+      "review_packet": "work/research/2026-11-06/southwest-northwest-discovery-review/review.json",
+      "next_step": "Recover unresolved operative interval, final text and/or later actions as scoped in review rationale.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "unresolved",
@@ -2373,10 +2373,12 @@
       "state_abbrev": "NM",
       "jurisdiction": "Silver City",
       "proposed_instrument_label": "Resolution 2021-19; repealed by Resolution 2026-10 on March 10, 2026",
-      "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "same_name_inventory_ids": [
+        "nm-silver-city-2021"
+      ],
+      "disposition": "reviewed_historical_instrument_added",
+      "review_packet": "work/research/2026-11-06/southwest-northwest-discovery-review/review.json",
+      "next_step": "Recover unresolved operative interval, final text and/or later actions as scoped in review rationale.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -2391,9 +2393,9 @@
       "jurisdiction": "Bernalillo",
       "proposed_instrument_label": "Town council resolution, number not yet located",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_town_primary_instrument",
+      "review_packet": "work/research/2026-11-06/southwest-northwest-discovery-review/review.json",
+      "next_step": "Recover unresolved operative interval, final text and/or later actions as scoped in review rationale.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -2408,9 +2410,9 @@
       "jurisdiction": "Silver City",
       "proposed_instrument_label": "Town council resolution, number not yet located",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_distinct_sector_primary_instrument",
+      "review_packet": "work/research/2026-11-06/southwest-northwest-discovery-review/review.json",
+      "next_step": "Recover unresolved operative interval, final text and/or later actions as scoped in review rationale.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -2614,9 +2616,9 @@
       "jurisdiction": "Forest Grove",
       "proposed_instrument_label": "Resolution 2026-47; official portal identifies the hearing and resolution, final signed text not retrieved.",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_amended_final_text",
+      "review_packet": "work/research/2026-11-06/southwest-northwest-discovery-review/review.json",
+      "next_step": "Recover unresolved operative interval, final text and/or later actions as scoped in review rationale.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -3287,9 +3289,9 @@
   "reviewed_prepared_not_applied": 0,
   "reviewed_city_reported_adoption_additions": 1,
   "worker_reviewed_count": 183,
-  "unreviewed_count_scope": "157 candidates await coordinator substantive processing; sixteen reviewed cases remain withheld. Scoped review does not establish complete legal histories or present force.",
+  "unreviewed_count_scope": "152 candidates await coordinator substantive processing; twenty reviewed cases remain withheld. Historical additions and scoped reviews do not establish complete legal histories or current force.",
   "worker_review_baseline_sha256": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1",
-  "reviewed_historical_additions": 4,
-  "reviewed_withheld_cases": 16,
-  "current_inventory_sha256": "68b6f113beabb8375bc932ef0fa612a1c83ec0ede04eec8f1398337a60ef4685"
+  "reviewed_historical_additions": 5,
+  "reviewed_withheld_cases": 20,
+  "current_inventory_sha256": "ac171e96f6261c7f0a2f00bb69576f20b909f6504ddcd68a3003f43a9d274a86"
 }

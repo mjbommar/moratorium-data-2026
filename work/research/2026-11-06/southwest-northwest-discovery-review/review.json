@@ -1,0 +1,146 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "baseline_inventory_sha256": "68b6f113beabb8375bc932ef0fa612a1c83ec0ede04eec8f1398337a60ef4685",
+  "candidates": [
+    {
+      "candidate_key": "discovery-nm:0",
+      "candidate_sha256": "71d6c04258db6239e3066312271b2b77e4993b71f1f4e4103244cd963b23e222",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "reviewed_historical_instrument_added",
+      "rationale": "Official posted /s/ attested copies identify August 24, 2021 adoption of Resolution 2021-19 and explicit repeal March 10, 2026 by Resolution 2026-10. The original operative endpoint depends on possession of NMPRC rules and town conforming policies/procedures, not automatic April 1, 2022 expiry. Earlier satisfaction of that condition is unresolved; repeal does not prove uninterrupted force. These are typed /s/ signatures, not wet-ink scans.",
+      "source_checks": [
+        {
+          "attempt_id": "ba72877dbcc0413fb3b6e333e817826e",
+          "url": "https://www.townofsilvercity.org/DocumentCenter/View/1581/Resolution-2021-19-Moratorium-for-Solar-Community-Facility-Projects",
+          "body_sha256": "624d60b3b158373ca3420d87eae7a1075d31577100a895bae1b787d3dd43f9c0",
+          "text_sha256": "c008b8880b3298825e46c1ba1a92adcec29ce6ea34d3fafd96d80d06773d2732",
+          "quote": "A RESOLUTION ESTABLISHING A MORATORIUM TO PROHIBIT BUILDING,",
+          "quote_span": [
+            24,
+            84
+          ],
+          "visual_review": {
+            "scope": "Every PDF page rendered and directly inspected",
+            "pages": [
+              {
+                "page": 1,
+                "image_sha256": "667c819eb5d125c66f4b7eb40e3f21fd64914e48642f8e8339f740daee7dc94b"
+              },
+              {
+                "page": 2,
+                "image_sha256": "64f444b3e16b82fcaf075c90c25a7a9828159df6d3412c6d666d4f9ae896b6ee"
+              }
+            ],
+            "signature_form": "Typed /s/ attestations; no handwritten signature-image claim"
+          }
+        },
+        {
+          "attempt_id": "0815f8c8408445dd88e5081e47e72770",
+          "url": "https://www.townofsilvercity.org/DocumentCenter/View/3169/Res-2026-10-Repeal-Solar-Moratorium",
+          "body_sha256": "b4102f0c6e93dc227894cf22853278cd960aa2eb61927bf2d41c582294c73e18",
+          "text_sha256": "dfdc2e0116d8ac234f13c285962b9177a047131f07ae27bdb272e34192b569c1",
+          "quote": "A RESOLUTION REPEALING RESOLUTION 2021-19 A MORATORIUM TO",
+          "quote_span": [
+            24,
+            81
+          ],
+          "visual_review": {
+            "scope": "Every PDF page rendered and directly inspected",
+            "pages": [
+              {
+                "page": 1,
+                "image_sha256": "ac05d1c884963767f49e28c7d3b556a919643b2c3346b37a04658b3e4cc4d4b3"
+              }
+            ],
+            "signature_form": "Typed /s/ attestations; no handwritten signature-image claim"
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-nm:1",
+      "candidate_sha256": "5b8485276d135bd2fddf59c32c624fd13a77313f3236150890c7914409a5f7ed",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_town_primary_instrument",
+      "rationale": "The complete report attributes September 28 council approval of an immediate three-month pause to the TOWN of Bernalillo, not Bernalillo County. No signed numbered resolution, exact operative text or later action is reviewed. The other bond questions in the article are not data-center ballot measures.",
+      "source_checks": [
+        {
+          "attempt_id": "07fabc4321d446a8bc14007098bb8587",
+          "url": "https://nm.news/2026/10/05/bernalillo-data-center-moratorium/",
+          "body_sha256": "5c4255a5a562508c6077158c943cc8d0c6ff83d5e38e27bd6b56a7205e84360b",
+          "text_sha256": "95a2afe74d10bc1da1f02e60361900e27e5873da6925b9bc380505bea8708873",
+          "quote": "lors approved a resolution establishing an immediate three-month moratorium on development approvals and development permits for data centers within the town limits.",
+          "quote_span": [
+            365,
+            530
+          ],
+          "review_method": "Complete retained HTML text independently read; original body/text hashes and exact excerpt span verified"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-nm:2",
+      "candidate_sha256": "9de5e55b7b059930da46a5a23f864bd5508c25e55736230e4b88fb21e26c25ea",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_distinct_sector_primary_instrument",
+      "rationale": "The full Silver City report describes unanimous approval of a temporary data-center permit suspension by resolution rather than the contemplated ordinance. The separate solar repeal is not this instrument, and the article\u2019s other December 31, 2027 term concerns street-sealing funding, not the moratorium. Exact adoption date, resolution number, term and later actions remain unaccepted.",
+      "source_checks": [
+        {
+          "attempt_id": "4888b0186a59476ba3295ec10094bbb4",
+          "url": "https://www.scdailypress.com/2026/10/29/silver-city-oks-data-center-moratorium-resolution/",
+          "body_sha256": "2a9671741e9ac084b7ac9ddd6443f8dc7f73bf779a15372315f88f5b6b59aff2",
+          "text_sha256": "f6fe895032224afd4e4fa441c2f7b5efbd03b88d9b016f50a4e74a96fdd60323",
+          "quote": "In action items, the council approved a resolution that temporarily suspends any issuance of permits for data center facilities within the town.",
+          "quote_span": [
+            6003,
+            6147
+          ],
+          "review_method": "Complete retained HTML text independently read; original body/text hashes and exact excerpt span verified"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-mt:0",
+      "candidate_sha256": "3d1a071df3fb4a4cdc9abe32b3bde682a4f09ab1abaabeca1d728124d7fc245c",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_historical_deferred_proposal",
+      "rationale": "The complete 2018 report describes deferral of proposed interim crypto zoning until at least August and a possible later hearing. It establishes neither adoption nor a current pending proposal. Existing-operation exemption/expansion restrictions are proposed terms. No merger with the existing 2026 data-center overlay is accepted.",
+      "source_checks": [
+        {
+          "attempt_id": "2c01cf8fa3a34e3bada53ed2f87ebc91",
+          "url": "https://missoulacurrent.com/cryptocurrency-mining/",
+          "body_sha256": "17f399e18802122d82a76da97e5e5d7e1d9d2208568ea6344832452d415115c0",
+          "text_sha256": "71d86651d1df8aeccd2b6eb199f654ff608f473a358f3e79baabcf93d8471936",
+          "quote": "In fact, they delayed until at least August a decision on the interim zoning plan, which would place a one-year moratorium on home-based and commercial-sized cryptocurrency mining countywide.",
+          "quote_span": [
+            191,
+            382
+          ],
+          "review_method": "Complete retained HTML text independently read; original body/text hashes and exact excerpt span verified"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-or:0",
+      "candidate_sha256": "7bc95f296c28e334e348af8e166cb7b56f8aa5f97b82d0a10310be8f05fc79fe",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_amended_final_text",
+      "rationale": "The complete Forest Grove report describes a 7\u20130 vote, Resolution 2026-47, a 120-calendar-day term on adoption, and a sentence added after the packet to protect already approved land uses. It reports coverage of new data centers and expansions of at least 20 percent. The agenda/packet alone is not final amended wording. Exact adoption date, signed final text, application exceptions and later actions remain unresolved.",
+      "source_checks": [
+        {
+          "attempt_id": "9eb8e5ab0317434d8e381e8a6b3e1594",
+          "url": "https://www.newsinthegrove.com/forest-grove-council-approves-120-day-pause-on-new-data-centers/",
+          "body_sha256": "76258395d4ee14df538377de7c643c97db7a5487c0ee9de8e940ef6792a910c8",
+          "text_sha256": "662eded59b170bb4c889590decba437914610796a8e3d6f1903e986bdd345e52",
+          "quote": "here may have been a lack of clarity about the scope of when the moratorium applies and doesn't apply,\" Soper said. The new sentence makes clear the moratorium is not intended to apply where some",
+          "quote_span": [
+            1008,
+            1203
+          ],
+          "review_method": "Complete retained HTML text independently read; original body/text hashes and exact excerpt span verified"
+        }
+      ]
+    }
+  ]
+}

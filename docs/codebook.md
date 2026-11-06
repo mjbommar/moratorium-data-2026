@@ -4,7 +4,7 @@ This document defines every column in every data file. Read this before doing an
 
 ## `data/moratorium_inventory.csv`
 
-**One row per moratorium instrument.** 1304 rows total in the November 5, 2026 working refresh. Record-level review is incomplete; this count does not certify current legal force for every row.
+**One row per moratorium instrument.** 1305 rows total in the November 5, 2026 working refresh. Record-level review is incomplete; this count does not certify current legal force for every row.
 
 This is the intended grain. Legacy combined candidates and motion/ordinance
 relationships still require [identity reconciliation](known-gaps.md#legacy-instrument-identities);
@@ -45,14 +45,14 @@ The validator warns when an `active` or `extended` calendar term has no exact en
 
 This is the column most users want for filtering. The values:
 
-- **`active`** — moratorium is currently in force (~44 rows)
-- **`extended`** — moratorium was extended past its original sunset and is currently in force (~44 rows)
-- **`replaced`** — moratorium has expired and a permanent ordinance has been adopted in its place (~37 rows)
-- **`expired`** — moratorium has lapsed without a documented replacement (~20 rows)
-- **`rescinded`** — moratorium was affirmatively repealed before its expiration date (~6 rows)
+- **`active`** — recorded as active; current legal force requires record-specific evidence
+- **`extended`** — recorded extension beyond the original sunset; current legal force requires record-specific evidence
+- **`replaced`** — recorded as replaced by a permanent ordinance
+- **`expired`** — recorded term has elapsed; later actions or replacement may remain unverified
+- **`rescinded`** — documented affirmative repeal; this does not establish that the original event-based endpoint had not already occurred
 - **`pending`** — moratorium is proposed or enacted with a future effective date; it is not yet classified as in force. This legacy category alone does not establish whether a vote has occurred
 
-To filter to "moratoria currently in force":
+To filter to recorded active/extended classifications (not renewed legal-force findings):
 
 ```python
 in_force = df[df["enacted_status"].isin(["active", "extended"])]
@@ -133,14 +133,14 @@ A single JSON object with top-level aggregates. Useful for embedding live counts
 
 Top-level keys:
 
-- `total_local_moratoria`: 1304 — total rows in the inventory
+- `total_local_moratoria`: 1305 — total rows in the inventory
 - `total_state_bills`: 440 — rows using the legacy `bill` type in state_legislation.csv, including resolution subtypes awaiting migration
 - `total_state_policy_actions`: 442 — all state-policy rows, including binding non-bill actions
 - `states_with_moratoria`: 47
 - `states_without_moratoria`: 3
-- `moratoria_with_verify_tags`: 677 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
+- `moratoria_with_verify_tags`: 678 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
 - `moratoria_without_verify_tags`: 232
-- `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 1293 working inventory rows by `enacted_status`
+- `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 1305 working inventory rows by `enacted_status`
 - `sweep_coverage`: which states received a systematic month-by-month sweep for the release's window, plus `swept_states_with_no_adoptions_in_window`. **Read this before interpreting a state's absence.** A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that `swept_states_with_no_adoptions_in_window` is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from [`data/sweep_coverage.json`](../data/sweep_coverage.json)
 - `top_states_by_moratoria`: list of `[state_name, count]` pairs, top 15
 - `top_states_by_bills`: list of `[state_name, bill_count]` pairs, top 15

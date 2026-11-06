@@ -2,6 +2,8 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
+Silver City’s community-solar Resolution 2021-19 is added with its explicit March 10, 2026 repeal by Resolution 2026-10. The original event-based endpoint remains unknown; repeal does not prove continuous force until that date. It is distinct from the newer data-center action.
+
 Signed Sac Resolution 25-0204-1 and Sioux Resolution 2023-35 add two historical recorded-term instruments. Their elapsed endpoints do not establish absence of later extensions or restrictions; all previous rows remain unchanged.
 
 Brighton adds a city-reported approved one-calendar-year data-center pause; Chicago adds a pending twelve-month proposal. Effective/adoption dates and coordinates remain unverified. Neither publication date is accepted as enactment.
@@ -32,18 +34,18 @@ remain unknown; no adoption event, in-force ban or headline-count increase is
 inferred. The public results view displays relationship review separately from
 legal status. All earlier records remain unchanged.
 
-Current totals are 1,304 local instruments (1,073 classified active or extended,
-72 pending, 159 past) and 442 state-policy records (95 classified enacted).
+Current totals are 1,305 local instruments (1,073 classified active or extended,
+72 pending, 160 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1304** |
+| Moratoria in the list | **1305** |
 | Classified active or extended | **1073** |
 | Pending or not yet effective | **72** |
-| Ended (replaced, expired, or rescinded) | **159** |
-| Rows we still want to confirm (`[VERIFY]`) | **677** |
+| Ended (replaced, expired, or rescinded) | **160** |
+| Rows we still want to confirm (`[VERIFY]`) | **678** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained

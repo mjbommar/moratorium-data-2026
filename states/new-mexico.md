@@ -3,7 +3,7 @@
 
 Working inventory for New Mexico, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**6 instruments** — 5 in force, 1 pending, 0 past.
+**7 instruments** — 5 in force, 1 pending, 1 past.
 
 State policy is tracked separately: **3 actions** (3 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -14,6 +14,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 | Rio Communities | City | 2026-08-26 | data center, general | 🟢 Active |
 | Santa Fe County | County | 2026-06-30 | data center | 🟢 Active |
 | Sierra County | County | 2026-07-21 | data center | 🟢 Active |
+| Silver City | Town | 2021-08-24 | solar | 🔴 Rescinded |
 | Socorro County | County | 2026-06-09 | data center | 🟢 Active |
 
 ## Detailed entries
@@ -96,6 +97,22 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **What prompted it:** Concern about a possible data center at Spaceport America
 - **Affected projects:** —
 - **Detailed status:** Signed July 21 Resolution 2026-51 imposes an eighteen-month moratorium on approval of or support for data-center development to the extent permitted by law, and expressly states the county possesses no regulatory authority over Spaceport America property. This corrects the prior unqualified applicability account; no adjudication of state/county jurisdiction is inferred. The prior January 21, 2028 endpoint lacked an established source anchor and is cleared. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** —
+
+### Silver City
+
+- **Type:** Town
+- **Status:** 🔴 Rescinded
+- **Date enacted:** 2021-08-24
+- **Normalized date:** `2021-08-24` (exact)
+- **Duration:** Until town possesses NMPRC community-solar rules and establishes conforming local policies/procedures; expressly repealed March 10, 2026
+- **Current end date:** `—`
+- **Sectors:** solar
+- **Moratorium ID:** `nm-silver-city-2021`
+- **Legal basis:** Resolution 2021-19; expressly repealed by Resolution 2026-10
+- **What prompted it:** Town awaits state community-solar rules and conforming local permit procedures.
+- **Affected projects:** —
+- **Detailed status:** Official posted Resolution 2026-10 expressly repeals Resolution 2021-19 on March 10, 2026. [VERIFY earlier satisfaction of original event-based endpoint, complete operative interval, subsequent restrictions and coordinates]
 - **Outcome:** —
 
 ### Socorro County
