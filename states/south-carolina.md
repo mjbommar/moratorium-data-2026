@@ -112,16 +112,16 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 
 - **Type:** County
 - **Status:** 🟢 Active
-- **Date enacted:** September 14, 2026 (County Council final vote approving Ordinance 856, per WLTX; first reading was at a July 20, 2026 special called meeting)
+- **Date enacted:** September 14, 2026 third reading listed in posted Ordinance 856; first reading July 13 and public hearing August 31. Execution fields blank; final adopted record unresolved.
 - **Normalized date:** `2026-09-14` (exact)
-- **Duration:** Twelve months
+- **Duration:** Posted unexecuted Ordinance 856 states no more than twelve months from effectiveness, subject to regulatory-framework provisions; final enacted term unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `sc-fairfield-county-2026`
 - **Legal basis:** Ordinance No. 856 (Fairfield County Council)
 - **What prompted it:** Inquiries regarding data center development; county lacks a regulatory framework or zoning ordinance structure sufficient to manage the industry's scale and impact.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; adopted Sept. 14, 2026. The county will not accept or act on new data center applications or permits for 12 months from the ordinance's effective date, pending a comprehensive study and any resulting regulatory framework.
+- **Detailed status:** Posted Ordinance 856 lists first reading July 13, public hearing August 31 and third reading September 14. Section 3 states no more than twelve months from effectiveness with regulatory-framework provisions; the copy has blank execution fields. Final executed wording, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted twelve-month moratorium on data center permitting, construction, and development.
 
 ### Greenwood County
@@ -182,10 +182,10 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `sc-laurens-county-2026`
-- **Legal basis:** Laurens County Council data center moratorium ordinance (ordinance number not located in reviewed sources); sponsored by Vice Chairman Matthew Brownlee
+- **Legal basis:** Laurens County Council Ordinance #1012, imposing a temporary data center development-permit moratorium.
 - **What prompted it:** County is unzoned; council wants time for public input, planning, and expert testimony before deciding how and where data centers should be regulated.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; adopted 6-0 on Sept. 14, 2026. Applies only to unincorporated Laurens County; the cities of Laurens and Clinton retain control over data centers within their own limits.
+- **Detailed status:** The September 14 agenda identifies proposed Ordinance 1012 with twelve months from effectiveness. September 15 news reports 6-0 third/final-reading approval for unincorporated areas. Final signed operative wording, actual effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted one-year moratorium on new data center development in unincorporated Laurens County.
 
 ### Mount Pleasant

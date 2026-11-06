@@ -1,0 +1,82 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "sc-inventory-001": "93da14dc51a64441e5878bdf3846bdc0eef0697a735fe908df23c3700cef4b8b",
+    "sc-inventory-002": "cfd0f731b4c89cf3bc430b4bf835fe7e9be94fed14a02b0f67d934c8d24e8095"
+  },
+  "reviewed_answers_sha256": "de43d2adc7a68d73020993b277e45da0adc9f5193b3b02c4e3cdad257be28296",
+  "scope": "Two South Carolina term/instrument corrections. Fairfield page 3 reading history visually checked, public hearing August 31 not September 14, with execution blanks preserved and actual term unknown. Laurens agenda/draft and news-reported adoption distinguished; full later legal-force histories remain unresolved.",
+  "located_evidence": [
+    {
+      "moratorium_id": "sc-fairfield-county-2026",
+      "url": "https://www.fairfieldsc.com/uploads/uploads/Ordinance_856_-_Data_Center_Moratorium_2.pdf",
+      "quote": "First Reading: July 13, 2026",
+      "located": [
+        {
+          "attempt_id": "ad33b65ff2e34a3a9d6bcb4ffb205f55",
+          "body_sha256": "ecfe535c4e38bfa97d1ca57201019756d3118274646a259ee7fb76ce62d8c84e",
+          "text_sha256": "43ebdcc1b9b08fb8912a70daf22d60713f69a2c1daf5c99799f0ee5450a02bca",
+          "span": [
+            4980,
+            5008
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "sc-fairfield-county-2026",
+      "url": "https://www.fairfieldsc.com/uploads/uploads/Ordinance_856_-_Data_Center_Moratorium_2.pdf",
+      "quote": "moratorium on Data Centers no more than twelve (12) months from the Effective Date of this",
+      "located": [
+        {
+          "attempt_id": "ad33b65ff2e34a3a9d6bcb4ffb205f55",
+          "body_sha256": "ecfe535c4e38bfa97d1ca57201019756d3118274646a259ee7fb76ce62d8c84e",
+          "text_sha256": "43ebdcc1b9b08fb8912a70daf22d60713f69a2c1daf5c99799f0ee5450a02bca",
+          "span": [
+            2222,
+            2312
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "sc-laurens-county-2026",
+      "url": "https://cms2.revize.com/revize/laurens/Documents/Government/County%20Council/Agendas/Agenda%20Packet%209.14.26.pdf",
+      "quote": "For a period of twelve (12) months from the effective date of this Ordinance, the County shall",
+      "located": [
+        {
+          "attempt_id": "8e9ab1183f6040d180c79603b5607033",
+          "body_sha256": "07b479657a1673d77d3c00914614cb0b2c84af67dd4dec5a2a3507f2f8ec4668",
+          "text_sha256": "c6130f73f3dc614ee660ddfd22beb87af4f4c724dee7c2ec1ffb7360724743d6",
+          "span": [
+            24705,
+            24799
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "sc-laurens-county-2026",
+      "url": "https://www.wyff4.com/article/laurens-county-blocks-data-center-development/73732782",
+      "quote": "The vote was the third and final reading of the ordinance.",
+      "located": [
+        {
+          "attempt_id": "84d7abf90baa4a9e923d5fbcf88cf43c",
+          "body_sha256": "d822b9fdaf5756f626a067557ba2c8178749af99944f4b860ecf4b90203b6a52",
+          "text_sha256": "7a22c4ce54fa13cbe5265073188e642309426446b6b1d34a162f47e2ba6af262",
+          "span": [
+            237,
+            295
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparison": {
+    "attempt_id": "ad33b65ff2e34a3a9d6bcb4ffb205f55",
+    "page": 3,
+    "render": "pdftoppm PNG -singlefile -scale-to 1300",
+    "render_sha256": "eab356036ef998f277b2a0b08eaf040679c3499df30fe1d9cf17f69efbe4e39a",
+    "finding": "First July 13, hearing August 31, third September 14; execution fields blank."
+  }
+}

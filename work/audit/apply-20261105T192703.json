@@ -1,0 +1,86 @@
+{
+  "applied_at": "20261105T192703",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-south-carolina-b/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 2,
+    "fields_changed": 9
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "sc-fairfield-county-2026",
+      "column": "date_enacted",
+      "before": "September 14, 2026 (County Council final vote approving Ordinance 856, per WLTX; first reading was at a July 20, 2026 special called meeting)",
+      "after": "September 14, 2026 third reading listed in posted Ordinance 856; first reading July 13 and public hearing August 31. Execution fields blank; final adopted record unresolved.",
+      "reason": "The county ordinance reading history gives July 13, not July 20.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-fairfield-county-2026",
+      "column": "duration",
+      "before": "Twelve months",
+      "after": "Posted unexecuted Ordinance 856 states no more than twelve months from effectiveness, subject to regulatory-framework provisions; final enacted term unresolved.",
+      "reason": "Section 3 gives a maximum rather than an unconditional fixed period.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-fairfield-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Twelve calendar months are not an exact 365-day term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-fairfield-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "unknown",
+      "reason": "Posted maximum calendar wording has blank execution fields; final enacted term unresolved.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-fairfield-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; adopted Sept. 14, 2026. The county will not accept or act on new data center applications or permits for 12 months from the ordinance's effective date, pending a comprehensive study and any resulting regulatory framework.",
+      "after": "Posted Ordinance 856 lists first reading July 13, public hearing August 31 and third reading September 14. Section 3 states no more than twelve months from effectiveness with regulatory-framework provisions; the copy has blank execution fields. Final executed wording, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-laurens-county-2026",
+      "column": "legal_basis",
+      "before": "Laurens County Council data center moratorium ordinance (ordinance number not located in reviewed sources); sponsored by Vice Chairman Matthew Brownlee",
+      "after": "Laurens County Council Ordinance #1012, imposing a temporary data center development-permit moratorium.",
+      "reason": "The council agenda identifies ordinance 1012.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-laurens-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "A twelve-month calendar term is not a fixed 365-day term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-laurens-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The ordinance text specifies twelve months.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-laurens-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; adopted 6-0 on Sept. 14, 2026. Applies only to unincorporated Laurens County; the cities of Laurens and Clinton retain control over data centers within their own limits.",
+      "after": "The September 14 agenda identifies proposed Ordinance 1012 with twelve months from effectiveness. September 15 news reports 6-0 third/final-reading approval for unincorporated areas. Final signed operative wording, actual effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force.",
+      "source": "answers.json"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "state_abbrev": "SC",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "sc-fairfield-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.fairfieldsc.com/uploads/uploads/Ordinance_856_-_Data_Center_Moratorium_2.pdf",
+          "source_type": "ordinance",
+          "document_date": "2026-09-14",
+          "supports": "Ordinance identifies first-reading date.",
+          "quote": "First Reading: July 13, 2026"
+        },
+        {
+          "url": "https://www.fairfieldsc.com/uploads/uploads/Ordinance_856_-_Data_Center_Moratorium_2.pdf",
+          "source_type": "ordinance",
+          "document_date": "2026-09-14",
+          "supports": "Provides a twelve-month maximum term, with regulatory-framework conditions in following text.",
+          "quote": "moratorium on Data Centers no more than twelve (12) months from the Effective Date of this"
+        }
+      ],
+      "notes": "Corrects historical first-reading date and calendar-unit coding; current force remains unresolved. Ordinance specifies a maximum, subject to regulatory framework conditions.",
+      "changes": {
+        "date_enacted": {
+          "from": "September 14, 2026 (County Council final vote approving Ordinance 856, per WLTX; first reading was at a July 20, 2026 special called meeting)",
+          "to": "September 14, 2026 third reading listed in posted Ordinance 856; first reading July 13 and public hearing August 31. Execution fields blank; final adopted record unresolved.",
+          "reason": "The county ordinance reading history gives July 13, not July 20."
+        },
+        "duration": {
+          "from": "Twelve months",
+          "to": "Posted unexecuted Ordinance 856 states no more than twelve months from effectiveness, subject to regulatory-framework provisions; final enacted term unresolved.",
+          "reason": "Section 3 gives a maximum rather than an unconditional fixed period."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Twelve calendar months are not an exact 365-day term."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "unknown",
+          "reason": "Posted maximum calendar wording has blank execution fields; final enacted term unresolved."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; adopted Sept. 14, 2026. The county will not accept or act on new data center applications or permits for 12 months from the ordinance's effective date, pending a comprehensive study and any resulting regulatory framework.",
+          "to": "Posted Ordinance 856 lists first reading July 13, public hearing August 31 and third reading September 14. Section 3 states no more than twelve months from effectiveness with regulatory-framework provisions; the copy has blank execution fields. Final executed wording, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force."
+        }
+      }
+    },
+    {
+      "moratorium_id": "sc-laurens-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://cms2.revize.com/revize/laurens/Documents/Government/County%20Council/Agendas/Agenda%20Packet%209.14.26.pdf",
+          "source_type": "agenda",
+          "supports": "Draft Ordinance 1012 term; agenda lists third reading, not its outcome.",
+          "quote": "For a period of twelve (12) months from the effective date of this Ordinance, the County shall",
+          "document_date": "2026-09-14"
+        },
+        {
+          "url": "https://www.wyff4.com/article/laurens-county-blocks-data-center-development/73732782",
+          "source_type": "news",
+          "supports": "News reports adoption.",
+          "quote": "The vote was the third and final reading of the ordinance.",
+          "document_date": "2026-09-15"
+        }
+      ],
+      "notes": "The September agenda contains a draft; local news reports its final adoption. Later changes and current force were not independently established.",
+      "changes": {
+        "legal_basis": {
+          "from": "Laurens County Council data center moratorium ordinance (ordinance number not located in reviewed sources); sponsored by Vice Chairman Matthew Brownlee",
+          "to": "Laurens County Council Ordinance #1012, imposing a temporary data center development-permit moratorium.",
+          "reason": "The council agenda identifies ordinance 1012."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "A twelve-month calendar term is not a fixed 365-day term."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The ordinance text specifies twelve months."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; adopted 6-0 on Sept. 14, 2026. Applies only to unincorporated Laurens County; the cities of Laurens and Clinton retain control over data centers within their own limits.",
+          "to": "The September 14 agenda identifies proposed Ordinance 1012 with twelve months from effectiveness. September 15 news reports 6-0 third/final-reading approval for unincorporated areas. Final signed operative wording, actual effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force."
+        }
+      },
+      "confidence": 0.65
+    }
+  ],
+  "new_candidates": []
+}

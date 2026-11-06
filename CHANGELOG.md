@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Fairfield’s posted reading history corrects first reading to July 13 and public hearing to August 31, distinct from September 14 third reading. Blank execution fields leave the actual enacted term unresolved despite the posted twelve-month maximum. Laurens Ordinance 1012 and its twelve-month text are identified from the agenda, with adoption separately news-qualified. Later force remains unresolved.
+
 South Carolina review corrects Anderson and York calendar terms and Chester’s conditional December 31 packet endpoint, replacing the unsupported January day-count projection. Chester’s unusual vote notation is preserved without interpreting it as a conventional tally. Packet/final-execution distinctions, undated county-page limits and later legal force remain explicit.
 
 Williamsport’s signed original Resolution 10088 corrects adoption to June 25, distinct from the July 9 follow-up. Muncy’s posted nine-month/earlier-zoning term and scheduled hearing remain qualified by incomplete execution and unresolved hearing outcome. Pennsylvania accounting reconciles all 26 existing IDs: nine bounded corrections applied and 17 other returns awaiting disposition, with no complete current-force history asserted.
@@ -158,7 +160,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **69** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **603** |
+| Rows we still want to confirm (`[VERIFY]`) | **605** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
