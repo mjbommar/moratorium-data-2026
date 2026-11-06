@@ -83,6 +83,7 @@ Exit: read-only dry-run and bounded acquisition produce auditable plans and atte
 - [x] Support original native-PNG visual evidence, rejecting transforms/dimension/body drift; exercise the real Peru results image through the evidence audit (`peru-native-image-review/`).
 - [x] Publish Peru’s official Article 2 counts/proposed provisions using native-PNG evidence; preserve unknown ballot wording/polarity and reconcile eight published / 48 pending groups (`peru-promotion/`).
 - [x] Review Brownfield’s official tally, warrant and unusual draft power limits; distinguish Freedom’s preamble/hearing study period from its missing operative end date (`maine-remaining-ballot-review/`).
+- [x] Recover Freedom’s source-qualified Article 3 tally photograph, preserving 24 VOIDS and 470 source total; correct tracker-count versus news-approval provenance (`maine-remaining-ballot-review/freedom-recovery-review.json`).
 - [ ] Complete broader promotion/recovery calibration and the remaining ballot identity/fact reviews; the initial Eliot batch does not close P3.
 - [ ] Extend evidence archive/publication gates to new records and source payload types.
 - [ ] Add behavioral regression checks from plan section 11 (initial subset includes offline publication/receipt drift, historical identity baselines and portable-pointer checks; full gate coverage pending).

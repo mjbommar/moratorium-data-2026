@@ -61,7 +61,45 @@ that political-process measure is not folded into the data-center question.
 `freedom-review.json` verifies both source versions, the four visually reviewed
 draft pages, the hearing passage and exact text spans. The original native text
 has duplicated-glyph extraction defects, so visual comparison matters. This is
-not completed bc-evidence extraction. Worker news-result assertions remain leads;
+not completed bc-evidence extraction. Worker secondary result assertions remain leads;
 this packet does not accept official counts. Official ballot/results, enacted
 term, certification, operative interval, later force and publication gates remain
 open.
+
+## Subsequent Freedom recovery and provenance correction
+
+`freedom-recovery-review.json` records seven fresh successful bc-web fetches and
+two bounded Exa/SerpAPI searches. The freshly linked four-page draft has the same
+body hash as the reviewed version. No enacted replacement was recovered from
+the inspected town pages; this is a search/coverage observation, not proof of
+absence or a final legal-status conclusion.
+
+The numeric worker assertion **331 yes / 115 no** came from the manually entered
+`me-freedom` row in an advocacy tracker CSV. Its `total_votes=446` is yes plus no.
+A separate news source supplied a reported-approval assertion. The two source
+bases must not be blended or described as newspaper-derived vote counts.
+
+A public post by the account named Freedom Town Office, timestamped November 3,
+contains a photograph headed Town of Freedom, Secret Ballot Election 11/3/2026,
+Moderator Ballot Tally Sheet. **Article 3** asks whether voters will adopt the Data
+Center Moratorium Ordinance for the Town of Freedom. It shows **331 yes, 115 no,
+24 VOIDS and a circled 470 total**. That source total includes a category absent
+from the tracker's 446 total. VOIDS is retained as an unmapped source term;
+it is not relabeled blanks, undervotes or overvotes. No question-specific
+ballots-cast field is inferred. Article 2 concerns recall and Article 4 a road
+appraisal; neither is combined with the data-center question.
+
+[Public tally-sheet post](https://www.facebook.com/FreedomMaineTownOffice/posts/secret-ballot-election-results/1459298219642313/).
+The original progressive JPEG was fetched from the post's image metadata and
+retained with its body hash; the durable citation is the post rather than its
+expiring CDN transport URL. The reviewed town homepage did not supply an
+independent link authenticating that account. This is a source-qualified primary
+photograph observation, not authenticated result certification; no signature or
+certification block is visible in the photograph.
+
+Exact question wording/designation and additional vote categories are now
+recovered at that qualified level. Account authority/corroboration, complete
+certification, legal passage, final enacted term/date, later force and canonical
+identity/field/publication gates remain open. Native JPEG support and an explicit
+source-vote-category representation are needed before promoting those observations.
+No canonical dataset or legacy moratorium tally changes in this recovery packet.
