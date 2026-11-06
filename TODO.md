@@ -4,6 +4,12 @@ Plan: [Research modernization and ballot-measure expansion](docs/research-and-ba
 
 Closeout execution order: [November refresh closeout](docs/release-closeout.md). This preserves the full requirement scope and sequences remaining review, final data freeze, copy/consumer reconciliation, publication and deployment verification.
 
+Latest repair: [controlled model transport](docs/controlled-model-transport.md)
+has persistent HTTP ceilings and six passing mock-transport tests; all 248 project
+tests and 42 subtests pass. Shared bc-llm retry fix is isolated at `d5acda10`.
+The installed runtime remains unchanged; no new paid extraction or canonical
+promotion occurred. Full extraction-quality and P2/P4 gates remain open.
+
 Created: 2026-11-05. Execution began under the user’s subsequent active-goal instruction.
 Checked tasks have local evidence; unchecked tasks remain required. No release has been published.
 Complete phases in dependency order; retain evidence and unresolved dispositions.

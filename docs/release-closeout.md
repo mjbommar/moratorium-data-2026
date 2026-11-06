@@ -54,6 +54,25 @@ The [retrospective seventeen-case fixture set](../work/research/2026-11-06/pilot
 
 ## Extraction support gate — not passed
 
+### Transport repair checkpoint
+
+The default OpenAI resolver retry fix is committed separately in bc-modules
+(`d5acda10`, `fix/openai-sdk-retry-controls`). The original shared checkout and
+installed runtime are preserved. The local [controlled transport](controlled-model-transport.md)
+adds persistent request reservations and rejects retry-enabled or unobserved
+clients before extraction. All 248 project tests and 42 subtests pass, including
+six transport cases using mock HTTP rather than paid calls. Shared-library
+verification passed 178 tests; its baseline control reproduced the unwanted SDK
+retry. This closes the tested repair increment, not deployment of the patched
+runtime, complete invoice accounting, extraction acceptance or P4.
+
+For wrap-up, keep implementation completion and evidence qualifications distinct:
+finish the remaining required pipeline gates, freeze the accepted dataset once,
+then reconcile copy/consumers and publish/verify that exact revision. Already
+withheld cases stay explicitly withheld unless new primary evidence changes
+their disposition. Do not restart completed broad searches to fill time. The
+remaining workload still does not support a defensible completion ETA.
+
 The [frozen three-document trial](../work/research/2026-11-06/frozen-domain-evaluation/README.md) supplies actual model, reviewer-disagreement, coverage and estimated-spend measurements. It does not pass its source-support criterion:32/36candidates fully supported, four ambiguous,11/12requiredslots matched, zero review-ready documents. Numerical/shape/quote success does not resolve statutory roles, actor/territory, advisory-axis or reporting-completeness ambiguity. These outcomes are evidence for the next development changes, not grounds to close P4 or publish the final release. No canonical data changed.
 
 The evaluation also exposed a transport-accounting gap: bc-llm max_attempts1does not disable the installed OpenAI SDK default of two retries. Ten accounted backend calls and their successful-call estimated usage costs are verified; actual provider HTTP-attempt count is not captured. The intended thirteen-provider-request limit is therefore unverified, not known exceeded. Backend reservations stay within their recorded limits, while failed/retried provider charges and CLI spend are not a complete invoice. Strict transport retry/attempt controls must be fixed before claiming a provider-level cap. See [SDK audit](../work/research/2026-11-06/frozen-domain-evaluation/sdk-retry-audit.json).
