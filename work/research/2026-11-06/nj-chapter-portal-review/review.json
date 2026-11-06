@@ -1,0 +1,61 @@
+{
+  "status": "bounded_acquisition_gap_no_canonical_change",
+  "portal_source": {
+    "attempt_id": "f0913225d28648398c6d29561bf7329b",
+    "url": "https://www.njleg.state.nj.us/chapter-laws",
+    "body_sha256": "e7059693bfeef8688a3f70eb826a2cb0b04a18bd9bd0e6887613d9040b5b1bcf",
+    "text_sha256": "fe197ac867cc6ca38a6dd04a56ada60b28801bf8b4c495d0e08d0bf1b97eab87",
+    "browser_controls": {
+      "engine": "pydoll",
+      "headless": false,
+      "settle_ms": 5000,
+      "record_network": true
+    }
+  },
+  "discovered_request": {
+    "url": "https://www.njleg.state.nj.us/api/chapterLaws",
+    "method": "GET",
+    "resource_type": "fetch",
+    "status": 200,
+    "mime": "application/json",
+    "size": 311,
+    "from_cache": false,
+    "duration_ms": null,
+    "failure": null
+  },
+  "api_source": {
+    "attempt_id": "63eda9964cb3471f81a62ef0024c7e49",
+    "url": "https://www.njleg.state.nj.us/api/chapterLaws",
+    "body_sha256": "ae785a466f28647d23d181931670639496ae64a7feaaaa66624cc3da1adeee1c",
+    "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "status": 200,
+    "ok": true
+  },
+  "response_parts": [
+    8133,
+    13764,
+    31,
+    238
+  ],
+  "part0_records": 8133,
+  "observed_2026_rows": 72,
+  "highest_observed_2026_chapter": 70,
+  "latest_observed_2026_approval_date": "2026-08-06",
+  "chapter75_or_s3379_in_returned_2026_rows": false,
+  "interpretation": "Observed catalogue coverage does not reach the later chapter75 approval separately recorded in official bill history. Not proof of statutory absence, repeal or failure of enactment. No effective date inferred.",
+  "canonical_data_changed": false,
+  "derivation": {
+    "attempt_id": "63eda9964cb3471f81a62ef0024c7e49",
+    "source_body_sha256": "ae785a466f28647d23d181931670639496ae64a7feaaaa66624cc3da1adeee1c",
+    "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "derived_text_sha256": "a06e0f5191f7759ce54e609e5ee771fe97385653056f088620f7fa451dda79b7",
+    "method": "Parsed complete API JSON; part0 filtered exactly PamphletLaw==2026, with original part0 count and explicit projection scope. Original empty client extraction preserved. No absence or legal-effect inference.",
+    "pages": [
+      1
+    ],
+    "reviewer": "coordinator",
+    "review_status": "accepted_derivation",
+    "reviewed_at": "2026-11-06T13:53:11.246399+00:00",
+    "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+  }
+}

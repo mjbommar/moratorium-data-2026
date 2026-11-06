@@ -18,6 +18,7 @@ class ClientTests(unittest.TestCase):
             p=Path(tmp);(p/'client-config.json').write_text(json.dumps({'caps':{'fetch':1,'search_total':1,'gdelt':1}}))
             script=Path(__file__).resolve().parents[1]/'scripts/research_client.py'
             for args in (['fetch','https://example.invalid','--mode','http','--settle-ms','5000'],
+                         ['fetch','https://example.invalid','--mode','http','--record-network'],
                          ['search','query','--backend','gdelt','--domain','example.invalid']):
                 result=subprocess.run([sys.executable,str(script),'--directory',str(p),*args],capture_output=True,text=True)
                 self.assertEqual(result.returncode,2)

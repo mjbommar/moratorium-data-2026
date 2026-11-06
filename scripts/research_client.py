@@ -125,6 +125,7 @@ async def execute(args):
             controls={"engine":"pydoll","headless":False} if args.mode=='browser' else {}
             if args.settle_ms is not None:controls['settle_ms']=args.settle_ms
             if args.wait_for_selector:controls['wait_for_selector']=args.wait_for_selector
+            if args.record_network:controls['record_network']=True
             async with Retriever(BcWebSettings(timeout_ms=45000)) as r:
                 result = await asyncio.wait_for(r.fetch(args.url, mode=args.mode,
                     **controls), timeout=85)
@@ -162,10 +163,11 @@ if __name__ == "__main__":
     q.add_argument("--domain",dest="domains",action="append",default=[],help="Native backend include_domains filter; repeat for multiple domains. Exa sends includeDomains, SerpAPI compiles site operators. Returned hosts are diagnosed.")
     f = s.add_parser("fetch"); f.add_argument("url"); f.add_argument("--mode", choices=["http", "auto", "browser"], default="auto")
     f.add_argument('--settle-ms',type=int,choices=range(0,15001),metavar='0..15000',help='Bounded additional browser settle time for JavaScript portals')
+    f.add_argument('--record-network',action='store_true',help='Retain browser subrequest metadata privately for portal endpoint discovery')
     f.add_argument('--wait-for-selector',help='Wait for a known rendered CSS selector in explicit browser mode')
     args=p.parse_args()
     if args.action=='search' and args.domains and args.backend not in ('exa','serpapi'):
         p.error('--domain is supported only for Exa and SerpAPI in this client')
-    if args.action=='fetch' and (args.settle_ms is not None or args.wait_for_selector) and args.mode!='browser':
+    if args.action=='fetch' and (args.settle_ms is not None or args.wait_for_selector or args.record_network) and args.mode!='browser':
         p.error('browser wait controls require --mode browser')
     asyncio.run(execute(args))
