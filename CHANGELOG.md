@@ -62,18 +62,23 @@ gaps. All 1,321 preceding rows are unchanged. Washington now has 44 instruments;
 all states tied at tenth remain in README rankings. Source units and conditional
 calendar endpoints are preserved rather than silently normalized.
 
-Current totals are 1,324 local instruments (1,079 classified active or extended,
-78 pending, 167 past) and 442 state-policy records (95 classified enacted).
+The New York discovery review adds Niagara's publisher-recorded historical
+moratorium and Massena's six-calendar-month proposal, including its explicit
+crypto definition. Eight other candidates retain final-action, filing, identity
+or term-conflict gaps. All 1,324 preceding rows remain unchanged.
+
+Current totals are 1,326 local instruments (1,079 classified active or extended,
+79 pending, 168 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1324** |
+| Moratoria in the list | **1326** |
 | Classified active or extended | **1079** |
-| Pending or not yet effective | **78** |
-| Ended (replaced, expired, or rescinded) | **167** |
-| Rows we still want to confirm (`[VERIFY]`) | **697** |
+| Pending or not yet effective | **79** |
+| Ended (replaced, expired, or rescinded) | **168** |
+| Rows we still want to confirm (`[VERIFY]`) | **699** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained

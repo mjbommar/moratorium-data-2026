@@ -3,7 +3,7 @@
 
 Working inventory for New York, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**150 instruments** — 110 in force, 5 pending, 35 past.
+**152 instruments** — 110 in force, 6 pending, 36 past.
 
 State policy is tracked separately: **11 actions** (10 bills and 1 non-bill action) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -79,6 +79,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 | Mamakating | Town | Unverified | data center | 🟡 Pending |
 | Mamaroneck Village | Village | 2024-10-31 | battery storage | ⚪ Expired |
 | Manlius | Town | 2026-07-08 | data center, cryptocurrency mining | 🟢 Active |
+| Massena | Town | Unverified | data center, cryptocurrency mining | 🟡 Pending |
 | Mentz | Town | 2025-06 | battery storage | 🟢 Active |
 | Milton (Saratoga County) | Town | 2024-12 | battery storage, solar | 🟢 Extended |
 | Mina | Town | 2025-05-02 | battery storage | 🟢 Extended |
@@ -89,6 +90,7 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 | Newfane | Town | 2026-02 | battery storage | ⚪ Expired |
 | Newfield | Town | 2026-07-09 | data center, cryptocurrency mining | 🟢 Active |
 | Newstead | Town | 2024-07-08 | battery storage, solar | ⚪ Expired |
+| Niagara | Town | 2024-09-17 | data center, cryptocurrency mining, battery storage | ⚪ Expired |
 | Norfolk | Town | 2025-06 | battery storage | 🟢 Active |
 | North Harmony | Town | 2025 | battery storage, solar | 🟢 Extended |
 | North Hempstead | Town | 2024-12-03 | battery storage | 🟢 Extended |
@@ -1282,6 +1284,22 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Detailed status:** July 9 reporting describes a unanimous 7-0 Wednesday-night vote, corresponding to July 8, for a one-year data-processing/cryptomining moratorium. Final adopted text, filing and operative interval were not established by this review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** The Manlius Town Board unanimously (7-0) approved a one-year moratorium on data processing centers and commercial cryptocurrency mining operations.
 
+### Massena
+
+- **Type:** Town
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Proposed six calendar months from Secretary of State filing, unless sooner repealed; extension by further local law after hearing/findings
+- **Current end date:** `—`
+- **Sectors:** data center, cryptocurrency mining
+- **Moratorium ID:** `ny-massena-undated`
+- **Legal basis:** Proposed local law, number blank, data-center development moratorium
+- **What prompted it:** Town studies data-center zoning standards.
+- **Affected projects:** —
+- **Detailed status:** Official September notice publishes proposed six-month local law. Source-stage pending classification only. [VERIFY corrected linked version, adoption/abandonment, filing/effectiveness, later action and coordinates]
+- **Outcome:** —
+
 ### Mentz
 
 - **Type:** Town
@@ -1441,6 +1459,22 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 - **Affected projects:** —
 - **Detailed status:** July 8, 2024 minutes record Local Law 2 establishing a six-month BESS moratorium; wind Law 3 is separate. December 8, 2025 minutes record later BESS Law 5. The complete continuation, original solar scope and later operative interval remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Six-month moratorium on BESS facilities and solar installations with battery storage, plus a parallel wind moratorium.
+
+### Niagara
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** 2024-09-17
+- **Normalized date:** `2024-09-17` (exact)
+- **Duration:** One calendar year; possible six-month extensions up to two years total; publisher records expiry September 17, 2025
+- **Current end date:** `2025-09-17`
+- **Sectors:** data center, cryptocurrency mining, battery storage
+- **Moratorium ID:** `ny-niagara-2024`
+- **Legal basis:** Local Law 4-2024 (official code section)
+- **What prompted it:** Town studies data-processing, crypto and battery development.
+- **Affected projects:** —
+- **Detailed status:** Official code publisher reports September 17, 2025 expiry of September 17, 2024 local-law moratorium. Historical recorded-expiry classification only. [VERIFY full original enactment/filing, later extensions/actions, present restrictions and coordinates]
+- **Outcome:** —
 
 ### Norfolk
 

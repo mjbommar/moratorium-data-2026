@@ -1,0 +1,36 @@
+{
+  "state": "passed_with_existing_warning_limits",
+  "baseline_commit": "58e2218694a69039055c97217186ba023ccf36b8",
+  "prior_rows_preserved": 1324,
+  "new_ids": [
+    "ny-massena-undated",
+    "ny-niagara-2024"
+  ],
+  "inventory_rows": 1326,
+  "inventory_sha256": "b717614f77c83d9deb2020431486a4b17a2878d21f9b9fd5a7f21126ce4ba345",
+  "state_policy_and_expanded_jsonl": "All unchanged from baseline",
+  "candidate_dispositions": 10,
+  "withheld_cases": 8,
+  "visual_page_hashes_reverified": 9,
+  "make_data_site_check_exit_code": 0,
+  "dataset_errors": 0,
+  "dataset_warnings": 291,
+  "new_row_warnings": 0,
+  "documented_numbers_matched": 49,
+  "readme_rank_sentences_checked": 2,
+  "replay": {
+    "rows_added": 0,
+    "rows_touched": 0,
+    "output_sha256": "d26065396803be344160c78e7b18b5c4fa739b2827b9bbc3a9a21d401b8a7c7e"
+  },
+  "accounting_replay_byte_identical": true,
+  "build_log_sha256": "c5bcaedffe04380c93fb310737cbdc49c1879cc276b36ade6345fffcb4a43f15",
+  "review_sha256": "a0ce17c2b955961b85f80ad4cdc869940e16d8054517e3ba2f48bf115ed9d944",
+  "accounting_sha256": "366717cfb14a9c22445b4d021d9d1a5d15120186ebd5da8589c9fe3da207ca45",
+  "archive_receipt_sha256": "886e89e36658030de56f30b3c6a543aef4afa31b181ada50cd44e3b193e78ec5",
+  "rank_receipt_sha256": "fa4f7524a287b4ac1416e1ee37c791a6f28ffb3e485a2d0dce4b44e91816ba24",
+  "apply_receipts": [
+    "work/audit/apply-20261106T133127.json"
+  ],
+  "scope": "Ten frozen New York dispositions, two source-scoped additions, exact prior-row/expanded-byte preservation, source/visual/replay and generated publication checks. No full freshness, full extraction, final release or deployment claim."
+}

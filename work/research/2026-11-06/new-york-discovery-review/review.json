@@ -1,0 +1,360 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "baseline_commit": "58e2218694a69039055c97217186ba023ccf36b8",
+  "candidates": [
+    {
+      "candidate_key": "discovery-ny:0",
+      "candidate_sha256": "3272a74a29a978e7cd6ae2278d96a58fab7704732f488a82081044dccc0ae0f7",
+      "worker_review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a",
+      "coordinator_disposition": "reviewed_historical_instrument_added",
+      "rationale": "Official code section added September 17, 2024 by Local Law 4-2024 imposes one-calendar-year data processing, crypto and battery moratorium; publisher explicitly notes September 17, 2025 expiry. Accept source-recorded historical interval only; full original act/filing and later extensions/current restrictions remain unverified. Town of Niagara, not Niagara County or Niagara Falls.",
+      "source_checks": [
+        {
+          "attempt_id": "78a3b1ffca4f4986a04301a56c2be2fd",
+          "url": "https://ecode360.com/50043656",
+          "body_sha256": "a35b95c3545248b9660582599813fde5b9ffc0c3e874929b68ac08288f9e2ec9",
+          "text_sha256": "0e84b2ada4ba7c3c10e50d01cfd19e39cebd139ed523a12560d5efb08d21c50b",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                0,
+                39
+              ],
+              "quote_sha256": "efeb759f58fe427df37094fc83482950c952963c5534f080cb1b5d6d5b696f10"
+            },
+            {
+              "located_unicode_span": [
+                41,
+                107
+              ],
+              "quote_sha256": "056a4a4c3d4d5b211bcdf641435ab17c4ab9d23a3b668dbbc48219a6d6a1fc4d"
+            },
+            {
+              "located_unicode_span": [
+                713,
+                776
+              ],
+              "quote_sha256": "325de8d9dd21c03b3449e50099ba4b95eef983f0d73cc4ab52c47c5cfe893992"
+            }
+          ],
+          "read_scope": "Complete retained extraction"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ny:1",
+      "candidate_sha256": "af06f9c885e19c1a9dec11e453bd149719785c68a1e5d84d85270c9174c91e8e",
+      "worker_review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "All four PDF pages inspected, including blank page 4. Local Law 2 is data-center/accessory/crypto text distinct from baseline Local Law 1 battery-storage record. Title, intent and Section 5 specify twelve months; Section 10 says nine months from passage. No adoption/date/signature/filing proof. Previously granted special use permits excluded; hardship process exists. Hold final identity/term/adoption/filing and later action; do not overwrite existing battery record.",
+      "source_checks": [
+        {
+          "attempt_id": "1b603d28c3d04642b9ec3f6bb98479e8",
+          "url": "https://ecode360.com/SP6729/laws/LF2746940.pdf",
+          "body_sha256": "3014f56f47a5669a2e1dafa3a971d9c0705829fcc620dded3e8c9060a4f078b7",
+          "text_sha256": "b13999305bdb72c4511036154adcb779af589b984963a883be38764a048e723a",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                0,
+                40
+              ],
+              "quote_sha256": "0404853011a3df88ccc57f69f28c952786138c06fd1ac67dd52608fd3a2aa722"
+            },
+            {
+              "located_unicode_span": [
+                66,
+                94
+              ],
+              "quote_sha256": "c3024afff53322a1b18470f2f6efba07424fa08f025c48bba93bd1ce63b67eb7"
+            },
+            {
+              "located_unicode_span": [
+                8662,
+                8704
+              ],
+              "quote_sha256": "64ecf59c06c53b3df8b1a1feed30811f839e94072863e06c947dddd344ad8c54"
+            }
+          ],
+          "visual_review": {
+            "scope": "All retained PDF pages visually inspected",
+            "document_pages": 4,
+            "render_scale_pixels": 1350,
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "f95c96bc3f8033f373c45ccda0facb25d64b262b52230bfb4b2704b7c5b31f13"
+              },
+              {
+                "page": 2,
+                "image_sha256": "11512b1429972096340ecdb69761f94edd029236993261b7e343e53ac228ad63"
+              },
+              {
+                "page": 3,
+                "image_sha256": "54ca66da90d6a2d1a7ba50615917829c68f9e9c61de0278c563abee3ba9537cd"
+              },
+              {
+                "page": 4,
+                "image_sha256": "78d6b624cbf7b4012f30525eace6ed5a71b07d557d74b28025b550d4a168c489"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ny:2",
+      "candidate_sha256": "d459b88292e379b2c4347950da889b0fb0ed196def0f83da6102e32c479b9512",
+      "worker_review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "News reports unanimous Monday-night approval of one-year data-center pause, without exact independently established adoption date, instrument text or filing. Article also claims a statewide executive action outside this candidate review; do not import that assertion as verified policy. Hold original municipal act, operative dates and later action.",
+      "source_checks": [
+        {
+          "attempt_id": "b646ec6efc4e4c74923813e7ce5a47ec",
+          "url": "https://spectrumlocalnews.com/nys/buffalo/news/2026/11/03/hamburg-town-board-approves-data-center-moratorium",
+          "body_sha256": "3b9fac4b0df7e63ec423f2ef0fcc80bf7f0b32459e374dcd0609ba2b261212ad",
+          "text_sha256": "925dff8dd1faad90bcfd1fe70e9d41762b41342bdd7f72651978734b7606aa33",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                0,
+                74
+              ],
+              "quote_sha256": "5d48b826b642f021ffcab63028f08d556162b849564162d01c688b3d07e8c5a0"
+            }
+          ],
+          "read_scope": "Complete retained extraction"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ny:3",
+      "candidate_sha256": "14126d6f9805dc9108cae714c71fc9d979678aa2cc36851b504a087683ad8df9",
+      "worker_review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "All three numbered Local Law 3 PDF pages inspected. One calendar year from filing; no execution/adoption/filing record. Scope targets off-property sale/use, excludes solely on-property generation and specified building-mounted panels. Pending and unfiled applications covered; no-variance provision. Hold lifecycle proof rather than infer enactment from numbered title or pending status from missing signature.",
+      "source_checks": [
+        {
+          "attempt_id": "ce2765c4c2eb4916a3b89acd3354a48d",
+          "url": "https://townofwaltonny.gov/wp-content/uploads/2026/04/LOCAL-LAW-3-OF-2026-SOLAR-ENERGY-MORATORIUM.pdf",
+          "body_sha256": "0d44195687178c4bada0150542cc906165760924bbe92c00921572097f9b38fe",
+          "text_sha256": "953da491f9f80e9bacdf68a5ac4a4ba32fbec8a22f61a22772a7ae4cd362d3f7",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                120,
+                144
+              ],
+              "quote_sha256": "750c1f61579f2883545a2d7ee5a1eafbbf1319e1d57efa7b5c7232eee30f304d"
+            },
+            {
+              "located_unicode_span": [
+                17,
+                93
+              ],
+              "quote_sha256": "198ed096d5a08ec77145f63f6b772e200ea9a3214e5058da22e9e48a8391100d"
+            }
+          ],
+          "visual_review": {
+            "scope": "All retained PDF pages visually inspected",
+            "document_pages": 3,
+            "render_scale_pixels": 1350,
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "59bbbd60eec267f2e69f39a6f996fdbaaf083dc4eef3634741e4ac0ed0f01d28"
+              },
+              {
+                "page": 2,
+                "image_sha256": "24c563b85fbd893e8db4cb87d29f4df4ce026254a93c576a268456dee0760134"
+              },
+              {
+                "page": 3,
+                "image_sha256": "960076f45fb7a7061138f2848b194217704f27f21a3c8b732fc9228537bc6149"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ny:4",
+      "candidate_sha256": "9e4f6fd5ca591fecb8133e3a018abe0dc5761dd85d0b6f0c9c05faf9b3d88a9a",
+      "worker_review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Both Local Law 2 PDF pages inspected. Twelve calendar months from filing, commercial data-center definition includes crypto and externally supplied IT services; hardship variance process. No adoption/filing evidence in retained text. Hold lifecycle/operative anchors rather than treat number as adoption proof or absence of execution as proof of pending stage.",
+      "source_checks": [
+        {
+          "attempt_id": "cc4f3a1b1fa742ee9aef7ae73a4cf8c3",
+          "url": "https://www.townofmtmorrisny.gov/_files/ugd/80e0ed_236a32bfa9a14eb4a7c0fdff16b1f40a.pdf",
+          "body_sha256": "6a4d5d86fd277f77fbd95c65118654df1f588468e5410966b49c73bec925ce7c",
+          "text_sha256": "74281705391677c622de6dc1a0eb39885601c13e0c15ef8a2840c843491ba108",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                32,
+                64
+              ],
+              "quote_sha256": "2d6b91e7f4bc64ea879dadd2a61694f7857f55f066dbd0115f0f6d2a01518240"
+            },
+            {
+              "located_unicode_span": [
+                66,
+                137
+              ],
+              "quote_sha256": "cbf5de9b25f9121b69fd7f9a74d44cdd41c6d4e756c686bca2058fda4d5f610e"
+            }
+          ],
+          "visual_review": {
+            "scope": "All retained PDF pages visually inspected",
+            "document_pages": 2,
+            "render_scale_pixels": 1350,
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "2024b0d56c3fcba08766bc86d70652110d277ca81ab674e2a7003b25891fe651"
+              },
+              {
+                "page": 2,
+                "image_sha256": "17b43744234d0c319af55166ed08e2e46d0ad62f750d9fced2680d7ed715f885"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ny:5",
+      "candidate_sha256": "eba917f14044bc8343b5c55611e9ab45bbc22e9105822397d2ed874b61c93fc6",
+      "worker_review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a",
+      "coordinator_disposition": "reviewed_pending_proposal_added",
+      "rationale": "Official posted text explicitly describes proposed six-calendar-month data-center local law with blank number; effect contingent on Secretary of State filing. Definition expressly includes crypto, correcting single-sector worker candidate. Accessory/incidental same-lot computing excluded only with connected load below 1 MW; telecom/public-utility-control exclusions and hardship relief separate. Header claims corrected numbering, but retained embedded text still jumps Section 7 to 9; do not claim linked corrected version inspected. Accept source-stage pending only, no adoption/filing or present-force finding.",
+      "source_checks": [
+        {
+          "attempt_id": "65f37512c0bf41528d984907b7547c07",
+          "url": "https://massena.us/m/newsflash/Home/Detail/114",
+          "body_sha256": "4f5ef9b7b90bbdf061bca0d433d932376506dd48e5ff4c4684488f4e5d8e9795",
+          "text_sha256": "5f14a9578db96e907926f72f1282ac3d403a27e2bb3831ccec243b05f29baef0",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                495,
+                520
+              ],
+              "quote_sha256": "d5baf6cc4bc59c138998eb21eea6df0331d8ae635e74d22e7e7a1a72d79cc9a8"
+            },
+            {
+              "located_unicode_span": [
+                3099,
+                3179
+              ],
+              "quote_sha256": "d40d3fcddb6176aafe527e9439acc8a53f47701158c2315f57652f54ec8db956"
+            }
+          ],
+          "read_scope": "Complete retained extraction"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ny:6",
+      "candidate_sha256": "e7b3ea1b18d3d1bf0c6421ea8d51c94282a6b16f66932175f50ca8551431bce2",
+      "worker_review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Commercial battery supplier account reports February 6, 2026 unanimous six-month Troy BESS pause. Review limited to relevant opening and moratorium discussion; marketing safety/causal claims not accepted. Recover official original act, vote, operative dates and extensions before historical/current classification.",
+      "source_checks": [
+        {
+          "attempt_id": "8152ac3ed63a4f2b89ce044e8f3549cc",
+          "url": "https://eticaag.com/troy-ny-approves-six-month-bess-moratorium/",
+          "body_sha256": "830b975be2ecbe5d5c0ee86818d9eb95d5017d50bc90d0d6ed9684625330781b",
+          "text_sha256": "f107ac93b90945d4aa877708a08fe4c6d4f30e515301d7f97782d9764892c4cd",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                382,
+                535
+              ],
+              "quote_sha256": "270cbd806398bbf08c4e9e3d8149e3566ac3a02429eedbb0eca137dbb2bcb56b"
+            }
+          ],
+          "read_scope": "Relevant opening and moratorium discussion in first 7500 extracted characters; marketing remainder not substantively reviewed"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ny:7",
+      "candidate_sha256": "d71506d766512e5d286a55c82690d9ab1f0d14e4615835660719ab0cbf59f1ce",
+      "worker_review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "One September 22 article reports September 14 unanimous six-month solar, wind and battery bans, but does not supply three underlying instrument identities or filing/effectiveness records. Solar candidate held; do not allocate three rows from sector mentions alone.",
+      "source_checks": [
+        {
+          "attempt_id": "679a6c0f4d4e416288d0f6e96e1e1d27",
+          "url": "https://607newsnow.com/news/258852-preble-oks-temporary-bans-on-solar-wind-energy-systems/",
+          "body_sha256": "755ff803b08e8bfc8e800297f3de6b0c92e03235826dd03f8365fe6d1c9f4025",
+          "text_sha256": "a65176aa4832c5cd9a439346f6c037ac75b21372f250baa7dc162d22aa8ca93d",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                212,
+                380
+              ],
+              "quote_sha256": "19f35c18a62418d36c51ab672e097a2d9ddf20d777619eb59611d2716d92e4a5"
+            }
+          ],
+          "read_scope": "Complete retained extraction"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ny:8",
+      "candidate_sha256": "c9f625def9fd67f8b5ffb06f83d1781d70cb04bc97187e5d2c2de8dab7accf9e",
+      "worker_review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Same article/shared lineage as solar and battery candidates; reported six-month wind pause lacks original instrument identity and operative filing dates. Hold separately without asserting independent corroboration or merging distinct possible acts.",
+      "source_checks": [
+        {
+          "attempt_id": "679a6c0f4d4e416288d0f6e96e1e1d27",
+          "url": "https://607newsnow.com/news/258852-preble-oks-temporary-bans-on-solar-wind-energy-systems/",
+          "body_sha256": "755ff803b08e8bfc8e800297f3de6b0c92e03235826dd03f8365fe6d1c9f4025",
+          "text_sha256": "a65176aa4832c5cd9a439346f6c037ac75b21372f250baa7dc162d22aa8ca93d",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                212,
+                380
+              ],
+              "quote_sha256": "19f35c18a62418d36c51ab672e097a2d9ddf20d777619eb59611d2716d92e4a5"
+            }
+          ],
+          "read_scope": "Complete retained extraction"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ny:9",
+      "candidate_sha256": "6127d55536de9cbd46bf5734a49522ebc0658d1b84378af1608f9ddaba2ad50d",
+      "worker_review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Same article/shared lineage as solar and wind candidates; reported six-month storage pause lacks original instrument identity and operative filing dates. Hold separately without asserting independent corroboration or merging distinct possible acts.",
+      "source_checks": [
+        {
+          "attempt_id": "679a6c0f4d4e416288d0f6e96e1e1d27",
+          "url": "https://607newsnow.com/news/258852-preble-oks-temporary-bans-on-solar-wind-energy-systems/",
+          "body_sha256": "755ff803b08e8bfc8e800297f3de6b0c92e03235826dd03f8365fe6d1c9f4025",
+          "text_sha256": "a65176aa4832c5cd9a439346f6c037ac75b21372f250baa7dc162d22aa8ca93d",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                212,
+                380
+              ],
+              "quote_sha256": "19f35c18a62418d36c51ab672e097a2d9ddf20d777619eb59611d2716d92e4a5"
+            }
+          ],
+          "read_scope": "Complete retained extraction"
+        }
+      ]
+    }
+  ]
+}
