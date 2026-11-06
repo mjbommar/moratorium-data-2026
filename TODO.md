@@ -186,6 +186,7 @@ Exit: every seed has a documented disposition; evidence gaps are visible rather 
 
 ## P6 — Public release and sibling handoff
 
+- [x] Capture initial tracked-text surface catalogue across seven current checkouts with hashes and match locations (`work/audit/release-surfaces-2026-11-06.md`); relevance, manual claim review, binary/rendered outputs and final consumer dispositions remain open.
 - [ ] Inventory every affected current prose/copy/summary surface using the matrix in plan section 9.2; assign source, owner and disposition.
 - [ ] Generate additive ballot/result/restriction/link exports and expanded codebook/schema documentation.
 - [ ] Update state pages, site views, maps/GeoJSON and tables with separate counts and denominators.
