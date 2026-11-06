@@ -267,9 +267,9 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Source-body availability checkpoint
 
-The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-tx-review-2026-11-06.json)
-covers 6,512 manifest entries, with hash-matching bodies available through listed
-paths for 3,069 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-ri-review-2026-11-06.json)
+covers 6,518 manifest entries, with hash-matching bodies available through listed
+paths for 3,075 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.
@@ -388,3 +388,7 @@ The [Tennessee review](../work/research/2026-11-06/tennessee-discovery-review/RE
 ## Texas adoption, authority requests and drafts
 
 The [Texas evidence review](../work/research/2026-11-06/texas-discovery-review/README.md) confirms signed February 11, 2026 approval on Van Zandt’s direct county scan pages 1–3. Its original extraction is empty; remaining attachments are outside this scoped visual review. RQ-0634-KP is a February 24 request by Delta County’s attorney, received February 25, not an issued Attorney General opinion or a Delta moratorium. Adoption and asserted authority do not prove enforceability or current force. Tom Green’s four-page unincorporated Precinct 4 draft has blank execution fields, and reporting says the May 26 motion was tabled. Neither its twelve-month proposal nor its geographic/size thresholds are treated as an adopted countywide restriction. No canonical counts change.
+
+## Rhode Island failed proposals and historical distinctions
+
+The [Rhode Island review](../work/research/2026-11-06/rhode-island-discovery-review/README.md) keeps Portsmouth’s unsigned additional-pause draft and reported failed motion separate from its earlier 2021 solar moratorium. Warwick’s reported November 2021 passage requires a public-notice effectiveness anchor, and is distinct from West Warwick’s wind pause. Coventry’s reported 2015 wind and later solar pauses are separate candidates within one shared article, not two independent sources or a single merged instrument. Charlestown’s earlier wind pause is distinct from a later ban. Hopkinton’s LLM-assisted recap requires original dated records before accepting exact terms or later renewal. These six dispositions do not change canonical inventory or ballot counts.
