@@ -1,0 +1,68 @@
+{
+  "state_abbrev": "TX",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "tx-brownsville-undated",
+      "outcome": "status_changed",
+      "new_enacted_status": "active",
+      "changes": {
+        "date_enacted": {
+          "from": "",
+          "to": "2026-11-04, according to November 5 reporting of the city commission decision; official final action record not located.",
+          "reason": "November 4 final-reading agenda and contemporaneous report."
+        },
+        "date_enacted_iso": {
+          "from": "",
+          "to": "2026-11-04",
+          "reason": "Same reported adoption date."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Contemporaneous report explicitly dates the meeting November 4."
+        },
+        "legal_basis": {
+          "from": "Resolution No. 2026-121 (initiating the moratorium process)",
+          "to": "Ordinance No. 2026-1826, identified on the November 4 final-reading agenda; earlier Resolution No. 2026-121 initiated the process.",
+          "reason": "City agenda identifies ordinance; news reports decision."
+        },
+        "current_status": {
+          "from": "Pending as of 2026-09-23; the City Commission voted on 2026-09-01 (Resolution No. 2026-121) to direct the city manager to begin the formal process for a 90-day moratorium on high-intensity data processing facilities, private gaming clubs, quick-lube facilities, event centers and self-storage facilities. Under Texas law the moratorium requires three public hearings (30 days between the first and second) before it takes effect, so it had not yet taken effect as of the reference date.",
+          "to": "The November 4 agenda schedules second/final reading of Ordinance 2026-1826, covering a 90-day application pause for high-intensity data-processing facilities in the city and ETJ. November 5 news reports the November 4 decision and officials describe next-day effectiveness. The report uses both additional and initial 90-day wording; no adopted extension or permanent ban is established. Official final vote, signed text and operative interval remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        },
+        "enacted_status": {
+          "from": "pending",
+          "to": "active",
+          "reason": "Reported decision and next-day effectiveness, corroborated by final-reading agenda; official final action record remains outstanding."
+        },
+        "outcome": {
+          "from": "City beginning statutory hearing process required before a moratorium can take effect",
+          "to": "A 90-day data-processing application moratorium was reported adopted on November 4; officials described effectiveness the next day.",
+          "reason": "Contemporaneous reporting; scope and number from official agenda."
+        }
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://brownsvilletx.portal.civicclerk.com/event/3267/files",
+          "source_type": "agenda",
+          "supports": "Agenda identifies the ordinance and its proposed final reading; agenda is not proof of passage.",
+          "quote": "Ordinance Number 2026-1826 enacting a 90-day moratorium",
+          "document_date": "2026-11-04"
+        },
+        {
+          "url": "https://www.telemundo40.com/noticias/local/centros-de-datos-en-brownsville-extienden-suspension-de-permisos-por-otros-90-dias/2556220/",
+          "source_type": "news",
+          "supports": "Reports November 4 decision; next-day effectiveness is reported separately in the article.",
+          "quote": "la ciudad decidi\u00f3 demorar otros 90 d\u00edas la instalaci\u00f3n de nuevos centros de datos",
+          "document_date": "2026-11-05"
+        }
+      ],
+      "notes": "News headline describes an extension, but article calls this an initial 90-day suspension and says extension procedures would be prepared later. No extension is asserted. Official final passage and signed instrument remain to be verified."
+    }
+  ],
+  "new_candidates": []
+}

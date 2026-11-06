@@ -3,14 +3,14 @@
 
 Working inventory for Texas, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**11 instruments** — 5 in force, 4 pending, 2 past.
+**11 instruments** — 6 in force, 3 pending, 2 past.
 
 State policy is tracked separately: **11 actions** (10 bills and 1 non-bill action) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | Austin County | County | 2026-07-27 | data center, battery storage | 🟢 Active |
-| Brownsville | City | Unverified | data center | 🟡 Pending |
+| Brownsville | City | 2026-11-04 | data center | 🟢 Active |
 | Denton | City | Unverified | data center | 🟡 Pending |
 | Fort Worth | City | Unverified | data center | 🟡 Pending |
 | Harlingen | City | 2026-05-20 | data center | 🟢 Extended |
@@ -42,18 +42,18 @@ State policy is tracked separately: **11 actions** (10 bills and 1 non-bill acti
 ### Brownsville
 
 - **Type:** City
-- **Status:** 🟡 Pending
-- **Date enacted:** —
-- **Normalized date:** `—` (unverified)
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-11-04, according to November 5 reporting of the city commission decision; official final action record not located.
+- **Normalized date:** `2026-11-04` (exact)
 - **Duration:** 90 days (once formally adopted)
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `tx-brownsville-undated`
-- **Legal basis:** Resolution No. 2026-121 (initiating the moratorium process)
+- **Legal basis:** Ordinance No. 2026-1826, identified on the November 4 final-reading agenda; earlier Resolution No. 2026-121 initiated the process.
 - **What prompted it:** No existing UDC regulations addressing high-intensity data processing facilities
 - **Affected projects:** None identified
-- **Detailed status:** Pending as of 2026-09-23; the City Commission voted on 2026-09-01 (Resolution No. 2026-121) to direct the city manager to begin the formal process for a 90-day moratorium on high-intensity data processing facilities, private gaming clubs, quick-lube facilities, event centers and self-storage facilities. Under Texas law the moratorium requires three public hearings (30 days between the first and second) before it takes effect, so it had not yet taken effect as of the reference date.
-- **Outcome:** City beginning statutory hearing process required before a moratorium can take effect
+- **Detailed status:** The November 4 agenda schedules second/final reading of Ordinance 2026-1826, covering a 90-day application pause for high-intensity data-processing facilities in the city and ETJ. November 5 news reports the November 4 decision and officials describe next-day effectiveness. The report uses both additional and initial 90-day wording; no adopted extension or permanent ban is established. Official final vote, signed text and operative interval remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** A 90-day data-processing application moratorium was reported adopted on November 4; officials described effectiveness the next day.
 
 ### Denton
 

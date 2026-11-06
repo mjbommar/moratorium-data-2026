@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Brownsville’s pending classification is updated from November 5 reporting of the November 4 decision, with Ordinance 2026-1826 identified from the official final-reading agenda. Reported next-day effectiveness remains qualified pending the signed text and official vote. Conflicting initial/additional 90-day language does not establish an adopted extension or permanent ban. Texas accounting covers all 11 existing IDs: one bounded correction applied and ten other returns awaiting disposition.
+
 Rhea County’s scanned July 21 minutes visually confirm Resolution 26-07-53 and the carried approval motion, all ayes, no nays, Fisher absent. The accepted OCR derivative covers only the first eight pages of part 1 and does not establish the underlying resolution’s full terms or later force. Tennessee accounting now records 14 bounded corrections applied and 31 other returns awaiting disposition.
 
 Wilson County voting results identify Resolution 26-7-2 and unanimous passage; its six-month term remains news-qualified. Jonesborough’s original final passage is corrected to November 3, 2025, distinct from October first reading; later zoning approval alone does not establish repeal or supersession. Tennessee accounting reconciles all 45 existing IDs: 13 bounded corrections applied, one scanned-minute proposal deferred and 31 other returns awaiting disposition. No complete current-force history is asserted.
@@ -179,10 +181,10 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1293** |
-| In force (active or extended) | **1069** |
-| Pending or not yet effective | **69** |
+| In force (active or extended) | **1070** |
+| Pending or not yet effective | **68** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **622** |
+| Rows we still want to confirm (`[VERIFY]`) | **623** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-05",
+  "created_at": "2026-11-06T00:46:14.618042+00:00",
+  "scope": "Texas existing local inventory return-versus-bounded-review accounting. Not complete acquisition, freshness, legal-force verification, ballot census or state-policy accounting.",
+  "canonical_inventory_sha256": "ecae82a6ad91f80b66d8d4f388179533d20906540e9662994d0fb37caa662011",
+  "worker_answer_hashes": {
+    "tx-inventory-001": "926952405a4f37cee54b61c313ffc7b98a05515a4e043f4a50d01b398bf9f801",
+    "tx-inventory-002": "4bd51a3366501816400a8c8460894f01123c452a8c446f45041200f06b572b31"
+  },
+  "accepted_packet_hashes": {
+    "work/research/2026-11-05/reviewed-texas-a/answers.json": "3f6c45078770491e9e2eccc74145860c78ae31c7658f4542e9e225879671ed32"
+  },
+  "apply_receipt_hashes": {
+    "work/audit/apply-20261105T194602.json": "73dd8d23091c1138aa18ddad0a679e7b137ee4f0d3aa95121a231d11d7af70b4"
+  },
+  "canonical_records": 11,
+  "returned_records": 11,
+  "review_dispositions": {
+    "other_return_pending_disposition_review": 10,
+    "bounded_correction_applied": 1
+  },
+  "current_force_verification": {
+    "verified": 0,
+    "unresolved": 11
+  },
+  "records": [
+    {
+      "moratorium_id": "tx-austin-county-2026",
+      "worker_job": "tx-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "tx-brownsville-undated",
+      "worker_job": "tx-inventory-001",
+      "worker_outcome": "status_changed",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-texas-a/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "tx-denton-undated",
+      "worker_job": "tx-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "tx-fort-worth-undated",
+      "worker_job": "tx-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "tx-harlingen-2026",
+      "worker_job": "tx-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "tx-hays-county-2026",
+      "worker_job": "tx-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "tx-lavon-2026",
+      "worker_job": "tx-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "tx-lubbock-undated",
+      "worker_job": "tx-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "tx-pasadena-2024",
+      "worker_job": "tx-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "tx-hill-county-2026",
+      "worker_job": "tx-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "tx-league-city-2024",
+      "worker_job": "tx-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    }
+  ]
+}
