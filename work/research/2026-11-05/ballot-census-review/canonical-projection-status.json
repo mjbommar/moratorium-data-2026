@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-06",
   "reviewer": "coordinator",
-  "canonical_snapshot": "0388443712e8b89e81b92ade83f62a7ff998d35c734c9fbb86ad2597355e3ea6",
+  "canonical_snapshot": "da7d8f800001601805ef55d45d22635a2dce869b20becbbb1cf399ebeddd45ce",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 48,
-    "groups_pending_candidate_review": 8
+    "groups_with_scoped_canonical_publication": 49,
+    "groups_pending_candidate_review": 7
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -414,9 +414,12 @@
           "staged_measure_id": "ballot-fl-001::bp-6cc5ddacfc5e7c7b"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "450c4dec-de9f-4c00-9952-ede353e8f906",
+      "publication_plan": "work/research/2026-11-06/florida-ballot-promotion/publication-plan.json",
+      "publication_plan_sha256": "9626686f0cd3b176276f5a85f1bd1868bc0620a122a4870f5619b0595edf34fe",
+      "canonical_record_sha256": "4e51b0cfb6918bffb7b031230cc268560a3c57cda04eda0413fe484239082659",
+      "primary_review_status": "scoped_evidence_reviewed_and_published"
     },
     {
       "logical_group_id": "bp-6d363093df2c1d61",

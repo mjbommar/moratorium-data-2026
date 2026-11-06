@@ -1,0 +1,2162 @@
+{
+  "schema_version": "1.0.0",
+  "expected_sha256": "61cbd2ee6fc524b8449bee5586e7b9d388ce43b560ddcd06a941e75c45d3239e",
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "event_id": "0794da04-6546-4daa-a0d9-54b528f97735",
+      "action": "allocate",
+      "table": "jurisdictions",
+      "inputs": [],
+      "outputs": [
+        "e1ac7be1-1c98-4858-8a07-d22051e45436"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "e1ac7be1-1c98-4858-8a07-d22051e45436",
+          "record_sha256": "b6908311ffa21f1c7317e540e96dae9932f13574679edfe0421649a0adcc779c"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://www.volusiaelections.gov/elections/election-results/november-3-2026-general-election.stml",
+          "body_sha256": "6378afda9f8383d286d367c5e14891019e248d03fff9659211f0052bad4d606d",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a4bb4481-f3b8-4f23-ab1e-e1dda8549c6c",
+      "action": "allocate",
+      "table": "elections",
+      "inputs": [],
+      "outputs": [
+        "67c6ed54-add9-4922-b591-a6a685111b3d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "67c6ed54-add9-4922-b591-a6a685111b3d",
+          "record_sha256": "5590f8db4ac18cff7d6a502449a3fe1034d3f9678a5f33b85b3ba0a38b713416"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ea0b867d-57d6-48d2-84bf-95a37e618108",
+      "action": "allocate",
+      "table": "ballot_measures",
+      "inputs": [],
+      "outputs": [
+        "450c4dec-de9f-4c00-9952-ede353e8f906"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "450c4dec-de9f-4c00-9952-ede353e8f906",
+          "record_sha256": "4e51b0cfb6918bffb7b031230cc268560a3c57cda04eda0413fe484239082659"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f3606f2d-61bd-4009-b3e8-669d2dfbc2c0",
+      "action": "allocate",
+      "table": "measure_provisions",
+      "inputs": [],
+      "outputs": [
+        "62ca6238-0653-46f0-8d81-bdea86d841e6"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "62ca6238-0653-46f0-8d81-bdea86d841e6",
+          "record_sha256": "63de0fd35dec9e6b149a2d2116bc968ac450b6bbcfa4321a512b2964f788d88b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a7f37c87-41f3-4ff5-a9b2-8b64d0f132ba",
+      "action": "allocate",
+      "table": "measure_results",
+      "inputs": [],
+      "outputs": [
+        "b6ac05a1-4985-42bc-87bd-e0a5687245d8"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "b6ac05a1-4985-42bc-87bd-e0a5687245d8",
+          "record_sha256": "c072b94a8456d1010aacd7e9d59d8ed87c4f3114702fd5db30b134abe6006e92"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "bda31aab-77e1-42e0-ae07-d1e62248c78d",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "4900a513-777b-4b62-9276-1536a5101363"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "4900a513-777b-4b62-9276-1536a5101363",
+          "record_sha256": "89766d1fa1366908f9ffc72b56bf0aa81209e2b46e1cf00c8dea171bcbc18ede"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "e26e812f-4aef-4170-b7d7-43e870ac2f0f",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "1ad998ed-40af-4f95-b881-e43ffdbad09a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "1ad998ed-40af-4f95-b881-e43ffdbad09a",
+          "record_sha256": "51b6d857cd4fce8876cbac8a095faff81b195b011cfcdd858639271db12730a6"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d4435c1a-cd66-4ae7-aaca-c63165a5c0ed",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "02b06f53-8b1f-4839-b642-a4884747d758"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "02b06f53-8b1f-4839-b642-a4884747d758",
+          "record_sha256": "4539054b06fbd85e0c37b11e9c122357b73092e6314fc637b0b8f36e90739133"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "64b477b2-b3aa-4df5-9128-ba4c95dbfd62",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "513dfa7a-81b0-4f42-aa78-cf078787791f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "513dfa7a-81b0-4f42-aa78-cf078787791f",
+          "record_sha256": "0dc7a6e740805c578956c74d5dd0c96bf0b1f9c4e9c7143daa9dcec459b122f7"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/cdn/results/volusia-county-fl/export-2026GeneralElection.json",
+          "body_sha256": "c447f96f1ea2033543c3dbc1fedc66fb883680bd7d0de152cd7660b4272963a4",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8d108b96-7423-45d4-bcf8-411a98b69cbe",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "e9d3f9e4-4857-4658-8652-265b0d74cc4e"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "e9d3f9e4-4857-4658-8652-265b0d74cc4e",
+          "record_sha256": "85b0a3d88e555fa913d92b2f885c8c859bfec6575ad6777f9374255a80f49cbe"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://www.volusiaelections.gov/elections/election-results/november-3-2026-general-election.stml",
+          "body_sha256": "6378afda9f8383d286d367c5e14891019e248d03fff9659211f0052bad4d606d",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f7d602b4-0258-496a-937a-129ea945ef0f",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "62593fd8-1c6f-43c4-bc5d-877f1a8757b7"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "62593fd8-1c6f-43c4-bc5d-877f1a8757b7",
+          "record_sha256": "0650bb8796271af61af985ed0cde80681cb511a757db8b0f9919bff570bb29b1"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "214b2a0c-21b7-475d-a37b-d2293e40e29f",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "cfccd395-2cb2-4abe-8412-a6f13596bfba"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "cfccd395-2cb2-4abe-8412-a6f13596bfba",
+          "record_sha256": "94c8fe6d2b7e9b681121d4b01914a7058b721de1bf6a08380c031c2bc27b4e9d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d010d49c-545e-4be0-8af0-32b5a3028624",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "8521f3a3-4a41-415b-ba20-a3be42b4b689"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "8521f3a3-4a41-415b-ba20-a3be42b4b689",
+          "record_sha256": "f263fdc5e9cfee9d8f7a86beb1a551611dc9cdba3360a254ac2dd224f448c790"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "65e0cfa5-01fe-421b-8354-b747ef8b468c",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "e5a3df72-5166-4468-a013-6259dd3b25e6"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "e5a3df72-5166-4468-a013-6259dd3b25e6",
+          "record_sha256": "0568371b9129b888ee698a26847a6622a724fc9819942a9690957b0dcd03fec3"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "3294e481-1233-44d3-9375-c058572e29b6",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "12186812-62c4-4f75-b0ce-9b30139aff4f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "12186812-62c4-4f75-b0ce-9b30139aff4f",
+          "record_sha256": "413b50517f525b6a31cf6d282e19e602b579be245e66a2a01b0ac4b94375ed77"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f1a8c180-2670-4263-b1ed-245c5dd99531",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "55affb59-0e51-405a-a959-6e000e6ecbcc"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "55affb59-0e51-405a-a959-6e000e6ecbcc",
+          "record_sha256": "51c17cc552c433e802d647628a5648784a0ab586c0d7f03f5f2d9f2c80f75915"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d7b9c458-d3a8-4640-87d9-4734eda4efce",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "cc256f1c-751b-4dec-9a03-8e99800e6236"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "cc256f1c-751b-4dec-9a03-8e99800e6236",
+          "record_sha256": "b035ec00a2750099a363ba865eb98ecd38d167d97b25669d6496207e39dd14d0"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "34cdd873-64db-4cca-b37f-a1a21c872ecb",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "20e0d7fa-cb0c-4f3e-bc47-b41b92a22558"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "20e0d7fa-cb0c-4f3e-bc47-b41b92a22558",
+          "record_sha256": "3356b82629bf279a574af35145822cddda5719e14117cf4652d3e55c0bcde55b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f9316728-4e44-4957-b0ab-bcc08eaed4a7",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "156be716-367c-42cd-8701-d1c82b98134f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "156be716-367c-42cd-8701-d1c82b98134f",
+          "record_sha256": "e9f988d627840940b1eb5525dabeb73a04cb6307f6ad286dbe3e675952dfcc2a"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/cdn/results/volusia-county-fl/export-2026GeneralElection.json",
+          "body_sha256": "c447f96f1ea2033543c3dbc1fedc66fb883680bd7d0de152cd7660b4272963a4",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a5954b0c-7cb5-42b3-97a1-b7bb4a25edd3",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "6a980d65-66ad-46d0-95d1-67f581c23f89"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "6a980d65-66ad-46d0-95d1-67f581c23f89",
+          "record_sha256": "764960097d2b0c276a6fa4cea5d599fc32f9fb2d8703e5861c0e144845c720df"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://www.volusiaelections.gov/elections/election-results/november-3-2026-general-election.stml",
+          "body_sha256": "6378afda9f8383d286d367c5e14891019e248d03fff9659211f0052bad4d606d",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "36d91ee5-1473-4b2d-afaa-826d3f0c968b",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "8ab9bafd-ede2-408a-8992-61f0ba5dca58"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "8ab9bafd-ede2-408a-8992-61f0ba5dca58",
+          "record_sha256": "28712565538bf9a79d9b98fd7ab64e25709f22648721cad112720585c4334650"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://www.volusiaelections.gov/elections/election-results/november-3-2026-general-election.stml",
+          "body_sha256": "6378afda9f8383d286d367c5e14891019e248d03fff9659211f0052bad4d606d",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "bb32ff6d-2844-4c12-bb2d-24815d0036e3",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "bd5f6c5d-899a-4a71-b99f-92965d78b2a3"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "bd5f6c5d-899a-4a71-b99f-92965d78b2a3",
+          "record_sha256": "35d931c1b4f7ecd2afe31cea7d52b8329e593eef1c4ac1489a70ca0a0edd7582"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "38bc0c6b-df2a-4e3c-83c0-8456121401c8",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "de939963-1f99-4c67-bdd1-a7e57f70bdb9"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "de939963-1f99-4c67-bdd1-a7e57f70bdb9",
+          "record_sha256": "873a7bd9eacca2765a0ec69799a8a2e05601aee19a704d3c1f22e8902c85362d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8f4df492-3c95-4e6f-86ee-2cb49f8b876c",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "562bd218-8736-4ca3-b7ce-b0a61ab9c01a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "562bd218-8736-4ca3-b7ce-b0a61ab9c01a",
+          "record_sha256": "41da1c55482bb8bc6873b611c4258a6256da041287a45d6b1ea9767732c6c19f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ce8227d3-435b-45d9-88d9-0bf7f9146a1c",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "d03f93f5-b315-4427-bc8a-b5af0bb01e0a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "d03f93f5-b315-4427-bc8a-b5af0bb01e0a",
+          "record_sha256": "7284b40f032c0ea2c3a45f740443351dcabda35657c2ca2097c1ba2400775c5d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "90c8d64a-db39-4210-b72c-14d7f77e4500",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "a39e2cdd-06a7-4b85-92f0-eaca9af7a62d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "a39e2cdd-06a7-4b85-92f0-eaca9af7a62d",
+          "record_sha256": "a829252c939450d563ddabd79f86f7076600905dab617b0ba0f0dac0dfa37bd2"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "76662b2e-f8b3-4bab-99f5-75d0ac0cf247",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "f950209f-9591-45ca-bbc4-4dbcd83c9c6d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "f950209f-9591-45ca-bbc4-4dbcd83c9c6d",
+          "record_sha256": "2f4751a99abdb046e11cb9ade54a9ee5b10e4c5d5417cee7e3e10cf525759f7d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8312e7be-7e57-47ae-9036-a62e5ceeff66",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "9066b949-24d7-42c1-b418-e79700989751"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "9066b949-24d7-42c1-b418-e79700989751",
+          "record_sha256": "a3d43e551d8e2e8a0eb0d9c928c6271469ddb7c813a8021de4cd30aadbe7b728"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f7deec47-ddf5-46e2-bca8-d1c01b521dd6",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "bc48bb4e-b232-4a56-bbb2-0ba35d1d5096"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "bc48bb4e-b232-4a56-bbb2-0ba35d1d5096",
+          "record_sha256": "14d03daf5c6983564400c624e6017b64a334c0d8b2ba37e9117cb88ebe6bb52f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "238613c9-0719-43de-acf6-22769a66a1cb",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "5d8e5a50-a28f-4e9f-a4b0-f4191d3dd770"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "5d8e5a50-a28f-4e9f-a4b0-f4191d3dd770",
+          "record_sha256": "0fd5072ed7ec8fc7267d387e7099b0994342f9200f2a779e5efbf07b24b52ac0"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "426e5d1f-a780-453a-a509-362fa99824f9",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "31c51309-b285-449c-a76b-ef7f6e2f137b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "31c51309-b285-449c-a76b-ef7f6e2f137b",
+          "record_sha256": "eb1d7c2894d17765b89517b2269fa6adc687ba3045b14e1a1e814012d8b21ad9"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "80c57d8c-c970-4e30-ae98-15f03108d8c8",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "2c0932f8-d157-4e51-9447-2440a4052a49"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "2c0932f8-d157-4e51-9447-2440a4052a49",
+          "record_sha256": "2be220515e45face5527583c64cbbb0ec162d3525ab3250a2baec622632b2949"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "17a12a2d-4402-48a7-a9b0-6285e77af5ff",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "6f51ebf2-7aec-44d4-a206-af61ceb67593"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "6f51ebf2-7aec-44d4-a206-af61ceb67593",
+          "record_sha256": "48ad4fe0030a0c67f6f8eefa574b80cf95c8e9dc12e2885ee800ad3b67e223c7"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/cdn/results/volusia-county-fl/export-2026GeneralElection.json",
+          "body_sha256": "c447f96f1ea2033543c3dbc1fedc66fb883680bd7d0de152cd7660b4272963a4",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "e9db48cf-800d-4b1f-8a58-006d46bae2a9",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "6d25420b-7182-426a-9e34-0e226ad7c042"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "6d25420b-7182-426a-9e34-0e226ad7c042",
+          "record_sha256": "61ff38981e3bef95847cae1aff4d0604f39c1876461d20a2f4f5288d48125485"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://www.volusiaelections.gov/elections/election-results/november-3-2026-general-election.stml",
+          "body_sha256": "6378afda9f8383d286d367c5e14891019e248d03fff9659211f0052bad4d606d",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "2f570ce5-df97-4905-81b8-e849548e329e",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "8077f2e9-7549-433c-add6-bcf76d93b617"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "8077f2e9-7549-433c-add6-bcf76d93b617",
+          "record_sha256": "b3f546ec5cc951b8e1675443e57fcebd05deb078c97ab1252974614a9fa0fcd5"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://www.volusiaelections.gov/elections/election-results/november-3-2026-general-election.stml",
+          "body_sha256": "6378afda9f8383d286d367c5e14891019e248d03fff9659211f0052bad4d606d",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "7343b731-93a2-4a9d-9945-3482a074e93f",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "667de51b-5403-4024-992e-48674af40a8d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "667de51b-5403-4024-992e-48674af40a8d",
+          "record_sha256": "e5e69498323765e593360b3d51621d927e429dcf5ae66523d32be2e33d6ab7f1"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "0f243a9d-b53d-45bb-9eb9-271c056edf90",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "bcc5327f-ff8b-44e5-9cab-0a097b2f3976"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "bcc5327f-ff8b-44e5-9cab-0a097b2f3976",
+          "record_sha256": "ad9c350fd40649fceb9ce9afbb7e46aa3d755e68eef25f6ec3fafdd1108e4743"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "16440d38-b8cd-4ba0-b3ae-86f491f0078e",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "ef3f012e-57f2-4058-ba52-cbc36da1f3b8"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "ef3f012e-57f2-4058-ba52-cbc36da1f3b8",
+          "record_sha256": "0ed51967d4d240cb57708bce0ae91f3573b39859f2904973540a74c799fa1674"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "fc16dd8b-e960-475c-aaef-eaf9b9b25ac7",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "ecfd1aa6-ccfe-4de4-9273-05c85f0e4c40"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "ecfd1aa6-ccfe-4de4-9273-05c85f0e4c40",
+          "record_sha256": "1aed851bc7d8b8daaf3fa490b5600f8c3285cfa981d0fbd25a00ea10cb3a42f2"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "65af3492-6af9-434e-8010-ec39977bcac7",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "2ef929a3-61ef-49b6-9aeb-ee280f8c525d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "2ef929a3-61ef-49b6-9aeb-ee280f8c525d",
+          "record_sha256": "bb1f70c02c601e6f1be11f708ff1cd21d04fdddd0a8742326336ae78012e6b39"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "89f3bd5b-ee8e-43d7-9efb-f98acee8c40e",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "626b57ea-94df-4904-b68e-ca11b1e9c501"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "626b57ea-94df-4904-b68e-ca11b1e9c501",
+          "record_sha256": "ad8acda424b7f1dc24ae297ad504fcb89510840a20d75ef924fc33036ba164ac"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a1d43fe1-ea56-426b-b9e6-0098b7a78159",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c5a76477-2f87-486c-b20f-2ac8ede284fe"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "c5a76477-2f87-486c-b20f-2ac8ede284fe",
+          "record_sha256": "a22ffd43b62f70402d971e2c644e35a5219cdec2a28ca4a1b94800b2cf82fc47"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "bcd4d296-7f6a-4190-a64a-12c17b95c62d",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "72658c81-3088-42ab-be6f-07323c8fdceb"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "72658c81-3088-42ab-be6f-07323c8fdceb",
+          "record_sha256": "e61229a9252c5309f5c3c1c7ddf2b5ea0f48b5e89259c7d4c5a50ca6cfcc2f96"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "7759b59a-c117-451e-b06d-8bca0efe0737",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "1e144394-6916-45b8-b42b-adaebcf001fb"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "1e144394-6916-45b8-b42b-adaebcf001fb",
+          "record_sha256": "2ae4d55f74dbe34db8a84f81a007ff913750c5fe142a1e87038d23b20b4f0826"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d6af17d1-a236-4cbf-8ba9-8118f8ee7803",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "54e73c07-1658-42fc-a6fc-5d6b8abdec65"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "54e73c07-1658-42fc-a6fc-5d6b8abdec65",
+          "record_sha256": "45416565cfd7cf0caf9149a11ff9b27a1fcc241c6dcd60086ee2fc0e5c1cde68"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "776bc8b8-c194-4693-9edc-7d0d93549add",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "b0a8fae4-4fc5-46cc-8124-9efe32ee50a9"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "b0a8fae4-4fc5-46cc-8124-9efe32ee50a9",
+          "record_sha256": "15f50c3620e4a0a26aa8d7dfb52a0fad8c6fbcdd05ff43aeb6fd956568d2049d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d64a6004-05fc-4374-bf07-514ef2c1af63",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "06ce2a42-9e71-4a23-bb64-f43f3beff327"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "06ce2a42-9e71-4a23-bb64-f43f3beff327",
+          "record_sha256": "5f22e7abd4b0e7447cc1a9027d2b4c9b284338333fe0ad5ff06967da6d9ff004"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "bd222355-c185-46a5-a49f-86ac593fdb96",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "1e1ffd32-6464-47f7-a45c-c9d946081e71"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "1e1ffd32-6464-47f7-a45c-c9d946081e71",
+          "record_sha256": "d3d86b285c3a0b2480ec1fba73839acc5c9c24196f018e3a5386f7cc9cc813d3"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "7a27c741-bcbd-4a39-8d22-3977a3227358",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "1d99e506-24e6-47d9-8c97-e9aba06a22be"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "1d99e506-24e6-47d9-8c97-e9aba06a22be",
+          "record_sha256": "4294684fe0c09147b1a6d0796d7737b9d5ff7faab6298bae25784b374432949a"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "5ae295a3-f216-44fe-b684-43f884e4bdfe",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c9aafd51-b781-4653-a4ca-c8cb468afeef"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "c9aafd51-b781-4653-a4ca-c8cb468afeef",
+          "record_sha256": "992ae29aea5118505b4ecae44ef21beb917ff08dee1a6bff98e9fa94ec41ddd5"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "4393c281-e081-4b99-8452-659d7f37554d",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "efedd690-1f07-42c5-ba70-1d9bc3403381"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "efedd690-1f07-42c5-ba70-1d9bc3403381",
+          "record_sha256": "4d818ca2f0d8a623de29bb7c9bb6ca1bde19ca7564d0f87daf29b83b4b5f5943"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "4ffb7293-e5ee-4a6c-bdaf-3aee0478110d",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "60cb27f0-5a8b-4f2f-a2cf-e49428c3d9aa"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "60cb27f0-5a8b-4f2f-a2cf-e49428c3d9aa",
+          "record_sha256": "4690ea6916fd5129f3165f2a668626139d2ca215e69b1a6e52bc3c93fa68fa41"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "facf6369-3678-40cb-92f5-6fb17a42d232",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "4577c71f-58db-4277-b9ad-f85dbfd854b2"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "4577c71f-58db-4277-b9ad-f85dbfd854b2",
+          "record_sha256": "9ab318d7cb70679daf861c4ee82b7f43caa7e94cff999179e6f9c22f2a02c4bc"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "5b39e4cc-37df-4013-93f7-05dc005233e2",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "d12018ee-c718-42f3-bb11-fd7f23f1c55b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "d12018ee-c718-42f3-bb11-fd7f23f1c55b",
+          "record_sha256": "caba833c76f5cb9e0da64f866124319de927b65f083addd9dc57ff63d4d1ccc6"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "3960d901-3fa7-4b12-8f11-c60b83a4c65a",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "2582d22b-580e-47b3-bb72-4bc80f7817fa"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "2582d22b-580e-47b3-bb72-4bc80f7817fa",
+          "record_sha256": "7398568d2e859d780b8e3198f5c1ec0288ea9d8225f43ee0bfa49ac94ecaceb9"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "583e73f4-9357-4841-aef0-fe9a5fc2c0f0",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "652f19bb-e586-4130-a998-87687c34814f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "652f19bb-e586-4130-a998-87687c34814f",
+          "record_sha256": "a38cec25ebe46807275432f485dd5c2d2ea9d1da1bcda3c5bef38b19f3fac527"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "48cf93b4-005b-4ded-ad5d-e842d4b126e1",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "9ee5b745-6383-42f6-a860-a644324c44e5"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "9ee5b745-6383-42f6-a860-a644324c44e5",
+          "record_sha256": "c3f2c431333a9fef08498bc264efa3962b40479322911bbf5eb9d1ba5584a795"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "cabe078a-52a5-41e2-be3a-12532db1d344",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "f34cc49d-93d2-43f3-bcac-026b32184952"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "f34cc49d-93d2-43f3-bcac-026b32184952",
+          "record_sha256": "bf6aa52cbcc13026dfddc68b93ce045e325c1893fc5f9936e2977dca4ab47f58"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "79528c9e-15da-485a-b8ed-1ec7af1adfdc",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "6d312a4d-2306-43ee-8166-00b006cc7a5e"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "6d312a4d-2306-43ee-8166-00b006cc7a5e",
+          "record_sha256": "52493b039809b9c6bf5c8831107e4b9416b3c9240adf4bc344c5d94dc74136e5"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "1dc176f5-bef9-46df-9961-2e5395475e13",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "d39e5674-f8e1-4e7f-ae5e-51e7aa8b47c8"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "d39e5674-f8e1-4e7f-ae5e-51e7aa8b47c8",
+          "record_sha256": "fa431e469bbfbb951855ffe82a9fcf44fd0511d962179c22a3aeffd7f5be6a16"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "bc12d23b-0986-473d-8163-fc045b11b4b1",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "0d3c4d1d-e682-447a-8abf-efa12b2c3ba2"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "0d3c4d1d-e682-447a-8abf-efa12b2c3ba2",
+          "record_sha256": "1fc36da3ad2cf9be9bbd24845716e6b9c28b85ddf070a32bf42a69e84b1b6dd4"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+          "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8f81b2e2-dc0b-43dd-89dd-52a3808e8d42",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "e85dc1bf-6a84-4adb-b198-90bbf18dab64"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "e85dc1bf-6a84-4adb-b198-90bbf18dab64",
+          "record_sha256": "8b74f963f2de881fbd57cbe1e786ee1fe987a135d307f20e9a5a7bee50dabb18"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "265af951-23f0-4b08-9280-057a7f0980e2",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "1d5f08d5-8370-43a3-9f07-0dde1d653d1e"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "1d5f08d5-8370-43a3-9f07-0dde1d653d1e",
+          "record_sha256": "2ec8d8983be3b0bf5d21f8dc20bf9c1d39fa92468c680539a026cd5a7f9cf71f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "2ba68fba-1c62-4843-aaa3-0d10934572c7",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "4655730f-442a-453d-a61b-03ba72fe0de4"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "4655730f-442a-453d-a61b-03ba72fe0de4",
+          "record_sha256": "f3e01993d4b0fae9a1cabe263b8234e2a3713100de61ee667db0583e41243574"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ade4bcf5-8a89-4033-9064-c4231e204b18",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "a8e5b279-d30e-45e1-baab-e1b84b10d6f1"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "a8e5b279-d30e-45e1-baab-e1b84b10d6f1",
+          "record_sha256": "92e71eba44ae63183b99fda6c24992eb46855763ee5218aa5e7763fddfbdc966"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "84d81b05-fa51-42ab-af39-98f8b28792bb",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "2a95ef42-be65-4888-a402-1f00ffc529d8"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "2a95ef42-be65-4888-a402-1f00ffc529d8",
+          "record_sha256": "3c1b6b124b870aca7eef1c9d22cf06f2477887d2ee434ac8d3a54fa14bb338ca"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "81dbb31d-af80-467f-9b56-aadb999ebe8a",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "76b4874f-efeb-41ff-87bc-ac7e5d35e9c8"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "76b4874f-efeb-41ff-87bc-ac7e5d35e9c8",
+          "record_sha256": "7e15615aa54cc0c875acd3f4075c0dfe4b7a324ba001e201fed8870ed8eed818"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+          "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "260ed2b1-c951-48a0-833c-3a793cf13b60",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "b234a0a4-12b5-4ed2-98d0-466faf0a9305"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "b234a0a4-12b5-4ed2-98d0-466faf0a9305",
+          "record_sha256": "128915d8b543f3ce79f041260256e64aa7cb05f115741dfcd0dfcce3546026e4"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://www.volusiaelections.gov/elections/election-results/november-3-2026-general-election.stml",
+          "body_sha256": "6378afda9f8383d286d367c5e14891019e248d03fff9659211f0052bad4d606d",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "b9f7c5d8-7a3e-427b-b96b-6635a553916c",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "fad433a0-fba3-4225-8243-0683200311f2"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "fad433a0-fba3-4225-8243-0683200311f2",
+          "record_sha256": "bdad79c18113b2f25d8072389a3458cb8b85cf10155a11a7b008c5d3fe423e7e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://www.volusiaelections.gov/elections/election-results/november-3-2026-general-election.stml",
+          "body_sha256": "6378afda9f8383d286d367c5e14891019e248d03fff9659211f0052bad4d606d",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "2f026fe4-6e34-463a-9f97-1cc687919c66",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c27ce466-8ff1-4495-bdf5-0d79ad5b645b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "c27ce466-8ff1-4495-bdf5-0d79ad5b645b",
+          "record_sha256": "a88d474d01fcb4320d5112ff26038cc1f33abdade15af6f804be6b5f98890f2e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://www.volusiaelections.gov/elections/election-results/november-3-2026-general-election.stml",
+          "body_sha256": "6378afda9f8383d286d367c5e14891019e248d03fff9659211f0052bad4d606d",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "805fdd23-71db-46e2-a8ce-f1b89c7115ae",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "ef6c40ee-b737-4ba1-85ca-704efbef4802"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "ef6c40ee-b737-4ba1-85ca-704efbef4802",
+          "record_sha256": "b59834ddcdfe2ded2d72fd4b50b28d8bd7670b538c70acf56ea6befe56145b04"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://www.volusiaelections.gov/elections/election-results/november-3-2026-general-election.stml",
+          "body_sha256": "6378afda9f8383d286d367c5e14891019e248d03fff9659211f0052bad4d606d",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "3ca43f96-f38d-4091-a8d3-d8ec82320df4",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "d66d66a4-6786-4b51-b35b-6bc613ccb9d0"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "d66d66a4-6786-4b51-b35b-6bc613ccb9d0",
+          "record_sha256": "eff37e5868fa2262f82c8056f0a891af85a367f1ad3cdf2db6e434bfc352eaa5"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://www.volusiaelections.gov/elections/election-results/november-3-2026-general-election.stml",
+          "body_sha256": "6378afda9f8383d286d367c5e14891019e248d03fff9659211f0052bad4d606d",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "4f232ddf-856e-4323-8c4f-13880c887758",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "1da401e5-a4d0-45b5-bb64-132a5519b543"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "1da401e5-a4d0-45b5-bb64-132a5519b543",
+          "record_sha256": "9b0f8b74d7ce8bdbe4ad7ac65945e7b7d635d8e11f03e7570ca25b2705751ea8"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "bd0d2a6b-5a39-4d69-a258-7a98c7d19009",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "f05f6e9e-9828-4316-995f-aea66e00086a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "f05f6e9e-9828-4316-995f-aea66e00086a",
+          "record_sha256": "6daf346c9ebd903aeeda0cab0d45a2028a1a539f5fb935239ccf0e4a9387b7c8"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "09e38df9-985a-40d1-9542-2a152952d793",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "7e14049d-9311-4443-a836-3a7a656597db"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "7e14049d-9311-4443-a836-3a7a656597db",
+          "record_sha256": "8dc998d2f991ba6781311df1f49bbc253fcee0431ab8ef42ba100da7583e28be"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "366e1eba-c1d5-4163-9483-c1a299578918",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "febd6d73-e8c6-4919-a795-b7be59c2f769"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "febd6d73-e8c6-4919-a795-b7be59c2f769",
+          "record_sha256": "58d856acf85a9a02fc95226d1fff739b79826e1dbf9835713e4f1b499ed9284b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "44936c3e-1344-4f0d-87cc-7e0b1fac5a9d",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "7ab97ba9-8b19-48b1-bf3d-36595bda9ae5"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-florida-v1",
+          "source_id": "7ab97ba9-8b19-48b1-bf3d-36595bda9ae5",
+          "record_sha256": "0f35f1ea0d5b490e8b29f2b56817611f1460cf307385c2c8d519b42ceb1551df"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T11:54:34.498506+00:00",
+      "rationale": "Explicit EdgewaterAmendment4identity; separate from other charter amendments and countywide electorate. Proposed mechanism not current operative force.",
+      "evidence": [
+        {
+          "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+          "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+          "locator": "Scoped Florida review; exact row fingerprint pinned."
+        }
+      ]
+    }
+  ]
+}
