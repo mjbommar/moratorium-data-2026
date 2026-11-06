@@ -122,16 +122,16 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 
 - **Type:** Township
 - **Status:** 🟢 Active
-- **Date enacted:** Board of Supervisors voted unanimously at its regular meeting on Wednesday, 2026-06-10, to approve a curative amendment. Confirmed directly by the Butler Eagle's meeting report, which quotes Supervisors Phil Wulff, Don Pringle, and Mark Lauer on the record from that meeting.
+- **Date enacted:** On 2026-06-10, the Board of Supervisors carried a motion declaring the zoning ordinance substantively invalid as to data centers and power generation plant/systems and directing preparation of a resolution for July 8; the July 8 minutes record approval of a data-center curative amendment resolution.
 - **Normalized date:** `2026-06-10` (unverified)
 - **Duration:** 180-day pause halting data center and power-generation-plant-system development while the township prepares zoning standards.
 - **Current end date:** `—`
 - **Sectors:** data center, general
 - **Moratorium ID:** `pa-center-township-2026`
-- **Legal basis:** Curative amendment approved by the Board of Supervisors on 2026-06-10, halting data center and power-generation-plant-system development for 180 days (Supervisor Phil Wulff: 'the board of supervisors needs to undertake formal action to remedy an exclusionary omission... in the zoning ordinance'). A July 31, 2026 Butler Eagle roundup of Butler County municipalities independently confirms Center Township (along with Adams Township) 'went as far as enacting 180-day moratoriums on data centers and related developments.' Specific resolution/ordinance number and official minutes were not located in sources reviewed.
+- **Legal basis:** June 10, 2026 Board motion declaring zoning substantively invalid as to data centers and power-generation plants/systems and directing curative proceedings; Resolution 2026-07-07 approved July 8, as visually verified in minutes. Final instrument text and precise legal effect unresolved.
 - **What prompted it:** No data center development request had been received; adopted proactively.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23, running toward its computed 180-day expiry (~2026-12-07). No data center application had been filed in Center Township as of adoption; the pause was adopted proactively, alongside similar action in neighboring Adams Township, while Center, Summit, Jefferson, Penn, Lancaster, and Forward townships in Butler County all worked on data-center zoning ordinances as of the July 31, 2026 countywide roundup. No news of a permanent ordinance adoption, extension, or repeal specific to Center Township was found in sources reviewed through 2026-09-23.
+- **Detailed status:** June 10 minutes record a motion declaring zoning substantively invalid as to data centers and power-generation plants/systems, directing a resolution for July 8 and preparation of a curative amendment within 180 days. July 8 minutes record approval of Resolution 2026-07-07; the apparent inconsistent number in extracted text is a duplication artifact resolved by visual comparison. Initiation and later resolution are distinct from final zoning adoption; operative legal effect, effective anchors and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Clinton Township (Wayne County)

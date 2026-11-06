@@ -1,0 +1,49 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "pa-inventory-001": "f94993e62811bab71ee12d27e6ea1d1de9ff796d5b0fee157b1bc8bb62e48728"
+  },
+  "reviewed_answers_sha256": "047a8d52da9bcbb6870c2c67027397f3ba9f8ab748b594b7fd48350458284061",
+  "scope": "Center Township June motion and July resolution chronology. July page 2 resolves apparent number conflict as extraction artifact; actual identifier 2026-07-07. June 180-day curative-adoption instruction not assumed to establish a fixed-day moratorium. Final operative legal effect and later force unresolved.",
+  "located_evidence": [
+    {
+      "moratorium_id": "pa-center-township-2026",
+      "url": "https://centertownship.net/wp-content/uploads/2026/07/June-Regular-Minutes.pdf",
+      "quote": "(1) Declare the Center Township Zoning Ordinance, to the extent that it excludes\n\ndata centers and power generation plant/systems as uses the township, to be\n\nsubstantively invalid;\n\n(2) Authorize and direct the Township Solicitor to prepare a Resolution making\n\nspecific finding setting forth the declared invalidity of the Zoning Ordinance,\n\nto be enacted by the Township at its July 8, 2026, regular meeting; and\n\n(3) Authorize and direct the Township Planning Commission, with the input of\n\nthe Code Officer and the Solicitor, to prepare and submit a curative\n\namendment to the Board of Supervisors, so that the curative amendment is\n\nadopted by the Board of Supervisors within 180 days of this Motion.\n\nPringle seconded the motion. Motion carried.",
+      "located": [
+        {
+          "attempt_id": "570fcc8cc6c746c9baa45df8fa5eaacc",
+          "body_sha256": "7dda93a60a4eb9b93bbd1a8985563336c8fda1839aaf0e40e24127b280a43eef",
+          "text_sha256": "47199818f6b930ac3ced2790a899c5587b93253f60a9b0ea3e6dd642a5d4a051",
+          "span": [
+            4999,
+            5751
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "pa-center-township-2026",
+      "url": "https://centertownship.net/wp-content/uploads/2026/09/7826-Regular-Meeting.pdf",
+      "quote": "1. Data Center Curative Amendment Resolution No. 2026-07-07: Pringle motioned to approve\n\nthe Data Center Curative Amendment Resolution No. 2026-6-07-7-07. Latuska seconded.\n\nMotion carried.",
+      "located": [
+        {
+          "attempt_id": "9a1f90e8b7df4f689d644f75eb869d26",
+          "body_sha256": "4a6c014084687a560d03fb6c9aff231f7740b383c2c05605a8db10b9ecd6a7a6",
+          "text_sha256": "35e4893b4de7336f3409bdad40a39b15b9b6980f7e328cf1b5db059d476c6d3d",
+          "span": [
+            2788,
+            2978
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparison": {
+    "attempt_id": "9a1f90e8b7df4f689d644f75eb869d26",
+    "page": 2,
+    "render": "pdftoppm PNG -singlefile -scale-to 1400",
+    "render_sha256": "de37b52e433d940eb88c963077d88c941c18b59e61946bc9d9603e4b3ec198fe",
+    "finding": "Both printed resolution identifiers are 2026-07-07; additional extracted digits are an artifact."
+  }
+}
