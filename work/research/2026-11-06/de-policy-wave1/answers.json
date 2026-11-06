@@ -1,0 +1,124 @@
+{
+  "state_abbrev": "DE",
+  "researched_as_of": "2026-11-06",
+  "researcher": "Coordinator review of gpt-6.1-terra distributed return; independent bc-web HTTP/pydoll and Exa recovery",
+  "decisions": [
+    {
+      "bill_key": "DE:HB 233",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Substituted by House Substitute 1 for HB 233 on 2026-05-21; substitute signed and effective 2026-08-26 (85 Del. Laws ch. 440).",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-08-26",
+        "legal_effect_status": "in_force",
+        "effective_date_iso": "2026-08-26",
+        "primary_source_url": "https://legis.delaware.gov/BillDetail/143381",
+        "key_provisions": "Enacted House Substitute 1 covers large energy use facilities under alternative 75 MW/85%-load-factor, 100 MW instantaneous-demand, or 30 MW NAICS 518210 thresholds, with aggregation and specified exclusions. Requires utility rate classifications and service/security agreements to allocate costs and protect reliability. The 180-day rate-filing deadline runs from finalization of Commission regulations, not enactment."
+      },
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "url": "https://legis.delaware.gov/BillDetail/143381",
+          "source_type": "legislature_bill_page",
+          "supports": "Substitute signed and effective August 26, 2026.",
+          "quote": "Signed 8/26/26"
+        },
+        {
+          "url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocumentEngrossment?engrossmentId=38147&docTypeId=6",
+          "source_type": "bill_text",
+          "supports": "Enacted substitute threshold corrects baseline 20 MW.",
+          "quote": "Uses or is able to use a monthly maximum demand of 30 megawatts or greater"
+        },
+        {
+          "url": "https://legis.delaware.gov/BillDetail/142655",
+          "source_type": "legislature_bill_page",
+          "supports": "Original HB 233 was substituted.",
+          "quote": "Lieu/Substituted 5/21/26"
+        },
+        {
+          "url": "https://delcode.delaware.gov/title26/c001/sc02/index.html",
+          "source_type": "other",
+          "supports": "Current codification of section 203G includes ESA/TSA approval requirements and cites 85 Del. Laws chapter 440, section 2.",
+          "quote": "\u00a7 203G. Approval of electric service agreements for large energy use facilities."
+        }
+      ],
+      "notes": "Stable de-hb-233 record explicitly tracks the enacted HS 1 successor; the original HB 233 itself was substituted. Signed/effective metadata and current codification support in-force statutory status as observed November 6, not completion of regulations or utility tariff implementation. Final engrossment controls over original synopsis."
+    },
+    {
+      "bill_key": "DE:SB 205",
+      "outcome": "corrected",
+      "confidence": 0.96,
+      "evidence": [
+        {
+          "url": "https://legis.delaware.gov/BillDetail/142714",
+          "source_type": "legislature_bill_page",
+          "supports": "The ended assembly final status is out of committee, March 11, 2026.",
+          "quote": "Out of Committee 3/11/26"
+        },
+        {
+          "url": "https://legis.delaware.gov/BillDetail/142714",
+          "source_type": "legislature_bill_page",
+          "supports": "The legislature says the assembly ended and status is final.",
+          "quote": "The General Assembly has ended, the current status is the final status."
+        },
+        {
+          "url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142714&legislationTypeId=1&docTypeId=2&legislationName=SB205",
+          "source_type": "bill_text",
+          "supports": "Introduced bill proposed a certificate at 30 MW.",
+          "quote": "No person or entity shall begin the business of using 30 megawatts (MW) of electricity or greater"
+        }
+      ],
+      "notes": "Browser-recovered page explicitly says the assembly ended and status is final, shows March 11 committee release and no floor roll-call records. Retain failed disposition but remove unsupported precise sine die date. SA 1 introduction is shown on January 28; amendment substantive text remains unreviewed and existing summary is not fully reverified.",
+      "fields": {
+        "status": "153rd General Assembly ended with final recorded status Out of Committee 2026-03-11; not enacted. Official bill page displays no floor roll-call records.",
+        "primary_source_url": "https://legis.delaware.gov/BillDetail/142714"
+      }
+    },
+    {
+      "bill_key": "DE:SB 312",
+      "outcome": "status_changed",
+      "fields": {
+        "status": "Signed and effective 2026-08-26 (85 Del. Laws ch. 447).",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-08-26",
+        "legal_effect_status": "in_force",
+        "effective_date_iso": "2026-08-26",
+        "primary_source_url": "https://legis.delaware.gov/BillDetail/143259"
+      },
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "url": "https://legis.delaware.gov/BillDetail/143259",
+          "source_type": "legislature_bill_page",
+          "supports": "Signed and effective August 26, 2026.",
+          "quote": "Signed 8/26/26"
+        },
+        {
+          "url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=143259&legislationTypeId=1&docTypeId=2&legislationName=SB312",
+          "source_type": "bill_text",
+          "supports": "Limits nondisclosure agreements concerning large-scale development.",
+          "quote": "A county may not enter into a nondisclosure agreement if the nondisclosure agreement restricts the county from disclosing information to the public about potential or actual large-scale data center development in the county."
+        },
+        {
+          "url": "https://delcode.delaware.gov/title9/c004/index.html",
+          "source_type": "other",
+          "supports": "Current codification of nondisclosure agreement restriction, citing 85 Del. Laws chapter 447.",
+          "quote": "\u00a7 401. Nondisclosure agreements prohibited."
+        },
+        {
+          "url": "https://delcode.delaware.gov/title22/c021/index.html",
+          "source_type": "other",
+          "supports": "Current codification of nondisclosure agreement restriction, citing 85 Del. Laws chapter 447.",
+          "quote": "\u00a7 2101. Nondisclosure agreements prohibited."
+        },
+        {
+          "url": "https://delcode.delaware.gov/title29/c006/index.html",
+          "source_type": "other",
+          "supports": "Current codification of nondisclosure agreement restriction, citing 85 Del. Laws chapter 447.",
+          "quote": "\u00a7 612. Data center nondisclosure agreements."
+        }
+      ],
+      "notes": "Signed/effective metadata plus current county, municipal and state-agency code provisions support in-force statutory status as observed November 6. This is a transparency restriction, not a construction moratorium; no comprehensive litigation/enforcement audit asserted."
+    }
+  ]
+}
