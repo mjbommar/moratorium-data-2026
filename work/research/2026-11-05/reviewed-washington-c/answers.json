@@ -1,0 +1,126 @@
+{
+  "state_abbrev": "WA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wa-federal-way-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://mrsc.org/getmedia/976a7ae6-9dd8-4b0c-a18f-b43ea16a897d/f4o26-1048.pdf",
+          "source_type": "ordinance",
+          "supports": "Operative twelve-month clause, rather than title alone; signed page 6 visually confirms July 7 effective date.",
+          "quote": "Section 3. Duration of Moratorium. This moratorium shall be in effect for 12 months from\n\nthe effective date of this ordinance.",
+          "document_date": "2026-07-07"
+        }
+      ],
+      "notes": "Ordinance establishes the original term; later repeal or amendment and current legal force were not independently resolved.",
+      "confidence": 0.9,
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "A 12-month term is not a fixed 365-day term."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Ordinance expresses the term in months."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31; 12-month moratorium effective 2026-07-07.",
+          "to": "Signed Ordinance 26-1048 records July 7 passage and effectiveness, July 10 publication, and a twelve-month term from effectiveness. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    },
+    {
+      "moratorium_id": "wa-lincoln-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.odessarecord.com/story/2026/10/22/legals/public-notice-ordinance-summary/18131.html",
+          "source_type": "other",
+          "supports": "Official county clerk legal notice reports the adoption date.",
+          "quote": "on September 8, 2026, the Board of Commissioners of Lincoln County, adopted Ordinance 26-02",
+          "document_date": "2026-10-05"
+        },
+        {
+          "url": "https://www.odessarecord.com/story/2026/10/22/legals/public-notice-ordinance-summary/18131.html",
+          "source_type": "other",
+          "supports": "Notice identifies calendar term.",
+          "quote": "AN ORDINANCE IMPOSING A SIX-MONTH EMERGENCY MORATORIUM",
+          "document_date": "2026-10-05"
+        }
+      ],
+      "notes": "Notice dated October 5 and published October 22; later action and full ordinance terms remain unresolved.",
+      "confidence": 0.9,
+      "changes": {
+        "date_enacted": {
+          "from": "Adopted by the Board of County Commissioners on or about September 8-9, 2026",
+          "to": "Adopted by the Board of County Commissioners on September 8, 2026.",
+          "reason": "County clerk notice specifies date."
+        },
+        "date_enacted_iso": {
+          "from": "2026-09",
+          "to": "2026-09-08",
+          "reason": "County clerk notice specifies date."
+        },
+        "date_enacted_uncertainty": {
+          "from": "month_only",
+          "to": "exact",
+          "reason": "County clerk notice specifies date."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Six months is a calendar term, not 180 fixed days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Notice uses six months."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; RCW 36.70A.390 follow-up public hearing scheduled for Oct. 5, 2026.",
+          "to": "The county clerk ordinance-summary notice identifies September 8 adoption of Ordinance 26-02 and a six-month emergency moratorium for data-center and/or BESS permit applications. The notice is dated October 5 and published October 22. Full operative text, effective anchor and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    },
+    {
+      "moratorium_id": "wa-marysville-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://mrsc.org/getmedia/97250b39-93d2-4806-8eb6-3474c06b18c7/m35o3381.pdf",
+          "source_type": "ordinance",
+          "supports": "Ordinance states six-month term subject to earlier repeal or extension.",
+          "quote": "SECTION 3. Duration. This moratorium takes effect immediately by the\n\nupon passage\n\nCity Council and approval by the Mayor and remains in effect for six months unless earlier\n\nrepealed or extended by the City Council.",
+          "document_date": "2026-07-13"
+        }
+      ],
+      "notes": "Original term supported; later actions and current force are not resolved.",
+      "confidence": 0.9,
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Six calendar months is not a fixed 180 days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Ordinance specifies six months."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31; six-month moratorium effective 2026-07-13.",
+          "to": "Ordinance 3381 section 3 states six months with immediate effect upon council passage and mayor approval, unless earlier repealed or extended. Section 9 instead states effectiveness five days after publication. That internal effective-anchor conflict, later actions and current force require review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    }
+  ],
+  "new_candidates": []
+}

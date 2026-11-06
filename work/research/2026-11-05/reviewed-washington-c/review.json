@@ -1,0 +1,81 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "wa-inventory-002": "b27fec4417fb23fe840f195f9baa35a7d36f2e292094998f9d701433933768ff"
+  },
+  "reviewed_answers_sha256": "0f584d5ae5aa6bceb36460d92dbcd670975b1c15c8ab081452a083aeba72e1a4",
+  "scope": "Three Washington calendar-term corrections. Federal Way operative term read and signed execution page 6 visually confirms adoption/effectiveness July 7. Marysville sections 3 and 9 conflict on effective anchor; no endpoint calculated. Lincoln source is a county clerk governmental legal notice reproduced in newspaper, dated October 5/published October 22, not full ordinance. No complete later legal-force history accepted.",
+  "located_evidence": [
+    {
+      "moratorium_id": "wa-federal-way-2026",
+      "url": "https://mrsc.org/getmedia/976a7ae6-9dd8-4b0c-a18f-b43ea16a897d/f4o26-1048.pdf",
+      "quote": "Section 3. Duration of Moratorium. This moratorium shall be in effect for 12 months from\n\nthe effective date of this ordinance.",
+      "located": [
+        {
+          "attempt_id": "14b24b0bcd364ae2931a00f08f10bdc5",
+          "body_sha256": "52843c22046989c1b4f30039ddaa764c0e5a204d5f40fb98e92bc6246a07a322",
+          "text_sha256": "78867e23406141f6665a2a8d669583f90f2bc3244accf9b0ee824893f18d1a97",
+          "span": [
+            7681,
+            7808
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "wa-lincoln-county-2026",
+      "url": "https://www.odessarecord.com/story/2026/10/22/legals/public-notice-ordinance-summary/18131.html",
+      "quote": "on September 8, 2026, the Board of Commissioners of Lincoln County, adopted Ordinance 26-02",
+      "located": [
+        {
+          "attempt_id": "c127562e9f02467ab27c470f7400dc5a",
+          "body_sha256": "ed04e0b50496c9cd2f3664e284bd117f23a5a424386f62c2835d60128c423889",
+          "text_sha256": "7123c1777052a65eda4646eda87bb139b357e9a8d76f53b60ae9858df43e32bb",
+          "span": [
+            62,
+            153
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "wa-lincoln-county-2026",
+      "url": "https://www.odessarecord.com/story/2026/10/22/legals/public-notice-ordinance-summary/18131.html",
+      "quote": "AN ORDINANCE IMPOSING A SIX-MONTH EMERGENCY MORATORIUM",
+      "located": [
+        {
+          "attempt_id": "c127562e9f02467ab27c470f7400dc5a",
+          "body_sha256": "ed04e0b50496c9cd2f3664e284bd117f23a5a424386f62c2835d60128c423889",
+          "text_sha256": "7123c1777052a65eda4646eda87bb139b357e9a8d76f53b60ae9858df43e32bb",
+          "span": [
+            166,
+            220
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "wa-marysville-2026",
+      "url": "https://mrsc.org/getmedia/97250b39-93d2-4806-8eb6-3474c06b18c7/m35o3381.pdf",
+      "quote": "SECTION 3. Duration. This moratorium takes effect immediately by the\n\nupon passage\n\nCity Council and approval by the Mayor and remains in effect for six months unless earlier\n\nrepealed or extended by the City Council.",
+      "located": [
+        {
+          "attempt_id": "cfdf3ced0fb141a397a20b73c15b13f7",
+          "body_sha256": "986a676b136a2079d2b2c526acf073f0bc4b005dd174613183f4621542cac0de",
+          "text_sha256": "967e9d9c47bf34291632ba5568730ccb8523fda1f908d48ef75c0c630976ad6b",
+          "span": [
+            5556,
+            5773
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparison": {
+    "attempt_id": "14b24b0bcd364ae2931a00f08f10bdc5",
+    "page": 6,
+    "render": "pdftoppm PNG -singlefile -scale-to 1400",
+    "render_sha256": "a72866abcc2c6c8d89a770f042450dd67c8c35b662936ce292723e92306d283e",
+    "finding": "Signed July 7 passage/effectiveness; July 10 publication."
+  }
+}

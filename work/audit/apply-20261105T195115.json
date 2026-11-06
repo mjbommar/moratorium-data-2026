@@ -1,0 +1,110 @@
+{
+  "applied_at": "20261105T195115",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-washington-c/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 3,
+    "fields_changed": 12
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "wa-federal-way-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "A 12-month term is not a fixed 365-day term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-federal-way-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Ordinance expresses the term in months.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-federal-way-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31; 12-month moratorium effective 2026-07-07.",
+      "after": "Signed Ordinance 26-1048 records July 7 passage and effectiveness, July 10 publication, and a twelve-month term from effectiveness. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-lincoln-county-2026",
+      "column": "date_enacted",
+      "before": "Adopted by the Board of County Commissioners on or about September 8-9, 2026",
+      "after": "Adopted by the Board of County Commissioners on September 8, 2026.",
+      "reason": "County clerk notice specifies date.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-lincoln-county-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-09",
+      "after": "2026-09-08",
+      "reason": "County clerk notice specifies date.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-lincoln-county-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact",
+      "reason": "County clerk notice specifies date.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-lincoln-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Six months is a calendar term, not 180 fixed days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-lincoln-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Notice uses six months.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-lincoln-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; RCW 36.70A.390 follow-up public hearing scheduled for Oct. 5, 2026.",
+      "after": "The county clerk ordinance-summary notice identifies September 8 adoption of Ordinance 26-02 and a six-month emergency moratorium for data-center and/or BESS permit applications. The notice is dated October 5 and published October 22. Full operative text, effective anchor and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-marysville-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Six calendar months is not a fixed 180 days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-marysville-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Ordinance specifies six months.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-marysville-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31; six-month moratorium effective 2026-07-13.",
+      "after": "Ordinance 3381 section 3 states six months with immediate effect upon council passage and mayor approval, unless earlier repealed or extended. Section 9 instead states effectiveness five days after publication. That internal effective-anchor conflict, later actions and current force require review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ]
+}

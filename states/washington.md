@@ -30,7 +30,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 | Kitsap County | County | 2025-06-11 | battery storage | 🟢 Extended |
 | Kittitas County | County | 2026-08-10 | data center | 🟢 Extended |
 | La Conner | Town | 2026-07-28 | data center | 🟢 Active |
-| Lincoln County | County | 2026-09 | data center, battery storage | 🟢 Active |
+| Lincoln County | County | 2026-09-08 | data center, battery storage | 🟢 Active |
 | Marysville | City | 2026-07-13 | data center | 🟢 Active |
 | Mount Vernon | City | 2025-05-28 | battery storage | 🟢 Extended |
 | Mount Vernon | City | 2026-08-12 | data center | 🟢 Active |
@@ -339,7 +339,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Legal basis:** Ordinance No. 26-1048; RCW 36.70A.390 interim zoning control
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; 12-month moratorium effective 2026-07-07.
+- **Detailed status:** Signed Ordinance 26-1048 records July 7 passage and effectiveness, July 10 publication, and a twelve-month term from effectiveness. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Kitsap County
@@ -394,8 +394,8 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 
 - **Type:** County
 - **Status:** 🟢 Active
-- **Date enacted:** Adopted by the Board of County Commissioners on or about September 8-9, 2026
-- **Normalized date:** `2026-09` (month_only)
+- **Date enacted:** Adopted by the Board of County Commissioners on September 8, 2026.
+- **Normalized date:** `2026-09-08` (exact)
 - **Duration:** Six months from adoption unless repealed or changed
 - **Current end date:** `—`
 - **Sectors:** data center, battery storage
@@ -403,7 +403,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Legal basis:** Ordinance 26-02
 - **What prompted it:** County code does not specifically address data centers or BESS; growing demand for digital storage and strain on land, power, cooling water
 - **Affected projects:** None reported
-- **Detailed status:** Active as of 2026-09-23; RCW 36.70A.390 follow-up public hearing scheduled for Oct. 5, 2026.
+- **Detailed status:** The county clerk ordinance-summary notice identifies September 8 adoption of Ordinance 26-02 and a six-month emergency moratorium for data-center and/or BESS permit applications. The notice is dated October 5 and published October 22. Full operative text, effective anchor and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Public hearing required within 60 days of adoption per state law
 
 ### Marysville
@@ -419,7 +419,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Legal basis:** Ordinance No. 3381; RCW 36.70A.390 interim zoning control
 - **What prompted it:** Study period covers siting, public safety, land-use compatibility, water and sewer planning, utility rates, and permanent code amendments.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; six-month moratorium effective 2026-07-13.
+- **Detailed status:** Ordinance 3381 section 3 states six months with immediate effect upon council passage and mayor approval, unless earlier repealed or extended. Section 9 instead states effectiveness five days after publication. That internal effective-anchor conflict, later actions and current force require review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Mount Vernon

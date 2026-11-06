@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Federal Way, Marysville and Lincoln County calendar terms replace unsupported fixed-day encodings. Federal Way’s signed execution records July 7 adoption/effectiveness; Lincoln’s clerk notice fixes adoption at September 8. Marysville’s immediate-effect duration section conflicts with its five-days-after-publication clause, so the effective anchor remains unresolved. Later legal force remains unverified.
+
 Covington’s signed October 27 renewal takes effect November 7, after the refresh cutoff; continuous coverage from the prior six-month renewal is not established. Enumclaw Ordinance 2833 passage is corrected to February 23, distinct from the March 9 packet and its separately recorded February 24 approval/March 4 publication. Effective-date interactions, continuity and later force remain unresolved.
 
 Burien and Duvall operative calendar terms replace unsupported 365-day encodings. Burien Ordinance 905 states one year from effectiveness and defines its capacity threshold in MVA. Duvall Ordinance 1353 states twelve months in the operative clause and work plan despite a six-month title; that discrepancy and later legal-force questions remain explicit.
@@ -190,7 +192,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1070** |
 | Pending or not yet effective | **68** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **628** |
+| Rows we still want to confirm (`[VERIFY]`) | **631** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
