@@ -1,0 +1,100 @@
+{
+  "state_abbrev": "WI",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wi-chippewa-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://chippewacountywi.gov/DocumentCenter/View/5160",
+          "source_type": "ordinance",
+          "supports": "Identifies the ordinance.",
+          "quote": "ORD. 10-26 ORDINANCE TO AMEND CHAPTER 70 OF THE CHIPPEWA COUNTY CODE OF ORDINANCES TO ADOPT A TEMPORARY MORATORIUM ON DATA CENTER DEVELOPMENT"
+        },
+        {
+          "url": "https://chippewacountywi.gov/DocumentCenter/View/5160",
+          "source_type": "ordinance",
+          "supports": "Calendar term subject to earlier action.",
+          "quote": "a period of twelve (12) months, unless sooner repealed, modified, superseded, or"
+        },
+        {
+          "url": "https://chippewacountywi.gov/786/Data-Center-Information",
+          "source_type": "other",
+          "supports": "County page reports expiration date, subject to ordinance conditions.",
+          "quote": "Chippewa County\u2019s 12-month moratorium on data centers expires on August 11, 2027."
+        }
+      ],
+      "notes": "Correct number and calendar-term representation. County page observed 2026-11-05, page publication date unspecified. Ordinance allows earlier termination; do not treat projected date as unconditional.",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Calendar years or months cannot be represented as a fixed number of days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The source describes a calendar term and permits earlier termination."
+        },
+        "legal_basis": {
+          "from": "Chippewa County data center moratorium ordinance (ordinance number not located in reviewed sources), enacted via the county's zoning ordinances",
+          "to": "Chippewa County Ordinance 10-26, creating County Code section 70-9",
+          "reason": "The county publishes the ordinance with its number and section."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; adopted 18-0 and effective immediately August 11, 2026. Because it was enacted through the county's zoning ordinance, it applies only to the six townships that have adopted county zoning: Anson, Eagle Point, Lafayette, Wheaton, Woodmohr, and the Town of Hallie; does not apply to land within cities, villages, or other townships.",
+          "to": "The county publishes Ordinance 10-26 creating section 70-9, with twelve months and provisions for earlier county-board action and termination upon permanent regulations. Its undated information page gives August 11, 2027 expiry, which is not unconditional. Exact operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "wi-madison-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://madison.legistar.com/View.ashx?GUID=63DBC920-7BEE-4827-B7BA-87C62DBCB503&ID=15057897&M=F",
+          "source_type": "staff_report",
+          "supports": "Planning report specifies 12 months, subject to earlier zoning amendment.",
+          "quote": "This moratorium shall be in effect for 12 months following the effective date of the temporary moratorium",
+          "document_date": "2026-01-12"
+        },
+        {
+          "url": "https://www.cityofmadison.com/dpced/about/temporary-data-center-moratorium",
+          "source_type": "other",
+          "supports": "The October framework meetings did not themselves adopt a replacement.",
+          "quote": "Like the Public Information Meeting, these were only informational presentations, and no policy decisions were made."
+        },
+        {
+          "url": "https://www.cityofmadison.com/dpced/about/temporary-data-center-moratorium",
+          "source_type": "other",
+          "quote": "On January 13, 2026, the Common Council voted to approve a temporary moratorium on issuing zoning approvals for new data centers with a floor area larger than 10,000 square feet. The moratorium may last up to one year and only applies to data centers that are the principal or primary use of the property.",
+          "supports": "City page reports approval and up-to-one-year term; staff report alone is proposed wording."
+        }
+      ],
+      "notes": "Correct calendar-term representation. City page observed 2026-11-05 describes draft framework and October 27 meeting, not a final ordinance; full subsequent legislative history was not verified.",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Calendar years or months cannot be represented as a fixed number of days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The source describes a calendar term and permits earlier termination."
+        },
+        "current_status": {
+          "from": "Active",
+          "to": "The city page reports January 13 approval of an up-to-one-year moratorium for principal/primary data-center uses over 10,000 square feet. The January 12 staff report proposes twelve months from effectiveness or earlier effective zoning amendments. The October framework presentations made no policy decisions and are not replacement legislation. Final adopted wording, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "confidence": 0.9
+    }
+  ],
+  "new_candidates": []
+}

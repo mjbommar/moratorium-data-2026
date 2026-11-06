@@ -1,0 +1,70 @@
+{
+  "applied_at": "20261105T200317",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-wisconsin-a/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 2,
+    "fields_changed": 7
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "wi-chippewa-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Calendar years or months cannot be represented as a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-chippewa-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The source describes a calendar term and permits earlier termination.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-chippewa-county-2026",
+      "column": "legal_basis",
+      "before": "Chippewa County data center moratorium ordinance (ordinance number not located in reviewed sources), enacted via the county's zoning ordinances",
+      "after": "Chippewa County Ordinance 10-26, creating County Code section 70-9",
+      "reason": "The county publishes the ordinance with its number and section.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-chippewa-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; adopted 18-0 and effective immediately August 11, 2026. Because it was enacted through the county's zoning ordinance, it applies only to the six townships that have adopted county zoning: Anson, Eagle Point, Lafayette, Wheaton, Woodmohr, and the Town of Hallie; does not apply to land within cities, villages, or other townships.",
+      "after": "The county publishes Ordinance 10-26 creating section 70-9, with twelve months and provisions for earlier county-board action and termination upon permanent regulations. Its undated information page gives August 11, 2027 expiry, which is not unconditional. Exact operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-madison-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Calendar years or months cannot be represented as a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-madison-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The source describes a calendar term and permits earlier termination.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-madison-2026",
+      "column": "current_status",
+      "before": "Active",
+      "after": "The city page reports January 13 approval of an up-to-one-year moratorium for principal/primary data-center uses over 10,000 square feet. The January 12 staff report proposes twelve months from effectiveness or earlier effective zoning amendments. The October framework presentations made no policy decisions and are not replacement legislation. Final adopted wording, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ]
+}

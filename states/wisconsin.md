@@ -126,10 +126,10 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-chippewa-county-2026`
-- **Legal basis:** Chippewa County data center moratorium ordinance (ordinance number not located in reviewed sources), enacted via the county's zoning ordinances
+- **Legal basis:** Chippewa County Ordinance 10-26, creating County Code section 70-9
 - **What prompted it:** County has no zoning defining data centers or specific regulations for them; extensive electrical, water, and infrastructure demand concerns cited.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; adopted 18-0 and effective immediately August 11, 2026. Because it was enacted through the county's zoning ordinance, it applies only to the six townships that have adopted county zoning: Anson, Eagle Point, Lafayette, Wheaton, Woodmohr, and the Town of Hallie; does not apply to land within cities, villages, or other townships.
+- **Detailed status:** The county publishes Ordinance 10-26 creating section 70-9, with twelve months and provisions for earlier county-board action and termination upon permanent regulations. Its undated information page gives August 11, 2027 expiry, which is not unconditional. Exact operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 12-month moratorium on data center development in county-zoned townships.
 
 ### City of Madison
@@ -145,7 +145,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Legistar File 91135, Ordinance ORD-26-00002, creating MGO Sec. 28.140
 - **What prompted it:** Madison cited the absence of a data center definition or specific standards in MGO Chapter 28. The city also identified potential energy, water, emergency service, traffic, noise, air quality, fiscal, and land use impacts.
 - **Affected projects:** New principal-use data centers and telecommunications centers over 10,000 sq ft requiring zoning certificates in Madison
-- **Detailed status:** Active
+- **Detailed status:** The city page reports January 13 approval of an up-to-one-year moratorium for principal/primary data-center uses over 10,000 square feet. The January 12 staff report proposes twelve months from effectiveness or earlier effective zoning amendments. The October framework presentations made no policy decisions and are not replacement legislation. Final adopted wording, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Pending. The moratorium gives city agencies time to draft a permanent definition and zoning standards.
 
 ### City of Sheboygan
