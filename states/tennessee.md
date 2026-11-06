@@ -3,7 +3,7 @@
 
 Working inventory for Tennessee, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**45 instruments** — 37 in force, 6 pending, 2 past.
+**46 instruments** — 38 in force, 6 pending, 2 past.
 
 State policy is tracked separately: **9 actions** (9 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -39,6 +39,7 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 | Moore County | County | 2026-04-20 | data center | 🟢 Active |
 | Morgan County | County | 2026-06-12 | data center | 🟢 Active |
 | Nashville-Davidson County | City | 2026-07-24 | data center | 🟢 Active |
+| Orlinda | City | 2026-06-11 | data center, cryptocurrency mining | 🟢 Active |
 | Paris | City | 2026-07 | data center | 🟢 Active |
 | Rhea County | County | 2026-07-21 | data center, cryptocurrency mining | 🟢 Active |
 | Roane County | County | Unverified | data center, battery storage, cryptocurrency mining | 🟡 Pending |
@@ -535,6 +536,22 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **What prompted it:** Followed a record-setting July 7 public hearing with more than 200 speakers; the proposed DC BLOX facility near the Nashville Zoo was a focal point of opposition
 - **Affected projects:** Proposed DC BLOX data center near the Nashville Zoo
 - **Detailed status:** Active as of 2026-09-23; BL2026-1448 (as amended) runs through 2026-12-01 regardless of the companion zoning bills BL2026-1391/1392, which also passed third reading on 2026-07-21. No extending or repealing legislation was found in coverage through September 2026.
+- **Outcome:** —
+
+### Orlinda
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-06-11
+- **Normalized date:** `2026-06-11` (exact)
+- **Duration:** Two calendar years from immediate effectiveness upon passage June 11, 2026; derived calendar endpoint June 11, 2028
+- **Current end date:** `2028-06-11`
+- **Sectors:** data center, cryptocurrency mining
+- **Moratorium ID:** `tn-orlinda-2026`
+- **Legal basis:** Resolution 2026-03
+- **What prompted it:** City studies digital-infrastructure impacts and land-use regulations.
+- **Affected projects:** —
+- **Detailed status:** Mayor-signed official Resolution 2026-03 adopted June 11, 2026 establishes a two-calendar-year moratorium on new data-center and cryptocurrency-mining facilities, including application, permitting, construction and expansion activities. Existing lawfully approved/permitted operations excluded. [VERIFY subsequent actions, current legal force and coordinates]
 - **Outcome:** —
 
 ### Paris

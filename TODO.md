@@ -12,7 +12,7 @@ Complete phases in dependency order; retain evidence and unresolved dispositions
 - [x] Pin the inspected bc-modules revision, package versions and runtime/dependency configuration.
 - [x] Confirm dataset ownership and exact consumer paths across public, research, site and integration repositories.
 - [x] Establish admitted durable archive and local NVMe database paths; run storage preflight before bulk writes.
-- [x] Map 6,504 current legacy manifest entries to native observations or explicit path gaps; import 3,061 verified-body versions after private CAS link recovery, retaining 3,443 listed-path gaps (initial mapping and subsequent migration/recovery deltas). Of those gaps, 119 are failed acquisitions without a recorded body hash. Other private stores remain incompletely searched; this does not close the full P3 archive gate.
+- [x] Map 6,508 current legacy manifest entries to native observations or explicit path gaps; import 3,065 verified-body versions after private CAS link recovery, retaining 3,443 listed-path gaps (initial mapping and subsequent migration/recovery deltas). Of those gaps, 119 are failed acquisitions without a recorded body hash. Other private stores remain incompletely searched; this does not close the full P3 archive gate.
 - [x] Record the November 5 working-cohort cutoff, record-specific source/legal-force limits and historical 348-extraction/211-jurisdiction pre-April-28 cohort in README, methodology and known gaps; no inventory-wide legal-force renewal is claimed.
 
 Exit: reproducible baseline manifest with unrelated work preserved.
@@ -264,3 +264,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Review five NM/MT/OR candidate histories, three PDF pages and four complete HTML texts. Add Silver City’s historical solar instrument with explicit repeal but unknown original event endpoint; preserve all 1,304 prior rows and retain four distinct proposal/final-text gaps (`work/research/2026-11-06/southwest-northwest-discovery-review/`). Discovery ledger: 152 unreviewed and twenty reviewed withheld cases.
 
 - [x] Independently review Millwood/Winlock complete notices and all three pages of the Chelan PUD draft; preserve planned future extension versus adopted action, published summary versus full ordinance, and electric-service versus city land-use identities (`work/research/2026-11-06/washington-discovery-review/`). No canonical changes; 149 candidates remain unreviewed and twenty-three reviewed cases remain withheld.
+
+- [x] Review four Tennessee discoveries; add Orlinda from two-page visual review, preserving the original page-1 extraction gap, calendar term and all 1,305 prior rows. Hold Moore/Hardeman primary histories and Shelby first-reading final action separately (`work/research/2026-11-06/tennessee-discovery-review/`). Ledger: 145 unreviewed, twenty-six reviewed withheld cases.

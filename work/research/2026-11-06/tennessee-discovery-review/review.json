@@ -1,0 +1,100 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "baseline_inventory_sha256": "ac171e96f6261c7f0a2f00bb69576f20b909f6504ddcd68a3003f43a9d274a86",
+  "candidates": [
+    {
+      "candidate_key": "discovery-tn:0",
+      "candidate_sha256": "32f0d95703701a90c259b2fc5a0aea39475209dfb449c7798be7b1f8c9eca53f",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "reviewed_adopted_instrument_added",
+      "rationale": "Official two-page Orlinda Resolution 2026-03 establishes two calendar years from effectiveness, immediate upon passage June 11, 2026. Scope includes new data centers and crypto facilities within corporate limits, including expansion/siting; lawfully existing operations with all final approvals and permits are exempt. Mayor signed; recorder line blank. Retained extraction omits page 1; scope/definitions/term accepted from visual page review, not located in incomplete extraction. Derived calendar endpoint June 11, 2028 is not a fixed-day conversion. Later actions/current legal force remain unverified.",
+      "source_checks": [
+        {
+          "attempt_id": "4a3854890d4642d7997fbfe815a8e650",
+          "url": "https://cityoforlindatn.com/wp-content/uploads/2026/06/Resolution-2026-03.pdf",
+          "body_sha256": "c1a99a38bf276fac61a9e8565851c8e254a0227ced8e82b5f4a8ac113ebf2f06",
+          "text_sha256": "123524e364af207134bf15e6c15c7e675b5f4ccf4aa3279d22cf7e0835c70ff9",
+          "visual_review": {
+            "document_pages": 2,
+            "inspected_pages": [
+              {
+                "page": 1,
+                "image_sha256": "f045d0f85a489e859fce3c7935a5445edea35967da4125ebdc6cda9cfa45d5f6"
+              },
+              {
+                "page": 2,
+                "image_sha256": "652960ca073a8528f81bab23ed926ff738ac12b9d0fe25801f22db1aadf80958"
+              }
+            ],
+            "extraction_gap": "Retained text omits page 1; visual evidence independently supports scope, definitions and two-calendar-year term.",
+            "signature_scope": "Mayor signature present; recorder line blank."
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-tn:1",
+      "candidate_sha256": "33d97caa6823dff986d703a9d58ca8c4203e92bb7fb6a76898fd5050042427d4",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_primary_final_action_or_history",
+      "rationale": "Full Moore County solar report describes a unanimous five-year future-solar-farm vote and excludes personal panels and the already approved Silicon Ranch project. It also describes a future public hearing. Final instrument/form, exact adoption/effectiveness, expansions and subsequent actions require primary records. Distinct from existing 2026 data-center action; no date or active-force inference accepted.",
+      "source_checks": [
+        {
+          "attempt_id": "dc8e34f2fb844229b212f55d7255096a",
+          "url": "https://thelynchburgtimes.com/metro-council-places-a-moratorium-on-future-solar-farms/",
+          "body_sha256": "373548b289c71eeca1038519a12fa66d4d9b0405ffbd354df044a6e28a82578c",
+          "text_sha256": "8ece996f5f875976be80ef4fa8450871cf65ee0dbcce63c51140b4d98a7afc19",
+          "quote": "On Monday, the Metro Council voted unanimously to place a moratorium on future solar farm development in Moore County. It would not affect the current Silicon Ranch project nor solar panels for p",
+          "quote_span": [
+            0,
+            195
+          ],
+          "review_method": "Complete retained HTML text read, original body/text hashes and exact excerpt verified."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-tn:2",
+      "candidate_sha256": "37924358d8505946f52426efdcc06fa875bd32c65ec8f90c9ad18dd86a37a718",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_primary_final_action_or_history",
+      "rationale": "Full Hardeman report describes a January 2023 twelve-month solar permit pause, with possible exemptions scheduled for Planning Commission discussion February 14, 2023. It explicitly requires County Commission approval before amendments take effect. Possible amendments are not enacted exemptions. Exact original act, final amendments and later history remain unresolved; no automatic expiry inferred from age.",
+      "source_checks": [
+        {
+          "attempt_id": "de4404fe3c34480cbea82f337881af48",
+          "url": "https://hatchiepress.com/amendments-to-recently-approved-solar-moratorium-to-be-discussed-tuesday/",
+          "body_sha256": "9cb9134421d62aa3a71c70f86f3be4c650222adf497457aca3910a2d804bcd28",
+          "text_sha256": "acfd57aef646100b1885118bbc0f50ede0e606b0a33e2b324eaceced9e5fb742",
+          "quote": " the Planning Commission intends to discuss options to the Solar Moratorium at their meeting next week.",
+          "quote_span": [
+            70,
+            173
+          ],
+          "review_method": "Complete retained HTML text read, original body/text hashes and exact excerpt verified."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-tn:3",
+      "candidate_sha256": "02fb406eed0dbe6876512eda505b3349facb58a4e7d8922f72e761612a18c41d",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_primary_final_action_or_history",
+      "rationale": "Full Shelby report says first reading advanced 5\u20134 with four abstentions, with second and third readings still needed, in unincorporated areas. It is a county proposal distinct from the Memphis city vote planned October 20. First reading does not establish enactment or current pending status; final action, identifier and operative text remain unresolved.",
+      "source_checks": [
+        {
+          "attempt_id": "0dd7feaf8a8a441c89d20c5847dc7dd3",
+          "url": "https://www.actionnews5.com/2026/10/13/first-city-now-county-debates-data-center-temporary-moratorium/",
+          "body_sha256": "36dae04083785c6fbdd23fd8fffc6131bc0a4fe1eee5bc0dd94f5b72ef011569",
+          "text_sha256": "f12afcd6e33db27aa3b4a2c2cdc4a37234711d01bdf8aed066dab7da35ab0f01",
+          "quote": "MEMPHIS, Tenn. (WMC) - Shelby County commissioners narrowly advanced a proposed temporary moratorium on data centers in unincorporated areas outside city limits Monday, despite questions about wh",
+          "quote_span": [
+            0,
+            195
+          ],
+          "review_method": "Complete retained HTML text read, original body/text hashes and exact excerpt verified."
+        }
+      ]
+    }
+  ]
+}

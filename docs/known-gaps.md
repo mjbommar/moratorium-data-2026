@@ -7,7 +7,7 @@ record-level observations and `[VERIFY]` markers identify unresolved work.
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **678 of the 1305 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **679 of the 1306 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
 
 ### Legacy instrument identities
 
@@ -189,7 +189,7 @@ rechecked four kinds of rows. We looked at rows past their end date and
 extensions with no new end date. We also looked at proposals more than 60 days
 old and rows with a `[VERIFY]` note.
 
-1073 moratoria are classified active or extended in the November 5 working cohort; this does not establish renewed current legal force. The following eleven-row discussion describes the historical September check, not the current validation warning count. That check flagged eleven rows that looked out of date. Eight of them, in
+1074 moratoria are classified active or extended in the November 5 working cohort; this does not establish renewed current legal force. The following eleven-row discussion describes the historical September check, not the current validation warning count. That check flagged eleven rows that looked out of date. Eight of them, in
 Cedartown, Georgia and seven New York towns, have passed their end date. We
 could not find out what happened next, so each carries a `[VERIFY]` note. The
 other three are fine. Waterford Township, Michigan and East Whiteland Township,
@@ -267,9 +267,9 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Source-body availability checkpoint
 
-The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-wa-review-2026-11-06.json)
-covers 6,504 manifest entries, with hash-matching bodies available through listed
-paths for 3,061 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-tn-review-2026-11-06.json)
+covers 6,508 manifest entries, with hash-matching bodies available through listed
+paths for 3,065 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.
@@ -295,7 +295,7 @@ Retroactive effective dates are preserved separately from adoption dates.
 
 ## Geocoding caveats (added v2026.04.2)
 
-1290 of 1305 instruments have WGS84 reference points. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. Reference points do not establish legal boundaries or applicability. The 15 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County the 2023 Sioux County record and the historical Silver City solar record awaiting coordinate review.
+1290 of 1306 instruments have WGS84 reference points. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. Reference points do not establish legal boundaries or applicability. The 16 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County the 2023 Sioux County record and the historical Silver City solar record and Orlinda awaiting coordinate review.
 
 **Within-state name ambiguity.** Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:
 
@@ -380,3 +380,7 @@ The [Illinois action review](../work/research/2026-11-06/illinois-action-review/
 ## Washington work plans and utility authority
 
 The [Washington notice review](../work/research/2026-11-06/washington-discovery-review/README.md) distinguishes Millwood’s January 2027 extension hearing in a work plan from an adopted extension, and Winlock’s published ordinance summary from full operative text. A retained three-page Chelan PUD confirming-resolution text has a blank number and unsigned execution lines; it recites a March 2018 electric-service motion but does not establish ratification. Its utility-service authority is distinct from the City of Chelan’s land-use ordinance. These scoped reviews do not change inventory or ballot counts.
+
+## Tennessee visual coverage and action stages
+
+The [Tennessee review](../work/research/2026-11-06/tennessee-discovery-review/README.md) adds Orlinda Resolution 2026-03 from complete two-page visual inspection. The retained text extraction omits page 1, including definitions and the two-calendar-year operative term. The mayor signature is visible; the recorder line is blank. The calendar-derived June 11, 2028 endpoint is not an express printed date or a fixed-day approximation; later actions and current legal force remain unverified. Moore’s separate solar report, Hardeman’s possible solar amendments and Shelby’s county first reading remain withheld pending primary final actions; none is merged into an existing data-center/city instrument.

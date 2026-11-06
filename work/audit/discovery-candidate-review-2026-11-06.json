@@ -1,5 +1,5 @@
 {
-  "inventory_sha256": "ac171e96f6261c7f0a2f00bb69576f20b909f6504ddcd68a3003f43a9d274a86",
+  "inventory_sha256": "b4b8bfdf88121723f7a3d44fb62512c2c3c1158a22c4d294a124ae3b29716c31",
   "returned_answer_sha256": {
     "discovery-ak": "a4b62aac2562578f9bb4c66f6f504557f1aace1c1612c0f7f2e3b2c01fae334e",
     "discovery-al": "b6e254f6a91f7dc6937ca15433d3c9ac8c29f473bb22765439ab7bf23647aa62",
@@ -54,7 +54,7 @@
   },
   "candidate_count": 185,
   "reviewed_pending_additions": 5,
-  "unreviewed_count": 149,
+  "unreviewed_count": 145,
   "candidates": [
     {
       "candidate_key": "discovery-ak:0",
@@ -2906,10 +2906,12 @@
       "state_abbrev": "TN",
       "jurisdiction": "Orlinda",
       "proposed_instrument_label": "Resolution 2026-03",
-      "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "same_name_inventory_ids": [
+        "tn-orlinda-2026"
+      ],
+      "disposition": "reviewed_adopted_instrument_added",
+      "review_packet": "work/research/2026-11-06/tennessee-discovery-review/review.json",
+      "next_step": "Review final primary instrument/later actions as scoped in review rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -2926,9 +2928,9 @@
       "same_name_inventory_ids": [
         "tn-moore-county-2026"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_final_action_or_history",
+      "review_packet": "work/research/2026-11-06/tennessee-discovery-review/review.json",
+      "next_step": "Review final primary instrument/later actions as scoped in review rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -2943,9 +2945,9 @@
       "jurisdiction": "Hardeman County",
       "proposed_instrument_label": "County commission action reported; original instrument not recovered",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_final_action_or_history",
+      "review_packet": "work/research/2026-11-06/tennessee-discovery-review/review.json",
+      "next_step": "Review final primary instrument/later actions as scoped in review rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -2960,9 +2962,9 @@
       "jurisdiction": "Shelby County",
       "proposed_instrument_label": "Proposed county moratorium reported; original instrument not recovered",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_final_action_or_history",
+      "review_packet": "work/research/2026-11-06/tennessee-discovery-review/review.json",
+      "next_step": "Review final primary instrument/later actions as scoped in review rationale; independently review coordinates.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -3289,9 +3291,9 @@
   "reviewed_prepared_not_applied": 0,
   "reviewed_city_reported_adoption_additions": 1,
   "worker_reviewed_count": 183,
-  "unreviewed_count_scope": "149 candidates await coordinator substantive processing; twenty-three reviewed cases remain withheld. Historical additions and scoped reviews do not establish complete legal histories or current force.",
+  "unreviewed_count_scope": "145 candidates await coordinator substantive processing; twenty-six reviewed cases remain withheld. Scoped review and original adopted terms do not establish complete later histories/current force.",
   "worker_review_baseline_sha256": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1",
   "reviewed_historical_additions": 5,
-  "reviewed_withheld_cases": 23,
-  "current_inventory_sha256": "ac171e96f6261c7f0a2f00bb69576f20b909f6504ddcd68a3003f43a9d274a86"
+  "reviewed_withheld_cases": 26,
+  "current_inventory_sha256": "b4b8bfdf88121723f7a3d44fb62512c2c3c1158a22c4d294a124ae3b29716c31"
 }
