@@ -6,7 +6,7 @@ moratorium grain and exclusion of permanent bans remain unchanged. A successful
 validation is structural consistency, not proof of legal effect, source accuracy,
 identity, completeness, or permission to publish. An initial [reviewed snapshot writer](expanded-promotion.md) now supplies separate
 identity, evidence, field-review and atomic-publication gates; reviewed canonical
-records currently cover 49 reviewed measures, with explicit result supersession and seven unresolved frozen candidate groups kept outside the canonical measure total. The restriction/event/link tables remain empty pending reviewed migration; they do not establish absence of restrictions. See the
+records currently cover 49 reviewed measures, with explicit result supersession and seven unresolved frozen candidate groups kept outside the canonical measure total. The restriction/link migration now includes Edgewater’s proposed charter restriction with unknown legal status and an accepted `proposes` relationship. No adoption/effect event or current force is inferred; the broader migration remains incomplete. See the
 [generated results view](ballot-results.md). Identity decisions have a separate
 [append-only registry](expanded-identity-registry.md).
 

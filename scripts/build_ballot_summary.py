@@ -102,6 +102,31 @@ def render(rows, snapshot):
                    if supporting else title)
             date=election['election_date']['earliest'] if election['election_date']['precision']=='day' else (election['election_date']['original_text'] or 'unknown')
             lines.append('| '+' | '.join(cell(v) for v in [label,date,measure['lifecycle'].replace('_',' ')])+' |')
+    links = rows.get('measure_instrument_links', {})
+    if links:
+        lines += ['', '## Linked restriction records', '',
+                  'Relationship acceptance is separate from instrument status. A `proposes` link '
+                  'does not establish enactment or current force; unknown dates remain unknown.', '',
+                  '| Measure | Relationship | Link review | Restriction | Recorded status | Adoption | Effective |',
+                  '|---|---|---|---|---|---|---|']
+        def date_label(bounds):
+            if bounds.get('precision') == 'day' and bounds.get('earliest') == bounds.get('latest'):
+                return bounds.get('earliest') or 'unknown'
+            return bounds.get('original_text') or 'unknown'
+        for link in sorted(links.values(), key=lambda row: row['link_id']):
+            if link['instrument']['kind'] != 'restriction':
+                continue
+            restriction = rows['local_restrictions'][link['instrument']['id']]
+            measure = rows['ballot_measures'][link['measure_id']]
+            jurisdiction = rows['jurisdictions'][measure['jurisdiction_id']]
+            label = jurisdiction['name'] + ', ' + jurisdiction['state'] + ' — ' + (measure['designation'] or measure['title'] or 'undesignated')
+            title = restriction['title'] or 'untitled'
+            if link['claim_ids']:
+                claim = rows['claims'][link['claim_ids'][0]]
+                title = '[' + title + '](<' + citation(rows['source_documents'][claim['source_document_id']]) + '>)'
+            lines.append('| ' + ' | '.join(cell(value) for value in [label, link['relation'],
+                link['review_status'], title, restriction['status'], date_label(restriction['adoption']),
+                date_label(restriction['effective'])]) + ' |')
     lines += ['', 'Reported outcomes and certification are separate from calculated passage rules, operative dates and legal force. '
               'A reported approval does not automatically add an in-force legacy moratorium. '
               'See [scope and interpretation](ballot-measures.md) for unresolved legal implementation.','',

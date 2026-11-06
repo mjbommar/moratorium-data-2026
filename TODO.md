@@ -174,6 +174,7 @@ Exit: accepted pilot report and separately authorized bounded collection scope.
 - [x] Review Eliot Question 5 against the official sample ballot, signed warrant and certified proposed text; pin five visual source passages and classify the enactment question, while leaving its effective date and legal-force interval unresolved (`work/research/2026-11-05/ballot-census-review/eliot-review.md`).
 - [ ] Verify post-vote legal implementation, effective/applicability dates, exemptions and challenges.
 - [ ] Match prior pending instruments before creating new moratorium rows.
+- [x] Add Edgewater’s proposed charter restriction and accepted ballot `proposes` relationship, with unknown legal status/dates, preserved prior records and public relationship view (`edgewater-restriction-migration/`); full restriction/event/predecessor migration remains open.
 - [ ] Record bans and other restrictions separately, with explicit predecessor/replacement links.
 - [ ] Preserve failed qualification, withdrawn measures, unresolved cases and bounded negative searches.
 - [ ] Reconcile earlier 2026 measures and stage upcoming December measures separately from November totals.

@@ -97,6 +97,14 @@ Reviewed accounting discrepancies below retain source values without filling unk
 |---|---|---|
 | [Mandan, ND — Initiated City Measure No. 1](<https://www.cityofmandan.com/vertical/sites/%7B38C3EFDC-F4D8-4D02-9E13-0987A081A7A4%7D/uploads/Ballot_Summary_-_Initiated_Ordinance_-_Approved_10202026.pdf>) | 2026-12-15 | scheduled |
 
+## Linked restriction records
+
+Relationship acceptance is separate from instrument status. A `proposes` link does not establish enactment or current force; unknown dates remain unknown.
+
+| Measure | Relationship | Link review | Restriction | Recorded status | Adoption | Effective |
+|---|---|---|---|---|---|---|
+| Edgewater, FL — Charter Amendment No. 4 | proposes | accepted | [PROHIBITION ON NEW DATA CENTERS](<https://www.volusiaelections.gov/elections/election-results/november-3-2026-general-election.stml>) | unknown | unknown | unknown |
+
 Reported outcomes and certification are separate from calculated passage rules, operative dates and legal force. A reported approval does not automatically add an in-force legacy moratorium. See [scope and interpretation](ballot-measures.md) for unresolved legal implementation.
 
 55 result observations are retained, including explicitly superseded history. This view excludes superseded observations without deleting them.
@@ -107,6 +115,6 @@ Reported outcomes and certification are separate from calculated passage rules, 
 - Eliot: [reported-outcome source](<https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/>).
 - Sabattus: [reported-outcome source](<https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/>).
 
-Pinned canonical snapshot: `da7d8f800001601805ef55d45d22635a2dce869b20becbbb1cf399ebeddd45ce`. Source observation times remain in the JSONL records; this generation is not a renewed current-force check.
+Pinned canonical snapshot: `6622d63edb4670461b8b988a4dbc5b5d6c593c838b822456b6124ec2ffa633af`. Source observation times remain in the JSONL records; this generation is not a renewed current-force check.
 
-[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/da7d8f800001601805ef55d45d22635a2dce869b20becbbb1cf399ebeddd45ce/ballot_measures.jsonl)
+[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/6622d63edb4670461b8b988a4dbc5b5d6c593c838b822456b6124ec2ffa633af/ballot_measures.jsonl)

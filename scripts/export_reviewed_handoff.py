@@ -43,7 +43,7 @@ def export(destination):
                     limits=['Predecessor expanded generations and raw source bodies are not included.',
                             'Historical collaborator packets and project/disclosure cutoffs are unchanged.',
                             'No proximity, project applicability, instrument links or causal relationship is inferred.',
-                            'Seven ballot candidate groups remain unresolved; current expanded instrument/link tables are empty.'])
+                            'Seven ballot candidate groups remain unresolved; restriction/link records cover only scoped reviewed relationships, not a complete legal-instrument migration.'])
     contents['manifest.json'] = (json.dumps(manifest, indent=2)+'\n').encode()
     contents['README.md'] = ('# November reviewed working inputs\n\n'
         'Use manifest.json for source revision, cohort cutoff, file hashes and record counts. '

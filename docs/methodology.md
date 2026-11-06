@@ -358,7 +358,9 @@ Legacy corrections pass expected-prior-value checks through the apply scripts.
 Expanded ballot records pass schema, identity, evidence and append-only publication
 gates, preserving superseded result observations. Current publication includes 49
 measures; seven frozen candidate groups retain explicit unresolved dispositions.
-The expanded restriction/event/link tables are not a completed migration of all
+The expanded restriction/link tables now include one proposed Edgewater charter
+restriction and its proposal relationship, with unknown legal status and operative
+dates. No adoption event is inferred. This is not a completed migration of all
 legacy instruments. The [contracts](expanded-data-contracts.md) define intended
 relationships; empty tables do not establish absence of restrictions.
 

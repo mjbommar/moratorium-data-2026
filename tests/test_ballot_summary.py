@@ -11,6 +11,19 @@ from build_ballot_summary import render
 SNAPSHOT='7b960c58dd52c2f643647e306616966d4590a652c0b9caf11c108ea2edc3f421'
 
 class BallotSummaryTests(unittest.TestCase):
+    def test_proposal_link_keeps_unknown_force_and_dates_separate(self):
+        unknown={'earliest':None,'latest':None,'precision':'unknown','original_text':None}
+        self.rows['local_restrictions']['r']={'restriction_id':'r','title':'Proposed prohibition',
+            'status':'unknown','adoption':unknown,'effective':unknown}
+        self.rows['measure_instrument_links']['l']={'link_id':'l','measure_id':self.result['measure_id'],
+            'instrument':{'kind':'restriction','id':'r'},'relation':'proposes',
+            'review_status':'accepted','claim_ids':[]}
+        text=render(self.rows,SNAPSHOT)
+        self.assertIn('## Linked restriction records',text)
+        self.assertIn('proposes | accepted | Proposed prohibition | unknown | unknown | unknown',text)
+        self.assertIn('2 reviewed measure records',text)
+        self.assertIn('does not establish enactment or current force',text)
+
     def test_scheduled_measure_is_listed_without_creating_a_result(self):
         measure=copy.deepcopy(self.rows['ballot_measures'][self.result['measure_id']])
         measure.update(measure_id='future-measure',election_id='future-election',

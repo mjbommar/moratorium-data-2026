@@ -2,6 +2,12 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
+Edgewater’s proposed charter prohibition now has a separate restriction identity
+and accepted `proposes` ballot link. Legal status and adoption/effective dates
+remain unknown; no adoption event, in-force ban or headline-count increase is
+inferred. The public results view displays relationship review separately from
+legal status. All earlier records remain unchanged.
+
 Current totals are 1,293 local instruments (1,071 classified active or extended,
 67 pending, 155 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
