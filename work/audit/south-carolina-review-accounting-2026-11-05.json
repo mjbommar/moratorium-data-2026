@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-05",
+  "created_at": "2026-11-06T00:35:40.619015+00:00",
+  "scope": "South Carolina existing local inventory return-versus-bounded-review accounting. Not complete acquisition, freshness, legal-force verification, ballot census or state-policy accounting.",
+  "canonical_inventory_sha256": "85fda06ae45bb54afcdac86e4fb7d9344cbbfca5eff23c8e95dac23d50bb8246",
+  "worker_answer_hashes": {
+    "sc-inventory-001": "93da14dc51a64441e5878bdf3846bdc0eef0697a735fe908df23c3700cef4b8b",
+    "sc-inventory-002": "cfd0f731b4c89cf3bc430b4bf835fe7e9be94fed14a02b0f67d934c8d24e8095"
+  },
+  "accepted_packet_hashes": {
+    "work/research/2026-11-05/reviewed-south-carolina-a/answers.json": "b91beda13aebf00603157a2b166b19ed7dc546624c1ed371661388e2742bea8b",
+    "work/research/2026-11-05/reviewed-south-carolina-b/answers.json": "de43d2adc7a68d73020993b277e45da0adc9f5193b3b02c4e3cdad257be28296",
+    "work/research/2026-11-05/reviewed-south-carolina-c/answers.json": "712f646d24ca31efddb0fe4c6b847141b1993e1a941d8cf55ae1b49524c7eed3",
+    "work/research/2026-11-05/reviewed-south-carolina-d/answers.json": "89da8550aad8cf1d487246d6bb9eb2658cb0fa1c061f47b4970ad0c8ecb33c37"
+  },
+  "apply_receipt_hashes": {
+    "work/audit/apply-20261105T192446.json": "5406ea047120235349b17f9a8600ae6ba44fdcea6aee5f408aafed8b2c5c4d01",
+    "work/audit/apply-20261105T192703.json": "7f5886facf7d4c5cad9377fd86fb930a9bf7971d1711e20b21d435db88017c85",
+    "work/audit/apply-20261105T193218.json": "c645aeabef609c33185a947f498b75c293206a470c8c3cd9f37c09fe34ed387f",
+    "work/audit/apply-20261105T193341.json": "fbe4faf93039a355c598e4c354d8d5fdcd96a077ed6ea8638e744dd92102bc74"
+  },
+  "canonical_records": 16,
+  "returned_records": 16,
+  "review_dispositions": {
+    "bounded_correction_applied": 8,
+    "other_return_pending_disposition_review": 8
+  },
+  "current_force_verification": {
+    "verified": 0,
+    "unresolved": 16
+  },
+  "records": [
+    {
+      "moratorium_id": "sc-anderson-county-2026",
+      "worker_job": "sc-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-south-carolina-a/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "sc-chester-county-2026",
+      "worker_job": "sc-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-south-carolina-a/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "sc-chesterfield-county-2026",
+      "worker_job": "sc-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "sc-clarendon-county-2026",
+      "worker_job": "sc-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "sc-fairfield-county-2026",
+      "worker_job": "sc-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-south-carolina-b/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "sc-greenwood-county-2026",
+      "worker_job": "sc-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "sc-jasper-county-2026",
+      "worker_job": "sc-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "sc-kershaw-county-2026",
+      "worker_job": "sc-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "sc-laurens-county-2026",
+      "worker_job": "sc-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-south-carolina-b/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "sc-mount-pleasant-undated",
+      "worker_job": "sc-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "sc-newberry-county-2026",
+      "worker_job": "sc-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-south-carolina-c/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "sc-orangeburg-county-2026",
+      "worker_job": "sc-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "sc-spartanburg-county-2026",
+      "worker_job": "sc-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "sc-sumter-county-2026",
+      "worker_job": "sc-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-south-carolina-c/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "sc-york-county-2026",
+      "worker_job": "sc-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-south-carolina-a/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "sc-colleton-county-2026",
+      "worker_job": "sc-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-south-carolina-d/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    }
+  ]
+}

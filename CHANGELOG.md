@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Aberdeen’s published October 19 Resolution 26-10-01R establishes an extension with a July 1, 2027 outside sunset or earlier qualifying zoning ordinance. Turner and Yankton calendar terms replace unsupported fixed-day encodings; Turner’s printed original expiry and later extension effective date leave continuity unresolved. South Carolina return accounting covers all 16 existing IDs: eight bounded corrections applied and eight other returns awaiting disposition, with no complete current-force history asserted.
+
 Colleton’s signed July and September ordinances distinguish the original six-month pause from the later partial repeal. The remaining east-of-I-95 area, excluding specified industrial zones, is tied to final approval of the five-year comprehensive-plan update with described ACE Basin terms. Unsupported fixed 180-day coding and the approximate January endpoint are removed; interaction of the provisions and subsequent legal force remain unresolved.
 
 Newberry’s signed Ordinance 06-01-2026 establishes July 15 third reading, June 3 first-reading applicability and a twelve-month-or-less calendar term, replacing the June 5 adoption date and fixed 365-day coding. Visual review of Sumter’s August 11 minutes confirms unanimous third-reading approval of all three parallel ordinances, including data-center Ordinance 26-1052; the native extraction omitted that vote line. Later operative intervals and legal force remain unresolved.
@@ -164,7 +166,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **69** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **608** |
+| Rows we still want to confirm (`[VERIFY]`) | **611** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

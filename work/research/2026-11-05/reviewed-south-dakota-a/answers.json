@@ -1,0 +1,127 @@
+{
+  "state_abbrev": "SD",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "sd-aberdeen-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://aberdeeninsider.com/city-of-aberdeen-resolution-no-26-10-01r/",
+          "source_type": "resolution",
+          "document_date": "2026-10-19",
+          "quote": "The moratorium expires and this Resolution is automatically repealed at 12:01 a.m., local time, on July 1, 2027, or upon the earlier effective date of an ordinance amending the Zoning Regulations to regulate the construction, development, or operation of data centers.",
+          "supports": "Published adopted amendment establishes conditional sunset, subject to subsequent action."
+        }
+      ],
+      "changes": {
+        "duration": {
+          "from": "From adoption (immediate effect) through a fixed sunset of November 18, 2026, or the effective date of a zoning ordinance amendment addressing data centers, whichever occurs first",
+          "to": "Extended by Resolution 26-10-01R to 12:01 a.m. local time July 1, 2027, or the earlier effective date of an ordinance amending the zoning regulations to regulate data centers.",
+          "reason": "October 19 adopted resolution replaces the earlier sunset; later actions remain unverified."
+        },
+        "legal_basis": {
+          "from": "Resolution No. 26-07-04R, 'A Temporary Resolution Establishing a Moratorium on Issuance of Local Permits for Data Centers Within the City of Aberdeen,' adopted 7-0 at a regular Aberdeen City Council meeting on 2026-07-20, under authority of SDCL Sec. 49-50-3 (effective 2026-07-01)",
+          "to": "Resolution No. 26-07-04R adopted July 20, 2026, as amended by Resolution No. 26-10-01R adopted October 19, 2026.",
+          "reason": "Published amendment identifies the original instrument and its amendment."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Resolution 26-07-04R (adopted 7-0 on July 20, 2026, published July 23, 2026) bars Aberdeen zoning and building officials from issuing any permit or license for the construction, development, or operation of a data center within city limits; any pending application is held without review or action. The resolution took immediate effect as an emergency measure under SDCL Sec. 9-19-13 and automatically expires and is repealed on November 18, 2026, or on the effective date of a zoning-ordinance amendment (Aberdeen City Code Chapter 60 - Zoning) addressing data centers, whichever is first. As of September 22, 2026, the City Attorney was still briefing the council on the timeline for that follow-on zoning ordinance, which had not yet been adopted.",
+          "to": "Resolution 26-10-01R, adopted October 19, 2026, extended and modified the original moratorium; it states a July 1, 2027 sunset at 12:01 a.m. local time or the earlier effective date of a qualifying zoning ordinance. Later actions and present force as of November 5 have not been independently established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Retain the dated extension without asserting that no subsequent event occurred."
+        },
+        "outcome": {
+          "from": "Adopted 7-0 on first reading and passage at the July 20, 2026 regular City Council meeting; published July 23, 2026.",
+          "to": "Original resolution passed July 20, 2026; extension Resolution 26-10-01R adopted October 19, 2026, 9-0.",
+          "reason": "The published October 22 resolution records the extension vote."
+        },
+        "current_end_date_iso": {
+          "from": "",
+          "to": "2027-07-01",
+          "reason": "Express fixed outside date, subject to an earlier qualifying ordinance and later amendment."
+        }
+      },
+      "notes": "The extension redefines administration and scope and includes cryptomining; source does not establish that a later qualifying zoning ordinance has not taken effect."
+    },
+    {
+      "moratorium_id": "sd-turner-county-2025",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://turner.sdcounties.org/uploads/1/4/4/2/144282440/minutes_august_26_2025.docx",
+          "source_type": "minutes",
+          "document_date": "2025-08-26",
+          "quote": "This moratorium shall expire on August 25, 2026, unless otherwise extended by law.",
+          "supports": "Original ordinance states its expiry independently of its one-year characterization and publication effective date."
+        },
+        {
+          "url": "https://turner.sdcounties.org/uploads/1/4/4/2/144282440/minutes_august_25_2026.docx",
+          "source_type": "minutes",
+          "document_date": "2026-08-25",
+          "quote": "This extension of the moratorium shall remain in effect for one (1) year and shall expire on August 25, 2027, unless sooner repealed, amended, or otherwise extended as authorized by law.",
+          "supports": "Extension instrument uses a year and explicitly states its end, subject to later action."
+        }
+      ],
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Original and extension use years and express dated expirations; a fixed 365-day encoding is not the stated term."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "One year is a calendar term, not a fixed-days expression."
+        },
+        "current_status": {
+          "from": "Extended as of 2026-09-23; the one-year moratorium on new permits and land-use approvals for utility-scale solar and wind systems (Ordinance #100-25, adopted 2025-08-26) was extended one year by Ordinance #105-26, adopted 2026-08-25 after an 8:35 a.m. public hearing (4 ayes, chairman abstaining), and now expires 2027-08-25. NextEra withdrew its Swan Lake Wind application in August 2026.",
+          "to": "County minutes record Ordinance 105-26 adoption August 25, 2026, with a one-year extension and express August 25, 2027 expiry unless sooner repealed, amended or extended. They print September 3 publication and September 23 effectiveness, while the original 100-25 expressly expires August 25, 2026. Continuity and the publication/effectiveness discrepancy require review. Scope is utility-scale alternative energy including solar and wind, not established here as a data-center restriction. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "notes": "Extension effective date printed September 23, 2026, after original stated expiry August 25, 2026; continuity and later changes were not resolved. This correction does not confirm current force."
+    },
+    {
+      "moratorium_id": "sd-yankton-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://intuviosolutions.blob.core.windows.net/templator-uploads/Uploads/documents/25/Data%20Center%20Moratorium.pdf",
+          "source_type": "resolution",
+          "document_date": "2026-07-21",
+          "quote": "(6) consecutive months from the date is becomes effefective, unless extended by further",
+          "supports": "Original resolution specifies calendar months; text extraction retains the doubled ligature as printed in retained text."
+        }
+      ],
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Six consecutive months is not 180 fixed days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Use the instrument\u2019s calendar-month unit."
+        },
+        "current_end_date_iso": {
+          "from": "2027-01-17",
+          "to": "",
+          "reason": "January 17 is derived from an unsupported 180-day conversion. Six months from July 21 is nominally January 21, 2027, subject to legal interpretation and later action; do not assert a verified current end date."
+        },
+        "current_status": {
+          "from": "Active as of the July 31, 2026 research date. Blocks applications and permits for building, use, zoning, or rezoning approval of data collection, storage, or processing facilities and Bitcoin mining facilities exceeding 250 kW, for six months from the July 21, 2026 adoption. The commission separately directed the Planning and Zoning Commission to begin drafting permanent standards.",
+          "to": "Published Resolution 26-7 records July 21, 2026 passage, 5-0, immediate effect after passage and approval, and six consecutive months unless extended. The unsupported 180-day conversion and January 17 endpoint are cleared. No independently verified later-action or current-force conclusion. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "notes": "No later action was established. The resolution text applies its 250 kW wording to data centers or bitcoin mining facilities; applicability should not be broadened without resolving that construction."
+    }
+  ],
+  "new_candidates": []
+}

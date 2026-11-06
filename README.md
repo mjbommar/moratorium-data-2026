@@ -66,7 +66,7 @@ For more, see the [FAQ](docs/FAQ.md).
 Working snapshot during the **November 5, 2026** refresh (record-level source dates vary):
 
 - **1293 moratorium instruments** tracked in our cleaned inventory
-  - **1069 currently in force** (879 active + 190 extended)
+  - **1069 currently in force** (878 active + 191 extended)
   - **69 pending or not yet effective** (proposed or enacted with a future effective date)
   - **94 replaced** by permanent regulations
   - **50 expired** without a documented replacement

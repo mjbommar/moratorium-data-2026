@@ -9,7 +9,7 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
-| Aberdeen | City | 2026-07-20 | data center | 🟢 Active |
+| Aberdeen | City | 2026-07-20 | data center | 🟢 Extended |
 | Pennington County | County | 2024-11-19 | wind, solar | 🟢 Active |
 | Turner County | County | 2025-08-26 | wind, solar | 🟢 Extended |
 | Yankton County | County | 2026-07-21 | data center, cryptocurrency mining | 🟢 Active |
@@ -19,18 +19,18 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 ### Aberdeen
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** 2026-07-20 (City Council first reading and passage, 7-0)
 - **Normalized date:** `2026-07-20` (exact)
-- **Duration:** From adoption (immediate effect) through a fixed sunset of November 18, 2026, or the effective date of a zoning ordinance amendment addressing data centers, whichever occurs first
-- **Current end date:** `—`
+- **Duration:** Extended by Resolution 26-10-01R to 12:01 a.m. local time July 1, 2027, or the earlier effective date of an ordinance amending the zoning regulations to regulate data centers.
+- **Current end date:** `2027-07-01`
 - **Sectors:** data center
 - **Moratorium ID:** `sd-aberdeen-2026`
-- **Legal basis:** Resolution No. 26-07-04R, 'A Temporary Resolution Establishing a Moratorium on Issuance of Local Permits for Data Centers Within the City of Aberdeen,' adopted 7-0 at a regular Aberdeen City Council meeting on 2026-07-20, under authority of SDCL Sec. 49-50-3 (effective 2026-07-01)
+- **Legal basis:** Resolution No. 26-07-04R adopted July 20, 2026, as amended by Resolution No. 26-10-01R adopted October 19, 2026.
 - **What prompted it:** City's current zoning/building regulations and staff may not adequately address data centers; council found officials 'hampered' in assessing permit applications, creating unpredictability and risk of stranded investment pending a comprehensive study
 - **Affected projects:** None named; as of publication Aberdeen had not received a specific data center development proposal for City Council consideration.
-- **Detailed status:** Active as of 2026-09-23. Resolution 26-07-04R (adopted 7-0 on July 20, 2026, published July 23, 2026) bars Aberdeen zoning and building officials from issuing any permit or license for the construction, development, or operation of a data center within city limits; any pending application is held without review or action. The resolution took immediate effect as an emergency measure under SDCL Sec. 9-19-13 and automatically expires and is repealed on November 18, 2026, or on the effective date of a zoning-ordinance amendment (Aberdeen City Code Chapter 60 - Zoning) addressing data centers, whichever is first. As of September 22, 2026, the City Attorney was still briefing the council on the timeline for that follow-on zoning ordinance, which had not yet been adopted.
-- **Outcome:** Adopted 7-0 on first reading and passage at the July 20, 2026 regular City Council meeting; published July 23, 2026.
+- **Detailed status:** Resolution 26-10-01R, adopted October 19, 2026, extended and modified the original moratorium; it states a July 1, 2027 sunset at 12:01 a.m. local time or the earlier effective date of a qualifying zoning ordinance. Later actions and present force as of November 5 have not been independently established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** Original resolution passed July 20, 2026; extension Resolution 26-10-01R adopted October 19, 2026, 9-0.
 
 ### Pennington County
 
@@ -61,7 +61,7 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Legal basis:** Ordinance #100-25, 'A Temporary Zoning Ordinance Regulating Utility-Scale Alternative Energy in All Turner County Zoning Districts' (adopted 2025-08-26); extended by Ordinance #105-26, 'A Temporary Zoning Ordinance Extending the Moratorium Regulating Utility-Scale Alternative Energy Systems in All Turner County Zoning Districts' (adopted 2026-08-25); SDCL 11-2-10, 7-18A-8
 - **What prompted it:** Proposed Swan Lake Wind Project (NextEra Energy Resources; up to 97 GE turbines, approximately 248 MW) spanning Turner and Yankton counties; county sought time to study and regulate before the project could proceed
 - **Affected projects:** Swan Lake Wind Project (NextEra Energy Resources), spanning Turner and Yankton counties; NextEra withdrew its application for the project in or around August 2026.
-- **Detailed status:** Extended as of 2026-09-23; the one-year moratorium on new permits and land-use approvals for utility-scale solar and wind systems (Ordinance #100-25, adopted 2025-08-26) was extended one year by Ordinance #105-26, adopted 2026-08-25 after an 8:35 a.m. public hearing (4 ayes, chairman abstaining), and now expires 2027-08-25. NextEra withdrew its Swan Lake Wind application in August 2026.
+- **Detailed status:** County minutes record Ordinance 105-26 adoption August 25, 2026, with a one-year extension and express August 25, 2027 expiry unless sooner repealed, amended or extended. They print September 3 publication and September 23 effectiveness, while the original 100-25 expressly expires August 25, 2026. Continuity and the publication/effectiveness discrepancy require review. Scope is utility-scale alternative energy including solar and wind, not established here as a data-center restriction. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Yankton County
@@ -71,13 +71,13 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Date enacted:** 2026-07-21 (County Commission adopted the moratorium 5-0, recorded as Action 26248C)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** Six months from adoption (approximately to 2027-01-21); the commission packet draft had proposed 12 months, but the adopted motion changed the term to six months
-- **Current end date:** `2027-01-17`
+- **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `sd-yankton-county-2026`
 - **Legal basis:** Yankton County Resolution No. 26-7, 'Resolution Establishing a Temporary Moratorium on the Acceptance of Applications, or Issuing of Permits, for Approval of Building, Planning or Use Permits for Data Collection/Storage/Processing or Bitcoin Mining Facilities Exceeding a Power Capacity of 250 kW,' passed and approved 5-0 on July 21, 2026
 - **What prompted it:** Concern about incoming data center and Bitcoin mining facility proposals; commission wants time to draft permanent siting standards
 - **Affected projects:** None named; general countywide pause on new data center and greater-than-250kW Bitcoin mining permits and applications.
-- **Detailed status:** Active as of the July 31, 2026 research date. Blocks applications and permits for building, use, zoning, or rezoning approval of data collection, storage, or processing facilities and Bitcoin mining facilities exceeding 250 kW, for six months from the July 21, 2026 adoption. The commission separately directed the Planning and Zoning Commission to begin drafting permanent standards.
+- **Detailed status:** Published Resolution 26-7 records July 21, 2026 passage, 5-0, immediate effect after passage and approval, and six consecutive months unless extended. The unsupported 180-day conversion and January 17 endpoint are cleared. No independently verified later-action or current-force conclusion. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Enacted six-month moratorium after an initial motion for a 12-month term failed for lack of a second.
 
 ---
