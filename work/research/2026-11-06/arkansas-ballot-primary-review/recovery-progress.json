@@ -1,0 +1,90 @@
+{
+  "scope": "Primary recovery diagnostic; no canonical field acceptance. Search results and limited pages do not establish absence.",
+  "attempts": [
+    {
+      "attempt_id": "b81e005ece6645bcadc6ab2d5125d0db",
+      "kind": "exa",
+      "query": "Clarksville Arkansas December 8 2026 special election 26-1007 26-1008 ballot",
+      "hits": 8,
+      "cost_usd": 0.007
+    },
+    {
+      "attempt_id": "4e91001da5c14bc5ab32ee47315393b0",
+      "kind": "exa",
+      "query": "Clarksville December 2026 special election ballot referendum",
+      "hits": 8,
+      "cost_usd": 0.007
+    },
+    {
+      "attempt_id": "6858baf521134e449950a397314dfc4f",
+      "kind": "fetch",
+      "url": "https://www.clarksvillear.gov/live-feed",
+      "ok": true,
+      "chars": 538,
+      "body_sha256": "4575cdd6dd29da499413e4695aa070961a6d7ae319d978f09ec7d113a30fef28",
+      "text_sha256": "80a047527b2550774676aab6b0964b43c2cb860a54c553349c4a9b3d09fa87ea"
+    },
+    {
+      "attempt_id": "4d332f22b4ab482ca9de3a94019a6a96",
+      "kind": "fetch",
+      "url": "https://www.clarksvillear.gov/o/cc/page/city-clerk-city-council",
+      "ok": true,
+      "chars": 430,
+      "body_sha256": "e7c8b630e8c933349371d349821480a469d4c930af5fb566435bedead2082562",
+      "text_sha256": "daddd6ce428ef5206ac3d1b1e4df52da9521945cc297a2645bf167cd05716527"
+    },
+    {
+      "attempt_id": "2aacab2db4af43b68cb0c4f196b861ad",
+      "kind": "fetch",
+      "url": "https://www.clarksvillear.gov/live-feed",
+      "ok": true,
+      "chars": 538,
+      "body_sha256": "4a38b8b05cfd8c39b9ed155b390edf7fbc2fbb7c71d9ee2c2e9e92262dd4ddee",
+      "text_sha256": "80a047527b2550774676aab6b0964b43c2cb860a54c553349c4a9b3d09fa87ea",
+      "browser_controls": {
+        "engine": "pydoll",
+        "headless": false,
+        "settle_ms": 5000
+      }
+    },
+    {
+      "attempt_id": "d58e8f9062c94a5a93d4f31c4649bd80",
+      "kind": "exa",
+      "query": "Johnson County Arkansas election commission Clarksville December 8 2026 sample ballot",
+      "hits": 8,
+      "cost_usd": 0.007
+    },
+    {
+      "attempt_id": "f57d84ab0a724a8381cf8d0a81dba6de",
+      "kind": "fetch",
+      "url": "https://johnsoncounty.arkansas.gov/",
+      "ok": true,
+      "chars": 1885,
+      "body_sha256": "f9e8ec1faee357d2d6e8b870f61a161d36b290702102786e84e2bc3ac5195058",
+      "text_sha256": "ac1ea23afedc94cfbf6de9e52fcad4b21114e7e15b95218aac40aa54daf48180"
+    },
+    {
+      "attempt_id": "dc521ec3903f4e77a98652187275a59c",
+      "kind": "fetch",
+      "url": "https://sos.arkansas.gov/elections/for-voters",
+      "ok": true,
+      "chars": 5989,
+      "body_sha256": "74c6bcf7dc403d2d95593b0ddf9315f58a00f6ff54a91b4bd4c5042132847c53",
+      "text_sha256": "1eca6a39a789690ebc3a60b82d703209e1115362aa4b4cae182f518c0ff00687"
+    },
+    {
+      "attempt_id": "a95d0a2596b04af19d5134f9fcb30127",
+      "kind": "fetch",
+      "url": "https://johnsoncounty.arkansas.gov/county-clerk/",
+      "ok": true,
+      "chars": 610,
+      "body_sha256": "4fd3d8fe1b232aee3db56c2e4d33ac01e766888f856a88997d4c14135a3d7c65",
+      "text_sha256": "5b9a023d0ac5006c9ddb9b7cb27d62315a18bfe59a82f3f77ed223d572ae6af6"
+    }
+  ],
+  "finished_searches": 3,
+  "reported_search_cost_usd": 0.021,
+  "finished_fetches": 6,
+  "remaining_fetch_reservations": 2,
+  "finding": "City live feed, including explicit pydoll/5second settle retrieval, contained no referendum notice in returned content. County clerk page establishes office election responsibility but no specific referendum date or ballot. SOS general calendar is not a Clarksville special election notice. December1conditional versus December8reported discrepancy remains unresolved."
+}
