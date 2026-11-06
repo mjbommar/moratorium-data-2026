@@ -1,0 +1,46 @@
+{
+  "applied_at": "20261105T200030",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-washington-j/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 1,
+    "fields_changed": 4
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "wa-leavenworth-2018",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The source states a calendar-month term; 180 or 365 fixed days is not equivalent.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-leavenworth-2018",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Calendar months do not have a fixed day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-leavenworth-2018",
+      "column": "duration",
+      "before": "12 months",
+      "after": "Up to 12 months from passage, subject to extension or earlier termination",
+      "reason": "Section 2, not section 4, specifies up to twelve months with extension and earlier termination.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-leavenworth-2018",
+      "column": "current_status",
+      "before": "Replaced",
+      "after": "Ordinance 1561 section 2 states interim zoning controls for up to twelve months from passage, unless extended or terminated sooner by ordinance. Section 4 concerns the hearing, not the duration clause. Later repeal, replacement and final disposition remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ]
+}

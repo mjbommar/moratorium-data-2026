@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Leavenworth Ordinance 1561 section 2, visually compared with the separately retained OCR, establishes interim zoning controls for up to twelve months with extension or earlier termination. The worker’s attribution to section 4 is corrected; unsupported 365-day coding is removed. Later repeal and final disposition remain unresolved.
+
 East Wenatchee’s interim cryptocurrency zoning controls and Moses Lake’s up-to-twelve-month term replace unsupported day conversions; Moses Lake Ordinance 2899 adoption is dated May 22, 2018 by its legislative history, which reports repeal by 2900 without establishing final disposition. Renton’s unsupported exact battery-pause sunset and supersession by an unrelated data-center measure are removed from the narrative. Later legal histories remain unresolved.
 
 Local-inventory apply receipts now use exclusive file creation with collision suffixes, preserving every same-second application instead of overwriting its predecessor. A regression test exercises concurrent writes against an existing receipt; all 84 unit tests pass in the pinned bc-modules environment. This hardens receipt filenames, not concurrent inventory mutation or crash-atomic inventory/receipt publication.
@@ -204,7 +206,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1070** |
 | Pending or not yet effective | **68** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **643** |
+| Rows we still want to confirm (`[VERIFY]`) | **644** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

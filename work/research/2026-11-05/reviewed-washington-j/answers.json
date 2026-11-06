@@ -1,0 +1,46 @@
+{
+  "state_abbrev": "WA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wa-leavenworth-2018",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The source states a calendar-month term; 180 or 365 fixed days is not equivalent."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Calendar months do not have a fixed day count."
+        },
+        "duration": {
+          "from": "12 months",
+          "to": "Up to 12 months from passage, subject to extension or earlier termination",
+          "reason": "Section 2, not section 4, specifies up to twelve months with extension and earlier termination."
+        },
+        "current_status": {
+          "from": "Replaced",
+          "to": "Ordinance 1561 section 2 states interim zoning controls for up to twelve months from passage, unless extended or terminated sooner by ordinance. Section 4 concerns the hearing, not the duration clause. Later repeal, replacement and final disposition remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://mrsc.org/getmedia/e937dc78-9033-417a-8b0e-baee0589eb29/l4o1561.pdf",
+          "source_type": "ordinance",
+          "supports": "Full section 2 interim-control term, visually confirmed page 4.",
+          "quote": "Section 2: The interim zoning control set forth in this Ordinance shall be in effect for a period\nof up to twelve (12) months from the date this Ordinance is passed and shall automatically expire\nat the conclusion of that twelve (12) month period unless the same is extended by the City as\nprovided in state law or unless terminated sooner by Ordinance.",
+          "document_date": "2018-03-27",
+          "title": "Leavenworth Ordinance 1561, OCR"
+        }
+      ],
+      "notes": "Later repeal by 1585 was not independently verified. OCR derived from the fetched official ordinance copy; see derivations.json."
+    }
+  ],
+  "new_candidates": []
+}

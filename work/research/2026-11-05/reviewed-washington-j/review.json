@@ -1,0 +1,59 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "wa-inventory-005": "64a79706509a1a4a530ff233999a9a1ff461377a68d9b514c05fb5c3108338aa"
+  },
+  "reviewed_answers_sha256": "54ceb42e6e701c02ca8b19bee149233cbcbf31a98bf99002208bbeeaac9a150d",
+  "scope": "Leavenworth interim zoning-control calendar term correction. Actual operative clause is section 2, not worker section 4 attribution. Complete nine-page OCR lineage retained separately from original empty client text; page 4 visually compared. Later repeal and final disposition not established.",
+  "located_evidence": [
+    {
+      "moratorium_id": "wa-leavenworth-2018",
+      "url": "https://mrsc.org/getmedia/e937dc78-9033-417a-8b0e-baee0589eb29/l4o1561.pdf",
+      "quote": "Section 2: The interim zoning control set forth in this Ordinance shall be in effect for a period\nof up to twelve (12) months from the date this Ordinance is passed and shall automatically expire\nat the conclusion of that twelve (12) month period unless the same is extended by the City as\nprovided in state law or unless terminated sooner by Ordinance.",
+      "located": [
+        {
+          "attempt_id": "45c552cdd4b84e659a9a1438f0ac3844",
+          "body_sha256": "ea20c8de97aa04f2002200db4df79dcb48c1c0ae5903eff2551631f426c372c8",
+          "text_sha256": "164cdb3f5c9ec755c5e86178f19fa125cd9c980b39969fe89ef604815231e754",
+          "span": [
+            6361,
+            6714
+          ]
+        }
+      ]
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "45c552cdd4b84e659a9a1438f0ac3844",
+      "source_body_sha256": "ea20c8de97aa04f2002200db4df79dcb48c1c0ae5903eff2551631f426c372c8",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/wa-inventory-005/45c552cd.ocr.private.txt",
+      "derived_text_sha256": "164cdb3f5c9ec755c5e86178f19fa125cd9c980b39969fe89ef604815231e754",
+      "method": "Separately retained nine-page OCR, pdftoppm 26.01.0 at 150 dpi and tesseract 5.5.0; coordinator visually compared operative page 4",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T01:00:30.174506+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "45c552cdd4b84e659a9a1438f0ac3844",
+      "page": 4,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "4cf50badecd1251a087bcbb90be0c063d80d011900ff579bd9d1079cda0542bd"
+    }
+  ]
+}

@@ -188,14 +188,14 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Status:** ⚪ Replaced
 - **Date enacted:** 2018-03-27
 - **Normalized date:** `2018-03-27` (exact)
-- **Duration:** 12 months
+- **Duration:** Up to 12 months from passage, subject to extension or earlier termination
 - **Current end date:** `—`
 - **Sectors:** cryptocurrency mining
 - **Moratorium ID:** `wa-leavenworth-2018`
 - **Legal basis:** Ordinance 1561; RCW 36.70A.390 and RCW 35A.63.220; repealed by Ordinance 1585
 - **What prompted it:** Chelan County PUD briefings on high-density-load growth, limited electrical capacity, and fire-safety risk in areas not designed for such loads
 - **Affected projects:** Not quantified in captured ordinance materials
-- **Detailed status:** Replaced
+- **Detailed status:** Ordinance 1561 section 2 states interim zoning controls for up to twelve months from passage, unless extended or terminated sooner by ordinance. Section 4 concerns the hearing, not the duration clause. Later repeal, replacement and final disposition remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Ordinance table shows interim zoning control for cryptocurrency mining was repealed by Ordinance 1585
 
 ### City of Moses Lake
