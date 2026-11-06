@@ -44,6 +44,24 @@ INV = REPO / "data" / "moratorium_inventory.csv"
 SCHEMA = REPO / "work" / "schemas" / "research_decision.schema.json"
 AUDIT_DIR = REPO / "work" / "audit"
 
+def write_audit_receipt(directory: Path, stamp: str, receipt: dict) -> Path:
+    """Create a receipt without replacing an earlier same-second application."""
+    directory.mkdir(parents=True, exist_ok=True)
+    payload = json.dumps(receipt, indent=2) + "\n"
+    sequence = 0
+    while True:
+        suffix = f"-{sequence}" if sequence else ""
+        path = directory / f"apply-{stamp}{suffix}.json"
+        try:
+            handle = path.open("x", encoding="utf-8")
+        except FileExistsError:
+            sequence += 1
+            continue
+        with handle:
+            handle.write(payload)
+        return path
+
+
 VERIFY_MARKER_RE = re.compile(r"\[VERIFY[^\]]*\]", re.IGNORECASE)
 SLUG_RE = re.compile(r"[^a-z0-9]+")
 
@@ -675,17 +693,15 @@ def main() -> int:
         return 0
 
     write_inventory(rows, fieldnames)
-    AUDIT_DIR.mkdir(parents=True, exist_ok=True)
     stamp = dt.datetime.now().strftime("%Y%m%dT%H%M%S")
-    audit_path = AUDIT_DIR / f"apply-{stamp}.json"
-    audit_path.write_text(json.dumps({
+    audit_path = write_audit_receipt(AUDIT_DIR, stamp, {
         "applied_at": stamp,
         "answer_files": [rel_to_repo(p) for p, _ in answers],
         "stats": dict(stats),
         "conflicts": conflicts,
         "skipped": skipped,
         "changes": audit,
-    }, indent=2) + "\n", encoding="utf-8")
+    })
 
     print(f"\nWrote {INV.relative_to(REPO)} ({len(rows)} rows)")
     print(f"Wrote {audit_path.relative_to(REPO)} ({len(audit)} change records)")

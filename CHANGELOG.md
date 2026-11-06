@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Local-inventory apply receipts now use exclusive file creation with collision suffixes, preserving every same-second application instead of overwriting its predecessor. A regression test exercises concurrent writes against an existing receipt; all 84 unit tests pass in the pinned bc-modules environment. This hardens receipt filenames, not concurrent inventory mutation or crash-atomic inventory/receipt publication.
+
 Spokane’s adoption is corrected to June 22, distinct from its June 23 city release. Entiat’s March 22, 2018 minutes establish March 8 original passage of Ordinance 2018-779. Later action histories remain unresolved. A same-second apply-receipt collision was recovered by asserting the Spokane before/after fields against the prior commit, reviewed packet and current CSV; receipt hardening remains required.
 
 Puyallup’s city presentation identifies June 2 approval of Ordinance 3344, distinct from the city page’s June 15 term anchor; signed wording and the date distinction require review. Port Angeles’s hearing date is corrected to news-reported September 15, with draft regulations kept separate from adopted law. Unsupported fixed-day encodings are cleared; later legal force remains unresolved.

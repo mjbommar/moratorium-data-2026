@@ -21,6 +21,24 @@ def module(name):
 
 
 class ApplyGuards(unittest.TestCase):
+    def test_same_second_receipts_are_preserved_under_concurrent_writes(self):
+        from concurrent.futures import ThreadPoolExecutor
+        m = module('apply_research')
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            stamp = '20261105T195550'
+            original = root / f'apply-{stamp}.json'
+            original.write_text('preserved original receipt\n')
+            def write(number):
+                return m.write_audit_receipt(root, stamp, {'changes': [number]})
+            with ThreadPoolExecutor(max_workers=4) as pool:
+                paths = list(pool.map(write, range(8)))
+            self.assertEqual(original.read_text(), 'preserved original receipt\n')
+            self.assertEqual(len(set(paths)), 8)
+            self.assertEqual(len(list(root.glob('apply-*.json'))), 9)
+            self.assertEqual({json.loads(p.read_text())['changes'][0] for p in paths},
+                             set(range(8)))
+
     def test_distinct_successor_keeps_endpoint_and_replay_does_not_duplicate(self):
         m=module('apply_research')
         with tempfile.TemporaryDirectory() as tmp:
