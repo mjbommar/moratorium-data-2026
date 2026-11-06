@@ -93,6 +93,7 @@ Exit: read-only dry-run and bounded acquisition produce auditable plans and atte
 - [x] Publish Brownfield’s Article 1 question, proposed terms and original-JPEG tally, retaining its scoped source total and unresolved power-clause interpretation; reconcile nine published / 47 pending groups (`brownfield-promotion/`).
 - [x] Publish Freedom’s source-qualified Article 3/photo observations and draft terms, keeping VOIDS/circled total separate and account/certification/legal gaps explicit; reconcile ten published / 46 pending groups (`freedom-promotion/`).
 - [x] Review Clarksville’s two financing-referendum calls and register scoped OCR; preserve the conditional December date and reject an inaccessible article’s URL slug as date evidence (`clarksville-ballot-review/`).
+- [x] Review California DB/NDC primary evidence; refresh Alhambra counts with pydoll, recover council adoption/referral minutes with Exa/bc-web, and distinguish Monterey Park county/clerk/council/ordinance dates (`california-ballot-review/`). Canonical publication and current legal histories remain open.
 - [ ] Complete broader promotion/recovery calibration and the remaining ballot identity/fact reviews; the initial Eliot batch does not close P3.
 - [ ] Extend evidence archive/publication gates to new records and source payload types.
 - [ ] Add behavioral regression checks from plan section 11 (initial subset includes offline publication/receipt drift, historical identity baselines and portable-pointer checks; full gate coverage pending).

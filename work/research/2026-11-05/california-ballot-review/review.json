@@ -1,0 +1,584 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "reviewer": "coordinator",
+  "scope": "Scoped primary-source ballot review; no canonical promotion, complete legal-force history or inventory count change.",
+  "sources": [
+    {
+      "source_document_id": "review-ca-alhambra-old-returns",
+      "url": "https://results.lavote.gov/text-results/4348",
+      "body_sha256": "2d0ce44b8b4f38656d4e8c82344668634a0b72d8d35d05a35682983829d98103",
+      "text_sha256": "50ed7d6d61d7cbbf7066bafdafef493909431220500cc085abe93aec012ad1ef",
+      "attempt_id": "12a4526d6986449d8f0d719885a3496d",
+      "retrieved_at": "2026-11-05T16:55:21.642468+00:00"
+    },
+    {
+      "source_document_id": "review-ca-alhambra-new-returns",
+      "url": "https://results.lavote.gov/text-results/4348",
+      "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+      "text_sha256": "4311f5a7d2857082f0059ecd727c30e37daaaf0a7033ab59c1c33f22f6e22713",
+      "attempt_id": "e6ddae56a6de4912b0e5ce04a3ebd6b2",
+      "retrieved_at": "2026-11-06T03:37:10.342759+00:00"
+    },
+    {
+      "source_document_id": "review-ca-monterey-certification",
+      "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+      "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+      "text_sha256": "d2a9d7d74fad2bb1af90c566082928a2724ca689f30900f2e4635595500f31cd",
+      "attempt_id": "4a92e6f98f9c4239a02bd879519377de",
+      "retrieved_at": "2026-11-06T03:36:52.261425+00:00"
+    },
+    {
+      "source_document_id": "review-ca-monterey-county-returns",
+      "url": "https://results.lavote.gov/text-results/4338",
+      "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+      "text_sha256": "b2e4dd0370f7f661767c860d744a16c2b1b306a6230d82a2404e0069bd2dc055",
+      "attempt_id": "505dde29664b4e7a9d9c1a5deb1c5934",
+      "retrieved_at": "2026-11-05T16:55:31.657530+00:00"
+    },
+    {
+      "source_document_id": "review-ca-alhambra-calling-text",
+      "url": "https://www.alhambraca.gov/DocumentCenter/View/8180/O2M26-4868-Ordinance-Calling-Data-Ban-Ballot-Measure-Election",
+      "body_sha256": "5fa019613df2907e3ebed1166bde3740bd921e172fafda12a1b5e74e13a5cefd",
+      "text_sha256": "b5d7b1f439d6e5ed3a6810a6d3a2d8340bdbfa532e3357ca6c4bf2eb495e2770",
+      "attempt_id": "b77fa5e492f44c3e8cfadde8cd05e3e5",
+      "retrieved_at": "2026-11-05T16:56:05.646548+00:00"
+    },
+    {
+      "source_document_id": "review-ca-alhambra-analysis",
+      "url": "https://www.alhambraca.gov/DocumentCenter/View/8177/Impartial-Analysis-of-Data-Center-Ban---Ballot-Measure",
+      "body_sha256": "1c4a1170cea74dedfa73a6fb54ac71b2e1ca1f504bfdb58e446986c12b4bb33b",
+      "text_sha256": "1ae24cf76cad8af654f6b53efa698450b4aeb39566b70de02833ee1d294270bd",
+      "attempt_id": "3a3befba156d4b6b94a46500155d3576",
+      "retrieved_at": "2026-11-05T16:56:03.960766+00:00"
+    },
+    {
+      "source_document_id": "review-ca-alhambra-july-minutes",
+      "url": "https://www.alhambraca.gov/AgendaCenter/ViewFile/Minutes/_07272026-1609",
+      "body_sha256": "a2458ce7cd7f1a8348e11ebd7e47cf3681bed066bc8c15b1e21163146e86105e",
+      "text_sha256": "70e25108064567e93bf187fcc5b31cdd8678fef545af361a80324cd616cdafff",
+      "attempt_id": "b6093e8c232c4b5791837aefde87089c",
+      "retrieved_at": "2026-11-06T03:39:44.964787+00:00"
+    },
+    {
+      "source_document_id": "review-ca-alhambra-june-minutes",
+      "url": "https://www.alhambraca.gov/AgendaCenter/ViewFile/Minutes/_06222026-1593",
+      "body_sha256": "39ac9ac57ad054e1a64c701b44bac076d7bec076983b9311984df7306dbf8c79",
+      "text_sha256": "cb0eaa9e27f1dcdc872472e99c22dcea6cdf579b3c35d95ede16160434c50b88",
+      "attempt_id": "b59f06c7544f4ec5a66d06cb58433034",
+      "retrieved_at": "2026-11-06T03:40:07.659950+00:00"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ca-review-01",
+      "source_document_id": "review-ca-alhambra-old-returns",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-755b43813f85c3ed"
+      },
+      "predicate": "prior_reported_counts",
+      "value": {
+        "yes": 13314,
+        "no": 2889,
+        "source_yes_percent": 82.17
+      },
+      "quote": "YES 13,314 82.17%\nNO 2,889 17.83%",
+      "span": "utf8-text-codepoints:30693:30726"
+    },
+    {
+      "claim_id": "ca-review-02",
+      "source_document_id": "review-ca-alhambra-new-returns",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-755b43813f85c3ed"
+      },
+      "predicate": "new_reported_counts",
+      "value": {
+        "yes": 15237,
+        "no": 3132,
+        "source_yes_percent": 82.95
+      },
+      "quote": "YES 15,237 82.95%\nNO 3,132 17.05%",
+      "span": "utf8-text-codepoints:30708:30741"
+    },
+    {
+      "claim_id": "ca-review-03",
+      "source_document_id": "review-ca-alhambra-new-returns",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-755b43813f85c3ed"
+      },
+      "predicate": "source_snapshot_timestamp",
+      "value": "2026-11-05 16:34:21 local clock, timezone not explicitly stated",
+      "quote": "Results as of 11/05/2026 16:34:21.",
+      "span": "utf8-text-codepoints:352:386"
+    },
+    {
+      "claim_id": "ca-review-04",
+      "source_document_id": "review-ca-alhambra-new-returns",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-755b43813f85c3ed"
+      },
+      "predicate": "voter_question",
+      "value": "Data Centers Prohibited. Shall an ordinance be adopted affirming the Council adopted ban on \"Data Centers\" by amending the Alhambra Municipal Code to again define \"Data Centers\" and prohibit them in all zones of the City?",
+      "quote": "Data Centers Prohibited. Shall an ordinance be adopted affirming the Council adopted ban on \"Data Centers\" by amending the Alhambra Municipal Code to again define \"Data Centers\" and prohibit them in all zones of the City?",
+      "span": "utf8-text-codepoints:30340:30561"
+    },
+    {
+      "claim_id": "ca-review-05",
+      "source_document_id": "review-ca-alhambra-calling-text",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-755b43813f85c3ed"
+      },
+      "predicate": "proposed_accessory_exclusion",
+      "value": "Incidental to another primary use AND strictly supporting on-site operations",
+      "quote": "This classification excludes data facilities that are incidental to another primary use and that are strictly for the purposes of supporting the on-site operations of the primary use.",
+      "span": "utf8-text-codepoints:10135:10318"
+    },
+    {
+      "claim_id": "ca-review-06",
+      "source_document_id": "review-ca-alhambra-analysis",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-755b43813f85c3ed"
+      },
+      "predicate": "yes_vote_direction",
+      "value": "restricts",
+      "quote": "A \u201cYES\u201d vote is a vote to adopt the ordinance, affirming the ban and prohibiting Data Centers in all zones of the City.",
+      "span": "utf8-text-codepoints:2261:2380"
+    },
+    {
+      "claim_id": "ca-review-07",
+      "source_document_id": "review-ca-alhambra-analysis",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-755b43813f85c3ed"
+      },
+      "predicate": "existing_ban_if_measure_fails",
+      "value": "City attorney says existing Council-adopted ban remains unless later changed",
+      "quote": "A \u201cNO\u201d vote is a vote against adopting the ordinance; if the measure fails, the Council-adopted ban would remain in effect unless later changed by the City Council.",
+      "span": "utf8-text-codepoints:2382:2546"
+    },
+    {
+      "claim_id": "ca-review-08",
+      "source_document_id": "review-ca-alhambra-july-minutes",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-755b43813f85c3ed"
+      },
+      "predicate": "election_referral",
+      "value": {
+        "ordinance": "O2M26-4868",
+        "resolution": "R2M26-26",
+        "date": "2026-07-27",
+        "election_date": "2026-11-03",
+        "vote": "5-0"
+      },
+      "quote": "O2M26-4868",
+      "span": "pdf-page:15"
+    },
+    {
+      "claim_id": "ca-review-09",
+      "source_document_id": "review-ca-alhambra-june-minutes",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-755b43813f85c3ed"
+      },
+      "predicate": "predecessor_council_adoption",
+      "value": {
+        "ordinance": "O2M26-4863",
+        "date": "2026-06-22",
+        "vote": "5-0"
+      },
+      "quote": "O2M26-4863",
+      "span": "pdf-page:36"
+    },
+    {
+      "claim_id": "ca-review-10",
+      "source_document_id": "review-ca-monterey-county-returns",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-c61db186a09d54b0"
+      },
+      "predicate": "reported_counts",
+      "value": {
+        "yes": 10388,
+        "no": 1372,
+        "source_yes_percent": 88.33
+      },
+      "quote": "YES 10,388 88.33%\nNO 1,372 11.67%",
+      "span": "utf8-text-codepoints:34688:34721"
+    },
+    {
+      "claim_id": "ca-review-11",
+      "source_document_id": "review-ca-monterey-certification",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-c61db186a09d54b0"
+      },
+      "predicate": "certified_canvass_values",
+      "value": {
+        "yes": 10388,
+        "no": 1372,
+        "ballots_cast": 12381,
+        "registered_voters": 32781
+      },
+      "quote": "GRAND TOTAL 32,781 12,381 10,388 1,372",
+      "span": "pdf-page:8"
+    },
+    {
+      "claim_id": "ca-review-12",
+      "source_document_id": "review-ca-monterey-certification",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-c61db186a09d54b0"
+      },
+      "predicate": "county_certification_date",
+      "value": "2026-06-26",
+      "quote": "26th day of June 2026",
+      "span": "pdf-page:6"
+    },
+    {
+      "claim_id": "ca-review-13",
+      "source_document_id": "review-ca-monterey-certification",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-c61db186a09d54b0"
+      },
+      "predicate": "city_clerk_certification_date",
+      "value": "2026-06-30",
+      "quote": "this 30th day of June, 2026.",
+      "span": "pdf-page:4"
+    },
+    {
+      "claim_id": "ca-review-14",
+      "source_document_id": "review-ca-monterey-certification",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-c61db186a09d54b0"
+      },
+      "predicate": "council_declaration_date",
+      "value": "2026-07-01",
+      "quote": "PASSED AND ADOPTED this 1st day of July, 2026.",
+      "span": "pdf-page:2"
+    },
+    {
+      "claim_id": "ca-review-15",
+      "source_document_id": "review-ca-monterey-certification",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-c61db186a09d54b0"
+      },
+      "predicate": "executed_ordinance_date",
+      "value": {
+        "ordinance": "2280",
+        "date": "2026-07-02"
+      },
+      "quote": "PASSED AND ADOPTED this 2nd day of July, 2026.",
+      "span": "pdf-page:11"
+    },
+    {
+      "claim_id": "ca-review-16",
+      "source_document_id": "review-ca-monterey-certification",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-c61db186a09d54b0"
+      },
+      "predicate": "definition_threshold_and_exclusion",
+      "value": {
+        "operator": "ge",
+        "value": 1,
+        "unit": "acre",
+        "accessory_exclusion": "less than one acre AND accessory or incidental to another primary use"
+      },
+      "quote": "one or more acres of land",
+      "span": "pdf-page:9"
+    },
+    {
+      "claim_id": "ca-review-17",
+      "source_document_id": "review-ca-monterey-certification",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-c61db186a09d54b0"
+      },
+      "predicate": "effective_date_clause",
+      "value": {
+        "elapsed_days": 10,
+        "anchor": "City Council certification of election results",
+        "actual_effective_date": null
+      },
+      "quote": "10 days after the date that the City Council certifies the election results",
+      "span": "pdf-page:11"
+    }
+  ],
+  "visual_reviews": {
+    "ca-review-08": {
+      "claim_id": "ca-review-08",
+      "source_document_id": "review-ca-alhambra-july-minutes",
+      "claim_sha256": "3f1d98874ac1ae17251ac6314d0502dc988da1a12787542b416f847830747a6f",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "ordinance": "O2M26-4868",
+        "resolution": "R2M26-26",
+        "date": "2026-07-27",
+        "election_date": "2026-11-03",
+        "vote": "5-0"
+      },
+      "source_body_sha256": "a2458ce7cd7f1a8348e11ebd7e47cf3681bed066bc8c15b1e21163146e86105e",
+      "pdf_page": 15,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 15,
+        "dpi": 120
+      },
+      "render_sha256": "72eba3898d4a4347f435e7daa4f1a95fcf5b950bba7b5bce38aa34265a8255c5"
+    },
+    "ca-review-09": {
+      "claim_id": "ca-review-09",
+      "source_document_id": "review-ca-alhambra-june-minutes",
+      "claim_sha256": "ec532cffef5000283dbd98b718b745e05bc0754f6b9e1f10d3c605980a5204a2",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "ordinance": "O2M26-4863",
+        "date": "2026-06-22",
+        "vote": "5-0"
+      },
+      "source_body_sha256": "39ac9ac57ad054e1a64c701b44bac076d7bec076983b9311984df7306dbf8c79",
+      "pdf_page": 36,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 36,
+        "dpi": 120
+      },
+      "render_sha256": "2fff821dff9a530db6d008fdf3379fbc3fdf75ebeaf9a29be65e1063de41b7fd"
+    },
+    "ca-review-11": {
+      "claim_id": "ca-review-11",
+      "source_document_id": "review-ca-monterey-certification",
+      "claim_sha256": "41ac7735d71207868bc801951b6eef5ead5c7cec2ce4b22cdc9d6ab2105477cb",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes": 10388,
+        "no": 1372,
+        "ballots_cast": 12381,
+        "registered_voters": 32781
+      },
+      "source_body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+      "pdf_page": 8,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 8,
+        "dpi": 120
+      },
+      "render_sha256": "5cf52762f2bf09e5b6ab5a9d6ed50ed0a53deaa22222fdc3e5f0956bd367947f"
+    },
+    "ca-review-12": {
+      "claim_id": "ca-review-12",
+      "source_document_id": "review-ca-monterey-certification",
+      "claim_sha256": "b1146b441ef4edb4a083a1e62d3512053df5710a324969e167b3a58ffd9b1991",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": "2026-06-26",
+      "source_body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+      "pdf_page": 6,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 6,
+        "dpi": 120
+      },
+      "render_sha256": "efb50fec98aefc3019e8a85dc80d349f8c2306cbc9822292e572dec58890d69a"
+    },
+    "ca-review-13": {
+      "claim_id": "ca-review-13",
+      "source_document_id": "review-ca-monterey-certification",
+      "claim_sha256": "01da4f8fa2cd289ef348a9187764292590d12dff4ffc6382166b3e1763ac0326",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": "2026-06-30",
+      "source_body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+      "pdf_page": 4,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 4,
+        "dpi": 120
+      },
+      "render_sha256": "e51c754c446e8c6927dbabd34d1fc37a24b8c00496ca1a01a86387c945546663"
+    },
+    "ca-review-14": {
+      "claim_id": "ca-review-14",
+      "source_document_id": "review-ca-monterey-certification",
+      "claim_sha256": "03c5873d201206178a64df3b0948d25d63af0db0f7cf78c7613bc40c47e617e7",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": "2026-07-01",
+      "source_body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+      "pdf_page": 2,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 120
+      },
+      "render_sha256": "ad4b66e7bb3386f52a88c931377c947a70873bab6b0111a1136ec73e72ee050f"
+    },
+    "ca-review-15": {
+      "claim_id": "ca-review-15",
+      "source_document_id": "review-ca-monterey-certification",
+      "claim_sha256": "cfeca161c59a4e6ea269908943e4d0618fdf2b12facc7add98348d33e4fa1477",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "ordinance": "2280",
+        "date": "2026-07-02"
+      },
+      "source_body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+      "pdf_page": 11,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 11,
+        "dpi": 120
+      },
+      "render_sha256": "1804b76fdec06aff6e443c9b678f5db34249a74499cefdc950f6495f2df99a90"
+    },
+    "ca-review-16": {
+      "claim_id": "ca-review-16",
+      "source_document_id": "review-ca-monterey-certification",
+      "claim_sha256": "e8e36f98ff9be6c17f09226cfd3cc3032676ce5d6d441e34f744db3283c55512",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "operator": "ge",
+        "value": 1,
+        "unit": "acre",
+        "accessory_exclusion": "less than one acre AND accessory or incidental to another primary use"
+      },
+      "source_body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+      "pdf_page": 9,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 9,
+        "dpi": 120
+      },
+      "render_sha256": "ef7a443f6be9728e23b33f2db3a164c02298edfe8c7785b0618dd7265a06edc3"
+    },
+    "ca-review-17": {
+      "claim_id": "ca-review-17",
+      "source_document_id": "review-ca-monterey-certification",
+      "claim_sha256": "f6da0537860de088f1ffc5eab202ed80690aa2da7679f277361150788a0feb0e",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "elapsed_days": 10,
+        "anchor": "City Council certification of election results",
+        "actual_effective_date": null
+      },
+      "source_body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+      "pdf_page": 11,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 11,
+        "dpi": 120
+      },
+      "render_sha256": "1804b76fdec06aff6e443c9b678f5db34249a74499cefdc950f6495f2df99a90"
+    }
+  },
+  "reviewed_pdf_pages": {
+    "monterey_certification": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "alhambra_july27": [
+      14,
+      15
+    ],
+    "alhambra_june22": [
+      35,
+      36
+    ]
+  },
+  "alhambra": {
+    "seed_id": "bp-755b43813f85c3ed",
+    "election_date": "2026-11-03",
+    "designation": "Measure DB",
+    "yes_direction": "restricts",
+    "mechanism": "permanent_prohibition",
+    "latest_yes_votes": 15237,
+    "latest_no_votes": 3132,
+    "yes_no_sum": 18369,
+    "prior_yes_votes": 13314,
+    "prior_no_votes": 2889,
+    "latest_source_snapshot": "2026-11-05 16:34:21",
+    "certification_status": "unknown",
+    "reporting_status": "unknown",
+    "reported_outcome": "unknown",
+    "ballots_cast": null,
+    "blank_votes": null,
+    "current_legal_force": "unresolved",
+    "source_limits": [
+      "Calling text and analysis are unsigned DOCX files with blank certification/vote fields; they do not establish adoption or certified voter enactment.",
+      "July 27 minutes establish actual referral/calling-ordinance adoption separately from the draft text.",
+      "July 27 narrative says November 2, but the adopted ordinance/resolution passage and actual county contest state November 3; do not invent a date change.",
+      "Neither partial nor complete reporting is explicitly established for the current snapshot; do not carry forward the worker partial flag as a sourced fact.",
+      "June 22 minutes support adoption of predecessor O2M26-4863, but full ordinance text and subsequent current codification remain unreviewed."
+    ]
+  },
+  "monterey_park": {
+    "seed_id": "bp-c61db186a09d54b0",
+    "election_date": "2026-06-02",
+    "designation": "Measure NDC",
+    "yes_direction": "restricts",
+    "mechanism": "permanent_prohibition",
+    "yes_votes": 10388,
+    "no_votes": 1372,
+    "yes_no_sum": 11760,
+    "ballots_cast_source_value": 12381,
+    "registered_voters_source_value": 32781,
+    "total_scope": "Grand-total row in final official Measure NDC contest canvass, page 8; independently citywide ballots in resolution section 2.",
+    "blank_votes": null,
+    "undervotes": null,
+    "overvotes": null,
+    "certification_status": "certified",
+    "reported_outcome": "approved",
+    "certification_events": [
+      {
+        "authority": "Los Angeles County Registrar-Recorder/County Clerk",
+        "date": "2026-06-26",
+        "page": 6
+      },
+      {
+        "authority": "Monterey Park City Clerk",
+        "date": "2026-06-30",
+        "page": 4
+      }
+    ],
+    "council_declaration_date": "2026-07-01",
+    "ordinance_2280_execution_date": "2026-07-02",
+    "actual_effective_date": null,
+    "current_legal_force": "unresolved",
+    "source_limits": [
+      "Do not derive 621 blank/under/overvotes from ballots minus yes/no.",
+      "Native/OCR table text misreads digits; accept reviewed page-8 image values, corroborated by county text returns.",
+      "Keep Ordinance 2280 distinct from Ordinance 2278 and prior moratorium Ordinances 2272/2274.",
+      "Section 9 has a ten-day Council-certification trigger; do not substitute county/clerk certification or ordinance execution dates, or certify current force from the election result."
+    ]
+  },
+  "unresolved": [
+    "Canonical field-review/identity/publication gates for both groups.",
+    "Final Alhambra certification, operative instrument and current status.",
+    "Monterey Park effective-date trigger interpretation, subsequent implementation/amendments/challenges and predecessor relationships.",
+    "Full document extraction for these California sources; minutes review is limited to identified pages."
+  ]
+}
