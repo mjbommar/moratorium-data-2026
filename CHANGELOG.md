@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Hillsboro’s primary-use definition replaces the overly narrow stand-alone scope description; multiple primary uses and alternative site-level thresholds are preserved. Woodburn’s adopted instrument is identified as Resolution 2267 rather than an ordinance. Both changes retain explicit later-force and operative-interval limits.
+
 Tulsa’s November 4 planning packet updates its review timetable to a December 2 hearing followed by Council consideration. The proposed regulations are not treated as adopted; the reported December 31 moratorium term is distinguished from unexecuted redlined ordinance text and unresolved later legal force.
 
 South Bloomfield’s signed May 18 Ordinance 2026-06 corrects the false claim that no later moratorium was found. Its new-versus-extension relationship and legacy classification remain unresolved rather than silently retargeted. Ohio return accounting covers all 160 existing IDs: 86 bounded corrections applied, two identity/process proposals deferred and 72 other returns awaiting disposition. None is counted as fully verified for current legal force.
@@ -144,7 +146,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1068** |
 | Pending or not yet effective | **70** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **590** |
+| Rows we still want to confirm (`[VERIFY]`) | **592** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
