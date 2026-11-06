@@ -32,7 +32,7 @@ The court's procedural account records July13petition transmission, July28determ
 
 ## Reproduction and acquisition accounting
 
-The follow-up used all three configured Exa calls ($0.021 reported) and six of ten fetch slots, all terminal. Two fetches used pydoll: the unsuccessful county ballot form and successful code overview. No SerpAPI/model calls or original distributed-queue restarts occurred. Provider payloads, acquisition versions and failures remain private; existing client artifacts were not overwritten. Four fetch slots remain; their availability does not imply completed endpoint coverage.
+The initial review used all three configured Exa calls ($0.021 reported) and six of ten fetch slots, all terminal. Two fetches used pydoll: the unsuccessful county ballot form and successful code overview. No SerpAPI/model calls or original distributed-queue restarts occurred. Provider payloads, acquisition versions and failures remain private; existing client artifacts were not overwritten. The later [development-context follow-up](../wilmington-association-review/README.md) used two more slots: current usage is eight of ten, all terminal, with two remaining. Available slots do not imply completed endpoint coverage.
 
 ```bash
 /home/mjbommar/projects/bc/bc-modules/.venv/bin/python work/research/2026-11-06/ohio-ballot-wave5-review/verify.py \

@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-06",
   "reviewer": "coordinator",
-  "canonical_snapshot": "1bb2d027ec2b78c9cf1bcdfb832351b2b6601f60a9c5a70c99aec0718a21660c",
+  "canonical_snapshot": "d8c70a70f887a64344b0e4c1671fa6eec9ddf6483c48113b9efdd3d0068290f6",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 36,
-    "groups_pending_candidate_review": 20
+    "groups_with_scoped_canonical_publication": 41,
+    "groups_pending_candidate_review": 15
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -157,12 +157,21 @@
           "staged_measure_id": "ballot-oh-006::bp-2b078533cd352d45"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "fd0aaef5-9562-4deb-855c-540eec59c62a",
+      "publication_plan": "work/research/2026-11-06/ohio-wave5-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/ohio-ballot-wave5-review/review.json",
       "primary_review_packet_sha256": "227b388ca3cf229d2c7e66226430cc6db0ad88103831f89acdfa79e33a77565d",
-      "primary_review_status": "scoped_primary_review_not_published"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "additional_review_packets": [
+        {
+          "path": "work/research/2026-11-06/wilmington-association-review/review.json",
+          "sha256": "f43af931f3cd53ad360a7cf3274e9fdaa610b6540b1148d0714e97bfc7ae62b7",
+          "scope": "Source-qualified development context, no project-policy coverage link"
+        }
+      ],
+      "publication_plan_sha256": "f385545906b5480bde13db5bdcbd1c38a7b4f70bf9644a6cb5411f8841ae70b5",
+      "canonical_record_sha256": "4d32cd91b2401a41c86c83beefe8299f1f1c88cfefcf2c6ff254d3f2d2e122e0"
     },
     {
       "logical_group_id": "bp-2b4aaddff7a59232",
@@ -319,12 +328,21 @@
           "staged_measure_id": "ballot-oh-005::bp-69327f4efb97924c"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "812715e9-2216-4bbf-8b69-a9d6cbd8e7ec",
+      "publication_plan": "work/research/2026-11-06/ohio-wave5-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/ohio-ballot-wave5-review/review.json",
       "primary_review_packet_sha256": "227b388ca3cf229d2c7e66226430cc6db0ad88103831f89acdfa79e33a77565d",
-      "primary_review_status": "scoped_primary_review_not_published"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "additional_review_packets": [
+        {
+          "path": "work/research/2026-11-06/wilmington-association-review/review.json",
+          "sha256": "f43af931f3cd53ad360a7cf3274e9fdaa610b6540b1148d0714e97bfc7ae62b7",
+          "scope": "Source-qualified development context, no project-policy coverage link"
+        }
+      ],
+      "publication_plan_sha256": "f385545906b5480bde13db5bdcbd1c38a7b4f70bf9644a6cb5411f8841ae70b5",
+      "canonical_record_sha256": "eed2c033945beb175cdc1c08fb68d9d68c6af44d867719f9e242b69fbfc4c808"
     },
     {
       "logical_group_id": "bp-6c5760a0a7af1e4e",
@@ -454,12 +472,21 @@
           "staged_measure_id": "ballot-oh-005::bp-8722fc9b4338440b"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "febb373a-2ff7-42e5-940a-30c76ed19266",
+      "publication_plan": "work/research/2026-11-06/ohio-wave5-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/ohio-ballot-wave5-review/review.json",
       "primary_review_packet_sha256": "227b388ca3cf229d2c7e66226430cc6db0ad88103831f89acdfa79e33a77565d",
-      "primary_review_status": "scoped_primary_review_not_published"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "additional_review_packets": [
+        {
+          "path": "work/research/2026-11-06/wilmington-association-review/review.json",
+          "sha256": "f43af931f3cd53ad360a7cf3274e9fdaa610b6540b1148d0714e97bfc7ae62b7",
+          "scope": "Source-qualified development context, no project-policy coverage link"
+        }
+      ],
+      "publication_plan_sha256": "f385545906b5480bde13db5bdcbd1c38a7b4f70bf9644a6cb5411f8841ae70b5",
+      "canonical_record_sha256": "e068950646c40b3f6ad962a755f97507ad6c34f774383a42901b597a2ae3fbf4"
     },
     {
       "logical_group_id": "bp-8b0ace9686d3691a",
@@ -753,12 +780,14 @@
           "staged_measure_id": "ballot-oh-005::bp-e302df1c8d4340f1"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "7a69751b-85d5-4086-a305-acd411d80b29",
+      "publication_plan": "work/research/2026-11-06/ohio-wave5-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/ohio-ballot-wave5-review/review.json",
       "primary_review_packet_sha256": "227b388ca3cf229d2c7e66226430cc6db0ad88103831f89acdfa79e33a77565d",
-      "primary_review_status": "scoped_primary_review_not_published"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "publication_plan_sha256": "f385545906b5480bde13db5bdcbd1c38a7b4f70bf9644a6cb5411f8841ae70b5",
+      "canonical_record_sha256": "47c56160c4105473c4bb2ccc1cd33450c63cabadd053c3882ce5d7191339fbed"
     },
     {
       "logical_group_id": "bp-e99a2287017cc1a5",
@@ -850,12 +879,21 @@
           "staged_measure_id": "ballot-oh-005::bp-fe9281f5575a2ecc"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "f447f7d9-53fe-49bf-ac3a-dec05cd3a7a0",
+      "publication_plan": "work/research/2026-11-06/ohio-wave5-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/ohio-ballot-wave5-review/review.json",
       "primary_review_packet_sha256": "227b388ca3cf229d2c7e66226430cc6db0ad88103831f89acdfa79e33a77565d",
-      "primary_review_status": "scoped_primary_review_not_published"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "additional_review_packets": [
+        {
+          "path": "work/research/2026-11-06/wilmington-association-review/review.json",
+          "sha256": "f43af931f3cd53ad360a7cf3274e9fdaa610b6540b1148d0714e97bfc7ae62b7",
+          "scope": "Source-qualified development context, no project-policy coverage link"
+        }
+      ],
+      "publication_plan_sha256": "f385545906b5480bde13db5bdcbd1c38a7b4f70bf9644a6cb5411f8841ae70b5",
+      "canonical_record_sha256": "30805c8083cae90cd20bca037723bf15872a53087419b11660f73fbdcbbefe9a"
     },
     {
       "logical_group_id": "lead-217612cd4c82afc1ce43",

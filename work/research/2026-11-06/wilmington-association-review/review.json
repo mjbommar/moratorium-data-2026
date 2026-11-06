@@ -1,0 +1,97 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "scope": "Three secondary reporting versions support source-qualified development context only. No operative restriction, project-policy link or canonical publication.",
+  "sources": [
+    {
+      "source_document_id": "wilmington-context-january-news",
+      "url": "https://www.wnewsj.com/2026/01/16/council-advances-four-rezonings-near-aws-site/",
+      "body_sha256": "91427df5eac1f51c03724eac5f19868b58e7a3d4103f0f7e49bc92e36e3af3ea",
+      "text_sha256": "22dd36a8bca24281fb7f373d8e6018debb39f2e71d9229870ec75d499b5e026e",
+      "retrieved_at": "2026-11-06T08:50:24.234860+00:00",
+      "attempt_id": "1aca1c1a16b640f3b529fe5efd58e6ba"
+    },
+    {
+      "source_document_id": "wilmington-context-approval-news",
+      "url": "https://www.wcpo.com/news/local-news/wilmington-city-council-approves-zoning-changes-near-proposed-amazon-data-center-site",
+      "body_sha256": "e66f1750c1c1d8df8c6899afcc90ebc7d5183f367697a22ed54522c19516183e",
+      "text_sha256": "a4366ae7da47765d846d4ce436831f33ed0194dfb8b959229a36e3bd861f8982",
+      "retrieved_at": "2026-11-06T08:50:24.302500+00:00",
+      "attempt_id": "61f077320ac84a4c8664ae228d07bf7e"
+    },
+    {
+      "source_document_id": "wilmington-context-november-news",
+      "url": "https://www.wnewsj.com/2026/11/03/wilmington-voters-reject-four-rezoning-ordinances/",
+      "body_sha256": "9b6ea4fae5da35bde3afcf65354bb603dcbc94e401833685c0fd55ba669903a6",
+      "text_sha256": "01cf626ca44bca2b6956177bb0c1d8b32a9ae85c38190ee9d3eda439bc779f0c",
+      "retrieved_at": "2026-11-05T17:17:09.292588+00:00",
+      "attempt_id": "8526a70dc34d4b4792593315e06e7c73"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "wilmington-context-01",
+      "source_document_id": "wilmington-context-january-news",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "candidate:wilmington-rezoning-cohort-2026"
+      },
+      "predicate": "reported_development_association",
+      "value": {
+        "source_class": "Local newspaper reporting of council discussion",
+        "ordinances": [
+          "O-26-04",
+          "O-26-05",
+          "O-26-06",
+          "O-26-07"
+        ],
+        "reported_prospective_buyer": "Ardent",
+        "reported_affiliation": "TAC Data Centers",
+        "reported_project_distinction": "Attorney describes Ardent proposal as standalone from nearby AWS campus; detailed plans not disclosed",
+        "scope": "Source-qualified context for infrastructure-policy inclusion. No accepted project identity, corporate equivalence, parcel ownership, project approval or causal/coverage link. Four referendums remain general parcel zoning."
+      },
+      "quote": "prospective buyer is Ardent",
+      "span": "utf8-text-codepoints:1335:1362"
+    },
+    {
+      "claim_id": "wilmington-context-02",
+      "source_document_id": "wilmington-context-november-news",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "candidate:wilmington-rezoning-cohort-2026"
+      },
+      "predicate": "reported_referendum_development_context",
+      "value": {
+        "source_class": "Local election reporting",
+        "ordinances": [
+          "O-26-04",
+          "O-26-05",
+          "O-26-06",
+          "O-26-07"
+        ],
+        "context": "Four separate parcel referendums reported in data-center development debate; nearby AWS site and prospective Ardent buyer are distinct reported associations",
+        "scope": "Thematic connection, not proof referendums prohibited AWS campus or cancelled a project. Official ballot controls wording/parcels; official return controls counts. Activist characterizations not adopted as legal effects."
+      },
+      "quote": "Ardent was the prospective buyer",
+      "span": "utf8-text-codepoints:2060:2092"
+    },
+    {
+      "claim_id": "wilmington-context-03",
+      "source_document_id": "wilmington-context-approval-news",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "candidate:wilmington-rezoning-cohort-2026"
+      },
+      "predicate": "reported_approval_and_location_conflict",
+      "value": {
+        "source_class": "Local broadcaster reporting",
+        "approval_limit": "Report itself distinguishes rezoning from final project approval",
+        "location_conflict": "Report associates O-26-04 with1957SR730 and O-26-05 withSR730; official ballot instead describes O-26-04 onSR730 and O-26-05 at1957SR730",
+        "scope": "Keep report as context only. Official ballot physicalpage2 controls parcel descriptions; annexation O-26-09/O-26-10 are separate instruments. No zoning-to-project approval inference."
+      },
+      "quote": "not final approval for the entire project",
+      "span": "utf8-text-codepoints:2911:2952"
+    }
+  ],
+  "visual_reviews": {}
+}
