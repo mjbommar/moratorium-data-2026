@@ -10,10 +10,10 @@ Run from repo root:
 
 from __future__ import annotations
 
+import posixpath
 import re
 from pathlib import Path
-
-import markdown
+from urllib.parse import unquote, urlsplit, urlunsplit
 
 REPO = Path(__file__).resolve().parents[1]
 
@@ -250,47 +250,30 @@ PAGE_TEMPLATE = """<!doctype html>
 
 
 # Targets we render to .html — these get rewritten in markdown links
-RENDERED_TARGETS = {src for src, _, _, _ in PAGES}
+RENDERED_TARGETS = {"README.md": "index.html", **{src: dst for src, dst, _, _ in PAGES}}
 
 
-def rewrite_md_links(html: str) -> str:
-    """Rewrite .md links inside a rendered HTML doc to point at .html siblings.
+def rewrite_md_links(html: str, source_md: str) -> str:
+    """Link to generated outputs only when the source target is rendered.
 
-    - Rewrites href="...some/path.md" → href="...some/path.html" only when the
-      .md target is one we are rendering.
-    - Leaves external links alone.
-    - Special-cases data/README.md and states/README.md → data/index.html and
-      states/index.html.
-    - Leaves the .md untouched if we're not rendering it (so links to e.g.
-      LICENSE-data still go to the GitHub blob — caller can choose to rewrite
-      those separately).
+    Resolve relative URLs against the source document. Research packets and
+    other unrendered Markdown retain their original URLs; query strings and
+    fragments survive generated-page rewrites.
     """
+    source_directory = posixpath.dirname(source_md) or "."
+    output_directory = posixpath.dirname(RENDERED_TARGETS[source_md]) or "."
 
     def repl(match: re.Match[str]) -> str:
-        full = match.group(0)
         target = match.group(1)
-
-        # External or anchor links — leave alone.
-        if target.startswith(("http://", "https://", "#", "mailto:")):
-            return full
-
-        # Strip any anchor fragment for the lookup.
-        path_only, _, frag = target.partition("#")
-
-        # Normalize: pages live next to the .md, so a link from docs/FAQ.md to
-        # "../states/ohio.md" resolves to "states/ohio.md" relative to the
-        # current page. We need to figure out the absolute repo-root path.
-        # But we don't actually need the absolute path because the rewrite
-        # is purely textual (replace .md → .html / README.md → index.html).
-        if path_only.endswith("README.md"):
-            new_path = path_only[: -len("README.md")] + "index.html"
-        elif path_only.endswith(".md"):
-            new_path = path_only[:-3] + ".html"
-        else:
-            return full
-
-        new = new_path + (f"#{frag}" if frag else "")
-        return f'href="{new}"'
+        url = urlsplit(target)
+        if url.scheme or url.netloc or not url.path or url.path.startswith("/"):
+            return match.group(0)
+        resolved = posixpath.normpath(posixpath.join(source_directory, unquote(url.path)))
+        output = RENDERED_TARGETS.get(resolved)
+        if output is None:
+            return match.group(0)
+        relative = posixpath.relpath(output, output_directory)
+        return 'href="' + urlunsplit(("", "", relative, url.query, url.fragment)) + '"'
 
     return re.sub(r'href="([^"]+)"', repl, html)
 
@@ -310,6 +293,8 @@ def make_breadcrumb_for(out_path: Path, home_url: str) -> str:
 
 
 def render() -> None:
+    import markdown
+
     md = markdown.Markdown(
         extensions=[
             "extra",            # tables, fenced code, footnotes, attr_list
@@ -328,7 +313,7 @@ def render() -> None:
         text = src_path.read_text(encoding="utf-8")
         md.reset()
         body = md.convert(text)
-        body = rewrite_md_links(body)
+        body = rewrite_md_links(body, src)
 
         prefix = "../" * depth          # path back to repo root from this html
         home = prefix + "index.html"
