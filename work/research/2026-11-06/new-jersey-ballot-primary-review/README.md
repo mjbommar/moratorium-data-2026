@@ -27,3 +27,11 @@ The township-hosted Ordinance 2026-04 PDF was recovered and all five scanned pag
 The packet also mixes July 13 adoption language with an unsigned August 17 post-hearing notice. Its record sheet identifies July 13 introduction and August 17 hearing but leaves final adoption, final vote and final-passage publication/posting fields blank. The five affirmative marks are introduction votes. Effectiveness is conditioned on final passage and required publication. These features prevent using the title or packet alone as proof of a currently operative ban.
 
 The township notice index separately links a revised introduction and final-passage notice. Those links are retained in `ordinance-version-review.json` for the next review. No operative restriction or ballot-to-instrument causal link is accepted yet.
+
+## Final-passage follow-up
+
+The actual notice links redirect to legacy Word DOC files, so both were converted locally with LibreOffice, extracted with pdftotext and visually inspected in full as one-page renders. Original DOC bytes and empty retrieval extractions are preserved; registered derivations and converted/render hashes are pinned in `final-passage-review.json`.
+
+The revised introduction notice schedules the hearing for October 19, 2026. The separate final-passage notice directly reports that Ordinance 2026-04 was adopted after hearing on October 19 at 6:30 p.m., following July 13 introduction. This supports **reported October 19 adoption**, superseding reliance on the older packet’s August 17 template. The ordinance landing link still returns exactly the old five-page PDF, so the operative-text gap remains.
+
+The notice supplies no dated final-passage publication proof, effective date or final vote count. Its reported adoption precedes the November 3 advisory vote; the vote cannot be described as the act that enacted this ordinance. Keep the electoral record and separately adopted ordinance distinct pending final-text and legal-force review.
