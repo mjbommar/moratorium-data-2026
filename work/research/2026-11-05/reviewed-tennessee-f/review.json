@@ -1,0 +1,104 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "tn-inventory-005": "12eb6088117fe57d7217872e46ecbe436b2f9f0b90e981cc0181ae34f053a94b"
+  },
+  "reviewed_answers_sha256": "22df961d58104183a66a2dc3f8fdf2b067b8b47f1f3f5674be68c508248f58ac",
+  "scope": "Two signed Tennessee calendar-term corrections. Shelbyville July 7 signed adoption coexists with explicit July 8, 2027 expiry and twelve-month wording; preserve discrepancy rather than infer endpoint. Spring City July 30 signed final reading and two-year clause confirmed visually. No complete later legal-force history accepted.",
+  "located_evidence": [
+    {
+      "moratorium_id": "tn-shelbyville-2026",
+      "url": "https://www.shelbyvilletn.org/Planning/2026/Reso%2022-26%20Moratorium%20on%20Data%20Centers%207.7.2026.pdf?t=202607090934120",
+      "quote": "calendar year moratorium, or twelve (12) months, from the date of adoption of this Resolution.",
+      "located": [
+        {
+          "attempt_id": "dc5992c04be7428080aa5b77ffbc7e0b",
+          "body_sha256": "578406247e1db0149c2c17fb15a6cd9667fa32858c0d913f1516d72aa69f5b88",
+          "text_sha256": "af5cbb2a79109eb9a34f0f25c759a644b35c59b2f559900479893b6bf780ba8e",
+          "span": [
+            2934,
+            3028
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "tn-spring-city-2026",
+      "url": "https://www.townofspringcitytn.com/uploads/ordinances_resolutions_90_2085008470.pdf",
+      "quote": "A temporary moratorium is hereby imposed for a period of two (2) years from the effective date of",
+      "located": [
+        {
+          "attempt_id": "89b6a6cfcd204a59bba73a05b58e0328",
+          "body_sha256": "2ee9b135d27b08a598e17d0f193d6232998a0322a0bc016474f1499cf2ddff04",
+          "text_sha256": "d95e6e821588bcb9d002e4843e292ad8b633db5e06a9660e60519a53257076c4",
+          "span": [
+            2416,
+            2513
+          ]
+        }
+      ]
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "dc5992c04be7428080aa5b77ffbc7e0b",
+      "source_body_sha256": "578406247e1db0149c2c17fb15a6cd9667fa32858c0d913f1516d72aa69f5b88",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/tn-inventory-005/dc5992c04be7428080aa5b77ffbc7e0b.ocr.private.txt",
+      "derived_text_sha256": "af5cbb2a79109eb9a34f0f25c759a644b35c59b2f559900479893b6bf780ba8e",
+      "method": "Separately retained three-page PDF OCR; coordinator visually compared relevant term and signed execution pages",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T00:42:19.621413+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    },
+    {
+      "attempt_id": "89b6a6cfcd204a59bba73a05b58e0328",
+      "source_body_sha256": "2ee9b135d27b08a598e17d0f193d6232998a0322a0bc016474f1499cf2ddff04",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/tn-inventory-005/89b6a6cfcd204a59bba73a05b58e0328.ocr.private.txt",
+      "derived_text_sha256": "d95e6e821588bcb9d002e4843e292ad8b633db5e06a9660e60519a53257076c4",
+      "method": "Separately retained three-page PDF OCR; coordinator visually compared relevant term and signed execution pages",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T00:42:19.621891+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "dc5992c04be7428080aa5b77ffbc7e0b",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "ad551a719678a0bf26e6fe76b67bed9680483182fd754c3db50d85b864164fbe"
+    },
+    {
+      "attempt_id": "dc5992c04be7428080aa5b77ffbc7e0b",
+      "page": 3,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "a61e557a5200f62b7f8ed43ef56f57182f8832452e29edbe66b7c5ed7dcd0e37"
+    },
+    {
+      "attempt_id": "89b6a6cfcd204a59bba73a05b58e0328",
+      "page": 1,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "0ddc28f6df273bbd40fe034ac678f2dc18d9f8bc7b7019a94f7cef0b15b320f9"
+    },
+    {
+      "attempt_id": "89b6a6cfcd204a59bba73a05b58e0328",
+      "page": 3,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "22ee32c99e3c3e8eee47727b85fc68b498e6caf3d41606321efd6f533832a385"
+    }
+  ]
+}

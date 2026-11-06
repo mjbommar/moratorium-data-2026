@@ -1,0 +1,70 @@
+{
+  "applied_at": "20261105T194219",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-tennessee-f/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 2,
+    "fields_changed": 7
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "tn-shelbyville-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-shelbyville-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-shelbyville-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; Resolution 22-26 bars permits, zoning approvals, building approvals, text amendments, utility extensions, and development agreements for data center facilities through 2027-07-08, extendable by the City Council.",
+      "after": "Signed resolution records July 7, 2026 adoption. Section 2 specifies one calendar year or twelve months from adoption and expressly prints July 8, 2027; the date/term discrepancy is preserved without recalculating an endpoint. Later actions and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-spring-city-2026",
+      "column": "duration_days",
+      "before": "730",
+      "after": "",
+      "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-spring-city-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-spring-city-2026",
+      "column": "legal_basis",
+      "before": "Town of Spring City ordinance imposing a two-year moratorium on new data centers, AI computing facilities, cryptocurrency mining operations, and other high-density digital processing facilities (number not published)",
+      "after": "Town of Spring City Ordinance 2026-11 imposing a temporary moratorium on data processing centers, including AI computing and cryptocurrency mining facilities, adopted on second and final reading July 30, 2026.",
+      "reason": "Official signed ordinance identifies number, scope and final passage.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-spring-city-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; two-year moratorium approved on final vote 2026-07-30.",
+      "after": "Signed Ordinance 2026-11 records July 16 first reading and July 30 second/final reading, immediate effect upon final passage, and a two-year term subject to subsequent ordinance extension, amendment or repeal. Later actions and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ]
+}

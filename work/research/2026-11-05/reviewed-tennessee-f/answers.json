@@ -1,0 +1,77 @@
+{
+  "state_abbrev": "TN",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "tn-shelbyville-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.shelbyvilletn.org/Planning/2026/Reso%2022-26%20Moratorium%20on%20Data%20Centers%207.7.2026.pdf?t=202607090934120",
+          "document_date": "2026-07-07",
+          "source_type": "resolution",
+          "supports": "Original resolution specifies a calendar term.",
+          "quote": "calendar year moratorium, or twelve (12) months, from the date of adoption of this Resolution."
+        }
+      ],
+      "notes": "Original term is a calendar year, with explicit July 8, 2027 date; later action and current force not verified.",
+      "confidence": 0.9,
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; Resolution 22-26 bars permits, zoning approvals, building approvals, text amendments, utility extensions, and development agreements for data center facilities through 2027-07-08, extendable by the City Council.",
+          "to": "Signed resolution records July 7, 2026 adoption. Section 2 specifies one calendar year or twelve months from adoption and expressly prints July 8, 2027; the date/term discrepancy is preserved without recalculating an endpoint. Later actions and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    },
+    {
+      "moratorium_id": "tn-spring-city-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.townofspringcitytn.com/uploads/ordinances_resolutions_90_2085008470.pdf",
+          "document_date": "2026-07-30",
+          "source_type": "ordinance",
+          "supports": "Ordinance 2026-11 sets a two-year term from effective date.",
+          "quote": "A temporary moratorium is hereby imposed for a period of two (2) years from the effective date of"
+        }
+      ],
+      "notes": "Signed ordinance records first reading July 16, final July 30, immediately effective, two years unless amended, repealed or extended. Later actions and current force not verified.",
+      "confidence": 0.9,
+      "changes": {
+        "duration_days": {
+          "from": "730",
+          "to": "",
+          "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count."
+        },
+        "legal_basis": {
+          "from": "Town of Spring City ordinance imposing a two-year moratorium on new data centers, AI computing facilities, cryptocurrency mining operations, and other high-density digital processing facilities (number not published)",
+          "to": "Town of Spring City Ordinance 2026-11 imposing a temporary moratorium on data processing centers, including AI computing and cryptocurrency mining facilities, adopted on second and final reading July 30, 2026.",
+          "reason": "Official signed ordinance identifies number, scope and final passage."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; two-year moratorium approved on final vote 2026-07-30.",
+          "to": "Signed Ordinance 2026-11 records July 16 first reading and July 30 second/final reading, immediate effect upon final passage, and a two-year term subject to subsequent ordinance extension, amendment or repeal. Later actions and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    }
+  ],
+  "new_candidates": []
+}

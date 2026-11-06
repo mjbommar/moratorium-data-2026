@@ -614,7 +614,7 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Legal basis:** Resolution 22-26, "A Resolution of the City Council of Shelbyville, Tennessee Approving and Authorizing a Moratorium on Development of All Data Centers, Including Cryptocurrency Mining, and Similar High Impact Land Uses," adopted 2026-07-07 on a favorable Planning Commission recommendation of 2026-06-25
 - **What prompted it:** Planning Commission had recommended both a moratorium and amendments placing data centers in the city's I-3 use classification
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; Resolution 22-26 bars permits, zoning approvals, building approvals, text amendments, utility extensions, and development agreements for data center facilities through 2027-07-08, extendable by the City Council.
+- **Detailed status:** Signed resolution records July 7, 2026 adoption. Section 2 specifies one calendar year or twelve months from adoption and expressly prints July 8, 2027; the date/term discrepancy is preserved without recalculating an endpoint. Later actions and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Smithville
@@ -659,10 +659,10 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `tn-spring-city-2026`
-- **Legal basis:** Town of Spring City ordinance imposing a two-year moratorium on new data centers, AI computing facilities, cryptocurrency mining operations, and other high-density digital processing facilities (number not published)
+- **Legal basis:** Town of Spring City Ordinance 2026-11 imposing a temporary moratorium on data processing centers, including AI computing and cryptocurrency mining facilities, adopted on second and final reading July 30, 2026.
 - **What prompted it:** Study of land use, water and sewer, electrical demand, traffic, emergency response, noise and environmental effects
 - **Affected projects:** None named
-- **Detailed status:** Active as of 2026-09-23; two-year moratorium approved on final vote 2026-07-30.
+- **Detailed status:** Signed Ordinance 2026-11 records July 16 first reading and July 30 second/final reading, immediate effect upon final passage, and a two-year term subject to subsequent ordinance extension, amendment or repeal. Later actions and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Ordinance adopted after public hearing
 
 ### Sullivan County
