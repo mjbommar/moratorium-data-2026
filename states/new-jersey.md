@@ -5,7 +5,7 @@ Working inventory for New Jersey, generated **November 5, 2026**. Record-level r
 
 **4 instruments** — 3 in force, 1 pending, 0 past.
 
-State policy is tracked separately: **16 actions** (16 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **17 actions** (17 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

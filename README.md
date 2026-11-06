@@ -74,7 +74,7 @@ Working snapshot during the **November 5, 2026** refresh (record-level source da
 - **47 states** have at least one moratorium. We searched the other **3 states** (Hawaii, West Virginia, and Wyoming) and found none. Alaska, Arizona, Delaware, Rhode Island, and Vermont joined the list in the September 2026 update
 - **Top 10 states by instrument count**: Ohio (160), New York (150), Michigan (145), Georgia (70), North Carolina (69), Iowa (57), Tennessee (45), Washington (42), Wisconsin (40), Florida (35)
 - **Sectors covered**: most moratoria are about **data centers** (about 84% mention them). **Battery storage** comes next (about 19%). Most of those are New York town pauses added in September 2026. Smaller numbers cover **cryptocurrency mining**, **solar**, and **wind**
-- **439 state-level bills** tracked in 2025–2026, plus **2 binding non-bill state-policy actions**. These include moratorium proposals, local-moratorium authority/preemption, permitting limits, and utility-grid restrictions. Filter the typed `policy_instrument_type`, `policy_mechanism`, `legal_effect_status`, and `scope_of_action` columns rather than treating every state row as a moratorium.
+- **440 state-level bills** tracked in 2025–2026, plus **2 binding non-bill state-policy actions**. These include moratorium proposals, local-moratorium authority/preemption, permitting limits, and utility-grid restrictions. Filter the typed `policy_instrument_type`, `policy_mechanism`, `legal_effect_status`, and `scope_of_action` columns rather than treating every state row as a moratorium.
 - **348 moratorium texts** read line-by-line and coded against a 44-clause taxonomy (the confidence-≥-0.4 subset of the 526 successful structured extractions in [`data/structured_extractions.jsonl`](data/structured_extractions.jsonl)). ⚠️ This cohort covers 211 jurisdictions and was collected **before 2026-04-28** — it was not re-run in v2026.07, so the clause-level percentages describe only about a quarter of the current inventory. See [known gaps](docs/known-gaps.md)
 - **1290 of 1293 instruments geocoded** with WGS84 lat/lon (99.8% coverage); the 3 blanks comprise two aggregate meta-rows and Hayward, whose coordinates await review. In September 2026 we found 37 rows placed in the wrong county, because many townships share a name, and fixed them ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
 
@@ -180,7 +180,7 @@ moratorium-data-2026/
 ├── states/                        # 50-state index + per-state pages
 ├── data/                          # canonical CSVs and JSON
 │   ├── moratorium_inventory.csv   # the 1291-row local-moratorium table
-│   ├── state_legislation.csv      # 441-row state-policy tracker (439 bills + 2 actions)
+│   ├── state_legislation.csv      # 442-row state-policy tracker (440 bills + 2 actions)
 │   ├── summary_stats.json         # top-level aggregates
 │   ├── structured_extractions.jsonl  # 864 lines (526 successful + 338 errors)
 │   └── clause_extraction_analysis.json  # n=348 cohort summary

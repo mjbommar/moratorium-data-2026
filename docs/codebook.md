@@ -134,8 +134,8 @@ A single JSON object with top-level aggregates. Useful for embedding live counts
 Top-level keys:
 
 - `total_local_moratoria`: 1293 — total rows in the inventory
-- `total_state_bills`: 439 — bill rows in state_legislation.csv
-- `total_state_policy_actions`: 441 — all state-policy rows, including binding non-bill actions
+- `total_state_bills`: 440 — bill rows in state_legislation.csv
+- `total_state_policy_actions`: 442 — all state-policy rows, including binding non-bill actions
 - `states_with_moratoria`: 47
 - `states_without_moratoria`: 3
 - `moratoria_with_verify_tags`: 666 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
