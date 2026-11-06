@@ -18,6 +18,24 @@
       "ok": true,
       "body_sha256": "8a30963417b399a575ca1bc3690fea55314df82a203d1107ed7c08e32d52d47e",
       "text_sha256": "9ef65ade322233bf54dda699135f133b6e0f1549b24eeacbf7b67eac2645c281"
+    },
+    {
+      "attempt_id": "8beeb45d64314988b60d11208e39013e",
+      "url": "https://www.frenchtownmi.gov/AgendaCenter",
+      "final_url": "https://www.frenchtownmi.gov/AgendaCenter",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "963fad142ae805fab81768137059a0f06cb6af59245b8deffe3ce30016124c01",
+      "text_sha256": "4e3b69000a55ea011a7955aa89bee66fcf508c94e386d4a246b3fca82ca08977"
+    },
+    {
+      "attempt_id": "85fcb8cdc2384635bc98097af026d455",
+      "url": "https://www.frenchtownmi.gov/AgendaCenter/ViewFile/Agenda/_04282026-200",
+      "final_url": "https://www.frenchtownmi.gov/AgendaCenter/ViewFile/Agenda/_04282026-200",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "771fd0bfd448982016e319a70002bd600a61c0108badca985f68ec883145a7ef",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     }
   ],
   "link_provenance": {
@@ -29,6 +47,10 @@
     {
       "scope": "client text of linked compiled zoning ordinance, Section 7.13",
       "observation": "General authority limits initial moratoria to six months, allows supported extensions, and requires ordinance or amendment adoption. This is not the executed technology-use Ordinance 300-19 or its publication notice."
+    },
+    {
+      "scope": "DRAFT Ordinance 300-19, physical PDF pages 31-32 of April 28 premeeting packet",
+      "observation": "Six months from effective date, with earlier termination by board resolution; draft effective-date clause says seven days after publication of passage. No actual publication date is supplied or inferred. Preprinted adoption header is not execution evidence."
     }
   ],
   "unresolved": [
@@ -37,5 +59,49 @@
     "Complete October 13 extension instrument",
     "Operative extension endpoint"
   ],
-  "canonical_changes": 0
+  "canonical_changes": 0,
+  "packet_link_provenance": {
+    "parent_attempt_id": "8beeb45d64314988b60d11208e39013e",
+    "href": "/AgendaCenter/ViewFile/Agenda/_04282026-200",
+    "child_attempt_id": "85fcb8cdc2384635bc98097af026d455"
+  },
+  "visual_reviews": [
+    {
+      "attempt_id": "85fcb8cdc2384635bc98097af026d455",
+      "physical_pdf_page": 31,
+      "render_dpi": 100,
+      "render_sha256": "f0fd4c5ac83560c4b015c186b31912922940b1347981727264e2d6c0ba12c713",
+      "review": "Full page visually inspected; DRAFT watermark, not executed text."
+    },
+    {
+      "attempt_id": "85fcb8cdc2384635bc98097af026d455",
+      "physical_pdf_page": 32,
+      "render_dpi": 100,
+      "render_sha256": "3efb102bdff8d4f499b858f5cea52e42d8454961338289a2da0c3824faae4666",
+      "review": "Full page visually inspected; DRAFT watermark, not executed text."
+    }
+  ],
+  "derivation": {
+    "attempt_id": "85fcb8cdc2384635bc98097af026d455",
+    "source_body_sha256": "771fd0bfd448982016e319a70002bd600a61c0108badca985f68ec883145a7ef",
+    "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "derived_text_sha256": "3f7815fe739a7d84d3625a53ab7193455a17c393c74fe02686709bd2b742a7df",
+    "method": "Manual visual transcription of selected passages, guided by local tesseract OCR; original extraction retained empty; DRAFT watermark preserved as limitation",
+    "pages": [
+      31,
+      32
+    ],
+    "reviewer": "codex",
+    "review_status": "accepted_derivation",
+    "reviewed_at": "2026-11-06T12:36:10.172780+00:00",
+    "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+  },
+  "bounded_search": {
+    "attempt_id": "aed1a6a316e0482c97dcfb58226982ed",
+    "query": "\"Frenchtown\" \"300-19\"",
+    "backend": "exa",
+    "hits": 8,
+    "cost_usd": 0.007,
+    "scope": "Returned official first-reading minutes plus secondary summaries; no accepted executed instrument or publication notice."
+  }
 }
