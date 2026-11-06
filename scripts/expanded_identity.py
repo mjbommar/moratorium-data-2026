@@ -41,7 +41,11 @@ def alias_key(alias):
 class Registry:
     def __init__(self,events=()):
         self.events={};self.entities={};self.aliases={}
-        for event in events:self.add(event)
+        # During construction no successfully returned registry is observable.
+        # Validate replay directly; public add() still stages mutations on a copy
+        # so a rejected update cannot alter an existing registry. Copying the
+        # entire accumulated history for each replayed event is quadratic.
+        for event in events:self._add(event)
 
     def resolve(self,canonical_id):
         require(canonical_id in self.entities,'Unknown canonical ID '+str(canonical_id))

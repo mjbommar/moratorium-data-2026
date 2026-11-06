@@ -23,6 +23,23 @@ def event(n,action,inputs,outputs,aliases=(),assignments=(),table='ballot_measur
 def plan(events,previous=None):return {'schema_version':'1.0.0','expected_sha256':previous,'events':events}
 
 class IdentityTests(unittest.TestCase):
+    def test_constructor_replay_preserves_transactional_history_and_conflicts(self):
+        history=[event(1,'allocate',[],[uid(1)],[alias(1)]),
+                 event(2,'allocate',[],[uid(2)],[alias(2)]),
+                 event(3,'merge',[uid(1),uid(2)],[uid(1)]),
+                 event(4,'alias',[uid(1)],[uid(1)],[alias(3)])]
+        original=copy.deepcopy(history)
+        replay=m.Registry(history)
+        incremental=m.Registry()
+        for row in history:incremental.add(row)
+        self.assertEqual(replay.events,incremental.events)
+        self.assertEqual(replay.entities,incremental.entities)
+        self.assertEqual(replay.aliases,incremental.aliases)
+        self.assertEqual(history,original)
+        for a in [alias(1),alias(2),alias(3)]:
+            self.assertEqual(replay.resolve_alias('ballot_measures',a),{uid(1)})
+        with self.assertRaises(ValueError):m.Registry(history+[history[-1]])
+
     def test_same_names_do_not_infer_identity_and_alias_collision_refused(self):
         r=m.Registry([event(1,'allocate',[],[uid(1)],[alias(1)]),event(2,'allocate',[],[uid(2)],[alias(2)])])
         before=copy.deepcopy(r.aliases)
