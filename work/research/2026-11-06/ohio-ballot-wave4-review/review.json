@@ -1,0 +1,321 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "scope": "Retained primary versions, selected-page visual review. No fresh acquisitions, canonical publication, certified result or current legal-force acceptance.",
+  "sources": [
+    {
+      "source_document_id": "oh4-review-sunbury-ballot",
+      "url": "https://lookup.boe.ohio.gov/vtrapp/delaware/getballot.aspx?elect=20261103g_webeix0&prsid=161___3&bpty=X",
+      "body_sha256": "1514596a2f48a53e70f9e3c940c59b0b2345f5355b319476b499ae9f2a418a78",
+      "text_sha256": "67bbb934ba3271b8414562789a2c59e0bb9b2f2b552b9cdfd6b1c14edfdaffe3",
+      "retrieved_at": "2026-11-05T17:17:14.084697+00:00",
+      "attempt_id": "0162029bddb3478d8f8968a90ac23d35"
+    },
+    {
+      "source_document_id": "oh4-review-sunbury-return",
+      "url": "https://vote.delawarecountyohio.gov/wp-content/uploads/2026/11/Delawares-Unofficial-Summary-Report.pdf",
+      "body_sha256": "08a6b2bf3948ec3cdb789f3428e57a332ba1c96e4a1c0a6810e4b476dd6e73a4",
+      "text_sha256": "f02d3667f6232f4383ae5423f50e2f72b368974294cb56ff43e751d455ed4397",
+      "retrieved_at": "2026-11-05T17:16:37.404613+00:00",
+      "attempt_id": "2da8af9722ef41f88d5f1883dea6cd77"
+    },
+    {
+      "source_document_id": "oh4-review-upper-return",
+      "url": "https://www.boe.ohio.gov/wyandot/c/elecres/20261103results.pdf",
+      "body_sha256": "847b1b89e83e385e74a3eccd80b32d2199e161d734edc3d9a1432460f5d735d8",
+      "text_sha256": "0dc4168cbb346ddad544401ea09b451fa4f65dc945f1b30a3fc02ce0a9f4cf9b",
+      "retrieved_at": "2026-11-05T17:15:49.633506+00:00",
+      "attempt_id": "de5e7ac6186045c19a600d9fb7365af4"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ohio-wave4-review-01",
+      "source_document_id": "oh4-review-sunbury-ballot",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-c8f47691c4f8e5b5"
+      },
+      "predicate": "official_ballot_question",
+      "value": {
+        "electorate": "City of Sunbury",
+        "wording": "The proposed amendment would amend the Charter of the City of Sunbury to add Section 11.05 to Article XI to read as follows:\nArticle XI, Section 11.05: Prohibition of Construction of a Data Center.\n(A) The construction of a data center is hereby prohibited.\n(B) As used in this Section, \"construction\" shall mean the erection of one or more buildings, infrastructure, facilities, and related activities, which include preparations and modifications for same, for a common purpose.\n(C) As used in this Section, \"data center\" shall mean one or more buildings or physical facilities or infrastructure, located on a single real property parcel or on contiguous, adjacent, or otherwise aggregated real property parcels that:\n(1) Are used primarily or exclusively for digital information services such as the management, storage, processing, and dissemination of electronic data and information through the use of computer systems, servers, networking equipment, and related components, including equipment cooling systems; and\n(2) Has an aggregate monthly demand or peak load of greater than twenty-five (25) megawatts, however derived from any energy source, or a combination thereof.\n(D) This Section is self-executing.\nShall Article XI, Section 11.05 of the Charter of the City of Sunbury be adopted?",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "yes_direction": "restricts",
+        "scope": "Right column, own municipal charter question, physical page2 of4. Statewide Issue3 immediate-effect clause is not part of this question. Self-executing is not an accepted actual effective date."
+      },
+      "quote": null,
+      "span": "pdf-page:2"
+    },
+    {
+      "claim_id": "ohio-wave4-review-02",
+      "source_document_id": "oh4-review-sunbury-ballot",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-c8f47691c4f8e5b5"
+      },
+      "predicate": "official_proposed_definition_and_effect",
+      "value": {
+        "proposed_section": "Article XI Section 11.05",
+        "prohibition": "Construction of a data center",
+        "construction": "Erection and related preparations/modifications for a common purpose",
+        "parcels": "Single, contiguous, adjacent or otherwise aggregated parcels",
+        "digital_use": "Primarily or exclusively digital information services including cooling equipment",
+        "threshold_comparator": ">",
+        "threshold_value": 25,
+        "threshold_unit": "MW",
+        "threshold_metric": "Aggregate monthly demand or peak load",
+        "energy_source": "Any source or combination",
+        "effect_text": "This Section is self-executing.",
+        "scope": "Proposal only; no existing-operation ban, complete exemption review or actual operative date accepted."
+      },
+      "quote": null,
+      "span": "pdf-page:2"
+    },
+    {
+      "claim_id": "ohio-wave4-review-03",
+      "source_document_id": "oh4-review-sunbury-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-c8f47691c4f8e5b5"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 2809,
+        "no_votes": 763,
+        "source_yes_percent": 78.64,
+        "precincts_reporting": 6,
+        "precincts_total": 6,
+        "source_total_votes": 3572,
+        "report_label": "Delaware County Unofficial Canvass",
+        "source_clock": "11/3/2026 10:30:48 PM EST",
+        "scope": "Sunbury contest only. Countywide170143 registered and118305 ballots are not municipal denominators. Under/over/blank/ballots unknown."
+      },
+      "quote": null,
+      "span": "pdf-page:4"
+    },
+    {
+      "claim_id": "ohio-wave4-review-04",
+      "source_document_id": "oh4-review-sunbury-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-c8f47691c4f8e5b5"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total Votes",
+        "count": 3572,
+        "scope": "City of Sunbury - Proposed Charter Amendment"
+      },
+      "quote": null,
+      "span": "pdf-page:4"
+    },
+    {
+      "claim_id": "ohio-wave4-review-05",
+      "source_document_id": "oh4-review-upper-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-24a05d4711a8aee8"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 1893,
+        "no_votes": 568,
+        "source_yes_percent": 76.92,
+        "source_total_votes_cast": 2461,
+        "undervotes": 42,
+        "overvotes": 0,
+        "precincts_reporting": 6,
+        "precincts_total": 6,
+        "report_label": "Wyandot County's Unofficial Canvass",
+        "source_clock": "11/03/2026 8:55 PM; timezone unspecified",
+        "scope": "City of Upper Sandusky named Data Center charter contest; physical page3, printed6of8. No inferred ballots2503 or blank count. Primary wording, placement conflict and actual effect remain unresolved."
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "ohio-wave4-review-06",
+      "source_document_id": "oh4-review-upper-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-24a05d4711a8aee8"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total Votes Cast",
+        "count": 2461,
+        "scope": "Charter Amendment Prohibition of a Data Center City of Upper Sandusky"
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    }
+  ],
+  "visual_reviews": {
+    "ohio-wave4-review-01": {
+      "claim_id": "ohio-wave4-review-01",
+      "source_document_id": "oh4-review-sunbury-ballot",
+      "claim_sha256": "4acf6988d47ef4f67ab44eada50339096e2ab85493f35b20e8dcaf37da5697d9",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "electorate": "City of Sunbury",
+        "wording": "The proposed amendment would amend the Charter of the City of Sunbury to add Section 11.05 to Article XI to read as follows:\nArticle XI, Section 11.05: Prohibition of Construction of a Data Center.\n(A) The construction of a data center is hereby prohibited.\n(B) As used in this Section, \"construction\" shall mean the erection of one or more buildings, infrastructure, facilities, and related activities, which include preparations and modifications for same, for a common purpose.\n(C) As used in this Section, \"data center\" shall mean one or more buildings or physical facilities or infrastructure, located on a single real property parcel or on contiguous, adjacent, or otherwise aggregated real property parcels that:\n(1) Are used primarily or exclusively for digital information services such as the management, storage, processing, and dissemination of electronic data and information through the use of computer systems, servers, networking equipment, and related components, including equipment cooling systems; and\n(2) Has an aggregate monthly demand or peak load of greater than twenty-five (25) megawatts, however derived from any energy source, or a combination thereof.\n(D) This Section is self-executing.\nShall Article XI, Section 11.05 of the Charter of the City of Sunbury be adopted?",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "yes_direction": "restricts",
+        "scope": "Right column, own municipal charter question, physical page2 of4. Statewide Issue3 immediate-effect clause is not part of this question. Self-executing is not an accepted actual effective date."
+      },
+      "source_body_sha256": "1514596a2f48a53e70f9e3c940c59b0b2345f5355b319476b499ae9f2a418a78",
+      "pdf_page": 2,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 150
+      },
+      "render_sha256": "804a0f017a9a26cf3ed91e6abad0c7dfed52e04c84dee4ba278bfe5908cf32b9"
+    },
+    "ohio-wave4-review-02": {
+      "claim_id": "ohio-wave4-review-02",
+      "source_document_id": "oh4-review-sunbury-ballot",
+      "claim_sha256": "52615fc2378e44da6a59d77e08edfa026f05e43ec46c4630f150bdcf3bdabe05",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "proposed_section": "Article XI Section 11.05",
+        "prohibition": "Construction of a data center",
+        "construction": "Erection and related preparations/modifications for a common purpose",
+        "parcels": "Single, contiguous, adjacent or otherwise aggregated parcels",
+        "digital_use": "Primarily or exclusively digital information services including cooling equipment",
+        "threshold_comparator": ">",
+        "threshold_value": 25,
+        "threshold_unit": "MW",
+        "threshold_metric": "Aggregate monthly demand or peak load",
+        "energy_source": "Any source or combination",
+        "effect_text": "This Section is self-executing.",
+        "scope": "Proposal only; no existing-operation ban, complete exemption review or actual operative date accepted."
+      },
+      "source_body_sha256": "1514596a2f48a53e70f9e3c940c59b0b2345f5355b319476b499ae9f2a418a78",
+      "pdf_page": 2,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 150
+      },
+      "render_sha256": "804a0f017a9a26cf3ed91e6abad0c7dfed52e04c84dee4ba278bfe5908cf32b9"
+    },
+    "ohio-wave4-review-03": {
+      "claim_id": "ohio-wave4-review-03",
+      "source_document_id": "oh4-review-sunbury-return",
+      "claim_sha256": "5a69ab76f15b3b85ca06df238955d0bd2231bfa04cbf8b273f6b169be6ecc619",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 2809,
+        "no_votes": 763,
+        "source_yes_percent": 78.64,
+        "precincts_reporting": 6,
+        "precincts_total": 6,
+        "source_total_votes": 3572,
+        "report_label": "Delaware County Unofficial Canvass",
+        "source_clock": "11/3/2026 10:30:48 PM EST",
+        "scope": "Sunbury contest only. Countywide170143 registered and118305 ballots are not municipal denominators. Under/over/blank/ballots unknown."
+      },
+      "source_body_sha256": "08a6b2bf3948ec3cdb789f3428e57a332ba1c96e4a1c0a6810e4b476dd6e73a4",
+      "pdf_page": 4,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 4,
+        "dpi": 150
+      },
+      "render_sha256": "6c722a4f50a4fdfecf3082f4b28fe7dd3f7a22dbafc9a9c35d09864d1aa1f8fb"
+    },
+    "ohio-wave4-review-04": {
+      "claim_id": "ohio-wave4-review-04",
+      "source_document_id": "oh4-review-sunbury-return",
+      "claim_sha256": "55eddcba73459d8267a434fe9474c344f06c8a83ff9329e81f79f6ef1e153226",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total Votes",
+        "count": 3572,
+        "scope": "City of Sunbury - Proposed Charter Amendment"
+      },
+      "source_body_sha256": "08a6b2bf3948ec3cdb789f3428e57a332ba1c96e4a1c0a6810e4b476dd6e73a4",
+      "pdf_page": 4,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 4,
+        "dpi": 150
+      },
+      "render_sha256": "6c722a4f50a4fdfecf3082f4b28fe7dd3f7a22dbafc9a9c35d09864d1aa1f8fb"
+    },
+    "ohio-wave4-review-05": {
+      "claim_id": "ohio-wave4-review-05",
+      "source_document_id": "oh4-review-upper-return",
+      "claim_sha256": "d9fa342441f5772ab95f981a47d7856d3233faa43d0b1366562032ffc0806d4c",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 1893,
+        "no_votes": 568,
+        "source_yes_percent": 76.92,
+        "source_total_votes_cast": 2461,
+        "undervotes": 42,
+        "overvotes": 0,
+        "precincts_reporting": 6,
+        "precincts_total": 6,
+        "report_label": "Wyandot County's Unofficial Canvass",
+        "source_clock": "11/03/2026 8:55 PM; timezone unspecified",
+        "scope": "City of Upper Sandusky named Data Center charter contest; physical page3, printed6of8. No inferred ballots2503 or blank count. Primary wording, placement conflict and actual effect remain unresolved."
+      },
+      "source_body_sha256": "847b1b89e83e385e74a3eccd80b32d2199e161d734edc3d9a1432460f5d735d8",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "b0209d810e2a808f01e6aac1d5a5a96070db64a7ccc7cdb277e0f67afb7aff15"
+    },
+    "ohio-wave4-review-06": {
+      "claim_id": "ohio-wave4-review-06",
+      "source_document_id": "oh4-review-upper-return",
+      "claim_sha256": "016965c9919c19c4b5b1675ad2ba5c093833d5b53d512f805c0efa73d033886a",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total Votes Cast",
+        "count": 2461,
+        "scope": "Charter Amendment Prohibition of a Data Center City of Upper Sandusky"
+      },
+      "source_body_sha256": "847b1b89e83e385e74a3eccd80b32d2199e161d734edc3d9a1432460f5d735d8",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "b0209d810e2a808f01e6aac1d5a5a96070db64a7ccc7cdb277e0f67afb7aff15"
+    }
+  },
+  "measures": [
+    {
+      "seed_id": "bp-c8f47691c4f8e5b5",
+      "name": "sunbury",
+      "review_status": "scoped_primary_review_not_published",
+      "canonical_legal_force": "unresolved"
+    },
+    {
+      "seed_id": "bp-24a05d4711a8aee8",
+      "name": "upper",
+      "review_status": "scoped_primary_review_not_published",
+      "canonical_legal_force": "unresolved"
+    }
+  ],
+  "unresolved": [
+    "Trenton primary ballot and independent county-return review",
+    "Sprigg full plan and infrastructure scope; separate Adams review already confirms330/297",
+    "Upper Sandusky primary wording, petition/referral conflict and operative text",
+    "All certification, adopted text, implementation, litigation and legal-force histories"
+  ]
+}
