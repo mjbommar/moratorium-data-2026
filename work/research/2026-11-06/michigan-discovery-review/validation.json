@@ -1,0 +1,43 @@
+{
+  "state": "passed_with_scoped_warning_disposition",
+  "baseline_commit": "377321212c055f9603408209196c9b135ef5bb3e",
+  "prior_rows_preserved": 1326,
+  "new_ids": [
+    "mi-locke-township-2023",
+    "mi-locke-township-2023-2",
+    "mi-meridian-township-2026-2"
+  ],
+  "inventory_rows": 1329,
+  "inventory_sha256": "e44712415aad2e87f971a6b2c0547e148cd06f9048c48f09520f3c98258dd3f5",
+  "state_policy_and_expanded_jsonl": "All unchanged from baseline",
+  "candidate_dispositions": 9,
+  "withheld_cases": 6,
+  "visual_page_hashes_reverified": 29,
+  "make_data_site_check_exit_code": 0,
+  "dataset_errors": 0,
+  "dataset_warnings": 292,
+  "new_row_warnings": [
+    {
+      "check": "duration.calendar_end_unverified",
+      "message": "line 556 (MI Meridian Township): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+    }
+  ],
+  "new_warning_disposition": "Meridian BESS six-calendar-month term has unverified full ordinance/effectiveness anchor. Publication instruction does not establish publication or exact operative end; blank endpoint deliberately preserves that gap. Existing Meridian data-center row has a separate pre-existing warning.",
+  "documented_numbers_matched": 49,
+  "readme_rank_sentences_checked": 2,
+  "replay": {
+    "rows_added": 0,
+    "rows_touched": 0,
+    "output_sha256": "428b4df0bb22ba0a8b72202ec8c382d87a605287a02c793df69578acf1f584f7"
+  },
+  "accounting_replay_byte_identical": true,
+  "build_log_sha256": "101afc0902f5d4e61a1123b21fbccd09bf6bede2b45e34fb77258a9cdc580732",
+  "review_sha256": "a9fda04e2fc8fba318a1819e7a4bf568eabbb8069c3d860f7f1d0823a591fe7f",
+  "accounting_sha256": "e216daf3779f58dd851a0c21e35b3a86a2f2920674ecf979de3ce33934bb06a1",
+  "archive_receipt_sha256": "0f0670ed3d323ae4ecbc7a8228f1e8a44bf2e59ae625223697ffd21e1a7dfce3",
+  "rank_receipt_sha256": "d9c5d9e999a05d01eac7333b9ef73bbd1513e3db9690070cdcb8125ea4cc9d03",
+  "apply_receipts": [
+    "work/audit/apply-20261106T133727.json"
+  ],
+  "scope": "Nine frozen Michigan dispositions, three source-scoped additions, exact prior-row/expanded-byte preservation, source/visual/replay and generated checks. No full freshness, full extraction, final release or deployment claim."
+}

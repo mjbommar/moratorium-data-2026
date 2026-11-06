@@ -249,14 +249,14 @@ their original cohorts, not a fresh audit of every current row.</p>
 <li>Resolve <code>[VERIFY]</code> flags by re-checking primary sources via real-Chrome browser sessions</li>
 <li>Add moratoria identified through news coverage but missed by automated extraction</li>
 </ul>
-<p>During the November 5, 2026 working refresh the cleaned inventory has <strong>1326 instruments across 47 states</strong> (<code>data/moratorium_inventory.csv</code>). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.</p>
+<p>During the November 5, 2026 working refresh the cleaned inventory has <strong>1329 instruments across 47 states</strong> (<code>data/moratorium_inventory.csv</code>). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.</p>
 <h3 id="phase-4-geocoding-added-v2026042">Phase 4: Geocoding (added v2026.04.2)</h3>
 <p>Each row in the cleaned inventory was assigned WGS84 latitude and longitude coordinates representing the jurisdiction's centroid. Two-tiered approach:</p>
 <ol>
 <li><strong>Primary geocoder: OSM Nominatim.</strong> Free, open-source, with reasonable U.S. administrative boundary coverage. Rate-limited to 1 request/second per the public API usage policy.</li>
 <li><strong>Fallback: U.S. Census Geocoder.</strong> Used when Nominatim returns no result. The Census Geocoder is authoritative for U.S. jurisdictions but works best for street addresses; for "Jurisdiction, State" queries we found Nominatim more reliable.</li>
 </ol>
-<p>Of 1326 rows, 1290 (97.3%) are successfully geocoded. The 36 blanks comprise two aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) and thirty-four newly added instruments whose coordinates remain unreviewed: Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County, Sarpy County, Pequot Lakes, the historical Talbot County solar record, East Windsor, two historical Phillips County records, Fort Collins, Vermillion County, Zionsville, Union County, Camargo, Bossier Parish, Mooresville, Awendaw, Stephenson County, Whitman County, Spokane Valley, Niagara and Massena. Dubuque County's new successor instrument reuses the existing county centroid with recorded provenance; this was not a new geocoder query.</p>
+<p>Of 1329 rows, 1290 (97.1%) are successfully geocoded. The 39 blanks comprise two aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) and thirty-seven newly added instruments whose coordinates remain unreviewed: Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County, Sarpy County, Pequot Lakes, the historical Talbot County solar record, East Windsor, two historical Phillips County records, Fort Collins, Vermillion County, Zionsville, Union County, Camargo, Bossier Parish, Mooresville, Awendaw, Stephenson County, Whitman County, Spokane Valley, Niagara, Massena, two Locke Township records and Meridian Township. Dubuque County's new successor instrument reuses the existing county centroid with recorded provenance; this was not a new geocoder query.</p>
 <p>After geocoding, a triple-check audit ran 89 verifications across three independent methods:</p>
 <ol>
 <li><strong>Random sampling against geographic knowledge</strong> (24 rows): manually verify each coordinate matches a well-known location.</li>
@@ -271,13 +271,13 @@ their original cohorts, not a fresh audit of every current row.</p>
 <li>Waterville Township, OH (Stark County → Lucas County)</li>
 </ul>
 <p>Each correction used article-context disambiguation (<code>legal_basis</code>, <code>trigger</code>, and news-source mentions). The historical sample does not establish an accuracy rate for the expanded current inventory. The script is <code>scripts/geocode_inventory.py</code>; re-run after adding new rows to fill in their coordinates.</p>
-<h2 id="why-the-inventory-n1326-and-the-historical-extraction-cohort-n348-differ">Why the inventory (n=1326) and the historical extraction cohort (n=348) differ</h2>
+<h2 id="why-the-inventory-n1329-and-the-historical-extraction-cohort-n348-differ">Why the inventory (n=1329) and the historical extraction cohort (n=348) differ</h2>
 <p>Right — the numbers can be confusing. Here's the difference:</p>
 <ul>
-<li><strong>Inventory (n=1326):</strong> the working inventory of moratorium <strong>instrument records</strong>, with <a href="known-gaps.html#legacy-instrument-identities">identity-reconciliation gaps</a> still under review. One DeKalb County resolution = 1 row, even if there are 5 documents about it.</li>
+<li><strong>Inventory (n=1329):</strong> the working inventory of moratorium <strong>instrument records</strong>, with <a href="known-gaps.html#legacy-instrument-identities">identity-reconciliation gaps</a> still under review. One DeKalb County resolution = 1 row, even if there are 5 documents about it.</li>
 <li><strong>Structured-extraction cohort (n=348):</strong> the count of confidence-filtered structured <strong>extractions</strong>. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.</li>
 </ul>
-<p>The two numbers measure different things and do not need to match. The current working count is 1326 moratorium instruments; the historical line-coded sample of 348 extractions is used for clause-prevalence percentages. These older extraction records have not been recollected to match the current inventory.</p>
+<p>The two numbers measure different things and do not need to match. The current working count is 1329 moratorium instruments; the historical line-coded sample of 348 extractions is used for clause-prevalence percentages. These older extraction records have not been recollected to match the current inventory.</p>
 <h2 id="what-we-dont-claim">What we don't claim</h2>
 <ul>
 <li><strong>We don't claim to have every moratorium.</strong> Small townships without online minutes are nearly impossible to find systematically. Where we know our coverage is incomplete, we say so in <a href="known-gaps.html"><code>docs/known-gaps.md</code></a>.</li>

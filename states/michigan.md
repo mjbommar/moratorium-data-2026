@@ -3,7 +3,7 @@
 
 Working inventory for Michigan, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**145 instruments** — 132 in force, 4 pending, 9 past.
+**148 instruments** — 133 in force, 4 pending, 11 past.
 
 State policy is tracked separately: **14 actions** (14 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -81,6 +81,8 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 | Lima Township | Township | 2025-12-08 | data center | 🟢 Extended |
 | Lima Township | Township | 2026-06-12 | general | 🟢 Active |
 | Lincoln Township (Berrien County) | Township | 2026-06-09 | data center | 🟢 Active |
+| Locke Township | Township | 2023-05-09 | solar | ⚪ Expired |
+| Locke Township | Township | 2023-05-09 | wind | ⚪ Expired |
 | Lodi Township | Township | 2026-02-03 | data center | 🟢 Extended |
 | Lyndon Township | Township | 2026-05-12 | data center | 🟢 Active |
 | Lyon Charter Township (Oakland County) | Township | 2026-03-02 | data center | 🟢 Active |
@@ -92,6 +94,7 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 | Mason Township (Cass County) | Township | 2026-05-02 | data center | 🟢 Active |
 | Melvindale | City | 2026-05-20 | data center | 🟢 Active |
 | Meridian Township | Township | 2026-05-19 | data center | 🟢 Active |
+| Meridian Township | Township | 2026-05-19 | battery storage | 🟢 Active |
 | Monitor Charter Township | Township | 2026-03-26 | data center | 🟢 Active |
 | New Buffalo Township | Township | 2026-04-09 | data center | 🟢 Active |
 | Niles Charter Township | Township | 2026-06-01 | data center | 🟢 Active |
@@ -1309,6 +1312,38 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Detailed status:** Contemporaneous reporting describes a ten-month data-center moratorium. The final instrument, operative anchor and subsequent actions remain unresolved. [VERIFY: final operative interval, later amendments/extensions/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** Township Board adopted a ten-month data center moratorium, all six members present voting yes
 
+### Locke Township
+
+- **Type:** Township
+- **Status:** ⚪ Expired
+- **Date enacted:** 2023-05-09
+- **Normalized date:** `2023-05-09` (exact)
+- **Duration:** Nine calendar months from May 15, 2023 effectiveness or earlier zoning amendment; three-month extension authorized but not established
+- **Current end date:** `2024-02-15`
+- **Sectors:** solar
+- **Moratorium ID:** `mi-locke-township-2023`
+- **Legal basis:** Ordinance 2023-01
+- **What prompted it:** Township studies permanent sector-specific land-use standards.
+- **Affected projects:** —
+- **Detailed status:** Official completed certification records May 9 adoption and May 14, 2023 publication. Original nine-calendar-month term yields February 15, 2024 outer endpoint, subject to earlier amendments or later extension. Expired-original-term classification only. [VERIFY earlier termination/extensions, later regulations/current restrictions and coordinates]
+- **Outcome:** —
+
+### Locke Township
+
+- **Type:** Township
+- **Status:** ⚪ Expired
+- **Date enacted:** 2023-05-09
+- **Normalized date:** `2023-05-09` (exact)
+- **Duration:** Nine calendar months from May 15, 2023 effectiveness or earlier zoning amendment; three-month extension authorized but not established
+- **Current end date:** `2024-02-15`
+- **Sectors:** wind
+- **Moratorium ID:** `mi-locke-township-2023-2`
+- **Legal basis:** Ordinance 2023-02
+- **What prompted it:** Township studies permanent sector-specific land-use standards.
+- **Affected projects:** —
+- **Detailed status:** Official completed certification records May 9 adoption and May 14, 2023 publication. Original nine-calendar-month term yields February 15, 2024 outer endpoint, subject to earlier amendments or later extension. Expired-original-term classification only. [VERIFY earlier termination/extensions, later regulations/current restrictions and coordinates]
+- **Outcome:** —
+
 ### Lodi Township
 
 - **Type:** Township
@@ -1484,6 +1519,22 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 - **Affected projects:** None specified
 - **Detailed status:** The Township Clerk notice states final adoption of Ordinance 2026-03 on May 19, establishing a six-month data-center moratorium. This is an ordinance rather than an unidentified board resolution. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.]
 - **Outcome:** Unanimous adoption of a temporary pause on data center approvals pending zoning framework
+
+### Meridian Township
+
+- **Type:** Township
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-05-19
+- **Normalized date:** `2026-05-19` (exact)
+- **Duration:** Township notice reports six-calendar-month battery-storage application moratorium; operative start/end unverified
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Moratorium ID:** `mi-meridian-township-2026-2`
+- **Legal basis:** Ordinance 2026-04 (official final-adoption notice)
+- **What prompted it:** Township develops battery-storage zoning standards.
+- **Affected projects:** —
+- **Detailed status:** Official notice reports May 19, 2026 final adoption of six-month BESS application pause. Township-reported adopted classification only. [VERIFY full ordinance, publication/effectiveness, operative endpoint, later action/current force and coordinates]
+- **Outcome:** —
 
 ### Monitor Charter Township
 

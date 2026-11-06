@@ -67,18 +67,23 @@ moratorium and Massena's six-calendar-month proposal, including its explicit
 crypto definition. Eight other candidates retain final-action, filing, identity
 or term-conflict gaps. All 1,324 preceding rows remain unchanged.
 
-Current totals are 1,326 local instruments (1,079 classified active or extended,
-79 pending, 168 past) and 442 state-policy records (95 classified enacted).
+The Michigan review adds two distinct historical Locke Township solar/wind
+ordinances and Meridian's township-reported BESS adoption, separate from its
+existing same-day data-center ordinance. Six other candidates retain execution,
+publication or original-source requirements. All 1,326 preceding rows are unchanged.
+
+Current totals are 1,329 local instruments (1,080 classified active or extended,
+79 pending, 170 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1326** |
-| Classified active or extended | **1079** |
+| Moratoria in the list | **1329** |
+| Classified active or extended | **1080** |
 | Pending or not yet effective | **79** |
-| Ended (replaced, expired, or rescinded) | **168** |
-| Rows we still want to confirm (`[VERIFY]`) | **699** |
+| Ended (replaced, expired, or rescinded) | **170** |
+| Rows we still want to confirm (`[VERIFY]`) | **702** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained
