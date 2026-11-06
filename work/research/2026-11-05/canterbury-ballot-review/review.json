@@ -1,0 +1,72 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "reviewer": "coordinator",
+  "worker_job": "ballot-nh-001",
+  "worker_candidates_sha256": "13fb9c8fa2bd7520dc27fd2d32194f0b901b9367d0d93c9a95760566c2352881",
+  "seed_id": "bp-bef1a7aeb6f8b09f",
+  "sources": [
+    {
+      "attempt_id": "cd94e37e93674cdbae683611d19993a2",
+      "url": "https://www.canterburynh.gov/wp-content/uploads/2026/03/Town-Meeting-Election-Results-3_10_26.pdf",
+      "body_sha256": "41e15d3922349ce516c00f15235163ef83ba539925c87dd3219f36b89d73b429",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "attempt_id": "fe214aa9f0be453199ba64aaf7b3652d",
+      "url": "https://www.canterburynh.gov/wp-content/uploads/2026/02/2026-Warrant-Article-4-Data-Centers.pdf",
+      "body_sha256": "2192db7c8022635cdbe13a6e50c0b661a12048e49414c05af8c1d86940e43ffd",
+      "native_text_sha256": "9432cc846abe91b7830e141f9a3c2ca270c6c076560f00043351f15e56264710"
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "cd94e37e93674cdbae683611d19993a2",
+      "page": 1,
+      "render_sha256": "d50bbbfeee265e10a299e771d38156ba6d031b802b73a3e148d2065bfb18bc78",
+      "finding": "Official annual town election Canterbury New Hampshire March 10 2026; Article 4 zoning-ban wording; handwritten yes 322/no 63; clerk signature and True Copy attest."
+    },
+    {
+      "attempt_id": "cd94e37e93674cdbae683611d19993a2",
+      "page": 2,
+      "render_sha256": "a2fe04d0768bd8e5c0867564ca935f6da66fceb3e39af0db231a14586c8e8186",
+      "finding": "Write-in results sheet and clerk True Copy attestation; no additional Article 4 count or certification date."
+    }
+  ],
+  "located_evidence": [
+    {
+      "attempt_id": "fe214aa9f0be453199ba64aaf7b3652d",
+      "quote": "To amend Article 5.3.C. by adding a line for \u201cData Centers\u201d and marking it as Not Allowed in all\n\nzones.",
+      "span": [
+        1729,
+        1833
+      ]
+    }
+  ],
+  "accepted_scoped_observations": {
+    "election_date": "2026-03-10",
+    "jurisdiction_name": "Canterbury",
+    "state": "NH",
+    "designation": "Article 4",
+    "question": "Are you in favor of amending the Town of Canterbury Zoning Ordinance to ban data centers?",
+    "yes_direction": "restricts",
+    "proposed_mechanism": "permanent_prohibition",
+    "yes_votes": 322,
+    "no_votes": 63,
+    "affirmative_negative_sum": 385,
+    "blank_votes": null,
+    "invalid_votes": null,
+    "ballots_cast": null,
+    "certification_status": "unknown",
+    "certification_date": null,
+    "outcome": "unresolved",
+    "legal_force": "unresolved"
+  },
+  "limits": [
+    "Scoped review record only; not expanded canonical promotion or complete census.",
+    "385 is calculated yes-plus-no only, not turnout or ballots cast.",
+    "Clerk true-copy attestation accepted as visible source feature, not dated certification.",
+    "Question asks legislative zoning amendment, not advisory preference; exact bindingness/passage rule still needs separate legal review.",
+    "Proposal definition and all-zone prohibition do not establish later adopted consolidated zoning or force.",
+    "County/identity allocation, referral history, certification date, passage rule, legal implementation and later changes remain open."
+  ]
+}
