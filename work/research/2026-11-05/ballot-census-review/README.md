@@ -45,10 +45,10 @@ remain separate operations.
 ## Canonical projection status
 
 `canonical-projection-status.json` reconciles the frozen candidate groups with
-subsequent scoped canonical publications. At its pinned snapshot, five of 56
+subsequent scoped canonical publications. At its pinned snapshot, six of 56
 logical groups have published measure records: Eliot, Sabattus, Canterbury,
-Nottingham and Wiscasset. The other 51 groups remain pending candidate review. This does not
-mean all fields or legal histories in the five published groups are verified.
+Nottingham, Wiscasset and North Berwick. The other 50 groups remain pending candidate review. This does not
+mean all fields or legal histories in the six published groups are verified.
 The 58 source observations and v3 payload remain intact. Explicit correspondences
 pin publication plans and canonical record hashes; this accounting does not
 create identity-registry aliases or infer identities from similar names.

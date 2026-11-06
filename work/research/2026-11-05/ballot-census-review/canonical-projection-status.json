@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-05",
   "reviewer": "coordinator",
-  "canonical_snapshot": "081f1e4fe31317623646ade3637028ef2bc189ffb3dccca6f9bca0311124a619",
+  "canonical_snapshot": "0cd32c6c14759c5a4171038df2b90048c8234ad30413b277a43e1f80561745c3",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 5,
-    "groups_pending_candidate_review": 51
+    "groups_with_scoped_canonical_publication": 6,
+    "groups_pending_candidate_review": 50
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -309,9 +309,11 @@
           "staged_measure_id": "ballot-me-001::bp-6d363093df2c1d61"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "cd8eb762-7802-4e75-8052-fd8c6610b916",
+      "publication_plan": "work/research/2026-11-05/north-berwick-promotion/publication-plan.json",
+      "publication_plan_sha256": "520b85cdd09f58a3cb647ddf054dd983a57537f7356a877e30ca668fec16d165",
+      "canonical_record_sha256": "a77de24d7c5cc3d29742aab01e4bb91f3423f8b0a5f2aa941e2137d6408a856f"
     },
     {
       "logical_group_id": "bp-755b43813f85c3ed",

@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+North Berwick Question 2 adds a sixth reviewed expanded measure with clerk-certified 2,114 yes / 582 no on November 3. The proposed permanent prohibition retains its cumulative computing-use/aggregate-area definition, associated impervious surfaces and strict accessory-use exclusion. Passage outcome and operative legal force remain unresolved; legacy moratorium counts are unchanged.
+
 Wiscasset Question 2 adds a fifth reviewed expanded measure with unofficial 1,363 yes / 712 no. Question-specific ballots cast and blanks remain unknown. Proposed six-month enactment terms are separate from November 3 retroactive coverage and conditional 180-day extensions. The duration vocabulary adds an explicit enactment anchor. Certification, outcome and operative force remain unresolved; legacy counts are unchanged.
 
 Nottingham’s September 8 ballot adds a fourth reviewed expanded measure, with proposed twelve-calendar-month/adoption terms, conditional exclusions and town-posted 1,335 yes / 143 no. The marked document retains a SAMPLE BALLOT heading; certification, outcome and operative legal force remain unresolved. Planning Board proposal signatures are not voter-adoption execution. Legacy counts are unchanged.

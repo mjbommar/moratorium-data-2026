@@ -1,0 +1,37 @@
+{
+  "job_id": "ballot-me-001",
+  "claim_id": "3d7f4b66-93d9-4e9a-bb5c-a53a28236041",
+  "claim_sha256": "588857c5fddb67edf25115ca06c9ccf149d1a52b90d92c228932de34b402e2aa",
+  "source_document_id": "47fab090-4f23-441b-9119-bac7a5cb3fe7",
+  "source_body_sha256": "a3de6dc7853d48b00510a1ade88dcecfc2b5b6a2e01f51261e3c285f39d4c90d",
+  "render_sha256": "34928fa3dedae99fed1c67dfaa45619f5947cf4bed4b7fe6043a1915945418a9",
+  "pdf_page": 20,
+  "render_parameters": {
+    "renderer": "pdftoppm",
+    "page": 20,
+    "dpi": 150
+  },
+  "reviewer": "coordinator",
+  "reviewed_at": "2026-11-06T01:59:09.149203+00:00",
+  "disposition": "accepted_visual_values",
+  "values": {
+    "covered_uses": [
+      "Specified primary computing/network/infrastructure uses, including AI, blockchain, cryptocurrency mining, cloud, colocation, enterprise, hyperscale and edge, AND at least 25000 square feet aggregate defined Data Center Area"
+    ],
+    "exemptions": [
+      "Server rooms or IT infrastructure accessory to site principal use if aggregate accessory-use area is strictly less than 25000 square feet"
+    ],
+    "thresholds": [
+      {
+        "aggregation_rule": "aggregate",
+        "measurement_basis": "Aggregate defined Data Center Area: computing equipment/infrastructure floor space, cooling/maintenance corridors and associated impervious surfaces including access ways, parking lots, transmission corridors and accessory buildings/structures",
+        "operator": "ge",
+        "scope": "Second of two cumulative data-center definition conditions",
+        "unit": "square feet",
+        "value": 25000
+      }
+    ]
+  },
+  "locator": "Reviewed North Berwick official source page 20",
+  "scope": "Source transcription or proposed provisions; result certification does not establish operative legal force."
+}

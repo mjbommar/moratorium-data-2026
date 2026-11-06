@@ -50,3 +50,7 @@ Canonical identity/publication review, legal bindingness, the passage rule and
 calculated outcome, executed adopted text/effectiveness, later amendments/repeal,
 and legacy-instrument linkage remain open. No canonical record or inventory tally
 is changed by this source-review packet.
+
+The subsequent [canonical promotion packet](../north-berwick-promotion/README.md)
+records scoped publication of the reviewed question, proposed provisions and
+certified counts. The unresolved operative legal history remains explicit.

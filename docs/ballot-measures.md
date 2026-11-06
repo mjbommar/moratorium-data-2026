@@ -73,6 +73,18 @@ adoption date, certified outcome or current legal force.
 [unofficial results](https://www.wiscasset.gov/m/newsflash/Home/Detail/211),
 [proposed ordinance text](https://www.wiscasset.gov/DocumentCenter/View/1743/Data-Center-Moratorium-Ordinance---Final).
 
+North Berwick's November 3 Question 2 asks enactment of a zoning amendment to
+define and prohibit data centers. Its signed clerk return certifies 2,114 yes /
+582 no on November 3; blanks and ballots cast remain unknown. Proposed text
+requires specified primary computing uses and at least 25,000 square feet of
+aggregate defined Data Center Area, including associated impervious surfaces.
+Accessory server/IT infrastructure is excluded below the specified aggregate
+threshold. The proposed land-use table marks NO in all eleven listed district
+columns. Result certification does not establish its operative legal interval.
+[Official North Berwick ballot](https://www.townofnorthberwick.org/DocumentCenter/View/1601/Town-Referdum-November-4-2026),
+[signed results](https://www.townofnorthberwick.org/DocumentCenter/View/1639/2026-Election--Town-Results),
+[proposed definition and table, pages 20–21](https://www.townofnorthberwick.org/DocumentCenter/View/1615/November-2026-Referendum).
+
 No current legal-force restriction, instrument event or measure/instrument link has
 been accepted in these initial cohorts, and their publication does not add active
 legacy moratorium rows. Other jurisdictions, earlier and future elections, legal
