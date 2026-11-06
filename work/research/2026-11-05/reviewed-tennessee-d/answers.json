@@ -1,0 +1,84 @@
+{
+  "state_abbrev": "TN",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "tn-paris-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://paristn.gov/wp-content/uploads/2026/06/July-2026-Agenda.pdf",
+          "source_type": "agenda",
+          "supports": "Identifies the ordinance on the July agenda; agenda alone does not establish the final vote.",
+          "quote": "Ordinance (No. 1339) for Temporary Moratorium on the Approval of Development",
+          "document_date": "2026-07-01"
+        }
+      ],
+      "changes": {
+        "legal_basis": {
+          "from": "Paris Commission moratorium (voice vote), on recommendation of the Paris Municipal Regional Planning Commission",
+          "to": "Paris Ordinance No. 1339; Paris Commission moratorium (voice vote), on recommendation of the Paris Municipal Regional Planning Commission",
+          "reason": "The official July agenda identifies Ordinance No. 1339; final passage remains supported by contemporaneous news, not the agenda alone."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; Paris Commission enacted (voice vote, all present in favor) a moratorium on computer/electronic data processing centers within city limits, to remain in effect until the city's zoning-ordinance rework is complete \u2014 estimated by the city attorney at up to about a year. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+          "to": "The July 1 official agenda and attached text identify proposed Ordinance 1339, with termination tied to completion and approval of the revised zoning ordinance. The agenda does not establish the final vote or later satisfaction of that condition. Final adopted wording, operative interval and later legal force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "notes": "The event-based termination and later status remain unresolved. Retain the existing verification marker pending final adopted text and later action review."
+    },
+    {
+      "moratorium_id": "tn-sevierville-undated",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.seviervilletn.org/AgendaCenter/ViewFile/Agenda/_08032026-105",
+          "source_type": "agenda",
+          "supports": "Draft ordinance in second-reading packet expresses a calendar term, not 545 days.",
+          "quote": "This moratorium shall remain in full force and effect for a period of eighteen (18) months",
+          "document_date": "2026-08-03"
+        },
+        {
+          "url": "https://www.seviervilletn.org/AgendaCenter/ViewFile/Agenda/_09212026-110",
+          "source_type": "minutes",
+          "supports": "August 17 minutes in September 21 packet identify this ordinance and its unanimous final-reading approval.",
+          "quote": "Mayor Fox presented and placed for passage an ordinance O2026-011 entitled \u201cAN ORDINANCE\n\nOF THE CITY OF SEVIERVILLE, TENNESSEE, IMPOSING A TEMPORARY MORATORIUM ON THE\n\nACCEPTANCE, PROCESSING, AND APPROVAL OF APPLICATIONS FOR LAND USE, ZONING,\n\n\nBUILDING, SITE PLAN, OR CONDITIONAL USE PERMITS FOR DATA CENTERS AND HIGH\u0002\n\nDENSITY COMPUTING FACILITIES; REQUIRING A STUDY OF INFRASTRUCTURE, ENVIRONMENTAL, ACOUSTIC, AND UTILTY IMPACTS; PROVIDING FOR EXEMPTIONS;\n\n\nPROVIDING FOR SEVERABILITY; AND ESTABLISHING AN IMMEDIATE EFFECTIVE DATE.\u201d A\n\n\nmotion was made by Alderman Ohman and seconded by Alderman McCroskey to approve the ordinance\n\nas presented and to dispense with the reading. Those voting Yes: Helton, Koester, McCroskey, Ohman,\n\nRader. Those voting No: None. Fox declared the ordinance passed on third and final reading.",
+          "document_date": "2026-08-17"
+        }
+      ],
+      "changes": {
+        "duration_days": {
+          "from": "545",
+          "to": "",
+          "reason": "The official ordinance text in the second-reading packet specifies eighteen calendar months; 545 fixed days and February 13 are not supported. Later adopted text and subsequent actions need further review."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "unknown",
+          "reason": "Second-reading packet supplies calendar wording; final executed text not reproduced in final-reading minutes."
+        },
+        "current_end_date_iso": {
+          "from": "2028-02-13",
+          "to": "",
+          "reason": "The official ordinance text in the second-reading packet specifies eighteen calendar months; 545 fixed days and February 13 are not supported. Later adopted text and subsequent actions need further review."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; Ordinance O2026-011 was adopted on third and final reading 2026-08-17 (unanimous), imposing an 18-month moratorium on data centers and high-density computing facilities in Sevierville (automatically expiring 2028-02-13 unless earlier repealed) while staff study infrastructure, environmental, acoustic, and utility impacts.",
+          "to": "August 17 minutes included in the September 21 packet record unanimous third-and-final-reading passage of O2026-011. The August 3 second-reading packet states eighteen months from effectiveness, subject to amendment. Final executed wording and later actions remain unresolved; unsupported 545-day coding and February 13 endpoint are cleared. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        },
+        "duration": {
+          "from": "18 months",
+          "to": "Second-reading packet states eighteen months from effectiveness, subject to amendment; final executed wording unresolved.",
+          "reason": "Separate posted term from minutes adoption."
+        }
+      },
+      "notes": "Do not convert calendar months into a fixed number of days. Final reading minutes do not independently reproduce the full adopted ordinance."
+    }
+  ],
+  "new_candidates": []
+}

@@ -547,10 +547,10 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `tn-paris-2026`
-- **Legal basis:** Paris Commission moratorium (voice vote), on recommendation of the Paris Municipal Regional Planning Commission
+- **Legal basis:** Paris Ordinance No. 1339; Paris Commission moratorium (voice vote), on recommendation of the Paris Municipal Regional Planning Commission
 - **What prompted it:** City is reworking its zoning ordinances with an outside consultant; no current end date until that work concludes
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; Paris Commission enacted (voice vote, all present in favor) a moratorium on computer/electronic data processing centers within city limits, to remain in effect until the city's zoning-ordinance rework is complete — estimated by the city attorney at up to about a year. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Detailed status:** The July 1 official agenda and attached text identify proposed Ordinance 1339, with termination tied to completion and approval of the revised zoning ordinance. The agenda does not establish the final vote or later satisfaction of that condition. Final adopted wording, operative interval and later legal force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted
 
 ### Rhea County
@@ -591,14 +591,14 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** August 17, 2026, Sevierville Board of Mayor and Aldermen, Ordinance O2026-011 adopted on third and final reading (unanimous roll call: Helton, Koester, McCroskey, Ohman, Rader all Yes); first reading July 20, 2026, second reading August 3, 2026
 - **Normalized date:** `2026-08-17` (exact)
-- **Duration:** 18 months
-- **Current end date:** `2028-02-13`
+- **Duration:** Second-reading packet states eighteen months from effectiveness, subject to amendment; final executed wording unresolved.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `tn-sevierville-undated`
 - **Legal basis:** Sevierville Ordinance O2026-011, 'imposing a temporary moratorium on the acceptance, processing, and approval of applications for land use, zoning, building, site plan, or conditional use permits for data centers and high-density computing facilities,' adopted on third and final reading August 17, 2026 with an immediate effective date
 - **What prompted it:** Planning ordinance does not define or address data centers; noise, water, and utility cost concerns
 - **Affected projects:** None named
-- **Detailed status:** Active as of 2026-09-23; Ordinance O2026-011 was adopted on third and final reading 2026-08-17 (unanimous), imposing an 18-month moratorium on data centers and high-density computing facilities in Sevierville (automatically expiring 2028-02-13 unless earlier repealed) while staff study infrastructure, environmental, acoustic, and utility impacts.
+- **Detailed status:** August 17 minutes included in the September 21 packet record unanimous third-and-final-reading passage of O2026-011. The August 3 second-reading packet states eighteen months from effectiveness, subject to amendment. Final executed wording and later actions remain unresolved; unsupported 545-day coding and February 13 endpoint are cleared. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Shelbyville

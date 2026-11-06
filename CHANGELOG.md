@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Paris’s July agenda identifies proposed Ordinance 1339 without establishing final passage or satisfaction of its zoning-update end condition. Sevierville’s August 17 final-reading approval is distinguished from the September 21 packet containing those minutes; the second-reading text supplies eighteen-month wording, not 545 days. The unsupported February 13 endpoint is cleared, and final executed term and later force remain unresolved.
+
 McMinnville’s June 3 action is corrected to first-reading approval of Ordinance 2026-09, clearing the unsupported exact final-enactment date. The June 9 agenda and actual public-hearing record do not establish the final-reading vote; the draft ties effectiveness to final passage. Final adoption, operative interval, applicability and later force remain unresolved.
 
 Crossville’s unsupported 730-day encoding is cleared: the legislative file records August 11 third-reading adoption, while the unsigned unnumbered attachment states twenty-four months. Actual term classification remains unknown pending executed wording. Refreshed collection accounting now records returns for all 1,283 local IDs assigned to the queue; state-policy returns cover 407 records, with 18 in running jobs and nine queued. Collection and historical edits remain distinct from substantive review and legal-force verification.
@@ -172,7 +174,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **69** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **615** |
+| Rows we still want to confirm (`[VERIFY]`) | **616** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
