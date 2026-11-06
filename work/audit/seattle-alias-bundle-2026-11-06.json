@@ -1,0 +1,26 @@
+{
+  "source_commit": "e7f2b2b1309bb0645613ee772ffc9f6c81b6f845",
+  "scope": "Unreleased alias-compatible data bundle verification; not final release, legal freshness, sibling delivery or hosted deployment.",
+  "deterministic_builds": 2,
+  "identical_assets": [
+    "manifest.json",
+    "SHA256SUMS",
+    "moratorium-data-working-candidate.tar.gz"
+  ],
+  "verified_members": 515,
+  "archive": {
+    "name": "moratorium-data-working-candidate.tar.gz",
+    "bytes": 10630487,
+    "sha256": "90fa067b4689a6d408a3d70db6401f4441a8048471695ae95d3c38daf345ba8c"
+  },
+  "clean_restore": {
+    "all_manifest_hashes_match": true,
+    "local_records": 1330,
+    "both_expanded_pointers_resolve": true,
+    "retired_id_lookup": {
+      "requested_id": "wa-seattle-2026-2",
+      "canonical_id": "wa-seattle-2026",
+      "is_alias": true
+    }
+  }
+}
