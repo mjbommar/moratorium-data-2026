@@ -31,6 +31,25 @@ The actual publication date and extension endpoint remain unresolved in the
 Current record counts are working inventory totals, not
 proof that every legacy row satisfies the intended one-instrument grain.
 
+### Ballot candidates retained outside the reviewed publication
+
+At the November 6 review, the frozen discovery cohort has 56 logical candidate
+groups: 49 have scoped canonical publication and seven remain unresolved. These
+seven are retained for follow-up, not counted as rejected, nonexistent or reviewed
+measures. No further broad discovery is needed to describe this cohort honestly.
+
+| Candidate | Evidence still needed before canonical publication |
+|---|---|
+| Morgan County, IL | Official ballot, qualification and returns remain unrecovered; named advisory counts are secondary. |
+| Augusta Township, MI | Official August returns recovered, but final ballot/referral, actual rezoning instrument and independent data-center association remain unresolved. |
+| Clarksville HATCHBO, AR | Council petition-resolution vote is not election approval; election-date conflict and final qualification/wording remain unresolved. |
+| Clarksville SF ARK1, AR | Council petition-resolution vote is not election approval; election-date conflict and final qualification/wording remain unresolved. |
+| Monroe Township, Adams County, OH | Unofficial question counts do not establish full zoning-plan provisions, infrastructure scope or operative effect. |
+| Sprigg Township, Adams County, OH | Primary count review resolves worker error, but full zoning-plan provisions, infrastructure scope and operative effect remain unresolved. |
+| Ottawa, KS | Generic county question return is not securely linked to exact designation/wording; qualification and ordinance effect unresolved. |
+
+The [disposition ledger](../work/audit/ballot-release-dispositions-2026-11-06.json) pins each review packet and next evidence requirement. These gaps do not establish current legal force or a complete national ballot census.
+
 ### November discovery and search limits
 
 All 50 state-discovery jobs have returned. Their sector labels and answer schemas
