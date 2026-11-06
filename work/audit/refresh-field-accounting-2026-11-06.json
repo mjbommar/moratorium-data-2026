@@ -1008,6 +1008,8 @@
       "work/audit/apply-20261106T095754.json": "6aac76d13fd370cb0d9cd9019a01e0bea9af447135e7d30b8a310564b090c606",
       "work/audit/apply-20261106T100115.json": "f335043c3c86e3ec9c52a754b4a532f278f2174e4718de16f9a786bf65b7e57a",
       "work/audit/apply-20261106T103002.json": "65b7f61762900c08f3ce0d5a05213c7ba7ba2f401981e0115669d08e7125d707",
+      "work/audit/apply-20261106T110757-1.json": "ad9661275dd72fa856275bf7ee83f2b07abc0206a8165d132d9554aeb5ef5392",
+      "work/audit/apply-20261106T110757.json": "e3b486848d44900a8dce8a8979aeb0c29fea355d6f6916d1c4228916d32f3811",
       "work/audit/apply-legislation-20261105T114314.json": "222b8a24cbb2138216bd3e87d508fc67d5a3bafac2674429a58099a189e8204b",
       "work/audit/apply-legislation-20261106T000259.json": "563c37c423b64cc6d3eb8fe74f13b278bf8de357ec02c766e79c5d59a69b39a5",
       "work/audit/apply-legislation-20261106T000919.json": "c596af153305ab0135f215ac66482fce77d0dc38613ddf2a33d39a238dbcc3ea",
@@ -1016,7 +1018,7 @@
       "work/audit/apply-legislation-20261106T002343.json": "cce6016ebcee83046dcca9422bea0e45d3fed3379ae19232fdc174c7798eacdc",
       "work/audit/apply-legislation-20261106T084519.json": "2b8d7a459a25ac991a8a7ddde95f14b8c770f48cf86ceeb32677f8b814b81638"
     },
-    "moratorium_inventory.csv": "5736fac2bba0ef390a6a30981c1e4cf261487b58e29c86df3ad777e72d78537f",
+    "moratorium_inventory.csv": "59eaae51f6b202f86f881a2e7f2417c8f2f37b61fe5b09f82d3be59addfd9443",
     "state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038"
   },
   "scope": "Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. This is not the completed freshness funnel required for release.",
@@ -1026,16 +1028,16 @@
   "not_started_jobs": 0,
   "tables": {
     "inventory": {
-      "total": 1300,
+      "total": 1302,
       "collection_counts": {
         "returned_unresolved": 782,
         "returned_other_outcome": 501,
-        "not_assigned_in_this_queue": 9,
+        "not_assigned_in_this_queue": 11,
         "excluded_completed_pilot": 8
       },
       "editorial_counts": {
         "no_refresh_apply_change": 845,
-        "has_refresh_apply_change": 455
+        "has_refresh_apply_change": 457
       },
       "records": [
         {
@@ -2752,6 +2754,18 @@
           ],
           "refresh_apply_receipts": [],
           "editorial_stage": "no_refresh_apply_change",
+          "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
+          "applied_field_lineage": []
+        },
+        {
+          "record_id": "co-brighton-undated",
+          "state": "CO",
+          "collection_stage": "not_assigned_in_this_queue",
+          "jobs": [],
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T110757.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
           "applied_field_lineage": []
         },
@@ -5849,6 +5863,18 @@
           ],
           "refresh_apply_receipts": [],
           "editorial_stage": "no_refresh_apply_change",
+          "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
+          "applied_field_lineage": []
+        },
+        {
+          "record_id": "il-chicago-undated",
+          "state": "IL",
+          "collection_stage": "not_assigned_in_this_queue",
+          "jobs": [],
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T110757-1.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
           "applied_field_lineage": []
         },

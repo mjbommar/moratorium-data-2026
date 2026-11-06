@@ -1,0 +1,31 @@
+{
+  "state": "passed",
+  "baseline_commit": "29460a29a279747b58a9fed30137407a03fa10f1",
+  "baseline_records": 1300,
+  "current_records": 1302,
+  "prior_rows_field_identical": 1300,
+  "new_ids": [
+    "co-brighton-undated",
+    "il-chicago-undated"
+  ],
+  "current_inventory_sha256": "59eaae51f6b202f86f881a2e7f2417c8f2f37b61fe5b09f82d3be59addfd9443",
+  "body_and_text_hashes_verified": 2,
+  "located_excerpts_verified": 2,
+  "review_sha256": "842b46a5630711a9594521a1a83bc5267c7a99c4e0abc5854ccfbf8f964d56b9",
+  "apply_receipts": [
+    "work/audit/apply-20261106T110757.json",
+    "work/audit/apply-20261106T110757-1.json"
+  ],
+  "remaining_unreviewed": 165,
+  "native_runtime_tests": {
+    "interpreter": "/home/mjbommar/projects/bc/bc-modules/.venv/bin/python",
+    "tests": 178,
+    "state": "passed",
+    "log_sha256": "8dedb358d808941d8da45e365c5c4b70595d282599479ffd801b2664768fdf17"
+  },
+  "initial_test_runtime_error": "Repository Python 3.15 environment lacks native bc modules; 19 import errors. Full suite rerun in bc-modules Python 3.14 environment passed.",
+  "dataset_validation": {
+    "errors": 0,
+    "warnings": 286
+  }
+}

@@ -53,8 +53,8 @@
     "discovery-wy": "71d371e9c8ea036e8198dfc1b015f104dba9b8ebb16c0c667af087e81483ca84"
   },
   "candidate_count": 185,
-  "reviewed_pending_additions": 4,
-  "unreviewed_count": 167,
+  "reviewed_pending_additions": 5,
+  "unreviewed_count": 165,
   "candidates": [
     {
       "candidate_key": "discovery-ak:0",
@@ -358,10 +358,12 @@
       "state_abbrev": "CO",
       "jurisdiction": "Brighton",
       "proposed_instrument_label": "Unnumbered instrument; official text or action record required",
-      "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "same_name_inventory_ids": [
+        "co-brighton-undated"
+      ],
+      "disposition": "reviewed_reported_active_added",
+      "review_packet": "work/research/2026-11-06/brighton-chicago-discovery-review/review.json",
+      "next_step": "Recover final operative instrument, later actions and current legal force; review coordinates separately.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -838,10 +840,12 @@
       "state_abbrev": "IL",
       "jurisdiction": "Chicago",
       "proposed_instrument_label": "Not yet confirmed",
-      "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "same_name_inventory_ids": [
+        "il-chicago-undated"
+      ],
+      "disposition": "reviewed_pending_proposal_added",
+      "review_packet": "work/research/2026-11-06/brighton-chicago-discovery-review/review.json",
+      "next_step": "Recover final operative instrument, later actions and current legal force; review coordinates separately.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -3283,5 +3287,6 @@
   "unreviewed_count_scope": "171 candidates still await coordinator substantive processing; six reviewed cases are explicitly withheld and the earlier Kent22-07 relationship remains open. Reviewed does not mean every fact or legal interval is resolved.",
   "worker_review_baseline_sha256": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1",
   "reviewed_historical_additions": 2,
-  "reviewed_withheld_cases": 9
+  "reviewed_withheld_cases": 9,
+  "current_inventory_sha256": "59eaae51f6b202f86f881a2e7f2417c8f2f37b61fe5b09f82d3be59addfd9443"
 }

@@ -122,7 +122,7 @@ CLAIMS: list[tuple[str, str, str, str]] = [
     ("docs/known-gaps.md", r"\*\*[\d,]+ of (?:the )?([\d,]+) inventory rows\*\* have at least one such evidence-ceiling note", "rows", "known-gaps verify denominator"),
     ("docs/known-gaps.md", r"(\d+) of [\d,]+ instruments have WGS84 reference points", "geocoded", "known-gaps geocoded"),
     ("docs/known-gaps.md", r"The (\d+) blanks comprise", "ungeocoded", "known-gaps coordinate gaps"),
-    ("docs/known-gaps.md", r"(\d+) moratoria are in force", "in_force", "known-gaps current in-force"),
+    ("docs/known-gaps.md", r"(\d+) moratoria are classified active or extended", "in_force", "known-gaps current in-force"),
     ("docs/known-gaps.md", r"[\d,]+ of ([\d,]+) instruments have WGS84 reference points", "rows", "known-gaps geocoded denominator"),
     # CHANGELOG claims are checked against the NEWEST entry only (see
     # changelog_head below). Older entries are history: their numbers were true

@@ -3,7 +3,7 @@
 
 Working inventory for Colorado, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**30 instruments** — 24 in force, 2 pending, 4 past.
+**31 instruments** — 25 in force, 2 pending, 4 past.
 
 State policy is tracked separately: **4 actions** (4 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -12,6 +12,7 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 | Archuleta County | County | 2026-06-16 | data center | 🟢 Active |
 | Arvada | City | Unverified | data center | 🟡 Pending |
 | Boulder County | County | 2026-06-02 | data center | 🟢 Active |
+| Brighton | City | Unverified | data center | 🟢 Active |
 | Broomfield | City | 2026-07-07 | data center | 🟢 Active |
 | Buena Vista | Town | 2026-06-09 | data center, cryptocurrency mining | 🟢 Active |
 | Cedaredge | Town | 2026-08-20 | data center | 🟢 Active |
@@ -89,6 +90,22 @@ State policy is tracked separately: **4 actions** (4 bills) in [`state_legislati
 - **Affected projects:** New applications for data centers (and detention centers) in industrial areas
 - **Detailed status:** Active as of 2026-09-23. Confirmed via Boulder County's own official website and the county's June 2, 2026 Business Meeting authorization memo, which contains the full draft resolution text: a temporary moratorium on processing Data and Detention Center applications in unincorporated Boulder County, effective June 2, 2026, running through the close of business on December 2, 2026 (six months). The specific adopted resolution number was still not located in county materials as of 2026-09-23. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]
 - **Outcome:** Commissioners voted unanimously for a six-month moratorium on accepting applications for data centers and detention centers in industrial areas
+
+### Brighton
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** One calendar year from ordinance effectiveness; conditional additional 90 days if regulatory consideration/adoption incomplete
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `co-brighton-undated`
+- **Legal basis:** City-reported approved data-center moratorium ordinance [VERIFY ordinance number]
+- **What prompted it:** City studies data-center infrastructure, energy, water and land-use regulations.
+- **Affected projects:** —
+- **Detailed status:** Official city announcement posted October 21, 2026 reports 9-0 approval of a data-center application moratorium. Exact adoption and effective dates are not stated. [VERIFY operative text, current legal force, later actions and coordinates]
+- **Outcome:** —
 
 ### Broomfield
 

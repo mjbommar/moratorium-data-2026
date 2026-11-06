@@ -130,6 +130,8 @@ exact-hash CAS bytes. The [reviewed link plan and receipts](../work/audit/source
 preserve original manifests, publication flags and existing links. Restored paths
 are Git-ignored; they do not export source content or renew retrieval dates.
 
+The [Brighton/Chicago delta](../work/audit/legacy-source-migration-brighton-chicago-2026-11-06.json) adds two previously collected official-announcement versions, bringing the current mapping to 6,487 entries and 3,044 verified-body versions. It preserves original acquisition dates and verifies native payload readback.
+
 The 3,443 remaining gaps mean no matching body through the manifest-listed paths,
 not proven global payload loss. They include 119 failed acquisitions without a
 recorded body hash. Other private stores have not been exhaustively searched.

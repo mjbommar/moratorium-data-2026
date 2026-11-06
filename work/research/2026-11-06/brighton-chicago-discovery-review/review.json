@@ -1,0 +1,53 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "baseline_inventory_sha256": "5736fac2bba0ef390a6a30981c1e4cf261487b58e29c86df3ad777e72d78537f",
+  "candidates": [
+    {
+      "candidate_key": "discovery-co:3",
+      "candidate_sha256": "4a8be61338d1ab44a46fa1fc7515863486a725b442cb38e8d199134920c7d447",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "rationale": "City announcement supports reported approval, a calendar-year term from unknown effectiveness, and a conditional additional 90 days. It does not establish an exact end date. October 21 is publication, not accepted adoption. No later legal-force confirmation.",
+      "source_checks": [
+        {
+          "attempt_id": "55253f02db76407787a9e2750d8f10a1",
+          "url": "https://www.brightonco.gov/m/NewsFlash/Home/Detail/2989",
+          "body_sha256": "a709ae8be9a70aff148789d673ea022286ceeca6544cdd23e581811aa9fa81d1",
+          "text_sha256": "354257cae647f2799607947a59a682f16289d447c97592f246074b230739397a",
+          "verified_success": true,
+          "quote": "ncil approved 9-0 an ordinance establishing a temporary one-year moratorium on the acceptance, processing and approval of applications for permits, licenses, zoning and other land use requests wh",
+          "quote_span": [
+            81,
+            276
+          ],
+          "supports": "Retained source text at the indicated span; assess the source and its action stage as described in rationale."
+        }
+      ],
+      "review_method": "Full retained HTML text independently read; body/text hashes and exact worker excerpt span verified.",
+      "accepted_status_scope": "City-reported approval only"
+    },
+    {
+      "candidate_key": "discovery-il:0",
+      "candidate_sha256": "a9c16086cf67e6a3dddbbca350e45f01cd501bd90d32a2262bd31b1d2982ec95",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "rationale": "Official announcement supports proposal introduction only. The August executive order/task force is not merged with this proposed moratorium. September 23 is introduction/publication, not enactment. Subsequent disposition is unverified.",
+      "source_checks": [
+        {
+          "attempt_id": "9d000432c4294557a6434a07db48ae56",
+          "url": "https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2026/september/data-center-moratorium.html",
+          "body_sha256": "75833a038c76c882e4efbeee8b878c953bfab20e76af1bbb70122be96d43741c",
+          "text_sha256": "c9b9e8896699bad1c539c12e9d1eb6bc86398c940deaac01546bb744feac4572",
+          "verified_success": true,
+          "quote": "nd Ald. Lamont J. Robinson (4th Ward) introduced the Data Center Moratorium Ordinance, which would temporarily pause the development of new data centers and the material expansion of existing fac",
+          "quote_span": [
+            364,
+            559
+          ],
+          "supports": "Retained source text at the indicated span; assess the source and its action stage as described in rationale."
+        }
+      ],
+      "review_method": "Full retained HTML text independently read; body/text hashes and exact worker excerpt span verified.",
+      "accepted_status_scope": "Proposal at source observation only"
+    }
+  ]
+}

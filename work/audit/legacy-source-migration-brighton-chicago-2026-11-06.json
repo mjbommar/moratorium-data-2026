@@ -1,0 +1,52 @@
+{
+  "record_count": 6487,
+  "eligible_verified_body_records": 3044,
+  "gap_records": 3443,
+  "migrated_records": 3044,
+  "private_full_receipt_sha256": "405b9e10e32506e673f8197487ff781cba8d8f9be4608b8e01781a2c257ab47d",
+  "source_manifest_sha256": {
+    "work/sources/CO/manifest.jsonl": "f5285987d7f334502f833469c1a5798c2f4e3df41a4656b061c565353cc6ed67",
+    "work/sources/IL/manifest.jsonl": "707434bbe359007ca8bdb83e2c2f518bd876a53d1be4dfd47ec3da716e82e433"
+  },
+  "new_versions": [
+    {
+      "url": "https://www.brightonco.gov/m/NewsFlash/Home/Detail/2989",
+      "final_url": "https://www.brightonco.gov/m/NewsFlash/Home/Detail/2989",
+      "status": 200,
+      "ok": true,
+      "fetched_at": "2026-11-05T17:31:07.279628+00:00",
+      "key": "473181b91448d6ec-a709ae8be9a7",
+      "sha256": "a709ae8be9a70aff148789d673ea022286ceeca6544cdd23e581811aa9fa81d1",
+      "text_sha256": "354257cae647f2799607947a59a682f16289d447c97592f246074b230739397a",
+      "text_chars": 1225,
+      "title": "Brighton City Council approves one-year data center moratorium",
+      "text_method": "bc_research.pipeline.document_text via bounded research client",
+      "files": [
+        "work/sources/CO/473181b91448d6ec-a709ae8be9a7.bin",
+        "work/sources/CO/473181b91448d6ec-a709ae8be9a7.txt"
+      ],
+      "attempt_id": "55253f02db76407787a9e2750d8f10a1",
+      "published": false
+    },
+    {
+      "url": "https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2026/september/data-center-moratorium.html",
+      "final_url": "https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2026/september/data-center-moratorium.html",
+      "status": 200,
+      "ok": true,
+      "fetched_at": "2026-11-05T17:41:39.051382+00:00",
+      "key": "a54f7da7c9d65dee-75833a038c76",
+      "sha256": "75833a038c76c882e4efbeee8b878c953bfab20e76af1bbb70122be96d43741c",
+      "text_sha256": "c9b9e8896699bad1c539c12e9d1eb6bc86398c940deaac01546bb744feac4572",
+      "text_chars": 5294,
+      "title": "Mayor Brandon Johnson and City Council Members Introduce Data Center Moratorium Ordinance",
+      "text_method": "bc_research.pipeline.document_text via bounded research client",
+      "files": [
+        "work/sources/IL/a54f7da7c9d65dee-75833a038c76.bin",
+        "work/sources/IL/a54f7da7c9d65dee-75833a038c76.txt"
+      ],
+      "attempt_id": "9d000432c4294557a6434a07db48ae56",
+      "published": false
+    }
+  ],
+  "scope": "Two previously collected official announcements archived privately and read back through native bc-store; all original timestamps and publication flags retained. No network reacquisition or renewed legal-force acceptance."
+}

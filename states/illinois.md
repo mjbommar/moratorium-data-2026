@@ -3,7 +3,7 @@
 
 Working inventory for Illinois, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**31 instruments** — 27 in force, 1 pending, 3 past.
+**32 instruments** — 27 in force, 2 pending, 3 past.
 
 State policy is tracked separately: **11 actions** (11 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -12,6 +12,7 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 | Bourbonnais | Village | 2026-06-15 | data center | 🟢 Active |
 | Catlin | Village | 2025-10-07 | solar, wind | ⚪ Replaced |
 | Champaign County | County | 2026-04-23 | data center | 🟢 Active |
+| Chicago | City | Unverified | data center | 🟡 Pending |
 | City of Aurora | City | 2025-09-25 | data center | ⚪ Replaced |
 | City of Bloomington | City | 2026-05-26 | data center | 🟢 Active |
 | City of Carbondale | City | 2026-06-23 | data center | 🟢 Active |
@@ -90,6 +91,22 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Affected projects:** Data centers with at least 10,000 square feet of processing area. Draft zoning language also discussed "big" data centers rated at 10 MW or greater for related standards. Proposed projects would not be approved, and pending projects would be held in abeyance during the moratorium.
 - **Detailed status:** Active
 - **Outcome:** Pending. The County Board created a Data Center Activities Task Force in February 2026 to recommend zoning amendments.
+
+### Chicago
+
+- **Type:** City
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Twelve calendar months proposed
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `il-chicago-undated`
+- **Legal basis:** Proposed Data Center Moratorium Ordinance [VERIFY council identifier and final action]
+- **What prompted it:** City studies data-center infrastructure, energy, water and land-use regulations.
+- **Affected projects:** —
+- **Detailed status:** Official mayoral announcement dated September 23, 2026 reports introduction of a proposed data-center moratorium covering new facilities and material expansions. [VERIFY subsequent council action, final text, current status and coordinates]
+- **Outcome:** —
 
 ### City of Aurora
 
