@@ -189,6 +189,11 @@ Exit: every seed has a documented disposition; evidence gaps are visible rather 
 
 Completed closure increments (the broader gates below remain open):
 
+- [x] Restore the public candidate into a clean directory and verify all 25 retained generations (`work/audit/restore-and-replay-validation-2026-11-06.json`); current code passes 149 tests.
+- [x] Verify deployed working landing page, canonical CSVs and ballot summary bytes, plus pydoll-rendered totals (`work/audit/pages-built-observation-2026-11-06.json`, `pages-browser-verification-2026-11-06.json`).
+- [x] Create an unpublished GitHub draft candidate and verify all downloaded asset bytes and 420 archive members (`work/audit/draft-release-rc1-2026-11-06.json`); final publication/tag remains open.
+- [x] Add deterministic ballot due-work rules and operator recovery/restore guidance (`scripts/build_ballot_due_work.py`, `docs/refresh-operations.md`); conditional/adaptive recrawl and task resolution remain open.
+
 - [x] Validate Elmwood four-field primary-source correction and generated Michigan page (`work/research/2026-11-06/elmwood-instrument-review/validation.json`).
 - [x] Publish explicit dispositions for all seven unresolved frozen ballot groups (`work/audit/ballot-release-dispositions-2026-11-06.json`).
 - [x] Reconcile README, download page, current changelog and landing generator with working counts, record-specific force limits and historical paper/chart scope.
