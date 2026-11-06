@@ -177,3 +177,5 @@ and hosted-page bytes separately. Historical paper/consumer editions keep their
 own cutoffs. No schedules are created by this workflow.
 
 The [Iowa review checkpoint](../work/audit/legacy-source-migration-iowa-review-2026-11-06.json) verifies six selected original PDF fetches, three already archived and three newly imported versions. The full native readback covers 6,490 entries, 3,047 verified-body versions and the same 3,443 listed-path gaps. Twelve rendered pages were independently reviewed; source authenticity, later legal actions and factual acceptance remain separately scoped.
+
+The [Illinois action checkpoint](../work/audit/legacy-source-migration-illinois-action-2026-11-06.json) adds five source versions (three retained prior sources and two freshly acquired official records). Full native payload/manifest readback covers 6,495 entries and 3,052 verified bodies; the 3,443 listed-path gaps are unchanged. Fulton full-board approval and Tilton minutes narrow source-stage findings without establishing operative anchors or complete later histories.

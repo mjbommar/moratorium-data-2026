@@ -1,0 +1,118 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "canonical_changes": 0,
+  "inventory_sha256": "68b6f113beabb8375bc932ef0fa612a1c83ec0ede04eec8f1398337a60ef4685",
+  "candidates": [
+    {
+      "candidate_key": "discovery-il:2",
+      "candidate_sha256": "c68f3f76dea29626a5af8eed6d20b93b2be764e38fc5d3047eb2fe7687b61423",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_operative_extension_anchor",
+      "rationale": "Fulton full-board minutes establish September 8, 2026 approval of the six-month extension by 14\u20130, superseding the committee-only uncertainty. The original numbered ordinance, extension text, operative anchor and later actions remain unresolved. Do not calculate an end date by adding six months to the meeting date.",
+      "source_checks": [
+        {
+          "attempt_id": "6db5ce5e7fd64a0abde76d37f260ec94",
+          "url": "https://fultoncountyil.gov/agendas-minutes/september-1-2026-community-development-zoning-minutes/",
+          "body_sha256": "9f9535ca8ead1ef53d52834db456b03e5170e41bd438155a289452e7b64d8483",
+          "text_sha256": "db5ec9a277cbc727711fdc8d258d4fbd2f8f39fb75374f48e7ab8fd7da0ed770",
+          "excerpt": "Discussion/Action: Six (6) Month Extension for Previously Passed \u201cOrdinance Establishing a Temporary Moratorium on Data Center & Commercial Crypto Mining Operations Applications for Development i",
+          "excerpt_span": [
+            2002,
+            2197
+          ]
+        },
+        {
+          "attempt_id": "2ec8126ec5754d78899b4b5e26aa28df",
+          "url": "https://fultoncountyil.gov/agendas-minutes/september-8-2026-fulton-county-board-minutes/",
+          "body_sha256": "e2c1eaa3283bdd2a71fd35051483b01e8455dfdfcd7a165362131422a395b5fc",
+          "text_sha256": "c48d725d650e2744739ad1d2ebc67328d4c0856eaf8d79b6d15ab71d8f28d50c",
+          "excerpt": "Member Steck moved to approve, with a second from Member Smith. Motion carried by roll call vote with all ayes. (14,0)",
+          "excerpt_span": [
+            5894,
+            6012
+          ],
+          "acquisition_method": "bc-web pydoll headed browser, settle1500ms; archived original HTML and full extracted text independently read"
+        }
+      ],
+      "next_evidence_requirement": "Recover final operative ordinance/extension and subsequent legal history; keep source-reported action separate from exact effect and present force."
+    },
+    {
+      "candidate_key": "discovery-il:3",
+      "candidate_sha256": "9a28e854b4367fd97c43b4eb8deb738624dc8f0c0475698f69654453386808fc",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_primary_sector_term_and_later_history",
+      "rationale": "Approved Tilton minutes establish September 18, 2025 adoption, a 3\u20132 vote and O2025-0918A commercial SOLAR wording. They report June 1, 2026 expiry in discussion; the news account calls this six months and wind/solar. Primary minutes do not establish wind coverage or a six-month term. Full operative ordinance and later actions are needed before accepting an endpoint/current status. OCR reads leading O as zero; visual page 7 resolves O2025-0918A.",
+      "source_checks": [
+        {
+          "attempt_id": "ff4c9d51e12c4338aaccde68179123d7",
+          "url": "https://wityradio.com/2025/09/19/tilton-passes-temporary-wind-and-solar-moratorium/",
+          "body_sha256": "5ada416b1539c2a0931373d18bbdb33e63870104a053e7c8e67361f78522e5e5",
+          "text_sha256": "0b404267bfa8670e6634f60f1b4f0a9911979905ac777c8a43027efe1099d6f3",
+          "excerpt": "Tilton Passes Temporary Wind and Solar Moratorium",
+          "excerpt_span": [
+            376,
+            425
+          ]
+        },
+        {
+          "attempt_id": "5c4fbc1990a345129aca1d2ce674ee5c",
+          "url": "https://tiltonil.com/wp-content/uploads/2026/02/09-18-2025-VOT-Board-Meeting-Minutes.pdf",
+          "body_sha256": "352e7c7d2c9bb853a9cb7fd4b8edb0456f5bdbdddcfe712b565e0393f2896958",
+          "text_sha256": "afe9354a4a7ec7c3cdc418ac79972a042a0c4ed4d422907cb50763f4f26d6f85",
+          "excerpt": "3 AYES, 2 NAYES- TRUSTEE SIMS AND",
+          "excerpt_span": [
+            22424,
+            22457
+          ],
+          "visual_review": {
+            "document_pages": 7,
+            "pages_inspected": [
+              1,
+              7
+            ],
+            "scope": "Meeting date/header, item 23.5 action and discussion, submitted/approved footer; pages 2\u20136 not visually reviewed.",
+            "rendered_pages": [
+              {
+                "page": 1,
+                "image_sha256": "a6a76da551d2227f741686f6e762268abbcece7888008e5e159792c8c6f44dc6"
+              },
+              {
+                "page": 7,
+                "image_sha256": "028276dd3eefd88f3508c66a0206aff7aec8a4e1d43ba3e8b59b2bc854f458c4"
+              }
+            ],
+            "identifier_visual_reading": "O2025-0918A",
+            "recorded_vote": {
+              "ayes": 3,
+              "nays": 2
+            },
+            "sector_accepted_at_minutes_scope": "commercial solar only"
+          }
+        }
+      ],
+      "next_evidence_requirement": "Recover final operative ordinance/extension and subsequent legal history; keep source-reported action separate from exact effect and present force."
+    },
+    {
+      "candidate_key": "discovery-il:4",
+      "candidate_sha256": "2102fe38650d755c2a903b79b6738743428da602c18b24d1e99ac4e42ad0d23b",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_historical_original_instrument",
+      "rationale": "The accessible paywall opening reports Edgar County Board ending an existing wind/solar application pause May 22, 2023. It does not establish original adoption, instrument identity or operative termination text. The new SerpAPI search yielded unrelated county/legal hits; those are not Edgar evidence or proof of absence.",
+      "source_checks": [
+        {
+          "attempt_id": "5149e74dc6754ce3948246ea127edc6a",
+          "url": "http://prairiepress.net/stories/county-ends-moratorium-on-commercial-wind-and-solar-application,24923",
+          "body_sha256": "6f0a6baa6340571954d90ad7cae2de80b98eca777834c5538aa232c68097ae49",
+          "text_sha256": "51605eba77135809cff96340f774da0ea6ea77b3d7ac28fb8bb714293f2f3c8d",
+          "excerpt": "y 22, when a special meeting of the Edgar County Board ended the moratorium on accepting applications for siting commercial wind and solar energy arrays in Edgar \u2026",
+          "excerpt_span": [
+            86,
+            249
+          ]
+        }
+      ],
+      "next_evidence_requirement": "Recover final operative ordinance/extension and subsequent legal history; keep source-reported action separate from exact effect and present force."
+    }
+  ]
+}

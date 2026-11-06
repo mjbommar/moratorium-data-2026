@@ -1,0 +1,134 @@
+{
+  "scope": "Bounded known-candidate followup; no collection restart. Search hits are leads, not legal acceptance.",
+  "caps": {
+    "search_total": 3,
+    "exa": 2,
+    "serpapi": 1,
+    "googlenews": 0,
+    "gdelt": 0,
+    "fetch": 4
+  },
+  "searches": [
+    {
+      "attempt_id": "70f37ceb067a40a7895a8ec81d32553b",
+      "kind": "exa",
+      "query": "site:fultoncountyil.gov September 2026 board minutes moratorium data center extension",
+      "hits": 5,
+      "cost_usd": 0.007,
+      "publication_window": {
+        "since": null,
+        "until": null
+      },
+      "max_results": 5,
+      "unpriced": false,
+      "exchanges": [
+        {
+          "artifact": "/data0/moratorium-refresh-2026/illinois-action-followup/70f37ceb067a40a7895a8ec81d32553b-response-000.private.body",
+          "status": 200,
+          "original_body_sha256": "3e35b8ac3a89801a6e8564395ac430e3a09a365316346953c3da71bdc7987693",
+          "stored_body_sha256": "3e35b8ac3a89801a6e8564395ac430e3a09a365316346953c3da71bdc7987693",
+          "redacted": false
+        }
+      ],
+      "retry_policy": "single provider attempt; failures retain reservation",
+      "artifact": "/data0/moratorium-refresh-2026/illinois-action-followup/70f37ceb067a40a7895a8ec81d32553b.private.json"
+    },
+    {
+      "attempt_id": "bdf7518c3c4b4042a025fbb4baa1b288",
+      "kind": "exa",
+      "query": "Tilton Illinois wind solar moratorium June 1 2026 ordinance September 2025",
+      "hits": 5,
+      "cost_usd": 0.007,
+      "publication_window": {
+        "since": null,
+        "until": null
+      },
+      "max_results": 5,
+      "unpriced": false,
+      "exchanges": [
+        {
+          "artifact": "/data0/moratorium-refresh-2026/illinois-action-followup/bdf7518c3c4b4042a025fbb4baa1b288-response-000.private.body",
+          "status": 200,
+          "original_body_sha256": "e4125ccf5786e202c5afc8b3547ebf5cc9395cc2b2614ff2390b80f7d47fcbf3",
+          "stored_body_sha256": "e4125ccf5786e202c5afc8b3547ebf5cc9395cc2b2614ff2390b80f7d47fcbf3",
+          "redacted": false
+        }
+      ],
+      "retry_policy": "single provider attempt; failures retain reservation",
+      "artifact": "/data0/moratorium-refresh-2026/illinois-action-followup/bdf7518c3c4b4042a025fbb4baa1b288.private.json"
+    },
+    {
+      "attempt_id": "f41f64a9341841f094ea77df330b815e",
+      "kind": "serpapi",
+      "query": "Edgar County May 22 2023 board minutes moratorium wind solar",
+      "hits": 5,
+      "cost_usd": null,
+      "publication_window": {
+        "since": null,
+        "until": null
+      },
+      "max_results": 5,
+      "unpriced": true,
+      "exchanges": [
+        {
+          "artifact": "/data0/moratorium-refresh-2026/illinois-action-followup/f41f64a9341841f094ea77df330b815e-response-000.private.body",
+          "status": 200,
+          "original_body_sha256": "96ef4a722a4d9209b5f6027d75f6d40999cef494ae8d1cbfb0cf2413180cd3f5",
+          "stored_body_sha256": "96ef4a722a4d9209b5f6027d75f6d40999cef494ae8d1cbfb0cf2413180cd3f5",
+          "redacted": false
+        }
+      ],
+      "retry_policy": "single provider attempt; failures retain reservation",
+      "query_scope_check": {
+        "status": "not_evaluated",
+        "declared_sites": []
+      },
+      "artifact": "/data0/moratorium-refresh-2026/illinois-action-followup/f41f64a9341841f094ea77df330b815e.private.json"
+    }
+  ],
+  "fetches": [
+    {
+      "attempt_id": "2ec8126ec5754d78899b4b5e26aa28df",
+      "kind": "fetch",
+      "url": "https://fultoncountyil.gov/agendas-minutes/september-8-2026-fulton-county-board-minutes/",
+      "final_url": "https://fultoncountyil.gov/agendas-minutes/september-8-2026-fulton-county-board-minutes/",
+      "status": 200,
+      "ok": true,
+      "title": "September 8, 2026 Fulton County Board Minutes - Fulton County",
+      "chars": 14938,
+      "body_sha256": "e2c1eaa3283bdd2a71fd35051483b01e8455dfdfcd7a165362131422a395b5fc",
+      "text_sha256": "c48d725d650e2744739ad1d2ebc67328d4c0856eaf8d79b6d15ab71d8f28d50c",
+      "browser_controls": {
+        "engine": "pydoll",
+        "headless": false,
+        "settle_ms": 1500
+      },
+      "from_cache": false,
+      "revalidated": false,
+      "body_observed_at": "2026-11-06T16:17:56.500387Z",
+      "artifact": "/data0/moratorium-refresh-2026/illinois-action-followup/2ec8126ec5754d78899b4b5e26aa28df.private.json"
+    },
+    {
+      "attempt_id": "5c4fbc1990a345129aca1d2ce674ee5c",
+      "kind": "fetch",
+      "url": "https://tiltonil.com/wp-content/uploads/2026/02/09-18-2025-VOT-Board-Meeting-Minutes.pdf",
+      "final_url": "https://tiltonil.com/wp-content/uploads/2026/02/09-18-2025-VOT-Board-Meeting-Minutes.pdf",
+      "status": 200,
+      "ok": true,
+      "title": null,
+      "chars": 24825,
+      "body_sha256": "352e7c7d2c9bb853a9cb7fd4b8edb0456f5bdbdddcfe712b565e0393f2896958",
+      "text_sha256": "afe9354a4a7ec7c3cdc418ac79972a042a0c4ed4d422907cb50763f4f26d6f85",
+      "from_cache": false,
+      "revalidated": false,
+      "body_observed_at": "2026-11-06T16:17:53.649096Z",
+      "artifact": "/data0/moratorium-refresh-2026/illinois-action-followup/5c4fbc1990a345129aca1d2ce674ee5c.private.json"
+    }
+  ],
+  "known_search_cost_usd": 0.014,
+  "unpriced_search_count": 1,
+  "total_cost_status": "unknown because SerpAPI search is unpriced",
+  "terminal_searches": 3,
+  "terminal_fetches": 2,
+  "unused_fetch_reservations": 2
+}

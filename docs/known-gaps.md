@@ -267,9 +267,9 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Source-body availability checkpoint
 
-The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-iowa-review-2026-11-06.json)
-covers 6,490 manifest entries, with hash-matching bodies available through listed
-paths for 3,047 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-illinois-action-2026-11-06.json)
+covers 6,495 manifest entries, with hash-matching bodies available through listed
+paths for 3,052 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.
@@ -372,3 +372,7 @@ A small township in a rural county that adopts a 90-day data-center moratorium a
 The `has_verify_tags`, `verify_count`, and `verify_notes` fields tell you which rows are most certain and which have remaining open questions. When we use a row in the structured-extraction analysis, a confidence score (0.0 to 1.0) is also attached.
 
 For any specific row you want to use in a publication, **always read the `verify_notes` first** and cite a primary source rather than just our row.
+
+## Illinois source-stage and sector distinctions
+
+The [Illinois action review](../work/research/2026-11-06/illinois-action-review/README.md) recovers Fulton County’s September 8, 2026 full-board approval (14–0) of a six-month data-center/commercial-crypto extension. Exact operative anchors, original ordinance and subsequent actions remain unresolved; the board date is not an inferred extension start. Tilton’s approved September 18, 2025 minutes identify O2025-0918A and a 3–2 commercial-solar vote, with June 1, 2026 expiry stated in discussion. The secondary report’s wind coverage and six-month term are not accepted. Operative ordinance text and later actions remain needed. Edgar’s accessible 2023 news opening describes lifting an older pause but does not recover its original instrument. No canonical records or headline counts change from these scoped dispositions.
