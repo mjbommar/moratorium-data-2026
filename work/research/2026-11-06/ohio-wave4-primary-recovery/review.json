@@ -1,0 +1,120 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "scope": "Scoped primary list/result and petition-placement review; no canonical publication, full charter text or operative-force acceptance.",
+  "sources": [
+    {
+      "source_document_id": "oh4-followup-butler-list",
+      "url": "https://cms2.revize.com/revize/butlercountyboe/2026/November/NovemberBallotList.pdf",
+      "body_sha256": "2ff249fa37b33fa68e164383365ac1767462c94a8569e8de646e6997551e2ed6",
+      "text_sha256": "c091b45e19d62923e3090ae7b05505c74a63e18f91453189e6a2bfb046e34d5c",
+      "retrieved_at": "2026-11-06T08:24:17.307807+00:00",
+      "attempt_id": "3d91308068b74e36aa85eb2e4030dcc9"
+    },
+    {
+      "source_document_id": "oh4-followup-trenton-return",
+      "url": "https://liveresults.boe.ohio.gov/ENR/butlerohenr/24/en/Index_24.html",
+      "body_sha256": "d1325026c610b8c2bdf9ef04f5ccff01e66b96189a5a7e049268a580b16c609c",
+      "text_sha256": "6db35f4ce9ff991ddef8667413665c0de24955cf05006ab2a26f85173c3e0e53",
+      "retrieved_at": "2026-11-05T17:16:45.049214+00:00",
+      "attempt_id": "5798498b37ee46b4ac0ab3d2d5a29ecf"
+    },
+    {
+      "source_document_id": "oh4-followup-upper-minutes",
+      "url": "https://uppersanduskyoh.com/Agendas%20&%20Minutes/2026/City%20Council%202026/08-17-2026%20City%20Council%20Minutes.pdf?t=202609041610560",
+      "body_sha256": "70b6765d011571ec4e510ad7f13370c0082e5bb36a2ec71f9ebeb062c0acc88a",
+      "text_sha256": "c43e8ad10fd882bfba88ced8fd1371751b8aeba40e042c6c3058381a58bb40e8",
+      "retrieved_at": "2026-11-06T08:25:00.525518+00:00",
+      "attempt_id": "9f2f25d6b42248f68be5338cb59b160a"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ohio-wave4-followup-01",
+      "source_document_id": "oh4-followup-butler-list",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-2b4aaddff7a59232"
+      },
+      "predicate": "official_listed_question",
+      "value": {
+        "electorate": "City of Trenton",
+        "designation": "Issue 17",
+        "proposed_section": "Article IX Section 9.06",
+        "title": "Prohibition of Construction of a Data Center",
+        "source_date_terms": {
+          "F": "09-04-2026",
+          "C": "09-09-2026"
+        },
+        "scope": "County election-office CMS candidate/petition list. F/C labels retained literally; not result certification or actual effective dates. Full printed question remains unrecovered."
+      },
+      "quote": "Issue 17 - City of Trenton - Charter Amendment - Article IX, Section 9.06 \"Prohibition of Construction of a Data Center\" (F) 09-04-2026 (C) 09-09-2026",
+      "span": "utf8-text-codepoints:1822:1972"
+    },
+    {
+      "claim_id": "ohio-wave4-followup-02",
+      "source_document_id": "oh4-followup-trenton-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-2b4aaddff7a59232"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 3541,
+        "no_votes": 903,
+        "source_yes_percent": 79.68,
+        "precincts_reporting": 8,
+        "precincts_total": 8,
+        "source_yes_label": "Yes, Winner",
+        "scope": "Named city Issue17 election-night contest. Winner is a source UI label, not certified result, formal legal outcome or actual force. Under/over/blank/ballots/registration and statutory denominator remain unknown."
+      },
+      "quote": "Contest: ISSUE 17 CITY OF TRENTON, VOTE FOR 1, Precincts Reported: 8 of 8 (100%)\n\nCandidate Name Total Votes Percentage\nYes, Winner 3,541 79.68%\nNo 903 20.32%",
+      "span": "utf8-text-codepoints:8020:8178"
+    },
+    {
+      "claim_id": "ohio-wave4-followup-03",
+      "source_document_id": "oh4-followup-upper-minutes",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-24a05d4711a8aee8"
+      },
+      "predicate": "citizen_petition_placement_context",
+      "value": {
+        "origin": "Residents circulated and submitted petitions",
+        "council_role": "Procedural placement, not endorsement or opposition",
+        "reported_boe_role": "Minutes describe sufficient signatures certified by Board of Elections",
+        "election_date": "2026-11-03",
+        "meeting_date": "2026-08-17",
+        "source_instrument_label": "Ordinance No. 85-14",
+        "scope": "Official council minutes account; independent petition/signature/BOE certification instrument not recovered. BOE petition qualification is distinct from final election-result certification."
+      },
+      "quote": "Discussion was held regarding Ordinance No. 85-14. Mr. Buckland indicated that City\n\nCouncil is not voting in support or opposition of the proposed Charter amendment to ban\n\ndata centersCity Council\u2019s adoption of Ordinance No. 85-14 is only certifying that a\n\n,\n\nsufficient number of signatures were obtained on the petitions circulated and then submitted\n\nto and certified by the Board of Elections to place the Charter amendment measure on the\n\nNovember 3, 2026 General Election ballot pursuant to the Ohio Constitution.",
+      "span": "utf8-text-codepoints:9359:9881"
+    },
+    {
+      "claim_id": "ohio-wave4-followup-04",
+      "source_document_id": "oh4-followup-upper-minutes",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-24a05d4711a8aee8"
+      },
+      "predicate": "placement_ordinance_adoption",
+      "value": {
+        "source_instrument_label": "Ordinance No. 85-14",
+        "meeting_date": "2026-08-17",
+        "vote": "All members voted Yes",
+        "act": "Minutes record placement ordinance duly adopted",
+        "scope": "Placement ordinance for petition proposal, not adoption of the proposed substantive charter prohibition. Preserve printed85-14 label; no guessed year correction or new legal effective date."
+      },
+      "quote": "A motion was made by Mr. Korte, seconded by Mr. Moore, for the adoption of Ordinance\n\nNo. 85-14. Upon Roll Call, all members voted Yes. The President declared the motion carried\n\nand Ordinance No. 85-14 was duly adopted.",
+      "span": "utf8-text-codepoints:11211:11431"
+    }
+  ],
+  "visual_reviews": {},
+  "unresolved": [
+    "Trenton full official ballot and adopted charter",
+    "Upper Sandusky full primary ballot and independent petition/BOE qualification instrument",
+    "Certified final returns and all operative histories",
+    "Butler list exact .gov URL byte-equivalence not fetched within cap; retained countyCMS source supported by current official homepage CMS ownership/navigation"
+  ]
+}
