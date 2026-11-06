@@ -71,6 +71,8 @@ Exit: read-only dry-run and bounded acquisition produce auditable plans and atte
 - [x] Promote Canterbury’s earlier March Article 4 question, proposed permanent prohibition and town-posted counts, preserving unresolved certification, outcome and legal force.
 - [x] Review Nottingham’s September ballot counts and proposed clauses against official sources; distinguish Planning Board signatures from enactment and preserve unresolved certification (`work/research/2026-11-05/nottingham-ballot-review/`).
 - [x] Promote Nottingham’s reviewed September question, proposed clauses and marked-ballot counts with unresolved certification, outcome and legal force (`work/research/2026-11-05/nottingham-promotion/`).
+- [x] Reconcile all 56 frozen ballot groups with four scoped canonical publications; retain 52 pending groups and explicit pinned correspondences (`ballot-census-review/canonical-projection-status.json`).
+- [x] Review Wiscasset’s unofficial counts and voter-guide terms; reject the broader election total as a question-specific denominator (`work/research/2026-11-05/wiscasset-ballot-review/`).
 - [ ] Complete broader promotion/recovery calibration and the remaining ballot identity/fact reviews; the initial Eliot batch does not close P3.
 - [ ] Extend evidence archive/publication gates to new records and source payload types.
 - [ ] Add behavioral regression checks from plan section 11 (initial subset includes offline publication/receipt drift, historical identity baselines and portable-pointer checks; full gate coverage pending).

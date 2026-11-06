@@ -1,0 +1,70 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "reviewer": "coordinator",
+  "seed_id": "bp-4ec27f001be2994f",
+  "worker_job": "ballot-me-001",
+  "sources": [
+    {
+      "url": "https://www.wiscasset.gov/m/newsflash/Home/Detail/211",
+      "body_sha256": "ec882047290849c14230e55c12969e4d0daf4bf9518c64242ffa7aa49a2154a9",
+      "retained_client_json_sha256": "92d70fe7ee46fa34e96fe0dd8448a2fb578d8b11ee9acbd29760dfb709c30525",
+      "extracted_text_sha256": "9050626178e33241e5e527e01d0581ed5df2936a8b052ad05aa2ee3b0c67dd74",
+      "text_location": "retained client JSON content.text",
+      "retrieval_engine": "pydoll",
+      "source_title": "Unofficial Election Results"
+    },
+    {
+      "url": "https://www.wiscasset.gov/DocumentCenter/View/1735/Special-Town-Meeting-Voter-Guide---November-3-2026",
+      "body_sha256": "4ac4384a885beda21d5f435effe3663b395e3e855217306df70a4b24d7c191bb",
+      "native_text_sha256": "a4d9f1093a56f29c88fe79fcbd12e1245c101a1fae4e7228643e4ac0355089cb"
+    }
+  ],
+  "located_evidence": [
+    {
+      "source_url": "https://www.wiscasset.gov/m/newsflash/Home/Detail/211",
+      "quote": "2. Data Center Moratorium\n\nYes 1363\nNo 712\nBlank _____",
+      "text_location": "retained client JSON content.text",
+      "span": "utf8-text-codepoints:1142:1196"
+    },
+    {
+      "source_url": "https://www.wiscasset.gov/DocumentCenter/View/1735/Special-Town-Meeting-Voter-Guide---November-3-2026",
+      "quote": "Data Center Moratorium\nThis ordinance would temporarily stop the Town from accepting, processing, reviewing, or approving\napplications for new, enlarged, or expanded data centers. It would expire six months after enactment unless\nlifted earlier or extended under its stated conditions. It would apply to applications filed on or after November\n3rd, 2026.\nThe stated purpose is to allow the Town time to study potential impacts of data centers and determine whether\nadditional local zoning and building standards are needed. The moratorium identifies electricity demand, water\nsupply, wastewater capacity, noise, lighting, traffic, visual character, and municipal finances as subjects for\nreview.\nTown staff, appropriate committees, and outside resources would review existing ordinances and study these\nissues. Staff would report findings and recommended ordinance amendments to the Select Board, which would\nmake the report public and determine whether and when to submit the proposals to the Planning Board for\npublic hearings and before a Town Meeting.\nThe moratorium would not permanently prohibit data centers. It excludes equipment incidental to another\nbusiness, routine maintenance or equipment replacement that does not expand an existing data center, and\ngovernment information technology infrastructure used for governmental purposes. Extensions of no more than\n180 days each would require findings that the need for the moratorium continues and reasonable progress is\nbeing made.\nNo proposals for a data center are under consideration at this time",
+      "text_location": "retained PDF native text",
+      "span": "utf8-text-codepoints:3979:5538"
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "source_url": "https://www.wiscasset.gov/DocumentCenter/View/1735/Special-Town-Meeting-Voter-Guide---November-3-2026",
+      "page": 2,
+      "render_sha256": "6e5b4841913fdf096190daa1a47c74445a9b426c8867ef28c35072b0bdbb6fc1",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 140
+      },
+      "finding": "Six months after enactment, earlier lifting/conditional extension; applications on/after November 3; incidental equipment, nonexpanding routine maintenance/replacement and governmental IT exclusions; extension at most 180 days each conditional on continuing need and reasonable progress."
+    }
+  ],
+  "accepted_source_observations": {
+    "yes_votes": 1363,
+    "no_votes": 712,
+    "yes_no_votes": 2075,
+    "certification_status": "unofficial",
+    "blank_votes": null,
+    "question_ballots_cast": null,
+    "page_total_ballots_cast": 2155,
+    "page_total_scope": "broader election page; not established question-specific denominator",
+    "proposed_term_summary": "six calendar months after enactment unless lifted earlier or conditionally extended",
+    "proposed_extension_summary": "at most 180 days per extension, with continued need/reasonable progress findings"
+  },
+  "unresolved": [
+    "official ballot wording and adopted ordinance",
+    "bindingness and formal placement",
+    "dated certification and passage rule/outcome",
+    "question-specific ballots cast and blank/invalid totals",
+    "operative dates, later force and legacy instrument linkage",
+    "publisher-compatible evidence registration for retained pydoll extracted text"
+  ],
+  "scope": "Scoped official-source review only. Voter guide is explanatory summary, not operative text. Worker question-specific ballots_cast=2155 is not accepted. Frozen candidate payload is unchanged."
+}
