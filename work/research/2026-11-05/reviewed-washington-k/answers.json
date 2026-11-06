@@ -1,0 +1,42 @@
+{
+  "state_abbrev": "WA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wa-skagit-county-2024",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "The signed ordinance specifies six months, not 180 days; retain the original calendar unit."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Section 4 specifies six months, and section 5 permits renewals in six-month periods."
+        },
+        "current_status": {
+          "from": "Expired; the interim moratorium ran on farmland (Ag-NRL) parcels and was intended to bridge to permanent Ag-NRL energy-facility zoning regulations. Existing row wa-skagit-county-2026 (enacted 2026-06-01) covers only data_center; this BESS-specific 2024 pause is a separate, now-lapsed instrument.",
+          "to": "The signed September 23, 2024 copy states six months, immediate effect upon passage and possible six-month renewals after hearings/findings. It concerns major-utility electrical generation or storage applications on Ag-NRL lands, with vested applications excepted. The image header reads O20240007, differing from the legacy instrument number; authoritative index reconciliation and later disposition remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://classic.skagitcountywa.gov/Common/Documents/LFDocs/COMMISSIONERS000031/00/00/10/00001068.pdf",
+          "title": "Interim ordinance for energy uses on Ag-NRL lands",
+          "publisher": "Skagit County",
+          "document_date": "2024-09-23",
+          "source_type": "ordinance",
+          "supports": "The original moratorium term is six calendar months; this does not establish its later disposition.",
+          "quote": "The moratorium created by this ordinance shall be effective for six (6) months."
+        }
+      ],
+      "notes": "Correction is limited to duration representation. Expired status, later renewals and replacement remain unresolved. The text extraction reads ordinance number 020240007, whereas the existing row gives O20240073; check the signed image and authoritative index before changing the number."
+    }
+  ],
+  "new_candidates": []
+}

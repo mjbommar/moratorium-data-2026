@@ -595,7 +595,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Legal basis:** Interim Ordinance (Ordinance #O20240073 per staff report)
 - **What prompted it:** Board concern that a proposed new Ag-NRL energy-facility ordinance could trigger a rush of permit applications on Skagit farmland
 - **Affected projects:** None named at adoption; precautionary, ahead of anticipated permit rush
-- **Detailed status:** Expired; the interim moratorium ran on farmland (Ag-NRL) parcels and was intended to bridge to permanent Ag-NRL energy-facility zoning regulations. Existing row wa-skagit-county-2026 (enacted 2026-06-01) covers only data_center; this BESS-specific 2024 pause is a separate, now-lapsed instrument.
+- **Detailed status:** The signed September 23, 2024 copy states six months, immediate effect upon passage and possible six-month renewals after hearings/findings. It concerns major-utility electrical generation or storage applications on Ag-NRL lands, with vested applications excepted. The image header reads O20240007, differing from the legacy instrument number; authoritative index reconciliation and later disposition remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Planning Commission proceeded to develop permanent Ag-NRL utility regulations
 
 ### Skagit County

@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Skagit’s signed September 2024 energy-use ordinance confirms a six-month term, Ag-NRL major-utility scope and vested-application exception. Its image header differs from the legacy instrument number and requires index reconciliation. Washington accounting covers all 42 existing IDs: 22 bounded corrections applied, one source-provenance proposal deferred and 19 other returns awaiting disposition; no complete current-force history is asserted.
+
 Leavenworth Ordinance 1561 section 2, visually compared with the separately retained OCR, establishes interim zoning controls for up to twelve months with extension or earlier termination. The worker’s attribution to section 4 is corrected; unsupported 365-day coding is removed. Later repeal and final disposition remain unresolved.
 
 East Wenatchee’s interim cryptocurrency zoning controls and Moses Lake’s up-to-twelve-month term replace unsupported day conversions; Moses Lake Ordinance 2899 adoption is dated May 22, 2018 by its legislative history, which reports repeal by 2900 without establishing final disposition. Renton’s unsupported exact battery-pause sunset and supersession by an unrelated data-center measure are removed from the narrative. Later legal histories remain unresolved.
@@ -206,7 +208,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1070** |
 | Pending or not yet effective | **68** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **644** |
+| Rows we still want to confirm (`[VERIFY]`) | **645** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

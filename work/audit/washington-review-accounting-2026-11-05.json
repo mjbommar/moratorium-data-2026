@@ -1,0 +1,431 @@
+{
+  "date": "2026-11-05",
+  "created_at": "2026-11-06T01:01:50.415758+00:00",
+  "scope": "Washington existing local inventory return-versus-bounded-review accounting. Not complete acquisition, freshness, legal-force verification, ballot census or state-policy accounting.",
+  "canonical_inventory_sha256": "4fa2321e836503bea4794f448169a2b5418a7a9bab881729d7b7f2a8f8708d4b",
+  "worker_answer_hashes": {
+    "wa-inventory-001": "a4952c1673d701416a3408e77d242c1eebe42f68c97002b659a8a36911134ebe",
+    "wa-inventory-002": "b27fec4417fb23fe840f195f9baa35a7d36f2e292094998f9d701433933768ff",
+    "wa-inventory-003": "292572c49f5ae40b4b862bc75e2cbaebd50ae47df38b4b3d4110ab37e194c0d7",
+    "wa-inventory-004": "29726462f2b1c558e1410537c1c8a4d9196e9152c240d79d199e4d83dec5fa93",
+    "wa-inventory-005": "64a79706509a1a4a530ff233999a9a1ff461377a68d9b514c05fb5c3108338aa",
+    "wa-inventory-006": "5c5fd42e10622ab6f31a812db74bb71b3e0b3c11063207484e2402d78f67a156"
+  },
+  "accepted_packet_hashes": {
+    "work/research/2026-11-05/reviewed-washington-a/answers.json": "b9e857c6e6020afb61cf233509e3e4bd3db592e97463a2fc66bab3ca8b51dc06",
+    "work/research/2026-11-05/reviewed-washington-b/answers.json": "3c69b6ec66c5e3f38decec1c4bf714984510a961083d5b70e5087835b2a8fcf4",
+    "work/research/2026-11-05/reviewed-washington-c/answers.json": "0f584d5ae5aa6bceb36460d92dbcd670975b1c15c8ab081452a083aeba72e1a4",
+    "work/research/2026-11-05/reviewed-washington-d/answers.json": "ba4123abd5794799178f1aa9ba15580c9f3bcf5843bc396acdf75c840df2e98a",
+    "work/research/2026-11-05/reviewed-washington-e/answers.json": "d4b2014e5c119c608cbdffa9a740cb3b9658bb2adabfba2a4f1e1a8be13b3ee6",
+    "work/research/2026-11-05/reviewed-washington-f/answers.json": "04057da52f509bbef00bb428c7050f77ed54165ee2a4ea9b166696c40c651777",
+    "work/research/2026-11-05/reviewed-washington-g/answers.json": "4e680a3b126897ebfd018ac0d05d31737ee16ef8a78d93eff2ed13a7b2631a32",
+    "work/research/2026-11-05/reviewed-washington-h/answers.json": "3dbe1c6072bd1e5019d4cc50465f1f1fe2b97eb068d931e6808fcc89c9cc8bd9",
+    "work/research/2026-11-05/reviewed-washington-i/answers.json": "638b447d9cae101acb1eded4f9bd9aeedd6b9ffebae60425e127a4046443e7f3",
+    "work/research/2026-11-05/reviewed-washington-j/answers.json": "54ceb42e6e701c02ca8b19bee149233cbcbf31a98bf99002208bbeeaac9a150d",
+    "work/research/2026-11-05/reviewed-washington-k/answers.json": "9aeca7f273c0682cb0869589c97667dab01a288c3d4c28dc617774f8b588d28c"
+  },
+  "apply_receipt_hashes": {
+    "work/audit/apply-20261105T194826.json": "33f81c42c2f3ec9d168a61ca4ca6fe7d895c532fa9c31a691842b2f0d9fed625",
+    "work/audit/apply-20261105T194947.json": "d6bbd870a21829301ba7da927990f0f405a8962aae65ebc53b902a3f08de7ed5",
+    "work/audit/apply-20261105T195115.json": "4c1dbf685b4485ed38b05e4c43cc9a15dbc0f4a44a684a73d9ee3e274933699a",
+    "work/audit/apply-20261105T195220.json": "b61cf2df096c1d4793379ea43ff782145090b3e6999285436afabb9766d1992f",
+    "work/audit/apply-20261105T195344.json": "dffbe50ddfe2a7add2a0f2124db22fb420e68e286fbba08655f5f5604dd7ac8e",
+    "work/audit/apply-20261105T195441.json": "a5fe2baed78a429e76e2d6d32c8c4dbe92b486ccb00602fa5a0b5ad1d051467e",
+    "work/audit/apply-20261105T195550-recovered-spokane.json": "57d83190a88f60d814a0982e6ac8b3aa9715e9fc27cac54aab191dc1a9cc49d5",
+    "work/audit/apply-20261105T195550.json": "21917ed60b321fe19c3734ae3103308d633f6e9ed87035099edea09a7e8a739c",
+    "work/audit/apply-20261105T195854.json": "71a9a7556cc956ffdfb63ac5b1e49910d76ce69b0775868589367351f026ccc1",
+    "work/audit/apply-20261105T200030.json": "f273f868b79bed3002b5a09bc818783b93901c3fc356b285eda299ccd5923cd0",
+    "work/audit/apply-20261105T200136.json": "c71d0aad0a92f6f42a887d88ec45c26ecb2e19f70044a609c278ae8e47e07264"
+  },
+  "canonical_records": 42,
+  "returned_records": 42,
+  "review_dispositions": {
+    "other_return_pending_disposition_review": 19,
+    "bounded_correction_applied": 22,
+    "proposal_deferred_for_identity_or_process_review": 1
+  },
+  "current_force_verification": {
+    "verified": 0,
+    "unresolved": 42
+  },
+  "records": [
+    {
+      "moratorium_id": "wa-black-diamond-2026",
+      "worker_job": "wa-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-bonney-lake-2026",
+      "worker_job": "wa-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-burien-2026",
+      "worker_job": "wa-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-a/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-seattle-2026",
+      "worker_job": "wa-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-cle-elum-2026",
+      "worker_job": "wa-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-covington-2024",
+      "worker_job": "wa-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-b/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-duvall-2026",
+      "worker_job": "wa-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-a/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-enumclaw-2025",
+      "worker_job": "wa-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-b/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-federal-way-2026",
+      "worker_job": "wa-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-c/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-kitsap-county-2025",
+      "worker_job": "wa-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-kittitas-county-2026",
+      "worker_job": "wa-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-la-conner-2026",
+      "worker_job": "wa-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-d/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-lincoln-county-2026",
+      "worker_job": "wa-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-c/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-marysville-2026",
+      "worker_job": "wa-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-c/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-mount-vernon-2026",
+      "worker_job": "wa-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-d/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-mount-vernon-2025",
+      "worker_job": "wa-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-north-bend-2026",
+      "worker_job": "wa-inventory-003",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-e/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-pasco-undated",
+      "worker_job": "wa-inventory-003",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-e/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-pierce-county-2026",
+      "worker_job": "wa-inventory-003",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-e/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-port-angeles-2026",
+      "worker_job": "wa-inventory-003",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-f/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-puyallup-2026",
+      "worker_job": "wa-inventory-003",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-f/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-renton-2026",
+      "worker_job": "wa-inventory-003",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-seattle-2026-2",
+      "worker_job": "wa-inventory-003",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-skagit-county-2026",
+      "worker_job": "wa-inventory-003",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-e/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-skamania-county-2026",
+      "worker_job": "wa-inventory-004",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-snohomish-county-2026",
+      "worker_job": "wa-inventory-004",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-snoqualmie-2026",
+      "worker_job": "wa-inventory-004",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-spokane-2026",
+      "worker_job": "wa-inventory-004",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-g/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-spokane-county-2026",
+      "worker_job": "wa-inventory-004",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-yakima-county-2026",
+      "worker_job": "wa-inventory-004",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-chelan-2018",
+      "worker_job": "wa-inventory-004",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-cheney-2018",
+      "worker_job": "wa-inventory-004",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-east-wenatchee-2018",
+      "worker_job": "wa-inventory-005",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-i/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-entiat-2018",
+      "worker_job": "wa-inventory-005",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-h/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-ephrata-2018",
+      "worker_job": "wa-inventory-005",
+      "worker_outcome": "corrected",
+      "review_disposition": "proposal_deferred_for_identity_or_process_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Ephrata cited source not located among successful retained fetches in this worker job; provenance review required before promotion."
+    },
+    {
+      "moratorium_id": "wa-leavenworth-2018",
+      "worker_job": "wa-inventory-005",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-j/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-moses-lake-2018",
+      "worker_job": "wa-inventory-005",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-i/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-wenatchee-2018",
+      "worker_job": "wa-inventory-005",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-douglas-county-2018",
+      "worker_job": "wa-inventory-005",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "wa-renton-2022",
+      "worker_job": "wa-inventory-005",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-i/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-skagit-county-2024",
+      "worker_job": "wa-inventory-006",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-washington-k/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "wa-waterville-2018",
+      "worker_job": "wa-inventory-006",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    }
+  ]
+}

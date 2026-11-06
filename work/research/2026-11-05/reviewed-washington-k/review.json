@@ -1,0 +1,46 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "wa-inventory-006": "5c5fd42e10622ab6f31a812db74bb71b3e0b3c11063207484e2402d78f67a156"
+  },
+  "reviewed_answers_sha256": "9aeca7f273c0682cb0869589c97667dab01a288c3d4c28dc617774f8b588d28c",
+  "scope": "Skagit 2024 calendar-term correction. Signed pages 1,4,5 visually checked: limited Ag-NRL major-utility energy scope, vested exception, six-month duration and renewal conditions. Header O20240007 differs from legacy number; no unverified instrument-number rewrite. Later renewals and expiration/replacement not independently established.",
+  "located_evidence": [
+    {
+      "moratorium_id": "wa-skagit-county-2024",
+      "url": "https://classic.skagitcountywa.gov/Common/Documents/LFDocs/COMMISSIONERS000031/00/00/10/00001068.pdf",
+      "quote": "The moratorium created by this ordinance shall be effective for six (6) months.",
+      "located": [
+        {
+          "attempt_id": "f896678d8607467991f8df27e65a48fd",
+          "body_sha256": "42af6317d331380a543e30c7f44c29b995167c4442a75c4ab8604dec95201055",
+          "text_sha256": "33cfbe882bb9d41ffc04ca707385634c47c9d8bb183812ce6f27fa295c499ebe",
+          "span": [
+            11540,
+            11619
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "f896678d8607467991f8df27e65a48fd",
+      "page": 1,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "302cc02a69c7163f566475d7d926e7becd0f68f2a5e26e912d7d6ffa52f06838"
+    },
+    {
+      "attempt_id": "f896678d8607467991f8df27e65a48fd",
+      "page": 4,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "af3eb78ca42e70b7f8ac4af3a3fd0263183c531569b6df3aaceb7ba8542519ec"
+    },
+    {
+      "attempt_id": "f896678d8607467991f8df27e65a48fd",
+      "page": 5,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "9528cf4336a80caf4e227c5cc6d68f27d4d1654f4e75e7146f874caaa39601a5"
+    }
+  ]
+}
