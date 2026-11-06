@@ -1,0 +1,54 @@
+[
+  {
+    "attempt_id": "13c905cb04f94f2684c2a165e99338d4",
+    "label": "madison",
+    "source_body_sha256": "25f8bc5e7ec5de82842f25c57e7820404250888ad70194b887bcf3241317996e",
+    "member_name": "summary.csv",
+    "member_crc32": 1339068626,
+    "member_size": 11621,
+    "member_sha256": "b2261d679769aaf37c9018160b7ce94f48a3ebf02f95099c63ffaf5aee7f7fdb",
+    "worker_backup": "/data0/moratorium-refresh-2026/discovery/ballot-il-001/madison-worker-csv.private.txt",
+    "restored_client_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "restoration_basis": "Ledger chars=0 and SHA256(empty); overwritten worker CSV exactly equals retained ZIP member; backed up before restoring empty acquisition extraction",
+    "derivation": {
+      "attempt_id": "13c905cb04f94f2684c2a165e99338d4",
+      "source_body_sha256": "25f8bc5e7ec5de82842f25c57e7820404250888ad70194b887bcf3241317996e",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/discovery/ballot-il-001/madison-summary-member.private.txt",
+      "derived_text_sha256": "b2261d679769aaf37c9018160b7ce94f48a3ebf02f95099c63ffaf5aee7f7fdb",
+      "method": "Exact ZIP member summary.csv bytes; no text normalization; original empty client extraction restored from ledger",
+      "pages": [],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T04:05:39.135721+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    },
+    "scope": "Extraction-lineage repair only; no election facts or legal status accepted"
+  },
+  {
+    "attempt_id": "678e2e52894349c1b301fe6582a2c323",
+    "label": "bloomington",
+    "source_body_sha256": "7949628b73e0dd641696600c7b51c8cf99f19415bb523be0eb5bcb1ec7eae784",
+    "member_name": "summary.csv",
+    "member_crc32": 3737527290,
+    "member_size": 6876,
+    "member_sha256": "02b9b4fecc26dfa9b1f8c06a611e63c02de84a830b840c997ff9226133d7f01a",
+    "worker_backup": "/data0/moratorium-refresh-2026/discovery/ballot-il-001/bloomington-worker-csv.private.txt",
+    "restored_client_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "restoration_basis": "Ledger chars=0 and SHA256(empty); overwritten worker CSV exactly equals retained ZIP member; backed up before restoring empty acquisition extraction",
+    "derivation": {
+      "attempt_id": "678e2e52894349c1b301fe6582a2c323",
+      "source_body_sha256": "7949628b73e0dd641696600c7b51c8cf99f19415bb523be0eb5bcb1ec7eae784",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/discovery/ballot-il-001/bloomington-summary-member.private.txt",
+      "derived_text_sha256": "02b9b4fecc26dfa9b1f8c06a611e63c02de84a830b840c997ff9226133d7f01a",
+      "method": "Exact ZIP member summary.csv bytes; no text normalization; original empty client extraction restored from ledger",
+      "pages": [],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T04:05:39.136463+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    },
+    "scope": "Extraction-lineage repair only; no election facts or legal status accepted"
+  }
+]

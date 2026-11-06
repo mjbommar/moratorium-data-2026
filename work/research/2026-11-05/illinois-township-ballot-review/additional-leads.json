@@ -1,0 +1,93 @@
+{
+  "scope": "Additional observation outside frozen v3 seed set; not a canonical measure or expanded census denominator",
+  "lead_label": "Wind and solar local-zoning-control advisory question in Madison County returns",
+  "electoral_jurisdiction": "Unresolved: county report context does not independently establish county versus statewide ballot scope",
+  "election_date_source": "2026-11-03",
+  "sectors": [
+    "wind",
+    "solar"
+  ],
+  "bindingness_source": "Placed under ADVISORY heading on county question sheet",
+  "wording": "Shall the Illinois General Assembly restore zoning control of wind and solar farm developments to local governments instead of mandating them from the state level?",
+  "source_counts": {
+    "yes_votes": 58799,
+    "no_votes": 18657,
+    "source_yes_percent": 75.91,
+    "registered_voters_source_value": 189323,
+    "ballots_cast_source_value": 99363,
+    "precincts_reporting": 191,
+    "precincts_total": 191
+  },
+  "yes_direction": "unresolved; supporting local zoning authority does not directly establish restriction or facilitation of development",
+  "certification_status": "unknown",
+  "qualification_status": "unreviewed",
+  "claims": [
+    {
+      "claim_id": "il-additional-lead-1",
+      "source_document_id": "il-township-review-questions",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "additional-lead-wind-solar-zoning"
+      },
+      "predicate": "wording",
+      "value": "Shall the Illinois General Assembly restore zoning control of wind and solar farm developments to local governments instead of mandating them from the state level?",
+      "quote": "Shall the Illinois General Assembly restore zoning control of wind and solar farm developments to local\n\ngovernments instead of mandating them from the state level?",
+      "span": "utf8-text-codepoints:1697:1861"
+    },
+    {
+      "claim_id": "il-additional-lead-2",
+      "source_document_id": "il-township-review-current-csv",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "additional-lead-wind-solar-zoning"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 58799,
+        "no_votes": 18657,
+        "source_yes_percent": 75.91,
+        "registered_voters_source_value": 189323,
+        "ballots_cast_source_value": 99363,
+        "precincts_reporting": 191,
+        "precincts_total": 191
+      },
+      "quote": "98,\"WIND AND SOLAR FARMS DEVELOPMENT (Vote For 1)\",\"YES\",\"NON\",58799,75.91,189323,99363,191,191\r\n99,\"WIND AND SOLAR FARMS DEVELOPMENT (Vote For 1)\",\"NO\",\"NON\",18657,24.09,189323,99363,191,191",
+      "span": "utf8-text-codepoints:9000:9191"
+    }
+  ],
+  "claim_proofs": [
+    {
+      "claim_id": "il-additional-lead-1",
+      "source_document_id": "il-township-review-questions",
+      "quote_located": true,
+      "visual_verified": false,
+      "evidence_verified": true,
+      "verified_span": [
+        1697,
+        1861
+      ],
+      "verified_text_artifact": "/data0/moratorium-refresh-2026/discovery/ballot-il-002/daaf0bc8bc5e4eb08fdc4e1fbcc8b85a.private.txt",
+      "verified_text_decoding": "exact UTF-8 extraction"
+    },
+    {
+      "claim_id": "il-additional-lead-2",
+      "source_document_id": "il-township-review-current-csv",
+      "quote_located": true,
+      "visual_verified": false,
+      "evidence_verified": true,
+      "verified_span": [
+        9000,
+        9191
+      ],
+      "verified_text_artifact": "/data0/moratorium-refresh-2026/illinois-township-recovery/madison-current-summary-member.private.txt",
+      "verified_text_decoding": "exact UTF-8 extraction"
+    }
+  ],
+  "canonical_identity_allocated": false,
+  "frozen_census_group_count_changed": false,
+  "followup": [
+    "Verify actual electorate and qualification/referral record.",
+    "Check current and earlier candidate sets for cross-jurisdiction duplicates.",
+    "Review policy direction, formal result and independent legal implementation."
+  ]
+}
