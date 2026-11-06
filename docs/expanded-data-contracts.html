@@ -201,6 +201,69 @@ identity, evidence, field-review and atomic-publication gates; reviewed canonica
 records currently cover 50 reviewed measures (49 from the frozen cohort plus Jay's separately reviewed solar ballot), with explicit result supersession and seven unresolved frozen candidate groups kept outside the canonical measure total. The restriction/link migration now includes Edgewater’s proposed charter restriction with unknown legal status and an accepted <code>proposes</code> relationship. No adoption/effect event or current force is inferred; the broader migration remains incomplete. See the
 <a href="ballot-results.html">generated results view</a>. Identity decisions have a separate
 <a href="expanded-identity-registry.html">append-only registry</a>.</p>
+<h2 id="authoritative-paths-and-csv-projections">Authoritative paths and CSV projections</h2>
+<p>The path decision is now explicit:</p>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Authority and purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>data/moratorium_inventory.csv</code></td>
+<td>Authoritative legacy local-instrument inventory; its existing IDs and denominator remain separate from ballots.</td>
+</tr>
+<tr>
+<td><code>data/state_legislation.csv</code></td>
+<td>Authoritative legacy state-policy inventory.</td>
+</tr>
+<tr>
+<td><code>data/expanded/&lt;table&gt;.jsonl</code></td>
+<td>Current reviewed expanded records, reached through one relative snapshot pointer. Resolve the pointer once for a multi-table read.</td>
+</tr>
+<tr>
+<td><code>data/expanded-snapshots/&lt;generation&gt;/&lt;table&gt;.jsonl</code></td>
+<td>Immutable expanded generation retained with its publication receipt; generation fingerprint covers the complete JSONL table set.</td>
+</tr>
+<tr>
+<td><code>data/identities/expanded.jsonl</code></td>
+<td>Append-only identity allocation and lineage, not automatic acceptance of domain facts.</td>
+</tr>
+<tr>
+<td><code>data/expanded-csv/&lt;table&gt;.csv</code></td>
+<td>Derived convenience projection selected by an atomic relative pointer; never an import or editing authority.</td>
+</tr>
+<tr>
+<td><code>data/expanded-csv-snapshots/&lt;projection&gt;/</code></td>
+<td>Immutable CSV generation. Its manifest pins the source JSONL generation, publication receipt, schema, exporter and each output hash.</td>
+</tr>
+<tr>
+<td><code>work/</code> candidate and review packets</td>
+<td>Research/provenance inputs; publication requires separate identity, evidence and field-review gates.</td>
+</tr>
+</tbody>
+</table>
+<p>Every one of the fifteen schema tables has a same-named CSV projection, including
+header-only tables when no records are published. <code>measure_results.csv</code> retains
+all historical observations. The additional <code>measure_results_current.csv</code> view
+removes only observations named in explicit supersession chains. It preserves
+multiple current county parts or other reporting scopes for the same measure.
+No vote categories, turnout, certification or legal outcome are inferred.</p>
+<p>CSV columns follow the published schema and preserve original field names/IDs.
+Strings use ordinary CSV quoting, including multiline text. Numbers and booleans
+use JSON scalar spelling; arrays/objects remain compact JSON in one cell. Null or
+absent values become empty cells rather than zero. This convenience projection
+cannot distinguish an absent value, null and an empty string; JSONL is the exact
+typed authority for that distinction and for restore/import. The manifest includes
+column lists, record counts and hashes, not a claim of completed research coverage.</p>
+<p><a href="../data/index.html#expanded-csv-downloads">CSV downloads and manifest</a> are generated
+from a single pinned source. <code>scripts/build_expanded_csv.py --check</code> verifies every
+byte, file set, selected generation and download link. <code>make data</code> regenerates;
+<code>make check</code> detects drift. Release bundles include both relative pointers and
+both selected generation trees. Projection publication does not renew the source
+facts, certification or legal-force review.</p>
 <h2 id="files-and-validation">Files and validation</h2>
 <p><a href="../work/schemas/expanded/1.0.0.json">JSON Schema 2020-12</a> contains a named
 <code>$defs</code> schema for each JSONL table. Every record has <code>schema_version: "1.0.0"</code>.
@@ -349,14 +412,13 @@ chronology. Duration remains source text; calendar months and years are not
 converted into 30/365-day terms, and expiry is not calculated. The legacy
 <code>duration_days</code> field has historical conversion assumptions described in the
 codebook and is not reinterpreted here.</p>
-<p>This is a first contract increment, not the P1 pilot exit: it does not validate
-all legal chronology or certification evidence, infer external instrument status,
-verify accepted claims, reconcile independent result revisions, model all legal
-passage rules, or implement authoritative IDs, migrations, CSV exports, review
-application, atomic promotion, source capture, or release. A source-backed pilot,
-identity registry, broader review gates and transaction design remain required
-before canonical use. Certification and active-status counts must be derived from
-reviewed, scoped evidence and a declared cutoff, never from these diagnostic counts.</p>
+<p>The schema/fixture increment does not itself complete the P1 pilot review or
+validate legal chronology, certification evidence, external instrument status,
+independent result revisions or all passage rules. Identity allocation, scoped
+reviewed publication and the derived CSV projections now have separate working
+gates. Broader pilot-case review and migration remain open. Certification and
+active-status counts must come from reviewed, scoped evidence and a declared
+cutoff, not merely from structural validation.</p>
 <h2 id="durable-citations-and-acquisition-identity">Durable citations and acquisition identity</h2>
 <p>Source documents may carry an optional HTTP(S) <code>citation_url</code> for a reviewed,
 durable public citation, such as the parent post of a CDN-hosted image. Public

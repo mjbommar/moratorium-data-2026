@@ -10,6 +10,43 @@ records currently cover 50 reviewed measures (49 from the frozen cohort plus Jay
 [generated results view](ballot-results.md). Identity decisions have a separate
 [append-only registry](expanded-identity-registry.md).
 
+## Authoritative paths and CSV projections
+
+The path decision is now explicit:
+
+| Path | Authority and purpose |
+|---|---|
+| `data/moratorium_inventory.csv` | Authoritative legacy local-instrument inventory; its existing IDs and denominator remain separate from ballots. |
+| `data/state_legislation.csv` | Authoritative legacy state-policy inventory. |
+| `data/expanded/<table>.jsonl` | Current reviewed expanded records, reached through one relative snapshot pointer. Resolve the pointer once for a multi-table read. |
+| `data/expanded-snapshots/<generation>/<table>.jsonl` | Immutable expanded generation retained with its publication receipt; generation fingerprint covers the complete JSONL table set. |
+| `data/identities/expanded.jsonl` | Append-only identity allocation and lineage, not automatic acceptance of domain facts. |
+| `data/expanded-csv/<table>.csv` | Derived convenience projection selected by an atomic relative pointer; never an import or editing authority. |
+| `data/expanded-csv-snapshots/<projection>/` | Immutable CSV generation. Its manifest pins the source JSONL generation, publication receipt, schema, exporter and each output hash. |
+| `work/` candidate and review packets | Research/provenance inputs; publication requires separate identity, evidence and field-review gates. |
+
+Every one of the fifteen schema tables has a same-named CSV projection, including
+header-only tables when no records are published. `measure_results.csv` retains
+all historical observations. The additional `measure_results_current.csv` view
+removes only observations named in explicit supersession chains. It preserves
+multiple current county parts or other reporting scopes for the same measure.
+No vote categories, turnout, certification or legal outcome are inferred.
+
+CSV columns follow the published schema and preserve original field names/IDs.
+Strings use ordinary CSV quoting, including multiline text. Numbers and booleans
+use JSON scalar spelling; arrays/objects remain compact JSON in one cell. Null or
+absent values become empty cells rather than zero. This convenience projection
+cannot distinguish an absent value, null and an empty string; JSONL is the exact
+typed authority for that distinction and for restore/import. The manifest includes
+column lists, record counts and hashes, not a claim of completed research coverage.
+
+[CSV downloads and manifest](../data/README.md#expanded-csv-downloads) are generated
+from a single pinned source. `scripts/build_expanded_csv.py --check` verifies every
+byte, file set, selected generation and download link. `make data` regenerates;
+`make check` detects drift. Release bundles include both relative pointers and
+both selected generation trees. Projection publication does not renew the source
+facts, certification or legal-force review.
+
 ## Files and validation
 
 [JSON Schema 2020-12](../work/schemas/expanded/1.0.0.json) contains a named
@@ -176,14 +213,13 @@ converted into 30/365-day terms, and expiry is not calculated. The legacy
 `duration_days` field has historical conversion assumptions described in the
 codebook and is not reinterpreted here.
 
-This is a first contract increment, not the P1 pilot exit: it does not validate
-all legal chronology or certification evidence, infer external instrument status,
-verify accepted claims, reconcile independent result revisions, model all legal
-passage rules, or implement authoritative IDs, migrations, CSV exports, review
-application, atomic promotion, source capture, or release. A source-backed pilot,
-identity registry, broader review gates and transaction design remain required
-before canonical use. Certification and active-status counts must be derived from
-reviewed, scoped evidence and a declared cutoff, never from these diagnostic counts.
+The schema/fixture increment does not itself complete the P1 pilot review or
+validate legal chronology, certification evidence, external instrument status,
+independent result revisions or all passage rules. Identity allocation, scoped
+reviewed publication and the derived CSV projections now have separate working
+gates. Broader pilot-case review and migration remain open. Certification and
+active-status counts must come from reviewed, scoped evidence and a declared
+cutoff, not merely from structural validation.
 
 ## Durable citations and acquisition identity
 

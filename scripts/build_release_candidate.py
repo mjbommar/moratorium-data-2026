@@ -32,7 +32,9 @@ def build(destination, revision):
              'work/audit/refresh-baseline-delta-2026-11-06.json',
              'work/audit/refresh-baseline-delta-2026-11-06.md',
              'work/schemas/expanded/1.0.0.json'}
-    selected = sorted(n for n in names if n in exact or n.startswith('data/expanded-snapshots/'))
+    if 'data/expanded-csv' in names:
+        exact.update({'data/expanded-csv', 'data/README.md'})
+    selected = sorted(n for n in names if n in exact or n.startswith(('data/expanded-snapshots/', 'data/expanded-csv-snapshots/')))
     assert exact <= set(selected), exact-set(selected)
     manifest = {'schema_version': '1.0.0', 'candidate_status': 'unreleased_preparation',
                 'source_commit': commit, 'working_cohort_cutoff': '2026-11-05',
@@ -53,7 +55,7 @@ def build(destination, revision):
                     info = tarfile.TarInfo(name)
                     info.uid = info.gid = info.mtime = 0
                     info.mode = 0o644
-                    if name == 'data/expanded':
+                    if name in {'data/expanded', 'data/expanded-csv'}:
                         info.type = tarfile.SYMTYPE
                         info.linkname = data.decode()
                         tar.addfile(info)

@@ -41,6 +41,7 @@ check: validate
 	$(PYTHON) scripts/expanded_identity.py --registry data/identities/expanded.jsonl --check
 	$(PYTHON) scripts/check_expanded_publication.py
 	$(PYTHON) scripts/build_ballot_summary.py --check
+	$(PYTHON) scripts/build_expanded_csv.py --check
 	$(PYTHON) scripts/build_index.py --check
 	$(PYTHON) scripts/classify_sources.py --check
 
@@ -82,6 +83,7 @@ data:
 	$(PYTHON) scripts/build_summary_stats.py
 	$(PYTHON) scripts/build_geojson.py
 	$(PYTHON) scripts/build_ballot_summary.py
+	$(PYTHON) scripts/build_expanded_csv.py
 
 figures: data/geo/cb_2023_us_state_5m/cb_2023_us_state_5m.shp
 	$(PYTHON) -m scripts.generate_tables

@@ -31,7 +31,7 @@ Exit: reproducible baseline manifest with unrelated work preserved.
 - [x] Define date bounds, precision, local timestamps, retroactivity, calendar durations and end conditions.
 - [x] Define threshold units, operators, aggregation, exemptions and measurement basis.
 - [x] Define search/coverage provenance and independently tracked stage-completeness states.
-- [ ] Decide exact authoritative JSONL paths and documented public CSV projections.
+- [x] Decide authoritative JSONL/snapshot/identity paths and document all fifteen CSV projections plus the current-result view, with pinned generation manifests, unknown-value rules, atomic relative pointers, checked downloads and release inclusion (`docs/expanded-data-contracts.md`, `scripts/build_expanded_csv.py`). This does not close broader pilot review or legal/source migration.
 - [ ] Review schema examples against all pilot cases before implementing import/apply logic.
 
 Exit: ballot cases fit without conflating votes, legal force or legacy counts.

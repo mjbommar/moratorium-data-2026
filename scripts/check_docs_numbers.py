@@ -83,6 +83,10 @@ def facts() -> dict[str, int | float]:
 # Patterns are anchored on distinctive surrounding words so they cannot drift
 # onto an unrelated number.
 CLAIMS: list[tuple[str, str, str, str]] = [
+    ("data/README.md", r"\| ([\d,]+) local-moratorium instruments\.", "rows", "Data landing inventory count"),
+    ("data/README.md", r"\| ([\d,]+) state-policy records", "state_policy_actions", "Data landing policy count"),
+    ("data/README.md", r"([\d,]+) of [\d,]+ rows have coordinates", "geocoded", "Data landing geocoded count"),
+    ("data/README.md", r"[\d,]+ of ([\d,]+) rows have coordinates", "rows", "Data landing geocoded denominator"),
     ("README.md", r"As of [A-Za-z]+(?: \d{1,2},)? 2026, ([\d,]+) local moratorium instruments (?:are )?tracked", "rows", "README headline row count"),
     ("README.md", r"tracked across (\d+) states\.\*\*", "states", "README headline state count"),
     ("README.md", r"\*\*([\d,]+) classified active or extended\*\*", "in_force", "README headline in-force"),

@@ -1,13 +1,13 @@
 # Data
 
-The canonical data files for this project.
+Canonical records and reproducible derived downloads for this project.
 
 ## Files
 
 | File | What it is | Size | Format |
 |------|------------|------|--------|
-| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1293 local-moratorium instruments. **Start here.** | 1,665,919 bytes | CSV |
-| [`state_legislation.csv`](state_legislation.csv) | 442 state-policy records in 2025–2026; mechanisms and legal effects vary | 245,898 bytes | CSV |
+| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1331 local-moratorium instruments. **Start here.** | 1,693,361 bytes | CSV |
+| [`state_legislation.csv`](state_legislation.csv) | 442 state-policy records in 2025–2026; mechanisms and legal effects vary | 245,914 bytes | CSV |
 | [`summary_stats.json`](summary_stats.json) | Top-level aggregates (counts by state, by status, etc.) | ~12 KB | JSON |
 | [`structured_extractions.jsonl`](structured_extractions.jsonl) | 864 lines: 526 successful clause extractions + 338 LLM-call errors retained for transparency | ~2 MB | JSONL |
 | [`clause_extraction_analysis.json`](clause_extraction_analysis.json) | Pre-computed clause prevalence statistics for the n=348 cohort (confidence ≥ 0.4) | ~7 KB | JSON |
@@ -24,7 +24,7 @@ The inventory CSV includes normalized fields alongside legacy descriptions. Usef
 - **`enacted_status`** — closed-vocab status: `active`, `extended`, `replaced`, `expired`, `rescinded`, or `pending`. Filter to `active` + `extended` for records classified active or extended. These classifications do not prove freshly verified current legal force.
 - **`moratorium_id`** — stable identifier (`<state>-<jurisdiction>-<year>`, with phase suffixes for repeat instruments). Use this as a primary key when joining with future releases of this dataset.
 - **`current_end_date_iso`** — current fixed endpoint after any extension. Use it for expiry monitoring; `duration_days` preserves the original instrument's term.
-- **`latitude` / `longitude`** — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 1290 of 1293 rows have coordinates; nonblank coordinates do not establish correct jurisdiction identity or legal applicability. See [geocoding caveats](../docs/known-gaps.md#geocoding-caveats-added-v2026042).
+- **`latitude` / `longitude`** — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 1290 of 1331 rows have coordinates; nonblank coordinates do not establish correct jurisdiction identity or legal applicability. See [geocoding caveats](../docs/known-gaps.md#geocoding-caveats-added-v2026042).
 
 ## Quick examples
 
@@ -72,8 +72,8 @@ The September 23, 2026 edition is a historical baseline. The November refresh is
 
 ## Reviewed ballot records
 
-Canonical expanded records cover 49 reviewed measures across several election dates,
-with 55 retained result observations and explicit supersession. Seven additional
+Canonical expanded records cover 50 reviewed measures (49 frozen-cohort publications plus Jay's solar ballot) across several election dates,
+with 56 retained result observations and explicit supersession. Seven additional
 frozen candidate groups remain unresolved; see the [gap dispositions](../docs/known-gaps.md#ballot-candidates-retained-outside-the-reviewed-publication).
 Certification and legal implementation remain separate, record-specific findings.
 [The generated results view](../docs/ballot-results.md) supplies current record and
@@ -84,3 +84,48 @@ totals. This is a reviewed subset, not the full election census. See
 [scope and interpretation](../docs/ballot-measures.md) and the
 [publication protocol](../docs/expanded-promotion.md). The relative `data/expanded`
 pointer and its `data/expanded-snapshots` target must travel together.
+
+
+## Expanded CSV downloads
+
+The JSONL tables reached through `data/expanded/` are authoritative for expanded
+records. These CSV files are derived from one pinned reviewed generation. They do
+not change the legacy moratorium denominator or establish new legal findings.
+`measure_results.csv` retains every observation; `measure_results_current.csv`
+excludes explicitly superseded observations while keeping separate county parts
+and other reporting scopes. It does not reduce a measure to a single result row.
+
+Null or absent fields become empty cells, never inferred zeroes. Arrays and objects
+remain compact JSON within CSV cells. Use JSONL when distinguishing null, absent
+fields and empty strings or restoring exact typed records. Empty CSV tables have
+headers; their presence is not evidence that research coverage is complete.
+
+<!-- BEGIN EXPANDED CSV DOWNLOADS -->
+| CSV view | Records |
+|---|---:|
+| [ballot_measures.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/ballot_measures.csv) | 50 |
+| [claims.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/claims.csv) | 511 |
+| [coverage_observations.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/coverage_observations.csv) | 0 |
+| [elections.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/elections.csv) | 46 |
+| [instrument_events.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/instrument_events.csv) | 0 |
+| [jurisdictions.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/jurisdictions.csv) | 46 |
+| [local_restrictions.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/local_restrictions.csv) | 1 |
+| [measure_instrument_links.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/measure_instrument_links.csv) | 1 |
+| [measure_provisions.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/measure_provisions.csv) | 50 |
+| [measure_results.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/measure_results.csv) | 56 |
+| [measure_results_current.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/measure_results_current.csv) | 50 |
+| [review_decisions.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/review_decisions.csv) | 2332 |
+| [search_attempts.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/search_attempts.csv) | 0 |
+| [search_runs.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/search_runs.csv) | 0 |
+| [search_sightings.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/search_sightings.csv) | 0 |
+| [source_documents.csv](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/source_documents.csv) | 141 |
+
+[Projection manifest](expanded-csv-snapshots/f1750920b2ff67d87025d655c74891ad71a8015dcc69649a4ae8913206970a73/manifest.json) pins the source generation, schema, exporter and every file hash.
+<!-- END EXPANDED CSV DOWNLOADS -->
+
+The portable `data/expanded-csv` pointer selects an immutable directory under
+`data/expanded-csv-snapshots/`. Keep the pointer, selected directory and manifest
+together. Run `python3 scripts/build_expanded_csv.py` to regenerate or add `--check`
+to detect changed bytes, stale links or a mismatched source generation. The same
+checks run under `make data` and `make check`. Edit reviewed JSONL through the
+publication process, then regenerate; do not treat CSV edits as canonical changes.
