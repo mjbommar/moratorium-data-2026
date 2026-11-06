@@ -1,0 +1,55 @@
+{
+  "observed_at": "2026-11-06T19:54:46.934676+00:00",
+  "queue": "work/jobs/2026-11-06-duration/queue.json",
+  "queue_sha256": "7d219ddf50cf638da9a57f56f85d136e4e14316abf4d24be970ea78f09ef0a3b",
+  "inventory_sha256": "ec2d40fd48afeba1f2f517a307f5ce4ba90bf1f5550332d70f8b18f22afb878b",
+  "scope": "New disjoint duration-encoding review, not a rerun of completed acquisition jobs. Original-term semantics only; no fresh legal-force claim, new API calls or automatic promotion.",
+  "jobs": [
+    {
+      "job_id": "duration-review-001",
+      "state": "running",
+      "records": 79,
+      "model": "gpt-6.1-terra",
+      "child_pid": 1134587,
+      "live_codex_process_observed": true,
+      "prompt_sha256": "3b440808444e5b8fb158c7abd8d33abcc41deee27c44ea8cfc7ced7e1d8513ef",
+      "started_at": "2026-11-06T19:53:47.484343+00:00"
+    },
+    {
+      "job_id": "duration-review-002",
+      "state": "running",
+      "records": 79,
+      "model": "gpt-6.1-terra",
+      "child_pid": 1134623,
+      "live_codex_process_observed": true,
+      "prompt_sha256": "b78139b778f3bdb148e371dc3ec5b503a9f8b5a455f65752f50408dfba6ff2d2",
+      "started_at": "2026-11-06T19:53:47.520411+00:00"
+    },
+    {
+      "job_id": "duration-review-003",
+      "state": "running",
+      "records": 79,
+      "model": "gpt-6.1-terra",
+      "child_pid": 1134648,
+      "live_codex_process_observed": true,
+      "prompt_sha256": "4d132119911c8053df9148346c01018a9e7af9f84d4eb151d681c36b09d860ef",
+      "started_at": "2026-11-06T19:53:47.544127+00:00"
+    },
+    {
+      "job_id": "duration-review-004",
+      "state": "not_started",
+      "records": 79
+    },
+    {
+      "job_id": "duration-review-005",
+      "state": "not_started",
+      "records": 79
+    },
+    {
+      "job_id": "duration-review-006",
+      "state": "not_started",
+      "records": 79
+    }
+  ],
+  "status": "Three verified live CLI jobs, three pending in frozen six-job queue. Collection workers never edit canonical CSVs. Not completed review, source acceptance or data correction."
+}
