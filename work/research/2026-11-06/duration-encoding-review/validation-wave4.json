@@ -1,0 +1,188 @@
+{
+  "inventory_before_sha256": "09845105d5d2519325c11c19daa9e5cb4a3f2334c0309fd025c80ab8177f024c",
+  "inventory_after_sha256": "f8dfd6ee1b44f96d63cd488fa06696fff60f242639fefcb47684bf1a81ee62a0",
+  "coordinator_fourth_cohort": {
+    "records": 79,
+    "encoding_corrections_applied": 30,
+    "explicit_day_terms_retained": 1,
+    "withheld": 48
+  },
+  "cumulative_coordinator": {
+    "reviewed": 316,
+    "corrected": 137,
+    "retained": 14,
+    "withheld": 165,
+    "pending": 158
+  },
+  "changed_fields": [
+    "duration_kind",
+    "duration_days"
+  ],
+  "changed_field_count": 60,
+  "all_other_values_and_ids_unchanged": true,
+  "state_policy_and_expanded_data_unchanged": true,
+  "replay": {
+    "already_applied_fields": 60,
+    "rows_touched": 0
+  },
+  "tests": {
+    "native_tests": 213,
+    "result": "passed"
+  },
+  "build": {
+    "command": "make data site check PYTHON=.venv/bin/python TODAY=2026-11-05",
+    "errors": 0,
+    "warnings": 409,
+    "documented_numbers_matched": 53
+  },
+  "new_calendar_end_warning_ids": [
+    "mo-ava-2026",
+    "mo-city-of-camdenton-2026",
+    "mo-city-of-neosho-2026",
+    "mo-city-of-st-joseph-2026",
+    "mo-pacific-2026",
+    "mo-stone-county-2026",
+    "ne-cass-county-2026",
+    "ne-mcpherson-county-2026",
+    "ne-otoe-county-2026",
+    "ne-seward-county-2026",
+    "nm-colfax-county-2026",
+    "nm-socorro-county-2026",
+    "ny-byron-2026",
+    "ny-byron-2026-2",
+    "ny-clay-2026",
+    "ny-ellery-2026",
+    "ny-hartwick-2026",
+    "ny-huntington-2026",
+    "ny-kent-putnam-county-2024",
+    "ny-manlius-2026",
+    "ny-mohawk-montgomery-county-2026",
+    "ny-new-castle-2025",
+    "ny-tonawanda-2026",
+    "ny-town-of-clifton-park-2026",
+    "ny-town-of-highland-2026",
+    "ny-town-of-salina-2026"
+  ],
+  "warning_delta": {
+    "removed": [
+      [
+        "status.drift",
+        "line 773 (NY Hartwick): active but computed expiry 2026-09-16 < 2026-11-05"
+      ]
+    ],
+    "added": [
+      [
+        "duration.calendar_end_unverified",
+        "line 651 (MO Ava): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 654 (MO City of Camdenton): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 657 (MO City of Neosho): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 661 (MO City of St. Joseph): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 667 (MO Pacific): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 671 (MO Stone County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 678 (NE Cass County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 693 (NE McPherson County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 694 (NE Otoe County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 697 (NE Seward County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 713 (NM Colfax County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 719 (NM Socorro County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 736 (NY Byron): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 737 (NY Byron): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 747 (NY Clay): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 758 (NY Ellery): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 773 (NY Hartwick): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 775 (NY Huntington): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 780 (NY Kent (Putnam County)): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 789 (NY Manlius): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 794 (NY Mohawk (Montgomery County)): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 797 (NY New Castle): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 834 (NY Tonawanda): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 838 (NY Town of Clifton Park): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 844 (NY Town of Highland): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 853 (NY Town of Salina): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ]
+    ]
+  },
+  "warning_disposition": "26 unknown current endpoints newly exposed; Hartwick computed-expiry drift warning removed after guessed 180 days no longer used. No status/date/expiry acceptance.",
+  "visual_review_scope": "Salina PDF page 3 Section 6 only; original-body and rendered-image hashes pinned in coordinator review. No adoption/execution/current-force authentication.",
+  "scope": "Original-term encoding only; full freshness and final release remain incomplete.",
+  "logs_sha256": {
+    "wave4-tests.log": "e7e7c529b64ee650fab372f74fff0d00baf03b094b07bb56b09cd0a7336c0c0b",
+    "wave4-build.log": "c7533905562c79eccc8a9a74d3bf1ce09d0e41734fa4593a45eca73934b32293",
+    "wave4-replay.log": "04feac09308765a922de4db8f689de4a38665bcb6eecb13bd048d148c8bc6074"
+  }
+}

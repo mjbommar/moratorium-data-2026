@@ -1,0 +1,57 @@
+{
+  "state_abbrev": "NM",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator original-term encoding review; retained sources inspected November 6",
+  "decisions": [
+    {
+      "moratorium_id": "nm-colfax-county-2026",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Section 7(B) specifies automatic repeal one year after effectiveness, not a 365-day count. Only calendar encoding is accepted here. Existing prose says from adoption; that anchor discrepancy requires separate review of recording/effectiveness and enrolled law before any date correction.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Section 7(B) specifies automatic repeal one year after effectiveness, not a 365-day count. Only calendar encoding is accepted here. Existing prose says from adoption; that anchor discrepancy requires separate review of recording/effectiveness and enrolled law before any date correction.",
+          "from": "365"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.co.colfax.nm.us/Ordiance%20No.%202026-02.pdf?t=202608101548120",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-fourth-cohort.json."
+        }
+      ],
+      "notes": "Original-term representation only; preserve every other field, including unresolved date/force assertions. No source reacquisition or legal-force renewal."
+    },
+    {
+      "moratorium_id": "nm-socorro-county-2026",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Inspected original-term clause, formal title or contemporaneous report describes a calendar-month/year original interval; no source-specified original day count supports the stored approximation. Normalize reported term only; preserve status, date and extension distinctions.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Inspected original-term clause, formal title or contemporaneous report describes a calendar-month/year original interval; no source-specified original day count supports the stored approximation. Normalize reported term only; preserve status, date and extension distinctions.",
+          "from": "365"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://sourcenm.com/2026/06/10/new-mexico-county-adopts-yearlong-data-center-moratorium/",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-fourth-cohort.json."
+        }
+      ],
+      "notes": "Original-term representation only; preserve every other field, including unresolved date/force assertions. No source reacquisition or legal-force renewal."
+    }
+  ]
+}

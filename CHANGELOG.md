@@ -2,7 +2,7 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
-Corrected 107 original-duration encodings from guessed day counts to calendar terms after independent source review across three cohorts. Preserved all dates, status, prose and IDs; 13 explicit-day originals were retained and 117 cases withheld. All 474 Terra review recommendations are terminal, but 237 records still require coordinator review. Ninety-three newly visible calendar-end warnings retain unknown current endpoints rather than calculating guessed expiry dates.
+Corrected 137 original-duration encodings from guessed day counts to calendar terms after independent source review across four cohorts. Preserved all dates, status, prose and IDs; 14 explicit-day originals were retained and 165 cases withheld. All 474 Terra review recommendations are terminal, but 158 records still require coordinator review. One hundred nineteen newly visible calendar-end warnings retain unknown current endpoints rather than calculating guessed expiry dates.
 
 
 Mooresville adds a town-reported active twelve-month data-center pause; its separate unsigned posted ordinance does not establish executed terms or an operative endpoint. Awendaw Ordinance 2026-34 adds an unsigned data-center/crypto proposal, preserving separate facility-demand and expansion-increase thresholds and blank operative dates. Seven other Carolina/Virginia histories remain withheld.
