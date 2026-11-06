@@ -1,0 +1,511 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "scope": "Two NDcases, five primary source versions/nineteen scoped claims. Mandan future election has no result. Full legal body of city-hosted Mandan petition pages4-8 and Harwood proposed ArticleX read; personal/affidavit petition pages1-3 not claim-reviewed. No current legal force or canonical publication accepted.",
+  "sources": [
+    {
+      "source_document_id": "nd-review-mandan-election",
+      "url": "https://www.cityofmandan.com/elections",
+      "body_sha256": "3ce7760c4f0502f952efcf5bd3944186a41ad7f9ef245f48cfe23457f6d63847",
+      "text_sha256": "6f99039b3032b34af2b0da742b6fc170bb6acffe380e4a88e0d1c9755593d9bd",
+      "retrieved_at": "2026-11-05T17:06:28.279903+00:00",
+      "attempt_id": "5a80dca2bb8b419fa64768b3c5aba8e0",
+      "source_role": "Official city election schedule"
+    },
+    {
+      "source_document_id": "nd-review-mandan-ballot",
+      "url": "https://www.cityofmandan.com/vertical/sites/%7B38C3EFDC-F4D8-4D02-9E13-0987A081A7A4%7D/uploads/Ballot_Summary_-_Initiated_Ordinance_-_Approved_10202026.pdf",
+      "body_sha256": "acc5921484dbe9237938a41137939a783aaff2f4ff6638b47a89b8c0850899fc",
+      "text_sha256": "9ea39f870c236d52cade9e195213aaad19ba566aed2d2d4730d9da43898ab99d",
+      "retrieved_at": "2026-11-05T17:06:30.215384+00:00",
+      "attempt_id": "5d2e71b5fc554b7dba881dbd44a36895",
+      "source_role": "City-hosted approved summary; publication-notice fields blank"
+    },
+    {
+      "source_document_id": "nd-review-mandan-petition",
+      "url": "https://www.cityofmandan.com/vertical/sites/%7B38C3EFDC-F4D8-4D02-9E13-0987A081A7A4%7D/uploads/Petition_Language.pdf",
+      "body_sha256": "7d318916f1210ecc0e4e31e09d54b62e4d22d7d872e8d77e0d88009349058bd1",
+      "text_sha256": "56b5dde5b23ced1fa574d2e5ab9f4175d30fb39979cecf007585c90a69defd92",
+      "retrieved_at": "2026-11-05T17:06:33.943254+00:00",
+      "attempt_id": "9f3fe75c1cff47e7ad99dbadf6e1b5f4",
+      "source_role": "City-hosted petition, normative pages4-8 reviewed; personal/affidavit pages not claim-reviewed"
+    },
+    {
+      "source_document_id": "nd-review-harwood-proposal",
+      "url": "https://cityofharwood.com/documents/801/Home_Rule_Charter_Amendment001.pdf",
+      "body_sha256": "0e591fd31f005932443e50c404ca68b7e85b55e18e24fc86141b6045e970d547",
+      "text_sha256": "e820aa938e2dc1033ce6cc6fef2e6acf780abbd59a2869cda4f5137f09964514",
+      "retrieved_at": "2026-11-05T17:07:04.438694+00:00",
+      "attempt_id": "cfa4727409bd4a8ba9e1f9aac3736126",
+      "source_role": "City-hosted proposed ArticleX, not adopted charter"
+    },
+    {
+      "source_document_id": "nd-review-harwood-return",
+      "url": "https://resultsnd.sos.nd.gov/#election=348&location=cass+county&filter=MUN&contest=1830",
+      "body_sha256": "266d550624acda9f928dd79e8c9ef388a1368b975ae8d26f2f8503603f8164c7",
+      "text_sha256": "6f43fef76b3effddbddade1c954ca539d62678eaa5c912fda9359895262a6a44",
+      "retrieved_at": "2026-11-05T17:07:07.630446+00:00",
+      "attempt_id": "ace7fd5f8e1d4eeb8974c4c19a3e5f4f",
+      "source_role": "Official state election-night reporting; explicitly unofficial"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "north-dakota-review-01",
+      "source_document_id": "nd-review-mandan-election",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f7852025abec20c9"
+      },
+      "predicate": "official_upcoming_election",
+      "value": {
+        "electorate": "City of Mandan",
+        "election_date": "2026-12-15",
+        "election_type": "Special city election",
+        "origin": "Citizen-initiated petition",
+        "scope": "City schedules this as only measure. Election is future relative to refresh cutoff; no votes, result, certification, adoption or operative effect inferred."
+      },
+      "quote": "Special City Election",
+      "span": "utf8-text-codepoints:63:84"
+    },
+    {
+      "claim_id": "north-dakota-review-02",
+      "source_document_id": "nd-review-mandan-ballot",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f7852025abec20c9"
+      },
+      "predicate": "approved_ballot_summary",
+      "value": {
+        "designation": "Initiated City Measure No.1",
+        "wording": "Shall the Mandan Code of Ordinances be amended to prohibit large-scale and multiple data centers with a designed, contracted, requested, or reasonably anticipated electrical capacity or aggregate electrical demand of 25 MW or more within the City of Mandan and within certain territory subject to the City of Mandan zoning authority?",
+        "yes_effect": "Approve the initiated ordinance summarized above",
+        "no_effect": "Reject the initiated ordinance summarized above",
+        "election_date": "2026-12-15",
+        "scope": "One-page city-hosted approved summary. Printed newspaper-publication date and online-location fields are blank; no publication proof or completed final ballot inferred.25MW includes equality, unlike Ohio greater-than25 definitions."
+      },
+      "quote": null,
+      "span": "pdf-page:1"
+    },
+    {
+      "claim_id": "north-dakota-review-03",
+      "source_document_id": "nd-review-mandan-petition",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f7852025abec20c9"
+      },
+      "predicate": "proposed_data_center_definition",
+      "value": {
+        "uses": [
+          "AI/HPC",
+          "colocation/cloud",
+          "digital data processing/storage/transmission",
+          "cryptocurrency/blockchain processing"
+        ],
+        "principal_use": "Principal/primary digital infrastructure use, regardless of naming/ownership description",
+        "accessory_exclusion": "Equipment accessory and incidental to another principal lawful use",
+        "large_scale_definition": "Aggregate electrical capacity25MW or greater",
+        "scope": "Proposed Section2, normative physicalpage4. No enacted restriction or particular facility classification accepted."
+      },
+      "quote": "SECTION 2. DEFINITIONS",
+      "span": "utf8-text-codepoints:1070:1092"
+    },
+    {
+      "claim_id": "north-dakota-review-04",
+      "source_document_id": "nd-review-mandan-petition",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f7852025abec20c9"
+      },
+      "predicate": "proposed_capacity_and_prohibition",
+      "value": {
+        "capacity_basis": "Greatest existing/designed/requested/contracted/planned/reasonably anticipated capacity or demand, supported by objective documentary evidence",
+        "aggregation": "All common/coordinated development buildings/phases/components, multiple meters/connections/substations/generation and energy sources",
+        "threshold": {
+          "operator": "ge",
+          "value": 25,
+          "unit": "MW",
+          "metric": "Aggregate electrical capacity OR aggregate electrical demand"
+        },
+        "prohibited_actions": [
+          "establish",
+          "construct",
+          "develop",
+          "locate",
+          "expand",
+          "operate"
+        ],
+        "scope": "Proposed Sections2(D)/3, physicalpage5; not actual ban or operative date."
+      },
+      "quote": "SECTION 3. PROHIBITION",
+      "span": "utf8-text-codepoints:4918:4940"
+    },
+    {
+      "claim_id": "north-dakota-review-05",
+      "source_document_id": "nd-review-mandan-petition",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f7852025abec20c9"
+      },
+      "predicate": "proposed_aggregation_limits",
+      "value": {
+        "rule": "Aggregate common/affiliated control or phases/components of common/coordinated development",
+        "evidence": "Objective evidence and written findings",
+        "limits": "No single listed factor except common/affiliated control is independently determinative; ordinary generally available infrastructure/services alone insufficient",
+        "anti_evasion": "Primary-purpose avoidance via splitting phases/entities/parcels/applications/connections or renaming prohibited",
+        "scope": "Proposed Section4, physicalpage6. Adjacency/shared infrastructure does not automatically prove two unrelated projects are one development."
+      },
+      "quote": "SECTION 4. AGGREGATION",
+      "span": "utf8-text-codepoints:5792:5814"
+    },
+    {
+      "claim_id": "north-dakota-review-06",
+      "source_document_id": "nd-review-mandan-petition",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f7852025abec20c9"
+      },
+      "predicate": "proposed_below_threshold_and_territory",
+      "value": {
+        "below_threshold": "Both aggregate capacity AND aggregate demand must each be below25MW for Section5 protection; no entitlement to approval",
+        "territory": "All city property; outside city only lawful zoning authority under40-47-01.1 or valid written agreement",
+        "joint_jurisdiction": "City actions only, with statutory procedures; no expansion of geographic authority or displacement of another subdivision",
+        "scope": "Proposed Sections5/6, physicalpage7. No countywide MortonCounty prohibition or actual extraterritorial boundary accepted."
+      },
+      "quote": "SECTION 6. TERRITORIAL",
+      "span": "utf8-text-codepoints:8930:8952"
+    },
+    {
+      "claim_id": "north-dakota-review-07",
+      "source_document_id": "nd-review-mandan-petition",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f7852025abec20c9"
+      },
+      "predicate": "proposed_existing_operations",
+      "value": {
+        "protection": "Continued lawful operation of large-scale facility lawfully established and operating before unresolved effective date",
+        "limits": "Preliminary discussions/plans, land interests and similar preliminary actions do not alone establish exemption; remainder continues onpage8",
+        "scope": "Proposed Section7, physicalpage7. No blanket expansion grandfathering or real-project vested-right determination."
+      },
+      "quote": "SECTION 7. EXISTING",
+      "span": "utf8-text-codepoints:9967:9986"
+    },
+    {
+      "claim_id": "north-dakota-review-08",
+      "source_document_id": "nd-review-mandan-petition",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f7852025abec20c9"
+      },
+      "predicate": "proposed_effective_date_and_vested_rights",
+      "value": {
+        "effect": "In accordance with Mandan HomeRuleCharter and applicable NDlaw; no calendar date specified",
+        "vested_rights": "Nonretroactivity and no impairment of vested property/contract rights recognized under controlling law; no creation/enlargement of vested rights",
+        "scope": "Proposed Sections7-9, physicalpage8. No operative interval, adoption or final project entitlement accepted."
+      },
+      "quote": "SECTION 9. EFFECTIVE",
+      "span": "utf8-text-codepoints:11633:11653"
+    },
+    {
+      "claim_id": "north-dakota-review-09",
+      "source_document_id": "nd-review-harwood-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e0efdc31b0b81e45"
+      },
+      "predicate": "proposed_discretionary_approval_gate",
+      "value": {
+        "electorate": "City of Harwood",
+        "proposal": "ArticleX Public Protection and Responsible Municipal Decision-Making",
+        "covered_uses": "Industrial development including resource-intensive/high-intensity digital/data processing and other listed industrial activities",
+        "gate": "QualifiedDevelopment meeting impact tests AND requiring discretionary municipal action",
+        "ministerial_limit": "Does not apply solely because ministerial permit or administrative approval is required",
+        "scope": "Proposed Section10.02(D), not blanket industrial/data-center prohibition or adopted law."
+      },
+      "quote": "ministerial permit",
+      "span": "utf8-text-codepoints:6555:6573"
+    },
+    {
+      "claim_id": "north-dakota-review-10",
+      "source_document_id": "nd-review-harwood-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e0efdc31b0b81e45"
+      },
+      "predicate": "proposed_major_threshold_group",
+      "value": {
+        "logic": "Any ONE major threshold suffices, subject to discretionary-approval applicability gate",
+        "thresholds": [
+          {
+            "metric": "projected peak electrical demand",
+            "operator": "ge",
+            "value": 100,
+            "unit": "MW"
+          },
+          {
+            "metric": "total development land area",
+            "operator": "ge",
+            "value": 100,
+            "unit": "acres"
+          },
+          {
+            "metric": "projected water demand",
+            "expression": "50000gallons/day or greater OR exceeding5% available municipal water capacity, whichever threshold is less; peak/seasonal/emergency conditions considered"
+          },
+          {
+            "metric": "installed standby/backup/auxiliary/emergency generation",
+            "operator": "ge",
+            "value": 100,
+            "unit": "MW"
+          },
+          {
+            "metric": "air authorization",
+            "condition": "Major-source, TitleV or equivalent state/federal air-quality authorization"
+          }
+        ],
+        "scope": "Proposed10.02(E), physicalpages3-4. Trigger for procedures, not resource-use cap. Preserve water comparison wording without invented city capacity or flattened threshold."
+      },
+      "quote": "10.02(E) Major",
+      "span": "utf8-text-codepoints:6616:6630"
+    },
+    {
+      "claim_id": "north-dakota-review-11",
+      "source_document_id": "nd-review-harwood-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e0efdc31b0b81e45"
+      },
+      "predicate": "proposed_moderate_threshold_group",
+      "value": {
+        "logic": "At least TWO moderate thresholds suffice, subject to discretionary-approval applicability gate",
+        "thresholds": [
+          {
+            "metric": "projected peak electrical demand",
+            "operator": "ge",
+            "value": 50,
+            "unit": "MW"
+          },
+          {
+            "metric": "total development area",
+            "operator": "ge",
+            "value": 50,
+            "unit": "acres"
+          },
+          {
+            "metric": "projected water demand",
+            "operator": "ge",
+            "value": 25000,
+            "unit": "gallons/day"
+          },
+          {
+            "metric": "installed generation",
+            "operator": "ge",
+            "value": 50,
+            "unit": "MW"
+          },
+          {
+            "metric": "air emissions",
+            "condition": "State/federal air-quality permit due to operational emissions"
+          },
+          {
+            "metric": "additional threshold",
+            "condition": "Uniform city-ordinance threshold consistent with Article purpose/intent"
+          }
+        ],
+        "scope": "Proposed10.02(F), physicalpage4. Do not treat any one moderate trigger as sufficient or confuse50MW moderate with100MW major."
+      },
+      "quote": "10.02(F) Moderate",
+      "span": "utf8-text-codepoints:7983:8000"
+    },
+    {
+      "claim_id": "north-dakota-review-12",
+      "source_document_id": "nd-review-harwood-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e0efdc31b0b81e45"
+      },
+      "predicate": "proposed_common_plan_and_cumulative_impacts",
+      "value": {
+        "common_plan": "Related phases/projects/parcels/facilities/entities/components linked by ownership, contracts, shared infrastructure/finance, coordinated planning, integration or intended use",
+        "cumulative": "Evaluate together including existing phases, approved unbuilt phases, planned expansion and necessary supporting infrastructure",
+        "modifications": "Cumulative existing-plus-proposed impacts for substantial modifications; no segmentation to avoid applicability",
+        "scope": "Proposed10.02(G)-(P), physicalpages5-8. Actual impacts/control matter, not naming alone; no particular project relation accepted."
+      },
+      "quote": "Common Oevelopment Plan.",
+      "span": "utf8-text-codepoints:8740:8764"
+    },
+    {
+      "claim_id": "north-dakota-review-13",
+      "source_document_id": "nd-review-harwood-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e0efdc31b0b81e45"
+      },
+      "predicate": "proposed_independent_review",
+      "value": {
+        "requirement": "Competent professional information and independent review when technical evaluation needed; do not rely solely on financially interested applicant studies",
+        "selection": "City retains selection/direction/supervision of independent reviewers",
+        "costs": "City MAY require reasonable necessary reimbursement; no duplicative/unreasonable studies or automatic bond amount",
+        "scope": "Proposed10.03(B)-(E), physicalpages9-10; procedural review, not an actual financial-guarantee mandate."
+      },
+      "quote": "Professional Evaluation.",
+      "span": "utf8-text-codepoints:17355:17379"
+    },
+    {
+      "claim_id": "north-dakota-review-14",
+      "source_document_id": "nd-review-harwood-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e0efdc31b0b81e45"
+      },
+      "predicate": "proposed_public_participation",
+      "value": {
+        "requirements": [
+          "Notice required by law",
+          "Nonconfidential materials before decision",
+          "At least one public hearing before final discretionary approval",
+          "Oral/written comments and reasonable questioning through GoverningBody",
+          "Consider relevant comments"
+        ],
+        "confidentiality": "Lawful protection plus practicable public summaries; confidentiality does not remove sufficient-information duty",
+        "scope": "Proposed10.03(F)-(I), physicalpages10-11. Completeness deficiency defers final action; administrative record required."
+      },
+      "quote": "Public Notice,",
+      "span": "utf8-text-codepoints:21283:21297"
+    },
+    {
+      "claim_id": "north-dakota-review-15",
+      "source_document_id": "nd-review-harwood-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e0efdc31b0b81e45"
+      },
+      "predicate": "proposed_written_findings",
+      "value": {
+        "requirement": "Written findings supported by substantial administrative-record evidence before discretionary approval",
+        "subjects": "Review completeness, competent/independent information, municipal/cumulative impacts, public comments and foreseeable closure/decommissioning municipal responsibilities",
+        "limits": "Insufficient information prevents final approval until addressed; not automatic permanent denial or acceptance of any particular mitigation",
+        "scope": "Proposed10.04, physicalpages12-14. Council retains lawful evidentiary judgment."
+      },
+      "quote": "Written Findings Required.",
+      "span": "utf8-text-codepoints:24596:24622"
+    },
+    {
+      "claim_id": "north-dakota-review-16",
+      "source_document_id": "nd-review-harwood-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e0efdc31b0b81e45"
+      },
+      "predicate": "proposed_retained_authority",
+      "value": {
+        "authority": "Legislative/discretionary authority remains with GoverningBody; no transfer to electorate or another person",
+        "state_federal_limit": "Supplements other law; does not regulate exclusively preempted matters",
+        "scope": "Proposed10.05, physicalpages14-15. Not future project voter-approval requirement or state environmental/utility regulation."
+      },
+      "quote": "10.05(A) Exercise",
+      "span": "utf8-text-codepoints:30200:30217"
+    },
+    {
+      "claim_id": "north-dakota-review-17",
+      "source_document_id": "nd-review-harwood-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e0efdc31b0b81e45"
+      },
+      "predicate": "proposed_effective_date_and_remedies",
+      "value": {
+        "effect": "Under HomeRuleCharter amendment provisions; applies where discretionary approval not final before unresolved effect date",
+        "vested_rights": "No impairment of vested rights under applicable law",
+        "implementation": "City to adopt necessary implementing procedures consistent with Article",
+        "judicial_review": "No new cause of action/remedy otherwise unauthorized by law",
+        "scope": "Proposed10.06, physicalpage16. No actual adoption/effect date, implementation or litigation outcome accepted."
+      },
+      "quote": "vested rights existing",
+      "span": "utf8-text-codepoints:34113:34135"
+    },
+    {
+      "claim_id": "north-dakota-review-18",
+      "source_document_id": "nd-review-harwood-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e0efdc31b0b81e45"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 105,
+        "no_votes": 325,
+        "source_yes_percent": 24.42,
+        "source_total_votes": 430,
+        "precincts_reporting": 1,
+        "precincts_total": 1,
+        "precincts_partially_reported": 0,
+        "report_label": "Unofficial Results",
+        "source_clock": "11/05/2026 @12:00PM EST",
+        "scope": "Named HomeRuleCharter contest only; separate Harwood sales/use-tax and Horace fireworks contests excluded. Statewide turnout/eligible-voter/precinct numbers not city denominators. No city ballots/registration/under/over/blank or formal legal outcome accepted."
+      },
+      "quote": "City of Harwood Home Rule Charter Amendment Harwood\n\nPrecincts Fully: 1 / 1 - Partially: 0 / 1\n\n430 Total Votes\n\ncass county\n\nvote for 1\n\nNo\n\n75.58%\n\n325 Votes\n\nYes\n\n24.42%\n\n105 Votes",
+      "span": "utf8-text-codepoints:728:911"
+    },
+    {
+      "claim_id": "north-dakota-review-19",
+      "source_document_id": "nd-review-harwood-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-e0efdc31b0b81e45"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total Votes",
+        "count": 430,
+        "scope": "City of Harwood Home Rule Charter Amendment; state election-night CassCounty municipal view"
+      },
+      "quote": "430 Total Votes",
+      "span": "utf8-text-codepoints:824:839"
+    }
+  ],
+  "visual_reviews": {
+    "north-dakota-review-02": {
+      "claim_id": "north-dakota-review-02",
+      "source_document_id": "nd-review-mandan-ballot",
+      "claim_sha256": "036af046d9716f0797caf2c5e591da70a176c6d2c576d8406fa2fdae4d2b500d",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "designation": "Initiated City Measure No.1",
+        "wording": "Shall the Mandan Code of Ordinances be amended to prohibit large-scale and multiple data centers with a designed, contracted, requested, or reasonably anticipated electrical capacity or aggregate electrical demand of 25 MW or more within the City of Mandan and within certain territory subject to the City of Mandan zoning authority?",
+        "yes_effect": "Approve the initiated ordinance summarized above",
+        "no_effect": "Reject the initiated ordinance summarized above",
+        "election_date": "2026-12-15",
+        "scope": "One-page city-hosted approved summary. Printed newspaper-publication date and online-location fields are blank; no publication proof or completed final ballot inferred.25MW includes equality, unlike Ohio greater-than25 definitions."
+      },
+      "source_body_sha256": "acc5921484dbe9237938a41137939a783aaff2f4ff6638b47a89b8c0850899fc",
+      "pdf_page": 1,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 1,
+        "dpi": 150
+      },
+      "render_sha256": "304d3f2ddcdb515bd80551663786d0e7957a48231e1f5185f17c96c23c48b047"
+    }
+  },
+  "measures": [
+    {
+      "seed_id": "bp-f7852025abec20c9",
+      "name": "mandan",
+      "review_status": "scoped_primary_review_not_published"
+    },
+    {
+      "seed_id": "bp-e0efdc31b0b81e45",
+      "name": "harwood",
+      "review_status": "scoped_primary_review_not_published"
+    }
+  ],
+  "unresolved": [
+    "Mandan publication fields/qualification chain and final election-ready ballot; future results do not yet exist at cutoff",
+    "Harwood exact official ballot, qualification/referral and final certified canvass",
+    "Both adopted texts, actual effects, vested-right determinations and current legal/litigation histories",
+    "Complete typed normalization and clause extraction/review; no project coverage links accepted"
+  ]
+}
