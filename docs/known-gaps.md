@@ -79,7 +79,11 @@ The S3379/A4096 history records approval as P.L.2026, c.75 on August 27.
 The authenticated chapter and its effectiveness/implementation remain unresolved:
 a direct chapter PDF returned 404, and the official chapter-laws index still
 showed a partial Loading view after a bounded browser acquisition. Neither
-response proves document absence. The second reprint's immediate-effect wording
+response proves document absence. A later [network/API review](../work/research/2026-11-06/nj-chapter-portal-review/README.md)
+retained the actual chapter catalogue JSON: its returned 2026 subset has 72 entries,
+a highest chapter number of 70 and latest observed approval on August 6. It does
+not contain the later chapter 75 reported by the bill history; this describes that
+returned catalogue, not the complete law universe. The second reprint's immediate-effect wording
 is not substituted for authenticated final text. A separate primary-sponsor
 correction uses the full rendered bill-history DOM; it does not change legal
 status, effect dates or headline counts. See the [follow-up packet](../work/research/2026-11-06/nj-chapter75-followup/README.md).

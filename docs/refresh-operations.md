@@ -38,6 +38,23 @@ Raw source copies remain private; public hashes and review excerpts follow the
 source-tracking policy. Do not promote a CAPTCHA response or search snippet as a
 successful primary acquisition.
 
+## JavaScript portals and JSON endpoints
+
+For a bounded job, `fetch --mode browser --settle-ms 5000 --record-network`
+retains subrequest metadata in the private payload. Follow the actual GET/POST
+method and URL rather than guessing document paths. Network metadata identifies
+leads; it does not retain or authenticate the response body. Acquire a useful
+endpoint separately through the bounded client and pin that response's own hash.
+Keep credentials, cookies and provider payloads private.
+
+A rendered “Loading” view is incomplete evidence even if HTTP status is 200.
+Likewise, an empty client text extraction from JSON does not mean the response
+body is empty. Parse the retained body, validate the shape, and register any
+reviewed text/projection separately against its exact body hash. State the filter
+and retained subset; missing entries in an observed catalogue are not proof of
+absence from law or the underlying universe. The [New Jersey portal review](../work/research/2026-11-06/nj-chapter-portal-review/README.md)
+exercises this path and preserves the unresolved chapter discrepancy.
+
 ## Restore and release preparation
 
 `scripts/build_release_candidate.py` builds public assets from a committed revision.

@@ -345,6 +345,14 @@ Attempt ledgers retain request outcomes, provider costs, content hashes and sour
 versions. Challenged or failed acquisitions remain failures. Search hits do not
 establish qualification, adoption, certification or absence.
 
+For JavaScript portals, optional pydoll network recording exposes the page's
+actual subrequest URLs and methods. These are discovery leads, not content proof.
+A separate bounded acquisition retains the API response body and its own version
+hash. JSON projections are explicitly registered against the original response;
+an empty default text extraction or a partial “Loading” page is not evidence of
+an empty source. The [New Jersey chapter catalogue review](../work/research/2026-11-06/nj-chapter-portal-review/README.md)
+documents a returned catalogue gap without treating it as proof of statutory absence.
+
 Client extraction, OCR and visually reviewed transcriptions remain distinct
 artifacts. Derived text is registered against the successful original body hash;
 it does not replace the original extraction. Relevant scanned pages are visually
