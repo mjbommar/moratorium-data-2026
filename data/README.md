@@ -6,7 +6,7 @@ Canonical records and reproducible derived downloads for this project.
 
 | File | What it is | Size | Format |
 |------|------------|------|--------|
-| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1331 local-moratorium instruments. **Start here.** | 1,693,358 bytes | CSV |
+| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1331 local-moratorium instruments. **Start here.** | 1,693,357 bytes | CSV |
 | [`state_legislation.csv`](state_legislation.csv) | 442 state-policy records in 2025–2026; mechanisms and legal effects vary | 245,914 bytes | CSV |
 | [`summary_stats.json`](summary_stats.json) | Top-level aggregates (counts by state, by status, etc.) | ~12 KB | JSON |
 | [`structured_extractions.jsonl`](structured_extractions.jsonl) | 864 lines: 526 successful clause extractions + 338 LLM-call errors retained for transparency | ~2 MB | JSONL |

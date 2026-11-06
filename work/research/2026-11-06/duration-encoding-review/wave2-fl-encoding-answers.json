@@ -1,0 +1,57 @@
+{
+  "state_abbrev": "FL",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator original-term encoding review; retained sources inspected November 6",
+  "decisions": [
+    {
+      "moratorium_id": "fl-pasco-county-2026",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+          "from": "365"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.wusf.org/politics-issues/2026-07-15/pasco-county-one-year-moratorium-large-data-centers",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-second-cohort.json."
+        }
+      ],
+      "notes": "Original-duration representation only; no new source acquisition, adoption/effectiveness/expiry inference, or present-force acceptance."
+    },
+    {
+      "moratorium_id": "fl-washington-county-2026",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+          "from": "365"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://washingtoncounty.news/2026/08/21/county-approves-one-year-moratorium-on-data-center-applications/",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-second-cohort.json."
+        }
+      ],
+      "notes": "Original-duration representation only; no new source acquisition, adoption/effectiveness/expiry inference, or present-force acceptance."
+    }
+  ]
+}

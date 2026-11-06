@@ -1,0 +1,596 @@
+{
+  "applied_at": "20261106T150838",
+  "answer_files": [
+    "work/research/2026-11-06/duration-encoding-review/wave2-fl-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/wave2-ga-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/wave2-ia-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/wave2-il-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/wave2-in-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/wave2-ks-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/wave2-ky-encoding-answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 36,
+    "fields_changed": 72
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "fl-pasco-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-pasco-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-washington-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-washington-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ga-albany-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ga-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ga-albany-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ga-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ga-terrell-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ga-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ga-terrell-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ga-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ga-warner-robins-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ga-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ga-warner-robins-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ga-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-boone-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-boone-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-des-moines-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-des-moines-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-dickinson-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-dickinson-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-iowa-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-iowa-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-jefferson-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-jefferson-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-lee-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-lee-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-louisa-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-louisa-county-2026",
+      "column": "duration_days",
+      "before": "548",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-madison-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-madison-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-plymouth-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-plymouth-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-sioux-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-sioux-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-union-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-union-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-woodbury-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ia-woodbury-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ia-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "il-champaign-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-il-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "il-champaign-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-il-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "il-city-of-carbondale-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-il-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "il-city-of-carbondale-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-il-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "il-city-of-effingham-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-il-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "il-city-of-effingham-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-il-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "il-henry-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-il-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "il-henry-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-il-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "il-la-salle-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-il-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "il-la-salle-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-il-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "il-lawrence-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-il-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "il-lawrence-county-2026",
+      "column": "duration_days",
+      "before": "730",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-il-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "il-woodford-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-il-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "il-woodford-county-2026",
+      "column": "duration_days",
+      "before": "184",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-il-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "in-boone-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-in-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "in-boone-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-in-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "in-dearborn-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-in-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "in-dearborn-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-in-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "in-gary-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-in-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "in-gary-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-in-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "in-howard-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-in-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "in-howard-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-in-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "in-jeffersonville-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-in-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "in-jeffersonville-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-in-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "in-new-albany-floyd-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-in-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "in-new-albany-floyd-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-in-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "in-steuben-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-in-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "in-steuben-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-in-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ks-miami-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ks-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ks-miami-county-2026",
+      "column": "duration_days",
+      "before": "1095",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ks-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ky-allen-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ky-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ky-allen-county-2026",
+      "column": "duration_days",
+      "before": "730",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ky-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ky-boyd-county-fiscal-court-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ky-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ky-boyd-county-fiscal-court-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ky-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ky-boyle-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ky-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ky-boyle-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ky-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ky-greenup-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ky-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ky-greenup-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+      "source": "wave2-ky-encoding-answers.json"
+    }
+  ]
+}

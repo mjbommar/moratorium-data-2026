@@ -1,0 +1,83 @@
+{
+  "inventory_before_sha256": "0fcfe6c1bce5ae10ba917fe038e624caa0b4fff5af5563e0410f7c9017861c65",
+  "inventory_after_sha256": "1bc74c98556223016f4f460766d44e0a0bfbc271e8cf0c965ea8a1959b4e81f2",
+  "coordinator_second_cohort": {
+    "records": 79,
+    "encoding_corrections_applied": 36,
+    "explicit_day_terms_retained": 2,
+    "withheld": 41
+  },
+  "cumulative_coordinator": {
+    "reviewed": 158,
+    "corrected": 71,
+    "retained": 10,
+    "withheld": 77,
+    "pending": 316
+  },
+  "changed_fields": [
+    "duration_kind",
+    "duration_days"
+  ],
+  "changed_field_count": 72,
+  "all_other_values_and_ids_unchanged": true,
+  "state_policy_and_expanded_data_unchanged": true,
+  "replay": {
+    "already_applied_fields": 72,
+    "rows_touched": 0
+  },
+  "tests": {
+    "native_tests": 213,
+    "result": "passed"
+  },
+  "build": {
+    "command": "make data site check PYTHON=.venv/bin/python TODAY=2026-11-05",
+    "errors": 0,
+    "warnings": 357,
+    "documented_numbers_matched": 53
+  },
+  "new_calendar_end_warning_ids": [
+    "fl-pasco-county-2026",
+    "fl-washington-county-2026",
+    "ga-albany-2026",
+    "ga-terrell-county-2026",
+    "ga-warner-robins-2026",
+    "ia-boone-county-2026",
+    "ia-des-moines-county-2026",
+    "ia-dickinson-county-2026",
+    "ia-iowa-county-2026",
+    "ia-jefferson-county-2026",
+    "ia-lee-county-2026",
+    "ia-louisa-county-2026",
+    "ia-madison-county-2026",
+    "ia-plymouth-county-2026",
+    "ia-sioux-county-2026",
+    "ia-union-county-2026",
+    "ia-woodbury-county-2026",
+    "il-champaign-county-2026",
+    "il-city-of-carbondale-2026",
+    "il-city-of-effingham-2026",
+    "il-henry-county-2026",
+    "il-la-salle-county-2026",
+    "il-lawrence-county-2026",
+    "il-woodford-county-2026",
+    "in-boone-county-2026",
+    "in-dearborn-county-2026",
+    "in-gary-2026",
+    "in-howard-county-2026",
+    "in-jeffersonville-2026",
+    "in-new-albany-floyd-county-2026",
+    "in-steuben-county-2026",
+    "ks-miami-county-2026",
+    "ky-allen-county-2026",
+    "ky-boyd-county-fiscal-court-2026",
+    "ky-boyle-county-2026",
+    "ky-greenup-county-2026"
+  ],
+  "new_warning_disposition": "Current endpoint remains unknown; no original-date-plus-guessed-days expiry or current-force renewal accepted.",
+  "scope": "Original-term encoding only, not full freshness or legal-status verification.",
+  "logs_sha256": {
+    "wave2-tests.log": "6e9c1465aaf04693e3958b4037126d8cde2b53209cce086e894db5ba35a80d2d",
+    "wave2-build.log": "889faf5a0b8d96a5c91c12284e65a43b1ee29890bedc505201d90c8df1678d75",
+    "wave2-replay.log": "9ee03b815fb4ad1091b7bf5519ffe8294bf715341ffd53014bcd007eb4219b5c"
+  }
+}

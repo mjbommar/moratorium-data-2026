@@ -1032,6 +1032,7 @@
       "work/audit/apply-20261106T133727.json": "e9c44154ecd08c7110f6c75d92892796cea79fa527870788c3bdbecfde1012d4",
       "work/audit/apply-20261106T134619.json": "56364dd177942ba543367609a9e79ef59d7d2028b259f9896c3439f2653e2a49",
       "work/audit/apply-20261106T150222.json": "50506a762e7267ec66243efbd1a876fd53c5ca2f538ecf5168b2adc5aa2f27c4",
+      "work/audit/apply-20261106T150838.json": "dae3dd902efbe4b3263993b3337fb7e667274221fdfa7d6a33c5d7969b7bea6e",
       "work/audit/apply-legislation-20261105T114314.json": "222b8a24cbb2138216bd3e87d508fc67d5a3bafac2674429a58099a189e8204b",
       "work/audit/apply-legislation-20261106T000259.json": "563c37c423b64cc6d3eb8fe74f13b278bf8de357ec02c766e79c5d59a69b39a5",
       "work/audit/apply-legislation-20261106T000919.json": "c596af153305ab0135f215ac66482fce77d0dc38613ddf2a33d39a238dbcc3ea",
@@ -1040,7 +1041,7 @@
       "work/audit/apply-legislation-20261106T002343.json": "cce6016ebcee83046dcca9422bea0e45d3fed3379ae19232fdc174c7798eacdc",
       "work/audit/apply-legislation-20261106T084519.json": "2b8d7a459a25ac991a8a7ddde95f14b8c770f48cf86ceeb32677f8b814b81638"
     },
-    "moratorium_inventory.csv": "0fcfe6c1bce5ae10ba917fe038e624caa0b4fff5af5563e0410f7c9017861c65",
+    "moratorium_inventory.csv": "1bc74c98556223016f4f460766d44e0a0bfbc271e8cf0c965ea8a1959b4e81f2",
     "state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038"
   },
   "scope": "Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. This is not the completed freshness funnel required for release.",
@@ -1058,8 +1059,8 @@
         "excluded_completed_pilot": 8
       },
       "editorial_counts": {
-        "no_refresh_apply_change": 811,
-        "has_refresh_apply_change": 520
+        "no_refresh_apply_change": 777,
+        "has_refresh_apply_change": 554
       },
       "records": [
         {
@@ -4835,10 +4836,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "fl-pensacola-undated",
@@ -4954,10 +4972,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "fl-zephyrhills-2026",
@@ -5036,10 +5071,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ga-appling-county-2026",
@@ -6325,10 +6377,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ga-thomas-county-2026",
@@ -6422,10 +6491,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "id-bannock-county-2026",
@@ -6536,10 +6622,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "il-chicago-undated",
@@ -6599,10 +6702,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "il-collinsville-undated",
@@ -6633,10 +6753,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "il-city-of-troy-2026",
@@ -6732,10 +6869,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "il-la-salle-county-2026",
@@ -6749,10 +6903,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "il-lake-county-2026",
@@ -6783,10 +6954,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "il-lee-county-2026",
@@ -7146,10 +7334,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "in-boone-county-2026",
@@ -7164,7 +7369,8 @@
             }
           ],
           "refresh_apply_receipts": [
-            "work/audit/apply-20261105T144536.json"
+            "work/audit/apply-20261105T144536.json",
+            "work/audit/apply-20261106T150838.json"
           ],
           "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
@@ -7174,6 +7380,20 @@
               "last_receipt": "work/audit/apply-20261105T144536.json",
               "last_applied_value_sha256": "41d97206fa6fd72661d998c35539db6c0bec3c66701910b3f8783ffeffb05d2c",
               "current_value_sha256": "41d97206fa6fd72661d998c35539db6c0bec3c66701910b3f8783ffeffb05d2c",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
               "current_matches_last_applied_value": true
             },
             {
@@ -7287,7 +7507,8 @@
             }
           ],
           "refresh_apply_receipts": [
-            "work/audit/apply-20261105T144536.json"
+            "work/audit/apply-20261105T144536.json",
+            "work/audit/apply-20261106T150838.json"
           ],
           "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
@@ -7297,6 +7518,20 @@
               "last_receipt": "work/audit/apply-20261105T144536.json",
               "last_applied_value_sha256": "88f498881f7e0f089580f1b0dea81240538873480f3257fd23287a15a40a77ca",
               "current_value_sha256": "88f498881f7e0f089580f1b0dea81240538873480f3257fd23287a15a40a77ca",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
               "current_matches_last_applied_value": true
             },
             {
@@ -7405,10 +7640,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "in-grant-county-2026",
@@ -7439,10 +7691,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "in-huntington-county-2026",
@@ -7490,10 +7759,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "in-madison-county-2026",
@@ -7606,10 +7892,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "in-owen-county-undated",
@@ -7801,10 +8104,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "in-tippecanoe-county-2025",
@@ -8033,10 +8353,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ia-buchanan-county-2026",
@@ -8395,10 +8732,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ia-dickinson-county-2026",
@@ -8412,10 +8766,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ia-dubuque-county-2026",
@@ -8665,10 +9036,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ia-jackson-county-2024",
@@ -8733,10 +9121,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ia-johnson-county-2025",
@@ -8815,10 +9220,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ia-linn-county-2026",
@@ -8849,10 +9271,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ia-louisa-county-undated",
@@ -8883,10 +9322,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ia-marshall-county-undated",
@@ -9002,10 +9458,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ia-sac-county-2025",
@@ -9099,10 +9572,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ia-sioux-county-2023",
@@ -9196,10 +9686,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ia-woodbury-county-2026",
@@ -9213,10 +9720,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ks-allen-county-2025",
@@ -9833,10 +10357,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ks-neosho-county-2026",
@@ -10075,10 +10616,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ky-ashland-2026",
@@ -10143,10 +10701,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ky-boyle-county-2026",
@@ -10160,10 +10735,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ky-breckinridge-county-2025",
@@ -10421,10 +11013,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150838.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150838.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ky-harrison-county-2026",
@@ -37483,8 +38092,8 @@
         }
       ],
       "field_lineage_counts": {
-        "last_applied_field_values": 1799,
-        "matching_current_values": 1799,
+        "last_applied_field_values": 1871,
+        "matching_current_values": 1871,
         "differing_current_values": 0
       }
     },

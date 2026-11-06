@@ -1,0 +1,32 @@
+{
+  "state_abbrev": "KS",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator original-term encoding review; retained sources inspected November 6",
+  "decisions": [
+    {
+      "moratorium_id": "ks-miami-county-2026",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Independently inspected original-term clause or contemporaneous account states a calendar-month/year interval, not an actual original day count. Normalize the reported interval only; preserve earlier-of conditions and all current status/date assertions.",
+          "from": "1095"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.kshb.com/news/local-news/kansas/miami-county/project-catalyst-data-center-developer-in-osawatomie-offers-update-touting-economic-opportunity",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-second-cohort.json."
+        }
+      ],
+      "notes": "Original-duration representation only; no new source acquisition, adoption/effectiveness/expiry inference, or present-force acceptance."
+    }
+  ]
+}
