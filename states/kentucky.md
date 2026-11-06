@@ -3,7 +3,7 @@
 
 Working inventory for Kentucky, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**34 instruments** — 30 in force, 2 pending, 2 past.
+**35 instruments** — 31 in force, 2 pending, 2 past.
 
 State policy is tracked separately: **8 actions** (8 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -19,6 +19,7 @@ State policy is tracked separately: **8 actions** (8 bills) in [`state_legislati
 | Bullitt County | County | 2026-07-21 | data center | 🟢 Active |
 | Butler County | County | 2026-07-13 | data center | 🟢 Active |
 | Calloway County | County | Unverified | data center | 🟡 Pending |
+| Camargo | City | 2026-09-14 | data center, cryptocurrency mining | 🟢 Active |
 | Cave City | City | 2026-05-20 | data center | 🟢 Active |
 | City of La Grange | City | 2025-06-02 | data center | ⚪ Expired |
 | Daviess County | County | 2026-05-28 | data center | 🟢 Active |
@@ -205,6 +206,22 @@ State policy is tracked separately: **8 actions** (8 bills) in [`state_legislati
 - **Affected projects:** None identified; no data center has been proposed in the county
 - **Detailed status:** Pending as of 2026-09-23. The Fiscal Court held a public hearing on the proposed ordinance and then voted to table it until the Oct. 21, 2026 meeting, directing County Attorney Bryan Ernstberger to draft a revised version allowing companies to seek a Fiscal Court exception during the moratorium period; a new public hearing will be held on the revised ordinance. Judge-Executive Kenny Imes expressed concern about the long-term impact on economic development; Magistrate Paul Rister favored regulatory 'guardrails' rather than outright prohibition; officials cited litigation risk from Horse Cave/Cave City's contested moratorium as a specific concern. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
 - **Outcome:** Proposed one-year moratorium tabled for revision; next Fiscal Court action expected Oct. 21, 2026, after this research date.
+
+### Camargo
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-09-14
+- **Normalized date:** `2026-09-14` (exact)
+- **Duration:** One calendar year from final passage and publication, or earlier permanent standalone data-center ordinance; extension reserved
+- **Current end date:** `—`
+- **Sectors:** data center, cryptocurrency mining
+- **Moratorium ID:** `ky-camargo-2026`
+- **Legal basis:** Ordinance 2026-04
+- **What prompted it:** City reviews data-center land-use and infrastructure regulation.
+- **Affected projects:** —
+- **Detailed status:** Signed city ordinance has handwritten September 14, 2026 second reading. Adopted-instrument active classification only; effectiveness requires passage/second reading and legal publication. [VERIFY publication, actual operative interval, later regulations/extensions, present legal force and coordinates]
+- **Outcome:** —
 
 ### Cave City
 

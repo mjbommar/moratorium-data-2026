@@ -3,16 +3,33 @@
 
 Working inventory for Louisiana, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**2 instruments** — 2 in force, 0 pending, 0 past.
+**3 instruments** — 2 in force, 0 pending, 1 past.
 
 State policy is tracked separately: **5 actions** (5 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
+| Bossier Parish | Parish | 2022-09-07 | solar | ⚪ Expired |
 | Iberville Parish | Parish | 2026-07-15 | battery storage | 🟢 Active |
 | New Orleans | City | 2026-01-28 | data center | 🟢 Active |
 
 ## Detailed entries
+
+### Bossier Parish
+
+- **Type:** Parish
+- **Status:** ⚪ Expired
+- **Date enacted:** 2022-09-07
+- **Normalized date:** `2022-09-07` (exact)
+- **Duration:** Six calendar months from September 7, 2022 adoption, unless extended or cancelled sooner; latest original-term endpoint derived March 7, 2023
+- **Current end date:** `2023-03-07`
+- **Sectors:** solar
+- **Moratorium ID:** `la-bossier-parish-2022`
+- **Legal basis:** Ordinance 4910
+- **What prompted it:** Parish studies regulation for solar farms and commercial solar power plants.
+- **Affected projects:** —
+- **Detailed status:** Official ordinance reproduction records unanimous September 7, 2022 adoption and six-calendar-month term unless extended/cancelled sooner. Historical original-term classification only. [VERIFY earlier cancellation, extensions, exact operative interval, subsequent restrictions/current legal force and coordinates]
+- **Outcome:** —
 
 ### Iberville Parish
 

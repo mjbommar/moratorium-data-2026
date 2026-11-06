@@ -1,0 +1,45 @@
+{
+  "state": "passed",
+  "baseline_commit": "117c0041a79225918d8d76a5b3cc975f123ee32c",
+  "prior_rows_field_identical": 1317,
+  "current_rows": 1319,
+  "new_ids": [
+    "ky-camargo-2026",
+    "la-bossier-parish-2022"
+  ],
+  "reviewed_candidates": 10,
+  "distinct_original_body_text_pairs_hash_verified": 13,
+  "pdf_pages_visually_reviewed": 8,
+  "retained_pdf_pages": 41,
+  "packet_scope": "Camargo 3/3, Henderson BESS 3/3, Bossier 1/1, Washington 14 only of 34; other 33 Washington pages unreviewed.",
+  "html_scope": "Located adoption/operative-context passages; no full article/notice review claimed.",
+  "canonical_inventory_sha256": "ba58ff972223bf4c1565a402f50dcfb46dcb43c266e3ca5bb52524b302025947",
+  "review_sha256": "56c70d87073b3200919925ba4c9522d6b55d4585514ad98d70f94d959f006284",
+  "apply_receipts": [
+    "work/audit/apply-20261106T125149.json",
+    "work/audit/apply-20261106T125149-1.json"
+  ],
+  "remaining_unreviewed": 71,
+  "reviewed_withheld_cases": 87,
+  "dataset_validation": {
+    "errors": 0,
+    "warnings": 288,
+    "new_warning": {
+      "check": "duration.calendar_end_unverified",
+      "message": "line 383 (KY Camargo): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+    },
+    "new_warning_disposition": "Camargo publication/operative anchor unverified, so calendar endpoint deliberately blank; do not guess adoption-plus-one-year expiry."
+  },
+  "documented_number_checks": 49,
+  "separate_readme_ranking_sentences_checked": 2,
+  "ranking_audit_sha256": "abec05c1008bbc982926b4f8f2d611f3a09abaec60dc5f2fbb9d7c876d90ab25",
+  "replay": {
+    "rows_added": 0,
+    "duplicate_candidates": 2
+  },
+  "native_store_receipt_sha256": "4b813a603280b371d587471ed500083e9928bcc1fb89416d065505eb98414999",
+  "coordinator_accounting_sha256": "c98bc89187e04961b09adc7829531a0c21b449ad7c4567b5366b11908f2991ef",
+  "accounting_replay": "byte-identical",
+  "full_build_exit_code": 0,
+  "scope": "Scoped source/data/build checks only; no full freshness, current-force, consumer or release completion claim."
+}

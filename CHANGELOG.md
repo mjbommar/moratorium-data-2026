@@ -2,6 +2,8 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
+Camargo’s signed Ordinance 2026-04 adds an adopted-instrument data-center/crypto record with publication, operative interval and current force unverified. Bossier Parish Ordinance 4910 adds a historical six-month solar-permitting pause adopted September 7, 2022; March 7, 2023 is a derived latest original-term endpoint, not proof of no later extension. Eight other Kentucky/Louisiana candidates remain withheld. README ranking copy now reports Wisconsin’s 41 records and the three-way tie at tenth instead of a stale count and incomplete tie presentation.
+
 Union County GA R-2026-26 adds a historical 120-day data-center/cryptocurrency application-permit pause adopted April 16, 2026 with 19:00 effectiveness. Full signed-scan review and separately registered OCR support the record; exact endpoint and later regulatory repeal/extensions remain unverified. Seven other Alabama/Georgia candidates remain withheld with specific action, scope or source-history gaps.
 
 Indiana review adds two official source-stage pending proposals: Vermillion County’s unsigned data-center ordinance and Zionsville’s unsigned Resolution 2026-25 initiating a four-sector zoning amendment. Vermillion’s compound latest-of-date/calendar-term and earlier regulatory ending condition are preserved without a guessed endpoint. Zionsville referral is not zoning enactment. Six other Indiana candidates remain withheld.
@@ -50,18 +52,18 @@ remain unknown; no adoption event, in-force ban or headline-count increase is
 inferred. The public results view displays relationship review separately from
 legal status. All earlier records remain unchanged.
 
-Current totals are 1,317 local instruments (1,075 classified active or extended,
-77 pending, 165 past) and 442 state-policy records (95 classified enacted).
+Current totals are 1,319 local instruments (1,076 classified active or extended,
+77 pending, 166 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1317** |
-| Classified active or extended | **1075** |
+| Moratoria in the list | **1319** |
+| Classified active or extended | **1076** |
 | Pending or not yet effective | **77** |
-| Ended (replaced, expired, or rescinded) | **165** |
-| Rows we still want to confirm (`[VERIFY]`) | **690** |
+| Ended (replaced, expired, or rescinded) | **166** |
+| Rows we still want to confirm (`[VERIFY]`) | **692** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained
