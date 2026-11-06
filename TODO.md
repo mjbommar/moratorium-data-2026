@@ -43,7 +43,7 @@ Exit: ballot cases fit without conflating votes, legal force or legacy counts.
 - [ ] Add deterministic plan preview, seeded sampling and call/cost estimates.
 - [ ] Configure provider-specific Exa/Google query variants through `Searcher.search_many`.
 - [ ] Retain rank fusion provenance, original sightings, response hashes and backend errors.
-- [x] Add offline research-client search provenance review adapter; verify three actual Jay responses/provider exchanges and preserve unpriced spend separately. Canonical publication, rank fusion and error-path exchange ingestion remain open (`scripts/normalize_search_provenance.py`).
+- [x] Add offline research-client search provenance review adapter; verify three actual Jay responses/provider exchanges and preserve unpriced spend separately. Error-path exchange ingestion and new durable query/window intent are also tested; canonical publication and rank fusion remain open (`scripts/normalize_search_provenance.py`).
 - [ ] Add Google News RSS/GDELT and bounded paid-news escalation with index-window decline handling.
 - [ ] Add intent-specific query expansion, primary-host discovery, historical time walks and undated-source recovery.
 - [ ] Add exact-identifier/reference chasing, feedback queries and bounded relaxation.

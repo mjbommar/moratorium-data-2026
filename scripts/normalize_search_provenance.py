@@ -39,6 +39,15 @@ def normalize(directory):
         target[ident] = event
     if terminal.keys() - reservations.keys():
         raise ValueError('Terminal event without reservation')
+    exchange_path = directory / 'exchanges.private.jsonl'
+    exchange_events = [json.loads(line) for line in exchange_path.read_text().splitlines()
+                       if line.strip()] if exchange_path.exists() else []
+    by_attempt = {}
+    for exchange in exchange_events:
+        if exchange['attempt_id'] not in reservations:
+            raise ValueError('Exchange without reservation')
+        by_attempt.setdefault(exchange['attempt_id'], []).append(
+            {k: v for k, v in exchange.items() if k != 'attempt_id'})
     attempts, sightings = [], []
     for ident, reserved in sorted(reservations.items()):
         if reserved['kind'] not in SEARCH:
@@ -52,7 +61,28 @@ def normalize(directory):
                'query': None, 'spend_usd': None, 'response_sha256': None,
                'hit_count': None, 'exchanges': [], 'error_type': None,
                'publication_window': None, 'declined': None}
+        intent = reserved.get('intent', {})
+        row.update(query=intent.get('query'), publication_window=intent.get('publication_window'))
+        recorded = by_attempt.get(ident, [])
+        embedded = done.get('exchanges', []) if done else []
+        if recorded and embedded and recorded != embedded:
+            raise ValueError('Exchange ledger/terminal mismatch')
+        # Successful terminals embed the same ordered exchanges. Read the separate
+        # ledger for errors/interruption; do not count duplicated copies twice.
+        exchanges = recorded or embedded
+        seen_artifacts = set()
+        for exchange in exchanges:
+            body = local_file(directory, exchange['artifact'])
+            if body in seen_artifacts:
+                raise ValueError('Duplicate exchange artifact')
+            seen_artifacts.add(body)
+            if digest(body) != exchange['stored_body_sha256']:
+                raise ValueError('Provider response hash mismatch')
+            row['exchanges'].append({k: exchange[k] for k in
+                ('status', 'original_body_sha256', 'stored_body_sha256', 'redacted')})
         if done:
+            if done.get('intent', {}) != intent:
+                raise ValueError('Reservation/terminal intent mismatch')
             for field in ('kind', 'reserved_at', 'client_sha256', 'config_sha256'):
                 if done[field] != reserved[field]:
                     raise ValueError('Reservation/terminal identity mismatch')
@@ -62,14 +92,11 @@ def normalize(directory):
                 payload = json.loads(path.read_text())
                 if payload['backend'] != reserved['kind'] or payload['query'] != done['query']:
                     raise ValueError('Response identity mismatch')
+                if intent and (intent['query'] != done['query'] or
+                               intent['publication_window'] != done.get('publication_window')):
+                    raise ValueError('Reservation/response intent mismatch')
                 if len(payload['hits']) != done['hits']:
                     raise ValueError('Response count mismatch')
-                for exchange in done.get('exchanges', []):
-                    body = local_file(directory, exchange['artifact'])
-                    if digest(body) != exchange['stored_body_sha256']:
-                        raise ValueError('Provider response hash mismatch')
-                    row['exchanges'].append({k: exchange[k] for k in
-                        ('status', 'original_body_sha256', 'stored_body_sha256', 'redacted')})
                 row.update(query=done['query'], spend_usd=done.get('cost_usd'),
                            response_sha256=digest(path), hit_count=len(payload['hits']),
                            publication_window=done.get('publication_window'),
@@ -84,7 +111,9 @@ def normalize(directory):
         attempts.append(row)
     return {'schema_version': 'review-search-provenance-1',
             'scope': 'Review only. No canonical IDs, source acceptance, rank fusion or jurisdiction-wide completeness asserted. Missing query/window for failed or interrupted legacy reservations remains unknown.',
-            'ledger_sha256': digest(ledger), 'attempts': attempts, 'sightings': sightings,
+            'ledger_sha256': digest(ledger),
+            'exchange_ledger_sha256': digest(exchange_path) if exchange_path.exists() else None,
+            'attempts': attempts, 'sightings': sightings,
             'summary': {'search_attempts': len(attempts),
                         'successful_zero_hit_attempts': sum(a['outcome'] == 'success' and a['hit_count'] == 0 for a in attempts),
                         'failed_attempts': sum(a['outcome'] == 'error' for a in attempts),

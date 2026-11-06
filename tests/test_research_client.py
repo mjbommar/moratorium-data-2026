@@ -13,6 +13,18 @@ spec.loader.exec_module(client)
 
 
 class ClientTests(unittest.TestCase):
+    def test_intent_is_durable_before_transport_and_survives_error(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root/'client-config.json').write_text(json.dumps({'caps': {'exa': 1, 'search_total': 1}}))
+            intent = {'query': 'named evidence gap', 'publication_window': {'since': None, 'until': None}}
+            attempt = client.reserve(root, 'exa', intent=intent)
+            event = json.loads((root/'attempts.private.jsonl').read_text())
+            self.assertEqual(event['intent'], intent)
+            client.finish(root, attempt, outcome='error', error_type='TimeoutError')
+            events = [json.loads(line) for line in (root/'attempts.private.jsonl').read_text().splitlines()]
+            self.assertEqual(events[-1]['intent'], intent)
+
     def test_unsupported_controls_do_not_consume_a_reservation(self):
         with tempfile.TemporaryDirectory() as tmp:
             p=Path(tmp);(p/'client-config.json').write_text(json.dumps({'caps':{'fetch':1,'search_total':1,'gdelt':1}}))

@@ -35,7 +35,7 @@ def search_scope(query,hits):
             'scope':'Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources.'}
 
 
-def reserve(directory, kind):
+def reserve(directory, kind, *, intent=None):
     config = json.loads((directory / "client-config.json").read_text())
     ledger = directory / "attempts.private.jsonl"
     with ledger.open("a+") as f:
@@ -53,6 +53,8 @@ def reserve(directory, kind):
         attempt = {"attempt_id": uuid.uuid4().hex, "kind": kind, "state": "reserved", "reserved_at": timestamp(),
                    "client_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                    "config_sha256": hashlib.sha256((directory / "client-config.json").read_bytes()).hexdigest()}
+        if intent is not None:
+            attempt['intent'] = intent
         f.seek(0, 2); f.write(json.dumps(attempt) + "\n"); f.flush()
         return attempt
 
@@ -66,7 +68,11 @@ def finish(directory, attempt, **fields):
 async def execute(args):
     directory = args.directory.resolve()
     kind = args.backend if args.action == "search" else "fetch"
-    attempt = reserve(directory, kind)
+    intent = ({'query': args.query,
+               'publication_window': {'since': args.since, 'until': args.until},
+               'max_results': args.max_results, 'include_domains': args.domains}
+              if args.action == 'search' else {'url': args.url, 'mode': args.mode})
+    attempt = reserve(directory, kind, intent=intent)
     stem = directory / (attempt["attempt_id"] + ".private")
     metadata = {"attempt_id": attempt["attempt_id"], "kind": kind}
     try:

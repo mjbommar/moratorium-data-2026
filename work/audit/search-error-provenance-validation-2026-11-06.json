@@ -1,0 +1,26 @@
+{
+  "state": "error_exchange_and_durable_intent_validated",
+  "private_packet_sha256": "1d3369b5bdf33b60cf5c7ad78fbd0b42dd89bbc8276eaef2b59d53f4cc97d1da",
+  "ledger_sha256": "88253b2cc393fdd71600f384d11a9de66e57ac8c4f934549a88034975761ff7c",
+  "exchange_ledger_sha256": "346a3d7c4a62ef0583dd4617e423d775904939f6b56a679b11bcdff74e1e71e3",
+  "summary": {
+    "search_attempts": 3,
+    "successful_zero_hit_attempts": 0,
+    "failed_attempts": 0,
+    "interrupted_attempts": 0,
+    "partial_attempts": 0,
+    "priced_subtotal_usd": 0.014,
+    "unpriced_attempts": 1
+  },
+  "verified_exchanges": 3,
+  "native_tests": {
+    "count": 204,
+    "result": "passed"
+  },
+  "behavior": [
+    "Separate exchanges retained for successful, failed and interrupted reservations; matching terminal copies counted once.",
+    "Conflicting copies, orphan exchanges, duplicate artifacts and changed body hashes fail closed.",
+    "New research-client reservations persist query/window intent before transport; adapter checks terminal and response agreement."
+  ],
+  "evidence_scope": "Jay replay is three successful actual provider exchanges. Error/interruption and intent failures are regression fixtures; no actual failed API response is claimed by this receipt. No new API calls. Canonical search publication and rank fusion remain open. Legacy missing intent is not reconstructed."
+}
