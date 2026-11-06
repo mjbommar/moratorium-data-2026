@@ -1,0 +1,60 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "oh-lordstown-2026",
+      "outcome": "status_changed",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-4073.pdf",
+          "source_type": "court_filing",
+          "supports": "Opinion identifies June 15 extension as Ordinance 29-2026.",
+          "quote": "{\u00b6 17} On June 15, before the expiration of the moratorium, the village\n\ncouncil passed an ordinance extending i it for an additional 180 days. See L Lordstown\n\nOrd. No. 29-2026, available at Village of Lordstown,\n\nhttps://www.lordstown.com/wp-content/uploads/29-2026-1.pdf (accessed Sept.\n\n17, 2026) [https://perma.cc/NT5M-5JSU].",
+          "document_date": "2026-10-20"
+        },
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-4073.pdf",
+          "source_type": "court_filing",
+          "supports": "Opinion conclusion denies requested writ, not a statement resolving all later proceedings or legal issues.",
+          "quote": "{\u00b6 49} For the foregoing reasons, we deny relators\u2019 motion for leave to file\n\nrebuttal evidence, grant relators\u2019 motion for judicial notice, and deny the writ.\n\nWrit denied.",
+          "document_date": "2026-10-20"
+        },
+        {
+          "url": "https://www.lordstown.com/wp-content/uploads/29-2026-1.pdf",
+          "source_type": "ordinance",
+          "supports": "Signed extension section 7 uses maximum 180 days from effectiveness, visually checked on page 3; passage recital uses another anchor.",
+          "quote": "Section 7: That the Village of Lordstown Council hereby imposes a moratorium on new permits\nfor Data Centers for a period not to exceed one-hundred-and-eighty (180) days from the effective date\nof this Ordinance and directs that no permits shall be issued for these facilities during the 180-day\nperiod during the moratorium.",
+          "document_date": "2026-06-15"
+        }
+      ],
+      "new_enacted_status": "extended",
+      "changes": {
+        "legal_basis": {
+          "from": "Ordinance 1-2026; extended by a second emergency ordinance passed by Village Council in mid-June 2026 following a 2026-06-15 public hearing (exact ordinance number not confirmed in sources reviewed)",
+          "to": "Ordinance 1-2026; extended by Ordinance 29-2026, passed June 15, 2026.",
+          "reason": "The Supreme Court identifies the extension by number."
+        },
+        "duration": {
+          "from": "180 days (Ord. 1-2026, effective 2026-01-05 through 2026-07-04), extended a further 180 days by a second emergency ordinance passed mid-June 2026, effective 2026-07-05 through approximately 2027-01-02",
+          "to": "Original moratorium up to 180 days through July 4, 2026; Ordinance 29-2026 extends the pause for a period not exceeding 180 days from its effective date. The ordinance recital also refers to passage; the effective date and resulting end date require verification.",
+          "reason": "Section 7 and the recital use different anchors; the prior July 5 start and January end are not established."
+        },
+        "current_end_date_iso": {
+          "from": "2027-01-01",
+          "to": "",
+          "reason": "The operative effective date and termination cannot be established from the reviewed sources."
+        },
+        "current_status": {
+          "from": "Active (extended) as of 2026-09-23; the second 180-day moratorium, passed as an emergency on 2026-06-15, took effect 2026-07-05 and runs to about 2027-01-01. Bristolville 25 Developer/BHGH Properties' mandamus case remains pending in the Ohio Supreme Court (developer's June 18 motion to compel site-plan review undecided per WKBN). The moratorium committee's consultant presented proposed data center zoning standards to council; no vote yet. Council separately adopted a 180-day moratorium on small modular reactors and battery energy storage systems in July 2026.",
+          "to": "The Ohio Supreme Court opinion decided October 20, 2026 denies the requested Bristolville/BHGH writ concerning site-plan review under premoratorium law and identifies the June 15 extension as Ordinance 29-2026. This disposition does not establish resolution of every legal issue or subsequent proceeding. The signed extension section 7 states a maximum 180 days from effectiveness, while its recital refers to passage. Actual effective anchor, operative endpoint and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Separate documented adoption and scope from operative timing and later legal force."
+        }
+      },
+      "notes": "Court decision is a historical observation, not independent proof of current force on November 5.",
+      "confidence": 0.9
+    }
+  ],
+  "new_candidates": []
+}

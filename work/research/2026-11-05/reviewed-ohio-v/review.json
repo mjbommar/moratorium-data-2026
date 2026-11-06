@@ -1,0 +1,85 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "oh-inventory-017": "71e2975b8cc242447dda8387e363600771e0b0ad920b277798cd279b835b1534"
+  },
+  "reviewed_answers_sha256": "372ab223eebfbbaea9a7b61069840be75bf04a41187dac6f0440d69cc6416f4b",
+  "scope": "One deferred Lordstown correction. Court paragraph 17 identifies adopted extension; paragraph 49 disposition replaces stale pending-writ account without broad legal-validity inference. Ordinance section 7 and signed June 15 passage visually compared on page 3; maximum rather than guaranteed 180 days and passage/effectiveness discrepancy retained. Previous January endpoint cleared. Native extraction preserved; later force and court developments unresolved.",
+  "located_evidence": [
+    {
+      "moratorium_id": "oh-lordstown-2026",
+      "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-4073.pdf",
+      "quote": "{\u00b6 17} On June 15, before the expiration of the moratorium, the village\n\ncouncil passed an ordinance extending i it for an additional 180 days. See L Lordstown\n\nOrd. No. 29-2026, available at Village of Lordstown,\n\nhttps://www.lordstown.com/wp-content/uploads/29-2026-1.pdf (accessed Sept.\n\n17, 2026) [https://perma.cc/NT5M-5JSU].",
+      "located": [
+        {
+          "attempt_id": "cc3d2b82db254102938de8630290fb55",
+          "body_sha256": "bee1247b8ee4f8cef933ecda2bdadc3263a2287feec0522b19a16d198c119295",
+          "text_sha256": "11e06fc62ad7ae894b829ee92084df538b66c1a46778d4658ad53e671f174952",
+          "span": [
+            12947,
+            13277
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-lordstown-2026",
+      "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-4073.pdf",
+      "quote": "{\u00b6 49} For the foregoing reasons, we deny relators\u2019 motion for leave to file\n\nrebuttal evidence, grant relators\u2019 motion for judicial notice, and deny the writ.\n\nWrit denied.",
+      "located": [
+        {
+          "attempt_id": "cc3d2b82db254102938de8630290fb55",
+          "body_sha256": "bee1247b8ee4f8cef933ecda2bdadc3263a2287feec0522b19a16d198c119295",
+          "text_sha256": "11e06fc62ad7ae894b829ee92084df538b66c1a46778d4658ad53e671f174952",
+          "span": [
+            38097,
+            38270
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "oh-lordstown-2026",
+      "url": "https://www.lordstown.com/wp-content/uploads/29-2026-1.pdf",
+      "quote": "Section 7: That the Village of Lordstown Council hereby imposes a moratorium on new permits\nfor Data Centers for a period not to exceed one-hundred-and-eighty (180) days from the effective date\nof this Ordinance and directs that no permits shall be issued for these facilities during the 180-day\nperiod during the moratorium.",
+      "located": [
+        {
+          "attempt_id": "0a3766b267fa4aa79ed81b5e5f64e965",
+          "body_sha256": "343bad2d354cb2eb1c5a04edc6a29b70b7ef1eb95063bdd1aba2bd51c6790884",
+          "text_sha256": "d5d45fb2fa6993bb89ca07e8d420542d5e94470e434b8a7334bd16da32fe09f4",
+          "span": [
+            6092,
+            6417
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "0a3766b267fa4aa79ed81b5e5f64e965",
+      "page": 3,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "b89c9e209d027bef19138ce9b1a478a332f08f856b4955b80267441a752e2730"
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "0a3766b267fa4aa79ed81b5e5f64e965",
+      "source_body_sha256": "343bad2d354cb2eb1c5a04edc6a29b70b7ef1eb95063bdd1aba2bd51c6790884",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-017/0a3766b267fa4aa79ed81b5e5f64e965.derived.private.txt",
+      "derived_text_sha256": "d5d45fb2fa6993bb89ca07e8d420542d5e94470e434b8a7334bd16da32fe09f4",
+      "method": "Separately retained PDF OCR; coordinator visually compared section 7 and signed passage on page 3",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-05T23:59:40.812510+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ]
+}
