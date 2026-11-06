@@ -1,0 +1,122 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "canonical_changes": 0,
+  "inventory_sha256": "d22078e7807b17d1eec1d508ecb9eee42c43d79a55278bf87f8405521a39270d",
+  "candidates": [
+    {
+      "candidate_key": "discovery-nd:0",
+      "candidate_sha256": "0e69c24bd6c1f377b3081426b84ca8c923da5cb69ec3c263f0e72ee8a62d7f40",
+      "worker_review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1",
+      "coordinator_disposition": "held_primary_identity_dates_and_later_history",
+      "rationale": "Full Bowman article distinguishes planning-board data-center vote from later county-commission approval of two moratoria. May 31 has no explicit endpoint year; discussions of six months/year and a 2027 legislative session do not justify filling one. Separate votes do not establish separately numbered legal instruments. Recover county minutes/final acts and operative dates; preserve shared source with battery candidate.",
+      "source_checks": [
+        {
+          "attempt_id": "518945cd15664ed9b8400dca49456fd2",
+          "url": "https://www.thedickinsonpress.com/news/local/bowman-county-establishes-seven-month-moratorium-for-data-centers",
+          "body_sha256": "e1c9e629a2e5b0b0419de0a992332dfd8611ecaced5afdcbe6ceaa6a9fbf7722",
+          "text_sha256": "a93ad0f7e2985eef8053ac937d29ea98a39aaba565c20e5d0b0327f595cf792c",
+          "quote": "The board voted to approve a moratorium for data centers ending on May 31.",
+          "quote_span": [
+            2515,
+            2589
+          ],
+          "review_method": "Complete retained article text independently read; exact excerpt located."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-nd:1",
+      "candidate_sha256": "086d4761b9cb9208bb7d6db197894855c685bfa8a4b712eb2c165e5168051b7a",
+      "worker_review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1",
+      "coordinator_disposition": "held_primary_identity_dates_and_later_history",
+      "rationale": "Same full Bowman article reports separate battery-storage vote and subsequent county approval of both pauses. Sector-distinct recommendation is not proof of two separate instruments or two independent sources. May 31 year, operative start and final identity remain unresolved. Do not create two records or infer a shared legal act from one report alone.",
+      "source_checks": [
+        {
+          "attempt_id": "518945cd15664ed9b8400dca49456fd2",
+          "url": "https://www.thedickinsonpress.com/news/local/bowman-county-establishes-seven-month-moratorium-for-data-centers",
+          "body_sha256": "e1c9e629a2e5b0b0419de0a992332dfd8611ecaced5afdcbe6ceaa6a9fbf7722",
+          "text_sha256": "a93ad0f7e2985eef8053ac937d29ea98a39aaba565c20e5d0b0327f595cf792c",
+          "quote": "the board members voted to approve a moratorium for such facilities also ending on May 31.",
+          "quote_span": [
+            2741,
+            2831
+          ],
+          "review_method": "Complete retained article text independently read; exact excerpt located."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-nd:2",
+      "candidate_sha256": "82ee1f931402a2c4c359194e60b59f7e68ab698689bfab3491c9614a9e8beca5",
+      "worker_review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5",
+      "coordinator_disposition": "held_primary_identity_dates_and_later_history",
+      "rationale": "Complete Durbin report attributes unanimous October 14, 2026 passage of one-year broad industrial pause covering data centers, crypto, solar, wind, BESS and added pipelines; high-voltage transmission lines were discussed but excluded. Durbin is not Harmony Township despite related project/land agreements. Attorney comments, unsigned land purchase agreements and prior agricultural zoning are not the adopted instrument. Recover final text, exact effectiveness and later actions; do not accept all discussed sectors or projected land purchases as completed events.",
+      "source_checks": [
+        {
+          "attempt_id": "38a28e3d8c0e41da83c9b3eadc50fcce",
+          "url": "https://www.inforum.com/news/north-dakota/durbin-township-board-unanimously-passes-1-year-data-center-moratorium",
+          "body_sha256": "3f7ecdddd9e5ecbe8ff6888e4adae56bf6d566edb962166602fceb9b297c72d0",
+          "text_sha256": "d3e0a32fdac1547c8ea1e0206f44e98e68caa4697303e7638f3c063bab32a55b",
+          "quote": "The Durbin Township Board on Wednesday, Oct. 14, unanimously passed a one-year moratorium on industrial developments including data centers.",
+          "quote_span": [
+            17,
+            157
+          ],
+          "review_method": "Complete retained article text independently read; exact excerpt located."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-nd:3",
+      "candidate_sha256": "2414d5e76cd04d3e0cd6eb1e960515863c2392979bf10f0cbbd87267397c9222",
+      "worker_review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5",
+      "coordinator_disposition": "held_primary_identity_dates_and_later_history",
+      "rationale": "Complete Mercer report describes an older two-year wind pause announced at July 1 meeting, plus proposed July 14 reconsideration. Announcement is not necessarily adoption and scheduled reconsideration is not repeal. Existing March 2026 data-center permitting motion is a distinct sector/time history. McLean\u2019s power-line zoning restrictions discussed in the article are not a direct wind ban or automatically the same moratorium. Recover original Mercer act, exact anchors and subsequent history.",
+      "source_checks": [
+        {
+          "attempt_id": "052a1bc4e5a747afaee3ef3f2a54a87e",
+          "url": "https://www.thedickinsonpress.com/business/a-ban-on-wind-farms-these-two-north-dakota-counties-did-it",
+          "body_sha256": "408e239c5d1730515b34f9a06765e9dd9b6aacb2c973d5c62649d418e6ce0369",
+          "text_sha256": "df20317189108ecb0180bb95f38ecd0ecd11079ebd703abf662abc32c57739fb",
+          "quote": "The county's two-year moratorium, designed to block the construction of a proposed Garrison Butte Wind Farm",
+          "quote_span": [
+            190,
+            297
+          ],
+          "review_method": "Complete retained article text independently read; exact excerpt located."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-nd:4",
+      "candidate_sha256": "18763adc299d006db84886dd911d279b7000907f206206a205ba42eb8eb76537",
+      "worker_review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5",
+      "coordinator_disposition": "held_primary_identity_dates_and_later_history",
+      "rationale": "Both Stark notice pages directly inspected. It prints September 13, 2021 start, nine-month initial maximum and twenty-four-month outer limit, but June 13, 2021 termination. Execution date, chairman and auditor fields are blank. This is an actual printed chronology conflict, not corrected OCR; do not substitute 2022, assert adoption, or derive expiration from age. Recover executed county action and later amendments.",
+      "source_checks": [
+        {
+          "attempt_id": "4a623134816e49479871ff0a2be80cad",
+          "url": "https://wdeawebsite.blob.core.windows.net/usrfiles/documents/stark%20county%20moratorium.pdf",
+          "body_sha256": "61ded7ad218ea8764280b866e7cb1497a0ab8b8e452cb9929884fff811b6e6a6",
+          "text_sha256": "08f2ed7a2b17adb1b6ef690ca9c9e03e1544b0aa4f1ffe0b3653233c700ea83c",
+          "visual_review": {
+            "scope": "Both PDF pages directly inspected",
+            "render_command": "pdftoppm -scale-to 1700 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "pages": [
+              {
+                "page": 1,
+                "image_sha256": "8efb88472f488a873ceca4512a7ce4c5c53ebac10b58ca2beecdc18fce1dfb67"
+              },
+              {
+                "page": 2,
+                "image_sha256": "c27da988d075e02f9ce48580ff1d116f35b9401c04b58bcf68c6cd68aa53eaa4"
+              }
+            ],
+            "printed_conflict": "September 13, 2021 commencement; June 13, 2021 termination; blank date/signatures."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -267,9 +267,9 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Source-body availability checkpoint
 
-The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-ne-ut-wy-2026-11-06.json)
-covers 6,534 manifest entries, with hash-matching bodies available through listed
-paths for 3,091 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-nd-review-2026-11-06.json)
+covers 6,538 manifest entries, with hash-matching bodies available through listed
+paths for 3,095 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.
@@ -404,3 +404,7 @@ The [Kansas review](../work/research/2026-11-06/kansas-discovery-review/README.m
 ## Sarpy visual execution and limited historical summaries
 
 The [NE/UT/WY review](../work/research/2026-11-06/plains-mountain-discovery-review/README.md) adds historical Sarpy Resolution 2020-039 after all four PDF pages were inspected. Page 2 contains signatures/attestation omitted from text extraction, correcting the worker’s contrary conclusion. January 28, 2020 adoption is separate from the stated January 14 start and March 18 latest endpoint; earlier effective regulation and later restrictions remain unresolved. Custer/Deuel’s gated generated summaries contain unreconciled chronology. Sanpete’s earlier solar pause is distinct from its data-center action, and Sweetwater’s 2012 extension report does not establish an original date or exact seasonal endpoint.
+
+## North Dakota sector votes and conflicting notice dates
+
+The [North Dakota review](../work/research/2026-11-06/north-dakota-discovery-review/README.md) distinguishes Bowman planning-board votes from subsequent county approval, while withholding legal-instrument count and the unspecified year of May 31. Durbin’s reported broad industrial pause is distinct from Harmony Township and excludes high-voltage transmission lines discussed at the meeting. Mercer’s older wind pause is distinct from its 2026 data-center motion; a scheduled reconsideration is not repeal. Stark’s unsigned notice prints a September 2021 start and June 2021 termination; neither year is silently corrected. These five dispositions do not change canonical counts.
