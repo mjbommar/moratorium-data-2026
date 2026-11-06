@@ -133,7 +133,7 @@ class DomainTests(unittest.IsolatedAsyncioTestCase):
             self.assertFalse(candidate['accepted'])
 
     async def test_transport_schema_snapshot_matches_models(self):
-        snapshot=json.loads((ROOT/'work/schemas/extraction/1.0.0.json').read_text())
+        snapshot=json.loads((ROOT/'work/schemas/extraction/1.1.0.json').read_text())
         generated=domain.DomainChunk.model_json_schema()
         for key,value in generated.items():
             self.assertEqual(snapshot[key],value)
@@ -146,3 +146,47 @@ class DomainTests(unittest.IsolatedAsyncioTestCase):
             with self.assertRaises(BudgetExceeded):
                 await domain.run(tmp,backend=self.backend([]),**self.inputs())
             self.assertFalse((Path(tmp)/'domain-candidates.private.json').exists())
+
+    async def test_composed_threshold_support_keeps_definition_and_operative_spans(self):
+        text='The limit is 100 square feet. Area includes buildings and paving.'
+        fact=self.fact('thresholds',[dict(operator='ge',value=100,unit='square feet',
+            measurement_basis='Buildings and paving',aggregation_rule=None,scope=None)],
+            quote='The limit is 100 square feet.')
+        fact['supporting_passages']=[dict(role='definition',quote='Area includes buildings and paving.')]
+        with tempfile.TemporaryDirectory() as tmp:
+            result=await domain.run(tmp,backend=self.backend([fact]),**self.inputs(text))
+            candidate=result['candidates'][0]
+            support=candidate['supporting_passage_locations'][0]
+            self.assertEqual(support['role'],'definition')
+            start,end=support['exact_quote_spans'][0]
+            self.assertEqual(text[start:end],fact['supporting_passages'][0]['quote'])
+            self.assertFalse(candidate['accepted'])
+
+    async def test_missing_and_repeated_support_do_not_become_verified_evidence(self):
+        fact=self.fact('legal_basis','Statute X overrides default Y; limitation Z applies',
+                       table='ballot_measures',quote='Statute X')
+        fact['supporting_passages']=[dict(role='override',quote='default Y'),
+                                     dict(role='limitation',quote='limitation Z')]
+        with tempfile.TemporaryDirectory() as tmp:
+            result=await domain.run(tmp,backend=self.backend([fact]),
+                                    **self.inputs('Statute X; default Y; default Y'))
+            candidate=result['candidates'][0]
+            self.assertIn('supporting_quote_unlocated',candidate['review_flags'])
+            self.assertIn('supporting_quote_location_ambiguous',candidate['review_flags'])
+            self.assertFalse(candidate['accepted'])
+
+    async def test_passage_role_is_closed_and_quote_cannot_be_empty(self):
+        for passage in [dict(role='verified',quote='text'),dict(role='authority',quote='')]:
+            with self.assertRaises(ValidationError):
+                domain.SupportingPassage.model_validate(passage)
+
+    async def test_context_rejection_preserves_prior_candidate_packet(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            backend=self.backend([self.fact()])
+            await domain.run(tmp,backend=backend,**self.inputs())
+            path=Path(tmp)/'domain-candidates.private.json';before=path.read_bytes()
+            inputs=self.inputs();inputs['question']='A different immutable question'
+            with self.assertRaisesRegex(domain.resumable.WorkspaceContextChanged,'context changed'):
+                await domain.run(tmp,backend=backend,**inputs)
+            self.assertEqual(path.read_bytes(),before)
+            self.assertEqual(len(backend.calls),1)

@@ -10,6 +10,11 @@ tests and 42 subtests pass. Shared bc-llm retry fix is isolated at `d5acda10`.
 The installed runtime remains unchanged; no new paid extraction or canonical
 promotion occurred. Full extraction-quality and P2/P4 gates remain open.
 
+Composed-support development: [checkpoint](docs/extraction-support-development.md)
+records transport schema 1.1.0, two distributed terra CLI reviews, preservation
+of rejected-context packets and exact frozen-code auditing. This is regression
+coverage, not a passed extraction evaluation or completed semantic migration.
+
 Created: 2026-11-05. Execution began under the user’s subsequent active-goal instruction.
 Checked tasks have local evidence; unchecked tasks remain required. No release has been published.
 Complete phases in dependency order; retain evidence and unresolved dispositions.

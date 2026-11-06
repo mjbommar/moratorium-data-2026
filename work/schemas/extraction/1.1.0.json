@@ -1,0 +1,2193 @@
+{
+  "$defs": {
+    "CalendarDuration": {
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Value"
+        },
+        "unit": {
+          "enum": [
+            "days",
+            "calendar_months",
+            "calendar_years",
+            "unknown"
+          ],
+          "title": "Unit",
+          "type": "string"
+        },
+        "anchor": {
+          "enum": [
+            "adoption",
+            "enactment",
+            "effective_date",
+            "applicability_date",
+            "specified_date",
+            "unknown"
+          ],
+          "title": "Anchor",
+          "type": "string"
+        },
+        "anchor_date": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/DateBounds"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "original_text": {
+          "title": "Original Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "value",
+        "unit",
+        "anchor",
+        "anchor_date",
+        "original_text"
+      ],
+      "title": "CalendarDuration",
+      "type": "object"
+    },
+    "DateBounds": {
+      "additionalProperties": false,
+      "properties": {
+        "earliest": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Earliest"
+        },
+        "latest": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Latest"
+        },
+        "precision": {
+          "enum": [
+            "day",
+            "month",
+            "year",
+            "range",
+            "unknown"
+          ],
+          "title": "Precision",
+          "type": "string"
+        },
+        "original_text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Original Text"
+        }
+      },
+      "required": [
+        "earliest",
+        "latest",
+        "precision",
+        "original_text"
+      ],
+      "title": "DateBounds",
+      "type": "object"
+    },
+    "DomainClaim": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "claim_type": {
+          "default": "status",
+          "enum": [
+            "event",
+            "status",
+            "quantity",
+            "position",
+            "forecast",
+            "relationship"
+          ],
+          "title": "Claim Type",
+          "type": "string"
+        },
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        },
+        "quote_en": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Quote En"
+        },
+        "approximate_offset": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Approximate Offset"
+        },
+        "stance": {
+          "default": "asserted",
+          "enum": [
+            "asserted",
+            "reported",
+            "denied",
+            "speculative"
+          ],
+          "title": "Stance",
+          "type": "string"
+        },
+        "occurred_start": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Occurred Start"
+        },
+        "occurred_end": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Occurred End"
+        },
+        "cells": {
+          "items": {
+            "type": "integer"
+          },
+          "title": "Cells",
+          "type": "array"
+        },
+        "actors": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Actors",
+          "type": "array"
+        },
+        "subject": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "who or what the claim is about: a named actor",
+          "title": "Subject"
+        },
+        "predicate": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "short verb phrase: 'raises royalty', 'revokes licence'",
+          "title": "Predicate"
+        },
+        "object": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Object"
+        },
+        "instrument": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ExtractedInstrument"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "confidence": {
+          "default": 0.6,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "facts": {
+          "items": {
+            "discriminator": {
+              "mapping": {
+                "administering_authority": "#/$defs/DomainFact07",
+                "ballots_cast": "#/$defs/DomainFact13",
+                "bindingness": "#/$defs/DomainFact00",
+                "blank_votes": "#/$defs/DomainFact13",
+                "certification_date": "#/$defs/DomainFact14",
+                "certification_status": "#/$defs/DomainFact15",
+                "covered_uses": "#/$defs/DomainFact09",
+                "designation": "#/$defs/DomainFact01",
+                "duration": "#/$defs/DomainFact10",
+                "election_date": "#/$defs/DomainFact08",
+                "election_type": "#/$defs/DomainFact07",
+                "exemptions": "#/$defs/DomainFact09",
+                "geography": "#/$defs/DomainFact01",
+                "implementation_requirements": "#/$defs/DomainFact01",
+                "legal_basis": "#/$defs/DomainFact01",
+                "lifecycle": "#/$defs/DomainFact02",
+                "mechanism": "#/$defs/DomainFact11",
+                "no_votes": "#/$defs/DomainFact13",
+                "overvotes": "#/$defs/DomainFact13",
+                "passage_threshold": "#/$defs/DomainFact16",
+                "percentage_denominator": "#/$defs/DomainFact17",
+                "placement_method": "#/$defs/DomainFact03",
+                "placement_source_term": "#/$defs/DomainFact01",
+                "precincts_reporting": "#/$defs/DomainFact13",
+                "precincts_total": "#/$defs/DomainFact13",
+                "referendum_yes_effect": "#/$defs/DomainFact04",
+                "registered_voters": "#/$defs/DomainFact13",
+                "reported_outcome": "#/$defs/DomainFact18",
+                "reporting_status": "#/$defs/DomainFact19",
+                "scope_note": "#/$defs/DomainFact01",
+                "sectors": "#/$defs/DomainFact05",
+                "source_yes_percent": "#/$defs/DomainFact20",
+                "threshold_comparison": "#/$defs/DomainFact21",
+                "thresholds": "#/$defs/DomainFact12",
+                "title": "#/$defs/DomainFact01",
+                "undervotes": "#/$defs/DomainFact13",
+                "wording": "#/$defs/DomainFact01",
+                "yes_direction": "#/$defs/DomainFact06",
+                "yes_votes": "#/$defs/DomainFact13"
+              },
+              "propertyName": "target_field"
+            },
+            "oneOf": [
+              {
+                "$ref": "#/$defs/DomainFact00"
+              },
+              {
+                "$ref": "#/$defs/DomainFact01"
+              },
+              {
+                "$ref": "#/$defs/DomainFact02"
+              },
+              {
+                "$ref": "#/$defs/DomainFact03"
+              },
+              {
+                "$ref": "#/$defs/DomainFact04"
+              },
+              {
+                "$ref": "#/$defs/DomainFact05"
+              },
+              {
+                "$ref": "#/$defs/DomainFact06"
+              },
+              {
+                "$ref": "#/$defs/DomainFact07"
+              },
+              {
+                "$ref": "#/$defs/DomainFact08"
+              },
+              {
+                "$ref": "#/$defs/DomainFact09"
+              },
+              {
+                "$ref": "#/$defs/DomainFact10"
+              },
+              {
+                "$ref": "#/$defs/DomainFact11"
+              },
+              {
+                "$ref": "#/$defs/DomainFact12"
+              },
+              {
+                "$ref": "#/$defs/DomainFact13"
+              },
+              {
+                "$ref": "#/$defs/DomainFact14"
+              },
+              {
+                "$ref": "#/$defs/DomainFact15"
+              },
+              {
+                "$ref": "#/$defs/DomainFact16"
+              },
+              {
+                "$ref": "#/$defs/DomainFact17"
+              },
+              {
+                "$ref": "#/$defs/DomainFact18"
+              },
+              {
+                "$ref": "#/$defs/DomainFact19"
+              },
+              {
+                "$ref": "#/$defs/DomainFact20"
+              },
+              {
+                "$ref": "#/$defs/DomainFact21"
+              }
+            ]
+          },
+          "title": "Facts",
+          "type": "array"
+        }
+      },
+      "required": [
+        "text",
+        "quote"
+      ],
+      "title": "DomainClaim",
+      "type": "object"
+    },
+    "DomainFact00": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "bindingness",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "enum": [
+            "binding",
+            "advisory",
+            "mixed",
+            "unresolved"
+          ],
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact00",
+      "type": "object"
+    },
+    "DomainFact01": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "enum": [
+            "designation",
+            "geography",
+            "implementation_requirements",
+            "legal_basis",
+            "placement_source_term",
+            "scope_note",
+            "title",
+            "wording"
+          ],
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Value"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact01",
+      "type": "object"
+    },
+    "DomainFact02": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "lifecycle",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "enum": [
+            "petition_announced",
+            "collecting_signatures",
+            "submitted",
+            "qualified",
+            "scheduled",
+            "withdrawn",
+            "disqualified",
+            "litigated",
+            "voted",
+            "canceled",
+            "unknown"
+          ],
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact02",
+      "type": "object"
+    },
+    "DomainFact03": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "placement_method",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "enum": [
+            "citizen_initiative",
+            "citizen_referendum",
+            "governing_body_referral",
+            "town_meeting_article",
+            "other",
+            "unknown"
+          ],
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact03",
+      "type": "object"
+    },
+    "DomainFact04": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "referendum_yes_effect",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "enum": [
+            "upholds",
+            "repeals",
+            "not_applicable",
+            "unresolved"
+          ],
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact04",
+      "type": "object"
+    },
+    "DomainFact05": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "sectors",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "items": {
+            "enum": [
+              "data_center",
+              "battery_storage",
+              "solar",
+              "wind",
+              "cryptocurrency_mining",
+              "general"
+            ],
+            "type": "string"
+          },
+          "title": "Value",
+          "type": "array"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact05",
+      "type": "object"
+    },
+    "DomainFact06": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "yes_direction",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "enum": [
+            "restricts",
+            "facilitates",
+            "mixed",
+            "neutral_procedural",
+            "unresolved"
+          ],
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact06",
+      "type": "object"
+    },
+    "DomainFact07": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "enum": [
+            "administering_authority",
+            "election_type"
+          ],
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact07",
+      "type": "object"
+    },
+    "DomainFact08": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "election_date",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "$ref": "#/$defs/DateBounds"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact08",
+      "type": "object"
+    },
+    "DomainFact09": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "enum": [
+            "covered_uses",
+            "exemptions"
+          ],
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Value",
+          "type": "array"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact09",
+      "type": "object"
+    },
+    "DomainFact10": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "duration",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CalendarDuration"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact10",
+      "type": "object"
+    },
+    "DomainFact11": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "mechanism",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "enum": [
+            "temporary_permitting_pause",
+            "permanent_prohibition",
+            "time_limited_ban",
+            "size_resource_limit",
+            "voter_approval_requirement",
+            "financial_guarantee",
+            "zoning_change",
+            "rezoning_reversal",
+            "development_agreement_approval",
+            "development_agreement_reversal",
+            "financing_tax_authorization",
+            "advisory_support",
+            "advisory_opposition",
+            "other",
+            "unresolved"
+          ],
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact11",
+      "type": "object"
+    },
+    "DomainFact12": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "thresholds",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "items": {
+            "$ref": "#/$defs/Threshold"
+          },
+          "title": "Value",
+          "type": "array"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact12",
+      "type": "object"
+    },
+    "DomainFact13": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "enum": [
+            "ballots_cast",
+            "blank_votes",
+            "no_votes",
+            "overvotes",
+            "precincts_reporting",
+            "precincts_total",
+            "registered_voters",
+            "undervotes",
+            "yes_votes"
+          ],
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Value"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact13",
+      "type": "object"
+    },
+    "DomainFact14": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "certification_date",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Value"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact14",
+      "type": "object"
+    },
+    "DomainFact15": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "certification_status",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "enum": [
+            "unofficial",
+            "certified",
+            "recount_pending",
+            "amended_certification",
+            "unknown"
+          ],
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact15",
+      "type": "object"
+    },
+    "DomainFact16": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "passage_threshold",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Value"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact16",
+      "type": "object"
+    },
+    "DomainFact17": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "percentage_denominator",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "enum": [
+            "valid_votes",
+            "ballots_cast",
+            "registered_voters",
+            "unknown"
+          ],
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact17",
+      "type": "object"
+    },
+    "DomainFact18": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "reported_outcome",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "enum": [
+            "approved",
+            "defeated",
+            "tied",
+            "pending",
+            "unknown"
+          ],
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact18",
+      "type": "object"
+    },
+    "DomainFact19": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "reporting_status",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "enum": [
+            "partial",
+            "complete",
+            "unknown"
+          ],
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact19",
+      "type": "object"
+    },
+    "DomainFact20": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "source_yes_percent",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Value"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact20",
+      "type": "object"
+    },
+    "DomainFact21": {
+      "additionalProperties": false,
+      "properties": {
+        "target_table": {
+          "enum": [
+            "elections",
+            "ballot_measures",
+            "measure_provisions",
+            "measure_results"
+          ],
+          "title": "Target Table",
+          "type": "string"
+        },
+        "subject_label": {
+          "description": "Source-named jurisdiction, question and/or instrument; no invented ID",
+          "minLength": 1,
+          "title": "Subject Label",
+          "type": "string"
+        },
+        "quote": {
+          "description": "Exact source text supporting this particular field value",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "assertion_context": {
+          "enum": [
+            "proposed",
+            "source_reported",
+            "enacted_text",
+            "unknown"
+          ],
+          "title": "Assertion Context",
+          "type": "string"
+        },
+        "supporting_passages": {
+          "items": {
+            "$ref": "#/$defs/SupportingPassage"
+          },
+          "title": "Supporting Passages",
+          "type": "array"
+        },
+        "target_field": {
+          "const": "threshold_comparison",
+          "title": "Target Field",
+          "type": "string"
+        },
+        "value": {
+          "enum": [
+            "greater_than",
+            "at_least",
+            "unknown"
+          ],
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_table",
+        "subject_label",
+        "quote",
+        "assertion_context",
+        "target_field",
+        "value"
+      ],
+      "title": "DomainFact21",
+      "type": "object"
+    },
+    "ExtractedInstrument": {
+      "description": "The legal or regulatory instrument a claim is about, as the document names it.\n\nResolution into one record per instrument (and its status over time) happens later,\nacross documents; here the document's own naming is kept verbatim.",
+      "properties": {
+        "name": {
+          "description": "the instrument's name as the document gives it",
+          "title": "Name",
+          "type": "string"
+        },
+        "identifier": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "official number as written (bill, docket, case, CELEX), or null",
+          "title": "Identifier"
+        },
+        "jurisdiction": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "the government or body that issues it",
+          "title": "Jurisdiction"
+        },
+        "kind": {
+          "default": "other",
+          "enum": [
+            "statute",
+            "bill",
+            "regulation",
+            "code",
+            "guidance",
+            "case",
+            "enforcement",
+            "consultation",
+            "treaty",
+            "other"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "step": {
+          "default": "other",
+          "description": "the procedural step this claim reports",
+          "enum": [
+            "proposed",
+            "introduced",
+            "consultation",
+            "passed-chamber",
+            "enacted",
+            "in-force",
+            "enforced",
+            "amended",
+            "challenged",
+            "enjoined",
+            "upheld",
+            "struck",
+            "withdrawn",
+            "lapsed",
+            "other"
+          ],
+          "title": "Step",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "ExtractedInstrument",
+      "type": "object"
+    },
+    "SupportingPassage": {
+      "additionalProperties": false,
+      "properties": {
+        "quote": {
+          "description": "Additional verbatim source passage; never a paraphrase",
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "role": {
+          "enum": [
+            "definition",
+            "operative_clause",
+            "authority",
+            "exception",
+            "override",
+            "limitation",
+            "actor",
+            "electorate",
+            "territory",
+            "reporting_scope",
+            "other"
+          ],
+          "title": "Role",
+          "type": "string"
+        }
+      },
+      "required": [
+        "quote",
+        "role"
+      ],
+      "title": "SupportingPassage",
+      "type": "object"
+    },
+    "Threshold": {
+      "additionalProperties": false,
+      "properties": {
+        "operator": {
+          "enum": [
+            "lt",
+            "le",
+            "eq",
+            "ge",
+            "gt",
+            "unknown"
+          ],
+          "title": "Operator",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Value"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Unit"
+        },
+        "measurement_basis": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Measurement Basis"
+        },
+        "aggregation_rule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Aggregation Rule"
+        },
+        "scope": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Scope"
+        }
+      },
+      "required": [
+        "operator",
+        "value",
+        "unit",
+        "measurement_basis",
+        "aggregation_rule",
+        "scope"
+      ],
+      "title": "Threshold",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "relevance": {
+      "title": "Relevance",
+      "type": "number"
+    },
+    "summary": {
+      "title": "Summary",
+      "type": "string"
+    },
+    "claims": {
+      "items": {
+        "$ref": "#/$defs/DomainClaim"
+      },
+      "title": "Claims",
+      "type": "array"
+    },
+    "unresolved_fields": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Unresolved Fields",
+      "type": "array"
+    }
+  },
+  "required": [
+    "relevance",
+    "summary"
+  ],
+  "title": "DomainChunk",
+  "type": "object"
+}

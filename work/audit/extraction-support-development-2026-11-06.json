@@ -1,0 +1,45 @@
+{
+  "schema_version": "extraction-support-development-1",
+  "reviews": [
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b321-c2bb-7e93-a568-5990a826122d",
+      "state": "terminal",
+      "exit_code": 0,
+      "report_sha256": "c711b994ab00dd83caa9d73f952e149ccf39abe9a139c6694ba19eb6f923e7f3",
+      "private_report": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/development-evidence-support-review.private.txt"
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b321-c74b-7621-ad6b-2bd545e54f87",
+      "state": "terminal",
+      "exit_code": 0,
+      "report_sha256": "839061a3578c1eb2dfa491ceafb6a8bfe6a70a342b188b0179e42fa9c93f58b9",
+      "private_report": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/development-semantics-review.private.txt"
+    }
+  ],
+  "scope": "Static reviews of initial development diff; followup fixes coordinator-tested, not independently re-reviewed.",
+  "canonical_records_written": 0,
+  "new_extraction_calls": 0,
+  "semantic_accuracy_measured": false,
+  "open_findings": [
+    "canonical enum definitions and existing-use review",
+    "cross-chunk support composition",
+    "reviewed claim promotion mapping",
+    "actor/electorate/territory value contract",
+    "new frozen evaluation"
+  ],
+  "validation": {
+    "project_tests_passed": 254,
+    "subtests_passed": 42,
+    "historical_audit_exact_match": true,
+    "paid_extraction_calls": 0,
+    "source_reacquisitions": 0
+  },
+  "implementation_sha256": {
+    "scripts/extract_domain_candidates.py": "997f7e72c635655cf8b133de9ae83985a3bdd261d84203f119c19ce7c301fe1f",
+    "scripts/extract_document_resumable.py": "83432aa206902d6706c683783e85106c4858c5937d5f0447adee3c788426d6ec",
+    "scripts/audit_domain_evaluation.py": "ddc320f546448cdf3ba57615970ba27b5fb82dd817ab98c8014cb946204b453b",
+    "work/schemas/extraction/1.1.0.json": "1d4391cebff8458de15f733a6132206c84ec7b66e357ea455fe44fe19dc7e0f8"
+  }
+}

@@ -40,6 +40,10 @@ def save(path, value):
         os.close(descriptor)
 
 
+class WorkspaceContextChanged(ValueError):
+    """The retained workspace belongs to a different immutable run context."""
+
+
 async def run(directory, doc, cells, *, backend, model_identity, question, today,
               max_calls, role='extractor', max_chunks=None, budget_policy=None,
               chunk_output_type=None):
@@ -97,7 +101,7 @@ async def run(directory, doc, cells, *, backend, model_identity, question, today
         if state_path.exists():
             state = json.loads(state_path.read_text())
             if state['context_sha256'] != digest(context):
-                raise ValueError('Workspace context changed; refusing cache/budget reuse')
+                raise WorkspaceContextChanged('Workspace context changed; refusing cache/budget reuse')
             if state.get('budget_stop'):
                 raise BudgetExceeded(state['budget_stop'], 'llm')
         else:

@@ -1,12 +1,40 @@
 import copy
+import hashlib
+import tempfile
 from pathlib import Path
 import sys
 import unittest
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from audit_domain_evaluation import agreement, matches_gold
+from audit_domain_evaluation import agreement, matches_gold, verify_frozen_code, verify_support_locations
 
 
 class DomainEvaluationAuditTests(unittest.TestCase):
+    def test_support_audit_rejects_fabricated_or_omitted_locations(self):
+        candidate=dict(supporting_passages=[dict(quote='term',role='definition')],
+                       supporting_passage_locations=[dict(quote='term',role='definition',exact_quote_spans=[[0,4]])])
+        self.assertTrue(verify_support_locations(candidate,'term'))
+        with self.assertRaisesRegex(ValueError,'incomplete or changed'):
+            verify_support_locations(candidate,'term term')
+        candidate['supporting_passage_locations'][0]['exact_quote_spans']=[]
+        self.assertFalse(verify_support_locations(candidate,'absent'))
+        candidate['supporting_passage_locations']=[]
+        with self.assertRaisesRegex(ValueError,'inventory mismatch'):
+            verify_support_locations(candidate,'absent')
+
+    def test_historical_audit_uses_exact_executed_bytes_not_changed_live_source(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp); live=root/'extract.py';live.write_text('later development')
+            old=b'frozen implementation';expected=hashlib.sha256(old).hexdigest()
+            archive=root/'executed-code';archive.mkdir()
+            retained=archive/f'{expected}-extract.py';retained.write_bytes(old)
+            verify_frozen_code(root,{str(live):expected})
+            retained.write_bytes(b'tampered')
+            with self.assertRaisesRegex(ValueError,'missing or changed'):
+                verify_frozen_code(root,{str(live):expected})
+            retained.unlink()
+            with self.assertRaisesRegex(ValueError,'missing or changed'):
+                verify_frozen_code(root,{str(live):expected})
+
     def candidate(self,field,value,table='measure_results'):
         return dict(target_table=table,target_field=field,value=value,field_schema_errors=[])
 

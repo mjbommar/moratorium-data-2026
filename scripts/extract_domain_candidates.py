@@ -65,11 +65,19 @@ FIELDS = {
 }
 
 
+class SupportingPassage(CandidateObject):
+    quote: str = Field(min_length=1, description='Additional verbatim source passage; never a paraphrase')
+    role: Literal['definition', 'operative_clause', 'authority', 'exception',
+                  'override', 'limitation', 'actor', 'electorate', 'territory',
+                  'reporting_scope', 'other']
+
+
 class FactBase(CandidateObject):
     target_table: Literal['elections', 'ballot_measures', 'measure_provisions', 'measure_results']
     subject_label: str = Field(min_length=1, description='Source-named jurisdiction, question and/or instrument; no invented ID')
     quote: str = Field(min_length=1, description='Exact source text supporting this particular field value')
     assertion_context: Literal['proposed', 'source_reported', 'enacted_text', 'unknown']
+    supporting_passages: list[SupportingPassage] = Field(default_factory=list)
 
 
 def _typed_facts():
@@ -135,6 +143,21 @@ assertion_context. Use only these table/field pairs:
 {fields}
 Preserve calendar months versus days, duration anchor, inequalities, units,
 aggregate-area basis, conjunctive conditions, exemptions and conditional language.
+Use supporting_passages for additional exact passages needed to support a composed
+value, labeling each passage's role. A statutory citation's occurrence does not
+prove affirmative authority: distinguish authority, notwithstanding/override,
+exceptions and limitations in legal_basis itself. Do not flatten these roles into
+an unqualified citation list. Carry defined measurement composition explicitly in
+measurement_basis, including associated impervious surfaces when applicable;
+quote both the operative threshold and its definition using supporting_passages.
+Distinguish the requested actor, electorate and territorial reach. A city's name
+in a request to that city does not establish that the township vote governs the
+city's entire territory. Omit unproved geography and record it as unresolved.
+Do not classify advisory_support/advisory_opposition when the reference axis is
+unspecified; preserve the requested action in scope_note and bindingness separately.
+Full precinct reporting alone does not establish complete ballot counting. Use
+reporting_status=complete only when the source explicitly supports completion of
+the contest count; otherwise preserve precinct counts and unknown reporting status.
 For duration, original_text must copy the operative duration passage. Do not infer
 an actual anchor_date from an unproved passage/enactment event.
 Represent reported yes, no and blank counts separately. Never infer ballots_cast,
@@ -186,6 +209,19 @@ def review_candidates(state, schema):
                     spans.append([found, found + len(fact.quote)])
                     offset = found + 1
                 flags = []
+                supporting = []
+                for passage in fact.supporting_passages:
+                    passage_spans = []
+                    start = 0
+                    while (found := text.find(passage.quote, start)) >= 0:
+                        passage_spans.append([found, found + len(passage.quote)])
+                        start = found + 1
+                    supporting.append({**passage.model_dump(mode='json'),
+                                       'exact_quote_spans': passage_spans})
+                    if not passage_spans:
+                        flags.append('supporting_quote_unlocated')
+                    elif len(passage_spans) > 1:
+                        flags.append('supporting_quote_location_ambiguous')
                 if errors:
                     flags.append('field_schema_invalid')
                 if not spans:
@@ -204,6 +240,7 @@ def review_candidates(state, schema):
                                    'body_sha256': document['body_sha256'],
                                    'text_sha256': document['text_sha256'],
                                    'request_hashes': [request_hash], 'exact_quote_spans': spans,
+                                   'supporting_passage_locations': supporting,
                                    'field_schema_errors': errors, 'review_flags': flags,
                                    'review_status': 'unreviewed', 'accepted': False}
     by_field = {}
@@ -231,8 +268,14 @@ async def run(directory, doc, cells, *, question, **kwargs):
     directory.mkdir(parents=True, exist_ok=True, mode=0o700)
     with (directory / 'domain.lock').open('a') as lock:
         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
-        (directory / 'domain-candidates.private.json').unlink(missing_ok=True)
-        return await _run_locked(directory, doc, cells, question=question, **kwargs)
+        try:
+            return await _run_locked(directory, doc, cells, question=question, **kwargs)
+        except resumable.WorkspaceContextChanged:
+            # A rejected new context must not destroy the historical run's result.
+            raise
+        except BaseException:
+            (directory / 'domain-candidates.private.json').unlink(missing_ok=True)
+            raise
 
 
 async def _run_locked(directory, doc, cells, *, question, **kwargs):

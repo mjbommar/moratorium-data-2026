@@ -21,6 +21,28 @@ def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 def load(path):return json.loads(path.read_text())
 
 
+def verify_frozen_code(run, hashes):
+    """Verify retained executed bytes, independent of subsequent source edits."""
+    for original, expected in hashes.items():
+        retained = run / 'executed-code' / f'{expected}-{Path(original).name}'
+        require(retained.is_file() and sha(retained) == expected,
+                f'Frozen executed-code missing or changed: {Path(original).name}')
+
+
+def verify_support_locations(candidate, text):
+    passages=candidate.get('supporting_passages', [])
+    locations=candidate.get('supporting_passage_locations', [])
+    require(len(passages)==len(locations), 'Supporting passage location inventory mismatch')
+    for passage, located in zip(passages, locations):
+        require(all(located.get(k)==v for k,v in passage.items()), 'Supporting passage changed')
+        expected=[];offset=0
+        require(bool(passage['quote']), 'Empty supporting quote')
+        while (found:=text.find(passage['quote'],offset))>=0:
+            expected.append([found,found+len(passage['quote'])]);offset=found+1
+        require(located['exact_quote_spans']==expected, 'Supporting quote spans incomplete or changed')
+    return all(len(p['exact_quote_spans'])==1 for p in locations)
+
+
 def matches_gold(candidate,slot):
     if candidate['target_table']!=slot['table'] or candidate['target_field']!=slot['field']:
         return False
@@ -63,10 +85,10 @@ def audit(run,protocol_path,gold_path,coordinator_path,reviewer_paths):
     protocol=load(protocol_path);private=load(run/'protocol.private.json');gold=load(gold_path)
     require(sha(protocol_path)==private['public_protocol_sha256'] and sha(gold_path)==private['gold_sha256'],'Frozen protocol/gold drift')
     transport=load(protocol_path.parent/'sdk-retry-audit.json')
-    require(all(sha(Path(p))==h for p,h in transport['files_sha256'].items()),'SDK diagnostic implementation drift')
+    verify_frozen_code(run, transport['files_sha256'])
     require(transport['provider_http_attempt_count'] is not None or not transport['strict_provider_cap_verified'],'Missing HTTP-attempt evidence cannot verify a provider cap')
     require(len(reviewer_paths)==2,'Exactly two independent CLI reviews required')
-    require(all(sha(Path(p))==h for p,h in protocol['code_sha256'].items()),'Extraction implementation changed since freeze')
+    verify_frozen_code(run, protocol['code_sha256'])
     require(all(sha(Path(p))==h for p,h in protocol['canonical_inputs_sha256'].items()),'Canonical input changed during evaluation')
     require(Path('data/expanded').resolve().name==protocol['canonical_snapshot'],'Canonical snapshot changed during evaluation')
     require(load(run/'terminal.private.json')['state']=='batch_terminal','Batch not terminal')
@@ -97,6 +119,7 @@ def audit(run,protocol_path,gold_path,coordinator_path,reviewer_paths):
             key=name,candidate['candidate_id'];require(key not in candidates,'Duplicate candidate ID');candidates[key]=candidate
             require(candidate['body_sha256']==case['source']['body_sha256'] and candidate['text_sha256']==case['source']['text_sha256'],'Candidate source identity mismatch')
             for a,b in candidate['exact_quote_spans']:require(text[a:b]==candidate['quote'],'Candidate quote/span mismatch')
+            verify_support_locations(candidate,text)
         case_reports.append({'case_id':name,'candidates':len(result['candidates']),'model_requests':len(state['attempts']),'estimated_charged_usd':cost,
                              'full_supplied_text_chunk_coverage':result['full_text_chunk_coverage'],'chunks':len(state['chunks']),
                              'successful_chunks':sum(c['status']=='succeeded' for c in state['chunks']),'replay_without_calls':True})
@@ -142,7 +165,8 @@ def audit(run,protocol_path,gold_path,coordinator_path,reviewer_paths):
         case['review_ready']=(case['full_supplied_text_chunk_coverage']
             and case['support_fraction']>=thresholds['source_supported_relevant_candidate_fraction']
             and case['matched_slots']/case['required_slots']>=thresholds['required_slot_recall']
-            and all(not candidates[k]['field_schema_errors'] and candidates[k]['exact_quote_spans'] for k in keys)
+            and all(not candidates[k]['field_schema_errors'] and candidates[k]['exact_quote_spans']
+                    and verify_support_locations(candidates[k],source_texts[name]) for k in keys)
             and not any(final['entries'][k]['high_impact'] and final['labels'][k]!='supported' for k in keys))
     ready=sum(c['review_ready'] for c in case_reports)
     return {'schema_version':'domain-evaluation-audit-1','protocol_sha256':public_hash,'private_protocol_sha256':private_hash,'gold_sha256':sha(gold_path),'cases':case_reports,
