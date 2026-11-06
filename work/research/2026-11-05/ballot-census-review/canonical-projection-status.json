@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-06",
   "reviewer": "coordinator",
-  "canonical_snapshot": "fd07682503a415ed9b9ff294be4b01ffae595f9e40d73f6508baf21ca63ec255",
+  "canonical_snapshot": "1bb2d027ec2b78c9cf1bcdfb832351b2b6601f60a9c5a70c99aec0718a21660c",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 33,
-    "groups_pending_candidate_review": 23
+    "groups_with_scoped_canonical_publication": 36,
+    "groups_pending_candidate_review": 20
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -114,19 +114,21 @@
           "staged_measure_id": "ballot-oh-004::bp-24a05d4711a8aee8"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "26cd5ac0-e3b7-4f1f-95e5-92288b2ca508",
+      "publication_plan": "work/research/2026-11-06/ohio-wave4-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/ohio-ballot-wave4-review/review.json",
       "primary_review_packet_sha256": "7986d531b803ffb5419037d6f7d688cdf8ab3192e0faa954a01b2837f3795cd4",
-      "primary_review_status": "scoped_primary_review_not_published",
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
       "additional_review_packets": [
         {
           "path": "work/research/2026-11-06/ohio-wave4-primary-recovery/review.json",
           "sha256": "e975d25a647523f4e8ec03700fb5f81064007599e3440e57d2397c929b8cc4d0",
           "scope": "Scoped Trenton list/result and Upper Sandusky petition-origin/council-placement review; full text and legal force unresolved"
         }
-      ]
+      ],
+      "publication_plan_sha256": "a4eeeca18e990c0e2f7d7f955ce2a05775d33d0a618c3cd37d73dab181969a23",
+      "canonical_record_sha256": "9807126af52e792ca09bd12da5bd1ea412649a572d8ab6c8d3aba9d05b0ff000"
     },
     {
       "logical_group_id": "bp-293049eb1c412934",
@@ -168,12 +170,14 @@
           "staged_measure_id": "ballot-oh-004::bp-2b4aaddff7a59232"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "08764d5e-d79e-430d-bc6b-ae74d4520da5",
+      "publication_plan": "work/research/2026-11-06/ohio-wave4-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/ohio-wave4-primary-recovery/review.json",
       "primary_review_packet_sha256": "e975d25a647523f4e8ec03700fb5f81064007599e3440e57d2397c929b8cc4d0",
-      "primary_review_status": "scoped_primary_review_not_published"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "publication_plan_sha256": "a4eeeca18e990c0e2f7d7f955ce2a05775d33d0a618c3cd37d73dab181969a23",
+      "canonical_record_sha256": "0970b3c6a2d64ab9c5056a826234bf729bc3c645da832c8489e7a42cef41c9a2"
     },
     {
       "logical_group_id": "bp-2d4589a61a953d86",
@@ -691,12 +695,14 @@
           "staged_measure_id": "ballot-oh-004::bp-c8f47691c4f8e5b5"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "9dcca4b9-b901-488b-aa23-3aaa3d1c6f4d",
+      "publication_plan": "work/research/2026-11-06/ohio-wave4-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/ohio-ballot-wave4-review/review.json",
       "primary_review_packet_sha256": "7986d531b803ffb5419037d6f7d688cdf8ab3192e0faa954a01b2837f3795cd4",
-      "primary_review_status": "scoped_primary_review_not_published"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "publication_plan_sha256": "a4eeeca18e990c0e2f7d7f955ce2a05775d33d0a618c3cd37d73dab181969a23",
+      "canonical_record_sha256": "ee27d9b640bdda06e2d3d94b78ad09d8644a84c0912c1dc2a5e763181e158a02"
     },
     {
       "logical_group_id": "bp-d2cbbd6c02d8041a",
