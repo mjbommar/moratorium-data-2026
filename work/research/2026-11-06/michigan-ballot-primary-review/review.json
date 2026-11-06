@@ -1,0 +1,151 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "sources": [
+    {
+      "source_document_id": "michigan-review-county",
+      "url": "https://electionresults.ewashtenaw.org/electionreporting/aug2026/",
+      "body_sha256": "750d0b340ada891f3ec35daa453ea9c29f8deab251f2151acc7565892e8199b1",
+      "text_sha256": "5901957bf233a618bbf1e21ff6b786dc59c152f91f17adf4678fc4965f1f0ce7",
+      "retrieved_at": "2026-11-05T17:03:18.204074+00:00",
+      "attempt_id": "9e7528aa2f2540d59bcb09919a7197d3",
+      "source_role": "Official county HTML report; header/columns/named zoning contest read; full HTML derivation preserves omitted header"
+    },
+    {
+      "source_document_id": "michigan-review-town",
+      "url": "https://augustatownship.org/august-4-2026-unofficial-election-results/",
+      "body_sha256": "ac50a9e9f12d125259cf8604a4ce847bb7a5bd5e8e8be0d39810f4ef962ea757",
+      "text_sha256": "7c411e1530084bb59ef371545d396f7bb83924cf75e1f92a9cd6024df4b4320c",
+      "retrieved_at": "2026-11-05T17:03:21.434312+00:00",
+      "attempt_id": "9c529f0fd0914e0da8cf996d1c72651a",
+      "source_role": "Township earlier unofficial election post; full body read"
+    },
+    {
+      "source_document_id": "michigan-review-draft",
+      "url": "https://augustatownship.org/wp-content/uploads/2026/02/2026-02-24-Agenda-Packet-A.pdf",
+      "body_sha256": "8cb93467776c40b26b3aeb01470cb3e69e20f9811a29542bc6f4311ca6540f7b",
+      "text_sha256": "4489dc0591fc4af8d9faa1a3229405201c1a9ff167bf582fce9c0fb795921a0a",
+      "retrieved_at": "2026-11-05T17:04:00.107656+00:00",
+      "attempt_id": "9349ad6044b9426db21713b6d88b1745",
+      "source_role": "Agenda packet; complete two-page draft resolution on physicalpages16-17read and visually inspected. Remaining unrelated agenda material not claim-reviewed."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "michigan-review-01",
+      "source_document_id": "michigan-review-county",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-506fe14e7afe9a15"
+      },
+      "predicate": "official_result_header",
+      "value": {
+        "election_date": "2026-08-04",
+        "election_type": "Primary Election",
+        "source_label": "Official Election Results",
+        "report_created_literal": "Monday, Aug 31, 2026 11:33:05 AM",
+        "scope": "County official report label and election date. Report creation is not certification/adoption date; certification date unknown."
+      },
+      "quote": "Official Election Results\nAugust 4, 2026 Primary Election",
+      "span": "utf8-text-codepoints:9:66"
+    },
+    {
+      "claim_id": "michigan-review-02",
+      "source_document_id": "michigan-review-county",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-506fe14e7afe9a15"
+      },
+      "predicate": "official_zoning_contest_counts",
+      "value": {
+        "yes_votes": 269,
+        "no_votes": 2314,
+        "source_yes_percent": 10.41,
+        "source_no_percent": 89.59,
+        "early_yes": 5,
+        "absentee_yes": 159,
+        "election_day_yes": 105,
+        "early_no": 61,
+        "absentee_no": 1206,
+        "election_day_no": 1047,
+        "scope": "Named zoning referendum; county table columns early,absentee,election-day,total,percent.5+159+105=269;61+1206+1047=2314. Yes-plus-no2583derived only, not ballots/valid votes. Adjacent farmland/open-space and fire millages excluded. No formal legal outcome or certification date inferred."
+      },
+      "quote": "Augusta Twp Zoning Referendum\nView Precinct Detail\nYes\n5\n159\n105\n269\n10.41%\nNo\n61\n1206\n1047\n2314\n89.59%",
+      "span": "utf8-text-codepoints:9202:9305"
+    },
+    {
+      "claim_id": "michigan-review-03",
+      "source_document_id": "michigan-review-town",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-506fe14e7afe9a15"
+      },
+      "predicate": "earlier_unofficial_election_post",
+      "value": {
+        "election_date": "2026-08-04",
+        "source_status": "Unofficial",
+        "scope": "Township post reports40.54percent turnout; not question-specific denominator, not applied to county later official report."
+      },
+      "quote": "Here are the UnOfficial Election Results.",
+      "span": "utf8-text-codepoints:260:301"
+    },
+    {
+      "claim_id": "michigan-review-04",
+      "source_document_id": "michigan-review-draft",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-506fe14e7afe9a15"
+      },
+      "predicate": "draft_referral_and_petition_history",
+      "value": {
+        "draft_resolution": "26-04",
+        "challenged_ordinance": "2025-02",
+        "history_as_recited": {
+          "ordinance_adoption": "2025-07-22",
+          "petition_delivery": "2025-08-25",
+          "petition_adequacy": "2025-09-24"
+        },
+        "scope": "Attributed draft recitals, not independently verified petition sufficiency/adoption or adopted referral. Physicalpage16markedDRAFT, page17blankrollcall/signatures. Footer incorrectly references23-22/2023-02/7171Willis/8-24; retain version conflict."
+      },
+      "quote": "there was a proposal petition for a referendum election on Ordinance 2025-02",
+      "span": "utf8-text-codepoints:9873:9949"
+    },
+    {
+      "claim_id": "michigan-review-05",
+      "source_document_id": "michigan-review-draft",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-506fe14e7afe9a15"
+      },
+      "predicate": "draft_question_scope",
+      "value": {
+        "designation": "General Industrial Zoning Ordinance Ballot Proposal",
+        "effect_as_drafted": "Adopt Ordinance2025-02 and rezone specified AugustaDevelopmentCorp parcels AR AgriculturalResidential to GI GeneralIndustrial",
+        "yes_direction_as_drafted": "facilitates rezoning",
+        "scope": "Site-specific generalindustrial rezoning; final ballot and permitted-use/data-center connection require review. No townshipwide ban or project entitlement inferred."
+      },
+      "quote": "General Industrial Zoning Ordinance Ballot Proposal",
+      "span": "utf8-text-codepoints:10751:10802"
+    }
+  ],
+  "visual_reviews": {},
+  "scope": "Three retained sources, official county contest and scoped draft referral review; no canonical publication or current legal force.",
+  "unresolved": [
+    "Final ballot/adopted referral and current charter/statutory bindingness",
+    "Actual Ordinance2025-02and subsequent zoning/legal history",
+    "Independent data-center scope/project association",
+    "Certification date and final canvass provenance beyond official label"
+  ],
+  "inspected_draft_renders": [
+    {
+      "page": 16,
+      "dpi": 125,
+      "render_sha256": "e12421ccf2f383be622497eb7b28d0dc5b21250feb9d3d1cb87c91a4729611d7"
+    },
+    {
+      "page": 17,
+      "dpi": 125,
+      "render_sha256": "14a98b492ae712c3382a8eb7a7166859b0192fd32fcee5276976acfd16f0c6ef"
+    }
+  ]
+}
