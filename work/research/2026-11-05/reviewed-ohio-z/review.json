@@ -1,0 +1,58 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "oh-inventory-020": "67ea1db0c0b6825fa80ace13d798be7d645941a7d508ec98cac09aa72ae4f509"
+  },
+  "reviewed_answers_sha256": "23d279802bdc92ee560d979d4cec545385ad7194a372a48da30d36f920270d11",
+  "scope": "South Bloomfield bounded correction of false no-later-act claim. Both pages visually reviewed; actual passage May 18, not OCR May 8. New-versus-extension identity and legacy replacement classification not resolved or silently retargeted. No computed endpoint or present-force assertion.",
+  "located_evidence": [
+    {
+      "moratorium_id": "oh-south-bloomfield-2025",
+      "url": "https://www.southbloomfieldoh.com/Ordinances/2026/2026-06%20180-Day%20Moratorium%20on%20Data%20Centers.pdf?t=202608191145520",
+      "quote": "SECTION 1: Council for the Village of South Bloomfield hereby imposes a new 180-day\nmoratorium on the receipt, processing, issuance, and approval of any application\nfor a zoning certificate and/or permit for any use related to data processing, hosting,\nand related services (Data Centers).\n\nSECTION 2: Council for the Village of South Bloomfield may rescind this moratorium at any\ntime prior to the expiration of 180 days. If necessary, it also may extend this\nmoratorium.",
+      "located": [
+        {
+          "attempt_id": "b4302a02040e45f89d45a0c25b1eed74",
+          "body_sha256": "02ecfe05f9c8a64b48b0710d4872382481b91e3eb0b706aa368b29b95ab77511",
+          "text_sha256": "bc8146572519218629829efda181d2fc433625872e9d65f553c3adb9f773d366",
+          "span": [
+            1477,
+            1949
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "b4302a02040e45f89d45a0c25b1eed74",
+      "page": 1,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "88a1d6c0a162bee6a320b307ab224ca26841f256a9a264de691ee8a6d2b2e335"
+    },
+    {
+      "attempt_id": "b4302a02040e45f89d45a0c25b1eed74",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "c09c212eb29c64be5bef8347f794d2d49c96e4c3280e34394cb0e5120f6a4150"
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "b4302a02040e45f89d45a0c25b1eed74",
+      "source_body_sha256": "02ecfe05f9c8a64b48b0710d4872382481b91e3eb0b706aa368b29b95ab77511",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/oh-inventory-020/b4302a02040e45f89d45a0c25b1eed74.ocr.private.txt",
+      "derived_text_sha256": "bc8146572519218629829efda181d2fc433625872e9d65f553c3adb9f773d366",
+      "method": "Separately retained PDF OCR; both pages visually compared; handwritten May 18 date overrides OCR May 8",
+      "pages": [
+        1,
+        2
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T00:07:50.877533+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ]
+}
