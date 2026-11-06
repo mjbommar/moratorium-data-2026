@@ -1,0 +1,100 @@
+{
+  "wells-warrant": [
+    {
+      "slot": "proposed_duration",
+      "table": "measure_provisions",
+      "field": "duration",
+      "required": {
+        "value": 180,
+        "unit": "days",
+        "anchor": "applicability_date",
+        "anchor_date": {
+          "earliest": "2026-06-16"
+        }
+      }
+    },
+    {
+      "slot": "aggregate_area_threshold",
+      "table": "measure_provisions",
+      "field": "thresholds",
+      "required": {
+        "value": 100000,
+        "operator": "ge",
+        "unit": "square feet",
+        "aggregation_rule": "aggregate",
+        "measurement_basis_contains": "impervious"
+      }
+    },
+    {
+      "slot": "pause_mechanism",
+      "table": "measure_provisions",
+      "field": "mechanism",
+      "required": "temporary_permitting_pause"
+    },
+    {
+      "slot": "election_date",
+      "table": "elections",
+      "field": "election_date",
+      "required": {
+        "earliest": "2026-11-03"
+      }
+    }
+  ],
+  "bloomington-agenda": [
+    {
+      "slot": "advisory",
+      "table": "ballot_measures",
+      "field": "bindingness",
+      "required": "advisory"
+    },
+    {
+      "slot": "scheduled_election_date",
+      "table": "elections",
+      "field": "election_date",
+      "required": {
+        "earliest": "2026-11-03"
+      }
+    },
+    {
+      "slot": "wording",
+      "table": "ballot_measures",
+      "field": "wording",
+      "required_terms": [
+        "moratorium",
+        "large-scale data centers"
+      ]
+    }
+  ],
+  "harwood-return": [
+    {
+      "slot": "charter_yes",
+      "table": "measure_results",
+      "field": "yes_votes",
+      "required": 105
+    },
+    {
+      "slot": "charter_no",
+      "table": "measure_results",
+      "field": "no_votes",
+      "required": 325
+    },
+    {
+      "slot": "unofficial",
+      "table": "measure_results",
+      "field": "certification_status",
+      "required": "unofficial"
+    },
+    {
+      "slot": "charter_precincts",
+      "table": "measure_results",
+      "field": "precincts_total",
+      "required": 1
+    },
+    {
+      "slot": "charter_percent",
+      "table": "measure_results",
+      "field": "source_yes_percent",
+      "required": 24.42
+    }
+  ]
+}

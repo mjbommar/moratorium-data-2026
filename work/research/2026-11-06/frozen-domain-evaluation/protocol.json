@@ -1,0 +1,134 @@
+{
+  "schema_version": "frozen-domain-evaluation-1",
+  "frozen_at": "2026-11-06T22:22:42.201869+00:00",
+  "source_commit": "5ab11a6a08fceef0b2bc4574f4bbbdb3c52684a5",
+  "canonical_snapshot": "a5c897f0d64f46b06fc1d19564cd5b9522a5a4e41a1e25d2fd8c0f59ceea4a3a",
+  "bc_modules_commit": "f6187344c697334dbca3f037fd0a670a995f59c8",
+  "model_identity": {
+    "model": "openai:gpt-6-sol",
+    "service_tier": null,
+    "reasoning_effort": "low",
+    "temperature": null,
+    "max_tokens": 6000,
+    "timeout_s": 90.0,
+    "cache_instructions": false,
+    "output_mode": "native",
+    "max_attempts": 1,
+    "agent_retries": 0,
+    "max_model_requests": 1,
+    "flex_fallback": false,
+    "pricing": {
+      "input": 4.0,
+      "output": 15.0,
+      "cache_read": 0.4,
+      "cache_write": 5.0,
+      "source": "genai-prices"
+    }
+  },
+  "question": "Extract source-qualified fields relevant to the research cell. Preserve source scope and proposed versus observed procedure. Do not derive legal outcomes, current legal force, denominators or certification beyond explicit source wording.",
+  "code_sha256": {
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/extract_domain_candidates.py": "a16c59cb8609faa15b3ea61c14a2ee1b7a88e0317d91031a2b0b3e180ffd2cdc",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/extract_document_resumable.py": "693710f68e296ae9488193097797ff0b9f5fd20b22bd40d49c48043574fdc1b0",
+    "/home/mjbommar/projects/bc/bc-modules/bc-evidence/python/bc_evidence/extract.py": "8344cf1b95fa579fc46c20f801d89999f456e44d3e02d1abc3ecbf54e6bdde19",
+    "/home/mjbommar/projects/bc/bc-modules/bc-evidence/python/bc_evidence/prompts/extract.md": "44ee2a732c204c7c061d4e4bc820ba787c8c74ab91490eca5db2395073045eb0"
+  },
+  "cases": [
+    {
+      "case_id": "wells-warrant",
+      "source": {
+        "access_classification": "public official source; raw artifacts private",
+        "body_sha256": "44a827d74c282cf6e81164b182f55256f4dd8fd1583c1de2a1a1ee125fd4ebd2",
+        "extraction_version": "bc_research document_text; retained original text; image results reviewed visually",
+        "publication_classification": "official local government; reviewed metadata and excerpts",
+        "published_date": null,
+        "retrieval_method": "bc-web auto",
+        "retrieved_at": "2026-11-06T02:06:14.615379+00:00",
+        "schema_version": "1.0.0",
+        "source_document_id": "3a79fdde-f141-4e45-8897-d64ce4d8cd8b",
+        "text_sha256": "dea33cb4ff565bb04d619af2ae2644b9b7bc7d9121dd46acb7425189402aec46",
+        "url": "https://wellstown.org/DocumentCenter/View/8514/November-3-2026-Special-Town-Meeting-Warrant?bidId="
+      },
+      "title": "Wells Special Town Meeting warrant",
+      "subject_label": "Town of Wells Article 5 data-center moratorium",
+      "text_chars": 45196,
+      "text_scope": "Complete retained source text, not all material reachable from a portal or all future source versions.",
+      "chunks": 7,
+      "max_calls": 9,
+      "max_usd": 4.5,
+      "reservation_usd": 0.5
+    },
+    {
+      "case_id": "bloomington-agenda",
+      "source": {
+        "access_classification": "Official publicly accessible source; raw artifacts private",
+        "body_sha256": "ed0bc2ca71027f723f70ff5901d4ed4fa512488ef385d2efea3dfa5b697f9982",
+        "extraction_version": "Original client text or registered full agenda layout/exact ZIP CSV member; scoped visual review",
+        "publication_classification": "Reviewed metadata/excerpts only; no current legal-force acceptance",
+        "published_date": null,
+        "retrieval_method": "Retained bc-web HTTP/pydoll primary recovery",
+        "retrieved_at": "2026-11-06T04:42:17.293526+00:00",
+        "schema_version": "1.0.0",
+        "source_document_id": "e70a4a44-5180-41f6-93d2-ed8ba681e020",
+        "text_sha256": "9b3bfe5e9547064e1b33c66c779941c223fa6e5b8088ada4ac6e52f698ae7f34",
+        "url": "https://bloomingtonil.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12760,plainText=false)"
+      },
+      "title": "Town of the City of Bloomington special-meeting agenda",
+      "subject_label": "City of Bloomington Township data-center advisory question",
+      "text_chars": 1972,
+      "text_scope": "Complete retained source text, not all material reachable from a portal or all future source versions.",
+      "chunks": 1,
+      "max_calls": 2,
+      "max_usd": 1.0,
+      "reservation_usd": 0.5
+    },
+    {
+      "case_id": "harwood-return",
+      "source": {
+        "access_classification": "Official state election-night reporting; explicitly unofficial; raw artifacts private",
+        "body_sha256": "266d550624acda9f928dd79e8c9ef388a1368b975ae8d26f2f8503603f8164c7",
+        "extraction_version": "Original client text, separately registered legal-page layout, and reviewed approved-summary visual",
+        "publication_classification": "Reviewed metadata/excerpts only; no adopted legal force or final certification accepted",
+        "published_date": null,
+        "retrieval_method": "Retained bc-web official-source acquisitions",
+        "retrieved_at": "2026-11-05T17:07:07.630446+00:00",
+        "schema_version": "1.0.0",
+        "source_document_id": "86f15d01-a6df-4fe2-9b79-106a920a1ae2",
+        "text_sha256": "6f43fef76b3effddbddade1c954ca539d62678eaa5c912fda9359895262a6a44",
+        "url": "https://resultsnd.sos.nd.gov/#election=348&location=cass+county&filter=MUN&contest=1830"
+      },
+      "title": "North Dakota unofficial election-night municipal results view",
+      "subject_label": "City of Harwood Home Rule Charter Amendment",
+      "text_chars": 1099,
+      "text_scope": "Complete retained source text, not all material reachable from a portal or all future source versions.",
+      "chunks": 1,
+      "max_calls": 2,
+      "max_usd": 1.0,
+      "reservation_usd": 0.5
+    }
+  ],
+  "max_calls": 13,
+  "max_allocations_usd": 6.5,
+  "chunk_retry_policy": "Pinned bc-evidence chunk attempts remain at four; every underlying request consumes the frozen per-workspace call/USD reservation. Transport/agent repairs disabled. Caps may stop a document before all retries. No automatic reruns after terminal failure.",
+  "sampling": "Three explicitly selected, previously reviewed sources; none used in earlier Peru-only domain prompt tuning. Frozen against further tuning for this evaluation. Not independent of prior human/source review or proof of original pre-bulk chronology.",
+  "thresholds": {
+    "located_quote_fraction": 1.0,
+    "field_schema_valid_fraction": 1.0,
+    "source_supported_relevant_candidate_fraction": 0.95,
+    "required_slot_recall": 0.8,
+    "silent_high_impact_errors": 0,
+    "canonical_records_written": 0,
+    "full_text_chunk_coverage": true
+  },
+  "score_policy": "Score all distinct candidate IDs once for scoped source entailment and relevance; report off-target/ambiguous/unlocated/unsupported and reviewer disagreements separately. Required-slot recall is bounded to the declared checklist, not global discovery recall. Two CLI reviews are independent of each other; coordinator resolves with source evidence, never a majority vote. No prompt/schema tuning until results archived; no facts auto-promoted.",
+  "cli_review": {
+    "jobs": 2,
+    "model": "gpt-6.1-terra",
+    "api_calls_authorized_for_workers": 0,
+    "cost_status": "CLI cost not available from extraction API ledger; report separately as unknown."
+  },
+  "canonical_inputs_sha256": {
+    "data/moratorium_inventory.csv": "bc5b2917ef203369af22c980438d6130ac7f326a7f4bc474e77db6e7a9a12ecd",
+    "data/state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038",
+    "data/identities/expanded.jsonl": "7c135a70455fcfc374cda4568b2b9d2b4db48d9b2d52497afee34fa430607005"
+  }
+}
