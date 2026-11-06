@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-06",
   "reviewer": "coordinator",
-  "canonical_snapshot": "5a8cdf7eb44666f40aeecd1b6fe3ca077c63ad51e47c2d102210294007915c03",
+  "canonical_snapshot": "30530c1220be1a5f1f0335e36e9540e727787ec1c75837135d16b895fe45690b",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 22,
-    "groups_pending_candidate_review": 34
+    "groups_with_scoped_canonical_publication": 26,
+    "groups_pending_candidate_review": 30
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -47,12 +47,14 @@
           "staged_measure_id": "ballot-oh-001::bp-1ea389c4894805fa"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "4aae7426-c37b-4423-bfec-72bb811c3658",
+      "publication_plan": "work/research/2026-11-06/ohio-wave1-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/ohio-ballot-wave1-review/review.json",
       "primary_review_packet_sha256": "49035d03f1affeaa1ce07f1ae2e6f009dd34f0f88d71c3490f41bc60b2ca523b",
-      "primary_review_status": "scoped_primary_review_not_published"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "publication_plan_sha256": "f0eff9849429463eb8713dd53fe70ee4a63fcd47eff9f6e6c6723de145450e30",
+      "canonical_record_sha256": "9a5a46656d167dc7a14d448552b496e7cdac4cc2f21f56522c77126b0eb9089b"
     },
     {
       "logical_group_id": "bp-2013f2cb19e94d56",
@@ -426,12 +428,14 @@
           "staged_measure_id": "ballot-oh-001::bp-943b35c1711302a4"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "3523d800-bd26-4897-8046-fb1f6d7aec06",
+      "publication_plan": "work/research/2026-11-06/ohio-wave1-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/ohio-ballot-wave1-review/review.json",
       "primary_review_packet_sha256": "49035d03f1affeaa1ce07f1ae2e6f009dd34f0f88d71c3490f41bc60b2ca523b",
-      "primary_review_status": "scoped_primary_review_not_published"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "publication_plan_sha256": "f0eff9849429463eb8713dd53fe70ee4a63fcd47eff9f6e6c6723de145450e30",
+      "canonical_record_sha256": "ab4c3c1db752f6e9907414f1d18514b35f0ca67c704808f78036956e4734d2c0"
     },
     {
       "logical_group_id": "bp-97db52aa63a122b1",
@@ -549,12 +553,14 @@
           "staged_measure_id": "ballot-oh-001::bp-b9a6b281046a0d69"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "098feb4e-170b-440b-b71a-67206e73e4cf",
+      "publication_plan": "work/research/2026-11-06/ohio-wave1-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/ohio-ballot-wave1-review/review.json",
       "primary_review_packet_sha256": "49035d03f1affeaa1ce07f1ae2e6f009dd34f0f88d71c3490f41bc60b2ca523b",
-      "primary_review_status": "scoped_primary_review_not_published"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "publication_plan_sha256": "f0eff9849429463eb8713dd53fe70ee4a63fcd47eff9f6e6c6723de145450e30",
+      "canonical_record_sha256": "13de03d0d5f5bdd227e43935173a821a583c64309d7ebb4968023b50a1c962b4"
     },
     {
       "logical_group_id": "bp-bef1a7aeb6f8b09f",
@@ -683,12 +689,21 @@
           "staged_measure_id": "ballot-oh-001::bp-e99a2287017cc1a5"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "3f73bd25-a8d2-43ee-ac60-e73d8bf70565",
+      "publication_plan": "work/research/2026-11-06/ohio-wave1-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/ohio-ballot-wave1-review/review.json",
       "primary_review_packet_sha256": "49035d03f1affeaa1ce07f1ae2e6f009dd34f0f88d71c3490f41bc60b2ca523b",
-      "primary_review_status": "scoped_primary_review_not_published"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "publication_plan_sha256": "f0eff9849429463eb8713dd53fe70ee4a63fcd47eff9f6e6c6723de145450e30",
+      "canonical_record_sha256": "8886b2a0d99d4c9853f08fd5e14c8a104789d4bba0729b89430b86cc77e5107f",
+      "additional_primary_reviews": [
+        {
+          "path": "work/research/2026-11-06/ashville-ballot-identity-review/review.json",
+          "sha256": "9965d5004b103a4afa8bf9d98cbca3418d9b2a30576933130734d4d340aebdce",
+          "scope": "Exact official referendum question, petition route and term-summary scope"
+        }
+      ]
     },
     {
       "logical_group_id": "bp-f1a25834e5a28e79",

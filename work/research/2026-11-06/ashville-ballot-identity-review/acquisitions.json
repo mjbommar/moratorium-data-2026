@@ -1,0 +1,123 @@
+{
+  "scope": "Additional Ashville identity follow-up only; earlier four-case 8-fetch/4-search cohort unchanged. Exact PDF link discovered in fetched official BOE election-info HTML, followed by one direct acquisition.",
+  "phases": [
+    {
+      "directory_name": "ashville-ballot-identity-followup",
+      "caps": {
+        "fetch": 5,
+        "search_total": 2,
+        "exa": 2,
+        "serpapi": 0
+      },
+      "finished": {
+        "exa": 2,
+        "fetch": 5
+      },
+      "all_attempts_terminal": true,
+      "reported_exa_cost_usd": 0.014,
+      "attempts": [
+        {
+          "attempt_id": "bb3a636ae2d849e1b1bd01c910fc42bd",
+          "kind": "exa",
+          "query": "Ashville Resolution 06-2026 referendum ballot November 3 2026 site:boe.ohio.gov",
+          "cost_usd": 0.007,
+          "unpriced": false,
+          "finished_at": "2026-11-06T06:35:21.638065+00:00"
+        },
+        {
+          "attempt_id": "ba427c82c4e049f687ea4a4e30b5c42f",
+          "kind": "fetch",
+          "url": "https://www.boe.ohio.gov/pickaway/",
+          "final_url": "https://www.boe.ohio.gov/pickaway/",
+          "ok": true,
+          "status": 200,
+          "body_sha256": "cb68b50954ed878aa283307453866eeef153c06834d325630dcd2337f7757cd1",
+          "text_sha256": "d24c335072a0668d0c73da71a44537e66f419013e8a5854852d2ee4b87ed47b4",
+          "finished_at": "2026-11-06T06:35:22.749961+00:00"
+        },
+        {
+          "attempt_id": "34cf1dccc15e4d7da97c49676acaaba0",
+          "kind": "exa",
+          "query": "Ashville referendum Resolution 06-2026 EdgeConneX November ballot",
+          "cost_usd": 0.007,
+          "unpriced": false,
+          "finished_at": "2026-11-06T06:35:48.587936+00:00",
+          "include_domains": [
+            "ashvilleohio.gov"
+          ]
+        },
+        {
+          "attempt_id": "bd7abba5742d44a2bdc78f08036e710b",
+          "kind": "fetch",
+          "url": "https://www.boe.ohio.gov/pickaway/current-events/",
+          "final_url": "https://www.boe.ohio.gov/pickaway/current-events/",
+          "ok": true,
+          "status": 200,
+          "body_sha256": "eabf672bde1ba38603359384f17dc74cf6a9ffbd870c1a020d57dc0ddf6489aa",
+          "text_sha256": "4dfba7feb77322fca8769e7d69bc39b9f8b6aee5a000390e4cdc8ff9ca146130",
+          "finished_at": "2026-11-06T06:35:58.882772+00:00"
+        },
+        {
+          "attempt_id": "a6efa0dea3db49d191ffc572373122d4",
+          "kind": "fetch",
+          "url": "https://www.boe.ohio.gov/pickaway/election-info/",
+          "final_url": "https://www.boe.ohio.gov/pickaway/election-info/",
+          "ok": true,
+          "status": 200,
+          "body_sha256": "b921dbc53def4cfd91cfb8cd1c8cfff5ef42c210a31f72263e7590d6a9771bbd",
+          "text_sha256": "0ad080b3e608c303bcf62b451ad761281101019c9b19224f3f9cfef68fa6d23b",
+          "finished_at": "2026-11-06T06:35:58.893708+00:00"
+        },
+        {
+          "attempt_id": "847a7e24e807413ba5becc5dc22f2f98",
+          "kind": "fetch",
+          "url": "https://www.ashvilleohio.gov/page/ashville-economic-development-initiatives",
+          "final_url": "https://www.ashvilleohio.gov/page/ashville-economic-development-initiatives",
+          "ok": true,
+          "status": 200,
+          "body_sha256": "792a3d7d74ec1e0bb5ab45c34a3d9f39ac8f7e70f1b4718b0524e8831cfd0202",
+          "text_sha256": "0357b154a06634444d326aa57f71d76956f6a053709d554a4a9a3ae8c3f6d8f5",
+          "finished_at": "2026-11-06T06:36:16.121807+00:00"
+        },
+        {
+          "attempt_id": "a53855bf82db4f19a542e6c35f961712",
+          "kind": "fetch",
+          "url": "https://www.ashvilleohio.gov/documents/village-government/ordinances%2Fresolutions/resolutions/2026-resolutions/25323578",
+          "final_url": "https://www.ashvilleohio.gov/documents/village-government/ordinances%2Fresolutions/resolutions/2026-resolutions/25323578",
+          "ok": true,
+          "status": 200,
+          "body_sha256": "3c22e26d7ba2830a9314171889d232f4177bc7dca7f74fcb43af4b70c655a226",
+          "text_sha256": "c31c96f9c2a1d8ffe187b3188735b564e0fb3093f2bbbe91b19fcbe49ace8af3",
+          "finished_at": "2026-11-06T06:36:16.242835+00:00"
+        }
+      ]
+    },
+    {
+      "directory_name": "ashville-official-proof",
+      "caps": {
+        "fetch": 1,
+        "search_total": 0,
+        "exa": 0,
+        "serpapi": 0
+      },
+      "finished": {
+        "fetch": 1
+      },
+      "all_attempts_terminal": true,
+      "reported_exa_cost_usd": 0,
+      "attempts": [
+        {
+          "attempt_id": "a18f27f427e8409d84f7f27d2b21f9b9",
+          "kind": "fetch",
+          "url": "https://www.boe.ohio.gov/pickaway/c/upload/Election_BallotProofs.pdf",
+          "final_url": "https://www.boe.ohio.gov/pickaway/c/upload/Election_BallotProofs.pdf",
+          "ok": true,
+          "status": 200,
+          "body_sha256": "2d748b0ac608533641752d1525a70e15ea14d7ec0264f51af559e37b1de4d5bb",
+          "text_sha256": "d2f808a2a100c396a75e1eba02955c7b391403f9046aa255b8137ecac243ff7a",
+          "finished_at": "2026-11-06T06:36:55.200551+00:00"
+        }
+      ]
+    }
+  ]
+}
