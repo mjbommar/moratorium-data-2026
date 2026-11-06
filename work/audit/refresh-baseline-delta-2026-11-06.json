@@ -1,12 +1,12 @@
 {
   "baseline_commit": "dbaab04d84f8d679ba5a3d57bf45f32186109222",
-  "current_commit": "58eb7a3b737d01eb2c717623be1bc54cf1387c47",
+  "current_commit": "463831856a249ab48a4e923f9b5fce03d365ac8c",
   "scope": "Working inventory comparison, not a public-release comparison or complete legal-force verification. Ballot measures have a separate denominator.",
   "tables": {
     "local": {
       "path": "data/moratorium_inventory.csv",
       "baseline_sha256": "7d6d252da231ec8e00fb4bba37489629f931cc9bd2bdaae796ee9c6d77e3f4c7",
-      "current_sha256": "da3ed44a85adcf24734ed1a17fea491a8ebeb9e1d4e977b40cdd31e7d47326f9",
+      "current_sha256": "5e426b46072a44b008391e4931ba8679602543cd73478fdfe77c1ec70b3944b2",
       "before_total": 1291,
       "after_total": 1293,
       "before_status_counts": {
@@ -3272,17 +3272,21 @@
         {
           "record_id": "mi-elmwood-township-tuscola-county-2026",
           "fields": {
+            "date_enacted": {
+              "before": "2026-02-18 (Township Board adopted an ordinance enacting a temporary data center moratorium by unanimous roll call, after tabling it on 2026-01-21; per draft minutes reported by Tuscola Today)",
+              "after": "February 18, 2026: official township minutes record unanimous adoption of the original data-center moratorium ordinance after changing its proposed term from twelve to nine months; actual publication/effective date remains unresolved."
+            },
             "duration": {
               "before": "Nine months (amended down from a proposed 12 months) under the original Feb. 18, 2026 ordinance; superseded before expiry by a fresh 12-month moratorium under Resolution No. 2026.06.17.A, adopted June 17, 2026, which also added cryptocurrency mining facilities to the covered uses",
-              "after": "Legacy combined record reports nine months for the February ordinance and twelve months for June Resolution 2026.06.17.A; separate original/successor terms and identities require reconciliation."
+              "after": "Original Ordinance 2026-01 specifies nine calendar months from its effective date, or until amended/new data-center regulations take effect, whichever occurs first. June 17 minutes separately record Resolution 2026.06.17.A titled a twelve-month moratorium on data centers and cryptocurrency mining; complete resolution and original/successor relationship remain unresolved."
             },
             "legal_basis": {
               "before": "Township ordinance/resolution enacting a temporary nine-month moratorium on data centers, adopted 2026-02-18 (ordinance number not reported); superseded before its expiry by Resolution No. 2026.06.17.A, adopted 2026-06-17, imposing a fresh 12-month moratorium on data centers and cryptocurrency mining facilities, adopted alongside a reaffirmation of the Planning Commission's establishment under the Michigan Planning Enabling Act, to make the moratorium 'more legally defensible if challenged in court'",
-              "after": "Legacy record identifies a February 18, 2026 ordinance followed by Resolution 2026.06.17.A, reported adopted June 17 for data centers and cryptocurrency mining. [VERIFY executed texts, separate instrument identities and exact successor relationship.]"
+              "after": "Township-hosted Ordinance No. 2026-01 cites 1945 PA 246, MCL 41.181 et seq.; February 18, 2026 minutes record adoption with a nine-month term. June 17 official minutes record adoption of Resolution 2026.06.17.A for data centers and cryptocurrency mining. [VERIFY: publication, complete June resolution, separate instrument identities and exact successor relationship.]"
             },
             "current_status": {
               "before": "Extended as of 2026-09-23. The original nine-month data center moratorium ordinance (adopted 2026-02-18) was superseded, before its own term would have expired, by Resolution No. 2026.06.17.A, adopted 2026-06-17, imposing a fresh 12-month moratorium on data centers AND cryptocurrency mining facilities, running to approximately 2027-06-17. Township officials said the June resolution re-grounds the pause under the Michigan Zoning Enabling Act to be 'more legally defensible if challenged in court.'",
-              "after": "Local reporting describes adoption of Resolution 2026.06.17.A on June 17 for twelve months covering data centers and cryptocurrency mining. The legacy row combines the earlier February ordinance with this later resolution; original term, legal successor relationship and separate instrument identities require reconciliation. No exact current endpoint promoted. [VERIFY: final operative interval, later modification/replacement/repeal and present legal force; classification remains provisional.]"
+              "after": "Official June 17, 2026 township minutes record adoption of Resolution 2026.06.17.A, titled a twelve-month temporary moratorium on data centers and cryptocurrency mining, with four affirmative votes and one absence. The original township-hosted Ordinance 2026-01 states nine months from publication after adoption, or earlier effective data-center regulations; February 18 minutes confirm the nine-month amendment. This legacy row still combines two actions; their legal relationship and present operative interval remain unresolved. No exact endpoint promoted. [VERIFY: publication dates, complete June resolution, later modification/replacement/repeal and current legal force; classification remains provisional.]"
             },
             "has_verify_tags": {
               "before": "False",
@@ -12708,29 +12712,29 @@
     }
   },
   "ballot_scope": {
-    "snapshot": "0d685005b249ae38e34133335851a13a751434023fb9f1997787157a01fcff6d",
+    "snapshot": "da7d8f800001601805ef55d45d22635a2dce869b20becbbb1cf399ebeddd45ce",
     "projection_path": "work/research/2026-11-05/ballot-census-review/canonical-projection-status.json",
-    "projection_sha256": "a77a42b9c82f23ef3918701dceee978dfe40439e4aa7a4ac6025390fa17a04f6",
+    "projection_sha256": "c4a95f34498468289664f69256ef0a4aa1b66e5661157c7158974dcdf43b853e",
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 29,
-    "groups_pending_candidate_review": 27,
+    "groups_with_scoped_canonical_publication": 49,
+    "groups_pending_candidate_review": 7,
     "canonical_table_counts": {
-      "ballot_measures": 29,
-      "claims": 275,
+      "ballot_measures": 49,
+      "claims": 496,
       "coverage_observations": 0,
-      "elections": 28,
+      "elections": 45,
       "instrument_events": 0,
-      "jurisdictions": 28,
+      "jurisdictions": 45,
       "local_restrictions": 0,
       "measure_instrument_links": 0,
-      "measure_provisions": 29,
-      "measure_results": 35,
-      "review_decisions": 1351,
+      "measure_provisions": 49,
+      "measure_results": 55,
+      "review_decisions": 2268,
       "search_attempts": 0,
       "search_runs": 0,
       "search_sightings": 0,
-      "source_documents": 84
+      "source_documents": 137
     }
   }
 }

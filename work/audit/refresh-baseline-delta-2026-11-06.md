@@ -1,6 +1,6 @@
 # Working refresh: baseline comparison
 
-Baseline: `dbaab04d84f8d679ba5a3d57bf45f32186109222`, whose README describes September 23, 2026. Current source revision: `58eb7a3`. This compares working repository data, not the last public release. The refresh cohort cutoff remains November 5; individual later reviews do not renew all-record freshness.
+Baseline: `dbaab04d84f8d679ba5a3d57bf45f32186109222`, whose README describes September 23, 2026. Current source revision: `4638318` (with current working-tree CSV hashes pinned in the JSON report). This compares working repository data, not the last public release. The refresh cohort cutoff remains November 5; individual later reviews do not renew all-record freshness.
 
 | Metric | Baseline | Current | Delta |
 |---|---:|---:|---:|
@@ -19,7 +19,7 @@ The current enacted policy total comprises 94 records typed as bills and one exe
 
 Two local instruments were added: `ca-hayward-2026` and `ia-dubuque-county-2026-2`. Two policy records were added: `ca-ab2469-2025-2026` and `nj-a4696-2026-2027`. No baseline IDs were removed. Of surviving baseline records, 443 local and 30 policy records have at least one changed CSV field. These are edit counts, not completed substantive reviews or newly enacted instruments.
 
-The separate ballot snapshot contains 29 reviewed measures. Of 56 frozen logical candidate groups (58 observations), 29 have scoped canonical publication and 27 remain pending. This is a reviewed subset, not a complete election census. Ballot records, unofficial returns, certification, and operative legal restrictions remain distinct.
+The separate ballot snapshot contains 49 reviewed measures. Of 56 frozen logical candidate groups (58 observations), 49 have scoped canonical publication and 7 remain pending. This is a reviewed subset, not a complete election census. Ballot records, unofficial returns, certification, and operative legal restrictions remain distinct.
 
 The historical November 5 accounting report remains a historical collection/edit snapshot. Its 440-policy denominator must not be reused as the current total.
 
