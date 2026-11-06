@@ -1,0 +1,101 @@
+{
+  "state_abbrev": "WA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wa-la-conner-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://ecode360.com/LA4813/laws/LF2779740.pdf",
+          "source_type": "ordinance",
+          "supports": "Full conditional duration clause, including whichever sooner and council termination requirement.",
+          "quote": "Section 4. Duration of Moratorium. The moratorium imposed by this ordinance shall\n\ncommence on the date of the adoption of this ordinance. As long as the Town holds a public\n\nhearing on the moratorium and adopts findings and conclusions in support of the moratorium\n\n(as contemplated by Section 5 herein), the moratorium shall not terminate until six (6) months\n\nafter the date of adoption, or at the time all of the tasks described herein have been\n\naccomplished, whichever is sooner. The Council shall make the decision to terminate the\n\nmoratorium by ordinance, and termination shall not otherwise be presumed to have occurred.",
+          "document_date": "2026-07-28"
+        },
+        {
+          "url": "https://ecode360.com/LA4813/laws/LF2779740.pdf",
+          "source_type": "ordinance",
+          "supports": "Section 3 imposes the moratorium.",
+          "quote": "moratorium on the acceptance, processing, or approval of any applications for permits or land",
+          "document_date": "2026-07-28"
+        }
+      ],
+      "notes": "Section 4 conditions its duration language on the public hearing and findings; later hearing and current force remain unverified.",
+      "confidence": 0.9,
+      "changes": {
+        "duration": {
+          "from": "Six months minimum; by its own terms the moratorium does not terminate until the Council, following the required public hearing, adopts findings and either extends or cancels it -- termination is not presumed to occur merely because six months have elapsed",
+          "to": "The ordinance imposes an immediate six-month moratorium. Subject to its hearing and findings condition, section 4 refers to six months after adoption or completion of the listed tasks, whichever is sooner; the Council decides termination by ordinance and termination is not otherwise presumed.",
+          "reason": "Section 4 does not establish a six-month minimum."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "The ordinance uses calendar months and an earlier event."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "until_event",
+          "reason": "Section 4 provides for completion of tasks or six months, whichever is sooner, subject to its stated conditions."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Six-month emergency moratorium on accepting data center permit applications within town limits, adopted 2026-07-28; a public hearing was required within roughly two months of adoption.",
+          "to": "The ordinance imposes an immediate six-month moratorium. Section 4, conditioned on hearing and supporting findings, refers to six months after adoption or completion of listed tasks, whichever is sooner, with termination by council ordinance and not otherwise presumed. It does not establish an unconditional six-month minimum. Hearing outcome, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    },
+    {
+      "moratorium_id": "wa-mount-vernon-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://mountvernonwa.gov/AgendaCenter/ViewFile/Agenda/_09232026-2244",
+          "source_type": "agenda",
+          "supports": "Packet text of proposed Ordinance 3946 anchors the maximum term to Ordinance 3943.",
+          "quote": "City Council. This ordinance shall apply for a maximum of six months from the adoption of Ordinance 3943",
+          "document_date": "2026-09-23"
+        },
+        {
+          "url": "https://mountvernonwa.gov/AgendaCenter/ViewFile/Minutes/_09232026-2244",
+          "source_type": "minutes",
+          "supports": "Scoped Ordinance 3946 discussion, additional-six-month description and 7-0 adoption.",
+          "quote": "B. Public Hearing and Approval of Ordinance \u2013 Data Center Moratorium:\n\nMr. Rogerson presented Ordinance 3946 that, if approved, will ratify\n\nand confirm the moratorium on the acceptance of applications for\n\npermits for data centers  for an additional six months.\n\nMayor Donovan opened the public hearing. Hearing no\n\ncomments, Mayor Donovan closed the public hearing.\n\nCouncil will continue discussions of next steps at an upcoming\n\nCommittee meeting.\n\nCouncilmember Hudson moved to continue the\n\nmoratorium on the acceptance of applications for\n\npermits for data centers with the adoption of\n\nOrdinance 3946. Motion seconded by\n\nCouncilmember Tercero.  Motion passed 7-0.",
+          "document_date": "2026-09-23"
+        }
+      ],
+      "notes": "Minutes describe an additional six months, while packet ordinance text anchors a six-month maximum to Ordinance 3943; the code index lists March 23, 2027. Signed text and reconciliation of these conflicts, later action, and current force remain unresolved. No end date is asserted.",
+      "confidence": 0.9,
+      "changes": {
+        "legal_basis": {
+          "from": "Mount Vernon Ordinance No. 3943, adopted 2026-08-12, declaring an emergency and imposing a moratorium on accepting permit applications for data centers; public hearing required within 60 days per RCW 36.70A.390",
+          "to": "Mount Vernon Ordinance No. 3943 adopted August 12, 2026 imposed a data-center permit application moratorium; the council adopted Ordinance No. 3946 on September 23, 2026 continuing it. The packet text and minutes differ on the term anchor.",
+          "reason": "Add the documented continuation without resolving contradictory term descriptions."
+        },
+        "duration": {
+          "from": "Six months",
+          "to": "Ordinance 3943 established a six-month moratorium. The September 23 minutes describe an additional six months, but the Ordinance 3946 packet text specifies a maximum of six months from adoption of Ordinance 3943; the applicable end remains unresolved.",
+          "reason": "Primary sources conflict about term."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "The legal text uses calendar months and term remains disputed."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "unknown",
+          "reason": "Term anchor is disputed between the ordinance packet and minutes."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Six-month moratorium on data center permit applications, adopted 2026-08-12 (Councilmember Andrew Vander Stoep dissenting); no data centers had been proposed in Mount Vernon as of adoption. A public hearing was required within 60 days of adoption.",
+          "to": "September 23 minutes record Ordinance 3946 adoption 7-0 and describe an additional six months. The unexecuted packet text instead specifies a maximum six months from adoption of Ordinance 3943 and also includes legislative-process/termination provisions. Final executed wording, term anchor, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    }
+  ],
+  "new_candidates": []
+}

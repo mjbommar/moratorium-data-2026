@@ -380,14 +380,14 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-07-28, Town Council unanimous vote adopting an emergency moratorium (likely Ordinance No. 1274, per the ordinance-number tracker shown on the July 28, 2026 council agenda; the draft ordinance text itself left the number blank)
 - **Normalized date:** `2026-07-28` (exact)
-- **Duration:** Six months minimum; by its own terms the moratorium does not terminate until the Council, following the required public hearing, adopts findings and either extends or cancels it -- termination is not presumed to occur merely because six months have elapsed
+- **Duration:** The ordinance imposes an immediate six-month moratorium. Subject to its hearing and findings condition, section 4 refers to six months after adoption or completion of the listed tasks, whichever is sooner; the Council decides termination by ordinance and termination is not otherwise presumed.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wa-la-conner-2026`
 - **Legal basis:** La Conner Town Council emergency ordinance (likely No. 1274) adopted 2026-07-28 under RCW 35.63.200 and RCW 36.70A.390, effective immediately
 - **What prompted it:** Town lacks guidelines/policies addressing data centers' large-scale water and electricity use, which could strain public infrastructure, deplete water resources during drought, and constrain industrial growth/climate resilience; adopted following Skagit County's June 2026 moratorium
 - **Affected projects:** None proposed as of adoption
-- **Detailed status:** Active as of 2026-09-23. Six-month emergency moratorium on accepting data center permit applications within town limits, adopted 2026-07-28; a public hearing was required within roughly two months of adoption.
+- **Detailed status:** The ordinance imposes an immediate six-month moratorium. Section 4, conditioned on hearing and supporting findings, refers to six months after adoption or completion of listed tasks, whichever is sooner, with termination by council ordinance and not otherwise presumed. It does not establish an unconditional six-month minimum. Hearing outcome, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** La Conner Town Council unanimously adopted an emergency six-month moratorium on data center applications on 2026-07-28, following Skagit County's example.
 
 ### Lincoln County
@@ -444,14 +444,14 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-08-12, City Council vote (one dissent) for a six-month moratorium, Ordinance No. 3943
 - **Normalized date:** `2026-08-12` (exact)
-- **Duration:** Six months
+- **Duration:** Ordinance 3943 established a six-month moratorium. The September 23 minutes describe an additional six months, but the Ordinance 3946 packet text specifies a maximum of six months from adoption of Ordinance 3943; the applicable end remains unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wa-mount-vernon-2026`
-- **Legal basis:** Mount Vernon Ordinance No. 3943, adopted 2026-08-12, declaring an emergency and imposing a moratorium on accepting permit applications for data centers; public hearing required within 60 days per RCW 36.70A.390
+- **Legal basis:** Mount Vernon Ordinance No. 3943 adopted August 12, 2026 imposed a data-center permit application moratorium; the council adopted Ordinance No. 3946 on September 23, 2026 continuing it. The packet text and minutes differ on the term anchor.
 - **What prompted it:** Concerns over electricity and water demand, city capacity to accommodate large facilities, stormwater/sewer planning, and the city's location within the Skagit River 100-year floodplain
 - **Affected projects:** None proposed as of adoption; future data center permit applications citywide
-- **Detailed status:** Active as of 2026-09-23. Six-month moratorium on data center permit applications, adopted 2026-08-12 (Councilmember Andrew Vander Stoep dissenting); no data centers had been proposed in Mount Vernon as of adoption. A public hearing was required within 60 days of adoption.
+- **Detailed status:** September 23 minutes record Ordinance 3946 adoption 7-0 and describe an additional six months. The unexecuted packet text instead specifies a maximum six months from adoption of Ordinance 3943 and also includes legislative-process/termination provisions. Final executed wording, term anchor, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Mount Vernon City Council adopted a six-month moratorium on data center permit applications via Ordinance No. 3943 on 2026-08-12, following Skagit County (June 2026) and La Conner (July 2026).
 
 ### North Bend
