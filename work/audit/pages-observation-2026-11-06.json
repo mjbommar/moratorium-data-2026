@@ -1,0 +1,36 @@
+{
+  "observed_at": "2026-11-06T12:49:45.682442+00:00",
+  "expected_commit": "da30c8956a393e507252cff7446ab937d4300988",
+  "base_url": "https://mjbommar.github.io/moratorium-data-2026/",
+  "paths": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 40844,
+      "sha256": "b84cec6ce3b5fe3fcb0edef3ddeb26b727e4c681540576dd8f653de3222bef98",
+      "expected_sha256": "47cb47597d52a1aecd60228c05dd27593cd4f500b285b2ecbb10cdfbd322319a",
+      "matches_pushed_commit": false
+    },
+    {
+      "path": "data/moratorium_inventory.csv",
+      "status": 200,
+      "bytes": 1615429,
+      "sha256": "7d6d252da231ec8e00fb4bba37489629f931cc9bd2bdaae796ee9c6d77e3f4c7",
+      "expected_sha256": "5e426b46072a44b008391e4931ba8679602543cd73478fdfe77c1ec70b3944b2",
+      "matches_pushed_commit": false
+    },
+    {
+      "path": "data/state_legislation.csv",
+      "status": 200,
+      "bytes": 241688,
+      "sha256": "01b6def1c452388ffe134266d0dc0e91a729b2e4bfb483afdfc451bdbb75d847",
+      "expected_sha256": "27eee237f17c11843bc81736c5333563483a4bf450b0aa95b0f553162585b5e5",
+      "matches_pushed_commit": false
+    },
+    {
+      "path": "docs/ballot-results.html",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "scope": "Direct HTTP byte observations only; build status and complete site/link validation are separate."
+}

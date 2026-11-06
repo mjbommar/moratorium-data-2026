@@ -1,0 +1,40 @@
+{
+  "observed_at": "2026-11-06T12:50:11.412315+00:00",
+  "expected_commit": "da30c8956a393e507252cff7446ab937d4300988",
+  "base_url": "https://mjbommar.github.io/moratorium-data-2026/",
+  "paths": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 38870,
+      "sha256": "47cb47597d52a1aecd60228c05dd27593cd4f500b285b2ecbb10cdfbd322319a",
+      "expected_sha256": "47cb47597d52a1aecd60228c05dd27593cd4f500b285b2ecbb10cdfbd322319a",
+      "matches_pushed_commit": true
+    },
+    {
+      "path": "data/moratorium_inventory.csv",
+      "status": 200,
+      "bytes": 1665919,
+      "sha256": "5e426b46072a44b008391e4931ba8679602543cd73478fdfe77c1ec70b3944b2",
+      "expected_sha256": "5e426b46072a44b008391e4931ba8679602543cd73478fdfe77c1ec70b3944b2",
+      "matches_pushed_commit": true
+    },
+    {
+      "path": "data/state_legislation.csv",
+      "status": 200,
+      "bytes": 245898,
+      "sha256": "27eee237f17c11843bc81736c5333563483a4bf450b0aa95b0f553162585b5e5",
+      "expected_sha256": "27eee237f17c11843bc81736c5333563483a4bf450b0aa95b0f553162585b5e5",
+      "matches_pushed_commit": true
+    },
+    {
+      "path": "docs/ballot-results.html",
+      "status": 200,
+      "bytes": 36913,
+      "sha256": "f84e7ed2ebfee29976448d8325bf61e6b9dcb867b2ef7f00b24c339072a8953e",
+      "expected_sha256": "f84e7ed2ebfee29976448d8325bf61e6b9dcb867b2ef7f00b24c339072a8953e",
+      "matches_pushed_commit": true
+    }
+  ],
+  "scope": "Four direct HTTP byte observations after successful Pages build; not complete link/render coverage or final release."
+}
