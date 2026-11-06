@@ -37,6 +37,17 @@ mechanism/definition, applicability and effective-date clauses require ordinance
 review. The question summary is not substituted for executed operative text.
 [Eliot official proposed text](https://www.eliotme.gov/DocumentCenter/View/3909/Ballot-Question-5----Proposed-Ordinance---Data-Center-Moratorium-PDF).
 
+Canterbury Article 4 is an earlier measure at the March 10, 2026 annual town
+election. Its question proposes a permanent all-zone zoning prohibition, not a
+temporary moratorium. The town-posted results show 322 yes and 63 no; the derived
+385 is only yes plus no, not ballots cast. The clerk's true-copy attestation is
+not treated as a dated certification. Bindingness, passage rule, outcome and
+operative legal effect remain unresolved. The proposed definition includes
+commercial/third-party computing and cryptocurrency facilities, with on-site
+business/institutional and residential accessory-equipment exclusions.
+[Official Canterbury results](https://www.canterburynh.gov/wp-content/uploads/2026/03/Town-Meeting-Election-Results-3_10_26.pdf),
+[official proposed Article 4 text](https://www.canterburynh.gov/wp-content/uploads/2026/02/2026-Warrant-Article-4-Data-Centers.pdf).
+
 No current legal-force restriction, instrument event or measure/instrument link has
 been accepted in these initial cohorts, and their publication does not add active
 legacy moratorium rows. Other jurisdictions, earlier and future elections, legal
