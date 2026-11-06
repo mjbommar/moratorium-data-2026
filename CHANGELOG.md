@@ -2,24 +2,29 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
+Official Alaska records support two additional pending proposals: Fairbanks North
+Star Borough Ordinance 2026-42 and Petersburg Borough Ordinance 2026-24. Referral
+and first-reading agenda evidence establish proposals, not enactment. Operative
+dates and coordinates remain blank; active/extended totals are unchanged.
+
 Edgewater’s proposed charter prohibition now has a separate restriction identity
 and accepted `proposes` ballot link. Legal status and adoption/effective dates
 remain unknown; no adoption event, in-force ban or headline-count increase is
 inferred. The public results view displays relationship review separately from
 legal status. All earlier records remain unchanged.
 
-Current totals are 1,293 local instruments (1,071 classified active or extended,
-67 pending, 155 past) and 442 state-policy records (95 classified enacted).
+Current totals are 1,295 local instruments (1,071 classified active or extended,
+69 pending, 155 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1293** |
+| Moratoria in the list | **1295** |
 | Classified active or extended | **1071** |
-| Pending or not yet effective | **67** |
+| Pending or not yet effective | **69** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **666** |
+| Rows we still want to confirm (`[VERIFY]`) | **668** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained

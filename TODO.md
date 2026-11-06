@@ -186,6 +186,8 @@ Exit: accepted pilot report and separately authorized bounded collection scope.
 
 Exit: every seed has a documented disposition; evidence gaps are visible rather than silently omitted.
 
+- [x] Review Alaska discovery proposals against official referral/first-reading records and six PDF pages; add two pending instruments with no operative dates, preserve all 1,293 prior records and verify replay (`alaska-discovery-review/`). The explicit 185-candidate ledger retains 183 unreviewed proposals.
+
 ## P6 — Public release and sibling handoff
 
 Completed closure increments (the broader gates below remain open):

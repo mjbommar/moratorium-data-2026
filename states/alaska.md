@@ -3,15 +3,33 @@
 
 Working inventory for Alaska, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**1 instrument** — 1 in force, 0 pending, 0 past.
+**3 instruments** — 1 in force, 2 pending, 0 past.
 
 State policy is tracked separately: **3 actions** (3 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
+| Fairbanks North Star Borough | County | Unverified | data center | 🟡 Pending |
 | Houston | City | 2026-10-08 | data center | 🟢 Active |
+| Petersburg Borough | County | Unverified | data center | 🟡 Pending |
 
 ## Detailed entries
+
+### Fairbanks North Star Borough
+
+- **Type:** County
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Unknown; proposed term not established by the reviewed referral memorandum.
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ak-fairbanks-north-star-borough-undated`
+- **Legal basis:** Ordinance No. 2026-42
+- **What prompted it:** —
+- **Affected projects:** —
+- **Detailed status:** Proposed Ordinance 2026-42 was referred to the Planning Commission at the October 22, 2026 assembly meeting. [VERIFY full ordinance text, proposed term, subsequent action and adoption not established by the reviewed action memorandum; coordinates await review]
+- **Outcome:** —
 
 ### Houston
 
@@ -28,6 +46,22 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Affected projects:** No specific data center project is proposed or approved within Houston city limits; concern centers on a proposed AIDEA industrial/energy district on state land bordering Houston, Willow, and Meadow Lakes that lists data centers among possible future uses.
 - **Detailed status:** Adopted unanimously on 2026-10-08 and signed by the mayor. Section 6 makes the ordinance effective upon passage and signature for two years from that effective date, subject to earlier repeal or extension. The signature is undated; exact effective and expiration dates and any subsequent action remain unverified. [VERIFY exact signature/effective date and later status]
 - **Outcome:** Ordinance 26-20 adopted unanimously on 2026-10-08; the mayor signed the published ordinance. Exact signature and expiration dates are unverified.
+
+### Petersburg Borough
+
+- **Type:** County
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Proposed through September 30, 2027, unless extended by Assembly resolution or earlier repealed; no operative end date accepted.
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ak-petersburg-borough-undated`
+- **Legal basis:** Ordinance No. 2026-24
+- **What prompted it:** Proposed review of electrical capacity, generator use, cooling and other data-center impacts.
+- **Affected projects:** —
+- **Detailed status:** Proposed Ordinance 2026-24 appears for first reading in the November 2, 2026 agenda packet, with an unsigned five-page draft. It targets specified grid-capacity, generator and cooling conditions, not every data center. [VERIFY actual reading votes, final adoption, later amendments and legal force not established; coordinates await review]
+- **Outcome:** —
 
 ---
 

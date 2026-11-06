@@ -1003,6 +1003,7 @@
       "work/audit/apply-20261106T072244.json": "d767e79ca12eafff94c06098a51e17a563db9558770ee6a3806059b74764cd86",
       "work/audit/apply-20261106T081729.json": "484115e2e9e1511fb76337b4c4bcca399ee28f2ad52a8a355cf08bd1013fde6a",
       "work/audit/apply-20261106T082807.json": "4cfc37950941dee97be2ba3f7ea8a1010bbf6c8711f7f64b98831152705ace46",
+      "work/audit/apply-20261106T092341.json": "c1e747793080e8453c70869f7f11f70cf66d47d666f2ee3f4b51f2583565366c",
       "work/audit/apply-legislation-20261105T114314.json": "222b8a24cbb2138216bd3e87d508fc67d5a3bafac2674429a58099a189e8204b",
       "work/audit/apply-legislation-20261106T000259.json": "563c37c423b64cc6d3eb8fe74f13b278bf8de357ec02c766e79c5d59a69b39a5",
       "work/audit/apply-legislation-20261106T000919.json": "c596af153305ab0135f215ac66482fce77d0dc38613ddf2a33d39a238dbcc3ea",
@@ -1011,7 +1012,7 @@
       "work/audit/apply-legislation-20261106T002343.json": "cce6016ebcee83046dcca9422bea0e45d3fed3379ae19232fdc174c7798eacdc",
       "work/audit/apply-legislation-20261106T084519.json": "2b8d7a459a25ac991a8a7ddde95f14b8c770f48cf86ceeb32677f8b814b81638"
     },
-    "moratorium_inventory.csv": "ef4a688ec8571fbd9c16369fee717d9e7a3986f098284b0f0dca7a1dbf998121",
+    "moratorium_inventory.csv": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1",
     "state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038"
   },
   "scope": "Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. This is not the completed freshness funnel required for release.",
@@ -1021,16 +1022,16 @@
   "not_started_jobs": 0,
   "tables": {
     "inventory": {
-      "total": 1293,
+      "total": 1295,
       "collection_counts": {
         "returned_unresolved": 782,
         "returned_other_outcome": 501,
-        "excluded_completed_pilot": 8,
-        "not_assigned_in_this_queue": 2
+        "not_assigned_in_this_queue": 4,
+        "excluded_completed_pilot": 8
       },
       "editorial_counts": {
         "no_refresh_apply_change": 845,
-        "has_refresh_apply_change": 448
+        "has_refresh_apply_change": 450
       },
       "records": [
         {
@@ -1408,6 +1409,18 @@
           ]
         },
         {
+          "record_id": "ak-fairbanks-north-star-borough-undated",
+          "state": "AK",
+          "collection_stage": "not_assigned_in_this_queue",
+          "jobs": [],
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T092341.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
+          "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
+          "applied_field_lineage": []
+        },
+        {
           "record_id": "ak-houston-undated",
           "state": "AK",
           "collection_stage": "returned_other_outcome",
@@ -1496,6 +1509,18 @@
               "current_matches_last_applied_value": true
             }
           ]
+        },
+        {
+          "record_id": "ak-petersburg-borough-undated",
+          "state": "AK",
+          "collection_stage": "not_assigned_in_this_queue",
+          "jobs": [],
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T092341.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
+          "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
+          "applied_field_lineage": []
         },
         {
           "record_id": "az-pima-county-2026",

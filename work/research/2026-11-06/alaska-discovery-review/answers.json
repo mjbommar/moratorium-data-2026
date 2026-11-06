@@ -1,0 +1,91 @@
+{
+  "state_abbrev": "AK",
+  "researched_as_of": "2026-11-05",
+  "researcher": "Coordinator source review of returned gpt-6.1-terra discovery job; reviewed 2026-11-06",
+  "decisions": [],
+  "new_candidates": [
+    {
+      "state": "Alaska",
+      "jurisdiction": "Fairbanks North Star Borough",
+      "jurisdiction_type": "County",
+      "legal_basis": "Ordinance No. 2026-42",
+      "duration": "Unknown; proposed term not established by the reviewed referral memorandum.",
+      "duration_kind": "unknown",
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Proposed Ordinance 2026-42 was referred to the Planning Commission at the October 22, 2026 assembly meeting. [VERIFY full ordinance text, proposed term, subsequent action and adoption not established by the reviewed action memorandum; coordinates await review]",
+      "enacted_status": "pending",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://fnsb.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=13379,plainText=false)",
+          "title": "October 22 assembly action memo",
+          "source_type": "minutes",
+          "supports": "Identifies the ordinance.",
+          "quote": "ORDINANCE NO. 2026-42."
+        },
+        {
+          "url": "https://fnsb.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=13379,plainText=false)",
+          "title": "October 22 assembly action memo",
+          "source_type": "minutes",
+          "supports": "Records referral.",
+          "quote": "-Referred to the Planning Commission with a recommendation due back in 90"
+        }
+      ],
+      "notes": "Reviewed discovery proposal only; not an enacted moratorium or ballot measure. Borough represented as County in legacy enum. Later adoption and geography remain unverified.",
+      "date_enacted_iso": "",
+      "date_enacted": "",
+      "current_end_date_iso": "",
+      "date_enacted_uncertainty": "unverified"
+    },
+    {
+      "state": "Alaska",
+      "jurisdiction": "Petersburg Borough",
+      "jurisdiction_type": "County",
+      "legal_basis": "Ordinance No. 2026-24",
+      "duration": "Proposed through September 30, 2027, unless extended by Assembly resolution or earlier repealed; no operative end date accepted.",
+      "duration_kind": "until_date",
+      "sectors": [
+        "data_center"
+      ],
+      "current_status": "Proposed Ordinance 2026-24 appears for first reading in the November 2, 2026 agenda packet, with an unsigned five-page draft. It targets specified grid-capacity, generator and cooling conditions, not every data center. [VERIFY actual reading votes, final adoption, later amendments and legal force not established; coordinates await review]",
+      "enacted_status": "pending",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://petersburgak.api.civicclerk.com/v1/Meetings/GetMeetingFileStream%28fileId=1923,plainText=false%29",
+          "title": "Assembly agenda packet",
+          "source_type": "agenda",
+          "supports": "Identifies proposed instrument.",
+          "quote": "Development - First Reading"
+        },
+        {
+          "url": "https://petersburgak.api.civicclerk.com/v1/Meetings/GetMeetingFileStream%28fileId=1923,plainText=false%29",
+          "title": "Assembly agenda packet",
+          "source_type": "agenda",
+          "supports": "Specifies proposed expiration and three readings.",
+          "quote": "If this ordinance is approved in three readings, a temporary moratorium"
+        },
+        {
+          "url": "https://petersburgak.api.civicclerk.com/v1/Meetings/GetMeetingFileStream%28fileId=1923,plainText=false%29",
+          "title": "Assembly agenda packet",
+          "source_type": "ordinance",
+          "supports": "Unsigned proposed ordinance Section 2 and Section 6 state the proposed expiration; not an operative end date.",
+          "quote": "September 30, 2027"
+        }
+      ],
+      "notes": "Reviewed discovery proposal only; not an enacted moratorium or ballot measure. Borough represented as County in legacy enum. Later adoption and geography remain unverified.",
+      "date_enacted_iso": "",
+      "date_enacted": "",
+      "current_end_date_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "trigger": "Proposed review of electrical capacity, generator use, cooling and other data-center impacts.",
+      "trigger_categories": [
+        "grid_energy",
+        "water",
+        "regulatory_gap"
+      ]
+    }
+  ]
+}
