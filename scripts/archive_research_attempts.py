@@ -84,6 +84,12 @@ def import_attempts(directory, state, apply=False, raw_root=None):
                "text_method": "bc_research.pipeline.document_text via bounded research client",
                "files": [str(x.relative_to(ROOT)) for x in [raw_path, text_path]],
                "attempt_id": e["attempt_id"], "published": False}
+        if 'from_cache' in e or 'revalidated' in e or 'body_observed_at' in e:
+            row['retrieval_observation']={
+                'from_cache':e.get('from_cache'), 'origin_revalidated':e.get('revalidated'),
+                'body_observed_at':e.get('body_observed_at'),
+                'origin_attempt_statuses':e.get('origin_attempt_statuses',[]),
+                'scope':'Retrieval/cache lineage only; not renewed factual or legal-force acceptance.'}
         if public_url!=e['url'] or final_url!=e['final_url']:
             row['retrieval_url_sha256']=hashlib.sha256(e['url'].encode()).hexdigest()
             row['access_note']='Retrieved through a publicly linked signed download; refresh via its public portal. The unsigned resource identifier may not be directly retrievable.'

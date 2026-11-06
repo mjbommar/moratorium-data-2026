@@ -38,6 +38,22 @@ Raw source copies remain private; public hashes and review excerpts follow the
 source-tracking policy. Do not promote a CAPTCHA response or search snippet as a
 successful primary acquisition.
 
+## Conditional HTTP recrawl
+
+Use `fetch --mode http --conditional-cache` for static source URLs in a bounded
+job. The client uses bc-web's native private cache with zero TTL, origin
+revalidation on every call and a 100 MB size cap. A repeated request still consumes
+its fetch reservation. HTTP 304 can materialize an earlier 200 body; the ledger
+separately records `from_cache`, `revalidated`, origin attempt statuses and the
+original `body_observed_at`. Do not turn cache reuse into a fresh factual acceptance.
+
+Archive versions remain immutable when body/text hashes are unchanged; new
+acquisition observations remain in the attempt ledger. New archived cached versions
+retain body-observation/cache metadata. Dynamic browser portals require their own
+render/API review and cannot use this HTTP-only option. The [live pilot](../work/research/2026-11-06/conditional-cache-pilot/README.md)
+verified a 200/304 round trip without changing canonical facts. Due-work rules and
+source-specific decisions determine when to recrawl; no schedule is installed.
+
 ## JavaScript portals and JSON endpoints
 
 For a bounded job, `fetch --mode browser --settle-ms 5000 --record-network`

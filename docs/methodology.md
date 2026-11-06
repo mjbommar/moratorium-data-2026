@@ -345,6 +345,13 @@ Attempt ledgers retain request outcomes, provider costs, content hashes and sour
 versions. Challenged or failed acquisitions remain failures. Search hits do not
 establish qualification, adoption, certification or absence.
 
+Static HTTP sources can use bc-web's conditional cache with zero TTL: every call
+contacts the origin, while a 304 reuses the retained body. The original body time,
+cache flags and origin status remain separate from the new attempt. Existing
+archive versions are not rewritten merely because revalidation occurred. The
+[live cache pilot](../work/research/2026-11-06/conditional-cache-pilot/README.md)
+verified this behavior without accepting new legal or factual findings.
+
 For JavaScript portals, optional pydoll network recording exposes the page's
 actual subrequest URLs and methods. These are discovery leads, not content proof.
 A separate bounded acquisition retains the API response body and its own version

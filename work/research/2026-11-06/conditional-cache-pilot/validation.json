@@ -1,0 +1,41 @@
+{
+  "state": "passed",
+  "acquisitions": [
+    {
+      "attempt_id": "0b9b8c9606bc476992e0eb5871cf07f7",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/summary_stats.json",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "d713a246c2376368495e3fecfc7a11377e2c0e3ec6f310b5ea9a9cc7f4fb0f2e",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "from_cache": false,
+      "revalidated": false,
+      "body_observed_at": "2026-11-06T14:03:03.507492Z",
+      "origin_attempt_statuses": [
+        200
+      ],
+      "cache_policy": "private job cache; ttl0; origin revalidation each call; 100MB cap"
+    },
+    {
+      "attempt_id": "6c2e4ec3bd2e4efb95c7014ca495d043",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/summary_stats.json",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "d713a246c2376368495e3fecfc7a11377e2c0e3ec6f310b5ea9a9cc7f4fb0f2e",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "from_cache": true,
+      "revalidated": true,
+      "body_observed_at": "2026-11-06T14:03:03.507492Z",
+      "origin_attempt_statuses": [
+        304
+      ],
+      "cache_policy": "private job cache; ttl0; origin revalidation each call; 100MB cap"
+    }
+  ],
+  "fetch_reservations_consumed": 2,
+  "body_bytes_and_original_observation_time_preserved": true,
+  "canonical_changes": 0,
+  "scope": "Real HTTP conditional-cache behavior against our public derived summary; not independent factual review or legal-force/source-freshness acceptance.",
+  "tests_passed": 162,
+  "test_log_sha256": "0a8a681c8a30a90ef7181ff853d08e6726b9bfd7f1fa69a3607a5e0ff04b9544"
+}

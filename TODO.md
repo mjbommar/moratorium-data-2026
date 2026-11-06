@@ -234,6 +234,8 @@ Exit: fresh, reproducible release with reconciled data/prose, a verified publish
 
 ## P7 — Maintenance
 
+- [x] Exercise bc-web conditional HTTP caching with an actual 200/304 round trip, preserved body time and immutable archive tests (`conditional-cache-pilot/`); adaptive revisit policy remains open.
+
 - [ ] Implement due-work rules for qualification, elections, certification/recounts, implementation and expiry.
 - [ ] Add conditional/adaptive recrawl while preserving prior observations and cached-body limitations.
 - [ ] Exercise an end-to-end correction and refresh cycle manually.

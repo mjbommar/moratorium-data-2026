@@ -19,6 +19,8 @@ class ClientTests(unittest.TestCase):
             script=Path(__file__).resolve().parents[1]/'scripts/research_client.py'
             for args in (['fetch','https://example.invalid','--mode','http','--settle-ms','5000'],
                          ['fetch','https://example.invalid','--mode','http','--record-network'],
+                         ['fetch','https://example.invalid','--mode','browser','--conditional-cache'],
+                         ['fetch','https://example.invalid','--conditional-cache'],
                          ['search','query','--backend','gdelt','--domain','example.invalid']):
                 result=subprocess.run([sys.executable,str(script),'--directory',str(p),*args],capture_output=True,text=True)
                 self.assertEqual(result.returncode,2)

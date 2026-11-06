@@ -126,7 +126,11 @@ async def execute(args):
             if args.settle_ms is not None:controls['settle_ms']=args.settle_ms
             if args.wait_for_selector:controls['wait_for_selector']=args.wait_for_selector
             if args.record_network:controls['record_network']=True
-            async with Retriever(BcWebSettings(timeout_ms=45000)) as r:
+            settings={"timeout_ms":45000}
+            if args.conditional_cache:
+                settings.update(cache_dir=directory/'cache.private',cache_ttl_s=0,
+                                cache_max_mb=100,cache_revalidate=True)
+            async with Retriever(BcWebSettings(**settings)) as r:
                 result = await asyncio.wait_for(r.fetch(args.url, mode=args.mode,
                     **controls), timeout=85)
             payload = result.model_dump(mode="json", exclude={"raw", "pdf"})
@@ -139,6 +143,12 @@ async def execute(args):
                             body_sha256=hashlib.sha256(raw).hexdigest(),
                             text_sha256=hashlib.sha256(text.encode()).hexdigest())
             if args.mode=='browser':metadata['browser_controls']=controls
+            metadata.update(from_cache=result.from_cache,revalidated=result.revalidated,
+                            body_observed_at=payload.get('fetched_at'))
+            if args.conditional_cache:
+                metadata['cache_policy']='private job cache; ttl0; origin revalidation each call; 100MB cap'
+                metadata['origin_attempt_statuses']=[a.get('status') for a in payload.get('attempts',[]) if a.get('status') is not None]
+                metadata['freshness_scope']='Body reuse/revalidation only; no substantive source or legal-force acceptance.'
         target = stem.with_suffix(stem.suffix + ".json")
         with target.open("x") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2)
@@ -163,6 +173,7 @@ if __name__ == "__main__":
     q.add_argument("--domain",dest="domains",action="append",default=[],help="Native backend include_domains filter; repeat for multiple domains. Exa sends includeDomains, SerpAPI compiles site operators. Returned hosts are diagnosed.")
     f = s.add_parser("fetch"); f.add_argument("url"); f.add_argument("--mode", choices=["http", "auto", "browser"], default="auto")
     f.add_argument('--settle-ms',type=int,choices=range(0,15001),metavar='0..15000',help='Bounded additional browser settle time for JavaScript portals')
+    f.add_argument('--conditional-cache',action='store_true',help='HTTP only: use private job cache with zero TTL and conditional origin revalidation; never refresh legal facts automatically')
     f.add_argument('--record-network',action='store_true',help='Retain browser subrequest metadata privately for portal endpoint discovery')
     f.add_argument('--wait-for-selector',help='Wait for a known rendered CSS selector in explicit browser mode')
     args=p.parse_args()
@@ -170,4 +181,6 @@ if __name__ == "__main__":
         p.error('--domain is supported only for Exa and SerpAPI in this client')
     if args.action=='fetch' and (args.settle_ms is not None or args.wait_for_selector or args.record_network) and args.mode!='browser':
         p.error('browser wait controls require --mode browser')
+    if args.action=='fetch' and args.conditional_cache and args.mode!='http':
+        p.error('--conditional-cache requires explicit --mode http')
     asyncio.run(execute(args))
