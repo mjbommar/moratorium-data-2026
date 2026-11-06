@@ -54,6 +54,7 @@ Exit: ballot cases fit without conflating votes, legal force or legacy counts.
 - [x] Implement HTTP/browser escalation and bounded PDF/office-document collection.
 - [ ] Configure source/provider pacing, Retry-After, explicit retries and verified routing as applicable.
 - [ ] Make partial backend failure and zero-result cells distinguishable in coverage reports.
+- [x] Publish the first bounded canonical search provenance cohort (Jay: one run, three attempts, eighteen sightings, one partial coverage observation), after full evidence preflight and identity review; preserve all prior domain tables and verify exact replay. Broader migration, fusion and coverage calibration remain open (`jay-search-promotion/`).
 
 Exit: read-only dry-run and bounded acquisition produce auditable plans and attempts.
 

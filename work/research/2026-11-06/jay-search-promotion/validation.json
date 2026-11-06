@@ -1,0 +1,30 @@
+{
+  "snapshot": "3b01a2f4d33e79fff6c4b0bd7e463ceabdc65f95e1b7f0af1c4daf61a4722947",
+  "previous_snapshot": "6aa015d8410341a8a92121054fab1ed0f20b166ba0cdaa6ddf549efb90a8d301",
+  "unchanged_tables": [
+    "jurisdictions",
+    "elections",
+    "ballot_measures",
+    "measure_provisions",
+    "measure_results",
+    "local_restrictions",
+    "instrument_events",
+    "measure_instrument_links",
+    "source_documents",
+    "claims",
+    "review_decisions"
+  ],
+  "prior_records_preserved": true,
+  "publication": "applied",
+  "replay": "already_applied",
+  "scope": "First bounded canonical search cohort only; not full P2, full freshness, final release or deployment.",
+  "legacy_csvs_byte_unchanged": true,
+  "native_tests": {
+    "count": 204,
+    "result": "passed"
+  },
+  "data_site_check": "passed",
+  "documented_number_checks": 53,
+  "privacy": "No private source text tracked; staged files checked",
+  "csv_projection": "4c6ab075186a187b09452b9cb43cd8fe89055d6479f58476955c4d03599498c7"
+}

@@ -1,0 +1,248 @@
+{
+  "packet": {
+    "schema_version": "review-search-provenance-1",
+    "scope": "Review only. No canonical IDs, source acceptance, rank fusion or jurisdiction-wide completeness asserted. Missing query/window for failed or interrupted legacy reservations remains unknown.",
+    "ledger_sha256": "88253b2cc393fdd71600f384d11a9de66e57ac8c4f934549a88034975761ff7c",
+    "exchange_ledger_sha256": "346a3d7c4a62ef0583dd4617e423d775904939f6b56a679b11bcdff74e1e71e3",
+    "attempts": [
+      {
+        "attempt_id": "0d2f7c70a1174c809ac1de213e71cc49",
+        "backend": "serpapi",
+        "started_at": "2026-11-06T18:52:19.689667+00:00",
+        "client_sha256": "3c3707fc7fc3a9e36ad7ee3dbc9ba6ceaedc8a3090db05c822f84eea301e1d7e",
+        "config_sha256": "f38fb69f6d619cec0c95c9614fd229b5d518bb9b6d9e557a4460b914249f54cf",
+        "outcome": "success",
+        "query": "Jay Maine November 2026 special town meeting warrant solar moratorium official town",
+        "spend_usd": null,
+        "response_sha256": "f86c2fd8223e3c38cd60f7f2486a4ec5b1d59d7b111418dfe69969c58d4d5029",
+        "hit_count": 6,
+        "exchanges": [
+          {
+            "status": 200,
+            "original_body_sha256": "677b36950d857e192271b1f9d0a5996ddd451ec98b76c99dc3648bd4d88e812d",
+            "stored_body_sha256": "677b36950d857e192271b1f9d0a5996ddd451ec98b76c99dc3648bd4d88e812d",
+            "redacted": false
+          }
+        ],
+        "error_type": null,
+        "publication_window": {
+          "since": null,
+          "until": null
+        },
+        "declined": null
+      },
+      {
+        "attempt_id": "6b9dd767a5d84341bdccb59fe8bd9de6",
+        "backend": "exa",
+        "started_at": "2026-11-06T18:53:04.372722+00:00",
+        "client_sha256": "3c3707fc7fc3a9e36ad7ee3dbc9ba6ceaedc8a3090db05c822f84eea301e1d7e",
+        "config_sha256": "f38fb69f6d619cec0c95c9614fd229b5d518bb9b6d9e557a4460b914249f54cf",
+        "outcome": "success",
+        "query": "site:jay-maine.org \"2026\" \"November\" \"results\" solar",
+        "spend_usd": 0.007,
+        "response_sha256": "583c4c0df51b716c03230d2035f804d6bf8bdeb3e09fec41ed3732d7bbc6e73e",
+        "hit_count": 6,
+        "exchanges": [
+          {
+            "status": 200,
+            "original_body_sha256": "c5c66616510988a6c5329186c98b9e9c3b35291abadd29441282c8465a88e402",
+            "stored_body_sha256": "c5c66616510988a6c5329186c98b9e9c3b35291abadd29441282c8465a88e402",
+            "redacted": false
+          }
+        ],
+        "error_type": null,
+        "publication_window": {
+          "since": null,
+          "until": null
+        },
+        "declined": null
+      },
+      {
+        "attempt_id": "70b8b306d1e046628e689967ede20500",
+        "backend": "exa",
+        "started_at": "2026-11-06T18:52:06.852595+00:00",
+        "client_sha256": "3c3707fc7fc3a9e36ad7ee3dbc9ba6ceaedc8a3090db05c822f84eea301e1d7e",
+        "config_sha256": "f38fb69f6d619cec0c95c9614fd229b5d518bb9b6d9e557a4460b914249f54cf",
+        "outcome": "success",
+        "query": "Jay Maine November 3 2026 Article 3 solar moratorium official results warrant",
+        "spend_usd": 0.007,
+        "response_sha256": "dbcf8c6bc0faf38c88b67da3761796700a796ece919d3e1a2673bf62dc4d578f",
+        "hit_count": 6,
+        "exchanges": [
+          {
+            "status": 200,
+            "original_body_sha256": "9231cb9347bb8abd6d4ee2bca6e4f11ec54aa9df85faa240e2af2e9976aee39a",
+            "stored_body_sha256": "9231cb9347bb8abd6d4ee2bca6e4f11ec54aa9df85faa240e2af2e9976aee39a",
+            "redacted": false
+          }
+        ],
+        "error_type": null,
+        "publication_window": {
+          "since": null,
+          "until": null
+        },
+        "declined": null
+      }
+    ],
+    "sightings": [
+      {
+        "attempt_id": "0d2f7c70a1174c809ac1de213e71cc49",
+        "returned_order": 1,
+        "provider_position": 1,
+        "url": "https://www.facebook.com/terry.perkinsyoung/posts/if-you-woild-like-to-sign-the-citizen-petition-torequest-a-moratorium-on-the-pro/10217108612463833/",
+        "seen_at": "2026-11-06T18:52:20.929712+00:00"
+      },
+      {
+        "attempt_id": "0d2f7c70a1174c809ac1de213e71cc49",
+        "returned_order": 2,
+        "provider_position": 2,
+        "url": "https://www.sturbridge.gov/AgendaCenter/ViewFile/Agenda/_11102026-451",
+        "seen_at": "2026-11-06T18:52:20.929712+00:00"
+      },
+      {
+        "attempt_id": "0d2f7c70a1174c809ac1de213e71cc49",
+        "returned_order": 3,
+        "provider_position": 3,
+        "url": "https://www.google.com/goto?url=CAEShAEBxCJF14MVQjA-8qTAmmR0uYGxUpUvvlFO_CM_-0-_GN-oMYXwFNKO0MvH68aWlSH0A3A8yrVcIMnkuUQtSXRKyDpA3wKSXyXjrJ9egqpHOTerXf8ptguCcACNbTPdNVhX_y4AWj4esQ_nCIimIZ0SahYWq7ufCTmXTJyBbYx7215RhHE",
+        "seen_at": "2026-11-06T18:52:20.929712+00:00"
+      },
+      {
+        "attempt_id": "0d2f7c70a1174c809ac1de213e71cc49",
+        "returned_order": 4,
+        "provider_position": 4,
+        "url": "https://www.google.com/goto?url=CAESggEBxCJF1zE3XNn5Kemernspnb3gdpY-SuMositAmgsxQ08vNx2gIgFt9taJCyaObsZk7Y8sj8DXt2eOIMHkfFQ4l7edHo50MqrAijD9dRr6H_RDIbAKSJnOm6umiOu0tzREv4XENKLa32UgKkt1DHeS0N3XAcqUwtAIClOkQNiVhdbq",
+        "seen_at": "2026-11-06T18:52:20.929712+00:00"
+      },
+      {
+        "attempt_id": "0d2f7c70a1174c809ac1de213e71cc49",
+        "returned_order": 5,
+        "provider_position": 5,
+        "url": "https://www.google.com/goto?url=CAESpwEBxCJF14xrMjM9rj-YTWBGNmaDiYmhz4pE3HVHtWt1w7_nqSTE1Iea6DGfuMqP3lIRIvnx5iDjZA8_Px8o1rZtrGpWzGcOHKTLkEMRKnw1QC489EPpU-FuhJkmPdAOihtK5mtFF1KMetC52vEH7xEqacX1bpR1EwzM4U3QBvia68dWQDVd9phhkYQsJNt79C2FVjZPCfTGg3xqZiku1u0199T7h3hxUw",
+        "seen_at": "2026-11-06T18:52:20.929712+00:00"
+      },
+      {
+        "attempt_id": "0d2f7c70a1174c809ac1de213e71cc49",
+        "returned_order": 6,
+        "provider_position": 6,
+        "url": "https://www.google.com/goto?url=CAEShQEBxCJF11Yj6t4SY-xCQ0UNFxjt7ZQE2lDQoWucJnn4lPmCiV4QihsQO7w4GpCkvKOIc3DlwWwwSvnQreAzxWGxACh90VHolDHl_ov5j8TZSMW1egQRCFk3lEar-oCMH5cXpcsVHk--1EVueNH08cCXi0dogz-3ZnvjcSawvX4eMPEY320t",
+        "seen_at": "2026-11-06T18:52:20.929712+00:00"
+      },
+      {
+        "attempt_id": "6b9dd767a5d84341bdccb59fe8bd9de6",
+        "returned_order": 1,
+        "provider_position": 1,
+        "url": "https://www.jay-maine.org/warrant-for-november-3-2026-special-town-meeting/",
+        "seen_at": "2026-11-06T18:53:06.456704+00:00"
+      },
+      {
+        "attempt_id": "6b9dd767a5d84341bdccb59fe8bd9de6",
+        "returned_order": 2,
+        "provider_position": 2,
+        "url": "https://www.jay-maine.org/wp-content/uploads/2026/09/Minutes-9-14-2026.pdf",
+        "seen_at": "2026-11-06T18:53:06.456704+00:00"
+      },
+      {
+        "attempt_id": "6b9dd767a5d84341bdccb59fe8bd9de6",
+        "returned_order": 3,
+        "provider_position": 3,
+        "url": "https://www.jay-maine.org/wp-content/uploads/2026/09/Minutes-8-10-2026.pdf",
+        "seen_at": "2026-11-06T18:53:06.456704+00:00"
+      },
+      {
+        "attempt_id": "6b9dd767a5d84341bdccb59fe8bd9de6",
+        "returned_order": 4,
+        "provider_position": 4,
+        "url": "https://www.jay-maine.org/wp-content/uploads/2026/09/Minutes-9-1-2026.pdf",
+        "seen_at": "2026-11-06T18:53:06.456704+00:00"
+      },
+      {
+        "attempt_id": "6b9dd767a5d84341bdccb59fe8bd9de6",
+        "returned_order": 5,
+        "provider_position": 5,
+        "url": "https://www.jay-maine.org/wp-content/uploads/2026/09/Minutes-8-24-2026.pdf",
+        "seen_at": "2026-11-06T18:53:06.456704+00:00"
+      },
+      {
+        "attempt_id": "6b9dd767a5d84341bdccb59fe8bd9de6",
+        "returned_order": 6,
+        "provider_position": 6,
+        "url": "https://www.jay-maine.org/wp-content/uploads/2026/10/Minutes-9-28-2026.pdf",
+        "seen_at": "2026-11-06T18:53:06.456704+00:00"
+      },
+      {
+        "attempt_id": "70b8b306d1e046628e689967ede20500",
+        "returned_order": 1,
+        "provider_position": 1,
+        "url": "https://www.sunjournal.com/2026/11/04/jay-voters-approve-lot-rent-ordinance-solar-moratorium/",
+        "seen_at": "2026-11-06T18:52:08.221466+00:00"
+      },
+      {
+        "attempt_id": "70b8b306d1e046628e689967ede20500",
+        "returned_order": 2,
+        "provider_position": 2,
+        "url": "https://www.jay-maine.org/warrant-for-november-3-2026-special-town-meeting/",
+        "seen_at": "2026-11-06T18:52:08.221466+00:00"
+      },
+      {
+        "attempt_id": "70b8b306d1e046628e689967ede20500",
+        "returned_order": 3,
+        "provider_position": 3,
+        "url": "https://www.pressherald.com/voter-guide/referendums/jay-commercial-solar-moratorium/",
+        "seen_at": "2026-11-06T18:52:08.221466+00:00"
+      },
+      {
+        "attempt_id": "70b8b306d1e046628e689967ede20500",
+        "returned_order": 4,
+        "provider_position": 4,
+        "url": "https://www.sunjournal.com/2026/09/15/jay-voters-to-decide-rent-stabilization-solar-moratorium-nov-3/",
+        "seen_at": "2026-11-06T18:52:08.221466+00:00"
+      },
+      {
+        "attempt_id": "70b8b306d1e046628e689967ede20500",
+        "returned_order": 5,
+        "provider_position": 5,
+        "url": "https://www.jay-maine.org/wp-content/uploads/2026/09/Minutes-9-1-2026.pdf",
+        "seen_at": "2026-11-06T18:52:08.221466+00:00"
+      },
+      {
+        "attempt_id": "70b8b306d1e046628e689967ede20500",
+        "returned_order": 6,
+        "provider_position": 6,
+        "url": "https://themainemonitor.org/jay-solar-farm-moratorium-november-ballot/",
+        "seen_at": "2026-11-06T18:52:08.221466+00:00"
+      }
+    ],
+    "summary": {
+      "search_attempts": 3,
+      "successful_zero_hit_attempts": 0,
+      "failed_attempts": 0,
+      "interrupted_attempts": 0,
+      "partial_attempts": 0,
+      "priced_subtotal_usd": 0.014,
+      "unpriced_attempts": 1
+    }
+  },
+  "legacy_attempt_to_canonical": {
+    "0d2f7c70a1174c809ac1de213e71cc49": "fbd9f572-8cfd-4491-aaa3-b32defd8cdff",
+    "6b9dd767a5d84341bdccb59fe8bd9de6": "9ddeebd4-5835-4eb8-b3ba-a024bff58821",
+    "70b8b306d1e046628e689967ede20500": "eb06d3fd-a004-45c6-a018-f9839f3d580e"
+  },
+  "new_record_counts": {
+    "jurisdictions": 0,
+    "elections": 0,
+    "ballot_measures": 0,
+    "measure_provisions": 0,
+    "measure_results": 0,
+    "local_restrictions": 0,
+    "instrument_events": 0,
+    "measure_instrument_links": 0,
+    "source_documents": 0,
+    "claims": 0,
+    "review_decisions": 0,
+    "search_runs": 1,
+    "search_attempts": 3,
+    "search_sightings": 18,
+    "coverage_observations": 1
+  },
+  "prior_records_preserved": true
+}
