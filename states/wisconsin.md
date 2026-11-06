@@ -490,14 +490,14 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** September 15, 2026 (County Board approval, 27-1 vote)
 - **Normalized date:** `2026-09-15` (exact)
-- **Duration:** 18 months
+- **Duration:** 18 months from publication, or until board amendment or rescission (draft wording; final adopted text not located)
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-sauk-county-2026`
 - **Legal basis:** Sauk County data center moratorium ordinance (ordinance number not located in reviewed sources)
 - **What prompted it:** County has no specific zoning mechanism for data centers; officials want time to research the industry and draft zoning guardrails before any project comes forward; explicitly applies only in areas under county zoning authority.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; adopted 27-1 on September 15, 2026. Legal counsel drafted the measure with an 18-month term (rather than 12) based on case law treating 12-18 months as a reasonable moratorium period; applies only in areas where Sauk County has zoning authority, not within cities/villages. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Detailed status:** The official preliminary text proposes eighteen months from publication or earlier county-board amendment/rescission. September 16 news reports board approval 27-1 for county-zoned areas. Final adopted instrument number, signed wording, publication, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 18-month moratorium on new data center applications/zoning approvals in county-zoned areas.
 
 ### Sawyer County
@@ -522,14 +522,14 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** June 24, 2026 (County Board adoption, following a June 3, 2026 public hearing)
 - **Normalized date:** `2026-06-24` (exact)
-- **Duration:** 12 months
+- **Duration:** 12 months from effective date, unless sooner repealed, modified, or extended
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-shawano-county-2026`
 - **Legal basis:** Shawano County Board data center moratorium (approved moratorium document); resolution/ordinance number not captured in sources reviewed
 - **What prompted it:** Pause on siting, construction, establishment, or expansion of data centers in unincorporated towns using county zoning; pending requests held in abeyance, existing valid approvals exempt.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31.
+- **Detailed status:** The county-posted approved text specifies twelve months from effectiveness unless sooner repealed, modified or extended, limited to unincorporated towns accepting county zoning authority. Previously issued valid approvals are excepted, while subsequent modifications are subject to the pause. News reports June 24 adoption. Publication/posting, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 12-month moratorium on data centers in county-zoned towns.
 
 ### St. Croix County

@@ -1,0 +1,108 @@
+{
+  "state_abbrev": "WI",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wi-sauk-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.co.sauk.wi.us/node/132287",
+          "title": "Sauk proposed moratorium text",
+          "document_date": "2026-08-20",
+          "source_type": "agenda",
+          "supports": "Draft states calendar term, publication anchor, and earlier-action clause; not final adopted text.",
+          "quote": "The moratorium shall be in effect for a period of eighteen (18) months from the date this ordinance is published (i.e. its effective date) or until the County Board adopts amendments to this ordinance or rescinds this moratorium."
+        },
+        {
+          "url": "https://www.wmtv15news.com/2026/09/16/sauk-county-approves-18-month-moratorium-new-data-centers/",
+          "title": "WMTV Sauk County moratorium",
+          "document_date": "2026-09-16",
+          "source_type": "news",
+          "supports": "Reports board adoption.",
+          "quote": "The Sauk County Board approved the moratorium 27-1 Tuesday night."
+        }
+      ],
+      "notes": "Draft text and contemporaneous reporting support calendar-month term; adopted instrument number, publication, final wording and subsequent action remain unresolved.",
+      "changes": {
+        "duration": {
+          "from": "18 months",
+          "to": "18 months from publication, or until board amendment or rescission (draft wording; final adopted text not located)",
+          "reason": "Calendar-term or instrument correction supported by evidence; current legal force is not asserted."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "unknown",
+          "reason": "Draft calendar wording and news approval do not establish final executed term/publication."
+        },
+        "duration_days": {
+          "from": "548",
+          "to": "",
+          "reason": "Calendar-term or instrument correction supported by evidence; current legal force is not asserted."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; adopted 27-1 on September 15, 2026. Legal counsel drafted the measure with an 18-month term (rather than 12) based on case law treating 12-18 months as a reasonable moratorium period; applies only in areas where Sauk County has zoning authority, not within cities/villages. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+          "to": "The official preliminary text proposes eighteen months from publication or earlier county-board amendment/rescission. September 16 news reports board approval 27-1 for county-zoned areas. Final adopted instrument number, signed wording, publication, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Official page is preliminary text; final ordinance number and adopted text not verified."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "wi-shawano-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.co.shawano.wi.us/i/f/files/Updated%20Moratorium%20approved%20by%20County%20Board.pdf",
+          "title": "Shawano approved moratorium ordinance",
+          "document_date": "",
+          "source_type": "ordinance",
+          "supports": "Text specifies twelve months from effective date; next lines permit earlier repeal, modification, or extension.",
+          "quote": "This moratorium shall remain in effect for twelve (12) months from the"
+        },
+        {
+          "url": "https://www.newmedia-wi.com/board-adopts-moratorium-data-center-development",
+          "title": "Shawano board adoption report",
+          "document_date": "2026-06-26",
+          "source_type": "news",
+          "supports": "Reports adoption and jurisdictional scope.",
+          "quote": "Members of the Shawano County Board on June 24 adopted a 12-month moratorium"
+        }
+      ],
+      "notes": "Official text states twelve months from effective date, subject to earlier action or extension. Publication/posting and later action remain unverified.",
+      "changes": {
+        "duration": {
+          "from": "12 months",
+          "to": "12 months from effective date, unless sooner repealed, modified, or extended",
+          "reason": "Calendar-term or instrument correction supported by evidence; current legal force is not asserted."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Calendar-term or instrument correction supported by evidence; current legal force is not asserted."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Calendar-term or instrument correction supported by evidence; current legal force is not asserted."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31.",
+          "to": "The county-posted approved text specifies twelve months from effectiveness unless sooner repealed, modified or extended, limited to unincorporated towns accepting county zoning authority. Previously issued valid approvals are excepted, while subsequent modifications are subject to the pause. News reports June 24 adoption. Publication/posting, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    }
+  ],
+  "new_candidates": []
+}
