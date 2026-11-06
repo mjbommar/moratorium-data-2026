@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Visual evidence verification now supports original native PNG sources alongside PDF renders. Receipts pin original bytes and dimensions, reject transformations and container corruption, and preserve existing claim/source review gates. Peru’s town-posted results image passes the evidence audit; this exercise does not publish a new canonical measure or certify its result.
+
 Wells Article 5 adds a seventh reviewed expanded measure with 5,818 yes / 1,282 no / 459 blanks, certified November 4. The warrant’s 100,000-square-foot proposal remains distinct from an incomplete agenda draft; 180 days from June 16 applicability is separate from November enactment/effectiveness. Passage outcome and current legal force remain unresolved; legacy counts are unchanged.
 
 North Berwick Question 2 adds a sixth reviewed expanded measure with clerk-certified 2,114 yes / 582 no on November 3. The proposed permanent prohibition retains its cumulative computing-use/aggregate-area definition, associated impervious surfaces and strict accessory-use exclusion. Passage outcome and operative legal force remain unresolved; legacy moratorium counts are unchanged.

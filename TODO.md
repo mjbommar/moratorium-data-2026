@@ -80,6 +80,7 @@ Exit: read-only dry-run and bounded acquisition produce auditable plans and atte
 - [x] Review Wells Article 5 certified counts and retroactive terms; distinguish the warrant’s 100,000-square-foot proposal from the separate blank-threshold agenda draft (`wells-ballot-review/`).
 - [x] Publish Wells Article 5 submitted terms and certified yes/no/blank counts; retain June16duration anchor and reconcile seven published / 49 pending ballot groups (`wells-promotion/`).
 - [x] Recover Peru’s official native-image Article 2 results through bc-web/SerpAPI; verify 578yes/182no, separate 774 total voters, and review proposed 180-day/effectiveness terms (`peru-ballot-review/`).
+- [x] Support original native-PNG visual evidence, rejecting transforms/dimension/body drift; exercise the real Peru results image through the evidence audit (`peru-native-image-review/`).
 - [ ] Complete broader promotion/recovery calibration and the remaining ballot identity/fact reviews; the initial Eliot batch does not close P3.
 - [ ] Extend evidence archive/publication gates to new records and source payload types.
 - [ ] Add behavioral regression checks from plan section 11 (initial subset includes offline publication/receipt drift, historical identity baselines and portable-pointer checks; full gate coverage pending).

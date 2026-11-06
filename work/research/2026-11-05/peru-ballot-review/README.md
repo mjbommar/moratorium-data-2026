@@ -46,3 +46,8 @@ The PNG must remain the authoritative source rather than being silently converte
 to a synthetic PDF. Passage rule/outcome, certification, formal placement,
 bindingness, operative dates/later force and legacy-instrument linkage remain
 unresolved. This packet changes no canonical record or moratorium tally.
+
+The subsequent [native-image evidence exercise](../peru-native-image-review/README.md)
+adds and tests direct original-PNG receipt verification. That implementation gap
+is closed; canonical identity/field/publication review and legal-history gaps
+remain open.

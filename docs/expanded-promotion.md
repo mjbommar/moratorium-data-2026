@@ -62,6 +62,16 @@ are explicit CLI inputs, not recursively discovered. Integrity errors fail the w
 batch. Visual receipts must use canonical claim fingerprints; candidate receipts
 cannot be reused after changing IDs without a separately verified mapping/review.
 
+PDF receipts pin `pdftoppm`, page, DPI and reproduced image hash. Native PNG
+receipts instead use `render_parameters: {"renderer": "native-png", "width": W,
+"height": H}` and `pdf_page: null`. Their `render_sha256` must equal the original
+source-body hash: no crop, scaling, synthetic PDF or other transformation is
+accepted. The verifier checks PNG container/chunk checksums and dimensions,
+then compares the retained bytes. This verifies evidence identity, not pixel
+interpretation, reviewer authenticity, result certification or legal effect.
+[Peru's real native-image exercise](../work/research/2026-11-05/peru-native-image-review/README.md)
+records a successful evidence audit without canonical publication.
+
 ```sh
 ~/projects/bc/bc-modules/.venv/bin/python scripts/expanded_promotion.py \
   --candidate REVIEWED_TABLE_DIRECTORY --plan REVIEWED_PLAN.json \

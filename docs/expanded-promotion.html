@@ -248,6 +248,15 @@ bounded-client evidence or a verified visual-review receipt. Evidence directorie
 are explicit CLI inputs, not recursively discovered. Integrity errors fail the whole
 batch. Visual receipts must use canonical claim fingerprints; candidate receipts
 cannot be reused after changing IDs without a separately verified mapping/review.</p>
+<p>PDF receipts pin <code>pdftoppm</code>, page, DPI and reproduced image hash. Native PNG
+receipts instead use <code>render_parameters: {"renderer": "native-png", "width": W,
+"height": H}</code> and <code>pdf_page: null</code>. Their <code>render_sha256</code> must equal the original
+source-body hash: no crop, scaling, synthetic PDF or other transformation is
+accepted. The verifier checks PNG container/chunk checksums and dimensions,
+then compares the retained bytes. This verifies evidence identity, not pixel
+interpretation, reviewer authenticity, result certification or legal effect.
+<a href="../work/research/2026-11-05/peru-native-image-review/index.html">Peru's real native-image exercise</a>
+records a successful evidence audit without canonical publication.</p>
 <pre><code class="language-sh">~/projects/bc/bc-modules/.venv/bin/python scripts/expanded_promotion.py \
   --candidate REVIEWED_TABLE_DIRECTORY --plan REVIEWED_PLAN.json \
   --evidence-directory PRIVATE_RETAINED_JOB_DIRECTORY

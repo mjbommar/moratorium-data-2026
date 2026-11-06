@@ -47,3 +47,59 @@ class VisualReview(unittest.TestCase):
         with patch('visual_claim_review.render_hash',return_value='different-image-hash'):
             with self.assertRaisesRegex(ValueError,'could not be reproduced'):
                 verify(self.claim,self.source,self.index,self.review)
+
+
+class NativePngReview(VisualReview):
+    def setUp(self):
+        super().setUp()
+        import struct
+        import zlib
+        def chunk(kind,payload):
+            return (struct.pack('>I',len(payload))+kind+payload+
+                    struct.pack('>I',zlib.crc32(kind+payload)&0xffffffff))
+        raw=(b'\x89PNG\r\n\x1a\n'+chunk(b'IHDR',struct.pack('>IIBBBBB',2,1,8,2,0,0,0))+
+             chunk(b'IDAT',zlib.compress(b'\x00\xff\x00\x00\x00\xff\x00'))+chunk(b'IEND',b''))
+        self.bind_body(raw)
+        self.review.update(pdf_page=None,render_sha256=self.source['body_sha256'],
+            render_parameters={'renderer':'native-png','width':2,'height':1})
+
+    def bind_body(self,raw):
+        self.body.write_bytes(raw);h=hashlib.sha256(raw).hexdigest()
+        self.source['body_sha256']=h;self.index[self.source['url']][0]['body_sha256']=h
+        self.review['source_body_sha256']=h
+
+    # Parent cases exercise PDF rendering; native cases below exercise its own path.
+    def test_reproduces_reviewed_page_parameters(self):
+        with patch('visual_claim_review.render_hash') as render:
+            self.assertTrue(verify(self.claim,self.source,self.index,self.review))
+            render.assert_not_called()
+
+    def test_different_render_is_not_accepted(self):
+        self.review['render_sha256']='a transformed image hash'
+        with self.assertRaisesRegex(ValueError,'original untransformed'):
+            verify(self.claim,self.source,self.index,self.review)
+
+    def test_crop_or_pdf_page_is_not_accepted(self):
+        self.review['render_parameters']['crop']=[0,0,1,1]
+        with self.assertRaisesRegex(ValueError,'parameters'):
+            verify(self.claim,self.source,self.index,self.review)
+        del self.review['render_parameters']['crop'];self.review['pdf_page']=1
+        with self.assertRaisesRegex(ValueError,'parameters'):
+            verify(self.claim,self.source,self.index,self.review)
+
+    def test_dimension_drift_is_not_accepted(self):
+        self.review['render_parameters']['width']=3
+        with self.assertRaisesRegex(ValueError,'dimensions differ'):
+            verify(self.claim,self.source,self.index,self.review)
+
+    def test_non_png_bytes_are_not_accepted_even_with_matching_hashes(self):
+        self.bind_body(b'%PDF not a native PNG')
+        self.review['render_sha256']=self.source['body_sha256']
+        with self.assertRaisesRegex(ValueError,'not PNG'):
+            verify(self.claim,self.source,self.index,self.review)
+
+    def test_corrupt_container_is_not_accepted_even_with_matching_hashes(self):
+        raw=bytearray(self.body.read_bytes());raw[20]^=1;self.bind_body(raw)
+        self.review['render_sha256']=self.source['body_sha256']
+        with self.assertRaisesRegex(ValueError,'checksum'):
+            verify(self.claim,self.source,self.index,self.review)
