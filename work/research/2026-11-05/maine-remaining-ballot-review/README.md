@@ -103,3 +103,13 @@ certification, legal passage, final enacted term/date, later force and canonical
 identity/field/publication gates remain open. Native JPEG support and an explicit
 source-vote-category representation are needed before promoting those observations.
 No canonical dataset or legacy moratorium tally changes in this recovery packet.
+
+## Source-category contract exercise
+
+`freedom-source-category-exercise.json` pins a private copy of the worker
+candidate used to exercise the additive `source_vote_categories` and
+`source_vote_totals` fields. It preserves VOIDS 24 and the Article 3 circled
+470 total with exact, same-result/source claim values. Blank votes and ballots
+cast remain null; 446 remains yes plus no. The schema exercise passed and
+original worker/canonical snapshots are unchanged. This is not native-JPEG
+verification, authenticated certification or canonical publication.

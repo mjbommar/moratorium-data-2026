@@ -107,6 +107,23 @@ def validate(directory, moratoria=None, state_actions=None):
                 for field, method in r.get('value_methods', {}).items():
                     if field not in r: err(w, f'value method references absent field {field}')
                     for cid in method['claim_ids']: exists('claims',cid,w)
+                for field,predicate in [('source_vote_categories','source_vote_category'),
+                                        ('source_vote_totals','source_vote_total')]:
+                    seen=set()
+                    for item in r.get(field,[]):
+                        label=(item['label'],item.get('scope'))
+                        if label in seen: err(w,f'duplicate {field} label/scope')
+                        seen.add(label)
+                        if not item['label'].strip() or ('scope' in item and not item['scope'].strip()):
+                            err(w,f'{field} requires nonblank label/scope')
+                        expected={k:v for k,v in item.items() if k!='claim_ids'}
+                        for cid in item['claim_ids']:
+                            exists('claims',cid,w)
+                            c=rows['claims'].get(cid)
+                            if c and (c['subject']!={'table':'measure_results','id':key}
+                                      or c['source_document_id']!=r['source_document_id']
+                                      or c['predicate']!=predicate or c['value']!=expected):
+                                err(w,f'{field} claim {cid} must match exact result, source, predicate and label/count/scope')
                 check_result(r,w,rows,err)
     # Accepted evidence is scoped to a specific claim predicate; link acceptance additionally
     # needs a decision for that exact relation and claim subjects matching the link.

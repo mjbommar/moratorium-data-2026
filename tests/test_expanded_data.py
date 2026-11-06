@@ -40,6 +40,58 @@ class ExpandedContracts(unittest.TestCase):
         self.assertEqual(self.validate(), [])
         self.assertIsNone(provision['duration']['anchor_date'])
 
+    def source_categories(self):
+        r=self.tables['measure_results'][0]
+        r.update(valid_votes=None,ballots_cast=None,source_yes_percent=None,
+                 percentage_denominator='unknown',calculated_outcome='unknown',
+                 reported_outcome='unknown',outcome_direction='unresolved')
+        self.tables['claims']=[]
+        for field,predicate,value in [
+            ('source_vote_categories','source_vote_category',{'label':'VOIDS','count':24}),
+            ('source_vote_totals','source_vote_total',{'label':'circled total','count':124,'scope':'question row'})]:
+            c=self.claim({'table':'measure_results','id':r['result_observation_id']},predicate)
+            c.update(claim_id=predicate,value=value)
+            self.tables['claims'].append(c)
+            r[field]=[{**value,'claim_ids':[c['claim_id']]}]
+        return r
+
+    def test_unmapped_categories_do_not_infer_denominators(self):
+        r=self.source_categories()
+        self.assertEqual(self.validate(),[])
+        self.assertIsNone(r['ballots_cast'])
+        self.assertIsNone(r.get('blank_votes'))
+        self.assertIsNone(r['valid_votes'])
+
+    def test_source_category_claim_must_match_value_target_and_source(self):
+        self.source_categories();c=self.tables['claims'][0]
+        for field,bad in [('value',{'label':'VOIDS','count':25}),
+                          ('subject',{'table':'ballot_measures','id':'synthetic-question'}),
+                          ('source_document_id','different-source')]:
+            original=c[field];c[field]=bad
+            self.assertTrue(any('must match exact result' in e for e in self.validate()))
+            c[field]=original
+        c['predicate']='blank_votes'
+        self.assertTrue(any('must match exact result' in e for e in self.validate()))
+
+    def test_source_category_requires_existing_claim(self):
+        r=self.source_categories();r['source_vote_categories'][0]['claim_ids']=['absent']
+        self.assertTrue(any('unknown claims reference' in e for e in self.validate()))
+
+    def test_duplicate_source_label_and_forced_mapping_rejected(self):
+        r=self.source_categories()
+        r['source_vote_categories'].append({**r['source_vote_categories'][0],'count':25})
+        self.assertTrue(any('duplicate source_vote_categories' in e for e in self.validate()))
+        r['source_vote_categories'].pop()
+        r['source_vote_categories'][0]['mapped_as']='blank_votes'
+        self.assertTrue(self.validate())
+
+    def test_negative_source_count_and_blank_scope_rejected(self):
+        r=self.source_categories();r['source_vote_categories'][0]['count']=-1
+        self.assertTrue(self.validate())
+        r['source_vote_categories'][0]['count']=24
+        r['source_vote_totals'][0]['scope']=' '
+        self.assertTrue(any('nonblank' in e for e in self.validate()))
+
     def test_fixture_and_reverse_polarity(self):
         self.assertEqual(self.validate(), [])
         self.tables['measure_results'][0]['outcome_direction'] = 'facilitates'

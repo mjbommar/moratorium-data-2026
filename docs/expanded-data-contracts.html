@@ -255,7 +255,16 @@ checks arithmetic only when inputs are available, and compares reported percenta
 to the chosen denominator with 0.11 percentage point rounding tolerance.
 Optional <code>yes_no_votes</code> records the arithmetic sum without inventing total valid
 votes or turnout; <code>blank_votes</code> remains distinct from overvotes and undervotes.
-<code>value_methods</code> identifies text, OCR, visual review, source reporting or derivation
+Optional <code>source_vote_categories</code> preserve original labels/counts such as VOIDS,
+without mapping them to blanks, other votes, undervotes or overvotes. Optional
+<code>source_vote_totals</code> preserve printed totals with their original label and an
+explicit scope. Neither field supplies a denominator or changes standard counts.
+Each item requires nonnegative count and supporting claim IDs. Every claim must
+match the exact result, source document, predicate (<code>source_vote_category</code> or
+<code>source_vote_total</code>) and complete label/count/scope value. Duplicate label/scope
+entries and forced mapping keys are rejected. Absent fields remain compatible
+with earlier snapshots. Public summaries display these observations separately.</p>
+<p><code>value_methods</code> identifies text, OCR, visual review, source reporting or derivation
 per result field with supporting claim IDs. Optional provision/restriction
 <code>duration</code> distinguishes enactment, adoption, effectiveness and applicability anchors;
 no dates are equated without source/legal review. It retains calendar months/years

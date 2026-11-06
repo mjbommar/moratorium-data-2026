@@ -1,0 +1,90 @@
+{
+  "scope": "Private worker-candidate schema exercise, not canonical publication or verified legal force; native JPEG gate and source authority remain unresolved.",
+  "source_body_sha256": "7fe0c7733aa5ae5ae3eb20d6483de6a99217c3d3d758663e503d916c531e3966",
+  "candidate_files_sha256": {
+    "ballot_measures.jsonl": "79540d6914e9a7b3689db87a5eb466c251fd4ee88425033a7151c52457504552",
+    "claims.jsonl": "4ee16e133e1e96cf37a8ba72e96fde79f4b5a1c326952c67bfd07b4a118a19eb",
+    "elections.jsonl": "f532e859fbe7f1068edf1d47c27ac044373520d564fad923d7d04f4d66c02486",
+    "jurisdictions.jsonl": "f6a891ccf36415ec1704c9fb1b368881b4bffae079e815d96dff8340164ade4d",
+    "measure_provisions.jsonl": "2ed2955f72ef126e13d46baa5f17e156edf803b871d2116723d085d1db8b42bf",
+    "measure_results.jsonl": "65ae8ccdf02942099ebf16573c09782e915da2301e202dae406067d438b512b8",
+    "source_documents.jsonl": "97667ddc3b3a0bed2452fc6b7ddf25a9d33b62c20cf59bd19b8f95f868f63a28"
+  },
+  "validation_errors": [],
+  "reviewed_result_fields": {
+    "yes_votes": 331,
+    "no_votes": 115,
+    "yes_no_votes": 446,
+    "source_vote_categories": [
+      {
+        "label": "VOIDS",
+        "count": 24,
+        "claim_ids": [
+          "freedom-review-source_vote_category"
+        ]
+      }
+    ],
+    "source_vote_totals": [
+      {
+        "label": "circled total",
+        "count": 470,
+        "scope": "Article 3 question table",
+        "claim_ids": [
+          "freedom-review-source_vote_total"
+        ]
+      }
+    ],
+    "blank_votes": null,
+    "ballots_cast": null,
+    "certification_status": "unknown"
+  },
+  "claims": [
+    {
+      "schema_version": "1.0.0",
+      "claim_id": "freedom-review-source_vote_category",
+      "subject": {
+        "table": "measure_results",
+        "id": "result-freedom"
+      },
+      "predicate": "source_vote_category",
+      "value": {
+        "label": "VOIDS",
+        "count": 24
+      },
+      "source_document_id": "source-freedom-tally-photo-review",
+      "quote": null,
+      "span": "native JPEG: Article3 row totals",
+      "temporal_support": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown",
+        "original_text": null
+      },
+      "extraction_provenance": "Coordinator source-qualified visual transcription; no category mapping, denominator assignment or certification."
+    },
+    {
+      "schema_version": "1.0.0",
+      "claim_id": "freedom-review-source_vote_total",
+      "subject": {
+        "table": "measure_results",
+        "id": "result-freedom"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "circled total",
+        "count": 470,
+        "scope": "Article 3 question table"
+      },
+      "source_document_id": "source-freedom-tally-photo-review",
+      "quote": null,
+      "span": "native JPEG: Article3 row totals",
+      "temporal_support": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown",
+        "original_text": null
+      },
+      "extraction_provenance": "Coordinator source-qualified visual transcription; no category mapping, denominator assignment or certification."
+    }
+  ]
+}

@@ -41,6 +41,20 @@ def render(rows, snapshot):
         cert=result['certification_status']+((' '+result['certification_date']) if result['certification_date'] else '')
         values=[label,date,result['yes_votes'],result['no_votes'],result.get('blank_votes'),result['ballots_cast'],cert,result['reported_outcome']]
         lines.append('| '+' | '.join(cell(v) for v in values)+' |')
+    source_notes=[]
+    for result in sorted(live,key=order):
+        categories=result.get('source_vote_categories',[])
+        totals=result.get('source_vote_totals',[])
+        if not categories and not totals:continue
+        measure=rows['ballot_measures'][result['measure_id']]
+        jurisdiction=rows['jurisdictions'][measure['jurisdiction_id']]
+        source=rows['source_documents'][result['source_document_id']]
+        notes=[cell(x['label'])+': '+str(x['count'])+' (unmapped category)' for x in categories]
+        notes += [cell(x['label'])+': '+str(x['count'])+' ('+cell(x['scope'])+')' for x in totals]
+        title=jurisdiction['name']+', '+jurisdiction['state']+' — '+(measure['designation'] or measure['title'] or 'undesignated')
+        source_notes.append('- ['+cell(title)+'](<'+source['url']+'>): '+'; '.join(notes)+'.')
+    if source_notes:
+        lines += ['', 'Additional source labels and totals remain separate from blanks, valid votes and ballots cast.']+source_notes
     no_results=set(rows['ballot_measures'])-{r['measure_id'] for r in live}
     if no_results:
         lines += ['',f'{len(no_results)} reviewed measures have no current result observation; absence is not a defeated or unqualified measure.']

@@ -735,7 +735,11 @@
           ]
         },
         "outcome_direction_basis": {
-          "enum": ["calculated", "reported", "unresolved"]
+          "enum": [
+            "calculated",
+            "reported",
+            "unresolved"
+          ]
         },
         "reporting_status": {
           "enum": [
@@ -818,6 +822,77 @@
               }
             }
           }
+        },
+        "source_vote_categories": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "label",
+              "count",
+              "claim_ids"
+            ],
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "claim_ids": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "description": "Verbatim source labels and counts with exact same-result evidence; no automatic category mapping or denominator inference."
+        },
+        "source_vote_totals": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "label",
+              "count",
+              "claim_ids",
+              "scope"
+            ],
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "claim_ids": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "scope": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "description": "Verbatim source labels and counts with exact same-result evidence; no automatic category mapping or denominator inference."
         }
       },
       "required": [

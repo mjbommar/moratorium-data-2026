@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Expanded result contracts now preserve original source vote categories and scoped totals separately from standard counts and denominators. Exact result/source/claim matching is required. Freedom’s VOIDS category and circled total pass a private candidate exercise; canonical data remains unchanged by this schema increment.
+
 Peru Article 2 adds an eighth reviewed expanded measure with official town-hosted 578 yes / 182 no and proposed 180-day terms. Exact ballot wording, yes-vote direction, certification, outcome and operative legal interval remain unresolved. Native PNG evidence preserves the original source; separate total voters is not used as a question denominator. Legacy counts are unchanged.
 
 Visual evidence verification now supports original native PNG sources alongside PDF renders. Receipts pin original bytes and dimensions, reject transformations and container corruption, and preserve existing claim/source review gates. Peru’s town-posted results image passes the evidence audit; this exercise does not publish a new canonical measure or certify its result.

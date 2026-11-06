@@ -37,4 +37,12 @@ class BallotSummaryTests(unittest.TestCase):
         self.assertEqual(sum(line.startswith('| [Sabattus') for line in text.splitlines()),2)
         self.assertIn('1564 | 792',text)
 
+    def test_source_categories_and_totals_do_not_fill_blank_or_ballot_columns(self):
+        self.result['source_vote_categories']=[{'label':'VOIDS','count':24,'claim_ids':['review-stage']}]
+        self.result['source_vote_totals']=[{'label':'circled total','count':2380,'scope':'question row','claim_ids':['review-stage']}]
+        text=render(self.rows,SNAPSHOT)
+        self.assertIn('VOIDS: 24 (unmapped category)',text)
+        self.assertIn('circled total: 2380 (question row)',text)
+        self.assertIn('1565 | 791 | unknown | unknown',text)
+
 if __name__=='__main__':unittest.main()
