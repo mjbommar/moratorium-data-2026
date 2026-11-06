@@ -267,9 +267,9 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Source-body availability checkpoint
 
-The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-id-review-2026-11-06.json)
-covers 6,523 manifest entries, with hash-matching bodies available through listed
-paths for 3,080 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-ks-review-2026-11-06.json)
+covers 6,529 manifest entries, with hash-matching bodies available through listed
+paths for 3,086 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.
@@ -396,3 +396,7 @@ The [Rhode Island review](../work/research/2026-11-06/rhode-island-discovery-rev
 ## Idaho planning deadlines and operative terms
 
 The [Idaho review](../work/research/2026-11-06/idaho-discovery-review/README.md) adds Blaine County’s unsigned Ordinance 2026-05 draft as source-stage pending. Its 182-day provision directs production of a plan; no moratorium duration or endpoint is accepted. Its December 31, 2027 groundwater-plan date is also not a moratorium endpoint. Gooding’s adopted 2024 resolution differs: it explicitly terminates at 182 days or earlier interim/final regulation, but later Ordinance 117 and its legal relationship remain unreviewed. Mountain Home city is distinct from Elmore County. Bannock’s reported historical timing and replacement process, and Twin Falls’ 2023 pre-hearing proposal, require final primary actions before status acceptance.
+
+## Kansas execution, publication and predecessor gaps
+
+The [Kansas review](../work/research/2026-11-06/kansas-discovery-review/README.md) finds Harvey’s retained 2023 resolution unsigned, contrary to the worker recommendation. Harvey’s BESS county page reports July 8, while its July 15 agenda prints June 8 and presents a revised unsigned resolution for adoption/publication. Harper’s webpage date precedes its stated newspaper-publication date. Jefferson’s 2026 text prints April 14 first publication but a May 4 signed resolution date; these are not silently reconciled. Jefferson’s distinct 2025 and 2026 acts and earlier unidentified predecessors are not automatically merged. No canonical counts change.

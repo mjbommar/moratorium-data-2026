@@ -1,0 +1,190 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "canonical_changes": 0,
+  "inventory_sha256": "db362fcb6dfd8cd6667a11d06bf5f27487fbe8827ab8b161fecae0a210874158",
+  "candidates": [
+    {
+      "candidate_key": "discovery-ks:0",
+      "candidate_sha256": "a10d39c17f47c8a65656d38c029ef3205fe72b4fbd6ad2c1e2bf7aab290d1ca2",
+      "worker_review_sha256": "e261a0d1f1d7d56b38afbe4aacc86e701e20d35cce0a8a577cb104f026c78a38",
+      "coordinator_disposition": "held_execution_publication_identity_or_history",
+      "rationale": "Both retained Harvey Resolution 2023-10 PDF pages inspected: signature and attestation lines are BLANK, correcting worker description as signed. File has two pages printed 2 of 3 and 3 of 3; no complete original packet claim. Printed adoption February 21, 2023, effectiveness after adoption/publication and August 21 endpoint require execution/publication/later-action evidence. Renewable technologies are unspecified, so do not infer wind/solar coverage or merge with 2026 data-center/crypto resolution. Considering an advisory election does not establish a called or held ballot measure.",
+      "source_checks": [
+        {
+          "attempt_id": "e266942a0f944680adecc89fa5d14cf0",
+          "url": "https://www.harveycounty.gov/media/Documents/News/Resolution%202023%2010%20Commercial%20Renewable%20Energy.pdf",
+          "body_sha256": "8a827b55cbc88b739d6e16a06ac8d7dd483d3e736a61d6162fc302f8fb953f9f",
+          "text_sha256": "c02ac5b903c4f9633be0e5c782088e978b8df7dc640e76032d1ae498d7f35745",
+          "original_extraction_sha256": "c02ac5b903c4f9633be0e5c782088e978b8df7dc640e76032d1ae498d7f35745",
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected; original packet completeness not inferred from file page count.",
+            "document_pages": 2,
+            "render_command": "pdftoppm -scale-to 1450 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "107503303e48aa438631bed76b4a7fb0b910d7434db81411870935429bd3897c"
+              },
+              {
+                "page": 2,
+                "image_sha256": "d8c79a9c636706587edc5a4b883ed426533380ff8babcde01e4df893a35be1ef"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ks:1",
+      "candidate_sha256": "49e1f660ebbb52ad71c44e8e1407249bf09e8fe1a707f2c09bdfd156350e2d45",
+      "worker_review_sha256": "e261a0d1f1d7d56b38afbe4aacc86e701e20d35cce0a8a577cb104f026c78a38",
+      "coordinator_disposition": "held_execution_publication_identity_or_history",
+      "rationale": "County report says BESS resolution approved July 8 and effective immediately through January 1, 2028. July 15, 2025 agenda instead prints June 8 as earlier vote, says it was not signed, presents revised Resolution 2025-20 for adoption and requires publication. All three agenda pages inspected; revised signature lines blank. Preserve June/July conflict and original-vote/revised-draft/publication distinctions; no automatic July 15 adoption or continuous force accepted.",
+      "source_checks": [
+        {
+          "attempt_id": "910e27a5279e4f099dfb3ad03d65f305",
+          "url": "https://www.harveycounty.gov/commission-places-moratorium-on-bess-in-unincorporated-harvey-county",
+          "body_sha256": "71c534fceec916eba989192944f984ed2e46cc350c13ff74f6fa94e9d3d26942",
+          "text_sha256": "56af96c68fca3eccfecf180450ea9228dd696269e014d195814f9f4c6058fa69",
+          "original_extraction_sha256": "56af96c68fca3eccfecf180450ea9228dd696269e014d195814f9f4c6058fa69",
+          "quote": "The Commission approved a resolution to that effect at its July 8 meeting.",
+          "quote_span": [
+            158,
+            232
+          ],
+          "review_method": "Complete retained HTML text independently read; exact excerpt located."
+        },
+        {
+          "attempt_id": "39a0e956efae4edc843ab3e50bf59eb8",
+          "url": "https://harveycounty.civicweb.net/document/273855/",
+          "body_sha256": "b57d4db2553444ece6cb5fd068db39bf9d19344322c30539fbd9d03edb26ebcd",
+          "text_sha256": "718ee362b689433e8c283da325b96b8c79d21684fed37113d0bc5e7313aa84b0",
+          "original_extraction_sha256": "718ee362b689433e8c283da325b96b8c79d21684fed37113d0bc5e7313aa84b0",
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected; original packet completeness not inferred from file page count.",
+            "document_pages": 3,
+            "render_command": "pdftoppm -scale-to 1450 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "e8166af9ff79ffffc8d79c9c8c6132e78bdab79e7c0554c14060eccd9251e1d9"
+              },
+              {
+                "page": 2,
+                "image_sha256": "3c98bb11f5939114a88b34cd0978ce0162c93304d366658c47d9031c6526cdf8"
+              },
+              {
+                "page": 3,
+                "image_sha256": "c5b1ba14f04ed9c4d490eb1793e7db9384c22bd0db2bac11014c0abda6e1ad3e"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ks:2",
+      "candidate_sha256": "3a7d48e8f47a5ac11803c165d87b7e7a8d13eb11e1983a5ee92cc6567679fea4",
+      "worker_review_sha256": "e261a0d1f1d7d56b38afbe4aacc86e701e20d35cce0a8a577cb104f026c78a38",
+      "coordinator_disposition": "held_execution_publication_identity_or_history",
+      "rationale": "Complete Harper newspaper reproduction identifies Resolution 2026-10, June 1 adoption, June 11 publication and endpoint June 11, 2027; webpage dated June 10 precedes stated publication. It requires adoption plus official-newspaper publication for effect and excludes personal noncommercial systems. Final executed copy/publication evidence and later actions remain needed. Harper is not Harvey or Brown County merely because resolution numbers match.",
+      "source_checks": [
+        {
+          "attempt_id": "27c34b73962145b5afc723d8ffdbf6c7",
+          "url": "https://www.kcnonline.com/wp/2026/06/10/harper-county-resolution-2026-10/",
+          "body_sha256": "ea0004ba42c47aa722f562459be810a71aa19b13929dc1ae17e9b1be518dfa75",
+          "text_sha256": "3d84436bfa638abc6ff1c472e5d0cfd22d1961c5ae861281bb280ca5c0292daa",
+          "original_extraction_sha256": "3d84436bfa638abc6ff1c472e5d0cfd22d1961c5ae861281bb280ca5c0292daa",
+          "quote": "ADOPTED BY THE BOARD OF COUNTY COMMISSIONERS OF HARPER COUNTY, KANSAS, this 1 day of June, 2026.",
+          "quote_span": [
+            5274,
+            5370
+          ],
+          "review_method": "Complete retained HTML text independently read; exact excerpt located."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ks:3",
+      "candidate_sha256": "46ca915a7fa1c5d476a6c86c4de81aa6c8282c32b01c5dab9dd9ac30d55d5497",
+      "worker_review_sha256": "e261a0d1f1d7d56b38afbe4aacc86e701e20d35cce0a8a577cb104f026c78a38",
+      "coordinator_disposition": "held_execution_publication_identity_or_history",
+      "rationale": "All three Jefferson Resolution 2025-003 pages inspected, including January 27, 2025 signature/seal page. Wind/solar, battery/storage and non-KCC-regulated energy/transmission controls and approved Reading project exclusion are explicit; endpoint depends on board action or comprehensive-plan/zoning update. It recites an older moratorium but does not authenticate that prior act or establish immediate predecessor identity to the 2026 instrument. Preserve distinct acts; exact chain and current disposition remain unresolved.",
+      "source_checks": [
+        {
+          "attempt_id": "be6f07f7ffe640d499a1c36f879a64a2",
+          "url": "https://www.jfcountyks.com/Archive/ViewFile/Item/2083",
+          "body_sha256": "47d860efbef9631ee5ffd5a10fe54450547f90ea05a7f136aa65f3f639e6641f",
+          "text_sha256": "ee8571d4d345f6039e42c4029ef4c9f76dc1b1953ee2778a4783d3123cf67ae2",
+          "original_extraction_sha256": "ee8571d4d345f6039e42c4029ef4c9f76dc1b1953ee2778a4783d3123cf67ae2",
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected; original packet completeness not inferred from file page count.",
+            "document_pages": 3,
+            "render_command": "pdftoppm -scale-to 1450 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "1aead54b49394f1823e06e613d0f67edea9a69abe8723be794fbda35ecc69953"
+              },
+              {
+                "page": 2,
+                "image_sha256": "17e5ab5de858d646faa558148ea5be8263b0704c897ae94daee1a357675417da"
+              },
+              {
+                "page": 3,
+                "image_sha256": "935f1d20fc0add5dc73d7cd8adbfbdbc68283d0b84632e1e97332155b05ee253"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ks:4",
+      "candidate_sha256": "00645ebaa648902a3a55f50398651fcfa8b002f39256548bdcb8ebc545ae2333",
+      "worker_review_sha256": "e261a0d1f1d7d56b38afbe4aacc86e701e20d35cce0a8a577cb104f026c78a38",
+      "coordinator_disposition": "held_execution_publication_identity_or_history",
+      "rationale": "All three Jefferson Resolution 2026-010 pages inspected, including county-posted redacted signature page. Page 1 says first published April 14, 2026; page 3 handwritten resolution date reads May 4, 2026. Preserve actual source sequence conflict rather than silently correcting it. Broader wind/solar/crypto/BESS/data-center scope and event-based endpoint are explicit; the recited earlier broad pause does not identify its immediate predecessor. No automatic merger with 2025-003, exact effective date or current-force acceptance.",
+      "source_checks": [
+        {
+          "attempt_id": "c87da7a64b9646409d703b3176f9675d",
+          "url": "https://www.jfcountyks.com/Archive/ViewFile/Item/2375",
+          "body_sha256": "a0f54e0367df28b7f228330300d5d8d618409fa9589ba7073b0caafe54a684da",
+          "text_sha256": "75354d02c497588830f415966ab08d96c2c1d143296aba44431b3b93b1bf14f6",
+          "original_extraction_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "review_text_derivation": {
+            "method": "pdftoppm 120 dpi and tesseract OCR",
+            "pages": [
+              1,
+              2,
+              3
+            ],
+            "registry_sha256": "671ddd663c071ec32a41b66153c857659ac822261344d229c4ec04e3b08e282f",
+            "original_extraction_preserved": true,
+            "scope": "Registered private OCR is separate from original archive extraction; no claim it was newly imported by this body bridge."
+          },
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected; original packet completeness not inferred from file page count.",
+            "document_pages": 3,
+            "render_command": "pdftoppm -scale-to 1450 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "bd3bc21644034a0fc15aee88cbcb617c7a5697dbc193b8b5e7b05e49f8e18490"
+              },
+              {
+                "page": 2,
+                "image_sha256": "cb6fb89e9fcb89b0166ec2ba65ca91dc339d8628b7924417008445cce0df7753"
+              },
+              {
+                "page": 3,
+                "image_sha256": "ebd0d3559c812d86475ce00cfacc3b47f2b1e9123fa60a6cadb62578544d26e6"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
