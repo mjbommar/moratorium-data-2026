@@ -1,0 +1,154 @@
+{
+  "stage": "applied_and_validated_with_explicit_source_gaps",
+  "baseline_commit": "57a924536e83786db91c140cdd96d67c6bf9258e",
+  "baseline_inventory_sha256": "5d3b99ff9cb4f70cdb58bdaefaa6584b19047617dfe1e90896c52670bd5f18e5",
+  "source_proofs": [
+    {
+      "label": "wind",
+      "url": "https://ecode360.com/KE1751/laws/LF1707640.pdf",
+      "attempt_id": "74eba378f660410e8a7d61652e93aa1b",
+      "body_sha256": "ff804973c049872f8dbc00746f088ef9f7f61abe6f96d74df53a7777ce7fc337",
+      "text_sha256": "20646e6479c8d9f95d324d3295c8ff78879e70a9f5c9d934b97c94cd10cd8c3c",
+      "coordinator_reviewed_pdf_pages": [
+        1,
+        2
+      ],
+      "quote_checks": [
+        {
+          "quote": "ADOPTION DATE: December 20. 2022",
+          "span": [
+            179,
+            211
+          ]
+        },
+        {
+          "quote": "This 20th day of December 2023",
+          "span": [
+            3769,
+            3799
+          ]
+        },
+        {
+          "quote": "This Ordinance shall terminate on June 30. 2023",
+          "span": [
+            2997,
+            3044
+          ]
+        }
+      ],
+      "renders": [
+        {
+          "page": 1,
+          "sha256": "cf781fb227a9752d5ae3bfae59d7e1fa38fcc3f8451d93a36717b08148ee61fa",
+          "method": "pdftoppm original retained PDF, -scale-to1500 -png"
+        },
+        {
+          "page": 2,
+          "sha256": "c9285152cc7210bd8d5a7aa131a0fa2ec5c431c9029ee4cfcd4709d2e13cb71d",
+          "method": "pdftoppm original retained PDF, -scale-to1500 -png"
+        }
+      ]
+    },
+    {
+      "label": "solar",
+      "url": "https://ecode360.com/KE1751/laws/LF1611012.pdf",
+      "attempt_id": "4872077238f742eea31aa06450c33c3d",
+      "body_sha256": "5f04507edcfccbbf1cec5e549aaffbaccd87af10072f1d5b9a4b3139ded7bf1e",
+      "text_sha256": "6545b1b6d9776fc1c9d6f6136d89cc247c3d24d0ac4f574277b4b4229b0d7426",
+      "coordinator_reviewed_pdf_pages": [
+        1,
+        2
+      ],
+      "quote_checks": [
+        {
+          "quote": "ADOPTION DATE: August 9. 2022",
+          "span": [
+            151,
+            180
+          ]
+        },
+        {
+          "quote": "This 9th day of August 2022",
+          "span": [
+            3561,
+            3588
+          ]
+        },
+        {
+          "quote": "This Ordinance shall terminate on September 8, 2022",
+          "span": [
+            2765,
+            2816
+          ]
+        }
+      ],
+      "renders": [
+        {
+          "page": 1,
+          "sha256": "10ac7576f2afda21acf1c0aff58327f71ebfa26025719e50d793c2bd2a17256c",
+          "method": "pdftoppm original retained PDF, -scale-to1500 -png"
+        },
+        {
+          "page": 2,
+          "sha256": "876509213892f2c9b8eec610e9315c223bb1a62b8670c6aafc867e0714626ec4",
+          "method": "pdftoppm original retained PDF, -scale-to1500 -png"
+        }
+      ]
+    },
+    {
+      "label": "initial",
+      "url": "https://ecode360.com/KE1751/laws/LF1554840.pdf",
+      "attempt_id": "d2afe6b89b514080ac3c01a502935289",
+      "body_sha256": "67307e446a2a3171fd23cc827bef284772c90974c7183f349cd9f328701d2678",
+      "text_sha256": "e2b978199a4c87749f026f674d6131acaf22d08f6ba6b86134c62564f6516535",
+      "coordinator_reviewed_pdf_pages": [
+        1,
+        2
+      ],
+      "quote_checks": [
+        {
+          "quote": "ADOPTION DATE: April 26, 2022",
+          "span": [
+            133,
+            162
+          ]
+        },
+        {
+          "quote": "This Ordinance shall terminate on June 8, 2022",
+          "span": [
+            2848,
+            2894
+          ]
+        }
+      ],
+      "renders": [
+        {
+          "page": 1,
+          "sha256": "6ab5c703bc777d71a6ee1757fe59eec9210b4c762eb539f1d50c713e8a9a5f7a",
+          "method": "pdftoppm original retained PDF, -scale-to1500 -png"
+        },
+        {
+          "page": 2,
+          "sha256": "abae3124bf24bbb50aca79f8ee228efad7ffce7988fb43b35969c99f18ce00fc",
+          "method": "pdftoppm original retained PDF, -scale-to1500 -png"
+        }
+      ]
+    }
+  ],
+  "code_version": {
+    "attempt_id": "672c158149e940e7a55aa28fa80b0a34",
+    "body_sha256": "043ab6d3ac8d8a336ec5a0ae7101fb1e6ad58a7a1ae122eb3449e8a182a00f8d",
+    "text_sha256": "406e4661806fb397e1867dc9810f6efe2de1d21e28782963ccd7f105abea06b9"
+  },
+  "identity_decisions": [
+    "22-14 solar and22-20 wind are distinct numbered acts despite sharing code-section number.",
+    "Earlier22-07 solar PDF is unsigned and retains editing markup; preserve as separate unmigrated historical candidate. No predecessor/replacement relationship is accepted from the shared section number alone."
+  ],
+  "date_decisions": [
+    "22-14 adopted2022-08-09, retroactive effect2022-05-24, explicit end2022-09-08; these are separate dates.",
+    "22-20 header/code history2022versus signed footer2023; adoption ISO remains blank. Retroactive date2022-10-25 and explicit recorded end2023-06-30 are independently preserved."
+  ],
+  "scope": "Historical source-term expiry classifications only, not current enforceability or absence of later restrictions. No in-force moratorium or ballot count increase. Earlier22-07 enrollment/relationship and subsequent uncodified actions remain gaps.",
+  "apply_receipt": "work/audit/apply-20261106T103002.json",
+  "inventory_sha256": "5736fac2bba0ef390a6a30981c1e4cf261487b58e29c86df3ad777e72d78537f"
+}

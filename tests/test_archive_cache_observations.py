@@ -11,13 +11,13 @@ import archive_research_attempts as archive
 
 
 class ArchiveCacheTests(unittest.TestCase):
-    def add_event(self,directory,ident,cached):
+    def add_event(self,directory,ident,cached,url='https://example.invalid/source'):
         stem=directory/(ident+'.private');raw=b'Retained synthetic source text; no legal facts.'
         Path(str(stem)+'.body').write_bytes(raw);Path(str(stem)+'.txt').write_bytes(raw)
         event=dict(state='finished',kind='fetch',attempt_id=ident,ok=True,status=200,
                    artifact=str(stem)+'.json',body_sha256=hashlib.sha256(raw).hexdigest(),
-                   text_sha256=hashlib.sha256(raw).hexdigest(),url='https://example.invalid/source',
-                   final_url='https://example.invalid/source',finished_at='2026-11-06T12:00:00Z',
+                   text_sha256=hashlib.sha256(raw).hexdigest(),url=url,
+                   final_url=url,finished_at='2026-11-06T12:00:00Z',
                    from_cache=cached,revalidated=cached,body_observed_at='2026-11-05T12:00:00Z',
                    origin_attempt_statuses=[304] if cached else [200])
         with (directory/'attempts.private.jsonl').open('a') as stream:stream.write(json.dumps(event)+'\n')
@@ -40,6 +40,27 @@ class ArchiveCacheTests(unittest.TestCase):
             self.assertEqual(observed['origin_attempt_statuses'],[304])
             self.assertEqual(observed['body_observed_at'],'2026-11-05T12:00:00Z')
             self.assertNotEqual(row['fetched_at'],observed['body_observed_at'])
+
+    def test_explicit_cross_state_selection_preserves_original_ledger(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);job=root/'job';job.mkdir()
+            self.add_event(job,'kent',False,'https://kent.example.invalid/ordinance')
+            self.add_event(job,'boone',False,'https://boone.example.invalid/ordinance')
+            before=(job/'attempts.private.jsonl').read_bytes()
+            with patch.object(archive,'ROOT',root):
+                result=archive.import_attempts(job,'DE',True,attempt_ids=['kent'])
+            self.assertEqual(result['new_sources'],1)
+            self.assertEqual(result['sources'][0]['url'],'https://kent.example.invalid/ordinance')
+            self.assertEqual(result['sources'][0]['attempt_id'],'kent')
+            self.assertEqual((job/'attempts.private.jsonl').read_bytes(),before)
+
+    def test_unknown_selected_attempt_rejected_before_archive_writes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);job=root/'job';job.mkdir();self.add_event(job,'kent',False)
+            with patch.object(archive,'ROOT',root):
+                with self.assertRaises(ValueError):
+                    archive.import_attempts(job,'DE',True,attempt_ids=['not-recorded'])
+            self.assertFalse((root/'work/sources').exists())
 
 
 if __name__=='__main__':unittest.main()

@@ -3,13 +3,15 @@
 
 Working inventory for Delaware, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**1 instrument** — 0 in force, 1 pending, 0 past.
+**3 instruments** — 0 in force, 1 pending, 2 past.
 
 State policy is tracked separately: **3 actions** (3 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | Dover | City | Unverified | data center | 🟡 Pending |
+| Kent County | County | 2022-08-09 | solar | ⚪ Expired |
+| Kent County | County | Unverified | wind | ⚪ Expired |
 
 ## Detailed entries
 
@@ -27,6 +29,38 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **What prompted it:** Multiple inquiries about 'Large Energy Use Facilities' (data centers meeting defined MW/load thresholds); city wants time to study electrical capacity, ratepayer cost allocation, infrastructure, land use, environmental standards, and economic impact before adopting permanent regulations
 - **Affected projects:** None named; city officials said they have been approached about at least one small-to-medium data center project but declined to identify it.
 - **Detailed status:** Pending as of 2026-09-23. The draft ordinance would immediately suspend the City's acceptance, processing, review, approval, and issuance of permits, site plan approvals, conditional-use approvals, rezonings, subdivision approvals, building permits, utility service agreements, and certificates of occupancy for any new 'Large Energy Use Facility' (a facility using 75+ MW at 85%+ load factor, 100+ MW instantaneous demand, or 30+ MW and NAICS 518210) for 18 months, with exemptions for government/hospital/university/public-safety/clean-hydrogen facilities and small expansions. First proposed publicly in August 2026 (a City Council committee voted unanimously to advance a draft to full Council); the Council Committee of the Whole heard the finalized ordinance text on 2026-09-15 and recommended it go to full Council and the Planning Commission, but no first or final reading before full Council, and no ordinance number, had been recorded as of 2026-09-23. A sponsor's public social-media post described the proposal as a 24-month moratorium, which conflicts with the 18-month term stated in the drafted ordinance text reviewed here; the ordinance text is treated as authoritative.
+- **Outcome:** —
+
+### Kent County
+
+- **Type:** County
+- **Status:** ⚪ Expired
+- **Date enacted:** August 9, 2022, signed Ordinance 22-14; retroactive effective date May 24, 2022 is separate from adoption.
+- **Normalized date:** `2022-08-09` (exact)
+- **Duration:** Through September 8, 2022 at 11:59 p.m., unless rescinded sooner; retroactive effectiveness May 24, 2022.
+- **Current end date:** `2022-09-08`
+- **Sectors:** solar
+- **Moratorium ID:** `de-kent-county-2022`
+- **Legal basis:** Ordinance 22-14, utility solar facilities greater than 50 acres; identified separately from earlier Ordinance 22-07 and later wind Ordinance 22-20.
+- **What prompted it:** County review of utility-scale energy siting regulations before accepting further conditional-use site-plan applications.
+- **Affected projects:** —
+- **Detailed status:** The signed ordinance expressly terminates September 8, 2022. Recorded-term classification is expired. [VERIFY subsequent or uncodified actions, precise relationship to Ordinance 22-07 and geographic coordinates; no conclusion that every later solar restriction ended]
+- **Outcome:** —
+
+### Kent County
+
+- **Type:** County
+- **Status:** ⚪ Expired
+- **Date enacted:** Unresolved: first-page adoption field and code history give December 20, 2022; signed footer prints December 20, 2023.
+- **Normalized date:** `—` (unverified)
+- **Duration:** Through June 30, 2023 at 11:59 p.m., unless rescinded sooner; document states retroactive effectiveness October 25, 2022.
+- **Current end date:** `2023-06-30`
+- **Sectors:** wind
+- **Moratorium ID:** `de-kent-county-undated`
+- **Legal basis:** Ordinance 22-20, utility wind-energy conditional-use site-plan applications; operative wind text is distinct from the solar heading retained in Code 158-6.
+- **What prompted it:** County review of utility-scale energy siting regulations before accepting further conditional-use site-plan applications.
+- **Affected projects:** —
+- **Detailed status:** The signed ordinance and published code expressly terminate the recorded wind moratorium June 30, 2023. Recorded-term classification is expired. [VERIFY adoption-year conflict, later or uncodified actions and geographic coordinates; no blanket finding about later wind regulation]
 - **Outcome:** —
 
 ---

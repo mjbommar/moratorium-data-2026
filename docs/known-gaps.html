@@ -196,7 +196,7 @@
 record-level observations and <code>[VERIFY]</code> markers identify unresolved work.</p>
 <h2 id="what-we-know-we-dont-have">What we know we don't have</h2>
 <h3 id="small-township-records-that-arent-online">Small-township records that aren't online</h3>
-<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>671 of the 1298 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.</p>
+<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>673 of the 1300 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.</p>
 <h3 id="legacy-instrument-identities">Legacy instrument identities</h3>
 <p>The working inventory still contains identities requiring reconciliation.
 <code>ma-leominster-undated</code> combines separate BESS and data-center petitions, each
@@ -490,8 +490,30 @@ from an earlier release.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="source-body-availability-checkpoint">Source-body availability checkpoint</h2>
+<p>The November 6 <a href="../work/audit/legacy-source-migration-kent-and-body-recovery-2026-11-06.json">archive recovery checkpoint</a>
+covers 6,485 manifest entries, with hash-matching bodies available through listed
+paths for 3,042 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+without a recorded body hash. Other private stores have not been exhaustively
+searched, so these counts do not establish global payload loss. They count archive
+entries, not jurisdictions or independently verified legal findings.</p>
+<p>Recovery restored 256 ignored compatibility links to already-retained exact-hash
+private bytes. Original manifests, publication flags and source dates are unchanged.
+Body availability does not establish document authenticity, full extraction or
+current legal force. Private raw bodies are not public release assets.</p>
+<h2 id="kent-county-historical-source-and-date-limits">Kent County historical source and date limits</h2>
+<p>The <a href="../work/research/2026-11-06/kent-instrument-review/index.html">Kent instrument review</a>
+separates signed solar Ordinance 22-14 from wind Ordinance 22-20. Their recorded
+terms end September 8, 2022 and June 30, 2023, respectively. These historical
+expiry classifications do not describe every later renewable-energy restriction.</p>
+<p>The wind PDF's first-page adoption field and code history give December 20, 2022;
+its signed footer prints December 20, 2023. The machine-readable adoption date is
+blank. The code heading still says solar while its operative text concerns wind.
+The earlier solar Ordinance 22-07 copy is unsigned and contains editing markup;
+it remains a separate unmigrated historical source rather than an inferred merger.
+Retroactive effective dates are preserved separately from adoption dates.</p>
 <h2 id="geocoding-caveats-added-v2026042">Geocoding caveats (added v2026.04.2)</h2>
-<p>1290 of 1298 instruments are geocoded to WGS84 lat/lon via Nominatim, the place-name search service of OpenStreetMap (OSM). The 8 blanks comprise two aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen and Sun Prairie awaiting coordinate review.</p>
+<p>1290 of 1300 instruments have WGS84 reference points. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. Reference points do not establish legal boundaries or applicability. The 10 blanks comprise two aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie and two Kent County records awaiting coordinate review.</p>
 <p><strong>Within-state name ambiguity.</strong> Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:</p>
 <ul>
 <li>Lake Township, OH (Wood County, not Logan County)</li>

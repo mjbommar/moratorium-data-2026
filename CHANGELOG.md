@@ -2,6 +2,11 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
+Kent County solar Ordinance 22-14 and wind Ordinance 22-20 add two historical
+records with explicit recorded termination dates. The wind adoption-year conflict
+is preserved with a blank machine-readable adoption date; retroactivity and the
+misleading solar code heading are documented. Active/extended totals remain 1,072.
+
 Sun Prairie is added from the City’s September newsletter reporting Council
 approval of a 12-month data-center moratorium. The original extraction captured
 only the library section; separately registered full-DOM text recovers the report.
@@ -23,18 +28,18 @@ remain unknown; no adoption event, in-force ban or headline-count increase is
 inferred. The public results view displays relationship review separately from
 legal status. All earlier records remain unchanged.
 
-Current totals are 1,298 local instruments (1,072 classified active or extended,
-71 pending, 155 past) and 442 state-policy records (95 classified enacted).
+Current totals are 1,300 local instruments (1,072 classified active or extended,
+71 pending, 157 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1298** |
+| Moratoria in the list | **1300** |
 | Classified active or extended | **1072** |
 | Pending or not yet effective | **71** |
-| Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **671** |
+| Ended (replaced, expired, or rescinded) | **157** |
+| Rows we still want to confirm (`[VERIFY]`) | **673** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained

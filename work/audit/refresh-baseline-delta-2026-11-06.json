@@ -1,14 +1,14 @@
 {
   "baseline_commit": "dbaab04d84f8d679ba5a3d57bf45f32186109222",
-  "current_commit": "3bea384849e56baaa394a6b8880c6b4d9b00b0e0",
+  "current_commit": "57a924536e83786db91c140cdd96d67c6bf9258e",
   "scope": "Working inventory comparison, not a public-release comparison or complete legal-force verification. Ballot measures have a separate denominator.",
   "tables": {
     "local": {
       "path": "data/moratorium_inventory.csv",
       "baseline_sha256": "7d6d252da231ec8e00fb4bba37489629f931cc9bd2bdaae796ee9c6d77e3f4c7",
-      "current_sha256": "ef4a688ec8571fbd9c16369fee717d9e7a3986f098284b0f0dca7a1dbf998121",
+      "current_sha256": "5736fac2bba0ef390a6a30981c1e4cf261487b58e29c86df3ad777e72d78537f",
       "before_total": 1291,
-      "after_total": 1293,
+      "after_total": 1300,
       "before_status_counts": {
         "active": 897,
         "replaced": 93,
@@ -18,16 +18,23 @@
         "expired": 50
       },
       "after_status_counts": {
-        "active": 879,
+        "active": 880,
         "replaced": 94,
-        "pending": 67,
+        "pending": 71,
         "rescinded": 11,
         "extended": 192,
-        "expired": 50
+        "expired": 52
       },
       "added_ids": [
+        "ak-fairbanks-north-star-borough-undated",
+        "ak-petersburg-borough-undated",
         "ca-hayward-2026",
-        "ia-dubuque-county-2026-2"
+        "de-kent-county-2022",
+        "de-kent-county-undated",
+        "ia-dubuque-county-2026-2",
+        "ma-braintree-undated",
+        "ma-methuen-undated",
+        "wi-sun-prairie-2026"
       ],
       "removed_ids": [],
       "changed_existing_records": [
@@ -12122,7 +12129,7 @@
     "state_policy": {
       "path": "data/state_legislation.csv",
       "baseline_sha256": "01b6def1c452388ffe134266d0dc0e91a729b2e4bfb483afdfc451bdbb75d847",
-      "current_sha256": "27eee237f17c11843bc81736c5333563483a4bf450b0aa95b0f553162585b5e5",
+      "current_sha256": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038",
       "before_total": 440,
       "after_total": 442,
       "before_status_counts": {
@@ -12706,6 +12713,10 @@
             "bill": {
               "before": "S3379 / A4096 / A4696 (2026-2027)",
               "after": "S3379 / A4096 (2026-2027)"
+            },
+            "sponsors": {
+              "before": "Sen. M. Teresa Ruiz; Sen. Raj Mukherji / Asm. Michael Venezia / Asw. Eliana Pintor Marin",
+              "after": "Primary sponsors: Ruiz, M. Teresa; Mukherji, Raj; Venezia, Michael; Haider, Shama A.; Bagolie, Rosaura"
             },
             "status": {
               "before": "S3379 amended and passed the Senate, then amended in Assembly Telecommunications and Utilities, substituted for A4096, and passed both houses 2026-06-30; awaiting gubernatorial action as of 2026-07-31. Companion A4696 (identical to separate bill S2274, not part of the S3379/A4096 pairing) remains in Assembly Telecommunications and Utilities Committee since introduction 2026-03-16",

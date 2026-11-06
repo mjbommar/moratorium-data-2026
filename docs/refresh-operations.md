@@ -119,9 +119,28 @@ change any publication flag.
 
 The [post-discovery delta](../work/audit/legacy-source-migration-post-discovery-2026-11-06.json)
 adds 24 private MA/WI source versions without changing earlier mapping entries.
-The current manifest inventory is 6,479 entries: 2,780 verified-body versions map
+That checkpoint's manifest inventory is 6,479 entries: 2,780 verified-body versions map
 to 2,779 native observations, with the same 3,699 original-body gaps. The full
 post-discovery replay is identical; its metadata backup is separately pinned.
+
+The [Kent and body-recovery checkpoint](../work/audit/legacy-source-migration-kent-and-body-recovery-2026-11-06.json)
+covers 6,485 entries and 3,042 verified-body versions. It adds six private source
+versions and restores 256 missing compatibility paths using already-retained,
+exact-hash CAS bytes. The [reviewed link plan and receipts](../work/audit/source-body-link-recovery-2026-11-06/README.md)
+preserve original manifests, publication flags and existing links. Restored paths
+are Git-ignored; they do not export source content or renew retrieval dates.
+
+The 3,443 remaining gaps mean no matching body through the manifest-listed paths,
+not proven global payload loss. They include 119 failed acquisitions without a
+recorded body hash. Other private stores have not been exhaustively searched.
+Recovery of a body is separate from authentication, extraction completeness,
+substantive source acceptance and legal force.
+
+For a mixed-state acquisition directory, `archive_research_attempts.py --attempt-id`
+can explicitly route selected successful original attempts to the correct state.
+Repeat the flag for multiple IDs. Unknown/failed IDs reject the selection before
+archive writes; original acquisition ledgers remain unchanged. Omit the option
+only when the complete successful-fetch set belongs in that archival scope.
 
 ### Distributed discovery review
 

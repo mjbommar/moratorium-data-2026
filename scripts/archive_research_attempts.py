@@ -20,11 +20,17 @@ def public_source_url(url):
     return url
 
 
-def import_attempts(directory, state, apply=False, raw_root=None):
+def import_attempts(directory, state, apply=False, raw_root=None, attempt_ids=None):
     if len(state) != 2 or not state.isalpha() or not state.isupper():
         raise ValueError("State must be two uppercase letters")
     ledger = directory / "attempts.private.jsonl"
     events = [json.loads(x) for x in ledger.read_text().splitlines() if x.strip()]
+    selected = None if attempt_ids is None else set(attempt_ids)
+    if selected is not None:
+        available = {e['attempt_id'] for e in events if e.get('state') == 'finished'
+                     and e.get('kind') == 'fetch' and e.get('ok') is True}
+        if not selected or selected - available:
+            raise ValueError('Explicit selection requires known successful fetch attempt IDs')
     dest = ROOT / "work/sources" / state
     manifest = dest / "manifest.jsonl"
     old = [json.loads(x) for x in manifest.read_text().splitlines() if x.strip()] if manifest.exists() else []
@@ -47,6 +53,8 @@ def import_attempts(directory, state, apply=False, raw_root=None):
     derivations={x['attempt_id']:x for x in json.loads(derivations_path.read_text())} if derivations_path.exists() else {}
     for e in events:
         if e["state"] != "finished" or e["kind"] != "fetch" or not e.get("ok"):
+            continue
+        if selected is not None and e['attempt_id'] not in selected:
             continue
         metadata_path = Path(e["artifact"])
         stem = metadata_path.with_suffix("")
@@ -120,7 +128,8 @@ def import_attempts(directory, state, apply=False, raw_root=None):
         seen.add((*body_key, text_hash))
         body_versions.setdefault(body_key, []).append(key)
         added.append(row)
-    return {"apply": apply, "new_sources": len(added), "sources": added}
+    return {"apply": apply, "new_sources": len(added), "sources": added,
+            "selected_attempt_ids": sorted(selected) if selected is not None else None}
 
 
 if __name__ == "__main__":
@@ -129,5 +138,6 @@ if __name__ == "__main__":
     p.add_argument("--state", required=True)
     p.add_argument("--apply", action="store_true")
     p.add_argument('--raw-root',type=Path,help='Durable mounted content-addressed body archive; working raw paths become ignored symlinks')
+    p.add_argument('--attempt-id',action='append',help='Archive only these successful original fetches; repeat for explicit cross-state routing')
     a = p.parse_args()
-    print(json.dumps(import_attempts(a.directory, a.state, a.apply, a.raw_root), indent=2))
+    print(json.dumps(import_attempts(a.directory, a.state, a.apply, a.raw_root, a.attempt_id), indent=2))

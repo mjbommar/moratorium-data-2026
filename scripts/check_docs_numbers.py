@@ -99,7 +99,7 @@ CLAIMS: list[tuple[str, str, str, str]] = [
     ("README.md", r"lat/lon \(([\d.]+)% coverage\)", "geocoded_percent", "README geocoded percentage"),
     ("README.md", r"the (\d+) blanks comprise", "ungeocoded", "README coordinate gaps"),
     ("README.md", r"- \*\*(\d+) states\*\* have at least one moratorium", "states", "README detail state count"),
-    ("README.md", r"- \*\*([\d,]+) state-level bills\*\* tracked", "bills", "README bill count"),
+    ("README.md", r"- \*\*([\d,]+) state-policy records\*\* use the legacy `bill` type", "bills", "README legacy bill-type count"),
     ("README.md", r"\*\*(\d+) of [\d,]+ instruments geocoded\*\*", "geocoded", "README geocoded count"),
     ("README.md", r"\*\*[\d,]+ of ([\d,]+) instruments geocoded\*\*", "rows", "README geocoded denominator"),
     ("docs/methodology.md", r"cleaned inventory has \*\*([\d,]+) instruments across \d+ states\*\*", "rows", "methodology inventory rows"),
@@ -120,10 +120,10 @@ CLAIMS: list[tuple[str, str, str, str]] = [
     ("docs/codebook.md", r"`moratoria_with_verify_tags`: (\d+)", "verify_rows", "codebook verify row count"),
     ("docs/known-gaps.md", r"\*\*(\d+) of (?:the )?[\d,]+ inventory rows\*\* have at least one such evidence-ceiling note", "verify_rows", "known-gaps verify rows"),
     ("docs/known-gaps.md", r"\*\*[\d,]+ of (?:the )?([\d,]+) inventory rows\*\* have at least one such evidence-ceiling note", "rows", "known-gaps verify denominator"),
-    ("docs/known-gaps.md", r"(\d+) of [\d,]+ instruments are geocoded", "geocoded", "known-gaps geocoded"),
+    ("docs/known-gaps.md", r"(\d+) of [\d,]+ instruments have WGS84 reference points", "geocoded", "known-gaps geocoded"),
     ("docs/known-gaps.md", r"The (\d+) blanks comprise", "ungeocoded", "known-gaps coordinate gaps"),
     ("docs/known-gaps.md", r"(\d+) moratoria are in force", "in_force", "known-gaps current in-force"),
-    ("docs/known-gaps.md", r"[\d,]+ of ([\d,]+) instruments are geocoded", "rows", "known-gaps geocoded denominator"),
+    ("docs/known-gaps.md", r"[\d,]+ of ([\d,]+) instruments have WGS84 reference points", "rows", "known-gaps geocoded denominator"),
     # CHANGELOG claims are checked against the NEWEST entry only (see
     # changelog_head below). Older entries are history: their numbers were true
     # when written and must never be "fixed" to today's data.

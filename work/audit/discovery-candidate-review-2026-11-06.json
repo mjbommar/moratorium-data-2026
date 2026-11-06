@@ -1,5 +1,5 @@
 {
-  "inventory_sha256": "5d3b99ff9cb4f70cdb58bdaefaa6584b19047617dfe1e90896c52670bd5f18e5",
+  "inventory_sha256": "5736fac2bba0ef390a6a30981c1e4cf261487b58e29c86df3ad777e72d78537f",
   "returned_answer_sha256": {
     "discovery-ak": "a4b62aac2562578f9bb4c66f6f504557f1aace1c1612c0f7f2e3b2c01fae334e",
     "discovery-al": "b6e254f6a91f7dc6937ca15433d3c9ac8c29f473bb22765439ab7bf23647aa62",
@@ -54,7 +54,7 @@
   },
   "candidate_count": 185,
   "reviewed_pending_additions": 4,
-  "unreviewed_count": 179,
+  "unreviewed_count": 171,
   "candidates": [
     {
       "candidate_key": "discovery-ak:0",
@@ -123,9 +123,9 @@
       "jurisdiction": "Boone County",
       "proposed_instrument_label": "Emergency Ordinance 2025-16",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_current_status_unresolved",
+      "review_packet": "work/research/2026-11-06/discovery-coordinator-wave1/review.json",
+      "next_step": "Obtain any governing/lifting act and current legal disposition; catalogue titles alone do not establish continued force.",
       "worker_review": {
         "job_id": "discovery-closure-05",
         "worker_disposition": "distinct_historical_instrument",
@@ -142,9 +142,9 @@
       "same_name_inventory_ids": [
         "ar-independence-county-2026"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_instrument_identity",
+      "review_packet": "work/research/2026-11-06/discovery-coordinator-wave1/review.json",
+      "next_step": "Recover the numbered wind ordinance, exact term/anchors and later actions; do not merge with the data-center row.",
       "worker_review": {
         "job_id": "discovery-closure-06",
         "worker_disposition": "distinct_historical_instrument",
@@ -161,9 +161,9 @@
       "same_name_inventory_ids": [
         "ar-carroll-county-2026"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_instrument_identity",
+      "review_packet": "work/research/2026-11-06/discovery-coordinator-wave1/review.json",
+      "next_step": "Recover final ordinance and amendments; preserve the reported wind/solar act as distinct from the existing computing pause.",
       "worker_review": {
         "job_id": "discovery-closure-06",
         "worker_disposition": "distinct_historical_instrument",
@@ -178,9 +178,9 @@
       "jurisdiction": "Mohave County",
       "proposed_instrument_label": "Renewable energy overlay rezoning moratorium; original resolution not recovered",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_scope_and_timing",
+      "review_packet": "work/research/2026-11-06/discovery-coordinator-wave1/review.json",
+      "next_step": "Recover Mohave resolution and later actions; do not assign all wind/solar projects or automatic expiration from age.",
       "worker_review": {
         "job_id": "discovery-closure-13",
         "worker_disposition": "distinct_historical_instrument",
@@ -463,9 +463,9 @@
       "jurisdiction": "Colebrook",
       "proposed_instrument_label": "Proposed zoning amendment; ordinance identifier and final disposition unverified.",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "unresolved_historical_proposal",
+      "review_packet": "work/research/2026-11-06/discovery-coordinator-wave1/review.json",
+      "next_step": "Recover the historical commission decision and any enacted text; keep out of current pending/active totals.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "unresolved",
@@ -479,16 +479,22 @@
       "state_abbrev": "DE",
       "jurisdiction": "Kent County",
       "proposed_instrument_label": "Levy Court moratorium; number and instrument not yet recovered",
-      "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "same_name_inventory_ids": [
+        "de-kent-county-2022",
+        "de-kent-county-undated"
+      ],
+      "disposition": "reviewed_historical_instrument_added",
+      "review_packet": "work/research/2026-11-06/discovery-coordinator-wave1/review.json",
+      "next_step": "Retain adoption-date conflict and later-uncodified-action gaps; do not infer current county-wide wind legality.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_historical_instrument",
         "mechanical_gate_passed": true,
         "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
-      }
+      },
+      "canonical_inventory_ids": [
+        "de-kent-county-undated"
+      ]
     },
     {
       "candidate_key": "discovery-de:1",
@@ -496,16 +502,22 @@
       "state_abbrev": "DE",
       "jurisdiction": "Kent County",
       "proposed_instrument_label": "Levy Court moratorium; original instrument not yet recovered",
-      "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "same_name_inventory_ids": [
+        "de-kent-county-2022",
+        "de-kent-county-undated"
+      ],
+      "disposition": "reviewed_later_solar_instrument_added_earlier_act_held",
+      "review_packet": "work/research/2026-11-06/discovery-coordinator-wave1/review.json",
+      "next_step": "Obtain enrolled 22-07 and resolve its exact relationship to 22-14; retain separate dates, named acts and later-action gaps.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_historical_instrument",
         "mechanical_gate_passed": true,
         "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
-      }
+      },
+      "canonical_inventory_ids": [
+        "de-kent-county-2022"
+      ]
     },
     {
       "candidate_key": "discovery-fl:0",
@@ -514,9 +526,9 @@
       "jurisdiction": "Venice",
       "proposed_instrument_label": "Ordinance 2026-32, reported",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_action_evidence",
+      "review_packet": "work/research/2026-11-06/discovery-coordinator-wave1/review.json",
+      "next_step": "Recover Venice official ordinance/action record, dates, exceptions and later events; do not promote the automated summary as primary enactment evidence.",
       "worker_review": {
         "job_id": "discovery-closure-06",
         "worker_disposition": "distinct_supported_candidate",
@@ -3268,6 +3280,8 @@
   "reviewed_prepared_not_applied": 0,
   "reviewed_city_reported_adoption_additions": 1,
   "worker_reviewed_count": 183,
-  "unreviewed_count_scope": "Coordinator substantive/canonical closure remains open for179candidates despite complete independently audited worker recommendation coverage.",
-  "worker_review_baseline_sha256": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1"
+  "unreviewed_count_scope": "171 candidates still await coordinator substantive processing; six reviewed cases are explicitly withheld and the earlier Kent22-07 relationship remains open. Reviewed does not mean every fact or legal interval is resolved.",
+  "worker_review_baseline_sha256": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1",
+  "reviewed_historical_additions": 2,
+  "reviewed_withheld_cases": 6
 }

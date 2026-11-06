@@ -1,0 +1,133 @@
+{
+  "caps": {
+    "search_total": 3,
+    "exa": 2,
+    "serpapi": 1,
+    "googlenews": 0,
+    "gdelt": 0,
+    "fetch": 6
+  },
+  "search_attempts": [
+    {
+      "attempt_id": "405b0409e3524ba982e953672f27d6e0",
+      "kind": "serpapi",
+      "query": "\"Kent County\" Delaware March 2022 solar moratorium ordinance",
+      "hits": 6,
+      "cost_usd": null,
+      "unpriced": true
+    },
+    {
+      "attempt_id": "c5661a370383480786abfd29c6da2b0f",
+      "kind": "exa",
+      "query": "\"Boone County\" \"2025-16\" solar wind ordinance",
+      "hits": 6,
+      "cost_usd": 0.007,
+      "unpriced": false
+    },
+    {
+      "attempt_id": "17ff7abe6b8142b98dca1701a5f4a068",
+      "kind": "exa",
+      "query": "\"Kent County\" Delaware utility scale wind moratorium ordinance 2023",
+      "hits": 6,
+      "cost_usd": 0.007,
+      "unpriced": false
+    }
+  ],
+  "fetch_attempts": [
+    {
+      "attempt_id": "672c158149e940e7a55aa28fa80b0a34",
+      "url": "https://ecode360.com/7599605",
+      "ok": true,
+      "status": 200,
+      "body_sha256": "043ab6d3ac8d8a336ec5a0ae7101fb1e6ad58a7a1ae122eb3449e8a182a00f8d",
+      "text_sha256": "406e4661806fb397e1867dc9810f6efe2de1d21e28782963ccd7f105abea06b9",
+      "browser_controls": null,
+      "finished_at": "2026-11-06T15:11:26.996785+00:00"
+    },
+    {
+      "attempt_id": "271113f716c54478afe860ea0d45482c",
+      "url": "https://www.boonecountyar.com/upages.php?id=114",
+      "ok": true,
+      "status": 200,
+      "body_sha256": "38910a22a7d3b7b47edb5815b68665672e3a1f5fc9cdbcedc1295ddbec0dca9d",
+      "text_sha256": "075e3cacdfc00e3a35e116188696d97086ec25911e2aa6e9f678f63118103a1f",
+      "browser_controls": {
+        "engine": "pydoll",
+        "headless": false,
+        "settle_ms": 1500
+      },
+      "finished_at": "2026-11-06T15:11:31.225602+00:00"
+    },
+    {
+      "attempt_id": "fd5f3990b9974373b3ec4ccbc12c0d99",
+      "url": "https://www.boonecountyar.com/upages.php?id=115",
+      "ok": true,
+      "status": 200,
+      "body_sha256": "127550ee5e14a9b20d995838696e423e3ee9ce82a7582b30cae916e6724d30d9",
+      "text_sha256": "bfd54640b9fa283446ebb967cb0bfef359a090eebe116d8d2e5d4bcaff6e4e37",
+      "browser_controls": null,
+      "finished_at": "2026-11-06T15:13:24.427224+00:00"
+    },
+    {
+      "attempt_id": "066517da71f8489086fff7ebe14633ad",
+      "url": "https://ecode360.com/static/index-Bs1aa9Wk.js",
+      "ok": true,
+      "status": 200,
+      "body_sha256": "b2525bb015e48030ac559579c41ea0c7fc1e9a38287b2067a6cff09ef6b515f0",
+      "text_sha256": "b2525bb015e48030ac559579c41ea0c7fc1e9a38287b2067a6cff09ef6b515f0",
+      "browser_controls": null,
+      "finished_at": "2026-11-06T15:16:41.553954+00:00"
+    },
+    {
+      "attempt_id": "74eba378f660410e8a7d61652e93aa1b",
+      "url": "https://ecode360.com/KE1751/laws/LF1707640.pdf",
+      "ok": true,
+      "status": 200,
+      "body_sha256": "ff804973c049872f8dbc00746f088ef9f7f61abe6f96d74df53a7777ce7fc337",
+      "text_sha256": "20646e6479c8d9f95d324d3295c8ff78879e70a9f5c9d934b97c94cd10cd8c3c",
+      "browser_controls": null,
+      "finished_at": "2026-11-06T15:18:12.758551+00:00"
+    },
+    {
+      "attempt_id": "d2afe6b89b514080ac3c01a502935289",
+      "url": "https://ecode360.com/KE1751/laws/LF1554840.pdf",
+      "ok": true,
+      "status": 200,
+      "body_sha256": "67307e446a2a3171fd23cc827bef284772c90974c7183f349cd9f328701d2678",
+      "text_sha256": "e2b978199a4c87749f026f674d6131acaf22d08f6ba6b86134c62564f6516535",
+      "browser_controls": null,
+      "finished_at": "2026-11-06T15:18:22.335941+00:00"
+    }
+  ],
+  "known_search_cost_usd": 0.014,
+  "unpriced_searches": 1,
+  "total_cost_known": false,
+  "ledger_sha256": "e89dd41380586b1c62b7669afdf9c67cb9459bce701451f89ebc3c80a891889e",
+  "reference_chase": {
+    "code_section": "158-6",
+    "document_refs": {
+      "22-07": "LF1554840",
+      "22-14": "LF1611012",
+      "22-20": "LF1707640"
+    },
+    "application_script_url": "https://ecode360.com/static/index-Bs1aa9Wk.js",
+    "application_script_body_sha256": "b2525bb015e48030ac559579c41ea0c7fc1e9a38287b2067a6cff09ef6b515f0",
+    "route_pattern": "/{municipality}/laws/{documentId}.pdf",
+    "scope": "Link construction learned from retained application script; legal text separately retrieved and hashed. Script excluded from legal-source archive."
+  },
+  "separate_amendment_followup": {
+    "caps": {
+      "search_total": 0,
+      "exa": 0,
+      "serpapi": 0,
+      "fetch": 1
+    },
+    "attempt_id": "4872077238f742eea31aa06450c33c3d",
+    "url": "https://ecode360.com/KE1751/laws/LF1611012.pdf",
+    "body_sha256": "5f04507edcfccbbf1cec5e549aaffbaccd87af10072f1d5b9a4b3139ded7bf1e",
+    "text_sha256": "6545b1b6d9776fc1c9d6f6136d89cc247c3d24d0ac4f574277b4b4229b0d7426",
+    "ledger_sha256": "01dcd52f5c8f601c4ca3e879947c9ef3dab0eff50bb491d97e7dbdb765ad51e5",
+    "trigger": "New exact22-14reference recovered from code history; prior budget remains unchanged."
+  },
+  "scope": "Three bounded search attempts and six acquisitions; no original collection job restarted. One separately capped exact amendment fetch follows a newly recovered reference. One SerpAPI call is unpriced and not treated as free."
+}

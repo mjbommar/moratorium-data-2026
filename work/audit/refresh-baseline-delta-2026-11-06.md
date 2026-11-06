@@ -1,34 +1,55 @@
 # Working refresh: baseline comparison
 
-Baseline: `dbaab04d84f8d679ba5a3d57bf45f32186109222`, whose README describes September 23, 2026. Current source revision: `3bea384` (with current working-tree CSV hashes pinned in the JSON report). This compares working repository data, not the last public release. The refresh cohort cutoff remains November 5; individual later reviews do not renew all-record freshness.
+Baseline: `dbaab04d84f8d679ba5a3d57bf45f32186109222`, whose README describes September 23, 2026.
+The current comparison was generated from base revision `57a9245` and the working-tree
+CSV bytes pinned in the JSON. This compares working data, not the last public
+release. The cohort cutoff remains November 5; later scoped reviews do not renew
+all-record legal-force freshness.
 
 | Metric | Baseline | Current | Delta |
 |---|---:|---:|---:|
-| Local instruments | 1291 | 1293 | +2 |
-| Active | 897 | 879 | -18 |
+| Local instruments | 1291 | 1300 | +9 |
+| Active | 897 | 880 | -17 |
 | Extended | 166 | 192 | +26 |
-| Active plus extended | 1063 | 1071 | +8 |
-| Pending | 77 | 67 | -10 |
+| Active plus extended | 1063 | 1072 | +9 |
+| Pending | 77 | 71 | -6 |
 | Replaced | 93 | 94 | +1 |
 | Rescinded | 8 | 11 | +3 |
-| Expired | 50 | 50 | 0 |
+| Expired | 50 | 52 | +2 |
 | State-policy records | 440 | 442 | +2 |
 | State-policy records classified enacted | 85 | 95 | +10 |
 
-The current enacted policy total comprises 94 records typed as bills and one executive order. The policy tracker covers multiple mechanisms; it is not a count of enacted state moratoria. The legacy bill type also includes a resolution, so it should not be represented as a fully audited bill denominator.
+The enacted policy total includes 94 records using the legacy bill type and one
+executive order. The tracker covers multiple policy mechanisms. Resolution
+subtypes remain inside the legacy bill category; it is not a verified denominator
+of bills or enacted state moratoria.
 
-Two local instruments were added: `ca-hayward-2026` and `ia-dubuque-county-2026-2`. Two policy records were added: `ca-ab2469-2025-2026` and `nj-a4696-2026-2027`. No baseline IDs were removed. Of surviving baseline records, 446 local and 30 policy records have at least one changed CSV field. These are edit counts, not completed substantive reviews or newly enacted instruments.
+Nine local records were added: `ak-fairbanks-north-star-borough-undated`, `ak-petersburg-borough-undated`, `ca-hayward-2026`, `de-kent-county-2022`, `de-kent-county-undated`, `ia-dubuque-county-2026-2`, `ma-braintree-undated`, `ma-methuen-undated`, `wi-sun-prairie-2026`. Two policy records were added:
+`ca-ab2469-2025-2026`, `nj-a4696-2026-2027`. No baseline IDs were removed. Among surviving baseline records,
+446 local and 30 policy records have changed fields.
+These are edit counts, not completed record reviews or counts of new enactments.
+The two Kent additions describe historical terms ending in 2022 and 2023; the wind
+adoption-year conflict remains explicit.
 
-The separate ballot snapshot contains 49 reviewed measures. Of 56 frozen logical candidate groups (58 observations), 49 have scoped canonical publication and 7 remain pending. This is a reviewed subset, not a complete election census. Ballot records, unofficial returns, certification, and operative legal restrictions remain distinct.
+The separate expanded publication contains 49 reviewed ballot measures, 55 retained
+result observations, one proposed restriction with unknown legal status and one
+accepted ballot `proposes` link. Of 56 frozen candidate groups, 49 have scoped
+publication and seven remain unresolved. This is a reviewed subset, not a complete
+election census. No Edgewater adoption event or in-force ban is inferred.
 
-The historical November 5 accounting report remains a historical collection/edit snapshot. Its 440-policy denominator must not be reused as the current total.
+The November 5 collection accounting remains historical. Its 440-policy denominator
+must not be reused as the current policy total. Current field-lineage accounting
+is separate from substantive source/legal review.
 
-Reproduce the machine-readable comparison from the repository root:
+Reproduce the machine-readable comparison:
 
-```bash
+```sh
 python3 scripts/build_refresh_headline_delta.py
 ```
 
-The [JSON report](refresh-baseline-delta-2026-11-06.json) pins both CSV byte hashes, identifies every added/removed ID and changed field, and pins the ballot projection and snapshot. Regeneration against later data produces a new observation and requires updating this prose. No result here establishes complete current legal-force verification, consumer synchronization, or release publication.
-
-The current expanded publication also contains one proposed restriction record with unknown legal status and one accepted ballot `proposes` relationship. No adoption event or in-force ban is inferred. Five reviewed Ohio point corrections (including Perry) and the Warren ordinance identifier correction change descriptive/geographic fields, not headline counts.
+The [JSON report](refresh-baseline-delta-2026-11-06.json) pins CSV hashes, all
+added/removed IDs and changed fields, plus the ballot projection and snapshot.
+Regeneration against later data requires updating this prose. Five reviewed Ohio
+point corrections and the Warren identifier correction remain descriptive changes,
+with no headline-count effect. No result here proves complete legal-force
+verification, consumer synchronization or release publication.
