@@ -1,0 +1,187 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "sources": [
+    {
+      "source_document_id": "florida-review-return",
+      "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+      "body_sha256": "7d75fdbc8fe9d0ed2f80963f3f10dab1cf17290e24e53b6e8d49f56808842a60",
+      "text_sha256": "bade7270f2579e77b5add1032cf09a28f41b79df3daba60d315a2d858b3cddeb",
+      "retrieved_at": "2026-11-06T11:33:07.612956+00:00",
+      "attempt_id": "c86f26e5501d416b94863766e89863a0",
+      "source_role": "Official county rendered result portal via headed pydoll7secondsettle; full heading-preserving DOM derivation read"
+    },
+    {
+      "source_document_id": "florida-review-legislation",
+      "url": "https://cityofedgewater.legistar.com/LegislationDetail.aspx?GUID=AB474EC8-D7B3-4215-ADD6-CB89A02E8DFF&ID=8136086",
+      "body_sha256": "a8d9e1ac2788b840ea932f471697cc95ddc2db6a7e45192b8c97e8e1ab955e87",
+      "text_sha256": "63d4ce4304e278d49efedf2ef7fcb4f58930d22e4335d8f14853fa5853edcf26",
+      "retrieved_at": "2026-11-06T11:33:39.627763+00:00",
+      "attempt_id": "3a98be26a2a04ace9c79c261a6cd8f5c",
+      "source_role": "Official city Legistar file2026-O-18; full returned text read"
+    },
+    {
+      "source_document_id": "florida-review-proposal",
+      "url": "https://cityofedgewater.legistar.com/View.ashx?M=F&ID=15707704&GUID=33A43B8B-C294-4350-A52D-726D1AA9753F",
+      "body_sha256": "4f5131db29deaa0f0c8920296cf99dc38b16d086a4f7b95c107cc0edf714ed86",
+      "text_sha256": "617efddfa49213910d06079a4bedacdc5b77d4fc34842e283a684984db3056ba",
+      "retrieved_at": "2026-11-05T16:55:56.841813+00:00",
+      "attempt_id": "bddcf985ecf54288af5ee90f275c62db",
+      "source_role": "City-linked second-reading proposed ordinance attachment; all9native pages read; unsigned adoption block and technical-revision clause retained"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "florida-review-01",
+      "source_document_id": "florida-review-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6cc5ddacfc5e7c7b"
+      },
+      "predicate": "official_unofficial_amendment4_counts",
+      "value": {
+        "yes_votes": 7884,
+        "no_votes": 2328,
+        "source_yes_percent": 77.2,
+        "source_no_percent": 22.8,
+        "scope": "Amendment4only; other amendments and citycouncil/recycling contests excluded.10112yes-plus-no derived only. Countywide238419ballots/401708registered/156precincts not imported into amendment result."
+      },
+      "quote": "Amendment 4 - Edgewater\nVote for 1\nVote Method\nFollow\nResponse\nPercentage\nVotes\nYes, in favor of adoption.\nPercentage\n77.20%\nVotes\n7,884\nNo, against adoption.\nPercentage\n22.80%\nVotes\n2,328\nAs of\nabout 13 hours ago",
+      "span": "utf8-text-codepoints:2289:2502"
+    },
+    {
+      "claim_id": "florida-review-02",
+      "source_document_id": "florida-review-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6cc5ddacfc5e7c7b"
+      },
+      "predicate": "official_election_result_context",
+      "value": {
+        "election_date": "2026-11-03",
+        "election_name": "2026 General Election",
+        "certification_status": "unofficial",
+        "source_clock": "Thursday, November 5, 2026 at 6:02:20 PM",
+        "scope": "Source clock timezone unspecified; relative about13hoursago not converted to publication timestamp or certification date."
+      },
+      "quote": "2026 General Election\nNovember 3, 2026\nUNOFFICIAL RESULTS",
+      "span": "utf8-text-codepoints:32:89"
+    },
+    {
+      "claim_id": "florida-review-03",
+      "source_document_id": "florida-review-legislation",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6cc5ddacfc5e7c7b"
+      },
+      "predicate": "referral_ordinance_passage",
+      "value": {
+        "ordinance": "2026-O-18",
+        "final_action_date": "2026-08-03",
+        "source_status": "Passed",
+        "scope": "Legistar council adoption of referral ordinance, not certification/adoption of charter amendment by voters. Attached proposed text remains unsigned; enacted final version and technical revisions not independently established."
+      },
+      "quote": "On agenda: 8/3/2026 Final action: 8/3/2026",
+      "span": "utf8-text-codepoints:68:110"
+    },
+    {
+      "claim_id": "florida-review-04",
+      "source_document_id": "florida-review-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6cc5ddacfc5e7c7b"
+      },
+      "predicate": "proposed_data_center_prohibition",
+      "value": {
+        "actions": [
+          "permit",
+          "approve",
+          "construct",
+          "expand",
+          "operate"
+        ],
+        "scope": "New data centers within corporate city limits; proposed Charter1.01(m). New means as proposed, no blanket inference about existing facilities. No currently operative ban accepted."
+      },
+      "quote": "No new data center shall be permitted, approved, constructed, expanded, or operated within",
+      "span": "utf8-text-codepoints:8709:8799"
+    },
+    {
+      "claim_id": "florida-review-05",
+      "source_document_id": "florida-review-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6cc5ddacfc5e7c7b"
+      },
+      "predicate": "proposed_definition_and_city_action",
+      "value": {
+        "covered_uses": [
+          "data storage",
+          "cloud computing",
+          "artificial intelligence computing",
+          "cryptocurrency mining",
+          "colocation",
+          "similar digital processing"
+        ],
+        "scope": "Facility/group primarily for servers/networking/related infrastructure; proposed city-action prohibition includes developmentorder,permit,comprehensiveplanamendment. No size/power threshold in reviewed clause."
+      },
+      "quote": "For purposes of this subsection, \u201cdata center\u201d means a facility or group of facilities primarily",
+      "span": "utf8-text-codepoints:9063:9159"
+    },
+    {
+      "claim_id": "florida-review-06",
+      "source_document_id": "florida-review-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6cc5ddacfc5e7c7b"
+      },
+      "predicate": "proposed_self_execution_and_repeal",
+      "value": {
+        "self_executing": true,
+        "repeal_rule": "Majority of qualified city electors voting in municipal referendum",
+        "scope": "Proposed inconsistent post-effective approvals void to inconsistency; no actual voided permit or vested-right adjudication inferred."
+      },
+      "quote": "This subsection may be amended or repealed only by approval of a majority of the qualified",
+      "span": "utf8-text-codepoints:9678:9768"
+    },
+    {
+      "claim_id": "florida-review-07",
+      "source_document_id": "florida-review-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6cc5ddacfc5e7c7b"
+      },
+      "predicate": "proposed_ballot_wording_version",
+      "value": {
+        "title": "PROHIBITION ON NEW DATA CENTERS",
+        "question": "Should the City Charter prohibit new data centers within the City?",
+        "yes_direction": "restricts",
+        "bindingness_as_proposed": "binding",
+        "scope": "Substantially proposed ballot form; technical revisions allowed inSection8. Final official sample/ballot not yet inspected."
+      },
+      "quote": "Should the City Charter prohibit new data centers within the City?",
+      "span": "utf8-text-codepoints:10337:10403"
+    },
+    {
+      "claim_id": "florida-review-08",
+      "source_document_id": "florida-review-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6cc5ddacfc5e7c7b"
+      },
+      "predicate": "proposed_certification_effect_gate",
+      "value": {
+        "scope": "Section13ties approved charter amendment effectiveness to certification unless particular later date. Section17referral ordinance immediate effect upon its own adoption is distinct; do not use August3or electionday as amendment effective date."
+      },
+      "quote": "Each Charter amendment approved by a majority of the qualified electors voting on the",
+      "span": "utf8-text-codepoints:14620:14705"
+    }
+  ],
+  "visual_reviews": {},
+  "scope": "Three retained official versions, eight scoped claims. Native proposal9pages read; final visual/legal/ballot review incomplete. No canonical publication or actual operative restriction.",
+  "unresolved": [
+    "Final official ballot and amended/adopted attachment version",
+    "Visual comparison of normative proposal pages",
+    "Certified canvass/date and revised charter filing",
+    "Actual operative interval/vested rights and later legal history"
+  ]
+}
