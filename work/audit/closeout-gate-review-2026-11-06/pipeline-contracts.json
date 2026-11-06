@@ -1,0 +1,638 @@
+{
+  "scope": {
+    "description": "Read-only bounded closeout audit of every unchecked P1, P3 and P4 TODO checklist item against current plan, source, tests and retained receipts; no network, model calls, job restarts or repository changes. Dispositions assess full requirement, not just pilot or schema.",
+    "bc_modules_commit": "f6187344c697334dbca3f037fd0a670a995f59c8",
+    "tests_run": false,
+    "note": "Source and evidence hashes capture bytes read; receipts are historical claims, not independently rerun experiments. Existing task state remains authoritative."
+  },
+  "source_commit": "dcf66464d16b08a18aab2b2a56b51ba790e82754",
+  "items": [
+    {
+      "phase": "P1",
+      "item": 1,
+      "requirement": "Review schema examples against all pilot cases before implementing import/apply logic.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/schemas/expanded/1.0.0.json",
+          "sha256": "12993c58309ce10c5c7d11ac27c384c0009e343952fecafb867c26118be94d97",
+          "support": "schema objects"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/normalize_ballot_pilot.py",
+          "sha256": "8d947369537c9672724a4f0efb550d39d08f1a740d2b8426bc8941ba7d6240f1",
+          "support": "verify_inputs; main"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/normalized-pilot/gaps.json",
+          "sha256": "eb19ca5becf5d5765e872f30ad9625396bf741474cef78fd3e6af89a89dcef99",
+          "support": "gap; measure_id"
+        }
+      ],
+      "limits": "Normalized examples and import/promotion already exist; there is no evidenced all-case review before implementation. Earlier unresolved gaps are historical, not proof of current unresolved status in every case.",
+      "concrete_next_action": "Review each section 11 case against schema examples and current source-backed dispositions; document timing honestly and fix representational gaps before further import/apply expansion."
+    },
+    {
+      "phase": "P3",
+      "item": 1,
+      "requirement": "Bridge legacy archives to bc-store without losing original hashes, URLs or access classification.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/bridge_legacy_sources.py",
+          "sha256": "cf497313d0a0951db9825b3846542be50f2a2975e3d6c70c1eac51c5305aef32",
+          "support": "inventory; migrate; report"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_legacy_source_bridge.py",
+          "sha256": "d2a57390b4ae1faf119a8a5fd08f60284d6aff21ad15615c51192b78939cd9dd",
+          "support": "test_exact_metadata_payload_and_idempotent_replay; test_missing_body_is_gap_not_hash_only_import"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-store/python/bc_store/schema.py",
+          "sha256": "3932e1f284f5b57af1bbfa6c9b6b37bf06f5f8c691c9e0b601b9b486c41c7647",
+          "support": "observations payload_sha256; final_url; derivations"
+        }
+      ],
+      "limits": "TODO P0 records 3,204 verified-body versions imported and 3,443 listed-path gaps, including 119 failed acquisitions without a body hash; original manifest lines preserve access flags privately but full classification and resolution are not proven.",
+      "concrete_next_action": "Reconcile remaining path gaps and access classifications against retained stores and migration receipts; retain original metadata and do not invent missing bodies."
+    },
+    {
+      "phase": "P3",
+      "item": 2,
+      "requirement": "Parse payloads and preserve PDF pages/OCR provenance; detect empty/challenge/login payloads.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/register_text_derivation.py",
+          "sha256": "a2279c59ecfb1b6de57e122aef5836a723194419ccce365b074bf15b0fd7a24f",
+          "support": "registered derivation"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/visual_claim_review.py",
+          "sha256": "6c70b98d7f60e49d201fb8bd4a5622d8c0956dbee73808394aa9e82ab516a60d",
+          "support": "verify; render_hash; png_dimensions; jpeg_metadata"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_refresh_evidence_audit.py",
+          "sha256": "be767c493886c64a5d3a64a9340adebdfd3bf40765cb73355c19c82452c1e44e",
+          "support": "test_registered_derivation_preserves_verified_original_publication"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "sha256": "bf35295ab27ef5730af6b4de9e95ba34dcf69ad3a63551005f5df9047837cb2f",
+          "support": "sections 7.1 and 7.2"
+        }
+      ],
+      "limits": "Registered OCR and visual page/image proofs exist for selected sources; no evidence here establishes comprehensive page/OCR metadata and systematic empty, challenge and login detection for all payloads.",
+      "concrete_next_action": "Audit parser and acquisition outcomes by payload type; persist page/OCR provenance and classify empty/challenge/login responses as failures, then cover them with behavioral fixtures."
+    },
+    {
+      "phase": "P3",
+      "item": 3,
+      "requirement": "Adapt bc-evidence full-document extraction to electoral/legal candidate schemas.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/extract_domain_candidates.py",
+          "sha256": "a16c59cb8609faa15b3ea61c14a2ee1b7a88e0317d91031a2b0b3e180ffd2cdc",
+          "support": "DomainClaim; DomainChunk; field_validator; review_candidates"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/domain-peru-pilot/README.md",
+          "sha256": "b25e7cbe70e470068009cdce8d6e5f1bc4f1c9d738f3a793b0baa7cf68554d0e",
+          "support": "Implementation; Live calibration results"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-evidence/python/bc_evidence/extract.py",
+          "sha256": "8344cf1b95fa579fc46c20f801d89999f456e44d3e02d1abc3ecbf54e6bdde19",
+          "support": "extract_document; ExtractedClaim"
+        }
+      ],
+      "limits": "Field-specific transport supports elections, measures, provisions and reported results; restriction/event and vote-category adapters, multi-document calibration and substantive acceptance remain open. Peru proposal is one document.",
+      "concrete_next_action": "Extend typed adapters to restrictions, events and source categories; evaluate against reviewed election and legal document cohorts without auto-acceptance."
+    },
+    {
+      "phase": "P3",
+      "item": 4,
+      "requirement": "Record all chunk coverage, extraction ceilings, failures and resumable status.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/extract_document_resumable.py",
+          "sha256": "693710f68e296ae9488193097797ff0b9f5fd20b22bd40d49c48043574fdc1b0",
+          "support": "coverage state; omitted_by_ceiling; full_text_chunk_coverage"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_resumable_extraction.py",
+          "sha256": "4975bceb229f470293d1173aa34d0a4aa55ceda9ae7dcd89a19641723b70b063",
+          "support": "test_ceiling_cannot_close_document; test_resume_after_partial_failure_reuses_successful_chunk"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/extraction-readiness/README.md",
+          "sha256": "88390fc301913be89ab8adae02607f92e94e2b31dbb7af77f111c17f250d2d6e",
+          "support": "Library behavior and required adapter controls"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-evidence/python/bc_evidence/extract.py",
+          "sha256": "8344cf1b95fa579fc46c20f801d89999f456e44d3e02d1abc3ecbf54e6bdde19",
+          "support": "extract_document; extract"
+        }
+      ],
+      "limits": "The wrapper records status for its managed runs; evidence does not show complete accounting for all extraction cohorts. Text coverage is not page/OCR completeness and library cell/claim ceilings remain material.",
+      "concrete_next_action": "Inventory every extraction run and reconcile expected/attempted/successful/failed/omitted chunks, cell and output ceilings, retries and durable resume status."
+    },
+    {
+      "phase": "P3",
+      "item": 5,
+      "requirement": "Preserve exact quotes, offsets, date/value support and raw-versus-text hashes.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/extract_domain_candidates.py",
+          "sha256": "a16c59cb8609faa15b3ea61c14a2ee1b7a88e0317d91031a2b0b3e180ffd2cdc",
+          "support": "review_candidates: exact_quote_spans; body_sha256; text_sha256"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/audit_refresh_returns.py",
+          "sha256": "52a5f877a2e482b9eecd29446ac2c94c5121b7b208ac144e031b3ef22bdb23af",
+          "support": "source and quote audit"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/full-document-peru-pilot/README.md",
+          "sha256": "fb06216a25ecedaa629c2646c8cc453e075e061f39ad028f1bf4e3371df97984",
+          "support": "five exact character spans; limitations"
+        }
+      ],
+      "limits": "Exact spans and hashes are checked for selected candidates; location or a date occurring in the document does not prove date/value support, question identity or page coverage across the corpus.",
+      "concrete_next_action": "Require scoped human verification of each date, number and unit against versioned text/page evidence; reconcile raw and derived hashes across all accepted assertions."
+    },
+    {
+      "phase": "P3",
+      "item": 6,
+      "requirement": "Build review packets for identity, wording, vote totals, polarity, bindingness and legal effect separately.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/expanded_promotion.py",
+          "sha256": "38e48fd0a547a44490d70cf7df40b48de031d59cfd30bce3544c7147b8d8d4c8",
+          "support": "review_gate"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/eliot-promotion/publication-plan.json",
+          "sha256": "4e4ed32581dbdfcd9e5c4bb3b589ce343cf986390426b298e0aeb03c5c0f4b10",
+          "support": "reviewed publication plan"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/illinois-remaining-ballot-review/README.md",
+          "sha256": "fba7dcf6bc41c06ebf5ada73dc55aab210b47f506b4eef7e87d0f5be1a60335c",
+          "support": "Bloomington and Joliet limitations"
+        }
+      ],
+      "limits": "Field-specific review and individual visual proofs exist for real batches; no demonstrated complete packet workflow across all six dimensions and all cases, particularly legal effect.",
+      "concrete_next_action": "Create an explicit per-case matrix of independently reviewed identity, wording, counts, polarity, bindingness and legal effect, with unresolved decisions and source authority."
+    },
+    {
+      "phase": "P3",
+      "item": 7,
+      "requirement": "Group syndication/common upstream result feeds before assessing independent support.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "sha256": "bf35295ab27ef5730af6b4de9e95ba34dcf69ad3a63551005f5df9047837cb2f",
+          "support": "section 7.2 independent support"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/ohio-pilot/report.md",
+          "sha256": "566b4186de017e383a244f14693501945ac310a5a7358918d7ad5be9e16ab4c0",
+          "support": "provisional secondary reports; source limitations"
+        }
+      ],
+      "limits": "The plan requires grouping; the inspected sources do not establish a general feed/syndication grouping implementation or systematic independence assessment. Some case reviews identify shared lineage.",
+      "concrete_next_action": "Add source-lineage/feed grouping to packets and require reviewers to assess independence at the claim level."
+    },
+    {
+      "phase": "P3",
+      "item": 8,
+      "requirement": "Add contradiction/support alerts without using model/NLI confidence as legal acceptance.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/extract_domain_candidates.py",
+          "sha256": "a16c59cb8609faa15b3ea61c14a2ee1b7a88e0317d91031a2b0b3e180ffd2cdc",
+          "support": "review_candidates: conflicting_field_candidates"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_domain_extraction.py",
+          "sha256": "ab2875252e467f755ab3ee36ef73130c589728107a1ae954a2d7762c86f8f715",
+          "support": "test_conflicts_and_duplicate_candidates_are_not_silently_merged"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "sha256": "bf35295ab27ef5730af6b4de9e95ba34dcf69ad3a63551005f5df9047837cb2f",
+          "support": "section 7.2 NLI alert is a review lead"
+        }
+      ],
+      "limits": "Conflicting candidate values are flagged within extraction groups; this does not demonstrate cross-source support/contradiction alerts or adjudication across the review corpus.",
+      "concrete_next_action": "Add cross-source, claim-scoped support and conflict leads linked to evidence and human disposition; never use model confidence as acceptance."
+    },
+    {
+      "phase": "P3",
+      "item": 9,
+      "requirement": "Require reviewed candidates for instrument/entity/event merges; protect distinct acts and questions.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/expanded_promotion.py",
+          "sha256": "38e48fd0a547a44490d70cf7df40b48de031d59cfd30bce3544c7147b8d8d4c8",
+          "support": "review_gate; publish"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/expanded_data.py",
+          "sha256": "c2c775cd6afcb9e22d71b997f17cfe1e853fdd4c98667846e9abaf6a86128183",
+          "support": "validate"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_expanded_data.py",
+          "sha256": "0513805f7ff50d314adc4ab0bcc843f5b7391f48e0587730beed5140d56876ae",
+          "support": "test_same_name_different_governments_are_not_merged"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_expanded_promotion.py",
+          "sha256": "3ce881a966d057b6000fd9c74096a784be7f5c778c2d780fb7142c5b3fc1d5ee",
+          "support": "test_schema_validity_cannot_bypass_identity_or_field_review"
+        }
+      ],
+      "limits": "Ballot publication gates require record and field reviews; this does not establish reviewed candidate gates for every instrument/entity/event merge or all legacy apply paths.",
+      "concrete_next_action": "Trace every merge/apply route and require identity and field-scoped reviewed evidence, including explicit distinct-act/question safeguards and regression cases."
+    },
+    {
+      "phase": "P3",
+      "item": 10,
+      "requirement": "Extend decision schemas with record fingerprints, scope, supersession and evidence claim references.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/schemas/expanded/1.0.0.json",
+          "sha256": "12993c58309ce10c5c7d11ac27c384c0009e343952fecafb867c26118be94d97",
+          "support": "review_decisions scope; claim_ids; supersedes_id"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/expanded_promotion.py",
+          "sha256": "38e48fd0a547a44490d70cf7df40b48de031d59cfd30bce3544c7147b8d8d4c8",
+          "support": "review_gate record_sha256; previous_sha256; scoped decisions"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "sha256": "bf35295ab27ef5730af6b4de9e95ba34dcf69ad3a63551005f5df9047837cb2f",
+          "support": "section 9 structured decisions"
+        }
+      ],
+      "limits": "Scope, claim IDs and supersession exist in decisions; record and previous fingerprints are enforced in a separate promotion review plan. Full decision-schema and all apply-path coverage is not established.",
+      "concrete_next_action": "Specify and enforce target revision/fingerprint and before/after field changes alongside scoped evidence and supersession for every decision/apply path."
+    },
+    {
+      "phase": "P3",
+      "item": 11,
+      "requirement": "Obtain Bloomington's original township placement/qualification disposition and boundary reference; obtain Joliet's original referral/advisory authority and clarify its source accounting before completing those publication reviews (`illinois-remaining-ballot-review/`).",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/illinois-remaining-ballot-review/README.md",
+          "sha256": "fba7dcf6bc41c06ebf5ada73dc55aab210b47f506b4eef7e87d0f5be1a60335c",
+          "support": "Bloomington; Joliet Township; Verification and scope"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/illinois-remaining-ballot-review/review.json",
+          "sha256": "586aeac4382cf346362794ac5aa45a8b70ffad5203027cb215af993e2fedf661",
+          "support": "case review"
+        }
+      ],
+      "limits": "Existing recovery distinguishes township electorate and city actor and records Joliet five-ballot accounting difference; original placement/boundary and referral/authority evidence and accounting remain open per task state.",
+      "concrete_next_action": "In a separately authorized evidence recovery, obtain original Bloomington disposition and boundary and Joliet referral/authority and accounting explanation; update scoped reviews only after verification."
+    },
+    {
+      "phase": "P3",
+      "item": 12,
+      "requirement": "Verify electorate/qualification and policy direction for the additional Madison-report wind/solar zoning-control question; reconcile it beyond the frozen v3 seed set without treating it as a development ban or silently changing census counts (`illinois-township-ballot-review/additional-leads.json`).",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/illinois-township-ballot-review/additional-leads.json",
+          "sha256": "0bf739486e5999f51c30f681e977c6359e6decb0d27caf78187e21846c9e66e6",
+          "support": "electoral_jurisdiction; yes_direction; qualification_status; followup"
+        }
+      ],
+      "limits": "Source-qualified wording and counts are retained; electorate and qualification remain unresolved and local-control support does not determine development direction. No canonical identity or frozen denominator change.",
+      "concrete_next_action": "Verify electorate, qualification and authority, check duplicates and independently assess direction; reconcile as an explicitly outside-freeze lead."
+    },
+    {
+      "phase": "P3",
+      "item": 13,
+      "requirement": "Complete broader promotion/recovery calibration and the remaining ballot identity/fact reviews; the initial Eliot batch does not close P3.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/ballot-census-review/canonical-projection-status.json",
+          "sha256": "b2871b9c0fc7467a0ab9961019491a25f4ee94c206b0aa924dc7e5b4c5b844e7",
+          "support": "summary; scope; groups"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/check_expanded_publication.py",
+          "sha256": "82e01c371cee4f107ffac6a3e78a67a07ab5223be4ec4c8355290af541222236",
+          "support": "check"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/domain-peru-pilot/README.md",
+          "sha256": "b25e7cbe70e470068009cdce8d6e5f1bc4f1c9d738f3a793b0baa7cf68554d0e",
+          "support": "live calibration results and limits"
+        }
+      ],
+      "limits": "Current receipt identifies 49 scoped published of 56 frozen groups, seven pending and one additional publication; publication is not complete identity, legal-force or calibration acceptance.",
+      "concrete_next_action": "Finish the seven pending groups and all scoped unresolved facts, then evaluate recovery and promotion calibration across representative source and document types."
+    },
+    {
+      "phase": "P3",
+      "item": 14,
+      "requirement": "Extend evidence archive/publication gates to new records and source payload types.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/check_expanded_publication.py",
+          "sha256": "82e01c371cee4f107ffac6a3e78a67a07ab5223be4ec4c8355290af541222236",
+          "support": "check; claim proof coverage"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/visual_claim_review.py",
+          "sha256": "6c70b98d7f60e49d201fb8bd4a5622d8c0956dbee73808394aa9e82ab516a60d",
+          "support": "verify PDF, original PNG and JPEG evidence"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_refresh_evidence_audit.py",
+          "sha256": "be767c493886c64a5d3a64a9340adebdfd3bf40765cb73355c19c82452c1e44e",
+          "support": "test_payload_only_source_does_not_prove_a_text_claim"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_expanded_promotion.py",
+          "sha256": "3ce881a966d057b6000fd9c74096a784be7f5c778c2d780fb7142c5b3fc1d5ee",
+          "support": "test_source_quote_proofs_cannot_be_skipped"
+        }
+      ],
+      "limits": "Existing gates and image support cover selected expanded publications; coverage of every new record, ZIP member, OCR derivation and additional payload type is not demonstrated.",
+      "concrete_next_action": "Inventory source/payload types and publication paths, extend fail-closed proof and archive checks, and test changed/missing bodies and derivation lineage."
+    },
+    {
+      "phase": "P3",
+      "item": 15,
+      "requirement": "Add behavioral regression checks from plan section 11 (initial subset includes offline publication/receipt drift, historical identity baselines and portable-pointer checks; full gate coverage pending).",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_expanded_data.py",
+          "sha256": "0513805f7ff50d314adc4ab0bcc843f5b7391f48e0587730beed5140d56876ae",
+          "support": "test_advisory_cannot_enact_even_with_scoped_review; test_retroactivity_requires_explanation_and_claim"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_resumable_extraction.py",
+          "sha256": "4975bceb229f470293d1173aa34d0a4aa55ceda9ae7dcd89a19641723b70b063",
+          "support": "test_ceiling_cannot_close_document; test_resume_after_partial_failure_reuses_successful_chunk"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_expanded_promotion.py",
+          "sha256": "3ce881a966d057b6000fd9c74096a784be7f5c778c2d780fb7142c5b3fc1d5ee",
+          "support": "test_stale_baseline_and_registry_never_publish; test_interrupted_pointer_swap_keeps_old_publication_absent"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "sha256": "bf35295ab27ef5730af6b4de9e95ba34dcf69ad3a63551005f5df9047837cb2f",
+          "support": "section 11 required regression checks"
+        }
+      ],
+      "limits": "Meaningful tests cover several listed behaviors, but no evidence establishes the complete section 11 matrix or a clean restore/rebuild for the full release.",
+      "concrete_next_action": "Map every section 11 behavior to a meaningful test or missing case; implement gaps and run the complete offline gate including clean restore/rebuild."
+    },
+    {
+      "phase": "P4",
+      "item": 1,
+      "requirement": "Freeze a source-backed pilot and holdout set before prompt tuning.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/domain-peru-pilot/README.md",
+          "sha256": "b25e7cbe70e470068009cdce8d6e5f1bc4f1c9d738f3a793b0baa7cf68554d0e",
+          "support": "two calibration runs"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/normalized-pilot/gaps.json",
+          "sha256": "eb19ca5becf5d5765e872f30ad9625396bf741474cef78fd3e6af89a89dcef99",
+          "support": "pilot gaps"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "sha256": "bf35295ab27ef5730af6b4de9e95ba34dcf69ad3a63551005f5df9047837cb2f",
+          "support": "section 11 holdout requirement"
+        }
+      ],
+      "limits": "Source-backed pilot material and prior prompt calibration exist; no evidence of a pre-tuning frozen, source-backed pilot plus independent holdout. Timing cannot be retroactively satisfied.",
+      "concrete_next_action": "Freeze a newly dated independent holdout and tuning history before any further tuning; document the historical sequencing limitation."
+    },
+    {
+      "phase": "P4",
+      "item": 2,
+      "requirement": "Review Peru, Wells, Bloomington, Piqua, Grove City, Harwood, Wilmington and El Dorado.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/normalized-pilot/gaps.json",
+          "sha256": "eb19ca5becf5d5765e872f30ad9625396bf741474cef78fd3e6af89a89dcef99",
+          "support": "Peru, Wells, Piqua, Grove City and Wilmington gaps"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/ohio-pilot/report.md",
+          "sha256": "566b4186de017e383a244f14693501945ac310a5a7358918d7ad5be9e16ab4c0",
+          "support": "Piqua; Grove City; Wilmington provisional review"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/illinois-remaining-ballot-review/README.md",
+          "sha256": "fba7dcf6bc41c06ebf5ada73dc55aab210b47f506b4eef7e87d0f5be1a60335c",
+          "support": "Bloomington"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/ballot-census-review/canonical-projection-status.json",
+          "sha256": "b2871b9c0fc7467a0ab9961019491a25f4ee94c206b0aa924dc7e5b4c5b844e7",
+          "support": "groups; scoped publication"
+        }
+      ],
+      "limits": "Substantial case-specific reviews exist, with unresolved facts; these files do not establish complete source-backed review of all eight named cases against the pilot specification.",
+      "concrete_next_action": "Build a case-by-case evidence and review matrix for all eight, identify missing official evidence and preserve unresolved dispositions."
+    },
+    {
+      "phase": "P4",
+      "item": 3,
+      "requirement": "Include earlier/December elections, failed qualification, changed results, mixed polarity and portal failure cases.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/ballot-census-review/canonical-projection-status.json",
+          "sha256": "b2871b9c0fc7467a0ab9961019491a25f4ee94c206b0aa924dc7e5b4c5b844e7",
+          "support": "groups; scope"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_expanded_data.py",
+          "sha256": "0513805f7ff50d314adc4ab0bcc843f5b7391f48e0587730beed5140d56876ae",
+          "support": "test_fixture_and_reverse_polarity; test_superseded_certification_not_counted"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/ohio-pilot/report.md",
+          "sha256": "566b4186de017e383a244f14693501945ac310a5a7358918d7ad5be9e16ab4c0",
+          "support": "portal HTTP 202; failed recovery"
+        }
+      ],
+      "limits": "Individual result supersession, polarity and portal failures are represented in reviews or tests; no frozen pilot matrix demonstrates each specified edge case including failed qualification and December.",
+      "concrete_next_action": "Select and freeze source-backed cases for each edge, explicitly labeling synthetic cases where real examples are unavailable and keeping election dates distinct."
+    },
+    {
+      "phase": "P4",
+      "item": 4,
+      "requirement": "Include a council-only adoption/extension and predecessor-pause/replacement-ban history.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/ohio-pilot/report.md",
+          "sha256": "566b4186de017e383a244f14693501945ac310a5a7358918d7ad5be9e16ab4c0",
+          "support": "Piqua predecessor not established; Grove City possible prior instrument"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "sha256": "bf35295ab27ef5730af6b4de9e95ba34dcf69ad3a63551005f5df9047837cb2f",
+          "support": "section 11 council-only adoption/extension"
+        }
+      ],
+      "limits": "Candidate predecessor links are not evidence of replacement; no complete frozen pilot chain is demonstrated by the inspected case material.",
+      "concrete_next_action": "Select and review a council-only adoption/extension and an independently evidenced predecessor pause/replacement chain; retain missing links unresolved."
+    },
+    {
+      "phase": "P4",
+      "item": 5,
+      "requirement": "Measure discovery recall, false exclusions, primary-source recovery and identity/quote/date/unit accuracy.",
+      "disposition": "missing",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "sha256": "bf35295ab27ef5730af6b4de9e95ba34dcf69ad3a63551005f5df9047837cb2f",
+          "support": "section 11 measurement requirements"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/domain-peru-pilot/README.md",
+          "sha256": "b25e7cbe70e470068009cdce8d6e5f1bc4f1c9d738f3a793b0baa7cf68554d0e",
+          "support": "candidate counts and schema/quote results"
+        }
+      ],
+      "limits": "One-document candidate and located-quote counts do not measure cohort recall, false exclusions, source recovery or identity/date/unit accuracy against a reviewed reference set.",
+      "concrete_next_action": "Define a frozen reviewed denominator, sampling and scoring protocol, then report every required metric with denominators and uncertainties."
+    },
+    {
+      "phase": "P4",
+      "item": 6,
+      "requirement": "Report reviewer disagreement, unresolved facts, extraction completeness and spend per review-ready record.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/domain-peru-pilot/README.md",
+          "sha256": "b25e7cbe70e470068009cdce8d6e5f1bc4f1c9d738f3a793b0baa7cf68554d0e",
+          "support": "estimated cost; chunk and candidate results"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/ohio-pilot/report.md",
+          "sha256": "566b4186de017e383a244f14693501945ac310a5a7358918d7ad5be9e16ab4c0",
+          "support": "unpriced calls; budget incident"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/normalized-pilot/gaps.json",
+          "sha256": "eb19ca5becf5d5765e872f30ad9625396bf741474cef78fd3e6af89a89dcef99",
+          "support": "unresolved facts"
+        }
+      ],
+      "limits": "Individual receipts expose costs, gaps and extraction results; no complete pilot-level reviewer disagreement or cost per review-ready record, including unpriced calls, is evidenced.",
+      "concrete_next_action": "Record independent reviewer decisions and disagreements, completeness by document/page/chunk, unresolved facts and fully scoped spend per review-ready record, with unpriced spend explicit."
+    },
+    {
+      "phase": "P4",
+      "item": 7,
+      "requirement": "Set and assess documented quality thresholds; resolve silent high-impact errors before scaling.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "sha256": "bf35295ab27ef5730af6b4de9e95ba34dcf69ad3a63551005f5df9047837cb2f",
+          "support": "section 11 zero silent high-impact errors and thresholds"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/domain-peru-pilot/README.md",
+          "sha256": "b25e7cbe70e470068009cdce8d6e5f1bc4f1c9d738f3a793b0baa7cf68554d0e",
+          "support": "withheld unsupported polarity"
+        }
+      ],
+      "limits": "The plan states a quality principle and the Peru run exposed and withheld a polarity error; documented pre-scale numeric/operational thresholds and full assessment are not evidenced.",
+      "concrete_next_action": "Set decision thresholds before further evaluation, assess against frozen holdout, adjudicate high-impact errors and document go/no-go and remaining unknowns."
+    },
+    {
+      "phase": "P4",
+      "item": 8,
+      "requirement": "Present exact batch scope, call count, model/effort and budget for authorization before bulk execution.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/full-document-peru-pilot/README.md",
+          "sha256": "fb06216a25ecedaa629c2646c8cc453e075e061f39ad028f1bf4e3371df97984",
+          "support": "model, effort, call caps and dollar allocations"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-05/ohio-pilot/report.md",
+          "sha256": "566b4186de017e383a244f14693501945ac310a5a7358918d7ad5be9e16ab4c0",
+          "support": "execution limit incident and unknown pricing"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "sha256": "bf35295ab27ef5730af6b4de9e95ba34dcf69ad3a63551005f5df9047837cb2f",
+          "support": "section 12 P4 exit"
+        }
+      ],
+      "limits": "A bounded Peru batch has recorded settings and caps; an earlier Ohio run exceeded authorized search limits. Neither proves exact scope and authorization for any new bulk execution.",
+      "concrete_next_action": "Before any new bulk execution, present exact dataset and exclusions, provider calls, model/effort, retry policy and total/per-stage budget for explicit authorization."
+    }
+  ],
+  "priority_actions": [
+    {
+      "step": 1,
+      "action": "Freeze independent pilot and holdout and map every required case and behavioral gate; record prior tuning chronology.",
+      "reuse": "Existing expanded schemas, normalized pilot, case packets and section 11 tests."
+    },
+    {
+      "step": 2,
+      "action": "Resolve archive mapping, page/OCR and source-type gaps before asserting evidence coverage.",
+      "reuse": "Legacy bridge, registered derivations, evidence audit and visual verification."
+    },
+    {
+      "step": 3,
+      "action": "Complete typed extraction, durable coverage, scoped support/conflict and identity/decision gates; assemble field-separated packets.",
+      "reuse": "bc-evidence extract_document, resumable wrapper, domain candidates, identity registry and promotion review gate."
+    },
+    {
+      "step": 4,
+      "action": "Complete remaining source and fact reviews, including Bloomington, Joliet and the additional Madison lead; preserve unresolved outcomes.",
+      "reuse": "Existing retained reviews, publication receipts and frozen-census correspondence."
+    },
+    {
+      "step": 5,
+      "action": "Run and report frozen pilot metrics, disagreement, costs and full behavioral regression matrix; assess predeclared thresholds.",
+      "reuse": "Existing offline tests, extraction receipts, source hashes and review packets."
+    },
+    {
+      "step": 6,
+      "action": "Prepare exact new bulk batch scope, model/effort, call ceilings and budget for explicit authorization before execution.",
+      "reuse": "Existing durable reservation/settlement controls and prior receipts; do not restart completed jobs."
+    }
+  ]
+}

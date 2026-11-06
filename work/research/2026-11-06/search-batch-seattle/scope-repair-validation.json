@@ -1,0 +1,65 @@
+{
+  "plan_sha256": "04d4048f87ee788e9cd8df00a5ab7eaee65c61e688662235a9ad6090e839f65d",
+  "bc_modules_commit": "f6187344c697334dbca3f037fd0a670a995f59c8",
+  "runtime_file_hashes": {
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/search_refresh_batch.py": "a01394d1d531c306a7ccf4c38a6bc2e706c4674b891b076249f2661502abe79b",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/research_client.py": "2d0b98f7f96f19ab20d5f812e64cebc3a19bde8eb9e2a1837104dd8c8896273a",
+    "/home/mjbommar/projects/bc/bc-modules/bc-spec/python/bc_spec/models.py": "49616d825ce7024f33c47823e374d5743dfb4c078f4e4fdaeba512e950b0dc8f",
+    "/home/mjbommar/projects/bc/bc-modules/bc-spec/python/bc_spec/plan.py": "0550c655763b386777c71f753e65216c800b75aadf690af2df8130c0f3508a2f",
+    "/home/mjbommar/projects/bc/bc-modules/bc-web/python/bc_web/search.py": "4b0c6b22d7c831ca64ba6da36dcace2613762fab3bfc939ba9d07ea65e464b6c",
+    "/home/mjbommar/projects/bc/bc-modules/bc-web/python/bc_web/fusion.py": "9d4b2867b6f183b4db4a490627adf5d7c17c8748932ad9ea5ae51fc5551634fe",
+    "/home/mjbommar/projects/bc/bc-modules/bc-core/python/bc_core/rankfusion.py": "8605e2b9b57927ce9f49097eef5b193820e5ccce444b065fdc1eae290973eef7"
+  },
+  "ledger_sha256": "d172994bd12ec158aed488e004b3b29c71606f28e44077d6e635ef08b876f3f0",
+  "result_sha256": "f0864009a2201d051554652812519747e9d14249ec67ee53610ed2d21bc184b8",
+  "reserved_attempts": 1,
+  "finished_attempts": 1,
+  "provider_exchange_count": 1,
+  "provider_response_statuses": [
+    200
+  ],
+  "cells": [
+    {
+      "cell_id": "seattle-exact-history-repair",
+      "point_id": "8b2821cc86cda206",
+      "artifact": "8b2821cc86cda206.private.json",
+      "coverage": {
+        "variants": {
+          "google-single-host-exact": "zero_hits"
+        },
+        "status": "completed_bounded_search",
+        "scope": "Returned search coverage only; zero indexed hits do not establish absence or complete jurisdiction/election coverage."
+      },
+      "response_variants": [
+        "google-single-host-exact"
+      ],
+      "domain_diagnostics": {
+        "google-single-host-exact": {
+          "status": "empty_result_set",
+          "declared_sites": [
+            "clerk.seattle.gov"
+          ],
+          "matching_hits": 0,
+          "nonmatching_hits": 0,
+          "observed_hosts": [],
+          "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+        }
+      },
+      "query_scope_status": "no_returned_domain_mismatch",
+      "variant_contribution": {
+        "google-single-host-exact": {
+          "fused_urls": 0,
+          "unique_fused_urls": 0
+        }
+      },
+      "sightings": 0,
+      "fused_urls": 0,
+      "known_search_subtotal_usd": 0,
+      "unpriced_or_failed_variants": [
+        "google-single-host-exact"
+      ]
+    }
+  ],
+  "scope": "Bounded native search_many observations, not source acceptance, current-force confirmation, a complete election census or canonical provenance migration.",
+  "scope_qualification": "One capped exact single-host Google repair returned zero hits. No absence or complete later-history finding accepted. This prototype predates final normalization-compatible per-variant response artifacts."
+}

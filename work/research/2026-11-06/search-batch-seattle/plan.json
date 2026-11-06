@@ -1,0 +1,71 @@
+{
+  "schema_version": "refresh-search-plan-1",
+  "registry": [
+    {
+      "id": "seattle-wa",
+      "label": "Seattle, Washington",
+      "aliases": [
+        "City of Seattle"
+      ],
+      "official_hosts": [
+        {
+          "host": "clerk.seattle.gov",
+          "source_url": "https://clerk.seattle.gov/~archives/Ordinances/Ord_127447.pdf",
+          "body_sha256": "67ba32830dc4e494921171e35e03cb8ffc5a0656d25894194df84b2b16cc18b3",
+          "locator": "Original Ordinance 127447 identity header and authentication"
+        },
+        {
+          "host": "seattle.legistar.com",
+          "source_url": "https://seattle.legistar.com/LegislationDetail.aspx?GUID=86F14A6D-9247-4BB5-839E-0A26937BFD3C&ID=8032163",
+          "body_sha256": "63b798082aa80c5f68bc85b705a14bbeb39c2740bbc048f886368738b9793e65",
+          "locator": "Retained official CB121214 action history; Seattle identity review"
+        }
+      ]
+    }
+  ],
+  "cells": [
+    {
+      "id": "seattle-later-history",
+      "lane": "inventory_refresh",
+      "jurisdiction_id": "seattle-wa",
+      "sector": "data_center",
+      "period": "through-2026-11-05",
+      "intent": "later-operative-history-unfiltered-source-recovery",
+      "known_id": "wa-seattle-2026",
+      "variants": [
+        {
+          "name": "exa-semantic-history",
+          "backend": "exa",
+          "query": "Seattle Washington Ordinance 127447 CB 121214 data center moratorium amendments extension repeal adopted after June 2026 through November 5 2026",
+          "max_results": 5,
+          "include_domains": [
+            "clerk.seattle.gov",
+            "seattle.legistar.com"
+          ]
+        },
+        {
+          "name": "google-exact-history",
+          "backend": "serpapi",
+          "query": "(\"127447\" OR \"121214\") (amend OR extension OR repeal OR moratorium)",
+          "max_results": 5,
+          "include_domains": [
+            "clerk.seattle.gov",
+            "seattle.legistar.com"
+          ]
+        }
+      ]
+    }
+  ],
+  "sample": {
+    "strategy": "full",
+    "seed": 20261106
+  },
+  "caps": {
+    "exa": 1,
+    "serpapi": 1,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 2
+  },
+  "allow_unpriced": true
+}

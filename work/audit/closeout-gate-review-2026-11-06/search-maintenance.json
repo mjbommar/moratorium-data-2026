@@ -1,0 +1,532 @@
+{
+  "scope": {
+    "phases": [
+      "P2",
+      "P7"
+    ],
+    "selection": "Every unchecked checklist item before each phase exit, verbatim; 14 P2 and 5 P7. Checked items are context, not reassessed.",
+    "method": "Offline selective inspection of current source, tests and retained receipts; no test execution, network, model or job restart. Missing means no project-level implementation evidenced in inspected scope; not a proof of global absence.",
+    "limitations": "Retained test reports are historical assertions, not tests rerun here. No current provider price or scheduler state was queried. Pilot evidence and library primitives are not full completion."
+  },
+  "source_commit": "dcf66464d16b08a18aab2b2a56b51ba790e82754",
+  "bc_modules_commit": "f6187344c697334dbca3f037fd0a670a995f59c8",
+  "evidence_sha256": {
+    "/data0/moratorium-refresh-2026/jay-search-promotion/prepare.py": "a32db44d8e66151b5b2a1c8694d822e8cde9975078938241b64cddabacb23180",
+    "/home/mjbommar/projects/bc/bc-modules/bc-core/python/bc_core/budget.py": "21afc91f9b85f17cd31d62918a6eb489b5ad894498ccb9c1b2ce6b1365bb05cb",
+    "/home/mjbommar/projects/bc/bc-modules/bc-core/python/bc_core/ratelimit.py": "a8361bd47147bb131d00c1cb2b4a529b5374c94234394ec8f2e1a14dae11128a",
+    "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/chase.py": "f5542581982774e0690c0f6b483f0d0fb046ef1bbe4ef4b5341011a6c3ccd653",
+    "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/deep.py": "9c7d5dc8ad755010a4e69d3a0b7db8d032ec2527d7aff111a4831ccc8c8178fb",
+    "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/discover.py": "6f7c40d886284f8a8a1eeb8dbd02afa3728764f38503ea19bc5793e1794bc1e2",
+    "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/expansion.py": "5d959680d1d0f10bb077ac2f6789d8667dd2ef9295e29ed179f1fd714eb41ddb",
+    "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/intents.py": "0e08e304348712ce27615619fa2b90d085e9c258c942eeb44050ca91c8514ea6",
+    "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/pipeline.py": "93497f95bd7b38a38b0e4b892918580659f253c3f78227122b910cd6f708d496",
+    "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/registry.py": "1e8399a9e54e5b47e013463790b785d914302acf03b583391d8cc48201fa429b",
+    "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/search.py": "1c57a98b39d25b001bc0d3899b5f32fb771d0d0327d16e95fc9deefe34a5d78d",
+    "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/source_agent.py": "39482792a348f610a973eee8c70f3e53b9cfb4338103cfc67623db53dac6d51d",
+    "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/walk.py": "417fd881c55a5fb1bfdab1291b6ef28128a12970b2d5f5d50f53f0e23c83ec5f",
+    "/home/mjbommar/projects/bc/bc-modules/bc-spec/python/bc_spec/plan.py": "0550c655763b386777c71f753e65216c800b75aadf690af2df8130c0f3508a2f",
+    "/home/mjbommar/projects/bc/bc-modules/bc-web/python/bc_web/newsfeeds.py": "3753e762c7292786c14246d8cc1551925c9700c4660ddfec31199c6c58c3ea87",
+    "/home/mjbommar/projects/bc/bc-modules/bc-web/python/bc_web/search.py": "4b0c6b22d7c831ca64ba6da36dcace2613762fab3bfc939ba9d07ea65e464b6c",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/TODO.md": "8a4501195478a3fb5753a2b008b661382f6ee761d4c9d720b1557c05994b8edd",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/docs/refresh-operations.md": "2f10b5dc1261d16798b568c702237a4ca5dca93501cb3b73e7870f8f7517f900",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md": "bf35295ab27ef5730af6b4de9e95ba34dcf69ad3a63551005f5df9047837cb2f",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/audit_search_cohort.py": "831edf6a38f25af097dd20c613c45dcaa565600879fa4c1accad5fa42bcb2f8d",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_adaptive_revisit_plan.py": "d0a888ffa0e5eb1de240e8595a8610a4255b606ad7cfc0a1333c6451060a3035",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_ballot_due_work.py": "5484e898d8f187198be42c16135dcd86a7ed49aaf13804c9555b1eeaa1e11aa8",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_distributed_refresh.py": "f5f73caaa675f57dc0912f20fa86e3fd141ed12609ed677d7f121717ec52cbf0",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_refresh_accounting.py": "36c56a35a817a231ab1b91f130cec5f89aedb897ae789f198a393d9e4e8111f2",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_refresh_scope.py": "04e7a263a530d7b44db20b533b95d1740e4f3f4b1bd9e4f8247b43da3e50f9e8",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_worklist.py": "84a3e7f6afb51426629d09fe5a1c448feb8393da498e4edfb69df80657fe40fd",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/normalize_search_provenance.py": "47646bba2f25b67e07cc51495b8678a16f15fe24db06d2236df03124dc58ae85",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/refresh_jobs.py": "dfc131fc15d298ec8786ae5f61ac3ba0e701861fabeac80882749f2f4f3a6c4b",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/research_client.py": "2d0b98f7f96f19ab20d5f812e64cebc3a19bde8eb9e2a1837104dd8c8896273a",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_ballot_due_work.py": "bbc29cf1268111781840977a272c4d5a8b016a7a60d366b02405574ef8826761",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_research_client.py": "a376e8792f0fa434abb05d0ab2c4faffecc6f73305d9db9fb90091ec9f2fef26",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_research_privacy.py": "5d386fd0931f2b7c3c469eb6b05ba73be5627cf4acbd26461c15af00acb23a1e",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_search_provenance.py": "e13636da266b2c6aacf75385bc5f338937fe1d09c40f4054df6ad5fe39f43f39",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/work/audit/ballot-due-work-2026-11-06.json": "786d6416623f0e02fc4234b7d8d7d936af0eae45a2deffda45ed77d13d86c35b",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/work/audit/legacy-source-migration-2026-11-06/validation.json": "1e8f21477d215553c87d4404bffde46a75c433f39539c81ce2efebb49de2d603",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/work/audit/search-provenance-cohort-2026-11-06.json": "ac99bae881de63be76bc125f7e57d3f89cfd41fb3df63c731e30d4c37fe93bf5",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/work/audit/search-scope-diagnostics-2026-11-05.json": "cbf58f4bd04ec3e5dfa39996716d6929b523cad0602433dd96c08ff666db10be",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-06/seattle-identity-review/retirement-validation.json": "1c856cbb6f2a2c26779792cfd4fb5c6422665d4b6f0989aa3623747af65d371d"
+  },
+  "items": [
+    {
+      "phase": "P2",
+      "requirement": "Build a closed jurisdiction/official-source registry with aliases and election-portal hosts.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_refresh_scope.py",
+          "support": "build"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_ballot_due_work.py",
+          "support": "tasks"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/registry.py",
+          "support": "registry primitives"
+        }
+      ],
+      "limits": "Existing inventory and ballot identifiers are inputs; no reviewed closed cross-jurisdiction registry with aliases, verified official/election and vendor hosts was established.",
+      "concrete_next_action": "Build and review a versioned closed registry with source-backed hosts, unresolved entries and aliases; contract-test IDs."
+    },
+    {
+      "phase": "P2",
+      "requirement": "Build sparse bc-spec worklists for inventory refresh, election census and gap discovery.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_worklist.py",
+          "support": "computed_expiry and priority buckets"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_ballot_due_work.py",
+          "support": "tasks, task_counts, source_hashes"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_distributed_refresh.py",
+          "support": "prepare"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-spec/python/bc_spec/plan.py",
+          "support": "planning primitives"
+        }
+      ],
+      "limits": "Separate deterministic inventory and ballot lists and prepared discovery jobs exist; no integrated bc-spec sparse three-lane plan with recorded dimensions and exclusions was demonstrated.",
+      "concrete_next_action": "Map registry and inventory IDs into bc-spec cells for all three lanes; preserve priorities, exclusions and unresolved dimensions."
+    },
+    {
+      "phase": "P2",
+      "requirement": "Add deterministic plan preview, seeded sampling and call/cost estimates.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_distributed_refresh.py",
+          "support": "prepare and client-config caps"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_refresh_scope.py",
+          "support": "build"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-spec/python/bc_spec/plan.py",
+          "support": "plan/estimate primitives"
+        }
+      ],
+      "limits": "Prepared jobs and per-job caps are not a reproducible stratified seeded search plan with full call and USD estimates.",
+      "concrete_next_action": "Add deterministic versioned preview, seed, sampling frame, per-stage counts and known/unknown price estimates."
+    },
+    {
+      "phase": "P2",
+      "requirement": "Configure provider-specific Exa/Google query variants through `Searcher.search_many`.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/research_client.py",
+          "support": "reserve, execute, search_scope"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_research_client.py",
+          "support": "reservation, error and scope tests"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-web/python/bc_web/search.py",
+          "support": "Searcher.search_many, SearchQuery"
+        }
+      ],
+      "limits": "Client invokes search once per explicit backend with native domain filters; no project adapter using named provider-specific search_many variants was located.",
+      "concrete_next_action": "Render named Exa semantic and Google exact/domain variants per intent, preserving pre-call reservations and domain diagnostics."
+    },
+    {
+      "phase": "P2",
+      "requirement": "Retain rank fusion provenance, original sightings, response hashes and backend errors.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/normalize_search_provenance.py",
+          "support": "normalize, summary and attempt/sighting fields"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_search_provenance.py",
+          "support": "zero/failure/interruption/decline and exchange tests"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/audit_search_cohort.py",
+          "support": "audit, verified_attempts_by_backend and priced_subtotal_usd"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/audit/search-provenance-cohort-2026-11-06.json",
+          "support": "verified cohort totals and ledger fingerprints"
+        },
+        {
+          "path": "/data0/moratorium-refresh-2026/jay-search-promotion/prepare.py",
+          "support": "bounded canonical Jay preparation"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/search.py",
+          "support": "run_queries, build_pool"
+        }
+      ],
+      "limits": "Cohort verifies response hashes, sightings, errors and unpriced calls; Jay canonical cohort is bounded. Normalizer explicitly excludes rank fusion; legacy exceptions and missing historical intent persist.",
+      "concrete_next_action": "Integrate fusion with per-variant ranks and original response/error links, migrate reviewed cohorts and reconcile exceptions without manufacturing missing intent."
+    },
+    {
+      "phase": "P2",
+      "requirement": "Add Google News RSS/GDELT and bounded paid-news escalation with index-window decline handling.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/research_client.py",
+          "support": "reserve, execute, search_scope"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/normalize_search_provenance.py",
+          "support": "normalize, summary and attempt/sighting fields"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-web/python/bc_web/newsfeeds.py",
+          "support": "GoogleNewsSearch, GdeltSearch and declined index window"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/audit/search-provenance-cohort-2026-11-06.json",
+          "support": "verified cohort totals and ledger fingerprints"
+        }
+      ],
+      "limits": "Individual Google News and GDELT searches and decline distinctions exist; no demonstrated coordinated news clustering, measured paid escalation and fallback policy.",
+      "concrete_next_action": "Add capped free-to-paid escalation, preserve publisher/cluster provenance and route GDELT declines to documented older-source recovery."
+    },
+    {
+      "phase": "P2",
+      "requirement": "Add intent-specific query expansion, primary-host discovery, historical time walks and undated-source recovery.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/research_client.py",
+          "support": "reserve, execute, search_scope"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/intents.py",
+          "support": "intent rendering"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/discover.py",
+          "support": "source discovery"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/walk.py",
+          "support": "historical walks"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "support": "sections 6.3–6.4"
+        }
+      ],
+      "limits": "Publication windows and individual domain searches exist; no integrated intent expansion, verified host discovery, time walks and undated recovery across search cells demonstrated.",
+      "concrete_next_action": "Connect native intent, discovery and walk facilities with registry-verified hosts and explicit unfiltered recovery; record each stage and scope."
+    },
+    {
+      "phase": "P2",
+      "requirement": "Add exact-identifier/reference chasing, feedback queries and bounded relaxation.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/chase.py",
+          "support": "reference chasing"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/expansion.py",
+          "support": "query expansion"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/refresh-operations.md",
+          "support": "Due work; Acquisition and interruption; Restore and release preparation; search cohort"
+        }
+      ],
+      "limits": "Individual retained recovery cases exist, but no general bounded feedback/chase/relaxation orchestration or complete reason and provenance trail demonstrated.",
+      "concrete_next_action": "Integrate exact identifier chasing and bounded feedback/relaxation with original question, reasons, limits and unresolved chase gaps."
+    },
+    {
+      "phase": "P2",
+      "requirement": "Calibrate ResearchSearch tiers without excluding primary sources or reverse-polarity measures.",
+      "disposition": "missing",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/pipeline.py",
+          "support": "ResearchSearch tier pipeline"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "support": "sections 6.4 and 11"
+        }
+      ],
+      "limits": "Library tiers exist; no project calibration measuring primary-source or reverse-polarity exclusion against a frozen holdout was established.",
+      "concrete_next_action": "Freeze representative pilot/holdout and measure tier recall and false exclusions, including authoritative URL bypass and reverse polarity."
+    },
+    {
+      "phase": "P2",
+      "requirement": "Reserve bounded deep_research/source-agent use for difficult cases; retain skipped stages and conversations.",
+      "disposition": "missing",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/deep.py",
+          "support": "deep research"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/source_agent.py",
+          "support": "source agent"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "support": "sections 6.4 and 8"
+        }
+      ],
+      "limits": "Native capabilities are not evidence of a configured project difficult-case policy, budgets, or retained skipped stages and conversations.",
+      "concrete_next_action": "Define escalation criteria and hard budgets, retain complete stage/chase and conversation records, then validate offline with fixtures before any authorized pilot."
+    },
+    {
+      "phase": "P2",
+      "requirement": "Configure current SerpAPI pricing and whole-run/per-stage budgets, including unpriced-call policy.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/research_client.py",
+          "support": "reserve, execute, search_scope"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_research_client.py",
+          "support": "reservation, error and scope tests"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_distributed_refresh.py",
+          "support": "prepare: caps and price_note"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/normalize_search_provenance.py",
+          "support": "normalize, summary and attempt/sighting fields"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-core/python/bc_core/budget.py",
+          "support": "BudgetMeter"
+        }
+      ],
+      "limits": "Persistent search/fetch call caps and separate unknown prices exist; no verified current SerpAPI rate or shared USD/token meter across all stages. No current price was sought under offline constraint.",
+      "concrete_next_action": "Establish approved pricing and conservative unpriced reservation policy; enforce a shared whole-run meter and per-stage call/token/USD ceilings."
+    },
+    {
+      "phase": "P2",
+      "requirement": "Pin model roles/settings and cache fingerprints; redact secrets from retained responses.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/refresh_jobs.py",
+          "support": "baseline and worker model/effort"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/research_client.py",
+          "support": "reserve, execute, search_scope"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_research_privacy.py",
+          "support": "privacy regression tests"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-research/python/bc_research/search.py",
+          "support": "SearchCache full SearchQuery key"
+        }
+      ],
+      "limits": "Some CLI model settings and client/config hashes are retained, and search response sink replaces configured provider key bytes. This does not establish all model roles/settings, content/schema/prompt/model/settings fingerprints, or comprehensive redaction including authenticated URLs.",
+      "concrete_next_action": "Pin every role and dependency revision/settings; fingerprint document/schema/prompt/model/settings and validate redaction for URLs, headers, responses and failures."
+    },
+    {
+      "phase": "P2",
+      "requirement": "Configure source/provider pacing, Retry-After, explicit retries and verified routing as applicable.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/research_client.py",
+          "support": "reserve, execute, search_scope"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_research_client.py",
+          "support": "reservation, error and scope tests"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-core/python/bc_core/ratelimit.py",
+          "support": "retry_after_seconds"
+        },
+        {
+          "path": "/home/mjbommar/projects/bc/bc-modules/bc-web/python/bc_web/newsfeeds.py",
+          "support": "GDELT rate handling"
+        }
+      ],
+      "limits": "Client explicitly disables provider retries and retains failure reservations; library rate primitives do not establish project-wide source/public-IP pacing, Retry-After handling, controlled retries or verified routing.",
+      "concrete_next_action": "Configure and test per-origin/provider quotas, Retry-After and bounded separately accounted retries; verify egress only if applicable."
+    },
+    {
+      "phase": "P2",
+      "requirement": "Make partial backend failure and zero-result cells distinguishable in coverage reports.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/normalize_search_provenance.py",
+          "support": "normalize, summary and attempt/sighting fields"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_search_provenance.py",
+          "support": "zero/failure/interruption/decline and exchange tests"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/audit_search_cohort.py",
+          "support": "audit, verified_attempts_by_backend and priced_subtotal_usd"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/audit/search-provenance-cohort-2026-11-06.json",
+          "support": "verified cohort totals and ledger fingerprints"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/audit/search-scope-diagnostics-2026-11-05.json",
+          "support": "scope diagnostics"
+        }
+      ],
+      "limits": "Normalizer and cohort distinguish outcomes by attempt, but a bounded audited ledger cohort is not complete per-cell coverage with partial backend failures, explicit zero results and unresolved gaps across planned scope.",
+      "concrete_next_action": "Join all planned cells and attempts, report attempted/declined/failed/zero/unattempted per backend and query family, and retain scope failures."
+    },
+    {
+      "phase": "P7",
+      "requirement": "Implement due-work rules for qualification, elections, certification/recounts, implementation and expiry.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_ballot_due_work.py",
+          "support": "tasks, task_counts, source_hashes"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_worklist.py",
+          "support": "computed_expiry and priority buckets"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_ballot_due_work.py",
+          "support": "scheduled, successor, advisory and partial date tests"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/audit/ballot-due-work-2026-11-06.json",
+          "support": "task_counts and source_hashes"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_adaptive_revisit_plan.py",
+          "support": "plan and load_observations"
+        }
+      ],
+      "limits": "Ballot and inventory prompts cover portions of qualification, election, certification, implementation and expiry. Exact-date-only rules, no statutory deadlines, no comprehensive recount/amendment/event triggers, and no task resolution or inventory-wide calibration.",
+      "concrete_next_action": "Extend source-aware lifecycle triggers and explicit task resolution across records, including recounts, implementation and supported expiry; calibrate against reviewed cases."
+    },
+    {
+      "phase": "P7",
+      "requirement": "Exercise an end-to-end correction and refresh cycle manually.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/refresh-operations.md",
+          "support": "Due work; Acquisition and interruption; Restore and release preparation; search cohort"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_ballot_due_work.py",
+          "support": "tasks, task_counts, source_hashes"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_adaptive_revisit_plan.py",
+          "support": "plan and load_observations"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/research/2026-11-06/seattle-identity-review/retirement-validation.json",
+          "support": "identity replay and interrupted transaction validation"
+        }
+      ],
+      "limits": "Individual correction, replay, cache and planner exercises exist; no evidenced single manual cycle from due detection through reacquisition, review, correction, export and regenerated freshness/backlog on released contracts.",
+      "concrete_next_action": "Exercise one authorized bounded correction and subsequent refresh end-to-end, preserving before/after hashes and each stage receipt; do not restart old jobs."
+    },
+    {
+      "phase": "P7",
+      "requirement": "Track source failures, backend contribution, coverage gaps, freshness and review backlog.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/audit_search_cohort.py",
+          "support": "audit, verified_attempts_by_backend and priced_subtotal_usd"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/audit/search-provenance-cohort-2026-11-06.json",
+          "support": "verified cohort totals and ledger fingerprints"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/build_refresh_accounting.py",
+          "support": "build and collection_stage"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/audit/ballot-due-work-2026-11-06.json",
+          "support": "task_counts"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/refresh-operations.md",
+          "support": "Due work; Acquisition and interruption; Restore and release preparation; search cohort"
+        }
+      ],
+      "limits": "Cohort failures and backend totals, due-work and field accounting exist in separate scoped reports; no unified complete search-cell contribution, source freshness and review backlog tracking.",
+      "concrete_next_action": "Join planned cells, attempt outcomes, unique backend contribution, source-specific observation times, and review dispositions with explicit missingness."
+    },
+    {
+      "phase": "P7",
+      "requirement": "Document operator recovery, storage restore, interruption and budget-stop procedures.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/refresh-operations.md",
+          "support": "Due work; Acquisition and interruption; Restore and release preparation; search cohort"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/research_client.py",
+          "support": "reserve, execute, search_scope"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/tests/test_research_client.py",
+          "support": "interrupted reservations and caps"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/audit/legacy-source-migration-2026-11-06/validation.json",
+          "support": "migration validation"
+        }
+      ],
+      "limits": "Instructions cover preserving ledgers and observing process handles, metadata backup, and bundle restore; they explicitly do not demonstrate independent full blob restore or a comprehensive budget-stop/resume runbook.",
+      "concrete_next_action": "Write and validate a restore/reconciliation and interruption/budget-stop procedure covering metadata plus blobs, integrity, safe resume, unpriced spend and explicit checkpoints."
+    },
+    {
+      "phase": "P7",
+      "requirement": "Create schedules only if explicitly requested; record cutoff, scope and budget for each.",
+      "disposition": "partially_implemented",
+      "evidence_paths": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/refresh-operations.md",
+          "support": "Due work; Acquisition and interruption; Restore and release preparation; search cohort"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "support": "sections 8 and 12"
+        }
+      ],
+      "limits": "Documented policy says no schedule installed and requires separate request. No independent scheduler inventory or per-schedule cutoff/scope/budget receipt was inspected; no schedule was created by this review.",
+      "concrete_next_action": "Maintain no-implicit-scheduling policy; if explicitly requested, record authorization, cutoff, scope, budgets and disable/recovery details for each schedule."
+    }
+  ],
+  "priority_actions": [
+    "Review and version jurisdiction/source registry and freeze sparse three-lane cells; reuse bc-spec and existing worklists.",
+    "Add deterministic seeded preview and budgets first: reuse persistent reservations and bc-core BudgetMeter; resolve unpriced-call policy before any batch.",
+    "Connect named provider variants, native fusion and provenance to planned cells; reuse bc-web Searcher and bc-research search pool; preserve failures and existing ledgers.",
+    "Add news, host discovery, time walk, undated recovery and bounded chase; reuse bc-web/newsfeeds and bc-research intent, discovery, walk and chase modules.",
+    "Freeze holdout and calibrate search tiers and difficult-case escalation, with primary and reverse-polarity recall.",
+    "Unify source freshness, coverage, backend contribution and review backlog; expand due rules and explicit task resolution.",
+    "Document and validate interruption, budget-stop and independent metadata-plus-blob restore, then exercise a complete authorized manual correction/refresh cycle.",
+    "Only create schedules on explicit request, each with scope, cutoff and budget."
+  ]
+}

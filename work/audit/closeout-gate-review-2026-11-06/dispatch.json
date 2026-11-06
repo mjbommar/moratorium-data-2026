@@ -1,0 +1,25 @@
+{
+  "queue": "/home/mjbommar/projects/personal/moratorium-data-2026/work/jobs/2026-11-06-closeout/queue.json",
+  "queue_model": "gpt-6.1-terra",
+  "pid": 1343587,
+  "started_at": "2026-11-06T21:29:29.893913+00:00",
+  "state": "queue_terminal_pending_review",
+  "jobs": {
+    "closeout-pipeline-contracts": {
+      "state": "finished",
+      "child_pid": 1343617,
+      "exit_code": 0
+    },
+    "closeout-search-maintenance": {
+      "state": "finished",
+      "child_pid": 1343624,
+      "exit_code": 0
+    }
+  },
+  "updated_at": "2026-11-06T21:31:59.960514+00:00",
+  "counts": {
+    "active": 0,
+    "pending": 0,
+    "terminal": 2
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "refresh-search-plan-1",
+  "registry": [
+    {
+      "id": "jay-me",
+      "label": "Town of Jay, Maine",
+      "aliases": [
+        "Jay"
+      ],
+      "official_hosts": [
+        {
+          "host": "www.jay-maine.org",
+          "source_url": "https://www.jay-maine.org/wp-content/uploads/2026/09/signed-warrant-for-town-meeting.pdf",
+          "body_sha256": "c0d138f1f93e6ffb41cc499f7ef1ced09e9ee35d687f244b7e725e7c07ff9abd",
+          "locator": "Previously reviewed signed official warrant for November 3 Articles 2/3"
+        }
+      ]
+    }
+  ],
+  "cells": [
+    {
+      "id": "jay-primary-return-gap",
+      "lane": "election_census",
+      "jurisdiction_id": "jay-me",
+      "sector": "solar",
+      "period": "2026-11-03-through-2026-11-05",
+      "intent": "primary-election-return-unfiltered-source-recovery",
+      "known_id": "jay-article-3-2026",
+      "variants": [
+        {
+          "name": "exa-primary-return",
+          "backend": "exa",
+          "query": "Town of Jay Maine official November 3 2026 election results Article 3 commercial solar moratorium town clerk return tally",
+          "max_results": 5,
+          "include_domains": [
+            "www.jay-maine.org"
+          ]
+        },
+        {
+          "name": "google-primary-return",
+          "backend": "serpapi",
+          "query": "\"Jay\" \"2026\" \"November\" \"results\"",
+          "max_results": 5,
+          "include_domains": [
+            "www.jay-maine.org"
+          ]
+        }
+      ]
+    }
+  ],
+  "sample": {
+    "strategy": "full",
+    "seed": 20261106
+  },
+  "caps": {
+    "exa": 1,
+    "serpapi": 1,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 2
+  },
+  "allow_unpriced": true
+}

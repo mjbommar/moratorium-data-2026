@@ -1,0 +1,113 @@
+{
+  "schema_version": "review-search-provenance-1",
+  "scope": "Review only. No canonical IDs, source acceptance, rank fusion or jurisdiction-wide completeness asserted. Missing query/window for failed or interrupted legacy reservations remains unknown.",
+  "ledger_sha256": "ba29ea9951cd27b0572ef8f849686b95ae8a8847227a1c87493082363f65e29b",
+  "exchange_ledger_sha256": "0a845a9c82ba9f02d1e6aa2a7b94593fd855e00f0d09d085b6e4ddcbb35a1a7b",
+  "attempts": [
+    {
+      "attempt_id": "331960e9ae6d4aa0aec0d9690d13370b",
+      "backend": "exa",
+      "started_at": "2026-11-06T21:37:57.028416+00:00",
+      "client_sha256": "2d0b98f7f96f19ab20d5f812e64cebc3a19bde8eb9e2a1837104dd8c8896273a",
+      "config_sha256": "e68e9050e37bb63c072b53529a345013f4df2f0303b7ebd8dc6e9c659b33ad79",
+      "outcome": "success",
+      "query": "Town of Jay Maine official November 3 2026 election results Article 3 commercial solar moratorium town clerk return tally",
+      "spend_usd": 0.007,
+      "response_sha256": "03b263e8bc1d52045f080939886c9da1944fa7db4271c08673e1bb34b06f56cf",
+      "hit_count": 5,
+      "exchanges": [
+        {
+          "status": 200,
+          "original_body_sha256": "c69eaddc767c65868b4bb6b49657ee5b96d0970a9653443fcdac411f7e6e3d89",
+          "stored_body_sha256": "c69eaddc767c65868b4bb6b49657ee5b96d0970a9653443fcdac411f7e6e3d89",
+          "redacted": false
+        }
+      ],
+      "error_type": null,
+      "publication_window": {
+        "since": null,
+        "until": null
+      },
+      "declined": null
+    },
+    {
+      "attempt_id": "c7b081caf5134f1b85d7f89876f4b11e",
+      "backend": "serpapi",
+      "started_at": "2026-11-06T21:37:57.028556+00:00",
+      "client_sha256": "2d0b98f7f96f19ab20d5f812e64cebc3a19bde8eb9e2a1837104dd8c8896273a",
+      "config_sha256": "e68e9050e37bb63c072b53529a345013f4df2f0303b7ebd8dc6e9c659b33ad79",
+      "outcome": "success",
+      "query": "\"Jay\" \"2026\" \"November\" \"results\"",
+      "spend_usd": null,
+      "response_sha256": "6972f21227281e9ee121643b58b139ff605406013b43b42a6fc2213f7f892b28",
+      "hit_count": 1,
+      "exchanges": [
+        {
+          "status": 200,
+          "original_body_sha256": "ab4f9c82ec9693b4cb75858543d88b90b811825bba92c7fe08ac6e787d89b7dc",
+          "stored_body_sha256": "ab4f9c82ec9693b4cb75858543d88b90b811825bba92c7fe08ac6e787d89b7dc",
+          "redacted": false
+        }
+      ],
+      "error_type": null,
+      "publication_window": {
+        "since": null,
+        "until": null
+      },
+      "declined": null
+    }
+  ],
+  "sightings": [
+    {
+      "attempt_id": "331960e9ae6d4aa0aec0d9690d13370b",
+      "returned_order": 1,
+      "provider_position": 1,
+      "url": "https://www.jay-maine.org/warrant-for-november-3-2026-special-town-meeting/",
+      "seen_at": "2026-11-06T21:37:58.135622+00:00"
+    },
+    {
+      "attempt_id": "331960e9ae6d4aa0aec0d9690d13370b",
+      "returned_order": 2,
+      "provider_position": 2,
+      "url": "https://www.jay-maine.org/wp-content/uploads/2026/09/Minutes-9-1-2026.pdf",
+      "seen_at": "2026-11-06T21:37:58.135622+00:00"
+    },
+    {
+      "attempt_id": "331960e9ae6d4aa0aec0d9690d13370b",
+      "returned_order": 3,
+      "provider_position": 3,
+      "url": "https://www.jay-maine.org/category/notices/",
+      "seen_at": "2026-11-06T21:37:58.135622+00:00"
+    },
+    {
+      "attempt_id": "331960e9ae6d4aa0aec0d9690d13370b",
+      "returned_order": 4,
+      "provider_position": 4,
+      "url": "https://www.jay-maine.org/wp-content/uploads/2026/09/Agenda-09-01-26.pdf",
+      "seen_at": "2026-11-06T21:37:58.135622+00:00"
+    },
+    {
+      "attempt_id": "331960e9ae6d4aa0aec0d9690d13370b",
+      "returned_order": 5,
+      "provider_position": 5,
+      "url": "https://www.jay-maine.org/town-office/",
+      "seen_at": "2026-11-06T21:37:58.135622+00:00"
+    },
+    {
+      "attempt_id": "c7b081caf5134f1b85d7f89876f4b11e",
+      "returned_order": 1,
+      "provider_position": 1,
+      "url": "https://www.jay-maine.org/wp-content/uploads/2025/03/Audit-FY24-Final.pdf",
+      "seen_at": "2026-11-06T21:37:58.136086+00:00"
+    }
+  ],
+  "summary": {
+    "search_attempts": 2,
+    "successful_zero_hit_attempts": 0,
+    "failed_attempts": 0,
+    "interrupted_attempts": 0,
+    "partial_attempts": 0,
+    "priced_subtotal_usd": 0.007,
+    "unpriced_attempts": 1
+  }
+}

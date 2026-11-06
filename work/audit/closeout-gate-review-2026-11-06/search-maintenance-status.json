@@ -1,0 +1,34 @@
+{
+  "job_id": "closeout-search-maintenance",
+  "supervisor_pid": 1343618,
+  "model": "gpt-6.1-terra",
+  "owned_paths": [
+    "/data0/moratorium-refresh-2026/closeout-audit/closeout-search-maintenance"
+  ],
+  "started_at": "2026-11-06T21:29:29.968865+00:00",
+  "state": "finished",
+  "prompt_sha256": "fbdad7b61e94885b3aeec6d68f6a2eb64943d436fab82d558c16a6b6ba48487f",
+  "command": [
+    "codex",
+    "--search",
+    "exec",
+    "--model",
+    "gpt-6.1-terra",
+    "--sandbox",
+    "danger-full-access",
+    "-c",
+    "approval_policy=\"never\"",
+    "-c",
+    "model_reasoning_effort=\"medium\"",
+    "--cd",
+    "/home/mjbommar/projects/personal/moratorium-data-2026",
+    "--json",
+    "--output-last-message",
+    "/data0/moratorium-refresh-2026/closeout-audit/runs/closeout-search-maintenance/last-message.txt",
+    "-"
+  ],
+  "host": "server0",
+  "child_pid": 1343624,
+  "ended_at": "2026-11-06T21:31:30.956964+00:00",
+  "exit_code": 0
+}

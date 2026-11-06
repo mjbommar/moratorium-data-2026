@@ -41,8 +41,8 @@ Exit: ballot cases fit without conflating votes, legal force or legacy counts.
 - [ ] Build a closed jurisdiction/official-source registry with aliases and election-portal hosts.
 - [ ] Build sparse bc-spec worklists for inventory refresh, election census and gap discovery.
 - [ ] Add deterministic plan preview, seeded sampling and call/cost estimates.
-- [ ] Configure provider-specific Exa/Google query variants through `Searcher.search_many`.
-- [ ] Retain rank fusion provenance, original sightings, response hashes and backend errors.
+- [x] Configure provider-specific Exa/Google query variants through native `Searcher.search_many`; run bounded Seattle and Jay cases with persistent call reservations and exact native/runtime pins (`docs/search-refresh-batch.md`). Full registry/worklist generation, account pricing and calibration remain separate open gates.
+- [x] Retain native reciprocal-rank fusion provenance, original per-variant sightings, response hashes and backend errors in the search-batch adapter. Verify shared-URL fusion, concurrent same-provider attribution, credential redaction, normalizer compatibility and exact cached replay; broader canonical provenance migration remains open (`docs/search-refresh-batch.md`).
 - [x] Add offline research-client search provenance review adapter; verify three actual Jay responses/provider exchanges and preserve unpriced spend separately. Error-path exchange ingestion and new durable query/window intent are also tested; canonical publication and rank fusion remain open (`scripts/normalize_search_provenance.py`).
 - [ ] Add Google News RSS/GDELT and bounded paid-news escalation with index-window decline handling.
 - [ ] Add intent-specific query expansion, primary-host discovery, historical time walks and undated-source recovery.
@@ -53,8 +53,8 @@ Exit: ballot cases fit without conflating votes, legal force or legacy counts.
 - [ ] Pin model roles/settings and cache fingerprints; redact secrets from retained responses.
 - [x] Implement HTTP/browser escalation and bounded PDF/office-document collection.
 - [ ] Configure source/provider pacing, Retry-After, explicit retries and verified routing as applicable.
-- [ ] Make partial backend failure and zero-result cells distinguishable in coverage reports.
-- [x] Publish the first bounded canonical search provenance cohort (Jay: one run, three attempts, eighteen sightings, one partial coverage observation), after full evidence preflight and identity review; preserve all prior domain tables and verify exact replay. Broader migration, fusion and coverage calibration remain open (`jay-search-promotion/`).
+- [x] Distinguish backend errors, successful zero-hit queries, index-window declines and returned hits in bounded search coverage reports; retain separate domain-mismatch diagnostics. Test error/zero/decline paths and retain the actual deficient Seattle query plus separately capped repair (`docs/search-refresh-batch.md`).
+- [x] Publish the first bounded canonical search provenance cohort (Jay: one run, three attempts, eighteen sightings, one partial coverage observation), after full evidence preflight and identity review; preserve all prior domain tables and verify exact replay. Broader canonical migration and coverage calibration remain open; the later native fusion adapter is recorded separately (`jay-search-promotion/`, `docs/search-refresh-batch.md`).
 
 Exit: read-only dry-run and bounded acquisition produce auditable plans and attempts.
 

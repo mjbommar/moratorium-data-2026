@@ -1,0 +1,19 @@
+{
+  "audit_baseline_commit": "dcf66464d16b08a18aab2b2a56b51ba790e82754",
+  "model": "gpt-6.1-terra",
+  "terminal_jobs": 2,
+  "worker_items": 43,
+  "expected_unchecked_items_in_assigned_phases": 44,
+  "verified_evidence_file_hashes": 67,
+  "evidence_hash_mismatches": [],
+  "coordinator_supplement": [
+    {
+      "requirement": "Recover Jay's primary election return/certification, formal passage rule/outcome, enrolled law, town-established effectiveness and operative history; resolve independent petition sufficiency and any legacy instrument link (`work/audit/jay-solar-ballot-followup-2026-11-06.json`). Scoped publication does not close these evidence requirements.",
+      "disposition": "partially_implemented",
+      "evidence": "work/audit/jay-solar-ballot-followup-2026-11-06.json",
+      "sha256": "409556320c2e9c973ad4542137cfcbe2e8e8ab145b7c0914708ac76228b80d0a",
+      "limits": "Worker omitted this appended P7-line item. Existing scoped Jay publication does not establish primary return/certification or operative law. New bounded source search is recorded separately."
+    }
+  ],
+  "scope": "Read-only static/receipt audit. No requirement automatically checked off; new adapter work postdates audit baseline. P5/P6 not assigned to these jobs. No tests, new sources or model extraction were performed by workers."
+}

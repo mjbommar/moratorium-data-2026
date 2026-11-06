@@ -1,0 +1,53 @@
+{
+  "schema_version": "refresh-search-preview-1",
+  "plan_sha256": "7c712ba208b3ff031a835e2b937a479dc14d4bb34ac6260df797338d7d47b050",
+  "space_id": "73a70c2771923865",
+  "explicit_cells": 1,
+  "selected_cells": [
+    {
+      "id": "jay-primary-return-gap",
+      "lane": "election_census",
+      "jurisdiction_id": "jay-me",
+      "sector": "solar",
+      "period": "2026-11-03-through-2026-11-05",
+      "intent": "primary-election-return-unfiltered-source-recovery",
+      "known_id": "jay-article-3-2026",
+      "variants": [
+        {
+          "name": "exa-primary-return",
+          "backend": "exa",
+          "query": "Town of Jay Maine official November 3 2026 election results Article 3 commercial solar moratorium town clerk return tally",
+          "max_results": 5,
+          "include_domains": [
+            "www.jay-maine.org"
+          ]
+        },
+        {
+          "name": "google-primary-return",
+          "backend": "serpapi",
+          "query": "\"Jay\" \"2026\" \"November\" \"results\"",
+          "max_results": 5,
+          "include_domains": [
+            "www.jay-maine.org"
+          ]
+        }
+      ],
+      "point_id": "ff14dc2073c7fd17"
+    }
+  ],
+  "excluded_cell_ids": [],
+  "sample": {
+    "strategy": "full",
+    "seed": 20261106
+  },
+  "provider_calls": {
+    "exa": 1,
+    "serpapi": 1
+  },
+  "estimated_calls": 2,
+  "estimated_total_usd": null,
+  "unpriced_components": [
+    "queries"
+  ],
+  "scope": "Sparse reviewed-registry input only; no Cartesian expansion, no API calls, no legal/event-date filtering or completeness inference."
+}

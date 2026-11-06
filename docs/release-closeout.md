@@ -43,3 +43,7 @@ The Seattle duplicate is now explicitly retired with both IDs and full original 
 - Give an ETA only after measuring the remaining review and closure work. No completion date is supported by the current receipts. The frozen review queue is now dispositioned. The next milestone is closure of the remaining implementation/freshness gates and Jay's remaining result/legal-history gaps, followed by a validated final data freeze.
 
 The final handoff must state plainly whether the release is published and deployed. A pushed working commit, terminal jobs, a draft release or an accepted deployment webhook alone cannot substantiate completion.
+
+## Search adapter closeout increment
+
+Two new `gpt-6.1-terra` CLI jobs reviewed unchecked P1/P2/P3/P4/P7 gates; [coordinator reconciliation](../work/audit/closeout-gate-review-2026-11-06/README.md) verifies 67 supplied evidence hashes and all 44 assigned items, including one worker omission supplied by the coordinator. This static review does not close the remaining requirements. The subsequent [native search-batch adapter](search-refresh-batch.md) closes named-query/fusion and error-versus-zero coverage behavior. Sparse preview, seeded sampling and call estimates are implemented, while full registry/worklists, account-specific prices/dollar budgets and calibration remain open. Five bounded searches plus two Jay fetches do not change canonical counts or resolve legal-force/result gaps. Final release remains unpublished.

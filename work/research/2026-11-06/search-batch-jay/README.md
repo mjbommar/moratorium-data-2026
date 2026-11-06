@@ -1,0 +1,7 @@
+# Jay primary-return follow-up
+
+The [explicit plan](plan.json) and [preview](preview.json) target the unresolved primary Article 3 return. [Validation](validation.json) records two actual native search_many calls, six original sightings, fused ranks, response hashes, normalizer compatibility and an exact no-spend cached replay. The [normalized review packet](normalized.json) contains URLs/ranks/provenance, without source snippets or bodies. The human known-object context label is explicitly mapped to the existing canonical measure UUID in validation; it is not a new public identity.
+
+[Follow-up acquisitions](acquisition-review.json) record an HTTP 404 on the indexed warrant landing and a successful actual pydoll/bc-web rendering of the notices page. The latter contains an unrelated hiring notice. Only these two endpoints were checked; neither establishes an election-return absence finding or site completeness. Earlier retained warrant PDFs remain distinct historical observations, not invalidated by a failed landing page.
+
+No primary return, certification, formal passage rule or operative law was accepted. Existing secondary unofficial counts and all canonical data remain unchanged. Full source/response/browser payloads remain private. See [adapter documentation](../../../../docs/search-refresh-batch.md) and the [continuing Jay requirements](../../../audit/jay-solar-ballot-followup-2026-11-06.json).

@@ -1,0 +1,62 @@
+{
+  "scope": "Two bounded endpoint acquisitions. Raw HTML/text/network data private. No primary election return, certification, passage rule or operative law accepted.",
+  "documents": [
+    {
+      "attempt_id": "1f96fa2440f946e0a499bf0ae0e22357",
+      "url": "https://www.jay-maine.org/warrant-for-november-3-2026-special-town-meeting/",
+      "final_url": "https://www.jay-maine.org/warrant-for-november-3-2026-special-town-meeting/",
+      "status": 404,
+      "ok": false,
+      "chars": 2935,
+      "body_sha256": "052db5ba2a86cbec71922c14269f8e9451c28681bb63b3c51b59b3e5453259f7",
+      "text_sha256": "45eb92350704d61d660fd19de1c1541fe51610bc745d32a04bb42ec40eb549ac",
+      "body_observed_at": "2026-11-06T21:38:36.386738Z",
+      "browser_controls": null,
+      "acquisition_artifact_sha256": "2d8d148e14c63281119c6cc7bab6cf377faa048f3e33c937f2d9835d13d5ff3b",
+      "transport_attempts": [
+        {
+          "tier": "http",
+          "engine": null,
+          "headless": null,
+          "status": 404,
+          "elapsed_ms": 890,
+          "outcome": "http_error"
+        }
+      ]
+    },
+    {
+      "attempt_id": "695a22be618c4889a3e4f0afba6e0bb2",
+      "url": "https://www.jay-maine.org/category/notices/",
+      "final_url": "https://www.jay-maine.org/category/notices/",
+      "status": 200,
+      "ok": true,
+      "chars": 2832,
+      "body_sha256": "0a53993f01bed442398a3f2d641fcb282019a9decab63137a3cdc34213b32817",
+      "text_sha256": "68ae01cd5028cedbc37670934956dbe4e601e0cebf9722e82868ef0f19f6e590",
+      "body_observed_at": "2026-11-06T21:38:41.489418Z",
+      "browser_controls": {
+        "engine": "pydoll",
+        "headless": false,
+        "settle_ms": 1500,
+        "record_network": true
+      },
+      "acquisition_artifact_sha256": "9bf71a68b761317581aed12592ccda8a444bc82cd0f337d10a054c40757aad50",
+      "transport_attempts": [
+        {
+          "tier": "browser",
+          "engine": "pydoll",
+          "headless": false,
+          "status": 200,
+          "elapsed_ms": 4815,
+          "outcome": "ok"
+        }
+      ]
+    }
+  ],
+  "dispositions": {
+    "http_warrant_landing": "404 with site boilerplate; failed source recovery. Retained earlier signed warrant PDF remains its distinct historical observation.",
+    "pydoll_notices": "200; rendered one-item notices page with unrelated hiring notice. Only this page checked; not a complete archive/site or election absence finding."
+  },
+  "ledger_sha256": "402022c7a4966be6b08c8dcd3bc9d17a0fed991e0a0659a0ee7b8e82b108a5fb",
+  "canonical_data_changes": 0
+}

@@ -1,0 +1,90 @@
+{
+  "plan_sha256": "8608261e511abffe2669c5e88561068cade1deb02f113dab72099960a887b396",
+  "bc_modules_commit": "f6187344c697334dbca3f037fd0a670a995f59c8",
+  "runtime_file_hashes": {
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/search_refresh_batch.py": "cd0b2f52fd89c8743f1fc96ae635df366dd54b3ea3f526c2cac795c847bf15ed",
+    "/home/mjbommar/projects/personal/moratorium-data-2026/scripts/research_client.py": "2d0b98f7f96f19ab20d5f812e64cebc3a19bde8eb9e2a1837104dd8c8896273a",
+    "/home/mjbommar/projects/bc/bc-modules/bc-spec/python/bc_spec/models.py": "49616d825ce7024f33c47823e374d5743dfb4c078f4e4fdaeba512e950b0dc8f",
+    "/home/mjbommar/projects/bc/bc-modules/bc-spec/python/bc_spec/plan.py": "0550c655763b386777c71f753e65216c800b75aadf690af2df8130c0f3508a2f",
+    "/home/mjbommar/projects/bc/bc-modules/bc-web/python/bc_web/search.py": "4b0c6b22d7c831ca64ba6da36dcace2613762fab3bfc939ba9d07ea65e464b6c",
+    "/home/mjbommar/projects/bc/bc-modules/bc-web/python/bc_web/fusion.py": "9d4b2867b6f183b4db4a490627adf5d7c17c8748932ad9ea5ae51fc5551634fe",
+    "/home/mjbommar/projects/bc/bc-modules/bc-core/python/bc_core/rankfusion.py": "8605e2b9b57927ce9f49097eef5b193820e5ccce444b065fdc1eae290973eef7"
+  },
+  "ledger_sha256": "38554bb44a5d08dcfebf210744675c75f1be8f55cca88e8a17103720921d98d6",
+  "result_sha256": "849e8592f2cfaef80756f7ceb7db1c257e79dbdd324a0f36dc9ca482022f5ad2",
+  "reserved_attempts": 2,
+  "finished_attempts": 2,
+  "provider_exchange_count": 2,
+  "provider_response_statuses": [
+    200,
+    200
+  ],
+  "cells": [
+    {
+      "cell_id": "seattle-later-history",
+      "point_id": "53536e441c8f168a",
+      "artifact": "53536e441c8f168a.private.json",
+      "coverage": {
+        "variants": {
+          "exa-semantic-history": "returned_hits",
+          "google-exact-history": "returned_hits"
+        },
+        "status": "completed_bounded_search",
+        "scope": "Returned search coverage only; zero indexed hits do not establish absence or complete jurisdiction/election coverage."
+      },
+      "response_variants": [
+        "exa-semantic-history",
+        "google-exact-history"
+      ],
+      "domain_diagnostics": {
+        "exa-semantic-history": {
+          "status": "all_returned_urls_in_declared_sites",
+          "declared_sites": [
+            "clerk.seattle.gov",
+            "seattle.legistar.com"
+          ],
+          "matching_hits": 5,
+          "nonmatching_hits": 0,
+          "observed_hosts": [
+            "clerk.seattle.gov",
+            "seattle.legistar.com"
+          ],
+          "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+        },
+        "google-exact-history": {
+          "status": "no_returned_url_in_declared_sites",
+          "declared_sites": [
+            "clerk.seattle.gov",
+            "seattle.legistar.com"
+          ],
+          "matching_hits": 0,
+          "nonmatching_hits": 5,
+          "observed_hosts": [
+            "www.bf-law.com",
+            "www.google.com",
+            "www.jdsupra.com"
+          ],
+          "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+        }
+      },
+      "variant_contribution": {
+        "exa-semantic-history": {
+          "fused_urls": 5,
+          "unique_fused_urls": 5
+        },
+        "google-exact-history": {
+          "fused_urls": 5,
+          "unique_fused_urls": 5
+        }
+      },
+      "sightings": 10,
+      "fused_urls": 10,
+      "known_search_subtotal_usd": 0.007,
+      "unpriced_or_failed_variants": [
+        "google-exact-history"
+      ]
+    }
+  ],
+  "scope": "Bounded native search_many observations, not source acceptance, current-force confirmation, a complete election census or canonical provenance migration.",
+  "scope_qualification": "Google returned five unrelated/outside-host URLs. Transport completion is not adequate query coverage. Retain as partial/deficient; explicit one-call repair has a separate plan. This prototype predates the final per-variant normalization-compatible response artifacts."
+}

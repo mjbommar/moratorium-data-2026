@@ -1,0 +1,32 @@
+{
+  "scope": "Bounded search-adapter and static closeout audit increment; no canonical data promotion or release publication.",
+  "tests": {
+    "interpreter": "bc-modules Python 3.14 native environment",
+    "passed": 231,
+    "new_behavioral_tests": 9
+  },
+  "data_check": {
+    "errors": 0,
+    "warnings": 489,
+    "documented_number_matches": 53
+  },
+  "live_searches": {
+    "exa": 2,
+    "serpapi": 3,
+    "known_subtotal_usd": 0.014,
+    "unpriced_calls": 3,
+    "not_campaign_total": true
+  },
+  "source_fetches": {
+    "http": 1,
+    "pydoll_browser": 1,
+    "newly_accepted_domain_facts": 0
+  },
+  "distributed_cli_jobs": {
+    "model": "gpt-6.1-terra",
+    "finished": 2,
+    "restarted_completed_jobs": 0
+  },
+  "canonical_data_changes": 0,
+  "unresolved": "Full registry/worklists, whole-run USD controls, calibration, evidence/freshness review, consumer reconciliation, release and deployment remain open."
+}

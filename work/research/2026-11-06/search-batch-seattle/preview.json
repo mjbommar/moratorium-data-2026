@@ -1,0 +1,55 @@
+{
+  "schema_version": "refresh-search-preview-1",
+  "plan_sha256": "8608261e511abffe2669c5e88561068cade1deb02f113dab72099960a887b396",
+  "space_id": "e475f50d994b79e0",
+  "explicit_cells": 1,
+  "selected_cells": [
+    {
+      "id": "seattle-later-history",
+      "lane": "inventory_refresh",
+      "jurisdiction_id": "seattle-wa",
+      "sector": "data_center",
+      "period": "through-2026-11-05",
+      "intent": "later-operative-history-unfiltered-source-recovery",
+      "known_id": "wa-seattle-2026",
+      "variants": [
+        {
+          "name": "exa-semantic-history",
+          "backend": "exa",
+          "query": "Seattle Washington Ordinance 127447 CB 121214 data center moratorium amendments extension repeal adopted after June 2026 through November 5 2026",
+          "max_results": 5,
+          "include_domains": [
+            "clerk.seattle.gov",
+            "seattle.legistar.com"
+          ]
+        },
+        {
+          "name": "google-exact-history",
+          "backend": "serpapi",
+          "query": "(\"127447\" OR \"121214\") (amend OR extension OR repeal OR moratorium)",
+          "max_results": 5,
+          "include_domains": [
+            "clerk.seattle.gov",
+            "seattle.legistar.com"
+          ]
+        }
+      ],
+      "point_id": "53536e441c8f168a"
+    }
+  ],
+  "excluded_cell_ids": [],
+  "sample": {
+    "strategy": "full",
+    "seed": 20261106
+  },
+  "provider_calls": {
+    "exa": 1,
+    "serpapi": 1
+  },
+  "estimated_calls": 2,
+  "estimated_total_usd": null,
+  "unpriced_components": [
+    "queries"
+  ],
+  "scope": "Sparse reviewed-registry input only; no Cartesian expansion, no API calls, no legal/event-date filtering or completeness inference."
+}
