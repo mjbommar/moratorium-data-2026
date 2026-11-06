@@ -1,0 +1,111 @@
+{
+  "state_abbrev": "WI",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wi-town-of-new-denmark-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://townofnewdenmarkwi.gov/news-and-notices/notice-of-moratorium-of-data-centers/",
+          "source_type": "resolution",
+          "supports": "Town identifies its resolution as #2026-04; its dated text adopts a one-year pause.",
+          "quote": "1. Adopting a one (l) year moratorium on the placing of Data Centers within the Town.",
+          "document_date": "2026-06-08",
+          "publisher": "Town of New Denmark"
+        }
+      ],
+      "notes": "Resolution number corrected from town text. Original resolution alone does not verify current force, publication, later termination, or an extension.",
+      "changes": {
+        "legal_basis": {
+          "from": "Town of New Denmark Town Board moratorium on placing data centers in the town; instrument number not located in sources reviewed",
+          "to": "Resolution #2026-04 (Town of New Denmark, Brown County)",
+          "reason": "Town-hosted resolution identifies its number."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Resolution specifies one year, not a fixed count of days."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "A calendar year must not be represented as exactly 365 days."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31.",
+          "to": "Town-hosted Resolution 2026-04 states adoption of a one-year data-center siting moratorium and directs work on local regulations. Publication, actual operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    },
+    {
+      "moratorium_id": "wi-village-of-ashwaubenon-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.ashwaubenon.gov/media/sgia2tfs/o6-1-26.pdf",
+          "source_type": "ordinance",
+          "supports": "Text specifies a calendar term and earlier ending conditions; signature and publication fields in this copy are blank.",
+          "quote": "be in effect for a period of 12 months from the date of this ordinance is published or until",
+          "publisher": "Village of Ashwaubenon"
+        }
+      ],
+      "notes": "Official hosted ordinance text has blank adoption and publication fields. Calendar-term correction concerns text, not present force, effective date, or adoption verification.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "unknown",
+          "reason": "Posted calendar wording has incomplete execution/publication; final enacted term not established."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Twelve calendar months is not a fixed 365-day term."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31.",
+          "to": "The posted ordinance text specifies twelve months from publication or specified village amendment/rescission, but adoption, signature and publication fields are blank. Final enacted term, effective interval and later legal force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    },
+    {
+      "moratorium_id": "wi-village-of-cottage-grove-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.vi.cottagegrove.wi.gov/AgendaCenter/ViewFile/Item/20208?fileID=37767",
+          "source_type": "ordinance",
+          "supports": "Ordinance text describes calendar months and a potentially earlier end; this copy has blank signature lines.",
+          "quote": "months following the effective date of this ordinance, or upon approval or final rejection",
+          "document_date": "2026-07-20",
+          "publisher": "Village of Cottage Grove"
+        }
+      ],
+      "notes": "Calendar-term correction concerns text only. Effectiveness depends on publication and may end earlier; no later implementation or repeal verified.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "unknown",
+          "reason": "Posted calendar wording has incomplete execution/publication; final enacted term not established."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Twelve calendar months is not a fixed 365-day term."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31.",
+          "to": "The posted ordinance states twelve months from effectiveness or approval or final rejection of a data-center ordinance, whichever earlier. It labels July 20 adoption but has blank signatures and requires passage/publication for effect. Final execution/publication, later legislative outcomes and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    }
+  ],
+  "new_candidates": []
+}

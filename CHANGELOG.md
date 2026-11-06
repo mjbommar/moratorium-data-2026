@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+New Denmark’s town-hosted Resolution 2026-04 identifies the one-year term. Ashwaubenon and Cottage Grove posted calendar wording replaces unsupported day counts while incomplete execution/publication leaves actual term classifications unknown. Cottage Grove’s early-end condition includes final rejection, not only approval, of regulation. Later legal force remains unresolved.
+
 Sauk’s preliminary eighteen-month/publication wording remains distinct from news-reported 27-1 adoption; final executed term is unresolved. Shawano’s county-posted text and reported June 24 adoption preserve a twelve-month term, participating-town jurisdiction and valid-approval exception. Unsupported day conversions are cleared; later operative intervals and force remain unresolved.
 
 Oneida’s August minutes identify Resolution 56-2026 / Ordinance Amendment 02-2026 and twelve months from adoption. Polk Resolution 29-26 instead anchors twelve months to publication, with earlier county-board action conditions. Unsupported fixed-day encodings are cleared; publication, operative intervals and later force remain unresolved.
@@ -230,7 +232,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1071** |
 | Pending or not yet effective | **67** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **662** |
+| Rows we still want to confirm (`[VERIFY]`) | **665** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

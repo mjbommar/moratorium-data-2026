@@ -574,10 +574,10 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-town-of-new-denmark-2026`
-- **Legal basis:** Town of New Denmark Town Board moratorium on placing data centers in the town; instrument number not located in sources reviewed
+- **Legal basis:** Resolution #2026-04 (Town of New Denmark, Brown County)
 - **What prompted it:** Pause on placing data centers in the town while the Plan Commission and Zoning Administrator research and develop siting, zoning, and operating rules.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31.
+- **Detailed status:** Town-hosted Resolution 2026-04 states adoption of a one-year data-center siting moratorium and directs work on local regulations. Publication, actual operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted one-year moratorium on placing data centers in the town.
 
 ### Vilas County
@@ -609,7 +609,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Ordinance O6-1-26 (Village of Ashwaubenon)
 - **What prompted it:** Pause on receiving applications and granting permits/approvals for hyperscale data centers, defined as facilities with at least 100,000 sq ft floor area or at least 20 MW planned or installed electrical capacity.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31.
+- **Detailed status:** The posted ordinance text specifies twelve months from publication or specified village amendment/rescission, but adoption, signature and publication fields are blank. Final enacted term, effective interval and later legal force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 12-month moratorium on hyperscale data center applications and permits.
 
 ### Village of Cottage Grove
@@ -625,7 +625,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Ordinance 13-2026 (Village of Cottage Grove)
 - **What prompted it:** Bars new applications/permits for principal-use data centers larger than 10,000 sq ft; accessory data centers and complete applications filed before the effective date are excepted.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31.
+- **Detailed status:** The posted ordinance states twelve months from effectiveness or approval or final rejection of a data-center ordinance, whichever earlier. It labels July 20 adoption but has blank signatures and requires passage/publication for effect. Final execution/publication, later legislative outcomes and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 12-month moratorium on principal-use data centers over 10,000 sq ft.
 
 ### Village of Hobart

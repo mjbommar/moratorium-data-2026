@@ -1,0 +1,94 @@
+{
+  "applied_at": "20261105T202107",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-wisconsin-k/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 3,
+    "fields_changed": 10
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "wi-town-of-new-denmark-2026",
+      "column": "legal_basis",
+      "before": "Town of New Denmark Town Board moratorium on placing data centers in the town; instrument number not located in sources reviewed",
+      "after": "Resolution #2026-04 (Town of New Denmark, Brown County)",
+      "reason": "Town-hosted resolution identifies its number.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-town-of-new-denmark-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Resolution specifies one year, not a fixed count of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-town-of-new-denmark-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "A calendar year must not be represented as exactly 365 days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-town-of-new-denmark-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31.",
+      "after": "Town-hosted Resolution 2026-04 states adoption of a one-year data-center siting moratorium and directs work on local regulations. Publication, actual operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-village-of-ashwaubenon-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "unknown",
+      "reason": "Posted calendar wording has incomplete execution/publication; final enacted term not established.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-village-of-ashwaubenon-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Twelve calendar months is not a fixed 365-day term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-village-of-ashwaubenon-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31.",
+      "after": "The posted ordinance text specifies twelve months from publication or specified village amendment/rescission, but adoption, signature and publication fields are blank. Final enacted term, effective interval and later legal force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-village-of-cottage-grove-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "unknown",
+      "reason": "Posted calendar wording has incomplete execution/publication; final enacted term not established.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-village-of-cottage-grove-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Twelve calendar months is not a fixed 365-day term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-village-of-cottage-grove-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31.",
+      "after": "The posted ordinance states twelve months from effectiveness or approval or final rejection of a data-center ordinance, whichever earlier. It labels July 20 adoption but has blank signatures and requires passage/publication for effect. Final execution/publication, later legislative outcomes and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ]
+}
