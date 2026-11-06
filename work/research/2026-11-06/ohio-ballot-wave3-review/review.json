@@ -1,0 +1,728 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "scope": "Four-case scoped primary review; nine source versions/seventeen claims. Official questions recovered for Oregon, Pataskala and Perry; Piqua primary wording remains open. No canonical publication or current legal force accepted.",
+  "sources": [
+    {
+      "source_document_id": "oh3-review-oregon-ballot",
+      "url": "https://lookup.boe.ohio.gov/vtrapp/lucas/getballot.aspx?elect=20261103g_webeix0&prsid=14OI__1&bpty=X",
+      "body_sha256": "579c5febce3d5003bd85fcdf2977278af25ee1246d95b5c02012ac416e68b2f4",
+      "text_sha256": "dd31b49cd70037649b4e1748d31ef2bee34f9ba9873b44f23361b19fcd52ba00",
+      "retrieved_at": "2026-11-05T17:14:00.544201+00:00",
+      "attempt_id": "5d8c1719c52e4e2b9d719e70e69c3c9f"
+    },
+    {
+      "source_document_id": "oh3-review-oregon-return",
+      "url": "https://liveresults.boe.ohio.gov/ENR/lucasohenr/23/en/Index_23.html",
+      "body_sha256": "324af5855b84ec98e566eec2ae5e55197e85345b7eaa3e0dfcde992992709a0f",
+      "text_sha256": "ad9b04651161ebbabf9bd49568e5bea2525138550b21cbe6ec15d2782494565d",
+      "retrieved_at": "2026-11-06T07:35:30.919448+00:00",
+      "attempt_id": "6af9bfee57bf4f5499f6e103ef82b8df"
+    },
+    {
+      "source_document_id": "oh3-review-pataskala-ballot",
+      "url": "https://lookup.boe.ohio.gov/vtrapp/licking/getballot.aspx?bpty=X&elect=20261103g_webeix0&prsid=0405__2",
+      "body_sha256": "8e4fe384b6c991cd72183f41bb2f54bf4f8b056c5e1e377038fb920db31e4f09",
+      "text_sha256": "5368a5e975456ea1ccafc76e5e4799aa00840966e8e8bf56719d136a283bf422",
+      "retrieved_at": "2026-11-06T07:31:40.143297+00:00",
+      "attempt_id": "e7ee3e6c5dc84231837ef89aaeb9cb82"
+    },
+    {
+      "source_document_id": "oh3-review-pataskala-return",
+      "url": "https://www.boe.ohio.gov/licking/c/elecres/20261103results.pdf",
+      "body_sha256": "2b95a0e3075742f031f873002f3a4749276433db5b8674948c28cc1ccb2b8999",
+      "text_sha256": "5302670cd9f75cc488d2ef26179626838c116b6dce1ac5ba24f31f291e6bb815",
+      "retrieved_at": "2026-11-06T07:51:10.297281+00:00",
+      "attempt_id": "4f7b5c5b7fd9487da0bef90c776ea548"
+    },
+    {
+      "source_document_id": "oh3-review-perry-ballot",
+      "url": "https://wpassets.lakecountyohio.gov/wp-content/uploads/sites/12/2026/09/15103530/2026-General-Election-Sample.pdf",
+      "body_sha256": "17e5e86e2e1046e083b8e16ae865c40420119eea6a81dae18e6e130c1f7f05c9",
+      "text_sha256": "093623025ef1194839ba8ee3c8b9e338cf8b6e0459b559cdfd69c4160c471cb6",
+      "retrieved_at": "2026-11-06T07:35:08.846358+00:00",
+      "attempt_id": "16deb791093d4f2781e2c0fef1ca868d"
+    },
+    {
+      "source_document_id": "oh3-review-perry-return",
+      "url": "https://webapps.lakecountyohio.gov/boe/web1.pdf",
+      "body_sha256": "e123f25f0145dd1fe688852b3f2e23dbc38f4442c3056148f873bfa0552dcfb9",
+      "text_sha256": "761ce67ad38b40c203a88720aa96a6df8e8d08c4340473aeb719f13fdb1ccc82",
+      "retrieved_at": "2026-11-06T07:51:10.352199+00:00",
+      "attempt_id": "e23bf6689b72465da5de8e980e44f6d9"
+    },
+    {
+      "source_document_id": "oh3-review-piqua-return",
+      "url": "https://www.boe.ohio.gov/miami/c/elecres/20261103results.pdf",
+      "body_sha256": "9254a9c406814281711f0104c759fc3f3f34381e5b46caecd2cff90559a843bf",
+      "text_sha256": "6130b41ef788203ad9e4cb510c66884d293b9651692c8a6c36613f35aa03f2a3",
+      "retrieved_at": "2026-11-06T07:51:10.232398+00:00",
+      "attempt_id": "fcb2eb8b548c45d1b4575594deb62a5a"
+    },
+    {
+      "source_document_id": "oh3-review-perry-ordinance-index",
+      "url": "https://perryvillageohio.com/village-ordinances/",
+      "body_sha256": "2f01287d78cf04c007cfad3ca920264c3fb073e9075fa763a41d14c8d01bf02c",
+      "text_sha256": "21f7e91dfbcb220a007c8af02fcef8f227b9489f4775b9d912074cf372489aa6",
+      "retrieved_at": "2026-11-06T07:31:39.298773+00:00",
+      "attempt_id": "355bd221fbc2448da5f6a21c807c1234"
+    },
+    {
+      "source_document_id": "oh3-review-perry-code-overview",
+      "url": "https://codelibrary.amlegal.com/codes/perryoh/latest/overview",
+      "body_sha256": "2a3410e5601e3a14443efbe65e52d873e5ad7fddeb6a991d1fe7f7189cf07d96",
+      "text_sha256": "77845117a89822589b7b56c4f7a5a56cafb88667ed6fbc4c1fdd87a8515b6d9a",
+      "retrieved_at": "2026-11-06T07:42:20.199345+00:00",
+      "attempt_id": "7da83cac63a04f35b5c03636f56c13b6"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ohio-wave3-review-01",
+      "source_document_id": "oh3-review-oregon-ballot",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-293049eb1c412934"
+      },
+      "predicate": "official_ballot_question",
+      "value": {
+        "electorate": "City of Oregon, Ohio",
+        "designation": "Issue 25",
+        "wording": "Shall the Charter of the City of Oregon be amended to add Section 8 to Article XIII to read as follows?\n\nArticle XIII, Section 8; Prohibition of Construction of a Data Center.\n\n(A) The construction of a data center is hereby prohibited.\n\n(B) As used in this Section, \"construction\" shall mean the erection of one or more buildings, infrastructure, facilities, and related activities, which include preparations and modifications for same, for a common purpose.\n\n(C) As used in this Section, \"data center\" shall mean one or more buildings or physical facilities or infrastructure, located on a single real property parcel or on contiguous, adjacent, or otherwise aggregated real property parcels that:\n\n(1) Are used primarily or exclusively for digital information services such as the management, storage, processing, and dissemination of electronic data and information through the use of computer systems, servers, networking equipment, and related components, including equipment cooling systems; and\n\n(2) Has an aggregate monthly demand or peak load of greater than twenty-five (25) megawatts, however derived from any energy source, or a combination thereof.\n\n(D) This Section is self-executing.",
+        "proposed_title": "Article XIII, Section 8; Prohibition of Construction of a Data Center.",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "yes_direction": "restricts",
+        "scope": "Official sample ballot, physical page3 of4; proposal title/intro and printed provisions, not certification or actual operative charter."
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "ohio-wave3-review-02",
+      "source_document_id": "oh3-review-oregon-ballot",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-293049eb1c412934"
+      },
+      "predicate": "official_proposed_definition_and_effect",
+      "value": {
+        "prohibition": "Construction of a data center",
+        "construction": "Erection of buildings, infrastructure, facilities and related preparations/modifications for a common purpose",
+        "digital_use": "Primarily or exclusively digital information services, including equipment cooling systems",
+        "parcels": "Single parcel or contiguous, adjacent or otherwise aggregated parcels",
+        "threshold_comparator": ">",
+        "threshold_value": 25,
+        "threshold_unit": "MW",
+        "threshold_metric": "Aggregate monthly demand or peak load",
+        "energy_source": "Any source or combination",
+        "effect_text": "This Section is self-executing.",
+        "scope": "Proposed Article XIII Section8(A)-(D). No actual effective date or prohibition on all existing operation inferred."
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "ohio-wave3-review-03",
+      "source_document_id": "oh3-review-oregon-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-293049eb1c412934"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 4994,
+        "no_votes": 3235,
+        "source_yes_percent": 60.69,
+        "scope": "Official county feed, aggregate named Oregon contest only; countywide registration/ballots/280 precinct totals are not city denominators."
+      },
+      "quote": "Contest: 25. Oregon Prohibition of Construction of a Data Center, VOTE FOR 1\n25. Oregon Prohibition of Construction of a Data Center\n(VOTE FOR 1)\nCandidate Name\nTotal Votes\nPercentage\nYES\nYES\n4,994\n60.69%\nNO\nNO\n3,235\n39.31%",
+      "span": "utf8-text-codepoints:1748276:1748499"
+    },
+    {
+      "claim_id": "ohio-wave3-review-04",
+      "source_document_id": "oh3-review-oregon-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-293049eb1c412934"
+      },
+      "predicate": "source_reporting_status",
+      "value": {
+        "report_label": "Unofficial Election Results",
+        "absentee_label": "Absentee Ballots: Partially Reported",
+        "scope": "County feed header; 100% precinct reporting does not prove all absentee/provisional ballots final. City-specific completeness remains unknown."
+      },
+      "quote": "Unofficial Election Results\nAbsentee Ballots:\nPartially Reported",
+      "span": "utf8-text-codepoints:5867:5931"
+    },
+    {
+      "claim_id": "ohio-wave3-review-05",
+      "source_document_id": "oh3-review-oregon-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-293049eb1c412934"
+      },
+      "predicate": "source_update_clock",
+      "value": {
+        "source_clock": "Website Updated:\n11/4/2026 2:51:41 AM",
+        "timezone": "unspecified",
+        "scope": "Source update label retained literally; not converted to invented UTC publication time."
+      },
+      "quote": "Website Updated:\n11/4/2026 2:51:41 AM",
+      "span": "utf8-text-codepoints:5321:5358"
+    },
+    {
+      "claim_id": "ohio-wave3-review-06",
+      "source_document_id": "oh3-review-pataskala-ballot",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-483dee67f585d607"
+      },
+      "predicate": "official_ballot_question",
+      "value": {
+        "electorate": "City of Pataskala",
+        "proposed_section": "Article XI Section 11.09",
+        "wording": "Article XI, Section 11.09. Prohibiting of a Data Center.\n\n(A) The construction of a data center is hereby prohibited.\n\n(B) As used in this Section, \"construction\" shall mean the erection of one or more buildings, infrastructure, facilities, and related activities, which include preparations and modifications for same, for a common purpose.\n\n(C) As used in this Section, \"data center\" shall mean one or more buildings or physical facilities or infrastructure, located on a single real property parcel or on contiguous, adjacent, or otherwise aggregated real property parcels that:\n\n(1) Are used primarily or exclusively for digital information services such as the management, storage, processing, and dissemination of electronic data and information through the use of computer systems, servers, networking equipment, and related components, including equipment cooling systems; and\n\n(2) Has an aggregate monthly demand or peak load of greater than twenty-five (25) megawatts, however derived from any energy source, or combination thereof.\n\n(D) This Section is self-executing.\n\nShall Article XI of the City of Pataskala Charter be amended to add Section 11.09 (Prohibition of a Data Center), thereby prohibiting the construction of a data center within the City limits, effective immediately?",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "yes_direction": "restricts",
+        "scope": "Own charter question in right-hand column. Other charter questions and statewide Issue3 are distinct; exact operative date is not accepted."
+      },
+      "quote": null,
+      "span": "pdf-page:2"
+    },
+    {
+      "claim_id": "ohio-wave3-review-07",
+      "source_document_id": "oh3-review-pataskala-ballot",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-483dee67f585d607"
+      },
+      "predicate": "official_proposed_definition_and_effect",
+      "value": {
+        "prohibition": "Construction of a data center",
+        "construction": "Erection of buildings/infrastructure/facilities and related preparations/modifications for a common purpose",
+        "digital_use": "Primarily or exclusively digital information services including equipment cooling",
+        "parcels": "Single parcel or contiguous, adjacent or otherwise aggregated parcels",
+        "threshold_comparator": ">",
+        "threshold_value": 25,
+        "threshold_unit": "MW",
+        "threshold_metric": "Aggregate monthly demand or peak load",
+        "energy_source": "Any source or combination",
+        "effect_text": "This Section is self-executing; own adoption question says effective immediately",
+        "scope": "Proposed Section11.09(A)-(D), not proof an operative charter took effect on election day."
+      },
+      "quote": null,
+      "span": "pdf-page:2"
+    },
+    {
+      "claim_id": "ohio-wave3-review-08",
+      "source_document_id": "oh3-review-pataskala-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-483dee67f585d607"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 5418,
+        "no_votes": 1941,
+        "source_yes_percent": 73.62,
+        "source_total_votes_cast": 7359,
+        "overvotes": 1,
+        "undervotes": 474,
+        "report_label": "Licking's Unofficial Canvass",
+        "source_clock": "11/04/2026 11:51 AM; timezone unspecified",
+        "scope": "Data Centers charter row only; other Pataskala charter/levy rows and county precinct totals remain distinct."
+      },
+      "quote": null,
+      "span": "pdf-page:12"
+    },
+    {
+      "claim_id": "ohio-wave3-review-09",
+      "source_document_id": "oh3-review-pataskala-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-483dee67f585d607"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total Votes Cast",
+        "count": 7359,
+        "scope": "City of Pataskala - Charter Amendment - Data Centers"
+      },
+      "quote": null,
+      "span": "pdf-page:12"
+    },
+    {
+      "claim_id": "ohio-wave3-review-10",
+      "source_document_id": "oh3-review-perry-ballot",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6c87b0be7d00d4ae"
+      },
+      "predicate": "official_ballot_question_and_scope",
+      "value": {
+        "electorate": "Perry Village",
+        "designation": "16",
+        "placement_source_term": "By Petition",
+        "wording": "The Proposed Ordinance amends Chapter 133.01 \"Established; Power and Duties\" of the Codified Ordinances of the Village of Perry regarding the duties of the Village Fiscal Officer before signing Village agreements with a hyperscale data center involving tax abatements, PILOT Programs, or any special tax designation.\n\nShall the proposed ordinance amending Chapter 133.01 \"Established; Power and Duties\" of the Codified Ordinances of the Village of Perry be adopted?",
+        "description": "Duties of Village Fiscal Officer before signing Village agreements with a hyperscale data center involving tax abatements, PILOT Programs or any special tax designation",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "scope": "Official master sample ballot physical page326; printed page2 of2 for Perry Village AA. Full ordinance, hyperscale definition, exact guarantee/noise provisions and policy polarity unresolved; no 25 MW threshold imported."
+      },
+      "quote": null,
+      "span": "pdf-page:326"
+    },
+    {
+      "claim_id": "ohio-wave3-review-11",
+      "source_document_id": "oh3-review-perry-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6c87b0be7d00d4ae"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 946,
+        "no_votes": 140,
+        "source_yes_percent": 87.11,
+        "source_total_votes_cast": 1086,
+        "precincts_reporting": 1,
+        "precincts_total": 1,
+        "report_label": "Unofficial Results",
+        "source_clock": "11/03/2026 10:03 PM; timezone unspecified",
+        "scope": "Issue16 Perry Village proposed ordinance, not nearby township/village levy or its separate council moratorium."
+      },
+      "quote": null,
+      "span": "pdf-page:11"
+    },
+    {
+      "claim_id": "ohio-wave3-review-12",
+      "source_document_id": "oh3-review-perry-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6c87b0be7d00d4ae"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total Votes Cast",
+        "count": 1086,
+        "scope": "16 Perry Village Proposed Ordinance"
+      },
+      "quote": null,
+      "span": "pdf-page:11"
+    },
+    {
+      "claim_id": "ohio-wave3-review-13",
+      "source_document_id": "oh3-review-perry-ordinance-index",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6c87b0be7d00d4ae"
+      },
+      "predicate": "separate_moratorium_index_entry",
+      "value": {
+        "instrument": "Ordinance2026-13",
+        "scope_description": "One-year data-center application moratorium excluding Champion Farm, emergency declared",
+        "scope": "Official index description of distinct council instrument; not the Issue16 ordinance, independently signed adoption proof or successor link."
+      },
+      "quote": "2026-13 An Ordinance enacting a one-year moratorium on the acceptance and approval of applications for data centers within the Village of Perry, excluding the property known as \u201cChampion Farm,\u201d and declaring an emergency.",
+      "span": "utf8-text-codepoints:2460:2681"
+    },
+    {
+      "claim_id": "ohio-wave3-review-14",
+      "source_document_id": "oh3-review-perry-code-overview",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6c87b0be7d00d4ae"
+      },
+      "predicate": "published_code_cutoff",
+      "value": {
+        "local_legislation_through": "2025-11-20",
+        "state_legislation_through": "2026-03-25",
+        "scope": "Village index links this code host; local cutoff cannot establish implementation of a November2026 measure. Host City label does not change official village electorate."
+      },
+      "quote": "2026 Replacement Pages contain: Local legislation current through November 20, 2025 | State legislation current through March 25, 2026",
+      "span": "utf8-text-codepoints:13:147"
+    },
+    {
+      "claim_id": "ohio-wave3-review-15",
+      "source_document_id": "oh3-review-piqua-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-a1a3139b8509329c"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 4061,
+        "no_votes": 2027,
+        "source_yes_percent": 66.7,
+        "source_total": 6088,
+        "ballots_cast": 6242,
+        "registered_voters": 12551,
+        "undervotes": 153,
+        "overvotes": 1,
+        "source_over_voted_ballots": 1,
+        "source_turnout_percent": 49.73,
+        "report_label": "Miami's Unofficial Canvass",
+        "source_clock": "2026-11-03 21:50:26; timezone unspecified",
+        "scope": "Named city charter Data Centers row; exact primary ballot/Section138/25 MW definition and yes policy direction remain unaccepted. Countywide46122 ballots,77679 registered and87 precincts are not city counts."
+      },
+      "quote": null,
+      "span": "pdf-page:5"
+    },
+    {
+      "claim_id": "ohio-wave3-review-16",
+      "source_document_id": "oh3-review-piqua-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-a1a3139b8509329c"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total",
+        "count": 6088,
+        "scope": "Piqua City Charter Amendment - Data Centers"
+      },
+      "quote": null,
+      "span": "pdf-page:5"
+    },
+    {
+      "claim_id": "ohio-wave3-review-17",
+      "source_document_id": "oh3-review-piqua-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-a1a3139b8509329c"
+      },
+      "predicate": "source_counter_aliases",
+      "value": {
+        "over_voted_ballots": 1,
+        "overvotes": 1,
+        "scope": "Two source counter labels for the contest, not two additional overvotes. Keep normalized overvotes1; 6088 yes/no +153 undervotes +1 overvote =6242 explicit ballots. No blank count inferred."
+      },
+      "quote": null,
+      "span": "pdf-page:5"
+    }
+  ],
+  "visual_reviews": {
+    "ohio-wave3-review-01": {
+      "claim_id": "ohio-wave3-review-01",
+      "source_document_id": "oh3-review-oregon-ballot",
+      "claim_sha256": "6c0de436b78a37f07ae6ca396b976c5c1bfffbd8e16ce35553fdb3282a66f277",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "electorate": "City of Oregon, Ohio",
+        "designation": "Issue 25",
+        "wording": "Shall the Charter of the City of Oregon be amended to add Section 8 to Article XIII to read as follows?\n\nArticle XIII, Section 8; Prohibition of Construction of a Data Center.\n\n(A) The construction of a data center is hereby prohibited.\n\n(B) As used in this Section, \"construction\" shall mean the erection of one or more buildings, infrastructure, facilities, and related activities, which include preparations and modifications for same, for a common purpose.\n\n(C) As used in this Section, \"data center\" shall mean one or more buildings or physical facilities or infrastructure, located on a single real property parcel or on contiguous, adjacent, or otherwise aggregated real property parcels that:\n\n(1) Are used primarily or exclusively for digital information services such as the management, storage, processing, and dissemination of electronic data and information through the use of computer systems, servers, networking equipment, and related components, including equipment cooling systems; and\n\n(2) Has an aggregate monthly demand or peak load of greater than twenty-five (25) megawatts, however derived from any energy source, or a combination thereof.\n\n(D) This Section is self-executing.",
+        "proposed_title": "Article XIII, Section 8; Prohibition of Construction of a Data Center.",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "yes_direction": "restricts",
+        "scope": "Official sample ballot, physical page3 of4; proposal title/intro and printed provisions, not certification or actual operative charter."
+      },
+      "source_body_sha256": "579c5febce3d5003bd85fcdf2977278af25ee1246d95b5c02012ac416e68b2f4",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "d35cfa1f35d097f42a7ca8b4342400614d1ccd67274aee3ad5edf087002a00fa"
+    },
+    "ohio-wave3-review-02": {
+      "claim_id": "ohio-wave3-review-02",
+      "source_document_id": "oh3-review-oregon-ballot",
+      "claim_sha256": "99e7bf60b222867b6b6416fdf28a104a7bbc42736c09ebb8d4f3bd6414846189",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "prohibition": "Construction of a data center",
+        "construction": "Erection of buildings, infrastructure, facilities and related preparations/modifications for a common purpose",
+        "digital_use": "Primarily or exclusively digital information services, including equipment cooling systems",
+        "parcels": "Single parcel or contiguous, adjacent or otherwise aggregated parcels",
+        "threshold_comparator": ">",
+        "threshold_value": 25,
+        "threshold_unit": "MW",
+        "threshold_metric": "Aggregate monthly demand or peak load",
+        "energy_source": "Any source or combination",
+        "effect_text": "This Section is self-executing.",
+        "scope": "Proposed Article XIII Section8(A)-(D). No actual effective date or prohibition on all existing operation inferred."
+      },
+      "source_body_sha256": "579c5febce3d5003bd85fcdf2977278af25ee1246d95b5c02012ac416e68b2f4",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "d35cfa1f35d097f42a7ca8b4342400614d1ccd67274aee3ad5edf087002a00fa"
+    },
+    "ohio-wave3-review-06": {
+      "claim_id": "ohio-wave3-review-06",
+      "source_document_id": "oh3-review-pataskala-ballot",
+      "claim_sha256": "cb0ebb9cab17b3f942009c0fca14e7d1f48014db5f303279e4e423e2738545ac",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "electorate": "City of Pataskala",
+        "proposed_section": "Article XI Section 11.09",
+        "wording": "Article XI, Section 11.09. Prohibiting of a Data Center.\n\n(A) The construction of a data center is hereby prohibited.\n\n(B) As used in this Section, \"construction\" shall mean the erection of one or more buildings, infrastructure, facilities, and related activities, which include preparations and modifications for same, for a common purpose.\n\n(C) As used in this Section, \"data center\" shall mean one or more buildings or physical facilities or infrastructure, located on a single real property parcel or on contiguous, adjacent, or otherwise aggregated real property parcels that:\n\n(1) Are used primarily or exclusively for digital information services such as the management, storage, processing, and dissemination of electronic data and information through the use of computer systems, servers, networking equipment, and related components, including equipment cooling systems; and\n\n(2) Has an aggregate monthly demand or peak load of greater than twenty-five (25) megawatts, however derived from any energy source, or combination thereof.\n\n(D) This Section is self-executing.\n\nShall Article XI of the City of Pataskala Charter be amended to add Section 11.09 (Prohibition of a Data Center), thereby prohibiting the construction of a data center within the City limits, effective immediately?",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "yes_direction": "restricts",
+        "scope": "Own charter question in right-hand column. Other charter questions and statewide Issue3 are distinct; exact operative date is not accepted."
+      },
+      "source_body_sha256": "8e4fe384b6c991cd72183f41bb2f54bf4f8b056c5e1e377038fb920db31e4f09",
+      "pdf_page": 2,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 150
+      },
+      "render_sha256": "d5aa5ff5c685508587b88587848825697a98155c56a634db4d0549fede006b6b"
+    },
+    "ohio-wave3-review-07": {
+      "claim_id": "ohio-wave3-review-07",
+      "source_document_id": "oh3-review-pataskala-ballot",
+      "claim_sha256": "913806f78d2640a372cb6065287fe90fc93bb3979abcb18565631e53a1faf0ab",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "prohibition": "Construction of a data center",
+        "construction": "Erection of buildings/infrastructure/facilities and related preparations/modifications for a common purpose",
+        "digital_use": "Primarily or exclusively digital information services including equipment cooling",
+        "parcels": "Single parcel or contiguous, adjacent or otherwise aggregated parcels",
+        "threshold_comparator": ">",
+        "threshold_value": 25,
+        "threshold_unit": "MW",
+        "threshold_metric": "Aggregate monthly demand or peak load",
+        "energy_source": "Any source or combination",
+        "effect_text": "This Section is self-executing; own adoption question says effective immediately",
+        "scope": "Proposed Section11.09(A)-(D), not proof an operative charter took effect on election day."
+      },
+      "source_body_sha256": "8e4fe384b6c991cd72183f41bb2f54bf4f8b056c5e1e377038fb920db31e4f09",
+      "pdf_page": 2,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 150
+      },
+      "render_sha256": "d5aa5ff5c685508587b88587848825697a98155c56a634db4d0549fede006b6b"
+    },
+    "ohio-wave3-review-08": {
+      "claim_id": "ohio-wave3-review-08",
+      "source_document_id": "oh3-review-pataskala-return",
+      "claim_sha256": "55b75587ad0e7ba4f700aa73ee99383ea2173d1905e1a10a284a33ce04fdf4d1",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 5418,
+        "no_votes": 1941,
+        "source_yes_percent": 73.62,
+        "source_total_votes_cast": 7359,
+        "overvotes": 1,
+        "undervotes": 474,
+        "report_label": "Licking's Unofficial Canvass",
+        "source_clock": "11/04/2026 11:51 AM; timezone unspecified",
+        "scope": "Data Centers charter row only; other Pataskala charter/levy rows and county precinct totals remain distinct."
+      },
+      "source_body_sha256": "2b95a0e3075742f031f873002f3a4749276433db5b8674948c28cc1ccb2b8999",
+      "pdf_page": 12,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 12,
+        "dpi": 150
+      },
+      "render_sha256": "512d959dd1c70bf203312c5959cd64fffefbee96953de80bce1b8706c1e26fae"
+    },
+    "ohio-wave3-review-09": {
+      "claim_id": "ohio-wave3-review-09",
+      "source_document_id": "oh3-review-pataskala-return",
+      "claim_sha256": "7ac58e77c0a046823ee9bd298818bc1fd8bbfab8f11f0373d2335999385d9cbc",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total Votes Cast",
+        "count": 7359,
+        "scope": "City of Pataskala - Charter Amendment - Data Centers"
+      },
+      "source_body_sha256": "2b95a0e3075742f031f873002f3a4749276433db5b8674948c28cc1ccb2b8999",
+      "pdf_page": 12,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 12,
+        "dpi": 150
+      },
+      "render_sha256": "512d959dd1c70bf203312c5959cd64fffefbee96953de80bce1b8706c1e26fae"
+    },
+    "ohio-wave3-review-10": {
+      "claim_id": "ohio-wave3-review-10",
+      "source_document_id": "oh3-review-perry-ballot",
+      "claim_sha256": "fc3931e47d5a2197ff3f8e57d5f802c3848694f4c6530aefc0b48e7b4613a6c2",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "electorate": "Perry Village",
+        "designation": "16",
+        "placement_source_term": "By Petition",
+        "wording": "The Proposed Ordinance amends Chapter 133.01 \"Established; Power and Duties\" of the Codified Ordinances of the Village of Perry regarding the duties of the Village Fiscal Officer before signing Village agreements with a hyperscale data center involving tax abatements, PILOT Programs, or any special tax designation.\n\nShall the proposed ordinance amending Chapter 133.01 \"Established; Power and Duties\" of the Codified Ordinances of the Village of Perry be adopted?",
+        "description": "Duties of Village Fiscal Officer before signing Village agreements with a hyperscale data center involving tax abatements, PILOT Programs or any special tax designation",
+        "passage_rule": "A majority affirmative vote is necessary for passage.",
+        "scope": "Official master sample ballot physical page326; printed page2 of2 for Perry Village AA. Full ordinance, hyperscale definition, exact guarantee/noise provisions and policy polarity unresolved; no 25 MW threshold imported."
+      },
+      "source_body_sha256": "17e5e86e2e1046e083b8e16ae865c40420119eea6a81dae18e6e130c1f7f05c9",
+      "pdf_page": 326,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 326,
+        "dpi": 150
+      },
+      "render_sha256": "cce6c4eedd1404e7fb6d2615f16a8bc89d51d93d3e3a2f962c1ee5118a42b64d"
+    },
+    "ohio-wave3-review-11": {
+      "claim_id": "ohio-wave3-review-11",
+      "source_document_id": "oh3-review-perry-return",
+      "claim_sha256": "fae6198a53859d6e78134fdf30f7a0a65f013d10b236a28b23e594d42dbfb553",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 946,
+        "no_votes": 140,
+        "source_yes_percent": 87.11,
+        "source_total_votes_cast": 1086,
+        "precincts_reporting": 1,
+        "precincts_total": 1,
+        "report_label": "Unofficial Results",
+        "source_clock": "11/03/2026 10:03 PM; timezone unspecified",
+        "scope": "Issue16 Perry Village proposed ordinance, not nearby township/village levy or its separate council moratorium."
+      },
+      "source_body_sha256": "e123f25f0145dd1fe688852b3f2e23dbc38f4442c3056148f873bfa0552dcfb9",
+      "pdf_page": 11,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 11,
+        "dpi": 150
+      },
+      "render_sha256": "4bc3d1f1d9153c73f241565a53983b9d24bb4d7034aab9d387da1856c0e4a93f"
+    },
+    "ohio-wave3-review-12": {
+      "claim_id": "ohio-wave3-review-12",
+      "source_document_id": "oh3-review-perry-return",
+      "claim_sha256": "4ca994aaa52987f9b6f6ed0823080e7dde61eeadaf833daefdc138f03f1b1e37",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total Votes Cast",
+        "count": 1086,
+        "scope": "16 Perry Village Proposed Ordinance"
+      },
+      "source_body_sha256": "e123f25f0145dd1fe688852b3f2e23dbc38f4442c3056148f873bfa0552dcfb9",
+      "pdf_page": 11,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 11,
+        "dpi": 150
+      },
+      "render_sha256": "4bc3d1f1d9153c73f241565a53983b9d24bb4d7034aab9d387da1856c0e4a93f"
+    },
+    "ohio-wave3-review-15": {
+      "claim_id": "ohio-wave3-review-15",
+      "source_document_id": "oh3-review-piqua-return",
+      "claim_sha256": "56c0f1e2b74a22dcd1ab280a90196ad28c47ac436f728fa55533739be97b42dc",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 4061,
+        "no_votes": 2027,
+        "source_yes_percent": 66.7,
+        "source_total": 6088,
+        "ballots_cast": 6242,
+        "registered_voters": 12551,
+        "undervotes": 153,
+        "overvotes": 1,
+        "source_over_voted_ballots": 1,
+        "source_turnout_percent": 49.73,
+        "report_label": "Miami's Unofficial Canvass",
+        "source_clock": "2026-11-03 21:50:26; timezone unspecified",
+        "scope": "Named city charter Data Centers row; exact primary ballot/Section138/25 MW definition and yes policy direction remain unaccepted. Countywide46122 ballots,77679 registered and87 precincts are not city counts."
+      },
+      "source_body_sha256": "9254a9c406814281711f0104c759fc3f3f34381e5b46caecd2cff90559a843bf",
+      "pdf_page": 5,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 5,
+        "dpi": 150
+      },
+      "render_sha256": "c7450a3b93bbb0e4ac6598e978def6c0eb67834fe80e0fa60aa5e61089255f0d"
+    },
+    "ohio-wave3-review-16": {
+      "claim_id": "ohio-wave3-review-16",
+      "source_document_id": "oh3-review-piqua-return",
+      "claim_sha256": "b9939d22bc99db9e9469c0596105c43e3d4d65e175d2e22a36d0cd3d34a900b0",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total",
+        "count": 6088,
+        "scope": "Piqua City Charter Amendment - Data Centers"
+      },
+      "source_body_sha256": "9254a9c406814281711f0104c759fc3f3f34381e5b46caecd2cff90559a843bf",
+      "pdf_page": 5,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 5,
+        "dpi": 150
+      },
+      "render_sha256": "c7450a3b93bbb0e4ac6598e978def6c0eb67834fe80e0fa60aa5e61089255f0d"
+    },
+    "ohio-wave3-review-17": {
+      "claim_id": "ohio-wave3-review-17",
+      "source_document_id": "oh3-review-piqua-return",
+      "claim_sha256": "2ac47c5da8d0eb4e6395176bece193eece8bfb6d4cea5cb6ed41fa9a968ff107",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "over_voted_ballots": 1,
+        "overvotes": 1,
+        "scope": "Two source counter labels for the contest, not two additional overvotes. Keep normalized overvotes1; 6088 yes/no +153 undervotes +1 overvote =6242 explicit ballots. No blank count inferred."
+      },
+      "source_body_sha256": "9254a9c406814281711f0104c759fc3f3f34381e5b46caecd2cff90559a843bf",
+      "pdf_page": 5,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 5,
+        "dpi": 150
+      },
+      "render_sha256": "c7450a3b93bbb0e4ac6598e978def6c0eb67834fe80e0fa60aa5e61089255f0d"
+    }
+  },
+  "measures": [
+    {
+      "seed_id": "bp-293049eb1c412934",
+      "name": "oregon",
+      "review_status": "scoped_primary_review_not_published",
+      "canonical_legal_force": "unresolved"
+    },
+    {
+      "seed_id": "bp-483dee67f585d607",
+      "name": "pataskala",
+      "review_status": "scoped_primary_review_not_published",
+      "canonical_legal_force": "unresolved"
+    },
+    {
+      "seed_id": "bp-6c87b0be7d00d4ae",
+      "name": "perry",
+      "review_status": "scoped_primary_review_not_published",
+      "canonical_legal_force": "unresolved"
+    },
+    {
+      "seed_id": "bp-a1a3139b8509329c",
+      "name": "piqua",
+      "review_status": "scoped_primary_review_not_published",
+      "canonical_legal_force": "unresolved"
+    }
+  ],
+  "unresolved": [
+    "Final certified canvasses, qualification/referral chains, adopted texts, actual effect dates and litigation",
+    "Piqua exact official ballot/full charter text, Section138 and definition/polarity",
+    "Perry complete proposed ordinance, hyperscale definition and guarantee/noise/tax-condition terms",
+    "Perry moratorium precise interval/current force and independently verified geographic correction",
+    "Oregon city-specific reporting completeness; county absentee label must not be overgeneralized",
+    "Do not count Piqua recall elections as infrastructure measures or copy other charter/stated statewide effective clauses"
+  ]
+}
