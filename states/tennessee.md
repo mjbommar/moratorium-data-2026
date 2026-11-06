@@ -34,7 +34,7 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 | Loudon | City | 2026-08-24 | data center | 🟢 Active |
 | Loudon County | County | 2026-06-29 | data center | 🟢 Active |
 | Maury County | County | 2026-07-20 | data center | 🟢 Active |
-| McMinnville | City | 2026-06-03 | data center | 🟢 Active |
+| McMinnville | City | Unverified | data center | 🟢 Active |
 | Memphis | City | Unverified | data center, cryptocurrency mining | 🟡 Pending |
 | Moore County | County | 2026-04-20 | data center | 🟢 Active |
 | Morgan County | County | 2026-06-12 | data center | 🟢 Active |
@@ -461,16 +461,16 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-06-03 (McMinnville approved an 18-month moratorium on new data centers, per WSMV)
-- **Normalized date:** `2026-06-03` (exact)
+- **Date enacted:** 2026-06-03 first reading of Ordinance 2026-09; final passage and effective date unverified.
+- **Normalized date:** `—` (unverified)
 - **Duration:** 18 months
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `tn-mcminnville-2026`
-- **Legal basis:** City ordinance
+- **Legal basis:** City Ordinance No. 2026-09, proposed and approved on first reading June 3, 2026; final passage unverified.
 - **What prompted it:** Proposed 'Hixson Data Center,' a 96,000-square-foot, 25-megawatt AI supercomputing facility, opposed by a resident petition that gathered nearly 3,000 signatures
 - **Affected projects:** Proposed Hixson Data Center (96,000 sq ft, 25 MW, AI supercomputing)
-- **Detailed status:** Active as of 2026-07-31; the ordinance took effect immediately upon adoption and officials indicated it could be extended if necessary. A related 'research and information-gathering process' into data centers was reported underway as of 2026-06-15.
+- **Detailed status:** June 3 special-session minutes record first-reading approval of Ordinance 2026-09, not final passage. The June 9 agenda schedules second and final reading, and hearing minutes record public comments, but neither establishes the final-reading vote. The posted draft makes effectiveness contingent on final passage. Final adoption, Hixson applicability, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** 18-month moratorium adopted, blocking acceptance/processing/approval of data center land-use, zoning, building, site-plan, and conditional-use permit applications pending impact studies
 
 ### Memphis

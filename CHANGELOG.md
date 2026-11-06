@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+McMinnville’s June 3 action is corrected to first-reading approval of Ordinance 2026-09, clearing the unsupported exact final-enactment date. The June 9 agenda and actual public-hearing record do not establish the final-reading vote; the draft ties effectiveness to final passage. Final adoption, operative interval, applicability and later force remain unresolved.
+
 Crossville’s unsupported 730-day encoding is cleared: the legislative file records August 11 third-reading adoption, while the unsigned unnumbered attachment states twenty-four months. Actual term classification remains unknown pending executed wording. Refreshed collection accounting now records returns for all 1,283 local IDs assigned to the queue; state-policy returns cover 407 records, with 18 in running jobs and nine queued. Collection and historical edits remain distinct from substantive review and legal-force verification.
 
 Knox County’s June 22 minutes record approval of the 10 MW amendment to R-26-6-904, while the attachment labelled final retains 5 MW and blank execution fields; the conflict is preserved pending executed wording. Loudon’s August 24 minutes identify Resolution 2026-40 and its 3-2 approval with a twelve-month initial term and optional additional twelve months. Operative intervals, exemptions and later force remain unresolved.
@@ -170,7 +172,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **69** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **614** |
+| Rows we still want to confirm (`[VERIFY]`) | **615** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
