@@ -18,7 +18,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 | City of Entiat | City | 2018-03-08 | cryptocurrency mining | ⚪ Expired |
 | City of Ephrata | City | 2018-10-17 | cryptocurrency mining | ⚪ Replaced |
 | City of Leavenworth | City | 2018-03-27 | cryptocurrency mining | ⚪ Replaced |
-| City of Moses Lake | City | 2018-05 | cryptocurrency mining, data center | ⚪ Replaced |
+| City of Moses Lake | City | 2018-05-22 | cryptocurrency mining, data center | ⚪ Replaced |
 | City of Seattle | City | 2026-06-09 | data center | 🟢 Active |
 | City of Wenatchee | City | 2018-02-22 | data center, cryptocurrency mining | ⚪ Replaced |
 | Cle Elum | City | 2026-07-31 | data center | 🟢 Active |
@@ -147,7 +147,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Legal basis:** Ordinance 2018-06; Ordinance 2018-21 (twelve-month interim official zoning controls under RCW 35A.63.220 and RCW 36.70A.390); permanent regulations adopted by Ordinance 2019-19, which added EWMC 17.08.142, 17.08.192, 17.08.193, 17.08.194, and 17.72.270 and amended 17.34.010, 17.66.050, and 17.72.150
 - **What prompted it:** Rapid cryptocurrency mining growth, high continuous electric demand, fire/life-safety risk, and Douglas County PUD electric infrastructure planning concerns identified in Ordinance 2018-21 recitals
 - **Affected projects:** Not identified in captured city ordinance records; regional reports note moratoria coincided with redirected bitcoin investment in the Wenatchee Valley
-- **Detailed status:** Replaced
+- **Detailed status:** Ordinance 2018-06 section 13 states six months from passage with renewal/early-termination provisions. These are interim cryptocurrency-mining zoning controls; later extensions, replacement and final disposition remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Ordinance 2019-19 added permanent cryptocurrency mining and data-center provisions in EWMC Title 17, including Douglas County PUD load verification, Department of Labor and Industries electrical permits, and cryptocurrency-mining definitions
 
 ### City of Entiat
@@ -202,8 +202,8 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 
 - **Type:** City
 - **Status:** ⚪ Replaced
-- **Date enacted:** 2018-05 (Columbia Basin Herald reported on 2018-05-28 that Moses Lake "City Council has passed an ordinance" "last week" that prohibits new operations; consistent with a May 2018 enactment date)
-- **Normalized date:** `2018-05` (month_only)
+- **Date enacted:** 2018-05-22 (Ordinance 2899, according to the municipal legislative history)
+- **Normalized date:** `2018-05-22` (exact)
 - **Duration:** Up to 12 months (per Columbia Basin Herald: "for up to 12 months and will give the city time to study the impacts")
 - **Current end date:** `—`
 - **Sectors:** cryptocurrency mining, data center
@@ -211,7 +211,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Legal basis:** Ordinance 2899 (interim provisions; "Repealed by 2900"); Ordinance 2900 (moratorium on cryptocurrency mining, server farms, and data centers; repealed Ordinance 2899); RCW 35A.63.220 and statutory 60-day public hearing requirement noted by Columbia Basin Herald
 - **What prompted it:** City received inquiries for cryptocurrency operations; local report cited seven known operations (four unpermitted), a recent fire tied to an unpermitted Central Business District operation, residential-zone complaints, and absence of zoning-code treatment
 - **Affected projects:** Seven known cryptocurrency operations reported; properly permitted/vested operations were not affected
-- **Detailed status:** Replaced
+- **Detailed status:** The municipal legislative-history page for Ordinance 2899 dates adoption May 22, 2018 and reports repeal by Ordinance 2900. Contemporary news describes an initial term up to twelve months. The successor instrument and final disposition of the restriction remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Permanent code now regulates cryptocurrency mining operations, server farms, and data centers under Moses Lake Municipal Code Chapter 15.615
 
 ### City of Seattle
@@ -547,8 +547,8 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Legal basis:** Ordinance No. 6061
 - **What prompted it:** Tenaska 250 MW BESS proposal on land 50 feet from homes; city land-use code lacked a BESS category
 - **Affected projects:** Tenaska industrial-scale BESS proposal in Renton
-- **Detailed status:** Expired 2022-10-18; superseded by Renton's later, unrelated 2026 data-center moratorium (existing row wa-renton-2026), which does not cover battery storage. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
-- **Outcome:** Moratorium expired per its own sunset clause; outcome of the underlying zoning question not confirmed in this pass
+- **Detailed status:** A June 2022 report describes an April six-month battery-storage pause; June 2026 news describes it as expired without establishing the exact sunset. The unsupported October 18 endpoint and claimed supersession by a distinct 2026 data-center measure are removed from the narrative. Original ordinance, precise disposition and legal interval remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** Reported as expired by June 2026; exact sunset and underlying zoning disposition remain unverified.
 
 ### Renton
 

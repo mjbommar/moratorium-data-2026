@@ -1,0 +1,146 @@
+{
+  "state_abbrev": "WA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wa-east-wenatchee-2018",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The source states a calendar-month term; 180 or 365 fixed days is not equivalent."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Calendar months do not have a fixed day count."
+        },
+        "current_status": {
+          "from": "Replaced",
+          "to": "Ordinance 2018-06 section 13 states six months from passage with renewal/early-termination provisions. These are interim cryptocurrency-mining zoning controls; later extensions, replacement and final disposition remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://ecode360.com/EA4419/laws/LF2781467.pdf",
+          "source_type": "ordinance",
+          "supports": "Operative six-month term and conditions rather than title alone.",
+          "quote": "13. Duration/Renewal. The interim official zoning controls imposed by the\n\nOrdinance shall be effect for a period of six months from the date this ordinance\n\nis passed and shall automatically expire at the conclusion for that six-month\n\nPage 5 of 8\n\nperiod unless extended as provided for in RCW 35A.63.220 and RCW\n\n36. 70A. 390,\n\nor unless terminated sooner by the City Council.",
+          "title": "East Wenatchee Ordinance 2018-06"
+        }
+      ],
+      "notes": "Initial calendar term corrected; later replacement and extension not independently verified in this pass."
+    },
+    {
+      "moratorium_id": "wa-moses-lake-2018",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The source states a calendar-month term; 180 or 365 fixed days is not equivalent."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Calendar months do not have a fixed day count."
+        },
+        "date_enacted": {
+          "from": "2018-05 (Columbia Basin Herald reported on 2018-05-28 that Moses Lake \"City Council has passed an ordinance\" \"last week\" that prohibits new operations; consistent with a May 2018 enactment date)",
+          "to": "2018-05-22 (Ordinance 2899, according to the municipal legislative history)",
+          "reason": "Municipal legislative history dates Ordinance 2899 to May 22, 2018."
+        },
+        "date_enacted_iso": {
+          "from": "2018-05",
+          "to": "2018-05-22",
+          "reason": "Municipal legislative history dates Ordinance 2899 to May 22, 2018."
+        },
+        "date_enacted_uncertainty": {
+          "from": "month_only",
+          "to": "exact",
+          "reason": "Municipal legislative history dates Ordinance 2899 to May 22, 2018."
+        },
+        "current_status": {
+          "from": "Replaced",
+          "to": "The municipal legislative-history page for Ordinance 2899 dates adoption May 22, 2018 and reports repeal by Ordinance 2900. Contemporary news describes an initial term up to twelve months. The successor instrument and final disposition of the restriction remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://moseslake.municipal.codes/enactments/Ord2899",
+          "source_type": "other",
+          "supports": "Official code legislative history dates Ordinance 2899 and identifies repeal by 2900.",
+          "quote": "Description Interim provisions on cryptocurrency mining, server farms and data centers Disposition Repealed by Ord. 2900 \u2192 Adoption Date 5/22/2018",
+          "title": "Moses Lake legislative history"
+        },
+        {
+          "url": "https://columbiabasinherald.com/news/2018/may/28/moses-lake-passes-stop-to-new-cryptocurrency-2/",
+          "source_type": "news",
+          "supports": "Contemporaneous report describes the initial term as up to 12 months.",
+          "quote": "passed by the council last week is for up to 12 months",
+          "document_date": "2018-05-28"
+        }
+      ],
+      "notes": "The table reports 2899 was repealed by 2900; later disposition of 2900 and applicability of permanent code were not verified."
+    },
+    {
+      "moratorium_id": "wa-renton-2022",
+      "outcome": "corrected",
+      "confidence": 0.65,
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The source states a calendar-month term; 180 or 365 fixed days is not equivalent."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Calendar months do not have a fixed day count."
+        },
+        "current_status": {
+          "from": "Expired 2022-10-18; superseded by Renton's later, unrelated 2026 data-center moratorium (existing row wa-renton-2026), which does not cover battery storage. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+          "to": "A June 2022 report describes an April six-month battery-storage pause; June 2026 news describes it as expired without establishing the exact sunset. The unsupported October 18 endpoint and claimed supersession by a distinct 2026 data-center measure are removed from the narrative. Original ordinance, precise disposition and legal interval remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        },
+        "outcome": {
+          "from": "Moratorium expired per its own sunset clause; outcome of the underlying zoning question not confirmed in this pass",
+          "to": "Reported as expired by June 2026; exact sunset and underlying zoning disposition remain unverified.",
+          "reason": "The original ordinance and its sunset clause were not retrieved."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.kuow.org/stories/renton-residents-object-to-energy-storage-facility",
+          "source_type": "news",
+          "supports": "News reports a six-month battery-storage pause.",
+          "quote": "In April, the city put a six-month moratorium on battery storage proposals",
+          "document_date": "2022-06-10"
+        },
+        {
+          "url": "https://washingtonstatestandard.com/2026/06/18/big-battery-farms-encounter-resistance-across-western-washington/",
+          "source_type": "news",
+          "supports": "2026 report describes Renton battery moratorium as expired without a date or legal instrument.",
+          "quote": "Renton (now expired)",
+          "document_date": "2026-06-18"
+        }
+      ],
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "The city records viewer did not expose the ordinance; expiration is reported by secondary news only."
+        }
+      ],
+      "notes": "This correction removes an unsupported precise sunset and contradictory supersession claim; it does not independently confirm the status."
+    }
+  ],
+  "new_candidates": []
+}

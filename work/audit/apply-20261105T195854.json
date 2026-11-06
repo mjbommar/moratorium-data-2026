@@ -1,0 +1,119 @@
+{
+  "applied_at": "20261105T195854",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-washington-i/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 3,
+    "fields_changed": 13,
+    "verify_still_open": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "wa-east-wenatchee-2018",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The source states a calendar-month term; 180 or 365 fixed days is not equivalent.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-east-wenatchee-2018",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Calendar months do not have a fixed day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-east-wenatchee-2018",
+      "column": "current_status",
+      "before": "Replaced",
+      "after": "Ordinance 2018-06 section 13 states six months from passage with renewal/early-termination provisions. These are interim cryptocurrency-mining zoning controls; later extensions, replacement and final disposition remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-moses-lake-2018",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The source states a calendar-month term; 180 or 365 fixed days is not equivalent.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-moses-lake-2018",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Calendar months do not have a fixed day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-moses-lake-2018",
+      "column": "date_enacted",
+      "before": "2018-05 (Columbia Basin Herald reported on 2018-05-28 that Moses Lake \"City Council has passed an ordinance\" \"last week\" that prohibits new operations; consistent with a May 2018 enactment date)",
+      "after": "2018-05-22 (Ordinance 2899, according to the municipal legislative history)",
+      "reason": "Municipal legislative history dates Ordinance 2899 to May 22, 2018.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-moses-lake-2018",
+      "column": "date_enacted_iso",
+      "before": "2018-05",
+      "after": "2018-05-22",
+      "reason": "Municipal legislative history dates Ordinance 2899 to May 22, 2018.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-moses-lake-2018",
+      "column": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact",
+      "reason": "Municipal legislative history dates Ordinance 2899 to May 22, 2018.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-moses-lake-2018",
+      "column": "current_status",
+      "before": "Replaced",
+      "after": "The municipal legislative-history page for Ordinance 2899 dates adoption May 22, 2018 and reports repeal by Ordinance 2900. Contemporary news describes an initial term up to twelve months. The successor instrument and final disposition of the restriction remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-renton-2022",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The source states a calendar-month term; 180 or 365 fixed days is not equivalent.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-renton-2022",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Calendar months do not have a fixed day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-renton-2022",
+      "column": "current_status",
+      "before": "Expired 2022-10-18; superseded by Renton's later, unrelated 2026 data-center moratorium (existing row wa-renton-2026), which does not cover battery storage. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]",
+      "after": "A June 2022 report describes an April six-month battery-storage pause; June 2026 news describes it as expired without establishing the exact sunset. The unsupported October 18 endpoint and claimed supersession by a distinct 2026 data-center measure are removed from the narrative. Original ordinance, precise disposition and legal interval remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-renton-2022",
+      "column": "outcome",
+      "before": "Moratorium expired per its own sunset clause; outcome of the underlying zoning question not confirmed in this pass",
+      "after": "Reported as expired by June 2026; exact sunset and underlying zoning disposition remain unverified.",
+      "reason": "The original ordinance and its sunset clause were not retrieved.",
+      "source": "answers.json"
+    }
+  ]
+}
