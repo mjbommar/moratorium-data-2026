@@ -1,0 +1,119 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "reviewer": "coordinator",
+  "worker_job": "recovery-ballot-me-001",
+  "scope": "Scoped official-source review; no canonical publication or current legal-force acceptance.",
+  "seed_id": "lead-4f9cd7773e0da533307f",
+  "sources": [
+    {
+      "attempt_id": "3132d4ba01d14dd490bc0d91842ace19",
+      "url": "https://www.brownfieldmaine.gov/DocumentCenter/View/1000/Referendum-Results",
+      "body_sha256": "241e9b9e8386d04ba0f8dbc6c1e1cdc494ba97681752e3ef21113bd6c62e1747",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "finished_at": "2026-11-05T17:55:00.870394+00:00"
+    },
+    {
+      "attempt_id": "8fc68d090d1445f1bbed5ee95dd3ed3e",
+      "url": "https://brownfieldme.civicpluswebopen.com/media/6711",
+      "body_sha256": "831bec6bb5a36fad30a92dd0ee781e59d1c584c7e69e7f11c384498d24044f0c",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "finished_at": "2026-11-05T17:55:50.831266+00:00"
+    },
+    {
+      "attempt_id": "3a4d56ecc30b47498da9af5dc463eaa1",
+      "url": "https://brownfieldme.civicpluswebopen.com/media/6701",
+      "body_sha256": "c30d66fdfbbe67d6afdea9f1f5437cd46000adb5b30fdf803b0c94bf0afc3ec5",
+      "text_sha256": "d3bd2611641720bd9375dff367b62ba92b90f7739661e347c9f86a5fb995e38d",
+      "finished_at": "2026-11-05T17:54:36.048222+00:00"
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "3132d4ba01d14dd490bc0d91842ace19",
+      "page": null,
+      "reviewed_image_sha256": "241e9b9e8386d04ba0f8dbc6c1e1cdc494ba97681752e3ef21113bd6c62e1747",
+      "render_parameters": {
+        "renderer": "original JPEG",
+        "dpi": null
+      },
+      "finding": "Original town-hosted tally is JPEG with EXIF orientation, not PDF. November3municipal special election; Question1 yes671/no191; declaration862ballotscounted. No separate certification date."
+    },
+    {
+      "attempt_id": "8fc68d090d1445f1bbed5ee95dd3ed3e",
+      "page": 1,
+      "reviewed_image_sha256": "e7bb0ecc6066660ba984db71edac34bfad5004c0a66b3d6495026cd0bdf0a715",
+      "render_parameters": {
+        "renderer": "retained worker render",
+        "dpi": null
+      },
+      "finding": "Signed/attested November3special-town-meeting warrant Article1 question approves temporary moratorium; draft available at office."
+    },
+    {
+      "attempt_id": "3a4d56ecc30b47498da9af5dc463eaa1",
+      "page": 2,
+      "reviewed_image_sha256": "dec81df48a7b27c8a8479e6ed3d3e8c4bdb8b2d9dc35260a0364ef1071274aa5",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 145
+      },
+      "finding": "DRAFT October13,2026; primary computing definition continues onto page3."
+    },
+    {
+      "attempt_id": "3a4d56ecc30b47498da9af5dc463eaa1",
+      "page": 3,
+      "reviewed_image_sha256": "c39978a4740d7f3472011a6944a905af38550360dd2fe462a08a17b4c85644a2",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 145
+      },
+      "finding": "At least5000sqft aggregate defined area; literal less-than250kW computing/1MWtotalservice wording; associated impervious surfaces; 180daysfromSeptember16applicability, subject to modification."
+    }
+  ],
+  "located_evidence": [
+    {
+      "attempt_id": "3a4d56ecc30b47498da9af5dc463eaa1",
+      "quote": "The\n\nelectrical power limit for computing power must be less than 250 kW and less than 1 MW for\n\nthe total electrical service.",
+      "span": "utf8-text-codepoints:5050:5176"
+    },
+    {
+      "attempt_id": "3a4d56ecc30b47498da9af5dc463eaa1",
+      "quote": "This Moratorium shall remain in full force and effect for a period of 180 days from the Date of\n\nApplicability, unless extended, repealed, or modified in accordance with applicable law.",
+      "span": "utf8-text-codepoints:7534:7719"
+    }
+  ],
+  "accepted_source_observations": {
+    "warrant_designation": "Article 1",
+    "result_designation": "Question 1",
+    "wording": "Will the Town approve the Town of Brownfield Ordinance to establish a temporary moratorium on data centers?",
+    "election_date": "2026-11-03",
+    "yes_votes": 671,
+    "no_votes": 191,
+    "ballots_counted_statement": 862,
+    "yes_no_votes": 862,
+    "blank_votes": null,
+    "certification_status": "unknown",
+    "certification_date": null,
+    "proposed_area_threshold": {
+      "operator": "ge",
+      "value": 5000,
+      "unit": "square feet",
+      "basis": "aggregate defined Data Center Area including associated impervious surfaces"
+    },
+    "power_language": "less than250kWcomputing AND less than1MWtotalservice; source text only, legal scope unresolved",
+    "proposed_duration": {
+      "value": 180,
+      "unit": "days",
+      "anchor": "applicability_date",
+      "anchor_date": "2026-09-16"
+    }
+  },
+  "remaining_gaps": [
+    "literal power-clause legal/definition interpretation",
+    "final executed text and operative dates/later force",
+    "dated result certification and legal passage outcome",
+    "native-JPEG evidence verification including orientation",
+    "canonical identity/field/publication gates"
+  ]
+}

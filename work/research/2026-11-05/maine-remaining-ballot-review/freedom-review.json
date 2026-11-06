@@ -1,0 +1,111 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "reviewer": "coordinator",
+  "worker_job": "recovery-ballot-me-001",
+  "scope": "Scoped official-source review; no canonical publication or current legal-force acceptance.",
+  "seed_id": "lead-6a5d96ef247af22d389d",
+  "sources": [
+    {
+      "attempt_id": "c61547162a714b7780c55789d222d1de",
+      "url": "https://www.freedomme.org/_files/ugd/8d8f5c_be3f789c00ae4e1eb75f14bae34aac9e.pdf",
+      "body_sha256": "04fc124823f1521efddf29a4e926de879a32b7c8d53cfc8dc4e68f71773da980",
+      "text_sha256": "fb722e8d7eb465d6794d96dc337ddf9c39f1519f3873e7e283c9b486d8d0acfd",
+      "finished_at": "2026-11-05T17:58:35.648844+00:00"
+    },
+    {
+      "attempt_id": "9723feb3152b4cd4992351d8e86cc9a4",
+      "url": "https://www.freedomme.org/_files/ugd/8d8f5c_46de79206147493da9212585e618d912.pdf",
+      "body_sha256": "f56b53b81560a74f5d40f7b603db6044c66740efc61487e9bf0e963c5daaf06a",
+      "text_sha256": "6716dc96f05d8bb16c29d1ab3b8d884403055b61f395658852b6ebf806c118a4",
+      "finished_at": "2026-11-05T17:55:28.999136+00:00"
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "c61547162a714b7780c55789d222d1de",
+      "page": 1,
+      "reviewed_image_sha256": "ca8371a5e41d9eeb2ce017ce7bb1e4e2b86b5690a40b52d78b05cb575b7e339d",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 1,
+        "dpi": 120
+      },
+      "finding": "Draft with Adopted:<DATE> placeholder."
+    },
+    {
+      "attempt_id": "c61547162a714b7780c55789d222d1de",
+      "page": 2,
+      "reviewed_image_sha256": "f6c2e95ea899e408ad513b921e56734bc2bcb153a967bac62c55c794e994cf00",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 120
+      },
+      "finding": "Preamble says at least180daysneeded to consider/develop/implement regulations; not an operative expiration clause."
+    },
+    {
+      "attempt_id": "c61547162a714b7780c55789d222d1de",
+      "page": 3,
+      "reviewed_image_sha256": "077473ccc7b97c666654bbdbb7bb668fc910e89b7ed908bc70247f73a3ca03c7",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 140
+      },
+      "finding": "Defined computing use; development and application-processing prohibitions; immediate effect on passage."
+    },
+    {
+      "attempt_id": "c61547162a714b7780c55789d222d1de",
+      "page": 4,
+      "reviewed_image_sha256": "9743603cdf96524d22f7deb1d3afd5b6c37aa35c1f0c976d490ba2e540dac87a",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 4,
+        "dpi": 140
+      },
+      "finding": "Unfilled applicability/adoption date; enforcement/penalties. No automatic end date in operative sections."
+    },
+    {
+      "attempt_id": "9723feb3152b4cd4992351d8e86cc9a4",
+      "page": 2,
+      "reviewed_image_sha256": "af022abfc930b70751fff1dfb2a36310e7ce776611d0306d402cfd4fd3c01504",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 140
+      },
+      "finding": "Hearing distinguishes temporary moratorium from ban; approximately6months; asked about180days, response extension possible; plannedNovemberballot."
+    }
+  ],
+  "located_evidence": [
+    {
+      "attempt_id": "c61547162a714b7780c55789d222d1de",
+      "quote": "the Town of FREEDOM requires at least 180 days to consider, develop,",
+      "span": "utf8-text-codepoints:2575:2643"
+    },
+    {
+      "attempt_id": "9723feb3152b4cd4992351d8e86cc9a4",
+      "quote": "The moratorium gives us\n\napproximately 6 months to develop an ordinance.",
+      "span": "utf8-text-codepoints:2049:2121"
+    }
+  ],
+  "accepted_source_observations": {
+    "proposed_mechanism": "temporary development and permitting pause",
+    "draft_duration": null,
+    "draft_adoption_date": null,
+    "draft_applicability_date": null,
+    "preamble_study_need": "at least180days",
+    "hearing_description": "approximately6months;180-dayquestion;extensionpossible",
+    "exact_ballot_wording": null,
+    "official_result_counts": null,
+    "certification_status": "unknown"
+  },
+  "review_limits": "Four-page draft visually reviewed, but no complete bc-evidence extraction performed. Worker secondary-news result assertions remain leads and are not accepted as official results by this packet. Hearing and preamble do not fill an operative term.",
+  "remaining_gaps": [
+    "official ballot/warrant and result recovery",
+    "enacted duration and operative date",
+    "legal passage, bindingness and certification",
+    "later force and legacy-instrument linkage",
+    "canonical identity/field/publication gates"
+  ]
+}
