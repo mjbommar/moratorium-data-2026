@@ -1,0 +1,135 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "sc-inventory-002": "cfd0f731b4c89cf3bc430b4bf835fe7e9be94fed14a02b0f67d934c8d24e8095"
+  },
+  "reviewed_answers_sha256": "89da8550aad8cf1d487246d6bb9eb2658cb0fa1c061f47b4970ad0c8ecb33c37",
+  "scope": "Bounded Colleton original-term and partial-repeal correction. Signed 26-O-04 July 6 and signed 26-O-08 September 14 visually confirmed. Remainder condition specifies final approval of the five-year update including described ACE Basin terms, not simply any September comprehensive-plan amendment. No conclusion on subsequent satisfaction, litigation, continuity or current force. Unknown duration kind preserves unresolved interaction between original six-month term and event condition. Full OCR page coverage is not full substantive review of all zoning provisions.",
+  "located_evidence": [
+    {
+      "moratorium_id": "sc-colleton-county-2026",
+      "url": "https://www.colletoncounty.org/sites/default/files/uploads/Ordinances/26-o-08-amend-zoning-ordinance.pdf",
+      "quote": "Moratorium enacted thereby are hereby partially repealed upon third and final reading of this",
+      "located": [
+        {
+          "attempt_id": "570761d2022b4389840e4e8182881aa7",
+          "body_sha256": "54efacddd723382a6c4b197742bd426e929622e21f26141dcaf60bb176c4679e",
+          "text_sha256": "df798760e88dffe1e9847bda5b34db758d538f41ddd4d3975bba34cf902b652b",
+          "span": [
+            5861,
+            5954
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "sc-colleton-county-2026",
+      "url": "https://www.colletoncounty.org/sites/default/files/uploads/Ordinances/26-o-08-amend-zoning-ordinance.pdf",
+      "quote": "The Moratorium shall remain in effect with respect to all areas of the County east\nof Interstate 95 (except those areas currently zoned Light Industrial (LID), Industrial (ID), and\nHeavy Industrial (HID)) until such time as the five-year update to the Colleton County\nComprehensive Plan 2030, including the terms described above, have been given final approval\nby the Council.",
+      "located": [
+        {
+          "attempt_id": "570761d2022b4389840e4e8182881aa7",
+          "body_sha256": "54efacddd723382a6c4b197742bd426e929622e21f26141dcaf60bb176c4679e",
+          "text_sha256": "df798760e88dffe1e9847bda5b34db758d538f41ddd4d3975bba34cf902b652b",
+          "span": [
+            7044,
+            7420
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "sc-colleton-county-2026",
+      "url": "https://www.colletoncounty.org/sites/default/files/uploads/Ordinances/26-o-04-data-ctr-moratorium.pdf",
+      "quote": "for a period of six months from the date of",
+      "located": [
+        {
+          "attempt_id": "bf1265a102de48b8bf49cffce8780c54",
+          "body_sha256": "f94b5847753442f76f760c9af229e23f1af20a769e54c071273b1eff65d56efb",
+          "text_sha256": "d8b94d65e1fdd0f58c41d641b38e8ea6214618b4cf1fe480a1129a6559bb925e",
+          "span": [
+            3684,
+            3727
+          ]
+        }
+      ]
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "bf1265a102de48b8bf49cffce8780c54",
+      "source_body_sha256": "f94b5847753442f76f760c9af229e23f1af20a769e54c071273b1eff65d56efb",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/sc-inventory-002/colleton04-ocr.private.txt",
+      "derived_text_sha256": "d8b94d65e1fdd0f58c41d641b38e8ea6214618b4cf1fe480a1129a6559bb925e",
+      "method": "Separately retained PDF OCR; relevant operative and signed adoption pages visually compared by coordinator",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T00:33:29.376868+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    },
+    {
+      "attempt_id": "570761d2022b4389840e4e8182881aa7",
+      "source_body_sha256": "54efacddd723382a6c4b197742bd426e929622e21f26141dcaf60bb176c4679e",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/sc-inventory-002/colleton08-ocr.private.txt",
+      "derived_text_sha256": "df798760e88dffe1e9847bda5b34db758d538f41ddd4d3975bba34cf902b652b",
+      "method": "Separately retained PDF OCR; relevant operative and signed adoption pages visually compared by coordinator",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T00:33:40.976534+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "bf1265a102de48b8bf49cffce8780c54",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "b4c51cc08298c4cf32d1826dbd3b724d9ff6489bb3f116ec6a8f6dba4ed35896"
+    },
+    {
+      "attempt_id": "bf1265a102de48b8bf49cffce8780c54",
+      "page": 3,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "80080fe5a7d571dd36858e8a41a2fb4a1c721ad05e3f69546e5680327586671e"
+    },
+    {
+      "attempt_id": "570761d2022b4389840e4e8182881aa7",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "e37ee4626bcbebd012079c81b587ed18cee3aa2d98fb7f55c9d33c0a6671a5e5"
+    },
+    {
+      "attempt_id": "570761d2022b4389840e4e8182881aa7",
+      "page": 3,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "f0dca3d64623c21e8b5afeaa7833f4ebcf5735d43a3dfed7cf9eca9b08d3ab64"
+    },
+    {
+      "attempt_id": "570761d2022b4389840e4e8182881aa7",
+      "page": 4,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "a6e84db92e98c4f14262b144d3fe3f49e9cc61b2dba4ed9865187c9744ec6650"
+    }
+  ]
+}

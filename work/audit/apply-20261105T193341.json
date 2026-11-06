@@ -1,0 +1,54 @@
+{
+  "applied_at": "20261105T193341",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-south-carolina-d/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 1,
+    "fields_changed": 5
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "sc-colleton-county-2026",
+      "column": "duration",
+      "before": "Six months",
+      "after": "Original ordinance: six months from enactment. September 14 amendment partially repeals it and states that the moratorium remains in effect in specified areas until final approval of the five-year comprehensive-plan update. The interaction of these provisions needs review.",
+      "reason": "Ordinance 26-O-08 section 3 specifies an event-based provision for the remainder.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-colleton-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "The original six-month term and later event-based provision do not support a fixed 180-day current term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-colleton-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "unknown",
+      "reason": "Interaction of original calendar term and later event provision requires review.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-colleton-county-2026",
+      "column": "current_status",
+      "before": "Partially superseded as of 2026-09-14. Colleton County Council unanimously adopted (third reading) a Digital Infrastructure Overlay District ordinance permitting data centers and battery energy storage systems, subject to conditions (300+ acre minimum, 65 dB noise cap, 200-ft buffers, closed-loop cooling), west of Interstate 95 and on land already zoned Light/Industrial/Industrial/Heavy Industrial; the moratorium (Ordinance 26-O-04) is repealed with respect to those areas but continues to apply elsewhere in the county (east of I-95, non-industrial-zoned land) through its original ~180-day term (adopted 2026-07-06, running to approximately 2027-01-02) absent further council action.",
+      "after": "On September 14, 2026, Ordinance 26-O-08 partially repealed the moratorium for areas west of I-95 and areas zoned LID, ID or HID; it states that the moratorium remains in effect east of I-95 outside those industrial zones until final approval of the specified comprehensive-plan update. Later actions and current force require further review. [VERIFY: interaction of original calendar term and later event condition, operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "The signed amendment does not substantiate a fixed approximate end date.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-colleton-county-2026",
+      "column": "outcome",
+      "before": "Adopted six-month moratorium in July 2026 (Ordinance 26-O-04); on 2026-09-14 the county partially repealed that moratorium and replaced it, for areas west of I-95 and already-industrial-zoned land, with a Digital Infrastructure Overlay District permitting data centers and battery storage under conditions (minimum 300 acres, 65 dB noise cap, 200-ft buffers, closed-loop cooling); the moratorium remains in force elsewhere in the county pending its original term.",
+      "after": "July 6, 2026: adopted a six-month data center moratorium. September 14: Ordinance 26-O-08 partially repealed it and set an event-based provision for the remaining area; later legal developments require review.",
+      "reason": "Signed ordinances establish the historic actions and terms.",
+      "source": "answers.json"
+    }
+  ]
+}

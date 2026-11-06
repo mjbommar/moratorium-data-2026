@@ -98,15 +98,15 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Status:** ⚪ Replaced
 - **Date enacted:** July 6, 2026 (County Council third reading and enactment of Ordinance 26-O-04, effective immediately)
 - **Normalized date:** `2026-07-06` (exact)
-- **Duration:** Six months
+- **Duration:** Original ordinance: six months from enactment. September 14 amendment partially repeals it and states that the moratorium remains in effect in specified areas until final approval of the five-year comprehensive-plan update. The interaction of these provisions needs review.
 - **Current end date:** `—`
 - **Sectors:** data center, battery storage
 - **Moratorium ID:** `sc-colleton-county-2026`
 - **Legal basis:** Ordinance 26-O-04 (Colleton County Council), partially repealed as of 2026-09-14 for areas west of Interstate 95 and land already zoned Light/Industrial/Heavy Industrial, by a new ordinance establishing a "Digital Infrastructure Overlay District" (which also repeals and replaces the county's separate data-center zoning ordinance, No. 25-O-10) and a companion zoning-map amendment, both adopted on third reading 2026-09-14.
 - **What prompted it:** Pauses consideration of special exceptions, conditional uses, and other land-use approvals for data centers while county staff and the Planning Commission study appropriate locations/conditions and prepare comprehensive-plan and code amendments; also holds received-but-unconsidered applications in abeyance.
 - **Affected projects:** Unspecified data center project(s) subject to related Southern Environmental Law Center litigation, paused during the moratorium.
-- **Detailed status:** Partially superseded as of 2026-09-14. Colleton County Council unanimously adopted (third reading) a Digital Infrastructure Overlay District ordinance permitting data centers and battery energy storage systems, subject to conditions (300+ acre minimum, 65 dB noise cap, 200-ft buffers, closed-loop cooling), west of Interstate 95 and on land already zoned Light/Industrial/Industrial/Heavy Industrial; the moratorium (Ordinance 26-O-04) is repealed with respect to those areas but continues to apply elsewhere in the county (east of I-95, non-industrial-zoned land) through its original ~180-day term (adopted 2026-07-06, running to approximately 2027-01-02) absent further council action.
-- **Outcome:** Adopted six-month moratorium in July 2026 (Ordinance 26-O-04); on 2026-09-14 the county partially repealed that moratorium and replaced it, for areas west of I-95 and already-industrial-zoned land, with a Digital Infrastructure Overlay District permitting data centers and battery storage under conditions (minimum 300 acres, 65 dB noise cap, 200-ft buffers, closed-loop cooling); the moratorium remains in force elsewhere in the county pending its original term.
+- **Detailed status:** On September 14, 2026, Ordinance 26-O-08 partially repealed the moratorium for areas west of I-95 and areas zoned LID, ID or HID; it states that the moratorium remains in effect east of I-95 outside those industrial zones until final approval of the specified comprehensive-plan update. Later actions and current force require further review. [VERIFY: interaction of original calendar term and later event condition, operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** July 6, 2026: adopted a six-month data center moratorium. September 14: Ordinance 26-O-08 partially repealed it and set an event-based provision for the remaining area; later legal developments require review.
 
 ### Fairfield County
 
