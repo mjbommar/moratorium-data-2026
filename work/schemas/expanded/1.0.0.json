@@ -893,6 +893,28 @@
             }
           },
           "description": "Verbatim source labels and counts with exact same-result evidence; no automatic category mapping or denominator inference."
+        },
+        "reporting_scope": {
+          "description": "Optional explicit geographic coverage of this result observation. Missing legacy scope is not presumed to cover the whole electorate.",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "kind": {
+              "enum": [
+                "jurisdiction_total",
+                "jurisdiction_part",
+                "unknown"
+              ]
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "kind",
+            "description"
+          ]
         }
       },
       "required": [

@@ -85,6 +85,15 @@ def validate(directory, moratoria=None, state_actions=None):
                 if old:
                     field='measure_id' if table=='measure_results' else 'target'
                     if old[field] != r[field]: err(w,'supersession changes target')
+                    if table == 'measure_results':
+                        prior_scope = old.get('reporting_scope', {})
+                        next_scope = r.get('reporting_scope', {})
+                        if prior_scope.get('kind') in ('jurisdiction_total', 'jurisdiction_part'):
+                            if next_scope.get('kind') != prior_scope['kind']:
+                                err(w, 'supersession changes known reporting scope')
+                            elif (prior_scope['kind'] == 'jurisdiction_part'
+                                  and next_scope.get('description') != prior_scope['description']):
+                                err(w, 'supersession changes jurisdiction part')
                     if table == 'review_decisions' and old['scope'] != r['scope']: err(w,'supersession changes review scope')
                     time='observed_at' if table=='measure_results' else 'decided_at'
                     if datetime.fromisoformat(old[time].replace('Z','+00:00')) >= datetime.fromisoformat(r[time].replace('Z','+00:00')): err(w,'superseded observation is not earlier')
@@ -104,6 +113,9 @@ def validate(directory, moratoria=None, state_actions=None):
                     and rows['claims'][cid]['predicate'] == 'applicability_start' for cid in r['claim_ids']
                 ): err(w,'retroactivity requires a claim scoped to applicability_start')
             if table=='measure_results':
+                scope = r.get('reporting_scope')
+                if scope and not scope['description'].strip():
+                    err(w, 'reporting scope requires nonblank description')
                 for field, method in r.get('value_methods', {}).items():
                     if field not in r: err(w, f'value method references absent field {field}')
                     for cid in method['claim_ids']: exists('claims',cid,w)

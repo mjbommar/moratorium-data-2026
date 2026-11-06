@@ -14,6 +14,31 @@ FIXTURE = ROOT / 'work/schemas/expanded/fixtures/synthetic'
 def date(s=None): return {'earliest':s,'latest':s,'precision':'day' if s else 'unknown','original_text':s}
 
 class ExpandedContracts(unittest.TestCase):
+    def test_reporting_scope_is_optional_but_explicit_parts_need_description(self):
+        self.assertEqual(self.validate(), [])
+        r = self.tables['measure_results'][0]
+        r['reporting_scope'] = {'kind': 'jurisdiction_part', 'description': 'Brown County portion'}
+        self.assertEqual(self.validate(), [])
+        r['reporting_scope']['description'] = '   '
+        self.assertTrue(any('nonblank description' in e for e in self.validate()))
+        r['reporting_scope'] = {'kind': 'jurisdiction_part'}
+        self.assertTrue(any('description' in e for e in self.validate()))
+
+    def test_result_supersession_cannot_replace_one_county_with_another_or_total(self):
+        r = self.tables['measure_results'][0]
+        r['reporting_scope'] = {'kind': 'jurisdiction_part', 'description': 'Brown County portion'}
+        newer = copy.deepcopy(r)
+        newer.update(result_observation_id='later-part', observed_at='2026-11-05T12:00:00Z',
+                     supersedes_id=r['result_observation_id'])
+        self.tables['measure_results'].append(newer)
+        self.assertEqual(self.validate(), [])
+        newer['reporting_scope']['description'] = 'Outagamie County portion'
+        self.assertTrue(any('changes jurisdiction part' in e for e in self.validate()))
+        newer['reporting_scope']['kind'] = 'jurisdiction_total'
+        self.assertTrue(any('changes known reporting scope' in e for e in self.validate()))
+        newer.pop('reporting_scope')
+        self.assertTrue(any('changes known reporting scope' in e for e in self.validate()))
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory(); self.addCleanup(self.temp.cleanup)
         self.path = Path(self.temp.name)

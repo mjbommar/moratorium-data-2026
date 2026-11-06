@@ -28,10 +28,12 @@ def render(rows, snapshot):
            f"{certified_result_count(rows)} current certified observations.**",'',
            'This is a reviewed subset, not a complete election census. Each row is one current result observation; '
            'multiple observations for a measure remain separate. Unknown categories are not zero.','',
+           'Reporting scope distinguishes whole-jurisdiction observations from named parts. '
+           'Missing legacy scope is not assumed to cover the whole electorate; observations are not summed.','',
            'Yes-vote direction follows the question wording. Advisory results express voter sentiment; '
            'they do not by themselves enact a restriction or authorize a project.','',
-           '| Measure | Election | Bindingness | Yes-vote direction | Yes | No | Blank | Ballots cast | Certification | Reported outcome |',
-           '|---|---|---|---|---:|---:|---:|---:|---|---|']
+           '| Measure | Election | Reporting scope | Bindingness | Yes-vote direction | Yes | No | Blank | Ballots cast | Certification | Reported outcome |',
+           '|---|---|---|---|---|---:|---:|---:|---:|---|---|']
     def order(result):
         measure=rows['ballot_measures'][result['measure_id']]
         jurisdiction=rows['jurisdictions'][measure['jurisdiction_id']]
@@ -45,7 +47,10 @@ def render(rows, snapshot):
         label=f"[{title}](<{citation(source)}>)"
         date=election['election_date']['earliest'] if election['election_date']['precision']=='day' else (election['election_date']['original_text'] or 'unknown')
         cert=result['certification_status']+((' '+result['certification_date']) if result['certification_date'] else '')
-        values=[label,date,measure['bindingness'],measure['yes_direction'].replace('_',' '),result['yes_votes'],result['no_votes'],result.get('blank_votes'),result['ballots_cast'],cert,result['reported_outcome']]
+        scope=result.get('reporting_scope')
+        scope_label=({'jurisdiction_total':'Whole jurisdiction', 'jurisdiction_part':'Partial jurisdiction',
+                      'unknown':'Unknown scope'}[scope['kind']]+': '+scope['description']) if scope else 'scope not recorded'
+        values=[label,date,scope_label,measure['bindingness'],measure['yes_direction'].replace('_',' '),result['yes_votes'],result['no_votes'],result.get('blank_votes'),result['ballots_cast'],cert,result['reported_outcome']]
         lines.append('| '+' | '.join(cell(v) for v in values)+' |')
     source_notes=[]
     for result in sorted(live,key=order):

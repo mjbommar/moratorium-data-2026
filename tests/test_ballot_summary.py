@@ -11,6 +11,22 @@ from build_ballot_summary import render
 SNAPSHOT='7b960c58dd52c2f643647e306616966d4590a652c0b9caf11c108ea2edc3f421'
 
 class BallotSummaryTests(unittest.TestCase):
+    def test_named_county_parts_remain_visible_and_are_never_summed(self):
+        self.result.update(yes_votes=106, no_votes=899,
+                           reporting_scope={'kind':'jurisdiction_part','description':'Brown County portion'})
+        other=copy.deepcopy(self.result)
+        other.update(result_observation_id='outagamie-part', yes_votes=45, no_votes=134,
+                     reporting_scope={'kind':'jurisdiction_part','description':'Outagamie County portion'})
+        self.rows['measure_results'][other['result_observation_id']]=other
+        text=render(self.rows,SNAPSHOT)
+        self.assertIn('Partial jurisdiction: Brown County portion',text)
+        self.assertIn('Partial jurisdiction: Outagamie County portion',text)
+        self.assertIn('106 | 899',text)
+        self.assertIn('45 | 134',text)
+        self.assertNotIn('151 | 1033',text)
+        self.assertIn('scope not recorded',text)
+        self.assertIn('3 current result observations',text)
+
     def setUp(self):
         errors,self.rows=validate(ROOT/'data/expanded-snapshots'/SNAPSHOT)
         self.assertFalse(errors)

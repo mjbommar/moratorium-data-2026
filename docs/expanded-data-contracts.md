@@ -81,6 +81,22 @@ match the exact result, source document, predicate (`source_vote_category` or
 entries and forced mapping keys are rejected. Absent fields remain compatible
 with earlier snapshots. Public summaries display these observations separately.
 
+Optional result `reporting_scope` records geographic coverage with a `kind`
+(`jurisdiction_total`, `jurisdiction_part`, or `unknown`) and a nonblank
+`description`. A county portion of a village is a separate observation from
+another county portion; neither is a village-wide result. Public summaries label
+the scope and preserve separate rows without summing them. Missing legacy scope
+is displayed as **scope not recorded**, not inferred to be the whole electorate.
+New scope fields require the same evidence and field-level publication review as
+other result assertions. Historical snapshot bytes are unchanged.
+
+Supersession cannot change a known whole/part kind, drop known scope, or replace
+one named jurisdiction part with another. A fresh county-part return can supersede
+an older observation for that same named part; a different part or whole-jurisdiction
+return needs its own observation. These rules prevent a later county release from
+silently replacing a village-wide result. This field does not establish certification,
+derive a combined result, or determine the source's vote-percentage denominator.
+
 `value_methods` identifies text, OCR, visual review, source reporting or derivation
 per result field with supporting claim IDs. Optional provision/restriction
 `duration` distinguishes enactment, adoption, effectiveness and applicability anchors;
