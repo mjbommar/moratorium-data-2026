@@ -267,9 +267,9 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Source-body availability checkpoint
 
-The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-tn-review-2026-11-06.json)
-covers 6,508 manifest entries, with hash-matching bodies available through listed
-paths for 3,065 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-tx-review-2026-11-06.json)
+covers 6,512 manifest entries, with hash-matching bodies available through listed
+paths for 3,069 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.
@@ -384,3 +384,7 @@ The [Washington notice review](../work/research/2026-11-06/washington-discovery-
 ## Tennessee visual coverage and action stages
 
 The [Tennessee review](../work/research/2026-11-06/tennessee-discovery-review/README.md) adds Orlinda Resolution 2026-03 from complete two-page visual inspection. The retained text extraction omits page 1, including definitions and the two-calendar-year operative term. The mayor signature is visible; the recorder line is blank. The calendar-derived June 11, 2028 endpoint is not an express printed date or a fixed-day approximation; later actions and current legal force remain unverified. Moore’s separate solar report, Hardeman’s possible solar amendments and Shelby’s county first reading remain withheld pending primary final actions; none is merged into an existing data-center/city instrument.
+
+## Texas adoption, authority requests and drafts
+
+The [Texas evidence review](../work/research/2026-11-06/texas-discovery-review/README.md) confirms signed February 11, 2026 approval on Van Zandt’s direct county scan pages 1–3. Its original extraction is empty; remaining attachments are outside this scoped visual review. RQ-0634-KP is a February 24 request by Delta County’s attorney, received February 25, not an issued Attorney General opinion or a Delta moratorium. Adoption and asserted authority do not prove enforceability or current force. Tom Green’s four-page unincorporated Precinct 4 draft has blank execution fields, and reporting says the May 26 motion was tabled. Neither its twelve-month proposal nor its geographic/size thresholds are treated as an adopted countywide restriction. No canonical counts change.

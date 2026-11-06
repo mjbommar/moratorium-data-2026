@@ -1,0 +1,146 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "canonical_changes": 0,
+  "inventory_sha256": "b4b8bfdf88121723f7a3d44fb62512c2c3c1158a22c4d294a124ae3b29716c31",
+  "candidates": [
+    {
+      "candidate_key": "discovery-tx:0",
+      "candidate_sha256": "96571be0c59cca1b4385a6194f650130cb182c0b1a32bd60e89f633d60a353ac",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_authority_enforceability_and_later_history",
+      "rationale": "Direct county scan pages 1\u20133 identify BESS/solar/wind scope and signed approval February 11, 2026. Its extraction is empty; pages 4\u201314 attachments are not visually reviewed here. The separate 24-page RQ-0634-KP packet contains a February 24 request by DELTA County Attorney Edgar Garrett, received February 25; inspected pages 1\u20133 ask about county authority, refer to AC-0003 and cite Van Zandt as an example. This request is not an Attorney General opinion or Delta moratorium. Neither a reported adoption nor the request proves enforceability or current force. Keep signed direct scan distinct from attached versions; operative term and later actions need further review.",
+      "source_checks": [
+        {
+          "attempt_id": "a521406947ca44149f05cd23678056c2",
+          "url": "https://www.vanzandtcounty.org/upload/page/2685/2026/Van%20Zandt%20County%20Green%20Energy%20Moratorium%2002112026%20Full.pdf",
+          "body_sha256": "36eccc5359f37f9ad0d62164c98f48429f59876276b1bfce08d4627ade4a3869",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "visual_review": {
+            "document_pages": 14,
+            "inspected_pages": [
+              1,
+              2,
+              3
+            ],
+            "scope": "Only listed pages directly inspected; no complete attachment/full-extraction claim.",
+            "render_command": "pdftoppm -scale-to 1400 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "a6fafa7007236fb91bedbebbc8173e93a17223a79b745bf5a92f65694210afa6"
+              },
+              {
+                "page": 2,
+                "image_sha256": "8cba4e84009b1e6ba4cc64abc3a47e483251589097cdffaca7bf4a24989c42ef"
+              },
+              {
+                "page": 3,
+                "image_sha256": "97b34e3cd21ef1443477904bcb17c3f0d8a227349e202e8258a6b6dea3fbd80a"
+              }
+            ]
+          },
+          "extraction_gap": "Original retained extracted text is empty; accepted scoped observations derive from visual pages 1\u20133."
+        },
+        {
+          "attempt_id": "2338c32b136f4d87b849a89575ff25e0",
+          "url": "https://www.kltv.com/2026/02/11/van-zandt-county-commissioners-approve-temporary-halt-all-green-energy-projects/",
+          "body_sha256": "e7c960a23b7282441ae4456d9464b6d646a0b0c811282d378183613169d60d51",
+          "text_sha256": "8a293ce46c92f0dfcc13fe8c6a4e8b29452bda8cab61ad3ca5832bbf7499d965",
+          "quote": "CANTON, Texas (KLTV) \u2014 Van Zandt County commissioners approved a moratorium Wednesday temporarily stopping all green energy projects in the county.",
+          "quote_span": [
+            0,
+            147
+          ],
+          "review_method": "Complete retained HTML text independently read; exact excerpt located."
+        },
+        {
+          "attempt_id": "f2283ae275b14a249a0f14cfe470264b",
+          "url": "https://www.texasattorneygeneral.gov/sites/default/files/request-files/request/2026/RQ0634KP.pdf",
+          "body_sha256": "3019e956c93078993d94ee0bb345f7cb9746cd1477c579bf75c1e17b1f6c8428",
+          "text_sha256": "5130780dc81868e10ec336e0cbb7fbbfa9c71d17228b477cf7ac39431a3f272c",
+          "visual_review": {
+            "document_pages": 24,
+            "inspected_pages": [
+              1,
+              2,
+              3
+            ],
+            "scope": "Only listed pages directly inspected; no complete attachment/full-extraction claim.",
+            "render_command": "pdftoppm -scale-to 1400 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "1db840d2ba6d2dd3dd6120115bfe9bf4cd47eb2a481ed4a86b86183fedf8725c"
+              },
+              {
+                "page": 2,
+                "image_sha256": "6aeed2813421092847842378e0f15545770c22c5a686e99b672590e35927ecf7"
+              },
+              {
+                "page": 3,
+                "image_sha256": "b137be02e8281f6f357a3e68e2fa510dbdb6f3153bbda1eeb62d0ddf3de02786"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-tx:1",
+      "candidate_sha256": "e378d0d790e88e95639c6aeed104c43a54a12767ad458cc39930f746ba747096",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_tabled_precinct_draft_later_action",
+      "rationale": "Complete four-page Tom Green draft concerns only unincorporated Precinct 4 and contains blank execution date/signatures. Proposed thresholds: BESS greater than 5 MW, data processing facilities greater than 1,000 square feet, and power generation greater than 5 MW; active construction, maintenance, agricultural and incorporated-municipality exclusions, waiver process, and earlier-of twelve months/event endpoints. Full news text says May 26 motion was TABLED and developer questions scheduled. No adopted order, operative date, current pending disposition or countywide restriction is accepted; later meeting action remains needed.",
+      "source_checks": [
+        {
+          "attempt_id": "664387dae3234e2db20fef59d8e7ef2b",
+          "url": "https://www.conchovalleyhomepage.com/news/local-news/concho-valley-data-centers/tom-green-commissioners-table-data-center-green-energy-moratorium-what-to-know/",
+          "body_sha256": "bb9f9ed739e264d715dcccee4a8fc65dc7b1978316ccab2bdfca0955bbaaa64e",
+          "text_sha256": "91d5fe7d658b09b3c0d958fd779617dc5b0052387837e1e2d05d3eba09f27766",
+          "quote": "elopment for data center and green energy projects in Precinct 4 has been tabled after the commissioners set a time for a data center developer potentially pursuing a project in the region to pro",
+          "quote_span": [
+            272,
+            467
+          ],
+          "review_method": "Complete retained HTML text independently read; exact excerpt located."
+        },
+        {
+          "attempt_id": "9f19b83f7db446a2b55fac0d49eb3a7c",
+          "url": "https://www.conchovalleyhomepage.com/wp-content/uploads/sites/83/2026/05/PCT-4-Moratorium.pdf",
+          "body_sha256": "18118cc941e9f5cb6db6b16117dd9bbdbfa256a6260372424b8ab3f47e646bba",
+          "text_sha256": "e9fceda592a413646a5834df3f6519cf4c44ec5788980ca3a18440e22e68cf46",
+          "visual_review": {
+            "document_pages": 4,
+            "inspected_pages": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "scope": "Only listed pages directly inspected; no complete attachment/full-extraction claim.",
+            "render_command": "pdftoppm -scale-to 1400 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "f639ee671e61e8a8847db5190d334a18b82c9e87b01444925e4a850d85b4c12a"
+              },
+              {
+                "page": 2,
+                "image_sha256": "eb66f3a3a8ca0e4363a7293561b9b22f2729c5d18371130faddc779202a298b4"
+              },
+              {
+                "page": 3,
+                "image_sha256": "71b7f174df040d4eafd33a479c515431d98023588cfea4140d74ad9358b4025c"
+              },
+              {
+                "page": 4,
+                "image_sha256": "5a071aa7d73266f7e1d7a7b3a626bafb09ce3776480646d0f6967d129b65ee1a"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
