@@ -1,0 +1,132 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "sc-inventory-002": "cfd0f731b4c89cf3bc430b4bf835fe7e9be94fed14a02b0f67d934c8d24e8095"
+  },
+  "reviewed_answers_sha256": "712f646d24ca31efddb0fe4c6b847141b1993e1a941d8cf55ae1b49524c7eed3",
+  "scope": "Two bounded historical corrections; not verification of later legal force. Sumter missing native-text vote resolved by visual PDF review, not inferred from motion. Newberry signed reading history distinguishes July 15 third reading from July 16 filing stamp and June 3 first-reading applicability.",
+  "located_evidence": [
+    {
+      "moratorium_id": "sc-newberry-county-2026",
+      "url": "https://www.newberrycounty.gov/sites/default/files/uploads/documents/ordinance-06-01-2026.pdf",
+      "quote": "3rd Reading: July 15, 2026",
+      "located": [
+        {
+          "attempt_id": "d780d04f0e364e21a8c3817ba864dbdd",
+          "body_sha256": "c3cea737044a3a36fac9d21e1caf65edf5f808d19e8187bd6bc8211aec79d2a6",
+          "text_sha256": "fb46e84642dd45abcfd786bf44fc19d5ae199525f381be00e250b1148c58595c",
+          "span": [
+            3889,
+            3915
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "sc-newberry-county-2026",
+      "url": "https://www.newberrycounty.gov/sites/default/files/uploads/documents/ordinance-06-01-2026.pdf",
+      "quote": "Data Centers for twelve (12) months or less",
+      "located": [
+        {
+          "attempt_id": "d780d04f0e364e21a8c3817ba864dbdd",
+          "body_sha256": "c3cea737044a3a36fac9d21e1caf65edf5f808d19e8187bd6bc8211aec79d2a6",
+          "text_sha256": "fb46e84642dd45abcfd786bf44fc19d5ae199525f381be00e250b1148c58595c",
+          "span": [
+            1662,
+            1705
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "sc-sumter-county-2026",
+      "url": "https://www.sumtercountysc.gov/Council%20Documents/Minutes/8.11.26_minutes_FINAL.pdf",
+      "quote": "approve Third Reading of Ordinance 26-1050.",
+      "located": [
+        {
+          "attempt_id": "a450b274199245e3807b5eb6b7bbc5b0",
+          "body_sha256": "2de3b7036a8729ea14ec365e5be95001ef9edc2d366d246e2c437d662314bdb4",
+          "text_sha256": "32ea67f9c0a4aa522dad9cca6f26afc884a00bf6d0cc1ef4bbe1f9338d2b89ec",
+          "span": [
+            4083,
+            4126
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "sc-sumter-county-2026",
+      "url": "https://www.sumtercountysc.gov/Council%20Documents/Minutes/8.11.26_minutes_FINAL.pdf",
+      "quote": "approve Third Reading of Ordinance 26-1051.",
+      "located": [
+        {
+          "attempt_id": "a450b274199245e3807b5eb6b7bbc5b0",
+          "body_sha256": "2de3b7036a8729ea14ec365e5be95001ef9edc2d366d246e2c437d662314bdb4",
+          "text_sha256": "32ea67f9c0a4aa522dad9cca6f26afc884a00bf6d0cc1ef4bbe1f9338d2b89ec",
+          "span": [
+            4448,
+            4491
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "sc-sumter-county-2026",
+      "url": "https://www.sumtercountysc.gov/Council%20Documents/Minutes/8.11.26_minutes_FINAL.pdf",
+      "quote": "approve Third Reading of Ordinance 26-1052.",
+      "located": [
+        {
+          "attempt_id": "a450b274199245e3807b5eb6b7bbc5b0",
+          "body_sha256": "2de3b7036a8729ea14ec365e5be95001ef9edc2d366d246e2c437d662314bdb4",
+          "text_sha256": "32ea67f9c0a4aa522dad9cca6f26afc884a00bf6d0cc1ef4bbe1f9338d2b89ec",
+          "span": [
+            4791,
+            4834
+          ]
+        }
+      ]
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "d780d04f0e364e21a8c3817ba864dbdd",
+      "source_body_sha256": "c3cea737044a3a36fac9d21e1caf65edf5f808d19e8187bd6bc8211aec79d2a6",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/sc-inventory-002/newberry-ocr.private.txt",
+      "derived_text_sha256": "fb46e84642dd45abcfd786bf44fc19d5ae199525f381be00e250b1148c58595c",
+      "method": "PDF OCR: pdftoppm 26.01.0 at 200 dpi and tesseract 5.5.0; operative page 2 and signed reading history page 3 visually compared",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T00:32:12.072382+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "d780d04f0e364e21a8c3817ba864dbdd",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "ed85a428bbbf5b0887fb66b21e394875cd3ad229974bd172e108e682990ee8f7",
+      "finding": "Twelve months or less; pending ordinance doctrine invoked at first reading."
+    },
+    {
+      "attempt_id": "d780d04f0e364e21a8c3817ba864dbdd",
+      "page": 3,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "e08046880934028e55a1e6f6692183a6bc45b6c4e5b9cfbe2b88e97ae6b8a80e",
+      "finding": "Signed execution and first June 3, second June 17, hearing/third July 15 reading history."
+    },
+    {
+      "attempt_id": "a450b274199245e3807b5eb6b7bbc5b0",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "2429ebb36baf7d57d98c4ce1cfa2ac39cec5580344adbc954f17b66e929d8a8e",
+      "finding": "All three third-reading motions unanimously carried, including data-center Ordinance 26-1052."
+    }
+  ]
+}

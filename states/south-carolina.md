@@ -20,7 +20,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 | Kershaw County | County | 2026-09-22 | data center, cryptocurrency mining | 🟢 Active |
 | Laurens County | County | 2026-09-14 | data center | 🟢 Active |
 | Mount Pleasant | Town | Unverified | data center | 🟡 Pending |
-| Newberry County | County | 2026-06-05 | data center | 🟢 Active |
+| Newberry County | County | 2026-07-15 | data center | 🟢 Active |
 | Orangeburg County | County | 2026-09-08 | data center, cryptocurrency mining | 🟢 Active |
 | Spartanburg County | County | 2026-09-21 | data center | 🟢 Active |
 | Sumter County | County | 2026-08-11 | data center, battery storage, solar | 🟢 Active |
@@ -208,16 +208,16 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 
 - **Type:** County
 - **Status:** 🟢 Active
-- **Date enacted:** An initial pause was put in effect around 2026-06-02/06-03 following resident concerns (WIS News 10, 2026-06-03) and the council's rejection of a data center deal (WLTX, 2026-06-07); WRDW reported the county 'passes 1-year data center moratorium' on 2026-06-05. The council then 'unanimously confirmed' the year-long moratorium on 2026-07-16 (WIS News 10; FOX Carolina).
-- **Normalized date:** `2026-06-05` (range)
-- **Duration:** One year
+- **Date enacted:** July 15, 2026 (third reading of Ordinance No. 06-01-2026); first reading June 3, 2026 invokes the pending ordinance doctrine.
+- **Normalized date:** `2026-07-15` (exact)
+- **Duration:** Twelve months or less from adoption, subject to the ordinance provisions.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `sc-newberry-county-2026`
 - **Legal basis:** Ordinance No. 06-01-2026 (Newberry County Council)
 - **What prompted it:** Resident opposition to a proposed AI data center development and the council's rejection of an associated data center deal
 - **Affected projects:** A proposed AI data center development that the council voted on/rejected in early June 2026
-- **Detailed status:** Active as of 2026-09-23. Confirmed via the county's own published Ordinance No. 06-01-2026, which declares a temporary, 12-month-or-less moratorium on Data Centers, and via FOX Carolina/WIS coverage of the council's July 16, 2026 unanimous reconfirmation and an Island Packet county-by-county roundup listing Newberry's moratorium as "Adopted June 1." No extension, repeal, or replacement was found as of 2026-09-23.
+- **Detailed status:** Ordinance No. 06-01-2026 received third reading July 15, 2026; it states a moratorium of twelve months or less. Subsequent action and current legal force were not established in the 2026-11-05 research pass. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** One-year countywide data center moratorium adopted and later unanimously reconfirmed
 
 ### Orangeburg County
@@ -265,8 +265,8 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Emergency Ordinance 26-1049 (60-day moratorium on BESS, data centers, and solar farms, approved and effective June 23, 2026, since lapsed); superseded by Ordinances 26-1050 (Solar), 26-1051 (BESS), and 26-1052 (Data Centers), each imposing a 180-day moratorium, given second reading July 21, 2026 and unanimous third/final reading August 11, 2026 per the county's posted regular-meeting minutes
 - **What prompted it:** County has no zoning provisions for battery energy storage systems or data centers; follows public opposition to, and council's rejection of, a proposed 1,700-acre solar farm.
 - **Affected projects:** A proposed 1,700-acre solar farm that county council rejected, which prompted the moratorium push.
-- **Detailed status:** Active as of 2026-09-23. The 60-day emergency moratorium (26-1049, effective June 23, 2026) lapsed around Aug. 22, 2026, but Council gave unanimous third and final reading to the three companion 180-day ordinances (26-1050 Solar, 26-1051 BESS, 26-1052 Data Centers) at its Aug. 11, 2026 regular meeting, per the county's own posted minutes, so the pause on new permits for solar, BESS, and data-center facilities has run continuously and is now due to run to roughly 2027-02-07. Separately, the county's Land Use Committee and Planning Commission continued work in August-September 2026 on permanent, non-moratorium data-center zoning standards (OA-26-01), which received first reading Sept. 8, 2026 and had not been adopted as of this date.
-- **Outcome:** Approved an emergency 60-day pause on solar, BESS, and data center applications in June 2026; advanced (second reading) three parallel 180-day moratorium ordinances in July 2026 whose final adoption could not be confirmed as of this research date.
+- **Detailed status:** The August 11, 2026 council minutes record unanimous third-reading approval of Ordinances 26-1050 (solar), 26-1051 (BESS) and 26-1052 (data centers). Final operative terms, continuity and later legal force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** The August 11, 2026 council minutes record unanimous third-reading approval of Ordinances 26-1050 (solar), 26-1051 (BESS) and 26-1052 (data centers). Final operative terms, continuity and later legal force remain unresolved.
 
 ### York County
 
