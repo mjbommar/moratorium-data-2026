@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-06",
   "reviewer": "coordinator",
-  "canonical_snapshot": "1aa791d3025c556388f207fd1da862bee0f4d5f41db5b8764e5c1974da7d0c15",
+  "canonical_snapshot": "0388443712e8b89e81b92ade83f62a7ff998d35c734c9fbb86ad2597355e3ea6",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 47,
-    "groups_pending_candidate_review": 9
+    "groups_with_scoped_canonical_publication": 48,
+    "groups_pending_candidate_review": 8
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -233,9 +233,12 @@
           "staged_measure_id": "ballot-nv-001::bp-408f8c4b9a7c3baf"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "1e4bf504-8c03-4232-b7de-59b9670551aa",
+      "publication_plan": "work/research/2026-11-06/nevada-ballot-promotion/publication-plan.json",
+      "publication_plan_sha256": "19e093ae10f60a0e833e08b6dbcf10febed5dd05bf6786b47c291671396981e1",
+      "canonical_record_sha256": "38848f83510ef03133acfd6eb8d51da1130c4a80707d0a5a21ee2dfb1ebcf48b",
+      "primary_review_status": "scoped_evidence_reviewed_and_published"
     },
     {
       "logical_group_id": "bp-483dee67f585d607",
