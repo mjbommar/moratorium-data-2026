@@ -117,6 +117,32 @@ backup covers metadata; it is not an independent full-blob restore. Importing
 bytes does not renew facts, establish current legal force, complete extraction or
 change any publication flag.
 
+The [post-discovery delta](../work/audit/legacy-source-migration-post-discovery-2026-11-06.json)
+adds 24 private MA/WI source versions without changing earlier mapping entries.
+The current manifest inventory is 6,479 entries: 2,780 verified-body versions map
+to 2,779 native observations, with the same 3,699 original-body gaps. The full
+post-discovery replay is identical; its metadata backup is separately pinned.
+
+### Distributed discovery review
+
+The November 6 discovery review uses explicit frozen queues under
+`work/jobs/2026-11-06-discovery-review/`. Original collection jobs are not rerun.
+`scripts/audit_discovery_reviews.py` verifies candidate fingerprints against
+original answers, exact retained source versions and quote offsets, schema shape,
+and complete disjoint return coverage. It counts a verified failed acquisition as
+failure accounting, never positive source evidence. Reused pilot artifacts require
+an explicit pinned artifact manifest and coordinator-supplied aliases.
+
+Use `--baseline-inventory` to inspect the retained frozen CSV after canonical
+changes; otherwise the audit checks the current CSV and reports baseline drift.
+The [review receipt](../work/research/2026-11-06/discovery-distributed-review/validation.json)
+pins the original baseline commit. Missing assignments in initial partial returns
+remain visible even after separate smaller jobs cover them. Model recommendations,
+located text and body-only visual assertions remain separate from coordinator
+acceptance and canonical promotion.
+
+### Release candidate preparation
+
 `scripts/build_release_candidate.py` builds public assets from a committed revision.
 Its archive includes retained expanded generations and the relative `data/expanded`
 pointer. Restore into a new empty directory with a symlink-aware extractor, retain

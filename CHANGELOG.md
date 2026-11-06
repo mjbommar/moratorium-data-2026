@@ -2,6 +2,16 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
+Sun Prairie is added from the City’s September newsletter reporting Council
+approval of a 12-month data-center moratorium. The original extraction captured
+only the library section; separately registered full-DOM text recovers the report.
+The source-stage active classification does not establish current legal force;
+full resolution, operative anchors, later actions and coordinates remain unverified.
+
+Braintree Order 26-063 and Methuen TO-26-20 are added as pending proposals from
+official two-page documents. Proposed calendar-year terms are retained without
+converting to days; no final adoption, operative dates or current force is accepted.
+
 Official Alaska records support two additional pending proposals: Fairbanks North
 Star Borough Ordinance 2026-42 and Petersburg Borough Ordinance 2026-24. Referral
 and first-reading agenda evidence establish proposals, not enactment. Operative
@@ -13,18 +23,18 @@ remain unknown; no adoption event, in-force ban or headline-count increase is
 inferred. The public results view displays relationship review separately from
 legal status. All earlier records remain unchanged.
 
-Current totals are 1,295 local instruments (1,071 classified active or extended,
-69 pending, 155 past) and 442 state-policy records (95 classified enacted).
+Current totals are 1,298 local instruments (1,072 classified active or extended,
+71 pending, 155 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1295** |
-| Classified active or extended | **1071** |
-| Pending or not yet effective | **69** |
+| Moratoria in the list | **1298** |
+| Classified active or extended | **1072** |
+| Pending or not yet effective | **71** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **668** |
+| Rows we still want to confirm (`[VERIFY]`) | **671** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained

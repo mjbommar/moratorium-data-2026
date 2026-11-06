@@ -1,0 +1,121 @@
+{
+  "terminal_review_jobs": 17,
+  "model": "gpt-6.1-terra",
+  "unique_candidates_reviewed": 183,
+  "missing_or_duplicate_candidate_keys": 0,
+  "mechanical_candidate_issues": 0,
+  "worker_recommendation_counts": {
+    "distinct_historical_instrument": 73,
+    "distinct_supported_candidate": 88,
+    "unresolved": 21,
+    "existing_same_instrument": 1
+  },
+  "jobs": [
+    {
+      "job_id": "discovery-review-01",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "70806c8be4e680894146f47487b242cd2d2b39f72dbe0073d648110c90b9fe9e"
+    },
+    {
+      "job_id": "discovery-review-02",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "2846a4b98b17729afefc817c73dd1b6dfe7b5ba96f647559658bf2940475f00b"
+    },
+    {
+      "job_id": "discovery-review-03",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "62c468e107cfb527eb584e4a3fab4d2734dd402fa37c9fd0ca448bd366050786"
+    },
+    {
+      "job_id": "discovery-closure-01",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "5573df0777fea03e924eb8819f4d107f90b02cc1f61ced2ed6da89f1532aa404"
+    },
+    {
+      "job_id": "discovery-closure-02",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "b55440c6ce153611e486cae9460e1de0384d8f424d0def691fcd3fbf796cb921"
+    },
+    {
+      "job_id": "discovery-closure-03",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "a551936472a20f2e3f2197c61bae577617dffac216c3127b8aff645f403349a5"
+    },
+    {
+      "job_id": "discovery-closure-04",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "4b910c786045b103d1ec84be3014c57d2107be648d0256959662c27d80e106fb"
+    },
+    {
+      "job_id": "discovery-closure-05",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "362f112561878fd14e670c2a16f92a7c7d601d15e7b9c762076c4935d0fddd90"
+    },
+    {
+      "job_id": "discovery-closure-06",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "6096e464e28196605a4f92e37287bb7fdd3bacd5de75ed2c6e1bcba7be56e538"
+    },
+    {
+      "job_id": "discovery-closure-07",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "9cd1004372c9fdfd3d2e53e4fffb0a417df44d00cc4e5c5619219f51c7f72d8b"
+    },
+    {
+      "job_id": "discovery-closure-08",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "611df99c08b4d944e84136d20f5ac0074887cd6ed7b38236e90bc23d2f38133f"
+    },
+    {
+      "job_id": "discovery-closure-09",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "667623f69fbdd3603ecf20b826fda678ebef62b82207ded891873cc8db4bef4a"
+    },
+    {
+      "job_id": "discovery-closure-10",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "29b03943c9b5d4b2b90875af63247fc2689339344140b9fea7f7d6524cf06271"
+    },
+    {
+      "job_id": "discovery-closure-11",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "f5cd5d63fbf1bdb30407af16d9d55497e3212a2adb8ebe8a279001f002df45e4"
+    },
+    {
+      "job_id": "discovery-closure-12",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "b779d3b276c3ade5e67f73439f90681a361473aba5713ffcbb229023178264be"
+    },
+    {
+      "job_id": "discovery-closure-13",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "d0158f59caa46a99c16c77d930d0f6bc0b250913844d05276fc6f6051e2fa68e"
+    },
+    {
+      "job_id": "discovery-closure-14",
+      "model": "gpt-6.1-terra",
+      "exit_code": 0,
+      "status_sha256": "bedf96efb1c801990925722af95eaae07587b2ca0d9cf871f2166adfdf11df66"
+    }
+  ],
+  "audit_sha256": "8961e4074c2c9c2de10cd2a1b7120001044167355d6ce0353d17b408bd06433b",
+  "baseline_inventory_sha256": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1",
+  "baseline_commit": "74cc52dca122166a4cfa8d04f5f66fef6350c425",
+  "scope": "Complete coverage of worker recommendations against frozen1295-row baseline, with independent retained-body/text/schema/span checks. Original two incomplete returns remain incomplete; smaller disjoint assignments cover their missing keys. No blanket substantive acceptance, status promotion or legal-force freshness follows from these mechanical checks."
+}

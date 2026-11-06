@@ -3,13 +3,14 @@
 
 Working inventory for Massachusetts, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**15 instruments** — 9 in force, 5 pending, 1 past.
+**17 instruments** — 9 in force, 7 pending, 1 past.
 
 State policy is tracked separately: **5 actions** (5 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | Agawam | City | 2026-09-08 | data center | 🟢 Active |
+| Braintree | Town | Unverified | data center | 🟡 Pending |
 | Chesterfield | Town | 2026-06-24 | battery storage | 🟢 Active |
 | Everett (restriction proposal, not moratorium) | City | 2026-06-22 | data center | 🟢 Active |
 | Gill | Town | 2026-05-04 | data center, battery storage | 🟢 Active |
@@ -18,6 +19,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 | Leominster | City | Unverified | data center, battery storage | 🟡 Pending |
 | Lowell | City | 2026-03-10 | data center | 🟢 Active |
 | Malden | City | 2026-05-05 | data center | 🟢 Active |
+| Methuen | City | Unverified | data center | 🟡 Pending |
 | Northampton | City | Unverified | data center | 🟡 Pending |
 | Plymouth | Town | Unverified | data center | 🟡 Pending |
 | Shutesbury | Town | 2025-09-30 | data center | ⚪ Expired |
@@ -42,6 +44,22 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Affected projects:** None named; preemptive
 - **Detailed status:** Active as of 2026-09-23; a preliminary permanent zoning ordinance is being drafted for a fall 2026 public hearing. The same Sept. 8 meeting also banned cryptocurrency ATMs citywide (a separate, unrelated ordinance, not a moratorium).
 - **Outcome:** Preliminary ordinance to be drafted this fall with a further public hearing
+
+### Braintree
+
+- **Type:** Town
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** One year proposed; may end earlier upon permanent regulations
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ma-braintree-undated`
+- **Legal basis:** Town Council Order 26-063 proposal
+- **What prompted it:** Proposed study of data-center utility, water, infrastructure and land-use impacts before permanent zoning rules.
+- **Affected projects:** —
+- **Detailed status:** Planning Department memorandum dated October 6, 2026 describes an application for Town Council Order 26-063 and a proposed one-calendar-year moratorium. [VERIFY subsequent council disposition, final enactment and current legal force not established; coordinates await review]
+- **Outcome:** —
 
 ### Chesterfield
 
@@ -170,6 +188,22 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Affected projects:** None named; general/preemptive moratorium.
 - **Detailed status:** The city legislative record identifies Order 252-26 as adopted May 5, 2026. The order says effective upon adoption and expiring one year from adoption. [VERIFY: subsequent zoning ordinance interaction, later amendments/termination and present legal force.]
 - **Outcome:** One-year moratorium on data centers adopted unanimously by the City Council.
+
+### Methuen
+
+- **Type:** City
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** One year proposed; may end earlier upon permanent regulations and may be extended once up to 180 days
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `ma-methuen-undated`
+- **Legal basis:** TO-26-20 proposal
+- **What prompted it:** Proposed study of data-center utility, water, infrastructure and land-use impacts before permanent zoning rules.
+- **Affected projects:** —
+- **Detailed status:** Official TO-26-20 text proposes a temporary data-center moratorium subject to notice, hearing, review and other procedures. [VERIFY final adoption, effectiveness, subsequent actions and current legal force not established; coordinates await review]
+- **Outcome:** —
 
 ### Northampton
 

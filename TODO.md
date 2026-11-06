@@ -12,7 +12,7 @@ Complete phases in dependency order; retain evidence and unresolved dispositions
 - [x] Pin the inspected bc-modules revision, package versions and runtime/dependency configuration.
 - [x] Confirm dataset ownership and exact consumer paths across public, research, site and integration repositories.
 - [x] Establish admitted durable archive and local NVMe database paths; run storage preflight before bulk writes.
-- [x] Inventory all 6,455 legacy manifest entries and define exact manifest-line/native-observation mappings; replay 2,756 verified-body entries and retain 3,699 explicit original-body gaps (`work/audit/legacy-source-migration-2026-11-06/`). This does not close missing-payload recovery or the full P3 archive gate.
+- [x] Inventory all 6,479 current legacy manifest entries and define exact manifest-line/native-observation mappings; replay 2,780 verified-body entries and retain 3,699 explicit original-body gaps (initial receipt `work/audit/legacy-source-migration-2026-11-06/`, append-only post-discovery delta). This does not close missing-payload recovery or the full P3 archive gate.
 - [x] Record the November 5 working-cohort cutoff, record-specific source/legal-force limits and historical 348-extraction/211-jurisdiction pre-April-28 cohort in README, methodology and known gaps; no inventory-wide legal-force renewal is claimed.
 
 Exit: reproducible baseline manifest with unrelated work preserved.
@@ -186,7 +186,9 @@ Exit: accepted pilot report and separately authorized bounded collection scope.
 
 Exit: every seed has a documented disposition; evidence gaps are visible rather than silently omitted.
 
-- [x] Review Alaska discovery proposals against official referral/first-reading records and six PDF pages; add two pending instruments with no operative dates, preserve all 1,293 prior records and verify replay (`alaska-discovery-review/`). The explicit 185-candidate ledger retains 183 unreviewed proposals.
+- [x] Review Alaska discovery proposals against official referral/first-reading records and six PDF pages; add two pending instruments with no operative dates, preserve all 1,293 prior records and verify replay (`alaska-discovery-review/`). The initial ledger retained 183 unreviewed proposals; subsequent coverage and dispositions are recorded below.
+- [x] Complete disjoint distributed `gpt-6.1-terra` review-return coverage for all 183 remaining discovery candidates with independent input/body/text/schema/span checks (`discovery-distributed-review/`). Two initial partial returns remain recorded; 14 smaller assignments cover their missing keys. Worker recommendations do not close coordinator substantive review.
+- [x] Add Braintree and Methuen as pending proposals after four-page primary-source review; recover Sun Prairie's omitted city-announcement DOM section and add its source-stage adoption classification. Preserve all 1,295 prior rows and unknown operative ends; final build/check and replay pass (`massachusetts-discovery-review/`, `sun-prairie-discovery-review/`). The ledger retains 179 candidates needing coordinator substantive/canonical closure.
 
 ## P6 — Public release and sibling handoff
 

@@ -1,5 +1,5 @@
 {
-  "inventory_sha256": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1",
+  "inventory_sha256": "5d3b99ff9cb4f70cdb58bdaefaa6584b19047617dfe1e90896c52670bd5f18e5",
   "returned_answer_sha256": {
     "discovery-ak": "a4b62aac2562578f9bb4c66f6f504557f1aace1c1612c0f7f2e3b2c01fae334e",
     "discovery-al": "b6e254f6a91f7dc6937ca15433d3c9ac8c29f473bb22765439ab7bf23647aa62",
@@ -53,8 +53,8 @@
     "discovery-wy": "71d371e9c8ea036e8198dfc1b015f104dba9b8ebb16c0c667af087e81483ca84"
   },
   "candidate_count": 185,
-  "reviewed_pending_additions": 2,
-  "unreviewed_count": 183,
+  "reviewed_pending_additions": 4,
+  "unreviewed_count": 179,
   "candidates": [
     {
       "candidate_key": "discovery-ak:0",
@@ -91,7 +91,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-13",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76"
+      }
     },
     {
       "candidate_key": "discovery-al:1",
@@ -102,7 +108,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-13",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76"
+      }
     },
     {
       "candidate_key": "discovery-ar:0",
@@ -113,7 +125,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-05",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5"
+      }
     },
     {
       "candidate_key": "discovery-ar:1",
@@ -126,7 +144,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-06",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ff51794f2adb4be622afc4b4a0dec60759bc147190f952a948aadb5400107a4d"
+      }
     },
     {
       "candidate_key": "discovery-ar:2",
@@ -139,7 +163,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-06",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ff51794f2adb4be622afc4b4a0dec60759bc147190f952a948aadb5400107a4d"
+      }
     },
     {
       "candidate_key": "discovery-az:0",
@@ -150,7 +180,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-13",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76"
+      }
     },
     {
       "candidate_key": "discovery-ca:0",
@@ -161,9 +197,16 @@
       "same_name_inventory_ids": [
         "ca-hayward-2026"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "disposition": "covered_by_existing_reviewed_instrument",
+      "review_packet": "work/audit/discovery-distributed-review-2026-11-06.json",
+      "next_step": "Existing row retains final-text, term and later-action gaps; no duplicate row.",
+      "coordinator_identity_review": "October 2026 city announcement corresponds to existing Hayward ORD 26-09/LB 26-015 data-center moratorium, already source-reviewed in inventory; no new row or renewed current-force claim.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "existing_same_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-ca:1",
@@ -174,7 +217,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-ca:2",
@@ -187,7 +236,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-ca:3",
@@ -198,7 +253,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-ca:4",
@@ -211,7 +272,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-ca:5",
@@ -222,7 +289,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-co:0",
@@ -235,7 +308,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-co:1",
@@ -248,7 +327,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-co:2",
@@ -259,7 +344,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-co:3",
@@ -270,7 +361,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-co:4",
@@ -281,7 +378,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-co:5",
@@ -294,7 +397,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-co:6",
@@ -305,7 +414,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-co:7",
@@ -316,7 +431,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-co:8",
@@ -327,7 +448,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-ct:0",
@@ -338,7 +465,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-de:0",
@@ -349,7 +482,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-de:1",
@@ -360,7 +499,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-fl:0",
@@ -371,7 +516,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-06",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ff51794f2adb4be622afc4b4a0dec60759bc147190f952a948aadb5400107a4d"
+      }
     },
     {
       "candidate_key": "discovery-ga:0",
@@ -382,7 +533,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-02",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "86e140ff74409bdc7d5ba69ff75b676475f294c7604b9ce30027e850025be686"
+      }
     },
     {
       "candidate_key": "discovery-ga:1",
@@ -393,7 +550,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-02",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "86e140ff74409bdc7d5ba69ff75b676475f294c7604b9ce30027e850025be686"
+      }
     },
     {
       "candidate_key": "discovery-ga:2",
@@ -404,7 +567,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-02",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "86e140ff74409bdc7d5ba69ff75b676475f294c7604b9ce30027e850025be686"
+      }
     },
     {
       "candidate_key": "discovery-ga:3",
@@ -415,7 +584,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3"
+      }
     },
     {
       "candidate_key": "discovery-ga:4",
@@ -426,7 +601,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3"
+      }
     },
     {
       "candidate_key": "discovery-ga:5",
@@ -437,7 +618,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3"
+      }
     },
     {
       "candidate_key": "discovery-ia:0",
@@ -448,7 +635,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-ia:1",
@@ -459,7 +652,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-ia:2",
@@ -472,7 +671,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-ia:3",
@@ -483,7 +688,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-ia:4",
@@ -497,7 +708,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-ia:5",
@@ -508,7 +725,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-id:0",
@@ -519,7 +742,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-04",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1"
+      }
     },
     {
       "candidate_key": "discovery-id:1",
@@ -530,7 +759,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-04",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1"
+      }
     },
     {
       "candidate_key": "discovery-id:2",
@@ -543,7 +778,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-04",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1"
+      }
     },
     {
       "candidate_key": "discovery-id:3",
@@ -554,7 +795,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-04",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1"
+      }
     },
     {
       "candidate_key": "discovery-id:4",
@@ -565,7 +812,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-04",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1"
+      }
     },
     {
       "candidate_key": "discovery-il:0",
@@ -576,7 +829,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-il:1",
@@ -587,7 +846,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-il:2",
@@ -598,7 +863,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-il:3",
@@ -609,7 +880,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-il:4",
@@ -620,7 +897,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-in:0",
@@ -631,7 +914,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-08",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1"
+      }
     },
     {
       "candidate_key": "discovery-in:1",
@@ -642,7 +931,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-08",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1"
+      }
     },
     {
       "candidate_key": "discovery-in:2",
@@ -653,7 +948,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-08",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1"
+      }
     },
     {
       "candidate_key": "discovery-in:3",
@@ -664,7 +965,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-08",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1"
+      }
     },
     {
       "candidate_key": "discovery-in:4",
@@ -675,7 +982,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-08",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1"
+      }
     },
     {
       "candidate_key": "discovery-in:5",
@@ -686,7 +999,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-08",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1"
+      }
     },
     {
       "candidate_key": "discovery-in:6",
@@ -699,7 +1018,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-08",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1"
+      }
     },
     {
       "candidate_key": "discovery-in:7",
@@ -710,7 +1035,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-08",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "174a3ec62066f290bbaf33c56bb9a747fa7d7373778e1bd2cf65b4d4b3fe0bc1"
+      }
     },
     {
       "candidate_key": "discovery-ks:0",
@@ -723,7 +1054,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-11",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "e261a0d1f1d7d56b38afbe4aacc86e701e20d35cce0a8a577cb104f026c78a38"
+      }
     },
     {
       "candidate_key": "discovery-ks:1",
@@ -736,7 +1073,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-11",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "e261a0d1f1d7d56b38afbe4aacc86e701e20d35cce0a8a577cb104f026c78a38"
+      }
     },
     {
       "candidate_key": "discovery-ks:2",
@@ -747,7 +1090,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-11",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "e261a0d1f1d7d56b38afbe4aacc86e701e20d35cce0a8a577cb104f026c78a38"
+      }
     },
     {
       "candidate_key": "discovery-ks:3",
@@ -758,7 +1107,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-11",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "e261a0d1f1d7d56b38afbe4aacc86e701e20d35cce0a8a577cb104f026c78a38"
+      }
     },
     {
       "candidate_key": "discovery-ks:4",
@@ -769,7 +1124,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-11",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "e261a0d1f1d7d56b38afbe4aacc86e701e20d35cce0a8a577cb104f026c78a38"
+      }
     },
     {
       "candidate_key": "discovery-ky:0",
@@ -780,7 +1141,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-09",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "c856748141315b442af8c4e5a6b2eaf6014f2d95e2b9f23222aced0266e05bc0"
+      }
     },
     {
       "candidate_key": "discovery-ky:1",
@@ -791,7 +1158,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-10",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d395d08575e2b905e89d5654534504f5da1cfa385bfd7b33039f5572f8ebad9"
+      }
     },
     {
       "candidate_key": "discovery-ky:2",
@@ -804,7 +1177,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-10",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d395d08575e2b905e89d5654534504f5da1cfa385bfd7b33039f5572f8ebad9"
+      }
     },
     {
       "candidate_key": "discovery-ky:3",
@@ -817,7 +1196,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-10",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d395d08575e2b905e89d5654534504f5da1cfa385bfd7b33039f5572f8ebad9"
+      }
     },
     {
       "candidate_key": "discovery-ky:4",
@@ -830,7 +1215,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-10",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d395d08575e2b905e89d5654534504f5da1cfa385bfd7b33039f5572f8ebad9"
+      }
     },
     {
       "candidate_key": "discovery-ky:5",
@@ -843,7 +1234,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-10",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d395d08575e2b905e89d5654534504f5da1cfa385bfd7b33039f5572f8ebad9"
+      }
     },
     {
       "candidate_key": "discovery-la:0",
@@ -854,7 +1251,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-12",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d1b2ada22f845eb1790c71d3722dec088d843b293368a2e17a9979a73593cc7"
+      }
     },
     {
       "candidate_key": "discovery-la:1",
@@ -865,7 +1268,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-12",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d1b2ada22f845eb1790c71d3722dec088d843b293368a2e17a9979a73593cc7"
+      }
     },
     {
       "candidate_key": "discovery-la:2",
@@ -876,7 +1285,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-12",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d1b2ada22f845eb1790c71d3722dec088d843b293368a2e17a9979a73593cc7"
+      }
     },
     {
       "candidate_key": "discovery-la:3",
@@ -887,7 +1302,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-12",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d1b2ada22f845eb1790c71d3722dec088d843b293368a2e17a9979a73593cc7"
+      }
     },
     {
       "candidate_key": "discovery-ma:0",
@@ -898,7 +1319,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-01",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "b8db0b52fce2a1a7c2be95576efe4a826342c9d99651caee9e3c274db716b74f"
+      }
     },
     {
       "candidate_key": "discovery-ma:1",
@@ -909,7 +1336,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-01",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "b8db0b52fce2a1a7c2be95576efe4a826342c9d99651caee9e3c274db716b74f"
+      }
     },
     {
       "candidate_key": "discovery-ma:2",
@@ -920,7 +1353,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-01",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "b8db0b52fce2a1a7c2be95576efe4a826342c9d99651caee9e3c274db716b74f"
+      }
     },
     {
       "candidate_key": "discovery-ma:3",
@@ -928,10 +1367,18 @@
       "state_abbrev": "MA",
       "jurisdiction": "Braintree",
       "proposed_instrument_label": "Town Council Order 26-063 proposal",
-      "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "same_name_inventory_ids": [
+        "ma-braintree-undated"
+      ],
+      "disposition": "reviewed_pending_proposal_added",
+      "review_packet": "work/research/2026-11-06/massachusetts-discovery-review/review.json",
+      "next_step": "Final adoption, effectiveness, later actions and legal force remain explicit source gaps.",
+      "worker_review": {
+        "job_id": "discovery-closure-02",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "86e140ff74409bdc7d5ba69ff75b676475f294c7604b9ce30027e850025be686"
+      }
     },
     {
       "candidate_key": "discovery-ma:4",
@@ -939,10 +1386,18 @@
       "state_abbrev": "MA",
       "jurisdiction": "Methuen",
       "proposed_instrument_label": "TO-26-20 proposal",
-      "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "same_name_inventory_ids": [
+        "ma-methuen-undated"
+      ],
+      "disposition": "reviewed_pending_proposal_added",
+      "review_packet": "work/research/2026-11-06/massachusetts-discovery-review/review.json",
+      "next_step": "Final adoption, effectiveness, later actions and legal force remain explicit source gaps.",
+      "worker_review": {
+        "job_id": "discovery-closure-02",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "86e140ff74409bdc7d5ba69ff75b676475f294c7604b9ce30027e850025be686"
+      }
     },
     {
       "candidate_key": "discovery-ma:5",
@@ -953,7 +1408,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-02",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "86e140ff74409bdc7d5ba69ff75b676475f294c7604b9ce30027e850025be686"
+      }
     },
     {
       "candidate_key": "discovery-ma:6",
@@ -964,7 +1425,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-02",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "86e140ff74409bdc7d5ba69ff75b676475f294c7604b9ce30027e850025be686"
+      }
     },
     {
       "candidate_key": "discovery-ma:7",
@@ -975,7 +1442,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-02",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "86e140ff74409bdc7d5ba69ff75b676475f294c7604b9ce30027e850025be686"
+      }
     },
     {
       "candidate_key": "discovery-md:0",
@@ -988,7 +1461,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-05",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5"
+      }
     },
     {
       "candidate_key": "discovery-md:1",
@@ -1001,7 +1480,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-05",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5"
+      }
     },
     {
       "candidate_key": "discovery-md:2",
@@ -1014,7 +1499,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-05",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5"
+      }
     },
     {
       "candidate_key": "discovery-md:3",
@@ -1027,7 +1518,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-05",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5"
+      }
     },
     {
       "candidate_key": "discovery-me:0",
@@ -1038,7 +1535,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-01",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26"
+      }
     },
     {
       "candidate_key": "discovery-me:1",
@@ -1049,7 +1552,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-01",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26"
+      }
     },
     {
       "candidate_key": "discovery-me:2",
@@ -1060,7 +1569,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-01",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26"
+      }
     },
     {
       "candidate_key": "discovery-me:3",
@@ -1071,7 +1586,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-01",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26"
+      }
     },
     {
       "candidate_key": "discovery-me:4",
@@ -1082,7 +1603,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-01",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "b8db0b52fce2a1a7c2be95576efe4a826342c9d99651caee9e3c274db716b74f"
+      }
     },
     {
       "candidate_key": "discovery-me:5",
@@ -1093,7 +1620,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-01",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "b8db0b52fce2a1a7c2be95576efe4a826342c9d99651caee9e3c274db716b74f"
+      }
     },
     {
       "candidate_key": "discovery-me:6",
@@ -1104,7 +1637,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-01",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "b8db0b52fce2a1a7c2be95576efe4a826342c9d99651caee9e3c274db716b74f"
+      }
     },
     {
       "candidate_key": "discovery-me:7",
@@ -1115,7 +1654,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-01",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "b8db0b52fce2a1a7c2be95576efe4a826342c9d99651caee9e3c274db716b74f"
+      }
     },
     {
       "candidate_key": "discovery-me:8",
@@ -1126,7 +1671,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-01",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26"
+      }
     },
     {
       "candidate_key": "discovery-me:9",
@@ -1137,7 +1688,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-01",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26"
+      }
     },
     {
       "candidate_key": "discovery-me:10",
@@ -1148,7 +1705,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-01",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "b8db0b52fce2a1a7c2be95576efe4a826342c9d99651caee9e3c274db716b74f"
+      }
     },
     {
       "candidate_key": "discovery-me:11",
@@ -1159,7 +1722,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-01",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26"
+      }
     },
     {
       "candidate_key": "discovery-me:12",
@@ -1170,7 +1739,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-01",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26"
+      }
     },
     {
       "candidate_key": "discovery-me:13",
@@ -1181,7 +1756,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-01",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26"
+      }
     },
     {
       "candidate_key": "discovery-me:14",
@@ -1192,7 +1773,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-01",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26"
+      }
     },
     {
       "candidate_key": "discovery-me:15",
@@ -1203,7 +1790,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-01",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26"
+      }
     },
     {
       "candidate_key": "discovery-mi:0",
@@ -1214,7 +1807,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-mi:1",
@@ -1225,7 +1824,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-mi:2",
@@ -1236,7 +1841,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-mi:3",
@@ -1247,7 +1858,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-mi:4",
@@ -1258,7 +1875,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-mi:5",
@@ -1269,7 +1892,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-mi:6",
@@ -1280,7 +1909,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-mi:7",
@@ -1291,7 +1926,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-mi:8",
@@ -1302,7 +1943,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-mn:0",
@@ -1313,7 +1960,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3"
+      }
     },
     {
       "candidate_key": "discovery-mn:1",
@@ -1324,7 +1977,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3"
+      }
     },
     {
       "candidate_key": "discovery-mn:2",
@@ -1335,7 +1994,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3"
+      }
     },
     {
       "candidate_key": "discovery-mn:3",
@@ -1346,7 +2011,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3"
+      }
     },
     {
       "candidate_key": "discovery-mn:4",
@@ -1357,7 +2028,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "80598ac5ffa612003a392ed82242a4031aea1980152ae4cac283fc7e92f88fb3"
+      }
     },
     {
       "candidate_key": "discovery-mn:5",
@@ -1368,7 +2045,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-04",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1"
+      }
     },
     {
       "candidate_key": "discovery-mo:0",
@@ -1379,7 +2062,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-14",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "c4bf4252e8a606743310d46438ed428863b2034509dd44516fa501c04626f8ed"
+      }
     },
     {
       "candidate_key": "discovery-mt:0",
@@ -1392,7 +2081,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-nc:0",
@@ -1403,7 +2098,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-12",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d1b2ada22f845eb1790c71d3722dec088d843b293368a2e17a9979a73593cc7"
+      }
     },
     {
       "candidate_key": "discovery-nc:1",
@@ -1414,7 +2115,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-12",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d1b2ada22f845eb1790c71d3722dec088d843b293368a2e17a9979a73593cc7"
+      }
     },
     {
       "candidate_key": "discovery-nc:2",
@@ -1425,7 +2132,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-12",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d1b2ada22f845eb1790c71d3722dec088d843b293368a2e17a9979a73593cc7"
+      }
     },
     {
       "candidate_key": "discovery-nc:3",
@@ -1436,7 +2149,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-12",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d1b2ada22f845eb1790c71d3722dec088d843b293368a2e17a9979a73593cc7"
+      }
     },
     {
       "candidate_key": "discovery-nd:0",
@@ -1447,7 +2166,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-04",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1"
+      }
     },
     {
       "candidate_key": "discovery-nd:1",
@@ -1458,7 +2183,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-04",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1"
+      }
     },
     {
       "candidate_key": "discovery-nd:2",
@@ -1469,7 +2200,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-05",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5"
+      }
     },
     {
       "candidate_key": "discovery-nd:3",
@@ -1482,7 +2219,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-05",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5"
+      }
     },
     {
       "candidate_key": "discovery-nd:4",
@@ -1493,7 +2236,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-05",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5"
+      }
     },
     {
       "candidate_key": "discovery-ne:0",
@@ -1504,7 +2253,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-13",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76"
+      }
     },
     {
       "candidate_key": "discovery-ne:1",
@@ -1517,7 +2272,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-13",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76"
+      }
     },
     {
       "candidate_key": "discovery-ne:2",
@@ -1528,7 +2289,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-13",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76"
+      }
     },
     {
       "candidate_key": "discovery-nh:0",
@@ -1539,7 +2306,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-07",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "3aa2b12824f46d920e0bc7b2527fc0c809a10bccd3ba7d4d77818bafb13b39de"
+      }
     },
     {
       "candidate_key": "discovery-nj:0",
@@ -1550,7 +2323,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-13",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76"
+      }
     },
     {
       "candidate_key": "discovery-nj:1",
@@ -1561,7 +2340,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-13",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76"
+      }
     },
     {
       "candidate_key": "discovery-nm:0",
@@ -1572,7 +2357,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-nm:1",
@@ -1583,7 +2374,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-nm:2",
@@ -1594,7 +2391,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-ny:0",
@@ -1605,7 +2408,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-02",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a"
+      }
     },
     {
       "candidate_key": "discovery-ny:1",
@@ -1618,7 +2427,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-02",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a"
+      }
     },
     {
       "candidate_key": "discovery-ny:2",
@@ -1629,7 +2444,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-02",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a"
+      }
     },
     {
       "candidate_key": "discovery-ny:3",
@@ -1640,7 +2461,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-02",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a"
+      }
     },
     {
       "candidate_key": "discovery-ny:4",
@@ -1651,7 +2478,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-02",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a"
+      }
     },
     {
       "candidate_key": "discovery-ny:5",
@@ -1662,7 +2495,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-02",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a"
+      }
     },
     {
       "candidate_key": "discovery-ny:6",
@@ -1673,7 +2512,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-02",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a"
+      }
     },
     {
       "candidate_key": "discovery-ny:7",
@@ -1684,7 +2529,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-02",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a"
+      }
     },
     {
       "candidate_key": "discovery-ny:8",
@@ -1695,7 +2546,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-02",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a"
+      }
     },
     {
       "candidate_key": "discovery-ny:9",
@@ -1706,7 +2563,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-02",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4816deadbfb82ed3ae167286e15e19849f94e88a444cf4c3fbfac8e006e70f6a"
+      }
     },
     {
       "candidate_key": "discovery-ok:0",
@@ -1717,7 +2580,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-14",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "c4bf4252e8a606743310d46438ed428863b2034509dd44516fa501c04626f8ed"
+      }
     },
     {
       "candidate_key": "discovery-or:0",
@@ -1728,7 +2597,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-pa:0",
@@ -1739,7 +2614,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-pa:1",
@@ -1750,7 +2631,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-pa:2",
@@ -1761,7 +2648,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-pa:3",
@@ -1772,7 +2665,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-pa:4",
@@ -1783,7 +2682,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-pa:5",
@@ -1794,7 +2699,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-ri:0",
@@ -1805,7 +2716,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-10",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d395d08575e2b905e89d5654534504f5da1cfa385bfd7b33039f5572f8ebad9"
+      }
     },
     {
       "candidate_key": "discovery-ri:1",
@@ -1816,7 +2733,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-10",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d395d08575e2b905e89d5654534504f5da1cfa385bfd7b33039f5572f8ebad9"
+      }
     },
     {
       "candidate_key": "discovery-ri:2",
@@ -1827,7 +2750,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-10",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "4d395d08575e2b905e89d5654534504f5da1cfa385bfd7b33039f5572f8ebad9"
+      }
     },
     {
       "candidate_key": "discovery-ri:3",
@@ -1838,7 +2767,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-11",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "e261a0d1f1d7d56b38afbe4aacc86e701e20d35cce0a8a577cb104f026c78a38"
+      }
     },
     {
       "candidate_key": "discovery-ri:4",
@@ -1849,7 +2784,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-11",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "e261a0d1f1d7d56b38afbe4aacc86e701e20d35cce0a8a577cb104f026c78a38"
+      }
     },
     {
       "candidate_key": "discovery-ri:5",
@@ -1860,7 +2801,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-11",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "e261a0d1f1d7d56b38afbe4aacc86e701e20d35cce0a8a577cb104f026c78a38"
+      }
     },
     {
       "candidate_key": "discovery-sc:0",
@@ -1871,7 +2818,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-06",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ff51794f2adb4be622afc4b4a0dec60759bc147190f952a948aadb5400107a4d"
+      }
     },
     {
       "candidate_key": "discovery-sc:1",
@@ -1882,7 +2835,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-06",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ff51794f2adb4be622afc4b4a0dec60759bc147190f952a948aadb5400107a4d"
+      }
     },
     {
       "candidate_key": "discovery-sc:2",
@@ -1893,7 +2852,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-06",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ff51794f2adb4be622afc4b4a0dec60759bc147190f952a948aadb5400107a4d"
+      }
     },
     {
       "candidate_key": "discovery-sd:0",
@@ -1906,7 +2871,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-07",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "3aa2b12824f46d920e0bc7b2527fc0c809a10bccd3ba7d4d77818bafb13b39de"
+      }
     },
     {
       "candidate_key": "discovery-tn:0",
@@ -1917,7 +2888,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-tn:1",
@@ -1930,7 +2907,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-tn:2",
@@ -1941,7 +2924,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-tn:3",
@@ -1952,7 +2941,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-tx:0",
@@ -1963,7 +2958,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-tx:1",
@@ -1974,7 +2975,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-ut:0",
@@ -1987,7 +2994,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-14",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "c4bf4252e8a606743310d46438ed428863b2034509dd44516fa501c04626f8ed"
+      }
     },
     {
       "candidate_key": "discovery-va:0",
@@ -2000,7 +3013,13 @@
       ],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-06",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ff51794f2adb4be622afc4b4a0dec60759bc147190f952a948aadb5400107a4d"
+      }
     },
     {
       "candidate_key": "discovery-va:1",
@@ -2011,7 +3030,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-06",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ff51794f2adb4be622afc4b4a0dec60759bc147190f952a948aadb5400107a4d"
+      }
     },
     {
       "candidate_key": "discovery-wa:0",
@@ -2022,7 +3047,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-09",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "c856748141315b442af8c4e5a6b2eaf6014f2d95e2b9f23222aced0266e05bc0"
+      }
     },
     {
       "candidate_key": "discovery-wa:1",
@@ -2033,7 +3064,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-09",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "c856748141315b442af8c4e5a6b2eaf6014f2d95e2b9f23222aced0266e05bc0"
+      }
     },
     {
       "candidate_key": "discovery-wa:2",
@@ -2044,7 +3081,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-09",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "c856748141315b442af8c4e5a6b2eaf6014f2d95e2b9f23222aced0266e05bc0"
+      }
     },
     {
       "candidate_key": "discovery-wa:3",
@@ -2055,7 +3098,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-09",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "c856748141315b442af8c4e5a6b2eaf6014f2d95e2b9f23222aced0266e05bc0"
+      }
     },
     {
       "candidate_key": "discovery-wa:4",
@@ -2066,7 +3115,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-09",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "c856748141315b442af8c4e5a6b2eaf6014f2d95e2b9f23222aced0266e05bc0"
+      }
     },
     {
       "candidate_key": "discovery-wa:5",
@@ -2077,7 +3132,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-09",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "c856748141315b442af8c4e5a6b2eaf6014f2d95e2b9f23222aced0266e05bc0"
+      }
     },
     {
       "candidate_key": "discovery-wa:6",
@@ -2088,7 +3149,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-closure-09",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "c856748141315b442af8c4e5a6b2eaf6014f2d95e2b9f23222aced0266e05bc0"
+      }
     },
     {
       "candidate_key": "discovery-wi:0",
@@ -2096,10 +3163,19 @@
       "state_abbrev": "WI",
       "jurisdiction": "Sun Prairie",
       "proposed_instrument_label": "City council resolution; number unknown",
-      "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "same_name_inventory_ids": [
+        "wi-sun-prairie-2026"
+      ],
+      "disposition": "reviewed_city_reported_adoption_added",
+      "review_packet": "work/research/2026-11-06/sun-prairie-discovery-review/review.json",
+      "next_step": "Obtain full resolution, operative anchors, later actions and coordinates; no current-force renewal.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "unresolved",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      },
+      "coordinator_correction": "Recovered relevant city narrative through separately registered original-HTML DOM text; original worker recommendation and extraction retained."
     },
     {
       "candidate_key": "discovery-wi:1",
@@ -2110,7 +3186,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_supported_candidate",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-wi:2",
@@ -2121,7 +3203,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-wi:3",
@@ -2132,7 +3220,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-wi:4",
@@ -2143,7 +3237,13 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     },
     {
       "candidate_key": "discovery-wy:0",
@@ -2154,8 +3254,20 @@
       "same_name_inventory_ids": [],
       "disposition": "unreviewed",
       "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions."
+      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "worker_review": {
+        "job_id": "discovery-review-03",
+        "worker_disposition": "distinct_historical_instrument",
+        "mechanical_gate_passed": true,
+        "review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563"
+      }
     }
   ],
-  "scope": "Explicit closure queue for returned local candidates only. Exact normalized jurisdiction names assist routing, not entity matching, duplicate rejection, source acceptance or coverage proof. Original 333 jobs remain terminal; no collection rerun."
+  "scope": "Explicit closure queue for returned local candidates only. Exact normalized jurisdiction names assist routing, not entity matching, duplicate rejection, source acceptance or coverage proof. Original 333 jobs remain terminal; no collection rerun.",
+  "covered_by_existing_instrument": 1,
+  "reviewed_prepared_not_applied": 0,
+  "reviewed_city_reported_adoption_additions": 1,
+  "worker_reviewed_count": 183,
+  "unreviewed_count_scope": "Coordinator substantive/canonical closure remains open for179candidates despite complete independently audited worker recommendation coverage.",
+  "worker_review_baseline_sha256": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1"
 }

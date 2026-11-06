@@ -3,7 +3,7 @@
 
 Working inventory for Wisconsin, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**40 instruments** — 39 in force, 1 pending, 0 past.
+**41 instruments** — 40 in force, 1 pending, 0 past.
 
 State policy is tracked separately: **7 actions** (7 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -40,6 +40,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 | Sawyer County | County | 2026-08 | data center | 🟢 Active |
 | Shawano County | County | 2026-06-24 | data center | 🟢 Active |
 | St. Croix County | County | 2026-09-01 | data center | 🟢 Active |
+| Sun Prairie | City | 2026-09-01 | data center | 🟢 Active |
 | Tigerton | Village | 2026-09-15 | data center | 🟢 Active |
 | Town of New Denmark | Town | 2026-06-08 | data center | 🟢 Active |
 | Vilas County | County | Unverified | data center, battery storage, solar | 🟡 Pending |
@@ -547,6 +548,22 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Affected projects:** —
 - **Detailed status:** Active as of 2026-09-23; adopted 18-0 on September 1, 2026. Applies only to county-zoned towns and unincorporated areas (the towns of Forest, Hudson, St. Joseph, and Troy, plus incorporated cities/villages such as Hammond, are exempt because they are not under county general zoning). The county's Community Development Committee is developing permanent standards, referencing an October 2026 Wisconsin Counties Association model ordinance.
 - **Outcome:** Adopted 12-month moratorium on medium- and large-scale data centers in county-zoned areas.
+
+### Sun Prairie
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** September 1, 2026 council approval, as reported in the City September 2026 newsletter; final resolution and operative anchor unverified.
+- **Normalized date:** `2026-09-01` (unverified)
+- **Duration:** City reports a 12-month moratorium; operative start/end anchors and any subsequent actions unverified.
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `wi-sun-prairie-2026`
+- **Legal basis:** Resolution approved by Common Council September 1, 2026, as reported by the City; resolution identifier and full text not recovered.
+- **What prompted it:** City study of data-center policies and regulations before considering further proposals.
+- **Affected projects:** —
+- **Detailed status:** City September 2026 newsletter reports that Council approved a 12-month moratorium on September 1 and that zoning permits for data centers larger than 10,000 square feet would not be accepted, processed or approved. [VERIFY signed resolution, final definitions/exemptions, operative dates, later actions and current legal force not independently established; coordinates await review]
+- **Outcome:** —
 
 ### Tigerton
 
