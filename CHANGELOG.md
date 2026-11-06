@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Falls and Little Britain Township resolutions are identified as 2026-11 and 9-26, with curative-process initiation distinguished from final zoning. Lycoming’s June 18 Resolution 2026-16 approval is confirmed from minutes; the appended statement describes a 19-municipality planning partnership rather than universal countywide permitting authority. Final operative scope and later force remain unresolved.
+
 Center Township’s June invalidity motion and July curative resolution are distinguished. Visual review confirms Resolution 2026-07-07 consistently on the July page; the apparent conflicting identifier was an extraction artifact. The June instruction to prepare a curative amendment within 180 days is not treated as proof of an operative 180-day moratorium, and later legal effect remains unresolved.
 
 Pennsylvania review removes Brookville’s unsupported claim that no numbered instrument exists and identifies Buffalo Township Resolution 2026-8 as initiation of a curative process. Clinton Township’s reported six-month wording is separated from its unresolved operative term and solicitor opinion disputing legal effect; no judicial ruling is inferred. Later force remains unresolved.
@@ -152,7 +154,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **69** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **595** |
+| Rows we still want to confirm (`[VERIFY]`) | **598** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

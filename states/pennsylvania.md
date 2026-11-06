@@ -224,10 +224,10 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `pa-falls-township-2026`
-- **Legal basis:** Falls Township Board of Supervisors resolution (adopted July 27, 2026) declaring a portion of the zoning ordinance 'substantively invalid' as to data centers, initiating a municipal curative amendment as a 'protective measure' against substantive-validity challenges (specific resolution number not located in sources reviewed).
+- **Legal basis:** Falls Township Board of Supervisors Resolution 2026-11, adopted July 27, 2026, declaring portions of the zoning ordinance substantively invalid and initiating a municipal curative amendment under section 609.2 of the Pennsylvania Municipalities Planning Code.
 - **What prompted it:** Regulatory gap combined with sustained public opposition to the already-approved Amazon Web Services data center (a 2-million-square-foot, 10-building campus under construction at the former U.S. Steel/Keystone Trade Center site); residents demanded clearer definitions of 'data center' and infrastructure/utility standards for future proposals.
 - **Affected projects:** None going forward; the curative amendment explicitly does not affect the already-approved and under-construction Amazon Web Services data center at the former U.S. Steel site, whose approval (March 2025) and community pushback prompted this action.
-- **Detailed status:** Active as of 2026-09-23, running toward its computed 2027-01-23 end date. The curative amendment does not affect the already-approved (March 2025) Amazon Web Services data center, which remains under construction; township staff will review the existing zoning ordinance and bring proposed amendments back to the Board within 180 days, with drafts to be posted publicly and advertised before hearings.
+- **Detailed status:** The township July 28 announcement reports approval of a curative-amendment resolution at the preceding Monday meeting. Posted Resolution 2026-11 declares possible zoning invalidity and directs curative preparation, but its execution fields are blank. Final executed wording, precise operative legal effect and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Falls Township Board of Supervisors voted July 27, 2026 to declare part of its zoning ordinance substantively invalid as to data centers, opening a 180-day curative-amendment period to draft new zoning rules.
 
 ### Gregg Township (Union County)
@@ -272,10 +272,10 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `pa-little-britain-township-2026`
-- **Legal basis:** Little Britain Township Board of Supervisors resolution (adopted July 14, 2026) declaring existing ordinances invalid regarding data centers and related uses because they are not addressed, initiating a municipal curative amendment (specific resolution number not located in sources reviewed).
+- **Legal basis:** Little Britain Township Board of Supervisors Resolution 9-26, adopted July 14, 2026, declaring the zoning ordinance substantively invalid insofar as it excludes data centers and ancillary uses and initiating a municipal curative amendment.
 - **What prompted it:** Regulatory gap: the township has no ordinance specifically addressing data centers; adopted proactively while the board develops a new ordinance modeled on those of nearby townships.
 - **Affected projects:** None named; adopted proactively rather than in response to a pending application.
-- **Detailed status:** Active as of 2026-09-23, running toward its computed 2027-01-10 end date. The township now has six months from adoption to develop an ordinance amendment with help from the township solicitor and planning commission, using nearby townships' ordinances as models. No news of an extension, adoption of the amendment, or repeal was found in sources reviewed through 2026-09-23.
+- **Detailed status:** July 14 minutes record adoption of Resolution 9-26 declaring zoning substantively invalid insofar as it excludes data centers and ancillary uses, including energy-generation facilities, and initiating a curative amendment process. Final instrument text, precise operative legal effect and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Little Britain Township Board of Supervisors unanimously adopted a resolution on 2026-07-14 imposing a 180-day moratorium on data-center applications, following a preliminary June 9, 2026 vote to move forward with the concept.
 
 ### Lycoming County
@@ -283,7 +283,7 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 - **Type:** County
 - **Status:** 🟢 Active
 - **Date enacted:** County commissioners reportedly approved a curative-amendment resolution on 2026-06-18.
-- **Normalized date:** `2026-06-18` (unverified)
+- **Normalized date:** `2026-06-18` (exact)
 - **Duration:** 180-day municipal curative-amendment period after declaring the county zoning ordinance substantially invalid for lacking appropriate regulation of data centers and related uses; affects municipalities participating in the county zoning partnership.
 - **Current end date:** `—`
 - **Sectors:** data center
@@ -291,7 +291,7 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 - **Legal basis:** Resolution 2026-16 (Lycoming County), adopted 3-0 by the Board of Commissioners at its regular public meeting on 2026-06-18, declaring the county's zoning ordinance (enacted 1991, amended 2021) 'substantially invalid' for failing to provide appropriate zoning regulation of data centers and accessory/similar uses, and triggering the 180-day curative-amendment period under the PA Municipalities Planning Code.
 - **What prompted it:** County zoning ordinance lacked appropriate regulation of data centers and related uses.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23, running toward its 180-day statutory ceiling (~2026-12-15). The county's Planning & Community Development Department, working with consultant Entech Engineering, introduced a full draft curative amendment (covering power sourcing, water supply, permitted zones, setbacks, noise, and decommissioning) to the County Planning Commission in September 2026; Commission Chair Jason Bogle stressed it remains a draft, and public-comment hearings before the Board of Commissioners were expected to begin around mid-November 2026, ahead of the statutory deadline. Commissioner Marc Sortman has repeatedly clarified that the county's own zoning authority covers only the 19 municipalities in its zoning partnership (which does not include Muncy Township, a separate PA MPC curative-amendment moratorium already tracked in this inventory as pa-muncy-township-2026); other municipalities must adopt their own ordinances.
+- **Detailed status:** June 18 minutes record 3-0 approval of Resolution 2026-16 and describe a data-center stopgap pending an ordinance. The appended commissioner statement describes a county planning partnership serving 19 municipalities; it is not evidence of universal countywide permit authority. Final operative scope, interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Montour County
