@@ -1,0 +1,102 @@
+{
+  "applied_at": "20261105T192446",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-south-carolina-a/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 3,
+    "fields_changed": 11
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "sc-anderson-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Six calendar months are not a fixed 180 days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-anderson-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Ordinance text uses months from enactment.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-anderson-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; adopted on third reading Aug. 18, 2026 and confirmed via the county's own agenda packet and multiple news organizations. No pending items or new applications for data centers may be accepted, processed, or approved for the moratorium's term.",
+      "after": "The August 18 packet states six months from enactment; August 20 reporting confirms third/final-reading passage. Final signed operative wording, actual effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-chester-county-2026",
+      "column": "duration",
+      "before": "Six months",
+      "after": "Until December 31, 2026, or earlier repeal, unless extended (July 20 final-reading packet text; signed final text not separately located)",
+      "reason": "Section 9 of final-reading packet.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-chester-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Packet does not specify a 180-day term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-chester-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "until_date",
+      "reason": "Packet sets a dated termination with earlier repeal and possible extension.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-chester-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; confirmed via the county's own July 20, 2026 council agenda packet (Ordinance 2026-14, public hearing and 3rd reading that date) and WBTV news coverage of the unanimous vote. The 180-day term (from July 20, 2026) runs to approximately 2027-01-16 and had not lapsed as of 2026-09-23; no extension, repeal, or replacement was found. The county's June 18, 2026 press release also notes the pause followed the county's separately adopted data-center zoning regulations (CCTA26-06).",
+      "after": "July 20 minutes record third-reading approval with the unusual notation 7-7-0, not interpreted as a conventional tally. Section 9 of the final-reading packet states applicability from first reading and termination at earlier repeal or December 31, 2026 unless extended. Separately signed final text, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-chester-county-2026",
+      "column": "current_end_date_iso",
+      "before": "",
+      "after": "2026-12-31",
+      "reason": "Final-reading packet explicit outer endpoint, subject to earlier repeal/extension and unverified final executed text.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-york-county-2026",
+      "column": "duration_days",
+      "before": "270",
+      "after": "",
+      "reason": "The county describes a nine-month calendar term, not 270 fixed days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-york-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The county describes the term in months.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "sc-york-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31; may be extended by resolution if more study time is needed. Applies only in unincorporated areas; vested projects, including approved QTS site plans, are exempt.",
+      "after": "The county data-center page reports July 13 third-reading passage, immediate effect and a nine-month term. It also retains proposal-oriented wording and is undated; actual operative interval, later amendments/extensions/repeal and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Separate minutes adoption from unexecuted posted wording, effective anchors and later force.",
+      "source": "answers.json"
+    }
+  ]
+}
