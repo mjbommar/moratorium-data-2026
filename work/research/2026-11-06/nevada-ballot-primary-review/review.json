@@ -19,6 +19,24 @@
       "retrieved_at": "2026-11-05T17:09:59.074596+00:00",
       "attempt_id": "3d1f2748e4db4859aa16953460fc50bb",
       "source_role": "Official ClarkCounty ENR; complete retained HTML derivation preserves header. Election/status header and Question1 contest reviewed; other contests excluded."
+    },
+    {
+      "source_document_id": "nevada-review-digest",
+      "url": "https://www.bcnv.org/DocumentCenter/View/17253/Ballot-Question-1-Explanation-Digest-and-Arguments",
+      "body_sha256": "8998cc47446bcf9ce8c5f6db1c345f949c2deeb957b1198dc281bf1a9cf8b1d1",
+      "text_sha256": "e40b3d59612dfb170ef9248aa5e5f383ef3fe34360edec2916599965a6a40565",
+      "retrieved_at": "2026-11-06T11:22:03.803892+00:00",
+      "attempt_id": "c2b6bce06d00411a8a5103e9c38e46ed",
+      "source_role": "Official city explanation/digest plus separately attributed committee arguments and fiscal section; full native text read, pages1/2/6visually inspected; no map polygon or campaign claims accepted."
+    },
+    {
+      "source_document_id": "nevada-review-canvass-schedule",
+      "url": "https://www.bcnv.org/1083/2026-Boulder-City-General-Election-Resul",
+      "body_sha256": "bad47c45e6578697e9218bff4214aa950393649f074f7b78b1dc26b670449ca1",
+      "text_sha256": "3f57baa0093010119775fc7a78f62d13c505eb6300b1b03ef705c3f471872aaf",
+      "retrieved_at": "2026-11-06T11:22:01.840172+00:00",
+      "attempt_id": "a2967e1bafdf4e1a86751bd6ad7b7d03",
+      "source_role": "Official city municipal results page; future canvass schedule, not certification."
     }
   ],
   "claims": [
@@ -109,10 +127,74 @@
       },
       "quote": "Total\n7,011\n100.00%",
       "span": "utf8-text-codepoints:24134:24153"
+    },
+    {
+      "claim_id": "nevada-review-06",
+      "source_document_id": "nevada-review-digest",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-408f8c4b9a7c3baf"
+      },
+      "predicate": "official_digest_approval_gate",
+      "value": {
+        "charter_reference_as_reported": "BoulderCityCharterSection144(1)/(2)",
+        "rule_as_explained": "Other transfer-area uses require registered-voter approval",
+        "scope": "Digest description/quotation, not independently checked current charter text. Approval concerns eligible transfer-area land outside conservation easement, not whole city or specific project."
+      },
+      "quote": "Subsection 2 of Section 144 provides that any other land uses",
+      "span": "utf8-text-codepoints:1295:1356"
+    },
+    {
+      "claim_id": "nevada-review-07",
+      "source_document_id": "nevada-review-digest",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-408f8c4b9a7c3baf"
+      },
+      "predicate": "official_digest_council_discretion",
+      "value": {
+        "effect_as_explained": "YES permits CityCouncil potentially to enter data-center leases; does not require it to authorize a center",
+        "geographic_limit": "BoulderCity land outside TransferArea not impacted by question",
+        "scope": "Use approval gate, not automatic project entitlement, lease or construction approval. No operative restriction or causal project link accepted."
+      },
+      "quote": "voter approval of the use would not require the City Council to",
+      "span": "utf8-text-codepoints:3178:3241"
+    },
+    {
+      "claim_id": "nevada-review-08",
+      "source_document_id": "nevada-review-digest",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-408f8c4b9a7c3baf"
+      },
+      "predicate": "official_digest_tax_and_law_statement",
+      "value": {
+        "statement": "Does not propose to add/change/repeal existing law or increase taxes/fees",
+        "scope": "Preserve digest characterization alongside Charter use-approval gate. Do not flatten to ordinary advisory sentiment or statutory amendment without independent legal review. Committee argument resource/revenue assertions not adopted as facts."
+      },
+      "quote": "This measure does not propose to add to, change or repeal existing law",
+      "span": "utf8-text-codepoints:3578:3648"
+    },
+    {
+      "claim_id": "nevada-review-09",
+      "source_document_id": "nevada-review-canvass-schedule",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-408f8c4b9a7c3baf"
+      },
+      "predicate": "official_future_canvass_schedule",
+      "value": {
+        "scheduled_canvass_date": "2026-11-13",
+        "scheduled_time": "09:00",
+        "source_label": "Unofficial 2026 General Election Results",
+        "scope": "Scheduled SpecialCityCouncil canvass, not completed/certified observation or certification_date. Future relative to refresh cutoff."
+      },
+      "quote": "The official election results will be canvassed at the Special City Council meeting on November 13, 2026, at 9:00 a.m.",
+      "span": "utf8-text-codepoints:254:372"
     }
   ],
   "visual_reviews": {},
-  "scope": "Retained official city wording/referral and county unofficial contest review only; no new acquisition or canonical publication.",
+  "scope": "Retained official city wording/referral and county unofficial contest review only; city digest/canvass-schedule followup included; no canonical publication.",
   "unresolved": [
     "Bindingness/legal basis and implementation of specified land-use approval",
     "Original ballot booklet and council referral instrument",
