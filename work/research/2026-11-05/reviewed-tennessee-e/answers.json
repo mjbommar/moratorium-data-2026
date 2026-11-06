@@ -1,0 +1,122 @@
+{
+  "state_abbrev": "TN",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "tn-smithville-undated",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.wjle.com/city-gives-final-nod-to-18-month-data-center-moratorium-ordinance/",
+          "document_date": "2026-08-03",
+          "source_type": "news",
+          "supports": "Report reproduces the duration provision of Ordinance 543.",
+          "quote": "eighteen months from the date of final passage of the Ordinance"
+        }
+      ],
+      "notes": "News reproduces ordinance text, including earlier end upon adoption of permanent amendments; signed primary text and later actions not located. Current force unresolved.",
+      "confidence": 0.65,
+      "changes": {
+        "duration_days": {
+          "from": "545",
+          "to": "",
+          "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; Ordinance 543 took effect on final passage 2026-08-03 and runs 18 months (to about 2028-02-03) or until permanent zoning amendments are adopted.",
+          "to": "August 3 news reports final adoption of Ordinance 543 and reproduces an eighteen-month term from final passage or earlier permanent zoning amendments. Signed ordinance, actual operative interval and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    },
+    {
+      "moratorium_id": "tn-unincorporated-hamilton-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.hamiltontn.gov/PDF/Commission/minutes/07-15-26%20Regular.pdf",
+          "document_date": "2026-07-15",
+          "source_type": "minutes",
+          "supports": "Minutes identify resolution 726-23 and record a motion to adopt; accompanying roll-call passage is on the following page.",
+          "quote": "to adopt Resolution No. 726-23."
+        }
+      ],
+      "notes": "July minutes show Resolution 726-23 motion and unanimous 9\u20130 adoption, 2 absent. Original resolution text and later actions remain unverified, including present force.",
+      "confidence": 0.9,
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "unknown",
+          "reason": "Minutes describe proposed one-year duration but do not reproduce final operative term."
+        },
+        "legal_basis": {
+          "from": "County Commission resolution approving new data centers in unincorporated Hamilton County (does not cover incorporated municipalities such as Chattanooga); final resolution text and vote tally not located",
+          "to": "Hamilton County Commission Resolution No. 726-23 approving and authorizing a moratorium on data centers in unincorporated Hamilton County, adopted July 15, 2026; full resolution text not located.",
+          "reason": "Official minutes identify the instrument and record the adoption vote."
+        },
+        "duration": {
+          "from": "One year",
+          "to": "Minutes describe a proposed one-year moratorium; final executed term and operative interval unresolved.",
+          "reason": "Separate minutes discussion from full enacted text."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23 per news reporting; one-year moratorium on new data centers in unincorporated Hamilton County approved unanimously 2026-07-15, running through July 2027. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "to": "July 15 minutes identify Resolution 726-23 and record unanimous adoption 9-0 with two absent; the mayor describes a proposed one-year pause for unincorporated areas. The full executed resolution, exact effective anchor, final scope and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "verify_resolutions": [
+        {
+          "field": "current_status",
+          "marker": "[VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+          "resolution": "still_unverifiable",
+          "note": "Official minutes identify Resolution 726-23 and its adoption, but the full resolution and later legal status remain unverified; retain marker pending complete review."
+        }
+      ]
+    },
+    {
+      "moratorium_id": "tn-warren-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://theucnow.com/2026/06/23/warren-commission-passes-data-center-moratorium/",
+          "document_date": "2026-06-23",
+          "source_type": "news",
+          "supports": "Report describes the term and possible extension.",
+          "quote": "The moratorium is scheduled to last for 12 months"
+        }
+      ],
+      "notes": "Contemporary report supports a 12-month pause; signed text, actual legal anchor, later actions and current force remain unresolved.",
+      "confidence": 0.65,
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23 per news reporting; 12-month moratorium adopted 2026-06-22 on the Economic and Agriculture Committee's recommendation, extendable; the county plans to seek a private act in 2027 for permanent controls. It does not affect the separately proposed data center inside McMinnville city limits. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-07 refresh]",
+          "to": "June 23 news reports commission passage of a twelve-month moratorium, with possible extension. Signed adopted text, exact effective anchor, operative interval and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    }
+  ],
+  "new_candidates": []
+}

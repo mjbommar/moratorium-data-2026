@@ -1,0 +1,103 @@
+{
+  "applied_at": "20261105T194112",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-tennessee-e/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 3,
+    "fields_changed": 11,
+    "verify_still_open": 1
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "tn-smithville-undated",
+      "column": "duration_days",
+      "before": "545",
+      "after": "",
+      "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-smithville-undated",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-smithville-undated",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; Ordinance 543 took effect on final passage 2026-08-03 and runs 18 months (to about 2028-02-03) or until permanent zoning amendments are adopted.",
+      "after": "August 3 news reports final adoption of Ordinance 543 and reproduces an eighteen-month term from final passage or earlier permanent zoning amendments. Signed ordinance, actual operative interval and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-unincorporated-hamilton-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-unincorporated-hamilton-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "unknown",
+      "reason": "Minutes describe proposed one-year duration but do not reproduce final operative term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-unincorporated-hamilton-county-2026",
+      "column": "legal_basis",
+      "before": "County Commission resolution approving new data centers in unincorporated Hamilton County (does not cover incorporated municipalities such as Chattanooga); final resolution text and vote tally not located",
+      "after": "Hamilton County Commission Resolution No. 726-23 approving and authorizing a moratorium on data centers in unincorporated Hamilton County, adopted July 15, 2026; full resolution text not located.",
+      "reason": "Official minutes identify the instrument and record the adoption vote.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-unincorporated-hamilton-county-2026",
+      "column": "duration",
+      "before": "One year",
+      "after": "Minutes describe a proposed one-year moratorium; final executed term and operative interval unresolved.",
+      "reason": "Separate minutes discussion from full enacted text.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-unincorporated-hamilton-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23 per news reporting; one-year moratorium on new data centers in unincorporated Hamilton County approved unanimously 2026-07-15, running through July 2027. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]",
+      "after": "July 15 minutes identify Resolution 726-23 and record unanimous adoption 9-0 with two absent; the mayor describes a proposed one-year pause for unincorporated areas. The full executed resolution, exact effective anchor, final scope and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-warren-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-warren-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The documented term is in calendar months or years; the codebook requires calendar_term with no approximated day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-warren-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23 per news reporting; 12-month moratorium adopted 2026-06-22 on the Economic and Agriculture Committee's recommendation, extendable; the county plans to seek a private act in 2027 for permanent controls. It does not affect the separately proposed data center inside McMinnville city limits. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-07 refresh]",
+      "after": "June 23 news reports commission passage of a twelve-month moratorium, with possible extension. Signed adopted text, exact effective anchor, operative interval and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ]
+}

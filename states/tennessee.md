@@ -630,7 +630,7 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Legal basis:** Ordinance 543, imposing a temporary 18-month moratorium on the acceptance, processing, and approval of building permits, zoning certificates, site plans, variances, and special exceptions for high-density computing, data centers, and cryptocurrency mining operations
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; Ordinance 543 took effect on final passage 2026-08-03 and runs 18 months (to about 2028-02-03) or until permanent zoning amendments are adopted.
+- **Detailed status:** August 3 news reports final adoption of Ordinance 543 and reproduces an eighteen-month term from final passage or earlier permanent zoning amendments. Signed ordinance, actual operative interval and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Sparta
@@ -703,14 +703,14 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-07-15, County Commission approval
 - **Normalized date:** `2026-07-15` (exact)
-- **Duration:** One year
+- **Duration:** Minutes describe a proposed one-year moratorium; final executed term and operative interval unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `tn-unincorporated-hamilton-county-2026`
-- **Legal basis:** County Commission resolution approving new data centers in unincorporated Hamilton County (does not cover incorporated municipalities such as Chattanooga); final resolution text and vote tally not located
+- **Legal basis:** Hamilton County Commission Resolution No. 726-23 approving and authorizing a moratorium on data centers in unincorporated Hamilton County, adopted July 15, 2026; full resolution text not located.
 - **What prompted it:** County Planning Department to study practices elsewhere, consult TVA, EPB, and local water providers, and gather public input; follows Mayor Wamp's June 30 proposal
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23 per news reporting; one-year moratorium on new data centers in unincorporated Hamilton County approved unanimously 2026-07-15, running through July 2027. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]
+- **Detailed status:** July 15 minutes identify Resolution 726-23 and record unanimous adoption 9-0 with two absent; the mayor describes a proposed one-year pause for unincorporated areas. The full executed resolution, exact effective anchor, final scope and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Warren County
@@ -726,7 +726,7 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Legal basis:** County Commission moratorium covering high-electricity computing uses; adopted resolution text not located online
 - **What prompted it:** Officials study code, fire, infrastructure, and utility issues
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23 per news reporting; 12-month moratorium adopted 2026-06-22 on the Economic and Agriculture Committee's recommendation, extendable; the county plans to seek a private act in 2027 for permanent controls. It does not affect the separately proposed data center inside McMinnville city limits. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-07 refresh]
+- **Detailed status:** June 23 news reports commission passage of a twelve-month moratorium, with possible extension. Signed adopted text, exact effective anchor, operative interval and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Washington County

@@ -1,0 +1,65 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "tn-inventory-005": "12eb6088117fe57d7217872e46ecbe436b2f9f0b90e981cc0181ae34f053a94b"
+  },
+  "reviewed_answers_sha256": "f5eb414c6a98fb951476e86cc521ae771e20c3d08d17c7a8124f446537653144",
+  "scope": "Three bounded Tennessee corrections. Smithville and Warren news-qualified calendar terms with short quotations; no signed text or current-force conclusion. Hamilton minutes identify adoption and instrument, page 19 unanimous vote visually compared; proposed one-year discussion is not accepted as final executed term. Original native text retained.",
+  "located_evidence": [
+    {
+      "moratorium_id": "tn-smithville-undated",
+      "url": "https://www.wjle.com/city-gives-final-nod-to-18-month-data-center-moratorium-ordinance/",
+      "quote": "eighteen months from the date of final passage of the Ordinance",
+      "located": [
+        {
+          "attempt_id": "a640eaa145c94a2e9e541f710d7b0d88",
+          "body_sha256": "1fbe80a11a0189c763e4f1c1cb1e4355271977bf20c1dca9d7e308cd91ac435c",
+          "text_sha256": "87355e4ca7675872247b9718cb737e91a423ee5edb2ab5fd31425e8adbcd6f69",
+          "span": [
+            4024,
+            4087
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "tn-unincorporated-hamilton-county-2026",
+      "url": "https://www.hamiltontn.gov/PDF/Commission/minutes/07-15-26%20Regular.pdf",
+      "quote": "to adopt Resolution No. 726-23.",
+      "located": [
+        {
+          "attempt_id": "a73823d0417e42fb9159f4c5b560f39c",
+          "body_sha256": "6ae3f4f903b767465f6f2187eb013214dc806ac55ed0da239df5f91933477414",
+          "text_sha256": "ea00b6d2900e621933615000125e89e2e6c102127a1bb908c08149f945e044a6",
+          "span": [
+            18276,
+            18307
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "tn-warren-county-2026",
+      "url": "https://theucnow.com/2026/06/23/warren-commission-passes-data-center-moratorium/",
+      "quote": "The moratorium is scheduled to last for 12 months",
+      "located": [
+        {
+          "attempt_id": "888c4e94d1944b6bbe3bdfd3f7e19f43",
+          "body_sha256": "27231edceaa7374fcfb902b3316db6f6a7f038ed587ba9e3706834aa145a3be6",
+          "text_sha256": "cb3f10348921383ed47a138bd13cb3fcab85ec8b02f950bfb2d1fa2a8d17bc93",
+          "span": [
+            3181,
+            3230
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_comparison": {
+    "attempt_id": "a73823d0417e42fb9159f4c5b560f39c",
+    "page": 19,
+    "render": "pdftoppm PNG -singlefile -scale-to 1400",
+    "render_sha256": "d13b7f05fbdc34beedac749abcb552f940066730965bdf03997a756fc5ad51f7",
+    "finding": "Foregoing moratorium motion unanimously adopted, nine ayes, zero nays, two absent, before next resolution 726-24."
+  }
+}
