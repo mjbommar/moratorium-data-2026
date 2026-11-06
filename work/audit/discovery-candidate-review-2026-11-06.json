@@ -1,5 +1,5 @@
 {
-  "inventory_sha256": "8708faa55b80fadde8724c4591e25f0ff5a8f3d024f0f981045aa78fe4196a72",
+  "inventory_sha256": "fb83178f29b9769f7d2a19f7a7df00694f2cb5b30207a32269e804db91ad4fd2",
   "returned_answer_sha256": {
     "discovery-ak": "a4b62aac2562578f9bb4c66f6f504557f1aace1c1612c0f7f2e3b2c01fae334e",
     "discovery-al": "b6e254f6a91f7dc6937ca15433d3c9ac8c29f473bb22765439ab7bf23647aa62",
@@ -53,8 +53,8 @@
     "discovery-wy": "71d371e9c8ea036e8198dfc1b015f104dba9b8ebb16c0c667af087e81483ca84"
   },
   "candidate_count": 185,
-  "reviewed_pending_additions": 6,
-  "unreviewed_count": 111,
+  "reviewed_pending_additions": 7,
+  "unreviewed_count": 105,
   "candidates": [
     {
       "candidate_key": "discovery-ak:0",
@@ -1480,9 +1480,9 @@
       "same_name_inventory_ids": [
         "md-carroll-county-2026"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_original_act_and_later_history",
+      "review_packet": "work/research/2026-11-06/maryland-new-jersey-discovery-review/review.json",
+      "next_step": "Recover remaining evidence and later action history as scoped in coordinator rationale; coordinates require independent review.",
       "worker_review": {
         "job_id": "discovery-closure-05",
         "worker_disposition": "distinct_historical_instrument",
@@ -1497,11 +1497,12 @@
       "jurisdiction": "Talbot County",
       "proposed_instrument_label": "Resolution 329",
       "same_name_inventory_ids": [
-        "md-talbot-county-2026"
+        "md-talbot-county-2026",
+        "md-talbot-county-2022"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "reviewed_historical_instrument_added",
+      "review_packet": "work/research/2026-11-06/maryland-new-jersey-discovery-review/review.json",
+      "next_step": "Recover remaining evidence and later action history as scoped in coordinator rationale; coordinates require independent review.",
       "worker_review": {
         "job_id": "discovery-closure-05",
         "worker_disposition": "distinct_historical_instrument",
@@ -1518,9 +1519,9 @@
       "same_name_inventory_ids": [
         "md-hurlock-2026"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_instrument_and_vote_date",
+      "review_packet": "work/research/2026-11-06/maryland-new-jersey-discovery-review/review.json",
+      "next_step": "Recover remaining evidence and later action history as scoped in coordinator rationale; coordinates require independent review.",
       "worker_review": {
         "job_id": "discovery-closure-05",
         "worker_disposition": "distinct_supported_candidate",
@@ -1537,9 +1538,9 @@
       "same_name_inventory_ids": [
         "md-howard-county-2026"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_proposal_and_later_action",
+      "review_packet": "work/research/2026-11-06/maryland-new-jersey-discovery-review/review.json",
+      "next_step": "Recover remaining evidence and later action history as scoped in coordinator rationale; coordinates require independent review.",
       "worker_review": {
         "job_id": "discovery-closure-05",
         "worker_disposition": "distinct_supported_candidate",
@@ -2345,10 +2346,12 @@
       "state_abbrev": "NJ",
       "jurisdiction": "East Windsor",
       "proposed_instrument_label": "Ordinance 2026-06 (adoption unresolved)",
-      "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "same_name_inventory_ids": [
+        "nj-east-windsor-undated"
+      ],
+      "disposition": "reviewed_pending_proposal_added",
+      "review_packet": "work/research/2026-11-06/maryland-new-jersey-discovery-review/review.json",
+      "next_step": "Recover remaining evidence and later action history as scoped in coordinator rationale; coordinates require independent review.",
       "worker_review": {
         "job_id": "discovery-closure-13",
         "worker_disposition": "distinct_supported_candidate",
@@ -2363,9 +2366,9 @@
       "jurisdiction": "Egg Harbor",
       "proposed_instrument_label": null,
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_instrument_and_vote_date",
+      "review_packet": "work/research/2026-11-06/maryland-new-jersey-discovery-review/review.json",
+      "next_step": "Recover remaining evidence and later action history as scoped in coordinator rationale; coordinates require independent review.",
       "worker_review": {
         "job_id": "discovery-closure-13",
         "worker_disposition": "distinct_supported_candidate",
@@ -3297,9 +3300,9 @@
   "reviewed_prepared_not_applied": 0,
   "reviewed_city_reported_adoption_additions": 2,
   "worker_reviewed_count": 183,
-  "unreviewed_count_scope": "111 candidates await coordinator substantive processing; fifty-seven reviewed cases remain withheld. City staff-reported active status is not independent authentication of operative text or current force.",
+  "unreviewed_count_scope": "105 candidates await coordinator substantive processing; 61 reviewed cases remain withheld. Historical original-term and pending-proposal classifications do not renew current legal force.",
   "worker_review_baseline_sha256": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1",
-  "reviewed_historical_additions": 6,
-  "reviewed_withheld_cases": 57,
-  "current_inventory_sha256": "8708faa55b80fadde8724c4591e25f0ff5a8f3d024f0f981045aa78fe4196a72"
+  "reviewed_historical_additions": 7,
+  "reviewed_withheld_cases": 61,
+  "current_inventory_sha256": "fb83178f29b9769f7d2a19f7a7df00694f2cb5b30207a32269e804db91ad4fd2"
 }

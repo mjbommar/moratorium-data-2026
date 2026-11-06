@@ -1,0 +1,151 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "baseline_commit": "afe9c067af139d58dbcc1e10af43058e6a5311a0",
+  "baseline_inventory_sha256": "8708faa55b80fadde8724c4591e25f0ff5a8f3d024f0f981045aa78fe4196a72",
+  "candidates": [
+    {
+      "candidate_key": "discovery-md:0",
+      "candidate_sha256": "5cb4018117e143d7be39adf053cf549dd8b510b337db63adf893bc16c76911bf",
+      "worker_review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5",
+      "coordinator_disposition": "held_original_act_and_later_history",
+      "rationale": "Complete official Carroll County release reports March 9, 2023 adoption of a six-calendar-month Chapter 113 amendment affecting community-solar processing, review, permitting and construction in the agricultural zone. Distinct from existing 2026 data-processing-center instrument. Original operative text, effectiveness and subsequent actions are not established; do not derive an exact expiry from the announcement or classify present force.",
+      "source_checks": [
+        {
+          "attempt_id": "ec345d4cf995491c8421ff081ab5a4b9",
+          "url": "https://www.carrollcountymd.gov/residents/county-news/carroll-county-government-news-release-2023-archive/commissioners-approve-6-month-moratorium-on-community-solar/",
+          "body_sha256": "253bc71e7f09282f08416d979a2f87bca8ea12047729c8f5ed1c4e5b445e1c0c",
+          "text_sha256": "53ce69fcf24d9e6913ee5e7510e00df64ed6ea47487d596850b9abe59a632bed",
+          "read_scope": "Complete retained extracted article text"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-md:1",
+      "candidate_sha256": "db8223e98c8cb67ab8105786ad345606b107cd5b96364a8118cc08f9eef1ff54",
+      "worker_review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5",
+      "coordinator_disposition": "reviewed_historical_instrument_added",
+      "rationale": "All five enrolled Resolution 329 pages visually inspected. Secretary signed adoption/effective date April 26, 2022 and five-calendar-month term support a historical elapsed-term classification and derived September 26, 2022 endpoint. Administrative acceptance continues; processing beyond special exception and pending review/permits without final approval are paused; already finally approved projects may continue. Distinct from 2026 data-center Resolution 395. Later extensions, repeal/replacement and present restrictions are not verified.",
+      "source_checks": [
+        {
+          "attempt_id": "87456e789cc64eed83e354048194d584",
+          "url": "https://talbotcountymd.gov/uploads/File/Council_2022/Resolutions/Resolution%20329%20(Temporary%20Moratorium%20-%20Applications%20-%20Large%20Scale%20Solar%20Energy%20Systems)%20As%20Enacted%20and%20Enrolled.pdf",
+          "body_sha256": "80067f81509fecad7590b22a1fa7a55856a44505f951d211b35075f1be206501",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "review_text_derivation": {
+            "output": "talbot329-ocr.private.txt",
+            "text_sha256": "8a71a44e668ff57e0e9acd2093bf19a54be85c960ce13d36605aa45539e857b2",
+            "registry_sha256": "25757a273a45115ec61ecb6f66c86226f270ec60a994fbe81af771831cba335f",
+            "scope": "Separately retained registered OCR; original extraction preserved."
+          },
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 5,
+            "render_command": "pdftoppm -scale-to 1450 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "f9975eda4df12016d4d71b2d52ef2996d1461a129baec7862b96e77b0245dcc3"
+              },
+              {
+                "page": 2,
+                "image_sha256": "4bbd0b84491ffa98bc712535b9835d98cb2c6f7a2d6a2f9a1ca5ff8038e82ae7"
+              },
+              {
+                "page": 3,
+                "image_sha256": "86ca909dd58bd84e7f3647a58f48a4c6e69dd4def05eeb088a412db5c8c20505"
+              },
+              {
+                "page": 4,
+                "image_sha256": "9fb4669e89b5cede44fa4f92d2408e89dcfea2ad74deba94fbd877253d2e00b9"
+              },
+              {
+                "page": 5,
+                "image_sha256": "4881aff5dd0e0d65ed327fd676c03b67b2df537a9abd1de9b5b23b2e4dcdaf4a"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-md:2",
+      "candidate_sha256": "baf408bd598ead246fa0ae2f54b34f0f673505ada7b1853e5c9ce14523aca88e",
+      "worker_review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5",
+      "coordinator_disposition": "held_primary_instrument_and_vote_date",
+      "rationale": "Accessible automated meeting recap reports a 5\u20130 one-year BESS resolution. September 27 publication is not proof of the meeting/adoption date; signup-gated full story not reviewed. This is a distinct lead from the existing three-year data-center measure, not an accepted instrument or current-force finding. Recover official resolution, meeting record and subsequent history.",
+      "source_checks": [
+        {
+          "attempt_id": "db91b3054cde4a07bfdee9d4f792b19b",
+          "url": "https://citizenportal.ai/articles/11580655/maryland/dorchester-county/hurlock/council-enacts-one-year-moratorium-on-battery-energy-storage-systems-for-local-review",
+          "body_sha256": "884028c845f9658f1125b9db6f176346e257616b3ef0f7a8c386593dfba7ac8d",
+          "text_sha256": "26219116a7edcbdd5be6abccf2c63bf54ebfb747688db406cd426d42d75c8aaf",
+          "read_scope": "Accessible opening before signup gate; not full story"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-md:3",
+      "candidate_sha256": "317208afc6d4a87aba9ae582da8601060504ce2d142e43aef53ccca4a1d37625",
+      "worker_review_sha256": "0763aa90d013fdc92713b02ba57da1196e02d4f5babbba89e1fa21559c3572c5",
+      "coordinator_disposition": "held_primary_proposal_and_later_action",
+      "rationale": "Complete retained WMAR report describes planned Council Bill 59 solar introduction and conditional one-year pause, not adoption. It alternates one megawatt or more with more than one megawatt; threshold equality cannot be resolved from this report. Distinct from data-center CB31-2026. Obtain bill text, actual introduction and subsequent action before promotion.",
+      "source_checks": [
+        {
+          "attempt_id": "a4b772e402384586a342e56aff861435",
+          "url": "https://www.wmar2news.com/local/howard-county-council-considering-proposed-solar-panel-pause-after-state-law-change",
+          "body_sha256": "82fd070e58de73bc71aea3c4f0131550ee1f2d1792190065f1c3ff2e9fa00edb",
+          "text_sha256": "7e134d136488cd845a7dbc825eeaf8bfaf8ba1c708520af898c3e3c67dae0abb",
+          "read_scope": "Complete retained extracted article text"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-nj:0",
+      "candidate_sha256": "dfafad711d0b039d0ffc7f12a79ce42f88d28b7f0595eb8d46d4d1a2c36ddb15",
+      "worker_review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76",
+      "coordinator_disposition": "reviewed_pending_proposal_added",
+      "rationale": "Both official Ordinance 2026-06 PDF pages visually inspected. Draft temporarily deletes computer centers, computer data or storage centers and computer digital data storage centers as permitted principal uses in three listed zoning districts, with proposed December 31, 2027 sunset unless extended. Signature, introduction, adoption and effectiveness fields blank; Section 4 requires twenty days after final passage and publication. Pending is source-stage proposal only; no formal introduction, operative endpoint, adoption or present force accepted.",
+      "source_checks": [
+        {
+          "attempt_id": "7b6b1f6db44442d3800dcbc1d6fd0341",
+          "url": "https://www.east-windsor.nj.us/media/Township%20Ordinance/2026/ordinance-2026-06-data-center-moratorium.pdf",
+          "body_sha256": "0ab3b8886fe5cb9269c8a98fd4bf8b6859d3b13ace0d31a3ad4e24fa317f9962",
+          "text_sha256": "60117c840572b5227640020378c187d30109b8c7a7ae5260f9ab3d5172d4ec30",
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 2,
+            "render_command": "pdftoppm -scale-to 1450 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "46be0878a0416e33a3de6df359eb0ebacdd0596eef549cd3ae04efcf5db5c8fa"
+              },
+              {
+                "page": 2,
+                "image_sha256": "7214119dd7dfb31cd34b56907b574f311740d5a541c582af8be3be77a45ac40c"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-nj:1",
+      "candidate_sha256": "0ad1d66219a32cf12ef801a3e67f0cd43b6d9b8f9e4758bddef99f4b184e7316",
+      "worker_review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76",
+      "coordinator_disposition": "held_primary_instrument_and_vote_date",
+      "rationale": "Complete retained Hoodline report attributes original reporting to NJ.com and describes unanimous new-BESS freeze through December 31, 2026 while separate regulations are drafted. No instrument or vote date retained; draft regulations tabled are not the moratorium. Common upstream reporting is not independent corroboration. Obtain original report and official decision, scope/exemptions and later history; no present-force or operative endpoint acceptance.",
+      "source_checks": [
+        {
+          "attempt_id": "f9dce43bec9a4aa5af1018fc77a904ae",
+          "url": "https://hoodline.com/2026/09/egg-harbor-township-freezes-battery-storage-stalling-church-s-solar-deal/",
+          "body_sha256": "fdd004bcbc153756fce57dd410dba316df08466bb5f373a76ff42d432cf41881",
+          "text_sha256": "9c4c04cd313cd4a09247808d17621a4e337115c499971db5c100e4f6d2ce6bbd",
+          "read_scope": "Complete retained extracted article text"
+        }
+      ]
+    }
+  ],
+  "scope": "Six coordinator source reviews; two scoped additions, four withheld. No inventory-wide current-force finding or new acquisition."
+}

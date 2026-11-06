@@ -1,16 +1,16 @@
 {
   "state": "consistent_with_explicit_scope_limits",
-  "ledger_sha256": "939eda030d38ca2150f730e5c39cc1f3024297ff12e081999f36cb7cbeea132a",
-  "inventory_sha256": "8708faa55b80fadde8724c4591e25f0ff5a8f3d024f0f981045aa78fe4196a72",
+  "ledger_sha256": "750a8620b85cd92ace4036da76d1326041ac2b438f426551e9c43ae01a91bdab",
+  "inventory_sha256": "fb83178f29b9769f7d2a19f7a7df00694f2cb5b30207a32269e804db91ad4fd2",
   "candidate_count": 185,
   "buckets": {
-    "reviewed_addition": 16,
-    "awaiting_coordinator_review": 111,
-    "reviewed_withheld": 57,
+    "reviewed_addition": 18,
+    "awaiting_coordinator_review": 105,
+    "reviewed_withheld": 61,
     "covered_existing": 1
   },
-  "reviewed_count": 74,
-  "packet_count": 19,
+  "reviewed_count": 80,
+  "packet_count": 20,
   "packet_sha256": {
     "work/research/2026-11-06/alaska-discovery-review/review.json": "239328a58cf236e6a297200210e129b2f89e52974a592c533610948e2f379f53",
     "work/research/2026-11-06/discovery-coordinator-wave1/review.json": "d4f5c6ccc8b36b547c37b8f79ed8e633abc01d16f67b957c23161fd6d5253c09",
@@ -22,6 +22,7 @@
     "work/research/2026-11-06/illinois-action-review/review.json": "49fcfc7b69f21063f36837ec031519b669436c78745e4bff035026aba0959752",
     "work/research/2026-11-06/kansas-discovery-review/review.json": "f980cb5d4681ac06cf3412d31ebe573ec9eac8fb5f9b229670a7e56715438702",
     "work/research/2026-11-06/massachusetts-discovery-review/review.json": "16e8e4311514beff67c643c20034737588a3ad9d096de44d5ad885ce463aa9fa",
+    "work/research/2026-11-06/maryland-new-jersey-discovery-review/review.json": "b1785ec3c3b386bc91fce0374981ba2fc4677615ca3549f1944724cfb62b6e1b",
     "work/research/2026-11-06/minnesota-discovery-review/review.json": "28bc72a2f610b83464934f244c7ebb8fcf27d86ecb6186cb764091341be35af4",
     "work/research/2026-11-06/southwest-northwest-discovery-review/review.json": "9d5908aef4bf90b37bd6c8e0b7f6ecb6bbaf7c69e1df82b419f0ac384d7e6685",
     "work/research/2026-11-06/north-dakota-discovery-review/review.json": "778945d71b8ee54cc7330e21b0bfefc393c5538569bb7307fe4c12d1dd5245c5",
@@ -32,11 +33,11 @@
     "work/research/2026-11-06/washington-discovery-review/review.json": "5121f6ea614245670c9a3d251f3a33fb5c47fd342ef6b584c75a2d8e14bd1b0a",
     "work/research/2026-11-06/sun-prairie-discovery-review/review.json": "c2cf80d4b1f0a117e4b0979f1e72b5dcbcf8605391dd1f7c3370a30abf6595c5"
   },
-  "explicit_candidate_fingerprint_checks": 68,
+  "explicit_candidate_fingerprint_checks": 74,
   "alternate_packet_layout_checks": 6,
-  "distinct_review_source_versions": 74,
-  "source_versions_reverified": 74,
-  "original_discovery_source_versions_reverified": 72,
+  "distinct_review_source_versions": 80,
+  "source_versions_reverified": 80,
+  "original_discovery_source_versions_reverified": 78,
   "followup_source_versions_reverified": 2,
   "source_versions_deferred_to_specific_receipts": 0,
   "verified_original_versions": [
@@ -361,6 +362,14 @@
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
     },
     {
+      "attempt_id": "7b6b1f6db44442d3800dcbc1d6fd0341",
+      "body_sha256": "0ab3b8886fe5cb9269c8a98fd4bf8b6859d3b13ace0d31a3ad4e24fa317f9962",
+      "text_sha256": "60117c840572b5227640020378c187d30109b8c7a7ae5260f9ab3d5172d4ec30",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
       "attempt_id": "80e5e956b2874206b0e708bf1cccfa8e",
       "body_sha256": "bf962fc3d091f3d682c832e5952d6b96be2cbd9e87eb03b798113d02d930a878",
       "text_sha256": "8e33e2dc27c75d3ab83c3d0cba5b9de23fe5a07b4fa9b4a4202cd94fa846650c",
@@ -372,6 +381,14 @@
       "attempt_id": "85942aa79d624b688841264dae54aced",
       "body_sha256": "0fb13335302d94293b23e6012cc09a4dd3e1348b578cd9d8c018689a10f2631f",
       "text_sha256": "dc574c68affbeee4f1b2081266fd609a5f7585569c4e365fbf4c4816cb0ef96a",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
+      "attempt_id": "87456e789cc64eed83e354048194d584",
+      "body_sha256": "80067f81509fecad7590b22a1fa7a55856a44505f951d211b35075f1be206501",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "review_text_kind": "original extraction",
       "acquisition_scope": "original discovery",
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
@@ -465,6 +482,14 @@
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
     },
     {
+      "attempt_id": "a4b772e402384586a342e56aff861435",
+      "body_sha256": "82fd070e58de73bc71aea3c4f0131550ee1f2d1792190065f1c3ff2e9fa00edb",
+      "text_sha256": "7e134d136488cd845a7dbc825eeaf8bfaf8ba1c708520af898c3e3c67dae0abb",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
       "attempt_id": "a521406947ca44149f05cd23678056c2",
       "body_sha256": "36eccc5359f37f9ad0d62164c98f48429f59876276b1bfce08d4627ade4a3869",
       "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -553,6 +578,14 @@
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
     },
     {
+      "attempt_id": "db91b3054cde4a07bfdee9d4f792b19b",
+      "body_sha256": "884028c845f9658f1125b9db6f176346e257616b3ef0f7a8c386593dfba7ac8d",
+      "text_sha256": "26219116a7edcbdd5be6abccf2c63bf54ebfb747688db406cd426d42d75c8aaf",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
       "attempt_id": "dc8e34f2fb844229b212f55d7255096a",
       "body_sha256": "373548b289c71eeca1038519a12fa66d4d9b0405ffbd354df044a6e28a82578c",
       "text_sha256": "8ece996f5f875976be80ef4fa8450871cf65ee0dbcce63c51140b4d98a7afc19",
@@ -609,9 +642,25 @@
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
     },
     {
+      "attempt_id": "ec345d4cf995491c8421ff081ab5a4b9",
+      "body_sha256": "253bc71e7f09282f08416d979a2f87bca8ea12047729c8f5ed1c4e5b445e1c0c",
+      "text_sha256": "53ce69fcf24d9e6913ee5e7510e00df64ed6ea47487d596850b9abe59a632bed",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
       "attempt_id": "f2283ae275b14a249a0f14cfe470264b",
       "body_sha256": "3019e956c93078993d94ee0bb345f7cb9746cd1477c579bf75c1e17b1f6c8428",
       "text_sha256": "5130780dc81868e10ec336e0cbb7fbbfa9c71d17228b477cf7ac39431a3f272c",
+      "review_text_kind": "original extraction",
+      "acquisition_scope": "original discovery",
+      "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
+    },
+    {
+      "attempt_id": "f9dce43bec9a4aa5af1018fc77a904ae",
+      "body_sha256": "fdd004bcbc153756fce57dd410dba316df08466bb5f373a76ff42d432cf41881",
+      "text_sha256": "9c4c04cd313cd4a09247808d17621a4e337115c499971db5c100e4f6d2ce6bbd",
       "review_text_kind": "original extraction",
       "acquisition_scope": "original discovery",
       "scope": "Exact body/review-text bytes; no renewed factual or legal acceptance."
@@ -932,6 +981,38 @@
       "check_scope": "Historical alternate packet layout: existence/hash checked only; no candidate-fingerprint or source verification asserted here."
     },
     {
+      "candidate_key": "discovery-md:0",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_original_act_and_later_history",
+      "review_packet": "work/research/2026-11-06/maryland-new-jersey-discovery-review/review.json",
+      "review_packet_sha256": "b1785ec3c3b386bc91fce0374981ba2fc4677615ca3549f1944724cfb62b6e1b",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-md:1",
+      "bucket": "reviewed_addition",
+      "disposition": "reviewed_historical_instrument_added",
+      "review_packet": "work/research/2026-11-06/maryland-new-jersey-discovery-review/review.json",
+      "review_packet_sha256": "b1785ec3c3b386bc91fce0374981ba2fc4677615ca3549f1944724cfb62b6e1b",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-md:2",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_primary_instrument_and_vote_date",
+      "review_packet": "work/research/2026-11-06/maryland-new-jersey-discovery-review/review.json",
+      "review_packet_sha256": "b1785ec3c3b386bc91fce0374981ba2fc4677615ca3549f1944724cfb62b6e1b",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-md:3",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_primary_proposal_and_later_action",
+      "review_packet": "work/research/2026-11-06/maryland-new-jersey-discovery-review/review.json",
+      "review_packet_sha256": "b1785ec3c3b386bc91fce0374981ba2fc4677615ca3549f1944724cfb62b6e1b",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
       "candidate_key": "discovery-mn:0",
       "bucket": "reviewed_withheld",
       "disposition": "held_execution_dates_or_final_history",
@@ -1049,6 +1130,22 @@
       "disposition": "held_generated_summary_primary_chronology",
       "review_packet": "work/research/2026-11-06/plains-mountain-discovery-review/review.json",
       "review_packet_sha256": "567876c247c8c3c6084bee34a96f5100698cc18233bcceba75ee3f17642a5af4",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-nj:0",
+      "bucket": "reviewed_addition",
+      "disposition": "reviewed_pending_proposal_added",
+      "review_packet": "work/research/2026-11-06/maryland-new-jersey-discovery-review/review.json",
+      "review_packet_sha256": "b1785ec3c3b386bc91fce0374981ba2fc4677615ca3549f1944724cfb62b6e1b",
+      "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
+    },
+    {
+      "candidate_key": "discovery-nj:1",
+      "bucket": "reviewed_withheld",
+      "disposition": "held_primary_instrument_and_vote_date",
+      "review_packet": "work/research/2026-11-06/maryland-new-jersey-discovery-review/review.json",
+      "review_packet_sha256": "b1785ec3c3b386bc91fce0374981ba2fc4677615ca3549f1944724cfb62b6e1b",
       "check_scope": "Explicit candidate fingerprint and nonempty source-version references checked; substantive rationale not re-reviewed by this byte audit."
     },
     {

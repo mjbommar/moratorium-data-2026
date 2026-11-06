@@ -2,6 +2,8 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
+Talbot County’s signed/enrolled Resolution 329 adds a historical five-calendar-month solar processing pause adopted and effective April 26, 2022. The September 26 endpoint is derived from the original term; subsequent actions remain unverified. East Windsor’s unsigned Ordinance 2026-06 adds a pending data-center proposal; its proposed December 31, 2027 sunset is not an operative endpoint. Four other Maryland/New Jersey candidates remain withheld with specific evidence gaps.
+
 Pequot Lakes adds a city-reported active data-center moratorium from its September 8 staff report identifying Ordinance 26-08 and reporting July 15, 2027 expiry. Adoption/effectiveness and full operative text remain unverified; the agenda date is not enactment.
 
 Sarpy Resolution 2020-039 adds a historical elapsed-term record after visual verification of signatures omitted from text extraction. January 28 adoption remains distinct from stated January 14 start and March 18 latest endpoint; earlier ending actions and later restrictions remain unverified.
@@ -42,18 +44,18 @@ remain unknown; no adoption event, in-force ban or headline-count increase is
 inferred. The public results view displays relationship review separately from
 legal status. All earlier records remain unchanged.
 
-Current totals are 1,309 local instruments (1,075 classified active or extended,
-73 pending, 161 past) and 442 state-policy records (95 classified enacted).
+Current totals are 1,311 local instruments (1,075 classified active or extended,
+74 pending, 162 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1309** |
+| Moratoria in the list | **1311** |
 | Classified active or extended | **1075** |
-| Pending or not yet effective | **73** |
-| Ended (replaced, expired, or rescinded) | **161** |
-| Rows we still want to confirm (`[VERIFY]`) | **682** |
+| Pending or not yet effective | **74** |
+| Ended (replaced, expired, or rescinded) | **162** |
+| Rows we still want to confirm (`[VERIFY]`) | **684** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained

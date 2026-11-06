@@ -3,7 +3,7 @@
 
 Working inventory for Maryland, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**24 instruments** — 18 in force, 4 pending, 2 past.
+**25 instruments** — 18 in force, 4 pending, 3 past.
 
 State policy is tracked separately: **13 actions** (13 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -29,6 +29,7 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 | Ridgely | Town | 2026-08-03 | data center | 🟢 Active |
 | Salisbury | City | Unverified | data center | 🟡 Pending |
 | Somerset County | County | Unverified | data center | 🟡 Pending |
+| Talbot County | County | 2022-04-26 | solar | ⚪ Expired |
 | Talbot County | County | 2026-09-08 | data center | 🟢 Active |
 | Washington County | County | 2026-06-30 | data center | 🟢 Active |
 | Wicomico County | County | 2026-08-04 | data center | 🟢 Active |
@@ -355,6 +356,22 @@ State policy is tracked separately: **13 actions** (13 bills) in [`state_legisla
 - **Affected projects:** —
 - **Detailed status:** Pending as of 2026-09-23; a one-year moratorium on data center siting was recommended to the County Commissioners; as of a July 2026 report the county was still 'looking at the options available' with no ordinance adopted. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
 - **Outcome:** Recommended; outcome not confirmed
+
+### Talbot County
+
+- **Type:** County
+- **Status:** ⚪ Expired
+- **Date enacted:** 2022-04-26
+- **Normalized date:** `2022-04-26` (exact)
+- **Duration:** Five calendar months from April 26, 2022 adoption; September 26, 2022 endpoint derived from original term, not a later-history finding
+- **Current end date:** `2022-09-26`
+- **Sectors:** solar
+- **Moratorium ID:** `md-talbot-county-2022`
+- **Legal basis:** Resolution 329, as enacted and enrolled
+- **What prompted it:** County reviews mitigation and agricultural-land offset requirements for large-scale solar energy systems.
+- **Affected projects:** —
+- **Detailed status:** Historical recorded-term classification: Resolution 329 adopted and effective April 26, 2022 with five-calendar-month term. [VERIFY subsequent extensions, replacement/repeal, present restrictions and coordinates; no current-force renewal]
+- **Outcome:** —
 
 ### Talbot County
 

@@ -3,13 +3,14 @@
 
 Working inventory for New Jersey, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**4 instruments** — 3 in force, 1 pending, 0 past.
+**5 instruments** — 3 in force, 2 pending, 0 past.
 
 State policy is tracked separately: **17 actions** (17 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | Asbury Park | City | 2026-06-10 | data center | 🟢 Active |
+| East Windsor | Township | Unverified | data center | 🟡 Pending |
 | Galloway Township | Township | 2026-07-14 | data center | 🟢 Active |
 | Mullica Township | Township | Unverified | data center | 🟡 Pending |
 | Sayreville | Town | 2026-07-20 | data center | 🟢 Active |
@@ -30,6 +31,22 @@ State policy is tracked separately: **17 actions** (17 bills) in [`state_legisla
 - **What prompted it:** Council concern about AI data center impacts on grid/water; simultaneous call for a statewide moratorium.
 - **Affected projects:** —
 - **Detailed status:** Active as of 2026-09-23. On 2026-06-10 the City Council unanimously adopted Resolution 2026-264, which (a) urges Gov. Sherrill and the legislature to enact a statewide data-center moratorium, and (b) pauses acceptance/processing of any pending or future Asbury Park data-center applications, zoning changes, and site plans while the city rewrites its zoning code. No end date is stated; the pause runs until the rewrite is complete or the resolution is rescinded. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Outcome:** —
+
+### East Windsor
+
+- **Type:** Township
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Proposed sunset December 31, 2027 unless extended; no operative end date accepted
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `nj-east-windsor-undated`
+- **Legal basis:** Draft Ordinance 2026-06
+- **What prompted it:** Township proposes a temporary pause during state and local review of data-center regulation and infrastructure impacts.
+- **Affected projects:** —
+- **Detailed status:** Official draft proposes temporary deletion of specified data-center uses from permitted principal uses in three zoning districts. Source-stage pending proposal only. [VERIFY introduction, final passage, publication, effectiveness, later action, current legal status and coordinates]
 - **Outcome:** —
 
 ### Galloway Township
