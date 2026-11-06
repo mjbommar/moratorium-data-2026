@@ -27,6 +27,8 @@ def main():
         index, review['visual_reviews'])
     if errors:
         raise ValueError(errors)
+    if not all(proof['evidence_verified'] for proof in proofs):
+        raise ValueError('One or more claims have no located text or accepted visual support')
     entries = [json.loads(line) for line in
                (ROOT / 'work/sources/OH/manifest.jsonl').read_text().splitlines()]
     for source in review['sources']:

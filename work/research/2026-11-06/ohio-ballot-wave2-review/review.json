@@ -1,0 +1,984 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "scope": "Four-case scoped primary review. Full 13-page Grove City proposal read in native text; claimed acceptance limited to listed excerpts/visual values. No canonical publication, certified result or operative restriction accepted.",
+  "sources": [
+    {
+      "source_document_id": "oh2-review-grove-notice",
+      "url": "https://vote.franklincountyohio.gov/getmedia/a31afa4a-59cd-403e-a8b2-b817818c8ee7/Notice-of-Election-Grove-City-Community-Consent-Amendment",
+      "body_sha256": "3e87eb461fb141da496ac8f8ba8c770d360eb8761949409116e571815b513773",
+      "text_sha256": "9e37a10bec2da4c37303e856b7b2a6c7221c8ae7e62397cd40fd447f8e64df51",
+      "retrieved_at": "2026-11-05T17:11:53.295634+00:00",
+      "attempt_id": "b88b5bc26b274882bd150ae321c75f1e"
+    },
+    {
+      "source_document_id": "oh2-review-grove-certified-questions",
+      "url": "https://vote.franklincountyohio.gov/getmedia/4001b052-1b90-4f73-b030-2d981e6ec8fa/2026-General-Certified-Questions-and-Issues",
+      "body_sha256": "5ae35980da9324f63da4b215e278541da7b85b4cc127fd35978096be6bddf234",
+      "text_sha256": "c6d4839382b11fcd624ee601fde212887375257f931e9c91ed4e06aceafd31f2",
+      "retrieved_at": "2026-11-05T17:12:29.873899+00:00",
+      "attempt_id": "796b9f8711544d6884be20d5e0ce12af"
+    },
+    {
+      "source_document_id": "oh2-review-grove-proposal",
+      "url": "https://vote.franklincountyohio.gov/getmedia/3e546971-0f61-4a3c-af3f-40e141788ad2/28-ORD-C-37-26-Exhibit-A-Full-Text",
+      "body_sha256": "8bbe03f439cfa8cebc3d621730805d7ea4d58f0c3910addf2c7e965fbd47d30f",
+      "text_sha256": "cd5e05151f34912c949180777c2541090e64ac2d18e64ae36a90e9b8d3a4d881",
+      "retrieved_at": "2026-11-06T06:53:35.546933+00:00",
+      "attempt_id": "0f5f7bc0eafd424ca356d2c624291553"
+    },
+    {
+      "source_document_id": "oh2-review-grove-result",
+      "url": "https://vote.franklincountyohio.gov/getmedia/7b784f15-62ce-4f9d-93ba-bed82b23e779/Franklin-County-Only-Group-Detail",
+      "body_sha256": "b3f74e41eb7bba4ad98f68ac78e4c5088a68c723fe84275e991038eb8ed9b6f6",
+      "text_sha256": "0c95358faf614be5ac4e83ff17f3cb8f22d73810b6c5155064fc2cc97387122f",
+      "retrieved_at": "2026-11-06T06:54:57.691914+00:00",
+      "attempt_id": "75331105657c461f89328bc2da411b76"
+    },
+    {
+      "source_document_id": "oh2-review-grove-city-faq",
+      "url": "https://www.grovecityohio.gov/750/7541/Community-Consent-Amendment-Information",
+      "body_sha256": "ef1f140d607add0b58fef29af96244cd1a8eaee670e02f21dd1bad54ed4da883",
+      "text_sha256": "d970b4a7728fd668c2abbae940552a6eac68f39d137d24470425c4301a52ee1b",
+      "retrieved_at": "2026-11-06T06:51:12.449564+00:00",
+      "attempt_id": "05d756ee59c740d1b27b78e7c89e4318"
+    },
+    {
+      "source_document_id": "oh2-review-hubbard-result",
+      "url": "https://boe.co.trumbull.oh.gov/pdfs/Election%20Summary.pdf",
+      "body_sha256": "a1c5847570e2ba3a4de4eeb813c18ad8bdccb721e788f74a3e3fe38a7a044383",
+      "text_sha256": "e42b0b90ababc2c7df5fa5752bebd9054cee08be4c6bfda1f67ab0fc5d78be95",
+      "retrieved_at": "2026-11-06T06:54:57.541506+00:00",
+      "attempt_id": "26a5bb5678924b4bbbd55a3fb402744f"
+    },
+    {
+      "source_document_id": "oh2-review-hubbard-issues",
+      "url": "https://boe.co.trumbull.oh.gov/pdfs/Questions%20and%20Issues%20Running%20List%2011-3-26.pdf",
+      "body_sha256": "15222c2bfa532da0d2208245baf5e6b285daac7872a69348b7cc1ab3a64388de",
+      "text_sha256": "d80fa41d46f41ff25b6f764320c68380265c111abc064016c1e428ab75611c80",
+      "retrieved_at": "2026-11-06T06:51:12.928872+00:00",
+      "attempt_id": "0c0a7666aad1426eb8cb8b5aad0d17a7"
+    },
+    {
+      "source_document_id": "oh2-review-hubbard-petitions",
+      "url": "https://cityofhubbard-oh.gov/data-center-petitions/",
+      "body_sha256": "5ecda3b379c7bd31358a92f6895a8486440117d609c9599b4343895eb8c3eea8",
+      "text_sha256": "ef41ed2fc5a09c7cb18f81ed63f87cbe5d9f82bf5636081102411479a51f0ac1",
+      "retrieved_at": "2026-11-06T06:51:12.436760+00:00",
+      "attempt_id": "a4acc17befab4c01934df123080ba230"
+    },
+    {
+      "source_document_id": "oh2-review-adams-results",
+      "url": "https://www.boe.ohio.gov/adams/c/elecres/20261103results.pdf",
+      "body_sha256": "31fc6b83465f0af7c26f1b4d0d8c90401dea38b5f2c3acfcd6c2e8ee78fc2a4c",
+      "text_sha256": "39f8cdb5069de69885806297838688b581a0428a568fde73e74dcb94ab9bbe72",
+      "retrieved_at": "2026-11-05T17:11:48.381418+00:00",
+      "attempt_id": "65ce9a8cee1a41af9f0063450a9e21f4"
+    },
+    {
+      "source_document_id": "oh2-review-huron-results",
+      "url": "https://www.huron.boe.ohio.gov/wp-content/uploads/Huron-County-Unofficial-Canvass-11-3-2026.pdf",
+      "body_sha256": "f78deb6546422b620045798d27050153d4ffa148a9da2d88a399a2a9d572252b",
+      "text_sha256": "a34e57016b66dc8cc307ee01af54462445d7bca44c94e585c01a6adcd95b2984",
+      "retrieved_at": "2026-11-05T17:11:49.991020+00:00",
+      "attempt_id": "67ea8beff01a487ab5c4234c3745aef1"
+    },
+    {
+      "source_document_id": "oh2-review-huron-filed-issues",
+      "url": "https://www.huron.boe.ohio.gov/wp-content/uploads/Issue-listing-11.3.2026-with-millage-9-1-2026.pdf",
+      "body_sha256": "efbc26500ce71f00430f418cbd1a25a4c3f55958bb065b73fc053d8ac15079fa",
+      "text_sha256": "8987b669df39b84a24575ce983eeb6bcf977abfb1b3f8967fa20e906b9b9a670",
+      "retrieved_at": "2026-11-06T06:49:45.845276+00:00",
+      "attempt_id": "fee8e0a2ca21432a97a16fa2b1b8651c"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ohio-wave2-review-01",
+      "source_document_id": "oh2-review-grove-notice",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "official_notice_question",
+      "value": {
+        "electorate": "City of Grove City",
+        "election_date": "2026-11-03",
+        "proposal": "Community Consent Amendment",
+        "notice_description": "Notice is hereby given that in pursuance of a Resolution of the City Council of City of Grove City of Grove City, Ohio, passed on\n\nthe 3rd day of September, 2026, there will be submitted to a vote of the people of City of Grove City at the General Election to be held\n\nat the regular places of voting on Tuesday, the 3rd day of November, 2026 the question of:\n\nCommunity Consent Amendment\n\nAmends the city charter to include a new article, Article XI, to establish a mandatory public referendum process as a condition of\n\napproval for any proposed development, qualifiable business expansion, or transfer of property ownership that meets or exceeds one\n\nof these following thresholds: occupies 50 or more contiguous acres, draws or is designed to draw more than 20 megawatts of\n\nelectrical power at peak capacity, or consumes or is projected to consume more than 500,000 gallons of water per day; and establishes\n\nenforceable community impact standards for any approved facility.\n\nShall the charter amendment, as proposed by initiative, be adopted?",
+        "placement_source_term": "as proposed by initiative",
+        "notice_reported_referral_date": "2026-09-03",
+        "scope": "Official notice text, not independently authenticated exact printed ballot or adopted current charter. Notice calls new Article XI; linked full proposal retains Article [X] placeholders."
+      },
+      "quote": "Notice is hereby given that in pursuance of a Resolution of the City Council of City of Grove City of Grove City, Ohio, passed on\n\nthe 3rd day of September, 2026, there will be submitted to a vote of the people of City of Grove City at the General Election to be held\n\nat the regular places of voting on Tuesday, the 3rd day of November, 2026 the question of:\n\nCommunity Consent Amendment\n\nAmends the city charter to include a new article, Article XI, to establish a mandatory public referendum process as a condition of\n\napproval for any proposed development, qualifiable business expansion, or transfer of property ownership that meets or exceeds one\n\nof these following thresholds: occupies 50 or more contiguous acres, draws or is designed to draw more than 20 megawatts of\n\nelectrical power at peak capacity, or consumes or is projected to consume more than 500,000 gallons of water per day; and establishes\n\nenforceable community impact standards for any approved facility.\n\nShall the charter amendment, as proposed by initiative, be adopted?",
+      "span": "utf8-text-codepoints:109:1157"
+    },
+    {
+      "claim_id": "ohio-wave2-review-02",
+      "source_document_id": "oh2-review-grove-certified-questions",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "official_listed_question",
+      "value": {
+        "designation": "28",
+        "entity": "Grove City",
+        "source_type": "Proposed Charter Amendment (by petition)",
+        "scope": "Certified Questions and Issues list is qualification/contest evidence, not a certified result or signed adopted charter."
+      },
+      "quote": "#28 Grove City \u2013 \u2013 Proposed Charter\n\n\nAmendment (by petition)",
+      "span": "utf8-text-codepoints:5051:5112"
+    },
+    {
+      "claim_id": "ohio-wave2-review-03",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "proposal_sector_scope",
+      "value": {
+        "uses": [
+          "data centers",
+          "server farms",
+          "power generation facilities",
+          "large-scale warehousing and logistics"
+        ],
+        "scope": "Facially impact-threshold-based proposal, not limited to data centers."
+      },
+      "quote": "The people of Grove City find that large-scale heavy industrial development, including but not limited to data\ncenters, server farms, power generation facilities, and large-scale warehousing and logistics facilities, presents\nunique and potentially irreversible impacts on the residential character, environment, infrastructure, water\nsupply, noise levels, light pollution, vibration, and quality of life of this City.",
+      "span": "utf8-text-codepoints:1321:1739"
+    },
+    {
+      "claim_id": "ohio-wave2-review-04",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "proposal_thresholds_and_aggregation",
+      "value": {
+        "tests": [
+          {
+            "metric": "project footprint",
+            "comparison": ">=",
+            "value": 50,
+            "unit": "contiguous acres"
+          },
+          {
+            "metric": "peak electrical power draw or designed draw",
+            "comparison": ">",
+            "value": 20,
+            "unit": "MW"
+          },
+          {
+            "metric": "daily water consumption or projected consumption",
+            "comparison": ">",
+            "value": 500000,
+            "unit": "gallons per day"
+          }
+        ],
+        "logic": "One or more alternative tests",
+        "aggregation": "Common ownership/development agreement/operational purpose; contiguous or separated by road/utility corridor/right-of-way; all phases; same/related-entity development within one mile of a prior approval proposed within five years; footprint includes anticipated township annexation land",
+        "scope": "Proposed Section [X].02(A), not an operative threshold or annexation finding."
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "ohio-wave2-review-05",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "proposed_internal_reorganization_exception",
+      "value": {
+        "exception": "Internal reorganizations/mergers/restructurings with same ultimate beneficial ownership and notice to Clerk within 30 days confirming unchanged owner",
+        "scope": "Limited proposed definition exception, not a general ownership-transfer exemption or current-law determination."
+      },
+      "quote": "A transfer of Operational Control does not include internal reorganizations, mergers, or\nrestructurings among entities that share the same ultimate beneficial ownership, provided that the identity of\nthe ultimate beneficial owner does not change and the Applicant provides written notice to the City Clerk within\n30 days of the reorganization describing the transaction and confirming that ultimate beneficial ownership is\nunchanged.",
+      "span": "utf8-text-codepoints:7217:7650"
+    },
+    {
+      "claim_id": "ohio-wave2-review-06",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "proposed_community_impact_standards",
+      "value": {
+        "noise_day_dba": 55,
+        "noise_day_period": "7 a.m.\u201310 p.m.",
+        "noise_night_dba": 45,
+        "noise_night_period": "10 p.m.\u20137 a.m.",
+        "noise_point": "Nearest residential property line",
+        "infrasound_dbg": 75,
+        "infrasound_point": "Nearest residential property line or structure",
+        "tonal_components_below_20hz": "Any measurable level above ambient baseline",
+        "light_day_foot_candle": 1.0,
+        "light_night_foot_candle": 0.1,
+        "light_point": "Nearest residential property line",
+        "vibration": "No measurable PPV increase above preconstruction baseline at foundation of nearest residential structure within one mile",
+        "scope": "Proposed instantaneous maxima, not averages; confirmation protocol and operating/measurement requirements remain part of proposal."
+      },
+      "quote": null,
+      "span": "pdf-page:4"
+    },
+    {
+      "claim_id": "ohio-wave2-review-07",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "proposed_measurement_confirmation",
+      "value": {
+        "initial_exceedance": "Not automatically a violation; at least three additional comparable-location/condition readings within seven days",
+        "confirmation": "Two or more of three exceed; first-reading date used for fines",
+        "pattern": "Three or more initial exceedances within any 12 months itself a violation even without confirmation",
+        "dispute": "Third independent firm by agreement or Franklin Common Pleas Court, binding measurement within 14 days",
+        "scope": "Proposed verification machinery; no determination of enforceability or observed violation."
+      },
+      "quote": "(G) Measurement Verification Protocol - All standards in this Section are instantaneous maximums, not\n averages. However, a single measurement exceeding a standard shall not automatically constitute a violation.\n The following protocol applies:\n (1) Initial Exceedance - The independent firm shall document the exceedance in writing and immediately\n notify the City Administrator. Within 7 days of the initial exceedance, the firm shall conduct a minimum of three\n additional measurements at the same location under comparable operating conditions.\n (2) Confirmation - If two or more of the three additional measurements also exceed the standard, a violation\n shall be deemed confirmed and referred to the City Law Director for enforcement action. The confirmed\nexceedance date shall be the date of the first measurement, not the confirmation date, for purposes of\ncalculating fines.\n (3) No Confirmation - If fewer than two of the three additional measurements exceed the standard, no\nviolation shall be found. The initial exceedance and all follow-up measurements shall be filed with the City\nClerk as public records. A pattern of repeated unconfirmed exceedances - defined as three or more initial\nexceedances within any 12-month period - shall itself constitute a violation regardless of confirmation status.\n(4) Equipment Verification - All measurement equipment shall be calibrated and certified before each\nmeasurement session. Calibration records shall be included in all reports filed with the City Clerk. If equipment\nmalfunction is documented, the measurement shall be voided and repeated within 7 days.\n(5) Applicant Notice and Dispute - The Applicant shall be notified of any initial exceedance within 24 hours\nand shall have the right to have their own independent firm present for confirmation measurements, at their\nown expense. The Applicant's firm may not interfere with or direct the City's independent firm's measurement\nprocess. If the Applicant's firm produces conflicting results, a third independent firm selected by mutual\nagreement - or if no agreement, by the Franklin County Common Pleas Court - shall conduct a binding\nmeasurement within 14 days.",
+      "span": "utf8-text-codepoints:13090:15265"
+    },
+    {
+      "claim_id": "ohio-wave2-review-08",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "proposed_project_approval_condition",
+      "value": {
+        "condition": "Applicant compliance, majority approval in a future project referendum, and required election procedures before City approvals",
+        "scope": "Future individual development approvals; not the November charter-amendment passage rule."
+      },
+      "quote": "No City approval, including but not limited to any rezoning, conditional use permit, planned unit development\n approval, annexation approval, or building permit, shall be granted for any Heavy Industrial Development\n unless and until:\n (A) The Applicant has complied with all requirements of this Article; and\n (B) A majority of voters casting ballots in the Public Referendum have voted to approve the proposed\ndevelopment; and\n (C) The Public Referendum was conducted in accordance with the procedures set forth in this Article.\n No City Council action, administrative decision, or waiver by any City official shall exempt a Heavy Industrial\n Development from the requirements of this Article. Any purported approval granted in violation of this Article\n shall be void and of no legal effect.",
+      "span": "utf8-text-codepoints:18631:19425"
+    },
+    {
+      "claim_id": "ohio-wave2-review-09",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "proposed_township_advisory_fallback",
+      "value": {
+        "agreement_request": "Within 30 days of complete application if project includes/borders/affects adjacent township territory",
+        "fallback": "After 180 days without executed agreement, request a nonbinding township question on same ballot as city project referendum",
+        "effect": "Adverse advisory result requires written Council consideration; not binding on City",
+        "scope": "Proposed future procedure, not proof an actual township measure exists or a 180-day moratorium term."
+      },
+      "quote": "(D) Adjacent Township Protections -\n(1) Intergovernmental Agreement Obligation - Where a proposed Heavy Industrial Development has a\ntotal project footprint that includes, borders, or is reasonably anticipated to affect unincorporated territory in an\nadjacent township, the City shall, within 30 days of a complete referendum application being filed, formally\nrequest negotiation of an intergovernmental agreement with the relevant township board of trustees pursuant\nto Ohio Revised Code Chapter 167. Such agreement shall provide, at minimum, for coordinated or joint\nreferendum processes giving affected township residents a meaningful voice in the approval decision. The City\nshall negotiate in good faith and shall report the status of negotiations to City Council at each regular Council\nmeeting during the negotiation period.\n(2) Advisory Vote Fallback - If no intergovernmental agreement is executed within 180 days of the formal\nrequest, the advisory vote process shall automatically apply. The City shall formally request that the relevant\ntownship board of trustees place a non-binding advisory question before township residents on the same ballot\nas the City referendum. The advisory ballot question shall mirror the City referendum question in plain\nlanguage. Advisory results shall be publicly reported simultaneously with City referendum results and shall be\nentered into the permanent public record.\n(3) Council Consideration of Advisory Results - While an advisory township vote is not binding on the City,\na majority advisory vote against the development shall be formally considered by City Council before any post\u00ad\nreferendum permitting decisions are made. Council shall make written findings responding to the advisory vote\nresult as part of any subsequent approval action.\n(4) Acreage Aggregation Across Jurisdictions - For purposes of the 50-acre threshold in Section\n[X].02(A}, all acreage that is part of the total project footprint shall be aggregated regardless of whether it lies\nwithin City limits at the time of application, including acreage in adjacent townships proposed for or reasonably\nanticipated to be subject to annexation in connection with the development.",
+      "span": "utf8-text-codepoints:19427:21624"
+    },
+    {
+      "claim_id": "ohio-wave2-review-10",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "future_project_vote_rule_and_effect",
+      "value": {
+        "future_ballot": "Approve named development described in application",
+        "electorate": "Registered voters residing in Grove City",
+        "rule": "Majority of votes cast (50% + 1)",
+        "approval": "Normal zoning/permitting consideration may proceed; no guaranteed permit",
+        "failure": "No City approval; same/Substantially Similar development cannot reapply for 24 months",
+        "scope": "Future project votes only; not actual Issue 28 ballot wording, amendment duration or its statutory passage denominator."
+      },
+      "quote": "(B) The ballot question shall be stated in plain language, substantially as follows:\n\"Shall the City of Grove City approve the [Project Name], a [facility type] proposed by [Applicant] to be located\nat [address/location], consisting of approximately [acreage] acres, as more fully described in the Applicant's\napplication on file with the City Clerk?\"\n\f \u25a1 YES - I approve this development.\n \u25a1 NO - I do not approve this development.\n  (C) Only registered voters residing within the City of Grove City shall be eligible to vote.\n  (D) A majority of votes cast (50% + 1) shall be required for approval.\n  (E) All costs of the election shall be paid from the Referendum Fund established under Section [X].06.\n  SECTION [X].09 - EFFECT OF VOTE\n  (A) If the referendum passes - The City may proceed to consider the Applicant's development application\n through normal zoning and permitting processes. A referendum approval does not guarantee any City permit or\n approval; all other applicable City codes and standards remain in full force.\n (8) If the referendum fails - No City approval of any kind shall be granted for the proposed development.\n The Applicant may not reapply for the same or a Substantially Similar Development for 24 months from the\n date of the election.",
+      "span": "utf8-text-codepoints:26426:27695"
+    },
+    {
+      "claim_id": "ohio-wave2-review-11",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "proposed_material_change_tests",
+      "value": {
+        "tests": [
+          "Cumulative acreage increase more than 10% from Baseline",
+          "Cumulative projected peak electrical demand increase more than 10%",
+          "Cumulative projected daily water consumption increase more than 10%",
+          "Primary use/facility-type change",
+          "Primary facility footprint relocation more than 500 feet",
+          "Ownership/operational control transfer to different ultimate beneficial owner"
+        ],
+        "scope": "Full proposed text uses strictly more than 10%; compare separately reviewed city-summary claim. Do not infer operative boundary."
+      },
+      "quote": "(D) Materiality Thresholds - A change shall be deemed material - requiring a new referendum - if the\n cumulative total of all modifications since the Baseline meets any of the following:\n      \u2022 Increases total project acreage by more than 10% from Baseline;\n      \u2022 Increases projected peak electrical demand by more than 10% from Baseline;\n      \u2022 Increases projected daily water consumption by more than 10% from Baseline;\n      \u2022 Changes the primary use or facility type from what was described at referendum;\n      \u2022 Relocates the primary facility footprint more than 500 feet from the Baseline location; or\n      \u2022 Transfers ownership or Operational Control to a different ultimate beneficial owner, as defined in\n          Section [X].02(J).",
+      "span": "utf8-text-codepoints:29208:29956"
+    },
+    {
+      "claim_id": "ohio-wave2-review-12",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "proposed_existing_approval_and_failed_expansion",
+      "value": {
+        "continued_operations": "At/below most recently approved Baseline, subject to filing new referendum application within 30 days; no expansion",
+        "failed_expansion": "Existing approved operation may continue; only expansion rejected; same/Substantially Similar material change reapplication barred 24 months",
+        "scope": "Proposed conditions only; not cancellation of an existing facility or amendment expiry."
+      },
+      "quote": "(F) Continued Operations During Material Change Referendum - If the Law Director issues a Materiality\nDetermination requiring a new referendum, the Applicant may continue to operate the facility at or below the\nmost recently approved Baseline levels while the new referendum process is conducted. The Applicant shall\nnot expand, increase capacity, or exceed Baseline operational levels during this period. Continued operation is\nconditioned on the Applicant filing the new referendum application within 30 days of the Materiality\nDetermination. Failure to file within 30 days shall suspend all City approvals until the new referendum\napplication is filed and deemed complete.\n(G) Effect of Failed Material Change Referendum - If a material change referendum fails, the Applicant\nshall remain bound by the original Baseline or the last previously approved Baseline, whichever is more recent.\nThe Applicant may continue operations at those approved levels. The failed referendum shall be treated as a\nrejection of the proposed expansion only and shall not affect the validity of the underlying approval. The\n\fApplicant may not reapply for the same or a Substantially Similar material change for 24 months from the date\nof the failed election.",
+      "span": "utf8-text-codepoints:30523:31763"
+    },
+    {
+      "claim_id": "ohio-wave2-review-13",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "proposed_registration_window",
+      "value": {
+        "window_days": 180,
+        "anchor": "Article effective date, unresolved",
+        "eligible": "Operating at/above a threshold on effective date",
+        "protection": "Current operations only; not permanent exemption and no expansion authorization; failure to file forfeits protection",
+        "scope": "Registration deadline, not moratorium duration or an accepted operative date."
+      },
+      "quote": "(8) Registration Requirement; Grandfathered Status - Any facility operating at or above one or more\nthresholds of Section [X].02(A) on the effective date of this Article may obtain grandfathered status by\nsubmitting a Baseline Declaration to the City Clerk within 180 days of this Article's effective date.\nGrandfathered status protects the facility from the referendum requirement for its current operations only. It is\nnot a permanent exemption and does not authorize any expansion beyond the declared Baseline. A facility that\ndoes not file within the 180-day window forfeits any claim to grandfathered status and shall be subject to all\nrequirements of this Article with respect to its ongoing operations and any future City approvals.",
+      "span": "utf8-text-codepoints:46278:47017"
+    },
+    {
+      "claim_id": "ohio-wave2-review-14",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "proposed_reporting_despite_grandfathering",
+      "value": {
+        "quarterly_reports": "Required for all facilities operating at/above threshold from first full calendar quarter after Article effectiveness, regardless of registration",
+        "protection": "Referendum protection only; no reduced reporting/compliance/enforcement obligations",
+        "scope": "Proposed Section [X].19(D), not established current compliance duty."
+      },
+      "quote": "Regardless of whether a Baseline Declaration is filed, any facility operating at or above one or more thresholds\nof Section [X].02(A) on the effective date of this Article shall be required to submit Quarterly Operations\nReports under Section [X].11 beginning with the first full calendar quarter after this Article's effective date.\nQuarterly reporting is an obligation of operation at threshold levels and is not contingent on registration.\nGrandfathered status under this Section provides protection from the referendum requirement only; it does not\nalter or reduce any reporting, compliance, or enforcement obligation under this Article.",
+      "span": "utf8-text-codepoints:48676:49317"
+    },
+    {
+      "claim_id": "ohio-wave2-review-15",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "proposed_existing_facility_baseline_measurement",
+      "value": {
+        "window": "Within 90 days after close of 180-day registration window",
+        "funding": "Registered facility pays for City-roster firm measurement",
+        "consequence": "Failure to fund/facilitate within window violates Article and forfeits status",
+        "scope": "Two anchored procedural windows, not finite moratorium term. Actual Article effective date remains unknown."
+      },
+      "quote": "Because grandfathered facilities are already operational at the time this Article takes effect, no pre-construction\n ambient baseline measurements exist for purposes of the Community Impact Standards of Section [X).03.\n Within 90 days of the close of the 180-day registration window, every facility that has filed a Baseline\n Declaration shall fund and facilitate a current ambient baseline measurement conducted by a firm selected by\n the City from the Approved Measurement Roster under Section [X).07. Measurements shall be taken at the\n facility's boundary and at the nearest occupied residential properties, in accordance with the measurement\nprotocols of Section [X).03. The results of those measurements shall constitute the facility's permanent\n Community Impact Standards compliance reference standard in place of a pre-construction baseline. The cost\nof the measurement shall be borne entirely by the facility. Failure to cooperate with or fund the measurement\nwithin the 90-day window shall constitute a violation of this Article and shall result in forfeiture of grandfathered\nstatus.",
+      "span": "utf8-text-codepoints:49320:50415"
+    },
+    {
+      "claim_id": "ohio-wave2-review-16",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "proposed_standard_adjustment_clause",
+      "value": {
+        "clause": "Council may tighten standards alone; voter approval required to increase allowable limits",
+        "scope": "Section [X].03(J) must be read alongside general Article amendment restrictions; relationship not legally adjudicated here."
+      },
+      "quote": "(J) Amendment of Standards - The specific numeric standards set forth in this Section may be updated by\nCity Council ordinance to reflect advances in measurement science, changes in applicable state or federal\nstandards, or recommendations of the City's independent technical advisors, provided that no amendment\nshall increase any allowable limit without approval of the voters at a general election. Council may tighten\nstandards by ordinance alone.",
+      "span": "utf8-text-codepoints:16481:16932"
+    },
+    {
+      "claim_id": "ohio-wave2-review-17",
+      "source_document_id": "oh2-review-grove-proposal",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "proposed_article_amendment_clause",
+      "value": {
+        "clause": "Only Grove City voters at general election may amend/repeal Article; Council no authority to suspend/waive/modify by ordinance or resolution",
+        "scope": "Preserve alongside Section [X].03(J); no conclusion that proposal is invalid or actual law."
+      },
+      "quote": "SECTION [X].17-AMENDMENT\nThis Article may only be amended or repealed by a vote of the people of Grove City at a general election. City\nCouncil shall have no authority to suspend, waive, or modify any provision of this Article by ordinance or\nresolution.",
+      "span": "utf8-text-codepoints:44991:45245"
+    },
+    {
+      "claim_id": "ohio-wave2-review-18",
+      "source_document_id": "oh2-review-grove-city-faq",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "city_summary_expansion_boundary",
+      "value": {
+        "city_summary": "10 percent or more increase in acreage, power demand or water use",
+        "scope": "Fresh city FAQ remains in pre-election future tense; not an enacted-text or post-election implementation source."
+      },
+      "quote": "The amendment would also require voter approval for certain expansions of existing properties that increase acreage, power demand or water use by 10 percent or more.",
+      "span": "utf8-text-codepoints:569:734"
+    },
+    {
+      "claim_id": "ohio-wave2-review-19",
+      "source_document_id": "oh2-review-grove-result",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-d2cbbd6c02d8041a"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 11317,
+        "no_votes": 9411,
+        "source_yes_percent": 54.6,
+        "overvotes": 2,
+        "undervotes": 638,
+        "precincts_reporting": 30,
+        "precincts_total": 30,
+        "report_label": "UNOFFICIAL RESULTS",
+        "coverage_label": "Franklin County Only",
+        "source_clock": "11/04/2026 12:13 PM; timezone unspecified",
+        "scope": "Named Issue 28 row only; no assumed ballots cast, formal outcome or cross-county reconciliation."
+      },
+      "quote": null,
+      "span": "pdf-page:14"
+    },
+    {
+      "claim_id": "ohio-wave2-review-20",
+      "source_document_id": "oh2-review-hubbard-issues",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-9a7633abc81869aa"
+      },
+      "predicate": "official_listed_issue_wording",
+      "value": {
+        "entity": "Hubbard City",
+        "type": "Proposed Ordinance",
+        "wording": "Shall the Ordinance to approve or reject a ban on data centers within the City limits, be passed?",
+        "scope": "County issue-list wording, not recovered complete ordinance/final printed ballot; nearby Hubbard Township park levy is a distinct contest."
+      },
+      "quote": "HUBBARD CITY (All Hubbard City)\n\nISSUE: Proposed Ordinance\n\nPURPOSE: Shall the Ordinance to approve or reject a ban on data centers within the City limits, be\n\npassed?",
+      "span": "utf8-text-codepoints:1722:1889"
+    },
+    {
+      "claim_id": "ohio-wave2-review-21",
+      "source_document_id": "oh2-review-hubbard-petitions",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-9a7633abc81869aa"
+      },
+      "predicate": "city_petition_notice",
+      "value": {
+        "route": "Residents initiated ballot initiative to ban data centers",
+        "custody": "City Auditor holds petitions; public inspection offered",
+        "scheduled_certification": "2026-07-16",
+        "scope": "July 6 city notice announces intended certification; does not prove actual BOE qualification, final ordinance content or post-election effectiveness."
+      },
+      "quote": "FOR IMMEDIATE RELEASE\n\nResidents of the Hubbard community have initiated a November 2026 ballot initiative to ban data centers. As required by Ohio Revised Code, the City Auditor is in possession of those petitions. The public is welcome to inspect the petitions in the lobby of the Hubbard Municipal Building for ten days. Copies of said petitions are presented. Anyone wishing to view the original petitions must schedule an appointment with the Auditor\u2019s Office (M-F 8 AM \u2013 4 PM) by calling 330-534-1067. The petitions will be certified to the Trumbull County Board of Elections on July 16, 2026.",
+      "span": "utf8-text-codepoints:0:599"
+    },
+    {
+      "claim_id": "ohio-wave2-review-22",
+      "source_document_id": "oh2-review-hubbard-result",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-9a7633abc81869aa"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 2622,
+        "no_votes": 802,
+        "source_yes_label": "APPROVAL OF THE DATA CENTER BAN",
+        "source_no_label": "REJECTION OF THE DATA CENTER BAN",
+        "source_yes_percent": 76.58,
+        "source_total_votes_cast": 3424,
+        "report_label": "UNOFFICIAL RESULTS",
+        "source_clock": "11/04/2026 06:37 AM; timezone unspecified",
+        "scope": "Hubbard City proposed ordinance, not Hubbard Township; affirmative option explicitly approves ban, no operative enactment inferred."
+      },
+      "quote": null,
+      "span": "pdf-page:8"
+    },
+    {
+      "claim_id": "ohio-wave2-review-23",
+      "source_document_id": "oh2-review-hubbard-result",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-9a7633abc81869aa"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total Votes Cast",
+        "count": 3424,
+        "scope": "Hubbard City Proposed Ordinance Data Centers"
+      },
+      "quote": null,
+      "span": "pdf-page:8"
+    },
+    {
+      "claim_id": "ohio-wave2-review-24",
+      "source_document_id": "oh2-review-adams-results",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-7e46ffbc672db401"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 148,
+        "no_votes": 100,
+        "source_yes_label": "For the Zoning Resolution",
+        "source_no_label": "Against the Zoning Resolution",
+        "source_total_votes": 248,
+        "source_times_cast": "255 / 401; 63.59%",
+        "precincts_reporting": 1,
+        "precincts_total": 1,
+        "source_clock": "11/3/2026 11:11:45 PM; timezone unspecified",
+        "scope": "Physical PDF page 11, printed page 9. Exact plan/data-center provisions, meaning of Times Cast slash denominator and restrictive/facilitating polarity unresolved; do not normalize 7 as blank/undervotes."
+      },
+      "quote": null,
+      "span": "pdf-page:11"
+    },
+    {
+      "claim_id": "ohio-wave2-review-25",
+      "source_document_id": "oh2-review-adams-results",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-7e46ffbc672db401"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total Votes",
+        "count": 248,
+        "scope": "Township of Monroe Proposed Zoning Plan"
+      },
+      "quote": null,
+      "span": "pdf-page:11"
+    },
+    {
+      "claim_id": "ohio-wave2-review-26",
+      "source_document_id": "oh2-review-adams-results",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-7e46ffbc672db401"
+      },
+      "predicate": "source_vote_category",
+      "value": {
+        "label": "Unresolved Write-In",
+        "count": 0,
+        "scope": "Township of Monroe Proposed Zoning Plan"
+      },
+      "quote": null,
+      "span": "pdf-page:11"
+    },
+    {
+      "claim_id": "ohio-wave2-review-27",
+      "source_document_id": "oh2-review-adams-results",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-7e46ffbc672db401"
+      },
+      "predicate": "source_reporting_status",
+      "value": {
+        "report_label": "Unofficial Certification of Results",
+        "signed_date": "2026-11-03",
+        "certification_status": "unofficial",
+        "scope": "Signed BOE cover authenticates submitted unofficial results, not a final certified canvass. No final certification date accepted."
+      },
+      "quote": null,
+      "span": "pdf-page:1"
+    },
+    {
+      "claim_id": "ohio-wave2-review-28",
+      "source_document_id": "oh2-review-huron-results",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-5aca48f1c1f85200"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 55,
+        "no_votes": 394,
+        "source_yes_percent": 12.25,
+        "source_total": 449,
+        "registered_voters": 760,
+        "precincts_reporting": 1,
+        "precincts_total": 1,
+        "source_turnout_percent": 59.61,
+        "report_label": "Huron County Unofficial Results",
+        "source_contest_label": "Monroeville Village Data Center Advisory Question",
+        "source_clock": "2026-11-03 22:20:50; timezone unspecified",
+        "scope": "No exact official question or yes polarity accepted. Contest Total 449 is not silently reclassified as ballots; countywide 19947 ballots/35656 registrations/46 precincts are not village counts."
+      },
+      "quote": null,
+      "span": "pdf-page:4"
+    },
+    {
+      "claim_id": "ohio-wave2-review-29",
+      "source_document_id": "oh2-review-huron-results",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-5aca48f1c1f85200"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total",
+        "count": 449,
+        "scope": "Monroeville Village Data Center Advisory Question"
+      },
+      "quote": null,
+      "span": "pdf-page:4"
+    },
+    {
+      "claim_id": "ohio-wave2-review-30",
+      "source_document_id": "oh2-review-huron-filed-issues",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-5aca48f1c1f85200"
+      },
+      "predicate": "official_advisory_classification",
+      "value": {
+        "entity": "Village of Monroeville",
+        "bindingness": "advisory",
+        "electorate": "Monroeville Village",
+        "scope": "Filed-issues list and official return both identify advisory contest; exact question and placement/adoption route remain open."
+      },
+      "quote": "VILLAGE OF MONROEVILLE - ADVISORY\n\nVOTING ON ISSUE: Monroeville Village",
+      "span": "utf8-text-codepoints:3794:3865"
+    }
+  ],
+  "visual_reviews": {
+    "ohio-wave2-review-04": {
+      "claim_id": "ohio-wave2-review-04",
+      "source_document_id": "oh2-review-grove-proposal",
+      "claim_sha256": "486d0b0340307f76b1367efac3576d3f43b6e02d9d4b16e9eaf27c25c4ed4926",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "tests": [
+          {
+            "metric": "project footprint",
+            "comparison": ">=",
+            "value": 50,
+            "unit": "contiguous acres"
+          },
+          {
+            "metric": "peak electrical power draw or designed draw",
+            "comparison": ">",
+            "value": 20,
+            "unit": "MW"
+          },
+          {
+            "metric": "daily water consumption or projected consumption",
+            "comparison": ">",
+            "value": 500000,
+            "unit": "gallons per day"
+          }
+        ],
+        "logic": "One or more alternative tests",
+        "aggregation": "Common ownership/development agreement/operational purpose; contiguous or separated by road/utility corridor/right-of-way; all phases; same/related-entity development within one mile of a prior approval proposed within five years; footprint includes anticipated township annexation land",
+        "scope": "Proposed Section [X].02(A), not an operative threshold or annexation finding."
+      },
+      "source_body_sha256": "8bbe03f439cfa8cebc3d621730805d7ea4d58f0c3910addf2c7e965fbd47d30f",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "76615676d7dde2e98c5f435da5948c98ba2bd0733d9e43f386675f96167b3ab9"
+    },
+    "ohio-wave2-review-06": {
+      "claim_id": "ohio-wave2-review-06",
+      "source_document_id": "oh2-review-grove-proposal",
+      "claim_sha256": "f6b4cb9592a2a3bb9d4dcfad3836491e776913fa87d29ad8d9c17ec6d7ccf70e",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "noise_day_dba": 55,
+        "noise_day_period": "7 a.m.\u201310 p.m.",
+        "noise_night_dba": 45,
+        "noise_night_period": "10 p.m.\u20137 a.m.",
+        "noise_point": "Nearest residential property line",
+        "infrasound_dbg": 75,
+        "infrasound_point": "Nearest residential property line or structure",
+        "tonal_components_below_20hz": "Any measurable level above ambient baseline",
+        "light_day_foot_candle": 1.0,
+        "light_night_foot_candle": 0.1,
+        "light_point": "Nearest residential property line",
+        "vibration": "No measurable PPV increase above preconstruction baseline at foundation of nearest residential structure within one mile",
+        "scope": "Proposed instantaneous maxima, not averages; confirmation protocol and operating/measurement requirements remain part of proposal."
+      },
+      "source_body_sha256": "8bbe03f439cfa8cebc3d621730805d7ea4d58f0c3910addf2c7e965fbd47d30f",
+      "pdf_page": 4,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 4,
+        "dpi": 150
+      },
+      "render_sha256": "a8c62c0addede91b2da2788dba65017c90fa22cc688d5d80d5dad1c75af1b69f"
+    },
+    "ohio-wave2-review-19": {
+      "claim_id": "ohio-wave2-review-19",
+      "source_document_id": "oh2-review-grove-result",
+      "claim_sha256": "6ee914deb7adcbf5d7d2afeae7df22c3de90fdda08d41a219c967a203b767138",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 11317,
+        "no_votes": 9411,
+        "source_yes_percent": 54.6,
+        "overvotes": 2,
+        "undervotes": 638,
+        "precincts_reporting": 30,
+        "precincts_total": 30,
+        "report_label": "UNOFFICIAL RESULTS",
+        "coverage_label": "Franklin County Only",
+        "source_clock": "11/04/2026 12:13 PM; timezone unspecified",
+        "scope": "Named Issue 28 row only; no assumed ballots cast, formal outcome or cross-county reconciliation."
+      },
+      "source_body_sha256": "b3f74e41eb7bba4ad98f68ac78e4c5088a68c723fe84275e991038eb8ed9b6f6",
+      "pdf_page": 14,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 14,
+        "dpi": 150
+      },
+      "render_sha256": "eac9e6a490c43f80c4efe769fd2114a7b8ac295bc33a9593daf3c2cc7845cab3"
+    },
+    "ohio-wave2-review-22": {
+      "claim_id": "ohio-wave2-review-22",
+      "source_document_id": "oh2-review-hubbard-result",
+      "claim_sha256": "d22de057e05928ba21b1812916e5123acef8e297f9404ccdf476cc5486c1a8ba",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 2622,
+        "no_votes": 802,
+        "source_yes_label": "APPROVAL OF THE DATA CENTER BAN",
+        "source_no_label": "REJECTION OF THE DATA CENTER BAN",
+        "source_yes_percent": 76.58,
+        "source_total_votes_cast": 3424,
+        "report_label": "UNOFFICIAL RESULTS",
+        "source_clock": "11/04/2026 06:37 AM; timezone unspecified",
+        "scope": "Hubbard City proposed ordinance, not Hubbard Township; affirmative option explicitly approves ban, no operative enactment inferred."
+      },
+      "source_body_sha256": "a1c5847570e2ba3a4de4eeb813c18ad8bdccb721e788f74a3e3fe38a7a044383",
+      "pdf_page": 8,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 8,
+        "dpi": 150
+      },
+      "render_sha256": "277f8409183cef59e6088a1c9ad5bd7b73c883019b2351b858adcaa1dd634f23"
+    },
+    "ohio-wave2-review-23": {
+      "claim_id": "ohio-wave2-review-23",
+      "source_document_id": "oh2-review-hubbard-result",
+      "claim_sha256": "3cc9c135fd99bd0ba604f3934c4c9f241555b48c526e594d2b81e27934e1823d",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total Votes Cast",
+        "count": 3424,
+        "scope": "Hubbard City Proposed Ordinance Data Centers"
+      },
+      "source_body_sha256": "a1c5847570e2ba3a4de4eeb813c18ad8bdccb721e788f74a3e3fe38a7a044383",
+      "pdf_page": 8,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 8,
+        "dpi": 150
+      },
+      "render_sha256": "277f8409183cef59e6088a1c9ad5bd7b73c883019b2351b858adcaa1dd634f23"
+    },
+    "ohio-wave2-review-24": {
+      "claim_id": "ohio-wave2-review-24",
+      "source_document_id": "oh2-review-adams-results",
+      "claim_sha256": "ce2531a8354a7baf1c1317f0003ec9eef0128befe3b200a7c09609d43e06c3ea",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 148,
+        "no_votes": 100,
+        "source_yes_label": "For the Zoning Resolution",
+        "source_no_label": "Against the Zoning Resolution",
+        "source_total_votes": 248,
+        "source_times_cast": "255 / 401; 63.59%",
+        "precincts_reporting": 1,
+        "precincts_total": 1,
+        "source_clock": "11/3/2026 11:11:45 PM; timezone unspecified",
+        "scope": "Physical PDF page 11, printed page 9. Exact plan/data-center provisions, meaning of Times Cast slash denominator and restrictive/facilitating polarity unresolved; do not normalize 7 as blank/undervotes."
+      },
+      "source_body_sha256": "31fc6b83465f0af7c26f1b4d0d8c90401dea38b5f2c3acfcd6c2e8ee78fc2a4c",
+      "pdf_page": 11,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 11,
+        "dpi": 140
+      },
+      "render_sha256": "6aea1e6c6727ed2fd01249b87da7a7b4f3dfaa3a1ab1378b4db68b284185adae"
+    },
+    "ohio-wave2-review-25": {
+      "claim_id": "ohio-wave2-review-25",
+      "source_document_id": "oh2-review-adams-results",
+      "claim_sha256": "f2e31257a6045579b20d6159663532b3194a93d17eafc1d55a7bca92e7996aea",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total Votes",
+        "count": 248,
+        "scope": "Township of Monroe Proposed Zoning Plan"
+      },
+      "source_body_sha256": "31fc6b83465f0af7c26f1b4d0d8c90401dea38b5f2c3acfcd6c2e8ee78fc2a4c",
+      "pdf_page": 11,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 11,
+        "dpi": 140
+      },
+      "render_sha256": "6aea1e6c6727ed2fd01249b87da7a7b4f3dfaa3a1ab1378b4db68b284185adae"
+    },
+    "ohio-wave2-review-26": {
+      "claim_id": "ohio-wave2-review-26",
+      "source_document_id": "oh2-review-adams-results",
+      "claim_sha256": "cd4a2df9dd45666a913bbb44cf784e2bc0a1cf75b85b593cfa73d1519101386f",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Unresolved Write-In",
+        "count": 0,
+        "scope": "Township of Monroe Proposed Zoning Plan"
+      },
+      "source_body_sha256": "31fc6b83465f0af7c26f1b4d0d8c90401dea38b5f2c3acfcd6c2e8ee78fc2a4c",
+      "pdf_page": 11,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 11,
+        "dpi": 140
+      },
+      "render_sha256": "6aea1e6c6727ed2fd01249b87da7a7b4f3dfaa3a1ab1378b4db68b284185adae"
+    },
+    "ohio-wave2-review-27": {
+      "claim_id": "ohio-wave2-review-27",
+      "source_document_id": "oh2-review-adams-results",
+      "claim_sha256": "f58b34ed442198f1e34857c289ce64e56cbde58bb641e8f38191433348206c15",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "report_label": "Unofficial Certification of Results",
+        "signed_date": "2026-11-03",
+        "certification_status": "unofficial",
+        "scope": "Signed BOE cover authenticates submitted unofficial results, not a final certified canvass. No final certification date accepted."
+      },
+      "source_body_sha256": "31fc6b83465f0af7c26f1b4d0d8c90401dea38b5f2c3acfcd6c2e8ee78fc2a4c",
+      "pdf_page": 1,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 1,
+        "dpi": 140
+      },
+      "render_sha256": "02b7881c6bda6c92be6e5a239a5bd4796f277cd2f5fdfe32f1005a11ba822b60"
+    },
+    "ohio-wave2-review-28": {
+      "claim_id": "ohio-wave2-review-28",
+      "source_document_id": "oh2-review-huron-results",
+      "claim_sha256": "c86567b23c36b5aa127374f4fc70e5642d6025e64f60e069f3d16e5a3e991d53",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 55,
+        "no_votes": 394,
+        "source_yes_percent": 12.25,
+        "source_total": 449,
+        "registered_voters": 760,
+        "precincts_reporting": 1,
+        "precincts_total": 1,
+        "source_turnout_percent": 59.61,
+        "report_label": "Huron County Unofficial Results",
+        "source_contest_label": "Monroeville Village Data Center Advisory Question",
+        "source_clock": "2026-11-03 22:20:50; timezone unspecified",
+        "scope": "No exact official question or yes polarity accepted. Contest Total 449 is not silently reclassified as ballots; countywide 19947 ballots/35656 registrations/46 precincts are not village counts."
+      },
+      "source_body_sha256": "f78deb6546422b620045798d27050153d4ffa148a9da2d88a399a2a9d572252b",
+      "pdf_page": 4,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 4,
+        "dpi": 140
+      },
+      "render_sha256": "381f7fc9fbeaeca0b9f04e29c8d8c831fdc2e121e5235c6fe7d9b2496e9c5fc8"
+    },
+    "ohio-wave2-review-29": {
+      "claim_id": "ohio-wave2-review-29",
+      "source_document_id": "oh2-review-huron-results",
+      "claim_sha256": "10643ecd18e1098b1803579abe315735548e5548e7e867bd0460c7bd5102ff39",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total",
+        "count": 449,
+        "scope": "Monroeville Village Data Center Advisory Question"
+      },
+      "source_body_sha256": "f78deb6546422b620045798d27050153d4ffa148a9da2d88a399a2a9d572252b",
+      "pdf_page": 4,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 4,
+        "dpi": 140
+      },
+      "render_sha256": "381f7fc9fbeaeca0b9f04e29c8d8c831fdc2e121e5235c6fe7d9b2496e9c5fc8"
+    }
+  },
+  "measures": [
+    {
+      "seed_id": "bp-d2cbbd6c02d8041a",
+      "name": "grove",
+      "review_status": "scoped_primary_review_not_published",
+      "canonical_legal_force": "unresolved"
+    },
+    {
+      "seed_id": "bp-9a7633abc81869aa",
+      "name": "hubbard",
+      "review_status": "scoped_primary_review_not_published",
+      "canonical_legal_force": "unresolved"
+    },
+    {
+      "seed_id": "bp-7e46ffbc672db401",
+      "name": "monroe",
+      "review_status": "scoped_primary_review_not_published",
+      "canonical_legal_force": "unresolved"
+    },
+    {
+      "seed_id": "bp-5aca48f1c1f85200",
+      "name": "monroeville",
+      "review_status": "scoped_primary_review_not_published",
+      "canonical_legal_force": "unresolved"
+    }
+  ],
+  "source_version_conflicts": [
+    {
+      "seed_id": "bp-d2cbbd6c02d8041a",
+      "issue": "Fresh city FAQ says expansions 10% or more; full proposal says cumulative increases more than 10%. Notice calls Article XI while full proposal uses Article [X] placeholders. Preserve source versions; operative construction unresolved."
+    }
+  ],
+  "unresolved": [
+    "Final canvass/certification and operative implementation for all four",
+    "Exact final printed ballots and actual qualification/referral instruments where not recovered",
+    "Monroe complete zoning plan, data-center scope and yes polarity",
+    "Monroeville exact question/yes direction and adopted referral",
+    "Hubbard complete ordinance, exceptions and post-vote effect",
+    "Grove City adopted charter/article numbering, city-summary boundary discrepancy and current judicial disposition",
+    "Full domain normalization of all Grove City procedural, enforcement, finance and exemption clauses; native reading is not exhaustive typed model extraction"
+  ]
+}
