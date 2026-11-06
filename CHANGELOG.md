@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Oneida’s August minutes identify Resolution 56-2026 / Ordinance Amendment 02-2026 and twelve months from adoption. Polk Resolution 29-26 instead anchors twelve months to publication, with earlier county-board action conditions. Unsupported fixed-day encodings are cleared; publication, operative intervals and later force remain unresolved.
+
 Town of Janesville minutes identify Ordinance 20260803.2 and unanimous approval of its language, correcting the generic resolution account. Manitowoc’s signed copy confirms an eighteen-month term from publication, with April 28 chair countersignature distinct from April 29 executive approval. Publication, full operative intervals and later force remain unresolved.
 
 La Crosse County and Middleton operative calendar terms replace unsupported 548/365-day encodings, preserving publication/effectiveness anchors and earlier-action conditions. La Crosse’s instrument-specific statutory disclaimer is attributed without an independent legal conclusion. Publication/operative intervals and later force remain unresolved.
@@ -226,7 +228,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1071** |
 | Pending or not yet effective | **67** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **659** |
+| Rows we still want to confirm (`[VERIFY]`) | **661** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

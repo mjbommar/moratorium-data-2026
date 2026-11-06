@@ -442,14 +442,14 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** August 18, 2026 (County Board unanimous voice vote)
 - **Normalized date:** `2026-08-18` (exact)
-- **Duration:** One year
+- **Duration:** 12 months from adoption, unless replaced or extended
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-oneida-county-2026`
-- **Legal basis:** Oneida County Ordinance OA-02-2026 (data center moratorium; per county Planning & Zoning Committee's public hearing document naming "Dilley-Waterhouse-Jones-OA-02-2026")
+- **Legal basis:** Oneida County Resolution #56-2026 / Ordinance Amendment #02-2026, amending Code § 9.57
 - **What prompted it:** County has no existing ordinance addressing data centers; board wants time to educate itself and draft rules before any proposal arrives; no known data center plans exist in the county currently.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; adopted unanimously August 18, 2026, for a one-year period that can be extended if regulation drafting takes longer. Does not apply to the un-zoned areas of Sugar Camp, Monico, and Enterprise, nor to the City of Rhinelander (separate zoning authority).
+- **Detailed status:** August 18 minutes in the September 15 packet record Resolution 56-2026 / Ordinance Amendment 02-2026 passage and twelve months from adoption unless replaced or extended. Instrument identity is clarified without treating the September packet date as adoption. Later actions, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted one-year moratorium on new data center applications, permits, and approvals.
 
 ### Oshkosh
@@ -474,14 +474,14 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** August 18, 2026
 - **Normalized date:** `2026-08-18` (exact)
-- **Duration:** 12 months
+- **Duration:** 12 months from publication, or until board amendment or rescission
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-polk-county-2026`
 - **Legal basis:** Resolution 29-26 (creating Polk County Code Ch. 42-41)
 - **What prompted it:** County lacks a data center ordinance; board wants time to develop zoning standards
 - **Affected projects:** None named; preemptive, applies countywide including 16 named towns
-- **Detailed status:** Active as of 2026-09-23.
+- **Detailed status:** Resolution 29-26 certification records August 18 adoption. The text states twelve months from publication or specified county-board amendment/rescission and effectiveness upon passage/publication. Actual publication date, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** County developing permanent zoning standards during the moratorium term
 
 ### Sauk County
