@@ -1,0 +1,123 @@
+{
+  "state_abbrev": "TN",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "tn-wilson-county-2026",
+      "outcome": "corrected",
+      "confidence": 0.65,
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Six months is not a fixed 180-day duration."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Contemporaneous report states six months, a calendar term."
+        },
+        "legal_basis": {
+          "from": "Wilson County Commission resolution imposing a temporary six-month moratorium on land use, zoning, building, site plan, and conditional use permit applications for data centers and high-density computing facilities (over 250 W/sq ft, including crypto mining and AI processing), and creating a five-person study committee",
+          "to": "Wilson County Commission Resolution 26-7-2 imposing a temporary moratorium on applications for data centers and high-density computing facilities and creating a study committee.",
+          "reason": "County voting results identify the resolution; the underlying text should be obtained to confirm precise scope."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; the data center committee finalized a draft zoning resolution on 2026-09-15 for the Planning and Zoning Committee in October, and an extension may be sought if permanent rules are not adopted before expiry.",
+          "to": "July 20 county voting results identify Resolution 26-7-2 and unanimous voice-vote passage. Contemporaneous news describes six months from July 20; the full underlying adopted text and exact scope remain unverified. Actual operative interval and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://wilsoncountytn.gov/ArchiveCenter/ViewFile/Item/289",
+          "title": "Commission voting results",
+          "publisher": "Wilson County",
+          "document_date": "2026-07-20",
+          "source_type": "minutes",
+          "supports": "Identifies resolution 26-7-2 and vote; original underlying resolution and later actions remain to be checked.",
+          "quote": "26-7-2 Resolution\n\n\nIMPOSING A TEMPORARY MORATORIUM ON THE ACCEPTANCE, PROCESSING & APPROVAL OF\n\nAPPLICATIONS FOR LAND USE, ZONING, BUILDING, SITE PLAN, OR CONDITIONAL USE PERMITS\n\nFOR DATA CENTERS AND HIGH DENSITY COMPUTING FACILITIES AND CREATING A COMMITTEE\n\nTO DO DUE DILIGENCE ON THESE TOPICS.\n\nPassed by unanimous voice vote."
+        },
+        {
+          "url": "https://mainstreetmediatn.com/articles/chronicleofmtjuliet/wilson-county-approves-six-month-data-center-moratorium/",
+          "title": "Wilson County approves six-month data center moratorium",
+          "publisher": "Main Street Media",
+          "document_date": "2026-07-20",
+          "source_type": "news",
+          "supports": "Contemporaneous report describes a six-calendar-month term from July 20; no later action verified.",
+          "quote": "a temporary moratorium (of six months from July 20) on the acceptance, processing and approval of applications"
+        }
+      ],
+      "notes": "This corrects historical instrument and duration only. Present status, actual operative end and later action remain unverified; no current-force confirmation."
+    },
+    {
+      "moratorium_id": "tn-jonesborough-2025",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "changes": {
+        "date_enacted": {
+          "from": "The Board of Mayor and Aldermen adopted Ordinance No. 2025-12 on October 13, 2025, per the Jonesborough Planning Commission packet dated May 19, 2026 (Town Administrator staff report), which states the BMA \"adopted an Ordinance on October 13, 2025.\"",
+          "to": "November 3, 2025: Board of Mayor and Aldermen approved the moratorium on second and final reading; October 13, 2025 was first reading.",
+          "reason": "November 3 meeting minutes identify first reading and record final passage."
+        },
+        "date_enacted_iso": {
+          "from": "2025-10-13",
+          "to": "2025-11-03",
+          "reason": "Final-reading minutes."
+        },
+        "date_enacted_uncertainty": {
+          "from": "unverified",
+          "to": "exact",
+          "reason": "Final-reading minutes identify the meeting date."
+        },
+        "duration_days": {
+          "from": "730",
+          "to": "",
+          "reason": "Two years is a calendar term, not a fixed 730-day duration."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The text states two years."
+        },
+        "current_status": {
+          "from": "Replaced. The Board of Mayor and Aldermen adopted an ordinance amending Municipal Code Title 11, Chapter 5 (Data Processing Centers and Cryptocurrency Mining) on second and final reading at its May 11, 2026 meeting, following first reading March 16, 2026 and a Planning Commission recommendation April 21, 2026. The new ordinance establishes a permitting pathway (buffers, setbacks, noise/water/electrical-grid standards, BMA approval required per application) rather than continuing a blanket ban, effectively superseding Ordinance 2025-12 as of 2026-05-11.",
+          "to": "November 3, 2025 minutes record final-reading approval of the two-year data-processing-center moratorium, identifying October 13 as first reading. May 11, 2026 minutes record final passage of data-center and cryptocurrency zoning amendments but do not reproduce the ordinance, instead stating INSERT ORDINANCE. Repeal/supersession of 2025-12 and its effective date remain unresolved. Legacy replaced classification is provisional, not independently verified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.jonesboroughtn.org/wp-content/uploads/11-3-2025-BMA-Minutes.pdf",
+          "title": "Board of Mayor and Aldermen minutes",
+          "publisher": "Town of Jonesborough",
+          "document_date": "2025-11-03",
+          "source_type": "minutes",
+          "supports": "Full scoped moratorium action identifies October first reading and November final-reading motion duly passed; page extraction order retained.",
+          "quote": "The first item under Old Business was second and final reading of an Ordinance\n\nimposing a temporary moratorium on the establishment of Data Processing Centers for a 2-\n\nyear period within Jonesborough\u2019s corporate limits. The purpose of this moratorium is to allow\n\nsufficient time for the Planning Commission, Board of Mayor and Aldermen, and staff to study\n\nand research the land use compatibility, infrastructure impacts, environmental and health\n\nimpacts, and broader policy considerations associated with Data Processing Centers. The\n\nBMA passed this ordinance on First Reading on October 13, 2025. Mayor Wolfe asked the\n\nAldermen if they had any questions or comments. There being none, Alderman Jenkins made\n\nthe motion to approve Ordinance imposing a temporary moratorium on the establishment of\n\nData Processing Centers for a period of 2 years within Jonesborough\u2019s corporate limits on\n\nPage 6 of 21\n\n\npassed.\n\nBMA\n\n\nMinutes | November 3, 2025\n\nPage 7 of 21\n\n\nSecond and Final Reading. Alderman Countermine seconded the motion and it was duly\n\nBMA Minutes | November 3, 2025\n\nPage 8 of 21"
+        },
+        {
+          "url": "https://www.jonesboroughtn.org/wp-content/uploads/11-3-25-MEETING-AGENDA-FULL.pdf",
+          "title": "Board of Mayor and Aldermen agenda packet",
+          "publisher": "Town of Jonesborough",
+          "document_date": "2025-11-03",
+          "source_type": "agenda",
+          "supports": "Ordinance text specifies two years, subject to extension.",
+          "quote": "A. There is hereby imposed a temporary moratorium for a period of two (2) years on"
+        },
+        {
+          "url": "https://www.jonesboroughtn.org/wp-content/uploads/5-11-2026-BMA-Minutes.pdf",
+          "title": "Board of Mayor and Aldermen minutes",
+          "publisher": "Town of Jonesborough",
+          "document_date": "2026-05-11",
+          "source_type": "minutes",
+          "supports": "Minutes record passage of a zoning amendment; do not explicitly repeal Ordinance 2025-12.",
+          "quote": "Chapter 5 regarding Data Processing Centers and Cryptocurrency Mining, on second and\n\nfinal reading as presented. The motion duly passed."
+        }
+      ],
+      "notes": "The legacy enacted_status value replaced remains in place because no supported replacement status code is available for unresolved force; it must not be treated as verified. Obtain signed ordinances and later actions."
+    }
+  ],
+  "new_candidates": []
+}

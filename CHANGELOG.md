@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Wilson County voting results identify Resolution 26-7-2 and unanimous passage; its six-month term remains news-qualified. Jonesborough’s original final passage is corrected to November 3, 2025, distinct from October first reading; later zoning approval alone does not establish repeal or supersession. Tennessee accounting reconciles all 45 existing IDs: 13 bounded corrections applied, one scanned-minute proposal deferred and 31 other returns awaiting disposition. No complete current-force history is asserted.
+
 Signed Shelbyville and Spring City instruments confirm calendar-year terms rather than fixed 365/730-day durations. Shelbyville’s July 7 adoption and express July 8, 2027 expiry coexist with twelve-month wording; that discrepancy is preserved. Spring City Ordinance 2026-11 records July 30 final passage and immediate effect. Later legal force remains unresolved.
 
 Smithville and Warren County news-qualified eighteen- and twelve-month terms replace unsupported fixed-day encodings. Hamilton County minutes identify Resolution 726-23 and its 9-0 adoption with two absent; the proposed one-year discussion is distinguished from the unresolved final executed term. Later operative intervals and current force remain unverified.
@@ -178,7 +180,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **69** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **619** |
+| Rows we still want to confirm (`[VERIFY]`) | **621** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

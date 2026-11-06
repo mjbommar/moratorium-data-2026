@@ -1,0 +1,94 @@
+{
+  "applied_at": "20261105T194320",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-tennessee-g/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 2,
+    "fields_changed": 10
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "tn-wilson-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Six months is not a fixed 180-day duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-wilson-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Contemporaneous report states six months, a calendar term.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-wilson-county-2026",
+      "column": "legal_basis",
+      "before": "Wilson County Commission resolution imposing a temporary six-month moratorium on land use, zoning, building, site plan, and conditional use permit applications for data centers and high-density computing facilities (over 250 W/sq ft, including crypto mining and AI processing), and creating a five-person study committee",
+      "after": "Wilson County Commission Resolution 26-7-2 imposing a temporary moratorium on applications for data centers and high-density computing facilities and creating a study committee.",
+      "reason": "County voting results identify the resolution; the underlying text should be obtained to confirm precise scope.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-wilson-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; the data center committee finalized a draft zoning resolution on 2026-09-15 for the Planning and Zoning Committee in October, and an extension may be sought if permanent rules are not adopted before expiry.",
+      "after": "July 20 county voting results identify Resolution 26-7-2 and unanimous voice-vote passage. Contemporaneous news describes six months from July 20; the full underlying adopted text and exact scope remain unverified. Actual operative interval and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-jonesborough-2025",
+      "column": "date_enacted",
+      "before": "The Board of Mayor and Aldermen adopted Ordinance No. 2025-12 on October 13, 2025, per the Jonesborough Planning Commission packet dated May 19, 2026 (Town Administrator staff report), which states the BMA \"adopted an Ordinance on October 13, 2025.\"",
+      "after": "November 3, 2025: Board of Mayor and Aldermen approved the moratorium on second and final reading; October 13, 2025 was first reading.",
+      "reason": "November 3 meeting minutes identify first reading and record final passage.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-jonesborough-2025",
+      "column": "date_enacted_iso",
+      "before": "2025-10-13",
+      "after": "2025-11-03",
+      "reason": "Final-reading minutes.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-jonesborough-2025",
+      "column": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact",
+      "reason": "Final-reading minutes identify the meeting date.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-jonesborough-2025",
+      "column": "duration_days",
+      "before": "730",
+      "after": "",
+      "reason": "Two years is a calendar term, not a fixed 730-day duration.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-jonesborough-2025",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The text states two years.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "tn-jonesborough-2025",
+      "column": "current_status",
+      "before": "Replaced. The Board of Mayor and Aldermen adopted an ordinance amending Municipal Code Title 11, Chapter 5 (Data Processing Centers and Cryptocurrency Mining) on second and final reading at its May 11, 2026 meeting, following first reading March 16, 2026 and a Planning Commission recommendation April 21, 2026. The new ordinance establishes a permitting pathway (buffers, setbacks, noise/water/electrical-grid standards, BMA approval required per application) rather than continuing a blanket ban, effectively superseding Ordinance 2025-12 as of 2026-05-11.",
+      "after": "November 3, 2025 minutes record final-reading approval of the two-year data-processing-center moratorium, identifying October 13 as first reading. May 11, 2026 minutes record final passage of data-center and cryptocurrency zoning amendments but do not reproduce the ordinance, instead stating INSERT ORDINANCE. Repeal/supersession of 2025-12 and its effective date remain unresolved. Legacy replaced classification is provisional, not independently verified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ]
+}

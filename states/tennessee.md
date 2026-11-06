@@ -26,7 +26,7 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 | Hamblen County | County | Unverified | data center, cryptocurrency mining | 🟡 Pending |
 | Jefferson County | County | 2023-07-27 | battery storage | ⚪ Expired |
 | Johnson City | City | 2025-06-05 | data center, cryptocurrency mining | 🟢 Extended |
-| Jonesborough | Town | 2025-10-13 | data center, cryptocurrency mining | ⚪ Replaced |
+| Jonesborough | Town | 2025-11-03 | data center, cryptocurrency mining | ⚪ Replaced |
 | Kingston Springs | Town | 2026-08-20 | data center | 🟢 Active |
 | Knox County | County | 2026-06-22 | data center | 🟢 Active |
 | Knoxville | City | 2026-07-07 | data center | 🟢 Active |
@@ -333,8 +333,8 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 
 - **Type:** Town
 - **Status:** ⚪ Replaced
-- **Date enacted:** The Board of Mayor and Aldermen adopted Ordinance No. 2025-12 on October 13, 2025, per the Jonesborough Planning Commission packet dated May 19, 2026 (Town Administrator staff report), which states the BMA "adopted an Ordinance on October 13, 2025."
-- **Normalized date:** `2025-10-13` (unverified)
+- **Date enacted:** November 3, 2025: Board of Mayor and Aldermen approved the moratorium on second and final reading; October 13, 2025 was first reading.
+- **Normalized date:** `2025-11-03` (exact)
 - **Duration:** Two years; proposed expiration 2027-11-03 unless extended
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
@@ -342,7 +342,7 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Legal basis:** Ordinance No. 2025-12, "An Ordinance Imposing a Temporary Moratorium on the Establishment of Data Processing Centers"
 - **What prompted it:** Need to update land-use controls for emerging technologies, evaluate land-use compatibility, infrastructure demands, environmental and neighborhood impacts, and broader policy considerations.
 - **Affected projects:** Rezoning requests, site plans, development plans, or building permit applications that propose or would allow a data processing center or similar facility within town limits.
-- **Detailed status:** Replaced. The Board of Mayor and Aldermen adopted an ordinance amending Municipal Code Title 11, Chapter 5 (Data Processing Centers and Cryptocurrency Mining) on second and final reading at its May 11, 2026 meeting, following first reading March 16, 2026 and a Planning Commission recommendation April 21, 2026. The new ordinance establishes a permitting pathway (buffers, setbacks, noise/water/electrical-grid standards, BMA approval required per application) rather than continuing a blanket ban, effectively superseding Ordinance 2025-12 as of 2026-05-11.
+- **Detailed status:** November 3, 2025 minutes record final-reading approval of the two-year data-processing-center moratorium, identifying October 13 as first reading. May 11, 2026 minutes record final passage of data-center and cryptocurrency zoning amendments but do not reproduce the ordinance, instead stating INSERT ORDINANCE. Repeal/supersession of 2025-12 and its effective date remain unresolved. Legacy replaced classification is provisional, not independently verified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Pending. Ordinance directs study by the Planning Commission, Board of Mayor and Aldermen, and staff.
 
 ### Kingston Springs
@@ -771,10 +771,10 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `tn-wilson-county-2026`
-- **Legal basis:** Wilson County Commission resolution imposing a temporary six-month moratorium on land use, zoning, building, site plan, and conditional use permit applications for data centers and high-density computing facilities (over 250 W/sq ft, including crypto mining and AI processing), and creating a five-person study committee
+- **Legal basis:** Wilson County Commission Resolution 26-7-2 imposing a temporary moratorium on applications for data centers and high-density computing facilities and creating a study committee.
 - **What prompted it:** No county protections against data center development; electricity, water, grid, ratepayer and aquifer concerns
 - **Affected projects:** None named
-- **Detailed status:** Active as of 2026-09-23; the data center committee finalized a draft zoning resolution on 2026-09-15 for the Planning and Zoning Committee in October, and an extension may be sought if permanent rules are not adopted before expiry.
+- **Detailed status:** July 20 county voting results identify Resolution 26-7-2 and unanimous voice-vote passage. Contemporaneous news describes six months from July 20; the full underlying adopted text and exact scope remain unverified. Actual operative interval and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Moratorium adopted; committee drafting permanent zoning (berms, 40 dBA/60 dBC noise limits, utility capacity requirements)
 
 ---
