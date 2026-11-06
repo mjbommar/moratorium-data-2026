@@ -15,7 +15,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 | City of Chelan | City | 2018-04-24 | cryptocurrency mining | ⚪ Expired |
 | City of Cheney | City | 2018-04-21 | cryptocurrency mining | ⚪ Expired |
 | City of East Wenatchee | City | 2018-03-27 | data center, cryptocurrency mining | ⚪ Replaced |
-| City of Entiat | City | 2018 | cryptocurrency mining | ⚪ Expired |
+| City of Entiat | City | 2018-03-08 | cryptocurrency mining | ⚪ Expired |
 | City of Ephrata | City | 2018-10-17 | cryptocurrency mining | ⚪ Replaced |
 | City of Leavenworth | City | 2018-03-27 | cryptocurrency mining | ⚪ Replaced |
 | City of Moses Lake | City | 2018-05 | cryptocurrency mining, data center | ⚪ Replaced |
@@ -47,7 +47,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 | Skamania County | County | 2026-08-18 | data center | 🟢 Active |
 | Snohomish County | County | 2026-06-24 | data center | 🟢 Active |
 | Snoqualmie | City | 2026-05-26 | battery storage | 🟢 Active |
-| Spokane | City | 2026-06-23 | data center | 🟢 Active |
+| Spokane | City | 2026-06-22 | data center | 🟢 Active |
 | Spokane County | County | 2026-08-18 | data center | 🟢 Active |
 | Town of Waterville | Town | 2018 | cryptocurrency mining | ⚪ Replaced |
 | Yakima County | County | 2026-08-11 | data center | 🟢 Active |
@@ -154,8 +154,8 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 
 - **Type:** City
 - **Status:** ⚪ Expired
-- **Date enacted:** 2018 (Ordinance 779); extension adopted via Ordinance 794 and a further extension via Ordinance 799
-- **Normalized date:** `2018` (year_only)
+- **Date enacted:** 2018-03-08 (Ordinance 2018-779); later extensions by Ordinances 794 and 799 as recorded in the baseline
+- **Normalized date:** `2018-03-08` (exact)
 - **Duration:** Initial interim control (Ord. 779) followed by extension (Ord. 794) and a further extension by Ord. 799; all three are listed as "Expired" in the Entiat Municipal Code ordinance table
 - **Current end date:** `—`
 - **Sectors:** cryptocurrency mining
@@ -163,7 +163,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Legal basis:** Entiat Ordinances 779, 794, and 799 (interim controls relating to cryptocurrency mining operations); RCW 35A.63.220 and RCW 36.70A.390 (city is non-charter code city)
 - **What prompted it:** Regional cryptocurrency mining/high-density-load pressure tied to cheap Columbia River hydropower and Chelan County PUD capacity concerns; coordination with Chelan PUD regional response
 - **Affected projects:** Not identified
-- **Detailed status:** Expired
+- **Detailed status:** March 22, 2018 council minutes identify March 8 passage of Ordinance 2018-779 establishing interim controls for cryptocurrency mining. Later extensions and final disposition remain unresolved; this historical correction does not establish current force. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Interim controls expired without permanent zoning amendments captured in current Entiat Municipal Code searches; Entiat ordinance table lists each crypto-mining ordinance as expired
 
 ### City of Ephrata
@@ -666,8 +666,8 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-06-23, Ordinance C36887
-- **Normalized date:** `2026-06-23` (exact)
+- **Date enacted:** 2026-06-22, City Council passed Ordinance C36887 (reported June 23)
+- **Normalized date:** `2026-06-22` (exact)
 - **Duration:** One year
 - **Current end date:** `—`
 - **Sectors:** data center
@@ -675,7 +675,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Legal basis:** Ordinance C36887
 - **What prompted it:** —
 - **Affected projects:** New computer data center building permit applications citywide
-- **Detailed status:** Active; public hearing set for 2026-07-22
+- **Detailed status:** The city release dated Tuesday June 23 reports passage of C36887 during Monday legislative session, June 22, with immediate one-year citywide effect. This corrects the release-date/adoption-date conflation. Full final text, exact operative scope and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Council passed a one-year moratorium on acceptance, processing, review, and approval of building permit applications for new data centers
 
 ### Spokane County

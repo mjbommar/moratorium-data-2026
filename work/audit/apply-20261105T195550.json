@@ -1,0 +1,46 @@
+{
+  "applied_at": "20261105T195550",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-washington-h/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 1,
+    "fields_changed": 4
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "wa-entiat-2018",
+      "column": "date_enacted",
+      "before": "2018 (Ordinance 779); extension adopted via Ordinance 794 and a further extension via Ordinance 799",
+      "after": "2018-03-08 (Ordinance 2018-779); later extensions by Ordinances 794 and 799 as recorded in the baseline",
+      "reason": "City council minutes identify the adoption date of Ordinance 2018-779.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-entiat-2018",
+      "column": "date_enacted_iso",
+      "before": "2018",
+      "after": "2018-03-08",
+      "reason": "City council minutes identify the adoption date of Ordinance 2018-779.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-entiat-2018",
+      "column": "date_enacted_uncertainty",
+      "before": "year_only",
+      "after": "exact",
+      "reason": "City council minutes identify the adoption date of Ordinance 2018-779.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-entiat-2018",
+      "column": "current_status",
+      "before": "Expired",
+      "after": "March 22, 2018 council minutes identify March 8 passage of Ordinance 2018-779 establishing interim controls for cryptocurrency mining. Later extensions and final disposition remain unresolved; this historical correction does not establish current force. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ]
+}

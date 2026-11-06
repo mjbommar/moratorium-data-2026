@@ -1,0 +1,39 @@
+{
+  "applied_at": "20261105T195550",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-washington-g/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 1,
+    "fields_changed": 3
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "wa-spokane-2026",
+      "column": "date_enacted",
+      "before": "2026-06-23, Ordinance C36887",
+      "after": "2026-06-22, City Council passed Ordinance C36887 (reported June 23)",
+      "reason": "The June 23 city release says the ordinance passed during Monday\u2019s legislative session, June 22.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-spokane-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-06-23",
+      "after": "2026-06-22",
+      "reason": "Monday preceding the city release dated Tuesday, June 23, 2026.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-spokane-2026",
+      "column": "current_status",
+      "before": "Active; public hearing set for 2026-07-22",
+      "after": "The city release dated Tuesday June 23 reports passage of C36887 during Monday legislative session, June 22, with immediate one-year citywide effect. This corrects the release-date/adoption-date conflation. Full final text, exact operative scope and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ],
+  "receipt_recovery": "Coordinator reconstructed overwritten same-second receipt from reviewed packet, prior committed CSV and current CSV; all before/after fields asserted. Original apply log /tmp/apply-wa-g.log recorded three changes."
+}

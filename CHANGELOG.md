@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Spokane’s adoption is corrected to June 22, distinct from its June 23 city release. Entiat’s March 22, 2018 minutes establish March 8 original passage of Ordinance 2018-779. Later action histories remain unresolved. A same-second apply-receipt collision was recovered by asserting the Spokane before/after fields against the prior commit, reviewed packet and current CSV; receipt hardening remains required.
+
 Puyallup’s city presentation identifies June 2 approval of Ordinance 3344, distinct from the city page’s June 15 term anchor; signed wording and the date distinction require review. Port Angeles’s hearing date is corrected to news-reported September 15, with draft regulations kept separate from adopted law. Unsupported fixed-day encodings are cleared; later legal force remains unresolved.
 
 North Bend, Pasco, Pierce County and Skagit County calendar terms replace unsupported fixed-day encodings. North Bend’s city-limits pause remains distinct from its nearby-project objection; Pasco evidence is a published ordinance summary. Pierce’s legislative record identifies O2026-557 and August 27 effectiveness despite the announcement’s 577 misprint. Later hearings, amendments and current force remain unresolved.
@@ -198,7 +200,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1070** |
 | Pending or not yet effective | **68** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **639** |
+| Rows we still want to confirm (`[VERIFY]`) | **641** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
