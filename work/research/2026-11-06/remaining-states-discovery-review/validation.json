@@ -1,0 +1,60 @@
+{
+  "state": "passed_with_scoped_warning_disposition",
+  "baseline_commit": "d3111e66027bbd1cad438fe06ffedb3ac12a2a6f",
+  "prior_rows_preserved": 1321,
+  "new_ids": [
+    "il-stephenson-county-2026",
+    "wa-spokane-valley-2026",
+    "wa-whitman-county-2025"
+  ],
+  "inventory_rows": 1324,
+  "inventory_sha256": "8b931b42e39bdece8d2b5a786c8edf51f23436043cc793242ae84a50523f66f3",
+  "state_policy_and_expanded_jsonl": "All unchanged from baseline",
+  "replays": [
+    {
+      "file": "work/research/2026-11-06/remaining-states-discovery-review/answers-il.json",
+      "sha256": "fc6d444b75f470e3edd3893bff75b524cf33077de0b42a57508c82925e6f6477",
+      "rows_added": 0,
+      "rows_touched": 0,
+      "output_sha256": "9d91c23671613f1fc1550fc0e98cac208c66abe890b727051236e93e8bf7b6cd"
+    },
+    {
+      "file": "work/research/2026-11-06/remaining-states-discovery-review/answers-wa.json",
+      "sha256": "3912b2f5aa1a13533708d44f48aaf5b3d5cb21f4ea20b1686880044fd209e566",
+      "rows_added": 0,
+      "rows_touched": 0,
+      "output_sha256": "f5bdc32a778ce478f526a93a1f9f610f32450cf9ac006ea008ea766e8d122c3c"
+    },
+    {
+      "file": "work/research/2026-11-06/remaining-states-discovery-review/answers-wa-duration.json",
+      "sha256": "f6c89553a035108074d1c671bc303558ff16c44a30dc81d250d5ba0c7cbc060d",
+      "rows_added": 0,
+      "rows_touched": 0,
+      "output_sha256": "d41063f3331c7a3c3450d95cc639aa07dbace9316c0c0ac927eec8c8ff3278fd"
+    }
+  ],
+  "visual_page_hashes_reverified": 35,
+  "make_data_site_check_exit_code": 0,
+  "dataset_errors": 0,
+  "dataset_warnings": 291,
+  "new_row_warnings": [
+    {
+      "check": "duration.calendar_end_unverified",
+      "message": "line 246 (IL Stephenson County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+    }
+  ],
+  "new_warning_disposition": "Stephenson six-calendar-month term begins on passage and approval in accordance with law; no exact operative end accepted while effectiveness requirements and later action remain unverified. Blank end is deliberate, not a guessed 180-day interval.",
+  "documented_numbers_matched": 49,
+  "readme_rank_sentences_checked": 2,
+  "build_log_sha256": "496fbcfdd881517ad35721c439ef744a96ec2e0451e78c22a0b7315f73663640",
+  "review_sha256": "10c0d5e1fd523ecff6bfa20c959220b7060f8d4c0733f4421a566f858d154999",
+  "accounting_sha256": "c0f3b202eaaa44f1a83b3fc569ab5fa69345a8e01487b7f67401d993eebe5176",
+  "archive_receipt_sha256": "28935dc5115ae57ae8d84842d372f750d025dba36ad6f8da61e0891c932eed27",
+  "rank_receipt_sha256": "11166e77fa837576c2a06a986e386df7dd51c198750ba77235764ab72b351b13",
+  "apply_receipts": [
+    "work/audit/apply-20261106T132448.json",
+    "work/audit/apply-20261106T132448-1.json",
+    "work/audit/apply-20261106T132655.json"
+  ],
+  "scope": "Fifteen frozen-candidate dispositions, three additions, byte preservation/replay, scoped visual/source proofs and generated publication checks. No complete freshness, full extraction, final release or deployment claim."
+}

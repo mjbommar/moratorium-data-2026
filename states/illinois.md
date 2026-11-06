@@ -3,7 +3,7 @@
 
 Working inventory for Illinois, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**32 instruments** — 27 in force, 2 pending, 3 past.
+**33 instruments** — 28 in force, 2 pending, 3 past.
 
 State policy is tracked separately: **11 actions** (11 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -35,6 +35,7 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 | Plainfield | Village | 2026-04-21 | data center | 🟢 Extended |
 | Robinson | City | Unverified | solar | 🟢 Extended |
 | Rockford | City | 2026-08-03 | data center | 🟢 Active |
+| Stephenson County | County | 2026-08-20 | data center | 🟢 Active |
 | Sterling | City | 2026-09-08 | data center, battery storage | 🟢 Active |
 | Tazewell County | County | 2026-04-29 | data center | 🟢 Active |
 | Town of Normal | Town | 2026-05-18 | data center | 🟢 Extended |
@@ -459,6 +460,22 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Affected projects:** Excludes (does not apply to) the Edson Road parcel Monarch Energy is pursuing for a hyperscale data center; no formal Monarch Energy proposal had been submitted as of adoption.
 - **Detailed status:** Active as of 2026-09-23. Explicitly does not apply to the Edson Road land where Monarch Energy has been pursuing a data center, because that land is already covered by an existing annexation agreement permitting data center development that cannot be changed without both parties' consent.
 - **Outcome:** Pauses data center development citywide (outside the Edson Road exemption) while staff develop best-practices policy recommendations.
+
+### Stephenson County
+
+- **Type:** County
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-08-20
+- **Normalized date:** `2026-08-20` (exact)
+- **Duration:** Six calendar months from effectiveness, unless extended or terminated earlier
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `il-stephenson-county-2026`
+- **Legal basis:** Ordinance 26-08-94
+- **What prompted it:** Temporary controls while jurisdiction studies permanent land-use standards.
+- **Affected projects:** —
+- **Detailed status:** Signed August 20, 2026 adoption. Adopted-instrument active classification; effectiveness on passage and approval in accordance with law. [VERIFY full effectiveness requirements, exact operative end, later action/current force and coordinates]
+- **Outcome:** —
 
 ### Sterling
 

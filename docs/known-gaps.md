@@ -7,7 +7,7 @@ record-level observations and `[VERIFY]` markers identify unresolved work.
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **694 of the 1321 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **697 of the 1324 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
 
 ### Legacy instrument identities
 
@@ -189,7 +189,7 @@ rechecked four kinds of rows. We looked at rows past their end date and
 extensions with no new end date. We also looked at proposals more than 60 days
 old and rows with a `[VERIFY]` note.
 
-1077 moratoria are classified active or extended in the November 5 working cohort; this does not establish renewed current legal force. The following eleven-row discussion describes the historical September check, not the current validation warning count. That check flagged eleven rows that looked out of date. Eight of them, in
+1079 moratoria are classified active or extended in the November 5 working cohort; this does not establish renewed current legal force. The following eleven-row discussion describes the historical September check, not the current validation warning count. That check flagged eleven rows that looked out of date. Eight of them, in
 Cedartown, Georgia and seven New York towns, have passed their end date. We
 could not find out what happened next, so each carries a `[VERIFY]` note. The
 other three are fine. Waterford Township, Michigan and East Whiteland Township,
@@ -295,7 +295,7 @@ Retroactive effective dates are preserved separately from adoption dates.
 
 ## Geocoding caveats (added v2026.04.2)
 
-1290 of 1321 instruments have WGS84 reference points. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. Reference points do not establish legal boundaries or applicability. The 31 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County, Sarpy County, Pequot Lakes, the historical Talbot County solar record, East Windsor, two historical Phillips County records, Fort Collins, Vermillion County, Zionsville, Union County, Camargo, Bossier Parish, Mooresville and Awendaw awaiting coordinate review.
+1290 of 1324 instruments have WGS84 reference points. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. Reference points do not establish legal boundaries or applicability. The 34 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County, Sarpy County, Pequot Lakes, the historical Talbot County solar record, East Windsor, two historical Phillips County records, Fort Collins, Vermillion County, Zionsville, Union County, Camargo, Bossier Parish, Mooresville, Awendaw, Stephenson County, Whitman County and Spokane Valley awaiting coordinate review.
 
 **Within-state name ambiguity.** Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:
 

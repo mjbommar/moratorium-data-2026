@@ -54,18 +54,26 @@ remain unknown; no adoption event, in-force ban or headline-count increase is
 inferred. The public results view displays relationship review separately from
 legal status. All earlier records remain unchanged.
 
-Current totals are 1,321 local instruments (1,077 classified active or extended,
-78 pending, 166 past) and 442 state-policy records (95 classified enacted).
+The remaining-state discovery review adds signed Stephenson County data-center,
+Whitman County wind/solar/storage interim-control and Spokane Valley BESS records.
+Whitman's expired classification describes its original stated term; later
+extensions remain unverified. Twelve other candidates retain explicit evidence
+gaps. All 1,321 preceding rows are unchanged. Washington now has 44 instruments;
+all states tied at tenth remain in README rankings. Source units and conditional
+calendar endpoints are preserved rather than silently normalized.
+
+Current totals are 1,324 local instruments (1,079 classified active or extended,
+78 pending, 167 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1321** |
-| Classified active or extended | **1077** |
+| Moratoria in the list | **1324** |
+| Classified active or extended | **1079** |
 | Pending or not yet effective | **78** |
-| Ended (replaced, expired, or rescinded) | **166** |
-| Rows we still want to confirm (`[VERIFY]`) | **694** |
+| Ended (replaced, expired, or rescinded) | **167** |
+| Rows we still want to confirm (`[VERIFY]`) | **697** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained

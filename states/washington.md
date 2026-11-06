@@ -3,7 +3,7 @@
 
 Working inventory for Washington, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**42 instruments** — 30 in force, 0 pending, 12 past.
+**44 instruments** — 31 in force, 0 pending, 13 past.
 
 State policy is tracked separately: **5 actions** (5 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -49,7 +49,9 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 | Snoqualmie | City | 2026-05-26 | battery storage | 🟢 Active |
 | Spokane | City | 2026-06-22 | data center | 🟢 Active |
 | Spokane County | County | 2026-08-18 | data center | 🟢 Active |
+| Spokane Valley | City | 2026-02-03 | battery storage | 🟢 Active |
 | Town of Waterville | Town | 2018 | cryptocurrency mining | ⚪ Replaced |
+| Whitman County | County | 2025-05-05 | wind, solar, battery storage | ⚪ Expired |
 | Yakima County | County | 2026-08-11 | data center | 🟢 Active |
 
 ## Detailed entries
@@ -694,6 +696,22 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Detailed status:** Active as of 2026-09-23. Four-month pause (same legal effect as a moratorium) on acceptance/processing of County data center building permits in unincorporated Spokane County, set to expire 2026-12-15 (extendable if more time is needed); the Planning Commission is leading a Zoning Text Amendment process with multiple public hearings before a final Board decision.
 - **Outcome:** Spokane County Commissioners unanimously approved a four-month pause on data center permitting, effective 2026-08-18 through 2026-12-15.
 
+### Spokane Valley
+
+- **Type:** City
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-02-03
+- **Normalized date:** `2026-02-03` (exact)
+- **Duration:** 365 days from February 3, 2026 unless repealed, extended or modified following later hearing/findings
+- **Current end date:** `2027-02-03`
+- **Sectors:** battery storage
+- **Moratorium ID:** `wa-spokane-valley-2026`
+- **Legal basis:** Ordinance 26-002
+- **What prompted it:** Temporary controls while jurisdiction studies permanent land-use standards.
+- **Affected projects:** —
+- **Detailed status:** Signed February 3, 2026 ordinance, immediate emergency effect; original 365-day term yields February 3, 2027 outer endpoint, subject to later action. Adopted-instrument active classification only. [VERIFY March 17 hearing/outcome, later amendments/extensions, present force and coordinates]
+- **Outcome:** —
+
 ### Town of Waterville
 
 - **Type:** Town
@@ -709,6 +727,22 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Affected projects:** Not identified
 - **Detailed status:** Replaced. Waterville's zoning code now defines and regulates 'cryptocurrency mining' (WMC 17.10.165) and 'data center' (WMC 17.10.175), added via Ordinance 815 (2020), and the Chapter 17.40 District Use Chart lists cryptocurrency mining as a regulated ('PRM3') use rather than a prohibited one, confirmed via a current mirror of the town's zoning code as of 2026-09-23.
 - **Outcome:** Town code presumably includes cryptocurrency mining provisions but the eCode360 ordinance table could not be retrieved automatically; primary ordinance text remains uncaptured
+
+### Whitman County
+
+- **Type:** County
+- **Status:** ⚪ Expired
+- **Date enacted:** 2025-05-05
+- **Normalized date:** `2025-05-05` (exact)
+- **Duration:** Until July 7, 2025 unless extended or terminated earlier
+- **Current end date:** `2025-07-07`
+- **Sectors:** wind, solar, battery storage
+- **Moratorium ID:** `wa-whitman-county-2025`
+- **Legal basis:** Interim zoning controls posted as Ordinance 089101
+- **What prompted it:** Temporary controls while jurisdiction studies permanent land-use standards.
+- **Affected projects:** —
+- **Detailed status:** Signed May 5, 2025 interim controls, immediate effect, original stated term ends July 7, 2025. Expired-original-term classification only. [VERIFY later extensions/amendments, actual termination/current restrictions and coordinates]
+- **Outcome:** —
 
 ### Yakima County
 
