@@ -1,5 +1,10 @@
 # Composed extraction evidence: development checkpoint
 
+Follow-up: [classification definitions](ballot-semantic-definitions.md) now
+specify the advisory development axis and reporting-completion meaning. Their
+current-use audit flags evidence-lineage work separately; it does not renew
+source acceptance. The text below records the preceding development checkpoint.
+
 The failed three-source evaluation remains failed. This development increment
 responds to its source-support findings; no new model extraction has been run,
 no canonical fact promoted, and no improved accuracy measured.

@@ -75,6 +75,12 @@ not a public tally. Missing rows and unresolved references cannot establish abse
 
 ## Grains and semantics
 
+The [classification definitions](ballot-semantic-definitions.md) specify the
+development-relative advisory axis, contest-count reporting scope, statutory
+roles and actor/electorate/territory distinctions. A mechanism describes the
+proposition, not its winning side. These definitions do not renew source review
+or silently relabel historical observations.
+
 The table definitions are `jurisdictions`, `elections`, `ballot_measures`,
 `measure_provisions`, `measure_results`, `local_restrictions`, `instrument_events`,
 `measure_instrument_links`, `source_documents`, `claims`, `review_decisions`,

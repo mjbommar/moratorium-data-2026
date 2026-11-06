@@ -15,6 +15,14 @@ records transport schema 1.1.0, two distributed terra CLI reviews, preservation
 of rejected-context packets and exact frozen-code auditing. This is regression
 coverage, not a passed extraction evaluation or completed semantic migration.
 
+- [x] Define the development-relative advisory mechanism axis and contest-count
+  completeness semantics; inventory all eight current advisory uses and the one
+  complete result, with two independent terra CLI reviews
+  ([definitions and field-specific follow-up queue](docs/ballot-semantic-definitions.md)).
+- [ ] Strengthen explicit mechanism claim lineage for Wrightstown, Downe, Joliet
+  and Bloomington; re-review Monterey Park's final contest canvass and record
+  completeness/scope support. Preserve prior decisions and all legal qualifications.
+
 Created: 2026-11-05. Execution began under the user’s subsequent active-goal instruction.
 Checked tasks have local evidence; unchecked tasks remain required. No release has been published.
 Complete phases in dependency order; retain evidence and unresolved dispositions.

@@ -1,0 +1,43 @@
+{
+  "schema_version": "ballot-semantic-definition-review-1",
+  "snapshot": "a5c897f0d64f46b06fc1d19564cd5b9522a5a4e41a1e25d2fd8c0f59ceea4a3a",
+  "reviews": [
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b326-b474-74b3-a15f-45887b77ae7b",
+      "state": "terminal",
+      "exit_code": 0,
+      "private_report": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/development-advisory-axis-review.private.txt",
+      "report_sha256": "de035f32990b01707580d1429b457e1003b5c230eed4ef70f12d783b99b5bf6f"
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b326-b90c-78d3-9e9e-987dc95f5fcc",
+      "state": "terminal",
+      "exit_code": 0,
+      "private_report": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/development-reporting-axis-review.private.txt",
+      "report_sha256": "c66f91e83701147e42524b66314bfd4cee3437cba2c31a9416f7e7d1ebe28285"
+    }
+  ],
+  "canonical_records_written": 0,
+  "source_reacquisitions": 0,
+  "scope": "Definitions and current preserved-record review. Followup audit fixes coordinator-tested; no new source-page judgment or legal acceptance.",
+  "findings": {
+    "advisory_direction_mismatches_found": 0,
+    "advisory_provisions_reviewed": 8,
+    "mechanism_explicit_claim_gaps": 4,
+    "complete_observations_reviewed": 1,
+    "complete_explicit_claim_gaps": 1,
+    "complete_scope_not_recorded": 1
+  },
+  "validation": {
+    "project_tests_passed": 260,
+    "subtests_passed": 42,
+    "canonical_input_hashes_match_frozen_baseline": {
+      "data/moratorium_inventory.csv": true,
+      "data/state_legislation.csv": true,
+      "data/identities/expanded.jsonl": true
+    },
+    "source_classification_check": "passed; no tracked private source text"
+  }
+}

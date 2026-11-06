@@ -153,11 +153,15 @@ quote both the operative threshold and its definition using supporting_passages.
 Distinguish the requested actor, electorate and territorial reach. A city's name
 in a request to that city does not establish that the township vote governs the
 city's entire territory. Omit unproved geography and record it as unresolved.
-Do not classify advisory_support/advisory_opposition when the reference axis is
-unspecified; preserve the requested action in scope_note and bindingness separately.
+For advisory mechanisms the reference axis is covered development: affirming
+permission or enabling services is advisory_support; affirming a restriction or
+moratorium is advisory_opposition. This describes the proposition, never the
+winning side. If the actual requested action or scope is unclear, use unresolved
+and preserve the action in scope_note and bindingness separately.
 Full precinct reporting alone does not establish complete ballot counting. Use
-reporting_status=complete only when the source explicitly supports completion of
-the contest count; otherwise preserve precinct counts and unknown reporting status.
+reporting_status=complete only when a final contest canvass or explicit completion
+statement supports the count at its stated scope; certification alone is not
+enough. Otherwise preserve precinct counts and unknown reporting status.
 For duration, original_text must copy the operative duration passage. Do not infer
 an actual anchor_date from an unproved passage/enactment event.
 Represent reported yes, no and blank counts separately. Never infer ballots_cast,
