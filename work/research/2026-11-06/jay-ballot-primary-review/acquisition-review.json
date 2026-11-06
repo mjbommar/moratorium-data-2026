@@ -1,0 +1,141 @@
+{
+  "state": "bounded_recovery_terminal",
+  "search_calls": 3,
+  "exa_calls": 2,
+  "serpapi_calls": 1,
+  "fetch_calls": 6,
+  "successful_fetches": 5,
+  "failed_fetches": 1,
+  "priced_search_cost_usd": 0.014,
+  "unpriced_search_calls": 1,
+  "unpriced_cost_scope": "One SerpAPI call returned no price; do not represent known Exa subtotal as complete total spend. All reserved search caps exhausted; no retry or extra searches.",
+  "config_sha256": "f38fb69f6d619cec0c95c9614fd229b5d518bb9b6d9e557a4460b914249f54cf",
+  "ledger_sha256": "88253b2cc393fdd71600f384d11a9de66e57ac8c4f934549a88034975761ff7c",
+  "failed_primary": {
+    "url": "https://www.jay-maine.org/warrant-for-november-3-2026-special-town-meeting/",
+    "status": 404,
+    "engine": "pydoll",
+    "body_sha256": "25d46b740cfa1b9625913d41f39c11ec28f5403be1cb61a254e974ec24c2d557",
+    "scope": "Failed indexed landing page; not absence of measure or documents"
+  },
+  "media_recovery": {
+    "url": "https://www.jay-maine.org/wp-json/wp/v2/media?search=2026&per_page=100",
+    "body_sha256": "b1b706aacf26b7f27f517e7d73a6d9e182d75cdbfee46280911596e112dad802",
+    "returned_records": 99,
+    "scope": "Media filenames/URLs only; not complete election census, return or legal evidence"
+  },
+  "attempts": [
+    {
+      "attempt_id": "70b8b306d1e046628e689967ede20500",
+      "kind": "exa",
+      "query": "Jay Maine November 3 2026 Article 3 solar moratorium official results warrant",
+      "cost_usd": 0.007,
+      "unpriced": false,
+      "finished_at": "2026-11-06T18:52:08.221466+00:00"
+    },
+    {
+      "attempt_id": "0d2f7c70a1174c809ac1de213e71cc49",
+      "kind": "serpapi",
+      "query": "Jay Maine November 2026 special town meeting warrant solar moratorium official town",
+      "cost_usd": null,
+      "unpriced": true,
+      "query_scope_check": {
+        "status": "not_evaluated",
+        "declared_sites": []
+      },
+      "finished_at": "2026-11-06T18:52:20.929712+00:00"
+    },
+    {
+      "attempt_id": "6b9dd767a5d84341bdccb59fe8bd9de6",
+      "kind": "exa",
+      "query": "site:jay-maine.org \"2026\" \"November\" \"results\" solar",
+      "cost_usd": 0.007,
+      "unpriced": false,
+      "query_scope_check": {
+        "status": "all_returned_urls_in_declared_sites",
+        "declared_sites": [
+          "jay-maine.org"
+        ],
+        "matching_hits": 6,
+        "nonmatching_hits": 0,
+        "observed_hosts": [
+          "www.jay-maine.org"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      },
+      "finished_at": "2026-11-06T18:53:06.456704+00:00"
+    },
+    {
+      "attempt_id": "9bc8a71de7ea46409c2505c0c8e5d3f9",
+      "kind": "fetch",
+      "url": "https://www.jay-maine.org/warrant-for-november-3-2026-special-town-meeting/",
+      "final_url": "https://www.jay-maine.org/warrant-for-november-3-2026-special-town-meeting/",
+      "status": 404,
+      "ok": false,
+      "body_sha256": "25d46b740cfa1b9625913d41f39c11ec28f5403be1cb61a254e974ec24c2d557",
+      "text_sha256": "45eb92350704d61d660fd19de1c1541fe51610bc745d32a04bb42ec40eb549ac",
+      "browser_controls": {
+        "engine": "pydoll",
+        "headless": false,
+        "record_network": true
+      },
+      "finished_at": "2026-11-06T18:53:10.792651+00:00"
+    },
+    {
+      "attempt_id": "dc344e57e184449f8d8e6d60596faa6f",
+      "kind": "fetch",
+      "url": "https://www.jay-maine.org/town-office/",
+      "final_url": "https://www.jay-maine.org/town-office/",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "e142e8ace2e56c088a6153dd014d44fdd7b3983516175903e6d44fb61b5423fd",
+      "text_sha256": "ea4e1deed526bd9763c9ddb45e630ca257f98fdc6337bc20d638f00c84e0ccc0",
+      "finished_at": "2026-11-06T18:53:45.683439+00:00"
+    },
+    {
+      "attempt_id": "d35049937e834946a46212ae383bb02c",
+      "kind": "fetch",
+      "url": "https://www.jay-maine.org/wp-content/uploads/2026/09/Minutes-9-14-2026.pdf",
+      "final_url": "https://www.jay-maine.org/wp-content/uploads/2026/09/Minutes-9-14-2026.pdf",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "08ad66087d8f95a9fa845c966d6a15a57218e4e95061253bd1efe2bd6e505333",
+      "text_sha256": "ff6b31d3ec95e0eb64d18c7f3973f32d2d26944d6c82cbcfbcc5b2ff420e2777",
+      "finished_at": "2026-11-06T18:53:46.308770+00:00"
+    },
+    {
+      "attempt_id": "fb76420f7abe4bbd8539aedba1ed7de9",
+      "kind": "fetch",
+      "url": "https://www.jay-maine.org/wp-json/wp/v2/media?search=2026&per_page=100",
+      "final_url": "https://www.jay-maine.org/wp-json/wp/v2/media?search=2026&per_page=100",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "b1b706aacf26b7f27f517e7d73a6d9e182d75cdbfee46280911596e112dad802",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "finished_at": "2026-11-06T18:54:50.448016+00:00"
+    },
+    {
+      "attempt_id": "6e61065b5d6c4664bdff50f4b6dbb3dd",
+      "kind": "fetch",
+      "url": "https://www.jay-maine.org/wp-content/uploads/2026/09/signed-warrant-for-town-meeting.pdf",
+      "final_url": "https://www.jay-maine.org/wp-content/uploads/2026/09/signed-warrant-for-town-meeting.pdf",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "c0d138f1f93e6ffb41cc499f7ef1ced09e9ee35d687f244b7e725e7c07ff9abd",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "finished_at": "2026-11-06T18:55:47.248936+00:00"
+    },
+    {
+      "attempt_id": "c1820e8175494e04b842d9f4055bd20a",
+      "kind": "fetch",
+      "url": "https://www.jay-maine.org/wp-content/uploads/2026/09/Solar-Moratorium-Petition.pdf",
+      "final_url": "https://www.jay-maine.org/wp-content/uploads/2026/09/Solar-Moratorium-Petition.pdf",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "3866d45385b3c92baeb43d4e5a0953c56133f235fdbfb209dde0ce186bbec5ac",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "finished_at": "2026-11-06T18:55:47.299950+00:00"
+    }
+  ],
+  "scope": "API/browser acquisition accounting; raw results, response bodies, client metadata and OCR private. Search hits alone are not evidence. Signed warrant and petition recovered by official-media reference chasing."
+}

@@ -267,9 +267,9 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Source-body availability checkpoint
 
-The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-me-review-2026-11-06.json)
-covers 6,642 manifest entries, with hash-matching bodies available through listed
-paths for 3,199 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-jay-primary-2026-11-06.json)
+covers 6,645 manifest entries, with hash-matching bodies available through listed
+paths for 3,202 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.
@@ -427,4 +427,4 @@ The [Carolina/Virginia review](../work/research/2026-11-06/carolinas-virginia-di
 
 ### Additional Jay solar-ballot recovery
 
-The [Jay lead](../work/audit/jay-solar-ballot-followup-2026-11-06.json) reports a November 3 Article 3 solar moratorium vote, unofficial 1,464 yes/723 no. This is outside the original frozen 56-group ballot cohort and is not included in the 49 published measures. Official wording, question-specific return/certification, proposed/enacted text and operative legal history remain required. Overall 2,253 ballots and the separate rent question are not solar denominators.
+The [Jay review](https://github.com/mjbommar/moratorium-data-2026/blob/main/work/research/2026-11-06/jay-ballot-primary-review/README.md) recovers the signed September 14 warrant / Article 3 question, proposed petition clauses and placement minutes. Jay is outside the original frozen 56 groups and is now included in 50 published measures. Its 1,464 yes / 723 no remains a secondary unofficial observation; primary return/certification, formal passage rule/outcome, enrolled law, town-established effective date and operative legal history remain unresolved. No November 3 automatic start, exact expiry, legacy instrument or project link is inferred. Overall 2,253 ballots and the separate rent question are not solar denominators.

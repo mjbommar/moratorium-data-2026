@@ -76,8 +76,8 @@ The final Maine discovery batch adds historical Bridgton solar and Ashland wind
 records, with fixed 180-day terms anchored separately to applicability and adoption.
 All 1,329 preceding rows are unchanged. All 185 frozen discovery candidates now
 have coordinator dispositions: 38 additions, one covered existing instrument and
-146 withheld with evidence requirements. A reported Jay solar ballot is retained
-separately for primary-source recovery, not silently included in ballot totals.
+146 withheld with evidence requirements. Jay solar ballot is separately reviewed and published outside the original frozen
+cohort, with primary return and operative legal history unresolved.
 
 Current totals are 1,331 local instruments (1,080 classified active or extended,
 79 pending, 172 past) and 442 state-policy records (95 classified enacted).
@@ -93,7 +93,7 @@ renewed legal-force findings.
 | Rows we still want to confirm (`[VERIFY]`) | **704** |
 | States with at least one | **47** |
 
-The separate reviewed ballot publication contains 49 measures and 55 retained
+The separate reviewed ballot publication contains 50 measures and 56 retained
 result observations. Seven frozen candidate groups remain unresolved with explicit
 [dispositions](work/audit/ballot-release-dispositions-2026-11-06.json).
 The [September-baseline comparison](work/audit/refresh-baseline-delta-2026-11-06.md)

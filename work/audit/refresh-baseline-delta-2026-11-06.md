@@ -1,7 +1,7 @@
 # Working refresh: baseline comparison
 
 Baseline: `dbaab04d84f8d679ba5a3d57bf45f32186109222`, whose README describes September 23, 2026.
-The current comparison was generated from base revision `6009786` and the working-tree
+The current comparison was generated from base revision `a329826` and the working-tree
 CSV bytes pinned in the JSON. This compares working data, not the last public
 release. The cohort cutoff remains November 5; later scoped reviews do not renew
 all-record legal-force freshness.
@@ -31,10 +31,10 @@ These are edit counts, not completed record reviews or counts of new enactments.
 The two Kent additions describe historical terms ending in 2022 and 2023; the wind
 adoption-year conflict remains explicit.
 
-The separate expanded publication contains 49 reviewed ballot measures, 55 retained
+The separate expanded publication contains 50 reviewed ballot measures, 56 retained
 result observations, one proposed restriction with unknown legal status and one
 accepted ballot `proposes` link. Of 56 frozen candidate groups, 49 have scoped
-publication and seven remain unresolved. This is a reviewed subset, not a complete
+publication and seven remain unresolved. Jay is a separately reviewed post-freeze addition, making 50 canonical measures without changing the frozen56-group denominator. This is a reviewed subset, not a complete
 election census. No Edgewater adoption event or in-force ban is inferred.
 
 The November 5 collection accounting remains historical. Its 440-policy denominator

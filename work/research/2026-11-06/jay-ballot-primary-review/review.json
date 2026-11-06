@@ -1,0 +1,304 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "reviewer": "coordinator",
+  "sources": [
+    {
+      "source_document_id": "jay-review-warrant",
+      "url": "https://www.jay-maine.org/wp-content/uploads/2026/09/signed-warrant-for-town-meeting.pdf",
+      "body_sha256": "c0d138f1f93e6ffb41cc499f7ef1ced09e9ee35d687f244b7e725e7c07ff9abd",
+      "text_sha256": "044a78d889706b33321989ccc823ffb5add8c24f4ffd0e1863e4239cc13e4a81",
+      "retrieved_at": "2026-11-06T18:55:47.248936+00:00",
+      "attempt_id": "6e61065b5d6c4664bdff50f4b6dbb3dd",
+      "source_role": "Official signed/attested one-page September 14 warrant for November 3 secret-ballot Articles 2/3; original extraction empty, OCR separately registered; full image inspected",
+      "original_acquisition_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_document_id": "jay-review-petition",
+      "url": "https://www.jay-maine.org/wp-content/uploads/2026/09/Solar-Moratorium-Petition.pdf",
+      "body_sha256": "3866d45385b3c92baeb43d4e5a0953c56133f235fdbfb209dde0ce186bbec5ac",
+      "text_sha256": "22d1f5bae516cdcbbcf7905c8fcdff0420fdc072f91cfdeec235af20d6c0816f",
+      "retrieved_at": "2026-11-06T18:55:47.299950+00:00",
+      "attempt_id": "c1820e8175494e04b842d9f4055bd20a",
+      "source_role": "Official town-hosted three-page proposed solar petition/provisions, not signature sheets or enacted text; all pages OCR and visually reviewed",
+      "original_acquisition_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_document_id": "jay-review-minutes",
+      "url": "https://www.jay-maine.org/wp-content/uploads/2026/09/Minutes-9-14-2026.pdf",
+      "body_sha256": "08ad66087d8f95a9fa845c966d6a15a57218e4e95061253bd1efe2bd6e505333",
+      "text_sha256": "ff6b31d3ec95e0eb64d18c7f3973f32d2d26944d6c82cbcfbcc5b2ff420e2777",
+      "retrieved_at": "2026-11-06T18:53:46.308770+00:00",
+      "attempt_id": "d35049937e834946a46212ae383bb02c",
+      "source_role": "Official September 14 minutes, all three native-text PDF pages visually reviewed; warrant placement vote distinct from election result",
+      "original_acquisition_text_sha256": "ff6b31d3ec95e0eb64d18c7f3973f32d2d26944d6c82cbcfbcc5b2ff420e2777"
+    },
+    {
+      "source_document_id": "jay-review-return",
+      "url": "https://www.sunjournal.com/2026/11/04/jay-voters-approve-lot-rent-ordinance-solar-moratorium/",
+      "body_sha256": "ba0a34df272e5299a6b2aefb709d3014c321591ec1bf45d1084ea38ebeee0181",
+      "text_sha256": "9dcff66841d2ed899317a5bbf9bb220e741023ea469be65a1afea729d9a0b94d",
+      "retrieved_at": "2026-11-05T17:56:11.691694+00:00",
+      "attempt_id": "6161feefb50041d3bb8a848fea67e7b3",
+      "source_role": "Retained Sun Journal November 4 report citing unofficial town-clerk counts; no recovered primary return/certification",
+      "original_acquisition_text_sha256": "9dcff66841d2ed899317a5bbf9bb220e741023ea469be65a1afea729d9a0b94d"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "jay-review-01",
+      "source_document_id": "jay-review-warrant",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "jay-article-3-recovery"
+      },
+      "predicate": "official_warrant_question",
+      "value": {
+        "designation": "Article 3",
+        "wording": "Shall the Town of Jay adopt a 180-day moratorium, pursuant to 30-A M.R.S. \u00a7 4356, on the acceptance, processing, approval, issuance, or commencement of new commercial ground-mounted solar energy facilities within the Town of Jay, while the Town reviews and considers its comprehensive plan, land-use ordinance, permitting standard, siting requirements, environmental safeguards, decommissioning requirements, financial-assurance requirements, and other municipal regulations concerning such facilities?",
+        "sectors": [
+          "solar"
+        ],
+        "yes_direction": "restricts",
+        "scope": "Coordinator full visual transcription with line-wrap normalization. OCR garbles signature-overlaid tail; image, not silently repaired OCR, establishes transcription. Warrant singular ordinance/standard and other municipal wording retained separately from petition plural/applicable variant."
+      },
+      "quote": "Shall the Town of Jay adopt a 180-day moratorium",
+      "span": "utf8-text-codepoints:870:918"
+    },
+    {
+      "claim_id": "jay-review-02",
+      "source_document_id": "jay-review-warrant",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "jay-article-3-recovery"
+      },
+      "predicate": "official_warrant_election_identity",
+      "value": {
+        "jurisdiction": "Jay",
+        "state": "ME",
+        "county": "Franklin",
+        "government_type": "town",
+        "election_date": "2026-11-03",
+        "election_type": "Special Town Meeting with secret ballot on Articles 2 and 3",
+        "scope": "Town/date/polling arrangement visually reviewed; November 3 date corroborated by minutes; no new election certification accepted."
+      },
+      "quote": "and by secret ballot on Articles 2 and 3",
+      "span": "utf8-text-codepoints:485:525"
+    },
+    {
+      "claim_id": "jay-review-03",
+      "source_document_id": "jay-review-warrant",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "jay-article-3-recovery"
+      },
+      "predicate": "warrant_execution",
+      "value": {
+        "issued_date": "2026-09-14",
+        "scope": "Full image shows five board signatures and clerk true-copy attestation. This is warrant authentication, not election-result certification or proof of enacted moratorium."
+      },
+      "quote": "A TRUE COPY OF WARRANT",
+      "span": "utf8-text-codepoints:1439:1461"
+    },
+    {
+      "claim_id": "jay-review-04",
+      "source_document_id": "jay-review-minutes",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "jay-article-3-recovery"
+      },
+      "predicate": "governing_body_placement",
+      "value": {
+        "date": "2026-09-14",
+        "vote": "5-0-0",
+        "placement_method": "governing_body_referral",
+        "petition_origin": "Petition-origin context attributed in minutes; signature count/sufficiency not independently verified",
+        "scope": "Item 3 approves November 3 warrant articles; not voter adoption. Citizen initiative and board placement remain distinct stages."
+      },
+      "quote": "to approve the warrant articles for the November 3, 2026 Special Town Meeting. Vote 5-0-0",
+      "span": "utf8-text-codepoints:6312:6401"
+    },
+    {
+      "claim_id": "jay-review-05",
+      "source_document_id": "jay-review-minutes",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "jay-article-3-recovery"
+      },
+      "predicate": "hearing_subject",
+      "value": {
+        "question": "Article 3",
+        "proposed_duration_days": 180,
+        "scope": "Official hearing discusses solar proposal. Attributed developer project acreage/jobs and speaker legal claims not accepted as measured facts, project identity joins or causal findings."
+      },
+      "quote": "Article #3 is the proposed 180-day moratorium on solar energy facilities within the Town of Jay.",
+      "span": "utf8-text-codepoints:2194:2290"
+    },
+    {
+      "claim_id": "jay-review-06",
+      "source_document_id": "jay-review-petition",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "jay-article-3-recovery"
+      },
+      "predicate": "petition_requested_question_variant",
+      "value": {
+        "scope": "Petition uses plural ordinances/standards and other applicable municipal regulations; final warrant uses singular ordinance/standard and omits applicable. Do not relabel petition text as exact final ballot or enacted wording."
+      },
+      "quote": "and other applicable municipal regulations concerning such facilities?",
+      "span": "utf8-text-codepoints:999:1069"
+    },
+    {
+      "claim_id": "jay-review-07",
+      "source_document_id": "jay-review-petition",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "jay-article-3-recovery"
+      },
+      "predicate": "proposed_duration_anchor",
+      "value": {
+        "duration_days": 180,
+        "start": "Effective date established by the Town",
+        "scope": "Proposed petition clause only. No actual start, November 3 automatic-effect rule, exact expiry or exercised extension inferred."
+      },
+      "quote": "effective date established by the Town.",
+      "span": "utf8-text-codepoints:1257:1296"
+    },
+    {
+      "claim_id": "jay-review-08",
+      "source_document_id": "jay-review-petition",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "jay-article-3-recovery"
+      },
+      "predicate": "proposed_permit_and_construction_pause",
+      "value": {
+        "mechanism": "moratorium",
+        "scope": "Proposed pause on new commercial ground-mounted solar municipal authorizations and construction/site preparation pursuant to post-effective approval; no permit actually invalidated."
+      },
+      "quote": "municipal permit, approval, license, or other municipal authorization required for a",
+      "span": "utf8-text-codepoints:1397:1481"
+    },
+    {
+      "claim_id": "jay-review-09",
+      "source_document_id": "jay-review-petition",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "jay-article-3-recovery"
+      },
+      "predicate": "proposed_commercial_definition",
+      "value": {
+        "covered_use": "Ground-supported solar photovoltaic generation primarily for sale, resale, commercial use or compensation",
+        "exclusion": "Solely on-site residential or agricultural use",
+        "numeric_threshold": null,
+        "scope": "Petition definition, not a MW/acre threshold or final operative law."
+      },
+      "quote": "intended primarily to generate electricity for sale, resale, commercial use, or",
+      "span": "utf8-text-codepoints:1945:2024"
+    },
+    {
+      "claim_id": "jay-review-10",
+      "source_document_id": "jay-review-petition",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "jay-article-3-recovery"
+      },
+      "predicate": "proposed_existing_work_qualification",
+      "value": {
+        "exemption": "Lawfully commenced work pursuant to valid municipal permit issued before effective date, except otherwise permitted by law",
+        "scope": "Not blanket grandfathering of all pending applications or all pre-effective proposals."
+      },
+      "quote": "This moratorium shall not invalidate or prohibit work lawfully commenced pursuant",
+      "span": "utf8-text-codepoints:2127:2208"
+    },
+    {
+      "claim_id": "jay-review-11",
+      "source_document_id": "jay-review-petition",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "jay-article-3-recovery"
+      },
+      "predicate": "no_project_determination",
+      "value": {
+        "scope": "Petition states general coverage and no approval/denial of a particular proposed project. Hearing project context is not an accepted measure-project relationship."
+      },
+      "quote": "7. No determination regarding any particular project,",
+      "span": "utf8-text-codepoints:5095:5148"
+    },
+    {
+      "claim_id": "jay-review-12",
+      "source_document_id": "jay-review-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "jay-article-3-recovery"
+      },
+      "predicate": "secondary_unofficial_return",
+      "value": {
+        "yes_votes": 1464,
+        "no_votes": 723,
+        "scope": "Sun Journal reports town-clerk unofficial counts for solar moratorium only; separate rent question/overall ballots excluded. Primary return/certification and formal passage rule remain unknown."
+      },
+      "quote": "the solar moratorium passed 1,464-723, according to unofficial results from the town clerk.",
+      "span": "utf8-text-codepoints:260:351"
+    }
+  ],
+  "visual_page_receipts": [
+    {
+      "source_document_id": "jay-review-warrant",
+      "page": 1,
+      "body_sha256": "c0d138f1f93e6ffb41cc499f7ef1ced09e9ee35d687f244b7e725e7c07ff9abd",
+      "image_sha256": "a46a021b6a8219ed972d559f5c8652d0ab55b5de48e9dcd997f8de9b44f11796",
+      "scope": "Complete PDF page directly visually inspected by coordinator; source body and render hashes pinned."
+    },
+    {
+      "source_document_id": "jay-review-petition",
+      "page": 1,
+      "body_sha256": "3866d45385b3c92baeb43d4e5a0953c56133f235fdbfb209dde0ce186bbec5ac",
+      "image_sha256": "f3282d8b3efa4047bb986936894bfe8ec40fb50ed4c46ccdcf342841c405f55b",
+      "scope": "Complete PDF page directly visually inspected by coordinator; source body and render hashes pinned."
+    },
+    {
+      "source_document_id": "jay-review-petition",
+      "page": 2,
+      "body_sha256": "3866d45385b3c92baeb43d4e5a0953c56133f235fdbfb209dde0ce186bbec5ac",
+      "image_sha256": "a7e359d7048103f8eb6d7523320fa32f0b35e26e0d5b0f132a1712e17d3c8c62",
+      "scope": "Complete PDF page directly visually inspected by coordinator; source body and render hashes pinned."
+    },
+    {
+      "source_document_id": "jay-review-petition",
+      "page": 3,
+      "body_sha256": "3866d45385b3c92baeb43d4e5a0953c56133f235fdbfb209dde0ce186bbec5ac",
+      "image_sha256": "9e3049888421712562fe154e5ca88ee2c56cdce3952009a90b707a8c0feaa634",
+      "scope": "Complete PDF page directly visually inspected by coordinator; source body and render hashes pinned."
+    },
+    {
+      "source_document_id": "jay-review-minutes",
+      "page": 1,
+      "body_sha256": "08ad66087d8f95a9fa845c966d6a15a57218e4e95061253bd1efe2bd6e505333",
+      "image_sha256": "fbd58202ded9ca6cad9ce8362c9e7def3c4c40f0656fb96b9473b3cf5734539c",
+      "scope": "Complete PDF page directly visually inspected by coordinator; source body and render hashes pinned."
+    },
+    {
+      "source_document_id": "jay-review-minutes",
+      "page": 2,
+      "body_sha256": "08ad66087d8f95a9fa845c966d6a15a57218e4e95061253bd1efe2bd6e505333",
+      "image_sha256": "19daa9bc49d7c9a3b8ec6d35d209c8c74c47f89e890fdbfee185239fb3ef953d",
+      "scope": "Complete PDF page directly visually inspected by coordinator; source body and render hashes pinned."
+    },
+    {
+      "source_document_id": "jay-review-minutes",
+      "page": 3,
+      "body_sha256": "08ad66087d8f95a9fa845c966d6a15a57218e4e95061253bd1efe2bd6e505333",
+      "image_sha256": "4d91fab689157d9a8f4cf41485de161adf0366fabf39389df3ca9297a19dde46",
+      "scope": "Complete PDF page directly visually inspected by coordinator; source body and render hashes pinned."
+    }
+  ],
+  "scope": "Named Jay primary-source recovery and scoped review only; not canonical publication or current-force finding. Original empty text preserved alongside OCR; precise warrant question uses full-image review.",
+  "unresolved": [
+    "Official printed/cast ballot, primary election return and certification",
+    "Formal passage rule and legal outcome",
+    "Enrolled/adopted moratorium text, effective date established by town, operative interval and later actions",
+    "Independent petition signatures/sufficiency and original qualification history",
+    "Canonical identity allocation, expanded-model promotion and final release gates"
+  ]
+}
