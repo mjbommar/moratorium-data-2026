@@ -1,0 +1,321 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "seed_id": "bp-543536258772a28d",
+  "scope": "Primary advisory/qualification review; no canonical promotion, result certification or current legal restriction accepted.",
+  "sources": [
+    {
+      "source_document_id": "joliet-qualification-notice",
+      "url": "https://www.joliettownship.net/wp-content/uploads/2026/09/County-Clerk-Election-Posting-Notice-Joliet-Township.pdf",
+      "body_sha256": "5a97ad489c197b13d1f952ad1f361d08061db76ccde6a8df16685ad184cdf2ac",
+      "text_sha256": "d3b118b575de814ef24f3619f9925e39a126089a42a756795f9ef623b45d1c20",
+      "retrieved_at": "2026-11-06T05:32:44.979763+00:00",
+      "attempt_id": "ef5d991cbab44613a546238e923cb8e4"
+    },
+    {
+      "source_document_id": "joliet-qualification-resolution",
+      "url": "https://www.joliettownship.net/wp-content/uploads/2026/05/2026-08-Resolution-Authorizing-the-Submission-to-the-Electors-of-JT-of-a-Construction-of-AI-Data-Centers-Advisory-Question.pdf",
+      "body_sha256": "cafb5a72e61f185045992fdd53fbf9b7b54289fd1c4a24791bf0d33d0f02c8b6",
+      "text_sha256": "06db51c64eae3a32c8138a4ef539a5fe2da016a0cd1f79de3075891bab54d998",
+      "retrieved_at": "2026-11-06T05:33:21.783657+00:00",
+      "attempt_id": "ae09ca04cc8c4a32846fac4ec157a495"
+    },
+    {
+      "source_document_id": "joliet-qualification-elections",
+      "url": "https://www.joliettownship.net/public-info/elections/",
+      "body_sha256": "cfab9a2c9dd83d5b15a17b0ad02a389f457a1b7117fa3b3a7c1e2e5cc2050aff",
+      "text_sha256": "f8c42865f0af406c7119804ce1f01b39c7f88c7ec8c79ed8e84008646ba83c6c",
+      "retrieved_at": "2026-11-06T05:32:45.069048+00:00",
+      "attempt_id": "7738066753834391ae55e06b4d21853c"
+    },
+    {
+      "source_document_id": "joliet-qualification-resolution-index",
+      "url": "https://www.joliettownship.net/public-info/proclamations-and-ordinances/",
+      "body_sha256": "2bca7969d30287b07998c55876b4511e80943b3e31404086c23474ff25953e15",
+      "text_sha256": "0e42013614699e80510ef156733c6dc5dd8d30c822708c2bf24839f098c495ca",
+      "retrieved_at": "2026-11-06T05:32:45.521040+00:00",
+      "attempt_id": "437f325438d746009ec0c45e1564d494"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "joliet-qualification-review-01",
+      "source_document_id": "joliet-qualification-notice",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-543536258772a28d"
+      },
+      "predicate": "wording",
+      "value": "Should the Joliet City Council approve construction of AI data centers?",
+      "quote": "Should the Joliet City Council approve construction of AI data centers?",
+      "span": "utf8-text-codepoints:351:422"
+    },
+    {
+      "claim_id": "joliet-qualification-review-02",
+      "source_document_id": "joliet-qualification-notice",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-543536258772a28d"
+      },
+      "predicate": "advisory_electorate_election",
+      "value": {
+        "bindingness": "advisory",
+        "electorate": "Joliet Township",
+        "county": "Will",
+        "state": "IL",
+        "election_date": "2026-11-03",
+        "addressed_actor": "Joliet City Council",
+        "yes_direction": "facilitates"
+      },
+      "quote": null,
+      "span": "pdf-page:1"
+    },
+    {
+      "claim_id": "joliet-qualification-review-03",
+      "source_document_id": "joliet-qualification-notice",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-543536258772a28d"
+      },
+      "predicate": "notice_execution",
+      "value": {
+        "source_date": "2026-09-29",
+        "signed_officer": "Annette Parker, Will County Clerk",
+        "certification_scope": "Election notice only, not result certification"
+      },
+      "quote": null,
+      "span": "pdf-page:1"
+    },
+    {
+      "claim_id": "joliet-qualification-review-04",
+      "source_document_id": "joliet-qualification-resolution",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-543536258772a28d"
+      },
+      "predicate": "recited_annual_meeting_approval",
+      "value": {
+        "meeting_date": "2026-04-14",
+        "body": "Joliet Township electors at annual township meeting",
+        "action": "voice vote to place advisory referendum on November 3 ballot",
+        "legal_basis_as_cited": "60 ILCS 1/30-205",
+        "scope": "Resolution recital; underlying annual-meeting minutes and current statutory version not independently recovered"
+      },
+      "quote": null,
+      "span": "pdf-page:2"
+    },
+    {
+      "claim_id": "joliet-qualification-review-05",
+      "source_document_id": "joliet-qualification-resolution",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-543536258772a28d"
+      },
+      "predicate": "authorized_ballot_wording",
+      "value": {
+        "wording": "Should the Joliet City Council approve construction of AI data centers?",
+        "electorate": "Joliet Township",
+        "election_date": "2026-11-03",
+        "filing_instruction": "Township Clerk directed to file certified resolution with Will County Clerk; actual transmittal not established by instruction alone"
+      },
+      "quote": null,
+      "span": "pdf-page:3"
+    },
+    {
+      "claim_id": "joliet-qualification-review-06",
+      "source_document_id": "joliet-qualification-resolution",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-543536258772a28d"
+      },
+      "predicate": "board_adoption",
+      "value": {
+        "resolution": "2026-08",
+        "adoption_date": "2026-05-19",
+        "approving_body": "Supervisor and Board of Trustees of Joliet Township",
+        "recorded_yes_votes": 5,
+        "execution": "Supervisor signature and clerk attestation/seal visible",
+        "scope": "Ballot placement authorization, not construction authorization or a development moratorium"
+      },
+      "quote": null,
+      "span": "pdf-page:4"
+    },
+    {
+      "claim_id": "joliet-qualification-review-07",
+      "source_document_id": "joliet-qualification-resolution",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-543536258772a28d"
+      },
+      "predicate": "resolution_copy_certification",
+      "value": {
+        "certifying_officer": "Kendra Landfair, Joliet Township Clerk",
+        "certification_date": "2026-05-19",
+        "scope": "Full true and correct copy of adopted Resolution 2026-08; not certification of election results"
+      },
+      "quote": null,
+      "span": "pdf-page:5"
+    }
+  ],
+  "visual_reviews": {
+    "joliet-qualification-review-02": {
+      "claim_id": "joliet-qualification-review-02",
+      "source_document_id": "joliet-qualification-notice",
+      "claim_sha256": "abb06aa4d1e1fbb261f4fd95b79c6c939ab8c26262faa9c028436b6348e3aebb",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "bindingness": "advisory",
+        "electorate": "Joliet Township",
+        "county": "Will",
+        "state": "IL",
+        "election_date": "2026-11-03",
+        "addressed_actor": "Joliet City Council",
+        "yes_direction": "facilitates"
+      },
+      "source_body_sha256": "5a97ad489c197b13d1f952ad1f361d08061db76ccde6a8df16685ad184cdf2ac",
+      "pdf_page": 1,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 1,
+        "dpi": 150
+      },
+      "render_sha256": "a52134943dbf8bd9c47d2228ff5b49684cac18e33cbbbbac53bd23ce3aa841b8"
+    },
+    "joliet-qualification-review-03": {
+      "claim_id": "joliet-qualification-review-03",
+      "source_document_id": "joliet-qualification-notice",
+      "claim_sha256": "b66be0fd58a2863eb5d11100346723daceeab365e466558e68cbd9faa6e0b67f",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "source_date": "2026-09-29",
+        "signed_officer": "Annette Parker, Will County Clerk",
+        "certification_scope": "Election notice only, not result certification"
+      },
+      "source_body_sha256": "5a97ad489c197b13d1f952ad1f361d08061db76ccde6a8df16685ad184cdf2ac",
+      "pdf_page": 1,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 1,
+        "dpi": 150
+      },
+      "render_sha256": "a52134943dbf8bd9c47d2228ff5b49684cac18e33cbbbbac53bd23ce3aa841b8"
+    },
+    "joliet-qualification-review-04": {
+      "claim_id": "joliet-qualification-review-04",
+      "source_document_id": "joliet-qualification-resolution",
+      "claim_sha256": "d5d49f7429ddbc5ff5c18c4c4ec86e91f19f6271a31c6bf8775bf60a841269a9",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "meeting_date": "2026-04-14",
+        "body": "Joliet Township electors at annual township meeting",
+        "action": "voice vote to place advisory referendum on November 3 ballot",
+        "legal_basis_as_cited": "60 ILCS 1/30-205",
+        "scope": "Resolution recital; underlying annual-meeting minutes and current statutory version not independently recovered"
+      },
+      "source_body_sha256": "cafb5a72e61f185045992fdd53fbf9b7b54289fd1c4a24791bf0d33d0f02c8b6",
+      "pdf_page": 2,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 150
+      },
+      "render_sha256": "b718df3d1aedcf048eb4409b3f89557c638b26ba2baac295d144c0cc770f8bff"
+    },
+    "joliet-qualification-review-05": {
+      "claim_id": "joliet-qualification-review-05",
+      "source_document_id": "joliet-qualification-resolution",
+      "claim_sha256": "188cb63bc7427b73a73480865a7239857888f123346933d6b3afccfa4601edfc",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "wording": "Should the Joliet City Council approve construction of AI data centers?",
+        "electorate": "Joliet Township",
+        "election_date": "2026-11-03",
+        "filing_instruction": "Township Clerk directed to file certified resolution with Will County Clerk; actual transmittal not established by instruction alone"
+      },
+      "source_body_sha256": "cafb5a72e61f185045992fdd53fbf9b7b54289fd1c4a24791bf0d33d0f02c8b6",
+      "pdf_page": 3,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 3,
+        "dpi": 150
+      },
+      "render_sha256": "074edcbedb74be1461d8da7828fbf3355092ec3e19f4231ee2c63be6d0c36ceb"
+    },
+    "joliet-qualification-review-06": {
+      "claim_id": "joliet-qualification-review-06",
+      "source_document_id": "joliet-qualification-resolution",
+      "claim_sha256": "68f27947d923f201baabe777758e617b83f6a602ec4870476737355e8dc29eae",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "resolution": "2026-08",
+        "adoption_date": "2026-05-19",
+        "approving_body": "Supervisor and Board of Trustees of Joliet Township",
+        "recorded_yes_votes": 5,
+        "execution": "Supervisor signature and clerk attestation/seal visible",
+        "scope": "Ballot placement authorization, not construction authorization or a development moratorium"
+      },
+      "source_body_sha256": "cafb5a72e61f185045992fdd53fbf9b7b54289fd1c4a24791bf0d33d0f02c8b6",
+      "pdf_page": 4,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 4,
+        "dpi": 150
+      },
+      "render_sha256": "4c9e16d6a3765007fcdbfb82242b3e4a237192d132ffaa7ac05ee4823531577f"
+    },
+    "joliet-qualification-review-07": {
+      "claim_id": "joliet-qualification-review-07",
+      "source_document_id": "joliet-qualification-resolution",
+      "claim_sha256": "bac6f532028687345b997d1f0bd3b98e37543661a9efcd22e716b2713037fcb2",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "certifying_officer": "Kendra Landfair, Joliet Township Clerk",
+        "certification_date": "2026-05-19",
+        "scope": "Full true and correct copy of adopted Resolution 2026-08; not certification of election results"
+      },
+      "source_body_sha256": "cafb5a72e61f185045992fdd53fbf9b7b54289fd1c4a24791bf0d33d0f02c8b6",
+      "pdf_page": 5,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 5,
+        "dpi": 150
+      },
+      "render_sha256": "1b30539ff3c7608d3e8f90286cc1b66e1d227777cf761a41e3fc6bd3253466cb"
+    }
+  },
+  "publisher_reference_chain": [
+    {
+      "from_source_id": "joliet-qualification-elections",
+      "to_source_id": "joliet-qualification-notice",
+      "exact_href_verified": true,
+      "anchor": "November 3, 2026 Legal Notice of Election"
+    },
+    {
+      "from_source_id": "joliet-qualification-resolution-index",
+      "to_source_id": "joliet-qualification-resolution",
+      "exact_href_verified": true,
+      "anchor": "2026-08 \u2013 Authorizing the Submission to the Electors of Joliet Township of a Construction of AI Data Centers Advisory Question Approved at the Annual Township Meeting for Placement on the Ballot"
+    }
+  ],
+  "accepted_interpretation": {
+    "bindingness": "advisory",
+    "yes_direction": "facilitates",
+    "electorate": "Joliet Township",
+    "addressed_actor": "Joliet City Council",
+    "placement_method": "other",
+    "placement_source_term": "Electors approved at annual township meeting; Supervisor/Board authorized submission by Resolution 2026-08",
+    "legal_basis": "60 ILCS 1/30-205, as cited in Resolution 2026-08"
+  },
+  "unresolved": [
+    "Underlying April 14 annual-meeting minutes and complete petition/filing history",
+    "Current statutory version and independent legal qualification audit",
+    "Five-ballot accounting discrepancy in retained Will County CSV",
+    "Final result certification, formal outcome and later legal implementation"
+  ]
+}

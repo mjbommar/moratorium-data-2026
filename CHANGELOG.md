@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Joliet Township primary recovery finds signed Resolution 2026-08 and the county clerk’s September 29 advisory election notice. The resolution recites April 14 electors’ approval and records May 19 board authorization with a true-copy certificate; none certifies November results or authorizes construction. The five-ballot source arithmetic difference remains unresolved. This evidence review changes no canonical counts. See [review packet](work/research/2026-11-06/joliet-qualification-review/README.md).
+
 Bloomington township adds a seventeenth scoped ballot record, with advisory wording and official 21,851 yes / 6,316 no. The township electorate remains distinct from the city named in the question; Area60/60 is not recast as precincts, and specimen true-copy certification is not result certification. The frozen census now has 17 published / 39 pending groups. No legacy counts change. See [publication packet](work/research/2026-11-06/bloomington-promotion/README.md).
 
 New Jersey review separates enacted S3379/A4096 from independently pending A4696, preserving the original stable policy ID and recording the split mapping. The tracker now has 442 actions / 440 bill rows / 94 enacted bills. Chapter 32’s BPU-set threshold ceiling is no greater than 50 MW, rather than a fixed 100 MW; chapter 98’s report-triggered expiration and chapter 335’s April 1 applicability are recorded. SR18 is explicitly nonbinding. Local totals are unchanged. See [review packet](work/research/2026-11-06/nj-policy-wave1/README.md).

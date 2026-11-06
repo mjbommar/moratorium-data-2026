@@ -142,6 +142,7 @@ Exit: accepted pilot report and separately authorized bounded collection scope.
 - [x] Compile all 22 terminal ballot jobs into a candidate review snapshot: 58 observations, 56 logical seed groups, pinned inputs and explicit Illinois duplicate identities (`work/research/2026-11-05/ballot-census-review/`). Evidence, census completeness and legal promotion remain open.
 - [ ] Reconcile 41/44/45 November tallies by record-level set differences and explicit inclusion rules.
 - [ ] Acquire ballot/warrant text, qualification/referral records and official return/certification evidence.
+- [x] Recover and visually review Joliet Township’s signed Resolution 2026-08 and county-clerk advisory notice; preserve two-stage referral terms and separate resolution certification from election certification (`work/research/2026-11-06/joliet-qualification-review/README.md`). Canonical promotion, result reconciliation and legal implementation remain open.
 - [ ] Keep unofficial, certified, recounted and amended results as distinct observations.
 - [ ] Check exact wording, passage rules and reverse/mixed polarity for every included measure.
 - [x] Review Eliot Question 5 against the official sample ballot, signed warrant and certified proposed text; pin five visual source passages and classify the enactment question, while leaving its effective date and legal-force interval unresolved (`work/research/2026-11-05/ballot-census-review/eliot-review.md`).
