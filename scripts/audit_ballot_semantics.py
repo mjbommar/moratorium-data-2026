@@ -61,6 +61,7 @@ def inspect(tables):
             mechanism=mechanism,yes_direction=measure['yes_direction'],
             expected_single_proposition_direction=expected,lineage=lineage,review_flags=flags))
     complete=[]
+    superseded_results={r.get('supersedes_id') for r in tables['measure_results']}
     for result in tables['measure_results']:
         if result['reporting_status']!='complete':continue
         lineage=field_lineage('measure_results',result['result_observation_id'],'reporting_status','complete')
@@ -71,6 +72,7 @@ def inspect(tables):
         if result.get('reporting_scope') is None:flags.append('reporting_scope_not_recorded')
         elif scope_lineage['accepted_decision_state']!='single':flags.append('reporting_scope_accepted_decision_'+scope_lineage['accepted_decision_state'])
         complete.append(dict(result_observation_id=result['result_observation_id'],
+            is_current=result['result_observation_id'] not in superseded_results,
             measure_id=result['measure_id'],source_document_id=result['source_document_id'],
             reporting_scope=result.get('reporting_scope'),certification_status=result['certification_status'],
             lineage=lineage,scope_lineage=scope_lineage,
@@ -79,6 +81,8 @@ def inspect(tables):
     return dict(advisory_provisions=advisory,complete_result_observations=complete,
         mechanism_counts=dict(Counter(p['mechanism'] for p in tables['measure_provisions'])),
         reporting_status_counts=dict(Counter(r['reporting_status'] for r in tables['measure_results'])),
+        current_reporting_status_counts=dict(Counter(r['reporting_status'] for r in tables['measure_results']
+            if r['result_observation_id'] not in superseded_results)),
         scope='Structural current-use and explicit named-value lineage inventory. No source reacquisition, entailment judgment, automatic rejection or canonical writes.')
 
 

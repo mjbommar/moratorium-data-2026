@@ -63,12 +63,21 @@ value, with separate supporting claims as needed. Building area differs from
 building-plus-associated-impervious-surface area. Extraction passage roles and
 exact matches remain nominations for review, not accepted legal roles.
 
-The [current-use audit](../work/audit/ballot-semantic-use-audit-2026-11-06.json)
+The [post-correction current-use audit](../work/audit/ballot-semantic-use-post-correction-2026-11-06.json)
 checks consistency and direct field-value lineage at a pinned snapshot. It does
 not reacquire sources or rewrite records. A claim without the named mechanism
 value is a review flag, not proof that the underlying source lacks support.
 
 ## Current review queue
+
+The [applied correction](../work/research/2026-11-06/ballot-semantic-lineage/README.md)
+now supplies explicit mechanism support for those four provisions and a separate
+Monterey Park successor with city-total count-completion/scope support. It also
+qualifies Wrightstown's proposed geography and leaves Bloomington's restriction
+territory unresolved. Earlier records and the initial audit remain retained.
+The current targeted audit has no flags; it does not establish full source
+entailment or close broader role contracts, freshness or legal-force review.
+The following paragraph records the finding at the original baseline.
 
 At snapshot `a5c897f0d64f46b06fc1d19564cd5b9522a5a4e41a1e25d2fd8c0f59ceea4a3a`,
 all eight advisory provisions are directionally consistent with their reviewed

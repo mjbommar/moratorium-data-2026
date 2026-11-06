@@ -285,3 +285,26 @@ The qualification regression now rejects accepted enactment links from disqualif
 The [three-document extraction evaluation](../work/research/2026-11-06/frozen-domain-evaluation/README.md) committed its source/settings/thresholds and twelve-slot checklist before calls. Actual bc-evidence/domain extraction processed nine supplied-text chunks, made ten accounted successful gpt-6-sol backend calls and produced 36 schema-valid, exactly located candidates. Source-based coordinator adjudication fully supports32and retains4ambiguities;11/12requiredslots match. The 95%support gate is not met and none of three source documents is review-ready. Two independent gpt-6.1-terra CLI reviews cover all candidates/slots and agree on35/36labels; this is AI agreement, not truth. Successful-call estimated usage cost$0.2375234 and backend reservations are recorded separately from the intended provider-request ceiling; CLI spend remains unknown. Cached replay makes no calls. Canonical inputs are unchanged and no candidates are promoted. Historical source familiarity, post-extraction rubric operationalization and unmeasured discovery/false-exclusion rates remain explicit.
 
 The evaluation also exposed a transport-accounting gap: bc-llm max_attempts1does not disable the installed OpenAI SDK default of two retries. Ten accounted backend calls and their successful-call estimated usage costs are verified; actual provider HTTP-attempt count is not captured. The intended thirteen-provider-request limit is therefore unverified, not known exceeded. Backend reservations stay within their recorded limits, while failed/retried provider charges and CLI spend are not a complete invoice. Strict transport retry/attempt controls must be fixed before claiming a provider-level cap. See [SDK audit](../work/research/2026-11-06/frozen-domain-evaluation/sdk-retry-audit.json).
+
+## Advisory mechanism and count-scope correction
+
+The [applied semantic-lineage packet](../work/research/2026-11-06/ballot-semantic-lineage/README.md)
+closes five explicit field-evidence tasks after coordinator review of nine PDF
+pages and two distributed `gpt-6.1-terra` source-image reviews. Four advisory
+mechanisms retain their values with direct claim support. Wrightstown retains
+the proposed infrastructure/service and within-or-affecting qualifications;
+Bloomington restriction territory becomes unresolved. An immutable Monterey Park
+successor records final city-total count scope while preserving all counts and
+the separate county/city certification phases. Earlier observations and decisions
+remain unchanged. Three pre-application preparation/receipt issues were caught
+and resolved before canonical publication.
+
+Current totals: 50 measures, 57 retained/50 current result observations, five
+current certified observations, 141 sources, 523 claims and 2,369 decisions. Both
+legacy CSVs are unchanged. Full evidence preflight/application verifies 523 claim
+bindings; exact replay is a no-op. All 263 tests and 42 subtests pass; the complete
+data/site/check build passes with zero errors, 489 existing warnings and 53
+matching audited numbers. The post-correction targeted audit has no current-use
+flags; its historical predecessor gaps remain visible. This does not complete
+the extraction evaluation, broader freshness/implementation gates, final release
+or hosted/sibling delivery.

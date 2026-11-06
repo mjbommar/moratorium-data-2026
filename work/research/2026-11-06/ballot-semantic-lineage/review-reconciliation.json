@@ -1,0 +1,49 @@
+{
+  "reviews": [
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b32d-d106-78f2-9130-a7dc6f7e4407",
+      "state": "terminal",
+      "exit_code": 0,
+      "report_sha256": "4137625c6e2cf6bbd1cafab5ad81ebf078524c1961830a2173d06724b503943c",
+      "private_report": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/mechanism-correction-review.private.txt"
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b32d-d590-7ce1-9072-124f8a44ffcb",
+      "state": "terminal",
+      "exit_code": 0,
+      "report_sha256": "c118caaa3161439bbdbe04d66cb282a0dee71ccbc7897f1a1d2ab4c3d213e9f9",
+      "private_report": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/count-scope-correction-review.private.txt"
+    }
+  ],
+  "reviewed_initial_snapshot": "e614beafc548e492954572384cc0132cf0a8e8435b3ef00360f61a3649773964",
+  "refined_snapshot": "ec673e134a864672403f88538ad53e66c83cd738536c3143436ee05429496c76",
+  "scope": "CLI source-image reviews of initial candidate; coordinator directly reviewed nine PDF pages and applied the stated refinements. Final identity/publication require separate gates. No majority-vote acceptance.",
+  "findings": {
+    "four_mechanisms": "supported with source-role qualifications",
+    "monterey_completion_scope": "supported for the retained final contest canvass, not proof against later amendments",
+    "wrightstown": "retain service qualification, within-or-affecting scope and both pages; final ballot remains unrecovered",
+    "bloomington": "withhold restriction territory rather than equating township electorate with city actor",
+    "unchanged_qualifications": [
+      "separate county and city certification phases",
+      "source percentage denominator unknown",
+      "no allocation of ballot-vote difference",
+      "no current legal force acceptance"
+    ]
+  },
+  "preflight_failures": [
+    {
+      "reason": "Missing identity-evidence body hash in initial preparation",
+      "canonical_mutation": false
+    },
+    {
+      "reason": "Unicode JSON encoding mismatch in one visual receipt; repaired receipt hashing",
+      "canonical_mutation": false
+    },
+    {
+      "reason": "Conceptual withheld disposition encoded with a non-schema literal; changed unapplied decision to the existing unresolved enum.",
+      "canonical_mutation": false
+    }
+  ]
+}

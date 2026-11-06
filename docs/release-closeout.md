@@ -19,7 +19,14 @@ Sources: [discovery accounting](../work/audit/discovery-coordinator-accounting-2
 
 ## Current closure checkpoint
 
-The frozen discovery review now has zero candidates awaiting coordinator review: 38 additions, one covered existing instrument and 146 reviewed withheld. The current inventory contains 1,330 local records (1,079 classified active/extended, 79 pending and 172 past) and 442 state-policy records. The expanded ballot subset contains 50 measures, 56 retained results and 50 current observations, including five certified observations. These classifications and review dispositions do not establish inventory-wide current enforceability or complete election coverage.
+The frozen discovery review now has zero candidates awaiting coordinator review: 38 additions, one covered existing instrument and 146 reviewed withheld. The current inventory contains 1,330 local records (1,079 classified active/extended, 79 pending and 172 past) and 442 state-policy records. The expanded ballot subset contains 50 measures, 57 retained results and 50 current observations, including five certified observations. These classifications and review dispositions do not establish inventory-wide current enforceability or complete election coverage.
+
+The [semantic-lineage correction](../work/research/2026-11-06/ballot-semantic-lineage/README.md)
+adds explicit support for four unchanged advisory mechanisms and an immutable
+Monterey Park successor with reviewed city-total count scope. It preserves all
+earlier results, claims and decisions. Wrightstown's geography is qualified;
+Bloomington's restriction territory is unresolved. This closes five named
+field-evidence tasks, not inventory-wide freshness or the remaining plan gates.
 
 Public CSV projections now preserve retained results separately from current observations; immutable download manifests and both portable data pointers passed deterministic bundle/clean-restore checks. The search provenance adapter preserves response hashes, original ordering, error/interruption exchanges and unpriced spend. New reservations persist query/window intent before transport. These close specific implementation increments; remaining TODO gates, final copy/consumer reconciliation, final immutable publication and deployment verification remain required. The starting table above is a historical checkpoint.
 

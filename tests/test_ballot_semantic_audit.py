@@ -30,7 +30,7 @@ class SemanticAuditTests(unittest.TestCase):
 
     def test_superseded_acceptance_cannot_hide_withheld_field(self):
         tables=self.fixture();later=copy.deepcopy(tables['review_decisions'][0])
-        later.update(decision_id='later',supersedes_id='d',disposition='withheld')
+        later.update(decision_id='later',supersedes_id='d',disposition='unresolved')
         tables['review_decisions'].append(later)
         self.assertFalse(inspect(tables)['advisory_provisions'][0]['lineage']['direct_named_value_present'])
 
@@ -48,3 +48,16 @@ class SemanticAuditTests(unittest.TestCase):
         tables=self.fixture();later=copy.deepcopy(tables['review_decisions'][0]);later['decision_id']='other'
         tables['review_decisions'].append(later)
         self.assertIn('mechanism_accepted_decision_conflicting',inspect(tables)['advisory_provisions'][0]['review_flags'])
+
+    def test_old_complete_scope_gap_remains_historical_after_explicit_successor(self):
+        tables=self.fixture();old=dict(result_observation_id='old',measure_id='m',reporting_status='complete',
+            certification_status='certified',source_document_id='s',supersedes_id=None)
+        new=dict(old,result_observation_id='new',supersedes_id='old',reporting_scope=dict(kind='jurisdiction_total',description='Reviewed final city contest total'))
+        tables['measure_results']=[old,new]
+        result=inspect(tables)
+        self.assertEqual(result['reporting_status_counts'],{'complete':2})
+        self.assertEqual(result['current_reporting_status_counts'],{'complete':1})
+        prior,current=result['complete_result_observations']
+        self.assertFalse(prior['is_current']);self.assertTrue(current['is_current'])
+        self.assertIn('reporting_scope_not_recorded',prior['review_flags'])
+        self.assertNotIn('reporting_scope_not_recorded',current['review_flags'])

@@ -49,6 +49,26 @@ class VisualReview(unittest.TestCase):
                 verify(self.claim,self.source,self.index,self.review)
 
 
+class AdditionalPdfPages(unittest.TestCase):
+    setUp=VisualReview.setUp
+
+    def test_every_additional_page_is_reproduced(self):
+        self.review['additional_pdf_pages']=[dict(page=3,dpi=150,render_sha256='a'*64)]
+        with patch('visual_claim_review.render_hash',side_effect=['approved-image-hash','a'*64]) as render:
+            self.assertTrue(verify(self.claim,self.source,self.index,self.review))
+            self.assertEqual(render.call_args_list[-1].args,(self.body,3,150))
+        with patch('visual_claim_review.render_hash',side_effect=['approved-image-hash','b'*64]):
+            with self.assertRaisesRegex(ValueError,'Additional reviewed rendering'):
+                verify(self.claim,self.source,self.index,self.review)
+
+    def test_duplicate_primary_page_cannot_hide_missing_continuation(self):
+        self.review['additional_pdf_pages']=[dict(page=2,dpi=150,render_sha256='a'*64)]
+        with patch('visual_claim_review.render_hash') as render:
+            with self.assertRaisesRegex(ValueError,'additional PDF page'):
+                verify(self.claim,self.source,self.index,self.review)
+            render.assert_not_called()
+
+
 class NativePngReview(VisualReview):
     def setUp(self):
         super().setUp()

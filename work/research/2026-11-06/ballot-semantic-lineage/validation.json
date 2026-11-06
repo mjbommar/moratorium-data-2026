@@ -1,0 +1,55 @@
+{
+  "schema_version": "ballot-semantic-lineage-validation-1",
+  "snapshot": "ec673e134a864672403f88538ad53e66c83cd738536c3143436ee05429496c76",
+  "csv_projection": "a09d2f4fc4b120f9630ee69e0510516615273f5ad442a82dfdb6702bf1b2c768",
+  "identity_registry_sha256": "22013f9a6e0252a2baa645f71b19b87720a218f7a597ddef6ac68040137df2fe",
+  "records": {
+    "jurisdictions": 46,
+    "elections": 46,
+    "ballot_measures": 50,
+    "measure_provisions": 50,
+    "measure_results": 57,
+    "local_restrictions": 1,
+    "instrument_events": 0,
+    "measure_instrument_links": 1,
+    "source_documents": 141,
+    "claims": 523,
+    "review_decisions": 2369,
+    "search_runs": 1,
+    "search_attempts": 3,
+    "search_sightings": 18,
+    "coverage_observations": 1
+  },
+  "verified_claim_bindings": 523,
+  "current_result_observations": 50,
+  "current_certified_result_observations": 5,
+  "retained_result_observations": 57,
+  "project_tests_passed": 263,
+  "subtests_passed": 42,
+  "make_data_site_check_exit_code": 0,
+  "dataset_errors": 0,
+  "dataset_warnings": 489,
+  "audited_numeric_claims": 53,
+  "legacy_csv_sha256": {
+    "data/moratorium_inventory.csv": "bc5b2917ef203369af22c980438d6130ac7f326a7f4bc474e77db6e7a9a12ecd",
+    "data/state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038"
+  },
+  "legacy_csvs_unchanged": true,
+  "build_log_sha256": "6ea2f0bdb940e92a7d1ca168a972916447d53cfd70ec70ff456605759a998403",
+  "private_build_log": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/semantic-lineage-build.private.log",
+  "public_receipts_sha256": {
+    "preflight.json": "1cd88516a36e27a9cdb4fc58399876d3a0135d0522de40bd84bd2528f1347ce0",
+    "apply.json": "024759969c223051bd95498312e2109871cca75bee5f814d736f6a5284afc80b",
+    "replay.json": "4843045c7d0fd8690ae2d1f6cdc7c9384690acec69c6ebc1e8fc789d62699606",
+    "identity-apply.json": "89a60ddfbcecb0449d4b897b691f055905088952a98188d6ef6308787d5d8976",
+    "preservation-check.json": "3767e5128769ca132ed768604b762e3a8d9920b5e0f9441e943e04a83490c996",
+    "review-reconciliation.json": "cba102034796e619d06eea70cb0460cd4cf768a643fab804738aeb891957b2a1"
+  },
+  "post_correction_audit_sha256": "d5dd505ee5df1a696eeda96b0a5ce616dd3ae7ce0a2efaada17a4dac6537dd9f",
+  "limitations": [
+    "No new source reacquisition or later-amendment search.",
+    "Final extraction support gate remains unpassed.",
+    "No GitHub final release or hosted deployment.",
+    "CLI review spend is unpriced; this is not campaign invoice accounting."
+  ]
+}

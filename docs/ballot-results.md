@@ -12,7 +12,7 @@ Yes-vote direction follows the question wording. Advisory results express voter 
 | Measure | Election | Reporting scope | Bindingness | Yes-vote direction | Yes | No | Blank | Ballots cast | Certification | Reported outcome |
 |---|---|---|---|---|---:|---:|---:|---:|---|---|
 | [Alhambra, CA — Measure DB](<https://results.lavote.gov/text-results/4348>) | 2026-11-03 | scope not recorded | unresolved | restricts | 15237 | 3132 | unknown | unknown | unknown | unknown |
-| [Monterey Park, CA — Measure NDC](<https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026>) | 2026-06-02 | scope not recorded | unresolved | restricts | 10388 | 1372 | unknown | 12381 | certified 2026-06-30 | approved |
+| [Monterey Park, CA — Measure NDC](<https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026>) | 2026-06-02 | Whole jurisdiction: City of Monterey Park Measure NDC: grand total in the final official contest canvass, including precinct and vote-by-mail totals. | unresolved | restricts | 10388 | 1372 | unknown | 12381 | certified 2026-06-30 | approved |
 | [Edgewater, FL — Charter Amendment No. 4](<https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater>) | 2026-11-03 | Whole jurisdiction: City of Edgewater Amendment 4; Volusia County unofficial rendered result portal | binding | restricts | 7884 | 2328 | unknown | unknown | unofficial | unknown |
 | [Chouteau Township, IL — undesignated](<https://results.enr.clarityelections.com//IL/Madison/127555/385789/reports/summary.zip>) | 2026-11-03 | scope not recorded | advisory | facilitates | 365 | 1817 | unknown | 2224 | unknown | unknown |
 | [City of Bloomington Township, IL — ADVISORY DATA CENTER MORATORIUM](<https://results.enr.clarityelections.com//IL/Bloomington/127392/385593/reports/summary.zip>) | 2026-11-03 | scope not recorded | advisory | restricts | 21851 | 6316 | unknown | 29115 | unknown | unknown |
@@ -108,7 +108,7 @@ Relationship acceptance is separate from instrument status. A `proposes` link do
 
 Reported outcomes and certification are separate from calculated passage rules, operative dates and legal force. A reported approval does not automatically add an in-force legacy moratorium. See [scope and interpretation](ballot-measures.md) for unresolved legal implementation.
 
-56 result observations are retained, including explicitly superseded history. This view excludes superseded observations without deleting them.
+57 result observations are retained, including explicitly superseded history. This view excludes superseded observations without deleting them.
 
 ## Sources for reported outcomes
 
@@ -116,6 +116,6 @@ Reported outcomes and certification are separate from calculated passage rules, 
 - Eliot: [reported-outcome source](<https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/>).
 - Sabattus: [reported-outcome source](<https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/>).
 
-Pinned canonical snapshot: `a5c897f0d64f46b06fc1d19564cd5b9522a5a4e41a1e25d2fd8c0f59ceea4a3a`. Source observation times remain in the JSONL records; this generation is not a renewed current-force check.
+Pinned canonical snapshot: `ec673e134a864672403f88538ad53e66c83cd738536c3143436ee05429496c76`. Source observation times remain in the JSONL records; this generation is not a renewed current-force check.
 
-[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/a5c897f0d64f46b06fc1d19564cd5b9522a5a4e41a1e25d2fd8c0f59ceea4a3a/ballot_measures.jsonl)
+[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/ec673e134a864672403f88538ad53e66c83cd738536c3143436ee05429496c76/ballot_measures.jsonl)

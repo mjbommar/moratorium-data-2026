@@ -98,6 +98,18 @@ def verify(claim,source,index,review):
     elif (params.get('renderer')!='pdftoppm' or params['page']!=review['pdf_page']
           or not 1<=params['page']<=1000 or not 36<=params['dpi']<=300):
         raise ValueError('Unsupported visual rendering parameters')
+    additional=review.get('additional_pdf_pages',[])
+    if not isinstance(additional,list) or len(additional)>16 or native and additional:
+        raise ValueError('Unsupported additional PDF pages')
+    seen={params.get('page')}
+    for page in additional:
+        if (not isinstance(page,dict) or set(page)!={'page','dpi','render_sha256'}
+            or type(page['page']) is not int or not 1<=page['page']<=1000
+            or type(page['dpi']) is not int or not 36<=page['dpi']<=300
+            or page['page'] in seen or not isinstance(page['render_sha256'],str)
+            or len(page['render_sha256'])!=64 or any(c not in '0123456789abcdef' for c in page['render_sha256'])):
+            raise ValueError('Invalid additional PDF page parameters')
+        seen.add(page['page'])
     for version in index.get(source['url'],[]):
         if version['body_sha256']!=source['body_sha256'] or not version.get('body_artifact'):continue
         body=Path(version['body_artifact'])
@@ -114,5 +126,8 @@ def verify(claim,source,index,review):
             return True
         if render_hash(body,params['page'],params['dpi'])!=review['render_sha256']:
             raise ValueError('Reviewed rendering could not be reproduced')
+        for page in additional:
+            if render_hash(body,page['page'],page['dpi'])!=page['render_sha256']:
+                raise ValueError('Additional reviewed rendering could not be reproduced')
         return True
     raise ValueError('Retained reviewed source body unavailable or drifted')

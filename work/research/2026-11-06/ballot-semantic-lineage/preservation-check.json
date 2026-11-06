@@ -1,0 +1,96 @@
+{
+  "baseline_snapshot": "a5c897f0d64f46b06fc1d19564cd5b9522a5a4e41a1e25d2fd8c0f59ceea4a3a",
+  "candidate_snapshot": "ec673e134a864672403f88538ad53e66c83cd738536c3143436ee05429496c76",
+  "retained_immutable_records_unchanged": true,
+  "changed_existing_records": [
+    {
+      "table": "measure_provisions",
+      "id": "6dd428e5-1d3d-46d6-96ae-67739e34c087",
+      "fields": [
+        "claim_ids",
+        "geography"
+      ]
+    },
+    {
+      "table": "measure_provisions",
+      "id": "ce0de8ba-df24-44f7-877c-a33ba3d9636a",
+      "fields": [
+        "claim_ids"
+      ]
+    },
+    {
+      "table": "measure_provisions",
+      "id": "e0399024-e210-438e-9fad-6b1e4d6428dd",
+      "fields": [
+        "claim_ids"
+      ]
+    },
+    {
+      "table": "measure_provisions",
+      "id": "f6a0b566-7810-4157-acbc-3d8f911db1b1",
+      "fields": [
+        "claim_ids",
+        "geography"
+      ]
+    }
+  ],
+  "mechanism_replacements": [
+    {
+      "name": "wrightstown",
+      "provision_id": "6dd428e5-1d3d-46d6-96ae-67739e34c087",
+      "new_claim_id": "6177c5b7-9cb3-4305-b6a8-fd5465b3b92b",
+      "superseded_decision_id": "fca09267-c83a-4145-bca7-0bf34a07ccae"
+    },
+    {
+      "name": "downe",
+      "provision_id": "ce0de8ba-df24-44f7-877c-a33ba3d9636a",
+      "new_claim_id": "eee55290-9e77-4d8f-ac12-c56647fdaac8",
+      "superseded_decision_id": "58aea968-cfd0-459a-9f8e-be97b4e6c664"
+    },
+    {
+      "name": "joliet",
+      "provision_id": "e0399024-e210-438e-9fad-6b1e4d6428dd",
+      "new_claim_id": "89decd11-123d-41a3-b34c-8dc00914ddf8",
+      "superseded_decision_id": "adcd9314-28f2-4bf9-b083-5d5aa10909f0"
+    },
+    {
+      "name": "bloomington",
+      "provision_id": "f6a0b566-7810-4157-acbc-3d8f911db1b1",
+      "new_claim_id": "128da9d0-ad96-4abf-a63c-ac7842199a06",
+      "superseded_decision_id": "bd0f9383-5c68-4806-8e04-55773068c3e8"
+    }
+  ],
+  "old_result_id": "bbe595d2-2bb8-4bce-ae92-e65d467781a3",
+  "new_result_id": "cf6210e6-3c16-4dd1-8610-da8e50ee7185",
+  "unchanged_vote_and_certification_values": true,
+  "new_records_by_table": {
+    "jurisdictions": 0,
+    "elections": 0,
+    "ballot_measures": 0,
+    "measure_provisions": 0,
+    "measure_results": 1,
+    "local_restrictions": 0,
+    "instrument_events": 0,
+    "measure_instrument_links": 0,
+    "source_documents": 0,
+    "claims": 11,
+    "review_decisions": 35,
+    "search_runs": 0,
+    "search_attempts": 0,
+    "search_sightings": 0,
+    "coverage_observations": 0
+  },
+  "new_claim_ids": [
+    "128da9d0-ad96-4abf-a63c-ac7842199a06",
+    "2ae1103d-b5c5-431d-a904-cca0b7d49037",
+    "2db3c15b-d812-4e31-9dd5-999d917162ff",
+    "609ccc74-3f71-414d-b341-4bbdabd0c446",
+    "6177c5b7-9cb3-4305-b6a8-fd5465b3b92b",
+    "89decd11-123d-41a3-b34c-8dc00914ddf8",
+    "c14809a5-81fb-42ec-8218-adef33602c42",
+    "de7e0842-a69d-4219-93d8-44b85963b9db",
+    "e14d1f66-2d04-49aa-a920-0244ef8c9544",
+    "eee55290-9e77-4d8f-ac12-c56647fdaac8",
+    "f531b91a-5a28-41bd-b1bb-bd8138c767d5"
+  ]
+}

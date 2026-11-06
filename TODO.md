@@ -19,9 +19,11 @@ coverage, not a passed extraction evaluation or completed semantic migration.
   completeness semantics; inventory all eight current advisory uses and the one
   complete result, with two independent terra CLI reviews
   ([definitions and field-specific follow-up queue](docs/ballot-semantic-definitions.md)).
-- [ ] Strengthen explicit mechanism claim lineage for Wrightstown, Downe, Joliet
+- [x] Strengthen explicit mechanism claim lineage for Wrightstown, Downe, Joliet
   and Bloomington; re-review Monterey Park's final contest canvass and record
   completeness/scope support. Preserve prior decisions and all legal qualifications.
+  [Applied packet](work/research/2026-11-06/ballot-semantic-lineage/README.md)
+  retains the immutable predecessor and separately records two geography corrections.
 
 Created: 2026-11-05. Execution began under the user’s subsequent active-goal instruction.
 Checked tasks have local evidence; unchecked tasks remain required. No release has been published.
