@@ -1,0 +1,13 @@
+{
+  "observation": "Installed default provider client instantiated without network requests; max_retries is two. bc-llm returns a model string without proxy/factory, so agent/backend attempt limits do not by themselves disable SDK HTTP retries.",
+  "sdk_max_retries": 2,
+  "model_class": "OpenAIResponsesModel",
+  "files_sha256": {
+    "/home/mjbommar/projects/bc/bc-modules/.venv/lib/python3.14/site-packages/pydantic_ai/providers/openai.py": "e7207d28b6072be2cfa87e9f3fc905925f6451058fdbb6f8ce1aaf15c5c1a4d7",
+    "/home/mjbommar/projects/bc/bc-modules/.venv/lib/python3.14/site-packages/openai/__init__.py": "df04adb6b7a4481956342b4dbadeb9b8555e789e2efd1f8469fa6ddb4d22f7a8",
+    "/home/mjbommar/projects/bc/bc-modules/bc-llm/python/bc_llm/pydantic_ai_backend.py": "070cad9e9505814cb65866adc8efeb837ad74e276e32c3f7c967621477a528c2"
+  },
+  "provider_http_attempt_count": null,
+  "strict_provider_cap_verified": false,
+  "scope": "No evidence that the cap was actually exceeded; no provider-attempt ledger was captured. Accounted backend calls and successful usage costs remain measured."
+}

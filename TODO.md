@@ -49,7 +49,7 @@ Exit: ballot cases fit without conflating votes, legal force or legacy counts.
 - [ ] Add exact-identifier/reference chasing, feedback queries and bounded relaxation.
 - [ ] Calibrate ResearchSearch tiers without excluding primary sources or reverse-polarity measures.
 - [ ] Reserve bounded deep_research/source-agent use for difficult cases; retain skipped stages and conversations.
-- [ ] Configure current SerpAPI pricing and whole-run/per-stage budgets, including unpriced-call policy.
+- [ ] Configure current SerpAPI pricing and whole-run/per-stage budgets, including unpriced-call policy. The frozen extraction trial also finds that backend max_attempts1 leaves SDK retries enabled; actual provider attempts and failed-attempt spend are unobserved (`frozen-domain-evaluation/sdk-retry-audit.json`). Fix strict transport accounting before claiming a provider cap.
 - [ ] Pin model roles/settings and cache fingerprints; redact secrets from retained responses.
 - [x] Implement HTTP/browser escalation and bounded PDF/office-document collection.
 - [ ] Configure source/provider pacing, Retry-After, explicit retries and verified routing as applicable.
@@ -120,8 +120,8 @@ Exit: every accepted pilot assertion traces to reviewed evidence; unresolved cas
 - [x] Include earlier/December elections, failed qualification, changed results, mixed polarity and portal failure cases in the seventeen-case fixture set. Clarksville retains its conditional/conflicting date; five artificial schema examples are explicitly labeled. No synthetic or unresolved candidate is counted as a canonical election (`pilot-contract-review/`).
 - [ ] Include a council-only adoption/extension and predecessor-pause/replacement-ban history.
 - [ ] Measure discovery recall, false exclusions, primary-source recovery and identity/quote/date/unit accuracy.
-- [ ] Report reviewer disagreement, unresolved facts, extraction completeness and spend per review-ready record.
-- [ ] Set and assess documented quality thresholds; resolve silent high-impact errors before scaling.
+- [ ] Report reviewer disagreement, unresolved facts, extraction completeness and spend per review-ready record. A first frozen three-document actual-model evaluation now records 36 candidates, two independent terra CLI reviews, 35/36 label agreement, four unresolved classifications, 11/12 slot matches and no review-ready documents (`frozen-domain-evaluation/`); the broader P4 gate remains open.
+- [ ] Set and assess documented quality thresholds; resolve silent high-impact errors before scaling. The first frozen extraction trial failed its 95% fully-supported-candidate gate; do not scale or count ambiguous candidates as errors resolved (`work/research/2026-11-06/frozen-domain-evaluation/README.md`).
 - [ ] Present exact batch scope, call count, model/effort and budget for authorization before bulk execution.
 
 Exit: accepted pilot report and separately authorized bounded collection scope.

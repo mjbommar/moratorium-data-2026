@@ -1,0 +1,196 @@
+{
+  "schema_version": "domain-evaluation-audit-1",
+  "protocol_sha256": "f88151642572ad57fe14602af5bbb3e378205169b4c1fc38e524eee590bcb12c",
+  "private_protocol_sha256": "e782796f81dda6c88a94c551661b8943870022e9b568c602b4cfb8769aa2651a",
+  "gold_sha256": "3581bf67929e2b2449776cf73bcb84bc408ca587573cf9caf8b937e9e7bfbcee",
+  "cases": [
+    {
+      "case_id": "wells-warrant",
+      "candidates": 17,
+      "model_requests": 8,
+      "estimated_charged_usd": 0.16466060000000002,
+      "full_supplied_text_chunk_coverage": true,
+      "chunks": 7,
+      "successful_chunks": 7,
+      "replay_without_calls": true,
+      "supported": 16,
+      "unresolved": 1,
+      "support_fraction": 0.9411764705882353,
+      "required_slots": 4,
+      "matched_slots": 3,
+      "review_ready": false
+    },
+    {
+      "case_id": "bloomington-agenda",
+      "candidates": 9,
+      "model_requests": 1,
+      "estimated_charged_usd": 0.046742000000000006,
+      "full_supplied_text_chunk_coverage": true,
+      "chunks": 1,
+      "successful_chunks": 1,
+      "replay_without_calls": true,
+      "supported": 7,
+      "unresolved": 2,
+      "support_fraction": 0.7777777777777778,
+      "required_slots": 3,
+      "matched_slots": 3,
+      "review_ready": false
+    },
+    {
+      "case_id": "harwood-return",
+      "candidates": 10,
+      "model_requests": 1,
+      "estimated_charged_usd": 0.0261208,
+      "full_supplied_text_chunk_coverage": true,
+      "chunks": 1,
+      "successful_chunks": 1,
+      "replay_without_calls": true,
+      "supported": 9,
+      "unresolved": 1,
+      "support_fraction": 0.9,
+      "required_slots": 5,
+      "matched_slots": 5,
+      "review_ready": false
+    }
+  ],
+  "metrics": {
+    "candidate_count": 36,
+    "supported_candidates": 32,
+    "ambiguous_candidates": 4,
+    "confirmed_unsupported_candidates": 0,
+    "supported_relevant_fraction": 0.8888888888888888,
+    "schema_valid_candidates": 36,
+    "located_quote_candidates": 36,
+    "multiple_location_quotes": 4,
+    "required_slots": 12,
+    "matched_slots": 11,
+    "required_slot_recall": 0.9166666666666666,
+    "confirmed_high_impact_errors": 0,
+    "high_impact_ambiguities": 2,
+    "review_ready_documents": 0,
+    "estimated_usd_per_review_ready_document": null,
+    "discovery_recall": null,
+    "false_exclusion_rate": null,
+    "primary_recovery_rate": null,
+    "unmeasured_scope": "Sources were preselected/recovered; no discovery or relevance-exclusion experiment."
+  },
+  "frozen_gate_criteria": {
+    "located_quotes": true,
+    "field_schema": true,
+    "supported_relevant_candidates": false,
+    "required_slots": true,
+    "confirmed_high_impact_errors": true,
+    "full_text_coverage": true,
+    "no_canonical_writes": true,
+    "strict_provider_request_cap_verified": false
+  },
+  "frozen_gate_passed": false,
+  "reviewer_metrics": [
+    {
+      "reviewer_id": "coordinator",
+      "labels": {
+        "supported": 32,
+        "ambiguous": 4
+      },
+      "matched_slots": 11,
+      "review_file_sha256": "2578fa2e0c6692a2a9122fc6ee98236c4fa4e08774fb3a1e857a6bcab7b4aa5e",
+      "protocol_reference_sha256": "f88151642572ad57fe14602af5bbb3e378205169b4c1fc38e524eee590bcb12c"
+    },
+    {
+      "reviewer_id": "reviewer_1",
+      "labels": {
+        "supported": 33,
+        "unsupported": 1,
+        "ambiguous": 2
+      },
+      "matched_slots": 11,
+      "review_file_sha256": "4ef0566557e32d85090e09993f1eea44b5d4b95e97e5fc209fda9fde026de595",
+      "protocol_reference_sha256": "e782796f81dda6c88a94c551661b8943870022e9b568c602b4cfb8769aa2651a"
+    },
+    {
+      "reviewer_id": "reviewer-2",
+      "labels": {
+        "supported": 33,
+        "ambiguous": 3
+      },
+      "matched_slots": 11,
+      "review_file_sha256": "bab908b421563a468b45bed72b92fe091cbefa6dd44c2ae161f0a149839367eb",
+      "protocol_reference_sha256": "e782796f81dda6c88a94c551661b8943870022e9b568c602b4cfb8769aa2651a"
+    }
+  ],
+  "cli_reviewer_agreement": {
+    "candidate_count": 36,
+    "matching_labels": 35,
+    "observed_agreement": 0.9722222222222222,
+    "cohens_kappa": 0.8208955223880596,
+    "scope": "Agreement of two source-informed AI review runs, not accuracy or independent truth."
+  },
+  "issues": [
+    {
+      "case_id": "wells-warrant",
+      "candidate_id": "adffe789c55f15f1244a20922bffa255513b7df5c4cc36bca9481925539dde8c",
+      "table": "ballot_measures",
+      "field": "legal_basis",
+      "disposition": "ambiguous",
+      "high_impact_if_accepted": false,
+      "rationale": "The statutes appear in the full source, but one is invoked notwithstanding a contrary default and the other limits nullification. A flat legal_basis list loses those roles; keep the classification unresolved rather than treating source occurrence as affirmative authority."
+    },
+    {
+      "case_id": "bloomington-agenda",
+      "candidate_id": "e362663b644eca81171a46fa11997b617d6f0dc971c97099a6859fe7415ab700",
+      "table": "measure_provisions",
+      "field": "mechanism",
+      "disposition": "ambiguous",
+      "high_impact_if_accepted": false,
+      "rationale": "advisory_support could mean support for a moratorium or support for development. Source question favors a pause, but this enum axis is not sufficiently explicit; yes_direction=restricts is separately supported. Do not mark it false solely from a different canonical label."
+    },
+    {
+      "case_id": "bloomington-agenda",
+      "candidate_id": "bd422a43d12d383cb1c174584e337595949f1542ca47bd4b2cad6225ef33d173",
+      "table": "measure_provisions",
+      "field": "geography",
+      "disposition": "ambiguous",
+      "high_impact_if_accepted": true,
+      "rationale": "City is the proposed action target, township the electorate. The question supports the actor name but does not expressly resolve the proposed restriction territory/boundary. Withhold a geographic applicability interpretation."
+    },
+    {
+      "case_id": "harwood-return",
+      "candidate_id": "14af207ce6bb04cfc75db7382ba96c60f5ccff6dec608ec4a9e481f11b64851c",
+      "table": "measure_results",
+      "field": "reporting_status",
+      "disposition": "ambiguous",
+      "high_impact_if_accepted": true,
+      "rationale": "Fully reported precincts establish precinct reporting, but do not explicitly resolve count completeness/outstanding ballots. Keep complete unaccepted until reporting_status semantics/source scope are resolved."
+    }
+  ],
+  "spend": {
+    "accounted_backend_calls": 10,
+    "provider_http_attempts": null,
+    "observed_default_sdk_max_retries": 2,
+    "strict_provider_request_cap_verified": false,
+    "estimated_success_cost_usd": 0.23752340000000002,
+    "backend_allocation_charged_usd": 0.23752340000000002,
+    "backend_call_cap": 13,
+    "intended_provider_request_cap": 13,
+    "max_backend_allocations_usd": 6.5,
+    "cli_review_jobs": 2,
+    "cli_spend_usd": null,
+    "basis": "Installed bc-llm successful-call estimates and backend reservation ledger. Provider HTTP retries/failed-attempt charges are unobserved; no invoice or campaign-wide total."
+  },
+  "artifact_sha256": {
+    "/data0/moratorium-refresh-2026/frozen-domain-evaluation/wells-warrant/state.private.json": "007ea4124331743cc36a5a0e13080fd74350f9fd5a9541a88db5d1edf1a2d9c6",
+    "/data0/moratorium-refresh-2026/frozen-domain-evaluation/wells-warrant/domain-candidates.private.json": "0b99762a607f57f3106d0d695010d16d49535e2baeb89b03fb79db9071034201",
+    "/data0/moratorium-refresh-2026/frozen-domain-evaluation/wells-warrant/calls.private.jsonl": "47cb69044cceecb52103dc11c121d2a43b923c06114c038815fa417beeab5a63",
+    "/data0/moratorium-refresh-2026/frozen-domain-evaluation/wells-warrant/evaluation-status.private.json": "f96f63686988936dc45b753320aa7de8da5c256a997437b5bebd3120d261c9d9",
+    "/data0/moratorium-refresh-2026/frozen-domain-evaluation/bloomington-agenda/state.private.json": "20f59753303ab71dd610bd5272fcd40e4f3b1474b0b477c2c892a0f849142a0c",
+    "/data0/moratorium-refresh-2026/frozen-domain-evaluation/bloomington-agenda/domain-candidates.private.json": "362712017ba89f23a95d8d682f12be0c2b7e2c79998850961ed49b657bbcc295",
+    "/data0/moratorium-refresh-2026/frozen-domain-evaluation/bloomington-agenda/calls.private.jsonl": "1106b0460c0e61db134b1c437fa2cda84052f837d74e73ae05341b5fb6d21b34",
+    "/data0/moratorium-refresh-2026/frozen-domain-evaluation/bloomington-agenda/evaluation-status.private.json": "216280e0391834543cafc11e96a58edd6fa77d33e41df95290966b257d847f56",
+    "/data0/moratorium-refresh-2026/frozen-domain-evaluation/harwood-return/state.private.json": "a472c16711eb31fa6414471dd5bafca72477cb099713ffd341e1de2298b52127",
+    "/data0/moratorium-refresh-2026/frozen-domain-evaluation/harwood-return/domain-candidates.private.json": "6fade81950ab2297632d6b8cc9e20b1d5db9c95d402d325d436d4ad47c75df72",
+    "/data0/moratorium-refresh-2026/frozen-domain-evaluation/harwood-return/calls.private.jsonl": "1e5b600b1c2bf86a6690f18647c707d02098a673b7c034d9a05b5c81dee5123a",
+    "/data0/moratorium-refresh-2026/frozen-domain-evaluation/harwood-return/evaluation-status.private.json": "126caca71e040d6fde59c3e633b201d784e31db25f9abeccaa40f8c9d676f9c8"
+  },
+  "canonical_records_written": 0,
+  "scope": "Frozen prospective extraction evaluation of previously reviewed sources, followed by AI/source adjudication. Not historically unseen independent data, global discovery quality, source reacquisition, canonical acceptance or completed P4."
+}

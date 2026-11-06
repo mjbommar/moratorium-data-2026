@@ -1,0 +1,33 @@
+{
+  "freeze_commit": "6fd6e3f",
+  "public_protocol_sha256": "f88151642572ad57fe14602af5bbb3e378205169b4c1fc38e524eee590bcb12c",
+  "private_protocol_sha256": "e782796f81dda6c88a94c551661b8943870022e9b568c602b4cfb8769aa2651a",
+  "api_driver_sha256": "8ceb29b4e28cbb58aca13a5ac2bef8da8e7a2a91d3dcc697f4b887df483b10c5",
+  "coordinator_initial_sha256": "f4570f0f8ab83add18b21b298ad5fba1487a261e56b829f025d3be715e0eb53e",
+  "coordinator_final_sha256": "2578fa2e0c6692a2a9122fc6ee98236c4fa4e08774fb3a1e857a6bcab7b4aa5e",
+  "executed_code_archive_manifest_sha256": "018bbe64fd7614a47e585218724c4154a24bad69ace03d944de8e542da1d8250",
+  "labels_operationalized_after_extraction": true,
+  "extractor_tuned_after_freeze": false,
+  "gold_supplied_to_extractor": false,
+  "raw_source_and_model_payloads_public": false,
+  "canonical_inputs_unchanged": true,
+  "cli_jobs": [
+    {
+      "id": "domain-evaluation-review-1",
+      "model": "gpt-6.1-terra",
+      "state": "finished",
+      "prompt_sha256": "e0030bafe810e22762d965a9220c409d34f59c7dc976515b713ff1564b22fd9e",
+      "review_sha256": "4ef0566557e32d85090e09993f1eea44b5d4b95e97e5fc209fda9fde026de595"
+    },
+    {
+      "id": "domain-evaluation-review-2",
+      "model": "gpt-6.1-terra",
+      "state": "finished",
+      "prompt_sha256": "0d39184ca62d9fefc0eea2639b8ec87641133041905c3ea6b4e80e9c436062a6",
+      "review_sha256": "bab908b421563a468b45bed72b92fe091cbefa6dd44c2ae161f0a149839367eb"
+    }
+  ],
+  "sdk_retry_diagnostic_sha256": "0905eea0e2501d35f852aa014bd7795d7f13582674f827076d772155d2760f38",
+  "provider_attempt_cap_verified": false,
+  "retry_correction": "Original protocol narrative assumed broker retry controls covered transport; SDK diagnostic shows default two internal retries. Keep the original freeze unchanged and do not claim provider-cap compliance."
+}

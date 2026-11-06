@@ -1,0 +1,14 @@
+{
+  "model": "gpt-6.1-terra",
+  "scope": "Two independent local-source evaluations of retained frozen domain outputs; no source/API calls, edits or promotion. Reviewer label operationalization follows the frozen numeric thresholds/gold; do not claim original pre-tuning historical independence.",
+  "jobs": [
+    {
+      "id": "domain-evaluation-review-1",
+      "spec": "/home/mjbommar/projects/personal/moratorium-data-2026/work/jobs/2026-11-06-domain-evaluation/domain-evaluation-review-1.json"
+    },
+    {
+      "id": "domain-evaluation-review-2",
+      "spec": "/home/mjbommar/projects/personal/moratorium-data-2026/work/jobs/2026-11-06-domain-evaluation/domain-evaluation-review-2.json"
+    }
+  ]
+}

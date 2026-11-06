@@ -1,0 +1,34 @@
+{
+  "job_id": "domain-evaluation-review-1",
+  "supervisor_pid": 1477712,
+  "model": "gpt-6.1-terra",
+  "owned_paths": [
+    "/data0/moratorium-refresh-2026/frozen-domain-evaluation/domain-evaluation-review-1"
+  ],
+  "started_at": "2026-11-06T22:25:23.294915+00:00",
+  "state": "finished",
+  "prompt_sha256": "e0030bafe810e22762d965a9220c409d34f59c7dc976515b713ff1564b22fd9e",
+  "command": [
+    "codex",
+    "--search",
+    "exec",
+    "--model",
+    "gpt-6.1-terra",
+    "--sandbox",
+    "danger-full-access",
+    "-c",
+    "approval_policy=\"never\"",
+    "-c",
+    "model_reasoning_effort=\"medium\"",
+    "--cd",
+    "/home/mjbommar/projects/personal/moratorium-data-2026",
+    "--json",
+    "--output-last-message",
+    "/data0/moratorium-refresh-2026/frozen-domain-evaluation/review-runs/domain-evaluation-review-1/last-message.txt",
+    "-"
+  ],
+  "host": "server0",
+  "child_pid": 1477714,
+  "ended_at": "2026-11-06T22:27:22.519265+00:00",
+  "exit_code": 0
+}
