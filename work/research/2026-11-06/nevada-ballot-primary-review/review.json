@@ -1,0 +1,122 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "sources": [
+    {
+      "source_document_id": "nevada-review-city",
+      "url": "https://www.bcnv.org/193/Current-Ballot-Questions",
+      "body_sha256": "1a35089618bf0be847a24b1e308f8fa5518116b6f86b4ac58ef96777c692aece",
+      "text_sha256": "3430175f6b109332c64cbc0c2f6cd813f5969c3f5e6916fda90641cabec77030",
+      "retrieved_at": "2026-11-05T17:10:04.351432+00:00",
+      "attempt_id": "c98fb5e5cb09489e968eadd410329b83",
+      "source_role": "Official city current ballot questions; full882character body read"
+    },
+    {
+      "source_document_id": "nevada-review-county",
+      "url": "https://elections.clarkcountynv.gov/ElectionResultsTV/ENR.aspx",
+      "body_sha256": "6bb9f761161108ec6d3ff7acbd5358ab845ef43baaea44ae0f27fa079cff3026",
+      "text_sha256": "4f9d6fa486f39e20e0acdfb727086ff5d4b0b37f548c91a3105b6038271d8dd8",
+      "retrieved_at": "2026-11-05T17:09:59.074596+00:00",
+      "attempt_id": "3d1f2748e4db4859aa16953460fc50bb",
+      "source_role": "Official ClarkCounty ENR; complete retained HTML derivation preserves header. Election/status header and Question1 contest reviewed; other contests excluded."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "nevada-review-01",
+      "source_document_id": "nevada-review-city",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-408f8c4b9a7c3baf"
+      },
+      "predicate": "official_question_wording",
+      "value": {
+        "designation": "Question 1",
+        "wording": "Should data center facilities be an approved land use within the Eldorado Valley Transfer Area outside of the Multi-species Habitat Conservation Easement?",
+        "yes_direction": "facilitates",
+        "geography": "Eldorado Valley Transfer Area outside Multi-species Habitat Conservation Easement",
+        "scope": "Approval question, not citywide ban. Binding legal effect and implementation remain unresolved; no operative restriction accepted."
+      },
+      "quote": "Should data center facilities be an approved land use within the Eldorado Valley Transfer Area outside of the Multi-species Habitat Conservation Easement?",
+      "span": "utf8-text-codepoints:291:445"
+    },
+    {
+      "claim_id": "nevada-review-02",
+      "source_document_id": "nevada-review-city",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-408f8c4b9a7c3baf"
+      },
+      "predicate": "official_referral_and_schedule",
+      "value": {
+        "referral_date": "2026-02-24",
+        "election_date": "2026-11-03",
+        "placement_method": "governing_body_referral",
+        "scope": "City states council approved questions at regular February24meeting for municipal general election. Question2CapitalImprovementFund is separate and excluded."
+      },
+      "quote": "At its regular meeting February 24, 2026, the City Council approved the following questions for the 2026 Municipal General Election ballot:",
+      "span": "utf8-text-codepoints:137:276"
+    },
+    {
+      "claim_id": "nevada-review-03",
+      "source_document_id": "nevada-review-county",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-408f8c4b9a7c3baf"
+      },
+      "predicate": "official_unofficial_election_context",
+      "value": {
+        "election": "2026 General Election",
+        "certification_status": "unofficial",
+        "source_clock": "Updated 11/04/26 11:49 PM",
+        "scope": "Literal source clock has no timezone; do not invent timezone/certification date. Countywide registered/turnout totals not BoulderCity denominators."
+      },
+      "quote": "2026 General Election\nUnofficial Results\nUpdated 11/04/26 11:49 PM",
+      "span": "utf8-text-codepoints:17:83"
+    },
+    {
+      "claim_id": "nevada-review-04",
+      "source_document_id": "nevada-review-county",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-408f8c4b9a7c3baf"
+      },
+      "predicate": "official_reported_question1_counts",
+      "value": {
+        "yes_votes": 2064,
+        "no_votes": 4947,
+        "source_yes_percent": 29.44,
+        "source_no_percent": 70.56,
+        "source_total_votes": 7011,
+        "reporting_scope": "Boulder City QuestionNum1",
+        "scope": "Named contest only. No ballots_cast,registered_voters,valid_votes,blank/under/over categories or precinct denominators inferred. Formal reported/calculated outcome and passage threshold unaccepted."
+      },
+      "quote": "CITY OF BOULDER CITY QUESTION NUM 1\nVOTE FOR 1\nResponse\nGraph\nVotes\n%/Total\nYES\n2,064\n29.44%\nNO\n4,947\n70.56%\nTotal\n7,011\n100.00%",
+      "span": "utf8-text-codepoints:24025:24153"
+    },
+    {
+      "claim_id": "nevada-review-05",
+      "source_document_id": "nevada-review-county",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-408f8c4b9a7c3baf"
+      },
+      "predicate": "source_question_vote_total",
+      "value": {
+        "label": "Total",
+        "count": 7011,
+        "scope": "Question1response total, not ballots cast or county turnout."
+      },
+      "quote": "Total\n7,011\n100.00%",
+      "span": "utf8-text-codepoints:24134:24153"
+    }
+  ],
+  "visual_reviews": {},
+  "scope": "Retained official city wording/referral and county unofficial contest review only; no new acquisition or canonical publication.",
+  "unresolved": [
+    "Bindingness/legal basis and implementation of specified land-use approval",
+    "Original ballot booklet and council referral instrument",
+    "Final official canvass/certification",
+    "Operative consequences and later legal history"
+  ]
+}
