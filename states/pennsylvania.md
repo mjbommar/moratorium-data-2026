@@ -34,7 +34,7 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 | Warrington Township (York County) | Township | 2026-05-13 | data center | 🟢 Active |
 | West Mahanoy Township | Township | 2026-09-15 | data center, solar | 🟢 Active |
 | West Whiteland Township | Township | 2026-05 | data center | 🟢 Active |
-| Williamsport | City | 2026-07-09 | data center | 🟢 Active |
+| Williamsport | City | 2026-06-25 | data center | 🟢 Active |
 
 ## Detailed entries
 
@@ -348,14 +348,14 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** Board of Supervisors approved a temporary moratorium at an April 28, 2026 special meeting; reported by the Sun-Gazette on 2026-05-01.
 - **Normalized date:** `2026-04-28` (exact)
-- **Duration:** Nine months, or until the township adopts zoning regulations addressing data centers, whichever occurs first. Bars acceptance or review of listed municipal applications for data centers, data center campuses, high-intensity data processing facilities, and substantially similar uses during that period.
+- **Duration:** Posted Resolution 2026-02 text states nine months from adoption or earlier zoning adoption; final enacted term, operative interval and November 4 hearing outcome unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `pa-muncy-township-2026`
-- **Legal basis:** Board of Supervisors motion/temporary moratorium adopted at the April 28, 2026 special meeting; no separately numbered ordinance or resolution identified in the sources reviewed
+- **Legal basis:** Board of Supervisors Resolution 2026-02 establishing a temporary moratorium on data centers and similar high-intensity data processing facilities.
 - **What prompted it:** Lack of existing zoning provisions addressing data centers.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; nine-month pause from the 2026-04-28 vote runs to approximately late January 2027 unless superseded by earlier zoning adoption.
+- **Detailed status:** The township identifies Resolution 2026-02; its posted text states nine months from adoption or earlier adoption of zoning regulations and immediate effect upon adoption. The copy lacks complete execution details. The township notice schedules a November 4 hearing on proposed Ordinance 2026-01, but does not establish that hearing outcome or final adoption. Actual enacted term, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Smithfield Township (Monroe County)
@@ -442,17 +442,17 @@ State policy is tracked separately: **22 actions** (22 bills) in [`state_legisla
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** 2026-07-09, Williamsport City Council, 6-0 vote adopting Resolution #10088 (Lycoming County)
-- **Normalized date:** `2026-07-09` (exact)
+- **Date enacted:** 2026-06-25, Williamsport City Council adopted Resolution #10088 (Lycoming County); vote count not verified.
+- **Normalized date:** `2026-06-25` (exact)
 - **Duration:** 180 days from adoption to enact a curative amendment under 53 P.S. Section 10609.2, with a follow-up resolution required within 30 days making specific findings of invalidity. Councilman Milliken characterized it as effectively 'hitting pause' on data-center development even though the resolution does not describe itself as a 'pause.'
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `pa-williamsport-2026`
-- **Legal basis:** Resolution #10088 (City of Williamsport), adopted 6-0 by City Council on July 9, 2026, declaring the city's Zoning Ordinance (enacted April 16, 1998, amended since) substantively invalid insofar as it excludes data centers and ancillary buildings or uses, including but not limited to power generating facilities, and proposing preparation of a curative amendment under 53 P.S. Section 10609.2; a follow-up Resolution #10091 was required within 30 days to make specific findings of the declared invalidity.
+- **Legal basis:** Resolution #10088 (City of Williamsport), adopted June 25, 2026, declaring the city's Zoning Ordinance substantively invalid insofar as it excludes data centers and ancillary buildings or uses, including power generating facilities, and proposing a curative amendment under 53 P.S. Section 10609.2. The July 9, 2026 meeting addressed follow-up Resolution #10091 concerning specific findings.
 - **What prompted it:** Regulatory gap: 1998 zoning ordinance does not account for data centers or their accessory uses; adopted proactively, following similar curative-amendment action by Lycoming County and several county townships, to close the loophole that would otherwise let a developer file a landowner curative amendment and force approval of a data center anywhere in the city.
 - **Affected projects:** None; no data center application is pending in the City of Williamsport as of adoption.
-- **Detailed status:** Active as of 2026-09-23, running toward its computed 2027-01-05 end date. No data center is presently planned in the City of Williamsport; the resolution was the city's opening move in a regional contest over who regulates data-center siting, alongside Lycoming County's own curative amendment (pa-lycoming-county-2026, a separate, already-tracked instrument covering the county's 19 zoning-partner municipalities, which does not include the City of Williamsport).
-- **Outcome:** Williamsport City Council adopted Resolution #10088 on 2026-07-09, a 6-0 vote declaring the city's zoning ordinance substantively invalid as to data centers and opening a 180-day curative-amendment period.
+- **Detailed status:** Signed Resolution 10088 records June 25, 2026 adoption, declaring zoning exclusionary/substantively invalid and directing a curative amendment within 180 days. July 9 minutes address follow-up Resolution 10091, not the original adoption. Original numerical vote count, precise operative legal effect and later termination/replacement remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** Williamsport City Council adopted Resolution #10088 on 2026-06-25, declaring the city's zoning ordinance substantively invalid as to data centers and proposing a curative amendment within 180 days.
 
 ---
 

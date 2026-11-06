@@ -1,0 +1,122 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "worker_answers_sha256": {
+    "pa-inventory-003": "a1bec1e4af1a3b3dc3d9dfa13fb0207f185e2763796bb19f3ccaabaf4afdd1ef"
+  },
+  "reviewed_answers_sha256": "567e310bdb295aa49c8714c53575f9c5bdc38a8a4e8ddbd790f74bfc24a4685d",
+  "scope": "Two Pennsylvania corrections. Williamsport June 25 original signed adoption distinguished from July 9 follow-up; vote count unverified. Muncy incomplete posted execution and scheduled November 4 hearing do not prove final term/current force. Relevant page 2 visually compared in each PDF. Later operative legal effect and force unresolved.",
+  "located_evidence": [
+    {
+      "moratorium_id": "pa-muncy-township-2026",
+      "url": "https://www.muncytwp.org/wp-content/uploads/2026/07/2026-02-resolution-for-website.pdf",
+      "quote": "4, DURATION\n\nThis moratorium shall remain in effect for nine (9) months from the date of adoption, or until adoption of\n\na Zoning ordinance regulating such uses, whichever occurs first. The Board reserves the right to extend\nthis moratorium if necessary.",
+      "located": [
+        {
+          "attempt_id": "180c1230b654446e8a78b42a898d5e89",
+          "body_sha256": "a39c969e74d37e3774055106bef2a02aa5872476a09879305b90e293b5494f5a",
+          "text_sha256": "2dc9b32cc630c45106b236884a8ac38f42860a09a45e896b209f50fb1aafdc4a",
+          "span": [
+            2129,
+            2383
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "pa-muncy-township-2026",
+      "url": "https://www.muncytwp.org/data-center-ordinance-agenda/",
+      "quote": "Please see the link below to view the proposed Data Center Ordinance 2026-01",
+      "located": [
+        {
+          "attempt_id": "2404a4d0b9854e3799f5f3ec2f3240e7",
+          "body_sha256": "535b90b664303f3e3aa05d3aaefc428ecaaec939fbf53ebabdd670f5e01ce6c5",
+          "text_sha256": "76f6c9cd2dfc5848f20d3832804a4827c7d04b293d582aa5256468101faf28f1",
+          "span": [
+            207,
+            283
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "pa-williamsport-2026",
+      "url": "https://cityofwilliamsport.org/wp-content/uploads/2026/06/10088.pdf",
+      "quote": "the Council of the City of\nWilliamsport proposes to prepare a curative amendment",
+      "located": [
+        {
+          "attempt_id": "c7d7cf4e29e0425e94dcb1059208a9c5",
+          "body_sha256": "705cf086f071b64e481217d8ff5abd97c9f793598d4ef02a4f69b61aee74679c",
+          "text_sha256": "81b6f137bfcf7590d0cdb541b88903cbc318ba3a9dd4c28635d81c87e19e10d9",
+          "span": [
+            2933,
+            3013
+          ]
+        }
+      ]
+    },
+    {
+      "moratorium_id": "pa-williamsport-2026",
+      "url": "https://cityofwilliamsport.org/wp-content/uploads/2026/08/COMM-07-09-26.pdf",
+      "quote": "Essentially two weeks ago, Council passed a resolution",
+      "located": [
+        {
+          "attempt_id": "cda3197cce9d4f0da96822c36416a148",
+          "body_sha256": "86fb6cc5658716716ca7b0c2278b1b8eb7ad4c7f0dfb0acdc617895c97b26e35",
+          "text_sha256": "f933daeef2b4ebaa44153da2eaaf75ffd05b989c2d540530e21050e53322e6ed",
+          "span": [
+            2703,
+            2757
+          ]
+        }
+      ]
+    }
+  ],
+  "extraction_lineage": [
+    {
+      "attempt_id": "180c1230b654446e8a78b42a898d5e89",
+      "source_body_sha256": "a39c969e74d37e3774055106bef2a02aa5872476a09879305b90e293b5494f5a",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/pa-inventory-003/180c1230b654446e8a78b42a898d5e89.ocr.private.txt",
+      "derived_text_sha256": "2dc9b32cc630c45106b236884a8ac38f42860a09a45e896b209f50fb1aafdc4a",
+      "method": "Separately retained PDF OCR; coordinator visually compared page 2",
+      "pages": [
+        1,
+        2
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T00:22:27.168641+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    },
+    {
+      "attempt_id": "c7d7cf4e29e0425e94dcb1059208a9c5",
+      "source_body_sha256": "705cf086f071b64e481217d8ff5abd97c9f793598d4ef02a4f69b61aee74679c",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_artifact": "/data0/moratorium-refresh-2026/full/pa-inventory-003/c7d7cf4e29e0425e94dcb1059208a9c5.ocr.private.txt",
+      "derived_text_sha256": "81b6f137bfcf7590d0cdb541b88903cbc318ba3a9dd4c28635d81c87e19e10d9",
+      "method": "Separately retained PDF OCR; coordinator visually compared page 2",
+      "pages": [
+        1,
+        2
+      ],
+      "reviewer": "coordinator",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-06T00:22:27.171230+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "attempt_id": "180c1230b654446e8a78b42a898d5e89",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "2e82e8b4a1e6db2de3b67cfcdac2f65f15654af7f330f3900d1da7e26c0a83f9"
+    },
+    {
+      "attempt_id": "c7d7cf4e29e0425e94dcb1059208a9c5",
+      "page": 2,
+      "render": "pdftoppm PNG -singlefile -scale-to 1400",
+      "render_sha256": "1b545bea5d8edff09edcbf82dbf4eb0713c257b8483450068bdef119192547c6"
+    }
+  ]
+}

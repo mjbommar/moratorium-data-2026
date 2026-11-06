@@ -1,0 +1,270 @@
+{
+  "date": "2026-11-05",
+  "created_at": "2026-11-06T00:22:50.585608+00:00",
+  "scope": "Pennsylvania existing local inventory return-versus-bounded-review accounting. Not complete acquisition, freshness, legal-force verification, ballot census or state-policy accounting.",
+  "canonical_inventory_sha256": "392ad0d6ad3d23f06887c90daf628c9488a952bdd0ba981a770f9610e13b0197",
+  "worker_answer_hashes": {
+    "pa-inventory-001": "f94993e62811bab71ee12d27e6ea1d1de9ff796d5b0fee157b1bc8bb62e48728",
+    "pa-inventory-002": "342576ab9c8359679c971db12152ea0c0abe33dbc579dfc39cf2669fd8f988d0",
+    "pa-inventory-003": "a1bec1e4af1a3b3dc3d9dfa13fb0207f185e2763796bb19f3ccaabaf4afdd1ef",
+    "pa-inventory-004": "4b848d28e1a412d193d3a3ae27964a2a12b7f453893e76e979d4e83686d6ea11"
+  },
+  "accepted_packet_hashes": {
+    "work/research/2026-11-05/reviewed-pennsylvania-a/answers.json": "d9cf352dc54d1482ab02c172b9dd15d001c0792debc426e43bbe037f57ddc3ce",
+    "work/research/2026-11-05/reviewed-pennsylvania-b/answers.json": "047a8d52da9bcbb6870c2c67027397f3ba9f8ab748b594b7fd48350458284061",
+    "work/research/2026-11-05/reviewed-pennsylvania-c/answers.json": "32adf89d71aaeb1c8c154c339709d80796ccd1078d1b6586e326e707cbf15ffb",
+    "work/research/2026-11-05/reviewed-pennsylvania-d/answers.json": "567e310bdb295aa49c8714c53575f9c5bdc38a8a4e8ddbd790f74bfc24a4685d"
+  },
+  "apply_receipt_hashes": {
+    "work/audit/apply-20261105T191621.json": "6f769ac3fe1097a0e17e5e7e8e530d6d0597ce13f9f2e215402fab91d5ad9eb9",
+    "work/audit/apply-20261105T191814.json": "9e2da44896d29ac15144f4e9a8c5a013a5dd0c68925a16e8839a33c753ddf16f",
+    "work/audit/apply-20261105T192007.json": "33f7bc1ec18db9fca1c234a23e3141d8831150ee29b2c39500129737161760f2",
+    "work/audit/apply-20261105T192244.json": "c82db923a6d0534e7e388415c2170d027f7a9d7a93c968e035c8b399454a798d"
+  },
+  "canonical_records": 26,
+  "returned_records": 26,
+  "review_dispositions": {
+    "other_return_pending_disposition_review": 17,
+    "bounded_correction_applied": 9
+  },
+  "current_force_verification": {
+    "verified": 0,
+    "unresolved": 26
+  },
+  "records": [
+    {
+      "moratorium_id": "pa-adams-township-butler-county-2026",
+      "worker_job": "pa-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-bensalem-township-2026",
+      "worker_job": "pa-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-brookville-borough-2026",
+      "worker_job": "pa-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-pennsylvania-a/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "pa-buffalo-township-2026",
+      "worker_job": "pa-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-pennsylvania-a/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "pa-butler-township-2026",
+      "worker_job": "pa-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-center-township-2026",
+      "worker_job": "pa-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-pennsylvania-b/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "pa-clinton-township-wayne-county-2026",
+      "worker_job": "pa-inventory-001",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-pennsylvania-a/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "pa-conewago-township-york-county-2026",
+      "worker_job": "pa-inventory-001",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-doylestown-township-2026",
+      "worker_job": "pa-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-east-whiteland-township-2026",
+      "worker_job": "pa-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-falls-township-2026",
+      "worker_job": "pa-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-pennsylvania-c/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "pa-gregg-township-union-county-2026",
+      "worker_job": "pa-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-hazle-township-2026",
+      "worker_job": "pa-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-little-britain-township-2026",
+      "worker_job": "pa-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-pennsylvania-c/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "pa-lycoming-county-2026",
+      "worker_job": "pa-inventory-002",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-pennsylvania-c/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "pa-morrisville-borough-2026",
+      "worker_job": "pa-inventory-002",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-mount-carmel-township-2026",
+      "worker_job": "pa-inventory-003",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-muncy-township-2026",
+      "worker_job": "pa-inventory-003",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-pennsylvania-d/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "pa-upper-burrell-township-2026",
+      "worker_job": "pa-inventory-003",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-warrington-township-2026",
+      "worker_job": "pa-inventory-003",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-west-mahanoy-township-2026",
+      "worker_job": "pa-inventory-003",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-west-whiteland-township-2026",
+      "worker_job": "pa-inventory-003",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-williamsport-2026",
+      "worker_job": "pa-inventory-003",
+      "worker_outcome": "corrected",
+      "review_disposition": "bounded_correction_applied",
+      "accepted_packet": "work/research/2026-11-05/reviewed-pennsylvania-d/answers.json",
+      "current_force_verification": "unresolved",
+      "note": "Accepted bounded fields only; no complete current-force history established."
+    },
+    {
+      "moratorium_id": "pa-dorrance-township-2025",
+      "worker_job": "pa-inventory-003",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-montour-county-2025",
+      "worker_job": "pa-inventory-004",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    },
+    {
+      "moratorium_id": "pa-smithfield-township-2026",
+      "worker_job": "pa-inventory-004",
+      "worker_outcome": "unresolvable",
+      "review_disposition": "other_return_pending_disposition_review",
+      "accepted_packet": null,
+      "current_force_verification": "unresolved",
+      "note": "Worker return is not accepted as verified current legal force or unchanged status."
+    }
+  ]
+}
