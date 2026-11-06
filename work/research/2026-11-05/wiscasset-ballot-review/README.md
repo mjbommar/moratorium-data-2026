@@ -41,3 +41,26 @@ Official question wording, adopted ordinance, formal placement/bindingness,
 certification, passage rule/outcome, question-specific ballot totals, operative
 dates and later legal force remain unresolved. This packet neither publishes a
 canonical expanded record nor changes a legacy moratorium count.
+
+## Subsequent official-source recovery
+
+`recovery-review.json` supplements the initial review with six fresh successful
+bc-web acquisitions and one Exa domain-filtered search. The results were fetched
+in explicit pydoll browser mode with a 1,500-ms settle. The acquisition ledger
+retains original HTML/PDF bodies and extracted text with hashes; its evidence
+index reports no integrity errors. The voter-guide PDF body matches the earlier
+copy even though the parser's text rendering differs. No original text is replaced.
+
+The clerk's page links the official sample ballot, warrant and final-text PDF:
+
+- [Sample town ballot](https://www.wiscasset.gov/DocumentCenter/View/1725/Sample-Ballot---Town-Referendum---November-3-2026): **Question 2**, asking “Shall an ordinance entitled Article X Miscellaneous, X-19 Data Center Moratorium be enacted?”
+- [Signed warrant](https://www.wiscasset.gov/DocumentCenter/View/1726/Special-Town-Meeting-Warrant---November-3-2026): the same question appears as **Article 4**. Its signatures support the election warrant, not certification of the result.
+- [Linked final ordinance text](https://www.wiscasset.gov/DocumentCenter/View/1743/Data-Center-Moratorium-Ordinance---Final): sections 19.4–19.5 confirm the definition, exceptions, permitting pause, retroactive application coverage from November 3, and six months after enactment. Extensions of no more than 180 days require continued need and reasonable progress. Section 19.9 specifies immediate effectiveness upon legislative-body adoption at a Town Meeting. No dated voter-adoption block is present in the reviewed three-page copy.
+
+Four rendered passages were checked visually because ballot/warrant and page-3
+native extraction have reading-order defects. The final-text filename alone does
+not establish voter adoption or an operative interval. Fresh results remain
+unofficial at 1,363 yes / 712 no, with blanks and question-specific ballots cast
+unknown. Enactment/certification, passage rule, later legal history and canonical
+publication review remain open; the earlier gaps for question wording, proposed
+operative text and compatible source retention have now been addressed.
