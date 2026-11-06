@@ -1,0 +1,41 @@
+{
+  "consumers": [
+    {
+      "repository": "moratorium-paper",
+      "branch": "master",
+      "verified_remote_commit": "3bf7d8592d70fc2e679c72d55b08d1b3604ca66d",
+      "scope": "Reviewed correction/handoff delivered; not comprehensive consumer factual refresh or deployment verification."
+    },
+    {
+      "repository": "servercountry.org",
+      "branch": "master",
+      "verified_remote_commit": "195dd668ed2faa5f4ef3061241ff59c79ed40b8a",
+      "scope": "Reviewed correction/handoff delivered; not comprehensive consumer factual refresh or deployment verification."
+    },
+    {
+      "repository": "fightadatacenter.com",
+      "branch": "master",
+      "verified_remote_commit": "bb976cc49aaa7e824c3b0ba9335a275655fca102",
+      "scope": "Reviewed correction/handoff delivered; not comprehensive consumer factual refresh or deployment verification."
+    },
+    {
+      "repository": "datacenter-data-integration",
+      "branch": "main",
+      "verified_remote_commit": "b82a726cd186bdc343ebce023c6b89250a9be8a5",
+      "scope": "Reviewed correction/handoff delivered; not comprehensive consumer factual refresh or deployment verification."
+    }
+  ],
+  "site_builds": [
+    {
+      "repository": "servercountry.org",
+      "pages": 1354,
+      "log_sha256": "57530c8d88b2f0bc24408197af3c1eeca29dfcf8ab92be3b7adf894ae5fd0a49"
+    },
+    {
+      "repository": "fightadatacenter.com",
+      "pages": 95,
+      "log_sha256": "a2fb7706a7545baa3ae43354dfd605a23c74031b47e1c9af1bd5697f8fac32c5"
+    }
+  ],
+  "scope": "Four remote branch targets verified. Isolated checkouts preserved concurrent remote work and unrelated local commits. Hosted site deployments and remaining substantive consumer/model/freshness requirements remain open."
+}
