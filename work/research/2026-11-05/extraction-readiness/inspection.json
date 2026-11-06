@@ -1,0 +1,46 @@
+{
+  "as_of": "2026-11-05",
+  "scope": "Read-only extraction integration readiness audit; no extraction or model call performed",
+  "bc_modules_revision": "f6187344c697334dbca3f037fd0a670a995f59c8",
+  "bc_modules_dirty": false,
+  "inspected_files": {
+    "bc-evidence/python/bc_evidence/cli.py": "9e3a4eb6ef6657fa279d4cd997cb5eb5deefd3dcd31f563fc16500a8d2fd46c0",
+    "bc-evidence/python/bc_evidence/db.py": "e4882542bc6a0c7d861af086435028cc3ad78f3d6e1bbb45e5296a4474599f77",
+    "bc-evidence/python/bc_evidence/extract.py": "8344cf1b95fa579fc46c20f801d89999f456e44d3e02d1abc3ecbf54e6bdde19",
+    "bc-evidence/python/bc_evidence/prompts/extract.md": "44ee2a732c204c7c061d4e4bc820ba787c8c74ab91490eca5db2395073045eb0"
+  },
+  "database": "/home/mjbommar/.cache/moratorium-refresh-2026/pilot-evidence.db",
+  "queries": {
+    "documents": "SELECT count(*) FROM documents",
+    "claims": "SELECT count(*) FROM claims",
+    "timestamped_documents": "SELECT count(*) FROM documents WHERE extracted_at IS NOT NULL",
+    "timestamped_with_error": "SELECT count(*) FROM documents WHERE extracted_at IS NOT NULL AND extract_error IS NOT NULL",
+    "documents_below_default_word_floor": "SELECT count(*) FROM documents WHERE words < 60",
+    "cells": "SELECT count(*) FROM cells",
+    "document_url_cell_links": "SELECT count(*) FROM urls u JOIN url_cells uc USING(url) WHERE u.doc_id IS NOT NULL"
+  },
+  "counts": {
+    "documents": 13,
+    "claims": 90,
+    "timestamped_documents": 0,
+    "timestamped_with_error": 0,
+    "documents_below_default_word_floor": 0,
+    "cells": 0,
+    "document_url_cell_links": 0
+  },
+  "findings": [
+    "Generic extraction reads all text chunks unless caller sets max_chunks; selected text may still omit PDF/image content.",
+    "Default chunk size 7000, overlap 400, concurrency 8, attempts 4; only first 16 cells shown; prompt asks at most 12 claims per chunk.",
+    "extract() error handler calls put_claims(error=...), which sets extracted_at even on error; pending_documents selects only NULL extracted_at. Explicit retry reconciliation is required.",
+    "CLI budget is per invocation, not cumulative across restarts.",
+    "Source extraction candidates do not establish electoral certification, bindingness or legal force."
+  ],
+  "isolated_failure_probe": {
+    "temporary_database_only": true,
+    "network_calls": 0,
+    "pending_before_error": 1,
+    "pending_after_error": 0,
+    "timestamp_set_despite_error": true,
+    "error_retained": true
+  }
+}
