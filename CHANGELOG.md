@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Washington Township (Stark County) and Waterville minutes preserve twelve-month terms and recorded adoption. Weathersfield’s Resolution 26-124 extends six months beyond original expiry; its unsupported April 25 endpoint is cleared. Westlake’s unexecuted revised text leaves the enacted term unknown. Unclear vote tokens, operative intervals and later legal force remain unresolved.
+
 Lordstown’s stale pending-writ account is replaced with the Ohio Supreme Court’s October 20 denial, without implying resolution of all legal issues or later proceedings. Ordinance 29-2026 is identified as the June 15 extension. Its signed section 7 uses a maximum 180 days from effectiveness, while the recital uses passage; the unsupported January endpoint is cleared and later force remains unresolved.
 
 Washington Township’s adopted Resolution 2026.09.08.015 records a Tier 2–4 extension from September 8 to March 9, 2027; continuity from the prior September 5 ending is not assumed. A generic adoption excerpt matching an unrelated personnel action is replaced by the moratorium’s own passage. Vienna’s reported October 26 further 180 days clears its stale October 16 endpoint without a guessed successor; later force remains unresolved.
@@ -134,7 +136,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1068** |
 | Pending or not yet effective | **70** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **579** |
+| Rows we still want to confirm (`[VERIFY]`) | **583** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

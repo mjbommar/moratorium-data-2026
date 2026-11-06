@@ -2521,7 +2521,7 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Legal basis:** Board of Trustees resolution (township zoning, R.C. Chapter 519) placing a twelve-month moratorium on any new data centers; resolution number not given
 - **What prompted it:** Resident questions about data centers; trustees want to add a dedicated data center section to the township zoning code.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-04-06 runs to about 2027-04-06.
+- **Detailed status:** April 6 minutes record a twelve-month pause on new data centers, moved by Rodgers and seconded by Boyce, with both recorded yes. Final operative instrument, actual effective interval and later action remain unresolved; this is Stark County Washington Township. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Trustees adopted a 12-month moratorium and resolved to consider adding a dedicated data center section to the township zoning code during the moratorium.
 
 ### Waterville Township
@@ -2534,10 +2534,10 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-waterville-township-2025`
-- **Legal basis:** Township trustee resolution [CITE: resolution number not posted to township website; Toledo Free Press cited the 12-month moratorium and committee process]
+- **Legal basis:** Township trustee Resolution 2025-29, a 12-month data center moratorium (per 2025-12-17 trustee minutes).
 - **What prompted it:** Potential data center interest and need to study conditions for agriculturally zoned land
 - **Affected projects:** No formal application identified; township committee studying data center zoning
-- **Detailed status:** Active through approximately December 2026; no rescission found. A Data Center Advisory Committee (one trustee, one zoning board member, one BZA member, the zoning inspector, and 10 residents), formed January 2026, presented its findings to the Zoning Board on 2026-05-12, recommending a new M-3 Industrial zoning classification with tiered regulations, bonding/escrow requirements, and a formal process; the zoning board voted 6-0 to move the proposal to the Lucas County Plan Commission for review.
+- **Detailed status:** December 17, 2025 minutes identify Resolution 2025-29, a twelve-month data-center pause, with three yes votes and passage recorded. Final operative text, actual effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Data center study committee expected to report in summer 2026
 
 ### Waynesville
@@ -2563,13 +2563,13 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Date enacted:** 2026-04-30 (trustees' special meeting, 3-0 resolution, effective that day; per WKBN 2026-04-30 and Tribune Chronicle May 2026); extended six months in September 2026
 - **Normalized date:** `2026-04-30` (exact)
 - **Duration:** Six months (to about late October 2026), extended six more months into April 2027
-- **Current end date:** `2027-04-25`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-weathersfield-township-2026`
-- **Legal basis:** Weathersfield Township (Trumbull County) trustee resolution under R.C. 519 imposing a six-month moratorium on building, zoning or approval of data centers; extension resolution September 2026
+- **Legal basis:** Weathersfield Township Resolution 26-070 imposed a six-month data center moratorium; Resolution 26-124 extended it by six months (September 8, 2026 trustee minutes).
 - **What prompted it:** Bitdeer (Whitetail Creek LLC) plan for a data center on Belmont Avenue at the former Ohio Edison plant and petition to annex three township parcels into Niles; concerns over grid, utility costs, water, sewer, noise, traffic.
 - **Affected projects:** Bitdeer / Whitetail Creek LLC data center proposal, 1047 Belmont Ave. (former Ohio Edison power plant).
-- **Detailed status:** Extended; active as of 2026-09-23. Six-month moratorium adopted 2026-04-30 was due to expire in October 2026 and was extended in early September 2026 by six months into April 2027 while zoning regulations are finished.
+- **Detailed status:** September 8 minutes identify original Resolution 26-070 adopted April 30 and extension Resolution 26-124. Section 7 extends the pause six months beyond original expiry, subject to earlier termination, modification or superseding trustee action. Motion carried is recorded, but the Harkins vote token is unclear in extraction. Original operative anchor, exact endpoint and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Zoning commission, law director and zoning inspector drafting data center zoning regulations for trustee approval.
 
 ### Wellington
@@ -2594,14 +2594,14 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-09-03 (City Council unanimous vote at Sept. 3 meeting, emergency ordinance; per cleveland.com)
 - **Normalized date:** `2026-09-03` (exact)
-- **Duration:** Six months from effective date (or until code amendments or repeal, whichever first); up to two 90-day extensions
+- **Duration:** Posted unexecuted revised text states six months from effectiveness or earlier code amendments/revocation; final enacted term unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-westlake-2026`
 - **Legal basis:** City of Westlake Ordinance No. 2026-99 (emergency), moratorium on zoning approvals and occupancy permits for data centers as a use, not to exceed six months
 - **What prompted it:** Zoning code does not address data centers directly; precautionary review though data centers are not a permitted use.
 - **Affected projects:** None; no data centers operating in the city.
-- **Detailed status:** Active as of 2026-09-23; six-month moratorium adopted 2026-09-03 runs to about 2027-03-02 unless extended (two 90-day extensions allowed).
+- **Detailed status:** Posted revised Ordinance 2026-99 describes six months from effectiveness or earlier code amendments/revocation. Passage and mayoral approval fields are blank. Final enacted term, actual operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Planning department to review whether and where to allow data centers; council may refine the definition later.
 
 ### Weston Township (Wood County)
