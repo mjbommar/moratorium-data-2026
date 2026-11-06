@@ -190,12 +190,14 @@ Exit: every seed has a documented disposition; evidence gaps are visible rather 
 
 Completed closure increments (the broader gates below remain open):
 
+- [x] Record the book's historical full/Essential/audio edition boundary and explicit unresolved claim-review queue; verify 140 source/PDF artifacts unchanged (`work/audit/book-edition-disposition-2026-11-06.json`). Delivered and remote-verified as book commit `f3509d9`, preserving all 241 production-tree entries from its newer remote parent.
+
 - [x] Verify Server Country Amplify job 43 BUILD/DEPLOY/VERIFY success for `195dd66` and the served historical-paper/working-data notices (`work/audit/servercountry-deployment-2026-11-06.json`). Fight a Data Center hosting verification remains open.
 
 - [x] Restore the public candidate into a clean directory and verify all 25 retained generations (`work/audit/restore-and-replay-validation-2026-11-06.json`); current code passes 149 tests.
 - [x] Verify deployed working landing page, canonical CSVs and ballot summary bytes, plus pydoll-rendered totals (`work/audit/pages-built-observation-2026-11-06.json`, `pages-browser-verification-2026-11-06.json`).
 - [x] Create an unpublished GitHub draft candidate and verify all downloaded asset bytes and 420 archive members (`work/audit/draft-release-rc1-2026-11-06.json`); final publication/tag remains open.
-- [x] Add deterministic ballot due-work rules and operator recovery/restore guidance (`scripts/build_ballot_due_work.py`, `docs/refresh-operations.md`); conditional/adaptive recrawl and task resolution remain open.
+- [x] Add deterministic ballot due-work rules and operator recovery/restore guidance (`scripts/build_ballot_due_work.py`, `docs/refresh-operations.md`); conditional caching and an advisory adaptive planner are implemented below; task resolution remains open.
 
 - [x] Validate Elmwood four-field primary-source correction and generated Michigan page (`work/research/2026-11-06/elmwood-instrument-review/validation.json`).
 - [x] Publish explicit dispositions for all seven unresolved frozen ballot groups (`work/audit/ballot-release-dispositions-2026-11-06.json`).
@@ -234,7 +236,7 @@ Exit: fresh, reproducible release with reconciled data/prose, a verified publish
 
 ## P7 — Maintenance
 
-- [x] Exercise bc-web conditional HTTP caching with an actual 200/304 round trip, preserved body time and immutable archive tests (`conditional-cache-pilot/`); adaptive revisit policy remains open.
+- [x] Exercise bc-web conditional HTTP caching with an actual 200/304 round trip, preserved body time and immutable archive tests (`conditional-cache-pilot/`); native adaptive proposals are implemented below, with inventory-wide calibration still open.
 
 - [ ] Implement due-work rules for qualification, elections, certification/recounts, implementation and expiry.
 - [x] Add opt-in conditional HTTP caching and an offline native bc-web adaptive revisit planner, preserving prior observations and cached-body limitations; actual cache pilot and planner tests retained. Inventory-wide calibration and task resolution remain open.
