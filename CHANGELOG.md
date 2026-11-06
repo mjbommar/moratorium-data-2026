@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Four Kansas proposal/count records bring the scoped subset to 22 measures: El Dorado, Emporia Q2/Q3 and Americus. Emporia shares one city/election across two distinct questions. Source Total Votes Cast and Contest Totals remain explicitly labelled, with no inferred ballot/blank categories; duration, court, certification and operative-force limits remain open. Ottawa exact primary ballot identity stays pending despite new draft-minute context. The frozen census is 22 published / 34 pending; no legacy headline changes. See [publication packet](work/research/2026-11-06/kansas-promotion/README.md).
+
 Kansas batch primary review covers five distinct questions in El Dorado, Emporia, Ottawa and Americus. It preserves El Dorado’s ten-year notice/unsigned-proposal discrepancy, distinguishes Emporia Q2’s prior-court condition from Q3’s reserved judicial remedies, and retains unofficial source totals under their own labels. Fourteen source claims verify; canonical counts are unchanged pending promotion/legal follow-up. See [review packet](work/research/2026-11-06/kansas-ballot-review/README.md).
 
 Joliet Township adds an eighteenth scoped ballot record with signed advisory/referral evidence and official 3,800 yes / 14,207 no. The public view now displays its reviewed five-ballot source arithmetic discrepancy without filling unknown categories or presenting superseded issues as current. The frozen census is 18 published / 38 pending groups; certification and later implementation remain open. Local and state-policy totals are unchanged. See [publication packet](work/research/2026-11-06/joliet-promotion/README.md).

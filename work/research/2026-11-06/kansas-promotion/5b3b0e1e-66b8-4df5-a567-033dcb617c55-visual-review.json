@@ -1,0 +1,39 @@
+{
+  "disposition": "accepted_visual_values",
+  "reviewer": "coordinator",
+  "values": {
+    "proposed_thresholds": [
+      {
+        "scope": "High Impact Data Centers (proposed definition)",
+        "measurement_basis": "peak electrical load",
+        "operator": "gt",
+        "value": 10,
+        "unit": "megawatts",
+        "aggregation_rule": "Alternative definition test: peak electrical load OR daily water draw"
+      },
+      {
+        "scope": "High Impact Data Centers (proposed definition)",
+        "measurement_basis": "daily water draw",
+        "operator": "gt",
+        "value": 100000,
+        "unit": "gallons per day",
+        "aggregation_rule": "Alternative definition test: daily water draw OR peak electrical load"
+      }
+    ],
+    "proposed_exclusions": [
+      "Accessory data-processing equipment incidental and subordinate to the primary building use"
+    ]
+  },
+  "source_body_sha256": "0105e954553b6f48734550e38d7bbb6ebd32cc82c5187f2859f214bd640eb63b",
+  "pdf_page": 7,
+  "render_parameters": {
+    "renderer": "pdftoppm",
+    "page": 7,
+    "dpi": 100
+  },
+  "render_sha256": "ea4aa3ce1952327d48ee5c7114ce66a098ca28882f98b1b94a4e559b3ea50023",
+  "claim_id": "5b3b0e1e-66b8-4df5-a567-033dcb617c55",
+  "source_document_id": "8787fdcd-64ff-400c-a493-0503f64792a1",
+  "claim_sha256": "2738a36e5cc54c2f335bb3a600b4a6e1f22534aa28cb29350f797262dcbe32a4",
+  "reviewed_at": "2026-11-06T05:57:27.171565+00:00"
+}
