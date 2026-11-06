@@ -37,6 +37,15 @@
       "retrieved_at": "2026-11-06T11:39:10.565929+00:00",
       "attempt_id": "083cca96849d40c390d79418f84f56f8",
       "source_role": "Official linked election media JSON export; namedcontest55andmethodtotalsreviewed; zero precinct metadata not accepted"
+    },
+    {
+      "source_document_id": "florida-review-county-wording",
+      "url": "https://www.volusiaelections.gov/elections/election-results/november-3-2026-general-election.stml",
+      "body_sha256": "6378afda9f8383d286d367c5e14891019e248d03fff9659211f0052bad4d606d",
+      "text_sha256": "9956e75fb3f116c28e5b908e3e712ecbeaea712ff0a15a1c9ec16f71fc9b837b",
+      "retrieved_at": "2026-11-06T11:51:01.506069+00:00",
+      "attempt_id": "e0ddac9a5fa0487ba25c388c3745cb82",
+      "source_role": "Official county November3electioninformation; complete named Amendment4section read with neighboring contest boundaries; not printed ballot artifact"
     }
   ],
   "claims": [
@@ -212,13 +221,32 @@
       },
       "quote": "{\"ballotOptions\": [{\"ballotOrder\": 1, \"groupResults\": [{\"groupName\": \"Election Day\", \"isFromVirtualPrecinct\": false, \"voteCount\": 2667}, {\"groupName\": \"Vote by Mail\", \"isFromVirtualPrecinct\": false, \"voteCount\": 2025}, {\"groupName\": \"Early Voting\", \"isFromVirtualPrecinct\": false, \"voteCount\": 3192}], \"id\": \"1\", \"name\": \"Yes, in favor of adoption.\", \"politicalParty\": \"Amendment\", \"precinctResults\": [], \"voteCount\": 7884}, {\"ballotOrder\": 2, \"groupResults\": [{\"groupName\": \"Election Day\", \"isFromVirtualPrecinct\": false, \"voteCount\": 741}, {\"groupName\": \"Vote by Mail\", \"isFromVirtualPrecinct\": false, \"voteCount\": 510}, {\"groupName\": \"Early Voting\", \"isFromVirtualPrecinct\": false, \"voteCount\": 1077}], \"id\": \"2\", \"name\": \"No, against adoption.\", \"politicalParty\": \"Amendment\", \"precinctResults\": [], \"voteCount\": 2328}], \"ballotOrder\": 49, \"contestType\": \"BallotMeasure\", \"id\": \"55\", \"name\": \"Amendment 4 - Edgewater\", \"precinctsParticipating\": 0, \"precinctsReporting\": 0, \"rankedChoiceResults\": null, \"type\": \"Local\", \"voteFor\": 1}",
       "span": "utf8-text-codepoints:54799:55835"
+    },
+    {
+      "claim_id": "florida-review-10",
+      "source_document_id": "florida-review-county-wording",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6cc5ddacfc5e7c7b"
+      },
+      "predicate": "official_county_question_wording",
+      "value": {
+        "designation": "Amendment 4",
+        "title": "PROHIBITION ON NEW DATA CENTERS",
+        "summary": "Amends the Charter to prohibit the approval, construction, expansion, or operation of new data centers within the City; prohibits the City from issuing development approvals or permits authorizing such facilities; defines \u201cdata center\u201d; and requires voter approval before the Charter prohibition may be amended or repealed.",
+        "question": "Should the City Charter prohibit new data centers within the City?",
+        "yes_direction": "restricts",
+        "scope": "Official county election-information source version agrees substantively with city proposal title/summary/question. Not a printed/cast ballot or proof certification/current legal force. Other Edgewater amendments and recycling excluded."
+      },
+      "quote": "City of Edgewater Municipal Referenda - Amendment 4\nPROHIBITION ON NEW DATA CENTERS\n\nAmends the Charter to prohibit the approval, construction, expansion, or operation of new data centers within the City; prohibits the City from issuing development approvals or permits authorizing such facilities; defines \u201cdata center\u201d; and requires voter approval before the Charter prohibition may be amended or repealed.\n\nShould the City Charter prohibit new data centers within the City?",
+      "span": "utf8-text-codepoints:12690:13166"
     }
   ],
   "visual_reviews": {},
-  "scope": "Four official versions, nine scoped claims; renderedDOM/JSONcountsagree. No final ballot, certification or operative force acceptance.",
+  "scope": "Five official versions, ten scoped claims; county published wording and city proposal agree; DOM/JSONcountsagree. Printed ballot, certification and actual operative force remain unaccepted.",
   "unresolved": [
-    "Final official ballot and amended/adopted attachment version",
     "Certified canvass/date and revised charter filing",
-    "Actual operative interval/vested rights and later legal history"
+    "Actual operative interval/vested rights and later legal history",
+    "Printed ballot artifact and final amended/adopted charter attachment; official county published question now reviewed"
   ]
 }
