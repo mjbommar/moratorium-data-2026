@@ -3,8 +3,8 @@
 
 _Working inventory generated November 5, 2026; record-level refresh remains incomplete. 1293 local moratorium instruments tracked across 47 states._
 
-- 🟢 **1068 currently in force** (active + extended)
-- 🟡 **70 pending or not yet effective** (proposed or enacted with a future effective date)
+- 🟢 **1069 currently in force** (active + extended)
+- 🟡 **69 pending or not yet effective** (proposed or enacted with a future effective date)
 - ⚪ **155 expired, replaced, or rescinded** (no longer in force)
 
 State bills, executive orders, governor directives, and other state-level restrictions are a separate legal layer. They are typed in [`state_legislation.csv`](../data/state_legislation.csv) and are not included in these local counts.
@@ -47,7 +47,7 @@ State bills, executive orders, governor directives, and other state-level restri
 | [Connecticut](connecticut.md) | 6 | 4 | 1 | 1 |
 | [New Mexico](new-mexico.md) | 6 | 5 | 1 | 0 |
 | [Virginia](virginia.md) | 6 | 4 | 1 | 1 |
-| [Oregon](oregon.md) | 5 | 3 | 2 | 0 |
+| [Oregon](oregon.md) | 5 | 4 | 1 | 0 |
 | [New Jersey](new-jersey.md) | 4 | 3 | 1 | 0 |
 | [South Dakota](south-dakota.md) | 4 | 4 | 0 | 0 |
 | [Idaho](idaho.md) | 3 | 2 | 0 | 1 |

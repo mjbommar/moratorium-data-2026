@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Clackamas County’s official meeting record and announcement confirm 5-0 October 22 adoption and a 120-day initial pause, replacing its pending entry. The agenda copy describes primary-use applications in unincorporated areas but remains unsigned and unnumbered; final executed scope, operative interval and later force remain unresolved. Only the relevant packet page was visually reviewed, not the full 680-page extraction.
+
 Hillsboro’s primary-use definition replaces the overly narrow stand-alone scope description; multiple primary uses and alternative site-level thresholds are preserved. Woodburn’s adopted instrument is identified as Resolution 2267 rather than an ordinance. Both changes retain explicit later-force and operative-interval limits.
 
 Tulsa’s November 4 planning packet updates its review timetable to a December 2 hearing followed by Council consideration. The proposed regulations are not treated as adopted; the reported December 31 moratorium term is distinguished from unexecuted redlined ordinance text and unresolved later legal force.
@@ -143,8 +145,8 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | Measure | Working inventory |
 |---|---|
 | Moratoria in the list | **1293** |
-| In force (active or extended) | **1068** |
-| Pending or not yet effective | **70** |
+| In force (active or extended) | **1069** |
+| Pending or not yet effective | **69** |
 | Ended (replaced, expired, or rescinded) | **155** |
 | Rows we still want to confirm (`[VERIFY]`) | **592** |
 | States with at least one | **47** |

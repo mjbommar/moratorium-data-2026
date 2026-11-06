@@ -127,7 +127,7 @@ rechecked four kinds of rows. We looked at rows past their end date and
 extensions with no new end date. We also looked at proposals more than 60 days
 old and rows with a `[VERIFY]` note.
 
-1068 moratoria are in force, and many end in the next few months. The data
+1069 moratoria are in force, and many end in the next few months. The data
 check still flags eleven rows that look out of date. Eight of them, in
 Cedartown, Georgia and seven New York towns, have passed their end date. We
 could not find out what happened next, so each carries a `[VERIFY]` note. The

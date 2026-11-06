@@ -3,14 +3,14 @@
 
 Working inventory for Oregon, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**5 instruments** — 3 in force, 2 pending, 0 past.
+**5 instruments** — 4 in force, 1 pending, 0 past.
 
 State policy is tracked separately: **5 actions** (5 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | City of Hillsboro | City | 2026-07-27 | data center, battery storage | 🟢 Active |
-| Clackamas County | County | Unverified | data center | 🟡 Pending |
+| Clackamas County | County | 2026-10-22 | data center | 🟢 Active |
 | Crook County | County | Unverified | solar | 🟡 Pending |
 | Salem | City | 2026-09-21 | data center | 🟢 Active |
 | Woodburn | City | 2026-09-14 | data center | 🟢 Active |
@@ -36,18 +36,18 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 ### Clackamas County
 
 - **Type:** County
-- **Status:** 🟡 Pending
-- **Date enacted:** —
-- **Normalized date:** `—` (unverified)
-- **Duration:** Proposed countywide moratorium on new data centers, intended by its sponsor (Commissioner Diana Helm) to last until the Oregon Legislature takes up the issue in its 2027 session. The Board of Commissioners voted unanimously on approximately 2026-08-04/08-05 to begin the formal process for a moratorium; Oregon law requires 45 days' notice to the Department of Land Conservation and Development before a public hearing on the proposed moratorium can be held. As of a September 15, 2026 news report, Clackamas County was still described as merely 'considering' a moratorium (alongside Salem, which adopted its own that month); no report of a final Board vote to adopt the moratorium was found as of 2026-09-23.
+- **Status:** 🟢 Active
+- **Date enacted:** 2026-10-22 (Board adopted a resolution 5-0, effective immediately)
+- **Normalized date:** `2026-10-22` (exact)
+- **Duration:** 120 days from immediate effect upon adoption unless earlier extended or repealed.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `or-clackamas-county-undated`
-- **Legal basis:** Board of Commissioners motion (approx. 2026-08-04/08-05) directing staff to begin the formal 45-day notice process required under Oregon law before adopting a data center moratorium; no ordinance number exists because the moratorium itself had not been adopted as of this pass.
+- **Legal basis:** Clackamas County Board of Commissioners resolution adopting a temporary data center moratorium on October 22, 2026; resolution number not established.
 - **What prompted it:** Commissioner Diana Helm reversed an earlier position welcoming data centers, citing conversations with people in the AI/data-center industry who recommended the county not allow them; commissioners cited a desire to act proactively (no land-use application for a new data center had been filed in the county, which has only one existing data center, operated by Siemens in Wilsonville) and cited Hillsboro's and Salem's moratoria as models.
-- **Affected projects:** None; county officials stated no land-use application for a data center had been filed, and the only existing data center in the county is operated by Siemens on its Wilsonville campus.
-- **Detailed status:** Pending as of 2026-09-23. The Board of Commissioners voted unanimously in early August 2026 to start the formal process for a countywide data center moratorium; because Oregon law requires 45 days' notice to DLCD before a public hearing, the earliest possible adoption was not before roughly mid/late September 2026, and no report of a completed final vote was found as of this pass (a September 15, 2026 article still described the county as 'considering' the moratorium). No data center land-use application had been filed in the county as of this pass. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
-- **Outcome:** Board of Commissioners voted unanimously to begin the formal process for a countywide data center moratorium; not yet adopted as of this pass.
+- **Affected projects:** County announcement and agenda copy describe new applications for a new or expanded data center as a primary use on unincorporated land; final executed scope and specific affected projects not established.
+- **Detailed status:** The county meeting record reports 5-0 October 22 adoption, and its announcement reports immediate effect for 120 days unless extended or repealed. The unsigned, unnumbered agenda copy limits new/expanded primary-use data-center applications to unincorporated land; final executed wording and resolution number remain unverified. Actual later amendments/extensions/repeal, operative interval and current legal force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** On October 22, 2026 the Board adopted the moratorium by a 5-0 vote.
 
 ### Crook County
 
