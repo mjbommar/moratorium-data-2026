@@ -1,0 +1,42 @@
+{
+  "observed_at": "2026-11-06T14:00:34.518597+00:00",
+  "expected_commit": "2c701f92444d51b8f1ea01a2630568594a118321",
+  "paths": [
+    {
+      "path": "data/moratorium_inventory.csv",
+      "status": 200,
+      "bytes": 1665971,
+      "sha256": "ef4a688ec8571fbd9c16369fee717d9e7a3986f098284b0f0dca7a1dbf998121",
+      "matches_pushed_commit": true
+    },
+    {
+      "path": "data/state_legislation.csv",
+      "status": 200,
+      "bytes": 245914,
+      "sha256": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038",
+      "matches_pushed_commit": true
+    },
+    {
+      "path": "site/moratoria.geojson",
+      "status": 200,
+      "bytes": 1166554,
+      "sha256": "6e7e8caa2ce6dd088c628c43388b96e6dcba5408d30cc25c1b3f81c16a302d00",
+      "matches_pushed_commit": true
+    },
+    {
+      "path": "docs/methodology.html",
+      "status": 200,
+      "bytes": 34788,
+      "sha256": "0f335acfb2e576e3f25afcf31d2a87cb5521faa89d3bf674b2fd1a09d15c9094",
+      "matches_pushed_commit": true
+    },
+    {
+      "path": "data/expanded-snapshots/6622d63edb4670461b8b988a4dbc5b5d6c593c838b822456b6124ec2ffa633af/measure_instrument_links.jsonl",
+      "status": 200,
+      "bytes": 367,
+      "sha256": "e22daf9243548a4a1e0eb4fd685b0265b12436741ec764d0d20475a17451da4e",
+      "matches_pushed_commit": true
+    }
+  ],
+  "scope": "Direct hosted-byte verification of five selected current surfaces; not comprehensive source freshness, all site links or final release completion."
+}
