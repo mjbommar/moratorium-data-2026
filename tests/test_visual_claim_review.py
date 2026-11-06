@@ -103,3 +103,63 @@ class NativePngReview(VisualReview):
         self.review['render_sha256']=self.source['body_sha256']
         with self.assertRaisesRegex(ValueError,'checksum'):
             verify(self.claim,self.source,self.index,self.review)
+
+
+class NativeJpegReview(VisualReview):
+    def setUp(self):
+        super().setUp()
+        import io
+        from PIL import Image
+        image=Image.new('RGB',(3,2),(20,40,60));exif=Image.Exif();exif[274]=8
+        buf=io.BytesIO();image.save(buf,format='JPEG',exif=exif,progressive=True)
+        self.bind_body(buf.getvalue())
+        self.review.update(pdf_page=None,render_sha256=self.source['body_sha256'],
+            render_parameters={'renderer':'native-jpeg','width':3,'height':2,'exif_orientation':8})
+
+    def bind_body(self,raw):
+        self.body.write_bytes(raw);h=hashlib.sha256(raw).hexdigest()
+        self.source['body_sha256']=h;self.index[self.source['url']][0]['body_sha256']=h
+        self.review['source_body_sha256']=h
+
+    def test_reproduces_reviewed_page_parameters(self):
+        with patch('visual_claim_review.render_hash') as render:
+            self.assertTrue(verify(self.claim,self.source,self.index,self.review))
+            render.assert_not_called()
+
+    def test_different_render_is_not_accepted(self):
+        self.review['render_sha256']='converted-image-hash'
+        with self.assertRaisesRegex(ValueError,'original untransformed'):
+            verify(self.claim,self.source,self.index,self.review)
+
+    def test_wrong_orientation_or_dimensions_rejected(self):
+        for field,bad in [('exif_orientation',1),('width',2),('height',3)]:
+            original=self.review['render_parameters'][field]
+            self.review['render_parameters'][field]=bad
+            with self.assertRaisesRegex(ValueError,'dimensions/orientation differ'):
+                verify(self.claim,self.source,self.index,self.review)
+            self.review['render_parameters'][field]=original
+
+    def test_orientation_required_and_crop_rejected(self):
+        del self.review['render_parameters']['exif_orientation']
+        with self.assertRaisesRegex(ValueError,'parameters'):
+            verify(self.claim,self.source,self.index,self.review)
+        self.review['render_parameters'].update(exif_orientation=8,crop=[0,0,1,1])
+        with self.assertRaisesRegex(ValueError,'parameters'):
+            verify(self.claim,self.source,self.index,self.review)
+
+    def test_truncation_rejected_even_with_matching_hashes(self):
+        self.bind_body(self.body.read_bytes()[:-2])
+        self.review['render_sha256']=self.source['body_sha256']
+        with self.assertRaisesRegex(ValueError,'complete JPEG'):
+            verify(self.claim,self.source,self.index,self.review)
+
+    def test_non_jpeg_rejected_even_with_matching_hashes(self):
+        self.bind_body(b'\xff\xd8not an image\xff\xd9')
+        self.review['render_sha256']=self.source['body_sha256']
+        with self.assertRaisesRegex(ValueError,'Invalid native JPEG'):
+            verify(self.claim,self.source,self.index,self.review)
+
+    def test_lenient_decoder_mode_rejected(self):
+        with patch('PIL.ImageFile.LOAD_TRUNCATED_IMAGES',True):
+            with self.assertRaisesRegex(ValueError,'Strict native JPEG'):
+                verify(self.claim,self.source,self.index,self.review)

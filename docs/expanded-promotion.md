@@ -72,6 +72,17 @@ interpretation, reviewer authenticity, result certification or legal effect.
 [Peru's real native-image exercise](../work/research/2026-11-05/peru-native-image-review/README.md)
 records a successful evidence audit without canonical publication.
 
+Native JPEG receipts use `renderer: native-jpeg` plus stored `width`, `height`
+and `exif_orientation` (1–8), with `pdf_page: null`. Original bytes and the
+orientation must match; a display-oriented image's dimensions must not be
+substituted for its stored dimensions. Strict Pillow decoding is required, and
+truncated input/lenient decoding or transformed image hashes are rejected.
+Pillow is included by `make install`. No transposition, crop, resizing or
+synthetic PDF changes the source. The
+[Brownfield/Freedom exercise](../work/research/2026-11-05/maine-native-jpeg-review/README.md)
+checks real retained JPEGs; this does not authenticate account authority,
+certify election results or accept current legal force.
+
 ```sh
 ~/projects/bc/bc-modules/.venv/bin/python scripts/expanded_promotion.py \
   --candidate REVIEWED_TABLE_DIRECTORY --plan REVIEWED_PLAN.json \

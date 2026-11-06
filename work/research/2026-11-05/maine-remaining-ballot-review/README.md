@@ -113,3 +113,11 @@ candidate used to exercise the additive `source_vote_categories` and
 cast remain null; 446 remains yes plus no. The schema exercise passed and
 original worker/canonical snapshots are unchanged. This is not native-JPEG
 verification, authenticated certification or canonical publication.
+
+## Native-JPEG evidence follow-up
+
+The subsequent [native-JPEG exercise](../maine-native-jpeg-review/README.md)
+implements and tests original-byte/dimension/orientation verification for the
+Brownfield and Freedom images, including Freedom's source-category claims.
+That implementation gap is closed. This does not publish either measure,
+authenticate Freedom's account affiliation or resolve operative legal histories.

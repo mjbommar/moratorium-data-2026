@@ -1,0 +1,96 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "claim_id": "brownfield-jpeg-counts-review",
+    "subject": {
+      "table": "measure_results",
+      "id": "result-brownfield"
+    },
+    "predicate": "vote_counts",
+    "value": {
+      "yes": 671,
+      "no": 191,
+      "ballots_counted_statement": 862
+    },
+    "source_document_id": "brownfield-jpeg-source-review",
+    "quote": null,
+    "span": "native JPEG: question-specific tally row",
+    "temporal_support": {
+      "earliest": null,
+      "latest": null,
+      "precision": "unknown",
+      "original_text": null
+    },
+    "extraction_provenance": "Coordinator source-qualified visual transcription; not authenticated certification or legal-force acceptance."
+  },
+  {
+    "schema_version": "1.0.0",
+    "claim_id": "freedom-jpeg-counts-review",
+    "subject": {
+      "table": "measure_results",
+      "id": "result-freedom"
+    },
+    "predicate": "vote_counts",
+    "value": {
+      "yes": 331,
+      "no": 115
+    },
+    "source_document_id": "source-freedom-tally-photo-review",
+    "quote": null,
+    "span": "native JPEG: question-specific tally row",
+    "temporal_support": {
+      "earliest": null,
+      "latest": null,
+      "precision": "unknown",
+      "original_text": null
+    },
+    "extraction_provenance": "Coordinator source-qualified visual transcription; not authenticated certification or legal-force acceptance."
+  },
+  {
+    "schema_version": "1.0.0",
+    "claim_id": "freedom-review-source_vote_category",
+    "subject": {
+      "table": "measure_results",
+      "id": "result-freedom"
+    },
+    "predicate": "source_vote_category",
+    "value": {
+      "label": "VOIDS",
+      "count": 24
+    },
+    "source_document_id": "source-freedom-tally-photo-review",
+    "quote": null,
+    "span": "native JPEG: Article3 row totals",
+    "temporal_support": {
+      "earliest": null,
+      "latest": null,
+      "precision": "unknown",
+      "original_text": null
+    },
+    "extraction_provenance": "Coordinator source-qualified visual transcription; no category mapping, denominator assignment or certification."
+  },
+  {
+    "schema_version": "1.0.0",
+    "claim_id": "freedom-review-source_vote_total",
+    "subject": {
+      "table": "measure_results",
+      "id": "result-freedom"
+    },
+    "predicate": "source_vote_total",
+    "value": {
+      "label": "circled total",
+      "count": 470,
+      "scope": "Article 3 question table"
+    },
+    "source_document_id": "source-freedom-tally-photo-review",
+    "quote": null,
+    "span": "native JPEG: Article3 row totals",
+    "temporal_support": {
+      "earliest": null,
+      "latest": null,
+      "precision": "unknown",
+      "original_text": null
+    },
+    "extraction_provenance": "Coordinator source-qualified visual transcription; no category mapping, denominator assignment or certification."
+  }
+]

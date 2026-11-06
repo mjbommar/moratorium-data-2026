@@ -1,9 +1,10 @@
-"""Verify an explicit coordinator visual transcription against retained PDF or native PNG bytes.
+"""Verify an explicit coordinator visual transcription against retained PDF or native PNG/JPEG bytes.
 
 This reproduces the reviewed rendering, not the human/agent visual judgement.
 It never certifies an election or accepts a legal-effect claim.
 """
 import hashlib
+import io
 import json
 from pathlib import Path
 import subprocess
@@ -53,6 +54,28 @@ def png_dimensions(raw):
     raise ValueError('Truncated native PNG container')
 
 
+def jpeg_metadata(raw):
+    """Decode strictly and retain stored dimensions plus EXIF display orientation."""
+    from PIL import Image, ImageFile
+    if not raw.startswith(b'\xff\xd8') or not raw.endswith(b'\xff\xd9'):
+        raise ValueError('Native image is not a complete JPEG')
+    if ImageFile.LOAD_TRUNCATED_IMAGES:
+        raise ValueError('Strict native JPEG decoding required')
+    try:
+        with Image.open(io.BytesIO(raw)) as im:
+            if im.format!='JPEG':raise ValueError('Native image format is not JPEG')
+            width,height=im.size
+            if not (0<width<=100000 and 0<height<=100000 and width*height<=50000000):
+                raise ValueError('Unsupported native JPEG dimensions')
+            orientation=im.getexif().get(274,1)
+            if type(orientation) is not int or not 1<=orientation<=8:
+                raise ValueError('Unsupported native JPEG EXIF orientation')
+            im.load()  # Decode without EXIF transpose, resizing, cropping or resaving.
+            return width,height,orientation
+    except (OSError,ValueError,Image.DecompressionBombError) as exc:
+        raise ValueError('Invalid native JPEG image') from exc
+
+
 def verify(claim,source,index,review):
     if review.get('disposition')!='accepted_visual_values' or review.get('reviewer')!='coordinator':
         raise ValueError('Visual review is not explicitly accepted transcription')
@@ -63,11 +86,15 @@ def verify(claim,source,index,review):
     if source['body_sha256']!=review['source_body_sha256']:
         raise ValueError('Visual source body hash mismatch')
     params=review['render_parameters']
-    native=params.get('renderer')=='native-png'
+    renderer=params.get('renderer')
+    native=renderer in ('native-png','native-jpeg')
     if native:
-        if (set(params)!={'renderer','width','height'} or review.get('pdf_page') is not None
-            or any(type(params[k]) is not int or params[k]<=0 for k in ['width','height'])):
-            raise ValueError('Unsupported native PNG review parameters')
+        fields={'renderer','width','height'} | ({'exif_orientation'} if renderer=='native-jpeg' else set())
+        if (set(params)!=fields or review.get('pdf_page') is not None
+            or any(type(params.get(k)) is not int or params[k]<=0 for k in ['width','height'])):
+            raise ValueError('Unsupported native image review parameters')
+        if renderer=='native-jpeg' and (type(params['exif_orientation']) is not int or not 1<=params['exif_orientation']<=8):
+            raise ValueError('Unsupported native JPEG orientation parameters')
     elif (params.get('renderer')!='pdftoppm' or params['page']!=review['pdf_page']
           or not 1<=params['page']<=1000 or not 36<=params['dpi']<=300):
         raise ValueError('Unsupported visual rendering parameters')
@@ -77,10 +104,13 @@ def verify(claim,source,index,review):
         raw=body.read_bytes()
         if digest(raw)!=source['body_sha256']:continue
         if native:
-            if png_dimensions(raw)!=(params['width'],params['height']):
-                raise ValueError('Native PNG dimensions differ from reviewed source')
+            if renderer=='native-png':
+                if png_dimensions(raw)!=(params['width'],params['height']):
+                    raise ValueError('Native PNG dimensions differ from reviewed source')
+            elif jpeg_metadata(raw)!=(params['width'],params['height'],params['exif_orientation']):
+                raise ValueError('Native JPEG dimensions/orientation differ from reviewed source')
             if review['render_sha256']!=source['body_sha256']:
-                raise ValueError('Native PNG review must pin original untransformed bytes')
+                raise ValueError('Native image review must pin original untransformed bytes')
             return True
         if render_hash(body,params['page'],params['dpi'])!=review['render_sha256']:
             raise ValueError('Reviewed rendering could not be reproduced')

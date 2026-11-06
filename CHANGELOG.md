@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Native JPEG visual evidence now pins original bytes, stored dimensions and EXIF orientation with strict decoding. Real Brownfield/Freedom tallies pass the evidence audit, including Freedom’s unmapped source category and total. This verification increment changes no canonical measure, certification or legacy count.
+
 Expanded result contracts now preserve original source vote categories and scoped totals separately from standard counts and denominators. Exact result/source/claim matching is required. Freedom’s VOIDS category and circled total pass a private candidate exercise; canonical data remains unchanged by this schema increment.
 
 Peru Article 2 adds an eighth reviewed expanded measure with official town-hosted 578 yes / 182 no and proposed 180-day terms. Exact ballot wording, yes-vote direction, certification, outcome and operative legal interval remain unresolved. Native PNG evidence preserves the original source; separate total voters is not used as a question denominator. Legacy counts are unchanged.

@@ -23,7 +23,7 @@ help:
 	@grep -E '^#   make' $(MAKEFILE_LIST) | sed 's/^#   /  /'
 
 install:
-	$(PYTHON) -m pip install pandas matplotlib seaborn geopandas shapely markdown pymdown-extensions jsonschema
+	$(PYTHON) -m pip install pandas matplotlib seaborn geopandas shapely markdown pymdown-extensions jsonschema pillow
 
 # ---------------------------------------------------------------------------
 # Gate
