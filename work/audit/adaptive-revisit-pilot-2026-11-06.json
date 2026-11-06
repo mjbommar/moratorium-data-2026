@@ -1,0 +1,31 @@
+{
+  "as_of": "2026-11-06T14:10:00+00:00",
+  "input_sha256": {
+    "/data0/moratorium-refresh-2026/conditional-cache-pilot/attempts.private.jsonl": "3e46f05e58e829553b8a6315a90f5d0b3c506ede2505820f626708f166d1a58f",
+    "/data0/moratorium-refresh-2026/conditional-cache-pilot/0b9b8c9606bc476992e0eb5871cf07f7.private.json": "59c40b63c3910a6577fca93c148c6e12459fcdeb5ef96712c14296518203fc7e",
+    "/data0/moratorium-refresh-2026/conditional-cache-pilot/6c2e4ec3bd2e4efb95c7014ca495d043.private.json": "95319584db63cd8f27d8b1b29aa8fa02b27879d13af7ba3b4f818853a9546fee"
+  },
+  "sources": [
+    {
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/summary_stats.json",
+      "variant": "{\"browser_controls\":null,\"engine\":\"curl_cffi\",\"tier\":\"http\"}",
+      "visits": 2,
+      "detected_body_changes": 0,
+      "mean_interval_s": 38.31476402282715,
+      "native_rate_per_s": -0.0,
+      "native_interval_s": 2592000.0,
+      "adaptive_due": 1796565821.852135,
+      "event_review_due": null,
+      "effective_due": 1796565821.852135,
+      "due_now": false,
+      "attempt_ids": [
+        "0b9b8c9606bc476992e0eb5871cf07f7",
+        "6c2e4ec3bd2e4efb95c7014ca495d043"
+      ]
+    }
+  ],
+  "excluded_failed_attempts": [],
+  "excluded_future_attempt_ids": [],
+  "native_policy_module_sha256": "56c51f9bc2f727843cb230dd19c37e67da5c8d23eba15f714877d4c1fb227c92",
+  "scope": "Advisory source revisit proposals using native bc-web estimator; no fetches, installed schedules, factual acceptance, legal deadlines or current-force updates. Event review priorities can shorten but never postpone the native due time. Body changes are not semantic/legal changes."
+}

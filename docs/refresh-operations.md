@@ -54,6 +54,23 @@ render/API review and cannot use this HTTP-only option. The [live pilot](../work
 verified a 200/304 round trip without changing canonical facts. Due-work rules and
 source-specific decisions determine when to recrawl; no schedule is installed.
 
+## Adaptive revisit proposals
+
+Run `scripts/build_adaptive_revisit_plan.py` with the bc-modules Python environment,
+repeatable `--directory` job paths, a timezone-aware `--as-of` timestamp and an
+`--output` JSON path. It verifies retained bodies and uses native bc-web
+`recrawl.estimate_rate` and `interval_for`, keeping HTTP/browser variants separate.
+Failed acquisitions and future observations cannot count as unchanged visits.
+
+Optional `--event-due FILE` maps URLs to timezone-aware ISO review times. These
+operator priorities can shorten, never postpone, native due times; they are not
+inferred statutory deadlines. Reports pin input and native-policy hashes and
+sanitize signed retrieval URLs. The retained
+[pilot](../work/audit/adaptive-revisit-pilot-2026-11-06.json) uses the actual two-fetch
+conditional-cache ledger. This is an advisory offline planner, with no network
+calls, installed schedules, task resolution or canonical factual updates. The
+pilot does not establish inventory-wide policy calibration or legal freshness.
+
 ## JavaScript portals and JSON endpoints
 
 For a bounded job, `fetch --mode browser --settle-ms 5000 --record-network`

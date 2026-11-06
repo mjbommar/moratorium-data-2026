@@ -237,7 +237,7 @@ Exit: fresh, reproducible release with reconciled data/prose, a verified publish
 - [x] Exercise bc-web conditional HTTP caching with an actual 200/304 round trip, preserved body time and immutable archive tests (`conditional-cache-pilot/`); adaptive revisit policy remains open.
 
 - [ ] Implement due-work rules for qualification, elections, certification/recounts, implementation and expiry.
-- [ ] Add conditional/adaptive recrawl while preserving prior observations and cached-body limitations.
+- [x] Add opt-in conditional HTTP caching and an offline native bc-web adaptive revisit planner, preserving prior observations and cached-body limitations; actual cache pilot and planner tests retained. Inventory-wide calibration and task resolution remain open.
 - [ ] Exercise an end-to-end correction and refresh cycle manually.
 - [ ] Track source failures, backend contribution, coverage gaps, freshness and review backlog.
 - [ ] Document operator recovery, storage restore, interruption and budget-stop procedures.
