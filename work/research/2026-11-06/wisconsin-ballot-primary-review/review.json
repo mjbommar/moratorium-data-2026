@@ -1,0 +1,756 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "scope": "Three Wisconsin cases, seven source versions/seventeen scoped claims. Official returns, unsigned proposals and reproduced resolution retain distinct authority. No canonical publication or operative-force acceptance.",
+  "sources": [
+    {
+      "source_document_id": "wi-review-janesville-packet",
+      "url": "https://legistarweb-production.s3.amazonaws.com/uploads/attachment/pdf/3870347/Memo_and_Petition_for_Council_Packet_1-23-2026.pdf",
+      "body_sha256": "bcf27e4b69cc929f4b026e0183305d237af6ac45efa9d9fd7375cda94996629c",
+      "text_sha256": "142b5bdf9d5980a8548965c6eef2701665c83a4dc4682aae0a80e65555b356f3",
+      "retrieved_at": "2026-11-05T17:22:28.425390+00:00",
+      "attempt_id": "87b6a2300ee24a0087cea0e658b5eac9",
+      "source_role": "City clerk memorandum and unsigned proposed ordinance, retained Legistar attachment"
+    },
+    {
+      "source_document_id": "wi-review-janesville-return",
+      "url": "https://elections.co.rock.wi.us/20261103.html",
+      "body_sha256": "34514aee9bf60081db0ca74443fc131e9d861d8b113ba2a4d238c6987c3c7522",
+      "text_sha256": "346ea87bfecd05954e3009f1101a1b312aa516ff5838251ed361a81255a3aa1d",
+      "retrieved_at": "2026-11-05T17:23:11.326067+00:00",
+      "attempt_id": "43d333447ee44463b27a3d009b692fc2",
+      "source_role": "Official Rock County unofficial election-night return"
+    },
+    {
+      "source_document_id": "wi-review-port-petition",
+      "url": "https://ballotpedia.s3.amazonaws.com/images/5/54/Watermark_Ordinance_Direct_Legislation_Petition_SD_Review_11.10.25_%283%29.pdf",
+      "body_sha256": "051aac74703a0ef60a722fc1fe0a2ac288a2d4d646c05644fb6a97ed986ff857",
+      "text_sha256": "4345fc400840976c283355a9083e6824d66a4b7735dc88ff38aabd1dfd4af0a6",
+      "retrieved_at": "2026-11-05T17:22:32.468315+00:00",
+      "attempt_id": "231f9e23b5174b93b51f97937d554c41",
+      "source_role": "Watermarked unsigned petition/draft reproduced on Ballotpedia host, not adopted law"
+    },
+    {
+      "source_document_id": "wi-review-port-return",
+      "url": "https://www.ozaukeecounty.gov/DocumentCenter/View/27127/April-7-2026---Municipality",
+      "body_sha256": "fce7a623f7f55860176aeddb1bccd5944d502896074c526ccb6f0a332c62de44",
+      "text_sha256": "139b3a03ed4ce7c63c828e4c05608a34d0f586f811eb5f31b83c259ea70a9acd",
+      "retrieved_at": "2026-11-05T17:22:36.385652+00:00",
+      "attempt_id": "24b025360e3c4ef7b307ee35d73fc182",
+      "source_role": "Official Ozaukee County unofficial return"
+    },
+    {
+      "source_document_id": "wi-review-wrightstown-resolution",
+      "url": "https://ballotpedia.s3.amazonaws.com/images/4/41/Wrightstown_Referendum_Resolution.pdf",
+      "body_sha256": "9887e14807de00ac70de33f71a4b80ff1f8264786d95ac9201a2aa9dcf1e9972",
+      "text_sha256": "cd4cc892a55cbc26d5846903f14ff358e71aa3232e91dc41d6ad941f2dfc5e4c",
+      "retrieved_at": "2026-11-05T17:22:30.517509+00:00",
+      "attempt_id": "bd4fb6ea08b84c49bebbe9c798b1a9e4",
+      "source_role": "Signed resolution reproduction on Ballotpedia host; original village-published version not recovered"
+    },
+    {
+      "source_document_id": "wi-review-brown-return",
+      "url": "https://www.browncountywi.gov/i/f/files/County-Clerk/Elections/Election%20Results/2026/August/Summary%20-%20Official.pdf",
+      "body_sha256": "8a9a10af54dd8e14c7f1186b21d5885caab5875d6621662923d46335580fbbb6",
+      "text_sha256": "782f64f06826f759b9fdc7a517fca0e8e1e85b9af0d84504f243dee4467f3ff8",
+      "retrieved_at": "2026-11-06T09:12:25.503882+00:00",
+      "attempt_id": "0c2768f3ce03485daed927f08a0906f2",
+      "source_role": "Official Brown County post-county-canvass summary; county slice only"
+    },
+    {
+      "source_document_id": "wi-review-outagamie-return",
+      "url": "https://www.outagamie.gov/files/49eba295-5056-4c10-863f-ff0394340614/1126-Outagamie-County-Summary-Report.pdf",
+      "body_sha256": "bbcc8d1c0ace122b0e032b2af5fda42861c3b5ee78c36890a7b64bf45234e2f1",
+      "text_sha256": "b3a2b21a8219b12227e3fe2aaf4bb248eb649c0ca0ec9594d00d82b35e324b6c",
+      "retrieved_at": "2026-11-06T09:19:16.629527+00:00",
+      "attempt_id": "76e6d952f4fa4f538fa29105f445581f",
+      "source_role": "Official Outagamie County unofficial election-night summary; county slice only"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "wisconsin-primary-review-01",
+      "source_document_id": "wi-review-janesville-packet",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-01088c1eed330ac2"
+      },
+      "predicate": "clerk_reported_petition_history",
+      "value": {
+        "petition_received": "2026-01-06",
+        "reported_clerk_certificate": "2026-01-21",
+        "qualifying_signatures": 3927,
+        "memo_date": "2026-01-26",
+        "scope": "Clerk memorandum reports petition certification, not final result certification. First-reading/scheduling packet; no completed council referral/adoption instrument accepted."
+      },
+      "quote": "required number of qualifying\n\nsignatures (3,927) and the petition to be in proper form.",
+      "span": "utf8-text-codepoints:1282:1370"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-02",
+      "source_document_id": "wi-review-janesville-packet",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-01088c1eed330ac2"
+      },
+      "predicate": "proposed_site_and_cost_rule",
+      "value": {
+        "file": "2026-926",
+        "site": "Undeveloped GM/JATCO site:1000GeneralMotorsDrive/544KelloggAvenue; approximate street boundaries stated",
+        "rule": "Proposed prior majority electoral approval for covered site transactions/development exceeding450millionUSD project costs",
+        "project_costs": "All developer project costs including construction and administrative costs",
+        "scope": "Unsigned proposed ordinance, physicalpage4. General site development, not a categorical data-center prohibition. Future project-vote rule is not passage rule/effective date of this measure."
+      },
+      "quote": null,
+      "span": "pdf-page:4"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-03",
+      "source_document_id": "wi-review-janesville-packet",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-01088c1eed330ac2"
+      },
+      "predicate": "proposed_aggregation_and_exceptions",
+      "value": {
+        "adjacent_properties": "Cohesive projects/campuses and adjacent properties serving within-site proposal are included/presumed part underSection3(b)",
+        "phases": "Phased development and project costs considered in totality",
+        "changes": "Routine/minimal changes after approved development do not require another referendum",
+        "new_rejected_plans": "New proposal after rejection requires new referendum",
+        "exception": "Projects/plans/agreements under450millionUSD exempt under3(f)",
+        "boundary_gap": "Rule says exceeding450million; exception says under450million. Exact equality treatment not repaired or interpreted.",
+        "scope": "Physicalpage5 continuation. Blank adoption/date/signature/vote fields; no operative law accepted."
+      },
+      "quote": null,
+      "span": "pdf-page:5"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-04",
+      "source_document_id": "wi-review-janesville-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-01088c1eed330ac2"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 16779,
+        "no_votes": 9932,
+        "source_yes_percent": 62.82,
+        "precincts_reporting": 40,
+        "precincts_total": 40,
+        "report_label": "November3 General Election Unofficial Results",
+        "source_clock": "November03,2026 10:56PM; timezone unspecified",
+        "scope": "City of Janesville development contest only. County97950 registration/67812ballots/106precincts and neighboring table totals are not municipal denominators. No city ballots/registered/blank/under/over accepted. Town of Janesville remains distinct."
+      },
+      "quote": "Development Referendum City of Janesville Vote For 1 Votes\nYes (NONPARTISAN) 62.82% 16,779\nNo (NONPARTISAN) 37.18% 9,932\n\nPrecincts Reporting: 40 of 40 for 100%",
+      "span": "utf8-text-codepoints:50635:50795"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-05",
+      "source_document_id": "wi-review-port-petition",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f1a25834e5a28e79"
+      },
+      "predicate": "proposed_tid_rule",
+      "value": {
+        "mechanism": "Prior majority voter approval for creation/adoption/approval of specified TIDs",
+        "base_value_test": "Projected to or exceeding10millionUSD (includes equality)",
+        "project_cost_test": "Exceeding10millionUSD",
+        "scope": "Watermarked unsigned petition/draft physicalpage1; general tax-increment districts, not data-center-only scope. Future TID-vote rule is not this measure passage rule or current operative law."
+      },
+      "quote": null,
+      "span": "pdf-page:1"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-06",
+      "source_document_id": "wi-review-port-petition",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f1a25834e5a28e79"
+      },
+      "predicate": "proposed_tid_exception_boundary",
+      "value": {
+        "exception": "No public referendum for TIDs that do not require large capital expenditure OR do not exceed10millionUSD project costs OR contain properties with base value not exceeding10millionUSD",
+        "boundary_conflict": "Section1 base-value test includes equality;3(b) exception uses not exceeding and disjunctive OR. Preserve wording; no guessed harmonization.",
+        "adoption_status": "Adoption date and mayor/clerk signature lines blank",
+        "scope": "Watermarked draft physicalpage2. Not complete adopted/certified operative text."
+      },
+      "quote": null,
+      "span": "pdf-page:2"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-07",
+      "source_document_id": "wi-review-port-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f1a25834e5a28e79"
+      },
+      "predicate": "source_reported_counts",
+      "value": {
+        "yes_votes": 2710,
+        "no_votes": 1371,
+        "source_yes_percent": 66.41,
+        "registered_voters": 8257,
+        "source_times_cast": 4201,
+        "source_total_votes": 4081,
+        "source_clock": "4/7/2026 10:10:02PM; timezone unspecified",
+        "report_label": "Unofficial Results",
+        "scope": "Physicalpage105, C.PortWashington contest aggregate. CountyTotal label here covers named city contest only. TimesCast is retained as source label, not silently renamed ballots; residual120 is unclassified, not blank/under/over. Seven ward-reporting rows are not an accepted precinct total."
+      },
+      "quote": null,
+      "span": "pdf-page:105"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-08",
+      "source_document_id": "wi-review-port-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f1a25834e5a28e79"
+      },
+      "predicate": "source_vote_total",
+      "value": {
+        "label": "Total Votes",
+        "count": 4081,
+        "scope": "Referendum Question - C.Port Washington"
+      },
+      "quote": null,
+      "span": "pdf-page:105"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-09",
+      "source_document_id": "wi-review-port-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f1a25834e5a28e79"
+      },
+      "predicate": "source_times_cast",
+      "value": {
+        "label": "Times Cast",
+        "count": 4201,
+        "scope": "Named City of PortWashington referendum; actual meaning not generalized to blank/under/over categories"
+      },
+      "quote": null,
+      "span": "pdf-page:105"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-10",
+      "source_document_id": "wi-review-wrightstown-resolution",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-600aa3ed4c4fee20"
+      },
+      "predicate": "reproduced_referral_election_date",
+      "value": {
+        "resolution_label": "05272026",
+        "election_date": "2026-08-11",
+        "election_type": "Partisan primary",
+        "bindingness": "advisory",
+        "scope": "Signed resolution reproduction, physicalpage1. Corrects frozen seed August8 lead; actual printed ballot remains unrecovered. Not fresh original-village publication authentication."
+      },
+      "quote": null,
+      "span": "pdf-page:1"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-11",
+      "source_document_id": "wi-review-wrightstown-resolution",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-600aa3ed4c4fee20"
+      },
+      "predicate": "reproduced_question_part1",
+      "value": {
+        "text": "Should the Village of Wrightstown authorize, support, participate in, or facilitate municipal utility infrastructure, public utility service commitments, public facilities, the operations of a",
+        "scope": "Section2 physicalpage1 opening; question says it shall read substantially as follows. Continued onpage2; not accepted as exact final ballot."
+      },
+      "quote": null,
+      "span": "pdf-page:1"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-12",
+      "source_document_id": "wi-review-wrightstown-resolution",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-600aa3ed4c4fee20"
+      },
+      "predicate": "reproduced_question_and_advisory_limits",
+      "value": {
+        "question_continuation": "facility for the providing of video service, telecommunications service, or Internet access service, directly or indirectly to the public or related municipal infrastructure improvements associated with a large-scale data center development within or affecting the Village?",
+        "advisory_limit": "Does not itself authorize specific contract, expenditure, zoning approval, development agreement or utility extension",
+        "printed_adoption": "2026-05-27",
+        "effect_clause": "Upon passage and publication as required by law",
+        "scope": "Physicalpage2 signed reproduction; no independent publication proof/effect date, original-host authentication or exact final ballot. Secondary apparent transcription omits large-scale; version conflict remains."
+      },
+      "quote": null,
+      "span": "pdf-page:2"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-13",
+      "source_document_id": "wi-review-brown-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-600aa3ed4c4fee20"
+      },
+      "predicate": "source_reported_county_slice",
+      "value": {
+        "county": "Brown",
+        "yes_votes": 106,
+        "no_votes": 899,
+        "source_yes_percent": 10.11,
+        "source_no_percent": 85.78,
+        "source_total_votes_cast": 1005,
+        "overvotes": 0,
+        "undervotes": 43,
+        "source_contest_totals": 1048,
+        "precincts_reporting": 1,
+        "precincts_total": 1,
+        "report_label": "SummaryResultsReport - Post County Canvass; OFFICIAL RESULTS",
+        "source_generated_clock": "08/17/2026 03:02PM; timezone unspecified",
+        "scope": "Physicalpage20, BrownCounty portion only, not full two-county village. Displayed percentages divide byContestTotals1048, including undervotes, not yes/no1005. Official label/generation time do not establish independent result-certification date."
+      },
+      "quote": null,
+      "span": "pdf-page:20"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-14",
+      "source_document_id": "wi-review-brown-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-600aa3ed4c4fee20"
+      },
+      "predicate": "county_slice_vote_total",
+      "value": {
+        "label": "Total Votes Cast",
+        "count": 1005,
+        "scope": "Brown County portion of Wrightstown referendum only; no full-village aggregate accepted"
+      },
+      "quote": null,
+      "span": "pdf-page:20"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-15",
+      "source_document_id": "wi-review-brown-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-600aa3ed4c4fee20"
+      },
+      "predicate": "county_slice_contest_total",
+      "value": {
+        "label": "Contest Totals",
+        "count": 1048,
+        "scope": "BrownCounty portion, includes43undervotes and0overvotes. Not silently re-labelled village ballots; source percentage denominator differs from yes/no."
+      },
+      "quote": null,
+      "span": "pdf-page:20"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-16",
+      "source_document_id": "wi-review-outagamie-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-600aa3ed4c4fee20"
+      },
+      "predicate": "outagamie_source_reported_county_slice",
+      "value": {
+        "county": "Outagamie",
+        "yes_votes": 45,
+        "no_votes": 134,
+        "source_yes_percent": 23.2,
+        "source_no_percent": 69.07,
+        "source_total_votes_cast": 179,
+        "overvotes": 0,
+        "undervotes": 15,
+        "source_contest_totals": 194,
+        "precincts_reporting": 1,
+        "precincts_total": 1,
+        "report_label": "Summary Results Report - UNOFFICIAL RESULTS",
+        "source_generated_clock": "08/11/2026 11:30PM; timezone unspecified",
+        "scope": "Physicalpage22, OutagamieCounty slice only. Displayed percentages useContestTotals194, including15undervotes, not yes/no179. Combine with Brown only as explicitly derived mixed-version tally, not certified village result."
+      },
+      "quote": null,
+      "span": "pdf-page:22"
+    },
+    {
+      "claim_id": "wisconsin-primary-review-17",
+      "source_document_id": "wi-review-outagamie-return",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-600aa3ed4c4fee20"
+      },
+      "predicate": "outagamie_county_slice_vote_total",
+      "value": {
+        "label": "Total Votes Cast",
+        "count": 179,
+        "scope": "OutagamieCounty portion of Wrightstown referendum only; separate from ContestTotals194 and Brown1005"
+      },
+      "quote": null,
+      "span": "pdf-page:22"
+    }
+  ],
+  "visual_reviews": {
+    "wisconsin-primary-review-02": {
+      "claim_id": "wisconsin-primary-review-02",
+      "source_document_id": "wi-review-janesville-packet",
+      "claim_sha256": "c83296b3ef6c501fa89bdb10f4273da31f6c5bbeb409a2bf9adca1f0e32b504e",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "file": "2026-926",
+        "site": "Undeveloped GM/JATCO site:1000GeneralMotorsDrive/544KelloggAvenue; approximate street boundaries stated",
+        "rule": "Proposed prior majority electoral approval for covered site transactions/development exceeding450millionUSD project costs",
+        "project_costs": "All developer project costs including construction and administrative costs",
+        "scope": "Unsigned proposed ordinance, physicalpage4. General site development, not a categorical data-center prohibition. Future project-vote rule is not passage rule/effective date of this measure."
+      },
+      "source_body_sha256": "bcf27e4b69cc929f4b026e0183305d237af6ac45efa9d9fd7375cda94996629c",
+      "pdf_page": 4,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 4,
+        "dpi": 150
+      },
+      "render_sha256": "e5b4591f5a1c390aa962ee0aabb07a3223f80ce4bd2097937432d1266ba6163d"
+    },
+    "wisconsin-primary-review-03": {
+      "claim_id": "wisconsin-primary-review-03",
+      "source_document_id": "wi-review-janesville-packet",
+      "claim_sha256": "c9e45811f1dff9bd71502c5ea7fb0c4b4ce4b06cd64eca321d46e88d0031a1f5",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "adjacent_properties": "Cohesive projects/campuses and adjacent properties serving within-site proposal are included/presumed part underSection3(b)",
+        "phases": "Phased development and project costs considered in totality",
+        "changes": "Routine/minimal changes after approved development do not require another referendum",
+        "new_rejected_plans": "New proposal after rejection requires new referendum",
+        "exception": "Projects/plans/agreements under450millionUSD exempt under3(f)",
+        "boundary_gap": "Rule says exceeding450million; exception says under450million. Exact equality treatment not repaired or interpreted.",
+        "scope": "Physicalpage5 continuation. Blank adoption/date/signature/vote fields; no operative law accepted."
+      },
+      "source_body_sha256": "bcf27e4b69cc929f4b026e0183305d237af6ac45efa9d9fd7375cda94996629c",
+      "pdf_page": 5,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 5,
+        "dpi": 150
+      },
+      "render_sha256": "6c86ff0396777741a5d7391b9638517d0b1bd874d3d594f65782cc2a37480133"
+    },
+    "wisconsin-primary-review-05": {
+      "claim_id": "wisconsin-primary-review-05",
+      "source_document_id": "wi-review-port-petition",
+      "claim_sha256": "f891b7ba718c211f87a913f4fc65bbfa097c877874d886955f70bcad33f89ab7",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "mechanism": "Prior majority voter approval for creation/adoption/approval of specified TIDs",
+        "base_value_test": "Projected to or exceeding10millionUSD (includes equality)",
+        "project_cost_test": "Exceeding10millionUSD",
+        "scope": "Watermarked unsigned petition/draft physicalpage1; general tax-increment districts, not data-center-only scope. Future TID-vote rule is not this measure passage rule or current operative law."
+      },
+      "source_body_sha256": "051aac74703a0ef60a722fc1fe0a2ac288a2d4d646c05644fb6a97ed986ff857",
+      "pdf_page": 1,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 1,
+        "dpi": 150
+      },
+      "render_sha256": "0e83e607d98a131ecd7038d7bb79b4cca5763739c7f9dab990d7a5a3a3fba6d2"
+    },
+    "wisconsin-primary-review-06": {
+      "claim_id": "wisconsin-primary-review-06",
+      "source_document_id": "wi-review-port-petition",
+      "claim_sha256": "0ade501408a4ee5efb86ca3047e784f3c0aa5637ddbfe6308c19d5a6ae56eef1",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "exception": "No public referendum for TIDs that do not require large capital expenditure OR do not exceed10millionUSD project costs OR contain properties with base value not exceeding10millionUSD",
+        "boundary_conflict": "Section1 base-value test includes equality;3(b) exception uses not exceeding and disjunctive OR. Preserve wording; no guessed harmonization.",
+        "adoption_status": "Adoption date and mayor/clerk signature lines blank",
+        "scope": "Watermarked draft physicalpage2. Not complete adopted/certified operative text."
+      },
+      "source_body_sha256": "051aac74703a0ef60a722fc1fe0a2ac288a2d4d646c05644fb6a97ed986ff857",
+      "pdf_page": 2,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 150
+      },
+      "render_sha256": "ab5db637f8d672ae90d977b5c526aaaa92e730e877e354f28ef6611524a50ffd"
+    },
+    "wisconsin-primary-review-07": {
+      "claim_id": "wisconsin-primary-review-07",
+      "source_document_id": "wi-review-port-return",
+      "claim_sha256": "ae08dc4a368ee5cd5115d078dcd300eeef4bb051efe5028cf8841e508933a2d5",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "yes_votes": 2710,
+        "no_votes": 1371,
+        "source_yes_percent": 66.41,
+        "registered_voters": 8257,
+        "source_times_cast": 4201,
+        "source_total_votes": 4081,
+        "source_clock": "4/7/2026 10:10:02PM; timezone unspecified",
+        "report_label": "Unofficial Results",
+        "scope": "Physicalpage105, C.PortWashington contest aggregate. CountyTotal label here covers named city contest only. TimesCast is retained as source label, not silently renamed ballots; residual120 is unclassified, not blank/under/over. Seven ward-reporting rows are not an accepted precinct total."
+      },
+      "source_body_sha256": "fce7a623f7f55860176aeddb1bccd5944d502896074c526ccb6f0a332c62de44",
+      "pdf_page": 105,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 105,
+        "dpi": 150
+      },
+      "render_sha256": "c4b7cd89899f57c71998e34d3a08ad54cd57d49f75a979620bf7eed372a73612"
+    },
+    "wisconsin-primary-review-08": {
+      "claim_id": "wisconsin-primary-review-08",
+      "source_document_id": "wi-review-port-return",
+      "claim_sha256": "91b9152ac2020c3a5f1ca7bec9e72c406e87d12bcc8b6bb32efe607d4f286be4",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total Votes",
+        "count": 4081,
+        "scope": "Referendum Question - C.Port Washington"
+      },
+      "source_body_sha256": "fce7a623f7f55860176aeddb1bccd5944d502896074c526ccb6f0a332c62de44",
+      "pdf_page": 105,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 105,
+        "dpi": 150
+      },
+      "render_sha256": "c4b7cd89899f57c71998e34d3a08ad54cd57d49f75a979620bf7eed372a73612"
+    },
+    "wisconsin-primary-review-09": {
+      "claim_id": "wisconsin-primary-review-09",
+      "source_document_id": "wi-review-port-return",
+      "claim_sha256": "6c038a6aa034dd75196539e2d9eaa20c0ea00df0518c7a3e0e20af488ebe93d3",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Times Cast",
+        "count": 4201,
+        "scope": "Named City of PortWashington referendum; actual meaning not generalized to blank/under/over categories"
+      },
+      "source_body_sha256": "fce7a623f7f55860176aeddb1bccd5944d502896074c526ccb6f0a332c62de44",
+      "pdf_page": 105,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 105,
+        "dpi": 150
+      },
+      "render_sha256": "c4b7cd89899f57c71998e34d3a08ad54cd57d49f75a979620bf7eed372a73612"
+    },
+    "wisconsin-primary-review-10": {
+      "claim_id": "wisconsin-primary-review-10",
+      "source_document_id": "wi-review-wrightstown-resolution",
+      "claim_sha256": "c39a329813bdd5348a97458b46835625317ae03b6bce2272a9e31bb341d47019",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "resolution_label": "05272026",
+        "election_date": "2026-08-11",
+        "election_type": "Partisan primary",
+        "bindingness": "advisory",
+        "scope": "Signed resolution reproduction, physicalpage1. Corrects frozen seed August8 lead; actual printed ballot remains unrecovered. Not fresh original-village publication authentication."
+      },
+      "source_body_sha256": "9887e14807de00ac70de33f71a4b80ff1f8264786d95ac9201a2aa9dcf1e9972",
+      "pdf_page": 1,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 1,
+        "dpi": 150
+      },
+      "render_sha256": "cd8fd81b97e7d38178f17f095081b9ab6d3a467d56bd7347cb31a446ea15f5cc"
+    },
+    "wisconsin-primary-review-11": {
+      "claim_id": "wisconsin-primary-review-11",
+      "source_document_id": "wi-review-wrightstown-resolution",
+      "claim_sha256": "31ac446a5e3a8bede57a51e14e4381053cf59ddf5d07c6b84e97a91d956da710",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "text": "Should the Village of Wrightstown authorize, support, participate in, or facilitate municipal utility infrastructure, public utility service commitments, public facilities, the operations of a",
+        "scope": "Section2 physicalpage1 opening; question says it shall read substantially as follows. Continued onpage2; not accepted as exact final ballot."
+      },
+      "source_body_sha256": "9887e14807de00ac70de33f71a4b80ff1f8264786d95ac9201a2aa9dcf1e9972",
+      "pdf_page": 1,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 1,
+        "dpi": 150
+      },
+      "render_sha256": "cd8fd81b97e7d38178f17f095081b9ab6d3a467d56bd7347cb31a446ea15f5cc"
+    },
+    "wisconsin-primary-review-12": {
+      "claim_id": "wisconsin-primary-review-12",
+      "source_document_id": "wi-review-wrightstown-resolution",
+      "claim_sha256": "19b63d3b7a5fbe8961e24ae1020403041b61a1f66bc3d7a9410e884915775ef3",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "question_continuation": "facility for the providing of video service, telecommunications service, or Internet access service, directly or indirectly to the public or related municipal infrastructure improvements associated with a large-scale data center development within or affecting the Village?",
+        "advisory_limit": "Does not itself authorize specific contract, expenditure, zoning approval, development agreement or utility extension",
+        "printed_adoption": "2026-05-27",
+        "effect_clause": "Upon passage and publication as required by law",
+        "scope": "Physicalpage2 signed reproduction; no independent publication proof/effect date, original-host authentication or exact final ballot. Secondary apparent transcription omits large-scale; version conflict remains."
+      },
+      "source_body_sha256": "9887e14807de00ac70de33f71a4b80ff1f8264786d95ac9201a2aa9dcf1e9972",
+      "pdf_page": 2,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 150
+      },
+      "render_sha256": "1192888c4f43c86d9d94d31f2f8814666cdf2e3f9ef2f0bbd4abdd4e46baa03a"
+    },
+    "wisconsin-primary-review-13": {
+      "claim_id": "wisconsin-primary-review-13",
+      "source_document_id": "wi-review-brown-return",
+      "claim_sha256": "b2457740151b1a477ba81cb8464e24512020da7ce1928fa619b77c31a220d75c",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "county": "Brown",
+        "yes_votes": 106,
+        "no_votes": 899,
+        "source_yes_percent": 10.11,
+        "source_no_percent": 85.78,
+        "source_total_votes_cast": 1005,
+        "overvotes": 0,
+        "undervotes": 43,
+        "source_contest_totals": 1048,
+        "precincts_reporting": 1,
+        "precincts_total": 1,
+        "report_label": "SummaryResultsReport - Post County Canvass; OFFICIAL RESULTS",
+        "source_generated_clock": "08/17/2026 03:02PM; timezone unspecified",
+        "scope": "Physicalpage20, BrownCounty portion only, not full two-county village. Displayed percentages divide byContestTotals1048, including undervotes, not yes/no1005. Official label/generation time do not establish independent result-certification date."
+      },
+      "source_body_sha256": "8a9a10af54dd8e14c7f1186b21d5885caab5875d6621662923d46335580fbbb6",
+      "pdf_page": 20,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 20,
+        "dpi": 150
+      },
+      "render_sha256": "ec3a4ed767f20f9fed9f7a73e410ef2b63ad6242ee53fe35e460804cc49a0c80"
+    },
+    "wisconsin-primary-review-14": {
+      "claim_id": "wisconsin-primary-review-14",
+      "source_document_id": "wi-review-brown-return",
+      "claim_sha256": "0040244ce36c6a44f7c2a74c97380280dd931a6c2c3cb37512757d29d4dd4c52",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total Votes Cast",
+        "count": 1005,
+        "scope": "Brown County portion of Wrightstown referendum only; no full-village aggregate accepted"
+      },
+      "source_body_sha256": "8a9a10af54dd8e14c7f1186b21d5885caab5875d6621662923d46335580fbbb6",
+      "pdf_page": 20,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 20,
+        "dpi": 150
+      },
+      "render_sha256": "ec3a4ed767f20f9fed9f7a73e410ef2b63ad6242ee53fe35e460804cc49a0c80"
+    },
+    "wisconsin-primary-review-15": {
+      "claim_id": "wisconsin-primary-review-15",
+      "source_document_id": "wi-review-brown-return",
+      "claim_sha256": "a2b42b19a1e49af4b01bfd83a214dce3d10dfdfbed24ec627358539fae53c09f",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Contest Totals",
+        "count": 1048,
+        "scope": "BrownCounty portion, includes43undervotes and0overvotes. Not silently re-labelled village ballots; source percentage denominator differs from yes/no."
+      },
+      "source_body_sha256": "8a9a10af54dd8e14c7f1186b21d5885caab5875d6621662923d46335580fbbb6",
+      "pdf_page": 20,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 20,
+        "dpi": 150
+      },
+      "render_sha256": "ec3a4ed767f20f9fed9f7a73e410ef2b63ad6242ee53fe35e460804cc49a0c80"
+    },
+    "wisconsin-primary-review-16": {
+      "claim_id": "wisconsin-primary-review-16",
+      "source_document_id": "wi-review-outagamie-return",
+      "claim_sha256": "55ccac24ae3bf9d2077c18ebcba39e3fafa8ae13d4a98ce0d22549db1161867c",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "county": "Outagamie",
+        "yes_votes": 45,
+        "no_votes": 134,
+        "source_yes_percent": 23.2,
+        "source_no_percent": 69.07,
+        "source_total_votes_cast": 179,
+        "overvotes": 0,
+        "undervotes": 15,
+        "source_contest_totals": 194,
+        "precincts_reporting": 1,
+        "precincts_total": 1,
+        "report_label": "Summary Results Report - UNOFFICIAL RESULTS",
+        "source_generated_clock": "08/11/2026 11:30PM; timezone unspecified",
+        "scope": "Physicalpage22, OutagamieCounty slice only. Displayed percentages useContestTotals194, including15undervotes, not yes/no179. Combine with Brown only as explicitly derived mixed-version tally, not certified village result."
+      },
+      "source_body_sha256": "bbcc8d1c0ace122b0e032b2af5fda42861c3b5ee78c36890a7b64bf45234e2f1",
+      "pdf_page": 22,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 22,
+        "dpi": 150
+      },
+      "render_sha256": "eb67e745365facda2975072ab518672bf5f2876048846ae9b5aa095deae459dd"
+    },
+    "wisconsin-primary-review-17": {
+      "claim_id": "wisconsin-primary-review-17",
+      "source_document_id": "wi-review-outagamie-return",
+      "claim_sha256": "d7395c5eaec3abe7b7633f3f82be538ec2761fdd0b18389939e9e69bbf32a10d",
+      "disposition": "accepted_visual_values",
+      "reviewer": "coordinator",
+      "values": {
+        "label": "Total Votes Cast",
+        "count": 179,
+        "scope": "OutagamieCounty portion of Wrightstown referendum only; separate from ContestTotals194 and Brown1005"
+      },
+      "source_body_sha256": "bbcc8d1c0ace122b0e032b2af5fda42861c3b5ee78c36890a7b64bf45234e2f1",
+      "pdf_page": 22,
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 22,
+        "dpi": 150
+      },
+      "render_sha256": "eb67e745365facda2975072ab518672bf5f2876048846ae9b5aa095deae459dd"
+    }
+  },
+  "measures": [
+    {
+      "seed_id": "bp-01088c1eed330ac2",
+      "name": "janesville",
+      "review_status": "scoped_primary_review_not_published"
+    },
+    {
+      "seed_id": "bp-600aa3ed4c4fee20",
+      "name": "wrightstown",
+      "review_status": "scoped_primary_review_not_published"
+    },
+    {
+      "seed_id": "bp-f1a25834e5a28e79",
+      "name": "port",
+      "review_status": "scoped_primary_review_not_published"
+    }
+  ],
+  "unresolved": [
+    "Exact final ballots and adopted texts for all three",
+    "Authenticated complete Wrightstown village canvass/certification; county-slice sums recovered but mixed official/unofficial vintages are not a certified full-village result",
+    "Original Wrightstown resolution host and publication proof; reproduced large-scale wording versus apparent ballot difference",
+    "Janesville exact450million and PortWashington exception-boundary interpretation",
+    "Complete qualification, certification dates, post-vote implementation and litigation",
+    "Janesville city versus town and PortWashington city versus town; separate moratoria are not merged"
+  ]
+}
