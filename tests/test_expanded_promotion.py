@@ -103,6 +103,25 @@ class PublicationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'factual assertion'):
             m.review_gate(data,registry,plan,[],rows())
 
+    def test_empty_structured_date_is_unresolved_but_date_assertions_are_not(self):
+        key=str(UUID(int=411))
+        unknown={'earliest':None,'latest':None,'precision':'unknown','original_text':None}
+        record={'schema_version':'1.0.0','restriction_id':key,'adoption':unknown}
+        data=rows();data['local_restrictions'][key]=record
+        registry=Registry();registry.entities[key]={'table':'local_restrictions','successors':[]}
+        plan=make_plan(data,self.registry)
+        review={'table':'local_restrictions','id':key,'record_sha256':m.digest(m.encode(record).encode()),
+                'previous_sha256':None,'accepted_fields':[],'unresolved_fields':['adoption'],
+                'publication':'reviewed_metadata'}
+        plan['record_reviews']=[review]
+        m.review_gate(data,registry,plan,[],rows())
+        for field,value in [('earliest','2026-11-03'),('original_text','effective after certification'),('unexpected',None)]:
+            with self.subTest(field=field):
+                record['adoption']={**unknown,field:value}
+                review['record_sha256']=m.digest(m.encode(record).encode())
+                with self.assertRaisesRegex(ValueError,'factual assertion'):
+                    m.review_gate(data,registry,plan,[],rows())
+
     def test_interrupted_pointer_swap_keeps_old_publication_absent(self):
         with patch.object(Path,'replace',side_effect=OSError('simulated interruption')):
             with self.assertRaisesRegex(OSError,'simulated interruption'):

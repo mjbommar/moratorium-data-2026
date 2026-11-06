@@ -86,7 +86,8 @@ def review_gate(rows, registry, plan, proofs, previous):
             require(set(accepted) | set(unresolved) == fields, 'Every field requires an explicit disposition')
             for field in unresolved:
                 value = record[field]
-                require(value is None or value in ('unknown', 'unresolved') or value == [] or value == {},
+                require(value is None or value in ('unknown', 'unresolved') or value == [] or value == {}
+                        or value == {'earliest': None, 'latest': None, 'precision': 'unknown', 'original_text': None},
                         'Unresolved field contains a factual assertion: '+table+'/'+field)
             if table not in DOMAIN:
                 continue
