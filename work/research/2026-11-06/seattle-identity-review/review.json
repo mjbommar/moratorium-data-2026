@@ -1,0 +1,94 @@
+{
+  "schema_version": "legacy-identity-review-1",
+  "reviewed_at": "2026-11-06T20:59:32.683999+00:00",
+  "reviewer": "coordinator",
+  "inventory_sha256": "95b0a00e29692b8d60255759bb3c54e5771e162430800b571936c2f46603a824",
+  "decision": "same_moratorium_ordinance_confirmed",
+  "state": "identity_accepted_pending_compatible_application",
+  "canonical_id": "wa-seattle-2026",
+  "alias_ids": [
+    "wa-seattle-2026-2"
+  ],
+  "identity": {
+    "government": "City of Seattle, Washington",
+    "instrument": "Ordinance127447",
+    "bill": "Council Bill121214",
+    "original_term_days": 365
+  },
+  "records": [
+    {
+      "moratorium_id": "wa-seattle-2026",
+      "record_sha256": "8dcd292f59124c3f2ebb168fa64f04bb7139c97c0ba11790ba80b8c35b38415b"
+    },
+    {
+      "moratorium_id": "wa-seattle-2026-2",
+      "record_sha256": "568c2afea653493342c2f6c388ab03fdf8bad847b28c59a3d5f966e20121fc61"
+    }
+  ],
+  "basis": [
+    "Both current rows identify the same city ordinance and council bill, not separate renewals or separate sector acts.",
+    "Original ordinance title explicitly pairs127447 with121214. Clerk summary identifies version2 as passed and the same ordinance number.",
+    "June9 council passage, June11 mayoral approval and June11 clerk attestation are stages of that same act.",
+    "Council roll call is9in favor/0opposed. The3/4phrase is the emergency threshold; committee5\u20130 is not the full council tally."
+  ],
+  "canonical_selection": "Preserve the original unsuffixed existing ID; retain the second ID as a compatible alias. This does not automatically choose or combine differing field assertions.",
+  "scope_limits": [
+    "No current-force renewal, later-extension absence finding or source-independent corroboration claimed.",
+    "No individual project applicability, causal project join, project demand aggregation or boundary accepted.",
+    "Survivor fields require explicit reconciliation; do not blindly copy dated status text, coordinates or current endpoint.",
+    "Adoption and effectiveness anchors must remain separate; do not infer current operative expiry solely from365days and adoption date.",
+    "No canonical IDs/rows/counts changed by this identity review or preview."
+  ],
+  "sources": [
+    {
+      "key": "retained_ordinance",
+      "url": "https://clerk.seattle.gov/~archives/Ordinances/Ord_127447.pdf",
+      "body_sha256": "67ba32830dc4e494921171e35e03cb8ffc5a0656d25894194df84b2b16cc18b3",
+      "text_sha256": "10544f79aa00af6725bb443fc3294cbe80559117746a40c557d93b32b890defb",
+      "source_family": "Seattle City Clerk legislative record; common upstream, not independent corroborating institutions",
+      "publication": "Reviewed metadata/paraphrase only; bodies/text/images private"
+    },
+    {
+      "key": "legislative_summary",
+      "url": "https://clerk.seattle.gov/~archives/ordinances/Ord_127447_LegSum.pdf",
+      "body_sha256": "1d317e8439a8a542710981a3d62176a3f1bb373f88d552e83b9391e13c306f4a",
+      "text_sha256": "86bda0de04c25e7607921014580d0a4bc59698ef232805ae8dce30084053ab30",
+      "source_family": "Seattle City Clerk legislative record; common upstream, not independent corroborating institutions",
+      "publication": "Reviewed metadata/paraphrase only; bodies/text/images private"
+    },
+    {
+      "key": "legistar_history",
+      "url": "https://seattle.legistar.com/LegislationDetail.aspx?GUID=86F14A6D-9247-4BB5-839E-0A26937BFD3C&ID=8032163",
+      "body_sha256": "63b798082aa80c5f68bc85b705a14bbeb39c2740bbc048f886368738b9793e65",
+      "text_sha256": "a806879d537c4b98926ccd428ae2fc6a95c95fb922007769d868dc05526bc37d",
+      "source_family": "Seattle City Clerk legislative record; common upstream, not independent corroborating institutions",
+      "publication": "Reviewed metadata/paraphrase only; bodies/text/images private"
+    }
+  ],
+  "visual_reviews": [
+    {
+      "source_key": "retained_ordinance",
+      "pdf_page": 1,
+      "image_sha256": "ca179299f1c4effed8d2b54504f210f01782ab008c8240d65a4515b996ea6cea",
+      "renderer": "pdftoppm -r 110 -png",
+      "reviewer": "coordinator",
+      "scope": "Ordinance127447/CB121214 title"
+    },
+    {
+      "source_key": "retained_ordinance",
+      "pdf_page": 6,
+      "image_sha256": "78cf173a6e1a17afb07b9081f1c3b05fabb3e2395892f4b8a18da09418141d2a",
+      "renderer": "pdftoppm -r 110 -png",
+      "reviewer": "coordinator",
+      "scope": "Sections11\u201312 and printed execution/attestation dates/signature marks"
+    },
+    {
+      "source_key": "legislative_summary",
+      "pdf_page": 2,
+      "image_sha256": "341f7b544e94c85d49115d31023b1d0e812d95a1dc6032403acc687e62c1bba6",
+      "renderer": "pdftoppm -r 110 -png",
+      "reviewer": "coordinator",
+      "scope": "Committee5\u20130 vs council9\u20130 and June11executive/clerk stages"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "review_sha256": "bc88f1003930724f0b0269dde61ac0df57c55633af33770470ceb64beaf12716",
+  "preview_plan_sha256": "fa5868c5e21511fdf72fe555e3b9d55a835b9fe4b01efd6d7e87b71fb79ad286",
+  "preview_sha256": "bf74c5368c5ea57d98cc7c946a30283d6d69943e6ed3eb4bb061b9ca11d54c85",
+  "preview_replay_byte_identical": true,
+  "canonical_data_and_ids_unchanged": true,
+  "current_raw_inventory_records": 1331,
+  "projection_only_if_compatible_mapping_applied": 1330,
+  "native_tests": {
+    "count": 217,
+    "result": "passed"
+  },
+  "site_check": {
+    "command": "make site check PYTHON=.venv/bin/python TODAY=2026-11-05",
+    "errors": 0,
+    "warnings": 489,
+    "documented_numbers_matching": 53
+  },
+  "scope": "Primary identity confirmed; mapping/field/count/export/consumer application remains open. No complete legal-force freshness or release claim.",
+  "log_sha256": {
+    "tests.log": "a5863a5d55916d73fbfd8baf181fa6d538916e22ae9cb2c97ff032725196364b",
+    "build.log": "5548fb4ba5fa356f73c71501fa8cfec637fed839a28a44e5b98d79778368ce75"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "state": "bounded_recovery_terminal",
+  "search_calls": 1,
+  "exa_calls": 1,
+  "priced_search_subtotal_usd": 0.007,
+  "unpriced_search_calls": 0,
+  "fetch_calls": 3,
+  "usable_new_documents": 2,
+  "unused_search_reservations": 1,
+  "config_sha256": "44be1cc1e33852d710c461352827456f5f70110b3ec98dc0b3b98964189bad84",
+  "ledger_sha256": "e0cf4d96ada5875d24957dd040ff3f88416a1edca0b34ce3c4aaa5a629b8d651",
+  "browser_empty_response": {
+    "attempt_id": "1c2746f5a5644ee5ad9b1bad8460060a",
+    "engine": "pydoll",
+    "status": 200,
+    "text_chars": 0,
+    "body_sha256": "9c9ec881077bafe9ca8117a83a4975fe03b6c414a04b1de32ce13720f8c455da",
+    "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "disposition": "No usable extracted text; not substantive identity or absence evidence. Raw response retained privately, not imported as a usable source."
+  },
+  "usable_sources": [
+    {
+      "key": "legislative_summary",
+      "url": "https://clerk.seattle.gov/~archives/ordinances/Ord_127447_LegSum.pdf",
+      "body_sha256": "1d317e8439a8a542710981a3d62176a3f1bb373f88d552e83b9391e13c306f4a",
+      "text_sha256": "86bda0de04c25e7607921014580d0a4bc59698ef232805ae8dce30084053ab30",
+      "source_family": "Seattle City Clerk legislative record; common upstream, not independent corroborating institutions",
+      "publication": "Reviewed metadata/paraphrase only; bodies/text/images private"
+    },
+    {
+      "key": "legistar_history",
+      "url": "https://seattle.legistar.com/LegislationDetail.aspx?GUID=86F14A6D-9247-4BB5-839E-0A26937BFD3C&ID=8032163",
+      "body_sha256": "63b798082aa80c5f68bc85b705a14bbeb39c2740bbc048f886368738b9793e65",
+      "text_sha256": "a806879d537c4b98926ccd428ae2fc6a95c95fb922007769d868dc05526bc37d",
+      "source_family": "Seattle City Clerk legislative record; common upstream, not independent corroborating institutions",
+      "publication": "Reviewed metadata/paraphrase only; bodies/text/images private"
+    }
+  ],
+  "scope": "One named-gap recovery only. Search hits are leads, not legal proof; known search subtotal is not total campaign spend. Browser zero-text response is not accepted merely because HTTP200."
+}

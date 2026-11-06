@@ -267,9 +267,9 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Source-body availability checkpoint
 
-The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-jay-primary-2026-11-06.json)
-covers 6,645 manifest entries, with hash-matching bodies available through listed
-paths for 3,202 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-seattle-identity-2026-11-06.json)
+covers 6,647 manifest entries, with hash-matching bodies available through listed
+paths for 3,204 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.
@@ -435,4 +435,4 @@ The [calendar-duration cohort](../work/research/2026-11-06/duration-encoding-rev
 
 Colfax County’s retained Ordinance 2026-02 Section 7(B) specifies repeal one year after effectiveness; existing narrative ties the approximate term to adoption. The recording/effectiveness anchor and enrolled text need separate verification before changing dates or claiming an exact expiry. Calendar-unit correction alone does not accept the existing anchor.
 
-The completed duration review retains [223 explicit source-fact requirements](../work/research/2026-11-06/duration-encoding-review/withheld-source-requirements.json). Review completion does not resolve those terms. The [Seattle identity follow-up](../work/research/2026-11-06/duration-encoding-review/seattle-identity-followup.json) flags `wa-seattle-2026` and `wa-seattle-2026-2`, both citing Ordinance 127447/CB121214. No consolidation or count adjustment has been accepted; existing inventory totals must not be treated as verified unique-instrument totals pending that review.
+The completed duration review retains [223 explicit source-fact requirements](../work/research/2026-11-06/duration-encoding-review/withheld-source-requirements.json). Review completion does not resolve those terms. The [Seattle primary review](../work/research/2026-11-06/seattle-identity-review/README.md) confirms `wa-seattle-2026` and `wa-seattle-2026-2` describe the same Ordinance 127447/CB121214. The guarded alias preview is not applied: compatible lookup, survivor fields, counts, exports and consumers must be reconciled together. Existing inventory totals remain unchanged and are not verified unique-instrument totals. Original enactment stages do not establish present legal force.

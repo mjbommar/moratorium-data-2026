@@ -1,0 +1,31 @@
+{
+  "schema_version": "legacy-identity-preview-1",
+  "inventory_sha256": "95b0a00e29692b8d60255759bb3c54e5771e162430800b571936c2f46603a824",
+  "reviewer": "coordinator",
+  "reviewed_at": "2026-11-06T20:59:32.683999+00:00",
+  "merges": [
+    {
+      "canonical_id": "wa-seattle-2026",
+      "alias_ids": [
+        "wa-seattle-2026-2"
+      ],
+      "record_sha256": {
+        "wa-seattle-2026": "8dcd292f59124c3f2ebb168fa64f04bb7139c97c0ba11790ba80b8c35b38415b",
+        "wa-seattle-2026-2": "568c2afea653493342c2f6c388ab03fdf8bad847b28c59a3d5f966e20121fc61"
+      },
+      "evidence": [
+        {
+          "url": "https://clerk.seattle.gov/~archives/Ordinances/Ord_127447.pdf",
+          "body_sha256": "67ba32830dc4e494921171e35e03cb8ffc5a0656d25894194df84b2b16cc18b3",
+          "locator": "Reviewed Seattle identity packet; original ordinance title/execution and clerk legislative summary."
+        },
+        {
+          "url": "https://clerk.seattle.gov/~archives/ordinances/Ord_127447_LegSum.pdf",
+          "body_sha256": "1d317e8439a8a542710981a3d62176a3f1bb373f88d552e83b9391e13c306f4a",
+          "locator": "Reviewed Seattle identity packet; original ordinance title/execution and clerk legislative summary."
+        }
+      ],
+      "rationale": "Primary records identify one ordinance with two existing legacy rows. Preserve both ID references through explicit alias handling; do not merge fields automatically or renew legal force."
+    }
+  ]
+}
