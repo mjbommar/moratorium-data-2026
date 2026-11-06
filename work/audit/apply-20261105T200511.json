@@ -1,0 +1,38 @@
+{
+  "applied_at": "20261105T200511",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-wisconsin-b/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 1,
+    "fields_changed": 3
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "wi-bellevue-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Calendar years or months cannot be represented as a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-bellevue-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The source describes a calendar term and permits earlier termination.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-bellevue-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; adopted unanimously August 12, 2026 after a public hearing the same evening. Gives the village board time to review an ordinance that could further regulate or ban data center development; may be extended up to an additional 6 months.",
+      "after": "August 12 packet proposes O-2026-10, a twelve-month data-center moratorium with possible additional six months and earlier zoning-related termination. August 13 news reports unanimous adoption. Final signed wording, publication, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ]
+}

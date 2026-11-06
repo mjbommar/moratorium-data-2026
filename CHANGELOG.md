@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Bellevue’s twelve-month term replaces unsupported 365-day coding, with the August packet proposal distinguished from news-reported unanimous adoption. Its optional additional six months is not an adopted extension; final signed wording, publication and later force remain unresolved.
+
 Chippewa County Ordinance 10-26 and Madison’s city adoption summary establish calendar-year limits rather than fixed 365-day terms. Chippewa’s reported August 11, 2027 expiry remains subject to earlier action; Madison’s October framework presentations are informational, not adopted replacement regulations. Final operative details and later force remain unresolved.
 
 Skagit’s signed September 2024 energy-use ordinance confirms a six-month term, Ag-NRL major-utility scope and vested-application exception. Its image header differs from the legacy instrument number and requires index reconciliation. Washington accounting covers all 42 existing IDs: 22 bounded corrections applied, one source-provenance proposal deferred and 19 other returns awaiting disposition; no complete current-force history is asserted.
@@ -210,7 +212,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1070** |
 | Pending or not yet effective | **68** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **647** |
+| Rows we still want to confirm (`[VERIFY]`) | **648** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there

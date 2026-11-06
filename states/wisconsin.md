@@ -97,7 +97,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Village of Bellevue data center moratorium ordinance (ordinance number not located in reviewed sources)
 - **What prompted it:** No active data center proposal pending, but the village acted proactively amid concerns raised in nearby communities (Wrightstown, Manitowoc County) about environmental impact, noise, water supply, and electrical costs.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; adopted unanimously August 12, 2026 after a public hearing the same evening. Gives the village board time to review an ordinance that could further regulate or ban data center development; may be extended up to an additional 6 months.
+- **Detailed status:** August 12 packet proposes O-2026-10, a twelve-month data-center moratorium with possible additional six months and earlier zoning-related termination. August 13 news reports unanimous adoption. Final signed wording, publication, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 12-month moratorium on data center development.
 
 ### Cassville
