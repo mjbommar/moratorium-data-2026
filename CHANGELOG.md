@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Wickliffe, Williamsburg and Willoughby scans confirm calendar terms. Wickliffe’s certified June 22 passage/approval and earlier-ending conditions, Williamsburg’s pending-application provision and Willoughby’s early-lifting/limited-extension authority are preserved. No exercise of later authority or complete operative interval is inferred.
+
 Waterville City minutes expressly adopt six months (182 days), correcting the unsupported 180-day count while retaining both stated units. Yellow Springs’s published Ordinance 2026-08 supplies a May 18, 2027 endpoint, greater-than-2-MW operative threshold and ancillary/pre-effective exceptions; it is distinguished from signed execution evidence. Actual intervals and later force remain unresolved.
 
 Washington Township (Stark County) and Waterville minutes preserve twelve-month terms and recorded adoption. Weathersfield’s Resolution 26-124 extends six months beyond original expiry; its unsupported April 25 endpoint is cleared. Westlake’s unexecuted revised text leaves the enacted term unknown. Unclear vote tokens, operative intervals and later legal force remain unresolved.
@@ -138,7 +140,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1068** |
 | Pending or not yet effective | **70** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **585** |
+| Rows we still want to confirm (`[VERIFY]`) | **588** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
