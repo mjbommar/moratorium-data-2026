@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-06",
   "reviewer": "coordinator",
-  "canonical_snapshot": "d8c70a70f887a64344b0e4c1671fa6eec9ddf6483c48113b9efdd3d0068290f6",
+  "canonical_snapshot": "35c63b2af3624ce09b79a9b2916876c40273dfebcac6247d77664c08bf5106a3",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 41,
-    "groups_pending_candidate_review": 15
+    "groups_with_scoped_canonical_publication": 44,
+    "groups_pending_candidate_review": 12
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -21,19 +21,21 @@
           "staged_measure_id": "ballot-wi-001::bp-01088c1eed330ac2"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "7f50b873-303f-4428-9b54-0ed235160aa7",
+      "publication_plan": "work/research/2026-11-06/wisconsin-ballot-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/wisconsin-ballot-primary-review/review.json",
       "primary_review_packet_sha256": "1f05a1106dba344edf96adcc1013a9436a704ade07e481034be01bc4c582ad49",
-      "primary_review_status": "scoped_primary_review_not_published",
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
       "additional_review_packets": [
         {
           "path": "work/research/2026-11-06/wisconsin-ballot-context/review.json",
           "sha256": "141bb3832fd5f3997b98a19490cab48b9be927dc3b22768c4a5e77f14661e20b",
           "scope": "Source-qualified development context only; advocacy/newspaper accounts do not override primary thresholds or establish current force"
         }
-      ]
+      ],
+      "publication_plan_sha256": "7b58b698a4f2c5ca4031be94e25afe806f82ff9159e986e6faf8d3169ca33c8c",
+      "canonical_record_sha256": "bd3907bf8246681eb09a907124196b8f8283216b8b611e7c3b71e46b558b84a8"
     },
     {
       "logical_group_id": "bp-0be552b8685036dc",
@@ -325,19 +327,21 @@
           "staged_measure_id": "ballot-wi-001::bp-600aa3ed4c4fee20"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "d52c3020-6210-4816-8d68-104f2eea6f16",
+      "publication_plan": "work/research/2026-11-06/wisconsin-ballot-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/wisconsin-ballot-primary-review/review.json",
       "primary_review_packet_sha256": "1f05a1106dba344edf96adcc1013a9436a704ade07e481034be01bc4c582ad49",
-      "primary_review_status": "scoped_primary_review_not_published",
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
       "additional_review_packets": [
         {
           "path": "work/research/2026-11-06/wisconsin-canvass-scope-followup/review.json",
           "sha256": "e866a82400058cb6758393478fb82c4da3acfda147b72694aed37bcde70b4c77",
           "scope": "Selected county-contest certificate pages; August18 document date not accepted as Wrightstown referendum certification"
         }
-      ]
+      ],
+      "publication_plan_sha256": "7b58b698a4f2c5ca4031be94e25afe806f82ff9159e986e6faf8d3169ca33c8c",
+      "canonical_record_sha256": "4118370f0b2a3dd8c3ef226bbbecfaba4f79a720b53e76fd82f35fa76ccf3a51"
     },
     {
       "logical_group_id": "bp-69327f4efb97924c",
@@ -843,19 +847,21 @@
           "staged_measure_id": "ballot-wi-001::bp-f1a25834e5a28e79"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "02f2678b-13c9-4027-8f30-de36a5b7eff6",
+      "publication_plan": "work/research/2026-11-06/wisconsin-ballot-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-06/wisconsin-ballot-primary-review/review.json",
       "primary_review_packet_sha256": "1f05a1106dba344edf96adcc1013a9436a704ade07e481034be01bc4c582ad49",
-      "primary_review_status": "scoped_primary_review_not_published",
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
       "additional_review_packets": [
         {
           "path": "work/research/2026-11-06/wisconsin-ballot-context/review.json",
           "sha256": "141bb3832fd5f3997b98a19490cab48b9be927dc3b22768c4a5e77f14661e20b",
           "scope": "Source-qualified development context only; advocacy/newspaper accounts do not override primary thresholds or establish current force"
         }
-      ]
+      ],
+      "publication_plan_sha256": "7b58b698a4f2c5ca4031be94e25afe806f82ff9159e986e6faf8d3169ca33c8c",
+      "canonical_record_sha256": "95eff5ff10c3089579fe6f01fae2a5556792b5d895044eeed8f417a603a4a586"
     },
     {
       "logical_group_id": "bp-f7852025abec20c9",
