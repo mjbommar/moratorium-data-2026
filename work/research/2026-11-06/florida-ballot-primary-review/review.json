@@ -28,6 +28,15 @@
       "retrieved_at": "2026-11-05T16:55:56.841813+00:00",
       "attempt_id": "bddcf985ecf54288af5ee90f275c62db",
       "source_role": "City-linked second-reading proposed ordinance attachment; all9native pages read; unsigned adoption block and technical-revision clause retained"
+    },
+    {
+      "source_document_id": "florida-review-media-export",
+      "url": "https://app.enhancedvoting.com/cdn/results/volusia-county-fl/export-2026GeneralElection.json",
+      "body_sha256": "c447f96f1ea2033543c3dbc1fedc66fb883680bd7d0de152cd7660b4272963a4",
+      "text_sha256": "a68ec9693301e19e62ca42a55200ca8fd45c8bd550efec3c857ae9a76cf3d289",
+      "retrieved_at": "2026-11-06T11:39:10.565929+00:00",
+      "attempt_id": "083cca96849d40c390d79418f84f56f8",
+      "source_role": "Official linked election media JSON export; namedcontest55andmethodtotalsreviewed; zero precinct metadata not accepted"
     }
   ],
   "claims": [
@@ -174,10 +183,39 @@
       },
       "quote": "Each Charter amendment approved by a majority of the qualified electors voting on the",
       "span": "utf8-text-codepoints:14620:14705"
+    },
+    {
+      "claim_id": "florida-review-09",
+      "source_document_id": "florida-review-media-export",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-6cc5ddacfc5e7c7b"
+      },
+      "predicate": "official_media_export_corroboration",
+      "value": {
+        "contest_id": "55",
+        "yes_votes": 7884,
+        "no_votes": 2328,
+        "yes_methods": {
+          "Election Day": 2667,
+          "Vote by Mail": 2025,
+          "Early Voting": 3192
+        },
+        "no_methods": {
+          "Election Day": 741,
+          "Vote by Mail": 510,
+          "Early Voting": 1077
+        },
+        "export_created_at": "2026-11-05T23:02:20.6568547Z",
+        "election_date": "2026-11-03",
+        "scope": "Same official reporting system corroborates DOM; not independent canvass/certification. Zero precinct metadata and empty precinctResults not zero electorate/coverage. No final ballot wording."
+      },
+      "quote": "{\"ballotOptions\": [{\"ballotOrder\": 1, \"groupResults\": [{\"groupName\": \"Election Day\", \"isFromVirtualPrecinct\": false, \"voteCount\": 2667}, {\"groupName\": \"Vote by Mail\", \"isFromVirtualPrecinct\": false, \"voteCount\": 2025}, {\"groupName\": \"Early Voting\", \"isFromVirtualPrecinct\": false, \"voteCount\": 3192}], \"id\": \"1\", \"name\": \"Yes, in favor of adoption.\", \"politicalParty\": \"Amendment\", \"precinctResults\": [], \"voteCount\": 7884}, {\"ballotOrder\": 2, \"groupResults\": [{\"groupName\": \"Election Day\", \"isFromVirtualPrecinct\": false, \"voteCount\": 741}, {\"groupName\": \"Vote by Mail\", \"isFromVirtualPrecinct\": false, \"voteCount\": 510}, {\"groupName\": \"Early Voting\", \"isFromVirtualPrecinct\": false, \"voteCount\": 1077}], \"id\": \"2\", \"name\": \"No, against adoption.\", \"politicalParty\": \"Amendment\", \"precinctResults\": [], \"voteCount\": 2328}], \"ballotOrder\": 49, \"contestType\": \"BallotMeasure\", \"id\": \"55\", \"name\": \"Amendment 4 - Edgewater\", \"precinctsParticipating\": 0, \"precinctsReporting\": 0, \"rankedChoiceResults\": null, \"type\": \"Local\", \"voteFor\": 1}",
+      "span": "utf8-text-codepoints:54799:55835"
     }
   ],
   "visual_reviews": {},
-  "scope": "Three retained official versions, eight scoped claims. All nine native proposal pages read; normative pages5/6andimplementationpages8/9visually compared. Final ballot/legal review remains incomplete. No canonical publication or actual operative restriction.",
+  "scope": "Four official versions, nine scoped claims; renderedDOM/JSONcountsagree. No final ballot, certification or operative force acceptance.",
   "unresolved": [
     "Final official ballot and amended/adopted attachment version",
     "Certified canvass/date and revised charter filing",
