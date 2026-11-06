@@ -61,6 +61,7 @@ Exit: read-only dry-run and bounded acquisition produce auditable plans and atte
 - [ ] Adapt bc-evidence full-document extraction to electoral/legal candidate schemas.
 - [x] Inspect pinned bc-evidence extraction behavior and pilot readiness; verify missing cell associations and failed-document retry exclusion in an isolated database (`work/research/2026-11-05/extraction-readiness/`). This is an integration audit, not completed extraction.
 - [ ] Record all chunk coverage, extraction ceilings, failures and resumable status.
+- [x] Add and test a resumable wrapper around actual bc-evidence `extract_document()` with pinned contexts, per-chunk coverage, durable call reservations and validated caches (`scripts/extract_document_resumable.py`). Paid pilot execution, cumulative dollar-budget integration and domain-typed extraction remain open.
 - [ ] Preserve exact quotes, offsets, date/value support and raw-versus-text hashes.
 - [ ] Build review packets for identity, wording, vote totals, polarity, bindingness and legal effect separately.
 - [ ] Group syndication/common upstream result feeds before assessing independent support.

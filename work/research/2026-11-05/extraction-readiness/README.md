@@ -4,6 +4,24 @@ Inspected November 5, 2026. `inspection.json` pins the bc-modules revision,
 source-file hashes, read-only database counts and an isolated failure probe.
 This packet records integration findings; it does not complete extraction.
 
+## Resumable adapter implementation
+
+`scripts/extract_document_resumable.py` now wraps the actual bc-evidence
+`extract_document()` function. It accepts an explicit backend, resolved model
+identity, cells, cutoff and persistent request cap. Workspaces retain private
+context, per-request reservations, successful typed outputs, hashes and per-chunk
+coverage. Source text, prompt, model configuration, adapter or extractor changes
+reject cache reuse. A nonblocking workspace lock prevents simultaneous writers.
+Completed text processing is explicitly separate from substantive domain review.
+
+Nine offline tests exercise full processing/replay, truncation, cumulative call
+limits, failed reservations, recovery after partial failure, context changes and
+corrupt cache rejection, reduction failure and returned-model mismatch. They use bc-llm's scripted backend through the real
+bc-evidence map/reduce path; they are not paid-model or legal-accuracy tests.
+Dollar-budget enforcement and its durable ledger remain the caller's obligation,
+and must be integrated before a paid pilot. No production EvidenceDB extraction
+timestamps or canonical domain facts have been changed by these tests.
+
 ## Verified starting point
 
 The existing pilot database contains 13 documents and 90 imported claims, with
