@@ -1,0 +1,16 @@
+{
+  "attempt_id": "a8446aae25554b87a99b5626de0e82e7",
+  "url": "https://lookup.boe.ohio.gov/vtrapp/adams/ballotlist.aspx",
+  "status": 200,
+  "ok": false,
+  "body_sha256": "45d8439858654c10f434c004906a5a51fe2cc24a33c617412ed27fb57c8e78b7",
+  "text_sha256": "2d60b1ae1e51d0fc0fe739a0d9effa5f39bce09bb3919aaf0330faa5735ed577",
+  "browser_controls": {
+    "engine": "pydoll",
+    "headless": false,
+    "settle_ms": 3000
+  },
+  "disposition": "excluded_from_claim_support",
+  "finding": "Returned BallotDisplayAdams form contains election option20261103G and requires selection; no specific township ballot was recovered. Retriever marked Cloudflare challenge, so source is not accepted for claims. Preserve originalfailure, do not flip ok.",
+  "next": "Use a separately retained interactive acquisition selecting the official November3election, then inspect actual Monroe/Sprigg ballot attachments and complete plans. No results/negative absence inference."
+}
