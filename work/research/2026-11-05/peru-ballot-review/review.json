@@ -1,0 +1,105 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "reviewer": "coordinator",
+  "seed_id": "bp-8b0ace9686d3691a",
+  "worker_job": "ballot-me-001",
+  "sources": [
+    {
+      "attempt_id": "2c48d95a00894115a507f256faeef18c",
+      "url": "https://townofperumaine.org/temporary-moratorium-of-the-development-and-permitting-of-data-centers-to-be-on-the-november-2026-ballot/",
+      "finished_at": "2026-11-06T02:12:22.590113+00:00",
+      "body_sha256": "7f03bd15920b7a5b3a6b0483f2e5e467e2578193e2b3f8837b73b3aee7bc33cb",
+      "text_sha256": "469014a20eb46797cef37980fc695743cf05a42a05667ce5ec0be83608280c7d"
+    },
+    {
+      "attempt_id": "91d66a88f0ce48519f74d534e8d94ce8",
+      "url": "https://townofperumaine.org/election-results-for-november-3-2026/",
+      "finished_at": "2026-11-06T02:12:54.539375+00:00",
+      "body_sha256": "29c4b37b7ff781cb3c40d7e4e9d302dc660a8c9a1c4e380baaee4513a7eab6f7",
+      "text_sha256": "47cbfb98af50d2dc3433940cdb8cbd1f49a6f9cf322c9b3070efe6a42e2d68b9"
+    },
+    {
+      "attempt_id": "076188f6580f4547ab7ea35411fe3047",
+      "url": "https://townofperumaine.org/wp-content/uploads/2026/09/Temporary-Moratorium-of-the-Development-and-Permitting-of-Data-Centers.pdf",
+      "finished_at": "2026-11-06T02:12:54.927993+00:00",
+      "body_sha256": "623ff9149e67c5e2c022022b21573a1655f686f76ec683c5725d88c3bab68bd2",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "attempt_id": "1fa6ac8b92fc49efb25630d4f84e9c92",
+      "url": "https://townofperumaine.org/wp-content/uploads/2026/11/v.png",
+      "finished_at": "2026-11-06T02:13:52.549302+00:00",
+      "body_sha256": "ad575469c9169fd3b395bb6ab380f5cc28263adf4301e9f3fbd7dff8901ff3ab",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "attempt_id": "40a69e91441f4462903ced203f295946",
+      "url": "https://townofperumaine.org/wp-content/uploads/2026/11/ff.png",
+      "finished_at": "2026-11-06T02:13:52.611802+00:00",
+      "body_sha256": "292d4793db1ad79fd1201c5ead92f6f7e87fb579dc8906473501f17671ffedb4",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "search": {
+    "attempt_id": "a39fd449624b4e4b8ef4cf2fcfb14669",
+    "backend": "serpapi",
+    "hits": 6,
+    "cost_usd": null,
+    "unpriced": true,
+    "scope": "One bounded discovery search, not evidence of absence or zero cost"
+  },
+  "visual_comparisons": [
+    {
+      "attempt_id": "1fa6ac8b92fc49efb25630d4f84e9c92",
+      "artifact_type": "native PNG body",
+      "body_sha256": "ad575469c9169fd3b395bb6ab380f5cc28263adf4301e9f3fbd7dff8901ff3ab",
+      "finding": "Town of Peru election/referendum results November03,2026; Article2 Data Center Moratorium yes578/no182; separate Total Voters774; no certification block."
+    },
+    {
+      "attempt_id": "40a69e91441f4462903ced203f295946",
+      "artifact_type": "native PNG body",
+      "body_sha256": "292d4793db1ad79fd1201c5ead92f6f7e87fb579dc8906473501f17671ffedb4",
+      "finding": "Handwritten general election Nov3,2026 state/county results, not another data-center-question return."
+    },
+    {
+      "attempt_id": "076188f6580f4547ab7ea35411fe3047",
+      "artifact_type": "retained pilot PDF render",
+      "page": 1,
+      "render_sha256": "7bb9e55100123c6425ee40e857cdf8241e76189177e0645049e98df9b8fee37c",
+      "finding": "Proposal defines computing building/series with related infrastructure;180daysfromeffective date; routine upgrades to existing telecom exempt; Selectboard signatures dated September14,2026 and clerk true-attested notation; not November election certification."
+    }
+  ],
+  "accepted_source_observations": {
+    "designation": "Article 2",
+    "source_result_label": "Data Center Moratorium",
+    "election_date": "2026-11-03",
+    "yes_votes": 578,
+    "no_votes": 182,
+    "yes_no_votes": 760,
+    "blank_votes": null,
+    "ballots_cast": null,
+    "certification_status": "unknown",
+    "certification_date": null,
+    "page_total_voters": 774,
+    "total_voters_scope": "Separate town election total; not a question-specific ballot/valid-vote denominator",
+    "proposed_duration": {
+      "value": 180,
+      "unit": "days",
+      "anchor": "effective_date",
+      "anchor_date": null
+    },
+    "proposed_effectiveness": "Immediately upon passage",
+    "proposed_exception": "Routine upgrades to existing telecommunication facilities",
+    "proposal_signature_date": "2026-09-14"
+  },
+  "source_improvement": "Fresh official town-hosted results PNG corroborates former secondary-news counts and supplies Article2 designation. Secondary reported approval is not independently converted into calculated/legal outcome.",
+  "remaining_gaps": [
+    "exact ballot question/warrant language",
+    "formal placement and bindingness",
+    "result certification and passage rule/calculated outcome",
+    "operative voter-adoption date and later legal force",
+    "canonical native-image visual-evidence support; current PDF-only renderer must not be bypassed by converting PNG to synthetic PDF",
+    "legacy instrument linkage and publication field/identity gates"
+  ],
+  "scope": "Scoped source review. Five fresh bc-web fetches verified. No canonical promotion, inferred blank count, legal-force acceptance or full-document bc-evidence extraction."
+}
