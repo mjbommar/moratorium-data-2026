@@ -318,10 +318,10 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-janesville-rock-county-town-2026`
-- **Legal basis:** Town Board resolution (number not published in coverage reviewed)
+- **Legal basis:** Town of Janesville Ordinance No. 20260803.2, approved by the Town Board August 3, 2026.
 - **What prompted it:** Tech-company data center concept proposed at N Polzin/W Fenrick Rds; concern over loss of agricultural land
 - **Affected projects:** Proposed data center at North Polzin/West Fenrick Roads
-- **Detailed status:** Active as of 2026-09-23. This upgrades the packet's GAP_PENDING verdict: the Town Board did not merely consider the moratorium, it adopted one.
+- **Detailed status:** August 3 Town of Janesville minutes identify Ordinance 20260803.2 and record unanimous voice-vote approval of the moratorium language. This is the town, not the city. Full final ordinance, term, publication/effectiveness and later legal force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Town Board approved after Planning & Zoning Committee recommended it 07/29/2026
 
 ### La Crosse
@@ -369,7 +369,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Ordinance 2026/2028-10, creating Manitowoc County Code Sec. 8.495
 - **What prompted it:** Town petitions from Mishicot, Two Creeks, and Two Rivers; concerns about health and safety, air quality, water resources, water use, electricity demand, fire hazards, public services, roads, property values, noise, visual impacts, farmland preservation, and lack of county data center standards.
 - **Affected projects:** Data centers in county-zoned areas, especially Mishicot, Two Creeks, and Two Rivers. Reporting identifies Cloverleaf Infrastructure land outreach in the area, but no filed project application was identified.
-- **Detailed status:** Active as of 2026-09-23. Confirmed directly against the final adopted ordinance text (No. 2026/2028-10, county code Sec. 8.495): an earlier planning-commission draft (2026-PZ-9A4, 04/27/2026) specified 12 months, but WPR and the final adopted text (2026-PZ-9A6, dated 04/29/2026, published by the Town of Two Rivers as "adopted by the Manitowoc County Board 4-28-2026") confirm the County Board amended the term from 12 to 18 months on the floor before final passage. The 18-month term (from publication ~April 28-29, 2026, running to approximately late October 2027) had not lapsed as of 2026-09-23, and no repeal, rescission, or amendment was found in subsequent county records or news coverage.
+- **Detailed status:** The adopted county ordinance states eighteen months from publication or specified county-board/executive amendment or rescission. The signed copy records April 28 board-chair countersignature and April 29 executive approval. Actual publication date, operative interval and subsequent action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Pending. The county plans to study impacts and develop zoning and regulatory standards.
 
 ### Marathon County
