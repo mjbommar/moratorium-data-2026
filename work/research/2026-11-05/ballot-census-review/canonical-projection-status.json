@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-05",
   "reviewer": "coordinator",
-  "canonical_snapshot": "6b182d661d9311c828ad3f2b5ce456f9f37557ab6c6819f60e255d8dbbb37cca",
+  "canonical_snapshot": "8647bfbfc9114b6856905b8f891b936d50481100af7de4c203e06fb29e97aafe",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 7,
-    "groups_pending_candidate_review": 49
+    "groups_with_scoped_canonical_publication": 8,
+    "groups_pending_candidate_review": 48
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -376,9 +376,11 @@
           "staged_measure_id": "ballot-me-001::bp-8b0ace9686d3691a"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "d4890c43-19ab-42e2-97bb-f2b35bcb66cc",
+      "publication_plan": "work/research/2026-11-05/peru-promotion/publication-plan.json",
+      "publication_plan_sha256": "24b697cbd07b3c530925314ff80bbe10ce35fe402563e73d0a7014810c37280d",
+      "canonical_record_sha256": "43ccc481a805a9d44814fa75240d4ca04ce4bbae31a4e4e7e71a8c65a0f13956"
     },
     {
       "logical_group_id": "bp-943b35c1711302a4",

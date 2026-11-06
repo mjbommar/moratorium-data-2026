@@ -51,3 +51,8 @@ The subsequent [native-image evidence exercise](../peru-native-image-review/READ
 adds and tests direct original-PNG receipt verification. That implementation gap
 is closed; canonical identity/field/publication review and legal-history gaps
 remain open.
+
+The subsequent [canonical promotion packet](../peru-promotion/README.md) records
+publication of the official result designation/counts and proposed provisions.
+Exact question wording, yes-vote direction, certification and legal force stay
+unresolved; native-image verification alone does not close those gaps.

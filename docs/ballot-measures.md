@@ -97,6 +97,18 @@ blank; it is not substituted for the warrant version.
 [Official Wells warrant](https://wellstown.org/DocumentCenter/View/8514/November-3-2026-Special-Town-Meeting-Warrant?bidId=),
 [signed results](https://www.wellstown.org/DocumentCenter/View/8559/November-3-2026-Official-Election-Results?bidId=).
 
+Peru's town-hosted November 3 results image labels Article 2 Data Center
+Moratorium and reports 578 yes / 182 no. Exact ballot wording and yes-vote
+direction remain unresolved. The separate 774 Total Voters is not assigned as a
+question-specific denominator; blanks and certification remain unknown. Proposed
+text specifies a 180-day pause from effectiveness, an exception for routine
+upgrades to existing telecommunications facilities, and possible later legislative
+repeal/extension/replacement. September proposal signatures do not establish
+voter enactment or an operative interval.
+[Official Peru result image](https://townofperumaine.org/wp-content/uploads/2026/11/v.png),
+[pre-election proposal notice](https://townofperumaine.org/temporary-moratorium-of-the-development-and-permitting-of-data-centers-to-be-on-the-november-2026-ballot/),
+[proposed ordinance](https://townofperumaine.org/wp-content/uploads/2026/09/Temporary-Moratorium-of-the-Development-and-Permitting-of-Data-Centers.pdf).
+
 No current legal-force restriction, instrument event or measure/instrument link has
 been accepted in these initial cohorts, and their publication does not add active
 legacy moratorium rows. Other jurisdictions, earlier and future elections, legal

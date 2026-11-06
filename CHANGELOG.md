@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Peru Article 2 adds an eighth reviewed expanded measure with official town-hosted 578 yes / 182 no and proposed 180-day terms. Exact ballot wording, yes-vote direction, certification, outcome and operative legal interval remain unresolved. Native PNG evidence preserves the original source; separate total voters is not used as a question denominator. Legacy counts are unchanged.
+
 Visual evidence verification now supports original native PNG sources alongside PDF renders. Receipts pin original bytes and dimensions, reject transformations and container corruption, and preserve existing claim/source review gates. Peru’s town-posted results image passes the evidence audit; this exercise does not publish a new canonical measure or certify its result.
 
 Wells Article 5 adds a seventh reviewed expanded measure with 5,818 yes / 1,282 no / 459 blanks, certified November 4. The warrant’s 100,000-square-foot proposal remains distinct from an incomplete agenda draft; 180 days from June 16 applicability is separate from November enactment/effectiveness. Passage outcome and current legal force remain unresolved; legacy counts are unchanged.
