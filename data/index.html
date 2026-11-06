@@ -206,14 +206,14 @@
 <tbody>
 <tr>
 <td><a href="moratorium_inventory.csv"><code>moratorium_inventory.csv</code></a></td>
-<td>533 local-moratorium instruments. <strong>Start here.</strong></td>
-<td>~190 KB</td>
+<td>1293 local-moratorium instruments. <strong>Start here.</strong></td>
+<td>1,665,919 bytes</td>
 <td>CSV</td>
 </tr>
 <tr>
 <td><a href="state_legislation.csv"><code>state_legislation.csv</code></a></td>
-<td>438 state bills plus 2 binding state-policy actions in 2025–2026</td>
-<td>~150 KB</td>
+<td>442 state-policy records in 2025–2026; mechanisms and legal effects vary</td>
+<td>245,898 bytes</td>
 <td>CSV</td>
 </tr>
 <tr>
@@ -244,16 +244,16 @@
 </table>
 <h2 id="column-definitions">Column definitions</h2>
 <p>See <a href="../docs/codebook.html"><code>docs/codebook.md</code></a> for full definitions of every column in every file.</p>
-<h2 id="three-columns-most-users-want">Three columns most users want</h2>
-<p>The inventory CSV has 26 columns. The three most useful for typical analysis are:</p>
+<h2 id="useful-inventory-columns">Useful inventory columns</h2>
+<p>The inventory CSV includes normalized fields alongside legacy descriptions. Useful fields include:</p>
 <ul>
-<li><strong><code>enacted_status</code></strong> — closed-vocab status: <code>active</code>, <code>extended</code>, <code>replaced</code>, <code>expired</code>, <code>rescinded</code>, or <code>pending</code>. Filter to <code>active</code> + <code>extended</code> for "moratoria currently in force"; exclude <code>pending</code> for "ever-enacted moratoria".</li>
+<li><strong><code>enacted_status</code></strong> — closed-vocab status: <code>active</code>, <code>extended</code>, <code>replaced</code>, <code>expired</code>, <code>rescinded</code>, or <code>pending</code>. Filter to <code>active</code> + <code>extended</code> for records classified active or extended. These classifications do not prove freshly verified current legal force.</li>
 <li><strong><code>moratorium_id</code></strong> — stable identifier (<code>&lt;state&gt;-&lt;jurisdiction&gt;-&lt;year&gt;</code>, with phase suffixes for repeat instruments). Use this as a primary key when joining with future releases of this dataset.</li>
 <li><strong><code>current_end_date_iso</code></strong> — current fixed endpoint after any extension. Use it for expiry monitoring; <code>duration_days</code> preserves the original instrument's term.</li>
-<li><strong><code>latitude</code> / <code>longitude</code></strong> — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 220 of 222 rows are geocoded (99.1% coverage); the 2 blanks are aggregate meta-rows. Coordinates were triple-checked with zero confirmed errors after manual fixes for 4 within-state ambiguities — see <a href="../docs/known-gaps.html#geocoding-caveats-added-v2026042"><code>docs/known-gaps.md</code></a> for the audit summary.</li>
+<li><strong><code>latitude</code> / <code>longitude</code></strong> — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 1290 of 1293 rows have coordinates; nonblank coordinates do not establish correct jurisdiction identity or legal applicability. See <a href="../docs/known-gaps.html#geocoding-caveats-added-v2026042">geocoding caveats</a>.</li>
 </ul>
 <h2 id="quick-examples">Quick examples</h2>
-<p><strong>Count moratoria currently in force, by state (Excel):</strong> Open <code>moratorium_inventory.csv</code>, filter <code>enacted_status</code> to <code>active</code> and <code>extended</code>, then PivotTable on <code>state</code>.</p>
+<p><strong>Count records classified active or extended, by state (Excel):</strong> Open <code>moratorium_inventory.csv</code>, filter <code>enacted_status</code> to <code>active</code> and <code>extended</code>, then PivotTable on <code>state</code>.</p>
 <p><strong>Same in Python:</strong></p>
 <pre><code class="language-python">import pandas as pd
 df = pd.read_csv(&quot;moratorium_inventory.csv&quot;)
@@ -280,8 +280,10 @@ assert len(records) == 348
 <h2 id="updates">Updates</h2>
 <p>The September 23, 2026 edition is a historical baseline. The November refresh is in progress; source/status dates vary by record. These local review batches have not been published as a new GitHub Release. Citation/version reconciliation remains part of the final release work.</p>
 <h2 id="reviewed-ballot-records">Reviewed ballot records</h2>
-<p>Canonical expanded records include reviewed Eliot and Sabattus ballot questions,
-certified vote-count observations and separately sourced reports of approval.
+<p>Canonical expanded records cover 49 reviewed measures across several election dates,
+with 55 retained result observations and explicit supersession. Seven additional
+frozen candidate groups remain unresolved; see the <a href="../docs/known-gaps.html#ballot-candidates-retained-outside-the-reviewed-publication">gap dispositions</a>.
+Certification and legal implementation remain separate, record-specific findings.
 <a href="../docs/ballot-results.html">The generated results view</a> supplies current record and
 observation counts; explicit supersession retains earlier observations. Unreported
 blank/turnout categories remain unknown. Operative dates and instrument links remain

@@ -85,13 +85,13 @@ def facts() -> dict[str, int | float]:
 CLAIMS: list[tuple[str, str, str, str]] = [
     ("README.md", r"As of [A-Za-z]+(?: \d{1,2},)? 2026, ([\d,]+) local moratorium instruments (?:are )?tracked", "rows", "README headline row count"),
     ("README.md", r"tracked across (\d+) states\.\*\*", "states", "README headline state count"),
-    ("README.md", r"\*\*([\d,]+) currently in force\*\* \(active or extended\)", "in_force", "README headline in-force"),
+    ("README.md", r"\*\*([\d,]+) classified active or extended\*\*", "in_force", "README headline in-force"),
     ("README.md", r"\*\*(\d+) pending or not yet effective\*\* \(proposed or enacted with a future effective date\)", "pending", "README headline pending"),
     ("README.md", r"\*\*(\d+) expired, replaced, or rescinded\*\*", "past", "README headline past"),
     ("README.md", r"- \*\*([\d,]+) moratorium instruments\*\* tracked in our cleaned inventory", "rows", "README detail row count"),
-    ("README.md", r"- \*\*([\d,]+) currently in force\*\* \(\d+ active", "in_force", "README detail in-force"),
-    ("README.md", r"currently in force\*\* \((\d+) active", "active", "README detail active"),
-    ("README.md", r"currently in force\*\* \(\d+ active \+ (\d+) extended", "extended", "README detail extended"),
+    ("README.md", r"- \*\*([\d,]+) classified active or extended\*\* \(\d+ active", "in_force", "README detail in-force"),
+    ("README.md", r"classified active or extended\*\* \((\d+) active", "active", "README detail active"),
+    ("README.md", r"classified active or extended\*\* \(\d+ active \+ (\d+) extended", "extended", "README detail extended"),
     ("README.md", r"- \*\*(\d+) pending or not yet effective\*\*", "pending", "README detail pending"),
     ("README.md", r"- \*\*(\d+) replaced\*\*", "replaced", "README detail replaced"),
     ("README.md", r"- \*\*(\d+) expired\*\*", "expired", "README detail expired"),
@@ -128,7 +128,7 @@ CLAIMS: list[tuple[str, str, str, str]] = [
     # changelog_head below). Older entries are history: their numbers were true
     # when written and must never be "fixed" to today's data.
     ("CHANGELOG.md", r"\| Moratoria in the list \|[^\n]*\*\*([\d,]+)\*\* \|", "rows", "CHANGELOG current rows"),
-    ("CHANGELOG.md", r"\| In force \(active or extended\) \|[^\n]*\*\*([\d,]+)\*\* \|", "in_force", "CHANGELOG current in-force"),
+    ("CHANGELOG.md", r"\| Classified active or extended \|[^\n]*\*\*([\d,]+)\*\* \|", "in_force", "CHANGELOG current in-force"),
     ("CHANGELOG.md", r"\| Pending or not yet effective \|[^\n]*\*\*(\d+)\*\* \|", "pending", "CHANGELOG current pending"),
     ("CHANGELOG.md", r"\| Ended \(replaced, expired, or rescinded\) \|[^\n]*\*\*(\d+)\*\* \|", "past", "CHANGELOG current past"),
     ("CHANGELOG.md", r"\| Rows we still want to confirm \(`\[VERIFY\]`\) \|[^\n]*\*\*(\d+)\*\* \|", "verify_rows", "CHANGELOG current verify rows"),

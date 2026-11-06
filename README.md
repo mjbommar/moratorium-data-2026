@@ -68,7 +68,7 @@ For more, see the [FAQ](docs/FAQ.md).
 Working snapshot during the **November 5, 2026** refresh (record-level source dates vary):
 
 - **1293 moratorium instruments** tracked in our cleaned inventory
-  - **1071 currently in force** (879 active + 192 extended)
+  - **1071 classified active or extended** (879 active + 192 extended)
   - **67 pending or not yet effective** (proposed or enacted with a future effective date)
   - **94 replaced** by permanent regulations
   - **50 expired** without a documented replacement
@@ -92,7 +92,7 @@ A note on the headline number: we count **moratorium instruments** rather than "
 
 Download [`data/moratorium_inventory.csv`](data/moratorium_inventory.csv) and open it in Excel, Google Sheets, Numbers, or any spreadsheet tool. Each row is one moratorium instrument. Column definitions are in [`docs/codebook.md`](docs/codebook.md).
 
-To filter to in-force moratoria only, filter the `enacted_status` column to `active` or `extended`.
+To select records classified active or extended, filter the `enacted_status` column to `active` or `extended`.
 
 ### Load with Python (pandas)
 
@@ -181,7 +181,7 @@ moratorium-data-2026/
 ├── paper/                         # working paper PDF (April 2026 draft)
 ├── states/                        # 50-state index + per-state pages
 ├── data/                          # canonical CSVs and JSON
-│   ├── moratorium_inventory.csv   # the 1291-row local-moratorium table
+│   ├── moratorium_inventory.csv   # the 1293-row local-moratorium table
 │   ├── state_legislation.csv      # 442-row state-policy tracker (440 bills + 2 actions)
 │   ├── summary_stats.json         # top-level aggregates
 │   ├── structured_extractions.jsonl  # 864 lines (526 successful + 338 errors)

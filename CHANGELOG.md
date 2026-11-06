@@ -1,5 +1,32 @@
 # Changelog
 
+## 2026-11-06 — current working snapshot (unreleased)
+
+Current totals are 1,293 local instruments (1,071 classified active or extended,
+67 pending, 155 past) and 442 state-policy records (95 classified enacted).
+The current inventory classifications are summarized below; these are not independently
+renewed legal-force findings.
+
+| Metric | Current |
+|---|---:|
+| Moratoria in the list | **1293** |
+| Classified active or extended | **1071** |
+| Pending or not yet effective | **67** |
+| Ended (replaced, expired, or rescinded) | **155** |
+| Rows we still want to confirm (`[VERIFY]`) | **666** |
+| States with at least one | **47** |
+
+The separate reviewed ballot publication contains 49 measures and 55 retained
+result observations. Seven frozen candidate groups remain unresolved with explicit
+[dispositions](work/audit/ballot-release-dispositions-2026-11-06.json).
+The [September-baseline comparison](work/audit/refresh-baseline-delta-2026-11-06.md)
+explains headline changes; this is not a comparison to a published GitHub Release.
+
+Coverage, current-force and historical-paper caveats now supersede older completeness
+and synchronization claims. Entries below describe intermediate batches and their
+then-current counts; they are not the current snapshot totals. Release publication,
+asset verification and deployed-consumer reconciliation remain pending.
+
 ## 2026-11-05 — working refresh in progress (unreleased)
 
 Four Kansas proposal/count records bring the scoped subset to 22 measures: El Dorado, Emporia Q2/Q3 and Americus. Emporia shares one city/election across two distinct questions. Source Total Votes Cast and Contest Totals remain explicitly labelled, with no inferred ballot/blank categories; duration, court, certification and operative-force limits remain open. Ottawa exact primary ballot identity stays pending despite new draft-minute context. The frozen census is 22 published / 34 pending; no legacy headline changes. See [publication packet](work/research/2026-11-06/kansas-promotion/README.md).
