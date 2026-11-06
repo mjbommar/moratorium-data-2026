@@ -1,0 +1,72 @@
+{
+  "state_abbrev": "WI",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wi-la-crosse-county-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "548",
+          "to": "",
+          "reason": "18 months is a calendar term, not 548 fixed days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Resolution specifies 18 months from publication, subject to earlier action."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23. Confirmed via the county's own official board minutes for the June 18, 2026 meeting: Resolution No. 6-6/26 was adopted 26-2 (2 excused), imposing an 18-month moratorium on data center applications effective from the resolution's publication date (running to approximately December 2026-2027, i.e. through Dec. 2027 per News 8000's account that it \"runs through December 2027\"). No extension, repeal, or replacement was found as of 2026-09-23.",
+          "to": "June 18 minutes reproduce an eighteen-month term from publication or until specified county zoning amendments/rescission and record approval with 26 ayes, two nays and two excused. The text expressly disclaims development-moratorium status under its cited statute; that is instrument language, not an independent legal conclusion. Publication date, actual operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.lacrossecounty.org/Minutes%20and%20Agendas/Attachments/2026/CountyBoard/Jul/CB061826M.pdf",
+          "source_type": "minutes",
+          "supports": "Complete operative term with anchor and earlier-action conditions.",
+          "quote": "The moratorium shall be in effect  for a period of 18 months\n\nfrom the date this resolution is published or  until the County Board adopts any amendments\n\nto the Zoning ordinance recommended by the ad hoc committee or rescinds this\n\nmoratorium, or both. The moratorium enacted is not intended to be, and does not, constitute\n\na  \u201cdevelopment moratorium\u201d as that term is defined in Wis. Stat. \u00a7 66.1002(1)(b).",
+          "document_date": "2026-06-18"
+        }
+      ],
+      "notes": "Publication date and later action remain unresolved; no current-force conclusion.",
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "wi-middleton-2026",
+      "outcome": "corrected",
+      "changes": {
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Twelve months is a calendar term rather than fixed 365 days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Adopted text gives twelve months from effective date subject to earlier amendment."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23.",
+          "to": "The ordinance records June 16 adoption, eight ayes and no nays, and June 25 publication. Its twelve-month term runs from effectiveness or earlier adoption and effectiveness of related zoning amendments. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/17274/1430088/pdf",
+          "source_type": "ordinance",
+          "supports": "Complete operative term with anchor and earlier-action conditions.",
+          "quote": "(4) Duration of Moratorium. This moratorium shall be in effect for twelve (12) months\n\nfollowing the effective date of this ordinance or until an amendment to this chapter related to\n\ndata centers is adopted and takes effect, whichever is earlier.",
+          "document_date": "2026-06-16"
+        }
+      ],
+      "notes": "Ordinance records publication June 25, 2026; subsequent amending action not established. No current-force conclusion.",
+      "confidence": 0.9
+    }
+  ],
+  "new_candidates": []
+}

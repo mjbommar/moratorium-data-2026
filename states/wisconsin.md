@@ -353,7 +353,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Resolution No. 6-6/26 (La Crosse County Board of Supervisors), "Re: Temporary Moratorium on Data Centers," adopted June 18, 2026 by a voice vote of 26 ayes, 2 nays (Supervisors J. Fimreite and K. Schlimgen), 2 excused, per the county's own official June 18, 2026 board meeting minutes.
 - **What prompted it:** Adopted to give the county time to receive the Data Center Study Committee's work (first met June 10, 2026) and consider permanent rules.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. Confirmed via the county's own official board minutes for the June 18, 2026 meeting: Resolution No. 6-6/26 was adopted 26-2 (2 excused), imposing an 18-month moratorium on data center applications effective from the resolution's publication date (running to approximately December 2026-2027, i.e. through Dec. 2027 per News 8000's account that it "runs through December 2027"). No extension, repeal, or replacement was found as of 2026-09-23.
+- **Detailed status:** June 18 minutes reproduce an eighteen-month term from publication or until specified county zoning amendments/rescission and record approval with 26 ayes, two nays and two excused. The text expressly disclaims development-moratorium status under its cited statute; that is instrument language, not an independent legal conclusion. Publication date, actual operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 18-month moratorium on data centers by a 26-2 vote.
 
 ### Manitowoc County
@@ -401,7 +401,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Ordinance No. O1689 (Municipal Code Section 10.03.40)
 - **What prompted it:** Data centers not listed as a permitted/conditional use in any zoning district; risk an applicant could argue a data center fits an existing PUD category
 - **Affected projects:** None named; preemptive
-- **Detailed status:** Active as of 2026-09-23.
+- **Detailed status:** The ordinance records June 16 adoption, eight ayes and no nays, and June 25 publication. Its twelve-month term runs from effectiveness or earlier adoption and effectiveness of related zoning amendments. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Planning Department directed to draft comprehensive standards
 
 ### Milwaukee

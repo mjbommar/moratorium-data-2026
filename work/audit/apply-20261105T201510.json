@@ -1,0 +1,62 @@
+{
+  "applied_at": "20261105T201510",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-wisconsin-g/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 2,
+    "fields_changed": 6
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "wi-la-crosse-county-2026",
+      "column": "duration_days",
+      "before": "548",
+      "after": "",
+      "reason": "18 months is a calendar term, not 548 fixed days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-la-crosse-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Resolution specifies 18 months from publication, subject to earlier action.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-la-crosse-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23. Confirmed via the county's own official board minutes for the June 18, 2026 meeting: Resolution No. 6-6/26 was adopted 26-2 (2 excused), imposing an 18-month moratorium on data center applications effective from the resolution's publication date (running to approximately December 2026-2027, i.e. through Dec. 2027 per News 8000's account that it \"runs through December 2027\"). No extension, repeal, or replacement was found as of 2026-09-23.",
+      "after": "June 18 minutes reproduce an eighteen-month term from publication or until specified county zoning amendments/rescission and record approval with 26 ayes, two nays and two excused. The text expressly disclaims development-moratorium status under its cited statute; that is instrument language, not an independent legal conclusion. Publication date, actual operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-middleton-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Twelve months is a calendar term rather than fixed 365 days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-middleton-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Adopted text gives twelve months from effective date subject to earlier amendment.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-middleton-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23.",
+      "after": "The ordinance records June 16 adoption, eight ayes and no nays, and June 25 publication. Its twelve-month term runs from effectiveness or earlier adoption and effectiveness of related zoning amendments. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ]
+}
