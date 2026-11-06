@@ -705,16 +705,16 @@ State policy is tracked separately: **14 actions** (14 bills) in [`state_legisla
 
 - **Type:** Township
 - **Status:** 🟢 Extended
-- **Date enacted:** 2026-02-18 (Township Board adopted an ordinance enacting a temporary data center moratorium by unanimous roll call, after tabling it on 2026-01-21; per draft minutes reported by Tuscola Today)
+- **Date enacted:** February 18, 2026: official township minutes record unanimous adoption of the original data-center moratorium ordinance after changing its proposed term from twelve to nine months; actual publication/effective date remains unresolved.
 - **Normalized date:** `2026-02-18` (exact)
-- **Duration:** Legacy combined record reports nine months for the February ordinance and twelve months for June Resolution 2026.06.17.A; separate original/successor terms and identities require reconciliation.
+- **Duration:** Original Ordinance 2026-01 specifies nine calendar months from its effective date, or until amended/new data-center regulations take effect, whichever occurs first. June 17 minutes separately record Resolution 2026.06.17.A titled a twelve-month moratorium on data centers and cryptocurrency mining; complete resolution and original/successor relationship remain unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `mi-elmwood-township-tuscola-county-2026`
-- **Legal basis:** Legacy record identifies a February 18, 2026 ordinance followed by Resolution 2026.06.17.A, reported adopted June 17 for data centers and cryptocurrency mining. [VERIFY executed texts, separate instrument identities and exact successor relationship.]
+- **Legal basis:** Township-hosted Ordinance No. 2026-01 cites 1945 PA 246, MCL 41.181 et seq.; February 18, 2026 minutes record adoption with a nine-month term. June 17 official minutes record adoption of Resolution 2026.06.17.A for data centers and cryptocurrency mining. [VERIFY: publication, complete June resolution, separate instrument identities and exact successor relationship.]
 - **What prompted it:** Precautionary; no known data center plans; township sought time to regulate data centers (board also asked members about financial interests in AI or bitcoin operations)
 - **Affected projects:** None identified
-- **Detailed status:** Local reporting describes adoption of Resolution 2026.06.17.A on June 17 for twelve months covering data centers and cryptocurrency mining. The legacy row combines the earlier February ordinance with this later resolution; original term, legal successor relationship and separate instrument identities require reconciliation. No exact current endpoint promoted. [VERIFY: final operative interval, later modification/replacement/repeal and present legal force; classification remains provisional.]
+- **Detailed status:** Official June 17, 2026 township minutes record adoption of Resolution 2026.06.17.A, titled a twelve-month temporary moratorium on data centers and cryptocurrency mining, with four affirmative votes and one absence. The original township-hosted Ordinance 2026-01 states nine months from publication after adoption, or earlier effective data-center regulations; February 18 minutes confirm the nine-month amendment. This legacy row still combines two actions; their legal relationship and present operative interval remain unresolved. No exact endpoint promoted. [VERIFY: publication dates, complete June resolution, later modification/replacement/repeal and current legal force; classification remains provisional.]
 - **Outcome:** Township to develop data center regulations during the moratorium
 
 ### Erie Township
