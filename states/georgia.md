@@ -920,15 +920,15 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Status:** 🟢 Extended
 - **Date enacted:** 2026-02-17
 - **Normalized date:** `2026-02-17` (exact)
-- **Duration:** Initial emergency moratorium to 2026-03-18; revised to 2026-04-08; extended to 2026-10-07
-- **Current end date:** `2026-10-07`
+- **Duration:** Initial emergency moratorium to 2026-03-18; revised to 2026-04-08; extended to 2026-10-07; Resolution R-100626A adopted October 6, 2026 extends to December 16, 2026, unless an additional moratorium is approved after a public hearing or the Board terminates it earlier.
+- **Current end date:** `2026-12-16`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-newton-county-2026`
-- **Legal basis:** Resolution R-040726b
+- **Legal basis:** Resolution R-040726b (April 7, 2026), further extended by Resolution R-100626A (October 6, 2026; adopted 5-0).
 - **What prompted it:** Increased interest in data center siting and inadequate existing ordinances
 - **Affected projects:** Applications for rezonings, special-use permits, conditional-use permits, development permits, site plans, building permits, and land-disturbing approvals for data centers
-- **Detailed status:** Active as of 2026-09-23; Resolution R-040726b (adopted 2026-04-07) bars data center applications until 2026-10-07. No further extension or adopted data center ordinance was found as of this pass.
-- **Outcome:** County study and ordinance drafting
+- **Detailed status:** Extended by Resolution R-100626A: the October 6, 2026 official BOC minutes reproduce the resolution and record adoption 5-0 following a public hearing. Section 2 bars data-center development applications until December 16, 2026; section 4 provides earlier termination upon approval of an additional moratorium after a public hearing or Board action terminating the moratorium; section 5 makes it effective upon a majority vote. Later action has not been comprehensively excluded by this targeted review as of 2026-11-06.
+- **Outcome:** Resolution R-100626A adopted 5-0 on October 6, 2026, extending the moratorium while the County studies, develops and considers a data-center ordinance.
 
 ### Oglethorpe County
 
