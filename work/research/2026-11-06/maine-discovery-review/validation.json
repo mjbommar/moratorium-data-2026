@@ -1,0 +1,45 @@
+{
+  "state": "passed_with_existing_warning_limits",
+  "baseline_commit": "600978649c77301f88678e1aa31b62d5dd79a527",
+  "prior_rows_preserved": 1329,
+  "new_ids": [
+    "me-ashland-2024",
+    "me-bridgton-2022"
+  ],
+  "inventory_rows": 1331,
+  "inventory_sha256": "ec2d40fd48afeba1f2f517a307f5ce4ba90bf1f5550332d70f8b18f22afb878b",
+  "state_policy_and_expanded_jsonl": "All unchanged from baseline",
+  "candidate_dispositions": 16,
+  "withheld_cases": 14,
+  "visual_page_hashes_reverified": 15,
+  "pilot_body_review_text_client_metadata_versions_reverified": 4,
+  "make_data_site_check_exit_code": 0,
+  "dataset_errors": 0,
+  "dataset_warnings": 292,
+  "new_row_warnings": 0,
+  "documented_numbers_matched": 49,
+  "readme_rank_sentences_checked": 2,
+  "replay": {
+    "rows_added": 0,
+    "rows_touched": 0,
+    "output_sha256": "96fb5e3efb797fa8cf2327593cd6bd6e682b66c7b3fc6a6bf9cf0bbac7fcf6a9"
+  },
+  "accounting_replay_byte_identical": true,
+  "frozen_discovery": {
+    "total": 185,
+    "reviewed_addition": 38,
+    "covered_existing": 1,
+    "reviewed_withheld": 146,
+    "awaiting_coordinator_review": 0
+  },
+  "build_log_sha256": "45a425fd5701b30a40b15f398a080b7fddcd250a1cd243c64002f23eebd739cf",
+  "review_sha256": "def4c28074c9f330ac5654c9afd49c627d9cfacb8acf3c6fb25223e11d8c91f0",
+  "accounting_sha256": "47d137f800217123567deb35942663b7d2a36eb42a1eadcea5dd70dbe05e348c",
+  "archive_receipt_sha256": "f6ead0fd4a01392398016f5600c5a8b603a1740ef76a6225caa070c0a038ec33",
+  "rank_receipt_sha256": "6b3aa67b71c744f7b311ba09f1cd0b2d423aafeb9d1afdd4461d83a8e202429d",
+  "jay_followup_sha256": "542ea843ad4aa540452286000e1ae9a2b3a2a2116134053db51baf31ffebdae0",
+  "apply_receipts": [
+    "work/audit/apply-20261106T134619.json"
+  ],
+  "scope": "Final sixteen frozen-discovery dispositions, two historical additions, source/visual/provenance/preservation/replay/generated checks. Frozen coordinator queue completed; withheld legal gaps, Jay primary recovery and full implementation/freshness/copy/consumer/release gates remain open."
+}

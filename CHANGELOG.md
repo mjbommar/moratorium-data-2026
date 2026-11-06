@@ -72,18 +72,25 @@ ordinances and Meridian's township-reported BESS adoption, separate from its
 existing same-day data-center ordinance. Six other candidates retain execution,
 publication or original-source requirements. All 1,326 preceding rows are unchanged.
 
-Current totals are 1,329 local instruments (1,080 classified active or extended,
-79 pending, 170 past) and 442 state-policy records (95 classified enacted).
+The final Maine discovery batch adds historical Bridgton solar and Ashland wind
+records, with fixed 180-day terms anchored separately to applicability and adoption.
+All 1,329 preceding rows are unchanged. All 185 frozen discovery candidates now
+have coordinator dispositions: 38 additions, one covered existing instrument and
+146 withheld with evidence requirements. A reported Jay solar ballot is retained
+separately for primary-source recovery, not silently included in ballot totals.
+
+Current totals are 1,331 local instruments (1,080 classified active or extended,
+79 pending, 172 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1329** |
+| Moratoria in the list | **1331** |
 | Classified active or extended | **1080** |
 | Pending or not yet effective | **79** |
-| Ended (replaced, expired, or rescinded) | **170** |
-| Rows we still want to confirm (`[VERIFY]`) | **702** |
+| Ended (replaced, expired, or rescinded) | **172** |
+| Rows we still want to confirm (`[VERIFY]`) | **704** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained

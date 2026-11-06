@@ -1,0 +1,49 @@
+{
+  "state": "unpublished_primary_recovery_required",
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "candidate_key": "discovery-me:3",
+  "jurisdiction": "Jay",
+  "state_abbrev": "ME",
+  "reported_election_date": "2026-11-03",
+  "reported_question": "Article 3",
+  "reported_sector": "solar",
+  "reported_proposed_duration_days": 180,
+  "reported_result": {
+    "status": "secondary_source_reported_unofficial",
+    "yes": 1464,
+    "no": 723,
+    "question_ballots_cast": null,
+    "certification": null
+  },
+  "excluded_denominators": {
+    "overall_turnout_2253": "Not accepted as solar-specific ballot total",
+    "rent_question_1635_566": "Different Article 2 question"
+  },
+  "source_checks": [
+    {
+      "attempt_id": "6161feefb50041d3bb8a848fea67e7b3",
+      "url": "https://www.sunjournal.com/2026/11/04/jay-voters-approve-lot-rent-ordinance-solar-moratorium/",
+      "body_sha256": "ba0a34df272e5299a6b2aefb709d3014c321591ec1bf45d1084ea38ebeee0181",
+      "text_sha256": "9dcff66841d2ed899317a5bbf9bb220e741023ea469be65a1afea729d9a0b94d",
+      "located_worker_excerpts": [
+        {
+          "located_unicode_span": [
+            260,
+            351
+          ],
+          "quote_sha256": "3b9badf474d7d0f9b844ee6d017066d644586ce23d55f477489499c2d8e78b23"
+        }
+      ],
+      "read_scope": "Complete retained extraction"
+    }
+  ],
+  "frozen_ballot_cohort": "Outside original 56 candidate groups; canonical publication remains 49 groups, seven frozen groups unresolved",
+  "next_required": [
+    "Recover official ballot/warrant and exact solar question/proposed ordinance",
+    "Recover official question-specific return and certification",
+    "Review outcome, effective/applicability anchors, legal implementation and any instrument relationship",
+    "Promote only through reviewed expanded-model candidate and provenance checks"
+  ],
+  "scope": "Discovery lead only; no canonical measure/result/restriction, accepted legacy instrument, project join or causal inference."
+}

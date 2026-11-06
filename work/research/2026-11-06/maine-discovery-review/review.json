@@ -1,0 +1,552 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "baseline_commit": "600978649c77301f88678e1aa31b62d5dd79a527",
+  "candidates": [
+    {
+      "candidate_key": "discovery-me:4",
+      "candidate_sha256": "08aa27a558cfd3ec6c175958e50627fec4015b0fb16e2cd77c5f0425a4600d25",
+      "worker_review_sha256": "b8db0b52fce2a1a7c2be95576efe4a826342c9d99651caee9e3c274db716b74f",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Wells Maine is distinct from Nevada Wells. Original warrant page 9 and results page 2 re-inspected: Article 5 5818 yes/1282 no/459 blanks, signed November 4 certificate; 180 days from June 16 applicability, not November vote. Aggregate 100000-square-foot definition is not merely server floor area. Existing scoped ballot publication retained; enrolled law/operative interval, later action and legacy instrument link remain withheld, not absence of ballot evidence.",
+      "source_checks": [
+        {
+          "attempt_id": "maine-pilot/wells-warrant",
+          "url": "https://wellstown.org/DocumentCenter/View/8514/November-3-2026-Special-Town-Meeting-Warrant?bidId=",
+          "body_sha256": "44a827d74c282cf6e81164b182f55256f4dd8fd1583c1de2a1a1ee125fd4ebd2",
+          "text_sha256": "99dc6d26c8827331f1ffaea594639b9e3861859c5327f596d59cd3a15d0eee0a",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                19519,
+                19560
+              ],
+              "quote_sha256": "c023f7e808591693f563b8d37dcb2b25426912df9ad045687c00c2d5a7bc211d"
+            },
+            {
+              "located_unicode_span": [
+                19163,
+                19212
+              ],
+              "quote_sha256": "8c3beeb106f6168d632175e4165f6eb5ed5029dc2e5a91f5991435acc06e2c1a"
+            }
+          ],
+          "review_text_representation": "Original PDF extraction",
+          "document_pages": 23,
+          "visual_review": {
+            "scope": "Selected previously rendered pilot page only",
+            "reviewed_pages": 1,
+            "page_receipts": [
+              {
+                "page": 9,
+                "image_sha256": "572ac493759a0937a03d9a6fa661d324e5e4f71bfd3008dc0dc0d7e814527ffb"
+              }
+            ]
+          },
+          "original_client_metadata_sha256": "b5fae6cd5330cc1a3e98a14dbeeff31bd5cd7e5ae80d7244bb722d6551d2a963"
+        },
+        {
+          "attempt_id": "maine-pilot/wells-results",
+          "url": "https://www.wellstown.org/DocumentCenter/View/8559/November-3-2026-Official-Election-Results?bidId=",
+          "body_sha256": "5f5e3d76054063a7fdcf7a2505bf4698aeac074c0ad18b5354abed45258d1d95",
+          "text_sha256": "3ef0ce28fdf89c149bf32d6c169bd13ff062ca0b157d38ee4648f3f265c1e9d2",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                1486,
+                1504
+              ],
+              "quote_sha256": "4f81cc4ce95a5eb1dda6d5b21575e11aa292ceacdd22da33b6ea389ca23de7ea"
+            }
+          ],
+          "review_text_representation": "Separately retained page-2 OCR; original extraction is four characters and is not overwritten",
+          "document_pages": 4,
+          "visual_review": {
+            "scope": "Selected previously rendered pilot page only",
+            "reviewed_pages": 1,
+            "page_receipts": [
+              {
+                "page": 2,
+                "image_sha256": "e96e18336715ec25c2b5c3900d4e014d239e1443b5ad961759deef8523a8b5b1"
+              }
+            ]
+          },
+          "original_client_metadata_sha256": "e60cc9ba8030bef5b226dbcb4d2fd54d15d384f797d69b5b782ba41701cfcddf"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:5",
+      "candidate_sha256": "414457d0b99d9abcb33b86e2fdd52f2dbc5ac7290f96794a418191fd43502659",
+      "worker_review_sha256": "b8db0b52fce2a1a7c2be95576efe4a826342c9d99651caee9e3c274db716b74f",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Wiscasset guide page 2 re-inspected and original unofficial-results HTML/client text checked: Question 2 1363 yes/712 no, blanks empty; overall 2155 ballots not question denominator. Six calendar months after enactment distinct from possible 180-day extensions. Existing ballot publication/recovered source work retained; no fresh legacy adoption or current-force inference from explanatory guide/unofficial count.",
+      "source_checks": [
+        {
+          "attempt_id": "maine-pilot/wiscasset-guide",
+          "url": "https://www.wiscasset.gov/DocumentCenter/View/1735/Special-Town-Meeting-Voter-Guide---November-3-2026",
+          "body_sha256": "4ac4384a885beda21d5f435effe3663b395e3e855217306df70a4b24d7c191bb",
+          "text_sha256": "a4d9f1093a56f29c88fe79fcbd12e1245c101a1fae4e7228643e4ac0355089cb",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                4159,
+                4208
+              ],
+              "quote_sha256": "c9154f2cab44645758bb6b88e7e14f1aebd5658ed03ba0ee019c1c2b60d063b1"
+            }
+          ],
+          "review_text_representation": "Original PDF extraction",
+          "document_pages": 3,
+          "visual_review": {
+            "scope": "Selected previously rendered pilot page only",
+            "reviewed_pages": 1,
+            "page_receipts": [
+              {
+                "page": 2,
+                "image_sha256": "6e5b4841913fdf096190daa1a47c74445a9b426c8867ef28c35072b0bdbb6fc1"
+              }
+            ]
+          },
+          "original_client_metadata_sha256": "12357308ef1352d976ca537e46819d1c024c68bc9c7aeb08efba2cc77356b7d0"
+        },
+        {
+          "attempt_id": "maine-pilot/wiscasset-results",
+          "url": "https://www.wiscasset.gov/m/newsflash/Home/Detail/211",
+          "body_sha256": "ec882047290849c14230e55c12969e4d0daf4bf9518c64242ffa7aa49a2154a9",
+          "text_sha256": "ec882047290849c14230e55c12969e4d0daf4bf9518c64242ffa7aa49a2154a9",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                46967,
+                46992
+              ],
+              "quote_sha256": "bbe9267fe8b7f6ba95582a489be4756bb31d40934054b2b6ec74938e49109bf3"
+            }
+          ],
+          "review_text_representation": "Original HTML bytes",
+          "read_scope": "Original results HTML quote plus original client extracted Question 2/count section",
+          "original_client_metadata_sha256": "92d70fe7ee46fa34e96fe0dd8448a2fb578d8b11ee9acbd29760dfb709c30525"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:6",
+      "candidate_sha256": "60b72a83d0f6e9a3f6ccc44069f4f30da9cab92c134fb9cea02d2f35cb01f2a4",
+      "worker_review_sha256": "b8db0b52fce2a1a7c2be95576efe4a826342c9d99651caee9e3c274db716b74f",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Complete 2010 Sedgwick report gives 347/243 approval, immediate effect and six-month wind pause; lacks exact primary adoption date, municipal text and later history. Do not infer a precise date from Tuesday or classify historical endpoint merely from age.",
+      "source_checks": [
+        {
+          "attempt_id": "aeddfcad2ef7404ab4fc73301a7451d5",
+          "url": "https://www.bangordailynews.com/2010/11/04/news/voters-approve-moratorium-on-wind-tower-in-sedgwick/",
+          "body_sha256": "7c676badef3ea665f08010140230122e1e64ecff093235397eec5e5340c739af",
+          "text_sha256": "72d1755efcb4aef9c6756d503cfa239f3ae322c9284759fda7fd747ad54a5038",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                18,
+                107
+              ],
+              "quote_sha256": "525d0b2d96829a5f9d6e462d6c5c6291653550b6198f94018d9acade2a254f2c"
+            }
+          ],
+          "read_scope": "Complete retained extraction"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:7",
+      "candidate_sha256": "13a548ba42c6e8e3d26a2bbbc4f081958454cbb5cf54f4bb2e3b2170245c9227",
+      "worker_review_sha256": "b8db0b52fce2a1a7c2be95576efe4a826342c9d99651caee9e3c274db716b74f",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Complete 2011 Frankfort report describes Monday vote 89/37 and six-month wind pause, separately mentions 180-day study period. Exact vote/effectiveness, original text and later history unresolved. Maine municipality is distinct from New York Frankfort; reported project dimensions do not establish accepted project identity/causality.",
+      "source_checks": [
+        {
+          "attempt_id": "8a0dc6047c7941cf956cf7d3e6ec7dbf",
+          "url": "https://www.bangordailynews.com/2011/05/27/news/frankfort-adopts-wind-moratorium/",
+          "body_sha256": "6566655328a1083de35ab8f0db771a8965d62dc2eed813b34e9809f93b73377f",
+          "text_sha256": "f016272e4c39b157311cadb94a7fffc0cf35524b38e3204a4bf076e0d6ed1630",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                28,
+                122
+              ],
+              "quote_sha256": "87fe368cf69892aaf2bc51053567956b479251a8424bd5d6c9df65ea5a1e1ef4"
+            }
+          ],
+          "read_scope": "Complete retained extraction"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:10",
+      "candidate_sha256": "70394d4cd10320d21b6e2528125ba6e9d4d5287869c52fef3dc40fd9ab2454f7",
+      "worker_review_sha256": "b8db0b52fce2a1a7c2be95576efe4a826342c9d99651caee9e3c274db716b74f",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Complete Buxton report describes Wednesday meeting approval, 180 days retroactive to August 12 without independently established meeting date/year or final wording. Do not turn retroactivity into adoption or silently apply all reported statewide/project claims. Recover warrant, enacted law and operative interval.",
+      "source_checks": [
+        {
+          "attempt_id": "63417efa273e43d0aeb1f7e6677a78c4",
+          "url": "https://www.wmtw.com/article/buxtom-maine-temporary-data-center-ban-vote/74232254",
+          "body_sha256": "86a435ff51ba386b0b2186b7f8c46a91b1a9473e60bcacff7032951718419920",
+          "text_sha256": "305c7b4912627859056ea181fe5226391519ab55b4cb9bffc067f5022b20ac8f",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                331,
+                402
+              ],
+              "quote_sha256": "03b2cffa46e5c2372c5a2282c66c075c4335898ae7a3a543c3180f25d193c8b1"
+            }
+          ],
+          "read_scope": "Complete retained extraction"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:0",
+      "candidate_sha256": "50dec612f68a9bd68713478c64e0f84ec25cb910e8b66a79565662cefbd626e3",
+      "worker_review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26",
+      "coordinator_disposition": "reviewed_historical_instrument_added",
+      "rationale": "All four Bridgton pages inspected. Town-hosted cover explicitly labels enacted June 14, 2022; execution/attestation lines remain blank, not claimed signed. Operative 180 days from March 22, 2022 applicability, distinct from immediate effectiveness on adoption; derived original outer endpoint September 18, 2022. Commercial off-site/income solar excludes nameplate 125 kW DC or less; associated storage is not separately established standalone BESS scope. Accept town-recorded original historical term only, later extensions/termination/current force unverified.",
+      "source_checks": [
+        {
+          "attempt_id": "59bb16fefc074783a98e8ce22edaa231",
+          "url": "https://bridgtonmaine.org/wp-content/uploads/2022/09/Enacted-Bridgton-Moratorium-Commercial-Solar-Energy-Facilities-with-retroactivity-clause.pdf",
+          "body_sha256": "d9c83db2eac4e74ff90b4fd345f8561859211dd50f7f134ea0a03857ef550f7a",
+          "text_sha256": "5f9be80ef888bf013db127d6633d54c40169861dabe6f7d03fb2e240cc9642a7",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                0,
+                15
+              ],
+              "quote_sha256": "18ea8c66a46c0710787317a6715302fc22e77611438533ab44056f866e62dc0b"
+            }
+          ],
+          "visual_review": {
+            "scope": "All retained PDF pages visually inspected",
+            "reviewed_pages": 4,
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "ddcd033c480d577dbf533c3a38b92a4a9a3a729c51595ff1ce8a45ec40f29454"
+              },
+              {
+                "page": 2,
+                "image_sha256": "71003a8ea543d2d1ecbb45043d580c803659d1d91cf4c59e77076e2bc696bd58"
+              },
+              {
+                "page": 3,
+                "image_sha256": "ad07b916b73d1d2d82338eed7337caaa56e080fa52186729329e11569292d8b0"
+              },
+              {
+                "page": 4,
+                "image_sha256": "69362678df8d58963b25b596f27eae424c20ada797de8abe08302129b4ca2b2c"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:1",
+      "candidate_sha256": "dbe84404919c4e5f22ad5d8caa36fef3372993fd7c36ac7b8f0402304d143f21",
+      "worker_review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26",
+      "coordinator_disposition": "reviewed_historical_instrument_added",
+      "rationale": "Both Ashland pages inspected. Official header states December 17, 2024 adoption, effectiveness upon adoption and 180-day original sunset, with further 180-day extensions possible after notice/hearing. Wind definition generating capacity strictly greater than 100 kW. Derived original outer endpoint June 15, 2025; accept original-term historical classification only, not absence of extensions/current restrictions. Legislative harm findings are not independently measured empirical evidence.",
+      "source_checks": [
+        {
+          "attempt_id": "eaa31d9c19394fa5845f3e0f8ce3c437",
+          "url": "https://townofashland.org/wp-content/uploads/2024/12/Wind-Energy-Facility-Moratorium-Ordinance.pdf",
+          "body_sha256": "d5376ced5b776df6905a2b9a6c41a81e8217db3fa02099cbd427482e20f53840",
+          "text_sha256": "3977b4f08f6c1b3de1674828afd947594c776d3ad32f573643bc70a70c7346d6",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                59,
+                84
+              ],
+              "quote_sha256": "d6b8940cc1e2348f81436e5bba94a05225879a88a0b8c686819e5ebde06c9da2"
+            }
+          ],
+          "visual_review": {
+            "scope": "All retained PDF pages visually inspected",
+            "reviewed_pages": 2,
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "5d410a89444b3eb444d6f5a124459eaf179bf301da140a3884d02d6d6ca34be8"
+              },
+              {
+                "page": 2,
+                "image_sha256": "79e39afd8717aa978f39f1a277607c1676f100f8d02ac92ffa205defa67b514d"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:2",
+      "candidate_sha256": "5c17e0cb9b63754bda0bf1bd614fc7f0b1f78441fbcd72c79e01ff9f6ee150c0",
+      "worker_review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Retained article body reports October 8 council adoption 5-2 and quotes immediate-effect/180-day or earlier zoning-amendment term; worker summary six months must not replace fixed-day wording. Primary ordinance/vote, exact year/effectiveness and later actions remain unverified. Review limited to article body around moratorium, not navigation or unrelated news.",
+      "source_checks": [
+        {
+          "attempt_id": "52c969bb5b054abdb632eec4eb65c909",
+          "url": "https://www.ellsworthamerican.com/news/bucksport-approves-data-center-moratorium/article_9c61ec68-16d4-4ace-92e2-98a5e973d096.html",
+          "body_sha256": "e420648ee67c065748b03b1a86d20100b398bc6e5f36d3ca9d9ded906b90c08c",
+          "text_sha256": "8982bb467e575c919d1f687d771a48cf4e593f6213c0888e5975775add5b07eb",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                3418,
+                3510
+              ],
+              "quote_sha256": "698c62b2372a4173c2bf1b9c512db75de770424ab070c2eda8440bd50ee11786"
+            }
+          ],
+          "read_scope": "Moratorium article body only"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:3",
+      "candidate_sha256": "de15a741d1df06b16a5c86bef08d3cc774462bd495a82c7f64bd0f170c64bd2f",
+      "worker_review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Complete report identifies November 3 Article 3 commercial ground-mounted solar proposal, unofficial 1464 yes/723 no. Separate rent question 1635/566 and overall 2253 ballots are not solar-specific denominators. Retain as additional ballot-recovery lead outside frozen 56 groups; no certified outcome, operative ordinance or project join accepted.",
+      "source_checks": [
+        {
+          "attempt_id": "6161feefb50041d3bb8a848fea67e7b3",
+          "url": "https://www.sunjournal.com/2026/11/04/jay-voters-approve-lot-rent-ordinance-solar-moratorium/",
+          "body_sha256": "ba0a34df272e5299a6b2aefb709d3014c321591ec1bf45d1084ea38ebeee0181",
+          "text_sha256": "9dcff66841d2ed899317a5bbf9bb220e741023ea469be65a1afea729d9a0b94d",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                260,
+                351
+              ],
+              "quote_sha256": "3b9badf474d7d0f9b844ee6d017066d644586ce23d55f477489499c2d8e78b23"
+            }
+          ],
+          "read_scope": "Complete retained extraction"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:8",
+      "candidate_sha256": "15607d5640e6e926b28a56703a5d986d768bfaa32fc8a3f4d258c5f3fc372c6d",
+      "worker_review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "All three Athens pages inspected. Conditional enactment text with November 2, 2023 initiative/applicability anchor and 180-day/earlier-regulation term, no adoption certificate. Ground/pole array greater than 500 square feet versus residential/private exemption below 501 preserved without silently normalizing boundaries; prior-approved systems exempt. Neither enacted nor currently pending stage established.",
+      "source_checks": [
+        {
+          "attempt_id": "1982191d21e4423f88ff9356dd3d5933",
+          "url": "https://www.athens.maine.gov/wp-content/uploads/2024/03/LargeScaleSolarMoratorium.pdf",
+          "body_sha256": "f841b1f85565c670711071b860fbfeaf09ae502e4a3b67c69acaf4c30483a850",
+          "text_sha256": "5a941aa1b861631c89e8ed121faa857ac07d63ab36c45c5e16373ecf85aae94d",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                4681,
+                4771
+              ],
+              "quote_sha256": "b9fc7d6864f4844230047336c24288f66d50a51ff0bb83fc65847104e7696ea5"
+            }
+          ],
+          "visual_review": {
+            "scope": "All retained PDF pages visually inspected",
+            "reviewed_pages": 3,
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "44f32004f106de35ede3fcc1de99703563ffbb618826a7d7deda477185f32b1a"
+              },
+              {
+                "page": 2,
+                "image_sha256": "6fd1796595093f6c2a9001495962fc3e584291e7808b10a102ec9324d19fafbb"
+              },
+              {
+                "page": 3,
+                "image_sha256": "ca0f264580f51d932f1d8798461568b23ae4002004661fc9c48adfe8f011d571"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:9",
+      "candidate_sha256": "7c99a9dbcb23bb90dbe2b1e751e1670ea59fcae4ad19c154eb809d1c6da6768f",
+      "worker_review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "All three Fryeburg pages inspected. Sale-purpose commercial solar text excludes principally on-property residential/agricultural/business supply; 180 days from enactment/effectiveness, prior-complete/substantively-reviewed and pending-proceeding qualifications. No adoption date/certificate. Hold lifecycle and applicability anchor; posted text alone proves neither enactment nor current pending status.",
+      "source_checks": [
+        {
+          "attempt_id": "bc4b14b080c8413d92a48ca9b61d3084",
+          "url": "https://www.fryeburgmaine.org/DocumentCenter/View/732/Solar-Moratorium-Ordinance",
+          "body_sha256": "0eb2b79a9007aee0f661eb3248230c095d90c40250f5b1c8295ea2b68a4a178d",
+          "text_sha256": "b3c29062d0487fd836ba56b7cfc51949b27ad22fe27132ffd6564b66c2b987f0",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                3825,
+                3888
+              ],
+              "quote_sha256": "323e23c28bfaa32d3d72c4cb3259f84071949b6dbef91ec22543451bf58d4449"
+            }
+          ],
+          "visual_review": {
+            "scope": "All retained PDF pages visually inspected",
+            "reviewed_pages": 3,
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "74a104b2c19b8524a177f29c8f572b62e638cfa45a7b12d4e083cf06a1b71ff1"
+              },
+              {
+                "page": 2,
+                "image_sha256": "4be6d0f04f29497123d81181d5ed1ae665d59ca0f920b1884b5a20f076ebe811"
+              },
+              {
+                "page": 3,
+                "image_sha256": "d495740db8c3475050786d82676cd4ce9d3b9008adcb7b6804f2c74e7e132b9e"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:11",
+      "candidate_sha256": "b7d8c0bae80e76187a984355925d5c3f83819c5da96698377d1a7473e94f9b8a",
+      "worker_review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Relevant January 27, 2026 automated meeting-summary passage describes a draft BESS pause and 180/90-day discussion. Official minutes/draft and later disposition missing. Separate from Sabattus November data-center vote; do not label old draft currently pending or accept automated recap as executed instrument.",
+      "source_checks": [
+        {
+          "attempt_id": "bf017278ced648c68e846f657acbf711",
+          "url": "https://citizenportal.ai/articles/11597544/maine/androscoggin-county/sabattus/board-considers-180day-moratorium-on-largescale-battery-storage-systems",
+          "body_sha256": "94dcc29cb985f49575cd2d422840966821c793c75acc467bab4fd04bbdef079d",
+          "text_sha256": "00df6e1e5109fd9a3173c932a00a4d6b23c883d7b8c2126c364c9030ef4fb474",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                49,
+                123
+              ],
+              "quote_sha256": "4d3f4f6c7a15032c8813635f0fb3486498af9b5981ca7aa2185193bfe8071937"
+            }
+          ],
+          "read_scope": "Relevant draft-summary passage; unrelated recommendations excluded"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:12",
+      "candidate_sha256": "bd76cdf43d53f51531d6c2231f9df906a21b3b49ab272396424541856186215b",
+      "worker_review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Complete shared Maine Monitor article reports Freedom approval but generalizes temporary terms as 180 days. Prior primary ballot review preserves draft date placeholder and missing operative endpoint; do not override it with grouped news. Existing scoped ballot observations remain separate from final law/operative history and legacy adoption.",
+      "source_checks": [
+        {
+          "attempt_id": "4a7888858835467d9a6bbf7c4b895aa2",
+          "url": "https://themainemonitor.org/maine-towns-adopt-data-center-bans/",
+          "body_sha256": "2ec99dc08d8228f010f7cad62b26a979291afb071b99acf1e8107ad2c9be2137",
+          "text_sha256": "a7fab1be70f40cd136e91036882b5422e538bf63a1144d5623466e18f9a98574",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                970,
+                1004
+              ],
+              "quote_sha256": "4cb2ae3cad8f0a8c1b44fe9d64c13eb81c53ff5aec87c80e965cbaa955a32324"
+            }
+          ],
+          "read_scope": "Complete retained extraction"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:13",
+      "candidate_sha256": "eba672c781c7547a137fee2a7f0d8d22843d2c551ece202e7819da5615c22d9b",
+      "worker_review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Shared article reports Eliot approval; prior official ballot/warrant/proposed-text review and scoped canonical publication already exist. Primary enacted interval and later history remain unaccepted; do not label all ballot evidence missing or derive legacy force from reported majority.",
+      "source_checks": [
+        {
+          "attempt_id": "4a7888858835467d9a6bbf7c4b895aa2",
+          "url": "https://themainemonitor.org/maine-towns-adopt-data-center-bans/",
+          "body_sha256": "2ec99dc08d8228f010f7cad62b26a979291afb071b99acf1e8107ad2c9be2137",
+          "text_sha256": "a7fab1be70f40cd136e91036882b5422e538bf63a1144d5623466e18f9a98574",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                1029,
+                1079
+              ],
+              "quote_sha256": "c4086e99eaf7da26c8eaf0d8783885392f913c82f08af5030441d649db941b21"
+            }
+          ],
+          "read_scope": "Complete retained extraction"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:14",
+      "candidate_sha256": "98b2ed8a820f7e62d88c2a05c99503c88fd8b831b1919e94f28d4192e95168c2",
+      "worker_review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Shared article reports Brownfield approval; prior warrant, native-JPEG count and proposed-text review already exist, including unusual less-than power limits and September 16 applicability anchor. Do not normalize those proposal thresholds or infer enacted law/force from grouped 180-day reporting.",
+      "source_checks": [
+        {
+          "attempt_id": "4a7888858835467d9a6bbf7c4b895aa2",
+          "url": "https://themainemonitor.org/maine-towns-adopt-data-center-bans/",
+          "body_sha256": "2ec99dc08d8228f010f7cad62b26a979291afb071b99acf1e8107ad2c9be2137",
+          "text_sha256": "a7fab1be70f40cd136e91036882b5422e538bf63a1144d5623466e18f9a98574",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                1104,
+                1133
+              ],
+              "quote_sha256": "32725aee1ce48c959bd49bb791b7183ebfd3103c86650e0d8f4b81755428e463"
+            }
+          ],
+          "read_scope": "Complete retained extraction"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-me:15",
+      "candidate_sha256": "4f108b0a37b95d04df61f50b5bff575d418b15f39da8801b4285071e06a21fd2",
+      "worker_review_sha256": "eccb6f3b959b279ecddfc7b78be551dec9ee52b8013ef6bc5080221cbab4dc26",
+      "coordinator_disposition": "held_original_instrument_or_legal_history",
+      "rationale": "Shared article reports Sabattus 180-day data-center vote; prior scoped ballot publication exists. Distinct from January BESS draft. Recover operative enacted text/interval and later action before legacy promotion; no new ballot count or instrument merge from shared news.",
+      "source_checks": [
+        {
+          "attempt_id": "4a7888858835467d9a6bbf7c4b895aa2",
+          "url": "https://themainemonitor.org/maine-towns-adopt-data-center-bans/",
+          "body_sha256": "2ec99dc08d8228f010f7cad62b26a979291afb071b99acf1e8107ad2c9be2137",
+          "text_sha256": "a7fab1be70f40cd136e91036882b5422e538bf63a1144d5623466e18f9a98574",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                1650,
+                1720
+              ],
+              "quote_sha256": "de329528ed6eda5f5364a77907e37ca06692813a7664142fcc6dbba349ee0334"
+            }
+          ],
+          "read_scope": "Complete retained extraction"
+        }
+      ]
+    }
+  ]
+}

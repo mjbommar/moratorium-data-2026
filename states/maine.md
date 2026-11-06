@@ -3,15 +3,17 @@
 
 Working inventory for Maine, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**17 instruments** — 12 in force, 3 pending, 2 past.
+**19 instruments** — 12 in force, 3 pending, 4 past.
 
 State policy is tracked separately: **6 actions** (6 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | Albion | Town | 2024-11-25 | battery storage, wind | 🟢 Extended |
+| Ashland | Town | 2024-12-17 | wind | ⚪ Expired |
 | Bangor | City | 2026-04-13 | data center | 🟢 Extended |
 | Bethel | Town | Unverified | data center | 🟡 Pending |
+| Bridgton | Town | 2022-06-14 | solar | ⚪ Expired |
 | Brunswick | Town | 2026-06-01 | data center | 🟢 Active |
 | Dixfield | Town | 2026-09-14 | data center | 🟢 Active |
 | Dover-Foxcroft | Town | Unverified | data center | 🟡 Pending |
@@ -45,6 +47,22 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Detailed status:** Active as of 2026-09-23 per the carina.energy BESS tracker (expiring June 2026 at last check). Adopted 2024-11-25 for an initial 180-day term and repeatedly extended by Select Board vote.
 - **Outcome:** Town continuing to study grid-scale BESS/substation/wind siting standards
 
+### Ashland
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** 2024-12-17
+- **Normalized date:** `2024-12-17` (exact)
+- **Duration:** 180 days from 2024-12-17 adoption/effectiveness, unless extended, repealed or modified
+- **Current end date:** `2025-06-15`
+- **Sectors:** wind
+- **Moratorium ID:** `me-ashland-2024`
+- **Legal basis:** Wind Energy Facility Moratorium Ordinance
+- **What prompted it:** Town studies permanent land-use standards.
+- **Affected projects:** —
+- **Detailed status:** Town-posted document explicitly records 2024-12-17 enactment/adoption. Original 180-day term yields 2025-06-15 outer endpoint. Expired-original-term classification only. [VERIFY executed/adoption record, later extensions/termination/replacement, present restrictions and coordinates]
+- **Outcome:** —
+
 ### Bangor
 
 - **Type:** City
@@ -76,6 +94,22 @@ State policy is tracked separately: **6 actions** (6 bills) in [`state_legislati
 - **Affected projects:** Not identified in sources reviewed.
 - **Detailed status:** Pending as of 2026-09-23. A more recent Sun Journal report (2026-09-22) clarifies the mechanism and supersedes the town's Sept-30-public-hearing notice and the Bangor Daily News' Aug-17 report of a November ballot question: the Select Board approved (at its Sept. 16, 2026 meeting) sending a proposed six-month (180-day) data center moratorium ordinance to a Special Town Meeting vote on Oct. 15, 2026 (the Sept. 30 event is a public hearing preceding that meeting, not the decision itself). The proposal originated with the town's Ordinance Review Committee, not a citizen petition or any specific project. No adoption had occurred as of this pass.
 - **Outcome:** Proposed 180-day moratorium; public hearing scheduled for 2026-09-30; not yet adopted.
+
+### Bridgton
+
+- **Type:** Town
+- **Status:** ⚪ Expired
+- **Date enacted:** 2022-06-14
+- **Normalized date:** `2022-06-14` (exact)
+- **Duration:** 180 days from 2022-03-22 retroactive applicability, unless extended, repealed or modified
+- **Current end date:** `2022-09-18`
+- **Sectors:** solar
+- **Moratorium ID:** `me-bridgton-2022`
+- **Legal basis:** Ordinance Establishing a Moratorium on Commercial Solar Energy Facilities
+- **What prompted it:** Town studies permanent land-use standards.
+- **Affected projects:** —
+- **Detailed status:** Town-posted document explicitly records 2022-06-14 enactment/adoption. Original 180-day term yields 2022-09-18 outer endpoint. Expired-original-term classification only. [VERIFY executed/adoption record, later extensions/termination/replacement, present restrictions and coordinates]
+- **Outcome:** —
 
 ### Brunswick
 
