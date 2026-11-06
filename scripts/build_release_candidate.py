@@ -42,6 +42,20 @@ def build(destination, revision):
     sector_review = 'work/research/2026-11-06/el-dorado-sector-lineage/'
     if sector_review+'sector-visual-review.json' in names:
         exact.update(n for n in names if n.startswith(sector_review))
+    pilot = 'work/research/2026-11-06/pilot-contract-review/'
+    if pilot+'manifest.json' in names:
+        # Keep the frozen fixture check runnable without private source bodies
+        # or a full Git checkout. All inputs are selected from this revision.
+        exact.update(n for n in names if n.startswith(pilot))
+        exact.update({'scripts/audit_pilot_contracts.py', 'scripts/expanded_data.py',
+                      'scripts/expanded_promotion.py', 'scripts/expanded_identity.py',
+                      'scripts/audit_refresh_returns.py', 'scripts/visual_claim_review.py'})
+        frozen = json.loads(git('show', commit+':'+pilot+'manifest.json'))
+        for case in frozen['cases']:
+            for evidence in case['evidence_files']:
+                path = evidence['path']
+                assert path.startswith('work/research/') and '..' not in Path(path).parts
+                exact.add(path)
     selected = sorted(n for n in names if n in exact or n.startswith(('data/expanded-snapshots/', 'data/expanded-csv-snapshots/')))
     assert exact <= set(selected), exact-set(selected)
     manifest = {'schema_version': '1.0.0', 'candidate_status': 'unreleased_preparation',
