@@ -1,0 +1,68 @@
+{
+  "state_abbrev": "TN",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "tn-knox-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://knoxcounty.org/clerk/CommMinutes/2026/06-22-2026.pdf",
+          "source_type": "minutes",
+          "supports": "The commission approved a motion amending all 5 MW references to 10 MW.",
+          "quote": "all areas which read \u201c5 MW\u201d should be amended to read \u201c10 MW\u201d",
+          "document_date": "2026-06-22"
+        },
+        {
+          "url": "https://public.destinyhosted.com/knoxdocs/2026/CC/20260622_5108/18528_R266904_-_resolution.moratorium.data.center_as_amended_FINAL.pdf",
+          "source_type": "resolution",
+          "supports": "The available attachment still prints a 5 MW threshold and a June 30, 2027 or earlier regulatory-adoption end.",
+          "quote": "said facility is projected to have a peak electric demand of 5 MW or more"
+        }
+      ],
+      "notes": "Minutes report approval 10-0-1-0 of the amended motion; the attachment labelled final has inconsistent text. Obtain executed amended resolution and check later zoning action before treating legal status or every exemption as confirmed.",
+      "changes": {
+        "legal_basis": {
+          "from": "County Commission resolution defining covered private data centers using a 5 MW threshold; exempts identified existing operations and bars them from increasing contracted peak power or using alternative generation to evade the pause",
+          "to": "County Commission resolution R-26-6-904; commission minutes report approval with references to 5 MW amended to 10 MW. Available resolution attachment still states 5 MW; obtain executed amended text to verify full scope and exemptions.",
+          "reason": "Official minutes record the 10 MW amendment; the conflicting attachment cannot establish final wording."
+        },
+        "current_status": {
+          "from": "Active as of researched_as_of",
+          "to": "June 22 commission minutes record approval of R-26-6-904 with all 5 MW references amended to 10 MW and referral to the Planning Commission, carried 10-0-1-0 with one recusal. The available attachment labelled final retains 5 MW and blank execution fields. Executed amended wording, exemptions, effective interval and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "tn-loudon-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://cms8.revize.com/revize/loudon/I%201%202026-08-24.pdf",
+          "source_type": "minutes",
+          "supports": "Minutes name resolution 2026-40 and record amended 12-month initial term.",
+          "quote": "RESOLUTION NO. 2026-40 A RESOLUTION IMPOSING A TEMPORARY MORATORIUM ON THE APPROVAL, PERMITTING, AND OPERATION OF DATA CENTER FACILITIES WITHIN THE CITY OF LOUDON, TENNESSEE",
+          "document_date": "2026-08-24"
+        }
+      ],
+      "notes": "Minutes report approval of the amended resolution 3-2. Underlying resolution and later actions not located; its current force, operative start and precise exemptions remain unverified.",
+      "changes": {
+        "legal_basis": {
+          "from": "City of Loudon resolution imposing a 12-month pause on new data center zoning approvals (number not published); state-run and utility-operated data centers exempt",
+          "to": "City of Loudon Resolution No. 2026-40 imposing a temporary moratorium on approval, permitting, and operation of data center facilities; minutes record a 12-month initial period with an optional additional 12 months. Underlying resolution and exemptions require verification.",
+          "reason": "Official council minutes identify the resolution and approved amendment."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; 12-month pause adopted 2026-08-24 while the Engineering and Planning Department and an outside consultant draft data center regulations.",
+          "to": "August 24 minutes identify Resolution 2026-40 and record approval 3-2 of a twelve-month initial moratorium with an optional additional twelve months. The underlying executed resolution, precise applicability, exemptions, effective interval and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "confidence": 0.9
+    }
+  ],
+  "new_candidates": []
+}

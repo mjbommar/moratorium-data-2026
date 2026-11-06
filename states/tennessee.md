@@ -371,10 +371,10 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `tn-knox-county-2026`
-- **Legal basis:** County Commission resolution defining covered private data centers using a 5 MW threshold; exempts identified existing operations and bars them from increasing contracted peak power or using alternative generation to evade the pause
+- **Legal basis:** County Commission resolution R-26-6-904; commission minutes report approval with references to 5 MW amended to 10 MW. Available resolution attachment still states 5 MW; obtain executed amended text to verify full scope and exemptions.
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Active as of researched_as_of
+- **Detailed status:** June 22 commission minutes record approval of R-26-6-904 with all 5 MW references amended to 10 MW and referral to the Planning Commission, carried 10-0-1-0 with one recusal. The available attachment labelled final retains 5 MW and blank execution fields. Executed amended wording, exemptions, effective interval and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Knoxville
@@ -419,10 +419,10 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `tn-loudon-2026`
-- **Legal basis:** City of Loudon resolution imposing a 12-month pause on new data center zoning approvals (number not published); state-run and utility-operated data centers exempt
+- **Legal basis:** City of Loudon Resolution No. 2026-40 imposing a temporary moratorium on approval, permitting, and operation of data center facilities; minutes record a 12-month initial period with an optional additional 12 months. Underlying resolution and exemptions require verification.
 - **What prompted it:** Extraordinary electricity demand with limited economic benefit; noise, property values, quality of life; Planning Commission recommendation
 - **Affected projects:** None named
-- **Detailed status:** Active as of 2026-09-23; 12-month pause adopted 2026-08-24 while the Engineering and Planning Department and an outside consultant draft data center regulations.
+- **Detailed status:** August 24 minutes identify Resolution 2026-40 and record approval 3-2 of a twelve-month initial moratorium with an optional additional twelve months. The underlying executed resolution, precise applicability, exemptions, effective interval and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Resolution adopted 3-2; consultant-drafted regulations to return to council
 
 ### Loudon County
