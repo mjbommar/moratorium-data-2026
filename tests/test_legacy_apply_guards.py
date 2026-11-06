@@ -21,6 +21,76 @@ def module(name):
 
 
 class ApplyGuards(unittest.TestCase):
+    def test_prefixed_resolutions_remain_distinct_and_replay_is_stable(self):
+        m = module('apply_research')
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / 'data').mkdir()
+            path = root / 'data/moratorium_inventory.csv'
+            with (ROOT / 'data/moratorium_inventory.csv').open(newline='') as f:
+                reader = csv.DictReader(f)
+                fields, row = reader.fieldnames, next(reader)
+            row.update(jurisdiction='Synthetic County',
+                       moratorium_id='zz-prefixed-original',
+                       legal_basis='Resolution R-2026-26',
+                       date_enacted_iso='2026-04-16', enacted_status='active',
+                       sectors=json.dumps(['data_center']))
+            with path.open('w', newline='') as f:
+                writer = csv.DictWriter(f, fieldnames=fields)
+                writer.writeheader()
+                writer.writerow(row)
+            answer = root / 'answer.json'
+            answer.write_text(json.dumps({
+                'state_abbrev': row['state_abbrev'],
+                'researched_as_of': '2026-11-05', 'decisions': [],
+                'new_candidates': [{
+                    'state': row['state'], 'jurisdiction': row['jurisdiction'],
+                    'jurisdiction_type': 'County', 'legal_basis': 'Resolution R-2026-27',
+                    'date_enacted_iso': '2026-04-16', 'enacted_status': 'active',
+                    'sectors': ['data_center'], 'confidence': .9,
+                    'evidence': [{'url': 'https://example.invalid',
+                                  'source_type': 'resolution', 'supports': 'synthetic fixture'}],
+                }],
+            }))
+            with patch.object(m, 'REPO', root), patch.object(m, 'INV', path), \
+                    patch.object(m, 'AUDIT_DIR', root / 'audit'), \
+                    patch.object(sys, 'argv', ['apply_research', '--answers', str(answer)]), \
+                    contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(m.main(), 0)
+                first = path.read_bytes()
+                self.assertEqual(m.main(), 0)
+                self.assertEqual(path.read_bytes(), first)
+            with path.open(newline='') as f:
+                result = list(csv.DictReader(f))
+            self.assertEqual(len(result), 2)
+            self.assertEqual(result[0], row)
+            self.assertEqual({r['legal_basis'] for r in result},
+                             {'Resolution R-2026-26', 'Resolution R-2026-27'})
+
+    def test_instrument_number_requires_number_not_adoption_prose(self):
+        m = module('apply_research')
+        for text in ['Resolution adopted April 16, 2026',
+                     'Resolution pending review', 'Ordinance under consideration']:
+            with self.subTest(text=text):
+                self.assertEqual(m.instrument_key(text), '')
+
+    def test_prefixed_number_is_not_consumed_as_optional_number_label(self):
+        m = module('apply_research')
+        cases = {
+            'Ordinance OR-2026-0035': 'ordinance-or-2026-0035',
+            'Ordinance ORD-26-00002': 'ordinance-ord-26-00002',
+            'Ordinance No. O-26-03': 'ordinance-o-26-03',
+            'Ordinance O2026-02': 'ordinance-o2026-02',
+            'Ordinance No. O1689': 'ordinance-o1689',
+            'Ord. No. 3063': 'ord-3063',
+            'Resolution #21 FYR 25/26': 'resolution-21',
+            'Resolution R-11-19-2025; Ordinance No. 1-2026':
+                'resolution-r-11-19-2025',
+        }
+        for text, expected in cases.items():
+            with self.subTest(text=text):
+                self.assertEqual(m.instrument_key(text), expected)
+
     def test_same_second_receipts_are_preserved_under_concurrent_writes(self):
         from concurrent.futures import ThreadPoolExecutor
         m = module('apply_research')

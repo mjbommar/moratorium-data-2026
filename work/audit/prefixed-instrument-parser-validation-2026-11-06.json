@@ -1,0 +1,202 @@
+{
+  "state": "passed",
+  "baseline_data_commit": "7aa54cc3c94aee45630ee01f69cc80d6da999bd5",
+  "inventory_sha256": "92b009d417782b39c0a6423d7d9d44d060ee19030250a572784239492e8adf2a",
+  "inventory_bytes_unchanged": true,
+  "rows": 1317,
+  "regression_before": "Same-day/same-sector R-2026-26/R-2026-27 fixture incorrectly retained one row; expected two.",
+  "regression_after": "Distinct prefixed IDs retain two rows, preserve original row and replay byte-identically.",
+  "full_tests": {
+    "runtime": "bc-modules Python 3.14 native environment",
+    "tests": 181,
+    "passed": true,
+    "private_log_sha256": "30bdb3a84f541f2ec461329d701f62af5cc7ad8adfd28d26755b2a59a9317924"
+  },
+  "real_union_dry_run": {
+    "rows_added": 0,
+    "duplicate_candidates": 1,
+    "parsed_key": "resolution-r-2026-26",
+    "log_sha256": "70fdb6ad0e49c8860d1d42fc5c6371b5345360ed61edc655e6507fecf6ef4f43"
+  },
+  "parser_output_changes": [
+    {
+      "moratorium_id": "co-delta-county-2026",
+      "before_parser_key": "",
+      "after_parser_key": "resolution-r-18"
+    },
+    {
+      "moratorium_id": "co-montrose-county-2026",
+      "before_parser_key": "",
+      "after_parser_key": "resolution-23-2026"
+    },
+    {
+      "moratorium_id": "ct-new-haven-undated",
+      "before_parser_key": "",
+      "after_parser_key": "ordinance-or-2026-0035"
+    },
+    {
+      "moratorium_id": "ct-trumbull-2026",
+      "before_parser_key": "",
+      "after_parser_key": "resolution-tc31-65"
+    },
+    {
+      "moratorium_id": "ga-newton-county-2026",
+      "before_parser_key": "",
+      "after_parser_key": "resolution-r-040726b"
+    },
+    {
+      "moratorium_id": "ga-south-fulton-undated",
+      "before_parser_key": "",
+      "after_parser_key": "resolution-res2025-094"
+    },
+    {
+      "moratorium_id": "ga-union-county-2026",
+      "before_parser_key": "",
+      "after_parser_key": "resolution-r-2026-26"
+    },
+    {
+      "moratorium_id": "il-aurora-2025",
+      "before_parser_key": "ordinance-25-064",
+      "after_parser_key": "ordinance-o25-064"
+    },
+    {
+      "moratorium_id": "in-new-albany-floyd-county-2026",
+      "before_parser_key": "",
+      "after_parser_key": "ordinance-z-26-02"
+    },
+    {
+      "moratorium_id": "in-starke-county-2026",
+      "before_parser_key": "",
+      "after_parser_key": "ordinance-02"
+    },
+    {
+      "moratorium_id": "ks-neosho-county-2026",
+      "before_parser_key": "",
+      "after_parser_key": "resolution-r-26-7"
+    },
+    {
+      "moratorium_id": "ks-shawnee-county-2026",
+      "before_parser_key": "",
+      "after_parser_key": "resolution-hr-2026003"
+    },
+    {
+      "moratorium_id": "ky-edmonson-county-2026",
+      "before_parser_key": "",
+      "after_parser_key": "ordinance-ec26-18"
+    },
+    {
+      "moratorium_id": "md-washington-county-2026",
+      "before_parser_key": "",
+      "after_parser_key": "ordinance-ord-2026-12"
+    },
+    {
+      "moratorium_id": "mi-superior-charter-township-2026",
+      "before_parser_key": "",
+      "after_parser_key": "resolution-2026-2"
+    },
+    {
+      "moratorium_id": "mn-carlton-county-2026",
+      "before_parser_key": "ordinance-27",
+      "after_parser_key": "ordinance-42"
+    },
+    {
+      "moratorium_id": "nm-grant-county-undated",
+      "before_parser_key": "",
+      "after_parser_key": "ordinance-o-26-03"
+    },
+    {
+      "moratorium_id": "nc-city-of-hendersonville-undated",
+      "before_parser_key": "",
+      "after_parser_key": "ordinance-o-26-29"
+    },
+    {
+      "moratorium_id": "nc-jackson-county-2026",
+      "before_parser_key": "ordinance-2026-02",
+      "after_parser_key": "ordinance-o2026-02"
+    },
+    {
+      "moratorium_id": "nc-town-of-waxhaw-2026",
+      "before_parser_key": "",
+      "after_parser_key": "ordinance-ord2026014"
+    },
+    {
+      "moratorium_id": "oh-clayton-2026",
+      "before_parser_key": "",
+      "after_parser_key": "resolution-r-07-26-46"
+    },
+    {
+      "moratorium_id": "oh-clinton-2026",
+      "before_parser_key": "",
+      "after_parser_key": "resolution-r-26-06"
+    },
+    {
+      "moratorium_id": "oh-cortland-2026",
+      "before_parser_key": "",
+      "after_parser_key": "ordinance-o-21-26"
+    },
+    {
+      "moratorium_id": "oh-grove-city-2026",
+      "before_parser_key": "",
+      "after_parser_key": "ordinance-c-22-26"
+    },
+    {
+      "moratorium_id": "ok-norman-2026",
+      "before_parser_key": "",
+      "after_parser_key": "ordinance-o-2526-70"
+    },
+    {
+      "moratorium_id": "pa-montour-county-2025",
+      "before_parser_key": "ordinance-1-2026",
+      "after_parser_key": "resolution-r-11-19-2025"
+    },
+    {
+      "moratorium_id": "tn-knox-county-2026",
+      "before_parser_key": "",
+      "after_parser_key": "resolution-r-26-6-904"
+    },
+    {
+      "moratorium_id": "tn-sevierville-undated",
+      "before_parser_key": "ordinance-2026-011",
+      "after_parser_key": "ordinance-o2026-011"
+    },
+    {
+      "moratorium_id": "wa-cheney-2018",
+      "before_parser_key": "",
+      "after_parser_key": "ordinance-x-27"
+    },
+    {
+      "moratorium_id": "wa-skagit-county-2024",
+      "before_parser_key": "ordinance-20240073",
+      "after_parser_key": "ordinance-o20240073"
+    },
+    {
+      "moratorium_id": "wa-spokane-2026",
+      "before_parser_key": "",
+      "after_parser_key": "ordinance-c36887"
+    },
+    {
+      "moratorium_id": "wi-madison-2026",
+      "before_parser_key": "",
+      "after_parser_key": "ordinance-ord-26-00002"
+    },
+    {
+      "moratorium_id": "wi-city-of-superior-2026",
+      "before_parser_key": "",
+      "after_parser_key": "resolution-r26-13876"
+    },
+    {
+      "moratorium_id": "wi-middleton-2026",
+      "before_parser_key": "ordinance-1689",
+      "after_parser_key": "ordinance-o1689"
+    },
+    {
+      "moratorium_id": "wi-village-of-ashwaubenon-2026",
+      "before_parser_key": "ordinance-6-1-26",
+      "after_parser_key": "ordinance-o6-1-26"
+    }
+  ],
+  "changed_parser_outputs": 35,
+  "previously_unidentified_keys": 27,
+  "nonempty_to_empty": 0,
+  "scope": "Parser behavior only, not canonical identity changes or source/legal reacceptance. All 35 changed outputs inspected against existing public legal_basis strings. Preserve letter prefixes, recognize explicit Number labels and prefer first explicit identifier over later regulatory citation. Free-text first-identifier extraction remains a routing heuristic; multi-instrument rows and alias/type reconciliation require separate review."
+}

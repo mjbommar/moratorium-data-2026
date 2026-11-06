@@ -124,9 +124,13 @@ def instrument_key(legal_basis: str) -> str:
     if not legal_basis:
         return ""
     # Prefer an explicit ordinance/resolution number, e.g. "Resolution 2026-14",
-    # "Ord. No. 3063", "Resolution #21 FYR 25/26".
+    # "Ord. No. 3063", "Resolution #21 FYR 25/26", "Resolution R-2026-26".
+    # A letter prefix must be attached directly or by a dash/slash to a numeric ID;
+    # ordinary prose such as "Resolution adopted April 16" is not an ID.
     m = re.search(
-        r"\b(ordinance|resolution|ord|res)\b[\s.#no:]*([0-9][0-9a-z\-/]*)",
+        r"\b(ordinance|resolution|ord|res)\b\.?\s*"
+        r"(?:(?:no\.?|number)\s*)?[:#]?\s*"
+        r"((?:[a-z]+[-/]?)?[0-9][0-9a-z\-/]*)",
         legal_basis, re.IGNORECASE,
     )
     if m:
