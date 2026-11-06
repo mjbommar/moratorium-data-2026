@@ -38,7 +38,7 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 | Pasco | City | 2026-07-20 | data center, cryptocurrency mining | 🟢 Active |
 | Pierce County | County | 2026-08-25 | data center | 🟢 Active |
 | Port Angeles | City | 2026-09-01 | data center | 🟢 Active |
-| Puyallup | City | 2026-06 | battery storage | 🟢 Active |
+| Puyallup | City | 2026-06-02 | battery storage | 🟢 Active |
 | Renton | City | 2022-04 | battery storage | ⚪ Expired |
 | Renton | City | 2026-08-17 | data center | 🟢 Active |
 | Seattle | City | 2026-06-09 | data center | 🟢 Active |
@@ -515,23 +515,23 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Legal basis:** City Council resolution (no number reported), Sept. 1, 2026
 - **What prompted it:** Council concern over water, power, noise and environmental effects of data centers; no application had been filed
 - **Affected projects:** None; no data center applications filed as of adoption
-- **Detailed status:** Active as of 2026-09-23; council held a required public hearing Sept. 16, 2026 and kept the moratorium unchanged while staff drafts permanent regulations.
+- **Detailed status:** October 30 news reports September 1 adoption of a six-month moratorium and a September 15 council hearing, correcting the stale September 16 account. Proposed regulations and scheduled later readings are not final adoption. Original instrument, exact operative interval and later current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Staff directed to return with permanent regulations within the moratorium term
 
 ### Puyallup
 
 - **Type:** City
 - **Status:** 🟢 Active
-- **Date enacted:** Adopted by City Council, reported around June 2, 2026
-- **Normalized date:** `2026-06` (month_only)
+- **Date enacted:** June 2, 2026, City Council approved Ordinance No. 3344.
+- **Normalized date:** `2026-06-02` (exact)
 - **Duration:** One year
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `wa-puyallup-2026`
-- **Legal basis:** City Council ordinance (number not found in coverage reviewed)
+- **Legal basis:** City Council Ordinance No. 3344, approved June 2, 2026.
 - **What prompted it:** BESS not specifically addressed in municipal code; recent local battery fire incident cited by council
 - **Affected projects:** None identified; preemptive
-- **Detailed status:** Active as of 2026-09-23 per carina tracker (expires 2027-06-02); city held a required public hearing July 21, 2026.
+- **Detailed status:** The July 21 city presentation identifies June 2 council approval of Ordinance 3344. The city information page instead describes twelve months from the ordinance date June 15, unless extended, modified or terminated. Signed ordinance and precise significance of June 15 remain unresolved; the earlier tracker June 2 endpoint is not independently established. Later operative interval and current force require review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Staff to return with proposed BESS code updates before the moratorium expires
 
 ### Renton

@@ -1,0 +1,94 @@
+{
+  "applied_at": "20261105T195441",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-washington-f/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 2,
+    "fields_changed": 10
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "wa-port-angeles-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "The source expresses a calendar term; do not substitute a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-port-angeles-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The source expresses a calendar term; do not substitute a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-port-angeles-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; council held a required public hearing Sept. 16, 2026 and kept the moratorium unchanged while staff drafts permanent regulations.",
+      "after": "October 30 news reports September 1 adoption of a six-month moratorium and a September 15 council hearing, correcting the stale September 16 account. Proposed regulations and scheduled later readings are not final adoption. Original instrument, exact operative interval and later current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-puyallup-2026",
+      "column": "date_enacted",
+      "before": "Adopted by City Council, reported around June 2, 2026",
+      "after": "June 2, 2026, City Council approved Ordinance No. 3344.",
+      "reason": "City hearing presentation identifies the council approval date and ordinance number.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-puyallup-2026",
+      "column": "date_enacted_iso",
+      "before": "2026-06",
+      "after": "2026-06-02",
+      "reason": "City hearing presentation identifies council approval date.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-puyallup-2026",
+      "column": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact",
+      "reason": "City hearing presentation specifies June 2.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-puyallup-2026",
+      "column": "legal_basis",
+      "before": "City Council ordinance (number not found in coverage reviewed)",
+      "after": "City Council Ordinance No. 3344, approved June 2, 2026.",
+      "reason": "City hearing presentation identifies the ordinance.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-puyallup-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "The source expresses a calendar term; do not substitute a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-puyallup-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "The source expresses a calendar term; do not substitute a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wa-puyallup-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23 per carina tracker (expires 2027-06-02); city held a required public hearing July 21, 2026.",
+      "after": "The July 21 city presentation identifies June 2 council approval of Ordinance 3344. The city information page instead describes twelve months from the ordinance date June 15, unless extended, modified or terminated. Signed ordinance and precise significance of June 15 remain unresolved; the earlier tracker June 2 endpoint is not independently established. Later operative interval and current force require review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ]
+}

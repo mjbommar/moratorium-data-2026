@@ -1,0 +1,105 @@
+{
+  "state_abbrev": "WA",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wa-port-angeles-2026",
+      "outcome": "corrected",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "url": "https://www.peninsuladailynews.com/2026/10/30/draft-code-proposed-for-data-centers/",
+          "source_type": "news",
+          "quote": "The city council held a public hearing on the issue Sept. 15.",
+          "supports": "Reports hearing date and six-month moratorium; does not establish status on November 5.",
+          "document_date": "2026-10-30"
+        },
+        {
+          "url": "https://www.peninsuladailynews.com/2026/10/30/draft-code-proposed-for-data-centers/",
+          "source_type": "news",
+          "quote": "Port Angeles City Council passed a six-month moratorium on data centers",
+          "supports": "Reports adoption and calendar term.",
+          "document_date": "2026-10-30"
+        }
+      ],
+      "notes": "Original resolution and hearing minutes not retrieved; October 30 news reports a planned February 28, 2027 expiration, not independently verified.",
+      "changes": {
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "The source expresses a calendar term; do not substitute a fixed number of days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The source expresses a calendar term; do not substitute a fixed number of days."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; council held a required public hearing Sept. 16, 2026 and kept the moratorium unchanged while staff drafts permanent regulations.",
+          "to": "October 30 news reports September 1 adoption of a six-month moratorium and a September 15 council hearing, correcting the stale September 16 account. Proposed regulations and scheduled later readings are not final adoption. Original instrument, exact operative interval and later current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    },
+    {
+      "moratorium_id": "wa-puyallup-2026",
+      "outcome": "corrected",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "url": "https://www.puyallupwa.gov/DocumentCenter/View/26440/BESS-Public-Hearing-72126",
+          "source_type": "staff_report",
+          "quote": "One year Moratorium approved by Council via Ordinance 3344 on\n\nBackground\n\n\n\u2022\n\nJune 2, 2026",
+          "supports": "City presentation states approval date and ordinance number.",
+          "document_date": "2026-07-21"
+        },
+        {
+          "url": "https://www.puyallupwa.gov/2644/BESS-Storage-Moratorium",
+          "source_type": "other",
+          "quote": "The BESS moratorium will remain in effect for a period of twelve (12) months from the date of Ordinance No. 3344 (June 15, 2026) unless extended, modified, or terminated by City Council following applicable public hearing requirements.",
+          "supports": "City identifies a different date as the term anchor; legal effect not independently resolved."
+        }
+      ],
+      "notes": "Seek signed ordinance and later legislation to resolve effective date, term and current force.",
+      "changes": {
+        "date_enacted": {
+          "from": "Adopted by City Council, reported around June 2, 2026",
+          "to": "June 2, 2026, City Council approved Ordinance No. 3344.",
+          "reason": "City hearing presentation identifies the council approval date and ordinance number."
+        },
+        "date_enacted_iso": {
+          "from": "2026-06",
+          "to": "2026-06-02",
+          "reason": "City hearing presentation identifies council approval date."
+        },
+        "date_enacted_uncertainty": {
+          "from": "month_only",
+          "to": "exact",
+          "reason": "City hearing presentation specifies June 2."
+        },
+        "legal_basis": {
+          "from": "City Council ordinance (number not found in coverage reviewed)",
+          "to": "City Council Ordinance No. 3344, approved June 2, 2026.",
+          "reason": "City hearing presentation identifies the ordinance."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "The source expresses a calendar term; do not substitute a fixed number of days."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "The source expresses a calendar term; do not substitute a fixed number of days."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23 per carina tracker (expires 2027-06-02); city held a required public hearing July 21, 2026.",
+          "to": "The July 21 city presentation identifies June 2 council approval of Ordinance 3344. The city information page instead describes twelve months from the ordinance date June 15, unless extended, modified or terminated. Signed ordinance and precise significance of June 15 remain unresolved; the earlier tracker June 2 endpoint is not independently established. Later operative interval and current force require review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      }
+    }
+  ],
+  "new_candidates": []
+}
