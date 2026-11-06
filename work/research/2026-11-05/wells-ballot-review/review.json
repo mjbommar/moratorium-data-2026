@@ -1,0 +1,156 @@
+{
+  "reviewed_as_of": "2026-11-05",
+  "reviewer": "coordinator",
+  "seed_id": "bp-c2cb4e0f83c819e9",
+  "worker_job": "ballot-me-001",
+  "sources": [
+    {
+      "local_label": "wells-warrant",
+      "url": "https://wellstown.org/DocumentCenter/View/8514/November-3-2026-Special-Town-Meeting-Warrant?bidId=",
+      "body_sha256": "44a827d74c282cf6e81164b182f55256f4dd8fd1583c1de2a1a1ee125fd4ebd2",
+      "retained_text_sha256": "99dc6d26c8827331f1ffaea594639b9e3861859c5327f596d59cd3a15d0eee0a",
+      "client_json_sha256": "b5fae6cd5330cc1a3e98a14dbeeff31bd5cd7e5ae80d7244bb722d6551d2a963",
+      "scope": "Retained pilot version; text provenance must match the registered publisher evidence before promotion."
+    },
+    {
+      "local_label": "wells-ordinance",
+      "url": "https://www.wellstown.org/AgendaCenter/ViewFile/Item/6565?fileID=16871",
+      "body_sha256": "2a3f1bfa9a6931a2d6babfbf8c1f80f3ae05f9c0a596844e746420645b63011a",
+      "retained_text_sha256": "73deba92e984a387676c765eda3da9759bd4361926b3a0344f8bcf7f67b36c74",
+      "client_json_sha256": "787b2e6fbb0ea9bac004c74dd38e4dc4b4a22e8251b2bcd151a7ff37e1fd3e98",
+      "scope": "Retained pilot version; text provenance must match the registered publisher evidence before promotion."
+    },
+    {
+      "local_label": "wells-results",
+      "url": "https://www.wellstown.org/DocumentCenter/View/8559/November-3-2026-Official-Election-Results?bidId=",
+      "body_sha256": "5f5e3d76054063a7fdcf7a2505bf4698aeac074c0ad18b5354abed45258d1d95",
+      "retained_text_sha256": "009391559b2777d7003b4a8f2ac076416b66eee634361c208c85dae6d174cda0",
+      "client_json_sha256": "e60cc9ba8030bef5b226dbcb4d2fd54d15d384f797d69b5b782ba41701cfcddf",
+      "scope": "Retained pilot version; text provenance must match the registered publisher evidence before promotion."
+    }
+  ],
+  "visual_comparisons": [
+    {
+      "source": "wells-results",
+      "page": 1,
+      "render_sha256": "5f99d7d06da2df87424d59c88b2283317ae9d8b43a84d16fa4315d0940f855b0",
+      "render_parameters": {
+        "renderer": "retained pilot render",
+        "dpi": null
+      },
+      "finding": "Town Clerk certificate identifies November 3 special meeting and certifies counted/tabulated ballots."
+    },
+    {
+      "source": "wells-results",
+      "page": 2,
+      "render_sha256": "23a24b251990e6773f0f4754c914e572c61ab8e0c14eadd11ce5c0778b3322fd",
+      "render_parameters": {
+        "renderer": "retained pilot render",
+        "dpi": null
+      },
+      "finding": "Article 5 yes5818/no1282/blank459; Michele Stivaletta-Noble Town Clerk signature and handwritten 11/4/2026 certification date."
+    },
+    {
+      "source": "wells-warrant",
+      "page": 5,
+      "render_sha256": "a500aa0174c3c394f95aa546fbf667463e46eb26ed685419f3dc7270cb466676",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 5,
+        "dpi": 145
+      },
+      "finding": "Article5 enactment question; Board of Selectmen recommendation5-0 and Planning Board7-0; Appendix1 incorporated by reference."
+    },
+    {
+      "source": "wells-warrant",
+      "page": 8,
+      "render_sha256": "04dd23140d91758eaa2550ff3594b1d96a92afd5b86b37016c9667633dea5d0e",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 8,
+        "dpi": 145
+      },
+      "finding": "Two cumulative conditions: specified primary computing uses AND aggregate Data Center Area threshold continued onto page9."
+    },
+    {
+      "source": "wells-warrant",
+      "page": 9,
+      "render_sha256": "572ac493759a0937a03d9a6fa661d324e5e4f71bfd3008dc0dc0d7e814527ffb",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 9,
+        "dpi": 145
+      },
+      "finding": "100000 square feet or greater, principal/accessory uses; defined area includes associated impervious surfaces; permitting/activity pause; June16applicability; 180days from applicability; conditional approval-nullification clause."
+    },
+    {
+      "source": "wells-warrant",
+      "page": 10,
+      "render_sha256": "118b406741a2faf8f2c4d5c4e2fbdaf42168219aaf01140480cadca2284351c9",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 10,
+        "dpi": 145
+      },
+      "finding": "Section8 immediate effectiveness upon Town Meeting enactment under charter2.13(3)."
+    },
+    {
+      "source": "wells-ordinance",
+      "page": 2,
+      "render_sha256": "f0ce717f0f1707ac55dbfdc6cbda6e7ed15d47577d5256f72638b33d3dd09b64",
+      "render_parameters": {
+        "renderer": "pdftoppm",
+        "page": 2,
+        "dpi": 145
+      },
+      "finding": "Separate agenda attachment has blank highlighted square-foot threshold plus LR1 drafting comments; do not treat comment examples as operative numeric threshold."
+    }
+  ],
+  "located_evidence": [
+    {
+      "source": "wells-warrant",
+      "quote": "Area of 100,000 square feet or greater.",
+      "span": "utf8-text-codepoints:16699:16738"
+    },
+    {
+      "source": "wells-warrant",
+      "quote": "This Moratorium shall remain in full force and effect for a period of 180 days from the\n  Date of Applicability, unless extended, repealed, or modified in accordance with\n  applicable law.",
+      "span": "utf8-text-codepoints:19449:19637"
+    }
+  ],
+  "accepted_source_observations": {
+    "designation": "Article 5",
+    "election_date": "2026-11-03",
+    "yes_votes": 5818,
+    "no_votes": 1282,
+    "blank_votes": 459,
+    "yes_no_votes": 7100,
+    "ballots_cast": null,
+    "certification_status": "certified",
+    "certification_date": "2026-11-04",
+    "threshold": {
+      "operator": "ge",
+      "value": 100000,
+      "unit": "square feet",
+      "measurement_basis": "Aggregate defined Data Center Area including specified associated impervious surfaces",
+      "source_version": "warrant Appendix1; not separate blank-threshold agenda draft"
+    },
+    "duration": {
+      "value": 180,
+      "unit": "days",
+      "anchor": "applicability_date",
+      "anchor_date": "2026-06-16"
+    },
+    "effectiveness_clause": "Immediately upon Town Meeting enactment; operative enactment date not independently adjudicated"
+  },
+  "version_distinction": "Warrant Appendix1 fills 100000 threshold; separate agenda attachment leaves it blank and includes drafting comments. Preserve both as distinct versions; use warrant to support proposed submitted terms.",
+  "unresolved": [
+    "registered acquisition/extraction provenance for publisher-compatible original pilot evidence",
+    "bindingness/passage rule and calculated outcome",
+    "executed enacted text and operative legal interval",
+    "conditional permit-nullification applicability/legal review",
+    "later extensions/amendments/repeal",
+    "legacy restriction linkage and canonical promotion gates"
+  ],
+  "scope": "Scoped source review only. Proposed submitted text and certified election observations are distinct from operative legal force. No inferred turnout, automatic extension or expiry. Original candidate snapshot and legacy CSV unchanged."
+}

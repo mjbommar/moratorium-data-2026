@@ -77,6 +77,7 @@ Exit: read-only dry-run and bounded acquisition produce auditable plans and atte
 - [x] Publish Wiscasset’s reviewed question, proposed clauses and unofficial counts; add an enactment duration anchor, retain unknown denominators and reconcile five published / 51 pending candidate groups.
 - [x] Review North Berwick’s certified Question 2 counts, ballot placement and proposed permanent prohibition; preserve aggregate-area/impervious-surface threshold and accessory exclusion (`north-berwick-ballot-review/`).
 - [x] Publish North Berwick’s reviewed Question 2, proposed area-qualified prohibition and certified counts; reconcile six published / 50 pending ballot groups (`north-berwick-promotion/`).
+- [x] Review Wells Article 5 certified counts and retroactive terms; distinguish the warrant’s 100,000-square-foot proposal from the separate blank-threshold agenda draft (`wells-ballot-review/`).
 - [ ] Complete broader promotion/recovery calibration and the remaining ballot identity/fact reviews; the initial Eliot batch does not close P3.
 - [ ] Extend evidence archive/publication gates to new records and source payload types.
 - [ ] Add behavioral regression checks from plan section 11 (initial subset includes offline publication/receipt drift, historical identity baselines and portable-pointer checks; full gate coverage pending).
