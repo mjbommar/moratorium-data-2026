@@ -267,9 +267,9 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Source-body availability checkpoint
 
-The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-ky-la-review-2026-11-06.json)
-covers 6,586 manifest entries, with hash-matching bodies available through listed
-paths for 3,143 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-ma-pa-review-2026-11-06.json)
+covers 6,592 manifest entries, with hash-matching bodies available through listed
+paths for 3,149 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.
@@ -420,3 +420,5 @@ The [six-candidate review](../work/research/2026-11-06/maryland-new-jersey-disco
 Union County GA R-2026-26 is added from full visual review of the signed two-page scan, with separately registered OCR because original machine extraction is empty. Original 120-day classification does not establish exact endpoint, earlier regulatory repeal, later extension or current force. Grady’s FA01-02-26 is an approval-motion identifier, not an authenticated resolution number; operative resolution and extension remain withheld in the [Alabama/Georgia packet](../work/research/2026-11-06/alabama-georgia-discovery-review/README.md).
 
 The [Kentucky/Louisiana review](../work/research/2026-11-06/kentucky-louisiana-discovery-review/README.md) adds signed Camargo Ordinance 2026-04 at adopted-instrument classification, including express crypto-mining scope, while publication/effectiveness/current force remain unverified. Bossier’s official Ordinance 4910 reproduction supports an original six-month historical term, not handwritten execution or absence of later extensions. Henderson BESS signature lines are blank despite the worker description. Washington packet visual review covers only page 14/34; proposed solar carve-out failed and is not an adopted extension.
+
+The [Massachusetts/Pennsylvania review](../work/research/2026-11-06/massachusetts-pennsylvania-discovery-review/README.md) retains twelve candidate gaps without changing inventory counts. Massachusetts floor substitutions, article interactions, conflicting tallies and legal implementation need primary records. Pennsylvania curative-amendment stays require scope/mechanism review before ordinary moratorium counting; cure windows are not automatically general construction bans. Amity’s adoption and next-day commencement are distinct events, not inherently conflicting dates.
