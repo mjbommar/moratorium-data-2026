@@ -1010,6 +1010,7 @@
       "work/audit/apply-20261106T103002.json": "65b7f61762900c08f3ce0d5a05213c7ba7ba2f401981e0115669d08e7125d707",
       "work/audit/apply-20261106T110757-1.json": "ad9661275dd72fa856275bf7ee83f2b07abc0206a8165d132d9554aeb5ef5392",
       "work/audit/apply-20261106T110757.json": "e3b486848d44900a8dce8a8979aeb0c29fea355d6f6916d1c4228916d32f3811",
+      "work/audit/apply-20261106T111338.json": "940c09851dd96c14e603c537ea44df9bf5a0857f3eba83671eb26eab187be831",
       "work/audit/apply-legislation-20261105T114314.json": "222b8a24cbb2138216bd3e87d508fc67d5a3bafac2674429a58099a189e8204b",
       "work/audit/apply-legislation-20261106T000259.json": "563c37c423b64cc6d3eb8fe74f13b278bf8de357ec02c766e79c5d59a69b39a5",
       "work/audit/apply-legislation-20261106T000919.json": "c596af153305ab0135f215ac66482fce77d0dc38613ddf2a33d39a238dbcc3ea",
@@ -1018,7 +1019,7 @@
       "work/audit/apply-legislation-20261106T002343.json": "cce6016ebcee83046dcca9422bea0e45d3fed3379ae19232fdc174c7798eacdc",
       "work/audit/apply-legislation-20261106T084519.json": "2b8d7a459a25ac991a8a7ddde95f14b8c770f48cf86ceeb32677f8b814b81638"
     },
-    "moratorium_inventory.csv": "59eaae51f6b202f86f881a2e7f2417c8f2f37b61fe5b09f82d3be59addfd9443",
+    "moratorium_inventory.csv": "68b6f113beabb8375bc932ef0fa612a1c83ec0ede04eec8f1398337a60ef4685",
     "state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038"
   },
   "scope": "Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. This is not the completed freshness funnel required for release.",
@@ -1028,16 +1029,16 @@
   "not_started_jobs": 0,
   "tables": {
     "inventory": {
-      "total": 1302,
+      "total": 1304,
       "collection_counts": {
         "returned_unresolved": 782,
         "returned_other_outcome": 501,
-        "not_assigned_in_this_queue": 11,
+        "not_assigned_in_this_queue": 13,
         "excluded_completed_pilot": 8
       },
       "editorial_counts": {
         "no_refresh_apply_change": 845,
-        "has_refresh_apply_change": 457
+        "has_refresh_apply_change": 459
       },
       "records": [
         {
@@ -8297,6 +8298,18 @@
           "applied_field_lineage": []
         },
         {
+          "record_id": "ia-sac-county-2025",
+          "state": "IA",
+          "collection_stage": "not_assigned_in_this_queue",
+          "jobs": [],
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T111338.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
+          "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
+          "applied_field_lineage": []
+        },
+        {
           "record_id": "ia-shelby-county-2026",
           "state": "IA",
           "collection_stage": "returned_unresolved",
@@ -8378,6 +8391,18 @@
           ],
           "refresh_apply_receipts": [],
           "editorial_stage": "no_refresh_apply_change",
+          "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
+          "applied_field_lineage": []
+        },
+        {
+          "record_id": "ia-sioux-county-2023",
+          "state": "IA",
+          "collection_stage": "not_assigned_in_this_queue",
+          "jobs": [],
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T111338.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
           "applied_field_lineage": []
         },

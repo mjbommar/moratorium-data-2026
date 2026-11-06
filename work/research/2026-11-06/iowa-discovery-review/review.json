@@ -1,0 +1,181 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "baseline_inventory_sha256": "59eaae51f6b202f86f881a2e7f2417c8f2f37b61fe5b09f82d3be59addfd9443",
+  "candidates": [
+    {
+      "candidate_key": "discovery-ia:0",
+      "candidate_sha256": "298f9544205a099a8aade85c7b749fb33288e28e21dd628ce9c0a94295831294",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "rationale": "Ordinance 68 text prints passage/approval May 15, 2023 but chairman and auditor lines are blank. Fifteen consecutive months begins on effectiveness, which requires final passage, approval and publication. Publication/effectiveness and later actions are unresolved; do not infer expiry from document age.",
+      "source_checks": [
+        {
+          "attempt_id": "333e35c4e3f5427495c133017092dd1a",
+          "url": "https://cerrogordo.gov/files/county_ordinances/68_moratorium_ordinance_819.pdf",
+          "body_sha256": "3efd4dcf425e9d3d90368d3ab9d82db0d4a7ab3023c9a72955e0b14cc85661ef",
+          "text_sha256": "f87506032ae6a1310d3d6eb6325f6ce76623e0e74208f668f0fa683639ccd3db",
+          "visual_review": "Every rendered PDF page inspected directly by coordinator",
+          "render_command": "pdftoppm -scale-to 1400 -png ORIGINAL_BODY OUTPUT_PREFIX",
+          "rendered_pages": [
+            {
+              "page": 1,
+              "image_sha256": "1a1d31b1bbb97b3d10264892553e7064d21ec12dbd588a110b5a515df533fbc0"
+            },
+            {
+              "page": 2,
+              "image_sha256": "cf4ff2ee7a9a5fe08c379bf7192e994c1e712af9eee35c69556328e37f33c506"
+            },
+            {
+              "page": 3,
+              "image_sha256": "b3e1ad3bf5a087d80281d8f3dfcafe262512c1c07cc3816e9f6a43fb245e765d"
+            }
+          ],
+          "operative_pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "coordinator_disposition": "held_execution_publication_or_later_history"
+    },
+    {
+      "candidate_key": "discovery-ia:1",
+      "candidate_sha256": "c96059bf912912825515651c52c9a58672492760d11d7581c1a5718bcd38487a",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "rationale": "Signed Sac Resolution 25-0204-1 was adopted February 4, 2025, effective immediately, with explicit August 4, 2025 23:59 Central termination unless extended and allowance for earlier ending. Accept historical recorded term only; later extensions or replacements remain unverified.",
+      "source_checks": [
+        {
+          "attempt_id": "75fcad90850c4e81a0936d2337485d64",
+          "url": "https://www.saccountyiowa.gov/files/resolutions/establishing_a_temporary_moratorium_on_the_issuance_of_conditional_use_permits_for_solar_gardens_or_68793.pdf",
+          "body_sha256": "0d5f3d16f3d74c0922d2c4b0e3a23e9650a5e0674f1e6749ae9b72130ecbf546",
+          "text_sha256": "3d4e78e4ee0fa710ddfd84a99b1403c61a775faed16a2c5175b3f9f2817928b2",
+          "visual_review": "Every rendered PDF page inspected directly by coordinator",
+          "render_command": "pdftoppm -scale-to 1400 -png ORIGINAL_BODY OUTPUT_PREFIX",
+          "rendered_pages": [
+            {
+              "page": 1,
+              "image_sha256": "bcdabb9bdff31623ee9acb66c62d2d2e695b79616baaa7b726b3b7573452a406"
+            }
+          ],
+          "operative_pages": [
+            1
+          ]
+        }
+      ],
+      "coordinator_disposition": "reviewed_historical_addition"
+    },
+    {
+      "candidate_key": "discovery-ia:2",
+      "candidate_sha256": "a493e31769404f77cafb76a8685f224cd7fdfceb9134ff04159d593352279904",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "rationale": "Signed Sioux Resolution 2023-35 on page 1 passed September 5, 2023, effective immediately, automatically terminating one calendar year after passage. Derived calendar endpoint September 5, 2024 is not a 365-day conversion. Pages 2\u20134 concern unrelated resolutions 2023-36 and 2023-37 and are excluded from this moratorium. Distinct from existing 2026 data-center/BESS act; no current prohibition or later-action claim accepted.",
+      "source_checks": [
+        {
+          "attempt_id": "8e5d4fe069024510b795b88acb692ffc",
+          "url": "https://siouxcountyia.gov/wp-content/uploads/2023/09/2023-35-Wind-and-Solar-Moratorium-Ordinance-Signed.pdf",
+          "body_sha256": "27f29179d6c4e12119977974f3f1795eb445f20f7d33d55281a294c3c9271ce7",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "visual_review": "Every rendered PDF page inspected directly by coordinator",
+          "render_command": "pdftoppm -scale-to 1400 -png ORIGINAL_BODY OUTPUT_PREFIX",
+          "rendered_pages": [
+            {
+              "page": 1,
+              "image_sha256": "6d82069f0519172e6075c91bad8dcbb36a2a81417537e90c226a50af9b687755"
+            },
+            {
+              "page": 2,
+              "image_sha256": "a519fb751035d903df239809cddc05a23c671e337061765458d597f76c2442ec"
+            },
+            {
+              "page": 3,
+              "image_sha256": "2b31fd7742da5777b3c6c54abef3ce193431a0f7d022263450e9ad9c1a38da3d"
+            },
+            {
+              "page": 4,
+              "image_sha256": "0e1d06143ed8a01cfde1d951fba8973eed219fb6a853dae4723f47e3ebe1e3b6"
+            }
+          ],
+          "operative_pages": [
+            1
+          ]
+        }
+      ],
+      "coordinator_disposition": "reviewed_historical_addition"
+    },
+    {
+      "candidate_key": "discovery-ia:3",
+      "candidate_sha256": "731fa88c4ba7887fc27d6a0e0b1916d13488844aec6c11383c90bd3ceb1a030d",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "rationale": "Signed and auditor-certified Grundy Resolution 68-2020/2021 passed May 10, 2021 and imposes an immediate indefinite C-WEC permit pause. Current disposition is unresolved. No automatic expiry or ongoing force is inferred from age or indefinite wording.",
+      "source_checks": [
+        {
+          "attempt_id": "005e8847984d44cdb31155a99270958d",
+          "url": "https://grundycountyiowa.gov/images/departments/supervisors/pdf/past-year-resolutions/FY-2020-2021/Res._68-2020-2021.pdf",
+          "body_sha256": "29534386c1bf84742bc620efff24152a58d134506f9b145db52a500e2cfcb770",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "visual_review": "Every rendered PDF page inspected directly by coordinator",
+          "render_command": "pdftoppm -scale-to 1400 -png ORIGINAL_BODY OUTPUT_PREFIX",
+          "rendered_pages": [
+            {
+              "page": 1,
+              "image_sha256": "86b388f154204701429ed9020009bbd5580c08203e9ebaa8f1ce0886806cf4d4"
+            },
+            {
+              "page": 2,
+              "image_sha256": "bed56d79f18309373bd2eea246e461a15b90705b77faa5e408623b2a244293d1"
+            }
+          ],
+          "operative_pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "coordinator_disposition": "held_execution_publication_or_later_history"
+    },
+    {
+      "candidate_key": "discovery-ia:4",
+      "candidate_sha256": "fee95d6ecc8175e342ff9e068599468323842f22d374c271db514e1d01be138c",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "rationale": "Signed Jackson Resolution 1003-01-02-2024 adopted January 2, 2024 imposes nine calendar months on utility-scale solar defined by one MW generation capability. Signed Resolution 1108-04-01-2025 expressly extends that solar measure through December 31, 2025 and recites a September 10, 2024 extension whose full text is not reviewed here. Neither is the existing battery resolution 1004 or data-center measure. Preserve separate act identities; complete extension chain and later status remain unresolved.",
+      "source_checks": [
+        {
+          "attempt_id": "c902e011469f43dca338df6717ed0d95",
+          "url": "https://jacksoncounty.iowa.gov/files/resolutions/100301022024_49691.pdf",
+          "body_sha256": "abe073260e9962acf052fe23b0ca936650c7ff3433fd287658745cb5b55ff60a",
+          "text_sha256": "bea678d497d069da7bb1606ee92e6789f0ee68f136a7ded876ed175f9167f993",
+          "visual_review": "Every rendered PDF page inspected directly by coordinator",
+          "render_command": "pdftoppm -scale-to 1400 -png ORIGINAL_BODY OUTPUT_PREFIX",
+          "rendered_pages": [
+            {
+              "page": 1,
+              "image_sha256": "2bf0816bb577511017c0889733477f5b279397404061283cfc163fbb2f021a30"
+            }
+          ],
+          "operative_pages": [
+            1
+          ]
+        },
+        {
+          "attempt_id": "10341274b4944c219761bb7da1106b46",
+          "url": "https://jacksoncounty.iowa.gov/files/resolutions/resolution_to_approve_a_moratorium_on_utility_scale_energy_conversion_systems_28299.pdf",
+          "body_sha256": "58b2a11e042510f6bdb89d384f3e1b9a735da853a83c5a61b0b753b3a2c0a3dd",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "visual_review": "Every rendered PDF page inspected directly by coordinator",
+          "render_command": "pdftoppm -scale-to 1400 -png ORIGINAL_BODY OUTPUT_PREFIX",
+          "rendered_pages": [
+            {
+              "page": 1,
+              "image_sha256": "19b598c2c6a8ff79ad803e6806c2a77df65f6027c819e2aee6e1b2b0e44d533a"
+            }
+          ],
+          "operative_pages": [
+            1
+          ]
+        }
+      ],
+      "coordinator_disposition": "held_execution_publication_or_later_history"
+    }
+  ]
+}

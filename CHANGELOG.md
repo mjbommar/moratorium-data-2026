@@ -2,6 +2,8 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
+Signed Sac Resolution 25-0204-1 and Sioux Resolution 2023-35 add two historical recorded-term instruments. Their elapsed endpoints do not establish absence of later extensions or restrictions; all previous rows remain unchanged.
+
 Brighton adds a city-reported approved one-calendar-year data-center pause; Chicago adds a pending twelve-month proposal. Effective/adoption dates and coordinates remain unverified. Neither publication date is accepted as enactment.
 
 Kent County solar Ordinance 22-14 and wind Ordinance 22-20 add two historical
@@ -30,18 +32,18 @@ remain unknown; no adoption event, in-force ban or headline-count increase is
 inferred. The public results view displays relationship review separately from
 legal status. All earlier records remain unchanged.
 
-Current totals are 1,302 local instruments (1,073 classified active or extended,
-72 pending, 157 past) and 442 state-policy records (95 classified enacted).
+Current totals are 1,304 local instruments (1,073 classified active or extended,
+72 pending, 159 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1302** |
+| Moratoria in the list | **1304** |
 | Classified active or extended | **1073** |
 | Pending or not yet effective | **72** |
-| Ended (replaced, expired, or rescinded) | **157** |
-| Rows we still want to confirm (`[VERIFY]`) | **675** |
+| Ended (replaced, expired, or rescinded) | **159** |
+| Rows we still want to confirm (`[VERIFY]`) | **677** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained

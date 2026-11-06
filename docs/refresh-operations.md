@@ -175,3 +175,5 @@ A deterministic archive, successful build or local tag does not prove publicatio
 Verify remote branch/tag targets, GitHub Release metadata, downloaded asset hashes
 and hosted-page bytes separately. Historical paper/consumer editions keep their
 own cutoffs. No schedules are created by this workflow.
+
+The [Iowa review checkpoint](../work/audit/legacy-source-migration-iowa-review-2026-11-06.json) verifies six selected original PDF fetches, three already archived and three newly imported versions. The full native readback covers 6,490 entries, 3,047 verified-body versions and the same 3,443 listed-path gaps. Twelve rendered pages were independently reviewed; source authenticity, later legal actions and factual acceptance remain separately scoped.

@@ -1,5 +1,5 @@
 {
-  "inventory_sha256": "5736fac2bba0ef390a6a30981c1e4cf261487b58e29c86df3ad777e72d78537f",
+  "inventory_sha256": "68b6f113beabb8375bc932ef0fa612a1c83ec0ede04eec8f1398337a60ef4685",
   "returned_answer_sha256": {
     "discovery-ak": "a4b62aac2562578f9bb4c66f6f504557f1aace1c1612c0f7f2e3b2c01fae334e",
     "discovery-al": "b6e254f6a91f7dc6937ca15433d3c9ac8c29f473bb22765439ab7bf23647aa62",
@@ -54,7 +54,7 @@
   },
   "candidate_count": 185,
   "reviewed_pending_additions": 5,
-  "unreviewed_count": 165,
+  "unreviewed_count": 160,
   "candidates": [
     {
       "candidate_key": "discovery-ak:0",
@@ -647,9 +647,9 @@
       "jurisdiction": "Cerro Gordo County",
       "proposed_instrument_label": "Ordinance 68",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_execution_publication_or_later_history",
+      "review_packet": "work/research/2026-11-06/iowa-discovery-review/review.json",
+      "next_step": "Recover unresolved publication/execution or extension/termination history. Historical term review is not current legal-force acceptance.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_supported_candidate",
@@ -663,10 +663,12 @@
       "state_abbrev": "IA",
       "jurisdiction": "Sac County",
       "proposed_instrument_label": "Resolution 25-0204-1; verify final character visually",
-      "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "same_name_inventory_ids": [
+        "ia-sac-county-2025"
+      ],
+      "disposition": "reviewed_historical_addition",
+      "review_packet": "work/research/2026-11-06/iowa-discovery-review/review.json",
+      "next_step": "Recover unresolved publication/execution or extension/termination history. Historical term review is not current legal-force acceptance.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -681,11 +683,12 @@
       "jurisdiction": "Sioux County",
       "proposed_instrument_label": "Resolution 2023-35",
       "same_name_inventory_ids": [
+        "ia-sioux-county-2023",
         "ia-sioux-county-2026"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "reviewed_historical_addition",
+      "review_packet": "work/research/2026-11-06/iowa-discovery-review/review.json",
+      "next_step": "Recover unresolved publication/execution or extension/termination history. Historical term review is not current legal-force acceptance.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -700,9 +703,9 @@
       "jurisdiction": "Grundy County",
       "proposed_instrument_label": "Resolution 68-2020/2021",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_execution_publication_or_later_history",
+      "review_packet": "work/research/2026-11-06/iowa-discovery-review/review.json",
+      "next_step": "Recover unresolved publication/execution or extension/termination history. Historical term review is not current legal-force acceptance.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -720,9 +723,9 @@
         "ia-jackson-county-2024",
         "ia-jackson-county-2024-2"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_execution_publication_or_later_history",
+      "review_packet": "work/research/2026-11-06/iowa-discovery-review/review.json",
+      "next_step": "Recover unresolved publication/execution or extension/termination history. Historical term review is not current legal-force acceptance.",
       "worker_review": {
         "job_id": "discovery-review-03",
         "worker_disposition": "distinct_historical_instrument",
@@ -3284,9 +3287,9 @@
   "reviewed_prepared_not_applied": 0,
   "reviewed_city_reported_adoption_additions": 1,
   "worker_reviewed_count": 183,
-  "unreviewed_count_scope": "171 candidates still await coordinator substantive processing; six reviewed cases are explicitly withheld and the earlier Kent22-07 relationship remains open. Reviewed does not mean every fact or legal interval is resolved.",
+  "unreviewed_count_scope": "160 candidates still await coordinator substantive processing; thirteen reviewed cases remain explicitly withheld, including the Colebrook historical proposal. Earlier Kent22-07 and other legal histories remain unresolved. Reviewed does not mean every fact or legal interval is resolved.",
   "worker_review_baseline_sha256": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1",
-  "reviewed_historical_additions": 2,
-  "reviewed_withheld_cases": 9,
-  "current_inventory_sha256": "59eaae51f6b202f86f881a2e7f2417c8f2f37b61fe5b09f82d3be59addfd9443"
+  "reviewed_historical_additions": 4,
+  "reviewed_withheld_cases": 13,
+  "current_inventory_sha256": "68b6f113beabb8375bc932ef0fa612a1c83ec0ede04eec8f1398337a60ef4685"
 }

@@ -3,7 +3,7 @@
 
 Working inventory for Iowa, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**58 instruments** — 52 in force, 2 pending, 4 past.
+**60 instruments** — 52 in force, 2 pending, 6 past.
 
 State policy is tracked separately: **12 actions** (12 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -56,10 +56,12 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 | Palo Alto County | County | 2025-05-13 | battery storage | 🟢 Extended |
 | Palo Alto County | County | 2026-07-08 | data center | 🟢 Active |
 | Plymouth County | County | 2026-06-16 | data center, battery storage | 🟢 Active |
+| Sac County | County | 2025-02-04 | solar | ⚪ Expired |
 | Shelby County | County | 2026-03-17 | data center, cryptocurrency mining | 🟢 Active |
 | Shelby County | County | 2026-03-17 | solar | 🟢 Active |
 | Shelby County | County | 2026-03-17 | battery storage | 🟢 Active |
 | Shelby County | County | 2026-03-17 | wind | 🟢 Active |
+| Sioux County | County | 2023-09-05 | wind, solar | ⚪ Expired |
 | Sioux County | County | 2026-06-16 | data center, battery storage | 🟢 Active |
 | Story County | County | 2025-06-17 | data center, battery storage, cryptocurrency mining | 🟢 Active |
 | Tama County | County | 2025-11-10 | data center, cryptocurrency mining | 🟢 Active |
@@ -822,6 +824,22 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Detailed status:** Reported active as of the June 16, 2026 vote; not independently confirmed against a primary document in this pass.
 - **Outcome:** One-year pause on permitting large-scale data centers and industrial battery storage facilities.
 
+### Sac County
+
+- **Type:** County
+- **Status:** ⚪ Expired
+- **Date enacted:** 2025-02-04
+- **Normalized date:** `2025-02-04` (exact)
+- **Duration:** Through August 4, 2025 at 11:59 p.m. Central unless extended; may end earlier
+- **Current end date:** `2025-08-04`
+- **Sectors:** solar
+- **Moratorium ID:** `ia-sac-county-2025`
+- **Legal basis:** Resolution 25-0204-1
+- **What prompted it:** County reviews land-use standards before further solar or commercial wind development.
+- **Affected projects:** —
+- **Detailed status:** Historical recorded-term classification: Signed Sac Resolution 25-0204-1 was adopted February 4, 2025, effective immediately, with explicit August 4, 2025 23:59 Central termination unless extended and allowance for earlier ending. Accept historical recorded term only; later extensions or replacements remain unverified. [VERIFY subsequent extensions, replacement, current legal status and coordinates]
+- **Outcome:** —
+
 ### Shelby County
 
 - **Type:** County
@@ -885,6 +903,22 @@ State policy is tracked separately: **12 actions** (12 bills) in [`state_legisla
 - **Affected projects:** No specific project named in the resolution.
 - **Detailed status:** Active as of 2026-09-23; Resolution 2026-17 runs through 2027-07-01 unless extended or superseded by an ordinance. Shelby County Board minutes for July 21, Aug. 18 and Sept. 1, 2026 record no ordinance adoption, extension or rescission for commercial wind energy projects.
 - **Outcome:** Adopted alongside companion moratoria on solar, battery storage, and digital asset mining/data centers (already in inventory as ia-shelby-county-2026).
+
+### Sioux County
+
+- **Type:** County
+- **Status:** ⚪ Expired
+- **Date enacted:** 2023-09-05
+- **Normalized date:** `2023-09-05` (exact)
+- **Duration:** One calendar year after passage; automatic sunset
+- **Current end date:** `2024-09-05`
+- **Sectors:** wind, solar
+- **Moratorium ID:** `ia-sioux-county-2023`
+- **Legal basis:** Resolution 2023-35
+- **What prompted it:** County reviews land-use standards before further solar or commercial wind development.
+- **Affected projects:** —
+- **Detailed status:** Historical recorded-term classification: Signed Sioux Resolution 2023-35 on page 1 passed September 5, 2023, effective immediately, automatically terminating one calendar year after passage. Derived calendar endpoint September 5, 2024 is not a 365-day conversion. Pages 2–4 concern unrelated resolutions 2023-36 and 2023-37 and are excluded from this moratorium. Distinct from existing 2026 data-center/BESS act; no current prohibition or later-action claim accepted. [VERIFY subsequent extensions, replacement, current legal status and coordinates]
+- **Outcome:** —
 
 ### Sioux County
 
