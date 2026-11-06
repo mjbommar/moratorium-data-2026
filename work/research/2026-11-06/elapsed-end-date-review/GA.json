@@ -1,0 +1,55 @@
+{
+  "state_abbrev": "GA",
+  "researched_as_of": "2026-11-06",
+  "researcher": "coordinator primary-source review",
+  "decisions": [
+    {
+      "moratorium_id": "ga-camden-county-2026",
+      "outcome": "status_changed",
+      "new_enacted_status": "extended",
+      "changes": {
+        "duration": {
+          "from": "6 months",
+          "to": "Initial six calendar months; extended an additional nine months by the Board of Commissioners on November 3, 2026; precise operative end date not established in the reviewed county page.",
+          "reason": "Official county page confirms November 3 nine-month extension; the obsolete initial calculated endpoint does not describe the extended term. No exact new endpoint is supplied."
+        },
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Official county page confirms November 3 nine-month extension; the obsolete initial calculated endpoint does not describe the extended term. No exact new endpoint is supplied."
+        },
+        "duration_days": {
+          "from": "180",
+          "to": "",
+          "reason": "Official county page confirms November 3 nine-month extension; the obsolete initial calculated endpoint does not describe the extended term. No exact new endpoint is supplied."
+        },
+        "current_end_date_iso": {
+          "from": "2026-11-01",
+          "to": "",
+          "reason": "Official county page confirms November 3 nine-month extension; the obsolete initial calculated endpoint does not describe the extended term. No exact new endpoint is supplied."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; adopted by a Camden County Board of Commissioners vote on May 5, 2026, with the ordinance excluding sections 4, 5, 6, and 7 of the originally proposed resolution. GPB (in partnership with The Current) reports Camden as the first coastal Georgia county to adopt such a moratorium. No numbered resolution identifier was located in GPB's reporting or elsewhere. [VERIFY instrument number: still not located as of 2026-09-23]",
+          "to": "Extended: the official county Data Centers page states that the Board of Commissioners extended the moratorium an additional nine months on November 3, 2026. The page separately labels the November 4 data-center ordinance a draft not approved by the Board. The adopted extension text, precise effective/end dates and instrument number remain unverified as of 2026-11-06. [VERIFY adopted extension instrument and exact operative dates]",
+          "reason": "Official county page confirms November 3 nine-month extension; the obsolete initial calculated endpoint does not describe the extended term. No exact new endpoint is supplied."
+        },
+        "outcome": {
+          "from": "County commissioners voted to adopt a 6-month moratorium on data centers",
+          "to": "Initial moratorium adopted May 5, 2026; official county page confirms an additional nine-month extension adopted November 3, 2026. Permanent regulations remain draft on the reviewed page.",
+          "reason": "Official county page confirms November 3 nine-month extension; the obsolete initial calculated endpoint does not describe the extended term. No exact new endpoint is supplied."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.camdencountyga.gov/1454/Data-Centers",
+          "source_type": "other",
+          "publisher": "Camden County Planning & Development",
+          "supports": "Initial adoption, adopted nine-month extension and separately unapproved November 4 draft.",
+          "quote": "On November 3, 2026, the Camden County Board of Commissioners extended the moratorium for an additional nine months."
+        }
+      ],
+      "confidence": 0.94,
+      "notes": "Do not calculate a new endpoint from an assumed extension anchor or treat draft regulations as an adopted replacement. Active-to-extended classification preserves the combined in-force count."
+    }
+  ]
+}

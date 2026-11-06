@@ -20,7 +20,7 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 | Brooks County | County | 2026-02-02 | data center | 🟢 Extended |
 | Bulloch County | County | 2026-02-17 | data center | 🟢 Extended |
 | Calhoun (Gordon County) | City | 2026-04-27 | data center | 🟢 Extended |
-| Camden County | County | 2026-05-05 | data center | 🟢 Active |
+| Camden County | County | 2026-05-05 | data center | 🟢 Extended |
 | Carroll County | County | 2026-03-03 | data center, battery storage, solar | 🟢 Extended |
 | Cedartown | City | 2026-03-23 | data center | 🟢 Active |
 | Chamblee | City | 2026-07-21 | data center | 🟢 Active |
@@ -261,18 +261,18 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 ### Camden County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Status:** 🟢 Extended
 - **Date enacted:** May 5, 2026 (Tuesday), per GPB/The Current reporting on the Camden County Board of Commissioners meeting, which is corroborated by the earlier May 2, 2026 article reporting the vote was scheduled for 'Tuesday.'
 - **Normalized date:** `2026-05-05` (exact)
-- **Duration:** 6 months
-- **Current end date:** `2026-11-01`
+- **Duration:** Initial six calendar months; extended an additional nine months by the Board of Commissioners on November 3, 2026; precise operative end date not established in the reviewed county page.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-camden-county-2026`
 - **Legal basis:** Camden County Board of Commissioners resolution adopting a 6-month moratorium on data centers, adopted May 5, 2026 with the exclusion of sections 4, 5, 6, and 7 of the proposal as originally drafted by District 3 Commissioner Cody Smith.
 - **What prompted it:** Growing statewide concern about energy-hungry data center operations, amid a contemporaneous Kingsland rezone vote
 - **Affected projects:** Not identified in captured news coverage
-- **Detailed status:** Active as of 2026-09-23; adopted by a Camden County Board of Commissioners vote on May 5, 2026, with the ordinance excluding sections 4, 5, 6, and 7 of the originally proposed resolution. GPB (in partnership with The Current) reports Camden as the first coastal Georgia county to adopt such a moratorium. No numbered resolution identifier was located in GPB's reporting or elsewhere. [VERIFY instrument number: still not located as of 2026-09-23]
-- **Outcome:** County commissioners voted to adopt a 6-month moratorium on data centers
+- **Detailed status:** Extended: the official county Data Centers page states that the Board of Commissioners extended the moratorium an additional nine months on November 3, 2026. The page separately labels the November 4 data-center ordinance a draft not approved by the Board. The adopted extension text, precise effective/end dates and instrument number remain unverified as of 2026-11-06. [VERIFY adopted extension instrument and exact operative dates]
+- **Outcome:** Initial moratorium adopted May 5, 2026; official county page confirms an additional nine-month extension adopted November 3, 2026. Permanent regulations remain draft on the reviewed page.
 
 ### Carroll County
 

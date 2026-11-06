@@ -11,7 +11,7 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 >
 > 🟢 **1071 currently in force** (active or extended) · 🟡 **67 pending or not yet effective** (proposed or enacted with a future effective date) · ⚪ **155 expired, replaced, or rescinded** (no longer in force)
 >
-> Top states by total instruments: Ohio (160), New York (150), Michigan (145), Georgia (70), North Carolina (69), Iowa (57), Tennessee (45), Washington (42), Wisconsin (40), Florida (35).
+> Top states by total instruments: Ohio (160), New York (150), Michigan (145), Georgia (70), North Carolina (69), Iowa (58), Tennessee (45), Washington (42), Wisconsin (40), Florida (35).
 >
 > ✅ **Coverage note:** **all 50 states** were swept month by month for May–July 2026, so counts inside that window are complete rather than lower bounds. Ten states recorded no adoption in it — a finding, not a gap. Earlier periods were not swept this way. See [known gaps](docs/known-gaps.md).
 
@@ -66,13 +66,13 @@ For more, see the [FAQ](docs/FAQ.md).
 Working snapshot during the **November 5, 2026** refresh (record-level source dates vary):
 
 - **1293 moratorium instruments** tracked in our cleaned inventory
-  - **1071 currently in force** (880 active + 191 extended)
+  - **1071 currently in force** (879 active + 192 extended)
   - **67 pending or not yet effective** (proposed or enacted with a future effective date)
   - **94 replaced** by permanent regulations
   - **50 expired** without a documented replacement
   - **11 rescinded** before their original expiration
 - **47 states** have at least one moratorium. We searched the other **3 states** (Hawaii, West Virginia, and Wyoming) and found none. Alaska, Arizona, Delaware, Rhode Island, and Vermont joined the list in the September 2026 update
-- **Top 10 states by instrument count**: Ohio (160), New York (150), Michigan (145), Georgia (70), North Carolina (69), Iowa (57), Tennessee (45), Washington (42), Wisconsin (40), Florida (35)
+- **Top 10 states by instrument count**: Ohio (160), New York (150), Michigan (145), Georgia (70), North Carolina (69), Iowa (58), Tennessee (45), Washington (42), Wisconsin (40), Florida (35)
 - **Sectors covered**: most moratoria are about **data centers** (about 84% mention them). **Battery storage** comes next (about 19%). Most of those are New York town pauses added in September 2026. Smaller numbers cover **cryptocurrency mining**, **solar**, and **wind**
 - **440 state-level bills** tracked in 2025–2026, plus **2 binding non-bill state-policy actions**. These include moratorium proposals, local-moratorium authority/preemption, permitting limits, and utility-grid restrictions. Filter the typed `policy_instrument_type`, `policy_mechanism`, `legal_effect_status`, and `scope_of_action` columns rather than treating every state row as a moratorium.
 - **348 moratorium texts** read line-by-line and coded against a 44-clause taxonomy (the confidence-≥-0.4 subset of the 526 successful structured extractions in [`data/structured_extractions.jsonl`](data/structured_extractions.jsonl)). ⚠️ This cohort covers 211 jurisdictions and was collected **before 2026-04-28** — it was not re-run in v2026.07, so the clause-level percentages describe only about a quarter of the current inventory. See [known gaps](docs/known-gaps.md)
