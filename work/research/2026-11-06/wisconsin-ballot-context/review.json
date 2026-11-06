@@ -1,0 +1,58 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "reviewer": "coordinator",
+  "scope": "Two retained reporting versions, context only; no actual operative force or project-policy link.",
+  "sources": [
+    {
+      "source_document_id": "wi-context-janesville-industry",
+      "url": "https://carw.com/your-association-in-action-carw-joins-coalition-on-gm-jatco-referendum/",
+      "body_sha256": "c69319289471ac4f998eaf79a754c4b496d76076ebd38a6a80bee37aaf455fce",
+      "text_sha256": "c4b74596a18fc00c97c329d7756587fec8283e8f0f4597dc7d7e270a1d7feb55",
+      "retrieved_at": "2026-11-05T17:21:43.621115+00:00",
+      "attempt_id": "3ef7f0cdb75543328db608c2ad74e893"
+    },
+    {
+      "source_document_id": "wi-context-port-wpr",
+      "url": "https://www.wpr.org/news/port-washington-referendum-concerns-data-center-project",
+      "body_sha256": "aea3120375454ef0d7776c77853c0da48c2d31261dea58bc8eda6c1c5bb43d7d",
+      "text_sha256": "777dc994cc0fe15d88e229cec86917f38f31adbcea607d07a6d9276c6ccc32d8",
+      "retrieved_at": "2026-11-05T17:21:40.618201+00:00",
+      "attempt_id": "557adcf465e1466fb14cf5ce55d50309"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "wi-context-janesville-industry",
+      "source_document_id": "wi-context-janesville-industry",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-01088c1eed330ac2"
+      },
+      "predicate": "reported_development_context",
+      "value": {
+        "source_class": "Commercial real-estate association that campaigned against referendum",
+        "context": "Association links referendum origins to proposed Viridian data center and describes broader future GM/JATCO development scope",
+        "scope": "Source-qualified advocacy account only. No accepted project identity,800MW specification, separate September moratorium, current law or operative restriction. Petition submitted signatures are not clerk-qualified signatures."
+      },
+      "quote": "referendum grew out of opposition",
+      "span": "utf8-text-codepoints:538:571"
+    },
+    {
+      "claim_id": "wi-context-port-wpr",
+      "source_document_id": "wi-context-port-wpr",
+      "subject": {
+        "table": "ballot_measures",
+        "id": "bp-f1a25834e5a28e79"
+      },
+      "predicate": "reported_tid_referendum_context",
+      "value": {
+        "source_class": "Wisconsin Public Radio local election reporting",
+        "context": "Report connects April referendum to data-center TID debate and says future TID voter approval, not reversal of existing project TID",
+        "scope": "Source-qualified thematic/measure context. Pending litigation described at reporting time is not current disposition. Reporter summary uses10million or more for both tests; do not override draft distinction of base-value equality versus strict project-cost exceedance or interpret current force."
+      },
+      "quote": "requires voter approval for certain large development incentives",
+      "span": "utf8-text-codepoints:452:516"
+    }
+  ],
+  "visual_reviews": {}
+}
