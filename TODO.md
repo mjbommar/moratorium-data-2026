@@ -252,6 +252,7 @@ Exit: fresh, reproducible release with reconciled data/prose, a verified publish
 - [x] Add opt-in conditional HTTP caching and an offline native bc-web adaptive revisit planner, preserving prior observations and cached-body limitations; actual cache pilot and planner tests retained. Inventory-wide calibration and task resolution remain open.
 - [ ] Exercise an end-to-end correction and refresh cycle manually.
 - [ ] Track source failures, backend contribution, coverage gaps, freshness and review backlog.
+- [x] Audit the explicit retained search-ledger cohort with duplicate-ID checks and separate legacy/subset exceptions: 396 ledgers, 4,109 verified unique attempts, 22,863 sightings; distinguish errors, zero hits, nonterminal reservations and unpriced spend (`scripts/audit_search_cohort.py`, `search-provenance-cohort-2026-11-06.md`). This does not close freshness, canonical migration or complete coverage reporting.
 - [ ] Document operator recovery, storage restore, interruption and budget-stop procedures.
 - [ ] Create schedules only if explicitly requested; record cutoff, scope and budget for each.
 

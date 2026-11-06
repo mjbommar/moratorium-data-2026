@@ -1,0 +1,170 @@
+{
+  "scope": "Explicit exceptions to retained search provenance verification; no provenance invented and no source-fact acceptance.",
+  "directories": [
+    {
+      "directory": "elapsed-end-date-review/mi-archive-selection",
+      "reason": "terminal_without_reservation",
+      "ledger_sha256": "1d8e73c90980ac5e1573f1e41e6b6d938567dd6d2f109ad2e9856f945871977d",
+      "event_counts": {
+        "fetch_finished": 9
+      },
+      "search_reservations": 0,
+      "disposition": "Fetch-only selected terminal subset; excluded from search totals. No complete original reservation history asserted."
+    },
+    {
+      "directory": "elapsed-end-date-review/ny-archive-selection",
+      "reason": "terminal_without_reservation",
+      "ledger_sha256": "f1fc3260f6eb1b4eceb8f8b60f74d80cba20a17da813ad9cda420bca63f3c192",
+      "event_counts": {
+        "fetch_finished": 3
+      },
+      "search_reservations": 0,
+      "disposition": "Fetch-only selected terminal subset; excluded from search totals. No complete original reservation history asserted."
+    },
+    {
+      "directory": "elapsed-end-date-review/oh-archive-selection",
+      "reason": "terminal_without_reservation",
+      "ledger_sha256": "ed2bd494bacbab464045efd082ab48b6d2c755b504add1cc6b06cb9dfe7176ed",
+      "event_counts": {
+        "fetch_finished": 3
+      },
+      "search_reservations": 0,
+      "disposition": "Fetch-only selected terminal subset; excluded from search totals. No complete original reservation history asserted."
+    },
+    {
+      "directory": "full/ak-inventory-001",
+      "reason": "legacy_missing_client_hash",
+      "ledger_sha256": "434ba612ad4fe9c4eacd98d09df73290467bf00cfbcae7b7305b8c2cd4e661aa",
+      "event_counts": {
+        "exa_reserved": 1,
+        "exa_finished": 1,
+        "serpapi_reserved": 1,
+        "serpapi_finished": 1,
+        "fetch_reserved": 3,
+        "fetch_finished": 3
+      },
+      "search_reservations": 2,
+      "disposition": "Legacy search reservations lack client/config hash provenance; retained separately, not counted as verified searches."
+    },
+    {
+      "directory": "full/al-inventory-001",
+      "reason": "legacy_missing_client_hash",
+      "ledger_sha256": "f6972d1b2e37cde298902e01f7bf153c182ce6dac9b0e0300322e8d1320fde60",
+      "event_counts": {
+        "exa_reserved": 8,
+        "exa_finished": 8,
+        "serpapi_reserved": 8,
+        "serpapi_finished": 8,
+        "fetch_reserved": 24,
+        "fetch_finished": 24
+      },
+      "search_reservations": 16,
+      "disposition": "Legacy search reservations lack client/config hash provenance; retained separately, not counted as verified searches."
+    },
+    {
+      "directory": "full/al-inventory-002",
+      "reason": "legacy_missing_client_hash",
+      "ledger_sha256": "6a91bf3e3b87ff7a8e4889d4f1480cb4643f3490c27746451ea471ca0306f39b",
+      "event_counts": {
+        "exa_reserved": 8,
+        "serpapi_reserved": 8,
+        "serpapi_finished": 8,
+        "exa_finished": 8,
+        "fetch_reserved": 24,
+        "fetch_finished": 24
+      },
+      "search_reservations": 16,
+      "disposition": "Legacy search reservations lack client/config hash provenance; retained separately, not counted as verified searches."
+    },
+    {
+      "directory": "full/al-inventory-003",
+      "reason": "legacy_missing_client_hash",
+      "ledger_sha256": "1adfe94e14e468d10412da65a2a2a7b747e90e634e0c6477f31b30487a5ed8b6",
+      "event_counts": {
+        "exa_reserved": 5,
+        "serpapi_reserved": 5,
+        "exa_finished": 5,
+        "serpapi_finished": 5,
+        "fetch_reserved": 15,
+        "fetch_finished": 15
+      },
+      "search_reservations": 10,
+      "disposition": "Legacy search reservations lack client/config hash provenance; retained separately, not counted as verified searches."
+    },
+    {
+      "directory": "full/ar-inventory-001",
+      "reason": "legacy_missing_client_hash",
+      "ledger_sha256": "ae53474a5027c62eddb1e2f0af20142e9de985639c2748404f65f4e33a9d1248",
+      "event_counts": {
+        "exa_reserved": 6,
+        "serpapi_reserved": 6,
+        "serpapi_finished": 6,
+        "exa_finished": 6,
+        "fetch_reserved": 15,
+        "fetch_finished": 15
+      },
+      "search_reservations": 12,
+      "disposition": "Legacy search reservations lack client/config hash provenance; retained separately, not counted as verified searches."
+    },
+    {
+      "directory": "full/az-inventory-001",
+      "reason": "legacy_missing_client_hash",
+      "ledger_sha256": "af55ad02adb9f86a038449700a720c06136451bfa2c95f7984f913c702fc1672",
+      "event_counts": {
+        "exa_reserved": 1,
+        "serpapi_reserved": 1,
+        "serpapi_finished": 1,
+        "exa_finished": 1,
+        "fetch_reserved": 3,
+        "fetch_finished": 3
+      },
+      "search_reservations": 2,
+      "disposition": "Legacy search reservations lack client/config hash provenance; retained separately, not counted as verified searches."
+    },
+    {
+      "directory": "full/ca-inventory-001",
+      "reason": "legacy_missing_client_hash",
+      "ledger_sha256": "b7900e64988a88264cd171dd24577a58abeae5e3464062f8b6945fbd873ce65e",
+      "event_counts": {
+        "exa_reserved": 8,
+        "serpapi_reserved": 8,
+        "exa_finished": 8,
+        "serpapi_finished": 8,
+        "fetch_reserved": 24,
+        "fetch_finished": 24
+      },
+      "search_reservations": 16,
+      "disposition": "Legacy search reservations lack client/config hash provenance; retained separately, not counted as verified searches."
+    },
+    {
+      "directory": "full/ca-inventory-002",
+      "reason": "legacy_missing_client_hash",
+      "ledger_sha256": "e33bdc6b502954a554fcf7482d8219a4f60b5ff1a14bf9beb4758621615e974a",
+      "event_counts": {
+        "serpapi_reserved": 8,
+        "exa_reserved": 8,
+        "exa_finished": 8,
+        "serpapi_finished": 8,
+        "fetch_reserved": 17,
+        "fetch_finished": 17
+      },
+      "search_reservations": 16,
+      "disposition": "Legacy search reservations lack client/config hash provenance; retained separately, not counted as verified searches."
+    },
+    {
+      "directory": "full/ca-inventory-003",
+      "reason": "legacy_missing_client_hash",
+      "ledger_sha256": "432c2a5caf0be760b73787ba88e2f46f138afac09148ee3f7053f015f7eb5442",
+      "event_counts": {
+        "exa_reserved": 8,
+        "exa_finished": 8,
+        "serpapi_reserved": 8,
+        "serpapi_finished": 8,
+        "fetch_reserved": 20,
+        "fetch_finished": 20
+      },
+      "search_reservations": 16,
+      "disposition": "Legacy search reservations lack client/config hash provenance; retained separately, not counted as verified searches."
+    }
+  ]
+}
