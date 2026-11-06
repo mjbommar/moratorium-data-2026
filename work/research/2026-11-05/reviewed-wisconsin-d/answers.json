@@ -1,0 +1,109 @@
+{
+  "state_abbrev": "WI",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator source review of gpt-6.1-terra returns",
+  "decisions": [
+    {
+      "moratorium_id": "wi-dane-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.danecounty.gov/PressDetail/11898",
+          "source_type": "other",
+          "document_date": "2026-06-04",
+          "supports": "Board approval, identifier and original term; the release predates executive signature.",
+          "quote": "The measure, Sub 1 to 2026 RES-039, prevents the receipt of applications for, and the granting of, any zoning permits related to the placement or construction of hyperscale data centers for the next 18 months."
+        }
+      ],
+      "notes": "Original evidence is historical; later termination, replacement, or current force as of cutoff remains unresolved. No status change inferred.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Original term is stated in calendar months, not a fixed number of days."
+        },
+        "duration_days": {
+          "from": "548",
+          "to": "",
+          "reason": "A calendar-month term cannot be represented as a fixed day count."
+        },
+        "legal_basis": {
+          "from": "County Board ordinance/resolution; specific number not located (Legistar full-text search requires an ASP.NET postback interaction that could not be executed via fetch)",
+          "to": "Substitute 1 to 2026 RES-039 (Dane County Board resolution)",
+          "reason": "The county board release identifies the adopted substitute resolution."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31 (18-month window runs to approximately December 2027). Applies only to new hyperscale data center development; existing facilities and ongoing operations are not affected.",
+          "to": "The June 4 county release identifies board-approved Sub 1 to 2026 RES-039 and an eighteen-month hyperscale-data-center pause in unincorporated areas; it says executive consideration/signature is still pending. Hyperscale definition requires at least 5,000 servers and 10,000 square feet. Executive action, final operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "confidence": 0.9
+    },
+    {
+      "moratorium_id": "wi-dodge-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://dailydodge.com/dodge-county-board-of-supervisors-votes-to-approve-data-center-moratorium/",
+          "source_type": "news",
+          "document_date": "2026-08-19",
+          "supports": "Reports adoption and calendar term.",
+          "quote": "approved an 18-month moratorium on new data center construction in unincorporated areas of the county"
+        }
+      ],
+      "notes": "Original evidence is historical; later termination, replacement, or current force as of cutoff remains unresolved. No status change inferred.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Original term is stated in calendar months, not a fixed number of days."
+        },
+        "duration_days": {
+          "from": "548",
+          "to": "",
+          "reason": "A calendar-month term cannot be represented as a fixed day count."
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23; adopted 29-2 (Supervisors Jayme Klockow and Robert Ballweg dissenting; 2 absent) on August 18, 2026, applying to County Zoned unincorporated areas. Does not affect incorporated areas such as Beaver Dam, where the Meta data center is located.",
+          "to": "August 19 news reports approval of an eighteen-month moratorium covering data centers in the thirteen towns participating in county zoning, not all jurisdictions. Full signed text, actual operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "confidence": 0.65
+    },
+    {
+      "moratorium_id": "wi-green-county-2026",
+      "outcome": "corrected",
+      "evidence": [
+        {
+          "url": "https://www.greencountywi.org/Blog.aspx?IID=36",
+          "source_type": "other",
+          "document_date": "2026-07-14",
+          "supports": "County administrator reports adoption and original term.",
+          "quote": "The Board approved the Ordinance adopting a 12-month moratorium on accepting applications for data centers in land controlled by Green County, with one member opposing."
+        }
+      ],
+      "notes": "Original evidence is historical; later termination, replacement, or current force as of cutoff remains unresolved. No status change inferred.",
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Original term is stated in calendar months, not a fixed number of days."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "A calendar-month term cannot be represented as a fixed day count."
+        },
+        "current_status": {
+          "from": "Active as of 2026-07-31.",
+          "to": "The county administrator summary identifies Ordinance 26-0703 creating section 4-3-2-7 and reports approval of a twelve-month data-center application pause on land controlled by county zoning, with one member opposing. Full adopted text, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty."
+        }
+      },
+      "confidence": 0.9
+    }
+  ],
+  "new_candidates": []
+}

@@ -190,10 +190,10 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-dane-county-2026`
-- **Legal basis:** County Board ordinance/resolution; specific number not located (Legistar full-text search requires an ASP.NET postback interaction that could not be executed via fetch)
+- **Legal basis:** Substitute 1 to 2026 RES-039 (Dane County Board resolution)
 - **What prompted it:** Mounting hyperscale data-center development pressure near Madison; the county formed a 13-member Advisory Committee on Data Centers (ACDC) in parallel to study impacts
 - **Affected projects:** Not tied to a single named project; addresses hyperscale data center development generally
-- **Detailed status:** Active as of 2026-07-31 (18-month window runs to approximately December 2027). Applies only to new hyperscale data center development; existing facilities and ongoing operations are not affected.
+- **Detailed status:** The June 4 county release identifies board-approved Sub 1 to 2026 RES-039 and an eighteen-month hyperscale-data-center pause in unincorporated areas; it says executive consideration/signature is still pending. Hyperscale definition requires at least 5,000 servers and 10,000 square feet. Executive action, final operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** 18-month pause on new hyperscale data center development
 
 ### Dodge County
@@ -209,7 +209,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Dodge County data center moratorium ordinance (ordinance number not located in reviewed sources)
 - **What prompted it:** Concerns about groundwater and environmental impacts from a Meta data center under construction in Beaver Dam (within the county); supervisor Cathy Houchin sought an impact study alongside the moratorium.
 - **Affected projects:** The moratorium does not apply to the Meta data center under construction in the City of Beaver Dam (incorporated, not county-zoned), which prompted the push for the moratorium and an accompanying environmental impact study of the county's groundwater.
-- **Detailed status:** Active as of 2026-09-23; adopted 29-2 (Supervisors Jayme Klockow and Robert Ballweg dissenting; 2 absent) on August 18, 2026, applying to County Zoned unincorporated areas. Does not affect incorporated areas such as Beaver Dam, where the Meta data center is located.
+- **Detailed status:** August 19 news reports approval of an eighteen-month moratorium covering data centers in the thirteen towns participating in county zoning, not all jurisdictions. Full signed text, actual operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 18-month moratorium on data center construction in county-zoned unincorporated areas.
 
 ### Door County
@@ -257,7 +257,7 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Legal basis:** Ordinance 26-0703 (Green County Board)
 - **What prompted it:** Stops acceptance of data center applications in county-zoned territory while the county studies impacts, receives local input, and develops consistent standards.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31.
+- **Detailed status:** The county administrator summary identifies Ordinance 26-0703 creating section 4-3-2-7 and reports approval of a twelve-month data-center application pause on land controlled by county zoning, with one member opposing. Full adopted text, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 12-month moratorium on data center applications in county-zoned territory.
 
 ### Greenville

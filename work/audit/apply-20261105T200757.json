@@ -1,0 +1,94 @@
+{
+  "applied_at": "20261105T200757",
+  "answer_files": [
+    "work/research/2026-11-05/reviewed-wisconsin-d/answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 3,
+    "fields_changed": 10
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "wi-dane-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Original term is stated in calendar months, not a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-dane-county-2026",
+      "column": "duration_days",
+      "before": "548",
+      "after": "",
+      "reason": "A calendar-month term cannot be represented as a fixed day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-dane-county-2026",
+      "column": "legal_basis",
+      "before": "County Board ordinance/resolution; specific number not located (Legistar full-text search requires an ASP.NET postback interaction that could not be executed via fetch)",
+      "after": "Substitute 1 to 2026 RES-039 (Dane County Board resolution)",
+      "reason": "The county board release identifies the adopted substitute resolution.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-dane-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31 (18-month window runs to approximately December 2027). Applies only to new hyperscale data center development; existing facilities and ongoing operations are not affected.",
+      "after": "The June 4 county release identifies board-approved Sub 1 to 2026 RES-039 and an eighteen-month hyperscale-data-center pause in unincorporated areas; it says executive consideration/signature is still pending. Hyperscale definition requires at least 5,000 servers and 10,000 square feet. Executive action, final operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-dodge-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Original term is stated in calendar months, not a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-dodge-county-2026",
+      "column": "duration_days",
+      "before": "548",
+      "after": "",
+      "reason": "A calendar-month term cannot be represented as a fixed day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-dodge-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-09-23; adopted 29-2 (Supervisors Jayme Klockow and Robert Ballweg dissenting; 2 absent) on August 18, 2026, applying to County Zoned unincorporated areas. Does not affect incorporated areas such as Beaver Dam, where the Meta data center is located.",
+      "after": "August 19 news reports approval of an eighteen-month moratorium covering data centers in the thirteen towns participating in county zoning, not all jurisdictions. Full signed text, actual operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-green-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Original term is stated in calendar months, not a fixed number of days.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-green-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "A calendar-month term cannot be represented as a fixed day count.",
+      "source": "answers.json"
+    },
+    {
+      "moratorium_id": "wi-green-county-2026",
+      "column": "current_status",
+      "before": "Active as of 2026-07-31.",
+      "after": "The county administrator summary identifies Ordinance 26-0703 creating section 4-3-2-7 and reports approval of a twelve-month data-center application pause on land controlled by county zoning, with one member opposing. Full adopted text, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "reason": "Preserve calendar terms, explicit date discrepancies and later-action uncertainty.",
+      "source": "answers.json"
+    }
+  ]
+}
