@@ -6,6 +6,39 @@ from build_refresh_accounting import collection_stage
 
 
 class RefreshAccountingTests(unittest.TestCase):
+    def test_explicit_receipt_dates_do_not_silently_expand_historical_scope(self):
+        import tempfile
+        from build_refresh_accounting import receipt_paths
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);directory=root/'work/audit';directory.mkdir(parents=True)
+            for name in ['apply-20261105T010101.json','apply-legislation-20261106T010101.json','apply-20260731T010101.json']:
+                (directory/name).write_text('{}')
+            self.assertEqual(len(receipt_paths(root,['20261105'])),1)
+            self.assertEqual(len(receipt_paths(root,['20261105','20261106'])),2)
+            with self.assertRaises(ValueError):receipt_paths(root,['2026*'])
+
+    def test_field_lineage_keeps_latest_receipt_and_detects_later_drift(self):
+        from build_refresh_accounting import field_lineage
+        record={'status':'extended','latitude':'41.0'}
+        changes=[('first',{'column':'status','after':'active'}),
+                 ('second',{'column':'status','after':'extended'}),
+                 ('third',{'column':'latitude','after':'40.0'}),
+                 ('newrow',{'column':'<new row>','after':'truncated description'})]
+        result={r['column']:r for r in field_lineage(record,changes)}
+        self.assertEqual(result['status']['last_receipt'],'second')
+        self.assertTrue(result['status']['current_matches_last_applied_value'])
+        self.assertFalse(result['latitude']['current_matches_last_applied_value'])
+        self.assertNotIn('<new row>',result)
+
+    def test_policy_display_rename_follows_only_explicit_ledger_event(self):
+        from build_refresh_accounting import policy_aliases, resolve_policy_alias
+        change={'bill_key':'NJ:S1 / A1 / A2','column':'bill','before':'S1 / A1 / A2','after':'S1 / A1'}
+        aliases=policy_aliases([('receipt',{'changes':[change]})])
+        self.assertEqual(resolve_policy_alias('NJ:S1 / A1 / A2',aliases),'NJ:S1 / A1')
+        self.assertEqual(resolve_policy_alias('NJ:A2',aliases),'NJ:A2')
+        with self.assertRaises(ValueError):policy_aliases([('receipt',{'changes':[{**change,'before':'different'}]})])
+        with self.assertRaises(ValueError):resolve_policy_alias('a',{'a':'b','b':'a'})
+
     def valid(self):
         return {'cli_state': 'finished', 'checks': [], 'schema_errors': [],
                 'missing_ids': [], 'extra_ids': [], 'duplicate_ids': []}

@@ -5,6 +5,7 @@ from collections import Counter, defaultdict
 import csv
 import hashlib
 import json
+import datetime as dt
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,7 +28,57 @@ def collection_stage(job, outcome):
     return 'returned_unresolved' if outcome == 'unresolvable' else 'returned_other_outcome'
 
 
-def build(queue_path, audit_path, root=ROOT):
+def receipt_paths(root, dates):
+    for value in dates:
+        if len(value)!=8 or not value.isdigit():raise ValueError('Receipt dates must be YYYYMMDD')
+        dt.datetime.strptime(value,'%Y%m%d')
+    return sorted({p for value in dates for pattern in
+                   ('apply-'+value+'*.json','apply-legislation-'+value+'*.json')
+                   for p in (root/'work/audit').glob(pattern)})
+
+
+def policy_aliases(receipts):
+    aliases={}
+    for receipt,data in receipts:
+        for change in data.get('changes',[]):
+            key=change.get('bill_key')
+            if key and change.get('column')=='bill' and isinstance(change.get('after'),str):
+                state,before=key.split(':',1)
+                if change.get('before')!=before:raise ValueError('Bill rename baseline differs from ledger key')
+                target=state+':'+change['after']
+                if key!=target:
+                    if key in aliases and aliases[key]!=target:raise ValueError('Conflicting policy ledger aliases')
+                    aliases[key]=target
+    for key in aliases:resolve_policy_alias(key,aliases)
+    return aliases
+
+
+def resolve_policy_alias(key, aliases):
+    seen=set()
+    while key in aliases:
+        if key in seen:raise ValueError('Cyclic policy ledger aliases')
+        seen.add(key);key=aliases[key]
+    return key
+
+
+def field_lineage(record, changes):
+    latest={}
+    for receipt,change in changes:
+        column=change.get('column')
+        if column in record and 'after' in change:
+            latest[column]=(receipt,change['after'])
+    result=[]
+    for column,(receipt,value) in sorted(latest.items()):
+        after='' if value is None else str(value)
+        current=record[column]
+        result.append({'column':column,'last_receipt':receipt,
+                       'last_applied_value_sha256':hashlib.sha256(after.encode()).hexdigest(),
+                       'current_value_sha256':hashlib.sha256(current.encode()).hexdigest(),
+                       'current_matches_last_applied_value':after==current})
+    return result
+
+
+def build(queue_path, audit_path, root=ROOT, receipt_dates=('20261105',), include_fields=False):
     queue = json.loads(queue_path.read_text())
     audit = json.loads(audit_path.read_text())
     audited = {j['job_id']: j for j in audit['jobs']}
@@ -68,23 +119,28 @@ def build(queue_path, audit_path, root=ROOT):
             })
     edits = defaultdict(list)
     # A ledger change is not a complete reviewed/current record. Historical receipts are excluded.
-    receipts = list((root / 'work/audit').glob('apply-20261105*.json'))
-    receipts += list((root / 'work/audit').glob('apply-legislation-20261105*.json'))
-    for receipt in sorted(receipts):
-        data = json.loads(receipt.read_text())
+    receipts = receipt_paths(root, receipt_dates)
+    field_edits = defaultdict(list)
+    loaded_receipts=[(p,json.loads(p.read_text())) for p in receipts]
+    aliases=policy_aliases(loaded_receipts)
+    for receipt,data in loaded_receipts:
         hashes['apply_receipts'][str(receipt.relative_to(root))] = sha(receipt)
         for change in data.get('changes', []):
             if change.get('moratorium_id'):
                 edits[('inventory', change['moratorium_id'])].append(str(receipt.relative_to(root)))
+                field_edits[('inventory', change['moratorium_id'])].append((str(receipt.relative_to(root)),change))
             elif change.get('bill_key'):
-                edits[('state_policy', change['bill_key'])].append(str(receipt.relative_to(root)))
+                edits[('state_policy', resolve_policy_alias(change['bill_key'],aliases))].append(str(receipt.relative_to(root)))
+                field_edits[('state_policy', resolve_policy_alias(change['bill_key'],aliases))].append((str(receipt.relative_to(root)),change))
     tables = {}
     for table, filename, id_key in [('inventory', 'moratorium_inventory.csv', 'moratorium_id'),
                                    ('state_policy', 'state_legislation.csv', 'policy_action_id')]:
         path = root / 'data' / filename
         hashes[filename] = sha(path)
         records = []
-        for record in csv.DictReader(path.open()):
+        with path.open(newline='', encoding='utf-8') as stream:
+            input_records=list(csv.DictReader(stream))
+        for record in input_records:
             ident = record[id_key]
             jobs = assignments.get((table, ident), [])
             if len(jobs) > 1:
@@ -97,13 +153,22 @@ def build(queue_path, audit_path, root=ROOT):
                             'jobs': jobs, 'refresh_apply_receipts': receipts,
                             'editorial_stage': 'has_refresh_apply_change' if receipts else 'no_refresh_apply_change',
                             'legal_force_verification': 'not_assessed_by_this_mechanical_accounting'})
+            if include_fields:
+                records[-1]['applied_field_lineage']=field_lineage(record,field_edits.get((table,ledger_key),[]))
         if len({r['record_id'] for r in records}) != len(records):
             raise ValueError('Duplicate canonical IDs: ' + table)
         tables[table] = {'total': len(records),
                          'collection_counts': dict(Counter(r['collection_stage'] for r in records)),
                          'editorial_counts': dict(Counter(r['editorial_stage'] for r in records)),
                          'records': records}
-    return {'observed_at': audit['observed_at'], 'input_sha256': hashes,
+        if include_fields:
+            fields=[field for record in records for field in record['applied_field_lineage']]
+            tables[table]['field_lineage_counts']={
+                'last_applied_field_values':len(fields),
+                'matching_current_values':sum(field['current_matches_last_applied_value'] for field in fields),
+                'differing_current_values':sum(not field['current_matches_last_applied_value'] for field in fields)}
+    return {'observed_at': audit['observed_at'], 'receipt_dates': list(receipt_dates),
+            'field_lineage_included': include_fields, 'explicit_policy_ledger_aliases': aliases, 'input_sha256': hashes,
             'scope': 'Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. This is not the completed freshness funnel required for release.',
             'job_counts': audit['job_states'], 'not_started_jobs': audit['not_started_jobs'],
             'tables': tables}
@@ -114,8 +179,10 @@ if __name__ == '__main__':
     parser.add_argument('--queue', type=Path, required=True)
     parser.add_argument('--audit', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--receipt-date', action='append', help='YYYYMMDD; repeat explicitly. Default retains historical November5only.')
+    parser.add_argument('--include-fields', action='store_true', help='Report last applied field fingerprints; not substantive acceptance.')
     args = parser.parse_args()
-    result = build(args.queue, args.audit)
+    result = build(args.queue, args.audit, receipt_dates=args.receipt_date or ('20261105',), include_fields=args.include_fields)
     args.output.write_text(json.dumps(result, indent=2) + '\n')
     print(json.dumps({k: {x: v[x] for x in ('total', 'collection_counts', 'editorial_counts')}
                       for k, v in result['tables'].items()}, indent=2))
