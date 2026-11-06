@@ -67,4 +67,33 @@ class BallotSummaryTests(unittest.TestCase):
         self.assertIn('](<https://example.gov/durable-post>)',render(self.rows,SNAPSHOT))
         self.assertEqual(source['url'],original)
 
+    def accounting_claim(self,result_id):
+        source=copy.deepcopy(self.rows['source_documents'][self.result['source_document_id']])
+        source.update(source_document_id='accounting-source',url='https://example.gov/accounting-review')
+        self.rows['source_documents'][source['source_document_id']]=source
+        self.rows['claims']['accounting-review']=dict(claim_id='accounting-review',
+            subject={'table':'measure_results','id':result_id},predicate='derived_accounting_discrepancy',
+            source_document_id=source['source_document_id'],value={'unreconciled_ballots':5,
+            'formula':'18601 - (3800 + 14207 + 32 + 557) = 5',
+            'classification':'Not assigned to blank or other votes'})
+
+    def test_reviewed_accounting_note_uses_claim_source_without_changing_counts(self):
+        before=copy.deepcopy(self.result)
+        self.accounting_claim(self.result['result_observation_id'])
+        text=render(self.rows,SNAPSHOT)
+        self.assertIn('](<https://example.gov/accounting-review>): source accounting difference 5',text)
+        self.assertIn('18601 - (3800 + 14207 + 32 + 557) = 5',text)
+        self.assertIn('Not assigned to blank or other votes',text)
+        self.assertEqual(self.result,before)
+
+    def test_superseded_result_accounting_note_is_not_presented_as_current(self):
+        retired=next(r for r in self.rows['measure_results'].values()
+                     if r['result_observation_id'] in {v['supersedes_id'] for v in self.rows['measure_results'].values()})
+        self.accounting_claim(retired['result_observation_id'])
+        self.assertNotIn('source accounting difference',render(self.rows,SNAPSHOT))
+
+    def test_ballot_difference_without_reviewed_claim_does_not_generate_a_note(self):
+        self.result['ballots_cast']=9999
+        self.assertNotIn('source accounting difference',render(self.rows,SNAPSHOT))
+
 if __name__=='__main__':unittest.main()

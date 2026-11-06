@@ -1,0 +1,22 @@
+{
+  "snapshot": "13027a6ea146ada7f4b4f47e417432b0d498b20440586dff0a0f2a64e80ad67d",
+  "publication_state": "applied",
+  "replay_state": "already_applied",
+  "build_command": "make data site check PYTHON=.venv/bin/python TODAY=2026-11-05",
+  "build_exit_code": 0,
+  "build_log_sha256": "51bdf023dcf7c7655b6356242984382d6a2d4d47cd04b44bb3019bdefca227c6",
+  "unit_test_command": "bc-modules/.venv/bin/python -m unittest discover -s tests",
+  "unit_test_count": 140,
+  "unit_tests_passed": true,
+  "unit_log_sha256": "2f93d30f94b4a62c9b98d2d446b692ce0a276a185743d9085cae45b1b3975103",
+  "validation_errors": 0,
+  "validation_warnings": 282,
+  "documented_numbers_checked": 49,
+  "measure_records": 18,
+  "result_observations": 24,
+  "current_result_observations": 18,
+  "current_certified_observations": 5,
+  "frozen_groups_pending": 38,
+  "legacy_csvs_unchanged": true,
+  "scope": "Scoped advisory/referral/count publication and consistency tests; accounting, certification and later legal effect unresolved."
+}

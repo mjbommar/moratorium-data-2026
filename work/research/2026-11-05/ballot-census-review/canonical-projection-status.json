@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-06",
   "reviewer": "coordinator",
-  "canonical_snapshot": "9e64883405dfa8c52b81d387533c9818ec7eb8c8b274fcd84296a5d36cfcc857",
+  "canonical_snapshot": "13027a6ea146ada7f4b4f47e417432b0d498b20440586dff0a0f2a64e80ad67d",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 17,
-    "groups_pending_candidate_review": 39
+    "groups_with_scoped_canonical_publication": 18,
+    "groups_pending_candidate_review": 38
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -228,14 +228,16 @@
           "staged_measure_id": "ballot-il-001::bp-543536258772a28d"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "2b8a9b61-1b1a-4b78-a917-1bda9e3d6582",
+      "publication_plan": "work/research/2026-11-06/joliet-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-05/illinois-remaining-ballot-review/review.json",
       "primary_review_packet_sha256": "586aeac4382cf346362794ac5aa45a8b70ffad5203027cb215af993e2fedf661",
-      "primary_review_status": "primary_advisory_notice_and_executed_referral_recovered_result_accounting_open",
+      "primary_review_status": "scoped_advisory_referral_and_counts_published_accounting_and_certification_open",
       "qualification_followup_packet": "work/research/2026-11-06/joliet-qualification-review/review.json",
-      "qualification_followup_packet_sha256": "5ab8a0215f09ee0870d5357e82793abb7861a901ff339fa927beb24e919038af"
+      "qualification_followup_packet_sha256": "5ab8a0215f09ee0870d5357e82793abb7861a901ff339fa927beb24e919038af",
+      "publication_plan_sha256": "ff563d9d627377b8fa3376f6232d5e5a7866706f58e46a329d14971ab51bd1ad",
+      "canonical_record_sha256": "23a9cabd2aefd9aad16b7dc631b367a633f90e6c5b845f7afc282f50713b80b2"
     },
     {
       "logical_group_id": "bp-5aca48f1c1f85200",

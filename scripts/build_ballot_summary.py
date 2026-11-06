@@ -61,6 +61,24 @@ def render(rows, snapshot):
         source_notes.append('- ['+cell(title)+'](<'+citation(source)+'>): '+'; '.join(notes)+'.')
     if source_notes:
         lines += ['', 'Additional source labels and totals remain separate from blanks, valid votes and ballots cast.']+source_notes
+    accounting_notes=[]
+    for result in sorted(live,key=order):
+        for claim in sorted(rows['claims'].values(),key=lambda c:c['claim_id']):
+            if (claim['subject']!={'table':'measure_results','id':result['result_observation_id']}
+                    or claim['predicate']!='derived_accounting_discrepancy'):
+                continue
+            value=claim['value']
+            if not isinstance(value,dict) or not {'unreconciled_ballots','formula','classification'} <= set(value):
+                continue
+            measure=rows['ballot_measures'][result['measure_id']]
+            jurisdiction=rows['jurisdictions'][measure['jurisdiction_id']]
+            source=rows['source_documents'][claim['source_document_id']]
+            title=jurisdiction['name']+', '+jurisdiction['state']+' — '+(measure['designation'] or measure['title'] or 'undesignated')
+            accounting_notes.append('- ['+cell(title)+'](<'+citation(source)+'>): source accounting difference '+
+                                    cell(value['unreconciled_ballots'])+'; '+cell(value['formula'])+'. '+
+                                    cell(value['classification'])+'.')
+    if accounting_notes:
+        lines += ['', 'Reviewed accounting discrepancies below retain source values without filling unknown vote categories.']+accounting_notes
     no_results=set(rows['ballot_measures'])-{r['measure_id'] for r in live}
     if no_results:
         lines += ['',f'{len(no_results)} reviewed measures have no current result observation; absence is not a defeated or unqualified measure.']
