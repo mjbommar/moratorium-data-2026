@@ -267,9 +267,9 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Source-body availability checkpoint
 
-The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-nc-sc-va-review-2026-11-06.json)
-covers 6,604 manifest entries, with hash-matching bodies available through listed
-paths for 3,161 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-remaining-states-preparation-2026-11-06.json)
+covers 6,616 manifest entries, with hash-matching bodies available through listed
+paths for 3,173 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.
