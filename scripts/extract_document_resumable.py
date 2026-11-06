@@ -13,6 +13,7 @@ import hashlib
 import json
 import os
 import inspect
+import math
 from pathlib import Path
 from types import SimpleNamespace
 
@@ -40,7 +41,7 @@ def save(path, value):
 
 
 async def run(directory, doc, cells, *, backend, model_identity, question, today,
-              max_calls, role='extractor', max_chunks=None):
+              max_calls, role='extractor', max_chunks=None, budget_policy=None):
     """Run actual bc-evidence map/reduce with cached typed calls and coverage.
 
     ``model_identity`` must include the resolved provider/model/settings, not just
@@ -63,11 +64,20 @@ async def run(directory, doc, cells, *, backend, model_identity, question, today
         raise ValueError('Resolved model identity is required')
     if not isinstance(today, dt.date):
         raise ValueError('Explicit date cutoff required')
+    if budget_policy is not None:
+        for name in ('max_usd', 'reservation_usd'):
+            value = budget_policy.get(name)
+            if (isinstance(value, bool) or not isinstance(value, (int, float))
+                    or not math.isfinite(value) or value <= 0):
+                raise ValueError('Budget requires positive finite max_usd and reservation_usd')
+        if budget_policy['reservation_usd'] > budget_policy['max_usd']:
+            raise ValueError('Per-call reservation exceeds run budget')
     source = Path(extractor.__file__)
     prompt_files = sorted((source.parent / 'prompts').glob('extract*'))
     context = dict(document=doc, cells=cells, model_identity=model_identity,
                    question=question, today=today.isoformat(), role=role,
                    max_calls=max_calls, max_chunks=max_chunks,
+                   budget_policy=budget_policy,
                    adapter_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                    chunker_sha256=hashlib.sha256(Path(inspect.getfile(chunk_text)).read_bytes()).hexdigest(),
                    extractor_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
@@ -84,6 +94,8 @@ async def run(directory, doc, cells, *, backend, model_identity, question, today
             state = json.loads(state_path.read_text())
             if state['context_sha256'] != digest(context):
                 raise ValueError('Workspace context changed; refusing cache/budget reuse')
+            if state.get('budget_stop'):
+                raise BudgetExceeded(state['budget_stop'], 'llm')
         else:
             state = dict(context_sha256=digest(context), context=context,
                          attempts=[], successes={}, status='not_started')
@@ -129,8 +141,15 @@ async def run(directory, doc, cells, *, backend, model_identity, question, today
                 else:
                     if len(state['attempts']) >= max_calls:
                         raise BudgetExceeded('Persistent extraction request cap exhausted', 'llm')
+                    if budget_policy is not None:
+                        charged = sum(a.get('charged_usd', a['reserved_usd'])
+                                      for a in state['attempts'])
+                        if charged + budget_policy['reservation_usd'] > budget_policy['max_usd'] + 1e-12:
+                            raise BudgetExceeded('Persistent extraction dollar reservations exhausted', 'llm')
                     attempt = dict(request_sha256=key, stage=kwargs['stage'],
                                    chunk_indexes=indexes, status='reserved')
+                    if budget_policy is not None:
+                        attempt['reserved_usd'] = budget_policy['reservation_usd']
                     state['attempts'].append(attempt)
                     for i in indexes:
                         state['chunks'][i]['status'] = 'attempted'
@@ -140,12 +159,26 @@ async def run(directory, doc, cells, *, backend, model_identity, question, today
                         attempt['accounting'] = {field: getattr(result, field, None) for field in
                                                  ('model', 'input_tokens', 'output_tokens',
                                                   'cost_usd', 'priced')}
+                        if budget_policy is not None:
+                            cost = result.cost_usd
+                            if not result.priced or cost is None:
+                                state['budget_stop'] = 'Unpriced result; retaining full reservation'
+                                raise BudgetExceeded(state['budget_stop'], 'llm')
+                            if not math.isfinite(cost) or cost < 0:
+                                state['budget_stop'] = 'Invalid cost; retaining full reservation'
+                                raise BudgetExceeded(state['budget_stop'], 'llm')
+                            if cost > attempt['reserved_usd'] + 1e-12:
+                                attempt['charged_usd'] = cost
+                                state['budget_stop'] = 'Call exceeded reservation; stop for reconciliation'
+                                raise BudgetExceeded(state['budget_stop'], 'llm')
                         if result.model != model_identity['model']:
                             raise ValueError('Backend returned an unpinned model')
                         output = output_type.model_validate(result.output.model_dump(mode='json'))
                         value = output.model_dump(mode='json')
                         state['successes'][key] = dict(output=value, output_sha256=digest(value))
                         attempt['status'] = 'succeeded'
+                        if budget_policy is not None:
+                            attempt['charged_usd'] = result.cost_usd
                     except BaseException as error:
                         attempt['status'] = 'failed'
                         attempt['error_type'] = type(error).__name__

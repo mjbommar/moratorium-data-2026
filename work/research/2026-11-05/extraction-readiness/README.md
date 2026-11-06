@@ -18,8 +18,14 @@ Nine offline tests exercise full processing/replay, truncation, cumulative call
 limits, failed reservations, recovery after partial failure, context changes and
 corrupt cache rejection, reduction failure and returned-model mismatch. They use bc-llm's scripted backend through the real
 bc-evidence map/reduce path; they are not paid-model or legal-accuracy tests.
-Dollar-budget enforcement and its durable ledger remain the caller's obligation,
-and must be integrated before a paid pilot. No production EvidenceDB extraction
+The initial version required caller-side dollar controls. The subsequent adapter
+adds an optional pinned dollar-allocation policy, persists reservations before
+calls, settles successful priced calls and stops persistently for unpriced or
+over-reservation results. Three further tests cover restart accounting, unknown
+pricing and overruns. A bounded backend and conservative per-call allowance are
+still required; local pricing is not an invoice guarantee. The subsequent
+[actual Peru pilot](../full-document-peru-pilot/README.md) exercises these controls
+with one paid call and a cached replay. No production EvidenceDB extraction
 timestamps or canonical domain facts have been changed by these tests.
 
 ## Verified starting point

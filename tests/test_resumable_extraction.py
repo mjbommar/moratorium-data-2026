@@ -141,3 +141,40 @@ class ExtractionTests(unittest.IsolatedAsyncioTestCase):
             state=json.loads((Path(tmp)/'state.private.json').read_text())
             self.assertFalse(state['successes'])
             self.assertEqual(state['attempts'][0]['status'],'failed')
+
+    async def test_dollar_reservations_persist_across_restart(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            inputs={**self.inputs(),'budget_policy':{'max_usd':.002,'reservation_usd':.002}}
+            backend=self.backend()
+            for _ in range(2):
+                with self.assertRaisesRegex(BudgetExceeded,'dollar reservations'):
+                    await adapter.run(tmp,backend=backend,**inputs)
+            self.assertEqual(len(backend.calls),1)
+            state=json.loads((Path(tmp)/'state.private.json').read_text())
+            self.assertEqual(state['attempts'][0]['charged_usd'],.001)
+
+    async def test_unpriced_call_retains_reservation_and_stops(self):
+        class Unpriced(ScriptedBackend):
+            async def generate(self,**kwargs):
+                result=await super().generate(**kwargs)
+                return result.model_copy(update={'cost_usd':None,'priced':False})
+        with tempfile.TemporaryDirectory() as tmp:
+            inputs={**self.inputs(),'budget_policy':{'max_usd':.01,'reservation_usd':.01}}
+            backend=Unpriced({'*':lambda *a:dict(relevance=0,summary='',claims=[])})
+            with self.assertRaisesRegex(BudgetExceeded,'Unpriced'):
+                await adapter.run(tmp,backend=backend,**inputs)
+            with self.assertRaisesRegex(BudgetExceeded,'Unpriced'):
+                await adapter.run(tmp,backend=backend,**inputs)
+            state=json.loads((Path(tmp)/'state.private.json').read_text())
+            self.assertEqual(len(backend.calls),1)
+            self.assertEqual(state['attempts'][0]['reserved_usd'],.01)
+            self.assertNotIn('charged_usd',state['attempts'][0])
+
+    async def test_overspend_is_retained_and_not_cached(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            inputs={**self.inputs(),'budget_policy':{'max_usd':.01,'reservation_usd':.0005}}
+            with self.assertRaisesRegex(BudgetExceeded,'exceeded reservation'):
+                await adapter.run(tmp,backend=self.backend(),**inputs)
+            state=json.loads((Path(tmp)/'state.private.json').read_text())
+            self.assertEqual(state['attempts'][0]['charged_usd'],.001)
+            self.assertFalse(state['successes'])

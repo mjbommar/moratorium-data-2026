@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-11-05",
+  "scope": "Dollar allocation contracts and real Peru full-text extraction integration; no domain acceptance",
+  "test_command": "/home/mjbommar/projects/bc/bc-modules/.venv/bin/python -m unittest discover -s tests",
+  "tests_passed": 123,
+  "adapter_tests": 12,
+  "exit_code": 0,
+  "source_hashes": {
+    "scripts/extract_document_resumable.py": "7c8c48614e5e33bc080f41da1c58c79cd2763406919ffb2b1d597e808146eb82",
+    "tests/test_resumable_extraction.py": "4975bceb229f470293d1173aa34d0a4aa55ceda9ae7dcd89a19641723b70b063"
+  },
+  "live_receipt": "work/research/2026-11-05/full-document-peru-pilot/receipt.json",
+  "limitations": [
+    "Dollar allocations use local cost estimates and a caller-selected per-call reservation.",
+    "Backend request/token bounds remain required.",
+    "Full text-chunk processing does not establish complete OCR or legal correctness."
+  ]
+}

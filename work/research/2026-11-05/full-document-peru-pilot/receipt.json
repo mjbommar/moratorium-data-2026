@@ -1,0 +1,134 @@
+{
+  "as_of": "2026-11-05",
+  "scope": "Actual bc-evidence full-text extraction of one official proposed ordinance; separate from canonical/legal acceptance and existing pilot DB timestamps",
+  "source_url": "https://townofperumaine.org/wp-content/uploads/2026/09/Temporary-Moratorium-of-the-Development-and-Permitting-of-Data-Centers.pdf",
+  "body_sha256": "623ff9149e67c5e2c022022b21573a1655f686f76ec683c5725d88c3bab68bd2",
+  "text_sha256": "0ba833e46e81af76239311f15b3083e00e4edeca93a618aad2c8a8ca1ca3ecbc",
+  "source_pages": 1,
+  "ocr_pages": [
+    1
+  ],
+  "ocr_limitations": [
+    "Printed clauses visually rechecked against complete page.",
+    "Handwritten date/signatures contain OCR errors; no dates or signatory identities accepted from them."
+  ],
+  "model_identity": {
+    "agent_retries": 0,
+    "cache_instructions": false,
+    "flex_fallback": false,
+    "max_attempts": 1,
+    "max_model_requests": 1,
+    "max_tokens": 6000,
+    "model": "openai:gpt-6-sol",
+    "output_mode": "native",
+    "pricing": {
+      "cache_read": 0.4,
+      "cache_write": 5.0,
+      "input": 4.0,
+      "output": 15.0,
+      "source": "genai-prices"
+    },
+    "reasoning_effort": "low",
+    "service_tier": null,
+    "temperature": null,
+    "timeout_s": 90.0
+  },
+  "budget_policy": {
+    "max_usd": 0.5,
+    "pricing_basis": "Installed bc-llm price table, estimates rather than provider invoice",
+    "reservation_usd": 0.25
+  },
+  "context_sha256": "c327a38b3ffea742fdfda1b9b60a53c077d28f629e1e5918b0a7c69e6c12a1e0",
+  "chunks": [
+    {
+      "end": 1538,
+      "index": 0,
+      "start": 0,
+      "status": "succeeded",
+      "text_sha256": "0ba833e46e81af76239311f15b3083e00e4edeca93a618aad2c8a8ca1ca3ecbc"
+    }
+  ],
+  "full_text_chunk_coverage": true,
+  "claims": [
+    {
+      "claim_id": "542f05ae9d635633",
+      "predicate": "proposes study period for",
+      "char_start": 98,
+      "char_end": 361,
+      "quote_sha256": "f65160300348c4978a41d57ea057b8187ee7d0bf2db0fc41086357d541442769",
+      "exact_span_match": true,
+      "quote_characters": 263,
+      "instrument_step": "proposed",
+      "actual_date_assertion": false,
+      "review_disposition": "Proposal-clause candidate only; no new canonical promotion"
+    },
+    {
+      "claim_id": "ce7d5917ee6f8d28",
+      "predicate": "proposes definition of",
+      "char_start": 379,
+      "char_end": 710,
+      "quote_sha256": "a9d0542c490e4e2090eeb84bc56d197cfa10840e4bf4acc13719bc6373612eec",
+      "exact_span_match": true,
+      "quote_characters": 331,
+      "instrument_step": "proposed",
+      "actual_date_assertion": false,
+      "review_disposition": "Proposal-clause candidate only; no new canonical promotion"
+    },
+    {
+      "claim_id": "52de2c89f6ff2880",
+      "predicate": "proposes moratorium on",
+      "char_start": 735,
+      "char_end": 1018,
+      "quote_sha256": "b0829969564cf2d37a97e07f7f2cddbd1816032bb7645d6e41d9dd12c404df18",
+      "exact_span_match": true,
+      "quote_characters": 283,
+      "instrument_step": "proposed",
+      "actual_date_assertion": false,
+      "review_disposition": "Proposal-clause candidate only; no new canonical promotion"
+    },
+    {
+      "claim_id": "4385b24ae32baac7",
+      "predicate": "proposes exemption for",
+      "char_start": 1035,
+      "char_end": 1146,
+      "quote_sha256": "530af2b03538e066853b737303c8025d603b81103d3c6de49c05fef03c89efc5",
+      "exact_span_match": true,
+      "quote_characters": 111,
+      "instrument_step": "proposed",
+      "actual_date_assertion": false,
+      "review_disposition": "Proposal-clause candidate only; no new canonical promotion"
+    },
+    {
+      "claim_id": "c5eea986480164d2",
+      "predicate": "proposes conditional effective period for",
+      "char_start": 1182,
+      "char_end": 1391,
+      "quote_sha256": "8c54d8e14d12669ae616eb6adbef4aadab278002afa2fc01ef79cb8e7c0a5f87",
+      "exact_span_match": true,
+      "quote_characters": 209,
+      "instrument_step": "proposed",
+      "actual_date_assertion": false,
+      "review_disposition": "Proposal-clause candidate only; no new canonical promotion"
+    }
+  ],
+  "paid_backend_calls": 1,
+  "estimated_cost_usd": 0.024472,
+  "cost_basis": "Installed library pricing, not a provider invoice",
+  "replay": {
+    "executed": true,
+    "total_backend_calls_after_replay": 1,
+    "additional_backend_calls": 0
+  },
+  "private_workspace": "/data0/moratorium-refresh-2026/full-document-pilot/peru-proposal-v1",
+  "private_result_sha256": "6562ae391babecc9dd364432404490d9c52e4ff963862e0277fabb7afbef4430",
+  "driver_sha256": "1c4a39ad7dda643a71065aa1cd6c7ef49a005d4da96d4cb207a24da5ca0dfc4e",
+  "domain_review_complete": false,
+  "canonical_data_changed": false,
+  "limitations": [
+    "Generic extraction is not domain-typed ballot normalization.",
+    "Prompt asks for at most 12 claims per chunk; all text read does not establish exhaustive fact extraction.",
+    "Prompt quote-length advice is not schema-enforced; some located quotes exceed its requested 300 characters.",
+    "No inference of voter enactment, certification, actual effective date or current legal force.",
+    "Existing 13-document/90-claim pilot EvidenceDB remains a scoped import, with zero completed extraction timestamps."
+  ]
+}
