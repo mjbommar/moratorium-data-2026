@@ -1,0 +1,57 @@
+{
+  "state_abbrev": "NY",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator original-term encoding review; retained sources inspected November 6",
+  "decisions": [
+    {
+      "moratorium_id": "ny-village-of-mayville-2025",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+          "from": "365"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.observertoday.com/news/top-stories/2025/06/moratoriums-placed-in-mayville-chautauqua-regarding-green-energy/",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-fifth-cohort.json."
+        }
+      ],
+      "notes": "Original reported calendar-unit encoding only; no changes to dates, status, prose, current endpoints, sectors, identities or relationships. No source reacquisition or current-force renewal."
+    },
+    {
+      "moratorium_id": "ny-walworth-2024",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+          "from": "180"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://ecode360.com/WA1363/laws/LF2118275.pdf",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-fifth-cohort.json."
+        }
+      ],
+      "notes": "Original reported calendar-unit encoding only; no changes to dates, status, prose, current endpoints, sectors, identities or relationships. No source reacquisition or current-force renewal."
+    }
+  ]
+}

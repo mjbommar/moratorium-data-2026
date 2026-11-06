@@ -1,0 +1,32 @@
+{
+  "state_abbrev": "ND",
+  "researched_as_of": "2026-11-05",
+  "researcher": "coordinator original-term encoding review; retained sources inspected November 6",
+  "decisions": [
+    {
+      "moratorium_id": "nd-barnes-county-2026",
+      "outcome": "corrected",
+      "confidence": 1.0,
+      "changes": {
+        "duration_kind": {
+          "to": "calendar_term",
+          "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+          "from": "fixed_days"
+        },
+        "duration_days": {
+          "to": "",
+          "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+          "from": "180"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.barnescounty.us/wp-content/uploads/2026/06/May-19-2026-Commission-Minutes.pdf",
+          "source_type": "other",
+          "supports": "Calendar original-term encoding only; source version and text span pinned in coordinator-fifth-cohort.json."
+        }
+      ],
+      "notes": "Original reported calendar-unit encoding only; no changes to dates, status, prose, current endpoints, sectors, identities or relationships. No source reacquisition or current-force renewal."
+    }
+  ]
+}

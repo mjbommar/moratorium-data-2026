@@ -1,0 +1,817 @@
+{
+  "applied_at": "20261106T152826",
+  "answer_files": [
+    "work/research/2026-11-06/duration-encoding-review/wave5-nc-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/wave5-nd-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/wave5-ny-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/wave5-oh-encoding-answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 50,
+    "fields_changed": 100
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "nc-alamance-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-alamance-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-buncombe-county-2023",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Retained cryptocurrency-mining ordinance expresses the historical original interval as one year or earlier regulatory action. Do not substitute later data-center measures or extension intervals.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-buncombe-county-2023",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Retained cryptocurrency-mining ordinance expresses the historical original interval as one year or earlier regulatory action. Do not substitute later data-center measures or extension intervals.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-camden-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Report explicitly says commissioners adopted a five-month term; it is not inferred solely from August/January dates. Preserve the existing dates and earlier-zoning clause without independently accepting their operative effect.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-camden-county-2026",
+      "column": "duration_days",
+      "before": "153",
+      "after": "",
+      "reason": "Report explicitly says commissioners adopted a five-month term; it is not inferred solely from August/January dates. Preserve the existing dates and earlier-zoning clause without independently accepting their operative effect.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-city-of-boiling-spring-lakes-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-city-of-boiling-spring-lakes-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-city-of-southport-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-city-of-southport-2026",
+      "column": "duration_days",
+      "before": "456",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-city-of-whiteville-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-city-of-whiteville-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-city-of-wilson-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-city-of-wilson-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-davie-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-davie-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-durham-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Official county summary expressly labels the approved measure a nine-month moratorium with modifications. Normalize that reported calendar-unit label only; detailed original endpoints and effects are not newly verified. This is separate from Durham city\u2019s original 60-day act.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-durham-county-2026",
+      "column": "duration_days",
+      "before": "267",
+      "after": "",
+      "reason": "Official county summary expressly labels the approved measure a nine-month moratorium with modifications. Normalize that reported calendar-unit label only; detailed original endpoints and effects are not newly verified. This is separate from Durham city\u2019s original 60-day act.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-edgecombe-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-edgecombe-county-2026",
+      "column": "duration_days",
+      "before": "731",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-harnett-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-harnett-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-jackson-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-jackson-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-pasquotank-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-pasquotank-county-2026",
+      "column": "duration_days",
+      "before": "364",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-swain-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-swain-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-apex-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-apex-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-boone-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-boone-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-canton-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-canton-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-cary-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-cary-2026",
+      "column": "duration_days",
+      "before": "549",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-clyde-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-clyde-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-farmville-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-farmville-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-garner-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-garner-2026",
+      "column": "duration_days",
+      "before": "364",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-highlands-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Retained ordinance clause expressly specifies a twelve-month duration. Number/execution/date fields of the retained document are not authenticated by this encoding review; no adoption, date or present-force claim is upgraded.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-highlands-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Retained ordinance clause expressly specifies a twelve-month duration. Number/execution/date fields of the retained document are not authenticated by this encoding review; no adoption, date or present-force claim is upgraded.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-hildebran-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-hildebran-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-hot-springs-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-hot-springs-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-waxhaw-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nc-town-of-waxhaw-2026",
+      "column": "duration_days",
+      "before": "364",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nc-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nd-barnes-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nd-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "nd-barnes-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-nd-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ny-village-of-mayville-2025",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-ny-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ny-village-of-mayville-2025",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-ny-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ny-walworth-2024",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-ny-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ny-walworth-2024",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-ny-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-alliance-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-alliance-2026",
+      "column": "duration_days",
+      "before": "548",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-ashtabula-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-ashtabula-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-athens-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-athens-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-boardman-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-boardman-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-braceville-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-braceville-township-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-bridgewater-township-williams-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-bridgewater-township-williams-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-butler-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-butler-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-city-of-hubbard-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Later election report explicitly recalls a twelve-month June pause. Normalize that original reported interval only; do not merge it with the November question or treat the headline ban label as binding legal effect.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-city-of-hubbard-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Later election report explicitly recalls a twelve-month June pause. Normalize that original reported interval only; do not merge it with the November question or treat the headline ban label as binding legal effect.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-green-township-harrison-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-green-township-harrison-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-jackson-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-jackson-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-jackson-township-clermont-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-jackson-township-clermont-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-jefferson-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-jefferson-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-monroe-township-adams-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-monroe-township-adams-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-montgomery-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-montgomery-township-2026",
+      "column": "duration_days",
+      "before": "730",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-northfield-center-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-northfield-center-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-plain-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-plain-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-providence-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-providence-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-sprigg-township-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Retained report expressly calls the original interval a one-year voluntary moratorium. Calendar encoding does not establish enforceability, zoning authority or later ballot/legal effect.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-sprigg-township-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Retained report expressly calls the original interval a one-year voluntary moratorium. Calendar encoding does not establish enforceability, zoning authority or later ballot/legal effect.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-springfield-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-springfield-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-st-clair-township-butler-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Article\u2019s named St. Clair paragraph explicitly reports trustees passed a yearlong moratorium on May 5; the separately quoted request to county commissioners is not used as adoption evidence. Only interval encoding is accepted.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-st-clair-township-butler-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Article\u2019s named St. Clair paragraph explicitly reports trustees passed a yearlong moratorium on May 5; the separately quoted request to county commissioners is not used as adoption evidence. Only interval encoding is accepted.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-tiffin-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-tiffin-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-trenton-township-delaware-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "oh-trenton-township-delaware-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Inspected original-term passage or contemporaneous account expressly states calendar months/years. The stored numeric day value is not a source-specified day count; normalize the reported unit without accepting status, effectiveness, expiration or subsequent legal history.",
+      "source": "wave5-oh-encoding-answers.json"
+    }
+  ]
+}

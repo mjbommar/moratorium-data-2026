@@ -1035,6 +1035,7 @@
       "work/audit/apply-20261106T150838.json": "dae3dd902efbe4b3263993b3337fb7e667274221fdfa7d6a33c5d7969b7bea6e",
       "work/audit/apply-20261106T151426.json": "312a9d9595c8de1e62fb9569937d4f4d93d92c42e0aa6f7168e489d2916dcc05",
       "work/audit/apply-20261106T152031.json": "b9905538be466775ef40a3146831e5bf1fca438ba67b4bea4f41390a94de9a2d",
+      "work/audit/apply-20261106T152826.json": "18d2ee31850e9fbfc518c3de7f46982459fc2e1a20537b5304acb308c5dd0e52",
       "work/audit/apply-legislation-20261105T114314.json": "222b8a24cbb2138216bd3e87d508fc67d5a3bafac2674429a58099a189e8204b",
       "work/audit/apply-legislation-20261106T000259.json": "563c37c423b64cc6d3eb8fe74f13b278bf8de357ec02c766e79c5d59a69b39a5",
       "work/audit/apply-legislation-20261106T000919.json": "c596af153305ab0135f215ac66482fce77d0dc38613ddf2a33d39a238dbcc3ea",
@@ -1043,7 +1044,7 @@
       "work/audit/apply-legislation-20261106T002343.json": "cce6016ebcee83046dcca9422bea0e45d3fed3379ae19232fdc174c7798eacdc",
       "work/audit/apply-legislation-20261106T084519.json": "2b8d7a459a25ac991a8a7ddde95f14b8c770f48cf86ceeb32677f8b814b81638"
     },
-    "moratorium_inventory.csv": "f8dfd6ee1b44f96d63cd488fa06696fff60f242639fefcb47684bf1a81ee62a0",
+    "moratorium_inventory.csv": "bdca88808ede5b263333a10fe8f752557c18076974b866ba2cfd25669f5abd78",
     "state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038"
   },
   "scope": "Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. This is not the completed freshness funnel required for release.",
@@ -1061,8 +1062,8 @@
         "excluded_completed_pilot": 8
       },
       "editorial_counts": {
-        "no_refresh_apply_change": 716,
-        "has_refresh_apply_change": 615
+        "no_refresh_apply_change": 669,
+        "has_refresh_apply_change": 662
       },
       "records": [
         {
@@ -25404,7 +25405,8 @@
             }
           ],
           "refresh_apply_receipts": [
-            "work/audit/apply-20261105T175237.json"
+            "work/audit/apply-20261105T175237.json",
+            "work/audit/apply-20261106T152826.json"
           ],
           "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
@@ -25421,6 +25423,20 @@
               "last_receipt": "work/audit/apply-20261105T175237.json",
               "last_applied_value_sha256": "3640bdb6789a7130390b871980dd6c8f8fc40d1f7b47e046c6adbdbfe743f863",
               "current_value_sha256": "3640bdb6789a7130390b871980dd6c8f8fc40d1f7b47e046c6adbdbfe743f863",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
               "current_matches_last_applied_value": true
             }
           ]
@@ -25516,10 +25532,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ny-warwick-2023",
@@ -25694,10 +25727,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-beaufort-county-undated",
@@ -25728,10 +25778,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-camden-county-2026",
@@ -25745,10 +25812,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-charlotte-2026",
@@ -25899,10 +25983,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-brevard-2026",
@@ -26070,10 +26171,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-city-of-statesville-2026",
@@ -26104,10 +26222,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-city-of-wilson-2026",
@@ -26121,10 +26256,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-cumberland-county-2026",
@@ -26179,10 +26331,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-durham-2026",
@@ -26213,10 +26382,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-edgecombe-county-2026",
@@ -26230,10 +26416,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-gates-county-2025",
@@ -26337,10 +26540,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-henderson-county-2023",
@@ -26372,7 +26592,8 @@
             }
           ],
           "refresh_apply_receipts": [
-            "work/audit/apply-20261105T170342.json"
+            "work/audit/apply-20261105T170342.json",
+            "work/audit/apply-20261106T152826.json"
           ],
           "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
@@ -26382,6 +26603,20 @@
               "last_receipt": "work/audit/apply-20261105T170342.json",
               "last_applied_value_sha256": "c10d4c78fba9d6badf9633f5adc7497feb0112d6859e9f40a24f3a8e8d7511ff",
               "current_value_sha256": "c10d4c78fba9d6badf9633f5adc7497feb0112d6859e9f40a24f3a8e8d7511ff",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
               "current_matches_last_applied_value": true
             },
             {
@@ -26644,10 +26879,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-pasquotank-county-solar-2026",
@@ -26828,10 +27080,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-apex-2026",
@@ -26845,10 +27114,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-town-of-bailey-2026",
@@ -26910,10 +27196,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-canton-2026",
@@ -26927,10 +27230,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-town-of-cary-2026",
@@ -26944,10 +27264,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-clyde-2026",
@@ -26961,10 +27298,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-town-of-elizabethtown-undated",
@@ -26995,10 +27349,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-town-of-franklin-2026",
@@ -27029,10 +27400,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-town-of-highlands-2026",
@@ -27046,10 +27434,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-town-of-hildebran-2026",
@@ -27063,10 +27468,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-town-of-hillsborough-2026",
@@ -27114,10 +27536,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-town-of-mayodan-2026",
@@ -27277,10 +27716,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nc-wendell-2026",
@@ -27530,10 +27986,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "nd-dunn-county-2026",
@@ -27758,10 +28231,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-amherst-undated",
@@ -27826,10 +28316,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-athens-2026",
@@ -27843,10 +28350,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-athens-township-athens-county-2026",
@@ -28178,10 +28702,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-boston-heights-2025",
@@ -28212,10 +28753,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-bridgewater-township-williams-county-2026",
@@ -28229,10 +28787,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-brimfield-township-2026",
@@ -28407,10 +28982,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-canton-township-2026",
@@ -28492,10 +29084,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-new-carlisle-2026",
@@ -29472,10 +30081,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-grove-city-2026",
@@ -29766,10 +30392,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-jackson-township-clermont-county-2026",
@@ -29783,10 +30426,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-jackson-township-franklin-county-2026",
@@ -29818,11 +30478,26 @@
             }
           ],
           "refresh_apply_receipts": [
-            "work/audit/apply-20261106T082807.json"
+            "work/audit/apply-20261106T082807.json",
+            "work/audit/apply-20261106T152826.json"
           ],
           "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
           "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            },
             {
               "column": "latitude",
               "last_receipt": "work/audit/apply-20261106T082807.json",
@@ -30463,10 +31138,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-monroeville-2026",
@@ -30535,10 +31227,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-morgan-township-butler-county-2026",
@@ -30938,10 +31647,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-northwest-township-williams-county-2026",
@@ -31268,10 +31994,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-plain-township-wood-county-2026",
@@ -31384,10 +32127,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-ravenna-2026",
@@ -31822,10 +32582,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-springfield-2026",
@@ -31839,10 +32616,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-st-bernard-undated",
@@ -31873,10 +32667,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-st-marys-2026",
@@ -32037,10 +32848,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-trenton-township-delaware-county-2026",
@@ -32054,10 +32882,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T152826.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T152826.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "oh-twinsburg-2026",
@@ -39206,8 +40051,8 @@
         }
       ],
       "field_lineage_counts": {
-        "last_applied_field_values": 2003,
-        "matching_current_values": 2003,
+        "last_applied_field_values": 2103,
+        "matching_current_values": 2103,
         "differing_current_values": 0
       }
     },

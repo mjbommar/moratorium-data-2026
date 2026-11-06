@@ -1,0 +1,265 @@
+{
+  "inventory_before_sha256": "f8dfd6ee1b44f96d63cd488fa06696fff60f242639fefcb47684bf1a81ee62a0",
+  "inventory_after_sha256": "bdca88808ede5b263333a10fe8f752557c18076974b866ba2cfd25669f5abd78",
+  "coordinator_fifth_cohort": {
+    "records": 79,
+    "encoding_corrections_applied": 50,
+    "explicit_day_terms_retained": 3,
+    "withheld": 26
+  },
+  "cumulative_coordinator": {
+    "reviewed": 395,
+    "corrected": 187,
+    "retained": 17,
+    "withheld": 191,
+    "pending": 79
+  },
+  "changed_fields": [
+    "duration_kind",
+    "duration_days"
+  ],
+  "changed_field_count": 100,
+  "all_other_values_and_ids_unchanged": true,
+  "state_policy_and_expanded_data_unchanged": true,
+  "replay": {
+    "already_applied_fields": 100,
+    "rows_touched": 0
+  },
+  "tests": {
+    "native_tests": 213,
+    "result": "passed"
+  },
+  "build": {
+    "command": "make data site check PYTHON=.venv/bin/python TODAY=2026-11-05",
+    "errors": 0,
+    "warnings": 450,
+    "documented_numbers_matched": 53
+  },
+  "new_calendar_end_warning_ids": [
+    "nc-alamance-county-2026",
+    "nc-apex-2026",
+    "nc-boone-2026",
+    "nc-camden-county-2026",
+    "nc-canton-2026",
+    "nc-city-of-boiling-spring-lakes-2026",
+    "nc-city-of-southport-2026",
+    "nc-city-of-whiteville-2026",
+    "nc-clyde-2026",
+    "nc-edgecombe-county-2026",
+    "nc-jackson-county-2026",
+    "nc-pasquotank-county-2026",
+    "nc-swain-county-2026",
+    "nc-town-of-cary-2026",
+    "nc-town-of-farmville-2026",
+    "nc-town-of-garner-2026",
+    "nc-town-of-highlands-2026",
+    "nc-town-of-hildebran-2026",
+    "nc-town-of-hot-springs-2026",
+    "nc-town-of-waxhaw-2026",
+    "nd-barnes-county-2026",
+    "ny-village-of-mayville-2025",
+    "oh-alliance-2026",
+    "oh-ashtabula-township-2026",
+    "oh-athens-2026",
+    "oh-boardman-township-2026",
+    "oh-bridgewater-township-williams-county-2026",
+    "oh-butler-county-2026",
+    "oh-green-township-harrison-county-2026",
+    "oh-jackson-2026",
+    "oh-jackson-township-clermont-county-2026",
+    "oh-jefferson-2026",
+    "oh-monroe-township-adams-county-2026",
+    "oh-northfield-center-township-2026",
+    "oh-plain-township-2026",
+    "oh-providence-township-2026",
+    "oh-sprigg-township-2026",
+    "oh-springfield-2026",
+    "oh-st-clair-township-butler-county-2026",
+    "oh-tiffin-2026",
+    "oh-trenton-township-delaware-county-2026"
+  ],
+  "warning_delta": {
+    "removed": [],
+    "added": [
+      [
+        "duration.calendar_end_unverified",
+        "line 1006 (OH Green Township (Harrison County)): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1014 (OH Jackson): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1015 (OH Jackson Township (Clermont County)): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1017 (OH Jefferson): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1034 (OH Monroe Township (Adams County)): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1047 (OH Northfield Center Township): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1057 (OH Plain Township (Stark County)): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1062 (OH Providence Township): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1073 (OH Sprigg Township): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1074 (OH Springfield): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1076 (OH St. Clair Township (Butler County)): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1082 (OH Tiffin): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 1083 (OH Trenton Township (Delaware County)): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 862 (NY Village of Mayville): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 872 (NC Alamance County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 875 (NC Camden County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 880 (NC City of Boiling Spring Lakes): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 887 (NC City of Southport): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 889 (NC City of Whiteville): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 895 (NC Edgecombe County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 901 (NC Jackson County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 909 (NC Pasquotank County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 913 (NC Swain County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 914 (NC Town of Apex): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 916 (NC Town of Boone): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 917 (NC Town of Canton): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 918 (NC Town of Cary): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 919 (NC Town of Clyde): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 921 (NC Town of Farmville): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 923 (NC Town of Garner): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 924 (NC Town of Highlands): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 925 (NC Town of Hildebran): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 928 (NC Town of Hot Springs): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 934 (NC Town of Waxhaw): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 942 (ND Barnes County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 953 (OH Alliance): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 956 (OH Ashtabula Township): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 957 (OH Athens): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 967 (OH Boardman Township): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 970 (OH Bridgewater Township (Williams County)): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ],
+      [
+        "duration.calendar_end_unverified",
+        "line 976 (OH Butler County): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      ]
+    ]
+  },
+  "warning_disposition": "41 unknown current endpoints newly explicit; no endpoint, status, adoption or present-force renewal.",
+  "scope": "Original reported calendar-unit encoding only; comprehensive freshness and final release remain incomplete.",
+  "logs_sha256": {
+    "wave5-tests.log": "695fab641cc79625ccfde296954cc5604c666dd6652ffc5cfb42fc531534d9c8",
+    "wave5-build.log": "e0bae25e7b646a0cc280b8464420c1db44f7abb47ac3dcf97f904de873ff72de",
+    "wave5-replay.log": "2985b1a0fb59649b3c24a26e2eb51e2dbb3488f18205d4dca2d748a9e5c19efb"
+  },
+  "cumulative_frozen_input_comparison": {
+    "baseline_commit": "db58d8c",
+    "reviewed_unique_ids": 395,
+    "changed_rows": 187,
+    "changed_fields": 374,
+    "all_other_values_unchanged": true,
+    "withheld_and_retained_rows_unchanged": true
+  }
+}
